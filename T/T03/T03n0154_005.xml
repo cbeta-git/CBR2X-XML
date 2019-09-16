@@ -11,78 +11,99 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.32 $<date>$Date: 2012/08/27 03:14:00 $</date>新式標點版</edition>
-	</editionStmt>
-	<extent>5卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2012/08/27 03:14:00 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 3, No. 154</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, CBETA OCR Group, Punctuated text as provided by Mr. Zhang Zhao-Yu</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 自行掃瞄辨識，張曌昱大德提供新式標點</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB00186">
-	<charName>CBETA CHARACTER CB00186</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[木*翕]</value>
-	</charProp>
-	<mapping type="unicode">U+3BD3</mapping>
-	<mapping cb:dec="983226" type="PUA">U+F00BA</mapping>
-</char>
-<char xml:id="CB00395">
-	<charName>CBETA CHARACTER CB00395</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[怡-台+龍]</value>
-	</charProp>
-	<mapping type="unicode">U+22931</mapping>
-	<mapping cb:dec="983435" type="PUA">U+F018B</mapping>
-</char>
-<char xml:id="CB00685">
-	<charName>CBETA CHARACTER CB00685</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[〦/(刀*ㄚ*(留-刀-田))/肉]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>臍</value>
-	</charProp>
-	<mapping type="unicode">U+4421</mapping>
-	<mapping cb:dec="983725" type="PUA">U+F02AD</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>5卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">3</idno>.<idno type="no">154</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:11:51 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">生經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, CBETA OCR Group, Punctuated text as provided by Mr. Zhang Zhao-Yu</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 自行掃瞄辨識，張曌昱大德提供新式標點</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00186">
+				<charName>CBETA CHARACTER CB00186</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[木*翕]</value>
+				</charProp>
+				<mapping type="unicode">U+3BD3</mapping>
+				<mapping cb:dec="983226" type="PUA">U+F00BA</mapping>
+			</char>
+			<char xml:id="CB00395">
+				<charName>CBETA CHARACTER CB00395</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[怡-台+龍]</value>
+				</charProp>
+				<mapping type="unicode">U+22931</mapping>
+				<mapping cb:dec="983435" type="PUA">U+F018B</mapping>
+			</char>
+			<char xml:id="CB00685">
+				<charName>CBETA CHARACTER CB00685</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[〦/(刀*ㄚ*(留-刀-田))/肉]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>臍</value>
+				</charProp>
+				<mapping type="unicode">U+4421</mapping>
+				<mapping cb:dec="983725" type="PUA">U+F02AD</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="1999-08-10T22:41:09">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/8/10)</change>
-
- </revisionDesc>
+		<change when="1999-08-10T22:41:09">
+			CW (ed.) Created initial TEI XML version with BASICX.BAT (99/8/10)
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" n="44" type="經">44 佛說孤獨經</cb:mulu>

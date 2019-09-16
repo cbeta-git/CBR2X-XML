@@ -11,83 +11,104 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.23 $<date>$Date: 2009/04/23 08:01:23 $</date></edition>
-	</editionStmt>
-	<extent>20卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/04/23 08:01:23 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 20, No. 1191</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB00263">
-	<charName>CBETA CHARACTER CB00263</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[目*妾]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>睫</value>
-	</charProp>
-	<mapping type="unicode">U+251D2</mapping>
-	<mapping cb:dec="983303" type="PUA">U+F0107</mapping>
-</char>
-<char xml:id="CB00805">
-	<charName>CBETA CHARACTER CB00805</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[牟*含]</value>
-	</charProp>
-	<mapping type="unicode">U+246A5</mapping>
-	<mapping cb:dec="983845" type="PUA">U+F0325</mapping>
-</char>
-<char xml:id="CB01251">
-	<charName>CBETA CHARACTER CB01251</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[巾*(穴/登)]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>幀</value>
-	</charProp>
-	<mapping type="unicode">U+3867</mapping>
-	<mapping cb:dec="984291" type="PUA">U+F04E3</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">20</idno>.<idno type="no">1191</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:11:51 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">大方廣菩薩藏文殊師利根本儀軌經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00263">
+				<charName>CBETA CHARACTER CB00263</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[目*妾]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>睫</value>
+				</charProp>
+				<mapping type="unicode">U+251D2</mapping>
+				<mapping cb:dec="983303" type="PUA">U+F0107</mapping>
+			</char>
+			<char xml:id="CB00805">
+				<charName>CBETA CHARACTER CB00805</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[牟*含]</value>
+				</charProp>
+				<mapping type="unicode">U+246A5</mapping>
+				<mapping cb:dec="983845" type="PUA">U+F0325</mapping>
+			</char>
+			<char xml:id="CB01251">
+				<charName>CBETA CHARACTER CB01251</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[巾*(穴/登)]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>幀</value>
+				</charProp>
+				<mapping type="unicode">U+3867</mapping>
+				<mapping cb:dec="984291" type="PUA">U+F04E3</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="sa">Sanskrit</language>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2000-01-24T11:15:21">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
-
- </revisionDesc>
+		<change when="2000-01-24T11:15:21">
+			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
@@ -288,12 +309,12 @@
 <lb n="0837b02" ed="T"/><note n="0837053" resp="Taisho" place="foot text" type="orig">日王 Āditya-rāja.</note><cb:tt n="0837053" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">日王</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Āditya-rāja.</cb:t></cb:tt>菩薩<note n="0837054" resp="Taisho" place="foot text" type="orig">無性出生王 Abhāvasamudgata-rāja.</note><cb:tt n="0837054" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無性出生王</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Abhāvasamudgata-rāja.</cb:t></cb:tt>菩薩。<note n="0837055" resp="Taisho" place="foot text" type="orig">自性出生王 Svabhāvasamudgata-rāja.</note><cb:tt n="0837055" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">自性出生王</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Svabhāvasamudgata-rāja.</cb:t></cb:tt>
 <lb n="0837b03" ed="T"/>菩薩<note n="0837056" resp="Taisho" place="foot text" type="orig">無性自性出生王 Abhāva-svabhāvasamudgata-rāja.</note><cb:tt n="0837056" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無性自性出生王</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Abhāva-svabhāvasamudgata-rāja.</cb:t></cb:tt>菩薩。<note n="0837057" resp="Taisho" place="foot text" type="orig">不退地王 Avivaksita-rāja.</note><cb:tt n="0837057" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">不退地王</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Avivaksita-rāja.</cb:t></cb:tt>菩
 <lb n="0837b04" ed="T"/>薩自在光菩薩。<note n="0837058" resp="Taisho" place="foot text" type="orig">福德光 Svabhāvu-puṇyābha.</note><cb:tt n="0837058" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">福德光</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Svabhāvu-puṇyābha.</cb:t></cb:tt>菩薩<note n="0837059" resp="Taisho" place="foot text" type="orig">世間光 Lokābha.</note><cb:tt n="0837059" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">世間光</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Lokābha.</cb:t></cb:tt>菩薩。
-<lb n="0837b05" ed="T"/><note n="0837060" resp="Taisho" place="foot text" type="orig">甘露光 Amitābha（梵本）amṛtabha(?)</note>甘露光菩薩<note n="0837061" resp="Taisho" place="foot text" type="orig">無邊光 Anantābha.</note><cb:tt n="0837061" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無邊光</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Anantābha.</cb:t></cb:tt>菩薩。<note n="0837062" resp="Taisho" place="foot text" type="orig">天王光 Sunetrābha.(?)</note><cb:tt n="0837062" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">天王光</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Sunetrābha.</cb:t></cb:tt>菩薩
-<lb n="0837b06" ed="T"/><note n="0837063" resp="Taisho" place="foot text" type="orig">自性光 Susambhavabha.(?)</note><cb:tt n="0837063" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">自性光</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Susambhavabha.</cb:t></cb:tt>菩薩。<note n="0837064" resp="Taisho" place="foot text" type="orig">無性光 Arthabhāvābha.(?)</note><cb:tt n="0837064" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無性光</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Arthabhāvābha.</cb:t></cb:tt>菩薩<note n="0837065" resp="Taisho" place="foot text" type="orig">隱身 Adhṛṣya.(?)</note><cb:tt n="0837065" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">隱身</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Adhṛṣya.</cb:t></cb:tt>菩薩。<note n="0837066" resp="Taisho" place="foot text" type="orig">無觸 Amṛṣya(?)</note><cb:tt n="0837066" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無
-<lb n="0837b07" ed="T"/>觸</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Amṛṣya</cb:t></cb:tt>菩薩。<note n="0837067" resp="Taisho" place="foot text" type="orig">無作 Akṛṣa.</note><cb:tt n="0837067" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無作</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Akṛṣa.</cb:t></cb:tt>菩薩<note n="0837068" resp="Taisho" place="foot text" type="orig">不究竟 Akaniṣṭha.</note><cb:tt n="0837068" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">不究竟</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Akaniṣṭha.</cb:t></cb:tt>菩薩<note n="0837069" resp="Taisho" place="foot text" type="orig">無垢 Amala.</note><cb:tt n="0837069" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無垢</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Amala.</cb:t></cb:tt>菩薩。
-<lb n="0837b08" ed="T"/><note n="0837070" resp="Taisho" place="foot text" type="orig">無火 Anala.(?)</note><cb:tt n="0837070" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無火</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Anala.</cb:t></cb:tt>菩薩<note n="0837071" resp="Taisho" place="foot text" type="orig">須提 Dyuti.(?)</note><cb:tt n="0837071" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">須提</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Dyuti.</cb:t></cb:tt>菩薩。<note n="0837072" resp="Taisho" place="foot text" type="orig">Mati.</note><anchor xml:id="nkr_note_foreign_0837072" n="0837072"/>末底菩薩<note n="0837073" resp="Taisho" place="foot text" type="orig">誐諦 Pati.(?)</note><cb:tt n="0837073" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">誐諦</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Pati.</cb:t></cb:tt>菩
-<lb n="0837b09" ed="T"/>薩。<note n="0837074" resp="Taisho" place="foot text" type="orig">安樂 Sukha.</note><cb:tt n="0837074" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">安樂</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sukha.</cb:t></cb:tt>菩薩<note n="0837075" resp="Taisho" place="foot text" type="orig">Mukha.</note><anchor xml:id="nkr_note_foreign_0837075" n="0837075"/>目佉菩薩。<note n="0837076" resp="Taisho" place="foot text" type="orig">哩彌 Nemi(?)</note><cb:tt n="0837076" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">哩彌</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Nemi</cb:t></cb:tt><note n="0837077" resp="Taisho" place="foot text" type="orig">Nimi.</note><anchor xml:id="nkr_note_foreign_0837077" n="0837077"/>儞彌菩薩
-<lb n="0837b10" ed="T"/><note n="0837078" resp="Taisho" place="foot text" type="orig">Ketu.</note><anchor xml:id="nkr_note_foreign_0837078" n="0837078"/>計都菩薩。<note n="0837079" resp="Taisho" place="foot text" type="orig">歡喜 Rkṣa(?)</note><cb:tt n="0837079" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">歡喜</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Rkṣa</cb:t></cb:tt>菩薩。<note n="0837080" resp="Taisho" place="foot text" type="orig">因光 Divideva(?)</note><cb:tt n="0837080" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">因光</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Divideva</cb:t></cb:tt>菩薩<note n="0837081" resp="Taisho" place="foot text" type="orig">Divya.</note><anchor xml:id="nkr_note_foreign_0837081" n="0837081"/>儞嚩菩
+<lb n="0837b05" ed="T"/><note n="0837060" resp="Taisho" place="foot text" type="orig">甘露光 Amitābha（梵本）amṛtabha(?)</note>甘露光菩薩<note n="0837061" resp="Taisho" place="foot text" type="orig">無邊光 Anantābha.</note><cb:tt n="0837061" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無邊光</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Anantābha.</cb:t></cb:tt>菩薩。<note n="0837062" resp="Taisho" place="foot text" type="orig">天王光 Sunetrābha.(?)</note><cb:tt n="0837062" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">天王光</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Sunetrābha.</cb:t></cb:tt>菩薩
+<lb n="0837b06" ed="T"/><note n="0837063" resp="Taisho" place="foot text" type="orig">自性光 Susambhavabha.(?)</note><cb:tt n="0837063" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">自性光</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Susambhavabha.</cb:t></cb:tt>菩薩。<note n="0837064" resp="Taisho" place="foot text" type="orig">無性光 Arthabhāvābha.(?)</note><cb:tt n="0837064" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無性光</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Arthabhāvābha.</cb:t></cb:tt>菩薩<note n="0837065" resp="Taisho" place="foot text" type="orig">隱身 Adhṛṣya.(?)</note><cb:tt n="0837065" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">隱身</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Adhṛṣya.</cb:t></cb:tt>菩薩。<note n="0837066" resp="Taisho" place="foot text" type="orig">無觸 Amṛṣya(?)</note><cb:tt n="0837066" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無
+<lb n="0837b07" ed="T"/>觸</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Amṛṣya</cb:t></cb:tt>菩薩。<note n="0837067" resp="Taisho" place="foot text" type="orig">無作 Akṛṣa.</note><cb:tt n="0837067" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無作</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Akṛṣa.</cb:t></cb:tt>菩薩<note n="0837068" resp="Taisho" place="foot text" type="orig">不究竟 Akaniṣṭha.</note><cb:tt n="0837068" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">不究竟</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Akaniṣṭha.</cb:t></cb:tt>菩薩<note n="0837069" resp="Taisho" place="foot text" type="orig">無垢 Amala.</note><cb:tt n="0837069" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無垢</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Amala.</cb:t></cb:tt>菩薩。
+<lb n="0837b08" ed="T"/><note n="0837070" resp="Taisho" place="foot text" type="orig">無火 Anala.(?)</note><cb:tt n="0837070" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無火</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Anala.</cb:t></cb:tt>菩薩<note n="0837071" resp="Taisho" place="foot text" type="orig">須提 Dyuti.(?)</note><cb:tt n="0837071" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">須提</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Dyuti.</cb:t></cb:tt>菩薩。<note n="0837072" resp="Taisho" place="foot text" type="orig">Mati.</note><anchor xml:id="nkr_note_foreign_0837072" n="0837072"/>末底菩薩<note n="0837073" resp="Taisho" place="foot text" type="orig">誐諦 Pati.(?)</note><cb:tt n="0837073" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">誐諦</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Pati.</cb:t></cb:tt>菩
+<lb n="0837b09" ed="T"/>薩。<note n="0837074" resp="Taisho" place="foot text" type="orig">安樂 Sukha.</note><cb:tt n="0837074" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">安樂</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sukha.</cb:t></cb:tt>菩薩<note n="0837075" resp="Taisho" place="foot text" type="orig">Mukha.</note><anchor xml:id="nkr_note_foreign_0837075" n="0837075"/>目佉菩薩。<note n="0837076" resp="Taisho" place="foot text" type="orig">哩彌 Nemi(?)</note><cb:tt n="0837076" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">哩彌</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Nemi</cb:t></cb:tt><note n="0837077" resp="Taisho" place="foot text" type="orig">Nimi.</note><anchor xml:id="nkr_note_foreign_0837077" n="0837077"/>儞彌菩薩
+<lb n="0837b10" ed="T"/><note n="0837078" resp="Taisho" place="foot text" type="orig">Ketu.</note><anchor xml:id="nkr_note_foreign_0837078" n="0837078"/>計都菩薩。<note n="0837079" resp="Taisho" place="foot text" type="orig">歡喜 Rkṣa(?)</note><cb:tt n="0837079" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">歡喜</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Rkṣa</cb:t></cb:tt>菩薩。<note n="0837080" resp="Taisho" place="foot text" type="orig">因光 Divideva(?)</note><cb:tt n="0837080" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">因光</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Divideva</cb:t></cb:tt>菩薩<note n="0837081" resp="Taisho" place="foot text" type="orig">Divya.</note><anchor xml:id="nkr_note_foreign_0837081" n="0837081"/>儞嚩菩
 <lb n="0837b11" ed="T"/>薩天中天菩薩。<note n="0837082" resp="Taisho" place="foot text" type="orig">Nābhi.</note><anchor xml:id="nkr_note_foreign_0837082" n="0837082"/>曩鼻菩薩<note n="0837083" resp="Taisho" place="foot text" type="orig">大車 Ravana.</note><cb:tt n="0837083" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大車</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Ravana.</cb:t></cb:tt>菩薩。<note n="0837084" resp="Taisho" place="foot text" type="orig">世間 Loka.</note><cb:tt n="0837084" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">世間</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Loka.</cb:t></cb:tt>
 <lb n="0837b12" ed="T"/>菩薩<note n="0837085" resp="Taisho" place="foot text" type="orig">息災 Śānti.</note><cb:tt n="0837085" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">息災</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śānti.</cb:t></cb:tt>菩薩。<note n="0837086" resp="Taisho" place="foot text" type="orig">深喜 Upāriṣṭha.</note><cb:tt n="0837086" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">深喜</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Upāriṣṭha.</cb:t></cb:tt>菩薩<note n="0837087" resp="Taisho" place="foot text" type="orig">鼓音 Dundubhī.</note><cb:tt n="0837087" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">鼓音</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Dundubhī.</cb:t></cb:tt>菩薩。<note n="0837088" resp="Taisho" place="foot text" type="orig">成就 Siddha.</note><cb:tt n="0837088" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">成
 <lb n="0837b13" ed="T"/>就</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Siddha.</cb:t></cb:tt>菩薩<note n="0837089" resp="Taisho" place="foot text" type="orig">白光 Śiva.（梵本）</note>白光菩薩。<note n="0837090" resp="Taisho" place="foot text" type="orig">最上 Ākhya.（梵本）</note>最上菩薩<note n="0837091" resp="Taisho" place="foot text" type="orig">淨天 Divya.</note><cb:tt n="0837091" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">淨天</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Divya.</cb:t></cb:tt>菩薩。
@@ -340,7 +361,7 @@
 <lb n="0838a24" ed="T"/>菩薩<note n="0838064" resp="Taisho" place="foot text" type="orig">勝尊 Sumahat.</note><cb:tt n="0838064" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">勝尊</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sumahat.</cb:t></cb:tt>菩薩。<note n="0838065" resp="Taisho" place="foot text" type="orig">名稱 Yāśovata.</note><cb:tt n="0838065" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">名稱</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Yāśovata.</cb:t></cb:tt>菩薩<note n="0838066" resp="Taisho" place="foot text" type="orig">日光 Āditya-prabhāva.</note><cb:tt n="0838066" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">日光</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Āditya-prabhāva.</cb:t></cb:tt>菩薩。<note n="0838067" resp="Taisho" place="foot text" type="orig">光天 Prabha-viṣṇu.</note><cb:tt n="0838067" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">光
 <lb n="0838a25" ed="T"/>天</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Prabha-viṣṇu.</cb:t></cb:tt>菩薩<note n="0838068" resp="Taisho" place="foot text" type="orig">善自在 Someśvara.</note><cb:tt n="0838068" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">善自在</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Someśvara.</cb:t></cb:tt>菩薩。<note n="0838069" resp="Taisho" place="foot text" type="orig">善 Soma.</note><cb:tt n="0838069" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">善</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Soma.</cb:t></cb:tt>菩薩<note n="0838070" resp="Taisho" place="foot text" type="orig">深善 Saumya.</note><cb:tt n="0838070" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">深善</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Saumya.</cb:t></cb:tt>菩薩。
 <lb n="0838a26" ed="T"/><note n="0838071" resp="Taisho" place="foot text" type="orig">無邊吉祥 Anantaśrī.</note><cb:tt n="0838071" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無邊吉祥</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Anantaśrī.</cb:t></cb:tt>菩薩<note n="0838072" resp="Taisho" place="foot text" type="orig">普遍吉祥（梵本缺）</note>普遍吉祥菩薩。<note n="0838073" resp="Taisho" place="foot text" type="orig">世吉祥 Lokaśrī.</note><cb:tt n="0838073" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">世吉祥</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Lokaśrī.</cb:t></cb:tt>菩
-<lb n="0838a27" ed="T"/>薩<note n="0838074" resp="Taisho" place="foot text" type="orig">虛空菩薩 Gagana gaganāḍya.</note><cb:tt n="0838074" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">虛<note n="0838075" resp="Taisho" place="foot text" type="orig">空＋（虛空）【三】</note><note n="0838075" resp="CBETA" type="mod">空【大】，空虛空【宋】【元】【明】</note><app n="0838075"><lem wit="【大】">空</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">空虛空</rdg></app>菩薩</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Gagana gaganāḍya.</cb:t></cb:tt>。<note n="0838076" resp="Taisho" place="foot text" type="orig">虛空自在藏 Gagana-gaṅ(ja?)</note><cb:tt n="0838076" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">虛空自在藏</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Gagana-gaṅ(ja?)</cb:t></cb:tt>菩薩<note n="0838077" resp="Taisho" place="foot text" type="orig">地自在 Kṣiteśvara.</note><cb:tt n="0838077" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">地自在</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kṣiteśvara.</cb:t></cb:tt>
+<lb n="0838a27" ed="T"/>薩<note n="0838074" resp="Taisho" place="foot text" type="orig">虛空菩薩 Gagana gaganāḍya.</note><cb:tt n="0838074" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">虛<note n="0838075" resp="Taisho" place="foot text" type="orig">空＋（虛空）【三】</note><note n="0838075" resp="CBETA" type="mod">空【大】，空虛空【宋】【元】【明】</note><app n="0838075"><lem wit="【大】">空</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">空虛空</rdg></app>菩薩</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Gagana gaganāḍya.</cb:t></cb:tt>。<note n="0838076" resp="Taisho" place="foot text" type="orig">虛空自在藏 Gagana-gaṅ(ja?)</note><cb:tt n="0838076" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">虛空自在藏</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Gagana-gaṅ(ja?)</cb:t></cb:tt>菩薩<note n="0838077" resp="Taisho" place="foot text" type="orig">地自在 Kṣiteśvara.</note><cb:tt n="0838077" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">地自在</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kṣiteśvara.</cb:t></cb:tt>
 <lb n="0838a28" ed="T"/>菩薩。<note n="0838078" resp="Taisho" place="foot text" type="orig">大自在 Maheśvara.</note><cb:tt n="0838078" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大自在</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Maheśvara.</cb:t></cb:tt>菩薩<note n="0838079" resp="Taisho" place="foot text" type="orig">大地 Kṣiti.</note><cb:tt n="0838079" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大地</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kṣiti.</cb:t></cb:tt>菩薩。<note n="0838080" resp="Taisho" place="foot text" type="orig">地藏 Kṣiti-garbha.</note><cb:tt n="0838080" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">地藏</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kṣiti-garbha.</cb:t></cb:tt>菩薩
 <lb n="0838a29" ed="T"/><note n="0838081" resp="Taisho" place="foot text" type="orig">除一切蓋障 Sarva-nīvaraṇa-viśkambhi.</note><cb:tt n="0838081" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">除一切蓋障</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sarva-nīvaraṇa-viśkambhi.</cb:t></cb:tt>菩薩。<note n="0838082" resp="Taisho" place="foot text" type="orig">普調伏普賢 Samanta-nirmatana samanta-bhadra.</note><cb:tt n="0838082" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">普調伏普賢</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Samanta-nirmatana samanta-bhadra.</cb:t></cb:tt>菩薩<note n="0838083" resp="Taisho" place="foot text" type="orig">賢護 Bbadra-pāṇi.</note><cb:tt n="0838083" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">賢護</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Bbadra-pāṇi.</cb:t></cb:tt>
 <pb n="0838b" xml:id="T20.1191.0838b" ed="T"/>

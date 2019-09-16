@@ -11,57 +11,78 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.23 $<date>$Date: 2009/04/23 08:01:23 $</date></edition>
-	</editionStmt>
-	<extent>20卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/04/23 08:01:23 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 20, No. 1191</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB00768">
-	<charName>CBETA CHARACTER CB00768</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[口*爾]</value>
-	</charProp>
-	<mapping type="unicode">U+21060</mapping>
-	<mapping cb:dec="983808" type="PUA">U+F0300</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">20</idno>.<idno type="no">1191</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:11:51 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">大方廣菩薩藏文殊師利根本儀軌經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00768">
+				<charName>CBETA CHARACTER CB00768</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[口*爾]</value>
+				</charProp>
+				<mapping type="unicode">U+21060</mapping>
+				<mapping cb:dec="983808" type="PUA">U+F0300</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="sa">Sanskrit</language>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2000-01-24T11:15:21">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
-
- </revisionDesc>
+		<change when="2000-01-24T11:15:21">
+			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" n="1" type="品">1 序品</cb:mulu><cb:mulu level="2">2</cb:mulu><cb:div type="pin">
@@ -116,7 +137,7 @@
 <lb n="0846a01" ed="T"/><p xml:id="pT20p0846a0101">復有娑婆世界欲色等諸天。所謂梵眾天梵
 <lb n="0846a02" ed="T"/>輔天大梵天。少光天無量光天極光淨天。少
 <lb n="0846a03" ed="T"/>淨天無量淨天遍淨天。廣果天<note n="0846001" resp="Taisho" place="foot text" type="orig">Puṇyābha.</note><anchor xml:id="nkr_note_foreign_0846001" n="0846001"/>福生天。無雲
-<lb n="0846a04" ed="T"/>天無想天。<note n="0846002" resp="Taisho" place="foot text" type="orig">無煩 Aṭṛha(Avṛhā?)</note><cb:tt n="0846002" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無煩</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Aṭṛha</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Avṛhā</cb:t></cb:tt>天<note n="0846003" resp="Taisho" place="foot text" type="orig">無熱 Atapā.</note><cb:tt n="0846003" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無熱</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Atapā.</cb:t></cb:tt>天<note n="0846004" resp="Taisho" place="foot text" type="orig">善現 Sudṛśā.</note><cb:tt n="0846004" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">善現</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sudṛśā.</cb:t></cb:tt>天<note n="0846005" resp="Taisho" place="foot text" type="orig">善見 Sudarśanā.</note><cb:tt n="0846005" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">善見</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sudarśanā.</cb:t></cb:tt>
+<lb n="0846a04" ed="T"/>天無想天。<note n="0846002" resp="Taisho" place="foot text" type="orig">無煩 Aṭṛha(Avṛhā?)</note><cb:tt n="0846002" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無煩</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Aṭṛha</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Avṛhā</cb:t></cb:tt>天<note n="0846003" resp="Taisho" place="foot text" type="orig">無熱 Atapā.</note><cb:tt n="0846003" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無熱</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Atapā.</cb:t></cb:tt>天<note n="0846004" resp="Taisho" place="foot text" type="orig">善現 Sudṛśā.</note><cb:tt n="0846004" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">善現</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sudṛśā.</cb:t></cb:tt>天<note n="0846005" resp="Taisho" place="foot text" type="orig">善見 Sudarśanā.</note><cb:tt n="0846005" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">善見</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sudarśanā.</cb:t></cb:tt>
 <lb n="0846a05" ed="T"/>天<note n="0846006" resp="Taisho" place="foot text" type="orig">色究竟 Akaniṣṭha.</note><cb:tt n="0846006" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">色究竟</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Akaniṣṭha.</cb:t></cb:tt>天。空無邊處識無邊處。<note n="0846007" resp="Taisho" place="foot text" type="orig">無所有處 Ākiñcanyā.</note><cb:tt n="0846007" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無所有
 <lb n="0846a06" ed="T"/>處</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Ākiñcanyā.</cb:t></cb:tt>非想非非想處。下及欲界他化自在天。化
 <lb n="0846a07" ed="T"/>樂天<note n="0846008" resp="Taisho" place="foot text" type="orig">Tuṣṅā.</note><anchor xml:id="nkr_note_foreign_0846008" n="0846008"/>兜率陀天。<note n="0846009" resp="Taisho" place="foot text" type="orig">Yāmā.</note><anchor xml:id="nkr_note_foreign_0846009" n="0846009"/>夜摩天忉利天。<note n="0846010" resp="Taisho" place="foot text" type="orig">四大王 Cātur-mahārājikā.</note><cb:tt n="0846010" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">四大王</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Cātur-mahārājikā.</cb:t></cb:tt>天
@@ -171,7 +192,7 @@
 <lb n="0846b26" ed="T"/><p xml:id="pT20p0846b2601">復有<note n="0846135" resp="Taisho" place="foot text" type="orig">三十六宮 Ṣaṭtṛṁśad rāśaya.</note><cb:tt n="0846135" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">三十六宮</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Ṣaṭtṛṁśad rāśaya.</cb:t></cb:tt>。所謂<note n="0846136" resp="Taisho" place="foot text" type="orig">羊 Meṣa.</note><cb:tt n="0846136" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">羊</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Meṣa.</cb:t></cb:tt>宮<note n="0846137" resp="Taisho" place="foot text" type="orig">牛 Vrṣabha.</note><cb:tt n="0846137" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">牛</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vrṣabha.</cb:t></cb:tt>宮。<note n="0846138" resp="Taisho" place="foot text" type="orig">女 mithuna.</note><cb:tt n="0846138" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">女</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">mithuna.</cb:t></cb:tt>宮<note n="0846139" resp="Taisho" place="foot text" type="orig">蟹 Karkaṭaka.</note><cb:tt n="0846139" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">蟹</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Karkaṭaka.</cb:t></cb:tt>
 <lb n="0846b27" ed="T"/>宮。<note n="0846140" resp="Taisho" place="foot text" type="orig">師子 Siṁha.</note><cb:tt n="0846140" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">師子</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Siṁha.</cb:t></cb:tt>宮<note n="0846141" resp="Taisho" place="foot text" type="orig">童女 Kanya.</note><cb:tt n="0846141" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">童女</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kanya.</cb:t></cb:tt>宮。<note n="0846142" resp="Taisho" place="foot text" type="orig">秤 Tula.</note><cb:tt n="0846142" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">秤</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Tula.</cb:t></cb:tt>宮<note n="0846143" resp="Taisho" place="foot text" type="orig">蝎 Vṛścika.</note><cb:tt n="0846143" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">蝎</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vṛścika.</cb:t></cb:tt>宮。<note n="0846144" resp="Taisho" place="foot text" type="orig">弓馬 Dhanu.</note><cb:tt n="0846144" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">弓馬</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Dhanu.</cb:t></cb:tt>宮
 <lb n="0846b28" ed="T"/><note n="0846145" resp="Taisho" place="foot text" type="orig">Makara.</note><anchor xml:id="nkr_note_foreign_0846145" n="0846145"/>摩竭魚宮。<note n="0846146" resp="Taisho" place="foot text" type="orig">瓶 Kumbha.</note><cb:tt n="0846146" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">瓶</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kumbha.</cb:t></cb:tt>宮<note n="0846147" resp="Taisho" place="foot text" type="orig">魚 Mīna.</note><cb:tt n="0846147" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">魚</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mīna.</cb:t></cb:tt>宮。<note n="0846148" resp="Taisho" place="foot text" type="orig">猴 Vānara.</note><cb:tt n="0846148" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">猴</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vānara.</cb:t></cb:tt>宮<note n="0846149" resp="Taisho" place="foot text" type="orig">大瓶 Upakumbha.</note><cb:tt n="0846149" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大瓶</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Upakumbha.</cb:t></cb:tt>宮。<note n="0846150" resp="Taisho" place="foot text" type="orig">淨瓶 Bhṛṅjāra<note place="inline">Bhṛṅgāra?</note></note><cb:tt n="0846150" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">淨
-<lb n="0846b29" ed="T"/>瓶</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Bhṛṅjāra</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Bhṛṅgāra</cb:t></cb:tt>宮<note n="0846151" resp="Taisho" place="foot text" type="orig">螺 Khaḍga.</note><cb:tt n="0846151" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">螺</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Khaḍga.</cb:t></cb:tt>宮。<note n="0846152" resp="Taisho" place="foot text" type="orig">象 Kuñjara.</note><cb:tt n="0846152" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">象</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kuñjara.</cb:t></cb:tt>宮<note n="0846153" resp="Taisho" place="foot text" type="orig">水牛 Mahiṣa.</note><cb:tt n="0846153" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">水牛</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahiṣa.</cb:t></cb:tt>宮。<note n="0846154" resp="Taisho" place="foot text" type="orig">天 Deva.</note><cb:tt n="0846154" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">天</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Deva.</cb:t></cb:tt>宮<note n="0846155" resp="Taisho" place="foot text" type="orig">人 Manuṣya.</note><cb:tt n="0846155" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">人</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Manuṣya.</cb:t></cb:tt>宮。<note n="0846156" resp="Taisho" place="foot text" type="orig">禽 Sakuna.</note><cb:tt n="0846156" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">禽</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sakuna.</cb:t></cb:tt>
+<lb n="0846b29" ed="T"/>瓶</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Bhṛṅjāra</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Bhṛṅgāra</cb:t></cb:tt>宮<note n="0846151" resp="Taisho" place="foot text" type="orig">螺 Khaḍga.</note><cb:tt n="0846151" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">螺</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Khaḍga.</cb:t></cb:tt>宮。<note n="0846152" resp="Taisho" place="foot text" type="orig">象 Kuñjara.</note><cb:tt n="0846152" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">象</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kuñjara.</cb:t></cb:tt>宮<note n="0846153" resp="Taisho" place="foot text" type="orig">水牛 Mahiṣa.</note><cb:tt n="0846153" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">水牛</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahiṣa.</cb:t></cb:tt>宮。<note n="0846154" resp="Taisho" place="foot text" type="orig">天 Deva.</note><cb:tt n="0846154" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">天</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Deva.</cb:t></cb:tt>宮<note n="0846155" resp="Taisho" place="foot text" type="orig">人 Manuṣya.</note><cb:tt n="0846155" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">人</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Manuṣya.</cb:t></cb:tt>宮。<note n="0846156" resp="Taisho" place="foot text" type="orig">禽 Sakuna.</note><cb:tt n="0846156" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">禽</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sakuna.</cb:t></cb:tt>
 <pb n="0846c" xml:id="T20.1191.0846c" ed="T"/>
 <lb n="0846c01" ed="T"/>宮<note n="0846157" resp="Taisho" place="foot text" type="orig">樂神 Gandharva.</note><cb:tt n="0846157" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">樂神</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Gandharva.</cb:t></cb:tt>宮。<note n="0846158" resp="Taisho" place="foot text" type="orig">世間 Loka.</note><cb:tt n="0846158" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">世間</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Loka.</cb:t></cb:tt>宮<note n="0846159" resp="Taisho" place="foot text" type="orig">眾生 Sattva.</note><cb:tt n="0846159" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">眾生</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sattva.</cb:t></cb:tt>宮。<note n="0846160" resp="Taisho" place="foot text" type="orig">曜</note>曜宮<note n="0846161" resp="Taisho" place="foot text" type="orig">光明</note>光明
 <lb n="0846c02" ed="T"/>宮。<note n="0846162" resp="Taisho" place="foot text" type="orig">月明 Jita ugrateja jyotsna.</note><cb:tt n="0846162" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">月明</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Jita ugrateja jyotsna.</cb:t></cb:tt>宮<note n="0846163" resp="Taisho" place="foot text" type="orig">槎吒 Chāya.</note><cb:tt n="0846163" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">槎吒</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Chāya.</cb:t></cb:tt>宮。<note n="0846164" resp="Taisho" place="foot text" type="orig">地 Pṛthivī.</note><cb:tt n="0846164" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">地</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Pṛthivī.</cb:t></cb:tt>宮<note n="0846165" resp="Taisho" place="foot text" type="orig">暗 Tama.</note><cb:tt n="0846165" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">暗</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Tama.</cb:t></cb:tt>宮。<note n="0846166" resp="Taisho" place="foot text" type="orig">塵 Raja.</note><cb:tt n="0846166" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">塵</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Raja.</cb:t></cb:tt>宮<note n="0846167" resp="Taisho" place="foot text" type="orig">微塵 Uparaja.</note><cb:tt n="0846167" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">微

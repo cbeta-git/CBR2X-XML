@@ -11,90 +11,120 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.21 $<date>$Date: 2012/03/12 06:01:22 $</date></edition>
-	</editionStmt>
-	<extent>3卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2012/03/12 06:01:22 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 85, No. 2871</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as inputted by Miss Chen Miao-Ru, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，陳妙如大德輸入，北美某大德提供</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB00079">
-	<charName>CBETA CHARACTER CB00079</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[口*睪]</value>
-	</charProp>
-	<mapping type="unicode">U+3601</mapping>
-	<mapping cb:dec="983119" type="PUA">U+F004F</mapping>
-</char>
-<char xml:id="CB00166">
-	<charName>CBETA CHARACTER CB00166</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[月*庸]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>傭</value>
-	</charProp>
-	<mapping type="unicode">U+267DB</mapping>
-	<mapping cb:dec="983206" type="PUA">U+F00A6</mapping>
-</char>
-<char xml:id="CB00263">
-	<charName>CBETA CHARACTER CB00263</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[目*妾]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>睫</value>
-	</charProp>
-	<mapping type="unicode">U+251D2</mapping>
-	<mapping cb:dec="983303" type="PUA">U+F0107</mapping>
-</char>
-<char xml:id="CB06224">
-	<charName>CBETA CHARACTER CB06224</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[葶-丁+呆]</value>
-	</charProp>
-	<mapping cb:dec="989264" type="PUA">U+F1850</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>3卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">85</idno>.<idno type="no">2871</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:11:51 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">大通方廣懺悔滅罪莊嚴成佛經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as inputted by Miss Chen Miao-Ru, Text as provided by Anonymous from USA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，陳妙如大德輸入，北美某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00079">
+				<charName>CBETA CHARACTER CB00079</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[口*睪]</value>
+				</charProp>
+				<mapping type="unicode">U+3601</mapping>
+				<mapping cb:dec="983119" type="PUA">U+F004F</mapping>
+			</char>
+			<char xml:id="CB00166">
+				<charName>CBETA CHARACTER CB00166</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[月*庸]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>傭</value>
+				</charProp>
+				<mapping type="unicode">U+267DB</mapping>
+				<mapping cb:dec="983206" type="PUA">U+F00A6</mapping>
+			</char>
+			<char xml:id="CB00263">
+				<charName>CBETA CHARACTER CB00263</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[目*妾]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>睫</value>
+				</charProp>
+				<mapping type="unicode">U+251D2</mapping>
+				<mapping cb:dec="983303" type="PUA">U+F0107</mapping>
+			</char>
+			<char xml:id="CB06224">
+				<charName>CBETA CHARACTER CB06224</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[葶-丁+呆]</value>
+				</charProp>
+				<mapping cb:dec="989264" type="PUA">U+F1850</mapping>
+			</char>
+			<char xml:id="CB13416">
+				<charName>CBETA CHARACTER CB13416</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[蹲-酋+(十/田/ㄙ)]</value>
+				</charProp>
+				<mapping type="unicode">U+28114</mapping>
+				<mapping cb:dec="996456" type="PUA">U+F3468</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2001-01-31T11:46:38">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
-
- </revisionDesc>
+		<change when="2001-01-31T11:46:38">
+			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:div type="jing">
@@ -309,7 +339,6 @@
 <pb n="1347b" ed="T" xml:id="T85.2871.1347b"/>
 <lb n="1347b01" ed="T"/>哀愍眾生故。為說大乘經。十方諸眾生。若乘
 <lb n="1347b02" ed="T"/>大乘者。亦<note n="1347b0201" resp="CBETA" type="add">復【CB】，［－］【大】</note><app n="1347b0201"><lem wit="【CB】" resp="CBETA.maha">復<note type="cf1">《大通方廣懺悔滅罪莊嚴成佛經》敦煌寶藏校勘版．法護編校增補．大藏文化出版社, 2004</note></lem><rdg wit="【大】"><space quantity="0"/></rdg></app>無增減。容受如虛空。大乘叵思議。
-
 <lb n="1347b03" ed="T"/>神通大智慧。是故諸眾生。當懃修集之。一切
 <lb n="1347b04" ed="T"/>諸天眾。天魔及外道。欲除煩惱縛。歸依於大
 <lb n="1347b05" ed="T"/>乘。具足六神通。三明三達門。能壞魔外道。并
@@ -357,7 +386,7 @@
 <lb n="1347c17" ed="T"/>欺一切諸眾生故得足跟<g ref="#CB00166"/>相。護正法故得
 <lb n="1347c18" ed="T"/>指纖長相。不破壞他故得<note n="1347c1801" resp="CBETA" type="add">網【CB】，同【大】</note><app n="1347c1801"><lem wit="【CB】" resp="CBETA.maha">網<note type="cf1">《大通方廣懺悔滅罪莊嚴成佛經》敦煌寶藏校勘版．法護編校增補．大藏文化出版社, 2004</note></lem><rdg wit="【大】">同</rdg></app>縵相。以妙<note n="1347c1802" resp="CBETA" type="add">服【CB】，眼【大】</note><app n="1347c1802"><lem wit="【CB】" resp="CBETA.maha">服<note type="cf1">《大通方廣懺悔滅罪莊嚴成佛經》敦煌寶藏校勘版．法護編校增補．大藏文化出版社, 2004</note></lem><rdg wit="【大】">眼</rdg></app>奉
 <lb n="1347c19" ed="T"/>施故得手足軟相。以淨食施故得七處滿相。
-<lb n="1347c20" ed="T"/>喜聞法故得鹿王膊相。覆藏他罪過故得馬
+<lb n="1347c20" ed="T"/>喜聞法故得鹿王<note n="1347c2001" resp="CBETA" type="add"><g ref="#CB13416"/>【CB】，膊【大】</note><app n="1347c2001"><lem wit="【CB】" resp="CBETA.maha" cb:provider="iamone (2019-07-19)"><g ref="#CB13416"/><note type="cf1">T15n0643_p0648c04</note></lem><rdg wit="【大】">膊</rdg></app>相。覆藏他罪過故得馬
 <lb n="1347c21" ed="T"/>陰藏相。修十善法故得上身如師子王相。常
 <lb n="1347c22" ed="T"/>以善法化眾生故得缺骨平滿相。救護怖畏
 <lb n="1347c23" ed="T"/>故得臂肘<g ref="#CB00166"/>相。見他造三寶業樂佐助故得

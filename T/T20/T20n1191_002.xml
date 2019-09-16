@@ -11,75 +11,96 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.23 $<date>$Date: 2009/04/23 08:01:23 $</date></edition>
-	</editionStmt>
-	<extent>20卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/04/23 08:01:23 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 20, No. 1191</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB00145">
-	<charName>CBETA CHARACTER CB00145</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[少/兔]</value>
-	</charProp>
-	<mapping type="unicode">U+3779</mapping>
-	<mapping cb:dec="983185" type="PUA">U+F0091</mapping>
-</char>
-<char xml:id="CB00768">
-	<charName>CBETA CHARACTER CB00768</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[口*爾]</value>
-	</charProp>
-	<mapping type="unicode">U+21060</mapping>
-	<mapping cb:dec="983808" type="PUA">U+F0300</mapping>
-</char>
-<char xml:id="CB00805">
-	<charName>CBETA CHARACTER CB00805</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[牟*含]</value>
-	</charProp>
-	<mapping type="unicode">U+246A5</mapping>
-	<mapping cb:dec="983845" type="PUA">U+F0325</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">20</idno>.<idno type="no">1191</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:11:51 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">大方廣菩薩藏文殊師利根本儀軌經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00145">
+				<charName>CBETA CHARACTER CB00145</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[少/兔]</value>
+				</charProp>
+				<mapping type="unicode">U+3779</mapping>
+				<mapping cb:dec="983185" type="PUA">U+F0091</mapping>
+			</char>
+			<char xml:id="CB00768">
+				<charName>CBETA CHARACTER CB00768</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[口*爾]</value>
+				</charProp>
+				<mapping type="unicode">U+21060</mapping>
+				<mapping cb:dec="983808" type="PUA">U+F0300</mapping>
+			</char>
+			<char xml:id="CB00805">
+				<charName>CBETA CHARACTER CB00805</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[牟*含]</value>
+				</charProp>
+				<mapping type="unicode">U+246A5</mapping>
+				<mapping cb:dec="983845" type="PUA">U+F0325</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="sa">Sanskrit</language>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2000-01-24T11:15:21">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
-
- </revisionDesc>
+		<change when="2000-01-24T11:15:21">
+			CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" n="1" type="品">1 序品</cb:mulu><cb:mulu level="2">1</cb:mulu><cb:div type="pin">
@@ -104,8 +125,8 @@
 <lb n="0840a17" ed="T"/><note n="0840018" resp="Taisho" place="foot text" type="orig">金剛頂 Vajra-śikha.</note><cb:tt n="0840018" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛頂</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-śikha.</cb:t></cb:tt>明王。<note n="0840019" resp="Taisho" place="foot text" type="orig">金剛牙 Vaira-daṁṣṭra.</note><cb:tt n="0840019" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛牙</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vaira-daṁṣṭra.</cb:t></cb:tt>明王<note n="0840020" resp="Taisho" place="foot text" type="orig">金剛清淨 Suddha-vajra.</note><cb:tt n="0840020" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛清淨</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Suddha-vajra.</cb:t></cb:tt>明王。
 <lb n="0840a18" ed="T"/><note n="0840021" resp="Taisho" place="foot text" type="orig">金剛毛 Vajra-roma.</note><cb:tt n="0840021" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛毛</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-roma.</cb:t></cb:tt>明王<note n="0840022" resp="Taisho" place="foot text" type="orig">金剛集 Vajra-saṃhata.</note><cb:tt n="0840022" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛集</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-saṃhata.</cb:t></cb:tt>明王。<note n="0840023" resp="Taisho" place="foot text" type="orig">金剛面 Vajra-anan.</note><cb:tt n="0840023" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛面</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-anan.</cb:t></cb:tt>明王
 <lb n="0840a19" ed="T"/><note n="0840024" resp="Taisho" place="foot text" type="orig">金剛衣甲 Vajra-kavaca.</note><cb:tt n="0840024" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛衣甲</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-kavaca.</cb:t></cb:tt>明王。<note n="0840025" resp="Taisho" place="foot text" type="orig">金剛頸 Vajra-grīva.</note><cb:tt n="0840025" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛頸</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-grīva.</cb:t></cb:tt>明王<note n="0840026" resp="Taisho" place="foot text" type="orig">金剛臆（梵本缺）</note>金剛臆明王。
-<lb n="0840a20" ed="T"/><note n="0840027" resp="Taisho" place="foot text" type="orig">金剛臍 Vajra-nābhi.</note><cb:tt n="0840027" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛臍</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-nābhi.</cb:t></cb:tt>明王<note n="0840028" resp="Taisho" place="foot text" type="orig">金剛能 Vajranta?</note><cb:tt n="0840028" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛能</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Vajranta</cb:t></cb:tt>明王。<note n="0840029" resp="Taisho" place="foot text" type="orig">金剛牆 Vajra-pañjala.</note><cb:tt n="0840029" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛牆</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-pañjala.</cb:t></cb:tt>明王
-<lb n="0840a21" ed="T"/><note n="0840030" resp="Taisho" place="foot text" type="orig">金剛城 Vajra-prakāra.</note><cb:tt n="0840030" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛城</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-prakāra.</cb:t></cb:tt>明王。<note n="0840031" resp="Taisho" place="foot text" type="orig">金剛器仗 Vajrāsu?</note><cb:tt n="0840031" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛器仗</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Vajrāsu</cb:t></cb:tt>明王<note n="0840032" resp="Taisho" place="foot text" type="orig">金剛弓 Vajra-dhanu.</note><cb:tt n="0840032" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛弓</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-dhanu.</cb:t></cb:tt>明王。
+<lb n="0840a20" ed="T"/><note n="0840027" resp="Taisho" place="foot text" type="orig">金剛臍 Vajra-nābhi.</note><cb:tt n="0840027" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛臍</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-nābhi.</cb:t></cb:tt>明王<note n="0840028" resp="Taisho" place="foot text" type="orig">金剛能 Vajranta?</note><cb:tt n="0840028" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛能</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Vajranta</cb:t></cb:tt>明王。<note n="0840029" resp="Taisho" place="foot text" type="orig">金剛牆 Vajra-pañjala.</note><cb:tt n="0840029" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛牆</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-pañjala.</cb:t></cb:tt>明王
+<lb n="0840a21" ed="T"/><note n="0840030" resp="Taisho" place="foot text" type="orig">金剛城 Vajra-prakāra.</note><cb:tt n="0840030" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛城</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-prakāra.</cb:t></cb:tt>明王。<note n="0840031" resp="Taisho" place="foot text" type="orig">金剛器仗 Vajrāsu?</note><cb:tt n="0840031" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛器仗</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Vajrāsu</cb:t></cb:tt>明王<note n="0840032" resp="Taisho" place="foot text" type="orig">金剛弓 Vajra-dhanu.</note><cb:tt n="0840032" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛弓</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-dhanu.</cb:t></cb:tt>明王。
 <lb n="0840a22" ed="T"/><note n="0840033" resp="Taisho" place="foot text" type="orig">金剛箭 Vajra-śara.</note><cb:tt n="0840033" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛箭</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-śara.</cb:t></cb:tt>明王<note n="0840034" resp="Taisho" place="foot text" type="orig">金剛曩囉 Vajra-nārāca.</note><cb:tt n="0840034" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛曩囉</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-nārāca.</cb:t></cb:tt>左明王。<note n="0840035" resp="Taisho" place="foot text" type="orig">金剛鉤 Vajra-aṅka.</note><cb:tt n="0840035" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛鉤</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-aṅka.</cb:t></cb:tt>明
 <lb n="0840a23" ed="T"/>王<note n="0840036" resp="Taisho" place="foot text" type="orig">金剛鎖 Vajra-sphoṭa.</note><cb:tt n="0840036" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛鎖</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-sphoṭa.</cb:t></cb:tt>明王。<note n="0840037" resp="Taisho" place="foot text" type="orig">金剛地 Vajra-pātāla.</note><cb:tt n="0840037" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛地</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-pātāla.</cb:t></cb:tt>明王<note n="0840038" resp="Taisho" place="foot text" type="orig">金剛忿怒眼 Vajra-bhairava x x netra.</note><cb:tt n="0840038" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛忿怒眼</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-bhairava x x netra.</cb:t></cb:tt>
 <lb n="0840a24" ed="T"/>明王。<note n="0840039" resp="Taisho" place="foot text" type="orig">金剛忿怒 Vajra-krodha.</note><cb:tt n="0840039" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛忿怒</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-krodha.</cb:t></cb:tt>明王。<note n="0840040" resp="Taisho" place="foot text" type="orig">Jalānta-śvara.</note><anchor xml:id="nkr_note_foreign_0840040" n="0840040"/>惹難多濕嚩囉明王。
@@ -149,8 +170,8 @@
 <lb n="0840c02" ed="T"/>怛也<note place="inline">二合</note>等大明王。善能觀察法界自性如空
 <lb n="0840c03" ed="T"/>無礙。亦與百千那由他眷屬。來詣佛所。所謂
 <pb n="0841a" xml:id="T20.1191.0841a" ed="T"/>
-<lb n="0841a01" ed="T"/><note n="0841001" resp="Taisho" place="foot text" type="orig">寶帶 Mekhalā.</note><cb:tt n="0841001" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">寶帶</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mekhalā.</cb:t></cb:tt>明王<note n="0841002" resp="Taisho" place="foot text" type="orig">妙帶 Sumekhalā.</note><cb:tt n="0841002" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">妙帶</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sumekhalā.</cb:t></cb:tt>明王。<note n="0841003" resp="Taisho" place="foot text" type="orig">金剛鎖 Siṅkalā<note place="inline">śṛṅkhala?</note></note><cb:tt n="0841003" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛鎖</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Siṅkalā</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">śṛṅkhala</cb:t></cb:tt>明王<note n="0841004" resp="Taisho" place="foot text" type="orig">金剛毫 Vajrārṇā(vajronā?)</note><cb:tt n="0841004" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛
-<lb n="0841a02" ed="T"/>毫</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajrārṇā</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">vajronā</cb:t></cb:tt>明王。<note n="0841005" resp="Taisho" place="foot text" type="orig">金剛舌 Vajra-jihvā.</note><cb:tt n="0841005" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛舌</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-jihvā.</cb:t></cb:tt>明王<note n="0841006" resp="Taisho" place="foot text" type="orig">金剛眉 Vajra-bhrū.</note><cb:tt n="0841006" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛眉</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-bhrū.</cb:t></cb:tt>明王。<note n="0841007" resp="Taisho" place="foot text" type="orig">金剛眼 Vajra-locanā.</note><cb:tt n="0841007" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛眼</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-locanā.</cb:t></cb:tt>
+<lb n="0841a01" ed="T"/><note n="0841001" resp="Taisho" place="foot text" type="orig">寶帶 Mekhalā.</note><cb:tt n="0841001" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">寶帶</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mekhalā.</cb:t></cb:tt>明王<note n="0841002" resp="Taisho" place="foot text" type="orig">妙帶 Sumekhalā.</note><cb:tt n="0841002" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">妙帶</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sumekhalā.</cb:t></cb:tt>明王。<note n="0841003" resp="Taisho" place="foot text" type="orig">金剛鎖 Siṅkalā<note place="inline">śṛṅkhala?</note></note><cb:tt n="0841003" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛鎖</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Siṅkalā</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">śṛṅkhala</cb:t></cb:tt>明王<note n="0841004" resp="Taisho" place="foot text" type="orig">金剛毫 Vajrārṇā(vajronā?)</note><cb:tt n="0841004" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛
+<lb n="0841a02" ed="T"/>毫</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajrārṇā</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">vajronā</cb:t></cb:tt>明王。<note n="0841005" resp="Taisho" place="foot text" type="orig">金剛舌 Vajra-jihvā.</note><cb:tt n="0841005" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛舌</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-jihvā.</cb:t></cb:tt>明王<note n="0841006" resp="Taisho" place="foot text" type="orig">金剛眉 Vajra-bhrū.</note><cb:tt n="0841006" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛眉</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-bhrū.</cb:t></cb:tt>明王。<note n="0841007" resp="Taisho" place="foot text" type="orig">金剛眼 Vajra-locanā.</note><cb:tt n="0841007" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛眼</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-locanā.</cb:t></cb:tt>
 <lb n="0841a03" ed="T"/>明王<note n="0841008" resp="Taisho" place="foot text" type="orig">金剛身 Vajrānsā.</note><cb:tt n="0841008" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛身</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajrānsā.</cb:t></cb:tt>明王。<note n="0841009" resp="Taisho" place="foot text" type="orig">金剛顰蹙 Vajra-bhrukuṭī.</note><cb:tt n="0841009" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛<note n="0841010" resp="Taisho" place="foot text" type="orig">顰＝嚬【宋】</note><note n="0841010" resp="CBETA" type="mod">顰【大】，嚬【宋】</note><app n="0841010"><lem wit="【大】">顰</lem><rdg resp="Taisho" wit="【宋】">嚬</rdg></app>蹙</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-bhrukuṭī.</cb:t></cb:tt>明王<note n="0841011" resp="Taisho" place="foot text" type="orig">金剛耳 Vajra-śravaṇā.</note><cb:tt n="0841011" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛
 <lb n="0841a04" ed="T"/>耳</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-śravaṇā.</cb:t></cb:tt>明王。<note n="0841012" resp="Taisho" place="foot text" type="orig">金剛隷佉 Vajra-lekhā.</note><cb:tt n="0841012" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛隷佉</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-lekhā.</cb:t></cb:tt>明王<note n="0841013" resp="Taisho" place="foot text" type="orig">金剛針 Vajra-sūcī.</note><cb:tt n="0841013" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛針</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-sūcī.</cb:t></cb:tt>明王。<note n="0841014" resp="Taisho" place="foot text" type="orig">金剛拳 Vajra-mustī.</note><cb:tt n="0841014" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛
 <lb n="0841a05" ed="T"/>拳</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-mustī.</cb:t></cb:tt>明王<note n="0841015" resp="Taisho" place="foot text" type="orig">金剛鉤 Vajrāṅkuśī.</note><cb:tt n="0841015" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛鉤</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajrāṅkuśī.</cb:t></cb:tt>明王。<note n="0841016" resp="Taisho" place="foot text" type="orig">金剛衣 Vajra-śāṭī.</note><cb:tt n="0841016" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛衣</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajra-śāṭī.</cb:t></cb:tt>明王<note n="0841017" resp="Taisho" place="foot text" type="orig">金剛雹 Vajrāsanī.</note><cb:tt n="0841017" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金剛雹</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vajrāsanī.</cb:t></cb:tt>
@@ -166,7 +187,7 @@
 <lb n="0841a15" ed="T"/>惹儞明王<note n="0841046" resp="Taisho" place="foot text" type="orig">Dūtī.</note><anchor xml:id="nkr_note_foreign_0841046" n="0841046"/>努帝明王。<note n="0841047" resp="Taisho" place="foot text" type="orig">Sudūtī.</note><anchor xml:id="nkr_note_foreign_0841047" n="0841047"/>婆努帝明王<note n="0841048" resp="Taisho" place="foot text" type="orig">Māmakī.</note><anchor xml:id="nkr_note_foreign_0841048" n="0841048"/>麼摩計
 <lb n="0841a16" ed="T"/>明王。<note n="0841049" resp="Taisho" place="foot text" type="orig">Vāmanī.</note><anchor xml:id="nkr_note_foreign_0841049" n="0841049"/>嚩摩儞明王<note n="0841050" resp="Taisho" place="foot text" type="orig">Rūpinī.</note><anchor xml:id="nkr_note_foreign_0841050" n="0841050"/>嚕閉尼明王。<note n="0841051" resp="Taisho" place="foot text" type="orig">Rūpavatī.</note><anchor xml:id="nkr_note_foreign_0841051" n="0841051"/>嚕波嚩帝
 <lb n="0841a17" ed="T"/>明王。<note n="0841052" resp="Taisho" place="foot text" type="orig">勝 Jayā.</note><cb:tt n="0841052" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">勝</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Jayā.</cb:t></cb:tt>明王。<note n="0841053" resp="Taisho" place="foot text" type="orig">最勝 Vijayā.</note><cb:tt n="0841053" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">最勝</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vijayā.</cb:t></cb:tt>明王<note n="0841054" resp="Taisho" place="foot text" type="orig">無能勝 Aparājitā.</note><cb:tt n="0841054" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無能勝</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Aparājitā.</cb:t></cb:tt>明王。<note n="0841055" resp="Taisho" place="foot text" type="orig">增益 Śreyasi.</note><cb:tt n="0841055" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">增
-<lb n="0841a18" ed="T"/>益</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śreyasi.</cb:t></cb:tt>明王<note n="0841056" resp="Taisho" place="foot text" type="orig">歡喜 Hāsinī.</note><cb:tt n="0841056" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">歡喜</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Hāsinī.</cb:t></cb:tt>明王。<note n="0841057" resp="Taisho" place="foot text" type="orig">喜金剛 Hāsa-vajriṇī.</note><cb:tt n="0841057" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">喜金剛</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Hāsa-vajriṇī.</cb:t></cb:tt>明王<note n="0841058" resp="Taisho" place="foot text" type="orig">大勢 Lokavatī?</note><cb:tt n="0841058" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大勢</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Lokavatī</cb:t></cb:tt>明王。
+<lb n="0841a18" ed="T"/>益</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śreyasi.</cb:t></cb:tt>明王<note n="0841056" resp="Taisho" place="foot text" type="orig">歡喜 Hāsinī.</note><cb:tt n="0841056" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">歡喜</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Hāsinī.</cb:t></cb:tt>明王。<note n="0841057" resp="Taisho" place="foot text" type="orig">喜金剛 Hāsa-vajriṇī.</note><cb:tt n="0841057" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">喜金剛</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Hāsa-vajriṇī.</cb:t></cb:tt>明王<note n="0841058" resp="Taisho" place="foot text" type="orig">大勢 Lokavatī?</note><cb:tt n="0841058" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大勢</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Lokavatī</cb:t></cb:tt>明王。
 <lb n="0841a19" ed="T"/><note n="0841059" resp="Taisho" place="foot text" type="orig">稱意 Yasavatī.</note><cb:tt n="0841059" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">稱意</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Yasavatī.</cb:t></cb:tt>明王<note n="0841060" resp="Taisho" place="foot text" type="orig">大金剛 Kuliśavatī.</note><cb:tt n="0841060" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大金剛</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kuliśavatī.</cb:t></cb:tt>明王<note n="0841061" resp="Taisho" place="foot text" type="orig">妙壽 Adantā.</note><cb:tt n="0841061" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">妙壽</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Adantā.</cb:t></cb:tt>明王<note n="0841062" resp="Taisho" place="foot text" type="orig">三世 Trailokya.</note><cb:tt n="0841062" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">三世</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Trailokya.</cb:t></cb:tt>明
 <lb n="0841a20" ed="T"/>王。<note n="0841063" resp="Taisho" place="foot text" type="orig">敬愛 Vaśuṅkarī.</note><cb:tt n="0841063" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">敬愛</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vaśuṅkarī.</cb:t></cb:tt>明王<note n="0841064" resp="Taisho" place="foot text" type="orig">杖 Daṇḍā.</note><cb:tt n="0841064" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">杖</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Daṇḍā.</cb:t></cb:tt>明王。<note n="0841065" resp="Taisho" place="foot text" type="orig">大杖 Mahā-daṇḍā.</note><cb:tt n="0841065" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大杖</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahā-daṇḍā.</cb:t></cb:tt>明王<note n="0841066" resp="Taisho" place="foot text" type="orig">善言 Priya-vādinī.</note><cb:tt n="0841066" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">善言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Priya-vādinī.</cb:t></cb:tt>明
 <lb n="0841a21" ed="T"/>王。<note n="0841067" resp="Taisho" place="foot text" type="orig">大愛敬 Saubhāgyavatī.</note><cb:tt n="0841067" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大愛敬</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Saubhāgyavatī.</cb:t></cb:tt>明王<note n="0841068" resp="Taisho" place="foot text" type="orig">大財 Arthavatī.</note><cb:tt n="0841068" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大財</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Arthavatī.</cb:t></cb:tt>明王。<note n="0841069" resp="Taisho" place="foot text" type="orig">大義 Mahānartha.</note><cb:tt n="0841069" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大義</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahānartha.</cb:t></cb:tt>明王<note n="0841070" resp="Taisho" place="foot text" type="orig">的底哩 Tittirī.</note><cb:tt n="0841070" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">的
@@ -218,10 +239,10 @@
 <lb n="0842a03" ed="T"/><note n="0842007" resp="Taisho" place="foot text" type="orig">無邊處 Adantanta.（梵）</note>無邊處辟支佛<note n="0842008" resp="Taisho" place="foot text" type="orig">斷輪迴 Bhavanta.（梵）</note>斷輪迴辟支佛。<note n="0842009" resp="Taisho" place="foot text" type="orig">白幢 Sita-ketu.</note><cb:tt n="0842009" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">白幢</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sita-ketu.</cb:t></cb:tt>辟支
 <lb n="0842a04" ed="T"/>佛<note n="0842010" resp="Taisho" place="foot text" type="orig">幖幟幢 Jihma-ketu.</note><cb:tt n="0842010" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">幖幟幢</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Jihma-ketu.</cb:t></cb:tt>辟支佛。<note n="0842011" resp="Taisho" place="foot text" type="orig">妙幢 Upaketu.</note><cb:tt n="0842011" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">妙幢</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Upaketu.</cb:t></cb:tt>辟支佛<note n="0842012" resp="Taisho" place="foot text" type="orig">底沙 Tathya.</note><cb:tt n="0842012" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">底沙</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Tathya.</cb:t></cb:tt>辟支
 <lb n="0842a05" ed="T"/>佛<note n="0842013" resp="Taisho" place="foot text" type="orig">最上蓮華 Padma-hara.</note><cb:tt n="0842013" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">最上蓮華</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Padma-hara.</cb:t></cb:tt>辟支佛<note n="0842014" resp="Taisho" place="foot text" type="orig">蓮華生 Padma-sambhava.</note><cb:tt n="0842014" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">蓮華生</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Padma-sambhava.</cb:t></cb:tt>辟支佛。<note n="0842015" resp="Taisho" place="foot text" type="orig">未曾有</note>未曾
-<lb n="0842a06" ed="T"/>有辟支佛<note n="0842016" resp="Taisho" place="foot text" type="orig">妙智</note>妙智辟支佛。<note n="0842017" resp="Taisho" place="foot text" type="orig">意 Svayambhū adbhuta manoja manasa.</note><cb:tt n="0842017" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">意</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Svayambhū adbhuta manoja manasa.</cb:t></cb:tt>辟支佛<note n="0842018" resp="Taisho" place="foot text" type="orig">大王 Mahendu(mahendra?)</note><cb:tt n="0842018" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大王</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahendu</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">mahendra</cb:t></cb:tt>辟
+<lb n="0842a06" ed="T"/>有辟支佛<note n="0842016" resp="Taisho" place="foot text" type="orig">妙智</note>妙智辟支佛。<note n="0842017" resp="Taisho" place="foot text" type="orig">意 Svayambhū adbhuta manoja manasa.</note><cb:tt n="0842017" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">意</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Svayambhū adbhuta manoja manasa.</cb:t></cb:tt>辟支佛<note n="0842018" resp="Taisho" place="foot text" type="orig">大王 Mahendu(mahendra?)</note><cb:tt n="0842018" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大王</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahendu</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">mahendra</cb:t></cb:tt>辟
 <lb n="0842a07" ed="T"/>支佛。<note n="0842019" resp="Taisho" place="foot text" type="orig">大積 Kūṭākhya.</note><cb:tt n="0842019" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大積</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kūṭākhya.</cb:t></cb:tt>辟支佛<note n="0842020" resp="Taisho" place="foot text" type="orig">寶瓶 Kumbha.</note><cb:tt n="0842020" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">寶瓶</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kumbha.</cb:t></cb:tt>辟支佛。<note n="0842021" resp="Taisho" place="foot text" type="orig">全眼 Sakalkhya.</note><cb:tt n="0842021" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">全眼</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sakalkhya.</cb:t></cb:tt>辟支
-<lb n="0842a08" ed="T"/>佛<note n="0842022" resp="Taisho" place="foot text" type="orig">善作 Makara(sukara?)</note><cb:tt n="0842022" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">善作</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Makara</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">sukara</cb:t></cb:tt>辟支佛。<note n="0842023" resp="Taisho" place="foot text" type="orig">深善作 Upakara.</note><cb:tt n="0842023" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">深善作</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Upakara.</cb:t></cb:tt>辟支佛<note n="0842024" resp="Taisho" place="foot text" type="orig">自息 Śānta.</note><cb:tt n="0842024" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">自息</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śānta.</cb:t></cb:tt>辟支
-<lb n="0842a09" ed="T"/>佛。<note n="0842025" resp="Taisho" place="foot text" type="orig">善意 Śānta-manasa.</note><cb:tt n="0842025" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">善意</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śānta-manasa.</cb:t></cb:tt>辟支佛<note n="0842026" resp="Taisho" place="foot text" type="orig">法 Varma(dharma?)</note><cb:tt n="0842026" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">法</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Varma</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">dharma</cb:t></cb:tt>辟支佛。<note n="0842027" resp="Taisho" place="foot text" type="orig">妙法 Upavarma(upadharma?)</note><cb:tt n="0842027" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">妙法</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Upavarma</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">upadharma</cb:t></cb:tt>辟支佛
+<lb n="0842a08" ed="T"/>佛<note n="0842022" resp="Taisho" place="foot text" type="orig">善作 Makara(sukara?)</note><cb:tt n="0842022" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">善作</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Makara</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">sukara</cb:t></cb:tt>辟支佛。<note n="0842023" resp="Taisho" place="foot text" type="orig">深善作 Upakara.</note><cb:tt n="0842023" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">深善作</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Upakara.</cb:t></cb:tt>辟支佛<note n="0842024" resp="Taisho" place="foot text" type="orig">自息 Śānta.</note><cb:tt n="0842024" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">自息</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śānta.</cb:t></cb:tt>辟支
+<lb n="0842a09" ed="T"/>佛。<note n="0842025" resp="Taisho" place="foot text" type="orig">善意 Śānta-manasa.</note><cb:tt n="0842025" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">善意</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śānta-manasa.</cb:t></cb:tt>辟支佛<note n="0842026" resp="Taisho" place="foot text" type="orig">法 Varma(dharma?)</note><cb:tt n="0842026" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">法</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Varma</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">dharma</cb:t></cb:tt>辟支佛。<note n="0842027" resp="Taisho" place="foot text" type="orig">妙法 Upavarma(upadharma?)</note><cb:tt n="0842027" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">妙法</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Upavarma</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">upadharma</cb:t></cb:tt>辟支佛
 <lb n="0842a10" ed="T"/><note n="0842028" resp="Taisho" place="foot text" type="orig">遍照 Vairocana.</note><cb:tt n="0842028" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">遍照</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vairocana.</cb:t></cb:tt>辟支佛。<note n="0842029" resp="Taisho" place="foot text" type="orig">華 Kusuma.</note><cb:tt n="0842029" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">華</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kusuma.</cb:t></cb:tt>辟支佛<note n="0842030" resp="Taisho" place="foot text" type="orig">大青 Sulīla.</note><cb:tt n="0842030" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大青</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sulīla.</cb:t></cb:tt>辟支佛。<note n="0842031" resp="Taisho" place="foot text" type="orig">增益 Śreyasa.</note><cb:tt n="0842031" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">增
 <lb n="0842a11" ed="T"/>益</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śreyasa.</cb:t></cb:tt>辟支佛<note n="0842032" resp="Taisho" place="foot text" type="orig">眷屬</note>眷屬辟支佛。<note n="0842033" resp="Taisho" place="foot text" type="orig">遠離 Vadyaharāntaka.</note><cb:tt n="0842033" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">遠離</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vadyaharāntaka.</cb:t></cb:tt>辟支佛<note n="0842034" resp="Taisho" place="foot text" type="orig">難忍 Duḥprasaha.</note><cb:tt n="0842034" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">難忍</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Duḥprasaha.</cb:t></cb:tt>
 <lb n="0842a12" ed="T"/>辟支佛。<note n="0842035" resp="Taisho" place="foot text" type="orig">金 Kanaka.</note><cb:tt n="0842035" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">金</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kanaka.</cb:t></cb:tt>辟支佛<note n="0842036" resp="Taisho" place="foot text" type="orig">無垢 Vimala.</note><cb:tt n="0842036" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無垢</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vimala.</cb:t></cb:tt>辟支佛。<note n="0842037" resp="Taisho" place="foot text" type="orig">幢 Kotu.</note><cb:tt n="0842037" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">幢</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kotu.</cb:t></cb:tt>辟支佛
@@ -309,7 +330,7 @@
 <pb n="0843b" xml:id="T20.1191.0843b" ed="T"/>
 <lb n="0843b01" ed="T"/>者<note n="0843065" resp="Taisho" place="foot text" type="orig">大意 Manovatī.</note><cb:tt n="0843065" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大意</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Manovatī.</cb:t></cb:tt>尊者。<note n="0843066" resp="Taisho" place="foot text" type="orig">歡喜 Prahasitā.</note><cb:tt n="0843066" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">歡喜</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Prahasitā.</cb:t></cb:tt>尊者<note n="0843067" resp="Taisho" place="foot text" type="orig">超三界 Tribhāvantā.</note><cb:tt n="0843067" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">超三界</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Tribhāvantā.</cb:t></cb:tt>尊者。<note n="0843068" resp="Taisho" place="foot text" type="orig">離三毒 Trimalāntā.</note><cb:tt n="0843068" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">離
 <lb n="0843b02" ed="T"/>三毒</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Trimalāntā.</cb:t></cb:tt>尊者<note n="0843069" resp="Taisho" place="foot text" type="orig">除苦惱 Duḥkha-śāyikā.</note><cb:tt n="0843069" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">除苦惱</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Duḥkha-śāyikā.</cb:t></cb:tt>尊者。<note n="0843070" resp="Taisho" place="foot text" type="orig">Nirvīṇā.</note><anchor xml:id="nkr_note_foreign_0843070" n="0843070"/>儞哩尾拏尊者<note n="0843071" resp="Taisho" place="foot text" type="orig">三色 Triparṇa.(trivarṇa?)</note><cb:tt n="0843071" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">三
-<lb n="0843b03" ed="T"/>色</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Triparṇa</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">trivarṇa</cb:t></cb:tt>尊者。<note n="0843072" resp="Taisho" place="foot text" type="orig">蓮華色 Padma-varṇa.</note><cb:tt n="0843072" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">蓮華色</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Padma-varṇa.</cb:t></cb:tt>尊者<note n="0843073" resp="Taisho" place="foot text" type="orig">大蓮華 Padmāvatī.</note><cb:tt n="0843073" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大蓮華</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Padmāvatī.</cb:t></cb:tt>尊者。<note n="0843074" resp="Taisho" place="foot text" type="orig">蓮華光 Padma-prabhā.</note><cb:tt n="0843074" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">蓮華光</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Padma-prabhā.</cb:t></cb:tt>
+<lb n="0843b03" ed="T"/>色</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Triparṇa</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">trivarṇa</cb:t></cb:tt>尊者。<note n="0843072" resp="Taisho" place="foot text" type="orig">蓮華色 Padma-varṇa.</note><cb:tt n="0843072" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">蓮華色</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Padma-varṇa.</cb:t></cb:tt>尊者<note n="0843073" resp="Taisho" place="foot text" type="orig">大蓮華 Padmāvatī.</note><cb:tt n="0843073" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大蓮華</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Padmāvatī.</cb:t></cb:tt>尊者。<note n="0843074" resp="Taisho" place="foot text" type="orig">蓮華光 Padma-prabhā.</note><cb:tt n="0843074" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">蓮華光</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Padma-prabhā.</cb:t></cb:tt>
 <lb n="0843b04" ed="T"/>尊者<note n="0843075" resp="Taisho" place="foot text" type="orig">蓮華 Padmā.</note><cb:tt n="0843075" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">蓮華</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Padmā.</cb:t></cb:tt>尊者。<note n="0843076" resp="Taisho" place="foot text" type="orig">Padmāvatī.</note><anchor xml:id="nkr_note_foreign_0843076" n="0843076"/>鉢捺麼嚩底尊者<note n="0843077" resp="Taisho" place="foot text" type="orig">三相 Triparṇa.</note><cb:tt n="0843077" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">三相</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Triparṇa.</cb:t></cb:tt>尊
 <lb n="0843b05" ed="T"/>者。<note n="0843078" resp="Taisho" place="foot text" type="orig">七色 Sapta-varṇī.</note><cb:tt n="0843078" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">七色</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sapta-varṇī.</cb:t></cb:tt>尊者<note n="0843079" resp="Taisho" place="foot text" type="orig">Utpala-varṇā.</note><anchor xml:id="nkr_note_foreign_0843079" n="0843079"/>優鉢羅色尊者。如是等大尊
 <lb n="0843b06" ed="T"/>者聲聞苾芻尼。皆來佛所頭面禮足。隨喜
@@ -420,7 +441,7 @@
 <lb n="0845a06" ed="T"/><p xml:id="pT20p0845a0601">復有無數大毘舍左。亦與百千那由他俱胝
 <lb n="0845a07" ed="T"/>眷屬俱。所謂<note n="0845017" resp="Taisho" place="foot text" type="orig">Pīlu.</note><anchor xml:id="nkr_note_foreign_0845017" n="0845017"/>閉努毘舍左。<note n="0845018" resp="Taisho" place="foot text" type="orig">Upapīlu.</note><anchor xml:id="nkr_note_foreign_0845018" n="0845018"/>塢波閉努毘舍
 <lb n="0845a08" ed="T"/>左<note n="0845019" resp="Taisho" place="foot text" type="orig">Supīlu.</note><anchor xml:id="nkr_note_foreign_0845019" n="0845019"/>蘇閉努毘舍左。<note n="0845020" resp="Taisho" place="foot text" type="orig">無邊閉拏 Ananta-pīlu.</note><note n="0845020" resp="CBETA" type="mod">無邊閉努 Ananta-pīlu.</note><cb:tt n="0845020" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無邊閉努</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Ananta-pīlu.</cb:t></cb:tt>毘舍左<note n="0845021" resp="Taisho" place="foot text" type="orig">意願 Manoratha.</note><cb:tt n="0845021" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">意願</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Manoratha.</cb:t></cb:tt>
-<lb n="0845a09" ed="T"/>毘舍左<note n="0845022" resp="Taisho" place="foot text" type="orig">無願 Amanoratha.</note><cb:tt n="0845022" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無願</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Amanoratha.</cb:t></cb:tt>毘舍左<note n="0845023" resp="Taisho" place="foot text" type="orig">極惱 Sutāya.</note><cb:tt n="0845023" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">極惱</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sutāya.</cb:t></cb:tt>毘舍左。<note n="0845024" resp="Taisho" place="foot text" type="orig">執持 Grasana(grahana?)</note><cb:tt n="0845024" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">執持</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Grasana</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">grahana</cb:t></cb:tt>毘
+<lb n="0845a09" ed="T"/>毘舍左<note n="0845022" resp="Taisho" place="foot text" type="orig">無願 Amanoratha.</note><cb:tt n="0845022" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無願</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Amanoratha.</cb:t></cb:tt>毘舍左<note n="0845023" resp="Taisho" place="foot text" type="orig">極惱 Sutāya.</note><cb:tt n="0845023" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">極惱</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sutāya.</cb:t></cb:tt>毘舍左。<note n="0845024" resp="Taisho" place="foot text" type="orig">執持 Grasana(grahana?)</note><cb:tt n="0845024" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">執持</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Grasana</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">grahana</cb:t></cb:tt>毘
 <lb n="0845a10" ed="T"/>舍左<note n="0845025" resp="Taisho" place="foot text" type="orig">蘇馱摩 Sudhāma.</note><cb:tt n="0845025" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">蘇馱摩</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sudhāma.</cb:t></cb:tt>毘舍左。<note n="0845026" resp="Taisho" place="foot text" type="orig">惡 Ghara.</note><cb:tt n="0845026" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">惡</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Ghara.</cb:t></cb:tt>毘舍左<note n="0845027" resp="Taisho" place="foot text" type="orig">惡形 Ghora-rūpī.</note><cb:tt n="0845027" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">惡形</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Ghora-rūpī.</cb:t></cb:tt>毘舍
 <lb n="0845a11" ed="T"/>左。皆來集會而為聽法。</p>
 <lb n="0845a12" ed="T"/><p xml:id="pT20p0845a1201">復有無數大龍王。與百千那由他俱胝眷屬

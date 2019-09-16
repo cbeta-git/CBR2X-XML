@@ -11,38 +11,58 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.118 $<date>$Date: 2013/01/30 08:24:16 $</date>新式標點版</edition>
-	</editionStmt>
-	<extent>50卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 （CBETA）</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2013/01/30 08:24:16 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 2, No. 99</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo / proofread twice by Mr. Chang Wen-Ming, Text as provided by The Canon Series / proofread by Miao-Yuan Aranya, Text as provided by Anonymous from USA, Punctuated text as provided by Dhammavassarama</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供／張文明大德二校，佛教經典系列提供／妙雲蘭若校對，北美某大德提供，法雨道場提供新式標點</p>
-	</projectDesc>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>50卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">2</idno>.<idno type="no">99</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 （CBETA）</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:11:51 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">雜阿含經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo / proofread twice by Mr. Chang Wen-Ming, Text as provided by The Canon Series / proofread by Miao-Yuan Aranya, Text as provided by Anonymous from USA, Punctuated text as provided by Dhammavassarama</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供／張文明大德二校，佛教經典系列提供／妙雲蘭若校對，北美某大德提供，法雨道場提供新式標點</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="sa">Sanskrit</language>
 			<language ident="pi">Pali</language>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 			<language ident="x-unknown"></language>
 		</langUsage>
 	</profileDesc>
@@ -50,9 +70,10 @@
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="1999-08-10T22:37:09">CW (ed.) Created initial TEI XML version with BASICX.BAT （99/8/10）</change>
-
- </revisionDesc>
+		<change when="1999-08-10T22:37:09">
+			CW (ed.) Created initial TEI XML version with BASICX.BAT （99/8/10）
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">二</cb:mulu><cb:mulu level="2" n="58" type="經">58</cb:mulu>
@@ -532,7 +553,7 @@
 <lb n="0020b26" ed="T"/>廣說。</p><p xml:id="pT02p0020b2603" cb:place="inline">佛說此經已，諸比丘聞佛所說，歡喜
 <lb n="0020b27" ed="T"/>奉行。</p></cb:div>
 <lb n="0020b28" ed="T"/><cb:div type="jing"><cb:mulu level="2" n="81" type="經">81</cb:mulu><head><note n="0020009" resp="Taisho" place="foot text" type="orig">S. 22. 60. Mahāli.</note><note n="0020009" type="equivalent" place="foot">S. 22. 60. Mahāli.</note>（八一）</head><p xml:id="pT02p0020b2803" cb:place="inline">如是我聞：</p><p xml:id="pT02p0020b2807" cb:place="inline">一時，佛住<note n="0020010" resp="Taisho" place="foot text" type="orig">毘耶離 Vesālī.</note><cb:tt n="0020010" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">毘耶離</cb:t><cb:t resp="Taisho" xml:lang="pi" place="foot">Vesālī.</cb:t></cb:tt>獼猴池
-<lb n="0020b29" ed="T"/>側重閣講堂。</p><p xml:id="pT02p0020b2906" cb:place="inline">爾時，有<note n="0020011" resp="Taisho" place="foot text" type="orig">離車 Licchavi.</note><cb:tt n="0020011" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">離車</cb:t><cb:t resp="Taisho" xml:lang="pi" place="foot">Licchavi.</cb:t></cb:tt>名<note n="0020012" resp="Taisho" place="foot text" type="orig">摩訶男(Mahānāma?)Mahāli.</note><cb:tt n="0020012" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">摩訶男</cb:t><cb:t cert="?" resp="Taisho" xml:lang="sa" place="foot">Mahānāma</cb:t><cb:t resp="Taisho" xml:lang="pi" place="foot">Mahāli.</cb:t></cb:tt>，日
+<lb n="0020b29" ed="T"/>側重閣講堂。</p><p xml:id="pT02p0020b2906" cb:place="inline">爾時，有<note n="0020011" resp="Taisho" place="foot text" type="orig">離車 Licchavi.</note><cb:tt n="0020011" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">離車</cb:t><cb:t resp="Taisho" xml:lang="pi" place="foot">Licchavi.</cb:t></cb:tt>名<note n="0020012" resp="Taisho" place="foot text" type="orig">摩訶男(Mahānāma?)Mahāli.</note><cb:tt n="0020012" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">摩訶男</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Mahānāma</cb:t><cb:t resp="Taisho" xml:lang="pi" place="foot">Mahāli.</cb:t></cb:tt>，日
 <pb n="0020c" xml:id="T02.0099.0020c" ed="T"/>
 <lb n="0020c01" ed="T"/>日遊行，往詣佛所。時，彼離車作是念：「若我
 <lb n="0020c02" ed="T"/>早詣世尊所者，世尊及我知識比丘皆悉

@@ -11,38 +11,58 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.118 $<date>$Date: 2013/01/30 08:24:16 $</date>新式標點版</edition>
-	</editionStmt>
-	<extent>50卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 （CBETA）</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2013/01/30 08:24:16 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Taishō Tripiṭaka Vol. 2, No. 99</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo / proofread twice by Mr. Chang Wen-Ming, Text as provided by The Canon Series / proofread by Miao-Yuan Aranya, Text as provided by Anonymous from USA, Punctuated text as provided by Dhammavassarama</p>
-		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供／張文明大德二校，佛教經典系列提供／妙雲蘭若校對，北美某大德提供，法雨道場提供新式標點</p>
-	</projectDesc>
-</encodingDesc>
-<profileDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>50卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">T</idno>.<idno type="vol">2</idno>.<idno type="no">99</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 （CBETA）</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:11:51 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Taishō Tripiṭaka</title>
+				<title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+				<title level="m" xml:lang="zh-Hant">雜阿含經</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo / proofread twice by Mr. Chang Wen-Ming, Text as provided by The Canon Series / proofread by Miao-Yuan Aranya, Text as provided by Anonymous from USA, Punctuated text as provided by Dhammavassarama</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供／張文明大德二校，佛教經典系列提供／妙雲蘭若校對，北美某大德提供，法雨道場提供新式標點</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【大】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="sa">Sanskrit</language>
 			<language ident="pi">Pali</language>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 			<language ident="x-unknown"></language>
 		</langUsage>
 	</profileDesc>
@@ -50,9 +70,10 @@
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="1999-08-10T22:37:09">CW (ed.) Created initial TEI XML version with BASICX.BAT （99/8/10）</change>
-
- </revisionDesc>
+		<change when="1999-08-10T22:37:09">
+			CW (ed.) Created initial TEI XML version with BASICX.BAT （99/8/10）
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">一五</cb:mulu><cb:mulu level="2" n="404" type="經">406</cb:mulu>
@@ -513,7 +534,7 @@
 <lb n="0113c24" ed="T"/>是故，比丘！於四聖諦未無間等者，當勤方
 <lb n="0113c25" ed="T"/>便，起增上欲，學無間等。」</p><p xml:id="pT02p0113c2510" cb:place="inline">佛說是經已，諸比
 <lb n="0113c26" ed="T"/>丘聞佛所說，歡喜奉行。</p>
-<lb n="0113c27" ed="T"/><p xml:id="pT02p0113c2701">如大湖水譬，<note n="0113017" resp="Taisho" place="foot text" type="orig">S. 56. 53-54. Sambhejja.</note><note n="0113017" type="equivalent" place="foot">S. 56. 53-54. Sambhejja.</note>如是<note n="0113018" resp="Taisho" place="foot text" type="orig">薩羅多吒迦 Seyyathīdaṃ(?)</note><cb:tt n="0113018" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">薩羅多吒迦</cb:t><cb:t cert="?" resp="Taisho" xml:lang="pi" place="foot">Seyyathīdaṃ</cb:t></cb:tt>——<note n="0113019" resp="Taisho" place="foot text" type="orig">Gaṅgā.</note><note n="0113019" resp="CBETA" type="mod">恒伽 Gaṅgā.</note><cb:tt n="0113019" type="app"><cb:t resp="CBETA" xml:lang="zh-Hant">恒伽</cb:t><cb:t resp="Taisho" xml:lang="pi" place="foot">Gaṅgā.</cb:t></cb:tt>、
+<lb n="0113c27" ed="T"/><p xml:id="pT02p0113c2701">如大湖水譬，<note n="0113017" resp="Taisho" place="foot text" type="orig">S. 56. 53-54. Sambhejja.</note><note n="0113017" type="equivalent" place="foot">S. 56. 53-54. Sambhejja.</note>如是<note n="0113018" resp="Taisho" place="foot text" type="orig">薩羅多吒迦 Seyyathīdaṃ(?)</note><cb:tt n="0113018" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">薩羅多吒迦</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="pi" place="foot">Seyyathīdaṃ</cb:t></cb:tt>——<note n="0113019" resp="Taisho" place="foot text" type="orig">Gaṅgā.</note><note n="0113019" resp="CBETA" type="mod">恒伽 Gaṅgā.</note><cb:tt n="0113019" type="app"><cb:t resp="CBETA" xml:lang="zh-Hant">恒伽</cb:t><cb:t resp="Taisho" xml:lang="pi" place="foot">Gaṅgā.</cb:t></cb:tt>、
 <lb n="0113c28" ed="T"/><note n="0113020" resp="Taisho" place="foot text" type="orig">Yamunā.</note><note n="0113020" resp="CBETA" type="mod">耶符那 Yamunā.</note><cb:tt n="0113020" type="app"><cb:t resp="CBETA" xml:lang="zh-Hant">耶符那</cb:t><cb:t resp="Taisho" xml:lang="pi" place="foot">Yamunā.</cb:t></cb:tt>、<note n="0113021" resp="Taisho" place="foot text" type="orig">Sarabhū.</note><note n="0113021" resp="CBETA" type="mod">薩羅遊 Sarabhū.</note><cb:tt n="0113021" type="app"><cb:t resp="CBETA" xml:lang="zh-Hant">薩羅遊</cb:t><cb:t resp="Taisho" xml:lang="pi" place="foot">Sarabhū.</cb:t></cb:tt>、<note n="0113022" resp="Taisho" place="foot text" type="orig">Aciravatī.</note><note n="0113022" resp="CBETA" type="mod">伊羅跋提 Aciravatī.</note><cb:tt n="0113022" type="app"><cb:t resp="CBETA" xml:lang="zh-Hant">伊羅跋提</cb:t><cb:t resp="Taisho" xml:lang="pi" place="foot">Aciravatī.</cb:t></cb:tt>、<note n="0113023" resp="Taisho" place="foot text" type="orig">Mahī.</note><note n="0113023" resp="CBETA" type="mod">摩醯 Mahī.</note><cb:tt n="0113023" type="app"><cb:t resp="CBETA" xml:lang="zh-Hant">摩醯</cb:t><cb:t resp="Taisho" xml:lang="pi" place="foot">Mahī.</cb:t></cb:tt>，及四大
 <lb n="0113c29" ed="T"/>海，其譬亦如上說。</p></cb:div>
 <pb n="0114a" xml:id="T02.0099.0114a" ed="T"/>
