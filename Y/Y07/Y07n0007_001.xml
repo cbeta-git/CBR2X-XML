@@ -12,62 +12,82 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/11</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/11</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>2卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 7, No. 7</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>2卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">7</idno>.<idno type="no">7</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">大乘起信論講記</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/><pb n="0001a" ed="Y" xml:id="Y07.0007.0001a.old" type="old"/>
 <pb n="0001a" ed="Y" xml:id="Y07.0007.0001a"/>
-<lb n="0001a01" ed="Y"/><lb n="0001a01" ed="Y" type="old"/><cb:juan fun="open" n="1"><cb:jhead>大乘起信論講記<note n="0001001" resp="CBETA" type="add">民國三九年講。</note></cb:jhead></cb:juan>
+<lb n="0001a01" ed="Y"/><lb n="0001a01" ed="Y" type="old"/><cb:juan n="1" fun="open"><cb:jhead>大乘起信論講記<note n="0001001" resp="CBETA" type="add">民國三九年講。</note></cb:jhead></cb:juan>
 <lb n="0001a02" ed="Y"/><lb n="0001a02" ed="Y" type="old"/><byline rend="bold">——民國三十九年在香港大埔墟梅修精舍講——</byline>
 <lb n="0001a03" ed="Y"/><lb n="0001a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">懸論</cb:mulu><head><seg rend="border">懸論</seg></head>
 <lb n="0001a04" ed="Y"/><lb n="0001a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　作者與譯者</cb:mulu><head>一　作者與譯者</head>
 <lb n="0001a05" ed="Y"/><lb n="0001a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">一　一般公認的傳說</cb:mulu><head>一　一般公認的傳說</head>
-<lb n="0001a06" ed="Y"/><lb n="0001a06" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《大乘起信論》</title>，向來傳說是馬鳴菩薩造的。名為馬鳴的，印度不止一人，
+<lb n="0001a06" ed="Y"/><lb n="0001a06" ed="Y" type="old"/><p xml:id="pY07p0001a0601" style="text-indent:2em"><title level="m">《大乘起信論》</title>，向來傳說是馬鳴菩薩造的。名為馬鳴的，印度不止一人，
 <lb n="0001a07" ed="Y"/><lb n="0001a07" ed="Y" type="old"/>古來就有「六馬鳴」的傳說。然大家都意許是：龍樹以前的那位馬鳴。據<title level="m">《馬鳴
 <lb n="0001a08" ed="Y"/><lb n="0001a08" ed="Y" type="old"/>傳》</title>及<title level="m">《付法藏因緣傳》</title>的傳說，馬鳴是脇尊者的弟子，或富那耶奢的弟子。時
 <lb n="0001a09" ed="Y"/><lb n="0001a09" ed="Y" type="old"/>代約與迦膩色迦王同時。</p>
-<lb n="0001a10" ed="Y"/><lb n="0001a10" ed="Y" type="old"/><p style="text-indent:2em">本論的譯者：梁時真諦譯的，通常稱為梁譯。譯<title level="m">《華嚴經》</title>的實叉難陀，也<pb n="0002a" ed="Y" xml:id="Y07.0007.0002a.old" type="old"/>
+<lb n="0001a10" ed="Y"/><lb n="0001a10" ed="Y" type="old"/><p xml:id="pY07p0001a1001" style="text-indent:2em">本論的譯者：梁時真諦譯的，通常稱為梁譯。譯<title level="m">《華嚴經》</title>的實叉難陀，也<pb n="0002a" ed="Y" xml:id="Y07.0007.0002a.old" type="old"/>
 <pb n="0002a" ed="Y" xml:id="Y07.0007.0002a"/>
 <lb n="0002a01" ed="Y"/><lb n="0002a01" ed="Y" type="old"/>曾譯過這部論，通常稱為唐譯。現在所講的，是梁譯本。據<title level="m">《慈恩傳》</title>說：當時
 <lb n="0002a02" ed="Y"/><lb n="0002a02" ed="Y" type="old"/>印度已沒有<title level="m">《大乘起信論》</title>了，玄奘特依中文本轉譯成梵文。這樣說起來，本論
 <lb n="0002a03" ed="Y"/><lb n="0002a03" ed="Y" type="old"/>是很有根據的！</p></cb:div>
 <lb n="0002a04" ed="Y"/><lb n="0002a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">二　古今懷疑者的意見</cb:mulu><head>二　古今懷疑者的意見</head>
-<lb n="0002a05" ed="Y"/><lb n="0002a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="4" type="其他">非真諦譯</cb:mulu><head>非真諦譯</head><p style="text-indent:2em"><title level="m">《大乘起信論》</title>不是真諦譯的，這種說法，是古已有之。隋時與
+<lb n="0002a05" ed="Y"/><lb n="0002a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="4" type="其他">非真諦譯</cb:mulu><head>非真諦譯</head><p xml:id="pY07p0002a0509" style="text-indent:2em"><title level="m">《大乘起信論》</title>不是真諦譯的，這種說法，是古已有之。隋時與
 <lb n="0002a06" ed="Y"/>嘉<lb n="0002a06" ed="Y" type="old"/>祥同門的均正，在<cit><bibl><title level="m">《四論玄義》</title>中說：</bibl><quote>「尋覓翻經目錄中無有也。」</quote></cit>法經奉詔
 <lb n="0002a07" ed="Y"/>編<lb n="0002a07" ed="Y" type="old"/>撰經錄，把本論編入疑偽類，並且說：<quote source="T55n2146_p0142a16" type="嚴謹引文">「勘真諦錄無此論。」<note n="0002001" resp="謝淑歆" type="add">《眾經目錄》卷5(CBETA, T55, no. 2146, p. 142, a16)</note></quote>同時的費長房撰
 <lb n="0002a08" ed="Y"/><title level="m">《<lb n="0002a08" ed="Y" type="old"/>歷代三寶記》</title>，即說本論為梁真諦譯。彥琮等的<title level="m">《眾經目錄》</title>，說是陳真諦譯
@@ -79,7 +99,7 @@
 <lb n="0003a01" ed="Y"/>的，甚<pb n="0003a" ed="Y" xml:id="Y07.0007.0003a.old" type="old"/><lb n="0003a01" ed="Y" type="old"/>至唐朝重譯的<title level="m">《大乘起信論》</title>，也靠不住。支那內學院的呂澂，也以為：
 <lb n="0003a02" ed="Y"/>實叉難陀的<lb n="0003a02" ed="Y" type="old"/>譯本，不過是梁譯本的文字上少加修改而已。他們都提出詳密的理由
 <lb n="0003a03" ed="Y"/>，證明他們<lb n="0003a03" ed="Y" type="old"/>所說的不錯！</p></cb:div>
-<lb n="0003a04" ed="Y"/><lb n="0003a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="4" type="其他">非馬鳴造</cb:mulu><head>非馬鳴造</head><p style="text-indent:2em"><title level="m">《大乘起信論》</title>不但不是真諦譯的，也不是馬鳴造的。這在古代
+<lb n="0003a04" ed="Y"/><lb n="0003a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="4" type="其他">非馬鳴造</cb:mulu><head>非馬鳴造</head><p xml:id="pY07p0003a0409" style="text-indent:2em"><title level="m">《大乘起信論》</title>不但不是真諦譯的，也不是馬鳴造的。這在古代
 <lb n="0003a05" ed="Y"/>，首<lb n="0003a05" ed="Y" type="old"/>由均正倡說：<quote>「《起信論》一卷，人云馬鳴菩薩造。北地諸論師云：非馬鳴
 <lb n="0003a06" ed="Y"/>造，昔日<lb n="0003a06" ed="Y" type="old"/>地論師造論，借菩薩名目之。」</quote>但嘉祥即稱之為「馬鳴論」。到唐代，
 <lb n="0003a07" ed="Y"/>唯識學者<lb n="0003a07" ed="Y" type="old"/>還有說是世親所作的不了義說。本論的作者，古代傳說中，確是遊移而
@@ -96,11 +116,11 @@
 <lb n="0004a04" ed="Y"/>澂他們，就直斥為偽造了。所<lb n="0004a04" ed="Y" type="old"/>以說<title level="m">《大乘起信論》</title>不是馬鳴造的，也有二派：一
 <lb n="0004a05" ed="Y"/>派如梁啟超等起而讚歎；一派如王<lb n="0004a05" ed="Y" type="old"/>恩洋等起而非毀，說它是<quote type="寬鬆引文">「梁陳小兒所作，剗
 <lb n="0004a06" ed="Y"/>絕慧命」</quote>。</p>
-<lb n="0004a07" ed="Y"/><lb n="0004a06" ed="Y" type="old"/><p style="text-indent:2em">這是關於古往今來說<title level="m">《大乘起信論》</title>非真諦譯、非馬鳴造的大概情形。本論
+<lb n="0004a07" ed="Y"/><lb n="0004a06" ed="Y" type="old"/><p xml:id="pY07p0004a0701" style="text-indent:2em">這是關於古往今來說<title level="m">《大乘起信論》</title>非真諦譯、非馬鳴造的大概情形。本論
 <lb n="0004a08" ed="Y"/>在<lb n="0004a07" ed="Y" type="old"/>過去中國佛教界，有崇高的地位；民國以來，由於考證與唯識學的興起，開始
 <lb n="0004a09" ed="Y"/>遭<lb n="0004a08" ed="Y" type="old"/>遇惡運，受到多方面的懷疑和批評。</p></cb:div></cb:div>
 <lb n="0004a10" ed="Y"/><lb n="0004a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">三　維護《起信論》的近代大師</cb:mulu><head>三　維護《起信論》的近代大師</head>
-<lb n="0004a11" ed="Y"/><lb n="0004a10" ed="Y" type="old"/><p style="text-indent:2em">肯定<title level="m">《大乘起信論》</title>是真諦譯、馬鳴造，出而盡力維護它的，那要算太虛大
+<lb n="0004a11" ed="Y"/><lb n="0004a10" ed="Y" type="old"/><p xml:id="pY07p0004a1101" style="text-indent:2em">肯定<title level="m">《大乘起信論》</title>是真諦譯、馬鳴造，出而盡力維護它的，那要算太虛大
 <lb n="0004a12" ed="Y"/>師了<lb n="0004a11" ed="Y" type="old"/>。大師極力維護<title level="m">《大乘起信論》</title>，那麼，對於前面二派的說法，就非予以答
 <pb n="0005a" ed="Y" xml:id="Y07.0007.0005a"/>
 <lb n="0005a01" ed="Y"/>覆不可。<lb n="0004a12" ed="Y" type="old"/>關於考證的部分，大師以為：佛法是不可以從進化的觀點來考證的。他
@@ -114,7 +134,7 @@
 <lb n="0005a09" ed="Y"/>佛教傳統的思想，是和<title level="m">《大乘起<lb n="0005a08" ed="Y" type="old"/>信論》</title>一致的，是把這樣的思想作為佛陀根本教
 <lb n="0005a10" ed="Y"/>法的。如<title level="m">《大乘起信論》</title>後起，或被<lb n="0005a09" ed="Y" type="old"/>人推翻了，那他的思想根源以及中國佛教所
 <lb n="0005a11" ed="Y"/>受的威脅，是怎樣的可怕！所以特<lb n="0005a10" ed="Y" type="old"/>為方便會通，盡力出來扶持。</p>
-<lb n="0005a12" ed="Y"/><lb n="0005a11" ed="Y" type="old"/><p style="text-indent:2em">關於義理方面的非議，大師是和事老。他以為：<title level="m">《大乘起信論》</title>所說的很好
+<lb n="0005a12" ed="Y"/><lb n="0005a11" ed="Y" type="old"/><p xml:id="pY07p0005a1201" style="text-indent:2em">關於義理方面的非議，大師是和事老。他以為：<title level="m">《大乘起信論》</title>所說的很好
 <lb n="0005a13" ed="Y"/>，唯<lb n="0005a12" ed="Y" type="old"/>識宗所講的也不錯。那麼，唯識與<title level="m">《大乘起信論》</title>的義理，應怎樣融會它的
 <pb n="0006a" ed="Y" xml:id="Y07.0007.0006a"/>
 <lb n="0006a01" ed="Y"/>矛盾呢？<lb n="0005a13" ed="Y" type="old"/>他提出二點來解說：一、<title level="m">《大乘起信論》</title>所說的真如，與唯識所說的真
@@ -126,7 +146,7 @@
 <lb n="0006a07" ed="Y"/>間緣說。有漏無間生無漏，<lb n="0006a06" ed="Y" type="old"/>無漏無間生有漏，這在唯識家也是認可的；所以特以
 <lb n="0006a08" ed="Y"/>此會通<title level="m">《大乘起信論》</title>與唯識的<lb n="0006a07" ed="Y" type="old"/>矛盾。</p></cb:div>
 <lb n="0006a09" ed="Y"/><lb n="0006a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">四　從合理的觀點來重新審定</cb:mulu><head>四　從合理的觀點來重新審定</head>
-<lb n="0006a10" ed="Y"/><lb n="0006a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="4" type="其他">考證真偽的問題</cb:mulu><head>考證真偽的問題</head><p style="text-indent:2em">用考證方法研究佛法——這種治學方法，是不應該反對的
+<lb n="0006a10" ed="Y"/><lb n="0006a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="4" type="其他">考證真偽的問題</cb:mulu><head>考證真偽的問題</head><p xml:id="pY07p0006a1015" style="text-indent:2em">用考證方法研究佛法——這種治學方法，是不應該反對的
 <lb n="0006a11" ed="Y"/><lb n="0006a10" ed="Y" type="old"/>。如大師以為：東方式的文化，是先全體而後分化的。像<title level="m">《大乘起信論》</title>所說的
 <lb n="0006a12" ed="Y"/>，空與<lb n="0006a11" ed="Y" type="old"/>有都照顧週到；後來龍樹、無著他們，據各方面的義理而特別發揮，才有
 <pb n="0007a" ed="Y" xml:id="Y07.0007.0007a"/>
@@ -144,7 +164,7 @@
 <lb n="0007a12" ed="Y"/>不應該推翻。思<lb n="0007a11" ed="Y" type="old"/>想是有演化的，但不一定是進化的。在發展演化的過程中，可以
 <lb n="0007a13" ed="Y"/>演化成好的，也<lb n="0007a12" ed="Y" type="old"/>可以演化成壞的，不該說凡是後來的就進步。</p>
 <pb n="0008a" ed="Y" xml:id="Y07.0007.0008a"/>
-<lb n="0008a01" ed="Y"/><lb n="0007a13" ed="Y" type="old"/><p style="text-indent:2em">而且，即使考證得非馬鳴作、非真諦譯，<title level="m">《大乘起信論》</title>的價值，還得從長
+<lb n="0008a01" ed="Y"/><lb n="0007a13" ed="Y" type="old"/><p xml:id="pY07p0008a0101" style="text-indent:2em">而且，即使考證得非馬鳴作、非真諦譯，<title level="m">《大乘起信論》</title>的價值，還得從長
 <lb n="0008a02" ed="Y"/>討論<pb n="0008a" ed="Y" xml:id="Y07.0007.0008a.old" type="old"/><lb n="0008a01" ed="Y" type="old"/>。我的看法是：一、印度傳來的不一定都是好的。中國佛教界，一向有推崇
 <lb n="0008a03" ed="Y"/>印度<lb n="0008a02" ed="Y" type="old"/>的心理，以為凡是佛典，只要是從印度翻譯來的就對；小乘論都是羅漢作，
 <lb n="0008a04" ed="Y"/>大乘<lb n="0008a03" ed="Y" type="old"/>論都是了不起的菩薩作。其實，印度譯來的教典，有極精深的，也有浮淺的
@@ -160,7 +180,7 @@
 <pb n="0009a" ed="Y" xml:id="Y07.0007.0009a"/>
 <lb n="0009a01" ed="Y"/>，<title level="m">《<lb n="0008a13" ed="Y" type="old"/>大乘起信論》</title>有它自己的價值。這不能和鑑別古董一樣，不是某時、某人的
 <lb n="0009a02" ed="Y"/>作品，就認<pb n="0009a" ed="Y" xml:id="Y07.0007.0009a.old" type="old"/><lb n="0009a01" ed="Y" type="old"/>為不值一錢！</p></cb:div>
-<lb n="0009a03" ed="Y"/><lb n="0009a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="4" type="其他">義理正謬的問題</cb:mulu><head>義理正謬的問題</head><p style="text-indent:2em">站在唯識學的立場，評論<title level="m">《大乘起信論》</title>的教理不對，這
+<lb n="0009a03" ed="Y"/><lb n="0009a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="4" type="其他">義理正謬的問題</cb:mulu><head>義理正謬的問題</head><p xml:id="pY07p0009a0315" style="text-indent:2em">站在唯識學的立場，評論<title level="m">《大乘起信論》</title>的教理不對，這
 <lb n="0009a04" ed="Y"/>不過<lb n="0009a03" ed="Y" type="old"/>是立場的不同，衡量是非的標準不同，並不能就此斷定了<title level="m">《大乘起信論》</title>的
 <lb n="0009a05" ed="Y"/>價值。佛<lb n="0009a04" ed="Y" type="old"/>法中的大小乘，有種種派別。像小乘有十八部、二十部之多，從大體上
 <lb n="0009a06" ed="Y"/>分，也還<lb n="0009a05" ed="Y" type="old"/>有：有部、犢子部、分別說部、大眾部的四大系。大乘中也有有宗、空
@@ -178,7 +198,7 @@
 <lb n="0010a04" ed="Y"/>以，我們先應了解它們的不<lb n="0010a03" ed="Y" type="old"/>同，不要偏執，也不要附會。先明白各論的特殊意義
 <lb n="0010a05" ed="Y"/>，再來考慮它在佛法中的地<lb n="0010a04" ed="Y" type="old"/>位。我覺得，我們應該這樣！</p></cb:div></cb:div></cb:div>
 <lb n="0010a06" ed="Y"/><lb n="0010a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　大乘起信</cb:mulu><head>二　大乘起信</head>
-<lb n="0010a07" ed="Y"/><lb n="0010a06" ed="Y" type="old"/><p style="text-indent:2em">本論名為<title level="m">《大乘起信論》</title>。大乘的乘，是車乘，可以載運人物由這裡到那裡
+<lb n="0010a07" ed="Y"/><lb n="0010a06" ed="Y" type="old"/><p xml:id="pY07p0010a0701" style="text-indent:2em">本論名為<title level="m">《大乘起信論》</title>。大乘的乘，是車乘，可以載運人物由這裡到那裡
 <lb n="0010a08" ed="Y"/><lb n="0010a07" ed="Y" type="old"/>；佛法可以運眾生從生死此岸到涅槃彼岸、佛道彼岸，所以譬喻佛法為乘。佛法
 <lb n="0010a09" ed="Y"/><lb n="0010a08" ed="Y" type="old"/>中最究竟的，就稱為大乘法。大體說來，凡是發菩提心、修菩薩行、自利利他，
 <lb n="0010a10" ed="Y"/><lb n="0010a09" ed="Y" type="old"/>以證得佛果為究竟目的，這就是大乘法。大乘，即是以成佛為目的而發心去修學
@@ -192,7 +212,7 @@
 <lb n="0011a05" ed="Y"/>就<lb n="0011a04" ed="Y" type="old"/>叫淨心地。所以，從淺處說，起信，是要我們於大乘法起信仰心；從深處說，
 <lb n="0011a06" ed="Y"/><lb n="0011a05" ed="Y" type="old"/>是要我們去實現它、證實它。本論名<title level="m">《大乘起信論》</title>，就是以修學大乘而完成大
 <lb n="0011a07" ed="Y"/><lb n="0011a06" ed="Y" type="old"/>乘信心為宗趣的。如不能於大乘法生信心，即與大乘無緣了。</p>
-<lb n="0011a08" ed="Y"/><lb n="0011a07" ed="Y" type="old"/><p style="text-indent:2em">對於大乘佛法，有相信大乘是佛法的，有的根本不信而說大乘是非佛說的<lb n="0011a08" ed="Y" type="old"/>。
+<lb n="0011a08" ed="Y"/><lb n="0011a07" ed="Y" type="old"/><p xml:id="pY07p0011a0801" style="text-indent:2em">對於大乘佛法，有相信大乘是佛法的，有的根本不信而說大乘是非佛說的<lb n="0011a08" ed="Y" type="old"/>。
 <lb n="0011a09" ed="Y"/>從前，龍樹、堅慧、無著他們，都為了大乘是佛說而論證。照說，佛弟子都是<lb n="0011a09" ed="Y" type="old"/>承
 <lb n="0011a10" ed="Y"/>認有佛菩薩的。依一般大乘者說：在因地中修菩薩行，功德圓滿到最後成佛，<lb n="0011a10" ed="Y" type="old"/>與
 <lb n="0011a11" ed="Y"/>聲聞是不共的。依聲聞者說：佛所修的道，雖是以慈悲而圓滿十（六或四）波<lb n="0011a11" ed="Y" type="old"/>羅
@@ -218,7 +238,7 @@
 <lb n="0013a03" ed="Y"/>大乘法，如不能具體的顯示，就不能引發他人的信心。現在直指大乘法就是這<lb n="0013a03" ed="Y" type="old"/>個
 <lb n="0013a04" ed="Y"/>——眾生心，真是人人現成的；不用他求，可以當下生起正信。在唯心論者看<lb n="0013a04" ed="Y" type="old"/>來
 <lb n="0013a05" ed="Y"/>，大乘法即是唯心論；即在這點上，與聲聞的教法（不徹底的唯心論）不同吧<lb n="0013a05" ed="Y" type="old"/>！</p>
-<lb n="0013a06" ed="Y"/><lb n="0013a06" ed="Y" type="old"/><p style="text-indent:2em">信仰佛法、修學佛法，是作為軌範身心的修持法，是為了實現自心的清淨與
+<lb n="0013a06" ed="Y"/><lb n="0013a06" ed="Y" type="old"/><p xml:id="pY07p0013a0601" style="text-indent:2em">信仰佛法、修學佛法，是作為軌範身心的修持法，是為了實現自心的清淨與
 <lb n="0013a07" ed="Y"/><lb n="0013a07" ed="Y" type="old"/>自在。所信、所學的，不是身心以外的什麼神明的崇拜，而是確信自（己身）心
 <lb n="0013a08" ed="Y"/>的<lb n="0013a08" ed="Y" type="old"/>可從修治以到達完滿的自在。大乘法（修行成佛的法門）要我們信的、學的，
 <lb n="0013a09" ed="Y"/>就<lb n="0013a09" ed="Y" type="old"/>是我們的自心，以及從自心為根本的立場去理解一切。能這樣的信解修學，就
@@ -230,7 +250,7 @@
 <lb n="0014a01" ed="Y"/><lb n="0014a01" ed="Y" type="old"/>重自心的修行，所以開宗明義就說：<quote source="T32n1666_p0575c21" type="嚴謹引文">「所言（大乘）法者，謂眾生心。」<note n="0014001" resp="謝淑歆" type="add">《大乘起信論》卷1(CBETA, T32, no. 1666, p. 575, c21)</note></quote>一切的
 <lb n="0014a02" ed="Y"/><lb n="0014a02" ed="Y" type="old"/>一切，都出發於心而回歸於心；信大乘，即是信得這個。</p></cb:div>
 <lb n="0014a03" ed="Y"/><lb n="0014a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　本論在佛法中的地位</cb:mulu><head>三　本論在佛法中的地位</head>
-<lb n="0014a04" ed="Y"/><lb n="0014a04" ed="Y" type="old"/><p style="text-indent:2em">一、從學派的系統說：佛滅四、五百年的時候，佛法分為大、小乘。本論是
+<lb n="0014a04" ed="Y"/><lb n="0014a04" ed="Y" type="old"/><p xml:id="pY07p0014a0401" style="text-indent:2em">一、從學派的系統說：佛滅四、五百年的時候，佛法分為大、小乘。本論是
 <lb n="0014a05" ed="Y"/>屬於<lb n="0014a05" ed="Y" type="old"/>大乘的；論中所談的發心、修行、證果，都是屬於大乘的。大乘法也有學派
 <lb n="0014a06" ed="Y"/>的差<lb n="0014a06" ed="Y" type="old"/>別，但分別大乘學派，要從義理去分別。太虛大師分大乘為三宗，即法相唯
 <lb n="0014a07" ed="Y"/>識宗<lb n="0014a07" ed="Y" type="old"/>、法性空慧宗、法界圓覺宗。我在<title level="m">《印度之佛教》</title>，稱之為虛妄唯識論、性
@@ -261,7 +281,7 @@
 <lb n="0016a05" ed="Y"/>本論是屬於真常<lb n="0016a05" ed="Y" type="old"/>唯心論一系，所以不應該專以空宗及唯識宗的觀點而論斷它。也
 <lb n="0016a06" ed="Y"/>就因此，本論無<lb n="0016a06" ed="Y" type="old"/>論是中國或是印度造的，它所代表的思想，在佛教思想中，有它
 <lb n="0016a07" ed="Y"/>的獨到價值，值<lb n="0016a07" ed="Y" type="old"/>得我們深長的研究。</p>
-<lb n="0016a08" ed="Y"/><lb n="0016a08" ed="Y" type="old"/><p style="text-indent:2em">二、從染淨所依說：佛法有兩大問題：(一)、雜染的生死，(二)、清淨的解脫。
+<lb n="0016a08" ed="Y"/><lb n="0016a08" ed="Y" type="old"/><p xml:id="pY07p0016a0801" style="text-indent:2em">二、從染淨所依說：佛法有兩大問題：(一)、雜染的生死，(二)、清淨的解脫。
 <lb n="0016a09" ed="Y"/><lb n="0016a09" ed="Y" type="old"/><title level="m">《阿含經》</title>和早期的聖典，一致的說：世間生死是緣起的。緣起法中，主要而有
 <lb n="0016a10" ed="Y"/><lb n="0016a10" ed="Y" type="old"/>攝導性能的，是無明。十二緣起，說明生死流轉的雜染法，有它發展的程序；如
 <lb n="0016a11" ed="Y"/><lb n="0016a11" ed="Y" type="old"/>由無明而起種種的行（業），由行（業）而招感有識的生死身。緣起雖如環無端
@@ -271,7 +291,7 @@
 <lb n="0017a01" ed="Y"/><lb n="0017a01" ed="Y" type="old"/>是明；明即是般若，也即是覺。所以說：<quote>「無明為雜染法根本，明為清淨法根本
 <lb n="0017a02" ed="Y"/><lb n="0017a02" ed="Y" type="old"/>。」</quote>或說：<quote>「以無明為上首故，生一切世間雜染法；以明為上首故，生一切出世
 <lb n="0017a03" ed="Y"/><lb n="0017a03" ed="Y" type="old"/>清淨法。」</quote></p>
-<lb n="0017a04" ed="Y"/><lb n="0017a04" ed="Y" type="old"/><p style="text-indent:2em">因無明故有生死，因明故得涅槃。這與性空大乘所說的相近。性空大乘說：
+<lb n="0017a04" ed="Y"/><lb n="0017a04" ed="Y" type="old"/><p xml:id="pY07p0017a0401" style="text-indent:2em">因無明故有生死，因明故得涅槃。這與性空大乘所說的相近。性空大乘說：
 <lb n="0017a05" ed="Y"/><lb n="0017a05" ed="Y" type="old"/>世間是緣起的。眾生所以長受世間生死，即由於緣起中的無明；無明是不了諸法
 <lb n="0017a06" ed="Y"/><lb n="0017a06" ed="Y" type="old"/>自性的本空，由此無明為迷本，所以生死不了。這與<title level="m">《阿含經》</title>小不同，<title level="m">《阿含
 <lb n="0017a07" ed="Y"/>經<lb n="0017a07" ed="Y" type="old"/>》</title>說無明，不專重不知性空的無常、無我，更說無明為不知苦、不知集、不知
@@ -306,33 +326,33 @@
 <lb n="0019a08" ed="Y"/>》</title>、空宗等<lb n="0019a08" ed="Y" type="old"/>一致；單說法界，即與初期的唯識學相合。而本論約法界與明覺的統
 <lb n="0019a09" ed="Y"/>一說，所以<lb n="0019a09" ed="Y" type="old"/>覺又是本覺，是與法界不離的本覺性；以法界為本，即般若為本。此
 <lb n="0019a10" ed="Y"/>為本論的特色<lb n="0019a10" ed="Y" type="old"/>。</p>
-<lb n="0019a11" ed="Y"/><lb n="0019a11" ed="Y" type="old"/><p style="text-indent:2em">三、從三類的著重說：一切，可以歸納為三：(一)、色，一般稱為物質，即是
+<lb n="0019a11" ed="Y"/><lb n="0019a11" ed="Y" type="old"/><p xml:id="pY07p0019a1101" style="text-indent:2em">三、從三類的著重說：一切，可以歸納為三：(一)、色，一般稱為物質，即是
 <lb n="0019a12" ed="Y"/><lb n="0019a12" ed="Y" type="old"/>佔有空間的、有體質的事物。(二)、心，即一般所說的精神。(三)、理性，佛法中名
 <lb n="0019a13" ed="Y"/><lb n="0019a13" ed="Y" type="old"/>為法性，即物質與精神的真相或真理。這三者，相當於一般哲學中的物質界、精<pb n="0020a" ed="Y" xml:id="Y07.0007.0020a.old" type="old"/>
 <pb n="0020a" ed="Y" xml:id="Y07.0007.0020a"/>
 <lb n="0020a01" ed="Y"/><lb n="0020a01" ed="Y" type="old"/>神界、本體界。依<title level="m">《阿含經》</title>與性空大乘說，這三者是平等的：</p>
-<lb n="0020a02" ed="Y"/><p cb:type="pre">　　　色──┬─法
+<lb n="0020a02" ed="Y"/><p cb:type="pre" xml:id="pY07p0020a0201">　　　色──┬─法
 <lb n="0020a03" ed="Y"/>　　　心──┘
 <lb n="0020a04" ed="Y"/>　　　性───法性</p>
-<lb n="0020a05" ed="Y"/><lb n="0020a02" ed="Y" type="old"/><lb n="0020a05" ed="Y" type="old"/><p style="text-indent:2em">如人，是色、心相依而有的，相依相待而存在的緣起法，如瞎子和跛子一樣
+<lb n="0020a05" ed="Y"/><lb n="0020a02" ed="Y" type="old"/><lb n="0020a05" ed="Y" type="old"/><p xml:id="pY07p0020a0501" style="text-indent:2em">如人，是色、心相依而有的，相依相待而存在的緣起法，如瞎子和跛子一樣
 <lb n="0020a06" ed="Y"/><lb n="0020a06" ed="Y" type="old"/>，互相依存起來，看得見也走得路；一旦分離，就不成了。色、心是相依互待而
 <lb n="0020a07" ed="Y"/>有<lb n="0020a07" ed="Y" type="old"/>生命的、文化的、偉大的作用，這是有為生滅的現象；論到本性——法性，是
 <lb n="0020a08" ed="Y"/>無<lb n="0020a08" ed="Y" type="old"/>為不生不滅的。不說一切法只是理性，也不說一切法只是色與心；色、心與法
 <lb n="0020a09" ed="Y"/>性，<lb n="0020a09" ed="Y" type="old"/>不一不異，而各有它的特徵。</p>
-<lb n="0020a10" ed="Y"/><lb n="0020a10" ed="Y" type="old"/><p style="text-indent:2em">唯識者不這樣說，特別看重了心，說色是依心而起的。以為心從種子生起的
+<lb n="0020a10" ed="Y"/><lb n="0020a10" ed="Y" type="old"/><p xml:id="pY07p0020a1001" style="text-indent:2em">唯識者不這樣說，特別看重了心，說色是依心而起的。以為心從種子生起的
 <lb n="0020a11" ed="Y"/><lb n="0020a11" ed="Y" type="old"/>時候，自然而然的現起二種相：一、能取的精神的識知作用——見分，二、所取
 <lb n="0020a12" ed="Y"/><lb n="0020a12" ed="Y" type="old"/>的境相作用——相分。如以客觀存在的為色，那麼境相即是色（古有判色、心、
 <lb n="0020a13" ed="Y"/><lb n="0020a13" ed="Y" type="old"/>空三諦的，即三性的另一解說）。</p><pb n="0021a" ed="Y" xml:id="Y07.0007.0021a.old" type="old"/>
 <pb n="0021a" ed="Y" xml:id="Y07.0007.0021a"/>
-<lb n="0021a01" ed="Y"/><lb n="0021a01" ed="Y" type="old"/><p cb:type="pre">　　　　　　　　┌─相分境（色）
+<lb n="0021a01" ed="Y"/><lb n="0021a01" ed="Y" type="old"/><p cb:type="pre" xml:id="pY07p0021a0101">　　　　　　　　┌─相分境（色）
 <lb n="0021a02" ed="Y"/>　　　自證心──┴─見分心
 <lb n="0021a03" ed="Y"/>　　　法性</p>
-<lb n="0021a04" ed="Y"/><lb n="0021a04" ed="Y" type="old"/><p style="text-indent:2em">心自體是自證分，心自體起用時，見分、相分同時而生。這樣的成立一切法
+<lb n="0021a04" ed="Y"/><lb n="0021a04" ed="Y" type="old"/><p xml:id="pY07p0021a0401" style="text-indent:2em">心自體是自證分，心自體起用時，見分、相分同時而生。這樣的成立一切法
 <lb n="0021a05" ed="Y"/><lb n="0021a05" ed="Y" type="old"/>唯識，心即被剖析為二。色與心雖都是從種子生的因緣所生法，即依他起法；但
 <lb n="0021a06" ed="Y"/><lb n="0021a06" ed="Y" type="old"/>依他起的本質，是虛妄分別的心心所法為性，而色不過是現似心外存在的心相而
 <lb n="0021a07" ed="Y"/><lb n="0021a07" ed="Y" type="old"/>已。唯識家以為：有為法（心心所為本的）與無為法是平等的，不一不異的；法
 <lb n="0021a08" ed="Y"/><lb n="0021a08" ed="Y" type="old"/>性不離心識，所以名為唯識。</p>
-<lb n="0021a09" ed="Y"/><lb n="0021a09" ed="Y" type="old"/><p style="text-indent:2em">本論是真常唯心系的，所說的心，比唯識學還要強化。心——眾生心，不但
+<lb n="0021a09" ed="Y"/><lb n="0021a09" ed="Y" type="old"/><p xml:id="pY07p0021a0901" style="text-indent:2em">本論是真常唯心系的，所說的心，比唯識學還要強化。心——眾生心，不但
 <lb n="0021a10" ed="Y"/><lb n="0021a10" ed="Y" type="old"/>含攝了色，而且統有理性與事象（即無為與有為）。如說：一心法有二種門：一
 <lb n="0021a11" ed="Y"/>者<lb n="0021a11" ed="Y" type="old"/>心真如門，二者心生滅門。生滅心，是不離心真如的。從不離真如心而現起的
 <lb n="0021a12" ed="Y"/>生<lb n="0021a12" ed="Y" type="old"/>滅心說，含攝得本覺與不覺。不覺，即生死雜染的心；本覺，即開展為清淨解
@@ -340,11 +360,11 @@
 <pb n="0022a" ed="Y" xml:id="Y07.0007.0022a"/>
 <lb n="0022a01" ed="Y"/>、物質<pb n="0022a" ed="Y" xml:id="Y07.0007.0022a.old" type="old"/><lb n="0022a01" ed="Y" type="old"/>。我們現前的精神與物質（色、心），都是從不覺而生起的；不覺又依於統
 <lb n="0022a02" ed="Y"/>攝理<lb n="0022a02" ed="Y" type="old"/>事染淨的眾生心而存在的。這樣，<title level="m">《大乘起信論》</title>所說的心，即可為三級：</p>
-<lb n="0022a03" ed="Y"/><lb n="0022a03" ed="Y" type="old"/><p cb:type="pre">　　　　　　　　　　　　　　　　┌─所現所取境
+<lb n="0022a03" ed="Y"/><lb n="0022a03" ed="Y" type="old"/><p cb:type="pre" xml:id="pY07p0022a0301">　　　　　　　　　　　　　　　　┌─所現所取境
 <lb n="0022a04" ed="Y"/>　　　　　　┌心生滅門（心）──┴─現境取境心
 <lb n="0022a05" ed="Y"/>　　　眾生心┤
 <lb n="0022a06" ed="Y"/>　　　　　　└心真如門</p>
-<lb n="0022a07" ed="Y"/><lb n="0022a06" ed="Y" type="old"/><p style="text-indent:2em">理性與事象、精神與物質，都含攝在一心——眾生心裡，這是絕對的唯心論
+<lb n="0022a07" ed="Y"/><lb n="0022a06" ed="Y" type="old"/><p xml:id="pY07p0022a0701" style="text-indent:2em">理性與事象、精神與物質，都含攝在一心——眾生心裡，這是絕對的唯心論
 <lb n="0022a08" ed="Y"/><lb n="0022a07" ed="Y" type="old"/>（現代的辯證法唯物論，把這三者都依屬於物質：精神是由物質派生出來的；理
 <lb n="0022a09" ed="Y"/><lb n="0022a08" ed="Y" type="old"/>性是物質的一般法則。這是與絕對唯心論，恰好相反）。把理性與事象、物質與
 <lb n="0022a10" ed="Y"/><lb n="0022a09" ed="Y" type="old"/>精神，都統一於眾生心，為本論的特色。</p></cb:div></cb:div>

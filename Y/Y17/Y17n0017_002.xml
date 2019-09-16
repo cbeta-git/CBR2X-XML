@@ -12,57 +12,77 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2012/07</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2012/07</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>6卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 17, No. 17</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>6卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">17</idno>.<idno type="no">17</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">淨土與禪</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">一、淨土新論</cb:mulu><cb:mulu level="2" type="其他">九　易行道與難行道</cb:mulu>
-<milestone unit="juan" n="2"/><pb n="0077a" ed="Y" xml:id="Y17.0017.0077a.old" type="old"/>
+<milestone n="2" unit="juan"/><pb n="0077a" ed="Y" xml:id="Y17.0017.0077a.old" type="old"/>
 <pb n="0077a" ed="Y" xml:id="Y17.0017.0077a"/>
 <lb n="0077a01" ed="Y"/><lb n="0077a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">二、念佛淺說</cb:mulu><head>念佛淺說<note n="0077001" resp="DILA" type="add">民國四二年講。</note></head>
 <lb n="0077a02" ed="Y"/><lb n="0077a02" ed="Y" type="old"/><byline rend="bold">——四十二年冬在臺北善導寺講——</byline>
 <lb n="0077a03" ed="Y"/><lb n="0077a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　佛七</cb:mulu><head>一　佛七</head>
-<lb n="0077a04" ed="Y"/><lb n="0077a04" ed="Y" type="old"/><p style="text-indent:2em">佛七，是簡稱，具足說應該叫做結七念佛。念佛是大乘的通泛法門，小乘中
+<lb n="0077a04" ed="Y"/><lb n="0077a04" ed="Y" type="old"/><p xml:id="pY17p0077a0401" style="text-indent:2em">佛七，是簡稱，具足說應該叫做結七念佛。念佛是大乘的通泛法門，小乘中
 <lb n="0077a05" ed="Y"/><lb n="0077a05" ed="Y" type="old"/>也有。但現在，專指大乘的念阿彌陀佛。念佛，本來有多種念法，而現在是專指
 <lb n="0077a06" ed="Y"/><lb n="0077a06" ed="Y" type="old"/>稱名念佛。七，是七日，在印度早就有小七、大七的二種：小七就是七天，大七
 <lb n="0077a07" ed="Y"/><lb n="0077a07" ed="Y" type="old"/>是七七四十九天。結七，如結界一樣，在一定的時限中——小七或大七，專心修
 <lb n="0077a08" ed="Y"/><lb n="0077a08" ed="Y" type="old"/>學。結七不一定念佛，如參禪有禪七。但現在是佛七，即在七日中，專心稱念南
 <lb n="0077a09" ed="Y"/><lb n="0077a09" ed="Y" type="old"/>無阿彌陀佛。</p>
-<lb n="0077a10" ed="Y"/><lb n="0077a10" ed="Y" type="old"/><p style="text-indent:2em">普通的念佛有二種：一是定時念佛，如我們早晚功課的念佛，有一定的時間<pb n="0078a" ed="Y" xml:id="Y17.0017.0078a.old" type="old"/>
+<lb n="0077a10" ed="Y"/><lb n="0077a10" ed="Y" type="old"/><p xml:id="pY17p0077a1001" style="text-indent:2em">普通的念佛有二種：一是定時念佛，如我們早晚功課的念佛，有一定的時間<pb n="0078a" ed="Y" xml:id="Y17.0017.0078a.old" type="old"/>
 <pb n="0078a" ed="Y" xml:id="Y17.0017.0078a"/>
 <lb n="0078a01" ed="Y"/><lb n="0078a01" ed="Y" type="old"/>。二是平時念佛，這是在行住坐臥的日常生活中念佛。定時念佛，因為時間太短
 <lb n="0078a02" ed="Y"/><lb n="0078a02" ed="Y" type="old"/>，不容易達到一心不亂的目的；平時念佛，又都是散心念佛，不容易專精，更不
@@ -73,7 +93,7 @@
 <lb n="0078a07" ed="Y"/><lb n="0078a07" ed="Y" type="old"/>，也不能煮滾。現在的結七念佛，猶如一方面加強火力，一方面繼續不斷，在這
 <lb n="0078a08" ed="Y"/><lb n="0078a08" ed="Y" type="old"/>樣的情形下，很容易把水煮滾了。念佛所要達到的一心不亂，在這加行的結七念
 <lb n="0078a09" ed="Y"/><lb n="0078a09" ed="Y" type="old"/>佛中，是最易成就的。</p>
-<lb n="0078a10" ed="Y"/><lb n="0078a10" ed="Y" type="old"/><p style="text-indent:2em">佛七法會，與其他法會不同。其他的法會，大都是紀念性質，逢佛菩薩誕生
+<lb n="0078a10" ed="Y"/><lb n="0078a10" ed="Y" type="old"/><p xml:id="pY17p0078a1001" style="text-indent:2em">佛七法會，與其他法會不同。其他的法會，大都是紀念性質，逢佛菩薩誕生
 <lb n="0078a11" ed="Y"/><lb n="0078a11" ed="Y" type="old"/>或其他的因緣，集會慶祝、紀念，加強我們對佛法的信行，與喚起我們應負的責
 <lb n="0078a12" ed="Y"/><lb n="0078a12" ed="Y" type="old"/>任。佛七的目標，是願求往生極樂世界。要往生，就要以念佛為方法，達到一心
 <lb n="0078a13" ed="Y"/><lb n="0078a13" ed="Y" type="old"/>不亂為關鍵。這是佛七的根本意義，大家來參加法會，稱念佛名，這是應該首先<pb n="0079a" ed="Y" xml:id="Y17.0017.0079a.old" type="old"/>
@@ -81,21 +101,21 @@
 <lb n="0079a01" ed="Y"/><lb n="0079a01" ed="Y" type="old"/>了解的。</p></cb:div>
 <lb n="0079a02" ed="Y"/><lb n="0079a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　阿彌陀佛與極樂世界</cb:mulu><head>二　阿彌陀佛與極樂世界</head>
 <lb n="0079a03" ed="Y"/><lb n="0079a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">一　阿彌陀佛</cb:mulu><head>一　阿彌陀佛</head>
-<lb n="0079a04" ed="Y"/><lb n="0079a04" ed="Y" type="old"/><p style="text-indent:2em">結七念佛，是稱念阿彌陀佛，願求往生極樂世界。所以阿彌陀佛與極樂世界
+<lb n="0079a04" ed="Y"/><lb n="0079a04" ed="Y" type="old"/><p xml:id="pY17p0079a0401" style="text-indent:2em">結七念佛，是稱念阿彌陀佛，願求往生極樂世界。所以阿彌陀佛與極樂世界
 <lb n="0079a05" ed="Y"/><lb n="0079a05" ed="Y" type="old"/>，應先作一簡要的解說。</p>
-<lb n="0079a06" ed="Y"/><lb n="0079a06" ed="Y" type="old"/><p style="text-indent:2em">佛是覺者，凡圓滿自覺、覺他功德，斷盡一切煩惱習氣的，皆名為佛。阿彌
+<lb n="0079a06" ed="Y"/><lb n="0079a06" ed="Y" type="old"/><p xml:id="pY17p0079a0601" style="text-indent:2em">佛是覺者，凡圓滿自覺、覺他功德，斷盡一切煩惱習氣的，皆名為佛。阿彌
 <lb n="0079a07" ed="Y"/><lb n="0079a07" ed="Y" type="old"/>陀佛是諸佛之一，但因他表徵非常的勝德，所以在諸佛淨土中，特別在中國，阿
 <lb n="0079a08" ed="Y"/><lb n="0079a08" ed="Y" type="old"/>彌陀佛有著廣大的崇高的尊敬。古德說：<quote>「諸經所讚，盡在彌陀。」</quote>我們打開藏
-<lb n="0079a09" ed="Y"/><lb n="0079a09" ed="Y" type="old"/>經來看，的確大乘經中，多數是讚揚阿彌陀佛及其淨土的。要明白這<note n="0079a0901" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0079a0901"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>面的所以
+<lb n="0079a09" ed="Y"/><lb n="0079a09" ed="Y" type="old"/>經來看，的確大乘經中，多數是讚揚阿彌陀佛及其淨土的。要明白這<note n="0079a0901" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0079a0901"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>面的所以
 <lb n="0079a10" ed="Y"/><lb n="0079a10" ed="Y" type="old"/>然，可從「阿彌陀」的名義去理解。</p>
-<lb n="0079a11" ed="Y"/><lb n="0079a11" ed="Y" type="old"/><p style="text-indent:2em">阿彌陀，平常都說是無量光或無量壽。其實，無量光是阿彌陀婆耶，無量壽
+<lb n="0079a11" ed="Y"/><lb n="0079a11" ed="Y" type="old"/><p xml:id="pY17p0079a1101" style="text-indent:2em">阿彌陀，平常都說是無量光或無量壽。其實，無量光是阿彌陀婆耶，無量壽
 <lb n="0079a12" ed="Y"/><lb n="0079a12" ed="Y" type="old"/>是阿彌陀庾斯，這都是阿彌陀而又另加字義的。阿彌陀的根本義，譯為中國話，<pb n="0080a" ed="Y" xml:id="Y17.0017.0080a.old" type="old"/>
 <pb n="0080a" ed="Y" xml:id="Y17.0017.0080a"/>
 <lb n="0080a01" ed="Y"/><lb n="0080a01" ed="Y" type="old"/>是無量，故阿彌陀佛即是無量佛。無量是究竟，圓滿、不可限量。如有限量就不
 <lb n="0080a02" ed="Y"/><lb n="0080a02" ed="Y" type="old"/>能包含一切，無量才含攝得一切的功德。不但佛的光、壽無量，佛的智慧、願力
 <lb n="0080a03" ed="Y"/><lb n="0080a03" ed="Y" type="old"/>、神通，什麼都是無量的。不過眾生特重光明與壽命，所以又順應眾生，特說光
 <lb n="0080a04" ed="Y"/><lb n="0080a04" ed="Y" type="old"/>壽無量而已。</p>
-<lb n="0080a05" ed="Y"/><lb n="0080a05" ed="Y" type="old"/><p style="text-indent:2em">一切佛的功德莫不究竟，圓滿、無有限量，而阿彌陀佛卻以無量得名。以德
+<lb n="0080a05" ed="Y"/><lb n="0080a05" ed="Y" type="old"/><p xml:id="pY17p0080a0501" style="text-indent:2em">一切佛的功德莫不究竟，圓滿、無有限量，而阿彌陀佛卻以無量得名。以德
 <lb n="0080a06" ed="Y"/><lb n="0080a06" ed="Y" type="old"/>立名，著重在一即一切，一切即一的圓滿果德。<title level="m">《般舟三昧經》</title>說：觀阿彌陀佛
 <lb n="0080a07" ed="Y"/><lb n="0080a07" ed="Y" type="old"/>成就時，即見一切佛。<title level="m">《觀無量壽佛經》</title>也說：觀阿彌陀佛成就，即見一切佛。
 <lb n="0080a08" ed="Y"/><lb n="0080a08" ed="Y" type="old"/>觀佛，是以一佛身相功德為對象，心心觀察，等到觀行成就了，阿彌陀佛現前。
@@ -109,15 +129,15 @@
 <lb n="0081a02" ed="Y"/><lb n="0081a02" ed="Y" type="old"/>由阿彌陀代表一切佛，顯示一切佛的共同佛德。一切經的讚嘆阿彌陀佛，也等於
 <lb n="0081a03" ed="Y"/><lb n="0081a03" ed="Y" type="old"/>讚嘆一切佛。從泛稱的無量佛，成為一佛的特名，來表彰佛佛道同，在名字上，
 <lb n="0081a04" ed="Y"/><lb n="0081a04" ed="Y" type="old"/>阿彌陀佛得到了優越的勝利，所以學佛者的信念，自然地集中到阿彌陀佛。</p>
-<lb n="0081a05" ed="Y"/><lb n="0081a05" ed="Y" type="old"/><p style="text-indent:2em">有人說：阿彌陀佛是一切佛的根本佛，這是不盡然的。佛佛具足三身，佛與
+<lb n="0081a05" ed="Y"/><lb n="0081a05" ed="Y" type="old"/><p xml:id="pY17p0081a0501" style="text-indent:2em">有人說：阿彌陀佛是一切佛的根本佛，這是不盡然的。佛佛具足三身，佛與
 <lb n="0081a06" ed="Y"/><lb n="0081a06" ed="Y" type="old"/>佛間有什麼本末？又有人說：阿彌陀佛的願力大——四十八願，與娑婆世界特別
 <lb n="0081a07" ed="Y"/><lb n="0081a07" ed="Y" type="old"/>有緣，所以大家信仰阿彌陀佛。這也是方便說，佛的誓願無量無邊，豈止四十八
 <lb n="0081a08" ed="Y"/><lb n="0081a08" ed="Y" type="old"/>願？佛的願力，平等平等，有何差別？佛是要度盡一切眾生的；除了娑婆世界以
 <lb n="0081a09" ed="Y"/><lb n="0081a09" ed="Y" type="old"/>外的，難道不是阿彌陀佛所要化度的眾生？如依這種方便說，便不能顯出阿彌陀
 <lb n="0081a10" ed="Y"/><lb n="0081a10" ed="Y" type="old"/>佛的特勝。</p>
-<lb n="0081a11" ed="Y"/><lb n="0081a11" ed="Y" type="old"/><p style="text-indent:2em">上就名稱方面講，再從阿彌陀佛所表的特殊功德說。在一切佛中，阿彌陀佛
+<lb n="0081a11" ed="Y"/><lb n="0081a11" ed="Y" type="old"/><p xml:id="pY17p0081a1101" style="text-indent:2em">上就名稱方面講，再從阿彌陀佛所表的特殊功德說。在一切佛中，阿彌陀佛
 <lb n="0081a12" ed="Y"/><lb n="0081a12" ed="Y" type="old"/>表顯的特殊功德，就是慈悲救濟。當然佛佛皆有慈悲救濟，慈悲救濟不只是阿彌
-<lb n="0081a13" ed="Y"/><lb n="0081a13" ed="Y" type="old"/>陀佛的。但這<note n="0081a1301" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0081a1301"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>是就佛法的表德說。如觀音的大悲，普賢的大行，文殊的大智，<pb n="0082a" ed="Y" xml:id="Y17.0017.0082a.old" type="old"/>
+<lb n="0081a13" ed="Y"/><lb n="0081a13" ed="Y" type="old"/>陀佛的。但這<note n="0081a1301" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0081a1301"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>是就佛法的表德說。如觀音的大悲，普賢的大行，文殊的大智，<pb n="0082a" ed="Y" xml:id="Y17.0017.0082a.old" type="old"/>
 <pb n="0082a" ed="Y" xml:id="Y17.0017.0082a"/>
 <lb n="0082a01" ed="Y"/><lb n="0082a01" ed="Y" type="old"/>都是約所表的特德說。阿彌陀佛法會，有觀音、大勢至二菩薩；觀音菩薩也是以
 <lb n="0082a02" ed="Y"/><lb n="0082a02" ed="Y" type="old"/>大悲救濟為特德的。然觀音與阿彌陀佛的慈悲救濟，有著重心的不同。觀音菩薩
@@ -135,9 +155,9 @@
 <pb n="0083a" ed="Y" xml:id="Y17.0017.0083a"/>
 <lb n="0083a01" ed="Y"/><lb n="0083a01" ed="Y" type="old"/>陀、觀音的慈悲救世，接近眾生，深入人心，所以才會家喻戶曉。</p></cb:div>
 <lb n="0083a02" ed="Y"/><lb n="0083a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">二　極樂世界</cb:mulu><head>二　極樂世界</head>
-<lb n="0083a03" ed="Y"/><lb n="0083a03" ed="Y" type="old"/><p style="text-indent:2em">極樂世界是淨土。說到淨土的有無，若對教內人說，以聖教量為證，當然不
+<lb n="0083a03" ed="Y"/><lb n="0083a03" ed="Y" type="old"/><p xml:id="pY17p0083a0301" style="text-indent:2em">極樂世界是淨土。說到淨土的有無，若對教內人說，以聖教量為證，當然不
 <lb n="0083a04" ed="Y"/><lb n="0083a04" ed="Y" type="old"/>成問題。若以此而向不信佛教的外界說，便起不了作用。因為你以佛說為教量，
-<lb n="0083a05" ed="Y"/><lb n="0083a05" ed="Y" type="old"/>他可以神說的吠陀、<title level="m"><note n="0083a0501" resp="CBETA" type="add">新舊約【CB】，新約舊約【印順】</note><app n="0083a0501"><lem wit="【CB】" resp="正聞出版社">《新舊約》</lem><rdg wit="【印順】">《新約》、《舊約》</rdg></app></title>與<title level="m">《可蘭經》</title>為教量。各信所信，並不
+<lb n="0083a05" ed="Y"/><lb n="0083a05" ed="Y" type="old"/>他可以神說的吠陀、<title level="m"><note n="0083a0501" resp="CBETA" type="add">新舊約【CB】，新約舊約【印順】</note><app n="0083a0501"><lem resp="正聞出版社" wit="【CB】">《新舊約》</lem><rdg wit="【印順】">《新約》、《舊約》</rdg></app></title>與<title level="m">《可蘭經》</title>為教量。各信所信，並不
 <lb n="0083a06" ed="Y"/>能解決問<lb n="0083a06" ed="Y" type="old"/>題、使他起信。要說明淨土的有無，也不用天眼遠見，也不用神通往來
 <lb n="0083a07" ed="Y"/>，因為天<lb n="0083a07" ed="Y" type="old"/>眼與神通，在不信者，會把你看作錯覺幻覺的。所以，應該以合理的論
 <lb n="0083a08" ed="Y"/>證來說明<lb n="0083a08" ed="Y" type="old"/>。佛教說世界無量數，這在過去是難以使人信受的，而現在卻不成問題
@@ -152,24 +172,24 @@
 <lb n="0084a04" ed="Y"/>西方（日<lb n="0084a04" ed="Y" type="old"/>落處，含有深意，見<title level="m">《淨土新論》</title>）。這樣的指方立向，多一層事實的
 <lb n="0084a05" ed="Y"/>肯定，容<lb n="0084a05" ed="Y" type="old"/>易使人們起決定信。極樂世界，雖你我都沒有見到，都沒有去過，然據
 <lb n="0084a06" ed="Y"/>理而論，<lb n="0084a06" ed="Y" type="old"/>這是完全可能的。是可能的，是佛說的，為什麼不信？</p>
-<lb n="0084a07" ed="Y"/><lb n="0084a07" ed="Y" type="old"/><p style="text-indent:2em">說到淨土的狀態，應該知道，這是適應眾生根機，在眾生可能想像的範圍中
+<lb n="0084a07" ed="Y"/><lb n="0084a07" ed="Y" type="old"/><p xml:id="pY17p0084a0701" style="text-indent:2em">說到淨土的狀態，應該知道，這是適應眾生根機，在眾生可能想像的範圍中
 <lb n="0084a08" ed="Y"/><lb n="0084a08" ed="Y" type="old"/>，加以敘述的。如佛出印度，現有印度所推重的三十二相；日本的佛像，每蓄有
 <lb n="0084a09" ed="Y"/><lb n="0084a09" ed="Y" type="old"/>日式短鬚；緬甸的佛像，人中特短，這皆是通過主觀心理而反映出來的。佛的淨
 <lb n="0084a10" ed="Y"/><lb n="0084a10" ed="Y" type="old"/>土也如此，也是經過主觀而表達出來的。佛出印度，佛說的淨土，也是適應當時
 <lb n="0084a11" ed="Y"/><lb n="0084a11" ed="Y" type="old"/>印度人的可能信解而敘述的，真正的淨土，依我看，比經上說的，實在還應該要
 <lb n="0084a12" ed="Y"/><lb n="0084a12" ed="Y" type="old"/>美滿莊嚴得多！淨土的情況，可分三點來說：</p>
-<lb n="0084a13" ed="Y"/><lb n="0084a13" ed="Y" type="old"/><p style="text-indent:2em">一、自然界的豐美：根據<title level="m">《阿彌陀經》</title>及<title level="m">《觀無量壽佛經》</title>的說明，極樂淨<pb n="0085a" ed="Y" xml:id="Y17.0017.0085a.old" type="old"/>
+<lb n="0084a13" ed="Y"/><lb n="0084a13" ed="Y" type="old"/><p xml:id="pY17p0084a1301" style="text-indent:2em">一、自然界的豐美：根據<title level="m">《阿彌陀經》</title>及<title level="m">《觀無量壽佛經》</title>的說明，極樂淨<pb n="0085a" ed="Y" xml:id="Y17.0017.0085a.old" type="old"/>
 <pb n="0085a" ed="Y" xml:id="Y17.0017.0085a"/>
 <lb n="0085a01" ed="Y"/><lb n="0085a01" ed="Y" type="old"/>土自然界是非常的莊嚴。土地平坦，沒有崎嶇山陵；沒有晝夜，長在光明中；寶
 <lb n="0085a02" ed="Y"/><lb n="0085a02" ed="Y" type="old"/>樹成行；金沙布地。物質生活的享受，極為豐富。生活所需的，取之不盡，用之
 <lb n="0085a03" ed="Y"/><lb n="0085a03" ed="Y" type="old"/>不竭。可以自由取給，不像我們娑婆世界的貧苦窮乏、不平等。</p>
-<lb n="0085a04" ed="Y"/><lb n="0085a04" ed="Y" type="old"/><p style="text-indent:2em">二、人事界的勝樂：我們這個穢惡的世界，人與人之間，充滿了鬥爭、嫉<note n="0085a0401" resp="CBETA" type="add" subtype="規範字詞">妒【CB】，妬【印順】</note><app n="0085a0401"><lem wit="【CB】" resp="CBETA">妒</lem><rdg wit="【印順】">妬</rdg></app>
+<lb n="0085a04" ed="Y"/><lb n="0085a04" ed="Y" type="old"/><p xml:id="pY17p0085a0401" style="text-indent:2em">二、人事界的勝樂：我們這個穢惡的世界，人與人之間，充滿了鬥爭、嫉<note n="0085a0401" resp="CBETA" type="add" subtype="規範字詞">妒【CB】，妬【印順】</note><app n="0085a0401"><lem resp="CBETA" wit="【CB】">妒</lem><rdg wit="【印順】">妬</rdg></app>
 <lb n="0085a05" ed="Y"/><lb n="0085a05" ed="Y" type="old"/>、瞋恨，造成無邊的苦痛。極樂世界，與此處適得其反，人與人間，平等和樂。
 <lb n="0085a06" ed="Y"/><lb n="0085a06" ed="Y" type="old"/>走獸根本沒有，飛禽都是變化所生。凡是生到極樂世界的都是功德殊勝的諸上善
 <lb n="0085a07" ed="Y"/><lb n="0085a07" ed="Y" type="old"/>人，一生補處的菩薩就不少。菩薩與聲聞聖者，無量無數；再次的，也是一心一
 <lb n="0085a08" ed="Y"/><lb n="0085a08" ed="Y" type="old"/>意修學清淨佛道的善人。在良師益友的策勵下，都能不斷的向上。所以不但和樂
 <lb n="0085a09" ed="Y"/><lb n="0085a09" ed="Y" type="old"/>，而且非常殊勝。</p>
-<lb n="0085a10" ed="Y"/><lb n="0085a10" ed="Y" type="old"/><p style="text-indent:2em">三、身心的清淨：生極樂世界的，都是蓮花化生。由於自己的願力、佛菩薩
+<lb n="0085a10" ed="Y"/><lb n="0085a10" ed="Y" type="old"/><p xml:id="pY17p0085a1001" style="text-indent:2em">三、身心的清淨：生極樂世界的，都是蓮花化生。由於自己的願力、佛菩薩
 <lb n="0085a11" ed="Y"/><lb n="0085a11" ed="Y" type="old"/>的悲願，不須父母為緣，化生於蓮華中。佛經所說的佛菩薩，每處蓮華座。蓮花
 <lb n="0085a12" ed="Y"/><lb n="0085a12" ed="Y" type="old"/>為出於淤泥而清淨的，離了一切煩惱，得到身心清淨，成為聖者，所以以蓮花的
 <lb n="0085a13" ed="Y"/><lb n="0085a13" ed="Y" type="old"/>出塵不染為喻。修念佛行而生淨土，所以也是化生於蓮花中的。極樂淨土中，身<pb n="0086a" ed="Y" xml:id="Y17.0017.0086a.old" type="old"/>
@@ -179,18 +199,18 @@
 <lb n="0086a03" ed="Y"/><lb n="0086a03" ed="Y" type="old"/>會死亡的；得了無生忍，也不會再感死苦。淨土中不但沒有身體的老、病、死苦
 <lb n="0086a04" ed="Y"/><lb n="0086a04" ed="Y" type="old"/>，連心中的煩惱——貪、瞋、癡苦也沒有。初生淨土的眾生，煩惱習氣當然未曾
 <lb n="0086a05" ed="Y"/><lb n="0086a05" ed="Y" type="old"/>斷除；但由於環境的特勝，雖有煩惱，而緣缺不生。淨土的黃金如糞土，物質所
-<lb n="0086a06" ed="Y"/><lb n="0086a06" ed="Y" type="old"/>需可以自由取給，還生什麼貪心？諸上善人，共聚一處，和樂融洽，那<note n="0086a0601" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0086a0601"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>會起瞋
+<lb n="0086a06" ed="Y"/><lb n="0086a06" ed="Y" type="old"/>需可以自由取給，還生什麼貪心？諸上善人，共聚一處，和樂融洽，那<note n="0086a0601" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0086a0601"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>會起瞋
 <lb n="0086a07" ed="Y"/><lb n="0086a07" ed="Y" type="old"/>心？正信正行，當然不會起邪見等癡心。起煩惱的因緣不具足，當然不會有煩惱
 <lb n="0086a08" ed="Y"/><lb n="0086a08" ed="Y" type="old"/>，所以身心都非常清淨。</p>
-<lb n="0086a09" ed="Y"/><lb n="0086a09" ed="Y" type="old"/><p style="text-indent:2em">由於自然界的豐美、眾生界的勝樂、身心界的清淨，所以名為極樂世界。這
+<lb n="0086a09" ed="Y"/><lb n="0086a09" ed="Y" type="old"/><p xml:id="pY17p0086a0901" style="text-indent:2em">由於自然界的豐美、眾生界的勝樂、身心界的清淨，所以名為極樂世界。這
 <lb n="0086a10" ed="Y"/><lb n="0086a10" ed="Y" type="old"/>世界為阿彌陀佛無邊功德所莊嚴，為攝化眾生的方便而成立，發願求生淨土，就
 <lb n="0086a11" ed="Y"/><lb n="0086a11" ed="Y" type="old"/>以此為目標。</p></cb:div></cb:div>
 <lb n="0086a12" ed="Y"/><lb n="0086a12" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　念佛法門三特徵</cb:mulu><head>三　念佛法門三特徵</head><pb n="0087a" ed="Y" xml:id="Y17.0017.0087a.old" type="old"/>
 <pb n="0087a" ed="Y" xml:id="Y17.0017.0087a"/>
-<lb n="0087a01" ed="Y"/><lb n="0087a01" ed="Y" type="old"/><p style="text-indent:2em">念佛（稱念阿彌陀佛）法門，有三種特徵：一、他增上，二、易行道，三、
+<lb n="0087a01" ed="Y"/><lb n="0087a01" ed="Y" type="old"/><p xml:id="pY17p0087a0101" style="text-indent:2em">念佛（稱念阿彌陀佛）法門，有三種特徵：一、他增上，二、易行道，三、
 <lb n="0087a02" ed="Y"/><lb n="0087a02" ed="Y" type="old"/>異方便。此三者，在一切佛法中，無論是大乘或小乘，本來都是普遍具有的，不
 <lb n="0087a03" ed="Y"/><lb n="0087a03" ed="Y" type="old"/>過糅合這三點而專門闡揚顯示的，唯是念佛淨土法門。</p>
-<lb n="0087a04" ed="Y"/><lb n="0087a04" ed="Y" type="old"/><p style="text-indent:2em">一、他增上：他增上的反面，是自增上。修學佛法，有依自力和依他力二種
+<lb n="0087a04" ed="Y"/><lb n="0087a04" ed="Y" type="old"/><p xml:id="pY17p0087a0401" style="text-indent:2em">一、他增上：他增上的反面，是自增上。修學佛法，有依自力和依他力二種
 <lb n="0087a05" ed="Y"/><lb n="0087a05" ed="Y" type="old"/>，自力即自增上，他力是他增上。我常說佛法重於自力，但並不是說到自力便
 <lb n="0087a06" ed="Y"/><lb n="0087a06" ed="Y" type="old"/>完全否定他力，因為他力也是確實存在的。例如一個人生存於世間，不能專靠自
 <lb n="0087a07" ed="Y"/><lb n="0087a07" ed="Y" type="old"/>力或他力，而是依著自他力的展轉增上。如小孩必由父母養育、師長訓導，一直
@@ -210,12 +230,12 @@
 <lb n="0088a07" ed="Y"/><lb n="0088a07" ed="Y" type="old"/>他力，那是絕不可能的。比方患貧血症，可以輸血補救，但若身體壞到極點，別
 <lb n="0088a08" ed="Y"/><lb n="0088a08" ed="Y" type="old"/>人的血也是救不了的。換句話說，必須自身還有生存能力，然後才能吸受他人之
 <lb n="0088a09" ed="Y"/><lb n="0088a09" ed="Y" type="old"/>血，以增強自己的身命。</p>
-<lb n="0088a10" ed="Y"/><lb n="0088a10" ed="Y" type="old"/><p style="text-indent:2em">接受他力，最要緊的是自覺到有一種力量在支持我們。如小孩正在害怕時，
+<lb n="0088a10" ed="Y"/><lb n="0088a10" ed="Y" type="old"/><p xml:id="pY17p0088a1001" style="text-indent:2em">接受他力，最要緊的是自覺到有一種力量在支持我們。如小孩正在害怕時，
 <lb n="0088a11" ed="Y"/><lb n="0088a11" ed="Y" type="old"/>有人對他說：你媽媽就在身邊呢！立刻就會發生一種強大的力量，使他不再害怕
 <lb n="0088a12" ed="Y"/><lb n="0088a12" ed="Y" type="old"/>；這因為小孩自己知道母親是他的保護者，所以一聽說媽媽，便無所畏懼了。
 <lb n="0088a13" ed="Y"/><lb n="0088a13" ed="Y" type="old"/>一般人，特別是怯弱的人，當他沉淪在苦惱絕望之中，一旦自覺到有某種力量支<pb n="0089a" ed="Y" xml:id="Y17.0017.0089a.old" type="old"/>
 <pb n="0089a" ed="Y" xml:id="Y17.0017.0089a"/>
-<lb n="0089a01" ed="Y"/><lb n="0089a01" ed="Y" type="old"/>持他，便能做出很多平時所不能做的事情。一個國家亦如此，當<note n="0089a0101" resp="CBETA" type="add" subtype="規範字詞">它【CB】，他【印順】</note><app n="0089a0101"><lem wit="【CB】" resp="CBETA">它</lem><rdg wit="【印順】">他</rdg></app>發生危急困難
+<lb n="0089a01" ed="Y"/><lb n="0089a01" ed="Y" type="old"/>持他，便能做出很多平時所不能做的事情。一個國家亦如此，當<note n="0089a0101" resp="CBETA" type="add" subtype="規範字詞">它【CB】，他【印順】</note><app n="0089a0101"><lem resp="CBETA" wit="【CB】">它</lem><rdg wit="【印順】">他</rdg></app>發生危急困難
 <lb n="0089a02" ed="Y"/><lb n="0089a02" ed="Y" type="old"/>時，若有其他國家發表支援的聲明，人心便會轉趨安定，而發揮出莫大力量，克
 <lb n="0089a03" ed="Y"/><lb n="0089a03" ed="Y" type="old"/>服困難。如自己不求改進，那麼外力的援助，不能拯救這一國家的危亡。他力，
 <lb n="0089a04" ed="Y"/><lb n="0089a04" ed="Y" type="old"/>要依自力而成為力量。有時，明明是自力，卻可以化自力為他力，因而增進自力
@@ -230,7 +250,7 @@
 <lb n="0089a13" ed="Y"/><lb n="0089a13" ed="Y" type="old"/>說牠們往生西方。大家想想，鸚鵡與鵝，真能明了阿彌陀佛與極樂世界嗎？也有<pb n="0090a" ed="Y" xml:id="Y17.0017.0090a.old" type="old"/>
 <pb n="0090a" ed="Y" xml:id="Y17.0017.0090a"/>
 <lb n="0090a01" ed="Y"/><lb n="0090a01" ed="Y" type="old"/>信有願嗎？</p>
-<lb n="0090a02" ed="Y"/><lb n="0090a02" ed="Y" type="old"/><p style="text-indent:2em">自力與他力，必須互相展轉增上。如果專靠他力而忽略自力，即與神教無異
+<lb n="0090a02" ed="Y"/><lb n="0090a02" ed="Y" type="old"/><p xml:id="pY17p0090a0201" style="text-indent:2em">自力與他力，必須互相展轉增上。如果專靠他力而忽略自力，即與神教無異
 <lb n="0090a03" ed="Y"/><lb n="0090a03" ed="Y" type="old"/>；依佛法說，便不合因果律。不管世間法也好，佛法也好，若能著重自力，自己
 <lb n="0090a04" ed="Y"/><lb n="0090a04" ed="Y" type="old"/>努力向上，自然會有他力來助成，如古語說：<quote type="寬鬆引文">「自助者人助之。」</quote>不然，單有他
 <lb n="0090a05" ed="Y"/><lb n="0090a05" ed="Y" type="old"/>力也幫不了忙，所以佛教是特重自力的宗教。大凡一個人的能力越強，自力的精
@@ -239,14 +259,14 @@
 <lb n="0090a08" ed="Y"/><lb n="0090a08" ed="Y" type="old"/>馬鳴等，都說是為志性怯劣的初心人說。教法被機而設，這是特為能力差的怯弱
 <lb n="0090a09" ed="Y"/><lb n="0090a09" ed="Y" type="old"/>眾生說的。念佛法門，是屬於他力的，依阿彌陀佛慈悲願力的攝受，才有往生淨
 <lb n="0090a10" ed="Y"/><lb n="0090a10" ed="Y" type="old"/>土的可能；若沒有阿彌陀佛的慈悲願力，則不能往生。</p>
-<lb n="0090a11" ed="Y"/><lb n="0090a11" ed="Y" type="old"/><p style="text-indent:2em">二、易行道：易行道，這名稱出<title level="m">《十住毘婆沙論》</title>。龍樹說：菩薩得不退轉
+<lb n="0090a11" ed="Y"/><lb n="0090a11" ed="Y" type="old"/><p xml:id="pY17p0090a1101" style="text-indent:2em">二、易行道：易行道，這名稱出<title level="m">《十住毘婆沙論》</title>。龍樹說：菩薩得不退轉
 <lb n="0090a12" ed="Y"/><lb n="0090a12" ed="Y" type="old"/>，要修四攝、六度種種難行苦行，極不容易。於是有人就問：有沒有比較容易行
 <lb n="0090a13" ed="Y"/><lb n="0090a13" ed="Y" type="old"/>的？龍樹即批評說：這是下劣根性，無大丈夫氣。菩薩學佛，應難行能行，勇往<pb n="0091a" ed="Y" xml:id="Y17.0017.0091a.old" type="old"/>
 <pb n="0091a" ed="Y" xml:id="Y17.0017.0091a"/>
 <lb n="0091a01" ed="Y"/><lb n="0091a01" ed="Y" type="old"/>直前，不該自卑。但為了適應根性，他畢竟還是依經而說出易行道。易行道，並
 <lb n="0091a02" ed="Y"/><lb n="0091a02" ed="Y" type="old"/>非專指念佛，而是概括普賢的十大願，即禮佛、讚佛、供養佛等。這些所以被稱
 <lb n="0091a03" ed="Y"/><lb n="0091a03" ed="Y" type="old"/>為易行道，是因為容易學、容易做，並不是說學了這些法門就容易成佛。如<title level="a">〈普
-<lb n="0091a04" ed="Y"/><lb n="0091a04" ed="Y" type="old"/>賢行願品〉</title>所說的念佛、禮佛、讚佛、供養佛等等，都是嘴<note n="0091a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0091a0401"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>念、心<note n="0091a0402" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0091a0402"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>想。就是
+<lb n="0091a04" ed="Y"/><lb n="0091a04" ed="Y" type="old"/>賢行願品〉</title>所說的念佛、禮佛、讚佛、供養佛等等，都是嘴<note n="0091a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0091a0401"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>念、心<note n="0091a0402" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0091a0402"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>想。就是
 <lb n="0091a05" ed="Y"/><lb n="0091a05" ed="Y" type="old"/>供佛，也是在觀想中供養。所以易行道的易行，即在乎自心觀想，不須依具體事
 <lb n="0091a06" ed="Y"/><lb n="0091a06" ed="Y" type="old"/>物去實行。不能勝解觀修，口頭念也可以。從口頭誦持，再引起內心的思惟。若
 <lb n="0091a07" ed="Y"/><lb n="0091a07" ed="Y" type="old"/>真正讚佛，就得造偈如實稱嘆；真正供佛，就得不惜犧牲一切而作供養，這就難
@@ -254,7 +274,7 @@
 <lb n="0091a09" ed="Y"/><lb n="0091a09" ed="Y" type="old"/>薩功德經》</title>，說釋迦佛因中修難行道，精勤苦行，發願於五濁惡世成等正覺。而
 <lb n="0091a10" ed="Y"/><lb n="0091a10" ed="Y" type="old"/>彌勒則是修的易行道，故將來在淨土成佛。約此說，一般的念佛、讚佛、隨喜、
 <lb n="0091a11" ed="Y"/><lb n="0091a11" ed="Y" type="old"/>懺悔、勸請、迴向，可以增長善根、消除業障，都是屬於易行道。念阿彌陀佛，
-<lb n="0091a12" ed="Y"/><lb n="0091a12" ed="Y" type="old"/>就是易行道的一種。<title level="m"><note n="0091a1201" resp="CBETA" type="add" subtype="規範字詞">十住毘婆沙論【CB】，十住論【印順】</note><app n="0091a1201"><lem wit="【CB】" resp="CBETA">《十住毘婆沙論》</lem><rdg wit="【印順】">《十住論》</rdg></app></title>說易行道念佛，也並不是專念阿彌陀佛的。易行
+<lb n="0091a12" ed="Y"/><lb n="0091a12" ed="Y" type="old"/>就是易行道的一種。<title level="m"><note n="0091a1201" resp="CBETA" type="add" subtype="規範字詞">十住毘婆沙論【CB】，十住論【印順】</note><app n="0091a1201"><lem resp="CBETA" wit="【CB】">《十住毘婆沙論》</lem><rdg wit="【印順】">《十住論》</rdg></app></title>說易行道念佛，也並不是專念阿彌陀佛的。易行
 <lb n="0091a13" ed="Y"/><lb n="0091a13" ed="Y" type="old"/>道的禮佛、讚佛、供養佛等，處處以佛為中心。菩薩修布施持戒六度等行，是難<pb n="0092a" ed="Y" xml:id="Y17.0017.0092a.old" type="old"/>
 <pb n="0092a" ed="Y" xml:id="Y17.0017.0092a"/>
 <lb n="0092a01" ed="Y"/><lb n="0092a01" ed="Y" type="old"/>行道。龍樹說：菩薩發心有依大悲心修種種難行苦行；有依信、精進心，樂集佛
@@ -265,21 +285,21 @@
 <lb n="0092a06" ed="Y"/>初<lb n="0092a06" ed="Y" type="old"/>心怯劣的根性，一下子叫他發心修大悲大智，是受不了的，或即退心不學。故
 <lb n="0092a07" ed="Y"/>修<lb n="0092a07" ed="Y" type="old"/>學佛法，不妨先依易行道，漸次轉進增上，至信願具足，而後才修難行道。這
 <lb n="0092a08" ed="Y"/>麼<lb n="0092a08" ed="Y" type="old"/>說來，易行與難行二道，僅為相對的差別，並非絕對的隔離。</p>
-<lb n="0092a09" ed="Y"/><lb n="0092a09" ed="Y" type="old"/><p style="text-indent:2em">念阿彌陀佛，是易行道，易行是不太勞苦的意思。<title level="m"><note n="0092a0901" resp="CBETA" type="add" subtype="規範字詞">十住毘婆沙論【CB】，十住論【印順】</note><app n="0092a0901"><lem wit="【CB】" resp="CBETA">《十住毘婆沙論》</lem><rdg wit="【印順】">《十住論》</rdg></app></title>說：或步行而
+<lb n="0092a09" ed="Y"/><lb n="0092a09" ed="Y" type="old"/><p xml:id="pY17p0092a0901" style="text-indent:2em">念阿彌陀佛，是易行道，易行是不太勞苦的意思。<title level="m"><note n="0092a0901" resp="CBETA" type="add" subtype="規範字詞">十住毘婆沙論【CB】，十住論【印順】</note><app n="0092a0901"><lem resp="CBETA" wit="【CB】">《十住毘婆沙論》</lem><rdg wit="【印順】">《十住論》</rdg></app></title>說：或步行而
 <lb n="0092a10" ed="Y"/><lb n="0092a10" ed="Y" type="old"/>去，或乘舟而去。乘舟而去，身心不感勞苦，如易行道。但比步行而去，不一定
 <lb n="0092a11" ed="Y"/><lb n="0092a11" ed="Y" type="old"/>先達目的地。有些學者，為了讚揚淨土法門的易行，說什麼<quote type="嚴謹引文">「橫出三界」</quote>、<quote type="嚴謹引文">「徑
 <lb n="0092a12" ed="Y"/><lb n="0092a12" ed="Y" type="old"/>路修行」</quote>。從激發念佛來說，不失為方便巧說；如依佛法實義，誤解易行道為容
 <lb n="0092a13" ed="Y"/><lb n="0092a13" ed="Y" type="old"/>易了生死、容易成佛，那顯然是出於經論之外，全屬人情的曲說！</p><pb n="0093a" ed="Y" xml:id="Y17.0017.0093a.old" type="old"/>
 <pb n="0093a" ed="Y" xml:id="Y17.0017.0093a"/>
-<lb n="0093a01" ed="Y"/><lb n="0093a01" ed="Y" type="old"/><p style="text-indent:2em">三、異方便：異方便，名稱出<cit><bibl><title level="m">《法華經》</title></bibl><quote source="T09n0262_p0008c10" type="嚴謹引文">「更以異方便，助顯第一義」</quote><note n="0093001" resp="謝淑歆" type="add">《妙法蓮華經》卷1〈2 方便品〉(CBETA, T09, no. 262, p. 8, c10)</note></cit>。
+<lb n="0093a01" ed="Y"/><lb n="0093a01" ed="Y" type="old"/><p xml:id="pY17p0093a0101" style="text-indent:2em">三、異方便：異方便，名稱出<cit><bibl><title level="m">《法華經》</title></bibl><quote source="T09n0262_p0008c10" type="嚴謹引文">「更以異方便，助顯第一義」</quote><note n="0093001" resp="謝淑歆" type="add">《妙法蓮華經》卷1〈2 方便品〉(CBETA, T09, no. 262, p. 8, c10)</note></cit>。
 <lb n="0093a02" ed="Y"/><lb n="0093a02" ed="Y" type="old"/>這異方便，也就是<title level="m">《大乘起信論》</title>的勝方便，其意義可解說為特殊或差別。<title level="m">《攝
 <lb n="0093a03" ed="Y"/><lb n="0093a03" ed="Y" type="old"/>大乘論》</title>大乘的十種殊勝，古譯為十種差別。玄奘譯阿賴耶（種子）<quote source="T31n1585_p0008a06" type="嚴謹引文">「親生自果
 <lb n="0093a04" ed="Y"/><lb n="0093a04" ed="Y" type="old"/>功能差別」<note n="0093002" resp="謝淑歆" type="add">《成唯識論》卷2(CBETA, T31, no. 1585, p. 8, a6)</note></quote>，古人即譯作<quote source="T29n1558_p0159a08" type="嚴謹引文">「勝功能」<note n="0093003" resp="謝淑歆" type="add">《阿毘達磨俱舍論》卷30〈9 破執我品〉(CBETA, T29, no. 1558, p. 159, a8)</note></quote>。所以異方便、勝方便、差別方便，都是一
 <lb n="0093a05" ed="Y"/><lb n="0093a05" ed="Y" type="old"/>樣，為同一梵語的不同譯法。</p>
-<lb n="0093a06" ed="Y"/><lb n="0093a06" ed="Y" type="old"/><p style="text-indent:2em">方便有兩種：一、正方便，二、異方便。<cit><bibl><title level="m">《法華經》</title>說：</bibl><quote source="T09n0262_p0010a19" type="嚴謹引文">「正直捨方便，但說無
+<lb n="0093a06" ed="Y"/><lb n="0093a06" ed="Y" type="old"/><p xml:id="pY17p0093a0601" style="text-indent:2em">方便有兩種：一、正方便，二、異方便。<cit><bibl><title level="m">《法華經》</title>說：</bibl><quote source="T09n0262_p0010a19" type="嚴謹引文">「正直捨方便，但說無
 <lb n="0093a07" ed="Y"/><lb n="0093a07" ed="Y" type="old"/>上道。」</quote><note n="0093004" resp="謝淑歆" type="add">《妙法蓮華經》卷1〈2 方便品〉(CBETA, T09, no. 262, p. 10, a19)</note></cit>這不是不要方便，而是說：在一乘大法中，要捨棄那不合時機的方便，
 <lb n="0093a08" ed="Y"/><lb n="0093a08" ed="Y" type="old"/>而更用另一種方便來顯示第一義。</p>
-<lb n="0093a09" ed="Y"/><lb n="0093a09" ed="Y" type="old"/><p style="text-indent:2em">正方便，即三乘共修的方便。佛為聲聞說戒、定、慧三無漏學，及無常、苦
+<lb n="0093a09" ed="Y"/><lb n="0093a09" ed="Y" type="old"/><p xml:id="pY17p0093a0901" style="text-indent:2em">正方便，即三乘共修的方便。佛為聲聞說戒、定、慧三無漏學，及無常、苦
 <lb n="0093a10" ed="Y"/><lb n="0093a10" ed="Y" type="old"/>、無我、不淨等觀門，使眾生厭生死苦而出離世間。但這是容易沈溺於獨善厭世
 <lb n="0093a11" ed="Y"/><lb n="0093a11" ed="Y" type="old"/>的深坑，所以到了大乘，除了對無常、苦、無我、不淨等，給以新解說而外，更
 <lb n="0093a12" ed="Y"/><lb n="0093a12" ed="Y" type="old"/>有異方便來教導。但異方便，不是聲聞法中所完全沒有的，只不過大乘中特別重
@@ -292,17 +312,17 @@
 <lb n="0094a05" ed="Y"/><lb n="0094a05" ed="Y" type="old"/>容許的（除了定樂）。大乘強調佛果的無邊莊嚴，總攝一切福德，故特發揚此一
 <lb n="0094a06" ed="Y"/><lb n="0094a06" ed="Y" type="old"/>教說。異方便很多，<title level="m">《法華經》</title>所列舉的如何如何<quote type="寬鬆引文">「皆可成佛道」</quote>，都是。念阿
 <lb n="0094a07" ed="Y"/><lb n="0094a07" ed="Y" type="old"/>彌陀佛而生淨土，<title level="m">《起信論》</title>即明說為勝方便，所以念佛是異方便之一。</p>
-<lb n="0094a08" ed="Y"/><lb n="0094a08" ed="Y" type="old"/><p style="text-indent:2em">他增上及易行道，一切佛法中普遍存在，不過大乘較為著重。異方便，小乘
-<lb n="0094a09" ed="Y"/><lb n="0094a09" ed="Y" type="old"/>只有一些痕<note n="0094a0901" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0094a0901"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>，而大乘則大為弘揚。尤其是念阿彌陀佛的淨土法門，糅合這三方
+<lb n="0094a08" ed="Y"/><lb n="0094a08" ed="Y" type="old"/><p xml:id="pY17p0094a0801" style="text-indent:2em">他增上及易行道，一切佛法中普遍存在，不過大乘較為著重。異方便，小乘
+<lb n="0094a09" ed="Y"/><lb n="0094a09" ed="Y" type="old"/>只有一些痕<note n="0094a0901" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0094a0901"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>，而大乘則大為弘揚。尤其是念阿彌陀佛的淨土法門，糅合這三方
 <lb n="0094a10" ed="Y"/><lb n="0094a10" ed="Y" type="old"/>面，著重這三方面，這才在佛法中，露出一個嶄新的面目。比之於小乘，顯然有
 <lb n="0094a11" ed="Y"/><lb n="0094a11" ed="Y" type="old"/>著很大的差異。</p>
-<lb n="0094a12" ed="Y"/><lb n="0094a12" ed="Y" type="old"/><p style="text-indent:2em">我們若不念佛則已，如欲提倡念佛，便非從這些意義去把握不可。這才能認
+<lb n="0094a12" ed="Y"/><lb n="0094a12" ed="Y" type="old"/><p xml:id="pY17p0094a1201" style="text-indent:2em">我們若不念佛則已，如欲提倡念佛，便非從這些意義去把握不可。這才能認
 <lb n="0094a13" ed="Y"/><lb n="0094a13" ed="Y" type="old"/>清念佛法門的特勝處。中國素重圓融，有人從禪淨融通去解說，說什麼<quote type="嚴謹引文">「唯心淨<pb n="0095a" ed="Y" xml:id="Y17.0017.0095a.old" type="old"/>
 <pb n="0095a" ed="Y" xml:id="Y17.0017.0095a"/>
-<lb n="0095a01" ed="Y"/><lb n="0095a01" ed="Y" type="old"/>土，自性彌陀」</quote>。這<note n="0095a0101" resp="CBETA" type="add" subtype="規範字詞">對於【CB】，對于【印順】</note><app n="0095a0101"><lem wit="【CB】" resp="CBETA">對於</lem><rdg wit="【印順】">對于</rdg></app>有取有捨有念的淨土法門，實際是不能表現法門特色的
+<lb n="0095a01" ed="Y"/><lb n="0095a01" ed="Y" type="old"/>土，自性彌陀」</quote>。這<note n="0095a0101" resp="CBETA" type="add" subtype="規範字詞">對於【CB】，對于【印順】</note><app n="0095a0101"><lem resp="CBETA" wit="【CB】">對於</lem><rdg wit="【印順】">對于</rdg></app>有取有捨有念的淨土法門，實際是不能表現法門特色的
 <lb n="0095a02" ed="Y"/><lb n="0095a02" ed="Y" type="old"/>。法門各有差別，真正的念佛，還是依專門修持淨土法門的去認識。</p></cb:div>
 <lb n="0095a03" ed="Y"/><lb n="0095a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　念佛三要</cb:mulu><head>四　念佛三要</head>
-<lb n="0095a04" ed="Y"/><lb n="0095a04" ed="Y" type="old"/><p style="text-indent:2em">一、信：念佛法門，以信、願、行為三要，缺一不可。念佛為佛法的一門，
+<lb n="0095a04" ed="Y"/><lb n="0095a04" ed="Y" type="old"/><p xml:id="pY17p0095a0401" style="text-indent:2em">一、信：念佛法門，以信、願、行為三要，缺一不可。念佛為佛法的一門，
 <lb n="0095a05" ed="Y"/><lb n="0095a05" ed="Y" type="old"/>所以修淨土法門的，對佛法應有正確的信解。淨土經中所說，素來不知佛法的，
 <lb n="0095a06" ed="Y"/><lb n="0095a06" ed="Y" type="old"/>到臨命終時，得到善知識的引導，能專誠懇切的念阿彌陀佛，便可以往生淨土。
 <lb n="0095a07" ed="Y"/><lb n="0095a07" ed="Y" type="old"/>這是不得已的方便，因為人到臨死，時間無多，不能再為開導其他的佛法，只好
@@ -313,7 +333,7 @@
 <lb n="0095a12" ed="Y"/><lb n="0095a12" ed="Y" type="old"/>！所以修淨土的人，先要堅定佛法中的基本信念，然後再加淨土法門的特殊信念<pb n="0096a" ed="Y" xml:id="Y17.0017.0096a.old" type="old"/>
 <pb n="0096a" ed="Y" xml:id="Y17.0017.0096a"/>
 <lb n="0096a01" ed="Y"/><lb n="0096a01" ed="Y" type="old"/>。特殊信心有二：</p>
-<lb n="0096a02" ed="Y"/><lb n="0096a02" ed="Y" type="old"/><p style="text-indent:2em">(一)、信阿彌陀佛的依正功德：修淨土的人，不但確信淨土的實有，而且還要
+<lb n="0096a02" ed="Y"/><lb n="0096a02" ed="Y" type="old"/><p xml:id="pY17p0096a0201" style="text-indent:2em">(一)、信阿彌陀佛的依正功德：修淨土的人，不但確信淨土的實有，而且還要
 <lb n="0096a03" ed="Y"/><lb n="0096a03" ed="Y" type="old"/>信得淨土的清淨莊嚴，是極理想的樂土；信阿彌陀佛成佛以來，說法十劫，有無
 <lb n="0096a04" ed="Y"/><lb n="0096a04" ed="Y" type="old"/>量功德。但更根本的，是要信阿彌陀佛的慈悲願力，極深、極廣、極有大力。依
 <lb n="0096a05" ed="Y"/><lb n="0096a05" ed="Y" type="old"/>佛自證說：因圓果滿，自己受用法樂，當然有良好環境的淨土。然從如來發心為
@@ -324,7 +344,7 @@
 <lb n="0096a10" ed="Y"/><lb n="0096a10" ed="Y" type="old"/>眾生能發願往生，決定可以得到接引，這是阿彌陀佛的大願——四十八願的根本
 <lb n="0096a11" ed="Y"/><lb n="0096a11" ed="Y" type="old"/>特勝。能信得，十念、一日乃至七日，皆可往生極樂世界。如缺乏或不能堅定這
 <lb n="0096a12" ed="Y"/><lb n="0096a12" ed="Y" type="old"/>一特殊信念，那麼雖信有阿彌陀佛與淨土，也還是不夠的。</p>
-<lb n="0096a13" ed="Y"/><lb n="0096a13" ed="Y" type="old"/><p style="text-indent:2em">沒有真智，沒有斷障，就能往生淨土，站在自力的因果立場，是有問題的。<pb n="0097a" ed="Y" xml:id="Y17.0017.0097a.old" type="old"/>
+<lb n="0096a13" ed="Y"/><lb n="0096a13" ed="Y" type="old"/><p xml:id="pY17p0096a1301" style="text-indent:2em">沒有真智，沒有斷障，就能往生淨土，站在自力的因果立場，是有問題的。<pb n="0097a" ed="Y" xml:id="Y17.0017.0097a.old" type="old"/>
 <pb n="0097a" ed="Y" xml:id="Y17.0017.0097a"/>
 <lb n="0097a01" ed="Y"/><lb n="0097a01" ed="Y" type="old"/>滿身煩惱惡業的眾生，沒有修集戒、定、慧的聖道，怎會有進入淨土的資格？沒
 <lb n="0097a02" ed="Y"/><lb n="0097a02" ed="Y" type="old"/>有淨因，怎能獲得淨果？所以唯識家說：稱念阿彌陀佛，往生淨土，是別時意趣
@@ -337,7 +357,7 @@
 <lb n="0097a09" ed="Y"/><lb n="0097a09" ed="Y" type="old"/>。這關鍵就在：眾生自力是不夠的，依於阿彌陀佛的慈悲願力的攝受，才有可能
 <lb n="0097a10" ed="Y"/><lb n="0097a10" ed="Y" type="old"/>。所以信修淨土法門，如對彌陀本願力，缺乏深刻信念，即是信心不具足，不能
 <lb n="0097a11" ed="Y"/><lb n="0097a11" ed="Y" type="old"/>達成往生的目的。</p>
-<lb n="0097a12" ed="Y"/><lb n="0097a12" ed="Y" type="old"/><p style="text-indent:2em">(二)、信念佛法門的殊勝德用：一般的說，稱名念佛，只要心口相應，稱念六
+<lb n="0097a12" ed="Y"/><lb n="0097a12" ed="Y" type="old"/><p xml:id="pY17p0097a1201" style="text-indent:2em">(二)、信念佛法門的殊勝德用：一般的說，稱名念佛，只要心口相應，稱念六
 <lb n="0097a13" ed="Y"/><lb n="0097a13" ed="Y" type="old"/>字洪名，念到身心清淨，一心不亂，便可往生淨土。如此推重念佛法門，還沒有<pb n="0098a" ed="Y" xml:id="Y17.0017.0098a.old" type="old"/>
 <pb n="0098a" ed="Y" xml:id="Y17.0017.0098a"/>
 <lb n="0098a01" ed="Y"/><lb n="0098a01" ed="Y" type="old"/>充分顯出念佛法門的特勝。如念阿彌陀佛心得清淨，念其他的佛、菩薩、經典、
@@ -346,7 +366,7 @@
 <lb n="0098a04" ed="Y"/><lb n="0098a04" ed="Y" type="old"/>在信阿彌陀佛的悲願攝引外，更要信<quote type="嚴謹引文">「一心不亂」</quote>為獲得彌陀願力攝引的條件
 <lb n="0098a05" ed="Y"/><lb n="0098a05" ed="Y" type="old"/>，一心不亂，才能往生。如能往生，決定不退，在修學菩薩道的過程中，最為穩
 <lb n="0098a06" ed="Y"/><lb n="0098a06" ed="Y" type="old"/>當。能確立了這二個信念，然後發願修行，才能精進而達往生的希望。</p>
-<lb n="0098a07" ed="Y"/><lb n="0098a07" ed="Y" type="old"/><p style="text-indent:2em">二、願：信與願不同，勿以為有了信，必然有願；要知凡願必定有信，有信
+<lb n="0098a07" ed="Y"/><lb n="0098a07" ed="Y" type="old"/><p xml:id="pY17p0098a0701" style="text-indent:2em">二、願：信與願不同，勿以為有了信，必然有願；要知凡願必定有信，有信
 <lb n="0098a08" ed="Y"/><lb n="0098a08" ed="Y" type="old"/>未必有願。總論佛法，有信心，當然要有願行。然佛法中法門無量，不問它了義
 <lb n="0098a09" ed="Y"/><lb n="0098a09" ed="Y" type="old"/>的、不了義的，方便的、真實的，都各有其特質、有其作用。這些無邊法門雖有
 <lb n="0098a10" ed="Y"/><lb n="0098a10" ed="Y" type="old"/>信仰，雖有廣泛的宏願——無量法門誓願學，但在現生的修學中，不一定要樣樣
@@ -359,7 +379,7 @@
 <lb n="0099a03" ed="Y"/>無量，應該信，應該願學，但切實修學的，只能選擇與自己意趣好樂相適合的<lb n="0099a04" ed="Y" type="old"/>，
 <lb n="0099a04" ed="Y"/>便由信而進一步的發願去實行。所以願必有信——願由信來，而深信卻不一定<lb n="0099a05" ed="Y" type="old"/>有
 <lb n="0099a05" ed="Y"/>願行。</p>
-<lb n="0099a06" ed="Y"/><lb n="0099a06" ed="Y" type="old"/><p style="text-indent:2em">淨土法門的願，除願成佛道、願度眾生普通願而外，主要是願生彼國。願生
+<lb n="0099a06" ed="Y"/><lb n="0099a06" ed="Y" type="old"/><p xml:id="pY17p0099a0601" style="text-indent:2em">淨土法門的願，除願成佛道、願度眾生普通願而外，主要是願生彼國。願生
 <lb n="0099a07" ed="Y"/><lb n="0099a07" ed="Y" type="old"/>彼國，約目的說。然在實行中，應該有深一層的願求，就是願得彌陀佛本願的攝
 <lb n="0099a08" ed="Y"/><lb n="0099a08" ed="Y" type="old"/>受，迴向文中，即有此意。約佛本身說，佛是無時不在悲願攝受眾生。可是眾生
 <lb n="0099a09" ed="Y"/><lb n="0099a09" ed="Y" type="old"/>自己，不自動的發願要求攝受、接受佛陀的悲願，便不能為佛所攝受，佛與眾生
@@ -373,13 +393,13 @@
 <lb n="0100a03" ed="Y"/><lb n="0100a03" ed="Y" type="old"/>是大能，而不是全能萬能。在救濟一切眾生時，眾生有著自己的因果關係，佛並
 <lb n="0100a04" ed="Y"/><lb n="0100a04" ed="Y" type="old"/>不能想到做到。否則，這世界早就沒有眾生了！所以願生淨土，是所願的目的；
 <lb n="0100a05" ed="Y"/><lb n="0100a05" ed="Y" type="old"/>願受阿彌陀佛悲願的攝受，才是發願的實質。</p>
-<lb n="0100a06" ed="Y"/><lb n="0100a06" ed="Y" type="old"/><p style="text-indent:2em">三、行：概括的說，行有二：一是往生淨土的助行；一是往生淨土的主行。
+<lb n="0100a06" ed="Y"/><lb n="0100a06" ed="Y" type="old"/><p xml:id="pY17p0100a0601" style="text-indent:2em">三、行：概括的說，行有二：一是往生淨土的助行；一是往生淨土的主行。
 <lb n="0100a07" ed="Y"/><lb n="0100a07" ed="Y" type="old"/>以淨土三經說，<cit><bibl><title level="m">《阿彌陀經》</title>說</bibl><quote type="嚴謹引文">「不可以少善根福德因緣得生彼國」</quote></cit>，可見要
 <lb n="0100a08" ed="Y"/><lb n="0100a08" ed="Y" type="old"/>培植深厚的善根，增長種種福德，以作生淨土的資糧。<title level="m">《觀無量壽經》</title>說有三品
 <lb n="0100a09" ed="Y"/><lb n="0100a09" ed="Y" type="old"/>，如孝敬父母，布施、持戒，讀誦大乘等。大本<title level="m">《阿彌陀經》</title>，也說到布施、持
 <lb n="0100a10" ed="Y"/><lb n="0100a10" ed="Y" type="old"/>戒等。這些善根福德，修淨土的人，應該隨分隨力去做，使善根增長，福德增勝
 <lb n="0100a11" ed="Y"/><lb n="0100a11" ed="Y" type="old"/>。往生淨土，念佛是正因，培植善根福德是助緣。有些念佛人，好走偏鋒，以為
-<lb n="0100a12" ed="Y"/><lb n="0100a12" ed="Y" type="old"/>生死事大，念佛都來不及，那<note n="0100a1201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0100a1201"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>還有功夫去修雜行，專持一句南無阿彌陀佛就得
+<lb n="0100a12" ed="Y"/><lb n="0100a12" ed="Y" type="old"/>生死事大，念佛都來不及，那<note n="0100a1201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0100a1201"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>還有功夫去修雜行，專持一句南無阿彌陀佛就得
 <lb n="0100a13" ed="Y"/><lb n="0100a13" ed="Y" type="old"/>了。如告以<quote type="嚴謹引文">「不可以少善根福德因緣得生彼國」</quote>的經文，他卻巧辯的說：能聽到<pb n="0101a" ed="Y" xml:id="Y17.0017.0101a.old" type="old"/>
 <pb n="0101a" ed="Y" xml:id="Y17.0017.0101a"/>
 <lb n="0101a01" ed="Y"/><lb n="0101a01" ed="Y" type="old"/>阿彌陀佛的，就是宿植善根、廣修福德因緣了。這是多大的誤解！經說<quote type="嚴謹引文">「不可以
@@ -387,7 +407,7 @@
 <lb n="0101a03" ed="Y"/><lb n="0101a03" ed="Y" type="old"/>極樂淨土，助行還是需要的。但念一句彌陀的，只有適用於<quote type="寬鬆引文">「平時不燒香，臨（
 <lb n="0101a04" ed="Y"/><lb n="0101a04" ed="Y" type="old"/>命終）時抱佛腳」</quote>的惡人（見<title level="m">《觀經》</title>）；一般人平時修學，應該隨分修集福德
 <lb n="0101a05" ed="Y"/><lb n="0101a05" ed="Y" type="old"/>因緣，以此功德迴向淨土。永明大師的萬善同歸，是比較穩當而正確的說法。</p>
-<lb n="0101a06" ed="Y"/><lb n="0101a06" ed="Y" type="old"/><p style="text-indent:2em">往生淨土的主行，就是稱念「南無阿彌陀佛」。南無是歸投依向義，內含希
+<lb n="0101a06" ed="Y"/><lb n="0101a06" ed="Y" type="old"/><p xml:id="pY17p0101a0601" style="text-indent:2em">往生淨土的主行，就是稱念「南無阿彌陀佛」。南無是歸投依向義，內含希
 <lb n="0101a07" ed="Y"/><lb n="0101a07" ed="Y" type="old"/>求阿彌陀佛悲願加持的意義。現在的念佛法門，非常流行，往往失去了本義。稱
 <lb n="0101a08" ed="Y"/><lb n="0101a08" ed="Y" type="old"/>念是淨土行，照淨土法門說，應該依信、願而起行。可是有些念佛人，不解念佛
 <lb n="0101a09" ed="Y"/><lb n="0101a09" ed="Y" type="old"/>之所以，既無信，又無願，這與淨土法門，當然不合。有些念佛的，以念佛為冥
@@ -401,7 +421,7 @@
 <lb n="0102a03" ed="Y"/>，而且更好。若僅此而無信無願，是不能往生的。所以淨土法門的修行（念佛<lb n="0102a04" ed="Y" type="old"/>）
 <lb n="0102a04" ed="Y"/>，要在深信誠願的基礎上，要在渴仰彌陀本願的攝受中去念。空空洞洞的行，<lb n="0102a05" ed="Y" type="old"/>不
 <lb n="0102a05" ed="Y"/>會與阿彌陀佛的慈悲願力相呼應，不相應便不能生淨土。</p>
-<lb n="0102a06" ed="Y"/><lb n="0102a06" ed="Y" type="old"/><p style="text-indent:2em">信願行的總合，是淨土法門的要訣！三者具足，即得往生。依他力而往生，
+<lb n="0102a06" ed="Y"/><lb n="0102a06" ed="Y" type="old"/><p xml:id="pY17p0102a0601" style="text-indent:2em">信願行的總合，是淨土法門的要訣！三者具足，即得往生。依他力而往生，
 <lb n="0102a07" ed="Y"/><lb n="0102a07" ed="Y" type="old"/>這不妨舉喻來說：如美國或某國，為東方人辦了幾個學校，歡迎我們去留學，可
 <lb n="0102a08" ed="Y"/><lb n="0102a08" ed="Y" type="old"/>以供給膳宿，甚至可以供給交通工具，他願意我們去，只要我們肯去。如我們對
 <lb n="0102a09" ed="Y"/><lb n="0102a09" ed="Y" type="old"/>他沒有信心，或自己不發生興趣，這當然不能去了。假使你有信有願，願意去一
@@ -412,25 +432,25 @@
 <pb n="0103a" ed="Y" xml:id="Y17.0017.0103a"/>
 <lb n="0103a01" ed="Y"/><lb n="0103a01" ed="Y" type="old"/>作用。</p></cb:div>
 <lb n="0103a02" ed="Y"/><lb n="0103a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五　念佛</cb:mulu><head>五　念佛</head>
-<lb n="0103a03" ed="Y"/><lb n="0103a03" ed="Y" type="old"/><p style="text-indent:2em">一、念：淨土法門，一般都以稱名念佛為主，以為稱名就是念佛。其實，稱
+<lb n="0103a03" ed="Y"/><lb n="0103a03" ed="Y" type="old"/><p xml:id="pY17p0103a0301" style="text-indent:2em">一、念：淨土法門，一般都以稱名念佛為主，以為稱名就是念佛。其實，稱
 <lb n="0103a04" ed="Y"/><lb n="0103a04" ed="Y" type="old"/>名並不等於念佛，念佛可以不稱名，而稱名也不一定是念佛的。</p>
-<lb n="0103a05" ed="Y"/><lb n="0103a05" ed="Y" type="old"/><p style="text-indent:2em">要知道，念是心念。念為心所法之一，為五別境中的念心所。它的意義是繫
+<lb n="0103a05" ed="Y"/><lb n="0103a05" ed="Y" type="old"/><p xml:id="pY17p0103a0501" style="text-indent:2em">要知道，念是心念。念為心所法之一，為五別境中的念心所。它的意義是繫
 <lb n="0103a06" ed="Y"/><lb n="0103a06" ed="Y" type="old"/>念，心在某一境界上轉，明記不忘，好像我們的心繫在某一境界上那樣。通常說
 <lb n="0103a07" ed="Y"/><lb n="0103a07" ed="Y" type="old"/>的憶念，都指繫念過去的境界。而此處所指稱的念，通於三世，是繫念境界而使
 <lb n="0103a08" ed="Y"/><lb n="0103a08" ed="Y" type="old"/>分明現前。念，是佛法的一種修行方法，如數息觀（又名安般念），還有六念門
 <lb n="0103a09" ed="Y"/>，<lb n="0103a09" ed="Y" type="old"/>以及三十七道品中的四念處，都以念為修法。要得定，就必修此念，由念而後
-<lb n="0103a10" ed="Y"/>得<lb n="0103a10" ed="Y" type="old"/>定。經<note n="0103a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0103a1001"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>說：我們的心，煩動散亂，或此或彼，剎那不住，必須給予一物，使
+<lb n="0103a10" ed="Y"/>得<lb n="0103a10" ed="Y" type="old"/>定。經<note n="0103a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0103a1001"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>說：我們的心，煩動散亂，或此或彼，剎那不住，必須給予一物，使
 <lb n="0103a11" ed="Y"/>令<lb n="0103a11" ed="Y" type="old"/>攀緣依止，然後能漸漸安住。如小狗東跑西撞，若把牠拴在木樁上，牠轉繞一
 <lb n="0103a12" ed="Y"/>會<lb n="0103a12" ed="Y" type="old"/>，自然會停歇下來，就地而臥。心亦如此，若能繫念一處，即可由之得定。不
 <pb n="0104a" ed="Y" xml:id="Y17.0017.0104a"/>
 <lb n="0104a01" ed="Y"/>但<pb n="0104a" ed="Y" xml:id="Y17.0017.0104a.old" type="old"/><lb n="0104a01" ed="Y" type="old"/>定由此而來，就是修觀修慧，也莫不以念為必備條件。故念於佛法中，極為重
 <lb n="0104a02" ed="Y"/>要<lb n="0104a02" ed="Y" type="old"/>。</p>
-<lb n="0104a03" ed="Y"/><lb n="0104a03" ed="Y" type="old"/><p style="text-indent:2em">念有種種，以所念的對象為差別，如念佛、法、僧、四諦等。現說念佛，以
+<lb n="0104a03" ed="Y"/><lb n="0104a03" ed="Y" type="old"/><p xml:id="pY17p0104a0301" style="text-indent:2em">念有種種，以所念的對象為差別，如念佛、法、僧、四諦等。現說念佛，以
 <lb n="0104a04" ed="Y"/><lb n="0104a04" ed="Y" type="old"/>佛為所念境界，心在佛境上轉，如依此得定，即名為念佛三昧。然念重專切，如
 <lb n="0104a05" ed="Y"/><lb n="0104a05" ed="Y" type="old"/>不專不切，念便不易現前明了，定即不易成就。要使心不散亂，不向其他路上去
 <lb n="0104a06" ed="Y"/><lb n="0104a06" ed="Y" type="old"/>，而專集中於一境，修念才有成功的可能。經中喻說：有人得罪國王，將被殺戮
 <lb n="0104a07" ed="Y"/><lb n="0104a07" ed="Y" type="old"/>。國王以滿滿的一碗油，要他拿著從大街上走，如能一滴不使溢出外面，即赦免
-<lb n="0104a08" ed="Y"/><lb n="0104a08" ed="Y" type="old"/>他的死罪。這人因受了生命的威脅，一心一意顧視著手<note n="0104a0801" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0104a0801"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>的碗。路上有人唱歌跳
+<lb n="0104a08" ed="Y"/><lb n="0104a08" ed="Y" type="old"/>他的死罪。這人因受了生命的威脅，一心一意顧視著手<note n="0104a0801" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0104a0801"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>的碗。路上有人唱歌跳
 <lb n="0104a09" ed="Y"/><lb n="0104a09" ed="Y" type="old"/>舞，他不聞不看；有人打架爭吵，他也不管；乃至車馬奔馳等種種境物，他都無
 <lb n="0104a10" ed="Y"/><lb n="0104a10" ed="Y" type="old"/>暇一顧，而唯一意護視油碗。他終於將油送到國王指定的目的地，沒有潑出一滴
 <lb n="0104a11" ed="Y"/><lb n="0104a11" ed="Y" type="old"/>，因此得免處死。這如眾生陷溺於無常世間，受著生死苦難的逼迫，欲想出離生
@@ -440,19 +460,19 @@
 <lb n="0105a01" ed="Y"/><lb n="0105a01" ed="Y" type="old"/>不起，心即歸一，寂然而住。於是乎得定發慧，無邊功德皆由此而出。反之，若
 <lb n="0105a02" ed="Y"/><lb n="0105a02" ed="Y" type="old"/>不修念，定心不成，雖讀經學教、布施持戒，都不能得到佛法的殊勝功德，不過
 <lb n="0105a03" ed="Y"/><lb n="0105a03" ed="Y" type="old"/>多獲一點知識、多修一些福業而已。</p>
-<lb n="0105a04" ed="Y"/><lb n="0105a04" ed="Y" type="old"/><p style="text-indent:2em">二、念佛：念佛，一般人但知口念，而不曉得除此以外，還有更具深義的念
+<lb n="0105a04" ed="Y"/><lb n="0105a04" ed="Y" type="old"/><p xml:id="pY17p0105a0401" style="text-indent:2em">二、念佛：念佛，一般人但知口念，而不曉得除此以外，還有更具深義的念
 <lb n="0105a05" ed="Y"/><lb n="0105a05" ed="Y" type="old"/>佛。如僅是口稱佛名，心不繫念，實是不能稱為念佛的。真正的念，要心心繫念
 <lb n="0105a06" ed="Y"/><lb n="0105a06" ed="Y" type="old"/>佛境，分明不忘。然佛所顯現的境界，在凡夫心境，不出名、相、分別的三類。</p>
-<lb n="0105a07" ed="Y"/><lb n="0105a07" ed="Y" type="old"/><p style="text-indent:2em">依名起念：這即是一般的稱名念佛，是依名句文身起念，如稱「南無阿彌陀
+<lb n="0105a07" ed="Y"/><lb n="0105a07" ed="Y" type="old"/><p xml:id="pY17p0105a0701" style="text-indent:2em">依名起念：這即是一般的稱名念佛，是依名句文身起念，如稱「南無阿彌陀
 <lb n="0105a08" ed="Y"/><lb n="0105a08" ed="Y" type="old"/>佛」六字，即是名。而名內有義，依此名句繫念於佛——以「南無阿彌陀佛」作
 <lb n="0105a09" ed="Y"/><lb n="0105a09" ed="Y" type="old"/>念境。這是依名起念，故稱名也是念佛。</p>
-<lb n="0105a10" ed="Y"/><lb n="0105a10" ed="Y" type="old"/><p style="text-indent:2em">不過，稱念佛名，必須了解佛名所含的意義，如什麼都不知道，或以佛名為
+<lb n="0105a10" ed="Y"/><lb n="0105a10" ed="Y" type="old"/><p xml:id="pY17p0105a1001" style="text-indent:2em">不過，稱念佛名，必須了解佛名所含的意義，如什麼都不知道，或以佛名為
 <lb n="0105a11" ed="Y"/><lb n="0105a11" ed="Y" type="old"/>冥資等，雖也可成念境，或由此得定，但終不能往生極樂。這算不得念佛的淨土
 <lb n="0105a12" ed="Y"/><lb n="0105a12" ed="Y" type="old"/>法門，因為他不曾了解極樂世界的情形和阿彌陀佛的慈悲願力。無信無願，泛
 <lb n="0105a13" ed="Y"/><lb n="0105a13" ed="Y" type="old"/>泛稱名，這與鸚鵡學語、留聲機的念佛，實在相差不多。有一故事：有師徒兩個<pb n="0106a" ed="Y" xml:id="Y17.0017.0106a.old" type="old"/>
 <pb n="0106a" ed="Y" xml:id="Y17.0017.0106a"/>
 <lb n="0106a01" ed="Y"/><lb n="0106a01" ed="Y" type="old"/>，徒弟極笨，師父教他念佛，他始終念不來，老是問師父怎樣念。師父氣不過，
-<lb n="0106a02" ed="Y"/><lb n="0106a02" ed="Y" type="old"/>罵他道：<quote>「你這笨貨！」</quote>並且把他趕跑。可是他卻記住了，到深山<note n="0106a0201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0106a0201"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>去，一天到
+<lb n="0106a02" ed="Y"/><lb n="0106a02" ed="Y" type="old"/>罵他道：<quote>「你這笨貨！」</quote>並且把他趕跑。可是他卻記住了，到深山<note n="0106a0201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0106a0201"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>去，一天到
 <lb n="0106a03" ed="Y"/><lb n="0106a03" ed="Y" type="old"/>晚，念著<quote>「你這笨貨，你這笨貨」</quote>。後來師父又去找他，見他將飯鍋子反著洗，
 <lb n="0106a04" ed="Y"/><lb n="0106a04" ed="Y" type="old"/>覺得徒弟已得功夫。便問他這一向修的什麼功，他說就是師父教我的<quote>「你這笨
 <lb n="0106a05" ed="Y"/><lb n="0106a05" ed="Y" type="old"/>貨」</quote>。師父笑道：<quote>「這是我罵你，你怎把它當佛在念？」</quote>一經點破，徒弟了解這
@@ -461,7 +481,7 @@
 <lb n="0106a08" ed="Y"/><lb n="0106a08" ed="Y" type="old"/>稱名念佛，決不但是如此的，否則何須念佛，隨便念桌子板凳，不也是一樣嗎？
 <lb n="0106a09" ed="Y"/><lb n="0106a09" ed="Y" type="old"/>須知道：阿彌陀佛是名，而名內包含得佛的依正莊嚴，佛的慈悲願力，佛的無邊
 <lb n="0106a10" ed="Y"/><lb n="0106a10" ed="Y" type="old"/>功德。必須深切了解，才能起深切的信願，從信願中去稱名念佛，求生淨土。</p>
-<lb n="0106a11" ed="Y"/><lb n="0106a11" ed="Y" type="old"/><p style="text-indent:2em">依相起念：這是觀想念佛，念阿彌陀佛或其他的佛都可以。或先觀佛像，把
+<lb n="0106a11" ed="Y"/><lb n="0106a11" ed="Y" type="old"/><p xml:id="pY17p0106a1101" style="text-indent:2em">依相起念：這是觀想念佛，念阿彌陀佛或其他的佛都可以。或先觀佛像，把
 <lb n="0106a12" ed="Y"/><lb n="0106a12" ed="Y" type="old"/>佛的相好莊嚴謹記在心，歷歷分明，然後靜坐繫念佛相。這種念佛觀，也可令心
 <lb n="0106a13" ed="Y"/><lb n="0106a13" ed="Y" type="old"/>得定。我遇見的念佛的人，就有靜坐攝心，一下子佛相立即現前的。但我所遇到<pb n="0107a" ed="Y" xml:id="Y17.0017.0107a.old" type="old"/>
 <pb n="0107a" ed="Y" xml:id="Y17.0017.0107a"/>
@@ -469,9 +489,9 @@
 <lb n="0107a02" ed="Y"/><lb n="0107a02" ed="Y" type="old"/>，那就非專修不可了。而且，佛相非但色相，還有大慈大悲、十力、四無所畏、
 <lb n="0107a03" ed="Y"/><lb n="0107a03" ed="Y" type="old"/>十八不共法、五分法身，無量無邊的勝功德相。在這佛功德上繫念觀想，大乘為
 <lb n="0107a04" ed="Y"/>觀<lb n="0107a04" ed="Y" type="old"/>相所攝，小乘則名為觀法身。</p>
-<lb n="0107a05" ed="Y"/><lb n="0107a05" ed="Y" type="old"/><p style="text-indent:2em">依分別起念：依分別起念，而能了知此佛唯心所現，名唯心念佛。前二種依
-<lb n="0107a06" ed="Y"/><lb n="0107a06" ed="Y" type="old"/>於名、相起念，等到佛相現前，當下了解一切佛相唯心變現，我不到佛那<note n="0107a0601" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0107a0601"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>去，
-<lb n="0107a07" ed="Y"/><lb n="0107a07" ed="Y" type="old"/>佛也不到我這<note n="0107a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0107a0701"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>來，自心念佛，自心即是佛。如<cit><bibl><title level="m">《大集賢護經》</title><biblScope type="卷" n="2">（二）</biblScope>說：</bibl><quote source="T13n0416_p0877b04-06" type="嚴謹引文">「今
+<lb n="0107a05" ed="Y"/><lb n="0107a05" ed="Y" type="old"/><p xml:id="pY17p0107a0501" style="text-indent:2em">依分別起念：依分別起念，而能了知此佛唯心所現，名唯心念佛。前二種依
+<lb n="0107a06" ed="Y"/><lb n="0107a06" ed="Y" type="old"/>於名、相起念，等到佛相現前，當下了解一切佛相唯心變現，我不到佛那<note n="0107a0601" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0107a0601"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>去，
+<lb n="0107a07" ed="Y"/><lb n="0107a07" ed="Y" type="old"/>佛也不到我這<note n="0107a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0107a0701"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>來，自心念佛，自心即是佛。如<cit><bibl><title level="m">《大集賢護經》</title><biblScope n="2" type="卷">（二）</biblScope>說：</bibl><quote source="T13n0416_p0877b04-06" type="嚴謹引文">「今
 <lb n="0107a08" ed="Y"/><lb n="0107a08" ed="Y" type="old"/>此三界，唯是心有。何以故？隨彼心念，還自見心。今我從心見佛，我心作佛，
 <lb n="0107a09" ed="Y"/><lb n="0107a09" ed="Y" type="old"/>我心是佛。」</quote><note n="0107001" resp="謝淑歆" type="add">《大方等大集經賢護分》卷2〈1 思惟品〉(CBETA, T13, no. 416, p. 877, b4-6)</note></cit><cit><bibl><title level="m">《華嚴經》</title><biblScope n="46" type="卷">（四六）</biblScope>也說：</bibl><quote source="T09n0278_p0695a01-03" type="嚴謹引文">「一切諸佛，隨意即見。彼諸如
 <lb n="0107a10" ed="Y"/><lb n="0107a10" ed="Y" type="old"/>來不來至此，我不往彼。知一切佛無所從來，我無所至，知一切佛及與我心，皆
@@ -480,54 +500,54 @@
 <lb n="0107a13" ed="Y"/><lb n="0107a13" ed="Y" type="old"/>，引人由淺入深，依名而觀想佛相，佛相現前，進而能了達皆是虛妄分別心之所<pb n="0108a" ed="Y" xml:id="Y17.0017.0108a.old" type="old"/>
 <pb n="0108a" ed="Y" xml:id="Y17.0017.0108a"/>
 <lb n="0108a01" ed="Y"/><lb n="0108a01" ed="Y" type="old"/>現。</p>
-<lb n="0108a02" ed="Y"/><lb n="0108a02" ed="Y" type="old"/><p style="text-indent:2em">若更進一層，即到達念佛法身，悟入法性境界。唯識家說法有五種，名、相
+<lb n="0108a02" ed="Y"/><lb n="0108a02" ed="Y" type="old"/><p xml:id="pY17p0108a0201" style="text-indent:2em">若更進一層，即到達念佛法身，悟入法性境界。唯識家說法有五種，名、相
 <lb n="0108a03" ed="Y"/><lb n="0108a03" ed="Y" type="old"/>、分別而外，有正智、如如。無漏的智、如，平等不二，是為佛的法身。依唯心
 <lb n="0108a04" ed="Y"/>觀<lb n="0108a04" ed="Y" type="old"/>進而體見一切平等不二法性，即是見佛。<cit><bibl><title level="m">《維摩詰經》</title>亦說</bibl><quote type="嚴謹引文">「觀身實相，觀
 <lb n="0108a05" ed="Y"/>佛<lb n="0108a05" ed="Y" type="old"/>亦然」</quote></cit>，以明得見阿閦。<title level="m">《阿閦佛國經》</title>也如此說。<title level="m">《般舟三昧經》</title>，於見佛
 <lb n="0108a06" ed="Y"/>後<lb n="0108a06" ed="Y" type="old"/>，也有此說。佛是平等空性，觀佛即契如性；智如相應，名為念佛。<cit><bibl><title level="m">《金剛經
 <lb n="0108a07" ed="Y"/>》</title><lb n="0108a07" ed="Y" type="old"/>說</bibl><quote type="寬鬆引文">「離一切相，即見如來」</quote></cit>，平常稱此為實相念佛。念佛而達此階段，實已
 <lb n="0108a08" ed="Y"/>斷<lb n="0108a08" ed="Y" type="old"/>除煩惱，證悟無生法忍了。</p>
-<lb n="0108a09" ed="Y"/><lb n="0108a09" ed="Y" type="old"/><p style="text-indent:2em">由稱名而依相，乃至了達一切法空性，一步一步由淺而深，由妄而真，統攝
+<lb n="0108a09" ed="Y"/><lb n="0108a09" ed="Y" type="old"/><p xml:id="pY17p0108a0901" style="text-indent:2em">由稱名而依相，乃至了達一切法空性，一步一步由淺而深，由妄而真，統攝
 <lb n="0108a10" ed="Y"/><lb n="0108a10" ed="Y" type="old"/>得定慧而並無矛盾。這樣的念佛，就近乎自力，與修定慧差不多，故念佛法門也
 <lb n="0108a11" ed="Y"/><lb n="0108a11" ed="Y" type="old"/>是定慧交修的。但依<title level="m">《般舟三昧經》</title>說，如見佛現前，了得唯心所現，發願即得
 <lb n="0108a12" ed="Y"/><lb n="0108a12" ed="Y" type="old"/>往生極樂世界。可見念佛方便要求往生淨土，要有佛的悲願力。在四類念佛中<lb n="0108a13" ed="Y" type="old"/>，
 <lb n="0108a13" ed="Y"/>以稱名念佛最為簡易；一般弘通的淨土法門，即著重於此——稱念南無阿彌陀<pb n="0109a" ed="Y" xml:id="Y17.0017.0109a.old" type="old"/><lb n="0109a01" ed="Y" type="old"/>佛
 <pb n="0109a" ed="Y" xml:id="Y17.0017.0109a"/>
 <lb n="0109a01" ed="Y"/>，和信求阿彌陀佛的慈悲願力的攝受。</p>
-<lb n="0109a02" ed="Y"/><lb n="0109a02" ed="Y" type="old"/><p style="text-indent:2em">稱名念佛，並非僅限於口頭的稱念。如<cit><bibl><title level="m">《阿彌陀經》</title>的</bibl><quote type="嚴謹引文">「執持名號」</quote></cit>，玄奘
+<lb n="0109a02" ed="Y"/><lb n="0109a02" ed="Y" type="old"/><p xml:id="pY17p0109a0201" style="text-indent:2em">稱名念佛，並非僅限於口頭的稱念。如<cit><bibl><title level="m">《阿彌陀經》</title>的</bibl><quote type="嚴謹引文">「執持名號」</quote></cit>，玄奘
 <lb n="0109a03" ed="Y"/><lb n="0109a03" ed="Y" type="old"/>別譯，即作<quote source="T12n0367_p0350a09" type="嚴謹引文">「思惟」<note n="0109001" resp="謝淑歆" type="add">《稱讚淨土佛攝受經》卷1(CBETA, T12, no. 367, p. 350, a9)</note></quote>。由此可見，稱名不但是口念，必須內心思惟繫念。因稱念
 <lb n="0109a04" ed="Y"/><lb n="0109a04" ed="Y" type="old"/>阿彌陀佛的名號，由名號體會到佛的功德、實相，繫念思惟，才是念佛。所以稱
 <lb n="0109a05" ed="Y"/><lb n="0109a05" ed="Y" type="old"/>名是重要的，而應不止於口頭的唱誦。</p>
-<lb n="0109a06" ed="Y"/><lb n="0109a06" ed="Y" type="old"/><p style="text-indent:2em">上面說的是通泛的說一切念佛，現在別依稱名念佛，再加說明。稱名念佛的
+<lb n="0109a06" ed="Y"/><lb n="0109a06" ed="Y" type="old"/><p xml:id="pY17p0109a0601" style="text-indent:2em">上面說的是通泛的說一切念佛，現在別依稱名念佛，再加說明。稱名念佛的
 <lb n="0109a07" ed="Y"/><lb n="0109a07" ed="Y" type="old"/>方法，有人總集為「念佛四十法」，即專說念佛的方便。然念佛中最重要的，是
 <lb n="0109a08" ed="Y"/><lb n="0109a08" ed="Y" type="old"/>三到。淨宗大德印光大師也時常說到。三到是：口念、耳聽、心想，三者同時相
 <lb n="0109a09" ed="Y"/><lb n="0109a09" ed="Y" type="old"/>應。念得清晰明了，毫不含糊，毫不恍惚。稱名時，不但泛泛口唱，而且要用自
-<lb n="0109a10" ed="Y"/><lb n="0109a10" ed="Y" type="old"/>己的耳朵聽，聽得清清楚楚；心<note n="0109a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0109a1001"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>也要跟著音聲起念，明明白白的念。總之，口
+<lb n="0109a10" ed="Y"/><lb n="0109a10" ed="Y" type="old"/>己的耳朵聽，聽得清清楚楚；心<note n="0109a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0109a1001"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>也要跟著音聲起念，明明白白的念。總之，口
 <lb n="0109a11" ed="Y"/><lb n="0109a11" ed="Y" type="old"/>、耳、心三者必須相應繫念，了了分明，如此即易得一心不亂。許多人念佛，不
-<lb n="0109a12" ed="Y"/><lb n="0109a12" ed="Y" type="old"/>管上殿、做事，甚至與人談話，嘴巴<note n="0109a1201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0109a1201"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>似乎還在念佛。心無二用，不免心<note n="0109a1202" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0109a1202"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>恍惚
+<lb n="0109a12" ed="Y"/><lb n="0109a12" ed="Y" type="old"/>管上殿、做事，甚至與人談話，嘴巴<note n="0109a1201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0109a1201"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>似乎還在念佛。心無二用，不免心<note n="0109a1202" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0109a1202"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>恍惚
 <lb n="0109a13" ed="Y"/><lb n="0109a13" ed="Y" type="old"/>，耳不自聽，不能專一。或講究時間念得長、佛號念得多，但這不一定有多大用<pb n="0110a" ed="Y" xml:id="Y17.0017.0110a.old" type="old"/>
 <pb n="0110a" ed="Y" xml:id="Y17.0017.0110a"/>
 <lb n="0110a01" ed="Y"/><lb n="0110a01" ed="Y" type="old"/>處。例如寫字，要想寫得好，寫得有功夫，一定要鄭重其事的寫，一筆又一筆，
 <lb n="0110a02" ed="Y"/><lb n="0110a02" ed="Y" type="old"/>筆筆不苟，筆筆功到。雖然寫字不多，如能日日常寫，總可以寫出好字。有人見
-<lb n="0110a03" ed="Y"/><lb n="0110a03" ed="Y" type="old"/>筆就寫，東搨西塗，久而久之，看來非常圓熟，其實毫無功力。也有<note n="0110a0301" resp="CBETA" type="add" subtype="規範字詞">年輕【CB】，年青【印順】</note><app n="0110a0301"><lem wit="【CB】" resp="CBETA">年輕</lem><rdg wit="【印順】">年青</rdg></app>時即寫
+<lb n="0110a03" ed="Y"/><lb n="0110a03" ed="Y" type="old"/>筆就寫，東搨西塗，久而久之，看來非常圓熟，其實毫無功力。也有<note n="0110a0301" resp="CBETA" type="add" subtype="規範字詞">年輕【CB】，年青【印順】</note><app n="0110a0301"><lem resp="CBETA" wit="【CB】">年輕</lem><rdg wit="【印順】">年青</rdg></app>時即寫
 <lb n="0110a04" ed="Y"/><lb n="0110a04" ed="Y" type="old"/>得好字，而到老來卻寫壞，因為他不再精到，隨便揮毫，慢慢變成油滑，再也改
 <lb n="0110a05" ed="Y"/><lb n="0110a05" ed="Y" type="old"/>不過來。念佛也這樣，時間不妨短，佛號不妨少，卻必須口耳心三到，專一繫念
-<lb n="0110a06" ed="Y"/><lb n="0110a06" ed="Y" type="old"/>不亂。如果口<note n="0110a0601" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0110a0601"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>儘念，心<note n="0110a0602" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0110a0602"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>散亂，東想西想，連自己也不知在念什麼，那即使一
+<lb n="0110a06" ed="Y"/><lb n="0110a06" ed="Y" type="old"/>不亂。如果口<note n="0110a0601" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0110a0601"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>儘念，心<note n="0110a0602" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0110a0602"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>散亂，東想西想，連自己也不知在念什麼，那即使一
 <lb n="0110a07" ed="Y"/><lb n="0110a07" ed="Y" type="old"/>天念上幾萬聲也沒有用。所以若要不離念佛，不離日常生活，一定要在成就以後
 <lb n="0110a08" ed="Y"/><lb n="0110a08" ed="Y" type="old"/>。初學人，叫他走路也好念佛、做事正好念佛，那是接引方便。念佛而要得往生
 <lb n="0110a09" ed="Y"/><lb n="0110a09" ed="Y" type="old"/>，非專一修習不可。如一面妄想紛飛，一面念佛，一成習慣，通泛不切，悠悠忽
 <lb n="0110a10" ed="Y"/><lb n="0110a10" ed="Y" type="old"/>忽，再也不易達到一心不亂。要念佛，還是老實些好！</p>
-<lb n="0110a11" ed="Y"/><lb n="0110a11" ed="Y" type="old"/><p style="text-indent:2em">說到稱名念佛的音聲，可有三種：(一)、大聲，(二)、細聲，(三)、默念。在念佛
+<lb n="0110a11" ed="Y"/><lb n="0110a11" ed="Y" type="old"/><p xml:id="pY17p0110a1101" style="text-indent:2em">說到稱名念佛的音聲，可有三種：(一)、大聲，(二)、細聲，(三)、默念。在念佛
 <lb n="0110a12" ed="Y"/><lb n="0110a12" ed="Y" type="old"/>的過程中，三種都可用到。如專輕聲念，時間長了容易昏沉，於是把聲音提高，
 <lb n="0110a13" ed="Y"/><lb n="0110a13" ed="Y" type="old"/>念響一點，昏沉即除。如專於大聲念，又容易動氣發火，令心散亂。再換低聲念<pb n="0111a" ed="Y" xml:id="Y17.0017.0111a.old" type="old"/>
 <pb n="0111a" ed="Y" xml:id="Y17.0017.0111a"/>
 <lb n="0111a01" ed="Y"/><lb n="0111a01" ed="Y" type="old"/>，即能平息下去。音聲的輕重，要依實際情況的需要，而作交換調劑，念低念高
 <lb n="0111a02" ed="Y"/><lb n="0111a02" ed="Y" type="old"/>都沒有問題。但專以口念，無論高念或低念，都不能得定。依佛法說，定中唯有
 <lb n="0111a03" ed="Y"/><lb n="0111a03" ed="Y" type="old"/>意識，眼等前五識皆不起作用，口念聞聲，當然說不到定境。念佛的目的，是要
-<lb n="0111a04" ed="Y"/><lb n="0111a04" ed="Y" type="old"/>達一心不亂，所以又要默念。默念，也稱金剛持，即將佛的名號放在心<note n="0111a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0111a0401"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>念，口
+<lb n="0111a04" ed="Y"/><lb n="0111a04" ed="Y" type="old"/>達一心不亂，所以又要默念。默念，也稱金剛持，即將佛的名號放在心<note n="0111a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0111a0401"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>念，口
 <lb n="0111a05" ed="Y"/><lb n="0111a05" ed="Y" type="old"/>不出聲，雖不作聲，自己也聽起來卻似很響，而且字字清晰，句句了然。這樣念
 <lb n="0111a06" ed="Y"/><lb n="0111a06" ed="Y" type="old"/>，逐漸的心趨一境，外緣頓息，才能得定。</p>
-<lb n="0111a07" ed="Y"/><lb n="0111a07" ed="Y" type="old"/><p style="text-indent:2em">再談談念佛的快慢。我們念佛，起初都很慢，到轉板的時候便快起來。這很
+<lb n="0111a07" ed="Y"/><lb n="0111a07" ed="Y" type="old"/><p xml:id="pY17p0111a0701" style="text-indent:2em">再談談念佛的快慢。我們念佛，起初都很慢，到轉板的時候便快起來。這很
 <lb n="0111a08" ed="Y"/><lb n="0111a08" ed="Y" type="old"/>有意思，因為慢念，聲音必定要拉長，如：南—無—阿—彌—陀—佛，每字的距
 <lb n="0111a09" ed="Y"/><lb n="0111a09" ed="Y" type="old"/>離長，妄想雜念容易插足其間，所以要轉快板，急念起來，雜念即不得進。禪堂
 <lb n="0111a10" ed="Y"/><lb n="0111a10" ed="Y" type="old"/>的跑香也這樣，催得很快很急，迫得心只在一點上轉，來不及打妄想。不過專是
@@ -538,7 +558,7 @@
 <lb n="0112a01" ed="Y"/><lb n="0112a01" ed="Y" type="old"/>牠順著路一直走。念佛不是口頭念念就算，不在乎聲音好聽，也不在乎多念久念
 <lb n="0112a02" ed="Y"/><lb n="0112a02" ed="Y" type="old"/>，總要使心趨向平靜，趨向專一，獲得一心不亂。</p></cb:div>
 <lb n="0112a03" ed="Y"/><lb n="0112a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">六　一心不亂</cb:mulu><head>六　一心不亂</head>
-<lb n="0112a04" ed="Y"/><lb n="0112a04" ed="Y" type="old"/><p style="text-indent:2em">念佛求生極樂世界，能不能生的重要關鍵，在一心不亂，這在大、小<title level="m">《阿彌陀
+<lb n="0112a04" ed="Y"/><lb n="0112a04" ed="Y" type="old"/><p xml:id="pY17p0112a0401" style="text-indent:2em">念佛求生極樂世界，能不能生的重要關鍵，在一心不亂，這在大、小<title level="m">《阿彌陀
 <lb n="0112a05" ed="Y"/><lb n="0112a05" ed="Y" type="old"/>經》</title>中皆說到。蓮池大師有事一心與理一心的分別。事一心實可析為淨念相續、
 <lb n="0112a06" ed="Y"/><lb n="0112a06" ed="Y" type="old"/>定心現前二類。眾生的內心，最複雜，特別是無始來的煩惱習氣，潛伏而不時現
 <lb n="0112a07" ed="Y"/><lb n="0112a07" ed="Y" type="old"/>起，極難得到內心的一致——不亂。佛法的無邊功德，要由定力開發出來。這不
@@ -562,7 +582,7 @@
 <lb n="0113a12" ed="Y"/><lb n="0113a12" ed="Y" type="old"/>相續，也就是一心不亂。這樣的淨念相續，即取得了往生淨土的保證。在這樣的
 <lb n="0113a13" ed="Y"/><lb n="0113a13" ed="Y" type="old"/>淨念相續時，每有清淨法樂，或聞有香氣，或乍現光明等。</p><pb n="0114a" ed="Y" xml:id="Y17.0017.0114a.old" type="old"/>
 <pb n="0114a" ed="Y" xml:id="Y17.0017.0114a"/>
-<lb n="0114a01" ed="Y"/><lb n="0114a01" ed="Y" type="old"/><p style="text-indent:2em">定心現前，是更深一層的。定有一定的條件，不是盤腿趺坐就算定。先要繫
+<lb n="0114a01" ed="Y"/><lb n="0114a01" ed="Y" type="old"/><p xml:id="pY17p0114a0101" style="text-indent:2em">定心現前，是更深一層的。定有一定的條件，不是盤腿趺坐就算定。先要繫
 <lb n="0114a02" ed="Y"/><lb n="0114a02" ed="Y" type="old"/>念於止，止成就後，才有定心現前。最低微的未到定，也有渾忘自己的身心境界
 <lb n="0114a03" ed="Y"/><lb n="0114a03" ed="Y" type="old"/>，只是一片清淨光明。念佛得定，名念佛三昧，此時眼等五識不起，唯定中意識
 <lb n="0114a04" ed="Y"/><lb n="0114a04" ed="Y" type="old"/>現前。稱名、觀相，也可現見阿彌陀佛。甚至未得淨念相續的，在睡夢中也可見
@@ -576,7 +596,7 @@
 <lb n="0114a12" ed="Y"/><lb n="0114a12" ed="Y" type="old"/>。這因為一方面受到死的威脅，一方面受到墮落的怖畏，所以信願的熱忱特別深
 <lb n="0114a13" ed="Y"/><lb n="0114a13" ed="Y" type="old"/>切，能在短時間內，一心不亂，而得往生。</p><pb n="0115a" ed="Y" xml:id="Y17.0017.0115a.old" type="old"/>
 <pb n="0115a" ed="Y" xml:id="Y17.0017.0115a"/>
-<lb n="0115a01" ed="Y"/><lb n="0115a01" ed="Y" type="old"/><p style="text-indent:2em">為調和禪淨的爭執，蓮池大師倡理一心說以會通<note n="0115a0101" resp="CBETA" type="add" subtype="規範字詞">它【CB】，他【印順】</note><app n="0115a0101"><lem wit="【CB】" resp="CBETA">它</lem><rdg wit="【印順】">他</rdg></app>。中國唐代的淨土法門，
+<lb n="0115a01" ed="Y"/><lb n="0115a01" ed="Y" type="old"/><p xml:id="pY17p0115a0101" style="text-indent:2em">為調和禪淨的爭執，蓮池大師倡理一心說以會通<note n="0115a0101" resp="CBETA" type="add" subtype="規範字詞">它【CB】，他【印順】</note><app n="0115a0101"><lem resp="CBETA" wit="【CB】">它</lem><rdg wit="【印順】">他</rdg></app>。中國唐代的淨土法門，
 <lb n="0115a02" ed="Y"/><lb n="0115a02" ed="Y" type="old"/>專重他力，而禪宗是主心外無物，頓息一切分別，所以批評淨土法門的有取（淨
 <lb n="0115a03" ed="Y"/><lb n="0115a03" ed="Y" type="old"/>土）有捨（娑婆）、有分別念（佛）。其實，禪淨各有重心，由於執一概全，才
 <lb n="0115a04" ed="Y"/><lb n="0115a04" ed="Y" type="old"/>有諍執。若著眼於全體佛教，即用不著衝突。蓮池大師所以特提理一心說，作禪
@@ -590,19 +610,19 @@
 <lb n="0115a12" ed="Y"/><lb n="0115a12" ed="Y" type="old"/>的特別願欲，那是不一定生極樂的。要生，那是<quote type="嚴謹引文">「十方淨土，隨願往生」</quote>。</p></cb:div><pb n="0116a" ed="Y" xml:id="Y17.0017.0116a.old" type="old"/>
 <pb n="0116a" ed="Y" xml:id="Y17.0017.0116a"/>
 <lb n="0116a01" ed="Y"/><lb n="0116a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">七　往生與了生死</cb:mulu><head>七　往生與了生死</head>
-<lb n="0116a02" ed="Y"/><lb n="0116a02" ed="Y" type="old"/><p style="text-indent:2em">往生，是約此界的臨終往生極樂世界說。本來死後受生，或由此到彼，往生
+<lb n="0116a02" ed="Y"/><lb n="0116a02" ed="Y" type="old"/><p xml:id="pY17p0116a0201" style="text-indent:2em">往生，是約此界的臨終往生極樂世界說。本來死後受生，或由此到彼，往生
 <lb n="0116a03" ed="Y"/><lb n="0116a03" ed="Y" type="old"/>的力量不一，最一般的是業力。有天的業生天界，有人的業生人間……。六道眾
 <lb n="0116a04" ed="Y"/><lb n="0116a04" ed="Y" type="old"/>生，皆以業力而受生。在這以上的，還有願力、通力。如沒有人間業的天，可以
 <lb n="0116a05" ed="Y"/><lb n="0116a05" ed="Y" type="old"/>到人間，他來是憑藉神通的力量。下生以後，現有人間的身體，借取欲界的鼻舌
 <lb n="0116a06" ed="Y"/><lb n="0116a06" ed="Y" type="old"/>識而起用；不過天人的身體光明，物質組合得極為微妙。同樣的，我們修得了神
 <lb n="0116a07" ed="Y"/><lb n="0116a07" ed="Y" type="old"/>通力，也可生到上界。現在的生淨土，不是通力，而是願力。以一心不亂為主因
 <lb n="0116a08" ed="Y"/><lb n="0116a08" ed="Y" type="old"/>，使心淨定，再由眾生的願與阿彌陀佛的願相攝相引，便得往生淨土。論依因感
-<lb n="0116a09" ed="Y"/><lb n="0116a09" ed="Y" type="old"/>果，淨土還不是眾生的，然同樣的可以享受。如王宮是王家所有，但宮庭<note n="0116a0901" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0116a0901"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>的侍
+<lb n="0116a09" ed="Y"/><lb n="0116a09" ed="Y" type="old"/>果，淨土還不是眾生的，然同樣的可以享受。如王宮是王家所有，但宮庭<note n="0116a0901" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0116a0901"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>的侍
 <lb n="0116a10" ed="Y"/><lb n="0116a10" ed="Y" type="old"/>役、下女，一樣的可以享受那奇花異草的花圃、畫棟雕樑的莊嚴房屋、山珍海味
 <lb n="0116a11" ed="Y"/><lb n="0116a11" ed="Y" type="old"/>的飲食、絲絃笙笛的音樂，與王室差不多，但這並不是自力。往生淨土也是這樣
 <lb n="0116a12" ed="Y"/><lb n="0116a12" ed="Y" type="old"/>，憑著阿彌陀佛的願力，一樣的享受淨土的法樂。</p><pb n="0117a" ed="Y" xml:id="Y17.0017.0117a.old" type="old"/>
 <pb n="0117a" ed="Y" xml:id="Y17.0017.0117a"/>
-<lb n="0117a01" ed="Y"/><lb n="0117a01" ed="Y" type="old"/><p style="text-indent:2em">今日有些弘揚淨土者，說到了生死，以為就是念佛，以念佛為了生死的代名
+<lb n="0117a01" ed="Y"/><lb n="0117a01" ed="Y" type="old"/><p xml:id="pY17p0117a0101" style="text-indent:2em">今日有些弘揚淨土者，說到了生死，以為就是念佛，以念佛為了生死的代名
 <lb n="0117a02" ed="Y"/><lb n="0117a02" ed="Y" type="old"/>詞，這是堵塞了佛法無邊法門。其實，了生死豈止念佛一門？而且，了生死與往
 <lb n="0117a03" ed="Y"/><lb n="0117a03" ed="Y" type="old"/>生，應該是二回事，這中間還有一段的距離。把往生看作了生死，在思想上有點
 <lb n="0117a04" ed="Y"/><lb n="0117a04" ed="Y" type="old"/>混亂。生死，是生而死、死而生的生死相續；了生死，不是明了生死，而是說徹底
@@ -629,7 +649,7 @@
 <lb n="0118a11" ed="Y"/><lb n="0118a11" ed="Y" type="old"/>識的，尚無所謂；若對佛法有素養的人，聽之反起疑惑，反於淨土而生障礙。</p></cb:div>
 <lb n="0118a12" ed="Y"/><lb n="0118a12" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">八　結說要義</cb:mulu><head>八　結說要義</head><pb n="0119a" ed="Y" xml:id="Y17.0017.0119a.old" type="old"/>
 <pb n="0119a" ed="Y" xml:id="Y17.0017.0119a"/>
-<lb n="0119a01" ed="Y"/><lb n="0119a01" ed="Y" type="old"/><p style="text-indent:2em">總前面所講的，關於淨土法門有幾點要義，需要特別注意。一、是本願力：
+<lb n="0119a01" ed="Y"/><lb n="0119a01" ed="Y" type="old"/><p xml:id="pY17p0119a0101" style="text-indent:2em">總前面所講的，關於淨土法門有幾點要義，需要特別注意。一、是本願力：
 <lb n="0119a02" ed="Y"/><lb n="0119a02" ed="Y" type="old"/>眾生的能生淨土，主要是依仗他力的慈悲本願。若但依自力，是不夠的。念佛的
 <lb n="0119a03" ed="Y"/><lb n="0119a03" ed="Y" type="old"/>淨土宗人，都推廬山慧遠大師為初祖，其實遠公的念佛，並不重在口念。由北魏
 <lb n="0119a04" ed="Y"/><lb n="0119a04" ed="Y" type="old"/>的曇鸞、道綽，到唐朝的善導大師，才發展為特重稱名的念佛法門。善導大師有
@@ -654,7 +674,7 @@
 <lb n="0120a09" ed="Y"/><lb n="0120a09" ed="Y" type="old"/>？何以能與佛願相通？撤除眾生自心障礙，與佛願相應，佛說就是念佛到一心不
 <lb n="0120a10" ed="Y"/><lb n="0120a10" ed="Y" type="old"/>亂。信彌陀願力，而不信接受彌陀願力的方法，真是可笑。放棄自力，不是別的
 <lb n="0120a11" ed="Y"/><lb n="0120a11" ed="Y" type="old"/>，這只是發展於神教氣氛中的神化！</p>
-<lb n="0120a12" ed="Y"/><lb n="0120a12" ed="Y" type="old"/><p style="text-indent:2em">第二、我講的淨土法門，多是依據印度的經論，並不以中國祖師的遺訓為聖
+<lb n="0120a12" ed="Y"/><lb n="0120a12" ed="Y" type="old"/><p xml:id="pY17p0120a1201" style="text-indent:2em">第二、我講的淨土法門，多是依據印度的經論，並不以中國祖師的遺訓為聖
 <lb n="0120a13" ed="Y"/><lb n="0120a13" ed="Y" type="old"/>教量。照著經論的意趣說，不敢抹煞，也不敢強調。所以與一分淨土行者，小有<pb n="0121a" ed="Y" xml:id="Y17.0017.0121a.old" type="old"/>
 <pb n="0121a" ed="Y" xml:id="Y17.0017.0121a"/>
 <lb n="0121a01" ed="Y"/><lb n="0121a01" ed="Y" type="old"/>差別。如易行道，不是橫出三界、容易成佛，而是容易學容易行，辦法比較穩當
@@ -662,7 +682,7 @@
 <lb n="0121a03" ed="Y"/><lb n="0121a03" ed="Y" type="old"/>量壽經》</title>說：能於穢土修行一天，勝過淨土久久。又如淨土的特色在依他力而得
 <lb n="0121a04" ed="Y"/><lb n="0121a04" ed="Y" type="old"/>往生；然往生並不就是了生死，這在專以念佛為了生死的人看來，不免心生不忍
 <lb n="0121a05" ed="Y"/><lb n="0121a05" ed="Y" type="old"/>。其實，這並沒有貶低淨土法門的價值。</p>
-<lb n="0121a06" ed="Y"/><lb n="0121a06" ed="Y" type="old"/><p style="text-indent:2em">第三、雖有三根普被之說，而淨土念佛法門，主要在為了初心學人。有類眾
+<lb n="0121a06" ed="Y"/><lb n="0121a06" ed="Y" type="old"/><p xml:id="pY17p0121a0601" style="text-indent:2em">第三、雖有三根普被之說，而淨土念佛法門，主要在為了初心學人。有類眾
 <lb n="0121a07" ed="Y"/><lb n="0121a07" ed="Y" type="old"/>生，覺得佛法太深廣、太難行，以一生的時間修學，教理上還是漫無頭緒；悟證
 <lb n="0121a08" ed="Y"/><lb n="0121a08" ed="Y" type="old"/>既難，而菩薩的難行，更加不能做到。忽忽一生，死到頭來，也不知來生究竟如
 <lb n="0121a09" ed="Y"/><lb n="0121a09" ed="Y" type="old"/>何！對這類心性怯劣的眾生，所以有易行道、勝方便的淨土法門。如<cit><bibl><title level="m">《大乘起信

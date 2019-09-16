@@ -12,52 +12,72 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/04</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/04</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>3卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2016/11/28 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 1, No. 1</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>3卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">1</idno>.<idno type="no">1</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">般若經講記</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">一、金剛般若波羅蜜經講記</cb:mulu><cb:mulu level="2" type="其他">正釋</cb:mulu><cb:mulu level="3" type="其他">甲三　流通分</cb:mulu>
-<milestone unit="juan" n="3"/>
+<milestone n="3" unit="juan"/>
 <pb n="0143a" ed="Y" xml:id="Y01.0001.0143a"/>
 <lb n="0143a01" ed="Y"/><lb n="0143a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">二、般若波羅蜜多心經講記</cb:mulu><head>般若波羅蜜多心經講記<note n="0143001" resp="CBETA" type="add">民國三六年講。</note></head>
 <lb n="0143a02" ed="Y"/><lb n="0143a02" ed="Y" type="old"/><byline rend="bold">——民國三十六年夏在雪竇寺說——</byline>
 <lb n="0143a03" ed="Y"/><lb n="0143a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">懸論</cb:mulu><head><seg rend="border">懸論</seg></head>
 <lb n="0143a04" ed="Y"/><lb n="0143a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">一　釋經題</cb:mulu><head>一　釋經題</head>
-<lb n="0143a05" ed="Y"/><lb n="0143a05" ed="Y" type="old"/><p style="text-indent:2em">一、波羅蜜多：佛法有它的目的，和達到此目的的方法，我們要想了解它，
+<lb n="0143a05" ed="Y"/><lb n="0143a05" ed="Y" type="old"/><p xml:id="pY01p0143a0501" style="text-indent:2em">一、波羅蜜多：佛法有它的目的，和達到此目的的方法，我們要想了解它，
 <lb n="0143a06" ed="Y"/><lb n="0143a06" ed="Y" type="old"/>可以用本經的<quote type="嚴謹引文">「度一切苦厄」</quote>、<quote type="嚴謹引文">「能除一切苦」</quote>，即經題的<quote type="嚴謹引文">「波羅蜜多」</quote>來說明
 <lb n="0143a07" ed="Y"/><lb n="0143a07" ed="Y" type="old"/>。佛法就是要對這現實世間的苦難，予以徹底的解決。波羅蜜多是梵音，譯成中
 <lb n="0143a08" ed="Y"/><lb n="0143a08" ed="Y" type="old"/>文可有兩個意思：一、凡事做到了圓滿成就的時候，印度人都稱做波羅蜜多，就
@@ -69,7 +89,7 @@
 <lb n="0144a03" ed="Y"/><lb n="0144a03" ed="Y" type="old"/>多；依照佛法中的方法做到苦痛的解除（靜的），也名為波羅蜜多。這樣，現在
 <lb n="0144a04" ed="Y"/><lb n="0144a04" ed="Y" type="old"/>就把<quote type="嚴謹引文">「波羅蜜多」</quote>，局限在解除苦痛的意義上。但苦痛是什麼？從何而來？<quote type="嚴謹引文">「度
 <lb n="0144a05" ed="Y"/><lb n="0144a05" ed="Y" type="old"/>一切苦厄」</quote>的方法又如何？</p>
-<lb n="0144a06" ed="Y"/><lb n="0144a06" ed="Y" type="old"/><p style="text-indent:2em">苦是一種感受；苦痛，有它的原因，知道苦痛的原因以後，才能用適當的方
+<lb n="0144a06" ed="Y"/><lb n="0144a06" ed="Y" type="old"/><p xml:id="pY01p0144a0601" style="text-indent:2em">苦是一種感受；苦痛，有它的原因，知道苦痛的原因以後，才能用適當的方
 <lb n="0144a07" ed="Y"/><lb n="0144a07" ed="Y" type="old"/>法來防制它消滅它。從引發苦受的自體說，可大分為「身苦」與「心苦」。身苦
 <lb n="0144a08" ed="Y"/><lb n="0144a08" ed="Y" type="old"/>是因生理變化所引生的不適意受，如餓了、冷了、疲勞辛苦了……，這都是身體
 <lb n="0144a09" ed="Y"/><lb n="0144a09" ed="Y" type="old"/>上的苦受。心苦是精神上所感受的苦受，如憎、怒、哀、懼等。身苦是大體同樣
@@ -84,7 +104,7 @@
 <lb n="0145a04" ed="Y"/><lb n="0145a04" ed="Y" type="old"/>身世不同、知識不同、情緒不同、意志不同，感生的心苦也各各不同，這就難得
 <lb n="0145a05" ed="Y"/><lb n="0145a05" ed="Y" type="old"/>解決了。世間一般學術，對此心苦簡直是沒法解除的，只有學習佛法才可以得到
 <lb n="0145a06" ed="Y"/><lb n="0145a06" ed="Y" type="old"/>解除。雖然佛法不是偏於心的，但可以知道佛法的重心所在。</p>
-<lb n="0145a07" ed="Y"/><lb n="0145a07" ed="Y" type="old"/><p style="text-indent:2em">從引發苦痛的環境說：有的苦痛是因物質的需求不得滿足而引生的（我與物
+<lb n="0145a07" ed="Y"/><lb n="0145a07" ed="Y" type="old"/><p xml:id="pY01p0145a0701" style="text-indent:2em">從引發苦痛的環境說：有的苦痛是因物質的需求不得滿足而引生的（我與物
 <lb n="0145a08" ed="Y"/><lb n="0145a08" ed="Y" type="old"/>），有的是由人與人的關係而引生的（我與他），有的是與自家身心俱來的（我
 <lb n="0145a09" ed="Y"/><lb n="0145a09" ed="Y" type="old"/>與身心）。此與身心俱來的痛苦，雖很多，然最主要的有「生」、「老」、「病
 <lb n="0145a10" ed="Y"/><lb n="0145a10" ed="Y" type="old"/>」、「死」的四種。生與死，一般人不易感到是苦；在苦痛未發生之前，儘管感
@@ -100,7 +120,7 @@
 <lb n="0146a06" ed="Y"/><lb n="0146a06" ed="Y" type="old"/>丟而丟不了的，也可以攝在此中。像上所說諸苦，可大分三類：一、因身心變化
 <lb n="0146a07" ed="Y"/><lb n="0146a07" ed="Y" type="old"/>所引生的苦痛——生、老、病、死；二、因社會關係所發生的苦痛——愛別離、
 <lb n="0146a08" ed="Y"/><lb n="0146a08" ed="Y" type="old"/>怨憎會；三、因自然界——衣食等欲求不得所引生的苦痛。</p>
-<lb n="0146a09" ed="Y"/><lb n="0146a09" ed="Y" type="old"/><p style="text-indent:2em">世間的學術、宗教、技巧，莫不是為解除人生痛苦而產生的。然而努力的結
+<lb n="0146a09" ed="Y"/><lb n="0146a09" ed="Y" type="old"/><p xml:id="pY01p0146a0901" style="text-indent:2em">世間的學術、宗教、技巧，莫不是為解除人生痛苦而產生的。然而努力的結
 <lb n="0146a10" ed="Y"/><lb n="0146a10" ed="Y" type="old"/>果，至多能解除自然界的威脅和少部分的因社會關係所發生的痛苦。這因為自然
 <lb n="0146a11" ed="Y"/><lb n="0146a11" ed="Y" type="old"/>界是無生的，依必然的法則而變化的，只要人能發見它的變化法則，就可以控制
 <lb n="0146a12" ed="Y"/><lb n="0146a12" ed="Y" type="old"/>它、利用它。社會關係就難多了，如發生同一事件，以同一的處理法，但每因群
@@ -120,11 +140,11 @@
 <lb n="0147a12" ed="Y"/><lb n="0147a12" ed="Y" type="old"/>的。因此，我們要<quote type="嚴謹引文">「度一切苦厄」</quote>，應首先對自己予以改造。唯有這樣，才能合
 <lb n="0147a13" ed="Y"/><lb n="0147a13" ed="Y" type="old"/>理的根本的解除人世間的苦痛。</p><pb n="0148a" ed="Y" xml:id="Y01.0001.0148a.old" type="old"/>
 <pb n="0148a" ed="Y" xml:id="Y01.0001.0148a"/>
-<lb n="0148a01" ed="Y"/><lb n="0148a01" ed="Y" type="old"/><p style="text-indent:2em">佛法解除苦痛的方法是如何呢？原則的說，可分二種：一、充實自己：增加
+<lb n="0148a01" ed="Y"/><lb n="0148a01" ed="Y" type="old"/><p xml:id="pY01p0148a0101" style="text-indent:2em">佛法解除苦痛的方法是如何呢？原則的說，可分二種：一、充實自己：增加
 <lb n="0148a02" ed="Y"/><lb n="0148a02" ed="Y" type="old"/>反抗的力量，使苦痛在自己身心中沖淡，不生劇烈的反應。如力量小的擔不起重
-<lb n="0148a03" ed="Y"/><lb n="0148a03" ed="Y" type="old"/>物，感到苦難；而在<note n="0148a0301" resp="CBETA" type="add">鍛【CB】，鍜【印順】</note><app n="0148a0301"><lem wit="【CB】" resp="正聞出版社">鍛</lem><rdg wit="【印順】">鍜</rdg></app>鍊有素精強力壯者，則可把著便行，行所無事。二、消滅
+<lb n="0148a03" ed="Y"/><lb n="0148a03" ed="Y" type="old"/>物，感到苦難；而在<note n="0148a0301" resp="CBETA" type="add">鍛【CB】，鍜【印順】</note><app n="0148a0301"><lem resp="正聞出版社" wit="【CB】">鍛</lem><rdg wit="【印順】">鍜</rdg></app>鍊有素精強力壯者，則可把著便行，行所無事。二、消滅
 <lb n="0148a04" ed="Y"/><lb n="0148a04" ed="Y" type="old"/>苦痛的根源：知其原因，將致苦的原因對治了，苦果自然不生。</p>
-<lb n="0148a05" ed="Y"/><lb n="0148a05" ed="Y" type="old"/><p style="text-indent:2em">我們知道，佛法所討論的<quote type="嚴謹引文">「度一切苦厄」</quote>、<quote type="嚴謹引文">「能除一切苦」</quote>，是著重在自我
+<lb n="0148a05" ed="Y"/><lb n="0148a05" ed="Y" type="old"/><p xml:id="pY01p0148a0501" style="text-indent:2em">我們知道，佛法所討論的<quote type="嚴謹引文">「度一切苦厄」</quote>、<quote type="嚴謹引文">「能除一切苦」</quote>，是著重在自我
 <lb n="0148a06" ed="Y"/><lb n="0148a06" ed="Y" type="old"/>身心的改善與解放的。因為度苦、除苦的境界不同，所以產生了大乘與小乘。側
 <lb n="0148a07" ed="Y"/><lb n="0148a07" ed="Y" type="old"/>重否定的功夫，希求自己的苦痛解脫而達到自在，這被稱為小乘。大乘也是希求
 <lb n="0148a08" ed="Y"/><lb n="0148a08" ed="Y" type="old"/>度苦除苦的，但他更是肯定的，側重於離苦當下的大解脫自由；又由推己及人了
@@ -135,7 +155,7 @@
 <lb n="0148a13" ed="Y"/><lb n="0148a13" ed="Y" type="old"/>志，走上出家、成道、說法的路。後代的大小乘，不過從其偏重於為己及為人而<pb n="0149a" ed="Y" xml:id="Y01.0001.0149a.old" type="old"/>
 <pb n="0149a" ed="Y" xml:id="Y01.0001.0149a"/>
 <lb n="0149a01" ed="Y"/><lb n="0149a01" ed="Y" type="old"/>加以分別罷了！</p>
-<lb n="0149a02" ed="Y"/><lb n="0149a02" ed="Y" type="old"/><p style="text-indent:2em">佛法以解除苦痛為目的，除苦必須解除苦痛的根源。致苦的原因，自然是很
+<lb n="0149a02" ed="Y"/><lb n="0149a02" ed="Y" type="old"/><p xml:id="pY01p0149a0201" style="text-indent:2em">佛法以解除苦痛為目的，除苦必須解除苦痛的根源。致苦的原因，自然是很
 <lb n="0149a03" ed="Y"/><lb n="0149a03" ed="Y" type="old"/>複雜，但主要是原於我們內心上的錯誤，及由於內心錯誤而引生行為的錯誤。人
 <lb n="0149a04" ed="Y"/><lb n="0149a04" ed="Y" type="old"/>人的內心與行為不正確，社會意識與發展的傾向，自然也就不能無誤了！由錯誤
 <lb n="0149a05" ed="Y"/><lb n="0149a05" ed="Y" type="old"/>的行為影響內心，又由內心的錯誤引導行為；於是互相影響，起諸惡業，招感苦
@@ -162,7 +182,7 @@
 <lb n="0150a12" ed="Y"/><lb n="0150a12" ed="Y" type="old"/>可安居樂業，現在的人知識增長，人民幾乎寢食為憂。我們不但是欲望的奴隸，
 <lb n="0150a13" ed="Y"/><lb n="0150a13" ed="Y" type="old"/>還是思想的奴隸呢！</p><pb n="0151a" ed="Y" xml:id="Y01.0001.0151a.old" type="old"/>
 <pb n="0151a" ed="Y" xml:id="Y01.0001.0151a"/>
-<lb n="0151a01" ed="Y"/><lb n="0151a01" ed="Y" type="old"/><p style="text-indent:2em">各人的愛見，互相影響，互相推動，造成了家庭、社會、國家的行為錯誤；
+<lb n="0151a01" ed="Y"/><lb n="0151a01" ed="Y" type="old"/><p xml:id="pY01p0151a0101" style="text-indent:2em">各人的愛見，互相影響，互相推動，造成了家庭、社會、國家的行為錯誤；
 <lb n="0151a02" ed="Y"/><lb n="0151a02" ed="Y" type="old"/>招感著個人的苦痛，乃至家庭、社會、國家的苦痛。依佛法的觀點，不僅此人類
 <lb n="0151a03" ed="Y"/><lb n="0151a03" ed="Y" type="old"/>共同的苦痛，根源於內心——愛見與行為的錯誤；眾生流轉於生、老、病、死的
 <lb n="0151a04" ed="Y"/><lb n="0151a04" ed="Y" type="old"/>苦痛中，也還是根源於此。世間的一切，什麼都不是突然而有的，有了也不會無
@@ -176,7 +196,7 @@
 <lb n="0151a12" ed="Y"/><lb n="0151a12" ed="Y" type="old"/>同。我們要消除苦痛，非先從內心上的愛欲和知見改造起不可。自然，這就是行
 <lb n="0151a13" ed="Y"/><lb n="0151a13" ed="Y" type="old"/>為的改善，也即是人我關係的改善。</p><pb n="0152a" ed="Y" xml:id="Y01.0001.0152a.old" type="old"/>
 <pb n="0152a" ed="Y" xml:id="Y01.0001.0152a"/>
-<lb n="0152a01" ed="Y"/><lb n="0152a01" ed="Y" type="old"/><p style="text-indent:2em">二、般若波羅蜜多：佛法中談到解除苦厄的方法，即關於改造錯誤欲見的方
+<lb n="0152a01" ed="Y"/><lb n="0152a01" ed="Y" type="old"/><p xml:id="pY01p0152a0101" style="text-indent:2em">二、般若波羅蜜多：佛法中談到解除苦厄的方法，即關於改造錯誤欲見的方
 <lb n="0152a02" ed="Y"/><lb n="0152a02" ed="Y" type="old"/>法，六波羅蜜多實為主要。六波羅蜜多是：(一)、布施，就是犧牲自己的精神和物
 <lb n="0152a03" ed="Y"/><lb n="0152a03" ed="Y" type="old"/>質甚至生命，去作有益於他人的事。(二)、持戒，不應該做的決定不做，應該做的
 <lb n="0152a04" ed="Y"/><lb n="0152a04" ed="Y" type="old"/>努力去做，這就是佛說的<quote source="T33n1716_p0695c27" type="嚴謹引文">「諸惡莫作，眾善奉行」<note n="0152001" resp="周怡曄" type="add">《妙法蓮華經玄義》卷2(CBETA, T33, no. 1716, p. 695, c27)</note></quote>。例如在消極方面，制止殘殺
@@ -194,11 +214,11 @@
 <lb n="0153a02" ed="Y"/>於苦痛根源的愛見，還是不能徹底解決的。(六)、般若，譯為智慧，有了智慧，<lb n="0153a03" ed="Y" type="old"/>錯
 <lb n="0153a03" ed="Y"/>誤的見解可得到糾正，五種波羅蜜多也可以得到正當的指導。佛法裡特別尊重<lb n="0153a04" ed="Y" type="old"/>智
 <lb n="0153a04" ed="Y"/>慧，因為只有智慧才能徹底度一切苦。</p>
-<lb n="0153a05" ed="Y"/><lb n="0153a05" ed="Y" type="old"/><p style="text-indent:2em">經上說<quote source="T25n1509_p0273a01-03" type="寬鬆引文">「五度如盲，般若為導」<note n="0153001" resp="周怡曄" type="add">《大智度論》卷29〈1 序品〉：「亦如群盲無導，不能有所至；般若波羅蜜亦如是，導五波羅蜜，令至薩婆若。」(CBETA, T25, no. 1509, p. 273, a1-3)</note></quote>，並以種種功德稱揚讚嘆。有些人不知佛<lb n="0153a06" ed="Y" type="old"/>經
+<lb n="0153a05" ed="Y"/><lb n="0153a05" ed="Y" type="old"/><p xml:id="pY01p0153a0501" style="text-indent:2em">經上說<quote source="T25n1509_p0273a01-03" type="寬鬆引文">「五度如盲，般若為導」<note n="0153001" resp="周怡曄" type="add">《大智度論》卷29〈1 序品〉：「亦如群盲無導，不能有所至；般若波羅蜜亦如是，導五波羅蜜，令至薩婆若。」(CBETA, T25, no. 1509, p. 273, a1-3)</note></quote>，並以種種功德稱揚讚嘆。有些人不知佛<lb n="0153a06" ed="Y" type="old"/>經
 <lb n="0153a06" ed="Y"/>讚嘆智慧的用意，於是以為只要有般若，其餘的五度就可以不要了，這是錯誤<lb n="0153a07" ed="Y" type="old"/>的
 <lb n="0153a07" ed="Y"/>。智慧是領導者，它需要與布施等行為配合起來，使所修所行的不致發生錯誤<lb n="0153a08" ed="Y" type="old"/>，
 <lb n="0153a08" ed="Y"/>這才是佛法重智慧的真義。</p>
-<lb n="0153a09" ed="Y"/><lb n="0153a09" ed="Y" type="old"/><p style="text-indent:2em">般若慧和世間的知識不同：般若慧是從深刻地體驗真理所得到的，如釋迦佛
+<lb n="0153a09" ed="Y"/><lb n="0153a09" ed="Y" type="old"/><p xml:id="pY01p0153a0901" style="text-indent:2em">般若慧和世間的知識不同：般若慧是從深刻地體驗真理所得到的，如釋迦佛
 <lb n="0153a10" ed="Y"/><lb n="0153a10" ed="Y" type="old"/>在菩提樹下因獲得了體驗真理的智慧而成佛。這樣，般若的智慧，我們不是就沒
 <lb n="0153a11" ed="Y"/><lb n="0153a11" ed="Y" type="old"/>有分了嗎？這也不然，我們雖還沒有體驗真理的智慧，可是佛法即是依體悟真理
 <lb n="0153a12" ed="Y"/><lb n="0153a12" ed="Y" type="old"/>的智慧而流出來的，我們依止佛的經教指示漸漸思惟觀察，起深信解；這雖不是
@@ -210,7 +230,7 @@
 <lb n="0154a04" ed="Y"/><lb n="0154a04" ed="Y" type="old"/>，指導行為而體驗於尋常日用間，佛法名此為思所成慧。思後更修禪定，於定境
 <lb n="0154a05" ed="Y"/><lb n="0154a05" ed="Y" type="old"/>中審細觀察宇宙人生的真理，此名修所成慧。再不斷的深入，常時修習，般若智
 <lb n="0154a06" ed="Y"/><lb n="0154a06" ed="Y" type="old"/>慧即可發生。</p>
-<lb n="0154a07" ed="Y"/><lb n="0154a07" ed="Y" type="old"/><p style="text-indent:2em">智慧，可以分為兩種：(一)、世俗智，如世之哲學家、科學家等，他們都有對
+<lb n="0154a07" ed="Y"/><lb n="0154a07" ed="Y" type="old"/><p xml:id="pY01p0154a0701" style="text-indent:2em">智慧，可以分為兩種：(一)、世俗智，如世之哲學家、科學家等，他們都有對
 <lb n="0154a08" ed="Y"/><lb n="0154a08" ed="Y" type="old"/>於宇宙人生的一套看法，有他種種的智慧與相對的真理。雖然這是不究竟的，<lb n="0154a09" ed="Y" type="old"/>若
 <lb n="0154a09" ed="Y"/>就廣義的智慧說，他們解說宇宙人生的世俗智，也可以包含在般若裡（方便智<lb n="0154a10" ed="Y" type="old"/>）
 <lb n="0154a10" ed="Y"/>。(二)、勝義智，這是就特殊的智慧說。佛法體驗真理的智慧，是徹底的、究竟<lb n="0154a11" ed="Y" type="old"/>的
@@ -227,7 +247,7 @@
 <lb n="0155a07" ed="Y"/><lb n="0155a07" ed="Y" type="old"/>遍學一切法門的經訓。另一些人以為世俗的知識不可厚非，應當去學，可是學<lb n="0155a08" ed="Y" type="old"/>而
 <lb n="0155a08" ed="Y"/>不返，忘記了佛法特重的智慧是什麼了。所以修學佛法的人，應該對佛法所崇<lb n="0155a09" ed="Y" type="old"/>重
 <lb n="0155a09" ed="Y"/>的特殊智慧致力以求，而世俗的一般智慧，也不能忽略。</p>
-<lb n="0155a10" ed="Y"/><lb n="0155a10" ed="Y" type="old"/><p style="text-indent:2em">般若是最高的智慧，其內容深細難了，由於般若的最高智慧，才能親證宇宙
+<lb n="0155a10" ed="Y"/><lb n="0155a10" ed="Y" type="old"/><p xml:id="pY01p0155a1001" style="text-indent:2em">般若是最高的智慧，其內容深細難了，由於般若的最高智慧，才能親證宇宙
 <lb n="0155a11" ed="Y"/><lb n="0155a11" ed="Y" type="old"/>人生的根本真理。真理是什麼？這不必另外去找說明，可以就在日常見聞的事物
 <lb n="0155a12" ed="Y"/><lb n="0155a12" ed="Y" type="old"/>上去了解。依佛法說，一切事物的存在，都不過是原因條件的假合，凡是假合成
 <lb n="0155a13" ed="Y"/><lb n="0155a13" ed="Y" type="old"/>的東西，它的本身一定是遷動變化的；他依原因而存在，同時又與他法作緣，他<pb n="0156a" ed="Y" xml:id="Y01.0001.0156a.old" type="old"/>
@@ -247,12 +267,12 @@
 <lb n="0156a13" ed="Y"/><lb n="0156a13" ed="Y" type="old"/>深入的去體驗普遍而必然的最高真理。佛就是體驗了這最高真理的；佛的偉大，<pb n="0157a" ed="Y" xml:id="Y01.0001.0157a.old" type="old"/>
 <pb n="0157a" ed="Y" xml:id="Y01.0001.0157a"/>
 <lb n="0157a01" ed="Y"/><lb n="0157a01" ed="Y" type="old"/>也就在他能把真理完滿的洞達。宇宙人生的真理，佛說有三：</p>
-<lb n="0157a02" ed="Y"/><lb n="0157a02" ed="Y" type="old"/><p style="text-indent:2em">(一)、諸行無常：這一真理，說明了一切事物都在因果法則下不斷地遷流變化
+<lb n="0157a02" ed="Y"/><lb n="0157a02" ed="Y" type="old"/><p xml:id="pY01p0157a0201" style="text-indent:2em">(一)、諸行無常：這一真理，說明了一切事物都在因果法則下不斷地遷流變化
 <lb n="0157a03" ed="Y"/><lb n="0157a03" ed="Y" type="old"/>，其中沒有什麼永恆不變的東西。在從前，或許不容易了解，由於近代科學進步
 <lb n="0157a04" ed="Y"/><lb n="0157a04" ed="Y" type="old"/>，已經不甚難懂了。不過，世人也只能在諸法的流動變化上了達其外表，還不能
 <lb n="0157a05" ed="Y"/><lb n="0157a05" ed="Y" type="old"/>達到諸法沒有不變性的究竟義。這諸行無常的真理，是從縱的時間方面來說明
 <lb n="0157a06" ed="Y"/>的<lb n="0157a06" ed="Y" type="old"/>。</p>
-<lb n="0157a07" ed="Y"/><lb n="0157a07" ed="Y" type="old"/><p style="text-indent:2em">(二)、諸法無我：我，在佛法裡有它特殊的定義。一般人總以為事物上有一個
+<lb n="0157a07" ed="Y"/><lb n="0157a07" ed="Y" type="old"/><p xml:id="pY01p0157a0701" style="text-indent:2em">(二)、諸法無我：我，在佛法裡有它特殊的定義。一般人總以為事物上有一個
 <lb n="0157a08" ed="Y"/><lb n="0157a08" ed="Y" type="old"/>獨立存在的東西——我。依佛法講，存在的事物都不過是因緣和合的假相，其中
 <lb n="0157a09" ed="Y"/><lb n="0157a09" ed="Y" type="old"/>沒有什麼可以獨立自存的。如一幢房子，看來好像是整然一體，然仔細推敲起來
 <lb n="0157a10" ed="Y"/><lb n="0157a10" ed="Y" type="old"/>，房子是由眾多磚瓦木石所合成的。五指伸開來，拳還能存在嗎？這說明了物體
@@ -262,7 +282,7 @@
 <pb n="0158a" ed="Y" xml:id="Y01.0001.0158a"/>
 <lb n="0158a01" ed="Y"/><lb n="0158a01" ed="Y" type="old"/>是筋骨血肉髮毛爪齒所合成的，除去了這許多合成國家、人身的質素，是沒有實
 <lb n="0158a02" ed="Y"/><lb n="0158a02" ed="Y" type="old"/>體或是形而上的存在。</p>
-<lb n="0158a03" ed="Y"/><lb n="0158a03" ed="Y" type="old"/><p style="text-indent:2em">(三)、涅槃寂靜：這說明了動亂變化、假合幻現物的最後歸宿，都是平等無差
+<lb n="0158a03" ed="Y"/><lb n="0158a03" ed="Y" type="old"/><p xml:id="pY01p0158a0301" style="text-indent:2em">(三)、涅槃寂靜：這說明了動亂變化、假合幻現物的最後歸宿，都是平等無差
 <lb n="0158a04" ed="Y"/><lb n="0158a04" ed="Y" type="old"/>別的。一切事物，是動亂差別的，也是寂靜平等的。如審細的觀察諸法，就可以
 <lb n="0158a05" ed="Y"/><lb n="0158a05" ed="Y" type="old"/>發現動亂差別的事物，即是平靜無差別。這種種差別歸於平等、動亂歸於平靜的
 <lb n="0158a06" ed="Y"/><lb n="0158a06" ed="Y" type="old"/>——涅槃寂靜，如枝葉花果的形色各殊，但對光的影子，是沒有差別的一樣。涅
@@ -275,7 +295,7 @@
 <lb n="0158a13" ed="Y"/><lb n="0158a13" ed="Y" type="old"/>正我們內心上的錯誤，引導行為入於正軌，即達到此涅槃寂靜的境地，就可以得<pb n="0159a" ed="Y" xml:id="Y01.0001.0159a.old" type="old"/>
 <pb n="0159a" ed="Y" xml:id="Y01.0001.0159a"/>
 <lb n="0159a01" ed="Y"/><lb n="0159a01" ed="Y" type="old"/>到生死苦痛的解脫了。</p>
-<lb n="0159a02" ed="Y"/><lb n="0159a02" ed="Y" type="old"/><p style="text-indent:2em">上面三者，總名之為三法印，印有不可變更和確實性的意思。這三者是佛陀
+<lb n="0159a02" ed="Y"/><lb n="0159a02" ed="Y" type="old"/><p xml:id="pY01p0159a0201" style="text-indent:2em">上面三者，總名之為三法印，印有不可變更和確實性的意思。這三者是佛陀
 <lb n="0159a03" ed="Y"/><lb n="0159a03" ed="Y" type="old"/>從因果法則上體驗得到的，因人的智慧不同，所以通達的真理也有點不同。小乘
 <lb n="0159a04" ed="Y"/><lb n="0159a04" ed="Y" type="old"/>要一步步的向前悟入，先了解諸行無常、有必歸無，再了解諸法無我，由此進而
 <lb n="0159a05" ed="Y"/>離<lb n="0159a05" ed="Y" type="old"/>卻煩惱體驗諸法的涅槃寂靜，這是漸進的體驗。大乘菩薩就不必如此，只一「
@@ -286,14 +306,14 @@
 <lb n="0159a10" ed="Y"/>時候，<lb n="0159a10" ed="Y" type="old"/><quote type="寬鬆引文">「身心漸漸凝定，忽然失卻身心世界，泯然空寂中靈光湛湛，無數塵剎煥
 <lb n="0159a11" ed="Y"/>然炳現<lb n="0159a11" ed="Y" type="old"/>如凌虛影像，明照無邊。坐經數小時，如彈指頃，歷好多日身心猶在輕清
 <lb n="0159a12" ed="Y"/>安悅中<lb n="0159a12" ed="Y" type="old"/>。……從此，我以前禪錄上的疑團一概冰釋，心智透脫無滯；曾學過的臺
-<lb n="0159a13" ed="Y"/>、賢、<lb n="0159a13" ed="Y" type="old"/>相宗以及世間文字，亦隨心活用，悟解非凡」<note n="0159001" resp="周怡曄" type="add">《太虛大師全書 第十九編<space quantity="1" unit="chars"/>文叢》「身心漸漸凝定。一日、閱經次，忽然失卻身心世界，泯然空寂中靈光湛湛，無數塵剎煥然炳現如凌空影像，明照無邊。座經數小時如彈指頃，歷好多日身心猶在輕清安悅中。數日間、閱盡所餘般若部，旋取閱華嚴經，恍然皆自心中現量境界。伸紙飛筆，以似歌非歌、似偈非偈的詩句隨意抒發，日數十紙，累千萬字。昱山、淨寬等灑然驚異，恐同憨山所曾發禪病，我微笑相慰，示以平常態度，遂仍一般饑吃困眠的安靜下來。從此、我以前禪錄上的疑團一概冰釋，心智透脫無滯，曾學過的台、賢、相宗以及世間文字，亦隨心活用，悟解非凡。」<ref type="taixu" target="#vol:29;page:p188">(ref taixu::vol:29;page:p188)</ref></note></quote>。因為大師勝解了空義，所
+<lb n="0159a13" ed="Y"/>、賢、<lb n="0159a13" ed="Y" type="old"/>相宗以及世間文字，亦隨心活用，悟解非凡」<note n="0159001" resp="周怡曄" type="add">《太虛大師全書 第十九編<space quantity="1" unit="chars"/>文叢》「身心漸漸凝定。一日、閱經次，忽然失卻身心世界，泯然空寂中靈光湛湛，無數塵剎煥然炳現如凌空影像，明照無邊。座經數小時如彈指頃，歷好多日身心猶在輕清安悅中。數日間、閱盡所餘般若部，旋取閱華嚴經，恍然皆自心中現量境界。伸紙飛筆，以似歌非歌、似偈非偈的詩句隨意抒發，日數十紙，累千萬字。昱山、淨寬等灑然驚異，恐同憨山所曾發禪病，我微笑相慰，示以平常態度，遂仍一般饑吃困眠的安靜下來。從此、我以前禪錄上的疑團一概冰釋，心智透脫無滯，曾學過的台、賢、相宗以及世間文字，亦隨心活用，悟解非凡。」<ref target="#vol:29;page:p188" type="taixu">(ref taixu::vol:29;page:p188)</ref></note></quote>。因為大師勝解了空義，所
 <pb n="0160a" ed="Y" xml:id="Y01.0001.0160a"/>
 <lb n="0160a01" ed="Y"/>以就與<pb n="0160a" ed="Y" xml:id="Y01.0001.0160a.old" type="old"/><lb n="0160a01" ed="Y" type="old"/>一般人不同！大師了知世間上的事物都是無常的、無我的，一切事物離開
 <lb n="0160a02" ed="Y"/>了關係<lb n="0160a02" ed="Y" type="old"/>條件的存在別無他物，所以對於現在佛教中有不適合時代社會需要的地方
 <lb n="0160a03" ed="Y"/>，力主<lb n="0160a03" ed="Y" type="old"/>改革；而一般保守者忽略諸法無常無我，所以多方反對。但大師仍以勇猛
 <lb n="0160a04" ed="Y"/>心、無<lb n="0160a04" ed="Y" type="old"/>畏心為佛法奔走呼號。由此看來，若真能悟證——即使少分了解空義，對
 <lb n="0160a05" ed="Y"/>於行事<lb n="0160a05" ed="Y" type="old"/>，也必能契合時機，勇往直前。</p>
-<lb n="0160a06" ed="Y"/><lb n="0160a06" ed="Y" type="old"/><p style="text-indent:2em">菩薩悟證了空的真理，即於此空性中融攝貫串了諸行無常、諸法無我、涅槃
+<lb n="0160a06" ed="Y"/><lb n="0160a06" ed="Y" type="old"/><p xml:id="pY01p0160a0601" style="text-indent:2em">菩薩悟證了空的真理，即於此空性中融攝貫串了諸行無常、諸法無我、涅槃
 <lb n="0160a07" ed="Y"/><lb n="0160a07" ed="Y" type="old"/>寂靜的三法印。因為，我們要了解空，須從這三方面去理解：(一)、世間沒有「不
 <lb n="0160a08" ed="Y"/><lb n="0160a08" ed="Y" type="old"/>變性」的東西，這就是諸行無常。諸法既沒有不變性，所以都是無常變化的。從
 <lb n="0160a09" ed="Y"/><lb n="0160a09" ed="Y" type="old"/>否定不變性說，即是空。(二)、世間沒有「獨存性」的東西，一切事物都是因緣假
@@ -305,7 +325,7 @@
 <lb n="0161a01" ed="Y"/><lb n="0161a01" ed="Y" type="old"/>性不可得，實在性不可得，不可得即是空。空，不離開因果事物而有空，即事物
 <lb n="0161a02" ed="Y"/><lb n="0161a02" ed="Y" type="old"/>的無常變化，無我不實，自性寂滅。以空——一實相印貫通諸行無常、諸法無我
 <lb n="0161a03" ed="Y"/><lb n="0161a03" ed="Y" type="old"/>、涅槃寂靜的三法印，每為一般人所不了解，所以特別指出來。</p>
-<lb n="0161a04" ed="Y"/><lb n="0161a04" ed="Y" type="old"/><p style="text-indent:2em">般若是通達真理的智慧，與世間的一般知識不同。般若——實相慧，即能真
+<lb n="0161a04" ed="Y"/><lb n="0161a04" ed="Y" type="old"/><p xml:id="pY01p0161a0401" style="text-indent:2em">般若是通達真理的智慧，與世間的一般知識不同。般若——實相慧，即能真
 <lb n="0161a05" ed="Y"/><lb n="0161a05" ed="Y" type="old"/>知諸法真理的，如即空的無常、無我、涅槃寂靜。凡是真理，要合乎三個定義：
 <lb n="0161a06" ed="Y"/><lb n="0161a06" ed="Y" type="old"/>(一)、凡是真理，必定是本來如此的；(二)、又必定是必然如此的；(三)、還必是普遍
 <lb n="0161a07" ed="Y"/><lb n="0161a07" ed="Y" type="old"/>如此的，時不分古今，地不分中外，大至宇宙，小如微塵，都是如此的。這近於
@@ -332,7 +352,7 @@
 <pb n="0163a" ed="Y" xml:id="Y01.0001.0163a"/>
 <lb n="0163a01" ed="Y"/>契入<pb n="0163a" ed="Y" xml:id="Y01.0001.0163a.old" type="old"/><lb n="0163a01" ed="Y" type="old"/>究竟的真理。所以，佛法教人修定習慧——般若，根除心理上的錯誤，通達
 <lb n="0163a02" ed="Y"/>法性<lb n="0163a02" ed="Y" type="old"/>空即無常、無我、涅槃寂靜，親切證驗，做到去來坐臥莫不如此。</p>
-<lb n="0163a03" ed="Y"/><lb n="0163a03" ed="Y" type="old"/><p style="text-indent:2em">依般若慧體驗真理，根除內心中的錯誤，導發正確的行為，則煩惱可除，生
+<lb n="0163a03" ed="Y"/><lb n="0163a03" ed="Y" type="old"/><p xml:id="pY01p0163a0301" style="text-indent:2em">依般若慧體驗真理，根除內心中的錯誤，導發正確的行為，則煩惱可除，生
 <lb n="0163a04" ed="Y"/><lb n="0163a04" ed="Y" type="old"/>死可解。論到內心中的錯誤根本，即是執為實有自性而是常、是我的，略可分為
 <lb n="0163a05" ed="Y"/>二<lb n="0163a05" ed="Y" type="old"/>類：(一)、我執，(二)、法執。法執，是在一切法上所起的錯誤，其中最根本的執
 <lb n="0163a06" ed="Y"/>著<lb n="0163a06" ed="Y" type="old"/>，即有情——人們在見聞覺知上不期然而起的含攝得不變性、獨存性的實在感
@@ -353,7 +373,7 @@
 <lb n="0164a07" ed="Y"/>，<lb n="0164a07" ed="Y" type="old"/>於是起憐愍心，願使一切眾生同離我執，共證無生。佛法把引生錯誤思想、不
 <lb n="0164a08" ed="Y"/>道<lb n="0164a08" ed="Y" type="old"/>德行為的我執，徹底揭發出來；使人能離自我見，建立一切合理的道德，而苦
 <lb n="0164a09" ed="Y"/>痛<lb n="0164a09" ed="Y" type="old"/>的生死流轉，也就能從此解脫。</p>
-<lb n="0164a10" ed="Y"/><lb n="0164a10" ed="Y" type="old"/><p style="text-indent:2em">我執和法執，為出生一切錯亂苦痛的根本，而我執尤為根本。我們要斷除煩
+<lb n="0164a10" ed="Y"/><lb n="0164a10" ed="Y" type="old"/><p xml:id="pY01p0164a1001" style="text-indent:2em">我執和法執，為出生一切錯亂苦痛的根本，而我執尤為根本。我們要斷除煩
 <lb n="0164a11" ed="Y"/><lb n="0164a11" ed="Y" type="old"/>惱，必先除掉這生起煩惱的根本——我執。佛世，弟子們根利慧深，佛為他們說
 <lb n="0164a12" ed="Y"/><lb n="0164a12" ed="Y" type="old"/>無我，弟子們即能了達無我性空。後人不解佛意，於是聽說無我，轉執法有；為
 <lb n="0164a13" ed="Y"/><lb n="0164a13" ed="Y" type="old"/>了對治他，所以大乘經特詳法空。羅什法師答慧遠法師書，曾談到此義。所以學<pb n="0165a" ed="Y" xml:id="Y01.0001.0165a.old" type="old"/>
@@ -362,10 +382,10 @@
 <lb n="0165a02" ed="Y"/>但<lb n="0165a02" ed="Y" type="old"/>博觀必須反約，要在妄執根本、生死根本的我執中，深觀而徹底通達無性。這
 <lb n="0165a03" ed="Y"/>根<lb n="0165a03" ed="Y" type="old"/>本的我執破除了，其他的一切錯誤也就可以破除以及漸漸破除了。修學佛法，
 <lb n="0165a04" ed="Y"/>應<lb n="0165a04" ed="Y" type="old"/>先從捨離我執——悟入即空的無我入手。</p>
-<lb n="0165a05" ed="Y"/><lb n="0165a05" ed="Y" type="old"/><p style="text-indent:2em">三、般若波羅蜜多心經：波羅蜜多，是度一切苦厄；般若，是解除苦痛的主
+<lb n="0165a05" ed="Y"/><lb n="0165a05" ed="Y" type="old"/><p xml:id="pY01p0165a0501" style="text-indent:2em">三、般若波羅蜜多心經：波羅蜜多，是度一切苦厄；般若，是解除苦痛的主
 <lb n="0165a06" ed="Y"/><lb n="0165a06" ed="Y" type="old"/>要方法；此經就是顯示這出苦主要方法的精要。心，可以有多種的解釋，然此處
 <lb n="0165a07" ed="Y"/><lb n="0165a07" ed="Y" type="old"/>取心要、精要的意思。</p>
-<lb n="0165a08" ed="Y"/><lb n="0165a08" ed="Y" type="old"/><p style="text-indent:2em">佛法有五乘的差別，五乘都是佛法，究竟那些是最主要的呢？佛為一些根機
+<lb n="0165a08" ed="Y"/><lb n="0165a08" ed="Y" type="old"/><p xml:id="pY01p0165a0801" style="text-indent:2em">佛法有五乘的差別，五乘都是佛法，究竟那些是最主要的呢？佛為一些根機
 <lb n="0165a09" ed="Y"/><lb n="0165a09" ed="Y" type="old"/>淺的，但教他受持三歸、奉守五戒，乃至教他修四禪、四無色等定，這是世間的
 <lb n="0165a10" ed="Y"/><lb n="0165a10" ed="Y" type="old"/>人、天乘法。又印度人一向著重山林的生活，偏於自了，佛為適應這一類的根機
 <lb n="0165a11" ed="Y"/><lb n="0165a11" ed="Y" type="old"/>，為說聲聞、緣覺乘法，使從持戒、修定、發慧的過程，解脫一己的生死苦痛。
@@ -380,7 +400,7 @@
 <lb n="0166a06" ed="Y"/>同情<lb n="0166a06" ed="Y" type="old"/>，還要有了達真理的智慧，才能完成圓滿的人生——成佛。以此三種而行六
 <lb n="0166a07" ed="Y"/>波羅<lb n="0166a07" ed="Y" type="old"/>蜜多，是大乘佛法的特質。般若波羅蜜多，即大乘六波羅蜜多的別名，所以
 <lb n="0166a08" ed="Y"/><title level="m">《般若<lb n="0166a08" ed="Y" type="old"/>波羅蜜多心經》</title>，可解說為大乘心，大乘法即佛法的心要。</p>
-<lb n="0166a09" ed="Y"/><lb n="0166a09" ed="Y" type="old"/><p style="text-indent:2em">然大乘中法門很多，在很多的大乘法門中，般若波羅蜜多又算是主要中之最
+<lb n="0166a09" ed="Y"/><lb n="0166a09" ed="Y" type="old"/><p xml:id="pY01p0166a0901" style="text-indent:2em">然大乘中法門很多，在很多的大乘法門中，般若波羅蜜多又算是主要中之最
 <lb n="0166a10" ed="Y"/><lb n="0166a10" ed="Y" type="old"/>主要了。因為修學大乘的菩薩行，無論是利濟他人或是淨化自己，都需要般若的
 <lb n="0166a11" ed="Y"/><lb n="0166a11" ed="Y" type="old"/>智慧來領導——不是說只要般若。布施乃至禪定，世間外道也有，算不得是佛法
 <lb n="0166a12" ed="Y"/><lb n="0166a12" ed="Y" type="old"/>中的特法。<title level="m">《般若經》</title>裡常說：般若為導。若沒有般若，一切修行皆成為盲目的
@@ -390,18 +410,18 @@
 <lb n="0167a02" ed="Y"/>，所以<lb n="0167a02" ed="Y" type="old"/><title level="m">《般若經》</title>在一切經中為最大。在全體大乘法中，般若波羅蜜多及其經典
 <lb n="0167a03" ed="Y"/>最為精<lb n="0167a03" ed="Y" type="old"/>要。所以<title level="m">《般若波羅蜜多心經》</title>，用六離合釋來說，是持業釋，般若波羅
 <lb n="0167a04" ed="Y"/>蜜多即<lb n="0167a04" ed="Y" type="old"/>是心。</p>
-<lb n="0167a05" ed="Y"/><lb n="0167a05" ed="Y" type="old"/><p style="text-indent:2em">更進一層說，此經是一切<title level="m">《般若經》</title>的心要：<title level="m">《般若經》</title>的部帙繁多，文義
+<lb n="0167a05" ed="Y"/><lb n="0167a05" ed="Y" type="old"/><p xml:id="pY01p0167a0501" style="text-indent:2em">更進一層說，此經是一切<title level="m">《般若經》</title>的心要：<title level="m">《般若經》</title>的部帙繁多，文義
 <lb n="0167a06" ed="Y"/>廣博，此<lb n="0167a06" ed="Y" type="old"/>經以寥寥二百餘字，攝之淨盡，可說是<title level="m">《般若波羅蜜多經》</title>的心要了。</p>
-<lb n="0167a07" ed="Y"/><lb n="0167a07" ed="Y" type="old"/><p style="text-indent:2em">上面所說的心義，一、整個佛法以大乘佛法為主要、為中心；二、大乘法中
+<lb n="0167a07" ed="Y"/><lb n="0167a07" ed="Y" type="old"/><p xml:id="pY01p0167a0701" style="text-indent:2em">上面所說的心義，一、整個佛法以大乘佛法為主要、為中心；二、大乘法中
 <lb n="0167a08" ed="Y"/>以<lb n="0167a08" ed="Y" type="old"/>般若波羅蜜多法為主要、為中心；三、<title level="m">《般若波羅蜜經》</title>中，又以此經為主要
 <lb n="0167a09" ed="Y"/>、為中心，<lb n="0167a09" ed="Y" type="old"/>所以名為<title level="m">《般若波羅蜜多心經》</title>。</p>
-<lb n="0167a10" ed="Y"/><lb n="0167a10" ed="Y" type="old"/><p style="text-indent:2em">經，梵語修多羅，譯為線，線有貫攝零星散碎的功能。佛弟子將佛所說的法
+<lb n="0167a10" ed="Y"/><lb n="0167a10" ed="Y" type="old"/><p xml:id="pY01p0167a1001" style="text-indent:2em">經，梵語修多羅，譯為線，線有貫攝零星散碎的功能。佛弟子將佛所說的法
 <lb n="0167a11" ed="Y"/><lb n="0167a11" ed="Y" type="old"/>，依文義次第，結集成章成部，如線貫物一樣，能歷久不失，所以名為修多羅。
 <lb n="0167a12" ed="Y"/><lb n="0167a12" ed="Y" type="old"/>中文的經字，本也是線，如織布有經線、緯線。後人以古代有價值的典籍為經，
 <lb n="0167a13" ed="Y"/>漸<lb n="0167a13" ed="Y" type="old"/>漸附以可依可法的尊貴意思，所以佛典也譯之為經了。</p></cb:div><pb n="0168a" ed="Y" xml:id="Y01.0001.0168a.old" type="old"/>
 <pb n="0168a" ed="Y" xml:id="Y01.0001.0168a"/>
 <lb n="0168a01" ed="Y"/><lb n="0168a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">二　釋譯題</cb:mulu><head>二　釋譯題</head>
-<lb n="0168a02" ed="Y"/><lb n="0168a02" ed="Y" type="old"/><p style="text-indent:2em">唐三藏法師玄奘譯：此經是從梵文譯過來的，譯者是我國初唐時最享盛名的
+<lb n="0168a02" ed="Y"/><lb n="0168a02" ed="Y" type="old"/><p xml:id="pY01p0168a0201" style="text-indent:2em">唐三藏法師玄奘譯：此經是從梵文譯過來的，譯者是我國初唐時最享盛名的
 <lb n="0168a03" ed="Y"/><lb n="0168a03" ed="Y" type="old"/>玄奘法師。<title level="m">《心經》</title>的譯本，截至清季就有七種。最早的是羅什法師譯的；奘譯
 <lb n="0168a04" ed="Y"/>是七<lb n="0168a04" ed="Y" type="old"/>譯中的第二譯，在中國最為盛行。師俗姓陳，河南人。出家後遍學三藏，於
 <lb n="0168a05" ed="Y"/>經論<lb n="0168a05" ed="Y" type="old"/>深義，有疑莫決，於是即萌到印度求法的志願。於貞觀元年，潛出國境，冒
@@ -410,7 +430,7 @@
 <lb n="0168a08" ed="Y"/>唐慈<lb n="0168a08" ed="Y" type="old"/>恩三藏法師傳》</title>。</p></cb:div></cb:div><pb n="0169a" ed="Y" xml:id="Y01.0001.0169a.old" type="old"/>
 <pb n="0169a" ed="Y" xml:id="Y01.0001.0169a"/>
 <lb n="0169a01" ed="Y"/><lb n="0169a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">正釋</cb:mulu><head><seg rend="border">正釋</seg></head>
-<lb n="0169a02" ed="Y"/><lb n="0169a02" ed="Y" type="old"/><p style="text-indent:2em">經文都有初、中、後三分：初即序分，敘說法時、處、因緣、聽眾等。中為
+<lb n="0169a02" ed="Y"/><lb n="0169a02" ed="Y" type="old"/><p xml:id="pY01p0169a0201" style="text-indent:2em">經文都有初、中、後三分：初即序分，敘說法時、處、因緣、聽眾等。中為
 <lb n="0169a03" ed="Y"/>正宗分，正<lb n="0169a03" ed="Y" type="old"/>說當經義理。後為流通分，即經末信受奉行、作禮而去等。今此<title level="m">《心
 <lb n="0169a04" ed="Y"/>經》</title>，無首無尾<lb n="0169a04" ed="Y" type="old"/>，闢頭一句，就是<quote type="嚴謹引文">「觀自在菩薩行深般若波羅蜜多時」</quote>。但趙宋
 <lb n="0169a05" ed="Y"/>施護的譯本，三<lb n="0169a05" ed="Y" type="old"/>分具足。有人說：奘師譯的是略本，所以不具三分。然從另一觀
@@ -423,12 +443,12 @@
 <pb n="0170a" ed="Y" xml:id="Y01.0001.0170a"/>
 <lb n="0170a01" ed="Y"/>薩所說的了。</p><pb n="0170a" ed="Y" xml:id="Y01.0001.0170a.old" type="old"/>
 <lb n="0170a02" ed="Y"/><lb n="0170a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">甲一　標宗</cb:mulu><head>甲一　標宗</head>
-<lb n="0170a03" ed="Y"/><lb n="0170a02" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">觀自在菩薩，行深般若波羅蜜多時，照見五蘊皆空，度一切苦厄。</p></quote></cb:div>
-<lb n="0170a04" ed="Y"/><lb n="0170a03" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">此是總標，以下即是解釋此三句的。此三句中有人有法，有因有果。觀自
+<lb n="0170a03" ed="Y"/><lb n="0170a02" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY01p0170a0301" rend="bold">觀自在菩薩，行深般若波羅蜜多時，照見五蘊皆空，度一切苦厄。</p></quote></cb:div>
+<lb n="0170a04" ed="Y"/><lb n="0170a03" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY01p0170a0401" style="margin-left:1em;text-indent:2em">此是總標，以下即是解釋此三句的。此三句中有人有法，有因有果。觀自
 <lb n="0170a05" ed="Y"/><lb n="0170a04" ed="Y" type="old"/>在菩薩，是能修般若法門者。行深般若波羅蜜多時，照見五蘊皆空，即是所修
 <lb n="0170a06" ed="Y"/><lb n="0170a05" ed="Y" type="old"/>觀法。修般若波羅蜜多，通達五蘊皆空，即是因；由此體達空性而能度一切苦
 <lb n="0170a07" ed="Y"/><lb n="0170a06" ed="Y" type="old"/>厄，即是果。</p>
-<lb n="0170a08" ed="Y"/><lb n="0170a07" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「觀自在菩薩」</quote>，即般若觀慧已得自在的菩薩，不一定指補怛落迦的觀世
+<lb n="0170a08" ed="Y"/><lb n="0170a07" ed="Y" type="old"/><p xml:id="pY01p0170a0801" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「觀自在菩薩」</quote>，即般若觀慧已得自在的菩薩，不一定指補怛落迦的觀世
 <lb n="0170a09" ed="Y"/><lb n="0170a08" ed="Y" type="old"/>音菩薩。菩薩是依德立名的，有某種特殊功德，即名他為某某。<title level="m">《華嚴經》</title>每
 <lb n="0170a10" ed="Y"/><lb n="0170a09" ed="Y" type="old"/>有若干同名同號的菩薩，即由於此。所以，誰有觀自在的功德，誰就可以稱為
 <lb n="0170a11" ed="Y"/><lb n="0170a10" ed="Y" type="old"/>觀自在。觀是對於宇宙人生真理的觀察，由此洞見人生的究竟。下文照見，即
@@ -440,7 +460,7 @@
 <lb n="0171a03" ed="Y"/><lb n="0171a02" ed="Y" type="old"/>薩，得色自在、心自在、智自在，為菩薩的觀自在者。然菩薩登地，通達真理
 <lb n="0171a04" ed="Y"/><lb n="0171a03" ed="Y" type="old"/>，斷我法執，度生死苦，即可名觀自在。就是勝解行者，能於畢竟空觀修習相
 <lb n="0171a05" ed="Y"/><lb n="0171a04" ed="Y" type="old"/>應，也可以隨分得名觀自在了。</p>
-<lb n="0171a06" ed="Y"/><lb n="0171a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">菩薩</quote>，梵語應云菩提薩埵。菩提譯為覺悟，對事理能如實明白，了知<lb n="0171a06" ed="Y" type="old"/>人生
+<lb n="0171a06" ed="Y"/><lb n="0171a05" ed="Y" type="old"/><p xml:id="pY01p0171a0601" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">菩薩</quote>，梵語應云菩提薩埵。菩提譯為覺悟，對事理能如實明白，了知<lb n="0171a06" ed="Y" type="old"/>人生
 <lb n="0171a07" ed="Y"/>的真意義，由此向人生的究竟努力以赴。這不是世間知識所知，唯有般若<lb n="0171a07" ed="Y" type="old"/>慧才
 <lb n="0171a08" ed="Y"/>能究竟洞見的。佛是具有最高覺悟者，菩薩即以佛的大覺為理想的追求者<lb n="0171a08" ed="Y" type="old"/>。薩
 <lb n="0171a09" ed="Y"/>埵譯為有情，情是堅強意欲向前衝進的力量。人和一般動物，都有這種緊<lb n="0171a09" ed="Y" type="old"/>張衝
@@ -458,14 +478,14 @@
 <lb n="0172a07" ed="Y"/>意味什麼神與鬼，是類似世間的聖賢而更高尚的。凡有求證真理、利濟有情<lb n="0172a07" ed="Y" type="old"/>的
 <lb n="0172a08" ed="Y"/>行者，都可名菩薩。修到能照見五蘊皆空，度脫一切苦厄，即是觀自在菩薩<lb n="0172a08" ed="Y" type="old"/>。
 <lb n="0172a09" ed="Y"/>此明能觀的人。</p>
-<lb n="0172a10" ed="Y"/><lb n="0172a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「行深般若波羅蜜多時」</quote>，此說觀自在菩薩所修的法門。智慧，是甚深的
+<lb n="0172a10" ed="Y"/><lb n="0172a09" ed="Y" type="old"/><p xml:id="pY01p0172a1001" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「行深般若波羅蜜多時」</quote>，此說觀自在菩薩所修的法門。智慧，是甚深的
 <lb n="0172a11" ed="Y"/><lb n="0172a10" ed="Y" type="old"/>。深淺本是相對的，沒有一定的標準，但此處所說的深，專指體驗第一義空的
 <lb n="0172a12" ed="Y"/><lb n="0172a11" ed="Y" type="old"/>智慧，不是一般凡夫所能得到的，故名為深。<title level="m">《般若經》</title>裡，弟子問佛：深奧
 <lb n="0172a13" ed="Y"/><lb n="0172a12" ed="Y" type="old"/>是何義？佛答以：<quote source="T08n0223_p0344a04-06" type="寬鬆引文">『空是其義，無相、無願、不生不滅是其義。』<note n="0172001" resp="周怡曄" type="add">《摩訶般若波羅蜜經》卷17〈57 深奧品〉：「空是其義。無相、無作、無起、無生、無染、寂滅、離、如、法性、實際、涅槃，須菩提！如是等法是為深奧義。」(CBETA, T08, no. 223, p. 344, a4-6)</note></quote>這空、無相
 <pb n="0173a" ed="Y" xml:id="Y01.0001.0173a"/>
 <lb n="0173a01" ed="Y"/>、無<lb n="0172a13" ed="Y" type="old"/>願——即空性，不是一般人所能了達的，所以極為深奧。<cit><bibl><title level="m">《十二門論》</title>也
 <lb n="0173a02" ed="Y"/>說：<pb n="0173a" ed="Y" xml:id="Y01.0001.0173a.old" type="old"/><lb n="0173a01" ed="Y" type="old"/></bibl><quote source="T30n1568_p0159c22" type="嚴謹引文">『大分深義，所謂空也。』</quote><note n="0173001" resp="周怡曄" type="add">《十二門論》卷1(CBETA, T30, no. 1568, p. 159, c22)</note></cit></p>
-<lb n="0173a03" ed="Y"/><lb n="0173a02" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">能<quote type="嚴謹引文">「照見五蘊皆空」</quote>的，即是甚深般若慧。般若的悟見真理，如火光的照
+<lb n="0173a03" ed="Y"/><lb n="0173a02" ed="Y" type="old"/><p xml:id="pY01p0173a0301" style="margin-left:1em;text-indent:2em">能<quote type="嚴謹引文">「照見五蘊皆空」</quote>的，即是甚深般若慧。般若的悟見真理，如火光的照
 <lb n="0173a04" ed="Y"/><lb n="0173a03" ed="Y" type="old"/>顯暗室，眼睛的能見眾色一樣。五蘊，是物質精神的一切，能於此五類法洞見
 <lb n="0173a05" ed="Y"/><lb n="0173a04" ed="Y" type="old"/>其空，即是見到一切法空。有的譯本，在五蘊下加個『等』字，即等於下文所
 <lb n="0173a06" ed="Y"/><lb n="0173a05" ed="Y" type="old"/>要講的十二處、十八界、四諦、十二緣起等。空性，是要在具體的事實上去悟
@@ -483,7 +503,7 @@
 <lb n="0174a04" ed="Y"/><lb n="0174a03" ed="Y" type="old"/>。常人見到現存事物的表面，不了解事物內在的矛盾，於是設想物體最後固定
 <lb n="0174a05" ed="Y"/><lb n="0174a04" ed="Y" type="old"/>的實體。其實，一切色法——物，自始至終即在不斷的衝擊、障礙，向著變壞
 <lb n="0174a06" ed="Y"/><lb n="0174a05" ed="Y" type="old"/>的道路前進。</p>
-<lb n="0174a07" ed="Y"/><lb n="0174a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">關於心理活動，佛把它分為受、想、行、識。心理現象不如物質現象的容
+<lb n="0174a07" ed="Y"/><lb n="0174a06" ed="Y" type="old"/><p xml:id="pY01p0174a0701" style="margin-left:1em;text-indent:2em">關於心理活動，佛把它分為受、想、行、識。心理現象不如物質現象的容
 <lb n="0174a08" ed="Y"/><lb n="0174a07" ed="Y" type="old"/>易了知，最親切的，要自己從反省的工夫中去理解。佛觀察心理的主要活動為
 <lb n="0174a09" ed="Y"/><lb n="0174a08" ed="Y" type="old"/>三類：一、受蘊：在我們與外境接觸時，內心上生起一種領納的作用。如接觸
 <lb n="0174a10" ed="Y"/><lb n="0174a09" ed="Y" type="old"/>到可意的境界時，內心起一種適悅的情緒，這名為樂受；接觸到不適意的境界
@@ -498,7 +518,7 @@
 <lb n="0175a05" ed="Y"/><lb n="0175a04" ed="Y" type="old"/>上的受、想、行等客觀化了，於此等客觀化了的受、想、行，生起了別認識的
 <lb n="0175a06" ed="Y"/><lb n="0175a05" ed="Y" type="old"/>作用，即是識蘊。識，一方面是一切精神活動的主觀力，一方面即受、想等綜
 <lb n="0175a07" ed="Y"/><lb n="0175a06" ed="Y" type="old"/>合而成為統一性的。</p>
-<lb n="0175a08" ed="Y"/><lb n="0175a07" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">這五蘊，是佛法對於物質、精神兩種現象的分類。佛不是專門的心理學家
+<lb n="0175a08" ed="Y"/><lb n="0175a07" ed="Y" type="old"/><p xml:id="pY01p0175a0801" style="margin-left:1em;text-indent:2em">這五蘊，是佛法對於物質、精神兩種現象的分類。佛不是專門的心理學家
 <lb n="0175a09" ed="Y"/><lb n="0175a08" ed="Y" type="old"/>或物理學家，佛所以要這樣說的，是使人由此了知五蘊無我。一般人總直覺的
 <lb n="0175a10" ed="Y"/><lb n="0175a09" ed="Y" type="old"/>有一個自我存在，佛為指出自我是沒有的，有的不過是物質與精神現象所起的
 <lb n="0175a11" ed="Y"/><lb n="0175a10" ed="Y" type="old"/>協調作用而已。若離此五蘊，想找一實體的自我，是找不到的。身體是色，情
@@ -519,7 +539,7 @@
 <lb n="0176a12" ed="Y"/><lb n="0176a11" ed="Y" type="old"/>也得不到一點實在的。諸法的存在，是如幻不實的，需要在諸法的當體了知其
 <lb n="0176a13" ed="Y"/><lb n="0176a12" ed="Y" type="old"/>本性是空，這才不會執為是實有了。</p>
 <pb n="0177a" ed="Y" xml:id="Y01.0001.0177a"/>
-<lb n="0177a01" ed="Y"/><lb n="0176a13" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">一分學者，以為我無而法有，這是因於智慧淺薄的緣故。在同一因緣法上<pb n="0177a" ed="Y" xml:id="Y01.0001.0177a.old" type="old"/>
+<lb n="0177a01" ed="Y"/><lb n="0176a13" ed="Y" type="old"/><p xml:id="pY01p0177a0101" style="margin-left:1em;text-indent:2em">一分學者，以為我無而法有，這是因於智慧淺薄的緣故。在同一因緣法上<pb n="0177a" ed="Y" xml:id="Y01.0001.0177a.old" type="old"/>
 <lb n="0177a02" ed="Y"/><lb n="0177a01" ed="Y" type="old"/>，智慧深刻者，即能知其法空，所以說行深般若波羅蜜多時，照見五蘊皆空。
 <lb n="0177a03" ed="Y"/><lb n="0177a02" ed="Y" type="old"/>有的譯本，譯照見五蘊皆空為照見五蘊等自性皆空，自性就是含攝得不變、獨
 <lb n="0177a04" ed="Y"/><lb n="0177a03" ed="Y" type="old"/>存的實體性，此實體性不可得，故曰皆空，而不是破壞因緣生法。空從具體的
@@ -543,7 +563,7 @@
 <lb n="0178a08" ed="Y"/>是關<lb n="0178a07" ed="Y" type="old"/>係的存在，救人即是自救，完成他人即是完成自己，由是犧牲自己，利濟
 <lb n="0178a09" ed="Y"/>他人<lb n="0178a08" ed="Y" type="old"/>。個人能達法空，則個人的行動合理；大家能達法空，則大家行動合理。
 <lb n="0178a10" ed="Y"/>正見<lb n="0178a09" ed="Y" type="old"/>正行，自能得到苦痛的解放而自在。</p>
-<lb n="0178a11" ed="Y"/><lb n="0178a10" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">以上是經的總綱，下面依此廣釋。</p></cb:div></cb:div>
+<lb n="0178a11" ed="Y"/><lb n="0178a10" ed="Y" type="old"/><p xml:id="pY01p0178a1101" style="margin-left:1em;text-indent:2em">以上是經的總綱，下面依此廣釋。</p></cb:div></cb:div>
 <lb n="0178a12" ed="Y"/><lb n="0178a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">甲二　顯義</cb:mulu><head>甲二　顯義</head>
 <lb n="0178a13" ed="Y"/><lb n="0178a12" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="4" type="其他">乙一　正為利根示常道</cb:mulu><head>乙一　正為利根示常道</head>
 <pb n="0179a" ed="Y" xml:id="Y01.0001.0179a"/>
@@ -551,21 +571,21 @@
 <lb n="0179a02" ed="Y"/><lb n="0179a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="6" type="其他">丁一　修般若行</cb:mulu><head>丁一　修般若行</head>
 <lb n="0179a03" ed="Y"/><lb n="0179a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="7" type="其他">戊一　廣觀蘊空</cb:mulu><head>戊一　廣觀蘊空</head>
 <lb n="0179a04" ed="Y"/><lb n="0179a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="8" type="其他">己一　融相即性觀——加行</cb:mulu><head>己一　融相即性觀——加行</head>
-<lb n="0179a05" ed="Y"/><lb n="0179a04" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">舍利子！色不異空，空不異色；色即是空，空即是色。受、想、行、識，亦復如
+<lb n="0179a05" ed="Y"/><lb n="0179a04" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY01p0179a0501" rend="bold">舍利子！色不異空，空不異色；色即是空，空即是色。受、想、行、識，亦復如
 <lb n="0179a06" ed="Y"/><lb n="0179a05" ed="Y" type="old"/>是。</p></quote></cb:div>
-<lb n="0179a07" ed="Y"/><lb n="0179a06" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">這是解釋總標中五蘊皆空的。五蘊為什麼是空的？欲說明此義，佛喚<quote type="嚴謹引文">「舍
+<lb n="0179a07" ed="Y"/><lb n="0179a06" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY01p0179a0701" style="margin-left:1em;text-indent:2em">這是解釋總標中五蘊皆空的。五蘊為什麼是空的？欲說明此義，佛喚<quote type="嚴謹引文">「舍
 <lb n="0179a08" ed="Y"/><lb n="0179a07" ed="Y" type="old"/>利子」</quote>而告訴他。舍利子是華梵合璧的名詞，梵語應云舍利弗多。弗多即子義
 <lb n="0179a09" ed="Y"/><lb n="0179a08" ed="Y" type="old"/>，舍利是母名。印度有鳥，眼最明利，呼為舍利；其母眼似舍利，因名為舍利
 <lb n="0179a10" ed="Y"/><lb n="0179a09" ed="Y" type="old"/>。舍利所生子，即曰舍利子，從母得名。舍利子在佛弟子中，智慧第一。本經
 <lb n="0179a11" ed="Y"/><lb n="0179a10" ed="Y" type="old"/>是發揮智慧的，故佛喚舍利子以便應對。</p>
-<lb n="0179a12" ed="Y"/><lb n="0179a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">佛明五蘊皆空，首拈色蘊為例。色與空的關係，本經用不異、即是四字來
+<lb n="0179a12" ed="Y"/><lb n="0179a11" ed="Y" type="old"/><p xml:id="pY01p0179a1201" style="margin-left:1em;text-indent:2em">佛明五蘊皆空，首拈色蘊為例。色與空的關係，本經用不異、即是四字來
 <lb n="0179a13" ed="Y"/><lb n="0179a12" ed="Y" type="old"/>說明。不異即不離義，無差別義。色離於空，色即不成；空離於色，空亦不顯
 <pb n="0180a" ed="Y" xml:id="Y01.0001.0180a"/>
 <lb n="0180a01" ed="Y"/><lb n="0179a13" ed="Y" type="old"/>。色空、空色二不相離，故說<quote type="嚴謹引文">「色不異空，空不異色」</quote>。有人聽了，以為空是<pb n="0180a" ed="Y" xml:id="Y01.0001.0180a.old" type="old"/>
 <lb n="0180a02" ed="Y"/><lb n="0180a01" ed="Y" type="old"/>沒有，色是有，今雖說二不相離而實是各別的，空仍是空，色仍是色。為除此
 <lb n="0180a03" ed="Y"/><lb n="0180a02" ed="Y" type="old"/>種計執，所以佛接著說：<quote type="嚴謹引文">「色即是空，空即是色」</quote>。即表示空色二不相離，而
 <lb n="0180a04" ed="Y"/><lb n="0180a03" ed="Y" type="old"/>且相即。</p>
-<lb n="0180a05" ed="Y"/><lb n="0180a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">佛法作如是說，有其特殊意義。印度的一分學者，以為涅槃與生死，煩惱
+<lb n="0180a05" ed="Y"/><lb n="0180a04" ed="Y" type="old"/><p xml:id="pY01p0180a0501" style="margin-left:1em;text-indent:2em">佛法作如是說，有其特殊意義。印度的一分學者，以為涅槃與生死，煩惱
 <lb n="0180a06" ed="Y"/><lb n="0180a05" ed="Y" type="old"/>與菩提，是不相同的兩回事，離了生死才能證得涅槃，離了煩惱才能獲得菩提
 <lb n="0180a07" ed="Y"/><lb n="0180a06" ed="Y" type="old"/>。生死和煩惱是世間雜染法，涅槃、菩提是出世清淨法，染淨不同，何得相即
 <lb n="0180a08" ed="Y"/><lb n="0180a07" ed="Y" type="old"/>？這種見地，是從他們的宗教體驗而得來。宗教體驗，世間的一般宗教，如耶
@@ -591,7 +611,7 @@
 <pb n="0182a" ed="Y" xml:id="Y01.0001.0182a"/>
 <lb n="0182a01" ed="Y"/>二諦<lb n="0181a13" ed="Y" type="old"/>無礙的中道，即保證了佛法的究竟無上。佛法是貫徹現象與本體，也是貫
 <lb n="0182a02" ed="Y"/>通宗<pb n="0182a" ed="Y" xml:id="Y01.0001.0182a.old" type="old"/><lb n="0182a01" ed="Y" type="old"/>教與哲學，甚至通得過科學的，所以有人說佛法是科學而哲學的宗教。</p>
-<lb n="0182a03" ed="Y"/><lb n="0182a02" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">從理論上說，色（一切法也如此）是因果法，凡是依於因緣條件而有的，
+<lb n="0182a03" ed="Y"/><lb n="0182a02" ed="Y" type="old"/><p xml:id="pY01p0182a0301" style="margin-left:1em;text-indent:2em">從理論上說，色（一切法也如此）是因果法，凡是依於因緣條件而有的，
 <lb n="0182a04" ed="Y"/><lb n="0182a03" ed="Y" type="old"/>就必歸於空。如把因果法看成是有實自性的，即不成其為因果了。因法的自性
 <lb n="0182a05" ed="Y"/><lb n="0182a04" ed="Y" type="old"/>實有，即應法法本來如是，不應再藉因緣而後生起；若必仗因緣而能生起，那
 <lb n="0182a06" ed="Y"/><lb n="0182a05" ed="Y" type="old"/>法的自性必不可得。由此，一切果法都是從因緣生，從因緣生，果法體性即不
@@ -610,9 +630,9 @@
 <lb n="0183a05" ed="Y"/>，都應<lb n="0183a04" ed="Y" type="old"/>作如是說。空是一切法普遍而根本的真理，大至宇宙，小至微塵，無不
 <lb n="0183a06" ed="Y"/>如此，<lb n="0183a05" ed="Y" type="old"/>即無不是緣起無自性的。能在一法達法性空，即能於一切法上通達了。</p></cb:div></cb:div>
 <lb n="0183a07" ed="Y"/><lb n="0183a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="8" type="其他">己二　泯相證性觀——正證</cb:mulu><head>己二　泯相證性觀——正證</head>
-<lb n="0183a08" ed="Y"/><lb n="0183a07" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">舍利子！是諸法空相：不生不滅，不垢不淨，不增不減。是故空中無色，無受想
+<lb n="0183a08" ed="Y"/><lb n="0183a07" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY01p0183a0801" rend="bold">舍利子！是諸法空相：不生不滅，不垢不淨，不增不減。是故空中無色，無受想
 <lb n="0183a09" ed="Y"/><lb n="0183a08" ed="Y" type="old"/>行識。</p></quote></cb:div>
-<lb n="0183a10" ed="Y"/><lb n="0183a09" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">上面講菩薩依般若通達五蘊——物質現象與精神現象空，現象與空寂，是
+<lb n="0183a10" ed="Y"/><lb n="0183a09" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY01p0183a1001" style="margin-left:1em;text-indent:2em">上面講菩薩依般若通達五蘊——物質現象與精神現象空，現象與空寂，是
 <lb n="0183a11" ed="Y"/><lb n="0183a10" ed="Y" type="old"/>相即不相離的。這從有空的相對性而觀察彼此相依相成，得二諦無礙的正見，
 <lb n="0183a12" ed="Y"/><lb n="0183a11" ed="Y" type="old"/>也即是依緣起觀空，觀空不壞緣起的加行觀，為證入諸法空相的前方便。由此
 <lb n="0183a13" ed="Y"/><lb n="0183a12" ed="Y" type="old"/>引發實相般若，即能達到<quote source="T25n1509_p0556b26-27" type="寬鬆引文">『般若將入畢竟空，絕諸戲論』<note n="0183002" resp="周怡曄" type="add">《大智度論》卷71〈51 譬喻品〉：「般若及方便——般若波羅蜜能滅諸邪見、煩惱、戲論，將至畢竟空中。方便將出畢竟空。」(CBETA, T25, no. 1509, p. 556, b26-27)</note></quote>的中道實證。上來說
@@ -626,7 +646,7 @@
 <lb n="0184a07" ed="Y"/>，亦是中道義；未曾有一法，不從因緣生，是故一切法，無不是空者』</quote><note n="0184003" resp="周怡曄" type="add">《中論》卷4〈24 觀四諦品〉：「眾因緣生法<space quantity="1" unit="chars"/>我說即是無<space quantity="1" unit="chars"/>亦為是假名<space quantity="1" unit="chars"/>亦是中道義<space quantity="1" unit="chars"/>未曾有一法<space quantity="1" unit="chars"/>不從因緣生<space quantity="1" unit="chars"/>是故一切法<space quantity="1" unit="chars"/>無不是空者」(CBETA, T30, no. 1564, p. 33, b11-14)</note></cit>，<lb n="0184a07" ed="Y" type="old"/>無不
 <lb n="0184a08" ed="Y"/>從有空相即的相待，而到達畢竟空寂的絕待的。所以本經在說不異、即是<lb n="0184a08" ed="Y" type="old"/>以後
 <lb n="0184a09" ed="Y"/>，接著說<quote type="嚴謹引文">「是諸法空相……空中無色，無受想行識」</quote>。</p>
-<lb n="0184a10" ed="Y"/><lb n="0184a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">諸法，指一切法。空相作空性解。性與相，佛典裡沒有嚴格的分別，如實
+<lb n="0184a10" ed="Y"/><lb n="0184a09" ed="Y" type="old"/><p xml:id="pY01p0184a1001" style="margin-left:1em;text-indent:2em">諸法，指一切法。空相作空性解。性與相，佛典裡沒有嚴格的分別，如實
 <lb n="0184a11" ed="Y"/><lb n="0184a10" ed="Y" type="old"/>相、實性，譯者常是互用的。空相——空性，即一切法的本性、自性，一切法
 <lb n="0184a12" ed="Y"/><lb n="0184a11" ed="Y" type="old"/>是以無自性為自性，自性即是無自性的。色、受、想、行、識，本為世俗常識
 <lb n="0184a13" ed="Y"/><lb n="0184a12" ed="Y" type="old"/>的境界，經說色即是空，空即是色，在使從空有相即的相對觀中，超脫空有相
@@ -657,7 +677,7 @@
 <lb n="0186a10" ed="Y"/>本經<lb n="0186a09" ed="Y" type="old"/>首標五蘊皆空，次說五蘊皆空的理由：色不異空，空不異色；色即是空，
 <lb n="0186a11" ed="Y"/>空即<lb n="0186a10" ed="Y" type="old"/>是色。由此為觀察方法而後能得實證的結果：是諸法空相……是故空中無
 <lb n="0186a12" ed="Y"/>色，<lb n="0186a11" ed="Y" type="old"/>無受想行識。這是佛門中道實證的坦途，切莫照著自己的情見而妄說！</p>
-<lb n="0186a13" ed="Y"/><lb n="0186a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">『不生不滅』等三句，是描寫空相的，空性既不是言思所能思議，這只有
+<lb n="0186a13" ed="Y"/><lb n="0186a12" ed="Y" type="old"/><p xml:id="pY01p0186a1301" style="margin-left:1em;text-indent:2em">『不生不滅』等三句，是描寫空相的，空性既不是言思所能思議，這只有
 <pb n="0187a" ed="Y" xml:id="Y01.0001.0187a"/>
 <lb n="0187a01" ed="Y"/>用離<lb n="0186a13" ed="Y" type="old"/>言思的方法去體證。如我們未能證得，不解佛說的意趣，那就是佛再說得
 <lb n="0187a02" ed="Y"/>多些<pb n="0187a" ed="Y" xml:id="Y01.0001.0187a.old" type="old"/><lb n="0187a01" ed="Y" type="old"/>、明白些，也只有增加我們的誤會。這如從來沒有見過白色的生盲，有人
@@ -691,8 +711,8 @@
 <lb n="0189a02" ed="Y"/><lb n="0189a01" ed="Y" type="old"/>證而失去，所以也就沒有增減。此究竟真理——畢竟空，只是法爾如此。悟入
 <lb n="0189a03" ed="Y"/><lb n="0189a02" ed="Y" type="old"/>畢竟空性，離一切相，所以說：是故空中無色，無受想行識。</p></cb:div></cb:div></cb:div>
 <lb n="0189a04" ed="Y"/><lb n="0189a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="7" type="其他">戊二　略觀處界等空</cb:mulu><head>戊二　略觀處界等空</head>
-<lb n="0189a05" ed="Y"/><lb n="0189a04" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">無眼耳鼻舌身意，無色聲香味觸法。</p></quote></cb:div>
-<lb n="0189a06" ed="Y"/><lb n="0189a05" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">此下說處、界、緣起等空；先明十二處空。十二處，也是一切法的分類，
+<lb n="0189a05" ed="Y"/><lb n="0189a04" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY01p0189a0501" rend="bold">無眼耳鼻舌身意，無色聲香味觸法。</p></quote></cb:div>
+<lb n="0189a06" ed="Y"/><lb n="0189a05" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY01p0189a0601" style="margin-left:1em;text-indent:2em">此下說處、界、緣起等空；先明十二處空。十二處，也是一切法的分類，
 <lb n="0189a07" ed="Y"/>但與<lb n="0189a06" ed="Y" type="old"/>五蘊不同。十二處是把宇宙間的一切現象，總分為能取所取：能取是六根
 <lb n="0189a08" ed="Y"/>，即<lb n="0189a07" ed="Y" type="old"/>「眼」、「耳」、「鼻」、「舌」、「身」、「意」；所取是六塵，即「
 <lb n="0189a09" ed="Y"/>色」、「聲」、「香」、「味」、「觸」、「法」。這是認<lb n="0189a08" ed="Y" type="old"/>識論的分類法。我
@@ -720,8 +740,8 @@
 <lb n="0191a03" ed="Y"/>。菩薩行深般若波羅蜜多時，照見此十二處空。經文也應說<lb n="0191a02" ed="Y" type="old"/>：眼等不異空，空
 <lb n="0191a04" ed="Y"/>不異眼等；眼等即是空，空即是眼等……是故空中無眼、耳等<lb n="0191a03" ed="Y" type="old"/>。這是簡略可知
 <lb n="0191a05" ed="Y"/>了。</p></cb:div>
-<lb n="0191a06" ed="Y"/><lb n="0191a04" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">無眼界乃至無意識界。</p></quote></cb:div>
-<lb n="0191a07" ed="Y"/><lb n="0191a05" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">此明十八界空。<quote type="嚴謹引文">「乃至」</quote>是超越詞，當中包括耳界、鼻界、舌界、身界、
+<lb n="0191a06" ed="Y"/><lb n="0191a04" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY01p0191a0601" rend="bold">無眼界乃至無意識界。</p></quote></cb:div>
+<lb n="0191a07" ed="Y"/><lb n="0191a05" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY01p0191a0701" style="margin-left:1em;text-indent:2em">此明十八界空。<quote type="嚴謹引文">「乃至」</quote>是超越詞，當中包括耳界、鼻界、舌界、身界、
 <lb n="0191a08" ed="Y"/><lb n="0191a06" ed="Y" type="old"/>意界，色界、聲界、香界、味界、觸界、法界，眼識界、耳識界、鼻識界、舌
 <lb n="0191a09" ed="Y"/><lb n="0191a07" ed="Y" type="old"/>識界、身識界，合經文所出的<quote type="嚴謹引文">「眼界」</quote>、<quote type="嚴謹引文">「意識界」</quote>，總成十八界。十八界中
 <lb n="0191a10" ed="Y"/>的<lb n="0191a08" ed="Y" type="old"/>前十二界，即前十二處；由六根對六塵而生起的認識作用——從意根中現起
@@ -740,8 +760,8 @@
 <lb n="0192a09" ed="Y"/>唯<lb n="0192a07" ed="Y" type="old"/>心的。有情的活動，是有物理——色等，生理——眼等，心理——眼識等的
 <lb n="0192a10" ed="Y"/>三<lb n="0192a08" ed="Y" type="old"/>種現象的。以此十八界明無我，而十八界各各是眾緣所成的，求其實性不可
 <lb n="0192a11" ed="Y"/>得<lb n="0192a09" ed="Y" type="old"/>，故也是畢竟空寂。</p></cb:div>
-<lb n="0192a12" ed="Y"/><lb n="0192a10" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">無無明，亦無無明盡；乃至無老死，亦無老死盡。</p></quote></cb:div>
-<lb n="0192a13" ed="Y"/><lb n="0192a11" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">此觀十二緣起性空。十二緣起：即無明緣行，行緣識，識緣名色，名色緣
+<lb n="0192a12" ed="Y"/><lb n="0192a10" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY01p0192a1201" rend="bold">無無明，亦無無明盡；乃至無老死，亦無老死盡。</p></quote></cb:div>
+<lb n="0192a13" ed="Y"/><lb n="0192a11" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY01p0192a1301" style="margin-left:1em;text-indent:2em">此觀十二緣起性空。十二緣起：即無明緣行，行緣識，識緣名色，名色緣
 <pb n="0193a" ed="Y" xml:id="Y01.0001.0193a"/>
 <lb n="0193a01" ed="Y"/><lb n="0192a12" ed="Y" type="old"/>六入，六入緣觸，觸緣受，受緣愛，愛緣取，取緣有，有緣生，生緣老死。此
 <lb n="0193a02" ed="Y"/><lb n="0192a13" ed="Y" type="old"/>十二支，為何名為緣起呢？簡單說：緣起就是因此而有彼的意思。經上說：<quote source="T02n0099_p0067a05" type="嚴謹引文">『<pb n="0193a" ed="Y" xml:id="Y01.0001.0193a.old" type="old"/>
@@ -781,8 +801,8 @@
 <lb n="0195a08" ed="Y"/>生死流轉、<lb n="0195a06" ed="Y" type="old"/>涅槃還滅法的道理，依緣而起的一切，不含有一點的實在性，所以
 <lb n="0195a09" ed="Y"/>菩薩修般若<lb n="0195a07" ed="Y" type="old"/>時見十二緣起畢竟空，沒有生起相，也沒有十二緣起的滅盡相。如
 <lb n="0195a10" ed="Y"/><cit><bibl><title level="m">《大般若經<lb n="0195a08" ed="Y" type="old"/>》</title>說：</bibl><quote source="T08n0223_p0364c01" type="寬鬆引文">『菩薩坐道場時，觀十二因緣如虛空不可盡。』</quote><note n="0195002" resp="周怡曄" type="add">(1)《摩訶般若波羅蜜經》卷20〈67 無盡品〉：「應以虛空不可盡法觀十二因緣」(CBETA, T08, no. 223, p. 364, c1)；(2)《大智度論》卷5〈1 序品〉：「癡如虛空不可盡，行如虛空不可盡，乃至眾苦和合集如虛空不可盡。菩薩當作是知！作是知者，為捨癡際，應無所入。作是觀十二因緣起者，則為坐道場，得薩婆若。」(CBETA, T25, no. 1509, p. 100, c6-10)；(3)《中論》卷1〈1 觀因緣品〉：「菩薩坐道場時。觀十二因緣。如虛空不可盡。」(CBETA, T30, no. 1564, p. 1, b28-29)</note></cit></p></cb:div>
-<lb n="0195a11" ed="Y"/><lb n="0195a09" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">無苦集滅道。</p></quote></cb:div>
-<lb n="0195a12" ed="Y"/><lb n="0195a10" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">此觀四諦空。人有生、老、病、死、愛別離、怨憎會、求不得等苦，雖有
+<lb n="0195a11" ed="Y"/><lb n="0195a09" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY01p0195a1101" rend="bold">無苦集滅道。</p></quote></cb:div>
+<lb n="0195a12" ed="Y"/><lb n="0195a10" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY01p0195a1201" style="margin-left:1em;text-indent:2em">此觀四諦空。人有生、老、病、死、愛別離、怨憎會、求不得等苦，雖有
 <lb n="0195a13" ed="Y"/><lb n="0195a11" ed="Y" type="old"/>時少有所樂，然不究竟，終必是苦。人生是苦，諦實不虛，名苦諦。苦的原因
 <pb n="0196a" ed="Y" xml:id="Y01.0001.0196a"/>
 <lb n="0196a01" ed="Y"/><lb n="0195a12" ed="Y" type="old"/>，為無明、愛、見等煩惱，由此為因而引起苦果，名為集諦。從因生果，非不
@@ -795,8 +815,8 @@
 <lb n="0196a08" ed="Y"/>清<lb n="0196a06" ed="Y" type="old"/>淨的出世間因果。世出世間都有因有果，所以分為四諦。染淨因果法，一切
 <lb n="0196a09" ed="Y"/>從<lb n="0196a07" ed="Y" type="old"/>眾緣起，緣起無自性，故菩薩修般若時，觀此四諦畢竟空，即不礙四諦的一
 <lb n="0196a10" ed="Y"/>實<lb n="0196a08" ed="Y" type="old"/>諦。參看<title level="m">《中論》</title>的<title level="a">〈觀四諦品〉</title>。</p></cb:div>
-<lb n="0196a11" ed="Y"/><lb n="0196a09" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">無智亦無得。</p></quote></cb:div>
-<lb n="0196a12" ed="Y"/><lb n="0196a10" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">此觀能證智與所證理空。奘法師在<bibl>《<title level="m">大般若經</title>．<title level="a">相應品</title>》</bibl>，譯智為現觀，
+<lb n="0196a11" ed="Y"/><lb n="0196a09" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY01p0196a1101" rend="bold">無智亦無得。</p></quote></cb:div>
+<lb n="0196a12" ed="Y"/><lb n="0196a10" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY01p0196a1201" style="margin-left:1em;text-indent:2em">此觀能證智與所證理空。奘法師在<bibl>《<title level="m">大般若經</title>．<title level="a">相應品</title>》</bibl>，譯智為現觀，
 <lb n="0196a13" ed="Y"/>此處<lb n="0196a11" ed="Y" type="old"/>隨順羅什三藏的舊譯。現觀，即是直覺的現前觀察，洞見真理。有能證的
 <pb n="0197a" ed="Y" xml:id="Y01.0001.0197a"/>
 <lb n="0197a01" ed="Y"/>現觀<lb n="0196a12" ed="Y" type="old"/>，即有所證的真理。<quote type="嚴謹引文">「智」</quote>是能觀，<quote type="嚴謹引文">「得」</quote>為所觀；智為能得，得是所得
@@ -811,9 +831,9 @@
 <lb n="0197a10" ed="Y"/>與理<lb n="0197a08" ed="Y" type="old"/>性，觀行與智證，在菩薩般若的真實體證時，一切是不生不滅、不垢不淨
 <lb n="0197a11" ed="Y"/>、不<lb n="0197a09" ed="Y" type="old"/>增不減的，一切是畢竟空寂、不可擬議的。</p></cb:div></cb:div>
 <lb n="0197a12" ed="Y"/><lb n="0197a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="7" type="其他">戊三　結顯空義</cb:mulu><head>戊三　結顯空義</head>
-<lb n="0197a13" ed="Y"/><lb n="0197a11" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">以無所得故。</p></quote></cb:div>
+<lb n="0197a13" ed="Y"/><lb n="0197a11" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY01p0197a1301" rend="bold">以無所得故。</p></quote></cb:div>
 <pb n="0198a" ed="Y" xml:id="Y01.0001.0198a"/>
-<lb n="0198a01" ed="Y"/><lb n="0197a12" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">這是對於照見一切皆空所提出的理由。一切法所以無不皆空，有以為空是
+<lb n="0198a01" ed="Y"/><lb n="0197a12" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY01p0198a0101" style="margin-left:1em;text-indent:2em">這是對於照見一切皆空所提出的理由。一切法所以無不皆空，有以為空是
 <lb n="0198a02" ed="Y"/><lb n="0197a13" ed="Y" type="old"/>外境空，內心的精神不空，這是境空心有論者。有以為空是除去內心的錯誤，<pb n="0198a" ed="Y" xml:id="Y01.0001.0198a.old" type="old"/>
 <lb n="0198a03" ed="Y"/><lb n="0198a01" ed="Y" type="old"/>外境不空，這是心空境有論者。這都是偏於一邊，不得法的實相。真空，要在
 <lb n="0198a04" ed="Y"/><lb n="0198a02" ed="Y" type="old"/>一切法自性不可得上說：五蘊、十二處、十八界、緣起、四諦、智、得，求自
@@ -831,9 +851,9 @@
 <lb n="0199a02" ed="Y"/>所得故等。</p></cb:div></cb:div><pb n="0199a" ed="Y" xml:id="Y01.0001.0199a.old" type="old"/></cb:div>
 <lb n="0199a03" ed="Y"/><lb n="0199a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="6" type="其他">丁二　得般若果</cb:mulu><head>丁二　得般若果</head>
 <lb n="0199a04" ed="Y"/><lb n="0199a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="7" type="其他">戊一　涅槃果——三乘共果</cb:mulu><head>戊一　涅槃果——三乘共果</head>
-<lb n="0199a05" ed="Y"/><lb n="0199a03" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">菩提薩埵，依般若波羅蜜多故，心無罣礙。無罣礙故，無有恐怖，遠離顛倒夢想
+<lb n="0199a05" ed="Y"/><lb n="0199a03" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY01p0199a0501" rend="bold">菩提薩埵，依般若波羅蜜多故，心無罣礙。無罣礙故，無有恐怖，遠離顛倒夢想
 <lb n="0199a06" ed="Y"/><lb n="0199a04" ed="Y" type="old"/>，究竟涅槃。</p></quote></cb:div>
-<lb n="0199a07" ed="Y"/><lb n="0199a05" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">觀空，不是知識的論辨，而是藉此以解脫眾苦的，所以接著明般若果。此
+<lb n="0199a07" ed="Y"/><lb n="0199a05" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY01p0199a0701" style="margin-left:1em;text-indent:2em">觀空，不是知識的論辨，而是藉此以解脫眾苦的，所以接著明般若果。此
 <lb n="0199a08" ed="Y"/><lb n="0199a06" ed="Y" type="old"/>明菩薩得涅槃果，即三乘共果。菩薩<quote type="嚴謹引文">「依般若波羅蜜多故」</quote>，觀一切法性空不
 <lb n="0199a09" ed="Y"/><lb n="0199a07" ed="Y" type="old"/>可得，由此能<quote type="嚴謹引文">「心無罣礙」</quote>，如游刃入於無間，所以論說：<quote type="寬鬆引文">『以無所得，得無
 <lb n="0199a10" ed="Y"/><lb n="0199a08" ed="Y" type="old"/>所礙。』</quote>無智凡夫，不了法空，處處執有，心中的煩惱，波興浪湧，所以觸處
@@ -851,8 +871,8 @@
 <lb n="0200a08" ed="Y"/>。<lb n="0200a06" ed="Y" type="old"/>菩薩依般若，能遠離顛倒夢想，究竟涅槃。我們如能依此以行，解一切法空
 <lb n="0200a09" ed="Y"/>，不<lb n="0200a07" ed="Y" type="old"/>但處事待人能因此減少許多苦痛，生死根本也可因此而解脫了。</p></cb:div></cb:div>
 <lb n="0200a10" ed="Y"/><lb n="0200a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="7" type="其他">戊二　菩提果——如來不共果</cb:mulu><head>戊二　菩提果——如來不共果</head>
-<lb n="0200a11" ed="Y"/><lb n="0200a09" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">三世諸佛，依般若波羅蜜多故，得阿耨多羅三藐三菩提。</p></quote></cb:div>
-<lb n="0200a12" ed="Y"/><lb n="0200a10" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">不但菩薩，諸佛也是依此般若而得成佛的。凡是證得圓滿覺悟的，都名為
+<lb n="0200a11" ed="Y"/><lb n="0200a09" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY01p0200a1101" rend="bold">三世諸佛，依般若波羅蜜多故，得阿耨多羅三藐三菩提。</p></quote></cb:div>
+<lb n="0200a12" ed="Y"/><lb n="0200a10" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY01p0200a1201" style="margin-left:1em;text-indent:2em">不但菩薩，諸佛也是依此般若而得成佛的。凡是證得圓滿覺悟的，都名為
 <lb n="0200a13" ed="Y"/><lb n="0200a11" ed="Y" type="old"/>佛。所以經上說：這過去、現在、未來的<quote type="嚴謹引文">「三世諸佛」</quote>，四方、四維、上下的
 <pb n="0201a" ed="Y" xml:id="Y01.0001.0201a"/>
 <lb n="0201a01" ed="Y"/><lb n="0200a12" ed="Y" type="old"/>十方諸佛，從最初發心，中間修菩薩行，直到最後成佛，無不是依般若為先導
@@ -861,7 +881,7 @@
 <lb n="0201a04" ed="Y"/>宙人生真理有根本的正確覺悟；聲聞、緣覺也可證得，但不能普遍；菩薩雖能
 <lb n="0201a05" ed="Y"/><lb n="0201a03" ed="Y" type="old"/>普遍，然如十三、十四的月亮，還沒有圓滿，不是無上；唯佛所證，如十五夜
 <lb n="0201a06" ed="Y"/>月<lb n="0201a04" ed="Y" type="old"/>的圓滿，故名無上正遍覺。</p>
-<lb n="0201a07" ed="Y"/><lb n="0201a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">般若與佛菩提，本非二事，般若是智慧，佛果菩提即無上正遍覺，又名一
+<lb n="0201a07" ed="Y"/><lb n="0201a05" ed="Y" type="old"/><p xml:id="pY01p0201a0701" style="margin-left:1em;text-indent:2em">般若與佛菩提，本非二事，般若是智慧，佛果菩提即無上正遍覺，又名一
 <lb n="0201a08" ed="Y"/><lb n="0201a06" ed="Y" type="old"/>切智。在修行期中，覺未圓滿，名為般若；及證得究竟圓滿，即名為無上菩提
 <lb n="0201a09" ed="Y"/><lb n="0201a07" ed="Y" type="old"/>。所以什公說：菩提是『老般若』。諸佛菩提，非僅是智慧，是以慧為中心，
 <lb n="0201a10" ed="Y"/><lb n="0201a08" ed="Y" type="old"/>融攝佛果一切功德。諸佛因地修行時，不僅是修般若，也修施、戒、忍、進、
@@ -871,16 +891,16 @@
 <pb n="0202a" ed="Y" xml:id="Y01.0001.0202a"/>
 <lb n="0202a01" ed="Y"/><lb n="0201a12" ed="Y" type="old"/>經》</title>說：</bibl><quote source="T08n0235_p0751c24" type="嚴謹引文">『是法平等，無有高下。』</quote><note n="0202001" resp="周怡曄" type="add">《金剛般若波羅蜜經》卷1(CBETA, T08, no. 235, p. 751, c24)</note></cit>究竟的無上菩提，在實相慧的究竟證中，
 <lb n="0202a02" ed="Y"/><lb n="0201a13" ed="Y" type="old"/>是即萬行而離眾相，超越不可思議。</p><pb n="0202a" ed="Y" xml:id="Y01.0001.0202a.old" type="old"/>
-<lb n="0202a03" ed="Y"/><lb n="0202a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">菩薩修學般若，志在證得佛果菩提，為什麼此經說菩薩證究竟涅槃，不說
+<lb n="0202a03" ed="Y"/><lb n="0202a01" ed="Y" type="old"/><p xml:id="pY01p0202a0301" style="margin-left:1em;text-indent:2em">菩薩修學般若，志在證得佛果菩提，為什麼此經說菩薩證究竟涅槃，不說
 <lb n="0202a04" ed="Y"/><lb n="0202a02" ed="Y" type="old"/>證菩提呢？此因無上正等菩提，約究竟圓滿說，唯佛能證得。而究竟涅槃則不
 <lb n="0202a05" ed="Y"/><lb n="0202a03" ed="Y" type="old"/>然，是三乘共果，聲聞阿羅漢，菩薩第七地——或說第八地，都能證得。不過
 <lb n="0202a06" ed="Y"/><lb n="0202a04" ed="Y" type="old"/>聲聞者至此，即以為究竟，而菩薩雖了知無分別法性不生不滅、不垢不淨、<lb n="0202a05" ed="Y" type="old"/>不
 <lb n="0202a07" ed="Y"/>增不減，得有諸佛護持，及發心度脫一切眾生的本願，於是不入涅槃，進趨<lb n="0202a06" ed="Y" type="old"/>佛
 <lb n="0202a08" ed="Y"/>果的阿耨多羅三藐三菩提。所以龍樹說：<quote source="T25n1509_p0097c03-04" type="寬鬆引文">『無生是佛道門。』<note n="0202002" resp="周怡曄" type="add">《大智度論》卷5〈1 序品〉：「無生忍，是助佛道初門」(CBETA, T25, no. 1509, p. 97, c3-4)</note></quote></p></cb:div></cb:div></cb:div></cb:div>
 <lb n="0202a09" ed="Y"/><lb n="0202a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="5" type="其他">丙二　喻讚般若德</cb:mulu><head>丙二　喻讚般若德</head>
-<lb n="0202a10" ed="Y"/><lb n="0202a08" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">故知般若波羅蜜多，是大神咒，是大明咒，是無上咒，是無等等咒，能除一切苦
+<lb n="0202a10" ed="Y"/><lb n="0202a08" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY01p0202a1001" rend="bold">故知般若波羅蜜多，是大神咒，是大明咒，是無上咒，是無等等咒，能除一切苦
 <lb n="0202a11" ed="Y"/><lb n="0202a09" ed="Y" type="old"/>，真實不虛。</p></quote></cb:div>
-<lb n="0202a12" ed="Y"/><lb n="0202a10" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">此是引喻讚德。咒是一般印度人所信為有極大妙用的；印度教徒，以為誦
+<lb n="0202a12" ed="Y"/><lb n="0202a10" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY01p0202a1201" style="margin-left:1em;text-indent:2em">此是引喻讚德。咒是一般印度人所信為有極大妙用的；印度教徒，以為誦
 <lb n="0202a13" ed="Y"/><lb n="0202a11" ed="Y" type="old"/>持密咒，可以藉咒語裡的鬼神名字和祕密號令，解決人力所不可奈何的事。凡
 <pb n="0203a" ed="Y" xml:id="Y01.0001.0203a"/>
 <lb n="0203a01" ed="Y"/><lb n="0202a12" ed="Y" type="old"/>欲求福、息災、神通妙用，或利益人、或損惱人，都可從咒力中獲得。在無量
@@ -893,9 +913,9 @@
 <lb n="0203a08" ed="Y"/>槃樂。離一切苦，得究竟樂，所以說<quote type="嚴謹引文">「能除一切苦，真實不虛」</quote>。菩提薩<lb n="0203a07" ed="Y" type="old"/>埵以
 <lb n="0203a09" ed="Y"/>下，即總標度一切苦厄的解說。此下，<title level="m">《大般若經》</title>中缺。</p></cb:div></cb:div></cb:div>
 <lb n="0203a10" ed="Y"/><lb n="0203a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="4" type="其他">乙二　曲為鈍根說方便</cb:mulu><head>乙二　曲為鈍根說方便</head>
-<lb n="0203a11" ed="Y"/><lb n="0203a09" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">故說般若波羅蜜多咒，即說咒曰：揭諦揭諦，波羅揭諦，波羅僧揭諦，菩提薩婆
+<lb n="0203a11" ed="Y"/><lb n="0203a09" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY01p0203a1101" rend="bold">故說般若波羅蜜多咒，即說咒曰：揭諦揭諦，波羅揭諦，波羅僧揭諦，菩提薩婆
 <lb n="0203a12" ed="Y"/><lb n="0203a10" ed="Y" type="old"/>訶。</p></quote></cb:div>
-<lb n="0203a13" ed="Y"/><lb n="0203a11" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">此為鈍根人巧說般若。愚癡眾生，聽聞般若，每不易信受，反生毀謗。這
+<lb n="0203a13" ed="Y"/><lb n="0203a11" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY01p0203a1301" style="margin-left:1em;text-indent:2em">此為鈍根人巧說般若。愚癡眾生，聽聞般若，每不易信受，反生毀謗。這
 <pb n="0204a" ed="Y" xml:id="Y01.0001.0204a"/>
 <lb n="0204a01" ed="Y"/><lb n="0203a12" ed="Y" type="old"/>因為深觀妙果，過於高上，卑劣眾生是不敢希求的；尤其是眾生一向執有，今
 <lb n="0204a02" ed="Y"/><lb n="0203a13" ed="Y" type="old"/>聞經中一再說空，與他們本心相違，極難信受。般若法門，由此即不易弘傳。<pb n="0204a" ed="Y" xml:id="Y01.0001.0204a.old" type="old"/>

@@ -12,49 +12,69 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/12</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/12</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>39卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 23, No. 23</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>39卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">23</idno>.<idno type="no">23</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨香雲</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">四、中華大藏經序</cb:mulu>
-<milestone unit="juan" n="5"/><pb n="0211a" ed="Y" xml:id="Y23.0023.0211a.old" type="old"/>
+<milestone n="5" unit="juan"/><pb n="0211a" ed="Y" xml:id="Y23.0023.0211a.old" type="old"/>
 <pb n="0211a" ed="Y" xml:id="Y23.0023.0211a"/>
 <lb n="0211a01" ed="Y"/><lb n="0211a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">五、《楞嚴經攝論》、《楞嚴經研究》合刊．序</cb:mulu><head>《楞嚴經攝論》、《楞嚴經研究》合刊．序<note n="0211001" resp="DILA" type="add">民國五七年撰。</note></head>
-<lb n="0211a02" ed="Y"/><lb n="0211a02" ed="Y" type="old"/><p style="text-indent:2em">今之世，非唯神、唯物聚訟之世耶？非異見紛紜而一以資本經濟為所歸趣之
+<lb n="0211a02" ed="Y"/><lb n="0211a02" ed="Y" type="old"/><p xml:id="pY23p0211a0201" style="text-indent:2em">今之世，非唯神、唯物聚訟之世耶？非異見紛紜而一以資本經濟為所歸趣之
 <lb n="0211a03" ed="Y"/><lb n="0211a03" ed="Y" type="old"/>世耶？非西方異見諍執泛濫橫決於全球之世耶？吾中華民族，為經濟之所厄、<lb n="0211a04" ed="Y" type="old"/>武
 <lb n="0211a04" ed="Y"/>力之所脅，積久而民失其所信，聖教衰而政治多紛擾；百年來事，思之固無不<lb n="0211a05" ed="Y" type="old"/>為
 <lb n="0211a05" ed="Y"/>之長太息也！太虛大師生於斯世，現菩薩身；本整僧以救教、弘教以護國、興<lb n="0211a06" ed="Y" type="old"/>中
@@ -62,7 +82,7 @@
 <lb n="0211a07" ed="Y"/>深，其願也切，四十年如一日，非乘願再來，其有能德業如斯之盛者乎！嘗探<lb n="0211a08" ed="Y" type="old"/>大
 <lb n="0211a08" ed="Y"/>師之遺教景行，而知其本於中國佛法之體會與融通。唯其悟解之深，乃能極其<lb n="0211a09" ed="Y" type="old"/>應
 <lb n="0211a09" ed="Y"/>用之妙。大師之道，出世而入世，非趨時戀世之可比也！</p>
-<lb n="0211a10" ed="Y"/><lb n="0211a10" ed="Y" type="old"/><p style="text-indent:2em">距大師之上生，二十年矣。舊曆臘月十八日，值大師八十壽辰。子寬長者來
+<lb n="0211a10" ed="Y"/><lb n="0211a10" ed="Y" type="old"/><p xml:id="pY23p0211a1001" style="text-indent:2em">距大師之上生，二十年矣。舊曆臘月十八日，值大師八十壽辰。子寬長者來
 <lb n="0211a11" ed="Y"/><lb n="0211a11" ed="Y" type="old"/>訪，思有以為大師壽。慨今國土未復，而聖教之憂患方深，正大師悲願之所不能<pb n="0212a" ed="Y" xml:id="Y23.0023.0212a.old" type="old"/>
 <pb n="0212a" ed="Y" xml:id="Y23.0023.0212a"/>
 <lb n="0212a01" ed="Y"/><lb n="0212a01" ed="Y" type="old"/>自已者。為大師壽，其唯闡大師之道乎！乃商印大師遺著<title level="m">《楞嚴經攝論》</title>、<title level="m">《楞

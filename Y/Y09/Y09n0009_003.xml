@@ -12,50 +12,70 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版二刷<date>Date: 2015/03</date>新式標點版</edition>
+			<edition>修訂版二刷<date>Date: 2015/03</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>12卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 9, No. 9</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>12卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">9</idno>.<idno type="no">9</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">中觀今論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第二章　龍樹及其論典</cb:mulu><cb:mulu level="2" type="其他">第二節　《中論》為《阿含》通論考</cb:mulu>
-<milestone unit="juan" n="3"/><pb n="0025a" ed="Y" xml:id="Y09.0009.0025a.old" type="old"/>
+<milestone n="3" unit="juan"/><pb n="0025a" ed="Y" xml:id="Y09.0009.0025a.old" type="old"/>
 <pb n="0025a" ed="Y" xml:id="Y09.0009.0025a"/>
 <lb n="0025a01" ed="Y"/><lb n="0025a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">第三章　緣起之生滅與不生不滅</cb:mulu><head>第三章　緣起之生滅與不生不滅</head>
 <lb n="0025a02" ed="Y"/><lb n="0025a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　無生之共證與大乘不共</cb:mulu><head>第一節　無生之共證與大乘不共</head>
-<lb n="0025a03" ed="Y"/><lb n="0025a03" ed="Y" type="old"/><p style="text-indent:2em">龍樹依空而顯示中道，即八不緣起。其中，不常不斷、不一不異、不來不去
+<lb n="0025a03" ed="Y"/><lb n="0025a03" ed="Y" type="old"/><p xml:id="pY09p0025a0301" style="text-indent:2em">龍樹依空而顯示中道，即八不緣起。其中，不常不斷、不一不異、不來不去
 <lb n="0025a04" ed="Y"/><lb n="0025a04" ed="Y" type="old"/>的緣起，即使解說不同，因為<title level="m">《阿含經》</title>有明顯的教證，聲聞學者還易於接受。
 <lb n="0025a05" ed="Y"/><lb n="0025a05" ed="Y" type="old"/>唯對於不生不滅的緣起，不免有點難於信受。因此，這就形成了大乘教學的特色
 <lb n="0025a06" ed="Y"/><lb n="0025a06" ed="Y" type="old"/>，成為不共聲聞的地方。不生不滅——八不的緣起，聲聞學者中，上座系的薩婆
@@ -71,10 +91,10 @@
 <lb n="0026a05" ed="Y"/>為大乘的不共之學。一般聲聞學者以為緣起是無常生滅的，現在說<cit><quote source="T14n0475_p0541a18" type="嚴謹引文">「不生不<lb n="0026a06" ed="Y" type="old"/>滅是
 <lb n="0026a06" ed="Y"/>無常義」</quote><bibl>（<title level="m">《維摩經》</title><biblScope n="上" type="卷">卷上</biblScope>）</bibl><note n="0026001" resp="謝淑歆" type="add">《維摩詰所說經》卷1〈3 弟子品〉(CBETA, T14, no. 475, p. 541, a18)</note></cit>，這似乎不同，成為一般聲聞學者與大乘學者論諍
 <lb n="0026a07" ed="Y"/><lb n="0026a07" ed="Y" type="old"/>的焦點。然依釋迦創開的佛法說，生滅與不生滅，本來一致。</p>
-<lb n="0026a08" ed="Y"/><lb n="0026a08" ed="Y" type="old"/><p style="text-indent:2em">不生不滅，<title level="m">《阿含經》</title>是指涅槃無為而說的。涅槃，決不是死了，也不是死
+<lb n="0026a08" ed="Y"/><lb n="0026a08" ed="Y" type="old"/><p xml:id="pY09p0026a0801" style="text-indent:2em">不生不滅，<title level="m">《阿含經》</title>是指涅槃無為而說的。涅槃，決不是死了，也不是死
 <lb n="0026a09" ed="Y"/><lb n="0026a09" ed="Y" type="old"/>了才證得涅槃。涅槃，玄奘譯為圓寂；梵語含有否定與消散的意味，又有安樂自
 <lb n="0026a10" ed="Y"/><lb n="0026a10" ed="Y" type="old"/>在的意義。</p>
-<lb n="0026a11" ed="Y"/><lb n="0026a11" ed="Y" type="old"/><p style="text-indent:2em">佛所說的涅槃，是指那超脫了紛亂的、煩囂的、束縛的一切，而到達安寧的
+<lb n="0026a11" ed="Y"/><lb n="0026a11" ed="Y" type="old"/><p xml:id="pY09p0026a1101" style="text-indent:2em">佛所說的涅槃，是指那超脫了紛亂的、煩囂的、束縛的一切，而到達安寧的
 <lb n="0026a12" ed="Y"/><lb n="0026a12" ed="Y" type="old"/>、平和的、解放的自在境地。這一解脫自在的境地，是佛教正覺的完成，充滿了
 <lb n="0026a13" ed="Y"/><lb n="0026a13" ed="Y" type="old"/>豐富的內容，即解脫了愚癡為本的生死，而得到智慧為本的解脫。涅槃又稱為無<pb n="0027a" ed="Y" xml:id="Y09.0009.0027a.old" type="old"/>
 <pb n="0027a" ed="Y" xml:id="Y09.0009.0027a"/>
@@ -97,7 +117,7 @@
 <lb n="0028a03" ed="Y"/>大乘經<lb n="0028a03" ed="Y" type="old"/>中多責斥他。大乘是依此聲聞極果的正覺境界——涅槃，得無生法忍，不
 <lb n="0028a04" ed="Y"/>把它看<lb n="0028a04" ed="Y" type="old"/>作完成，進而開拓出普度眾生的無盡的大悲願行。</p></cb:div>
 <lb n="0028a05" ed="Y"/><lb n="0028a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　聲聞常道與大乘深論</cb:mulu><head>第二節　聲聞常道與大乘深論</head>
-<lb n="0028a06" ed="Y"/><lb n="0028a06" ed="Y" type="old"/><p style="text-indent:2em">正覺體悟的無為、不生，是三乘聖者所共證的，已如上述。為了教導聲聞弟
+<lb n="0028a06" ed="Y"/><lb n="0028a06" ed="Y" type="old"/><p xml:id="pY09p0028a0601" style="text-indent:2em">正覺體悟的無為、不生，是三乘聖者所共證的，已如上述。為了教導聲聞弟
 <lb n="0028a07" ed="Y"/><lb n="0028a07" ed="Y" type="old"/>子證得此無生法，依<title level="m">《阿含經》</title>所成立的教門說，主要是三法印：一、諸行無常
 <lb n="0028a08" ed="Y"/><lb n="0028a08" ed="Y" type="old"/>，二、諸法無我，三、涅槃寂靜。此三者，印定釋迦的出世法，開示世出世間的
 <lb n="0028a09" ed="Y"/><lb n="0028a09" ed="Y" type="old"/>真理。此三者，是可以隨說一印，或次第說此三印的。次第三法印，即是以明解
@@ -113,7 +133,7 @@
 <lb n="0029a06" ed="Y"/><lb n="0029a06" ed="Y" type="old"/>首，不以緣合為第一也。」</quote><note n="0029001" resp="謝淑歆" type="add">《佛說文殊師利淨律經》卷1〈1 真諦義品〉(CBETA, T14, no. 460, p. 448, c25-26)</note></cit>這雖在說明彼土與此土的立教方式不同，實即說明了
 <lb n="0029a07" ed="Y"/><lb n="0029a07" ed="Y" type="old"/>佛教的原有體系——一般聲聞學者，是以緣起因果生滅為出發的；應運光大的大
 <lb n="0029a08" ed="Y"/><lb n="0029a08" ed="Y" type="old"/>乘學，是以本不生滅的寂滅無為（緣起性）為出發的。</p>
-<lb n="0029a09" ed="Y"/><lb n="0029a09" ed="Y" type="old"/><p style="text-indent:2em">從釋迦的由證而立教說，本是正覺了無生法性，圓證了法法不出於如如（無
+<lb n="0029a09" ed="Y"/><lb n="0029a09" ed="Y" type="old"/><p xml:id="pY09p0029a0901" style="text-indent:2em">從釋迦的由證而立教說，本是正覺了無生法性，圓證了法法不出於如如（無
 <lb n="0029a10" ed="Y"/><lb n="0029a10" ed="Y" type="old"/>生）法性的。他的從證出教，如先從最高峰鳥瞰一切，然後順從山谷中的迷路者
 <lb n="0029a11" ed="Y"/><lb n="0029a11" ed="Y" type="old"/>（眾生），給以逐步指引，以導登最高峰的。後來的一般聲聞學者，在向上的歷
 <lb n="0029a12" ed="Y"/><lb n="0029a12" ed="Y" type="old"/>程中，為路旁的景色所迷，忘卻了指導者的真意。大乘學者，即是揭露這鳥瞰一
@@ -124,7 +144,7 @@
 <lb n="0030a03" ed="Y"/><lb n="0030a03" ed="Y" type="old"/>無我我所的執見而悟入無生無滅的涅槃。釋迦的方便善巧，使眾生從現實經驗到
 <lb n="0030a04" ed="Y"/><lb n="0030a04" ed="Y" type="old"/>的因果生滅相續和合中離執，到達正覺的體悟。實則此涅槃並不在一切現實的以
 <lb n="0030a05" ed="Y"/><lb n="0030a05" ed="Y" type="old"/>外，不過為了引迷啟悟，而相對的稱之為無為、無生。</p>
-<lb n="0030a06" ed="Y"/><lb n="0030a06" ed="Y" type="old"/><p style="text-indent:2em">一般聲聞學者，為名相章句所迷，將有為生死與無為涅槃的真義誤會了。如
+<lb n="0030a06" ed="Y"/><lb n="0030a06" ed="Y" type="old"/><p xml:id="pY09p0030a0601" style="text-indent:2em">一般聲聞學者，為名相章句所迷，將有為生死與無為涅槃的真義誤會了。如
 <lb n="0030a07" ed="Y"/><lb n="0030a07" ed="Y" type="old"/>薩婆多部，把有為與無為看作兩種根本不同性質的實體法。這由於缺乏無生無<lb n="0030a08" ed="Y" type="old"/>為
 <lb n="0030a08" ed="Y"/>的深悟，專在名相上轉，所以不能正見<title level="m">《阿含經》</title>的教義，不能理解釋迦何以依
 <lb n="0030a09" ed="Y"/><lb n="0030a09" ed="Y" type="old"/>緣起而建立一切。涅槃即是依緣起的<quote source="T02n0099_p0067a06-07" type="嚴謹引文">「此無故彼無，此滅故彼滅」<note n="0030001" resp="謝淑歆" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 67, a6-7)</note></quote>的法則而顯示
@@ -139,7 +159,7 @@
 <lb n="0031a04" ed="Y"/>的<lb n="0031a04" ed="Y" type="old"/>無為，都是離開事相的理性。所以，不是將無為與涅槃看作離事實而別有實體
 <lb n="0031a05" ed="Y"/>，即<lb n="0031a05" ed="Y" type="old"/>是看作沒有。尤其生滅無常，被他們局限在緣起事相上說，根本不成其為法
 <lb n="0031a06" ed="Y"/>印！</p>
-<lb n="0031a07" ed="Y"/><lb n="0031a06" ed="Y" type="old"/><p style="text-indent:2em">大乘學者從無生無為的深悟中，直見正覺內容的——無為的不生不滅。所以
+<lb n="0031a07" ed="Y"/><lb n="0031a06" ed="Y" type="old"/><p xml:id="pY09p0031a0701" style="text-indent:2em">大乘學者從無生無為的深悟中，直見正覺內容的——無為的不生不滅。所以
 <lb n="0031a08" ed="Y"/><lb n="0031a07" ed="Y" type="old"/>說無常，即了知常性不可得；無我，即我性不可得；涅槃，即是生滅自性不可得
 <lb n="0031a09" ed="Y"/><lb n="0031a08" ed="Y" type="old"/>。這都是立足於空相應緣起的，所以一切法是本性空寂的一切。常性不可得，即
 <lb n="0031a10" ed="Y"/><lb n="0031a09" ed="Y" type="old"/>現為因果生滅相續相；從生滅相續的無常事相中，即了悟常性的空寂。我性不可
@@ -158,8 +178,8 @@
 <lb n="0032a09" ed="Y"/>滅的<lb n="0032a08" ed="Y" type="old"/>，這即是不生不滅的緣起。這是通過了生滅的現象，深刻把握它的本性與緣
 <lb n="0032a10" ed="Y"/>起生<lb n="0032a09" ed="Y" type="old"/>滅並非彼此不同。依此去了解佛說的三法印，無常等即是空義，三印即是一
 <lb n="0032a11" ed="Y"/>印<lb n="0032a10" ed="Y" type="old"/>。</p>
-<lb n="0032a12" ed="Y"/><lb n="0032a11" ed="Y" type="old"/><p style="text-indent:2em">無常等即是空義，原是<title level="m">《阿含經》</title>的根本思想，大乘學者並沒有增加了什麼
-<lb n="0032a13" ed="Y"/><lb n="0032a12" ed="Y" type="old"/>。如<cit><bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.232">（二三二經）</ref>說：</bibl><quote source="T02n0099_p0056b24-26" type="嚴謹引文">「眼（等）空，常恒不變易法空，<note n="0032a1301" resp="CBETA" type="add">［－］【CB】，我【印順】</note><app n="0032a1301"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">我</rdg></app><note n="0032004" resp="厚觀法師" type="add">《雜阿含經》卷9：「眼空，常、恒、不變易法空，我所空。」(CBETA, T02, no. 99, p. 56, b24-25)</note>我所空
+<lb n="0032a12" ed="Y"/><lb n="0032a11" ed="Y" type="old"/><p xml:id="pY09p0032a1201" style="text-indent:2em">無常等即是空義，原是<title level="m">《阿含經》</title>的根本思想，大乘學者並沒有增加了什麼
+<lb n="0032a13" ed="Y"/><lb n="0032a12" ed="Y" type="old"/>。如<cit><bibl><title level="m">《雜阿含經》</title><ref target="#no:99.232" type="taisho">（二三二經）</ref>說：</bibl><quote source="T02n0099_p0056b24-26" type="嚴謹引文">「眼（等）空，常恒不變易法空，<note n="0032a1301" resp="CBETA" type="add">［－］【CB】，我【印順】</note><app n="0032a1301"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">我</rdg></app><note n="0032004" resp="厚觀法師" type="add">《雜阿含經》卷9：「眼空，常、恒、不變易法空，我所空。」(CBETA, T02, no. 99, p. 56, b24-25)</note>我所空
 <pb n="0033a" ed="Y" xml:id="Y09.0009.0033a"/>
 <lb n="0033a01" ed="Y"/>。<lb n="0032a13" ed="Y" type="old"/>所以者何？此性自爾。」</quote><note n="0033001" resp="謝淑歆" type="add">《雜阿含經》卷9：「眼空，常、恒、不變易法空，我所空。所以者何？此性自爾」(CBETA, T02, no. 99, p. 56, b24-26)</note></cit>二七三經也有此說，但作<quote source="T02n0099_p0072c14-15" type="嚴謹引文">「空諸行」<note n="0033002" resp="謝淑歆" type="add">《雜阿含經》卷11：「 空諸行常、恒、住、不變易法空，無我、我所。」(CBETA, T02, no. 99, p. 72, c14-15)</note></quote>。常恒不變易法
 <lb n="0033a02" ed="Y"/>空<pb n="0033a" ed="Y" xml:id="Y09.0009.0033a.old" type="old"/><lb n="0033a01" ed="Y" type="old"/>，即是無常，所以無常是常性不可得。我我所空即是無我，所以無我是我性不
@@ -179,7 +199,7 @@
 <lb n="0034a02" ed="Y"/>為無生<pb n="0034a" ed="Y" xml:id="Y09.0009.0034a.old" type="old"/><lb n="0034a01" ed="Y" type="old"/>相契合。徹底的說，不能即緣起而知空，不能即生滅而知不生滅；那麼，
 <lb n="0034a03" ed="Y"/>無常、<lb n="0034a02" ed="Y" type="old"/>無我、涅槃，也都不成其為法印！</p></cb:div>
 <lb n="0034a04" ed="Y"/><lb n="0034a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　三法印之橫豎無礙</cb:mulu><head>第三節　三法印之橫豎無礙</head>
-<lb n="0034a05" ed="Y"/><lb n="0034a04" ed="Y" type="old"/><p style="text-indent:2em">明白點說，三法印的任何一印，都是直入於正覺自證的，都是究竟的法印。
+<lb n="0034a05" ed="Y"/><lb n="0034a04" ed="Y" type="old"/><p xml:id="pY09p0034a0501" style="text-indent:2em">明白點說，三法印的任何一印，都是直入於正覺自證的，都是究竟的法印。
 <lb n="0034a06" ed="Y"/><lb n="0034a05" ed="Y" type="old"/>但為聽聞某義而不悟的眾生，於是更為解說，因而有次第的三法印。在佛教發展
 <lb n="0034a07" ed="Y"/><lb n="0034a06" ed="Y" type="old"/>的歷史中，也是初期重無常行，中期重空無我行，後期重無生行。如「諸行無常
 <lb n="0034a08" ed="Y"/><lb n="0034a07" ed="Y" type="old"/>」，除了事相的起滅相續相而外，含有更深的意義，即無常與滅的含義是相通的
@@ -194,7 +214,7 @@
 <lb n="0035a04" ed="Y"/>常性本空而入不生滅的寂靜。差別的歸於統一，動亂的歸於平靜，生滅的歸於<lb n="0035a04" ed="Y" type="old"/>寂
 <lb n="0035a05" ed="Y"/>滅。所以說：<quote source="T14n0475_p0542b12" type="寬鬆引文">「一切皆歸於如。」<note n="0035003" resp="謝淑歆" type="add">(1)《維摩詰所說經》卷1〈4 菩薩品〉：「一切法亦如也」(CBETA, T14, no. 475, p. 542, b12)；(2)《大智度論》卷28〈1 序品〉：「當知一切法皆如」(CBETA, T25, no. 1509, p. 267, c5)</note></quote>這樣，無常即究竟圓滿的法印，專從此入，<lb n="0035a05" ed="Y" type="old"/>即
 <lb n="0035a06" ed="Y"/>依無願解脫門得道。</p>
-<lb n="0035a07" ed="Y"/><lb n="0035a06" ed="Y" type="old"/><p style="text-indent:2em">然而，在厭離心切而拘泥於事相的，聽了無常，不能深解，只能因生滅相續
+<lb n="0035a07" ed="Y"/><lb n="0035a06" ed="Y" type="old"/><p xml:id="pY09p0035a0701" style="text-indent:2em">然而，在厭離心切而拘泥於事相的，聽了無常，不能深解，只能因生滅相續
 <lb n="0035a08" ed="Y"/><lb n="0035a07" ed="Y" type="old"/>的無常相而起厭離心，不能因常性不可得而深入法性的寂滅；這非更說無我不可
 <lb n="0035a09" ed="Y"/><lb n="0035a08" ed="Y" type="old"/>——也有直為宣說無我的，由無我離執而證知諸法的空寂性，因之而得解脫。依
 <lb n="0035a10" ed="Y"/><lb n="0035a09" ed="Y" type="old"/><title level="m">《般若經》</title>及龍樹所宗，諸法本性的空寂即是不生，不生即是涅槃。<cit><bibl><title level="m">《心經》</title></bibl><quote type="嚴謹引文">「
@@ -204,7 +224,7 @@
 <pb n="0036a" ed="Y" xml:id="Y09.0009.0036a"/>
 <lb n="0036a01" ed="Y"/>初時教<lb n="0035a13" ed="Y" type="old"/>說無常令厭，中時教說<quote source="T16n0676_p0694a10-11" type="嚴謹引文">「皆無自性，無生無滅，本來寂靜，自性涅槃」<note n="0036001" resp="謝淑歆" type="add">《解深密經》卷2〈5 無自性相品〉(CBETA, T16, no. 676, p. 694, a10-11)</note></quote>，
 <lb n="0036a02" ed="Y"/>也是以<pb n="0036a" ed="Y" xml:id="Y09.0009.0036a.old" type="old"/><lb n="0036a01" ed="Y" type="old"/>空及無生為同一意義的。如從此得證，即依空解脫門得道。</p>
-<lb n="0036a03" ed="Y"/><lb n="0036a02" ed="Y" type="old"/><p style="text-indent:2em">然而，若著於空，即不契佛意，所以說：<quote source="T30n1564_p0018c16-17" type="嚴謹引文">「大聖說空法，為離諸見故，若復
+<lb n="0036a03" ed="Y"/><lb n="0036a02" ed="Y" type="old"/><p xml:id="pY09p0036a0301" style="text-indent:2em">然而，若著於空，即不契佛意，所以說：<quote source="T30n1564_p0018c16-17" type="嚴謹引文">「大聖說空法，為離諸見故，若復
 <lb n="0036a04" ed="Y"/><lb n="0036a03" ed="Y" type="old"/>見有空，諸佛所不化。」<note n="0036002" resp="謝淑歆" type="add">《中論》卷2〈13 觀行品〉(CBETA, T30, no. 1564, p. 18, c16-17)</note></quote>有所著，即不能體證無所著的涅槃——無生法忍。因之
 <lb n="0036a05" ed="Y"/><lb n="0036a04" ed="Y" type="old"/>，經中也有以空為不了，而以不生不滅為究竟的。如從不生不滅而證入，即依無
 <lb n="0036a06" ed="Y"/><lb n="0036a05" ed="Y" type="old"/>相解脫門得道。空與不生，如<cit><bibl><title level="m">《大方廣寶篋經》</title>說：</bibl><quote source="T14n0462_p0467a18" type="嚴謹引文">「如生金與熟金。」</quote><note n="0036003" resp="謝淑歆" type="add">《大方廣寶篋經》卷1(CBETA, T14, no. 462, p. 467, a18)</note></cit>龍樹也
@@ -212,7 +232,7 @@
 <lb n="0036a08" ed="Y"/>生多用於說明<lb n="0036a07" ed="Y" type="old"/>法性寂滅。然在中觀的諸部論典中，處處都說空，空即不生，空即
 <lb n="0036a09" ed="Y"/>是八不緣起的<lb n="0036a08" ed="Y" type="old"/>中道。事實上，取著無生，還是一樣的錯誤，所以<title level="m">《大智度論》</title>解
 <lb n="0036a10" ed="Y"/>說無生，是無生無<lb n="0036a09" ed="Y" type="old"/>不生等五句都遣的。空與無生，有何差別！</p>
-<lb n="0036a11" ed="Y"/><lb n="0036a10" ed="Y" type="old"/><p style="text-indent:2em">總之，凡成為世諦流布，或以世俗的見解，依名取義，無常教會引來消極與
+<lb n="0036a11" ed="Y"/><lb n="0036a10" ed="Y" type="old"/><p xml:id="pY09p0036a1101" style="text-indent:2em">總之，凡成為世諦流布，或以世俗的見解，依名取義，無常教會引來消極與
 <lb n="0036a12" ed="Y"/><lb n="0036a11" ed="Y" type="old"/>厭離；空會招來邪見的撥無因果或偏於掃蕩；無生會與外道的神我合流。如能藉
 <lb n="0036a13" ed="Y"/><lb n="0036a12" ed="Y" type="old"/>此無常、無我、無生的教觀，徹法性本空，那麼三者都是法印，即是一實相了。
 <pb n="0037a" ed="Y" xml:id="Y09.0009.0037a"/>
@@ -221,10 +241,10 @@
 <lb n="0037a03" ed="Y"/><lb n="0037a02" ed="Y" type="old"/>經》</title>的真面目。能於空相應緣起中，直探佛法深義而發揮之，即成為後代大乘教
 <lb n="0037a04" ed="Y"/>學<lb n="0037a03" ed="Y" type="old"/>的唯一特色。</p></cb:div>
 <lb n="0037a05" ed="Y"/><lb n="0037a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第四節　緣起之綜貫性</cb:mulu><head>第四節　緣起之綜貫性</head>
-<lb n="0037a06" ed="Y"/><lb n="0037a05" ed="Y" type="old"/><p style="text-indent:2em">聲聞常道以緣起生滅為元首，大乘深義以無生真諦為第一，這多少是近於大
+<lb n="0037a06" ed="Y"/><lb n="0037a05" ed="Y" type="old"/><p xml:id="pY09p0037a0601" style="text-indent:2em">聲聞常道以緣起生滅為元首，大乘深義以無生真諦為第一，這多少是近於大
 <lb n="0037a07" ed="Y"/><lb n="0037a06" ed="Y" type="old"/>乘的解說。如從<title level="m">《阿含經》</title>為佛法根原，以龍樹中道去理解，那麼緣起是處中說
 <lb n="0037a08" ed="Y"/>法<lb n="0037a07" ed="Y" type="old"/>，依此而明生滅，也依此而明不生滅。緣起為本的佛法，是綜貫生滅與不生滅
-<lb n="0037a09" ed="Y"/>的<lb n="0037a08" ed="Y" type="old"/>。所以，這裡再引經來說明。<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.293">二九三經</ref></bibl>，以緣起與涅槃對論，而
+<lb n="0037a09" ed="Y"/>的<lb n="0037a08" ed="Y" type="old"/>。所以，這裡再引經來說明。<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.293" type="taisho">二九三經</ref></bibl>，以緣起與涅槃對論，而
 <lb n="0037a10" ed="Y"/>說都<lb n="0037a09" ed="Y" type="old"/>是甚深的：<quote source="T02n0099_p0083c13-17" type="嚴謹引文">「此甚深處，所謂緣起。倍復甚深難見，所謂一切取離、愛盡、
 <lb n="0037a11" ed="Y"/>無欲、<lb n="0037a10" ed="Y" type="old"/>寂滅、涅槃。如此二法，謂有為、無為。有為者，若生、若住、若異、若
 <lb n="0037a12" ed="Y"/>滅。無為者<lb n="0037a11" ed="Y" type="old"/>，不生、不住、不異、不滅。」<note n="0037001" resp="謝淑歆" type="add">《雜阿含經》卷12(CBETA, T02, no. 99, p. 83, c13-17)</note></quote>這說明在有為的緣起以外，還有更甚
@@ -238,7 +258,7 @@
 <lb n="0038a07" ed="Y"/>生。緣起、緣生，解說為<lb n="0038a06" ed="Y" type="old"/>能生、所生的因果。大眾部留意經中說緣起是<quote source="T02n0099_p0084b16-17" type="寬鬆引文">「若佛出
 <lb n="0038a08" ed="Y"/>世，若不出世，法性法住<lb n="0038a07" ed="Y" type="old"/>法界常住」<note n="0038002" resp="謝淑歆" type="add">《雜阿含經》卷12：「若佛出世，若未出世，此法常住，法住法界」(CBETA, T02, no. 99, p. 84, b16-17)</note></quote>的特點，所以說：各各因果的事實為緣生，
 <lb n="0038a09" ed="Y"/>這是個別的、生滅的；因<lb n="0038a08" ed="Y" type="old"/>果關係間的必然理性為緣起，是遍通的、不生滅的。</p>
-<lb n="0038a10" ed="Y"/><lb n="0038a09" ed="Y" type="old"/><p style="text-indent:2em">今依龍樹開示的<title level="m">《阿含經》</title>中道，應該說：緣起不但是說明現象事相的根本
+<lb n="0038a10" ed="Y"/><lb n="0038a09" ed="Y" type="old"/><p xml:id="pY09p0038a1001" style="text-indent:2em">今依龍樹開示的<title level="m">《阿含經》</title>中道，應該說：緣起不但是說明現象事相的根本
 <lb n="0038a11" ed="Y"/>法<lb n="0038a10" ed="Y" type="old"/>則，也是說明涅槃實相的根本。有人問佛：所說何法？佛說：<quote source="T16n0717_p0841a04" type="嚴謹引文">「我說緣起。」<note n="0038003" resp="謝淑歆" type="add">《分別緣起初勝法門經》卷2(CBETA, T16, no. 717, p. 841, a4)</note></quote>
 <lb n="0038a12" ed="Y"/>釋<lb n="0038a11" ed="Y" type="old"/>迦以「緣起為元首」，緣起法可以說明緣生事相，同時也能從此悟入涅槃。依
 <lb n="0038a13" ed="Y"/>相<lb n="0038a12" ed="Y" type="old"/>依相緣的緣起法而看到世間現象界——生滅，緣起即與緣生相對，緣起即取得

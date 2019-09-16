@@ -12,50 +12,70 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>初版十一刷<date>Date: 2006/06</date>新式標點版</edition>
+			<edition>初版十一刷<date>Date: 2006/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>14卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 36, No. 34</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">36</idno>.<idno type="no">34</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">說一切有部為主的論書與論師之研究</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第十三章　阿毘達磨論義的大論辯</cb:mulu><cb:mulu level="2" type="其他">第二節　順正理論與顯宗論</cb:mulu><cb:mulu level="3" type="其他">第二項　眾賢傳宏的毘婆沙義</cb:mulu>
-<milestone unit="juan" n="14"/>
+<milestone n="14" unit="juan"/>
 <pb n="0713a" ed="Y" xml:id="Y36.0034.0713a"/>
 <lb n="0713a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">第十四章　其餘論書略述</cb:mulu><head>第十四章　其餘論書略述</head>
 <lb n="0713a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　阿毘達磨俱舍論的宏傳</cb:mulu><head>第一節　阿毘達磨俱舍論的宏傳</head>
-<lb n="0713a03" ed="Y"/><p style="text-indent:2em">世親（<foreign xml:lang="sa">Vasubandhu</foreign>）的<title level="m">《俱舍論》</title>，雖受到眾賢（<foreign xml:lang="sa"><note n="0713a0301" resp="CBETA" type="add">Saṃghabhadra【CB】，Saṁghabhadra【印順】</note><app n="0713a0301"><lem wit="【CB】" resp="正聞出版社">Saṃghabhadra</lem><rdg wit="【印順】">Saṁghabhadra</rdg></app></foreign>）<title level="m">《順正理論》</title>的彈斥
+<lb n="0713a03" ed="Y"/><p xml:id="pY36p0713a0301" style="text-indent:2em">世親（<foreign xml:lang="sa">Vasubandhu</foreign>）的<title level="m">《俱舍論》</title>，雖受到眾賢（<foreign xml:lang="sa"><note n="0713a0301" resp="CBETA" type="add">Saṃghabhadra【CB】，Saṁghabhadra【印順】</note><app n="0713a0301"><lem resp="正聞出版社" wit="【CB】">Saṃghabhadra</lem><rdg wit="【印順】">Saṁghabhadra</rdg></app></foreign>）<title level="m">《順正理論》</title>的彈斥
 <lb n="0713a04" ed="Y"/>，但阿毘達磨，或可說聲聞論義，以後全由<title level="m">《俱舍論》</title>而延續宏傳。<title level="m">《俱舍論》</title>對佛教界的影響
 <lb n="0713a05" ed="Y"/>，是值得特別重視的！<title level="m">《俱舍論》</title>總攝了說一切有部阿毘達磨的勝義；經部譬喻師的要義，也在
 <lb n="0713a06" ed="Y"/>與說一切有部的論辯中充分表達出來。<title level="m">《俱舍論》</title>可說綜貫了說一切有部與經部。聲聞乘法，雖
@@ -63,47 +83,47 @@
 <lb n="0713a08" ed="Y"/><title level="m">《俱舍論》</title>代表了這——三世有與現在有的兩派。這部論該括了兩派，所以說一切有部與經部的
 <lb n="0713a09" ed="Y"/>論書，反而不為人所重視（後來也沒有傳入西藏）；而<title level="m">《俱舍論》</title>卻成為大小、內外學眾的研究
 <lb n="0713a10" ed="Y"/>對象。<title level="m">《俱舍論》</title>的價值，從後代研究的隆盛情形，也可以推想出來。</p>
-<lb n="0713a11" ed="Y"/><p style="text-indent:2em">世親從小入大，對佛法的各方面，幾乎都有精深獨到的著述。門下有重阿毘達磨（<title level="m">《俱舍論
+<lb n="0713a11" ed="Y"/><p xml:id="pY36p0713a1101" style="text-indent:2em">世親從小入大，對佛法的各方面，幾乎都有精深獨到的著述。門下有重阿毘達磨（<title level="m">《俱舍論
 <lb n="0713a12" ed="Y"/>》</title>）的，或重因明的，或重律儀的，或重般若的，或重唯識的：真是龍象輩出，學有專長！<title level="m">《阿
 <pb n="0714a" ed="Y" xml:id="Y36.0034.0714a"/>
 <lb n="0714a01" ed="Y"/>毘達磨俱舍論》</title>，由世親門下的研習而宏傳下來，注疏不少。由於以<title level="m">《俱舍論》</title>為重，所以對<title level="m">《
 <lb n="0714a02" ed="Y"/>順正理論》</title>，都採取反駁的立場。<title level="m">《俱舍論》</title>大行，<title level="m">《順正理論》</title>也就相形見絀了！世親以後的
 <lb n="0714a03" ed="Y"/><title level="m">《俱舍論釋》</title>，依中國古代所傳而知的，有三部：</p>
-<lb n="0714a04" ed="Y"/><p style="text-indent:2em">1.安<note n="0714a0401" resp="CBETA" type="add">惠【CB】，慧【印順】</note><app n="0714a0401"><lem wit="【CB】" resp="正聞出版社">惠<note type="cf1">《俱舍論實義疏》卷1(CBETA, T29, no. 1561, p. 325, a8-10)</note></lem><rdg wit="【印順】">慧</rdg></app><title level="m">《俱舍論實義疏》</title>：這是燉煌發現本，編入<title>《大正藏》</title><ref target="#no:1561" type="taisho">一五六一號</ref>。共五卷，僅四千
+<lb n="0714a04" ed="Y"/><p xml:id="pY36p0714a0401" style="text-indent:2em">1.安<note n="0714a0401" resp="CBETA" type="add">惠【CB】，慧【印順】</note><app n="0714a0401"><lem resp="正聞出版社" wit="【CB】">惠<note type="cf1">《俱舍論實義疏》卷1(CBETA, T29, no. 1561, p. 325, a8-10)</note></lem><rdg wit="【印順】">慧</rdg></app><title level="m">《俱舍論實義疏》</title>：這是燉煌發現本，編入<title>《大正藏》</title><ref target="#no:1561" type="taisho">一五六一號</ref>。共五卷，僅四千
 <lb n="0714a05" ed="Y"/>餘字。論初注說：<quote>「總有二萬八千偈」</quote>，可見是一部廣論；五卷本，不過摘述點滴而已。這部論
 <lb n="0714a06" ed="Y"/>，古代就有傳說，如<bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:41;page:p22a" type="taisho">四一．二二上</ref></note>說：</p>
-<lb n="0714a07" ed="Y"/><quote><p style="margin-left:3em">「安慧菩薩俱舍釋中救云：眾賢論師不得世親阿闍黎意，輒彈等字。亂心、不亂心，此是
+<lb n="0714a07" ed="Y"/><quote><p xml:id="pY36p0714a0701" style="margin-left:3em">「安慧菩薩俱舍釋中救云：眾賢論師不得世親阿闍黎意，輒彈等字。亂心、不亂心，此是
 <lb n="0714a08" ed="Y"/>散位一對；無心、有心，此是定位一對。亂心等，等取不亂心，散自相似。無心等，等取
 <lb n="0714a09" ed="Y"/>有心，定自相似。故此等字，通於兩處，顯頌善巧」。</p></quote>
-<lb n="0714a10" ed="Y"/><p style="text-indent:2em">據西藏所傳：安慧（<foreign xml:lang="sa">Sthiramati</foreign>）年七歲，就來世親座下作弟子。在世親門下，為精通大
-<lb n="0714a11" ed="Y"/>（<title level="m">《集論》</title>）小（<title level="m">《俱舍論》</title>）阿毘達磨，特重阿毘達磨的大師<note n="0714001" resp="釋印順" type="orig"><bibl><foreign xml:lang="sa">Tāranātha</foreign><title level="m">《印度佛教史》</title>（寺本婉雅譯本<biblScope type="pp" to="198" from="195">一九五——一九八</biblScope>）</bibl>。</note><note n="0714001" resp="正聞出版社" type="mod"><bibl><title level="m">《<note place="inline"><foreign xml:lang="ja">ターラナータ</foreign></note>印度佛教史》</title>（寺本婉雅譯本<biblScope type="pp" to="198" from="195">一九五——一九八</biblScope>）</bibl>。</note>。所作的<title level="m">《俱舍論釋》</title>，西藏
+<lb n="0714a10" ed="Y"/><p xml:id="pY36p0714a1001" style="text-indent:2em">據西藏所傳：安慧（<foreign xml:lang="sa">Sthiramati</foreign>）年七歲，就來世親座下作弟子。在世親門下，為精通大
+<lb n="0714a11" ed="Y"/>（<title level="m">《集論》</title>）小（<title level="m">《俱舍論》</title>）阿毘達磨，特重阿毘達磨的大師<note n="0714001" resp="釋印順" type="orig"><bibl><foreign xml:lang="sa">Tāranātha</foreign><title level="m">《印度佛教史》</title>（寺本婉雅譯本<biblScope from="195" to="198" type="pp">一九五——一九八</biblScope>）</bibl>。</note><note n="0714001" resp="正聞出版社" type="mod"><bibl><title level="m">《<note place="inline"><foreign xml:lang="ja">ターラナータ</foreign></note>印度佛教史》</title>（寺本婉雅譯本<biblScope from="195" to="198" type="pp">一九五——一九八</biblScope>）</bibl>。</note>。所作的<title level="m">《俱舍論釋》</title>，西藏
 <lb n="0714a12" ed="Y"/>現存，名<title level="m">《俱舍論真實義釋》</title>。梵本也已經發現。</p>
-<lb n="0714a13" ed="Y"/><p style="text-indent:2em">2.德慧<title level="m">《隨相論》</title>：陳真諦（<foreign xml:lang="sa">Paramârtha</foreign>）譯，<title level="m">《隨相論》</title>一卷，德慧（<foreign xml:lang="sa">Guṇamati</foreign>）造。
+<lb n="0714a13" ed="Y"/><p xml:id="pY36p0714a1301" style="text-indent:2em">2.德慧<title level="m">《隨相論》</title>：陳真諦（<foreign xml:lang="sa">Paramârtha</foreign>）譯，<title level="m">《隨相論》</title>一卷，德慧（<foreign xml:lang="sa">Guṇamati</foreign>）造。
 <lb n="0714a14" ed="Y"/>是<bibl>《<title level="m">俱舍論</title>．<title level="a">智品</title>》</bibl>十六行相的義釋。<title level="m">《論》</title>末說：<quote>「十六諦義，出隨相論釋」</quote>，可見<title level="m">《隨相
 <lb n="0714a15" ed="Y"/>論》</title>是<title level="m">《俱舍論釋》</title>的全稱，而真諦所譯的，僅為論中解十六行相的一部分。據西藏所傳：德慧
 <pb n="0715a" ed="Y" xml:id="Y36.0034.0715a"/>
 <lb n="0715a01" ed="Y"/>是德光（<foreign xml:lang="sa">Guṇaprabha</foreign>）的弟子，造有<title level="m">《俱舍論》</title>的註釋，與護法（<foreign xml:lang="sa">Dharmapāla</foreign>）的時代相
-<lb n="0715a02" ed="Y"/>當<note n="0715002" resp="釋印順" type="orig"><bibl><foreign xml:lang="sa">Tāranātha</foreign><title level="m">《印度佛教史》</title>（寺本婉雅譯本<biblScope to="230" from="229" type="pp">二二九——二三〇</biblScope>）</bibl>。</note><note n="0715002" resp="正聞出版社" type="mod"><bibl><title level="m">《<note place="inline"><foreign xml:lang="ja">ターラナータ</foreign></note>印度佛教史》</title>（寺本婉雅譯本<biblScope to="230" from="229" type="pp">二二九——二三〇</biblScope>）</bibl>。</note>。但據<title level="m">《成唯識論述記》</title>，德慧是<quote>「安慧之師」</quote><note n="0715003" resp="釋印順" type="orig"><bibl><title level="m">《成唯識論述記》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:43;page:p231c">四三．二三一下</ref>）。</note>。</p>
-<lb n="0715a03" ed="Y"/><p style="text-indent:2em">3.世友<title level="m">《俱舍釋》</title>：如<bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title><biblScope n="2" type="卷">卷二</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:41;page:p37b">四一．三七中</ref></note>說：</p>
-<lb n="0715a04" ed="Y"/><quote><p style="margin-left:3em">「和須蜜俱舍釋中云：是室利邏多解。彼師意說：入定方有輕安，或是輕安風。正理（論
+<lb n="0715a02" ed="Y"/>當<note n="0715002" resp="釋印順" type="orig"><bibl><foreign xml:lang="sa">Tāranātha</foreign><title level="m">《印度佛教史》</title>（寺本婉雅譯本<biblScope from="229" to="230" type="pp">二二九——二三〇</biblScope>）</bibl>。</note><note n="0715002" resp="正聞出版社" type="mod"><bibl><title level="m">《<note place="inline"><foreign xml:lang="ja">ターラナータ</foreign></note>印度佛教史》</title>（寺本婉雅譯本<biblScope from="229" to="230" type="pp">二二九——二三〇</biblScope>）</bibl>。</note>。但據<title level="m">《成唯識論述記》</title>，德慧是<quote>「安慧之師」</quote><note n="0715003" resp="釋印順" type="orig"><bibl><title level="m">《成唯識論述記》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:43;page:p231c" type="taisho">四三．二三一下</ref>）。</note>。</p>
+<lb n="0715a03" ed="Y"/><p xml:id="pY36p0715a0301" style="text-indent:2em">3.世友<title level="m">《俱舍釋》</title>：如<bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title><biblScope n="2" type="卷">卷二</biblScope></bibl><note place="inline">大正<ref target="#vol:41;page:p37b" type="taisho">四一．三七中</ref></note>說：</p>
+<lb n="0715a04" ed="Y"/><quote><p xml:id="pY36p0715a0401" style="margin-left:3em">「和須蜜俱舍釋中云：是室利邏多解。彼師意說：入定方有輕安，或是輕安風。正理（論
 <lb n="0715a05" ed="Y"/>）不破者，言中不違，故不破也」。</p></quote>
-<lb n="0715a06" ed="Y"/><p style="text-indent:2em">據西藏所傳：世友（<foreign xml:lang="sa">Vasumitra</foreign>）為<title level="m">《俱舍論》</title>的大學者，造有<title level="m">《俱舍論釋》</title>。受到北方摩
-<lb n="0715a07" ed="Y"/>訶釋迦婆羅王（<foreign xml:lang="sa"><note n="0715a0701" resp="CBETA" type="add">Mahāśākyabala【CB】，Mahāsākyabala【印順】</note><app n="0715a0701"><lem wit="【CB】" resp="正聞出版社">Mahāśākyabala</lem><rdg wit="【印順】">Mahāsākyabala</rdg></app></foreign>）的尊敬；與陳那（<foreign xml:lang="sa">Diṅnāga</foreign>）的弟子法稱（<foreign xml:lang="sa">Dharmakīrti</foreign>）同
+<lb n="0715a06" ed="Y"/><p xml:id="pY36p0715a0601" style="text-indent:2em">據西藏所傳：世友（<foreign xml:lang="sa">Vasumitra</foreign>）為<title level="m">《俱舍論》</title>的大學者，造有<title level="m">《俱舍論釋》</title>。受到北方摩
+<lb n="0715a07" ed="Y"/>訶釋迦婆羅王（<foreign xml:lang="sa"><note n="0715a0701" resp="CBETA" type="add">Mahāśākyabala【CB】，Mahāsākyabala【印順】</note><app n="0715a0701"><lem resp="正聞出版社" wit="【CB】">Mahāśākyabala</lem><rdg wit="【印順】">Mahāsākyabala</rdg></app></foreign>）的尊敬；與陳那（<foreign xml:lang="sa">Diṅnāga</foreign>）的弟子法稱（<foreign xml:lang="sa">Dharmakīrti</foreign>）同
 <lb n="0715a08" ed="Y"/>時<note n="0715004" resp="釋印順" type="orig"><bibl><foreign xml:lang="sa">Tāranātha</foreign><title level="m">《印度佛教史》</title>（寺本婉雅譯本<biblScope n="242" type="pp">二四二</biblScope>）</bibl>。</note><note n="0715004" resp="正聞出版社" type="mod"><bibl><title level="m">《<note place="inline"><foreign xml:lang="ja">ターラナータ</foreign></note>印度佛教史》</title>（寺本婉雅譯本<biblScope n="242" type="pp">二四二</biblScope>）</bibl>。</note>。世友的<title level="m">《俱舍論釋》</title>，漢藏都沒有傳譯。</p>
-<lb n="0715a09" ed="Y"/><p style="text-indent:2em">除上三部外，西藏所譯而現存的，還有好幾部：1.世親弟子，被稱為因明泰斗的陳那，造有
+<lb n="0715a09" ed="Y"/><p xml:id="pY36p0715a0901" style="text-indent:2em">除上三部外，西藏所譯而現存的，還有好幾部：1.世親弟子，被稱為因明泰斗的陳那，造有
 <lb n="0715a10" ed="Y"/><title level="m">《阿毘達磨俱舍論心髓燈疏》</title><note n="0715005" resp="釋印順" type="orig"><bibl><foreign xml:lang="sa">Tāranātha</foreign><title level="m">《印度佛教史》</title>（寺本婉雅譯本<biblScope n="199" type="pp">一九九</biblScope>）</bibl>。</note><note n="0715005" resp="正聞出版社" type="mod"><bibl><title level="m">《<note place="inline"><foreign xml:lang="ja">ターラナータ</foreign></note>印度佛教史》</title>（寺本婉雅譯本<biblScope n="199" type="pp">一九九</biblScope>）</bibl>。</note>。2.稱友（<foreign xml:lang="sa">Yaśomitra</foreign>）有<title level="m">《阿毘達磨俱舍論釋》</title>，稱友與戒賢
 <lb n="0715a11" ed="Y"/>（<foreign xml:lang="sa">Śīlabhadra</foreign>）同時<note n="0715006" resp="釋印順" type="orig"><bibl><foreign xml:lang="sa">Tāranātha</foreign><title level="m">《印度佛教史》</title>（寺本婉雅譯本<biblScope n="278" type="pp">二七八</biblScope>）</bibl>。</note><note n="0715006" resp="正聞出版社" type="mod"><bibl><title level="m">《<note place="inline"><foreign xml:lang="ja">ターラナータ</foreign></note>印度佛教史》</title>（寺本婉雅譯本<biblScope n="278" type="pp">二七八</biblScope>）</bibl>。</note>；還有梵本存在。3.滿增（<foreign xml:lang="sa">Pūrṇavardhana</foreign>）造<title level="m">《阿毘達磨俱舍廣釋隨
-<lb n="0715a12" ed="Y"/>相論》</title>。4.寂天（<foreign xml:lang="sa"><note n="0715a1201" resp="CBETA" type="add">Śāntideva【CB】，Śāntisthadeva【印順】</note><app n="0715a1201"><lem wit="【CB】" resp="正聞出版社">Śāntideva</lem><rdg wit="【印順】">Śāntisthadeva</rdg></app></foreign>）造<title level="m">《阿毘達磨俱舍釋廣釋要用論》</title><note n="0715007" resp="釋印順" type="orig"><bibl>呂澂<title level="m">《西藏佛學原論》</title><biblScope type="pp" n="102">（一〇二）</biblScope></bibl>。</note>。據西藏所傳：稱友
+<lb n="0715a12" ed="Y"/>相論》</title>。4.寂天（<foreign xml:lang="sa"><note n="0715a1201" resp="CBETA" type="add">Śāntideva【CB】，Śāntisthadeva【印順】</note><app n="0715a1201"><lem resp="正聞出版社" wit="【CB】">Śāntideva</lem><rdg wit="【印順】">Śāntisthadeva</rdg></app></foreign>）造<title level="m">《阿毘達磨俱舍釋廣釋要用論》</title><note n="0715007" resp="釋印順" type="orig"><bibl>呂澂<title level="m">《西藏佛學原論》</title><biblScope n="102" type="pp">（一〇二）</biblScope></bibl>。</note>。據西藏所傳：稱友
 <lb n="0715a13" ed="Y"/>屬於世友系；滿增屬於安慧系。值得注意的：漢譯的德慧釋，名<title level="m">《隨相論釋》</title>；而滿增所造的，
 <lb n="0715a14" ed="Y"/>也名<title level="m">《廣釋隨相論》</title>；而一向有德慧為<quote>「安慧之師」</quote>的傳說。所以，德慧應該是世親的弟子；安
-<lb n="0715a15" ed="Y"/>慧的年齡<note n="0715a1501" resp="CBETA" type="add">［－］【CB】，[01]【印順】</note><app n="0715a1501"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">[01]</rdg></app>較輕，也許曾從德慧修學。滿增是繼承安慧阿毘達磨的學者，也就與德慧論有關。這
+<lb n="0715a15" ed="Y"/>慧的年齡<note n="0715a1501" resp="CBETA" type="add">［－］【CB】，[01]【印順】</note><app n="0715a1501"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">[01]</rdg></app>較輕，也許曾從德慧修學。滿增是繼承安慧阿毘達磨的學者，也就與德慧論有關。這
 <pb n="0716a" ed="Y" xml:id="Y36.0034.0716a"/>
 <lb n="0716a01" ed="Y"/>些<title level="m">《俱舍論》</title>釋，都是西元五、六世紀的作品。印度有這麼多的<title level="m">《俱舍論》</title>釋，可想見<title level="m">《俱舍論
 <lb n="0716a02" ed="Y"/>》</title>盛行的一斑。</p>
-<lb n="0716a03" ed="Y"/><p style="text-indent:2em"><title level="m">《俱舍論》</title>在印度的傳宏，始終不衰。<title level="m">《俱舍論》</title>已成為佛學的重要部門，代表了初期佛法
+<lb n="0716a03" ed="Y"/><p xml:id="pY36p0716a0301" style="text-indent:2em"><title level="m">《俱舍論》</title>在印度的傳宏，始終不衰。<title level="m">《俱舍論》</title>已成為佛學的重要部門，代表了初期佛法
 <lb n="0716a04" ed="Y"/>的精髓。修學佛法的，幾乎沒有不學習<title level="m">《俱舍論》</title>的。唐義淨於咸亨三年（西元六七二年）西遊
-<lb n="0716a05" ed="Y"/>，在印度所見所聞的，也還是這樣。如玄照的<quote>「沈情俱舍」</quote><note n="0716008" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域求法高僧傳》</title><biblScope type="卷" n="上">卷上</biblScope></bibl>（大正<ref type="taisho" target="#vol:51;page:p1c">五一．一下</ref>）。</note>；道琳的<quote>「注情俱舍」</quote><note n="0716009" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域求法高僧傳》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:51;page:p6c" type="taisho">五一．六下</ref>）。</note>；智弘的
-<lb n="0716a06" ed="Y"/><quote>「既解俱舍」</quote><note n="0716010" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域求法高僧傳》</title><biblScope type="卷" n="下">卷下</biblScope></bibl>（大正<ref target="#vol:51;page:p9a" type="taisho">五一．九上</ref>）。</note>；無行的<quote>「研味俱舍」</quote><note n="0716011" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域求法高僧傳》</title><biblScope type="卷" n="下">卷下</biblScope></bibl>（大正<ref type="taisho" target="#vol:51;page:p9b">五一．九中</ref>）。</note>；法朗的<quote>「聽俱舍之幽宗」</quote><note n="0716012" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域求法高僧傳》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref type="taisho" target="#vol:51;page:p12a">五一．一二上</ref>）。</note>。這一學風，傳入西藏，
+<lb n="0716a05" ed="Y"/>，在印度所見所聞的，也還是這樣。如玄照的<quote>「沈情俱舍」</quote><note n="0716008" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域求法高僧傳》</title><biblScope n="上" type="卷">卷上</biblScope></bibl>（大正<ref target="#vol:51;page:p1c" type="taisho">五一．一下</ref>）。</note>；道琳的<quote>「注情俱舍」</quote><note n="0716009" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域求法高僧傳》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:51;page:p6c" type="taisho">五一．六下</ref>）。</note>；智弘的
+<lb n="0716a06" ed="Y"/><quote>「既解俱舍」</quote><note n="0716010" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域求法高僧傳》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:51;page:p9a" type="taisho">五一．九上</ref>）。</note>；無行的<quote>「研味俱舍」</quote><note n="0716011" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域求法高僧傳》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:51;page:p9b" type="taisho">五一．九中</ref>）。</note>；法朗的<quote>「聽俱舍之幽宗」</quote><note n="0716012" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域求法高僧傳》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:51;page:p12a" type="taisho">五一．一二上</ref>）。</note>。這一學風，傳入西藏，
 <lb n="0716a07" ed="Y"/><title level="m">《俱舍論》</title>為五大部之一，為學法者必修的要典。</p>
 <lb n="0716a08" ed="Y"/>
 <lb n="0716a09" ed="Y"/>
@@ -118,46 +138,46 @@
 <lb n="0717a01" ed="Y"/>
 <lb n="0717a02" ed="Y"/>
 <lb n="0717a03" ed="Y"/></cb:div>
-<lb n="0717a04" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　說一切有部的論書</cb:mulu><head>第二節　說一切有部<note n="0717a0401" resp="CBETA" type="add">的【CB】，［－］【印順】</note><app n="0717a0401"><lem wit="【CB】" resp="正聞出版社">的</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>論書</head>
-<lb n="0717a05" ed="Y"/><p style="text-indent:2em">說一切有部的化區，非常廣大，大論師也歷代多有；論書的部類，當然也就很多的了。除上
+<lb n="0717a04" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　說一切有部的論書</cb:mulu><head>第二節　說一切有部<note n="0717a0401" resp="CBETA" type="add">的【CB】，［－］【印順】</note><app n="0717a0401"><lem resp="正聞出版社" wit="【CB】">的</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>論書</head>
+<lb n="0717a05" ed="Y"/><p xml:id="pY36p0717a0501" style="text-indent:2em">說一切有部的化區，非常廣大，大論師也歷代多有；論書的部類，當然也就很多的了。除上
 <lb n="0717a06" ed="Y"/>面所說到的，或曾譯傳來中國的而外，多數是泯沒無聞了。玄奘去印度遊學，知道的，或曾經修
 <lb n="0717a07" ed="Y"/>學的，略錄如下：</p>
-<lb n="0717a08" ed="Y"/><p style="text-indent:2em">1.佛使（<foreign xml:lang="sa">Buddhadāsa</foreign>）：佛使造有說一切有部的<title level="m">《大毘婆沙論》</title>，如<bibl><title level="m">《大唐西域記》</title><biblScope n="5" type="卷">卷
+<lb n="0717a08" ed="Y"/><p xml:id="pY36p0717a0801" style="text-indent:2em">1.佛使（<foreign xml:lang="sa">Buddhadāsa</foreign>）：佛使造有說一切有部的<title level="m">《大毘婆沙論》</title>，如<bibl><title level="m">《大唐西域記》</title><biblScope n="5" type="卷">卷
 <lb n="0717a09" ed="Y"/>五</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p897a" type="taisho">五一．八九七上</ref></note>說：</p>
-<lb n="0717a10" ed="Y"/><quote><p style="margin-left:3em">「阿耶穆佉國……臨殑伽河岸……其側伽藍……臺閣宏麗，奇製鬱起。是昔佛陀馱娑（唐
+<lb n="0717a10" ed="Y"/><quote><p xml:id="pY36p0717a1001" style="margin-left:3em">「阿耶穆佉國……臨殑伽河岸……其側伽藍……臺閣宏麗，奇製鬱起。是昔佛陀馱娑（唐
 <lb n="0717a11" ed="Y"/>言覺使）論師，於此製說一切有部《大毘婆沙論》」。</p></quote>
-<lb n="0717a12" ed="Y"/><p style="text-indent:2em">從<title level="m">《大唐西域記》</title>看來，造論而名毘婆沙的，不在少數。毘婆沙只是廣說、廣釋，並不限於
+<lb n="0717a12" ed="Y"/><p xml:id="pY36p0717a1201" style="text-indent:2em">從<title level="m">《大唐西域記》</title>看來，造論而名毘婆沙的，不在少數。毘婆沙只是廣說、廣釋，並不限於
 <lb n="0717a13" ed="Y"/>傳說五百阿羅漢所結集的。佛使所造的，屬於說一切有部。西藏傳說：佛使是無著（<foreign xml:lang="sa">Asaṅga</foreign>）
-<lb n="0717a14" ed="Y"/>的弟子，晚年宏法於西方（西印度）<note n="0717001" resp="釋印順" type="orig"><bibl><foreign xml:lang="sa">Tāranātha</foreign><title level="m">《印度佛教史》</title>（寺本婉雅譯本<biblScope type="pp" n="192">一九二</biblScope>）</bibl>。</note><note n="0717001" resp="正聞出版社" type="mod"><bibl><title level="m">《<note place="inline"><foreign xml:lang="ja">ターラナータ</foreign></note>印度佛教史》</title>（寺本婉雅譯本<biblScope type="pp" n="192">一九二</biblScope>）</bibl>。</note>。玄奘在羯若鞠闍國（<foreign xml:lang="sa"><note n="0717a1401" resp="CBETA" type="add">Kanyakubja【CB】，Kanyakybja【印順】</note><app n="0717a1401"><lem wit="【CB】" resp="正聞出版社">Kanyakubja</lem><rdg wit="【印順】">Kanyakybja</rdg></app></foreign>）時，曾從毘黎耶犀
+<lb n="0717a14" ed="Y"/>的弟子，晚年宏法於西方（西印度）<note n="0717001" resp="釋印順" type="orig"><bibl><foreign xml:lang="sa">Tāranātha</foreign><title level="m">《印度佛教史》</title>（寺本婉雅譯本<biblScope n="192" type="pp">一九二</biblScope>）</bibl>。</note><note n="0717001" resp="正聞出版社" type="mod"><bibl><title level="m">《<note place="inline"><foreign xml:lang="ja">ターラナータ</foreign></note>印度佛教史》</title>（寺本婉雅譯本<biblScope n="192" type="pp">一九二</biblScope>）</bibl>。</note>。玄奘在羯若鞠闍國（<foreign xml:lang="sa"><note n="0717a1401" resp="CBETA" type="add">Kanyakubja【CB】，Kanyakybja【印順】</note><app n="0717a1401"><lem resp="正聞出版社" wit="【CB】">Kanyakubja</lem><rdg wit="【印順】">Kanyakybja</rdg></app></foreign>）時，曾從毘黎耶犀
 <pb n="0718a" ed="Y" xml:id="Y36.0034.0718a"/>
-<lb n="0718a01" ed="Y"/>那（<foreign xml:lang="sa">Vīryasena</foreign>），<quote>「讀佛使毘婆沙」</quote><note n="0718002" resp="釋印順" type="orig"><bibl><title level="m">《大慈恩寺三藏法師傳》</title><biblScope type="卷" n="2">卷二</biblScope></bibl>（大正<ref target="#vol:50;page:p233b" type="taisho">五〇．二三三中</ref>）。</note>。佛使的論書，似乎多流行於恆河上流。</p>
-<lb n="0718a02" ed="Y"/><p style="text-indent:2em">2.德光（<foreign xml:lang="sa">Guṇaprabha</foreign>）：德光作<title level="m">《辯真論》</title>，如<bibl><title level="m">《大慈恩寺三藏法師傳》</title><biblScope type="卷" n="2">卷二</biblScope></bibl><note place="inline">大正<ref target="#vol:50;page:p232c" type="taisho">五〇
+<lb n="0718a01" ed="Y"/>那（<foreign xml:lang="sa">Vīryasena</foreign>），<quote>「讀佛使毘婆沙」</quote><note n="0718002" resp="釋印順" type="orig"><bibl><title level="m">《大慈恩寺三藏法師傳》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:50;page:p233b" type="taisho">五〇．二三三中</ref>）。</note>。佛使的論書，似乎多流行於恆河上流。</p>
+<lb n="0718a02" ed="Y"/><p xml:id="pY36p0718a0201" style="text-indent:2em">2.德光（<foreign xml:lang="sa">Guṇaprabha</foreign>）：德光作<title level="m">《辯真論》</title>，如<bibl><title level="m">《大慈恩寺三藏法師傳》</title><biblScope n="2" type="卷">卷二</biblScope></bibl><note place="inline">大正<ref target="#vol:50;page:p232c" type="taisho">五〇
 <lb n="0718a03" ed="Y"/>．二三二下</ref></note>說：</p>
-<lb n="0718a04" ed="Y"/><quote><p style="margin-left:3em">「秣底補羅國，其王戍陀羅種也。伽藍十餘所，僧八百餘人，皆學小乘<note n="0718a0401" resp="CBETA" type="add">［－］【CB】，說【印順】</note><app n="0718a0401"><lem wit="【CB】" resp="正聞出版社"><note type="cf1">《大唐大慈恩寺三藏法師傳》卷2(CBETA, T50, no. 2053, p. 232, c11-16)</note></lem><rdg wit="【印順】">說</rdg></app>一切有部。大城
-<lb n="0718a05" ed="Y"/>南四五里，有小伽藍，僧徒五十餘人。昔瞿拏鉢<note n="0718a0501" resp="CBETA" type="add">剌【CB】，刺【印順】</note><app n="0718a0501"><lem wit="【CB】" resp="正聞出版社">剌</lem><rdg wit="【印順】">刺</rdg></app>婆（唐言德光）論師，於此作辯真等論
+<lb n="0718a04" ed="Y"/><quote><p xml:id="pY36p0718a0401" style="margin-left:3em">「秣底補羅國，其王戍陀羅種也。伽藍十餘所，僧八百餘人，皆學小乘<note n="0718a0401" resp="CBETA" type="add">［－］【CB】，說【印順】</note><app n="0718a0401"><lem resp="正聞出版社" wit="【CB】"><note type="cf1">《大唐大慈恩寺三藏法師傳》卷2(CBETA, T50, no. 2053, p. 232, c11-16)</note></lem><rdg wit="【印順】">說</rdg></app>一切有部。大城
+<lb n="0718a05" ed="Y"/>南四五里，有小伽藍，僧徒五十餘人。昔瞿拏鉢<note n="0718a0501" resp="CBETA" type="add">剌【CB】，刺【印順】</note><app n="0718a0501"><lem resp="正聞出版社" wit="【CB】">剌</lem><rdg wit="【印順】">刺</rdg></app>婆（唐言德光）論師，於此作辯真等論
 <lb n="0718a06" ed="Y"/>，凡百餘部。論師是鉢伐多國人；本習大乘，後退學小乘」。</p></quote>
-<lb n="0718a07" ed="Y"/><p style="text-indent:2em">德光所作的<title level="m">《辯真論》</title>，玄奘曾受學，如<bibl><title level="m">《大慈恩寺三藏法師傳》</title><biblScope n="2" type="卷">卷二</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:50;page:p233a">五〇．二三三上</ref></note>
+<lb n="0718a07" ed="Y"/><p xml:id="pY36p0718a0701" style="text-indent:2em">德光所作的<title level="m">《辯真論》</title>，玄奘曾受學，如<bibl><title level="m">《大慈恩寺三藏法師傳》</title><biblScope n="2" type="卷">卷二</biblScope></bibl><note place="inline">大正<ref target="#vol:50;page:p233a" type="taisho">五〇．二三三上</ref></note>
 <lb n="0718a08" ed="Y"/>說：</p>
-<lb n="0718a09" ed="Y"/><quote><p style="margin-left:3em">「秣底補羅國……其國有大德，名蜜多斯那，年九十，即德光論師弟子。……就學薩婆多
+<lb n="0718a09" ed="Y"/><quote><p xml:id="pY36p0718a0901" style="margin-left:3em">「秣底補羅國……其國有大德，名蜜多斯那，年九十，即德光論師弟子。……就學薩婆多
 <lb n="0718a10" ed="Y"/>部坦埵三弟鑠論（唐言辯真論，二萬五千頌，德光所造也），隨發智論等」。</p></quote>
-<lb n="0718a11" ed="Y"/><p style="text-indent:2em">德光的<title level="m">《辯真論》</title>，是二萬五千頌的大論。玄奘所學的，還有<title level="m">《隨發智論》</title>，雖不明作者是
+<lb n="0718a11" ed="Y"/><p xml:id="pY36p0718a1101" style="text-indent:2em">德光的<title level="m">《辯真論》</title>，是二萬五千頌的大論。玄奘所學的，還有<title level="m">《隨發智論》</title>，雖不明作者是
 <lb n="0718a12" ed="Y"/>誰，但就文意來說，也極可能是德光所作的。秣底補羅（<foreign xml:lang="sa">Matipura</foreign>）為說一切有部的化區，眾
-<lb n="0718a13" ed="Y"/>賢（<foreign xml:lang="sa"><note n="0718a1301" resp="CBETA" type="add">Saṃghabhadra【CB】，Saṁghabhadra【印順】</note><app n="0718a1301"><lem wit="【CB】" resp="正聞出版社">Saṃghabhadra</lem><rdg wit="【印順】">Saṁghabhadra</rdg></app></foreign>）、無垢友（<foreign xml:lang="sa">Vimalamitra</foreign>），都在此國去世，德光也在此造論。玄奘傳
+<lb n="0718a13" ed="Y"/>賢（<foreign xml:lang="sa"><note n="0718a1301" resp="CBETA" type="add">Saṃghabhadra【CB】，Saṁghabhadra【印順】</note><app n="0718a1301"><lem resp="正聞出版社" wit="【CB】">Saṃghabhadra</lem><rdg wit="【印順】">Saṁghabhadra</rdg></app></foreign>）、無垢友（<foreign xml:lang="sa">Vimalamitra</foreign>），都在此國去世，德光也在此造論。玄奘傳
 <lb n="0718a14" ed="Y"/>說：德光本是學大乘的，後<quote>「因覽毘婆沙論，退業而學小乘，作數十部論；破大乘綱紀，成小乘
-<lb n="0718a15" ed="Y"/>執著」</quote><note n="0718003" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域記》</title><biblScope type="卷" n="4">卷四</biblScope></bibl>（大正<ref type="taisho" target="#vol:51;page:p891c">五一．八九一下</ref>）。</note>。有德光上升兜率，見彌勒（<foreign xml:lang="sa">Maitreya</foreign>）而不拜的傳說。玄奘以德光為反大乘者，因
+<lb n="0718a15" ed="Y"/>執著」</quote><note n="0718003" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域記》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref target="#vol:51;page:p891c" type="taisho">五一．八九一下</ref>）。</note>。有德光上升兜率，見彌勒（<foreign xml:lang="sa">Maitreya</foreign>）而不拜的傳說。玄奘以德光為反大乘者，因
 <pb n="0719a" ed="Y" xml:id="Y36.0034.0719a"/>
 <lb n="0719a01" ed="Y"/>而有不利德光的傳說。但據西藏所傳：德光為世親（<foreign xml:lang="sa">Vasubandhu</foreign>）弟子，精通聲聞三藏及大乘
 <lb n="0719a02" ed="Y"/>經，持阿毘達磨。傳說他暗誦（自宗及異部）十萬部律，特重律儀。領導的清淨僧團，如早期諸
-<lb n="0719a03" ed="Y"/>阿羅漢護持的一樣<note n="0719004" resp="釋印順" type="orig"><bibl><foreign xml:lang="sa">Tāranātha</foreign><title level="m">《印度佛教史》</title>（寺本婉雅譯本<biblScope type="pp" n="194">一九四</biblScope>）</bibl>。</note><note n="0719004" resp="正聞出版社" type="mod"><bibl><title level="m">《<note place="inline"><foreign xml:lang="ja">ターラナータ</foreign></note>印度佛教史》</title>（寺本婉雅譯本<biblScope type="pp" n="194">一九四</biblScope>）</bibl>。</note>。德光實為世親門下的重律學派；西藏的律學，就以德光為宗。當時的經部
+<lb n="0719a03" ed="Y"/>阿羅漢護持的一樣<note n="0719004" resp="釋印順" type="orig"><bibl><foreign xml:lang="sa">Tāranātha</foreign><title level="m">《印度佛教史》</title>（寺本婉雅譯本<biblScope n="194" type="pp">一九四</biblScope>）</bibl>。</note><note n="0719004" resp="正聞出版社" type="mod"><bibl><title level="m">《<note place="inline"><foreign xml:lang="ja">ターラナータ</foreign></note>印度佛教史》</title>（寺本婉雅譯本<biblScope n="194" type="pp">一九四</biblScope>）</bibl>。</note>。德光實為世親門下的重律學派；西藏的律學，就以德光為宗。當時的經部
 <lb n="0719a04" ed="Y"/>學，對大乘瑜伽來說，等於為回小入大作準備，聲氣互相呼應。而德光重說一切有部律，說一切
 <lb n="0719a05" ed="Y"/>有部阿毘達磨，無論是義理與事行，都不免與大乘瑜伽學小有隔礙。這就是玄奘所傳，德光退大
 <lb n="0719a06" ed="Y"/>學小，破大執小的原因了。</p>
-<lb n="0719a07" ed="Y"/><p style="text-indent:2em"><note n="0719a0701" resp="CBETA" type="add">3.【CB】，5.【印順】</note><app n="0719a0701"><lem wit="【CB】" resp="正聞出版社">3.</lem><rdg wit="【印順】">5.</rdg></app>索建地羅（<foreign xml:lang="sa">Skandhila</foreign>）：或作塞建地羅，義譯為悟入，就是眾賢的師長。傳說世親去迦
-<lb n="0719a08" ed="Y"/>溼彌羅（<foreign xml:lang="sa"><note n="0719a0801" resp="CBETA" type="add">Kaśmīra【CB】，Kaśmīlr【印順】</note><app n="0719a0801"><lem wit="【CB】" resp="正聞出版社">Kaśmīra</lem><rdg wit="【印順】">Kaśmīlr</rdg></app></foreign>），學習毘婆沙時，曾親近悟入<note n="0719005" resp="釋印順" type="orig"><bibl><title level="m">《俱舍論<note type="authorial">（寶）</note>疏》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:41;page:p458a" type="taisho">四一．四五八上</ref>）。</note>；悟入是當時的毘婆沙師。<bibl><title level="m">《大唐西域記
-<lb n="0719a09" ed="Y"/>》</title><biblScope type="卷" n="3">卷三</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:51;page:p887c">五一．八八七下</ref></note>說：</p>
-<lb n="0719a10" ed="Y"/><quote><p style="margin-left:3em">「迦溼彌羅國……佛牙伽藍東十餘里，北山崖間，有小伽藍，是昔索建地羅大論師，於此
+<lb n="0719a07" ed="Y"/><p xml:id="pY36p0719a0701" style="text-indent:2em"><note n="0719a0701" resp="CBETA" type="add">3.【CB】，5.【印順】</note><app n="0719a0701"><lem resp="正聞出版社" wit="【CB】">3.</lem><rdg wit="【印順】">5.</rdg></app>索建地羅（<foreign xml:lang="sa">Skandhila</foreign>）：或作塞建地羅，義譯為悟入，就是眾賢的師長。傳說世親去迦
+<lb n="0719a08" ed="Y"/>溼彌羅（<foreign xml:lang="sa"><note n="0719a0801" resp="CBETA" type="add">Kaśmīra【CB】，Kaśmīlr【印順】</note><app n="0719a0801"><lem resp="正聞出版社" wit="【CB】">Kaśmīra</lem><rdg wit="【印順】">Kaśmīlr</rdg></app></foreign>），學習毘婆沙時，曾親近悟入<note n="0719005" resp="釋印順" type="orig"><bibl><title level="m">《俱舍論<note type="authorial">（寶）</note>疏》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:41;page:p458a" type="taisho">四一．四五八上</ref>）。</note>；悟入是當時的毘婆沙師。<bibl><title level="m">《大唐西域記
+<lb n="0719a09" ed="Y"/>》</title><biblScope n="3" type="卷">卷三</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p887c" type="taisho">五一．八八七下</ref></note>說：</p>
+<lb n="0719a10" ed="Y"/><quote><p xml:id="pY36p0719a1001" style="margin-left:3em">「迦溼彌羅國……佛牙伽藍東十餘里，北山崖間，有小伽藍，是昔索建地羅大論師，於此
 <lb n="0719a11" ed="Y"/>作《眾事分毘婆沙論》」。</p></quote>
-<lb n="0719a12" ed="Y"/><p style="text-indent:2em">悟入為迦溼彌羅論師。<title level="m">《眾事分》</title>，就是世友（<foreign xml:lang="sa">Vasumitra</foreign>）<title level="m">《品類論》</title>；這是被尊為
+<lb n="0719a12" ed="Y"/><p xml:id="pY36p0719a1201" style="text-indent:2em">悟入為迦溼彌羅論師。<title level="m">《眾事分》</title>，就是世友（<foreign xml:lang="sa">Vasumitra</foreign>）<title level="m">《品類論》</title>；這是被尊為
 <lb n="0719a13" ed="Y"/>六足之一，受到阿毘達磨西方系所推重的論書。悟入為<title level="m">《眾事分》</title>作<title level="m">《毘婆沙論》</title>，可說是面
 <lb n="0719a14" ed="Y"/>對說一切有部阿毘達磨論宗的不利環境（經部與瑜伽大乘呼應，評破說一切有部），而謀東西二
 <lb n="0719a15" ed="Y"/>系的協調，以一致抗外，維護自宗的作品。<title level="m">《眾事分毘婆沙論》</title>雖沒有傳譯，而悟入為法的苦心
@@ -165,23 +185,23 @@
 <lb n="0720a01" ed="Y"/>，在另一作品——<title level="m">《入阿毘達磨論》</title>中表現出來。<title level="m">《入阿毘達磨論》</title>，玄奘於顯慶三年（西元六
 <lb n="0720a02" ed="Y"/>五八年）譯出，分二卷。<title level="m">《入論》</title>的思想，當然是毘婆沙師的。但組織內容，特別是心相應行，
 <lb n="0720a03" ed="Y"/>煩惱與智，存有<bibl>《<title level="m">品類論</title>．<title level="a">辯五事品</title>》</bibl>的特色。<title level="m">《論》</title>說無表色為：<quote>「無表色相續轉。亦有無
-<lb n="0720a04" ed="Y"/>表唯一剎那，依總種類，故說相續」</quote><note n="0720006" resp="釋印順" type="orig"><bibl><title level="m">《入阿毘達磨論》</title><biblScope type="卷" n="上">卷上</biblScope></bibl>（大正<ref type="taisho" target="#vol:28;page:p981b">二八．九八一中</ref>）。</note>；這是會通<title level="m">《雜心論》</title>的。關於非擇滅：<quote>「謂有別法，畢
-<lb n="0720a05" ed="Y"/>竟障礙未來法生」</quote><note n="0720007" resp="釋印順" type="orig"><bibl><title level="m">《入阿毘達磨論》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref type="taisho" target="#vol:28;page:p989a">二八．九八九上</ref>）。</note>，與眾賢所說相同，應為當時毘婆沙師的正義。對不相應行法，力主非實有
+<lb n="0720a04" ed="Y"/>表唯一剎那，依總種類，故說相續」</quote><note n="0720006" resp="釋印順" type="orig"><bibl><title level="m">《入阿毘達磨論》</title><biblScope n="上" type="卷">卷上</biblScope></bibl>（大正<ref target="#vol:28;page:p981b" type="taisho">二八．九八一中</ref>）。</note>；這是會通<title level="m">《雜心論》</title>的。關於非擇滅：<quote>「謂有別法，畢
+<lb n="0720a05" ed="Y"/>竟障礙未來法生」</quote><note n="0720007" resp="釋印順" type="orig"><bibl><title level="m">《入阿毘達磨論》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:28;page:p989a" type="taisho">二八．九八九上</ref>）。</note>，與眾賢所說相同，應為當時毘婆沙師的正義。對不相應行法，力主非實有
 <lb n="0720a06" ed="Y"/>不可。對經部義也多予拒斥，如說：<quote>「有劣慧者，未親承事無倒解釋佛語諸師，故於心所迷謬誹
-<lb n="0720a07" ed="Y"/>撥：或說唯三，或全非有」</quote><note n="0720008" resp="釋印順" type="orig"><bibl><title level="m">《入阿毘達磨論》</title><biblScope type="卷" n="上">卷上</biblScope></bibl>（大正<ref type="taisho" target="#vol:28;page:p984b">二八．九八四中</ref>）。</note>。<title level="m">《入論》</title>的分類法，比較特殊，如<title level="m">《論》</title>卷上<note place="inline">大正<ref type="taisho" target="#vol:28;page:p980c">二八．九八〇下</ref></note>
+<lb n="0720a07" ed="Y"/>撥：或說唯三，或全非有」</quote><note n="0720008" resp="釋印順" type="orig"><bibl><title level="m">《入阿毘達磨論》</title><biblScope n="上" type="卷">卷上</biblScope></bibl>（大正<ref target="#vol:28;page:p984b" type="taisho">二八．九八四中</ref>）。</note>。<title level="m">《入論》</title>的分類法，比較特殊，如<title level="m">《論》</title>卷上<note place="inline">大正<ref target="#vol:28;page:p980c" type="taisho">二八．九八〇下</ref></note>
 <lb n="0720a08" ed="Y"/>說：</p>
-<lb n="0720a09" ed="Y"/><quote><p style="margin-left:3em">「善逝宗有八句義：一色，二受，三想，四行，五識，六虛空，七擇滅，八非擇滅；此總
+<lb n="0720a09" ed="Y"/><quote><p xml:id="pY36p0720a0901" style="margin-left:3em">「善逝宗有八句義：一色，二受，三想，四行，五識，六虛空，七擇滅，八非擇滅；此總
 <lb n="0720a10" ed="Y"/>攝一切義」。</p></quote>
-<lb n="0720a11" ed="Y"/><p style="text-indent:2em">五蘊及三無為，分立八句義，可說是新的建立。這也許對當時外道盛行的六句義、十句義等
+<lb n="0720a11" ed="Y"/><p xml:id="pY36p0720a1101" style="text-indent:2em">五蘊及三無為，分立八句義，可說是新的建立。這也許對當時外道盛行的六句義、十句義等
 <lb n="0720a12" ed="Y"/>而方便安立的吧！</p>
-<lb n="0720a13" ed="Y"/><p style="text-indent:2em">4.伊溼伐邏（<foreign xml:lang="sa">Īśvara</foreign>）：<bibl><title level="m">《大唐西域記》</title><biblScope n="2" type="卷">卷二</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:51;page:p881b">五一．八八一中</ref></note>說：</p>
-<lb n="0720a14" ed="Y"/><quote><p style="margin-left:3em">「健馱羅國……跋虜沙城北……其側伽藍，五十餘僧，並小乘學也。昔伊溼伐邏（唐言自
+<lb n="0720a13" ed="Y"/><p xml:id="pY36p0720a1301" style="text-indent:2em">4.伊溼伐邏（<foreign xml:lang="sa">Īśvara</foreign>）：<bibl><title level="m">《大唐西域記》</title><biblScope n="2" type="卷">卷二</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p881b" type="taisho">五一．八八一中</ref></note>說：</p>
+<lb n="0720a14" ed="Y"/><quote><p xml:id="pY36p0720a1401" style="margin-left:3em">「健馱羅國……跋虜沙城北……其側伽藍，五十餘僧，並小乘學也。昔伊溼伐邏（唐言自
 <lb n="0720a15" ed="Y"/>在）論師，於此製《阿毘達磨明燈論》」。</p></quote>
 <pb n="0721a" ed="Y" xml:id="Y36.0034.0721a"/>
-<lb n="0721a01" ed="Y"/><p style="text-indent:2em">論師的事<note n="0721a0101" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0721a0101"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>，論書的內容，都無可稽考。從地區與論名來說，大概是阿毘達磨健陀羅系的作
+<lb n="0721a01" ed="Y"/><p xml:id="pY36p0721a0101" style="text-indent:2em">論師的事<note n="0721a0101" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0721a0101"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>，論書的內容，都無可稽考。從地區與論名來說，大概是阿毘達磨健陀羅系的作
 <lb n="0721a02" ed="Y"/>品。「明證」，或作「明燈」。晚期的論書，每有稱為「燈」的，是顯了的意思。</p>
-<lb n="0721a03" ed="Y"/><p style="text-indent:2em">5.日胄（<foreign xml:lang="sa">Sūryavarman</foreign>）：玄奘在羯若鞠闍國，曾從毘黎耶犀那（精進軍），學「日胄毘
-<lb n="0721a04" ed="Y"/>婆沙記」<note n="0721009" resp="釋印順" type="orig"><bibl><title level="m">《大慈恩寺三藏法師傳》</title><biblScope type="卷" n="2">卷二</biblScope></bibl>（大正<ref type="taisho" target="#vol:50;page:p233b">五〇，二三三中</ref>）。</note>。其他的事<note n="0721a0401" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0721a0401"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>，也不詳。</p>
+<lb n="0721a03" ed="Y"/><p xml:id="pY36p0721a0301" style="text-indent:2em">5.日胄（<foreign xml:lang="sa">Sūryavarman</foreign>）：玄奘在羯若鞠闍國，曾從毘黎耶犀那（精進軍），學「日胄毘
+<lb n="0721a04" ed="Y"/>婆沙記」<note n="0721009" resp="釋印順" type="orig"><bibl><title level="m">《大慈恩寺三藏法師傳》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:50;page:p233b" type="taisho">五〇，二三三中</ref>）。</note>。其他的事<note n="0721a0401" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0721a0401"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>，也不詳。</p>
 <lb n="0721a05" ed="Y"/>
 <lb n="0721a06" ed="Y"/>
 <lb n="0721a07" ed="Y"/>
@@ -192,31 +212,31 @@
 <lb n="0721a12" ed="Y"/>
 <lb n="0721a13" ed="Y"/></cb:div>
 <lb n="0721a14" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　餘部的論書</cb:mulu><head>第三節　餘部的論書</head>
-<lb n="0721a15" ed="Y"/><p style="text-indent:2em">聲聞部派的論書，傳譯於我國的，以說一切有部的為最多。這不但地勢<note n="0721a1501" resp="CBETA" type="add" subtype="規範字詞">鄰【CB】，隣【印順】</note><app n="0721a1501"><lem wit="【CB】" resp="CBETA">鄰</lem><rdg wit="【印順】">隣</rdg></app>近；在部派佛教中
+<lb n="0721a15" ed="Y"/><p xml:id="pY36p0721a1501" style="text-indent:2em">聲聞部派的論書，傳譯於我國的，以說一切有部的為最多。這不但地勢<note n="0721a1501" resp="CBETA" type="add" subtype="規範字詞">鄰【CB】，隣【印順】</note><app n="0721a1501"><lem resp="CBETA" wit="【CB】">鄰</lem><rdg wit="【印順】">隣</rdg></app>近；在部派佛教中
 <pb n="0722a" ed="Y" xml:id="Y36.0034.0722a"/>
 <lb n="0722a01" ed="Y"/>，也唯有說一切有部，特別重視論部。說一切有部以外的，如分別說者、犢子、正量部等論書，
 <lb n="0722a02" ed="Y"/>本書已略有論及。傳譯及傳說的，還有幾部，也附記於此。</p>
-<lb n="0722a03" ed="Y"/><p style="text-indent:2em">1.大眾部論書：<bibl><title level="m">《大唐西域記》</title><biblScope n="3" type="卷">卷三</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:51;page:p888a">五一．八八八上</ref></note>說：</p>
-<lb n="0722a04" ed="Y"/><quote><p style="margin-left:3em">「迦溼彌羅國……大河北接山南，至大眾部伽藍，僧徒百餘人。昔佛地羅<note place="inline">唐言覺取</note>論
+<lb n="0722a03" ed="Y"/><p xml:id="pY36p0722a0301" style="text-indent:2em">1.大眾部論書：<bibl><title level="m">《大唐西域記》</title><biblScope n="3" type="卷">卷三</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p888a" type="taisho">五一．八八八上</ref></note>說：</p>
+<lb n="0722a04" ed="Y"/><quote><p xml:id="pY36p0722a0401" style="margin-left:3em">「迦溼彌羅國……大河北接山南，至大眾部伽藍，僧徒百餘人。昔佛地羅<note place="inline">唐言覺取</note>論
 <lb n="0722a05" ed="Y"/>師，於此作大眾部《集真論》」。</p></quote>
-<lb n="0722a06" ed="Y"/><p style="text-indent:2em">迦溼彌羅（<foreign xml:lang="sa">Kaśmīra</foreign>）有大眾部，並且一直維持其學統，這是很難得的記錄。佛地羅
+<lb n="0722a06" ed="Y"/><p xml:id="pY36p0722a0601" style="text-indent:2em">迦溼彌羅（<foreign xml:lang="sa">Kaśmīra</foreign>）有大眾部，並且一直維持其學統，這是很難得的記錄。佛地羅
 <lb n="0722a07" ed="Y"/>（<foreign xml:lang="sa">Buddhira</foreign>）所作的<title level="m">《集真論》</title>，也沒有傳譯過來。在聲聞四大派中，惟有大眾部的論書，一部也沒
 <lb n="0722a08" ed="Y"/>有傳譯，是最遺憾的事！</p>
-<lb n="0722a09" ed="Y"/><p style="text-indent:2em">2.正量部論書：<bibl><title level="m">《大唐西域記》</title><biblScope type="卷" n="5">卷五</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p898c" type="taisho">五一．八九八下</ref></note>說：</p>
-<lb n="0722a10" ed="Y"/><quote><p style="margin-left:3em">「鞞索迦國……城南道左，有大伽藍。昔提婆設摩阿羅漢，於此作《識身足論》，說無我人。
+<lb n="0722a09" ed="Y"/><p xml:id="pY36p0722a0901" style="text-indent:2em">2.正量部論書：<bibl><title level="m">《大唐西域記》</title><biblScope n="5" type="卷">卷五</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p898c" type="taisho">五一．八九八下</ref></note>說：</p>
+<lb n="0722a10" ed="Y"/><quote><p xml:id="pY36p0722a1001" style="margin-left:3em">「鞞索迦國……城南道左，有大伽藍。昔提婆設摩阿羅漢，於此作《識身足論》，說無我人。
 <lb n="0722a11" ed="Y"/>瞿波阿羅漢，作《聖教要實論》，說有我人。因此法執，遂深諍論」。</p></quote>
-<lb n="0722a12" ed="Y"/><p style="text-indent:2em">鞞索迦（<foreign xml:lang="sa"><note n="0722a1201" resp="CBETA" type="add">Viśākhā【CB】，Visâkhâ【印順】</note><app n="0722a1201"><lem wit="【CB】" resp="正聞出版社">Viśākhā</lem><rdg wit="【印順】">Visâkhâ</rdg></app></foreign>）是正量部的化區，提婆設摩（<foreign xml:lang="sa">Devaśarman</foreign>）與瞿波（<foreign xml:lang="sa">Gopo</foreign>），都在此
+<lb n="0722a12" ed="Y"/><p xml:id="pY36p0722a1201" style="text-indent:2em">鞞索迦（<foreign xml:lang="sa"><note n="0722a1201" resp="CBETA" type="add">Viśākhā【CB】，Visâkhâ【印順】</note><app n="0722a1201"><lem resp="正聞出版社" wit="【CB】">Viśākhā</lem><rdg wit="【印順】">Visâkhâ</rdg></app></foreign>）是正量部的化區，提婆設摩（<foreign xml:lang="sa">Devaśarman</foreign>）與瞿波（<foreign xml:lang="sa">Gopo</foreign>），都在此
 <lb n="0722a13" ed="Y"/>造論。瞿波的<title level="m">《聖教要實論》</title>，與提婆設摩的<title level="m">《識身論》</title>並舉，為有我與無我的論諍。似乎這是
 <lb n="0722a14" ed="Y"/>說一切有部，與犢子部分裂不久的時代。<title level="m">《聖教要實論》</title>，或簡稱<title level="m">《教實論》</title><note n="0722001" resp="釋印順" type="orig"><bibl><title level="m">《續高僧傳》</title><biblScope n="4" type="卷">卷四</biblScope><title level="a">〈玄奘傳〉</title></bibl>，誤作<title level="m">《成實論》</title>。</note>。玄奘在鉢伐多
 <lb n="0722a15" ed="Y"/>國（<foreign xml:lang="en">Parvata</foreign>），曾<quote>「停二年，就學正量部根本阿毘達磨，及《攝正法論》、《教實論》等」</quote><note n="0722002" resp="釋印順" type="orig"><bibl><title level="m">《大慈恩寺三藏法師傳》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref target="#vol:50;page:p244a" type="taisho">五〇．二四四上</ref>）。</note>。<title level="m">《聖教
 <pb n="0723a" ed="Y" xml:id="Y36.0034.0723a"/>
 <lb n="0723a01" ed="Y"/>要實論》</title>，沒有傳譯過來。還有<title level="m">《攝正法論》</title>，也是正量部的論書，內容不明。</p>
-<lb n="0723a02" ed="Y"/><p style="text-indent:2em">此外，<quote>「南印度（似乎就是烏荼國）王灌頂師老婆羅門，名般若毱多（<foreign xml:lang="sa"><note n="0723a0201" resp="CBETA" type="add">Prajñāgupta【CB】，Prajñagupta【印順】</note><app n="0723a0201"><lem wit="【CB】" resp="正聞出版社">Prajñāgupta</lem><rdg wit="【印順】">Prajñagupta</rdg></app></foreign>），
-<lb n="0723a03" ed="Y"/>明正量部義，造《破大乘論》七百頌，諸小乘師咸皆<note n="0723a0301" resp="CBETA" type="add">嘆【CB】，歎【印順】</note><app n="0723a0301"><lem wit="【CB】" resp="正聞出版社">嘆<note type="cf1">《大唐大慈恩寺三藏法師傳》卷4(CBETA, T50, no. 2053, p. 244, c21-24)</note></lem><rdg wit="【印順】">歎</rdg></app>重」</quote><note n="0723003" resp="釋印順" type="orig"><bibl><title level="m">《大慈恩寺三藏法師傳》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref target="#vol:50;page:p244c" type="taisho">五〇．二四四下</ref>）。</note>。玄奘曾造<title level="m">《破惡見論》</title>一千六百頌
+<lb n="0723a02" ed="Y"/><p xml:id="pY36p0723a0201" style="text-indent:2em">此外，<quote>「南印度（似乎就是烏荼國）王灌頂師老婆羅門，名般若毱多（<foreign xml:lang="sa"><note n="0723a0201" resp="CBETA" type="add">Prajñāgupta【CB】，Prajñagupta【印順】</note><app n="0723a0201"><lem resp="正聞出版社" wit="【CB】">Prajñāgupta</lem><rdg wit="【印順】">Prajñagupta</rdg></app></foreign>），
+<lb n="0723a03" ed="Y"/>明正量部義，造《破大乘論》七百頌，諸小乘師咸皆<note n="0723a0301" resp="CBETA" type="add">嘆【CB】，歎【印順】</note><app n="0723a0301"><lem resp="正聞出版社" wit="【CB】">嘆<note type="cf1">《大唐大慈恩寺三藏法師傳》卷4(CBETA, T50, no. 2053, p. 244, c21-24)</note></lem><rdg wit="【印順】">歎</rdg></app>重」</quote><note n="0723003" resp="釋印順" type="orig"><bibl><title level="m">《大慈恩寺三藏法師傳》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref target="#vol:50;page:p244c" type="taisho">五〇．二四四下</ref>）。</note>。玄奘曾造<title level="m">《破惡見論》</title>一千六百頌
 <lb n="0723a04" ed="Y"/>來破斥他。</p>
-<lb n="0723a05" ed="Y"/><p style="text-indent:2em">3.銅鍱部論書：<title level="m">《解脫道論》</title>，十二卷，分十二品，題為<quote>「阿羅漢優波底沙（<foreign xml:lang="sa">Upatissa</foreign>），
-<lb n="0723a06" ed="Y"/>梁言大光造」</quote>。這是扶南國僧伽婆羅（<foreign xml:lang="sa"><note n="0723a0601" resp="CBETA" type="add">Saṃghavarman【CB】，Saṁghavarman【印順】</note><app n="0723a0601"><lem wit="【CB】" resp="正聞出版社">Saṃghavarman</lem><rdg wit="【印順】">Saṁghavarman</rdg></app></foreign> 梁言眾鎧），於梁天監十四年（西元五
-<lb n="0723a07" ed="Y"/>一五年）譯出的。據長井真琴氏論證，錫蘭覺音（<foreign xml:lang="sa"><note n="0723a0701" resp="CBETA" type="add">Buddhaghoṣa【CB】，Baddhaghoṣa【印順】</note><app n="0723a0701"><lem wit="【CB】" resp="正聞出版社">Buddhaghoṣa</lem><rdg wit="【印順】">Baddhaghoṣa</rdg></app></foreign>）所造的<title level="m">《清淨道論》</title>，是依這
+<lb n="0723a05" ed="Y"/><p xml:id="pY36p0723a0501" style="text-indent:2em">3.銅鍱部論書：<title level="m">《解脫道論》</title>，十二卷，分十二品，題為<quote>「阿羅漢優波底沙（<foreign xml:lang="sa">Upatissa</foreign>），
+<lb n="0723a06" ed="Y"/>梁言大光造」</quote>。這是扶南國僧伽婆羅（<foreign xml:lang="sa"><note n="0723a0601" resp="CBETA" type="add">Saṃghavarman【CB】，Saṁghavarman【印順】</note><app n="0723a0601"><lem resp="正聞出版社" wit="【CB】">Saṃghavarman</lem><rdg wit="【印順】">Saṁghavarman</rdg></app></foreign> 梁言眾鎧），於梁天監十四年（西元五
+<lb n="0723a07" ed="Y"/>一五年）譯出的。據長井真琴氏論證，錫蘭覺音（<foreign xml:lang="sa"><note n="0723a0701" resp="CBETA" type="add">Buddhaghoṣa【CB】，Baddhaghoṣa【印順】</note><app n="0723a0701"><lem resp="正聞出版社" wit="【CB】">Buddhaghoṣa</lem><rdg wit="【印順】">Baddhaghoṣa</rdg></app></foreign>）所造的<title level="m">《清淨道論》</title>，是依這
 <lb n="0723a08" ed="Y"/>部論而改作的<note n="0723004" resp="釋印順" type="orig"><bibl><title level="m">《望月佛教大辭典》</title><biblScope n="890" type="pp">（八九〇）</biblScope></bibl>。</note>。這部論，是解脫的道，依戒、定、慧——三學的次第修證而得解脫。從修持的
 <lb n="0723a09" ed="Y"/>立場而作的論書，體例分明，為銅鍱部學者修學的南針。說一切有部的論書雖多，而始終偏重於
 <lb n="0723a10" ed="Y"/>分別法相。有<title level="m">《甘露味阿毘曇論》</title>，創闢甘露（就是解脫）的道路，但不為論師們所重。在這點

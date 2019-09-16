@@ -12,81 +12,101 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2009/07</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2009/07</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>10卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 34, No. 32</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>10卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">34</idno>.<idno type="no">32</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">印度佛教思想史</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB01132">
-	<charName>CBETA CHARACTER CB01132</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[牛*孛]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>牸</value>
-	</charProp>
-	<mapping type="unicode">U+3E40</mapping>
-	<mapping cb:dec="984172" type="PUA">U+F046C</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB01132">
+				<charName>CBETA CHARACTER CB01132</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[牛*孛]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>牸</value>
+				</charProp>
+				<mapping type="unicode">U+3E40</mapping>
+				<mapping cb:dec="984172" type="PUA">U+F046C</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/>
 <pb n="a001a" ed="Y" xml:id="Y34.0032.a001a"/>
 <lb n="a001a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">自序</cb:mulu><head>自序</head>
-<lb n="a001a02" ed="Y"/><p style="text-indent:2em">民國五十六年，我在<bibl>《<title level="m">說一切有部為主的論書與論師之研究</title>．<title level="a"><note n="a001a0201" resp="CBETA" type="add">［－］【CB】，自【印順】</note><app n="a001a0201"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">自</rdg></app>序</title>》</bibl>中說：在戰亂中所寫
+<lb n="a001a02" ed="Y"/><p xml:id="pY34pa001a0201" style="text-indent:2em">民國五十六年，我在<bibl>《<title level="m">說一切有部為主的論書與論師之研究</title>．<title level="a"><note n="a001a0201" resp="CBETA" type="add">［－］【CB】，自【印順】</note><app n="a001a0201"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">自</rdg></app>序</title>》</bibl>中說：在戰亂中所寫
 <lb n="a001a03" ed="Y"/>的<title level="m">《印度之佛教》</title>，<quote>「是用文言寫的，多敘述而少引證，對佛教史來說，體裁是很不適合的，而
-<lb n="a001a04" ed="Y"/>且<note n="a001a0401" resp="CBETA" type="add">空疏【CB】，錯誤【印順】</note><app n="a001a0401"><lem wit="【CB】" resp="正聞出版社">空疏</lem><rdg wit="【印順】">錯誤</rdg></app>與<note n="a001a0402" resp="CBETA" type="add">錯誤【CB】，空疏【印順】</note><app n="a001a0402"><lem wit="【CB】" resp="正聞出版社">錯誤</lem><rdg wit="【印順】">空疏</rdg></app>的也不少。……我要用語體的，引證的，重寫一部」</quote>。但直到現在，二十年的悠長
+<lb n="a001a04" ed="Y"/>且<note n="a001a0401" resp="CBETA" type="add">空疏【CB】，錯誤【印順】</note><app n="a001a0401"><lem resp="正聞出版社" wit="【CB】">空疏</lem><rdg wit="【印順】">錯誤</rdg></app>與<note n="a001a0402" resp="CBETA" type="add">錯誤【CB】，空疏【印順】</note><app n="a001a0402"><lem resp="正聞出版社" wit="【CB】">錯誤</lem><rdg wit="【印順】">空疏</rdg></app>的也不少。……我要用語體的，引證的，重寫一部」</quote>。但直到現在，二十年的悠長
 <lb n="a001a05" ed="Y"/>歲月，<title level="m">《說一切有部為主的論書與論師之研究》</title>以外，只寫了<title level="m">《原始佛教聖典之集成》</title>，<title level="m">《初期
 <lb n="a001a06" ed="Y"/>大乘佛教之起源與開展》</title>，<title level="m">《如來藏之研究》</title>，<title level="m">《空之探究》</title>。晚年衰病，「重寫一部」——分
 <lb n="a001a07" ed="Y"/>為多少冊的意願，已無法達成，所以三年前，將<title level="m">《印度之佛教》</title>重印出版。<title level="m">《印度之佛教》</title>的錯
 <lb n="a001a08" ed="Y"/>誤與空疏，在上面幾部寫作中，雖已作部分的改正與補充，但印度佛教演變的某些關鍵問題，沒
 <lb n="a001a09" ed="Y"/>有能作綜合聯貫的說明，總覺得心願未了。現在據我所理解到的，再扼要的表達出來。</p>
-<lb n="a001a10" ed="Y"/><p style="text-indent:2em">「佛法」在流傳中，出現了「大乘佛法」，更演進而為「秘密大乘佛法」，主要的推動力，
+<lb n="a001a10" ed="Y"/><p xml:id="pY34pa001a1001" style="text-indent:2em">「佛法」在流傳中，出現了「大乘佛法」，更演進而為「秘密大乘佛法」，主要的推動力，
 <lb n="a001a11" ed="Y"/>是<quote>「佛涅槃後，佛弟子對佛的永恒懷念」</quote>。懷念，是通過情感的，也就可能有想像的成分；離釋
 <lb n="a001a12" ed="Y"/>尊的時代越遠，想像的成分也越多，這是印度佛教史上的事實。</p>
 <pb n="a002a" ed="Y" xml:id="Y34.0032.a002a"/>
-<lb n="a002a01" ed="Y"/><p style="text-indent:2em">佛弟子對佛的懷念，起初是：釋尊遺體——舍利的建塔供養，釋尊遺跡的巡行，表示對釋尊
+<lb n="a002a01" ed="Y"/><p xml:id="pY34pa002a0101" style="text-indent:2em">佛弟子對佛的懷念，起初是：釋尊遺體——舍利的建塔供養，釋尊遺跡的巡行，表示對釋尊
 <lb n="a002a02" ed="Y"/>的信敬與思慕。釋尊過去生中——菩薩的大行，也從「本生」、「譬喻」、「因緣」中流傳出來
 <lb n="a002a03" ed="Y"/>。佛及過去生中菩薩行的偉大，是因佛弟子的懷念釋尊而引發的，成為佛教界的共同信念。涅槃
 <lb n="a002a04" ed="Y"/>，涅槃了的釋尊，不是神教想像的「神」那樣的存在；但一般信眾，對於佛入涅槃而再見不到了
 <lb n="a002a05" ed="Y"/>，不免引起內心的悵惘。態度自由而重於理想的大眾系說：佛是不可思議的存在；佛壽是無量的
 <lb n="a002a06" ed="Y"/>；現在的十方世界，有佛出世：這多少滿足了一般人心——「大乘佛法」在這樣的情形下出現。</p>
-<lb n="a002a07" ed="Y"/><p style="text-indent:2em">釋尊開示的正法，是<quote>「先知法住，後知涅槃」</quote>。修學者先徹了因果的必然性——如實知緣起
+<lb n="a002a07" ed="Y"/><p xml:id="pY34pa002a0701" style="text-indent:2em">釋尊開示的正法，是<quote>「先知法住，後知涅槃」</quote>。修學者先徹了因果的必然性——如實知緣起
 <lb n="a002a08" ed="Y"/>；依緣起而知無常，無我無我所，實現究竟的解脫——涅槃寂滅。涅槃不落有無，不是意識語言
 <lb n="a002a09" ed="Y"/>所可表示，為修行而自覺自證知的。以菩薩大行為主的「初期大乘」經，繼承「佛法」的正法中
 <lb n="a002a10" ed="Y"/>心，但「佛法」是<quote>「先知法住，後知涅槃」</quote>，而「初期大乘」經，卻是直顯深義——涅槃，空性
@@ -96,7 +116,7 @@
 <lb n="a002a14" ed="Y"/>）性論；又由法（本）性論而演化為佛性（如來藏）本具論；再進就是本來是佛了。這是佛教思
 <lb n="a002a15" ed="Y"/>想發展中，由法而佛的始終歷程。</p>
 <pb n="a003a" ed="Y" xml:id="Y34.0032.a003a"/>
-<lb n="a003a01" ed="Y"/><p style="text-indent:2em">佛法甚深——緣起甚深，涅槃更甚深，一般人是難以受學的。為了方便普化，施設<quote>「念佛，
+<lb n="a003a01" ed="Y"/><p xml:id="pY34pa003a0101" style="text-indent:2em">佛法甚深——緣起甚深，涅槃更甚深，一般人是難以受學的。為了方便普化，施設<quote>「念佛，
 <lb n="a003a02" ed="Y"/>念法，念僧，念施，念戒，念天」</quote>——六念法門，使不幸的人，在恐怖、苦惱或病重時，能內心
 <lb n="a003a03" ed="Y"/>安定，不失善念，這有點近於一般宗教了。「念（憶念，繫念，觀念）佛」是特別發達的！大乘
 <lb n="a003a04" ed="Y"/>興起不久，犍陀羅、摩偷羅一帶，有塑造、繪畫的佛像流行。方便的「念佛」，過去是念佛的功
@@ -104,7 +124,7 @@
 <lb n="a003a06" ed="Y"/>心作佛」，「三界唯心」的理論。後期的大乘經說：如來藏、我是相好莊嚴的，自性清淨心是清
 <lb n="a003a07" ed="Y"/>淨光明的，眾生本具，所以念佛不只是念三世十方佛，更要念（觀）自己是佛。「念佛」，是從
 <lb n="a003a08" ed="Y"/>「初期大乘」，「後期大乘」，進入「秘密大乘佛法」的通途。</p>
-<lb n="a003a09" ed="Y"/><p style="text-indent:2em">菩薩發菩提心，久在生死修難行大行，精神偉大極了！但在一般人，可說嚮往有心而不免無
+<lb n="a003a09" ed="Y"/><p xml:id="pY34pa003a0901" style="text-indent:2em">菩薩發菩提心，久在生死修難行大行，精神偉大極了！但在一般人，可說嚮往有心而不免無
 <lb n="a003a10" ed="Y"/>力承擔的，於是繼承「佛法」的方便，說佛前懺悔，勸請，隨喜，迴向菩提。這是廣義的「念佛
 <lb n="a003a11" ed="Y"/>」，容易修行，為養成大乘法器的方便。一般的「念佛」方便，著重稱名，有「消業障」，「生
 <lb n="a003a12" ed="Y"/>淨土」，「不退菩提」，種種的現生利益。西元前後，經典的書寫流行，為了普及流通，經中極
@@ -112,7 +132,7 @@
 <lb n="a003a14" ed="Y"/>承認了世間的神咒。以唱念字母，為悟入無生的方便。大乘經的音聲佛事：唱字母，稱佛名，誦
 <lb n="a003a15" ed="Y"/>經，持咒，是「大乘佛法」能普及民間的方便。</p>
 <pb n="a004a" ed="Y" xml:id="Y34.0032.a004a"/>
-<lb n="a004a01" ed="Y"/><p style="text-indent:2em">「佛法」說到了「念天」，菩薩本生中，有以天、鬼、畜生身而修行的，「大乘佛法」也就
+<lb n="a004a01" ed="Y"/><p xml:id="pY34pa004a0101" style="text-indent:2em">「佛法」說到了「念天」，菩薩本生中，有以天、鬼、畜生身而修行的，「大乘佛法」也就
 <lb n="a004a02" ed="Y"/>出現了「天（大力鬼王、高等畜生）菩薩」。帝釋等每說陀羅尼——明咒護法，咒語漸漸重要起
 <lb n="a004a03" ed="Y"/>來。「後期大乘」的<title level="m">《楞伽經》</title>等，進一步說：印度民間信仰的天，鬼神，古仙，都是佛的異名
 <lb n="a004a04" ed="Y"/>，佛所示現的，奠定了「佛天一如」的理論。西元三世紀起，印度梵文學復興，印度教也漸漸興
@@ -123,12 +143,12 @@
 <lb n="a004a09" ed="Y"/>進入「秘密大乘」的堂奧：有手執武器，忿怒相的天菩薩（或佛所示現）。溼婆天派有「性力」
 <lb n="a004a10" ed="Y"/>崇拜，「秘密大乘」也有相抱相合的（俗稱）歡喜佛。適應與融攝神教，「佛天一如」的具體化
 <lb n="a004a11" ed="Y"/>，為「秘密大乘」的特色！</p>
-<lb n="a004a12" ed="Y"/><p style="text-indent:2em">「大乘佛法」的菩薩大行太難了，一般傾向於重「信」的「易行道」。恰好如來藏是佛智與
+<lb n="a004a12" ed="Y"/><p xml:id="pY34pa004a1201" style="text-indent:2em">「大乘佛法」的菩薩大行太難了，一般傾向於重「信」的「易行道」。恰好如來藏是佛智與
 <lb n="a004a13" ed="Y"/>色相莊嚴的本來具足，與「念佛」的是心作佛，自心是佛相通，「秘密大乘」這才觀自身是佛—
 <lb n="a004a14" ed="Y"/>—「天慢」，發展為即身成佛的「易行乘」。即身成佛，不用修利濟眾生的菩薩大行，等成了佛
 <lb n="a004a15" ed="Y"/>再來利濟眾生。難行不用修，佛果可以速成，對一般人來說，真可說太好了！</p>
 <pb n="a005a" ed="Y" xml:id="Y34.0032.a005a"/>
-<lb n="a005a01" ed="Y"/><p style="text-indent:2em">大乘經中，十方世界的佛、菩薩多極了，再加入印度<note n="a005a0101" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="a005a0101"><lem wit="【CB】" resp="CBETA">群</lem><rdg wit="【印順】">羣</rdg></app>神，不免雜亂。「秘密大乘」作了有
+<lb n="a005a01" ed="Y"/><p xml:id="pY34pa005a0101" style="text-indent:2em">大乘經中，十方世界的佛、菩薩多極了，再加入印度<note n="a005a0101" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="a005a0101"><lem resp="CBETA" wit="【CB】">群</lem><rdg wit="【印順】">羣</rdg></app>神，不免雜亂。「秘密大乘」作了有
 <lb n="a005a02" ed="Y"/>組織的序列，如<title level="m">《瑜伽續》</title>以中央毘盧遮那，及四方四佛，分五部（族）而統攝一切。五方五佛
 <lb n="a005a03" ed="Y"/>，是仿照忉利天主帝釋在中央，四方來的四大天王四面坐的集會方式。帝釋是執金剛（杵）的夜
 <lb n="a005a04" ed="Y"/>叉；夜叉是一向分為五族的。夜叉王——執金剛，金剛手，金剛藏，普賢（坐六牙白象，與帝釋
@@ -136,7 +156,7 @@
 <lb n="a005a06" ed="Y"/>住處。欲界是有淫欲的，地居天形交成淫而不出精，正是「無上瑜伽續」，修天色身，貪欲為道
 <lb n="a005a07" ed="Y"/>的理想境界。太虛大師稱「秘密大乘」為<quote>「依天乘行果而趣佛果」</quote>，這是不以人事為本，適應印
 <lb n="a005a08" ed="Y"/>度神教，以天（鬼神）法為本的大乘。</p>
-<lb n="a005a09" ed="Y"/><p style="text-indent:2em">以上是大乘經法的情形。分別抉擇經文，成為條理嚴密的義解（論義也影響後起的經典），
+<lb n="a005a09" ed="Y"/><p xml:id="pY34pa005a0901" style="text-indent:2em">以上是大乘經法的情形。分別抉擇經文，成為條理嚴密的義解（論義也影響後起的經典），
 <lb n="a005a10" ed="Y"/>是論。大乘論有1.中觀系：「初期大乘」的直顯深義，學者容易流入歧途，龍樹起來造論，說緣
 <lb n="a005a11" ed="Y"/>起無自性故空；以「佛法」的「中道、緣起」，貫通「大乘佛法」的「性空、唯（假）名」。龍
 <lb n="a005a12" ed="Y"/>樹說：<quote>「若不依俗諦，不得第一義」</quote>，那是回歸於「佛法」的立場，<quote>「先知法住，後知涅槃」</quote>了
@@ -155,97 +175,97 @@
 <lb n="a006a09" ed="Y"/>。以真常為依止而說唯心，是文體近於論的<title level="m">《楞伽》</title>與<title level="m">《密嚴》</title>。<title level="m">《寶性論》</title>明佛的因果體用，
 <lb n="a006a10" ed="Y"/><title level="m">《密嚴經》</title>說如來藏是念佛三昧者的境界，也就是觀自身本來是佛。後起的「秘密大乘」，攝取
 <lb n="a006a11" ed="Y"/>「中觀」與「瑜伽」，繼承「如來藏」說，從信仰、修行中發展完成。</p>
-<lb n="a006a12" ed="Y"/><p style="text-indent:2em">印度佛教（學）思想史，一般都著重於論義。論是分別抉擇，高層次的理論，是不能普及一
+<lb n="a006a12" ed="Y"/><p xml:id="pY34pa006a1201" style="text-indent:2em">印度佛教（學）思想史，一般都著重於論義。論是分別抉擇，高層次的理論，是不能普及一
 <lb n="a006a13" ed="Y"/>般的。「大乘佛法」後期，那爛陀寺的論學，成為佛教權威，而重信仰，重他力，重事相，重修
 <lb n="a006a14" ed="Y"/>行，重現生利益的佛法，正以「念（佛天一如）佛」為中心而普遍流行。晚年多讀經典，覺得適
 <lb n="a006a15" ed="Y"/>應信增上的方便，如造塔，造像，念佛，誦經……，存在於佛教中的異方便，對佛法思想的演化
 <pb n="a007a" ed="Y" xml:id="Y34.0032.a007a"/>
-<lb n="a007a01" ed="Y"/>，有極為深遠的影響，所以曾寫了<title level="m">《<note n="a007a0101" resp="CBETA" type="add">［－］【CB】，佛法【印順】</note><app n="a007a0101"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">佛法</rdg></app>方便之道》</title>十餘萬字。又覺得：如實與方便，是相互影
+<lb n="a007a01" ed="Y"/>，有極為深遠的影響，所以曾寫了<title level="m">《<note n="a007a0101" resp="CBETA" type="add">［－］【CB】，佛法【印順】</note><app n="a007a0101"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">佛法</rdg></app>方便之道》</title>十餘萬字。又覺得：如實與方便，是相互影
 <lb n="a007a02" ed="Y"/>響而演化的，所以又想起了<title level="m">《印度佛教思想史》</title>的寫作。如實與方便，有佛法自身的開展，也受
 <lb n="a007a03" ed="Y"/>到外來——神教思想，不同地區，政治情況……的影響。把握佛法特質，理解發展中的重要關鍵
 <lb n="a007a04" ed="Y"/>，多方面的種種影響，才能完整的表達出印度佛教思想史的真相。這是我的學力所不能達成的，
 <lb n="a007a05" ed="Y"/>而衰朽餘年，念力減退，也不容許作廣泛的寫作構想。所以本書只能著重佛法自身，作概略的敘
 <lb n="a007a06" ed="Y"/>述，而<title level="m">《印度之佛教》</title>所說過的，有些不再重述了。</p>
-<lb n="a007a07" ed="Y"/><p style="text-indent:2em">我對印度佛教的論究，想理解佛法的實義與方便，而縮短佛法與現實佛教間的距離。方便，
+<lb n="a007a07" ed="Y"/><p xml:id="pY34pa007a0701" style="text-indent:2em">我對印度佛教的論究，想理解佛法的實義與方便，而縮短佛法與現實佛教間的距離。方便，
 <lb n="a007a08" ed="Y"/>是不能沒有的；方便適應，才能有利於佛法的弘布。然方便過時而不再適應的，應有<quote>「正直捨方
 <lb n="a007a09" ed="Y"/>便」</quote>的精神，闡揚佛法真義，應用有利人間，淨化人間的方便。希望誠信佛法的讀者，從印度佛
 <lb n="a007a10" ed="Y"/>教思想的流變中，能時時回顧，不忘正法，為正法而懷念人間的佛陀！民國七十七年二月三日，
 <lb n="a007a11" ed="Y"/>印順序於南投寄廬。</p></cb:div>
 <pb n="b001a" ed="Y" xml:id="Y34.0032.b001a"/>
 <lb n="b001a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">凡例</cb:mulu><head rend="kaiti">凡例</head>
-<lb n="b001a02" ed="Y"/><list rend="no-marker"><item><p style="margin-left:2em;text-indent:-2em">一、本書所引日本<title>《大正新修大藏經》</title>，今簡稱「大正」。</p></item>
-<lb n="b001a03" ed="Y"/><item><p style="margin-left:2em;text-indent:-2em">二、日本所譯<title level="m">《南傳大藏經》</title>，簡稱「南傳」。所引文字，並轉譯為華文。</p></item>
-<lb n="b001a04" ed="Y"/><item><p style="margin-left:2em;text-indent:-2em">三、日本所譯<title level="m">《<note place="inline">ターラナータ</note>印度佛教史》</title>。作者名稱拼音為 <foreign xml:lang="sa">Tāranātha</foreign>，或音譯為多羅那他。本書引用
+<lb n="b001a02" ed="Y"/><list rend="no-marker"><item xml:id="itemY34pb001a0201"><p xml:id="pY34pb001a0201" style="margin-left:2em;text-indent:-2em">一、本書所引日本<title>《大正新修大藏經》</title>，今簡稱「大正」。</p></item>
+<lb n="b001a03" ed="Y"/><item xml:id="itemY34pb001a0301"><p xml:id="pY34pb001a0301" style="margin-left:2em;text-indent:-2em">二、日本所譯<title level="m">《南傳大藏經》</title>，簡稱「南傳」。所引文字，並轉譯為華文。</p></item>
+<lb n="b001a04" ed="Y"/><item xml:id="itemY34pb001a0401"><p xml:id="pY34pb001a0401" style="margin-left:2em;text-indent:-2em">三、日本所譯<title level="m">《<note place="inline">ターラナータ</note>印度佛教史》</title>。作者名稱拼音為 <foreign xml:lang="sa">Tāranātha</foreign>，或音譯為多羅那他。本書引用
 <lb n="b001a05" ed="Y"/>，簡稱為<title level="m">多氏《印度佛教史》</title>。</p></item>
-<lb n="b001a06" ed="Y"/><item><p style="margin-left:2em;text-indent:-2em">四、法尊所譯書，如<title level="m">《入中論》</title>等，原本為四川漢藏教理院刊行，簡稱「漢院刊本」。</p></item>
-<lb n="b001a07" ed="Y"/><item><p style="margin-left:2em;text-indent:-2em">五、印度波羅（<foreign xml:lang="x-sa-pi">Pāla</foreign>）王朝的年代，依呂澂<title level="m">《西藏佛學原論》</title>（商務本）所說。</p></item></list></cb:div>
+<lb n="b001a06" ed="Y"/><item xml:id="itemY34pb001a0601"><p xml:id="pY34pb001a0601" style="margin-left:2em;text-indent:-2em">四、法尊所譯書，如<title level="m">《入中論》</title>等，原本為四川漢藏教理院刊行，簡稱「漢院刊本」。</p></item>
+<lb n="b001a07" ed="Y"/><item xml:id="itemY34pb001a0701"><p xml:id="pY34pb001a0701" style="margin-left:2em;text-indent:-2em">五、印度波羅（<foreign xml:lang="x-sa-pi">Pāla</foreign>）王朝的年代，依呂澂<title level="m">《西藏佛學原論》</title>（商務本）所說。</p></item></list></cb:div>
 <pb n="0001a" ed="Y" xml:id="Y34.0032.0001a"/>
 <lb n="0001a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">第一章　「佛法」</cb:mulu><head>第一章　「佛法」</head>
 <lb n="0001a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　佛法興起與印度的時代文明</cb:mulu><head>第一節　佛法興起與印度的時代文明</head>
-<lb n="0001a03" ed="Y"/><p style="text-indent:2em">釋迦牟尼（<foreign xml:lang="sa">Śākyamuni</foreign>，以下簡稱「釋尊」）誕生於印度，宣揚「佛法」，為人類開顯了真
+<lb n="0001a03" ed="Y"/><p xml:id="pY34p0001a0301" style="text-indent:2em">釋迦牟尼（<foreign xml:lang="sa">Śākyamuni</foreign>，以下簡稱「釋尊」）誕生於印度，宣揚「佛法」，為人類開顯了真
 <lb n="0001a04" ed="Y"/>理與自由的光明。釋尊的出現人間，有他的時節因緣，也就是印度當時的文化環境，有發生佛教
-<lb n="0001a05" ed="Y"/>的可能與需要。說到印度文明，開拓者是西方移來的阿利安（<foreign xml:lang="sa"><note n="0001a0501" resp="CBETA" type="add">Ārya【CB】，arya【印順】</note><app n="0001a0501"><lem wit="【CB】" resp="正聞出版社">Ārya</lem><rdg wit="【印順】">arya</rdg></app></foreign>）人。古印度文明史的開展，
+<lb n="0001a05" ed="Y"/>的可能與需要。說到印度文明，開拓者是西方移來的阿利安（<foreign xml:lang="sa"><note n="0001a0501" resp="CBETA" type="add">Ārya【CB】，arya【印順】</note><app n="0001a0501"><lem resp="正聞出版社" wit="【CB】">Ārya</lem><rdg wit="【印順】">arya</rdg></app></foreign>）人。古印度文明史的開展，
 <lb n="0001a06" ed="Y"/>通常分為三期：殖民於五河地方時期，移殖於恒河流域時期，開拓南方時期。移殖恒河（<foreign xml:lang="sa">Gaṅgā</foreign>）
 <lb n="0001a07" ed="Y"/>時期，約從西元前十世紀起，為印度文明的燦爛時期；這又可分為三期來說明。</p>
-<lb n="0001a08" ed="Y"/><p style="text-indent:2em">一、阿利安人向南移殖，以拘羅地方（<foreign xml:lang="sa">Kurukṣetra</foreign>）為中心，到達恒曲一帶，這是婆羅門教
+<lb n="0001a08" ed="Y"/><p xml:id="pY34p0001a0801" style="text-indent:2em">一、阿利安人向南移殖，以拘羅地方（<foreign xml:lang="sa">Kurukṣetra</foreign>）為中心，到達恒曲一帶，這是婆羅門教
 <lb n="0001a09" ed="Y"/>（<foreign xml:lang="en">Brahmanism</foreign>）所說的「中國」。教典方面，先集出古代傳來（部分新出）的讚歌，為<title level="m">《梨俱
 <lb n="0001a10" ed="Y"/>吠陀》</title>，<title level="m">《娑摩吠陀》</title>，<title level="m">《夜柔吠陀》</title>——三吠陀，吠陀（<foreign xml:lang="x-sa-pi">Veda</foreign>）是用於祭祀的讚歌，對祭祀儀
 <lb n="0001a11" ed="Y"/>式的規定，祭式及讚詞的意義，更作詳盡記述的，成為<title level="m">《梵書》</title>。那時的教義，確立了婆羅門教
 <lb n="0001a12" ed="Y"/>的三綱：吠陀天啟，婆羅門至上，祭祀萬能。「吠陀天啟」是：古代傳下來的宗教讚歌，看作神
 <pb n="0002a" ed="Y" xml:id="Y34.0032.0002a"/>
 <lb n="0002a01" ed="Y"/>的啟示，作為神教最有力的權證。「婆羅門至上」是：神的啟示，分人類為四種階級：祭司的婆
-<lb n="0002a02" ed="Y"/>羅門（<foreign xml:lang="x-sa-pi"><note n="0002a0201" resp="CBETA" type="add">brāhmaṇa【CB】，Brāhmaṇa【印順】</note><app n="0002a0201"><lem wit="【CB】" resp="正聞出版社">brāhmaṇa</lem><rdg wit="【印順】">Brāhmaṇa</rdg></app></foreign>），武士（王）的剎帝利（<foreign xml:lang="sa"><note n="0002a0202" resp="CBETA" type="add">Kṣatriya【CB】，Kṣetriya【印順】</note><app n="0002a0202"><lem wit="【CB】" resp="正聞出版社">Kṣatriya</lem><rdg wit="【印順】">Kṣetriya</rdg></app></foreign>），自由工商的吠舍（<foreign xml:lang="sa">Vaiśya</foreign>）——都是阿利
-<lb n="0002a03" ed="Y"/>安人，享有宗教的再生權。非阿利安的原住民，成為被奴役的首陀羅（<foreign xml:lang="sa"><note n="0002a0301" resp="CBETA" type="add">śūdra【CB】，Sūdra【印順】</note><app n="0002a0301"><lem wit="【CB】" resp="正聞出版社">śūdra</lem><rdg wit="【印順】">Sūdra</rdg></app></foreign>），死了完事，名
+<lb n="0002a02" ed="Y"/>羅門（<foreign xml:lang="x-sa-pi"><note n="0002a0201" resp="CBETA" type="add">brāhmaṇa【CB】，Brāhmaṇa【印順】</note><app n="0002a0201"><lem resp="正聞出版社" wit="【CB】">brāhmaṇa</lem><rdg wit="【印順】">Brāhmaṇa</rdg></app></foreign>），武士（王）的剎帝利（<foreign xml:lang="sa"><note n="0002a0202" resp="CBETA" type="add">Kṣatriya【CB】，Kṣetriya【印順】</note><app n="0002a0202"><lem resp="正聞出版社" wit="【CB】">Kṣatriya</lem><rdg wit="【印順】">Kṣetriya</rdg></app></foreign>），自由工商的吠舍（<foreign xml:lang="sa">Vaiśya</foreign>）——都是阿利
+<lb n="0002a03" ed="Y"/>安人，享有宗教的再生權。非阿利安的原住民，成為被奴役的首陀羅（<foreign xml:lang="sa"><note n="0002a0301" resp="CBETA" type="add">śūdra【CB】，Sūdra【印順】</note><app n="0002a0301"><lem resp="正聞出版社" wit="【CB】">śūdra</lem><rdg wit="【印順】">Sūdra</rdg></app></foreign>），死了完事，名
 <lb n="0002a04" ed="Y"/>為一生族。嚴格的階級，出於神的意思；作為祭師的婆羅門，地位最崇高。「祭祀萬能」是：
 <lb n="0002a05" ed="Y"/>神與人的關係，依於祭祀，祭祀為宗教的第一目的。進而以為：天神，人，世界，一切因祭而動作
-<lb n="0002a06" ed="Y"/>，因祭而存在；天神也不能不受祭祀的約束。此外，古代阿闥婆阿耆羅（<foreign xml:lang="sa"><note n="0002a0601" resp="CBETA" type="add">Atharvâṅgiras【CB】，Atharvâṅgirsa【印順】</note><app n="0002a0601"><lem wit="【CB】" resp="正聞出版社">Atharvâṅgiras</lem><rdg wit="【印順】">Atharvâṅgirsa</rdg></app></foreign>）傳來
-<lb n="0002a07" ed="Y"/>的，息災，開運，咒詛，降伏的咒法，為一般人民的低級信仰，後來集為<title level="m">《阿<note n="0002a0701" resp="CBETA" type="add">闥【CB】，婆【印順】</note><app n="0002a0701"><lem wit="【CB】" resp="正聞出版社">闥</lem><rdg wit="【印順】">婆</rdg></app>婆吠陀》</title>。</p>
-<lb n="0002a08" ed="Y"/><p style="text-indent:2em">二、阿利安人漸向東移殖，恒河中流出現了毘提訶（<foreign xml:lang="sa">Videha</foreign>）王朝，首府彌絺羅（<foreign xml:lang="sa">Mithilā</foreign>）
+<lb n="0002a06" ed="Y"/>，因祭而存在；天神也不能不受祭祀的約束。此外，古代阿闥婆阿耆羅（<foreign xml:lang="sa"><note n="0002a0601" resp="CBETA" type="add">Atharvâṅgiras【CB】，Atharvâṅgirsa【印順】</note><app n="0002a0601"><lem resp="正聞出版社" wit="【CB】">Atharvâṅgiras</lem><rdg wit="【印順】">Atharvâṅgirsa</rdg></app></foreign>）傳來
+<lb n="0002a07" ed="Y"/>的，息災，開運，咒詛，降伏的咒法，為一般人民的低級信仰，後來集為<title level="m">《阿<note n="0002a0701" resp="CBETA" type="add">闥【CB】，婆【印順】</note><app n="0002a0701"><lem resp="正聞出版社" wit="【CB】">闥</lem><rdg wit="【印順】">婆</rdg></app>婆吠陀》</title>。</p>
+<lb n="0002a08" ed="Y"/><p xml:id="pY34p0002a0801" style="text-indent:2em">二、阿利安人漸向東移殖，恒河中流出現了毘提訶（<foreign xml:lang="sa">Videha</foreign>）王朝，首府彌絺羅（<foreign xml:lang="sa">Mithilā</foreign>）
 <lb n="0002a09" ed="Y"/>，在今恒河北岸。毘提訶不是純正的阿利安人，有悠久的王統傳說。那時拘羅中心的婆羅門，著
 <lb n="0002a10" ed="Y"/>重於祭祀的事相，努力使他通俗化；而恒河中流，受阿利安宗教文化的熏陶，開展出新的文化，
 <lb n="0002a11" ed="Y"/>就是古<title level="m">《奧義書》</title>（<foreign xml:lang="sa">Upaniṣad</foreign>）。那時，苦行與隱遁者，漸漸多起來。隱遁者不再從事形式的祭祀，
 <lb n="0002a12" ed="Y"/>不再為衣食勞心，專心於禪思。這種似乎消極的學風，不但哲理深入，更有不受祭祀束縛的積極
-<lb n="0002a13" ed="Y"/>意義。如迦尸（<foreign xml:lang="sa">Kāśi</foreign>）國的阿闍世王（<foreign xml:lang="sa">Ajātaśatru</foreign>），以「梵」（<foreign xml:lang="pi"><note n="0002a1301" resp="CBETA" type="add">brahma【CB】，brahman【印順】</note><app n="0002a1301"><lem wit="【CB】" resp="正聞出版社">brahma</lem><rdg wit="【印順】">brahman</rdg></app></foreign>）教授吠陀學者跋梨格
+<lb n="0002a13" ed="Y"/>意義。如迦尸（<foreign xml:lang="sa">Kāśi</foreign>）國的阿闍世王（<foreign xml:lang="sa">Ajātaśatru</foreign>），以「梵」（<foreign xml:lang="pi"><note n="0002a1301" resp="CBETA" type="add">brahma【CB】，brahman【印順】</note><app n="0002a1301"><lem resp="正聞出版社" wit="【CB】">brahma</lem><rdg wit="【印順】">brahman</rdg></app></foreign>）教授吠陀學者跋梨格
 <lb n="0002a14" ed="Y"/>（<foreign xml:lang="sa">Bālāki</foreign>）；毘提訶王庭以祀皮衣（<foreign xml:lang="sa">Yājñavalkya</foreign>）仙為中心，召開哲理的討論會<note n="0002001" resp="釋印順" type="orig"><bibl><title level="m">《布利哈德奧義書》</title>（二．一、三．六）</bibl>。</note>。<title level="m">《奧義書》</title>的勃
 <lb n="0002a15" ed="Y"/>興，由王家領導思想，「婆羅門至上」，不能不退處於受教的地位。<title level="m">《奧義書》</title>重視真我（<foreign xml:lang="sa">ātman</foreign>）
 <pb n="0003a" ed="Y" xml:id="Y34.0032.0003a"/>
-<lb n="0003a01" ed="Y"/>的智識，祭祀已不再是萬能，所以說：<quote>「行祭祀苦行者入天界，於其中輪<note n="0003a0101" resp="CBETA" type="add" subtype="規範字詞">迴【CB】，廻【印順】</note><app n="0003a0101"><lem wit="【CB】" resp="CBETA">迴</lem><rdg wit="【印順】">廻</rdg></app>；惟住於梵者能得不
+<lb n="0003a01" ed="Y"/>的智識，祭祀已不再是萬能，所以說：<quote>「行祭祀苦行者入天界，於其中輪<note n="0003a0101" resp="CBETA" type="add" subtype="規範字詞">迴【CB】，廻【印順】</note><app n="0003a0101"><lem resp="CBETA" wit="【CB】">迴</lem><rdg wit="【印順】">廻</rdg></app>；惟住於梵者能得不
 <lb n="0003a02" ed="Y"/>死」</quote><note n="0003002" resp="釋印順" type="orig"><bibl><title level="m">《聖德格耶奧義書》</title>（二．二三，一）</bibl>。</note>。吠陀也不過是名目的學問，與真我無關。<title level="m">《奧義書》</title>的重要建樹有二：一、真心的梵我論；
 <lb n="0003a03" ed="Y"/>二、業感的輪迴說。從<title level="m">《梨俱吠陀》</title>的創造讚歌以來，一元傾向的創造神話，經理論化而成宇宙
-<lb n="0003a04" ed="Y"/>的本原，為神秘的大實在。在<title level="m">《奧義書》</title>中，稱之為「梵」；如顯現為人格神，就是梵天（<foreign xml:lang="en"><note n="0003a0401" resp="CBETA" type="add">brahman【CB】，Brahman【印順】</note><app n="0003a0401"><lem wit="【CB】" resp="正聞出版社">brahman</lem><rdg wit="【印順】">Brahman</rdg></app></foreign>）
+<lb n="0003a04" ed="Y"/>的本原，為神秘的大實在。在<title level="m">《奧義書》</title>中，稱之為「梵」；如顯現為人格神，就是梵天（<foreign xml:lang="en"><note n="0003a0401" resp="CBETA" type="add">brahman【CB】，Brahman【印順】</note><app n="0003a0401"><lem resp="正聞出版社" wit="【CB】">brahman</lem><rdg wit="【印順】">Brahman</rdg></app></foreign>）
 <lb n="0003a05" ed="Y"/>。有情生命的本質，稱之為我。在生死歷程中，人類似乎是迷妄的，虛幻的，然探索到自我的當
 <lb n="0003a06" ed="Y"/>體，到底與真常本淨的梵是同一的，所以說<quote>「我者梵也」</quote><note n="0003003" resp="釋印順" type="orig"><bibl><title level="m">《布利哈德奧義書》</title>（一．四，一〇）</bibl>。</note>。自我是超經驗的純粹主觀，所以是
 <lb n="0003a07" ed="Y"/><quote>「不可認識的認識者」</quote>；此<quote>「唯一不二的主觀，即是梵界，即是最高的歸宿，最上的妙樂」</quote><note n="0003004" resp="釋印順" type="orig"><bibl><title level="m">《布利哈德奧義書》</title>（二．四，一三、四．三，三二）</bibl>。</note>。
-<lb n="0003a08" ed="Y"/>至於業感輪迴（<foreign xml:lang="sa"><note n="0003a0801" resp="CBETA" type="add">saṃsāra【CB】，samsāra【印順】</note><app n="0003a0801"><lem wit="【CB】" resp="正聞出版社">saṃsāra</lem><rdg wit="【印順】">samsāra</rdg></app></foreign>）說，是在生死的相續中，依自己的行為——業（<foreign xml:lang="sa">karman</foreign>），造成自己未
+<lb n="0003a08" ed="Y"/>至於業感輪迴（<foreign xml:lang="sa"><note n="0003a0801" resp="CBETA" type="add">saṃsāra【CB】，samsāra【印順】</note><app n="0003a0801"><lem resp="正聞出版社" wit="【CB】">saṃsāra</lem><rdg wit="【印順】">samsāra</rdg></app></foreign>）說，是在生死的相續中，依自己的行為——業（<foreign xml:lang="sa">karman</foreign>），造成自己未
 <lb n="0003a09" ed="Y"/>來的身分，如說：<quote>「人依欲而成，因欲而有意向，因意向而有業，依業而有果」</quote>報<note n="0003005" resp="釋印順" type="orig"><bibl><title level="m">《布利哈德奧義書》</title>（四．四，五）</bibl>。</note>。<title level="m">《奧義書》</title>的
 <lb n="0003a10" ed="Y"/>業力說，與真我論相結合。「我」為自身的行為所限制、拘縛，從此生而轉到他生。對照於自我
 <lb n="0003a11" ed="Y"/>的真淨妙樂，加倍感覺到人生的迷妄與悲哀，因而促成以後解脫思想的隆盛。真我論，為吠陀文
 <lb n="0003a12" ed="Y"/>化的開展，而業力說卻是時代的新聲。有人請問死後的歸宿，祀皮衣仙說：<quote>「此不可於眾人中說
 <lb n="0003a13" ed="Y"/>，惟兩人間可傳」</quote><note n="0003006" resp="釋印順" type="orig"><bibl><title level="m">《布利哈德奧義書》</title>（三．二，一三）</bibl>。</note>，所說的就是業。在當時，業是新說而不公開教授的，所以耆婆利王
-<lb n="0003a14" ed="Y"/>（<foreign xml:lang="sa"><note n="0003a1401" resp="CBETA" type="add">Pravāhaṇa-jaivali【CB】，Pra-vāhana-jaivali【印順】</note><app n="0003a1401"><lem wit="【CB】" resp="正聞出版社">Pravāhaṇa-jaivali</lem><rdg wit="【印順】">Pra-vāhana-jaivali</rdg></app></foreign>）對婆羅門阿爾尼（<foreign xml:lang="sa"><note n="0003a1402" resp="CBETA" type="add">Uddāllaka-āruṇī【CB】，Uddālolaha-āruṇi【印順】</note><app n="0003a1402"><lem wit="【CB】" resp="正聞出版社">Uddāllaka-āruṇī</lem><rdg wit="【印順】">Uddālolaha-āruṇi</rdg></app></foreign>）說：<quote>「此（輪迴）教，直至今日，婆羅
+<lb n="0003a14" ed="Y"/>（<foreign xml:lang="sa"><note n="0003a1401" resp="CBETA" type="add">Pravāhaṇa-jaivali【CB】，Pra-vāhana-jaivali【印順】</note><app n="0003a1401"><lem resp="正聞出版社" wit="【CB】">Pravāhaṇa-jaivali</lem><rdg wit="【印順】">Pra-vāhana-jaivali</rdg></app></foreign>）對婆羅門阿爾尼（<foreign xml:lang="sa"><note n="0003a1402" resp="CBETA" type="add">Uddāllaka-āruṇī【CB】，Uddālolaha-āruṇi【印順】</note><app n="0003a1402"><lem resp="正聞出版社" wit="【CB】">Uddāllaka-āruṇī</lem><rdg wit="【印順】">Uddālolaha-āruṇi</rdg></app></foreign>）說：<quote>「此（輪迴）教，直至今日，婆羅
 <lb n="0003a15" ed="Y"/>門未曾知之」</quote><note n="0003007" resp="釋印順" type="orig"><bibl><title level="m">《布利哈德奧義書》</title>（六．二）</bibl>。</note>。這一東方思想，業力與真我相結合，而後隨業輪迴中，首陀羅人如此，阿利安
 <pb n="0004a" ed="Y" xml:id="Y34.0032.0004a"/>
 <lb n="0004a01" ed="Y"/>誦習吠陀，也不過如此。反之，如依智而悟真我，首陀羅也能入於不死的梵界。<title level="m">《奧義書》</title>的精神，
 <lb n="0004a02" ed="Y"/>顯然存有革新婆羅門教的意義。這是阿利安人文化到達東方，展開溫和的宗教革新的前奏<note n="0004008" resp="釋印順" type="orig">以上參考<bibl>木村泰賢、高楠順次郎<title level="m">《印度哲學宗教史》</title></bibl>。</note>。</p>
-<lb n="0004a03" ed="Y"/><p style="text-indent:2em">三、毘提訶王朝沒落了。約在西元前六世紀初，恒河南岸，以王舍城（<foreign xml:lang="sa">Rājagṛha</foreign>）為首都的
+<lb n="0004a03" ed="Y"/><p xml:id="pY34p0004a0301" style="text-indent:2em">三、毘提訶王朝沒落了。約在西元前六世紀初，恒河南岸，以王舍城（<foreign xml:lang="sa">Rājagṛha</foreign>）為首都的
 <lb n="0004a04" ed="Y"/>摩竭陀（<foreign xml:lang="pi">Magadha</foreign>），建立尸修那伽（<foreign xml:lang="sa">Śaiśunāga</foreign>）王朝。摩竭陀也是毘提訶族；而恒河北岸，形
 <lb n="0004a05" ed="Y"/>成小邦自立。恒河兩岸，雜有非阿利安人的東方，受阿利安文化影響，展開了思想的全面革新，
-<lb n="0004a06" ed="Y"/>這就是反婆羅門的沙門（<foreign xml:lang="sa"><note n="0004a0601" resp="CBETA" type="add">śramaṇa【CB】，Śramaṇa【印順】</note><app n="0004a0601"><lem wit="【CB】" resp="正聞出版社">śramaṇa</lem><rdg wit="【印順】">Śramaṇa</rdg></app></foreign>）文化。沙門，本為婆羅門教所規定的，再生族晚年，過著林
+<lb n="0004a06" ed="Y"/>這就是反婆羅門的沙門（<foreign xml:lang="sa"><note n="0004a0601" resp="CBETA" type="add">śramaṇa【CB】，Śramaṇa【印順】</note><app n="0004a0601"><lem resp="正聞出版社" wit="【CB】">śramaṇa</lem><rdg wit="【印順】">Śramaṇa</rdg></app></foreign>）文化。沙門，本為婆羅門教所規定的，再生族晚年，過著林
 <lb n="0004a07" ed="Y"/>棲與隱遁期的名稱。東方不受婆羅門教的限定，不問階級，不問老少，都可以過沙門的生活，因
 <lb n="0004a08" ed="Y"/>而遊行乞食，從事宗教生活的沙門團，流行起來。當時的思想，屬於剎帝利，然沙門不分階級，
 <lb n="0004a09" ed="Y"/>為種族平等的全人類宗教。沙門團很多，佛教稱之為外道的，著名的有六師：富蘭迦葉
-<lb n="0004a10" ed="Y"/>（<foreign xml:lang="sa">Pūraṇa-kāśyapa</foreign>），末伽黎拘舍羅子（<foreign xml:lang="sa"><note n="0004a1001" resp="CBETA" type="add">Maskarī-gośālīputra【CB】，Maskarī-gasliputra【印順】</note><app n="0004a1001"><lem wit="【CB】" resp="正聞出版社">Maskarī-gośālīputra</lem><rdg wit="【印順】">Maskarī-gasliputra</rdg></app></foreign>），阿夷多翅舍欽婆羅（<foreign xml:lang="sa"><note n="0004a1002" resp="CBETA" type="add">Ajita-keśakambala【CB】，Ajita-keśakambla【印順】</note><app n="0004a1002"><lem wit="【CB】" resp="正聞出版社">Ajita-keśakambala</lem><rdg wit="【印順】">Ajita-keśakambla</rdg></app></foreign>）
-<lb n="0004a11" ed="Y"/>，鳩（羅）鳩陀迦旃延（<foreign xml:lang="sa">Kakuda-kātyāyana</foreign>），散惹耶毘羅梨子（<foreign xml:lang="sa"><note n="0004a1101" resp="CBETA" type="add">Sañjaī-vairaṭīputra【CB】，Sañjaya-vasraṭīputra【印順】</note><app n="0004a1101"><lem wit="【CB】" resp="正聞出版社">Sañjaī-vairaṭīputra</lem><rdg wit="【印順】">Sañjaya-vasraṭīputra</rdg></app></foreign>），尼乾
+<lb n="0004a10" ed="Y"/>（<foreign xml:lang="sa">Pūraṇa-kāśyapa</foreign>），末伽黎拘舍羅子（<foreign xml:lang="sa"><note n="0004a1001" resp="CBETA" type="add">Maskarī-gośālīputra【CB】，Maskarī-gasliputra【印順】</note><app n="0004a1001"><lem resp="正聞出版社" wit="【CB】">Maskarī-gośālīputra</lem><rdg wit="【印順】">Maskarī-gasliputra</rdg></app></foreign>），阿夷多翅舍欽婆羅（<foreign xml:lang="sa"><note n="0004a1002" resp="CBETA" type="add">Ajita-keśakambala【CB】，Ajita-keśakambla【印順】</note><app n="0004a1002"><lem resp="正聞出版社" wit="【CB】">Ajita-keśakambala</lem><rdg wit="【印順】">Ajita-keśakambla</rdg></app></foreign>）
+<lb n="0004a11" ed="Y"/>，鳩（羅）鳩陀迦旃延（<foreign xml:lang="sa">Kakuda-kātyāyana</foreign>），散惹耶毘羅梨子（<foreign xml:lang="sa"><note n="0004a1101" resp="CBETA" type="add">Sañjaī-vairaṭīputra【CB】，Sañjaya-vasraṭīputra【印順】</note><app n="0004a1101"><lem resp="正聞出版社" wit="【CB】">Sañjaī-vairaṭīputra</lem><rdg wit="【印順】">Sañjaya-vasraṭīputra</rdg></app></foreign>），尼乾
 <lb n="0004a12" ed="Y"/>陀若提子（<foreign xml:lang="sa">Nirgrantha-jñātiputra</foreign>），六師都是東方的一代師宗，有多少學眾隨從他（尼乾子即
 <lb n="0004a13" ed="Y"/>耆那教，現在還有不少信徒）。六師有共同的傾向：一、分析人生（宇宙）的要素，大抵是二元
-<lb n="0004a14" ed="Y"/>論的，是機械的「積集」說。如<note n="0004a1401" resp="CBETA" type="add" subtype="規範字詞">阿夷多<note resp="謝淑歆" type="cf1">長阿含經卷17(CBETA, T01, no. 1, p. 108, b23)</note>【CB】，阿夷陀【印順】</note><app n="0004a1401"><lem wit="【CB】" resp="CBETA">阿夷多<note resp="謝淑歆" type="cf1">《長阿含經》卷17(CBETA, T01, no. 1, p. 108, b23)</note></lem><rdg wit="【印順】">阿夷陀</rdg></app>立五大說：人死了，屬於物質的，還歸於地、水、火、風
+<lb n="0004a14" ed="Y"/>論的，是機械的「積集」說。如<note n="0004a1401" resp="CBETA" type="add" subtype="規範字詞">阿夷多<note resp="謝淑歆" type="cf1">長阿含經卷17(CBETA, T01, no. 1, p. 108, b23)</note>【CB】，阿夷陀【印順】</note><app n="0004a1401"><lem resp="CBETA" wit="【CB】">阿夷多<note resp="謝淑歆" type="cf1">《長阿含經》卷17(CBETA, T01, no. 1, p. 108, b23)</note></lem><rdg wit="【印順】">阿夷陀</rdg></app>立五大說：人死了，屬於物質的，還歸於地、水、火、風
 <lb n="0004a15" ed="Y"/>（四大）；「諸根」——感覺與意識的根源，歸於虛空。人的生死，不過是五大的集散。末伽黎
 <pb n="0005a" ed="Y" xml:id="Y34.0032.0005a"/>
 <lb n="0005a01" ed="Y"/>以為：地、水、火、風、空、苦、樂、生、死、得、失、命（自我），為宇宙（人生）的根本要
 <lb n="0005a02" ed="Y"/>素。鳩鳩陀立七要素說：地、水、火、風、苦、樂、命（或加虛空為八）。尼乾子立六根本事：
 <lb n="0005a03" ed="Y"/>命，法（動）、非法（靜止）、時、空、四大。二、論到事物的認識時，散惹耶是這樣的：如有
 <lb n="0005a04" ed="Y"/>人問有無後世，他是不以為有的，也不以為無的，不反對別人說有說無，自己卻不說是非有非無
-<lb n="0005a05" ed="Y"/>的。他的真意不容易明瞭，所以佛教稱之為不死矯亂論（<foreign xml:lang="pi"><note n="0005a0501" resp="CBETA" type="add">Amarāvikkhepa【CB】，amaravikknapa【印順】</note><app n="0005a0501"><lem wit="【CB】" resp="正聞出版社">Amarāvikkhepa</lem><rdg wit="【印順】">amaravikknapa</rdg></app></foreign>）。末伽黎以為一切都
+<lb n="0005a05" ed="Y"/>的。他的真意不容易明瞭，所以佛教稱之為不死矯亂論（<foreign xml:lang="pi"><note n="0005a0501" resp="CBETA" type="add">Amarāvikkhepa【CB】，amaravikknapa【印順】</note><app n="0005a0501"><lem resp="正聞出版社" wit="【CB】">Amarāvikkhepa</lem><rdg wit="【印順】">amaravikknapa</rdg></app></foreign>）。末伽黎以為一切都
 <lb n="0005a06" ed="Y"/>可說，可從三方面去說：可以說是，可以說不是，也可以說也是也不是：這恰好與散惹耶對立。
 <lb n="0005a07" ed="Y"/>尼乾子立或然主義，以為同一事物，可從七方面去說：如一、瓶是實；二、瓶非實；三、瓶也實
 <lb n="0005a08" ed="Y"/>也非實；四、瓶不可說；五、瓶實不可說；六、瓶非實不可說；七、瓶也實也非實不可說。新宗
@@ -263,13 +283,13 @@
 <lb n="0006a04" ed="Y"/>生自在，非有相當的定力不可。散惹耶的不知主義，似乎是懷疑真理，其實是了解認識的相對性
 <lb n="0006a05" ed="Y"/>，所以「中止認識」，而想直下忘念去體驗真理。從忘念去體驗，當然是重於禪定的。富蘭那為
 <lb n="0006a06" ed="Y"/>偶然論者，主觀的意欲及依此而有的行為，對輪迴與解脫來說，都是無關的，解脫可於無意中得
-<lb n="0006a07" ed="Y"/>之。他與鳩鳩陀及末伽黎的學說有關，都被稱為邪命派（<foreign xml:lang="x-sa-pi"><note n="0006a0701" resp="CBETA" type="add">Ājīvaka【CB】，Ajaveka【印順】</note><app n="0006a0701"><lem wit="【CB】" resp="正聞出版社">Ājīvaka</lem><rdg wit="【印順】">Ajaveka</rdg></app></foreign>），那他當然會傾向於任性隨緣
+<lb n="0006a07" ed="Y"/>之。他與鳩鳩陀及末伽黎的學說有關，都被稱為邪命派（<foreign xml:lang="x-sa-pi"><note n="0006a0701" resp="CBETA" type="add">Ājīvaka【CB】，Ajaveka【印順】</note><app n="0006a0701"><lem resp="正聞出版社" wit="【CB】">Ājīvaka</lem><rdg wit="【印順】">Ajaveka</rdg></app></foreign>），那他當然會傾向於任性隨緣
 <lb n="0006a08" ed="Y"/>的生活。阿夷多，或者以為是唯物論的，感覺論的，以快樂的滿足為目的，這應該是不對的！如
 <lb n="0006a09" ed="Y"/>以享樂為目的，怎麼會度著出家乞食的生活？他的名字，有「毛髮衣」的意思，可見是過著極簡
 <lb n="0006a10" ed="Y"/>單生活的學派。過著極簡陋的生活，不受物欲的干擾，而求現生精神生活的解脫自在，這不會是
 <lb n="0006a11" ed="Y"/>修苦行的，但可能修習禪定。總之，六師的宗教生活，是修定主義，苦行或是任性的隨緣，以求
 <lb n="0006a12" ed="Y"/>人生苦迫（現生或來生）的解脫<note n="0006009" resp="釋印順" type="orig">參閱<bibl><title level="m">《長阿含經》</title><ref target="#no:1.27" type="taisho">（二七）</ref><title level="m">《沙門果經》</title></bibl>；<bibl><title level="m">《長部》</title>（二）<title level="m">《沙門果經》</title></bibl>。<bibl>宇井伯壽<title level="m">《印度哲學研究》</title>第二</bibl>。</note>。</p>
-<lb n="0006a13" ed="Y"/><p style="text-indent:2em">神意論者，定命論者，無因的偶然論者，道德的引起懷疑，行為又或苦或樂趨於極端。時代
+<lb n="0006a13" ed="Y"/><p xml:id="pY34p0006a1301" style="text-indent:2em">神意論者，定命論者，無因的偶然論者，道德的引起懷疑，行為又或苦或樂趨於極端。時代
 <lb n="0006a14" ed="Y"/>的思想界，活躍而陷於混亂。釋尊適應於這一情形，在理性與德行的基礎上，後來居上，建立實
 <lb n="0006a15" ed="Y"/>現解脫的正道。</p>
 <pb n="0007a" ed="Y" xml:id="Y34.0032.0007a"/>
@@ -284,149 +304,149 @@
 <lb n="0007a09" ed="Y"/></cb:div>
 <lb n="0007a10" ed="Y"/>
 <lb n="0007a11" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　釋尊略傳</cb:mulu><head>第二節　釋尊略傳</head>
-<lb n="0007a12" ed="Y"/><p style="text-indent:2em">佛教是釋尊所創立的。釋尊在人間自覺覺他的行<note n="0007a1201" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0007a1201"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>，深入人心，傳說於僧伽（<foreign xml:lang="x-sa-pi">saṃgha</foreign>）及民
-<lb n="0007a13" ed="Y"/>間。有關釋尊的事<note n="0007a1301" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0007a1301"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>，主要的出於「律」部。一、為了說明僧伽的成立，敘述釋尊的出家，修行
+<lb n="0007a12" ed="Y"/><p xml:id="pY34p0007a1201" style="text-indent:2em">佛教是釋尊所創立的。釋尊在人間自覺覺他的行<note n="0007a1201" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0007a1201"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>，深入人心，傳說於僧伽（<foreign xml:lang="x-sa-pi">saṃgha</foreign>）及民
+<lb n="0007a13" ed="Y"/>間。有關釋尊的事<note n="0007a1301" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0007a1301"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>，主要的出於「律」部。一、為了說明僧伽的成立，敘述釋尊的出家，修行
 <lb n="0007a14" ed="Y"/>，說法；到成佛第六年，回迦毘羅衛（<foreign xml:lang="sa">Kapilavastu</foreign>）省親，教化釋族止。後來加上誕生因緣（或
 <lb n="0007a15" ed="Y"/>更早些），集成佛傳。這部分，<quote>「摩訶僧祇師名為大事；薩婆多師名此經為大莊嚴；迦葉維師名為
 <pb n="0008a" ed="Y" xml:id="Y34.0032.0008a"/>
-<lb n="0008a01" ed="Y"/>佛往因緣；曇無德師名為釋迦牟尼佛本行；尼沙塞師名為毘尼藏根本」</quote><note n="0008001" resp="釋印順" type="orig"><bibl><title level="m">《佛本行集經》</title><biblScope n="60" type="卷">卷六〇</biblScope></bibl>（大正<ref type="taisho" target="#vol:3;page:p932a">三．九三二上</ref>）。</note>。二、釋尊晚年，作最
-<lb n="0008a02" ed="Y"/>後的遊行，到拘尸那（<foreign xml:lang="sa"><note n="0008a0201" resp="CBETA" type="add">Kuśinagara【CB】，Kusi-nagara【印順】</note><app n="0008a0201"><lem wit="【CB】" resp="正聞出版社">Kuśinagara</lem><rdg wit="【印順】">Kusi-nagara</rdg></app></foreign>）入涅槃。起初也屬於「律」部，如<title level="m">《有部毘奈耶雜事》</title>所
-<lb n="0008a03" ed="Y"/>說；<cit><bibl><title level="m">《大毘婆沙論》</title>也說：</bibl><quote>「如大涅槃，持律者說」</quote><note n="0008002" resp="釋印順" type="orig"><bibl><title level="m">《根本說一切有部毘奈耶雜事》</title><biblScope type="卷" from="35" to="39">卷三五——三九</biblScope></bibl>（大正<ref target="#vol:24;page:p382c" type="taisho">二四．三八二下</ref>——<ref type="taisho" target="#vol:24;page:p402c">四〇二下</ref>）。<bibl><title level="m">《阿毘達磨大毘婆沙論》</title><biblScope n="126" type="卷">卷一二六</biblScope></bibl>（大正<ref target="#vol:27;page:p660a" type="taisho">二七．六六〇上</ref>）。</note></cit>。這部分，又增補而集為<title level="m">《遊行經》</title>（南
+<lb n="0008a01" ed="Y"/>佛往因緣；曇無德師名為釋迦牟尼佛本行；尼沙塞師名為毘尼藏根本」</quote><note n="0008001" resp="釋印順" type="orig"><bibl><title level="m">《佛本行集經》</title><biblScope n="60" type="卷">卷六〇</biblScope></bibl>（大正<ref target="#vol:3;page:p932a" type="taisho">三．九三二上</ref>）。</note>。二、釋尊晚年，作最
+<lb n="0008a02" ed="Y"/>後的遊行，到拘尸那（<foreign xml:lang="sa"><note n="0008a0201" resp="CBETA" type="add">Kuśinagara【CB】，Kusi-nagara【印順】</note><app n="0008a0201"><lem resp="正聞出版社" wit="【CB】">Kuśinagara</lem><rdg wit="【印順】">Kusi-nagara</rdg></app></foreign>）入涅槃。起初也屬於「律」部，如<title level="m">《有部毘奈耶雜事》</title>所
+<lb n="0008a03" ed="Y"/>說；<cit><bibl><title level="m">《大毘婆沙論》</title>也說：</bibl><quote>「如大涅槃，持律者說」</quote><note n="0008002" resp="釋印順" type="orig"><bibl><title level="m">《根本說一切有部毘奈耶雜事》</title><biblScope from="35" to="39" type="卷">卷三五——三九</biblScope></bibl>（大正<ref target="#vol:24;page:p382c" type="taisho">二四．三八二下</ref>——<ref target="#vol:24;page:p402c" type="taisho">四〇二下</ref>）。<bibl><title level="m">《阿毘達磨大毘婆沙論》</title><biblScope n="126" type="卷">卷一二六</biblScope></bibl>（大正<ref target="#vol:27;page:p660a" type="taisho">二七．六六〇上</ref>）。</note></cit>。這部分，又增補而集為<title level="m">《遊行經》</title>（南
 <lb n="0008a04" ed="Y"/>傳名<title level="m">《大般涅槃經》</title>），編入<title level="m">《長阿含》</title>。這二部分集合起來，如<title level="m">《佛所行讚》</title>，<title level="m">《佛本行經》</title>
-<lb n="0008a05" ed="Y"/>等，為現存佛傳的全部。但回國省親以後，最後遊行以前，三十多年的化<note n="0008a0501" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0008a0501"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>，雖有無數的片段傳
+<lb n="0008a05" ed="Y"/>等，為現存佛傳的全部。但回國省親以後，最後遊行以前，三十多年的化<note n="0008a0501" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0008a0501"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>，雖有無數的片段傳
 <lb n="0008a06" ed="Y"/>說，卻缺乏前後次第的敘述！</p>
-<lb n="0008a07" ed="Y"/><p style="text-indent:2em">關於釋尊出世的年代，由於印度古代缺乏精確的信史，很難下一定論。經近代的研究，阿育
+<lb n="0008a07" ed="Y"/><p xml:id="pY34p0008a0701" style="text-indent:2em">關於釋尊出世的年代，由於印度古代缺乏精確的信史，很難下一定論。經近代的研究，阿育
 <lb n="0008a08" ed="Y"/>王（<foreign xml:lang="sa">Aśoka</foreign>）已有相當明確的年代可考，也就有了論定釋尊年代的可能性。因為佛教界傳說，阿
 <lb n="0008a09" ed="Y"/>育王是佛滅多少年登位的，依此可推定釋尊在世的年代。阿育王登位，學者間仍有二、三年的出
 <lb n="0008a10" ed="Y"/>入，今姑依西元前二七一年登位說。但佛教界異說紛紜，古老的傳說有三：一、說一切有部
 <lb n="0008a11" ed="Y"/>（<foreign xml:lang="sa">Sarvāstivādin</foreign>）等說，如<cit><bibl><title level="m">《十八部論》</title>說：</bibl><quote>「佛滅度後百一十六年，城名巴連弗，時阿育王王閻
-<lb n="0008a12" ed="Y"/>浮提」</quote><note n="0008003" resp="釋印順" type="orig"><title level="m">《十八部論》</title>（大正<ref target="#vol:49;page:p18a" type="taisho">四九．一八上</ref>）。<title level="m">《部執異論》</title>（大正<ref type="taisho" target="#vol:49;page:p20a">四九．二〇上</ref>）。</note></cit>。依此說，佛滅於西元前三八七年；生年八十，釋尊應生於西元前四六七年。二、南傳
-<lb n="0008a13" ed="Y"/>赤銅鍱部（<foreign xml:lang="sa"><note n="0008a1301" resp="CBETA" type="add">Tāmraśāṭīya【CB】，Tāmraśātīya【印順】</note><app n="0008a1301"><lem wit="【CB】" resp="正聞出版社">Tāmraśāṭīya</lem><rdg wit="【印順】">Tāmraśātīya</rdg></app></foreign>）的傳說，如<cit><bibl><title level="m">《善見律毘婆沙》</title>說：</bibl><quote>「阿育王自拜為王，從此佛涅槃已
+<lb n="0008a12" ed="Y"/>浮提」</quote><note n="0008003" resp="釋印順" type="orig"><title level="m">《十八部論》</title>（大正<ref target="#vol:49;page:p18a" type="taisho">四九．一八上</ref>）。<title level="m">《部執異論》</title>（大正<ref target="#vol:49;page:p20a" type="taisho">四九．二〇上</ref>）。</note></cit>。依此說，佛滅於西元前三八七年；生年八十，釋尊應生於西元前四六七年。二、南傳
+<lb n="0008a13" ed="Y"/>赤銅鍱部（<foreign xml:lang="sa"><note n="0008a1301" resp="CBETA" type="add">Tāmraśāṭīya【CB】，Tāmraśātīya【印順】</note><app n="0008a1301"><lem resp="正聞出版社" wit="【CB】">Tāmraśāṭīya</lem><rdg wit="【印順】">Tāmraśātīya</rdg></app></foreign>）的傳說，如<cit><bibl><title level="m">《善見律毘婆沙》</title>說：</bibl><quote>「阿育王自拜為王，從此佛涅槃已
 <lb n="0008a14" ed="Y"/>二百一十八年」</quote><note n="0008004" resp="釋印順" type="orig"><bibl><title level="m">《善見律毘婆沙》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:24;page:p679c" type="taisho">二四．六七九下</ref>）。<title level="m">《一切善見律註序》</title>（南傳六五．五五）。</note></cit>。依此說，釋尊入滅於西元前四八九年，生於前五六九年。三、清辨（<foreign xml:lang="sa">Bhavya</foreign>）
 <lb n="0008a15" ed="Y"/>的<cit><bibl><title level="m">《異部精釋》</title>說：</bibl><quote>「佛世尊無餘涅槃後，經百六十年，俱蘇摩弗羅城，達摩阿育王支配帝國」</quote></cit>
 <pb n="0009a" ed="Y" xml:id="Y34.0032.0009a"/>
-<lb n="0009a01" ed="Y"/><note n="0009005" resp="釋印順" type="orig"><bibl><title level="m">多氏《印度佛教史》</title>譯者附注所引（寺本婉雅日譯本<biblScope type="pp" n="375">三七五</biblScope>）</bibl>。</note><note n="0009005" resp="正聞出版社" type="mod"><bibl><title level="m">多氏《印度佛教史》</title>譯者附注所引（寺本婉雅日譯本<biblScope type="pp" n="375">三七五</biblScope>）</bibl>。</note>，這可能是上座部的傳說。依此說，釋尊於西元前四三一年入滅，生於前五一一年。<quote>「百六十
+<lb n="0009a01" ed="Y"/><note n="0009005" resp="釋印順" type="orig"><bibl><title level="m">多氏《印度佛教史》</title>譯者附注所引（寺本婉雅日譯本<biblScope n="375" type="pp">三七五</biblScope>）</bibl>。</note><note n="0009005" resp="正聞出版社" type="mod"><bibl><title level="m">多氏《印度佛教史》</title>譯者附注所引（寺本婉雅日譯本<biblScope n="375" type="pp">三七五</biblScope>）</bibl>。</note>，這可能是上座部的傳說。依此說，釋尊於西元前四三一年入滅，生於前五一一年。<quote>「百六十
 <lb n="0009a02" ed="Y"/>年」</quote>說，過去也有譯出，但總以為是「百十六年」的誤寫，不受重視，其實是古說之一。「百十
 <lb n="0009a03" ed="Y"/>六年」與<quote>「百六十年」</quote>，可能本為一說，因誤而分為二說，如「百八法門」，被誤為「八百法門
 <lb n="0009a04" ed="Y"/>」那樣。部分學者，以赤銅鍱部說為可信；有的以「眾聖點記」為證。在每年自恣、誦戒後，在
 <lb n="0009a05" ed="Y"/><title level="m">《戒經》</title>加上一點，年年如此，有幾點就是佛滅幾年：說得似乎信而有據。其實，印度早期，並
-<lb n="0009a06" ed="Y"/>沒有書寫「戒本」（西元五世紀，手寫的戒本還不多），自恣誦戒後，在那<note n="0009a0601" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0009a0601"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>去下這一點！這三
-<lb n="0009a07" ed="Y"/>說都是古老傳說，說到阿育王登位於佛滅多少年。這<note n="0009a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0009a0701"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>提出這三說，不能詳為考論，但我覺得：
+<lb n="0009a06" ed="Y"/>沒有書寫「戒本」（西元五世紀，手寫的戒本還不多），自恣誦戒後，在那<note n="0009a0601" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0009a0601"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>去下這一點！這三
+<lb n="0009a07" ed="Y"/>說都是古老傳說，說到阿育王登位於佛滅多少年。這<note n="0009a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0009a0701"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>提出這三說，不能詳為考論，但我覺得：
 <lb n="0009a08" ed="Y"/>阿育王登位於佛滅百六十年，也許更近於事實。</p>
-<lb n="0009a09" ed="Y"/><p style="text-indent:2em">釋尊是釋迦（<foreign xml:lang="sa">Śākya</foreign>）族。釋族的所住地，在今尼泊爾（<foreign xml:lang="en">Nepal</foreign>）南境的羅泊提（<foreign xml:lang="sa">Rāpti</foreign>）河
+<lb n="0009a09" ed="Y"/><p xml:id="pY34p0009a0901" style="text-indent:2em">釋尊是釋迦（<foreign xml:lang="sa">Śākya</foreign>）族。釋族的所住地，在今尼泊爾（<foreign xml:lang="en">Nepal</foreign>）南境的羅泊提（<foreign xml:lang="sa">Rāpti</foreign>）河
 <lb n="0009a10" ed="Y"/>東，盧呬尼（<foreign xml:lang="sa">Rohiṇī</foreign>，今 <foreign xml:lang="sa">Kohāna</foreign>）河兩岸，傳說有十城。盧呬尼河西北的迦毘羅衛，是釋尊
 <lb n="0009a11" ed="Y"/>的父王——淨飯王（<foreign xml:lang="sa">Śuddhodana</foreign>）所治理的，在今尼泊爾的 <foreign xml:lang="en">Tilorakot</foreign> 地方。從釋族的住地，
-<lb n="0009a12" ed="Y"/>沿雪山（<foreign xml:lang="sa">Himālaya</foreign>）向東，藍莫（<foreign xml:lang="sa"><note n="0009a1201" resp="CBETA" type="add">Rāmagrāma【CB】，Rāma-grāma【印順】</note><app n="0009a1201"><lem wit="【CB】" resp="正聞出版社">Rāmagrāma</lem><rdg wit="【印順】">Rāma-grāma</rdg></app></foreign>）是拘利（<foreign xml:lang="sa">Koli</foreign>）族，拘利族是與釋族通婚嫁的
-<lb n="0009a13" ed="Y"/>。再向東，到拘尸那——釋尊的涅槃處，這<note n="0009a1301" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0009a1301"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>是末羅（<foreign xml:lang="sa">Malla</foreign>）——「力士」族。向南到毘舍離
-<lb n="0009a14" ed="Y"/>（<foreign xml:lang="sa"><note n="0009a1401" resp="CBETA" type="add">Vaiśālī【CB】，Vaiśalī【印順】</note><app n="0009a1401"><lem wit="【CB】" resp="正聞出版社">Vaiśālī</lem><rdg wit="【印順】">Vaiśalī</rdg></app></foreign>），這一帶是跋耆（<foreign xml:lang="sa">Vṛji</foreign>）——「金剛」族。跋耆有八支族，領導的貴族名梨車
+<lb n="0009a12" ed="Y"/>沿雪山（<foreign xml:lang="sa">Himālaya</foreign>）向東，藍莫（<foreign xml:lang="sa"><note n="0009a1201" resp="CBETA" type="add">Rāmagrāma【CB】，Rāma-grāma【印順】</note><app n="0009a1201"><lem resp="正聞出版社" wit="【CB】">Rāmagrāma</lem><rdg wit="【印順】">Rāma-grāma</rdg></app></foreign>）是拘利（<foreign xml:lang="sa">Koli</foreign>）族，拘利族是與釋族通婚嫁的
+<lb n="0009a13" ed="Y"/>。再向東，到拘尸那——釋尊的涅槃處，這<note n="0009a1301" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0009a1301"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>是末羅（<foreign xml:lang="sa">Malla</foreign>）——「力士」族。向南到毘舍離
+<lb n="0009a14" ed="Y"/>（<foreign xml:lang="sa"><note n="0009a1401" resp="CBETA" type="add">Vaiśālī【CB】，Vaiśalī【印順】</note><app n="0009a1401"><lem resp="正聞出版社" wit="【CB】">Vaiśālī</lem><rdg wit="【印順】">Vaiśalī</rdg></app></foreign>），這一帶是跋耆（<foreign xml:lang="sa">Vṛji</foreign>）——「金剛」族。跋耆有八支族，領導的貴族名梨車
 <lb n="0009a15" ed="Y"/>（<foreign xml:lang="pi">Licchavi</foreign>）。還有酥摩（<foreign xml:lang="sa">Himā</foreign>）族，是尼泊爾一帶的民族。這些東方民族，都與釋族相近。如釋尊
 <pb n="0010a" ed="Y" xml:id="Y34.0032.0010a"/>
 <lb n="0010a01" ed="Y"/>的堂弟阿難（<foreign xml:lang="x-sa-pi">Ānanda</foreign>），被稱為「毘提訶牟尼（<foreign xml:lang="sa">Videhamuni</foreign>）」。釋尊被婆羅門稱為 <foreign xml:lang="sa">Vaiśālīka</foreign>，
 <lb n="0010a02" ed="Y"/>也就是毘舍離人。波夷那或作波婆（<foreign xml:lang="sa">Pāvā</foreign>），是佛受純陀（<foreign xml:lang="pi">Cunda</foreign>）最後供養的地方。七百結集
-<lb n="0010a03" ed="Y"/>時，波夷那比丘竟這樣說：<quote>「世尊出在波夷那國，善哉大德！當助波夷那比丘」</quote><note n="0010006" resp="釋印順" type="orig"><bibl><title level="m">《四分律》</title><biblScope type="卷" n="54">卷五四</biblScope></bibl>（大正<ref target="#vol:22;page:p970b" type="taisho">二二．九七〇中</ref>）。</note>。跋耆比丘等
+<lb n="0010a03" ed="Y"/>時，波夷那比丘竟這樣說：<quote>「世尊出在波夷那國，善哉大德！當助波夷那比丘」</quote><note n="0010006" resp="釋印順" type="orig"><bibl><title level="m">《四分律》</title><biblScope n="54" type="卷">卷五四</biblScope></bibl>（大正<ref target="#vol:22;page:p970b" type="taisho">二二．九七〇中</ref>）。</note>。跋耆比丘等
 <lb n="0010a04" ed="Y"/>，對釋族是認為同一族系的。在佛教的傳說中（除使用梵語的說一切有部），釋族是從東方，沿
 <lb n="0010a05" ed="Y"/>雪山而向西方遷移的民族，與跋耆族等是大同族，所以<cit><bibl><title level="m">《長阿含經》</title>，有六族——</bibl><quote>「釋種，俱利
 <lb n="0010a06" ed="Y"/>，冥寧，跋祇，末羅，酥摩」</quote></cit>奉佛的傳說。釋尊的時代，恒河（<foreign xml:lang="sa">Gaṅgā</foreign>）南岸，以王舍城為首都的
 <lb n="0010a07" ed="Y"/>摩竭陀，興盛起來；而在西進最前端的釋族，與舍衛城（<foreign xml:lang="sa">Śrāvastī</foreign>）為首都的（北）憍薩羅（<foreign xml:lang="sa">Kośalā</foreign>）
-<lb n="0010a08" ed="Y"/>國<note n="0010a0801" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0010a0801"><lem wit="【CB】" resp="CBETA">毘</lem><rdg wit="【印順】">毗</rdg></app>連。事實上，當時的釋族，已成為憍薩羅的附庸。憍薩羅代表阿利安（或準阿利安）人，而
+<lb n="0010a08" ed="Y"/>國<note n="0010a0801" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0010a0801"><lem resp="CBETA" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>連。事實上，當時的釋族，已成為憍薩羅的附庸。憍薩羅代表阿利安（或準阿利安）人，而
 <lb n="0010a09" ed="Y"/>摩竭陀是六師流行，代表抗拒西方宗教的中心。釋迦族是東方的，卻是接近西方的，這是有助於
-<lb n="0010a10" ed="Y"/>理解釋尊的立場，不落二邊的思想特性<note n="0010007" resp="釋印順" type="orig">參閱拙作<bibl><title level="a">〈佛教之興起與東方印度〉</title>（<title level="s">《妙雲集》</title><biblScope type="編" n="下">下編</biblScope><biblScope type="vol" n="3">三</biblScope><title level="m">《以佛法研究佛法》</title><ref target="#vol:16;page:p50" type="yinshun">五〇</ref>——七〇）</bibl>。</note>。</p>
-<lb n="0010a11" ed="Y"/><p style="text-indent:2em">釋尊姓瞿曇（<foreign xml:lang="sa">Gautama</foreign>），名悉達多（<foreign xml:lang="sa"><note n="0010a1101" resp="CBETA" type="add">Siddhārtha【CB】，Siddhârtha【印順】</note><app n="0010a1101"><lem wit="【CB】" resp="正聞出版社">Siddhārtha</lem><rdg wit="【印順】">Siddhârtha</rdg></app></foreign>），是迦毘羅衛淨飯王的王子，母親名摩訶
+<lb n="0010a10" ed="Y"/>理解釋尊的立場，不落二邊的思想特性<note n="0010007" resp="釋印順" type="orig">參閱拙作<bibl><title level="a">〈佛教之興起與東方印度〉</title>（<title level="s">《妙雲集》</title><biblScope n="下" type="編">下編</biblScope><biblScope n="3" type="vol">三</biblScope><title level="m">《以佛法研究佛法》</title><ref target="#vol:16;page:p50" type="yinshun">五〇</ref>——七〇）</bibl>。</note>。</p>
+<lb n="0010a11" ed="Y"/><p xml:id="pY34p0010a1101" style="text-indent:2em">釋尊姓瞿曇（<foreign xml:lang="sa">Gautama</foreign>），名悉達多（<foreign xml:lang="sa"><note n="0010a1101" resp="CBETA" type="add">Siddhārtha【CB】，Siddhârtha【印順】</note><app n="0010a1101"><lem resp="正聞出版社" wit="【CB】">Siddhārtha</lem><rdg wit="【印順】">Siddhârtha</rdg></app></foreign>），是迦毘羅衛淨飯王的王子，母親名摩訶
 <lb n="0010a12" ed="Y"/>摩耶（<foreign xml:lang="pi">Mahāmāyā</foreign>），誕生於嵐毘尼（<foreign xml:lang="sa">Lumbinī</foreign>）園，在今尼泊爾的 <foreign xml:lang="sa">Tarai</foreign> 地方。誕生七天，摩
-<lb n="0010a13" ed="Y"/>耶夫人就去世了，所以釋尊是由姨母摩訶波闍波提（<foreign xml:lang="sa"><note n="0010a1301" resp="CBETA" type="add">Mahāprajāpatī【CB】，Mahāpajāpatī【印順】</note><app n="0010a1301"><lem wit="【CB】" resp="正聞出版社">Mahāprajāpatī</lem><rdg wit="【印順】">Mahāpajāpatī</rdg></app></foreign>）撫育長大的。生在王家，從
-<lb n="0010a14" ed="Y"/>小就被稱許為：<quote>「若當出家，成一切種智；若在家者，成轉輪王」</quote><note n="0010008" resp="釋印順" type="orig"><bibl><title level="m">《過去現在因果經》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref target="#vol:3;page:p626c" type="taisho">三．六二六下</ref>）。</note>。轉輪王（<foreign xml:lang="sa"><note n="0010a1401" resp="CBETA" type="add">Cakravarti-rāja【CB】，Cakra-varti-rājan【印順】</note><app n="0010a1401"><lem wit="【CB】" resp="正聞出版社">Cakravarti-rāja</lem><rdg wit="【印順】">Cakra-varti-rājan</rdg></app></foreign>）
+<lb n="0010a13" ed="Y"/>耶夫人就去世了，所以釋尊是由姨母摩訶波闍波提（<foreign xml:lang="sa"><note n="0010a1301" resp="CBETA" type="add">Mahāprajāpatī【CB】，Mahāpajāpatī【印順】</note><app n="0010a1301"><lem resp="正聞出版社" wit="【CB】">Mahāprajāpatī</lem><rdg wit="【印順】">Mahāpajāpatī</rdg></app></foreign>）撫育長大的。生在王家，從
+<lb n="0010a14" ed="Y"/>小就被稱許為：<quote>「若當出家，成一切種智；若在家者，成轉輪王」</quote><note n="0010008" resp="釋印順" type="orig"><bibl><title level="m">《過去現在因果經》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:3;page:p626c" type="taisho">三．六二六下</ref>）。</note>。轉輪王（<foreign xml:lang="sa"><note n="0010a1401" resp="CBETA" type="add">Cakravarti-rāja【CB】，Cakra-varti-rājan【印順】</note><app n="0010a1401"><lem resp="正聞出版社" wit="【CB】">Cakravarti-rāja</lem><rdg wit="【印順】">Cakra-varti-rājan</rdg></app></foreign>）
 <lb n="0010a15" ed="Y"/>，是不以武力，不為民族移殖，經濟掠奪，而是為了以十善教化，使世間過著和平、繁榮、安樂
 <pb n="0011a" ed="Y" xml:id="Y34.0032.0011a"/>
-<lb n="0011a01" ed="Y"/>、統一的仁王<note n="0011009" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref type="taisho" target="#no:1.30">（三〇）</ref><title level="m">《世記經》</title></bibl>（大正<ref type="taisho" target="#vol:1;page:p119b">一．一一九中</ref>——<ref target="#vol:1;page:p121a" type="taisho">一二一上</ref>）。</note>。一切種智（<foreign xml:lang="sa">sarvathā-jñāna</foreign>）就是佛（<foreign xml:lang="x-sa-pi">buddha</foreign>），佛是徹悟人生實相，闡揚正
+<lb n="0011a01" ed="Y"/>、統一的仁王<note n="0011009" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref target="#no:1.30" type="taisho">（三〇）</ref><title level="m">《世記經》</title></bibl>（大正<ref target="#vol:1;page:p119b" type="taisho">一．一一九中</ref>——<ref target="#vol:1;page:p121a" type="taisho">一二一上</ref>）。</note>。一切種智（<foreign xml:lang="sa">sarvathā-jñāna</foreign>）就是佛（<foreign xml:lang="x-sa-pi">buddha</foreign>），佛是徹悟人生實相，闡揚正
 <lb n="0011a02" ed="Y"/>法的教化，而使人實現真平等與大自在。在當時，宗教的思想，趨於極端；而政治上，以強凌弱
 <lb n="0011a03" ed="Y"/>而進行兼併。所以，輪王是人類新的政治要求，佛是人類新的宗教仰望：釋尊是出生於這樣的時
 <lb n="0011a04" ed="Y"/>代。</p>
-<lb n="0011a05" ed="Y"/><p style="text-indent:2em">釋尊少年時代，受到王家的良好教育。娶了耶輸陀羅（<foreign xml:lang="sa">Yaśodharā</foreign>）為妃，生兒名羅睺羅
+<lb n="0011a05" ed="Y"/><p xml:id="pY34p0011a0501" style="text-indent:2em">釋尊少年時代，受到王家的良好教育。娶了耶輸陀羅（<foreign xml:lang="sa">Yaśodharā</foreign>）為妃，生兒名羅睺羅
 <lb n="0011a06" ed="Y"/>（<foreign xml:lang="x-sa-pi">Rāhula</foreign>），過著王家的尊榮、優越富裕的享受。然而釋尊卻起了不滿現實的意念，傳說是：一、
-<lb n="0011a07" ed="Y"/>由於在田野<note n="0011a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0011a0701"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，見到農耕而引起的，如<cit><bibl><title level="m">《佛所行讚》</title>說：</bibl><quote>「路傍見耕人，墾壤殺諸蟲，其心生悲
+<lb n="0011a07" ed="Y"/>由於在田野<note n="0011a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0011a0701"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，見到農耕而引起的，如<cit><bibl><title level="m">《佛所行讚》</title>說：</bibl><quote>「路傍見耕人，墾壤殺諸蟲，其心生悲
 <lb n="0011a08" ed="Y"/>惻，痛踰刺貫心。又見彼農夫，勤苦形枯悴，蓬髮而流汗，塵土坌其身。耕牛亦疲困，吐舌而急
 <lb n="0011a09" ed="Y"/>喘。太子性慈悲，極生憐愍心」</quote><note n="0011010" resp="釋印順" type="orig"><bibl><title level="m">《佛所行讚》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:4;page:p8c" type="taisho">四．八下</ref>）。</note></cit>。釋尊見到貧農（或是農奴）的勞苦而不得休息，眾生的互相
 <lb n="0011a10" ed="Y"/>殘害，不覺慈憫心起，因而在樹下作深長的靜思。二、由於外出遊行，見到老年的龍鍾艱苦，病
 <lb n="0011a11" ed="Y"/>人的病患纏綿，死人的形容變色，而深感人生的無常。在當時解脫（<foreign xml:lang="sa">vimokṣa</foreign>）的宗教風氣下，二
 <lb n="0011a12" ed="Y"/>十九（或說「十九」）歲時離家國而去，過著出家的沙門（<foreign xml:lang="sa">śramaṇa</foreign>）生活，以求得究竟的解脫。</p>
-<lb n="0011a13" ed="Y"/><p style="text-indent:2em">出家的沙門行，為東方新宗教的一般情形。然依佛法說：「家」為男女互相佔有，物資私有
-<lb n="0011a14" ed="Y"/>的組合；依此發展下去，人世間的相侵相爭，苦迫不已<note n="0011011" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref type="taisho" target="#no:1.30">（三〇）</ref><title level="m">《世記經》</title></bibl>（大正<ref type="taisho" target="#vol:1;page:p147c">一．一四七下</ref>——<ref type="taisho" target="#vol:1;page:p148c">一四八下</ref>）。</note>。出家，只是為了勘破自我，捨卻我所
+<lb n="0011a13" ed="Y"/><p xml:id="pY34p0011a1301" style="text-indent:2em">出家的沙門行，為東方新宗教的一般情形。然依佛法說：「家」為男女互相佔有，物資私有
+<lb n="0011a14" ed="Y"/>的組合；依此發展下去，人世間的相侵相爭，苦迫不已<note n="0011011" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref target="#no:1.30" type="taisho">（三〇）</ref><title level="m">《世記經》</title></bibl>（大正<ref target="#vol:1;page:p147c" type="taisho">一．一四七下</ref>——<ref target="#vol:1;page:p148c" type="taisho">一四八下</ref>）。</note>。出家，只是為了勘破自我，捨卻我所
 <lb n="0011a15" ed="Y"/>有的，以求得解脫的生活。為了求得解脫，向南遊行，參訪了阿羅邏伽羅摩（<foreign xml:lang="sa">Ārāḍa-kālāma</foreign>），
 <pb n="0012a" ed="Y" xml:id="Y34.0032.0012a"/>
 <lb n="0012a01" ed="Y"/>鬱頭羅摩子（<foreign xml:lang="sa">Udrakarāma-putra</foreign>），學習高深的禪定。但學成了，卻不能得到解脫，所以又到
 <lb n="0012a02" ed="Y"/>優樓頻螺（<foreign xml:lang="sa">Uruvilvā</foreign>）村，專修苦行。調息、止息，節食，斷食，這樣的精嚴苦行，瀕臨死亡邊
 <lb n="0012a03" ed="Y"/>緣，還是不能解脫；這才捨棄了苦行，恢復正常的飲食。這樣，捨棄王家的欲樂生活，又捨棄了
 <lb n="0012a04" ed="Y"/>禪定、苦行的生活；學習，了解而又超越他，踏上又一新的行程。</p>
-<lb n="0012a05" ed="Y"/><p style="text-indent:2em">釋尊受牧女的乳糜供養，在尼連禪（<foreign xml:lang="sa">Nairañjanā</foreign>）河中沐浴，身體漸康復了。這才到河東，
+<lb n="0012a05" ed="Y"/><p xml:id="pY34p0012a0501" style="text-indent:2em">釋尊受牧女的乳糜供養，在尼連禪（<foreign xml:lang="sa">Nairañjanā</foreign>）河中沐浴，身體漸康復了。這才到河東，
 <lb n="0012a06" ed="Y"/>在現在的佛陀伽耶（<foreign xml:lang="sa">Buddhagayā</foreign>），敷草作座，於樹下禪思。立誓說：<quote>「我今若不證，無上大菩
 <lb n="0012a07" ed="Y"/>提，寧可碎是身，終不起此座」</quote><note n="0012012" resp="釋印順" type="orig"><bibl><title level="m">《方廣大莊嚴經》</title><biblScope n="8" type="卷">卷八</biblScope></bibl>（大正<ref target="#vol:3;page:p588a" type="taisho">三．五八八上</ref>）。</note>。起初修習四禪，在禪定中正觀緣起（<foreign xml:lang="sa">pratītya-samutpāda</foreign>）
 <lb n="0012a08" ed="Y"/>，終於證覺緣起的寂滅（<foreign xml:lang="sa">vyupaśama</foreign>），超脫一切障礙而成佛。釋尊表達其自覺解脫的信念，如
 <lb n="0012a09" ed="Y"/><cit><bibl><title level="m">《五分律》</title>說：</bibl><quote>「一切智為最，無累無所染；我行不由師，自然通聖道。唯一無有等，能令世安
-<lb n="0012a10" ed="Y"/>隱」</quote><note n="0012013" resp="釋印順" type="orig"><bibl><title level="m">《彌沙塞部和醯五分律》</title><biblScope n="15" type="卷">卷一五</biblScope></bibl>（大正<ref type="taisho" target="#vol:22;page:p104a">二二．一〇四上</ref>）。</note></cit>。釋尊修證的內容，稱為<quote>「古仙人之道」</quote>，<quote>「古王宮殿」</quote><note n="0012014" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="12">卷一二</biblScope></bibl>（大正<ref target="#vol:2;page:p80c" type="taisho">二．八〇下</ref>）。<bibl><title level="m">《相應部》</title>（一二）<title level="a">〈因緣相應〉</title></bibl>（南傳一三．一五四）。</note>。釋尊無師自悟，是獨到的創
+<lb n="0012a10" ed="Y"/>隱」</quote><note n="0012013" resp="釋印順" type="orig"><bibl><title level="m">《彌沙塞部和醯五分律》</title><biblScope n="15" type="卷">卷一五</biblScope></bibl>（大正<ref target="#vol:22;page:p104a" type="taisho">二二．一〇四上</ref>）。</note></cit>。釋尊修證的內容，稱為<quote>「古仙人之道」</quote>，<quote>「古王宮殿」</quote><note n="0012014" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="12" type="卷">卷一二</biblScope></bibl>（大正<ref target="#vol:2;page:p80c" type="taisho">二．八〇下</ref>）。<bibl><title level="m">《相應部》</title>（一二）<title level="a">〈因緣相應〉</title></bibl>（南傳一三．一五四）。</note>。釋尊無師自悟，是獨到的創
 <lb n="0012a11" ed="Y"/>見，而其實是無分於古今中外，聖者所共由共證的，永恒普遍的大道！佛法是與神教不同的，佛
 <lb n="0012a12" ed="Y"/>不是神，也不是神的兒子或使者，佛是以人身而實現正覺解脫的聖者。佛教不是神教那樣的，以
 <lb n="0012a13" ed="Y"/>宗教為「神與人的關係」，而是人類的徹悟，體現真理，而到達永恒的安樂、自在、清淨。佛是
-<lb n="0012a14" ed="Y"/>人，人間的「勇猛」、「憶念」、「梵行」，神（天）界不及人類多多<note n="0012015" resp="釋印順" type="orig"><bibl><title level="m">《阿毘達磨大毘婆沙論》</title><biblScope n="172" type="卷">卷一七二</biblScope></bibl>引經（大正<ref type="taisho" target="#vol:27;page:p867c">二七．八六七下</ref>）。</note>。所以究竟成佛，不是
+<lb n="0012a14" ed="Y"/>人，人間的「勇猛」、「憶念」、「梵行」，神（天）界不及人類多多<note n="0012015" resp="釋印順" type="orig"><bibl><title level="m">《阿毘達磨大毘婆沙論》</title><biblScope n="172" type="卷">卷一七二</biblScope></bibl>引經（大正<ref target="#vol:27;page:p867c" type="taisho">二七．八六七下</ref>）。</note>。所以究竟成佛，不是
 <lb n="0012a15" ed="Y"/>天神，也不在天上，惟有在人間，所以釋尊說：<quote>「我今亦是人數」</quote>；<quote>「佛世尊皆出人間，非由天
 <pb n="0013a" ed="Y" xml:id="Y34.0032.0013a"/>
-<lb n="0013a01" ed="Y"/>而得也」</quote><note n="0013016" resp="釋印順" type="orig"><bibl><title level="m">《增壹阿含經》</title>（二六）<title level="a">〈四意斷品〉</title></bibl>（大正<ref target="#vol:2;page:p637b" type="taisho">二．六三七中</ref>）。（三四）<title level="a">〈等見品〉</title>（大正<ref type="taisho" target="#vol:2;page:p694a">二．六九四上</ref>）。</note>。釋尊成佛後，四十五（或作「四十九」）年間，踏遍了恒河兩岸，化導人類，不是
+<lb n="0013a01" ed="Y"/>而得也」</quote><note n="0013016" resp="釋印順" type="orig"><bibl><title level="m">《增壹阿含經》</title>（二六）<title level="a">〈四意斷品〉</title></bibl>（大正<ref target="#vol:2;page:p637b" type="taisho">二．六三七中</ref>）。（三四）<title level="a">〈等見品〉</title>（大正<ref target="#vol:2;page:p694a" type="taisho">二．六九四上</ref>）。</note>。釋尊成佛後，四十五（或作「四十九」）年間，踏遍了恒河兩岸，化導人類，不是
 <lb n="0013a02" ed="Y"/>神教那樣的，化作虹光而去。釋尊是真正的<quote>「父母所生身，直登大覺位」</quote>；<quote>「即人成佛」</quote>，創開
 <lb n="0013a03" ed="Y"/>人類自己的宗教。</p>
-<lb n="0013a04" ed="Y"/><p style="text-indent:2em">釋尊成佛後，曾作七七日的禪思，享受解脫的法樂。釋尊感到正法（<foreign xml:lang="sa">saddharma</foreign>）的深奧，
-<lb n="0013a05" ed="Y"/>眾生（<foreign xml:lang="sa">sattva</foreign>）的愛著，而有不想說法的傳說，如<bibl><title level="m">《彌沙塞部和醯五分律》</title><biblScope type="卷" n="15">卷一五</biblScope></bibl><note place="inline">大正<ref target="#vol:22;page:p103c" type="taisho">二二．一〇
+<lb n="0013a04" ed="Y"/><p xml:id="pY34p0013a0401" style="text-indent:2em">釋尊成佛後，曾作七七日的禪思，享受解脫的法樂。釋尊感到正法（<foreign xml:lang="sa">saddharma</foreign>）的深奧，
+<lb n="0013a05" ed="Y"/>眾生（<foreign xml:lang="sa">sattva</foreign>）的愛著，而有不想說法的傳說，如<bibl><title level="m">《彌沙塞部和醯五分律》</title><biblScope n="15" type="卷">卷一五</biblScope></bibl><note place="inline">大正<ref target="#vol:22;page:p103c" type="taisho">二二．一〇
 <lb n="0013a06" ed="Y"/>三下</ref></note>說：</p>
-<lb n="0013a07" ed="Y"/><quote><p style="margin-left:3em">「我所得法，甚深微妙，難解難見，寂寞無為，智者所知，非愚所及。眾生樂著三界窟宅
+<lb n="0013a07" ed="Y"/><quote><p xml:id="pY34p0013a0701" style="margin-left:3em">「我所得法，甚深微妙，難解難見，寂寞無為，智者所知，非愚所及。眾生樂著三界窟宅
 <lb n="0013a08" ed="Y"/><note n="0013017" resp="釋印順" type="orig"><cit><bibl><title level="m">《相應部》</title>（六）<title level="a">〈梵天相應〉</title>，作</bibl><quote>「眾生樂阿賴耶，欣阿賴耶，憙阿賴耶」</quote></cit>（南傳一二．二三四）。</note>，集此諸業，何緣能悟十二因緣甚深微妙難見之法！又復息一切行，截斷諸流，盡恩愛
 <lb n="0013a09" ed="Y"/>源，無餘泥洹，益復甚難！若我說者，徒自疲勞」。</p></quote>
-<lb n="0013a10" ed="Y"/><p style="text-indent:2em">佛法是甚深的，但不是世俗學問的精深，而是眾生本性（獸性、人性、神性）的癥結<note place="inline">窟宅</note>，
+<lb n="0013a10" ed="Y"/><p xml:id="pY34p0013a1001" style="text-indent:2em">佛法是甚深的，但不是世俗學問的精深，而是眾生本性（獸性、人性、神性）的癥結<note place="inline">窟宅</note>，
 <lb n="0013a11" ed="Y"/>不容易突破，也就難於解脫。傳說：自稱人類、世界的創造者——最高神（印度名為「梵天」）
-<lb n="0013a12" ed="Y"/>，殷勤的請佛說法：眾生的確難以度脫，但也有利根而可能達成解脫的。釋尊這才到迦尸（<foreign xml:lang="sa"><note n="0013a1201" resp="CBETA" type="add">Kasi【CB】，Kāśi【印順】</note><app n="0013a1201"><lem wit="【CB】" resp="正聞出版社">Kasi</lem><rdg wit="【印順】">Kāśi</rdg></app></foreign>）
+<lb n="0013a12" ed="Y"/>，殷勤的請佛說法：眾生的確難以度脫，但也有利根而可能達成解脫的。釋尊這才到迦尸（<foreign xml:lang="sa"><note n="0013a1201" resp="CBETA" type="add">Kasi【CB】，Kāśi【印順】</note><app n="0013a1201"><lem resp="正聞出版社" wit="【CB】">Kasi</lem><rdg wit="【印順】">Kāśi</rdg></app></foreign>）
 <lb n="0013a13" ed="Y"/>國的波羅奈（<foreign xml:lang="sa">Vārāṇasī</foreign>），今 <foreign xml:lang="en">Benares</foreign>，為五（位）比丘初轉法輪。傳說輪王治世，有「輪寶」
-<lb n="0013a14" ed="Y"/>從空而行；輪寶飛到那<note n="0013a1401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0013a1401"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，那<note n="0013a1402" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0013a1402"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>的人就降伏而接受教令。釋尊依八正道（<foreign xml:lang="sa">āryâṣṭâṅgika-mārga</foreign>）
-<lb n="0013a15" ed="Y"/>而成佛，八正道就是法，所以說：<quote>「正見是法，乃至……正定是法」</quote><note n="0013018" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="28">卷二八</biblScope></bibl>（大正<ref type="taisho" target="#vol:2;page:p202c">二．二〇二下</ref>）。</note>。釋尊依八正道成佛，為
+<lb n="0013a14" ed="Y"/>從空而行；輪寶飛到那<note n="0013a1401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0013a1401"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，那<note n="0013a1402" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0013a1402"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>的人就降伏而接受教令。釋尊依八正道（<foreign xml:lang="sa">āryâṣṭâṅgika-mārga</foreign>）
+<lb n="0013a15" ed="Y"/>而成佛，八正道就是法，所以說：<quote>「正見是法，乃至……正定是法」</quote><note n="0013018" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="28" type="卷">卷二八</biblScope></bibl>（大正<ref target="#vol:2;page:p202c" type="taisho">二．二〇二下</ref>）。</note>。釋尊依八正道成佛，為
 <pb n="0014a" ed="Y" xml:id="Y34.0032.0014a"/>
 <lb n="0014a01" ed="Y"/>眾生說法，弟子們依法修行，八正道也就出現於弟子心中。從佛心而轉到弟子心，降伏一切煩惱
-<lb n="0014a02" ed="Y"/>，如輪寶那樣的從此到彼，降伏一切，所以名為轉法輪。法輪，是以「八支正道」為體的<note n="0014019" resp="釋印順" type="orig"><bibl><title level="m">《阿毘達磨大毘婆沙論》</title><biblScope n="182" type="卷">卷一八二</biblScope></bibl>（大正<ref type="taisho" target="#vol:27;page:p911b">二七．九一一中</ref>）。</note>。釋
-<lb n="0014a03" ed="Y"/>尊與五比丘共住，開始僧伽（<foreign xml:lang="x-sa-pi">saṃgha</foreign>）的生活——法味同嘗，財味共享<note n="0014020" resp="釋印順" type="orig"><bibl><title level="m">《四分律》</title><biblScope type="卷" n="32">卷三二</biblScope></bibl>（大正<ref type="taisho" target="#vol:22;page:p789a">二二．七八九上</ref>）。</note>。不久，隨佛出家的
+<lb n="0014a02" ed="Y"/>，如輪寶那樣的從此到彼，降伏一切，所以名為轉法輪。法輪，是以「八支正道」為體的<note n="0014019" resp="釋印順" type="orig"><bibl><title level="m">《阿毘達磨大毘婆沙論》</title><biblScope n="182" type="卷">卷一八二</biblScope></bibl>（大正<ref target="#vol:27;page:p911b" type="taisho">二七．九一一中</ref>）。</note>。釋
+<lb n="0014a03" ed="Y"/>尊與五比丘共住，開始僧伽（<foreign xml:lang="x-sa-pi">saṃgha</foreign>）的生活——法味同嘗，財味共享<note n="0014020" resp="釋印順" type="orig"><bibl><title level="m">《四分律》</title><biblScope n="32" type="卷">卷三二</biblScope></bibl>（大正<ref target="#vol:22;page:p789a" type="taisho">二二．七八九上</ref>）。</note>。不久，隨佛出家的
 <lb n="0014a04" ed="Y"/>弟子，已有一百多人，釋尊囑付他們去分頭教化：<quote>「汝等各各分部遊行！世間多有賢善能受教誡
-<lb n="0014a05" ed="Y"/>者。……諸比丘受教，分部而去」</quote><note n="0014021" resp="釋印順" type="orig"><bibl><title level="m">《彌沙塞部和醯五分律》</title><biblScope n="16" type="卷">卷一六</biblScope></bibl>（大正<ref type="taisho" target="#vol:22;page:p108a">二二．一〇八上</ref>）。<bibl>《<title level="m">赤銅鍱部律</title>．<title level="a">大品</title>》</bibl>（南傳三．三九——四〇）。</note>。釋尊所宣揚的正法，迅速的發展。第二年，遊化到王舍城
+<lb n="0014a05" ed="Y"/>者。……諸比丘受教，分部而去」</quote><note n="0014021" resp="釋印順" type="orig"><bibl><title level="m">《彌沙塞部和醯五分律》</title><biblScope n="16" type="卷">卷一六</biblScope></bibl>（大正<ref target="#vol:22;page:p108a" type="taisho">二二．一〇八上</ref>）。<bibl>《<title level="m">赤銅鍱部律</title>．<title level="a">大品</title>》</bibl>（南傳三．三九——四〇）。</note>。釋尊所宣揚的正法，迅速的發展。第二年，遊化到王舍城
 <lb n="0014a06" ed="Y"/>，得到頻婆沙羅王（<foreign xml:lang="x-sa-pi">Bimbisāra</foreign>）的歸依。佛的二大弟子，舍利弗（<foreign xml:lang="sa">Śāriputra</foreign>）與大目犍連
 <lb n="0014a07" ed="Y"/>（<foreign xml:lang="sa">Mahāmaudgalyāyana</foreign>），也加入釋沙門的僧伽。那時，出家弟子已有一千二百五十人了。釋尊「
 <lb n="0014a08" ed="Y"/>以法攝僧」，使出家眾過著「和樂清淨」的集體生活。僧伽是「眾」，是有組織的集合。在僧伽
 <lb n="0014a09" ed="Y"/>中，人人平等，依德化的法治——戒律而住。彼此間互相警策，互相教誡，互相勉勵，在和——
-<lb n="0014a10" ed="Y"/>團結，樂——身心安樂，清淨——健全的僧伽<note n="0014a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0014a1001"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，努力於修證及教化的活動。釋尊曾勸優波離
+<lb n="0014a10" ed="Y"/>團結，樂——身心安樂，清淨——健全的僧伽<note n="0014a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0014a1001"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，努力於修證及教化的活動。釋尊曾勸優波離
 <lb n="0014a11" ed="Y"/>（<foreign xml:lang="x-sa-pi">Upāli</foreign>）住在僧中，勸大迦葉（<foreign xml:lang="sa">Mahākāśyapa</foreign>）放棄頭陀行而來僧中住。離眾的精苦行，受到當
 <lb n="0014a12" ed="Y"/>時（東方）摩竭陀與央伽（<foreign xml:lang="x-sa-pi">Aṅga</foreign>）民間的崇敬，但釋尊戒律的精神，是集體的僧伽；僧伽是佛法
 <lb n="0014a13" ed="Y"/>在人間的具體形象。釋尊一直在恒河兩岸，平等的施行教化。五十多歲後，體力差些，雖也遊行
 <lb n="0014a14" ed="Y"/>教化，但多住在舍衛城。</p>
-<lb n="0014a15" ed="Y"/><p style="text-indent:2em">佛與弟子們的長期教化，佛法是相當興盛的。但在釋尊晚年，也有些不幸事件，世間就是這
+<lb n="0014a15" ed="Y"/><p xml:id="pY34p0014a1501" style="text-indent:2em">佛與弟子們的長期教化，佛法是相當興盛的。但在釋尊晚年，也有些不幸事件，世間就是這
 <pb n="0015a" ed="Y" xml:id="Y34.0032.0015a"/>
 <lb n="0015a01" ed="Y"/>樣的！一、提婆達多（<foreign xml:lang="x-sa-pi">Devadatta</foreign>）的「破僧」——叛教：在僧伽中，釋族與釋族關係密切的東
 <lb n="0015a02" ed="Y"/>方比丘，覺得佛法是我們的。釋尊的堂弟提婆達多，有了領導僧眾的企圖，但得不到釋尊的支持
 <lb n="0015a03" ed="Y"/>。依釋尊的見解，佛法不是種族的、國家的，而是世界全人類的，不應該以某一種族為主體。釋
-<lb n="0015a04" ed="Y"/>尊曾說：我不攝受眾，亦無所教令<note n="0015022" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref target="#no:1.2" type="taisho">（二）</ref><title level="m">《遊行經》</title></bibl>（大正<ref type="taisho" target="#vol:1;page:p15a">一．一五上</ref>）。<bibl><title level="m">《長部》</title>（一六）<title level="m">《大般涅槃經》</title></bibl>（南傳七．六七）。</note>。釋尊不以統攝的領導者自居，也不交與大弟子領導，何況
+<lb n="0015a04" ed="Y"/>尊曾說：我不攝受眾，亦無所教令<note n="0015022" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref target="#no:1.2" type="taisho">（二）</ref><title level="m">《遊行經》</title></bibl>（大正<ref target="#vol:1;page:p15a" type="taisho">一．一五上</ref>）。<bibl><title level="m">《長部》</title>（一六）<title level="m">《大般涅槃經》</title></bibl>（南傳七．六七）。</note>。釋尊不以統攝的領導者自居，也不交與大弟子領導，何況
 <lb n="0015a05" ed="Y"/>提婆達多！因此，提婆達多索性與五百初學比丘，脫離佛法而自立教誡，說苦行的<quote>「五法是道」</quote>
 <lb n="0015a06" ed="Y"/>。在這破僧事件中，釋尊受到了石子打擊而足指出血。雖由舍利弗與目犍連說法，而使初學者回
-<lb n="0015a07" ed="Y"/>歸於佛法的僧伽，而教團分裂的不幸，將影響於未來<note n="0015023" resp="釋印順" type="orig">參閱拙作<bibl><title level="m">《初期大乘佛教之起源與開展》</title><biblScope type="chap" n="6">第六章</biblScope></bibl>（<ref target="#vol:37;page:p316" type="yinshun">三一六</ref>——三一八）。</note>。二、釋迦族被滅：釋族早已成為憍薩羅
+<lb n="0015a07" ed="Y"/>歸於佛法的僧伽，而教團分裂的不幸，將影響於未來<note n="0015023" resp="釋印順" type="orig">參閱拙作<bibl><title level="m">《初期大乘佛教之起源與開展》</title><biblScope n="6" type="chap">第六章</biblScope></bibl>（<ref target="#vol:37;page:p316" type="yinshun">三一六</ref>——三一八）。</note>。二、釋迦族被滅：釋族早已成為憍薩羅
 <lb n="0015a08" ed="Y"/>的附庸，在釋尊晚年，終於為憍薩羅軍隊所毀滅。釋族地小而人少，在強鄰的兼併政策下，是無
-<lb n="0015a09" ed="Y"/>可奈何的事。目<note n="0015a0901" resp="CBETA" type="add" subtype="規範字詞">睹【CB】，覩【印順】</note><app n="0015a0901"><lem wit="【CB】" resp="CBETA">睹</lem><rdg wit="【印順】">覩</rdg></app>祖國與親族的不幸，釋尊也不能不有所感吧！三、舍利弗與大目犍連入滅：舍
+<lb n="0015a09" ed="Y"/>可奈何的事。目<note n="0015a0901" resp="CBETA" type="add" subtype="規範字詞">睹【CB】，覩【印順】</note><app n="0015a0901"><lem resp="CBETA" wit="【CB】">睹</lem><rdg wit="【印順】">覩</rdg></app>祖國與親族的不幸，釋尊也不能不有所感吧！三、舍利弗與大目犍連入滅：舍
 <lb n="0015a10" ed="Y"/>利弗與大目犍連，稱「雙賢弟子」；在釋尊晚年，遊化各方，使佛法得到正常的開展。但不幸，
 <lb n="0015a11" ed="Y"/>目犍連為婆羅門所襲擊，傷重而死；舍利弗也回故鄉入滅了！對佛法的開展，是不幸的，如<cit><bibl><title level="m">《雜
 <lb n="0015a12" ed="Y"/>阿含經》</title>說：</bibl><quote>「若彼方有舍利弗住者，於彼方我<note place="inline">釋尊</note>則無事」</quote></cit>；<quote>「我觀大眾，見已虛空，以舍利
 <lb n="0015a13" ed="Y"/>弗、大目犍連般涅槃故。我聲聞<note place="inline">弟子</note>，唯此二人善能說法，教誡教授」</quote><note n="0015024" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="24" type="卷">卷二四</biblScope></bibl>（大正<ref target="#vol:2;page:p177a" type="taisho">二．一七七上</ref>）。</note>。晚年的不幸事件，接
 <lb n="0015a14" ed="Y"/>踵而來，釋尊始終以慈忍理性來適應，這就是世間呀！</p>
-<lb n="0015a15" ed="Y"/><p style="text-indent:2em">釋尊八十歲那年，在毘舍離安居。身體衰弱有病，自己說如「朽車」那樣。安居三月終了，
+<lb n="0015a15" ed="Y"/><p xml:id="pY34p0015a1501" style="text-indent:2em">釋尊八十歲那年，在毘舍離安居。身體衰弱有病，自己說如「朽車」那樣。安居三月終了，
 <pb n="0016a" ed="Y" xml:id="Y34.0032.0016a"/>
 <lb n="0016a01" ed="Y"/>率領阿難等比丘，向北方遊行。在波婆，受純陀的供養飲食，引起病勢的急劇變化。勉力前進到
-<lb n="0016a02" ed="Y"/>拘尸那，就在這天半夜<note n="0016a0201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0016a0201"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，釋尊在娑羅雙樹間般涅槃（<foreign xml:lang="sa">parinirvāṇa</foreign>）了。將入涅槃前，身體極
+<lb n="0016a02" ed="Y"/>拘尸那，就在這天半夜<note n="0016a0201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0016a0201"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，釋尊在娑羅雙樹間般涅槃（<foreign xml:lang="sa">parinirvāṇa</foreign>）了。將入涅槃前，身體極
 <lb n="0016a03" ed="Y"/>度虛弱，還化度須跋陀羅（<foreign xml:lang="sa">Subhadra</foreign>）為最後弟子。諄諄的教誨弟子：<quote>「我成佛來所說經戒<note place="inline">法</note>，
-<lb n="0016a04" ed="Y"/><note place="inline">毘奈耶</note>，即是汝護，為汝等（怙）恃」</quote><note n="0016025" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref type="taisho" target="#no:1.2">（二）</ref><title level="m">《遊行經》</title></bibl>（大正<ref type="taisho" target="#vol:1;page:p26a">一．二六上</ref>）。</note>；不要以為世尊涅槃，就沒有依怙了。<quote>「諸行是壞法，精
-<lb n="0016a05" ed="Y"/>進莫放逸，此是如來最後之說」</quote><note n="0016026" resp="釋印順" type="orig"><bibl><title level="m">《長部》</title>（一六）<title level="m">《大般涅槃經》</title></bibl>（南傳七．一四四）。<bibl><title level="m">《長阿含經》</title><ref type="taisho" target="#no:1.2">（二）</ref><title level="m">《遊行經》</title></bibl>（大正<ref type="taisho" target="#vol:1;page:p26b">一．二六中</ref>）。</note>。諸行是無常的，必然要滅壞的，佛的色身也沒有例外。最要
+<lb n="0016a04" ed="Y"/><note place="inline">毘奈耶</note>，即是汝護，為汝等（怙）恃」</quote><note n="0016025" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref target="#no:1.2" type="taisho">（二）</ref><title level="m">《遊行經》</title></bibl>（大正<ref target="#vol:1;page:p26a" type="taisho">一．二六上</ref>）。</note>；不要以為世尊涅槃，就沒有依怙了。<quote>「諸行是壞法，精
+<lb n="0016a05" ed="Y"/>進莫放逸，此是如來最後之說」</quote><note n="0016026" resp="釋印順" type="orig"><bibl><title level="m">《長部》</title>（一六）<title level="m">《大般涅槃經》</title></bibl>（南傳七．一四四）。<bibl><title level="m">《長阿含經》</title><ref target="#no:1.2" type="taisho">（二）</ref><title level="m">《遊行經》</title></bibl>（大正<ref target="#vol:1;page:p26b" type="taisho">一．二六中</ref>）。</note>。諸行是無常的，必然要滅壞的，佛的色身也沒有例外。最要
 <lb n="0016a06" ed="Y"/>緊的，是依佛所說而精進修行，所以說：<quote>「我諸弟子展轉行之，則是如來法身常在而不滅也」</quote><note n="0016027" resp="釋印順" type="orig"><title level="m">《佛垂般涅槃略說教誡經》</title>（大正<ref target="#vol:12;page:p1112b" type="taisho">一二．一一一二中</ref>）。</note>
 <lb n="0016a07" ed="Y"/>！人間的佛陀入涅槃，也就是去世了。眾生是生死死生，無限的流轉，正覺而得究竟解脫的入涅
 <lb n="0016a08" ed="Y"/>槃，又是怎樣呢？大迦旃延（<foreign xml:lang="sa">Mahākātyāyana</foreign>）對婆蹉（<foreign xml:lang="sa">Vātsī</foreign>）種說：不可說如來死後是有的
-<lb n="0016a09" ed="Y"/>，也不可說死後是無的，說死後也有也無，或非有非無，都是不可這樣說的<note n="0016028" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="34" type="卷">卷三四</biblScope></bibl>（大正<ref type="taisho" target="#vol:2;page:p244c">二．二四四下</ref>——<ref type="taisho" target="#vol:2;page:p245a">二四五上</ref>）。</note>。那死後怎樣呢？
-<lb n="0016a10" ed="Y"/><quote>「惟可說為不可施設，究竟涅槃」</quote><note n="0016029" resp="釋印順" type="orig"><bibl><title level="m">《本事經》</title><biblScope type="卷" n="3">卷三</biblScope></bibl>（大正<ref type="taisho" target="#vol:17;page:p678a">一七．六七八上</ref>）。</note>。涅槃是超越的，不能以世間的存在或不存在來表示。這不
+<lb n="0016a09" ed="Y"/>，也不可說死後是無的，說死後也有也無，或非有非無，都是不可這樣說的<note n="0016028" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="34" type="卷">卷三四</biblScope></bibl>（大正<ref target="#vol:2;page:p244c" type="taisho">二．二四四下</ref>——<ref target="#vol:2;page:p245a" type="taisho">二四五上</ref>）。</note>。那死後怎樣呢？
+<lb n="0016a10" ed="Y"/><quote>「惟可說為不可施設，究竟涅槃」</quote><note n="0016029" resp="釋印順" type="orig"><bibl><title level="m">《本事經》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref target="#vol:17;page:p678a" type="taisho">一七．六七八上</ref>）。</note>。涅槃是超越的，不能以世間的存在或不存在來表示。這不
 <lb n="0016a11" ed="Y"/>是分別言語所可及的，只能說：無限的生死苦迫是徹底的解脫了。</p>
 <lb n="0016a12" ed="Y"/>
 <lb n="0016a13" ed="Y"/>
@@ -464,53 +484,53 @@
 <lb n="0018a12" ed="Y"/>
 <lb n="0018a13" ed="Y"/></cb:div>
 <lb n="0018a14" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　中道正法</cb:mulu><head>第三節　中道正法</head>
-<lb n="0018a15" ed="Y"/><p style="text-indent:2em">釋尊本著現等覺（<foreign xml:lang="x-sa-pi">abhisaṃbodhi</foreign>）的自證，為人類說法，提貢了不共世間的正道。佛法不
+<lb n="0018a15" ed="Y"/><p xml:id="pY34p0018a1501" style="text-indent:2em">釋尊本著現等覺（<foreign xml:lang="x-sa-pi">abhisaṃbodhi</foreign>）的自證，為人類說法，提貢了不共世間的正道。佛法不
 <pb n="0019a" ed="Y" xml:id="Y34.0032.0019a"/>
 <lb n="0019a01" ed="Y"/>是重信仰的，他力的，神秘的，也不是學問的，而是從現實人生著手的正道，從正道的修行中得
 <lb n="0019a02" ed="Y"/>解脫。釋尊為五比丘初轉法輪（<foreign xml:lang="sa">dharma-cakra-pravartana</foreign>），首先提出了中道（<foreign xml:lang="sa">madhyamāpratipad</foreign>）
 <lb n="0019a03" ed="Y"/>，如<bibl>《<title level="m">赤銅鍱部律</title>．<title level="a">大品</title>》</bibl><note place="inline">南傳三．一八——一九</note>說：</p>
-<lb n="0019a04" ed="Y"/><quote><p style="margin-left:3em">「諸比丘！世有二邊，出家者不應親近。何等為二？於諸欲愛欲貪著事，是下劣，卑賤，
+<lb n="0019a04" ed="Y"/><quote><p xml:id="pY34p0019a0401" style="margin-left:3em">「諸比丘！世有二邊，出家者不應親近。何等為二？於諸欲愛欲貪著事，是下劣，卑賤，
 <lb n="0019a05" ed="Y"/>凡夫所行而非聖賢，無義相應。自煩苦事，是事非聖賢法，無義相應。如來捨此二邊，依
 <lb n="0019a06" ed="Y"/>中道而現等覺，眼生，智生，寂靜，證智，正覺，涅槃所資」。</p></quote>
-<lb n="0019a07" ed="Y"/><quote><p style="margin-left:3em">「諸比丘！何謂如來現等覺，眼生，智生，寂靜，證智，正覺，涅槃所資之中道？即八聖
-<lb n="0019a08" ed="Y"/>道：謂正見，正思惟，正語，正業，正命，正精進，正念，正定」<note n="0019001" resp="釋印順" type="orig"><bibl><title level="m">《彌沙塞部和醯五分律》</title><biblScope type="卷" n="15">卷一五</biblScope></bibl>（大正<ref type="taisho" target="#vol:22;page:p104b">二二．一〇四中</ref>）等。</note>。</p></quote>
-<lb n="0019a09" ed="Y"/><p style="text-indent:2em">當時印度民間的風尚，有的貪著欲樂，主要是在家的婆羅門（<foreign xml:lang="x-sa-pi">brāhmaṇa</foreign>）；有的過著苦行
+<lb n="0019a07" ed="Y"/><quote><p xml:id="pY34p0019a0701" style="margin-left:3em">「諸比丘！何謂如來現等覺，眼生，智生，寂靜，證智，正覺，涅槃所資之中道？即八聖
+<lb n="0019a08" ed="Y"/>道：謂正見，正思惟，正語，正業，正命，正精進，正念，正定」<note n="0019001" resp="釋印順" type="orig"><bibl><title level="m">《彌沙塞部和醯五分律》</title><biblScope n="15" type="卷">卷一五</biblScope></bibl>（大正<ref target="#vol:22;page:p104b" type="taisho">二二．一〇四中</ref>）等。</note>。</p></quote>
+<lb n="0019a09" ed="Y"/><p xml:id="pY34p0019a0901" style="text-indent:2em">當時印度民間的風尚，有的貪著欲樂，主要是在家的婆羅門（<foreign xml:lang="x-sa-pi">brāhmaṇa</foreign>）；有的過著苦行
 <lb n="0019a10" ed="Y"/>（<foreign xml:lang="sa">duṣkara-caryā</foreign>）生活，主要是出家的沙門（<foreign xml:lang="sa">śramaṇa</foreign>）。極端的傾向，是不正常的。釋尊揭示
 <lb n="0019a11" ed="Y"/>「中道」，對時代的一切，是攝取精英而吐棄糟粕。對西方傳統的婆羅門教，幾乎全部的否定了
 <lb n="0019a12" ed="Y"/>。如所說的創造主——梵天，釋尊批評為：<quote>「若彼三明婆羅門無有一見梵天者，若三明婆羅門先
 <lb n="0019a13" ed="Y"/>師無有見梵天者，又諸舊大仙——三明婆羅門阿咤摩等亦不見梵天者，當知三明婆羅門所說（梵
-<lb n="0019a14" ed="Y"/>天）非實」</quote><note n="0019002" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref type="taisho" target="#no:1.26">（二六）</ref><title level="m">《三明經》</title></bibl>（大正<ref type="taisho" target="#vol:1;page:p105b">一．一〇五中</ref>——下）。</note>。<quote>「梵志<note place="inline">婆羅門</note>自高，事若干天<note place="inline">神</note>，若眾生命終者，彼能令自在往來善處，生於天上
+<lb n="0019a14" ed="Y"/>天）非實」</quote><note n="0019002" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref target="#no:1.26" type="taisho">（二六）</ref><title level="m">《三明經》</title></bibl>（大正<ref target="#vol:1;page:p105b" type="taisho">一．一〇五中</ref>——下）。</note>。<quote>「梵志<note place="inline">婆羅門</note>自高，事若干天<note place="inline">神</note>，若眾生命終者，彼能令自在往來善處，生於天上
 <lb n="0019a15" ed="Y"/>」</quote><note n="0019003" resp="釋印順" type="orig"><bibl><title level="m">《中阿含經》</title><ref target="#no:26.17" type="taisho">（一七）</ref><title level="m">《伽彌尼經》</title></bibl>（大正<ref target="#vol:1;page:p439c" type="taisho">一．四三九下</ref>——<ref target="#vol:1;page:p440a" type="taisho">四四〇上</ref>）。</note>。不問人的行為如何，以信神及祈禱為生天法門，批評為如投石到水中，而在岸上祈禱，希
 <pb n="0020a" ed="Y" xml:id="Y34.0032.0020a"/>
-<lb n="0020a01" ed="Y"/>望大石的浮起來。祭祀，特別是犧牲的血祭，釋尊以為：<quote>「若邪盛大會，繫<note n="0020a0101" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0020a0101"><lem wit="【CB】" resp="CBETA">群</lem><rdg wit="【印順】">羣</rdg></app>少特牛、水特、水
-<lb n="0020a02" ed="Y"/><note n="0020a0201" resp="CBETA" type="add">牸【CB】，<g ref="#CB01132"/>【印順】</note><app n="0020a0201"><lem wit="【CB】" resp="正聞出版社">牸<note type="cf1">《雜阿含經》卷4(CBETA, T02, no. 99, p. 22, c11-15)</note></lem><rdg wit="【印順】"><g ref="#CB01132"/></rdg></app>，及諸羊犢，小小眾生悉皆傷殺；逼迫苦切僕使作人，鞭笞恐怛，悲泣號呼。……是等邪盛大
-<lb n="0020a03" ed="Y"/>會，我不稱歎」</quote>；<quote>「種種供養，實生於罪」</quote><note n="0020004" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref type="taisho" target="#vol:2;page:p22c">二．二二下</ref>、<ref target="#vol:2;page:p24c" type="taisho">二四下</ref>）。</note>。所以當時人說：<quote>「沙門瞿曇呵責一切祭法」</quote>。至
-<lb n="0020a04" ed="Y"/>於<title level="m">《阿闥婆吠陀》</title>的咒法，占卜等迷信，<quote>「沙門瞿曇無如是事」</quote><note n="0020005" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref type="taisho" target="#no:1.21">（二一）</ref><title level="m">《梵動經》</title></bibl>（大正<ref target="#vol:1;page:p89b" type="taisho">一．八九中</ref>——下）。</note>。這只是愚人的迷信，所以<quote>「
+<lb n="0020a01" ed="Y"/>望大石的浮起來。祭祀，特別是犧牲的血祭，釋尊以為：<quote>「若邪盛大會，繫<note n="0020a0101" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0020a0101"><lem resp="CBETA" wit="【CB】">群</lem><rdg wit="【印順】">羣</rdg></app>少特牛、水特、水
+<lb n="0020a02" ed="Y"/><note n="0020a0201" resp="CBETA" type="add">牸【CB】，<g ref="#CB01132"/>【印順】</note><app n="0020a0201"><lem resp="正聞出版社" wit="【CB】">牸<note type="cf1">《雜阿含經》卷4(CBETA, T02, no. 99, p. 22, c11-15)</note></lem><rdg wit="【印順】"><g ref="#CB01132"/></rdg></app>，及諸羊犢，小小眾生悉皆傷殺；逼迫苦切僕使作人，鞭笞恐怛，悲泣號呼。……是等邪盛大
+<lb n="0020a03" ed="Y"/>會，我不稱歎」</quote>；<quote>「種種供養，實生於罪」</quote><note n="0020004" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref target="#vol:2;page:p22c" type="taisho">二．二二下</ref>、<ref target="#vol:2;page:p24c" type="taisho">二四下</ref>）。</note>。所以當時人說：<quote>「沙門瞿曇呵責一切祭法」</quote>。至
+<lb n="0020a04" ed="Y"/>於<title level="m">《阿闥婆吠陀》</title>的咒法，占卜等迷信，<quote>「沙門瞿曇無如是事」</quote><note n="0020005" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref target="#no:1.21" type="taisho">（二一）</ref><title level="m">《梵動經》</title></bibl>（大正<ref target="#vol:1;page:p89b" type="taisho">一．八九中</ref>——下）。</note>。這只是愚人的迷信，所以<quote>「
 <lb n="0020a05" ed="Y"/>見（真）諦人信卜問吉凶者，終無是處。……生極苦……乃至斷命，從外（道）求……一句咒…
-<lb n="0020a06" ed="Y"/>…百千句咒，令脫我苦……，終無是處」</quote><note n="0020006" resp="釋印順" type="orig"><bibl><title level="m">《中阿含經》</title><ref type="taisho" target="#no:26.181">（一八一）</ref><title level="m">《多界經》</title></bibl>（大正<ref type="taisho" target="#vol:1;page:p724a">一．七二四上</ref>）。</note>。真正體見真諦的智者，是不會從事這類迷妄行為的
-<lb n="0020a07" ed="Y"/>。徹底的說：<quote>「幻法，若學者令人墮地獄」</quote><note n="0020007" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="40">卷四〇</biblScope></bibl>（大正<ref type="taisho" target="#vol:2;page:p296b">二．二九六中</ref>）。</note>。總之，因神權而來的祈禱，祭祀，咒術，給以徹
-<lb n="0020a08" ed="Y"/>底的廓清。對於四姓階級，是社會發展中的分工，無所謂優劣<note n="0020008" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref type="taisho" target="#no:1.30">（三〇）</ref><title level="m">《世記經》</title></bibl>（大正<ref type="taisho" target="#vol:1;page:p148c">一．一四八下</ref>——<ref type="taisho" target="#vol:1;page:p149b">一四九中</ref>）。</note>。假借神權而來的階級制，<quote>「如
-<lb n="0020a09" ed="Y"/>有人強與他肉而作是說：士夫可食，當與我直」</quote><note n="0020009" resp="釋印順" type="orig"><bibl><title level="m">《中阿含經》</title><ref type="taisho" target="#no:26.150">（一五〇）</ref><title level="m">《鬱瘦歌邏經》</title></bibl>（大正<ref target="#vol:1;page:p661a" type="taisho">一．六六一上</ref>）。</note><note n="0020009" resp="正聞出版社" type="mod"><bibl><title level="m">《中阿含經》</title><ref type="taisho" target="#no:26.150">（一五〇）</ref><title level="m">《欝瘦歌邏經》</title></bibl>（大正<ref target="#vol:1;page:p661a" type="taisho">一．六六一上</ref>）。</note>！這種人為的階級制，是沒有接受義務的。但
+<lb n="0020a06" ed="Y"/>…百千句咒，令脫我苦……，終無是處」</quote><note n="0020006" resp="釋印順" type="orig"><bibl><title level="m">《中阿含經》</title><ref target="#no:26.181" type="taisho">（一八一）</ref><title level="m">《多界經》</title></bibl>（大正<ref target="#vol:1;page:p724a" type="taisho">一．七二四上</ref>）。</note>。真正體見真諦的智者，是不會從事這類迷妄行為的
+<lb n="0020a07" ed="Y"/>。徹底的說：<quote>「幻法，若學者令人墮地獄」</quote><note n="0020007" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="40" type="卷">卷四〇</biblScope></bibl>（大正<ref target="#vol:2;page:p296b" type="taisho">二．二九六中</ref>）。</note>。總之，因神權而來的祈禱，祭祀，咒術，給以徹
+<lb n="0020a08" ed="Y"/>底的廓清。對於四姓階級，是社會發展中的分工，無所謂優劣<note n="0020008" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref target="#no:1.30" type="taisho">（三〇）</ref><title level="m">《世記經》</title></bibl>（大正<ref target="#vol:1;page:p148c" type="taisho">一．一四八下</ref>——<ref target="#vol:1;page:p149b" type="taisho">一四九中</ref>）。</note>。假借神權而來的階級制，<quote>「如
+<lb n="0020a09" ed="Y"/>有人強與他肉而作是說：士夫可食，當與我直」</quote><note n="0020009" resp="釋印順" type="orig"><bibl><title level="m">《中阿含經》</title><ref target="#no:26.150" type="taisho">（一五〇）</ref><title level="m">《鬱瘦歌邏經》</title></bibl>（大正<ref target="#vol:1;page:p661a" type="taisho">一．六六一上</ref>）。</note><note n="0020009" resp="正聞出版社" type="mod"><bibl><title level="m">《中阿含經》</title><ref target="#no:26.150" type="taisho">（一五〇）</ref><title level="m">《欝瘦歌邏經》</title></bibl>（大正<ref target="#vol:1;page:p661a" type="taisho">一．六六一上</ref>）。</note>！這種人為的階級制，是沒有接受義務的。但
 <lb n="0020a10" ed="Y"/>有關人生道德，婆羅門稱之為法（<foreign xml:lang="sa">dharma</foreign>）的——正常生活，善良風俗，釋尊攝取他，使他從
 <lb n="0020a11" ed="Y"/>神權與階級不平等中脫離出來。破除神權與階級制，祭祀與咒法，把人類的合理生活，確立於社
-<lb n="0020a12" ed="Y"/>會關係，彼此應盡的義務上<note n="0020010" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref type="taisho" target="#no:1.16">（一六）</ref><title level="m">《善生經》</title></bibl>（大正<ref type="taisho" target="#vol:1;page:p71c">一．七一下</ref>——<ref target="#vol:1;page:p72b" type="taisho">七二中</ref>）。<bibl><title level="m">《中阿含經》</title><ref target="#no:26.135" type="taisho">（一三五）</ref><title level="m">《善生經》</title></bibl>（大正<ref target="#vol:1;page:p640c" type="taisho">一．六四〇下</ref>——<ref target="#vol:1;page:p642a" type="taisho">六四二上</ref>）。</note>，顯出了「人間佛教」的特色。<title level="m">《奧義書》</title>（<foreign xml:lang="sa"><note n="0020a1201" resp="CBETA" type="add">Upaniṣad【CB】，upaniṣad【印順】</note><app n="0020a1201"><lem wit="【CB】" resp="正聞出版社">Upaniṣad</lem><rdg wit="【印順】">upaniṣad</rdg></app></foreign>）的思想，如依
-<lb n="0020a13" ed="Y"/>業（<foreign xml:lang="sa"><note n="0020a1301" resp="CBETA" type="add">karman【CB】，karma【印順】</note><app n="0020a1301"><lem wit="【CB】" resp="正聞出版社">karman</lem><rdg wit="【印順】">karma</rdg></app></foreign>）而有輪迴，依智（<foreign xml:lang="sa">jñāna</foreign>）而得解脫，釋尊大致是看作事實的；但生死的根源，是煩
+<lb n="0020a12" ed="Y"/>會關係，彼此應盡的義務上<note n="0020010" resp="釋印順" type="orig"><bibl><title level="m">《長阿含經》</title><ref target="#no:1.16" type="taisho">（一六）</ref><title level="m">《善生經》</title></bibl>（大正<ref target="#vol:1;page:p71c" type="taisho">一．七一下</ref>——<ref target="#vol:1;page:p72b" type="taisho">七二中</ref>）。<bibl><title level="m">《中阿含經》</title><ref target="#no:26.135" type="taisho">（一三五）</ref><title level="m">《善生經》</title></bibl>（大正<ref target="#vol:1;page:p640c" type="taisho">一．六四〇下</ref>——<ref target="#vol:1;page:p642a" type="taisho">六四二上</ref>）。</note>，顯出了「人間佛教」的特色。<title level="m">《奧義書》</title>（<foreign xml:lang="sa"><note n="0020a1201" resp="CBETA" type="add">Upaniṣad【CB】，upaniṣad【印順】</note><app n="0020a1201"><lem resp="正聞出版社" wit="【CB】">Upaniṣad</lem><rdg wit="【印順】">upaniṣad</rdg></app></foreign>）的思想，如依
+<lb n="0020a13" ed="Y"/>業（<foreign xml:lang="sa"><note n="0020a1301" resp="CBETA" type="add">karman【CB】，karma【印順】</note><app n="0020a1301"><lem resp="正聞出版社" wit="【CB】">karman</lem><rdg wit="【印順】">karma</rdg></app></foreign>）而有輪迴，依智（<foreign xml:lang="sa">jñāna</foreign>）而得解脫，釋尊大致是看作事實的；但生死的根源，是煩
 <lb n="0020a14" ed="Y"/>惱（<foreign xml:lang="sa">kleśa</foreign>）。釋尊是東方的，所以理性是出發於現實，不是形而上的玄想。徹底的說：<quote>「無常故
 <lb n="0020a15" ed="Y"/>苦，苦故無我」</quote>，而否定常、樂的真我（<foreign xml:lang="sa">ātman</foreign>）。也就因此，不是見真我以契入梵界，而是從無
 <pb n="0021a" ed="Y" xml:id="Y34.0032.0021a"/>
-<lb n="0021a01" ed="Y"/>我（<foreign xml:lang="sa"><note n="0021a0101" resp="CBETA" type="add">nirātman【CB】，nir-ātman【印順】</note><app n="0021a0101"><lem wit="【CB】" resp="正聞出版社">nirātman</lem><rdg wit="【印順】">nir-ātman</rdg></app></foreign>）以契入正法。因<title level="m">《奧義書》</title>而來的苦行與瑜伽（<foreign xml:lang="x-sa-pi">yoga</foreign>），釋尊曾修學而又捨棄了。
+<lb n="0021a01" ed="Y"/>我（<foreign xml:lang="sa"><note n="0021a0101" resp="CBETA" type="add">nirātman【CB】，nir-ātman【印順】</note><app n="0021a0101"><lem resp="正聞出版社" wit="【CB】">nirātman</lem><rdg wit="【印順】">nir-ātman</rdg></app></foreign>）以契入正法。因<title level="m">《奧義書》</title>而來的苦行與瑜伽（<foreign xml:lang="x-sa-pi">yoga</foreign>），釋尊曾修學而又捨棄了。
 <lb n="0021a02" ed="Y"/>攝取他的精義，用作修證的方便，而不落入苦行與修定主義。釋尊所說的正法，是東方的，如重
-<lb n="0021a03" ed="Y"/>現實，重變化，重自由思考；主張種族平等，反對吠陀（<foreign xml:lang="x-sa-pi"><note n="0021a0301" resp="CBETA" type="add">Veda【CB】，veda【印順】</note><app n="0021a0301"><lem wit="【CB】" resp="正聞出版社">Veda</lem><rdg wit="【印順】">veda</rdg></app></foreign>）權威，與東方沙門團，採取一致
-<lb n="0021a04" ed="Y"/>的立場。然而，一、抨擊極端的縱欲與苦行，唱導不苦不樂的中道說<note n="0021011" resp="釋印順" type="orig"><bibl><title level="m">《中阿含經》</title><ref type="taisho" target="#no:26.169">（一六九）</ref><title level="m">《拘樓瘦無諍經》</title></bibl>（大正<ref target="#vol:1;page:p701c" type="taisho">一．七〇一下</ref>）。</note>。二、對阿耆多
-<lb n="0021a05" ed="Y"/>（<foreign xml:lang="sa"><note n="0021a0501" resp="CBETA" type="add">Ajita-keśakambala【CB】，Ajita-keśakambla【印順】</note><app n="0021a0501"><lem wit="【CB】" resp="正聞出版社">Ajita-keśakambala</lem><rdg wit="【印順】">Ajita-keśakambla</rdg></app></foreign>）「命即是身」的斷滅論；尼乾子（<foreign xml:lang="sa">Nirgrantha-jñātiputra</foreign>）等「命異身異」的二元
+<lb n="0021a03" ed="Y"/>現實，重變化，重自由思考；主張種族平等，反對吠陀（<foreign xml:lang="x-sa-pi"><note n="0021a0301" resp="CBETA" type="add">Veda【CB】，veda【印順】</note><app n="0021a0301"><lem resp="正聞出版社" wit="【CB】">Veda</lem><rdg wit="【印順】">veda</rdg></app></foreign>）權威，與東方沙門團，採取一致
+<lb n="0021a04" ed="Y"/>的立場。然而，一、抨擊極端的縱欲與苦行，唱導不苦不樂的中道說<note n="0021011" resp="釋印順" type="orig"><bibl><title level="m">《中阿含經》</title><ref target="#no:26.169" type="taisho">（一六九）</ref><title level="m">《拘樓瘦無諍經》</title></bibl>（大正<ref target="#vol:1;page:p701c" type="taisho">一．七〇一下</ref>）。</note>。二、對阿耆多
+<lb n="0021a05" ed="Y"/>（<foreign xml:lang="sa"><note n="0021a0501" resp="CBETA" type="add">Ajita-keśakambala【CB】，Ajita-keśakambla【印順】</note><app n="0021a0501"><lem resp="正聞出版社" wit="【CB】">Ajita-keśakambala</lem><rdg wit="【印順】">Ajita-keśakambla</rdg></app></foreign>）「命即是身」的斷滅論；尼乾子（<foreign xml:lang="sa">Nirgrantha-jñātiputra</foreign>）等「命異身異」的二元
 <lb n="0021a06" ed="Y"/>論；<quote>「色（心）是我，無二無異，常住不變」</quote>的梵我論，一一的破斥，而宣揚無常、無我的緣起
 <lb n="0021a07" ed="Y"/>中道。三、對於否定道德，否定真理的傾向，釋尊舉揚正法（<foreign xml:lang="sa">saddharma</foreign>）——中道行，如實理，
 <lb n="0021a08" ed="Y"/>究竟涅槃，給以「法性、法住、法界」的意義。這是道德與真理的肯定，實現絕對的理想。釋尊
-<lb n="0021a09" ed="Y"/>從自覺的聖境<note n="0021a0901" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0021a0901"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，陶鑄東西印度文明，樹立中道的宗教。</p>
-<lb n="0021a10" ed="Y"/><p style="text-indent:2em">中道行，是正見（<foreign xml:lang="sa">samyag-dṛṣṭi</foreign>）為先導的聖道（<foreign xml:lang="sa">āryamārga</foreign>）的實踐。聖道的內容，釋尊
-<lb n="0021a11" ed="Y"/>隨機說法，有種種組合，主要的有七類，總名為三十七菩提分法（<foreign xml:lang="sa"><note n="0021a1101" resp="CBETA" type="add">saptatriṃśad-bodhipākṣikā-dharma【CB】，saptatriṃśad-bodhipākṣikā-dharmāḥ【印順】</note><app n="0021a1101"><lem wit="【CB】" resp="正聞出版社">saptatriṃśad-bodhipākṣikā-dharma</lem><rdg wit="【印順】">saptatriṃśad-bodhipākṣikā-dharmāḥ</rdg></app></foreign>）
+<lb n="0021a09" ed="Y"/>從自覺的聖境<note n="0021a0901" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0021a0901"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，陶鑄東西印度文明，樹立中道的宗教。</p>
+<lb n="0021a10" ed="Y"/><p xml:id="pY34p0021a1001" style="text-indent:2em">中道行，是正見（<foreign xml:lang="sa">samyag-dṛṣṭi</foreign>）為先導的聖道（<foreign xml:lang="sa">āryamārga</foreign>）的實踐。聖道的內容，釋尊
+<lb n="0021a11" ed="Y"/>隨機說法，有種種組合，主要的有七類，總名為三十七菩提分法（<foreign xml:lang="sa"><note n="0021a1101" resp="CBETA" type="add">saptatriṃśad-bodhipākṣikā-dharma【CB】，saptatriṃśad-bodhipākṣikā-dharmāḥ【印順】</note><app n="0021a1101"><lem resp="正聞出版社" wit="【CB】">saptatriṃśad-bodhipākṣikā-dharma</lem><rdg wit="【印順】">saptatriṃśad-bodhipākṣikā-dharmāḥ</rdg></app></foreign>）
 <lb n="0021a12" ed="Y"/>。其中根本的，是八正道（<foreign xml:lang="sa">āryâṣṭâṅgika-mārga</foreign>）：正見，正思惟（<foreign xml:lang="sa">samyak-saṃkalpa</foreign>）
-<lb n="0021a13" ed="Y"/>，正語（<foreign xml:lang="sa"><note n="0021a1301" resp="CBETA" type="add">samyagvāc【CB】，samyag-vac【印順】</note><app n="0021a1301"><lem wit="【CB】" resp="正聞出版社">samyagvāc</lem><rdg wit="【印順】">samyag-vac</rdg></app></foreign>），正業（<foreign xml:lang="sa">samyak-karmānta</foreign>），正命（<foreign xml:lang="sa">samyag-ājīva</foreign>），正精進（<foreign xml:lang="sa">samyagvyāyāma</foreign>）
+<lb n="0021a13" ed="Y"/>，正語（<foreign xml:lang="sa"><note n="0021a1301" resp="CBETA" type="add">samyagvāc【CB】，samyag-vac【印順】</note><app n="0021a1301"><lem resp="正聞出版社" wit="【CB】">samyagvāc</lem><rdg wit="【印順】">samyag-vac</rdg></app></foreign>），正業（<foreign xml:lang="sa">samyak-karmānta</foreign>），正命（<foreign xml:lang="sa">samyag-ājīva</foreign>），正精進（<foreign xml:lang="sa">samyagvyāyāma</foreign>）
 <lb n="0021a14" ed="Y"/>，正念（<foreign xml:lang="sa">samyak-smṛti</foreign>），正定（<foreign xml:lang="sa">samyak-samādhi</foreign>）。正見是正確的知見；正思惟是
 <lb n="0021a15" ed="Y"/>正確的思考，引發出離的意願；正語是正當的語文（及書寫文字）；正業是正當的身體行為；正
 <pb n="0022a" ed="Y" xml:id="Y34.0032.0022a"/>
@@ -521,29 +541,29 @@
 <lb n="0022a05" ed="Y"/>；重於物理分別的是六界（<foreign xml:lang="sa">ṣaḍ-dhātava</foreign>）。身心自體，不外乎蘊、界、處；身心的活動情形，是
 <lb n="0022a06" ed="Y"/>現實的存在，需要有所了解。身心的或苦或樂，不是神所規定的，不是宿世命定的，也不是偶然
 <lb n="0022a07" ed="Y"/>的，一切都是依於因緣（<foreign xml:lang="x-sa-pi">nidāna</foreign>）而如此的。論到這些問題，釋尊曾這樣說：<quote>「苦樂（苦樂是當
-<lb n="0022a08" ed="Y"/>前的感受，也是現生的苦樂報體）從緣起生」</quote>；<quote>「我論因說因」</quote><note n="0022012" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="14">卷一四</biblScope></bibl>（大正<ref target="#vol:2;page:p93c" type="taisho">二．九三下</ref>）；<bibl><title level="m">《相應部》</title>（一二）<title level="a">〈因緣相應〉</title></bibl>（南傳一三．五五）。<bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="2">卷二</biblScope></bibl>（大正<ref target="#vol:2;page:p12c" type="taisho">二．一二下</ref>）。</note>。現實身心充滿了無限的苦惱
+<lb n="0022a08" ed="Y"/>前的感受，也是現生的苦樂報體）從緣起生」</quote>；<quote>「我論因說因」</quote><note n="0022012" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="14" type="卷">卷一四</biblScope></bibl>（大正<ref target="#vol:2;page:p93c" type="taisho">二．九三下</ref>）；<bibl><title level="m">《相應部》</title>（一二）<title level="a">〈因緣相應〉</title></bibl>（南傳一三．五五）。<bibl><title level="m">《雜阿含經》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:2;page:p12c" type="taisho">二．一二下</ref>）。</note>。現實身心充滿了無限的苦惱
 <lb n="0022a09" ed="Y"/>，這是由於處身現實人間，受到身心變化——「生」、「老」、「病」、「死」；自他聚散——
 <lb n="0022a10" ed="Y"/>「愛別離」，「怨憎會」；物我關係不協調——「求不得」而來的。進一步說，現實的身心活動
 <lb n="0022a11" ed="Y"/>——內在的知、情、意作用，表現於外的身、語行為，相互影響而有苦有樂的。生死邊事，釋尊
 <lb n="0022a12" ed="Y"/>大分為三類：「煩惱」是知情意的惑亂；「業」是行為與行為的潛力；「苦」（<foreign xml:lang="sa">duḥkha</foreign>）是身心
 <lb n="0022a13" ed="Y"/>自體。生死苦迫，以煩惱的無明（<foreign xml:lang="sa">avidyā</foreign>）、愛（<foreign xml:lang="sa">tṛṣṇā</foreign>）為先，而實一切都是依於因緣的。釋尊
 <lb n="0022a14" ed="Y"/>沒有提出什麼形而上的實體，或第一因來說明眾生世間的開展，而只是從因緣關係去理解問題，
-<lb n="0022a15" ed="Y"/>也就依因緣去解決問題。這就是不共世間的中道，如<bibl><title level="m">《雜阿含經》</title><biblScope n="12" type="卷">卷一二</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:2;page:p85c">二．八五下</ref></note>說：</p>
+<lb n="0022a15" ed="Y"/>也就依因緣去解決問題。這就是不共世間的中道，如<bibl><title level="m">《雜阿含經》</title><biblScope n="12" type="卷">卷一二</biblScope></bibl><note place="inline">大正<ref target="#vol:2;page:p85c" type="taisho">二．八五下</ref></note>說：</p>
 <pb n="0023a" ed="Y" xml:id="Y34.0032.0023a"/>
-<lb n="0023a01" ed="Y"/><quote><p style="margin-left:3em">「義說、法說，離此二邊，處於中道而說法。所謂此有故彼有，此起故彼起：緣無明行，
+<lb n="0023a01" ed="Y"/><quote><p xml:id="pY34p0023a0101" style="margin-left:3em">「義說、法說，離此二邊，處於中道而說法。所謂此有故彼有，此起故彼起：緣無明行，
 <lb n="0023a02" ed="Y"/>乃至（緣行識，緣識名色，緣名色六入<note place="inline">處</note>，緣六入觸，緣觸受，緣受愛，緣愛取，緣取有
 <lb n="0023a03" ed="Y"/>，緣有生，緣生老死憂悲惱苦，如是）純大苦聚集。（此無故彼無，此滅故彼滅）：無明
 <lb n="0023a04" ed="Y"/>滅則行滅，及至純大苦聚滅」<note n="0023013" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一二）<title level="a">〈因緣相應〉</title></bibl>（南傳一三．一一一——一一二）。</note>。</p></quote>
-<lb n="0023a05" ed="Y"/><p style="text-indent:2em">這是著名的中道緣起（<foreign xml:lang="sa">pratītya-samutpāda</foreign>）說。有——存在的，生起的，世間的一切，都
+<lb n="0023a05" ed="Y"/><p xml:id="pY34p0023a0501" style="text-indent:2em">這是著名的中道緣起（<foreign xml:lang="sa">pratītya-samutpāda</foreign>）說。有——存在的，生起的，世間的一切，都
 <lb n="0023a06" ed="Y"/>依於因緣——種種關係，條件、因素而有而生的。依因緣有而有的，也就依因緣無而無，依此而
 <lb n="0023a07" ed="Y"/>確知生死解脫的可能性。有、無、生、滅——一切都依因緣而如此的，就是不落二邊，恰到好處
 <lb n="0023a08" ed="Y"/>的中道。這是緣起說的基本法則：</p>
-<lb n="0023a09" ed="Y"/><p cb:type="pre">　　　　　┌此有故彼有，此生故彼生……眾苦集起（流轉）
+<lb n="0023a09" ed="Y"/><p cb:type="pre" xml:id="pY34p0023a0901">　　　　　┌此有故彼有，此生故彼生……眾苦集起（流轉）
 <lb n="0023a10" ed="Y"/>　　　緣起┤
 <lb n="0023a11" ed="Y"/>　　　　　└此無故彼無，此滅故彼滅……眾苦息滅（解脫）</p>
-<lb n="0023a12" ed="Y"/><p style="text-indent:2em">緣起，依緣有而有的，是生死苦的集起（<foreign xml:lang="x-sa-pi">samudaya</foreign>）；依緣無而無的，是生死苦的息滅
+<lb n="0023a12" ed="Y"/><p xml:id="pY34p0023a1201" style="text-indent:2em">緣起，依緣有而有的，是生死苦的集起（<foreign xml:lang="x-sa-pi">samudaya</foreign>）；依緣無而無的，是生死苦的息滅
 <lb n="0023a13" ed="Y"/>（<foreign xml:lang="x-sa-pi">nirodha</foreign>）。苦聚的止息，實現了涅槃（<foreign xml:lang="sa">nirvāṇa</foreign>）寂靜。生死與涅槃，都是依緣起而如此的，佛
-<lb n="0023a14" ed="Y"/>弟子也就依緣起生滅的如實知（<foreign xml:lang="sa"><note n="0023a1401" resp="CBETA" type="add">yathābhūta-jñāna【CB】，yathābhūta-ñāṇa【印順】</note><app n="0023a1401"><lem wit="【CB】" resp="正聞出版社">yathābhūta-jñāna</lem><rdg wit="【印順】">yathābhūta-ñāṇa</rdg></app></foreign>）而得解脫。如實知緣起而能得解脫的，是正
+<lb n="0023a14" ed="Y"/>弟子也就依緣起生滅的如實知（<foreign xml:lang="sa"><note n="0023a1401" resp="CBETA" type="add">yathābhūta-jñāna【CB】，yathābhūta-ñāṇa【印順】</note><app n="0023a1401"><lem resp="正聞出版社" wit="【CB】">yathābhūta-jñāna</lem><rdg wit="【印順】">yathābhūta-ñāṇa</rdg></app></foreign>）而得解脫。如實知緣起而能得解脫的，是正
 <lb n="0023a15" ed="Y"/>見為先的聖道的實踐。聖道與緣起的如實知，綜合的說，就是四諦（<foreign xml:lang="sa">catvāry-ārya-satyāni</foreign>）——
 <lb n="0023a16" ed="Y"/>苦（<foreign xml:lang="sa">duḥkha</foreign>），集（<foreign xml:lang="x-sa-pi">samudaya</foreign>），滅（<foreign xml:lang="x-sa-pi">nirodha</foreign>），道（<foreign xml:lang="sa">mārga</foreign>），在「佛法」的開展中，四諦說日
 <pb n="0024a" ed="Y" xml:id="Y34.0032.0024a"/>
@@ -551,26 +571,26 @@
 <lb n="0024a02" ed="Y"/>開示教導，也許要容易領解些吧！但世出世間的一貫性，卻容易被漠視了！從現實身心去觀察，
 <lb n="0024a03" ed="Y"/>知道一切起滅都是依於因緣的。依經說，釋尊是現觀（<foreign xml:lang="x-sa-pi">abhisamaya</foreign>）緣起而成佛的。釋尊依緣起
 <lb n="0024a04" ed="Y"/>說法，弟子們也就依緣起（及四諦）而得解脫。所以在「佛法」中，緣起是最普遍的法則，如<bibl><title level="m">《
-<lb n="0024a05" ed="Y"/>阿毘達磨法蘊足論》</title><biblScope n="11" type="卷">卷一一</biblScope></bibl>，引經<note place="inline">大正<ref type="taisho" target="#vol:26;page:p505a">二六．五〇五上</ref></note>說：</p>
-<lb n="0024a06" ed="Y"/><quote><p style="margin-left:3em">「云何緣起？謂依此有（故）彼有，此生故彼生，謂無明緣行，……如是便集純大苦蘊。
+<lb n="0024a05" ed="Y"/>阿毘達磨法蘊足論》</title><biblScope n="11" type="卷">卷一一</biblScope></bibl>，引經<note place="inline">大正<ref target="#vol:26;page:p505a" type="taisho">二六．五〇五上</ref></note>說：</p>
+<lb n="0024a06" ed="Y"/><quote><p xml:id="pY34p0024a0601" style="margin-left:3em">「云何緣起？謂依此有（故）彼有，此生故彼生，謂無明緣行，……如是便集純大苦蘊。
 <lb n="0024a07" ed="Y"/>苾芻當知！生緣老死，若佛出世，若不出世，如是緣起，法住、法界。……乃至無明緣行
 <lb n="0024a08" ed="Y"/>，應知亦爾」。</p></quote>
-<lb n="0024a09" ed="Y"/><quote><p style="margin-left:3em">「此中所有法性、法定、法理、法趣，是真、是實、是諦、是如，非妄、非虛、非倒、非
-<lb n="0024a10" ed="Y"/>異，是名緣起」<note n="0024014" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="11" type="卷">卷一一</biblScope></bibl>（大正<ref type="taisho" target="#vol:2;page:p84b">二．八四中</ref>）。<bibl><title level="m">《相應部》</title>（一二）<title level="a">〈因緣相應〉</title></bibl>（南傳一三．三六——三八）。</note>。</p></quote>
-<lb n="0024a11" ed="Y"/><p style="text-indent:2em">緣起，是佛出世也如此，不出世也如此，佛不過發見、現證了緣起，方便的教導弟子而已。
+<lb n="0024a09" ed="Y"/><quote><p xml:id="pY34p0024a0901" style="margin-left:3em">「此中所有法性、法定、法理、法趣，是真、是實、是諦、是如，非妄、非虛、非倒、非
+<lb n="0024a10" ed="Y"/>異，是名緣起」<note n="0024014" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="11" type="卷">卷一一</biblScope></bibl>（大正<ref target="#vol:2;page:p84b" type="taisho">二．八四中</ref>）。<bibl><title level="m">《相應部》</title>（一二）<title level="a">〈因緣相應〉</title></bibl>（南傳一三．三六——三八）。</note>。</p></quote>
+<lb n="0024a11" ed="Y"/><p xml:id="pY34p0024a1101" style="text-indent:2em">緣起，是佛出世也如此，不出世也如此，佛不過發見、現證了緣起，方便的教導弟子而已。
 <lb n="0024a12" ed="Y"/>緣起是「法」的又一內容，所以經中多方面表示緣起的意義。如法住（<foreign xml:lang="sa">dharma-sthititā</foreign>），是說
 <lb n="0024a13" ed="Y"/>緣起是確立而不可改易的；法界（<foreign xml:lang="sa">dharma-dhātu</foreign>），緣起是一切的因性；法性（<foreign xml:lang="sa">dharmatā</foreign>），緣
 <lb n="0024a14" ed="Y"/>起是自然（客觀性）如此的；法定（<foreign xml:lang="sa">dharma-niyāmatā</foreign>），緣起是決定（各安自位）而不亂的；
 <lb n="0024a15" ed="Y"/>諦（<foreign xml:lang="sa">satya</foreign>），緣起是如實不顛倒的；如（<foreign xml:lang="x-sa-pi">tathatā</foreign>），緣起是如此如此而不變異的。這一切，都表
 <pb n="0025a" ed="Y" xml:id="Y34.0032.0025a"/>
 <lb n="0025a01" ed="Y"/>示了緣起的如實性——「法」。</p>
-<lb n="0025a02" ed="Y"/><p style="text-indent:2em">說到緣起，無明緣行……生緣老死、憂悲苦惱，是有代表性的十二支說。釋尊說緣起，不一
+<lb n="0025a02" ed="Y"/><p xml:id="pY34p0025a0201" style="text-indent:2em">說到緣起，無明緣行……生緣老死、憂悲苦惱，是有代表性的十二支說。釋尊說緣起，不一
 <lb n="0025a03" ed="Y"/>定是十二支的；愛，取，有，生，老死、憂悲苦惱——五支說，應該是最簡要的。為了「愛」也
 <lb n="0025a04" ed="Y"/>依因緣而有，所以開展出九支說，十支說，十二支說等。五支說中，老死、憂悲苦惱是苦，愛是
 <lb n="0025a05" ed="Y"/>苦的原因，苦的集起。上面說到，釋尊感到佛法太深，不想說法，問題在<quote>「眾生樂著三界窟宅」</quote>
 <lb n="0025a06" ed="Y"/>。在<cit><bibl><title level="m">《相應部》</title>中，作</bibl><quote>「樂阿賴耶，欣阿賴耶，憙阿賴耶」</quote></cit>（說一切有部加<quote>「愛阿賴耶」</quote>）。阿
-<lb n="0025a07" ed="Y"/>賴耶（<foreign xml:lang="x-sa-pi">ālaya</foreign>），譯義為窟、宅、依處、藏；在<title level="m">《阿含經》</title><note n="0025a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0025a0701"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，也是愛著的一類。聯想到四諦中集
-<lb n="0025a08" ed="Y"/>諦的內容，是：<quote>「（愛），後有愛，<note n="0025a0801" resp="CBETA" type="add">喜貪【CB】，貪喜【印順】</note><app n="0025a0801"><lem wit="【CB】" resp="正聞出版社">喜貪<note type="cf1">(1)《瑜伽師地論》卷27(CBETA, T30, no. 1579, p. 434, c13-15)；(2)《瑜伽師地論》卷67(CBETA, T30, no. 1579, p. 673, a1-3)</note></lem><rdg wit="【印順】">貪喜</rdg></app>俱行<note n="0025a0802" resp="CBETA" type="add">愛【CB】，［－］【印順】</note><app n="0025a0802"><lem wit="【CB】" resp="正聞出版社">愛</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>，彼彼喜樂<note n="0025a0803" resp="CBETA" type="add">愛【CB】，［－］【印順】</note><app n="0025a0803"><lem wit="【CB】" resp="正聞出版社">愛</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>」</quote>。愛、樂、欣、憙、貪、阿賴耶，以
+<lb n="0025a07" ed="Y"/>賴耶（<foreign xml:lang="x-sa-pi">ālaya</foreign>），譯義為窟、宅、依處、藏；在<title level="m">《阿含經》</title><note n="0025a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0025a0701"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，也是愛著的一類。聯想到四諦中集
+<lb n="0025a08" ed="Y"/>諦的內容，是：<quote>「（愛），後有愛，<note n="0025a0801" resp="CBETA" type="add">喜貪【CB】，貪喜【印順】</note><app n="0025a0801"><lem resp="正聞出版社" wit="【CB】">喜貪<note type="cf1">(1)《瑜伽師地論》卷27(CBETA, T30, no. 1579, p. 434, c13-15)；(2)《瑜伽師地論》卷67(CBETA, T30, no. 1579, p. 673, a1-3)</note></lem><rdg wit="【印順】">貪喜</rdg></app>俱行<note n="0025a0802" resp="CBETA" type="add">愛【CB】，［－］【印順】</note><app n="0025a0802"><lem resp="正聞出版社" wit="【CB】">愛</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>，彼彼喜樂<note n="0025a0803" resp="CBETA" type="add">愛【CB】，［－］【印順】</note><app n="0025a0803"><lem resp="正聞出版社" wit="【CB】">愛</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>」</quote>。愛、樂、欣、憙、貪、阿賴耶，以
 <lb n="0025a09" ed="Y"/>不同名字（約義多少不同）而表示同一內容，這就是生死不已的癥結所在。淺顯的說，沒有得到
 <lb n="0025a10" ed="Y"/>的要得到他，得到了又怕失去；沒有得到的生怨恨心，瞋恨是愛的反面，沒有愛那會有瞋恨呢！
 <lb n="0025a11" ed="Y"/>愛著的意義是深廣的，如染著了就受到繫縛，隨內身、外境的變動而苦惱不已。世間的喜樂，不
@@ -580,34 +600,34 @@
 <lb n="0025a15" ed="Y"/>苦惱不了。在緣起的正見中，知一切依緣起，也就能知一切法的無常性（<foreign xml:lang="sa">anityatā</foreign>）。無常的，所
 <pb n="0026a" ed="Y" xml:id="Y34.0032.0026a"/>
 <lb n="0026a01" ed="Y"/>以是不可保信，不安隱的，也就是苦。如<cit><bibl><title level="m">《雜阿含經》</title>說：</bibl><quote>「我以一切行無常故，一切諸受變易
-<lb n="0026a02" ed="Y"/>法故，說諸所有受悉皆是苦」</quote><note n="0026015" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="17">卷一七</biblScope></bibl>（大正<ref target="#vol:2;page:p121a" type="taisho">二．一二一上</ref>）。</note></cit>。是無常、苦、變易法，所以一切<quote>「非我非我所」</quote>（即無我、我
+<lb n="0026a02" ed="Y"/>法故，說諸所有受悉皆是苦」</quote><note n="0026015" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="17" type="卷">卷一七</biblScope></bibl>（大正<ref target="#vol:2;page:p121a" type="taisho">二．一二一上</ref>）。</note></cit>。是無常、苦、變易法，所以一切<quote>「非我非我所」</quote>（即無我、我
 <lb n="0026a03" ed="Y"/>所 <foreign xml:lang="sa">nir-ātman-mamakāra</foreign>）。我（<foreign xml:lang="sa">ātman</foreign>），是主宰的意思；主是自在的，能控制處理一切的。然
 <lb n="0026a04" ed="Y"/>世間一切是無常變易法，不可能有絕對自主，一切依自己意欲而轉移的可能。眾生只是身心和合
 <lb n="0026a05" ed="Y"/>的個體活動，一切依於因緣，而眾生卻都感到與他對立的自我存在，這才表現出向外擴展（我所
 <lb n="0026a06" ed="Y"/>的無限擴展），向內自我固執的特性。生死不已的根源在此，人間——家庭、社會、國家間的無
 <lb n="0026a07" ed="Y"/>限糾紛，也根源在此。如通達緣起故無常、苦、無我我所的，也就能契入<quote>「空相應緣起」</quote>。如經
-<lb n="0026a08" ed="Y"/>說：<quote>「我我所有空」</quote>。詳盡的說：<quote>「空於貪，空於恚、癡，空常住、不變易，空非我非我所」</quote><note n="0026016" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="21">卷二一</biblScope></bibl>（大正<ref target="#vol:2;page:p150a" type="taisho">二．一五〇上</ref>）。參閱<bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title></bibl>（南傳一五．四五〇——四五三）。</note>
+<lb n="0026a08" ed="Y"/>說：<quote>「我我所有空」</quote>。詳盡的說：<quote>「空於貪，空於恚、癡，空常住、不變易，空非我非我所」</quote><note n="0026016" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="21" type="卷">卷二一</biblScope></bibl>（大正<ref target="#vol:2;page:p150a" type="taisho">二．一五〇上</ref>）。參閱<bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title></bibl>（南傳一五．四五〇——四五三）。</note>
 <lb n="0026a09" ed="Y"/>。知無常、無我，能離一切煩惱（主要的是：我我所見，我我所愛，我我所慢）而得涅槃，所以
-<lb n="0026a10" ed="Y"/><bibl><title level="m">《雜阿含經》</title><biblScope n="10" type="卷">卷一〇</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:2;page:p71a">二．七一上</ref></note>說：</p>
-<lb n="0026a11" ed="Y"/><quote><p style="margin-left:3em">「無常想者，能建立無我想。聖弟子住無我想，心離我慢，順得涅槃」。</p></quote>
-<lb n="0026a12" ed="Y"/><p style="text-indent:2em">「佛法」是緣起說，依緣起而生死流轉，依緣起而涅槃還滅；佛弟子如實知緣起（無常、無
+<lb n="0026a10" ed="Y"/><bibl><title level="m">《雜阿含經》</title><biblScope n="10" type="卷">卷一〇</biblScope></bibl><note place="inline">大正<ref target="#vol:2;page:p71a" type="taisho">二．七一上</ref></note>說：</p>
+<lb n="0026a11" ed="Y"/><quote><p xml:id="pY34p0026a1101" style="margin-left:3em">「無常想者，能建立無我想。聖弟子住無我想，心離我慢，順得涅槃」。</p></quote>
+<lb n="0026a12" ed="Y"/><p xml:id="pY34p0026a1201" style="text-indent:2em">「佛法」是緣起說，依緣起而生死流轉，依緣起而涅槃還滅；佛弟子如實知緣起（無常、無
 <lb n="0026a13" ed="Y"/>我、空）而能得解脫的，是道諦，聖道是否也依因緣而有呢？<bibl><title level="m">《中阿含》</title>的<title level="m">《七車經》</title></bibl>說：依戒
-<lb n="0026a14" ed="Y"/>淨得心<note place="inline">定</note>淨，依心淨得見淨，這樣相依而直到解脫<note n="0026017" resp="釋印順" type="orig"><bibl><title level="m">《中阿含經》</title><ref target="#no:26.9" type="taisho">（九）</ref><title level="m">《七車經》</title></bibl>（大正<ref type="taisho" target="#vol:1;page:p430c">一．四三〇下</ref>——<ref type="taisho" target="#vol:1;page:p431b">四三一中</ref>）。<bibl><title level="m">《中部》</title>（二四）<title level="m">《傳車經》</title></bibl>（南傳九．二六九——二七三）。<bibl><title level="m">《增壹阿含經》</title>（三九）<title level="a">〈等法品〉</title></bibl>（大正<ref target="#vol:2;page:p734b" type="taisho">二．七三四中</ref>——<ref target="#vol:2;page:p735a" type="taisho">七三五上</ref>）。</note>，聖道顯然也是依因緣而起的。如<bibl><title level="m">《中阿含
-<lb n="0026a15" ed="Y"/>經》</title><ref target="#no:26.42" type="taisho">（四二）</ref><title level="m">《何義經》</title></bibl><note place="inline">大正<ref type="taisho" target="#vol:1;page:p485b">一．四八五中</ref></note>說：</p>
+<lb n="0026a14" ed="Y"/>淨得心<note place="inline">定</note>淨，依心淨得見淨，這樣相依而直到解脫<note n="0026017" resp="釋印順" type="orig"><bibl><title level="m">《中阿含經》</title><ref target="#no:26.9" type="taisho">（九）</ref><title level="m">《七車經》</title></bibl>（大正<ref target="#vol:1;page:p430c" type="taisho">一．四三〇下</ref>——<ref target="#vol:1;page:p431b" type="taisho">四三一中</ref>）。<bibl><title level="m">《中部》</title>（二四）<title level="m">《傳車經》</title></bibl>（南傳九．二六九——二七三）。<bibl><title level="m">《增壹阿含經》</title>（三九）<title level="a">〈等法品〉</title></bibl>（大正<ref target="#vol:2;page:p734b" type="taisho">二．七三四中</ref>——<ref target="#vol:2;page:p735a" type="taisho">七三五上</ref>）。</note>，聖道顯然也是依因緣而起的。如<bibl><title level="m">《中阿含
+<lb n="0026a15" ed="Y"/>經》</title><ref target="#no:26.42" type="taisho">（四二）</ref><title level="m">《何義經》</title></bibl><note place="inline">大正<ref target="#vol:1;page:p485b" type="taisho">一．四八五中</ref></note>說：</p>
 <pb n="0027a" ed="Y" xml:id="Y34.0032.0027a"/>
-<lb n="0027a01" ed="Y"/><quote><p style="margin-left:3em">「阿難！因持戒便得不悔，因不悔便得歡悅，因歡悅便得喜，因喜便得止，因止便得樂，
+<lb n="0027a01" ed="Y"/><quote><p xml:id="pY34p0027a0101" style="margin-left:3em">「阿難！因持戒便得不悔，因不悔便得歡悅，因歡悅便得喜，因喜便得止，因止便得樂，
 <lb n="0027a02" ed="Y"/>因樂便得定。阿難！多聞聖弟子因定便得見如實知如真，因見如實知如真便得厭，因厭便
 <lb n="0027a03" ed="Y"/>得無欲，因無欲便得解脫，因解脫便知解脫。……阿難！是為法法相益，法法相因」<note n="0027018" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．一〇集》</bibl>（南傳二二上．一九六——一九八）。</note>。</p></quote>
-<lb n="0027a04" ed="Y"/><p style="text-indent:2em"><quote>「法法相益，法法相因」</quote>，聖道是因緣相生而次第增進的。依緣起法的定律，依緣而有的，
+<lb n="0027a04" ed="Y"/><p xml:id="pY34p0027a0401" style="text-indent:2em"><quote>「法法相益，法法相因」</quote>，聖道是因緣相生而次第增進的。依緣起法的定律，依緣而有的，
 <lb n="0027a05" ed="Y"/>也依緣而滅無，聖道依因緣有，也會緣無而息滅嗎？<cit><bibl><title level="m">《雜阿含經》</title>有譬喻說：</bibl><quote>「拾草木，依於岸
 <lb n="0027a06" ed="Y"/>傍，縛束成栰，手足方便，截流橫渡。如是士夫，免四毒蛇、五拔刀怨、六內惡賊，復得脫於空
-<lb n="0027a07" ed="Y"/>村<note n="0027a0701" resp="CBETA" type="add">群【CB】，羣【印順】</note><app n="0027a0701"><lem wit="【CB】" resp="正聞出版社">群<note type="cf1">《雜阿含經》卷43(CBETA, T02, no. 99, p. 313, c5-9)</note></lem><rdg wit="【印順】">羣</rdg></app>賊，……至彼岸安隱快樂」</quote></cit>；<quote>「栰者，譬八正道」</quote><note n="0027019" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="43">卷四三</biblScope></bibl>（大正<ref type="taisho" target="#vol:2;page:p313c">二．三一三下</ref>）。<bibl><title level="m">《相應部》</title>（三五）<title level="a">〈六處相應〉</title></bibl>（南傳一五．二七三——二七五）。</note>。八正道是從生死此岸，到彼岸涅槃所
+<lb n="0027a07" ed="Y"/>村<note n="0027a0701" resp="CBETA" type="add">群【CB】，羣【印順】</note><app n="0027a0701"><lem resp="正聞出版社" wit="【CB】">群<note type="cf1">《雜阿含經》卷43(CBETA, T02, no. 99, p. 313, c5-9)</note></lem><rdg wit="【印順】">羣</rdg></app>賊，……至彼岸安隱快樂」</quote></cit>；<quote>「栰者，譬八正道」</quote><note n="0027019" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="43" type="卷">卷四三</biblScope></bibl>（大正<ref target="#vol:2;page:p313c" type="taisho">二．三一三下</ref>）。<bibl><title level="m">《相應部》</title>（三五）<title level="a">〈六處相應〉</title></bibl>（南傳一五．二七三——二七五）。</note>。八正道是從生死此岸，到彼岸涅槃所
 <lb n="0027a08" ed="Y"/>不可少的方便，如渡河的舟栰一樣。<cit><bibl><title level="m">《增壹阿含經》</title>有</bibl><quote>「船筏譬喻」</quote></cit>，即著名的<title level="m">《筏喻經》</title>。人
 <lb n="0027a09" ed="Y"/>渡生死河而到了彼岸，八正道——船筏是不再需要了，所以說：<quote>「善法（八正道等）猶可捨，何
-<lb n="0027a10" ed="Y"/>況非法（八邪道等雜染法）」</quote><note n="0027020" resp="釋印順" type="orig"><bibl><title level="m">《增壹阿含經》</title>（四三）<title level="a">〈馬血天子品〉</title></bibl>（大正<ref type="taisho" target="#vol:2;page:p759c">二．七五九下</ref>——<ref target="#vol:2;page:p760a" type="taisho">七六〇上</ref>）。</note>！解脫生死而入涅槃的，生死身不再生起，以正見為先導的聖道
+<lb n="0027a10" ed="Y"/>況非法（八邪道等雜染法）」</quote><note n="0027020" resp="釋印順" type="orig"><bibl><title level="m">《增壹阿含經》</title>（四三）<title level="a">〈馬血天子品〉</title></bibl>（大正<ref target="#vol:2;page:p759c" type="taisho">二．七五九下</ref>——<ref target="#vol:2;page:p760a" type="taisho">七六〇上</ref>）。</note>！解脫生死而入涅槃的，生死身不再生起，以正見為先導的聖道
 <lb n="0027a11" ed="Y"/>也過去了。涅槃是不可以語言、思惟來表示的，所以釋尊點到為止，不多作說明；多說，只能引
 <lb n="0027a12" ed="Y"/>人想入非非而已。忽視涅槃的超越性，以涅槃為「灰身泯智」，那是世間心的臆測了！</p>
-<lb n="0027a13" ed="Y"/><p style="text-indent:2em">依緣起（或四諦）而修行的，在家、出家的佛弟子，次第進修，到達究竟解脫境地，分為四
+<lb n="0027a13" ed="Y"/><p xml:id="pY34p0027a1301" style="text-indent:2em">依緣起（或四諦）而修行的，在家、出家的佛弟子，次第進修，到達究竟解脫境地，分為四
 <lb n="0027a14" ed="Y"/>階，也就是四聖果。四果是：一、須陀洹果（<foreign xml:lang="sa">srotāpanna</foreign>）；二、斯陀含果（<foreign xml:lang="sa">sakṛdāgāmin</foreign>）；三
 <lb n="0027a15" ed="Y"/>、阿那含果（<foreign xml:lang="x-sa-pi">anāgāmin</foreign>）；四、阿羅漢果（<foreign xml:lang="sa">arhat</foreign>）。初果名須陀洹，是「預流」的意思：預入法流
 <pb n="0028a" ed="Y" xml:id="Y34.0032.0028a"/>
@@ -617,12 +637,12 @@
 <lb n="0028a04" ed="Y"/>那含果的，如死後上生，就在天上入涅槃，不會再來人間了。四果阿羅漢，有應（受尊敬供養）
 <lb n="0028a05" ed="Y"/>，殺賊，不生等意義。這是究竟解脫聖者的尊稱，依修道求解脫來說，這是最究竟的，所以釋尊
 <lb n="0028a06" ed="Y"/>在世時，也是被稱為阿羅漢的（還有其他的尊稱）。然而人的根性不同，雖同樣的證得阿羅漢，
-<lb n="0028a07" ed="Y"/>而阿羅漢也還有多種不同。這<note n="0028a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0028a0701"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，說主要的二大類。經上說：有外道須深（<foreign xml:lang="x-sa-pi">Susīma</foreign>），在佛法中
+<lb n="0028a07" ed="Y"/>而阿羅漢也還有多種不同。這<note n="0028a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0028a0701"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，說主要的二大類。經上說：有外道須深（<foreign xml:lang="x-sa-pi">Susīma</foreign>），在佛法中
 <lb n="0028a08" ed="Y"/>出家，目的在「盜法」，以便融攝佛法，張大外道的教門。長老比丘們告訴須深：他們已證得究
-<lb n="0028a09" ed="Y"/>竟解脫的阿羅漢，但不得四禪（<title level="m">《相應部》</title>作五通），不得無色定，是慧解脫（<foreign xml:lang="sa"><note n="0028a0901" resp="CBETA" type="add">prajñā-vimukta【CB】，prajñā-vimukti【印順】</note><app n="0028a0901"><lem wit="【CB】" resp="正聞出版社">prajñā-vimukta</lem><rdg wit="【印順】">prajñā-vimukti</rdg></app></foreign>）
+<lb n="0028a09" ed="Y"/>竟解脫的阿羅漢，但不得四禪（<title level="m">《相應部》</title>作五通），不得無色定，是慧解脫（<foreign xml:lang="sa"><note n="0028a0901" resp="CBETA" type="add">prajñā-vimukta【CB】，prajñā-vimukti【印順】</note><app n="0028a0901"><lem resp="正聞出版社" wit="【CB】">prajñā-vimukta</lem><rdg wit="【印順】">prajñā-vimukti</rdg></app></foreign>）
 <lb n="0028a10" ed="Y"/>阿羅漢。不得（根本）定而究竟解脫，須深覺得離奇，所以提出來問佛。佛告訴他：<quote>「彼先知法
-<lb n="0028a11" ed="Y"/>住，後知涅槃」</quote>；<quote>「不問汝知不知，且自先知法住，後知涅槃」</quote><note n="0028021" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="14">卷一四</biblScope></bibl>（大正<ref target="#vol:2;page:p96c" type="taisho">二．九六下</ref>——<ref type="taisho" target="#vol:2;page:p97c">九七下</ref>）。<bibl><title level="m">《相應部》</title>（一二）<title level="a">〈因緣相應〉</title></bibl>（南傳一三．一七五——一八七）。</note>。從釋尊的教說中，可見阿羅
-<lb n="0028a12" ed="Y"/>漢智有先後層次，也有二類阿羅漢。1.法住智（<foreign xml:lang="sa"><note n="0028a1201" resp="CBETA" type="add">dharma-sthititā-jñāna【CB】，dharma-sthitatā-jñāna【印順】</note><app n="0028a1201"><lem wit="【CB】" resp="正聞出版社">dharma-sthititā-jñāna</lem><rdg wit="【印順】">dharma-sthitatā-jñāna</rdg></app></foreign>）知：緣起法被稱為「
+<lb n="0028a11" ed="Y"/>住，後知涅槃」</quote>；<quote>「不問汝知不知，且自先知法住，後知涅槃」</quote><note n="0028021" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="14" type="卷">卷一四</biblScope></bibl>（大正<ref target="#vol:2;page:p96c" type="taisho">二．九六下</ref>——<ref target="#vol:2;page:p97c" type="taisho">九七下</ref>）。<bibl><title level="m">《相應部》</title>（一二）<title level="a">〈因緣相應〉</title></bibl>（南傳一三．一七五——一八七）。</note>。從釋尊的教說中，可見阿羅
+<lb n="0028a12" ed="Y"/>漢智有先後層次，也有二類阿羅漢。1.法住智（<foreign xml:lang="sa"><note n="0028a1201" resp="CBETA" type="add">dharma-sthititā-jñāna【CB】，dharma-sthitatā-jñāna【印順】</note><app n="0028a1201"><lem resp="正聞出版社" wit="【CB】">dharma-sthititā-jñāna</lem><rdg wit="【印順】">dharma-sthitatā-jñāna</rdg></app></foreign>）知：緣起法被稱為「
 <lb n="0028a13" ed="Y"/>法性」、「法住」，知法住是知緣起。從因果起滅的必然性中，於（現實身心）蘊、界、處如實
 <lb n="0028a14" ed="Y"/>知，厭、離欲、滅，而得<quote>「我生已盡，梵行已立，所作已辦，不受後有」</quote>的解脫智。雖沒有根本
 <lb n="0028a15" ed="Y"/>定，沒有五通，但生死已究竟解脫，這是以慧得解脫的一類。2.涅槃智（<foreign xml:lang="sa">nirvāṇa-jñāna</foreign>）知：或
@@ -630,15 +650,15 @@
 <lb n="0029a01" ed="Y"/>是慧解脫者的末「後知涅槃」；也有生前得見法涅槃（<foreign xml:lang="sa">dṛṣṭadharma-nirvāṇa</foreign>），能現證知涅槃，
 <lb n="0029a02" ed="Y"/>這是得三明、六通的，名為（定慧）俱解脫（<foreign xml:lang="sa">ubhayatobhāga-vimukta</foreign>）的大阿羅漢。雖有二類
 <lb n="0029a03" ed="Y"/>不同，但生死的究竟解脫，是一樣的；而且都是<quote>「先知法住，後知涅槃」</quote>的。</p>
-<lb n="0029a04" ed="Y"/><p style="text-indent:2em">佛法是宗教，修持與專心修持者，總是受到尊重的。修持的聖道，以八聖道來說，內容可分
-<lb n="0029a05" ed="Y"/>為：戒（<foreign xml:lang="sa">śīla</foreign>），定（<foreign xml:lang="x-sa-pi">samādhi</foreign>）——心（<foreign xml:lang="sa">citta</foreign>），慧（<foreign xml:lang="sa"><note n="0029a0501" resp="CBETA" type="add">Prajñā【CB】，prajñā【印順】</note><app n="0029a0501"><lem wit="【CB】" resp="正聞出版社">Prajñā</lem><rdg wit="【印順】">prajñā</rdg></app></foreign>）——三學。佛教，當然也重視
+<lb n="0029a04" ed="Y"/><p xml:id="pY34p0029a0401" style="text-indent:2em">佛法是宗教，修持與專心修持者，總是受到尊重的。修持的聖道，以八聖道來說，內容可分
+<lb n="0029a05" ed="Y"/>為：戒（<foreign xml:lang="sa">śīla</foreign>），定（<foreign xml:lang="x-sa-pi">samādhi</foreign>）——心（<foreign xml:lang="sa">citta</foreign>），慧（<foreign xml:lang="sa"><note n="0029a0501" resp="CBETA" type="add">Prajñā【CB】，prajñā【印順】</note><app n="0029a0501"><lem resp="正聞出版社" wit="【CB】">Prajñā</lem><rdg wit="【印順】">prajñā</rdg></app></foreign>）——三學。佛教，當然也重視
 <lb n="0029a06" ed="Y"/>信（<foreign xml:lang="sa">śraddhā</foreign>），所以佛法所說修持，以信，戒，定，慧為重要。一、信：佛法所說的信，從正確
 <lb n="0029a07" ed="Y"/>理解佛法而來。「深忍」（勝解）為依而起的信，是當下內心澄淨，貪、瞋、邪見等不起，譬喻
 <lb n="0029a08" ed="Y"/>為<quote>「如水清珠，能清濁水」</quote>。有了澄淨的信心，一定會引起進修的意願。所以如對佛法有些理解
 <lb n="0029a09" ed="Y"/>，不能引起信心，那不過世間知識，與佛法無關。信是極重要的，但依正確理解佛法（三寶功德
 <lb n="0029a10" ed="Y"/>）而來，所以與一般神教的信仰不同。尼犍若提子（<foreign xml:lang="sa">Nirgrantha-jñātiputra</foreign>）問質多（<foreign xml:lang="sa">Citra</foreign>）
 <lb n="0029a11" ed="Y"/>長者：你信沙門瞿曇（指釋尊）得<quote>「無覺無觀三昧」</quote>嗎？質多長者對他說：<quote>「我不以信故來也」</quote>
-<lb n="0029a12" ed="Y"/><note n="0029022" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="21" type="卷">卷二一</biblScope></bibl>（大正<ref type="taisho" target="#vol:2;page:p152c">二．一五二下</ref>）。<bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title></bibl>（南傳一五．四五四）。</note>。佛法是依正知見，而進求自身修驗的，不是一般的盲目信仰，求得情感的滿足。二、戒：戒
+<lb n="0029a12" ed="Y"/><note n="0029022" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="21" type="卷">卷二一</biblScope></bibl>（大正<ref target="#vol:2;page:p152c" type="taisho">二．一五二下</ref>）。<bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title></bibl>（南傳一五．四五四）。</note>。佛法是依正知見，而進求自身修驗的，不是一般的盲目信仰，求得情感的滿足。二、戒：戒
 <lb n="0029a13" ed="Y"/>是善良的德行，佛法是以世間正行為基而進向解脫的。戒是基礎，不應該以持戒為滿足。三、定
 <lb n="0029a14" ed="Y"/>：定有淺深，方便也有不同，主要是四禪、四無量、四無色定。佛世的出家弟子，都是修禪的，
 <lb n="0029a15" ed="Y"/>但禪定是共世間法，即使修得非想非非想定，也不能解脫生死；反而不得根本定的，也能成慧解
@@ -646,9 +666,9 @@
 <lb n="0030a01" ed="Y"/>脫阿羅漢。這可見，禪定能除散亂而得一心清淨相續（還有些身體上的利益），只是佛法的要方
 <lb n="0030a02" ed="Y"/>便，不是解脫道的主體。四、慧——般若：慧是解脫的主因，如<bibl><title level="m">《雜阿含經》</title><biblScope n="26" type="卷">卷二六</biblScope></bibl><note place="inline">大正<ref target="#vol:2;page:p183b" type="taisho">二．一
 <lb n="0030a03" ed="Y"/>八三中</ref></note>說：</p>
-<lb n="0030a04" ed="Y"/><quote><p style="margin-left:3em">「此五根（信，精進，念，定，慧），一切皆為慧根所攝受。譬如堂閣眾材，棟為其首，
+<lb n="0030a04" ed="Y"/><quote><p xml:id="pY34p0030a0401" style="margin-left:3em">「此五根（信，精進，念，定，慧），一切皆為慧根所攝受。譬如堂閣眾材，棟為其首，
 <lb n="0030a05" ed="Y"/>皆依於棟，以攝持故。如是五根，慧為其首，以攝持故」<note n="0030023" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四八）<title level="a">〈根相應〉</title></bibl>（南傳一六下．五六——五七）。</note>。</p></quote>
-<lb n="0030a06" ed="Y"/><p style="text-indent:2em">修學佛法，以正見為先。依正見（聞思慧）而起正信，依正見而修戒、定，最後以（現證）
+<lb n="0030a06" ed="Y"/><p xml:id="pY34p0030a0601" style="text-indent:2em">修學佛法，以正見為先。依正見（聞思慧）而起正信，依正見而修戒、定，最後以（現證）
 <lb n="0030a07" ed="Y"/>慧得解脫。如沒有慧，等於建房屋而沒有棟梁，那是終究修建不成房屋的。在聖道中，般若是在
 <lb n="0030a08" ed="Y"/>先的，與一切行同時進修，達於解脫的證知：這是佛法修習聖道的準則。如偏重信，偏重戒，或
 <lb n="0030a09" ed="Y"/>偏重禪定，會有脫離佛法常軌的可能！</p>

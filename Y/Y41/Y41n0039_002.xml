@@ -12,59 +12,79 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版一刷<date>Date: 2013/04</date>新式標點版</edition>
+			<edition>新版一刷<date>Date: 2013/04</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>35卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 41, No. 39</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>35卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">41</idno>.<idno type="no">39</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">平凡的一生（重訂本）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">一　一生難忘是因緣</cb:mulu>
-<milestone unit="juan" n="2"/>
+<milestone n="2" unit="juan"/>
 <lb n="0003a09" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">二　出家難</cb:mulu><head>二　出家難</head>
-<lb n="0003a10" ed="Y"/><p style="text-indent:2em">民國十四年（二十歲），我讀到<cit><bibl><title level="m">《莊子》</title>的馮夢禎序文：</bibl><quote type="嚴謹引文">「然則莊文郭注，
+<lb n="0003a10" ed="Y"/><p xml:id="pY41p0003a1001" style="text-indent:2em">民國十四年（二十歲），我讀到<cit><bibl><title level="m">《莊子》</title>的馮夢禎序文：</bibl><quote type="嚴謹引文">「然則莊文郭注，
 <lb n="0003a11" ed="Y"/>其佛法之先驅耶」</quote></cit>！而引起了探索佛法的興趣。對於佛法，我沒有師友的引導，
 <lb n="0003a12" ed="Y"/>只是自己在暗中摸索。</p>
 <pb n="0004a" ed="Y" xml:id="Y41.0039.0004a"/>
-<lb n="0004a01" ed="Y"/><p style="text-indent:2em">十七年清明後八日——閏二月二十三日，慈母不幸在不到四天的卒病中去世
+<lb n="0004a01" ed="Y"/><p xml:id="pY41p0004a0101" style="text-indent:2em">十七年清明後八日——閏二月二十三日，慈母不幸在不到四天的卒病中去世
 <lb n="0004a02" ed="Y"/>，引起我內心極大的震動，不知所措的悲傷。九月（附註：本文的年月，都是農
 <lb n="0004a03" ed="Y"/>曆）裡，住在同一祖宅的叔祖父士洤公死了。十八年四月二十七日，父親又在病
 <lb n="0004a04" ed="Y"/>了兩個多月，終日安詳地睡眠中去世（極可能是肺癌）。一年多來，一直在求醫
 <lb n="0004a05" ed="Y"/>求藥，辦理喪事，似乎人生只是為此而忙碌。內心的沈悶抑鬱，在近年來佛法的
 <lb n="0004a06" ed="Y"/>熏習下，引發我出家的決心。</p>
-<lb n="0004a07" ed="Y"/><p style="text-indent:2em">「出家難」，對我來說，不是難在出家的清苦生活，而是難在到那裡去出家
-<lb n="0004a08" ed="Y"/>。我一直生活在五十幾華里的小天地<note n="0004a0801" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0004a0801"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，在這一區域內，沒有莊嚴的寺院，沒有
+<lb n="0004a07" ed="Y"/><p xml:id="pY41p0004a0701" style="text-indent:2em">「出家難」，對我來說，不是難在出家的清苦生活，而是難在到那裡去出家
+<lb n="0004a08" ed="Y"/>。我一直生活在五十幾華里的小天地<note n="0004a0801" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0004a0801"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，在這一區域內，沒有莊嚴的寺院，沒有
 <lb n="0004a09" ed="Y"/>著名的法師。有的是香火道場，有的是經懺應赴。我從經論得來的有限知識，不
 <lb n="0004a10" ed="Y"/>相信佛法就是這樣的，我不能在這樣的環境中出家。而且，離家過近，也會受到
 <lb n="0004a11" ed="Y"/>家族的干擾。我在書本上，知道些名山古剎的名字，但並不知小天地外的佛教情
@@ -72,31 +92,31 @@
 <lb n="0004a13" ed="Y"/>不敢冒昧外出的。在我的想像中，一個外來的年輕人，沒有介紹，有誰會留他出
 <pb n="0005a" ed="Y" xml:id="Y41.0039.0005a"/>
 <lb n="0005a01" ed="Y"/>家呢！如何實現我的出家目的，實在是太難了！</p>
-<lb n="0005a02" ed="Y"/><p style="text-indent:2em">因緣終於來了！十九年（廿五歲）五月，報上刊出大幅廣告——「北平菩提
+<lb n="0005a02" ed="Y"/><p xml:id="pY41p0005a0201" style="text-indent:2em">因緣終於來了！十九年（廿五歲）五月，報上刊出大幅廣告——「北平菩提
 <lb n="0005a03" ed="Y"/>學院招生」。主辦者大愚法師；籌備處是「北平東四馬大人胡同齊宅」。秋季開
 <lb n="0005a04" ed="Y"/>學，遠道的可以通信考試。資格是男性；二十歲以上，三十歲以下；僧俗兼收。
 <lb n="0005a05" ed="Y"/>這一消息，如昏夜明燈，照亮了我要走的前途。我想，在三年修學中，總會熟識
 <lb n="0005a06" ed="Y"/>幾位出家同學，介紹到那裡去出家，應該是沒有問題的。我就這樣滿有自信的，
 <lb n="0005a07" ed="Y"/>決定進行出家的計劃。</p>
-<lb n="0005a08" ed="Y"/><p style="text-indent:2em">試題是<quote>「佛法以離苦得樂為目的論」</quote>。得到的覆信是：<quote>「考試及格，准予入
+<lb n="0005a08" ed="Y"/><p xml:id="pY41p0005a0801" style="text-indent:2em">試題是<quote>「佛法以離苦得樂為目的論」</quote>。得到的覆信是：<quote>「考試及格，准予入
 <lb n="0005a09" ed="Y"/>學」</quote>。但又附帶說：<quote>「開學時間，另行通知」</quote>。到了六月，我天天看報，天天等
 <lb n="0005a10" ed="Y"/>待開學的通知，而開學的消息，卻始終沒有。我越等越不耐煩，越是急於修學佛
 <lb n="0005a11" ed="Y"/>法了。當時的天真想法，橫豎要開學，遲幾天也沒關係，不如到北平再說。我就
 <lb n="0005a12" ed="Y"/>在閏六月二十九日的早上，踏上了離家（浙江省海寧縣）出家，充滿光明遠景，
 <lb n="0005a13" ed="Y"/>而其實完全不知前途如何的旅程。</p>
 <pb n="0006a" ed="Y" xml:id="Y41.0039.0006a"/>
-<lb n="0006a01" ed="Y"/><p style="text-indent:2em">到了上海，等輪船到天津，再搭火車到北平。那時，正是召開擴大會議，中
+<lb n="0006a01" ed="Y"/><p xml:id="pY41p0006a0101" style="text-indent:2em">到了上海，等輪船到天津，再搭火車到北平。那時，正是召開擴大會議，中
 <lb n="0006a02" ed="Y"/>央空炸懷仁堂的時節。我到「齊宅」去探問，回答是：<quote>「籌備還沒有就緒。開學
 <lb n="0006a03" ed="Y"/>沒有確定期間，遠道的應等通知再來」</quote>。這一下，我可有點惶惑了。在臥佛寺（
 <lb n="0006a04" ed="Y"/>也許是臥龍寺）佛經流通處，選購了幾冊佛書。談起菩提學院，這才知道學院是
 <lb n="0006a05" ed="Y"/>告吹了。一向被軍政名流崇仰的大愚法師，在閻馮戰爭的逆轉中，失去了信任與
 <lb n="0006a06" ed="Y"/>支持（大愚法師從此就無聲無息的被人遺忘了）。這一次戰爭的勝負，與我無關
-<lb n="0006a07" ed="Y"/>，而我寄<note n="0006a0701" resp="CBETA" type="add">予【CB】，于【印順】</note><app n="0006a0701"><lem wit="【CB】" resp="正聞出版社">予</lem><rdg wit="【印順】">于</rdg></app>無限（出家的）希望的菩提學院，卻被弄得無影無蹤。我該怎麼辦呢
+<lb n="0006a07" ed="Y"/>，而我寄<note n="0006a0701" resp="CBETA" type="add">予【CB】，于【印順】</note><app n="0006a0701"><lem resp="正聞出版社" wit="【CB】">予</lem><rdg wit="【印順】">于</rdg></app>無限（出家的）希望的菩提學院，卻被弄得無影無蹤。我該怎麼辦呢
 <lb n="0006a08" ed="Y"/>？辦法是沒有的，北平是那樣的人地生疏，連一個熟人也沒有。不曾出過遠門的
 <lb n="0006a09" ed="Y"/>我，對於北平方言，聽來異常彆扭，連「前門外」都不能順利的聽懂。這裡是不
 <lb n="0006a10" ed="Y"/>能住下去的，回到南方再說。這樣，又坐火車，搭輪船，回到了最近來過的上海
 <lb n="0006a11" ed="Y"/>。</p>
-<lb n="0006a12" ed="Y"/><p style="text-indent:2em">上海是那樣繁忙，那樣盡情歡樂的都市。而我在上海的旅館裡，除了對經書
+<lb n="0006a12" ed="Y"/><p xml:id="pY41p0006a1201" style="text-indent:2em">上海是那樣繁忙，那樣盡情歡樂的都市。而我在上海的旅館裡，除了對經書
 <lb n="0006a13" ed="Y"/>出神而外，卻沒有事可做，沒有地方可去，連說話的機會也沒有。呆住了幾天，
 <pb n="0007a" ed="Y" xml:id="Y41.0039.0007a"/>
 <lb n="0007a01" ed="Y"/>想起寧波的天童寺，於是又搭輪船到了寧波。問起天童寺，才知道人力車是不能
@@ -104,7 +124,7 @@
 <lb n="0007a03" ed="Y"/>消失了。無事可做，無地可去，無話可說，又在旅館裡呆了幾天。呆著不是辦法
 <lb n="0007a04" ed="Y"/>，但沒有一個熟人，沒有勇氣向人訴說要出家的我，有什麼辦法呢！忽然想起，
 <lb n="0007a05" ed="Y"/>南海普陀山離寧波不遠，不如去普陀山禮佛敬香。這樣，我又到了普陀山。</p>
-<lb n="0007a06" ed="Y"/><p style="text-indent:2em">我住在普陀前山的錫麟堂。我以香客的身分，坐了兜子，前山後山的去逢佛
+<lb n="0007a06" ed="Y"/><p xml:id="pY41p0007a0601" style="text-indent:2em">我住在普陀前山的錫麟堂。我以香客的身分，坐了兜子，前山後山的去逢佛
 <lb n="0007a07" ed="Y"/>敬香。普陀山寺廟多、和尚多、香客多，而我還是那樣的孤獨，心裡一片茫然。
 <lb n="0007a08" ed="Y"/>第三天下午，我在客房前的廊下看書，一位青年香客，見我所看的是佛書，就自
 <lb n="0007a09" ed="Y"/>我介紹：南通白蒲人，姓王，他這次是來普陀山出家的。我聽了，幾乎失聲的叫
@@ -115,7 +135,7 @@
 <pb n="0008a" ed="Y" xml:id="Y41.0039.0008a"/>
 <lb n="0008a01" ed="Y"/>般若精舍」下，寫著<quote>「藏書極富，主持者有道行」</quote>幾個字。當下商量決定，第二
 <lb n="0008a02" ed="Y"/>天上午，專誠去般若精舍拜訪。</p>
-<lb n="0008a03" ed="Y"/><p style="text-indent:2em">般若精舍是屬於普慧庵的一個茅蓬。我們到了目的地，見房屋不大，雙門緊
+<lb n="0008a03" ed="Y"/><p xml:id="pY41p0008a0301" style="text-indent:2em">般若精舍是屬於普慧庵的一個茅蓬。我們到了目的地，見房屋不大，雙門緊
 <lb n="0008a04" ed="Y"/>閉。好久，才有一位（只有這一位）嚴肅而安詳的老和尚出來開門。聽說我們想
 <lb n="0008a05" ed="Y"/>研究佛法，就為我們略說佛法大意。我們說：錫麟堂香客往來太多，我們想找一
 <lb n="0008a06" ed="Y"/>處僻靜的所在，安住幾個月，對佛法作初步的參研。他向西南角一指說：<quote>「有，
@@ -127,7 +147,7 @@
 <lb n="0008a12" ed="Y"/>是帶有閩南語韻味的寧波話），大意是好的，好的。這樣，我們下午就移到褔泉
 <lb n="0008a13" ed="Y"/>庵來。我與王君同住（樓上）一室，在宗湛的隔壁。</p>
 <pb n="0009a" ed="Y" xml:id="Y41.0039.0009a"/>
-<lb n="0009a01" ed="Y"/><p style="text-indent:2em">第二天傍晚，王君——其實是姜
+<lb n="0009a01" ed="Y"/><p xml:id="pY41p0009a0101" style="text-indent:2em">第二天傍晚，王君——其實是姜
 <lb n="0009a02" ed="Y"/>君的哥哥，追蹤而來。說好說歹，姜
 <lb n="0009a03" ed="Y"/>君跟他的哥哥回家去了，又只剩了我
 <lb n="0009a04" ed="Y"/>一個人。我與宗湛還談得來，見我認
@@ -137,7 +157,7 @@
 <lb n="0009a08" ed="Y"/>家，就是我的恩師上清下念老和尚。般若精舍的那位老和尚，原來是太虛大師的
 <lb n="0009a09" ed="Y"/>戒兄，被虛大師稱譽為<quote>「平生第一益友」</quote>的昱山上人。我的出家，曾經得到他的
 <lb n="0009a10" ed="Y"/>指示，所以出家後，順從普陀山的習俗，禮昱公為義師父。</p>
-<lb n="0009a11" ed="Y"/><p style="text-indent:2em">很多人問我：你怎麼會跟一位（語言不通的）福建老和尚出家？我自己也說
+<lb n="0009a11" ed="Y"/><p xml:id="pY41p0009a1101" style="text-indent:2em">很多人問我：你怎麼會跟一位（語言不通的）福建老和尚出家？我自己也說
 <lb n="0009a12" ed="Y"/>不出來。我想要出家，而會從福泉庵念公出家，這不但意想不到，夢也不會夢到
 <lb n="0009a13" ed="Y"/>的。然而，我真的從念公出家了。回憶我離家出家的因緣，空登大幅廣告的菩提
 <pb n="0010a" ed="Y" xml:id="Y41.0039.0010a"/>

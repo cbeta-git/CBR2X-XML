@@ -12,63 +12,83 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>20卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 22, No. 22</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">22</idno>.<idno type="no">22</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛教史地考論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB01368">
-	<charName>CBETA CHARACTER CB01368</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[飢-几+夌]</value>
-	</charProp>
-	<mapping type="unicode">U+29701</mapping>
-	<mapping cb:dec="984408" type="PUA">U+F0558</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB01368">
+				<charName>CBETA CHARACTER CB01368</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[飢-几+夌]</value>
+				</charProp>
+				<mapping type="unicode">U+29701</mapping>
+				<mapping cb:dec="984408" type="PUA">U+F0558</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十、大乘經所見的中國</cb:mulu><cb:mulu level="2" type="其他">八　雜事</cb:mulu>
-<milestone unit="juan" n="11"/>
+<milestone n="11" unit="juan"/>
 <pb n="0267a" ed="Y" xml:id="Y22.0022.0267a"/>
 <lb n="0267a01" ed="Y"/><pb n="0271a" ed="Y" xml:id="Y22.0022.0271a.old" type="old"/><lb n="0271a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十一、從一切世間樂見比丘說到真常論</cb:mulu><head>從一切世間樂見比丘說到真常論<note n="0267001" resp="DILA" type="add">民國四五年撰。</note></head>
-<lb n="0267a02" ed="Y"/><lb n="0271a02" ed="Y" type="old"/><p style="text-indent:2em">「一切世間樂見」，是好多種大乘經所懸記的人物。從性空大乘而移入真常
+<lb n="0267a02" ed="Y"/><lb n="0271a02" ed="Y" type="old"/><p xml:id="pY22p0267a0201" style="text-indent:2em">「一切世間樂見」，是好多種大乘經所懸記的人物。從性空大乘而移入真常
 <lb n="0267a03" ed="Y"/><lb n="0271a03" ed="Y" type="old"/>大乘的過程中，一切世間樂見是一位極關重要的大師。到這個時候，真常大乘才
 <lb n="0267a04" ed="Y"/><lb n="0271a04" ed="Y" type="old"/>顯著的流行。</p>
-<lb n="0267a05" ed="Y"/><lb n="0271a05" ed="Y" type="old"/><p style="text-indent:2em">說到一切世間樂見的，有<title level="m">《大雲經》</title>、<title level="m">《大法鼓經》</title>、<title level="m">《金光明最勝王經》</title><lb n="0271a06" ed="Y" type="old"/>；
+<lb n="0267a05" ed="Y"/><lb n="0271a05" ed="Y" type="old"/><p xml:id="pY22p0267a0501" style="text-indent:2em">說到一切世間樂見的，有<title level="m">《大雲經》</title>、<title level="m">《大法鼓經》</title>、<title level="m">《金光明最勝王經》</title><lb n="0271a06" ed="Y" type="old"/>；
 <lb n="0267a06" ed="Y"/>暗示得非常明白的，還有<title level="m">《央掘魔羅經》</title>。這四部經，都是典型的真常論。先<lb n="0271a07" ed="Y" type="old"/>以
 <lb n="0267a07" ed="Y"/><title level="m">《大雲經》</title>來說：<cit><bibl><title level="m">《大雲經》</title><biblScope n="4" type="卷">卷四</biblScope>，有</bibl><quote source="T12n0387_p1096c07" type="嚴謹引文">「梨車童子，名曰一切眾生樂見」</quote><note n="0267002" resp="周怡曄" type="add">《大方等無想經》卷4〈36 如來涅槃健度〉(CBETA, T12, no. 387, p. 1096, c7)</note></cit>的，<lb n="0271a08" ed="Y" type="old"/>為
 <lb n="0267a08" ed="Y"/>善德婆羅門說如來的舍利不可得。因此，佛敘述他的往因，是寶聚城中的大精<lb n="0271a09" ed="Y" type="old"/>進
@@ -82,13 +102,13 @@
 <lb n="0268a04" ed="Y"/>對他的也不少<lb n="0272a04" ed="Y" type="old"/>。他們說：<quote source="T12n0387_p1100b19-21" type="寬鬆引文">「世間樂見比丘，實非比丘作比丘像，……自說所造名
 <lb n="0268a05" ed="Y"/><title level="m">《大雲經》</title>，……<lb n="0272a05" ed="Y" type="old"/>自為眾生更制禁戒。」<note n="0268003" resp="周怡曄" type="add">《大方等無想經》卷5〈37 增長健度〉：「如是眾生，樂見比丘，實非比丘，作比丘像。遠離諸佛所說經典，自說所造，名《大雲經》；遠離諸佛所制禁戒，自為眾生，更制禁戒。」(CBETA, T12, no. 387, p. 1100, b19-21)</note></quote>結果，他在眾人毀謗聲中，<quote type="嚴謹引文">「諸惡比丘
 <lb n="0268a06" ed="Y"/>尋共害是持法比<lb n="0272a06" ed="Y" type="old"/>丘」<note n="0268004" resp="周怡曄" type="add">《大方等無想經》卷5〈37 增長健度〉(CBETA, T12, no. 387, p. 1100, c26-27)</note></quote>；他是以身殉道了！</p>
-<lb n="0268a07" ed="Y"/><lb n="0272a07" ed="Y" type="old"/><p style="text-indent:2em">大乘經中預記的弘法大師，如馬鳴、龍樹、無著等，都是實有其人。<title level="m">《大雲
+<lb n="0268a07" ed="Y"/><lb n="0272a07" ed="Y" type="old"/><p xml:id="pY22p0268a0701" style="text-indent:2em">大乘經中預記的弘法大師，如馬鳴、龍樹、無著等，都是實有其人。<title level="m">《大雲
 <lb n="0268a08" ed="Y"/><lb n="0272a08" ed="Y" type="old"/>經》</title>中的一切世間樂見比丘，也應該確有其人。我們如著重他前身的出於佛世、
 <lb n="0268a09" ed="Y"/><lb n="0272a09" ed="Y" type="old"/>為佛預記，這對於偉大的聖者，有時反而會引起疑謗。我們如著重於聖典的先後
 <lb n="0268a10" ed="Y"/><lb n="0272a10" ed="Y" type="old"/>傳出，那就是佛教發達史中的好資料了！世間樂見比丘的時代、地點、有關的人
 <lb n="0268a11" ed="Y"/><lb n="0272a11" ed="Y" type="old"/>物，與他努力弘揚的法門、以身殉道，都明白如繪；這是難得的、可寶貴的佛教
 <lb n="0268a12" ed="Y"/><lb n="0272a12" ed="Y" type="old"/>史料。</p>
-<lb n="0268a13" ed="Y"/><lb n="0272a13" ed="Y" type="old"/><p style="text-indent:2em"><cit><bibl><title level="m">《大法鼓經》</title><biblScope type="卷" n="下">卷下</biblScope>，也說世間樂見比丘是梨車，在</bibl><quote type="嚴謹引文">「正法欲滅餘八十年，在<pb n="0273a" ed="Y" xml:id="Y22.0022.0273a.old" type="old"/>
+<lb n="0268a13" ed="Y"/><lb n="0272a13" ed="Y" type="old"/><p xml:id="pY22p0268a1301" style="text-indent:2em"><cit><bibl><title level="m">《大法鼓經》</title><biblScope n="下" type="卷">卷下</biblScope>，也說世間樂見比丘是梨車，在</bibl><quote type="嚴謹引文">「正法欲滅餘八十年，在<pb n="0273a" ed="Y" xml:id="Y22.0022.0273a.old" type="old"/>
 <pb n="0269a" ed="Y" xml:id="Y22.0022.0269a"/>
 <lb n="0269a01" ed="Y"/><lb n="0273a01" ed="Y" type="old"/>於南方文荼羅國大波利村善方便河邊，迦耶梨姓中生。當作比丘，持我名號……
 <lb n="0269a02" ed="Y"/>，為<lb n="0273a02" ed="Y" type="old"/>說<title level="m">《大法鼓經》</title>……。滿百年已，現大神力，示般涅槃。」</quote><note n="0269001" resp="周怡曄" type="add">《大法鼓經》卷2：「正法欲滅餘八十年，在於南方文荼羅國大波利村善方便河邊迦耶梨姓中生。當作比丘持我名，如善方便守護田苗，於我慢緩懈怠眾中離俗出家，以四攝法而攝彼眾。得此深經，誦讀通利，令僧清淨，捨先所受本不淨物。為說大法鼓經，第二為說大乘空經，第三為說眾生界如來常住大法鼓經，擊大法鼓、吹大法蠡、設大法會、建大法幢。當於我前被弘誓鎧，盡百年壽常雨法雨，演說此經。滿百年已，現大神力示般涅槃」(CBETA, T09, no. 270, p. 299, a15-25)</note></cit><title level="m">《大法鼓經》</title>與
@@ -100,7 +120,7 @@
 <lb n="0269a08" ed="Y"/>國，名一切寶莊嚴<lb n="0273a08" ed="Y" type="old"/>，佛名一切世間樂見上大精進」<note n="0269003" resp="周怡曄" type="add">《央掘魔羅經》卷4：「南方去此過六十二恒河沙剎有國，名一切寶莊嚴，佛名一切世間樂見上大精進」(CBETA, T02, no. 120, p. 543, a16-18)</note></quote>；這是預記央掘魔羅的未來事
 <lb n="0269a09" ed="Y"/>。經雖沒有明文說到一<lb n="0273a09" ed="Y" type="old"/>切世間樂見比丘，但央掘魔羅的幼名與佛名，同名「世間
 <lb n="0269a10" ed="Y"/>樂見」，似乎不能無因<lb n="0273a10" ed="Y" type="old"/>。何況所表顯的法門，都是呵空而大讚真常呢！</p>
-<lb n="0269a11" ed="Y"/><lb n="0273a11" ed="Y" type="old"/><p style="text-indent:2em">據一分學者傳說，一切世間樂見比丘，就是<title level="m">《中觀論》</title>的作者——龍樹菩薩
+<lb n="0269a11" ed="Y"/><lb n="0273a11" ed="Y" type="old"/><p xml:id="pY22p0269a1101" style="text-indent:2em">據一分學者傳說，一切世間樂見比丘，就是<title level="m">《中觀論》</title>的作者——龍樹菩薩
 <lb n="0269a12" ed="Y"/>。龍<lb n="0273a12" ed="Y" type="old"/>樹也是南天竺人，也出於正法欲滅的時代；<title level="m">《楞伽經》</title>說龍樹「往生安樂國
 <lb n="0269a13" ed="Y"/>」，<lb n="0273a13" ed="Y" type="old"/><title level="m">《大法鼓經》</title>也說世間樂見比丘「生安樂國」；<title level="m">《大雲經》</title>說世間樂見比丘
 <pb n="0270a" ed="Y" xml:id="Y22.0022.0270a"/>
@@ -113,13 +133,13 @@
 <lb n="0270a07" ed="Y"/>是一致。三<lb n="0274a07" ed="Y" type="old"/>、羅什的<title level="m">《龍樹傳》</title>，只說龍樹受一國王的護持，未說出名字；玄奘
 <lb n="0270a08" ed="Y"/>才肯定說是娑多<lb n="0274a08" ed="Y" type="old"/>婆訶那王。其實，娑多婆訶那，為安達羅王朝諸王的通稱；安達
 <lb n="0270a09" ed="Y"/>羅王朝有三百多<lb n="0274a09" ed="Y" type="old"/>年歷史，所以護持龍樹的，不一定就是護持世間樂見比丘的。四
-<lb n="0270a10" ed="Y"/>、<title level="m">《楞伽經》</title>中<lb n="0274a10" ed="Y" type="old"/>「往生安樂國」的龍樹，梵語為 <foreign xml:lang="sa"><note n="0270a1001" resp="CBETA" type="add">Nāgâhvaya【CB】，Nāgāhvaya【印順】</note><app n="0270a1001"><lem wit="【CB】" resp="正聞出版社">Nāgâhvaya</lem><rdg wit="【印順】">Nāgāhvaya</rdg></app></foreign>（義譯為龍叫，實為
+<lb n="0270a10" ed="Y"/>、<title level="m">《楞伽經》</title>中<lb n="0274a10" ed="Y" type="old"/>「往生安樂國」的龍樹，梵語為 <foreign xml:lang="sa"><note n="0270a1001" resp="CBETA" type="add">Nāgâhvaya【CB】，Nāgāhvaya【印順】</note><app n="0270a1001"><lem resp="正聞出版社" wit="【CB】">Nāgâhvaya</lem><rdg wit="【印順】">Nāgāhvaya</rdg></app></foreign>（義譯為龍叫，實為
 <lb n="0270a11" ed="Y"/>弘揚唯識中道<lb n="0274a11" ed="Y" type="old"/>的「如來賢」的別名），與（<title level="m">《中觀論》</title>主）龍樹梵語 <foreign xml:lang="sa">Nāgārjuna</foreign>
 <lb n="0270a12" ed="Y"/> 不同。從龍樹<lb n="0274a12" ed="Y" type="old"/>見過<title level="m">《大雲經》</title>來說：世間樂見比丘的時代，真常大乘還不能暢行
 <lb n="0270a13" ed="Y"/>，受到反對者<lb n="0274a13" ed="Y" type="old"/>的迫害。自從龍樹出世，大乘才順利地發揚。真常論者便有意無意
 <pb n="0271a" ed="Y" xml:id="Y22.0022.0271a"/>
 <lb n="0271a01" ed="Y"/>間，把世間樂<pb n="0275a" ed="Y" xml:id="Y22.0022.0275a.old" type="old"/><lb n="0275a01" ed="Y" type="old"/>見比丘看作龍樹，而逐漸發展起來！</p>
-<lb n="0271a02" ed="Y"/><lb n="0275a02" ed="Y" type="old"/><p style="text-indent:2em">世間樂見比丘所弘闡的法門，諸經一致記載：盛行在南方，後又到北方。這
+<lb n="0271a02" ed="Y"/><lb n="0275a02" ed="Y" type="old"/><p xml:id="pY22p0271a0201" style="text-indent:2em">世間樂見比丘所弘闡的法門，諸經一致記載：盛行在南方，後又到北方。這
 <lb n="0271a03" ed="Y"/><lb n="0275a03" ed="Y" type="old"/>像<cit><bibl><title level="m">《大雲經》</title>說：</bibl><quote type="嚴謹引文">「我涅槃後，是經當於南方國土廣行流布。正法欲滅餘四十年
 <lb n="0271a04" ed="Y"/>，當<lb n="0275a04" ed="Y" type="old"/>至北方。北方有王，名曰安樂。」</quote><note n="0271001" resp="周怡曄" type="add">《大方等無想經》卷4〈36 如來涅槃健度〉(CBETA, T12, no. 387, p. 1098, b20-22)</note></cit>又如<cit><bibl><title level="m">《央掘魔羅經》</title>說：</bibl><quote source="T02n0120_p0541c23" type="嚴謹引文">「未來世中……
 <lb n="0271a05" ed="Y"/>罽賓國<lb n="0275a05" ed="Y" type="old"/>中有我餘法；婆樓迦車國，餘名不滅；頻陀山國，亦復如是。……南方當
@@ -133,7 +153,7 @@
 <lb n="0271a13" ed="Y"/>從龍樹<lb n="0275a13" ed="Y" type="old"/>曾見<title level="m">《大雲經》</title>而論，世間樂見比丘，大抵與馬鳴同時。在傳說中，馬鳴
 <pb n="0272a" ed="Y" xml:id="Y22.0022.0272a"/>
 <lb n="0272a01" ed="Y"/>也是出<pb n="0276a" ed="Y" xml:id="Y22.0022.0276a.old" type="old"/><lb n="0276a01" ed="Y" type="old"/>於「正法之末」。如這樣，世間樂見比丘，約出在西元一世紀。</p>
-<lb n="0272a02" ed="Y"/><lb n="0276a02" ed="Y" type="old"/><p style="text-indent:2em">我在<title level="m">《印度之佛教》</title>中，以真常唯心論代表後期佛教的正統，在大乘三系中
+<lb n="0272a02" ed="Y"/><lb n="0276a02" ed="Y" type="old"/><p xml:id="pY22p0272a0201" style="text-indent:2em">我在<title level="m">《印度之佛教》</title>中，以真常唯心論代表後期佛教的正統，在大乘三系中
 <lb n="0272a03" ed="Y"/><lb n="0276a03" ed="Y" type="old"/>，有真常唯心論的地位；我說真常唯心論是真常心與真常空的合流。這一基本<lb n="0276a04" ed="Y" type="old"/>的
 <lb n="0272a04" ed="Y"/>見解，並無不是之處。但要明確解說的，真常唯心論從真常空中演化出來，起<lb n="0276a05" ed="Y" type="old"/>初
 <lb n="0272a05" ed="Y"/>是側重真常，是取著極端的姿態，彈斥二乘與一切空。性空唯名論的性空，受<lb n="0276a06" ed="Y" type="old"/>真
@@ -178,7 +198,7 @@
 <lb n="0275a02" ed="Y"/>出纏的真法身；這是聲聞緣覺所從來不曾知道的。所以聲聞非皈依處，<lb n="0279a03" ed="Y" type="old"/>究竟唯是
 <lb n="0275a03" ed="Y"/>一乘。這究竟一乘說，與一切眾生有佛性的見地相合，成為後期佛教的<lb n="0279a04" ed="Y" type="old"/>時代思潮
 <lb n="0275a04" ed="Y"/>，這又顯然與虛妄唯識者的本義不合。</p>
-<lb n="0275a05" ed="Y"/><lb n="0279a05" ed="Y" type="old"/><p style="text-indent:2em">再說它的根本論題：這些經典的目的，在說明「如來常住不變」。<cit><bibl><title level="m">《寶性論
+<lb n="0275a05" ed="Y"/><lb n="0279a05" ed="Y" type="old"/><p xml:id="pY22p0275a0501" style="text-indent:2em">再說它的根本論題：這些經典的目的，在說明「如來常住不變」。<cit><bibl><title level="m">《寶性論
 <lb n="0275a06" ed="Y"/><lb n="0279a06" ed="Y" type="old"/>》</title>說</bibl><quote source="T31n1611_p0828a28-29" type="嚴謹引文">「法身遍無差」、「皆實有佛性」</quote><note n="0275001" resp="周怡曄" type="add">《究竟一乘寶性論》卷3〈5 一切眾生有如來藏品〉：「[4]佛法身遍滿<space quantity="1" unit="chars"/>[5]真如無差別 皆實有佛性」(CBETA, T31, no. 1611, p. 828, a28-29)[4]佛法身遍滿＝法身遍無差【宋】【元】【明】【宮】。[5]〔真如無差別〕－【宋】【元】【明】【宮】</note></cit>兩句，很可以作為思想的根本（<title level="m">《佛性論》</title>
 <lb n="0275a07" ed="Y"/>的三<lb n="0279a07" ed="Y" type="old"/>如來藏，也是演繹此義的）。本來，「色身無邊、威力無邊、壽命無邊」的
 <lb n="0275a08" ed="Y"/>佛陀<lb n="0279a08" ed="Y" type="old"/>觀，從大眾系的闡揚以來，確乎早已成立。但這有色有聲的真如來（龍樹稱
@@ -213,7 +233,7 @@
 <lb n="0277a09" ed="Y"/>佛性，無量相好，莊嚴照明。」</quote><note n="0277005" resp="周怡曄" type="add">《大法鼓經》卷2(CBETA, T09, no. 270, p. 297, b1)</note></cit>眾生心中，本有這三十二相、八十種好、功<lb n="0281a10" ed="Y" type="old"/>德智
 <lb n="0277a10" ed="Y"/>慧圓滿的如來，等到離障時，就轉為法身，功德與業用才完美的顯發出來<lb n="0281a11" ed="Y" type="old"/>：這是
 <lb n="0277a11" ed="Y"/>真常論者的本義。</p>
-<lb n="0277a12" ed="Y"/><lb n="0281a12" ed="Y" type="old"/><p style="text-indent:2em">真常唯心論以後的發展，是：從<title level="m">《央掘魔羅經》</title>、<title level="m">《大雲經》</title>、<title level="m">《大法鼓經》</title>
+<lb n="0277a12" ed="Y"/><lb n="0281a12" ed="Y" type="old"/><p xml:id="pY22p0277a1201" style="text-indent:2em">真常唯心論以後的發展，是：從<title level="m">《央掘魔羅經》</title>、<title level="m">《大雲經》</title>、<title level="m">《大法鼓經》</title>
 <lb n="0277a13" ed="Y"/>，在扶律談<lb n="0281a13" ed="Y" type="old"/>常的原則上發展，成為綜該博洽的大部，就是<title level="m">《大般涅槃經》</title>，<title level="m">《大
 <pb n="0278a" ed="Y" xml:id="Y22.0022.0278a"/>
 <lb n="0278a01" ed="Y"/>般涅槃經》</title>是更能保存<pb n="0282a" ed="Y" xml:id="Y22.0022.0282a.old" type="old"/><lb n="0282a01" ed="Y" type="old"/>真常論的本意而含攝一切的。一方面，從<title level="m">《勝鬘經》</title>而到
@@ -228,7 +248,7 @@
 <lb n="0278a10" ed="Y"/>上，就和真常論者完全一致。這在<cit><bibl><title level="m">《<lb n="0282a10" ed="Y" type="old"/>密嚴經》</title>中，表顯得還要明白，所以說：</bibl><quote type="嚴謹引文">「
 <lb n="0278a11" ed="Y"/>佛說如來藏，以為阿賴耶，惡慧不能<lb n="0282a11" ed="Y" type="old"/>知，藏即賴耶識。」</quote><note n="0278006" resp="周怡曄" type="add">《大乘密嚴經》卷3〈8 阿賴耶微密品〉(CBETA, T16, no. 681, p. 747, a17-19)</note></cit><title level="m">《楞伽經》</title>、<title level="m">《密嚴經》</title>
 <lb n="0278a12" ed="Y"/>是真常唯心論，它的阿賴耶說，與虛妄<lb n="0282a12" ed="Y" type="old"/>唯識者是不大相同的。</p>
-<lb n="0278a13" ed="Y"/><lb n="0282a13" ed="Y" type="old"/><p style="text-indent:2em">末了，我想提到的，真常唯心論是從如來真實不變、德相本具的原則上發揚<pb n="0283a" ed="Y" xml:id="Y22.0022.0283a.old" type="old"/>
+<lb n="0278a13" ed="Y"/><lb n="0282a13" ed="Y" type="old"/><p xml:id="pY22p0278a1301" style="text-indent:2em">末了，我想提到的，真常唯心論是從如來真實不變、德相本具的原則上發揚<pb n="0283a" ed="Y" xml:id="Y22.0022.0283a.old" type="old"/>
 <pb n="0279a" ed="Y" xml:id="Y22.0022.0279a"/>
 <lb n="0279a01" ed="Y"/><lb n="0283a01" ed="Y" type="old"/>起來的，所以與如來祕密莊嚴的真言乘，有最密切的關係，它又終於成為祕密教
 <lb n="0279a02" ed="Y"/><lb n="0283a02" ed="Y" type="old"/>者的指導原則。在真常唯心論的理論上，祕密教一天天盛行起來。</p></cb:div><pb n="0284a" ed="Y" xml:id="Y22.0022.0284a.old" type="old"/>

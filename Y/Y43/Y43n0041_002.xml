@@ -12,54 +12,74 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>初版一刷<date>Date: 2004/06</date>新式標點版</edition>
+			<edition>初版一刷<date>Date: 2004/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>11卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 43, No. 41</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>11卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">43</idno>.<idno type="no">41</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">永光集</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">一、《大智度論》之作者及其翻譯</cb:mulu><cb:mulu level="2" type="其他">尊重古說，抉擇新論——印公老人新著撰述緣起</cb:mulu>
-<milestone unit="juan" n="2"/>
+<milestone n="2" unit="juan"/>
 <pb n="0123a" ed="Y" xml:id="Y43.0041.0123a"/>
 <lb n="0123a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">二、《起信論》與扶南大乘</cb:mulu><head>《起信論》與扶南大乘</head>
 <lb n="0123a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">一　前言</cb:mulu><head>一　前言</head>
-<lb n="0123a03" ed="Y"/><p style="text-indent:2em"><title level="m">《大乘起信論》</title>，傳說是馬鳴（<foreign xml:lang="sa">Aśvaghoṣa</foreign>）所造，陳真諦（<foreign xml:lang="sa">Paramārtha</foreign>）
+<lb n="0123a03" ed="Y"/><p xml:id="pY43p0123a0301" style="text-indent:2em"><title level="m">《大乘起信論》</title>，傳說是馬鳴（<foreign xml:lang="sa">Aśvaghoṣa</foreign>）所造，陳真諦（<foreign xml:lang="sa">Paramārtha</foreign>）
 <lb n="0123a04" ed="Y"/>所譯的。在我國佛教界，這部<title level="m">《大乘起信論》</title>，可說是受到高度推重的。但在
-<lb n="0123a05" ed="Y"/>隋法經的<title level="m">《眾經目錄》</title>中，被編入「眾論疑惑」類。<note n="0123001" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:55;page:p142a">五五，頁一四二上</ref>。</note>隋均正的<cit><bibl><title level="m">《四論玄義》</title>更
+<lb n="0123a05" ed="Y"/>隋法經的<title level="m">《眾經目錄》</title>中，被編入「眾論疑惑」類。<note n="0123001" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:55;page:p142a" type="taisho">五五，頁一四二上</ref>。</note>隋均正的<cit><bibl><title level="m">《四論玄義》</title>更
 <lb n="0123a06" ed="Y"/>明確的說：</bibl><quote>「<title level="m">《起信論》</title>一卷，人云馬鳴菩薩造。北地諸論師云：非馬鳴造論，
-<lb n="0123a07" ed="Y"/>昔日地論師造論，借菩薩名目之」</quote></cit>。<note n="0123002" resp="釋印順" type="orig"><bibl>珍海<title level="m">《三論玄疏文義要》</title><biblScope type="卷" n="7">卷七</biblScope></bibl>所引。</note>到唐代，也還有人評議。近代日本佛教界
+<lb n="0123a07" ed="Y"/>昔日地論師造論，借菩薩名目之」</quote></cit>。<note n="0123002" resp="釋印順" type="orig"><bibl>珍海<title level="m">《三論玄疏文義要》</title><biblScope n="7" type="卷">卷七</biblScope></bibl>所引。</note>到唐代，也還有人評議。近代日本佛教界
 <lb n="0123a08" ed="Y"/>——望月信亨等再度提出討論，論斷<title level="m">《起信論》</title>是中國人所造，為多數學者所同
 <lb n="0123a09" ed="Y"/>意。我國有梁啓超的<title level="m">《大乘起信論考證》</title>，引用日本學者所說，而讚許（造<title level="m">《起
 <lb n="0123a10" ed="Y"/>信論》</title>的）中國人的偉大。中國而反對<title level="m">《起信論》</title>最徹底的，是南京支那內學院
@@ -67,9 +87,9 @@
 <lb n="0124a01" ed="Y"/>，這是以唯識宗思想為準繩，而否定<title level="m">《大乘起信論》</title>的。內院學者呂澂，作<title level="a">〈起
 <lb n="0124a02" ed="Y"/>信與禪——對於大乘起信論來歷的探討〉</title>，指<title level="m">《起信論》</title>是依魏譯（五一三年譯
 <lb n="0124a03" ed="Y"/>）<title level="m">《入楞伽經》</title>而造的。比較<title level="m">《楞伽經》</title>的異譯與現存的梵本，可見魏譯<title level="m">《楞伽
-<lb n="0124a04" ed="Y"/>》</title>是有錯誤的；依之而造的<title level="m">《起信論》</title>，當然也是錯誤了。<note n="0124003" resp="釋印順" type="orig"><bibl>張曼濤主編<title level="m">《現代佛教學術叢刊》</title><biblScope n="35" type="冊">三五冊</biblScope>之<title level="a">〈大乘起信論與楞嚴經考辨〉</title>，<biblScope to="313" type="pp" from="299">頁二九九——三一三</biblScope>。大乘文化出版社，民國六七年十一月初版</bibl>。</note>其實，即使<title level="m">《起信
+<lb n="0124a04" ed="Y"/>》</title>是有錯誤的；依之而造的<title level="m">《起信論》</title>，當然也是錯誤了。<note n="0124003" resp="釋印順" type="orig"><bibl>張曼濤主編<title level="m">《現代佛教學術叢刊》</title><biblScope n="35" type="冊">三五冊</biblScope>之<title level="a">〈大乘起信論與楞嚴經考辨〉</title>，<biblScope from="299" to="313" type="pp">頁二九九——三一三</biblScope>。大乘文化出版社，民國六七年十一月初版</bibl>。</note>其實，即使<title level="m">《起信
 <lb n="0124a05" ed="Y"/>論》</title>是依譯文正確的<title level="m">《楞伽經》</title>而作，論義又正確，也未必能為呂澂等所認同，
-<lb n="0124a06" ed="Y"/>呂澂不是曾說<quote>「楞伽……於體用染淨之判，猶未瞭然」</quote>嗎？<note n="0124004" resp="釋印順" type="orig"><bibl><title level="j">《內學》</title><biblScope type="輯" n="1">第一輯</biblScope>，<biblScope type="pp" n="162">頁一六二</biblScope></bibl>。</note>站在一宗一派的觀
+<lb n="0124a06" ed="Y"/>呂澂不是曾說<quote>「楞伽……於體用染淨之判，猶未瞭然」</quote>嗎？<note n="0124004" resp="釋印順" type="orig"><bibl><title level="j">《內學》</title><biblScope n="1" type="輯">第一輯</biblScope>，<biblScope n="162" type="pp">頁一六二</biblScope></bibl>。</note>站在一宗一派的觀
 <lb n="0124a07" ed="Y"/>點來衡量方便多門的佛法，是不太適當的！<title level="m">《起信論》</title>非馬鳴造，非真諦譯，這
 <lb n="0124a08" ed="Y"/>是文獻考證問題，而義理又當別論。我覺得<title level="m">《起信論》</title>的作者，是依據參照不少
 <lb n="0124a09" ed="Y"/>經論，而不只是魏譯<title level="m">《楞伽經》</title>的。<title level="m">《起信論》</title>的思想，主要是依從海道而來，
@@ -77,7 +97,7 @@
 <lb n="0124a11" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">二　扶南曼陀羅的譯典</cb:mulu><head>二　扶南曼陀羅的譯典</head>
 <lb n="0124a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">一　扶南佛教略說</cb:mulu><head>一　扶南佛教略說</head>
 <pb n="0125a" ed="Y" xml:id="Y43.0041.0125a"/>
-<lb n="0125a01" ed="Y"/><p style="text-indent:2em">扶南（<foreign xml:lang="en">Funan</foreign>），見於中國史書的，是從西元三世紀到六世紀。扶南是現在
+<lb n="0125a01" ed="Y"/><p xml:id="pY43p0125a0101" style="text-indent:2em">扶南（<foreign xml:lang="en">Funan</foreign>），見於中國史書的，是從西元三世紀到六世紀。扶南是現在
 <lb n="0125a02" ed="Y"/>的高棉，或作柬埔寨（<foreign>Cambodia</foreign>）地區的古國。起初見到的扶南，還是裸體的
 <lb n="0125a03" ed="Y"/>。由於印度文化的傳入，扶南也就印度化而大有進步。流傳的有印度教、佛教，
 <lb n="0125a04" ed="Y"/>特別是大乘佛教的興盛，梵本的經典也非常多；佛教的聲聞學派，也有多少流傳
@@ -85,60 +105,60 @@
 <lb n="0125a06" ed="Y"/>史書，也就只說真臘了。</p></cb:div>
 <lb n="0125a07" ed="Y"/>
 <lb n="0125a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">二　《文殊所說般若經》與《法界體性無分別經》</cb:mulu><head>二　《文殊所說般若經》與《法界體性無分別經》</head>
-<lb n="0125a09" ed="Y"/><p style="text-indent:2em">扶南人曼陀羅仙，或作曼陀羅（<foreign xml:lang="sa">Mandra</foreign>）。據<cit><bibl><title level="m">《續高僧傳》</title>說：曼陀羅於梁
-<lb n="0125a10" ed="Y"/>武帝天監二年（西元五〇三）</bibl><quote>「大齎梵本，遠來貢獻」</quote></cit>，<note n="0125a1001" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勑【印順】</note><app n="0125a1001"><lem wit="【CB】" resp="CBETA">敕</lem><rdg wit="【印順】">勑</rdg></app>與扶南人（僧伽）婆
-<lb n="0125a11" ed="Y"/>羅（<foreign xml:lang="sa">Saṅghapāla</foreign>）共譯。由於曼陀羅<quote>「未善梁言，故所出經，文多隱質」</quote>。<note n="0125005" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:50;page:p426a">五〇，頁四二六上</ref>。</note>雖
+<lb n="0125a09" ed="Y"/><p xml:id="pY43p0125a0901" style="text-indent:2em">扶南人曼陀羅仙，或作曼陀羅（<foreign xml:lang="sa">Mandra</foreign>）。據<cit><bibl><title level="m">《續高僧傳》</title>說：曼陀羅於梁
+<lb n="0125a10" ed="Y"/>武帝天監二年（西元五〇三）</bibl><quote>「大齎梵本，遠來貢獻」</quote></cit>，<note n="0125a1001" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勑【印順】</note><app n="0125a1001"><lem resp="CBETA" wit="【CB】">敕</lem><rdg wit="【印順】">勑</rdg></app>與扶南人（僧伽）婆
+<lb n="0125a11" ed="Y"/>羅（<foreign xml:lang="sa">Saṅghapāla</foreign>）共譯。由於曼陀羅<quote>「未善梁言，故所出經，文多隱質」</quote>。<note n="0125005" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:50;page:p426a" type="taisho">五〇，頁四二六上</ref>。</note>雖
 <lb n="0125a12" ed="Y"/>說譯文不太理想，而對中國佛教的影響，卻是深遠的！曼陀羅譯經三部：</p>
-<lb n="0125a13" ed="Y"/><p style="text-indent:2em">一、<title level="m">《文殊師利所說摩訶般若波羅蜜經》</title>，二卷，與唐玄奘所譯<bibl><title level="m">《大般若波
+<lb n="0125a13" ed="Y"/><p xml:id="pY43p0125a1301" style="text-indent:2em">一、<title level="m">《文殊師利所說摩訶般若波羅蜜經》</title>，二卷，與唐玄奘所譯<bibl><title level="m">《大般若波
 <pb n="0126a" ed="Y" xml:id="Y43.0041.0126a"/>
 <lb n="0126a01" ed="Y"/>羅蜜多經》</title>第七<title level="a">〈曼殊室利分〉</title></bibl>同本異譯。曼陀羅譯本，被編入<title level="m">《大寶積經》</title>四
 <lb n="0126a02" ed="Y"/>十六會，名<title level="a">〈文殊說般若會〉</title>。助譯的僧伽婆羅，後來又別譯一部，一卷；比對
 <lb n="0126a03" ed="Y"/>唐譯與曼陀羅所譯，一卷本顯然地有了缺佚。</p>
-<lb n="0126a04" ed="Y"/><p style="text-indent:2em">二、<title level="m">《法界體性無分別經》</title>，二卷，被編入<title level="m">《大寶積經》</title>八會，名<title level="a">〈法界體
+<lb n="0126a04" ed="Y"/><p xml:id="pY43p0126a0401" style="text-indent:2em">二、<title level="m">《法界體性無分別經》</title>，二卷，被編入<title level="m">《大寶積經》</title>八會，名<title level="a">〈法界體
 <lb n="0126a05" ed="Y"/>性無分別會〉</title>。</p>
-<lb n="0126a06" ed="Y"/><p style="text-indent:2em">三、<title level="m">《寶雲經》</title>，七卷。（扶南人須菩提（<foreign xml:lang="sa">Subhūti</foreign>），在陳代再譯，名<title level="m">《
+<lb n="0126a06" ed="Y"/><p xml:id="pY43p0126a0601" style="text-indent:2em">三、<title level="m">《寶雲經》</title>，七卷。（扶南人須菩提（<foreign xml:lang="sa">Subhūti</foreign>），在陳代再譯，名<title level="m">《
 <lb n="0126a07" ed="Y"/>大乘寶雲經》</title>，八卷）。</p>
-<lb n="0126a08" ed="Y"/><p style="text-indent:2em"><title level="m">《文殊師利所說摩訶般若波羅蜜經》</title>，是一部很有名的經典！與「般若部」
+<lb n="0126a08" ed="Y"/><p xml:id="pY43p0126a0801" style="text-indent:2em"><title level="m">《文殊師利所說摩訶般若波羅蜜經》</title>，是一部很有名的經典！與「般若部」
 <lb n="0126a09" ed="Y"/>的風格相近，說般若，也說空義。但已有如來藏（<foreign xml:lang="sa">tathāgata-garbha</foreign>）思想的傾
-<lb n="0126a10" ed="Y"/>向，如說：<quote>「眾生界量，如佛界量」</quote>；<note n="0126006" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:8;page:p726c">八，頁七二六下</ref>。</note><quote>「如來界及我界，即不二相」</quote>。<note n="0126007" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:8;page:p729c">八，頁七二九下</ref>。</note>這部
+<lb n="0126a10" ed="Y"/>向，如說：<quote>「眾生界量，如佛界量」</quote>；<note n="0126006" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:8;page:p726c" type="taisho">八，頁七二六下</ref>。</note><quote>「如來界及我界，即不二相」</quote>。<note n="0126007" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:8;page:p729c" type="taisho">八，頁七二九下</ref>。</note>這部
 <lb n="0126a11" ed="Y"/>經為<cit><bibl><title level="m">《大乘起信論》</title>所採用的，是</bibl><quote>「一行三昧」</quote></cit>（唐譯作<quote>「一相莊嚴三摩提」</quote>）
 <lb n="0126a12" ed="Y"/>。如<title level="m">《大乘起信論》</title>說：</p>
-<lb n="0126a13" ed="Y"/><quote><p style="margin-left:3em">依是三昧故，則知法界一相，謂一切諸佛法身，與眾生身平等無二，即名
+<lb n="0126a13" ed="Y"/><quote><p xml:id="pY43p0126a1301" style="margin-left:3em">依是三昧故，則知法界一相，謂一切諸佛法身，與眾生身平等無二，即名
 <pb n="0127a" ed="Y" xml:id="Y43.0041.0127a"/>
-<lb n="0127a01" ed="Y"/>一行三昧。<note n="0127008" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:32;page:p582b">三二，頁五八二中</ref>。</note></p></quote>
-<lb n="0127a02" ed="Y"/><p style="text-indent:2em">關於一行三昧，<title level="m">《文殊所說摩訶般若波羅蜜經》</title>這樣說：</p>
-<lb n="0127a03" ed="Y"/><quote><p style="margin-left:3em">法界一相，繫緣法界，是名一行三昧。</p></quote>
-<lb n="0127a04" ed="Y"/><quote><p style="margin-left:3em">入一行三昧者，盡知恆沙諸佛法界無差別相。<note n="0127009" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:8;page:p731a">八，頁七三一上</ref>。</note></p></quote>
-<lb n="0127a05" ed="Y"/><p style="text-indent:2em"><quote>「法界一相，繫緣法界」</quote>，這是論文所依而沒有不同的。經說<quote>「恆沙諸佛法界無
+<lb n="0127a01" ed="Y"/>一行三昧。<note n="0127008" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:32;page:p582b" type="taisho">三二，頁五八二中</ref>。</note></p></quote>
+<lb n="0127a02" ed="Y"/><p xml:id="pY43p0127a0201" style="text-indent:2em">關於一行三昧，<title level="m">《文殊所說摩訶般若波羅蜜經》</title>這樣說：</p>
+<lb n="0127a03" ed="Y"/><quote><p xml:id="pY43p0127a0301" style="margin-left:3em">法界一相，繫緣法界，是名一行三昧。</p></quote>
+<lb n="0127a04" ed="Y"/><quote><p xml:id="pY43p0127a0401" style="margin-left:3em">入一行三昧者，盡知恆沙諸佛法界無差別相。<note n="0127009" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:8;page:p731a" type="taisho">八，頁七三一上</ref>。</note></p></quote>
+<lb n="0127a05" ed="Y"/><p xml:id="pY43p0127a0501" style="text-indent:2em"><quote>「法界一相，繫緣法界」</quote>，這是論文所依而沒有不同的。經說<quote>「恆沙諸佛法界無
 <lb n="0127a06" ed="Y"/>差別」</quote>，論說<quote>「佛法身與眾生身平等無二」</quote>，雖各有所重，而法義是相通無礙的
 <lb n="0127a07" ed="Y"/>。</p>
-<lb n="0127a08" ed="Y"/><p style="text-indent:2em">曼陀羅的另一譯本——<title level="m">《法界體性無分別經》</title>，可以推定為與<title level="m">《起信論》</title>的
+<lb n="0127a08" ed="Y"/><p xml:id="pY43p0127a0801" style="text-indent:2em">曼陀羅的另一譯本——<title level="m">《法界體性無分別經》</title>，可以推定為與<title level="m">《起信論》</title>的
 <lb n="0127a09" ed="Y"/>本覺、始覺有關。如<title level="m">《大乘起信論》</title>說：</p>
-<lb n="0127a10" ed="Y"/><quote><p style="margin-left:3em">本覺義者，對始覺義說，以始覺者即同本覺。始覺義者，依本覺故而有不
+<lb n="0127a10" ed="Y"/><quote><p xml:id="pY43p0127a1001" style="margin-left:3em">本覺義者，對始覺義說，以始覺者即同本覺。始覺義者，依本覺故而有不
 <lb n="0127a11" ed="Y"/>覺，依不覺故說有始覺。</p></quote>
-<lb n="0127a12" ed="Y"/><p style="text-indent:2em"><quote>（凡夫、二乘、菩薩、佛的始覺）本來平等同一覺故。</quote><note n="0127010" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:32;page:p576b">三二，頁五七六中</ref>——下。</note></p>
-<lb n="0127a13" ed="Y"/><p style="text-indent:2em"><title level="m">《起信論》</title>立覺與不覺二義。因眾生的不覺，引向於覺而說始覺，其實覺體本來
+<lb n="0127a12" ed="Y"/><p xml:id="pY43p0127a1201" style="text-indent:2em"><quote>（凡夫、二乘、菩薩、佛的始覺）本來平等同一覺故。</quote><note n="0127010" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:32;page:p576b" type="taisho">三二，頁五七六中</ref>——下。</note></p>
+<lb n="0127a13" ed="Y"/><p xml:id="pY43p0127a1301" style="text-indent:2em"><title level="m">《起信論》</title>立覺與不覺二義。因眾生的不覺，引向於覺而說始覺，其實覺體本來
 <pb n="0128a" ed="Y" xml:id="Y43.0041.0128a"/>
 <lb n="0128a01" ed="Y"/>如此，平等不二的。本覺、始覺的安立，可說是非常特出的，應與<title level="m">《法界體性無
 <lb n="0128a02" ed="Y"/>分別經》</title>有關，如經上說：</p>
-<lb n="0128a03" ed="Y"/><p style="margin-left:3em;text-indent:-1em">一、一切智心……是心如實解本始平等。如隨所聞其心體性，解知一切眾生
-<lb n="0128a04" ed="Y"/>體性，解知一切諸法體性。<note n="0128011" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:11;page:p145a">一一，頁一四五上</ref>。</note></p>
-<lb n="0128a05" ed="Y"/><p style="margin-left:3em;text-indent:-1em">二、無覺無有解，無有（覺）解故，即是空也。若能如實解（布）施體性，
+<lb n="0128a03" ed="Y"/><p xml:id="pY43p0128a0301" style="margin-left:3em;text-indent:-1em">一、一切智心……是心如實解本始平等。如隨所聞其心體性，解知一切眾生
+<lb n="0128a04" ed="Y"/>體性，解知一切諸法體性。<note n="0128011" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:11;page:p145a" type="taisho">一一，頁一四五上</ref>。</note></p>
+<lb n="0128a05" ed="Y"/><p xml:id="pY43p0128a0501" style="margin-left:3em;text-indent:-1em">二、無覺無有解，無有（覺）解故，即是空也。若能如實解（布）施體性，
 <lb n="0128a06" ed="Y"/>解施體性故，解如實始體性；解如實始體性（故），解諸法體性；解諸法
-<lb n="0128a07" ed="Y"/>體性故，解諸一切眾生體性。<note n="0128012" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:11;page:p145a">一一，頁一四五上</ref>。</note></p>
-<lb n="0128a08" ed="Y"/><p style="margin-left:3em;text-indent:-1em">三、解身口者，解覺寂靜；解覺寂靜故，解眾生寂靜；解眾生寂靜故，解一
-<lb n="0128a09" ed="Y"/>切法寂靜；解一切法寂靜故，解如實始寂靜。<note n="0128013" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:11;page:p145b">一一，頁一四五中</ref>。</note></p>
-<lb n="0128a10" ed="Y"/><p style="margin-left:3em;text-indent:-1em">四、知諸法寂故，知如實始。<note n="0128014" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:11;page:p145b">一一，頁一四五中</ref>。</note></p>
-<lb n="0128a11" ed="Y"/><p style="margin-left:3em;text-indent:-1em">五、覺知住於如實始故，是名菩提。非住如實始，覺知住於如實始故，……
-<lb n="0128a12" ed="Y"/>是名菩提。<note n="0128015" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:11;page:p150a">一一，頁一五〇上</ref>。</note></p>
-<lb n="0128a13" ed="Y"/><p style="text-indent:2em">上引經文，第一則是發菩提心；第二至四這三則，明六波羅蜜行；後一則是
+<lb n="0128a07" ed="Y"/>體性故，解諸一切眾生體性。<note n="0128012" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:11;page:p145a" type="taisho">一一，頁一四五上</ref>。</note></p>
+<lb n="0128a08" ed="Y"/><p xml:id="pY43p0128a0801" style="margin-left:3em;text-indent:-1em">三、解身口者，解覺寂靜；解覺寂靜故，解眾生寂靜；解眾生寂靜故，解一
+<lb n="0128a09" ed="Y"/>切法寂靜；解一切法寂靜故，解如實始寂靜。<note n="0128013" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:11;page:p145b" type="taisho">一一，頁一四五中</ref>。</note></p>
+<lb n="0128a10" ed="Y"/><p xml:id="pY43p0128a1001" style="margin-left:3em;text-indent:-1em">四、知諸法寂故，知如實始。<note n="0128014" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:11;page:p145b" type="taisho">一一，頁一四五中</ref>。</note></p>
+<lb n="0128a11" ed="Y"/><p xml:id="pY43p0128a1101" style="margin-left:3em;text-indent:-1em">五、覺知住於如實始故，是名菩提。非住如實始，覺知住於如實始故，……
+<lb n="0128a12" ed="Y"/>是名菩提。<note n="0128015" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:11;page:p150a" type="taisho">一一，頁一五〇上</ref>。</note></p>
+<lb n="0128a13" ed="Y"/><p xml:id="pY43p0128a1301" style="text-indent:2em">上引經文，第一則是發菩提心；第二至四這三則，明六波羅蜜行；後一則是
 <pb n="0129a" ed="Y" xml:id="Y43.0041.0129a"/>
 <lb n="0129a01" ed="Y"/>證得菩提。第一則所說的一切智心，就是菩提心。經上說：<quote>「一切智心，無等等
 <lb n="0129a02" ed="Y"/>心，三界最勝心」</quote>，與<title level="m">《摩訶般若波羅蜜經》</title>所說：</p>
-<lb n="0129a03" ed="Y"/><quote><p style="margin-left:3em">是阿耨多羅三藐三菩提心，無等等心，不共聲聞、辟支佛心。何以故？是
-<lb n="0129a04" ed="Y"/>一切智心無漏不繫故。<note n="0129016" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:8;page:p244b">八，頁二四四中</ref>。</note></p></quote>
-<lb n="0129a05" ed="Y"/><p>意義是相近的。但經說<quote>「是心（一切智心）如實解本始平等」</quote>，與<title level="m">《起信論》</title>的
-<lb n="0129a06" ed="Y"/>本覺、始覺平等不二相同，只是說「解」而不是「覺」<note n="0129a0601" resp="CBETA" type="add">罷【CB】，吧【印順】</note><app n="0129a0601"><lem wit="【CB】" resp="正聞出版社">罷</lem><rdg wit="【印順】">吧</rdg></app>了！在上面所引的經文
+<lb n="0129a03" ed="Y"/><quote><p xml:id="pY43p0129a0301" style="margin-left:3em">是阿耨多羅三藐三菩提心，無等等心，不共聲聞、辟支佛心。何以故？是
+<lb n="0129a04" ed="Y"/>一切智心無漏不繫故。<note n="0129016" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:8;page:p244b" type="taisho">八，頁二四四中</ref>。</note></p></quote>
+<lb n="0129a05" ed="Y"/><p xml:id="pY43p0129a0501">意義是相近的。但經說<quote>「是心（一切智心）如實解本始平等」</quote>，與<title level="m">《起信論》</title>的
+<lb n="0129a06" ed="Y"/>本覺、始覺平等不二相同，只是說「解」而不是「覺」<note n="0129a0601" resp="CBETA" type="add">罷【CB】，吧【印順】</note><app n="0129a0601"><lem resp="正聞出版社" wit="【CB】">罷</lem><rdg wit="【印順】">吧</rdg></app>了！在上面所引的經文
 <lb n="0129a07" ed="Y"/>中，或說「解」，或說「知」，或說「覺」；或說「覺知」，或說「覺解」，或
 <lb n="0129a08" ed="Y"/>說「解知」。「覺」、「解」、「知」三字，無疑是可以通用的。經上說：<quote>「解
 <lb n="0129a09" ed="Y"/>如實始體性」</quote>，<quote>「解如實始寂靜」</quote>，<quote>「知如實始」</quote>，<quote>「覺知住於如實始」</quote>。這些
@@ -150,13 +170,13 @@
 <lb n="0130a01" ed="Y"/>解，但也不只是一般的了解。從海道來廣州的求那跋陀羅（<foreign xml:lang="sa">Guṇabhadra</foreign>），於
 <lb n="0130a02" ed="Y"/>宋元嘉（西元四三五——四五三）中譯出的<cit><bibl><title level="m">《雜阿含經》</title><biblScope n="15" type="卷">卷一五</biblScope>說：</bibl><quote>「於苦聖諦
 <lb n="0130a03" ed="Y"/>當知當解，於集聖諦當知當斷，於苦滅聖諦當知當證，於苦滅道跡聖諦當知當修
-<lb n="0130a04" ed="Y"/>」</quote></cit>。<note n="0130017" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:2;page:p104b">二，頁一〇四中</ref>——一〇五上。</note><quote>「當知當解」</quote>的<quote>「解」</quote>，玄奘是譯作<note n="0130a0401" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0130a0401"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>知（<foreign xml:lang="sa">parijñā</foreign>）的，這是對現實生
+<lb n="0130a04" ed="Y"/>」</quote></cit>。<note n="0130017" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:2;page:p104b" type="taisho">二，頁一〇四中</ref>——一〇五上。</note><quote>「當知當解」</quote>的<quote>「解」</quote>，玄奘是譯作<note n="0130a0401" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0130a0401"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>知（<foreign xml:lang="sa">parijñā</foreign>）的，這是對現實生
 <lb n="0130a05" ed="Y"/>死的徹底知。可見<title level="m">《雜阿含經》</title><quote>「當解」</quote>的解，與「開解」、「解悟」的意義相
 <lb n="0130a06" ed="Y"/>當。所以解也可以是無漏（智）的，與知、覺的意義相通。從這一意義說，<quote>「是
 <lb n="0130a07" ed="Y"/>心如實解，本始平等」</quote>，等於<quote>「是心如實覺，本始平等」</quote>；而「解……始」也就
 <lb n="0130a08" ed="Y"/>是「始覺」了。</p></cb:div>
 <lb n="0130a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">三　一行三昧與《解脫道論》</cb:mulu><head>三　一行三昧與《解脫道論》</head>
-<lb n="0130a10" ed="Y"/><p style="text-indent:2em">附帶地說到兩點：一、曼陀羅（<foreign xml:lang="sa">Mandra</foreign>）所譯<title level="m">《文殊師利摩訶般若波羅蜜
+<lb n="0130a10" ed="Y"/><p xml:id="pY43p0130a1001" style="text-indent:2em">附帶地說到兩點：一、曼陀羅（<foreign xml:lang="sa">Mandra</foreign>）所譯<title level="m">《文殊師利摩訶般若波羅蜜
 <lb n="0130a11" ed="Y"/>經》</title>，不但為<title level="m">《大乘起信論》</title>所採用，隋智顗的<title level="m">《摩訶止觀》</title>，也說到常坐的一
 <lb n="0130a12" ed="Y"/>行三昧。隋唐間，四祖道信（西元五八〇——六五一）以來，這部經對禪宗的影
 <pb n="0131a" ed="Y" xml:id="Y43.0041.0131a"/>
@@ -166,25 +186,25 @@
 <lb n="0131a04" ed="Y"/>若波羅蜜」法門，特重常坐的一行三昧。到了五祖弘忍，也在黃梅弘化（西元六
 <lb n="0131a05" ed="Y"/>五二——六七九），重視一行三昧的方便。在<title level="m">《文殊師利所說摩訶般若波羅蜜經
 <lb n="0131a06" ed="Y"/>》</title>中，一行三昧是有修習方便的，如經說：</p>
-<lb n="0131a07" ed="Y"/><quote><p style="margin-left:3em">欲入一行三昧，應處空閑，捨諸亂意，不取相貌，繫心一佛，專稱名字。
-<lb n="0131a08" ed="Y"/><note n="0131018" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:11;page:p655b">一一，頁六五五中</ref>。</note></p></quote>
-<lb n="0131a09" ed="Y"/><p style="text-indent:2em">一行三昧是以稱念（一）佛名為方便的，弘忍及他的弟子法如、神秀等，都
-<lb n="0131a10" ed="Y"/>著重方便，正如杜朏的<cit><bibl><title level="m">《傳法寶<note n="0131a1001" resp="CBETA" type="add">紀【CB】，記【印順】</note><app n="0131a1001"><lem wit="【CB】" resp="厚觀法師">紀<note type="cf1">《傳法寶紀》卷1(CBETA, T85, no. 2838, p. 1291, a3)</note></lem><rdg wit="【印順】">記</rdg></app>》</title>所說：</bibl><quote>「及（弘）忍、（法）如、大通（神
-<lb n="0131a11" ed="Y"/>秀）之世，則法門大<note n="0131a1101" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0131a1101"><lem wit="【CB】" resp="CBETA">啟</lem><rdg wit="【印順】">啓</rdg></app>，根機不擇，齊速念佛名，令淨心」</quote></cit>。念佛淨心，確是容
-<lb n="0131a12" ed="Y"/>易普及的，難怪能「法門大<note n="0131a1201" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0131a1201"><lem wit="【CB】" resp="CBETA">啟</lem><rdg wit="【印順】">啓</rdg></app>」了！<cit><bibl><title level="m">《壇經》</title>所批評的：</bibl><quote>「教人坐（原文作「座
-<lb n="0131a13" ed="Y"/>」），看心看淨，不動不起」</quote></cit>，<note n="0131019" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:48;page:p338b">四八，頁三三八中</ref>。</note>正是這一行三昧的方便——「常坐」、「念佛
+<lb n="0131a07" ed="Y"/><quote><p xml:id="pY43p0131a0701" style="margin-left:3em">欲入一行三昧，應處空閑，捨諸亂意，不取相貌，繫心一佛，專稱名字。
+<lb n="0131a08" ed="Y"/><note n="0131018" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:11;page:p655b" type="taisho">一一，頁六五五中</ref>。</note></p></quote>
+<lb n="0131a09" ed="Y"/><p xml:id="pY43p0131a0901" style="text-indent:2em">一行三昧是以稱念（一）佛名為方便的，弘忍及他的弟子法如、神秀等，都
+<lb n="0131a10" ed="Y"/>著重方便，正如杜朏的<cit><bibl><title level="m">《傳法寶<note n="0131a1001" resp="CBETA" type="add">紀【CB】，記【印順】</note><app n="0131a1001"><lem resp="厚觀法師" wit="【CB】">紀<note type="cf1">《傳法寶紀》卷1(CBETA, T85, no. 2838, p. 1291, a3)</note></lem><rdg wit="【印順】">記</rdg></app>》</title>所說：</bibl><quote>「及（弘）忍、（法）如、大通（神
+<lb n="0131a11" ed="Y"/>秀）之世，則法門大<note n="0131a1101" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0131a1101"><lem resp="CBETA" wit="【CB】">啟</lem><rdg wit="【印順】">啓</rdg></app>，根機不擇，齊速念佛名，令淨心」</quote></cit>。念佛淨心，確是容
+<lb n="0131a12" ed="Y"/>易普及的，難怪能「法門大<note n="0131a1201" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0131a1201"><lem resp="CBETA" wit="【CB】">啟</lem><rdg wit="【印順】">啓</rdg></app>」了！<cit><bibl><title level="m">《壇經》</title>所批評的：</bibl><quote>「教人坐（原文作「座
+<lb n="0131a13" ed="Y"/>」），看心看淨，不動不起」</quote></cit>，<note n="0131019" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:48;page:p338b" type="taisho">四八，頁三三八中</ref>。</note>正是這一行三昧的方便——「常坐」、「念佛
 <pb n="0132a" ed="Y" xml:id="Y43.0041.0132a"/>
 <lb n="0132a01" ed="Y"/>淨心」。然六祖慧能的禪門，「說摩訶般若波羅蜜」，也還是<title level="m">《文殊師利所說摩
 <lb n="0132a02" ed="Y"/>訶般若波羅蜜經》</title>的法門，只是著重深義而已。<title level="m">《楞伽》</title>與<title level="m">《般若》</title>合一，再融
 <lb n="0132a03" ed="Y"/>合江南（有老莊思想）的牛頭禪，印度禪就演化為有中國特色的禪宗了。在禪宗
 <lb n="0132a04" ed="Y"/>的發展中，曼陀羅的「文殊般若」，起著難以估量的大用！</p>
-<lb n="0132a05" ed="Y"/><p style="text-indent:2em">二、協助曼陀羅譯經的僧伽婆羅（<foreign xml:lang="sa">Saṅghapāla</foreign>），據<title level="m">《續高僧傳》</title>說：是扶
+<lb n="0132a05" ed="Y"/><p xml:id="pY43p0132a0501" style="text-indent:2em">二、協助曼陀羅譯經的僧伽婆羅（<foreign xml:lang="sa">Saṅghapāla</foreign>），據<title level="m">《續高僧傳》</title>說：是扶
 <lb n="0132a06" ed="Y"/>南（<foreign xml:lang="en">Funan</foreign>）國人。出家後，<quote>「偏業阿毘曇」</quote>，是修學小乘的。受具足戒（二十
 <lb n="0132a07" ed="Y"/>歲滿）後，<quote>「聞齊國弘法，隨舶至都，住正觀寺，為天竺沙門求那跋陀羅弟子，
 <lb n="0132a08" ed="Y"/>復從跋陀精研方等」</quote>。求那跋陀羅（<foreign xml:lang="sa">Guṇabhadra</foreign>）是死於宋太始四年（西元四
 <lb n="0132a09" ed="Y"/>六八）的，不可能是齊代僧伽婆羅的大乘師。<cit><bibl><title level="m">《大唐內典錄》</title>作：</bibl><quote>「為求那跋摩
 <lb n="0132a10" ed="Y"/>弟子，復從跋陀研究方等」</quote></cit>。跋陀到底是誰？求那跋摩（<foreign xml:lang="sa">Guṇavarman</foreign>）死於宋
-<lb n="0132a11" ed="Y"/>元嘉八年（西元四三一）。總之僧伽婆羅在齊代的史實，並不清楚。<note n="0132020" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:50;page:p426a">五〇，頁四二六上</ref>；<title>《大正藏》</title>卷<ref type="taisho" target="#vol:55;page:p266a">五五，頁二六六上</ref>。</note>到梁初，
+<lb n="0132a11" ed="Y"/>元嘉八年（西元四三一）。總之僧伽婆羅在齊代的史實，並不清楚。<note n="0132020" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:50;page:p426a" type="taisho">五〇，頁四二六上</ref>；<title>《大正藏》</title>卷<ref target="#vol:55;page:p266a" type="taisho">五五，頁二六六上</ref>。</note>到梁初，
 <lb n="0132a12" ed="Y"/>除了助曼陀羅譯經外，天監五年（西元五〇六）起，譯出十部，原文都是曼陀羅
 <lb n="0132a13" ed="Y"/>從扶南帶來的。所譯的十部，大乘以外，也有屬於部派佛教的，如<title level="m">《阿育王經》</title>
 <pb n="0133a" ed="Y" xml:id="Y43.0041.0133a"/>
@@ -197,7 +217,7 @@
 <lb n="0133a07" ed="Y"/>行中，聲聞部派的佛法，也有多少的流行。</p></cb:div></cb:div>
 <lb n="0133a08" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">三　從扶南來的真諦譯典</cb:mulu><head>三　從扶南來的真諦譯典</head>
 <lb n="0133a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">一　真諦的《攝大乘論釋》</cb:mulu><head>一　真諦的《攝大乘論釋》</head>
-<lb n="0133a10" ed="Y"/><p style="text-indent:2em">從扶南（<foreign xml:lang="en">Funan</foreign>）來的真諦（<foreign xml:lang="sa">Paramārtha</foreign>）三藏，在所譯的<title level="m">《攝大乘論釋》</title>
+<lb n="0133a10" ed="Y"/><p xml:id="pY43p0133a1001" style="text-indent:2em">從扶南（<foreign xml:lang="en">Funan</foreign>）來的真諦（<foreign xml:lang="sa">Paramārtha</foreign>）三藏，在所譯的<title level="m">《攝大乘論釋》</title>
 <lb n="0133a11" ed="Y"/>中，提到「解性」，這與扶南曼陀羅（<foreign xml:lang="sa">Mandra</foreign>）所譯<title level="m">《法界體性無分別經》</title>，
 <lb n="0133a12" ed="Y"/>一再說到「如實解」、「解始」，同樣的使用「解」字，這是值得注意的！真諦
 <pb n="0134a" ed="Y" xml:id="Y43.0041.0134a"/>
@@ -205,7 +225,7 @@
 <lb n="0134a02" ed="Y"/>回國，便中邀請名德。那時，真諦在扶南遊化，可能已有多年，受到佛教界的尊
 <lb n="0134a03" ed="Y"/>重，所以<quote>「彼國乃屈真諦，並齎（大量）經論，恭膺帝制，既素蓄在心，渙然聞
 <lb n="0134a04" ed="Y"/>命」</quote>。先到達南海（今廣州），<quote>「太清二年（西元五四八）閏八月，始屆京邑」</quote>
-<lb n="0134a05" ed="Y"/>（今南京）。<note n="0134021" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:50;page:p429c">五〇，頁四二九下</ref>。</note>真諦受到當時政局的影響，譯業極為艱困。直到陳天嘉四、五年
+<lb n="0134a05" ed="Y"/>（今南京）。<note n="0134021" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:50;page:p429c" type="taisho">五〇，頁四二九下</ref>。</note>真諦受到當時政局的影響，譯業極為艱困。直到陳天嘉四、五年
 <lb n="0134a06" ed="Y"/>（西元五六三——五六四），終於在廣州譯出了<title level="m">《攝大乘論》</title>與<title level="m">《釋》</title>論。<title level="m">《攝
 <lb n="0134a07" ed="Y"/>大乘論釋》</title>，是真諦所譯的主要論典，依此而北地有「攝論宗」的宏傳。<title level="m">《攝大
 <lb n="0134a08" ed="Y"/>乘論》</title>是無著（<foreign xml:lang="sa">Asaṅga</foreign>）依<bibl>《<title level="m">阿毘達磨大乘經</title>．<title level="a">攝大乘品</title>》</bibl>而造的；<title level="m">《釋》</title>論是
@@ -215,7 +235,7 @@
 <lb n="0134a12" ed="Y"/>大乘行者的共同意見。</p></cb:div>
 <pb n="0135a" ed="Y" xml:id="Y43.0041.0135a"/>
 <lb n="0135a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">二　依他性——阿黎耶識通二分說</cb:mulu><head>二　依他性——阿黎耶識通二分說</head>
-<lb n="0135a02" ed="Y"/><p style="text-indent:2em"><title level="m">《攝大乘論》</title>是依<bibl>《<title level="m">阿毘達磨大乘經</title>．<title level="a">攝大乘品</title>》</bibl>而造的。這部經沒有傳譯
+<lb n="0135a02" ed="Y"/><p xml:id="pY43p0135a0201" style="text-indent:2em"><title level="m">《攝大乘論》</title>是依<bibl>《<title level="m">阿毘達磨大乘經</title>．<title level="a">攝大乘品</title>》</bibl>而造的。這部經沒有傳譯
 <lb n="0135a03" ed="Y"/>過來，所以不能充分的了解。如依<title level="m">《攝大乘論》</title>的體裁，及片段的引述經文，可
 <lb n="0135a04" ed="Y"/>以論定這部經，是以虛妄分別的阿賴耶識（<foreign xml:lang="sa">ālaya-vijñāna</foreign>）為依止，成立一切
 <lb n="0135a05" ed="Y"/>唯識的經典。但與<title level="m">《瑜伽師地論》</title>以來的思想，有一些差別，如依他起性
@@ -227,50 +247,50 @@
 <lb n="0135a11" ed="Y"/>。生於西元六世紀的真諦（<foreign xml:lang="sa">Paramārtha</foreign>），在所譯的<title level="m">《攝大乘論釋》</title>中，不離「
 <lb n="0135a12" ed="Y"/>虛妄唯識」，卻增多了「真常」的思想。這裡，還是先從「解性黎耶」說起。</p>
 <pb n="0136a" ed="Y" xml:id="Y43.0041.0136a"/>
-<lb n="0136a01" ed="Y"/><p style="text-indent:2em">真諦所譯的<title level="m">《攝大乘論釋》</title>，對<title level="m">《攝論》</title>所引<title level="m">《阿毘達磨大乘經》</title>，<quote>「此界
+<lb n="0136a01" ed="Y"/><p xml:id="pY43p0136a0101" style="text-indent:2em">真諦所譯的<title level="m">《攝大乘論釋》</title>，對<title level="m">《攝論》</title>所引<title level="m">《阿毘達磨大乘經》</title>，<quote>「此界
 <lb n="0136a02" ed="Y"/>無始時，一切法依止」</quote>偈，有其他譯本所沒有的一段解釋，如<bibl><title level="m">《攝大乘論釋》</title><biblScope n="1" type="卷">卷
 <lb n="0136a03" ed="Y"/>一</biblScope></bibl>說：</p>
-<lb n="0136a04" ed="Y"/><quote><p style="margin-left:3em">（此界無始時）此，即此阿黎耶識界，以解為性；此界有五義……
+<lb n="0136a04" ed="Y"/><quote><p xml:id="pY43p0136a0401" style="margin-left:3em">（此界無始時）此，即此阿黎耶識界，以解為性；此界有五義……
 <lb n="0136a05" ed="Y"/>如經言：世尊！此識界是依、是持、是處，恆相應及不相離、不捨智，無
 <lb n="0136a06" ed="Y"/>為恆伽沙等數諸佛功德。世尊！非相應、相離、捨智，有為諸法，是依、
-<lb n="0136a07" ed="Y"/>是持、是處，故言一切法依止。<note n="0136022" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:31;page:p156c">三一，頁一五六下</ref>——一五七上。</note></p></quote>
-<lb n="0136a08" ed="Y"/><p style="text-indent:2em">依真諦譯，<quote>「此」</quote>，指阿黎耶（阿賴耶的異譯）識，界（<foreign xml:lang="x-sa-pi">dhātu</foreign>）是以「解
+<lb n="0136a07" ed="Y"/>是持、是處，故言一切法依止。<note n="0136022" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:31;page:p156c" type="taisho">三一，頁一五六下</ref>——一五七上。</note></p></quote>
+<lb n="0136a08" ed="Y"/><p xml:id="pY43p0136a0801" style="text-indent:2em">依真諦譯，<quote>「此」</quote>，指阿黎耶（阿賴耶的異譯）識，界（<foreign xml:lang="x-sa-pi">dhātu</foreign>）是以「解
 <lb n="0136a09" ed="Y"/>」為體性的，所以<quote>「此界」</quote>就是阿黎耶「識界」，也就是阿黎耶識的「解性」。
 <lb n="0136a10" ed="Y"/>日本某學者，對於<quote>「界以解為性」</quote>，作為<quote>「界是解說為體性」</quote>的意義。的確，「
 <lb n="0136a11" ed="Y"/>界」字是可以解說為體性的，但這裡的<quote>「以解為性」</quote>，依漢文的文法，不可能<quote>「
 <lb n="0136a12" ed="Y"/>解說為體性」</quote>的。而且，在<cit><bibl><title level="m">《攝大乘論釋》</title><biblScope n="3" type="卷">卷三</biblScope>，還有這樣說：</bibl><quote>「聖人依者，聞
-<lb n="0136a13" ed="Y"/>熏習與解性和合，以此為依，一切聖道皆依此生。」</quote><note n="0136023" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:31;page:p175a">三一，頁一七五上</ref>。</note></cit>這裡的<quote>「解性」</quote>，難道也
+<lb n="0136a13" ed="Y"/>熏習與解性和合，以此為依，一切聖道皆依此生。」</quote><note n="0136023" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:31;page:p175a" type="taisho">三一，頁一七五上</ref>。</note></cit>這裡的<quote>「解性」</quote>，難道也
 <pb n="0137a" ed="Y" xml:id="Y43.0041.0137a"/>
 <lb n="0137a01" ed="Y"/>可說<quote>「解說為體性」</quote>嗎？真諦這一段文，是引<title level="m">《勝鬘經》</title>而說的。如<quote>「此界有五
-<lb n="0137a02" ed="Y"/>義」</quote>，就是<title level="m">《勝鬘經》</title>說如來藏等五藏。<note n="0137024" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:11;page:p677c">一一，頁六七七下</ref>。</note><title level="m">《究竟一乘寶性論》</title>也引用這五藏說
-<lb n="0137a03" ed="Y"/>，解說「此界無始時」頌。<note n="0137025" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:31;page:p839a">三一，頁八三九上</ref>。</note><title level="m">《攝大乘論》</title>立阿黎耶識，<title level="m">《勝鬘經》</title>說如來藏，
+<lb n="0137a02" ed="Y"/>義」</quote>，就是<title level="m">《勝鬘經》</title>說如來藏等五藏。<note n="0137024" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:11;page:p677c" type="taisho">一一，頁六七七下</ref>。</note><title level="m">《究竟一乘寶性論》</title>也引用這五藏說
+<lb n="0137a03" ed="Y"/>，解說「此界無始時」頌。<note n="0137025" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:31;page:p839a" type="taisho">三一，頁八三九上</ref>。</note><title level="m">《攝大乘論》</title>立阿黎耶識，<title level="m">《勝鬘經》</title>說如來藏，
 <lb n="0137a04" ed="Y"/>如來藏也就是如來界（<foreign xml:lang="sa">tathāgata-dhātu</foreign>）；<quote>「此識界」</quote>，真諦譯表示了阿黎耶識
 <lb n="0137a05" ed="Y"/>與如來藏，有一種共同的內容。所以攝論宗所說的阿黎耶識，「果報（異熟）識
 <lb n="0137a06" ed="Y"/>」以外，還有「解性黎耶」。</p>
-<lb n="0137a07" ed="Y"/><p style="text-indent:2em">阿黎耶識有果報與解性，不禁想起了<title level="m">《攝大乘論》</title>對依他起性的解說，如說
+<lb n="0137a07" ed="Y"/><p xml:id="pY43p0137a0701" style="text-indent:2em">阿黎耶識有果報與解性，不禁想起了<title level="m">《攝大乘論》</title>對依他起性的解說，如說
 <lb n="0137a08" ed="Y"/>：</p>
-<lb n="0137a09" ed="Y"/><quote><p style="margin-left:3em">依他（起）性有幾種？若略說有二種：一、繫屬熏習種子；二、繫屬淨品
-<lb n="0137a10" ed="Y"/>、不淨品性不成就。<note n="0137026" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:31;page:p119c">三一，頁一一九下</ref>。</note></p></quote>
-<lb n="0137a11" ed="Y"/><p style="text-indent:2em">這是說依他性的定義，有二類不同：一、「繫屬（就是依）熏習種子」而起
+<lb n="0137a09" ed="Y"/><quote><p xml:id="pY43p0137a0901" style="margin-left:3em">依他（起）性有幾種？若略說有二種：一、繫屬熏習種子；二、繫屬淨品
+<lb n="0137a10" ed="Y"/>、不淨品性不成就。<note n="0137026" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:31;page:p119c" type="taisho">三一，頁一一九下</ref>。</note></p></quote>
+<lb n="0137a11" ed="Y"/><p xml:id="pY43p0137a1101" style="text-indent:2em">這是說依他性的定義，有二類不同：一、「繫屬（就是依）熏習種子」而起
 <lb n="0137a12" ed="Y"/>的，名為依他起性，這是虛妄唯識——瑜伽行派（<foreign xml:lang="sa">Yogācārika</foreign>）的共同解說。二
 <lb n="0137a13" ed="Y"/>、（有漏妄）<quote>「識分別此性，或成煩惱，或成業，或成果報，則屬不淨品。若般
 <pb n="0138a" ed="Y" xml:id="Y43.0041.0138a"/>
-<lb n="0138a01" ed="Y"/>若緣此性，無所分別，則成淨品」</quote>。<note n="0138027" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:31;page:p188b">三一，頁一八八中</ref>。</note>依他性，如為識分別，就成為不淨——染
+<lb n="0138a01" ed="Y"/>若緣此性，無所分別，則成淨品」</quote>。<note n="0138027" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:31;page:p188b" type="taisho">三一，頁一八八中</ref>。</note>依他性，如為識分別，就成為不淨——染
 <lb n="0138a02" ed="Y"/>汙品類；如為般若所緣，無所分別，就成為清淨。是染汙或是清淨，都沒有定性
 <lb n="0138a03" ed="Y"/>，依因緣而染而淨，所以名為依他（起）性。這一解說，是非常特出的。可以成
-<lb n="0138a04" ed="Y"/>為染汙的分別性（<foreign xml:lang="sa">parikalpita-svabhāva</foreign>，玄奘譯為<note n="0138a0401" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0138a0401"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>計所執性），也可以成為
+<lb n="0138a04" ed="Y"/>為染汙的分別性（<foreign xml:lang="sa">parikalpita-svabhāva</foreign>，玄奘譯為<note n="0138a0401" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0138a0401"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>計所執性），也可以成為
 <lb n="0138a05" ed="Y"/>清淨的真實性。這染汙、清淨不定——不成的，就是依他性。這一見解，是出於
-<lb n="0138a06" ed="Y"/><title level="m">《阿毘達磨大乘經》</title>的，如<bibl><title level="m">《攝大乘論》</title><biblScope type="卷" n="中">卷中</biblScope></bibl>說：</p>
-<lb n="0138a07" ed="Y"/><quote><p style="margin-left:3em">阿毘達磨修多羅中，佛世尊說：法有三種：一、染汙分，二、清淨分，三
+<lb n="0138a06" ed="Y"/><title level="m">《阿毘達磨大乘經》</title>的，如<bibl><title level="m">《攝大乘論》</title><biblScope n="中" type="卷">卷中</biblScope></bibl>說：</p>
+<lb n="0138a07" ed="Y"/><quote><p xml:id="pY43p0138a0701" style="margin-left:3em">阿毘達磨修多羅中，佛世尊說：法有三種：一、染汙分，二、清淨分，三
 <lb n="0138a08" ed="Y"/>、染汙清淨分。依何義說此三分？於依他性中，分別性為染汙分，真實性
 <lb n="0138a09" ed="Y"/>為清淨分，依他性為染汙清淨分。</p></quote>
-<lb n="0138a10" ed="Y"/><quote><p style="margin-left:3em">譬如於金藏土中，見有三法：一、地界，二、金，三、土。於地界中，土
+<lb n="0138a10" ed="Y"/><quote><p xml:id="pY43p0138a1001" style="margin-left:3em">譬如於金藏土中，見有三法：一、地界，二、金，三、土。於地界中，土
 <lb n="0138a11" ed="Y"/>非有而顯現，金實有不顯現。此土若以火燒鍊，土則不現，金相自現。…
 <lb n="0138a12" ed="Y"/>…如此本識，未為無分別智火所燒鍊時，此識由虛妄（的）分別性顯現，
 <lb n="0138a13" ed="Y"/>不由真實性顯現；若為無分別智火所燒鍊時，此識由成就真實性顯現，不
 <pb n="0139a" ed="Y" xml:id="Y43.0041.0139a"/>
-<lb n="0139a01" ed="Y"/>由虛妄（的）分別性顯現。是故虛妄分別性識，即依他性有二分。<note n="0139028" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:31;page:p121a">三一，頁一二一上</ref>。</note></p></quote>
-<lb n="0139a02" ed="Y"/><p style="text-indent:2em">從經文及論文的解說比喻中，這明顯的是<quote>「繫屬淨品、不淨品性不成就」</quote>的
+<lb n="0139a01" ed="Y"/>由虛妄（的）分別性顯現。是故虛妄分別性識，即依他性有二分。<note n="0139028" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:31;page:p121a" type="taisho">三一，頁一二一上</ref>。</note></p></quote>
+<lb n="0139a02" ed="Y"/><p xml:id="pY43p0139a0201" style="text-indent:2em">從經文及論文的解說比喻中，這明顯的是<quote>「繫屬淨品、不淨品性不成就」</quote>的
 <lb n="0139a03" ed="Y"/>依他性。地界（礦）是阿黎耶——「本識」，一向只見是泥土，如一般眾生，阿
 <lb n="0139a04" ed="Y"/>黎耶識由虛妄識而顯現為染汙的分別性。礦藏經過開採冶鍊，那就顯出純金，這
 <lb n="0139a05" ed="Y"/>如阿黎耶識為無分別智火所冶鍊，就顯出清淨的真實性。這不是染因生染果，淨
@@ -280,53 +300,53 @@
 <lb n="0139a09" ed="Y"/>如）。<title level="m">《攝大乘論》</title>的引經說，是站在虛妄識界的立場。但經文本義——依他有
 <lb n="0139a10" ed="Y"/>二分，當然可通於清淨法界。真諦與<title level="m">《究竟一乘寶性論》</title>，都依如來藏解說頌文
 <lb n="0139a11" ed="Y"/>的「界」，不是沒有根據的。</p>
-<lb n="0139a12" ed="Y"/><p style="text-indent:2em">「識界」有二分的思想，引起了<title level="m">《楞伽經》</title>的結合了如來藏與阿黎耶——藏
+<lb n="0139a12" ed="Y"/><p xml:id="pY43p0139a1201" style="text-indent:2em">「識界」有二分的思想，引起了<title level="m">《楞伽經》</title>的結合了如來藏與阿黎耶——藏
 <lb n="0139a13" ed="Y"/>識，如<bibl><title level="m">《大乘入楞伽經》</title><biblScope n="5" type="卷">卷五</biblScope></bibl>說：</p>
 <pb n="0140a" ed="Y" xml:id="Y43.0041.0140a"/>
-<lb n="0140a01" ed="Y"/><quote><p style="margin-left:3em">如來藏是善不善因。……無始虛偽惡習所熏，名為藏識，生於七識無明住
+<lb n="0140a01" ed="Y"/><quote><p xml:id="pY43p0140a0101" style="margin-left:3em">如來藏是善不善因。……無始虛偽惡習所熏，名為藏識，生於七識無明住
 <lb n="0140a02" ed="Y"/>地。譬如大海而有波浪，其體相續，恆注不斷；本性清淨，離無常過，離
-<lb n="0140a03" ed="Y"/>於我論。其餘七識，意、意識等，念念生滅。<note n="0140029" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:16;page:p619c">一六，頁六一九下</ref>。</note></p></quote>
-<lb n="0140a04" ed="Y"/><p style="text-indent:2em">瑜伽行派立八識，<cit><bibl><title level="m">《楞伽經》</title>也立八識，但八識是：</bibl><quote>「如來藏藏識心、意、
-<lb n="0140a05" ed="Y"/>意識及五識身」</quote></cit>。<note n="0140030" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:16;page:p621c">一六，頁六二一下</ref>。</note>如來藏是不生不滅的；意、意識等七識是念念生滅的；阿黎
+<lb n="0140a03" ed="Y"/>於我論。其餘七識，意、意識等，念念生滅。<note n="0140029" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:16;page:p619c" type="taisho">一六，頁六一九下</ref>。</note></p></quote>
+<lb n="0140a04" ed="Y"/><p xml:id="pY43p0140a0401" style="text-indent:2em">瑜伽行派立八識，<cit><bibl><title level="m">《楞伽經》</title>也立八識，但八識是：</bibl><quote>「如來藏藏識心、意、
+<lb n="0140a05" ed="Y"/>意識及五識身」</quote></cit>。<note n="0140030" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:16;page:p621c" type="taisho">一六，頁六二一下</ref>。</note>如來藏是不生不滅的；意、意識等七識是念念生滅的；阿黎
 <lb n="0140a06" ed="Y"/>耶——藏識通二分，「真相」（即如來藏）是不滅的，藏識攝藏的虛偽熏習——
 <lb n="0140a07" ed="Y"/>「業相」是可滅的。這樣，瑜伽行派依（虛妄分別）阿黎耶識的唯識說，被統屬
 <lb n="0140a08" ed="Y"/>於真常的如來藏，成為真常唯心說。傳說依<title level="m">《楞伽經》</title>而造的<cit><bibl><title level="m">《大乘起信論》</title>，
 <lb n="0140a09" ed="Y"/>說</bibl><quote>「依如來藏故有生滅心，所謂不生不滅與生滅和合，非一非異，名為阿黎耶識
-<lb n="0140a10" ed="Y"/>」</quote></cit>，<note n="0140031" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:32;page:p576b">三二，頁五七六中</ref>。</note>確是有所依據的。</p>
-<lb n="0140a11" ed="Y"/><p style="text-indent:2em">瑜伽行派以真如會通如來藏，但所說的真如（即空性，圓成實性），只是理
+<lb n="0140a10" ed="Y"/>」</quote></cit>，<note n="0140031" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:32;page:p576b" type="taisho">三二，頁五七六中</ref>。</note>確是有所依據的。</p>
+<lb n="0140a11" ed="Y"/><p xml:id="pY43p0140a1101" style="text-indent:2em">瑜伽行派以真如會通如來藏，但所說的真如（即空性，圓成實性），只是理
 <lb n="0140a12" ed="Y"/>性，與依他起性不一不異，而無關於依他起性的因果起滅，所以呂澂稱之為「性
 <lb n="0140a13" ed="Y"/>寂」。在真常大乘經中，如來藏不只是「性寂」，也是「性覺」的，如<title level="m">《大方等
 <pb n="0141a" ed="Y" xml:id="Y43.0041.0141a"/>
 <lb n="0141a01" ed="Y"/>如來藏經》</title>說：</p>
-<lb n="0141a02" ed="Y"/><quote><p style="margin-left:3em">一切眾生貪欲、恚、癡諸煩惱中，有如來智、如來眼、如來身，結加趺坐
-<lb n="0141a03" ed="Y"/>，儼然不動。……有如來藏常無染汙，德相備足，如我無異。<note n="0141032" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:16;page:p457b">一六，頁四五七中</ref>——下。</note></p></quote>
-<lb n="0141a04" ed="Y"/><p style="text-indent:2em">眾生身中的如來藏，佛那樣的有智、有眼，能說只是「性寂」而不是「性覺
-<lb n="0141a05" ed="Y"/>」嗎？又如<cit><bibl><title level="m">《勝鬘經》</title>說：</bibl><quote>「如來藏空性之智」</quote></cit>；<note n="0141033" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:11;page:p677a">一一，頁六七七上</ref>。</note><cit><bibl><title level="m">《大乘密嚴經》</title>說：</bibl><quote>「如來
-<lb n="0141a06" ed="Y"/>清淨藏，亦名無垢智」</quote></cit>，<note n="0141034" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:16;page:p747a">一六，頁七四七上</ref>。</note>那是更明顯的「性覺」說了！<cit><bibl><title level="m">《楞伽經》</title>的<title level="a">〈偈頌品
-<lb n="0141a07" ed="Y"/>〉</title>說：</bibl><quote>「內證智所行，清淨真我相，此即如來藏，非外道所知」</quote></cit>。<note n="0141035" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:16;page:p637b">一六，頁六三七中</ref>。</note>如來藏就是
+<lb n="0141a02" ed="Y"/><quote><p xml:id="pY43p0141a0201" style="margin-left:3em">一切眾生貪欲、恚、癡諸煩惱中，有如來智、如來眼、如來身，結加趺坐
+<lb n="0141a03" ed="Y"/>，儼然不動。……有如來藏常無染汙，德相備足，如我無異。<note n="0141032" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:16;page:p457b" type="taisho">一六，頁四五七中</ref>——下。</note></p></quote>
+<lb n="0141a04" ed="Y"/><p xml:id="pY43p0141a0401" style="text-indent:2em">眾生身中的如來藏，佛那樣的有智、有眼，能說只是「性寂」而不是「性覺
+<lb n="0141a05" ed="Y"/>」嗎？又如<cit><bibl><title level="m">《勝鬘經》</title>說：</bibl><quote>「如來藏空性之智」</quote></cit>；<note n="0141033" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:11;page:p677a" type="taisho">一一，頁六七七上</ref>。</note><cit><bibl><title level="m">《大乘密嚴經》</title>說：</bibl><quote>「如來
+<lb n="0141a06" ed="Y"/>清淨藏，亦名無垢智」</quote></cit>，<note n="0141034" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:16;page:p747a" type="taisho">一六，頁七四七上</ref>。</note>那是更明顯的「性覺」說了！<cit><bibl><title level="m">《楞伽經》</title>的<title level="a">〈偈頌品
+<lb n="0141a07" ed="Y"/>〉</title>說：</bibl><quote>「內證智所行，清淨真我相，此即如來藏，非外道所知」</quote></cit>。<note n="0141035" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:16;page:p637b" type="taisho">一六，頁六三七中</ref>。</note>如來藏就是
 <lb n="0141a08" ed="Y"/>我（<foreign xml:lang="sa">ātman</foreign>），「我」能說沒有知性嗎？所以呂澂主「性寂」而否定「性覺」，
 <lb n="0141a09" ed="Y"/>是不能解說真常大乘經論的。</p>
-<lb n="0141a10" ed="Y"/><p style="text-indent:2em">這樣，真諦引如來藏說，說<quote>「界以解為性」</quote>，是有所據的。如前<title level="m">《法界體性
+<lb n="0141a10" ed="Y"/><p xml:id="pY43p0141a1001" style="text-indent:2em">這樣，真諦引如來藏說，說<quote>「界以解為性」</quote>，是有所據的。如前<title level="m">《法界體性
 <lb n="0141a11" ed="Y"/>無分別經》</title>，所說的「解」，與「知」、「覺」是相通的，所以真諦譯<title level="m">《攝大乘
 <lb n="0141a12" ed="Y"/>論釋》</title>所說的，<quote>「此識界」</quote>是<quote>「解性」</quote>（又是「因性」），與<title level="m">《大乘起信論》</title>的
-<lb n="0141a13" ed="Y"/>心生滅——阿黎耶識，有覺與不覺二義，可說是大致相近的。<note n="0141036" resp="釋印順" type="orig">筆者在<title level="m">《如來藏之研究》</title>中，以為「解性」是「解脫性」，應該加以改正。參考頁<ref type="yinshun" target="#vol:39;page:p215">二一五</ref>。</note></p></cb:div>
+<lb n="0141a13" ed="Y"/>心生滅——阿黎耶識，有覺與不覺二義，可說是大致相近的。<note n="0141036" resp="釋印順" type="orig">筆者在<title level="m">《如來藏之研究》</title>中，以為「解性」是「解脫性」，應該加以改正。參考頁<ref target="#vol:39;page:p215" type="yinshun">二一五</ref>。</note></p></cb:div>
 <pb n="0142a" ed="Y" xml:id="Y43.0041.0142a"/>
 <lb n="0142a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">三　真實熏虛妄說</cb:mulu><head>三　真實熏虛妄說</head>
-<lb n="0142a02" ed="Y"/><p style="text-indent:2em">依阿黎耶識（<foreign xml:lang="sa">ālaya-vijñāna</foreign>）的攝藏種子（<foreign xml:lang="x-sa-pi">bīja</foreign>），成立生死的流轉與還滅
+<lb n="0142a02" ed="Y"/><p xml:id="pY43p0142a0201" style="text-indent:2em">依阿黎耶識（<foreign xml:lang="sa">ālaya-vijñāna</foreign>）的攝藏種子（<foreign xml:lang="x-sa-pi">bīja</foreign>），成立生死的流轉與還滅
 <lb n="0142a03" ed="Y"/>，是瑜伽行派（<foreign xml:lang="sa">Yogācārika</foreign>）一致的見地。說到無漏心的現起，當然依出世無漏
 <lb n="0142a04" ed="Y"/>心種子，但在瑜伽行派中，對出世無漏心種子，是有不同意見的。如<bibl>《<title level="m">瑜伽師地
 <lb n="0142a05" ed="Y"/>論</title>．<title level="a">本地分</title>》</bibl>與<title level="m">《大乘莊嚴經論》</title>，都立本性住（<foreign xml:lang="sa">prakṛtistha</foreign>）與習所成
 <lb n="0142a06" ed="Y"/>（<foreign xml:lang="sa">samudānīta</foreign>）二類。<title level="m">《攝大乘論》</title>以為種子是由熏習所成的，眾生從來沒有無漏心
 <lb n="0142a07" ed="Y"/>，怎能有本有無漏種（「本性住」）呢？所以提出了無漏新熏說。如<title level="m">《論》</title>說：</p>
-<lb n="0142a08" ed="Y"/><quote><p style="margin-left:3em">此出世心從何因生？汝今應答：最清淨法界所流，正聞熏習為種子故，出
+<lb n="0142a08" ed="Y"/><quote><p xml:id="pY43p0142a0801" style="margin-left:3em">此出世心從何因生？汝今應答：最清淨法界所流，正聞熏習為種子故，出
 <lb n="0142a09" ed="Y"/>世心得生。</p></quote>
-<lb n="0142a10" ed="Y"/><quote><p style="margin-left:3em">此聞慧種子以何法為依止？至諸佛無上菩提位，是聞慧熏習生，隨在一依
+<lb n="0142a10" ed="Y"/><quote><p xml:id="pY43p0142a1001" style="margin-left:3em">此聞慧種子以何法為依止？至諸佛無上菩提位，是聞慧熏習生，隨在一依
 <lb n="0142a11" ed="Y"/>止處，此中共果報識俱生，譬如水乳。此聞熏習即非本識，已成此識對治
 <lb n="0142a12" ed="Y"/>種子。……是聞熏習，若下中上品，應知是法身種子；由對治阿黎耶識生
 <pb n="0143a" ed="Y" xml:id="Y43.0041.0143a"/>
 <lb n="0143a01" ed="Y"/>，是故不入阿黎耶性攝。</p></quote>
-<lb n="0143a02" ed="Y"/><quote><p style="margin-left:3em">此聞熏習，雖是世間法，初修觀菩薩所得，應知此屬法身攝。<note n="0143037" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:31;page:p117a">三一，頁一一七上</ref>。</note></p></quote>
-<lb n="0143a03" ed="Y"/><p style="text-indent:2em">依<title level="m">《攝大乘論》</title>說，種子是由熏習（<foreign xml:lang="x-sa-pi">vāsanā</foreign>）而有的。凡愚眾生一向只是有
+<lb n="0143a02" ed="Y"/><quote><p xml:id="pY43p0143a0201" style="margin-left:3em">此聞熏習，雖是世間法，初修觀菩薩所得，應知此屬法身攝。<note n="0143037" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:31;page:p117a" type="taisho">三一，頁一一七上</ref>。</note></p></quote>
+<lb n="0143a03" ed="Y"/><p xml:id="pY43p0143a0301" style="text-indent:2em">依<title level="m">《攝大乘論》</title>說，種子是由熏習（<foreign xml:lang="x-sa-pi">vāsanā</foreign>）而有的。凡愚眾生一向只是有
 <lb n="0143a04" ed="Y"/>漏心，所以不可能成立本有無漏種的。這樣，出世的無漏心，從何而生起呢？<cit><bibl><title level="m">《
 <lb n="0143a05" ed="Y"/>攝論》</title>提出一項意見：</bibl><quote>「最清淨法界所流（等流），正聞熏習為種子故，此出世
 <lb n="0143a06" ed="Y"/>心得生」</quote></cit>。法界（<foreign xml:lang="sa">dharma-dhātu</foreign>）是真如（<foreign xml:lang="x-sa-pi">tathatā</foreign>）的異名。眾生位中，雖因
@@ -344,15 +364,15 @@
 <lb n="0144a04" ed="Y"/>識的，那眾生的聞熏習，依止在那裡？<cit><bibl><title level="m">《攝論》</title>還是說：聞熏習</bibl><quote>「共業報識俱生
 <lb n="0144a05" ed="Y"/>」</quote></cit>；不過說了善巧的譬喻，如乳不是水，卻能依水而水乳交融。但性質不同，終
 <lb n="0144a06" ed="Y"/>究要達到斷除阿黎耶識的目的，這如水乳交融，如鵝飲乳而水卻被棄了。</p>
-<lb n="0144a07" ed="Y"/><p style="text-indent:2em"><quote>「最清淨法界等流」</quote>——教法，是真實性。聽聞而正確理解的，是耳識與意
+<lb n="0144a07" ed="Y"/><p xml:id="pY43p0144a0701" style="text-indent:2em"><quote>「最清淨法界等流」</quote>——教法，是真實性。聽聞而正確理解的，是耳識與意
 <lb n="0144a08" ed="Y"/>識，是依他（起）性（<foreign xml:lang="sa">paratantra-svabhāva</foreign>）——虛妄分別。虛妄的耳識、意
 <lb n="0144a09" ed="Y"/>識，受真實的教法影響，而成<quote>「正聞熏習」</quote>，這不是真實熏習虛妄，於虛妄識中
 <lb n="0144a10" ed="Y"/>有了真實性的聞熏習嗎？其實，真能熏妄，在真常的大乘經中，都是肯認的。真
 <lb n="0144a11" ed="Y"/>諦的<title level="m">《攝大乘論釋》</title>說：</p>
-<lb n="0144a12" ed="Y"/><quote><p style="margin-left:3em">如經言：世尊！若如來藏非有，於苦無厭惡，於涅槃無欲樂願。<note n="0144038" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:31;page:p157a">三一，頁一五七上</ref>。</note></p></quote>
-<lb n="0144a13" ed="Y"/><p style="text-indent:2em">真諦所引述的，是<quote><title level="m">《大寶積經》</title>（四八）<title level="a">〈勝鬘夫人會〉</title></quote>（<title level="m">《楞伽經》</title>也引
+<lb n="0144a12" ed="Y"/><quote><p xml:id="pY43p0144a1201" style="margin-left:3em">如經言：世尊！若如來藏非有，於苦無厭惡，於涅槃無欲樂願。<note n="0144038" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:31;page:p157a" type="taisho">三一，頁一五七上</ref>。</note></p></quote>
+<lb n="0144a13" ed="Y"/><p xml:id="pY43p0144a1301" style="text-indent:2em">真諦所引述的，是<quote><title level="m">《大寶積經》</title>（四八）<title level="a">〈勝鬘夫人會〉</title></quote>（<title level="m">《楞伽經》</title>也引
 <pb n="0145a" ed="Y" xml:id="Y43.0041.0145a"/>
-<lb n="0145a01" ed="Y"/>用<title level="m">《勝鬘經》</title>說）。<note n="0145039" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:11;page:p677c">一一，頁六七七下</ref>。</note>依經說：眾生的所以能<quote>「厭生死苦，樂欲涅槃」</quote>，是常住
+<lb n="0145a01" ed="Y"/>用<title level="m">《勝鬘經》</title>說）。<note n="0145039" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:11;page:p677c" type="taisho">一一，頁六七七下</ref>。</note>依經說：眾生的所以能<quote>「厭生死苦，樂欲涅槃」</quote>，是常住
 <lb n="0145a02" ed="Y"/>不變如來藏的作用。因為生滅無常的六識（或七識），不能保持善惡業，也不能
 <lb n="0145a03" ed="Y"/>保持過去的經驗，「剎那不住」的，怎能有厭生死而樂欲涅槃的願望。由於如來
 <lb n="0145a04" ed="Y"/>藏常住不變，能保持善惡業，而有受生死苦的可能；能保持過去的經驗，才能在
@@ -362,12 +382,12 @@
 <lb n="0145a08" ed="Y"/>真）我（<foreign xml:lang="sa">ātman</foreign>）的異名，而唯識學者以真如、法界去解說、會通，但多少存有
 <lb n="0145a09" ed="Y"/>異義。真諦的思想，是依<title level="m">《阿毘達磨大乘經》</title>，達成融會的目的，但在純正的唯
 <lb n="0145a10" ed="Y"/>識學者，就不免要異議了！</p>
-<lb n="0145a11" ed="Y"/><p style="text-indent:2em"><title level="m">《攝大乘論》</title>的無漏新熏說，也是引用<title level="m">《阿毘達磨大乘經》</title>的。<title level="m">《攝大乘論
+<lb n="0145a11" ed="Y"/><p xml:id="pY43p0145a1101" style="text-indent:2em"><title level="m">《攝大乘論》</title>的無漏新熏說，也是引用<title level="m">《阿毘達磨大乘經》</title>的。<title level="m">《攝大乘論
 <lb n="0145a12" ed="Y"/>》</title>在說到真實性時，說四種清淨，如<title level="m">《論》</title>說：</p>
-<lb n="0145a13" ed="Y"/><quote><p style="margin-left:3em">此中有偈：幻等顯依他；說無顯分別；若說四清淨，此說屬真實。清淨由
+<lb n="0145a13" ed="Y"/><quote><p xml:id="pY43p0145a1301" style="margin-left:3em">此中有偈：幻等顯依他；說無顯分別；若說四清淨，此說屬真實。清淨由
 <pb n="0146a" ed="Y" xml:id="Y43.0041.0146a"/>
-<lb n="0146a01" ed="Y"/>本性、無垢、道、緣緣：一切清淨法，四皆攝品類。<note n="0146040" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:31;page:p120c">三一，頁一二〇下</ref>。</note></p></quote>
-<lb n="0146a02" ed="Y"/><p style="text-indent:2em"><cit><bibl><title level="m">《攝論》</title>但說</bibl><quote>「此中有偈」</quote></cit>，然依安慧（<foreign xml:lang="sa">Sthiramati</foreign>）<title level="m">《中邊分別論疏》</title>，
+<lb n="0146a01" ed="Y"/>本性、無垢、道、緣緣：一切清淨法，四皆攝品類。<note n="0146040" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:31;page:p120c" type="taisho">三一，頁一二〇下</ref>。</note></p></quote>
+<lb n="0146a02" ed="Y"/><p xml:id="pY43p0146a0201" style="text-indent:2em"><cit><bibl><title level="m">《攝論》</title>但說</bibl><quote>「此中有偈」</quote></cit>，然依安慧（<foreign xml:lang="sa">Sthiramati</foreign>）<title level="m">《中邊分別論疏》</title>，
 <lb n="0146a03" ed="Y"/>這二頌是引<title level="m">《阿毘達磨大乘經》</title>的。真實性有四種清淨：一、「本性」清淨；二
 <lb n="0146a04" ed="Y"/>、「無垢」清淨，是瑜伽行派所共說的。三、「道」清淨，<cit><bibl><title level="m">《釋論》</title>作</bibl><quote>「至得道
 <lb n="0146a05" ed="Y"/>」</quote></cit>清淨，是般若（等）波羅蜜，及（四）念處等助道門。四、「緣緣」清淨，<cit><bibl><title level="m">《
@@ -375,27 +395,27 @@
 <lb n="0146a07" ed="Y"/>法的所緣境。四清淨出於<title level="m">《阿毘達磨大乘經》</title>，可見法界等流引生的聞熏習，也
 <lb n="0146a08" ed="Y"/>是出於這部經了。<title level="m">《攝大乘論》</title>特有的教義，可說都是本於這部經的。</p></cb:div>
 <lb n="0146a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">四　多心論與一意識師</cb:mulu><head>四　多心論與一意識師</head>
-<lb n="0146a10" ed="Y"/><p style="text-indent:2em"><title level="m">《攝大乘論》</title>的<title level="a">〈依止勝相品〉</title>，以阿黎耶識（<foreign xml:lang="sa">ālaya-vijñāna</foreign>）為染淨依：
+<lb n="0146a10" ed="Y"/><p xml:id="pY43p0146a1001" style="text-indent:2em"><title level="m">《攝大乘論》</title>的<title level="a">〈依止勝相品〉</title>，以阿黎耶識（<foreign xml:lang="sa">ālaya-vijñāna</foreign>）為染淨依：
 <lb n="0146a11" ed="Y"/>世間的雜染法，世間與出世間的清淨法，非依阿黎耶識不能成立；說心、意、識
-<lb n="0146a12" ed="Y"/>時，說到染汙意（<foreign xml:lang="sa"><note n="0146a1201" resp="CBETA" type="add">kliṣṭa-manas【CB】，Kliṣṭa-manas【印順】</note><app n="0146a1201"><lem wit="【CB】" resp="正聞出版社">kliṣṭa-manas</lem><rdg wit="【印順】">Kliṣṭa-manas</rdg></app></foreign>）——第七末那識（<foreign xml:lang="sa">mano-vijñāna</foreign>）成立的理
+<lb n="0146a12" ed="Y"/>時，說到染汙意（<foreign xml:lang="sa"><note n="0146a1201" resp="CBETA" type="add">kliṣṭa-manas【CB】，Kliṣṭa-manas【印順】</note><app n="0146a1201"><lem resp="正聞出版社" wit="【CB】">kliṣṭa-manas</lem><rdg wit="【印順】">Kliṣṭa-manas</rdg></app></foreign>）——第七末那識（<foreign xml:lang="sa">mano-vijñāna</foreign>）成立的理
 <pb n="0147a" ed="Y" xml:id="Y43.0041.0147a"/>
 <lb n="0147a01" ed="Y"/>由；又處處說六識：這明顯的是八識差別論者。<title level="a">〈應知勝相品〉</title>中，安立十一識
 <lb n="0147a02" ed="Y"/>或四識，成立唯識（唯量、唯二、種種）後，又有<quote>「諸師說：此意識隨種種依止
-<lb n="0147a03" ed="Y"/>生起，得種種名」</quote>一段，<note n="0147041" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:31;page:p119a">三一，頁一一九上</ref>。</note>這是一意識師。「一心論」與「多心論」，在部派佛
+<lb n="0147a03" ed="Y"/>生起，得種種名」</quote>一段，<note n="0147041" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:31;page:p119a" type="taisho">三一，頁一一九上</ref>。</note>這是一意識師。「一心論」與「多心論」，在部派佛
 <lb n="0147a04" ed="Y"/>教中，成為對立的學派。「一心論」與<title level="m">《大毘婆沙論》</title>的「一心相續論者」相近
 <lb n="0147a05" ed="Y"/>。依「一心論」，依根對境不同而說為六識，其實只是一意識的相續。<title level="m">《攝論》</title>
 <lb n="0147a06" ed="Y"/>所說的一意識師，引經也還是<title level="m">《法句》</title>與<title level="m">《阿含》</title>。但真諦譯<cit><bibl><title level="m">《攝大乘論釋》</title>說
 <lb n="0147a07" ed="Y"/>：</bibl><quote>「諸師，謂諸菩薩」</quote></cit>。<title level="m">《攝論》</title>所引述的一意識師，顯然是當時的大乘學的一
 <lb n="0147a08" ed="Y"/>流。玄奘譯的<cit><bibl><title level="m">《攝大乘論（世親）釋》</title>說：</bibl><quote>「非離意識別有餘識，唯除別有阿賴
-<lb n="0147a09" ed="Y"/>耶識」</quote></cit>。<note n="0147042" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref type="taisho" target="#vol:31;page:p339c">三一，頁三三九下</ref>。</note>真諦譯作<quote>「此中更無餘識異於意識，離阿黎耶識。此本識入意識攝，
+<lb n="0147a09" ed="Y"/>耶識」</quote></cit>。<note n="0147042" resp="釋印順" type="orig"><title>《大正藏》</title>卷<ref target="#vol:31;page:p339c" type="taisho">三一，頁三三九下</ref>。</note>真諦譯作<quote>「此中更無餘識異於意識，離阿黎耶識。此本識入意識攝，
 <lb n="0147a10" ed="Y"/>以同類故」</quote>。阿黎耶識含攝在意識中，真諦的見解，是偏向一意識師的。這類大
 <lb n="0147a11" ed="Y"/>乘的一意識師，也是成立唯識的。<title level="m">《攝大乘論》</title>是多心論者，又引述一意識師，
 <lb n="0147a12" ed="Y"/>並存而沒有加以抉擇取捨，這是很不尋常的！這可能是：八識差別是《<bibl><title level="m">瑜伽師地
 <lb n="0147a13" ed="Y"/>論</title>．<title level="a">本地分</title>》</bibl>的傳統，而一心論的唯識學者，是<title level="m">《阿毘達磨大乘經》</title>的一流。從
 <pb n="0148a" ed="Y" xml:id="Y43.0041.0148a"/>
 <lb n="0148a01" ed="Y"/>論文的內容看來，在一意識師成立唯識下，引用<cit><bibl><title level="m">《阿毘達磨大乘經》</title>的</bibl><quote>「四法相
-<lb n="0148a02" ed="Y"/>應，能尋能入一切識無塵」</quote></cit>，一意識說極可能是<title level="m">《阿毘達磨大乘經》</title>的。<note n="0148043" resp="釋印順" type="orig">上來引用真諦的<title level="m">《攝大乘論釋》</title>，見<title>《大正藏》</title>卷<ref type="taisho" target="#vol:31;page:p185a">三一，頁一八五上</ref>——下。</note></p>
-<lb n="0148a03" ed="Y"/><p style="text-indent:2em"><title level="m">《攝論》</title>一意識的唯識大乘，對<title level="m">《起信論》</title>作者，是有<note n="0148a0301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0148a0301"><lem wit="【CB】" resp="CBETA">啟</lem><rdg wit="【印順】">啓</rdg></app>發性的。<title level="m">《起信論
+<lb n="0148a02" ed="Y"/>應，能尋能入一切識無塵」</quote></cit>，一意識說極可能是<title level="m">《阿毘達磨大乘經》</title>的。<note n="0148043" resp="釋印順" type="orig">上來引用真諦的<title level="m">《攝大乘論釋》</title>，見<title>《大正藏》</title>卷<ref target="#vol:31;page:p185a" type="taisho">三一，頁一八五上</ref>——下。</note></p>
+<lb n="0148a03" ed="Y"/><p xml:id="pY43p0148a0301" style="text-indent:2em"><title level="m">《攝論》</title>一意識的唯識大乘，對<title level="m">《起信論》</title>作者，是有<note n="0148a0301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0148a0301"><lem resp="CBETA" wit="【CB】">啟</lem><rdg wit="【印順】">啓</rdg></app>發性的。<title level="m">《起信論
 <lb n="0148a04" ed="Y"/>》</title>的心——阿黎耶識，意——業識、轉識、現識、智識、相續識，意識（六識）
 <lb n="0148a05" ed="Y"/>——分別事識。這些名詞，是從魏譯<title level="m">《楞伽經》</title>來的，然作為先後次第的生起，
 <lb n="0148a06" ed="Y"/>意趣與一意識師相同。我曾聯想到：一、僧伽婆羅（<foreign xml:lang="sa">Saṅghapāla</foreign>）所譯的<title level="m">《解脫
@@ -405,10 +425,10 @@
 <lb n="0148a10" ed="Y"/>與轉識，決定心與現識，染淨心與智識，等流心與相續識。從細到粗，從認識到
 <lb n="0148a11" ed="Y"/>動作，各論都有此前後發展的傾向。魏譯<title level="m">《楞伽》</title>，不是<title level="m">《起信論》</title>的唯一依據
 <lb n="0148a12" ed="Y"/>；可說<title level="m">《起信論》</title>是博采眾說，而自成體系的。可參閱拙作<title level="m">《大乘起信論講記》</title>
-<lb n="0148a13" ed="Y"/>。<note n="0148044" resp="釋印順" type="orig"><title level="m">《大乘起信論講記》</title>，頁<ref type="yinshun" target="#vol:7;page:p172">一七二</ref>——一八三。</note></p></cb:div></cb:div>
+<lb n="0148a13" ed="Y"/>。<note n="0148044" resp="釋印順" type="orig"><title level="m">《大乘起信論講記》</title>，頁<ref target="#vol:7;page:p172" type="yinshun">一七二</ref>——一八三。</note></p></cb:div></cb:div>
 <pb n="0149a" ed="Y" xml:id="Y43.0041.0149a"/>
 <lb n="0149a01" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">四　結論</cb:mulu><head>四　結論</head>
-<lb n="0149a02" ed="Y"/><p style="text-indent:2em">佛教的傳來中國，一向著重於經西域傳來的，其實從南方海道來的，影響中
+<lb n="0149a02" ed="Y"/><p xml:id="pY43p0149a0201" style="text-indent:2em">佛教的傳來中國，一向著重於經西域傳來的，其實從南方海道來的，影響中
 <lb n="0149a03" ed="Y"/>國佛教也相當的大！我因為不能同情支那內學院，偏宗唐玄奘所傳，護法
 <lb n="0149a04" ed="Y"/>（<foreign xml:lang="sa">Dharmapāla</foreign>）、戒賢（<foreign xml:lang="sa">Śīlabhadra</foreign>）一系的唯識學，對<title level="m">《大乘起信論》</title>作否定的
 <lb n="0149a05" ed="Y"/>攻訐，所以民國三十九年，講<title level="m">《大乘起信論》</title>，記錄成<title level="m">《大乘起信論講記》</title>，曾
@@ -431,8 +451,8 @@
 <lb n="0150a09" ed="Y"/>唯心思想的大成。在思想演進過程中，<title level="m">《阿毘達磨大乘經》</title>與<title level="m">《攝大乘論》</title>，起
 <lb n="0150a10" ed="Y"/>著中介的作用。真諦是一位虛妄唯識論者，但贊同<title level="m">《阿毘達磨大乘經》</title>與<title level="m">《攝大
 <lb n="0150a11" ed="Y"/>乘論》</title>的思想傾向，所以在他的譯典中，多少引入真常論的思想；也以妄識為依
-<lb n="0150a12" ed="Y"/>止的思想，融入真常論中，如拙作<title level="m">《如來藏之研究》</title>所說。<note n="0150045" resp="釋印順" type="orig"><title level="m">《如來藏之研究》</title>，頁<ref type="yinshun" target="#vol:39;page:p207">二〇七</ref>——二三五。</note></p>
-<lb n="0150a13" ed="Y"/><p style="text-indent:2em">真諦在陳太建元年（西元五六九）入滅。在真諦生前，他的眾多譯典，大多
+<lb n="0150a12" ed="Y"/>止的思想，融入真常論中，如拙作<title level="m">《如來藏之研究》</title>所說。<note n="0150045" resp="釋印順" type="orig"><title level="m">《如來藏之研究》</title>，頁<ref target="#vol:39;page:p207" type="yinshun">二〇七</ref>——二三五。</note></p>
+<lb n="0150a13" ed="Y"/><p xml:id="pY43p0150a1301" style="text-indent:2em">真諦在陳太建元年（西元五六九）入滅。在真諦生前，他的眾多譯典，大多
 <pb n="0151a" ed="Y" xml:id="Y43.0041.0151a"/>
 <lb n="0151a01" ed="Y"/>流行在嶺南。到隋代（西元五八九）完成了南北統一的大業，因北周滅法（西元
 <lb n="0151a02" ed="Y"/>五七四——五七七）而南下的僧侶，才帶著梁陳（主要是扶南來）的譯典，傳入

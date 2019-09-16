@@ -12,49 +12,69 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/11</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/11</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>14卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 14, No. 14</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">14</idno>.<idno type="no">14</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛在人間</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十、佛教的知識觀</cb:mulu><cb:mulu level="2" type="其他">三　現代知識應有之反省</cb:mulu>
-<milestone unit="juan" n="11"/><pb n="0297a" ed="Y" xml:id="Y14.0014.0297a.old" type="old"/>
+<milestone n="11" unit="juan"/><pb n="0297a" ed="Y" xml:id="Y14.0014.0297a.old" type="old"/>
 <pb n="0297a" ed="Y" xml:id="Y14.0014.0297a"/>
 <lb n="0297a01" ed="Y"/><lb n="0297a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十一、佛教的戰鬥觀</cb:mulu><head>佛教的戰鬥觀<note n="0297001" resp="DILA" type="add">民國四四年講。</note></head>
-<lb n="0297a02" ed="Y"/><lb n="0297a02" ed="Y" type="old"/><p style="text-indent:2em">世間是不息的生命洪流，個體生命的保持，種族生命的嗣續，無限生命的渴
+<lb n="0297a02" ed="Y"/><lb n="0297a02" ed="Y" type="old"/><p xml:id="pY14p0297a0201" style="text-indent:2em">世間是不息的生命洪流，個體生命的保持，種族生命的嗣續，無限生命的渴
 <lb n="0297a03" ed="Y"/><lb n="0297a03" ed="Y" type="old"/>望，這生命洪流的奔放，就是世間的一切又實相。一切眾生，眾生中的人類，充
 <lb n="0297a04" ed="Y"/><lb n="0297a04" ed="Y" type="old"/>滿了喜樂自由生存的熱情，它有內我的渴愛（自體愛），境界的貪戀（境界愛）
 <lb n="0297a05" ed="Y"/><lb n="0297a05" ed="Y" type="old"/>，無限生存的欲望（後有愛），它的一切活動，無不以和樂的生存作中心。但是
@@ -63,7 +83,7 @@
 <lb n="0297a08" ed="Y"/><lb n="0297a08" ed="Y" type="old"/>說：</bibl><quote source="T01n0026_p0585a18-26" type="寬鬆引文">「以欲為本故，母共子諍，子共母諍，父子兄弟姊妹親族展轉共諍，更相說
 <lb n="0297a09" ed="Y"/><lb n="0297a09" ed="Y" type="old"/>惡，況復他人？……以欲為本故，民民共諍，國國共諍，彼因鬥爭共相憎故，以
 <lb n="0297a10" ed="Y"/><lb n="0297a10" ed="Y" type="old"/>種種器仗展轉相害。」</quote><note n="0297002" resp="謝淑歆" type="add">《中阿含經》卷25〈4 因品〉(CBETA, T01, no. 26, p. 585, a18-26)</note></cit></p>
-<lb n="0297a11" ed="Y"/><lb n="0297a11" ed="Y" type="old"/><p style="text-indent:2em">這生命中心的人間世，或見到它的和諧，於是乎說<quote type="嚴謹引文">「天地之大德曰生」</quote>、<pb n="0298a" ed="Y" xml:id="Y14.0014.0298a.old" type="old"/><lb n="0298a01" ed="Y" type="old"/><quote type="嚴謹引文">「
+<lb n="0297a11" ed="Y"/><lb n="0297a11" ed="Y" type="old"/><p xml:id="pY14p0297a1101" style="text-indent:2em">這生命中心的人間世，或見到它的和諧，於是乎說<quote type="嚴謹引文">「天地之大德曰生」</quote>、<pb n="0298a" ed="Y" xml:id="Y14.0014.0298a.old" type="old"/><lb n="0298a01" ed="Y" type="old"/><quote type="嚴謹引文">「
 <pb n="0298a" ed="Y" xml:id="Y14.0014.0298a"/>
 <lb n="0298a01" ed="Y"/>上帝愛世人」</quote>；或見到它的凌奪，於是乎說<quote type="嚴謹引文">「天地不仁」</quote>、<quote>「真理就是不和<lb n="0298a02" ed="Y" type="old"/>」</quote>。
 <lb n="0298a02" ed="Y"/>在佛教的見地看來，這是生命流的兩極，是不相離的生命內在的本質。這世<lb n="0298a03" ed="Y" type="old"/>間雖
@@ -75,7 +95,7 @@
 <lb n="0298a08" ed="Y"/>行無常故，一切諸行變易法故，說諸所有受悉皆是苦。」</quote><note n="0298001" resp="謝淑歆" type="add">《雜阿含經》卷17(CBETA, T02, no. 99, p. 121, a9-11)</note></cit>有樂必有苦，有愛<lb n="0298a09" ed="Y" type="old"/>必有
 <lb n="0298a09" ed="Y"/>瞋，你要求生存就不能避免鬥爭，這是世間的實相。如果是世間，世間永遠<lb n="0298a10" ed="Y" type="old"/>是這
 <lb n="0298a10" ed="Y"/>樣，除非你能截斷要津，破網而遊！</p>
-<lb n="0298a11" ed="Y"/><lb n="0298a11" ed="Y" type="old"/><p style="text-indent:2em"><quote type="嚴謹引文">「諸行無常」</quote>、<quote type="嚴謹引文">「諸受是苦」</quote>、<quote type="嚴謹引文">「諸法無我」</quote>，這在世間的學者，也多少有
+<lb n="0298a11" ed="Y"/><lb n="0298a11" ed="Y" type="old"/><p xml:id="pY14p0298a1101" style="text-indent:2em"><quote type="嚴謹引文">「諸行無常」</quote>、<quote type="嚴謹引文">「諸受是苦」</quote>、<quote type="嚴謹引文">「諸法無我」</quote>，這在世間的學者，也多少有
 <lb n="0298a12" ed="Y"/><lb n="0298a12" ed="Y" type="old"/>所窺見。但他們，不走上悲觀縱欲與自殺；就走上殘酷、陰險。古代的道家、法
 <lb n="0298a13" ed="Y"/><lb n="0298a13" ed="Y" type="old"/>家，近代唯物論者的促進矛盾，就是一個例子。然而佛教，在第一義的理智生活<pb n="0299a" ed="Y" xml:id="Y14.0014.0299a.old" type="old"/>
 <pb n="0299a" ed="Y" xml:id="Y14.0014.0299a"/>
@@ -93,7 +113,7 @@
 <lb n="0299a12" ed="Y"/><lb n="0299a12" ed="Y" type="old"/>，世間不能圓滿，但非追求和樂的共存不可。唯其世間不能圓滿，才有更進一層
 <lb n="0299a13" ed="Y"/><lb n="0299a13" ed="Y" type="old"/>的必要，不然世間將永遠是如此。</p><pb n="0300a" ed="Y" xml:id="Y14.0014.0300a.old" type="old"/>
 <pb n="0300a" ed="Y" xml:id="Y14.0014.0300a"/>
-<lb n="0300a01" ed="Y"/><lb n="0300a01" ed="Y" type="old"/><p style="text-indent:2em">和樂共存，不論它有否絕對性、可能性，它永遠是人類的共欲，是人生歷程
+<lb n="0300a01" ed="Y"/><lb n="0300a01" ed="Y" type="old"/><p xml:id="pY14p0300a0101" style="text-indent:2em">和樂共存，不論它有否絕對性、可能性，它永遠是人類的共欲，是人生歷程
 <lb n="0300a02" ed="Y"/><lb n="0300a02" ed="Y" type="old"/>中的正軌。照樣的，不論鬥爭是否罪惡，是否可以完全消除，它也永遠是世間的
 <lb n="0300a03" ed="Y"/><lb n="0300a03" ed="Y" type="old"/>實相，與生命同其終始。佛法倡導讚歎和樂共存的道德，對鬥爭確乎不敢提倡，
 <lb n="0300a04" ed="Y"/><lb n="0300a04" ed="Y" type="old"/>從沒有把戰爭描寫為光明與美麗，但它是世間相的一角，釋尊並不一概抹煞它。
@@ -109,7 +129,7 @@
 <pb n="0301a" ed="Y" xml:id="Y14.0014.0301a"/>
 <lb n="0301a01" ed="Y"/><lb n="0301a01" ed="Y" type="old"/>不一定咒詛它，而且還承認它的正當。有一回，有一軍人在行軍前去向佛辭行，
 <lb n="0301a02" ed="Y"/><lb n="0301a02" ed="Y" type="old"/>釋尊說：<quote type="嚴謹引文">「汝等之身，受王俸祿，所作當然，此事佳善！」<note n="0301001" resp="厚觀法師" type="add">《生經》卷5(CBETA, T03, no. 154, p. 102, a21-22)</note></quote><bibl>（<title level="m">《生經》</title>）</bibl></p>
-<lb n="0301a03" ed="Y"/><lb n="0301a03" ed="Y" type="old"/><p style="text-indent:2em">凌奪是世間的實相，戰鬥是人間常事，釋尊不否定戰爭，問題在怎樣才需要
+<lb n="0301a03" ed="Y"/><lb n="0301a03" ed="Y" type="old"/><p xml:id="pY14p0301a0301" style="text-indent:2em">凌奪是世間的實相，戰鬥是人間常事，釋尊不否定戰爭，問題在怎樣才需要
 <lb n="0301a04" ed="Y"/><lb n="0301a04" ed="Y" type="old"/>戰爭，要怎樣戰爭。為掠奪爭霸而發動的侵略戰，自然是佛教所反對的。反之，
 <lb n="0301a05" ed="Y"/><lb n="0301a05" ed="Y" type="old"/>在被侵略方面，釋尊本身就曾教他們備戰。釋尊在世的時候，中印摩竭陀是新興
 <lb n="0301a06" ed="Y"/><lb n="0301a06" ed="Y" type="old"/>的國家，毘舍離的離車人，成為摩竭陀攻略的對象。他們向釋尊訴苦，憂慮摩竭
@@ -128,7 +148,7 @@
 <lb n="0302a05" ed="Y"/>說「折伏」。一個瘋人，他毀害一切甚至凌辱醫生，醫生的目的，唯在拯救他<lb n="0302a06" ed="Y" type="old"/>的
 <lb n="0302a06" ed="Y"/>病苦，是不會因他的凌辱而憤怒怨恨的。醫生使病人感受些苦痛，或服藥，或<lb n="0302a07" ed="Y" type="old"/>針
 <lb n="0302a07" ed="Y"/>灸剖割，這決不是報仇、苦治病人，目的在解救病人。</p>
-<lb n="0302a08" ed="Y"/><lb n="0302a08" ed="Y" type="old"/><p style="text-indent:2em">我中華民族，為了爭取民族的自由與生存，正進行反侵略的戰爭。這一戰，
+<lb n="0302a08" ed="Y"/><lb n="0302a08" ed="Y" type="old"/><p xml:id="pY14p0302a0801" style="text-indent:2em">我中華民族，為了爭取民族的自由與生存，正進行反侵略的戰爭。這一戰，
 <lb n="0302a09" ed="Y"/><lb n="0302a09" ed="Y" type="old"/>自然是志在摧破日本軍閥的瘋狂，而不是仇恨全體的日人。要抗戰到日本軍閥統
 <lb n="0302a10" ed="Y"/><lb n="0302a10" ed="Y" type="old"/>治力的崩潰，進而與愛好和平的日人，確立其和樂共存永久的友誼。每個為民族
 <lb n="0302a11" ed="Y"/><lb n="0302a11" ed="Y" type="old"/>而戰鬥的勇士，要深切顧念國族所遭受的慘重的損失，更應顧念那日本軍閥宰割

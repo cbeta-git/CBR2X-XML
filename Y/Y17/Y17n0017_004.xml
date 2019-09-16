@@ -12,62 +12,82 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2012/07</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2012/07</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>6卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 17, No. 17</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>6卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">17</idno>.<idno type="no">17</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">淨土與禪</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">三、求生天國與往生淨土</cb:mulu>
-<milestone unit="juan" n="4"/><pb n="0131a" ed="Y" xml:id="Y17.0017.0131a.old" type="old"/>
+<milestone n="4" unit="juan"/><pb n="0131a" ed="Y" xml:id="Y17.0017.0131a.old" type="old"/>
 <pb n="0131a" ed="Y" xml:id="Y17.0017.0131a"/>
 <lb n="0131a01" ed="Y"/><lb n="0131a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">四、東方淨土發微</cb:mulu><head>東方淨土發微<note n="0131001" resp="DILA" type="add">民國五一年講。</note></head>
 <lb n="0131a02" ed="Y"/><lb n="0131a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　引言</cb:mulu><head>一　引言</head>
 <lb n="0131a03" ed="Y"/><lb n="0131a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">一　講說的動機</cb:mulu><head>一　講說的動機</head>
-<lb n="0131a04" ed="Y"/><lb n="0131a04" ed="Y" type="old"/><p style="text-indent:2em">佛教界所熟知的淨土，主要是西方阿彌陀佛的極樂世界——西方淨土。在佛
+<lb n="0131a04" ed="Y"/><lb n="0131a04" ed="Y" type="old"/><p xml:id="pY17p0131a0401" style="text-indent:2em">佛教界所熟知的淨土，主要是西方阿彌陀佛的極樂世界——西方淨土。在佛
 <lb n="0131a05" ed="Y"/><lb n="0131a05" ed="Y" type="old"/>經中，十方都有淨土；而與西方彌陀淨土相對的，有藥師琉璃光如來的淨琉璃世
 <lb n="0131a06" ed="Y"/><lb n="0131a06" ed="Y" type="old"/>界——東方淨土。關於東方淨土，過去曾說過二次。民國四十三年秋，在臺北善
 <lb n="0131a07" ed="Y"/><lb n="0131a07" ed="Y" type="old"/>導寺講<title level="m">《藥師經》</title>，啟建藥師法會；記錄下來的，有<title level="m">《藥師經講記》</title>。民國四十
 <lb n="0131a08" ed="Y"/><lb n="0131a08" ed="Y" type="old"/>七年夏天，在馬尼拉信願寺，為性願老法師祝壽，又講經一次。有<title level="a">〈藥師經開題
-<lb n="0131a09" ed="Y"/><lb n="0131a09" ed="Y" type="old"/>〉</title>，發表於<title level="j"><note n="0131a0901" resp="CBETA" type="add" subtype="規範字詞">海潮音月刊【CB】，海刊【印順】</note><app n="0131a0901"><lem wit="【CB】" resp="CBETA">《海潮音》月刊</lem><rdg wit="【印順】">《海刊》</rdg></app></title>。去年，在臺北慧日講堂，啟建藥師法會，對東方淨土，又
+<lb n="0131a09" ed="Y"/><lb n="0131a09" ed="Y" type="old"/>〉</title>，發表於<title level="j"><note n="0131a0901" resp="CBETA" type="add" subtype="規範字詞">海潮音月刊【CB】，海刊【印順】</note><app n="0131a0901"><lem resp="CBETA" wit="【CB】">《海潮音》月刊</lem><rdg wit="【印順】">《海刊》</rdg></app></title>。去年，在臺北慧日講堂，啟建藥師法會，對東方淨土，又
 <lb n="0131a10" ed="Y"/><lb n="0131a10" ed="Y" type="old"/>多一層體會。所以，過去雖一再講說，覺得還有再說的必要。</p><pb n="0132a" ed="Y" xml:id="Y17.0017.0132a.old" type="old"/>
 <pb n="0132a" ed="Y" xml:id="Y17.0017.0132a"/>
-<lb n="0132a01" ed="Y"/><lb n="0132a01" ed="Y" type="old"/><p style="text-indent:2em">東方淨土，不如西方淨土的專重於死後往生。不但說到死後往生淨土，說到
+<lb n="0132a01" ed="Y"/><lb n="0132a01" ed="Y" type="old"/><p xml:id="pY17p0132a0101" style="text-indent:2em">東方淨土，不如西方淨土的專重於死後往生。不但說到死後往生淨土，說到
 <lb n="0132a02" ed="Y"/><lb n="0132a02" ed="Y" type="old"/>蒙佛力加被，死後消除惡業，生人天而修學大乘；更特別重視了現生的利益安樂
 <lb n="0132a03" ed="Y"/><lb n="0132a03" ed="Y" type="old"/>。這對於大乘菩薩利益現實人間的精神，有著很好的啟發，故值得一說再說。</p>
-<lb n="0132a04" ed="Y"/><lb n="0132a04" ed="Y" type="old"/><p style="text-indent:2em">還有，解說這個問題的另一動機，是在最近天主教主辦的<title level="j">《<note n="0132a0401" resp="CBETA" type="add" subtype="規範字詞">恒【CB】，恆【印順】</note><app n="0132a0401"><lem wit="【CB】" resp="CBETA">恒</lem><rdg wit="【印順】">恆</rdg></app>毅雜誌》</title>中，
+<lb n="0132a04" ed="Y"/><lb n="0132a04" ed="Y" type="old"/><p xml:id="pY17p0132a0401" style="text-indent:2em">還有，解說這個問題的另一動機，是在最近天主教主辦的<title level="j">《<note n="0132a0401" resp="CBETA" type="add" subtype="規範字詞">恒【CB】，恆【印順】</note><app n="0132a0401"><lem resp="CBETA" wit="【CB】">恒</lem><rdg wit="【印順】">恆</rdg></app>毅雜誌》</title>中，
 <lb n="0132a05" ed="Y"/>有題<lb n="0132a05" ed="Y" type="old"/>為「從涅槃方面觀察佛教原義發明初稿」等文，作者杜而未，聽說是人類
 <lb n="0132a06" ed="Y"/>學（<lb n="0132a06" ed="Y" type="old"/>可能神類學）教授。他以為涅槃是月亮神話的演化；以為印度婆羅門教的
 <lb n="0132a07" ed="Y"/>涅槃<lb n="0132a07" ed="Y" type="old"/>原義，是依承月亮神話的；以為佛教的涅槃原義，應該也是這樣。而且說：
@@ -77,12 +97,12 @@
 <lb n="0132a11" ed="Y"/>化。</p></cb:div>
 <lb n="0132a12" ed="Y"/><lb n="0132a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">二　泛說宗教的意義</cb:mulu><head>二　泛說宗教的意義</head>
 <pb n="0133a" ed="Y" xml:id="Y17.0017.0133a"/>
-<lb n="0133a01" ed="Y"/><lb n="0132a12" ed="Y" type="old"/><p style="text-indent:2em">對於宗教，一般人每每是誤解、淺解，故不得不略為解說。宗教（不僅是佛<pb n="0133a" ed="Y" xml:id="Y17.0017.0133a.old" type="old"/>
+<lb n="0133a01" ed="Y"/><lb n="0132a12" ed="Y" type="old"/><p xml:id="pY17p0133a0101" style="text-indent:2em">對於宗教，一般人每每是誤解、淺解，故不得不略為解說。宗教（不僅是佛<pb n="0133a" ed="Y" xml:id="Y17.0017.0133a.old" type="old"/>
 <lb n="0133a02" ed="Y"/><lb n="0133a01" ed="Y" type="old"/>教），各區域、各時代、各民族，有各式各樣的宗教；儘管不完全相同，但都有
-<lb n="0133a03" ed="Y"/><lb n="0133a02" ed="Y" type="old"/>宗教。那麼悠久、那麼廣泛、那麼深入人心的宗教，說<note n="0133a0301" resp="CBETA" type="add" subtype="規範字詞">它【CB】，他【印順】</note><app n="0133a0301"><lem wit="【CB】" resp="CBETA">它</lem><rdg wit="【印順】">他</rdg></app>是錯誤，也一定有<note n="0133a0302" resp="CBETA" type="add" subtype="規範字詞">它【CB】，他【印順】</note><app n="0133a0302"><lem wit="【CB】" resp="CBETA">它</lem><rdg wit="【印順】">他</rdg></app>的
+<lb n="0133a03" ed="Y"/><lb n="0133a02" ed="Y" type="old"/>宗教。那麼悠久、那麼廣泛、那麼深入人心的宗教，說<note n="0133a0301" resp="CBETA" type="add" subtype="規範字詞">它【CB】，他【印順】</note><app n="0133a0301"><lem resp="CBETA" wit="【CB】">它</lem><rdg wit="【印順】">他</rdg></app>是錯誤，也一定有<note n="0133a0302" resp="CBETA" type="add" subtype="規範字詞">它【CB】，他【印順】</note><app n="0133a0302"><lem resp="CBETA" wit="【CB】">它</lem><rdg wit="【印順】">他</rdg></app>的
 <lb n="0133a04" ed="Y"/><lb n="0133a03" ed="Y" type="old"/>迷謬根源，不容許我們忽視！何況這還是表達出人生的崇高意義、究極歸趣呢！
-<lb n="0133a05" ed="Y"/><lb n="0133a04" ed="Y" type="old"/>過去，曾寫過<title level="a">〈我之宗教觀〉</title>，發表在<title level="m"><note n="0133a0501" resp="CBETA" type="add" subtype="規範字詞">海潮音【CB】，潮音【印順】</note><app n="0133a0501"><lem wit="【CB】" resp="CBETA">《海潮音》</lem><rdg wit="【印順】">《潮音》</rdg></app></title>月刊。現在，從三點來說：</p>
-<lb n="0133a06" ed="Y"/><lb n="0133a05" ed="Y" type="old"/><p style="text-indent:2em">一、宗教的（信仰）對象，與人類觸對的境界有關；即人類依於觸對的境界
+<lb n="0133a05" ed="Y"/><lb n="0133a04" ed="Y" type="old"/>過去，曾寫過<title level="a">〈我之宗教觀〉</title>，發表在<title level="m"><note n="0133a0501" resp="CBETA" type="add" subtype="規範字詞">海潮音【CB】，潮音【印順】</note><app n="0133a0501"><lem resp="CBETA" wit="【CB】">《海潮音》</lem><rdg wit="【印順】">《潮音》</rdg></app></title>月刊。現在，從三點來說：</p>
+<lb n="0133a06" ed="Y"/><lb n="0133a05" ed="Y" type="old"/><p xml:id="pY17p0133a0601" style="text-indent:2em">一、宗教的（信仰）對象，與人類觸對的境界有關；即人類依於觸對的境界
 <lb n="0133a07" ed="Y"/><lb n="0133a06" ed="Y" type="old"/>，想像為信仰的對象。我們生活於世間——器世間，地球上，每天都面對蔚藍色
 <lb n="0133a08" ed="Y"/><lb n="0133a07" ed="Y" type="old"/>的天空，光輝出沒的太陽與月亮，風雨雷電，山河木石等自然現象；及家庭、部
 <lb n="0133a09" ed="Y"/><lb n="0133a08" ed="Y" type="old"/>落、國家——社會的組織形態；還有自己身心的活動。日常觸對這些，在有意無
@@ -97,7 +117,7 @@
 <lb n="0134a04" ed="Y"/>想<lb n="0134a03" ed="Y" type="old"/>像」</quote>，意思是說：照著自我意志的主宰性（自由、支配），想像那觸對境界，
 <lb n="0134a05" ed="Y"/>有<lb n="0134a04" ed="Y" type="old"/>超越的高高在上，或內在的深深在內，自由自在的（無限或是有限的）支配（
 <lb n="0134a06" ed="Y"/>或<lb n="0134a05" ed="Y" type="old"/>管理）一切者，這是自古以來的擬人的宗教觀。</p>
-<lb n="0134a07" ed="Y"/><lb n="0134a06" ed="Y" type="old"/><p style="text-indent:2em">這擬人的宗教對象，究竟是什麼，雖是各說各的，而幾乎誰都感到有或一或
+<lb n="0134a07" ed="Y"/><lb n="0134a06" ed="Y" type="old"/><p xml:id="pY17p0134a0701" style="text-indent:2em">這擬人的宗教對象，究竟是什麼，雖是各說各的，而幾乎誰都感到有或一或
 <lb n="0134a08" ed="Y"/><lb n="0134a07" ed="Y" type="old"/>多的大力存在，主宰一切，軌範一切，使一切都非如此不可。這從外界啟發而來
 <lb n="0134a09" ed="Y"/><lb n="0134a08" ed="Y" type="old"/>的宗教意識，為宗教的一大根源。由於環境不同，注意的對象不同，而宗教的信
 <lb n="0134a10" ed="Y"/><lb n="0134a09" ed="Y" type="old"/>仰對象，也就不同。如近水的拜水神，住山的拜山神，農村拜土地（社與稷）。
@@ -109,7 +129,7 @@
 <lb n="0135a02" ed="Y"/><lb n="0135a01" ed="Y" type="old"/>）；以及天空現象，便鑄成更普遍的大神，而成為更持久的信仰。有以為這都是
 <lb n="0135a03" ed="Y"/><lb n="0135a02" ed="Y" type="old"/>迷信，太陽、木、石，有什麼可崇拜呢？不知道這不只是崇拜那事物自身，而<lb n="0135a03" ed="Y" type="old"/>是
 <lb n="0135a04" ed="Y"/>崇拜那一切所以如此而形成如此的軌律。</p>
-<lb n="0135a05" ed="Y"/><lb n="0135a04" ed="Y" type="old"/><p style="text-indent:2em">二、宗教不僅受有環境的啟發，更主要的是內在的宗教意欲。人的自身，受
+<lb n="0135a05" ed="Y"/><lb n="0135a04" ed="Y" type="old"/><p xml:id="pY17p0135a0501" style="text-indent:2em">二、宗教不僅受有環境的啟發，更主要的是內在的宗教意欲。人的自身，受
 <lb n="0135a06" ed="Y"/><lb n="0135a05" ed="Y" type="old"/>自然的、社會的給與，也就受這些的束縛。有生就有老死，有健康就有疾病，有
 <lb n="0135a07" ed="Y"/><lb n="0135a06" ed="Y" type="old"/>友愛就有怨敵，有團結就有分散，有喜樂就有憂苦——非依賴這些不可，而這些
 <lb n="0135a08" ed="Y"/><lb n="0135a07" ed="Y" type="old"/>就成為自己的束縛，不得自在。如有利於人的，引起對外的依賴感，感恩與讚歎
@@ -123,7 +143,7 @@
 <lb n="0136a02" ed="Y"/><lb n="0136a01" ed="Y" type="old"/>身的愚昧（無明）所引起的思想迷謬、行為錯誤。因之，宗教的真正意義，是
 <lb n="0136a03" ed="Y"/><lb n="0136a02" ed="Y" type="old"/>身心清淨，智能德性開展，而一切契合於正理。惟有內心的智慧開發，德性高明
 <lb n="0136a04" ed="Y"/><lb n="0136a03" ed="Y" type="old"/>，能力廣大，順從（依賴）宇宙人生的軌律——真理，才能不受環境的限制和束
-<lb n="0136a05" ed="Y"/><lb n="0136a04" ed="Y" type="old"/>縛，而超越於現實。這<note n="0136a0501" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0136a0501"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>面，包含了兩方面：一是自身的徹底完善，一是實現理
+<lb n="0136a05" ed="Y"/><lb n="0136a04" ed="Y" type="old"/>縛，而超越於現實。這<note n="0136a0501" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0136a0501"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>面，包含了兩方面：一是自身的徹底完善，一是實現理
 <lb n="0136a06" ed="Y"/><lb n="0136a05" ed="Y" type="old"/>想世界（淨土）。這是自我意欲的淨化與完成！在神教中，表現為神與天國。不
 <lb n="0136a07" ed="Y"/><lb n="0136a06" ed="Y" type="old"/>知神是自我意欲的客觀化，想像為宇宙的主宰（我的定義，就是主宰）。不知理
 <lb n="0136a08" ed="Y"/><lb n="0136a07" ed="Y" type="old"/>想國土，要從自身淨化中去實現，並非天神所準備的，也非天神所賜與的。人類
@@ -136,7 +156,7 @@
 <lb n="0137a01" ed="Y"/>；有的重信願，有的重智證；有的重於內心的淨化，有的重視身體的永存；因<pb n="0137a" ed="Y" xml:id="Y17.0017.0137a.old" type="old"/><lb n="0137a01" ed="Y" type="old"/>而
 <lb n="0137a02" ed="Y"/>成為各有所重的宗教、片面的不完善的宗教。惟有身心德性的圓滿開發，不落<lb n="0137a02" ed="Y" type="old"/>於
 <lb n="0137a03" ed="Y"/>偏頗的，才是最圓滿的宗教。</p>
-<lb n="0137a04" ed="Y"/><lb n="0137a03" ed="Y" type="old"/><p style="text-indent:2em">三、環境的啟發，內心的向上意欲，還不一定成為宗教；宗教是有賴於特殊
+<lb n="0137a04" ed="Y"/><lb n="0137a03" ed="Y" type="old"/><p xml:id="pY17p0137a0401" style="text-indent:2em">三、環境的啟發，內心的向上意欲，還不一定成為宗教；宗教是有賴於特殊
 <lb n="0137a05" ed="Y"/><lb n="0137a04" ed="Y" type="old"/>的經驗。可以說：一切宗教，都有一種特殊經驗為支柱的。如說鬼，有些人雖沒
 <lb n="0137a06" ed="Y"/><lb n="0137a05" ed="Y" type="old"/>有見過，但說起來如此的親切，實由於過去或別人，曾有見鬼的經驗。這可能是
 <lb n="0137a07" ed="Y"/><lb n="0137a06" ed="Y" type="old"/>誤會的，也可能是真實的，但憑自己的經驗而宣說起來，充滿了堅定的信心，也
@@ -145,12 +165,12 @@
 <lb n="0137a10" ed="Y"/>也<lb n="0137a09" ed="Y" type="old"/>許是見繩疑蛇。但經驗過了的，無論是與不是，在同樣的經驗者來說，那是最
 <lb n="0137a11" ed="Y"/>真<lb n="0137a10" ed="Y" type="old"/>實的。這些宗教經驗，是邪正淺深不等的。更純正更圓滿的正覺，才能指正淺
 <lb n="0137a12" ed="Y"/>薄<lb n="0137a11" ed="Y" type="old"/>與似是而非的謬誤！</p>
-<lb n="0137a13" ed="Y"/><lb n="0137a12" ed="Y" type="old"/><p style="text-indent:2em">總之，宗教是由人類內心的向上意欲，在不同的環境約束下，經各種特殊經
+<lb n="0137a13" ed="Y"/><lb n="0137a12" ed="Y" type="old"/><p xml:id="pY17p0137a1301" style="text-indent:2em">總之，宗教是由人類內心的向上意欲，在不同的環境約束下，經各種特殊經
 <pb n="0138a" ed="Y" xml:id="Y17.0017.0138a"/>
 <lb n="0138a01" ed="Y"/><lb n="0137a13" ed="Y" type="old"/>驗而展開。</p></cb:div></cb:div><pb n="0138a" ed="Y" xml:id="Y17.0017.0138a.old" type="old"/>
 <lb n="0138a02" ed="Y"/><lb n="0138a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　東方淨土為天界的淨化</cb:mulu><head>二　東方淨土為天界的淨化</head>
 <lb n="0138a03" ed="Y"/><lb n="0138a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">一　佛菩薩依德立名</cb:mulu><head>一　佛菩薩依德立名</head>
-<lb n="0138a04" ed="Y"/><lb n="0138a03" ed="Y" type="old"/><p style="text-indent:2em">在這一論題中，首先要說明：宗教一定有崇敬的對象，這不外乎法與人二者
+<lb n="0138a04" ed="Y"/><lb n="0138a03" ed="Y" type="old"/><p xml:id="pY17p0138a0401" style="text-indent:2em">在這一論題中，首先要說明：宗教一定有崇敬的對象，這不外乎法與人二者
 <lb n="0138a05" ed="Y"/><lb n="0138a04" ed="Y" type="old"/>。拿高等宗教來說：法（或稱為道）是永恆普遍的最高真理——絕對真理。人（
 <lb n="0138a06" ed="Y"/><lb n="0138a05" ed="Y" type="old"/>具有人格的）呢？有的是擬人的（有意志的）神，以神為絕對真理的，如以色列
 <lb n="0138a07" ed="Y"/><lb n="0138a06" ed="Y" type="old"/>人信仰的耶和華、回教的阿蘭等。有的是絕對真理（其實是擬人的神）的現化人
@@ -161,7 +181,7 @@
 <lb n="0138a12" ed="Y"/><lb n="0138a11" ed="Y" type="old"/>。佛菩薩的崇仰，是以此為理想、為師範，而使自己進向於真理，人人終能達到
 <pb n="0139a" ed="Y" xml:id="Y17.0017.0139a"/>
 <lb n="0139a01" ed="Y"/><lb n="0138a12" ed="Y" type="old"/>佛的境地，也就是絕對平等、絕對自由的聖域。</p><pb n="0139a" ed="Y" xml:id="Y17.0017.0139a.old" type="old"/>
-<lb n="0139a02" ed="Y"/><lb n="0139a01" ed="Y" type="old"/><p style="text-indent:2em">佛教所崇仰的佛菩薩，都是依德立名的。這或約崇高的聖德立名，以表示佛
+<lb n="0139a02" ed="Y"/><lb n="0139a01" ed="Y" type="old"/><p xml:id="pY17p0139a0201" style="text-indent:2em">佛教所崇仰的佛菩薩，都是依德立名的。這或約崇高的聖德立名，以表示佛
 <lb n="0139a03" ed="Y"/><lb n="0139a02" ed="Y" type="old"/>菩薩的性格。如彌勒菩薩，是「慈」；常精進菩薩，是永恆的向上努力。或者是
 <lb n="0139a04" ed="Y"/>取<lb n="0139a03" ed="Y" type="old"/>象於自然界、人事界，甚至眾生界的某類可尊的勝德，而立佛菩薩的名字。取
 <lb n="0139a05" ed="Y"/>象<lb n="0139a04" ed="Y" type="old"/>於自然界的，如須彌相佛，表示佛德的崇高；雷音王佛，表示佛法音聲的感動
@@ -171,7 +191,7 @@
 <lb n="0139a09" ed="Y"/><lb n="0139a08" ed="Y" type="old"/>似於神教，而實質不同。可以說這是順應神教的天界而立名，既能顯示天神信<lb n="0139a09" ed="Y" type="old"/>仰
 <lb n="0139a10" ed="Y"/>的究極意義，也能淨化神界的迷謬，而表彰佛菩薩的特德。</p></cb:div>
 <lb n="0139a11" ed="Y"/><lb n="0139a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">二　天與覺者</cb:mulu><head>二　天與覺者</head>
-<lb n="0139a12" ed="Y"/><lb n="0139a11" ed="Y" type="old"/><p style="text-indent:2em">東方淨土，是以天界為藍圖的。這是順應眾生的天界信仰，而表現佛菩薩的
+<lb n="0139a12" ed="Y"/><lb n="0139a11" ed="Y" type="old"/><p xml:id="pY17p0139a1201" style="text-indent:2em">東方淨土，是以天界為藍圖的。這是順應眾生的天界信仰，而表現佛菩薩的
 <pb n="0140a" ed="Y" xml:id="Y17.0017.0140a"/>
 <lb n="0140a01" ed="Y"/><lb n="0139a12" ed="Y" type="old"/>聖德。印度所說的天，原語為提婆，譯義為光明。無論白天晚上，所見的太陽、<pb n="0140a" ed="Y" xml:id="Y17.0017.0140a.old" type="old"/>
 <lb n="0140a02" ed="Y"/><lb n="0140a01" ed="Y" type="old"/>月亮、星星等光明，都是從天空照耀下來的。仰首遠望，天就是光明體。一般人
@@ -189,12 +209,12 @@
 <pb n="0141a" ed="Y" xml:id="Y17.0017.0141a"/>
 <lb n="0141a01" ed="Y"/><lb n="0140a13" ed="Y" type="old"/>心光明性）而顯現慧光，佛就依世俗天界的現象，掃除神教的擬想，而表徵慧證<pb n="0141a" ed="Y" xml:id="Y17.0017.0141a.old" type="old"/>
 <lb n="0141a02" ed="Y"/><lb n="0141a01" ed="Y" type="old"/>真理的聖者。</p>
-<lb n="0141a03" ed="Y"/><lb n="0141a02" ed="Y" type="old"/><p style="text-indent:2em">東方淨土的佛，名琉璃光佛。琉璃——毘琉璃，譯為遠山寶，是青色寶。在
+<lb n="0141a03" ed="Y"/><lb n="0141a02" ed="Y" type="old"/><p xml:id="pY17p0141a0301" style="text-indent:2em">東方淨土的佛，名琉璃光佛。琉璃——毘琉璃，譯為遠山寶，是青色寶。在
 <lb n="0141a04" ed="Y"/><lb n="0141a03" ed="Y" type="old"/>小世界中間，有最高的須彌山，四面是四寶所成的。南面是毘琉璃寶所成，所以
 <lb n="0141a05" ed="Y"/><lb n="0141a04" ed="Y" type="old"/>我們——南閻浮提的眾生，仰望虛空，見有青色。青天，就是須彌山的琉璃寶光
 <lb n="0141a06" ed="Y"/><lb n="0141a05" ed="Y" type="old"/>，反射於虛空所致。東方淨土，以此世俗共知蔚藍色的天空，表現佛的德性，而
 <lb n="0141a07" ed="Y"/><lb n="0141a06" ed="Y" type="old"/>名為毘琉璃光。</p>
-<lb n="0141a08" ed="Y"/><lb n="0141a07" ed="Y" type="old"/><p style="text-indent:2em">每一佛出世，都有二大弟子，助揚佛化。如釋迦佛有舍利弗與目犍連，毘盧
+<lb n="0141a08" ed="Y"/><lb n="0141a07" ed="Y" type="old"/><p xml:id="pY17p0141a0801" style="text-indent:2em">每一佛出世，都有二大弟子，助揚佛化。如釋迦佛有舍利弗與目犍連，毘盧
 <lb n="0141a09" ed="Y"/><lb n="0141a08" ed="Y" type="old"/>遮那佛有文殊與普賢二大士，阿彌陀佛有觀世音與大勢至菩薩。現在東方淨土<lb n="0141a09" ed="Y" type="old"/>，
 <lb n="0141a10" ed="Y"/>琉璃光佛也有二大菩薩——日光遍照、月光遍照，<quote source="T14n0450_p0405c07-08" type="嚴謹引文">「是彼無量無數菩薩眾之上<lb n="0141a10" ed="Y" type="old"/>首
 <lb n="0141a11" ed="Y"/>」<note n="0141001" resp="謝淑歆" type="add">《藥師琉璃光如來本願功德經》卷1(CBETA, T14, no. 450, p. 405, c7-8)</note></quote>。這顯然是取譬於天空的太陽和月亮。天界的一切光明中，日月是最大的，<lb n="0141a11" ed="Y" type="old"/>一
@@ -206,7 +226,7 @@
 <lb n="0142a03" ed="Y"/>恐怖。尤其是熱帶，炎熱不堪，一到月亮東升，清風徐來，真是能除熱惱而得<lb n="0142a03" ed="Y" type="old"/>舒
 <lb n="0142a04" ed="Y"/>暢的。在佛法中，月亮也每用來表示慈悲，安慰眾生。這是以天界的日月光輝<lb n="0142a04" ed="Y" type="old"/>，
 <lb n="0142a05" ed="Y"/>表現二大菩薩的德性。</p>
-<lb n="0142a06" ed="Y"/><lb n="0142a05" ed="Y" type="old"/><p style="text-indent:2em">東方淨土中，除二大菩薩外，還有八大菩薩，如說：<quote source="T14n0450_p0406b12" type="寬鬆引文">「文殊師利菩薩、觀世
+<lb n="0142a06" ed="Y"/><lb n="0142a05" ed="Y" type="old"/><p xml:id="pY17p0142a0601" style="text-indent:2em">東方淨土中，除二大菩薩外，還有八大菩薩，如說：<quote source="T14n0450_p0406b12" type="寬鬆引文">「文殊師利菩薩、觀世
 <lb n="0142a07" ed="Y"/><lb n="0142a06" ed="Y" type="old"/>音菩薩、大勢至菩薩、無盡意菩薩、寶檀華菩薩、藥王菩薩、藥上菩薩、彌勒菩
 <lb n="0142a08" ed="Y"/><lb n="0142a07" ed="Y" type="old"/>薩，是八大菩薩，乘空而來，示其道路。」<note n="0142001" resp="謝淑歆" type="add">《藥師琉璃光如來本願功德經》卷1：「[11]乘神通來，示其道路」(CBETA, T14, no. 450, p. 406, b12)[11]乘神通＝其名曰文殊師利菩薩，觀世音菩薩，得大勢菩薩，無盡意菩薩，寶檀華菩薩，藥王菩薩，藥上菩薩，彌勒菩薩，是八大菩薩乘空而【敦】。</note></quote>據經上說，欲生西方淨土而還不能決
 <lb n="0142a09" ed="Y"/><lb n="0142a08" ed="Y" type="old"/>定的，八大菩薩能引導他，使得往生淨土。為什麼東方淨土，只有八位菩薩，不
@@ -218,7 +238,7 @@
 <lb n="0143a01" ed="Y"/><lb n="0142a13" ed="Y" type="old"/>星於天界運行。換言之，除日月外，還有八大明星，與我們這個世界，關係極為<pb n="0143a" ed="Y" xml:id="Y17.0017.0143a.old" type="old"/>
 <lb n="0143a02" ed="Y"/><lb n="0143a01" ed="Y" type="old"/>密切。依此，所以除二大菩薩，還有八大菩薩，護持東方淨土。<quote type="嚴謹引文">「八大菩薩乘空
 <lb n="0143a03" ed="Y"/><lb n="0143a02" ed="Y" type="old"/>而來」</quote>，是怎樣明白的說破這一點。</p>
-<lb n="0143a04" ed="Y"/><lb n="0143a03" ed="Y" type="old"/><p style="text-indent:2em">此外，還有十二藥叉大將——宮毘羅、伐折羅、迷企羅、安底羅、頞儞羅、
+<lb n="0143a04" ed="Y"/><lb n="0143a03" ed="Y" type="old"/><p xml:id="pY17p0143a0401" style="text-indent:2em">此外，還有十二藥叉大將——宮毘羅、伐折羅、迷企羅、安底羅、頞儞羅、
 <lb n="0143a05" ed="Y"/><lb n="0143a04" ed="Y" type="old"/>珊底羅、因達羅、波夷羅、摩虎羅、真達羅、招杜羅、毘羯羅。每一位藥叉大將
 <lb n="0143a06" ed="Y"/><lb n="0143a05" ed="Y" type="old"/>，又各有七千眷屬，共為八萬四千。八萬四千，表示一切的一切。如一切煩惱是
 <lb n="0143a07" ed="Y"/><lb n="0143a06" ed="Y" type="old"/>八萬四千，一切法門也稱八萬四千法門。所以從天界來說，八萬四千眷屬，即一
@@ -226,16 +246,16 @@
 <lb n="0143a09" ed="Y"/><lb n="0143a08" ed="Y" type="old"/>說，配以子丑寅卯辰巳午未申酉戌亥。在西方，名十二宮。在地球繞日旋轉的運
 <lb n="0143a10" ed="Y"/><lb n="0143a09" ed="Y" type="old"/>動中，轉動的範圍內，名黃道帶；黃道帶內最引人注目的，便是十二辰，四方各
 <lb n="0143a11" ed="Y"/><lb n="0143a10" ed="Y" type="old"/>有三個。不論是西方或印度，都以畜生來稱呼這十二。這一世俗的星辰說，在佛
-<lb n="0143a12" ed="Y"/><lb n="0143a11" ed="Y" type="old"/>法中，就如<bibl>《<title level="m">大集經</title>．<title level="a">虛空目分</title>》</bibl>所說：有十二位菩薩，在四方的山<note n="0143a1201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0143a1201"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>修慈，都
+<lb n="0143a12" ed="Y"/><lb n="0143a11" ed="Y" type="old"/>法中，就如<bibl>《<title level="m">大集經</title>．<title level="a">虛空目分</title>》</bibl>所說：有十二位菩薩，在四方的山<note n="0143a1201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0143a1201"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>修慈，都
 <lb n="0143a13" ed="Y"/><lb n="0143a12" ed="Y" type="old"/>現畜生相——南方是蛇、馬、羊，西方是雞、猴、犬，北方是豬、鼠、牛，東方
 <pb n="0144a" ed="Y" xml:id="Y17.0017.0144a"/>
 <lb n="0144a01" ed="Y"/><lb n="0143a13" ed="Y" type="old"/>是龍、象、獅。這與中國傳說的十二生肖，僅獅與象的差異而已。十二藥叉大將<pb n="0144a" ed="Y" xml:id="Y17.0017.0144a.old" type="old"/>
 <lb n="0144a02" ed="Y"/><lb n="0144a01" ed="Y" type="old"/>，便是取象於黃道帶中的十二星；而每一藥叉大將，統領七千眷屬，共八萬四千
 <lb n="0144a03" ed="Y"/><lb n="0144a02" ed="Y" type="old"/>，無疑為一切小星了。這一切是光明，也就都是菩薩。</p>
-<lb n="0144a04" ed="Y"/><lb n="0144a03" ed="Y" type="old"/><p style="text-indent:2em">東方淨土為天界的淨化，這是非常明顯的。據虛大師說，淨土都是天國的淨
+<lb n="0144a04" ed="Y"/><lb n="0144a03" ed="Y" type="old"/><p xml:id="pY17p0144a0401" style="text-indent:2em">東方淨土為天界的淨化，這是非常明顯的。據虛大師說，淨土都是天國的淨
 <lb n="0144a05" ed="Y"/><lb n="0144a04" ed="Y" type="old"/>化，而佛法以佛菩薩化導的淨土，與神教的擬想，非常不同。</p></cb:div>
 <lb n="0144a06" ed="Y"/><lb n="0144a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">三　聖性的本質及其顯現</cb:mulu><head>三　聖性的本質及其顯現</head>
-<lb n="0144a07" ed="Y"/><lb n="0144a06" ed="Y" type="old"/><p style="text-indent:2em">聖者的特性，是覺（明），所以約光明的天界，來比喻佛菩薩與淨土。但約
+<lb n="0144a07" ed="Y"/><lb n="0144a06" ed="Y" type="old"/><p xml:id="pY17p0144a0701" style="text-indent:2em">聖者的特性，是覺（明），所以約光明的天界，來比喻佛菩薩與淨土。但約
 <lb n="0144a08" ed="Y"/><lb n="0144a07" ed="Y" type="old"/>天界來表示聖性，推究到聖性的本質，那決不是有限量的日月星星可比擬，而僅
 <lb n="0144a09" ed="Y"/><lb n="0144a08" ed="Y" type="old"/>可以無限量的、明淨的虛空來比說。在<title level="m">《藥師經》</title>中，稱佛土為淨琉璃世界，稱
 <lb n="0144a10" ed="Y"/><lb n="0144a09" ed="Y" type="old"/>佛為琉璃光佛，這都是約我們現見的蒼空來比說的。佛是稱法性而現覺者，如如
@@ -251,7 +271,7 @@
 <lb n="0145a07" ed="Y"/>有<lb n="0145a06" ed="Y" type="old"/>亦無、若非有非無後生死，不可記說」<note n="0145003" resp="謝淑歆" type="add">《雜阿含經》卷32(CBETA, T02, no. 99, p. 226, b22-24)</note></quote>。因為：這是契入絕對聖性而超越相對
 <lb n="0145a08" ed="Y"/>界<lb n="0145a07" ed="Y" type="old"/>的。聲聞的涅槃，是這樣；大乘的法身、涅槃，也是這樣。所以<title level="m">《華嚴經》</title>中
 <lb n="0145a09" ed="Y"/>說<lb n="0145a08" ed="Y" type="old"/>到佛法身，<quote source="T09n0278_p0408c12-13" type="寬鬆引文">「唯有虛空為譬喻」<note n="0145004" resp="謝淑歆" type="add">《大方廣佛華嚴經》卷3〈2 盧舍那佛品〉：「於諸佛所修善法，滿足一切大願力，出生清淨妙法身，如實平等同虛空。」(CBETA, T09, no. 278, p. 408, c12-13)</note></quote>。</p>
-<lb n="0145a10" ed="Y"/><lb n="0145a09" ed="Y" type="old"/><p style="text-indent:2em">虛空是什麼？姑且不論。一般的看法，虛空是「遍」，不可說在這<note n="0145a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0145a1001"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>那<note n="0145a1002" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0145a1002"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>的
+<lb n="0145a10" ed="Y"/><lb n="0145a09" ed="Y" type="old"/><p xml:id="pY17p0145a1001" style="text-indent:2em">虛空是什麼？姑且不論。一般的看法，虛空是「遍」，不可說在這<note n="0145a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0145a1001"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>那<note n="0145a1002" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0145a1002"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>的
 <lb n="0145a11" ed="Y"/><lb n="0145a10" ed="Y" type="old"/>，是無所在的；要說在，那就是無所不在。是「自在」，因為是無著無礙的。沒
 <lb n="0145a12" ed="Y"/><lb n="0145a11" ed="Y" type="old"/>有時間性的變化，所以是「常恒」的。沒有質量等差別，所以是「無二」的。尤
 <lb n="0145a13" ed="Y"/><lb n="0145a12" ed="Y" type="old"/>其是虛空雖有時為雲霧等蒙蔽而現昏相，一旦雲消霧散，就顯出「明淨」。其
@@ -264,7 +284,7 @@
 <lb n="0146a06" ed="Y"/><lb n="0146a05" ed="Y" type="old"/>能隨順眾生的心境，方便善巧地指示，引導我們從離執證真中去體現。由於這是
 <lb n="0146a07" ed="Y"/><lb n="0146a06" ed="Y" type="old"/>超越相對性的（非心量境、非言說所及），所以難以宣說，約虛空界來喻說，也
 <lb n="0146a08" ed="Y"/><lb n="0146a07" ed="Y" type="old"/>只能多少領會而已。</p>
-<lb n="0146a09" ed="Y"/><lb n="0146a08" ed="Y" type="old"/><p style="text-indent:2em">虛空，不問是實有的、假有的，客觀的實在還是內心的格式，總之，在一
+<lb n="0146a09" ed="Y"/><lb n="0146a08" ed="Y" type="old"/><p xml:id="pY17p0146a0901" style="text-indent:2em">虛空，不問是實有的、假有的，客觀的實在還是內心的格式，總之，在一
 <lb n="0146a10" ed="Y"/><lb n="0146a09" ed="Y" type="old"/>般人及神教徒看來，無量無數、廣大甚深、高高在上的蒼空，為一切光明或者
 <lb n="0146a11" ed="Y"/><lb n="0146a10" ed="Y" type="old"/>說一切神聖的依處，一切依此而活動顯現出來。在沒有顯現時，似乎存在於空界
 <lb n="0146a12" ed="Y"/><lb n="0146a11" ed="Y" type="old"/>的深處，不能說是沒有。佛法中，假藉這空界以顯示絕對法性，以及聖者證入的
@@ -277,7 +297,7 @@
 <lb n="0147a05" ed="Y"/><lb n="0147a04" ed="Y" type="old"/>可說是離言的妙有。如以虛空界來比說，好像風息雲散，顯出了空界的本來明淨
 <lb n="0147a06" ed="Y"/><lb n="0147a05" ed="Y" type="old"/>一樣。這僅可以虛空界來擬說，而不能以日，特別是月亮來比說。因為月是黑
 <lb n="0147a07" ed="Y"/><lb n="0147a06" ed="Y" type="old"/>白白黑的反復不已，而涅槃是永恆的穌息。</p>
-<lb n="0147a08" ed="Y"/><lb n="0147a07" ed="Y" type="old"/><p style="text-indent:2em">這樣的涅槃，僅是契當於小乘阿羅漢的證境，正確而沒有圓滿。這樣的涅槃
+<lb n="0147a08" ed="Y"/><lb n="0147a07" ed="Y" type="old"/><p xml:id="pY17p0147a0801" style="text-indent:2em">這樣的涅槃，僅是契當於小乘阿羅漢的證境，正確而沒有圓滿。這樣的涅槃
 <lb n="0147a09" ed="Y"/><lb n="0147a08" ed="Y" type="old"/>觀，容易引起誤解，以為現象的生死界、真實的涅槃界，為截然不同的對立物。
 <lb n="0147a10" ed="Y"/><lb n="0147a09" ed="Y" type="old"/>這在大乘經論，才充分表達涅槃的圓義。從生死法說，生死的本性，就是涅槃性
 <lb n="0147a11" ed="Y"/><lb n="0147a10" ed="Y" type="old"/>，所以說<quote source="T36n1736_p0400a25" type="嚴謹引文">「一切法中有安樂性」<note n="0147001" resp="謝淑歆" type="add">《大方廣佛華嚴經隨疏演義鈔》卷51〈25 十迴向品〉(CBETA, T36, no. 1736, p. 400, a25)</note></quote>。這就到達了即事而真、真不礙俗的法界觀，
@@ -287,20 +307,20 @@
 <lb n="0148a01" ed="Y"/><lb n="0147a13" ed="Y" type="old"/>而顯發這無邊功德；聖德以覺（明）為本，也就是顯發無邊智光，而有難可思議<pb n="0148a" ed="Y" xml:id="Y17.0017.0148a.old" type="old"/>
 <lb n="0148a02" ed="Y"/><lb n="0148a01" ed="Y" type="old"/>的妙用。如以虛空界來比說，虛空界本來明淨，為一切光明本體；從此顯現出日
 <lb n="0148a03" ed="Y"/><lb n="0148a02" ed="Y" type="old"/>月等無邊的光明。</p>
-<lb n="0148a04" ed="Y"/><lb n="0148a03" ed="Y" type="old"/><p style="text-indent:2em">依現代的知識來說，星有<note n="0148a0401" resp="CBETA" type="add" subtype="規範字詞">恒【CB】，恆【印順】</note><app n="0148a0401"><lem wit="【CB】" resp="CBETA">恒</lem><rdg wit="【印順】">恆</rdg></app>星、行星、衛星，如八大行星與月亮的光明，都
+<lb n="0148a04" ed="Y"/><lb n="0148a03" ed="Y" type="old"/><p xml:id="pY17p0148a0401" style="text-indent:2em">依現代的知識來說，星有<note n="0148a0401" resp="CBETA" type="add" subtype="規範字詞">恒【CB】，恆【印順】</note><app n="0148a0401"><lem resp="CBETA" wit="【CB】">恒</lem><rdg wit="【印順】">恆</rdg></app>星、行星、衛星，如八大行星與月亮的光明，都
 <lb n="0148a05" ed="Y"/><lb n="0148a04" ed="Y" type="old"/>從日而來。但古人，是把日月星星的光明，想像為從虛空界而顯現，所以空界是
 <lb n="0148a06" ed="Y"/><lb n="0148a05" ed="Y" type="old"/>「明淨」的。比擬於空界的明淨，所以稱佛為琉璃光。約智慧說，名法界體性智
 <lb n="0148a07" ed="Y"/><lb n="0148a06" ed="Y" type="old"/>。上來的說明，著重在涅槃唯有虛空可為比喻；或者說取象於虛空界的明淨，
 <lb n="0148a08" ed="Y"/><lb n="0148a07" ed="Y" type="old"/>而表示佛與涅槃的真義。</p></cb:div>
 <lb n="0148a09" ed="Y"/><lb n="0148a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">四　涅槃與月亮</cb:mulu><head>四　涅槃與月亮</head>
-<lb n="0148a10" ed="Y"/><lb n="0148a09" ed="Y" type="old"/><p style="text-indent:2em">神類學者杜而未，賣弄民俗學、字源說，認為婆羅門教的涅槃一詞，從月亮
+<lb n="0148a10" ed="Y"/><lb n="0148a09" ed="Y" type="old"/><p xml:id="pY17p0148a1001" style="text-indent:2em">神類學者杜而未，賣弄民俗學、字源說，認為婆羅門教的涅槃一詞，從月亮
 <lb n="0148a11" ed="Y"/><lb n="0148a10" ed="Y" type="old"/>神話而來。他雖說<quote type="寬鬆引文">「釋迦是否知道，尚成問題」</quote>，卻一廂情願，以為佛教的涅
 <lb n="0148a12" ed="Y"/><lb n="0148a11" ed="Y" type="old"/>槃，也非如此不可。如果不是這樣說，那是佛教徒不懂涅槃，還得向杜而未學習
 <pb n="0149a" ed="Y" xml:id="Y17.0017.0149a"/>
 <lb n="0149a01" ed="Y"/><lb n="0148a12" ed="Y" type="old"/>。庸俗的神類學者，想以這樣的研究，動搖佛教的根本——涅槃，讓耶和華來代<pb n="0149a" ed="Y" xml:id="Y17.0017.0149a.old" type="old"/>
 <lb n="0149a02" ed="Y"/><lb n="0149a01" ed="Y" type="old"/>替佛陀，來宰制中華人心。作為耶和華的奴僕，存這樣的野心，原是不足怪的。
 <lb n="0149a03" ed="Y"/><lb n="0149a02" ed="Y" type="old"/>但我們，並不想作誰的奴隸，所以對神類學者的野心傑作，沒有絲毫的同情！</p>
-<lb n="0149a04" ed="Y"/><lb n="0149a03" ed="Y" type="old"/><p style="text-indent:2em">關於語文（依佛法說，文是依音聲流變，表達情意或認識而成立；有音聲上
+<lb n="0149a04" ed="Y"/><lb n="0149a03" ed="Y" type="old"/><p xml:id="pY17p0149a0401" style="text-indent:2em">關於語文（依佛法說，文是依音聲流變，表達情意或認識而成立；有音聲上
 <lb n="0149a05" ed="Y"/><lb n="0149a04" ed="Y" type="old"/>的文，而後有形色（書寫）的文），我們與杜而未的看法，是根本不同的。人類
 <lb n="0149a06" ed="Y"/><lb n="0149a05" ed="Y" type="old"/>的語文，起初，或是表達情意的，如歡笑、號哭、驚呼、呼召，以及憂喜悲懼所
 <lb n="0149a07" ed="Y"/><lb n="0149a06" ed="Y" type="old"/>引起的聲音。或是指示事務的，如天、地、日、月、明、暗、風、雨、山、河、
@@ -314,7 +334,7 @@
 <lb n="0150a01" ed="Y"/><lb n="0149a13" ed="Y" type="old"/>界、字緣的解說不同，和合而成的字義，解說也可作多樣的解說。語文的音義，
 <lb n="0150a02" ed="Y"/>只<pb n="0150a" ed="Y" xml:id="Y17.0017.0150a.old" type="old"/><lb n="0150a01" ed="Y" type="old"/>是約定俗成，一直在演化中。也就因此，印度的聲常論者，想以梵文的音韻，
 <lb n="0150a03" ed="Y"/>表<lb n="0150a02" ed="Y" type="old"/>顯宇宙的真相，完全是神學路數！</p>
-<lb n="0150a04" ed="Y"/><lb n="0150a03" ed="Y" type="old"/><p style="text-indent:2em">這<note n="0150a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0150a0401"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，有一點是必要記得的。應用語文的比較研究，探求一字的原意，只能
+<lb n="0150a04" ed="Y"/><lb n="0150a03" ed="Y" type="old"/><p xml:id="pY17p0150a0401" style="text-indent:2em">這<note n="0150a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0150a0401"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，有一點是必要記得的。應用語文的比較研究，探求一字的原意，只能
 <lb n="0150a05" ed="Y"/><lb n="0150a04" ed="Y" type="old"/>證明某時某地某字的本義是什麼，不能就此否定演化發展的新意義。這樣，即使
 <lb n="0150a06" ed="Y"/><lb n="0150a05" ed="Y" type="old"/>婆羅門教的涅槃原義，與月亮神話有關，不能就此論定佛教的涅槃，也不過如此
 <lb n="0150a07" ed="Y"/><lb n="0150a06" ed="Y" type="old"/>。耶穌以完成「上帝」的律法自居；孔子是憲章堯舜文武之道，事實上，也只是
@@ -328,11 +348,11 @@
 <lb n="0151a01" ed="Y"/><lb n="0150a13" ed="Y" type="old"/>而洗盡神教的愚昧。杜而未漠視這些，竟敢武斷地，以為佛教的涅槃也不外乎此<pb n="0151a" ed="Y" xml:id="Y17.0017.0151a.old" type="old"/>
 <lb n="0151a02" ed="Y"/><lb n="0151a01" ed="Y" type="old"/>，真是荒謬之極！我相信，真正的人類學者與字源說，與神化了的人類學、歪曲
 <lb n="0151a03" ed="Y"/><lb n="0151a02" ed="Y" type="old"/>偽濫的字源說，並不相同。</p>
-<lb n="0151a04" ed="Y"/><lb n="0151a03" ed="Y" type="old"/><p style="text-indent:2em">上面說過，宗教的崇敬對象，有關於我們觸對的境界。人類的語文，起初依
+<lb n="0151a04" ed="Y"/><lb n="0151a03" ed="Y" type="old"/><p xml:id="pY17p0151a0401" style="text-indent:2em">上面說過，宗教的崇敬對象，有關於我們觸對的境界。人類的語文，起初依
 <lb n="0151a05" ed="Y"/><lb n="0151a04" ed="Y" type="old"/>指事而引申演化。在佛教，依德立名，無論稱為什麼，都不離取象於世俗的事理
 <lb n="0151a06" ed="Y"/><lb n="0151a05" ed="Y" type="old"/>來詮表「正法」。所以，涅槃的原義，與月亮神話有關或無關，都沒有什麼。不
 <lb n="0151a07" ed="Y"/><lb n="0151a06" ed="Y" type="old"/>過我要說的，大小乘所共的涅槃，<quote type="寬鬆引文">「無數無量、廣大甚深、寂滅」</quote>，不是取象於
-<lb n="0151a08" ed="Y"/><lb n="0151a07" ed="Y" type="old"/>月亮，月亮那<note n="0151a0801" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0151a0801"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>有<quote type="寬鬆引文">「無數無量、廣大甚深、寂滅」</quote>的德性？取象於世俗的方便假
+<lb n="0151a08" ed="Y"/><lb n="0151a07" ed="Y" type="old"/>月亮，月亮那<note n="0151a0801" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0151a0801"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>有<quote type="寬鬆引文">「無數無量、廣大甚深、寂滅」</quote>的德性？取象於世俗的方便假
 <lb n="0151a09" ed="Y"/><lb n="0151a08" ed="Y" type="old"/>說，佛經是約虛空界以譬說「正法」（法性、空性）；體法性而成身的「法身」
 <lb n="0151a10" ed="Y"/><lb n="0151a09" ed="Y" type="old"/>；契入法性而無礙自在的「涅槃」（涅槃也名無上法）。約大乘從體起用、即事
 <lb n="0151a11" ed="Y"/><lb n="0151a10" ed="Y" type="old"/>顯理（融相歸性）來說，約虛空日月為比喻，倒不是沒有的，但決不離卻空界，
@@ -344,9 +364,9 @@
 <lb n="0152a03" ed="Y"/><lb n="0152a02" ed="Y" type="old"/>為觀而生起一切，那是比喻從今生到後生、此土到彼土，意味著那邊（淨土）的
 <lb n="0152a04" ed="Y"/><lb n="0152a03" ed="Y" type="old"/>光壽無量。至於月輪，是取象於夜晚的空月皎潔、清涼寂靜的境地。以此表達聖
 <lb n="0152a05" ed="Y"/><lb n="0152a04" ed="Y" type="old"/>者的解脫，也比喻聖者的利益眾生，如說：<quote source="T10n0279_p0195c14" type="嚴謹引文">「如月清涼被眾物。」<note n="0152001" resp="謝淑歆" type="add">《大方廣佛華嚴經》卷37〈26 十地品〉(CBETA, T10, no. 279, p. 195, c14)</note></quote></p>
-<lb n="0152a06" ed="Y"/><lb n="0152a05" ed="Y" type="old"/><p style="text-indent:2em">我想告訴神類學者杜而未：佛教的涅槃，無論取象於什麼，無論依什麼而演
+<lb n="0152a06" ed="Y"/><lb n="0152a05" ed="Y" type="old"/><p xml:id="pY17p0152a0601" style="text-indent:2em">我想告訴神類學者杜而未：佛教的涅槃，無論取象於什麼，無論依什麼而演
 <lb n="0152a07" ed="Y"/><lb n="0152a06" ed="Y" type="old"/>化，主要是自內證知的寂滅，超越相對名相的絕對界。這不是根源於初民的神話
-<lb n="0152a08" ed="Y"/><lb n="0152a07" ed="Y" type="old"/>、照著人類自己樣子所造成的神。這<note n="0152a0801" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0152a0801"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>面，沒有主宰（我）的權力欲，與一切神
+<lb n="0152a08" ed="Y"/><lb n="0152a07" ed="Y" type="old"/>、照著人類自己樣子所造成的神。這<note n="0152a0801" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0152a0801"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>面，沒有主宰（我）的權力欲，與一切神
 <lb n="0152a09" ed="Y"/><lb n="0152a08" ed="Y" type="old"/>教——多神、一神無關。初民蒙昧意識所造成的擬人的神，在人類文明進步中<lb n="0152a09" ed="Y" type="old"/>，
 <lb n="0152a10" ed="Y"/>早已宣告消失，無影無蹤。當然，杜而未如以為初民蒙昧意識所想像的神最好<lb n="0152a10" ed="Y" type="old"/>；
 <lb n="0152a11" ed="Y"/>或者一心一意，羨慕那不識不知、不知人間有羞恥事（眼目一明亮，知有羞恥<lb n="0152a11" ed="Y" type="old"/>，
@@ -355,7 +375,7 @@
 <pb n="0153a" ed="Y" xml:id="Y17.0017.0153a"/>
 <lb n="0153a01" ed="Y"/><lb n="0153a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　東方淨土為人間的極致</cb:mulu><head>三　東方淨土為人間的極致</head>
 <lb n="0153a02" ed="Y"/><lb n="0153a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">一　東方的理想國</cb:mulu><head>一　東方的理想國</head>
-<lb n="0153a03" ed="Y"/><lb n="0153a03" ed="Y" type="old"/><p style="text-indent:2em">淨土，是佛菩薩的清淨土，也是人間的理想國。約智證畢竟空性以明清淨，
+<lb n="0153a03" ed="Y"/><lb n="0153a03" ed="Y" type="old"/><p xml:id="pY17p0153a0301" style="text-indent:2em">淨土，是佛菩薩的清淨土，也是人間的理想國。約智證畢竟空性以明清淨，
 <lb n="0153a04" ed="Y"/><lb n="0153a04" ed="Y" type="old"/>只就佛的自證說；而淨土是有社會性的，有眾生、有衣食等一切問題。現實人間
 <lb n="0153a05" ed="Y"/><lb n="0153a05" ed="Y" type="old"/>，是無限的苦迫與缺陷；淨土是無限的清淨莊嚴，自由與安樂。在這淨土中，一
 <lb n="0153a06" ed="Y"/><lb n="0153a06" ed="Y" type="old"/>切圓滿，經常受佛菩薩的教化庇護。生在此中，一直向上修學，過著光明合理的
@@ -366,49 +386,49 @@
 <lb n="0153a11" ed="Y"/><lb n="0153a11" ed="Y" type="old"/>實人間的缺陷而使之淨化，積極地表現了理想世界的情況。這對於人間，富有啟
 <lb n="0153a12" ed="Y"/><lb n="0153a12" ed="Y" type="old"/>發性，即人間應依此為理想而使其實現。十二大願是：</p><pb n="0154a" ed="Y" xml:id="Y17.0017.0154a.old" type="old"/>
 <pb n="0154a" ed="Y" xml:id="Y17.0017.0154a"/>
-<lb n="0154a01" ed="Y"/><lb n="0154a01" ed="Y" type="old"/><p style="text-indent:2em">一、人人平等。一切眾生的相好莊嚴，都與佛一樣；這意味著眾生與佛的本
+<lb n="0154a01" ed="Y"/><lb n="0154a01" ed="Y" type="old"/><p xml:id="pY17p0154a0101" style="text-indent:2em">一、人人平等。一切眾生的相好莊嚴，都與佛一樣；這意味著眾生與佛的本
 <lb n="0154a02" ed="Y"/><lb n="0154a02" ed="Y" type="old"/>性不二。淨土的眾生身相，都是黃金色的，表示了種姓的平等。印度種姓的階級
 <lb n="0154a03" ed="Y"/><lb n="0154a03" ed="Y" type="old"/>森嚴，起初依形色來分別。所以梵語的「種姓」，從「色」字而來。到現在白種
 <lb n="0154a04" ed="Y"/>人還<lb n="0154a04" ed="Y" type="old"/>歧視有色人種呢！這是人間苦迫的根源之一；所以淨土中人人金色，也就是
 <lb n="0154a05" ed="Y"/>人人<lb n="0154a05" ed="Y" type="old"/>平等，沒有種族歧視等因素了。</p>
-<lb n="0154a06" ed="Y"/><lb n="0154a06" ed="Y" type="old"/><p style="text-indent:2em">二、佛光普照，人人能成辦一切事業。依世間的光明說，如白日臨空，才能
+<lb n="0154a06" ed="Y"/><lb n="0154a06" ed="Y" type="old"/><p xml:id="pY17p0154a0601" style="text-indent:2em">二、佛光普照，人人能成辦一切事業。依世間的光明說，如白日臨空，才能
 <lb n="0154a07" ed="Y"/><lb n="0154a07" ed="Y" type="old"/>進行各種的事業。依智光說，沒有智慧，什麼都不會，什麼困難都不能解決；有
 <lb n="0154a08" ed="Y"/><lb n="0154a08" ed="Y" type="old"/>了智慧，才能無事不辦。佛以無量智光普照大眾，普熏眾生而智慧漸長，所以所
 <lb n="0154a09" ed="Y"/><lb n="0154a09" ed="Y" type="old"/>作事業，沒有不成就的。</p>
-<lb n="0154a10" ed="Y"/><lb n="0154a10" ed="Y" type="old"/><p style="text-indent:2em">三、資生物非常充足。在人人平等、智力開展下，無事不成，所以生產豐富
+<lb n="0154a10" ed="Y"/><lb n="0154a10" ed="Y" type="old"/><p xml:id="pY17p0154a1001" style="text-indent:2em">三、資生物非常充足。在人人平等、智力開展下，無事不成，所以生產豐富
 <lb n="0154a11" ed="Y"/><lb n="0154a11" ed="Y" type="old"/>，民生安樂。</p>
-<lb n="0154a12" ed="Y"/><lb n="0154a12" ed="Y" type="old"/><p style="text-indent:2em">四、人人安住大乘。在這苦迫的人間，都安住凡夫法。凡夫是為了自己的名
+<lb n="0154a12" ed="Y"/><lb n="0154a12" ed="Y" type="old"/><p xml:id="pY17p0154a1201" style="text-indent:2em">四、人人安住大乘。在這苦迫的人間，都安住凡夫法。凡夫是為了自己的名
 <lb n="0154a13" ed="Y"/><lb n="0154a13" ed="Y" type="old"/>利享受而努力；或為了自己，而專修禪定，獨善其身。也有安住小乘法的，那是<pb n="0155a" ed="Y" xml:id="Y17.0017.0155a.old" type="old"/>
 <pb n="0155a" ed="Y" xml:id="Y17.0017.0155a"/>
-<lb n="0155a01" ed="Y"/><lb n="0155a01" ed="Y" type="old"/>專心於自己的身心解脫，缺少積極為人的悲心。安住大乘法的，被稱為火<note n="0155a0101" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0155a0101"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>蓮花
+<lb n="0155a01" ed="Y"/><lb n="0155a01" ed="Y" type="old"/>專心於自己的身心解脫，缺少積極為人的悲心。安住大乘法的，被稱為火<note n="0155a0101" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0155a0101"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>蓮花
 <lb n="0155a02" ed="Y"/><lb n="0155a02" ed="Y" type="old"/>，是極難得的。但在淨土中，都能安住大乘，不離世間，又不著世間。如<cit><bibl><title level="m">《維摩
-<lb n="0155a03" ed="Y"/><lb n="0155a03" ed="Y" type="old"/>詰經》</title>所說：</bibl><quote type="嚴謹引文">「非凡夫行，非<note n="0155a0301" resp="CBETA" type="add">賢聖【CB】，聖賢【印順】</note><app n="0155a0301"><lem wit="【CB】" resp="正聞出版社">賢聖<note type="cf1">《維摩詰所說經》卷2〈5 文殊師利問疾品〉(CBETA, T14, no. 475, p. 545, b29)</note></lem><rdg wit="【印順】">聖賢</rdg></app>（指小乘）行，是菩薩行。」</quote></cit>菩薩是自他俱利
+<lb n="0155a03" ed="Y"/><lb n="0155a03" ed="Y" type="old"/>詰經》</title>所說：</bibl><quote type="嚴謹引文">「非凡夫行，非<note n="0155a0301" resp="CBETA" type="add">賢聖【CB】，聖賢【印順】</note><app n="0155a0301"><lem resp="正聞出版社" wit="【CB】">賢聖<note type="cf1">《維摩詰所說經》卷2〈5 文殊師利問疾品〉(CBETA, T14, no. 475, p. 545, b29)</note></lem><rdg wit="【印順】">聖賢</rdg></app>（指小乘）行，是菩薩行。」</quote></cit>菩薩是自他俱利
 <lb n="0155a04" ed="Y"/><lb n="0155a04" ed="Y" type="old"/>、上求下化的。大家能這樣，那當然是極理想的了。</p>
-<lb n="0155a05" ed="Y"/><lb n="0155a05" ed="Y" type="old"/><p style="text-indent:2em">五、戒行清淨。淨土眾生，行為都合於道德，沒有殺盜淫妄的種種罪惡。人
+<lb n="0155a05" ed="Y"/><lb n="0155a05" ed="Y" type="old"/><p xml:id="pY17p0155a0501" style="text-indent:2em">五、戒行清淨。淨土眾生，行為都合於道德，沒有殺盜淫妄的種種罪惡。人
 <lb n="0155a06" ed="Y"/><lb n="0155a06" ed="Y" type="old"/>格健全，德行具足。</p>
-<lb n="0155a07" ed="Y"/><lb n="0155a07" ed="Y" type="old"/><p style="text-indent:2em">六、淨土眾生，沒有六根不具的。個個身心正常，能進修佛法。</p>
-<lb n="0155a08" ed="Y"/><lb n="0155a08" ed="Y" type="old"/><p style="text-indent:2em">七、淨土中沒有眾病的迫切苦。有了病，也不會貧病交加，而是眷屬、資具
+<lb n="0155a07" ed="Y"/><lb n="0155a07" ed="Y" type="old"/><p xml:id="pY17p0155a0701" style="text-indent:2em">六、淨土眾生，沒有六根不具的。個個身心正常，能進修佛法。</p>
+<lb n="0155a08" ed="Y"/><lb n="0155a08" ed="Y" type="old"/><p xml:id="pY17p0155a0801" style="text-indent:2em">七、淨土中沒有眾病的迫切苦。有了病，也不會貧病交加，而是眷屬、資具
 <lb n="0155a09" ed="Y"/><lb n="0155a09" ed="Y" type="old"/>、醫藥具足。有療養，有休息，眾病自然痊癒了。</p>
-<lb n="0155a10" ed="Y"/><lb n="0155a10" ed="Y" type="old"/><p style="text-indent:2em">八、人人是丈夫相。女人在生理上，苦痛多，障礙重；尤其是一向重男輕女
+<lb n="0155a10" ed="Y"/><lb n="0155a10" ed="Y" type="old"/><p xml:id="pY17p0155a1001" style="text-indent:2em">八、人人是丈夫相。女人在生理上，苦痛多，障礙重；尤其是一向重男輕女
 <lb n="0155a11" ed="Y"/><lb n="0155a11" ed="Y" type="old"/>的社會。淨土都是大丈夫相，表示沒有男女間的不平等。</p>
-<lb n="0155a12" ed="Y"/><lb n="0155a12" ed="Y" type="old"/><p style="text-indent:2em">九、思想正確，意志堅定。淨土眾生，不受魔網所纏縛，不為外道邪見所欺
+<lb n="0155a12" ed="Y"/><lb n="0155a12" ed="Y" type="old"/><p xml:id="pY17p0155a1201" style="text-indent:2em">九、思想正確，意志堅定。淨土眾生，不受魔網所纏縛，不為外道邪見所欺
 <lb n="0155a13" ed="Y"/><lb n="0155a13" ed="Y" type="old"/>騙，個個修習大乘正道。</p><pb n="0156a" ed="Y" xml:id="Y17.0017.0156a.old" type="old"/>
 <pb n="0156a" ed="Y" xml:id="Y17.0017.0156a"/>
-<lb n="0156a01" ed="Y"/><lb n="0156a01" ed="Y" type="old"/><p style="text-indent:2em">十、眾生不受王法所錄。古有「政簡刑輕」的理想；政治修明到沒有犯罪的
+<lb n="0156a01" ed="Y"/><lb n="0156a01" ed="Y" type="old"/><p xml:id="pY17p0156a0101" style="text-indent:2em">十、眾生不受王法所錄。古有「政簡刑輕」的理想；政治修明到沒有犯罪的
 <lb n="0156a02" ed="Y"/><lb n="0156a02" ed="Y" type="old"/>，有也是很少，社會多麼和平而安樂！淨土就是這一理想的實現，不像我們這個
 <lb n="0156a03" ed="Y"/><lb n="0156a03" ed="Y" type="old"/>世界，多有繫閉牢獄、刑戮鞭撻等身心苦惱。</p>
-<lb n="0156a04" ed="Y"/><lb n="0156a04" ed="Y" type="old"/><p style="text-indent:2em">十一、淨土中飲食豐足，而又進一步的飽餐法味，身心都有良好的糧食。不
+<lb n="0156a04" ed="Y"/><lb n="0156a04" ed="Y" type="old"/><p xml:id="pY17p0156a0401" style="text-indent:2em">十一、淨土中飲食豐足，而又進一步的飽餐法味，身心都有良好的糧食。不
 <lb n="0156a05" ed="Y"/><lb n="0156a05" ed="Y" type="old"/>像我們這個世界，饑渴逼惱，為了飲食而造惡業。</p>
-<lb n="0156a06" ed="Y"/><lb n="0156a06" ed="Y" type="old"/><p style="text-indent:2em">十二、沒有貧無衣服、常受蚊蟲寒熱逼惱的。不但有衣穿，還有種種正當的
+<lb n="0156a06" ed="Y"/><lb n="0156a06" ed="Y" type="old"/><p xml:id="pY17p0156a0601" style="text-indent:2em">十二、沒有貧無衣服、常受蚊蟲寒熱逼惱的。不但有衣穿，還有種種正當的
 <lb n="0156a07" ed="Y"/><lb n="0156a07" ed="Y" type="old"/>娛樂。負責教化的佛菩薩，先使眾生的生活不匱乏，再施以佛法的化導，真是<quote type="寬鬆引文">「
 <lb n="0156a08" ed="Y"/><lb n="0156a08" ed="Y" type="old"/>衣食足而後知禮義」</quote>。</p>
-<lb n="0156a09" ed="Y"/><lb n="0156a09" ed="Y" type="old"/><p style="text-indent:2em">淨土中，不但物質生活夠理想，而智慧、道德又能不斷的向佛道而進修。<lb n="0156a10" ed="Y" type="old"/>這
+<lb n="0156a09" ed="Y"/><lb n="0156a09" ed="Y" type="old"/><p xml:id="pY17p0156a0901" style="text-indent:2em">淨土中，不但物質生活夠理想，而智慧、道德又能不斷的向佛道而進修。<lb n="0156a10" ed="Y" type="old"/>這
 <lb n="0156a10" ed="Y"/>樣的淨土，比起中國人所說的大同世界，清淨莊嚴得多了！佛在因中，立下這<lb n="0156a11" ed="Y" type="old"/>樣
 <lb n="0156a11" ed="Y"/>的大願。為了實現這樣的理想，廣行菩薩道，從自利利他中去完成。這不是往<lb n="0156a12" ed="Y" type="old"/>生
 <lb n="0156a12" ed="Y"/>淨土，而是建設淨土。這可說是最極理想的社會了！</p></cb:div><pb n="0157a" ed="Y" xml:id="Y17.0017.0157a.old" type="old"/>
 <pb n="0157a" ed="Y" xml:id="Y17.0017.0157a"/>
 <lb n="0157a01" ed="Y"/><lb n="0157a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">二　東方淨土與中華政治理想</cb:mulu><head>二　東方淨土與中華政治理想</head>
-<lb n="0157a02" ed="Y"/><lb n="0157a02" ed="Y" type="old"/><p style="text-indent:2em">東方淨土，受琉璃光如來，日光、月光遍照菩薩的化導。佛菩薩的光臨淨土
+<lb n="0157a02" ed="Y"/><lb n="0157a02" ed="Y" type="old"/><p xml:id="pY17p0157a0201" style="text-indent:2em">東方淨土，受琉璃光如來，日光、月光遍照菩薩的化導。佛菩薩的光臨淨土
 <lb n="0157a03" ed="Y"/>，如虛<lb n="0157a03" ed="Y" type="old"/>空明淨、日月輝光一樣，象徵這國土的清淨與光明。中國的政治社會，從
 <lb n="0157a04" ed="Y"/>來也有<lb n="0157a04" ed="Y" type="old"/>這種理想，只是沒有佛法所說的具體。古時帝舜作<cit><bibl><title level="a">〈卿雲歌〉</title>說</bibl><quote type="寬鬆引文">「卿雲
 <lb n="0157a05" ed="Y"/>爛兮，<lb n="0157a05" ed="Y" type="old"/>糾縵縵兮，日月光華，旦復旦兮」</quote></cit>——以天像的瑞兆，來象徵國家的治平
@@ -421,7 +441,7 @@
 <lb n="0157a12" ed="Y"/>人間淨<lb n="0157a12" ed="Y" type="old"/>土的典範。大乘行者，應共同為這偉大理想而努力！</p></cb:div></cb:div><pb n="0158a" ed="Y" xml:id="Y17.0017.0158a.old" type="old"/>
 <pb n="0158a" ed="Y" xml:id="Y17.0017.0158a"/>
 <lb n="0158a01" ed="Y"/><lb n="0158a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　東方淨土之輝光此土</cb:mulu><head>四　東方淨土之輝光此土</head>
-<lb n="0158a02" ed="Y"/><lb n="0158a02" ed="Y" type="old"/><p style="text-indent:2em">現在，再說到東方淨土，藥師琉璃光佛的光明威德，加被我們這娑婆世界的
+<lb n="0158a02" ed="Y"/><lb n="0158a02" ed="Y" type="old"/><p xml:id="pY17p0158a0201" style="text-indent:2em">現在，再說到東方淨土，藥師琉璃光佛的光明威德，加被我們這娑婆世界的
 <lb n="0158a03" ed="Y"/><lb n="0158a03" ed="Y" type="old"/>眾生。東方與西方淨土，在攝化娑婆眾生方面，是不同的。西方淨土，從西方落
 <lb n="0158a04" ed="Y"/><lb n="0158a04" ed="Y" type="old"/>日，生起清淨世界，阿彌陀佛，觀音、勢至二菩薩。這如太陽的落山，所以著重
 <lb n="0158a05" ed="Y"/><lb n="0158a05" ed="Y" type="old"/>攝受眾生，作為死後的歸宿。西方表示肅殺，像秋冬一到，草木都枯萎凋謝。但
@@ -431,7 +451,7 @@
 <lb n="0158a09" ed="Y"/><lb n="0158a09" ed="Y" type="old"/>量清淨光明體。除了淨土的莊嚴與淨土眾生的福樂上進而外，還加被娑婆世界的
 <lb n="0158a10" ed="Y"/><lb n="0158a10" ed="Y" type="old"/>眾生，好像天上的日月，光明照耀到大地來一樣。所以東方淨土的攝受此土眾生
 <lb n="0158a11" ed="Y"/><lb n="0158a11" ed="Y" type="old"/>，不但死後得安穩，現生也能免除種種災難危厄。如於佛法沒有正見，或破戒的
-<lb n="0158a12" ed="Y"/><lb n="0158a12" ed="Y" type="old"/>、慳貪嫉<note n="0158a1201" resp="CBETA" type="add" subtype="規範字詞">妒【CB】，妬【印順】</note><app n="0158a1201"><lem wit="【CB】" resp="CBETA">妒</lem><rdg wit="【印順】">妬</rdg></app>的、誤入外道邪魔歧途的、造作種種惡業的，都可依琉璃光如來的威<pb n="0159a" ed="Y" xml:id="Y17.0017.0159a.old" type="old"/>
+<lb n="0158a12" ed="Y"/><lb n="0158a12" ed="Y" type="old"/>、慳貪嫉<note n="0158a1201" resp="CBETA" type="add" subtype="規範字詞">妒【CB】，妬【印順】</note><app n="0158a1201"><lem resp="CBETA" wit="【CB】">妒</lem><rdg wit="【印順】">妬</rdg></app>的、誤入外道邪魔歧途的、造作種種惡業的，都可依琉璃光如來的威<pb n="0159a" ed="Y" xml:id="Y17.0017.0159a.old" type="old"/>
 <pb n="0159a" ed="Y" xml:id="Y17.0017.0159a"/>
 <lb n="0159a01" ed="Y"/><lb n="0159a01" ed="Y" type="old"/>光加被，而改邪歸正，轉迷啟悟，獲得新生。這或者修人天行，或修二乘行，或
 <lb n="0159a02" ed="Y"/><lb n="0159a02" ed="Y" type="old"/>修菩薩行；求往生西方淨土而不能成就的，也能承琉璃光佛的威光，於臨命終時
@@ -440,7 +460,7 @@
 <lb n="0159a05" ed="Y"/><lb n="0159a05" ed="Y" type="old"/>理想國，在現實困迫災禍的人間，能蒙佛力的救護。這可見東方淨土的法門，是
 <lb n="0159a06" ed="Y"/><lb n="0159a06" ed="Y" type="old"/>如何的廣大！</p></cb:div>
 <lb n="0159a07" ed="Y"/><lb n="0159a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五　東方淨土之表徵自心</cb:mulu><head>五　東方淨土之表徵自心</head>
-<lb n="0159a08" ed="Y"/><lb n="0159a08" ed="Y" type="old"/><p style="text-indent:2em">依天界而表現的東方淨土，及佛菩薩威光的加被此土眾生，似乎佛與淨土是
+<lb n="0159a08" ed="Y"/><lb n="0159a08" ed="Y" type="old"/><p xml:id="pY17p0159a0801" style="text-indent:2em">依天界而表現的東方淨土，及佛菩薩威光的加被此土眾生，似乎佛與淨土是
 <lb n="0159a09" ed="Y"/><lb n="0159a09" ed="Y" type="old"/>外在的。這當然可以這樣說，但還有深刻的意義。一切宗教，都外依境界而啟發
 <lb n="0159a10" ed="Y"/><lb n="0159a10" ed="Y" type="old"/>內在的。人類有平等自由、永恆安樂的理想，有超越現實苦迫的願望，所以出現
 <lb n="0159a11" ed="Y"/><lb n="0159a11" ed="Y" type="old"/>種種宗教。但總是擬想為外在的神與神國，而攝引人去歸向。佛法所說的佛與淨
@@ -449,11 +469,11 @@
 <lb n="0160a01" ed="Y"/><lb n="0160a01" ed="Y" type="old"/>能達到與佛一樣的究竟圓滿。這才是宗教的究極意趣！外教雖有神與天國，但信
 <lb n="0160a02" ed="Y"/><lb n="0160a02" ed="Y" type="old"/>他學他，最多是進入神國，與神同在。其實，神是神，你是你，你永遠是不徹底
 <lb n="0160a03" ed="Y"/><lb n="0160a03" ed="Y" type="old"/>不平等的被統治者。這不能算是究竟圓滿的宗教！</p>
-<lb n="0160a04" ed="Y"/><lb n="0160a04" ed="Y" type="old"/><p style="text-indent:2em">現實不徹底的一切苦迫，淨化而到達圓滿境地，即是成佛，佛是自心的究竟
+<lb n="0160a04" ed="Y"/><lb n="0160a04" ed="Y" type="old"/><p xml:id="pY17p0160a0401" style="text-indent:2em">現實不徹底的一切苦迫，淨化而到達圓滿境地，即是成佛，佛是自心的究竟
 <lb n="0160a05" ed="Y"/><lb n="0160a05" ed="Y" type="old"/>清淨。因此，或說<quote type="嚴謹引文">「心即是佛」</quote>，或說<quote type="嚴謹引文">「唯心淨土」</quote>。有些誤解了，抹煞外在的
 <lb n="0160a06" ed="Y"/><lb n="0160a06" ed="Y" type="old"/>淨土，這是不對的。法性身土雖沒有彼此差別，但不能沒有其他的淨土與諸佛；
 <lb n="0160a07" ed="Y"/><lb n="0160a07" ed="Y" type="old"/>不能因自心的佛淨土，而否認其他的一切。</p>
-<lb n="0160a08" ed="Y"/><lb n="0160a08" ed="Y" type="old"/><p style="text-indent:2em">從自己身心來說，東方淨土表徵些什麼呢？眾生是愚昧的、顛倒的，沒有實
+<lb n="0160a08" ed="Y"/><lb n="0160a08" ed="Y" type="old"/><p xml:id="pY17p0160a0801" style="text-indent:2em">從自己身心來說，東方淨土表徵些什麼呢？眾生是愚昧的、顛倒的，沒有實
 <lb n="0160a09" ed="Y"/><lb n="0160a09" ed="Y" type="old"/>在的我法，而執著實我與實法。這不能通達法性——空性，就是無明。有了無明
 <lb n="0160a10" ed="Y"/><lb n="0160a10" ed="Y" type="old"/>，即生死流轉，苦苦不已。這如有了雲霧，就不見虛空的真相；虛空是那樣的暗
 <lb n="0160a11" ed="Y"/><lb n="0160a11" ed="Y" type="old"/>昧。到成佛，覺證了法界的清淨真相，才不為無明所蔽。如虛空的雲消霧散，是
@@ -463,20 +483,20 @@
 <lb n="0161a01" ed="Y"/><lb n="0161a01" ed="Y" type="old"/>不正確一樣。依龍樹論說，如悟了無明的實性，無明就是般若（明）；如不悟，
 <lb n="0161a02" ed="Y"/><lb n="0161a02" ed="Y" type="old"/>般若也成為無明。所以即暗昧的虛空為明淨的；即迷昧了的眾生，如覺了法性清
 <lb n="0161a03" ed="Y"/><lb n="0161a03" ed="Y" type="old"/>淨，究竟圓滿，是琉璃光佛。</p>
-<lb n="0161a04" ed="Y"/><lb n="0161a04" ed="Y" type="old"/><p style="text-indent:2em">眾生無明為本，而有兩大煩惱——愛與見。見是知解的，見解的種種偏執。
+<lb n="0161a04" ed="Y"/><lb n="0161a04" ed="Y" type="old"/><p xml:id="pY17p0161a0401" style="text-indent:2em">眾生無明為本，而有兩大煩惱——愛與見。見是知解的，見解的種種偏執。
 <lb n="0161a05" ed="Y"/><lb n="0161a05" ed="Y" type="old"/>愛是情感的，對自我及外境，貪戀不捨。所以煩惱有見所斷、修所斷二類。經說
 <lb n="0161a06" ed="Y"/><lb n="0161a06" ed="Y" type="old"/>煩惱有五住地：見一處住地，欲愛住地，色愛住地，有愛住地，無明住地。無明
 <lb n="0161a07" ed="Y"/><lb n="0161a07" ed="Y" type="old"/>住地（虛空暗昧）為本依，而有見、愛（如雲如霧）；見是我見法見，愛是我愛
 <lb n="0161a08" ed="Y"/><lb n="0161a08" ed="Y" type="old"/>法愛。到了證入清淨法性，兩大煩惱就轉為兩大德性。見是如實正見，就是般若
 <lb n="0161a09" ed="Y"/><lb n="0161a09" ed="Y" type="old"/>、菩提；愛淨化而為慈悲。智慧如日光的遍照成事，慈悲如月光的清涼蔭物。這
 <lb n="0161a10" ed="Y"/><lb n="0161a10" ed="Y" type="old"/>就是東方淨土中，日光遍照與月光遍照二大菩薩所表徵的德性。</p>
-<lb n="0161a11" ed="Y"/><lb n="0161a11" ed="Y" type="old"/><p style="text-indent:2em">還有八大菩薩，在凡夫位，即有漏八識或八邪道；覺悟時，成無漏八識（或
+<lb n="0161a11" ed="Y"/><lb n="0161a11" ed="Y" type="old"/><p xml:id="pY17p0161a1101" style="text-indent:2em">還有八大菩薩，在凡夫位，即有漏八識或八邪道；覺悟時，成無漏八識（或
 <lb n="0161a12" ed="Y"/><lb n="0161a12" ed="Y" type="old"/>名四智）或八正道。約<quote source="T25n1509_p0072a14" type="嚴謹引文">「八正道行入涅槃」<note n="0161001" resp="謝淑歆" type="add">《大智度論》卷2〈1 序品〉(CBETA, T25, no. 1509, p. 72, a14)</note></quote>說，表徵八正道的導向寂滅，更為妥
 <lb n="0161a13" ed="Y"/><lb n="0161a13" ed="Y" type="old"/>貼。又迷於見，著於愛，引起無邊的煩惱；這些煩惱（八萬四千），如無數星宿<pb n="0162a" ed="Y" xml:id="Y17.0017.0162a.old" type="old"/>
 <pb n="0162a" ed="Y" xml:id="Y17.0017.0162a"/>
 <lb n="0162a01" ed="Y"/><lb n="0162a01" ed="Y" type="old"/>的隱沒闇淡。空界明淨時，無數星宿輝光，那就是覺證清淨法界，成就一切（八
 <lb n="0162a02" ed="Y"/><lb n="0162a02" ed="Y" type="old"/>萬四千）功德了！</p>
-<lb n="0162a03" ed="Y"/><lb n="0162a03" ed="Y" type="old"/><p style="text-indent:2em">東方淨土的表徵自心，可說是佛法的特色。從眾生的本性清淨（本性空），
+<lb n="0162a03" ed="Y"/><lb n="0162a03" ed="Y" type="old"/><p xml:id="pY17p0162a0301" style="text-indent:2em">東方淨土的表徵自心，可說是佛法的特色。從眾生的本性清淨（本性空），
 <lb n="0162a04" ed="Y"/><lb n="0162a04" ed="Y" type="old"/>而顯出煩惱即菩提、生死即涅槃；無明愛見等一切煩惱的轉化，就是佛果的無邊
 <lb n="0162a05" ed="Y"/><lb n="0162a05" ed="Y" type="old"/>功德。如來藏（佛性）法門，特別指出眾生心本具清淨德性、智慧光明，所以<lb n="0162a06" ed="Y" type="old"/>不
 <lb n="0162a06" ed="Y"/>僅是心本淨性，而且是心光明性。這是直指生死雜染的當下，本有淨明；明暗<lb n="0162a07" ed="Y" type="old"/>、
@@ -489,10 +509,10 @@
 <lb n="0162a13" ed="Y"/>向外求，而不知直向自身去掘發，如自身有寶而向他求乞，失卻佛教的真價值<pb n="0163a" ed="Y" xml:id="Y17.0017.0163a.old" type="old"/><lb n="0163a01" ed="Y" type="old"/>，
 <pb n="0163a" ed="Y" xml:id="Y17.0017.0163a"/>
 <lb n="0163a01" ed="Y"/>類如神教的歸向於天神、求生於天國了。反之，如了解宗教的究極意趣，那麼仰
-<lb n="0163a02" ed="Y"/><lb n="0163a02" ed="Y" type="old"/>望神力與求生天國的神教，病在不能徹底體認自己，如霧<note n="0163a0201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0163a0201"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>看花，近似而不夠真
+<lb n="0163a02" ed="Y"/><lb n="0163a02" ed="Y" type="old"/>望神力與求生天國的神教，病在不能徹底體認自己，如霧<note n="0163a0201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0163a0201"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>看花，近似而不夠真
 <lb n="0163a03" ed="Y"/><lb n="0163a03" ed="Y" type="old"/>切。如能徹了究竟，才知一切宗教的崇仰——神與天國等，都不外眾生本具明淨
 <lb n="0163a04" ed="Y"/><lb n="0163a04" ed="Y" type="old"/>性德的內熏，而表達出來。這所以<title level="m">《楞伽經》</title>列舉印度宗教的梵、自在、因陀羅
 <lb n="0163a05" ed="Y"/><lb n="0163a05" ed="Y" type="old"/>等神，而說世人只知崇拜，而不知道就是佛。</p>
-<lb n="0163a06" ed="Y"/><lb n="0163a06" ed="Y" type="old"/><p style="text-indent:2em">在人智不斷進步的現在到將來，擬人的神教，必然的歸於消失。真正的宗教
+<lb n="0163a06" ed="Y"/><lb n="0163a06" ed="Y" type="old"/><p xml:id="pY17p0163a0601" style="text-indent:2em">在人智不斷進步的現在到將來，擬人的神教，必然的歸於消失。真正的宗教
 <lb n="0163a07" ed="Y"/><lb n="0163a07" ed="Y" type="old"/>——佛教，將成為一切人的依怙。（能度、慧理記）</p></cb:div></cb:div><pb n="0164a" ed="Y" xml:id="Y17.0017.0164a.old" type="old"/>
 </body></text></TEI>

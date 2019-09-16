@@ -12,51 +12,71 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>初版一刷<date>Date: 2004/06</date>新式標點版</edition>
+			<edition>初版一刷<date>Date: 2004/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>11卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 43, No. 41</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>11卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">43</idno>.<idno type="no">41</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">永光集</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">三、「灌頂」在佛法中的起因與發展</cb:mulu><cb:mulu level="2" type="其他">三</cb:mulu>
-<milestone unit="juan" n="4"/>
+<milestone n="4" unit="juan"/>
 <pb n="0175a" ed="Y" xml:id="Y43.0041.0175a"/>
 <lb n="0175a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">四、《南傳大藏經》於漢譯教法中的地位</cb:mulu><head>《南傳大藏經》於漢譯教法中的地位</head>
-<lb n="0175a02" ed="Y"/><p style="text-indent:2em">吳老擇居士，說到高雄菩妙法師，發起進行<title level="s">《南傳大藏經》</title>的翻譯，這是中
+<lb n="0175a02" ed="Y"/><p xml:id="pY43p0175a0201" style="text-indent:2em">吳老擇居士，說到高雄菩妙法師，發起進行<title level="s">《南傳大藏經》</title>的翻譯，這是中
 <lb n="0175a03" ed="Y"/>國佛教界的一件大事，菩妙法師的大心與卓見，值得隨喜讚歎！</p>
-<lb n="0175a04" ed="Y"/><p style="text-indent:2em"><title level="s">《南傳大藏經》</title>，是巴利語三藏的日文譯本。巴利語，是從恆河流域而向西
+<lb n="0175a04" ed="Y"/><p xml:id="pY43p0175a0401" style="text-indent:2em"><title level="s">《南傳大藏經》</title>，是巴利語三藏的日文譯本。巴利語，是從恆河流域而向西
 <lb n="0175a05" ed="Y"/>南傳布的，優禪尼一帶佛法所使用的當地方言。阿育王<note place="inline">西元前三世紀</note>時，開始傳
 <lb n="0175a06" ed="Y"/>入錫蘭（今名斯里蘭卡），展轉傳誦；西元前一世紀末，為了聖教的保存，才全
 <lb n="0175a07" ed="Y"/>部記錄下來。但流傳久了，有些已經轉譯為錫蘭文。西元五世紀初，摩竭陀的覺
@@ -74,19 +94,19 @@
 <lb n="0176a07" ed="Y"/>。這雖然是部派的，但所傳經律，應用印度中古時期的方言，到底去佛世不遠，
 <lb n="0176a08" ed="Y"/>便於探求印度初期「佛法」的實態。把握佛法的特質，成為佛弟子的信行，在佛
 <lb n="0176a09" ed="Y"/>法的研究中，可說是太重要了！</p>
-<lb n="0176a10" ed="Y"/><p style="text-indent:2em">巴利語三藏中，「律藏」近於（同一系的）法藏部的<title level="m">《四分律》</title>。「經藏」
+<lb n="0176a10" ed="Y"/><p xml:id="pY43p0176a1001" style="text-indent:2em">巴利語三藏中，「律藏」近於（同一系的）法藏部的<title level="m">《四分律》</title>。「經藏」
 <lb n="0176a11" ed="Y"/>分五部：前四部與四阿含相當；第五<title level="m">《小部》</title>，其他部派是稱為「雜藏」的。<title level="m">《
 <lb n="0176a12" ed="Y"/>小部》</title>共十五種，有些成立要遲一些（語音也小有差別）。<title level="m">《小部》</title>中的<title level="a">〈佛譬
 <lb n="0176a13" ed="Y"/>喻〉</title>（<title level="m">《譬喻》</title>的一分），說到了十方佛的來集；<title level="m">《佛種姓》</title>與<title level="m">《所行藏》</title>，說
 <pb n="0177a" ed="Y" xml:id="Y43.0041.0177a"/>
-<lb n="0177a01" ed="Y"/>菩薩的波羅蜜多行；<title level="m">《本生》</title>共<note n="0177a0101" resp="CBETA" type="add">五四七【CB】，五百四十八【印順】</note><app n="0177a0101"><lem wit="【CB】" resp="正聞出版社">五四七</lem><rdg wit="【印順】">五百四十八</rdg></app>則，從傳說的事<note n="0177a0102" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0177a0102"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>中，顯出了菩薩的
+<lb n="0177a01" ed="Y"/>菩薩的波羅蜜多行；<title level="m">《本生》</title>共<note n="0177a0101" resp="CBETA" type="add">五四七【CB】，五百四十八【印順】</note><app n="0177a0101"><lem resp="正聞出版社" wit="【CB】">五四七</lem><rdg wit="【印順】">五百四十八</rdg></app>則，從傳說的事<note n="0177a0102" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0177a0102"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>中，顯出了菩薩的
 <lb n="0177a02" ed="Y"/>德行與風格。有的部派，依「雜藏」而別立「菩薩藏」，可以想見其間的關係了
 <lb n="0177a03" ed="Y"/>。「論藏」有七部：六部是阿毘達磨；第七<title level="m">《論事》</title>傳說是阿育王時，目犍連子
 <lb n="0177a04" ed="Y"/>帝須所造（有些內容是後起的），評破其他部派的異義集。巴利語的「論義」有
 <lb n="0177a05" ed="Y"/>七部，而說一切有部的「一身六足」，也是七部（赤銅鍱部傳五師相承，有部也
 <lb n="0177a06" ed="Y"/>有五師相承說），這應有古代共同的傳說吧！</p>
-<lb n="0177a07" ed="Y"/><p style="text-indent:2em">巴利語三藏的譯為華文，是非常有意義的：</p>
-<lb n="0177a08" ed="Y"/><p style="text-indent:2em">一、擴大華文佛教的內容：華文佛教，是以中期「大乘佛法」為主，前有初
+<lb n="0177a07" ed="Y"/><p xml:id="pY43p0177a0701" style="text-indent:2em">巴利語三藏的譯為華文，是非常有意義的：</p>
+<lb n="0177a08" ed="Y"/><p xml:id="pY43p0177a0801" style="text-indent:2em">一、擴大華文佛教的內容：華文佛教，是以中期「大乘佛法」為主，前有初
 <lb n="0177a09" ed="Y"/>期「佛法」的三藏，下通後期「秘密大乘佛法」的教典。初期三藏，主要從北道
 <lb n="0177a10" ed="Y"/>經西域而傳入的。從南方海道來的，在宋、齊、梁間<note place="inline">西元四二四——五一八年</note>，有
 <lb n="0177a11" ed="Y"/>師子國比丘尼來，依律授比丘尼戒（二部得戒）；廣州方面，譯出「五百本生經
@@ -95,7 +115,7 @@
 <pb n="0178a" ed="Y" xml:id="Y43.0041.0178a"/>
 <lb n="0178a01" ed="Y"/>，但沒有能受到當時佛教界的重視。現在全部翻譯過來，足以彌補這方面的偏缺
 <lb n="0178a02" ed="Y"/>。</p>
-<lb n="0178a03" ed="Y"/><p style="text-indent:2em">二、從比較研究而正確理解「佛法」：我國過去所譯的初期「佛法」三藏，
+<lb n="0178a03" ed="Y"/><p xml:id="pY43p0178a0301" style="text-indent:2em">二、從比較研究而正確理解「佛法」：我國過去所譯的初期「佛法」三藏，
 <lb n="0178a04" ed="Y"/>屬於眾多部派，部帙繁多，但沒有巴利語的三藏。如譯出而作公正的比較研究，
 <lb n="0178a05" ed="Y"/>那一定有更好的理解。如「律藏」，過去譯有大眾部的「摩訶僧祇律」，化地部
 <lb n="0178a06" ed="Y"/>的<title level="m">《五分律》</title>，法藏部的<title level="m">《四分律》</title>，說一切有部的<title level="m">《十誦律》</title>與<title level="m">《根本說一切
@@ -103,14 +123,14 @@
 <lb n="0178a08" ed="Y"/>所譯的，與赤銅鍱部律作比較，在組織方面，可以理解律部的成立過程；內容方
 <lb n="0178a09" ed="Y"/>面，可以發現釋尊的「依法攝僧」，制立僧伽律制的原則與實施，更能從部派分
 <lb n="0178a10" ed="Y"/>化，理解適應不同地區民情而有所差別。</p>
-<lb n="0178a11" ed="Y"/><p style="text-indent:2em">三、探求「佛法」與「大乘佛法」間的通道：佛法本來是一味的，因根機、
+<lb n="0178a11" ed="Y"/><p xml:id="pY43p0178a1101" style="text-indent:2em">三、探求「佛法」與「大乘佛法」間的通道：佛法本來是一味的，因根機、
 <lb n="0178a12" ed="Y"/>傳承等而有不同的開展。我國以「大乘佛法」為主，一向以巴利語三藏等「佛法
 <lb n="0178a13" ed="Y"/>」為小乘。然深一層探究，大乘甚深義，本於<title level="m">《雜阿含》</title>——<title level="m">《相應部》</title>等四部
 <pb n="0179a" ed="Y" xml:id="Y43.0041.0179a"/>
 <lb n="0179a01" ed="Y"/>阿含；而十方世界有佛，菩薩波羅蜜多廣大行，是從<title level="m">《小部》</title>——「雜藏」中來
-<lb n="0179a02" ed="Y"/>的。我國佛教界，應依巴利語三藏的<note n="0179a0201" resp="CBETA" type="add" subtype="規範字詞">漢譯【CB】，華譯【印順】</note><app n="0179a0201"><lem wit="【CB】" resp="CBETA">漢譯</lem><rdg wit="【印順】">華譯</rdg></app>本，探求「佛法」與「大乘佛法」的通
+<lb n="0179a02" ed="Y"/>的。我國佛教界，應依巴利語三藏的<note n="0179a0201" resp="CBETA" type="add" subtype="規範字詞">漢譯【CB】，華譯【印順】</note><app n="0179a0201"><lem resp="CBETA" wit="【CB】">漢譯</lem><rdg wit="【印順】">華譯</rdg></app>本，探求「佛法」與「大乘佛法」的通
 <lb n="0179a03" ed="Y"/>道，互相尊重，現在佛教已進入世界性的時代了！</p>
-<lb n="0179a04" ed="Y"/><p style="text-indent:2em">巴利語三藏，傳入錫蘭，又傳到緬、泰、高棉等地區。巴利語有語音而沒有
+<lb n="0179a04" ed="Y"/><p xml:id="pY43p0179a0401" style="text-indent:2em">巴利語三藏，傳入錫蘭，又傳到緬、泰、高棉等地區。巴利語有語音而沒有
 <lb n="0179a05" ed="Y"/>書寫的文字，所以各地都用當地的字母，寫下巴利語三藏；近代又有英文、緬文
 <lb n="0179a06" ed="Y"/>、日文等譯本。<title level="s">《南傳大藏經》</title>，就是日文的譯本。從昭和十年到十六年<note place="inline">西元一
 <lb n="0179a07" ed="Y"/>九三五——四一年</note>，由「高楠博士紀念會」譯編刊行的。四十多年前，我國曾發起
@@ -119,6 +139,6 @@
 <lb n="0179a10" ed="Y"/>參考英譯本而加以訂正。由於政情的急劇變化，不能實現全譯與刊行，對中國佛
 <lb n="0179a11" ed="Y"/>教來說，真是一大憾事！現在，菩妙法師發起來翻譯印行，真是太好了！我一心
 <lb n="0179a12" ed="Y"/>祝願，願譯藏的完善而能順利的完成！</p>
-<lb n="0179a13" ed="Y"/><p style="margin-left:4em">（<bibl><title level="m">《雜阿含經之研究》</title><biblScope from="195" to="196" type="pp">頁一九五——一九六</biblScope></bibl>）</p></cb:div>
+<lb n="0179a13" ed="Y"/><p xml:id="pY43p0179a1301" style="margin-left:4em">（<bibl><title level="m">《雜阿含經之研究》</title><biblScope from="195" to="196" type="pp">頁一九五——一九六</biblScope></bibl>）</p></cb:div>
 <pb n="0180a" ed="Y" xml:id="Y43.0041.0180a"/>
 </body></text></TEI>

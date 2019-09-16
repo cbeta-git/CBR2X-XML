@@ -12,55 +12,75 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/11</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/11</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>14卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 14, No. 14</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">14</idno>.<idno type="no">14</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛在人間</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十三、佛教與教育</cb:mulu>
-<milestone unit="juan" n="14"/><pb n="0333a" ed="Y" xml:id="Y14.0014.0333a.old" type="old"/>
+<milestone n="14" unit="juan"/><pb n="0333a" ed="Y" xml:id="Y14.0014.0333a.old" type="old"/>
 <pb n="0333a" ed="Y" xml:id="Y14.0014.0333a"/>
 <lb n="0333a01" ed="Y"/><lb n="0333a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十四、發揚佛法以鼓鑄世界性之新文化</cb:mulu><head>發揚佛法以鼓鑄世界性之新文化<note n="0333001" resp="DILA" type="add">民國四八年撰。</note></head>
 <lb n="0333a02" ed="Y"/><lb n="0333a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　佛法與世界性</cb:mulu><head>一　佛法與世界性</head>
-<lb n="0333a03" ed="Y"/><lb n="0333a03" ed="Y" type="old"/><p style="text-indent:2em">太虛大師圓寂以來，快要十五年，他創辦的<title level="m">《海潮音》</title>，更是滿四十年了。
+<lb n="0333a03" ed="Y"/><lb n="0333a03" ed="Y" type="old"/><p xml:id="pY14p0333a0301" style="text-indent:2em">太虛大師圓寂以來，快要十五年，他創辦的<title level="m">《海潮音》</title>，更是滿四十年了。
 <lb n="0333a04" ed="Y"/><lb n="0333a04" ed="Y" type="old"/>教難國難，還是那樣嚴重；世局人心，還是那樣混亂！這對於以<quote type="嚴謹引文">「革新僧制，淨
 <lb n="0333a05" ed="Y"/><lb n="0333a05" ed="Y" type="old"/>化人生，鼓鑄世界性之文化為鵠」</quote>的大師，應該是不勝其感慨的！最近，應中華
 <lb n="0333a06" ed="Y"/><lb n="0333a06" ed="Y" type="old"/>民國聯合國同志會約，作了一次「佛法與世界性」的座談。時間匆促，語不達意
 <lb n="0333a07" ed="Y"/><lb n="0333a07" ed="Y" type="old"/>，趁這<title level="m">《海潮音》</title>四十周年紀念，特演繹的再說一番。</p>
-<lb n="0333a08" ed="Y"/><lb n="0333a08" ed="Y" type="old"/><p style="text-indent:2em">我們這個時代，已從國家而漸漸走上國際聯合。由於科學進步，更進入太空
+<lb n="0333a08" ed="Y"/><lb n="0333a08" ed="Y" type="old"/><p xml:id="pY14p0333a0801" style="text-indent:2em">我們這個時代，已從國家而漸漸走上國際聯合。由於科學進步，更進入太空
 <lb n="0333a09" ed="Y"/><lb n="0333a09" ed="Y" type="old"/>時代；不同星球的往來頻繁，也許是不會太久的事了。然而人類的思想，儘管高
 <lb n="0333a10" ed="Y"/><lb n="0333a10" ed="Y" type="old"/>喊平等、自由、博愛，而實際卻背道而馳。不是不想、不要，而問題是：現居優<pb n="0334a" ed="Y" xml:id="Y14.0014.0334a.old" type="old"/>
 <pb n="0334a" ed="Y" xml:id="Y14.0014.0334a"/>
@@ -74,7 +94,7 @@
 <lb n="0334a08" ed="Y"/><lb n="0334a08" ed="Y" type="old"/>是否能建樹真正世界性的文化，來適應這新的時代。從前太虛大師，以為唯有發
 <lb n="0334a09" ed="Y"/><lb n="0334a09" ed="Y" type="old"/>揚佛法，以佛法而鼓鑄世界新文化，人類才有希望。這點，我們是完全同意大師
 <lb n="0334a10" ed="Y"/><lb n="0334a10" ed="Y" type="old"/>的見地。</p>
-<lb n="0334a11" ed="Y"/><lb n="0334a11" ed="Y" type="old"/><p style="text-indent:2em">無論是宗教、政治，或其他文化，其最初，大都帶有區域文化的色彩。這在
+<lb n="0334a11" ed="Y"/><lb n="0334a11" ed="Y" type="old"/><p xml:id="pY14p0334a1101" style="text-indent:2em">無論是宗教、政治，或其他文化，其最初，大都帶有區域文化的色彩。這在
 <lb n="0334a12" ed="Y"/><lb n="0334a12" ed="Y" type="old"/>印度佛教，也還是一樣的。每一宗教或政治等，都是人類自己的產物，都是適應
 <lb n="0334a13" ed="Y"/><lb n="0334a13" ed="Y" type="old"/>人類某種欲求而出現的。人與人間，有共通性，所以不同區域，不同時代的宗教<pb n="0335a" ed="Y" xml:id="Y14.0014.0335a.old" type="old"/>
 <pb n="0335a" ed="Y" xml:id="Y14.0014.0335a"/>
@@ -95,7 +115,7 @@
 <lb n="0336a01" ed="Y"/>在宗教界，還不過狂熱的排他性而已；如成為政治的指導精神，那被奴役的人<lb n="0336a02" ed="Y" type="old"/>類
 <lb n="0336a02" ed="Y"/>可夠苦了！總之，這種局限的、偏激的、排斥異己而向外擴張，即使是舉世風<lb n="0336a03" ed="Y" type="old"/>行
 <lb n="0336a03" ed="Y"/>，也無非真正世界精神的反動，招來人類更大的災禍。</p>
-<lb n="0336a04" ed="Y"/><lb n="0336a04" ed="Y" type="old"/><p style="text-indent:2em">說到佛教的世界性，依佛法的術語來說，應該是「法界性」。姑以人類來說
+<lb n="0336a04" ed="Y"/><lb n="0336a04" ed="Y" type="old"/><p xml:id="pY14p0336a0401" style="text-indent:2em">說到佛教的世界性，依佛法的術語來說，應該是「法界性」。姑以人類來說
 <lb n="0336a05" ed="Y"/><lb n="0336a05" ed="Y" type="old"/>，佛法，從來就不是少數人，多數人，而是一切人（一切眾生）的。論空間，不
 <lb n="0336a06" ed="Y"/><lb n="0336a06" ed="Y" type="old"/>是一地區，一星球（世界），而是一切世界的。論時間，不是某一時代，而是盡
 <lb n="0336a07" ed="Y"/><lb n="0336a07" ed="Y" type="old"/>未來際。所以佛法常說<quote type="嚴謹引文">「豎窮三際，橫遍十方」</quote>。這是從無限時空中的一切眾<lb n="0336a08" ed="Y" type="old"/>生
@@ -108,11 +128,11 @@
 <pb n="0337a" ed="Y" xml:id="Y14.0014.0337a"/>
 <lb n="0337a01" ed="Y"/>的發展。</p></cb:div>
 <lb n="0337a02" ed="Y"/><lb n="0337a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　佛教的世界性原理</cb:mulu><head>二　佛教的世界性原理</head>
-<lb n="0337a03" ed="Y"/><lb n="0337a03" ed="Y" type="old"/><p style="text-indent:2em">佛教的世界性（法界性）原理，從何得來？這是由於釋迦牟尼佛在菩提樹<lb n="0337a04" ed="Y" type="old"/>下
+<lb n="0337a03" ed="Y"/><lb n="0337a03" ed="Y" type="old"/><p xml:id="pY14p0337a0301" style="text-indent:2em">佛教的世界性（法界性）原理，從何得來？這是由於釋迦牟尼佛在菩提樹<lb n="0337a04" ed="Y" type="old"/>下
 <lb n="0337a04" ed="Y"/>大覺大悟的體證得來。體證到的，在不可說中，說為<quote type="嚴謹引文">「法界」</quote>；依此而宣揚<lb n="0337a05" ed="Y" type="old"/>出來
 <lb n="0337a05" ed="Y"/>的佛法，就名為<quote type="嚴謹引文">「稱法界性」</quote>的<quote type="嚴謹引文">「法界等流」</quote>。佛所親證的法界性，與庸常<lb n="0337a06" ed="Y" type="old"/>的見
 <lb n="0337a06" ed="Y"/>解、受著自我意識支配的，不能相提並論。關於法界性，不妨從兩點來說明<lb n="0337a07" ed="Y" type="old"/>。</p>
-<lb n="0337a07" ed="Y"/><lb n="0337a08" ed="Y" type="old"/><p style="text-indent:2em">一、從事事差別解了法從緣生而深入空平等性：在一般的認識中，不但是外
+<lb n="0337a07" ed="Y"/><lb n="0337a08" ed="Y" type="old"/><p xml:id="pY14p0337a0701" style="text-indent:2em">一、從事事差別解了法從緣生而深入空平等性：在一般的認識中，不但是外
 <lb n="0337a08" ed="Y"/><lb n="0337a09" ed="Y" type="old"/>界的事物，就是內心的每一活動，都是一個個的。就是推論到的理性，也似乎是
 <lb n="0337a09" ed="Y"/><lb n="0337a10" ed="Y" type="old"/>「一合相」的。這種庸常的認識，本來無礙於世俗的認識；世間也確是那樣的，
 <lb n="0337a10" ed="Y"/><lb n="0337a11" ed="Y" type="old"/>大到星球，小到原子，都是表現為個體相的。然而，如推論到：時間是剎那剎那
@@ -141,7 +161,7 @@
 <lb n="0339a06" ed="Y"/><lb n="0339a07" ed="Y" type="old"/>所以說<quote type="嚴謹引文">「破二不著一」</quote>；<quote type="寬鬆引文">「一切法空，空亦不可得」</quote>。唯有通達空平等性，才<lb n="0339a08" ed="Y" type="old"/>不
 <lb n="0339a07" ed="Y"/>會落入是神、是物、是心等一元論，不會以常識的精製品為真性，引生一切由<lb n="0339a09" ed="Y" type="old"/>此
 <lb n="0339a08" ed="Y"/>而起，一切從屬於此的謬見。</p>
-<lb n="0339a09" ed="Y"/><lb n="0339a10" ed="Y" type="old"/><p style="text-indent:2em">人類的意識，直覺到那個體的，實在的一切，多少理解因果關聯而不能徹底
+<lb n="0339a09" ed="Y"/><lb n="0339a10" ed="Y" type="old"/><p xml:id="pY14p0339a0901" style="text-indent:2em">人類的意識，直覺到那個體的，實在的一切，多少理解因果關聯而不能徹底
 <lb n="0339a10" ed="Y"/><lb n="0339a11" ed="Y" type="old"/>，終於非要尋求一個實體不可。本此意識去看自己，也就把自己看作主體的。雖
 <lb n="0339a11" ed="Y"/><lb n="0339a12" ed="Y" type="old"/>多少理解到人類相依互助等事實，而在待人接物的實際生活中，總是自我中心的
 <lb n="0339a12" ed="Y"/><lb n="0339a13" ed="Y" type="old"/>。這在平常人還好一些，越是學問、事業有成就的，政治領袖、帝王等，每在不<pb n="0340a" ed="Y" xml:id="Y14.0014.0340a.old" type="old"/>
@@ -153,7 +173,7 @@
 <lb n="0340a04" ed="Y"/><lb n="0340a05" ed="Y" type="old"/>在。(二)、主伴無礙：在某一點上，以一為主而活動時，一切即相伴而助成，並無
 <lb n="0340a05" ed="Y"/><lb n="0340a06" ed="Y" type="old"/>絕對的主體。(三)、成奪無礙：一切是相依相成的，相成中含有相對性，相對的相
 <lb n="0340a06" ed="Y"/><lb n="0340a07" ed="Y" type="old"/>反活動，在關聯而共存中，也是相成的方便。</p>
-<lb n="0340a07" ed="Y"/><lb n="0340a08" ed="Y" type="old"/><p style="text-indent:2em">二、從念念分別解了意言無實而深入心光明性：人類的一切認識、主張、行
+<lb n="0340a07" ed="Y"/><lb n="0340a08" ed="Y" type="old"/><p xml:id="pY14p0340a0701" style="text-indent:2em">二、從念念分別解了意言無實而深入心光明性：人類的一切認識、主張、行
 <lb n="0340a08" ed="Y"/><lb n="0340a09" ed="Y" type="old"/>動、文物制度，都是依能知的心識而成立的。假如是木石一樣，這一切都不會有
 <lb n="0340a09" ed="Y"/><lb n="0340a10" ed="Y" type="old"/>了（也就無所謂人了）。可是人類的起心動念，是念念分別的：一個個的印象，
 <lb n="0340a10" ed="Y"/><lb n="0340a11" ed="Y" type="old"/>一個個的概念，正與外界事物的各各差別一樣。所以不自覺地，大抵是一個個的
@@ -169,7 +189,7 @@
 <lb n="0341a06" ed="Y"/><lb n="0341a07" ed="Y" type="old"/>又熏成新的成分。識的念念分別，是由「想」的「取像」而安立的名言，所以稱
 <lb n="0341a07" ed="Y"/><lb n="0341a08" ed="Y" type="old"/>為「意言」，也叫「名言」，因為內心的認識，與能表詮的語言，大致相同。也
 <lb n="0341a08" ed="Y"/><lb n="0341a09" ed="Y" type="old"/>叫「緣影」，因為這是心境交觸時留下的影子（熏習）。</p>
-<lb n="0341a09" ed="Y"/><lb n="0341a10" ed="Y" type="old"/><p style="text-indent:2em">人類的心識，受過去無邊的「名言熏習」所支配，現在又受一般人類的語文
+<lb n="0341a09" ed="Y"/><lb n="0341a10" ed="Y" type="old"/><p xml:id="pY14p0341a0901" style="text-indent:2em">人類的心識，受過去無邊的「名言熏習」所支配，現在又受一般人類的語文
 <lb n="0341a10" ed="Y"/><lb n="0341a11" ed="Y" type="old"/>、思想、文物制度所影響，人心正像一座文化的儲藏庫。文化的久遠堆集，當然
 <lb n="0341a11" ed="Y"/><lb n="0341a12" ed="Y" type="old"/>應有盡有，愈來愈豐富，愈來愈複雜，人類也就越來越聰明，越來越進步。可是
 <lb n="0341a12" ed="Y"/><lb n="0341a13" ed="Y" type="old"/>，正像文化古老的國家，每為古老的文化所束縛，而一些文化的毒素，已不斷地<pb n="0342a" ed="Y" xml:id="Y14.0014.0342a.old" type="old"/>
@@ -203,9 +223,9 @@
 <lb n="0343a12" ed="Y"/><lb n="0343a13" ed="Y" type="old"/>佛平等平等。</p></cb:div><pb n="0344a" ed="Y" xml:id="Y14.0014.0344a.old" type="old"/>
 <pb n="0344a" ed="Y" xml:id="Y14.0014.0344a"/>
 <lb n="0344a01" ed="Y"/><lb n="0344a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　佛教的世界性事例</cb:mulu><head>三　佛教的世界性事例</head>
-<lb n="0344a02" ed="Y"/><lb n="0344a02" ed="Y" type="old"/><p style="text-indent:2em">從佛自覺法界性而流出的佛教，顯示了世界性的文化。現在想舉幾項事例來
+<lb n="0344a02" ed="Y"/><lb n="0344a02" ed="Y" type="old"/><p xml:id="pY14p0344a0201" style="text-indent:2em">從佛自覺法界性而流出的佛教，顯示了世界性的文化。現在想舉幾項事例來
 <lb n="0344a03" ed="Y"/><lb n="0344a03" ed="Y" type="old"/>證成：</p>
-<lb n="0344a04" ed="Y"/><lb n="0344a04" ed="Y" type="old"/><p style="text-indent:2em">一、語文：人類的思想與情感交流，語文是重要的工具。在人類習用的語文
+<lb n="0344a04" ed="Y"/><lb n="0344a04" ed="Y" type="old"/><p xml:id="pY14p0344a0401" style="text-indent:2em">一、語文：人類的思想與情感交流，語文是重要的工具。在人類習用的語文
 <lb n="0344a05" ed="Y"/><lb n="0344a05" ed="Y" type="old"/>中，沒有不覺得自己的好，容易學。當然，在民族精神衰落時，有些人會咒詛自
 <lb n="0344a06" ed="Y"/><lb n="0344a06" ed="Y" type="old"/>己的語文，而以能使用外國語文為光榮的。有些宗教，神化他自己使用的語文，
 <lb n="0344a07" ed="Y"/><lb n="0344a07" ed="Y" type="old"/>看作神的語言；有的嚴格採用某一語文，以圖宗教的擴展與統一。由於佛的深入
@@ -219,7 +239,7 @@
 <lb n="0345a02" ed="Y"/><lb n="0345a02" ed="Y" type="old"/>不執，自由採用而自然交流。過去大陸的中國大寺院裡，僧眾來自各方，無形中
 <lb n="0345a03" ed="Y"/><lb n="0345a03" ed="Y" type="old"/>產生一種混合語，什麼人都說得不完全相同，可是大家都聽得懂。這也許是世界
 <lb n="0345a04" ed="Y"/><lb n="0345a04" ed="Y" type="old"/>性的語文無礙最好的事例。</p>
-<lb n="0345a05" ed="Y"/><lb n="0345a05" ed="Y" type="old"/><p style="text-indent:2em">二、解行：佛法的世界性，表現在理解與實行方面，特點是：(一)、隨機適應
+<lb n="0345a05" ed="Y"/><lb n="0345a05" ed="Y" type="old"/><p xml:id="pY14p0345a0501" style="text-indent:2em">二、解行：佛法的世界性，表現在理解與實行方面，特點是：(一)、隨機適應
 <lb n="0345a06" ed="Y"/><lb n="0345a06" ed="Y" type="old"/>：以佛的慧眼來看，人類的個性、知能、興趣、習慣，都是種種不同的。所以最
 <lb n="0345a07" ed="Y"/><lb n="0345a07" ed="Y" type="old"/>好的教化，是「適化無方」<note n="0345002" resp="謝淑歆" type="add">《出曜經》卷14〈13 道品〉(CBETA, T04, no. 212, p. 684, c26-27)</note>，以不同的方法，來適應化導不同的眾生。但內在有
 <lb n="0345a08" ed="Y"/><lb n="0345a08" ed="Y" type="old"/>著關聯性、一貫性，能不斷的引導向上，而到達同一的究竟。這點，佛法表現為
@@ -233,7 +253,7 @@
 <lb n="0346a02" ed="Y"/>，能治一切病。雖然在一般人看來，今日世界的佛教，每有出入；或者嫌他沒<lb n="0346a03" ed="Y" type="old"/>有
 <lb n="0346a03" ed="Y"/>嚴密的世界性組織，如天主教一樣。其實，佛法的多樣性，真是佛法世界性的<lb n="0346a04" ed="Y" type="old"/>特
 <lb n="0346a04" ed="Y"/>徵。真能在佛法中進修的，自會有同一的傾向，進入同一的至善境地。</p>
-<lb n="0346a05" ed="Y"/><lb n="0346a05" ed="Y" type="old"/><p style="text-indent:2em">(二)、自由抉擇：佛法是適應不同的根性，或淺或深，或予（為人悉檀）或奪
+<lb n="0346a05" ed="Y"/><lb n="0346a05" ed="Y" type="old"/><p xml:id="pY14p0346a0501" style="text-indent:2em">(二)、自由抉擇：佛法是適應不同的根性，或淺或深，或予（為人悉檀）或奪
 <lb n="0346a06" ed="Y"/><lb n="0346a06" ed="Y" type="old"/>（對治悉檀）。對於不同的教說，佛弟子是尊重自由思考的。特別是「應理論者
 <lb n="0346a07" ed="Y"/><lb n="0346a07" ed="Y" type="old"/>」，進展到但立現、比二量，不立聖教量以自拘蔽（聖教的真理，一定是合於現
 <lb n="0346a08" ed="Y"/><lb n="0346a08" ed="Y" type="old"/>量比量的）。依義不依語——不受語文所困蔽，重視內含的意義，尤其是注意到
@@ -246,7 +266,7 @@
 <lb n="0347a01" ed="Y"/><lb n="0347a01" ed="Y" type="old"/>的拘蔽，或印度教派的局限。重於實踐的禪者，從中透出而演為禪宗。不用固有
 <lb n="0347a02" ed="Y"/><lb n="0347a02" ed="Y" type="old"/>的術語、固有的教說，號稱<quote type="嚴謹引文">「不立文字」</quote>，而照樣學習佛法，傳布佛法，成為千
 <lb n="0347a03" ed="Y"/><lb n="0347a03" ed="Y" type="old"/>年來的中國佛教主流。</p>
-<lb n="0347a04" ed="Y"/><lb n="0347a04" ed="Y" type="old"/><p style="text-indent:2em">(三)、兼容並蓄：不但佛教內部的無限眾多而一致，對於教外，也一向以<quote type="嚴謹引文">「道
+<lb n="0347a04" ed="Y"/><lb n="0347a04" ed="Y" type="old"/><p xml:id="pY14p0347a0401" style="text-indent:2em">(三)、兼容並蓄：不但佛教內部的無限眾多而一致，對於教外，也一向以<quote type="嚴謹引文">「道
 <lb n="0347a05" ed="Y"/><lb n="0347a05" ed="Y" type="old"/>並行而不相悖」</quote>的精神來處理。佛世，一位異教徒，信仰佛法以後，想斷絕一向
 <lb n="0347a06" ed="Y"/><lb n="0347a06" ed="Y" type="old"/>敬奉的外道們的供養，但佛勸他照常的供給他們。佛法沒有一筆抹煞異教，覺得
 <lb n="0347a07" ed="Y"/><lb n="0347a07" ed="Y" type="old"/>在人性淨化的進修過程中，這只是程度低一些而已。佛不拒異教於善法之外，決
@@ -262,7 +282,7 @@
 <lb n="0348a03" ed="Y"/><lb n="0348a03" ed="Y" type="old"/>文化的根柢上，融攝了佛法，或者反而誹毀佛法，然在佛法泛應的精神上，依然
 <lb n="0348a04" ed="Y"/><lb n="0348a04" ed="Y" type="old"/>是滿意的部分成功。佛法必須保存佛法的完整性與原則，不斷的影響一切，而使
 <lb n="0348a05" ed="Y"/><lb n="0348a05" ed="Y" type="old"/>世界文化，充滿了佛教世界性的精神，共向於究竟的極則。</p>
-<lb n="0348a06" ed="Y"/><lb n="0348a06" ed="Y" type="old"/><p style="text-indent:2em">三、制度：在佛教的制度中，可以說到兩點：(一)、佛教是有僧團組織的，佛
+<lb n="0348a06" ed="Y"/><lb n="0348a06" ed="Y" type="old"/><p xml:id="pY14p0348a0601" style="text-indent:2em">三、制度：在佛教的制度中，可以說到兩點：(一)、佛教是有僧團組織的，佛
 <lb n="0348a07" ed="Y"/><lb n="0348a07" ed="Y" type="old"/>是實際的領導人，也是弟子們心目中的教主。但佛卻說<quote type="寬鬆引文">「我不攝受眾」</quote>，又說<lb n="0348a08" ed="Y" type="old"/><quote type="寬鬆引文">「
 <lb n="0348a08" ed="Y"/>我亦是僧數」</quote>。出家僧眾的組織，佛並不以領導者自居，而說<quote type="寬鬆引文">「以法攝僧<lb n="0348a09" ed="Y" type="old"/>」</quote>。法
 <lb n="0348a09" ed="Y"/>是真理與德行，大眾是受了真理與德行的感召而集合起來的。人人可以解<lb n="0348a10" ed="Y" type="old"/>脫，人
@@ -275,7 +295,7 @@
 <lb n="0349a02" ed="Y"/>制度。總之，佛教是適應一切，遍入一切，而引令向上，並非打倒一切，<lb n="0349a03" ed="Y" type="old"/>而標榜
 <lb n="0349a03" ed="Y"/>死定的法制，向全世界去強力推行。</p></cb:div>
 <lb n="0349a04" ed="Y"/><lb n="0349a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　結論</cb:mulu><head>四　結論</head>
-<lb n="0349a05" ed="Y"/><lb n="0349a05" ed="Y" type="old"/><p style="text-indent:2em">佛教的世界性，是根源於法界現證的。從此而流出的<quote type="嚴謹引文">「法界等流」</quote>——語文
+<lb n="0349a05" ed="Y"/><lb n="0349a05" ed="Y" type="old"/><p xml:id="pY14p0349a0501" style="text-indent:2em">佛教的世界性，是根源於法界現證的。從此而流出的<quote type="嚴謹引文">「法界等流」</quote>——語文
 <lb n="0349a06" ed="Y"/><lb n="0349a06" ed="Y" type="old"/>、思想、制度，無不表現了世界性，而充滿平等、自由、民主、寬容、慈悲的內
 <lb n="0349a07" ed="Y"/><lb n="0349a07" ed="Y" type="old"/>容。所以說<quote type="寬鬆引文">「發揚佛法以鼓鑄世界性的新文化」</quote>，不是以一套新的來取代舊的，
 <lb n="0349a08" ed="Y"/><lb n="0349a08" ed="Y" type="old"/>也不是打倒其他宗教而推行佛教，而是從發揚佛法中，化除實體的世界觀，銷融

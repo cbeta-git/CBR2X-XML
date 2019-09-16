@@ -12,53 +12,73 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版一刷<date>Date: 2013/04</date>新式標點版</edition>
+			<edition>新版一刷<date>Date: 2013/04</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>35卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 41, No. 39</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>35卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">41</idno>.<idno type="no">39</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">平凡的一生（重訂本）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">八　我回到了江南</cb:mulu>
-<milestone unit="juan" n="9"/>
+<milestone n="9" unit="juan"/>
 <lb n="0040a06" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">九　廈門、香港、臺灣</cb:mulu><head>九　廈門、香港、臺灣</head>
-<lb n="0040a07" ed="Y"/><p style="text-indent:2em">千僧齋，慧雲交來的二十元，遊興勃發，三昧庵的突然相逢，武昌的病苦，
+<lb n="0040a07" ed="Y"/><p xml:id="pY41p0040a0701" style="text-indent:2em">千僧齋，慧雲交來的二十元，遊興勃發，三昧庵的突然相逢，武昌的病苦，
 <lb n="0040a08" ed="Y"/>使我意外的避免了敵偽下生活的煎熬。現在，又一次的避免了苦難，已經過了五
 <lb n="0040a09" ed="Y"/>十年的自由生活。我的身體衰弱，不堪長途跋涉。生性內向而不善交往，也不可
 <lb n="0040a10" ed="Y"/>能有奔向（語言不通的）香港與臺灣的決心。我是怎樣避免了的？這是又一次不
 <lb n="0040a11" ed="Y"/>自覺的在安排，預先脫離了險地。</p>
-<lb n="0040a12" ed="Y"/><p style="text-indent:2em">因緣是非常複雜的，使我遠離政治動亂的苦難，主要應該是妙欽。妙欽與演
+<lb n="0040a12" ed="Y"/><p xml:id="pY41p0040a1201" style="text-indent:2em">因緣是非常複雜的，使我遠離政治動亂的苦難，主要應該是妙欽。妙欽與演
 <pb n="0041a" ed="Y" xml:id="Y41.0039.0041a"/>
 <lb n="0041a01" ed="Y"/>培等，在漢院同住了幾年，在法義的互相論究中，引發了一種共同的理想。希望
 <lb n="0041a02" ed="Y"/>在杭州一帶，找一個地方，集合少數同學，對佛法作深一層的研究。三十六年（
@@ -68,7 +88,7 @@
 <lb n="0041a06" ed="Y"/>隱然以我為主導，但我沒有經濟基礎，連自己的生活都解決不了。那該怎麼辦呢
 <lb n="0041a07" ed="Y"/>？當然寫緣起哪（這是我的事），找贊助人哪（佛性出去跑了幾趟），而主要卻
 <lb n="0041a08" ed="Y"/>寄希望於妙欽的一位長輩。</p>
-<lb n="0041a09" ed="Y"/><p style="text-indent:2em">妙欽是廈門（原籍惠安）人，與性願老法師有宗派的法統關係。抗戰期間，
+<lb n="0041a09" ed="Y"/><p xml:id="pY41p0041a0901" style="text-indent:2em">妙欽是廈門（原籍惠安）人，與性願老法師有宗派的法統關係。抗戰期間，
 <lb n="0041a10" ed="Y"/>性老開化菲島。三十七年冬天，性老回國，在南普陀寺舉行傳戒法會。本來，性
 <lb n="0041a11" ed="Y"/>老與虛大師的風格是完全不同的。虛大師門下，在閩南長老，特別是性老的心目
 <lb n="0041a12" ed="Y"/>中，也沒有留下良好的印象。我想，也許我是念公（福建金門人）的弟子，但主
@@ -78,7 +98,7 @@
 <lb n="0042a02" ed="Y"/>費也寄來了。說來有點離奇，傳戒法會，遠道去禮請羯磨、教授、引禮，是常有
 <lb n="0042a03" ed="Y"/>的；遠道禮請人去隨喜，是不曾聽說過的。我不好辜負性老的盛意，只能以祝賀
 <lb n="0042a04" ed="Y"/>者的心情，由妙解（妙欽的師弟）陪從，離杭州而去廈門。</p>
-<lb n="0042a05" ed="Y"/><p style="text-indent:2em">那時，已是三十七年十月，金元券的價格開始下落。買輪船票不容易，妙
+<lb n="0042a05" ed="Y"/><p xml:id="pY41p0042a0501" style="text-indent:2em">那時，已是三十七年十月，金元券的價格開始下落。買輪船票不容易，妙
 <lb n="0042a06" ed="Y"/>解從（福建人開的）桂圓行弄到一張船票，上船交錢。兩個人，一張票，上去了
 <lb n="0042a07" ed="Y"/>再說。等到輪船快開，也就是要買票了，才知道票價漲起十分之五，我們的錢只
 <lb n="0042a08" ed="Y"/>夠買一張票了，怎麼辦？我當然是沒有辦法的。妙解展開了外交活動，用閩南話
@@ -86,7 +106,7 @@
 <lb n="0042a10" ed="Y"/>這點，向他借到了買票的錢。年輕人有活力，能創造因緣，想到自己那樣的純由
 <lb n="0042a11" ed="Y"/>因緣的自然推動，實在太沒用了。虧了妙解，我才能到達廈門。可惜他遠去星洲
 <lb n="0042a12" ed="Y"/>，因緣不順，年輕輕的早死了！</p>
-<lb n="0042a13" ed="Y"/><p style="text-indent:2em">我就這樣的，意外的到了廈門。傳戒法會期間，見到了恩師念公上人與師弟
+<lb n="0042a13" ed="Y"/><p xml:id="pY41p0042a1301" style="text-indent:2em">我就這樣的，意外的到了廈門。傳戒法會期間，見到了恩師念公上人與師弟
 <pb n="0043a" ed="Y" xml:id="Y41.0039.0043a"/>
 <lb n="0043a01" ed="Y"/>印實。傳戒法會終了，性老約我去泉州（我就只去了這一次）。先到同安的梵天
 <lb n="0043a02" ed="Y"/>寺，這裡是先師念公，師弟印實，我（先師為我代收）的徒弟厚學在管理。同安
@@ -95,8 +115,8 @@
 <lb n="0043a05" ed="Y"/>——開元寺，承天寺，崇福寺，及開元的東
 <lb n="0043a06" ed="Y"/>西二塔，都曾去瞻仰。性老留在泉州過年，
 <lb n="0043a07" ed="Y"/>我先回廈門，已是年底，常住的年飯都已經
-<lb n="0043a08" ed="Y"/><note n="0043a0801" resp="CBETA" type="add" subtype="規範字詞">吃【CB】，喫【印順】</note><app n="0043a0801"><lem wit="【CB】" resp="CBETA">吃</lem><rdg wit="【印順】">喫</rdg></app>過了。</p>
-<lb n="0043a09" ed="Y"/><p style="text-indent:2em">一過新年，三十八年（四十四歲）正月
+<lb n="0043a08" ed="Y"/><note n="0043a0801" resp="CBETA" type="add" subtype="規範字詞">吃【CB】，喫【印順】</note><app n="0043a0801"><lem resp="CBETA" wit="【CB】">吃</lem><rdg wit="【印順】">喫</rdg></app>過了。</p>
+<lb n="0043a09" ed="Y"/><p xml:id="pY41p0043a0901" style="text-indent:2em">一過新年，三十八年（四十四歲）正月
 <lb n="0043a10" ed="Y"/>，京滬的形勢緊張，我就住了下來。隨緣辦
 <lb n="0043a11" ed="Y"/>了一所「大覺講社」，演培、續明也都約到
 <lb n="0043a12" ed="Y"/>廈門來。到了六月，漳州、泉州一帶，戰雲
@@ -110,13 +130,13 @@
 <lb n="0044a06" ed="Y"/>在港印行我在「大覺講社」所講的<title level="m">《佛法概論》</title>，等到<title level="m">《佛法概論》</title>出版，大陸
 <lb n="0044a07" ed="Y"/>的局勢急轉直下，縉雲山已是可望而不可能再去的了。<title level="m">《佛法概論》</title>為我帶來了
 <lb n="0044a08" ed="Y"/>麻煩，然我也為他而沒有在大陸受苦，因緣就是那樣的複雜！</p>
-<lb n="0044a09" ed="Y"/><p style="text-indent:2em">在香港三年，我又到了臺灣。到臺灣，應有三次因緣：三十八年（四十四歲
+<lb n="0044a09" ed="Y"/><p xml:id="pY41p0044a0901" style="text-indent:2em">在香港三年，我又到了臺灣。到臺灣，應有三次因緣：三十八年（四十四歲
 <lb n="0044a10" ed="Y"/>）初夏，大醒法師勸我到臺灣，詞意非常懇切，我也有了到臺灣的意思。但他在
 <lb n="0044a11" ed="Y"/>信上說：<quote>「你來，住所我一定可以為你設法」</quote>。這一說，我可猶疑了。我不會閩
 <lb n="0044a12" ed="Y"/>南話；不會與人打交道，拉關係；我也不能幫常住的忙。寄居臺籍的寺院，自覺
 <lb n="0044a13" ed="Y"/>難以適應，所以也就沒有來。</p>
 <pb n="0045a" ed="Y" xml:id="Y41.0039.0045a"/>
-<lb n="0045a01" ed="Y"/><p style="text-indent:2em">三十九年（四十五歲），我住在香港新界大埔墟的梅修精舍。黃一鳴（國大
+<lb n="0045a01" ed="Y"/><p xml:id="pY41p0045a0101" style="text-indent:2em">三十九年（四十五歲），我住在香港新界大埔墟的梅修精舍。黃一鳴（國大
 <lb n="0045a02" ed="Y"/>）代表也住在大埔墟，曾見面數次。黃代表自認皈依太虛大師，也與燈霞相識。
 <lb n="0045a03" ed="Y"/>他要到臺灣，見我們的生活太苦，勸我到臺灣去。他到了臺灣，大概在李子寬老
 <lb n="0045a04" ed="Y"/>居士（以下簡稱子老）面前，提到了我，並說我想到臺灣來。所以子老給了我一

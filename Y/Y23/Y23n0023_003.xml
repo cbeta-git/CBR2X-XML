@@ -12,61 +12,81 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/12</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/12</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>39卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 23, No. 23</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>39卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">23</idno>.<idno type="no">23</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨香雲</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB05105">
-	<charName>CBETA CHARACTER CB05105</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[契-大+石]</value>
-	</charProp>
-	<mapping type="unicode">U+40AE</mapping>
-	<mapping cb:dec="988145" type="PUA">U+F13F1</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB05105">
+				<charName>CBETA CHARACTER CB05105</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[契-大+石]</value>
+				</charProp>
+				<mapping type="unicode">U+40AE</mapping>
+				<mapping cb:dec="988145" type="PUA">U+F13F1</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">二、雜華雜記</cb:mulu><cb:mulu level="2" type="其他">八　住、普、幻、莊嚴</cb:mulu>
-<milestone unit="juan" n="3"/><pb n="0175a" ed="Y" xml:id="Y23.0023.0175a.old" type="old"/>
+<milestone n="3" unit="juan"/><pb n="0175a" ed="Y" xml:id="Y23.0023.0175a.old" type="old"/>
 <pb n="0175a" ed="Y" xml:id="Y23.0023.0175a"/>
 <lb n="0175a01" ed="Y"/><lb n="0175a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">三、華雨集</cb:mulu><head>華雨集<note n="0175001" resp="DILA" type="add">民國四二年撰。</note></head>
 <lb n="0175a02" ed="Y"/><lb n="0175a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　與佛有緣</cb:mulu><head>一　與佛有緣</head>
-<lb n="0175a03" ed="Y"/><lb n="0175a03" ed="Y" type="old"/><p style="text-indent:2em">民國五年八月，孫中山先生偕胡漢民等，乘艦察看定海海防，因便至普陀。
+<lb n="0175a03" ed="Y"/><lb n="0175a03" ed="Y" type="old"/><p xml:id="pY23p0175a0301" style="text-indent:2em">民國五年八月，孫中山先生偕胡漢民等，乘艦察看定海海防，因便至普陀。
 <lb n="0175a04" ed="Y"/><lb n="0175a04" ed="Y" type="old"/>下午三時餘，登佛頂山，放眼於山海之際，心胸為之冷然。次進向慧濟寺，於門
 <lb n="0175a05" ed="Y"/><lb n="0175a05" ed="Y" type="old"/>前見梵僧與牌坊之瑞。還普濟寺，為寺主了餘述之，因作<title level="a">〈遊普陀誌奇〉</title>以紀之
 <lb n="0175a06" ed="Y"/>，<lb n="0175a06" ed="Y" type="old"/>有<quote type="嚴謹引文">「余腦藏中素無神異思想，竟不知是何靈境」</quote>之句；並親書一紙，留鎮山門
@@ -76,27 +96,27 @@
 <lb n="0175a10" ed="Y"/>不得！階老<lb n="0175a10" ed="Y" type="old"/>已示寂南洋，此有光佛門之墨寶，殆將不復再見矣！</p></cb:div><pb n="0176a" ed="Y" xml:id="Y23.0023.0176a.old" type="old"/>
 <pb n="0176a" ed="Y" xml:id="Y23.0023.0176a"/>
 <lb n="0176a01" ed="Y"/><lb n="0176a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　陀螺與陀羅尼</cb:mulu><head>二　陀螺與陀羅尼</head>
-<lb n="0176a02" ed="Y"/><lb n="0176a02" ed="Y" type="old"/><p style="text-indent:2em">陀螺為兒童玩物，圓形，或圓柱形，中貫以軸心。旋之，抽之，或以帶而旁
-<lb n="0176a03" ed="Y"/><lb n="0176a03" ed="Y" type="old"/>擊之，旋轉不已，能保持力之均衡而不致傾倒。唐譯<cit><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="7">（卷七）</biblScope>云
+<lb n="0176a02" ed="Y"/><lb n="0176a02" ed="Y" type="old"/><p xml:id="pY23p0176a0201" style="text-indent:2em">陀螺為兒童玩物，圓形，或圓柱形，中貫以軸心。旋之，抽之，或以帶而旁
+<lb n="0176a03" ed="Y"/><lb n="0176a03" ed="Y" type="old"/>擊之，旋轉不已，能保持力之均衡而不致傾倒。唐譯<cit><bibl><title level="m">《大毘婆沙論》</title><biblScope n="7" type="卷">（卷七）</biblScope>云
 <lb n="0176a04" ed="Y"/><lb n="0176a04" ed="Y" type="old"/>：</bibl><quote source="T27n1545_p0035c22-23" type="嚴謹引文">「如舞獨樂，緩見來去，急則不見」</quote><note n="0176001" resp="謝淑歆" type="add">《阿毘達磨大毘婆沙論》卷7(CBETA, T27, no. 1545, p. 35, c22-23)</note></cit>。涼譯（卷三）則作：<quote type="嚴謹引文">「猶如小兒弄於獨
 <lb n="0176a05" ed="Y"/><lb n="0176a05" ed="Y" type="old"/>樂，旋速則見如住，旋遲則見來去」<note n="0176002" resp="厚觀法師" type="add">《阿毘曇毘婆沙論》卷3〈1 世第一法品〉(CBETA, T28, no. 1546, p. 25, c20-21)</note></quote>。獨樂，顯見為陀螺之異譯；從可知陀螺乃
 <lb n="0176a06" ed="Y"/><lb n="0176a06" ed="Y" type="old"/>來自印度者。陀羅，梵語，應為 <foreign xml:lang="sa">dhara</foreign>，譯意為「持」。軸心能保持力之均衡而
 <lb n="0176a07" ed="Y"/><lb n="0176a07" ed="Y" type="old"/>不失墜，乃名為陀羅耳。佛法之核心為法（<foreign xml:lang="sa">Dharma</foreign>），大乘之不共為陀羅尼<lb n="0176a08" ed="Y" type="old"/>（
-<lb n="0176a08" ed="Y"/><foreign xml:lang="sa">dhāraṇī</foreign>）（<title level="m"><note n="0176a0801" resp="CBETA" type="add" subtype="規範字詞">大智度論【CB】，智度論【印順】</note><app n="0176a0801"><lem wit="【CB】" resp="CBETA">《大智度論》</lem><rdg wit="【印順】">《智度論》</rdg></app></title>），並以 <foreign xml:lang="sa">Dhṛ</foreign> 字根而成。大乘之所以特重陀羅尼者，以
+<lb n="0176a08" ed="Y"/><foreign xml:lang="sa">dhāraṇī</foreign>）（<title level="m"><note n="0176a0801" resp="CBETA" type="add" subtype="規範字詞">大智度論【CB】，智度論【印順】</note><app n="0176a0801"><lem resp="CBETA" wit="【CB】">《大智度論》</lem><rdg wit="【印順】">《智度論》</rdg></app></title>），並以 <foreign xml:lang="sa">Dhṛ</foreign> 字根而成。大乘之所以特重陀羅尼者，以
 <lb n="0176a09" ed="Y"/>即萬<lb n="0176a09" ed="Y" type="old"/>化而深入無二之法性（不變之真性，合於持義，此猶為大小共通之「法」義
 <lb n="0176a10" ed="Y"/>），<lb n="0176a10" ed="Y" type="old"/>又即萬化之紛紜，得其中心而攝持無遺（此乃大乘特質）。<quote source="T35n1735_p0504a29-b01" type="嚴謹引文">「無不從此法界
 <lb n="0176a11" ed="Y"/>流，<lb n="0176a11" ed="Y" type="old"/>無不還歸此法界」<note n="0176003" resp="謝淑歆" type="add">《大方廣佛華嚴經疏》卷1〈1 世主妙嚴品〉(CBETA, T35, no. 1735, p. 504, a29-b1)</note></quote>。攝持萬化於一極，為大乘特有之傾向，亦即陀羅尼獨到
 <lb n="0176a12" ed="Y"/>之本<lb n="0176a12" ed="Y" type="old"/>義。末流偏於咒語，非其本也。</p></cb:div><pb n="0177a" ed="Y" xml:id="Y23.0023.0177a.old" type="old"/>
 <pb n="0177a" ed="Y" xml:id="Y23.0023.0177a"/>
 <lb n="0177a01" ed="Y"/><lb n="0177a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　香板</cb:mulu><head>三　香板</head>
-<lb n="0177a02" ed="Y"/><lb n="0177a02" ed="Y" type="old"/><p style="text-indent:2em">禪堂有巡香者，手執香板，巡歷禪堂，見有昏沈者，輒以香板拍其肩背，拍
+<lb n="0177a02" ed="Y"/><lb n="0177a02" ed="Y" type="old"/><p xml:id="pY23p0177a0201" style="text-indent:2em">禪堂有巡香者，手執香板，巡歷禪堂，見有昏沈者，輒以香板拍其肩背，拍
 <lb n="0177a03" ed="Y"/><lb n="0177a03" ed="Y" type="old"/>然作響，用以警覺禪者之昏沈，而受者固未嘗痛也。佛世比丘坐禪而多昏沈，初
 <lb n="0177a04" ed="Y"/><lb n="0177a04" ed="Y" type="old"/>喚之，或牽其衣，次乃作「禪杖」，後改為「禪鎮」，復制為「禪板」。中國習
 <lb n="0177a05" ed="Y"/><lb n="0177a05" ed="Y" type="old"/>禪者，燃香以計時刻，因名坐禪曰坐香，禪板為香板。晚近叢林，以香板高供客
 <lb n="0177a06" ed="Y"/><lb n="0177a06" ed="Y" type="old"/>堂中，遇犯規律者則擊之。失警策昏沈之善意，演變為撲作教刑之杖。去佛時遙
 <lb n="0177a07" ed="Y"/><lb n="0177a07" ed="Y" type="old"/>，失真彌遠，不知吾佛教化，從無體刑者也。</p></cb:div>
 <lb n="0177a08" ed="Y"/><lb n="0177a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　緩與急</cb:mulu><head>四　緩與急</head>
-<lb n="0177a09" ed="Y"/><lb n="0177a09" ed="Y" type="old"/><p style="text-indent:2em">胡適論為學主緩，傅君作<quote>〈緩不濟急〉</quote>以評之，以其為同於佛法之緩也。然
+<lb n="0177a09" ed="Y"/><lb n="0177a09" ed="Y" type="old"/><p xml:id="pY23p0177a0901" style="text-indent:2em">胡適論為學主緩，傅君作<quote>〈緩不濟急〉</quote>以評之，以其為同於佛法之緩也。然
 <lb n="0177a10" ed="Y"/><lb n="0177a10" ed="Y" type="old"/>佛法論緩論急，原不如此。菩薩修行三大僧祇而成佛，是緩；三生圓證，即生取
 <lb n="0177a11" ed="Y"/><lb n="0177a11" ed="Y" type="old"/>辦，豈非是急！實則小積功行則小就，大積功力則大成。學佛自宜期心遠大，何<pb n="0178a" ed="Y" xml:id="Y23.0023.0178a.old" type="old"/>
 <pb n="0178a" ed="Y" xml:id="Y23.0023.0178a"/>
@@ -108,7 +128,7 @@
 <lb n="0178a06" ed="Y"/><lb n="0178a06" ed="Y" type="old"/>之使右，偏右則牽之使左，如不左不右，則縱之驀直行去耳。今之學者，偏緩偏
 <lb n="0178a07" ed="Y"/><lb n="0178a07" ed="Y" type="old"/>急，宜乎思潮世道，並糾結而難可爬梳。</p></cb:div>
 <lb n="0178a08" ed="Y"/><lb n="0178a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五　道無不在</cb:mulu><head>五　道無不在</head>
-<lb n="0178a09" ed="Y"/><lb n="0178a09" ed="Y" type="old"/><p style="text-indent:2em">姚興王關中，法化之盛，先來未有。獨怪其逼羅什以女伎，別處官廨！什譯
+<lb n="0178a09" ed="Y"/><lb n="0178a09" ed="Y" type="old"/><p xml:id="pY23p0178a0901" style="text-indent:2em">姚興王關中，法化之盛，先來未有。獨怪其逼羅什以女伎，別處官廨！什譯
 <lb n="0178a10" ed="Y"/><lb n="0178a10" ed="Y" type="old"/><title level="m">《大品》</title>之初日，興蒞逍遙園助譯，作<title level="m">「因果論」</title>以示群臣。興固有得於佛法者
 <lb n="0178a11" ed="Y"/><lb n="0178a11" ed="Y" type="old"/>，奈何強羅什以非法？觀其詔道恆、道標改服，乃知興之信解，在大乘兼濟也。
 <lb n="0178a12" ed="Y"/><lb n="0178a12" ed="Y" type="old"/>彼以為：<quote source="T52n2102_p0074b17-18" type="嚴謹引文">「獨善之美，不如兼濟之功；自守之節，未若拯物之大」<note n="0178001" resp="謝淑歆" type="add">《弘明集》卷11(CBETA, T52, no. 2102, p. 74, b17-18)</note></quote>。評子陵，君<pb n="0179a" ed="Y" xml:id="Y23.0023.0179a.old" type="old"/>
@@ -126,14 +146,14 @@
 <lb n="0179a11" ed="Y"/>不<lb n="0179a11" ed="Y" type="old"/>為無見！</p></cb:div>
 <lb n="0179a12" ed="Y"/><lb n="0179a12" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">六　龍蛇混雜</cb:mulu><head>六　龍蛇混雜</head><pb n="0180a" ed="Y" xml:id="Y23.0023.0180a.old" type="old"/>
 <pb n="0180a" ed="Y" xml:id="Y23.0023.0180a"/>
-<lb n="0180a01" ed="Y"/><lb n="0180a01" ed="Y" type="old"/><p style="text-indent:2em">無著文喜禪師，北朝五臺山，求見文殊，遇老翁而不能識之。文喜謂：南方
+<lb n="0180a01" ed="Y"/><lb n="0180a01" ed="Y" type="old"/><p xml:id="pY23p0180a0101" style="text-indent:2em">無著文喜禪師，北朝五臺山，求見文殊，遇老翁而不能識之。文喜謂：南方
 <lb n="0180a02" ed="Y"/><lb n="0180a02" ed="Y" type="old"/><quote type="嚴謹引文">「末法僧尼，少持戒律」<note n="0180001" resp="厚觀法師" type="add">《阿彌陀經疏鈔事義》卷1(CBETA, X22, no. 425, p. 690, a19 // Z 1:33, p. 251, c16 // R33, p. 502, a16)</note></quote>。老翁（文殊）告以：此間<quote source="X22n0425_p0690a20" type="嚴謹引文">「龍蛇混雜，凡聖交參」<note n="0180002" resp="謝淑歆" type="add">《阿彌陀經疏鈔事義》卷1(CBETA, X22, no. 425, p. 690, a20 // Z 1:33, p. 251, c17 // R33, p. 502, a17)</note></quote>。
 <lb n="0180a03" ed="Y"/><lb n="0180a03" ed="Y" type="old"/>佛於聲聞教中，以律攝僧，漸學漸深，猶如大海。<quote source="T13n0411_p0739b20" type="嚴謹引文">「大海不宿死尸」<note n="0180003" resp="謝淑歆" type="add">《大乘大集地藏十輪經》卷3〈3 無依行品〉(CBETA, T13, no. 411, p. 739, b20)</note></quote>，紀律何其
 <lb n="0180a04" ed="Y"/><lb n="0180a04" ed="Y" type="old"/>嚴格！大乘以寬容成其廣大，函蓋一切，自屬氣象萬千！然龍蛇混雜，僧團何由
 <lb n="0180a05" ed="Y"/><lb n="0180a05" ed="Y" type="old"/>嚴淨？大乘興而律制弛，其類於禪宗盛而義學衰歟！世諦流布，固無絕對之利，
 <lb n="0180a06" ed="Y"/><lb n="0180a06" ed="Y" type="old"/>是在弘法者以時推移，導歸中正耳！</p></cb:div>
 <lb n="0180a07" ed="Y"/><lb n="0180a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">七　燃頂</cb:mulu><head>七　燃頂</head>
-<lb n="0180a08" ed="Y"/><lb n="0180a08" ed="Y" type="old"/><p style="text-indent:2em">我國傳戒，於頂燃香，故「香疤」（或稱戒疤）顯然，世每以此而別僧之真
+<lb n="0180a08" ed="Y"/><lb n="0180a08" ed="Y" type="old"/><p xml:id="pY23p0180a0801" style="text-indent:2em">我國傳戒，於頂燃香，故「香疤」（或稱戒疤）顯然，世每以此而別僧之真
 <lb n="0180a09" ed="Y"/><lb n="0180a09" ed="Y" type="old"/>偽。此實始於中國，非佛教舊制。說者謂此以表捨身供養之誠，如藥王燃臂，剜
 <lb n="0180a10" ed="Y"/><lb n="0180a10" ed="Y" type="old"/>肉為燈之類。然偏燃於頂，應與灌頂有關。印度舊俗，凡國王登位，必取海水以
 <lb n="0180a11" ed="Y"/><lb n="0180a11" ed="Y" type="old"/>灌其頂。大乘約此喻以表法，故十住名灌頂住；菩薩證入真如（與佛同證），十
@@ -149,7 +169,7 @@
 <lb n="0181a08" ed="Y"/><lb n="0181a08" ed="Y" type="old"/>用表捨身供養，住佛種性，蒙佛光耀之義。習行之既久，乃莫知取義而僅以別僧
 <lb n="0181a09" ed="Y"/><lb n="0181a09" ed="Y" type="old"/>俗。雖然，依釋尊律制，於頂燃香，實非法而不可為訓。</p></cb:div>
 <lb n="0181a10" ed="Y"/><lb n="0181a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">八　人之自覺</cb:mulu><head>八　人之自覺</head>
-<lb n="0181a11" ed="Y"/><lb n="0181a11" ed="Y" type="old"/><p style="text-indent:2em">今日西方，受希伯來宗教意識影響者，以神為能造者，萬物為被造者。人為
+<lb n="0181a11" ed="Y"/><lb n="0181a11" ed="Y" type="old"/><p xml:id="pY23p0181a1101" style="text-indent:2em">今日西方，受希伯來宗教意識影響者，以神為能造者，萬物為被造者。人為
 <lb n="0181a12" ed="Y"/><lb n="0181a12" ed="Y" type="old"/>由於神之意志而存在，缺乏自主性。故在宗教中，不由人類自己之行為價值，而<pb n="0182a" ed="Y" xml:id="Y23.0023.0182a.old" type="old"/>
 <pb n="0182a" ed="Y" xml:id="Y23.0023.0182a"/>
 <lb n="0182a01" ed="Y"/><lb n="0182a01" ed="Y" type="old"/>唯信神乃可以得救。人在仰天俯地之間，不過神之奴僕，遵循神之意思，此外更
@@ -166,12 +186,12 @@
 <lb n="0182a12" ed="Y"/><lb n="0182a12" ed="Y" type="old"/>天地之缺陷，本為眾生自身之缺陷，吾人唯從悲智正行以淨化之，神何能為！</p></cb:div><pb n="0183a" ed="Y" xml:id="Y23.0023.0183a.old" type="old"/>
 <pb n="0183a" ed="Y" xml:id="Y23.0023.0183a"/>
 <lb n="0183a01" ed="Y"/><lb n="0183a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">九　玄叡與珍海</cb:mulu><head>九　玄叡與珍海</head>
-<lb n="0183a02" ed="Y"/><lb n="0183a02" ed="Y" type="old"/><p style="text-indent:2em">日本之三論作家，莫如玄叡與珍海。玄叡作<title level="m">《三論大義鈔》</title>，於空有之辨，
+<lb n="0183a02" ed="Y"/><lb n="0183a02" ed="Y" type="old"/><p xml:id="pY23p0183a0201" style="text-indent:2em">日本之三論作家，莫如玄叡與珍海。玄叡作<title level="m">《三論大義鈔》</title>，於空有之辨，
 <lb n="0183a03" ed="Y"/><lb n="0183a03" ed="Y" type="old"/>頗致殷勤，持論精而引證翔實，不可不讀之書也。然以<title level="m">《解深密經》</title>為密意說一
 <lb n="0183a04" ed="Y"/><lb n="0183a04" ed="Y" type="old"/>乘，殊失嘉祥大師之旨。珍海檢文甚勤，著述頗多，甚便初學。然引地論師淨影
 <lb n="0183a05" ed="Y"/><lb n="0183a05" ed="Y" type="old"/>慧遠為宗祖，竊其學以張大己宗，而三論彌失其特色。非驢非馬，誤之甚矣！</p></cb:div>
-<lb n="0183a06" ed="Y"/><lb n="0183a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十　禪宗第七祖</cb:mulu><head><note n="0183a0601" resp="CBETA" type="add" subtype="規範字詞">十【CB】，一〇【印順】</note><app n="0183a0601"><lem wit="【CB】" resp="CBETA">十</lem><rdg wit="【印順】">一〇</rdg></app>　禪宗第七祖</head>
-<lb n="0183a07" ed="Y"/><lb n="0183a07" ed="Y" type="old"/><p style="text-indent:2em">佛學重師承，而法派旁正之諍，至中國而始烈。達磨創開禪宗，五傳至黃梅
+<lb n="0183a06" ed="Y"/><lb n="0183a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十　禪宗第七祖</cb:mulu><head><note n="0183a0601" resp="CBETA" type="add" subtype="規範字詞">十【CB】，一〇【印順】</note><app n="0183a0601"><lem resp="CBETA" wit="【CB】">十</lem><rdg wit="【印順】">一〇</rdg></app>　禪宗第七祖</head>
+<lb n="0183a07" ed="Y"/><lb n="0183a07" ed="Y" type="old"/><p xml:id="pY23p0183a0701" style="text-indent:2em">佛學重師承，而法派旁正之諍，至中國而始烈。達磨創開禪宗，五傳至黃梅
 <lb n="0183a08" ed="Y"/><lb n="0183a08" ed="Y" type="old"/>，門下出慧能，神秀，因有南頓北漸之諍。六祖慧能門下，所爭尤甚！晚唐以來
 <lb n="0183a09" ed="Y"/><lb n="0183a09" ed="Y" type="old"/>，公認六祖之道，以南嶽懷讓，青原行思為得法正宗。圭峰傳神會之禪，故所作
 <lb n="0183a10" ed="Y"/><lb n="0183a10" ed="Y" type="old"/><title level="m">《禪源諸詮集都序》</title>，以為得六祖之道者，乃荷澤神會，神會為七祖。神會於玄
@@ -184,8 +204,8 @@
 <lb n="0184a05" ed="Y"/><lb n="0184a05" ed="Y" type="old"/>有無住者，乃六祖再傳弟子，自謂得迦葉傳來之金縷袈裟。弘法巴蜀，信衣現存
 <lb n="0184a06" ed="Y"/><lb n="0184a06" ed="Y" type="old"/>云。故知六祖之徒，分化各方，固莫不自以為獨得大鑒之道。後人專以南嶽、青
 <lb n="0184a07" ed="Y"/><lb n="0184a07" ed="Y" type="old"/>原為得法正宗，或專推荷澤神會，俱未見其當也！</p></cb:div>
-<lb n="0184a08" ed="Y"/><lb n="0184a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十一　耶穌到西藏</cb:mulu><head><note n="0184a0801" resp="CBETA" type="add" subtype="規範字詞">十一【CB】，一一【印順】</note><app n="0184a0801"><lem wit="【CB】" resp="CBETA">十一</lem><rdg wit="【印順】">一一</rdg></app>　耶穌到西藏</head>
-<lb n="0184a09" ed="Y"/><lb n="0184a09" ed="Y" type="old"/><p style="text-indent:2em">藏典有名格薩加利塔者，謂耶穌二十歲前，曾赴印度求學，肄業於那爛陀寺
+<lb n="0184a08" ed="Y"/><lb n="0184a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十一　耶穌到西藏</cb:mulu><head><note n="0184a0801" resp="CBETA" type="add" subtype="規範字詞">十一【CB】，一一【印順】</note><app n="0184a0801"><lem resp="CBETA" wit="【CB】">十一</lem><rdg wit="【印順】">一一</rdg></app>　耶穌到西藏</head>
+<lb n="0184a09" ed="Y"/><lb n="0184a09" ed="Y" type="old"/><p xml:id="pY23p0184a0901" style="text-indent:2em">藏典有名格薩加利塔者，謂耶穌二十歲前，曾赴印度求學，肄業於那爛陀寺
 <lb n="0184a10" ed="Y"/><lb n="0184a10" ed="Y" type="old"/>。時藏王遣使來摩竭陀，聘佛教大師去西藏；眾屬意耶穌，耶穌乃應聘入藏。弘
 <lb n="0184a11" ed="Y"/><lb n="0184a11" ed="Y" type="old"/>法三年，奠定藏地佛教之基。乃去故國，以大乘教猶太人，因有基督教云。此蓋
 <lb n="0184a12" ed="Y"/><lb n="0184a12" ed="Y" type="old"/>以蓮華生入藏，弘法三年，西行不知所往之事實，附會耶穌幼年去埃及事，乃成<pb n="0185a" ed="Y" xml:id="Y23.0023.0185a.old" type="old"/>
@@ -193,8 +213,8 @@
 <lb n="0185a01" ed="Y"/><lb n="0185a01" ed="Y" type="old"/>耶穌入藏之怪說。耶穌生於漢哀帝建平，被殺於光武帝建武年；而蓮華生入藏，
 <lb n="0185a02" ed="Y"/><lb n="0185a02" ed="Y" type="old"/>遠在七百年後之唐世。原作者之附會，殊可驚！此與老子入胡化佛之妄說，可謂
 <lb n="0185a03" ed="Y"/><lb n="0185a03" ed="Y" type="old"/>無獨有偶者也！</p></cb:div>
-<lb n="0185a04" ed="Y"/><lb n="0185a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十二　佛滅無大師</cb:mulu><head><note n="0185a0401" resp="CBETA" type="add" subtype="規範字詞">十二【CB】，一二【印順】</note><app n="0185a0401"><lem wit="【CB】" resp="CBETA">十二</lem><rdg wit="【印順】">一二</rdg></app>　佛滅無大師</head>
-<lb n="0185a05" ed="Y"/><lb n="0185a05" ed="Y" type="old"/><p style="text-indent:2em">釋迦佛在世，稱十力大師，為學眾所依歸。然釋尊以法攝眾，初不以統攝之
+<lb n="0185a04" ed="Y"/><lb n="0185a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十二　佛滅無大師</cb:mulu><head><note n="0185a0401" resp="CBETA" type="add" subtype="規範字詞">十二【CB】，一二【印順】</note><app n="0185a0401"><lem resp="CBETA" wit="【CB】">十二</lem><rdg wit="【印順】">一二</rdg></app>　佛滅無大師</head>
+<lb n="0185a05" ed="Y"/><lb n="0185a05" ed="Y" type="old"/><p xml:id="pY23p0185a0501" style="text-indent:2em">釋迦佛在世，稱十力大師，為學眾所依歸。然釋尊以法攝眾，初不以統攝之
 <lb n="0185a06" ed="Y"/><lb n="0185a06" ed="Y" type="old"/>特權者自居。故曰：<quote source="T01n0001_p0015a28-b01" type="寬鬆引文">「吾不攝受眾，亦無所教誡」<note n="0185001" resp="謝淑歆" type="add">《長阿含經》卷2：「如來不言：『我持於眾，我攝於眾。』豈當於眾有教令乎？」(CBETA, T01, no. 1, p. 15, a28-b1)</note></quote>。蓋勉學者能依法不依人，自<lb n="0185a07" ed="Y" type="old"/>依
 <lb n="0185a07" ed="Y"/>止，法依止，自尊自律，依法律而行也。佛滅，釋沙門尊上座而重大眾，德學<lb n="0185a08" ed="Y" type="old"/>集
 <lb n="0185a08" ed="Y"/>團會議而主僧事，和樂為法，法門乃日以光大。有問阿難，阿難答以：如來在<lb n="0185a09" ed="Y" type="old"/>日
@@ -208,14 +228,14 @@
 <lb n="0186a03" ed="Y"/>教主之位而起諍，蓋不知凡幾。此以神教徒，上崇神權唯一之神，下法君權唯<lb n="0186a04" ed="Y" type="old"/>一
 <lb n="0186a04" ed="Y"/>之君，雖有世界宗教之卓見，而卒不掩其帝國獨裁之精神，未能盡世界宗教之<lb n="0186a05" ed="Y" type="old"/>美
 <lb n="0186a05" ed="Y"/>也！至如君主尊孔子，孔氏子孫世襲祿位，此非所以尊孔子，適為孔門之累耳<lb n="0186a06" ed="Y" type="old"/>！</p></cb:div>
-<lb n="0186a06" ed="Y"/><lb n="0186a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十三　皆大歡喜</cb:mulu><head><note n="0186a0601" resp="CBETA" type="add" subtype="規範字詞">十三【CB】，一三【印順】</note><app n="0186a0601"><lem wit="【CB】" resp="CBETA">十三</lem><rdg wit="【印順】">一三</rdg></app>　皆大歡喜</head>
-<lb n="0186a07" ed="Y"/><lb n="0186a08" ed="Y" type="old"/><p style="text-indent:2em">一入中國佛寺之山門，有彌勒殿，懸「皆大歡喜」額。彌勒像作憨笑之容，
+<lb n="0186a06" ed="Y"/><lb n="0186a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十三　皆大歡喜</cb:mulu><head><note n="0186a0601" resp="CBETA" type="add" subtype="規範字詞">十三【CB】，一三【印順】</note><app n="0186a0601"><lem resp="CBETA" wit="【CB】">十三</lem><rdg wit="【印順】">一三</rdg></app>　皆大歡喜</head>
+<lb n="0186a07" ed="Y"/><lb n="0186a08" ed="Y" type="old"/><p xml:id="pY23p0186a0701" style="text-indent:2em">一入中國佛寺之山門，有彌勒殿，懸「皆大歡喜」額。彌勒像作憨笑之容，
 <lb n="0186a08" ed="Y"/><lb n="0186a09" ed="Y" type="old"/>大腹便便，肥碩無朋，彌勒化身布袋和尚之相也。彌勒象徵富餘，喜樂，慈和，
 <lb n="0186a09" ed="Y"/><lb n="0186a10" ed="Y" type="old"/>寬容，（中國式之）健康，為國人之理想型。較之印度，西藏彌勒像之精進強毅
 <lb n="0186a10" ed="Y"/><lb n="0186a11" ed="Y" type="old"/>，迥然不同。</p></cb:div><pb n="0187a" ed="Y" xml:id="Y23.0023.0187a.old" type="old"/>
-<lb n="0186a11" ed="Y"/><lb n="0187a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十四　道教反佛之伎倆</cb:mulu><head><note n="0186a1101" resp="CBETA" type="add" subtype="規範字詞">十四【CB】，一四【印順】</note><app n="0186a1101"><lem wit="【CB】" resp="CBETA">十四</lem><rdg wit="【印順】">一四</rdg></app>　道教反佛之伎倆</head>
+<lb n="0186a11" ed="Y"/><lb n="0187a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十四　道教反佛之伎倆</cb:mulu><head><note n="0186a1101" resp="CBETA" type="add" subtype="規範字詞">十四【CB】，一四【印順】</note><app n="0186a1101"><lem resp="CBETA" wit="【CB】">十四</lem><rdg wit="【印順】">一四</rdg></app>　道教反佛之伎倆</head>
 <pb n="0187a" ed="Y" xml:id="Y23.0023.0187a"/>
-<lb n="0187a01" ed="Y"/><lb n="0187a02" ed="Y" type="old"/><p style="text-indent:2em">道教，總中國舊有之神話，祭祀，陰陽，巫覡等，流衍至漢末，始漸成有組
+<lb n="0187a01" ed="Y"/><lb n="0187a02" ed="Y" type="old"/><p xml:id="pY23p0187a0101" style="text-indent:2em">道教，總中國舊有之神話，祭祀，陰陽，巫覡等，流衍至漢末，始漸成有組
 <lb n="0187a02" ed="Y"/><lb n="0187a03" ed="Y" type="old"/>織之宗教。佛教東來，道教徒雖多所倣則剽竊，而相拒頗力。歷代之法難，類由
 <lb n="0187a03" ed="Y"/><lb n="0187a04" ed="Y" type="old"/>道者從中引發之。唐以前，佛教之根柢未深，道者反佛之策，以老子化胡說為核
 <lb n="0187a04" ed="Y"/><lb n="0187a05" ed="Y" type="old"/>心。老子西過流沙，不知所終，<title level="m">《史記》</title>所傳殊晦昧。適佛教自西而來，乃託為
@@ -228,16 +248,16 @@
 <lb n="0187a11" ed="Y"/><lb n="0187a12" ed="Y" type="old"/>又起矣！蒙元入主，佛教始藉王力，舉道經之誣辱佛教者而悉焚之。其後二教漸<pb n="0188a" ed="Y" xml:id="Y23.0023.0188a.old" type="old"/>
 <lb n="0187a12" ed="Y"/><lb n="0188a01" ed="Y" type="old"/>趨妥協，而二教俱敝矣！</p></cb:div>
 <pb n="0188a" ed="Y" xml:id="Y23.0023.0188a"/>
-<lb n="0188a01" ed="Y"/><lb n="0188a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十五　度牒與戒牒</cb:mulu><head><note n="0188a0101" resp="CBETA" type="add" subtype="規範字詞">十五【CB】，一五【印順】</note><app n="0188a0101"><lem wit="【CB】" resp="CBETA">十五</lem><rdg wit="【印順】">一五</rdg></app>　度牒與戒牒</head>
-<lb n="0188a02" ed="Y"/><lb n="0188a03" ed="Y" type="old"/><p style="text-indent:2em">清世宗廢度牒制，代以戒牒（其實高宗時又曾用度牒），近人頗多指責，甚
+<lb n="0188a01" ed="Y"/><lb n="0188a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十五　度牒與戒牒</cb:mulu><head><note n="0188a0101" resp="CBETA" type="add" subtype="規範字詞">十五【CB】，一五【印順】</note><app n="0188a0101"><lem resp="CBETA" wit="【CB】">十五</lem><rdg wit="【印順】">一五</rdg></app>　度牒與戒牒</head>
+<lb n="0188a02" ed="Y"/><lb n="0188a03" ed="Y" type="old"/><p xml:id="pY23p0188a0201" style="text-indent:2em">清世宗廢度牒制，代以戒牒（其實高宗時又曾用度牒），近人頗多指責，甚
 <lb n="0188a03" ed="Y"/><lb n="0188a04" ed="Y" type="old"/>有謂其意在毀佛者，非也。佛子出家，何預國王事！學道貴有內心之自覺，重在
 <lb n="0188a04" ed="Y"/><lb n="0188a05" ed="Y" type="old"/>身行。經教雖是所重，然何能據文義以為出家標準？編僧籍如編氓，立僧統如立
 <lb n="0188a05" ed="Y"/><lb n="0188a06" ed="Y" type="old"/>守，古人每拒斥之，檢大乘經及南北朝僧史可知。世宗雖梟桀，然信佛甚真。廢
 <lb n="0188a06" ed="Y"/><lb n="0188a07" ed="Y" type="old"/>試經度僧之制，蓋有見於佛教本義，崇佛非毀佛也。至近代之僧流猥雜，非一朝
 <lb n="0188a07" ed="Y"/><lb n="0188a08" ed="Y" type="old"/>一夕之故。唐、宋禪興而義學衰，元代蕃僧至而僧格墮；明、清以來，政治壓迫
 <lb n="0188a08" ed="Y"/><lb n="0188a09" ed="Y" type="old"/>，久已奄奄無生氣。承國族衰弱之會，受歐風美雨之侵蝕，乃日以不支耳。</p></cb:div>
-<lb n="0188a09" ed="Y"/><lb n="0188a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十六　僧肇與寶藏論</cb:mulu><head><note n="0188a0901" resp="CBETA" type="add" subtype="規範字詞">十六【CB】，一六【印順】</note><app n="0188a0901"><lem wit="【CB】" resp="CBETA">十六</lem><rdg wit="【印順】">一六</rdg></app>　僧肇與寶藏論</head>
-<lb n="0188a10" ed="Y"/><lb n="0188a11" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《傳燈錄》</title>載：姚興怒欲殺僧肇，肇乞七日假，作<title level="m">《寶藏論》</title>，論成乃受刑<pb n="0189a" ed="Y" xml:id="Y23.0023.0189a.old" type="old"/>
+<lb n="0188a09" ed="Y"/><lb n="0188a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十六　僧肇與寶藏論</cb:mulu><head><note n="0188a0901" resp="CBETA" type="add" subtype="規範字詞">十六【CB】，一六【印順】</note><app n="0188a0901"><lem resp="CBETA" wit="【CB】">十六</lem><rdg wit="【印順】">一六</rdg></app>　僧肇與寶藏論</head>
+<lb n="0188a10" ed="Y"/><lb n="0188a11" ed="Y" type="old"/><p xml:id="pY23p0188a1001" style="text-indent:2em"><title level="m">《傳燈錄》</title>載：姚興怒欲殺僧肇，肇乞七日假，作<title level="m">《寶藏論》</title>，論成乃受刑<pb n="0189a" ed="Y" xml:id="Y23.0023.0189a.old" type="old"/>
 <lb n="0188a11" ed="Y"/><lb n="0189a01" ed="Y" type="old"/>。臨刑有<quote source="X26n0574_p0954c01" type="嚴謹引文">「將頭臨白刃，猶如斬春風」<note n="0188001" resp="謝淑歆" type="add">《般若心經註解》卷1(CBETA, X26, no. 574, p. 954, c1 // Z 1:42, p. 39, d16 // R42, p. 78, b16)</note></quote>句，後人傳為美談。然《十六國春秋》，
 <pb n="0189a" ed="Y" xml:id="Y23.0023.0189a"/>
 <lb n="0189a01" ed="Y"/>傳肇<lb n="0189a02" ed="Y" type="old"/>公年三十一卒，姚興惜之，無被刑之事。明智旭亦疑其被殺說之無稽，而未
@@ -248,8 +268,8 @@
 <lb n="0189a06" ed="Y"/>。其<lb n="0189a07" ed="Y" type="old"/>事始見於<title level="m">《傳燈錄》</title>，其故可知矣！僧傳謂肇公年三十一卒，不明致死之由
 <lb n="0189a07" ed="Y"/>。今<lb n="0189a08" ed="Y" type="old"/>詳肇公答劉遺民書云：<quote source="T50n2059_p0365b11" type="嚴謹引文">「貧道勞疾每不佳」<note n="0189002" resp="謝淑歆" type="add">《高僧傳》卷6(CBETA, T50, no. 2059, p. 365, b11)</note></quote>，則知其素患勞傷之疾。青年早
 <lb n="0189a08" ed="Y"/>世，<lb n="0189a09" ed="Y" type="old"/>其以是歟！</p></cb:div>
-<lb n="0189a09" ed="Y"/><lb n="0189a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十七　僧尼與帝王</cb:mulu><head><note n="0189a0901" resp="CBETA" type="add" subtype="規範字詞">十七【CB】，一七【印順】</note><app n="0189a0901"><lem wit="【CB】" resp="CBETA">十七</lem><rdg wit="【印順】">一七</rdg></app>　僧尼與帝王</head>
-<lb n="0189a10" ed="Y"/><lb n="0189a11" ed="Y" type="old"/><p style="text-indent:2em">佛教來中國久，僧尼為帝后而帝后為僧尼者，間亦有之。僧之為帝者，有明
+<lb n="0189a09" ed="Y"/><lb n="0189a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十七　僧尼與帝王</cb:mulu><head><note n="0189a0901" resp="CBETA" type="add" subtype="規範字詞">十七【CB】，一七【印順】</note><app n="0189a0901"><lem resp="CBETA" wit="【CB】">十七</lem><rdg wit="【印順】">一七</rdg></app>　僧尼與帝王</head>
+<lb n="0189a10" ed="Y"/><lb n="0189a11" ed="Y" type="old"/><p xml:id="pY23p0189a1001" style="text-indent:2em">佛教來中國久，僧尼為帝后而帝后為僧尼者，間亦有之。僧之為帝者，有明
 <lb n="0189a11" ed="Y"/><lb n="0189a12" ed="Y" type="old"/>太祖。初出家皇覺寺，後以世亂，從郭子興起兵濠滁，卒逐蒙元而光復漢河山。<pb n="0190a" ed="Y" xml:id="Y23.0023.0190a.old" type="old"/>
 <lb n="0189a12" ed="Y"/><lb n="0190a01" ed="Y" type="old"/>以布衣而混一中華，漢高以來，一人而已！尼之稱帝者，有武則天。初出家為尼
 <pb n="0190a" ed="Y" xml:id="Y23.0023.0190a"/>
@@ -257,16 +277,16 @@
 <lb n="0190a02" ed="Y"/><lb n="0190a03" ed="Y" type="old"/>竟移唐祚，國號周，開中國歷史未有之先例。初吐蕃強大，略天山南路四郡，則
 <lb n="0190a03" ed="Y"/><lb n="0190a04" ed="Y" type="old"/>天皇帝始規復之。帝之為僧者，明建文，清順治，並有出家之說。后妃之為尼者
 <lb n="0190a04" ed="Y"/><lb n="0190a05" ed="Y" type="old"/>，則南北朝來多有之。</p></cb:div>
-<lb n="0190a05" ed="Y"/><lb n="0190a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十八　神尼</cb:mulu><head><note n="0190a0501" resp="CBETA" type="add" subtype="規範字詞">十八【CB】，一八【印順】</note><app n="0190a0501"><lem wit="【CB】" resp="CBETA">十八</lem><rdg wit="【印順】">一八</rdg></app>　神尼</head>
-<lb n="0190a06" ed="Y"/><lb n="0190a07" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《隋書》</title>有<title level="a">〈神尼傳〉</title>，略謂文帝——楊堅初生，有神尼來，願負保養之責
+<lb n="0190a05" ed="Y"/><lb n="0190a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十八　神尼</cb:mulu><head><note n="0190a0501" resp="CBETA" type="add" subtype="規範字詞">十八【CB】，一八【印順】</note><app n="0190a0501"><lem resp="CBETA" wit="【CB】">十八</lem><rdg wit="【印順】">一八</rdg></app>　神尼</head>
+<lb n="0190a06" ed="Y"/><lb n="0190a07" ed="Y" type="old"/><p xml:id="pY23p0190a0601" style="text-indent:2em"><title level="m">《隋書》</title>有<title level="a">〈神尼傳〉</title>，略謂文帝——楊堅初生，有神尼來，願負保養之責
 <lb n="0190a07" ed="Y"/><lb n="0190a08" ed="Y" type="old"/>，堅父母即以付之。文帝幼年生活，全在寺院中，僅歲時一歸省其父母。迨年長
 <lb n="0190a08" ed="Y"/><lb n="0190a09" ed="Y" type="old"/>，始歸就傅，神尼猶歲時一過其家云。其說似離奇，而事非虛構。他日文帝之勤
 <lb n="0190a09" ed="Y"/><lb n="0190a10" ed="Y" type="old"/>儉為國，自謂<quote>「興於佛法」</quote>。其再興周武破滅之佛法，並與此事有關。以吾觀之
 <lb n="0190a10" ed="Y"/><lb n="0190a11" ed="Y" type="old"/>，文帝殆其父與尼有染而生者，為禮教所限，乃詐為夫人兒，而由尼鞠育之。事
 <lb n="0190a11" ed="Y"/><lb n="0190a12" ed="Y" type="old"/>涉隱微，乃以神目之耳。明眼人讀此，當不以吾言為穿鑿也。</p></cb:div><pb n="0191a" ed="Y" xml:id="Y23.0023.0191a.old" type="old"/>
 <pb n="0191a" ed="Y" xml:id="Y23.0023.0191a"/>
-<lb n="0191a01" ed="Y"/><lb n="0191a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十九　為支那堪布翻案</cb:mulu><head><note n="0191a0101" resp="CBETA" type="add" subtype="規範字詞">十九【CB】，一九【印順】</note><app n="0191a0101"><lem wit="【CB】" resp="CBETA">十九</lem><rdg wit="【印順】">一九</rdg></app>　為支那堪布翻案</head>
-<lb n="0191a02" ed="Y"/><lb n="0191a02" ed="Y" type="old"/><p style="text-indent:2em">唐時，西藏初受內地佛教之化。有支那堪布者（考得此為北系之禪者，隨金
+<lb n="0191a01" ed="Y"/><lb n="0191a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十九　為支那堪布翻案</cb:mulu><head><note n="0191a0101" resp="CBETA" type="add" subtype="規範字詞">十九【CB】，一九【印順】</note><app n="0191a0101"><lem resp="CBETA" wit="【CB】">十九</lem><rdg wit="【印順】">一九</rdg></app>　為支那堪布翻案</head>
+<lb n="0191a02" ed="Y"/><lb n="0191a02" ed="Y" type="old"/><p xml:id="pY23p0191a0201" style="text-indent:2em">唐時，西藏初受內地佛教之化。有支那堪布者（考得此為北系之禪者，隨金
 <lb n="0191a03" ed="Y"/><lb n="0191a03" ed="Y" type="old"/>城公主入藏），弘法藏衛，唱頓悟成佛之道。印度蓮華戒至，與共辯論，支那堪
 <lb n="0191a04" ed="Y"/><lb n="0191a04" ed="Y" type="old"/>布失對於當時，遂被放而不得行其道。西藏佛教，乃日化於印度晚期——神祕欲
 <lb n="0191a05" ed="Y"/><lb n="0191a05" ed="Y" type="old"/>樂之教。此則公案，西藏學者，輒引為談助。如宗喀巴<title level="m">《菩提道次》</title>，即每指異
@@ -280,15 +300,15 @@
 <pb n="0192a" ed="Y" xml:id="Y23.0023.0192a"/>
 <lb n="0192a01" ed="Y"/><lb n="0192a01" ed="Y" type="old"/>纖巧。學者習於空談，於身心實益、社會利樂，轉漠然視之，而佛教雄健之風、
 <lb n="0192a02" ed="Y"/><lb n="0192a02" ed="Y" type="old"/>篤實之行，蕩然無存矣！西藏佛教以神祕欲樂為尚，愧見支那堪布多矣！</p></cb:div>
-<lb n="0192a03" ed="Y"/><lb n="0192a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二十　三變</cb:mulu><head><note n="0192a0301" resp="CBETA" type="add" subtype="規範字詞">二十【CB】，二〇【印順】</note><app n="0192a0301"><lem wit="【CB】" resp="CBETA">二十</lem><rdg wit="【印順】">二〇</rdg></app>　三變</head>
-<lb n="0192a04" ed="Y"/><lb n="0192a04" ed="Y" type="old"/><p style="text-indent:2em">黃懺華敘歐陽竟無之學，初學儒凡三變，次學佛又三變，晚年歸於儒佛一貫
+<lb n="0192a03" ed="Y"/><lb n="0192a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二十　三變</cb:mulu><head><note n="0192a0301" resp="CBETA" type="add" subtype="規範字詞">二十【CB】，二〇【印順】</note><app n="0192a0301"><lem resp="CBETA" wit="【CB】">二十</lem><rdg wit="【印順】">二〇</rdg></app>　三變</head>
+<lb n="0192a04" ed="Y"/><lb n="0192a04" ed="Y" type="old"/><p xml:id="pY23p0192a0401" style="text-indent:2em">黃懺華敘歐陽竟無之學，初學儒凡三變，次學佛又三變，晚年歸於儒佛一貫
 <lb n="0192a05" ed="Y"/><lb n="0192a05" ed="Y" type="old"/>，合而言之，亦三變也。今謂歐陽老之師楊仁老，宗<title level="m">《起信》</title>，晚年始知有唯識
 <lb n="0192a06" ed="Y"/><lb n="0192a06" ed="Y" type="old"/>。歐陽老初弘唯識而闢<title level="m">《起信》</title>，此則有異仁老矣！晚年，自<title level="m">《般若》</title>而入<title level="m">《華
 <lb n="0192a07" ed="Y"/><lb n="0192a07" ed="Y" type="old"/>嚴》</title>，<title level="m">《涅槃》</title>，於奘傳唯識，微感不盡。今其上足呂秋一，唯識宗古學，乃欲
 <lb n="0192a08" ed="Y"/><lb n="0192a08" ed="Y" type="old"/>別奘傳唯識為唐人學以治之。以視歐陽老之宗唯識以闢<title level="m">《起信》</title>，又有間矣。若
 <lb n="0192a09" ed="Y"/><lb n="0192a09" ed="Y" type="old"/>合而言之，亦得三變。</p></cb:div>
 <lb n="0192a10" ed="Y"/><lb n="0192a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二一　般若經最大</cb:mulu><head>二一　般若經最大</head>
-<lb n="0192a11" ed="Y"/><lb n="0192a11" ed="Y" type="old"/><p style="text-indent:2em">龍樹讚<title level="m">《般若經》</title>，於<title level="m">《法華》</title>等一切大乘經中，<title level="m">《般若經》</title>最大。般若之<pb n="0193a" ed="Y" xml:id="Y23.0023.0193a.old" type="old"/>
+<lb n="0192a11" ed="Y"/><lb n="0192a11" ed="Y" type="old"/><p xml:id="pY23p0192a1101" style="text-indent:2em">龍樹讚<title level="m">《般若經》</title>，於<title level="m">《法華》</title>等一切大乘經中，<title level="m">《般若經》</title>最大。般若之<pb n="0193a" ed="Y" xml:id="Y23.0023.0193a.old" type="old"/>
 <pb n="0193a" ed="Y" xml:id="Y23.0023.0193a"/>
 <lb n="0193a01" ed="Y"/><lb n="0193a01" ed="Y" type="old"/>所以大，古人多難言之。成論大乘云：般若通教三乘，非獨被菩薩，義不究竟。
 <lb n="0193a02" ed="Y"/><lb n="0193a02" ed="Y" type="old"/>唯識大乘云：<title level="m">《般若經》</title>但為發趣菩薩者說，非遍為一切乘，是第二時不了義之
@@ -296,7 +316,7 @@
 <lb n="0193a04" ed="Y"/><lb n="0193a04" ed="Y" type="old"/>！實則<title level="m">《般若經》</title>通教三乘，但為菩薩。但菩薩故深，通三乘故廣；深廣無礙，
 <lb n="0193a05" ed="Y"/><lb n="0193a05" ed="Y" type="old"/>如杲日當空，平地高山，一時照卻，此<title level="m">《般若經》</title>之所以獨大歟！</p></cb:div>
 <lb n="0193a06" ed="Y"/><lb n="0193a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二二　教主</cb:mulu><head>二二　教主</head>
-<lb n="0193a07" ed="Y"/><lb n="0193a07" ed="Y" type="old"/><p style="text-indent:2em">日僧親鸞，娶妻生子，創真宗，盛行於日本。其後裔凡二支，以東西本願寺
+<lb n="0193a07" ed="Y"/><lb n="0193a07" ed="Y" type="old"/><p xml:id="pY23p0193a0701" style="text-indent:2em">日僧親鸞，娶妻生子，創真宗，盛行於日本。其後裔凡二支，以東西本願寺
 <lb n="0193a08" ed="Y"/><lb n="0193a08" ed="Y" type="old"/>統攝其信眾。支長世受國家之封爵，世為教主，類道教張陵之裔。西藏佛教，舊
 <lb n="0193a09" ed="Y"/><lb n="0193a09" ed="Y" type="old"/>多娶妻生子。父死，其寺產由子喇嘛繼承之。自元帝以政權畀喇嘛，西藏重復祭
 <lb n="0193a10" ed="Y"/><lb n="0193a10" ed="Y" type="old"/>政一致之制。明初，宗喀巴出而矯正之，嚴戒律，重教學，於西藏佛教之貢獻特
@@ -309,11 +329,11 @@
 <lb n="0194a04" ed="Y"/><lb n="0194a04" ed="Y" type="old"/>世以統攝之。佛教無教主，樹二千餘年來民主之光榮！彼西藏與日本，固未知佛
 <lb n="0194a05" ed="Y"/><lb n="0194a05" ed="Y" type="old"/>教之特質也！</p></cb:div>
 <lb n="0194a06" ed="Y"/><lb n="0194a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二三　十八空論</cb:mulu><head>二三　十八空論</head>
-<lb n="0194a07" ed="Y"/><lb n="0194a07" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《十八空論》</title>，不詳作者名，古人以為龍樹造。詳其內容，初釋<bibl>《<title level="m">中邊分別
+<lb n="0194a07" ed="Y"/><lb n="0194a07" ed="Y" type="old"/><p xml:id="pY23p0194a0701" style="text-indent:2em"><title level="m">《十八空論》</title>，不詳作者名，古人以為龍樹造。詳其內容，初釋<bibl>《<title level="m">中邊分別
 <lb n="0194a08" ed="Y"/><lb n="0194a08" ed="Y" type="old"/>論</title>．<title level="a">相品</title>》</bibl>之空義，次釋<title level="a">〈真實品〉</title>之一節。此乃<title level="m">《中邊分別論》</title>之疏注，世親
 <lb n="0194a09" ed="Y"/><lb n="0194a09" ed="Y" type="old"/>後人作，或即真諦所出。或者視為龍樹作，且據之以明龍樹曾說唯識，妄矣！</p></cb:div>
 <lb n="0194a10" ed="Y"/><lb n="0194a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二四　姓名之道俗辨</cb:mulu><head>二四　姓名之道俗辨</head>
-<lb n="0194a11" ed="Y"/><lb n="0194a11" ed="Y" type="old"/><p style="text-indent:2em">國人之出家者，舉家居之姓名而並棄之，另作姓名曰釋某某。考之古籍，非<pb n="0195a" ed="Y" xml:id="Y23.0023.0195a.old" type="old"/>
+<lb n="0194a11" ed="Y"/><lb n="0194a11" ed="Y" type="old"/><p xml:id="pY23p0194a1101" style="text-indent:2em">國人之出家者，舉家居之姓名而並棄之，另作姓名曰釋某某。考之古籍，非<pb n="0195a" ed="Y" xml:id="Y23.0023.0195a.old" type="old"/>
 <pb n="0195a" ed="Y" xml:id="Y23.0023.0195a"/>
 <lb n="0195a01" ed="Y"/><lb n="0195a01" ed="Y" type="old"/>聖訓也。世尊姓瞿曇，來人每以瞿曇呼之，則佛之姓不改。佛之及門弟子，如大
 <lb n="0195a02" ed="Y"/><lb n="0195a02" ed="Y" type="old"/>迦旃延，大迦葉，大目犍連，彌勒，賓頭盧，並是俗姓，未聞別作。或謂釋道安
@@ -332,11 +352,11 @@
 <lb n="0196a01" ed="Y"/>僅<pb n="0196a" ed="Y" xml:id="Y23.0023.0196a.old" type="old"/><lb n="0196a01" ed="Y" type="old"/>有部晚期所傳，諸部則不盡然，如大眾部則多用軍字。是知改用法名，雖印度
 <lb n="0196a02" ed="Y"/>舊<lb n="0196a02" ed="Y" type="old"/>有，事非佛制。至密宗興，乃無一不取密名矣！</p></cb:div>
 <lb n="0196a03" ed="Y"/><lb n="0196a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二五　曇影與曇晷</cb:mulu><head>二五　曇影與曇晷</head>
-<lb n="0196a04" ed="Y"/><lb n="0196a04" ed="Y" type="old"/><p style="text-indent:2em">經錄傳：什公譯<title level="m">《成實論》</title>，曇晷筆受。曇晷名不見僧傳，今謂即曇影字形
+<lb n="0196a04" ed="Y"/><lb n="0196a04" ed="Y" type="old"/><p xml:id="pY23p0196a0401" style="text-indent:2em">經錄傳：什公譯<title level="m">《成實論》</title>，曇晷筆受。曇晷名不見僧傳，今謂即曇影字形
 <lb n="0196a05" ed="Y"/><lb n="0196a05" ed="Y" type="old"/>之訛也。影助什公譯經，見<title level="m">《成實論》</title>之諍辯往返，頗恨其支離，乃結為五番以
 <lb n="0196a06" ed="Y"/><lb n="0196a06" ed="Y" type="old"/>呈什，什公善之。影之致力<title level="m">《成實》</title>如此，蓋筆受之人也。</p></cb:div>
 <lb n="0196a07" ed="Y"/><lb n="0196a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二六　布袋和尚</cb:mulu><head>二六　布袋和尚</head>
-<lb n="0196a08" ed="Y"/><lb n="0196a08" ed="Y" type="old"/><p style="text-indent:2em"><cit><bibl><title level="m">《傳燈錄》</title>載：布袋和尚</bibl><quote type="嚴謹引文">「形裁腲脮，蹙額皤腹」</quote><note n="0196001" resp="厚觀法師" type="add">《景德傳燈錄》卷27(CBETA, T51, no. 2076, p. 434, a20)</note></cit>；<quote source="T51n2076_p0434a22" type="嚴謹引文">「入廛肆聚落，見物則
+<lb n="0196a08" ed="Y"/><lb n="0196a08" ed="Y" type="old"/><p xml:id="pY23p0196a0801" style="text-indent:2em"><cit><bibl><title level="m">《傳燈錄》</title>載：布袋和尚</bibl><quote type="嚴謹引文">「形裁腲脮，蹙額皤腹」</quote><note n="0196001" resp="厚觀法師" type="add">《景德傳燈錄》卷27(CBETA, T51, no. 2076, p. 434, a20)</note></cit>；<quote source="T51n2076_p0434a22" type="嚴謹引文">「入廛肆聚落，見物則
 <lb n="0196a09" ed="Y"/><lb n="0196a09" ed="Y" type="old"/>乞」<note n="0196002" resp="謝淑歆" type="add">《景德傳燈錄》卷27(CBETA, T51, no. 2076, p. 434, a22)</note></quote>。宋代已<quote source="T51n2076_p0434b27" type="嚴謹引文">「四眾競圖其像」<note n="0196003" resp="謝淑歆" type="add">《景德傳燈錄》卷27(CBETA, T51, no. 2076, p. 434, b27)</note></quote>。解脫而無所拘禁之風格，大有<quote>「遊戲人間樂太
 <lb n="0196a10" ed="Y"/><lb n="0196a10" ed="Y" type="old"/>平」</quote>之概，實與南宋之濟公相類。然以傳為彌勒化身，受中國佛教界尊嚴之供奉
 <lb n="0196a11" ed="Y"/><lb n="0196a11" ed="Y" type="old"/>。迨布袋和尚像傳入日本，圖像歌贊甚多。因其<quote>「以一杖荷一布囊」</quote>，與大黑天<pb n="0197a" ed="Y" xml:id="Y23.0023.0197a.old" type="old"/>
@@ -345,12 +365,12 @@
 <lb n="0197a02" ed="Y"/><lb n="0197a02" ed="Y" type="old"/>，「布袋醉後欠申圖」，真所謂：<quote>「終日酒肆魚行，何妨遊戲放蕩」</quote>。雖風顛遊
 <lb n="0197a03" ed="Y"/><lb n="0197a03" ed="Y" type="old"/>戲，寓灑脫於滑稽幽默之中，宜其為人所好，然其汙損佛法亦甚矣！</p></cb:div>
 <lb n="0197a04" ed="Y"/><lb n="0197a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二七　大黑天</cb:mulu><head>二七　大黑天</head>
-<lb n="0197a05" ed="Y"/><lb n="0197a05" ed="Y" type="old"/><p style="text-indent:2em">摩訶迦羅，譯為大黑，本印度之戰鬥神，一面八臂或三面六臂，為摩醯首羅
+<lb n="0197a05" ed="Y"/><lb n="0197a05" ed="Y" type="old"/><p xml:id="pY23p0197a0501" style="text-indent:2em">摩訶迦羅，譯為大黑，本印度之戰鬥神，一面八臂或三面六臂，為摩醯首羅
 <lb n="0197a06" ed="Y"/><lb n="0197a06" ed="Y" type="old"/>天化身。佛教初視為夜叉或龍神，迨密典乃說為大日如來化身。義淨西遊天竺時
 <lb n="0197a07" ed="Y"/><lb n="0197a07" ed="Y" type="old"/>，大黑天「手把金囊」像，供奉於廚側或庫前，已成為護持三寶，財富飲食之神
 <lb n="0197a08" ed="Y"/><lb n="0197a08" ed="Y" type="old"/>矣！</p></cb:div>
 <lb n="0197a09" ed="Y"/><lb n="0197a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二八　一陰一陽之為道</cb:mulu><head>二八　一陰一陽之為道</head>
-<lb n="0197a10" ed="Y"/><lb n="0197a10" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《易》</title>曰：一陰一陽之為道。乾坤初擬於父母，翕闢本形乎性交。初民驚於
+<lb n="0197a10" ed="Y"/><lb n="0197a10" ed="Y" type="old"/><p xml:id="pY23p0197a1001" style="text-indent:2em"><title level="m">《易》</title>曰：一陰一陽之為道。乾坤初擬於父母，翕闢本形乎性交。初民驚於
 <lb n="0197a11" ed="Y"/><lb n="0197a11" ed="Y" type="old"/>男女生育之奇，於性交有神祕之感，乃以此而類推宇宙生化。基此而漸入文明，<pb n="0198a" ed="Y" xml:id="Y23.0023.0198a.old" type="old"/>
 <pb n="0198a" ed="Y" xml:id="Y23.0023.0198a"/>
 <lb n="0198a01" ed="Y"/><lb n="0198a01" ed="Y" type="old"/>乾坤陰陽乃轉化為正反、奇偶——宇宙間相拒相和之理。雖男女之道，為家庭之
@@ -362,7 +382,7 @@
 <lb n="0198a07" ed="Y"/><lb n="0198a07" ed="Y" type="old"/>為定之一名，以形容從修定而到達身心平等，心與境融之境地。迨密宗繼起，融
 <lb n="0198a08" ed="Y"/><lb n="0198a08" ed="Y" type="old"/>攝遍行外道之術為成佛方便，乃美性交為入定矣。</p></cb:div>
 <lb n="0198a09" ed="Y"/><lb n="0198a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二九　中國佛教與邊地民族</cb:mulu><head>二九　中國佛教與邊地民族</head>
-<lb n="0198a10" ed="Y"/><lb n="0198a10" ed="Y" type="old"/><p style="text-indent:2em">我國佛教之弘盛，有關於外族同化及邊地民族者至鉅。即如大乘八宗：三論
+<lb n="0198a10" ed="Y"/><lb n="0198a10" ed="Y" type="old"/><p xml:id="pY23p0198a1001" style="text-indent:2em">我國佛教之弘盛，有關於外族同化及邊地民族者至鉅。即如大乘八宗：三論
 <lb n="0198a11" ed="Y"/><lb n="0198a11" ed="Y" type="old"/>宗之自北地而南傳者，為攝山僧朗，朗乃高麗（實為遼東人，時屬高麗）人。大
 <lb n="0198a12" ed="Y"/><lb n="0198a12" ed="Y" type="old"/>成者嘉祥吉藏，則為安息族之華化者。唯識宗，傳玄奘之學者，首推慈恩窺基；<pb n="0199a" ed="Y" xml:id="Y23.0023.0199a.old" type="old"/>
 <pb n="0199a" ed="Y" xml:id="Y23.0023.0199a"/>
@@ -372,8 +392,8 @@
 <lb n="0199a04" ed="Y"/><lb n="0199a04" ed="Y" type="old"/>起於日本之慧鍔，九華山興起於新羅之地藏，五臺山地接北胡，峨嵋山則處西南
 <lb n="0199a05" ed="Y"/><lb n="0199a05" ed="Y" type="old"/>夷，歷為蒙、藏信仰重心。我國佛教得力於外族同化及邊地民族，亦即有助於民
 <lb n="0199a06" ed="Y"/><lb n="0199a06" ed="Y" type="old"/>族間之協和同化也。</p></cb:div>
-<lb n="0199a07" ed="Y"/><lb n="0199a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三十　老子生而髮白</cb:mulu><head><note n="0199a0701" resp="CBETA" type="add" subtype="規範字詞">三十【CB】，三〇【印順】</note><app n="0199a0701"><lem wit="【CB】" resp="CBETA">三十</lem><rdg wit="【印順】">三〇</rdg></app>　老子生而髮白</head>
-<lb n="0199a08" ed="Y"/><lb n="0199a08" ed="Y" type="old"/><p style="text-indent:2em">《神仙傳》謂：老子處胎八十年而生，生而髮白，因名為老子。然此非道家
+<lb n="0199a07" ed="Y"/><lb n="0199a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三十　老子生而髮白</cb:mulu><head><note n="0199a0701" resp="CBETA" type="add" subtype="規範字詞">三十【CB】，三〇【印順】</note><app n="0199a0701"><lem resp="CBETA" wit="【CB】">三十</lem><rdg wit="【印順】">三〇</rdg></app>　老子生而髮白</head>
+<lb n="0199a08" ed="Y"/><lb n="0199a08" ed="Y" type="old"/><p xml:id="pY23p0199a0801" style="text-indent:2em">《神仙傳》謂：老子處胎八十年而生，生而髮白，因名為老子。然此非道家
 <lb n="0199a09" ed="Y"/>之舊<lb n="0199a09" ed="Y" type="old"/>說，元魏吉迦夜所出<cit><bibl><title level="m">《付法藏因緣傳》</title><biblScope n="5" type="卷">（卷五）</biblScope>云：</bibl><quote source="T50n2058_p0314c01-02" type="嚴謹引文">「脇比丘由昔業故，在
 <lb n="0199a10" ed="Y"/>母胎<lb n="0199a10" ed="Y" type="old"/>中六十餘年，既生之後，鬢髮皓白」</quote><note n="0199001" resp="謝淑歆" type="add">《付法藏因緣傳》卷5(CBETA, T50, no. 2058, p. 314, c1-2)</note></cit>。老子生而髮白，實取諸佛教之傳說。
 <lb n="0199a11" ed="Y"/>然脇<lb n="0199a11" ed="Y" type="old"/>比丘故事，更別有傳說為據。佛世有比丘名「上座」，<title level="m">《婆沙論》</title>釋其得名
@@ -382,7 +402,7 @@
 <lb n="0200a01" ed="Y"/>付法<pb n="0200a" ed="Y" xml:id="Y23.0023.0200a.old" type="old"/><lb n="0200a01" ed="Y" type="old"/>藏傳》</title>之前。是則上座之傳說，一轉而為脇比丘故事，再轉而為老子。傳說
 <lb n="0200a02" ed="Y"/>多變<lb n="0200a02" ed="Y" type="old"/>，亦甚久矣！</p></cb:div>
 <lb n="0200a03" ed="Y"/><lb n="0200a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三一　將心來與汝安</cb:mulu><head>三一　將心來與汝安</head>
-<lb n="0200a04" ed="Y"/><lb n="0200a04" ed="Y" type="old"/><p style="text-indent:2em">舊傳達磨宗風，答語每從反詰問處著手。如慧可見達磨，乞與安心法。達曰
+<lb n="0200a04" ed="Y"/><lb n="0200a04" ed="Y" type="old"/><p xml:id="pY23p0200a0401" style="text-indent:2em">舊傳達磨宗風，答語每從反詰問處著手。如慧可見達磨，乞與安心法。達曰
 <lb n="0200a05" ed="Y"/><lb n="0200a05" ed="Y" type="old"/>：<quote source="T51n2076_p0219b22" type="嚴謹引文">「將心來與汝安」<note n="0200001" resp="謝淑歆" type="add">《景德傳燈錄》卷3(CBETA, T51, no. 2076, p. 219, b22)</note></quote>！可曰：<quote source="T51n2076_p0219b22" type="嚴謹引文">「覓心了不可得」<note n="0200002" resp="謝淑歆" type="add">《景德傳燈錄》卷3(CBETA, T51, no. 2076, p. 219, b22)</note></quote>。達曰：<quote source="T51n2076_p0219b23" type="嚴謹引文">「與汝安心竟」<note n="0200003" resp="謝淑歆" type="add">《景德傳燈錄》卷3(CBETA, T51, no. 2076, p. 219, b23)</note></quote>。僧璨
 <lb n="0200a06" ed="Y"/><lb n="0200a06" ed="Y" type="old"/>之見慧可，可曰：<quote source="T51n2076_p0220c16-17" type="嚴謹引文">「將罪來與汝懺」<note n="0200004" resp="謝淑歆" type="add">《景德傳燈錄》卷3(CBETA, T51, no. 2076, p. 220, c16-17)</note></quote>！道信之見僧璨，璨曰：<quote source="T51n2076_p0221c20" type="嚴謹引文">「誰縛汝」<note n="0200005" resp="謝淑歆" type="add">《景德傳燈錄》卷3(CBETA, T51, no. 2076, p. 221, c20)</note></quote>！出言
 <lb n="0200a07" ed="Y"/><lb n="0200a07" ed="Y" type="old"/>之旨趣並同，實則此是大乘顯示勝義之一式。約理，則於無自性處顯空性；約行
@@ -392,19 +412,19 @@
 <lb n="0200a11" ed="Y"/><lb n="0200a11" ed="Y" type="old"/>說般若。一反來問以為答，方等、《般若經》，實多其例。</p></cb:div><pb n="0201a" ed="Y" xml:id="Y23.0023.0201a.old" type="old"/>
 <pb n="0201a" ed="Y" xml:id="Y23.0023.0201a"/>
 <lb n="0201a01" ed="Y"/><lb n="0201a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三二　北土重禪</cb:mulu><head>三二　北土重禪</head>
-<lb n="0201a02" ed="Y"/><lb n="0201a02" ed="Y" type="old"/><p style="text-indent:2em">曇無最為北土之涅槃學者，魏太武中，曾預釋老先後之辨，舉<title level="m">《漢法本內傳
+<lb n="0201a02" ed="Y"/><lb n="0201a02" ed="Y" type="old"/><p xml:id="pY23p0201a0201" style="text-indent:2em">曇無最為北土之涅槃學者，魏太武中，曾預釋老先後之辨，舉<title level="m">《漢法本內傳
 <lb n="0201a03" ed="Y"/><lb n="0201a03" ed="Y" type="old"/>》</title>以證之。<title level="m">《洛陽伽藍記》</title>載：曇無最死後，入冥中，見一比丘來，冥官禮敬甚
 <lb n="0201a04" ed="Y"/><lb n="0201a04" ed="Y" type="old"/>恭。詢之，禪師也。最自以弘贊《涅槃》，功德難思，而不為冥官所重，心殊不
 <lb n="0201a05" ed="Y"/>平。<lb n="0201a05" ed="Y" type="old"/>冥官告以道在心行，說法不如禪，非故為厚薄也。以此足覘北地之重禪輕教
 <lb n="0201a06" ed="Y"/>，無<lb n="0201a06" ed="Y" type="old"/>惑乎達磨門下之不立文字，能日益弘大！</p></cb:div>
 <lb n="0201a07" ed="Y"/><lb n="0201a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三三　求生東方</cb:mulu><head>三三　求生東方</head>
-<lb n="0201a08" ed="Y"/><lb n="0201a08" ed="Y" type="old"/><p style="text-indent:2em">北齊真玉，初修求生西方之淨業甚虔。後聞東方有蓮華藏淨土，乃慨然歎曰
+<lb n="0201a08" ed="Y"/><lb n="0201a08" ed="Y" type="old"/><p xml:id="pY23p0201a0801" style="text-indent:2em">北齊真玉，初修求生西方之淨業甚虔。後聞東方有蓮華藏淨土，乃慨然歎曰
 <lb n="0201a09" ed="Y"/><lb n="0201a09" ed="Y" type="old"/>：<quote>人競西往，更無東向</quote>，其如東方世界何？乃迴心求生東方淨土，臨終如願<lb n="0201a10" ed="Y" type="old"/>往生
 <lb n="0201a10" ed="Y"/>。此老於淨土念佛法門，可謂獨具隻眼！如淨業成就，十方淨土固得隨願往<lb n="0201a11" ed="Y" type="old"/>生者
 <lb n="0201a11" ed="Y"/>也！</p></cb:div><pb n="0202a" ed="Y" xml:id="Y23.0023.0202a.old" type="old"/>
 <pb n="0202a" ed="Y" xml:id="Y23.0023.0202a"/>
 <lb n="0202a01" ed="Y"/><lb n="0202a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三四　女王與大雲經</cb:mulu><head>三四　女王與大雲經</head>
-<lb n="0202a02" ed="Y"/><lb n="0202a02" ed="Y" type="old"/><p style="text-indent:2em">女子不得作輪王，聲聞法中有此說，大乘則不然。北涼曇無讖所譯<title level="m">《大雲經
+<lb n="0202a02" ed="Y"/><lb n="0202a02" ed="Y" type="old"/><p xml:id="pY23p0202a0201" style="text-indent:2em">女子不得作輪王，聲聞法中有此說，大乘則不然。北涼曇無讖所譯<title level="m">《大雲經
 <lb n="0202a03" ed="Y"/><lb n="0202a03" ed="Y" type="old"/>》</title>，佛記會中天女，當來以女身作轉輪王，護持正法。唐武后之敢於移唐祚稱帝
 <lb n="0202a04" ed="Y"/><lb n="0202a04" ed="Y" type="old"/>，開中國政治史上空前絕後之奇跡，<title level="m">《大雲經》</title>與有力焉。當時僧尼，為<title level="m">《大雲
 <lb n="0202a05" ed="Y"/><lb n="0202a05" ed="Y" type="old"/>經》</title>潤飾，注釋，為武后宣傳，頒<title level="m">《大雲經》</title>於天下，以示天命所在。武后稱天
@@ -417,12 +437,12 @@
 <lb n="0202a12" ed="Y"/>關我中國。古人附會<lb n="0202a12" ed="Y" type="old"/>其事，不知何以通經！</p></cb:div><pb n="0203a" ed="Y" xml:id="Y23.0023.0203a.old" type="old"/>
 <pb n="0203a" ed="Y" xml:id="Y23.0023.0203a"/>
 <lb n="0203a01" ed="Y"/><lb n="0203a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三五　十六羅漢因果識見頌</cb:mulu><head>三五　十六羅漢因果識見頌</head>
-<lb n="0203a02" ed="Y"/><lb n="0203a02" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《十六羅漢因果識見頌》</title>一卷，日本<title level="m">《續藏經》</title>，收入「失譯」中，非也。
+<lb n="0203a02" ed="Y"/><lb n="0203a02" ed="Y" type="old"/><p xml:id="pY23p0203a0201" style="text-indent:2em"><title level="m">《十六羅漢因果識見頌》</title>一卷，日本<title level="m">《續藏經》</title>，收入「失譯」中，非也。
 <lb n="0203a03" ed="Y"/>頌凡十六<lb n="0203a03" ed="Y" type="old"/>章，每章為三段。一、頌羅漢之事跡神力，依<title level="m">《法住記》</title>。二、頌因果
 <lb n="0203a04" ed="Y"/>人天善行<lb n="0203a04" ed="Y" type="old"/>，間及我國之俗習。三、頌識見，即<quote source="T48n2008_p0348c11" type="嚴謹引文">「識自本心，見自本性」<note n="0203001" resp="謝淑歆" type="add">《六祖大師法寶壇經》卷1(CBETA, T48, no. 2008, p. 348, c11)</note></quote>之意，十
 <lb n="0203a05" ed="Y"/>九出<title level="m">《壇<lb n="0203a05" ed="Y" type="old"/>經》</title>。此雜湊而成之偈頌，實中國禪者不立文字之文字也！</p></cb:div>
 <lb n="0203a06" ed="Y"/><lb n="0203a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三六　禪門之風格</cb:mulu><head>三六　禪門之風格</head>
-<lb n="0203a07" ed="Y"/><lb n="0203a07" ed="Y" type="old"/><p style="text-indent:2em">我國之禪者，雖以宗門自居，凌轢諸家，似乎高不可及。然就其風度言之，
+<lb n="0203a07" ed="Y"/><lb n="0203a07" ed="Y" type="old"/><p xml:id="pY23p0203a0701" style="text-indent:2em">我國之禪者，雖以宗門自居，凌轢諸家，似乎高不可及。然就其風度言之，
 <lb n="0203a08" ed="Y"/><lb n="0203a08" ed="Y" type="old"/>則禪宗之初，頗近於一分聲聞行者。四事恬澹，有頭陀之風；重實踐，不以論說
 <lb n="0203a09" ed="Y"/><lb n="0203a09" ed="Y" type="old"/>為重；有法堂而不立佛殿；經行坐禪於山邊林下，隨適而安；解脫之心甚切，所
 <lb n="0203a10" ed="Y"/><lb n="0203a10" ed="Y" type="old"/>謂<quote type="寬鬆引文">「己事未明，如喪考妣」</quote>；隨聞悟入；凡此莫非古代聲聞佛教之遺風。然禪者
@@ -434,14 +454,14 @@
 <lb n="0204a04" ed="Y"/><lb n="0204a04" ed="Y" type="old"/>見也。然離言一句，大小所共，乃至外道有絕言見。淺深萬類，唯智者能勘印之
 <lb n="0204a05" ed="Y"/><lb n="0204a05" ed="Y" type="old"/>耳！</p></cb:div>
 <lb n="0204a06" ed="Y"/><lb n="0204a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三七　土地菩薩</cb:mulu><head>三七　土地菩薩</head>
-<lb n="0204a07" ed="Y"/><lb n="0204a07" ed="Y" type="old"/><p style="text-indent:2em">國人每稱土地、城隍等為菩薩，頗嫌於神佛不分。今之學者，每舉而闢之。
+<lb n="0204a07" ed="Y"/><lb n="0204a07" ed="Y" type="old"/><p xml:id="pY23p0204a0701" style="text-indent:2em">國人每稱土地、城隍等為菩薩，頗嫌於神佛不分。今之學者，每舉而闢之。
 <lb n="0204a08" ed="Y"/><lb n="0204a08" ed="Y" type="old"/>然<title level="m">《華嚴》</title>、<title level="m">《涅槃》</title>等大乘經，有主山神，主地神，主城神等，並是菩薩。秘
 <lb n="0204a09" ed="Y"/><lb n="0204a09" ed="Y" type="old"/>密教中，則鬼畜諸天，尤多佛菩薩化現，或如來內眷屬。夫印度群神，大乘得視
 <lb n="0204a10" ed="Y"/><lb n="0204a10" ed="Y" type="old"/>為菩薩而融攝之；中國之土地、城隍，安見其不得為菩薩？神祕而泥古之學者，
 <lb n="0204a11" ed="Y"/><lb n="0204a11" ed="Y" type="old"/>有以語我來！</p></cb:div><pb n="0205a" ed="Y" xml:id="Y23.0023.0205a.old" type="old"/>
 <pb n="0205a" ed="Y" xml:id="Y23.0023.0205a"/>
 <lb n="0205a01" ed="Y"/><lb n="0205a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三八　佛教之年節</cb:mulu><head>三八　佛教之年節</head>
-<lb n="0205a02" ed="Y"/><lb n="0205a02" ed="Y" type="old"/><p style="text-indent:2em">佛教有安居之制，於七月十五日（或八月十五日）解制。屆時，比丘受歲（
+<lb n="0205a02" ed="Y"/><lb n="0205a02" ed="Y" type="old"/><p xml:id="pY23p0205a0201" style="text-indent:2em">佛教有安居之制，於七月十五日（或八月十五日）解制。屆時，比丘受歲（
 <lb n="0205a03" ed="Y"/><lb n="0205a03" ed="Y" type="old"/>加一歲），行自恣法，衣食住之受用，得豐樂隨意。信眾群來集會，布施作福，
 <lb n="0205a04" ed="Y"/><lb n="0205a04" ed="Y" type="old"/>蓋佛教之年節也。此日，稱佛歡喜日；此如父母見子女之長成，為之欣悅。釋尊
 <lb n="0205a05" ed="Y"/><lb n="0205a05" ed="Y" type="old"/>在世，舊有此制。傳說佛為拔濟目蓮生母之餓鬼苦，教於佛歡喜日供佛作福，因
@@ -452,7 +472,7 @@
 <lb n="0205a10" ed="Y"/><lb n="0205a10" ed="Y" type="old"/>美哉！</p></cb:div>
 <lb n="0205a11" ed="Y"/><lb n="0205a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三九　讀新原人論</cb:mulu><head>三九　讀新原人論</head><pb n="0206a" ed="Y" xml:id="Y23.0023.0206a.old" type="old"/>
 <pb n="0206a" ed="Y" xml:id="Y23.0023.0206a"/>
-<lb n="0206a01" ed="Y"/><lb n="0206a01" ed="Y" type="old"/><p style="text-indent:2em">人生之任情而動者，不覺也。知以節情而暢其情者，暢其情則為功利，節其
+<lb n="0206a01" ed="Y"/><lb n="0206a01" ed="Y" type="old"/><p xml:id="pY23p0206a0101" style="text-indent:2em">人生之任情而動者，不覺也。知以節情而暢其情者，暢其情則為功利，節其
 <lb n="0206a02" ed="Y"/><lb n="0206a02" ed="Y" type="old"/>情而為道義，義利戰於胸次，似覺而實未覺也。情得智泯而淨化之者，以智泯情
 <lb n="0206a03" ed="Y"/><lb n="0206a03" ed="Y" type="old"/>則聲聞之己利行，以智化情則菩薩之普賢行，情智未免於起伏，分覺也。任智而
 <lb n="0206a04" ed="Y"/><lb n="0206a04" ed="Y" type="old"/>行者，情以智轉而智在情中，人生之極致，大悲大智之大覺也。以是觀之，道家

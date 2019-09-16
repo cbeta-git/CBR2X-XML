@@ -12,49 +12,69 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 29, No. 29</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">29</idno>.<idno type="no">29</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（五）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">七、論三諦三智與賴耶通真妄——讀《佛性與般若》</cb:mulu>
-<milestone unit="juan" n="8"/><pb n="0127a" ed="Y" xml:id="Y29.0029.0127a.old" type="old"/>
+<milestone n="8" unit="juan"/><pb n="0127a" ed="Y" xml:id="Y29.0029.0127a.old" type="old"/>
 <pb n="0127a" ed="Y" xml:id="Y29.0029.0127a"/>
 <lb n="0127a01" ed="Y"/><lb n="0127a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">八、〈曇鸞與道綽〉閱後</cb:mulu><head><title level="a">〈曇鸞與道綽〉</title>閱後<note n="0127001" resp="DILA" type="add">民國四五年撰。</note></head>
-<lb n="0127a02" ed="Y"/><lb n="0127a02" ed="Y" type="old"/><p style="text-indent:2em">四明石芝曉法師，為一天台宗學者，雖弘揚淨土，與曇鸞、道綽不同。曇鸞
+<lb n="0127a02" ed="Y"/><lb n="0127a02" ed="Y" type="old"/><p xml:id="pY29p0127a0201" style="text-indent:2em">四明石芝曉法師，為一天台宗學者，雖弘揚淨土，與曇鸞、道綽不同。曇鸞
 <lb n="0127a03" ed="Y"/><lb n="0127a03" ed="Y" type="old"/>與道綽，判易行與難行，淨土與聖道二門。以為念佛往生，持戒與犯戒，定心與
 <lb n="0127a04" ed="Y"/><lb n="0127a04" ed="Y" type="old"/>散心，愚癡與智慧，並承佛悲願而生。易言之，但須念佛，即得往生，犯戒等根
 <lb n="0127a05" ed="Y"/><lb n="0127a05" ed="Y" type="old"/>機，不在簡別之列也。淨土與聖道之判，即信願往生與戒定慧——聖道之別。故
@@ -66,7 +86,7 @@
 <lb n="0127a11" ed="Y"/><lb n="0127a11" ed="Y" type="old"/>廢聖道而特重信願持名。於曇鸞、道綽等之極端說法，不加尊重。石芝曉法師之<pb n="0128a" ed="Y" xml:id="Y29.0029.0128a.old" type="old"/>
 <pb n="0128a" ed="Y" xml:id="Y29.0029.0128a"/>
 <lb n="0128a01" ed="Y"/><lb n="0128a01" ed="Y" type="old"/>雙取慧遠與善導，不取曇鸞與道綽，殆有此意乎？</p>
-<lb n="0128a02" ed="Y"/><lb n="0128a02" ed="Y" type="old"/><p style="text-indent:2em">講者於曇鸞與道綽，似極贊其對淨土宗之功績，而後舉印光大師之三義以勸
+<lb n="0128a02" ed="Y"/><lb n="0128a02" ed="Y" type="old"/><p xml:id="pY29p0128a0201" style="text-indent:2em">講者於曇鸞與道綽，似極贊其對淨土宗之功績，而後舉印光大師之三義以勸
 <lb n="0128a03" ed="Y"/><lb n="0128a03" ed="Y" type="old"/>人，適成乖角。蓋若以曇鸞、道綽說為指南，淨土行即不能與台、賢、三論、唯
 <lb n="0128a04" ed="Y"/><lb n="0128a04" ed="Y" type="old"/>識、禪、律諸宗相融而行。故知宋元明清之中國佛教，為趣向融合之佛教，淨土
 <lb n="0128a05" ed="Y"/><lb n="0128a05" ed="Y" type="old"/>亦由台、賢、禪、律等諸宗相助而日盛。雖世之淨土行者，或以學涉台、賢、禪

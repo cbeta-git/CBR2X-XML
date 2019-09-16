@@ -12,77 +12,97 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>20卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 22, No. 22</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">22</idno>.<idno type="no">22</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛教史地考論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB01368">
-	<charName>CBETA CHARACTER CB01368</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[飢-几+夌]</value>
-	</charProp>
-	<mapping type="unicode">U+29701</mapping>
-	<mapping cb:dec="984408" type="PUA">U+F0558</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB01368">
+				<charName>CBETA CHARACTER CB01368</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[飢-几+夌]</value>
+				</charProp>
+				<mapping type="unicode">U+29701</mapping>
+				<mapping cb:dec="984408" type="PUA">U+F0558</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">五、紀念佛誕說佛誕</cb:mulu>
-<milestone unit="juan" n="6"/><pb n="0211a" ed="Y" xml:id="Y22.0022.0211a.old" type="old"/>
+<milestone n="6" unit="juan"/><pb n="0211a" ed="Y" xml:id="Y22.0022.0211a.old" type="old"/>
 <pb n="0209a" ed="Y" xml:id="Y22.0022.0209a"/>
 <lb n="0209a01" ed="Y"/><lb n="0211a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">六、龍樹龍宮取經考</cb:mulu><head>龍樹龍宮取經考<note n="0209001" resp="DILA" type="add">民國四五年撰。</note></head>
-<lb n="0209a02" ed="Y"/><lb n="0211a02" ed="Y" type="old"/><p style="text-indent:2em">龍樹入龍宮取經的傳說，在印度是極為普遍的。最初傳來中國的，是鳩摩羅
+<lb n="0209a02" ed="Y"/><lb n="0211a02" ed="Y" type="old"/><p xml:id="pY22p0209a0201" style="text-indent:2em">龍樹入龍宮取經的傳說，在印度是極為普遍的。最初傳來中國的，是鳩摩羅
 <lb n="0209a03" ed="Y"/><lb n="0211a03" ed="Y" type="old"/>什的<cit><bibl><title level="m">《龍樹菩薩傳》</title>，如說：</bibl><quote type="嚴謹引文">「（龍樹）獨在靜處水精房中。大龍菩薩見其如是
 <lb n="0209a04" ed="Y"/>，惜<lb n="0211a04" ed="Y" type="old"/>而愍之，即接之入海。於宮殿中，開七寶藏，發七寶華函，以諸方等深奧經
 <lb n="0209a05" ed="Y"/>典無<lb n="0211a05" ed="Y" type="old"/>量妙法授之。龍樹受讀，九十日中通解甚多。……龍樹既得諸經一箱（或作
 <lb n="0209a06" ed="Y"/>「一<lb n="0211a06" ed="Y" type="old"/>相」），深入無生，二忍具足。龍還送出。」</quote><note n="0209002" resp="周怡曄" type="add">《龍樹菩薩傳》卷1：「獨在靜處水精房中。大龍菩薩見其如是惜而愍之。即接之入海。於宮殿中開七寶藏。發七寶華函。以諸方等深奧經典無量妙法授之。龍樹受讀九十日中通解甚多。其心深入體得寶利。龍知其心而問之曰。看經遍未。答言。汝諸函中經多無量不可盡也。我可讀者已十倍閻浮提。龍言。如我宮中所有經典。諸處此比復不可數。龍樹既得諸經一相深入無生二忍具足。龍還送出」(CBETA, T50, no. 2047a, p. 184, c8-16)</note></cit><cit><bibl><title level="m">《付法藏因緣傳》</title>也採取此說
 <lb n="0209a07" ed="Y"/>，但<lb n="0211a07" ed="Y" type="old"/>末作：</bibl><quote source="T50n2058_p0318a17-18" type="嚴謹引文">「龍樹既得諸經，豁然通達，善解一相，深入無生。」</quote><note n="0209003" resp="周怡曄" type="add">《付法藏因緣傳》卷5(CBETA, T50, no. 2058, p. 318, a17-18)</note></cit>在龍樹所得讀
 <lb n="0209a08" ed="Y"/>的諸<lb n="0211a08" ed="Y" type="old"/>經中，傳說以<title level="m">《華嚴經》</title>為主。如魏菩提流支說<cit><quote type="嚴謹引文">「龍樹從海宮持出（<title level="m">《華嚴
-<lb n="0209a09" ed="Y"/>經》</title>）」<lb n="0211a09" ed="Y" type="old"/></quote><bibl>（見<title level="m">《淨名玄論》</title><biblScope type="卷" n="2">卷二</biblScope>）</bibl><note n="0209004" resp="周怡曄" type="add">《淨名玄論》卷2(CBETA, T38, no. 1780, p. 863, b27)</note></cit>；陳真諦說<cit><quote source="T51n2068_p0050a10-28" type="嚴謹引文">「大海龍王見而愍之，接入大海。
-<lb n="0209a10" ed="Y"/>……<lb n="0211a10" ed="Y" type="old"/>即授下本<title level="m">《華嚴》</title>並諸經一箱」</quote><bibl>（見<title level="m">《法華傳記》</title><biblScope type="卷" n="1">卷一</biblScope>）</bibl><note n="0209005" resp="周怡曄" type="add">《法華傳記》卷1：「大海龍王見而愍之。接[3]八大海。於宮殿中發七寶函。以華嚴法華諸摩訶衍雲經太雲華手般舟諸方等深奧經無量妙法授之。龍樹受誦九十日。其心深入體得實利。龍王知其心問曰。讀經未不。答曰。汝諸函中經多無量。經劫不可盡。我所讀去。已十倍閻浮提經。龍王言。如我宮中所有經典。諸處此比不可數知。各各塵數不妨不礙。不可思議。龍樹言。願得深經。將還閻浮提大弘佛教摧伏外道。龍王言。我宮有華嚴不思議解脫經三本。上本有十三世界微塵數頌四天下微塵數品。中本有四十九萬八千八百偈一千二百品。下本有十萬頌三十品。法華平等大會經。有十世界微塵數偈不可說品。自經典甚太廣博。龍樹言。我見妙典不可思議。將如何傳。龍王言。不可思議解脫經上中二本。至非閻浮提之人力所受持。不可傳之。法華深經略本。在閻浮提。廣本並祕在我宮中。即授下本華嚴並諸經[6]一箱。」(CBETA, T51, no. 2068, p. 50, a10-28)[3]八＝入【甲】。[6]一＋（心）【甲】</note></cit>。唐波羅頗伽羅蜜多
+<lb n="0209a09" ed="Y"/>經》</title>）」<lb n="0211a09" ed="Y" type="old"/></quote><bibl>（見<title level="m">《淨名玄論》</title><biblScope n="2" type="卷">卷二</biblScope>）</bibl><note n="0209004" resp="周怡曄" type="add">《淨名玄論》卷2(CBETA, T38, no. 1780, p. 863, b27)</note></cit>；陳真諦說<cit><quote source="T51n2068_p0050a10-28" type="嚴謹引文">「大海龍王見而愍之，接入大海。
+<lb n="0209a10" ed="Y"/>……<lb n="0211a10" ed="Y" type="old"/>即授下本<title level="m">《華嚴》</title>並諸經一箱」</quote><bibl>（見<title level="m">《法華傳記》</title><biblScope n="1" type="卷">卷一</biblScope>）</bibl><note n="0209005" resp="周怡曄" type="add">《法華傳記》卷1：「大海龍王見而愍之。接[3]八大海。於宮殿中發七寶函。以華嚴法華諸摩訶衍雲經太雲華手般舟諸方等深奧經無量妙法授之。龍樹受誦九十日。其心深入體得實利。龍王知其心問曰。讀經未不。答曰。汝諸函中經多無量。經劫不可盡。我所讀去。已十倍閻浮提經。龍王言。如我宮中所有經典。諸處此比不可數知。各各塵數不妨不礙。不可思議。龍樹言。願得深經。將還閻浮提大弘佛教摧伏外道。龍王言。我宮有華嚴不思議解脫經三本。上本有十三世界微塵數頌四天下微塵數品。中本有四十九萬八千八百偈一千二百品。下本有十萬頌三十品。法華平等大會經。有十世界微塵數偈不可說品。自經典甚太廣博。龍樹言。我見妙典不可思議。將如何傳。龍王言。不可思議解脫經上中二本。至非閻浮提之人力所受持。不可傳之。法華深經略本。在閻浮提。廣本並祕在我宮中。即授下本華嚴並諸經[6]一箱。」(CBETA, T51, no. 2068, p. 50, a10-28)[3]八＝入【甲】。[6]一＋（心）【甲】</note></cit>。唐波羅頗伽羅蜜多
 <lb n="0209a11" ed="Y"/>羅也有此<lb n="0211a11" ed="Y" type="old"/>說（見<bibl><title level="m">《華嚴經傳記》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>）。</p><pb n="0212a" ed="Y" xml:id="Y22.0022.0212a.old" type="old"/>
 <pb n="0210a" ed="Y" xml:id="Y22.0022.0210a"/>
-<lb n="0210a01" ed="Y"/><lb n="0212a01" ed="Y" type="old"/><p style="text-indent:2em">龍樹入龍宮取經的傳說，有的解說為：這是表示深入自心，本著自證而集出
+<lb n="0210a01" ed="Y"/><lb n="0212a01" ed="Y" type="old"/><p xml:id="pY22p0210a0101" style="text-indent:2em">龍樹入龍宮取經的傳說，有的解說為：這是表示深入自心，本著自證而集出
 <lb n="0210a02" ed="Y"/><lb n="0212a02" ed="Y" type="old"/>大乘經的。有的解說為：龍王，是印度民族中龍族的國王。<title level="m">《華嚴經》</title>等大乘經
 <lb n="0210a03" ed="Y"/>，<lb n="0212a03" ed="Y" type="old"/>從此族的王庭得來。有的解說為：南天竺鐵塔或龍宮取經，正如燉煌石室的發
 <lb n="0210a04" ed="Y"/>見<lb n="0212a04" ed="Y" type="old"/>古代經典一樣，不過傳說得神奇而已。有的解說為：龍宮、夜叉宮與天宮，一
 <lb n="0210a05" ed="Y"/>向<lb n="0212a05" ed="Y" type="old"/>傳說為有大乘經；龍樹的龍宮得經，也只是這種傳說的一則。這些解說，都可
 <lb n="0210a06" ed="Y"/>以<lb n="0212a06" ed="Y" type="old"/>有一分意義，但第三說是更為可能的。</p>
-<lb n="0210a07" ed="Y"/><lb n="0212a07" ed="Y" type="old"/><p style="text-indent:2em">先從另一傳說說起：<cit><bibl><title level="m">《法苑珠林》</title><biblScope type="卷" n="38">（卷三八）</biblScope></bibl><bibl>引<title level="m">《西域志》</title>說：</bibl><quote source="T53n2122_p0589a10-17" type="嚴謹引文">「波斯匿王
+<lb n="0210a07" ed="Y"/><lb n="0212a07" ed="Y" type="old"/><p xml:id="pY22p0210a0701" style="text-indent:2em">先從另一傳說說起：<cit><bibl><title level="m">《法苑珠林》</title><biblScope n="38" type="卷">（卷三八）</biblScope></bibl><bibl>引<title level="m">《西域志》</title>說：</bibl><quote source="T53n2122_p0589a10-17" type="嚴謹引文">「波斯匿王
 <lb n="0210a08" ed="Y"/><lb n="0212a08" ed="Y" type="old"/>都城東百里，大海邊有大塔。塔中有小塔，高一丈二尺，裝眾寶飾之。夜中每<lb n="0212a09" ed="Y" type="old"/>有
 <lb n="0210a09" ed="Y"/>光耀，如大火聚。云：佛般泥洹五百歲後，龍樹菩薩入大海化龍王，龍王以此寶
 <lb n="0210a10" ed="Y"/><lb n="0212a10" ed="Y" type="old"/>塔奉獻龍樹。龍樹受已，將施此國王，便起大塔以覆其上。自昔以來，有人求願
@@ -99,28 +119,28 @@
 <lb n="0211a07" ed="Y"/>不會落下來。<title level="m">《西域記》</title>說：將華蓋放在露盤下，覆鉢勢上，華蓋會止住而不<lb n="0213a08" ed="Y" type="old"/>落
 <lb n="0211a08" ed="Y"/>。從這比較中，可發見<title level="m">《西域志》</title>的某些錯誤。<title level="m">《西域志》</title>說大塔在波斯匿王<lb n="0213a09" ed="Y" type="old"/>（
 <lb n="0211a09" ed="Y"/><foreign xml:lang="sa">Prasenajit</foreign>）都城東百里大海邊，波斯匿王都為舍衛城（<foreign xml:lang="sa">Śrāvastī</foreign>），離大海<lb n="0213a10" ed="Y" type="old"/>極遠。
-<lb n="0211a10" ed="Y"/>這是烏荼的靈塔，所以可斷為憍薩羅（<foreign xml:lang="sa"><note n="0211a1001" resp="CBETA" type="add">Kośalā【CB】，Kosala【印順】</note><app n="0211a1001"><lem wit="【CB】" resp="正聞出版社">Kośalā</lem><rdg wit="【印順】">Kosala</rdg></app></foreign>）王都的誤傳。波斯匿王國<lb n="0213a11" ed="Y" type="old"/>名憍薩
+<lb n="0211a10" ed="Y"/>這是烏荼的靈塔，所以可斷為憍薩羅（<foreign xml:lang="sa"><note n="0211a1001" resp="CBETA" type="add">Kośalā【CB】，Kosala【印順】</note><app n="0211a1001"><lem resp="正聞出版社" wit="【CB】">Kośalā</lem><rdg wit="【印順】">Kosala</rdg></app></foreign>）王都的誤傳。波斯匿王國<lb n="0213a11" ed="Y" type="old"/>名憍薩
 <lb n="0211a11" ed="Y"/>羅，但這是北憍薩羅，南方還有南憍薩羅。誤以南憍薩羅為北憍薩羅，才<lb n="0213a12" ed="Y" type="old"/>記為波
 <lb n="0211a12" ed="Y"/>斯匿王了。從西元前三世紀末到西元三世紀初，以安達羅（<foreign xml:lang="en">Andhra</foreign>）族<lb n="0213a13" ed="Y" type="old"/>興起而盛
-<lb n="0211a13" ed="Y"/>大的安達羅王朝，幅員極廣。如<title level="m">《西域記》</title>中的南憍薩羅，馱那羯磔迦<pb n="0214a" ed="Y" xml:id="Y22.0022.0214a.old" type="old"/><lb n="0214a01" ed="Y" type="old"/>（<foreign xml:lang="sa"><note n="0211a1301" resp="CBETA" type="add">Dhānyakaṭaka【CB】，Dhana-kaṭaka【印順】</note><app n="0211a1301"><lem wit="【CB】" resp="正聞出版社">Dhānyakaṭaka</lem><rdg wit="【印順】">Dhana-kaṭaka</rdg></app></foreign>）
+<lb n="0211a13" ed="Y"/>大的安達羅王朝，幅員極廣。如<title level="m">《西域記》</title>中的南憍薩羅，馱那羯磔迦<pb n="0214a" ed="Y" xml:id="Y22.0022.0214a.old" type="old"/><lb n="0214a01" ed="Y" type="old"/>（<foreign xml:lang="sa"><note n="0211a1301" resp="CBETA" type="add">Dhānyakaṭaka【CB】，Dhana-kaṭaka【印順】</note><app n="0211a1301"><lem resp="正聞出版社" wit="【CB】">Dhānyakaṭaka</lem><rdg wit="【印順】">Dhana-kaṭaka</rdg></app></foreign>）
 <pb n="0212a" ed="Y" xml:id="Y22.0022.0212a"/>
 <lb n="0212a01" ed="Y"/>、羯<g ref="#CB01368"/>伽（<foreign xml:lang="sa">Kaliṅga</foreign>）、恭御陀（<foreign xml:lang="sa">Koṅgoda</foreign>）、烏荼等，都是<lb n="0214a02" ed="Y" type="old"/>屬於安達羅
-<lb n="0212a02" ed="Y"/>王朝的。<bibl><title level="m">《大唐西域記》</title><biblScope type="卷" n="10">（卷一〇）</biblScope></bibl>，護持龍樹的（安達羅王朝的）<lb n="0214a03" ed="Y" type="old"/>娑多婆訶王（
-<lb n="0212a03" ed="Y"/><foreign xml:lang="sa"><note n="0212a0301" resp="CBETA" type="add">Śātavāhana【CB】，Sātavāhana【印順】</note><app n="0212a0301"><lem wit="【CB】" resp="正聞出版社">Śātavāhana</lem><rdg wit="【印順】">Sātavāhana</rdg></app></foreign>），也稱為憍薩羅國王。據<bibl><title level="m">多氏《印度佛教史》</title>（<biblScope n="15" type="chap">一<lb n="0214a04" ed="Y" type="old"/>五</biblScope>．<biblScope n="3" type="節">三</biblScope>）</bibl>說：護
+<lb n="0212a02" ed="Y"/>王朝的。<bibl><title level="m">《大唐西域記》</title><biblScope n="10" type="卷">（卷一〇）</biblScope></bibl>，護持龍樹的（安達羅王朝的）<lb n="0214a03" ed="Y" type="old"/>娑多婆訶王（
+<lb n="0212a03" ed="Y"/><foreign xml:lang="sa"><note n="0212a0301" resp="CBETA" type="add">Śātavāhana【CB】，Sātavāhana【印順】</note><app n="0212a0301"><lem resp="正聞出版社" wit="【CB】">Śātavāhana</lem><rdg wit="【印順】">Sātavāhana</rdg></app></foreign>），也稱為憍薩羅國王。據<bibl><title level="m">多氏《印度佛教史》</title>（<biblScope n="15" type="chap">一<lb n="0214a04" ed="Y" type="old"/>五</biblScope>．<biblScope n="3" type="節">三</biblScope>）</bibl>說：護
 <lb n="0212a04" ed="Y"/>持龍樹的南方國王，名優陀延王（<foreign xml:lang="sa">Udayana</foreign>），也許是從烏荼得<lb n="0214a05" ed="Y" type="old"/>名的。</p>
-<lb n="0212a05" ed="Y"/><lb n="0214a06" ed="Y" type="old"/><p style="text-indent:2em">龍樹從龍宮得靈塔，或入龍宮得經，為同一傳說的不同傳說，尤其是靈塔的
-<lb n="0212a06" ed="Y"/><lb n="0214a07" ed="Y" type="old"/>所在地——補澁波祇釐（<foreign xml:lang="sa"><note n="0212a0601" resp="CBETA" type="add">Puṣpagiri【CB】，Pushpagiri【印順】</note><app n="0212a0601"><lem wit="【CB】" resp="正聞出版社">Puṣpagiri</lem><rdg wit="【印順】">Pushpagiri</rdg></app></foreign>），與龍王有關。補澁波祇釐，意義為華山
+<lb n="0212a05" ed="Y"/><lb n="0214a06" ed="Y" type="old"/><p xml:id="pY22p0212a0501" style="text-indent:2em">龍樹從龍宮得靈塔，或入龍宮得經，為同一傳說的不同傳說，尤其是靈塔的
+<lb n="0212a06" ed="Y"/><lb n="0214a07" ed="Y" type="old"/>所在地——補澁波祇釐（<foreign xml:lang="sa"><note n="0212a0601" resp="CBETA" type="add">Puṣpagiri【CB】，Pushpagiri【印順】</note><app n="0212a0601"><lem resp="正聞出版社" wit="【CB】">Puṣpagiri</lem><rdg wit="【印順】">Pushpagiri</rdg></app></foreign>），與龍王有關。補澁波祇釐，意義為華山
 <lb n="0212a07" ed="Y"/><lb n="0214a08" ed="Y" type="old"/>，這是有名的神山。在<title level="m">《吠陀》</title>（<foreign xml:lang="x-sa-pi">Veda</foreign>）、<title level="m">《摩訶婆羅多》</title>（<foreign xml:lang="sa">Mahābhārata</foreign>）、<lb n="0214a09" ed="Y" type="old"/><title level="m">《往
 <lb n="0212a08" ed="Y"/>世書》</title>（<foreign xml:lang="sa">Purāṇa</foreign>）中，都說到婆樓那（<foreign xml:lang="sa">Varuṇa</foreign>）常往來此山（見高桑駒吉<lb n="0214a10" ed="Y" type="old"/><title level="m">《大唐
 <lb n="0212a09" ed="Y"/>西域記所記東南印度諸國之研究》</title>）。在婆羅門教中，婆樓那本為天界的<lb n="0214a11" ed="Y" type="old"/>大神。
 <lb n="0212a10" ed="Y"/>由於主管降雨流水，所以<title level="m">《阿闥婆吠陀》</title>（<foreign xml:lang="sa">Atharva-veda</foreign>）與<title level="m">《摩訶婆<lb n="0214a12" ed="Y" type="old"/>羅多》</title>說
-<lb n="0212a11" ed="Y"/>他是水神<bibl>（<title level="m">《印度哲學宗教史》</title><biblScope n="1" type="chap">一</biblScope>．<biblScope type="節" n="2">二</biblScope>）</bibl>。這在佛教中，就是有名的婆<lb n="0214a13" ed="Y" type="old"/>樓那龍王
+<lb n="0212a11" ed="Y"/>他是水神<bibl>（<title level="m">《印度哲學宗教史》</title><biblScope n="1" type="chap">一</biblScope>．<biblScope n="2" type="節">二</biblScope>）</bibl>。這在佛教中，就是有名的婆<lb n="0214a13" ed="Y" type="old"/>樓那龍王
 <lb n="0212a12" ed="Y"/>。龍是主管降雨流水的，所以密典中稱之為水天。如<bibl>《<title level="m">大集經</title>．<title level="a">須彌藏<pb n="0215a" ed="Y" xml:id="Y22.0022.0215a.old" type="old"/><lb n="0215a01" ed="Y" type="old"/>分</title>》</bibl>，婆
 <lb n="0212a13" ed="Y"/>羅那為五類龍王中的一切魚龍王。婆樓那是龍王，往來的補澁波山，恰<lb n="0215a02" ed="Y" type="old"/>好就是傳
 <pb n="0213a" ed="Y" xml:id="Y22.0022.0213a"/>
 <lb n="0213a01" ed="Y"/>說龍樹入龍宮、得塔而建塔的地方，這是值得重視的。補澁波山的所在<lb n="0215a03" ed="Y" type="old"/>地，<title level="m">《西
 <lb n="0213a02" ed="Y"/>域記》</title>說在國都西南大山中；<title level="m">《西域志》</title>說在大海邊。玄奘時代的烏荼<lb n="0215a04" ed="Y" type="old"/>國都，學
-<lb n="0213a03" ed="Y"/>者推論不一。<foreign xml:lang="en">Beal</foreign> 氏推定為 <foreign xml:lang="en">Cuttack</foreign> 州的 <foreign xml:lang="sa"><note n="0213a0301" resp="CBETA" type="add">Jajapur【CB】，Jajpur【印順】</note><app n="0213a0301"><lem wit="【CB】" resp="正聞出版社">Jajapur</lem><rdg wit="【印順】">Jajpur</rdg></app></foreign> 市，最好。在此<lb n="0215a05" ed="Y" type="old"/>處 <foreign>Assis</foreign> 山脈
+<lb n="0213a03" ed="Y"/>者推論不一。<foreign xml:lang="en">Beal</foreign> 氏推定為 <foreign xml:lang="en">Cuttack</foreign> 州的 <foreign xml:lang="sa"><note n="0213a0301" resp="CBETA" type="add">Jajapur【CB】，Jajpur【印順】</note><app n="0213a0301"><lem resp="正聞出版社" wit="【CB】">Jajapur</lem><rdg wit="【印順】">Jajpur</rdg></app></foreign> 市，最好。在此<lb n="0215a05" ed="Y" type="old"/>處 <foreign>Assis</foreign> 山脈
 <lb n="0213a04" ed="Y"/>中的優陀延山（<foreign xml:lang="sa">Udayagiri</foreign>），即山脈的極東處，離大海不遠，<lb n="0215a06" ed="Y" type="old"/>現在還有佛教的遺
 <lb n="0213a05" ed="Y"/>跡。優陀延，為日出或出光的意思。<cit><bibl><title level="m">《翻梵語》</title>說：</bibl><quote source="T54n2130_p1042c22" type="寬鬆引文">「優陀延<lb n="0215a07" ed="Y" type="old"/>，日出處山也。」</quote><note n="0213001" resp="周怡曄" type="add">《翻梵語》卷9：「優陀延山<note place="inline">譯曰日出處也</note>」(CBETA, T54, no. 2130, p. 1042, c22)</note></cit>
 <lb n="0213a06" ed="Y"/>這應該就是補澁波山，也就是龍樹大塔處，傳說的龍樹入龍宮<lb n="0215a08" ed="Y" type="old"/>處。烏荼的梵語，
@@ -128,32 +148,32 @@
 <lb n="0213a08" ed="Y"/>竺人呼水名也。」</quote><note n="0213002" resp="周怡曄" type="add">《一切經音義》卷26(CBETA, T54, no. 2128, p. 473, c11)</note></cit>烏荼面臨大海，被稱為烏荼，可能與水有關。而<lb n="0215a10" ed="Y" type="old"/>優陀山，與烏
 <lb n="0213a09" ed="Y"/>荼也似乎同一語音所分出。這樣，這裡是大海邊，是日出處，是水<lb n="0215a11" ed="Y" type="old"/>國，是婆樓那
 <lb n="0213a10" ed="Y"/>龍王往來的地方。龍樹的入龍宮、見龍王、得塔、得經，都與此地<lb n="0215a12" ed="Y" type="old"/>有關。</p>
-<lb n="0213a11" ed="Y"/><lb n="0215a13" ed="Y" type="old"/><p style="text-indent:2em">這可以說龍樹從龍宮所得的經典了。龍樹從龍宮所得的經典，主要為<title level="m">《華嚴<pb n="0216a" ed="Y" xml:id="Y22.0022.0216a.old" type="old"/>
+<lb n="0213a11" ed="Y"/><lb n="0215a13" ed="Y" type="old"/><p xml:id="pY22p0213a1101" style="text-indent:2em">這可以說龍樹從龍宮所得的經典了。龍樹從龍宮所得的經典，主要為<title level="m">《華嚴<pb n="0216a" ed="Y" xml:id="Y22.0022.0216a.old" type="old"/>
 <lb n="0213a12" ed="Y"/><lb n="0216a01" ed="Y" type="old"/>經》</title>。現存的大部<title level="m">《華嚴經》</title>，七處九會，是「隨類收經」而編集所成的。主要<lb n="0216a02" ed="Y" type="old"/>而
 <lb n="0213a13" ed="Y"/>傳出最早的，在龍樹的引述與解說中，有<title level="m">《十地經》</title>與<title level="m">《不可思議解脫經》</title>—<lb n="0216a03" ed="Y" type="old"/>—
 <pb n="0214a" ed="Y" xml:id="Y22.0022.0214a"/>
 <lb n="0214a01" ed="Y"/><title level="a">〈入法界品〉</title>，也名<title level="a">〈普賢行願品〉</title>。<title level="a">〈入法界品〉</title>的主題，是善財（<foreign xml:lang="sa">Sudhana</foreign>）
 <lb n="0214a02" ed="Y"/><lb n="0216a04" ed="Y" type="old"/>童子的發心，向南方參學。依<title level="a">〈入法界品〉</title>說：文殊師利（<foreign xml:lang="sa">Mañjuśrī</foreign>）到<lb n="0216a05" ed="Y" type="old"/>南方來
 <lb n="0214a03" ed="Y"/>弘化，首先<cit><quote type="嚴謹引文">「至福城東，住莊嚴幢娑羅林中，往昔諸佛曾所止住教化眾<lb n="0216a06" ed="Y" type="old"/>生大塔廟
-<lb n="0214a04" ed="Y"/>處」</quote><bibl>（唐譯<title level="m">《華嚴經》</title><biblScope type="卷" n="62">卷六二</biblScope>）</bibl><note n="0214001" resp="周怡曄" type="add">《大方廣佛華嚴經》卷62〈39 入法界品〉(CBETA, T10, no. 279, p. 331, c29-p. 332, a2)</note></cit>。文殊在此處說經，善財也就從福城中<lb n="0216a07" ed="Y" type="old"/>來，發心修
+<lb n="0214a04" ed="Y"/>處」</quote><bibl>（唐譯<title level="m">《華嚴經》</title><biblScope n="62" type="卷">卷六二</biblScope>）</bibl><note n="0214001" resp="周怡曄" type="add">《大方廣佛華嚴經》卷62〈39 入法界品〉(CBETA, T10, no. 279, p. 331, c29-p. 332, a2)</note></cit>。文殊在此處說經，善財也就從福城中<lb n="0216a07" ed="Y" type="old"/>來，發心修
 <lb n="0214a05" ed="Y"/>學。福城，是<bibl>《<title level="m">華嚴經</title>．<title level="a">入法界品</title>》</bibl>的出發處。福城，梵語為 <foreign xml:lang="sa">Bhanyākaranagara</foreign>
 <lb n="0214a06" ed="Y"/><lb n="0216a08" ed="Y" type="old"/>，晉譯作「覺城」，四十<title level="m">《華嚴》</title>作「福生城」。考<title level="m">《孔雀王經<lb n="0216a09" ed="Y" type="old"/>》</title>中，有跋陀國
-<lb n="0214a07" ed="Y"/>（<foreign xml:lang="sa"><note n="0214a0701" resp="CBETA" type="add">Bhadrapara【CB】，Bhadra-para【印順】</note><app n="0214a0701"><lem wit="【CB】" resp="正聞出版社">Bhadrapara</lem><rdg wit="【印順】">Bhadra-para</rdg></app></foreign>），義淨譯作「賢善城」，是「幸福城」的意思<lb n="0216a10" ed="Y" type="old"/>。<bibl>《<title level="m">巴利律</title>．<title level="a">大
-<lb n="0214a08" ed="Y"/>品</title>》<biblScope type="卷" n="6">（六）</biblScope></bibl>作 <foreign xml:lang="pi"><note n="0214a0801" resp="CBETA" type="add">Bhaddiya-nagara【CB】，Bhaddiyanagara【印順】</note><app n="0214a0801"><lem wit="【CB】" resp="正聞出版社">Bhaddiya-nagara</lem><rdg wit="【印順】">Bhaddiyanagara</rdg></app></foreign>，也是幸福城的意思。<title level="m">《根本說一<lb n="0216a11" ed="Y" type="old"/>切有部律》</title>譯
-<lb n="0214a09" ed="Y"/>為「婆提」，梵語為 <foreign xml:lang="sa"><note n="0214a0901" resp="CBETA" type="add">Bhadraṃkara【CB】，Bhadrankara【印順】</note><app n="0214a0901"><lem wit="【CB】" resp="正聞出版社">Bhadraṃkara</lem><rdg wit="【印順】">Bhadrankara</rdg></app></foreign>。善財住處的 <foreign xml:lang="sa"><note n="0214a0902" resp="CBETA" type="add">Dhanyākara【CB】，Bhanyākara【印順】</note><app n="0214a0902"><lem wit="【CB】" resp="正聞出版社">Dhanyākara</lem><rdg wit="【印順】">Bhanyākara</rdg></app></foreign><lb n="0216a12" ed="Y" type="old"/>，不但與福城相合；
+<lb n="0214a07" ed="Y"/>（<foreign xml:lang="sa"><note n="0214a0701" resp="CBETA" type="add">Bhadrapara【CB】，Bhadra-para【印順】</note><app n="0214a0701"><lem resp="正聞出版社" wit="【CB】">Bhadrapara</lem><rdg wit="【印順】">Bhadra-para</rdg></app></foreign>），義淨譯作「賢善城」，是「幸福城」的意思<lb n="0216a10" ed="Y" type="old"/>。<bibl>《<title level="m">巴利律</title>．<title level="a">大
+<lb n="0214a08" ed="Y"/>品</title>》<biblScope n="6" type="卷">（六）</biblScope></bibl>作 <foreign xml:lang="pi"><note n="0214a0801" resp="CBETA" type="add">Bhaddiya-nagara【CB】，Bhaddiyanagara【印順】</note><app n="0214a0801"><lem resp="正聞出版社" wit="【CB】">Bhaddiya-nagara</lem><rdg wit="【印順】">Bhaddiyanagara</rdg></app></foreign>，也是幸福城的意思。<title level="m">《根本說一<lb n="0216a11" ed="Y" type="old"/>切有部律》</title>譯
+<lb n="0214a09" ed="Y"/>為「婆提」，梵語為 <foreign xml:lang="sa"><note n="0214a0901" resp="CBETA" type="add">Bhadraṃkara【CB】，Bhadrankara【印順】</note><app n="0214a0901"><lem resp="正聞出版社" wit="【CB】">Bhadraṃkara</lem><rdg wit="【印順】">Bhadrankara</rdg></app></foreign>。善財住處的 <foreign xml:lang="sa"><note n="0214a0902" resp="CBETA" type="add">Dhanyākara【CB】，Bhanyākara【印順】</note><app n="0214a0902"><lem resp="正聞出版社" wit="【CB】">Dhanyākara</lem><rdg wit="【印順】">Bhanyākara</rdg></app></foreign><lb n="0216a12" ed="Y" type="old"/>，不但與福城相合；
 <lb n="0214a10" ed="Y"/>譯作「覺城」，更與巴利語的 <foreign xml:lang="pi">Bhaddiya</foreign> 相近。律（及經）<lb n="0216a13" ed="Y" type="old"/>中的跋提，與<bibl>《<title level="m">華嚴
 <lb n="0214a11" ed="Y"/>經</title>．<title level="a">入法界品</title>》</bibl>的福城，是一致的。這個幸福之城，據巴利語<pb n="0217a" ed="Y" xml:id="Y22.0022.0217a.old" type="old"/><lb n="0217a01" ed="Y" type="old"/>學者說，在央伽（
 <lb n="0214a12" ed="Y"/><foreign xml:lang="x-sa-pi">Aṅga</foreign>）境內（這是佛世摩竭陀以東的通稱）。漢譯以為在修<lb n="0217a02" ed="Y" type="old"/>摩（<foreign xml:lang="sa">Suhma</foreign>）。據
-<lb n="0214a13" ed="Y"/> <foreign xml:lang="sa">Bṛhatsaṃhitā</foreign> 書（卷一六），修摩在 <foreign xml:lang="x-sa-pi"><note n="0214a1302" resp="CBETA" type="add">Aṅga【CB】，Vaṅga【印順】</note><app n="0214a1302"><lem wit="【CB】" resp="正聞出版社">Aṅga</lem><rdg wit="【印順】">Vaṅga</rdg></app></foreign>（即央伽）與羯<lb n="0217a03" ed="Y" type="old"/><g ref="#CB01368"/>伽間。在今 <foreign xml:lang="en">Orissa</foreign>
+<lb n="0214a13" ed="Y"/> <foreign xml:lang="sa">Bṛhatsaṃhitā</foreign> 書（卷一六），修摩在 <foreign xml:lang="x-sa-pi"><note n="0214a1302" resp="CBETA" type="add">Aṅga【CB】，Vaṅga【印順】</note><app n="0214a1302"><lem resp="正聞出版社" wit="【CB】">Aṅga</lem><rdg wit="【印順】">Vaṅga</rdg></app></foreign>（即央伽）與羯<lb n="0217a03" ed="Y" type="old"/><g ref="#CB01368"/>伽間。在今 <foreign xml:lang="en">Orissa</foreign>
 <pb n="0215a" ed="Y" xml:id="Y22.0022.0215a"/>
-<lb n="0215a01" ed="Y"/>（奧里薩，即烏荼）的 <foreign xml:lang="sa"><note n="0215a0101" resp="CBETA" type="add">Jājapur【CB】，Jajpur【印順】</note><app n="0215a0101"><lem wit="【CB】" resp="正聞出版社">Jājapur</lem><rdg wit="【印順】">Jajpur</rdg></app></foreign> 市東北，約二十里處，有<lb n="0217a04" ed="Y" type="old"/>名為 <foreign xml:lang="sa">Bhadraka</foreign> 的，與福
+<lb n="0215a01" ed="Y"/>（奧里薩，即烏荼）的 <foreign xml:lang="sa"><note n="0215a0101" resp="CBETA" type="add">Jājapur【CB】，Jajpur【印順】</note><app n="0215a0101"><lem resp="正聞出版社" wit="【CB】">Jājapur</lem><rdg wit="【印順】">Jajpur</rdg></app></foreign> 市東北，約二十里處，有<lb n="0217a04" ed="Y" type="old"/>名為 <foreign xml:lang="sa">Bhadraka</foreign> 的，與福
 <lb n="0215a02" ed="Y"/>城的語音及方位，無不恰合。這是更近大海處，與傳說<lb n="0217a05" ed="Y" type="old"/>烏荼的龍樹大塔處，相離
-<lb n="0215a03" ed="Y"/>不遠。所以，<foreign xml:lang="sa">Bhadraka</foreign> 就是福城；而 <foreign xml:lang="sa"><note n="0215a0301" resp="CBETA" type="add">Jajapur【CB】，Jajpur【印順】</note><app n="0215a0301"><lem wit="【CB】" resp="正聞出版社">Jajapur</lem><rdg wit="【印順】">Jajpur</rdg></app></foreign> 的優陀<lb n="0217a06" ed="Y" type="old"/>延山的有佛教古跡處，就是
+<lb n="0215a03" ed="Y"/>不遠。所以，<foreign xml:lang="sa">Bhadraka</foreign> 就是福城；而 <foreign xml:lang="sa"><note n="0215a0301" resp="CBETA" type="add">Jajapur【CB】，Jajpur【印順】</note><app n="0215a0301"><lem resp="正聞出版社" wit="【CB】">Jajapur</lem><rdg wit="【印順】">Jajpur</rdg></app></foreign> 的優陀<lb n="0217a06" ed="Y" type="old"/>延山的有佛教古跡處，就是
 <lb n="0215a04" ed="Y"/>補澁波祇釐的大塔處，也就是<title level="a">〈入法界品〉</title>——<quote source="T10n0279_p0331c29" type="嚴謹引文">「福<lb n="0217a07" ed="Y" type="old"/>城東」</quote>的<quote type="嚴謹引文">「莊嚴幢娑羅林中
 <lb n="0215a05" ed="Y"/>」</quote>的<quote type="嚴謹引文">「大塔廟處」<note n="0215001" resp="周怡曄" type="add">《大方廣佛華嚴經》卷62〈39 入法界品〉：「福城東，住莊嚴幢娑羅林中往昔諸佛曾所止住教化眾生大塔廟處」(CBETA, T10, no. 279, p. 331, c29-p. 332, a2)</note></quote>。龍樹傳說在這裡得到<title level="m">《華嚴經》</title><lb n="0217a08" ed="Y" type="old"/>，是有深切意義的。</p>
-<lb n="0215a06" ed="Y"/><lb n="0217a09" ed="Y" type="old"/><p style="text-indent:2em"><title level="a">〈入法界品〉</title>的「福城」，為善財發心參學的出發處，推定為現在的 <foreign xml:lang="sa">Bhadraka</foreign>
+<lb n="0215a06" ed="Y"/><lb n="0217a09" ed="Y" type="old"/><p xml:id="pY22p0215a0601" style="text-indent:2em"><title level="a">〈入法界品〉</title>的「福城」，為善財發心參學的出發處，推定為現在的 <foreign xml:lang="sa">Bhadraka</foreign>
 <lb n="0215a07" ed="Y"/><lb n="0217a10" ed="Y" type="old"/>。從善財南參的路程來看，也可以確信無疑。一、善財先（西南向）到勝樂
-<lb n="0215a08" ed="Y"/><lb n="0217a11" ed="Y" type="old"/>國（<foreign xml:lang="sa">Rāmāvarānta</foreign>）妙峰山，應即今 <foreign xml:lang="sa">Mahānadi</foreign> <foreign xml:lang="en"><note n="0215a0801" resp="CBETA" type="add" subtype="規範字詞">River【CB】，R.【印順】</note><app n="0215a0801"><lem wit="【CB】" resp="CBETA">River</lem><rdg wit="【印順】">R.</rdg></app></foreign> 南岸的 <foreign xml:lang="sa">Rampur</foreign>。二、再（
+<lb n="0215a08" ed="Y"/><lb n="0217a11" ed="Y" type="old"/>國（<foreign xml:lang="sa">Rāmāvarānta</foreign>）妙峰山，應即今 <foreign xml:lang="sa">Mahānadi</foreign> <foreign xml:lang="en"><note n="0215a0801" resp="CBETA" type="add" subtype="規範字詞">River【CB】，R.【印順】</note><app n="0215a0801"><lem resp="CBETA" wit="【CB】">River</lem><rdg wit="【印順】">R.</rdg></app></foreign> 南岸的 <foreign xml:lang="sa">Rampur</foreign>。二、再（
 <lb n="0215a09" ed="Y"/><lb n="0217a12" ed="Y" type="old"/>東南向）到海門國（<foreign xml:lang="sa">Sāgaramukha</foreign>），雖不能確指，依經中「觀海」及此下行程
 <lb n="0215a10" ed="Y"/><lb n="0217a13" ed="Y" type="old"/>，應在今 <foreign xml:lang="sa">Chatka</foreign> 湖以南的海邊。三、到（西南向）楞伽道頭（<foreign xml:lang="sa">Laṃkāpatha</foreign>）<pb n="0218a" ed="Y" xml:id="Y22.0022.0218a.old" type="old"/>
 <lb n="0215a11" ed="Y"/><lb n="0218a01" ed="Y" type="old"/>，這是向錫蘭去的海口。<foreign xml:lang="en">Fergusson</foreign> 氏推定羯<g ref="#CB01368"/>伽的都城，為今 <foreign xml:lang="sa">Kaliṅganagara</foreign>
@@ -163,16 +183,16 @@
 <lb n="0216a01" ed="Y"/>，即沿 <foreign xml:lang="sa">Palar</foreign> 河兩岸地方。五、向（西）南到住林聚落（<foreign xml:lang="sa">Vanavāsin</foreign>）。這<lb n="0218a05" ed="Y" type="old"/>是有名
 <lb n="0216a02" ed="Y"/>的婆那婆私，阿育王曾派傳教師去傳教。婆那婆私的所在地，學者議論不<lb n="0218a06" ed="Y" type="old"/>一。依
 <lb n="0216a03" ed="Y"/><title level="a">〈入法界品〉</title>來看，在達里鼻荼之南，應在今 <foreign xml:lang="en">Mysore</foreign> 南部。六、到了閻<lb n="0218a07" ed="Y" type="old"/>浮提畔
-<lb n="0216a04" ed="Y"/>（<foreign xml:lang="sa"><note n="0216a0401" resp="CBETA" type="add">Jambudvīpaśīrṣa【CB】，Jaṃbūdvīpaśīrṣa【印順】</note><app n="0216a0401"><lem wit="【CB】" resp="正聞出版社">Jambudvīpaśīrṣa</lem><rdg wit="【印順】">Jaṃbūdvīpaśīrṣa</rdg></app></foreign>）的摩利伽羅國（<foreign xml:lang="sa">Milasphraṇa</foreign>），這是到了印度南<lb n="0218a08" ed="Y" type="old"/>端，<title level="m">《西
+<lb n="0216a04" ed="Y"/>（<foreign xml:lang="sa"><note n="0216a0401" resp="CBETA" type="add">Jambudvīpaśīrṣa【CB】，Jaṃbūdvīpaśīrṣa【印順】</note><app n="0216a0401"><lem resp="正聞出版社" wit="【CB】">Jambudvīpaśīrṣa</lem><rdg wit="【印順】">Jaṃbūdvīpaśīrṣa</rdg></app></foreign>）的摩利伽羅國（<foreign xml:lang="sa">Milasphraṇa</foreign>），這是到了印度南<lb n="0218a08" ed="Y" type="old"/>端，<title level="m">《西
 <lb n="0216a05" ed="Y"/>域記》</title>所說的摩羅矩吒。依這一旅行的歷程來看，大致近於玄奘南下的<lb n="0218a09" ed="Y" type="old"/>行程。善
 <lb n="0216a06" ed="Y"/>財出發處的福城，推定為 <foreign xml:lang="sa">Bhadraka</foreign>，是決無不合的。文殊說法處，在<lb n="0218a10" ed="Y" type="old"/>福城東，
 <lb n="0216a07" ed="Y"/>推定為傳說龍樹於龍宮得塔處、得<title level="m">《華嚴經》</title>處。此處與塔及龍王有關<lb n="0218a11" ed="Y" type="old"/>，而<title level="m">《華
 <lb n="0216a08" ed="Y"/>嚴經》</title>說：這是福城東的「大塔廟處」；文殊說法時，<quote source="T10n0279_p0332a08-09" type="嚴謹引文">「於大海中，有<lb n="0218a12" ed="Y" type="old"/>無量百千
 <lb n="0216a09" ed="Y"/>億諸龍而來其所」<note n="0216001" resp="周怡曄" type="add">《大方廣佛華嚴經》卷62〈39 入法界品〉(CBETA, T10, no. 279, p. 332, a8-9)</note></quote>。在這裡特別說到教化龍族，是不應該看作偶然的。</p>
-<lb n="0216a10" ed="Y"/><lb n="0218a13" ed="Y" type="old"/><p style="text-indent:2em">依<title level="a">〈入法界品〉</title>的內容，可解說為：在南方大乘佛教興起的時代，<title level="m">《不可思<pb n="0219a" ed="Y" xml:id="Y22.0022.0219a.old" type="old"/>
+<lb n="0216a10" ed="Y"/><lb n="0218a13" ed="Y" type="old"/><p xml:id="pY22p0216a1001" style="text-indent:2em">依<title level="a">〈入法界品〉</title>的內容，可解說為：在南方大乘佛教興起的時代，<title level="m">《不可思<pb n="0219a" ed="Y" xml:id="Y22.0022.0219a.old" type="old"/>
 <lb n="0216a11" ed="Y"/><lb n="0219a01" ed="Y" type="old"/>議解脫經》</title>——<title level="a">〈入法界品〉</title>，在福城以東的大塔廟處，集出流通，所以經中以
 <lb n="0216a12" ed="Y"/><lb n="0219a02" ed="Y" type="old"/>文殊的教化福城，為善財發心修學的出發處。古來有許多傳說，可以說明這點，
-<lb n="0216a13" ed="Y"/><lb n="0219a03" ed="Y" type="old"/>如<cit><bibl><title level="m">多氏《印度佛教史》</title>（<biblScope n="12" type="chap">一二</biblScope>．<biblScope type="節" n="4">四</biblScope>）說：</bibl><quote>「烏提毘舍國（<foreign xml:lang="sa">Odiviśa</foreign>，就是烏荼）<lb n="0219a04" ed="Y" type="old"/>旃
+<lb n="0216a13" ed="Y"/><lb n="0219a03" ed="Y" type="old"/>如<cit><bibl><title level="m">多氏《印度佛教史》</title>（<biblScope n="12" type="chap">一二</biblScope>．<biblScope n="4" type="節">四</biblScope>）說：</bibl><quote>「烏提毘舍國（<foreign xml:lang="sa">Odiviśa</foreign>，就是烏荼）<lb n="0219a04" ed="Y" type="old"/>旃
 <pb n="0217a" ed="Y" xml:id="Y22.0022.0217a"/>
 <lb n="0217a01" ed="Y"/>陀羅羅叉（<foreign xml:lang="sa">Candrarakṣita</foreign>）王時，文殊現比丘身來其家中。大乘法類之經典<lb n="0219a05" ed="Y" type="old"/>，開
 <lb n="0217a02" ed="Y"/>始出現。」</quote></cit>這一傳說，與龍樹在這裡得<title level="m">《華嚴經》</title>及其他大乘經的傳說，極<lb n="0219a06" ed="Y" type="old"/>為適
@@ -185,11 +205,11 @@
 <lb n="0217a09" ed="Y"/>持<title level="m">《華嚴經》</title>一帙，來至其處。……<title level="m">《華嚴》</title>一經，盛於此國。」</quote><note n="0217002" resp="周怡曄" type="add">《華嚴經傳記》卷4：「南天竺國。近占波城。有一僧伽藍。名毘瑟奴<note place="inline">人名也</note>於中有諸頭陀僧等。竝小乘學。後忽有一大乘法師。持華嚴經一帙。來至其處。小乘諸師。既不相敬。彼大乘師。乃留帙而去。不知所適。諸小乘學者。情盡不信。遂持此經帙。投之井內。後數見井中。光輝煥赫。上衝於外。有同烈火。以物鉤漉。果得華嚴。雖久在水中。都不霑濕。小乘學等。便信此經是佛所說。猶將不及小乘。遂置在小乘經律之下。及至明旦。輒見在上。乃訶諸群小。誰復輒移。對云元無人動。乃還置下。明又如初。復在其上。若此者數焉。小乘諸德。咸大驚嗟。方知此經過於己學。以身投於地。宛轉號泣。懺謝迴心。專共授持。華嚴一經。盛于此國。」(CBETA, T51, no. 2073, p. 170, a13-27)</note></cit>又說：南天竺
 <lb n="0217a10" ed="Y"/>堀忧<lb n="0219a13" ed="Y" type="old"/>遮伽藍，寺僧並受持<title level="m">《華嚴經》</title>。這可見，<bibl>《<title level="m">華嚴經</title>．<title level="a">入法界品</title>》</bibl>，在西元
 <lb n="0217a11" ed="Y"/>七、八<pb n="0220a" ed="Y" xml:id="Y22.0022.0220a.old" type="old"/><lb n="0220a01" ed="Y" type="old"/>世紀，還是烏荼一帶盛行的經典。</p>
-<lb n="0217a12" ed="Y"/><lb n="0220a02" ed="Y" type="old"/><p style="text-indent:2em"><bibl>《<title level="m">華嚴經</title>．<title level="a">入法界品</title>》</bibl>集出的地方，推定為烏荼的福城以東，補澁波祇釐。
+<lb n="0217a12" ed="Y"/><lb n="0220a02" ed="Y" type="old"/><p xml:id="pY22p0217a1201" style="text-indent:2em"><bibl>《<title level="m">華嚴經</title>．<title level="a">入法界品</title>》</bibl>集出的地方，推定為烏荼的福城以東，補澁波祇釐。
 <lb n="0217a13" ed="Y"/><lb n="0220a03" ed="Y" type="old"/><bibl>《<title level="m">華嚴經</title>．<title level="a">入法界品</title>》</bibl>在此地開始流行，龍樹得大乘經、<title level="m">《華嚴經》</title>的傳說，是
 <pb n="0218a" ed="Y" xml:id="Y22.0022.0218a"/>
 <lb n="0218a01" ed="Y"/><lb n="0220a04" ed="Y" type="old"/>有事實在內的。此地依山向海，<bibl><title level="m">《西域記》</title><biblScope n="10" type="卷">（卷一〇）</biblScope></bibl>說：烏荼海口的折利呾羅
-<lb n="0218a02" ed="Y"/><lb n="0220a05" ed="Y" type="old"/>城（<foreign xml:lang="sa"><note n="0218a0201" resp="CBETA" type="add">Charitrapura【CB】，Charitra-pura【印順】</note><app n="0218a0201"><lem wit="【CB】" resp="正聞出版社">Charitrapura</lem><rdg wit="【印順】">Charitra-pura</rdg></app></foreign>），夜中遠望海南的楞伽，常見佛牙的光明。這一環境，實為
+<lb n="0218a02" ed="Y"/><lb n="0220a05" ed="Y" type="old"/>城（<foreign xml:lang="sa"><note n="0218a0201" resp="CBETA" type="add">Charitrapura【CB】，Charitra-pura【印順】</note><app n="0218a0201"><lem resp="正聞出版社" wit="【CB】">Charitrapura</lem><rdg wit="【印順】">Charitra-pura</rdg></app></foreign>），夜中遠望海南的楞伽，常見佛牙的光明。這一環境，實為
 <lb n="0218a03" ed="Y"/><lb n="0220a06" ed="Y" type="old"/>宗教意識易於滋長的地方（如中國的山東半島）。所以，婆那樓（龍王）的信仰
 <lb n="0218a04" ed="Y"/><lb n="0220a07" ed="Y" type="old"/>，從來就極為普遍；大乘經也在這裡大大流行起來。<title level="m">《華嚴經》</title>說這裡有古聖<lb n="0220a08" ed="Y" type="old"/>的
 <lb n="0218a05" ed="Y"/>大塔廟處，可以想見的，在大乘初行時，這裡本來是有塔廟的，也許本來是婆<lb n="0220a09" ed="Y" type="old"/>那

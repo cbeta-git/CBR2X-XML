@@ -12,60 +12,80 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版四刷<date>Date: 2011/10</date>新式標點版</edition>
+			<edition>新版四刷<date>Date: 2011/10</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 24, No. 24</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">24</idno>.<idno type="no">24</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法是救世之光</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十三、中道之佛教</cb:mulu>
-<milestone unit="juan" n="14"/>
+<milestone n="14" unit="juan"/>
 <pb n="0157a" ed="Y" xml:id="Y24.0024.0157a"/>
 <lb n="0157a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">十四、佛學的兩大特色</cb:mulu><head>佛學的兩大特色<note n="0157001" resp="DILA" type="add">民國五一年講。</note></head>
-<lb n="0157a02" ed="Y"/><byline rend="bold">——講於臺大融<note n="0157a0201" resp="CBETA" type="add">融【CB】，熙【印順】</note><app n="0157a0201"><lem wit="【CB】" resp="正聞出版社">融</lem><rdg wit="【印順】">熙</rdg></app>學社——</byline>
-<lb n="0157a03" ed="Y"/><p style="text-indent:2em">這裡說佛學的兩大特色，不是說佛學只有兩大特點，而是從兩大特色，指出
+<lb n="0157a02" ed="Y"/><byline rend="bold">——講於臺大融<note n="0157a0201" resp="CBETA" type="add">融【CB】，熙【印順】</note><app n="0157a0201"><lem resp="正聞出版社" wit="【CB】">融</lem><rdg wit="【印順】">熙</rdg></app>學社——</byline>
+<lb n="0157a03" ed="Y"/><p xml:id="pY24p0157a0301" style="text-indent:2em">這裡說佛學的兩大特色，不是說佛學只有兩大特點，而是從兩大特色，指出
 <lb n="0157a04" ed="Y"/>佛學不同於一般宗教、學說之所在。一般說：信佛、學佛，信仰佛菩薩的福德、
 <lb n="0157a05" ed="Y"/>智慧，崇高、偉大；理解佛法的義理精深。但主要的要使我們，如何理解佛法，
 <lb n="0157a06" ed="Y"/>正確通達人生真義；指示我們向上向善，生活納入道德軌範，與佛菩薩同樣的進
 <lb n="0157a07" ed="Y"/>趣於究竟，理想的境地。</p>
-<lb n="0157a08" ed="Y"/><p style="text-indent:2em">宗教之優劣，高低，是非，姑且不談。它能引導我們邁向人生平坦大道，成
+<lb n="0157a08" ed="Y"/><p xml:id="pY24p0157a0801" style="text-indent:2em">宗教之優劣，高低，是非，姑且不談。它能引導我們邁向人生平坦大道，成
 <lb n="0157a09" ed="Y"/>為人類生活中不可或缺的一部分。肯定了這一根本原則，才能從宗教中獲得真實
 <lb n="0157a10" ed="Y"/>的受用和利益，也才能表彰宗教之真義與價值。</p>
 <pb n="0158a" ed="Y" xml:id="Y24.0024.0158a"/>
 <lb n="0158a01" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">一　信仰與理智的統一</cb:mulu><head>一　信仰與理智的統一</head>
-<lb n="0158a02" ed="Y"/><p style="text-indent:2em">由於人類的個性各各不同，其習性，煩惱，要求，愛好，就有千差萬別。重
+<lb n="0158a02" ed="Y"/><p xml:id="pY24p0158a0201" style="text-indent:2em">由於人類的個性各各不同，其習性，煩惱，要求，愛好，就有千差萬別。重
 <lb n="0158a03" ed="Y"/>感情的人，大抵是慈悲，信仰心切；重理性的人，則理解力強。這一偏頗的發展
 <lb n="0158a04" ed="Y"/>，不能使信仰與理智統一，往往發生流弊。例如情感重，偏於信仰，則有信無智
 <lb n="0158a05" ed="Y"/>，狂熱的盲目信仰，趨向迷信。這種反理性，排斥智慧的態度，不是佛法所取的
@@ -73,7 +93,7 @@
 <lb n="0158a07" ed="Y"/>真理、聖賢的存在，終於走上反宗教的路子。這一危險性的歧途，小則個人的道
 <lb n="0158a08" ed="Y"/>德行為無法建立，大則整個社會皆蒙受其害！佛法說：<quote source="T12n0374_p0580b18-20" type="寬鬆引文">「有信無智長愚癡，有智
 <lb n="0158a09" ed="Y"/>無信增邪見」<note n="0158001" resp="周怡曄" type="add">《大般涅槃經》卷36〈12 迦葉菩薩品〉：「若人信心無有智慧。是人則能增長無明。若有智慧無有信心。是人則能增長邪見。」(CBETA, T12, no. 374, p. 580, b18-20)</note></quote>，即是此義。</p>
-<lb n="0158a10" ed="Y"/><p style="text-indent:2em">佛法主張信智合一，如何合一？能否合一？這就要對佛法中信仰與智慧，先
+<lb n="0158a10" ed="Y"/><p xml:id="pY24p0158a1001" style="text-indent:2em">佛法主張信智合一，如何合一？能否合一？這就要對佛法中信仰與智慧，先
 <lb n="0158a11" ed="Y"/>有一番了解。信仰的特徵，是對於所信仰的對象，生起一種欽敬仰慕之情操。任
 <lb n="0158a12" ed="Y"/>何宗教徒，均有如此信仰生活的經驗。這種信仰，若缺乏理智思考和抉擇，就不
 <pb n="0159a" ed="Y" xml:id="Y24.0024.0159a"/>
@@ -83,7 +103,7 @@
 <lb n="0159a04" ed="Y"/>慈悲大用。佛法中的信仰以理智為基礎；從理智出發而加強信心，從智慧體認而
 <lb n="0159a05" ed="Y"/>陶冶的信仰，理解愈深切則信心愈堅強。這種信心能引發我們向上向善，不但對
 <lb n="0159a06" ed="Y"/>信仰的對象上有「高山仰止」之情愫，而且進一步也想達到同一境地！</p>
-<lb n="0159a07" ed="Y"/><p style="text-indent:2em">常見一般對佛法頗有研究的知識份子，理解力雖強，但缺乏信仰，所以佛法
+<lb n="0159a07" ed="Y"/><p xml:id="pY24p0159a0701" style="text-indent:2em">常見一般對佛法頗有研究的知識份子，理解力雖強，但缺乏信仰，所以佛法
 <lb n="0159a08" ed="Y"/>不能在他們身心中生根，更不能獲得佛法的真實受用。這樣的研究佛學，是違反
 <lb n="0159a09" ed="Y"/>佛教精神的。因為佛教生活是包括了信仰要素，有了信心才能滌除內心煩惱——
 <lb n="0159a10" ed="Y"/>貪、瞋、我慢。信心猶如明礬，放進濁水中，濁水不得不淨。信仰心切，內心自
@@ -96,7 +116,7 @@
 <lb n="0160a03" ed="Y"/>醉，屬於盲目的，反理智的迷信。佛教的信仰經過智慧觀察，在信仰中不廢理性
 <lb n="0160a04" ed="Y"/>，故無一般宗教重信不重解的弊病。當然佛法信心的過程，有深淺不同的層次，
 <lb n="0160a05" ed="Y"/>而一般所見的佛教徒的信仰，不一定能代表佛法的真義。</p>
-<lb n="0160a06" ed="Y"/><p style="text-indent:2em">智慧的特性是自由思考，智慧的作用是了解認識。人類智慧的領域已擴大到
+<lb n="0160a06" ed="Y"/><p xml:id="pY24p0160a0601" style="text-indent:2em">智慧的特性是自由思考，智慧的作用是了解認識。人類智慧的領域已擴大到
 <lb n="0160a07" ed="Y"/>星球，這證明人類知識在日新月異的進步，也可說明了傳統的一切不一定可靠。
 <lb n="0160a08" ed="Y"/>因為在人類吸收外界知識時，已有很多的錯誤成份，知識的來源是片斷的，點滴
 <lb n="0160a09" ed="Y"/>的，當眼見耳聞吸收知識時，外界與內心皆滲雜了一些錯亂性。舉例說：我們見
@@ -115,7 +135,7 @@
 <lb n="0161a08" ed="Y"/>。沒有智慧的信仰，是偏重於情感的信仰，結果是反理性。佛法是信智合一，信
 <lb n="0161a09" ed="Y"/>是充滿理性的，智是著重人生的，自力的；信離顛倒，而智有確信。能夠這樣的
 <lb n="0161a10" ed="Y"/>去了解，體驗，實行，則人生前途才充滿了無限光明。</p>
-<lb n="0161a11" ed="Y"/><p style="text-indent:2em">信心的修學方式，可以分成幾個階段，在其過程中雖有淺深的不同，但最後
+<lb n="0161a11" ed="Y"/><p xml:id="pY24p0161a1101" style="text-indent:2em">信心的修學方式，可以分成幾個階段，在其過程中雖有淺深的不同，但最後
 <lb n="0161a12" ed="Y"/>是信智統一。第一是信順，內心不存有絲毫的成見，而以理解為基礎。因為胸中
 <lb n="0161a13" ed="Y"/>一有主見，則不能信順他人或接收真理。舉一淺例說：甲與乙彼此感情不和。乙
 <pb n="0162a" ed="Y" xml:id="Y24.0024.0162a"/>
@@ -130,7 +150,7 @@
 <lb n="0162a09" ed="Y"/>的修習，體悟到真理究極與最初所信的毫無二致。如開礦者，繼續的開掘，終於
 <lb n="0162a10" ed="Y"/>發現到大量石油（這與現證慧相應）。佛法說信不排智，智以信成，達到信智合
 <lb n="0162a11" ed="Y"/>一，這與其他宗教的信仰大大不同。</p>
-<lb n="0162a12" ed="Y"/><p style="text-indent:2em">佛法中的智慧從自證而來，因為一切知識必須以人為本位，了解到人生，把
+<lb n="0162a12" ed="Y"/><p xml:id="pY24p0162a1201" style="text-indent:2em">佛法中的智慧從自證而來，因為一切知識必須以人為本位，了解到人生，把
 <lb n="0162a13" ed="Y"/>握此人生的智慧，再去觀察宇宙現象界，才能通達無礙。若以為智慧從外界獲得
 <pb n="0163a" ed="Y" xml:id="Y24.0024.0163a"/>
 <lb n="0163a01" ed="Y"/>，只能知其表面，不能徹法源底。約智不礙信說，在事相上，佛陀曾親證到世界
@@ -140,7 +160,7 @@
 <lb n="0163a05" ed="Y"/>我們處處可以體驗到這一永恆不變的理性原則。這一信智不二的佛學，是其他宗
 <lb n="0163a06" ed="Y"/>教所不及。</p></cb:div>
 <lb n="0163a07" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">二　慈悲與智慧的融和</cb:mulu><head>二　慈悲與智慧的融和</head>
-<lb n="0163a08" ed="Y"/><p style="text-indent:2em">佛法常說「悲智雙運」，這證明佛法中悲智不可分開的。慈悲的內容與作用
+<lb n="0163a08" ed="Y"/><p xml:id="pY24p0163a0801" style="text-indent:2em">佛法常說「悲智雙運」，這證明佛法中悲智不可分開的。慈悲的內容與作用
 <lb n="0163a09" ed="Y"/>，大抵相同於中國之仁與西方之愛。但慈悲不僅是同情，關懷，而且是符合真理
 <lb n="0163a10" ed="Y"/>的。所以說：無智不成大悲。慈悲是一切道德的根源，道德無慈悲即無法建立。
 <lb n="0163a11" ed="Y"/>道德準繩，就看慈悲之有無。慈悲心也就是同情感。舉例說：我們見到他人遭遇
@@ -157,12 +177,12 @@
 <lb n="0164a09" ed="Y"/>軍政、法律所保障。明白這相依相成之緣起的道理，即能對他人生起同情心。約
 <lb n="0164a10" ed="Y"/>我們無限延續的生命說，過去無量生死中，我們也有很多父母親屬，眼前現生的
 <lb n="0164a11" ed="Y"/>父母我們要報恩，過去的父母兄妹我們也應報恩。所以佛經說：<quote type="嚴謹引文">「一切男子是我
-<lb n="0164a12" ed="Y"/>父，一切女<note n="0164a1201" resp="CBETA" type="add">人【CB】，子【印順】</note><app n="0164a1201"><lem wit="【CB】" resp="正聞出版社">人<note type="cf1">《梵網經》卷2(CBETA, T24, no. 1484, p. 1006, b9-10)</note></lem><rdg wit="【印順】">子</rdg></app>是我母」<note n="0164001" resp="厚觀法師" type="add">《梵網經》卷2(CBETA, T24, no. 1484, p. 1006, b9-10)</note></quote>。我們的慈悲心，不是為一家一族一國全人類，甚至要擴
+<lb n="0164a12" ed="Y"/>父，一切女<note n="0164a1201" resp="CBETA" type="add">人【CB】，子【印順】</note><app n="0164a1201"><lem resp="正聞出版社" wit="【CB】">人<note type="cf1">《梵網經》卷2(CBETA, T24, no. 1484, p. 1006, b9-10)</note></lem><rdg wit="【印順】">子</rdg></app>是我母」<note n="0164001" resp="厚觀法師" type="add">《梵網經》卷2(CBETA, T24, no. 1484, p. 1006, b9-10)</note></quote>。我們的慈悲心，不是為一家一族一國全人類，甚至要擴
 <lb n="0164a13" ed="Y"/>大到一切眾生界。大乘佛法特別強調素食，不殺害眾生，原因在此。同時佛法中
 <pb n="0165a" ed="Y" xml:id="Y24.0024.0165a"/>
 <lb n="0165a01" ed="Y"/>講慈悲，不是施予，而是一種報恩。與智慧相融的慈悲是契合真理——自他緣成
 <lb n="0165a02" ed="Y"/>，相依相存。</p>
-<lb n="0165a03" ed="Y"/><p style="text-indent:2em">一般宗教講博愛，總以自我為中心。如<quote>「順我者生，逆我者亡」</quote>，<quote>「信者永
+<lb n="0165a03" ed="Y"/><p xml:id="pY24p0165a0301" style="text-indent:2em">一般宗教講博愛，總以自我為中心。如<quote>「順我者生，逆我者亡」</quote>，<quote>「信者永
 <lb n="0165a04" ed="Y"/>生，不信者永火」</quote>，這種強烈的獨佔的排他性，除屬於自己外，一切皆要毀滅，
 <lb n="0165a05" ed="Y"/>階級愛的底裡，露出了殘酷的仇恨！佛法中慈悲是冤親平等，對於冤家或不信者
 <lb n="0165a06" ed="Y"/>，雖一時不能度化他，待因緣成熟，自然可以攝化。依宇宙因果自然法則說：自
@@ -172,11 +192,11 @@
 <lb n="0165a10" ed="Y"/>種關係上。符合道德法則稱之為善行，自有好的果報；違反情理的，損人害己的
 <lb n="0165a11" ed="Y"/>惡行，自會召感苦痛的後果。這不是功利，而是社會人群共同循守的自然法則。
 <lb n="0165a12" ed="Y"/>如此才能鼓舞人們道德心行，提高道德生活水準。</p>
-<lb n="0165a13" ed="Y"/><p style="text-indent:2em">一般宗教之愛，因為缺少智慧，故愛有範圍。佛法以智慧為體，慈悲為用。
+<lb n="0165a13" ed="Y"/><p xml:id="pY24p0165a1301" style="text-indent:2em">一般宗教之愛，因為缺少智慧，故愛有範圍。佛法以智慧為體，慈悲為用。
 <pb n="0166a" ed="Y" xml:id="Y24.0024.0166a"/>
 <lb n="0166a01" ed="Y"/>唯有真智中才有大悲，佛經說：<quote source="T12n0365_p0343c02" type="嚴謹引文">「佛心者，大慈悲是」<note n="0166001" resp="周怡曄" type="add">《佛說觀無量壽佛經》卷1(CBETA, T12, no. 365, p. 343, c2)</note></quote>。由於大乘佛法以莊嚴佛
 <lb n="0166a02" ed="Y"/>土，成熟眾生為己任，若缺乏大悲，即不能成辦。</p>
-<lb n="0166a03" ed="Y"/><p style="text-indent:2em">人類各各習性不同，重於理智者，則個性孤僻，不能樂群；重於感情者，又
+<lb n="0166a03" ed="Y"/><p xml:id="pY24p0166a0301" style="text-indent:2em">人類各各習性不同，重於理智者，則個性孤僻，不能樂群；重於感情者，又
 <lb n="0166a04" ed="Y"/>以自我為中心，這些均不能稱為完美理想的人生。佛法以智信合一，悲智融和為
 <lb n="0166a05" ed="Y"/>人生之正鵠。信仰，智慧，慈悲為大乘佛法三大心要，均衡的發展，由凡夫位，
 <lb n="0166a06" ed="Y"/>次第修學，進達於最後究竟的佛果。人生旅途，僅數十寒暑，我們應利用這短暫

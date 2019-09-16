@@ -12,50 +12,70 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/11</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/11</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>14卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 14, No. 14</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">14</idno>.<idno type="no">14</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛在人間</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">二、人間佛教緒言</cb:mulu><cb:mulu level="2" type="其他">二　人間佛教的三寶觀</cb:mulu>
-<milestone unit="juan" n="3"/><pb n="0029a" ed="Y" xml:id="Y14.0014.0029a.old" type="old"/>
+<milestone n="3" unit="juan"/><pb n="0029a" ed="Y" xml:id="Y14.0014.0029a.old" type="old"/>
 <pb n="0029a" ed="Y" xml:id="Y14.0014.0029a"/>
 <lb n="0029a01" ed="Y"/><lb n="0029a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">三、從依機設教來說明人間佛教</cb:mulu><head>從依機設教來說明人間佛教<note n="0029001" resp="DILA" type="add">民國四一年講。</note></head>
 <lb n="0029a02" ed="Y"/><lb n="0029a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　教乘應機的安立</cb:mulu><head>一　教乘應機的安立</head>
-<lb n="0029a03" ed="Y"/><lb n="0029a03" ed="Y" type="old"/><p style="text-indent:2em">施教宗旨：佛法是適應眾生的根機而安立的，需要什麼，就為他說什麼。如
+<lb n="0029a03" ed="Y"/><lb n="0029a03" ed="Y" type="old"/><p xml:id="pY14p0029a0301" style="text-indent:2em">施教宗旨：佛法是適應眾生的根機而安立的，需要什麼，就為他說什麼。如
 <lb n="0029a04" ed="Y"/><lb n="0029a04" ed="Y" type="old"/><title level="m">《大智度論》</title>所說的四悉檀，即是佛陀應機說法的四大宗旨。說法的宗旨雖多，
 <lb n="0029a05" ed="Y"/>但總<lb n="0029a05" ed="Y" type="old"/>括起來，不出此四。一、世間悉檀，以引起樂欲為宗。如對初學而缺乏興味
 <lb n="0029a06" ed="Y"/>的，<lb n="0029a06" ed="Y" type="old"/>佛必先使他生歡喜心。隨順眾生的不同願欲，給他說不同的法。如遇到農人
@@ -83,7 +103,7 @@
 <lb n="0031a03" ed="Y"/>。四<lb n="0031a03" ed="Y" type="old"/>、第一義悉檀，這以顯了真義為宗，這是佛陀自證的諸法實相。不信解這甚
 <lb n="0031a04" ed="Y"/>深的<lb n="0031a04" ed="Y" type="old"/>真義，而修行趣證，是決不能了脫生死，圓成佛道的。所以佛依第一義悉檀
 <lb n="0031a05" ed="Y"/>說，<lb n="0031a05" ed="Y" type="old"/>是究竟的了義說，這才是佛法的心髓。</p>
-<lb n="0031a06" ed="Y"/><lb n="0031a06" ed="Y" type="old"/><p style="text-indent:2em">龍樹說：<quote source="T25n1509_p0060c12-13" type="寬鬆引文">「三悉檀可破可壞，第一義悉檀不可壞。」<note n="0031001" resp="謝淑歆" type="add">《大智度論》卷1〈1 序品〉：「除第一義悉檀，諸餘論議，諸餘悉檀，皆可破故。」(CBETA, T25, no. 1509, p. 60, c12-13)</note></quote>如世間悉檀，要看這時
+<lb n="0031a06" ed="Y"/><lb n="0031a06" ed="Y" type="old"/><p xml:id="pY14p0031a0601" style="text-indent:2em">龍樹說：<quote source="T25n1509_p0060c12-13" type="寬鬆引文">「三悉檀可破可壞，第一義悉檀不可壞。」<note n="0031001" resp="謝淑歆" type="add">《大智度論》卷1〈1 序品〉：「除第一義悉檀，諸餘論議，諸餘悉檀，皆可破故。」(CBETA, T25, no. 1509, p. 60, c12-13)</note></quote>如世間悉檀，要看這時
 <lb n="0031a07" ed="Y"/><lb n="0031a07" ed="Y" type="old"/>代的情況怎樣，這區域的習俗怎樣，這人的根性怎樣，隨順世俗的逗機方便，千
 <lb n="0031a08" ed="Y"/><lb n="0031a08" ed="Y" type="old"/>變萬化，不拘一端。如時代不同，區域不同，對機不同，那就對於甲的世間悉檀
 <lb n="0031a09" ed="Y"/><lb n="0031a09" ed="Y" type="old"/>，對於乙可能成為大障礙，不成方便。這那裡可以拘執？世間悉檀，是可破壞的
@@ -99,10 +119,10 @@
 <lb n="0032a05" ed="Y"/><lb n="0032a05" ed="Y" type="old"/>而多少不同。佛法施教的宗旨，有此四悉檀不同。弘揚佛法而要得到機教相契的
 <lb n="0032a06" ed="Y"/><lb n="0032a06" ed="Y" type="old"/>效果，就得深切地注意四悉檀的運用才行，把握方便（前三悉檀）與究竟的差別
 <lb n="0032a07" ed="Y"/><lb n="0032a07" ed="Y" type="old"/>才行。尤其是不能誤解方便為究竟，從根本上破壞了佛法的綱宗。</p>
-<lb n="0032a08" ed="Y"/><lb n="0032a08" ed="Y" type="old"/><p style="text-indent:2em">教乘類別：隨眾生根機的差別，故教法也隨而有別。乘有運載的意思，人類
+<lb n="0032a08" ed="Y"/><lb n="0032a08" ed="Y" type="old"/><p xml:id="pY14p0032a0801" style="text-indent:2em">教乘類別：隨眾生根機的差別，故教法也隨而有別。乘有運載的意思，人類
 <lb n="0032a09" ed="Y"/><lb n="0032a09" ed="Y" type="old"/>依此教法修行，即可由此而至彼，如乘車一樣，所以稱佛法為乘。人能依此教法
 <lb n="0032a10" ed="Y"/><lb n="0032a10" ed="Y" type="old"/>修行即可由人而天，或由凡而聖。這一向有五乘、三乘、一乘的類別。</p>
-<lb n="0032a11" ed="Y"/><lb n="0032a11" ed="Y" type="old"/><p style="text-indent:2em">五乘是：人乘、天乘、聲聞乘、緣覺乘、菩薩乘（或佛乘）。乘，必有三事
+<lb n="0032a11" ed="Y"/><lb n="0032a11" ed="Y" type="old"/><p xml:id="pY14p0032a1101" style="text-indent:2em">五乘是：人乘、天乘、聲聞乘、緣覺乘、菩薩乘（或佛乘）。乘，必有三事
 <lb n="0032a12" ed="Y"/><lb n="0032a12" ed="Y" type="old"/>：一、發心；二、目的；三、方法。五乘可略為三類：(一)、人天乘為一類。人天
 <lb n="0032a13" ed="Y"/><lb n="0032a13" ed="Y" type="old"/>乘發什麼心呢？叫「增進（或作勝）心」。在六道中生死輪迴，受苦不已，但比<pb n="0033a" ed="Y" xml:id="Y14.0014.0033a.old" type="old"/>
 <pb n="0033a" ed="Y" xml:id="Y14.0014.0033a"/>
@@ -125,7 +145,7 @@
 <lb n="0034a03" ed="Y"/><lb n="0034a03" ed="Y" type="old"/>目的。佛法雖無量無邊，歸納起來，不出此五乘法。學佛法，不出此五乘法，而
 <lb n="0034a04" ed="Y"/><lb n="0034a04" ed="Y" type="old"/>五乘中以菩薩乘為高勝。如學佛而離開了此五乘的發心與修行，就是虛偽的學佛
 <lb n="0034a05" ed="Y"/><lb n="0034a05" ed="Y" type="old"/>，不能免離惡道的苦難。</p>
-<lb n="0034a06" ed="Y"/><lb n="0034a06" ed="Y" type="old"/><p style="text-indent:2em">再說三乘與一乘：人天乘，本不是佛法的宗要，佛法的重心是出世間的。人
+<lb n="0034a06" ed="Y"/><lb n="0034a06" ed="Y" type="old"/><p xml:id="pY14p0034a0601" style="text-indent:2em">再說三乘與一乘：人天乘，本不是佛法的宗要，佛法的重心是出世間的。人
 <lb n="0034a07" ed="Y"/><lb n="0034a07" ed="Y" type="old"/>天乘法，也不但是佛法的，像中國的儒、道，西方的耶教，與中東的回教，動機
 <lb n="0034a08" ed="Y"/><lb n="0034a08" ed="Y" type="old"/>與行為，大都是契合人天乘法的。就是世間的政治學術，也很多是符合人天法的
 <lb n="0034a09" ed="Y"/><lb n="0034a09" ed="Y" type="old"/>。所以人天乘法，是共世間的，顯不出佛法的特殊。佛法的特質是出世法，即是
@@ -137,22 +157,22 @@
 <lb n="0035a01" ed="Y"/><lb n="0035a01" ed="Y" type="old"/>開始就發菩提心的，叫直往大乘；先修二乘，再回心向大乘，叫迴入大乘。從學
 <lb n="0035a02" ed="Y"/><lb n="0035a02" ed="Y" type="old"/>菩薩行，成如來果說，大乘與一乘，並無實質的差別。佛法中一向有三乘與一乘
 <lb n="0035a03" ed="Y"/><lb n="0035a03" ed="Y" type="old"/>的諍論，根本在二乘的是否究竟？這如：</p>
-<lb n="0035a04" ed="Y"/><lb n="0035a04" ed="Y" type="old"/><p cb:type="pre">　　　　　　　┌─聲聞乘……．
+<lb n="0035a04" ed="Y"/><lb n="0035a04" ed="Y" type="old"/><p cb:type="pre" xml:id="pY14p0035a0401">　　　　　　　┌─聲聞乘……．
 <lb n="0035a05" ed="Y"/>　　　　　　　│　　　　　　：…小乘
 <lb n="0035a06" ed="Y"/>　　　　　　　├─緣覺乘……．
 <lb n="0035a07" ed="Y"/>　　　一佛乘─┴─菩薩乘…………大乘</p>
-<lb n="0035a08" ed="Y"/><lb n="0035a07" ed="Y" type="old"/><p style="text-indent:2em">表中二條短線，如二乘；另一條長線，如一大乘。在經說二乘究竟時，菩薩
+<lb n="0035a08" ed="Y"/><lb n="0035a07" ed="Y" type="old"/><p xml:id="pY14p0035a0801" style="text-indent:2em">表中二條短線，如二乘；另一條長線，如一大乘。在經說二乘究竟時，菩薩
 <lb n="0035a09" ed="Y"/><lb n="0035a08" ed="Y" type="old"/>乘與二乘相對，稱為大乘。但二乘是終要轉入大乘成佛的，唯大無小，所以大乘
 <lb n="0035a10" ed="Y"/><lb n="0035a09" ed="Y" type="old"/>即成為一乘。三乘究竟，本是方便說的。在證入法性平等中，同歸一乘，為必然
 <lb n="0035a11" ed="Y"/><lb n="0035a10" ed="Y" type="old"/>的結論（所以，<title level="m">《般若經》</title>說，阿羅漢等聖者，是一定會信受大乘般若的。<title level="m">《法
 <lb n="0035a12" ed="Y"/><lb n="0035a11" ed="Y" type="old"/>華經》</title>等說，如聲聞而不信一大乘，是增上慢人，自以為是阿羅漢，而不是真阿
 <lb n="0035a13" ed="Y"/><lb n="0035a12" ed="Y" type="old"/>羅漢）。</p>
-<lb n="0035a14" ed="Y"/><lb n="0035a13" ed="Y" type="old"/><p style="text-indent:2em">通約三乘來說，二乘是出世間法，菩薩乘也是出世法，但特別稱讚為出世上<pb n="0036a" ed="Y" xml:id="Y14.0014.0036a.old" type="old"/>
+<lb n="0035a14" ed="Y"/><lb n="0035a13" ed="Y" type="old"/><p xml:id="pY14p0035a1401" style="text-indent:2em">通約三乘來說，二乘是出世間法，菩薩乘也是出世法，但特別稱讚為出世上<pb n="0036a" ed="Y" xml:id="Y14.0014.0036a.old" type="old"/>
 <pb n="0036a" ed="Y" xml:id="Y14.0014.0036a"/>
 <lb n="0036a01" ed="Y"/><lb n="0036a01" ed="Y" type="old"/>上法。因為菩薩不但求自己成佛，也願一切有情得度，為大智、大悲、大願、大
 <lb n="0036a02" ed="Y"/><lb n="0036a02" ed="Y" type="old"/>行的合一。對人天乘說，大乘是出世的，也是入世的，是世間法與出世間法的統
 <lb n="0036a03" ed="Y"/><lb n="0036a03" ed="Y" type="old"/>一，到達更高的完成。</p>
-<lb n="0036a04" ed="Y"/><lb n="0036a04" ed="Y" type="old"/><p style="text-indent:2em">教史遞演：佛法的五乘，三乘，如從同歸一乘佛道的立場來說，佛法分為三
+<lb n="0036a04" ed="Y"/><lb n="0036a04" ed="Y" type="old"/><p xml:id="pY14p0036a0401" style="text-indent:2em">教史遞演：佛法的五乘，三乘，如從同歸一乘佛道的立場來說，佛法分為三
 <lb n="0036a05" ed="Y"/><lb n="0036a05" ed="Y" type="old"/>類，實只是大乘的三類。從印度佛教史的演變上看，這是確實有此三類的。此三
 <lb n="0036a06" ed="Y"/><lb n="0036a06" ed="Y" type="old"/>類，虛大師在<title level="a">〈我怎樣判攝一切佛法〉</title>中，有簡要的說明。大師的見解，是唯一
 <lb n="0036a07" ed="Y"/><lb n="0036a07" ed="Y" type="old"/>大乘，一切有情皆能成佛。從此去觀察：一、佛滅後初五百年，即正法時代，以
@@ -182,9 +202,9 @@
 <lb n="0038a03" ed="Y"/><lb n="0038a03" ed="Y" type="old"/>一切人類起同情心，而施設種種利濟的事業。<title level="m">《大智度論》</title>曾說到菩薩：或重智
 <lb n="0038a04" ed="Y"/><lb n="0038a04" ed="Y" type="old"/>，或重悲，或重於信精進。雖真正的菩薩，信進悲智是應該具足的，但依趣入大
 <lb n="0038a05" ed="Y"/><lb n="0038a05" ed="Y" type="old"/>乘說，確有這三者的不同。</p>
-<lb n="0038a06" ed="Y"/><lb n="0038a06" ed="Y" type="old"/><p style="text-indent:2em">在印度一千五百年的佛教史中，也可看出三期的演變。試畫為曼荼拏，以說
+<lb n="0038a06" ed="Y"/><lb n="0038a06" ed="Y" type="old"/><p xml:id="pY14p0038a0601" style="text-indent:2em">在印度一千五百年的佛教史中，也可看出三期的演變。試畫為曼荼拏，以說
 <lb n="0038a07" ed="Y"/><lb n="0038a07" ed="Y" type="old"/>明機教的差別：</p>
-<lb n="0038a08" ed="Y"/><lb n="0038a08" ed="Y" type="old"/><p cb:type="pre">　　　╭────────────────╮
+<lb n="0038a08" ed="Y"/><lb n="0038a08" ed="Y" type="old"/><p cb:type="pre" xml:id="pY14p0038a0801">　　　╭────────────────╮
 <lb n="0038a09" ed="Y"/>　　　│　　　　　　　　　　　　　　　　│
 <lb n="0038a10" ed="Y"/>　　　│　　╭──────────╮　　│
 <lb n="0038a11" ed="Y"/>　　　│　　│　　　　　　　　　　│　　│
@@ -196,7 +216,7 @@
 <lb n="0038a17" ed="Y"/>　　　│　　　　　　　　　　　　　　　　│
 <lb n="0038a18" ed="Y"/>　　　╰────────────────╯</p>
 <pb n="0039a" ed="Y" xml:id="Y14.0014.0039a"/>
-<lb n="0039a01" ed="Y"/><pb n="0039a" ed="Y" xml:id="Y14.0014.0039a.old" type="old"/><lb n="0039a01" ed="Y" type="old"/><p style="text-indent:2em">初期佛教，以出家的聲聞僧為中心，釋迦佛自身，舍利弗，目犍連，大迦葉
+<lb n="0039a01" ed="Y"/><pb n="0039a" ed="Y" xml:id="Y14.0014.0039a.old" type="old"/><lb n="0039a01" ed="Y" type="old"/><p xml:id="pY14p0039a0101" style="text-indent:2em">初期佛教，以出家的聲聞僧為中心，釋迦佛自身，舍利弗，目犍連，大迦葉
 <lb n="0039a02" ed="Y"/><lb n="0039a02" ed="Y" type="old"/>們，都是現出家相的。出家有什麼特殊風格？可稱為自在解脫。如穿衣、吃飯、
 <lb n="0039a03" ed="Y"/><lb n="0039a03" ed="Y" type="old"/>住處都不怎麼講究，隨緣度日。少事少業，減除煩惱，林野風致，現出清淨自在
 <lb n="0039a04" ed="Y"/><lb n="0039a04" ed="Y" type="old"/>的精神。初期佛教，以此出家的解脫為中心。此外有在家弟子，如舍衛國的給孤
@@ -212,14 +232,14 @@
 <pb n="0040a" ed="Y" xml:id="Y14.0014.0040a"/>
 <lb n="0040a01" ed="Y"/>初期的佛教，鬼神僅是世間悉檀，不加尊重，也不否定。神教的色彩極淺，迷<lb n="0040a02" ed="Y" type="old"/>信
 <lb n="0040a02" ed="Y"/>的方便極少。內重禪慧，外重人事，初期以出家解脫為中心的佛教，是如此。</p>
-<lb n="0040a03" ed="Y"/><lb n="0040a03" ed="Y" type="old"/><p cb:type="pre">　　　╭───────┬──────╮
+<lb n="0040a03" ed="Y"/><lb n="0040a03" ed="Y" type="old"/><p cb:type="pre" xml:id="pY14p0040a0301">　　　╭───────┬──────╮
 <lb n="0040a04" ed="Y"/>　　　│　　　　　　　│　　　　　　│
 <lb n="0040a05" ed="Y"/>　　　│　　　　╭──┴─╮　　　　│
 <lb n="0040a06" ed="Y"/>　　　│天神護持│在家慈悲│出家解脫│
 <lb n="0040a07" ed="Y"/>　　　│　　　　╰──┬─╯　　　　│
 <lb n="0040a08" ed="Y"/>　　　│　　　　　　　│　　　　　　│
 <lb n="0040a09" ed="Y"/>　　　╰───────┴──────╯</p>
-<lb n="0040a10" ed="Y"/><lb n="0040a07" ed="Y" type="old"/><p style="text-indent:2em">佛滅後五百年的佛教情況，即大乘教興起的時代，也約有五百年。佛教的中
+<lb n="0040a10" ed="Y"/><lb n="0040a07" ed="Y" type="old"/><p xml:id="pY14p0040a1001" style="text-indent:2em">佛滅後五百年的佛教情況，即大乘教興起的時代，也約有五百年。佛教的中
 <lb n="0040a11" ed="Y"/><lb n="0040a08" ed="Y" type="old"/>心是演變了。處於佛教中心的佛與弟子，都現為在家相。如文殊、觀音、普賢、
 <lb n="0040a12" ed="Y"/><lb n="0040a09" ed="Y" type="old"/>維摩詰、善財、常啼等菩薩，可說都是在家的。大乘歸極的佛陀，為毘盧遮那佛
 <lb n="0040a13" ed="Y"/><lb n="0040a10" ed="Y" type="old"/>，也是有髮髻，戴頭冠的，身上瓔珞莊嚴的在家相。這以在家為中心的佛菩薩，
@@ -236,14 +256,14 @@
 <lb n="0041a07" ed="Y"/><lb n="0041a07" ed="Y" type="old"/>不少，連魔王也有不可思議大菩薩。這些天菩薩，在大乘法會中，助佛揚化，也
 <lb n="0041a08" ed="Y"/><lb n="0041a08" ed="Y" type="old"/>還是本著悲智行願的精神，助佛說六波羅蜜、四攝等大乘法，不過增加一些神的
 <lb n="0041a09" ed="Y"/><lb n="0041a09" ed="Y" type="old"/>特徵。一分低下的天神，大抵是熱心的護法者。</p>
-<lb n="0041a10" ed="Y"/><lb n="0041a10" ed="Y" type="old"/><p style="text-indent:2em">這一期的佛教，從出家移入在家，從人而移向天，為高級的天與在家人的趣
+<lb n="0041a10" ed="Y"/><lb n="0041a10" ed="Y" type="old"/><p xml:id="pY14p0041a1001" style="text-indent:2em">這一期的佛教，從出家移入在家，從人而移向天，為高級的天與在家人的趣
 <lb n="0041a11" ed="Y"/><lb n="0041a11" ed="Y" type="old"/>入佛法，也是適應於崇奉天神的在家婆羅門而發揚起來。入世利生，充滿了本生
 <lb n="0041a12" ed="Y"/><lb n="0041a12" ed="Y" type="old"/>談中的菩薩精神。但同時，天的傾向發達起來，天神的地位也顯著起來。所以，
 <lb n="0041a13" ed="Y"/><lb n="0041a13" ed="Y" type="old"/>這是佛教的人間化，也是天化。印度大乘佛教的隆盛，是包含這兩個內容，也影<pb n="0042a" ed="Y" xml:id="Y14.0014.0042a.old" type="old"/>
 <pb n="0042a" ed="Y" xml:id="Y14.0014.0042a"/>
 <lb n="0042a01" ed="Y"/><lb n="0042a01" ed="Y" type="old"/>響了後來發展的傾向。這不如初期的樸素，重於集團生活，而多少曲應世間俗習
 <lb n="0042a02" ed="Y"/><lb n="0042a02" ed="Y" type="old"/>，而傾向於唯心及個人的偉大。</p>
-<lb n="0042a03" ed="Y"/><lb n="0042a03" ed="Y" type="old"/><p cb:type="pre">　　　╭────────────────╮
+<lb n="0042a03" ed="Y"/><lb n="0042a03" ed="Y" type="old"/><p cb:type="pre" xml:id="pY14p0042a0301">　　　╭────────────────╮
 <lb n="0042a04" ed="Y"/>　　　│　　　　　　　　　　　　　　　　│
 <lb n="0042a05" ed="Y"/>　　　│　　╭──────────╮　　│
 <lb n="0042a06" ed="Y"/>　　　│　　│　　　　　　　　　　│　　│
@@ -254,7 +274,7 @@
 <lb n="0042a11" ed="Y"/>　　　│　　╰──────────╯　　│
 <lb n="0042a12" ed="Y"/>　　　│　　　　　　　　　　　　　　　　│
 <lb n="0042a13" ed="Y"/>　　　╰────────────────╯</p>
-<lb n="0042a14" ed="Y"/><lb n="0042a09" ed="Y" type="old"/><p style="text-indent:2em">第三期的佛教，一切情況，與初期佛教相比，真可說本末倒置。處於中臺的
+<lb n="0042a14" ed="Y"/><lb n="0042a09" ed="Y" type="old"/><p xml:id="pY14p0042a1401" style="text-indent:2em">第三期的佛教，一切情況，與初期佛教相比，真可說本末倒置。處於中臺的
 <lb n="0042a15" ed="Y"/><lb n="0042a10" ed="Y" type="old"/>佛菩薩相，多分是現的夜叉、羅剎相，奇形怪狀，使人見了驚慌。有的是頭上安
 <lb n="0042a16" ed="Y"/><lb n="0042a11" ed="Y" type="old"/>頭，手多、武器多，項間或懸著一顆顆貫穿起來的骷髏頭，腳下或踏著兇惡相的
 <lb n="0042a17" ed="Y"/><lb n="0042a12" ed="Y" type="old"/>鬼神。而且在極度兇惡——應該說「忿怒」的情況下，又男女扭成一堆，這稱為
@@ -267,7 +287,7 @@
 <lb n="0043a05" ed="Y"/><lb n="0043a05" ed="Y" type="old"/>。中期的大乘佛教，一方面傾向天菩薩，同時又傾向人菩薩。人菩薩法，在印度
 <lb n="0043a06" ed="Y"/><lb n="0043a06" ed="Y" type="old"/>的中期佛教，有著充分的表現；為了適應於印度神化極深的環境，佛教就更攝取
 <lb n="0043a07" ed="Y"/><lb n="0043a07" ed="Y" type="old"/>婆羅門教的方便，發展到天菩薩去。</p>
-<lb n="0043a08" ed="Y"/><lb n="0043a08" ed="Y" type="old"/><p style="text-indent:2em">現在所提倡的人間佛教，我們是人，應以人為中心，應攝取印度初中二期佛
+<lb n="0043a08" ed="Y"/><lb n="0043a08" ed="Y" type="old"/><p xml:id="pY14p0043a0801" style="text-indent:2em">現在所提倡的人間佛教，我們是人，應以人為中心，應攝取印度初中二期佛
 <lb n="0043a09" ed="Y"/><lb n="0043a09" ed="Y" type="old"/>教的人菩薩的慈悲與智慧，特應從悲起智，而不取後期佛教的天菩薩法。傳到中
 <lb n="0043a10" ed="Y"/><lb n="0043a10" ed="Y" type="old"/>國的佛法，唐代也還是印度後期佛教的開始，所以還不像傳於西藏的完全天化。
 <lb n="0043a11" ed="Y"/><lb n="0043a11" ed="Y" type="old"/>中國所傳的佛教，天神化本來不深，也許聲聞的傾向要濃厚些。提倡純粹的人菩
@@ -275,13 +295,13 @@
 <lb n="0043a13" ed="Y"/><lb n="0043a13" ed="Y" type="old"/>佛教，而脫落天化的傾向。</p></cb:div><pb n="0044a" ed="Y" xml:id="Y14.0014.0044a.old" type="old"/>
 <pb n="0044a" ed="Y" xml:id="Y14.0014.0044a"/>
 <lb n="0044a01" ed="Y"/><lb n="0044a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　諸乘應機的分析</cb:mulu><head>二　諸乘應機的分析</head>
-<lb n="0044a02" ed="Y"/><lb n="0044a02" ed="Y" type="old"/><p style="text-indent:2em">人乘及基於人乘的天乘：佛法是適應眾生根機的，從對什麼機說什麼法去分
+<lb n="0044a02" ed="Y"/><lb n="0044a02" ed="Y" type="old"/><p xml:id="pY14p0044a0201" style="text-indent:2em">人乘及基於人乘的天乘：佛法是適應眾生根機的，從對什麼機說什麼法去分
 <lb n="0044a03" ed="Y"/><lb n="0044a03" ed="Y" type="old"/>別，就明顯地看出，那些是人乘的特法，天乘的特法，二乘的特法，菩薩乘的特
 <lb n="0044a04" ed="Y"/><lb n="0044a04" ed="Y" type="old"/>法。佛法興於印度，當然要適應印度當時的文化，以及印度人的特性。佛法為了
 <lb n="0044a05" ed="Y"/><lb n="0044a05" ed="Y" type="old"/>適應某一時代，某一區域的根機，佛法就有時代性與區域性了。</p>
-<lb n="0044a06" ed="Y"/><lb n="0044a06" ed="Y" type="old"/><p style="text-indent:2em">佛法與古代印度文化有重要的關係，必須了解這點，才能不受他的拘束，不
+<lb n="0044a06" ed="Y"/><lb n="0044a06" ed="Y" type="old"/><p xml:id="pY14p0044a0601" style="text-indent:2em">佛法與古代印度文化有重要的關係，必須了解這點，才能不受他的拘束，不
 <lb n="0044a07" ed="Y"/><lb n="0044a07" ed="Y" type="old"/>以適應印度古代文明的契機法，誤解為十方三世常住的真理。</p>
-<lb n="0044a08" ed="Y"/><lb n="0044a08" ed="Y" type="old"/><p style="text-indent:2em">要求未來世仍得人身，名人乘法。以人為可貴的，盡人的本分，作人類應作
+<lb n="0044a08" ed="Y"/><lb n="0044a08" ed="Y" type="old"/><p xml:id="pY14p0044a0801" style="text-indent:2em">要求未來世仍得人身，名人乘法。以人為可貴的，盡人的本分，作人類應作
 <lb n="0044a09" ed="Y"/><lb n="0044a09" ed="Y" type="old"/>的正事；有此人身的正行，將來定能獲生人間。因果等流，毫無差失。生天也如
 <lb n="0044a10" ed="Y"/><lb n="0044a10" ed="Y" type="old"/>此，現生修學天乘法，來生一定得生天報。行人法，得人報；行天法，得天報，
 <lb n="0044a11" ed="Y"/><lb n="0044a11" ed="Y" type="old"/>這是無可疑惑的。釋尊出世前，印度的初期文化，人乘法，天乘法是沒有分別的
@@ -293,7 +313,7 @@
 <lb n="0045a04" ed="Y"/><lb n="0045a04" ed="Y" type="old"/>地震；人為的禍患——刀兵斫殺，爭城奪地。因此求來生為人，與更求上生天國
 <lb n="0045a05" ed="Y"/><lb n="0045a05" ed="Y" type="old"/>的思想，也油然而起。此種思想，古代的一切宗教，莫不如此。這在佛法中，名
 <lb n="0045a06" ed="Y"/><lb n="0045a06" ed="Y" type="old"/>為「後法樂」。</p>
-<lb n="0045a07" ed="Y"/><lb n="0045a07" ed="Y" type="old"/><p style="text-indent:2em">這兩種宗教思想，一求人間現法樂，一求未來人天的後法樂，近於五乘中的
+<lb n="0045a07" ed="Y"/><lb n="0045a07" ed="Y" type="old"/><p xml:id="pY14p0045a0701" style="text-indent:2em">這兩種宗教思想，一求人間現法樂，一求未來人天的後法樂，近於五乘中的
 <lb n="0045a08" ed="Y"/><lb n="0045a08" ed="Y" type="old"/>人天乘。這不是說：人應如此修，天應如此修，是說人如此行，即得人身，得天
 <lb n="0045a09" ed="Y"/><lb n="0045a09" ed="Y" type="old"/>身。這二者，都從人身起行，從人生正行發展到生天的行法。後來，印度宗教又
 <lb n="0045a10" ed="Y"/><lb n="0045a10" ed="Y" type="old"/>引出永生不死的思想，如基督教的天國永生一樣。當時印度人以為，天中的大部
@@ -304,7 +324,7 @@
 <lb n="0046a01" ed="Y"/><lb n="0046a01" ed="Y" type="old"/>法徹底解決。佛教是超過了現法樂與後法樂，而探求究竟解脫樂的。這在一般的
 <lb n="0046a02" ed="Y"/><lb n="0046a02" ed="Y" type="old"/>宗教，皆以生梵天，或「梵我合一」為究竟樂。這三種企求，歸納世界人類的思
 <lb n="0046a03" ed="Y"/><lb n="0046a03" ed="Y" type="old"/>想，不外乎如此。</p>
-<lb n="0046a04" ed="Y"/><lb n="0046a04" ed="Y" type="old"/><p style="text-indent:2em">釋尊出世時，究竟解脫的思想，已瀰漫全印度。在人天中，傾向於天國，以
+<lb n="0046a04" ed="Y"/><lb n="0046a04" ed="Y" type="old"/><p xml:id="pY14p0046a0401" style="text-indent:2em">釋尊出世時，究竟解脫的思想，已瀰漫全印度。在人天中，傾向於天國，以
 <lb n="0046a05" ed="Y"/><lb n="0046a05" ed="Y" type="old"/>為天比人間好。這因為，不但天為後法樂的地方，他們相信生梵天，即是究竟解
 <lb n="0046a06" ed="Y"/><lb n="0046a06" ed="Y" type="old"/>脫處。獲得人間福樂與來生得生人天的方法，印度宗教的主要方法有六：祭祀、
 <lb n="0046a07" ed="Y"/><lb n="0046a07" ed="Y" type="old"/>咒術、德行、苦行、遁世、瑜伽。一、祭祀：中國人重視祭祖宗，或祭土地神等
@@ -348,13 +368,13 @@
 <lb n="0049a03" ed="Y"/><lb n="0049a03" ed="Y" type="old"/>；德行，通於做人的方法，以及進修的根本道德；苦行、隱遁、瑜伽，是生天的
 <lb n="0049a04" ed="Y"/><lb n="0049a04" ed="Y" type="old"/>，而且是生天得解脫的。釋尊出生於印度人間，應機立教，對於這些，是怎樣的
 <lb n="0049a05" ed="Y"/><lb n="0049a05" ed="Y" type="old"/>攝取或破斥呢？</p>
-<lb n="0049a06" ed="Y"/><lb n="0049a06" ed="Y" type="old"/><p style="margin-left:3em"><figure><graphic url="../figures/Y/Y14p0049_01.gif"></graphic><figDesc>咒術、祭祀、德行、苦行、瑜伽、遁世、人乘法、天乘法</figDesc></figure></p>
+<lb n="0049a06" ed="Y"/><lb n="0049a06" ed="Y" type="old"/><p xml:id="pY14p0049a0601" style="margin-left:3em"><figure><graphic url="../figures/Y/Y14p0049_01.gif"></graphic><figDesc>咒術、祭祀、德行、苦行、瑜伽、遁世、人乘法、天乘法</figDesc></figure></p>
 <lb n="0049a07" ed="Y"/>
 <lb n="0049a08" ed="Y"/>
 <lb n="0049a09" ed="Y"/>
 <lb n="0049a10" ed="Y"/>
 <lb n="0049a11" ed="Y"/>
-<lb n="0049a12" ed="Y"/><lb n="0049a12" ed="Y" type="old"/><p style="text-indent:2em">佛所安立的人天乘法，將祭祀除開。如婆羅門繁重的祭祀，佛法中是不要的
+<lb n="0049a12" ed="Y"/><lb n="0049a12" ed="Y" type="old"/><p xml:id="pY14p0049a1201" style="text-indent:2em">佛所安立的人天乘法，將祭祀除開。如婆羅門繁重的祭祀，佛法中是不要的
 <lb n="0049a13" ed="Y"/><lb n="0049a13" ed="Y" type="old"/>。這如猶太教本重祭祀，被耶穌革除了一樣。談到咒術，更是絕對否定的。佛法<pb n="0050a" ed="Y" xml:id="Y14.0014.0050a.old" type="old"/>
 <pb n="0050a" ed="Y" xml:id="Y14.0014.0050a"/>
 <lb n="0050a01" ed="Y"/><lb n="0050a01" ed="Y" type="old"/>對於印度的祭祀天神，如屠殺牛羊，毒害生命，耗費財物，勞動大眾，佛以為這
@@ -386,17 +406,17 @@
 <lb n="0051a13" ed="Y"/><lb n="0051a13" ed="Y" type="old"/>是適應人間所最急需的。不過，限於時機，佛教最高深圓滿的真義，還不曾充分<pb n="0052a" ed="Y" xml:id="Y14.0014.0052a.old" type="old"/>
 <pb n="0052a" ed="Y" xml:id="Y14.0014.0052a"/>
 <lb n="0052a01" ed="Y"/><lb n="0052a01" ed="Y" type="old"/>（在人乘法中）說明而已。佛法的人乘法，與中國儒家的思想相近。</p>
-<lb n="0052a02" ed="Y"/><lb n="0052a02" ed="Y" type="old"/><p style="text-indent:2em">基於人、天的聲聞乘：佛為適應當時印度的民情、根性，立人天乘法，又依
+<lb n="0052a02" ed="Y"/><lb n="0052a02" ed="Y" type="old"/><p xml:id="pY14p0052a0201" style="text-indent:2em">基於人、天的聲聞乘：佛為適應當時印度的民情、根性，立人天乘法，又依
 <lb n="0052a03" ed="Y"/>此<lb n="0052a03" ed="Y" type="old"/>而進立聲聞法。聲聞，本為當時佛弟子的通稱，從佛聽受正法，依法修行得解
 <lb n="0052a04" ed="Y"/>脫<lb n="0052a04" ed="Y" type="old"/>，都叫做聲聞。後來，演變為一部分佛弟子的專稱。要說明基於人天的聲聞乘
 <lb n="0052a05" ed="Y"/>法<lb n="0052a05" ed="Y" type="old"/>，還得從前所說的六種說起：</p>
-<lb n="0052a06" ed="Y"/><lb n="0052a06" ed="Y" type="old"/><p cb:type="pre">　　　德行────┐
+<lb n="0052a06" ed="Y"/><lb n="0052a06" ed="Y" type="old"/><p cb:type="pre" xml:id="pY14p0052a0601">　　　德行────┐
 <lb n="0052a07" ed="Y"/>　　　苦行…………戒
 <lb n="0052a08" ed="Y"/>
 <lb n="0052a09" ed="Y"/>　　　隱遁…………定
 <lb n="0052a10" ed="Y"/>　　　瑜伽────┘
 <lb n="0052a11" ed="Y"/>　　　　　　　　　慧</p>
-<lb n="0052a12" ed="Y"/><lb n="0052a11" ed="Y" type="old"/><p style="text-indent:2em">印度一般在家的人天法與究竟解脫法，依釋尊看來，人天法中也有種種錯誤
+<lb n="0052a12" ed="Y"/><lb n="0052a11" ed="Y" type="old"/><p xml:id="pY14p0052a1201" style="text-indent:2em">印度一般在家的人天法與究竟解脫法，依釋尊看來，人天法中也有種種錯誤
 <lb n="0052a13" ed="Y"/><lb n="0052a12" ed="Y" type="old"/>。尤其是外道的解脫法，都是虛偽的，有著根本的錯謬。佛所安立的聲聞乘法，
 <lb n="0052a14" ed="Y"/><lb n="0052a13" ed="Y" type="old"/>是究竟的，徹底的真道。修學究竟解脫道的方法，即三無漏學——戒定慧；唯有<pb n="0053a" ed="Y" xml:id="Y14.0014.0053a.old" type="old"/>
 <pb n="0053a" ed="Y" xml:id="Y14.0014.0053a"/>
@@ -409,7 +429,7 @@
 <lb n="0053a07" ed="Y"/><lb n="0053a07" ed="Y" type="old"/>至可能死亡，也決不去求學一句咒，幾句咒，或者千句咒，希望避免自己的痛苦
 <lb n="0053a08" ed="Y"/><lb n="0053a08" ed="Y" type="old"/>與死亡。可見這惟不見真理的愚癡眾生，才去學習。真淨的出世法，要從正知正
 <lb n="0053a09" ed="Y"/><lb n="0053a09" ed="Y" type="old"/>行中來，決不能從神化的祭祀與咒術中來。</p>
-<lb n="0053a10" ed="Y"/><lb n="0053a10" ed="Y" type="old"/><p style="text-indent:2em">德行，聲聞法重在精持淨戒，這是到達出世的正道。從出世解脫的立場說，
+<lb n="0053a10" ed="Y"/><lb n="0053a10" ed="Y" type="old"/><p xml:id="pY14p0053a1001" style="text-indent:2em">德行，聲聞法重在精持淨戒，這是到達出世的正道。從出世解脫的立場說，
 <lb n="0053a11" ed="Y"/><lb n="0053a11" ed="Y" type="old"/>世間一般的布施，每與解脫不相應：或為了虛榮，為了聚眾，為了趨吉避凶，為
 <lb n="0053a12" ed="Y"/><lb n="0053a12" ed="Y" type="old"/>了希求人天果報，這都是世俗生死心，與解脫的佛法不相應。佛法是稱歎布施的
 <lb n="0053a13" ed="Y"/><lb n="0053a13" ed="Y" type="old"/>，但單是財物的施捨，如一般人以世俗心作布施，這是不能成為解脫道的。修出<pb n="0054a" ed="Y" xml:id="Y14.0014.0054a.old" type="old"/>
@@ -432,12 +452,12 @@
 <lb n="0055a02" ed="Y"/><lb n="0055a02" ed="Y" type="old"/>外道僅將草頭薙去，根還留在地裡，有了雨水的滋潤，它馬上又長起來。佛法的
 <lb n="0055a03" ed="Y"/><lb n="0055a03" ed="Y" type="old"/>斷煩惱草，是從它的根本去斷盡了，這才再沒有生起的可能。學佛法的，要將錯
 <lb n="0055a04" ed="Y"/><lb n="0055a04" ed="Y" type="old"/>誤觀念扭轉過來，從無常、苦、無我的正見中，引發真慧，就必能得到解脫。</p>
-<lb n="0055a05" ed="Y"/><lb n="0055a05" ed="Y" type="old"/><p style="text-indent:2em">現在從聲聞乘與人天乘的關係說：</p>
-<lb n="0055a06" ed="Y"/><lb n="0055a06" ed="Y" type="old"/><p cb:type="pre">　　　　　　┌───────在家弟子
+<lb n="0055a05" ed="Y"/><lb n="0055a05" ed="Y" type="old"/><p xml:id="pY14p0055a0501" style="text-indent:2em">現在從聲聞乘與人天乘的關係說：</p>
+<lb n="0055a06" ed="Y"/><lb n="0055a06" ed="Y" type="old"/><p cb:type="pre" xml:id="pY14p0055a0601">　　　　　　┌───────在家弟子
 <lb n="0055a07" ed="Y"/>　　　　　　│人間比丘─┐
 <lb n="0055a08" ed="Y"/>　　　聲聞─┤　　　　　├─出家弟子
 <lb n="0055a09" ed="Y"/>　　　　　　└無事比丘─┘</p>
-<lb n="0055a10" ed="Y"/><lb n="0055a09" ed="Y" type="old"/><p style="text-indent:2em">聲聞弟子，也有幾類的：一、在家弟子：一般人誤會學佛的真義，認為學佛
+<lb n="0055a10" ed="Y"/><lb n="0055a09" ed="Y" type="old"/><p xml:id="pY14p0055a1001" style="text-indent:2em">聲聞弟子，也有幾類的：一、在家弟子：一般人誤會學佛的真義，認為學佛
 <lb n="0055a11" ed="Y"/><lb n="0055a10" ed="Y" type="old"/>就必得出家，不知不但菩薩乘不如此，聲聞乘也不如此。由於誤會了學佛的意義
 <lb n="0055a12" ed="Y"/><lb n="0055a11" ed="Y" type="old"/>，所以一味模倣出家的行徑，以為是唯一的修學法。釋尊創立的佛法——聲聞乘
 <lb n="0055a13" ed="Y"/><lb n="0055a12" ed="Y" type="old"/>法，在家弟子中，如頻婆娑羅王、波斯匿王、給孤獨長者、質多長者、梨師達多
@@ -455,7 +475,7 @@
 <lb n="0056a10" ed="Y"/><lb n="0056a10" ed="Y" type="old"/>而引入聲聞乘法的，即適應一般在家根性的。家事、國事，照常的工作，但依人
 <lb n="0056a11" ed="Y"/><lb n="0056a11" ed="Y" type="old"/>間正行為基礎，而進修三無漏學，即得聲聞乘的究竟解脫道。所以，不但大心的
 <lb n="0056a12" ed="Y"/><lb n="0056a12" ed="Y" type="old"/>菩薩道，聲聞乘法也不一定是隱遁到深山曠野裡去修行的。</p>
-<lb n="0056a13" ed="Y"/><lb n="0056a13" ed="Y" type="old"/><p style="text-indent:2em">二、出家比丘，又分為二類：(一)、無事比丘，即阿蘭若比丘。他們歡喜住在<pb n="0057a" ed="Y" xml:id="Y14.0014.0057a.old" type="old"/>
+<lb n="0056a13" ed="Y"/><lb n="0056a13" ed="Y" type="old"/><p xml:id="pY14p0056a1301" style="text-indent:2em">二、出家比丘，又分為二類：(一)、無事比丘，即阿蘭若比丘。他們歡喜住在<pb n="0057a" ed="Y" xml:id="Y14.0014.0057a.old" type="old"/>
 <pb n="0057a" ed="Y" xml:id="Y14.0014.0057a"/>
 <lb n="0057a01" ed="Y"/><lb n="0057a01" ed="Y" type="old"/>阿蘭若（寂靜處）處，過著隱遁的清苦的獨善的生活，專修定慧，生怕世事來擾
 <lb n="0057a02" ed="Y"/><lb n="0057a02" ed="Y" type="old"/>累他。他們持戒，生活極端清苦，佛法中的十二頭陀行，就是這種人常修學的（
@@ -468,7 +488,7 @@
 <lb n="0057a09" ed="Y"/><lb n="0057a09" ed="Y" type="old"/>道的天行，專過隱遁、苦行、禪定的生活。無事比丘，就是適應這一類根性。在
 <lb n="0057a10" ed="Y"/><lb n="0057a10" ed="Y" type="old"/>天行的基礎上，引入三無漏學的聲聞解脫。無事比丘，與在家的聲聞弟子，作風
 <lb n="0057a11" ed="Y"/><lb n="0057a11" ed="Y" type="old"/>恰好相反。</p>
-<lb n="0057a12" ed="Y"/><lb n="0057a12" ed="Y" type="old"/><p style="text-indent:2em">(二)、人間比丘，與上面兩類聲聞弟子，作風都不同。一般出家的，如舍利弗
+<lb n="0057a12" ed="Y"/><lb n="0057a12" ed="Y" type="old"/><p xml:id="pY14p0057a1201" style="text-indent:2em">(二)、人間比丘，與上面兩類聲聞弟子，作風都不同。一般出家的，如舍利弗
 <lb n="0057a13" ed="Y"/><lb n="0057a13" ed="Y" type="old"/>、滿慈子、迦旃延、阿難等，他們都勤修三學，少欲知足，一切隨緣。不貪求好<pb n="0058a" ed="Y" xml:id="Y14.0014.0058a.old" type="old"/>
 <pb n="0058a" ed="Y" xml:id="Y14.0014.0058a"/>
 <lb n="0058a01" ed="Y"/><lb n="0058a01" ed="Y" type="old"/>的，但遇到好的供養品，也不拒絕。如遇到無食無住，或飲食惡劣，住處簡陋時
@@ -491,7 +511,7 @@
 <lb n="0059a04" ed="Y"/>取<lb n="0059a04" ed="Y" type="old"/>折衷的立場。當時的印度，正是隱遁的苦行的時代；釋尊雖適應這一特殊的情
 <lb n="0059a05" ed="Y"/>形<lb n="0059a05" ed="Y" type="old"/>，有出家的制度，但聲聞解脫道的主流，是人間比丘，顯然的是基於人乘，而
 <lb n="0059a06" ed="Y"/>重<lb n="0059a06" ed="Y" type="old"/>於持戒及智慧的。</p>
-<lb n="0059a07" ed="Y"/><lb n="0059a07" ed="Y" type="old"/><p style="text-indent:2em">基於人、天、聲聞的菩薩乘：大乘菩薩法，也是適應印度眾生的根機而施設
+<lb n="0059a07" ed="Y"/><lb n="0059a07" ed="Y" type="old"/><p xml:id="pY14p0059a0701" style="text-indent:2em">基於人、天、聲聞的菩薩乘：大乘菩薩法，也是適應印度眾生的根機而施設
 <lb n="0059a08" ed="Y"/>的。<lb n="0059a08" ed="Y" type="old"/>真理雖遍於三世十方，但在時代性的適應上說，佛法、菩薩法，也不能不適
 <lb n="0059a09" ed="Y"/>應印<lb n="0059a09" ed="Y" type="old"/>度當時的根機。佛說人天乘法，以融攝印度一般的正常行。又適應一分隱遁
 <lb n="0059a10" ed="Y"/>的瑜<lb n="0059a10" ed="Y" type="old"/>伽者，施設出世的聲聞法。菩薩法，是將此世出世間法統一起來，成為高上
@@ -508,7 +528,7 @@
 <lb n="0060a07" ed="Y"/>的不<lb n="0060a07" ed="Y" type="old"/>忍眾生殘殺而發心，怎樣的慈悲精進，說法度眾生等，老病時也還是不休不
 <lb n="0060a08" ed="Y"/>息。<lb n="0060a08" ed="Y" type="old"/>這與一分的聲聞弟子相比，急於證果，或者不願說法，有的寧可挨餓，不願
 <lb n="0060a09" ed="Y"/>去人<lb n="0060a09" ed="Y" type="old"/>間乞食。從佛的智慧、慈悲、精進去看，與聲聞的精神，是怎樣的不同！</p>
-<lb n="0060a10" ed="Y"/><lb n="0060a10" ed="Y" type="old"/><p style="text-indent:2em">菩薩成佛，要經三大阿僧祇劫修行。往昔因中的修行故事，即名為本生談。
+<lb n="0060a10" ed="Y"/><lb n="0060a10" ed="Y" type="old"/><p xml:id="pY14p0060a1001" style="text-indent:2em">菩薩成佛，要經三大阿僧祇劫修行。往昔因中的修行故事，即名為本生談。
 <lb n="0060a11" ed="Y"/><lb n="0060a11" ed="Y" type="old"/>依本生所說，菩薩可分二類：一、在人道中，菩薩每生於無佛法的時代，或為國
 <lb n="0060a12" ed="Y"/><lb n="0060a12" ed="Y" type="old"/>王、大臣、長者、外道，或經商、做工、打獵，或為航海家、技術師等，大抵以
 <lb n="0060a13" ed="Y"/><lb n="0060a13" ed="Y" type="old"/>在家身作在家事，而為人類——眾生謀福利。關於行菩薩道的重要故事，約有五<pb n="0061a" ed="Y" xml:id="Y14.0014.0061a.old" type="old"/>
@@ -536,7 +556,7 @@
 <lb n="0062a07" ed="Y"/><lb n="0062a07" ed="Y" type="old"/>教訓，理解他的真義，不論鹿象也好，龍蛇也好，菩薩的悲願大行，人類是應該
 <lb n="0062a08" ed="Y"/><lb n="0062a08" ed="Y" type="old"/>這樣去效法的。如作為事實去解說，這許多鳥獸，是菩薩示現的，是菩薩慈悲度
 <lb n="0062a09" ed="Y"/><lb n="0062a09" ed="Y" type="old"/>生，不惜去受苦的榜樣。</p>
-<lb n="0062a10" ed="Y"/><lb n="0062a10" ed="Y" type="old"/><p style="text-indent:2em">本生談所說的菩薩道，將菩薩為眾生為佛法的精神，和盤托出，天台家稱之
+<lb n="0062a10" ed="Y"/><lb n="0062a10" ed="Y" type="old"/><p xml:id="pY14p0062a1001" style="text-indent:2em">本生談所說的菩薩道，將菩薩為眾生為佛法的精神，和盤托出，天台家稱之
 <lb n="0062a11" ed="Y"/><lb n="0062a11" ed="Y" type="old"/>為「藏教菩薩」。本生所載的菩薩行，聲聞乘者都是相信的。這可見，人身的菩
 <lb n="0062a12" ed="Y"/><lb n="0062a12" ed="Y" type="old"/>薩，僅少數出家，大都是現在家身的。雖有隨類現生的，但現天身、地獄身是少
 <lb n="0062a13" ed="Y"/><lb n="0062a13" ed="Y" type="old"/>見的。人與象、鹿等旁生，其實都是人間所親切見聞到的；在古人心境中，人與<pb n="0063a" ed="Y" xml:id="Y14.0014.0063a.old" type="old"/>
@@ -552,7 +572,7 @@
 <lb n="0063a09" ed="Y"/><lb n="0063a09" ed="Y" type="old"/>。這二點，對印度大乘佛教的影響，極為深刻。適應印度眾生的根機，佛教極力
 <lb n="0063a10" ed="Y"/><lb n="0063a10" ed="Y" type="old"/>發揚人間菩薩行。由於個人的，通於異類的，在大乘思想的發展中，拘泥形跡的
 <lb n="0063a11" ed="Y"/><lb n="0063a11" ed="Y" type="old"/>大乘者，逐漸向唯心的神秘的天乘菩薩行而前進！</p>
-<lb n="0063a12" ed="Y"/><lb n="0063a12" ed="Y" type="old"/><p style="text-indent:2em">佛滅後四五百年，大乘佛教勃興起來。<quote type="嚴謹引文">「華嚴最初三七日」</quote>，<quote type="嚴謹引文">「法華涅槃（
+<lb n="0063a12" ed="Y"/><lb n="0063a12" ed="Y" type="old"/><p xml:id="pY14p0063a1201" style="text-indent:2em">佛滅後四五百年，大乘佛教勃興起來。<quote type="嚴謹引文">「華嚴最初三七日」</quote>，<quote type="嚴謹引文">「法華涅槃（
 <lb n="0063a13" ed="Y"/><lb n="0063a13" ed="Y" type="old"/>末後）共八年」<note n="0063001" resp="厚觀法師" type="add">(1)《楞嚴經玄義》卷4：「法華涅槃共乎八載。」(CBETA, X13, no. 282, p. 36, c17 // Z 1:20, p. 35, a16 // R20, p. 69, a16)；(2)《四教儀備釋》卷1：「頌曰阿含十二方等八二十二年般若談法華涅槃共八年華嚴最初三七日此是別五時更有通五時收經如妙玄第十<note place="inline">二十六</note>。」(CBETA, X57, no. 977, p. 608, c23-p. 609, a1 // Z 2:7, p. 72, a5-7 // R102, p. 143, a5-7)</note></quote>，傳說中的大乘法——經典，佛在世就說好了的。佛法，起初都<pb n="0064a" ed="Y" xml:id="Y14.0014.0064a.old" type="old"/>
 <pb n="0064a" ed="Y" xml:id="Y14.0014.0064a"/>
 <lb n="0064a01" ed="Y"/><lb n="0064a01" ed="Y" type="old"/>是佛弟子口口相傳；大乘經集出流通的年代，並不算早。大乘經常載著：佛滅四
@@ -582,14 +602,14 @@
 <lb n="0065a11" ed="Y"/>視慈<lb n="0065a11" ed="Y" type="old"/>悲。菩薩法是適應印度的在家弟子，以人乘正行為基礎而興起廣大。從大乘
 <lb n="0065a12" ed="Y"/>修行<lb n="0065a12" ed="Y" type="old"/>的法門內容而說，也可以明顯的看出來。如：</p><pb n="0066a" ed="Y" xml:id="Y14.0014.0066a.old" type="old"/>
 <pb n="0066a" ed="Y" xml:id="Y14.0014.0066a"/>
-<lb n="0066a01" ed="Y"/><lb n="0066a01" ed="Y" type="old"/><p style="margin-left:3em"><figure><graphic url="../figures/Y/Y14p0066_01.gif"></graphic><figDesc>布施、持戒、禪定、智慧、忍辱、精進、慈悲方便、人天法、聲聞法、菩薩法、世間法、出世法、入世而向出世、出世而能入世</figDesc></figure></p>
+<lb n="0066a01" ed="Y"/><lb n="0066a01" ed="Y" type="old"/><p xml:id="pY14p0066a0101" style="margin-left:3em"><figure><graphic url="../figures/Y/Y14p0066_01.gif"></graphic><figDesc>布施、持戒、禪定、智慧、忍辱、精進、慈悲方便、人天法、聲聞法、菩薩法、世間法、出世法、入世而向出世、出世而能入世</figDesc></figure></p>
 <lb n="0066a02" ed="Y"/>
 <lb n="0066a03" ed="Y"/>
 <lb n="0066a04" ed="Y"/>
 <lb n="0066a05" ed="Y"/>
 <lb n="0066a06" ed="Y"/>
 <lb n="0066a07" ed="Y"/>
-<lb n="0066a08" ed="Y"/><lb n="0066a08" ed="Y" type="old"/><p style="text-indent:2em">出世的聲聞法，不重布施；世間的人天法，不論（勝義）智慧。菩薩法以六
+<lb n="0066a08" ed="Y"/><lb n="0066a08" ed="Y" type="old"/><p xml:id="pY14p0066a0801" style="text-indent:2em">出世的聲聞法，不重布施；世間的人天法，不論（勝義）智慧。菩薩法以六
 <lb n="0066a09" ed="Y"/><lb n="0066a09" ed="Y" type="old"/>波羅蜜為根本，將世出世法綜合起來，到達最高的圓滿境地。著重於救世，所以
 <lb n="0066a10" ed="Y"/><lb n="0066a10" ed="Y" type="old"/>重行肯定布施的價值，該攝到菩薩道中來。所開示的本生談，布施都從大悲心來
 <lb n="0066a11" ed="Y"/><lb n="0066a11" ed="Y" type="old"/>。布施的真義，是犧牲自身的一切：財物、時間、精神等，幫助人或解決人的一
@@ -603,7 +623,7 @@
 <lb n="0067a05" ed="Y"/><lb n="0067a05" ed="Y" type="old"/>而引出的智慧妙用，即善巧化度的方便。從這分析去了解，菩薩法是以人乘正行
 <lb n="0067a06" ed="Y"/><lb n="0067a06" ed="Y" type="old"/>為基，在出世與入世的統一中，從世間而到達究竟的出世。佛法在印度普遍發揚
 <lb n="0067a07" ed="Y"/><lb n="0067a07" ed="Y" type="old"/>以後，在家學佛的如風起雲湧一般，菩薩法即必然的興盛起來。</p>
-<lb n="0067a08" ed="Y"/><lb n="0067a08" ed="Y" type="old"/><p style="text-indent:2em">然而，菩薩法的發揚，更含有天行的一邊。印度的一般民間，重視世間的積
+<lb n="0067a08" ed="Y"/><lb n="0067a08" ed="Y" type="old"/><p xml:id="pY14p0067a0801" style="text-indent:2em">然而，菩薩法的發揚，更含有天行的一邊。印度的一般民間，重視世間的積
 <lb n="0067a09" ed="Y"/><lb n="0067a09" ed="Y" type="old"/>極利他，但他們一向在神教的熏陶下，神教——天行的觀念也極為普遍。所以佛
 <lb n="0067a10" ed="Y"/><lb n="0067a10" ed="Y" type="old"/>法普及到一般民間，又為了避免與舊有的神教作無謂的衝突，人間為本的大乘法
 <lb n="0067a11" ed="Y"/><lb n="0067a11" ed="Y" type="old"/>，日見發展的過程中，也就多少融攝了神教，天行也就逐漸發展起來。我曾說過
@@ -614,7 +634,7 @@
 <lb n="0068a02" ed="Y"/><lb n="0068a02" ed="Y" type="old"/>。大乘經中的菩薩，如維摩、善財等；十六大菩薩中的賢護菩薩，都是此界人間
 <lb n="0068a03" ed="Y"/><lb n="0068a03" ed="Y" type="old"/>的菩薩。而他方世界的菩薩，釋尊說法時，也來隨喜聽法。此土他方的菩薩，所
 <lb n="0068a04" ed="Y"/><lb n="0068a04" ed="Y" type="old"/>現的人身也可以說是（高級的）天身，和人的樣子一樣，而身相要高大莊嚴些。</p>
-<lb n="0068a05" ed="Y"/><lb n="0068a05" ed="Y" type="old"/><p style="text-indent:2em">印度婆羅門的神教，重祭祀、咒術、苦行。大乘佛教的發揚，有著天乘的融
+<lb n="0068a05" ed="Y"/><lb n="0068a05" ed="Y" type="old"/><p xml:id="pY14p0068a0501" style="text-indent:2em">印度婆羅門的神教，重祭祀、咒術、苦行。大乘佛教的發揚，有著天乘的融
 <lb n="0068a06" ed="Y"/><lb n="0068a06" ed="Y" type="old"/>攝，所以這三種也融攝進來。佛法中有類似祭祀的，即供養。供養與祭祀，本是
 <lb n="0068a07" ed="Y"/><lb n="0068a07" ed="Y" type="old"/>不同的。佛在世，在家信眾的供養，如安居期了，以衣服或飲食等來布施結緣；
 <lb n="0068a08" ed="Y"/><lb n="0068a08" ed="Y" type="old"/>或平常以衣食藥品等供僧；或者修福舍、修伽藍，供養佛與僧眾。出家弟子，對
@@ -641,7 +661,7 @@
 <lb n="0070a01" ed="Y"/>發大悲心，修菩薩行。先用方便善巧，教他培福德，長信心，充滿了莊嚴喜樂<lb n="0070a02" ed="Y" type="old"/>的
 <lb n="0070a02" ed="Y"/>情緒，不像聲聞乘的重智慧，淡泊精苦。佛法本來是<quote>「生天及解脫，自力不<lb n="0070a03" ed="Y" type="old"/>由他
 <lb n="0070a03" ed="Y"/>」</quote>。等到大乘法發展後，他力加持的思想，才逐漸發達。</p>
-<lb n="0070a04" ed="Y"/><lb n="0070a04" ed="Y" type="old"/><p style="text-indent:2em">咒術，是婆羅門天法中所重視的。依龍樹說：大乘法中，與聲聞乘不同的，
+<lb n="0070a04" ed="Y"/><lb n="0070a04" ed="Y" type="old"/><p xml:id="pY14p0070a0401" style="text-indent:2em">咒術，是婆羅門天法中所重視的。依龍樹說：大乘法中，與聲聞乘不同的，
 <lb n="0070a05" ed="Y"/><lb n="0070a05" ed="Y" type="old"/>即是陀羅尼，陀羅尼與咒術有關。初期的大乘經中，有四十二字母，即文字陀羅
 <lb n="0070a06" ed="Y"/><lb n="0070a06" ed="Y" type="old"/>尼；<title level="m">《華嚴經》</title>、<title level="m">《般若經》</title>、<title level="m">《大集經》</title>裡都說到他。修文字陀羅尼的，不但持
 <lb n="0070a07" ed="Y"/>誦<lb n="0070a07" ed="Y" type="old"/>四十二字，也可念其中的五字，或十六字，或某一字。八大陀羅尼，是大乘法
@@ -659,10 +679,10 @@
 <lb n="0071a05" ed="Y"/>心學大<lb n="0071a05" ed="Y" type="old"/>乘法的，多是一般平民，曾深受印度教的影響。二、婆羅門的天法，當時
 <lb n="0071a06" ed="Y"/>又重新<lb n="0071a06" ed="Y" type="old"/>抬頭，演成現今所稱的印度教。多少傾向於天乘的大乘法，應時應機，發
 <lb n="0071a07" ed="Y"/>展出異<lb n="0071a07" ed="Y" type="old"/>樣的光芒，而反障蔽了大乘的真精神。</p>
-<lb n="0071a08" ed="Y"/><lb n="0071a08" ed="Y" type="old"/><p style="text-indent:2em">苦行的思想，聲聞教中，一分遁世者，如十二頭陀等，還不失為精嚴刻苦的
+<lb n="0071a08" ed="Y"/><lb n="0071a08" ed="Y" type="old"/><p xml:id="pY14p0071a0801" style="text-indent:2em">苦行的思想，聲聞教中，一分遁世者，如十二頭陀等，還不失為精嚴刻苦的
 <lb n="0071a09" ed="Y"/><lb n="0071a09" ed="Y" type="old"/>正道。大乘法中，無意義的苦行，又多少滲雜進來。如燒臂、燃香、捨身等。印
 <lb n="0071a10" ed="Y"/><lb n="0071a10" ed="Y" type="old"/>度神教的三大特徵——祭祀、咒術、苦行，大乘中都顯著融攝著。</p>
-<lb n="0071a11" ed="Y"/><lb n="0071a11" ed="Y" type="old"/><p style="text-indent:2em">大乘發揚時代，雖也有出家聲聞，但在大乘經中，不是教化的主要根機。大
+<lb n="0071a11" ed="Y"/><lb n="0071a11" ed="Y" type="old"/><p xml:id="pY14p0071a1101" style="text-indent:2em">大乘發揚時代，雖也有出家聲聞，但在大乘經中，不是教化的主要根機。大
 <lb n="0071a12" ed="Y"/><lb n="0071a12" ed="Y" type="old"/>乘經中，大抵彈斥出家的聲聞僧，如<title level="m">《維摩經》</title>天女散花，落到菩薩身上就掉下
 <lb n="0071a13" ed="Y"/><lb n="0071a13" ed="Y" type="old"/>，落到舍利弗身上就粘著，維摩詰長者即說舍利弗的習氣沒有斷盡。大乘經中呵<pb n="0072a" ed="Y" xml:id="Y14.0014.0072a.old" type="old"/>
 <pb n="0072a" ed="Y" xml:id="Y14.0014.0072a"/>
@@ -672,7 +692,7 @@
 <lb n="0072a04" ed="Y"/><lb n="0072a04" ed="Y" type="old"/>向大，趨向佛道。總之，在大乘佛法的發揚中，聲聞不是主要的，反而是依於人
 <lb n="0072a05" ed="Y"/><lb n="0072a05" ed="Y" type="old"/>菩薩行，天菩薩行而附帶的發達起來。等到大乘隆盛了，才發展回小向大，依聲
 <lb n="0072a06" ed="Y"/><lb n="0072a06" ed="Y" type="old"/>聞行果而趨入佛果。</p>
-<lb n="0072a07" ed="Y"/><lb n="0072a07" ed="Y" type="old"/><p style="text-indent:2em">即人成佛為佛教的真義，從上來的應機施教，可以了解人法、天法以及聲聞
+<lb n="0072a07" ed="Y"/><lb n="0072a07" ed="Y" type="old"/><p xml:id="pY14p0072a0701" style="text-indent:2em">即人成佛為佛教的真義，從上來的應機施教，可以了解人法、天法以及聲聞
 <lb n="0072a08" ed="Y"/><lb n="0072a08" ed="Y" type="old"/>菩薩法的特質。而大乘法的發揚，是從適應於隱遁的天行的聲聞行，而轉向於入
 <lb n="0072a09" ed="Y"/><lb n="0072a09" ed="Y" type="old"/>世的人行的菩薩道。雖然菩薩道的發展，由於適應一般的民間而通俗化，攝受一
 <lb n="0072a10" ed="Y"/><lb n="0072a10" ed="Y" type="old"/>分祭祀、咒術、苦行的天行，或加上隱遁、瑜伽，發展為後期佛教的依天乘行果

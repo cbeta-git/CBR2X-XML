@@ -12,58 +12,78 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/01</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/01</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>11卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 20, No. 20</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>11卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">20</idno>.<idno type="no">20</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">無諍之辯</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">四、空有之間</cb:mulu>
-<milestone unit="juan" n="5"/><pb n="0117a" ed="Y" xml:id="Y20.0020.0117a.old" type="old"/>
+<milestone n="5" unit="juan"/><pb n="0117a" ed="Y" xml:id="Y20.0020.0117a.old" type="old"/>
 <pb n="0117a" ed="Y" xml:id="Y20.0020.0117a"/>
 <lb n="0117a01" ed="Y"/><lb n="0117a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">五、敬答〈議印度之佛教〉——敬答虛大師</cb:mulu><head>敬答〈議印度之佛教〉
 <lb n="0117a02" ed="Y"/><lb n="0117a02" ed="Y" type="old"/>——敬答虛大師——<note n="0117001" resp="DILA" type="add">民國三二年撰。</note></head>
-<lb n="0117a03" ed="Y"/><lb n="0117a03" ed="Y" type="old"/><p style="text-indent:2em">讀來函及前<title level="a">〈議印度之佛教〉</title>，深覺意見之出入，或可探討而歸於一。大師
+<lb n="0117a03" ed="Y"/><lb n="0117a03" ed="Y" type="old"/><p xml:id="pY20p0117a0301" style="text-indent:2em">讀來函及前<title level="a">〈議印度之佛教〉</title>，深覺意見之出入，或可探討而歸於一。大師
 <lb n="0117a04" ed="Y"/><lb n="0117a04" ed="Y" type="old"/>不吝慈悲，既再示以供研究。學人不敢自外，謹再陳管見，上求郢斵。</p>
-<lb n="0117a05" ed="Y"/><lb n="0117a05" ed="Y" type="old"/><p style="text-indent:2em">一、論事推理之辨：一切佛教乃同依本教流變而來。本教即釋尊之遺言景行
+<lb n="0117a05" ed="Y"/><lb n="0117a05" ed="Y" type="old"/><p xml:id="pY20p0117a0501" style="text-indent:2em">一、論事推理之辨：一切佛教乃同依本教流變而來。本教即釋尊之遺言景行
 <lb n="0117a06" ed="Y"/><lb n="0117a06" ed="Y" type="old"/>，弟子（聞佛聲而奉行者，即聲聞）見聞而受持者。大乘道孕於其中，然就歷史
 <lb n="0117a07" ed="Y"/><lb n="0117a07" ed="Y" type="old"/>而論，則初期以聲聞行果為所崇，故名之為「聲聞為本之解脫同歸」。此後之佛
 <lb n="0117a08" ed="Y"/><lb n="0117a08" ed="Y" type="old"/>教，莫非據此本教，內為理論之開發，外為方便之適應，而次第發達成之。理論
 <lb n="0117a09" ed="Y"/><lb n="0117a09" ed="Y" type="old"/>開發與方便適應，有正常者，有強調而失佛意，附會顛倒而無當者，故有抉擇洗
 <lb n="0117a10" ed="Y"/><lb n="0117a10" ed="Y" type="old"/>鍊可言。佛教既為次第之發展，錯綜離合，為<quote type="寬鬆引文">「非斷非常，非一非異之緣起，孰
-<lb n="0117a11" ed="Y"/><lb n="0117a11" ed="Y" type="old"/>得而分劃之」<note n="0117002" resp="謝淑歆" type="add"><ref type="yinshun" target="#vol:33;page:p11">(ref yinshun::vol:33;page:p11)</ref></note></quote>，然就<quote type="嚴謹引文">「事理之特徵」</quote>，姑劃為無常實有之聲聞行，性空幻有之菩<pb n="0118a" ed="Y" xml:id="Y20.0020.0118a.old" type="old"/>
+<lb n="0117a11" ed="Y"/><lb n="0117a11" ed="Y" type="old"/>得而分劃之」<note n="0117002" resp="謝淑歆" type="add"><ref target="#vol:33;page:p11" type="yinshun">(ref yinshun::vol:33;page:p11)</ref></note></quote>，然就<quote type="嚴謹引文">「事理之特徵」</quote>，姑劃為無常實有之聲聞行，性空幻有之菩<pb n="0118a" ed="Y" xml:id="Y20.0020.0118a.old" type="old"/>
 <pb n="0118a" ed="Y" xml:id="Y20.0020.0118a"/>
 <lb n="0118a01" ed="Y"/><lb n="0118a01" ed="Y" type="old"/>薩行，真常妙有之如來行三期。而聲聞之傾向菩薩，菩薩之傾向如來期，則常為
 <lb n="0118a02" ed="Y"/><lb n="0118a02" ed="Y" type="old"/>出入兩可之間者（外同前而內近後）。學人之論印度佛教史，略如是。研究大師
@@ -79,8 +99,8 @@
 <lb n="0118a12" ed="Y"/>。以學人所見，空常之分劃，不應有問題；二者之為平等、為勝劣，則不妨別<lb n="0118a13" ed="Y" type="old"/>論
 <lb n="0118a13" ed="Y"/>之也。</p><pb n="0119a" ed="Y" xml:id="Y20.0020.0119a.old" type="old"/>
 <pb n="0119a" ed="Y" xml:id="Y20.0020.0119a"/>
-<lb n="0119a01" ed="Y"/><lb n="0119a01" ed="Y" type="old"/><p style="text-indent:2em">二、先空後常之辨：大師提示之意見，可自歷史而研究之者，則<quote type="嚴謹引文">「驗之向傳
-<lb n="0119a02" ed="Y"/><lb n="0119a02" ed="Y" type="old"/>印華佛史無不符合」<note n="0119001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:25;page:p49">(ref taixu::vol:25;page:p49)</ref></note></quote>，及<quote>「大乘起於崇佛行果，先從眾生心示佛淨德」</quote>（讚仰佛
+<lb n="0119a01" ed="Y"/><lb n="0119a01" ed="Y" type="old"/><p xml:id="pY20p0119a0101" style="text-indent:2em">二、先空後常之辨：大師提示之意見，可自歷史而研究之者，則<quote type="嚴謹引文">「驗之向傳
+<lb n="0119a02" ed="Y"/><lb n="0119a02" ed="Y" type="old"/>印華佛史無不符合」<note n="0119001" resp="謝淑歆" type="add"><ref target="#vol:25;page:p49" type="taixu">(ref taixu::vol:25;page:p49)</ref></note></quote>，及<quote>「大乘起於崇佛行果，先從眾生心示佛淨德」</quote>（讚仰佛
 <lb n="0119a03" ed="Y"/><lb n="0119a03" ed="Y" type="old"/>果而揭出眾生之真常淨因）之二義。大師合空常為一期，而又先真常而後性空，
 <lb n="0119a04" ed="Y"/><lb n="0119a04" ed="Y" type="old"/>此與印度之多種三時教說，顯然不合。其傳於中國者，則曾檢之譯史。論則西晉
 <lb n="0119a05" ed="Y"/><lb n="0119a05" ed="Y" type="old"/>竺法護創譯龍樹論；晉末之羅什，大譯龍樹、提婆論，十得其八九，此性空論也
@@ -118,7 +138,7 @@
 <lb n="0121a09" ed="Y"/>身為實體，乃視為有具體而微之相好，漸立大乘不共法身因。佛之性德本具，<lb n="0121a10" ed="Y" type="old"/>一
 <lb n="0121a10" ed="Y"/>切眾生皆爾，乃發為頓證、秘密、唯心之大流。此則後於性空，隨婆羅門教復<lb n="0121a11" ed="Y" type="old"/>興
 <lb n="0121a11" ed="Y"/>（成印度教）之機運，外應潮流而日盛，不應早於性空者也。</p>
-<lb n="0121a12" ed="Y"/><lb n="0121a12" ed="Y" type="old"/><p style="text-indent:2em">三、空常取捨之辨：拙稿於大乘中見龍樹有特勝者，非愛空也。言其行，則
+<lb n="0121a12" ed="Y"/><lb n="0121a12" ed="Y" type="old"/><p xml:id="pY20p0121a1201" style="text-indent:2em">三、空常取捨之辨：拙稿於大乘中見龍樹有特勝者，非愛空也。言其行，則
 <lb n="0121a13" ed="Y"/><lb n="0121a13" ed="Y" type="old"/>龍樹擬別創僧團而事未果，其志可師。言其學，三乘共證法性空，與本教之解脫<pb n="0122a" ed="Y" xml:id="Y20.0020.0122a.old" type="old"/>
 <pb n="0122a" ed="Y" xml:id="Y20.0020.0122a"/>
 <lb n="0122a01" ed="Y"/><lb n="0122a01" ed="Y" type="old"/>同歸合。惟初重聲聞行果，此重菩薩為異耳。無自性之緣起，十九為阿含之舊。

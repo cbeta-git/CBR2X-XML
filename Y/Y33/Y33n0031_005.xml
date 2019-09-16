@@ -12,83 +12,103 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>重版十刷<date>Date: 2013/11</date>新式標點版</edition>
+			<edition>重版十刷<date>Date: 2013/11</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>18卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 33, No. 31</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>18卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">33</idno>.<idno type="no">31</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">印度之佛教</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB00145">
-	<charName>CBETA CHARACTER CB00145</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[少/兔]</value>
-	</charProp>
-	<mapping type="unicode">U+3779</mapping>
-	<mapping cb:dec="983185" type="PUA">U+F0091</mapping>
-</char>
-<char xml:id="CB00501">
-	<charName>CBETA CHARACTER CB00501</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[馬*犬]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>馱</value>
-	</charProp>
-	<mapping type="unicode">U+4B7E</mapping>
-	<mapping cb:dec="983541" type="PUA">U+F01F5</mapping>
-</char>
-<char xml:id="CB01368">
-	<charName>CBETA CHARACTER CB01368</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[飢-几+夌]</value>
-	</charProp>
-	<mapping type="unicode">U+29701</mapping>
-	<mapping cb:dec="984408" type="PUA">U+F0558</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00145">
+				<charName>CBETA CHARACTER CB00145</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[少/兔]</value>
+				</charProp>
+				<mapping type="unicode">U+3779</mapping>
+				<mapping cb:dec="983185" type="PUA">U+F0091</mapping>
+			</char>
+			<char xml:id="CB00501">
+				<charName>CBETA CHARACTER CB00501</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[馬*犬]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>馱</value>
+				</charProp>
+				<mapping type="unicode">U+4B7E</mapping>
+				<mapping cb:dec="983541" type="PUA">U+F01F5</mapping>
+			</char>
+			<char xml:id="CB01368">
+				<charName>CBETA CHARACTER CB01368</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[飢-几+夌]</value>
+				</charProp>
+				<mapping type="unicode">U+29701</mapping>
+				<mapping cb:dec="984408" type="PUA">U+F0558</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第四章　聖典之結集</cb:mulu><cb:mulu level="2" type="其他">第四節　法毘奈耶之初型</cb:mulu><cb:div type="other"><cb:div type="other">
-<milestone unit="juan" n="5"/>
+<milestone n="5" unit="juan"/>
 <pb n="0081a" ed="Y" xml:id="Y33.0031.0081a"/>
 <lb n="0081a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">第五章　阿恕迦王與佛教</cb:mulu><head>第五章　阿恕迦王與佛教</head>
 <lb n="0081a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　法阿育與黑阿育</cb:mulu><head>第一節　法阿育與黑阿育</head>
-<lb n="0081a03" ed="Y"/><p style="text-indent:2em">佛元百十六年，摩竭陀王阿恕迦（即阿育）立。迦王出佛滅百年後，為大小
+<lb n="0081a03" ed="Y"/><p xml:id="pY33p0081a0301" style="text-indent:2em">佛元百十六年，摩竭陀王阿恕迦（即阿育）立。迦王出佛滅百年後，為大小
 <lb n="0081a04" ed="Y"/>各宗所共信。自上而下，佛滅於阿闍世王八年，闍王子曰鬱多耶跋陀羅王。自下
 <lb n="0081a05" ed="Y"/>而上，則阿恕王以前，有頻頭沙羅王、旃陀掘多王、難陀王。其間之王統不詳，
 <lb n="0081a06" ed="Y"/>信古而闕疑，如此而已。銅鍱部者則謂王即位於佛滅二百十八年。自鬱多耶跋陀
@@ -113,14 +133,14 @@
 <lb n="0082a13" ed="Y"/>五師傳承之年，使合於二百餘年之說，然此數人與迦王並世，其不能後於佛元二
 <pb n="0083a" ed="Y" xml:id="Y33.0031.0083a"/>
 <lb n="0083a01" ed="Y"/>世紀，可斷言也。</p>
-<lb n="0083a02" ed="Y"/><p cb:type="pre">　　　　　　　┌──────優多羅─→善覺
+<lb n="0083a02" ed="Y"/><p cb:type="pre" xml:id="pY33p0083a0201">　　　　　　　┌──────優多羅─→善覺
 <lb n="0083a03" ed="Y"/>　　　　　　　├────（晚年弟子）→末闡地
 <lb n="0083a04" ed="Y"/>　　　　┌阿難├─────商那和修─→優婆毱多
 <lb n="0083a05" ed="Y"/>　　　　│　　│　　　　　　：
 <lb n="0083a06" ed="Y"/>　　　佛┤　　└──┐　　（同時）
 <lb n="0083a07" ed="Y"/>　　　　│　　　　　└──┐：
-<lb n="0083a08" ed="Y"/>　　　　└優波離→<note n="0083a0801" resp="CBETA" type="add">馱【CB】，<g ref="#CB00501"/>【印順】</note><app n="0083a0801"><lem wit="【CB】" resp="正聞出版社">馱</lem><rdg wit="【印順】"><g ref="#CB00501"/></rdg></app>寫拘→須那拘→悉伽婆→帝須</p>
-<lb n="0083a09" ed="Y"/><p style="text-indent:2em">銅鍱部之傳說，求於迦王之仁暴而疑，求於同時之大德而疑；其似若可信者
+<lb n="0083a08" ed="Y"/>　　　　└優波離→<note n="0083a0801" resp="CBETA" type="add">馱【CB】，<g ref="#CB00501"/>【印順】</note><app n="0083a0801"><lem resp="正聞出版社" wit="【CB】">馱</lem><rdg wit="【印順】"><g ref="#CB00501"/></rdg></app>寫拘→須那拘→悉伽婆→帝須</p>
+<lb n="0083a09" ed="Y"/><p xml:id="pY33p0083a0901" style="text-indent:2em">銅鍱部之傳說，求於迦王之仁暴而疑，求於同時之大德而疑；其似若可信者
 <lb n="0083a10" ed="Y"/>，則印度、錫蘭之王統年代耳。然印度為無歷史國，銅鍱者何知之獨詳？此蓋由
 <lb n="0083a11" ed="Y"/>誤會而以意為之，非事實也。<title level="m">《大史》</title>及錫蘭<title level="m">《島史》</title>亦銅鍱傳也，詳記王統之
 <lb n="0083a12" ed="Y"/>年代；然準彼推算，則佛滅於西元前五百四十三年，與<title level="m">《善見律》</title>亦有五十餘年
@@ -131,8 +151,8 @@
 <lb n="0084a02" ed="Y"/>王出於佛後百年，亦為彼等所熟聞，而無以明其故，乃誤會迦羅阿育與達磨阿育
 <lb n="0084a03" ed="Y"/>為二人，取傳說中之諸王、諸師，製年譜以自圓其說。百年之差，其以是歟！於
 <lb n="0084a04" ed="Y"/>聲聞四大派中，於分別說系四部中，惟銅鍱部作此說。吾信古以闕疑（王統不明
-<lb n="0084a05" ed="Y"/>），曰：阿恕迦王惟一，登位於佛滅百十六年也<note n="0084001" resp="釋印順" type="orig">參閱<bibl><title level="m">《初期大乘佛教之起源與開展》</title><biblScope n="7" type="chap">第七章</biblScope></bibl>（<ref type="yinshun" target="#vol:37;page:p408">四〇八</ref>——<ref type="yinshun" target="#vol:37;page:p414">四一四</ref>）。</note>。</p>
-<lb n="0084a06" ed="Y"/><p style="text-indent:2em">釋尊入滅之年代，且附此一論。佛滅之年代，傳有七十餘家。我國古德惑於
+<lb n="0084a05" ed="Y"/>），曰：阿恕迦王惟一，登位於佛滅百十六年也<note n="0084001" resp="釋印順" type="orig">參閱<bibl><title level="m">《初期大乘佛教之起源與開展》</title><biblScope n="7" type="chap">第七章</biblScope></bibl>（<ref target="#vol:37;page:p408" type="yinshun">四〇八</ref>——<ref target="#vol:37;page:p414" type="yinshun">四一四</ref>）。</note>。</p>
+<lb n="0084a06" ed="Y"/><p xml:id="pY33p0084a0601" style="text-indent:2em">釋尊入滅之年代，且附此一論。佛滅之年代，傳有七十餘家。我國古德惑於
 <lb n="0084a07" ed="Y"/>星隕地動之變，多用周穆王壬申入滅說，然此實渺茫難憑，時賢無信之者。推論
 <lb n="0084a08" ed="Y"/>佛滅之年，莫如依迦王即位之年而逆算之。蓋迦王即位於周赧王四十三年，已為
 <lb n="0084a09" ed="Y"/>史學所公認，則加以去佛之年代，即佛滅之年矣。近人多信<title level="m">《善見律》</title>、「眾聖
@@ -144,7 +164,7 @@
 <lb n="0085a01" ed="Y"/>則知釋尊入滅之年，應為周安王十四年（西元前三百八十八年），本書據此為佛
 <lb n="0085a02" ed="Y"/>元，與拉斯之西元前四百年頃，克引及威士達之三百七十年頃說略同。</p></cb:div>
 <lb n="0085a03" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　阿恕迦王之政教</cb:mulu><head>第二節　阿恕迦王之政教</head>
-<lb n="0085a04" ed="Y"/><p style="text-indent:2em">佛元六十一年，馬其頓名王亞歷山大，以呾叉斯羅王之請（時印度內亂甚）
+<lb n="0085a04" ed="Y"/><p xml:id="pY33p0085a0401" style="text-indent:2em">佛元六十一年，馬其頓名王亞歷山大，以呾叉斯羅王之請（時印度內亂甚）
 <lb n="0085a05" ed="Y"/>，引兵侵印度。抵五河已，更欲東窺恆河之平原，後以將士不欲東行，乃留守而
 <lb n="0085a06" ed="Y"/>歸。時有旃陀羅掘多（月護）者，出冒狸（孔雀）種姓，乘間糾合西北印之士族
 <lb n="0085a07" ed="Y"/>，逐馬其頓守兵而獨立。又東下廢難陀王，統一中、西、北三印，再建摩竭陀帝
@@ -154,10 +174,10 @@
 <lb n="0085a11" ed="Y"/>治修明，治國凡二十四年。子賓頭沙羅王，克承厥業，又二十五年而阿恕迦王立
 <lb n="0085a12" ed="Y"/>，時佛滅已百十六年矣。迦王未立頃，嘗平呾叉斯羅之事變，頗得臣民之好評。
 <pb n="0086a" ed="Y" xml:id="Y33.0031.0086a"/>
-<lb n="0086a01" ed="Y"/>賓王病篤，<note n="0086a0101" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0086a0101"><lem wit="【CB】" resp="CBETA">群</lem><rdg wit="【印順】">羣</rdg></app>臣擁立迦王，拒太子修私摩而死之，賓王用是憤憾死。迦王承祖父
+<lb n="0086a01" ed="Y"/>賓王病篤，<note n="0086a0101" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0086a0101"><lem resp="CBETA" wit="【CB】">群</lem><rdg wit="【印順】">羣</rdg></app>臣擁立迦王，拒太子修私摩而死之，賓王用是憤憾死。迦王承祖父
 <lb n="0086a02" ed="Y"/>之餘緒，雄才大略，討伐不臣，開印度統一之局。威聲驚域外，東之緬甸，南之
 <lb n="0086a03" ed="Y"/>錫蘭，西北之馬其頓、敘利亞、埃及等，並畏威懷德，遠承其聲教。</p>
-<lb n="0086a04" ed="Y"/><p style="text-indent:2em">孔雀王朝大業之成，外由希臘文明之輸入，而得力於佛教者尤多。嚴階級、
+<lb n="0086a04" ed="Y"/><p xml:id="pY33p0086a0401" style="text-indent:2em">孔雀王朝大業之成，外由希臘文明之輸入，而得力於佛教者尤多。嚴階級、
 <lb n="0086a05" ed="Y"/>崇祠祀、信咒禁、尚苦行，凡此印度文明之積弊而幾乎無可救藥者，初期佛教無
 <lb n="0086a06" ed="Y"/>不反其所行。佛教初行於恆河流域，次及西北印，孔雀王朝則據此而崛興者。亞
 <lb n="0086a07" ed="Y"/>歷山大來侵，受恆河流域聯軍之抗拒，卒阻其東進之心。亞歷山大去，北印即起
@@ -165,42 +185,42 @@
 <lb n="0086a09" ed="Y"/>極大之進步，非佛教民族平等論之影響而何？印度民族沐佛百年之化而孔雀王朝
 <lb n="0086a10" ed="Y"/>興，其盛衰與佛教相終始。吾人於此，不特引為佛教之光榮，亦引此為後期佛教
 <lb n="0086a11" ed="Y"/>之遺憾也！</p>
-<lb n="0086a12" ed="Y"/><p style="text-indent:2em">迦王初立，<note n="0086a1201" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0086a1201"><lem wit="【CB】" resp="CBETA">群</lem><rdg wit="【印順】">羣</rdg></app>臣以擁戴功，多有以此驕王者，乃大殺以清反側。兄弟多被殺
-<lb n="0086a13" ed="Y"/>，即<note n="0086a1301" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0086a1301"><lem wit="【CB】" resp="CBETA">毘</lem><rdg wit="【印順】">毗</rdg></app>地輸迦（亦作帝須）出家為道，似亦不得其善終。兵烽所至，虜殺無算，
+<lb n="0086a12" ed="Y"/><p xml:id="pY33p0086a1201" style="text-indent:2em">迦王初立，<note n="0086a1201" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0086a1201"><lem resp="CBETA" wit="【CB】">群</lem><rdg wit="【印順】">羣</rdg></app>臣以擁戴功，多有以此驕王者，乃大殺以清反側。兄弟多被殺
+<lb n="0086a13" ed="Y"/>，即<note n="0086a1301" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0086a1301"><lem resp="CBETA" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>地輸迦（亦作帝須）出家為道，似亦不得其善終。兵烽所至，虜殺無算，
 <pb n="0087a" ed="Y" xml:id="Y33.0031.0087a"/>
 <lb n="0087a01" ed="Y"/>初期之暴力政治，縱不若記載之甚，要亦無容諱飾者。王灌頂之第九年，始歸三
 <lb n="0087a02" ed="Y"/>寶為優婆塞，並刻石以誌悔：<quote>「為王者，必先自治而後能伏敵，人而不能勝自身
-<lb n="0087a03" ed="Y"/>之欲，焉能勝敵人？」</quote><note n="0087a0301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0087a0301"><lem wit="【CB】" resp="CBETA">啟</lem><rdg wit="【印順】">啓</rdg></app>發其信心者，或云護比丘；或云善覺；或云修私摩稚兒
+<lb n="0087a03" ed="Y"/>之欲，焉能勝敵人？」</quote><note n="0087a0301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0087a0301"><lem resp="CBETA" wit="【CB】">啟</lem><rdg wit="【印順】">啓</rdg></app>發其信心者，或云護比丘；或云善覺；或云修私摩稚兒
 <lb n="0087a04" ed="Y"/>泥瞿陀，出家為沙彌，王見而有感，乃歸心佛教云。就王於佛教事業熱誠觀之，
 <lb n="0087a05" ed="Y"/>則王之正信佛教無可疑，然於婆羅門教，耆那教等，亦予以尊重維護。蓋迦王之
 <lb n="0087a06" ed="Y"/>心目中，宗教乃廣義之道德，雖有淺深其間，而同以導人為善。心胸廣大，信佛
 <lb n="0087a07" ed="Y"/>而能予異教徒之信仰自由以尊重，非褊急政治家可及也。王沐佛之化已，誠信為
 <lb n="0087a08" ed="Y"/>法，仁慈為政，寬刑賦，施醫藥，廢漁獵，睦友邦。為正法之興隆、人民之安寧
 <lb n="0087a09" ed="Y"/>與幸福計，歷訪各地之名德沙門及婆羅門，於國內國外置正法大官以主其事。自
-<lb n="0087a10" ed="Y"/>灌頂後之十三年至二十八年，凡數發<note n="0087a1001" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0087a1001"><lem wit="【CB】" resp="CBETA">敕</lem><rdg wit="【印順】">勅</rdg></app>令，謂真正之勝利，在宗教而不在武力云
-<lb n="0087a11" ed="Y"/>。王有為佛教四眾弟子特發之<note n="0087a1101" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0087a1101"><lem wit="【CB】" resp="CBETA">敕</lem><rdg wit="【印順】">勅</rdg></app>令，名婆伯那者，<note n="0087a1102" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0087a1102"><lem wit="【CB】" resp="CBETA">敕</lem><rdg wit="【印順】">勅</rdg></app>刻石於巴羅特帝附近之山頂
-<lb n="0087a12" ed="Y"/>。<note n="0087a1201" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0087a1201"><lem wit="【CB】" resp="CBETA">敕</lem><rdg wit="【印順】">勅</rdg></app>文舉佛說之七種法門，以勸弟子修學者，1.「<note n="0087a1202" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0087a1202"><lem wit="【CB】" resp="CBETA">毘</lem><rdg wit="【印順】">毗</rdg></app>奈耶要略」，2.「聖者之自
+<lb n="0087a10" ed="Y"/>灌頂後之十三年至二十八年，凡數發<note n="0087a1001" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0087a1001"><lem resp="CBETA" wit="【CB】">敕</lem><rdg wit="【印順】">勅</rdg></app>令，謂真正之勝利，在宗教而不在武力云
+<lb n="0087a11" ed="Y"/>。王有為佛教四眾弟子特發之<note n="0087a1101" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0087a1101"><lem resp="CBETA" wit="【CB】">敕</lem><rdg wit="【印順】">勅</rdg></app>令，名婆伯那者，<note n="0087a1102" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0087a1102"><lem resp="CBETA" wit="【CB】">敕</lem><rdg wit="【印順】">勅</rdg></app>刻石於巴羅特帝附近之山頂
+<lb n="0087a12" ed="Y"/>。<note n="0087a1201" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0087a1201"><lem resp="CBETA" wit="【CB】">敕</lem><rdg wit="【印順】">勅</rdg></app>文舉佛說之七種法門，以勸弟子修學者，1.「<note n="0087a1202" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0087a1202"><lem resp="CBETA" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>奈耶要略」，2.「聖者之自
 <lb n="0087a13" ed="Y"/>在」，3.「未來之怖畏」，4.「牟尼歌」，5.「寂默經」，6.「鄔波底沙之問」
 <pb n="0088a" ed="Y" xml:id="Y33.0031.0088a"/>
-<lb n="0088a01" ed="Y"/>，7.「始於妄語之羅睺羅教誡」。王灌頂後二十年，巡禮佛陀及佛弟子之聖<note n="0088a0101" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0088a0101"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>：
-<lb n="0088a02" ed="Y"/>自波吒釐子城北上，經<note n="0088a0201" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0088a0201"><lem wit="【CB】" resp="CBETA">毘</lem><rdg wit="【印順】">毗</rdg></app>舍離，至釋尊誕生之藍<note n="0088a0202" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0088a0202"><lem wit="【CB】" resp="CBETA">毘</lem><rdg wit="【印順】">毗</rdg></app>尼園；後循釋尊最後遊行之舊
-<lb n="0088a03" ed="Y"/>道，至拘尸那之佛涅槃處，於道中建大石柱五處。其藍<note n="0088a0301" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0088a0301"><lem wit="【CB】" resp="CBETA">毘</lem><rdg wit="【印順】">毗</rdg></app>尼園之石柱，上刻馬像
+<lb n="0088a01" ed="Y"/>，7.「始於妄語之羅睺羅教誡」。王灌頂後二十年，巡禮佛陀及佛弟子之聖<note n="0088a0101" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0088a0101"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>：
+<lb n="0088a02" ed="Y"/>自波吒釐子城北上，經<note n="0088a0201" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0088a0201"><lem resp="CBETA" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>舍離，至釋尊誕生之藍<note n="0088a0202" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0088a0202"><lem resp="CBETA" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>尼園；後循釋尊最後遊行之舊
+<lb n="0088a03" ed="Y"/>道，至拘尸那之佛涅槃處，於道中建大石柱五處。其藍<note n="0088a0301" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0088a0301"><lem resp="CBETA" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>尼園之石柱，上刻馬像
 <lb n="0088a04" ed="Y"/>，今猶存下截，刻文亦明白可辨，略為：某年，王自來禮釋迦牟尼誕生之處。此
 <lb n="0088a05" ed="Y"/>巡禮之事，備載於<title level="m">《阿育王經》</title>，蓋從優婆毱多之教而為之。今得刻文，益見巡
 <lb n="0088a06" ed="Y"/>禮之說不虛。王禮菩提樹，廣施供養，並建八萬四千塔，分置佛舍利，遍布閻浮
 <lb n="0088a07" ed="Y"/>。王所建之佛教精舍，今無有存者。所造之塔婆，唐代玄奘目擊者，不下五百餘
 <lb n="0088a08" ed="Y"/>；現已發現者，惟桑琪之一聚，婆爾呼之一塔。又王所建之石柱，分有銘、無銘
-<lb n="0088a09" ed="Y"/>二類。玄奘所見者，凡十六處，現存止九處。其中六柱，各刻<note n="0088a0901" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0088a0901"><lem wit="【CB】" resp="CBETA">敕</lem><rdg wit="【印順】">勅</rdg></app>令七條，其他刻
-<lb n="0088a10" ed="Y"/>全同或全別之<note n="0088a1001" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0088a1001"><lem wit="【CB】" resp="CBETA">敕</lem><rdg wit="【印順】">勅</rdg></app>令。王之石刻，於印度之宗教宣傳，至今仍有極大之價值也。王
+<lb n="0088a09" ed="Y"/>二類。玄奘所見者，凡十六處，現存止九處。其中六柱，各刻<note n="0088a0901" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0088a0901"><lem resp="CBETA" wit="【CB】">敕</lem><rdg wit="【印順】">勅</rdg></app>令七條，其他刻
+<lb n="0088a10" ed="Y"/>全同或全別之<note n="0088a1001" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0088a1001"><lem resp="CBETA" wit="【CB】">敕</lem><rdg wit="【印順】">勅</rdg></app>令。王之石刻，於印度之宗教宣傳，至今仍有極大之價值也。王
 <lb n="0088a11" ed="Y"/>信佛法切，三以閻浮施；兒摩哂陀，女僧迦密，婿阿耆，並先後出家；派名德宣
 <lb n="0088a12" ed="Y"/>化於各地。晚年，王被抑於王子及大臣，悵悵不得志，以半庵摩羅果奉雞園寺僧
 <lb n="0088a13" ed="Y"/>而卒。<quote>「崇高必墮落，合會要當離」</quote>，無常法爾，迦王之所信所行為不虛矣！時
 <pb n="0089a" ed="Y" xml:id="Y33.0031.0089a"/>
 <lb n="0089a01" ed="Y"/>佛元百六十二年也。</p></cb:div>
 <lb n="0089a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　阿恕迦王時代之佛教</cb:mulu><head>第三節　阿恕迦王時代之佛教</head>
-<lb n="0089a03" ed="Y"/><p style="text-indent:2em">七百結集時，某王助跋耆系，而有大眾之結集。迦王都波吒釐子城，波利系
+<lb n="0089a03" ed="Y"/><p xml:id="pY33p0089a0301" style="text-indent:2em">七百結集時，某王助跋耆系，而有大眾之結集。迦王都波吒釐子城，波利系
 <lb n="0089a04" ed="Y"/>大興，然跋耆系亦日形活躍。說一切有部傳：王因耶舍之說，迎優婆毱多於摩偷
-<lb n="0089a05" ed="Y"/>羅之優留蔓荼山；王之禮聖<note n="0089a0501" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0089a0501"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>，建塔婆，胥毱多等教之。<title level="m">《善見律》</title>僅謂因婆毱
+<lb n="0089a05" ed="Y"/>羅之優留蔓荼山；王之禮聖<note n="0089a0501" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0089a0501"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>，建塔婆，胥毱多等教之。<title level="m">《善見律》</title>僅謂因婆毱
 <lb n="0089a06" ed="Y"/>多知僧事，助王營建云。銅鍱部傳：王因積疑求決，迎摩偷羅阿烋河山之目犍連
 <lb n="0089a07" ed="Y"/>子帝須。凡此，皆波利系也。王子摩哂陀出家，奉帝須為和上，有部之末闡地，
 <lb n="0089a08" ed="Y"/>大眾部之大天為阿闍梨；其後並授以化導一方之命。此足見迦王之於佛教，雖或
@@ -210,14 +230,14 @@
 <lb n="0089a12" ed="Y"/>利系，與跋耆系積不相容。當迦王之時，王意平等，而有部系為跋耆系及波利東
 <pb n="0090a" ed="Y" xml:id="Y33.0031.0090a"/>
 <lb n="0090a01" ed="Y"/>系之協調所抑，實不勝其憤慨也！目犍連子帝須，舊傳所不詳。惟<title level="m">《識身足論》</title>
-<lb n="0090a02" ed="Y"/>破目犍連之過未無體，似即此人。<title level="m">《善見律》</title>之名帝須者不一；王弟<note n="0090a0201" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0090a0201"><lem wit="【CB】" resp="CBETA">毘</lem><rdg wit="【印順】">毗</rdg></app>地輸迦，
-<lb n="0090a03" ed="Y"/><title level="m">《善見律》</title>亦作帝須，然則帝須即<note n="0090a0301" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0090a0301"><lem wit="【CB】" resp="CBETA">毘</lem><rdg wit="【印順】">毗</rdg></app>「地輸」迦之音轉。<cit><bibl><title level="m">《大悲經》</title>云：</bibl><quote>「摩偷
-<lb n="0090a04" ed="Y"/>羅優樓蔓荼山，有僧伽藍，名那馳迦，於彼當有比丘名<note n="0090a0401" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0090a0401"><lem wit="【CB】" resp="CBETA">毘</lem><rdg wit="【印順】">毗</rdg></app>地奢，廣行流布我之正
+<lb n="0090a02" ed="Y"/>破目犍連之過未無體，似即此人。<title level="m">《善見律》</title>之名帝須者不一；王弟<note n="0090a0201" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0090a0201"><lem resp="CBETA" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>地輸迦，
+<lb n="0090a03" ed="Y"/><title level="m">《善見律》</title>亦作帝須，然則帝須即<note n="0090a0301" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0090a0301"><lem resp="CBETA" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>「地輸」迦之音轉。<cit><bibl><title level="m">《大悲經》</title>云：</bibl><quote>「摩偷
+<lb n="0090a04" ed="Y"/>羅優樓蔓荼山，有僧伽藍，名那馳迦，於彼當有比丘名<note n="0090a0401" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0090a0401"><lem resp="CBETA" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>地奢，廣行流布我之正
 <lb n="0090a05" ed="Y"/>法」</quote></cit>。其即指此帝須歟！說一切有者，傳迦葉至優波毱多，凡五師相承。銅鍱部
 <lb n="0090a06" ed="Y"/>重律，傳優波離至帝須之五師（見上表），實則帝須即阿難之三傳弟子。初與有
 <lb n="0090a07" ed="Y"/>部同以摩偷羅為中心；迨後一東下，一西上，乃分裂為二，若不相涉耳！</p>
-<lb n="0090a08" ed="Y"/><p style="text-indent:2em">銅鍱部者說（真諦浮海來，所傳亦當本此）：迦王尊信佛教，外道窮於衣食
-<lb n="0090a09" ed="Y"/>，多濫<note n="0090a0901" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0090a0901"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>佛門，以外道義入佛法中。佛教因此起諍，摩竭陀大寺雞園內，不能和
+<lb n="0090a08" ed="Y"/><p xml:id="pY33p0090a0801" style="text-indent:2em">銅鍱部者說（真諦浮海來，所傳亦當本此）：迦王尊信佛教，外道窮於衣食
+<lb n="0090a09" ed="Y"/>，多濫<note n="0090a0901" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0090a0901"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>佛門，以外道義入佛法中。佛教因此起諍，摩竭陀大寺雞園內，不能和
 <lb n="0090a10" ed="Y"/>合說戒者凡七年。王遣使勸和，不聽，使者怒殺僧眾。王聞之大驚，至寺悔過，
 <lb n="0090a11" ed="Y"/>問使者以應得之罪。或曰：依王所命，應王得罪。或曰：王無殺意，使者得罪。
 <lb n="0090a12" ed="Y"/>或曰：兩俱得罪。王大惑曰：誰斷我疑？諸比丘推目犍連子帝須，於是遣使迎之
@@ -227,11 +247,11 @@
 <lb n="0091a02" ed="Y"/>處之。僧眾清淨已，集學德兼備者千人，和合說戒，並結集三藏，即銅鍱部所傳
 <lb n="0091a03" ed="Y"/>之第三結集也。然此事可疑，試舉其異說而辨之。</p>
 <lb n="0091a04" ed="Y"/><table cols="6" style="margin-left:3em"><row><cell cols="3">銅鍱部傳說</cell><cell cols="3">諸學派傳說（除大眾系）</cell></row><row><cell>
-<lb n="0091a05" ed="Y"/>佛滅百年</cell><cell><note n="0091a0501" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0091a0501"><lem wit="【CB】" resp="CBETA">毘</lem><rdg wit="【印順】">毗</rdg></app>舍離七百結集</cell><cell>迦羅阿育王時分二部</cell><cell>佛滅百年</cell><cell><note n="0091a0502" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0091a0502"><lem wit="【CB】" resp="CBETA">毘</lem><rdg wit="【印順】">毗</rdg></app>舍離七百結集</cell><cell>國王不明</cell></row><row><cell>
+<lb n="0091a05" ed="Y"/>佛滅百年</cell><cell><note n="0091a0501" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0091a0501"><lem resp="CBETA" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>舍離七百結集</cell><cell>迦羅阿育王時分二部</cell><cell>佛滅百年</cell><cell><note n="0091a0502" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0091a0502"><lem resp="CBETA" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>舍離七百結集</cell><cell>國王不明</cell></row><row><cell>
 <lb n="0091a06" ed="Y"/></cell><cell></cell><cell></cell><cell>佛滅百十六年後</cell><cell>舶主兒大天諍五事</cell><cell>阿育王時分二部</cell></row><row><cell>
 <lb n="0091a07" ed="Y"/>佛滅二百卅年頃</cell><cell>賊住比丘起諍</cell><cell>達磨阿育王時</cell><cell>佛滅二百年滿</cell><cell>大天諍五事</cell><cell>國王不明或作妙雲王時</cell></row><row><cell>
 <lb n="0091a08" ed="Y"/></cell><cell>大眾部分出東山等六部華氏城第三結集</cell><cell></cell><cell></cell><cell>大眾部分出東山等三部</cell><cell></cell></row></table>
-<lb n="0091a09" ed="Y"/><p style="text-indent:2em">銅鍱者所傳賊住比丘之爭，為東山部等之因，為佛滅二百年許事，與有部者
+<lb n="0091a09" ed="Y"/><p xml:id="pY33p0091a0901" style="text-indent:2em">銅鍱者所傳賊住比丘之爭，為東山部等之因，為佛滅二百年許事，與有部者
 <lb n="0091a10" ed="Y"/>所說大同。然有部以此為後於迦王四五十年，亦不言賊住。銅鍱者以此為法阿育
 <lb n="0091a11" ed="Y"/>王時頗不合。詳東山等部，銅鍱者目為安達羅學派。安達羅為大天教化之區，時
 <lb n="0091a12" ed="Y"/>大天未行，何得有安達羅學派之分？且銅鍱者傳佛滅百年至二百年，佛法成十八
@@ -251,14 +271,14 @@
 <lb n="0092a13" ed="Y"/>爭相混。傳說帝須於此時集千比丘結集三藏，餘部無此說，似亦渺茫難信。或可
 <pb n="0093a" ed="Y" xml:id="Y33.0031.0093a"/>
 <lb n="0093a01" ed="Y"/>共論三藏之義，遮他立自以成書，如所傳<title level="m">《論事》</title>之類。</p>
-<lb n="0093a02" ed="Y"/><p style="text-indent:2em">迦王之前，佛教猶局促於恆河流域，間及印度河；以迦王之誠護，佛教乃一
+<lb n="0093a02" ed="Y"/><p xml:id="pY33p0093a0201" style="text-indent:2em">迦王之前，佛教猶局促於恆河流域，間及印度河；以迦王之誠護，佛教乃一
 <lb n="0093a03" ed="Y"/>躍而為世界之宗教。迦王之賜予佛教，不可謂不深且厚矣！迦王初置正法官，融
 <lb n="0093a04" ed="Y"/>道德宗教於政治，以促進民生之和樂。次派傳教師，專力於弘布佛教，努力於國
 <lb n="0093a05" ed="Y"/>際之和平。王與敘利亞、埃及等王國，締結友善之邦交；並藉佛教以宣達國際間
 <lb n="0093a06" ed="Y"/>之信義和平，雖維持和平僅五十年，然實開國際和平運動之先聲也。迦王之傳教
-<lb n="0093a07" ed="Y"/>事業，以西北及東南為最成功。正法官所至之國家及國王之名，見於<note n="0093a0701" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0093a0701"><lem wit="【CB】" resp="CBETA">敕</lem><rdg wit="【印順】">勅</rdg></app>令之刻文
+<lb n="0093a07" ed="Y"/>事業，以西北及東南為最成功。正法官所至之國家及國王之名，見於<note n="0093a0701" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勅【印順】</note><app n="0093a0701"><lem resp="CBETA" wit="【CB】">敕</lem><rdg wit="【印順】">勅</rdg></app>令之刻文
 <lb n="0093a08" ed="Y"/>者，有敘利亞之安提柯斯，埃及之度萊梅，馬其頓之安提谷那斯，克萊奈之馬迦
-<lb n="0093a09" ed="Y"/>斯，愛<note n="0093a0901" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0093a0901"><lem wit="【CB】" resp="CBETA">毘</lem><rdg wit="【印順】">毗</rdg></app>勞斯之歷山王（此上即希臘五王國）；以及北印之<note n="0093a0902" resp="CBETA" type="add" subtype="規範字詞">健馱羅【CB】，健<g ref="#CB00501"/>羅【印順】</note><app n="0093a0902"><lem wit="【CB】" resp="CBETA">健馱羅</lem><rdg wit="【印順】">健<g ref="#CB00501"/>羅</rdg></app>，南印之安達
+<lb n="0093a09" ed="Y"/>斯，愛<note n="0093a0901" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0093a0901"><lem resp="CBETA" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>勞斯之歷山王（此上即希臘五王國）；以及北印之<note n="0093a0902" resp="CBETA" type="add" subtype="規範字詞">健馱羅【CB】，健<g ref="#CB00501"/>羅【印順】</note><app n="0093a0902"><lem resp="CBETA" wit="【CB】">健馱羅</lem><rdg wit="【印順】">健<g ref="#CB00501"/>羅</rdg></app>，南印之安達
 <lb n="0093a10" ed="Y"/>羅、錫蘭等，可見此皆佛教宣揚之地也。佛教傳入希臘五國，頗為時眾所歡迎；
 <lb n="0093a11" ed="Y"/>遠至佛元千年，波斯猶有佛教僧在。晚近各該處之考古及發掘，並發現久已湮失
 <lb n="0093a12" ed="Y"/>之佛教。希臘五國乃耶、回發祥之地，彼二之自猶太教而演化為世界宗教，不應
@@ -270,7 +290,7 @@
 <lb n="0094a04" ed="Y"/>。巴利語系聖典之保存，維持初期佛教之形式以迄現在，皆難能可貴也。其東北
 <lb n="0094a05" ed="Y"/>方，隔於崇山峻嶺，弘布稍難。舊傳秦始皇時，有室利房等十八人來化，雖傳說
 <lb n="0094a06" ed="Y"/>無徵，然適與迦王之時代相當，或即所派傳教師之一也！</p>
-<lb n="0094a07" ed="Y"/><p style="text-indent:2em">佛教至迦王而一變，前此之雖有二部，猶能大體和合者，此後則學派分流，
+<lb n="0094a07" ed="Y"/><p xml:id="pY33p0094a0701" style="text-indent:2em">佛教至迦王而一變，前此之雖有二部，猶能大體和合者，此後則學派分流，
 <lb n="0094a08" ed="Y"/>不復如前矣。蓋學者之間，已有不同之見，迨受命而分化一方，適應不同之民族
 <lb n="0094a09" ed="Y"/>文化，學派乃競興。迦王所派之傳教師，亦不必盡為受命而後成行；在一方弘化
 <lb n="0094a10" ed="Y"/>之名德，即因而授以一方化導之命，如末闡提等，應是此類。諸上座受命已，各
@@ -282,14 +302,14 @@
 <lb n="0095a01" ed="Y"/>之後，非吾所敢信！茲附迦王派遣之傳教師及其教化區於下：</p>
 <lb n="0095a02" ed="Y"/><table cols="3" style="margin-left:3em"><row><cell>布教師</cell><cell>布教地</cell><cell>即今</cell></row><row><cell>
 <lb n="0095a03" ed="Y"/>末闡提</cell><cell>罽賓、犍陀羅</cell><cell>北印之克什米爾等</cell></row><row><cell>
-<lb n="0095a04" ed="Y"/>摩訶提婆</cell><cell>摩醯<note n="0095a0401" resp="CBETA" type="add">沙慢【CB】，娑漫【印順】</note><app n="0095a0401"><lem wit="【CB】" resp="正聞出版社">沙慢</lem><rdg wit="【印順】">娑漫</rdg></app>陀羅</cell><cell>南印之賣索爾等</cell></row><row><cell>
+<lb n="0095a04" ed="Y"/>摩訶提婆</cell><cell>摩醯<note n="0095a0401" resp="CBETA" type="add">沙慢【CB】，娑漫【印順】</note><app n="0095a0401"><lem resp="正聞出版社" wit="【CB】">沙慢</lem><rdg wit="【印順】">娑漫</rdg></app>陀羅</cell><cell>南印之賣索爾等</cell></row><row><cell>
 <lb n="0095a05" ed="Y"/>勒棄多</cell><cell>婆那婆私</cell><cell>未詳，或云在南印</cell></row><row><cell>
 <lb n="0095a06" ed="Y"/>曇無德</cell><cell>阿波蘭多迦</cell><cell>西印之蘇庫爾以北</cell></row><row><cell>
 <lb n="0095a07" ed="Y"/>摩訶曇無德</cell><cell>摩訶剌陀</cell><cell>南印之孟買</cell></row><row><cell>
 <lb n="0095a08" ed="Y"/>摩訶勒棄多</cell><cell>臾那世界</cell><cell>阿富汗以西</cell></row><row><cell>
 <lb n="0095a09" ed="Y"/>末示摩、迦葉波</cell><cell>雪山邊</cell><cell>尼泊爾等</cell></row><row><cell>
 <lb n="0095a10" ed="Y"/>須那迦、鬱多羅</cell><cell>金地</cell><cell>緬甸</cell></row><row><cell>
-<lb n="0095a11" ed="Y"/>摩哂陀等</cell><cell>師子</cell><cell>南印之錫蘭<note n="0095002" resp="釋印順" type="orig">參閱<bibl><title level="m">《初期大乘佛教之起源與開展》</title><biblScope n="7" type="chap">第七章</biblScope></bibl>（<ref type="yinshun" target="#vol:37;page:p404">四〇四</ref>——<ref type="yinshun" target="#vol:37;page:p408">四〇八</ref>）。</note></cell></row></table>
+<lb n="0095a11" ed="Y"/>摩哂陀等</cell><cell>師子</cell><cell>南印之錫蘭<note n="0095002" resp="釋印順" type="orig">參閱<bibl><title level="m">《初期大乘佛教之起源與開展》</title><biblScope n="7" type="chap">第七章</biblScope></bibl>（<ref target="#vol:37;page:p404" type="yinshun">四〇四</ref>——<ref target="#vol:37;page:p408" type="yinshun">四〇八</ref>）。</note></cell></row></table>
 <lb n="0095a12" ed="Y"/>
 <lb n="0095a13" ed="Y"/></cb:div></cb:div>
 <pb n="0096a" ed="Y" xml:id="Y33.0031.0096a"/>

@@ -12,84 +12,104 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/12</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/12</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>39卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 23, No. 23</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>39卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">23</idno>.<idno type="no">23</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨香雲</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">二三、我懷念大師</cb:mulu>
-<milestone unit="juan" n="24"/><pb n="0309a" ed="Y" xml:id="Y23.0023.0309a.old" type="old"/>
+<milestone n="24" unit="juan"/><pb n="0309a" ed="Y" xml:id="Y23.0023.0309a.old" type="old"/>
 <pb n="0309a" ed="Y" xml:id="Y23.0023.0309a"/>
 <lb n="0309a01" ed="Y"/><lb n="0309a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">二四、太虛大師菩薩心行的認識</cb:mulu><head>太虛大師菩薩心行的認識<note n="0309001" resp="DILA" type="add">民國四六年撰。</note></head>
 <lb n="0309a02" ed="Y"/><lb n="0309a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　大師在佛法中之意趣</cb:mulu><head>一　大師在佛法中之意趣</head>
-<lb n="0309a03" ed="Y"/><lb n="0309a03" ed="Y" type="old"/><p style="text-indent:2em">虛公大師弘法三十多年，可稱為覺世覺人的佛化運動。此一運動的思想體系
+<lb n="0309a03" ed="Y"/><lb n="0309a03" ed="Y" type="old"/><p xml:id="pY23p0309a0301" style="text-indent:2em">虛公大師弘法三十多年，可稱為覺世覺人的佛化運動。此一運動的思想體系
 <lb n="0309a04" ed="Y"/><lb n="0309a04" ed="Y" type="old"/>，是以中國本位佛教為重心，簡持世界佛教的精華；以佛教文化為總線索，攝導
 <lb n="0309a05" ed="Y"/><lb n="0309a05" ed="Y" type="old"/>東方文化（特重於中國文化）及現代中國文化的三民主義，促成東方文化、東<lb n="0309a06" ed="Y" type="old"/>方世
 <lb n="0309a06" ed="Y"/>界的復興。東方文化的復興，才能革新西方蔽於唯神、唯物的功利文化，攝<lb n="0309a07" ed="Y" type="old"/>取其
 <lb n="0309a07" ed="Y"/>精華，而陶練為世界性的、佛化中心的新文化，造成人世和樂國——人間淨<lb n="0309a08" ed="Y" type="old"/>土。</p>
-<lb n="0309a08" ed="Y"/><lb n="0309a09" ed="Y" type="old"/><p style="text-indent:2em">此一崇高理想，非中國佛教建立清淨僧團不可，非佛教大眾修菩薩行不可。
+<lb n="0309a08" ed="Y"/><lb n="0309a09" ed="Y" type="old"/><p xml:id="pY23p0309a0801" style="text-indent:2em">此一崇高理想，非中國佛教建立清淨僧團不可，非佛教大眾修菩薩行不可。
 <lb n="0309a09" ed="Y"/><lb n="0309a10" ed="Y" type="old"/>所以大師明確表白個人的志行，是：<quote type="嚴謹引文">「志在整理僧伽制度，行在瑜伽菩薩戒本。
-<lb n="0309a10" ed="Y"/>」<note n="0309002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:29;page:p89">(ref taixu::vol:29;page:p89)</ref></note></quote><pb n="0310a" ed="Y" xml:id="Y23.0023.0310a.old" type="old"/><lb n="0310a01" ed="Y" type="old"/>大師對於此一志行，徹始徹終，堅定不移。晚年的定論說：<cit><quote type="嚴謹引文">「想復興中國的佛
+<lb n="0309a10" ed="Y"/>」<note n="0309002" resp="謝淑歆" type="add"><ref target="#vol:29;page:p89" type="taixu">(ref taixu::vol:29;page:p89)</ref></note></quote><pb n="0310a" ed="Y" xml:id="Y23.0023.0310a.old" type="old"/><lb n="0310a01" ed="Y" type="old"/>大師對於此一志行，徹始徹終，堅定不移。晚年的定論說：<cit><quote type="嚴謹引文">「想復興中國的佛
 <pb n="0310a" ed="Y" xml:id="Y23.0023.0310a"/>
 <lb n="0310a01" ed="Y"/><lb n="0310a02" ed="Y" type="old"/>教、樹立現代的中國佛教，就得實現整興僧寺、服務人群的今菩薩行。」</quote><bibl>（<title level="a">〈從
-<lb n="0310a02" ed="Y"/>巴<lb n="0310a03" ed="Y" type="old"/>利語系佛教說到今菩薩行〉</title>）</bibl><note n="0310001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:18;page:p32">(ref taixu::vol:18;page:p32)</ref></note></cit>所說的今菩薩行，要<quote type="嚴謹引文">「建立適合今時今地的佛教
-<lb n="0310a03" ed="Y"/><lb n="0310a04" ed="Y" type="old"/>」<note n="0310002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:29;page:p116">(ref taixu::vol:29;page:p116)</ref></note></quote>；<quote type="嚴謹引文">「（在家、出家）同為六度四攝，即是實行瑜伽戒法」<note n="0310003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:29;page:p118">(ref taixu::vol:29;page:p118)</ref></note></quote>；<cit><quote type="寬鬆引文">「出家的，可作文
+<lb n="0310a02" ed="Y"/>巴<lb n="0310a03" ed="Y" type="old"/>利語系佛教說到今菩薩行〉</title>）</bibl><note n="0310001" resp="謝淑歆" type="add"><ref target="#vol:18;page:p32" type="taixu">(ref taixu::vol:18;page:p32)</ref></note></cit>所說的今菩薩行，要<quote type="嚴謹引文">「建立適合今時今地的佛教
+<lb n="0310a03" ed="Y"/><lb n="0310a04" ed="Y" type="old"/>」<note n="0310002" resp="謝淑歆" type="add"><ref target="#vol:29;page:p116" type="taixu">(ref taixu::vol:29;page:p116)</ref></note></quote>；<quote type="嚴謹引文">「（在家、出家）同為六度四攝，即是實行瑜伽戒法」<note n="0310003" resp="謝淑歆" type="add"><ref target="#vol:29;page:p118" type="taixu">(ref taixu::vol:29;page:p118)</ref></note></quote>；<cit><quote type="寬鬆引文">「出家的，可作文
 <lb n="0310a04" ed="Y"/>化<lb n="0310a05" ed="Y" type="old"/>、教育、慈善、布教等事業；在家的，成為有組織的……，農、工、商、學、
 <lb n="0310a05" ed="Y"/>軍、<lb n="0310a06" ed="Y" type="old"/>政……各部門，……領導社會，作利益人群的事業。」</quote><bibl>（<title level="a">〈我的佛教改進運
-<lb n="0310a06" ed="Y"/>動略史〉</title>）</bibl><note n="0310004" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:29;page:p118">(ref taixu::vol:29;page:p118)</ref></note></cit>今<lb n="0310a07" ed="Y" type="old"/>菩薩行也就是人生佛教，所以說：<cit><quote type="嚴謹引文">「在今日的情形，所向的應在進
+<lb n="0310a06" ed="Y"/>動略史〉</title>）</bibl><note n="0310004" resp="謝淑歆" type="add"><ref target="#vol:29;page:p118" type="taixu">(ref taixu::vol:29;page:p118)</ref></note></cit>今<lb n="0310a07" ed="Y" type="old"/>菩薩行也就是人生佛教，所以說：<cit><quote type="嚴謹引文">「在今日的情形，所向的應在進
 <lb n="0310a07" ed="Y"/>趣大乘行；而<lb n="0310a08" ed="Y" type="old"/>所依的，既非初期的聲聞行果，亦非二期的天乘行果，而確定是在
-<lb n="0310a08" ed="Y"/>人乘行果，以實<lb n="0310a09" ed="Y" type="old"/>行我所說的人生佛教。」</quote><bibl>（<title level="a">〈我怎樣判攝一切佛法〉</title>）</bibl><note n="0310005" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p528">(ref taixu::vol:1;page:p528)</ref></note></cit>大師於此
+<lb n="0310a08" ed="Y"/>人乘行果，以實<lb n="0310a09" ed="Y" type="old"/>行我所說的人生佛教。」</quote><bibl>（<title level="a">〈我怎樣判攝一切佛法〉</title>）</bibl><note n="0310005" resp="謝淑歆" type="add"><ref target="#vol:1;page:p528" type="taixu">(ref taixu::vol:1;page:p528)</ref></note></cit>大師於此
 <lb n="0310a09" ed="Y"/>一志行的切實提<lb n="0310a10" ed="Y" type="old"/>示，最明白也沒有了！</p>
-<lb n="0310a10" ed="Y"/><lb n="0310a11" ed="Y" type="old"/><p style="text-indent:2em">復興佛教來救中國、救世界，為大師一貫的大志願，表現於大師對佛教、對
+<lb n="0310a10" ed="Y"/><lb n="0310a11" ed="Y" type="old"/><p xml:id="pY23p0310a1001" style="text-indent:2em">復興佛教來救中國、救世界，為大師一貫的大志願，表現於大師對佛教、對
 <lb n="0310a11" ed="Y"/><lb n="0310a12" ed="Y" type="old"/>社會、對國家、對世界的活動中。推動此一志願，是本於佛法的菩薩心行，也就
 <lb n="0310a12" ed="Y"/><lb n="0310a13" ed="Y" type="old"/>是<quote type="嚴謹引文">「行在瑜伽菩薩戒本」</quote>。關於這，民國二十四年五月，大師在南京開講<title level="m">《優婆<pb n="0311a" ed="Y" xml:id="Y23.0023.0311a.old" type="old"/>
-<lb n="0310a13" ed="Y"/><lb n="0311a01" ed="Y" type="old"/>塞戒經》</title>，曾進一步的給以說明——說明<quote type="寬鬆引文">「本人在佛法中之意趣」<note n="0310006" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:16;page:p19">(ref taixu::vol:16;page:p19)</ref></note></quote>。大師說：我
+<lb n="0310a13" ed="Y"/><lb n="0311a01" ed="Y" type="old"/>塞戒經》</title>，曾進一步的給以說明——說明<quote type="寬鬆引文">「本人在佛法中之意趣」<note n="0310006" resp="謝淑歆" type="add"><ref target="#vol:16;page:p19" type="taixu">(ref taixu::vol:16;page:p19)</ref></note></quote>。大師說：我
 <pb n="0311a" ed="Y" xml:id="Y23.0023.0311a"/>
-<lb n="0311a01" ed="Y"/><lb n="0311a02" ed="Y" type="old"/><quote type="嚴謹引文">「非研究佛書之學者」<note n="0311001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:16;page:p20">(ref taixu::vol:16;page:p20)</ref></note></quote>，<quote type="嚴謹引文">「不為專承一宗徒裔」</quote>，<quote type="嚴謹引文">「無求即時成佛之貪心」<note n="0311002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:16;page:p22">(ref taixu::vol:16;page:p22)</ref></note></quote>，<lb n="0311a03" ed="Y" type="old"/><quote type="嚴謹引文">「
-<lb n="0311a02" ed="Y"/>為學菩薩發心修行者」<note n="0311003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:16;page:p23">(ref taixu::vol:16;page:p23)</ref></note></quote>。前三從消極的反面說，後一從積極的正面說。大師堅<lb n="0311a04" ed="Y" type="old"/>定
+<lb n="0311a01" ed="Y"/><lb n="0311a02" ed="Y" type="old"/><quote type="嚴謹引文">「非研究佛書之學者」<note n="0311001" resp="謝淑歆" type="add"><ref target="#vol:16;page:p20" type="taixu">(ref taixu::vol:16;page:p20)</ref></note></quote>，<quote type="嚴謹引文">「不為專承一宗徒裔」</quote>，<quote type="嚴謹引文">「無求即時成佛之貪心」<note n="0311002" resp="謝淑歆" type="add"><ref target="#vol:16;page:p22" type="taixu">(ref taixu::vol:16;page:p22)</ref></note></quote>，<lb n="0311a03" ed="Y" type="old"/><quote type="嚴謹引文">「
+<lb n="0311a02" ed="Y"/>為學菩薩發心修行者」<note n="0311003" resp="謝淑歆" type="add"><ref target="#vol:16;page:p23" type="taixu">(ref taixu::vol:16;page:p23)</ref></note></quote>。前三從消極的反面說，後一從積極的正面說。大師堅<lb n="0311a04" ed="Y" type="old"/>定
 <lb n="0311a03" ed="Y"/>的說：<cit><quote type="嚴謹引文">「本人為一欲學菩薩發真正菩提心而學修六度行者。」</quote><bibl>（<title level="m">《優婆塞戒經講
 <lb n="0311a04" ed="Y"/>錄<lb n="0311a05" ed="Y" type="old"/>》</title>）</bibl></cit>修發菩提心而行六度行，便是行在瑜伽菩薩戒本。二十六年夏天，在武院
 <lb n="0311a05" ed="Y"/><lb n="0311a06" ed="Y" type="old"/>講<title level="a">〈新與融貫〉</title>，又提到這三項意趣。所以，唯有把握此一意趣，才能親切認識
 <lb n="0311a06" ed="Y"/><lb n="0311a07" ed="Y" type="old"/>到大師的真面目，才能理解大師對國家、對佛教的真意趣。否則，會容易錯會大
 <lb n="0311a07" ed="Y"/><lb n="0311a08" ed="Y" type="old"/>師：不是把大師看作離棄佛寺、毀亂佛法的革新者，就認為是維持古老佛教、古
 <lb n="0311a08" ed="Y"/><lb n="0311a09" ed="Y" type="old"/>舊叢林的人物。</p>
-<lb n="0311a09" ed="Y"/><lb n="0311a10" ed="Y" type="old"/><p style="text-indent:2em">時光如此迅速！大師的捨報，竟是十週年了！在這法界同聲追念的時節，對
+<lb n="0311a09" ed="Y"/><lb n="0311a10" ed="Y" type="old"/><p xml:id="pY23p0311a0901" style="text-indent:2em">時光如此迅速！大師的捨報，竟是十週年了！在這法界同聲追念的時節，對
 <lb n="0311a10" ed="Y"/><lb n="0311a11" ed="Y" type="old"/>於大師在佛法中之意趣，特引述大師的教說，拿來紀念學發菩提心、學修菩薩行
 <lb n="0311a11" ed="Y"/><lb n="0311a12" ed="Y" type="old"/>的大師，加深我們對於大師的正確認識。</p>
-<lb n="0311a12" ed="Y"/><lb n="0311a13" ed="Y" type="old"/><p style="text-indent:2em">大師在佛法中之意趣，看來非常明確，而實容易引起誤會。據大師說：他是<pb n="0312a" ed="Y" xml:id="Y23.0023.0312a.old" type="old"/>
+<lb n="0311a12" ed="Y"/><lb n="0311a13" ed="Y" type="old"/><p xml:id="pY23p0311a1201" style="text-indent:2em">大師在佛法中之意趣，看來非常明確，而實容易引起誤會。據大師說：他是<pb n="0312a" ed="Y" xml:id="Y23.0023.0312a.old" type="old"/>
 <lb n="0311a13" ed="Y"/><lb n="0312a01" ed="Y" type="old"/>學發菩提心的、學修菩薩行的；不是研究佛書的學者，不想作一宗的徒裔，沒有
 <pb n="0312a" ed="Y" xml:id="Y23.0023.0312a"/>
 <lb n="0312a01" ed="Y"/><lb n="0312a02" ed="Y" type="old"/>求即時成佛的貪心。那麼，如反過來說：研究佛書的學者，一宗一派的徒裔，求
@@ -97,7 +117,7 @@
 <lb n="0312a03" ed="Y"/><lb n="0312a04" ed="Y" type="old"/>究佛書的學者、各宗各派的宗師、求即時成佛的行人，包管會一致的起來反對大
 <lb n="0312a04" ed="Y"/><lb n="0312a05" ed="Y" type="old"/>師。其實，大師此番「本人意趣」的宣說，是不能依文作解的；如迷文執義，再
 <lb n="0312a05" ed="Y"/><lb n="0312a06" ed="Y" type="old"/>也不能體會大師的意趣了！</p>
-<lb n="0312a06" ed="Y"/><lb n="0312a07" ed="Y" type="old"/><p style="text-indent:2em">傳統的中國佛教，近千年來，一直在我祖我宗的宗派圈子裡作佛事。自宗是
+<lb n="0312a06" ed="Y"/><lb n="0312a07" ed="Y" type="old"/><p xml:id="pY23p0312a0601" style="text-indent:2em">傳統的中國佛教，近千年來，一直在我祖我宗的宗派圈子裡作佛事。自宗是
 <lb n="0312a07" ed="Y"/><lb n="0312a08" ed="Y" type="old"/>至圓至頓、至高至妙，只要說到我宗如此說、我祖如此說，就自覺為天經地義。
 <lb n="0312a08" ed="Y"/><lb n="0312a09" ed="Y" type="old"/>而即時成佛的禪宗，又幾乎代表了佛法的一切。到近代，研究佛書的學者，也漸
 <lb n="0312a09" ed="Y"/><lb n="0312a10" ed="Y" type="old"/>漸多起來。最極端的，甚至<quote>「非玄奘、羅什之譯不讀，非龍樹、無著之論不求」</quote>
@@ -110,8 +130,8 @@
 <lb n="0313a02" ed="Y"/>性<lb n="0313a03" ed="Y" type="old"/>。唯有從針對佛教偏弊中、適應現代機宜中，才能認識大師所說菩薩心行的真
 <lb n="0313a03" ed="Y"/>義<lb n="0313a04" ed="Y" type="old"/>。</p></cb:div>
 <lb n="0313a04" ed="Y"/><lb n="0313a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　為什麼「非研究佛書之學者」</cb:mulu><head>二　為什麼「非研究佛書之學者」</head>
-<lb n="0313a05" ed="Y"/><lb n="0313a06" ed="Y" type="old"/><p style="text-indent:2em">什麼是<quote type="寬鬆引文">「研究佛書的學者」</quote>？大師指說為：<quote type="嚴謹引文">「從事考稽佛學書籍而研究其義
-<lb n="0313a06" ed="Y"/><lb n="0313a07" ed="Y" type="old"/>理。……用字比句櫛、勾古證今之功夫，將佛書當學問來研究。」<note n="0313001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:16;page:p20">(ref taixu::vol:16;page:p20)</ref></note></quote>這樣的研究佛
+<lb n="0313a05" ed="Y"/><lb n="0313a06" ed="Y" type="old"/><p xml:id="pY23p0313a0501" style="text-indent:2em">什麼是<quote type="寬鬆引文">「研究佛書的學者」</quote>？大師指說為：<quote type="嚴謹引文">「從事考稽佛學書籍而研究其義
+<lb n="0313a06" ed="Y"/><lb n="0313a07" ed="Y" type="old"/>理。……用字比句櫛、勾古證今之功夫，將佛書當學問來研究。」<note n="0313001" resp="謝淑歆" type="add"><ref target="#vol:16;page:p20" type="taixu">(ref taixu::vol:16;page:p20)</ref></note></quote>這樣的研究佛
 <lb n="0313a07" ed="Y"/><lb n="0313a08" ed="Y" type="old"/>書的學者，是否一定與發菩提心、修菩薩行相違反？從修學佛法來說，十法行的
 <lb n="0313a08" ed="Y"/><lb n="0313a09" ed="Y" type="old"/>前八行，都是成就聞慧的方便；從古代的佛弟子來說，「經師」、「律師」、「
 <lb n="0313a09" ed="Y"/><lb n="0313a10" ed="Y" type="old"/>論師」的一分，都適合這一定義；我們不能說這些都是不能學發菩提心行的。<lb n="0313a11" ed="Y" type="old"/>就
@@ -121,13 +141,13 @@
 <pb n="0314a" ed="Y" xml:id="Y23.0023.0314a"/>
 <lb n="0314a01" ed="Y"/><lb n="0314a02" ed="Y" type="old"/>文佛學分科研究編輯」，主張<cit><quote type="寬鬆引文">「依大藏佛典為原料，從各種科學之立場，分門別
 <lb n="0314a02" ed="Y"/><lb n="0314a03" ed="Y" type="old"/>類以為採集之研究，更憑其研究之所得而組成各科科學。」</quote><bibl>（<title level="m">《年譜》</title><biblScope n="305" type="pp">三〇五頁</biblScope>
-<lb n="0314a03" ed="Y"/>）</bibl><note n="0314001" resp="謝淑歆" type="add"><ref type="yinshun" target="#vol:13;page:p305">(ref yinshun::vol:13;page:p305)</ref></note></cit>又<lb n="0314a04" ed="Y" type="old"/>曾以教理行果來統攝佛學，「教」中分：<cit><quote type="嚴謹引文">「佛教法物之蒐集，佛教史材之編
-<lb n="0314a04" ed="Y"/>考，<lb n="0314a05" ed="Y" type="old"/>佛教經典之校訂，佛教圖書之纂譯。」</quote><bibl>（<title level="a">〈甚麼是佛學〉</title>）</bibl><note n="0314002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p267">(ref taixu::vol:1;page:p267)</ref></note></cit>大師在武昌成立
+<lb n="0314a03" ed="Y"/>）</bibl><note n="0314001" resp="謝淑歆" type="add"><ref target="#vol:13;page:p305" type="yinshun">(ref yinshun::vol:13;page:p305)</ref></note></cit>又<lb n="0314a04" ed="Y" type="old"/>曾以教理行果來統攝佛學，「教」中分：<cit><quote type="嚴謹引文">「佛教法物之蒐集，佛教史材之編
+<lb n="0314a04" ed="Y"/>考，<lb n="0314a05" ed="Y" type="old"/>佛教經典之校訂，佛教圖書之纂譯。」</quote><bibl>（<title level="a">〈甚麼是佛學〉</title>）</bibl><note n="0314002" resp="謝淑歆" type="add"><ref target="#vol:1;page:p267" type="taixu">(ref taixu::vol:1;page:p267)</ref></note></cit>大師在武昌成立
 <lb n="0314a05" ed="Y"/>世苑<lb n="0314a06" ed="Y" type="old"/>佛教圖書館，成立「編輯」、「考訂」二室<bibl>（<title level="m">《年譜》</title><biblScope n="347" type="pp">三四七頁</biblScope>）</bibl>。如這些
 <lb n="0314a06" ed="Y"/>而決<lb n="0314a07" ed="Y" type="old"/>與菩薩心行不合，那麼大師為什麼又來提倡？難道己所不欲而施於人嗎？就
 <lb n="0314a07" ed="Y"/>是考<lb n="0314a08" ed="Y" type="old"/>證，大師也曾寫過<title level="a">〈佛教紀元論〉</title>。這樣，大師的菩薩心行而<quote type="嚴謹引文">「非研究佛書
 <lb n="0314a08" ed="Y"/>之學<lb n="0314a09" ed="Y" type="old"/>者」</quote>，到底意趣何在？</p>
-<lb n="0314a09" ed="Y"/><lb n="0314a10" ed="Y" type="old"/><p style="text-indent:2em">大師自己說：<quote type="嚴謹引文">「本人則讀書每觀大略，不事記誦，不求甚解。」<note n="0314003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:16;page:p20">(ref taixu::vol:16;page:p20)</ref></note></quote>這是大師的
+<lb n="0314a09" ed="Y"/><lb n="0314a10" ed="Y" type="old"/><p xml:id="pY23p0314a0901" style="text-indent:2em">大師自己說：<quote type="嚴謹引文">「本人則讀書每觀大略，不事記誦，不求甚解。」<note n="0314003" resp="謝淑歆" type="add"><ref target="#vol:16;page:p20" type="taixu">(ref taixu::vol:16;page:p20)</ref></note></quote>這是大師的
 <lb n="0314a10" ed="Y"/><lb n="0314a11" ed="Y" type="old"/>特性。<title level="m">《自傳》</title>（三）說到：十九歲時，讀<title level="m">《般若經》</title>有省，從此記憶力減弱，<lb n="0314a12" ed="Y" type="old"/>而
 <lb n="0314a11" ed="Y"/>悟力特強。大師對於佛法的分析、綜合、貫通，不盡是記誦的、辨析的，大抵<lb n="0314a13" ed="Y" type="old"/>得
 <lb n="0314a12" ed="Y"/>力於領悟。這一特性，決定了大師對佛學的態度與寫作方法。然而，如「佛學<pb n="0315a" ed="Y" xml:id="Y23.0023.0315a.old" type="old"/><lb n="0315a01" ed="Y" type="old"/>分
@@ -137,17 +157,17 @@
 <lb n="0315a02" ed="Y"/>一三三頁）</biblScope></bibl>，說到自利方面，有「教理研究」；利他方面，有「歷史研究」。<lb n="0315a04" ed="Y" type="old"/>所
 <lb n="0315a03" ed="Y"/>以大師所說的<quote type="寬鬆引文">「非研究佛書的學者」</quote>，是指那些離開自行化他佛教立場，而只<lb n="0315a05" ed="Y" type="old"/>是
 <lb n="0315a04" ed="Y"/>當作學問來研究。民國十年，朱謙之到西湖兜率寺，想從大師出家。他立意<cit><quote type="嚴謹引文">「<lb n="0315a06" ed="Y" type="old"/>將
-<lb n="0315a05" ed="Y"/>所有的佛書批評一過，從新整理建設起來」</quote><bibl>（<title level="m">《自傳》</title>一一）</bibl><note n="0315001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:29;page:p237">(ref taixu::vol:29;page:p237)</ref></note></cit>，這便是佛書研究
-<lb n="0315a06" ed="Y"/>者的<lb n="0315a07" ed="Y" type="old"/>榜樣。他並不以研究佛學為<quote type="寬鬆引文">「自行化他之具」<note n="0315002" resp="謝淑歆" type="add"><ref type="yinshun" target="#vol:13;page:p385">(ref yinshun::vol:13;page:p385)</ref></note></quote>；不是看作<quote type="嚴謹引文">「振興佛教、弘濟
+<lb n="0315a05" ed="Y"/>所有的佛書批評一過，從新整理建設起來」</quote><bibl>（<title level="m">《自傳》</title>一一）</bibl><note n="0315001" resp="謝淑歆" type="add"><ref target="#vol:29;page:p237" type="taixu">(ref taixu::vol:29;page:p237)</ref></note></cit>，這便是佛書研究
+<lb n="0315a06" ed="Y"/>者的<lb n="0315a07" ed="Y" type="old"/>榜樣。他並不以研究佛學為<quote type="寬鬆引文">「自行化他之具」<note n="0315002" resp="謝淑歆" type="add"><ref target="#vol:13;page:p385" type="yinshun">(ref yinshun::vol:13;page:p385)</ref></note></quote>；不是看作<quote type="嚴謹引文">「振興佛教、弘濟
 <lb n="0315a07" ed="Y"/>人群<lb n="0315a08" ed="Y" type="old"/>之方便」</quote>。所以大師說不必出家，介紹他到歐陽竟無居士那裡去。這樣的研
 <lb n="0315a08" ed="Y"/>究佛<lb n="0315a09" ed="Y" type="old"/>書，根本不是學佛，不是信解正法，還說得上發菩提心、修菩薩行嗎？還有
 <lb n="0315a09" ed="Y"/>，佛<lb n="0315a10" ed="Y" type="old"/>法在世間，不離世諦流布，無論重信、重解，只要有所偏重，就會落入窠臼
 <lb n="0315a10" ed="Y"/>，不<lb n="0315a11" ed="Y" type="old"/>能自拔。個人如此，團體也如此。在大師當時的心目中，偏重於佛書的研究
 <lb n="0315a11" ed="Y"/>者，<lb n="0315a12" ed="Y" type="old"/>動機不一定不好，而積習難返，每起不良的副作用。所以曾告景昌極說：<quote type="嚴謹引文">「
 <lb n="0315a12" ed="Y"/>君等<lb n="0315a13" ed="Y" type="old"/>乍遊佛法之門，能執利器（名相分別）以防禦邪外，固所樂聞。若將深入堂
-<lb n="0315a13" ed="Y"/>奧，則當捨干戈而<pb n="0316a" ed="Y" xml:id="Y23.0023.0316a.old" type="old"/><lb n="0316a01" ed="Y" type="old"/>從容趣入之，未應持械以衝牆倒壁為事也。」<note n="0315003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:9;page:p1285">(ref taixu::vol:9;page:p1285)</ref></note></quote></p>
+<lb n="0315a13" ed="Y"/>奧，則當捨干戈而<pb n="0316a" ed="Y" xml:id="Y23.0023.0316a.old" type="old"/><lb n="0316a01" ed="Y" type="old"/>從容趣入之，未應持械以衝牆倒壁為事也。」<note n="0315003" resp="謝淑歆" type="add"><ref target="#vol:9;page:p1285" type="taixu">(ref taixu::vol:9;page:p1285)</ref></note></quote></p>
 <pb n="0316a" ed="Y" xml:id="Y23.0023.0316a"/>
-<lb n="0316a01" ed="Y"/><lb n="0316a02" ed="Y" type="old"/><p style="text-indent:2em">一般以為大師是一佛書研究的學者；大師也確是深入地研究過，但大師的本
+<lb n="0316a01" ed="Y"/><lb n="0316a02" ed="Y" type="old"/><p xml:id="pY23p0316a0101" style="text-indent:2em">一般以為大師是一佛書研究的學者；大師也確是深入地研究過，但大師的本
 <lb n="0316a02" ed="Y"/><lb n="0316a03" ed="Y" type="old"/>意卻不如此。這並不因為佛書研究，就不能發菩提心、修菩薩行，而是說如離<lb n="0316a04" ed="Y" type="old"/>開
 <lb n="0316a03" ed="Y"/>自行化他的立場，便不成其為佛法。從如來大覺心中流出的法教，無非應時應<lb n="0316a05" ed="Y" type="old"/>機
 <lb n="0316a04" ed="Y"/>，使人獲得止惡行善或者淨心化欲的利益。雖然佛教在人間，不能沒有教典<lb n="0316a06" ed="Y" type="old"/>，不
@@ -155,7 +175,7 @@
 <lb n="0316a06" ed="Y"/>而研求。大師把握這一佛法的根本意趣，針對當時有人專究佛書的偏向，這<lb n="0316a08" ed="Y" type="old"/>才宣
 <lb n="0316a07" ed="Y"/>說他<quote type="嚴謹引文">「非研究佛書之學者」</quote>的意趣。</p></cb:div>
 <lb n="0316a08" ed="Y"/><lb n="0316a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　為什麼「不專承一宗」</cb:mulu><head>三　為什麼「不專承一宗」</head>
-<lb n="0316a09" ed="Y"/><lb n="0316a10" ed="Y" type="old"/><p style="text-indent:2em">大師又從根本的、全體的立場，宣示他是學發菩提心行，而<quote type="嚴謹引文">「不為專承一宗
+<lb n="0316a09" ed="Y"/><lb n="0316a10" ed="Y" type="old"/><p xml:id="pY23p0316a0901" style="text-indent:2em">大師又從根本的、全體的立場，宣示他是學發菩提心行，而<quote type="嚴謹引文">「不為專承一宗
 <lb n="0316a10" ed="Y"/><lb n="0316a11" ed="Y" type="old"/>之徒裔」</quote>。雖然，佛教二千多年來，儘多發菩提心、修菩薩行的祖師開宗立教<lb n="0316a12" ed="Y" type="old"/>，
 <lb n="0316a11" ed="Y"/>代代相承，但大師卻不願如此。因為照大師看來：<cit><quote type="嚴謹引文">「現今所流行的佛學，實源<pb n="0317a" ed="Y" xml:id="Y23.0023.0317a.old" type="old"/><lb n="0317a01" ed="Y" type="old"/>於
 <lb n="0316a12" ed="Y"/>二千數百年前印度的釋迦牟尼佛。……有了因時因地因人的許多變遷。然直溯釋
@@ -164,23 +184,23 @@
 <lb n="0317a02" ed="Y"/>宇宙萬有之實事真理——體現<lb n="0317a03" ed="Y" type="old"/>為以法界諸法為自身，以自身為法界諸法的法身。
 <lb n="0317a03" ed="Y"/>又完全的開顯表示出來，以之<lb n="0317a04" ed="Y" type="old"/>教導無數世界中有成佛可能性的種種眾生之類，使
 <lb n="0317a04" ed="Y"/>皆得成就無上大覺一樣的圓明<lb n="0317a05" ed="Y" type="old"/>法界諸法實相，且體現為無盡無礙的法身，而並非
-<lb n="0317a05" ed="Y"/>後來許多支流派別的傳說。」</quote><bibl>（<lb n="0317a06" ed="Y" type="old"/><title level="a">〈佛學源流及其新運動〉</title>）</bibl><note n="0317001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:2;page:p926-927">(ref taixu::vol:2;page:p926-927)</ref></note></cit>大師直探佛法的本源
+<lb n="0317a05" ed="Y"/>後來許多支流派別的傳說。」</quote><bibl>（<lb n="0317a06" ed="Y" type="old"/><title level="a">〈佛學源流及其新運動〉</title>）</bibl><note n="0317001" resp="謝淑歆" type="add"><ref target="#vol:2;page:p926-927" type="taixu">(ref taixu::vol:2;page:p926-927)</ref></note></cit>大師直探佛法的本源
 <lb n="0317a06" ed="Y"/>，也就是歸宗於釋迦牟尼佛的<lb n="0317a07" ed="Y" type="old"/>覺源。在這佛法所從來的釋尊覺海中，有什麼宗派
 <lb n="0317a07" ed="Y"/>可說？所以，大師的佛法觀，<lb n="0317a08" ed="Y" type="old"/>真是道地的佛教，而不是各宗各派的祖師教。當然
 <lb n="0317a08" ed="Y"/>，各宗各祖的教說，也還是推<lb n="0317a09" ed="Y" type="old"/>本於佛陀。</p>
-<lb n="0317a09" ed="Y"/><lb n="0317a10" ed="Y" type="old"/><p style="text-indent:2em">為什麼會有宗派？佛為了適應眾生的根性，施設教法，就有了諸乘的差別。
+<lb n="0317a09" ed="Y"/><lb n="0317a10" ed="Y" type="old"/><p xml:id="pY23p0317a0901" style="text-indent:2em">為什麼會有宗派？佛為了適應眾生的根性，施設教法，就有了諸乘的差別。
 <lb n="0317a10" ed="Y"/><lb n="0317a11" ed="Y" type="old"/>大師在<cit><bibl><title level="a">〈新與融貫〉</title>的開示中，說到印度、中國、日本的宗派，而後斷論為：</bibl><quote type="嚴謹引文">「
 <lb n="0317a11" ed="Y"/><lb n="0317a12" ed="Y" type="old"/>宗派之所以興起者，差不多都是以古德在佛法中參研之心得為根據，適應時機之
-<lb n="0317a12" ed="Y"/>教<lb n="0317a13" ed="Y" type="old"/>化上而建立的。」</quote><note n="0317002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p446">(ref taixu::vol:1;page:p446)</ref></note></cit>佛世的諸乘、後世的諸宗，無非為了化度眾生，應機說教。
+<lb n="0317a12" ed="Y"/>教<lb n="0317a13" ed="Y" type="old"/>化上而建立的。」</quote><note n="0317002" resp="謝淑歆" type="add"><ref target="#vol:1;page:p446" type="taixu">(ref taixu::vol:1;page:p446)</ref></note></cit>佛世的諸乘、後世的諸宗，無非為了化度眾生，應機說教。
 <lb n="0317a13" ed="Y"/>但是<pb n="0318a" ed="Y" xml:id="Y23.0023.0318a.old" type="old"/><lb n="0318a01" ed="Y" type="old"/><cit><quote type="嚴謹引文">「佛之現身人間，應機說法，而聽法承傳之人，當即不免各有偏勝。」</quote><bibl>（<title level="m">《
 <pb n="0318a" ed="Y" xml:id="Y23.0023.0318a"/>
-<lb n="0318a01" ed="Y"/>優婆塞<lb n="0318a02" ed="Y" type="old"/>戒經講錄》</title>）</bibl><note n="0318001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:16;page:p21">(ref taixu::vol:16;page:p21)</ref></note></cit>印度的三期佛教、中國的大乘八宗，各有它的特勝，也就各
+<lb n="0318a01" ed="Y"/>優婆塞<lb n="0318a02" ed="Y" type="old"/>戒經講錄》</title>）</bibl><note n="0318001" resp="謝淑歆" type="add"><ref target="#vol:16;page:p21" type="taixu">(ref taixu::vol:16;page:p21)</ref></note></cit>印度的三期佛教、中國的大乘八宗，各有它的特勝，也就各
 <lb n="0318a02" ed="Y"/>有它<lb n="0318a03" ed="Y" type="old"/>的偏頗。所以專承偏宗，會造成高推自宗、鄙棄他宗的風氣。鄙棄了一分，
 <lb n="0318a03" ed="Y"/>結果<lb n="0318a04" ed="Y" type="old"/>是削弱了佛教的全體。這點，大師曾明白說出：<quote type="嚴謹引文">「中國尚禪宗者，斥除一切
 <lb n="0318a04" ed="Y"/>經律<lb n="0318a05" ed="Y" type="old"/>論義；雖若《宗鏡錄》遍錄經論，亦但揚厥宗，鄙餘法為中下。尚淨土者，
 <lb n="0318a05" ed="Y"/>亦勸<lb n="0318a06" ed="Y" type="old"/>人不參禪學教，專守一句彌陀。賢、台雖可以小始終頓、藏通別圓位攝所餘
-<lb n="0318a06" ed="Y"/>佛言<lb n="0318a07" ed="Y" type="old"/>，然既為劣機而設，……學者又誰肯劣根自居，於是亦皆被棄。」<note n="0318002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:30;page:p777">(ref taixu::vol:30;page:p777)</ref></note></quote><quote type="嚴謹引文">「有各宗
-<lb n="0318a07" ed="Y"/>而無整<lb n="0318a08" ed="Y" type="old"/>全之佛教」<note n="0318003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:30;page:p778">(ref taixu::vol:30;page:p778)</ref></note></quote>，鄙棄餘法的結果，是：<cit><quote type="嚴謹引文">「中國至清季，除參話頭、念彌陀外
+<lb n="0318a06" ed="Y"/>佛言<lb n="0318a07" ed="Y" type="old"/>，然既為劣機而設，……學者又誰肯劣根自居，於是亦皆被棄。」<note n="0318002" resp="謝淑歆" type="add"><ref target="#vol:30;page:p777" type="taixu">(ref taixu::vol:30;page:p777)</ref></note></quote><quote type="嚴謹引文">「有各宗
+<lb n="0318a07" ed="Y"/>而無整<lb n="0318a08" ed="Y" type="old"/>全之佛教」<note n="0318003" resp="謝淑歆" type="add"><ref target="#vol:30;page:p778" type="taixu">(ref taixu::vol:30;page:p778)</ref></note></quote>，鄙棄餘法的結果，是：<cit><quote type="嚴謹引文">「中國至清季，除參話頭、念彌陀外
 <lb n="0318a08" ed="Y"/>，時一講<lb n="0318a09" ed="Y" type="old"/>習者，亦禪之《楞嚴》、淨之《彌陀疏鈔》，及天台《法華》與《四教
 <lb n="0318a09" ed="Y"/>儀》，或《賢首五教儀》，附《相<lb n="0318a10" ed="Y" type="old"/>宗八要》而已。……空疏媕陋之既極，唯仗沿
 <lb n="0318a10" ed="Y"/>習風俗以支持。學校興而一呼迷信，<lb n="0318a11" ed="Y" type="old"/>幾潰頹無以復存。」</quote><bibl>（<title level="a">〈菩提道次第廣論序
@@ -190,41 +210,41 @@
 <pb n="0319a" ed="Y" xml:id="Y23.0023.0319a"/>
 <lb n="0319a01" ed="Y"/>，對於大師<title level="m">《中國佛學》</title>的末後<lb n="0319a02" ed="Y" type="old"/>一章——<title level="a">〈奪禪超教之淨〉</title>，從蕅益學人以下到
 <lb n="0319a02" ed="Y"/>近代印光大師的專弘淨土，評<lb n="0319a03" ed="Y" type="old"/>為<quote type="嚴謹引文">「充其類而一轉，大可成為在家淨土行之日本真
-<lb n="0319a03" ed="Y"/>宗」<note n="0319001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:2;page:p752">(ref taixu::vol:2;page:p752)</ref></note></quote>；<quote type="嚴謹引文">「殊有進為純信彌陀他<lb n="0319a04" ed="Y" type="old"/>力之真宗可能，然尚期命終往生，而無真宗——信
-<lb n="0319a04" ed="Y"/>成已生、還化利他之行，則所<lb n="0319a05" ed="Y" type="old"/>短遠矣」<note n="0319002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:2;page:p753">(ref taixu::vol:2;page:p753)</ref></note></quote>，才不會感覺奇突。</p>
-<lb n="0319a05" ed="Y"/><lb n="0319a06" ed="Y" type="old"/><p style="text-indent:2em">大師不願為專承一宗一派的子孫，是從超越宗派的本源性、隨機應化的全體
+<lb n="0319a03" ed="Y"/>宗」<note n="0319001" resp="謝淑歆" type="add"><ref target="#vol:2;page:p752" type="taixu">(ref taixu::vol:2;page:p752)</ref></note></quote>；<quote type="嚴謹引文">「殊有進為純信彌陀他<lb n="0319a04" ed="Y" type="old"/>力之真宗可能，然尚期命終往生，而無真宗——信
+<lb n="0319a04" ed="Y"/>成已生、還化利他之行，則所<lb n="0319a05" ed="Y" type="old"/>短遠矣」<note n="0319002" resp="謝淑歆" type="add"><ref target="#vol:2;page:p753" type="taixu">(ref taixu::vol:2;page:p753)</ref></note></quote>，才不會感覺奇突。</p>
+<lb n="0319a05" ed="Y"/><lb n="0319a06" ed="Y" type="old"/><p xml:id="pY23p0319a0501" style="text-indent:2em">大師不願為專承一宗一派的子孫，是從超越宗派的本源性、隨機應化的全體
 <lb n="0319a06" ed="Y"/><lb n="0319a07" ed="Y" type="old"/>性立論。大師這種意見，有點近於宗喀巴大師的說法。<cit><quote type="嚴謹引文">「福德資糧則人天俱攝，
 <lb n="0319a07" ed="Y"/><lb n="0319a08" ed="Y" type="old"/>智慧資糧則聲緣相協，律及經論皆所依止，僅取一分，不成菩提。雖未嘗不別有
 <lb n="0319a08" ed="Y"/><lb n="0319a09" ed="Y" type="old"/>最勝之歸趣，而確定皆攝入次第之過程。於是不沒自宗、不離餘法，而巧能安<lb n="0319a10" ed="Y" type="old"/>立
 <lb n="0319a09" ed="Y"/>一切言教皆趣修證。……余昔於佛學概論，明因緣所生為五乘共法，三法印為<lb n="0319a11" ed="Y" type="old"/>三
 <lb n="0319a10" ed="Y"/>乘共法，一切法實相至無障礙法界為大乘不共法。後於《大乘本生心地觀經》，
 <lb n="0319a11" ed="Y"/>又<lb n="0319a12" ed="Y" type="old"/>增說共不共通法為總要。粗引端緒，語焉不彰。今雖未能獨崇密宗，欣睹三士
-<lb n="0319a12" ed="Y"/>道<lb n="0319a13" ed="Y" type="old"/>總建立之典要，乃特提出以申論之。」</quote><bibl>（<title level="a">〈菩提道次第廣論序〉</title>）</bibl><note n="0319003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:30;page:p779">(ref taixu::vol:30;page:p779)</ref></note></cit>大師的激賞
+<lb n="0319a12" ed="Y"/>道<lb n="0319a13" ed="Y" type="old"/>總建立之典要，乃特提出以申論之。」</quote><bibl>（<title level="a">〈菩提道次第廣論序〉</title>）</bibl><note n="0319003" resp="謝淑歆" type="add"><ref target="#vol:30;page:p779" type="taixu">(ref taixu::vol:30;page:p779)</ref></note></cit>大師的激賞
 <lb n="0319a13" ed="Y"/>宗<pb n="0320a" ed="Y" xml:id="Y23.0023.0320a.old" type="old"/><lb n="0320a01" ed="Y" type="old"/>喀巴的<title level="m">《菩提道次第廣論》</title>，因為他的三士道說，與大師一貫主張的五乘共法
 <pb n="0320a" ed="Y" xml:id="Y23.0023.0320a"/>
 <lb n="0320a01" ed="Y"/>（下<lb n="0320a02" ed="Y" type="old"/>士人天乘）、三乘共法（中士聲緣乘）、大乘不共法（上士菩薩乘），有著
 <lb n="0320a02" ed="Y"/>同樣的<lb n="0320a03" ed="Y" type="old"/>意趣。所以在應機設化的方面，隨機應化而不限一宗，如說：<cit><quote type="嚴謹引文">「各宗派法
 <lb n="0320a03" ed="Y"/>門，皆<lb n="0320a04" ed="Y" type="old"/>可隨人根機所宜而修學，藉以通達究竟覺海。所以本人觀察佛法之五乘共
 <lb n="0320a04" ed="Y"/>法、三<lb n="0320a05" ed="Y" type="old"/>乘共法及大乘不共法，原為一貫。在教理解釋上、教法弘揚上，隨機施設
-<lb n="0320a05" ed="Y"/>，而<lb n="0320a06" ed="Y" type="old"/>不專承一宗或一派以自礙。」</quote><bibl>（<title level="a">〈新與融貫〉</title>）</bibl><note n="0320001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p447">(ref taixu::vol:1;page:p447)</ref></note></cit>在貫攝佛法、起解成行的修
-<lb n="0320a06" ed="Y"/>學次<lb n="0320a07" ed="Y" type="old"/>第方面，則能攝一切佛法，條貫為「教之佛本及三期三系」<note n="0320002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p514">(ref taixu::vol:1;page:p514)</ref></note>、「理之實際及
-<lb n="0320a07" ed="Y"/>三<lb n="0320a08" ed="Y" type="old"/>級三宗」<note n="0320003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p519">(ref taixu::vol:1;page:p519)</ref></note>、「行之當機及三依三趣」<note n="0320004" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p525">(ref taixu::vol:1;page:p525)</ref></note>，不捨一法而同趣大覺。大師的意趣如此
+<lb n="0320a05" ed="Y"/>，而<lb n="0320a06" ed="Y" type="old"/>不專承一宗或一派以自礙。」</quote><bibl>（<title level="a">〈新與融貫〉</title>）</bibl><note n="0320001" resp="謝淑歆" type="add"><ref target="#vol:1;page:p447" type="taixu">(ref taixu::vol:1;page:p447)</ref></note></cit>在貫攝佛法、起解成行的修
+<lb n="0320a06" ed="Y"/>學次<lb n="0320a07" ed="Y" type="old"/>第方面，則能攝一切佛法，條貫為「教之佛本及三期三系」<note n="0320002" resp="謝淑歆" type="add"><ref target="#vol:1;page:p514" type="taixu">(ref taixu::vol:1;page:p514)</ref></note>、「理之實際及
+<lb n="0320a07" ed="Y"/>三<lb n="0320a08" ed="Y" type="old"/>級三宗」<note n="0320003" resp="謝淑歆" type="add"><ref target="#vol:1;page:p519" type="taixu">(ref taixu::vol:1;page:p519)</ref></note>、「行之當機及三依三趣」<note n="0320004" resp="謝淑歆" type="add"><ref target="#vol:1;page:p525" type="taixu">(ref taixu::vol:1;page:p525)</ref></note>，不捨一法而同趣大覺。大師的意趣如此
 <lb n="0320a08" ed="Y"/>，<lb n="0320a09" ed="Y" type="old"/>所以與局狹的宗派門徒不同。</p>
-<lb n="0320a09" ed="Y"/><lb n="0320a10" ed="Y" type="old"/><p style="text-indent:2em">大師對於佛法的看法，自己說有三期。第二期，就是<cit><quote type="嚴謹引文">「上不徵五天，下不徵
-<lb n="0320a10" ed="Y"/><lb n="0320a11" ed="Y" type="old"/>各地」</quote><bibl>（<title level="a">〈整理僧伽制度論〉</title>）</bibl><note n="0320005" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:17;page:p26">(ref taixu::vol:17;page:p26)</ref></note></cit>的中國大乘八宗平等說。認為八宗的境與果，都
+<lb n="0320a09" ed="Y"/><lb n="0320a10" ed="Y" type="old"/><p xml:id="pY23p0320a0901" style="text-indent:2em">大師對於佛法的看法，自己說有三期。第二期，就是<cit><quote type="嚴謹引文">「上不徵五天，下不徵
+<lb n="0320a10" ed="Y"/><lb n="0320a11" ed="Y" type="old"/>各地」</quote><bibl>（<title level="a">〈整理僧伽制度論〉</title>）</bibl><note n="0320005" resp="謝淑歆" type="add"><ref target="#vol:17;page:p26" type="taixu">(ref taixu::vol:17;page:p26)</ref></note></cit>的中國大乘八宗平等說。認為八宗的境與果，都
 <lb n="0320a11" ed="Y"/><lb n="0320a12" ed="Y" type="old"/>是平等的，只是修行方法有差別而已。所以說：<cit><quote type="嚴謹引文">「八宗既是平等，亦各有其殊勝
-<lb n="0320a12" ed="Y"/><lb n="0320a13" ed="Y" type="old"/>點，不可偏廢，更不能說此優彼劣、彼高此下。」</quote><bibl>（<title level="a">〈我怎樣判攝一切佛法〉</title>）</bibl><note n="0320006" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p512">(ref taixu::vol:1;page:p512)</ref></note></cit>
+<lb n="0320a12" ed="Y"/><lb n="0320a13" ed="Y" type="old"/>點，不可偏廢，更不能說此優彼劣、彼高此下。」</quote><bibl>（<title level="a">〈我怎樣判攝一切佛法〉</title>）</bibl><note n="0320006" resp="謝淑歆" type="add"><ref target="#vol:1;page:p512" type="taixu">(ref taixu::vol:1;page:p512)</ref></note></cit>
 <lb n="0320a13" ed="Y"/><pb n="0321a" ed="Y" xml:id="Y23.0023.0321a.old" type="old"/><lb n="0321a01" ed="Y" type="old"/>大師當時，確有促成八宗一致復興的意圖。所以對中國久絕的密宗，特別提倡得
 <pb n="0321a" ed="Y" xml:id="Y23.0023.0321a"/>
 <lb n="0321a01" ed="Y"/><lb n="0321a02" ed="Y" type="old"/>熱心。不過，雖不能說八宗有勝有劣，然對各宗徒裔的固蔽、高推自己，大師也
-<lb n="0321a02" ed="Y"/><lb n="0321a03" ed="Y" type="old"/>是從來不客氣的。特別對那「男女混雜」<note n="0321001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:17;page:p608">(ref taixu::vol:17;page:p608)</ref></note>、「僧俗顛倒」的密宗，更不惜引起長
+<lb n="0321a02" ed="Y"/><lb n="0321a03" ed="Y" type="old"/>是從來不客氣的。特別對那「男女混雜」<note n="0321001" resp="謝淑歆" type="add"><ref target="#vol:17;page:p608" type="taixu">(ref taixu::vol:17;page:p608)</ref></note>、「僧俗顛倒」的密宗，更不惜引起長
 <lb n="0321a03" ed="Y"/><lb n="0321a04" ed="Y" type="old"/>期的論諍。關於八宗平等，想提到兩點：一、大師去世了，由於大師的偉大，八
 <lb n="0321a04" ed="Y"/><lb n="0321a05" ed="Y" type="old"/>宗平等也時常被人應用起來。例如：如有人對宗派略有評論，就高舉「八宗平等
 <lb n="0321a05" ed="Y"/><lb n="0321a06" ed="Y" type="old"/>」，認為不應該批評。等到轉過身來，還是高推自宗、鄙棄餘法的老調。這種辦
 <lb n="0321a06" ed="Y"/><lb n="0321a07" ed="Y" type="old"/>法，根本違反八宗平等的精神。二、八宗平等，還不是大師的晚年定論。</p>
-<lb n="0321a07" ed="Y"/><lb n="0321a08" ed="Y" type="old"/><p style="text-indent:2em">大師第三期的思想系，從歐美遊化歸來，才更明確的吐露出來。民國二十年
+<lb n="0321a07" ed="Y"/><lb n="0321a08" ed="Y" type="old"/><p xml:id="pY23p0321a0701" style="text-indent:2em">大師第三期的思想系，從歐美遊化歸來，才更明確的吐露出來。民國二十年
 <lb n="0321a08" ed="Y"/><lb n="0321a09" ed="Y" type="old"/>八月，在北平講<cit><bibl><title level="m">《大乘宗地圖釋》</title>，就講到：</bibl><quote type="嚴謹引文">「最近所創世界佛學苑，其研究<lb n="0321a10" ed="Y" type="old"/>佛
-<lb n="0321a09" ed="Y"/>法之根據，又較吾昔根據華文者大有擴充。」</quote><note n="0321002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:5;page:p881">(ref taixu::vol:5;page:p881)</ref></note></cit>大師的晚期定論，不是八宗平等<lb n="0321a11" ed="Y" type="old"/>，
+<lb n="0321a09" ed="Y"/>法之根據，又較吾昔根據華文者大有擴充。」</quote><note n="0321002" resp="謝淑歆" type="add"><ref target="#vol:5;page:p881" type="taixu">(ref taixu::vol:5;page:p881)</ref></note></cit>大師的晚期定論，不是八宗平等<lb n="0321a11" ed="Y" type="old"/>，
 <lb n="0321a10" ed="Y"/>而是「教之佛本及三期三系」、「理之實際及三級三宗」、「行之當機及三依<lb n="0321a12" ed="Y" type="old"/>三
 <lb n="0321a11" ed="Y"/>趣」（<title level="a">〈我怎樣判攝一切佛法〉</title>）。這一晚年定論，約教法來說：歸宗於佛本<lb n="0321a13" ed="Y" type="old"/>，
 <lb n="0321a12" ed="Y"/>雖同於前期；而三期三系，不再只是華文佛教，更擴充為以華文佛教為本，貫<pb n="0322a" ed="Y" xml:id="Y23.0023.0322a.old" type="old"/><lb n="0322a01" ed="Y" type="old"/>通
@@ -238,62 +258,62 @@
 <lb n="0322a06" ed="Y"/>師的八宗平等。要知大師從歐美回來，對研究法就有重大的修正。大師已綜合<lb n="0322a08" ed="Y" type="old"/>為
 <lb n="0322a07" ed="Y"/>「中國臺賢禪淨密系」或「法界顯密系」，綜合為法界圓覺宗。而說：<cit><quote type="嚴謹引文">「今後<lb n="0322a09" ed="Y" type="old"/>研
 <lb n="0322a08" ed="Y"/>究佛學，非復一宗一派之研究，當於經律論中，選取若干要中之要，作深切之<lb n="0322a10" ed="Y" type="old"/>研
-<lb n="0322a09" ed="Y"/>究，而後博通且融會一切經律論，成圓滿精密之勝解。」</quote><bibl>（<title level="m">《大乘宗地圖釋》</title>）</bibl><note n="0322001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:5;page:p1010">(ref taixu::vol:5;page:p1010)</ref></note></cit>
+<lb n="0322a09" ed="Y"/>究，而後博通且融會一切經律論，成圓滿精密之勝解。」</quote><bibl>（<title level="m">《大乘宗地圖釋》</title>）</bibl><note n="0322001" resp="謝淑歆" type="add"><ref target="#vol:5;page:p1010" type="taixu">(ref taixu::vol:5;page:p1010)</ref></note></cit>
 <lb n="0322a10" ed="Y"/><lb n="0322a11" ed="Y" type="old"/><cit><quote type="嚴謹引文">「作一系一系的專門研究，才能精深專一，才能做到登峰造極，升堂入室。」</quote><bibl>（
-<lb n="0322a11" ed="Y"/><lb n="0322a12" ed="Y" type="old"/><title level="a">〈世苑圖書館館員之修學方針〉</title>）</bibl><note n="0322002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p504">(ref taixu::vol:1;page:p504)</ref></note></cit>從此可見，大師的晚期定論，不專是中國文系
+<lb n="0322a11" ed="Y"/><lb n="0322a12" ed="Y" type="old"/><title level="a">〈世苑圖書館館員之修學方針〉</title>）</bibl><note n="0322002" resp="謝淑歆" type="add"><ref target="#vol:1;page:p504" type="taixu">(ref taixu::vol:1;page:p504)</ref></note></cit>從此可見，大師的晚期定論，不專是中國文系
 <lb n="0322a12" ed="Y"/><lb n="0322a13" ed="Y" type="old"/>的大乘八宗平等，不再是分宗研究、普遍發揚，而是會三大文系的佛教，統貫在<pb n="0323a" ed="Y" xml:id="Y23.0023.0323a.old" type="old"/>
 <lb n="0322a13" ed="Y"/><lb n="0323a01" ed="Y" type="old"/>五乘共法、三乘共法、大乘不共法，法相唯識學、法性空慧學、法界圓覺學的<lb n="0323a02" ed="Y" type="old"/>三
 <pb n="0323a" ed="Y" xml:id="Y23.0023.0323a"/>
 <lb n="0323a01" ed="Y"/>大系，超出宗派而歸於佛法一本，那裡是宗派徒裔所能想像的！</p></cb:div>
 <lb n="0323a02" ed="Y"/><lb n="0323a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　為什麼不想「即時成佛」</cb:mulu><head>四　為什麼不想「即時成佛」</head>
-<lb n="0323a03" ed="Y"/><lb n="0323a04" ed="Y" type="old"/><p style="text-indent:2em"><quote type="嚴謹引文">「無求即時成佛之貪心」</quote>，在大師宣示的意趣中，這是最為難解、最易引起
+<lb n="0323a03" ed="Y"/><lb n="0323a04" ed="Y" type="old"/><p xml:id="pY23p0323a0301" style="text-indent:2em"><quote type="嚴謹引文">「無求即時成佛之貪心」</quote>，在大師宣示的意趣中，這是最為難解、最易引起
 <lb n="0323a04" ed="Y"/><lb n="0323a05" ed="Y" type="old"/>常人疑毀的一項。因為發菩提心、修菩薩行，目的是為了成佛；那為什麼不想快
 <lb n="0323a05" ed="Y"/><lb n="0323a06" ed="Y" type="old"/>速成佛，而稱急求成佛的為貪心呢？</p>
-<lb n="0323a06" ed="Y"/><lb n="0323a07" ed="Y" type="old"/><p style="text-indent:2em">這一意趣，還得從<quote type="嚴謹引文">「不為專承一宗之徒裔」</quote>說起。大師說：<cit><quote type="嚴謹引文">「直溯釋迦牟尼
+<lb n="0323a06" ed="Y"/><lb n="0323a07" ed="Y" type="old"/><p xml:id="pY23p0323a0601" style="text-indent:2em">這一意趣，還得從<quote type="嚴謹引文">「不為專承一宗之徒裔」</quote>說起。大師說：<cit><quote type="嚴謹引文">「直溯釋迦牟尼
 <lb n="0323a07" ed="Y"/><lb n="0323a08" ed="Y" type="old"/>大覺心海的源頭，……並非後來許多支流派別的傳說。」</quote><bibl>（<title level="a">〈佛學源流及其新運
-<lb n="0323a08" ed="Y"/>動<lb n="0323a09" ed="Y" type="old"/>〉</title>）</bibl><note n="0323001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:2;page:p927">(ref taixu::vol:2;page:p927)</ref></note></cit>印度傳來的一切教法，大師是有深刻獨到見地的。如說：<cit><quote type="嚴謹引文">「無上大覺海中
+<lb n="0323a08" ed="Y"/>動<lb n="0323a09" ed="Y" type="old"/>〉</title>）</bibl><note n="0323001" resp="謝淑歆" type="add"><ref target="#vol:2;page:p927" type="taixu">(ref taixu::vol:2;page:p927)</ref></note></cit>印度傳來的一切教法，大師是有深刻獨到見地的。如說：<cit><quote type="嚴謹引文">「無上大覺海中
 <lb n="0323a09" ed="Y"/><lb n="0323a10" ed="Y" type="old"/>流出來的教法，為了傳持者及入世應機的各有偏勝，由迦葉、阿難等承持，則成
 <lb n="0323a10" ed="Y"/><lb n="0323a11" ed="Y" type="old"/>初期小乘。由龍樹、無著、世親等弘傳，則成中期大乘。由龍智、善無畏、蓮花
-<lb n="0323a11" ed="Y"/>生等傳<lb n="0323a12" ed="Y" type="old"/>承，則成後期密法。」</quote><bibl>（<title level="a">〈新與融貫〉</title>）</bibl><note n="0323002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p446">(ref taixu::vol:1;page:p446)</ref></note></cit>現今所流行的佛法，經典的傳出
+<lb n="0323a11" ed="Y"/>生等傳<lb n="0323a12" ed="Y" type="old"/>承，則成後期密法。」</quote><bibl>（<title level="a">〈新與融貫〉</title>）</bibl><note n="0323002" resp="謝淑歆" type="add"><ref target="#vol:1;page:p446" type="taixu">(ref taixu::vol:1;page:p446)</ref></note></cit>現今所流行的佛法，經典的傳出
 <lb n="0323a12" ed="Y"/>，有著<pb n="0324a" ed="Y" xml:id="Y23.0023.0324a.old" type="old"/><lb n="0324a01" ed="Y" type="old"/>傳承者根機的差別性、時間的先後性。初期小乘與中期大乘，大師以為：
 <pb n="0324a" ed="Y" xml:id="Y23.0023.0324a"/>
 <lb n="0324a01" ed="Y"/><cit><quote type="嚴謹引文">「一切<lb n="0324a02" ed="Y" type="old"/>經律，皆源本佛所宣說之聲教，由佛徒歷次結集而成。」</quote><bibl>（<title level="a">〈佛法僧義廣
-<lb n="0324a02" ed="Y"/>論〉</title>）</bibl><note n="0324001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p298">(ref taixu::vol:1;page:p298)</ref></note></cit>有時<lb n="0324a03" ed="Y" type="old"/>說：<cit><quote type="嚴謹引文">「釋迦佛陀時，……方便為說人無我的小乘法，適應當時印度思
+<lb n="0324a02" ed="Y"/>論〉</title>）</bibl><note n="0324001" resp="謝淑歆" type="add"><ref target="#vol:1;page:p298" type="taixu">(ref taixu::vol:1;page:p298)</ref></note></cit>有時<lb n="0324a03" ed="Y" type="old"/>說：<cit><quote type="嚴謹引文">「釋迦佛陀時，……方便為說人無我的小乘法，適應當時印度思
 <lb n="0324a03" ed="Y"/>想的機宜……。然佛<lb n="0324a04" ed="Y" type="old"/>陀同時與曼殊師利及彌勒等一、二大心深智者，則直說其自
 <lb n="0324a04" ed="Y"/>證的法界……。五百年<lb n="0324a05" ed="Y" type="old"/>後，雖由龍樹、無著等，發見了曼殊師利與彌勒等所傳的
-<lb n="0324a05" ed="Y"/>佛說，成了印度大乘思想<lb n="0324a06" ed="Y" type="old"/>的發展時代。」</quote><bibl>（<title level="a">〈佛學源流及其新運動〉</title>）</bibl><note n="0324002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:2;page:p927-928">(ref taixu::vol:2;page:p927-928)</ref></note></cit><cit><bibl><title level="a">〈人生觀
+<lb n="0324a05" ed="Y"/>佛說，成了印度大乘思想<lb n="0324a06" ed="Y" type="old"/>的發展時代。」</quote><bibl>（<title level="a">〈佛學源流及其新運動〉</title>）</bibl><note n="0324002" resp="謝淑歆" type="add"><ref target="#vol:2;page:p927-928" type="taixu">(ref taixu::vol:2;page:p927-928)</ref></note></cit><cit><bibl><title level="a">〈人生觀
 <lb n="0324a06" ed="Y"/>的科學〉</title>也說：</bibl><quote type="嚴謹引文">「釋迦出<lb n="0324a07" ed="Y" type="old"/>世的本懷，見於《華嚴》、《法華》。其始原欲為世人
 <lb n="0324a07" ed="Y"/>（凡夫）顯示一一人生等事實三真相……俾由修行信心……進<lb n="0324a08" ed="Y" type="old"/>趨人生究竟之
 <lb n="0324a08" ed="Y"/>佛乘。……無如僅有少數大心凡夫若善財童子等……及積行大士<lb n="0324a09" ed="Y" type="old"/>若文殊、普賢
-<lb n="0324a09" ed="Y"/>等，能領受其意。」</quote><note n="0324003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:23;page:p39-40">(ref taixu::vol:23;page:p39-40)</ref></note></cit>這可見，顯教大乘，雖遍通十方他界，有無<lb n="0324a10" ed="Y" type="old"/>數菩薩聽受，而
+<lb n="0324a09" ed="Y"/>等，能領受其意。」</quote><note n="0324003" resp="謝淑歆" type="add"><ref target="#vol:23;page:p39-40" type="taixu">(ref taixu::vol:23;page:p39-40)</ref></note></cit>這可見，顯教大乘，雖遍通十方他界，有無<lb n="0324a10" ed="Y" type="old"/>數菩薩聽受，而
 <lb n="0324a10" ed="Y"/>此土卻僅是少數大心凡夫、深智菩薩所承受的。怪不得初期佛教<lb n="0324a11" ed="Y" type="old"/>，成為「小行大
 <lb n="0324a11" ed="Y"/>隱」的局面。如來不得已而說聲聞乘，末後又引令回心向大，實<lb n="0324a12" ed="Y" type="old"/>為迂回進入大乘
 <lb n="0324a12" ed="Y"/>的方便。第三期佛教的密宗盛行，大師的看法，與前期多少不同<lb n="0324a13" ed="Y" type="old"/>。如說：<cit><quote type="嚴謹引文">「龍智
 <lb n="0324a13" ed="Y"/>菩薩等出來弘揚密咒，把通俗的印度風習都融攝進來」</quote><bibl>（<title level="a">〈我怎<pb n="0325a" ed="Y" xml:id="Y23.0023.0325a.old" type="old"/><lb n="0325a01" ed="Y" type="old"/>樣判攝一切佛法
 <pb n="0325a" ed="Y" xml:id="Y23.0023.0325a"/>
-<lb n="0325a01" ed="Y"/>〉</title>）</bibl><note n="0325001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p517">(ref taixu::vol:1;page:p517)</ref></note></cit>；<cit><quote type="嚴謹引文">「雖謂因龍猛大士依法身塔之象徵悟證法身，遂為創真言<lb n="0325a02" ed="Y" type="old"/>祕密金剛法之開
+<lb n="0325a01" ed="Y"/>〉</title>）</bibl><note n="0325001" resp="謝淑歆" type="add"><ref target="#vol:1;page:p517" type="taixu">(ref taixu::vol:1;page:p517)</ref></note></cit>；<cit><quote type="嚴謹引文">「雖謂因龍猛大士依法身塔之象徵悟證法身，遂為創真言<lb n="0325a02" ed="Y" type="old"/>祕密金剛法之開
 <lb n="0325a02" ed="Y"/>祖，亦無不可。……諸咒印形儀，則固多隨時隨處收編世間所流行<lb n="0325a03" ed="Y" type="old"/>者，而不足深
-<lb n="0325a03" ed="Y"/>究也」</quote><bibl>（<title level="a">〈龍猛受南天鐵塔金剛薩埵灌頂為密宗開祖之推論〉</title>）</bibl><note n="0325002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:15;page:p2920">(ref taixu::vol:15;page:p2920)</ref></note></cit>。<lb n="0325a04" ed="Y" type="old"/>這似乎確認密
+<lb n="0325a03" ed="Y"/>究也」</quote><bibl>（<title level="a">〈龍猛受南天鐵塔金剛薩埵灌頂為密宗開祖之推論〉</title>）</bibl><note n="0325002" resp="謝淑歆" type="add"><ref target="#vol:15;page:p2920" type="taixu">(ref taixu::vol:15;page:p2920)</ref></note></cit>。<lb n="0325a04" ed="Y" type="old"/>這似乎確認密
 <lb n="0325a04" ed="Y"/>宗為後起的，多雜有婆羅門等神（天）教內容。</p>
-<lb n="0325a05" ed="Y"/><lb n="0325a05" ed="Y" type="old"/><p style="text-indent:2em">從教典說，有著傳承者的偏勝與因時因地的適應性，如上所述。如從教法<lb n="0325a06" ed="Y" type="old"/>說
+<lb n="0325a05" ed="Y"/><lb n="0325a05" ed="Y" type="old"/><p xml:id="pY23p0325a0501" style="text-indent:2em">從教典說，有著傳承者的偏勝與因時因地的適應性，如上所述。如從教法<lb n="0325a06" ed="Y" type="old"/>說
 <lb n="0325a06" ed="Y"/>，釋迦佛的本懷，原意在由人而直向佛道。<cit><quote type="嚴謹引文">「天與聲聞、緣覺之三階段，……乃
-<lb n="0325a07" ed="Y"/>由人<lb n="0325a07" ed="Y" type="old"/>不走遍覺的路所歧出之三種結果。」</quote><bibl>（<title level="a">〈人生觀的科學〉</title>）</bibl><note n="0325003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:23;page:p40">(ref taixu::vol:23;page:p40)</ref></note></cit>其實，天與聲聞
+<lb n="0325a07" ed="Y"/>由人<lb n="0325a07" ed="Y" type="old"/>不走遍覺的路所歧出之三種結果。」</quote><bibl>（<title level="a">〈人生觀的科學〉</title>）</bibl><note n="0325003" resp="謝淑歆" type="add"><ref target="#vol:23;page:p40" type="taixu">(ref taixu::vol:23;page:p40)</ref></note></cit>其實，天與聲聞
 <lb n="0325a08" ed="Y"/>，還<lb n="0325a08" ed="Y" type="old"/>是要引向佛道。如依聲聞（緣覺）行果及天乘行果而入佛道，就是大師所判
-<lb n="0325a09" ed="Y"/>的：<lb n="0325a09" ed="Y" type="old"/>第一千年，「依聲聞行果趣發起大乘心」<note n="0325004" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p526">(ref taixu::vol:1;page:p526)</ref></note>；第二千年，「依天乘行果趣獲得
-<lb n="0325a10" ed="Y"/>大乘<lb n="0325a10" ed="Y" type="old"/>果」<note n="0325005" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p527">(ref taixu::vol:1;page:p527)</ref></note>。聲聞行果的急求解脫，為第一千年的風尚。大師說：<quote type="嚴謹引文">「禪宗出於第一
+<lb n="0325a09" ed="Y"/>的：<lb n="0325a09" ed="Y" type="old"/>第一千年，「依聲聞行果趣發起大乘心」<note n="0325004" resp="謝淑歆" type="add"><ref target="#vol:1;page:p526" type="taixu">(ref taixu::vol:1;page:p526)</ref></note>；第二千年，「依天乘行果趣獲得
+<lb n="0325a10" ed="Y"/>大乘<lb n="0325a10" ed="Y" type="old"/>果」<note n="0325005" resp="謝淑歆" type="add"><ref target="#vol:1;page:p527" type="taixu">(ref taixu::vol:1;page:p527)</ref></note>。聲聞行果的急求解脫，為第一千年的風尚。大師說：<quote type="嚴謹引文">「禪宗出於第一
 <lb n="0325a11" ed="Y"/>期的<lb n="0325a11" ed="Y" type="old"/>末葉，附屬於第一期。」</quote>第二千年的代表者，<cit><quote type="嚴謹引文">「是密宗、淨土宗，是依天乘
 <lb n="0325a12" ed="Y"/>行果<lb n="0325a12" ed="Y" type="old"/>的道理。如密宗在先修成天色身的幻身成化身佛。淨土宗如兜率淨土，即天
 <lb n="0325a13" ed="Y"/>國之<lb n="0325a13" ed="Y" type="old"/>一。西方等攝受凡夫淨土，亦等於天國」</quote><bibl>（<title level="a">〈我怎樣判攝一切佛法〉</title>）</bibl></cit>。聲
 <pb n="0326a" ed="Y" xml:id="Y23.0023.0326a"/>
 <lb n="0326a01" ed="Y"/>聞行<pb n="0326a" ed="Y" xml:id="Y23.0023.0326a.old" type="old"/><lb n="0326a01" ed="Y" type="old"/>果與禪宗，密宗與淨土宗，都是急求趣證的，都屬於不能由人而直向佛道的
 <lb n="0326a02" ed="Y"/>勝方<lb n="0326a02" ed="Y" type="old"/>便。不知道由人道而修信心、直向佛道，<cit><quote type="嚴謹引文">「正是佛教的真面目」</quote><bibl>（<title level="a">〈人生觀
-<lb n="0326a03" ed="Y"/>的科<lb n="0326a03" ed="Y" type="old"/>學〉</title>）</bibl><note n="0326001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:23;page:p39">(ref taixu::vol:23;page:p39)</ref></note></cit>。大師條析教史的發展、根性的特點，直探佛陀本懷，揭示出大乘佛
+<lb n="0326a03" ed="Y"/>的科<lb n="0326a03" ed="Y" type="old"/>學〉</title>）</bibl><note n="0326001" resp="謝淑歆" type="add"><ref target="#vol:23;page:p39" type="taixu">(ref taixu::vol:23;page:p39)</ref></note></cit>。大師條析教史的發展、根性的特點，直探佛陀本懷，揭示出大乘佛
 <lb n="0326a04" ed="Y"/>法進<lb n="0326a04" ed="Y" type="old"/>修的直道、坦道。</p>
-<lb n="0326a05" ed="Y"/><lb n="0326a05" ed="Y" type="old"/><p style="text-indent:2em">大師抉擇佛法的基本思想，經這樣的簡單敘述，才能明瞭大師「不求即時成
+<lb n="0326a05" ed="Y"/><lb n="0326a05" ed="Y" type="old"/><p xml:id="pY23p0326a0501" style="text-indent:2em">大師抉擇佛法的基本思想，經這樣的簡單敘述，才能明瞭大師「不求即時成
 <lb n="0326a06" ed="Y"/><lb n="0326a06" ed="Y" type="old"/>佛」的意趣。大師說：<cit><quote type="嚴謹引文">「佛法，原不拘限以現身此世為立足點，乃普為法界一切
 <lb n="0326a07" ed="Y"/>眾<lb n="0326a07" ed="Y" type="old"/>生而發心。蓋以佛法觀察，一人與一切眾生互相關涉；而一世界與無量世界，
 <lb n="0326a08" ed="Y"/>亦<lb n="0326a08" ed="Y" type="old"/>相攝相入，如帝網之重重無盡。因此佛法不是為此一人生與此一世界而起。」</quote>
-<lb n="0326a09" ed="Y"/><bibl>（<title level="m">《優<lb n="0326a09" ed="Y" type="old"/>婆塞戒經講錄》</title>）</bibl><note n="0326002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:16;page:p22">(ref taixu::vol:16;page:p22)</ref></note></cit>大師此一宣示，說明了大乘法的真諦：菩薩發心修行，
+<lb n="0326a09" ed="Y"/><bibl>（<title level="m">《優<lb n="0326a09" ed="Y" type="old"/>婆塞戒經講錄》</title>）</bibl><note n="0326002" resp="謝淑歆" type="add"><ref target="#vol:16;page:p22" type="taixu">(ref taixu::vol:16;page:p22)</ref></note></cit>大師此一宣示，說明了大乘法的真諦：菩薩發心修行，
 <lb n="0326a10" ed="Y"/>遍為<lb n="0326a10" ed="Y" type="old"/>一切眾生，遍淨一切國土，遍禮一切諸佛，遍學一切法門，遍斷一切煩惱，
 <lb n="0326a11" ed="Y"/>遍達<lb n="0326a11" ed="Y" type="old"/>一切事理。……一切功德，都是盡虛空、遍法界，到達究竟圓滿。如<title level="m">《華嚴
 <lb n="0326a12" ed="Y"/>經》</title><lb n="0326a12" ed="Y" type="old"/>說的佛果與菩薩行，是怎樣的高尚、圓滿！所以經說：<quote source="T19n0945_p0119b17" type="嚴謹引文">「如一眾生未成佛，
@@ -303,9 +323,9 @@
 <lb n="0327a02" ed="Y"/>的<lb n="0327a02" ed="Y" type="old"/>，但成佛豈能速成！據釋尊自白，是經三大阿僧祇劫行因而來。依龍樹說，佛
 <lb n="0327a03" ed="Y"/>道<lb n="0327a03" ed="Y" type="old"/>實是無量無數阿僧祇大劫行因而成就的。大果當然不是小因所成，但佛道長遠
 <lb n="0327a04" ed="Y"/>，<lb n="0327a04" ed="Y" type="old"/>菩薩道難行，非一般人所能承當。這樣，佛陀的方便教，就不能不施設起來。</p>
-<lb n="0327a05" ed="Y"/><lb n="0327a05" ed="Y" type="old"/><p style="text-indent:2em">大師說：<cit><quote type="嚴謹引文">「釋迦佛陀時，印度的思想，是以個人解脫而得到自我獨存為風氣
+<lb n="0327a05" ed="Y"/><lb n="0327a05" ed="Y" type="old"/><p xml:id="pY23p0327a0501" style="text-indent:2em">大師說：<cit><quote type="嚴謹引文">「釋迦佛陀時，印度的思想，是以個人解脫而得到自我獨存為風氣
 <lb n="0327a06" ed="Y"/>的。佛<lb n="0327a06" ed="Y" type="old"/>陀處此環境中，……幾乎無可宣說。然不說法，則覺世悟人之大願無由得
-<lb n="0327a07" ed="Y"/>達，乃<lb n="0327a07" ed="Y" type="old"/>方便為說人無我的小乘法。」</quote><bibl>（<title level="a">〈佛學源流及其新運動〉</title>）</bibl><note n="0327002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:2;page:p927">(ref taixu::vol:2;page:p927)</ref></note></cit>小乘是厭離心
+<lb n="0327a07" ed="Y"/>達，乃<lb n="0327a07" ed="Y" type="old"/>方便為說人無我的小乘法。」</quote><bibl>（<title level="a">〈佛學源流及其新運動〉</title>）</bibl><note n="0327002" resp="謝淑歆" type="add"><ref target="#vol:2;page:p927" type="taixu">(ref taixu::vol:2;page:p927)</ref></note></cit>小乘是厭離心
 <lb n="0327a08" ed="Y"/>切，急<lb n="0327a08" ed="Y" type="old"/>求自身解脫的。經佛方便教導，於是四果聖者紛紛出現。佛被稱為多陀阿
 <lb n="0327a09" ed="Y"/>伽陀<lb n="0327a09" ed="Y" type="old"/>（如來）、阿羅訶（即阿羅漢）、三藐三佛陀（正遍覺）。聲聞聖者也稱為
 <lb n="0327a10" ed="Y"/>阿羅<lb n="0327a10" ed="Y" type="old"/>漢，認為自己的究竟解脫與佛平等。這要到<title level="m">法華</title>會上，佛才使他們知道：<lb n="0327a11" ed="Y" type="old"/>過
@@ -316,7 +336,7 @@
 <lb n="0328a01" ed="Y"/>佛的別名，但在習用上，成為小乘偏證的果號）。然而，佛道長遠，菩薩道難<lb n="0328a02" ed="Y" type="old"/>行
 <lb n="0328a02" ed="Y"/>。結果，佛果是希求到達，菩薩大行卻不願承當；佛法中的方便教，又有施設<lb n="0328a03" ed="Y" type="old"/>的
 <lb n="0328a03" ed="Y"/>必要了。</p>
-<lb n="0328a04" ed="Y"/><lb n="0328a04" ed="Y" type="old"/><p style="text-indent:2em">中國禪宗，自以為最上乘、直體佛心，以「即心即佛」、「立地成佛」為標
+<lb n="0328a04" ed="Y"/><lb n="0328a04" ed="Y" type="old"/><p xml:id="pY23p0328a0401" style="text-indent:2em">中國禪宗，自以為最上乘、直體佛心，以「即心即佛」、「立地成佛」為標
 <lb n="0328a05" ed="Y"/><lb n="0328a05" ed="Y" type="old"/>幟。依大師的論判，「附屬於第一期」。的確，<quote type="嚴謹引文">「大事未明，如喪考妣」</quote>的急證
 <lb n="0328a06" ed="Y"/><lb n="0328a06" ed="Y" type="old"/>傾向，清淨無為的山林氣息，都與聲聞乘大同；而禪者坐亡立脫的作略，與阿羅
 <lb n="0328a07" ed="Y"/><lb n="0328a07" ed="Y" type="old"/>漢自在捨壽的風格，也極為吻合。不過，聲聞自稱阿羅漢，與佛阿羅漢解脫平等
@@ -324,12 +344,12 @@
 <lb n="0328a09" ed="Y"/><lb n="0328a09" ed="Y" type="old"/>大乘」</quote>，但<cit><quote type="嚴謹引文">「由了達一一人生等事實三真相，歸佛法僧，信業果報，修十善行，
 <lb n="0328a10" ed="Y"/>厭取作，捨<lb n="0328a10" ed="Y" type="old"/>壞苦，以階進佛乘者。……中國之少數禪師，若百丈、永明等，及少
 <lb n="0328a11" ed="Y"/>數居士，若龐<lb n="0328a11" ed="Y" type="old"/>蘊等，頗得其真。然居極少數人，而即為我今所要極力提倡的」</quote><bibl>（
-<lb n="0328a12" ed="Y"/><title level="a">〈人生觀的科學<lb n="0328a12" ed="Y" type="old"/>〉</title>）</bibl><note n="0328001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:23;page:p40-41">(ref taixu::vol:23;page:p40-41)</ref></note></cit>。百丈是適應時機，為<quote type="嚴謹引文">「一日不作，一日不食」</quote>的實行者。
+<lb n="0328a12" ed="Y"/><title level="a">〈人生觀的科學<lb n="0328a12" ed="Y" type="old"/>〉</title>）</bibl><note n="0328001" resp="謝淑歆" type="add"><ref target="#vol:23;page:p40-41" type="taixu">(ref taixu::vol:23;page:p40-41)</ref></note></cit>。百丈是適應時機，為<quote type="嚴謹引文">「一日不作，一日不食」</quote>的實行者。
 <lb n="0328a13" ed="Y"/>永明是「萬善同<lb n="0328a13" ed="Y" type="old"/>歸」<note n="0328002" resp="謝淑歆" type="add">《萬善同歸集》卷1：「萬善同歸集」(CBETA, T48, no. 2017, p. 958, a20)</note>的禪匠。龐蘊為不廢人事的居士。所以大師稱譽為確能體得
 <pb n="0329a" ed="Y" xml:id="Y23.0023.0329a"/>
 <lb n="0329a01" ed="Y"/>由人乘而直向佛<pb n="0329a" ed="Y" xml:id="Y23.0023.0329a.old" type="old"/><lb n="0329a01" ed="Y" type="old"/>道的真義。大師對禪宗是相當尊仰的；但真能直探佛陀本懷，依
 <lb n="0329a02" ed="Y"/>人生修十善行而<lb n="0329a02" ed="Y" type="old"/>進向人生之究竟，也只是少數人而已。</p>
-<lb n="0329a03" ed="Y"/><lb n="0329a03" ed="Y" type="old"/><p style="text-indent:2em">但是像法時代，人根轉鈍。有的覺得不但佛道長遠，菩薩道難行；禪思精微
+<lb n="0329a03" ed="Y"/><lb n="0329a03" ed="Y" type="old"/><p xml:id="pY23p0329a0301" style="text-indent:2em">但是像法時代，人根轉鈍。有的覺得不但佛道長遠，菩薩道難行；禪思精微
 <lb n="0329a04" ed="Y"/><lb n="0329a04" ed="Y" type="old"/>，也不容易修證。如現身不能成就，一息不來豈不又要輪迴生死，茫無了期！所
 <lb n="0329a05" ed="Y"/><lb n="0329a05" ed="Y" type="old"/>以，索性不求見真斷惑，求生天國一般的極樂世界，做到盡此一身不再退墮的<lb n="0329a06" ed="Y" type="old"/>往
 <lb n="0329a06" ed="Y"/>生淨土法門。聲聞是自以為究竟如佛，而不知是先在化城裡休息安樂一下。淨<lb n="0329a07" ed="Y" type="old"/>土
@@ -344,7 +364,7 @@
 <lb n="0330a01" ed="Y"/>菩提心的，但為了「求己利」、「求速成」的意欲所嬈亂，菩提心行也多少<lb n="0330a02" ed="Y" type="old"/>打些
 <lb n="0330a02" ed="Y"/>折扣了。所以大師以凡夫身來學發菩提心、學修大乘行，堅決的放下那<quote type="寬鬆引文">「即<lb n="0330a03" ed="Y" type="old"/>時成
 <lb n="0330a03" ed="Y"/>佛的貪心」</quote>。</p>
-<lb n="0330a04" ed="Y"/><lb n="0330a04" ed="Y" type="old"/><p style="text-indent:2em">無論為依聲聞行果或依天乘行果以向佛道，佛法的殊勝方便，都是大有利<lb n="0330a05" ed="Y" type="old"/>益
+<lb n="0330a04" ed="Y"/><lb n="0330a04" ed="Y" type="old"/><p xml:id="pY23p0330a0401" style="text-indent:2em">無論為依聲聞行果或依天乘行果以向佛道，佛法的殊勝方便，都是大有利<lb n="0330a05" ed="Y" type="old"/>益
 <lb n="0330a05" ed="Y"/>的。如證入聲聞羅漢，生死已了；或真能明心見性、真能往生淨土、真能修成<lb n="0330a06" ed="Y" type="old"/>天
 <lb n="0330a06" ed="Y"/>色身，即使沒有成佛，也不會再為生死昇沈的苦迫而擔心了。然依教理說：聲<lb n="0330a07" ed="Y" type="old"/>聞
 <lb n="0330a07" ed="Y"/>回心向大，由於自利的積習深重，悲願不充，進修遠不如直入大乘道的迅速。<lb n="0330a08" ed="Y" type="old"/>如
@@ -357,7 +377,7 @@
 <pb n="0331a" ed="Y" xml:id="Y23.0023.0331a"/>
 <lb n="0331a01" ed="Y"/>於是求穩當、求速成；穩當了些，卻不知道走了迂回的歧道。俗語說：「欲速<lb n="0331a02" ed="Y" type="old"/>則
 <lb n="0331a02" ed="Y"/>不達」、「大器晚成」，可作為急求成辦者的座右銘。</p>
-<lb n="0331a03" ed="Y"/><lb n="0331a03" ed="Y" type="old"/><p style="text-indent:2em">為佛道長遠、菩薩道難行而退心，或不欲退失而求速成，都是病在專為自己
+<lb n="0331a03" ed="Y"/><lb n="0331a03" ed="Y" type="old"/><p xml:id="pY23p0331a0301" style="text-indent:2em">為佛道長遠、菩薩道難行而退心，或不欲退失而求速成，都是病在專為自己
 <lb n="0331a04" ed="Y"/><lb n="0331a04" ed="Y" type="old"/>、專重現在。請聽大師的開示：<cit><quote type="嚴謹引文">「發心修學佛法者，應不為空間、時間所限，宜
 <lb n="0331a05" ed="Y"/>超出一<lb n="0331a05" ed="Y" type="old"/>切時空，涉入一切時空。於佛法如此理解，即能自悟悟他，精進無息，無
 <lb n="0331a06" ed="Y"/>庸拘定<lb n="0331a06" ed="Y" type="old"/>要即此身成佛。蓋成佛不過自悟悟他而已，菩薩行滿，佛陀果成；但勤耕
@@ -365,10 +385,10 @@
 <lb n="0331a08" ed="Y"/>相拘求<lb n="0331a08" ed="Y" type="old"/>，非僅心量狹小，且未免反增煩惱耳。佛法中雖有為接引一類誇大之眾生
 <lb n="0331a09" ed="Y"/>或激<lb n="0331a09" ed="Y" type="old"/>發一類懈怠眾生，施設即身成佛、立地成佛等假名，但本人提倡發長遠心，
 <lb n="0331a10" ed="Y"/>修自<lb n="0331a10" ed="Y" type="old"/>悟悟他行，不怠不息，而不以此類假名而掀起刻期求成之貪心。」</quote><bibl>（<title level="a">〈新與
-<lb n="0331a11" ed="Y"/>融貫〉</title><lb n="0331a11" ed="Y" type="old"/>）</bibl><note n="0331001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p447-448">(ref taixu::vol:1;page:p447-448)</ref></note></cit></p></cb:div>
+<lb n="0331a11" ed="Y"/>融貫〉</title><lb n="0331a11" ed="Y" type="old"/>）</bibl><note n="0331001" resp="謝淑歆" type="add"><ref target="#vol:1;page:p447-448" type="taixu">(ref taixu::vol:1;page:p447-448)</ref></note></cit></p></cb:div>
 <lb n="0331a12" ed="Y"/><lb n="0331a12" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五　「學菩薩發心修行」之真意</cb:mulu><head>五　「學菩薩發心修行」之真意</head><pb n="0332a" ed="Y" xml:id="Y23.0023.0332a.old" type="old"/>
 <pb n="0332a" ed="Y" xml:id="Y23.0023.0332a"/>
-<lb n="0332a01" ed="Y"/><lb n="0332a01" ed="Y" type="old"/><p style="text-indent:2em">經過了三類的簡別，大師對於佛法的意趣——<quote type="嚴謹引文">「為學菩薩發心修行者」</quote>的真
+<lb n="0332a01" ed="Y"/><lb n="0332a01" ed="Y" type="old"/><p xml:id="pY23p0332a0101" style="text-indent:2em">經過了三類的簡別，大師對於佛法的意趣——<quote type="嚴謹引文">「為學菩薩發心修行者」</quote>的真
 <lb n="0332a02" ed="Y"/><lb n="0332a02" ed="Y" type="old"/>意義，才能明確地認識。大師所說的學菩薩發心修行，是直探釋迦的覺源——佛
 <lb n="0332a03" ed="Y"/><lb n="0332a03" ed="Y" type="old"/>的人間成佛，施設教化，實以人類為本位的，要人直從人乘以進趣佛乘的。而天
 <lb n="0332a04" ed="Y"/><lb n="0332a04" ed="Y" type="old"/>與聲聞、緣覺，只是不肯趣向大覺而分出的歧途。如佛滅一千年，依聲聞行果而
@@ -376,17 +396,17 @@
 <lb n="0332a06" ed="Y"/><lb n="0332a06" ed="Y" type="old"/>為發菩提心、修菩薩行，而都是不見釋尊人間設教的本懷，不能依人生修習十善
 <lb n="0332a07" ed="Y"/><lb n="0332a07" ed="Y" type="old"/>、完成信心，直趣於人生究竟的佛果。所以著重自己、著重現生，與<quote type="寬鬆引文">「普為一切
 <lb n="0332a08" ed="Y"/><lb n="0332a08" ed="Y" type="old"/>眾生而發心」</quote>的菩提心行要經極長時期才能圓滿不合。</p>
-<lb n="0332a09" ed="Y"/><lb n="0332a09" ed="Y" type="old"/><p style="text-indent:2em">依聲聞行果、天乘行果而趣大乘，為佛法的勝妙方便。佛菩薩的慈悲設化，
+<lb n="0332a09" ed="Y"/><lb n="0332a09" ed="Y" type="old"/><p xml:id="pY23p0332a0901" style="text-indent:2em">依聲聞行果、天乘行果而趣大乘，為佛法的勝妙方便。佛菩薩的慈悲設化，
 <lb n="0332a10" ed="Y"/><lb n="0332a10" ed="Y" type="old"/>使無量數人發菩提心，護持信心而不致退失。所以並不因迂曲方便而是可訾議的
 <lb n="0332a11" ed="Y"/><lb n="0332a11" ed="Y" type="old"/>，反而是應該讚歎。但到現在，雖然<quote type="嚴謹引文">「一、二期的根機（真能現身證聲聞果、現
-<lb n="0332a12" ed="Y"/>身<lb n="0332a12" ed="Y" type="old"/>成天色身、死後生極樂國），並非完全沒有，不過畢竟是很少數了」<note n="0332001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p528">(ref taixu::vol:1;page:p528)</ref></note></quote>。而且，
+<lb n="0332a12" ed="Y"/>身<lb n="0332a12" ed="Y" type="old"/>成天色身、死後生極樂國），並非完全沒有，不過畢竟是很少數了」<note n="0332001" resp="謝淑歆" type="add"><ref target="#vol:1;page:p528" type="taixu">(ref taixu::vol:1;page:p528)</ref></note></quote>。而且，
 <lb n="0332a13" ed="Y"/><quote type="嚴謹引文">「<lb n="0332a13" ed="Y" type="old"/>依天乘行果修淨密……就最近的趨勢上觀察，修天乘行果這一著，也不適時代
 <pb n="0333a" ed="Y" xml:id="Y23.0023.0333a"/>
 <lb n="0333a01" ed="Y"/>機<pb n="0333a" ed="Y" xml:id="Y23.0023.0333a.old" type="old"/><lb n="0333a01" ed="Y" type="old"/>宜了」</quote>。又說：<cit><quote type="寬鬆引文">「依聲聞行果，是要被詬為消極逃世的；依天乘行果，是要被
 <lb n="0333a02" ed="Y"/>謗<lb n="0333a02" ed="Y" type="old"/>為迷信神權的。不唯不是方便，而反成為障礙了。」</quote><bibl>（<title level="a">〈我怎樣判攝一切佛法〉</title>
 <lb n="0333a03" ed="Y"/>）</bibl></cit><lb n="0333a03" ed="Y" type="old"/>這樣，大師從上契佛陀本懷、下應時代機宜的立場，抉擇而提示了<quote type="嚴謹引文">「依人乘行
 <lb n="0333a04" ed="Y"/><lb n="0333a04" ed="Y" type="old"/>果趣進修大乘行」</quote>的法門；這也就是大師所說<quote type="嚴謹引文">「學菩薩發心修行」</quote>的意趣所在。</p>
-<lb n="0333a05" ed="Y"/><lb n="0333a05" ed="Y" type="old"/><p style="text-indent:2em">大師的學菩薩發心修行，有兩大特色：一、融貫佛法，二、漸次趣入。這是
+<lb n="0333a05" ed="Y"/><lb n="0333a05" ed="Y" type="old"/><p xml:id="pY23p0333a0501" style="text-indent:2em">大師的學菩薩發心修行，有兩大特色：一、融貫佛法，二、漸次趣入。這是
 <lb n="0333a06" ed="Y"/><lb n="0333a06" ed="Y" type="old"/>針對宗派徒裔與即時成佛的。茲錄<cit><bibl><title level="a">〈新與融貫〉</title>的解說：</bibl><quote type="嚴謹引文">「本人……認佛法中的
 <lb n="0333a07" ed="Y"/><lb n="0333a07" ed="Y" type="old"/>五乘共法、三乘共法及大乘不共法，均一貫可達到究竟圓滿之覺海。凡能貫通五
 <lb n="0333a08" ed="Y"/><lb n="0333a08" ed="Y" type="old"/>乘、三乘及大乘教法而發菩提心、修菩薩行者，便是菩薩。所以本人在佛法中的
@@ -394,9 +414,9 @@
 <lb n="0333a10" ed="Y"/>修行，現<lb n="0333a10" ed="Y" type="old"/>在是學菩薩的發心、學菩薩修行。……今人不知此義，每每稍具信行，
 <lb n="0333a11" ed="Y"/>馬上心<lb n="0333a11" ed="Y" type="old"/>高氣傲，自命成佛；不知少分之學發菩提心、學修菩薩行尚未做到呢！
 <lb n="0333a12" ed="Y"/>……經過十<lb n="0333a12" ed="Y" type="old"/>千大劫修行六度萬行，才為真正初發心菩薩。……所以本人亦為願學
-<lb n="0333a13" ed="Y"/>菩薩發真正菩<lb n="0333a13" ed="Y" type="old"/>提心而修行六度萬行者。」</quote><note n="0333001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p448-449">(ref taixu::vol:1;page:p448-449)</ref></note></cit></p>
+<lb n="0333a13" ed="Y"/>菩薩發真正菩<lb n="0333a13" ed="Y" type="old"/>提心而修行六度萬行者。」</quote><note n="0333001" resp="謝淑歆" type="add"><ref target="#vol:1;page:p448-449" type="taixu">(ref taixu::vol:1;page:p448-449)</ref></note></cit></p>
 <pb n="0334a" ed="Y" xml:id="Y23.0023.0334a"/>
-<lb n="0334a01" ed="Y"/><pb n="0334a" ed="Y" xml:id="Y23.0023.0334a.old" type="old"/><lb n="0334a01" ed="Y" type="old"/><p style="text-indent:2em">大師的學菩薩發心修行，從適應時代而施設教化來說，即是「人生佛教」。
+<lb n="0334a01" ed="Y"/><pb n="0334a" ed="Y" xml:id="Y23.0023.0334a.old" type="old"/><lb n="0334a01" ed="Y" type="old"/><p xml:id="pY23p0334a0101" style="text-indent:2em">大師的學菩薩發心修行，從適應時代而施設教化來說，即是「人生佛教」。
 <lb n="0334a02" ed="Y"/><lb n="0334a02" ed="Y" type="old"/>是著重於發心修行的立場，著重於人乘行果而趣入大乘行的。<cit><bibl><title level="a">〈即人成佛的真現
 <lb n="0334a03" ed="Y"/><lb n="0334a03" ed="Y" type="old"/>實論〉</title>，有過綜合的說明：</bibl><quote type="嚴謹引文">「（釋尊）正轉之法輪，端在修超欲界之梵行——戒
 <lb n="0334a04" ed="Y"/>、<lb n="0334a04" ed="Y" type="old"/>定，證出三界之涅槃——定、慧解脫。此因應受佛化之眾，善根深厚、機感殊
@@ -419,7 +439,7 @@
 <lb n="0335a07" ed="Y"/>更切人性！惟<lb n="0335a07" ed="Y" type="old"/>亦嫌側重唯心，而絀於利物治生耳！然主唐代禪宗並輔錫蘭律行以
 <lb n="0335a08" ed="Y"/>安心立僧，主<lb n="0335a08" ed="Y" type="old"/>日本真宗並輔西藏密咒以經世濟生，庶可為末法期集起人生佛教之
 <lb n="0335a09" ed="Y"/>要素矣。<lb n="0335a09" ed="Y" type="old"/>故應易直指人心、見性成佛，為直依人生、增進成佛，或發達人生、進
-<lb n="0335a10" ed="Y"/>化成佛，<lb n="0335a10" ed="Y" type="old"/>是名〈即人成佛的真現實論〉。」</quote><note n="0335001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:24;page:p458-460">(ref taixu::vol:24;page:p458-460)</ref></note></cit>這可見，大師是盡攝過去佛教——各
+<lb n="0335a10" ed="Y"/>化成佛，<lb n="0335a10" ed="Y" type="old"/>是名〈即人成佛的真現實論〉。」</quote><note n="0335001" resp="謝淑歆" type="add"><ref target="#vol:24;page:p458-460" type="taixu">(ref taixu::vol:24;page:p458-460)</ref></note></cit>這可見，大師是盡攝過去佛教——各
 <lb n="0335a11" ed="Y"/>時代、各地區、<lb n="0335a11" ed="Y" type="old"/>各宗派的精華，使發達人生、進化成佛，而符合於佛法的真面目
 <lb n="0335a12" ed="Y"/>。在自行方面，<lb n="0335a12" ed="Y" type="old"/>大師是重視律儀、教理、禪觀，作系統的學歷程序。對依律的集
 <lb n="0335a13" ed="Y"/>成清淨僧團、依<lb n="0335a13" ed="Y" type="old"/>禪以徹證心源、依研究教理（三級三宗）而獲得佛法圓滿之貫達
@@ -429,13 +449,13 @@
 <lb n="0336a03" ed="Y"/>、悟心地，便是<lb n="0336a03" ed="Y" type="old"/>大師理想的僧伽教育、大師理想的菩薩學處。但大師又重於入世
 <lb n="0336a04" ed="Y"/>利濟，在這點上<lb n="0336a04" ed="Y" type="old"/>，覺得日本真宗與西藏密宗，也有可取的地方。菩薩學處的修學
 <lb n="0336a05" ed="Y"/>過程中，<quote type="嚴謹引文">「或為<lb n="0336a05" ed="Y" type="old"/>僧，或還俗，皆可聽自決；而還俗即可為入工、農、商、學、軍
-<lb n="0336a06" ed="Y"/>、政各界之佛教<lb n="0336a06" ed="Y" type="old"/>信徒」<note n="0336001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:24;page:p462">(ref taixu::vol:24;page:p462)</ref></note></quote>。<cit><quote type="嚴謹引文">「住僧的出家菩薩，可隨緣改良各處僧寺。其還俗之在
+<lb n="0336a06" ed="Y"/>、政各界之佛教<lb n="0336a06" ed="Y" type="old"/>信徒」<note n="0336001" resp="謝淑歆" type="add"><ref target="#vol:24;page:p462" type="taixu">(ref taixu::vol:24;page:p462)</ref></note></quote>。<cit><quote type="嚴謹引文">「住僧的出家菩薩，可隨緣改良各處僧寺。其還俗之在
 <lb n="0336a07" ed="Y"/>家菩薩，可深入<lb n="0336a07" ed="Y" type="old"/>各種社會，以為本佛教精神施佛教教化之社會改良家。」</quote><bibl>（<title level="a">〈即
-<lb n="0336a08" ed="Y"/>人成佛的真現實<lb n="0336a08" ed="Y" type="old"/>論〉</title>）</bibl><note n="0336002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:24;page:p463">(ref taixu::vol:24;page:p463)</ref></note></cit>依人乘行果以趣進修大乘行，就是從此菩薩集團而達成。
+<lb n="0336a08" ed="Y"/>人成佛的真現實<lb n="0336a08" ed="Y" type="old"/>論〉</title>）</bibl><note n="0336002" resp="謝淑歆" type="add"><ref target="#vol:24;page:p463" type="taixu">(ref taixu::vol:24;page:p463)</ref></note></cit>依人乘行果以趣進修大乘行，就是從此菩薩集團而達成。
 <lb n="0336a09" ed="Y"/>如失去佛化的<lb n="0336a09" ed="Y" type="old"/>經世濟物的大用，律儀、教理、禪觀，都不能完成人生佛教的理想
 <lb n="0336a10" ed="Y"/>。所以<cit><quote type="嚴謹引文">「人生<lb n="0336a10" ed="Y" type="old"/>佛教之正體，保持於菩薩長老僧；而人生佛教之大用，則寄託於社
 <lb n="0336a11" ed="Y"/>會改良家」</quote><bibl>（<lb n="0336a11" ed="Y" type="old"/><title level="a">〈即人成佛的真現實論〉</title>）</bibl></cit>。</p>
-<lb n="0336a12" ed="Y"/><lb n="0336a12" ed="Y" type="old"/><p style="text-indent:2em">大師的建僧運動，看作整興佛教、發揚佛教來救世界的中心工作。最初是著
+<lb n="0336a12" ed="Y"/><lb n="0336a12" ed="Y" type="old"/><p xml:id="pY23p0336a1201" style="text-indent:2em">大師的建僧運動，看作整興佛教、發揚佛教來救世界的中心工作。最初是著
 <lb n="0336a13" ed="Y"/><lb n="0336a13" ed="Y" type="old"/>重於整理僧伽制度，晚年則代以菩薩學處。菩薩學處，通於僧俗，但佛教的主體<pb n="0337a" ed="Y" xml:id="Y23.0023.0337a.old" type="old"/>
 <pb n="0337a" ed="Y" xml:id="Y23.0023.0337a"/>
 <lb n="0337a01" ed="Y"/><lb n="0337a01" ed="Y" type="old"/>，還是如法清淨的菩薩僧。無論從建僧、從人生、從救國救世界，在大師初出關
@@ -444,8 +464,8 @@
 <lb n="0337a04" ed="Y"/><lb n="0337a04" ed="Y" type="old"/>八部中，尤以藥叉……部為主。依此密咒部之特要部而發展，佛亦成為夜叉部之
 <lb n="0337a05" ed="Y"/>佛。<lb n="0337a05" ed="Y" type="old"/>……印度之修長壽、修五通者，大抵皆修藥叉法。而中國道教之丹鼎符籙諸
 <lb n="0337a06" ed="Y"/>術，<lb n="0337a06" ed="Y" type="old"/>亦夜叉法之流耳。知密咒乃八部眾或夜叉眾為本位之佛教，則知其僅可為人
-<lb n="0337a07" ed="Y"/>間佛<lb n="0337a07" ed="Y" type="old"/>教（即人生佛教）之助行也」</quote><bibl>（<title level="a">〈論時事新報所謂經咒救國〉</title>）</bibl><note n="0337001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:15;page:p2897">(ref taixu::vol:15;page:p2897)</ref></note></cit>。</p>
-<lb n="0337a08" ed="Y"/><lb n="0337a08" ed="Y" type="old"/><p style="text-indent:2em">大師在佛法中之意趣，非研究佛書的學者，是反對非學佛的研究態度。不為
+<lb n="0337a07" ed="Y"/>間佛<lb n="0337a07" ed="Y" type="old"/>教（即人生佛教）之助行也」</quote><bibl>（<title level="a">〈論時事新報所謂經咒救國〉</title>）</bibl><note n="0337001" resp="謝淑歆" type="add"><ref target="#vol:15;page:p2897" type="taixu">(ref taixu::vol:15;page:p2897)</ref></note></cit>。</p>
+<lb n="0337a08" ed="Y"/><lb n="0337a08" ed="Y" type="old"/><p xml:id="pY23p0337a0801" style="text-indent:2em">大師在佛法中之意趣，非研究佛書的學者，是反對非學佛的研究態度。不為
 <lb n="0337a09" ed="Y"/><lb n="0337a09" ed="Y" type="old"/>一宗的徒裔，是探佛本原，總貫各時代、各地區、各宗派的佛教，成為進入佛道
 <lb n="0337a10" ed="Y"/><lb n="0337a10" ed="Y" type="old"/>的修學過程，反對偏宗的削弱中國佛教。沒有求即時成佛的貪心，正是本於依人
 <lb n="0337a11" ed="Y"/><lb n="0337a11" ed="Y" type="old"/>生增進而直趣大乘行的佛道，也因此而超脫了聲聞行、天行的專為自己、專重現
@@ -453,6 +473,6 @@
 <lb n="0337a13" ed="Y"/><lb n="0337a13" ed="Y" type="old"/>菩薩修行——六度、四攝。也唯有依人生增進而進趣佛乘，才吻合佛心，適應時<pb n="0338a" ed="Y" xml:id="Y23.0023.0338a.old" type="old"/>
 <pb n="0338a" ed="Y" xml:id="Y23.0023.0338a"/>
 <lb n="0338a01" ed="Y"/><lb n="0338a01" ed="Y" type="old"/>代，這就是「人生佛教」、「菩薩學處」。大師的心行，歸結於這樣的偈頌——
-<lb n="0338a02" ed="Y"/><lb n="0338a02" ed="Y" type="old"/><quote type="嚴謹引文">「眾苦方沸騰，遍救懷明達。仰止唯佛陀，<note n="0338a0201" resp="CBETA" type="add">完【CB】，成【印順】</note><app n="0338a0201"><lem wit="【CB】" resp="正聞出版社">完</lem><rdg wit="【印順】">成</rdg></app>就在人格。人成佛即成，是名真現
-<lb n="0338a03" ed="Y"/><lb n="0338a03" ed="Y" type="old"/>實」<note n="0338001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:32;page:p258">(ref taixu::vol:32;page:p258)</ref></note></quote>。</p></cb:div></cb:div>
+<lb n="0338a02" ed="Y"/><lb n="0338a02" ed="Y" type="old"/><quote type="嚴謹引文">「眾苦方沸騰，遍救懷明達。仰止唯佛陀，<note n="0338a0201" resp="CBETA" type="add">完【CB】，成【印順】</note><app n="0338a0201"><lem resp="正聞出版社" wit="【CB】">完</lem><rdg wit="【印順】">成</rdg></app>就在人格。人成佛即成，是名真現
+<lb n="0338a03" ed="Y"/><lb n="0338a03" ed="Y" type="old"/>實」<note n="0338001" resp="謝淑歆" type="add"><ref target="#vol:32;page:p258" type="taixu">(ref taixu::vol:32;page:p258)</ref></note></quote>。</p></cb:div></cb:div>
 </body></text></TEI>

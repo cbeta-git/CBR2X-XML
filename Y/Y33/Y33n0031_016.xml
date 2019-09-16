@@ -12,65 +12,85 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>重版十刷<date>Date: 2013/11</date>新式標點版</edition>
+			<edition>重版十刷<date>Date: 2013/11</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>18卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 33, No. 31</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>18卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">33</idno>.<idno type="no">31</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">印度之佛教</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB34171">
-	<charName>CBETA CHARACTER CB34171</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[隙-(小/(白-日))+少]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>隙</value>
-	</charProp>
-	<mapping type="unicode">U+28EF6</mapping>
-	<mapping cb:dec="1017211" type="PUA">U+F857B</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB34171">
+				<charName>CBETA CHARACTER CB34171</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[隙-(小/(白-日))+少]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>隙</value>
+				</charProp>
+				<mapping type="unicode">U+28EF6</mapping>
+				<mapping cb:dec="1017211" type="PUA">U+F857B</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第十五章　真常唯心論</cb:mulu><cb:mulu level="2" type="其他">第三節　辨偽與釋疑</cb:mulu><cb:div type="other"><cb:div type="other"><cb:div type="other">
-<milestone unit="juan" n="16"/>
+<milestone n="16" unit="juan"/>
 <pb n="0285a" ed="Y" xml:id="Y33.0031.0285a"/>
 <lb n="0285a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">第十六章　教難之嚴重</cb:mulu><head>第十六章　教難之嚴重</head>
 <lb n="0285a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　教難之嚴重</cb:mulu><head>第一節　教難之嚴重</head>
-<lb n="0285a03" ed="Y"/><p style="text-indent:2em">佛元九世紀之初，名德輩出。性空者佛護、清辨，唯識者陳那、安慧，說一
+<lb n="0285a03" ed="Y"/><p xml:id="pY33p0285a0301" style="text-indent:2em">佛元九世紀之初，名德輩出。性空者佛護、清辨，唯識者陳那、安慧，說一
 <lb n="0285a04" ed="Y"/>切有者德光、覺使，各暢所宗，大法稱盛。然大體為論，小乘既日見衰竭，大乘
 <lb n="0285a05" ed="Y"/>復遠遜於小乘也。八百五十年頃，匈奴族掠北印，至密希拉古拉而破壞特盛，前
 <lb n="0285a06" ed="Y"/>已備言之。夙為說一切有系淵藪之迦濕彌羅、健陀羅，寺圯僧少，迥非昔日之舊
@@ -80,8 +100,8 @@
 <lb n="0285a10" ed="Y"/>。時有崇信佛教之伐彈那王朝，興起於中印，以羯若鞠（曲女城）為國都，其始
 <lb n="0285a11" ed="Y"/>不詳，或謂系出摩臘婆云。以玄奘所記觀之，則與摩竭陀關係頗深。十世紀之後
 <pb n="0286a" ed="Y" xml:id="Y33.0031.0286a"/>
-<lb n="0286a01" ed="Y"/>期，東印羯羅拏蘇伐剌那（金耳）國日<note n="0286a0101" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0286a0101"><lem wit="【CB】" resp="CBETA">強</lem><rdg wit="【印順】">强</rdg></app>。國王設賞迦（月）挾武力西侵，所至
-<lb n="0286a02" ed="Y"/>壞佛法、毀寺、坑僧、伐菩提樹（佛成道處），教難<note n="0286a0201" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0286a0201"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>及於恆河兩岸。拘尸那（
+<lb n="0286a01" ed="Y"/>期，東印羯羅拏蘇伐剌那（金耳）國日<note n="0286a0101" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0286a0101"><lem resp="CBETA" wit="【CB】">強</lem><rdg wit="【印順】">强</rdg></app>。國王設賞迦（月）挾武力西侵，所至
+<lb n="0286a02" ed="Y"/>壞佛法、毀寺、坑僧、伐菩提樹（佛成道處），教難<note n="0286a0201" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0286a0201"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>及於恆河兩岸。拘尸那（
 <lb n="0286a03" ed="Y"/>佛涅槃處）之佛教，為之焚戮殆盡。玄奘師事之戒賢，即被坑而得脫者。九百九
 <lb n="0286a04" ed="Y"/>十二年，伐彈那王婆羅羯羅（光），感國難、教難之逼，率兵東征，不幸卒於軍
 <lb n="0286a05" ed="Y"/>。長子曷邏闍伐彈那（王增）立，設賞迦王誘與和而殺之。弟曷利沙伐彈那（喜
@@ -89,10 +109,10 @@
 <lb n="0286a07" ed="Y"/>於觀自在，一舉而勝設賞迦王，伐彈那王朝慶中興焉！戒日王用兵六年，統一中
 <lb n="0286a08" ed="Y"/>印度。崇信佛法，致三十年太平，佛教得稍稍復興。戒日王南攻摩訶剌陀，不克
 <lb n="0286a09" ed="Y"/>；晚年用兵於烏荼；迦摩縷波有抗衡意；其受東南民族之掣肘，無暇問西北事，
-<lb n="0286a10" ed="Y"/>實非笈多王朝<note n="0286a1001" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0286a1001"><lem wit="【CB】" resp="CBETA">強</lem><rdg wit="【印順】">强</rdg></app>大之比也。一千零三十四年，戒日王卒，中印復大亂。婆羅門教
+<lb n="0286a10" ed="Y"/>實非笈多王朝<note n="0286a1001" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0286a1001"><lem resp="CBETA" wit="【CB】">強</lem><rdg wit="【印順】">强</rdg></app>大之比也。一千零三十四年，戒日王卒，中印復大亂。婆羅門教
 <lb n="0286a11" ed="Y"/>學者，如前彌曼薩派之鳩摩利羅，後彌曼薩派之商羯羅，同出十一世紀，融攝佛
 <lb n="0286a12" ed="Y"/>教之理論而大成其學。印度教之復興，至此而大成。</p>
-<lb n="0286a13" ed="Y"/><p style="text-indent:2em">孔雀王朝而後，佛教在印度，雖多受嫉視，然以哲理之發揚，猶見重於時。
+<lb n="0286a13" ed="Y"/><p xml:id="pY33p0286a1301" style="text-indent:2em">孔雀王朝而後，佛教在印度，雖多受嫉視，然以哲理之發揚，猶見重於時。
 <pb n="0287a" ed="Y" xml:id="Y33.0031.0287a"/>
 <lb n="0287a01" ed="Y"/>迨婆羅門哲學大成，佛教僅有之特色，亦消失無存。不探古以創新，則因循荏苒
 <lb n="0287a02" ed="Y"/>，阿世取容以苟存而已！（中國佛教，會昌法難而理論衰，特色猶有禪在；理學
@@ -102,7 +122,7 @@
 <lb n="0287a06" ed="Y"/>民間乃多改其信仰。即佛教最高學府之那爛陀寺講學之制，亦因之略變，凡無力
 <lb n="0287a07" ed="Y"/>折伏外道者，可於內室講授，不得公開云。</p></cb:div>
 <lb n="0287a08" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　空有之爭</cb:mulu><head>第二節　空有之爭</head>
-<lb n="0287a09" ed="Y"/><p style="text-indent:2em">政治若是其混亂，教難若是其嚴重，而佛徒曾不稍自覺，一仍舊貫，變本加
+<lb n="0287a09" ed="Y"/><p xml:id="pY33p0287a0901" style="text-indent:2em">政治若是其混亂，教難若是其嚴重，而佛徒曾不稍自覺，一仍舊貫，變本加
 <lb n="0287a10" ed="Y"/>厲。論議者務為瑣碎之思辨，出入空、有，兩敗俱傷；「真常唯心」者，則無往
 <lb n="0287a11" ed="Y"/>而不通，總攝空、有，融神秘、淫樂於一爐。大乘教日趨分化，轉入佛梵綜合論
 <lb n="0287a12" ed="Y"/>矣！空、有之爭，初起於「虛妄唯識者」之巧辯。龍樹、提婆之性空論，雖一度
@@ -117,7 +137,7 @@
 <lb n="0288a08" ed="Y"/>致抨擊。安慧弟子有德慧者，宗安慧之心有境無，再釋<title level="m">《中論》</title>以破清辨。傳說
 <lb n="0288a09" ed="Y"/>清辨弟子，北來那爛陀寺，與安慧門人抗辯，卒勝之云。又，陳那弟子護法，為
 <lb n="0288a10" ed="Y"/>提婆<title level="m">《四百論》</title>作釋，雙彈依他自相有（似指安慧）、自性無（指清辨），而以
-<lb n="0288a11" ed="Y"/>一切空為但遣<note n="0288a1101" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0288a1101"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>計執性；依他起性離言而為言說所依，非自性無，亦不說自相實
+<lb n="0288a11" ed="Y"/>一切空為但遣<note n="0288a1101" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0288a1101"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>計執性；依他起性離言而為言說所依，非自性無，亦不說自相實
 <lb n="0288a12" ed="Y"/>有；圓成實乃因空所顯之一味離言性，不復可以有空名也。然於提婆本論有難通
 <lb n="0288a13" ed="Y"/>處，曾為之改文以自圓其說。清辨擬與之面論，不果。佛元千年頃，月稱據無自
 <pb n="0289a" ed="Y" xml:id="Y33.0031.0289a"/>
@@ -125,27 +145,27 @@
 <lb n="0289a02" ed="Y"/>。作<title level="m">《四百論釋》</title>，於護法曲解，悉為指正。護法弟子有提婆濕羅摩者，又注<title level="m">《
 <lb n="0289a03" ed="Y"/>中論》</title>以破月稱。當月稱主持那爛陀寺時，安慧系之學者月官，特來寺共論，一
 <lb n="0289a04" ed="Y"/>主性空，一主唯識，往復辨難，歷七年而勝負始決。民眾多久預論場，熟聞其諍
-<lb n="0289a05" ed="Y"/>論所在，及優劣所分，<note n="0289a0501" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0289a0501"><lem wit="【CB】" resp="CBETA">群</lem><rdg wit="【印順】">羣</rdg></app>作頌云：<quote>「噫！龍樹本論，有藥亦有毒！難勝無著論，
-<lb n="0289a06" ed="Y"/>是<note n="0289a0601" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0289a0601"><lem wit="【CB】" resp="CBETA">群</lem><rdg wit="【印順】">羣</rdg></app>生甘露」</quote>。性空宗久衰，至清辨，月稱，乃告中興，與「虛妄唯識論」並峙
+<lb n="0289a05" ed="Y"/>論所在，及優劣所分，<note n="0289a0501" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0289a0501"><lem resp="CBETA" wit="【CB】">群</lem><rdg wit="【印順】">羣</rdg></app>作頌云：<quote>「噫！龍樹本論，有藥亦有毒！難勝無著論，
+<lb n="0289a06" ed="Y"/>是<note n="0289a0601" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0289a0601"><lem resp="CBETA" wit="【CB】">群</lem><rdg wit="【印順】">羣</rdg></app>生甘露」</quote>。性空宗久衰，至清辨，月稱，乃告中興，與「虛妄唯識論」並峙
 <lb n="0289a07" ed="Y"/>，且進而過之焉！</p>
-<lb n="0289a08" ed="Y"/><p style="text-indent:2em">兩家爭辯之焦點，在性空假名之中道，與唯識無義之中道，孰為了義。以初
+<lb n="0289a08" ed="Y"/><p xml:id="pY33p0289a0801" style="text-indent:2em">兩家爭辯之焦點，在性空假名之中道，與唯識無義之中道，孰為了義。以初
 <lb n="0289a09" ed="Y"/>起於唯識者之巧辯，故演為<title level="m">《深密經》</title>與<title level="m">《中觀論》</title>本義之爭，推衍及於一切。
 <lb n="0289a10" ed="Y"/>性空者以龍樹、提婆為宗。唯識者不敢輕議前賢，乃依<title level="m">《解深密經》</title>之教判，謂
 <lb n="0289a11" ed="Y"/>龍樹論乃隱密說。隱密說者，非龍樹不知依他、圓成是有之謂，但為一類根性，
-<lb n="0289a12" ed="Y"/>依<note n="0289a1201" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0289a1201"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>計無自性說耳！以是，龍樹所悟之中道，實與唯識者同。反之，以龍樹中觀
+<lb n="0289a12" ed="Y"/>依<note n="0289a1201" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0289a1201"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>計無自性說耳！以是，龍樹所悟之中道，實與唯識者同。反之，以龍樹中觀
 <lb n="0289a13" ed="Y"/>學自居之偏執一切皆空，不足以知龍樹，正<title level="m">《中論》</title>所破之空見也。性空者起而
 <pb n="0290a" ed="Y" xml:id="Y33.0031.0290a"/>
 <lb n="0290a01" ed="Y"/>應戰，解<title level="m">《中》</title>、<title level="m">《百論》</title>之本義，彈安慧、護法等之曲解。於<title level="m">《解深密經》</title>，
 <lb n="0290a02" ed="Y"/>亦競起解說之，蓋非如此，不足以奪唯識者之守也。</p>
-<lb n="0290a03" ed="Y"/><p style="text-indent:2em">瑜伽唯識者，以自相有為勝義（真實）有。依他起有勝義自相，不可言空，
-<lb n="0290a04" ed="Y"/><note n="0290a0401" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0290a0401"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>計所執性乃可言空耳！清辨、靜命等，評其為不見<title level="m">《解深密》</title>之真義。<title level="m">《深密
-<lb n="0290a05" ed="Y"/>》</title>所說之依他自相有，是世俗自相，若執為勝義有者，即<note n="0290a0501" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0290a0501"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>計執性。以是，依他
+<lb n="0290a03" ed="Y"/><p xml:id="pY33p0290a0301" style="text-indent:2em">瑜伽唯識者，以自相有為勝義（真實）有。依他起有勝義自相，不可言空，
+<lb n="0290a04" ed="Y"/><note n="0290a0401" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0290a0401"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>計所執性乃可言空耳！清辨、靜命等，評其為不見<title level="m">《解深密》</title>之真義。<title level="m">《深密
+<lb n="0290a05" ed="Y"/>》</title>所說之依他自相有，是世俗自相，若執為勝義有者，即<note n="0290a0501" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0290a0501"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>計執性。以是，依他
 <lb n="0290a06" ed="Y"/>為世俗自相有，於勝義中則自相皆空。然則<title level="m">《解深密經》</title>與<title level="m">《瑜伽》</title>者不合，反
 <lb n="0290a07" ed="Y"/>與清辨、靜命（寂護）所見之性空宗同。月稱解：<title level="m">《解深密經》</title>之意趣，確如唯
 <lb n="0290a08" ed="Y"/>識者所說。於不能於性空中建立緣起之鈍根，故為說一切空為隱密，恐其墮斷見
 <lb n="0290a09" ed="Y"/>也。若能於性空中立一切法之利根，則一切皆空乃究竟之談，如龍樹所說者是。</p>
-<lb n="0290a10" ed="Y"/><p style="text-indent:2em">詳兩宗立義，確有不能<note n="0290a1001" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0290a1001"><lem wit="【CB】" resp="CBETA">強</lem><rdg wit="【印順】">强</rdg></app>同者。即「自性」一名，<title level="m">《解深密》</title>以自相為依他
-<lb n="0290a11" ed="Y"/>起之因果自相；<note n="0290a1101" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0290a1101"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>計執性無彼緣起相，名相無自性性。如說<quote>「瓶中無水」</quote>，此中
+<lb n="0290a10" ed="Y"/><p xml:id="pY33p0290a1001" style="text-indent:2em">詳兩宗立義，確有不能<note n="0290a1001" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0290a1001"><lem resp="CBETA" wit="【CB】">強</lem><rdg wit="【印順】">强</rdg></app>同者。即「自性」一名，<title level="m">《解深密》</title>以自相為依他
+<lb n="0290a11" ed="Y"/>起之因果自相；<note n="0290a1101" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0290a1101"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>計執性無彼緣起相，名相無自性性。如說<quote>「瓶中無水」</quote>，此中
 <lb n="0290a12" ed="Y"/>無彼水，非彼餘處無水也，是為他空派。龍樹之言自性則不然，不從因緣生，非
 <lb n="0290a13" ed="Y"/>新作，不待他者名自性有。一切法為緣起，緣起不如吾人所見之自相有，自相實
 <pb n="0291a" ed="Y" xml:id="Y33.0031.0291a"/>
@@ -154,7 +174,7 @@
 <lb n="0291a03" ed="Y"/>自相，而自相實無；無著系以緣起因果之實有事為自相，而自相必有，何可濫同
 <lb n="0291a04" ed="Y"/>一體也！<title level="m">《深密經》</title>謂為五事不具之鈍根說三性；為五事具足之利根，依三無性
 <lb n="0291a05" ed="Y"/>說一切空。月稱所解，似稍近之。</p>
-<lb n="0291a06" ed="Y"/><p style="text-indent:2em">唯心、不空之大乘，繼性空者而興，宜後起之經，多以性空為不了，無著師
+<lb n="0291a06" ed="Y"/><p xml:id="pY33p0291a0601" style="text-indent:2em">唯心、不空之大乘，繼性空者而興，宜後起之經，多以性空為不了，無著師
 <lb n="0291a07" ed="Y"/>資論且明斥勝義一切空為惡取空也。性空者處此，即論理足以制勝，而事有所難
 <lb n="0291a08" ed="Y"/>，乃師瑜伽者之故智，別出反攻之道焉！地婆訶羅（日照）於佛元一千零六十五
 <lb n="0291a09" ed="Y"/>年頃來華，傳那爛陀寺智光與戒賢為空有之爭。智光宗性空，依<title level="m">《大乘妙智經》</title>
@@ -170,7 +190,7 @@
 <lb n="0292a05" ed="Y"/>！其為說也，世諦門立境空心有如唯識，第一義門立心境皆空如中觀，蓋巧攝唯
 <lb n="0292a06" ed="Y"/>識之性空論也。立說本於<title level="m">《中論》</title>，於<title level="m">《現觀莊嚴論》</title>特所宗重。彌勒傳為「虛
 <lb n="0292a07" ed="Y"/>妄唯識」者之論祖，而彌勒之<title level="m">《現觀莊嚴》</title>，以所取空而能取不空為緣覺道，菩
-<lb n="0292a08" ed="Y"/>薩雖<note n="0292a0801" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0292a0801"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>學而非所宗。其譏調唯識之意，隱然可見。依此論，則彌勒之中道正見，
+<lb n="0292a08" ed="Y"/>薩雖<note n="0292a0801" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0292a0801"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>學而非所宗。其譏調唯識之意，隱然可見。依此論，則彌勒之中道正見，
 <lb n="0292a09" ed="Y"/>不如唯識者所說，而與性空者同。此與瑜伽者之釋<title level="m">《中》</title>、<title level="m">《百論》</title>，以龍樹、
 <lb n="0292a10" ed="Y"/>提婆之見同唯識中道，豈不異曲同工哉！<title level="m">《現觀莊嚴》</title>約<title level="m">《般若經》</title>文作頌，而
 <lb n="0292a11" ed="Y"/>獨多二頌曰：<quote>「無彼滅自性，何能以見道，盡彼分別種，而得無生相！若有餘實
@@ -180,7 +200,7 @@
 <lb n="0293a01" ed="Y"/>，性空者融於真常而大盛，<title level="m">《現觀莊嚴》</title>乃被視為五部大論之一，今猶風行於西
 <lb n="0293a02" ed="Y"/>藏。著作者或即解脫軍其人。</p></cb:div>
 <lb n="0293a03" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　性空者之復興與分流</cb:mulu><head>第三節　性空者之復興與分流</head>
-<lb n="0293a04" ed="Y"/><p style="text-indent:2em">提婆以後，性空大乘式微甚。世親時，中印有僧護者，扇將熄之法燄而漸興
+<lb n="0293a04" ed="Y"/><p xml:id="pY33p0293a0401" style="text-indent:2em">提婆以後，性空大乘式微甚。世親時，中印有僧護者，扇將熄之法燄而漸興
 <lb n="0293a05" ed="Y"/>之。然以龍樹之<title level="m">《智論》</title>失傳，僅恃<title level="m">《中》</title>、<title level="m">《百論》</title>頌為宏通，於龍樹圓滿之
 <lb n="0293a06" ed="Y"/>體系，卒無以盡見也。承僧護之學者，出佛護、清辨、解脫軍三大流：一、佛護
 <lb n="0293a07" ed="Y"/>，南印呾婆羅國人，從僧護學，還南印呾特弗利伽藍宏之。依<title level="m">《中論無畏釋》</title>作
@@ -202,7 +222,7 @@
 <lb n="0294a10" ed="Y"/>難。於性空學者中，成「隨瑜伽行者」一派。蓋其建立世諦緣起，順同瑜伽者之
 <lb n="0294a11" ed="Y"/>有心無境也。靜命師資，先後遊化西藏；西藏前宏期之中觀，即以此為主。靜命
 <lb n="0294a12" ed="Y"/>師資之巧攝唯識，蓋有見於清辨立義之有所難。以唯識為非佛說，而以<title level="m">《楞伽經
-<lb n="0294a13" ed="Y"/>》</title>等為佛說，無論作何解說，實不啻示人以瑕<note n="0294a1301" resp="CBETA" type="add" subtype="規範字詞">隙【CB】，<g ref="#CB34171"/>【印順】</note><app n="0294a1301"><lem wit="【CB】" resp="CBETA">隙</lem><rdg wit="【印順】"><g ref="#CB34171"/></rdg></app>。靜命之創新說，蓋深見於此也
+<lb n="0294a13" ed="Y"/>》</title>等為佛說，無論作何解說，實不啻示人以瑕<note n="0294a1301" resp="CBETA" type="add" subtype="規範字詞">隙【CB】，<g ref="#CB34171"/>【印順】</note><app n="0294a1301"><lem resp="CBETA" wit="【CB】">隙</lem><rdg wit="【印順】"><g ref="#CB34171"/></rdg></app>。靜命之創新說，蓋深見於此也
 <pb n="0295a" ed="Y" xml:id="Y33.0031.0295a"/>
 <lb n="0295a01" ed="Y"/>。靜命云：<quote>「何者為世俗事？唯心心所為自體耶？抑亦有外法體耶？有依後義者
 <lb n="0295a02" ed="Y"/>，如論（指清辨論）說唯心，但破作者、受者。或有思云：雖諸因果法，亦皆唯
@@ -210,7 +230,7 @@
 <lb n="0295a04" ed="Y"/>》</title>義相符，與<title level="m">《楞伽經》</title>之外境悉非有，心似外境現亦合」</quote>。其立說雖綜合唯識
 <lb n="0295a05" ed="Y"/>、性空二大流，而實歸宗於性空也。師子賢亦靜命弟子，作<title level="m">《八千頌般若廣釋》</title>
 <lb n="0295a06" ed="Y"/>、<title level="m">《現觀莊嚴論釋》</title>，卓然成家。</p>
-<lb n="0295a07" ed="Y"/><p style="text-indent:2em">月稱以先，雖有佛護、清辨諸家，性空猶和合無諍，彼此亦不自覺其有異。
+<lb n="0295a07" ed="Y"/><p xml:id="pY33p0295a0701" style="text-indent:2em">月稱以先，雖有佛護、清辨諸家，性空猶和合無諍，彼此亦不自覺其有異。
 <lb n="0295a08" ed="Y"/>月稱獨契佛護，直標「此宗不共」之談，乃有「應成」、「自續」之諍也。月稱
 <lb n="0295a09" ed="Y"/>作<title level="m">《中論明句釋》</title>、<title level="m">《四百論釋》</title>，又作<title level="m">《入中論》</title>，尤注力於遮破唯識。初，
 <lb n="0295a10" ed="Y"/>佛護釋<title level="m">《中論》</title>，於破「自生」時，以「應成無窮」等，隨敵者所許而破之，清
@@ -233,12 +253,12 @@
 <lb n="0296a13" ed="Y"/>作<title level="m">《集菩薩學論》</title>、<title level="m">《集經義論》</title>、<title level="m">《入菩提行論》</title>，流傳亦廣。</p></cb:div>
 <pb n="0297a" ed="Y" xml:id="Y33.0031.0297a"/>
 <lb n="0297a01" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第四節　虛妄唯識者之分流</cb:mulu><head>第四節　虛妄唯識者之分流</head>
-<lb n="0297a02" ed="Y"/><p style="text-indent:2em">「虛妄唯識論」之學系，不甚詳，安慧、陳那，則其兩大流也。安慧，南印
+<lb n="0297a02" ed="Y"/><p xml:id="pY33p0297a0201" style="text-indent:2em">「虛妄唯識論」之學系，不甚詳，安慧、陳那，則其兩大流也。安慧，南印
 <lb n="0297a03" ed="Y"/>羅羅國人，七歲從世親學。作<title level="m">《俱舍論釋》</title>，又糅<title level="m">《雜集論》</title>以救<title level="m">《俱舍》</title>，於
 <lb n="0297a04" ed="Y"/><title level="m">《俱舍》</title>一學，似有獨得。善因明，廣釋世親論，其中<title level="m">《三十唯識論釋》</title>，梵、
-<lb n="0297a05" ed="Y"/>蕃本猶存。弟子月官，弘<title level="m"><note n="0297a0501" resp="CBETA" type="add" subtype="規範字詞">十地經【CB】，十地【印順】</note><app n="0297a0501"><lem wit="【CB】" resp="CBETA">《十地經》</lem><rdg wit="【印順】">《十地》</rdg></app></title>、<title level="m"><note n="0297a0502" resp="CBETA" type="add" subtype="規範字詞">月燈三昧經【CB】，月燈【印順】</note><app n="0297a0502"><lem wit="【CB】" resp="CBETA">《月燈三昧經》</lem><rdg wit="【印順】">《月燈》</rdg></app></title>、<title level="m"><note n="0297a0503" resp="CBETA" type="add" subtype="規範字詞">樹嚴經【CB】，樹嚴【印順】</note><app n="0297a0503"><lem wit="【CB】" resp="CBETA">《樹嚴經》</lem><rdg wit="【印順】">《樹嚴》</rdg></app></title>、<title level="m"><note n="0297a0504" resp="CBETA" type="add" subtype="規範字詞">楞伽經【CB】，楞伽【印順】</note><app n="0297a0504"><lem wit="【CB】" resp="CBETA">《楞伽經》</lem><rdg wit="【印順】">《楞伽》</rdg></app></title>、<title level="m"><note n="0297a0505" resp="CBETA" type="add" subtype="規範字詞">般若經【CB】，般若【印順】</note><app n="0297a0505"><lem wit="【CB】" resp="CBETA">《般若經》</lem><rdg wit="【印順】">《般若》</rdg></app></title>
+<lb n="0297a05" ed="Y"/>蕃本猶存。弟子月官，弘<title level="m"><note n="0297a0501" resp="CBETA" type="add" subtype="規範字詞">十地經【CB】，十地【印順】</note><app n="0297a0501"><lem resp="CBETA" wit="【CB】">《十地經》</lem><rdg wit="【印順】">《十地》</rdg></app></title>、<title level="m"><note n="0297a0502" resp="CBETA" type="add" subtype="規範字詞">月燈三昧經【CB】，月燈【印順】</note><app n="0297a0502"><lem resp="CBETA" wit="【CB】">《月燈三昧經》</lem><rdg wit="【印順】">《月燈》</rdg></app></title>、<title level="m"><note n="0297a0503" resp="CBETA" type="add" subtype="規範字詞">樹嚴經【CB】，樹嚴【印順】</note><app n="0297a0503"><lem resp="CBETA" wit="【CB】">《樹嚴經》</lem><rdg wit="【印順】">《樹嚴》</rdg></app></title>、<title level="m"><note n="0297a0504" resp="CBETA" type="add" subtype="規範字詞">楞伽經【CB】，楞伽【印順】</note><app n="0297a0504"><lem resp="CBETA" wit="【CB】">《楞伽經》</lem><rdg wit="【印順】">《楞伽》</rdg></app></title>、<title level="m"><note n="0297a0505" resp="CBETA" type="add" subtype="規範字詞">般若經【CB】，般若【印順】</note><app n="0297a0505"><lem resp="CBETA" wit="【CB】">《般若經》</lem><rdg wit="【印順】">《般若》</rdg></app></title>
 <lb n="0297a06" ed="Y"/>五大經。與月稱共論七年，即此人也。大成因明之陳那，前已敘之。其弟子有護
-<lb n="0297a07" ed="Y"/>法者，南印達羅<note n="0297a0701" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0297a0701"><lem wit="【CB】" resp="CBETA">毘</lem><rdg wit="【印順】">毗</rdg></app>荼國人，作<title level="m">《唯識寶生論》</title>、<title level="m">《四百論釋》</title>，尤以<title level="m">《三十唯識
+<lb n="0297a07" ed="Y"/>法者，南印達羅<note n="0297a0701" resp="CBETA" type="add" subtype="規範字詞">毘【CB】，毗【印順】</note><app n="0297a0701"><lem resp="CBETA" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>荼國人，作<title level="m">《唯識寶生論》</title>、<title level="m">《四百論釋》</title>，尤以<title level="m">《三十唯識
 <lb n="0297a08" ed="Y"/>論釋》</title>為長。玄奘傳來之唯識，雖雜糅十師之說，而實以此師為宗。年三十二卒
 <lb n="0297a09" ed="Y"/>，藏傳其繼陳那而住金剛寶座三十餘年，二說相違，未知孰正。護法弟子有智月
 <lb n="0297a10" ed="Y"/>，勝友，戒賢，勝子等。戒賢耆年碩學，主持那爛陀寺極久，人稱「正法藏」。
@@ -248,9 +268,9 @@
 <lb n="0298a01" ed="Y"/>十大家，即親勝、火辨、安慧、德慧、難陀、淨月、護法、勝友、勝子、智月。
 <lb n="0298a02" ed="Y"/>惜玄奘徇窺基之請，糅為<title level="m">《成唯識論》</title>，傳說紛然，各家之面目已不得而詳！性
 <lb n="0298a03" ed="Y"/>空者復興，唯識學日見萎縮；戒賢、法稱而後，幾不聞有法將矣！</p>
-<lb n="0298a04" ed="Y"/><p style="text-indent:2em"><title level="m">《莊嚴》</title>、<title level="m">《攝論》</title>等創立唯識學，詳種識變，攝一切法以虛妄分別為自性
+<lb n="0298a04" ed="Y"/><p xml:id="pY33p0298a0401" style="text-indent:2em"><title level="m">《莊嚴》</title>、<title level="m">《攝論》</title>等創立唯識學，詳種識變，攝一切法以虛妄分別為自性
 <lb n="0298a05" ed="Y"/>，而統以分別、所分別二分。<title level="m">《莊嚴》</title>以心所為心識之似現；<title level="m">《攝論》</title>明內種子
-<lb n="0298a06" ed="Y"/>皆熏習性，蓋有取於經部之說，而異於<bibl>《<title level="m">瑜伽</title>．<title level="a">本地分</title>》</bibl>之舊也。迨<title level="a">〈攝<note n="0298a0601" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0298a0601"><lem wit="【CB】" resp="正聞出版社">決</lem><rdg wit="【印順】">抉</rdg></app>擇
+<lb n="0298a06" ed="Y"/>皆熏習性，蓋有取於經部之說，而異於<bibl>《<title level="m">瑜伽</title>．<title level="a">本地分</title>》</bibl>之舊也。迨<title level="a">〈攝<note n="0298a0601" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0298a0601"><lem resp="正聞出版社" wit="【CB】">決</lem><rdg wit="【印順】">抉</rdg></app>擇
 <lb n="0298a07" ed="Y"/>分〉</title>，<title level="m">《三十唯識論》</title>，詳分別識變；王所、心境之同異，又反流而同於<bibl>《<title level="m">瑜伽</title>．
 <lb n="0298a08" ed="Y"/><title level="a">本地</title>》</bibl>。無著師資之學，含有幾多之岐義，後學者隨所重而貫攝研辨之，乃
 <lb n="0298a09" ed="Y"/>顯然分化矣！藏傳陳那、法稱系，特重<title level="m">《集量論》</title>及七部因明，流出「隨理行」
@@ -263,14 +283,14 @@
 <lb n="0299a02" ed="Y"/>稱後乃漸宏闡焉！玄奘宗護法，雜糅十師，是非難言！參酌眾說，其爭論所在，
 <lb n="0299a03" ed="Y"/>猶可見一二。<title level="m">《瑜伽》</title>以現行之恆行意為本，依之而間斷起者為（意）識，持種
 <lb n="0299a04" ed="Y"/>子為心，有心、意、識而現行唯七識。此與<title level="m">《深密經》</title>之阿陀那識及六識，<title level="m">《攝
-<lb n="0299a05" ed="Y"/>論》</title>從種子生者唯意及六識同。<title level="m">《唯識三十論》</title>依<title level="a">〈<note n="0299a0501" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0299a0501"><lem wit="【CB】" resp="正聞出版社">決</lem><rdg wit="【印順】">抉</rdg></app>擇分〉</title>而標從種生起之三
+<lb n="0299a05" ed="Y"/>論》</title>從種子生者唯意及六識同。<title level="m">《唯識三十論》</title>依<title level="a">〈<note n="0299a0501" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0299a0501"><lem resp="正聞出版社" wit="【CB】">決</lem><rdg wit="【印順】">抉</rdg></app>擇分〉</title>而標從種生起之三
 <lb n="0299a06" ed="Y"/>類識變，立現行八識，阿陀那是否末那，乃有爭。末那（意）者，識所依止（或
 <lb n="0299a07" ed="Y"/>生起依，或雜染依）義。<quote>「阿陀那識為依止，為建立，六識身轉（起）」</quote>，則阿
 <lb n="0299a08" ed="Y"/>陀那即末那也。阿陀那執持根身，<title level="m">《攝論》</title>以末那為「身者識」，<title level="m">《密嚴》</title>、<title level="m">《
 <lb n="0299a09" ed="Y"/>圓覺》</title>亦以末那為取諸根。阿陀那執受名相分別戲論習氣，而種習一味之賴耶心
 <lb n="0299a10" ed="Y"/>，有<quote>「所緣相」</quote>；<quote>「即彼種子是所緣相」</quote>；末那緣藏識，即此種子相，則與阿陀
-<lb n="0299a11" ed="Y"/>那之執受種子難別。細心，種子，乃至心光明性，本不可分者。<title level="m"><note n="0299a1101" resp="CBETA" type="add" subtype="規範字詞">攝大乘論【CB】，攝論【印順】</note><app n="0299a1101"><lem wit="【CB】" resp="CBETA">《攝大乘論》</lem><rdg wit="【印順】">《攝論》</rdg></app></title>以種子
-<lb n="0299a12" ed="Y"/>為心，以恆行意之執取為意；<title level="m"><note n="0299a1201" resp="CBETA" type="add" subtype="規範字詞">十地經論【CB】，十地論【印順】</note><app n="0299a1201"><lem wit="【CB】" resp="CBETA">《十地經論》</lem><rdg wit="【印順】">《十地論》</rdg></app></title>以心光明性為阿賴耶，以執取為阿陀那
+<lb n="0299a11" ed="Y"/>那之執受種子難別。細心，種子，乃至心光明性，本不可分者。<title level="m"><note n="0299a1101" resp="CBETA" type="add" subtype="規範字詞">攝大乘論【CB】，攝論【印順】</note><app n="0299a1101"><lem resp="CBETA" wit="【CB】">《攝大乘論》</lem><rdg wit="【印順】">《攝論》</rdg></app></title>以種子
+<lb n="0299a12" ed="Y"/>為心，以恆行意之執取為意；<title level="m"><note n="0299a1201" resp="CBETA" type="add" subtype="規範字詞">十地經論【CB】，十地論【印順】</note><app n="0299a1201"><lem resp="CBETA" wit="【CB】">《十地經論》</lem><rdg wit="【印順】">《十地論》</rdg></app></title>以心光明性為阿賴耶，以執取為阿陀那
 <lb n="0299a13" ed="Y"/>。自現行七識之見地，固無不可者。迨現行八識論出，玄奘傳護法之學，乃以<quote>「
 <pb n="0300a" ed="Y" xml:id="Y33.0031.0300a"/>
 <lb n="0300a01" ed="Y"/>阿陀那即末那」</quote>為妄說，而實是非未可言也！難陀、安慧，猶承用古義，故末那
@@ -289,22 +309,22 @@
 <pb n="0301a" ed="Y" xml:id="Y33.0031.0301a"/>
 <lb n="0301a01" ed="Y"/>未明也！種子與細心，習氣心與恆行意，雜染心與心光明性；執取異熟種子，學
 <lb n="0301a02" ed="Y"/>者離合其間以談心、意之別，宜學派之爭無已。</p>
-<lb n="0301a03" ed="Y"/><p style="text-indent:2em"><title level="m">《攝論》</title>以<quote>「唯識、二、種種」</quote>三相成立唯識，本為一貫之三相。似義顯現
+<lb n="0301a03" ed="Y"/><p xml:id="pY33p0301a0301" style="text-indent:2em"><title level="m">《攝論》</title>以<quote>「唯識、二、種種」</quote>三相成立唯識，本為一貫之三相。似義顯現
 <lb n="0301a04" ed="Y"/>者非有，唯虛妄分別為性，此之謂<quote>「唯識」</quote>。雖一切唯識，以無始熏習力，有分
 <lb n="0301a05" ed="Y"/>別之見，所分別之相現，則是<quote>「唯二」</quote>。分別心分別彼所分別，有種種之行相，
-<lb n="0301a06" ed="Y"/>則曰<quote>「種種」</quote>。「唯識」為依他起性；「種種」為<note n="0301a0601" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0301a0601"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>計執性。分別、所分別「二
+<lb n="0301a06" ed="Y"/>則曰<quote>「種種」</quote>。「唯識」為依他起性；「種種」為<note n="0301a0601" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0301a0601"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>計執性。分別、所分別「二
 <lb n="0301a07" ed="Y"/>」者，從其種生而以識為自性邊，是依他；所分別於分別心中現，若有別體之能
-<lb n="0301a08" ed="Y"/>取、所取邊，是<note n="0301a0801" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0301a0801"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>計執性。此三相一貫無諍，識有境無之義耳！<title level="m">《中邊論》</title>以<quote>「
-<lb n="0301a09" ed="Y"/>境故」</quote>、<quote>「心故」</quote>為<note n="0301a0901" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0301a0901"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>計及依他性；又以<quote>「虛妄分別有」</quote>為依他，<quote>「於此二都無
-<lb n="0301a10" ed="Y"/>」</quote>為<note n="0301a1001" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0301a1001"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>計執性。以<quote>「義」</quote>或以<quote>「二取」</quote>為<note n="0301a1002" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0301a1002"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>計性，一也。<title level="m">《莊嚴論》</title>以幻師喻虛
-<lb n="0301a11" ed="Y"/>妄分別，以幻事喻二迷；又以能所各三光為依他起；依、<note n="0301a1101" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0301a1101"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>各通二分，亦非矛盾
+<lb n="0301a08" ed="Y"/>取、所取邊，是<note n="0301a0801" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0301a0801"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>計執性。此三相一貫無諍，識有境無之義耳！<title level="m">《中邊論》</title>以<quote>「
+<lb n="0301a09" ed="Y"/>境故」</quote>、<quote>「心故」</quote>為<note n="0301a0901" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0301a0901"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>計及依他性；又以<quote>「虛妄分別有」</quote>為依他，<quote>「於此二都無
+<lb n="0301a10" ed="Y"/>」</quote>為<note n="0301a1001" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0301a1001"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>計執性。以<quote>「義」</quote>或以<quote>「二取」</quote>為<note n="0301a1002" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0301a1002"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>計性，一也。<title level="m">《莊嚴論》</title>以幻師喻虛
+<lb n="0301a11" ed="Y"/>妄分別，以幻事喻二迷；又以能所各三光為依他起；依、<note n="0301a1101" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0301a1101"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>各通二分，亦非矛盾
 <lb n="0301a12" ed="Y"/>。<cit><bibl><title level="m">《密嚴經》</title>云：</bibl><quote>「一切唯有覺，所覺義皆無；能覺、所覺分，各自然而轉」</quote></cit>。
 <lb n="0301a13" ed="Y"/>上二句是「唯識」，下二句是「唯二」。又說：<quote>「眾生心二性，內外一切分；所
 <pb n="0302a" ed="Y" xml:id="Y33.0031.0302a"/>
 <lb n="0302a01" ed="Y"/>取能取纏，見種種差別」</quote>。上二句明「二」分，下二句明「種種」。此固一貫之
 <lb n="0302a02" ed="Y"/>談，豈可隨文而偏執一分、二分哉！玄奘東來，乃有所謂<quote>「安、難、陳、護，一
 <lb n="0302a03" ed="Y"/>、二、三、四」</quote>之別。所謂一分、二分，實即相分實有與相分假有之諍也。唯識
-<lb n="0302a04" ed="Y"/>無義，以分別<note n="0302a0401" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0302a0401"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>計所分別，熏<note n="0302a0402" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0302a0402"><lem wit="【CB】" resp="CBETA">遍</lem><rdg wit="【印順】">徧</rdg></app>計所執習氣，以能所交涉而熏成，生時即自然而
+<lb n="0302a04" ed="Y"/>無義，以分別<note n="0302a0401" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0302a0401"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>計所分別，熏<note n="0302a0402" resp="CBETA" type="add" subtype="規範字詞">遍【CB】，徧【印順】</note><app n="0302a0402"><lem resp="CBETA" wit="【CB】">遍</lem><rdg wit="【印順】">徧</rdg></app>計所執習氣，以能所交涉而熏成，生時即自然而
 <lb n="0302a05" ed="Y"/>現二分。相即是識之一分，<quote>「即是識」</quote>名唯識也。自唯識反流於<title level="m">《瑜伽》</title>，依他
 <lb n="0302a06" ed="Y"/>之分別心，與離言之十八界性相接，則覺見、相相涉而成種，熏成各別種子。分
 <lb n="0302a07" ed="Y"/>別與所分別，各從自種子生，即境有自相，非識而不離識，<quote>「不離識」</quote>名唯識也
@@ -316,14 +336,14 @@
 <lb n="0302a13" ed="Y"/>！餘義繁多，今不復一一。總言之，唯識有種種學派，護法唯識其一支耳！</p></cb:div>
 <pb n="0303a" ed="Y" xml:id="Y33.0031.0303a"/>
 <lb n="0303a01" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第五節　真常者之融合</cb:mulu><head>第五節　真常者之融合</head>
-<lb n="0303a02" ed="Y"/><p style="text-indent:2em">「真常唯心論」者，以空、有之爭，乃默然而坐享其成。以真常之離過絕非
+<lb n="0303a02" ed="Y"/><p xml:id="pY33p0303a0201" style="text-indent:2em">「真常唯心論」者，以空、有之爭，乃默然而坐享其成。以真常之離過絕非
 <lb n="0303a03" ed="Y"/>，比合於性空；性空者之勝義自性，亦漸合於真常。彼此相提攜，性空興而真常
 <lb n="0303a04" ed="Y"/>論大盛。妄心者之心光明性，與真常心相接；真以妄熏而成之賴耶，亦附合於生
 <lb n="0303a05" ed="Y"/>滅無常者。以空性為體，以唯心為用，間或有所偏明，而無不開顯體用無礙之真
 <lb n="0303a06" ed="Y"/>常。內合於玄理，外融乎俗事，至高至卑，無事而不真常本淨，無往而不圓融無
 <lb n="0303a07" ed="Y"/>礙，達於形而上之妙有。千一百年之佛教，其空、有理論之發達，應作如此觀。
 <lb n="0303a08" ed="Y"/>（且依有為法列之）</p>
-<lb n="0303a09" ed="Y"/><p cb:type="pre">　　　常識之真實───實有┬────三世實有……………上座系
+<lb n="0303a09" ed="Y"/><p cb:type="pre" xml:id="pY33p0303a0901">　　　常識之真實───實有┬────三世實有……………上座系
 <lb n="0303a10" ed="Y"/>　　　　　　　　　　　　　└────┐　　┌……………┘
 <lb n="0303a11" ed="Y"/>　　　　　　　　　　　　　　　　　　現在實有……………大眾系
 <lb n="0303a12" ed="Y"/>　　　　　　　　　　　　　．…………┘

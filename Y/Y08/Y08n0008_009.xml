@@ -12,57 +12,77 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/07</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/07</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>20卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 8, No. 8</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">8</idno>.<idno type="no">8</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法概論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第八章　佛法的心理觀</cb:mulu><cb:mulu level="2" type="其他">第二節　心與心所</cb:mulu><cb:mulu level="3" type="其他">善心所與惡心所</cb:mulu>
-<milestone unit="juan" n="9"/><pb n="0121a" ed="Y" xml:id="Y08.0008.0121a.old" type="old"/>
+<milestone n="9" unit="juan"/><pb n="0121a" ed="Y" xml:id="Y08.0008.0121a.old" type="old"/>
 <pb n="0121a" ed="Y" xml:id="Y08.0008.0121a"/>
 <lb n="0121a01" ed="Y"/><lb n="0121a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">第九章　我們的世間</cb:mulu><head>第九章　我們的世間</head>
 <lb n="0121a02" ed="Y"/><lb n="0121a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　世間的一般情況</cb:mulu><head>第一節　世間的一般情況</head>
-<lb n="0121a03" ed="Y"/><lb n="0121a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">世間</cb:mulu><head>世間</head><lb n="0121a04" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">有了有情，必有與有情相對的世間，如說：<quote source="T01n0021_p0267b02" type="嚴謹引文">「我與世間。」<note n="0121001" resp="周怡曄" type="add">《梵網六十二見經》卷1(CBETA, T01, no. 21, p. 267, b2)</note></quote>有情與世
+<lb n="0121a03" ed="Y"/><lb n="0121a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">世間</cb:mulu><head>世間</head><lb n="0121a04" ed="Y" type="old"/><p xml:id="pY08p0121a0305" style="text-indent:2em" cb:place="inline">有了有情，必有與有情相對的世間，如說：<quote source="T01n0021_p0267b02" type="嚴謹引文">「我與世間。」<note n="0121001" resp="周怡曄" type="add">《梵網六十二見經》卷1(CBETA, T01, no. 21, p. 267, b2)</note></quote>有情與世
 <lb n="0121a04" ed="Y"/><lb n="0121a05" ed="Y" type="old"/>間的含義，可以作廣狹不同的解說：一、世是遷流轉變的意思，凡有時間的存在
 <lb n="0121a05" ed="Y"/><lb n="0121a06" ed="Y" type="old"/>者，即落於世間。世間即一切的一切，有情也即是世間的。二、假名有情為我，
 <lb n="0121a06" ed="Y"/><lb n="0121a07" ed="Y" type="old"/>我所依住的稱為世間：所依的身心，名五蘊世間；所住的世間，名器世間。三、
 <lb n="0121a07" ed="Y"/><lb n="0121a08" ed="Y" type="old"/>有情含攝得五蘊的有情自體，身外非執取的自然界，稱為世間。四、器世間為<quote source="T27n1545_p0508a20" type="嚴謹引文">「
 <lb n="0121a08" ed="Y"/><lb n="0121a09" ed="Y" type="old"/>有情業增上力」<note n="0121002" resp="周怡曄" type="add">《阿毘達磨大毘婆沙論》卷98(CBETA, T27, no. 1545, p. 508, a20)</note></quote>所成的，為有情存在的必然形態，如有色即有空。所以雖差別而
 <lb n="0121a09" ed="Y"/><lb n="0121a10" ed="Y" type="old"/>說為有情與世間，而實是有情的世間，總是從有情去說明世間。</p>
-<lb n="0121a10" ed="Y"/><lb n="0121a11" ed="Y" type="old"/><p style="text-indent:2em">佛法對於世間，有幾點根本認識：一、世間無數：佛陀不像神教者那樣淺狹<pb n="0122a" ed="Y" xml:id="Y08.0008.0122a.old" type="old"/>
+<lb n="0121a10" ed="Y"/><lb n="0121a11" ed="Y" type="old"/><p xml:id="pY08p0121a1001" style="text-indent:2em">佛法對於世間，有幾點根本認識：一、世間無數：佛陀不像神教者那樣淺狹<pb n="0122a" ed="Y" xml:id="Y08.0008.0122a.old" type="old"/>
 <pb n="0122a" ed="Y" xml:id="Y08.0008.0122a"/>
 <lb n="0122a01" ed="Y"/><lb n="0122a01" ed="Y" type="old"/>，專以渺小的區域為天下，以為神但創造這個天地。佛陀從無限時空的體驗中，
 <lb n="0122a02" ed="Y"/><lb n="0122a02" ed="Y" type="old"/>知道世界是多得難以計算的。這在過去，每被人責為懸想。由於近代科學的成就
@@ -89,32 +109,32 @@
 <lb n="0123a09" ed="Y"/><lb n="0123a09" ed="Y" type="old"/>先於有情。佛陀體驗得時空的無始終、無中邊，體驗得心色的相依共存，所以能
 <lb n="0123a10" ed="Y"/><lb n="0123a10" ed="Y" type="old"/>徹見世間為有情的世間，有情依世間而存在。這才否定了神教的創造說、數論的
 <lb n="0123a11" ed="Y"/><lb n="0123a11" ed="Y" type="old"/>發展說、勝論的組織說，樹立緣起的世界觀。</p></cb:div>
-<lb n="0123a12" ed="Y"/><lb n="0123a12" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">須彌山與四洲</cb:mulu><head>須彌山與四洲</head><lb n="0123a13" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">我們所處的世界，不妨從小處說起。從來說：須彌山在大海
+<lb n="0123a12" ed="Y"/><lb n="0123a12" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">須彌山與四洲</cb:mulu><head>須彌山與四洲</head><lb n="0123a13" ed="Y" type="old"/><p xml:id="pY08p0123a1213" style="text-indent:2em" cb:place="inline">我們所處的世界，不妨從小處說起。從來說：須彌山在大海
 <lb n="0123a13" ed="Y"/><lb n="0123a14" ed="Y" type="old"/>中，為世界的中心。山的四面有四洲，即南閻浮提、東毘提訶、西瞿陀尼、北拘<pb n="0124a" ed="Y" xml:id="Y08.0008.0124a.old" type="old"/>
 <pb n="0124a" ed="Y" xml:id="Y08.0008.0124a"/>
 <lb n="0124a01" ed="Y"/><lb n="0124a01" ed="Y" type="old"/>羅洲；四洲在鹹水海中。此外有七重山、七重海，一層層的圍繞；最外有鐵圍山
 <lb n="0124a02" ed="Y"/><lb n="0124a02" ed="Y" type="old"/>，為一世界（橫）的邊沿。須彌山深入大海，海拔非常高。山中間，四方有四嶽
 <lb n="0124a03" ed="Y"/><lb n="0124a03" ed="Y" type="old"/>，即四大王眾天的住處。日與月，在山腰中圍繞。須彌山頂，帝釋天與四方各八
 <lb n="0124a04" ed="Y"/><lb n="0124a04" ed="Y" type="old"/>輔臣共治，所以名為忉利——三十三天。這樣的世界，與現代所知的世界不同。</p>
-<lb n="0124a05" ed="Y"/><lb n="0124a05" ed="Y" type="old"/><p style="text-indent:2em">單以我們居住的地球說，一般每解說為四洲中的南閻浮提。閻浮提即印度人
+<lb n="0124a05" ed="Y"/><lb n="0124a05" ed="Y" type="old"/><p xml:id="pY08p0124a0501" style="text-indent:2em">單以我們居住的地球說，一般每解說為四洲中的南閻浮提。閻浮提即印度人
 <lb n="0124a06" ed="Y"/><lb n="0124a06" ed="Y" type="old"/>對於印度的自稱，本為印度的專名。佛法傳來中國，於是閻浮提擴大到中國來。
 <lb n="0124a07" ed="Y"/><lb n="0124a07" ed="Y" type="old"/>到近代，這個世界的範圍擴大了，地球與閻浮提的關係究竟如何？以科學說佛法
 <lb n="0124a08" ed="Y"/><lb n="0124a08" ed="Y" type="old"/>者說：須彌山即是北極，四大洲即這個地球上的大陸，閻浮提限於亞洲一帶。真
 <lb n="0124a09" ed="Y"/><lb n="0124a09" ed="Y" type="old"/>現實者說：須彌山系即一太陽系，水、金、地、火四行星即四大洲，木、土、天
 <lb n="0124a10" ed="Y"/><lb n="0124a10" ed="Y" type="old"/>王、海王四行星，即四大王眾天，太陽即忉利天。這樣，閻浮提擴大為地球的別
 <lb n="0124a11" ed="Y"/><lb n="0124a11" ed="Y" type="old"/>名了。</p>
-<lb n="0124a12" ed="Y"/><lb n="0124a12" ed="Y" type="old"/><p style="text-indent:2em">我以為：佛陀為理智的道德的宗教家，有他的工作重心，無暇與人解說或爭
+<lb n="0124a12" ed="Y"/><lb n="0124a12" ed="Y" type="old"/><p xml:id="pY08p0124a1201" style="text-indent:2em">我以為：佛陀為理智的道德的宗教家，有他的工作重心，無暇與人解說或爭
 <lb n="0124a13" ed="Y"/><lb n="0124a13" ed="Y" type="old"/>辯天文與地理。佛法中的世界安立，大抵是引用時代的傳說，如必須為這些辯說<pb n="0125a" ed="Y" xml:id="Y08.0008.0125a.old" type="old"/>
 <pb n="0125a" ed="Y" xml:id="Y08.0008.0125a"/>
 <lb n="0125a01" ed="Y"/><lb n="0125a01" ed="Y" type="old"/>，不但到底不能會通傳說，而且根本違反了佛陀的精神。像上面所說的組織完<lb n="0125a02" ed="Y" type="old"/>備
 <lb n="0125a02" ed="Y"/>的世界情況，是後起的。因為：漢譯的<bibl>《<title level="m">長阿含經</title>．<title level="m">世記經</title>》</bibl>廣說這些，但巴利
 <lb n="0125a03" ed="Y"/><lb n="0125a03" ed="Y" type="old"/>本缺。與此大同的<cit><bibl><title level="m">《立世阿毘曇論》</title>，屬於論典，說是</bibl><quote source="T32n1644_p0173a21" type="嚴謹引文">「佛婆伽婆及阿羅漢說」</quote>
-<lb n="0125a04" ed="Y"/><lb n="0125a04" ed="Y" type="old"/><bibl>（<biblScope type="卷" n="1">卷一</biblScope>）</bibl><note n="0125001" resp="周怡曄" type="add">《佛說立世阿毘曇論》卷1〈1 地動品〉(CBETA, T32, no. 1644, p. 173, a21)</note></cit>。可見釋尊曾部分的引述俗說，由後人補充推演、組織完成。</p>
-<lb n="0125a05" ed="Y"/><lb n="0125a05" ed="Y" type="old"/><p style="text-indent:2em">從釋尊的引述中，我相信，釋尊時代的須彌山與四洲，大體是近於事實的。
+<lb n="0125a04" ed="Y"/><lb n="0125a04" ed="Y" type="old"/><bibl>（<biblScope n="1" type="卷">卷一</biblScope>）</bibl><note n="0125001" resp="周怡曄" type="add">《佛說立世阿毘曇論》卷1〈1 地動品〉(CBETA, T32, no. 1644, p. 173, a21)</note></cit>。可見釋尊曾部分的引述俗說，由後人補充推演、組織完成。</p>
+<lb n="0125a05" ed="Y"/><lb n="0125a05" ed="Y" type="old"/><p xml:id="pY08p0125a0501" style="text-indent:2em">從釋尊的引述中，我相信，釋尊時代的須彌山與四洲，大體是近於事實的。
 <lb n="0125a06" ed="Y"/><lb n="0125a06" ed="Y" type="old"/>須彌山，梵語須彌盧，即今喜馬拉耶山。山南的閻浮提，從閻浮提河得名，這即
 <lb n="0125a07" ed="Y"/><lb n="0125a07" ed="Y" type="old"/>是恆河上流——閻浮提河流域。毘提訶，本為摩竭陀王朝興起以前，東方的有力
 <lb n="0125a08" ed="Y"/><lb n="0125a08" ed="Y" type="old"/>王朝，在恆河下流，今巴特那（<foreign xml:lang="sa">Patna</foreign>）以北地方。瞿陀尼，譯為牛貨，這是游
-<lb n="0125a09" ed="Y"/><lb n="0125a09" ed="Y" type="old"/>牧區，<cit><quote source="T01n0024_p0345a02-03" type="嚴謹引文">「所有市易，或以牛羊，或摩尼寶」</quote><bibl>（<title level="m">《起世經》</title><biblScope type="卷" n="7">卷七</biblScope>）</bibl><note n="0125002" resp="周怡曄" type="add">《起世經》卷7〈8 三十三天品〉(CBETA, T01, no. 24, p. 345, a2-3)</note></cit>，指印度的西北
+<lb n="0125a09" ed="Y"/><lb n="0125a09" ed="Y" type="old"/>牧區，<cit><quote source="T01n0024_p0345a02-03" type="嚴謹引文">「所有市易，或以牛羊，或摩尼寶」</quote><bibl>（<title level="m">《起世經》</title><biblScope n="7" type="卷">卷七</biblScope>）</bibl><note n="0125002" resp="周怡曄" type="add">《起世經》卷7〈8 三十三天品〉(CBETA, T01, no. 24, p. 345, a2-3)</note></cit>，指印度的西北
 <lb n="0125a10" ed="Y"/>。拘<lb n="0125a10" ed="Y" type="old"/>羅，即福地，本為婆羅門教發皇地，在薩特利支河與閻浮提河間——閻浮提
 <lb n="0125a11" ed="Y"/>以北<lb n="0125a11" ed="Y" type="old"/>，受著印度人的景仰尊重。但在這四洲的傳說中，印度人看作神聖住處的須
 <lb n="0125a12" ed="Y"/>彌山<lb n="0125a12" ed="Y" type="old"/>為中心，山南的恆河上流為南洲，向東為東洲，向西為西洲，而景仰中事實
@@ -124,7 +144,7 @@
 <lb n="0126a02" ed="Y"/>訶，<lb n="0126a02" ed="Y" type="old"/>還不是印度雅利安人的征服區。四洲說與輪王統一四洲說相連繫，這是雅利
 <lb n="0126a03" ed="Y"/>安人<lb n="0126a03" ed="Y" type="old"/>到達恆河上流，開始統一全部印度的企圖與自信的預言。這一地圖，豈不是
 <lb n="0126a04" ed="Y"/>近於<lb n="0126a04" ed="Y" type="old"/>實際！</p>
-<lb n="0126a05" ed="Y"/><lb n="0126a05" ed="Y" type="old"/><p style="margin-left:4em"><figure><graphic url="../figures/Y/Y08p0126_01.gif"></graphic><figDesc>北拘羅、須彌盧山、東毘提訶、南閻浮提、拘羅、西牛貨</figDesc></figure></p><pb n="0127a" ed="Y" xml:id="Y08.0008.0127a.old" type="old"/>
+<lb n="0126a05" ed="Y"/><lb n="0126a05" ed="Y" type="old"/><p xml:id="pY08p0126a0501" style="margin-left:4em"><figure><graphic url="../figures/Y/Y08p0126_01.gif"></graphic><figDesc>北拘羅、須彌盧山、東毘提訶、南閻浮提、拘羅、西牛貨</figDesc></figure></p><pb n="0127a" ed="Y" xml:id="Y08.0008.0127a.old" type="old"/>
 <lb n="0126a06" ed="Y"/>
 <lb n="0126a07" ed="Y"/>
 <lb n="0126a08" ed="Y"/>
@@ -134,7 +154,7 @@
 <lb n="0126a12" ed="Y"/>
 <lb n="0126a13" ed="Y"/>
 <pb n="0127a" ed="Y" xml:id="Y08.0008.0127a"/>
-<lb n="0127a01" ed="Y"/><lb n="0127a01" ed="Y" type="old"/><p style="text-indent:2em">這一傳說的起源時，須彌山雖被看作神聖住處，但四洲未必在海中。傳說：
+<lb n="0127a01" ed="Y"/><lb n="0127a01" ed="Y" type="old"/><p xml:id="pY08p0127a0101" style="text-indent:2em">這一傳說的起源時，須彌山雖被看作神聖住處，但四洲未必在海中。傳說：
 <lb n="0127a02" ed="Y"/><lb n="0127a02" ed="Y" type="old"/>佛上忉利天——須彌山高處為母說法，下來時在僧伽施，即今 <foreign xml:lang="hi-Latn">Farrukhābād</foreign> 區中
 <lb n="0127a03" ed="Y"/><lb n="0127a03" ed="Y" type="old"/>的 <foreign xml:lang="sa">Saṅkassa</foreign>。傳說：阿修羅與帝釋爭鬥，失敗了，逃入舍衛城邊水池的藕孔中
 <lb n="0127a04" ed="Y"/><lb n="0127a04" ed="Y" type="old"/>；舍衛城在今 <foreign xml:lang="sa">Sahet Mahet</foreign>。這可見須彌山即喜馬拉耶山，山的南麓，即僧伽施
@@ -144,7 +164,7 @@
 <lb n="0127a08" ed="Y"/><lb n="0127a08" ed="Y" type="old"/>從古典去考察，佛陀雖採用世俗的須彌四洲說，大致與事實不遠。我以為：現實
 <lb n="0127a09" ed="Y"/><lb n="0127a09" ed="Y" type="old"/>的科學的佛法，應從傳說中考尋早期的傳說；從不違現代世俗的立場，接受或否
 <lb n="0127a10" ed="Y"/><lb n="0127a10" ed="Y" type="old"/>定它，決不可牽強附會了事。</p></cb:div>
-<lb n="0127a11" ed="Y"/><lb n="0127a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">天魔梵與三界</cb:mulu><head>天魔梵與三界</head><lb n="0127a12" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">再擴大來說，經中每說到天、魔、梵。「天」即是四王天、
+<lb n="0127a11" ed="Y"/><lb n="0127a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">天魔梵與三界</cb:mulu><head>天魔梵與三界</head><lb n="0127a12" ed="Y" type="old"/><p xml:id="pY08p0127a1113" style="text-indent:2em" cb:place="inline">再擴大來說，經中每說到天、魔、梵。「天」即是四王天、
 <lb n="0127a12" ed="Y"/><lb n="0127a13" ed="Y" type="old"/>忉利天、夜魔天、兜率天、化樂天、他化自在天——六欲「天」。這雖有地居、
 <lb n="0127a13" ed="Y"/><lb n="0127a14" ed="Y" type="old"/>空居的差別，但都有彼此共同的器世界，有王臣、父子等社會形態。他化自在天
 <pb n="0128a" ed="Y" xml:id="Y08.0008.0128a"/>
@@ -164,16 +184,16 @@
 <pb n="0129a" ed="Y" xml:id="Y08.0008.0129a"/>
 <lb n="0129a01" ed="Y"/>般修<pb n="0129a" ed="Y" xml:id="Y08.0008.0129a.old" type="old"/><lb n="0129a01" ed="Y" type="old"/>禪定者——瑜伽者所大體公認的。佛法卻不承認這是可以解脫的，否認它能
 <lb n="0129a02" ed="Y"/>得真<lb n="0129a02" ed="Y" type="old"/>理、能得自由，所以人間成佛，開示有情世間的真義。</p>
-<lb n="0129a03" ed="Y"/><lb n="0129a03" ed="Y" type="old"/><p style="text-indent:2em">從四洲到初禪天，名為一小世界。這樣的一千小世界，上有二禪天統攝，名
+<lb n="0129a03" ed="Y"/><lb n="0129a03" ed="Y" type="old"/><p xml:id="pY08p0129a0301" style="text-indent:2em">從四洲到初禪天，名為一小世界。這樣的一千小世界，上有二禪天統攝，名
 <lb n="0129a04" ed="Y"/>為<lb n="0129a04" ed="Y" type="old"/>小千世界。一千個小千世界，名為中千世界，上有三禪天統攝。一千個中千世
 <lb n="0129a05" ed="Y"/>界<lb n="0129a05" ed="Y" type="old"/>，名為大千世界，上有四禪天統攝。這一層層組合的三千大千世界，稱為娑婆
 <lb n="0129a06" ed="Y"/>世<lb n="0129a06" ed="Y" type="old"/>界，即我們這個世界系的全貌。類似這樣的世界，無量無邊。</p></cb:div></cb:div>
 <lb n="0129a07" ed="Y"/><lb n="0129a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　人類世界的過去與未來</cb:mulu><head>第二節　人類世界的過去與未來</head>
-<lb n="0129a08" ed="Y"/><lb n="0129a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">世界的成立</cb:mulu><head>世界的成立</head><lb n="0129a09" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline"><title level="m">《中阿含經》</title>、<title level="m">《長阿含經》</title>、<title level="m">《增一阿含經》</title>，大同小異的說
+<lb n="0129a08" ed="Y"/><lb n="0129a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">世界的成立</cb:mulu><head>世界的成立</head><lb n="0129a09" ed="Y" type="old"/><p xml:id="pY08p0129a0811" style="text-indent:2em" cb:place="inline"><title level="m">《中阿含經》</title>、<title level="m">《長阿含經》</title>、<title level="m">《增一阿含經》</title>，大同小異的說
 <lb n="0129a09" ed="Y"/>到<lb n="0129a10" ed="Y" type="old"/>世界的起源與演進。這裡面，包括兩部分：一是世界生成史，一是社會演進史
 <lb n="0129a10" ed="Y"/>。<lb n="0129a11" ed="Y" type="old"/>雖表現於傳說的形式中，為佛法對於世界、人類演進的根本看法，值得我們研
 <lb n="0129a11" ed="Y"/>究！</p>
-<lb n="0129a12" ed="Y"/><lb n="0129a12" ed="Y" type="old"/><p style="text-indent:2em">世界的開始凝成時，先於「空輪」中發生「風輪」，由「風輪」而發生「水
+<lb n="0129a12" ed="Y"/><lb n="0129a12" ed="Y" type="old"/><p xml:id="pY08p0129a1201" style="text-indent:2em">世界的開始凝成時，先於「空輪」中發生「風輪」，由「風輪」而發生「水
 <pb n="0130a" ed="Y" xml:id="Y08.0008.0130a"/>
 <lb n="0130a01" ed="Y"/><lb n="0129a13" ed="Y" type="old"/>輪」，末了結成「金輪」。空、風、水、金都稱為輪，說明這世界的成立，取著<pb n="0130a" ed="Y" xml:id="Y08.0008.0130a.old" type="old"/>
 <lb n="0130a02" ed="Y"/><lb n="0130a01" ed="Y" type="old"/>圓形而旋轉的運動。空輪，即特定的空間，充滿構成世界的物質因素——四大，
@@ -183,14 +203,14 @@
 <lb n="0130a06" ed="Y"/><lb n="0130a05" ed="Y" type="old"/>，氣體與液體分化。運動中的液體，在大氣包圍中，所以說水輪依風輪。液體的
 <lb n="0130a07" ed="Y"/><lb n="0130a06" ed="Y" type="old"/>不斷運動，漸凝為固體——經中說風吹水而結成沫，即金輪。那時，水氣發散於
 <lb n="0130a08" ed="Y"/><lb n="0130a07" ed="Y" type="old"/>金輪的四週，所以說金輪依水輪。由於運動，地面有凹凸而成為海洋，雨水淹沒
-<lb n="0130a09" ed="Y"/><lb n="0130a08" ed="Y" type="old"/>了大地的大部分。<cit><bibl><title level="m">《起世經》</title><biblScope type="卷" n="9">（卷九）</biblScope>說：</bibl><quote source="T01n0024_p0356c29" type="寬鬆引文">「阿那毘羅大風吹掘大地，漸漸深入
+<lb n="0130a09" ed="Y"/><lb n="0130a08" ed="Y" type="old"/>了大地的大部分。<cit><bibl><title level="m">《起世經》</title><biblScope n="9" type="卷">（卷九）</biblScope>說：</bibl><quote source="T01n0024_p0356c29" type="寬鬆引文">「阿那毘羅大風吹掘大地，漸漸深入
 <lb n="0130a10" ed="Y"/><lb n="0130a09" ed="Y" type="old"/>，乃於其中置大水聚，湛然停積；以此因緣於世間中復有大海。」</quote><note n="0130001" resp="周怡曄" type="add">《起世經》卷9〈11 世住品〉：「阿那毘羅大風吹掘大地，漸漸深入，乃於其中，置大水聚，湛然停積。諸比丘！以此因緣，於世間中復有大海」(CBETA, T01, no. 24, p. 356, c29-p. 357, a2)</note></cit>可見海在地面
 <lb n="0130a11" ed="Y"/><lb n="0130a10" ed="Y" type="old"/>，所說的金輪依水輪，不能解說為大地在海中的。這一世界——地球的成立過程
 <lb n="0130a12" ed="Y"/><lb n="0130a11" ed="Y" type="old"/>，由氣體而液體，由液體而固體；以及現在的大地四周有水——水汽，水的四周
 <lb n="0130a13" ed="Y"/><lb n="0130a12" ed="Y" type="old"/>有風——沒有水汽的空氣，風的四周有空，一圈圈的輪形世界，與近代人的解說
 <pb n="0131a" ed="Y" xml:id="Y08.0008.0131a"/>
 <lb n="0131a01" ed="Y"/><lb n="0130a13" ed="Y" type="old"/>，並沒有什麼嚴重的矛盾。</p></cb:div><pb n="0131a" ed="Y" xml:id="Y08.0008.0131a.old" type="old"/>
-<lb n="0131a02" ed="Y"/><lb n="0131a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">人類社會的演進</cb:mulu><head>人類社會的演進</head><lb n="0131a02" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">這一世界的人類，傳說是從光音天下來，象徵他們的喜樂
+<lb n="0131a02" ed="Y"/><lb n="0131a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">人類社會的演進</cb:mulu><head>人類社會的演進</head><lb n="0131a02" ed="Y" type="old"/><p xml:id="pY08p0131a0215" style="text-indent:2em" cb:place="inline">這一世界的人類，傳說是從光音天下來，象徵他們的喜樂
 <lb n="0131a03" ed="Y"/><lb n="0131a03" ed="Y" type="old"/>與光明。那時，人類像兒童一樣，都充滿喜樂和光明的憧憬，無憂無慮，不識不
 <lb n="0131a04" ed="Y"/><lb n="0131a04" ed="Y" type="old"/>知，既不知什麼是經濟問題，也無所謂家庭男女。社會學者所說古代蒙昧的原<lb n="0131a05" ed="Y" type="old"/>始
 <lb n="0131a05" ed="Y"/>社會，一切是平等的，與佛經所說的最初人間，恰好相合。那時人類所吃的，稱
@@ -224,7 +244,7 @@
 <lb n="0133a05" ed="Y"/>首<lb n="0133a04" ed="Y" type="old"/>陀族。這些種族，佛法以為只是古代同一人類的職業分化。婆羅門不能出世，
 <lb n="0133a06" ed="Y"/>又<lb n="0133a05" ed="Y" type="old"/>不從事於實際的世間事業，想以宗教思想來統治一切，強調婆羅門的高貴，建
 <lb n="0133a07" ed="Y"/>立<lb n="0133a06" ed="Y" type="old"/>四姓階級制，實是非常的錯誤。到此，即說到釋迦族及釋尊的出世。</p>
-<lb n="0133a08" ed="Y"/><lb n="0133a07" ed="Y" type="old"/><p style="text-indent:2em">這一社會演進的傳說，我曾略有推論，分社會的演進為六期：一、蒙昧的原
+<lb n="0133a08" ed="Y"/><lb n="0133a07" ed="Y" type="old"/><p xml:id="pY08p0133a0801" style="text-indent:2em">這一社會演進的傳說，我曾略有推論，分社會的演進為六期：一、蒙昧的原
 <lb n="0133a09" ed="Y"/><lb n="0133a08" ed="Y" type="old"/>始大同時代。二、婆羅門時代，即祭政一致的時代。從政治說，雖即是田主，但
 <lb n="0133a10" ed="Y"/><lb n="0133a09" ed="Y" type="old"/>時代的中心力量是神力，是古老傳統的豐富知識力。三、剎帝利時代，即武士族
 <lb n="0133a11" ed="Y"/><lb n="0133a10" ed="Y" type="old"/>興起的時代。婆羅門——祭師開始放棄地上的實權，偏重於他方、未來、天堂，
@@ -235,7 +255,7 @@
 <lb n="0134a02" ed="Y"/><lb n="0134a01" ed="Y" type="old"/>治領導權；時代的中心力量，佛經中沒有提到，應該是群力。六、四階層的層層
 <lb n="0134a03" ed="Y"/><lb n="0134a02" ed="Y" type="old"/>興起，即四階層的層層否定，即將渡入正覺的大同時代。佛教徒所渴仰的彌勒降
 <lb n="0134a04" ed="Y"/><lb n="0134a03" ed="Y" type="old"/>生，即大同、和平、繁榮的時代到來。</p></cb:div>
-<lb n="0134a05" ed="Y"/><lb n="0134a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">未來的世界</cb:mulu><head>未來的世界</head><lb n="0134a05" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">傳說的北拘羅洲，是極福樂的世界。北拘羅洲的平等、自由，
+<lb n="0134a05" ed="Y"/><lb n="0134a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">未來的世界</cb:mulu><head>未來的世界</head><lb n="0134a05" ed="Y" type="old"/><p xml:id="pY08p0134a0511" style="text-indent:2em" cb:place="inline">傳說的北拘羅洲，是極福樂的世界。北拘羅洲的平等、自由，
 <lb n="0134a06" ed="Y"/><lb n="0134a06" ed="Y" type="old"/>有點類似此世界起初的人類社會。將此世界融入佛教的真理與自由、智慧與慈悲
 <lb n="0134a07" ed="Y"/><lb n="0134a07" ed="Y" type="old"/>，即為淨土的內容。我們這個世界，經過多少次荒亂，彌勒降生時，才實現為淨
 <lb n="0134a08" ed="Y"/><lb n="0134a08" ed="Y" type="old"/>土。佛教淨土的真精神，如果說在西方極樂國、在兜率天內院，不如說重在這個

@@ -12,56 +12,76 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 29, No. 29</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">29</idno>.<idno type="no">29</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（五）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十五、我與東老的一段往事</cb:mulu>
-<milestone unit="juan" n="16"/><pb n="0183a" ed="Y" xml:id="Y29.0029.0183a.old" type="old"/>
+<milestone n="16" unit="juan"/><pb n="0183a" ed="Y" xml:id="Y29.0029.0183a.old" type="old"/>
 <pb n="0183a" ed="Y" xml:id="Y29.0029.0183a"/>
 <lb n="0183a01" ed="Y"/><lb n="0183a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十六、我所不能忘懷的人</cb:mulu><head>我所不能忘懷的人<note n="0183001" resp="DILA" type="add">民國六五年撰。</note></head>
-<lb n="0183a02" ed="Y"/><lb n="0183a02" ed="Y" type="old"/><p style="text-indent:2em">在我離岷的前夕——三月十一日，去醫院與妙欽法師話別，這是一個難忘的
+<lb n="0183a02" ed="Y"/><lb n="0183a02" ed="Y" type="old"/><p xml:id="pY29p0183a0201" style="text-indent:2em">在我離岷的前夕——三月十一日，去醫院與妙欽法師話別，這是一個難忘的
 <lb n="0183a03" ed="Y"/><lb n="0183a03" ed="Y" type="old"/>日子！明知他的病是絕望了的，但還是說了些在佛法中安心靜養的話；明知這是
 <lb n="0183a04" ed="Y"/><lb n="0183a04" ed="Y" type="old"/>生死的離別，但故意附和他前幾天的希望，說些等身體健朗一點，到台灣去靜養
 <lb n="0183a05" ed="Y"/><lb n="0183a05" ed="Y" type="old"/>，同為佛法努力的話。話是這麼說了，人也就離開了，但一種寂寞的悵惘，縈迴
 <lb n="0183a06" ed="Y"/><lb n="0183a06" ed="Y" type="old"/>在內心而不易忘卻。就在我離岷到星洲的不久——三十日晨，妙欽就與世長辭了
 <lb n="0183a07" ed="Y"/><lb n="0183a07" ed="Y" type="old"/>！人是不能免於無常的，聚散無非因緣，用不著繫戀，但想起當年大家求法與為
 <lb n="0183a08" ed="Y"/><lb n="0183a08" ed="Y" type="old"/>法的理想，不能不「為法惜人」，引起我無比的惆悵。</p>
-<lb n="0183a09" ed="Y"/><lb n="0183a09" ed="Y" type="old"/><p style="text-indent:2em">民國二十九年年底，我從貴陽回到四川的漢藏教理院，見到了從香港來漢院
+<lb n="0183a09" ed="Y"/><lb n="0183a09" ed="Y" type="old"/><p xml:id="pY29p0183a0901" style="text-indent:2em">民國二十九年年底，我從貴陽回到四川的漢藏教理院，見到了從香港來漢院
 <lb n="0183a10" ed="Y"/><lb n="0183a10" ed="Y" type="old"/>旁聽的演培與妙欽；到現在，已經三十六年了。我與妙欽共住的時間，在漢院有
 <lb n="0183a11" ed="Y"/><lb n="0183a11" ed="Y" type="old"/>二年多，在杭州、廈門、馬尼拉，先後也不過三四年，時間並不算太久。然在佛<pb n="0184a" ed="Y" xml:id="Y29.0029.0184a.old" type="old"/>
 <pb n="0184a" ed="Y" xml:id="Y29.0029.0184a"/>
@@ -84,7 +104,7 @@
 <lb n="0185a03" ed="Y"/><lb n="0185a03" ed="Y" type="old"/>環境，在法義的闡述上，應有更好的成就。可惜受到時代與環境的局限，不能得
 <lb n="0185a04" ed="Y"/><lb n="0185a04" ed="Y" type="old"/>到充分開展的機會，而今又在五十六歲的盛年去世了！這不只我失去了佛法中的
 <lb n="0185a05" ed="Y"/><lb n="0185a05" ed="Y" type="old"/>同願，對中華佛教來說，也是一嚴重的損失！</p>
-<lb n="0185a06" ed="Y"/><lb n="0185a06" ed="Y" type="old"/><p style="text-indent:2em">抗戰勝利了，我們回到了江南。希望有一個安心修學的組織，大家來共同研
+<lb n="0185a06" ed="Y"/><lb n="0185a06" ed="Y" type="old"/><p xml:id="pY29p0185a0601" style="text-indent:2em">抗戰勝利了，我們回到了江南。希望有一個安心修學的組織，大家來共同研
 <lb n="0185a07" ed="Y"/><lb n="0185a07" ed="Y" type="old"/>求，所以創議成立西湖佛教圖書館。由於時局突變，不能成為事實。我到了廈門
 <lb n="0185a08" ed="Y"/><lb n="0185a08" ed="Y" type="old"/>，南普陀寺成立大覺講社，是妙欽從中促成的。短暫的半年，當然不可能有成就
 <lb n="0185a09" ed="Y"/><lb n="0185a09" ed="Y" type="old"/>，但演培、續明，都因此而到了廈門。等到我與演培他們到了香港（新界），仍
@@ -95,7 +115,7 @@
 <pb n="0186a" ed="Y" xml:id="Y29.0029.0186a"/>
 <lb n="0186a01" ed="Y"/><lb n="0186a01" ed="Y" type="old"/>過去的理想，隨歲月而過去，妙欽竟先我而去了！在我不堪衰老的回憶中，怎能
 <lb n="0186a02" ed="Y"/><lb n="0186a02" ed="Y" type="old"/>不引起傷感呢！</p>
-<lb n="0186a03" ed="Y"/><lb n="0186a03" ed="Y" type="old"/><p style="text-indent:2em">「求真」與「適今」的佛法方針，做起來是不容易的。因為離開了傳統的佛
+<lb n="0186a03" ed="Y"/><lb n="0186a03" ed="Y" type="old"/><p xml:id="pY29p0186a0301" style="text-indent:2em">「求真」與「適今」的佛法方針，做起來是不容易的。因為離開了傳統的佛
 <lb n="0186a04" ed="Y"/><lb n="0186a04" ed="Y" type="old"/>教，不容易開展；依附於傳統的佛教，又會受到限礙，這是近代佛教一直存在著
 <lb n="0186a05" ed="Y"/><lb n="0186a05" ed="Y" type="old"/>的問題。我在台灣十多年（除病），只做到不標榜神奇不依賴經懺而已。就這樣
 <lb n="0186a06" ed="Y"/><lb n="0186a06" ed="Y" type="old"/>，也還要受到些意外的譏毀。妙欽在馬尼拉信願寺，住了二十多年，雖曾在普賢

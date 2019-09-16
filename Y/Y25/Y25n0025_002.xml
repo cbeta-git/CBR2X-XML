@@ -12,69 +12,89 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>5卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 25, No. 25</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>5卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">25</idno>.<idno type="no">25</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（一）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB01369">
-	<charName>CBETA CHARACTER CB01369</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[馬*夌]</value>
-	</charProp>
-	<mapping type="unicode">U+4B9A</mapping>
-	<mapping cb:dec="984409" type="PUA">U+F0559</mapping>
-</char>
-<char xml:id="CB34413">
-	<charName>CBETA CHARACTER CB34413</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[日*虛]</value>
-	</charProp>
-	<mapping cb:dec="1017453" type="PUA">U+F866D</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB01369">
+				<charName>CBETA CHARACTER CB01369</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[馬*夌]</value>
+				</charProp>
+				<mapping type="unicode">U+4B9A</mapping>
+				<mapping cb:dec="984409" type="PUA">U+F0559</mapping>
+			</char>
+			<char xml:id="CB34413">
+				<charName>CBETA CHARACTER CB34413</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[日*虛]</value>
+				</charProp>
+				<mapping cb:dec="1017453" type="PUA">U+F866D</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">一、大樹緊那羅王所問經偈頌講記</cb:mulu><cb:mulu level="2" type="其他">跋後</cb:mulu>
-<milestone unit="juan" n="2"/><pb n="0149a" ed="Y" xml:id="Y25.0025.0149a.old" type="old"/>
+<milestone n="2" unit="juan"/><pb n="0149a" ed="Y" xml:id="Y25.0025.0149a.old" type="old"/>
 <pb n="0149a" ed="Y" xml:id="Y25.0025.0149a"/>
 <lb n="0149a01" ed="Y"/><lb n="0149a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">二、楞伽阿跋多羅寶經釋題</cb:mulu><head>楞伽阿跋多羅寶經釋題<note n="0149001" resp="CBETA" type="add">民國四六年撰。</note></head>
 <lb n="0149a02" ed="Y"/><lb n="0149a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　傳譯與弘通</cb:mulu><head>一　傳譯與弘通</head>
-<lb n="0149a03" ed="Y"/><lb n="0149a03" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《楞伽經》</title>之譯為華文，凡經三譯。劉宋元嘉中，求那跋陀羅初譯，名<title level="m">《楞
+<lb n="0149a03" ed="Y"/><lb n="0149a03" ed="Y" type="old"/><p xml:id="pY25p0149a0301" style="text-indent:2em"><title level="m">《楞伽經》</title>之譯為華文，凡經三譯。劉宋元嘉中，求那跋陀羅初譯，名<title level="m">《楞
 <lb n="0149a04" ed="Y"/><lb n="0149a04" ed="Y" type="old"/>伽阿跋多羅寶經》</title>，凡四卷，總為一品，題作「一切佛語心品第一」。元魏延昌
 <lb n="0149a05" ed="Y"/><lb n="0149a05" ed="Y" type="old"/>年中，菩提留支再譯，名<title level="m">《入楞伽經》</title>，凡十卷，分十八品。除第一<title level="a">〈請佛品〉</title>
 <lb n="0149a06" ed="Y"/><lb n="0149a06" ed="Y" type="old"/>、第十七<title level="a">〈陀羅尼品〉</title>、第十八<title level="a">〈總品〉</title>外，餘十五品與宋譯相當。唐久視年，
@@ -85,7 +105,7 @@
 <pb n="0150a" ed="Y" xml:id="Y25.0025.0150a"/>
 <lb n="0150a01" ed="Y"/>》</title>，以<pb n="0150a" ed="Y" xml:id="Y25.0025.0150a.old" type="old"/><lb n="0150a01" ed="Y" type="old"/>宋譯<title level="m">《楞伽經》</title>為主，考訂於魏、唐二譯及梵本，亦通<title level="m">《楞伽經》</title>之善書
 <lb n="0150a02" ed="Y"/>！世之弘通<lb n="0150a02" ed="Y" type="old"/>本經者，以宋譯為盛，今亦從之。</p>
-<lb n="0150a03" ed="Y"/><lb n="0150a03" ed="Y" type="old"/><p style="text-indent:2em">本經之弘通者，在印度，或謂龍樹門人有弘如來藏法門者。菩提流支譯<title level="m">《提
+<lb n="0150a03" ed="Y"/><lb n="0150a03" ed="Y" type="old"/><p xml:id="pY25p0150a0301" style="text-indent:2em">本經之弘通者，在印度，或謂龍樹門人有弘如來藏法門者。菩提流支譯<title level="m">《提
 <lb n="0150a04" ed="Y"/><lb n="0150a04" ed="Y" type="old"/>婆菩薩破楞伽經中外道小乘四宗論》</title>，似可證成此說。然以菩提流支所譯<title level="m">《唯<lb n="0150a05" ed="Y" type="old"/>識
 <lb n="0150a05" ed="Y"/>二十論》</title>，題作<title level="m">《楞伽經唯識論》</title>觀之，則「楞伽經」之名，純係譯者意加，<lb n="0150a06" ed="Y" type="old"/>不
 <lb n="0150a06" ed="Y"/>足信也。西元四、五世紀間，無著師資興起於西北印，弘虛妄唯識論，於五法<lb n="0150a07" ed="Y" type="old"/>、
@@ -98,7 +118,7 @@
 <lb n="0150a13" ed="Y"/>依<title level="m">《<lb n="0150a13" ed="Y" type="old"/>楞伽經》</title>以為貫攝唯識、性空二家之證。月稱則以<title level="m">《楞伽經》</title>為唯識見，非
 <pb n="0151a" ed="Y" xml:id="Y25.0025.0151a"/>
 <lb n="0151a01" ed="Y"/>了義之中<pb n="0151a" ed="Y" xml:id="Y25.0025.0151a.old" type="old"/><lb n="0151a01" ed="Y" type="old"/>道也。</p>
-<lb n="0151a02" ed="Y"/><lb n="0151a02" ed="Y" type="old"/><p style="text-indent:2em">求那跋陀羅初譯本經於南土，文澀義晦，不為南土學者所重。迨留支再譯於
+<lb n="0151a02" ed="Y"/><lb n="0151a02" ed="Y" type="old"/><p xml:id="pY25p0151a0201" style="text-indent:2em">求那跋陀羅初譯本經於南土，文澀義晦，不為南土學者所重。迨留支再譯於
 <lb n="0151a03" ed="Y"/><lb n="0151a03" ed="Y" type="old"/>北魏，創地論宗，為<title level="m">《楞伽經》</title>作疏，由是光、寵之門，學者輩出。適菩提達磨
 <lb n="0151a04" ed="Y"/><lb n="0151a04" ed="Y" type="old"/>亦於此時來北土傳禪，以四卷<title level="m">《楞伽經》</title>印心，<title level="m">《楞伽經》</title>乃為北地學者之要典
 <lb n="0151a05" ed="Y"/>。<lb n="0151a05" ed="Y" type="old"/>達磨與流支同世，宗四卷<title level="m">《楞伽經》</title>而不取十卷本，其思想與留支應有觝牾。
@@ -128,9 +148,9 @@
 <lb n="0153a01" ed="Y"/>見精確。循此以往，其或能出<title level="m">《大乘起信論》</title>、<title level="m">《成唯識論》</title>及禪<pb n="0153a" ed="Y" xml:id="Y25.0025.0153a.old" type="old"/><lb n="0153a01" ed="Y" type="old"/>者之藩籬，而
 <lb n="0153a02" ed="Y"/>直探<title level="m">《楞伽經》</title>之本義者乎！</p></cb:div>
 <lb n="0153a03" ed="Y"/><lb n="0153a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　略釋題義</cb:mulu><head>二　略釋題義</head>
-<lb n="0153a04" ed="Y"/><lb n="0153a03" ed="Y" type="old"/><p style="text-indent:2em">題，有經題、品題。經題名<title level="m">《楞伽阿跋多羅寶經》</title>，先依事釋之。「楞伽」
+<lb n="0153a04" ed="Y"/><lb n="0153a03" ed="Y" type="old"/><p xml:id="pY25p0153a0401" style="text-indent:2em">題，有經題、品題。經題名<title level="m">《楞伽阿跋多羅寶經》</title>，先依事釋之。「楞伽」
 <lb n="0153a05" ed="Y"/><lb n="0153a04" ed="Y" type="old"/>，此云<quote source="T39n1789_p0343c13" type="嚴謹引文">「不可往」<note n="0153001" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經註解》卷1(CBETA, T39, no. 1789, p. 343, c13)</note></quote>，即今錫蘭島之別名。<cit><bibl><title level="m">《西域記》</title>說：</bibl><quote type="嚴謹引文">「國東南隅有<g ref="#CB01369"/>迦山，
-<lb n="0153a06" ed="Y"/><lb n="0153a05" ed="Y" type="old"/>巖谷幽峻，神鬼遊舍。在昔如來於此說<title level="m">《<g ref="#CB01369"/><note n="0153a0601" resp="CBETA" type="add">迦【CB】，伽【印順】</note><app n="0153a0601"><lem wit="【CB】" resp="正聞出版社">迦</lem><rdg wit="【印順】">伽</rdg></app>經》</title>。」</quote><note n="0153002" resp="厚觀法師" type="add">《大唐西域記》卷11(CBETA, T51, no. 2087, p. 934, b19-20)</note></cit>玄奘傳以楞伽為山名，與
+<lb n="0153a06" ed="Y"/><lb n="0153a05" ed="Y" type="old"/>巖谷幽峻，神鬼遊舍。在昔如來於此說<title level="m">《<g ref="#CB01369"/><note n="0153a0601" resp="CBETA" type="add">迦【CB】，伽【印順】</note><app n="0153a0601"><lem resp="正聞出版社" wit="【CB】">迦</lem><rdg wit="【印順】">伽</rdg></app>經》</title>。」</quote><note n="0153002" resp="厚觀法師" type="add">《大唐西域記》卷11(CBETA, T51, no. 2087, p. 934, b19-20)</note></cit>玄奘傳以楞伽為山名，與
 <lb n="0153a07" ed="Y"/>本經<lb n="0153a06" ed="Y" type="old"/>「楞伽山頂」之說合。然唐譯、魏譯，並謂「摩羅耶山頂楞伽城中」。本經
 <lb n="0153a08" ed="Y"/>云<lb n="0153a07" ed="Y" type="old"/><quote source="T16n0670_p0484a09" type="嚴謹引文">「為楞伽國摩羅耶山，海中住處諸大菩薩」<note n="0153003" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷1〈一切佛語心品〉(CBETA, T16, no. 670, p. 484, a9)</note></quote><note place="inline">二．二</note>（即第二章第二節，下例）
 <lb n="0153a09" ed="Y"/>，則<lb n="0153a08" ed="Y" type="old"/>楞伽又似為國名。詳<title level="m">《羅摩衍那》</title>詩篇，即以楞伽名島。島為海中山，而島
@@ -147,7 +167,7 @@
 <lb n="0154a07" ed="Y"/>經<lb n="0154a06" ed="Y" type="old"/>所說之一乘聖智，亦如<title level="m">《法華經》</title>髻珠之譬。<quote type="嚴謹引文">「經」</quote>於梵語為修多羅，直譯為
 <lb n="0154a08" ed="Y"/>綖<lb n="0154a07" ed="Y" type="old"/>，綖有「貫串攝持」之用。編集者以名句文身，集楞伽城所說大法，章段貫攝
 <lb n="0154a09" ed="Y"/>，<lb n="0154a08" ed="Y" type="old"/>乃得展轉傳誦，久行而不散失，故名<title level="m">《楞伽阿跋多羅寶經》</title>。</p>
-<lb n="0154a10" ed="Y"/><lb n="0154a09" ed="Y" type="old"/><p style="text-indent:2em">次約義釋。唐譯<cit><bibl><title level="a">〈勸請品〉</title>云</bibl><quote source="T16n0672_p0588a29-b01" type="嚴謹引文">「此是修行甚深觀行，現法樂者之所住處」</quote><note n="0154004" resp="謝淑歆" type="add">《大乘入楞伽經》卷1〈1 羅婆那王勸請品〉(CBETA, T16, no. 672, p. 588, a29-b1)</note></cit><lb n="0154a10" ed="Y" type="old"/>；
+<lb n="0154a10" ed="Y"/><lb n="0154a09" ed="Y" type="old"/><p xml:id="pY25p0154a1001" style="text-indent:2em">次約義釋。唐譯<cit><bibl><title level="a">〈勸請品〉</title>云</bibl><quote source="T16n0672_p0588a29-b01" type="嚴謹引文">「此是修行甚深觀行，現法樂者之所住處」</quote><note n="0154004" resp="謝淑歆" type="add">《大乘入楞伽經》卷1〈1 羅婆那王勸請品〉(CBETA, T16, no. 672, p. 588, a29-b1)</note></cit><lb n="0154a10" ed="Y" type="old"/>；
 <lb n="0154a11" ed="Y"/>三世諸佛，並<quote source="T16n0672_p0587c29" type="嚴謹引文">「住楞伽城中，說自所證法」<note n="0154005" resp="謝淑歆" type="add">《大乘入楞伽經》卷1〈1 羅婆那王勸請品〉(CBETA, T16, no. 672, p. 587, c29)</note></quote>。自證，即<quote source="T16n0670_p0490c23" type="嚴謹引文">「一切外道所不行，自<lb n="0154a11" ed="Y" type="old"/>覺
 <lb n="0154a12" ed="Y"/>聖智所行」<note n="0154006" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷2〈一切佛語心品〉(CBETA, T16, no. 670, p. 490, c23)</note></quote><note place="inline">七．二</note>。出二邊，離四句，超越根量，難解難入，故喻以楞伽難入<lb n="0154a12" ed="Y" type="old"/>之
 <lb n="0154a13" ed="Y"/>城，而佛入其中。<quote type="嚴謹引文">「自覺聖智所行」</quote>，為一經眼目，然實淺深、偏圓不一，未<lb n="0154a13" ed="Y" type="old"/>可
@@ -168,7 +188,7 @@
 <pb n="0156a" ed="Y" xml:id="Y25.0025.0156a"/>
 <lb n="0156a01" ed="Y"/>無我，離二<lb n="0155a13" ed="Y" type="old"/>煩惱，淨除二障，永離二死」<note n="0156001" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷3〈一切佛語心品〉(CBETA, T16, no. 670, p. 505, a13-14)</note></quote><note place="inline">一七．二</note>。出過一切虛偽，離一切根量
 <lb n="0156a02" ed="Y"/>之究竟覺，<pb n="0156a" ed="Y" xml:id="Y25.0025.0156a.old" type="old"/><lb n="0156a01" ed="Y" type="old"/>乃為圓證自覺聖智，亦即究竟入楞伽也。</p>
-<lb n="0156a03" ed="Y"/><lb n="0156a02" ed="Y" type="old"/><p style="text-indent:2em">楞伽為難入之城，以喻自覺聖智所行。既難往難入，豈無方便者所能入？入
+<lb n="0156a03" ed="Y"/><lb n="0156a02" ed="Y" type="old"/><p xml:id="pY25p0156a0301" style="text-indent:2em">楞伽為難入之城，以喻自覺聖智所行。既難往難入，豈無方便者所能入？入
 <lb n="0156a04" ed="Y"/><lb n="0156a03" ed="Y" type="old"/>之應有其道。依<title level="a">〈勸請品〉</title>觀之，先後次第，固宛然可見。初則本淨如來藏心，
 <lb n="0156a05" ed="Y"/><lb n="0156a04" ed="Y" type="old"/>波動為生死大海，雖流轉生死，而實為涅槃之因。故曰：<quote source="T16n0670_p0512b16-17" type="嚴謹引文">「如來藏者，受苦樂，
 <lb n="0156a06" ed="Y"/><lb n="0156a05" ed="Y" type="old"/>與（涅槃）因俱。」<note n="0156002" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷4〈一切佛語心品〉(CBETA, T16, no. 670, p. 512, b16-17)</note></quote><note place="inline">一九．四</note>又佛出生死大海，而南望楞伽，即先覺之佛陀，觀
@@ -188,7 +208,7 @@
 <lb n="0157a06" ed="Y"/>薩入無<lb n="0157a05" ed="Y" type="old"/>所有（楞伽）地也。得無生忍已，菩薩己事已辦，乃唯莊嚴佛土，成熟有
 <lb n="0157a07" ed="Y"/>情是務<lb n="0157a06" ed="Y" type="old"/>，大慧乃問變化如來所說法非法義。據此，則入楞伽心，不可偏理撥事，
 <lb n="0157a08" ed="Y"/>置資糧<lb n="0157a07" ed="Y" type="old"/>於不問。</p>
-<lb n="0157a09" ed="Y"/><lb n="0157a08" ed="Y" type="old"/><p style="text-indent:2em">於此層層深入之聖智自覺事中，略以二事為要門：一、親近善士以得正見：
+<lb n="0157a09" ed="Y"/><lb n="0157a08" ed="Y" type="old"/><p xml:id="pY25p0157a0901" style="text-indent:2em">於此層層深入之聖智自覺事中，略以二事為要門：一、親近善士以得正見：
 <lb n="0157a10" ed="Y"/><lb n="0157a09" ed="Y" type="old"/><quote source="T16n0670_p0484b07" type="嚴謹引文">「諸修行者，應當親近最勝知識」<note n="0157004" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷1〈一切佛語心品〉(CBETA, T16, no. 670, p. 484, b7)</note></quote><note place="inline">二．二</note>。所謂最勝者，<quote source="T16n0670_p0507a12-15" type="嚴謹引文">「謂善於義，非善言說
 <lb n="0157a11" ed="Y"/><lb n="0157a10" ed="Y" type="old"/>。善義者，不墮一切外道經論。身自不隨，亦不令他隨，是則名曰大德多聞。是
 <lb n="0157a12" ed="Y"/><lb n="0157a11" ed="Y" type="old"/>故欲求義者，當親近多聞，所謂善義」<note n="0157005" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷4〈一切佛語心品〉(CBETA, T16, no. 670, p. 507, a12-15)</note></quote><note place="inline">一八．一</note>。蓋必親近善知識，乃知<quote source="T16n0670_p0489a15-17" type="嚴謹引文">「一切
@@ -201,7 +221,7 @@
 <lb n="0158a05" ed="Y"/>，<quote source="T16n0670_p0485a13-14" type="嚴謹引文">「當<lb n="0158a04" ed="Y" type="old"/>通達自心現妄想之相」<note n="0158004" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷1〈一切佛語心品〉(CBETA, T16, no. 670, p. 485, a13-14)</note></quote><note place="inline">二．二</note>，<quote source="T16n0670_p0485c13" type="嚴謹引文">「當思惟自心現妄想」<note n="0158005" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷1〈一切佛語心品〉(CBETA, T16, no. 670, p. 485, c13)</note></quote><note place="inline">三．一</note>。《楞伽
 <lb n="0158a06" ed="Y"/>經》之章章節節，<lb n="0158a05" ed="Y" type="old"/>莫非此宗。<quote type="嚴謹引文">「觀察義禪」</quote>，<quote type="嚴謹引文">「攀緣如禪」</quote>，<quote type="嚴謹引文">「如來（藏）禪」</quote><note n="0158006" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷2〈一切佛語心品〉：「觀察義禪、攀緣如禪、如來禪」(CBETA, T16, no. 670, p. 492, a14)</note>
 <lb n="0158a07" ed="Y"/>，即其現觀次第。<lb n="0158a06" ed="Y" type="old"/>以善義者為依止，以唯心現為觀行，自覺聖智乃難入而可入。</p>
-<lb n="0158a08" ed="Y"/><lb n="0158a07" ed="Y" type="old"/><p style="text-indent:2em">品名為<title level="a">〈一切佛語心〉</title>。宋譯唯標<quote source="T16n0670_p0480a16" type="嚴謹引文">「一切佛語心品」<note n="0158007" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷1〈一切佛語心品〉(CBETA, T16, no. 670, p. 480, a16)</note></quote>。西藏<title level="m">多氏《印度佛教
+<lb n="0158a08" ed="Y"/><lb n="0158a07" ed="Y" type="old"/><p xml:id="pY25p0158a0801" style="text-indent:2em">品名為<title level="a">〈一切佛語心〉</title>。宋譯唯標<quote source="T16n0670_p0480a16" type="嚴謹引文">「一切佛語心品」<note n="0158007" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷1〈一切佛語心品〉(CBETA, T16, no. 670, p. 480, a16)</note></quote>。西藏<title level="m">多氏《印度佛教
 <lb n="0158a09" ed="Y"/><lb n="0158a08" ed="Y" type="old"/>史》</title>，謂那爛陀寺所藏<title level="m">《楞伽經》</title>，火後僅存<title level="a">〈如來心品〉</title>，則宋譯但作一品，
 <lb n="0158a10" ed="Y"/><lb n="0158a09" ed="Y" type="old"/>猶是梵本之舊。<quote type="嚴謹引文">「一切佛語心」</quote>者，十方三世一切佛語，雖意在一心，而<quote type="嚴謹引文">「為彼
 <lb n="0158a11" ed="Y"/><lb n="0158a10" ed="Y" type="old"/>種種異解眾生而說諸法」<note n="0158008" resp="厚觀法師" type="add">《楞伽阿跋多羅寶經》卷4〈一切佛語心品〉(CBETA, T16, no. 670, p. 506, c12)</note></quote>，多空拳黃葉之談。今楞伽法會，於無可說中，直示自
@@ -216,7 +236,7 @@
 <lb n="0159a06" ed="Y"/>城，<title level="m">《楞伽經》</title><lb n="0159a05" ed="Y" type="old"/>之宗本，的在於此。以心為真實心，宋譯有明文。多氏傳謂唯存
 <lb n="0159a07" ed="Y"/><title level="a">〈如來心品〉</title>，<lb n="0159a06" ed="Y" type="old"/>亦即佛心之謂也。</p></cb:div>
 <lb n="0159a08" ed="Y"/><lb n="0159a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　文義次第</cb:mulu><head>三　文義次第</head>
-<lb n="0159a09" ed="Y"/><lb n="0159a08" ed="Y" type="old"/><p style="text-indent:2em">傳說<title level="m">《楞伽經》</title>有大本，凡十萬頌，雖確否難知，而現存<title level="m">《楞伽經》</title>，則似
+<lb n="0159a09" ed="Y"/><lb n="0159a08" ed="Y" type="old"/><p xml:id="pY25p0159a0901" style="text-indent:2em">傳說<title level="m">《楞伽經》</title>有大本，凡十萬頌，雖確否難知，而現存<title level="m">《楞伽經》</title>，則似
 <lb n="0159a10" ed="Y"/><lb n="0159a09" ed="Y" type="old"/>為殘本。大慧發一百八問，而所答不多；經末無流通分；題<quote source="T16n0670_p0480a16" type="嚴謹引文">「一切佛語心品第一
 <lb n="0159a11" ed="Y"/><lb n="0159a10" ed="Y" type="old"/>」<note n="0159008" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷1〈一切佛語心品〉(CBETA, T16, no. 670, p. 480, a16)</note></quote>而無餘品；多氏傳係火後之一品，皆足為殘闕不全之證。唐、魏二譯，前有羅
 <lb n="0159a12" ed="Y"/><lb n="0159a11" ed="Y" type="old"/>婆那王<title level="a">〈請佛品〉</title>，後有<title level="a">〈陀羅尼品〉</title>、<title level="a">〈偈頌品〉</title>，亦不足以言足本。就中唐
@@ -226,7 +246,7 @@
 <lb n="0160a03" ed="Y"/>伽經》</title>重頌<lb n="0160a02" ed="Y" type="old"/>而別行者。所有偈頌，應並有長行問答。雖長行有所闕佚，而以總頌
 <lb n="0160a04" ed="Y"/>別行，猶得<lb n="0160a03" ed="Y" type="old"/>傳誦不失，乃附於殘本之後。唐譯見部分偈頌重出，乃刪去之，改名
 <lb n="0160a05" ed="Y"/>為偈頌。此<lb n="0160a04" ed="Y" type="old"/>雖無古本可勘實，以理論之，其演變當如是。</p>
-<lb n="0160a06" ed="Y"/><lb n="0160a05" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《楞伽經》</title>一經，素稱難讀。不僅文字艱澀，其句義次第，倍覺深隱。以是
+<lb n="0160a06" ed="Y"/><lb n="0160a05" ed="Y" type="old"/><p xml:id="pY25p0160a0601" style="text-indent:2em"><title level="m">《楞伽經》</title>一經，素稱難讀。不僅文字艱澀，其句義次第，倍覺深隱。以是
 <lb n="0160a07" ed="Y"/>，<lb n="0160a06" ed="Y" type="old"/>古人或判為百八句，三十九門。此三十九門，或分作四十一門等。古人多以為
 <lb n="0160a08" ed="Y"/>隨<lb n="0160a07" ed="Y" type="old"/>問隨答，不復深求次第。歐陽漸<cit><bibl><title level="m">《楞伽疏決》</title>云：</bibl><quote>「雅頌失所，琴瑟不調，增
 <lb n="0160a09" ed="Y"/>安<lb n="0160a08" ed="Y" type="old"/>繁蕪，安能純繹！讀雜亂書，倍阻機穎。」</quote></cit>是直以本經為雜亂無敘，以是割裂
@@ -240,7 +260,7 @@
 <lb n="0161a03" ed="Y"/>地<lb n="0161a02" ed="Y" type="old"/>；二、入心量地；三、入無所有地；四、入最勝地。經云：<quote source="T16n0670_p0509c24" type="嚴謹引文">「無所有何次？」<note n="0161001" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷4〈一切佛語心品〉(CBETA, T16, no. 670, p. 509, c24)</note></quote>
 <lb n="0161a04" ed="Y"/>勝<lb n="0161a03" ed="Y" type="old"/>義自證，有何次第可言？然勝義空性不礙如幻法相，其中次第因循，固歷然有
 <lb n="0161a05" ed="Y"/>序<lb n="0161a04" ed="Y" type="old"/>。於四門中，復為分別，（連百八句共）作二十章，列表如下：</p>
-<lb n="0161a06" ed="Y"/><lb n="0161a05" ed="Y" type="old"/><p cb:type="pre">　　　一、總問略答直示佛心<note place="inline">一章</note>
+<lb n="0161a06" ed="Y"/><lb n="0161a05" ed="Y" type="old"/><p cb:type="pre" xml:id="pY25p0161a0601">　　　一、總問略答直示佛心<note place="inline">一章</note>
 <lb n="0161a07" ed="Y"/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　┌心意意識<note place="inline">二</note>
 <lb n="0161a08" ed="Y"/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　┌開示性相┼諸法自性<note place="inline">三</note>
 <lb n="0161a09" ed="Y"/>　　　　　　　　　　　　　　　　　　　　　　　　　┌善辨中邊┤　　　　└二無我相<note place="inline">四</note>
@@ -267,93 +287,93 @@
 <lb n="0162a13" ed="Y"/>　　　　　　　　　　　　　└─入最勝地─┤
 <lb n="0162a14" ed="Y"/>　　　　　　　　　　　　　　　　　　　　├通攝四淨<note place="inline">一九</note>
 <lb n="0162a15" ed="Y"/>　　　　　　　　　　　　　　　　　　　　└會歸一實<note place="inline">二〇章</note></p>
-<lb n="0162a16" ed="Y"/><pb n="0162a" ed="Y" xml:id="Y25.0025.0162a.old" type="old"/><lb n="0162a12" ed="Y" type="old"/><p style="text-indent:2em">依上大科，<title level="m">《楞伽經》</title>之修證次第，歷然不亂，固未嘗如或者所見之蕪雜也<pb n="0163a" ed="Y" xml:id="Y25.0025.0163a.old" type="old"/>
+<lb n="0162a16" ed="Y"/><pb n="0162a" ed="Y" xml:id="Y25.0025.0162a.old" type="old"/><lb n="0162a12" ed="Y" type="old"/><p xml:id="pY25p0162a1601" style="text-indent:2em">依上大科，<title level="m">《楞伽經》</title>之修證次第，歷然不亂，固未嘗如或者所見之蕪雜也<pb n="0163a" ed="Y" xml:id="Y25.0025.0163a.old" type="old"/>
 <pb n="0163a" ed="Y" xml:id="Y25.0025.0163a"/>
 <lb n="0163a01" ed="Y"/><lb n="0163a01" ed="Y" type="old"/>。為易於受持，繁簡適中計，就此五門、二十章，更分為五十一節，注明文段，
 <lb n="0163a02" ed="Y"/><lb n="0163a02" ed="Y" type="old"/>，以作解釋所依。讀者應時憶全經統系，勿為章節所拘，以免得義次而乖文段！
 <lb n="0163a03" ed="Y"/><lb n="0163a03" ed="Y" type="old"/>更科列如下：</p>
-<lb n="0163a04" ed="Y"/><lb n="0163a04" ed="Y" type="old"/><list rend="no-marker"><item><p rend="bold" style="margin-left:1em">一、開宗明義門</p>
-<lb n="0163a05" ed="Y"/><lb n="0163a05" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">一、直示佛心章</p>
-<lb n="0163a06" ed="Y"/><lb n="0163a06" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">1.序起……………………「今世後世淨」<note place="inline">經文至此，下例</note></p></item>
-<lb n="0163a07" ed="Y"/><lb n="0163a07" ed="Y" type="old"/><item><p style="margin-left:1em">2.百八句…………………「應當修學」</p></item></list></item>
-<lb n="0163a08" ed="Y"/><lb n="0163a08" ed="Y" type="old"/><item><p style="margin-left:1em">二、心意意識章</p>
-<lb n="0163a09" ed="Y"/><lb n="0163a09" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">3.析妄見真………………「作二見論」</p></item>
-<lb n="0163a10" ed="Y"/><lb n="0163a10" ed="Y" type="old"/><item><p style="margin-left:1em">4.藏識妄現………………「自覺之境界」</p></item></list></item>
-<lb n="0163a11" ed="Y"/><lb n="0163a11" ed="Y" type="old"/><item><p style="margin-left:1em">三、諸法自性章</p>
-<lb n="0163a12" ed="Y"/><lb n="0163a12" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">5.離有無妄想……………「自覺之境界」</p></item><pb n="0164a" ed="Y" xml:id="Y25.0025.0164a.old" type="old"/>
+<lb n="0163a04" ed="Y"/><lb n="0163a04" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0163a0401"><p xml:id="pY25p0163a0401" rend="bold" style="margin-left:1em">一、開宗明義門</p>
+<lb n="0163a05" ed="Y"/><lb n="0163a05" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0163a0501"><p xml:id="pY25p0163a0501" style="margin-left:1em">一、直示佛心章</p>
+<lb n="0163a06" ed="Y"/><lb n="0163a06" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0163a0601"><p xml:id="pY25p0163a0601" style="margin-left:1em">1.序起……………………「今世後世淨」<note place="inline">經文至此，下例</note></p></item>
+<lb n="0163a07" ed="Y"/><lb n="0163a07" ed="Y" type="old"/><item xml:id="itemY25p0163a0701"><p xml:id="pY25p0163a0701" style="margin-left:1em">2.百八句…………………「應當修學」</p></item></list></item>
+<lb n="0163a08" ed="Y"/><lb n="0163a08" ed="Y" type="old"/><item xml:id="itemY25p0163a0801"><p xml:id="pY25p0163a0801" style="margin-left:1em">二、心意意識章</p>
+<lb n="0163a09" ed="Y"/><lb n="0163a09" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0163a0901"><p xml:id="pY25p0163a0901" style="margin-left:1em">3.析妄見真………………「作二見論」</p></item>
+<lb n="0163a10" ed="Y"/><lb n="0163a10" ed="Y" type="old"/><item xml:id="itemY25p0163a1001"><p xml:id="pY25p0163a1001" style="margin-left:1em">4.藏識妄現………………「自覺之境界」</p></item></list></item>
+<lb n="0163a11" ed="Y"/><lb n="0163a11" ed="Y" type="old"/><item xml:id="itemY25p0163a1101"><p xml:id="pY25p0163a1101" style="margin-left:1em">三、諸法自性章</p>
+<lb n="0163a12" ed="Y"/><lb n="0163a12" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0163a1201"><p xml:id="pY25p0163a1201" style="margin-left:1em">5.離有無妄想……………「自覺之境界」</p></item><pb n="0164a" ed="Y" xml:id="Y25.0025.0164a.old" type="old"/>
 <pb n="0164a" ed="Y" xml:id="Y25.0025.0164a"/>
-<lb n="0164a01" ed="Y"/><lb n="0164a01" ed="Y" type="old"/><item><p style="margin-left:1em">6.淨自心現流……………「應當除滅」</p></item>
-<lb n="0164a02" ed="Y"/><lb n="0164a02" ed="Y" type="old"/><item><p style="margin-left:1em">7.辨真妄迷悟……………「於彼應當修學」</p></item>
-<lb n="0164a03" ed="Y"/><lb n="0164a03" ed="Y" type="old"/><item><p style="margin-left:1em">8.立種性差別……………「一闡提不般涅槃」</p></item>
-<lb n="0164a04" ed="Y"/><lb n="0164a04" ed="Y" type="old"/><item><p style="margin-left:1em">9.善五法自性……………「摩訶薩應當修學」</p></item></list></item>
-<lb n="0164a05" ed="Y"/><lb n="0164a05" ed="Y" type="old"/><item><p style="margin-left:1em">四、二無我相章</p>
-<lb n="0164a06" ed="Y"/><lb n="0164a06" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">10.二種無我………………「摩訶薩應當修學」</p></item></list></item>
-<lb n="0164a07" ed="Y"/><lb n="0164a07" ed="Y" type="old"/><item><p style="margin-left:1em">五、遠離增減章</p>
-<lb n="0164a08" ed="Y"/><lb n="0164a08" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">11.離增減見………………「神通自在成就」</p></item></list></item>
-<lb n="0164a09" ed="Y"/><lb n="0164a09" ed="Y" type="old"/><item><p style="margin-left:1em">六、解釋深密章</p>
-<lb n="0164a10" ed="Y"/><lb n="0164a10" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">12.性空非實………………「莫著言說」<note place="inline">卷一訖</note></p></item>
-<lb n="0164a11" ed="Y"/><lb n="0164a11" ed="Y" type="old"/><item><p style="margin-left:1em">13.藏心無我………………「心量妄想」</p></item></list></item>
-<lb n="0164a12" ed="Y"/><lb n="0164a12" ed="Y" type="old"/><item><p style="margin-left:1em">七、修勝解行章</p>
-<lb n="0164a13" ed="Y"/><lb n="0164a13" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">14.修正行…………………「當如是學」</p></item><pb n="0165a" ed="Y" xml:id="Y25.0025.0165a.old" type="old"/>
+<lb n="0164a01" ed="Y"/><lb n="0164a01" ed="Y" type="old"/><item xml:id="itemY25p0164a0101"><p xml:id="pY25p0164a0101" style="margin-left:1em">6.淨自心現流……………「應當除滅」</p></item>
+<lb n="0164a02" ed="Y"/><lb n="0164a02" ed="Y" type="old"/><item xml:id="itemY25p0164a0201"><p xml:id="pY25p0164a0201" style="margin-left:1em">7.辨真妄迷悟……………「於彼應當修學」</p></item>
+<lb n="0164a03" ed="Y"/><lb n="0164a03" ed="Y" type="old"/><item xml:id="itemY25p0164a0301"><p xml:id="pY25p0164a0301" style="margin-left:1em">8.立種性差別……………「一闡提不般涅槃」</p></item>
+<lb n="0164a04" ed="Y"/><lb n="0164a04" ed="Y" type="old"/><item xml:id="itemY25p0164a0401"><p xml:id="pY25p0164a0401" style="margin-left:1em">9.善五法自性……………「摩訶薩應當修學」</p></item></list></item>
+<lb n="0164a05" ed="Y"/><lb n="0164a05" ed="Y" type="old"/><item xml:id="itemY25p0164a0501"><p xml:id="pY25p0164a0501" style="margin-left:1em">四、二無我相章</p>
+<lb n="0164a06" ed="Y"/><lb n="0164a06" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0164a0601"><p xml:id="pY25p0164a0601" style="margin-left:1em">10.二種無我………………「摩訶薩應當修學」</p></item></list></item>
+<lb n="0164a07" ed="Y"/><lb n="0164a07" ed="Y" type="old"/><item xml:id="itemY25p0164a0701"><p xml:id="pY25p0164a0701" style="margin-left:1em">五、遠離增減章</p>
+<lb n="0164a08" ed="Y"/><lb n="0164a08" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0164a0801"><p xml:id="pY25p0164a0801" style="margin-left:1em">11.離增減見………………「神通自在成就」</p></item></list></item>
+<lb n="0164a09" ed="Y"/><lb n="0164a09" ed="Y" type="old"/><item xml:id="itemY25p0164a0901"><p xml:id="pY25p0164a0901" style="margin-left:1em">六、解釋深密章</p>
+<lb n="0164a10" ed="Y"/><lb n="0164a10" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0164a1001"><p xml:id="pY25p0164a1001" style="margin-left:1em">12.性空非實………………「莫著言說」<note place="inline">卷一訖</note></p></item>
+<lb n="0164a11" ed="Y"/><lb n="0164a11" ed="Y" type="old"/><item xml:id="itemY25p0164a1101"><p xml:id="pY25p0164a1101" style="margin-left:1em">13.藏心無我………………「心量妄想」</p></item></list></item>
+<lb n="0164a12" ed="Y"/><lb n="0164a12" ed="Y" type="old"/><item xml:id="itemY25p0164a1201"><p xml:id="pY25p0164a1201" style="margin-left:1em">七、修勝解行章</p>
+<lb n="0164a13" ed="Y"/><lb n="0164a13" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0164a1301"><p xml:id="pY25p0164a1301" style="margin-left:1em">14.修正行…………………「當如是學」</p></item><pb n="0165a" ed="Y" xml:id="Y25.0025.0165a.old" type="old"/>
 <pb n="0165a" ed="Y" xml:id="Y25.0025.0165a"/>
-<lb n="0165a01" ed="Y"/><lb n="0165a01" ed="Y" type="old"/><item><p style="margin-left:1em">15.離妄想…………………「諸乘及諸地相」</p></item>
-<lb n="0165a02" ed="Y"/><lb n="0165a02" ed="Y" type="old"/><item><p style="margin-left:1em">16.依禪定…………………「隨順入如相」</p></item>
-<lb n="0165a03" ed="Y"/><lb n="0165a03" ed="Y" type="old"/><item><p style="margin-left:1em">17.向涅槃…………………「初地及十地」</p></item></list></item></list></item>
-<lb n="0165a04" ed="Y"/><lb n="0165a04" ed="Y" type="old"/><item><p rend="bold" style="margin-left:1em">二、入心量地門</p>
-<lb n="0165a05" ed="Y"/><lb n="0165a05" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">八、正觀緣起章</p>
-<lb n="0165a06" ed="Y"/><lb n="0165a06" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">18.心量離言………………「輪迴三有宅」</p></item>
-<lb n="0165a07" ed="Y"/><lb n="0165a07" ed="Y" type="old"/><item><p style="margin-left:1em">19.幻性唯心………………「於相不妄想」</p></item>
-<lb n="0165a08" ed="Y"/><lb n="0165a08" ed="Y" type="old"/><item><p style="margin-left:1em">20.文句施設………………「故說離自性」</p></item></list></item>
-<lb n="0165a09" ed="Y"/><lb n="0165a09" ed="Y" type="old"/><item><p style="margin-left:1em">九、善解果智章</p>
-<lb n="0165a10" ed="Y"/><lb n="0165a10" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">21.禪果差別………………「若覺得解脫」</p></item>
-<lb n="0165a11" ed="Y"/><lb n="0165a11" ed="Y" type="old"/><item><p style="margin-left:1em">22.覺智差別………………「種種識不生」</p></item></list></item>
-<lb n="0165a12" ed="Y"/><lb n="0165a12" ed="Y" type="old"/><item><p style="margin-left:1em">一〇、遠離妄想章</p>
-<lb n="0165a13" ed="Y"/><lb n="0165a13" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">23.離妄想…………………「如是則為成」</p></item></list></item><pb n="0166a" ed="Y" xml:id="Y25.0025.0166a.old" type="old"/>
+<lb n="0165a01" ed="Y"/><lb n="0165a01" ed="Y" type="old"/><item xml:id="itemY25p0165a0101"><p xml:id="pY25p0165a0101" style="margin-left:1em">15.離妄想…………………「諸乘及諸地相」</p></item>
+<lb n="0165a02" ed="Y"/><lb n="0165a02" ed="Y" type="old"/><item xml:id="itemY25p0165a0201"><p xml:id="pY25p0165a0201" style="margin-left:1em">16.依禪定…………………「隨順入如相」</p></item>
+<lb n="0165a03" ed="Y"/><lb n="0165a03" ed="Y" type="old"/><item xml:id="itemY25p0165a0301"><p xml:id="pY25p0165a0301" style="margin-left:1em">17.向涅槃…………………「初地及十地」</p></item></list></item></list></item>
+<lb n="0165a04" ed="Y"/><lb n="0165a04" ed="Y" type="old"/><item xml:id="itemY25p0165a0401"><p xml:id="pY25p0165a0401" rend="bold" style="margin-left:1em">二、入心量地門</p>
+<lb n="0165a05" ed="Y"/><lb n="0165a05" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0165a0501"><p xml:id="pY25p0165a0501" style="margin-left:1em">八、正觀緣起章</p>
+<lb n="0165a06" ed="Y"/><lb n="0165a06" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0165a0601"><p xml:id="pY25p0165a0601" style="margin-left:1em">18.心量離言………………「輪迴三有宅」</p></item>
+<lb n="0165a07" ed="Y"/><lb n="0165a07" ed="Y" type="old"/><item xml:id="itemY25p0165a0701"><p xml:id="pY25p0165a0701" style="margin-left:1em">19.幻性唯心………………「於相不妄想」</p></item>
+<lb n="0165a08" ed="Y"/><lb n="0165a08" ed="Y" type="old"/><item xml:id="itemY25p0165a0801"><p xml:id="pY25p0165a0801" style="margin-left:1em">20.文句施設………………「故說離自性」</p></item></list></item>
+<lb n="0165a09" ed="Y"/><lb n="0165a09" ed="Y" type="old"/><item xml:id="itemY25p0165a0901"><p xml:id="pY25p0165a0901" style="margin-left:1em">九、善解果智章</p>
+<lb n="0165a10" ed="Y"/><lb n="0165a10" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0165a1001"><p xml:id="pY25p0165a1001" style="margin-left:1em">21.禪果差別………………「若覺得解脫」</p></item>
+<lb n="0165a11" ed="Y"/><lb n="0165a11" ed="Y" type="old"/><item xml:id="itemY25p0165a1101"><p xml:id="pY25p0165a1101" style="margin-left:1em">22.覺智差別………………「種種識不生」</p></item></list></item>
+<lb n="0165a12" ed="Y"/><lb n="0165a12" ed="Y" type="old"/><item xml:id="itemY25p0165a1201"><p xml:id="pY25p0165a1201" style="margin-left:1em">一〇、遠離妄想章</p>
+<lb n="0165a13" ed="Y"/><lb n="0165a13" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0165a1301"><p xml:id="pY25p0165a1301" style="margin-left:1em">23.離妄想…………………「如是則為成」</p></item></list></item><pb n="0166a" ed="Y" xml:id="Y25.0025.0166a.old" type="old"/>
 <pb n="0166a" ed="Y" xml:id="Y25.0025.0166a"/>
-<lb n="0166a01" ed="Y"/><lb n="0166a01" ed="Y" type="old"/><item><p style="margin-left:1em">一一、聖智自覺章</p>
-<lb n="0166a02" ed="Y"/><lb n="0166a02" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">24.自覺聖智………………「得佛無上身」<note place="inline">卷二訖</note></p></item>
-<lb n="0166a03" ed="Y"/><lb n="0166a03" ed="Y" type="old"/><item><p style="margin-left:1em">25.得意生身………………「自在華莊嚴」</p></item>
-<lb n="0166a04" ed="Y"/><lb n="0166a04" ed="Y" type="old"/><item><p style="margin-left:1em">26.入無間等………………「不入無擇獄」</p></item>
-<lb n="0166a05" ed="Y"/><lb n="0166a05" ed="Y" type="old"/><item><p style="margin-left:1em">27.悟佛知見………………「是名佛知覺」</p></item>
-<lb n="0166a06" ed="Y"/><lb n="0166a06" ed="Y" type="old"/><item><p style="margin-left:1em">28.等佛法身………………「我為佛子說」</p></item>
-<lb n="0166a07" ed="Y"/><lb n="0166a07" ed="Y" type="old"/><item><p style="margin-left:1em">29.證本住法………………「悉無有差別」</p></item>
-<lb n="0166a08" ed="Y"/><lb n="0166a08" ed="Y" type="old"/><item><p style="margin-left:1em">30.不住二邊………………「有無二俱離」</p></item></list></item>
-<lb n="0166a09" ed="Y"/><lb n="0166a09" ed="Y" type="old"/><item><p style="margin-left:1em">一二、兼通理教章</p>
-<lb n="0166a10" ed="Y"/><lb n="0166a10" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">31.宗通說通………………「有皆如幻夢」</p></item></list></item></list></item>
-<lb n="0166a11" ed="Y"/><lb n="0166a11" ed="Y" type="old"/><item><p rend="bold" style="margin-left:1em">三、入無所有地門</p>
-<lb n="0166a12" ed="Y"/><lb n="0166a12" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">一三、行無相道章</p>
-<lb n="0166a13" ed="Y"/><lb n="0166a13" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">32.境空心寂………………「我說為心量」</p></item><pb n="0167a" ed="Y" xml:id="Y25.0025.0167a.old" type="old"/>
+<lb n="0166a01" ed="Y"/><lb n="0166a01" ed="Y" type="old"/><item xml:id="itemY25p0166a0101"><p xml:id="pY25p0166a0101" style="margin-left:1em">一一、聖智自覺章</p>
+<lb n="0166a02" ed="Y"/><lb n="0166a02" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0166a0201"><p xml:id="pY25p0166a0201" style="margin-left:1em">24.自覺聖智………………「得佛無上身」<note place="inline">卷二訖</note></p></item>
+<lb n="0166a03" ed="Y"/><lb n="0166a03" ed="Y" type="old"/><item xml:id="itemY25p0166a0301"><p xml:id="pY25p0166a0301" style="margin-left:1em">25.得意生身………………「自在華莊嚴」</p></item>
+<lb n="0166a04" ed="Y"/><lb n="0166a04" ed="Y" type="old"/><item xml:id="itemY25p0166a0401"><p xml:id="pY25p0166a0401" style="margin-left:1em">26.入無間等………………「不入無擇獄」</p></item>
+<lb n="0166a05" ed="Y"/><lb n="0166a05" ed="Y" type="old"/><item xml:id="itemY25p0166a0501"><p xml:id="pY25p0166a0501" style="margin-left:1em">27.悟佛知見………………「是名佛知覺」</p></item>
+<lb n="0166a06" ed="Y"/><lb n="0166a06" ed="Y" type="old"/><item xml:id="itemY25p0166a0601"><p xml:id="pY25p0166a0601" style="margin-left:1em">28.等佛法身………………「我為佛子說」</p></item>
+<lb n="0166a07" ed="Y"/><lb n="0166a07" ed="Y" type="old"/><item xml:id="itemY25p0166a0701"><p xml:id="pY25p0166a0701" style="margin-left:1em">29.證本住法………………「悉無有差別」</p></item>
+<lb n="0166a08" ed="Y"/><lb n="0166a08" ed="Y" type="old"/><item xml:id="itemY25p0166a0801"><p xml:id="pY25p0166a0801" style="margin-left:1em">30.不住二邊………………「有無二俱離」</p></item></list></item>
+<lb n="0166a09" ed="Y"/><lb n="0166a09" ed="Y" type="old"/><item xml:id="itemY25p0166a0901"><p xml:id="pY25p0166a0901" style="margin-left:1em">一二、兼通理教章</p>
+<lb n="0166a10" ed="Y"/><lb n="0166a10" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0166a1001"><p xml:id="pY25p0166a1001" style="margin-left:1em">31.宗通說通………………「有皆如幻夢」</p></item></list></item></list></item>
+<lb n="0166a11" ed="Y"/><lb n="0166a11" ed="Y" type="old"/><item xml:id="itemY25p0166a1101"><p xml:id="pY25p0166a1101" rend="bold" style="margin-left:1em">三、入無所有地門</p>
+<lb n="0166a12" ed="Y"/><lb n="0166a12" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0166a1201"><p xml:id="pY25p0166a1201" style="margin-left:1em">一三、行無相道章</p>
+<lb n="0166a13" ed="Y"/><lb n="0166a13" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0166a1301"><p xml:id="pY25p0166a1301" style="margin-left:1em">32.境空心寂………………「我說為心量」</p></item><pb n="0167a" ed="Y" xml:id="Y25.0025.0167a.old" type="old"/>
 <pb n="0167a" ed="Y" xml:id="Y25.0025.0167a"/>
-<lb n="0167a01" ed="Y"/><lb n="0167a01" ed="Y" type="old"/><item><p style="margin-left:1em">33.因語入義………………「亦非無所有」</p></item>
-<lb n="0167a02" ed="Y"/><lb n="0167a02" ed="Y" type="old"/><item><p style="margin-left:1em">34.捨識依智………………「如來智清淨」</p></item></list></item>
-<lb n="0167a03" ed="Y"/><lb n="0167a03" ed="Y" type="old"/><item><p style="margin-left:1em">一四、身心轉依章</p>
-<lb n="0167a04" ed="Y"/><lb n="0167a04" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">35.轉生死身………………「如乾闥婆城」</p></item>
-<lb n="0167a05" ed="Y"/><lb n="0167a05" ed="Y" type="old"/><item><p style="margin-left:1em">36.解相續識………………「相續不觀察」</p></item></list></item>
-<lb n="0167a06" ed="Y"/><lb n="0167a06" ed="Y" type="old"/><item><p style="margin-left:1em">一五、自覺法性章</p>
-<lb n="0167a07" ed="Y"/><lb n="0167a07" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">37.非有無…………………「心則平等見」</p></item>
-<lb n="0167a08" ed="Y"/><lb n="0167a08" ed="Y" type="old"/><item><p style="margin-left:1em">38.離能所…………………「是亦說邪智」</p></item></list></item>
-<lb n="0167a09" ed="Y"/><lb n="0167a09" ed="Y" type="old"/><item><p style="margin-left:1em">一六、善通理教章</p>
-<lb n="0167a10" ed="Y"/><lb n="0167a10" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">39.善入自通………………「宗為修行者」</p></item>
-<lb n="0167a11" ed="Y"/><lb n="0167a11" ed="Y" type="old"/><item><p style="margin-left:1em">40.迥異世論………………「斯皆世論通」</p></item></list></item></list></item>
-<lb n="0167a12" ed="Y"/><lb n="0167a12" ed="Y" type="old"/><item><p rend="bold" style="margin-left:1em">四、入最勝地門</p>
-<lb n="0167a13" ed="Y"/><lb n="0167a13" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">一七、圓示二果章</p><list rend="no-marker"><pb n="0168a" ed="Y" xml:id="Y25.0025.0168a.old" type="old"/>
+<lb n="0167a01" ed="Y"/><lb n="0167a01" ed="Y" type="old"/><item xml:id="itemY25p0167a0101"><p xml:id="pY25p0167a0101" style="margin-left:1em">33.因語入義………………「亦非無所有」</p></item>
+<lb n="0167a02" ed="Y"/><lb n="0167a02" ed="Y" type="old"/><item xml:id="itemY25p0167a0201"><p xml:id="pY25p0167a0201" style="margin-left:1em">34.捨識依智………………「如來智清淨」</p></item></list></item>
+<lb n="0167a03" ed="Y"/><lb n="0167a03" ed="Y" type="old"/><item xml:id="itemY25p0167a0301"><p xml:id="pY25p0167a0301" style="margin-left:1em">一四、身心轉依章</p>
+<lb n="0167a04" ed="Y"/><lb n="0167a04" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0167a0401"><p xml:id="pY25p0167a0401" style="margin-left:1em">35.轉生死身………………「如乾闥婆城」</p></item>
+<lb n="0167a05" ed="Y"/><lb n="0167a05" ed="Y" type="old"/><item xml:id="itemY25p0167a0501"><p xml:id="pY25p0167a0501" style="margin-left:1em">36.解相續識………………「相續不觀察」</p></item></list></item>
+<lb n="0167a06" ed="Y"/><lb n="0167a06" ed="Y" type="old"/><item xml:id="itemY25p0167a0601"><p xml:id="pY25p0167a0601" style="margin-left:1em">一五、自覺法性章</p>
+<lb n="0167a07" ed="Y"/><lb n="0167a07" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0167a0701"><p xml:id="pY25p0167a0701" style="margin-left:1em">37.非有無…………………「心則平等見」</p></item>
+<lb n="0167a08" ed="Y"/><lb n="0167a08" ed="Y" type="old"/><item xml:id="itemY25p0167a0801"><p xml:id="pY25p0167a0801" style="margin-left:1em">38.離能所…………………「是亦說邪智」</p></item></list></item>
+<lb n="0167a09" ed="Y"/><lb n="0167a09" ed="Y" type="old"/><item xml:id="itemY25p0167a0901"><p xml:id="pY25p0167a0901" style="margin-left:1em">一六、善通理教章</p>
+<lb n="0167a10" ed="Y"/><lb n="0167a10" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0167a1001"><p xml:id="pY25p0167a1001" style="margin-left:1em">39.善入自通………………「宗為修行者」</p></item>
+<lb n="0167a11" ed="Y"/><lb n="0167a11" ed="Y" type="old"/><item xml:id="itemY25p0167a1101"><p xml:id="pY25p0167a1101" style="margin-left:1em">40.迥異世論………………「斯皆世論通」</p></item></list></item></list></item>
+<lb n="0167a12" ed="Y"/><lb n="0167a12" ed="Y" type="old"/><item xml:id="itemY25p0167a1201"><p xml:id="pY25p0167a1201" rend="bold" style="margin-left:1em">四、入最勝地門</p>
+<lb n="0167a13" ed="Y"/><lb n="0167a13" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0167a1301"><p xml:id="pY25p0167a1301" style="margin-left:1em">一七、圓示二果章</p><list rend="no-marker"><pb n="0168a" ed="Y" xml:id="Y25.0025.0168a.old" type="old"/>
 <pb n="0168a" ed="Y" xml:id="Y25.0025.0168a"/>
-<lb n="0168a01" ed="Y"/><lb n="0168a01" ed="Y" type="old"/><item><p style="margin-left:1em">41.大涅槃果………………「亦無有所說」<note place="inline">卷三訖</note></p></item>
-<lb n="0168a02" ed="Y"/><lb n="0168a02" ed="Y" type="old"/><item><p style="margin-left:1em">42.等正覺果………………「不毀大導師」</p></item></list></item>
-<lb n="0168a03" ed="Y"/><lb n="0168a03" ed="Y" type="old"/><item><p style="margin-left:1em">一八、別論三德章</p>
-<lb n="0168a04" ed="Y"/><lb n="0168a04" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">43.法身……………………「是則為大乘」</p></item>
-<lb n="0168a05" ed="Y"/><lb n="0168a05" ed="Y" type="old"/><item><p style="margin-left:1em">44.解脫……………………「無所有何次」</p></item>
-<lb n="0168a06" ed="Y"/><lb n="0168a06" ed="Y" type="old"/><item><p style="margin-left:1em">45.般若……………………「言說不可得」</p></item></list></item>
-<lb n="0168a07" ed="Y"/><lb n="0168a07" ed="Y" type="old"/><item><p style="margin-left:1em">一九、通攝四淨章</p>
-<lb n="0168a08" ed="Y"/><lb n="0168a08" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">46.自性清淨………………「是則為成相」</p></item>
-<lb n="0168a09" ed="Y"/><lb n="0168a09" ed="Y" type="old"/><item><p style="margin-left:1em">47.生此境清淨……………「是則佛正覺」</p></item>
-<lb n="0168a10" ed="Y"/><lb n="0168a10" ed="Y" type="old"/><item><p style="margin-left:1em">48.離垢清淨………………「作剎那想」</p></item>
-<lb n="0168a11" ed="Y"/><lb n="0168a11" ed="Y" type="old"/><item><p style="margin-left:1em">49.得此道清淨……………「視之若真實」</p></item></list></item>
-<lb n="0168a12" ed="Y"/><lb n="0168a12" ed="Y" type="old"/><item><p style="margin-left:1em">二〇、會歸一實章</p>
-<lb n="0168a13" ed="Y"/><lb n="0168a13" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">50.開迹顯本………………「而為說常住」</p></item><pb n="0169a" ed="Y" xml:id="Y25.0025.0169a.old" type="old"/>
+<lb n="0168a01" ed="Y"/><lb n="0168a01" ed="Y" type="old"/><item xml:id="itemY25p0168a0101"><p xml:id="pY25p0168a0101" style="margin-left:1em">41.大涅槃果………………「亦無有所說」<note place="inline">卷三訖</note></p></item>
+<lb n="0168a02" ed="Y"/><lb n="0168a02" ed="Y" type="old"/><item xml:id="itemY25p0168a0201"><p xml:id="pY25p0168a0201" style="margin-left:1em">42.等正覺果………………「不毀大導師」</p></item></list></item>
+<lb n="0168a03" ed="Y"/><lb n="0168a03" ed="Y" type="old"/><item xml:id="itemY25p0168a0301"><p xml:id="pY25p0168a0301" style="margin-left:1em">一八、別論三德章</p>
+<lb n="0168a04" ed="Y"/><lb n="0168a04" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0168a0401"><p xml:id="pY25p0168a0401" style="margin-left:1em">43.法身……………………「是則為大乘」</p></item>
+<lb n="0168a05" ed="Y"/><lb n="0168a05" ed="Y" type="old"/><item xml:id="itemY25p0168a0501"><p xml:id="pY25p0168a0501" style="margin-left:1em">44.解脫……………………「無所有何次」</p></item>
+<lb n="0168a06" ed="Y"/><lb n="0168a06" ed="Y" type="old"/><item xml:id="itemY25p0168a0601"><p xml:id="pY25p0168a0601" style="margin-left:1em">45.般若……………………「言說不可得」</p></item></list></item>
+<lb n="0168a07" ed="Y"/><lb n="0168a07" ed="Y" type="old"/><item xml:id="itemY25p0168a0701"><p xml:id="pY25p0168a0701" style="margin-left:1em">一九、通攝四淨章</p>
+<lb n="0168a08" ed="Y"/><lb n="0168a08" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0168a0801"><p xml:id="pY25p0168a0801" style="margin-left:1em">46.自性清淨………………「是則為成相」</p></item>
+<lb n="0168a09" ed="Y"/><lb n="0168a09" ed="Y" type="old"/><item xml:id="itemY25p0168a0901"><p xml:id="pY25p0168a0901" style="margin-left:1em">47.生此境清淨……………「是則佛正覺」</p></item>
+<lb n="0168a10" ed="Y"/><lb n="0168a10" ed="Y" type="old"/><item xml:id="itemY25p0168a1001"><p xml:id="pY25p0168a1001" style="margin-left:1em">48.離垢清淨………………「作剎那想」</p></item>
+<lb n="0168a11" ed="Y"/><lb n="0168a11" ed="Y" type="old"/><item xml:id="itemY25p0168a1101"><p xml:id="pY25p0168a1101" style="margin-left:1em">49.得此道清淨……………「視之若真實」</p></item></list></item>
+<lb n="0168a12" ed="Y"/><lb n="0168a12" ed="Y" type="old"/><item xml:id="itemY25p0168a1201"><p xml:id="pY25p0168a1201" style="margin-left:1em">二〇、會歸一實章</p>
+<lb n="0168a13" ed="Y"/><lb n="0168a13" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY25p0168a1301"><p xml:id="pY25p0168a1301" style="margin-left:1em">50.開迹顯本………………「而為說常住」</p></item><pb n="0169a" ed="Y" xml:id="Y25.0025.0169a.old" type="old"/>
 <pb n="0169a" ed="Y" xml:id="Y25.0025.0169a"/>
-<lb n="0169a01" ed="Y"/><lb n="0169a01" ed="Y" type="old"/><item><p style="margin-left:1em">51.植因向果………………「斯由不食肉」</p></item></list></item></list></item></list>
-<lb n="0169a02" ed="Y"/><lb n="0169a02" ed="Y" type="old"/><p rend="kaiti" style="margin-left:3em">余嘗三講<title level="m">《楞伽經》</title>，聽者曾有記錄，惟以時講時輟，致文記零落，未能
+<lb n="0169a01" ed="Y"/><lb n="0169a01" ed="Y" type="old"/><item xml:id="itemY25p0169a0101"><p xml:id="pY25p0169a0101" style="margin-left:1em">51.植因向果………………「斯由不食肉」</p></item></list></item></list></item></list>
+<lb n="0169a02" ed="Y"/><lb n="0169a02" ed="Y" type="old"/><p xml:id="pY25p0169a0201" rend="kaiti" style="margin-left:3em">余嘗三講<title level="m">《楞伽經》</title>，聽者曾有記錄，惟以時講時輟，致文記零落，未能
 <lb n="0169a03" ed="Y"/>成<lb n="0169a03" ed="Y" type="old"/>書。頃檢得殘篇，乃演培法師所記。<title level="m">《楞伽經》</title>是後期大乘論經，抉擇
 <lb n="0169a04" ed="Y"/>當時<lb n="0169a04" ed="Y" type="old"/>內外諸學，近無著、世親之學。然經標「如來藏藏識」為依，與無著
 <lb n="0169a05" ed="Y"/>、世<lb n="0169a05" ed="Y" type="old"/>親學有所不同，蓋承<title level="m">《阿毘達磨大乘經》</title>依他「通二分」，進而貫通

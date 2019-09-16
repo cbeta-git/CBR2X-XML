@@ -12,52 +12,72 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/07</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/07</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>20卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 8, No. 8</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">8</idno>.<idno type="no">8</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法概論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第九章　我們的世間</cb:mulu><cb:mulu level="2" type="其他">第二節　人類世界的過去與未來</cb:mulu><cb:mulu level="3" type="其他">未來的世界</cb:mulu>
-<milestone unit="juan" n="10"/><pb n="0137a" ed="Y" xml:id="Y08.0008.0137a.old" type="old"/>
+<milestone n="10" unit="juan"/><pb n="0137a" ed="Y" xml:id="Y08.0008.0137a.old" type="old"/>
 <pb n="0137a" ed="Y" xml:id="Y08.0008.0137a"/>
 <lb n="0137a01" ed="Y"/><lb n="0137a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">第十章　我論因說因</cb:mulu><head>第十章　我論因說因</head>
 <lb n="0137a02" ed="Y"/><lb n="0137a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　佛法以因緣為立義大本</cb:mulu><head>第一節　佛法以因緣為立義大本</head>
-<lb n="0137a03" ed="Y"/><lb n="0137a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">總說</cb:mulu><head>總說</head><lb n="0137a04" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">以有情為中心，論到自他、心境、物我的佛法，唯一的特色，是因緣
+<lb n="0137a03" ed="Y"/><lb n="0137a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">總說</cb:mulu><head>總說</head><lb n="0137a04" ed="Y" type="old"/><p xml:id="pY08p0137a0305" style="text-indent:2em" cb:place="inline">以有情為中心，論到自他、心境、物我的佛法，唯一的特色，是因緣
 <lb n="0137a04" ed="Y"/><lb n="0137a05" ed="Y" type="old"/>論。如<cit><bibl><title level="m">《雜阿含經》</title>說：</bibl><quote source="T02n0099_p0012c21-25" type="嚴謹引文">「我論因說因。……有因有緣集世間，有因有緣世間集
-<lb n="0137a05" ed="Y"/>；有<lb n="0137a06" ed="Y" type="old"/>因有緣滅世間，有因有緣世間滅。」</quote><bibl>（<biblScope n="2" type="卷">卷二</biblScope>．<ref type="taisho" target="#no:99.53">五三經</ref>）</bibl><note n="0137001" resp="周怡曄" type="add">《雜阿含經》卷2：「『我論因、說因。』又白佛言：『云何論因？云何說因？』佛告婆羅門：『有因有緣集世間，有因有緣世間集；有因有緣滅世間，有因有緣世間滅。』」(CBETA, T02, no. 99, p. 12, c21-25)</note></cit>因與緣，佛陀不曾有嚴
+<lb n="0137a05" ed="Y"/>；有<lb n="0137a06" ed="Y" type="old"/>因有緣滅世間，有因有緣世間滅。」</quote><bibl>（<biblScope n="2" type="卷">卷二</biblScope>．<ref target="#no:99.53" type="taisho">五三經</ref>）</bibl><note n="0137001" resp="周怡曄" type="add">《雜阿含經》卷2：「『我論因、說因。』又白佛言：『云何論因？云何說因？』佛告婆羅門：『有因有緣集世間，有因有緣世間集；有因有緣滅世間，有因有緣世間滅。』」(CBETA, T02, no. 99, p. 12, c21-25)</note></cit>因與緣，佛陀不曾有嚴
 <lb n="0137a06" ed="Y"/>格<lb n="0137a07" ed="Y" type="old"/>的界說，但從相對的差別說：因約特性說，緣約力用說；因指主要的，緣指一
 <lb n="0137a07" ed="Y"/>般<lb n="0137a08" ed="Y" type="old"/>的。因緣可以總論，即每一法的生起必須具備某些條件，凡是能為生起某法的
 <lb n="0137a08" ed="Y"/><lb n="0137a09" ed="Y" type="old"/>條件，就稱為此法的因緣。不但是生起，就是某一法的否定——滅而不存在，也
@@ -70,7 +90,7 @@
 <lb n="0138a04" ed="Y"/>後<lb n="0138a04" ed="Y" type="old"/>再以對治病因的藥方，使病者吃下，才能痊愈。因此，學佛的有首先推究因緣
 <lb n="0138a05" ed="Y"/>的<lb n="0138a05" ed="Y" type="old"/>必要。知道了世間困苦的所以生、所以滅的條件，才能合理的解決它，使應生
 <lb n="0138a06" ed="Y"/>的<lb n="0138a06" ed="Y" type="old"/>生起、應滅的滅除。從前釋尊初轉法輪開示四諦，四諦即是染淨因果的解說。</p></cb:div>
-<lb n="0138a07" ed="Y"/><lb n="0138a07" ed="Y" type="old"/><p cb:type="pre">
+<lb n="0138a07" ed="Y"/><lb n="0138a07" ed="Y" type="old"/><p cb:type="pre" xml:id="pY08p0138a0701">
 <lb n="0138a08" ed="Y"/>　　　　　　　　　┌苦……………如病
 <lb n="0138a09" ed="Y"/>　　　有因緣世間集┤
 <lb n="0138a10" ed="Y"/>　　　　　　　　　└苦集…………如病因
@@ -79,7 +99,7 @@
 <lb n="0138a13" ed="Y"/>　　　有因緣世間滅┤
 <lb n="0138a14" ed="Y"/>　　　　　　　　　└苦滅道………如藥
 <lb n="0138a15" ed="Y"/></p>
-<lb n="0138a16" ed="Y"/><lb n="0138a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">無因邪因與正因</cb:mulu><head>無因邪因與正因</head><lb n="0138a12" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">人類文化的開展，本來都由於探求因緣。如冷了有求暖的
+<lb n="0138a16" ed="Y"/><lb n="0138a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">無因邪因與正因</cb:mulu><head>無因邪因與正因</head><lb n="0138a12" ed="Y" type="old"/><p xml:id="pY08p0138a1615" style="text-indent:2em" cb:place="inline">人類文化的開展，本來都由於探求因緣。如冷了有求暖的
 <lb n="0138a17" ed="Y"/><lb n="0138a13" ed="Y" type="old"/>需要，於是追求為什麼冷，怎樣才會不冷，發現取暖的方法。一切知識，無不從
 <lb n="0138a18" ed="Y"/><lb n="0138a14" ed="Y" type="old"/>這察果知因中得來。不過因緣極為深細，一般每流於錯誤。在釋尊未出世前，印<pb n="0139a" ed="Y" xml:id="Y08.0008.0139a.old" type="old"/>
 <pb n="0139a" ed="Y" xml:id="Y08.0008.0139a"/>
@@ -88,7 +108,7 @@
 <lb n="0139a03" ed="Y"/><lb n="0139a03" ed="Y" type="old"/>滅的因果關係，就以為世間一切現象都是無因的、偶然的。這種無因論，到底<lb n="0139a04" ed="Y" type="old"/>是
 <lb n="0139a04" ed="Y"/>不多的；多而又難得教化的，要算非因計因的「邪因論」<note n="0139001" resp="周怡曄" type="add">《中阿含經》卷3〈2 業相應品〉：「世尊告諸比丘：『有三度處，異姓、異名、異宗、異說，謂有慧者善受、極持而為他說，然不獲利。云何為三？或有沙門、梵志如是見、如是說，謂人所為一切皆因宿命造；復有沙門、梵志如是見、如是說，謂人所為一切皆因尊祐造；復有沙門、梵志如是見、如是說，謂人所為一切皆無因無緣。』」(CBETA, T01, no. 26, p. 435, a26-b3)</note>。佛法對於非因計因<lb n="0139a05" ed="Y" type="old"/>的
 <lb n="0139a05" ed="Y"/>邪因論，駁斥不遺餘力，現略舉三種來說：</p>
-<lb n="0139a06" ed="Y"/><lb n="0139a06" ed="Y" type="old"/><p style="text-indent:2em">一、宿作論，也可名為定命論。他們也說由於過去的業力感得今生的果報<lb n="0139a07" ed="Y" type="old"/>，
+<lb n="0139a06" ed="Y"/><lb n="0139a06" ed="Y" type="old"/><p xml:id="pY08p0139a0601" style="text-indent:2em">一、宿作論，也可名為定命論。他們也說由於過去的業力感得今生的果報<lb n="0139a07" ed="Y" type="old"/>，
 <lb n="0139a07" ed="Y"/>但以為世間的一切無不由生前業力招感的，對於現生的行為價值，也即是現<lb n="0139a08" ed="Y" type="old"/>生的
 <lb n="0139a08" ed="Y"/>因緣，完全抹煞了。若真的世間一切現象都是由前生鑄定的，那就等於否<lb n="0139a09" ed="Y" type="old"/>定現生
 <lb n="0139a09" ed="Y"/>努力的價值。佛法雖也說由前生行為的好惡，影響今生的苦樂果報，但更<lb n="0139a10" ed="Y" type="old"/>重視現
@@ -117,11 +137,11 @@
 <lb n="0141a04" ed="Y"/>，怎樣才能做得好。小呢，自己得到安樂；大之，使世界都得到安<lb n="0141a05" ed="Y" type="old"/>樂，得到究竟
 <lb n="0141a05" ed="Y"/>的解脫。</p></cb:div></cb:div>
 <lb n="0141a06" ed="Y"/><lb n="0141a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　因緣的類別</cb:mulu><head>第二節　因緣的類別</head>
-<lb n="0141a07" ed="Y"/><lb n="0141a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">三重因緣</cb:mulu><head>三重因緣</head><lb n="0141a08" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">佛法的主要方法，在觀察現象而探求它的因緣。現象為什麼會如
+<lb n="0141a07" ed="Y"/><lb n="0141a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">三重因緣</cb:mulu><head>三重因緣</head><lb n="0141a08" ed="Y" type="old"/><p xml:id="pY08p0141a0709" style="text-indent:2em" cb:place="inline">佛法的主要方法，在觀察現象而探求它的因緣。現象為什麼會如
 <lb n="0141a08" ed="Y"/><lb n="0141a09" ed="Y" type="old"/>此，必有所以如此的原因。佛法的一切深義、大行，都是由於觀察因緣（緣起）
 <lb n="0141a09" ed="Y"/><lb n="0141a10" ed="Y" type="old"/>而發見的。佛世所談的因緣，極其廣泛，但極其簡要。後代的學佛者，根據佛陀
 <lb n="0141a10" ed="Y"/><lb n="0141a11" ed="Y" type="old"/>的示導悉心參究，於是因緣的深義，或淺或深的明白出來。這可以分別為三層<lb n="0141a12" ed="Y" type="old"/>：</p>
-<lb n="0141a11" ed="Y"/><lb n="0141a13" ed="Y" type="old"/><p style="text-indent:2em">一、果從因生：現實存在的事物，決不會自己如此，必須從因而生，對因名<pb n="0142a" ed="Y" xml:id="Y08.0008.0142a.old" type="old"/>
+<lb n="0141a11" ed="Y"/><lb n="0141a13" ed="Y" type="old"/><p xml:id="pY08p0141a1101" style="text-indent:2em">一、果從因生：現實存在的事物，決不會自己如此，必須從因而生，對因名<pb n="0142a" ed="Y" xml:id="Y08.0008.0142a.old" type="old"/>
 <lb n="0141a12" ed="Y"/><lb n="0142a01" ed="Y" type="old"/>果。在一定的條件和合下，才有「法」的生起，這是佛法的基本觀念，也就依此
 <pb n="0142a" ed="Y" xml:id="Y08.0008.0142a"/>
 <lb n="0142a01" ed="Y"/><lb n="0142a02" ed="Y" type="old"/>對治無因或邪因論。如見一果樹，即知必由種子、肥料、水分、溫度等種種關係
@@ -129,7 +149,7 @@
 <lb n="0142a03" ed="Y"/><lb n="0142a04" ed="Y" type="old"/>因生，不從邪因生，這即是因緣生。因緣是很複雜的，其中有主要的或次要的<lb n="0142a05" ed="Y" type="old"/>，
 <lb n="0142a04" ed="Y"/>必須由種種因緣和合，才能產生某一現象。佛法依此因緣論的立場，所以偶然<lb n="0142a06" ed="Y" type="old"/>而
 <lb n="0142a05" ed="Y"/>有的無因論，不能成立。</p>
-<lb n="0142a06" ed="Y"/><lb n="0142a07" ed="Y" type="old"/><p style="text-indent:2em">二、事待理成：這比上一層要深刻些。現實的一切事象，固然是因果，但在
+<lb n="0142a06" ed="Y"/><lb n="0142a07" ed="Y" type="old"/><p xml:id="pY08p0142a0601" style="text-indent:2em">二、事待理成：這比上一層要深刻些。現實的一切事象，固然是因果，但在
 <lb n="0142a07" ed="Y"/><lb n="0142a08" ed="Y" type="old"/>因果裡，有它更深刻、普遍的理性。為什麼從某因必生出某果？這必有某某必然
 <lb n="0142a08" ed="Y"/>生<lb n="0142a09" ed="Y" type="old"/>某的理則。世間的一切，都循著這必然的理則而成立，這是屬於哲學的。佛法
 <lb n="0142a09" ed="Y"/>不<lb n="0142a10" ed="Y" type="old"/>稱此必然的理則為理性，名之為「法」。經中說：<cit><quote source="T02n0099_p0084b16-17" type="嚴謹引文">「若佛出世，若未出世，此
@@ -146,7 +166,7 @@
 <lb n="0143a06" ed="Y"/>來事即無法確<lb n="0143a07" ed="Y" type="old"/>定其必然如此，即不能建立必然的因果關係。一切因果事象的所以
 <lb n="0143a07" ed="Y"/>必然如此，都<lb n="0143a08" ed="Y" type="old"/>有他的必然性，可說一切事象都是依照這必然的理則而生滅、成壞
 <lb n="0143a08" ed="Y"/>。這必然的理<lb n="0143a09" ed="Y" type="old"/>則，是事象所依以成立的，也即是因緣。</p>
-<lb n="0143a09" ed="Y"/><lb n="0143a10" ed="Y" type="old"/><p style="text-indent:2em">三、有依空立：這更深刻了。果從因生的事象，及事待理成的必然理則，都
+<lb n="0143a09" ed="Y"/><lb n="0143a10" ed="Y" type="old"/><p xml:id="pY08p0143a0901" style="text-indent:2em">三、有依空立：這更深刻了。果從因生的事象，及事待理成的必然理則，都
 <lb n="0143a10" ed="Y"/><lb n="0143a11" ed="Y" type="old"/>是存在的，即是「有」的。凡是存在的，必須依空而立。這是說：不管是存在的
 <lb n="0143a11" ed="Y"/><lb n="0143a12" ed="Y" type="old"/>事物也好、理則也好，都必依否定實在性的本性而成立。這等於說：如不是非存
 <lb n="0143a12" ed="Y"/><lb n="0143a13" ed="Y" type="old"/>在的，即不能成為存在的。試作淺顯的譬喻：如造一間房子，房子即是存在的。<pb n="0144a" ed="Y" xml:id="Y08.0008.0144a.old" type="old"/>
@@ -160,15 +180,15 @@
 <lb n="0144a06" ed="Y"/>在，房子有它的真實自體，那就不會從因緣生，不會有這從無而有、已有<lb n="0144a08" ed="Y" type="old"/>還無的
 <lb n="0144a07" ed="Y"/>現象。這樣，從因果現象，一步步的向深處觀察，就發見這最徹底、最究<lb n="0144a09" ed="Y" type="old"/>竟的因
 <lb n="0144a08" ed="Y"/>緣論。</p></cb:div>
-<lb n="0144a09" ed="Y"/><lb n="0144a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">二大理則</cb:mulu><head>二大理則</head><lb n="0144a11" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">佛法的因緣論，雖有此三層，而主要的是事待理成，依此而成為
+<lb n="0144a09" ed="Y"/><lb n="0144a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">二大理則</cb:mulu><head>二大理則</head><lb n="0144a11" ed="Y" type="old"/><p xml:id="pY08p0144a0909" style="text-indent:2em" cb:place="inline">佛法的因緣論，雖有此三層，而主要的是事待理成，依此而成為
 <lb n="0144a10" ed="Y"/><lb n="0144a12" ed="Y" type="old"/>事實，依此而顯示真性。如上面說到的<quote source="T02n0099_p0012c23-25" type="嚴謹引文">「有因有緣集世間，有因有緣世間集；有
 <lb n="0144a11" ed="Y"/><lb n="0144a13" ed="Y" type="old"/>因有緣滅世間，有因有緣世間滅」<note n="0144001" resp="周怡曄" type="add">《雜阿含經》卷2(CBETA, T02, no. 99, p. 12, c23-25)</note></quote>，即表示了兩方面。說明世間集的因緣，佛法
 <lb n="0144a12" ed="Y"/><lb n="0144a14" ed="Y" type="old"/>名之為「緣起支性」；說明世間滅的因緣，名之為「聖道支性」。經中每以<quote type="嚴謹引文">「法<pb n="0145a" ed="Y" xml:id="Y08.0008.0145a.old" type="old"/>
 <lb n="0144a13" ed="Y"/><lb n="0145a01" ed="Y" type="old"/>性、法住、法界安住」</quote>，形容緣起支性。緣起支性即十二有支，主要為說明世間
 <pb n="0145a" ed="Y" xml:id="Y08.0008.0145a"/>
 <lb n="0145a01" ed="Y"/><lb n="0145a02" ed="Y" type="old"/>雜染因果相生的法則。聖道支性即是八正道，要想得到超越世間雜染的清淨法，
-<lb n="0145a02" ed="Y"/><lb n="0145a03" ed="Y" type="old"/>必須修聖道為因緣，才能實現。經中曾以<cit><quote source="T02n0099_p0080c27" type="嚴謹引文">「古仙人道」</quote><bibl>（<title level="m">《雜阿含經》</title><biblScope type="卷" n="12">卷一二</biblScope>．
-<lb n="0145a03" ed="Y"/><ref type="taisho" target="#no:287">二八七經</ref><lb n="0145a04" ed="Y" type="old"/>）</bibl><note n="0145001" resp="周怡曄" type="add">《雜阿含經》卷12(CBETA, T02, no. 99, p. 80, c27)</note></cit>說此聖道，即可見要到達清淨解脫，不論是過去或未來、大乘或小乘
+<lb n="0145a02" ed="Y"/><lb n="0145a03" ed="Y" type="old"/>必須修聖道為因緣，才能實現。經中曾以<cit><quote source="T02n0099_p0080c27" type="嚴謹引文">「古仙人道」</quote><bibl>（<title level="m">《雜阿含經》</title><biblScope n="12" type="卷">卷一二</biblScope>．
+<lb n="0145a03" ed="Y"/><ref target="#no:287" type="taisho">二八七經</ref><lb n="0145a04" ed="Y" type="old"/>）</bibl><note n="0145001" resp="周怡曄" type="add">《雜阿含經》卷12(CBETA, T02, no. 99, p. 80, c27)</note></cit>說此聖道，即可見要到達清淨解脫，不論是過去或未來、大乘或小乘
 <lb n="0145a04" ed="Y"/>，此八正<lb n="0145a05" ed="Y" type="old"/>道是必經之路，必須依此軌則去實行。緣起支性與聖道支性，是因緣論
 <lb n="0145a05" ed="Y"/>中最重要<lb n="0145a06" ed="Y" type="old"/>的，可說是佛法中的兩大理則。佛教中的大眾系與分別說系，都說此緣
 <lb n="0145a06" ed="Y"/>起支性與<lb n="0145a07" ed="Y" type="old"/>聖道支性是無為的，就因為這兩大理則都有必然性與普遍性。大眾與分
@@ -184,7 +204,7 @@
 <lb n="0146a02" ed="Y"/>去實行<lb n="0146a03" ed="Y" type="old"/>完成。所以佛說此兩大理則，即對於現實人間以及向上淨化，提供了一種
 <lb n="0146a03" ed="Y"/>必然的<lb n="0146a04" ed="Y" type="old"/>理則，使人心能有所著落，依著去實踐，捨染從淨。如學者能確認此必然
 <lb n="0146a04" ed="Y"/>理則，<lb n="0146a05" ed="Y" type="old"/>即是得<quote source="T02n0099_p0097b15" type="嚴謹引文">「法住智」<note n="0146001" resp="周怡曄" type="add">《雜阿含經》卷14(CBETA, T02, no. 99, p. 97, b15)</note></quote>；進一步的實證，即是經中所說的<quote source="T02n0099_p0006a07-08" type="嚴謹引文">「見法涅槃」<note n="0146002" resp="周怡曄" type="add">《雜阿含經》卷1(CBETA, T02, no. 99, p. 6, a7-8)</note></quote>了。</p>
-<lb n="0146a05" ed="Y"/><lb n="0146a06" ed="Y" type="old"/><p cb:type="pre">　　　　　　　　　　　　　　　　　┌─苦（果）─┐
+<lb n="0146a05" ed="Y"/><lb n="0146a06" ed="Y" type="old"/><p cb:type="pre" xml:id="pY08p0146a0501">　　　　　　　　　　　　　　　　　┌─苦（果）─┐
 <lb n="0146a06" ed="Y"/>　　　　　　　　　　　　　┌─生─┤　　　　　　├─世間因果
 <lb n="0146a07" ed="Y"/>　　　　　　┌─緣起支性─┤　　　└─集（因）─┘
 <lb n="0146a08" ed="Y"/>　　　因緣─┤　　　　　　└─滅───滅（果）─┐

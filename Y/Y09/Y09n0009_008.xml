@@ -12,50 +12,70 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版二刷<date>Date: 2015/03</date>新式標點版</edition>
+			<edition>修訂版二刷<date>Date: 2015/03</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>12卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 9, No. 9</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>12卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">9</idno>.<idno type="no">9</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">中觀今論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第七章　有、時、空、動</cb:mulu><cb:mulu level="2" type="其他">第五節　無言之秘</cb:mulu>
-<milestone unit="juan" n="8"/><pb n="0145a" ed="Y" xml:id="Y09.0009.0145a.old" type="old"/>
+<milestone n="8" unit="juan"/><pb n="0145a" ed="Y" xml:id="Y09.0009.0145a.old" type="old"/>
 <pb n="0145a" ed="Y" xml:id="Y09.0009.0145a"/>
 <lb n="0145a01" ed="Y"/><lb n="0145a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">第八章　中觀之諸法實相</cb:mulu><head>第八章　中觀之諸法實相</head>
 <lb n="0145a02" ed="Y"/><lb n="0145a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　總說</cb:mulu><head>第一節　總說</head>
-<lb n="0145a03" ed="Y"/><lb n="0145a03" ed="Y" type="old"/><p style="text-indent:2em">法相，即諸法的相狀、義相與體相。欲於諸法得如實知，即應於諸法相作透
+<lb n="0145a03" ed="Y"/><lb n="0145a03" ed="Y" type="old"/><p xml:id="pY09p0145a0301" style="text-indent:2em">法相，即諸法的相狀、義相與體相。欲於諸法得如實知，即應於諸法相作透
 <lb n="0145a04" ed="Y"/><lb n="0145a04" ed="Y" type="old"/>徹的觀察。阿毘曇，即是以智慧審觀諸法的自相、共相。如<cit><bibl><title level="m">《阿毘曇心論》</title>發端
 <lb n="0145a05" ed="Y"/><lb n="0145a05" ed="Y" type="old"/>就說：</bibl><quote>「能知諸法自相、共相，名為佛。」</quote></cit>所以說佛有兩種智：一、總相智，<lb n="0145a06" ed="Y" type="old"/>是
 <lb n="0145a06" ed="Y"/>知諸法共相的；二、別相智，是知諸法自相的。佛弟子隨佛修學，於諸法作事<lb n="0145a07" ed="Y" type="old"/>理
@@ -73,7 +93,7 @@
 <lb n="0146a07" ed="Y"/>失，凡七相<note n="0146003" resp="謝淑歆" type="add">《大智度論》卷27〈1 序品〉：「一切法各各相、各各力、各各因緣、各各[11]果報、各各性、各各得、各各失」(CBETA, T25, no. 1509, p. 260, b4-5)[11]果＝異【宮】。</note>。由此比類觀察，可知<title level="m">《法華經》</title>的十相，實有所據。在印<lb n="0146a08" ed="Y" type="old"/>度，對於
 <lb n="0146a08" ed="Y"/>法相的觀察，就有多少差別的。這裡，可以分三類來觀察：(一)、性、相<lb n="0146a09" ed="Y" type="old"/>，(二)、體
 <lb n="0146a09" ed="Y"/>、力、作，(三)、因、緣、果、報。三類以外，<title level="m">《法華經》</title>有本末究竟，<lb n="0146a10" ed="Y" type="old"/>這是窮源
-<lb n="0146a10" ed="Y"/>竟委的意思。<bibl><title level="m">《大智度論》</title><biblScope type="卷" n="32">卷三二</biblScope></bibl>有限礙、開通方便，與臺宗十法成乘中的<lb n="0146a11" ed="Y" type="old"/>「通
+<lb n="0146a10" ed="Y"/>竟委的意思。<bibl><title level="m">《大智度論》</title><biblScope n="32" type="卷">卷三二</biblScope></bibl>有限礙、開通方便，與臺宗十法成乘中的<lb n="0146a11" ed="Y" type="old"/>「通
 <lb n="0146a11" ed="Y"/>塞」相近。卷二七又多說得、失二種。無論是說性、說相，乃至因果，都是就<lb n="0146a12" ed="Y" type="old"/>某
 <lb n="0146a12" ed="Y"/>某法而作如是觀察的，離開了存在的事實，這些相都無從安立。古代阿毘曇論<lb n="0146a13" ed="Y" type="old"/>師
 <lb n="0146a13" ed="Y"/>，即是側重一一法上一一相之考察的。然而這九相或十相，所以應作如此觀察<pb n="0147a" ed="Y" xml:id="Y09.0009.0147a.old" type="old"/><lb n="0147a01" ed="Y" type="old"/>者
@@ -82,17 +102,17 @@
 <lb n="0147a02" ed="Y"/>這些即是諸法共通的法則。現在即從這諸法的法則去說明，當然，佛所了知的<lb n="0147a03" ed="Y" type="old"/>，
 <lb n="0147a03" ed="Y"/>不僅是此共通的法則而已！</p></cb:div>
 <lb n="0147a04" ed="Y"/><lb n="0147a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　性、相</cb:mulu><head>第二節　性、相</head>
-<lb n="0147a05" ed="Y"/><lb n="0147a05" ed="Y" type="old"/><p style="text-indent:2em">性、相二名，在佛法中是可以互用的。性可以名為相，相也可以名為性。如
+<lb n="0147a05" ed="Y"/><lb n="0147a05" ed="Y" type="old"/><p xml:id="pY09p0147a0501" style="text-indent:2em">性、相二名，在佛法中是可以互用的。性可以名為相，相也可以名為性。如
 <lb n="0147a06" ed="Y"/><lb n="0147a06" ed="Y" type="old"/><bibl><title level="m">《大智度論》</title><biblScope n="31" type="卷">卷三一</biblScope></bibl>說性有二種：總性、別性；又說相有二種：總相、別相。雖
 <lb n="0147a07" ed="Y"/>說性<lb n="0147a07" ed="Y" type="old"/>說相，而內容是同一的。如<title level="m">《解深密經》</title>說遍計所執相、依他起相、圓成實
 <lb n="0147a08" ed="Y"/>相，<lb n="0147a08" ed="Y" type="old"/>而餘處則稱為遍計所執性、依他起性、圓成實性。故性、相不妨互用，如<cit><bibl><title level="m">《
-<lb n="0147a09" ed="Y"/>大智度論》</title><lb n="0147a09" ed="Y" type="old"/><biblScope type="卷" n="31">卷三一</biblScope>說：</bibl><quote source="T25n1509_p0293a29-b01" type="嚴謹引文">「性、相有何等異？答曰：有人言：其實無異，名有差別
+<lb n="0147a09" ed="Y"/>大智度論》</title><lb n="0147a09" ed="Y" type="old"/><biblScope n="31" type="卷">卷三一</biblScope>說：</bibl><quote source="T25n1509_p0293a29-b01" type="嚴謹引文">「性、相有何等異？答曰：有人言：其實無異，名有差別
 <lb n="0147a10" ed="Y"/>。」</quote><note n="0147001" resp="謝淑歆" type="add">《大智度論》卷31〈1 序品〉(CBETA, T25, no. 1509, p. 293, a29-b1)</note></cit>但若性、相<lb n="0147a10" ed="Y" type="old"/>合說在一起，則應該有它的不同含義，所以又<quote source="T25n1509_p0293b03-04" type="嚴謹引文">「有人言：性、相
 <lb n="0147a11" ed="Y"/>小有差別，性言其<lb n="0147a11" ed="Y" type="old"/>體，相言可識。」<note n="0147002" resp="謝淑歆" type="add">《大智度論》卷31〈1 序品〉(CBETA, T25, no. 1509, p. 293, b3-4)</note></quote>性指諸法體性，相指諸法樣相。又依論說：
 <lb n="0147a12" ed="Y"/>體性是內在的，相<lb n="0147a12" ed="Y" type="old"/>貌是外現的；又性是久遠的、末後的；相是新近的、初起的。
 <pb n="0148a" ed="Y" xml:id="Y09.0009.0148a"/>
 <lb n="0148a01" ed="Y"/>「性」、「相」兩相<pb n="0148a" ed="Y" xml:id="Y09.0009.0148a.old" type="old"/><lb n="0148a01" ed="Y" type="old"/>，含義極多，這裡且略辨四類：</p>
-<lb n="0148a02" ed="Y"/><lb n="0148a02" ed="Y" type="old"/><p style="text-indent:2em">一、約初後（遠近）論性相：<cit><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="67">卷六七</biblScope>說：</bibl><quote source="T25n1509_p0528b25-26" type="嚴謹引文">「是相積習成性，譬
+<lb n="0148a02" ed="Y"/><lb n="0148a02" ed="Y" type="old"/><p xml:id="pY09p0148a0201" style="text-indent:2em">一、約初後（遠近）論性相：<cit><bibl><title level="m">《大智度論》</title><biblScope n="67" type="卷">卷六七</biblScope>說：</bibl><quote source="T25n1509_p0528b25-26" type="嚴謹引文">「是相積習成性，譬
 <lb n="0148a03" ed="Y"/>如人<lb n="0148a03" ed="Y" type="old"/>瞋，日習不已，則成惡性。」</quote><note n="0148001" resp="謝淑歆" type="add">《大智度論》卷67〈45 歎信行品〉(CBETA, T25, no. 1509, p. 528, b25-26)</note></cit>我們的思想、行為，起初或善或惡，或貪或瞋
 <lb n="0148a04" ed="Y"/>，即<lb n="0148a04" ed="Y" type="old"/>是相。如不斷的起作，久後會積習成性。等到習以成性，常人不了，每以為
 <lb n="0148a05" ed="Y"/>本性<lb n="0148a05" ed="Y" type="old"/>如此。佛說眾生有貪性人、瞋性人、癡性人等，這都由久久積習而成性的，
@@ -126,7 +146,7 @@
 <lb n="0150a05" ed="Y"/>力的作用，而有非此不可<lb n="0150a05" ed="Y" type="old"/>之勢。常人不知緣起，偏執自性有，所以將積漸成性為
 <lb n="0150a06" ed="Y"/>本性，或習性以外另立本<lb n="0150a06" ed="Y" type="old"/>性。性雖有自爾的、不變的意思，但不過是相對的，能
 <lb n="0150a07" ed="Y"/>在未遇特殊情況及未有<lb n="0150a07" ed="Y" type="old"/>另一積習成性時，可以維持此必然的性質及其傾向。</p>
-<lb n="0150a08" ed="Y"/><lb n="0150a08" ed="Y" type="old"/><p style="text-indent:2em">二、約內外說性相：<cit><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="31">卷三一</biblScope>說：</bibl><quote source="T25n1509_p0293b08" type="嚴謹引文">「相不定，從身出，性則言其
+<lb n="0150a08" ed="Y"/><lb n="0150a08" ed="Y" type="old"/><p xml:id="pY09p0150a0801" style="text-indent:2em">二、約內外說性相：<cit><bibl><title level="m">《大智度論》</title><biblScope n="31" type="卷">卷三一</biblScope>說：</bibl><quote source="T25n1509_p0293b08" type="嚴謹引文">「相不定，從身出，性則言其
 <lb n="0150a09" ed="Y"/>實。」</quote><note n="0150001" resp="謝淑歆" type="add">《大智度論》卷31〈1 序品〉(CBETA, T25, no. 1509, p. 293, b8)</note></cit><lb n="0150a09" ed="Y" type="old"/>相是從內而現於外的，是不一定符合於內在的，性才是實際的。佛常說<quote source="T32n1673_p0748c03-04" type="寬鬆引文">「
 <lb n="0150a10" ed="Y"/>或<lb n="0150a10" ed="Y" type="old"/>有生似熟，或有熟似生」<note n="0150002" resp="謝淑歆" type="add">《勸發諸王要偈》卷1：「有人生似熟<space quantity="1" unit="chars"/>或復熟似生<space quantity="1" unit="chars"/>或二俱生熟<space quantity="1" unit="chars"/>明者諦分別」(CBETA, T32, no. 1673, p. 748, c3-4)</note></quote>，即是說內在的真實性，不一定與外表的形式相同，
 <lb n="0150a11" ed="Y"/>並<lb n="0150a11" ed="Y" type="old"/>且有時是相反的。<cit><bibl><title level="m">《大智度論》</title><biblScope n="31" type="卷">卷三一</biblScope>舉喻說：</bibl><quote source="T25n1509_p0293b08-11" type="嚴謹引文">「如見黃色為金相，而內是銅
@@ -139,8 +159,8 @@
 <lb n="0151a04" ed="Y"/>誠於<lb n="0151a04" ed="Y" type="old"/>中，形於外」</quote>，表裡一致，性相一如的，但也可能是假充善人的。如佛呵提
 <lb n="0151a05" ed="Y"/>婆達<lb n="0151a05" ed="Y" type="old"/>多，雖外現忿怒相而內懷慈悲。內性與外相，可能不一致，非審細的考察不
 <lb n="0151a06" ed="Y"/>知。<lb n="0151a06" ed="Y" type="old"/>佛有種種界智力，才能深見他的內性而教導他，如化央掘摩羅等。</p>
-<lb n="0151a07" ed="Y"/><lb n="0151a07" ed="Y" type="old"/><p style="text-indent:2em">三、約通別說性相：佛法中常說為自相、共相；<title level="m">《大智度論》</title>名為總相、別
-<lb n="0151a08" ed="Y"/>相，<lb n="0151a08" ed="Y" type="old"/>總性、別性。此總與別，依<bibl><title level="m">《大智度論》</title><biblScope type="卷" n="67">卷六七</biblScope></bibl>說，即名為相與性，即諸法
+<lb n="0151a07" ed="Y"/><lb n="0151a07" ed="Y" type="old"/><p xml:id="pY09p0151a0701" style="text-indent:2em">三、約通別說性相：佛法中常說為自相、共相；<title level="m">《大智度論》</title>名為總相、別
+<lb n="0151a08" ed="Y"/>相，<lb n="0151a08" ed="Y" type="old"/>總性、別性。此總與別，依<bibl><title level="m">《大智度論》</title><biblScope n="67" type="卷">卷六七</biblScope></bibl>說，即名為相與性，即諸法
 <lb n="0151a09" ed="Y"/>的共通性<lb n="0151a09" ed="Y" type="old"/>為相，不共的名為性。<cit><bibl><title level="m">《大智度論》</title><biblScope n="31" type="卷">卷三一</biblScope>說：</bibl><quote type="嚴謹引文">「總相者，如無常等。
 <lb n="0151a10" ed="Y"/>別相者，諸法<lb n="0151a10" ed="Y" type="old"/>雖皆無常而各有別相，如地為堅相，火為熱相。」</quote><note n="0151001" resp="厚觀法師" type="add">《大智度論》卷31〈1 序品〉(CBETA, T25, no. 1509, p. 293, a27-29)</note></cit>此說無常等，是
 <lb n="0151a11" ed="Y"/>諸法共相；地堅<lb n="0151a11" ed="Y" type="old"/>相、火熱相，乃至色變礙相、受領納相等，即是自相。地以堅為
@@ -152,7 +172,7 @@
 <lb n="0152a03" ed="Y"/>看作自性有的。<lb n="0152a03" ed="Y" type="old"/>實則，從極小的到極廣大的，一切緣起法各有它特殊的性質或性
 <lb n="0152a04" ed="Y"/>能，但這是從緣<lb n="0152a04" ed="Y" type="old"/>起法中顯出他的主要特徵，並非除此以外沒有別的性質，也不是
 <lb n="0152a05" ed="Y"/>此一特殊性質<lb n="0152a05" ed="Y" type="old"/>是可以獨特存在的。中觀者說：眼以見為性，這是可以這樣說的。
-<lb n="0152a06" ed="Y"/>但若說見性為<lb n="0152a06" ed="Y" type="old"/>不失自相的，即非中觀者所許。<cit><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="31">卷三一</biblScope>評云：</bibl><quote source="T25n1509_p0292c29" type="嚴謹引文">「火能
+<lb n="0152a06" ed="Y"/>但若說見性為<lb n="0152a06" ed="Y" type="old"/>不失自相的，即非中觀者所許。<cit><bibl><title level="m">《大智度論》</title><biblScope n="31" type="卷">卷三一</biblScope>評云：</bibl><quote source="T25n1509_p0292c29" type="嚴謹引文">「火能
 <lb n="0152a07" ed="Y"/>燒，造色能照，二<lb n="0152a07" ed="Y" type="old"/>法和合故名為火……，云何言熱是火性？復次，熱性從眾緣生
 <lb n="0152a08" ed="Y"/>。」</quote><note n="0152001" resp="謝淑歆" type="add">《大智度論》卷31〈1 序品〉：「如火能燒，造色能[1]炤，二法和合，故名為火。若離是二法有火者，應別有火用，而無別用。以是故，知火是假名，亦無有實。若實無火法，云何言熱是火性？復次，熱性從眾緣生」(CBETA, T25, no. 1509, p. 292, c29-p. 293, a4)[1]炤＝照【石】。</note></cit>此說緣起法不<lb n="0152a08" ed="Y" type="old"/>單是一性的，如火不但是以熱為性，火發光即能照，燒物即成
 <lb n="0152a09" ed="Y"/>燒，照與燒都可以<lb n="0152a09" ed="Y" type="old"/>說是火的特性，何獨執熱為火性呢？當知緣起法是依存於眾多
@@ -189,18 +209,18 @@
 <lb n="0154a12" ed="Y"/>即是緣起，不<lb n="0154a12" ed="Y" type="old"/>可說一、不可說異，不但不是意識概括的抽象產物，也不是隱蔽於
 <lb n="0154a13" ed="Y"/>諸法之後或超<lb n="0154a13" ed="Y" type="old"/>越於諸法之上的什麼東西。</p><pb n="0155a" ed="Y" xml:id="Y09.0009.0155a.old" type="old"/>
 <pb n="0155a" ed="Y" xml:id="Y09.0009.0155a"/>
-<lb n="0155a01" ed="Y"/><lb n="0155a01" ed="Y" type="old"/><p style="text-indent:2em">四、約名（相）實說性相：<cit><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="51">卷五一</biblScope>說：</bibl><quote source="T25n1509_p0428a21-22" type="嚴謹引文">「此性深妙，云何可知
+<lb n="0155a01" ed="Y"/><lb n="0155a01" ed="Y" type="old"/><p xml:id="pY09p0155a0101" style="text-indent:2em">四、約名（相）實說性相：<cit><bibl><title level="m">《大智度論》</title><biblScope n="51" type="卷">卷五一</biblScope>說：</bibl><quote source="T25n1509_p0428a21-22" type="嚴謹引文">「此性深妙，云何可知
 <lb n="0155a02" ed="Y"/>？以<lb n="0155a02" ed="Y" type="old"/>色（等）相力故可知。」</quote><note n="0155001" resp="謝淑歆" type="add">《大智度論》卷51〈23 含受品〉(CBETA, T25, no. 1509, p. 428, a21-22)</note></cit>此即藉相以知性，相指能知某之所以是某者，如見
 <lb n="0155a03" ed="Y"/>了扮<lb n="0155a03" ed="Y" type="old"/>角的臉譜和服裝，就知道他是誰。性即一切法之自體，本是離名絕相——不
 <lb n="0155a04" ed="Y"/>但理<lb n="0155a04" ed="Y" type="old"/>性絕相，事性也不如名相所表現而即為如此的，非語文意想（符號）所能表
 <lb n="0155a05" ed="Y"/>達的<lb n="0155a05" ed="Y" type="old"/>。但所以知有法性，不能不依語文意識的所了相而顯出它的實性。此與認識
 <lb n="0155a06" ed="Y"/><lb n="0155a06" ed="Y" type="old"/>論有關，為佛法重要論題之一。</p>
-<lb n="0155a07" ed="Y"/><lb n="0155a07" ed="Y" type="old"/><p style="text-indent:2em">此更可分為二層去說：一、即相與可相，約一一事物的藉相知性說。事事物
+<lb n="0155a07" ed="Y"/><lb n="0155a07" ed="Y" type="old"/><p xml:id="pY09p0155a0701" style="text-indent:2em">此更可分為二層去說：一、即相與可相，約一一事物的藉相知性說。事事物
 <lb n="0155a08" ed="Y"/><lb n="0155a08" ed="Y" type="old"/>物——性的所以確定他是有，即由於有某種相為我們所知的。相有表示此法自性
 <lb n="0155a09" ed="Y"/><lb n="0155a09" ed="Y" type="old"/>的作用，是能相，性即是可（所）相。我們藉此相的表示，得以了知此法是有的
 <lb n="0155a10" ed="Y"/><lb n="0155a10" ed="Y" type="old"/>，而且是不同餘法的。所以，凡是存在的，即不能不是有相的，<cit><bibl><title level="m">《中論》</title>說</bibl><quote source="T30n1564_p0007b15" type="嚴謹引文">「<lb n="0155a11" ed="Y" type="old"/>是
 <lb n="0155a11" ed="Y"/>無相之法，一切處無有」</quote><note n="0155002" resp="謝淑歆" type="add">《中論》卷1〈5 觀六種品〉(CBETA, T30, no. 1564, p. 7, b15)</note></cit>。</p>
-<lb n="0155a12" ed="Y"/><lb n="0155a12" ed="Y" type="old"/><p style="text-indent:2em">在常人的自性妄見中，於相及可相，不能了解為緣起的，於是有執為是一的
+<lb n="0155a12" ed="Y"/><lb n="0155a12" ed="Y" type="old"/><p xml:id="pY09p0155a1201" style="text-indent:2em">在常人的自性妄見中，於相及可相，不能了解為緣起的，於是有執為是一的
 <lb n="0155a13" ed="Y"/><lb n="0155a13" ed="Y" type="old"/>，也有執為是異的。執一者，以為相與可相一體；執異者，以為體性、形相各有<pb n="0156a" ed="Y" xml:id="Y09.0009.0156a.old" type="old"/>
 <pb n="0156a" ed="Y" xml:id="Y09.0009.0156a"/>
 <lb n="0156a01" ed="Y"/><lb n="0156a01" ed="Y" type="old"/>自性，如勝論師執「實」是體，「德」是相。這在佛法裡，批評的地方很多，<bibl>《
@@ -217,18 +237,18 @@
 <lb n="0156a12" ed="Y"/><lb n="0156a12" ed="Y" type="old"/>標相」，也是可以藉此而知性的，但這是依於比量的推比而知，相與可相間的關
 <lb n="0156a13" ed="Y"/><lb n="0156a13" ed="Y" type="old"/>係，絕為鬆懈。如見招牌知有酒店，但也有酒店而不置此招牌者。又如見煙知火<pb n="0157a" ed="Y" xml:id="Y09.0009.0157a.old" type="old"/>
 <pb n="0157a" ed="Y" xml:id="Y09.0009.0157a"/>
-<lb n="0157a01" ed="Y"/><lb n="0157a01" ed="Y" type="old"/>，煙為火相，但無煙還是可以有火的。所以<cit><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="67">卷六七</biblScope>說：</bibl><quote source="T25n1509_p0528b26-27" type="嚴謹引文">「如見煙知
+<lb n="0157a01" ed="Y"/><lb n="0157a01" ed="Y" type="old"/>，煙為火相，但無煙還是可以有火的。所以<cit><bibl><title level="m">《大智度論》</title><biblScope n="67" type="卷">卷六七</biblScope>說：</bibl><quote source="T25n1509_p0528b26-27" type="嚴謹引文">「如見煙知
 <lb n="0157a02" ed="Y"/>火，<lb n="0157a02" ed="Y" type="old"/>煙是火相而非火也。」</quote><note n="0157001" resp="謝淑歆" type="add">《大智度論》卷67〈45 歎信行品〉(CBETA, T25, no. 1509, p. 528, b26-27)</note></cit>故約相對而分別說：如以堅相而顯地性，可假說堅即
 <lb n="0157a03" ed="Y"/>是地<lb n="0157a03" ed="Y" type="old"/>的；以煙為火相，煙不即是火的。在相與可相的不一不異中，有此似一似異
 <lb n="0157a04" ed="Y"/>的二<lb n="0157a04" ed="Y" type="old"/>者。</p>
-<lb n="0157a05" ed="Y"/><lb n="0157a05" ed="Y" type="old"/><p style="text-indent:2em">二、即事相與理性：<cit><bibl><title level="m">《大智度論》</title><biblScope n="46" type="卷">卷四六</biblScope>說：</bibl><quote source="T25n1509_p0394a05-07" type="嚴謹引文">「若有為法性，若無為法性，
+<lb n="0157a05" ed="Y"/><lb n="0157a05" ed="Y" type="old"/><p xml:id="pY09p0157a0501" style="text-indent:2em">二、即事相與理性：<cit><bibl><title level="m">《大智度論》</title><biblScope n="46" type="卷">卷四六</biblScope>說：</bibl><quote source="T25n1509_p0394a05-07" type="嚴謹引文">「若有為法性，若無為法性，
 <lb n="0157a06" ed="Y"/>是性<lb n="0157a06" ed="Y" type="old"/>非聲聞、辟支佛作，非佛所作，亦非餘人所作。」</quote><note n="0157002" resp="謝淑歆" type="add">《大智度論》卷46〈18 摩訶衍品〉(CBETA, T25, no. 1509, p. 394, a5-7)</note></cit>有為法性即無常性，一切
 <lb n="0157a07" ed="Y"/>有為<lb n="0157a07" ed="Y" type="old"/>法法爾如是；無為法性即寂滅性。此有為、無為的常遍法性，也可說藉相而
 <lb n="0157a08" ed="Y"/>知。凡<lb n="0157a08" ed="Y" type="old"/>有為法，有生、住、滅的三種相，此三相是遍通一切有為法的，眾生見此
 <lb n="0157a09" ed="Y"/>生滅的現象<lb n="0157a09" ed="Y" type="old"/>，即知一切是有為（行）性的，即依現見的生滅相而知無常性；依不
 <lb n="0157a10" ed="Y"/>生不滅相而<lb n="0157a10" ed="Y" type="old"/>知寂滅性。如依緣起法的相依相待而知無自性，從別別的表面的事相
 <lb n="0157a11" ed="Y"/>，悟解到遍<lb n="0157a11" ed="Y" type="old"/>通的、法爾的、深刻的理性，這是以相知性的又一義。此如<cit><bibl><title level="m">《大智度
-<lb n="0157a12" ed="Y"/>論》</title><biblScope type="卷" n="31">卷三一</biblScope>說：<lb n="0157a12" ed="Y" type="old"/></bibl><quote source="T25n1509_p0293a21-22" type="嚴謹引文">「有為性三相：生、住、滅。無為性亦三相：不生、不住、不滅
+<lb n="0157a12" ed="Y"/>論》</title><biblScope n="31" type="卷">卷三一</biblScope>說：<lb n="0157a12" ed="Y" type="old"/></bibl><quote source="T25n1509_p0293a21-22" type="嚴謹引文">「有為性三相：生、住、滅。無為性亦三相：不生、不住、不滅
 <lb n="0157a13" ed="Y"/>。」</quote><note n="0157003" resp="謝淑歆" type="add">《大智度論》卷31〈1 序品〉(CBETA, T25, no. 1509, p. 293, a21-22)</note></cit>關於無為法<lb n="0157a13" ed="Y" type="old"/>性，從本性寂滅說，相與性即現相與空性。如<cit><bibl><title level="m">《大智度論》</title><biblScope n="51" type="卷">卷五
 <pb n="0158a" ed="Y" xml:id="Y09.0009.0158a"/>
 <lb n="0158a01" ed="Y"/>一</biblScope>說：</bibl><quote source="T25n1509_p0428a18-21" type="嚴謹引文">「諸佛觀色相<pb n="0158a" ed="Y" xml:id="Y09.0009.0158a.old" type="old"/><lb n="0158a01" ed="Y" type="old"/>畢竟清淨空……，性自爾故。」</quote><note n="0158001" resp="謝淑歆" type="add">《大智度論》卷51〈23 含受品〉(CBETA, T25, no. 1509, p. 428, a18-21)</note></cit>佛觀一切法畢竟空，即是於
@@ -237,7 +257,7 @@
 <lb n="0158a04" ed="Y"/>實事相中去深觀而契<lb n="0158a04" ed="Y" type="old"/>會的。性之所以是空的，即由相的緣起性，唯有緣起才能顯
 <lb n="0158a05" ed="Y"/>出空寂性，這從別別<lb n="0158a05" ed="Y" type="old"/>事相以見事理之法性，由一切現有以達畢竟空性，比之「相
 <lb n="0158a06" ed="Y"/>與可相」，是更深入<lb n="0158a06" ed="Y" type="old"/>了！</p>
-<lb n="0158a07" ed="Y"/><lb n="0158a07" ed="Y" type="old"/><p style="text-indent:2em">此有一大論題，即<quote source="T25n1509_p0428a21-22" type="寬鬆引文">「此性深妙，以相可知」<note n="0158002" resp="謝淑歆" type="add">《大智度論》卷51〈23 含受品〉：「此性深妙，云何可知？以色相力故可知。」(CBETA, T25, no. 1509, p. 428, a21-22)</note></quote>。於此，有兩大派的不同：一、
+<lb n="0158a07" ed="Y"/><lb n="0158a07" ed="Y" type="old"/><p xml:id="pY09p0158a0701" style="text-indent:2em">此有一大論題，即<quote source="T25n1509_p0428a21-22" type="寬鬆引文">「此性深妙，以相可知」<note n="0158002" resp="謝淑歆" type="add">《大智度論》卷51〈23 含受品〉：「此性深妙，云何可知？以色相力故可知。」(CBETA, T25, no. 1509, p. 428, a21-22)</note></quote>。於此，有兩大派的不同：一、
 <lb n="0158a08" ed="Y"/>實<lb n="0158a08" ed="Y" type="old"/>在論者——如薩婆多部等，以為心識有顯了對象的作用；凡是可知者，即是存
 <lb n="0158a09" ed="Y"/>在<lb n="0158a09" ed="Y" type="old"/>者。在識的了境上，總名與總相，即概念的類名與意義，雖不是對象（性）自
 <lb n="0158a10" ed="Y"/>身<lb n="0158a10" ed="Y" type="old"/>，而由此能詮能顯以了得客觀的法性。名言——名句文、心識，有指向對象、
@@ -250,7 +270,7 @@
 <lb n="0159a03" ed="Y"/>自心所<lb n="0159a03" ed="Y" type="old"/>涵攝的，是自心表象的客觀化——物化。我們所知道的，不出於心識名言
 <lb n="0159a04" ed="Y"/>。這即<lb n="0159a04" ed="Y" type="old"/>是必由心識的了相而知性，被解說為並無心外的存在。所以，<quote type="嚴謹引文">「若人識得
 <lb n="0159a05" ed="Y"/>心，大<lb n="0159a05" ed="Y" type="old"/>地無寸土」</quote>。</p>
-<lb n="0159a06" ed="Y"/><lb n="0159a06" ed="Y" type="old"/><p style="text-indent:2em">中觀者從緣起觀的立場，即不作此等說。有人引<cit><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="15">卷一五</biblScope>所說</bibl><quote source="T25n1509_p0171a09-10" type="嚴謹引文">「
+<lb n="0159a06" ed="Y"/><lb n="0159a06" ed="Y" type="old"/><p xml:id="pY09p0159a0601" style="text-indent:2em">中觀者從緣起觀的立場，即不作此等說。有人引<cit><bibl><title level="m">《大智度論》</title><biblScope n="15" type="卷">卷一五</biblScope>所說</bibl><quote source="T25n1509_p0171a09-10" type="嚴謹引文">「
 <lb n="0159a07" ed="Y"/>若<lb n="0159a07" ed="Y" type="old"/>諸法實有，不應以心識故知有；若以心識故有，是則非有」</quote><note n="0159001" resp="謝淑歆" type="add">《大智度論》卷15〈1 序品〉(CBETA, T25, no. 1509, p. 171, a9-10)</note></cit>，以為空宗所說與
 <lb n="0159a08" ed="Y"/>唯<lb n="0159a08" ed="Y" type="old"/>識者的見解一樣。不知原文接著說：<quote source="T25n1509_p0171a10-11" type="嚴謹引文">「地堅相，以身根、身識知故有。」<note n="0159002" resp="謝淑歆" type="add">《大智度論》卷15〈1 序品〉(CBETA, T25, no. 1509, p. 171, a10-11)</note></quote>龍樹
 <lb n="0159a09" ed="Y"/>不<lb n="0159a09" ed="Y" type="old"/>但以心識故知有，也以根——生理機構——故知有。即使說依心故知有，也只
@@ -300,7 +320,7 @@
 <lb n="0162a11" ed="Y"/>相非相，則見如來」<note n="0162002" resp="謝淑歆" type="add">《金剛般若波羅蜜經》卷1(CBETA, T08, no. 235, p. 749, a24-25)</note></quote>——即諸法如義。</p></cb:div>
 <lb n="0162a12" ed="Y"/><lb n="0162a12" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　體、作、力</cb:mulu><head>第三節　體、作、力</head><pb n="0163a" ed="Y" xml:id="Y09.0009.0163a.old" type="old"/>
 <pb n="0163a" ed="Y" xml:id="Y09.0009.0163a"/>
-<lb n="0163a01" ed="Y"/><lb n="0163a01" ed="Y" type="old"/><p style="text-indent:2em">體，對用而說。體與性，中國學者向來看作同一的，但佛法中不盡如此。體
+<lb n="0163a01" ed="Y"/><lb n="0163a01" ed="Y" type="old"/><p xml:id="pY09p0163a0101" style="text-indent:2em">體，對用而說。體與性，中國學者向來看作同一的，但佛法中不盡如此。體
 <lb n="0163a02" ed="Y"/><lb n="0163a02" ed="Y" type="old"/>與性也有不同，如<cit><bibl><title level="m">《俱舍論》</title>說：</bibl><quote source="T29n1558_p0105b02" type="嚴謹引文">「許法體恒有，而說性非常。」</quote><note n="0163001" resp="謝淑歆" type="add">《阿毘達磨俱舍論》卷20〈5 分別隨眠品〉(CBETA, T29, no. 1558, p. 105, b2)</note></cit>性可以作性質
 <lb n="0163a03" ed="Y"/><lb n="0163a03" ed="Y" type="old"/>等說，如說無常性、無我性等，即與法體不同。體與性也有同一的，如薩婆多部
 <lb n="0163a04" ed="Y"/><lb n="0163a04" ed="Y" type="old"/>說諸法各住自性，自體也即自性的異名。然薩婆多部的自性，指一一法的終極質
@@ -312,7 +332,7 @@
 <lb n="0163a10" ed="Y"/><lb n="0163a10" ed="Y" type="old"/>，即能起作用的假我或法。如外道以世間一切作業歸於神，以神為作者，或以自
 <lb n="0163a11" ed="Y"/><lb n="0163a11" ed="Y" type="old"/>我為作者等。佛法雖可說有作者，但這不過是順俗假說，並無真實的作者。如說
 <lb n="0163a12" ed="Y"/><lb n="0163a12" ed="Y" type="old"/>眼能見，見是眼之用，即假名眼為見者。故此處所說作者，與體義相當。依<bibl><title level="m">《順
-<lb n="0163a13" ed="Y"/><lb n="0163a13" ed="Y" type="old"/>正理論》</title><biblScope type="卷" n="3">卷三</biblScope></bibl>解作者有二家：一、約一一法的自性——法性說，二、約因緣和合<pb n="0164a" ed="Y" xml:id="Y09.0009.0164a.old" type="old"/>
+<lb n="0163a13" ed="Y"/><lb n="0163a13" ed="Y" type="old"/>正理論》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>解作者有二家：一、約一一法的自性——法性說，二、約因緣和合<pb n="0164a" ed="Y" xml:id="Y09.0009.0164a.old" type="old"/>
 <pb n="0164a" ed="Y" xml:id="Y09.0009.0164a"/>
 <lb n="0164a01" ed="Y"/><lb n="0164a01" ed="Y" type="old"/>相續的假名說。依中觀說：離眾緣和合，無有別存的作者，即別存的作用也沒有
 <lb n="0164a02" ed="Y"/><lb n="0164a02" ed="Y" type="old"/>；作者與作用，皆不過依緣和合的假有。如<cit><bibl><title level="m">《華嚴經》</title>說：</bibl><quote source="T10n0279_p0066b06" type="嚴謹引文">「諸法無作用，亦無
@@ -331,7 +351,7 @@
 <lb n="0165a01" ed="Y"/>論》</title>說</bibl><quote source="T30n1564_p0012b06-07" type="嚴謹引文">「現有作、有作者、有所用作法，三事和合故有果報」</quote><note n="0165001" resp="謝淑歆" type="add">《中論》卷2〈8 觀作作者品〉(CBETA, T30, no. 1564, p. 12, b6-7)</note></cit>，可知即依法<lb n="0165a02" ed="Y" type="old"/>的作
 <lb n="0165a02" ed="Y"/>用而知有因果。因為，凡是存在的——法體，必有作用；有用，決非自性的，<lb n="0165a03" ed="Y" type="old"/>必
 <lb n="0165a03" ed="Y"/>然地關涉於他法而成立的，即由作用關係於他法，說為因果。對於作用，<bibl><title level="m">《順<lb n="0165a04" ed="Y" type="old"/>正
-<lb n="0165a04" ed="Y"/>理論》</title><biblScope type="卷" n="52">卷五二</biblScope></bibl>有二種釋：一、約正現在的，名為作用；二、約過去、未來——不
+<lb n="0165a04" ed="Y"/>理論》</title><biblScope n="52" type="卷">卷五二</biblScope></bibl>有二種釋：一、約正現在的，名為作用；二、約過去、未來——不
 <lb n="0165a05" ed="Y"/>現<lb n="0165a05" ed="Y" type="old"/>在前所有力用，即名為功能。體與用，依佛法說，是不一不異的。如從眾緣和
 <lb n="0165a06" ed="Y"/>合而<lb n="0165a06" ed="Y" type="old"/>成的，即是體，指緣起和合性的總體；用即和合性上所起的種種作用。體與
 <lb n="0165a07" ed="Y"/>用是<lb n="0165a07" ed="Y" type="old"/>不可以相離的，但也不即是一。作者與作業，即體與用的關係，如<cit><bibl>《<title level="m">中論</title>．
@@ -353,7 +373,7 @@
 <lb n="0166a09" ed="Y"/>功能<lb n="0166a09" ed="Y" type="old"/>的分別，意義也大概相同。體、用、業，無不如幻，約世俗名言說，可有如
 <lb n="0166a10" ed="Y"/>是的<lb n="0166a10" ed="Y" type="old"/>相對差別。</p></cb:div>
 <lb n="0166a11" ed="Y"/><lb n="0166a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第四節　因、緣、果、報</cb:mulu><head>第四節　因、緣、果、報</head>
-<lb n="0166a12" ed="Y"/><lb n="0166a12" ed="Y" type="old"/><p style="text-indent:2em">先說因與緣，梵語雖是兩個字，但在<title level="m">《阿含經》</title>裡，常常聯用，似乎沒有什<pb n="0167a" ed="Y" xml:id="Y09.0009.0167a.old" type="old"/>
+<lb n="0166a12" ed="Y"/><lb n="0166a12" ed="Y" type="old"/><p xml:id="pY09p0166a1201" style="text-indent:2em">先說因與緣，梵語雖是兩個字，但在<title level="m">《阿含經》</title>裡，常常聯用，似乎沒有什<pb n="0167a" ed="Y" xml:id="Y09.0009.0167a.old" type="old"/>
 <pb n="0167a" ed="Y" xml:id="Y09.0009.0167a"/>
 <lb n="0167a01" ed="Y"/><lb n="0167a01" ed="Y" type="old"/>麼不同。如說<quote source="T25n1509_p0094a04-05" type="嚴謹引文">「二因二緣，生於正見」<note n="0167001" resp="謝淑歆" type="add">《大智度論》卷4〈1 序品〉(CBETA, T25, no. 1509, p. 94, a4-5)</note></quote>，二因二緣，即是多聞熏習與如理思惟二
 <lb n="0167a02" ed="Y"/><lb n="0167a02" ed="Y" type="old"/>者。由此觀之，因與緣不能說定有差別。但從文字使用的習慣去考察，也可以說
@@ -375,7 +395,7 @@
 <lb n="0168a04" ed="Y"/>，<lb n="0168a04" ed="Y" type="old"/>即過去的業因感今後善惡的結果。報指果中有善惡性，與一般的因果不同。佛
 <lb n="0168a05" ed="Y"/><lb n="0168a05" ed="Y" type="old"/>法講因果，通明一切；約道德與不道德的果說，即名為報。因與緣、果與報，雖
 <lb n="0168a06" ed="Y"/><lb n="0168a06" ed="Y" type="old"/>不無差別，如通泛的說，可總名因果。</p>
-<lb n="0168a07" ed="Y"/><lb n="0168a07" ed="Y" type="old"/><p style="text-indent:2em">唯識宗的因果說，著重在諸法的「自性緣起」。依唯識義說，眼識的生起，
+<lb n="0168a07" ed="Y"/><lb n="0168a07" ed="Y" type="old"/><p xml:id="pY09p0168a0701" style="text-indent:2em">唯識宗的因果說，著重在諸法的「自性緣起」。依唯識義說，眼識的生起，
 <lb n="0168a08" ed="Y"/><lb n="0168a08" ed="Y" type="old"/>由於眼識的種子；眼識種子對眼識名因，其餘明、空等為緣。這種自性緣起的因
 <lb n="0168a09" ed="Y"/><lb n="0168a09" ed="Y" type="old"/>果論，主要的根據在一「界」字。界與法的語根 <foreign xml:lang="sa">Dhṛ</foreign> 相同，有持義，有任持自相
 <lb n="0168a10" ed="Y"/><lb n="0168a10" ed="Y" type="old"/>、不失不變義，所以十八界古譯有名為十八持的。持的意義，即保持特性，有決
@@ -405,7 +425,7 @@
 <lb n="0170a06" ed="Y"/>使<lb n="0170a06" ed="Y" type="old"/>化惡為善，日進於善而離於惡。若看成自性存在的、已有的，那不是化惡為善
 <lb n="0170a07" ed="Y"/>，<lb n="0170a07" ed="Y" type="old"/>不過消滅一些惡的，另外保存一些善的。唯識學的因果說，是很精細的，但沒
 <lb n="0170a08" ed="Y"/>有<lb n="0170a08" ed="Y" type="old"/>脫盡多元實在論的積習。</p>
-<lb n="0170a09" ed="Y"/><lb n="0170a09" ed="Y" type="old"/><p style="text-indent:2em">華嚴宗的法界緣起說——是增上緣的極端論，達到了一法之生起，其他一切
+<lb n="0170a09" ed="Y"/><lb n="0170a09" ed="Y" type="old"/><p xml:id="pY09p0170a0901" style="text-indent:2em">華嚴宗的法界緣起說——是增上緣的極端論，達到了一法之生起，其他一切
 <lb n="0170a10" ed="Y"/><lb n="0170a10" ed="Y" type="old"/>的一切都為此法作緣；所以一法以一切法為緣，一切法亦以此一法為緣。唯識者
 <lb n="0170a11" ed="Y"/><lb n="0170a11" ed="Y" type="old"/>所明的界，重在最極根本而又極小的；華嚴者講界，是極寬泛而又廣大的。華嚴
 <lb n="0170a12" ed="Y"/><lb n="0170a12" ed="Y" type="old"/>宗高談圓融，以一法可為一切法的緣，此一法即圓具一切法，一切法都無不遍在
@@ -420,7 +440,7 @@
 <lb n="0171a07" ed="Y"/>明因緣生法。中觀者既不同法法各有自性的各從自種、其小無內的緣<lb n="0171a08" ed="Y" type="old"/>起，也不同
 <lb n="0171a08" ed="Y"/>一切法皆入一法，一法待一切法，其大無外的緣起。唯有能知因果緣<lb n="0171a09" ed="Y" type="old"/>起的本義，
 <lb n="0171a09" ed="Y"/>才能於因緣生法中，得有進而改善因果系的下手處。</p>
-<lb n="0171a10" ed="Y"/><lb n="0171a10" ed="Y" type="old"/><p style="text-indent:2em">因、緣、果、報，<title level="m">《增一阿含》</title>裡講到四緣，迦旃延尼子創說六因。各家的
+<lb n="0171a10" ed="Y"/><lb n="0171a10" ed="Y" type="old"/><p xml:id="pY09p0171a1001" style="text-indent:2em">因、緣、果、報，<title level="m">《增一阿含》</title>裡講到四緣，迦旃延尼子創說六因。各家的
 <lb n="0171a11" ed="Y"/><lb n="0171a11" ed="Y" type="old"/>說法多不同：像薩婆多部說有六因，<title level="m">《舍利弗毘曇》</title>說十種因，<title level="m">《瑜伽師地論》</title>
 <lb n="0171a12" ed="Y"/>也說<lb n="0171a12" ed="Y" type="old"/>十因，<title level="m">《成實論》</title>說三種因，<title level="m">《楞伽經》</title>說六種因等。關於緣，如通常說的
 <lb n="0171a13" ed="Y"/>四緣<lb n="0171a13" ed="Y" type="old"/>，<title level="m">《舍利弗毘曇》</title>說十緣，南傳的論中有明二十四緣的。這些，都是見到因
@@ -430,16 +450,16 @@
 <lb n="0172a03" ed="Y"/>至與<lb n="0172a03" ed="Y" type="old"/>之不再發生連繫。又如紗為因，布為果；此即不同母子的因果關係，紗織成
 <lb n="0172a04" ed="Y"/>布，<lb n="0172a04" ed="Y" type="old"/>布即不能離紗而有，見布時亦可見紗。又如水是氫氧化合成的，但成了水以
 <lb n="0172a05" ed="Y"/>後，<lb n="0172a05" ed="Y" type="old"/>氫氧的性質形態，就不見了。因果是可以有各式各樣不同形態的。</p>
-<lb n="0172a06" ed="Y"/><lb n="0172a06" ed="Y" type="old"/><p style="text-indent:2em">因果的形態很複雜，現在略說二種：一、前後的因果：如修學佛法，漸次增
+<lb n="0172a06" ed="Y"/><lb n="0172a06" ed="Y" type="old"/><p xml:id="pY09p0172a0601" style="text-indent:2em">因果的形態很複雜，現在略說二種：一、前後的因果：如修學佛法，漸次增
 <lb n="0172a07" ed="Y"/><lb n="0172a07" ed="Y" type="old"/>進到成佛，但現在造成佛的因，而佛果要到很長久的未來才能實現；等到果實現
-<lb n="0172a08" ed="Y"/><lb n="0172a08" ed="Y" type="old"/>時，因又早已過去了。這前後遙隔，怎能構成因果關係呢？<cit><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="54">卷五四</biblScope>
+<lb n="0172a08" ed="Y"/><lb n="0172a08" ed="Y" type="old"/>時，因又早已過去了。這前後遙隔，怎能構成因果關係呢？<cit><bibl><title level="m">《大智度論》</title><biblScope n="54" type="卷">卷五四</biblScope>
 <lb n="0172a09" ed="Y"/>說：<lb n="0172a09" ed="Y" type="old"/></bibl><quote source="T25n1509_p0444b26-28" type="嚴謹引文">「初發意迴向與佛心作因緣，而初發意迴向時未有佛心，佛心中無初迴向心
 <lb n="0172a10" ed="Y"/>，雖<lb n="0172a10" ed="Y" type="old"/>無而能作因緣。」</quote><note n="0172001" resp="謝淑歆" type="add">《大智度論》卷54〈27 天主品〉(CBETA, T25, no. 1509, p. 444, b26-28)</note></cit>或者以為因果二者非同時現在不能成為因果，迴向心與佛
 <lb n="0172a11" ed="Y"/>心<lb n="0172a11" ed="Y" type="old"/>前後既遠遠的相隔，如何能成為因果？龍樹約二義來解答：(一)、約第一義諦說
 <lb n="0172a12" ed="Y"/>：<lb n="0172a12" ed="Y" type="old"/>現在心、未來心，皆無自性，心雖有現在、未來等的緣起相而性自本空，在畢
 <lb n="0172a13" ed="Y"/>竟空<lb n="0172a13" ed="Y" type="old"/>寂中，心心無礙，無有差別。以此，現象雖前後各別，而實無礙於因果的成
 <pb n="0173a" ed="Y" xml:id="Y09.0009.0173a"/>
-<lb n="0173a01" ed="Y"/>立。<pb n="0173a" ed="Y" xml:id="Y09.0009.0173a.old" type="old"/><lb n="0173a01" ed="Y" type="old"/>(二)、約世俗諦說：如<cit><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="75">卷七五</biblScope>說</bibl><quote source="T25n1509_p0585c02-04" type="嚴謹引文">「初心不至後心，後心不在初心
+<lb n="0173a01" ed="Y"/>立。<pb n="0173a" ed="Y" xml:id="Y09.0009.0173a.old" type="old"/><lb n="0173a01" ed="Y" type="old"/>(二)、約世俗諦說：如<cit><bibl><title level="m">《大智度論》</title><biblScope n="75" type="卷">卷七五</biblScope>說</bibl><quote source="T25n1509_p0585c02-04" type="嚴謹引文">「初心不至後心，後心不在初心
 <lb n="0173a02" ed="Y"/>，云何<lb n="0173a02" ed="Y" type="old"/>增益善根得無上道」</quote><note n="0173001" resp="謝淑歆" type="add">《大智度論》卷75〈57 燈炷品〉(CBETA, T25, no. 1509, p. 585, c2-4)</note></cit>？<quote source="T25n1509_p0585c16-18" type="嚴謹引文">「佛以現事譬喻答：如燈炷，非獨初焰燋，亦不離
 <lb n="0173a03" ed="Y"/>初焰；<lb n="0173a03" ed="Y" type="old"/>非獨後焰燋，亦不離後焰，而燈炷燋。」<note n="0173002" resp="謝淑歆" type="add">《大智度論》卷75〈57 燈炷品〉(CBETA, T25, no. 1509, p. 585, c16-18)</note></quote>此中佛答修行為因，得成佛果，
 <lb n="0173a04" ed="Y"/>引燈炷<lb n="0173a04" ed="Y" type="old"/>作喻：燈炷之燋，非第一念發光時燋，亦非第二、第三……念發光時燋，
@@ -450,7 +470,7 @@
 <lb n="0173a09" ed="Y"/>是展轉<lb n="0173a09" ed="Y" type="old"/>增長、前後相待的業用不失。這樣，依佛法講因果，是前後勢用展轉增盛
 <lb n="0173a10" ed="Y"/>的，不可<lb n="0173a10" ed="Y" type="old"/>以現在的一點小善小惡而忽之，因為它積漸以久，勢用會強大起來而自
 <lb n="0173a11" ed="Y"/>得其果的<lb n="0173a11" ed="Y" type="old"/>。</p>
-<lb n="0173a12" ed="Y"/><lb n="0173a12" ed="Y" type="old"/><p style="text-indent:2em">二、和合的因果：這是各學派所週知的。如房屋是以磚、瓦、木、石、人工
+<lb n="0173a12" ed="Y"/><lb n="0173a12" ed="Y" type="old"/><p xml:id="pY09p0173a1201" style="text-indent:2em">二、和合的因果：這是各學派所週知的。如房屋是以磚、瓦、木、石、人工
 <lb n="0173a13" ed="Y"/><lb n="0173a13" ed="Y" type="old"/>等和合而成功，房屋是果，磚、瓦等即是因。在眾多的有關屋事的材料中，任何
 <pb n="0174a" ed="Y" xml:id="Y09.0009.0174a"/>
 <lb n="0174a01" ed="Y"/>一<pb n="0174a" ed="Y" xml:id="Y09.0009.0174a.old" type="old"/><lb n="0174a01" ed="Y" type="old"/>物都不會現有房屋的形狀與作用，合堆在一起也不會有屋的形狀與作用；但經
@@ -472,7 +492,7 @@
 <lb n="0175a03" ed="Y"/>法的<lb n="0175a03" ed="Y" type="old"/>因緣生果也如此，果不即是因緣，亦不離因緣，這是中觀宗的因果特義。不
 <lb n="0175a04" ed="Y"/>離因<lb n="0175a04" ed="Y" type="old"/>緣，所以即因緣求不可得，離因緣求不可得，果的自性是決不可得的。不即
 <lb n="0175a05" ed="Y"/>因緣<lb n="0175a05" ed="Y" type="old"/>，所以如幻的果事用相宛然；甚至可約用相的特色，相對的假名為自性。</p>
-<lb n="0175a06" ed="Y"/><lb n="0175a06" ed="Y" type="old"/><p style="text-indent:2em">前後性的因果，是約異時因果說的；和合性的因果，是約同時因果而說的。
+<lb n="0175a06" ed="Y"/><lb n="0175a06" ed="Y" type="old"/><p xml:id="pY09p0175a0601" style="text-indent:2em">前後性的因果，是約異時因果說的；和合性的因果，是約同時因果而說的。
 <lb n="0175a07" ed="Y"/><lb n="0175a07" ed="Y" type="old"/>薩婆多部講同時因果、異時因果，經部但說以前引後，不說因果同時。中觀者依
 <lb n="0175a08" ed="Y"/><lb n="0175a08" ed="Y" type="old"/>世俗諦說：凡是存在而可稱為因果的，必有能生所生、能起所起義，必有前後性
 <lb n="0175a09" ed="Y"/><lb n="0175a09" ed="Y" type="old"/>；如同時，即如牛兩角，不能成立因果義。反之，凡可稱為因果的，因果必有相
@@ -486,7 +506,7 @@
 <lb n="0176a03" ed="Y"/>色，名色緣識；即是展轉為緣，<quote source="T30n1579_p0827c23-24" type="嚴謹引文">「猶如束蘆，相依而轉」<note n="0176001" resp="謝淑歆" type="add">《瑜伽師地論》卷93(CBETA, T30, no. 1579, p. 827, c23-24)</note></quote>，即和合性的同時因<lb n="0176a04" ed="Y" type="old"/>果
 <lb n="0176a04" ed="Y"/>。薩婆多部說十二緣起，每支都具有五蘊，即每支為和合聚，不過約顯現的特<lb n="0176a05" ed="Y" type="old"/>勝
 <lb n="0176a05" ed="Y"/>，說此是行、此是識等。</p>
-<lb n="0176a06" ed="Y"/><lb n="0176a06" ed="Y" type="old"/><p style="text-indent:2em">佛法所說因果，其義極為深隱。如薩婆多部深究至極微細的原質，而說同時
+<lb n="0176a06" ed="Y"/><lb n="0176a06" ed="Y" type="old"/><p xml:id="pY09p0176a0601" style="text-indent:2em">佛法所說因果，其義極為深隱。如薩婆多部深究至極微細的原質，而說同時
 <lb n="0176a07" ed="Y"/><lb n="0176a07" ed="Y" type="old"/>、異時的因果。如五蘊和合為我，以為此是假法，不是真實的因果。唯識者也說
 <lb n="0176a08" ed="Y"/>假<lb n="0176a08" ed="Y" type="old"/>法非因果。這與中觀者的因果義，絕然不同。依中觀者說：假法才能成立因果
 <lb n="0176a09" ed="Y"/>，<lb n="0176a09" ed="Y" type="old"/>因為凡是因緣所成的法（也即是因果的關係）都是假法，假法即是無自性的，
@@ -518,7 +538,7 @@
 <lb n="0178a07" ed="Y"/>即是<lb n="0178a07" ed="Y" type="old"/>法假。<title level="m">《大智度論》</title>所明的三假，是顯示修行次第的，即由名假到受假，破
 <lb n="0178a08" ed="Y"/>受假而達<lb n="0178a08" ed="Y" type="old"/>法假，進破法假而通達畢竟空。依此因果假有義上，有從粗至細的不同
 <lb n="0178a09" ed="Y"/>安立，故<lb n="0178a09" ed="Y" type="old"/>因果可有種種的形態不同。</p>
-<lb n="0178a10" ed="Y"/><lb n="0178a10" ed="Y" type="old"/><p style="text-indent:2em">上章曾提到：一切法剎那滅，何以能一期相續？如「大地劫住」<note n="0178001" resp="謝淑歆" type="add">《異部宗輪論》卷1(CBETA, T49, no. 2031, p. 17, a17-18)</note>、「人生百
+<lb n="0178a10" ed="Y"/><lb n="0178a10" ed="Y" type="old"/><p xml:id="pY09p0178a1001" style="text-indent:2em">上章曾提到：一切法剎那滅，何以能一期相續？如「大地劫住」<note n="0178001" resp="謝淑歆" type="add">《異部宗輪論》卷1(CBETA, T49, no. 2031, p. 17, a17-18)</note>、「人生百
 <lb n="0178a11" ed="Y"/><lb n="0178a11" ed="Y" type="old"/>歲」，雖知道他剎那不息的在變，而到底是一期相續了。這應加以解說：凡是某
 <lb n="0178a12" ed="Y"/><lb n="0178a12" ed="Y" type="old"/>一事態的存在與消失，無不由於因緣，確乎是<quote type="嚴謹引文">「此有故彼有」</quote>，<quote type="嚴謹引文">「此無故彼無」</quote>
 <lb n="0178a13" ed="Y"/><lb n="0178a13" ed="Y" type="old"/>的。但因緣與果，有親疏的差別，有層次的差別。這是說：一法的存在與生起，<pb n="0179a" ed="Y" xml:id="Y09.0009.0179a.old" type="old"/>

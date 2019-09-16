@@ -12,55 +12,75 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/12</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/12</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>39卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 23, No. 23</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>39卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">23</idno>.<idno type="no">23</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨香雲</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十八、清念上人傳</cb:mulu>
-<milestone unit="juan" n="19"/><pb n="0269a" ed="Y" xml:id="Y23.0023.0269a.old" type="old"/>
+<milestone n="19" unit="juan"/><pb n="0269a" ed="Y" xml:id="Y23.0023.0269a.old" type="old"/>
 <pb n="0269a" ed="Y" xml:id="Y23.0023.0269a"/>
 <lb n="0269a01" ed="Y"/><lb n="0269a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十九、法舫法師行傳</cb:mulu><head>法舫法師行傳<note n="0269001" resp="DILA" type="add">民國四〇年撰。</note></head>
-<lb n="0269a02" ed="Y"/><lb n="0269a02" ed="Y" type="old"/><p style="text-indent:2em">法師諱法舫，河北井陘農家子，生於清光緒三十年。幼以避旱災至北京，就
+<lb n="0269a02" ed="Y"/><lb n="0269a02" ed="Y" type="old"/><p xml:id="pY23p0269a0201" style="text-indent:2em">法師諱法舫，河北井陘農家子，生於清光緒三十年。幼以避旱災至北京，就
 <lb n="0269a03" ed="Y"/><lb n="0269a03" ed="Y" type="old"/>學於法源寺義學。感佛門慈濟恩，遂於民國十年，依南嶽是岸長老出家也。翌年
 <lb n="0269a04" ed="Y"/><lb n="0269a04" ed="Y" type="old"/>，佛學院初創於武昌（簡稱武院），師聞風嚮往，乃結伴南參，親炙於太虛大師
 <lb n="0269a05" ed="Y"/><lb n="0269a05" ed="Y" type="old"/>者二年。轉入北京藏文學院，且隨留藏學法團西行。中止康定，欲求藏密。然以
 <lb n="0269a06" ed="Y"/><lb n="0269a06" ed="Y" type="old"/>違緣，遄返武昌，自修於武院者又數年。其學日進，善唯識、<title level="m">《俱舍論》</title>，為眾
 <lb n="0269a07" ed="Y"/>所重。</p>
-<lb n="0269a08" ed="Y"/><lb n="0269a07" ed="Y" type="old"/><p style="text-indent:2em">十九年秋，師任教於北平柏林教理院，兼世界佛學苑設備處書記。講<title level="m">《阿毘
+<lb n="0269a08" ed="Y"/><lb n="0269a07" ed="Y" type="old"/><p xml:id="pY23p0269a0801" style="text-indent:2em">十九年秋，師任教於北平柏林教理院，兼世界佛學苑設備處書記。講<title level="m">《阿毘
 <lb n="0269a09" ed="Y"/><lb n="0269a08" ed="Y" type="old"/>達磨俱舍論》</title>，義解精當，學譽斐然矣！九一八變起，虛大師召之返武院，任世
 <lb n="0269a10" ed="Y"/><lb n="0269a09" ed="Y" type="old"/>界佛學苑圖書館主任。於苑中編<title level="j">《海潮音》</title>，從事於革新佛教之宣導，亦時出其
 <lb n="0269a11" ed="Y"/><lb n="0269a10" ed="Y" type="old"/>研究之緒餘。其後且三編<title level="j">《海潮音》</title>，斷續竟五年之久。虛大師曾設預科、研究
@@ -69,7 +89,7 @@
 <lb n="0270a02" ed="Y"/>僧<pb n="0270a" ed="Y" xml:id="Y23.0023.0270a.old" type="old"/><lb n="0270a01" ed="Y" type="old"/>教育中心，<title level="j">《海潮音》</title>則其廣長舌。五、六年間，始終以師主其事，實山門之
 <lb n="0270a03" ed="Y"/>中堅<lb n="0270a02" ed="Y" type="old"/>矣！抗戰軍興，應學友法尊約，入川主持漢藏教理院教務，二、三年間，殊
 <lb n="0270a04" ed="Y"/>著勞績<lb n="0270a03" ed="Y" type="old"/>。</p>
-<lb n="0270a05" ed="Y"/><lb n="0270a04" ed="Y" type="old"/><p style="text-indent:2em">虛大師國際訪問歸來，商得教育部同意，資遣師赴錫蘭，弘傳大乘。經緬甸
+<lb n="0270a05" ed="Y"/><lb n="0270a04" ed="Y" type="old"/><p xml:id="pY23p0270a0501" style="text-indent:2em">虛大師國際訪問歸來，商得教育部同意，資遣師赴錫蘭，弘傳大乘。經緬甸
 <lb n="0270a06" ed="Y"/><lb n="0270a05" ed="Y" type="old"/>，適應戰時需要，留年餘。三十二年二月，始西出印度；後時往來於印度之國際
 <lb n="0270a07" ed="Y"/><lb n="0270a06" ed="Y" type="old"/>大學、錫蘭之智嚴學院。師本其毘曇之舊學，進求錫蘭之初傳，因地隨宜，小行
 <lb n="0270a08" ed="Y"/><lb n="0270a07" ed="Y" type="old"/>大隱，每隨順於分別說者。西安籌設巴利三藏院，中錫互換留學僧，胥師有以導
@@ -83,7 +103,7 @@
 <lb n="0271a02" ed="Y"/><lb n="0271a01" ed="Y" type="old"/>。暇則遊化馬來亞、暹羅，於<title level="s">《太虛大師全書》</title>之印行，所助尤力。初聞師血壓
 <lb n="0271a03" ed="Y"/><lb n="0271a02" ed="Y" type="old"/>高，以師壯健，咸不以為慮。不圖竟於（四十年）十月三日，以腦溢血，俄而示
 <lb n="0271a04" ed="Y"/><lb n="0271a03" ed="Y" type="old"/>寂，生年僅四十八耳。</p>
-<lb n="0271a05" ed="Y"/><lb n="0271a04" ed="Y" type="old"/><p style="text-indent:2em">嗟乎！法師善英、日、巴利文，精研法相，兼通世學，其法門之傑哉！比年
+<lb n="0271a05" ed="Y"/><lb n="0271a04" ed="Y" type="old"/><p xml:id="pY23p0271a0501" style="text-indent:2em">嗟乎！法師善英、日、巴利文，精研法相，兼通世學，其法門之傑哉！比年
 <lb n="0271a06" ed="Y"/><lb n="0271a05" ed="Y" type="old"/>遊化東南亞，道譽日隆。方期迻譯南傳，復興中土，繼虛大師之志行而光大之；
 <lb n="0271a07" ed="Y"/><lb n="0271a06" ed="Y" type="old"/>寧知眾生福薄，象王既去而象子隨行者耶？弘願未酬，識者同悲。謹為略述遺行
 <lb n="0271a08" ed="Y"/><lb n="0271a07" ed="Y" type="old"/>，以誌永念。</p></cb:div><pb n="0272a" ed="Y" xml:id="Y23.0023.0272a.old" type="old"/>

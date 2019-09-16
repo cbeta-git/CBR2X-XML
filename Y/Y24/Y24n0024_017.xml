@@ -12,72 +12,92 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版四刷<date>Date: 2011/10</date>新式標點版</edition>
+			<edition>新版四刷<date>Date: 2011/10</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 24, No. 24</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">24</idno>.<idno type="no">24</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法是救世之光</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十六、大乘空義</cb:mulu>
-<milestone unit="juan" n="17"/>
+<milestone n="17" unit="juan"/>
 <pb n="0189a" ed="Y" xml:id="Y24.0024.0189a"/>
 <lb n="0189a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">十七、色即是空，空即是色</cb:mulu><head>色即是空，空即是色<note n="0189001" resp="DILA" type="add">民國五七年撰。</note></head>
-<lb n="0189a02" ed="Y"/><p style="text-indent:2em">「色即是空」，「空即是色」，在佛法——般若<note n="0189a0201" resp="CBETA" type="add" subtype="規範字詞">波羅蜜多【CB】，波羅密多【印順】</note><app n="0189a0201"><lem wit="【CB】" resp="CBETA">波羅蜜多</lem><rdg wit="【印順】">波羅密多</rdg></app>中，是著名的精句
+<lb n="0189a02" ed="Y"/><p xml:id="pY24p0189a0201" style="text-indent:2em">「色即是空」，「空即是色」，在佛法——般若<note n="0189a0201" resp="CBETA" type="add" subtype="規範字詞">波羅蜜多【CB】，波羅密多【印順】</note><app n="0189a0201"><lem resp="CBETA" wit="【CB】">波羅蜜多</lem><rdg wit="【印順】">波羅密多</rdg></app>中，是著名的精句
 <lb n="0189a03" ed="Y"/>。崇尚簡易與圓融的中國佛學界，對此是非常適合的。所以，這究竟是什麼意義
 <lb n="0189a04" ed="Y"/>，也許並不明了，或者從來不曾想到過，而「色即是空」，「空即是色」，已成
 <lb n="0189a05" ed="Y"/>為多數人——佛弟子及一般知識界的熟悉成語，幾乎被用來代表了佛理。這是經
 <lb n="0189a06" ed="Y"/>常被人提起的，近年來在臺灣，也有好些人來討論他。我沒有參加論辯的興趣，
 <lb n="0189a07" ed="Y"/>只想在這裡，將這個問題略加申述，以表示問題並不單純。</p>
-<lb n="0189a08" ed="Y"/><p style="text-indent:2em">「色即是空」，「空即是色」，一般是在<title level="m">《般若波羅<note n="0189a0801" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0189a0801"><lem wit="【CB】" resp="正聞出版社">蜜</lem><rdg wit="【印順】">密</rdg></app>多心經》</title>中得來。這
+<lb n="0189a08" ed="Y"/><p xml:id="pY24p0189a0801" style="text-indent:2em">「色即是空」，「空即是色」，一般是在<title level="m">《般若波羅<note n="0189a0801" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0189a0801"><lem resp="正聞出版社" wit="【CB】">蜜</lem><rdg wit="【印順】">密</rdg></app>多心經》</title>中得來。這
 <lb n="0189a09" ed="Y"/>是被精簡了的，被公式化了的成語。這一思想，應該說是事實，根本在<title level="m">《大般若
-<lb n="0189a10" ed="Y"/>波羅<note n="0189a1001" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0189a1001"><lem wit="【CB】" resp="正聞出版社">蜜</lem><rdg wit="【印順】">密</rdg></app>多經》</title>中，明確地表示出來；從是而有更多的經論，作成眾多的解說。<title level="m">《
-<lb n="0189a11" ed="Y"/>般若波羅<note n="0189a1101" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0189a1101"><lem wit="【CB】" resp="正聞出版社">蜜</lem><rdg wit="【印順】">密</rdg></app>多心經》</title>——玄奘譯本，前後的文段是：</p>
+<lb n="0189a10" ed="Y"/>波羅<note n="0189a1001" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0189a1001"><lem resp="正聞出版社" wit="【CB】">蜜</lem><rdg wit="【印順】">密</rdg></app>多經》</title>中，明確地表示出來；從是而有更多的經論，作成眾多的解說。<title level="m">《
+<lb n="0189a11" ed="Y"/>般若波羅<note n="0189a1101" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0189a1101"><lem resp="正聞出版社" wit="【CB】">蜜</lem><rdg wit="【印順】">密</rdg></app>多心經》</title>——玄奘譯本，前後的文段是：</p>
 <pb n="0190a" ed="Y" xml:id="Y24.0024.0190a"/>
-<lb n="0190a01" ed="Y"/><quote source="T08n0251_p0848c07-08" type="嚴謹引文"><p style="margin-left:3em">「照見五蘊皆空，度一切苦厄」。<note n="0190001" resp="周怡曄" type="add">《般若波羅蜜多心經》卷1(CBETA, T08, no. 251, p. 848, c7-8)</note></p></quote>
-<lb n="0190a02" ed="Y"/><quote source="T08n0251_p0848c08-10" type="嚴謹引文"><p style="margin-left:3em">「舍利子！色不異空，空不異色；色即是空，空即是色。受、想、行、識
+<lb n="0190a01" ed="Y"/><quote source="T08n0251_p0848c07-08" type="嚴謹引文"><p xml:id="pY24p0190a0101" style="margin-left:3em">「照見五蘊皆空，度一切苦厄」。<note n="0190001" resp="周怡曄" type="add">《般若波羅蜜多心經》卷1(CBETA, T08, no. 251, p. 848, c7-8)</note></p></quote>
+<lb n="0190a02" ed="Y"/><quote source="T08n0251_p0848c08-10" type="嚴謹引文"><p xml:id="pY24p0190a0201" style="margin-left:3em">「舍利子！色不異空，空不異色；色即是空，空即是色。受、想、行、識
 <lb n="0190a03" ed="Y"/>，亦復如是」。<note n="0190002" resp="周怡曄" type="add">《般若波羅蜜多心經》卷1(CBETA, T08, no. 251, p. 848, c8-10)</note></p></quote>
-<lb n="0190a04" ed="Y"/><quote source="T08n0251_p0848c10-11" type="嚴謹引文"><p style="margin-left:3em">「舍利子！是諸法空相，不生不滅，不垢不淨，不增不減。是故空中無色
+<lb n="0190a04" ed="Y"/><quote source="T08n0251_p0848c10-11" type="嚴謹引文"><p xml:id="pY24p0190a0401" style="margin-left:3em">「舍利子！是諸法空相，不生不滅，不垢不淨，不增不減。是故空中無色
 <lb n="0190a05" ed="Y"/>，無受、想、行、識」。<note n="0190003" resp="周怡曄" type="add">《般若波羅蜜多心經》卷1(CBETA, T08, no. 251, p. 848, c10-11)</note></p></quote>
-<lb n="0190a06" ed="Y"/><p style="text-indent:2em">經文分三段：一標，二釋，三結。經上標宗說：<quote source="T08n0251_p0848c07-08" type="嚴謹引文">「五蘊皆空」<note n="0190004" resp="周怡曄" type="add">《般若波羅蜜多心經》卷1(CBETA, T08, no. 251, p. 848, c7-8)</note></quote>。五蘊是色、
+<lb n="0190a06" ed="Y"/><p xml:id="pY24p0190a0601" style="text-indent:2em">經文分三段：一標，二釋，三結。經上標宗說：<quote source="T08n0251_p0848c07-08" type="嚴謹引文">「五蘊皆空」<note n="0190004" resp="周怡曄" type="add">《般若波羅蜜多心經》卷1(CBETA, T08, no. 251, p. 848, c7-8)</note></quote>。五蘊是色、
 <lb n="0190a07" ed="Y"/>受、想、行、識。大概的說，色是物理（生理）現象，受、想、行、識是心理現
 <lb n="0190a08" ed="Y"/>象。在菩薩的觀照中，物理、心理的一切，都是空的。為什麼空，空是什麼意義
 <lb n="0190a09" ed="Y"/>呢？經上說：<quote type="嚴謹引文">「色不異空，空不異色；色即是空，空即是色。受、想、行、識，
 <lb n="0190a10" ed="Y"/>亦復如是」</quote>。色之所以空，色與空的關係，闡述明白了；就歸結到：空，不是別
 <lb n="0190a11" ed="Y"/>的，是菩薩所觀所證的——<quote type="嚴謹引文">「不生不滅，不垢不淨，不增不減」</quote>的<quote type="嚴謹引文">「諸法空相」</quote>
 <lb n="0190a12" ed="Y"/>。在<quote type="嚴謹引文">「諸法空相」</quote>中，是五蘊都不可得，不可得故不見，不見故不著的。</p>
-<lb n="0190a13" ed="Y"/><p style="text-indent:2em"><title level="m">《般若波羅<note n="0190a1301" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0190a1301"><lem wit="【CB】" resp="正聞出版社">蜜</lem><rdg wit="【印順】">密</rdg></app>多心經》</title>的譯本很多，對照起來，有幾點值得補充說明的。<quote type="嚴謹引文">「
+<lb n="0190a13" ed="Y"/><p xml:id="pY24p0190a1301" style="text-indent:2em"><title level="m">《般若波羅<note n="0190a1301" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0190a1301"><lem resp="正聞出版社" wit="【CB】">蜜</lem><rdg wit="【印順】">密</rdg></app>多心經》</title>的譯本很多，對照起來，有幾點值得補充說明的。<quote type="嚴謹引文">「
 <pb n="0191a" ed="Y" xml:id="Y24.0024.0191a"/>
 <lb n="0191a01" ed="Y"/>照見五蘊皆空」</quote>，奘譯與鳩摩羅什的譯本相同。但其他的譯本，如施護譯本，法
 <lb n="0191a02" ed="Y"/>月譯本，智慧輪譯本，都譯為<quote source="T08n0252_p0849a21" type="嚴謹引文">「五蘊自性皆空」<note n="0191001" resp="周怡曄" type="add">(1)《普遍智藏般若波羅蜜多心經》卷1(CBETA, T08, no. 252, p. 849, a21)；(2)《般若波羅蜜多心經》卷1(CBETA, T08, no. 254, p. 850, a14)；(3)《佛說聖佛母般若波羅蜜多經》卷1(CBETA, T08, no. 257, p. 852, b13)</note></quote>；法成譯本，作<quote source="T08n0255_p0850c03-04" type="嚴謹引文">「五蘊體性皆空
@@ -88,31 +108,31 @@
 <lb n="0191a07" ed="Y"/>。還有，在<quote type="嚴謹引文">「色不異空，空不異色；色即是空，空即是色」</quote>以前，法月譯本有：
 <lb n="0191a08" ed="Y"/><quote source="T08n0252_p0849a28" type="嚴謹引文">「色性是空，空性是色」<note n="0191005" resp="周怡曄" type="add">《普遍智藏般若波羅蜜多心經》卷1(CBETA, T08, no. 252, p. 849, a28)</note></quote>二句。智慧輪譯本，有<quote source="T08n0254_p0850a20-21" type="嚴謹引文">「色空，空性見（「是」字的誤
 <lb n="0191a09" ed="Y"/>訛）色」<note n="0191006" resp="周怡曄" type="add">《般若波羅蜜多心經》卷1(CBETA, T08, no. 254, p. 850, a20-21)</note></quote>二句。<title level="m">《心經》</title>與<title level="m">《大般若經》</title>佛為舍利子說一段，文字相近，今列出
-<lb n="0191a10" ed="Y"/>以資比較。鳩摩羅什所譯<bibl><title level="m">《摩訶般若波羅蜜經》</title>（龍樹<title level="m">《大智度論》</title>所依本）<biblScope type="卷" n="1">（卷一
+<lb n="0191a10" ed="Y"/>以資比較。鳩摩羅什所譯<bibl><title level="m">《摩訶般若波羅蜜經》</title>（龍樹<title level="m">《大智度論》</title>所依本）<biblScope n="1" type="卷">（卷一
 <lb n="0191a11" ed="Y"/>）</biblScope></bibl>說：</p>
-<lb n="0191a12" ed="Y"/><quote source="T08n0223_p0221b29-c01" type="嚴謹引文"><p style="margin-left:3em">「空中無色，無受、想、行、識。離色亦無空，離受、想、行、識亦無空
+<lb n="0191a12" ed="Y"/><quote source="T08n0223_p0221b29-c01" type="嚴謹引文"><p xml:id="pY24p0191a1201" style="margin-left:3em">「空中無色，無受、想、行、識。離色亦無空，離受、想、行、識亦無空
 <lb n="0191a13" ed="Y"/>」。<note n="0191007" resp="周怡曄" type="add">《摩訶般若波羅蜜經》卷1〈2 奉鉢品〉(CBETA, T08, no. 223, p. 221, b29-c1)</note></p></quote>
 <pb n="0192a" ed="Y" xml:id="Y24.0024.0192a"/>
-<lb n="0192a01" ed="Y"/><quote source="T08n0223_p0221c01-02" type="嚴謹引文"><p style="margin-left:3em">「色即是空，空即是色；受、想、行、識即是空，空即是識」。<note n="0192001" resp="周怡曄" type="add">《摩訶般若波羅蜜經》卷1〈2 奉鉢品〉(CBETA, T08, no. 223, p. 221, c1-2)</note></p></quote>
-<lb n="0192a02" ed="Y"/><quote source="T08n0223_p0221c05" type="嚴謹引文"><p style="margin-left:3em">「諸法實性，無生無滅，無垢無淨故」。<note n="0192002" resp="周怡曄" type="add">《摩訶般若波羅蜜經》卷1〈2 奉鉢品〉(CBETA, T08, no. 223, p. 221, c5)</note></p></quote>
-<lb n="0192a03" ed="Y"/><p style="text-indent:2em">玄奘所譯的<bibl><title level="m">《<note n="0192a0301" resp="CBETA" type="add">大【CB】，摩訶【印順】</note><app n="0192a0301"><lem wit="【CB】" resp="正聞出版社">大</lem><rdg wit="【印順】">摩訶</rdg></app>般若波羅<note n="0192a0302" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0192a0302"><lem wit="【CB】" resp="正聞出版社">蜜</lem><rdg wit="【印順】">密</rdg></app>多經》</title>第二分<biblScope n="402" type="卷">（卷四〇二）</biblScope></bibl>說：</p>
-<lb n="0192a04" ed="Y"/><quote type="嚴謹引文"><p style="margin-left:3em">「色自性空，不由空故，色空非色。色不離空，空不離色；色即是空，空
+<lb n="0192a01" ed="Y"/><quote source="T08n0223_p0221c01-02" type="嚴謹引文"><p xml:id="pY24p0192a0101" style="margin-left:3em">「色即是空，空即是色；受、想、行、識即是空，空即是識」。<note n="0192001" resp="周怡曄" type="add">《摩訶般若波羅蜜經》卷1〈2 奉鉢品〉(CBETA, T08, no. 223, p. 221, c1-2)</note></p></quote>
+<lb n="0192a02" ed="Y"/><quote source="T08n0223_p0221c05" type="嚴謹引文"><p xml:id="pY24p0192a0201" style="margin-left:3em">「諸法實性，無生無滅，無垢無淨故」。<note n="0192002" resp="周怡曄" type="add">《摩訶般若波羅蜜經》卷1〈2 奉鉢品〉(CBETA, T08, no. 223, p. 221, c5)</note></p></quote>
+<lb n="0192a03" ed="Y"/><p xml:id="pY24p0192a0301" style="text-indent:2em">玄奘所譯的<bibl><title level="m">《<note n="0192a0301" resp="CBETA" type="add">大【CB】，摩訶【印順】</note><app n="0192a0301"><lem resp="正聞出版社" wit="【CB】">大</lem><rdg wit="【印順】">摩訶</rdg></app>般若波羅<note n="0192a0302" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0192a0302"><lem resp="正聞出版社" wit="【CB】">蜜</lem><rdg wit="【印順】">密</rdg></app>多經》</title>第二分<biblScope n="402" type="卷">（卷四〇二）</biblScope></bibl>說：</p>
+<lb n="0192a04" ed="Y"/><quote type="嚴謹引文"><p xml:id="pY24p0192a0401" style="margin-left:3em">「色自性空，不由空故，色空非色。色不離空，空不離色；色即是空，空
 <lb n="0192a05" ed="Y"/>即是色」。<note n="0192003" resp="厚觀法師" type="add">《大般若波羅蜜多經(第401卷-第600卷)》卷402〈3 觀照品〉(CBETA, T07, no. 220, p. 11, c2-4)</note></p></quote>
-<lb n="0192a06" ed="Y"/><quote source="T07n0220_p0011c04-06" type="嚴謹引文"><p style="margin-left:3em">「受、想、行、識自性空，不由空故；受、想、行、識空<note n="0192a0601" resp="CBETA" type="add">［－］【CB】，故【印順】</note><app n="0192a0601"><lem wit="【CB】" resp="正聞出版社">，</lem><rdg wit="【印順】">故</rdg></app>非受、想、行
+<lb n="0192a06" ed="Y"/><quote source="T07n0220_p0011c04-06" type="嚴謹引文"><p xml:id="pY24p0192a0601" style="margin-left:3em">「受、想、行、識自性空，不由空故；受、想、行、識空<note n="0192a0601" resp="CBETA" type="add">［－］【CB】，故【印順】</note><app n="0192a0601"><lem resp="正聞出版社" wit="【CB】">，</lem><rdg wit="【印順】">故</rdg></app>非受、想、行
 <lb n="0192a07" ed="Y"/>、識。受、想、行、識不離空，空不離受、想、行、識；受、想、行、識
 <lb n="0192a08" ed="Y"/>即是空，空即是受、想、行、識」。<note n="0192004" resp="周怡曄" type="add">《大般若波羅蜜多經(第401卷-第600卷)》卷402〈3 觀照品〉(CBETA, T07, no. 220, p. 11, c4-6)</note></p></quote>
-<lb n="0192a09" ed="Y"/><quote source="T07n0220_p0011c10" type="嚴謹引文"><p style="margin-left:3em">「如是自性，無生無滅，無染無淨」。<note n="0192005" resp="周怡曄" type="add">《大般若波羅蜜多經(第401卷-第600卷)》卷402〈3 觀照品〉(CBETA, T07, no. 220, p. 11, c10)</note></p></quote>
-<lb n="0192a10" ed="Y"/><p style="text-indent:2em">初分與第三分，都與此相同。在<quote type="嚴謹引文">「色不異空，空不異色」</quote>前，有<quote type="嚴謹引文">「色自性空
+<lb n="0192a09" ed="Y"/><quote source="T07n0220_p0011c10" type="嚴謹引文"><p xml:id="pY24p0192a0901" style="margin-left:3em">「如是自性，無生無滅，無染無淨」。<note n="0192005" resp="周怡曄" type="add">《大般若波羅蜜多經(第401卷-第600卷)》卷402〈3 觀照品〉(CBETA, T07, no. 220, p. 11, c10)</note></p></quote>
+<lb n="0192a10" ed="Y"/><p xml:id="pY24p0192a1001" style="text-indent:2em">初分與第三分，都與此相同。在<quote type="嚴謹引文">「色不異空，空不異色」</quote>前，有<quote type="嚴謹引文">「色自性空
 <lb n="0192a11" ed="Y"/>，不由空故，色空非色」</quote>三句，與唯識學者所傳的相合。而<title level="m">《心經》</title>的法月譯本
 <lb n="0192a12" ed="Y"/>，智慧輪譯本，前有二句，也可想見是依「唯識宗」所傳本而來了。從<title level="m">《心經》</title>
 <lb n="0192a13" ed="Y"/>譯本，羅什與玄奘的相同而論，<title level="m">《心經》</title>的古本（梵文本也時有演變增減的），
 <pb n="0193a" ed="Y" xml:id="Y24.0024.0193a"/>
 <lb n="0193a01" ed="Y"/>是近於羅什所傳的。</p>
-<lb n="0193a02" ed="Y"/><p style="text-indent:2em">「色即是空」，「空即是色」，一般賞識他的圓融，卻不大注意佛經的完整
+<lb n="0193a02" ed="Y"/><p xml:id="pY24p0193a0201" style="text-indent:2em">「色即是空」，「空即是色」，一般賞識他的圓融，卻不大注意佛經的完整
 <lb n="0193a03" ed="Y"/>意義。忽略了這是闡明「五蘊皆空」，而歸宗於「諸法空相」及「空中無色」的
 <lb n="0193a04" ed="Y"/>。這不是理論問題，而是修證問題。如專在即色即空的理論上兜圈子，就會不自
 <lb n="0193a05" ed="Y"/>覺的橫跨了一步。</p>
-<lb n="0193a06" ed="Y"/><p style="text-indent:2em">「色（受、想、行、識，此下以色為代表，總說五蘊）即是空」，「空即是
+<lb n="0193a06" ed="Y"/><p xml:id="pY24p0193a0601" style="text-indent:2em">「色（受、想、行、識，此下以色為代表，總說五蘊）即是空」，「空即是
 <lb n="0193a07" ed="Y"/>色」，是什麼意義？為什麼要這樣說？這應先理解，「色」與「空」所代表的意
 <lb n="0193a08" ed="Y"/>義。「色」等是我們觸對的世界，物理（生理）、心理現象的世界。被稱為「自
 <lb n="0193a09" ed="Y"/>己」的身心組合，認識到的境界，就是「色」等，這就是當前的現實。然而，這
@@ -136,7 +156,7 @@
 <lb n="0194a13" ed="Y"/>中對立起來。如病眼的見虛空有華，明眼的見虛空明淨：將空花與明淨，對立起
 <pb n="0195a" ed="Y" xml:id="Y24.0024.0195a"/>
 <lb n="0195a01" ed="Y"/>來而說同說異，雖是免不了的（眾生就是歡喜這一套），而其實是不必要的。</p>
-<lb n="0195a02" ed="Y"/><p style="text-indent:2em">現實的「色」（蘊等），可能實證的「空」（相、空性等），如尋根究柢的
+<lb n="0195a02" ed="Y"/><p xml:id="pY24p0195a0201" style="text-indent:2em">現實的「色」（蘊等），可能實證的「空」（相、空性等），如尋根究柢的
 <lb n="0195a03" ed="Y"/>說起來，這是一切佛法所共的。以不同的名詞來表示（約義不同，在說明上就有
 <lb n="0195a04" ed="Y"/>多少差別），那就是「虛妄」與「如實」，「生死」與「涅槃」，「世間」與「
 <lb n="0195a05" ed="Y"/>涅槃」，「有為」與「無為」，「緣起」與「寂滅」。如從「能」邊說，那就是
@@ -164,7 +184,7 @@
 <lb n="0196a13" ed="Y"/>」；「不著生死，不住涅槃」；「不離世間」，「不捨眾生」，而流露出「涅而
 <pb n="0197a" ed="Y" xml:id="Y24.0024.0197a"/>
 <lb n="0197a01" ed="Y"/>不緇」的精神了！</p>
-<lb n="0197a02" ed="Y"/><p style="text-indent:2em">根源於眾生的當前事實——「色」（蘊等），而趣入「空相」，是佛法的根
+<lb n="0197a02" ed="Y"/><p xml:id="pY24p0197a0201" style="text-indent:2em">根源於眾生的當前事實——「色」（蘊等），而趣入「空相」，是佛法的根
 <lb n="0197a03" ed="Y"/>本問題。意境上、理論上、風格上，雖表現為「超越」的「離世」，或「內在」
 <lb n="0197a04" ed="Y"/>的「即世」——二類。菩薩的特質，雖為「即俗而真」，「即色是空」，不離乎
 <lb n="0197a05" ed="Y"/>世俗，甚至以貪、瞋、癡、慢為方便。然在修證的過程中，大乘還是「照見五蘊
@@ -173,8 +193,8 @@
 <lb n="0197a08" ed="Y"/>蘊。修證的主要目標，正是即「色」觀「空」而契入「空相」。在沒有契入「空
 <lb n="0197a09" ed="Y"/>相」以前，也說不上即色即空的妙悟。所以觀「空」而契入「空相」，就是轉迷
 <lb n="0197a10" ed="Y"/>為悟，轉凡成聖的關棙所在。<cit><bibl><title level="m">《般若經》</title>說：</bibl><quote source="T05n0220_p0043b25-27" type="寬鬆引文">「慧眼於一切法都無所見」</quote><note n="0197001" resp="周怡曄" type="add">《大般若波羅蜜多經》卷8〈4 轉生品〉：「慧眼，於一切法非見非不見、非聞非不聞、非覺非不覺、非識非不識。舍利子！是為菩薩摩訶薩得淨慧眼」(CBETA, T05, no. 220, p. 43, b25-27)</note></cit>。<cit><bibl><title level="m">《金
-<lb n="0197a11" ed="Y"/>剛經》</title>說：</bibl><quote type="嚴謹引文">「若見諸相非相，<note n="0197a1101" resp="CBETA" type="add">則【CB】，即【印順】</note><app n="0197a1101"><lem wit="【CB】" resp="正聞出版社">則<note type="cf1">《金剛般若波羅蜜經》卷1(CBETA, T08, no. 235, p. 749, a24-25)</note></lem><rdg wit="【印順】">即</rdg></app>見如來」</quote><note n="0197002" resp="厚觀法師" type="add">《金剛般若波羅蜜經》卷1(CBETA, T08, no. 235, p. 749, a24-25)</note></cit>。唯識宗所傳：根本智證真如，是泯絕
-<lb n="0197a12" ed="Y"/>眾相的。聖者的現證，突破生死關的根本一著，就在這裡。<cit><bibl><title level="m">《<note n="0197a1201" resp="CBETA" type="add">厚【CB】，密【印順】</note><app n="0197a1201"><lem wit="【CB】" resp="CBETA">厚</lem><rdg wit="【印順】">密</rdg></app>嚴經》</title>說：</bibl><quote type="嚴謹引文">「非
+<lb n="0197a11" ed="Y"/>剛經》</title>說：</bibl><quote type="嚴謹引文">「若見諸相非相，<note n="0197a1101" resp="CBETA" type="add">則【CB】，即【印順】</note><app n="0197a1101"><lem resp="正聞出版社" wit="【CB】">則<note type="cf1">《金剛般若波羅蜜經》卷1(CBETA, T08, no. 235, p. 749, a24-25)</note></lem><rdg wit="【印順】">即</rdg></app>見如來」</quote><note n="0197002" resp="厚觀法師" type="add">《金剛般若波羅蜜經》卷1(CBETA, T08, no. 235, p. 749, a24-25)</note></cit>。唯識宗所傳：根本智證真如，是泯絕
+<lb n="0197a12" ed="Y"/>眾相的。聖者的現證，突破生死關的根本一著，就在這裡。<cit><bibl><title level="m">《<note n="0197a1201" resp="CBETA" type="add">厚【CB】，密【印順】</note><app n="0197a1201"><lem resp="CBETA" wit="【CB】">厚</lem><rdg wit="【印順】">密</rdg></app>嚴經》</title>說：</bibl><quote type="嚴謹引文">「非
 <lb n="0197a13" ed="Y"/>不見真如，而能了諸行，皆如幻事等，雖有而非真」</quote></cit>。不同於世俗所見的諸行（
 <pb n="0198a" ed="Y" xml:id="Y24.0024.0198a"/>
 <lb n="0198a01" ed="Y"/>五蘊）如幻，是要透過這根本一著——證悟真空，而後逐漸達到的。所以根本智
@@ -183,12 +203,12 @@
 <lb n="0198a04" ed="Y"/>事實上，印度聖者的修證，卻是面對現實；儘管即色即空，而所悟正在「空相」
 <lb n="0198a05" ed="Y"/>（根本智證一關，並不說菩薩修證，齊此而止）。這與部分學者，高談理論的玄
 <lb n="0198a06" ed="Y"/>妙，清談娓娓，悅耳動聽，是有點不同的。</p>
-<lb n="0198a07" ed="Y"/><p style="text-indent:2em">佛法不是假設的推理，是有事實，有經驗，而後才有理論的，名為「從證出
+<lb n="0198a07" ed="Y"/><p xml:id="pY24p0198a0701" style="text-indent:2em">佛法不是假設的推理，是有事實，有經驗，而後才有理論的，名為「從證出
 <lb n="0198a08" ed="Y"/>教」。教化，使人信解而同樣的趣入於修證，於是而有<quote type="嚴謹引文">「色自性空，不由空故，
 <lb n="0198a09" ed="Y"/>色空非色」</quote>等說明；才有中觀者，瑜伽者的理論說明。這是佛法的修證事實。在
 <lb n="0198a10" ed="Y"/>修持經驗中，有似是而非的，或將到而未到的境地；世間也有類似的情形。因此
 <lb n="0198a11" ed="Y"/>，再從這二點，略為論列。</p>
-<lb n="0198a12" ed="Y"/><p style="text-indent:2em">「色即是空，空即是色」，是佛法的修證問題。「空」所代表的，是甚深的
+<lb n="0198a12" ed="Y"/><p xml:id="pY24p0198a1201" style="text-indent:2em">「色即是空，空即是色」，是佛法的修證問題。「空」所代表的，是甚深的
 <lb n="0198a13" ed="Y"/>體驗內容，這不是文字語言的理論領域！佛法有什麼可說呢！然而，佛有善巧方
 <pb n="0199a" ed="Y" xml:id="Y24.0024.0199a"/>
 <lb n="0199a01" ed="Y"/>便，就眾生現實身心，開示，誘導，使人類揭開現實的誑假相——「色」（代表
@@ -199,11 +219,11 @@
 <lb n="0199a06" ed="Y"/>然是假立的）可憑此東西南北的方向，前進而到達目的。修證的方法問題，成為
 <lb n="0199a07" ed="Y"/>理論問題。解與行相應，從可說可分別，而能導向離言無分別，是佛法的大方便
 <lb n="0199a08" ed="Y"/>，這不是侈談不立文字者所知的。</p>
-<lb n="0199a09" ed="Y"/><p style="text-indent:2em">以「色即是空，空即是色」來說，佛教界是有多種解說的，這是適應人類不
+<lb n="0199a09" ed="Y"/><p xml:id="pY24p0199a0901" style="text-indent:2em">以「色即是空，空即是色」來說，佛教界是有多種解說的，這是適應人類不
 <lb n="0199a10" ed="Y"/>同的思想方式所引起。雖不妨說有差異，有淺深，但都有引導趣向修證的方便妙
 <lb n="0199a11" ed="Y"/>用（這才是佛法）。這裡，試略舉中觀者（大乘空宗），唯識者（大乘有宗）的
 <lb n="0199a12" ed="Y"/>解說：以中觀者的正觀來說，人類面對的現實界（色）等五蘊，雖有極其強烈的
-<lb n="0199a13" ed="Y"/>真實感，然在中道的正觀中，一切是因緣所生，在種種關係條件下的綜<note n="0199a1301" resp="CBETA" type="add">合【CB】，和【印順】</note><app n="0199a1301"><lem wit="【CB】" resp="正聞出版社">合</lem><rdg wit="【印順】">和</rdg></app>活動；
+<lb n="0199a13" ed="Y"/>真實感，然在中道的正觀中，一切是因緣所生，在種種關係條件下的綜<note n="0199a1301" resp="CBETA" type="add">合【CB】，和【印順】</note><app n="0199a1301"><lem resp="正聞出版社" wit="【CB】">合</lem><rdg wit="【印順】">和</rdg></app>活動；
 <pb n="0200a" ed="Y" xml:id="Y24.0024.0200a"/>
 <lb n="0200a01" ed="Y"/>如尋求究竟的真實，那是不可得的。這不但世俗公認的「假有」（複合體），如
 <lb n="0200a02" ed="Y"/>房屋，樹林，沒有離因緣的自體可得。就是一般所成立的「實有」，也還是一樣
@@ -223,7 +243,7 @@
 <lb n="0201a02" ed="Y"/>外在的世界，不但複合的假有，沒有自體可得。即使小到極微——原子、電子，
 <lb n="0201a03" ed="Y"/>總之最小的物體，都不能離因緣而存在。如沒有通過特定的生理組織（根），與
 <lb n="0201a04" ed="Y"/>習以成性的心理關係，我們是不可能規定其體（特性）用，而稱之為什麼的。2.
-<lb n="0201a05" ed="Y"/>心「識」，不但心與心所，是「相應」的複雜的綜<note n="0201a0501" resp="CBETA" type="add">合【CB】，和【印順】</note><app n="0201a0501"><lem wit="【CB】" resp="正聞出版社">合</lem><rdg wit="【印順】">和</rdg></app>活動，還要有根與境為緣。
+<lb n="0201a05" ed="Y"/>心「識」，不但心與心所，是「相應」的複雜的綜<note n="0201a0501" resp="CBETA" type="add">合【CB】，和【印順】</note><app n="0201a0501"><lem resp="正聞出版社" wit="【CB】">合</lem><rdg wit="【印順】">和</rdg></app>活動，還要有根與境為緣。
 <lb n="0201a06" ed="Y"/>如根損壞了，境相不現前，那心識就不可能現前。一念心識的內容，受著以前習
 <lb n="0201a07" ed="Y"/>以成性的絕大影響。所以就是這一念的心識，也沒有自性可得。3.「根」，以前
 <lb n="0201a08" ed="Y"/>五根——眼、耳、鼻、舌、身來說，沒有可以獨存而營為其作用的。如眼根有能
@@ -233,7 +253,7 @@
 <lb n="0201a12" ed="Y"/>的作用。那眼的自性是什麼呢？所以現實世界的一切，一切只是因緣關係的存在
 <lb n="0201a13" ed="Y"/>；在因緣關係的特定情形下，形成時空中的存在。</p>
 <pb n="0202a" ed="Y" xml:id="Y24.0024.0202a"/>
-<lb n="0202a01" ed="Y"/><p style="text-indent:2em">「色」等五蘊，或眼等十八界等，佛說是「因緣所生法」。經上說：<quote source="T02n0099_p0083c05" type="嚴謹引文">「空相
+<lb n="0202a01" ed="Y"/><p xml:id="pY24p0202a0101" style="text-indent:2em">「色」等五蘊，或眼等十八界等，佛說是「因緣所生法」。經上說：<quote source="T02n0099_p0083c05" type="嚴謹引文">「空相
 <lb n="0202a02" ed="Y"/>應緣起」<note n="0202001" resp="周怡曄" type="add">《雜阿含經》卷12(CBETA, T02, no. 99, p. 83, c5)</note></quote>。依中觀者說，這是沒有自性的，與空相應的緣起法。依因緣而有，所
 <lb n="0202a03" ed="Y"/>以沒有孤立的獨存（一）性。依因緣而起滅變異，所以沒有永恆的不變異（常）
 <lb n="0202a04" ed="Y"/>性。非一（也就不是異），非常（也就不是斷）的因緣有，是非實有（也就非實
@@ -257,7 +277,7 @@
 <lb n="0203a08" ed="Y"/>一切法空性，而得生死的解脫（<quote type="嚴謹引文">「度一切苦厄」</quote>）。在信解聞思時，就以即色即
 <lb n="0203a09" ed="Y"/>空的空有無礙為正見，所以<quote source="T25n1509_p0556b26-27" type="寬鬆引文">「般若將入畢竟空，絕諸戲論；方便將出畢竟空，嚴
 <lb n="0203a10" ed="Y"/>土熟生」<note n="0203001" resp="周怡曄" type="add">(1)《大智度論》卷71〈51 譬喻品〉：「般若波羅蜜能滅諸邪見、煩惱、戲論，將至畢竟空中。方便將出畢竟空。」(CBETA, T25, no. 1509, p. 556, b26-27)；(2)《淨名玄論》卷4：「般若將入畢竟空。無諸戲論。方便將出畢竟空。嚴土化人。」(CBETA, T38, no. 1780, p. 882, a12-13)</note></quote>。不厭生死，不樂涅槃，成就大乘菩薩的正道。</p>
-<lb n="0203a11" ed="Y"/><p style="text-indent:2em">繼中觀者而興起的唯識者，從因緣生法來顯示空義；說一切法空而重視因果
+<lb n="0203a11" ed="Y"/><p xml:id="pY24p0203a1101" style="text-indent:2em">繼中觀者而興起的唯識者，從因緣生法來顯示空義；說一切法空而重視因果
 <lb n="0203a12" ed="Y"/>；以空勝解，成立不著生死，不住涅槃的大乘道，都與中觀者相同。在印度佛教
 <lb n="0203a13" ed="Y"/>中，這二大流，始終保持了釋迦佛法的根本立場——緣起中道論（非形而上學）
 <pb n="0204a" ed="Y" xml:id="Y24.0024.0204a"/>
@@ -271,7 +291,7 @@
 <lb n="0204a08" ed="Y"/>的，而且可稱為勝義有的。遍計所執的有（無體隨情假），是空的；依他起性的
 <lb n="0204a09" ed="Y"/>有（有體施設假），是不空的，非有不可的。如說是空，那就是惡取空了。就在
 <lb n="0204a10" ed="Y"/>這點上，形成了「空有之爭」。</p>
-<lb n="0204a11" ed="Y"/><p style="text-indent:2em">二宗的解說不同，源於思想方式，而表現於空與有的含義不同。妄所執性是
+<lb n="0204a11" ed="Y"/><p xml:id="pY24p0204a1101" style="text-indent:2em">二宗的解說不同，源於思想方式，而表現於空與有的含義不同。妄所執性是
 <lb n="0204a12" ed="Y"/>空的，這是彼此相同的。圓成實（空）性，中觀者也說是假名說，真勝義是不可
 <lb n="0204a13" ed="Y"/>安立的，是無所謂空不空、有不有的。但不可安立，與空義相順，所以不妨稱之
 <pb n="0205a" ed="Y" xml:id="Y24.0024.0205a"/>
@@ -297,14 +317,14 @@
 <lb n="0206a06" ed="Y"/>於彼亦有此」</quote><note n="0206001" resp="周怡曄" type="add">《辯中邊論》卷1〈1 辯相品〉(CBETA, T31, no. 1600, p. 464, b17)</note></cit>，以表示性相——空（性）有的不相離異。所以切實的說：唯識者
 <lb n="0206a07" ed="Y"/>對於性相，空有（如色與空），長處在分別精嚴；而空有無礙的正觀，不能不讓
 <lb n="0206a08" ed="Y"/>中觀者一著。</p>
-<lb n="0206a09" ed="Y"/><p style="text-indent:2em">「色即是空，空即是色」，不只是理論的，而是修證的方法問題。般若的「
+<lb n="0206a09" ed="Y"/><p xml:id="pY24p0206a0901" style="text-indent:2em">「色即是空，空即是色」，不只是理論的，而是修證的方法問題。般若的「
 <lb n="0206a10" ed="Y"/>照見五蘊皆空」，是以「色即是空，空即是色」——空有無礙的正觀為方便，而
-<lb n="0206a11" ed="Y"/>契入「諸法空相」的。約方法說，是觀，是空觀——<quote type="嚴謹引文">「未成就<note n="0206a1101" resp="CBETA" type="add">者【CB】，時【印順】</note><app n="0206a1101"><lem wit="【CB】" resp="正聞出版社">者<note type="cf1">《大智度論》卷35〈2 報應品〉(CBETA, T25, no. 1509, p. 319, a11-12)</note></lem><rdg wit="【印順】">時</rdg></app>名為空（三昧，
-<lb n="0206a12" ed="Y"/>唯識宗名加行無分別智）」<note n="0206002" resp="厚觀法師" type="add">《大智度論》卷35〈2 報應品〉(CBETA, T25, no. 1509, p. 319, a12)</note></quote>。因空觀的修習深入，到契會實相——<quote type="嚴謹引文">「成就<note n="0206a1201" resp="CBETA" type="add">者【CB】，時【印順】</note><app n="0206a1201"><lem wit="【CB】" resp="正聞出版社">者</lem><rdg wit="【印順】">時</rdg></app>名為
-<lb n="0206a13" ed="Y"/><note n="0206a1301" resp="CBETA" type="add">菩提【CB】，般若【印順】</note><app n="0206a1301"><lem wit="【CB】" resp="正聞出版社">菩提</lem><rdg wit="【印順】">般若</rdg></app>」</quote>（唯識宗又稱為根本無分別智）。論方法，是觀，雖依止起觀，修到止觀
+<lb n="0206a11" ed="Y"/>契入「諸法空相」的。約方法說，是觀，是空觀——<quote type="嚴謹引文">「未成就<note n="0206a1101" resp="CBETA" type="add">者【CB】，時【印順】</note><app n="0206a1101"><lem resp="正聞出版社" wit="【CB】">者<note type="cf1">《大智度論》卷35〈2 報應品〉(CBETA, T25, no. 1509, p. 319, a11-12)</note></lem><rdg wit="【印順】">時</rdg></app>名為空（三昧，
+<lb n="0206a12" ed="Y"/>唯識宗名加行無分別智）」<note n="0206002" resp="厚觀法師" type="add">《大智度論》卷35〈2 報應品〉(CBETA, T25, no. 1509, p. 319, a12)</note></quote>。因空觀的修習深入，到契會實相——<quote type="嚴謹引文">「成就<note n="0206a1201" resp="CBETA" type="add">者【CB】，時【印順】</note><app n="0206a1201"><lem resp="正聞出版社" wit="【CB】">者</lem><rdg wit="【印順】">時</rdg></app>名為
+<lb n="0206a13" ed="Y"/><note n="0206a1301" resp="CBETA" type="add">菩提【CB】，般若【印順】</note><app n="0206a1301"><lem resp="正聞出版社" wit="【CB】">菩提</lem><rdg wit="【印順】">般若</rdg></app>」</quote>（唯識宗又稱為根本無分別智）。論方法，是觀，雖依止起觀，修到止觀
 <pb n="0207a" ed="Y" xml:id="Y24.0024.0207a"/>
-<lb n="0207a01" ed="Y"/>雙運，而觀不是止。等到成就功德，般若與禪定相應，定慧平等，而般若<note n="0207a0101" resp="CBETA" type="add" subtype="規範字詞">波羅蜜【CB】，波羅密【印順】</note><app n="0207a0101"><lem wit="【CB】" resp="CBETA">波羅蜜</lem><rdg wit="【印順】">波羅密</rdg></app>
-<lb n="0207a02" ed="Y"/><note n="0207a0201" resp="CBETA" type="add" subtype="規範字詞">多【CB】，多【印順】</note><app n="0207a0201"><lem wit="【CB】" resp="CBETA">多</lem><rdg wit="【印順】">多</rdg></app>，並不就是禪定<note n="0207a0202" resp="CBETA" type="add" subtype="規範字詞">波羅蜜多【CB】，波羅密多【印順】</note><app n="0207a0202"><lem wit="【CB】" resp="CBETA">波羅蜜多</lem><rdg wit="【印順】">波羅密多</rdg></app>。說到觀，觀是尋思，抉擇。思擇一切法無自性空；
+<lb n="0207a01" ed="Y"/>雙運，而觀不是止。等到成就功德，般若與禪定相應，定慧平等，而般若<note n="0207a0101" resp="CBETA" type="add" subtype="規範字詞">波羅蜜【CB】，波羅密【印順】</note><app n="0207a0101"><lem resp="CBETA" wit="【CB】">波羅蜜</lem><rdg wit="【印順】">波羅密</rdg></app>
+<lb n="0207a02" ed="Y"/><note n="0207a0201" resp="CBETA" type="add" subtype="規範字詞">多【CB】，多【印順】</note><app n="0207a0201"><lem resp="CBETA" wit="【CB】">多</lem><rdg wit="【印順】">多</rdg></app>，並不就是禪定<note n="0207a0202" resp="CBETA" type="add" subtype="規範字詞">波羅蜜多【CB】，波羅密多【印順】</note><app n="0207a0202"><lem resp="CBETA" wit="【CB】">波羅蜜多</lem><rdg wit="【印順】">波羅密多</rdg></app>。說到觀，觀是尋思，抉擇。思擇一切法無自性空；
 <lb n="0207a03" ed="Y"/>或思擇名義無實而入唯識無義的正觀，般若是由觀的修習而引發的。中道正觀（
 <lb n="0207a04" ed="Y"/>無分別觀）與修止不同，與直下無分別而得的無分別定，也根本不同。與部分類
 <lb n="0207a05" ed="Y"/>似的定境，都不可同日而語，何況是幻境？更何況是咒力、藥力，所起身心的類

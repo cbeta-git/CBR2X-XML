@@ -12,69 +12,89 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>11卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 28, No. 28</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>11卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">28</idno>.<idno type="no">28</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（四）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">七、談法相</cb:mulu>
-<milestone unit="juan" n="8"/><pb n="0267a" ed="Y" xml:id="Y28.0028.0267a.old" type="old"/>
+<milestone n="8" unit="juan"/><pb n="0267a" ed="Y" xml:id="Y28.0028.0267a.old" type="old"/>
 <pb n="0267a" ed="Y" xml:id="Y28.0028.0267a"/>
 <lb n="0267a01" ed="Y"/><lb n="0267a01" ed="Y" type="old"/><lb n="0267a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">八、苦痛與知識</cb:mulu><head>苦痛與知識<note n="0267001" resp="DILA" type="add">民國二八年撰。</note></head>
 <lb n="0267a02" ed="Y"/><lb n="0267a03" ed="Y" type="old"/><byline rend="bold">——二十八年在漢院佛學座談會——</byline>
-<lb n="0267a03" ed="Y"/><lb n="0267a04" ed="Y" type="old"/><p style="text-indent:2em">厭苦求樂，是生物的特徵，是文明進展的動力。人類不斷地發出解除苦痛的
+<lb n="0267a03" ed="Y"/><lb n="0267a04" ed="Y" type="old"/><p xml:id="pY28p0267a0301" style="text-indent:2em">厭苦求樂，是生物的特徵，是文明進展的動力。人類不斷地發出解除苦痛的
 <lb n="0267a04" ed="Y"/><lb n="0267a05" ed="Y" type="old"/>要求，就不斷推動知識的前進。不過，世間的現象太矛盾了，推進知識來解除痛
 <lb n="0267a05" ed="Y"/><lb n="0267a06" ed="Y" type="old"/>苦，結果因知識的發達而加深了苦痛。拿戰事來說：半開化的時代，不過是「<lb n="0267a07" ed="Y" type="old"/>血
 <lb n="0267a06" ed="Y"/>流漂杵」、「滅此朝食」。現在的戰事，卻走上了全體性的戰爭，動員一切的<lb n="0267a08" ed="Y" type="old"/>人
 <lb n="0267a07" ed="Y"/>力物力，用之於苦痛的戰爭。知識愈發達，苦痛愈增加，文明的世界與苦痛的<lb n="0267a09" ed="Y" type="old"/>人
 <lb n="0267a08" ed="Y"/>間攜手合作。</p>
-<lb n="0267a09" ed="Y"/><lb n="0267a10" ed="Y" type="old"/><p style="text-indent:2em">有人主張發展知識、組織群眾來解除苦痛。物質的苦痛，或許獲得部分的解
+<lb n="0267a09" ed="Y"/><lb n="0267a10" ed="Y" type="old"/><p xml:id="pY28p0267a0901" style="text-indent:2em">有人主張發展知識、組織群眾來解除苦痛。物質的苦痛，或許獲得部分的解
 <lb n="0267a10" ed="Y"/><lb n="0267a11" ed="Y" type="old"/>除；內心的隱痛，試問如何解放？有人走上了極端，主張絕聖棄智。不但違反了
 <lb n="0267a11" ed="Y"/><lb n="0267a12" ed="Y" type="old"/>現實，即使做到塊然無知的狀態，也不過麻醉自己的心靈，好讓他忍受苦痛的襲<pb n="0268a" ed="Y" xml:id="Y28.0028.0268a.old" type="old"/>
 <pb n="0268a" ed="Y" xml:id="Y28.0028.0268a"/>
 <lb n="0268a01" ed="Y"/><lb n="0268a01" ed="Y" type="old"/>擊。</p>
-<lb n="0268a02" ed="Y"/><lb n="0268a02" ed="Y" type="old"/><p style="text-indent:2em">佛教的見解：苦痛的根源在無知（無明），在對宇宙人生缺少根本的認識，
+<lb n="0268a02" ed="Y"/><lb n="0268a02" ed="Y" type="old"/><p xml:id="pY28p0268a0201" style="text-indent:2em">佛教的見解：苦痛的根源在無知（無明），在對宇宙人生缺少根本的認識，
 <lb n="0268a03" ed="Y"/><lb n="0268a03" ed="Y" type="old"/>在不理解相依共存的緣起法則而固執個體獨立的存在。雖然世間的知識，也有部
 <lb n="0268a04" ed="Y"/><lb n="0268a04" ed="Y" type="old"/>分類似的思想，但既不懂得徹底的無性（沒有真實不變的自體），自然在緣起變
 <lb n="0268a05" ed="Y"/><lb n="0268a05" ed="Y" type="old"/>化的背後，潛藏著自我的活動。在個體獨立的倒見控制之下，產生了仇恨敵對的
 <lb n="0268a06" ed="Y"/><lb n="0268a06" ed="Y" type="old"/>思想，利用一切的知識文化，成為製造苦痛的工具。知識的發達，苦痛的增加，
 <lb n="0268a07" ed="Y"/><lb n="0268a07" ed="Y" type="old"/>形成了正比例。</p>
-<lb n="0268a08" ed="Y"/><lb n="0268a08" ed="Y" type="old"/><p style="text-indent:2em">佛法的特色，從悟解緣起無性（人我、法我）下手。獲得體悟真理的知識，
+<lb n="0268a08" ed="Y"/><lb n="0268a08" ed="Y" type="old"/><p xml:id="pY28p0268a0801" style="text-indent:2em">佛法的特色，從悟解緣起無性（人我、法我）下手。獲得體悟真理的知識，
 <lb n="0268a09" ed="Y"/><lb n="0268a09" ed="Y" type="old"/>就是般若。假如通達緣起，就知道假我以一切的存在為根據，就能解除因自我妄
 <lb n="0268a10" ed="Y"/><lb n="0268a10" ed="Y" type="old"/>執而生起不必要的苦痛，實現苦樂不入於胸次的自在。同時，在真空智的領導下
 <lb n="0268a11" ed="Y"/><lb n="0268a11" ed="Y" type="old"/>，發動一切的知識和文化，促成慈悲共利大樂的實現。</p>
-<lb n="0268a12" ed="Y"/><lb n="0268a12" ed="Y" type="old"/><p style="text-indent:2em">佛是一切智者！也就是常樂的具體表現者！（靈芳．演培記）</p></cb:div>
+<lb n="0268a12" ed="Y"/><lb n="0268a12" ed="Y" type="old"/><p xml:id="pY28p0268a1201" style="text-indent:2em">佛是一切智者！也就是常樂的具體表現者！（靈芳．演培記）</p></cb:div>
 </body></text></TEI>

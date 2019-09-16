@@ -12,51 +12,71 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/01</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/01</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>11卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 20, No. 20</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>11卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">20</idno>.<idno type="no">20</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">無諍之辯</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">三、評〈精刻大藏緣起〉</cb:mulu>
-<milestone unit="juan" n="4"/><pb n="0107a" ed="Y" xml:id="Y20.0020.0107a.old" type="old"/>
+<milestone n="4" unit="juan"/><pb n="0107a" ed="Y" xml:id="Y20.0020.0107a.old" type="old"/>
 <pb n="0107a" ed="Y" xml:id="Y20.0020.0107a"/>
 <lb n="0107a01" ed="Y"/><lb n="0107a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">四、空有之間</cb:mulu><head>空有之間<note n="0107001" resp="DILA" type="add">民國三三年撰。</note></head>
-<lb n="0107a02" ed="Y"/><lb n="0107a02" ed="Y" type="old"/><p style="text-indent:2em">王恩洋居士<title level="a">〈讀印度佛教書感〉</title>，於吾<title level="m">《印度之佛教》</title>，頗能寄以同情。惟
+<lb n="0107a02" ed="Y"/><lb n="0107a02" ed="Y" type="old"/><p xml:id="pY20p0107a0201" style="text-indent:2em">王恩洋居士<title level="a">〈讀印度佛教書感〉</title>，於吾<title level="m">《印度之佛教》</title>，頗能寄以同情。惟
 <lb n="0107a03" ed="Y"/><lb n="0107a03" ed="Y" type="old"/>於空有之間，意見不無出入，因抒所見以資商榷焉！</p>
-<lb n="0107a04" ed="Y"/><lb n="0107a04" ed="Y" type="old"/><p style="text-indent:2em">三期佛教之判，吾以經為經，以論為緯，綜合南北印佛教以觀其演變，此與
+<lb n="0107a04" ed="Y"/><lb n="0107a04" ed="Y" type="old"/><p xml:id="pY20p0107a0401" style="text-indent:2em">三期佛教之判，吾以經為經，以論為緯，綜合南北印佛教以觀其演變，此與
 <lb n="0107a05" ed="Y"/><lb n="0107a05" ed="Y" type="old"/>學偏西北，以論典之流行為主者，自當所見異趣。真常唯心論為真常心與真常空
 <lb n="0107a06" ed="Y"/><lb n="0107a06" ed="Y" type="old"/>之合流，不滿性空而極言<quote source="T02n0120_p0527c12" type="嚴謹引文">「如來實不空」<note n="0107002" resp="謝淑歆" type="add">《央掘魔羅經》卷2(CBETA, T02, no. 120, p. 527, c12)</note></quote>。此不空之如來，一切眾生所本具，乃
 <lb n="0107a07" ed="Y"/><lb n="0107a07" ed="Y" type="old"/>與<quote type="嚴謹引文">「自性清淨心」</quote>合。果德本具於因心，即真常唯心論之論本所在。肇始於性空
@@ -72,7 +92,7 @@
 <lb n="0108a05" ed="Y"/><lb n="0108a05" ed="Y" type="old"/>違法印，而改變此一段史實也！或有欲攝真常唯心於旁流者，然就義理言，斥之
 <lb n="0108a06" ed="Y"/><lb n="0108a06" ed="Y" type="old"/>可也，是之可也，攝之於旁流可也。自歷史言，則後期佛教確為此一思潮所支配
 <lb n="0108a07" ed="Y"/><lb n="0108a07" ed="Y" type="old"/>，何得不以此為正統？謹列一表，願與唯識學者共詳之。</p>
-<lb n="0108a08" ed="Y"/><lb n="0108a08" ed="Y" type="old"/><p cb:type="pre">　　　　　　┌阿毘曇論───┬─────┐┌───────┐
+<lb n="0108a08" ed="Y"/><lb n="0108a08" ed="Y" type="old"/><p cb:type="pre" xml:id="pY20p0108a0801">　　　　　　┌阿毘曇論───┬─────┐┌───────┐
 <lb n="0108a09" ed="Y"/>　　　　　　│　　　　　　　│　　　　┌瑜伽┐　　　　　　│
 <lb n="0108a10" ed="Y"/>　　　佛教─┤　　　　　　　│┌－－－．││．－－┐　　　│
 <lb n="0108a11" ed="Y"/>　　　　　　│　　　　　　┌中觀────┼┼─中觀復興─┐│
@@ -83,7 +103,7 @@
 <lb n="0108a16" ed="Y"/>　　　　　　　　　　　　　　　　　　　　─┴──────┴┼──密教
 <lb n="0108a17" ed="Y"/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　─┘</p>
 <pb n="0109a" ed="Y" xml:id="Y20.0020.0109a"/>
-<lb n="0109a01" ed="Y"/><pb n="0109a" ed="Y" xml:id="Y20.0020.0109a.old" type="old"/><lb n="0109a01" ed="Y" type="old"/><p style="text-indent:2em">佛法之宗本，<quote type="嚴謹引文">「我說緣起」</quote>而已。<quote source="T02n0099_p0092c18" type="寬鬆引文">「無我無作無受者，善惡業報亦不失」<note n="0109001" resp="謝淑歆" type="add">《雜阿含經》卷13：「有業報而無作者」(CBETA, T02, no. 99, p. 92, c18)</note></quote>，
+<lb n="0109a01" ed="Y"/><pb n="0109a" ed="Y" xml:id="Y20.0020.0109a.old" type="old"/><lb n="0109a01" ed="Y" type="old"/><p xml:id="pY20p0109a0101" style="text-indent:2em">佛法之宗本，<quote type="嚴謹引文">「我說緣起」</quote>而已。<quote source="T02n0099_p0092c18" type="寬鬆引文">「無我無作無受者，善惡業報亦不失」<note n="0109001" resp="謝淑歆" type="add">《雜阿含經》卷13：「有業報而無作者」(CBETA, T02, no. 99, p. 92, c18)</note></quote>，
 <lb n="0109a02" ed="Y"/><lb n="0109a02" ed="Y" type="old"/>頗能扼緣起之要。然無我云云，不僅以建立因果，亦即以顯緣起之寂滅。故緣起
 <lb n="0109a03" ed="Y"/><lb n="0109a03" ed="Y" type="old"/>為宗而有二途：一依因果必然之緣起律，現為因果歷然之事相，則緣起法與緣生
 <lb n="0109a04" ed="Y"/><lb n="0109a04" ed="Y" type="old"/>法也。一觀緣起有，不取法相而悟入本性之寂滅，則有為法與無為法也。此二者
@@ -111,7 +131,7 @@
 <lb n="0110a12" ed="Y"/>世俗故有」<note n="0110005" resp="謝淑歆" type="add">《大智度論》卷1〈1 序品〉：「人等亦如是，[59]世界悉檀故有，第一義悉檀故無。」(CBETA, T25, no. 1509, p. 59, c12-14)[59]（（世界…無））十三字＝（（第一義故無世界故有））九字【宋】【元】【明】【宮】【石】。</note></quote>，是因<lb n="0110a12" ed="Y" type="old"/>緣有，非我法執。此則<title level="m">《智論》</title>具在，可以覆按。龍樹學別有
 <lb n="0110a13" ed="Y"/>體系，勿截取片言<lb n="0110a13" ed="Y" type="old"/>隻句，比附所宗以疑究竟之說！</p><pb n="0111a" ed="Y" xml:id="Y20.0020.0111a.old" type="old"/>
 <pb n="0111a" ed="Y" xml:id="Y20.0020.0111a"/>
-<lb n="0111a01" ed="Y"/><lb n="0111a01" ed="Y" type="old"/><p style="text-indent:2em">即性空而觀於假名之事相，則自歷然而悟必然之緣起，得法住智。即假名而
+<lb n="0111a01" ed="Y"/><lb n="0111a01" ed="Y" type="old"/><p xml:id="pY20p0111a0101" style="text-indent:2em">即性空而觀於假名之事相，則自歷然而悟必然之緣起，得法住智。即假名而
 <lb n="0111a02" ed="Y"/><lb n="0111a02" ed="Y" type="old"/>觀乎性空之寂滅，則證入離言本寂而得涅槃智。要<quote source="T02n0099_p0097b12" type="寬鬆引文">「先得法住智，後得涅槃智」<note n="0111001" resp="謝淑歆" type="add">《雜阿含經》卷14：「且自先知法住，後知涅槃」(CBETA, T02, no. 99, p. 97, b12)</note></quote>
 <lb n="0111a03" ed="Y"/><lb n="0111a03" ed="Y" type="old"/>。<quote source="T30n1564_p0033a02" type="寬鬆引文">「不依世俗諦，不得第一義」<note n="0111002" resp="謝淑歆" type="add">《中論》卷4〈24 觀四諦品〉：「若不依俗諦<space quantity="1" unit="chars"/>不得第一義」(CBETA, T30, no. 1564, p. 33, a2)</note></quote>。獲二諦無礙之正見，善識緣起之因果必然，而
 <lb n="0111a04" ed="Y"/><lb n="0111a04" ed="Y" type="old"/>後乃證入空寂之本然：此佛法行解之坦途，不容稍事亂轍者也。約佛法以解脫為
@@ -122,7 +142,7 @@
 <lb n="0111a09" ed="Y"/><lb n="0111a09" ed="Y" type="old"/>有乃性空之假名，空寂乃假名之性空。善辨中邊，不以觀因果而滯有，以空為不
 <lb n="0111a10" ed="Y"/><lb n="0111a10" ed="Y" type="old"/>了；亦不觀空寂而落空，視因果如兔角。而後乃能一切法趣有，一切法趣空，善
 <lb n="0111a11" ed="Y"/><lb n="0111a11" ed="Y" type="old"/>備資糧，直趨解脫。</p>
-<lb n="0111a12" ed="Y"/><lb n="0111a12" ed="Y" type="old"/><p style="text-indent:2em">時雨滋而枯草腐，春風起而黃葉落，吾佛即緣起而開唯名性空之二諦，學無
+<lb n="0111a12" ed="Y"/><lb n="0111a12" ed="Y" type="old"/><p xml:id="pY20p0111a1201" style="text-indent:2em">時雨滋而枯草腐，春風起而黃葉落，吾佛即緣起而開唯名性空之二諦，學無
 <lb n="0111a13" ed="Y"/><lb n="0111a13" ed="Y" type="old"/>方便者，又執有而滯空矣！然執有滯空，實不足以言中道。彼不見中道而情滯於<pb n="0112a" ed="Y" xml:id="Y20.0020.0112a.old" type="old"/>
 <pb n="0112a" ed="Y" xml:id="Y20.0020.0112a"/>
 <lb n="0112a01" ed="Y"/><lb n="0112a01" ed="Y" type="old"/>有者，「依實立假」為論本，辨析法相為所重。及其至也，紛然名相，以繁瑣為
@@ -135,7 +155,7 @@
 <lb n="0112a08" ed="Y"/><lb n="0112a08" ed="Y" type="old"/>。如不善呪術，不善捉毒蛇。」<note n="0112002" resp="厚觀法師" type="add">《中論》卷4〈24 觀四諦品〉(CBETA, T30, no. 1564, p. 33, a8-9)</note></quote>以是學佛者，意向不端，戒行無基，知見不正，
 <lb n="0112a09" ed="Y"/><lb n="0112a09" ed="Y" type="old"/>情滯空際而急求證入者，鮮不於此淪墜永苦。轉不如常人之執有，猶得家國之實
 <lb n="0112a10" ed="Y"/><lb n="0112a10" ed="Y" type="old"/>益，人天之樂果。</p>
-<lb n="0112a11" ed="Y"/><lb n="0112a11" ed="Y" type="old"/><p style="text-indent:2em">本性空寂，唯絕無戲論者所入；唯此一道而歧途頗多。外道有絕言見。小乘
+<lb n="0112a11" ed="Y"/><lb n="0112a11" ed="Y" type="old"/><p xml:id="pY20p0112a1101" style="text-indent:2em">本性空寂，唯絕無戲論者所入；唯此一道而歧途頗多。外道有絕言見。小乘
 <lb n="0112a12" ed="Y"/><lb n="0112a12" ed="Y" type="old"/>、大乘行者之遊心空際者，類有相似悟境，其邪正得失，有賴勘印。且於禪思中
 <lb n="0112a13" ed="Y"/><lb n="0112a13" ed="Y" type="old"/>，宿習熏發，或現緣所引，身心之幻境憧憧，覺苦覺樂，見神見鬼，佛來魔來，<pb n="0113a" ed="Y" xml:id="Y20.0020.0113a.old" type="old"/>
 <pb n="0113a" ed="Y" xml:id="Y20.0020.0113a"/>
@@ -164,8 +184,8 @@
 <lb n="0114a09" ed="Y"/><lb n="0114a09" ed="Y" type="old"/>與真常者之重行證為近。現證不易，而求證者則滿坑滿谷。夫意向、戒行、知見
 <lb n="0114a10" ed="Y"/><lb n="0114a10" ed="Y" type="old"/>純正者，猶有危失之可能，而況其下者乎！<quote type="嚴謹引文">「不入虎穴，不得虎子」</quote>，而虎穴險
 <lb n="0114a11" ed="Y"/><lb n="0114a11" ed="Y" type="old"/>地，入虎穴危事。性空行者，應自勉而自警之！要<quote type="寬鬆引文">「先得法住智，後得涅槃智」</quote>
-<lb n="0114a12" ed="Y"/><lb n="0114a12" ed="Y" type="old"/>。入大乘者，應於<quote type="寬鬆引文">「菩提願，悲濟事，性空見——三事不偏中求」<note n="0114002" resp="謝淑歆" type="add"><ref type="yinshun" target="#vol:33;page:p217-218">(ref yinshun::vol:33;page:p217-218)</ref></note></quote>。</p>
-<lb n="0114a13" ed="Y"/><lb n="0114a13" ed="Y" type="old"/><p style="text-indent:2em">吾於<title level="m">《印度之佛教》</title>，於真常唯心論，間致微詞，則以印度真常唯心者之末<pb n="0115a" ed="Y" xml:id="Y20.0020.0115a.old" type="old"/>
+<lb n="0114a12" ed="Y"/><lb n="0114a12" ed="Y" type="old"/>。入大乘者，應於<quote type="寬鬆引文">「菩提願，悲濟事，性空見——三事不偏中求」<note n="0114002" resp="謝淑歆" type="add"><ref target="#vol:33;page:p217-218" type="yinshun">(ref yinshun::vol:33;page:p217-218)</ref></note></quote>。</p>
+<lb n="0114a13" ed="Y"/><lb n="0114a13" ed="Y" type="old"/><p xml:id="pY20p0114a1301" style="text-indent:2em">吾於<title level="m">《印度之佛教》</title>，於真常唯心論，間致微詞，則以印度真常唯心者之末<pb n="0115a" ed="Y" xml:id="Y20.0020.0115a.old" type="old"/>
 <pb n="0115a" ed="Y" xml:id="Y20.0020.0115a"/>
 <lb n="0115a01" ed="Y"/><lb n="0115a01" ed="Y" type="old"/>流，其病特甚耳！然真常唯心論者，雖不中於性空唯名之正見，然意向端而戒行
 <lb n="0115a02" ed="Y"/><lb n="0115a02" ed="Y" type="old"/>潔者，亦非無其人。印度之真常唯心論者，其初也詳真常大我，戒行精嚴，頗有

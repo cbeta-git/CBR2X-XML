@@ -12,51 +12,71 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 29, No. 29</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">29</idno>.<idno type="no">29</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（五）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">二一、《慈航大師紀念集》序</cb:mulu>
-<milestone unit="juan" n="22"/><pb n="0199a" ed="Y" xml:id="Y29.0029.0199a.old" type="old"/>
+<milestone n="22" unit="juan"/><pb n="0199a" ed="Y" xml:id="Y29.0029.0199a.old" type="old"/>
 <pb n="0199a" ed="Y" xml:id="Y29.0029.0199a"/>
 <lb n="0199a01" ed="Y"/><lb n="0199a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">二二、《異部宗輪論語體釋》序</cb:mulu><head><title level="m">《異部宗輪論語體釋》</title>序<note n="0199001" resp="DILA" type="add">民國三九年撰。</note></head>
-<lb n="0199a02" ed="Y"/><lb n="0199a02" ed="Y" type="old"/><p style="text-indent:2em">民國二十八年之秋，演培法師遊四川，因得與相值，共為教義之研求，法樂
+<lb n="0199a02" ed="Y"/><lb n="0199a02" ed="Y" type="old"/><p xml:id="pY29p0199a0201" style="text-indent:2em">民國二十八年之秋，演培法師遊四川，因得與相值，共為教義之研求，法樂
 <lb n="0199a03" ed="Y"/><lb n="0199a03" ed="Y" type="old"/>無間，凡四年餘。縉雲山上，龍掛峰頭，往事猶歷歷在目。</p>
-<lb n="0199a04" ed="Y"/><lb n="0199a04" ed="Y" type="old"/><p style="text-indent:2em">居嘗共論佛法復興之道：中國佛教之積弱，勢不可以急圖，健全組織，自宜
+<lb n="0199a04" ed="Y"/><lb n="0199a04" ed="Y" type="old"/><p xml:id="pY29p0199a0401" style="text-indent:2em">居嘗共論佛法復興之道：中國佛教之積弱，勢不可以急圖，健全組織，自宜
 <lb n="0199a05" ed="Y"/><lb n="0199a05" ed="Y" type="old"/>隨喜讚善；然一反積弱之病源以為治，則要有三焉。病在執理廢事，應治以正行
 <lb n="0199a06" ed="Y"/><lb n="0199a06" ed="Y" type="old"/>。病在迷妄怪誕，應治以正信。病在愚昧：教外之說興而義解疏，專宗之習盛而
 <lb n="0199a07" ed="Y"/><lb n="0199a07" ed="Y" type="old"/>經論晦；佛為一切智人，佛法為一切智者之學，而今之崇信佛法者固何如？此應
@@ -65,7 +85,7 @@
 <lb n="0199a10" ed="Y"/><lb n="0199a10" ed="Y" type="old"/>適今振古之法本也。此三者，不必盡其要；然使有少數大心者出，能堅其信，廣
 <lb n="0199a11" ed="Y"/><lb n="0199a11" ed="Y" type="old"/>其聞，充其行，則於悲智兼大，淨化人生之佛法，必能有所益。</p><pb n="0200a" ed="Y" xml:id="Y29.0029.0200a.old" type="old"/>
 <pb n="0200a" ed="Y" xml:id="Y29.0029.0200a"/>
-<lb n="0200a01" ed="Y"/><lb n="0200a01" ed="Y" type="old"/><p style="text-indent:2em">今者，演培法師印行所著<title level="m">《異部宗輪論語體釋》</title>；讀其原稿，則亦正聞之事
+<lb n="0200a01" ed="Y"/><lb n="0200a01" ed="Y" type="old"/><p xml:id="pY29p0200a0101" style="text-indent:2em">今者，演培法師印行所著<title level="m">《異部宗輪論語體釋》</title>；讀其原稿，則亦正聞之事
 <lb n="0200a02" ed="Y"/><lb n="0200a02" ed="Y" type="old"/>也。文體通俗，釋義亦能有所發，凡預法味之流，允宜手此編以研尋。慨中國佛
 <lb n="0200a03" ed="Y"/><lb n="0200a03" ed="Y" type="old"/>教，積謬成迷，大小空有，鮮得其實。如佛壽無量，佛身無邊，一音說一切法，
 <lb n="0200a04" ed="Y"/><lb n="0200a04" ed="Y" type="old"/>一念了一切事，此固聲聞佛教——大眾系之老僧常談，而或者則譽為圓頓大乘之
@@ -74,7 +94,7 @@
 <lb n="0200a07" ed="Y"/>盡為<lb n="0200a07" ed="Y" type="old"/>通經法師所知，若無預乎佛法之宏揚。然苟得此意而求之，則知所關於佛法
 <lb n="0200a08" ed="Y"/>者至<lb n="0200a08" ed="Y" type="old"/>鉅。識法源底，依正聞、生正信，以正信、正聞而策正行，則固「隨法行人
 <lb n="0200a09" ed="Y"/>」應<lb n="0200a09" ed="Y" type="old"/>有之事也！</p>
-<lb n="0200a10" ed="Y"/><lb n="0200a10" ed="Y" type="old"/><p style="text-indent:2em">為佛法想，為眾生想，寶藏不應終棄，明珠寧可永裹！佛法無涯底，惟勤勇
+<lb n="0200a10" ed="Y"/><lb n="0200a10" ed="Y" type="old"/><p xml:id="pY29p0200a1001" style="text-indent:2em">為佛法想，為眾生想，寶藏不應終棄，明珠寧可永裹！佛法無涯底，惟勤勇
 <lb n="0200a11" ed="Y"/><lb n="0200a11" ed="Y" type="old"/>以赴之！將見剖微塵出大千經，為眾生之望也！</p>
 <lb n="0200a12" ed="Y"/><lb n="0200a12" ed="Y" type="old"/><byline cb:type="other">民國三十九年九月五日序於香港大埔墟梅修精舍</byline></cb:div>
 </body></text></TEI>

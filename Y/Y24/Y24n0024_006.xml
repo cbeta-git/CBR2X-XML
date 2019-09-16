@@ -12,52 +12,72 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版四刷<date>Date: 2011/10</date>新式標點版</edition>
+			<edition>新版四刷<date>Date: 2011/10</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 24, No. 24</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">24</idno>.<idno type="no">24</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法是救世之光</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">五、皆大歡喜</cb:mulu>
-<milestone unit="juan" n="6"/>
+<milestone n="6" unit="juan"/>
 <pb n="0045a" ed="Y" xml:id="Y24.0024.0045a"/>
 <lb n="0045a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">六、觀世音菩薩的讚仰</cb:mulu><head>觀世音菩薩的讚仰<note n="0045001" resp="DILA" type="add">民國四三年講。</note></head>
-<lb n="0045a02" ed="Y"/><p style="text-indent:2em">今天，是觀世音菩薩的聖誕，大家受了菩薩的恩德所感召，來本寺同聚一堂
+<lb n="0045a02" ed="Y"/><p xml:id="pY24p0045a0201" style="text-indent:2em">今天，是觀世音菩薩的聖誕，大家受了菩薩的恩德所感召，來本寺同聚一堂
 <lb n="0045a03" ed="Y"/>，共祝聖誕，實為難得。中國人信仰觀世音菩薩特別多，尤其是女眾。今天趁此
 <lb n="0045a04" ed="Y"/>殊勝的機緣，為大家一談觀世音菩薩的意義，以增長我們正確的認識和信仰。</p>
-<lb n="0045a05" ed="Y"/><p style="text-indent:2em">觀世音，是羅什的舊譯，玄奘新譯為觀自在，這是同一梵語的不同傳譯。中
+<lb n="0045a05" ed="Y"/><p xml:id="pY24p0045a0501" style="text-indent:2em">觀世音，是羅什的舊譯，玄奘新譯為觀自在，這是同一梵語的不同傳譯。中
 <lb n="0045a06" ed="Y"/>國每略稱為觀音。菩薩，簡單說，就是上求下化的大心眾生，在修行歷程中，還
 <lb n="0045a07" ed="Y"/>沒有達到究竟圓滿的大乘行者。觀世音在上求下化的菩薩中，據<title level="m">《悲華經》</title>說，
 <lb n="0045a08" ed="Y"/>他是一生補處的法身大士，是繼承阿彌陀佛位的菩薩。功行幾乎圓滿，十方諸佛
@@ -66,7 +86,7 @@
 <lb n="0045a11" ed="Y"/>，還表現他無窮的廣大悲願。觀世音與阿彌陀佛，有著特殊的關係，不但他是「
 <pb n="0046a" ed="Y" xml:id="Y24.0024.0046a"/>
 <lb n="0046a01" ed="Y"/>西方三聖」中的一尊，而且還有說觀世音就是阿彌陀佛的化身。</p>
-<lb n="0046a02" ed="Y"/><p style="text-indent:2em">或有人問：觀世音菩薩何處人，他的道場究在何處？其實觀音是古佛再來，
+<lb n="0046a02" ed="Y"/><p xml:id="pY24p0046a0201" style="text-indent:2em">或有人問：觀世音菩薩何處人，他的道場究在何處？其實觀音是古佛再來，
 <lb n="0046a03" ed="Y"/>不可說他有固定道場，因為他是<quote source="T09n0262_p0058a15" type="嚴謹引文">「無剎不現身」<note n="0046001" resp="周怡曄" type="add">《妙法蓮華經》卷7〈25 觀世音菩薩普門品〉(CBETA, T09, no. 262, p. 58, a15)</note></quote>的。他是阿彌陀的輔弼，他的道
 <lb n="0046a04" ed="Y"/>場，便是極樂世界。但在這娑婆世界，南印度海邊的普陀落伽山，是觀世音菩薩
 <lb n="0046a05" ed="Y"/>的古道場，這如<title level="m">《華嚴經》</title>等都如此說。梁貞元年，日僧慧鍔，在中國請了一尊
@@ -77,10 +97,10 @@
 <lb n="0046a10" ed="Y"/>方，名「普陀宮」，這因為傳說達賴是觀音菩薩的化身。這可見觀世音菩薩的道
 <lb n="0046a11" ed="Y"/>場，並無一定，那裡有虔誠的觀音信仰，那裡有觀世音菩薩的大悲救世精神，那
 <lb n="0046a12" ed="Y"/>裡就是普陀，那裡就有觀音。太虛大師說：<quote type="嚴謹引文">「清淨為心皆補怛（即普陀），慈悲
-<lb n="0046a13" ed="Y"/>濟物即觀音」<note n="0046002" resp="周怡曄" type="add"><ref type="taixu" target="#vol:32;page:p279">(ref taixu::vol:32;page:p279)</ref></note></quote>。諸位！即如今日自由中國的善導寺，難道不是觀音菩薩的道場嗎
+<lb n="0046a13" ed="Y"/>濟物即觀音」<note n="0046002" resp="周怡曄" type="add"><ref target="#vol:32;page:p279" type="taixu">(ref taixu::vol:32;page:p279)</ref></note></quote>。諸位！即如今日自由中國的善導寺，難道不是觀音菩薩的道場嗎
 <pb n="0047a" ed="Y" xml:id="Y24.0024.0047a"/>
 <lb n="0047a01" ed="Y"/>？</p>
-<lb n="0047a02" ed="Y"/><p style="text-indent:2em">隨機應化，是菩薩行的特色。今天念誦的大悲咒，是千手千眼的觀世音。千
+<lb n="0047a02" ed="Y"/><p xml:id="pY24p0047a0201" style="text-indent:2em">隨機應化，是菩薩行的特色。今天念誦的大悲咒，是千手千眼的觀世音。千
 <lb n="0047a03" ed="Y"/>手，表拯救眾生的偉大能力；千眼表智慧光的無處不照。這是大悲大智的表徵；
 <lb n="0047a04" ed="Y"/>為了接引眾生向正覺的大道，觀音菩薩的方便應化，可以說無微不至。這在<bibl>《<title level="m">法
 <lb n="0047a05" ed="Y"/>華經</title>．<title level="a">普門品</title>》</bibl>中，敘述得最為清楚。如應以佛身得度者，觀世音菩薩即現佛身
@@ -90,7 +110,7 @@
 <lb n="0047a09" ed="Y"/>：<quote source="T49n2036_p0652a15-17" type="嚴謹引文">「彌勒真彌勒，分身千百億，時時示時人，時人自不識」<note n="0047001" resp="周怡曄" type="add">《佛祖歷代通載》卷17(CBETA, T49, no. 2036, p. 652, a15-17)</note></quote>，也就是此意。千手
 <lb n="0047a10" ed="Y"/>千眼而外，有十八臂觀音，四臂觀音，最一般的，即示現天人莊嚴相的聖觀音。
 <lb n="0047a11" ed="Y"/>一向有三十三觀音的類別，總不外隨機示現而已！</p>
-<lb n="0047a12" ed="Y"/><p style="text-indent:2em">觀音菩薩的身像，究竟是男是女，一般人總不免這樣的疑問著。其實隨類現
+<lb n="0047a12" ed="Y"/><p xml:id="pY24p0047a1201" style="text-indent:2em">觀音菩薩的身像，究竟是男是女，一般人總不免這樣的疑問著。其實隨類現
 <lb n="0047a13" ed="Y"/>身，當然可以有男相，有女相。不過約大菩薩相說，都是大丈夫相。唐代以前的
 <pb n="0048a" ed="Y" xml:id="Y24.0024.0048a"/>
 <lb n="0048a01" ed="Y"/>觀音，也總是大丈夫相的。<cit><bibl><title level="m">《華嚴經》</title>也說：</bibl><quote source="T10n0279_p0366c08" type="嚴謹引文">「勇猛丈夫觀自在」</quote><note n="0048001" resp="周怡曄" type="add">《大方廣佛華嚴經》卷68〈39 入法界品〉(CBETA, T10, no. 279, p. 366, c8)</note></cit>。然而觀音菩
@@ -107,7 +127,7 @@
 <lb n="0048a12" ed="Y"/>無私的，成為菩薩的平等慈悲。所以我們信仰觀世音，應如孩子的敬仰母親一樣
 <lb n="0048a13" ed="Y"/>。能如此的誠切敬仰，如母子的心意感通，自能得觀世音菩薩的救護。</p>
 <pb n="0049a" ed="Y" xml:id="Y24.0024.0049a"/>
-<lb n="0049a01" ed="Y"/><p style="text-indent:2em">觀世音——阿縛盧枳帝溼伐囉，在今日印度教中，也是有人知道的，而且還
+<lb n="0049a01" ed="Y"/><p xml:id="pY24p0049a0101" style="text-indent:2em">觀世音——阿縛盧枳帝溼伐囉，在今日印度教中，也是有人知道的，而且還
 <lb n="0049a02" ed="Y"/>是女性。所以唐宋以來，觀音像塑為女相，是有意義與根據的。在海浪滔天生存
 <lb n="0049a03" ed="Y"/>俄頃的航海生活中，最危險，安全最無把握，即最需要慈悲的救護。所以，觀音
 <lb n="0049a04" ed="Y"/>在海濱一帶，信仰最深。如印度的觀音道場，在南海；中國方面，江、浙、閩、
@@ -118,11 +138,11 @@
 <lb n="0049a09" ed="Y"/>亞——耶穌的母親像。馬利亞稱為聖母，傳說中也有種種慈悲救護的神蹟，與觀
 <lb n="0049a10" ed="Y"/>音菩薩一樣。所以在宗教中，這不外乎無限慈悲的崇仰，無限慈悲的表現而已。
 <lb n="0049a11" ed="Y"/>如從菩薩的示現說，馬利亞還沒有出世以前，觀音的聖德，已是大乘佛教共知的
-<lb n="0049a12" ed="Y"/>事<note n="0049a1201" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0049a1201"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>了。這些都可看作觀音的一種應化，特別是今日臺灣所有的天后（媽祖），
+<lb n="0049a12" ed="Y"/>事<note n="0049a1201" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0049a1201"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>了。這些都可看作觀音的一種應化，特別是今日臺灣所有的天后（媽祖），
 <lb n="0049a13" ed="Y"/>我們應以觀音的精神去充實他，淨化他。應以天后——媽祖身而得度者，即現天
 <pb n="0050a" ed="Y" xml:id="Y24.0024.0050a"/>
 <lb n="0050a01" ed="Y"/>后媽祖身而為說法。</p>
-<lb n="0050a02" ed="Y"/><p style="text-indent:2em">不過，這裡特別要說到的是：一、一般人崇敬觀世音菩薩，往往多為功利的
+<lb n="0050a02" ed="Y"/><p xml:id="pY24p0050a0201" style="text-indent:2em">不過，這裡特別要說到的是：一、一般人崇敬觀世音菩薩，往往多為功利的
 <lb n="0050a03" ed="Y"/>交易，如向菩薩許願，如菩薩佑助我，那麼我來還願。如：<quote>「重修廟宇，再塑金
 <lb n="0050a04" ed="Y"/>身」</quote>等等。這種賄賂式的祈求，即是毫無真實信仰，是非佛法的！信仰觀世音菩
 <lb n="0050a05" ed="Y"/>薩，向菩薩祈求，應如孩子信仰自己的母親，向母親祈求一樣；絕對信任，真誠
@@ -136,7 +156,7 @@
 <lb n="0050a13" ed="Y"/>生的旅程上，若遇到了無法解決的困難，如不是定業，不是罪有應得，憑著信仰
 <pb n="0051a" ed="Y" xml:id="Y24.0024.0051a"/>
 <lb n="0051a01" ed="Y"/>的真誠，自能獲得觀世音不可思議的感應！</p>
-<lb n="0051a02" ed="Y"/><p style="text-indent:2em">每一大菩薩，表徵了一種不同的德性，慈悲即觀音菩薩的德性。我們如果不
+<lb n="0051a02" ed="Y"/><p xml:id="pY24p0051a0201" style="text-indent:2em">每一大菩薩，表徵了一種不同的德性，慈悲即觀音菩薩的德性。我們如果不
 <lb n="0051a03" ed="Y"/>殺生，而且對一切眾生，能予以普遍的愛護，那麼我們的心行，就與觀音的慈悲
 <lb n="0051a04" ed="Y"/>相應。相應則相感，這即是「同類相感」的道理。所以，我們內心的信仰，要能
 <lb n="0051a05" ed="Y"/>表現在外表的行動上，現實的行為，要能與觀音菩薩的慈悲行相應。這才是我們

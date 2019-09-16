@@ -12,65 +12,85 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版四刷<date>Date: 2011/10</date>新式標點版</edition>
+			<edition>新版四刷<date>Date: 2011/10</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 24, No. 24</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">24</idno>.<idno type="no">24</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法是救世之光</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十五、教法與證法的仰信</cb:mulu>
-<milestone unit="juan" n="16"/>
+<milestone n="16" unit="juan"/>
 <pb n="0177a" ed="Y" xml:id="Y24.0024.0177a"/>
 <lb n="0177a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">十六、大乘空義</cb:mulu><head>大乘空義<note n="0177001" resp="DILA" type="add">民國五一年講。</note></head>
-<lb n="0177a02" ed="Y"/><p style="text-indent:2em">一、空為大乘深義：佛，是由於覺證空性而得自在解脫的。所以從覺證來說
+<lb n="0177a02" ed="Y"/><p xml:id="pY24p0177a0201" style="text-indent:2em">一、空為大乘深義：佛，是由於覺證空性而得自在解脫的。所以從覺證來說
 <lb n="0177a03" ed="Y"/>，空是一切法的真實性，是般若——菩提所覺證的。從因覺證而得解脫來說，空
 <lb n="0177a04" ed="Y"/>是解粘釋縛的善巧方便；空，無所住，無著，無取等，是趣證的方便，是覺證的
 <lb n="0177a05" ed="Y"/>成果。一約真性說，一約行證說。現在要說的大乘空義，是約真實義說。</p>
-<lb n="0177a06" ed="Y"/><p style="text-indent:2em">在大乘法中，空是被稱為：<quote source="T30n1579_p0716c27-28" type="嚴謹引文">「甚深最甚深，難通達極難通達」<note n="0177002" resp="周怡曄" type="add">《瑜伽師地論》卷75(CBETA, T30, no. 1579, p. 716, c27-28)</note></quote>的。如<cit><bibl><title level="m">《般若
+<lb n="0177a06" ed="Y"/><p xml:id="pY24p0177a0601" style="text-indent:2em">在大乘法中，空是被稱為：<quote source="T30n1579_p0716c27-28" type="嚴謹引文">「甚深最甚深，難通達極難通達」<note n="0177002" resp="周怡曄" type="add">《瑜伽師地論》卷75(CBETA, T30, no. 1579, p. 716, c27-28)</note></quote>的。如<cit><bibl><title level="m">《般若
 <lb n="0177a07" ed="Y"/>經》</title>說：</bibl><quote source="T08n0223_p0344a03-06" type="寬鬆引文">「深奧者，空是其義，無相、無作是其義，不生不滅是其義」</quote><note n="0177003" resp="周怡曄" type="add">《摩訶般若波羅蜜經》卷17〈57 深奧品〉：「深奧處[1]者，空是其義。無相、無作、無[2]起、無生、無染、[3]寂滅、離、如、法性、實際、涅槃，須菩提！如是等法是為深奧義。」(CBETA, T08, no. 223, p. 344, a3-6)[1]者空＝空者【宮】。[2]起＝越【聖】。[3]寂滅離＝離寂滅【宋】【元】【明】</note></cit>等。<cit><bibl><title level="m">《十
 <lb n="0177a08" ed="Y"/>二門論》</title>也說：</bibl><quote source="T30n1568_p0159c22" type="嚴謹引文">「大分深義，所謂空也」</quote><note n="0177004" resp="周怡曄" type="add">《十二門論》卷1(CBETA, T30, no. 1568, p. 159, c22)</note></cit>。所以空、無生、寂滅等，是大乘的甚
 <lb n="0177a09" ed="Y"/>深義。為什麼被看為最甚深義？這是世俗知識——常識的、科學的、哲學的知識
 <lb n="0177a10" ed="Y"/>所不能通達，而唯是無漏無分別的智慧所體悟的。這是超越世間一般的，所以稱
 <lb n="0177a11" ed="Y"/>為甚深。</p>
 <pb n="0178a" ed="Y" xml:id="Y24.0024.0178a"/>
-<lb n="0178a01" ed="Y"/><p style="text-indent:2em">二、空與滅之深義：這一最甚深處，佛常以空、無生、滅、寂滅等來表示。
+<lb n="0178a01" ed="Y"/><p xml:id="pY24p0178a0101" style="text-indent:2em">二、空與滅之深義：這一最甚深處，佛常以空、無生、滅、寂滅等來表示。
 <lb n="0178a02" ed="Y"/>凡佛所說的一切名言，都可以說是世間共有的。如依世間名義去理解，那只是世
 <lb n="0178a03" ed="Y"/>間知識，而不是佛說的深義。所以這些詞語，都含有不共世間的意義，而不能「
 <lb n="0178a04" ed="Y"/>如文取義」的。例如空與無生滅的寂滅，一般每照世間的解說，認為是虛無消極
 <lb n="0178a05" ed="Y"/>的，而不知恰好相反，這是充實而富有積極意義的。</p>
-<lb n="0178a06" ed="Y"/><p style="text-indent:2em">空，佛經每舉虛空為譬喻，有時更直稱之為虛空。從一般來說，虛空是空洞
+<lb n="0178a06" ed="Y"/><p xml:id="pY24p0178a0601" style="text-indent:2em">空，佛經每舉虛空為譬喻，有時更直稱之為虛空。從一般來說，虛空是空洞
 <lb n="0178a07" ed="Y"/>得一無所有。而佛法中說：虛空是<quote source="T29n1558_p0001c14" type="嚴謹引文">「無礙為性」<note n="0178001" resp="周怡曄" type="add">《阿毘達磨俱舍論》卷1〈1 分別界品〉(CBETA, T29, no. 1558, p. 1, c14)</note></quote>，<quote source="T27n1545_p0388c10" type="嚴謹引文">「色於中行」<note n="0178002" resp="周怡曄" type="add">《阿毘達磨大毘婆沙論》卷75(CBETA, T27, no. 1545, p. 388, c10)</note></quote>。物質——「色
 <lb n="0178a08" ed="Y"/>」的特性，是礙；而虛空的特性，是無礙。無礙，不但是在於物質的質礙以外，
 <lb n="0178a09" ed="Y"/>也與物質不相礙。由於虛空的無礙性，不但不障礙物質，反而是物質——色的活
@@ -80,7 +100,7 @@
 <lb n="0178a13" ed="Y"/>依，一切法所不離的真性，是一切法存在活動的原理。換言之，如不是空的，一
 <pb n="0179a" ed="Y" xml:id="Y24.0024.0179a"/>
 <lb n="0179a01" ed="Y"/>切法即不能從緣而有，不可能有生有滅。這樣，空性是有著充實的意義了。</p>
-<lb n="0179a02" ed="Y"/><p style="text-indent:2em">說到寂滅，本是與生滅相對的，不生不滅的別名。生與滅，為世俗事相的通
+<lb n="0179a02" ed="Y"/><p xml:id="pY24p0179a0201" style="text-indent:2em">說到寂滅，本是與生滅相對的，不生不滅的別名。生與滅，為世俗事相的通
 <lb n="0179a03" ed="Y"/>性，一切法在生滅、滅生的延續過程中，但一般人總是重於生，把宇宙與人生，
 <lb n="0179a04" ed="Y"/>看作生生不已的實在。但佛法，卻重視到滅滅不已。滅，不是斷滅，不是取消，
 <lb n="0179a05" ed="Y"/>而是事相延續過程的一態。在與生相對上看，「終歸於滅」，滅是一切必然的歸
@@ -90,10 +110,10 @@
 <lb n="0179a09" ed="Y"/>界的內在本性。生滅滅生的當體，便是不生不滅的寂滅性。由於這是生滅的本性
 <lb n="0179a10" ed="Y"/>，所以矛盾凌亂的生滅界，終究是向於寂滅，而人類到底能從般若的體證中去實
 <lb n="0179a11" ed="Y"/>現。</p>
-<lb n="0179a12" ed="Y"/><p style="text-indent:2em">三、從事相而觀見空寂之深義：一切法空性或寂滅性，是一切法的真實性，
+<lb n="0179a12" ed="Y"/><p xml:id="pY24p0179a1201" style="text-indent:2em">三、從事相而觀見空寂之深義：一切法空性或寂滅性，是一切法的真實性，
 <lb n="0179a13" ed="Y"/>所以要從一切法上去觀照體認，而不是離一切法去體認的。如<cit><bibl><title level="m">《般若心經》</title>說：
 <pb n="0180a" ed="Y" xml:id="Y24.0024.0180a"/>
-<lb n="0180a01" ed="Y"/></bibl><quote source="T08n0251_p0848c07-08" type="嚴謹引文">「行深般若波羅<note n="0180a0101" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0180a0101"><lem wit="【CB】" resp="正聞出版社">蜜</lem><rdg wit="【印順】">密</rdg></app>多時，照見五蘊皆空」</quote><note n="0180001" resp="周怡曄" type="add">《般若波羅蜜多心經》卷1(CBETA, T08, no. 251, p. 848, c7-8)</note></cit>。深般若，是通達甚深義的，照見一切
+<lb n="0180a01" ed="Y"/></bibl><quote source="T08n0251_p0848c07-08" type="嚴謹引文">「行深般若波羅<note n="0180a0101" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0180a0101"><lem resp="正聞出版社" wit="【CB】">蜜</lem><rdg wit="【印順】">密</rdg></app>多時，照見五蘊皆空」</quote><note n="0180001" resp="周怡曄" type="add">《般若波羅蜜多心經》卷1(CBETA, T08, no. 251, p. 848, c7-8)</note></cit>。深般若，是通達甚深義的，照見一切
 <lb n="0180a02" ed="Y"/>法空的智慧。經文證明了，甚深空義，要從五蘊（物質與精神）去照見，而不是
 <lb n="0180a03" ed="Y"/>離色心以外去幻想妄計度的。說到從一切法去觀察，佛是以「一切種智」知一切
 <lb n="0180a04" ed="Y"/>法的，也就是從種種意義，種種觀察去通達的。但總括起來，主要的不外三門：
@@ -101,7 +121,7 @@
 <lb n="0180a06" ed="Y"/>觀察，也就是透過空間觀念（或空間化、平面化的）去觀察的。(三)、直觀事事物
 <lb n="0180a07" ed="Y"/>物的當體。這猶如物質的點、線、面一樣；而甚深智慧是從豎觀前後，橫觀彼此
 <lb n="0180a08" ed="Y"/>，直觀自體去體認，而通達一切法性——空或寂滅性。</p>
-<lb n="0180a09" ed="Y"/><p style="text-indent:2em">(一)、從前後延續去觀察時，得到了「諸行無常」的定律。一切法，不論是物
+<lb n="0180a09" ed="Y"/><p xml:id="pY24p0180a0901" style="text-indent:2em">(一)、從前後延續去觀察時，得到了「諸行無常」的定律。一切法，不論是物
 <lb n="0180a10" ed="Y"/>質或精神，無情的器世間或有情的身心，都在不息的流變中。雖然似乎世間有暫
 <lb n="0180a11" ed="Y"/>住或安定的姿態，而從深智慧去觀察時，發覺到不只是逐年逐月的變異，就是（
 <lb n="0180a12" ed="Y"/>假定的）最短的時間——一剎那，也還是在變異中。固有的過去了，新有的又現
@@ -114,7 +134,7 @@
 <lb n="0181a05" ed="Y"/>求本性，無非是空寂。反過來說因為一切法的本性空寂，所以表現於時間觀中，
 <lb n="0181a06" ed="Y"/>不是常恆不變，而現為剎那生滅的無常相。無常，是「無有常性」的意義，也就
 <lb n="0181a07" ed="Y"/>是空寂性的另一說明。</p>
-<lb n="0181a08" ed="Y"/><p style="text-indent:2em">(二)、從彼此依存去觀察一切法時，得到了「諸法無我」的定律。例如有情個
+<lb n="0181a08" ed="Y"/><p xml:id="pY24p0181a0801" style="text-indent:2em">(二)、從彼此依存去觀察一切法時，得到了「諸法無我」的定律。例如有情個
 <lb n="0181a09" ed="Y"/>體，佛說是蘊界處和合，不外乎物理的，生理的，心理的現象。所謂自我，是有
 <lb n="0181a10" ed="Y"/>情迷妄的錯覺，並不存在，而只是身心依存所現起的一合相——有機的統一。稱
 <lb n="0181a11" ed="Y"/>之為和合的假我，雖然不妨，但如一般所倒想的自我，卻不對了。印度學者的（
@@ -130,14 +150,14 @@
 <lb n="0182a07" ed="Y"/>空；空與無我，意義可說相同。從彼此依存去深觀空義，如上面所說。如從法性
 <lb n="0182a08" ed="Y"/>空寂來觀一切法，那就由於一切法是空寂的，所以展現為自他依存的關係，而沒
 <lb n="0182a09" ed="Y"/>有獨存的實體。這樣，無我又是空義的又一說明。</p>
-<lb n="0182a10" ed="Y"/><p style="text-indent:2em">(三)、從一一法的當體去觀察時，得到「涅槃寂靜」的定律。雖然從事相看來
+<lb n="0182a10" ed="Y"/><p xml:id="pY24p0182a1001" style="text-indent:2em">(三)、從一一法的當體去觀察時，得到「涅槃寂靜」的定律。雖然從事相看來
 <lb n="0182a11" ed="Y"/>，無限差別，無限矛盾，無限動亂；而實只是緣起的幻相——似有似無，似一似
 <lb n="0182a12" ed="Y"/>異，似生似滅，一切終歸於平等，寂靜。這是一一法的本性如此，所以也一定歸
 <lb n="0182a13" ed="Y"/>極於此。真能通達真相，去除迷妄，就能實現這平等寂靜。矛盾，牽制，動亂，
 <pb n="0183a" ed="Y" xml:id="Y24.0024.0183a"/>
 <lb n="0183a01" ed="Y"/>化而為平等，自在，安靜，就是涅槃。大乘法每每著重此義，直接的深觀性空，
 <lb n="0183a02" ed="Y"/>所以說：<quote source="T16n0675_p0671a11-15" type="寬鬆引文">「無自性故空，空故不生不滅，不生不滅故本來寂靜，自性涅槃」<note n="0183001" resp="周怡曄" type="add">(1)《深密解脫經》卷2〈8 聖者成就第一義菩薩問品〉：「若一切法無自體相。彼法不生。若法不生彼法不滅。若不滅不生。彼法本來寂靜。若法本來寂靜。彼法本來清淨。若法本來清淨。彼法本來涅槃。若如是彼法無有少法可滅令入涅槃。」(CBETA, T16, no. 675, p. 671, a11-15)；(2)《解深密經》卷2〈5 無自性相品〉：「一切諸法皆無自性無生無滅本來寂靜自性涅槃。」(CBETA, T16, no. 676, p. 693, c28-29)</note></quote>。</p>
-<lb n="0183a03" ed="Y"/><p style="text-indent:2em">從豎觀前後，橫觀彼此，直觀自體，而得「諸行無常，諸法無我，涅槃寂靜
+<lb n="0183a03" ed="Y"/><p xml:id="pY24p0183a0301" style="text-indent:2em">從豎觀前後，橫觀彼此，直觀自體，而得「諸行無常，諸法無我，涅槃寂靜
 <lb n="0183a04" ed="Y"/>」——「三法印」。但這決非三條不同的真理，而只是唯一絕待的真理，被稱為
 <lb n="0183a05" ed="Y"/>「一實相印」——法性空寂的不同說明。三印就是一印，一印就是三印。所以，
 <lb n="0183a06" ed="Y"/>如依此而修觀，那麼觀諸法無我，是「空解脫門」；觀涅槃寂靜，是「無相解脫
@@ -145,7 +165,7 @@
 <lb n="0183a08" ed="Y"/>三解脫門也是「同緣實相」，同歸於法空寂滅。總之，佛法從事相而深觀一一法
 <lb n="0183a09" ed="Y"/>時，真是「千水競注」，同歸於空性寂滅的大海。所以說：<quote source="T25n1509_p0321a24-29" type="寬鬆引文">「高入須彌，咸同金
 <lb n="0183a10" ed="Y"/>色」<note n="0183002" resp="周怡曄" type="add">(1)《大智度論》卷35〈3 習相應品〉：「諸法如，入法性中無有別異；如火各各不同，而滅相無異。譬如眾川萬流，各各異色異味，入於大海，同為一味一名；如是愚癡、智慧，入於般若波羅蜜中，皆同一味、無有差別。如五色近須彌山自失其色，皆同金色；如是內外諸法入般若波羅蜜中皆為一味。」(CBETA, T25, no. 1509, p. 321, a24-29)；(2)《大寶積經》卷107：「爾時尊者阿難白佛言。世尊。譬如須彌山。若諸雜色至其邊者同一金色。世尊。若有眾生至菩薩邊者。若瞋心。若淨心。若欲[1]染心。如是一切悉皆同一薩婆若色。」(CBETA, T11, no. 310, p. 599, a1-4)[1]染＝法【宮】</note></quote>。</p>
-<lb n="0183a11" ed="Y"/><p style="text-indent:2em">四、法空寂滅即法之真實（自性）：一般名言識所認知的一切法，無論是物
+<lb n="0183a11" ed="Y"/><p xml:id="pY24p0183a1101" style="text-indent:2em">四、法空寂滅即法之真實（自性）：一般名言識所認知的一切法，無論是物
 <lb n="0183a12" ed="Y"/>質，精神，理性，雖然被我們錯執為實有的，個體的，或者永恆的，而其實都只
 <lb n="0183a13" ed="Y"/>是如幻的假名。假名，精確的意義是「假施設」，是依種種因緣（意識的覺了作
 <pb n="0184a" ed="Y" xml:id="Y24.0024.0184a"/>
@@ -156,7 +176,7 @@
 <lb n="0184a05" ed="Y"/>有時稱名言所知的為一切法（相），稱空寂為法性，而說為相與性。但這是不得
 <lb n="0184a06" ed="Y"/>已的說法，要使人從現象的一一法去體悟空寂性。法與法性，或法相與法性，實
 <lb n="0184a07" ed="Y"/>在是不能把他看作對立物的。這在空義的理解上，是必不可少的認識。</p>
-<lb n="0184a08" ed="Y"/><p style="text-indent:2em">方便所說的法與法性（空寂），在理解上，可從兩方面去看。(一)、從一一法
+<lb n="0184a08" ed="Y"/><p xml:id="pY24p0184a0801" style="text-indent:2em">方便所說的法與法性（空寂），在理解上，可從兩方面去看。(一)、從一一法
 <lb n="0184a09" ed="Y"/>而悟解到空寂性時，這就是一一法的本性或自性。例如物質，每一極微的真實離
 <lb n="0184a10" ed="Y"/>言自性，就是空寂性。所以法性空寂，雖是無二平等，沒有差別可說，而從幻現
 <lb n="0184a11" ed="Y"/>的法來說，這是每一法的自性，而不是抽象的通性。(二)、從平等不二的空寂去看
@@ -164,7 +184,7 @@
 <lb n="0184a13" ed="Y"/>麼別異，而又不能說就是法的。總之，空寂性是一一法自性，所以是般若所內自
 <pb n="0185a" ed="Y" xml:id="Y24.0024.0185a"/>
 <lb n="0185a01" ed="Y"/>證的，似乎是抽象的普遍性，而有著具體的充實的意義。</p>
-<lb n="0185a02" ed="Y"/><p style="text-indent:2em">五、法相與法性空寂之關係：從上面的論述，法與法性，不可說一，不可說
+<lb n="0185a02" ed="Y"/><p xml:id="pY24p0185a0201" style="text-indent:2em">五、法相與法性空寂之關係：從上面的論述，法與法性，不可說一，不可說
 <lb n="0185a03" ed="Y"/>異，極為明白。所以在大乘法中，這——不一不異是無諍的定論。但在古代大德
 <lb n="0185a04" ed="Y"/>的說明方面，適應不同根性的不同思想方式，也就多少差別了。(一)、如法相唯識
 <lb n="0185a05" ed="Y"/>學者，著重於法相。在「種現熏生」的緣起論中，說明世出世間的一切法。當他
@@ -174,7 +194,7 @@
 <lb n="0185a09" ed="Y"/>），是條然別體的。其實，這決非法相學者的意趣。因為，當生滅的一切因緣生
 <lb n="0185a10" ed="Y"/>法，離妄執而體見法性時，與法也是不一不異的。這就是一一法的離言自性，何
 <lb n="0185a11" ed="Y"/>嘗與法有別？所以，專從生滅去成立染淨一切法，只是著重性相的不一而已。</p>
-<lb n="0185a12" ed="Y"/><p style="text-indent:2em">(二)、如天臺，賢首，禪宗，著重於法性，都自稱性宗，以圓融見長。從法性
+<lb n="0185a12" ed="Y"/><p xml:id="pY24p0185a1201" style="text-indent:2em">(二)、如天臺，賢首，禪宗，著重於法性，都自稱性宗，以圓融見長。從法性
 <lb n="0185a13" ed="Y"/>平等不二的立場來說，一切事相都為法性所融攝；一切染淨法相，都可說即法性
 <pb n="0186a" ed="Y" xml:id="Y24.0024.0186a"/>
 <lb n="0186a01" ed="Y"/>的現起。因此，天臺宗說「性具」，賢首宗說「性起」，禪宗說「自性能生」。
@@ -182,12 +202,12 @@
 <lb n="0186a03" ed="Y"/>由於理事不二，進一步到達了事與事的不二。這類著重法性的學派，也就自然是
 <lb n="0186a04" ed="Y"/>著重不異的。雖然不得意的學者，往往落入執理廢事的窠臼，但這也決非法性宗
 <lb n="0186a05" ed="Y"/>的本意。</p>
-<lb n="0186a06" ed="Y"/><p style="text-indent:2em">(三)、被稱為空宗的中觀家，直從有空的不一不異著手。依空宗說：一切法是
+<lb n="0186a06" ed="Y"/><p xml:id="pY24p0186a0601" style="text-indent:2em">(三)、被稱為空宗的中觀家，直從有空的不一不異著手。依空宗說：一切法是
 <lb n="0186a07" ed="Y"/>從緣而起的，所以一切法是性空的。因為是性空的，所以要依因緣而現起。這樣
 <lb n="0186a08" ed="Y"/>，法法從緣有，法法本性空，緣起（有）與性空，不一不異，相得相成。空與有
 <lb n="0186a09" ed="Y"/>——性與相是這樣的無礙，但不像法相宗，偏從緣起去說一切法，也不像法性宗
 <lb n="0186a10" ed="Y"/>，偏從法性去立一切法，所以被稱為不落兩邊的中道觀。</p>
-<lb n="0186a11" ed="Y"/><p style="text-indent:2em">雖有這大乘三系，雖然法與法性，近似世間學者的現象與本體，但都不會與
+<lb n="0186a11" ed="Y"/><p xml:id="pY24p0186a1101" style="text-indent:2em">雖有這大乘三系，雖然法與法性，近似世間學者的現象與本體，但都不會與
 <lb n="0186a12" ed="Y"/>世學相同。在大乘中，不會成立唯一的本體，再去說明怎樣的從本體生現象，因
 <lb n="0186a13" ed="Y"/>為法性是一一法的本性。也就因此，法與法性，雖不可說一，但決非存在於諸法
 <pb n="0187a" ed="Y" xml:id="Y24.0024.0187a"/>

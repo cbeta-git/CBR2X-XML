@@ -12,50 +12,70 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/11</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/11</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>14卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 14, No. 14</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">14</idno>.<idno type="no">14</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛在人間</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">一、佛在人間</cb:mulu><cb:mulu level="2" type="其他">五　佛從人間被升到天上</cb:mulu>
-<milestone unit="juan" n="2"/><pb n="0017a" ed="Y" xml:id="Y14.0014.0017a.old" type="old"/>
+<milestone n="2" unit="juan"/><pb n="0017a" ed="Y" xml:id="Y14.0014.0017a.old" type="old"/>
 <pb n="0017a" ed="Y" xml:id="Y14.0014.0017a"/>
 <lb n="0017a01" ed="Y"/><lb n="0017a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">二、人間佛教緒言</cb:mulu><head>人間佛教緒言<note n="0017001" resp="DILA" type="add">民國四一年講。</note></head>
 <lb n="0017a02" ed="Y"/><lb n="0017a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　人間佛教的展開</cb:mulu><head>一　人間佛教的展開</head>
-<lb n="0017a03" ed="Y"/><lb n="0017a03" ed="Y" type="old"/><p style="text-indent:2em">契理與契機：佛法所最著重的，是應機與契理。契機，即所說的法，要契合
+<lb n="0017a03" ed="Y"/><lb n="0017a03" ed="Y" type="old"/><p xml:id="pY14p0017a0301" style="text-indent:2em">契理與契機：佛法所最著重的，是應機與契理。契機，即所說的法，要契合
 <lb n="0017a04" ed="Y"/><lb n="0017a04" ed="Y" type="old"/>當時聽眾的根機，使他們能於佛法，起信解，得利益。契理，即所說的法，能契
 <lb n="0017a05" ed="Y"/><lb n="0017a05" ed="Y" type="old"/>合徹底而究竟了義的。佛法要著重這二方面，才能適應時機，又契於佛法的真義
 <lb n="0017a06" ed="Y"/><lb n="0017a06" ed="Y" type="old"/>。如專著重於契理，或不免要曲高和寡了！如專著重於應機，像一分學佛者，只
@@ -66,14 +86,14 @@
 <pb n="0018a" ed="Y" xml:id="Y14.0014.0018a"/>
 <lb n="0018a01" ed="Y"/><lb n="0018a01" ed="Y" type="old"/>，做成一像樣的人，盡到為人的本分，作為求生西方的基礎，他是沒有忽視佛教
 <lb n="0018a02" ed="Y"/><lb n="0018a02" ed="Y" type="old"/>在人間的重要意義。民國以來，佛教的法師、居士，都有適應社會的感覺，或辦
-<lb n="0018a03" ed="Y"/><lb n="0018a03" ed="Y" type="old"/>慈善、教育事業等。不問成績如何，但確是認識並傾向<note n="0018a0301" resp="CBETA" type="add" subtype="規範字詞">於【CB】，于【印順】</note><app n="0018a0301"><lem wit="【CB】" resp="CBETA">於</lem><rdg wit="【印順】">于</rdg></app>這一方面——佛教是人
+<lb n="0018a03" ed="Y"/><lb n="0018a03" ed="Y" type="old"/>慈善、教育事業等。不問成績如何，但確是認識並傾向<note n="0018a0301" resp="CBETA" type="add" subtype="規範字詞">於【CB】，于【印順】</note><app n="0018a0301"><lem resp="CBETA" wit="【CB】">於</lem><rdg wit="【印順】">于</rdg></app>這一方面——佛教是人
 <lb n="0018a04" ed="Y"/><lb n="0018a04" ed="Y" type="old"/>間的。人間佛教的論題，民國以來，即逐漸被提起。民國二十三年，<title level="m">《海潮音》</title>
 <lb n="0018a05" ed="Y"/><lb n="0018a05" ed="Y" type="old"/>出過人間佛教專號，當時曾博得許多人的同情。後來，慈航法師在星洲，辦了一
 <lb n="0018a06" ed="Y"/><lb n="0018a06" ed="Y" type="old"/>個佛教刊物，名為<title level="m">《人間佛教》</title>。抗戰期間，浙江縉雲縣也出了小型的<title level="m">《人間佛
 <lb n="0018a07" ed="Y"/><lb n="0018a07" ed="Y" type="old"/>教月刊》</title>。前年法舫法師在暹羅，也以「人間佛教」為題來講說。總之，人間佛
 <lb n="0018a08" ed="Y"/><lb n="0018a08" ed="Y" type="old"/>教的時機適應性，確是引起各方面的重視了。人間佛教不但契應時機，更是契合
 <lb n="0018a09" ed="Y"/><lb n="0018a09" ed="Y" type="old"/>於佛法的深義，大家應努力來弘揚！</p>
-<lb n="0018a10" ed="Y"/><lb n="0018a10" ed="Y" type="old"/><p style="text-indent:2em">人生與人間：太虛大師在民國十四五年，提出了「人生佛教」。在抗戰期間
+<lb n="0018a10" ed="Y"/><lb n="0018a10" ed="Y" type="old"/><p xml:id="pY14p0018a1001" style="text-indent:2em">人生與人間：太虛大師在民國十四五年，提出了「人生佛教」。在抗戰期間
 <lb n="0018a11" ed="Y"/><lb n="0018a11" ed="Y" type="old"/>，還編成一部專書——<title level="m">《人生佛教》</title>。大師以為：人間佛教不如人生佛教的意義
 <lb n="0018a12" ed="Y"/><lb n="0018a12" ed="Y" type="old"/>好。他的倡導「人生佛教」，有兩個意思：一、對治的：因為中國的佛教末流，
 <lb n="0018a13" ed="Y"/><lb n="0018a13" ed="Y" type="old"/>一向重視於——一死，二鬼，引出無邊流弊。大師為了糾正他，所以主張不重死<pb n="0019a" ed="Y" xml:id="Y14.0014.0019a.old" type="old"/>
@@ -87,7 +107,7 @@
 <lb n="0019a07" ed="Y"/>死的問題也就跟著解決了。其實，佛教的了生死，並沒有錯。生死是生死死<lb n="0019a08" ed="Y" type="old"/>生，
 <lb n="0019a08" ed="Y"/>生生不已的洪流，包含了從生到死，從死到生的一切。解決這生生不已的大<lb n="0019a09" ed="Y" type="old"/>問題
 <lb n="0019a09" ed="Y"/>，名為了脫生死。如不能了生，那裡能了死！這那裡可以偏重於死而忽略於<lb n="0019a10" ed="Y" type="old"/>生！</p>
-<lb n="0019a10" ed="Y"/><lb n="0019a11" ed="Y" type="old"/><p style="text-indent:2em">中國學佛者，由於重視了死，也就重視了鬼。中國傳統的宗教，是人死為鬼
+<lb n="0019a10" ed="Y"/><lb n="0019a11" ed="Y" type="old"/><p xml:id="pY14p0019a1001" style="text-indent:2em">中國學佛者，由於重視了死，也就重視了鬼。中國傳統的宗教，是人死為鬼
 <lb n="0019a11" ed="Y"/><lb n="0019a12" ed="Y" type="old"/>。雖接受了佛教的輪迴說，相信鬼可轉生為人，但他們只知道人與鬼的互相轉生
 <lb n="0019a12" ed="Y"/><lb n="0019a13" ed="Y" type="old"/>，而每忽略了人死不一定為鬼，可以人死為人，人死為天。所以學佛者，甚至往<pb n="0020a" ed="Y" xml:id="Y14.0014.0020a.old" type="old"/>
 <lb n="0019a13" ed="Y"/><lb n="0020a01" ed="Y" type="old"/>生淨土的信仰者，也還是不願為鬼而又預備做鬼。死了，用種種的飲食來祭祀他
@@ -103,11 +123,11 @@
 <lb n="0020a09" ed="Y"/>了解，認為應重視現實的人生。<cit><quote type="寬鬆引文">「依著人乘正法，先修成完善的人格，保持人<lb n="0020a11" ed="Y" type="old"/>乘
 <lb n="0020a10" ed="Y"/>的業報，方是時代所需，尤為我國的情形所宜。由此向上增進，乃可進趣大乘<lb n="0020a12" ed="Y" type="old"/>行
 <lb n="0020a11" ed="Y"/>。使世界人類的人性不失，且成為完善美滿的人間。有了完善的人生為所依，<lb n="0020a13" ed="Y" type="old"/>進
-<lb n="0020a12" ed="Y"/>一步的使人們去修佛法所重的大乘菩薩行果」</quote><bibl>（<title level="a">〈我怎樣判攝一切佛法〉</title>）</bibl><note n="0020001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:1;page:p528">(ref taixu::vol:1;page:p528)</ref></note></cit>。<pb n="0021a" ed="Y" xml:id="Y14.0014.0021a.old" type="old"/><lb n="0021a01" ed="Y" type="old"/>大
+<lb n="0020a12" ed="Y"/>一步的使人們去修佛法所重的大乘菩薩行果」</quote><bibl>（<title level="a">〈我怎樣判攝一切佛法〉</title>）</bibl><note n="0020001" resp="謝淑歆" type="add"><ref target="#vol:1;page:p528" type="taixu">(ref taixu::vol:1;page:p528)</ref></note></cit>。<pb n="0021a" ed="Y" xml:id="Y14.0014.0021a.old" type="old"/><lb n="0021a01" ed="Y" type="old"/>大
 <lb n="0020a13" ed="Y"/>師曾說：<cit><quote type="嚴謹引文">「仰止唯佛陀，完就在人格，人圓佛即成，是名真現實。」</quote><bibl>（<title level="a">〈即人成
 <pb n="0021a" ed="Y" xml:id="Y14.0014.0021a"/>
-<lb n="0021a01" ed="Y"/><lb n="0021a02" ed="Y" type="old"/>佛的真現實論〉</title>）</bibl><note n="0021001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:24;page:p457">(ref taixu::vol:24;page:p457)</ref></note></cit>即人生而成佛，顯出了大師「人生佛教」的本意。</p>
-<lb n="0021a02" ed="Y"/><lb n="0021a03" ed="Y" type="old"/><p style="text-indent:2em">人生佛教是極好了，為什麼有些人要提倡人間佛教呢？約顯正方面說，大致
+<lb n="0021a01" ed="Y"/><lb n="0021a02" ed="Y" type="old"/>佛的真現實論〉</title>）</bibl><note n="0021001" resp="謝淑歆" type="add"><ref target="#vol:24;page:p457" type="taixu">(ref taixu::vol:24;page:p457)</ref></note></cit>即人生而成佛，顯出了大師「人生佛教」的本意。</p>
+<lb n="0021a02" ed="Y"/><lb n="0021a03" ed="Y" type="old"/><p xml:id="pY14p0021a0201" style="text-indent:2em">人生佛教是極好了，為什麼有些人要提倡人間佛教呢？約顯正方面說，大致
 <lb n="0021a03" ed="Y"/><lb n="0021a04" ed="Y" type="old"/>相近；而在對治方面，覺得更有極重要的理由。人在五趣中的位置，恰好是在中
 <lb n="0021a04" ed="Y"/><lb n="0021a05" ed="Y" type="old"/>間。在人的上面有天堂；下面有地獄；餓鬼與畜生，可說在人間的旁邊，而也可
 <lb n="0021a05" ed="Y"/><lb n="0021a06" ed="Y" type="old"/>通於上下。鬼趣的低劣者，近於地獄（有些宗教是不分的），所以閻羅王或說為
@@ -130,12 +150,12 @@
 <lb n="0022a08" ed="Y"/><lb n="0022a09" ed="Y" type="old"/>人間佛教是根本而最精要的，究竟徹底而又最適應現代機宜的。切勿誤解為人乘
 <lb n="0022a09" ed="Y"/><lb n="0022a10" ed="Y" type="old"/>法！</p></cb:div>
 <lb n="0022a10" ed="Y"/><lb n="0022a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　人間佛教的三寶觀</cb:mulu><head>二　人間佛教的三寶觀</head>
-<lb n="0022a11" ed="Y"/><lb n="0022a12" ed="Y" type="old"/><p style="text-indent:2em">三寶在人間：佛法無邊，實不外乎三寶。我們學佛的，第一要皈信三寶。拿<pb n="0023a" ed="Y" xml:id="Y14.0014.0023a.old" type="old"/>
+<lb n="0022a11" ed="Y"/><lb n="0022a12" ed="Y" type="old"/><p xml:id="pY14p0022a1101" style="text-indent:2em">三寶在人間：佛法無邊，實不外乎三寶。我們學佛的，第一要皈信三寶。拿<pb n="0023a" ed="Y" xml:id="Y14.0014.0023a.old" type="old"/>
 <lb n="0022a12" ed="Y"/><lb n="0023a01" ed="Y" type="old"/>出家人說，皈依三寶，即加入僧團而學法，由學法而趨於果證。皈依的對象是三
 <pb n="0023a" ed="Y" xml:id="Y14.0014.0023a"/>
 <lb n="0023a01" ed="Y"/><lb n="0023a02" ed="Y" type="old"/>寶，所學所證，也不出此三寶。如不能正確地信解三寶，一切與外道的知見一樣
 <lb n="0023a02" ed="Y"/><lb n="0023a03" ed="Y" type="old"/>，那名稱是皈依三寶，其實對佛法是極其陌生的！</p>
-<lb n="0023a03" ed="Y"/><lb n="0023a04" ed="Y" type="old"/><p style="text-indent:2em">三世、十方，佛是極多的。凡對於宇宙人生的真理，普遍而正確的覺悟——
+<lb n="0023a03" ed="Y"/><lb n="0023a04" ed="Y" type="old"/><p xml:id="pY14p0023a0301" style="text-indent:2em">三世、十方，佛是極多的。凡對於宇宙人生的真理，普遍而正確的覺悟——
 <lb n="0023a04" ed="Y"/><lb n="0023a05" ed="Y" type="old"/>正遍知；慈悲、智慧，一切功德，到達圓滿的境地，就稱為佛。單說佛，不是指
 <lb n="0023a05" ed="Y"/><lb n="0023a06" ed="Y" type="old"/>那一位佛，而是通指三世十方的一切佛。但是，我們怎麼知道有佛，有十方三世
 <lb n="0023a06" ed="Y"/><lb n="0023a07" ed="Y" type="old"/>佛呢？這因為，我們這個世界，曾經有佛出世。本師釋迦牟尼佛，就誕生在印度
@@ -152,7 +172,7 @@
 <lb n="0024a03" ed="Y"/>足尊」</quote><note n="0024001" resp="謝淑歆" type="add">(1)南傳《法句經》273頌：「八支道中勝，四句諦中勝，離欲法中勝，具眼兩足勝。」；(2)《出曜經》卷13〈13 道品〉：「道為八直妙，聖諦四句上，無欲法之最，明眼二足尊。」(CBETA, T04, no. 212, p. 682, a25-26)</note></cit>，眼即知見，知見的具足圓滿者，即是佛，佛在兩足的人類中，處最<lb n="0024a05" ed="Y" type="old"/>可尊
 <lb n="0024a04" ed="Y"/>敬的地位。佛出人間，人間才有正法。由於有本師釋迦牟尼佛，我們才知道<lb n="0024a06" ed="Y" type="old"/>有三
 <lb n="0024a05" ed="Y"/>世十方諸佛。從「佛佛道同」來說，一切佛還不等於釋迦佛嗎？</p>
-<lb n="0024a06" ed="Y"/><lb n="0024a07" ed="Y" type="old"/><p style="text-indent:2em">再從法寶說：諸佛所證覺的諸法實相是法，修行的道也叫法。道與悟證的寂
+<lb n="0024a06" ed="Y"/><lb n="0024a07" ed="Y" type="old"/><p xml:id="pY14p0024a0601" style="text-indent:2em">再從法寶說：諸佛所證覺的諸法實相是法，修行的道也叫法。道與悟證的寂
 <lb n="0024a07" ed="Y"/><lb n="0024a08" ed="Y" type="old"/>滅法，本無所謂人間不人間的，佛出世或不出世，都是這樣。佛時常說<quote source="T08n0223_p0378c01-02" type="寬鬆引文">「是法<lb n="0024a09" ed="Y" type="old"/>非
 <lb n="0024a08" ed="Y"/>佛作，亦非餘人作」<note n="0024002" resp="謝淑歆" type="add">《摩訶般若波羅蜜經》卷22〈71 道樹品〉：「一切法本性爾，非佛作，非聲聞、辟支佛作，亦非餘人作，一切法無作者故。」(CBETA, T08, no. 223, p. 378, c1-2)</note></quote>，那麼為什麼說法在人間？因為本師釋迦佛的說法，是為<lb n="0024a10" ed="Y" type="old"/>人
 <lb n="0024a09" ed="Y"/>而說的。在神鬼氣氛濃厚的印度環境，雖也偶為天龍等說法，而重點到底是為<lb n="0024a11" ed="Y" type="old"/>了
@@ -172,18 +192,18 @@
 <lb n="0025a09" ed="Y"/>生，即沒有律儀戒。所以，可以肯定的指出：法，本是為人類而說的；一切是<lb n="0025a11" ed="Y" type="old"/>適
 <lb n="0025a10" ed="Y"/>應人類的情形而安立的。佛既沒有依地獄、天堂的情況而立法；如有地獄法與<lb n="0025a12" ed="Y" type="old"/>天
 <lb n="0025a11" ed="Y"/>堂法，那也只適合於地獄與天國，也不是我們——人類所能信行的。</p>
-<lb n="0025a12" ed="Y"/><lb n="0025a13" ed="Y" type="old"/><p style="text-indent:2em">說到僧寶，不用說，是在人間了。出家五眾（沙彌、沙彌尼，式叉摩那，<pb n="0026a" ed="Y" xml:id="Y14.0014.0026a.old" type="old"/><lb n="0026a01" ed="Y" type="old"/>比
+<lb n="0025a12" ed="Y"/><lb n="0025a13" ed="Y" type="old"/><p xml:id="pY14p0025a1201" style="text-indent:2em">說到僧寶，不用說，是在人間了。出家五眾（沙彌、沙彌尼，式叉摩那，<pb n="0026a" ed="Y" xml:id="Y14.0014.0026a.old" type="old"/><lb n="0026a01" ed="Y" type="old"/>比
 <lb n="0025a13" ed="Y"/>丘、比丘尼）中，除了人間，其他眾生都是沒有的。所以出家眾的律儀戒，唯是
 <pb n="0026a" ed="Y" xml:id="Y14.0014.0026a"/>
 <lb n="0026a01" ed="Y"/>為<lb n="0026a02" ed="Y" type="old"/>人而說，也唯是人所受所行的。受戒時，即曾問：<quote source="T22n1421_p0117c17" type="寬鬆引文">「汝是非人耶？」<note n="0026001" resp="謝淑歆" type="add">《彌沙塞部和醯五分律》卷17：「汝是非人不。」(CBETA, T22, no. 1421, p. 117, c17)</note></quote>如是非人
 <lb n="0026a02" ed="Y"/>—<lb n="0026a03" ed="Y" type="old"/>—天神與鬼畜，即不得受戒。依戒而攝僧，依僧伽而住持佛法，一切都是人間
 <lb n="0026a03" ed="Y"/>的<lb n="0026a04" ed="Y" type="old"/>，何等明顯！</p>
-<lb n="0026a04" ed="Y"/><lb n="0026a05" ed="Y" type="old"/><p style="text-indent:2em">佛出人間，為人說人法——人類所能解能行的，人類得因此而增進而解脫的
+<lb n="0026a04" ed="Y"/><lb n="0026a05" ed="Y" type="old"/><p xml:id="pY14p0026a0401" style="text-indent:2em">佛出人間，為人說人法——人類所能解能行的，人類得因此而增進而解脫的
 <lb n="0026a05" ed="Y"/><lb n="0026a06" ed="Y" type="old"/>佛法，修學者也即是人間賢聖僧。三寶常住人間，進一步說，人間才有如法而完
 <lb n="0026a06" ed="Y"/><lb n="0026a07" ed="Y" type="old"/>美的三寶。佛在人間，法與僧也無不在人間。三寶本在人間，這即是我們的皈依
 <lb n="0026a07" ed="Y"/><lb n="0026a08" ed="Y" type="old"/>處。如忽略此界人間的佛法僧，而偏重他方，天國、龍宮，無疑地會落入於死亡
 <lb n="0026a08" ed="Y"/><lb n="0026a09" ed="Y" type="old"/>與鬼靈，永生與天神的窠臼，埋沒了佛法的真義！</p>
-<lb n="0026a09" ed="Y"/><lb n="0026a10" ed="Y" type="old"/><p style="text-indent:2em">人間與天上：從三寶出現於人間說，佛為創覺的立教者。佛住世時，生活起
+<lb n="0026a09" ed="Y"/><lb n="0026a10" ed="Y" type="old"/><p xml:id="pY14p0026a0901" style="text-indent:2em">人間與天上：從三寶出現於人間說，佛為創覺的立教者。佛住世時，生活起
 <lb n="0026a10" ed="Y"/><lb n="0026a11" ed="Y" type="old"/>居，與一般人相彷彿。既不是神，也不是神的兒子或使者，他是真摯的人類導師
 <lb n="0026a11" ed="Y"/><lb n="0026a12" ed="Y" type="old"/>。人間有苦有樂，穿的、吃的、住的，都不能隨心適意。天上呢？吃的是天廚妙
 <lb n="0026a12" ed="Y"/><lb n="0026a13" ed="Y" type="old"/>供，穿的是細滑天衣，住的是七寶宮殿，比人間的享受，是不知好到若干倍。人<pb n="0027a" ed="Y" xml:id="Y14.0014.0027a.old" type="old"/>

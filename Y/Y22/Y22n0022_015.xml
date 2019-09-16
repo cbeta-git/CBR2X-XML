@@ -12,49 +12,69 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>20卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 22, No. 22</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">22</idno>.<idno type="no">22</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛教史地考論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十四、世親的年代</cb:mulu>
-<milestone unit="juan" n="15"/><pb n="0343a" ed="Y" xml:id="Y22.0022.0343a.old" type="old"/>
+<milestone n="15" unit="juan"/><pb n="0343a" ed="Y" xml:id="Y22.0022.0343a.old" type="old"/>
 <pb n="0339a" ed="Y" xml:id="Y22.0022.0339a"/>
 <lb n="0339a01" ed="Y"/><lb n="0343a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十五、漢明帝與《四十二章經》</cb:mulu><head>漢明帝與《四十二章經》<note n="0339001" resp="DILA" type="add">民國五三年撰。</note></head>
-<lb n="0339a02" ed="Y"/><lb n="0343a02" ed="Y" type="old"/><p style="text-indent:2em">佛教的傳入中國，歷來史家所公認的，是<cit><quote source="T50n2059_p0385c07" type="嚴謹引文">「漢明感夢，初傳其道」</quote><bibl>（<title level="m">《高僧
+<lb n="0339a02" ed="Y"/><lb n="0343a02" ed="Y" type="old"/><p xml:id="pY22p0339a0201" style="text-indent:2em">佛教的傳入中國，歷來史家所公認的，是<cit><quote source="T50n2059_p0385c07" type="嚴謹引文">「漢明感夢，初傳其道」</quote><bibl>（<title level="m">《高僧
 <lb n="0339a03" ed="Y"/>傳》</title><lb n="0343a03" ed="Y" type="old"/>）</bibl><note n="0339002" resp="周怡曄" type="add">《高僧傳》卷9(CBETA, T50, no. 2059, p. 385, c7)</note></cit>。這一傳說的最早記錄者，是<title level="a">〈四十二章經序〉</title>、<title level="m">《牟子理惑論》</title>。<title level="m">《牟子理
 <lb n="0339a04" ed="Y"/><lb n="0343a04" ed="Y" type="old"/>惑論》</title>是漢獻帝時候的作品（約西元二〇〇年頃），說到了明帝夢見金人，遣使
 <lb n="0339a05" ed="Y"/><lb n="0343a05" ed="Y" type="old"/>求法。<title level="a">〈四十二章經序〉</title>敘述明帝的遣使求法，與<title level="m">《牟子理惑論》</title>大體相同，多
@@ -65,7 +85,7 @@
 <lb n="0339a10" ed="Y"/>經序〉的寫作，在明帝以後。那麼，漢明帝夢見金人、遣使<lb n="0343a10" ed="Y" type="old"/>求法的開始記錄，總
 <lb n="0339a11" ed="Y"/>在明帝以後，到桓帝延熹年間（七六——一六六）<note n="0339004" resp="厚觀法師" type="add">漢明帝（28年－75年）永壽：155年——158年六月<space quantity="1" unit="chars"/>延熹：158年六月——167年六月</note>，不能不<lb n="0343a11" ed="Y" type="old"/>說是古老的傳說了！</p><pb n="0344a" ed="Y" xml:id="Y22.0022.0344a.old" type="old"/>
 <pb n="0340a" ed="Y" xml:id="Y22.0022.0340a"/>
-<lb n="0340a01" ed="Y"/><lb n="0344a01" ed="Y" type="old"/><p style="text-indent:2em">事實上，佛教的流行中國，比明帝永平時代要早得多。明帝的異母弟楚王英
+<lb n="0340a01" ed="Y"/><lb n="0344a01" ed="Y" type="old"/><p xml:id="pY22p0340a0101" style="text-indent:2em">事實上，佛教的流行中國，比明帝永平時代要早得多。明帝的異母弟楚王英
 <lb n="0340a02" ed="Y"/><lb n="0344a02" ed="Y" type="old"/>，建武二十八年（五二）到楚國去。<cit><bibl>《<title level="m">漢書</title>．<title level="a">楚王英傳</title>》，說</bibl><quote source="ZS01n0001_p0021a08" type="寬鬆引文">「英晚節更喜黃老
 <lb n="0340a03" ed="Y"/><lb n="0344a03" ed="Y" type="old"/>學，為浮屠齋戒祭祀」</quote><note n="0340001" resp="周怡曄" type="add">《正史佛教資料類編》卷2：「英少時好遊俠，交通賓客，晚節更喜黃老，學為浮屠齋戒祭祀。」(CBETA, ZS01, no. 1, p. 21, a8)</note></cit>。永平八年（六五），楚王英奉縑贖罪，詔曰：<quote source="ZS01n0001_p0021a11-12" type="嚴謹引文">「楚王誦
 <lb n="0340a04" ed="Y"/><lb n="0344a04" ed="Y" type="old"/>黃老之微言，尚浮屠之仁祠。潔齋三月，與神為誓，何嫌何疑，當有悔吝！其還
@@ -84,11 +104,11 @@
 <lb n="0341a03" ed="Y"/>魏略》</title>說</bibl><quote>「後<lb n="0345a03" ed="Y" type="old"/>立者，其人也」</quote></cit>；<title level="m">《世說新語》</title>注作「後豆」。「後」是復字的訛寫
 <lb n="0341a04" ed="Y"/>，「後豆」<lb n="0345a04" ed="Y" type="old"/>——復豆即佛陀的古譯。這是說景憲所受的那卷佛經，佛是譯作「復
 <lb n="0341a05" ed="Y"/>豆」的。這<lb n="0345a05" ed="Y" type="old"/>是確而可信的傳說，可說是佛經的最早傳譯了！</p>
-<lb n="0341a06" ed="Y"/><lb n="0345a06" ed="Y" type="old"/><p style="text-indent:2em">我相信，佛教的傳來中國，比這還要早一些。</p>
-<lb n="0341a07" ed="Y"/><lb n="0345a07" ed="Y" type="old"/><p style="text-indent:2em">中國國史及中國佛教史，以漢明帝夢見金人、遣使求法為佛教的初傳，決<lb n="0345a08" ed="Y" type="old"/>不
+<lb n="0341a06" ed="Y"/><lb n="0345a06" ed="Y" type="old"/><p xml:id="pY22p0341a0601" style="text-indent:2em">我相信，佛教的傳來中國，比這還要早一些。</p>
+<lb n="0341a07" ed="Y"/><lb n="0345a07" ed="Y" type="old"/><p xml:id="pY22p0341a0701" style="text-indent:2em">中國國史及中國佛教史，以漢明帝夢見金人、遣使求法為佛教的初傳，決<lb n="0345a08" ed="Y" type="old"/>不
 <lb n="0341a08" ed="Y"/>會是無因的。當時佛教界，應該有一番盛事，受到國家的正式尊敬，這才以此<lb n="0345a09" ed="Y" type="old"/>為
 <lb n="0341a09" ed="Y"/>佛教傳入的開始。先將<title level="m">《牟子理惑論》</title>有關此事的記載錄下來，再來分別考察：</p>
-<lb n="0341a10" ed="Y"/><lb n="0345a10" ed="Y" type="old"/><quote source="T52n2102_p0004c26" type="嚴謹引文"><p style="margin-left:3em">昔孝明皇帝，夢見神人，身有日光，飛在殿前，欣然悅之。明日，博問群
+<lb n="0341a10" ed="Y"/><lb n="0345a10" ed="Y" type="old"/><quote source="T52n2102_p0004c26" type="嚴謹引文"><p xml:id="pY22p0341a1001" style="margin-left:3em">昔孝明皇帝，夢見神人，身有日光，飛在殿前，欣然悅之。明日，博問群
 <lb n="0341a11" ed="Y"/><lb n="0345a11" ed="Y" type="old"/>臣，此為何神？有通人傅毅曰：「臣聞天竺有得道者，號之曰佛，飛行虛
 <lb n="0341a12" ed="Y"/><lb n="0345a12" ed="Y" type="old"/>空，身有日光，殆將其神也！」於是，上悟，遣使者張騫、羽林郎中秦景
 <lb n="0341a13" ed="Y"/><lb n="0345a13" ed="Y" type="old"/>、博士弟子王遵等十二人，於大月支寫佛經四十二章，藏在蘭臺石室第十<pb n="0346a" ed="Y" xml:id="Y22.0022.0346a.old" type="old"/>
@@ -96,7 +116,7 @@
 <lb n="0342a01" ed="Y"/><lb n="0346a01" ed="Y" type="old"/>四間。時於洛陽城西雍門外起佛寺，於其壁畫千乘萬騎繞塔三匝；又於南
 <lb n="0342a02" ed="Y"/><lb n="0346a02" ed="Y" type="old"/>宮清涼臺及開陽城門上作佛像。明帝存時，豫修造壽陵，陵曰顯節，亦<lb n="0346a03" ed="Y" type="old"/>於
 <lb n="0342a03" ed="Y"/>其上作佛圖像。<note n="0342001" resp="周怡曄" type="add">《弘明集》卷1(CBETA, T52, no. 2102, p. 4, c26-p. 5, a7)</note></p></quote>
-<lb n="0342a04" ed="Y"/><lb n="0346a04" ed="Y" type="old"/><p style="text-indent:2em">明帝夢見的神人，〈四十二章經序〉作<quote source="T17n0784_p0722a14-15" type="嚴謹引文">「身體有金色，項有日光」<note n="0342002" resp="周怡曄" type="add">《四十二章經》卷1(CBETA, T17, no. 784, p. 722, a14-15)</note></quote>；<title level="m">《後漢
+<lb n="0342a04" ed="Y"/><lb n="0346a04" ed="Y" type="old"/><p xml:id="pY22p0342a0401" style="text-indent:2em">明帝夢見的神人，〈四十二章經序〉作<quote source="T17n0784_p0722a14-15" type="嚴謹引文">「身體有金色，項有日光」<note n="0342002" resp="周怡曄" type="add">《四十二章經》卷1(CBETA, T17, no. 784, p. 722, a14-15)</note></quote>；<title level="m">《後漢
 <lb n="0342a05" ed="Y"/>紀》</title>作<quote source="ZS01n0001_p0021a19" type="嚴謹引文">「金人長大<lb n="0346a05" ed="Y" type="old"/>，項有日月光」<note n="0342003" resp="周怡曄" type="add">《正史佛教資料類編》卷2(CBETA, ZS01, no. 1, p. 21, a19)</note></quote>。金色的、長大的、項有圓光的，這當然是佛
 <lb n="0342a06" ed="Y"/>。明帝有此金人的<lb n="0346a06" ed="Y" type="old"/>瑞夢，雖僅記錄於<title level="a">〈四十二章經序〉</title>，但明帝有金人的瑞兆，
 <lb n="0342a07" ed="Y"/>卻確實見於史書。<lb n="0346a07" ed="Y" type="old"/>漢初，自以為得土德；光武二年，才改定為火德。但一般還以
@@ -118,14 +138,14 @@
 <lb n="0343a09" ed="Y"/>祥瑞，不只<lb n="0347a09" ed="Y" type="old"/>是晉<title level="m">《抱朴子》</title>「金象」的傳說了。金人即金象，不僅是民間的傳說
 <lb n="0343a10" ed="Y"/>，還見於朝<lb n="0347a10" ed="Y" type="old"/>廷的頌贊。這是皇漢的符瑞，也是佛教東來的瑞兆；明帝的夢見金人
 <lb n="0343a11" ed="Y"/>，應該與此<lb n="0347a11" ed="Y" type="old"/>有關。</p>
-<lb n="0343a12" ed="Y"/><lb n="0347a12" ed="Y" type="old"/><p style="text-indent:2em">因明帝的問起金人（金象），而有人談到佛的，是傅毅。<bibl>《<title level="m">漢書</title>．<title level="a">文苑列傳</title>
+<lb n="0343a12" ed="Y"/><lb n="0347a12" ed="Y" type="old"/><p xml:id="pY22p0343a1201" style="text-indent:2em">因明帝的問起金人（金象），而有人談到佛的，是傅毅。<bibl>《<title level="m">漢書</title>．<title level="a">文苑列傳</title>
 <lb n="0343a13" ed="Y"/><lb n="0347a13" ed="Y" type="old"/>》</bibl>有<title level="a">〈傅毅傳〉</title>。說到「通人」，王充<cit><bibl><title level="m">《論衡》</title>說</bibl><quote>「通人胸中，懷百家之言」</quote></cit>；<quote>「<pb n="0348a" ed="Y" xml:id="Y22.0022.0348a.old" type="old"/>
 <pb n="0344a" ed="Y" xml:id="Y22.0022.0344a"/>
 <lb n="0344a01" ed="Y"/><lb n="0348a01" ed="Y" type="old"/>通人之官，蘭臺令史（皇家圖書館長），……班固、賈逵、楊終、傅毅之徒」</quote>。
 <lb n="0344a02" ed="Y"/>通<lb n="0348a02" ed="Y" type="old"/>人是綜貫百家的，尊漢德而薄三代的，文華與武功並重，不信儒家的讖記、方
 <lb n="0344a03" ed="Y"/>士<lb n="0348a03" ed="Y" type="old"/>的仙術，代表當時進步而踏實的學者。傅毅是這一型的學者，知道西方有佛，
 <lb n="0344a04" ed="Y"/>應<lb n="0348a04" ed="Y" type="old"/>該是可以信任的。</p>
-<lb n="0344a05" ed="Y"/><lb n="0348a05" ed="Y" type="old"/><p style="text-indent:2em">明帝遣使求法，〈四十二章經序〉與<title level="m">《牟子理惑論》</title>所敘的求法使，都是實
+<lb n="0344a05" ed="Y"/><lb n="0348a05" ed="Y" type="old"/><p xml:id="pY22p0344a0501" style="text-indent:2em">明帝遣使求法，〈四十二章經序〉與<title level="m">《牟子理惑論》</title>所敘的求法使，都是實
 <lb n="0344a06" ed="Y"/>有其人，<lb n="0348a06" ed="Y" type="old"/>也多少與西域有關。但說到奉明帝的命令去求法，都是不可能的。一、
 <lb n="0344a07" ed="Y"/>「使者張<lb n="0348a07" ed="Y" type="old"/>騫」，這是眾所周知的西域使者，到過大月氏。但他是漢武帝時人，比
 <lb n="0344a08" ed="Y"/>明帝早二<lb n="0348a08" ed="Y" type="old"/>百年。遣張騫去西方求法，<title level="a">〈四十二章經序〉</title>的作者，似乎太缺乏歷史
@@ -137,11 +157,11 @@
 <pb n="0345a" ed="Y" xml:id="Y22.0022.0345a"/>
 <lb n="0345a01" ed="Y"/>事。三、王遵是<pb n="0349a" ed="Y" xml:id="Y22.0022.0349a.old" type="old"/><lb n="0349a01" ed="Y" type="old"/>光武時人，<title level="a">〈隗囂傳〉</title>中有他的事跡。王遵曾到過隴西，晚年的
 <lb n="0345a02" ed="Y"/>事蹟不明。但他<lb n="0349a02" ed="Y" type="old"/>是軍人，與「博士弟子」的身分不合。</p>
-<lb n="0345a03" ed="Y"/><lb n="0349a03" ed="Y" type="old"/><p style="text-indent:2em"><title level="a">〈四十二章經序〉</title>的作者，知道<title level="m">《四十二章經》</title>是明帝時代傳來的，卻不知
+<lb n="0345a03" ed="Y"/><lb n="0349a03" ed="Y" type="old"/><p xml:id="pY22p0345a0301" style="text-indent:2em"><title level="a">〈四十二章經序〉</title>的作者，知道<title level="m">《四十二章經》</title>是明帝時代傳來的，卻不知
 <lb n="0345a04" ed="Y"/><lb n="0349a04" ed="Y" type="old"/>道譯者是誰。他聽到明帝有金人的瑞兆、遣使求法，也根本不知道派遣的是誰。
 <lb n="0345a05" ed="Y"/><lb n="0349a05" ed="Y" type="old"/>這才將與西域有關的張騫、秦景等寫在上面。這是一位平凡的信仰者！雖然錯誤
 <lb n="0345a06" ed="Y"/><lb n="0349a06" ed="Y" type="old"/>太多，但憑此序而引起我們注意，知道明帝時代有金象的符瑞，還是有價值的！</p>
-<lb n="0345a07" ed="Y"/><lb n="0349a07" ed="Y" type="old"/><p style="text-indent:2em">明帝的時候，江淮一帶的佛法，相當流行；這從楚王英的奉佛、供僧、持齋
+<lb n="0345a07" ed="Y"/><lb n="0349a07" ed="Y" type="old"/><p xml:id="pY22p0345a0701" style="text-indent:2em">明帝的時候，江淮一帶的佛法，相當流行；這從楚王英的奉佛、供僧、持齋
 <lb n="0345a08" ed="Y"/><lb n="0349a08" ed="Y" type="old"/>，而可以理解出來。所以漅湖發現金象，作為國家的符瑞，而引起國家對佛教的
 <lb n="0345a09" ed="Y"/><lb n="0349a09" ed="Y" type="old"/>尊敬，是並不希奇的。當時，遣使求法，而有<title level="m">《四十二章經》</title>，被珍藏於蘭臺石
 <lb n="0345a10" ed="Y"/><lb n="0349a10" ed="Y" type="old"/>室。可惜<title level="a">〈四十二章經序〉</title>的作者，不知道譯者是誰、派遣的使者是誰。對於這
@@ -177,7 +197,7 @@
 <lb n="0347a12" ed="Y"/>才提到漢摩騰的譯經。記錄雖遲<lb n="0351a12" ed="Y" type="old"/>一點，卻屬於學者的傳聞。比起〈四十二章經序
 <lb n="0347a13" ed="Y"/>〉來，可信的程度要高得多！</p>
 <pb n="0348a" ed="Y" xml:id="Y22.0022.0348a"/>
-<lb n="0348a01" ed="Y"/><lb n="0351a13" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《四十二章經》</title>的舊譯與新譯，中原與江東的不同傳說，原是分明的。但在<pb n="0352a" ed="Y" xml:id="Y22.0022.0352a.old" type="old"/>
+<lb n="0348a01" ed="Y"/><lb n="0351a13" ed="Y" type="old"/><p xml:id="pY22p0348a0101" style="text-indent:2em"><title level="m">《四十二章經》</title>的舊譯與新譯，中原與江東的不同傳說，原是分明的。但在<pb n="0352a" ed="Y" xml:id="Y22.0022.0352a.old" type="old"/>
 <lb n="0348a02" ed="Y"/><lb n="0352a01" ed="Y" type="old"/>梁慧皎的<title level="m">《高僧傳》</title>中，糅成一團；古來傳說的真面目，從此迷糊不清。慧皎<cit><bibl><title level="m">《
 <lb n="0348a03" ed="Y"/><lb n="0352a02" ed="Y" type="old"/>高僧傳》</title>說</bibl><quote type="嚴謹引文">「郎中蔡愔、博士弟子秦景等」</quote><note n="0348001" resp="厚觀法師" type="add">《高僧傳》卷1(CBETA, T50, no. 2059, p. 322, c23-24)</note></cit>，這明是二種傳說的糅合。說使者<lb n="0352a03" ed="Y" type="old"/>到
 <lb n="0348a04" ed="Y"/>了月氏，請了攝摩騰與竺法蘭二人；摩騰與竺法蘭，合譯了<title level="m">《四十二章經》</title>。<lb n="0352a04" ed="Y" type="old"/>慧
@@ -193,7 +213,7 @@
 <pb n="0349a" ed="Y" xml:id="Y22.0022.0349a"/>
 <lb n="0349a01" ed="Y"/>三藏<lb n="0352a13" ed="Y" type="old"/>記集》</title>支謙的傳說、慧皎的糅合說，儘管有多少不同，而<quote type="嚴謹引文">「孝明皇帝<title level="m">《四十
 <lb n="0349a02" ed="Y"/>二章》</title>」</quote>、<pb n="0353a" ed="Y" xml:id="Y22.0022.0353a.old" type="old"/><lb n="0353a01" ed="Y" type="old"/>明帝遣使求法，還是彼此一致的！</p>
-<lb n="0349a03" ed="Y"/><lb n="0353a02" ed="Y" type="old"/><p style="text-indent:2em">到中國來傳譯<title level="m">《四十二章經》</title>的摩騰，<title level="m">《高僧傳》</title>作攝摩騰，<title level="m">《出三藏<lb n="0353a03" ed="Y" type="old"/>記集》</title>
+<lb n="0349a03" ed="Y"/><lb n="0353a02" ed="Y" type="old"/><p xml:id="pY22p0349a0301" style="text-indent:2em">到中國來傳譯<title level="m">《四十二章經》</title>的摩騰，<title level="m">《高僧傳》</title>作攝摩騰，<title level="m">《出三藏<lb n="0353a03" ed="Y" type="old"/>記集》</title>
 <lb n="0349a04" ed="Y"/>作竺摩騰，<title level="m">《冥祥記》</title>作迦葉摩騰。這位弘傳佛法的大師，在初期佛教的發<lb n="0353a04" ed="Y" type="old"/>展中
 <lb n="0349a05" ed="Y"/>，曾起過重大的作用。以我的研究，燕昭王時的尸羅，秦始皇時的釋利防，<lb n="0353a05" ed="Y" type="old"/>都是
 <lb n="0349a06" ed="Y"/>攝摩騰故事的變形。東晉王嘉的<cit><bibl><title level="m">《拾遺記》</title>說：</bibl><quote>「（燕昭王）七年，沐胥<lb n="0353a06" ed="Y" type="old"/>之國來
@@ -202,7 +222,7 @@
 <lb n="0349a09" ed="Y"/>，齎經來化；始皇弗從，遂禁利防等。」</quote></cit>尸羅、釋利防、攝摩騰的傳說，粗看起
 <lb n="0349a10" ed="Y"/>來<lb n="0353a09" ed="Y" type="old"/>，都是片文孤證，不足為據。而且尸羅與釋利防的故事，近於神話。但仔細考
 <lb n="0349a11" ed="Y"/>察<lb n="0353a10" ed="Y" type="old"/>，覺得彼此間大有共同性。在名字上，尸羅與釋利防，是同名異譯，是誰都可
-<lb n="0349a12" ed="Y"/>以<lb n="0353a11" ed="Y" type="old"/>承認的。釋利防大概是舍利弗 <foreign xml:lang="sa"><note n="0349a1201" resp="CBETA" type="add">Śāriputra【CB】，Sāriputta【印順】</note><app n="0349a1201"><lem wit="【CB】" resp="正聞出版社">Śāriputra</lem><rdg wit="【印順】">Sāriputta</rdg></app></foreign> 的音譯，摩騰與 <foreign xml:lang="pi">putta</foreign> 也是相近的（
+<lb n="0349a12" ed="Y"/>以<lb n="0353a11" ed="Y" type="old"/>承認的。釋利防大概是舍利弗 <foreign xml:lang="sa"><note n="0349a1201" resp="CBETA" type="add">Śāriputra【CB】，Sāriputta【印順】</note><app n="0349a1201"><lem resp="正聞出版社" wit="【CB】">Śāriputra</lem><rdg wit="【印順】">Sāriputta</rdg></app></foreign> 的音譯，摩騰與 <foreign xml:lang="pi">putta</foreign> 也是相近的（
 <lb n="0349a13" ed="Y"/><lb n="0353a12" ed="Y" type="old"/><foreign xml:lang="sa">ＭＰ</foreign>通轉）。不但名字相近，從西方到中國來，都有開始弘傳佛教的意味。這是
 <pb n="0350a" ed="Y" xml:id="Y22.0022.0350a"/>
 <lb n="0350a01" ed="Y"/><lb n="0353a13" ed="Y" type="old"/>同一事件的不同傳說。同一事件而能成為多樣的傳說，可想見原始事件必是影<pb n="0354a" ed="Y" xml:id="Y22.0022.0354a.old" type="old"/><lb n="0354a01" ed="Y" type="old"/>響
@@ -211,7 +231,7 @@
 <lb n="0350a04" ed="Y"/>月氏還是天竺，譯經的是口譯還是帶原本來中國，佛像的西方帶來還是<lb n="0354a04" ed="Y" type="old"/>從中國畫
 <lb n="0350a05" ed="Y"/>出，都是不能確定的。不過，這是枝末問題，而摩騰從西方傳來經像，<lb n="0354a05" ed="Y" type="old"/>始終是一
 <lb n="0350a06" ed="Y"/>致的。</p>
-<lb n="0350a07" ed="Y"/><lb n="0354a06" ed="Y" type="old"/><p style="text-indent:2em">漢明帝時，<cit><bibl>〈四十二章經序〉說</bibl><quote>「起立塔寺」</quote></cit>，<cit><bibl><title level="m">《牟子理惑論》</title>說</bibl><quote source="T52n2102_p0005a04-05" type="嚴謹引文">「於洛陽城
+<lb n="0350a07" ed="Y"/><lb n="0354a06" ed="Y" type="old"/><p xml:id="pY22p0350a0701" style="text-indent:2em">漢明帝時，<cit><bibl>〈四十二章經序〉說</bibl><quote>「起立塔寺」</quote></cit>，<cit><bibl><title level="m">《牟子理惑論》</title>說</bibl><quote source="T52n2102_p0005a04-05" type="嚴謹引文">「於洛陽城
 <lb n="0350a08" ed="Y"/>西雍門外起佛<lb n="0354a07" ed="Y" type="old"/>寺」</quote><note n="0350001" resp="周怡曄" type="add">《弘明集》卷1(CBETA, T52, no. 2102, p. 5, a4-5)</note></cit>，<cit><bibl><title level="m">《冥祥記》</title>說</bibl><quote>「白馬寺」</quote></cit>：中國的佛寺，從此開始建築。塔
 <lb n="0350a09" ed="Y"/>，是梵語塔婆<lb n="0354a08" ed="Y" type="old"/>的簡稱，原是印度埋骨的建築物（塔是高顯的意思，與中國的墳，
 <lb n="0350a10" ed="Y"/>意義一樣）。<lb n="0354a09" ed="Y" type="old"/>佛涅槃後，供養佛舍利（骨）的，稱為佛塔或舍利塔。後來，供養
@@ -230,7 +250,7 @@
 <lb n="0351a09" ed="Y"/>晉竺法護的譯經<lb n="0355a08" ed="Y" type="old"/>記中，也曾說到<quote>「洛陽城西白馬寺」</quote>、<quote>「洛陽白馬寺」</quote>。這些記錄
 <lb n="0351a10" ed="Y"/>，與<title level="m">《牟子理惑論》</title><lb n="0355a09" ed="Y" type="old"/>所說的完全相合。漢明帝時初建的，是洛陽西門外的白馬寺
 <lb n="0351a11" ed="Y"/>，應該是確實可信的<lb n="0355a10" ed="Y" type="old"/>。</p>
-<lb n="0351a12" ed="Y"/><lb n="0355a11" ed="Y" type="old"/><p style="text-indent:2em">從上來的考察，漢明帝夢見金人、遣使求法的故事，大致是這樣的：明帝永
+<lb n="0351a12" ed="Y"/><lb n="0355a11" ed="Y" type="old"/><p xml:id="pY22p0351a1201" style="text-indent:2em">從上來的考察，漢明帝夢見金人、遣使求法的故事，大致是這樣的：明帝永
 <lb n="0351a13" ed="Y"/><lb n="0355a12" ed="Y" type="old"/>平十一年，廬江郡太守獻上漅湖所發見的金象——金人。這是一件難得的祥瑞！
 <pb n="0352a" ed="Y" xml:id="Y22.0022.0352a"/>
 <lb n="0352a01" ed="Y"/><lb n="0355a13" ed="Y" type="old"/>在朝在野，都歸功於聖天子的明德，歌頌皇漢的太平。明帝心裡非常歡喜，歡喜<pb n="0356a" ed="Y" xml:id="Y22.0022.0356a.old" type="old"/>

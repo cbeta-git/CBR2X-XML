@@ -12,62 +12,82 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版一刷<date>Date: 2013/04</date>新式標點版</edition>
+			<edition>新版一刷<date>Date: 2013/04</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>35卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 41, No. 39</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>35卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">41</idno>.<idno type="no">39</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">平凡的一生（重訂本）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">七　業緣未了死何難</cb:mulu>
-<milestone unit="juan" n="8"/>
+<milestone n="8" unit="juan"/>
 <lb n="0035a06" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">八　我回到了江南</cb:mulu><head>八　我回到了江南</head>
-<lb n="0035a07" ed="Y"/><p style="text-indent:2em">抗戰勝利了，舉國歡騰，我也該回去了！但是，不要說飛機，就是沿長江而
+<lb n="0035a07" ed="Y"/><p xml:id="pY41p0035a0701" style="text-indent:2em">抗戰勝利了，舉國歡騰，我也該回去了！但是，不要說飛機，就是沿長江而
 <lb n="0035a08" ed="Y"/>下的輪船，也是票價貴得嚇人，還要有人事關係才行。這不是我們所能的，安心
 <lb n="0035a09" ed="Y"/>的等著吧！三十五年（四十一歲）清明前後，才發現了一條可以回來的路，那就
-<lb n="0035a10" ed="Y"/>是經西北公路到寶<note n="0035a1001" resp="CBETA" type="add" subtype="規範字詞">雞【CB】，鷄【印順】</note><app n="0035a1001"><lem wit="【CB】" resp="CBETA">雞</lem><rdg wit="【印順】">鷄</rdg></app>，再沿隴海路東下。雖然迂迴了一點，但到底是可以通行的
+<lb n="0035a10" ed="Y"/>是經西北公路到寶<note n="0035a1001" resp="CBETA" type="add" subtype="規範字詞">雞【CB】，鷄【印順】</note><app n="0035a1001"><lem resp="CBETA" wit="【CB】">雞</lem><rdg wit="【印順】">鷄</rdg></app>，再沿隴海路東下。雖然迂迴了一點，但到底是可以通行的
 <lb n="0035a11" ed="Y"/>，而且還可以瞻仰隋唐盛世的佛教中心。我與演培、妙欽，他們連皮箱都賣了（
 <lb n="0035a12" ed="Y"/>我是想賣也是沒有可賣的），湊足了旅費，才離開了值得懷念的漢院。從重慶出
 <pb n="0036a" ed="Y" xml:id="Y41.0039.0036a"/>
 <lb n="0036a01" ed="Y"/>發，那時的光宗與了參，在重慶相別，他們正準備去錫蘭深造。</p>
-<lb n="0036a02" ed="Y"/><p style="text-indent:2em">到了西安（古稱「長安」），受康寄遙居士的招待。在佛學社、寄園住了幾
+<lb n="0036a02" ed="Y"/><p xml:id="pY41p0036a0201" style="text-indent:2em">到了西安（古稱「長安」），受康寄遙居士的招待。在佛學社、寄園住了幾
 <lb n="0036a03" ed="Y"/>天，移住城南的大興善寺。這裡，有籌辦巴利三藏院的計劃；一位漢院同學╳悟
 <lb n="0036a04" ed="Y"/>，在這裡主持一個初級佛學院。我們借了一輛牛車，費了一天工夫，才到羅什塔
 <lb n="0036a05" ed="Y"/>去瞻禮。那時的羅什塔，等於一所鄉村小廟，想起逍遙園時代的盛況，都不盡有
-<lb n="0036a06" ed="Y"/>無常之感。我們去瞻仰興教寺，大慈恩寺等古剎。名剎多少還留點遺<note n="0036a0601" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0036a0601"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>，所以西
+<lb n="0036a06" ed="Y"/>無常之感。我們去瞻仰興教寺，大慈恩寺等古剎。名剎多少還留點遺<note n="0036a0601" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0036a0601"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>，所以西
 <lb n="0036a07" ed="Y"/>安一帶，寺多僧少，地大寺小，隋唐佛教的光輝，在這裡已完全消失了！</p>
-<lb n="0036a08" ed="Y"/><p style="text-indent:2em">經洛陽、鄭州，到達開封。鐵塔寺與開封佛學社，都是淨嚴法師主持的。淨
+<lb n="0036a08" ed="Y"/><p xml:id="pY41p0036a0801" style="text-indent:2em">經洛陽、鄭州，到達開封。鐵塔寺與開封佛學社，都是淨嚴法師主持的。淨
 <lb n="0036a09" ed="Y"/>嚴是武院的老學長，從慈舟老法師出家；那時，續明也在這裡。我經過一個多月
 <lb n="0036a10" ed="Y"/>的辛苦，病倒了，只能留下來養病，讓演培與妙欽先回去。我住在佛學社，又上
 <lb n="0036a11" ed="Y"/>了現代佛教的一課。一位憲兵司令（大概是駐鄭州的），有事到開封來，到佛學
@@ -88,12 +108,12 @@
 <lb n="0037a12" ed="Y"/>也從不會恭維他們，免他們陷於輕僧、毀憎，連學佛的基礎——歸依三寶功德都
 <lb n="0037a13" ed="Y"/>不能具足。</p>
 <pb n="0038a" ed="Y" xml:id="Y41.0039.0038a"/>
-<lb n="0038a01" ed="Y"/><p style="text-indent:2em">我準備要東下了。七月十五日，佛學社有法會。下午，忽然時局緊張起來，
+<lb n="0038a01" ed="Y"/><p xml:id="pY41p0038a0101" style="text-indent:2em">我準備要東下了。七月十五日，佛學社有法會。下午，忽然時局緊張起來，
 <lb n="0038a02" ed="Y"/>開封城外也聽到了槍聲。據說：蘭封的鐵路，被八路軍扒了。沿隴海路東下的希
 <lb n="0038a03" ed="Y"/>望沒有了，一切唯有讓因緣來決定。隔一天，淨嚴法師與我到了鄭州；我再從鄭
 <lb n="0038a04" ed="Y"/>州南下到武昌。在鄭州著了涼，在武院咳嗽了一個多月，暫時留了下來。武院的
 <lb n="0038a05" ed="Y"/>房屋，在葦舫的努力下，正在補修恢復。</p>
-<lb n="0038a06" ed="Y"/><p style="text-indent:2em">三十六年（四十二歲）
+<lb n="0038a06" ed="Y"/><p xml:id="pY41p0038a0601" style="text-indent:2em">三十六年（四十二歲）
 <lb n="0038a07" ed="Y"/>正月，我回到了上海，在玉
 <lb n="0038a08" ed="Y"/>佛寺禮見了虛大師。大師那
 <lb n="0038a09" ed="Y"/>時有說不完的不如意事，心
@@ -108,7 +128,7 @@
 <lb n="0039a04" ed="Y"/>緣了！大師的弟子都來了，我被推主編<title level="s">《太虛大師全書》</title>。這是我所能做的，也
 <lb n="0039a05" ed="Y"/>就答應了。與續明、楊星森，在三月裡到了雪竇，受到寺主大醒法師的照顧；全
 <lb n="0039a06" ed="Y"/>書到第二年四月才編集完成。</p>
-<lb n="0039a07" ed="Y"/><p style="text-indent:2em">三十六年與三十七年，我都回過普陀山，那只是為了禮見先師。普陀山一切
+<lb n="0039a07" ed="Y"/><p xml:id="pY41p0039a0701" style="text-indent:2em">三十六年與三十七年，我都回過普陀山，那只是為了禮見先師。普陀山一切
 <lb n="0039a08" ed="Y"/>都變了，閱藏樓也變了，其實京、滬、杭一帶的佛教都變了，變得面目全非。一
 <lb n="0039a09" ed="Y"/>切都變了，有一切無從說起的感覺。三十七年（四十三歲），從普陀回杭州，要
 <lb n="0039a10" ed="Y"/>進行「西湖佛教圖書館」的籌備工作。經過寧波，到延慶寺，恰好見到了錫蘭回

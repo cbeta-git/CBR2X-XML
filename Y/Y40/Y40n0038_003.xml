@@ -12,184 +12,204 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>重版一刷<date>Date: 2011/10</date>新式標點版</edition>
+			<edition>重版一刷<date>Date: 2011/10</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>9卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 40, No. 38</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>9卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">40</idno>.<idno type="no">38</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">中國禪宗史</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB05744">
-	<charName>CBETA CHARACTER CB05744</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[山*完]</value>
-	</charProp>
-	<mapping type="unicode">U+21DD7</mapping>
-	<mapping cb:dec="988784" type="PUA">U+F1670</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB05744">
+				<charName>CBETA CHARACTER CB05744</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[山*完]</value>
+				</charProp>
+				<mapping type="unicode">U+21DD7</mapping>
+				<mapping cb:dec="988784" type="PUA">U+F1670</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第二章　雙峯與東山法門</cb:mulu><cb:mulu level="2" type="其他">第三節　弘忍東山法門</cb:mulu><cb:mulu level="3" type="其他">弘忍的十大弟子</cb:mulu>
-<milestone unit="juan" n="3"/>
+<milestone n="3" unit="juan"/>
 <pb n="0085a" ed="Y" xml:id="Y40.0038.0085a"/>
 <lb n="0085a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">第三章　牛頭宗之興起</cb:mulu><head>第三章　牛頭宗之興起</head>
 <lb n="0085a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　甚麼是南宗</cb:mulu><head>第一節　甚麼是南宗</head>
-<lb n="0085a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">概述</cb:mulu><p style="text-indent:2em">六二〇——六七五年，道信與弘忍，在長江中流黃梅縣的雙峯與東山，努力發揚從天竺東來
+<lb n="0085a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">概述</cb:mulu><p xml:id="pY40p0085a0303" style="text-indent:2em">六二〇——六七五年，道信與弘忍，在長江中流黃梅縣的雙峯與東山，努力發揚從天竺東來
 <lb n="0085a04" ed="Y"/>的達摩禪，非常隆盛，形成當代的禪學中心。那個時候，長江下游的潤州牛頭山，推「東夏之達
 <lb n="0085a05" ed="Y"/>摩」的法融為初祖的禪學——牛頭宗，也迅速發展起來，與東山宗相對立。在中國禪宗的發展過
 <lb n="0085a06" ed="Y"/>程中，牛頭禪的興起，從對立到融合，有極其重要的意義！</p></cb:div>
-<lb n="0085a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">「南宗」的意義</cb:mulu><head>「南宗」的意義</head><p style="text-indent:2em">說明東山與牛頭的二宗對立，想從禪宗被稱為「南宗」說起。南宗是什麼
+<lb n="0085a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">「南宗」的意義</cb:mulu><head>「南宗」的意義</head><p xml:id="pY40p0085a0711" style="text-indent:2em">說明東山與牛頭的二宗對立，想從禪宗被稱為「南宗」說起。南宗是什麼
 <lb n="0085a08" ed="Y"/>意義？為什麼後來稱禪宗為南宗呢？據<title level="m">《壇經》</title><note place="inline">大正<ref target="#vol:48;page:p342a" type="taisho">四八．三四二上</ref>——中</note>說：</p>
-<lb n="0085a09" ed="Y"/><quote><p style="margin-left:3em">「世人盡傳南宗能，北（宗）秀，未知根本事由。且秀禪師於南荊府當陽縣玉泉寺住時修
+<lb n="0085a09" ed="Y"/><quote><p xml:id="pY40p0085a0901" style="margin-left:3em">「世人盡傳南宗能，北（宗）秀，未知根本事由。且秀禪師於南荊府當陽縣玉泉寺住時修
 <lb n="0085a10" ed="Y"/>行，慧能大師於韶州城東三十五里曹溪山住。法即一宗，人有南北，因此便立南北」。</p></quote>
-<lb n="0085a11" ed="Y"/><p style="text-indent:2em">這是說，因「南能北秀」的分頭弘化，才有南宗與北宗的名稱。這一解說，從南宗與北宗的
+<lb n="0085a11" ed="Y"/><p xml:id="pY40p0085a1101" style="text-indent:2em">這是說，因「南能北秀」的分頭弘化，才有南宗與北宗的名稱。這一解說，從南宗與北宗的
 <lb n="0085a12" ed="Y"/>對抗來說，當然是有事實根據的。如神會（七三二）在滑臺召開大會，<quote>「為天下學道者定其是非
 <pb n="0086a" ed="Y" xml:id="Y40.0038.0086a"/>
-<lb n="0086a01" ed="Y"/>」</quote>時<note place="inline"><bibl><title level="m">《神會集》</title><biblScope type="pp" n="288">二八八</biblScope></bibl></note>說：</p>
-<lb n="0086a02" ed="Y"/><quote><p style="margin-left:3em">「天下學道者，號此二大師為南能北秀，天下知聞。因此號，遂有南北兩宗」。</p></quote>
-<lb n="0086a03" ed="Y"/><p style="text-indent:2em">然在「南能北秀」以前，「南宗」實早已存在。那「南宗」是什麼呢？一、南印度傳來的宗
-<lb n="0086a04" ed="Y"/>旨：如<title level="m">《南宗定是非論》</title><note place="inline"><bibl><title level="m">《神會集》</title><biblScope type="pp" n="288">二八八</biblScope></bibl></note>說：</p>
-<lb n="0086a05" ed="Y"/><quote><p style="margin-left:3em">「何故不許普寂禪師稱為南宗？……普寂禪師實是玉泉學徒，實不到韶州，今口妄稱南宗
+<lb n="0086a01" ed="Y"/>」</quote>時<note place="inline"><bibl><title level="m">《神會集》</title><biblScope n="288" type="pp">二八八</biblScope></bibl></note>說：</p>
+<lb n="0086a02" ed="Y"/><quote><p xml:id="pY40p0086a0201" style="margin-left:3em">「天下學道者，號此二大師為南能北秀，天下知聞。因此號，遂有南北兩宗」。</p></quote>
+<lb n="0086a03" ed="Y"/><p xml:id="pY40p0086a0301" style="text-indent:2em">然在「南能北秀」以前，「南宗」實早已存在。那「南宗」是什麼呢？一、南印度傳來的宗
+<lb n="0086a04" ed="Y"/>旨：如<title level="m">《南宗定是非論》</title><note place="inline"><bibl><title level="m">《神會集》</title><biblScope n="288" type="pp">二八八</biblScope></bibl></note>說：</p>
+<lb n="0086a05" ed="Y"/><quote><p xml:id="pY40p0086a0501" style="margin-left:3em">「何故不許普寂禪師稱為南宗？……普寂禪師實是玉泉學徒，實不到韶州，今口妄稱南宗
 <lb n="0086a06" ed="Y"/>，所以不許」。</p></quote>
-<lb n="0086a07" ed="Y"/><p style="text-indent:2em">普寂是神秀弟子，自稱為南宗，可見「南宗」一詞，本與南能北秀無關。<title level="m">《菩提達摩南宗定
+<lb n="0086a07" ed="Y"/><p xml:id="pY40p0086a0701" style="text-indent:2em">普寂是神秀弟子，自稱為南宗，可見「南宗」一詞，本與南能北秀無關。<title level="m">《菩提達摩南宗定
 <lb n="0086a08" ed="Y"/>是非論》</title>，這一論名，不正是說明了菩提達摩所傳，就是南宗嗎！所以神會以慧能所傳為南宗，
 <lb n="0086a09" ed="Y"/>只是以當時地理上的對立，以慧能為南宗正統，這才相對的稱神秀一系為北宗。神秀系本來也是
 <lb n="0086a10" ed="Y"/>南宗，但在南能北秀的對立下，也就漸漸的被公認為北宗了。</p>
-<lb n="0086a11" ed="Y"/><p style="text-indent:2em">淨覺<title level="m">《注般若波羅<note n="0086a1101" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0086a1101"><lem wit="【CB】" resp="正聞出版社">蜜</lem><rdg wit="【印順】">密</rdg></app>多心經》</title>，<title level="a">〈皇四從伯中散大夫行金州長史李知非略序〉</title>（約開元十五
+<lb n="0086a11" ed="Y"/><p xml:id="pY40p0086a1101" style="text-indent:2em">淨覺<title level="m">《注般若波羅<note n="0086a1101" resp="CBETA" type="add">蜜【CB】，密【印順】</note><app n="0086a1101"><lem resp="正聞出版社" wit="【CB】">蜜</lem><rdg wit="【印順】">密</rdg></app>多心經》</title>，<title level="a">〈皇四從伯中散大夫行金州長史李知非略序〉</title>（約開元十五
 <lb n="0086a12" ed="Y"/>年——七二七作）說：</p>
-<lb n="0086a13" ed="Y"/><quote><p style="margin-left:3em">「古禪訓曰：宋太祖之時，求那跋陀羅三藏禪師，以楞伽傳燈。起自南天竺國，名曰南宗
+<lb n="0086a13" ed="Y"/><quote><p xml:id="pY40p0086a1301" style="margin-left:3em">「古禪訓曰：宋太祖之時，求那跋陀羅三藏禪師，以楞伽傳燈。起自南天竺國，名曰南宗
 <lb n="0086a14" ed="Y"/>。次傳菩提達摩禪師，次傳可禪師……」。</p></quote>
-<lb n="0086a15" ed="Y"/><p style="text-indent:2em">四卷<title level="m">《楞伽經》</title>，起自南天竺國，所以名為南宗。「南天竺一乘宗」——「南宗」，是楞伽
+<lb n="0086a15" ed="Y"/><p xml:id="pY40p0086a1501" style="text-indent:2em">四卷<title level="m">《楞伽經》</title>，起自南天竺國，所以名為南宗。「南天竺一乘宗」——「南宗」，是楞伽
 <pb n="0087a" ed="Y" xml:id="Y40.0038.0087a"/>
 <lb n="0087a01" ed="Y"/>禪學，如<bibl><title level="m">《續僧傳》</title><biblScope n="25" type="卷">卷二五</biblScope><title level="a">〈法沖傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p666b" type="taisho">五〇．六六六中</ref></note>說：</p>
-<lb n="0087a02" ed="Y"/><quote><p style="margin-left:3em">「又遇可師親傳授者，依南天竺一乘宗講之，又得百遍。其經本是宋代求那跋陀羅三藏翻
+<lb n="0087a02" ed="Y"/><quote><p xml:id="pY40p0087a0201" style="margin-left:3em">「又遇可師親傳授者，依南天竺一乘宗講之，又得百遍。其經本是宋代求那跋陀羅三藏翻
 <lb n="0087a03" ed="Y"/>。……達摩禪師傳之南北，忘言忘念，無得正觀為宗」。</p></quote>
-<lb n="0087a04" ed="Y"/><p style="text-indent:2em">依此可見，求那跋陀羅譯<title level="m">《楞伽經》</title>四卷，菩提達摩傳於南北。這一楞伽中心的傳承法統，
+<lb n="0087a04" ed="Y"/><p xml:id="pY40p0087a0401" style="text-indent:2em">依此可見，求那跋陀羅譯<title level="m">《楞伽經》</title>四卷，菩提達摩傳於南北。這一楞伽中心的傳承法統，
 <lb n="0087a05" ed="Y"/>是<title level="m">《楞伽人法志》</title>，<title level="m">《楞伽師資記》</title>所說，而實是本於「古禪訓」的。<cit><bibl><title level="m">《楞伽師資記》</title>說：</bibl><quote>「菩
 <lb n="0087a06" ed="Y"/>提（達摩）師又為坐禪眾，釋楞伽要義一卷，有十二三紙。……文理圓淨，天下流通」</quote></cit><note place="inline">大正<ref target="#vol:85;page:p1285b" type="taisho">八五．
 <lb n="0087a07" ed="Y"/>一二八五中</ref></note>。所以菩提達摩以四卷<title level="m">《楞伽》</title>印心，傳出的禪法，是被稱為「南天竺一乘宗」或「
 <lb n="0087a08" ed="Y"/>南宗」的。</p>
-<lb n="0087a09" ed="Y"/><p style="text-indent:2em">此外，南印度傳來的<title level="m">《般若經》</title>論，也是被稱為「南宗」的，如<bibl><title level="m">《貞元新定釋教目錄》</title><biblScope n="14" type="卷">卷一
+<lb n="0087a09" ed="Y"/><p xml:id="pY40p0087a0901" style="text-indent:2em">此外，南印度傳來的<title level="m">《般若經》</title>論，也是被稱為「南宗」的，如<bibl><title level="m">《貞元新定釋教目錄》</title><biblScope n="14" type="卷">卷一
 <lb n="0087a10" ed="Y"/>四</biblScope></bibl>，呂向撰（七四三）<title level="a">〈跋日羅菩提（金剛智）傳〉</title><note place="inline">大正<ref target="#vol:55;page:p875b" type="taisho">五五．八七五中</ref></note>說：</p>
-<lb n="0087a11" ed="Y"/><quote><p style="margin-left:3em">「年二十，受具戒。六年學大小乘律，又學南宗般若燈論、百論、十二門論」。</p></quote>
-<lb n="0087a12" ed="Y"/><p style="text-indent:2em">金剛智在印度時，學「南宗」三論（<title level="m">《般若燈論》</title>是<title level="m">《中論》</title>注釋的一種）。<bibl><title level="m">《宋僧傳》</title><biblScope type="卷" n="8">卷
+<lb n="0087a11" ed="Y"/><quote><p xml:id="pY40p0087a1101" style="margin-left:3em">「年二十，受具戒。六年學大小乘律，又學南宗般若燈論、百論、十二門論」。</p></quote>
+<lb n="0087a12" ed="Y"/><p xml:id="pY40p0087a1201" style="text-indent:2em">金剛智在印度時，學「南宗」三論（<title level="m">《般若燈論》</title>是<title level="m">《中論》</title>注釋的一種）。<bibl><title level="m">《宋僧傳》</title><biblScope n="8" type="卷">卷
 <lb n="0087a13" ed="Y"/>八</biblScope></bibl>，從神秀學習禪法的巨方與降魔藏，起初都曾「講南宗論」<note place="inline">大正<ref target="#vol:50;page:p759b" type="taisho">五〇．七五九中</ref>、<ref target="#vol:50;page:p760a" type="taisho">七六〇上</ref></note>。三論
 <lb n="0087a14" ed="Y"/>，在印度與中國，都被稱為「南宗論」，也與南印度有關。龍樹是南印度憍薩羅國人，提婆是師
 <lb n="0087a15" ed="Y"/>子國（今錫蘭）人。六七世紀時，傳承龍樹學的佛護，是南印度怛婆羅人；清辯是南印度摩羅耶
 <pb n="0088a" ed="Y" xml:id="Y40.0038.0088a"/>
 <lb n="0088a01" ed="Y"/>人；月稱是南印度薩曼多人（這三位都有<title level="m">《中論》</title>的注釋）。般若宗義的傳揚者，幾乎都是南印
 <lb n="0088a02" ed="Y"/>度人，這是三論（般若學）被稱為「南宗論」的理由！</p>
-<lb n="0088a03" ed="Y"/><p style="text-indent:2em">二、中國南方的佛學：中國從東晉以來（三一七——五八八），政治上南北對立了二百七十
-<lb n="0088a04" ed="Y"/>一年。在政局的長期對立中，佛教也形成南方、北方的種種差別，例如<bibl><title level="m">《高僧傳》</title><biblScope type="卷" n="8">卷八</biblScope><title level="a">〈僧宗傳
+<lb n="0088a03" ed="Y"/><p xml:id="pY40p0088a0301" style="text-indent:2em">二、中國南方的佛學：中國從東晉以來（三一七——五八八），政治上南北對立了二百七十
+<lb n="0088a04" ed="Y"/>一年。在政局的長期對立中，佛教也形成南方、北方的種種差別，例如<bibl><title level="m">《高僧傳》</title><biblScope n="8" type="卷">卷八</biblScope><title level="a">〈僧宗傳
 <lb n="0088a05" ed="Y"/>〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p380a" type="taisho">五〇．三八〇上</ref></note>說：</p>
-<lb n="0088a06" ed="Y"/><quote><p style="margin-left:3em">「北土法師曇准，聞（僧）宗特善涅槃，<note n="0088a0601" resp="CBETA" type="add">迺【CB】，廼【印順】</note><app n="0088a0601"><lem wit="【CB】" resp="正聞出版社">迺<note type="cf1">《高僧傳》卷8(CBETA, T50, no. 2059, p. 380, a3-6)</note></lem><rdg wit="【印順】">廼</rdg></app>南遊觀聽。既南北情異，思不相參，准乃別更
+<lb n="0088a06" ed="Y"/><quote><p xml:id="pY40p0088a0601" style="margin-left:3em">「北土法師曇准，聞（僧）宗特善涅槃，<note n="0088a0601" resp="CBETA" type="add">迺【CB】，廼【印順】</note><app n="0088a0601"><lem resp="正聞出版社" wit="【CB】">迺<note type="cf1">《高僧傳》卷8(CBETA, T50, no. 2059, p. 380, a3-6)</note></lem><rdg wit="【印順】">廼</rdg></app>南遊觀聽。既南北情異，思不相參，准乃別更
 <lb n="0088a07" ed="Y"/>講說，多為北土所師」。<note n="0088001" resp="厚觀法師" type="add">《高僧傳》卷8(CBETA, T50, no. 2059, p. 380, a3-6)</note></p></quote>
-<lb n="0088a08" ed="Y"/><p style="text-indent:2em">同樣的經法，由於思想方式不同而見解不同。從南北朝到隋唐，中國佛教有了南統與北統，
-<lb n="0088a09" ed="Y"/>也就是南宗與北宗的差別。如荊溪的<bibl><title level="m">《法華玄義釋籤》</title><biblScope type="卷" n="19">卷一九</biblScope></bibl><note place="inline">大正<ref target="#vol:33;page:p951a" type="taisho">三三．九五一上</ref></note>說：</p>
-<lb n="0088a10" ed="Y"/><quote><p style="margin-left:3em">「南謂南朝，即京江之南；北謂北朝，河北也。……南宗初弘成實，後尚三論。近代相傳
+<lb n="0088a08" ed="Y"/><p xml:id="pY40p0088a0801" style="text-indent:2em">同樣的經法，由於思想方式不同而見解不同。從南北朝到隋唐，中國佛教有了南統與北統，
+<lb n="0088a09" ed="Y"/>也就是南宗與北宗的差別。如荊溪的<bibl><title level="m">《法華玄義釋籤》</title><biblScope n="19" type="卷">卷一九</biblScope></bibl><note place="inline">大正<ref target="#vol:33;page:p951a" type="taisho">三三．九五一上</ref></note>說：</p>
+<lb n="0088a10" ed="Y"/><quote><p xml:id="pY40p0088a1001" style="margin-left:3em">「南謂南朝，即京江之南；北謂北朝，河北也。……南宗初弘成實，後尚三論。近代相傳
 <lb n="0088a11" ed="Y"/>，以天臺義指為南宗者非也。……今時言北宗者，謂俱舍、唯識。南方近代，亦無偏弘。
 <lb n="0088a12" ed="Y"/>其中諸師所用義意，若憑三論，則應判為南宗」。</p></quote>
-<lb n="0088a13" ed="Y"/><p style="text-indent:2em">荊溪湛然，是七一一——七八二時人。這是以南北朝的佛學，分為南宗與北宗。湛然以天臺
+<lb n="0088a13" ed="Y"/><p xml:id="pY40p0088a1301" style="text-indent:2em">荊溪湛然，是七一一——七八二時人。這是以南北朝的佛學，分為南宗與北宗。湛然以天臺
 <lb n="0088a14" ed="Y"/>為不屬於南北，但神清（八一〇前後卒）<title level="m">《北山錄》</title><note place="inline">大正<ref target="#vol:52;page:p581a" type="taisho">五二．五八一上</ref></note>說：</p>
-<lb n="0088a15" ed="Y"/><quote><p style="margin-left:3em">「南宗焉，以空假中為三觀。北宗焉，以遍計依他圓成為三性也。而華嚴以體性、德相、
+<lb n="0088a15" ed="Y"/><quote><p xml:id="pY40p0088a1501" style="margin-left:3em">「南宗焉，以空假中為三觀。北宗焉，以遍計依他圓成為三性也。而華嚴以體性、德相、
 <pb n="0089a" ed="Y" xml:id="Y40.0038.0089a"/>
 <lb n="0089a01" ed="Y"/>業用，範圍三界，得其門，統於南北，其猶指乎諸掌矣」！</p></quote>
-<lb n="0089a02" ed="Y"/><p style="text-indent:2em">神清是淨眾宗學者而贊同華嚴宗的。依他說，天臺三觀還是南宗，賢首宗才是南宗北宗的統
+<lb n="0089a02" ed="Y"/><p xml:id="pY40p0089a0201" style="text-indent:2em">神清是淨眾宗學者而贊同華嚴宗的。依他說，天臺三觀還是南宗，賢首宗才是南宗北宗的統
 <lb n="0089a03" ed="Y"/>一者。以南土的為南宗，北土的為北宗（唐代的統一者，不屬南北），純屬中國的區域文化，有
 <lb n="0089a04" ed="Y"/>他的相當意義。禪宗的所以稱為「南宗」，有遠源於南印度的特殊意義。在楞伽禪的傳承中，道
 <lb n="0089a05" ed="Y"/>信統一了<title level="m">《楞伽》</title>與<title level="m">《般若》</title>，傳布於中國南方——長江流域及嶺南，而更富有中國「南宗」的
 <lb n="0089a06" ed="Y"/>特性。東山門下的慧能，慧能門下的洪州、石頭，更發揚了「南宗」的特色，也就取得了「南宗
 <lb n="0089a07" ed="Y"/>」正統的地位。</p></cb:div>
-<lb n="0089a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">南宗與南中國精神</cb:mulu><head>南宗與南中國精神</head><p style="text-indent:2em">中華民族文化，含有不同的兩大傾向（其實，到處都有，而又互相關涉
-<lb n="0089a09" ed="Y"/>，這<note n="0089a0901" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0089a0901"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>就其特重來說），在南北文化中表現出來。古代的儒墨與老莊，就代表了這兩大傾向。老
+<lb n="0089a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">南宗與南中國精神</cb:mulu><head>南宗與南中國精神</head><p xml:id="pY40p0089a0817" style="text-indent:2em">中華民族文化，含有不同的兩大傾向（其實，到處都有，而又互相關涉
+<lb n="0089a09" ed="Y"/>，這<note n="0089a0901" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0089a0901"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>就其特重來說），在南北文化中表現出來。古代的儒墨與老莊，就代表了這兩大傾向。老
 <lb n="0089a10" ed="Y"/>子是楚國苦縣人，莊子是宋國蒙縣人，在當時的中華民族文化中，屬於南方。中華文化不斷的擴
 <lb n="0089a11" ed="Y"/>大，於是江淮、江東、閩粵，都逐漸顯示了這一文化的特性（因地、因時，也不會完全相同）。
 <lb n="0089a12" ed="Y"/>代表南中國文化的特性是什麼？大概的說，面對現實的，人為的，繁瑣的，局限的世界，傾向於
 <lb n="0089a13" ed="Y"/>理想的，自然的，簡易的，無限的；這不妨稱之為超越的傾向。江南的佛教，尤其是發展於南方
 <lb n="0089a14" ed="Y"/>的「南宗」禪，更富於這種色彩。</p>
-<lb n="0089a15" ed="Y"/><p style="text-indent:2em">人類是社會的，有制度，有禮法，有習俗。有些會使你感到拘束，或覺得不合時宜而想擺脫
+<lb n="0089a15" ed="Y"/><p xml:id="pY40p0089a1501" style="text-indent:2em">人類是社會的，有制度，有禮法，有習俗。有些會使你感到拘束，或覺得不合時宜而想擺脫
 <pb n="0090a" ed="Y" xml:id="Y40.0038.0090a"/>
 <lb n="0090a01" ed="Y"/>他。佛教從印度來，有嚴密的僧團制度，有種種習慣。竺道生對這些制度、習慣，就顯出不受拘
 <lb n="0090a02" ed="Y"/>束的精神。<bibl><title level="m">《高僧傳》</title><biblScope n="7" type="卷">卷七</biblScope><title level="a">〈竺道生傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p366c" type="taisho">五〇．三六六下</ref></note>說：</p>
-<lb n="0090a03" ed="Y"/><quote><p style="margin-left:3em">「（宋）太祖設會，帝親同眾御<note n="0090a0301" resp="CBETA" type="add">于【CB】，於【印順】</note><app n="0090a0301"><lem wit="【CB】" resp="正聞出版社">于<note type="cf1">《高僧傳》卷7(CBETA, T50, no. 2059, p. 366, c8-11)</note></lem><rdg wit="【印順】">於</rdg></app>地筵。下食良久，眾咸疑日晚。帝曰：始可中耳。生曰
-<lb n="0090a04" ed="Y"/>：白日麗天，天言始中，何得非中！遂取鉢便食，<note n="0090a0401" resp="CBETA" type="add">於是【CB】，［－］【印順】</note><app n="0090a0401"><lem wit="【CB】" resp="正聞出版社">於是</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>一眾從之」。<note n="0090001" resp="厚觀法師" type="add">《高僧傳》卷7(CBETA, T50, no. 2059, p. 366, c8-11)</note></p></quote>
-<lb n="0090a05" ed="Y"/><p style="text-indent:2em">「中食」——過午不食，印度所傳的僧制，是嚴格奉行的。道生不重視這種制度，這才運用
-<lb n="0090a06" ed="Y"/>時機，善巧的破壞了這一制度。還有，印度僧眾<note n="0090a0601" resp="CBETA" type="add" subtype="規範字詞">吃【CB】，喫【印順】</note><app n="0090a0601"><lem wit="【CB】" resp="CBETA">吃</lem><rdg wit="【印順】">喫</rdg></app>飯時，是踞坐——企坐的。當時祇洹寺僧，有
+<lb n="0090a03" ed="Y"/><quote><p xml:id="pY40p0090a0301" style="margin-left:3em">「（宋）太祖設會，帝親同眾御<note n="0090a0301" resp="CBETA" type="add">于【CB】，於【印順】</note><app n="0090a0301"><lem resp="正聞出版社" wit="【CB】">于<note type="cf1">《高僧傳》卷7(CBETA, T50, no. 2059, p. 366, c8-11)</note></lem><rdg wit="【印順】">於</rdg></app>地筵。下食良久，眾咸疑日晚。帝曰：始可中耳。生曰
+<lb n="0090a04" ed="Y"/>：白日麗天，天言始中，何得非中！遂取鉢便食，<note n="0090a0401" resp="CBETA" type="add">於是【CB】，［－］【印順】</note><app n="0090a0401"><lem resp="正聞出版社" wit="【CB】">於是</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>一眾從之」。<note n="0090001" resp="厚觀法師" type="add">《高僧傳》卷7(CBETA, T50, no. 2059, p. 366, c8-11)</note></p></quote>
+<lb n="0090a05" ed="Y"/><p xml:id="pY40p0090a0501" style="text-indent:2em">「中食」——過午不食，印度所傳的僧制，是嚴格奉行的。道生不重視這種制度，這才運用
+<lb n="0090a06" ed="Y"/>時機，善巧的破壞了這一制度。還有，印度僧眾<note n="0090a0601" resp="CBETA" type="add" subtype="規範字詞">吃【CB】，喫【印順】</note><app n="0090a0601"><lem resp="CBETA" wit="【CB】">吃</lem><rdg wit="【印順】">喫</rdg></app>飯時，是踞坐——企坐的。當時祇洹寺僧，有
 <lb n="0090a07" ed="Y"/>的踞坐，也有中國式的「方坐」。范伯倫等希望全部中國化，一律方坐。對於這一問題，<cit><bibl><title level="m">《弘明
 <lb n="0090a08" ed="Y"/>集》</title><biblScope n="12" type="卷">卷一二</biblScope>說：</bibl><quote>「慧嚴、道生，本自不企」</quote></cit><note place="inline">大正<ref target="#vol:52;page:p78c" type="taisho">五二．七八下</ref></note>，也就從來是方坐的。這種不受舊制
 <lb n="0090a09" ed="Y"/>的拘束，務求適宜的精神，正是南方的精神。如是個人主義的，那就表現為蔑棄禮法。佛教有集
 <lb n="0090a10" ed="Y"/>體生活的傳統，可以不受舊制的拘束，卻不能沒有制度，這就成為革新者。禪者近於這一傾向（
 <lb n="0090a11" ed="Y"/>律師都尊重舊制），如<bibl><title level="m">《續僧傳》</title><biblScope n="20" type="卷">卷二〇</biblScope></bibl><note place="inline">大正<ref target="#vol:50;page:p596b" type="taisho">五〇．五九六中</ref></note>說：</p>
-<lb n="0090a12" ed="Y"/><quote><p style="margin-left:3em">「世有定學，妄傳風教。……神用沒於詞令，定相腐於唇吻。排小捨大，獨建一家。攝濟
+<lb n="0090a12" ed="Y"/><quote><p xml:id="pY40p0090a1201" style="margin-left:3em">「世有定學，妄傳風教。……神用沒於詞令，定相腐於唇吻。排小捨大，獨建一家。攝濟
 <lb n="0090a13" ed="Y"/>住持，居然乖僻」。</p></quote>
-<lb n="0090a14" ed="Y"/><p style="text-indent:2em">不合小乘，又不合大乘，自成一套的禪寺制度，在道宣以前，早就存在了。後來百丈別立「
-<lb n="0090a15" ed="Y"/>禪門規式」，自稱<quote>「非局大小乘，<note n="0090a1501" resp="CBETA" type="add">非異【CB】，不離【印順】</note><app n="0090a1501"><lem wit="【CB】" resp="正聞出版社">非異<note type="cf1">《景德傳燈錄》卷6(CBETA, T51, no. 2076, p. 251, a4-5)</note></lem><rdg wit="【印順】">不離</rdg></app>大小乘」<note n="0090002" resp="厚觀法師" type="add">《景德傳燈錄》卷6(CBETA, T51, no. 2076, p. 251, a4-5)</note></quote><note place="inline">大正<ref target="#vol:51;page:p251a" type="taisho">五一．二五一上</ref></note>，自成一套叢林制度。這是表
+<lb n="0090a14" ed="Y"/><p xml:id="pY40p0090a1401" style="text-indent:2em">不合小乘，又不合大乘，自成一套的禪寺制度，在道宣以前，早就存在了。後來百丈別立「
+<lb n="0090a15" ed="Y"/>禪門規式」，自稱<quote>「非局大小乘，<note n="0090a1501" resp="CBETA" type="add">非異【CB】，不離【印順】</note><app n="0090a1501"><lem resp="正聞出版社" wit="【CB】">非異<note type="cf1">《景德傳燈錄》卷6(CBETA, T51, no. 2076, p. 251, a4-5)</note></lem><rdg wit="【印順】">不離</rdg></app>大小乘」<note n="0090002" resp="厚觀法師" type="add">《景德傳燈錄》卷6(CBETA, T51, no. 2076, p. 251, a4-5)</note></quote><note place="inline">大正<ref target="#vol:51;page:p251a" type="taisho">五一．二五一上</ref></note>，自成一套叢林制度。這是表
 <pb n="0091a" ed="Y" xml:id="Y40.0038.0091a"/>
 <lb n="0091a01" ed="Y"/>現於對制度的不受拘束，務求適宜的精神（印度的大眾部，及大乘佛教，都有這種傾向）。</p>
-<lb n="0091a02" ed="Y"/><p style="text-indent:2em">人類社會意見的表達與流傳，主要是語言與文字。在印度，佛與諸大弟子的開示，集成經典
+<lb n="0091a02" ed="Y"/><p xml:id="pY40p0091a0201" style="text-indent:2em">人類社會意見的表達與流傳，主要是語言與文字。在印度，佛與諸大弟子的開示，集成經典
 <lb n="0091a03" ed="Y"/>而流傳翻譯過來。古聖先賢傳來的經文，佛說「依義不依語」。語言與文字，是表義的工具，而
-<lb n="0091a04" ed="Y"/>實義卻不在語文中。（文）「句」，或譯為「<note n="0091a0401" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0091a0401"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>」，正與中國所說筌蹄的「蹄」一樣。這一意義
+<lb n="0091a04" ed="Y"/>實義卻不在語文中。（文）「句」，或譯為「<note n="0091a0401" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0091a0401"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>」，正與中國所說筌蹄的「蹄」一樣。這一意義
 <lb n="0091a05" ed="Y"/>，原是佛法的通義，但在南中國文化的陶冶中，充分的多方面的表達了這一傾向。原則的說，這
 <lb n="0091a06" ed="Y"/>是不拘章句的，不死於句讀、訓詁的（與經師不同），然也有三類不同：一、支遁（三六六卒）
-<lb n="0091a07" ed="Y"/>與道生（四三四卒）為代表的：<bibl><title level="m">《高僧傳》</title><biblScope type="卷" n="4">卷四</biblScope><title level="a">〈支道林傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p348b" type="taisho">五〇．三四八中</ref></note>說：</p>
-<lb n="0091a08" ed="Y"/><quote><p style="margin-left:3em">「每至講肆，善標宗會，而章句或有所遺，時為守文者所陋。謝安聞而善之曰：此九方堙
+<lb n="0091a07" ed="Y"/>與道生（四三四卒）為代表的：<bibl><title level="m">《高僧傳》</title><biblScope n="4" type="卷">卷四</biblScope><title level="a">〈支道林傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p348b" type="taisho">五〇．三四八中</ref></note>說：</p>
+<lb n="0091a08" ed="Y"/><quote><p xml:id="pY40p0091a0801" style="margin-left:3em">「每至講肆，善標宗會，而章句或有所遺，時為守文者所陋。謝安聞而善之曰：此九方堙
 <lb n="0091a09" ed="Y"/>之相馬也，略其玄黃而取其駿逸」。</p></quote>
-<lb n="0091a10" ed="Y"/><p style="text-indent:2em">道生也是這一類的人，如<bibl><title level="m">《高僧傳》</title><biblScope type="卷" n="7">卷七</biblScope><title level="a">〈竺道生傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p366c" type="taisho">五〇．三六六下</ref></note>說：</p>
-<lb n="0091a11" ed="Y"/><quote><p style="margin-left:3em">「生既潛思日久，徹悟言外，<note n="0091a1101" resp="CBETA" type="add">迺【CB】，廼【印順】</note><app n="0091a1101"><lem wit="【CB】" resp="正聞出版社">迺<note type="cf1">《高僧傳》卷7(CBETA, T50, no. 2059, p. 366, c13-21)</note></lem><rdg wit="【印順】">廼</rdg></app>喟然<note n="0091a1102" resp="CBETA" type="add">歎【CB】，嘆【印順】</note><app n="0091a1102"><lem wit="【CB】" resp="正聞出版社">歎</lem><rdg wit="【印順】">嘆</rdg></app>曰：夫象以盡意，得意則象忘；言以詮理，入理則
+<lb n="0091a10" ed="Y"/><p xml:id="pY40p0091a1001" style="text-indent:2em">道生也是這一類的人，如<bibl><title level="m">《高僧傳》</title><biblScope n="7" type="卷">卷七</biblScope><title level="a">〈竺道生傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p366c" type="taisho">五〇．三六六下</ref></note>說：</p>
+<lb n="0091a11" ed="Y"/><quote><p xml:id="pY40p0091a1101" style="margin-left:3em">「生既潛思日久，徹悟言外，<note n="0091a1101" resp="CBETA" type="add">迺【CB】，廼【印順】</note><app n="0091a1101"><lem resp="正聞出版社" wit="【CB】">迺<note type="cf1">《高僧傳》卷7(CBETA, T50, no. 2059, p. 366, c13-21)</note></lem><rdg wit="【印順】">廼</rdg></app>喟然<note n="0091a1102" resp="CBETA" type="add">歎【CB】，嘆【印順】</note><app n="0091a1102"><lem resp="正聞出版社" wit="【CB】">歎</lem><rdg wit="【印順】">嘆</rdg></app>曰：夫象以盡意，得意則象忘；言以詮理，入理則
 <lb n="0091a12" ed="Y"/>言息。自經典東流，譯人重阻，多守滯文，鮮見圓義。若忘筌取魚，始可與言道矣！……
 <lb n="0091a13" ed="Y"/>守文之徒，多生嫌嫉，與奪之聲，紛然競起」。<note n="0091001" resp="厚觀法師" type="add">《高僧傳》卷7：「生既潛思日久徹悟言外。迺喟然歎曰。夫象以盡意。得意則象忘。言以詮理。入理則言息。自經典東流譯人重阻。多守滯文鮮見圓義。若忘筌取魚始可與言道矣。於是校閱真俗研思因果。迺[22]立善不受報頓悟成佛。又著二諦論佛性當有論法身無色論佛無淨土論應有緣論等。籠罩舊說妙有淵旨。而守文之徒多生嫌嫉。與奪之聲紛然競起」(CBETA, T50, no. 2059, p. 366, c13-21)[22]立＝言【宋】【元】【明】。</note></p></quote>
-<lb n="0091a14" ed="Y"/><p style="text-indent:2em">支遁與竺道生，都是不拘章句的，領會言外之意，所以能發明新義。他們的風格，與當時的
+<lb n="0091a14" ed="Y"/><p xml:id="pY40p0091a1401" style="text-indent:2em">支遁與竺道生，都是不拘章句的，領會言外之意，所以能發明新義。他們的風格，與當時的
 <lb n="0091a15" ed="Y"/>「清談」者相近。立言重清新，重雋永，如拿畫家來說，這是「寫意」的一流。</p>
 <pb n="0092a" ed="Y" xml:id="Y40.0038.0092a"/>
-<lb n="0092a01" ed="Y"/><p style="text-indent:2em">二、三論家（天臺家）為代表：三論是般若學，不滯文句而意在實義，是當然的事。自從遼
+<lb n="0092a01" ed="Y"/><p xml:id="pY40p0092a0101" style="text-indent:2em">二、三論家（天臺家）為代表：三論是般若學，不滯文句而意在實義，是當然的事。自從遼
 <lb n="0092a02" ed="Y"/>東朗大師南來，在江南新園地上，迅速的發達起來，成為陳（隋及唐初）代的顯學。三論家對經
 <lb n="0092a03" ed="Y"/>教文句的見解，如<bibl><title level="m">《中觀論疏》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:42;page:p7c" type="taisho">四二．七下</ref>、<ref target="#vol:42;page:p10c" type="taisho">一〇下</ref></note>說：</p>
-<lb n="0092a04" ed="Y"/><p style="margin-left:3em">（興皇朗）<quote>「師云：夫適化無方，陶誘非一。考聖心以息病為主，緣教意以開道為宗。若
+<lb n="0092a04" ed="Y"/><p xml:id="pY40p0092a0401" style="margin-left:3em">（興皇朗）<quote>「師云：夫適化無方，陶誘非一。考聖心以息病為主，緣教意以開道為宗。若
 <lb n="0092a05" ed="Y"/>因開以受悟，即聖教為之開。由合而受道，則聖教為之合。如其兩曉，並為甘露。必也雙
 <lb n="0092a06" ed="Y"/>迷，俱成毒藥。豈可偏守一途以壅多門者哉」</quote>！</p>
-<lb n="0092a07" ed="Y"/><quote><p style="margin-left:3em">「自攝嶺、興皇，隨經傍論，破病顯道，釋此八不，變文易體，方言甚多」。</p></quote>
-<lb n="0092a08" ed="Y"/><p style="text-indent:2em">又卷二<note place="inline">大正<ref target="#vol:42;page:p27c" type="taisho">四二．二七下</ref>、<ref target="#vol:42;page:p32a" type="taisho">三二上</ref></note>說：</p>
-<lb n="0092a09" ed="Y"/><quote><p style="margin-left:3em">「人未學三論，已懷數論之解，今聽三論，又作解以安於心。既同安於心，即俱是有所得
+<lb n="0092a07" ed="Y"/><quote><p xml:id="pY40p0092a0701" style="margin-left:3em">「自攝嶺、興皇，隨經傍論，破病顯道，釋此八不，變文易體，方言甚多」。</p></quote>
+<lb n="0092a08" ed="Y"/><p xml:id="pY40p0092a0801" style="text-indent:2em">又卷二<note place="inline">大正<ref target="#vol:42;page:p27c" type="taisho">四二．二七下</ref>、<ref target="#vol:42;page:p32a" type="taisho">三二上</ref></note>說：</p>
+<lb n="0092a09" ed="Y"/><quote><p xml:id="pY40p0092a0901" style="margin-left:3em">「人未學三論，已懷數論之解，今聽三論，又作解以安於心。既同安於心，即俱是有所得
 <lb n="0092a10" ed="Y"/>，與舊何異？又過甚他人，所以然者，昔既得數論舊解，今復得三論新智，即更加一見。
 <lb n="0092a11" ed="Y"/>師云：此是足載耳！可謂學彌廣，倒彌多！而經論意在息心達本源，故號為沙門；又息之
 <lb n="0092a12" ed="Y"/>以至於無息矣」！</p></quote>
-<lb n="0092a13" ed="Y"/><quote><p style="margin-left:3em">「云何一向作無所得觀耶？答：考尋聖人興世，諸所施為，為顯中道，令因中發觀，滅諸
+<lb n="0092a13" ed="Y"/><quote><p xml:id="pY40p0092a1301" style="margin-left:3em">「云何一向作無所得觀耶？答：考尋聖人興世，諸所施為，為顯中道，令因中發觀，滅諸
 <lb n="0092a14" ed="Y"/>煩惱。若存著語言，傷佛意也。又百年之壽，朝露非奢，宜以存道為急。而乃急其所緩，
 <lb n="0092a15" ed="Y"/>緩其所急，豈非一形之自誤耶」？</p></quote>
 <pb n="0093a" ed="Y" xml:id="Y40.0038.0093a"/>
-<lb n="0093a01" ed="Y"/><p style="text-indent:2em">三論宗以為，佛說一切法門，是適應不同的根機。根機不同，所以不能固執一邊。因此，自
+<lb n="0093a01" ed="Y"/><p xml:id="pY40p0093a0101" style="text-indent:2em">三論宗以為，佛說一切法門，是適應不同的根機。根機不同，所以不能固執一邊。因此，自
 <lb n="0093a02" ed="Y"/>己說法或解說經論，也就沒有固定形式。<quote>「變文易體，方言甚多」</quote>，就是這個意思。佛說法的真
 <lb n="0093a03" ed="Y"/>意義，存在於眾生的關係上——眾生能因之而息病開（顯中）道；否則，甘露也等於毒藥（譬喻
 <lb n="0093a04" ed="Y"/>，出於<title level="m">《大般涅槃經》</title>），也就不成為佛法了。即使是修學三論，如不能息病顯道，也只是心中
@@ -200,28 +220,28 @@
 <lb n="0093a09" ed="Y"/>天臺宗（有北學的成分）更有建設性，窺透了一切佛法應機的淺深，從義理上，修法上，……，
 <lb n="0093a10" ed="Y"/>條理成嚴密的教判（法的分類）。然而嚴密的教觀，並不拘滯，還是靈活的，圓通的。通一切經
 <lb n="0093a11" ed="Y"/>法而不著，天臺與三論——成長於江東的佛法，是這樣靈活的處理了一切言教。</p>
-<lb n="0093a12" ed="Y"/><p style="text-indent:2em">三、慧可與法沖為代表的：菩提達摩傳於慧可，慧可有印度「南宗」的特色，如<bibl><title level="m">《續僧傳》</title>
-<lb n="0093a13" ed="Y"/><biblScope type="卷" n="16">卷十六</biblScope><title level="a">〈僧可傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p552a" type="taisho">五〇．五五二上</ref></note>說：</p>
-<lb n="0093a14" ed="Y"/><quote><p style="margin-left:3em">「可乃奮其奇辯，呈其心要。故得言滿天下，意非建立；玄籍遐覽，未始經心。……滯文
+<lb n="0093a12" ed="Y"/><p xml:id="pY40p0093a1201" style="text-indent:2em">三、慧可與法沖為代表的：菩提達摩傳於慧可，慧可有印度「南宗」的特色，如<bibl><title level="m">《續僧傳》</title>
+<lb n="0093a13" ed="Y"/><biblScope n="16" type="卷">卷十六</biblScope><title level="a">〈僧可傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p552a" type="taisho">五〇．五五二上</ref></note>說：</p>
+<lb n="0093a14" ed="Y"/><quote><p xml:id="pY40p0093a1401" style="margin-left:3em">「可乃奮其奇辯，呈其心要。故得言滿天下，意非建立；玄籍遐覽，未始經心。……滯文
 <lb n="0093a15" ed="Y"/>之徒，是非紛起。」</p></quote>
 <pb n="0094a" ed="Y" xml:id="Y40.0038.0094a"/>
-<lb n="0094a01" ed="Y"/><p style="text-indent:2em"><cit><bibl><title level="a">〈法沖傳〉</title>也說：</bibl><quote>「慧可禪師創得網紐，魏境文學多不齒之」</quote></cit><note place="inline">大正<ref target="#vol:50;page:p666b" type="taisho">五〇．六六六中</ref></note>。「為文學
+<lb n="0094a01" ed="Y"/><p xml:id="pY40p0094a0101" style="text-indent:2em"><cit><bibl><title level="a">〈法沖傳〉</title>也說：</bibl><quote>「慧可禪師創得網紐，魏境文學多不齒之」</quote></cit><note place="inline">大正<ref target="#vol:50;page:p666b" type="taisho">五〇．六六六中</ref></note>。「為文學
 <lb n="0094a02" ed="Y"/>者所不齒」，就是「為守文者所不滿」。禪者不是不說，而是<quote>「言滿天下，意非建立」</quote>。一切言
 <lb n="0094a03" ed="Y"/>說，不是肯定的是什麼，而是應病與藥。<quote>「玄籍遐覽未始經心」</quote>，就是通覽經典，並沒有存在心
-<lb n="0094a04" ed="Y"/><note n="0094a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0094a0401"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>而增添知見。這些原則，都與三論宗相近。但三論宗傾向於教，而成對一切教的善巧說法。慧
+<lb n="0094a04" ed="Y"/><note n="0094a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0094a0401"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>而增添知見。這些原則，都與三論宗相近。但三論宗傾向於教，而成對一切教的善巧說法。慧
 <lb n="0094a05" ed="Y"/>可重於禪悟，所以不重章句而超越章句。自稱「南天竺一乘宗」的法沖，是一位<title level="m">《楞伽經》</title>專家
-<lb n="0094a06" ed="Y"/>，他的講經方式，也近於三論宗，如<bibl><title level="m">《續僧傳》</title><biblScope type="卷" n="25">卷二十五</biblScope><title level="a">〈法沖傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p666b" type="taisho">五〇．六六六中</ref></note>說：</p>
-<lb n="0094a07" ed="Y"/><quote><p style="margin-left:3em">「沖公自從經術，專以楞伽命家，前後敷弘，將二百遍。須便為引，曾未涉文。而通變適
+<lb n="0094a06" ed="Y"/>，他的講經方式，也近於三論宗，如<bibl><title level="m">《續僧傳》</title><biblScope n="25" type="卷">卷二十五</biblScope><title level="a">〈法沖傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p666b" type="taisho">五〇．六六六中</ref></note>說：</p>
+<lb n="0094a07" ed="Y"/><quote><p xml:id="pY40p0094a0701" style="margin-left:3em">「沖公自從經術，專以楞伽命家，前後敷弘，將二百遍。須便為引，曾未涉文。而通變適
 <lb n="0094a08" ed="Y"/>緣，寄勢陶誘，得意如一，隨言便異」。</p></quote>
-<lb n="0094a09" ed="Y"/><p style="text-indent:2em">法沖是多少傾向於講說的楞伽禪者，也是不拘章句的。他本從三論學者慧暠修學，所以風格
+<lb n="0094a09" ed="Y"/><p xml:id="pY40p0094a0901" style="text-indent:2em">法沖是多少傾向於講說的楞伽禪者，也是不拘章句的。他本從三論學者慧暠修學，所以風格
 <lb n="0094a10" ed="Y"/>更近於三論者。</p>
-<lb n="0094a11" ed="Y"/><p style="text-indent:2em">南方的精神，傾向於簡易、樸實（自然）。在魏晉的玄學氣氛下，傾向於簡略，如<bibl><title level="m">《出三藏
-<lb n="0094a12" ed="Y"/>記集》</title><biblScope n="10" type="卷">卷一〇</biblScope><title level="a">〈大智論抄<note n="0094a1201" resp="CBETA" type="add">［－］【CB】，記【印順】</note><app n="0094a1201"><lem wit="【CB】" resp="正聞出版社"><note type="cf1">《出三藏記集》卷10(CBETA, T55, no. 2145, p. 75, b19)</note></lem><rdg wit="【印順】">記</rdg></app>序〉</title></bibl><note place="inline">大正<ref target="#vol:55;page:p76b" type="taisho">五五．七六中</ref></note>說：</p>
-<lb n="0094a13" ed="Y"/><quote><p style="margin-left:3em">「童壽以此（大智度）論深廣，難卒精究。因方言易省，故約本以為百卷。計所遺落，殆
+<lb n="0094a11" ed="Y"/><p xml:id="pY40p0094a1101" style="text-indent:2em">南方的精神，傾向於簡易、樸實（自然）。在魏晉的玄學氣氛下，傾向於簡略，如<bibl><title level="m">《出三藏
+<lb n="0094a12" ed="Y"/>記集》</title><biblScope n="10" type="卷">卷一〇</biblScope><title level="a">〈大智論抄<note n="0094a1201" resp="CBETA" type="add">［－］【CB】，記【印順】</note><app n="0094a1201"><lem resp="正聞出版社" wit="【CB】"><note type="cf1">《出三藏記集》卷10(CBETA, T55, no. 2145, p. 75, b19)</note></lem><rdg wit="【印順】">記</rdg></app>序〉</title></bibl><note place="inline">大正<ref target="#vol:55;page:p76b" type="taisho">五五．七六中</ref></note>說：</p>
+<lb n="0094a13" ed="Y"/><quote><p xml:id="pY40p0094a1301" style="margin-left:3em">「童壽以此（大智度）論深廣，難卒精究。因方言易省，故約本以為百卷。計所遺落，殆
 <lb n="0094a14" ed="Y"/>過參倍。而文藻之士，猶以為繁，咸累於博，罕既其實。……謹與同止諸僧，共別撰以為
 <lb n="0094a15" ed="Y"/>集要，凡二十卷」。</p></quote>
 <pb n="0095a" ed="Y" xml:id="Y40.0038.0095a"/>
-<lb n="0095a01" ed="Y"/><p style="text-indent:2em">童壽譯為一百卷，已經遺失三分之一了。中國學者還嫌他太廣博，慧遠這才要約為二十卷，
+<lb n="0095a01" ed="Y"/><p xml:id="pY40p0095a0101" style="text-indent:2em">童壽譯為一百卷，已經遺失三分之一了。中國學者還嫌他太廣博，慧遠這才要約為二十卷，
 <lb n="0095a02" ed="Y"/>那是不足十分之一了。玄學清談者，大都有好簡易的傾向。然而佛法，一切經律論，正如萬壑朝
 <lb n="0095a03" ed="Y"/>宗那樣的流向中國。支遁、道生的精神，不合時宜，還不能領導佛教。廣譯佛典而分判部類的，
 <lb n="0095a04" ed="Y"/>由慧觀的五時教開始。這一發展，到天臺家而完成。玄學清談，是南方精神而透過貴族與名士的
@@ -229,14 +249,14 @@
 <lb n="0095a06" ed="Y"/>教，也不免沾染這些氣息，玄談有餘，實行不足。到了隋唐統一，江東不再是政治文化中心，貴
 <lb n="0095a07" ed="Y"/>族也消失得差不多了。較樸質而求實際的禪風，才在江東興盛起來——牛頭禪。</p></cb:div></cb:div>
 <lb n="0095a08" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　牛頭宗成立的意義</cb:mulu><head>第二節　牛頭宗成立的意義</head>
-<lb n="0095a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">概述</cb:mulu><p style="text-indent:2em">江東所傳的<title level="m">《文殊般若》</title>，使道信的<title level="m">《楞伽》</title>禪，進入一新的領域。而江東的禪學，以潤州
+<lb n="0095a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">概述</cb:mulu><p xml:id="pY40p0095a0903" style="text-indent:2em">江東所傳的<title level="m">《文殊般若》</title>，使道信的<title level="m">《楞伽》</title>禪，進入一新的領域。而江東的禪學，以潤州
 <lb n="0095a10" ed="Y"/>牛頭山為中心而勃興起來，對於稱為「南宗」的曹溪門下，意義更為重大！</p></cb:div>
-<lb n="0095a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">牛頭六祖的傳承</cb:mulu><head>牛頭六祖的傳承</head><p style="text-indent:2em">牛頭宗的傳承，一向說是：四祖道信付法融，別出牛頭一派。法融為牛頭
+<lb n="0095a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">牛頭六祖的傳承</cb:mulu><head>牛頭六祖的傳承</head><p xml:id="pY40p0095a1115" style="text-indent:2em">牛頭宗的傳承，一向說是：四祖道信付法融，別出牛頭一派。法融為牛頭
 <lb n="0095a12" ed="Y"/>初祖，以下是智巖、慧方、法持、智威、慧忠。經近代的研究，對道信與法融，法融與智巖，智
 <lb n="0095a13" ed="Y"/>嚴與慧方，是否有師資授受的關係，是很有問題的。一般以為法持從弘忍修學，開始與達摩禪發
 <lb n="0095a14" ed="Y"/>生關係，其實也還值得研究。</p>
 <pb n="0096a" ed="Y" xml:id="Y40.0038.0096a"/>
-<lb n="0096a01" ed="Y"/><p style="text-indent:2em">一、牛頭初祖法融（或作「慧融」）：道宣<bibl><title level="m">《續僧傳》</title><biblScope n="20" type="卷">卷二〇</biblScope>（附編）<title level="a">〈法融傳〉</title></bibl>，採錄當
+<lb n="0096a01" ed="Y"/><p xml:id="pY40p0096a0101" style="text-indent:2em">一、牛頭初祖法融（或作「慧融」）：道宣<bibl><title level="m">《續僧傳》</title><biblScope n="20" type="卷">卷二〇</biblScope>（附編）<title level="a">〈法融傳〉</title></bibl>，採錄當
 <lb n="0096a02" ed="Y"/>時的傳聞，極為詳備<note place="inline">大正<ref target="#vol:50;page:p603c" type="taisho">五〇．六〇三下</ref>——<ref target="#vol:50;page:p605b" type="taisho">六〇五中</ref></note>。依<title level="m">《僧傳》</title>說：法融在十九歲（六一二）時
 <lb n="0096a03" ed="Y"/>，從茅山（今江蘇句容縣）「三論之匠」炅法師出家。據唐惠祥的<cit><bibl><title level="m">《弘贊法華傳》</title><biblScope n="3" type="卷">卷三</biblScope>說：</bibl><quote>「依
 <lb n="0096a04" ed="Y"/>茅（原誤作「第」）山豐樂寺大明法師，聽三論，及華嚴、大品、大集、維摩、法華等諸經」</quote></cit><note place="inline">大
@@ -244,26 +264,26 @@
 <lb n="0096a06" ed="Y"/>，如朱明又作朱冥，玄明又作玄冥。「炅」，大抵為「冥」字的脫落，誤寫而成的。武德七年（
 <lb n="0096a07" ed="Y"/>六二四），政府解散部分的僧眾。法融為了護持佛教，江表五千僧的安全，到京都去請願。約在
 <lb n="0096a08" ed="Y"/>這個時候，法融就移住牛頭山（今江蘇江寧縣）佛窟寺。寺有內外經書七藏，法融在八年中，遍
-<lb n="0096a09" ed="Y"/>讀抄略，然後移居幽棲寺。法融以為<quote>「慧（文字的）發亂<note n="0096a0901" resp="CBETA" type="add">縱【CB】，蹤【印順】</note><app n="0096a0901"><lem wit="【CB】" resp="正聞出版社">縱<note type="cf1">《續高僧傳》卷20(CBETA, T50, no. 2060, p. 603, c22-23)</note></lem><rdg wit="【印順】">蹤</rdg></app>，定開心府」<note n="0096001" resp="厚觀法師" type="add">《續高僧傳》卷20(CBETA, T50, no. 2060, p. 603, c22-23)</note></quote>，所以凝心宴默，前後
+<lb n="0096a09" ed="Y"/>讀抄略，然後移居幽棲寺。法融以為<quote>「慧（文字的）發亂<note n="0096a0901" resp="CBETA" type="add">縱【CB】，蹤【印順】</note><app n="0096a0901"><lem resp="正聞出版社" wit="【CB】">縱<note type="cf1">《續高僧傳》卷20(CBETA, T50, no. 2060, p. 603, c22-23)</note></lem><rdg wit="【印順】">蹤</rdg></app>，定開心府」<note n="0096001" resp="厚觀法師" type="add">《續高僧傳》卷20(CBETA, T50, no. 2060, p. 603, c22-23)</note></quote>，所以凝心宴默，前後
 <lb n="0096a10" ed="Y"/>達二十年。貞觀十七年，法融五十歲了，才在幽棲寺的北巖下，別立禪室。跟從他息心習禪的，
 <lb n="0096a11" ed="Y"/>一百多人，經常為大眾講<title level="m">《法華經》</title>等。永徽三年（六五二），受當地宰官的禮請，在建初寺（
 <lb n="0096a12" ed="Y"/>在今南京）講<title level="m">《大品經》</title>，聽眾一千多人，是當時希有的法會！睦州妖女陳碩真作亂，法融的禪
-<lb n="0096a13" ed="Y"/>室中，住了三百多眾，生活非常艱困。法融每天去城<note n="0096a1301" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0096a1301"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>乞糧，自己背負回來，經過一百多天，亂
+<lb n="0096a13" ed="Y"/>室中，住了三百多眾，生活非常艱困。法融每天去城<note n="0096a1301" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0096a1301"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>乞糧，自己背負回來，經過一百多天，亂
 <lb n="0096a14" ed="Y"/>事才平息下來。法融護法的熱忱，用心的慈悲，非常難得！顯慶元年（六五六），再受請出山，
 <lb n="0096a15" ed="Y"/>在建初寺講經。二年（六五七）二月去世，年六十四。從法融的修學與弘化來說，是一位禪教並
 <pb n="0097a" ed="Y" xml:id="Y40.0038.0097a"/>
 <lb n="0097a01" ed="Y"/>重，更重於禪悟的學者。</p>
-<lb n="0097a02" ed="Y"/><p style="text-indent:2em">法融與道宣同時，但在道宣的記錄中，並沒有道信付法與法融的事。在現存文記中，最早傳
-<lb n="0097a03" ed="Y"/>說道信別傳法融的，是李華所撰<title level="a">〈潤州鶴林寺故徑山大師碑銘〉</title><note place="inline"><bibl><title level="m">《全唐文》</title><biblScope type="卷" n="320">卷三二〇</biblScope></bibl></note>，如說：</p>
-<lb n="0097a04" ed="Y"/><quote><p style="margin-left:3em">「初達摩祖師傳法三世，至信大師。信門人達者，曰融大師，居牛頭山，得自然智慧。信
+<lb n="0097a02" ed="Y"/><p xml:id="pY40p0097a0201" style="text-indent:2em">法融與道宣同時，但在道宣的記錄中，並沒有道信付法與法融的事。在現存文記中，最早傳
+<lb n="0097a03" ed="Y"/>說道信別傳法融的，是李華所撰<title level="a">〈潤州鶴林寺故徑山大師碑銘〉</title><note place="inline"><bibl><title level="m">《全唐文》</title><biblScope n="320" type="卷">卷三二〇</biblScope></bibl></note>，如說：</p>
+<lb n="0097a04" ed="Y"/><quote><p xml:id="pY40p0097a0401" style="margin-left:3em">「初達摩祖師傳法三世，至信大師。信門人達者，曰融大師，居牛頭山，得自然智慧。信
 <lb n="0097a05" ed="Y"/>大師就而證之，且曰：七佛教戒，諸三昧門，語有差別，義無差別。群生根器，各各不同
 <lb n="0097a06" ed="Y"/>。唯最上乘，攝而歸一。涼風既至，百實皆成。汝能總持，吾亦隨喜。由此無上覺路，分
 <lb n="0097a07" ed="Y"/>為此宗。融大師講法則金蓮冬敷，頓錫而靈泉滿溢。東夷西域得神足者，赴會聽焉。融授
 <lb n="0097a08" ed="Y"/>巖大師，巖授方大師，方授持大師，持授威大師，凡七世矣」。</p></quote>
-<lb n="0097a09" ed="Y"/><p style="text-indent:2em"><quote>「故徑山大師」</quote>，指鶴林玄素，天寶十一年（七五二）去世。道信傳法於法融的傳說，在法
-<lb n="0097a10" ed="Y"/>融去世（六五<note n="0097a1001" resp="CBETA" type="add">七【CB】，六【印順】</note><app n="0097a1001"><lem wit="【CB】" resp="正聞出版社">七</lem><rdg wit="【印順】">六</rdg></app>）一百年，才見於文記。道信什麼時候傳法給法融呢？劉禹錫（七七二——八四
+<lb n="0097a09" ed="Y"/><p xml:id="pY40p0097a0901" style="text-indent:2em"><quote>「故徑山大師」</quote>，指鶴林玄素，天寶十一年（七五二）去世。道信傳法於法融的傳說，在法
+<lb n="0097a10" ed="Y"/>融去世（六五<note n="0097a1001" resp="CBETA" type="add">七【CB】，六【印順】</note><app n="0097a1001"><lem resp="正聞出版社" wit="【CB】">七</lem><rdg wit="【印順】">六</rdg></app>）一百年，才見於文記。道信什麼時候傳法給法融呢？劉禹錫（七七二——八四
 <lb n="0097a11" ed="Y"/>二）撰<cit><bibl><title level="a">〈牛頭山第一祖融大師新塔記〉</title>說：</bibl><quote>「貞觀中，雙峰（道信）過江，望牛頭，頓錫曰：此
-<lb n="0097a12" ed="Y"/>山有道氣，宜有得之者。乃東，果與（融）大師相遇」</quote><note place="inline"><bibl><title level="m">《全唐文》</title><biblScope type="卷" n="606">卷六〇六</biblScope></bibl></note></cit>（<bibl><title level="m">《傳燈錄》</title><biblScope type="卷" n="4">卷四</biblScope><title level="a">〈法融傳
+<lb n="0097a12" ed="Y"/>山有道氣，宜有得之者。乃東，果與（融）大師相遇」</quote><note place="inline"><bibl><title level="m">《全唐文》</title><biblScope n="606" type="卷">卷六〇六</biblScope></bibl></note></cit>（<bibl><title level="m">《傳燈錄》</title><biblScope n="4" type="卷">卷四</biblScope><title level="a">〈法融傳
 <lb n="0097a13" ed="Y"/>〉</title></bibl>同）。<cit><bibl>《<title level="m">祖堂集</title>．<title level="a">法融傳</title>》，作</bibl><quote>「武德七年秋」</quote></cit>。<cit><bibl><title level="m">《傳燈錄》</title><biblScope n="3" type="卷">卷三</biblScope><title level="a">〈道信傳〉</title>也說：</bibl><quote>「吾武
 <lb n="0097a14" ed="Y"/>德中遊廬山」</quote></cit>（與卷四<title level="a">〈法融傳〉</title>矛盾）。如依<title level="m">《祖堂集》</title>，道信見法融，是武德七年（六二四
 <lb n="0097a15" ed="Y"/>），那是還沒有去黃梅的時候。依劉禹錫碑，是「貞觀中」，道信又過江，去江東一趟。然武德
@@ -271,12 +291,12 @@
 <lb n="0098a01" ed="Y"/>七年，江東的僧眾遭難，法融正去長安。如是「貞觀中」，法融於貞觀十七年（六四三），才移
 <lb n="0098a02" ed="Y"/>住幽棲寺北巖下。那時，來依止修定的，達一百多人，也與<title level="m">《傳燈錄》</title>所說，個人獨修的「懶融
 <lb n="0098a03" ed="Y"/>」不合。</p>
-<lb n="0098a04" ed="Y"/><p style="text-indent:2em">二、智巖：<bibl><title level="m">《續僧傳》</title><biblScope n="20" type="卷">卷二〇</biblScope>（附編）有<title level="a">〈智巖傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p602a" type="taisho">五〇．六〇二上</ref>——下</note>。隋末、唐初，
+<lb n="0098a04" ed="Y"/><p xml:id="pY40p0098a0401" style="text-indent:2em">二、智巖：<bibl><title level="m">《續僧傳》</title><biblScope n="20" type="卷">卷二〇</biblScope>（附編）有<title level="a">〈智巖傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p602a" type="taisho">五〇．六〇二上</ref>——下</note>。隋末、唐初，
 <lb n="0098a05" ed="Y"/>曾<quote>「身任軍帥」</quote>，立有軍功。武德四年（六二一），在舒州<g ref="#CB05744"/>公山（今安徽省潛山縣西），從寶
 <lb n="0098a06" ed="Y"/>月禪師出家，一直在山中修道。貞觀十七年（六四三），年六十六歲，才到建業（今南京）來，
 <lb n="0098a07" ed="Y"/>依山結草庵，為眾（百餘人）隨機說法，常在白馬寺住。後來，又往石頭城癘人坊，為病人說法
 <lb n="0098a08" ed="Y"/>，服務。永徽五年（六五四）去世，年七十八歲。</p>
-<lb n="0098a09" ed="Y"/><p style="text-indent:2em"><title level="m">《續僧傳》</title>沒有說到智巖到牛頭山去，沒有說到與法融的任何關係。智巖到建業，<quote>「依山結
+<lb n="0098a09" ed="Y"/><p xml:id="pY40p0098a0901" style="text-indent:2em"><title level="m">《續僧傳》</title>沒有說到智巖到牛頭山去，沒有說到與法融的任何關係。智巖到建業，<quote>「依山結
 <lb n="0098a10" ed="Y"/>草」</quote>，正是法融在幽棲寺北巖下，「別立禪室」那一年（貞觀十七年）。與法融共住的，<quote>「百有
 <lb n="0098a11" ed="Y"/>餘人」</quote>；而與智巖共住的，也是<quote>「僧眾百有餘人」</quote>，這是兩地同時施化的。貞觀十七年，法融五
 <lb n="0098a12" ed="Y"/>十歲，智巖已六十六歲。雖然禪法的傳授，不限年齡的大小，但智巖永徽五年（六五四）去世，
@@ -287,63 +307,63 @@
 <lb n="0099a01" ed="Y"/>續僧傳》</title>的，也說</bibl><quote>「唐武德中，年四十」</quote></cit>出家；<quote>「年七十八」</quote>。如武德年中年四十，那儀鳳二年
 <lb n="0099a02" ed="Y"/>，至少是九十歲以上，怎麼還是七十八歲呢？而且，道宣卒於乾封二年（六六七）；智巖死了，
 <lb n="0099a03" ed="Y"/>道宣已為他作傳，怎麼能活到儀鳳二年呢！<title level="m">《傳燈錄》</title>的改竄，是不足採信的。</p>
-<lb n="0099a04" ed="Y"/><p style="text-indent:2em">三、惠方：<title level="m">《續僧傳》</title>與<title level="m">《宋僧傳》</title>，都沒有惠方傳。僅<bibl><title level="m">《宋僧傳》</title><biblScope type="卷" n="8">卷八</biblScope><title level="a">〈法持傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p757c" type="taisho">五
+<lb n="0099a04" ed="Y"/><p xml:id="pY40p0099a0401" style="text-indent:2em">三、惠方：<title level="m">《續僧傳》</title>與<title level="m">《宋僧傳》</title>，都沒有惠方傳。僅<bibl><title level="m">《宋僧傳》</title><biblScope n="8" type="卷">卷八</biblScope><title level="a">〈法持傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p757c" type="taisho">五
 <lb n="0099a05" ed="Y"/>〇．七五七下</ref></note>說到：</p>
-<lb n="0099a06" ed="Y"/><p style="margin-left:3em">（法持）<quote>「後歸青山，重事方禪師，更明宗極。命其入室，傳燈繼明」</quote>。</p>
-<lb n="0099a07" ed="Y"/><p style="text-indent:2em"><bibl><title level="m">《傳燈錄》</title><biblScope n="4" type="卷">卷四</biblScope><title level="a">〈惠方傳〉</title></bibl><note place="inline">大正<ref target="#vol:51;page:p228c" type="taisho">五一．二二八下</ref></note>，為惠方的唯一資料。依<title level="m">《傳燈錄》</title>，惠方在
+<lb n="0099a06" ed="Y"/><p xml:id="pY40p0099a0601" style="margin-left:3em">（法持）<quote>「後歸青山，重事方禪師，更明宗極。命其入室，傳燈繼明」</quote>。</p>
+<lb n="0099a07" ed="Y"/><p xml:id="pY40p0099a0701" style="text-indent:2em"><bibl><title level="m">《傳燈錄》</title><biblScope n="4" type="卷">卷四</biblScope><title level="a">〈惠方傳〉</title></bibl><note place="inline">大正<ref target="#vol:51;page:p228c" type="taisho">五一．二二八下</ref></note>，為惠方的唯一資料。依<title level="m">《傳燈錄》</title>，惠方在
 <lb n="0099a08" ed="Y"/>沒有到牛頭山（青山）以前，就<quote>「洞明經論」</quote>。後來<quote>「入牛頭山，謁巖禪師，諮詢秘要」</quote>。在山
 <lb n="0099a09" ed="Y"/>中住不到十年，就受四方學眾的參禮。後來，<quote>「以正法付法持禪師，遂歸茅山」</quote>。數年後去世，
 <lb n="0099a10" ed="Y"/>時為天冊二年（六九五）。<quote>「壽六十七，臘四十」</quote>。惠方受具，是六五六年（二十八歲）。那時
 <lb n="0099a11" ed="Y"/>，智巖禪師已死去二年了。惠方後來去牛頭山，從智巖受法，也是不可能的。惠方「洞明經論」
 <lb n="0099a12" ed="Y"/>；晚年「歸茅山」，看來也是與三論宗有關的禪師。</p>
-<lb n="0099a13" ed="Y"/><p style="text-indent:2em">四、法持：<bibl><title level="m">《宋僧傳》</title><biblScope n="8" type="卷">卷八</biblScope></bibl><note place="inline">大正<ref target="#vol:50;page:p757c" type="taisho">五〇．七五七下</ref></note>，<bibl><title level="m">《傳燈錄》</title><biblScope n="4" type="卷">卷四</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p228c" type="taisho">五一．二二八下</ref></note>，都有傳
+<lb n="0099a13" ed="Y"/><p xml:id="pY40p0099a1301" style="text-indent:2em">四、法持：<bibl><title level="m">《宋僧傳》</title><biblScope n="8" type="卷">卷八</biblScope></bibl><note place="inline">大正<ref target="#vol:50;page:p757c" type="taisho">五〇．七五七下</ref></note>，<bibl><title level="m">《傳燈錄》</title><biblScope n="4" type="卷">卷四</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p228c" type="taisho">五一．二二八下</ref></note>，都有傳
 <lb n="0099a14" ed="Y"/>記，內容一致。法持三十歲（六六四），曾參禮黃梅弘忍。回來，到青山（牛頭山）參禮方禪師
 <lb n="0099a15" ed="Y"/>，為方禪師的入室弟子。等到將正法付囑了弟子智威，法持就出山，住江寧的延祚寺。延祚寺與
 <pb n="0100a" ed="Y" xml:id="Y40.0038.0100a"/>
 <lb n="0100a01" ed="Y"/>牛頭山幽棲寺，似乎有密切的關係。智威後來也是出住延祚寺的。長安二年（七〇二）去世，年
 <lb n="0100a02" ed="Y"/>六十八歲。</p>
-<lb n="0100a03" ed="Y"/><p style="text-indent:2em">法持的參禮黃梅，<title level="m">《宋僧傳》</title>作十三歲（六四七）。那時還是道信住世的時代，所以應為三
-<lb n="0100a04" ed="Y"/>十歲的誤寫。法持被傳說為弘忍十大弟子之一，如<bibl><title level="m">《宋僧傳》</title><biblScope type="卷" n="8">卷八</biblScope></bibl>說：</p>
-<lb n="0100a05" ed="Y"/><quote><p style="margin-left:3em">「時黃梅謝緣去世，謂弟子玄賾曰：後傳吾法者，可十人耳，金陵法持即其一也」。</p></quote>
-<lb n="0100a06" ed="Y"/><p style="text-indent:2em">弘忍告訴玄賾的話，出於玄賾弟子淨覺的<title level="m">《楞伽師資記》</title>，但十人中沒有法持。<title level="m">《曆代法寶
+<lb n="0100a03" ed="Y"/><p xml:id="pY40p0100a0301" style="text-indent:2em">法持的參禮黃梅，<title level="m">《宋僧傳》</title>作十三歲（六四七）。那時還是道信住世的時代，所以應為三
+<lb n="0100a04" ed="Y"/>十歲的誤寫。法持被傳說為弘忍十大弟子之一，如<bibl><title level="m">《宋僧傳》</title><biblScope n="8" type="卷">卷八</biblScope></bibl>說：</p>
+<lb n="0100a05" ed="Y"/><quote><p xml:id="pY40p0100a0501" style="margin-left:3em">「時黃梅謝緣去世，謂弟子玄賾曰：後傳吾法者，可十人耳，金陵法持即其一也」。</p></quote>
+<lb n="0100a06" ed="Y"/><p xml:id="pY40p0100a0601" style="text-indent:2em">弘忍告訴玄賾的話，出於玄賾弟子淨覺的<title level="m">《楞伽師資記》</title>，但十人中沒有法持。<title level="m">《曆代法寶
 <lb n="0100a07" ed="Y"/>記》</title>也有十弟子說，與<title level="m">《楞伽師資記》</title>相合，也沒有法持。宗密<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="3之下" type="卷">卷三之下</biblScope></bibl>，列
 <lb n="0100a08" ed="Y"/>舉弘忍弟子，也沒有法持。<title level="m">《師資承襲圖》</title>，才有「江寧持」（原誤作「江州寧持」）的名字。
-<lb n="0100a09" ed="Y"/>法持被傳為弘忍十弟子之一，是宗密時代的事了。還有，宋戒珠編<bibl><title level="m">《淨土往生傳》</title><biblScope type="卷" n="中">卷中</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p119c" type="taisho">五一
+<lb n="0100a09" ed="Y"/>法持被傳為弘忍十弟子之一，是宗密時代的事了。還有，宋戒珠編<bibl><title level="m">《淨土往生傳》</title><biblScope n="中" type="卷">卷中</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p119c" type="taisho">五一
 <lb n="0100a10" ed="Y"/>．一一九下</ref>——一二〇上</note>說：</p>
-<lb n="0100a11" ed="Y"/><quote><p style="margin-left:3em">「持於淨土以繫於念，凡九年，俯仰進止，必資觀想」。</p></quote>
-<lb n="0100a12" ed="Y"/><quote><p style="margin-left:3em">「吾生之日，不能以淨土開誘群物，吾死之後，可宜露骸松下，令諸禽獸食血肉者起淨土
+<lb n="0100a11" ed="Y"/><quote><p xml:id="pY40p0100a1101" style="margin-left:3em">「持於淨土以繫於念，凡九年，俯仰進止，必資觀想」。</p></quote>
+<lb n="0100a12" ed="Y"/><quote><p xml:id="pY40p0100a1201" style="margin-left:3em">「吾生之日，不能以淨土開誘群物，吾死之後，可宜露骸松下，令諸禽獸食血肉者起淨土
 <lb n="0100a13" ed="Y"/>因」。</p></quote>
-<lb n="0100a14" ed="Y"/><p style="text-indent:2em">這一專心淨土的傳說，是<title level="m">《宋僧傳》</title>與<title level="m">《傳燈錄》</title>所沒有的，不知戒珠有什麼根據？<cit><bibl><title level="m">《宋僧
+<lb n="0100a14" ed="Y"/><p xml:id="pY40p0100a1401" style="text-indent:2em">這一專心淨土的傳說，是<title level="m">《宋僧傳》</title>與<title level="m">《傳燈錄》</title>所沒有的，不知戒珠有什麼根據？<cit><bibl><title level="m">《宋僧
 <lb n="0100a15" ed="Y"/>傳》</title>只是說：</bibl><quote>「遺囑令露骸松下，飼諸禽獸，令得飲血肉者發菩提心」</quote></cit>。戒珠的繫念淨土，顯然
 <pb n="0101a" ed="Y" xml:id="Y40.0038.0101a"/>
 <lb n="0101a01" ed="Y"/>是由此演繹而來的。然死了以血肉飼鳥獸，並不能證明與淨土有關。牛頭宗風，如法融、智巖，
-<lb n="0101a02" ed="Y"/>以及後來的慧忠、玄素，都沒有他力念佛，求生淨土的形<note n="0101a0201" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0101a0201"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>。所以說法持念佛，或稱之為「念佛
+<lb n="0101a02" ed="Y"/>以及後來的慧忠、玄素，都沒有他力念佛，求生淨土的形<note n="0101a0201" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0101a0201"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>。所以說法持念佛，或稱之為「念佛
 <lb n="0101a03" ed="Y"/>禪」，是不了解當時禪風，誤信傳說所引起的虛談。</p>
-<lb n="0101a04" ed="Y"/><p style="text-indent:2em">五、智威：<bibl><title level="m">《宋僧傳》</title><biblScope n="8" type="卷">卷八</biblScope></bibl><note place="inline">大正<ref target="#vol:50;page:p758b" type="taisho">五〇．七五八中</ref>——下</note>，<bibl><title level="m">《傳燈錄》</title><biblScope n="4" type="卷">卷四</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p258c" type="taisho">五一．二五八下</ref>——二
+<lb n="0101a04" ed="Y"/><p xml:id="pY40p0101a0401" style="text-indent:2em">五、智威：<bibl><title level="m">《宋僧傳》</title><biblScope n="8" type="卷">卷八</biblScope></bibl><note place="inline">大正<ref target="#vol:50;page:p758b" type="taisho">五〇．七五八中</ref>——下</note>，<bibl><title level="m">《傳燈錄》</title><biblScope n="4" type="卷">卷四</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p258c" type="taisho">五一．二五八下</ref>——二
 <lb n="0101a05" ed="Y"/>五九上</note>，所傳相同。智威是牛頭山附近的人。二十歲（六六五）出家，屬幽巖寺（似是牛頭山的
 <lb n="0101a06" ed="Y"/>寺名），後來就從法持習禪法。晚年，將護持法門的責任，付囑了弟子慧忠，自己出山，住在延
 <lb n="0101a07" ed="Y"/>祚寺。開元十年（七二二）去世，遺囑也以遺體飼林中的鳥獸。</p>
-<lb n="0101a08" ed="Y"/><p style="text-indent:2em">六、慧忠：繼承智威而在牛頭山弘化的，是慧忠，被稱為牛頭六祖。<bibl><title level="m">《宋僧傳》</title><biblScope type="卷" n="19">卷十九</biblScope></bibl><note place="inline">大正
-<lb n="0101a09" ed="Y"/><ref target="#vol:50;page:p834c" type="taisho">五〇．八三四下</ref>——八三五中</note>，<bibl><title level="m">《傳燈錄》</title><biblScope type="卷" n="4">卷四</biblScope></bibl>有傳<note place="inline">大正<ref target="#vol:51;page:p229a" type="taisho">五一．二二九上</ref>——中</note>，事<note n="0101a0901" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0101a0901"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>一致。慧忠是神龍
+<lb n="0101a08" ed="Y"/><p xml:id="pY40p0101a0801" style="text-indent:2em">六、慧忠：繼承智威而在牛頭山弘化的，是慧忠，被稱為牛頭六祖。<bibl><title level="m">《宋僧傳》</title><biblScope n="19" type="卷">卷十九</biblScope></bibl><note place="inline">大正
+<lb n="0101a09" ed="Y"/><ref target="#vol:50;page:p834c" type="taisho">五〇．八三四下</ref>——八三五中</note>，<bibl><title level="m">《傳燈錄》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>有傳<note place="inline">大正<ref target="#vol:51;page:p229a" type="taisho">五一．二二九上</ref>——中</note>，事<note n="0101a0901" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0101a0901"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>一致。慧忠是神龍
 <lb n="0101a10" ed="Y"/>元年（七〇五），二十三歲出家的。後到牛頭山參智威，智威一見，就說<quote>「山主來矣」</quote>，為說頓
 <lb n="0101a11" ed="Y"/>悟無上法門。慧忠在山四十年，到天寶初年（七四二——），應請出山，住莊嚴寺，因而重修了
 <lb n="0101a12" ed="Y"/>莊嚴寺。大曆四年（七六九）去世，年八十七歲。據<title level="m">《傳燈錄》</title>，得法弟子卅四人，各化一方。</p>
-<lb n="0101a13" ed="Y"/><p style="text-indent:2em">傳說中的牛頭宗，六代相承。但真有師承關係的，最早也只能從慧方傳法持開始。從法持到
+<lb n="0101a13" ed="Y"/><p xml:id="pY40p0101a1301" style="text-indent:2em">傳說中的牛頭宗，六代相承。但真有師承關係的，最早也只能從慧方傳法持開始。從法持到
 <lb n="0101a14" ed="Y"/>智威，才逐漸興起。到了智威以下，出了牛頭慧忠，鶴林玄素，而法門才大大的興盛起來，成為
 <lb n="0101a15" ed="Y"/>與南宗、北宗並立的牛頭宗。時代與荷澤神會相當；比南嶽懷讓、青原行思，要遲二十年；比道
 <pb n="0102a" ed="Y" xml:id="Y40.0038.0102a"/>
 <lb n="0102a01" ed="Y"/>一、希遷，卻又早二十年。</p></cb:div>
-<lb n="0102a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">牛頭宗的形成</cb:mulu><head>牛頭宗的形成</head><p style="text-indent:2em">從史實的觀點，道信與法融，法融與智巖，智巖與慧方，都不可能有師承的
+<lb n="0102a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">牛頭宗的形成</cb:mulu><head>牛頭宗的形成</head><p xml:id="pY40p0102a0213" style="text-indent:2em">從史實的觀點，道信與法融，法融與智巖，智巖與慧方，都不可能有師承的
 <lb n="0102a03" ed="Y"/>關係，那為什麼要傳說牛頭六代呢？道信傳法融，是黃梅的傳說，還是牛頭山的傳說？這一傳說
 <lb n="0102a04" ed="Y"/>，包含些什麼意義呢？六代相承，儘管不完全真實，而牛頭宗的一時興盛，卻是事實。所以牛頭
 <lb n="0102a05" ed="Y"/>六代相承，是不能不加以研究的！</p>
-<lb n="0102a06" ed="Y"/><p style="text-indent:2em">牛頭六代相承，有顯著的區域色彩。不但傳說中的六代，都在牛頭山弘化，而六代祖師也屬
+<lb n="0102a06" ed="Y"/><p xml:id="pY40p0102a0601" style="text-indent:2em">牛頭六代相承，有顯著的區域色彩。不但傳說中的六代，都在牛頭山弘化，而六代祖師也屬
 <lb n="0102a07" ed="Y"/>於同一區域的人。如法融、慧方、玄素，都是潤州延陵人，為今江蘇省丹陽縣的延陵鎮。法持、
 <lb n="0102a08" ed="Y"/>智威，是潤州的江寧人；慧忠是潤州上元人，都是現在的江寧縣。玄素的弟子徑山法欽是崑山（
 <lb n="0102a09" ed="Y"/>今江蘇崑山縣）人。慧忠的弟子佛窟遺則，是金陵（即江寧）人。牛頭六代及慧忠、玄素的大弟
-<lb n="0102a10" ed="Y"/>子，都生於這一地區——長江下流的南岸，稱為「江東」與「江左」的地方。這<note n="0102a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0102a1001"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，是南朝（三
+<lb n="0102a10" ed="Y"/>子，都生於這一地區——長江下流的南岸，稱為「江東」與「江左」的地方。這<note n="0102a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0102a1001"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，是南朝（三
 <lb n="0102a11" ed="Y"/>一七——五八八）二七二年的中心地區；金陵是首都的所在地。</p>
-<lb n="0102a12" ed="Y"/><p style="text-indent:2em">這一地區的南朝佛教，是都市的佛教，以「興福」——造寺、造像、布施；及「義學」——
+<lb n="0102a12" ed="Y"/><p xml:id="pY40p0102a1201" style="text-indent:2em">這一地區的南朝佛教，是都市的佛教，以「興福」——造寺、造像、布施；及「義學」——
 <lb n="0102a13" ed="Y"/>宣揚經論為主的。當時的「義學」極盛，主要為「四經」——<title level="m">《維摩》</title>、<title level="m">《大品》</title>、<title level="m">《法華》</title>、
 <lb n="0102a14" ed="Y"/><title level="m">《涅槃》</title>；「三論」——<title level="m">《中》</title>、<title level="m">《百》</title>、<title level="m">《十二門論》</title>，形成廣義的南朝學統。那個時代，禪
 <lb n="0102a15" ed="Y"/>慧的修證，不是沒有，而是並不興盛的。因為禪慧修證，是適宜於山林的（這不是「十字街頭好
@@ -352,59 +372,59 @@
 <lb n="0103a02" ed="Y"/>，東北二十八里有攝山（又稱棲霞山），南二十五里有牛頭山（青山），在都市附近而遠一些，
 <lb n="0103a03" ed="Y"/>正是修禪的好道場。如洛陽南的嵩山，長安南的終南山一樣。還有句容縣的茅山，比較遠一些。
 <lb n="0103a04" ed="Y"/>禪，就在這三處，孕育而成長起來。</p>
-<lb n="0103a05" ed="Y"/><p style="text-indent:2em">在南朝——都市佛教時代，遼東僧朗在齊建武（四九四——四九七）年間，到江南來，住在
+<lb n="0103a05" ed="Y"/><p xml:id="pY40p0103a0501" style="text-indent:2em">在南朝——都市佛教時代，遼東僧朗在齊建武（四九四——四九七）年間，到江南來，住在
 <lb n="0103a06" ed="Y"/>攝山。<bibl><title level="m">《高僧傳》</title><biblScope n="8" type="卷">卷八</biblScope><title level="a">〈法度傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p380c" type="taisho">五〇．三八〇下</ref></note>說：</p>
-<lb n="0103a07" ed="Y"/><quote><p style="margin-left:3em">「朗，本遼東人。為性廣學，思力該普，凡厥經律，皆能講說。華嚴、三論，最所命家。
-<lb n="0103a08" ed="Y"/>今上（梁武帝）深見器重，<note n="0103a0801" resp="CBETA" type="add">勅【CB】，勑【印順】</note><app n="0103a0801"><lem wit="【CB】" resp="正聞出版社">勅<note type="cf1">《高僧傳》卷8(CBETA, T50, no. 2059, p. 380, c16-18)</note></lem><rdg wit="【印順】">勑</rdg></app>諸義士受業<note n="0103a0802" resp="CBETA" type="add">于【CB】，於【印順】</note><app n="0103a0802"><lem wit="【CB】" resp="正聞出版社">于</lem><rdg wit="【印順】">於</rdg></app>山」。<note n="0103001" resp="厚觀法師" type="add">《高僧傳》卷8(CBETA, T50, no. 2059, p. 380, c16-18)</note></p></quote>
-<lb n="0103a09" ed="Y"/><p style="text-indent:2em">當時，梁武帝派了十人上山去學，而修學有成就的，僅「止觀僧詮」一人。僧朗與僧詮，都
-<lb n="0103a10" ed="Y"/>在山禪講兼修，不出外弘化的。攝山的學風，如<bibl><title level="m">《續僧傳》</title><biblScope type="卷" n="7">卷七</biblScope><title level="a">〈法朗傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p477c" type="taisho">五〇．四七七下</ref></note>
+<lb n="0103a07" ed="Y"/><quote><p xml:id="pY40p0103a0701" style="margin-left:3em">「朗，本遼東人。為性廣學，思力該普，凡厥經律，皆能講說。華嚴、三論，最所命家。
+<lb n="0103a08" ed="Y"/>今上（梁武帝）深見器重，<note n="0103a0801" resp="CBETA" type="add">勅【CB】，勑【印順】</note><app n="0103a0801"><lem resp="正聞出版社" wit="【CB】">勅<note type="cf1">《高僧傳》卷8(CBETA, T50, no. 2059, p. 380, c16-18)</note></lem><rdg wit="【印順】">勑</rdg></app>諸義士受業<note n="0103a0802" resp="CBETA" type="add">于【CB】，於【印順】</note><app n="0103a0802"><lem resp="正聞出版社" wit="【CB】">于</lem><rdg wit="【印順】">於</rdg></app>山」。<note n="0103001" resp="厚觀法師" type="add">《高僧傳》卷8(CBETA, T50, no. 2059, p. 380, c16-18)</note></p></quote>
+<lb n="0103a09" ed="Y"/><p xml:id="pY40p0103a0901" style="text-indent:2em">當時，梁武帝派了十人上山去學，而修學有成就的，僅「止觀僧詮」一人。僧朗與僧詮，都
+<lb n="0103a10" ed="Y"/>在山禪講兼修，不出外弘化的。攝山的學風，如<bibl><title level="m">《續僧傳》</title><biblScope n="7" type="卷">卷七</biblScope><title level="a">〈法朗傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p477c" type="taisho">五〇．四七七下</ref></note>
 <lb n="0103a11" ed="Y"/>說：</p>
-<lb n="0103a12" ed="Y"/><quote><p style="margin-left:3em">「初攝山僧詮，受業朗公，玄旨所明，<note n="0103a1201" resp="CBETA" type="add">惟【CB】，唯【印順】</note><app n="0103a1201"><lem wit="【CB】" resp="正聞出版社">惟<note type="cf1">《續高僧傳》卷7(CBETA, T50, no. 2060, p. 477, c5-12)</note></lem><rdg wit="【印順】">唯</rdg></app>存中觀。自非心會析理，何能契此清言！而頓迹
+<lb n="0103a12" ed="Y"/><quote><p xml:id="pY40p0103a1201" style="margin-left:3em">「初攝山僧詮，受業朗公，玄旨所明，<note n="0103a1201" resp="CBETA" type="add">惟【CB】，唯【印順】</note><app n="0103a1201"><lem resp="正聞出版社" wit="【CB】">惟<note type="cf1">《續高僧傳》卷7(CBETA, T50, no. 2060, p. 477, c5-12)</note></lem><rdg wit="【印順】">唯</rdg></app>存中觀。自非心會析理，何能契此清言！而頓迹
 <lb n="0103a13" ed="Y"/>幽林，禪味相得。及後四公（朗、勇、辯、布）往赴，三業資承；爰初誓不涉言，及久乃
 <lb n="0103a14" ed="Y"/>為敷演。故詮公命曰：此法精妙，識者能行，無使出房，輒有開示。故經云：計我見者，
 <lb n="0103a15" ed="Y"/>莫說此經。深樂法者，不為多說。良由藥病有以，不可徒行」。<note n="0103002" resp="厚觀法師" type="add">《續高僧傳》卷7(CBETA, T50, no. 2060, p. 477, c5-12)</note></p></quote>
 <pb n="0104a" ed="Y" xml:id="Y40.0038.0104a"/>
-<lb n="0104a01" ed="Y"/><p style="text-indent:2em">僧朗與僧詮的時代（約五〇五——五五五），教禪並重，不到都市去，顯出了山林佛教的特
+<lb n="0104a01" ed="Y"/><p xml:id="pY40p0104a0101" style="text-indent:2em">僧朗與僧詮的時代（約五〇五——五五五），教禪並重，不到都市去，顯出了山林佛教的特
 <lb n="0104a02" ed="Y"/>色。僧詮門下有四大弟子——興皇法朗，禪眾慧勇，長干僧辯，棲霞慧布。朗、勇、辯——三位
 <lb n="0104a03" ed="Y"/>，在僧詮去世後，都出山而重於義學的宣揚，促成了陳代三論宗的興盛。但「禪味相得」的攝山
 <lb n="0104a04" ed="Y"/>精神，不免沖淡了。被稱為「得意布」的慧布，仍舊住在攝山，繼承了僧詮的門風。慧布不反對
-<lb n="0104a05" ed="Y"/>向外宣揚經論，而自己卻<quote>「攝心奉律，威儀無玷。常樂坐禪，遠離<note n="0104a0501" resp="CBETA" type="add">囂擾【CB】，喧囂【印順】</note><app n="0104a0501"><lem wit="【CB】" resp="正聞出版社">囂擾<note type="cf1">《續高僧傳》卷7(CBETA, T50, no. 2060, p. 480, c19-20)</note></lem><rdg wit="【印順】">喧囂</rdg></app>。誓不講說，護持為務」<note n="0104001" resp="厚觀法師" type="add">《續高僧傳》卷7(CBETA, T50, no. 2060, p. 480, c19-20)</note></quote>
+<lb n="0104a05" ed="Y"/>向外宣揚經論，而自己卻<quote>「攝心奉律，威儀無玷。常樂坐禪，遠離<note n="0104a0501" resp="CBETA" type="add">囂擾【CB】，喧囂【印順】</note><app n="0104a0501"><lem resp="正聞出版社" wit="【CB】">囂擾<note type="cf1">《續高僧傳》卷7(CBETA, T50, no. 2060, p. 480, c19-20)</note></lem><rdg wit="【印順】">喧囂</rdg></app>。誓不講說，護持為務」<note n="0104001" resp="厚觀法師" type="add">《續高僧傳》卷7(CBETA, T50, no. 2060, p. 480, c19-20)</note></quote>
 <lb n="0104a06" ed="Y"/>。他曾一再到北方去，見到了（二祖）「可禪師」，「思禪師」（那時還在北方，就是南嶽慧思
 <lb n="0104a07" ed="Y"/>）；還有與慧思齊名的慧命的師長「邈禪師」，互相論道，受到了可、思、邈師的尊重。如<bibl><title level="m">《續
-<lb n="0104a08" ed="Y"/>僧傳》</title><biblScope type="卷" n="7">卷七</biblScope><title level="a">〈慧布傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p480c" type="taisho">五〇．四八〇下</ref>——<ref target="#vol:50;page:p481a" type="taisho">四八一上</ref></note>說：</p>
-<lb n="0104a09" ed="Y"/><quote><p style="margin-left:3em">「末遊北鄴，更涉未聞。於可禪師所暫通名見，便以言悟其意。可曰：法師所述，可謂破
+<lb n="0104a08" ed="Y"/>僧傳》</title><biblScope n="7" type="卷">卷七</biblScope><title level="a">〈慧布傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p480c" type="taisho">五〇．四八〇下</ref>——<ref target="#vol:50;page:p481a" type="taisho">四八一上</ref></note>說：</p>
+<lb n="0104a09" ed="Y"/><quote><p xml:id="pY40p0104a0901" style="margin-left:3em">「末遊北鄴，更涉未聞。於可禪師所暫通名見，便以言悟其意。可曰：法師所述，可謂破
 <lb n="0104a10" ed="Y"/>我除見，莫過此也」！</p></quote>
-<lb n="0104a11" ed="Y"/><quote><p style="margin-left:3em">「嘗造思禪師，與論大義，連徹日夜，不覺食息，理致彌密，言勢不止。思以鐵如意打案
+<lb n="0104a11" ed="Y"/><quote><p xml:id="pY40p0104a1101" style="margin-left:3em">「嘗造思禪師，與論大義，連徹日夜，不覺食息，理致彌密，言勢不止。思以鐵如意打案
 <lb n="0104a12" ed="Y"/>曰：萬里空矣，無此智者！坐中千餘人，同聲歎悅」。</p></quote>
-<lb n="0104a13" ed="Y"/><quote><p style="margin-left:3em">「又與邈禪師論義，即命公之師也。聯綿往還，三日不絕。邈止之，歎其慧悟遐舉，而卑
+<lb n="0104a13" ed="Y"/><quote><p xml:id="pY40p0104a1301" style="margin-left:3em">「又與邈禪師論義，即命公之師也。聯綿往還，三日不絕。邈止之，歎其慧悟遐舉，而卑
 <lb n="0104a14" ed="Y"/>身躬行，不顯其美」。</p></quote>
-<lb n="0104a15" ed="Y"/><p style="text-indent:2em">這是般若師匠，與禪宗、天臺宗先輩的接觸。慧可是楞伽印心的禪；慧思是<title level="m">《般若》</title>與<title level="m">《法
+<lb n="0104a15" ed="Y"/><p xml:id="pY40p0104a1501" style="text-indent:2em">這是般若師匠，與禪宗、天臺宗先輩的接觸。慧可是楞伽印心的禪；慧思是<title level="m">《般若》</title>與<title level="m">《法
 <pb n="0105a" ed="Y" xml:id="Y40.0038.0105a"/>
 <lb n="0105a01" ed="Y"/>華》</title>並重，推重龍樹論的禪者；與重般若三論的慧布（談論<quote>「連徹日夜」</quote>，有濃厚的清談玄學風
 <lb n="0105a02" ed="Y"/>格），原有相互契合處，而不是相互拒斥的。江東般若學與楞伽學的關涉，慧布是第一人（不能
 <lb n="0105a03" ed="Y"/>說誰從誰學）。後來，慧布邀保恭禪師，在攝山成立禪院：<quote>「結淨練眾，江表所推」</quote>，這可見三
 <lb n="0105a04" ed="Y"/>論宗本不是單純的義學。</p>
-<lb n="0105a05" ed="Y"/><p style="text-indent:2em">興皇法朗雖將三論宗引入「義學」一流，但還是重於慧悟（得意）的。繼承興皇法席的，是
+<lb n="0105a05" ed="Y"/><p xml:id="pY40p0105a0501" style="text-indent:2em">興皇法朗雖將三論宗引入「義學」一流，但還是重於慧悟（得意）的。繼承興皇法席的，是
 <lb n="0105a06" ed="Y"/>茅山（或作「苞山」，或誤作「荊州茅山」）大明法師（對蘇州永定寺小明法師說）。明師的傳
 <lb n="0105a07" ed="Y"/>記不詳，略見於<bibl><title level="m">《續僧傳》</title><biblScope n="13" type="卷">卷一三</biblScope><title level="a">〈慧暠傳〉</title></bibl>，卷一四<title level="a">〈慧稜傳〉</title>等。關於當時付囑的情形，如
 <lb n="0105a08" ed="Y"/>卷一五<title level="a">〈法敏傳〉</title><note place="inline">大正<ref target="#vol:50;page:p538c" type="taisho">五〇．五三八下</ref></note>說：</p>
-<lb n="0105a09" ed="Y"/><quote><p style="margin-left:3em">「明即興皇之遺屬也。……明居此席，不移八載。口無談述，身無妄涉，眾目癡明。（受
+<lb n="0105a09" ed="Y"/><quote><p xml:id="pY40p0105a0901" style="margin-left:3em">「明即興皇之遺屬也。……明居此席，不移八載。口無談述，身無妄涉，眾目癡明。（受
 <lb n="0105a10" ed="Y"/>付囑後）……即日辭朗，領門人入茅山，終身不出，常弘此論。故興皇之宗，或舉山門之
 <lb n="0105a11" ed="Y"/>致者是也」。</p></quote>
-<lb n="0105a12" ed="Y"/><p style="text-indent:2em">明法師，是一位大智若愚的人。他終身住在茅山，茅山成為攝山精神的繼承者。茅山，就是
+<lb n="0105a12" ed="Y"/><p xml:id="pY40p0105a1201" style="text-indent:2em">明法師，是一位大智若愚的人。他終身住在茅山，茅山成為攝山精神的繼承者。茅山，就是
 <lb n="0105a13" ed="Y"/>牛頭初祖法融出家修學的道場！法融是由此而到牛頭山的；慧方將法門付囑法持後，又由牛頭回
 <lb n="0105a14" ed="Y"/>到茅山。牛頭宗的形成，是繼承了茅山的禪風。</p>
-<lb n="0105a15" ed="Y"/><p style="text-indent:2em">興盛了二百多年的江東佛教，終於受了挫折，那就是陳代的覆亡（五八八）。這<note n="0105a1501" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0105a1501"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，不再是
+<lb n="0105a15" ed="Y"/><p xml:id="pY40p0105a1501" style="text-indent:2em">興盛了二百多年的江東佛教，終於受了挫折，那就是陳代的覆亡（五八八）。這<note n="0105a1501" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0105a1501"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，不再是
 <pb n="0106a" ed="Y" xml:id="Y40.0038.0106a"/>
 <lb n="0106a01" ed="Y"/>政治中心（經濟當然也衰退了），而只是大中國的一個區域。起初，煬帝（那時還是晉王）出鎮
 <lb n="0106a02" ed="Y"/>楊州，天臺宗受到護持而盛極一時（天臺宗的中心在浙東）。天臺的教觀並重，也引發了禪觀的
 <lb n="0106a03" ed="Y"/>重視。但不久，隋又解體（六一七）而統一於大唐。江東有名的大法師，如嘉祥吉藏，慧日智炬
-<lb n="0106a04" ed="Y"/>，莊嚴慧因，慈恩義褒，連攝山的保恭禪師，都被隋唐的帝王徵召到長安。這<note n="0106a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0106a0401"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>的義學，急劇的
+<lb n="0106a04" ed="Y"/>，莊嚴慧因，慈恩義褒，連攝山的保恭禪師，都被隋唐的帝王徵召到長安。這<note n="0106a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0106a0401"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>的義學，急劇的
 <lb n="0106a05" ed="Y"/>衰落下來。尤其是武德七年（六二四），江東的五千僧眾，被政府限令：每州僅留一寺，每寺限
 <lb n="0106a06" ed="Y"/>三十僧。江東的都市佛教，急劇的衰落，這才在固有的<title level="m">《般若》</title>（融合<title level="m">《維摩》</title>、<title level="m">《法華》</title>、<title level="m">《
 <lb n="0106a07" ed="Y"/>涅槃》</title>）學統上，漸形成重禪的佛教。從法融到慧忠，都是在山中修行，領導修學，到晚年才出
 <lb n="0106a08" ed="Y"/>山來（南京）弘化，表顯了重心在山林的特色。</p>
-<lb n="0106a09" ed="Y"/><p style="text-indent:2em">般若南宗，根源於攝山，經茅山而移到牛頭山。法融從茅山來，有弘護佛教的熱忱。精通四
+<lb n="0106a09" ed="Y"/><p xml:id="pY40p0106a0901" style="text-indent:2em">般若南宗，根源於攝山，經茅山而移到牛頭山。法融從茅山來，有弘護佛教的熱忱。精通四
 <lb n="0106a10" ed="Y"/>經、三論，又通世間學問；不以聞思的「義學」為滿足，而求禪心的自證。生活恬淡，慈悲柔忍
 <lb n="0106a11" ed="Y"/>，能馴伏毒蛇猛獸（慈悲柔忍，成為牛頭的特色。如智巖的為病人服役；法持與智威的以遺體飼
 <lb n="0106a12" ed="Y"/>鳥獸；智威、慧忠，法融弟子僧瑗，智巖弟子善伏，都有馴伏猛虎的傳說）。法融為江東佛教樹
@@ -414,11 +434,11 @@
 <pb n="0107a" ed="Y" xml:id="Y40.0038.0107a"/>
 <lb n="0107a01" ed="Y"/>也在博通大經以後，師事法融：<quote>「晦迹鍾山，斷其漏習，養金剛定，趣大能位。納衣空林，多歷
 <lb n="0107a02" ed="Y"/>年所」</quote><note place="inline">大正<ref target="#vol:50;page:p757b" type="taisho">五〇．七五七中</ref></note>。法融的弟子，多在通達經教的基礎上，轉向禪心的自證。</p>
-<lb n="0107a03" ed="Y"/><p style="text-indent:2em">智巖是在舒州<g ref="#CB05744"/>公山，從寶月禪師出家修學的。<title level="m">《傳法寶紀》</title>說：</p>
-<lb n="0107a04" ed="Y"/><quote><p style="margin-left:3em">「釋僧璨……至開皇初，與同學定禪師，隱居<g ref="#CB05744"/>公山。……山西麓有寶月禪師，居之已久
+<lb n="0107a03" ed="Y"/><p xml:id="pY40p0107a0301" style="text-indent:2em">智巖是在舒州<g ref="#CB05744"/>公山，從寶月禪師出家修學的。<title level="m">《傳法寶紀》</title>說：</p>
+<lb n="0107a04" ed="Y"/><quote><p xml:id="pY40p0107a0401" style="margin-left:3em">「釋僧璨……至開皇初，與同學定禪師，隱居<g ref="#CB05744"/>公山。……山西麓有寶月禪師，居之已久
 <lb n="0107a05" ed="Y"/>，時謂神僧。聞璨至止，遽越巖嶺相見，欣若疇昔。月公即巖禪師之師也」。</p></quote>
-<lb n="0107a06" ed="Y"/><p style="text-indent:2em">寶月禪師早在<g ref="#CB05744"/>公山西麓，不一定屬於達摩禪系（<title level="m">《寶林傳》</title>才說寶月是慧可弟子）。寶月
-<lb n="0107a07" ed="Y"/>與僧璨相往來，<title level="m">《神會語錄》</title>及<title level="m">《曆代法寶記》</title>都這樣說。<note n="0107a0701" resp="CBETA" type="add" subtype="規範字詞">那麼【CB】，那末【印順】</note><app n="0107a0701"><lem wit="【CB】" resp="CBETA">那麼</lem><rdg wit="【印順】">那末</rdg></app>長期追隨寶月禪師的智巖，也
+<lb n="0107a06" ed="Y"/><p xml:id="pY40p0107a0601" style="text-indent:2em">寶月禪師早在<g ref="#CB05744"/>公山西麓，不一定屬於達摩禪系（<title level="m">《寶林傳》</title>才說寶月是慧可弟子）。寶月
+<lb n="0107a07" ed="Y"/>與僧璨相往來，<title level="m">《神會語錄》</title>及<title level="m">《曆代法寶記》</title>都這樣說。<note n="0107a0701" resp="CBETA" type="add" subtype="規範字詞">那麼【CB】，那末【印順】</note><app n="0107a0701"><lem resp="CBETA" wit="【CB】">那麼</lem><rdg wit="【印順】">那末</rdg></app>長期追隨寶月禪師的智巖，也
 <lb n="0107a08" ed="Y"/>就必然的有機會接近僧璨了。巖禪師的禪學，可以略見大概。他曾對獵者說：<quote>「吾本無生，安能
 <lb n="0107a09" ed="Y"/>避死」</quote><note place="inline">大正<ref target="#vol:50;page:p602b" type="taisho">五〇．六〇二中</ref></note>？曾從法流水寺璧法師<quote>「聽四經三論」</quote>；從（大明法師弟子）法敏<quote>「周
 <lb n="0107a10" ed="Y"/>流經教，頗涉幽求」</quote>；從道信學「入道方便」的善伏，來親近智巖，智巖<quote>「示以無生觀」</quote><note place="inline">大正<ref target="#vol:50;page:p603a" type="taisho">五
@@ -428,36 +448,36 @@
 <lb n="0107a14" ed="Y"/>宣曾親見慧明，<quote>「與其言論，無得為先」</quote><note place="inline">大正<ref target="#vol:50;page:p606c" type="taisho">五〇．六〇六下</ref></note>。從這些來推論，智巖的禪法，與當
 <lb n="0107a15" ed="Y"/>時融冶了<title level="m">《法華》</title>、<title level="m">《涅槃》</title>的般若學（還有<title level="m">《思益》</title>。大明的弟子慧暠，也講<title level="m">《楞伽經》</title>），
 <pb n="0108a" ed="Y" xml:id="Y40.0038.0108a"/>
-<lb n="0108a01" ed="Y"/>是非常接近的。順便說到法聰，這是僧瑗、善伏所親近的法師，事<note n="0108a0101" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0108a0101"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>如<bibl><title level="m">《續僧傳》</title><biblScope n="25" type="卷">卷二五</biblScope><title level="a">〈法聰
+<lb n="0108a01" ed="Y"/>是非常接近的。順便說到法聰，這是僧瑗、善伏所親近的法師，事<note n="0108a0101" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0108a0101"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>如<bibl><title level="m">《續僧傳》</title><biblScope n="25" type="卷">卷二五</biblScope><title level="a">〈法聰
 <lb n="0108a02" ed="Y"/>傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p664c" type="taisho">五〇．六六四下</ref></note>說：</p>
-<lb n="0108a03" ed="Y"/><quote><p style="margin-left:3em">「法聰，姓陳，住蘇州常樂寺」。</p></quote>
-<lb n="0108a04" ed="Y"/><quote><p style="margin-left:3em">「往金陵攝山栖霞寺，觀顧泉石僧眾清嚴，一見發心，思從解髮。時遇善友，依言度脫。
+<lb n="0108a03" ed="Y"/><quote><p xml:id="pY40p0108a0301" style="margin-left:3em">「法聰，姓陳，住蘇州常樂寺」。</p></quote>
+<lb n="0108a04" ed="Y"/><quote><p xml:id="pY40p0108a0401" style="margin-left:3em">「往金陵攝山栖霞寺，觀顧泉石僧眾清嚴，一見發心，思從解髮。時遇善友，依言度脫。
 <lb n="0108a05" ed="Y"/>遂誦大品，不久便通。又往會稽，聽一音慧敏法師講，得自於心，盪然無累」。</p></quote>
-<lb n="0108a06" ed="Y"/><p style="text-indent:2em">法聰的<quote>「得自於心，盪然無累」</quote>，<bibl><title level="m">《宗鏡錄》</title><biblScope type="卷" n="99">卷九九</biblScope></bibl>也有敘錄<note place="inline">大正<ref target="#vol:48;page:p950c" type="taisho">四八．九五〇下</ref></note>。法聰是大
+<lb n="0108a06" ed="Y"/><p xml:id="pY40p0108a0601" style="text-indent:2em">法聰的<quote>「得自於心，盪然無累」</quote>，<bibl><title level="m">《宗鏡錄》</title><biblScope n="99" type="卷">卷九九</biblScope></bibl>也有敘錄<note place="inline">大正<ref target="#vol:48;page:p950c" type="taisho">四八．九五〇下</ref></note>。法聰是大
 <lb n="0108a07" ed="Y"/>明的再傳，學風與法融相近。而死後「施諸鳥獸」，也與後來的法持、智威相同。法融與智巖時
 <lb n="0108a08" ed="Y"/>代有關的師資相承，列表如下：</p>
-<lb n="0108a09" ed="Y"/><p style="margin-left:3em"><figure><graphic url="../figures/Y/Y40p0108_01.gif"></graphic><figDesc>大明、法敏、法融、法聰、僧瑗、善伏、寶月、智巖、慧明、僧璨、道信</figDesc></figure></p>
+<lb n="0108a09" ed="Y"/><p xml:id="pY40p0108a0901" style="margin-left:3em"><figure><graphic url="../figures/Y/Y40p0108_01.gif"></graphic><figDesc>大明、法敏、法融、法聰、僧瑗、善伏、寶月、智巖、慧明、僧璨、道信</figDesc></figure></p>
 <lb n="0108a10" ed="Y"/>
 <lb n="0108a11" ed="Y"/>
 <lb n="0108a12" ed="Y"/>
 <lb n="0108a13" ed="Y"/>
-<lb n="0108a14" ed="Y"/><p style="text-indent:2em">如上所述，牛頭山中心的般若南宗，與楞伽南宗，有過多次的接觸：慧布與慧可，智巖與僧
+<lb n="0108a14" ed="Y"/><p xml:id="pY40p0108a1401" style="text-indent:2em">如上所述，牛頭山中心的般若南宗，與楞伽南宗，有過多次的接觸：慧布與慧可，智巖與僧
 <lb n="0108a15" ed="Y"/>璨，善伏與道信。楞伽系到道信而融合了（文殊）般若，江東般若系也一再與達摩下的禪師有接
 <lb n="0108a16" ed="Y"/>觸。自稱南宗的兩大系統，在長期的發展中，無疑的會逐漸融合起來。</p>
 <pb n="0109a" ed="Y" xml:id="Y40.0038.0109a"/>
-<lb n="0109a01" ed="Y"/><p style="text-indent:2em">牛頭山的禪法，有南宗——般若的悠久傳統；禪師們有顯著的區域色彩。面對東山法門的興
+<lb n="0109a01" ed="Y"/><p xml:id="pY40p0109a0101" style="text-indent:2em">牛頭山的禪法，有南宗——般若的悠久傳統；禪師們有顯著的區域色彩。面對東山法門的興
 <lb n="0109a02" ed="Y"/>盛，而有牛頭六祖說，道信印證法融的傳說。這雖沒有古代的明文可證，但了解當時佛教的情勢
-<lb n="0109a03" ed="Y"/>，牛頭禪形成的真實意義，就會充分的理解出來。弘忍在憑茂山，<quote>「法門大<note n="0109a0301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0109a0301"><lem wit="【CB】" resp="CBETA">啟</lem><rdg wit="【印順】">啓</rdg></app>，根機不擇」</quote>，二
+<lb n="0109a03" ed="Y"/>，牛頭禪形成的真實意義，就會充分的理解出來。弘忍在憑茂山，<quote>「法門大<note n="0109a0301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0109a0301"><lem resp="CBETA" wit="【CB】">啟</lem><rdg wit="【印順】">啓</rdg></app>，根機不擇」</quote>，二
 <lb n="0109a04" ed="Y"/>十四年（六五二——六七五）的弘化，被譽為：<cit><quote>「自東夏禪匠傳化，乃莫之過」</quote><note place="inline"><bibl><title level="m">《傳法寶紀》</title></bibl></note></cit>，形成
 <lb n="0109a05" ed="Y"/>當時的禪學中心。<cit><quote>「自菩提達摩天竺東來，以法傳慧可，慧可傳僧璨，僧璨傳道信，道信傳弘忍
-<lb n="0109a06" ed="Y"/>。繼明重<note n="0109a0601" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0109a0601"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>，相承五光」</quote><note place="inline"><bibl><title level="a">〈荊州玉泉寺大通禪師碑銘〉</title></bibl></note></cit>。一代一人的付囑說，「相承五光」，在弘忍晚
+<lb n="0109a06" ed="Y"/>。繼明重<note n="0109a0601" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0109a0601"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>，相承五光」</quote><note place="inline"><bibl><title level="a">〈荊州玉泉寺大通禪師碑銘〉</title></bibl></note></cit>。一代一人的付囑說，「相承五光」，在弘忍晚
 <lb n="0109a07" ed="Y"/>年，成為定論；這是東山門下所同說的。弘忍入滅，弟子們分化各方。六九〇年（天授年），神
 <lb n="0109a08" ed="Y"/>秀在玉泉度門蘭若開法。長安元年（七〇一）應召入京，被尊為<quote>「兩京法主，三帝門師」</quote>。景龍
 <lb n="0109a09" ed="Y"/>二年（七〇八），玄賾又奉召入京。從六九〇到七二〇——三十年間，為以神秀為中心，禪法盛
 <lb n="0109a10" ed="Y"/>行中原，東山法門為朝野公認禪法正宗的時代（還沒有進入南北抗爭階段）。在這一時代，牛頭
 <lb n="0109a11" ed="Y"/>山法持卒於長安二年（七〇二），智威卒於開元十年（七二二），慧忠也在山（約七〇六入牛頭
 <lb n="0109a12" ed="Y"/>）十多年了。二百多年來成為（南朝）佛教中心的江東，面對東山宗的盛行中原，形成正統，是
-<lb n="0109a13" ed="Y"/>不能<note n="0109a1301" resp="CBETA" type="add" subtype="規範字詞">無動於衷【CB】，無動於中【印順】</note><app n="0109a1301"><lem wit="【CB】" resp="CBETA">無動於衷</lem><rdg wit="【印順】">無動於中</rdg></app>的。於是推牛頭山法融為初祖，網羅前輩的著名禪匠，成立牛頭五祖說，約在智威
+<lb n="0109a13" ed="Y"/>不能<note n="0109a1301" resp="CBETA" type="add" subtype="規範字詞">無動於衷【CB】，無動於中【印順】</note><app n="0109a1301"><lem resp="CBETA" wit="【CB】">無動於衷</lem><rdg wit="【印順】">無動於中</rdg></app>的。於是推牛頭山法融為初祖，網羅前輩的著名禪匠，成立牛頭五祖說，約在智威
 <lb n="0109a14" ed="Y"/>晚年，慧忠已在山的時代（七一五頃）。智威晚年，這一傳說——五代說已經形成，所以智威對
 <lb n="0109a15" ed="Y"/>玄素說：<quote>「東南正法，待汝興行！命於別位，開導來學」</quote>。智威傳慧忠，慧忠是當然的牛頭六祖
 <pb n="0110a" ed="Y" xml:id="Y40.0038.0110a"/>
@@ -465,30 +485,30 @@
 <lb n="0110a02" ed="Y"/>成五代、六代呢）。牛頭六代說的成立，是對抗東山法門（弘忍門下）的；是江東（南朝）正統
 <lb n="0110a03" ed="Y"/>，與北方正宗對立的。不過，東山法門是全國性的，牛頭山是地方性的。時代已進入大統一，有
 <lb n="0110a04" ed="Y"/>顯著區域色彩的對立，是不能長久維持的。</p>
-<lb n="0110a05" ed="Y"/><p style="text-indent:2em">牛頭宗以法融為初祖，可以看作「東夏之達摩」。但在禪法重傳承，重印證的要求下，達摩
+<lb n="0110a05" ed="Y"/><p xml:id="pY40p0110a0501" style="text-indent:2em">牛頭宗以法融為初祖，可以看作「東夏之達摩」。但在禪法重傳承，重印證的要求下，達摩
 <lb n="0110a06" ed="Y"/>禪盛行，幾乎非達摩禪就不足以弘通的情況下，牛頭山產生了道信印證法融的傳說，如李華（約
 <lb n="0110a07" ed="Y"/>七六〇撰）<title level="a">〈潤州鶴林寺故徑山大師碑銘〉</title><note place="inline"><bibl><title level="m">《全唐文》</title><biblScope n="320" type="卷">卷三二〇</biblScope></bibl></note>說：</p>
-<lb n="0110a08" ed="Y"/><quote><p style="margin-left:3em">「初，達摩祖師傳法三世，至信大師。信大師門人達者曰融大師，居牛頭山，得自然智慧
+<lb n="0110a08" ed="Y"/><quote><p xml:id="pY40p0110a0801" style="margin-left:3em">「初，達摩祖師傳法三世，至信大師。信大師門人達者曰融大師，居牛頭山，得自然智慧
 <lb n="0110a09" ed="Y"/>。信大師就而證之，且曰：七佛教戒諸三昧門，語有差別，義無差別。群生根器，各各不
 <lb n="0110a10" ed="Y"/>同，唯最上乘，攝而歸一。涼風既至，百實皆成。汝能總持，吾亦隨喜。由是無上覺路，
 <lb n="0110a11" ed="Y"/>分為此宗」。</p></quote>
-<lb n="0110a12" ed="Y"/><p style="text-indent:2em">這應該是牛頭宗方面的傳說。法融<quote>「得自然智慧」</quote>，並不是從道信得悟的；道信<quote>「就而證之
+<lb n="0110a12" ed="Y"/><p xml:id="pY40p0110a1201" style="text-indent:2em">這應該是牛頭宗方面的傳說。法融<quote>「得自然智慧」</quote>，並不是從道信得悟的；道信<quote>「就而證之
 <lb n="0110a13" ed="Y"/>」</quote>，是道信到牛頭山來，而不是法融到黃梅去，這都是維持了牛頭禪獨立的尊嚴。既經過道信的
 <lb n="0110a14" ed="Y"/>印證，也就有了師資的意義。但這是<quote>「無上覺路，分為此宗」</quote>，是一分為二，與弘忍的東山宗，
 <lb n="0110a15" ed="Y"/>分庭抗禮。相信這是牛頭山傳說的原始意義。</p>
 <pb n="0111a" ed="Y" xml:id="Y40.0038.0111a"/>
-<lb n="0111a01" ed="Y"/><p style="text-indent:2em">太和三年（八二九），牛頭山為法融建新塔，劉禹錫作記。雖還是一分為二，而多少有了變
-<lb n="0111a02" ed="Y"/>化，如<title level="a">〈牛頭山第一祖融大師新塔記〉</title><note place="inline"><bibl><title level="m">《全唐文》</title><biblScope type="卷" n="606">卷六〇六</biblScope></bibl></note>說：</p>
-<lb n="0111a03" ed="Y"/><p style="margin-left:3em">（達摩）<quote>「東來中華，華人奉之為第一祖。又三傳至雙峯信公，雙峯廣其道而歧之：一為
+<lb n="0111a01" ed="Y"/><p xml:id="pY40p0111a0101" style="text-indent:2em">太和三年（八二九），牛頭山為法融建新塔，劉禹錫作記。雖還是一分為二，而多少有了變
+<lb n="0111a02" ed="Y"/>化，如<title level="a">〈牛頭山第一祖融大師新塔記〉</title><note place="inline"><bibl><title level="m">《全唐文》</title><biblScope n="606" type="卷">卷六〇六</biblScope></bibl></note>說：</p>
+<lb n="0111a03" ed="Y"/><p xml:id="pY40p0111a0301" style="margin-left:3em">（達摩）<quote>「東來中華，華人奉之為第一祖。又三傳至雙峯信公，雙峯廣其道而歧之：一為
 <lb n="0111a04" ed="Y"/>東山宗，能、秀、寂，其後也。一為牛頭宗，巖、持、威、鶴林、徑山，其後也」</quote>。</p>
-<lb n="0111a05" ed="Y"/><quote><p style="margin-left:3em">「貞觀中，雙峯過江，望牛頭，頓錫曰：此山有道氣，宜有得之者。乃東，果與（融）大
+<lb n="0111a05" ed="Y"/><quote><p xml:id="pY40p0111a0501" style="margin-left:3em">「貞觀中，雙峯過江，望牛頭，頓錫曰：此山有道氣，宜有得之者。乃東，果與（融）大
 <lb n="0111a06" ed="Y"/>師相遇。性合神契，至於無言，同躋智地，密付真印，揭立江左」。</p></quote>
-<lb n="0111a07" ed="Y"/><p style="text-indent:2em">這還是一分為二，法融本來就是得道者。但「密付真印」，又多少有所傳受。牛頭山仰推道
-<lb n="0111a08" ed="Y"/>信，而想保持江東禪的獨立性，與東山法門對立，實在是不容易的。牛頭的傳說，雖<note n="0111a0801" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0111a0801"><lem wit="【CB】" resp="CBETA">強</lem><rdg wit="【印順】">强</rdg></app>調法融的
+<lb n="0111a07" ed="Y"/><p xml:id="pY40p0111a0701" style="text-indent:2em">這還是一分為二，法融本來就是得道者。但「密付真印」，又多少有所傳受。牛頭山仰推道
+<lb n="0111a08" ed="Y"/>信，而想保持江東禪的獨立性，與東山法門對立，實在是不容易的。牛頭的傳說，雖<note n="0111a0801" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0111a0801"><lem resp="CBETA" wit="【CB】">強</lem><rdg wit="【印順】">强</rdg></app>調法融的
 <lb n="0111a09" ed="Y"/>獨立性，但承認道信的傳承，就顯得法融的本來沒有徹底了。後來曹溪門下，順著牛頭宗的傳說
 <lb n="0111a10" ed="Y"/>而加上幾句，牛頭禪就成為達摩禪系的旁支。在大一統的時代，終於為曹溪禪所銷融了。</p></cb:div></cb:div>
 <lb n="0111a11" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　牛頭法融的禪學</cb:mulu><head>第三節　牛頭法融的禪學</head>
-<lb n="0111a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">有關法融的作品</cb:mulu><head>有關法融的作品</head><p style="text-indent:2em">牛頭禪仰推法融為初祖，法融的禪學，代表了牛頭禪的早期形態。法融是
+<lb n="0111a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">有關法融的作品</cb:mulu><head>有關法融的作品</head><p xml:id="pY40p0111a1215" style="text-indent:2em">牛頭禪仰推法融為初祖，法融的禪學，代表了牛頭禪的早期形態。法融是
 <lb n="0111a13" ed="Y"/>宣講經論，兼有著作的禪者。道宣曾<quote>「覽其指要，聊一觀之都融，融實斯融，斯言是矣」</quote><note place="inline">大正<ref target="#vol:50;page:p605b" type="taisho">五
 <lb n="0111a14" ed="Y"/>〇．六〇五中</ref></note>。道宣雖讚譽他的融通，卻沒有明說是什麼作品。到佛窟遺則，才<quote>「集融祖師文三卷
 <pb n="0112a" ed="Y" xml:id="Y40.0038.0112a"/>
@@ -497,24 +517,24 @@
 <lb n="0112a03" ed="Y"/><title level="m">《宗鏡錄》</title>，<title level="m">《萬善同歸集》</title>等，一再引用了法融的著作與言論。參照日僧（九世紀）從溫州、
 <lb n="0112a04" ed="Y"/>臺州、明州、越州取去的書目，注明「牛頭」的，主要有<title level="m">《絕觀論》</title>，<title level="m">《信心銘》</title>，<title level="m">《淨名經私
 <lb n="0112a05" ed="Y"/>記》</title>，<title level="m">《華嚴經私記》</title>，<title level="m">《法華經名相》</title>。</p>
-<lb n="0112a06" ed="Y"/><p style="text-indent:2em"><title level="m">《絕觀論》</title>：宗密（七八〇——八四一）<cit><bibl><title level="m">《圓覺經大疏鈔》</title><biblScope type="卷" n="11">卷一一</biblScope>上說：</bibl><quote>「牛頭融大師有絕
-<lb n="0112a07" ed="Y"/>觀論」</quote></cit><note place="inline">續<ref target="#vol:9;page:p707c" type="wxzj">一四．四五三<note n="0112a0701" resp="CBETA" type="add">（卍新續九七〇七下）【CB】，［－］【印順】</note><app n="0112a0701"><lem wit="【CB】" resp="正聞出版社">（卍新續九．七〇七下）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>。延壽<cit><bibl><title level="m">《宗鏡錄》</title><biblScope type="卷" n="97">卷九七</biblScope>，引</bibl><quote>「牛頭融大師絕觀論」</quote></cit><note place="inline">大正<ref target="#vol:48;page:p941a" type="taisho">四八．九四一上</ref>——
+<lb n="0112a06" ed="Y"/><p xml:id="pY40p0112a0601" style="text-indent:2em"><title level="m">《絕觀論》</title>：宗密（七八〇——八四一）<cit><bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="11" type="卷">卷一一</biblScope>上說：</bibl><quote>「牛頭融大師有絕
+<lb n="0112a07" ed="Y"/>觀論」</quote></cit><note place="inline">續<ref target="#vol:9;page:p707c" type="wxzj">一四．四五三<note n="0112a0701" resp="CBETA" type="add">（卍新續九七〇七下）【CB】，［－］【印順】</note><app n="0112a0701"><lem resp="正聞出版社" wit="【CB】">（卍新續九．七〇七下）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>。延壽<cit><bibl><title level="m">《宗鏡錄》</title><biblScope n="97" type="卷">卷九七</biblScope>，引</bibl><quote>「牛頭融大師絕觀論」</quote></cit><note place="inline">大正<ref target="#vol:48;page:p941a" type="taisho">四八．九四一上</ref>——
 <lb n="0112a08" ed="Y"/>中</note>。<title level="m">《絕觀論》</title>為牛頭法融所作，是當時的一致傳說。唐貞元二十一年（八〇五），日僧來唐取
 <lb n="0112a09" ed="Y"/>回的<title level="m">《傳教大師越州錄》</title>中，就有<title level="m">《絕觀論》</title>一卷。到近代，<title level="m">《絕觀論》</title>在燉煌發見了，除北京
 <lb n="0112a10" ed="Y"/>國立圖書館本，石井光雄藏本外，伯希和所得的，就有三本，編號為二〇七四，二七三二，二八
 <lb n="0112a11" ed="Y"/>八五。國立圖書館本，內題<quote>「觀行法，為有緣無名上士集」</quote>。鈴木大拙解說為：<quote>「觀行法，無名
 <lb n="0112a12" ed="Y"/>上士集」</quote>。認為無名是神會弟子洛陽無名，推論為屬於神會系統。後來，見二七三二號本，末題
 <lb n="0112a13" ed="Y"/><title level="m">《達摩和尚絕觀論》</title>，而此論與（斯坦因五六一九號）燉煌本<title level="m">《達摩和尚無心論》</title>，為姊妹作，
-<lb n="0112a14" ed="Y"/>因而推論為從達摩到慧能時代的禪要。然<cit><bibl><title level="m">《絕觀論》</title>發端說：</bibl><quote>「夫大道<note n="0112a1401" resp="CBETA" type="add" subtype="規範字詞">沖【CB】，冲【印順】</note><app n="0112a1401"><lem wit="【CB】" resp="CBETA">沖</lem><rdg wit="【印順】">冲</rdg></app>虛幽寂，不可以心會，
+<lb n="0112a14" ed="Y"/>因而推論為從達摩到慧能時代的禪要。然<cit><bibl><title level="m">《絕觀論》</title>發端說：</bibl><quote>「夫大道<note n="0112a1401" resp="CBETA" type="add" subtype="規範字詞">沖【CB】，冲【印順】</note><app n="0112a1401"><lem resp="CBETA" wit="【CB】">沖</lem><rdg wit="【印順】">冲</rdg></app>虛幽寂，不可以心會，
 <lb n="0112a15" ed="Y"/>不可以言宣，今者假立二人共談」</quote></cit>。假立師資二人——弟子為「緣門」，老師是「入理」，全書
 <pb n="0113a" ed="Y" xml:id="Y40.0038.0113a"/>
 <lb n="0113a01" ed="Y"/>為問答體裁。在一百零七番問答後，這樣說：</p>
-<lb n="0113a02" ed="Y"/><quote><p style="margin-left:3em">「不知先生向來問答，名誰何法？……汝欲流通於世，寄問假名，請若收蹤，故言絕觀論
+<lb n="0113a02" ed="Y"/><quote><p xml:id="pY40p0113a0201" style="margin-left:3em">「不知先生向來問答，名誰何法？……汝欲流通於世，寄問假名，請若收蹤，故言絕觀論
 <lb n="0113a03" ed="Y"/>也」。</p></quote>
-<lb n="0113a04" ed="Y"/><p style="text-indent:2em"><title level="m">《絕觀論》</title>是論名。假設師弟二人——緣門與入理的問答，所以也有題作「入理緣門」或「
+<lb n="0113a04" ed="Y"/><p xml:id="pY40p0113a0401" style="text-indent:2em"><title level="m">《絕觀論》</title>是論名。假設師弟二人——緣門與入理的問答，所以也有題作「入理緣門」或「
 <lb n="0113a05" ed="Y"/>緣門論」的。二七三二號本卷首作：</p>
-<lb n="0113a06" ed="Y"/><p style="margin-left:3em">入理緣門一卷　<note place="inline">麁是<note n="0113a0601" resp="CBETA" type="add">問【CB】，門【印順】</note><app n="0113a0601"><lem wit="【CB】" resp="正聞出版社">問<note type="cf1">《大藏經補編》18冊（p.693）</note></lem><rdg wit="【印順】">門</rdg></app>頭緣門起決，注是答語入理除疑</note><note n="0113001" resp="厚觀法師" type="add">《大藏經補編》18冊（p.693）</note>　是名絕觀論</p>
-<lb n="0113a07" ed="Y"/><p style="text-indent:2em"><quote>「麁是<note n="0113a0701" resp="CBETA" type="add">問【CB】，門【印順】</note><app n="0113a0701"><lem wit="【CB】" resp="正聞出版社">問</lem><rdg wit="【印順】">門</rdg></app>頭緣門起決，注是答語入理除疑」</quote>，這是緣門與入理的解說。國立圖書館本的<quote>「為
+<lb n="0113a06" ed="Y"/><p xml:id="pY40p0113a0601" style="margin-left:3em">入理緣門一卷　<note place="inline">麁是<note n="0113a0601" resp="CBETA" type="add">問【CB】，門【印順】</note><app n="0113a0601"><lem resp="正聞出版社" wit="【CB】">問<note type="cf1">《大藏經補編》18冊（p.693）</note></lem><rdg wit="【印順】">門</rdg></app>頭緣門起決，注是答語入理除疑</note><note n="0113001" resp="厚觀法師" type="add">《大藏經補編》18冊（p.693）</note>　是名絕觀論</p>
+<lb n="0113a07" ed="Y"/><p xml:id="pY40p0113a0701" style="text-indent:2em"><quote>「麁是<note n="0113a0701" resp="CBETA" type="add">問【CB】，門【印順】</note><app n="0113a0701"><lem resp="正聞出版社" wit="【CB】">問</lem><rdg wit="【印順】">門</rdg></app>頭緣門起決，注是答語入理除疑」</quote>，這是緣門與入理的解說。國立圖書館本的<quote>「為
 <lb n="0113a08" ed="Y"/>有緣無名上士集」</quote>，應該是入理與緣門的又一解說。以有緣解說緣門，無名解說入理。緣門與入
 <lb n="0113a09" ed="Y"/>理，假設為師資二人，有緣與無名，也就稱為上士了。漠視「有緣」二字，而以無名為洛陽無名
 <lb n="0113a10" ed="Y"/>，是不妥當的。禪者的作品，傳出而沒有標明作者名字，在達摩禪的盛行中，有些就被加上「達
@@ -522,54 +542,54 @@
 <lb n="0113a12" ed="Y"/>大師信心銘》</title>等，這都不能據達摩字樣，而推定為達摩禪法的。關口真大<title level="m">《達摩大師之研究》</title>，
 <lb n="0113a13" ed="Y"/>證明了<title level="m">《宗鏡錄》</title>的融大師說，與<title level="m">《絕觀論》</title>中的十一個問答相合。<title level="m">《祖堂集》</title>（九五二）牛頭
 <lb n="0113a14" ed="Y"/>法融傳，也有六項問答與<title level="m">《絕觀論》</title>相合<note place="inline">九九——一〇二</note>。所以<title level="m">《絕觀論》</title>是法融所作，是無可
-<lb n="0113a15" ed="Y"/>懷疑的。<bibl><title level="m">《宗鏡錄》</title><biblScope type="卷" n="97">卷九七</biblScope></bibl>引<title level="m">《絕觀論》</title>，而為燉煌本<title level="m">《絕觀論》</title>所沒有，那只是<title level="m">《絕觀論》</title>在
+<lb n="0113a15" ed="Y"/>懷疑的。<bibl><title level="m">《宗鏡錄》</title><biblScope n="97" type="卷">卷九七</biblScope></bibl>引<title level="m">《絕觀論》</title>，而為燉煌本<title level="m">《絕觀論》</title>所沒有，那只是<title level="m">《絕觀論》</title>在
 <pb n="0114a" ed="Y" xml:id="Y40.0038.0114a"/>
-<lb n="0114a01" ed="Y"/>流傳中的變化，有不同的本子<note n="0114a0101" resp="CBETA" type="add">罷【CB】，吧【印順】</note><app n="0114a0101"><lem wit="【CB】" resp="正聞出版社">罷</lem><rdg wit="【印順】">吧</rdg></app>了！</p>
-<lb n="0114a02" ed="Y"/><p style="text-indent:2em"><title level="m">《信心銘》</title>與<title level="m">《心銘》</title>：<bibl><title level="m">《傳燈錄》</title><biblScope type="卷" n="30">卷三〇</biblScope></bibl>，有<title level="a">〈三祖僧璨大師信心銘〉</title>、<title level="a">〈牛頭山初祖法
+<lb n="0114a01" ed="Y"/>流傳中的變化，有不同的本子<note n="0114a0101" resp="CBETA" type="add">罷【CB】，吧【印順】</note><app n="0114a0101"><lem resp="正聞出版社" wit="【CB】">罷</lem><rdg wit="【印順】">吧</rdg></app>了！</p>
+<lb n="0114a02" ed="Y"/><p xml:id="pY40p0114a0201" style="text-indent:2em"><title level="m">《信心銘》</title>與<title level="m">《心銘》</title>：<bibl><title level="m">《傳燈錄》</title><biblScope n="30" type="卷">卷三〇</biblScope></bibl>，有<title level="a">〈三祖僧璨大師信心銘〉</title>、<title level="a">〈牛頭山初祖法
 <lb n="0114a03" ed="Y"/>融禪師心銘〉</title>二篇<note place="inline">大正<ref target="#vol:51;page:p457a" type="taisho">五一．四五七上</ref>——<ref target="#vol:51;page:p458a" type="taisho">四五八上</ref></note>。<title level="m">《信心銘》</title>，傳說三祖僧璨所作，<title level="m">《百丈廣錄
-<lb n="0114a04" ed="Y"/>》</title>（百丈為七四九——八一四）已明白說到。僧璨的事<note n="0114a0401" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0114a0401"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>不明，直到<title level="m">《曆代法寶記》</title>與<title level="m">《寶林傳
+<lb n="0114a04" ed="Y"/>》</title>（百丈為七四九——八一四）已明白說到。僧璨的事<note n="0114a0401" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0114a0401"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>不明，直到<title level="m">《曆代法寶記》</title>與<title level="m">《寶林傳
 <lb n="0114a05" ed="Y"/>》</title>，都還沒有說僧璨造<title level="m">《信心銘》</title>。後代依百丈傳說，都以為是僧璨所作的。<title level="m">《宗鏡錄》</title>——延
 <lb n="0114a06" ed="Y"/>壽依當時當地的傳說，「心銘」也是稱為<title level="m">《信心銘》</title>，而是看作法融所造的，如說：</p>
-<lb n="0114a07" ed="Y"/><p style="margin-left:3em"><quote>「融大師信心銘云：欲得心淨，無心用功」</quote><note place="inline">大正<ref target="#vol:48;page:p496b" type="taisho">四八．四九六中</ref></note>。</p>
-<lb n="0114a08" ed="Y"/><p style="margin-left:3em"><quote>「融大師信心銘云：惺惺了知，見網轉彌。寂寂無見，闇室不移。惺惺無妄，寂寂寥（燈
+<lb n="0114a07" ed="Y"/><p xml:id="pY40p0114a0701" style="margin-left:3em"><quote>「融大師信心銘云：欲得心淨，無心用功」</quote><note place="inline">大正<ref target="#vol:48;page:p496b" type="taisho">四八．四九六中</ref></note>。</p>
+<lb n="0114a08" ed="Y"/><p xml:id="pY40p0114a0801" style="margin-left:3em"><quote>「融大師信心銘云：惺惺了知，見網轉彌。寂寂無見，闇室不移。惺惺無妄，寂寂寥（燈
 <lb n="0114a09" ed="Y"/>錄作「明」）亮。寶印真宗（燈錄作「萬象常真」），森羅一相」</quote><note place="inline">大正<ref target="#vol:48;page:p637a" type="taisho">四八．六三七上</ref></note>。</p>
-<lb n="0114a10" ed="Y"/><p style="margin-left:3em"><quote>「信心銘云：前際如空，知處悉（燈錄作「迷」）宗。分明照境，隨照冥蒙。一心有滯，
+<lb n="0114a10" ed="Y"/><p xml:id="pY40p0114a1001" style="margin-left:3em"><quote>「信心銘云：前際如空，知處悉（燈錄作「迷」）宗。分明照境，隨照冥蒙。一心有滯，
 <lb n="0114a11" ed="Y"/>萬（燈錄作「諸」）法不通。去來自爾，不用（燈錄作「胡假」）推窮」</quote><note place="inline">大正<ref target="#vol:48;page:p444b" type="taisho">四八．四四四中</ref>
 <lb n="0114a12" ed="Y"/></note>。</p>
-<lb n="0114a13" ed="Y"/><p style="margin-left:3em"><quote>「信心銘云：縱橫無照，最為微妙！知法無知，無知知要」</quote><note place="inline">大正<ref target="#vol:48;page:p463a" type="taisho">四八．四六三上</ref></note>。</p>
-<lb n="0114a14" ed="Y"/><p style="text-indent:2em">明說是「信心銘」，或「融大師信心銘」，而實是<title level="m">《心銘》</title>。當然，延壽引用<title level="m">《信心銘》</title>，
+<lb n="0114a13" ed="Y"/><p xml:id="pY40p0114a1301" style="margin-left:3em"><quote>「信心銘云：縱橫無照，最為微妙！知法無知，無知知要」</quote><note place="inline">大正<ref target="#vol:48;page:p463a" type="taisho">四八．四六三上</ref></note>。</p>
+<lb n="0114a14" ed="Y"/><p xml:id="pY40p0114a1401" style="text-indent:2em">明說是「信心銘」，或「融大師信心銘」，而實是<title level="m">《心銘》</title>。當然，延壽引用<title level="m">《信心銘》</title>，
 <lb n="0114a15" ed="Y"/>而確是<title level="m">《信心銘》</title>的，也有六則。現存的<title level="m">《心銘》</title>與<title level="m">《信心銘》</title>，可說是姊妹篇。思想相近，所
 <pb n="0115a" ed="Y" xml:id="Y40.0038.0115a"/>
 <lb n="0115a01" ed="Y"/>說的問題相近，類似的句子也不少；<title level="m">《信心銘》</title>要精練些。依延壽——江東所傳，<title level="m">《信心銘》</title>有
 <lb n="0115a02" ed="Y"/>不同的二本（即今<title level="m">《心銘》</title>與<title level="m">《信心銘》</title>），但都是牛頭法融作的。這可能<title level="m">《心銘》</title>是初傳本，
 <lb n="0115a03" ed="Y"/><title level="m">《信心銘》</title>是（後人）精治本。以<title level="m">《信心銘》</title>為三祖僧璨所作，只是江西方面洪州宗的傳說。</p>
-<lb n="0115a04" ed="Y"/><p style="text-indent:2em"><title level="m">《宗鏡錄》</title>引用了<title level="m">《淨名經私記》</title>（<note n="0115a0401" resp="CBETA" type="add">七【CB】，五【印順】</note><app n="0115a0401"><lem wit="【CB】" resp="正聞出版社">七</lem><rdg wit="【印順】">五</rdg></app>則），<title level="m">《華嚴經私記》</title>（<note n="0115a0402" resp="CBETA" type="add">六【CB】，四【印順】</note><app n="0115a0402"><lem wit="【CB】" resp="正聞出版社">六</lem><rdg wit="【印順】">四</rdg></app>則），<title level="m">《法華名相》</title>（一
+<lb n="0115a04" ed="Y"/><p xml:id="pY40p0115a0401" style="text-indent:2em"><title level="m">《宗鏡錄》</title>引用了<title level="m">《淨名經私記》</title>（<note n="0115a0401" resp="CBETA" type="add">七【CB】，五【印順】</note><app n="0115a0401"><lem resp="正聞出版社" wit="【CB】">七</lem><rdg wit="【印順】">五</rdg></app>則），<title level="m">《華嚴經私記》</title>（<note n="0115a0402" resp="CBETA" type="add">六【CB】，四【印順】</note><app n="0115a0402"><lem resp="正聞出版社" wit="【CB】">六</lem><rdg wit="【印順】">四</rdg></app>則），<title level="m">《法華名相》</title>（一
 <lb n="0115a05" ed="Y"/>則）。牛頭而講經的，似乎只是法融，後來者都偏重於禪，所以注明「牛頭」的，不是法融著作
 <lb n="0115a06" ed="Y"/>，就是學者所記而傳下來的。<title level="m">《絕觀論》</title>，<title level="m">《信心銘》</title>等，代表了牛頭禪（法融）的早期思想。</p></cb:div>
-<lb n="0115a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">牛頭禪的根本思想</cb:mulu><head>牛頭禪的根本思想</head><p style="text-indent:2em"><title level="m">《絕觀論》</title>（及<title level="m">《無心論》</title>），<title level="m">《心銘》</title>（及<title level="m">《信心銘》</title>）所代表的牛
-<lb n="0115a08" ed="Y"/>頭禪學，與達摩禪系的東山系，原是明顯相對立的。法融卒於<note n="0115a0801" resp="CBETA" type="add">顯慶二【CB】，永徽三【印順】</note><app n="0115a0801"><lem wit="【CB】" resp="正聞出版社">顯慶二</lem><rdg wit="【印順】">永徽三</rdg></app>年（六五<note n="0115a0802" resp="CBETA" type="add">七【CB】，二【印順】</note><app n="0115a0802"><lem wit="【CB】" resp="正聞出版社">七</lem><rdg wit="【印順】">二</rdg></app>），比道信遲<note n="0115a0803" resp="CBETA" type="add">六【CB】，一【印順】</note><app n="0115a0803"><lem wit="【CB】" resp="正聞出版社">六</lem><rdg wit="【印順】">一</rdg></app>
+<lb n="0115a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">牛頭禪的根本思想</cb:mulu><head>牛頭禪的根本思想</head><p xml:id="pY40p0115a0717" style="text-indent:2em"><title level="m">《絕觀論》</title>（及<title level="m">《無心論》</title>），<title level="m">《心銘》</title>（及<title level="m">《信心銘》</title>）所代表的牛
+<lb n="0115a08" ed="Y"/>頭禪學，與達摩禪系的東山系，原是明顯相對立的。法融卒於<note n="0115a0801" resp="CBETA" type="add">顯慶二【CB】，永徽三【印順】</note><app n="0115a0801"><lem resp="正聞出版社" wit="【CB】">顯慶二</lem><rdg wit="【印順】">永徽三</rdg></app>年（六五<note n="0115a0802" resp="CBETA" type="add">七【CB】，二【印順】</note><app n="0115a0802"><lem resp="正聞出版社" wit="【CB】">七</lem><rdg wit="【印順】">二</rdg></app>），比道信遲<note n="0115a0803" resp="CBETA" type="add">六【CB】，一【印順】</note><app n="0115a0803"><lem resp="正聞出版社" wit="【CB】">六</lem><rdg wit="【印順】">一</rdg></app>
 <lb n="0115a09" ed="Y"/>年。達摩禪從「二入四行」的「安心」，及傳說的「安心法門」，道信的「入道安心要方便」以
 <lb n="0115a10" ed="Y"/>來，一貫以「安心方便」著名。而道信從「念佛心是佛」，樹立了「即心是佛」，「心淨成佛」
 <lb n="0115a11" ed="Y"/>，更顯出<title level="m">《楞伽》</title>佛語心（後人說<quote>「佛語心為宗」</quote>）的特色。對於這，牛頭禪採取了獨特的立場
 <lb n="0115a12" ed="Y"/>，如<title level="m">《絕觀論》</title><note place="inline">第一問答</note>說：</p>
-<lb n="0115a13" ed="Y"/><quote><p style="margin-left:3em">「問曰：云何名心？云何安心」？</p></quote>
-<lb n="0115a14" ed="Y"/><quote><p style="margin-left:3em">「答曰：汝不<note n="0115a1401" resp="CBETA" type="add" subtype="規範字詞">須【CB】，湏【印順】</note><app n="0115a1401"><lem wit="【CB】" resp="CBETA">須</lem><rdg wit="【印順】">湏</rdg></app>立心，亦不<note n="0115a1402" resp="CBETA" type="add" subtype="規範字詞">須【CB】，湏【印順】</note><app n="0115a1402"><lem wit="【CB】" resp="CBETA">須</lem><rdg wit="【印順】">湏</rdg></app><note n="0115a1403" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0115a1403"><lem wit="【CB】" resp="CBETA">強</lem><rdg wit="【印順】">强</rdg></app>安，可謂安矣」！</p></quote>
-<lb n="0115a15" ed="Y"/><p style="text-indent:2em">只此開宗明義，便顯出了牛頭與東山的顯著對立。牛頭禪獨到的立場，試從<title level="m">《絕觀論》</title>的不
+<lb n="0115a13" ed="Y"/><quote><p xml:id="pY40p0115a1301" style="margin-left:3em">「問曰：云何名心？云何安心」？</p></quote>
+<lb n="0115a14" ed="Y"/><quote><p xml:id="pY40p0115a1401" style="margin-left:3em">「答曰：汝不<note n="0115a1401" resp="CBETA" type="add" subtype="規範字詞">須【CB】，湏【印順】</note><app n="0115a1401"><lem resp="CBETA" wit="【CB】">須</lem><rdg wit="【印順】">湏</rdg></app>立心，亦不<note n="0115a1402" resp="CBETA" type="add" subtype="規範字詞">須【CB】，湏【印順】</note><app n="0115a1402"><lem resp="CBETA" wit="【CB】">須</lem><rdg wit="【印順】">湏</rdg></app><note n="0115a1403" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0115a1403"><lem resp="CBETA" wit="【CB】">強</lem><rdg wit="【印順】">强</rdg></app>安，可謂安矣」！</p></quote>
+<lb n="0115a15" ed="Y"/><p xml:id="pY40p0115a1501" style="text-indent:2em">只此開宗明義，便顯出了牛頭與東山的顯著對立。牛頭禪獨到的立場，試從<title level="m">《絕觀論》</title>的不
 <pb n="0116a" ed="Y" xml:id="Y40.0038.0116a"/>
 <lb n="0116a01" ed="Y"/>同傳本比較去著手。延壽<bibl><title level="m">《宗鏡錄》</title><biblScope n="97" type="卷">卷九七</biblScope></bibl><note place="inline">大正<ref target="#vol:48;page:p941a" type="taisho">四八．九四一上</ref></note>說：</p>
-<lb n="0116a02" ed="Y"/><quote><p style="margin-left:3em">「牛頭融大師絕觀論：問云：何者是心？答：六根所觀，並悉是心。問：心若為？答：心
+<lb n="0116a02" ed="Y"/><quote><p xml:id="pY40p0116a0201" style="margin-left:3em">「牛頭融大師絕觀論：問云：何者是心？答：六根所觀，並悉是心。問：心若為？答：心
 <lb n="0116a03" ed="Y"/>寂滅」。</p></quote>
-<lb n="0116a04" ed="Y"/><quote><p style="margin-left:3em">「問：何者為體？答：心為體。問：何者為宗？答：心為宗。問：何者為本？答：心為本
+<lb n="0116a04" ed="Y"/><quote><p xml:id="pY40p0116a0401" style="margin-left:3em">「問：何者為體？答：心為體。問：何者為宗？答：心為宗。問：何者為本？答：心為本
 <lb n="0116a05" ed="Y"/>」。</p></quote>
-<lb n="0116a06" ed="Y"/><quote><p style="margin-left:3em">「問：若為是定慧雙遊？云：心性寂滅為定，常解寂滅為慧。問：何者是智？云：境起解
-<lb n="0116a07" ed="Y"/>是智。何者是境？云：自身心性為境。問：何者是舒？云：照用為舒。何者為卷？云：<note n="0116a0701" resp="CBETA" type="add">心【CB】，［－］【印順】</note><app n="0116a0701"><lem wit="【CB】" resp="正聞出版社">心<note type="cf1">《宗鏡錄》卷97(CBETA, T48, no. 2016, p. 941, a28-b5)</note></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>寂
-<lb n="0116a08" ed="Y"/>滅無<note n="0116a0801" resp="CBETA" type="add">去來【CB】，來去【印順】</note><app n="0116a0801"><lem wit="【CB】" resp="正聞出版社">去來</lem><rdg wit="【印順】">來去</rdg></app>為卷。舒則彌遊法界，卷則定（疑是「蹤」字）跡難尋。問：何者是法界？云：
+<lb n="0116a06" ed="Y"/><quote><p xml:id="pY40p0116a0601" style="margin-left:3em">「問：若為是定慧雙遊？云：心性寂滅為定，常解寂滅為慧。問：何者是智？云：境起解
+<lb n="0116a07" ed="Y"/>是智。何者是境？云：自身心性為境。問：何者是舒？云：照用為舒。何者為卷？云：<note n="0116a0701" resp="CBETA" type="add">心【CB】，［－］【印順】</note><app n="0116a0701"><lem resp="正聞出版社" wit="【CB】">心<note type="cf1">《宗鏡錄》卷97(CBETA, T48, no. 2016, p. 941, a28-b5)</note></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>寂
+<lb n="0116a08" ed="Y"/>滅無<note n="0116a0801" resp="CBETA" type="add">去來【CB】，來去【印順】</note><app n="0116a0801"><lem resp="正聞出版社" wit="【CB】">去來</lem><rdg wit="【印順】">來去</rdg></app>為卷。舒則彌遊法界，卷則定（疑是「蹤」字）跡難尋。問：何者是法界？云：
 <lb n="0116a09" ed="Y"/>邊表不可得，名為法界」。<note n="0116001" resp="厚觀法師" type="add">《宗鏡錄》卷97(CBETA, T48, no. 2016, p. 941, a28-b5)</note></p></quote>
-<lb n="0116a10" ed="Y"/><p style="text-indent:2em"><title level="m">《宗鏡錄》</title>所引的<title level="m">《絕觀論》</title>文，燉煌本是沒有的，但這決非另一部論，而只是在長期流傳
+<lb n="0116a10" ed="Y"/><p xml:id="pY40p0116a1001" style="text-indent:2em"><title level="m">《宗鏡錄》</title>所引的<title level="m">《絕觀論》</title>文，燉煌本是沒有的，但這決非另一部論，而只是在長期流傳
 <lb n="0116a11" ed="Y"/>中，有了變化而成不同的本子。如上所引的，可稱之為甲本。此外，延壽就引用了意義相關的不
 <lb n="0116a12" ed="Y"/>同本子——乙本與丙本。燉煌出土或作<title level="m">《達摩大師絕觀論》</title>的，又是一本，可稱為丁本。今比對
 <lb n="0116a13" ed="Y"/>後三本如下：</p>
-<lb n="0116a14" ed="Y"/><table cols="3" style="margin-left:3em"><row><cell style="border-bottom:none"><note place="inline">乙</note>《注心賦》三<note place="inline">續一一一．四七<note n="0116a1401" resp="CBETA" type="add">（卍新續六三一二八下）【CB】，［－］【印順】</note><app n="0116a1401"><lem wit="【CB】" resp="正聞出版社">（卍新續六三．一二八下）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></note></cell><cell style="border-bottom:none"><note place="inline">丙</note>《注心賦》三<note place="inline">續一一一．五〇<note n="0116a1402" resp="CBETA" type="add">（卍新續六三一三一上中）【CB】，［－］【印順】</note><app n="0116a1402"><lem wit="【CB】" resp="正聞出版社">（卍新續六三．一三一上——中）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></note></cell><cell style="border-bottom:none"><note place="inline">丁</note>燉煌本《絕觀論》</cell></row><row><cell style="border-top:none">
+<lb n="0116a14" ed="Y"/><table cols="3" style="margin-left:3em"><row><cell style="border-bottom:none"><note place="inline">乙</note>《注心賦》三<note place="inline">續一一一．四七<note n="0116a1401" resp="CBETA" type="add">（卍新續六三一二八下）【CB】，［－］【印順】</note><app n="0116a1401"><lem resp="正聞出版社" wit="【CB】">（卍新續六三．一二八下）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></note></cell><cell style="border-bottom:none"><note place="inline">丙</note>《注心賦》三<note place="inline">續一一一．五〇<note n="0116a1402" resp="CBETA" type="add">（卍新續六三一三一上中）【CB】，［－］【印順】</note><app n="0116a1402"><lem resp="正聞出版社" wit="【CB】">（卍新續六三．一三一上——中）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></note></cell><cell style="border-bottom:none"><note place="inline">丁</note>燉煌本《絕觀論》</cell></row><row><cell style="border-top:none">
 <lb n="0116a15" ed="Y"/></cell><cell style="border-top:none">《宗鏡錄》七七<note place="inline">大正四八．八四二中</note></cell><cell style="border-top:none"></cell></row><row><cell>
 <pb n="0117a" ed="Y" xml:id="Y40.0038.0117a"/>
 <lb n="0117a01" ed="Y"/>「絕觀論云：云何為宗？答：心為宗。云何為本？答：心為本」。</cell><cell></cell><cell></cell></row><row><cell>
@@ -579,14 +599,14 @@
 <lb n="0117a05" ed="Y"/>
 <lb n="0117a06" ed="Y"/>
 <lb n="0117a07" ed="Y"/>
-<lb n="0117a08" ed="Y"/><p style="text-indent:2em">這四種本子，甲為一類，乙為一類，丙與丁為一類。丙本與丁本，但明「道本」與「法用」
+<lb n="0117a08" ed="Y"/><p xml:id="pY40p0117a0801" style="text-indent:2em">這四種本子，甲為一類，乙為一類，丙與丁為一類。丙本與丁本，但明「道本」與「法用」
 <lb n="0117a09" ed="Y"/>。乙本卻說為「法體」與「法用」。丙本與丁本，但明「本」與「用」，乙本卻分為二類：「宗
 <lb n="0117a10" ed="Y"/>」與「本」，「體」與「用」，而說以「心為宗」，「心為本」。甲本作「心為體」，「心為宗
 <lb n="0117a11" ed="Y"/>」，「心為本」。從「道本」，「法本」而「心本」，是演變的過程。<cit><bibl><title level="m">《壇經》</title>說：</bibl><quote>「無相為體
 <lb n="0117a12" ed="Y"/>，無住為本，無念為宗」</quote></cit>。體，宗，本——三者並舉，是<title level="m">《壇經》</title>的特色。甲本舉三者而以一「
 <lb n="0117a13" ed="Y"/>心」來統攝，顯然是參考了<title level="m">《壇經》</title>，與「即心是佛」的思想相融合。從法融的思想來看，是以
 <lb n="0117a14" ed="Y"/>「道為本」的；丙本與丁本，更近於牛頭舊有的思想。</p>
-<lb n="0117a15" ed="Y"/><p style="text-indent:2em">「空為道本」，「無心合道」，可作為牛頭禪的標幟，代表法融的禪學。「道」，在中國文
+<lb n="0117a15" ed="Y"/><p xml:id="pY40p0117a1501" style="text-indent:2em">「空為道本」，「無心合道」，可作為牛頭禪的標幟，代表法融的禪學。「道」，在中國文
 <pb n="0118a" ed="Y" xml:id="Y40.0038.0118a"/>
 <lb n="0118a01" ed="Y"/>化中，是一最重要的術語，為各家所共用。而老莊的形而上學，更以「道」為本（體），闡述現
 <lb n="0118a02" ed="Y"/>象界的原理，與人類應遵循的自然律。佛法傳到中國來，譯為中國文字，原是不能避免中國文字
@@ -600,7 +620,7 @@
 <lb n="0118a10" ed="Y"/>本淨的勝義中，菩提（道）也被形容為寂滅，不二，不生不滅，與老莊的「道」更接近些。所以
 <lb n="0118a11" ed="Y"/>在中國佛法中，「大道」，「至道」，「入道」——這一類名詞，始終流傳著，特別是江東，清
 <lb n="0118a12" ed="Y"/>談玄學盛行的地方。</p>
-<lb n="0118a13" ed="Y"/><p style="text-indent:2em">佛法到魏晉而盛行，主要為法法本性空寂的大乘般若學。般若空義的闡揚，是與「以無為道
+<lb n="0118a13" ed="Y"/><p xml:id="pY40p0118a1301" style="text-indent:2em">佛法到魏晉而盛行，主要為法法本性空寂的大乘般若學。般若空義的闡揚，是與「以無為道
 <lb n="0118a14" ed="Y"/>本」的玄學相互呼應的。慧遠及羅什門下（如僧肇作<title level="a">〈物不遷論〉</title>等），每引用老莊以說明佛法
 <lb n="0118a15" ed="Y"/>，有利於佛法的闡明，但也種下了佛道混淆的種子。般若是觀慧的實踐，是直從自身的現實出發
 <pb n="0119a" ed="Y" xml:id="Y40.0038.0119a"/>
@@ -613,79 +633,79 @@
 <lb n="0119a07" ed="Y"/>保持了「佛法以因緣為大宗」的立場；天臺宗的「性具說」，多一層從上而下的玄學色彩。上面
 <lb n="0119a08" ed="Y"/>的陳述，只是想說明一點：<cit><bibl><title level="m">《絕觀論》</title>以</bibl><quote>「大道沖虛幽寂」</quote></cit>開端，立<quote>「虛空為道本」</quote>，牛頭禪與
 <lb n="0119a09" ed="Y"/>南朝玄學的關係，是異常密切的。</p>
-<lb n="0119a10" ed="Y"/><p style="text-indent:2em">「虛空為道本」——玄學化的牛頭禪的形成，也是多種因緣所成的：一、義學盛行的南朝，
-<lb n="0119a11" ed="Y"/>即使受到玄學的多少影響，而總還能保持佛法的特質。從陳亡（<note n="0119a1101" resp="CBETA" type="add">五八九【CB】，五八八【印順】</note><app n="0119a1101"><lem wit="【CB】" resp="正聞出版社">五八九</lem><rdg wit="【印順】">五八八</rdg></app>）到貞觀十七年（六四三
+<lb n="0119a10" ed="Y"/><p xml:id="pY40p0119a1001" style="text-indent:2em">「虛空為道本」——玄學化的牛頭禪的形成，也是多種因緣所成的：一、義學盛行的南朝，
+<lb n="0119a11" ed="Y"/>即使受到玄學的多少影響，而總還能保持佛法的特質。從陳亡（<note n="0119a1101" resp="CBETA" type="add">五八九【CB】，五八八【印順】</note><app n="0119a1101"><lem resp="正聞出版社" wit="【CB】">五八九</lem><rdg wit="【印順】">五八八</rdg></app>）到貞觀十七年（六四三
 <lb n="0119a12" ed="Y"/>），法融成立禪室，義學的漸衰，已有半個世紀了。義學不明，佛法容易與世間學說相混雜。二
 <lb n="0119a13" ed="Y"/>、南朝佛教有反「唯心」的傳統：如真諦在嶺南譯出大量的唯心論書，卻不能在南朝流通，如<bibl><title level="m">《
-<lb n="0119a14" ed="Y"/>續僧傳》</title><biblScope type="卷" n="1">卷一</biblScope><title level="a">〈拘那羅陀傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p430b" type="taisho">五〇．四三〇中</ref></note>說：</p>
-<lb n="0119a15" ed="Y"/><quote><p style="margin-left:3em">「楊輦碩望，恐奪時榮，乃奏曰：嶺表所譯眾部，多明無塵唯識，言乖治術，有蔽國風。
+<lb n="0119a14" ed="Y"/>續僧傳》</title><biblScope n="1" type="卷">卷一</biblScope><title level="a">〈拘那羅陀傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p430b" type="taisho">五〇．四三〇中</ref></note>說：</p>
+<lb n="0119a15" ed="Y"/><quote><p xml:id="pY40p0119a1501" style="margin-left:3em">「楊輦碩望，恐奪時榮，乃奏曰：嶺表所譯眾部，多明無塵唯識，言乖治術，有蔽國風。
 <pb n="0120a" ed="Y" xml:id="Y40.0038.0120a"/>
 <lb n="0120a01" ed="Y"/>不隸諸華，可流荒服。帝然之，故南海新文，有藏陳世」。</p></quote>
-<lb n="0120a02" ed="Y"/><p style="text-indent:2em">貶抑<quote>「無塵唯識」</quote>的楊都碩望，是當時的顯學三論宗。般若三論是心境（塵）平等，一切如
+<lb n="0120a02" ed="Y"/><p xml:id="pY40p0120a0201" style="text-indent:2em">貶抑<quote>「無塵唯識」</quote>的楊都碩望，是當時的顯學三論宗。般若三論是心境（塵）平等，一切如
 <lb n="0120a03" ed="Y"/>幻，一切性空的，與有心無境說不同（嘉祥作<title level="m">《百論疏》</title>，才會通無塵唯識）。天臺宗教人「觀
 <lb n="0120a04" ed="Y"/>心」，但在教學上，是<quote>「一色一香，無非中道」</quote>的心色平等論。達摩禪系以「安心」為方便，說
-<lb n="0120a05" ed="Y"/>「即心是佛」。法融立：<quote>「虛空為道本」</quote>，<quote>「不須立心，亦不<note n="0120a0501" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0120a0501"><lem wit="【CB】" resp="CBETA">強</lem><rdg wit="【印順】">强</rdg></app>安」</quote>的禪門，明顯的延續了南方
-<lb n="0120a06" ed="Y"/>反唯心的傳統。三、<bibl><title level="m">《續僧傳》</title><biblScope type="卷" n="20">卷二〇</biblScope>（附編）<title level="a">〈法融傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p603c" type="taisho">五〇．六〇三下</ref>—六〇四中</note>說：</p>
-<lb n="0120a07" ed="Y"/><quote><p style="margin-left:3em">「年十九，翰林<note n="0120a0701" resp="CBETA" type="add">墳【CB】，文【印順】</note><app n="0120a0701"><lem wit="【CB】" resp="正聞出版社">墳<note type="cf1">《續高僧傳》卷20(CBETA, T50, no. 2060, p. 603, c17-18)</note></lem><rdg wit="【印順】">文</rdg></app>典，探索將盡」。<note n="0120001" resp="厚觀法師" type="add">《續高僧傳》卷20(CBETA, T50, no. 2060, p. 603, c17-18)</note></p></quote>
-<lb n="0120a08" ed="Y"/><quote><p style="margin-left:3em">「丹陽<note n="0120a0801" resp="CBETA" type="add">南【CB】，［－］【印順】</note><app n="0120a0801"><lem wit="【CB】" resp="正聞出版社">南<note type="cf1">《續高僧傳》卷20(CBETA, T50, no. 2060, p. 604, b3-15)</note></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>牛頭山佛窟寺，……有七藏經畫：一、佛經，二、道書，三、佛經史，四、俗經史，五
+<lb n="0120a05" ed="Y"/>「即心是佛」。法融立：<quote>「虛空為道本」</quote>，<quote>「不須立心，亦不<note n="0120a0501" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0120a0501"><lem resp="CBETA" wit="【CB】">強</lem><rdg wit="【印順】">强</rdg></app>安」</quote>的禪門，明顯的延續了南方
+<lb n="0120a06" ed="Y"/>反唯心的傳統。三、<bibl><title level="m">《續僧傳》</title><biblScope n="20" type="卷">卷二〇</biblScope>（附編）<title level="a">〈法融傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p603c" type="taisho">五〇．六〇三下</ref>—六〇四中</note>說：</p>
+<lb n="0120a07" ed="Y"/><quote><p xml:id="pY40p0120a0701" style="margin-left:3em">「年十九，翰林<note n="0120a0701" resp="CBETA" type="add">墳【CB】，文【印順】</note><app n="0120a0701"><lem resp="正聞出版社" wit="【CB】">墳<note type="cf1">《續高僧傳》卷20(CBETA, T50, no. 2060, p. 603, c17-18)</note></lem><rdg wit="【印順】">文</rdg></app>典，探索將盡」。<note n="0120001" resp="厚觀法師" type="add">《續高僧傳》卷20(CBETA, T50, no. 2060, p. 603, c17-18)</note></p></quote>
+<lb n="0120a08" ed="Y"/><quote><p xml:id="pY40p0120a0801" style="margin-left:3em">「丹陽<note n="0120a0801" resp="CBETA" type="add">南【CB】，［－］【印順】</note><app n="0120a0801"><lem resp="正聞出版社" wit="【CB】">南<note type="cf1">《續高僧傳》卷20(CBETA, T50, no. 2060, p. 604, b3-15)</note></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>牛頭山佛窟寺，……有七藏經畫：一、佛經，二、道書，三、佛經史，四、俗經史，五
 <lb n="0120a09" ed="Y"/>、醫方圖符。……內外尋閱，不謝昏曉，因循八年，抄略粗畢」。<note n="0120002" resp="厚觀法師" type="add">《續高僧傳》卷20：「丹陽南牛頭山佛窟寺。現有辟支佛窟。因得名焉。有七藏經畫。一佛經。二道書。三佛經史。四俗經史。五醫方圖符。昔宋初有劉司空造寺。其家巨富。用訪寫之永鎮山寺相傳守護。達於貞觀十九年夏旱失火。延燒五十餘里。二十餘寺并此七藏並同煨燼。嗟乎回祿事等建章。道俗悼傷深懷惻愴。初融住幽栖寺去佛窟十五里。將事尋討。值執藏顯法師者稽留。日夕諮請經久許之。乃問融所學。并探材術。遂寄詩達情。方開藏給。於即內外尋閱不謝昏曉。因循八年。抄略粗畢」(CBETA, T50, no. 2060, p. 604, b3-15)</note></p></quote>
-<lb n="0120a10" ed="Y"/><p style="text-indent:2em">法融遍讀內外典籍，是一位精研般若而又博涉「道書」的學者。多讀道書，也就不覺的深受
+<lb n="0120a10" ed="Y"/><p xml:id="pY40p0120a1001" style="text-indent:2em">法融遍讀內外典籍，是一位精研般若而又博涉「道書」的學者。多讀道書，也就不覺的深受
 <lb n="0120a11" ed="Y"/>其影響了！</p>
-<lb n="0120a12" ed="Y"/><p style="text-indent:2em">「虛空為道本」：這<note n="0120a1201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0120a1201"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>的「虛空」，是（性）空、空性、空寂、寂滅的別名，如經說：<quote>「如
+<lb n="0120a12" ed="Y"/><p xml:id="pY40p0120a1201" style="text-indent:2em">「虛空為道本」：這<note n="0120a1201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0120a1201"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>的「虛空」，是（性）空、空性、空寂、寂滅的別名，如經說：<quote>「如
 <lb n="0120a13" ed="Y"/>來法身畢竟寂寞猶如虛空」</quote>。「道」，原是玄學的主題，是不落於名言、心思的。凡言說所及的
 <lb n="0120a14" ed="Y"/>，心思所及的一切相對（佛法中稱為「二」）法，都不等於道，道是超越一切而不可思議的。玄
 <lb n="0120a15" ed="Y"/>學說道「以無為本」，在佛法，應該說：<quote>「虛空為道本」</quote>。法融引玄學的「道」於佛法中，以道
 <pb n="0121a" ed="Y" xml:id="Y40.0038.0121a"/>
-<lb n="0121a01" ed="Y"/>為佛法根本，契悟覺證的內容。法融從道來看一切，從眾生來說，如<bibl><title level="m">《宗鏡錄》</title><biblScope type="卷" n="9">卷九</biblScope></bibl><note place="inline">大正<ref target="#vol:48;page:p463b" type="taisho">四八．
+<lb n="0121a01" ed="Y"/>為佛法根本，契悟覺證的內容。法融從道來看一切，從眾生來說，如<bibl><title level="m">《宗鏡錄》</title><biblScope n="9" type="卷">卷九</biblScope></bibl><note place="inline">大正<ref target="#vol:48;page:p463b" type="taisho">四八．
 <lb n="0121a02" ed="Y"/>四六三中</ref></note>說：</p>
-<lb n="0121a03" ed="Y"/><quote><p style="margin-left:3em">「牛頭初祖云：夫道者，若一人得之，道即不遍。若眾人得之，道即有窮。若各各有之，
+<lb n="0121a03" ed="Y"/><quote><p xml:id="pY40p0121a0301" style="margin-left:3em">「牛頭初祖云：夫道者，若一人得之，道即不遍。若眾人得之，道即有窮。若各各有之，
 <lb n="0121a04" ed="Y"/>道即有數。若總共有之，方便即空。若修行得之，造作非真。若本自有之，萬行虛設。何
 <lb n="0121a05" ed="Y"/>以故？離一切限量分別故」。</p></quote>
-<lb n="0121a06" ed="Y"/><p style="text-indent:2em">道是離一切限量，離一切分別的。所以不能說為一人所得，為大家所分得。不能說各得一分
+<lb n="0121a06" ed="Y"/><p xml:id="pY40p0121a0601" style="text-indent:2em">道是離一切限量，離一切分別的。所以不能說為一人所得，為大家所分得。不能說各得一分
 <lb n="0121a07" ed="Y"/>，也不能說各得全體。從眾生成佛說，不是新熏的，也不是本有的，因為這些都是限量分別邊事
 <lb n="0121a08" ed="Y"/>。道本（本體、本原）只是空寂，是不二。（<title level="m">《宗鏡錄》</title>引文，出<title level="m">《絕觀論》</title>一六．一七問答）
 <lb n="0121a09" ed="Y"/>。從道來說無情，那就是「無情有佛性」，「無情成佛」了，如<title level="m">《淨名經私記》</title><note place="inline">大正<ref target="#vol:48;page:p552b" type="taisho">四八．五五二中</ref>
 <lb n="0121a10" ed="Y"/></note>說：</p>
-<lb n="0121a11" ed="Y"/><quote><p style="margin-left:3em">「體遍虛空，同於法界、畜生、蟻子、有情、無情，皆是佛子」。</p></quote>
-<lb n="0121a12" ed="Y"/><p style="text-indent:2em"><title level="m">《絕觀論》</title>說：</p>
-<lb n="0121a13" ed="Y"/><p style="margin-left:3em"><note place="inline">三三</note><quote>「於是緣門復起問曰：道者獨在於形器（一本作「靈」）之中耶？亦在草木之中耶？
+<lb n="0121a11" ed="Y"/><quote><p xml:id="pY40p0121a1101" style="margin-left:3em">「體遍虛空，同於法界、畜生、蟻子、有情、無情，皆是佛子」。</p></quote>
+<lb n="0121a12" ed="Y"/><p xml:id="pY40p0121a1201" style="text-indent:2em"><title level="m">《絕觀論》</title>說：</p>
+<lb n="0121a13" ed="Y"/><p xml:id="pY40p0121a1301" style="margin-left:3em"><note place="inline">三三</note><quote>「於是緣門復起問曰：道者獨在於形器（一本作「靈」）之中耶？亦在草木之中耶？
 <lb n="0121a14" ed="Y"/>入理曰：道無所不遍也」</quote>。</p>
-<lb n="0121a15" ed="Y"/><p style="margin-left:3em"><note place="inline">三四</note><quote>「問曰：道若遍者，何故煞人有罪<note n="0121a1501" resp="CBETA" type="add">［－］【CB】，者【印順】</note><app n="0121a1501"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">者</rdg></app>，煞草木無罪？答曰：夫言罪不罪，皆是就情約
+<lb n="0121a15" ed="Y"/><p xml:id="pY40p0121a1501" style="margin-left:3em"><note place="inline">三四</note><quote>「問曰：道若遍者，何故煞人有罪<note n="0121a1501" resp="CBETA" type="add">［－］【CB】，者【印順】</note><app n="0121a1501"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">者</rdg></app>，煞草木無罪？答曰：夫言罪不罪，皆是就情約
 <pb n="0122a" ed="Y" xml:id="Y40.0038.0122a"/>
-<lb n="0122a01" ed="Y"/>事，非正道也。但為<note n="0122a0101" resp="CBETA" type="add">世【CB】，罪【印順】</note><app n="0122a0101"><lem wit="【CB】" resp="正聞出版社">世</lem><rdg wit="【印順】">罪</rdg></app>人不達道<note n="0122a0102" resp="CBETA" type="add">理【CB】，［－］【印順】</note><app n="0122a0102"><lem wit="【CB】" resp="正聞出版社">理</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>，妄立我身，煞即有心。心結於業，即云罪也。草木無情
-<lb n="0122a02" ed="Y"/>，本來合道，理無我故，煞者不計，即不論罪與非罪。<note n="0122a0201" resp="CBETA" type="add">［－］【CB】，凡【印順】</note><app n="0122a0201"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">凡</rdg></app>夫無我合道者，視形如草木，被
-<lb n="0122a03" ed="Y"/>斫如<note n="0122a0301" resp="CBETA" type="add">樹【CB】，（應缺一字）【印順】</note><app n="0122a0301"><lem wit="【CB】" resp="正聞出版社">樹</lem><rdg wit="【印順】">（應缺一字）</rdg></app>林。故文殊執劒於瞿曇，鴦掘持刀於釋氏，此皆合道，同證<note n="0122a0302" resp="CBETA" type="add">不【CB】，無【印順】</note><app n="0122a0302"><lem wit="【CB】" resp="正聞出版社">不</lem><rdg wit="【印順】">無</rdg></app>生，了知
-<lb n="0122a04" ed="Y"/>幻化虛<note n="0122a0401" resp="CBETA" type="add">無【CB】，妄【印順】</note><app n="0122a0401"><lem wit="【CB】" resp="正聞出版社">無</lem><rdg wit="【印順】">妄</rdg></app>，故即不論罪與非罪」</quote>。</p>
-<lb n="0122a05" ed="Y"/><p style="margin-left:3em"><note place="inline">三五</note><quote>「問曰：若草木久來合道，經中何故不記草木成佛，偏記人也？答曰：非獨記人，<note n="0122a0501" resp="CBETA" type="add">亦【CB】，草【印順】</note><app n="0122a0501"><lem wit="【CB】" resp="正聞出版社">亦</lem><rdg wit="【印順】">草</rdg></app>
-<lb n="0122a06" ed="Y"/><note n="0122a0601" resp="CBETA" type="add">記草木【CB】，木亦記【印順】</note><app n="0122a0601"><lem wit="【CB】" resp="正聞出版社">記草木</lem><rdg wit="【印順】">木亦記</rdg></app>。經云：於一微塵<note n="0122a0602" resp="CBETA" type="add">中【CB】，［－］【印順】</note><app n="0122a0602"><lem wit="【CB】" resp="正聞出版社">中</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>具含一切法。又云：一切法<note n="0122a0603" resp="CBETA" type="add">亦【CB】，皆【印順】</note><app n="0122a0603"><lem wit="【CB】" resp="正聞出版社">亦</lem><rdg wit="【印順】">皆</rdg></app>如也，一切眾生亦如也。如，
-<lb n="0122a07" ed="Y"/>無二無差別<note n="0122a0701" resp="CBETA" type="add">［－］【CB】，也【印順】</note><app n="0122a0701"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">也</rdg></app>」</quote>。</p>
-<lb n="0122a08" ed="Y"/><p style="text-indent:2em"><quote>「道無所不遍」</quote>，道是沒有有情、無情差別的，也沒有有罪與無罪的差別。約凡夫情事，所
-<lb n="0122a09" ed="Y"/>以說有罪業，有生死。這<note n="0122a0901" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0122a0901"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>面，有不少語病：如凡夫不合道，而<quote>「草木無情<note n="0122a0902" resp="CBETA" type="add">本【CB】，久【印順】</note><app n="0122a0902"><lem wit="【CB】" resp="正聞出版社">本</lem><rdg wit="【印順】">久</rdg></app>來合道」</quote>。有些人
+<lb n="0122a01" ed="Y"/>事，非正道也。但為<note n="0122a0101" resp="CBETA" type="add">世【CB】，罪【印順】</note><app n="0122a0101"><lem resp="正聞出版社" wit="【CB】">世</lem><rdg wit="【印順】">罪</rdg></app>人不達道<note n="0122a0102" resp="CBETA" type="add">理【CB】，［－］【印順】</note><app n="0122a0102"><lem resp="正聞出版社" wit="【CB】">理</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>，妄立我身，煞即有心。心結於業，即云罪也。草木無情
+<lb n="0122a02" ed="Y"/>，本來合道，理無我故，煞者不計，即不論罪與非罪。<note n="0122a0201" resp="CBETA" type="add">［－］【CB】，凡【印順】</note><app n="0122a0201"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">凡</rdg></app>夫無我合道者，視形如草木，被
+<lb n="0122a03" ed="Y"/>斫如<note n="0122a0301" resp="CBETA" type="add">樹【CB】，（應缺一字）【印順】</note><app n="0122a0301"><lem resp="正聞出版社" wit="【CB】">樹</lem><rdg wit="【印順】">（應缺一字）</rdg></app>林。故文殊執劒於瞿曇，鴦掘持刀於釋氏，此皆合道，同證<note n="0122a0302" resp="CBETA" type="add">不【CB】，無【印順】</note><app n="0122a0302"><lem resp="正聞出版社" wit="【CB】">不</lem><rdg wit="【印順】">無</rdg></app>生，了知
+<lb n="0122a04" ed="Y"/>幻化虛<note n="0122a0401" resp="CBETA" type="add">無【CB】，妄【印順】</note><app n="0122a0401"><lem resp="正聞出版社" wit="【CB】">無</lem><rdg wit="【印順】">妄</rdg></app>，故即不論罪與非罪」</quote>。</p>
+<lb n="0122a05" ed="Y"/><p xml:id="pY40p0122a0501" style="margin-left:3em"><note place="inline">三五</note><quote>「問曰：若草木久來合道，經中何故不記草木成佛，偏記人也？答曰：非獨記人，<note n="0122a0501" resp="CBETA" type="add">亦【CB】，草【印順】</note><app n="0122a0501"><lem resp="正聞出版社" wit="【CB】">亦</lem><rdg wit="【印順】">草</rdg></app>
+<lb n="0122a06" ed="Y"/><note n="0122a0601" resp="CBETA" type="add">記草木【CB】，木亦記【印順】</note><app n="0122a0601"><lem resp="正聞出版社" wit="【CB】">記草木</lem><rdg wit="【印順】">木亦記</rdg></app>。經云：於一微塵<note n="0122a0602" resp="CBETA" type="add">中【CB】，［－］【印順】</note><app n="0122a0602"><lem resp="正聞出版社" wit="【CB】">中</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>具含一切法。又云：一切法<note n="0122a0603" resp="CBETA" type="add">亦【CB】，皆【印順】</note><app n="0122a0603"><lem resp="正聞出版社" wit="【CB】">亦</lem><rdg wit="【印順】">皆</rdg></app>如也，一切眾生亦如也。如，
+<lb n="0122a07" ed="Y"/>無二無差別<note n="0122a0701" resp="CBETA" type="add">［－］【CB】，也【印順】</note><app n="0122a0701"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">也</rdg></app>」</quote>。</p>
+<lb n="0122a08" ed="Y"/><p xml:id="pY40p0122a0801" style="text-indent:2em"><quote>「道無所不遍」</quote>，道是沒有有情、無情差別的，也沒有有罪與無罪的差別。約凡夫情事，所
+<lb n="0122a09" ed="Y"/>以說有罪業，有生死。這<note n="0122a0901" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0122a0901"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>面，有不少語病：如凡夫不合道，而<quote>「草木無情<note n="0122a0902" resp="CBETA" type="add">本【CB】，久【印順】</note><app n="0122a0902"><lem resp="正聞出版社" wit="【CB】">本</lem><rdg wit="【印順】">久</rdg></app>來合道」</quote>。有些人
 <lb n="0122a10" ed="Y"/>還不得受記，而草木卻受記，這未免人而不如草木了。「道遍無情」，「無情成佛」，是牛頭禪
 <lb n="0122a11" ed="Y"/>的特色，這正是醞釀成熟於南朝學統中的問題。三論宗嘉祥吉藏（五四八——六二二）撰<title level="m">《大乘
 <lb n="0122a12" ed="Y"/>玄論》</title>，在卷三「佛性」章中<note place="inline">大正<ref target="#vol:45;page:p40b" type="taisho">四五．四〇中</ref>——下</note>說：</p>
-<lb n="0122a13" ed="Y"/><quote><p style="margin-left:3em">「理外既無眾生，亦無佛性。……不但眾生有佛性，草木亦有佛性；此是對理外無佛性，
+<lb n="0122a13" ed="Y"/><quote><p xml:id="pY40p0122a1301" style="margin-left:3em">「理外既無眾生，亦無佛性。……不但眾生有佛性，草木亦有佛性；此是對理外無佛性，
 <lb n="0122a14" ed="Y"/>以辨理內有佛性也。……若眾生成佛時，一切草木亦得成佛，故經云：一切法皆如也」。</p></quote>
-<lb n="0122a15" ed="Y"/><p style="text-indent:2em">吉藏的同門均正，撰<title level="m">《四論玄義》</title>，在卷八中，明理內草木有佛性，也與吉藏所說相合。問
+<lb n="0122a15" ed="Y"/><p xml:id="pY40p0122a1501" style="text-indent:2em">吉藏的同門均正，撰<title level="m">《四論玄義》</title>，在卷八中，明理內草木有佛性，也與吉藏所說相合。問
 <pb n="0123a" ed="Y" xml:id="Y40.0038.0123a"/>
 <lb n="0123a01" ed="Y"/>者說：<quote>「眾生無佛性，草木有佛性，昔來未曾聞」</quote>，這大概是興皇朗以來的新說。天臺智顗，沒
-<lb n="0123a02" ed="Y"/>有明文。但湛然（七一一——七八二）<cit><bibl><title level="m">《止觀輔行傳<note n="0123a0201" resp="CBETA" type="add">弘【CB】，宏【印順】</note><app n="0123a0201"><lem wit="【CB】" resp="正聞出版社">弘<note type="cf1">《止觀輔行傳弘決》卷1(CBETA, T46, no. 1912, p. 141, b9)</note></lem><rdg wit="【印順】">宏</rdg></app>決》</title><biblScope n="1之2" type="卷">（卷一之二）</biblScope>，依智顗</bibl><quote>「一色一香，
+<lb n="0123a02" ed="Y"/>有明文。但湛然（七一一——七八二）<cit><bibl><title level="m">《止觀輔行傳<note n="0123a0201" resp="CBETA" type="add">弘【CB】，宏【印順】</note><app n="0123a0201"><lem resp="正聞出版社" wit="【CB】">弘<note type="cf1">《止觀輔行傳弘決》卷1(CBETA, T46, no. 1912, p. 141, b9)</note></lem><rdg wit="【印順】">宏</rdg></app>決》</title><biblScope n="1之2" type="卷">（卷一之二）</biblScope>，依智顗</bibl><quote>「一色一香，
 <lb n="0123a03" ed="Y"/>無非中道」</quote></cit>，而約十義明無情有佛性（這一思想，後來為中國佛教——臺、賢、禪、密所通用）
 <lb n="0123a04" ed="Y"/>。這可見牛頭禪的「無情有性」、「無情成佛」、（「無情說法」），是繼承三論與天臺的成說
 <lb n="0123a05" ed="Y"/>，為「大道不二」的結論。然在曹溪門下，是不贊同這一見解的，如慧能弟子神會，答牛頭山袁
-<lb n="0123a06" ed="Y"/>禪師問<note place="inline"><bibl><title level="m">《神會集》</title><biblScope type="pp" n="139">一三九</biblScope></bibl></note>說：</p>
-<lb n="0123a07" ed="Y"/><quote><p style="margin-left:3em">「豈將青青翠竹同功德法身，鬱鬱黃花等般若之智？若言青竹黃花同法身般若，如來於何
+<lb n="0123a06" ed="Y"/>禪師問<note place="inline"><bibl><title level="m">《神會集》</title><biblScope n="139" type="pp">一三九</biblScope></bibl></note>說：</p>
+<lb n="0123a07" ed="Y"/><quote><p xml:id="pY40p0123a0701" style="margin-left:3em">「豈將青青翠竹同功德法身，鬱鬱黃花等般若之智？若言青竹黃花同法身般若，如來於何
 <lb n="0123a08" ed="Y"/>經中為青竹黃花授菩提記？若將青竹黃花同法身般若者，此即是外道說。何以故？為涅槃
 <lb n="0123a09" ed="Y"/>經云：無佛性者，所謂（原作「為」）無情物是」。</p></quote>
-<lb n="0123a10" ed="Y"/><p style="text-indent:2em">南嶽門下道一（俗稱馬祖）弟子慧海<note place="inline">大正<ref target="#vol:51;page:p247c" type="taisho">五一．二四七下</ref></note>說：</p>
-<lb n="0123a11" ed="Y"/><quote><p style="margin-left:3em">「黃花若是般若，般若即同無情！翠竹若是法身，法身即同草木！如人喫筍，應總喫法身
+<lb n="0123a10" ed="Y"/><p xml:id="pY40p0123a1001" style="text-indent:2em">南嶽門下道一（俗稱馬祖）弟子慧海<note place="inline">大正<ref target="#vol:51;page:p247c" type="taisho">五一．二四七下</ref></note>說：</p>
+<lb n="0123a11" ed="Y"/><quote><p xml:id="pY40p0123a1101" style="margin-left:3em">「黃花若是般若，般若即同無情！翠竹若是法身，法身即同草木！如人喫筍，應總喫法身
 <lb n="0123a12" ed="Y"/>也。如此之言，寧堪齒錄」！</p></quote>
-<lb n="0123a13" ed="Y"/><p style="text-indent:2em">道一大弟子百丈所說，見於<bibl><title level="m">《古尊宿語錄》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">續<ref target="#vol:68;page:p9b" type="wxzj">一一八．八六<note n="0123a1301" resp="CBETA" type="add">（卍新續六八九中）【CB】，［－］【印順】</note><app n="0123a1301"><lem wit="【CB】" resp="正聞出版社">（卍新續六八．九中）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>，如說：</p>
-<lb n="0123a14" ed="Y"/><quote><p style="margin-left:3em">「無情有佛性，祗是無其情繫，故名無情，不同木石、太虛、黃花、翠竹之無情，將為有
+<lb n="0123a13" ed="Y"/><p xml:id="pY40p0123a1301" style="text-indent:2em">道一大弟子百丈所說，見於<bibl><title level="m">《古尊宿語錄》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">續<ref target="#vol:68;page:p9b" type="wxzj">一一八．八六<note n="0123a1301" resp="CBETA" type="add">（卍新續六八九中）【CB】，［－］【印順】</note><app n="0123a1301"><lem resp="正聞出版社" wit="【CB】">（卍新續六八．九中）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>，如說：</p>
+<lb n="0123a14" ed="Y"/><quote><p xml:id="pY40p0123a1401" style="margin-left:3em">「無情有佛性，祗是無其情繫，故名無情，不同木石、太虛、黃花、翠竹之無情，將為有
 <lb n="0123a15" ed="Y"/>佛性。若言有者，何故經中不見（草木）受記而得成佛者」！</p></quote>
 <pb n="0124a" ed="Y" xml:id="Y40.0038.0124a"/>
-<lb n="0124a01" ed="Y"/><p style="text-indent:2em"><quote>「青青翠竹，盡是法身；鬱鬱黃花，無非般若」</quote>，是（源出三論宗）牛頭禪的成語。傳為僧
-<lb n="0124a02" ed="Y"/>肇說（<title level="m">《祖堂集》</title>一五歸宗章），道生說<bibl>（<title level="m">《祖庭事苑》</title><biblScope type="卷" n="5">卷五</biblScope>）</bibl>，都不過遠推古人而已。牛頭禪
+<lb n="0124a01" ed="Y"/><p xml:id="pY40p0124a0101" style="text-indent:2em"><quote>「青青翠竹，盡是法身；鬱鬱黃花，無非般若」</quote>，是（源出三論宗）牛頭禪的成語。傳為僧
+<lb n="0124a02" ed="Y"/>肇說（<title level="m">《祖堂集》</title>一五歸宗章），道生說<bibl>（<title level="m">《祖庭事苑》</title><biblScope n="5" type="卷">卷五</biblScope>）</bibl>，都不過遠推古人而已。牛頭禪
 <lb n="0124a03" ed="Y"/>的這一見地，為曹溪下的神會、懷海、慧海所反對。唯一例外的，是傳說為慧能弟子的南陽慧忠
 <lb n="0124a04" ed="Y"/>（約六七六——七七五）。<bibl><title level="m">《傳燈錄》</title><biblScope n="28" type="卷">卷二八</biblScope></bibl>所載「南陽慧忠國師語」，主張<quote>「無情有佛性」</quote>，
 <lb n="0124a05" ed="Y"/><quote>「無情說法」</quote><note place="inline">大正<ref target="#vol:51;page:p438a" type="taisho">五一．四三八上</ref></note>。慧忠是<quote>「越州諸暨人」</quote>（今浙江諸暨縣），也許深受江東佛法
@@ -693,54 +713,54 @@
 <lb n="0124a07" ed="Y"/>的熏染，確是很有關係的。東山宗說「佛語心為宗」，「即心是佛」，是從有情自身出發，以心
 <lb n="0124a08" ed="Y"/>性為本，立場是人生論的。牛頭宗說「道本」，泛從一切本源說，是宇宙論的。東山與牛頭的對
 <lb n="0124a09" ed="Y"/>立，在這些上，極為明白。</p>
-<lb n="0124a10" ed="Y"/><p style="text-indent:2em">道本虛空，是不可以言詮，不可以心思的。這樣的大道，要怎樣才能悟入呢？宗密稱之為「
-<lb n="0124a11" ed="Y"/>泯絕無寄」；體道的法要，是「本無事而忘情」。如<title level="m">《師資承襲圖》</title><note place="inline">續<ref type="wxzj" target="#vol:63;page:p33c">一一〇．四三六<note n="0124a1101" resp="CBETA" type="add">（卍新續六三三三下）【CB】，［－］【印順】</note><app n="0124a1101"><lem wit="【CB】" resp="正聞出版社">（卍新續六三．三三下）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>說：</p>
-<lb n="0124a12" ed="Y"/><quote><p style="margin-left:3em">「牛頭宗意者，體諸法如夢，本來無事，心境本寂，非今始空。迷之為有，即見榮枯貴賤
+<lb n="0124a10" ed="Y"/><p xml:id="pY40p0124a1001" style="text-indent:2em">道本虛空，是不可以言詮，不可以心思的。這樣的大道，要怎樣才能悟入呢？宗密稱之為「
+<lb n="0124a11" ed="Y"/>泯絕無寄」；體道的法要，是「本無事而忘情」。如<title level="m">《師資承襲圖》</title><note place="inline">續<ref target="#vol:63;page:p33c" type="wxzj">一一〇．四三六<note n="0124a1101" resp="CBETA" type="add">（卍新續六三三三下）【CB】，［－］【印順】</note><app n="0124a1101"><lem resp="正聞出版社" wit="【CB】">（卍新續六三．三三下）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>說：</p>
+<lb n="0124a12" ed="Y"/><quote><p xml:id="pY40p0124a1201" style="margin-left:3em">「牛頭宗意者，體諸法如夢，本來無事，心境本寂，非今始空。迷之為有，即見榮枯貴賤
 <lb n="0124a13" ed="Y"/>等事。事跡既有，相違相順，故生愛惡等情，情生則諸苦所繫。夢作夢受，何損何益？有
 <lb n="0124a14" ed="Y"/>此能了之智，亦如夢心；乃至設有一法過於涅槃，亦如夢如幻。既達本來無事，理宜喪己
 <lb n="0124a15" ed="Y"/>忘情。情忘即絕苦因，方度一切苦厄，此以忘情為修也」。</p></quote>
 <pb n="0125a" ed="Y" xml:id="Y40.0038.0125a"/>
-<lb n="0125a01" ed="Y"/><p style="text-indent:2em"><bibl><title level="m">《禪源諸詮集都序》</title><biblScope type="卷" n="上之1">卷上之一</biblScope></bibl><note place="inline">大正<ref target="#vol:48;page:p402c" type="taisho">四八．四〇二下</ref></note>，<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="3之下" type="卷">卷三之下</biblScope></bibl><note place="inline">續<ref target="#vol:9;page:p534c" type="wxzj">一四．二七
-<lb n="0125a02" ed="Y"/>九<note n="0125a0201" resp="CBETA" type="add">（卍新續九五三四下）【CB】，［－］【印順】</note><app n="0125a0201"><lem wit="【CB】" resp="正聞出版社">（卍新續九．五三四下）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>，都有牛頭宗意，可以參考。宗密說：<quote>「融禪師者，道性高簡，神慧聰利。先因多年窮究般
+<lb n="0125a01" ed="Y"/><p xml:id="pY40p0125a0101" style="text-indent:2em"><bibl><title level="m">《禪源諸詮集都序》</title><biblScope n="上之1" type="卷">卷上之一</biblScope></bibl><note place="inline">大正<ref target="#vol:48;page:p402c" type="taisho">四八．四〇二下</ref></note>，<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="3之下" type="卷">卷三之下</biblScope></bibl><note place="inline">續<ref target="#vol:9;page:p534c" type="wxzj">一四．二七
+<lb n="0125a02" ed="Y"/>九<note n="0125a0201" resp="CBETA" type="add">（卍新續九五三四下）【CB】，［－］【印順】</note><app n="0125a0201"><lem resp="正聞出版社" wit="【CB】">（卍新續九．五三四下）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>，都有牛頭宗意，可以參考。宗密說：<quote>「融禪師者，道性高簡，神慧聰利。先因多年窮究般
 <lb n="0125a03" ed="Y"/>若之教，已悟諸法本空，迷情妄執」</quote>。這是很正確的！世間出世間法，一切都如幻如夢，本性空
 <lb n="0125a04" ed="Y"/>寂，是<title level="m">《般若經》</title>所說的。本來空寂，迷執了就有這有那，這如幻、夢、鏡像一樣（<title level="m">《般若經》</title>
-<lb n="0125a05" ed="Y"/>有十喻）。如<cit><bibl><title level="m">《淨名<note n="0125a0501" resp="CBETA" type="add">［－］【CB】，經【印順】</note><app n="0125a0501"><lem wit="【CB】" resp="正聞出版社"><note type="cf1">《宗鏡錄》卷26(CBETA, T48, no. 2016, p. 564, c3-9)</note></lem><rdg wit="【印順】">經</rdg></app>私記》</title>說：</bibl><quote>「如人夜夢種種所見，比至覺時，總無一物。今亦爾，虛妄夢
+<lb n="0125a05" ed="Y"/>有十喻）。如<cit><bibl><title level="m">《淨名<note n="0125a0501" resp="CBETA" type="add">［－］【CB】，經【印順】</note><app n="0125a0501"><lem resp="正聞出版社" wit="【CB】"><note type="cf1">《宗鏡錄》卷26(CBETA, T48, no. 2016, p. 564, c3-9)</note></lem><rdg wit="【印順】">經</rdg></app>私記》</title>說：</bibl><quote>「如人夜夢種種所見，比至覺時，總無一物。今亦爾，虛妄夢
 <lb n="0125a06" ed="Y"/>中言有萬法，若悟其性，畢竟無一物可得」</quote><note n="0125001" resp="厚觀法師" type="add">《宗鏡錄》卷26(CBETA, T48, no. 2016, p. 564, c7-9)</note></cit><note place="inline">大正<ref target="#vol:48;page:p564c" type="taisho">四八．五六四下</ref></note>。這樣的本來無一物，要怎樣才能
 <lb n="0125a07" ed="Y"/>與道契合呢！宗密說：牛頭宗以「喪我忘情」為修。法融是以「無心用功」為方便，也就是「無
-<lb n="0125a08" ed="Y"/>心合道」的，如<bibl><title level="m">《宗鏡錄》</title><biblScope type="卷" n="45">卷四五</biblScope></bibl><note place="inline">大正<ref target="#vol:48;page:p681b" type="taisho">四八．六八一中</ref></note>說：</p>
-<lb n="0125a09" ed="Y"/><quote><p style="margin-left:3em">「融大師云：鏡像本無心，說鏡像無心，從無心中說無心。人說（「說」應是衍字）有心
+<lb n="0125a08" ed="Y"/>心合道」的，如<bibl><title level="m">《宗鏡錄》</title><biblScope n="45" type="卷">卷四五</biblScope></bibl><note place="inline">大正<ref target="#vol:48;page:p681b" type="taisho">四八．六八一中</ref></note>說：</p>
+<lb n="0125a09" ed="Y"/><quote><p xml:id="pY40p0125a0901" style="margin-left:3em">「融大師云：鏡像本無心，說鏡像無心，從無心中說無心。人說（「說」應是衍字）有心
 <lb n="0125a10" ed="Y"/>，說人無心，從有心中說無心。有心中說無心，是末觀，無心中說無心，是本觀。眾生計
 <lb n="0125a11" ed="Y"/>有身心，說鏡像破身心。眾生著鏡像，說畢竟空破鏡像。若知鏡像畢竟空，即身心畢竟空
 <lb n="0125a12" ed="Y"/>。假名畢竟空，亦無畢竟空。若身心本無，佛道亦本無，一切法亦本無，本無亦本無。若
 <lb n="0125a13" ed="Y"/>知本無亦假名，假名佛道。佛道非天生，亦不從地出，直（一作「但」）是空心性，照世
 <lb n="0125a14" ed="Y"/>間如日」。</p></quote>
-<lb n="0125a15" ed="Y"/><p style="text-indent:2em">這是「無心」的好解說。這一段，是依<title level="m">《智度論》</title>以「易解空」喻「難解空」而來的。無心
+<lb n="0125a15" ed="Y"/><p xml:id="pY40p0125a1501" style="text-indent:2em">這是「無心」的好解說。這一段，是依<title level="m">《智度論》</title>以「易解空」喻「難解空」而來的。無心
 <pb n="0126a" ed="Y" xml:id="Y40.0038.0126a"/>
 <lb n="0126a01" ed="Y"/>而達一切法本無，就是合道，所以<cit><bibl><title level="m">《絕觀論》</title>說：</bibl><quote>「無心即無物，無物即天真，天真即大道」</quote></cit><note place="inline">
 <lb n="0126a02" ed="Y"/>第五問答</note>。「道」（菩提），<quote>「但是空心性，照世間如日」</quote>，如日照晴空一般；畢竟空寂中，無
 <lb n="0126a03" ed="Y"/>微不顯，所以<cit><bibl><title level="m">《心銘》</title>說：</bibl><quote>「一切莫顧，安心無處，無處安心，虛明自露」</quote></cit>。</p>
-<lb n="0126a04" ed="Y"/><p style="text-indent:2em">一切法差別相，只是心有所得。不但世間法，就是出世法，如有一毫相可得，<quote>「存法作解，
+<lb n="0126a04" ed="Y"/><p xml:id="pY40p0126a0401" style="text-indent:2em">一切法差別相，只是心有所得。不但世間法，就是出世法，如有一毫相可得，<quote>「存法作解，
 <lb n="0126a05" ed="Y"/>還是生死業」</quote><note place="inline">大正<ref target="#vol:48;page:p564c" type="taisho">四八．五六四下</ref></note>。所以初學者坐禪攝心，修觀，從「道」來說，都是有所得的，
 <lb n="0126a06" ed="Y"/>不能與道相契合的。<title level="m">《心銘》</title>就這樣的標義（無智無得，無修無證）說：</p>
-<lb n="0126a07" ed="Y"/><quote><p style="margin-left:3em">「心性不生，何須知見？本無一法，誰論熏鍊」？</p></quote>
-<lb n="0126a08" ed="Y"/><p style="text-indent:2em">假使要「合道」，那就是「無心」，可說是無方法的方法。如說：</p>
-<lb n="0126a09" ed="Y"/><quote><p style="margin-left:3em">「分明照境，隨照冥蒙（觀不得）。……將心守靜，猶未離病（攝心不得）。……菩提（
+<lb n="0126a07" ed="Y"/><quote><p xml:id="pY40p0126a0701" style="margin-left:3em">「心性不生，何須知見？本無一法，誰論熏鍊」？</p></quote>
+<lb n="0126a08" ed="Y"/><p xml:id="pY40p0126a0801" style="text-indent:2em">假使要「合道」，那就是「無心」，可說是無方法的方法。如說：</p>
+<lb n="0126a09" ed="Y"/><quote><p xml:id="pY40p0126a0901" style="margin-left:3em">「分明照境，隨照冥蒙（觀不得）。……將心守靜，猶未離病（攝心不得）。……菩提（
 <lb n="0126a10" ed="Y"/>道）本有，不須用求。煩惱本無，不須用除（不用求，不用除）。靈知自照，萬法歸如。
 <lb n="0126a11" ed="Y"/>無歸無受，絕觀忘守」。</p></quote>
-<lb n="0126a12" ed="Y"/><p style="text-indent:2em">「絕觀忘守」，才能合道，所以入道的要門是：</p>
-<lb n="0126a13" ed="Y"/><quote><p style="margin-left:3em">「一切莫顧，安心無處；無處安心，虛明自露」。</p></quote>
-<lb n="0126a14" ed="Y"/><quote><p style="margin-left:3em">「欲得淨心，無心用功。縱橫無照，最為微妙！知法無知，無知知要」。</p></quote>
-<lb n="0126a15" ed="Y"/><p style="text-indent:2em"><quote>「但是法空心，照世間如日」</quote>，是悟證的境地。古人作方便的說明，就是：<quote>「以無心之妙慧
+<lb n="0126a12" ed="Y"/><p xml:id="pY40p0126a1201" style="text-indent:2em">「絕觀忘守」，才能合道，所以入道的要門是：</p>
+<lb n="0126a13" ed="Y"/><quote><p xml:id="pY40p0126a1301" style="margin-left:3em">「一切莫顧，安心無處；無處安心，虛明自露」。</p></quote>
+<lb n="0126a14" ed="Y"/><quote><p xml:id="pY40p0126a1401" style="margin-left:3em">「欲得淨心，無心用功。縱橫無照，最為微妙！知法無知，無知知要」。</p></quote>
+<lb n="0126a15" ed="Y"/><p xml:id="pY40p0126a1501" style="text-indent:2em"><quote>「但是法空心，照世間如日」</quote>，是悟證的境地。古人作方便的說明，就是：<quote>「以無心之妙慧
 <pb n="0127a" ed="Y" xml:id="Y40.0038.0127a"/>
 <lb n="0127a01" ed="Y"/>，契無相之虛宗」</quote>。<quote>「般若無知，實相無相」</quote>。<quote>「定慧不二」</quote>；<quote>「般若方便不二」</quote>。<title level="m">《心銘》</title>以
 <lb n="0127a02" ed="Y"/>為：在「靈知」、「妙智」中，<quote>「慧日寂寂，定光明明，照無相苑，朗涅槃城」</quote>。<quote>「惺惺無妄，
 <lb n="0127a03" ed="Y"/>寂寂明亮，萬象常真，森羅一相」</quote>。「森羅一相」，就是<cit><bibl><title level="m">《絕觀論》</title>的</bibl><quote>「森羅為法用」</quote></cit>。這是在
 <lb n="0127a04" ed="Y"/>無二寂滅中，契入不思議無礙境界。<cit><bibl><title level="m">《心銘》</title>只是說：</bibl><quote>「三世諸佛，皆乘此宗。此宗毫末，沙界
 <lb n="0127a05" ed="Y"/>含容」</quote></cit>。<title level="m">《信心銘》</title>對此說得更明顯些：</p>
-<lb n="0127a06" ed="Y"/><quote><p style="margin-left:3em">「十方智者，皆入此宗。宗非延促，一念萬年。無在不在，十方目前。極小同大，忘絕境
+<lb n="0127a06" ed="Y"/><quote><p xml:id="pY40p0127a0601" style="margin-left:3em">「十方智者，皆入此宗。宗非延促，一念萬年。無在不在，十方目前。極小同大，忘絕境
 <lb n="0127a07" ed="Y"/>界，極大同小，不見邊表。有即是無，無即是有。若不如此，必不須守。一即一切，一切
 <lb n="0127a08" ed="Y"/>即一。但能如是，何慮不畢」。</p></quote>
-<lb n="0127a09" ed="Y"/><p style="text-indent:2em">無住，無著，無欲，無所執，無所得，無分別，這些都是佛法所常說的（小乘經也不例外）
+<lb n="0127a09" ed="Y"/><p xml:id="pY40p0127a0901" style="text-indent:2em">無住，無著，無欲，無所執，無所得，無分別，這些都是佛法所常說的（小乘經也不例外）
 <lb n="0127a10" ed="Y"/>。佛法說因修得證：第一義不可安立，無修無證，無聖無凡，而世俗諦——緣起如幻（唯心者依
 <lb n="0127a11" ed="Y"/>心安立）中，一切都是成立的。所以佛法方便，是<quote>「不依世俗諦，不得第一義」</quote>；<quote>「第一義皆因
 <lb n="0127a12" ed="Y"/>言說」</quote>：依言說得無言說，依分別入無分別，由觀慧而達境智並冥，由心境而達不能（心）不所
@@ -751,9 +771,9 @@
 <lb n="0128a01" ed="Y"/>—發展出一種無方便的方便。其實，這是受了莊子影響的。莊子說：玄珠（喻道體），知識與能
 <lb n="0128a02" ed="Y"/>力所不能得，卻為罔象所得。玄學化的牛頭禪，以「喪我忘情為修」。由此而來的，如<title level="m">《絕觀論
 <lb n="0128a03" ed="Y"/>》</title><note place="inline">第四五問答</note>說：</p>
-<lb n="0128a04" ed="Y"/><quote><p style="margin-left:3em">「高臥放任，不作一個物，名為行道。不見一個物，名為見道。不知一個物，名為修道。
+<lb n="0128a04" ed="Y"/><quote><p xml:id="pY40p0128a0401" style="margin-left:3em">「高臥放任，不作一個物，名為行道。不見一個物，名為見道。不知一個物，名為修道。
 <lb n="0128a05" ed="Y"/>不行一個物，名為行道」。</p></quote>
-<lb n="0128a06" ed="Y"/><p style="text-indent:2em">發展所成的，南嶽、青原下的中國禪宗，與印度禪是不同的。印度禪，即使是達摩禪，還是
+<lb n="0128a06" ed="Y"/><p xml:id="pY40p0128a0601" style="text-indent:2em">發展所成的，南嶽、青原下的中國禪宗，與印度禪是不同的。印度禪，即使是達摩禪，還是
 <lb n="0128a07" ed="Y"/>以「安心」為方便，定慧為方便。印度禪蛻變為中國禪宗——中華禪，胡適以為是神會。其實，
 <lb n="0128a08" ed="Y"/>不但不是神會，也不是慧能。中華禪的根源，中華禪的建立者，是牛頭。應該說，是<quote>「東夏之達
 <lb n="0128a09" ed="Y"/>摩」</quote>——法融。</p></cb:div></cb:div></cb:div>

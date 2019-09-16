@@ -12,64 +12,84 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>11卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 28, No. 28</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>11卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">28</idno>.<idno type="no">28</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（四）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB01657">
-	<charName>CBETA CHARACTER CB01657</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[口*匿]</value>
-	</charProp>
-	<mapping type="unicode">U+20F4B</mapping>
-	<mapping cb:dec="984697" type="PUA">U+F0679</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB01657">
+				<charName>CBETA CHARACTER CB01657</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[口*匿]</value>
+				</charProp>
+				<mapping type="unicode">U+20F4B</mapping>
+				<mapping cb:dec="984697" type="PUA">U+F0679</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">二、法海探珍</cb:mulu><cb:mulu level="2" type="其他">八　少壯的佛教</cb:mulu>
-<milestone unit="juan" n="3"/>
+<milestone n="3" unit="juan"/>
 <pb n="0113a" ed="Y" xml:id="Y28.0028.0113a"/>
 <lb n="0113a01" ed="Y"/><pb n="0112a" ed="Y" xml:id="Y28.0028.0112a.old" type="old"/><pb n="0113a" ed="Y" xml:id="Y28.0028.0113a.old" type="old"/><lb n="0113a01" ed="Y" type="old"/><lb n="0113a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">三、中國佛教瑣談</cb:mulu><head>中國佛教瑣談<note n="0113001" resp="DILA" type="add">民國七八年撰。</note></head>
 <lb n="0113a02" ed="Y"/><lb n="0113a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　生</cb:mulu><head>一　生</head>
-<lb n="0113a03" ed="Y"/><lb n="0113a04" ed="Y" type="old"/><p style="text-indent:2em">「解脫生死」，是修行佛法的根本問題，所以「了生死」、「了生脫死」，
+<lb n="0113a03" ed="Y"/><lb n="0113a04" ed="Y" type="old"/><p xml:id="pY28p0113a0301" style="text-indent:2em">「解脫生死」，是修行佛法的根本問題，所以「了生死」、「了生脫死」，
 <lb n="0113a04" ed="Y"/><lb n="0113a05" ed="Y" type="old"/>成為中國佛教界的一般論題。然而什麼是生，什麼是死，大家似乎並不想正確的
 <lb n="0113a05" ed="Y"/><lb n="0113a06" ed="Y" type="old"/>去認識，所以不免有以訛傳訛的傳說流行。</p>
-<lb n="0113a06" ed="Y"/><lb n="0113a07" ed="Y" type="old"/><p style="text-indent:2em">依我們人類來說，一般以為胎兒從母胎中誕生，就是生，釋迦佛不也是四月
+<lb n="0113a06" ed="Y"/><lb n="0113a07" ed="Y" type="old"/><p xml:id="pY28p0113a0601" style="text-indent:2em">依我們人類來說，一般以為胎兒從母胎中誕生，就是生，釋迦佛不也是四月
 <lb n="0113a07" ed="Y"/><lb n="0113a08" ed="Y" type="old"/>初八日生的嗎？不錯，這只是常識所說的生，一般誤解了以為這是「了生死」的
 <lb n="0113a08" ed="Y"/><lb n="0113a09" ed="Y" type="old"/>生，於是傳出了「投胎」的故事。如說：老爺睡在書房中，似夢非夢的見某人進
 <lb n="0113a09" ed="Y"/><lb n="0113a10" ed="Y" type="old"/>來。正在驚疑不定，ㄚ環來報：夫人生了公子。哦！孩子就是某人的靈魂投胎而
@@ -84,7 +104,7 @@
 <lb n="0114a07" ed="Y"/><lb n="0114a07" ed="Y" type="old"/>是依父精、母血、識——三事結合而開始的。結胎以後，早已有了識，後來又有
 <lb n="0114a08" ed="Y"/><lb n="0114a08" ed="Y" type="old"/>了呼吸，那裡要等另一個人的識（俗稱靈魂）來投胎而才生呢！</p></cb:div>
 <lb n="0114a09" ed="Y"/><lb n="0114a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　死</cb:mulu><head>二　死</head>
-<lb n="0114a10" ed="Y"/><lb n="0114a10" ed="Y" type="old"/><p style="text-indent:2em">死，是一期生命的結束。依佛法說，人死了，或立即往生（如地獄、天上等
+<lb n="0114a10" ed="Y"/><lb n="0114a10" ed="Y" type="old"/><p xml:id="pY28p0114a1001" style="text-indent:2em">死，是一期生命的結束。依佛法說，人死了，或立即往生（如地獄、天上等
 <lb n="0114a11" ed="Y"/><lb n="0114a11" ed="Y" type="old"/>），或要等因緣（如人要有父精、母血和合）而往生。人如已經死了，是不可能
 <lb n="0114a12" ed="Y"/><lb n="0114a12" ed="Y" type="old"/>復活的。但我國民間及佛教界的傳說中，有的說：某人死後，去了地獄，見到閻<pb n="0115a" ed="Y" xml:id="Y28.0028.0115a.old" type="old"/>
 <pb n="0115a" ed="Y" xml:id="Y28.0028.0115a"/>
@@ -94,7 +114,7 @@
 <lb n="0115a04" ed="Y"/><lb n="0115a04" ed="Y" type="old"/>人在信仰或社會傳說影響下，有怕墮地獄的意識，所以從昏迷醒來，可能有去了
 <lb n="0115a05" ed="Y"/><lb n="0115a05" ed="Y" type="old"/>地獄一趟的感覺。其實這並不是死，還在「病」的階段，所以死了活轉來的傳說
 <lb n="0115a06" ed="Y"/><lb n="0115a06" ed="Y" type="old"/>，是錯誤的，不合佛法的。</p>
-<lb n="0115a07" ed="Y"/><lb n="0115a07" ed="Y" type="old"/><p style="text-indent:2em">怎樣才是死？通俗以呼吸停止，沒有知覺為死亡。然如溺水、縊死等呼吸停
+<lb n="0115a07" ed="Y"/><lb n="0115a07" ed="Y" type="old"/><p xml:id="pY28p0115a0701" style="text-indent:2em">怎樣才是死？通俗以呼吸停止，沒有知覺為死亡。然如溺水、縊死等呼吸停
 <lb n="0115a08" ed="Y"/><lb n="0115a08" ed="Y" type="old"/>止，每能依人工呼吸而恢復，所以但憑呼吸停止，是不能確定為死亡的。（佛教
 <lb n="0115a09" ed="Y"/><lb n="0115a09" ed="Y" type="old"/>及外道）修得第四禪的，「身行滅」——出入息停止了，然身體健康，等到一出
 <lb n="0115a10" ed="Y"/><lb n="0115a10" ed="Y" type="old"/>定，呼吸就立刻恢復了。印度的瑜伽行者，每有埋在土裡數小時，出來還是好好
@@ -113,7 +133,7 @@
 <lb n="0116a09" ed="Y"/><lb n="0116a09" ed="Y" type="old"/>，但不久就要停止；所以腦死了，不能再生存下去，就可宣告死亡。然依佛法說
 <lb n="0116a10" ed="Y"/><lb n="0116a10" ed="Y" type="old"/>，這不能說是死，這是在向死亡接近的過程中；不能因為不久一定死，就宣告已
 <lb n="0116a11" ed="Y"/><lb n="0116a11" ed="Y" type="old"/>死亡了。佛法說，死是一期生命的最後結束。</p>
-<lb n="0116a12" ed="Y"/><lb n="0116a12" ed="Y" type="old"/><p style="text-indent:2em">經上說：<quote type="嚴謹引文">「壽、煖及與識，三法捨身時，所捨身僵仆，如木無思覺。」<note n="0116001" resp="厚觀法師" type="add">《阿毘達磨俱舍論》卷5〈2 分別根品〉(CBETA, T29, no. 1558, p. 26, a28-29)</note></quote>壽、
+<lb n="0116a12" ed="Y"/><lb n="0116a12" ed="Y" type="old"/><p xml:id="pY28p0116a1201" style="text-indent:2em">經上說：<quote type="嚴謹引文">「壽、煖及與識，三法捨身時，所捨身僵仆，如木無思覺。」<note n="0116001" resp="厚觀法師" type="add">《阿毘達磨俱舍論》卷5〈2 分別根品〉(CBETA, T29, no. 1558, p. 26, a28-29)</note></quote>壽、
 <lb n="0116a13" ed="Y"/><lb n="0116a13" ed="Y" type="old"/>煖、識——三者不再在身體上生起，也就是沒有這三者，才是死了。倒在地上的<pb n="0117a" ed="Y" xml:id="Y28.0028.0117a.old" type="old"/>
 <pb n="0117a" ed="Y" xml:id="Y28.0028.0117a"/>
 <lb n="0117a01" ed="Y"/><lb n="0117a01" ed="Y" type="old"/>身體，與砍斷了的樹木、落地的蘋果一樣。「識」，不但沒有六識，內在的細意
@@ -132,12 +152,12 @@
 <pb n="0118a" ed="Y" xml:id="Y28.0028.0118a"/>
 <lb n="0118a01" ed="Y"/>者<pb n="0118a" ed="Y" xml:id="Y28.0028.0118a.old" type="old"/><lb n="0118a01" ed="Y" type="old"/>是沒有不良後果的。</p></cb:div>
 <lb n="0118a02" ed="Y"/><lb n="0118a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　鬼與地獄</cb:mulu><head>三　鬼與地獄</head>
-<lb n="0118a03" ed="Y"/><lb n="0118a03" ed="Y" type="old"/><p style="text-indent:2em">在生死輪迴的六趣——六道中，鬼與地獄，是六趣中不同的二趣。鬼與地獄
+<lb n="0118a03" ed="Y"/><lb n="0118a03" ed="Y" type="old"/><p xml:id="pY28p0118a0301" style="text-indent:2em">在生死輪迴的六趣——六道中，鬼與地獄，是六趣中不同的二趣。鬼與地獄
 <lb n="0118a04" ed="Y"/><lb n="0118a04" ed="Y" type="old"/>，可說是古代極一般的信仰；在佛法傳來以前，我國也早有了鬼與近似地獄的信
 <lb n="0118a05" ed="Y"/><lb n="0118a05" ed="Y" type="old"/>仰。佛法傳來，在重信仰的民間佛教中，鬼與地獄有了混合的傾向。特別是盛唐
 <lb n="0118a06" ed="Y"/><lb n="0118a06" ed="Y" type="old"/>以後，佛教偏重實行，法義的理解衰落，傳出了國人自己編寫的經典，鬼與地獄
 <lb n="0118a07" ed="Y"/><lb n="0118a07" ed="Y" type="old"/>被混合為一，成為民間的信仰。</p>
-<lb n="0118a08" ed="Y"/><lb n="0118a08" ed="Y" type="old"/><p style="text-indent:2em">在我國古代的傳說中，如魑、魅、魍、魎、魃、魈等，或是山精、木怪，或
+<lb n="0118a08" ed="Y"/><lb n="0118a08" ed="Y" type="old"/><p xml:id="pY28p0118a0801" style="text-indent:2em">在我國古代的傳說中，如魑、魅、魍、魎、魃、魈等，或是山精、木怪，或
 <lb n="0118a09" ed="Y"/><lb n="0118a09" ed="Y" type="old"/>是災旱、疫癘的厲鬼；有關天象的，稱為神。人類是聚族而居的，最初想到的，
 <lb n="0118a10" ed="Y"/><lb n="0118a10" ed="Y" type="old"/>死是回到（民族）祖神的所在（「帝所」），如文王的<quote source="X58n1029_p0705c24" type="嚴謹引文">「在帝左右」<note n="0118001" resp="周怡曄" type="add">《一乘決疑論》卷1(CBETA, X58, no. 1029, p. 705, c24 // Z 2:9, p. 76, c9 // R104, p. 152, a9)</note></quote>。但知識漸
 <lb n="0118a11" ed="Y"/><lb n="0118a11" ed="Y" type="old"/>增，自身的所作所為，深深的有了罪惡感，不但一般人自覺沒有回歸祖神所在<lb n="0118a12" ed="Y" type="old"/>的
@@ -161,7 +181,7 @@
 <lb n="0120a02" ed="Y"/>以西，長江北岸的酆都，後來被傳說為鬼魂住處。我國是多民族融和<lb n="0120a03" ed="Y" type="old"/>而成的，地
 <lb n="0120a03" ed="Y"/>區廣大，鬼的住處，當然也不可能一致。但死了鬼在泰山獄的傳說，<lb n="0120a04" ed="Y" type="old"/>由於這裡的
 <lb n="0120a04" ed="Y"/>文化高，影響大，西漢時已成為普遍的信仰了。</p>
-<lb n="0120a05" ed="Y"/><lb n="0120a05" ed="Y" type="old"/><p style="text-indent:2em">佛教所說的地獄與鬼，是不同的兩類眾生。地獄，原語音譯為「泥犁」、「
+<lb n="0120a05" ed="Y"/><lb n="0120a05" ed="Y" type="old"/><p xml:id="pY28p0120a0501" style="text-indent:2em">佛教所說的地獄與鬼，是不同的兩類眾生。地獄，原語音譯為「泥犁」、「
 <lb n="0120a06" ed="Y"/><lb n="0120a06" ed="Y" type="old"/>那洛迦」等，意義是「苦器」，住著最苦痛的眾生。這一類眾生，主要的在地下
 <lb n="0120a07" ed="Y"/><lb n="0120a07" ed="Y" type="old"/>，所以早期的譯經者，為了國人的容易接受，就譯作「太<note place="inline">泰</note>山地獄」。如吳支謙
 <lb n="0120a08" ed="Y"/><lb n="0120a08" ed="Y" type="old"/>譯的<cit><bibl><title level="m">《佛說八吉祥神咒經》</title>說：</bibl><quote source="T14n0427_p0072c04-05" type="嚴謹引文">「不墮太山地獄。」</quote><note n="0120001" resp="周怡曄" type="add">《佛說八吉祥神咒經》卷1(CBETA, T14, no. 427, p. 72, c4-5)</note></cit>西晉失譯的<cit><bibl><title level="m">《鬼子母經》</title>說
@@ -178,7 +198,7 @@
 <lb n="0121a05" ed="Y"/>——十八地獄的。我國一向傳說「十八層地獄」，說十八是對的，但不是<lb n="0121a06" ed="Y" type="old"/>一層一
 <lb n="0121a06" ed="Y"/>層的十八層。總之，這是六道中最苦痛的，受極熱、極寒，或在人間而受<lb n="0121a07" ed="Y" type="old"/>非人生
 <lb n="0121a07" ed="Y"/>活的一類。</p>
-<lb n="0121a08" ed="Y"/><lb n="0121a08" ed="Y" type="old"/><p style="text-indent:2em">說到鬼，本於印度的固有信仰，佛教又加以條理簡別。鬼的原語為閉戾多，
+<lb n="0121a08" ed="Y"/><lb n="0121a08" ed="Y" type="old"/><p xml:id="pY28p0121a0801" style="text-indent:2em">說到鬼，本於印度的固有信仰，佛教又加以條理簡別。鬼的原語為閉戾多，
 <lb n="0121a09" ed="Y"/><lb n="0121a09" ed="Y" type="old"/>一般譯作餓鬼。印度傳說：世界最初的鬼王，名閉多，是父或祖父（老祖宗），
 <lb n="0121a10" ed="Y"/><lb n="0121a10" ed="Y" type="old"/>所以閉戾多是父或祖父所有的意思。這與中國傳說，人死了回到祖神那裡一樣。
 <lb n="0121a11" ed="Y"/><lb n="0121a11" ed="Y" type="old"/>後來的鬼王，名為閻魔王（或譯閻羅、閻魔羅）。鬼——閉戾多也分二類：一、
@@ -201,7 +221,7 @@
 <pb n="0123a" ed="Y" xml:id="Y28.0028.0123a"/>
 <lb n="0123a01" ed="Y"/><lb n="0123a01" ed="Y" type="old"/>鬼神，近於中國的魑、魅、魍、魎，雷神、河伯，龍、鳳等，與「人死為鬼」是
 <lb n="0123a02" ed="Y"/><lb n="0123a02" ed="Y" type="old"/>不同的。</p>
-<lb n="0123a03" ed="Y"/><lb n="0123a03" ed="Y" type="old"/><p style="text-indent:2em">佛教傳說的鬼神，為中國人所關切的，是「人死為鬼」——在地獄中的鬼。
+<lb n="0123a03" ed="Y"/><lb n="0123a03" ed="Y" type="old"/><p xml:id="pY28p0123a0301" style="text-indent:2em">佛教傳說的鬼神，為中國人所關切的，是「人死為鬼」——在地獄中的鬼。
 <lb n="0123a04" ed="Y"/>受<lb n="0123a04" ed="Y" type="old"/>到儒家「慎終追遠」的孝道思想，誰都關心死後父母等的餓鬼生活，希望有所
 <lb n="0123a05" ed="Y"/>救<lb n="0123a05" ed="Y" type="old"/>濟，使孝子賢孫們得到安慰。首先，傳來西晉失譯的<title level="m">《報恩奉盆經》</title>（我國又
 <lb n="0123a06" ed="Y"/>敷<lb n="0123a06" ed="Y" type="old"/>衍為大乘化的<title level="m">《盂蘭盆經》</title>）。經上說：目連尊者的生母，墮在餓鬼中，請佛
@@ -245,11 +265,11 @@
 <lb n="0126a02" ed="Y"/>熱鬧非凡。儒、釋、道——三教混合的七<lb n="0126a02" ed="Y" type="old"/>月超度，與佛法中地獄與鬼的原意，似
 <lb n="0126a03" ed="Y"/>乎越離越遠了！</p></cb:div>
 <lb n="0126a04" ed="Y"/><lb n="0126a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　嬰靈</cb:mulu><head>四　嬰靈</head>
-<lb n="0126a05" ed="Y"/><lb n="0126a04" ed="Y" type="old"/><p style="text-indent:2em">嬰靈，是近年台灣佛教界的新話題。有人說：墮胎的罪業極重，嬰靈會纏繞
+<lb n="0126a05" ed="Y"/><lb n="0126a04" ed="Y" type="old"/><p xml:id="pY28p0126a0501" style="text-indent:2em">嬰靈，是近年台灣佛教界的新話題。有人說：墮胎的罪業極重，嬰靈會纏繞
 <lb n="0126a06" ed="Y"/><lb n="0126a05" ed="Y" type="old"/>生母，使母親晝夜心神不寧，甚至全家不安。嬰靈非超度不可，如要超度，可到
-<lb n="0126a07" ed="Y"/><lb n="0126a06" ed="Y" type="old"/>他的寺院去，代為超脫。有人說：這不是佛法，無非妖言惑眾，設法<note n="0126a0701" resp="CBETA" type="add">斂【CB】，歛【印順】</note><app n="0126a0701"><lem wit="【CB】" resp="正聞出版社">斂</lem><rdg wit="【印順】">歛</rdg></app>財。我不
+<lb n="0126a07" ed="Y"/><lb n="0126a06" ed="Y" type="old"/>他的寺院去，代為超脫。有人說：這不是佛法，無非妖言惑眾，設法<note n="0126a0701" resp="CBETA" type="add">斂【CB】，歛【印順】</note><app n="0126a0701"><lem resp="正聞出版社" wit="【CB】">斂</lem><rdg wit="【印順】">歛</rdg></app>財。我不
 <lb n="0126a08" ed="Y"/><lb n="0126a07" ed="Y" type="old"/>想斷人的財路，因為形形色色的財神法多著呢！這裡，只是依佛法來論究一番。</p>
-<lb n="0126a09" ed="Y"/><lb n="0126a08" ed="Y" type="old"/><p style="text-indent:2em">嬰靈纏繞母親等，是不合佛法的。超度嬰靈者所根據的經典——<title level="m">《佛說長壽
+<lb n="0126a09" ed="Y"/><lb n="0126a08" ed="Y" type="old"/><p xml:id="pY28p0126a0901" style="text-indent:2em">嬰靈纏繞母親等，是不合佛法的。超度嬰靈者所根據的經典——<title level="m">《佛說長壽
 <lb n="0126a10" ed="Y"/><lb n="0126a09" ed="Y" type="old"/>滅罪護諸童子陀羅尼經》</title>，是我國歷代的「經錄」、「藏經」所沒有的。近代日
 <lb n="0126a11" ed="Y"/><lb n="0126a10" ed="Y" type="old"/>本人編輯的<title level="m">《續藏經》</title>，才出現這部經，這是可疑的。什麼是「五逆」？殺父，
 <lb n="0126a12" ed="Y"/><lb n="0126a11" ed="Y" type="old"/>殺母，殺阿羅漢，破和合僧，出佛身血：這是窮凶極惡的重罪，要墮無間地獄的
@@ -274,7 +294,7 @@
 <lb n="0128a04" ed="Y"/>乙的鬼魂，是那裡來的呢？這是甲的內心負疚，是甲自心所現的（屠宰者臨<lb n="0128a04" ed="Y" type="old"/>死，
 <lb n="0128a05" ed="Y"/>有見無數豬羊來索命的，也是如此）。墮胎而感到嬰靈纏擾不休，也就是這<lb n="0128a05" ed="Y" type="old"/>樣。
 <lb n="0128a06" ed="Y"/>胎兒早已在他處託生，那裡會來糾纏呢！</p>
-<lb n="0128a07" ed="Y"/><lb n="0128a06" ed="Y" type="old"/><p style="text-indent:2em">嬰靈的纏繞雖是虛妄的，但墮胎的罪惡卻是真實的。在殺戒中，殺「人及似
+<lb n="0128a07" ed="Y"/><lb n="0128a06" ed="Y" type="old"/><p xml:id="pY28p0128a0701" style="text-indent:2em">嬰靈的纏繞雖是虛妄的，但墮胎的罪惡卻是真實的。在殺戒中，殺「人及似
 <lb n="0128a08" ed="Y"/><lb n="0128a07" ed="Y" type="old"/>人」，都是重的殺罪，「似人」就是沒完具人形的胎兒。雖還沒有出生，或沒有
 <lb n="0128a09" ed="Y"/><lb n="0128a08" ed="Y" type="old"/>完具人形，但胎兒的生命，與誕生的人是沒有差別的。世間的習俗與國法，也許
 <lb n="0128a10" ed="Y"/><lb n="0128a09" ed="Y" type="old"/>有合法的墮胎，但在佛法，這是極重的罪惡。世間事，有些是難以理解的。如兩
@@ -285,9 +305,9 @@
 <lb n="0129a01" ed="Y"/><lb n="0128a13" ed="Y" type="old"/>性交欲樂的權利；進步到要戀愛、要性交，不要負生男育女的義務。進步的人類<pb n="0129a" ed="Y" xml:id="Y28.0028.0129a.old" type="old"/>
 <lb n="0129a02" ed="Y"/><lb n="0129a01" ed="Y" type="old"/>哪！進步到違反自然法則，自然怕真要向人類低頭了！</p></cb:div>
 <lb n="0129a03" ed="Y"/><lb n="0129a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五　經懺法事</cb:mulu><head>五　經懺法事</head>
-<lb n="0129a04" ed="Y"/><lb n="0129a03" ed="Y" type="old"/><p style="text-indent:2em">經懺法事，或作經懺佛事。現代中國台灣的「佛事」，非常興隆，富有中國
+<lb n="0129a04" ed="Y"/><lb n="0129a03" ed="Y" type="old"/><p xml:id="pY28p0129a0401" style="text-indent:2em">經懺法事，或作經懺佛事。現代中國台灣的「佛事」，非常興隆，富有中國
 <lb n="0129a05" ed="Y"/><lb n="0129a04" ed="Y" type="old"/>佛教的特色，可說是現代中國佛教的主流。</p>
-<lb n="0129a06" ed="Y"/><lb n="0129a05" ed="Y" type="old"/><p style="text-indent:2em">經懺佛事，從印度的「大乘佛法」中來。「經」，是經典的受持、讀、（背
+<lb n="0129a06" ed="Y"/><lb n="0129a05" ed="Y" type="old"/><p xml:id="pY28p0129a0601" style="text-indent:2em">經懺佛事，從印度的「大乘佛法」中來。「經」，是經典的受持、讀、（背
 <lb n="0129a07" ed="Y"/><lb n="0129a06" ed="Y" type="old"/>）誦、解說、書寫等，如<title level="m">《般若經》</title>、<title level="m">《法華經》</title>等說。<title level="m">《法華經》</title>稱讀、誦（
 <lb n="0129a08" ed="Y"/><lb n="0129a07" ed="Y" type="old"/>等）者為法師，法師是「法唄<g ref="#CB01657"/>」的意譯。在佛教中，「唄<g ref="#CB01657"/>者」是主持音聲佛
 <lb n="0129a09" ed="Y"/><lb n="0129a08" ed="Y" type="old"/>事的。法唄<g ref="#CB01657"/>——法師是領導大家來讀經、誦經、寫經（現在印刷方便，所以少
@@ -303,9 +323,9 @@
 <lb n="0130a06" ed="Y"/>的<lb n="0130a05" ed="Y" type="old"/><title level="a">〈普賢行願品〉</title>長行，又加常隨佛學與恒順眾生，成為十法。這一法門，龍樹
 <lb n="0130a07" ed="Y"/>稱<lb n="0130a06" ed="Y" type="old"/>之為方便的「易行道」。憶念、禮敬、稱十方佛名（經中，每舉十方十佛，或
 <lb n="0130a08" ed="Y"/>三<lb n="0130a07" ed="Y" type="old"/>十五佛、五十三佛為代表），也稱諸菩薩的名號，然後懺悔、隨喜、勸請、迴
-<lb n="0130a09" ed="Y"/>向<lb n="0130a08" ed="Y" type="old"/>。這樣修行，信願力增強，就能進修六度等菩薩大行<note place="inline"><bibl><title level="m">《十住毘婆沙論》</title><biblScope type="卷" n="5 6">卷五、六</biblScope></bibl></note>
+<lb n="0130a09" ed="Y"/>向<lb n="0130a08" ed="Y" type="old"/>。這樣修行，信願力增強，就能進修六度等菩薩大行<note place="inline"><bibl><title level="m">《十住毘婆沙論》</title><biblScope n="5 6" type="卷">卷五、六</biblScope></bibl></note>
 <lb n="0130a10" ed="Y"/>。天<lb n="0130a09" ed="Y" type="old"/>台智者大師立「五悔法」：懺悔、勸請、隨喜、迴向、發願，作為法華觀門
-<lb n="0130a11" ed="Y"/>的助<lb n="0130a10" ed="Y" type="old"/>行<note place="inline"><bibl><title level="m">《摩訶止觀》</title><biblScope type="卷" n="7下">卷七下</biblScope></bibl></note>；<title level="a">〈普賢行願品〉</title>依此而迴向彌陀淨土；唐代所傳的秘
+<lb n="0130a11" ed="Y"/>的助<lb n="0130a10" ed="Y" type="old"/>行<note place="inline"><bibl><title level="m">《摩訶止觀》</title><biblScope n="7下" type="卷">卷七下</biblScope></bibl></note>；<title level="a">〈普賢行願品〉</title>依此而迴向彌陀淨土；唐代所傳的秘
 <lb n="0130a12" ed="Y"/>密儀<lb n="0130a11" ed="Y" type="old"/>軌，也是以此為修行前方便的（與咒語相結合）。以懺悔為要門的方便修行
 <lb n="0130a13" ed="Y"/>，促<lb n="0130a12" ed="Y" type="old"/>成「大乘佛法」相當的發達。如<title>《大正藏》</title>「經集部」<note place="inline">卷十四</note>，從（四二六
 <pb n="0131a" ed="Y" xml:id="Y28.0028.0131a"/>
@@ -313,7 +333,7 @@
 <lb n="0131a02" ed="Y"/>稱<pb n="0131a" ed="Y" xml:id="Y28.0028.0131a.old" type="old"/><lb n="0131a01" ed="Y" type="old"/>佛名號，可以懺除業障，往生淨土。而稱念佛名等，還有種種現生功德，與<title level="m">《
 <lb n="0131a03" ed="Y"/>般<lb n="0131a02" ed="Y" type="old"/>若經》</title>等所說讀誦經典相同，所以誦經也好、（念佛）禮懺也好，有共通的意
 <lb n="0131a04" ed="Y"/>義<lb n="0131a03" ed="Y" type="old"/>而被聯合起來。「經懺」的成為一詞，也許因此而來。</p>
-<lb n="0131a05" ed="Y"/><lb n="0131a04" ed="Y" type="old"/><p style="text-indent:2em">禮佛稱名的懺悔，如<cit><bibl><title level="m">《舍利弗悔過經》</title>說：</bibl><quote source="T24n1492_p1091b08-09" type="嚴謹引文">「持悔過經，晝夜各三過讀。」</quote><note n="0131001" resp="周怡曄" type="add">《佛說舍利弗悔過經》卷1(CBETA, T24, no. 1492, p. 1091, b8-9)</note></cit>
+<lb n="0131a05" ed="Y"/><lb n="0131a04" ed="Y" type="old"/><p xml:id="pY28p0131a0501" style="text-indent:2em">禮佛稱名的懺悔，如<cit><bibl><title level="m">《舍利弗悔過經》</title>說：</bibl><quote source="T24n1492_p1091b08-09" type="嚴謹引文">「持悔過經，晝夜各三過讀。」</quote><note n="0131001" resp="周怡曄" type="add">《佛說舍利弗悔過經》卷1(CBETA, T24, no. 1492, p. 1091, b8-9)</note></cit>
 <lb n="0131a06" ed="Y"/><lb n="0131a05" ed="Y" type="old"/><quote type="嚴謹引文">「晝夜各三過讀」</quote>，那是一日一夜，六時讀誦經的；可說是懺悔與誦經的統一。
 <lb n="0131a07" ed="Y"/><lb n="0131a06" ed="Y" type="old"/>從譯典來看，印度佛教發展為誦偈的禮懺，如龍樹<cit><bibl><title level="m">《寶行王正論》</title>說：</bibl><quote source="T32n1656_p0504b12-14" type="嚴謹引文">「現前佛
 <lb n="0131a08" ed="Y"/><lb n="0131a07" ed="Y" type="old"/>支提，日夜各三遍，願誦二十偈。」</quote><note n="0131002" resp="周怡曄" type="add">《寶行王正論》卷1〈5 出家正行品〉(CBETA, T32, no. 1656, p. 504, b12-14)</note></cit>佛支提是佛舍利塔，當時佛像還不多，所以
@@ -365,7 +385,7 @@
 <lb n="0134a12" ed="Y"/><lb n="0134a11" ed="Y" type="old"/>講經流、懺燄流，<quote>「其眾寡不逮後一（懺燄）流之什一」</quote>。懺燄流就是瑜伽僧，
 <lb n="0134a13" ed="Y"/><lb n="0134a12" ed="Y" type="old"/>占佛教僧侶十分之九以上（台灣似乎少一些），這才是元明以來的佛教的主流！</p>
 <pb n="0135a" ed="Y" xml:id="Y28.0028.0135a"/>
-<lb n="0135a01" ed="Y"/><lb n="0134a13" ed="Y" type="old"/><p style="text-indent:2em">著重於消災、消業、超度亡靈的「經懺法事」，現在流行的，有一、「水陸<pb n="0135a" ed="Y" xml:id="Y28.0028.0135a.old" type="old"/>
+<lb n="0135a01" ed="Y"/><lb n="0134a13" ed="Y" type="old"/><p xml:id="pY28p0135a0101" style="text-indent:2em">著重於消災、消業、超度亡靈的「經懺法事」，現在流行的，有一、「水陸<pb n="0135a" ed="Y" xml:id="Y28.0028.0135a.old" type="old"/>
 <lb n="0135a02" ed="Y"/><lb n="0135a01" ed="Y" type="old"/>齋會」，是盛大的普度法會。宋<bibl><title level="m">《釋門正統》</title><biblScope n="4" type="卷"><note place="inline">卷四</note></biblScope></bibl>說：梁武帝夢見神僧，要他
 <lb n="0135a03" ed="Y"/>作<lb n="0135a02" ed="Y" type="old"/>水陸大齋，普度苦惱眾生。誰也不知水陸大齋是什麼，誌公勸武帝「廣尋經論
 <lb n="0135a04" ed="Y"/>」<lb n="0135a03" ed="Y" type="old"/>。武帝在經中，見到了<quote source="X75n1513_p0303c22-23" type="嚴謹引文">「阿難遇面然鬼王，建立平等斛食」<note n="0135001" resp="周怡曄" type="add">《釋門正統》卷4(CBETA, X75, no. 1513, p. 303, c22-23 // Z 2B:3, p. 401, c6-7 // R130, p. 802, a6-7)</note></quote>，這才制立儀文。
@@ -397,7 +417,7 @@
 <lb n="0137a02" ed="Y"/>》</title>說：梁皇懺，是梁代諸名僧<pb n="0137a" ed="Y" xml:id="Y28.0028.0137a.old" type="old"/><lb n="0137a01" ed="Y" type="old"/>刪改齊竟陵王的<title level="m">《淨行法門》</title>而成。元代的妙覺智
 <lb n="0137a03" ed="Y"/>等「重加校訂審核」，成為<lb n="0137a02" ed="Y" type="old"/>現行的「梁皇懺」——<title level="m">《慈悲道場懺法》</title>。可以推定
 <lb n="0137a04" ed="Y"/>的，這是元代所編，假借梁<lb n="0137a03" ed="Y" type="old"/>武帝的名字來推行的。在中國佛教史上，梁武帝確是
-<lb n="0137a05" ed="Y"/>誠信佛法的。隋<bibl><title level="m">《歷代三寶<lb n="0137a04" ed="Y" type="old"/>紀》</title><biblScope type="卷" n="11"><note place="inline">卷十一</note></biblScope></bibl>說：武帝為了<quote type="嚴謹引文">「建福禳災，或禮懺除障
+<lb n="0137a05" ed="Y"/>誠信佛法的。隋<bibl><title level="m">《歷代三寶<lb n="0137a04" ed="Y" type="old"/>紀》</title><biblScope n="11" type="卷"><note place="inline">卷十一</note></biblScope></bibl>說：武帝為了<quote type="嚴謹引文">「建福禳災，或禮懺除障
 <lb n="0137a06" ed="Y"/>，或饗神鬼，或祭龍王」<note n="0137001" resp="厚觀法師" type="add">《歷代三寶紀》卷11(CBETA, T49, no. 2034, p. 99, b18-19)</note></quote>，<lb n="0137a05" ed="Y" type="old"/>命寶唱等集錄了<title level="m">《眾經懺悔滅罪方法》</title>等八部。雖只
 <lb n="0137a07" ed="Y"/>是集錄經文，但對建福禳災<lb n="0137a06" ed="Y" type="old"/>、禮懺除障、饗鬼神與祭龍王等法事，是會有影響的
 <lb n="0137a08" ed="Y"/>，這可能是「水陸齋會」與<lb n="0137a07" ed="Y" type="old"/>「慈悲道場懺法」，都仰推梁武帝的理由吧！三、「
@@ -427,7 +447,7 @@
 <lb n="0139a04" ed="Y"/>名，經（法）名，菩薩、<lb n="0139a03" ed="Y" type="old"/>辟支佛、阿羅漢——僧名；稱名禮敬三寶後，有懺文，
 <lb n="0139a05" ed="Y"/>末後附錄偽經——<title level="m">《大乘<lb n="0139a04" ed="Y" type="old"/>蓮華寶達問答報應沙門經》</title>一段。稱<title level="m">《法顯傳》</title>為<title level="m">《法
 <lb n="0139a06" ed="Y"/>顯傳經》</title>，分賓頭盧頗羅<lb n="0139a05" ed="Y" type="old"/>墮為二人，這部<title level="m">《佛名經》</title>的編集者，對佛法的理解，
-<lb n="0139a07" ed="Y"/>顯然是幼稚的。三十卷本<lb n="0139a06" ed="Y" type="old"/>的<title level="m">《佛名經》</title>，唐<bibl><title level="m">《開元釋教錄》</title><biblScope type="卷" n="18"><note place="inline">卷十八</note></biblScope></bibl>，列入<title level="a">〈偽
+<lb n="0139a07" ed="Y"/>顯然是幼稚的。三十卷本<lb n="0139a06" ed="Y" type="old"/>的<title level="m">《佛名經》</title>，唐<bibl><title level="m">《開元釋教錄》</title><biblScope n="18" type="卷"><note place="inline">卷十八</note></biblScope></bibl>，列入<title level="a">〈偽
 <lb n="0139a08" ed="Y"/>妄亂真錄〉</title>，並且說<quote type="嚴謹引文">「<lb n="0139a07" ed="Y" type="old"/>群愚倣習，邪黨共傳，若不指明，恐穢真教」<note n="0139001" resp="厚觀法師" type="add">《開元釋教錄》卷18(CBETA, T55, no. 2154, p. 672, b3-4)</note></quote>，似乎當時
 <lb n="0139a09" ed="Y"/>已流傳民間了。<title>《麗藏<lb n="0139a08" ed="Y" type="old"/>》</title>本在卷一末的校勘記說：<quote source="T14n0441_p0191b04-06" type="嚴謹引文">「然此三十卷經，本朝盛行。
 <lb n="0139a10" ed="Y"/>行來日久，國俗多有倚<lb n="0139a09" ed="Y" type="old"/>此而作福者，今忽刪之，彼必眾怒。」<note n="0139002" resp="周怡曄" type="add">《佛說佛名經》卷1〈1 大乘蓮華寶達問答報應沙門品〉(CBETA, T14, no. 441, p. 191, b4-6)</note></quote>「作福」，就是作
@@ -438,7 +458,7 @@
 <lb n="0140a01" ed="Y"/>現在流行的經懺中，「<lb n="0139a13" ed="Y" type="old"/>萬佛懺」與「千佛懺」，及「大悲懺法」，還有集眾禮誦
 <lb n="0140a02" ed="Y"/>懺的，其他懺法，都成<pb n="0140a" ed="Y" xml:id="Y28.0028.0140a.old" type="old"/><lb n="0140a01" ed="Y" type="old"/>為僧眾代人禮誦的「經懺法事」，也就是「瑜伽」——應
 <lb n="0140a03" ed="Y"/>赴僧的專職了。</p>
-<lb n="0140a04" ed="Y"/><lb n="0140a02" ed="Y" type="old"/><p style="text-indent:2em">「經懺法事」，本出於大乘的方便道，演化為應赴世俗的法事，從適應世間
+<lb n="0140a04" ed="Y"/><lb n="0140a02" ed="Y" type="old"/><p xml:id="pY28p0140a0401" style="text-indent:2em">「經懺法事」，本出於大乘的方便道，演化為應赴世俗的法事，從適應世間
 <lb n="0140a05" ed="Y"/><lb n="0140a03" ed="Y" type="old"/>來說，是有相當意義的。任何宗教，普及社會，對信徒都會有一定的宗教義務。
 <lb n="0140a06" ed="Y"/><lb n="0140a04" ed="Y" type="old"/>如結婚、生孩子、弟兄分家、喪葬，基督教也會為信徒舉行「禮拜」；天主教、
 <lb n="0140a07" ed="Y"/><lb n="0140a05" ed="Y" type="old"/>伊斯蘭教等，都各有不同的宗教儀式。中國佛教的「經懺法事」，可說是普及民
@@ -469,7 +489,7 @@
 <lb n="0142a04" ed="Y"/>四十一年，我到台灣來，台灣佛教也還是這樣的。但大陸佛教（在家出家）來<lb n="0142a03" ed="Y" type="old"/>了
 <lb n="0142a05" ed="Y"/>，做法事是要講定多少錢的。從前上海的寺院，有的設有「賬房」，負責接洽<lb n="0142a04" ed="Y" type="old"/>經
 <lb n="0142a06" ed="Y"/>懺。嚴格說，這已失去宗教的意義，變成交易的商業行為。依<cit><bibl><title level="m">《釋氏稽古略續<lb n="0142a05" ed="Y" type="old"/>集
-<lb n="0142a07" ed="Y"/>》</title><biblScope type="卷" n="2"><note place="inline">卷二</note></biblScope>，明洪武年間的<title level="a">〈申明佛教榜冊〉</title>，說到</bibl><quote>「應赴世俗，所酬之資，驗<lb n="0142a06" ed="Y" type="old"/>日
+<lb n="0142a07" ed="Y"/>》</title><biblScope n="2" type="卷"><note place="inline">卷二</note></biblScope>，明洪武年間的<title level="a">〈申明佛教榜冊〉</title>，說到</bibl><quote>「應赴世俗，所酬之資，驗<lb n="0142a06" ed="Y" type="old"/>日
 <lb n="0142a08" ed="Y"/>驗僧，每一日一僧錢五百文。主罄、寫疏、召請——三執事，每僧各一千文」</quote></cit><lb n="0142a07" ed="Y" type="old"/>，
 <lb n="0142a09" ed="Y"/>可見由來已久。國家明定價格，免瑜伽僧的貪得無厭，但從此，應赴經懺每天<lb n="0142a08" ed="Y" type="old"/>多
 <lb n="0142a10" ed="Y"/>少錢，僧眾也覺得理所當然。多數人為此而忙，專在臨終、度亡上用力，難怪<lb n="0142a09" ed="Y" type="old"/>太
@@ -477,7 +497,7 @@
 <lb n="0142a12" ed="Y"/>省了。</p></cb:div>
 <pb n="0143a" ed="Y" xml:id="Y28.0028.0143a"/>
 <lb n="0143a01" ed="Y"/><lb n="0142a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">六　放生</cb:mulu><head>六　放生</head>
-<lb n="0143a02" ed="Y"/><lb n="0142a12" ed="Y" type="old"/><p style="text-indent:2em">放生，是<title level="m">《梵網經》</title>、<title level="m">《金光明經》</title>等所說到的。佛法「不殺生」，還要「<pb n="0143a" ed="Y" xml:id="Y28.0028.0143a.old" type="old"/>
+<lb n="0143a02" ed="Y"/><lb n="0142a12" ed="Y" type="old"/><p xml:id="pY28p0143a0201" style="text-indent:2em">放生，是<title level="m">《梵網經》</title>、<title level="m">《金光明經》</title>等所說到的。佛法「不殺生」，還要「<pb n="0143a" ed="Y" xml:id="Y28.0028.0143a.old" type="old"/>
 <lb n="0143a03" ed="Y"/><lb n="0143a01" ed="Y" type="old"/>護生」，從救護人類而擴大到救護（人以外的）眾生，當前動物的生命，而有放
 <lb n="0143a04" ed="Y"/><lb n="0143a02" ed="Y" type="old"/>生的善行，正是慈悲心的表現。經論中怎樣的放生呢？有見到魚池乾涸，運水來
 <lb n="0143a05" ed="Y"/><lb n="0143a03" ed="Y" type="old"/>救活魚類；有見水中浮有蟻群，快要被淹死了，設法引蟻類到達乾燥的地方；也
@@ -491,7 +511,7 @@
 <pb n="0144a" ed="Y" xml:id="Y28.0028.0144a"/>
 <lb n="0144a01" ed="Y"/><lb n="0143a11" ed="Y" type="old"/>魚五色斑爛，「玉泉（寺）觀魚」，多少變質而成為觀賞娛樂的地方。這是我所
 <lb n="0144a02" ed="Y"/><lb n="0143a12" ed="Y" type="old"/>知道的，放生都放在受保護的特定地區，被放的動物，能平安的度過一生。</p>
-<lb n="0144a03" ed="Y"/><lb n="0143a13" ed="Y" type="old"/><p style="text-indent:2em">台灣的放生池不多，放生的風氣卻很盛（也許是從大陸傳來的）。寺院舉行<pb n="0144a" ed="Y" xml:id="Y28.0028.0144a.old" type="old"/>
+<lb n="0144a03" ed="Y"/><lb n="0143a13" ed="Y" type="old"/><p xml:id="pY28p0144a0301" style="text-indent:2em">台灣的放生池不多，放生的風氣卻很盛（也許是從大陸傳來的）。寺院舉行<pb n="0144a" ed="Y" xml:id="Y28.0028.0144a.old" type="old"/>
 <lb n="0144a04" ed="Y"/><lb n="0144a01" ed="Y" type="old"/>法會，信徒們會自動的集款放生；也有由寺方主辦，信徒們發心樂施；還有成立
 <lb n="0144a05" ed="Y"/><lb n="0144a02" ed="Y" type="old"/>放生會而定期放生的。放生是慈悲心行，是功德，據說還能消災益壽，我理當讚
 <lb n="0144a06" ed="Y"/><lb n="0144a03" ed="Y" type="old"/>歎。但現今的放生方式，副作用太大，我真不敢贊同。因為，現在一般的放生，
@@ -519,7 +539,7 @@
 <pb n="0146a" ed="Y" xml:id="Y28.0028.0146a"/>
 <lb n="0146a01" ed="Y"/><lb n="0145a11" ed="Y" type="old"/>專為自己著想，迷迷糊糊的造罪業！以放生為事業的法師、居士！慈悲慈悲吧！</p></cb:div><pb n="0146a" ed="Y" xml:id="Y28.0028.0146a.old" type="old"/>
 <lb n="0146a02" ed="Y"/><lb n="0146a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">七　傳戒</cb:mulu><head>七　傳戒</head>
-<lb n="0146a03" ed="Y"/><lb n="0146a02" ed="Y" type="old"/><p style="text-indent:2em">出家的，要受沙彌（女性名「沙彌尼」）十戒、比丘（女性名「比丘尼」）
+<lb n="0146a03" ed="Y"/><lb n="0146a02" ed="Y" type="old"/><p xml:id="pY28p0146a0301" style="text-indent:2em">出家的，要受沙彌（女性名「沙彌尼」）十戒、比丘（女性名「比丘尼」）
 <lb n="0146a04" ed="Y"/><lb n="0146a03" ed="Y" type="old"/>具足戒，才能完成僧格，成為僧伽的一員。這是成立僧伽根本，出家的第一大事
 <lb n="0146a05" ed="Y"/><lb n="0146a04" ed="Y" type="old"/>，所以在「律部」犍度中，「受具足」是第一犍度。在南傳佛教區，發心出家的
 <lb n="0146a06" ed="Y"/><lb n="0146a05" ed="Y" type="old"/>，只要師長及大眾同意，就可以集眾為他受戒，幾點鐘就完成了，是隆重而又平
@@ -527,7 +547,7 @@
 <lb n="0146a08" ed="Y"/><lb n="0146a07" ed="Y" type="old"/>，合稱「三壇大戒」。不知什麼時代開始，我國是舉行大規模的集團受戒，有五
 <lb n="0146a09" ed="Y"/><lb n="0146a08" ed="Y" type="old"/>十三天的，有三十五天的（極少數是七天的）。時間長而人數多，成為中國特有
 <lb n="0146a10" ed="Y"/><lb n="0146a09" ed="Y" type="old"/>的盛大戒會。</p>
-<lb n="0146a11" ed="Y"/><lb n="0146a10" ed="Y" type="old"/><p style="text-indent:2em">佛教在印度，由於僧眾的分化，出家所依據的「律部」，也就大同而有些差
+<lb n="0146a11" ed="Y"/><lb n="0146a10" ed="Y" type="old"/><p xml:id="pY28p0146a1101" style="text-indent:2em">佛教在印度，由於僧眾的分化，出家所依據的「律部」，也就大同而有些差
 <lb n="0146a12" ed="Y"/><lb n="0146a11" ed="Y" type="old"/>別。傳到我國來的，東晉時譯出了五部律，所以早期中國僧寺所依的戒律，是並
 <pb n="0147a" ed="Y" xml:id="Y28.0028.0147a"/>
 <lb n="0147a01" ed="Y"/><lb n="0146a12" ed="Y" type="old"/>不統一的。在流行中，<title level="m">《四分律》</title>漸呈優勢。探究律部而大成的，是以<title level="m">《四分律<pb n="0147a" ed="Y" xml:id="Y28.0028.0147a.old" type="old"/>
@@ -569,7 +589,7 @@
 <lb n="0149a09" ed="Y"/>形式。形式化的傳戒受戒，可說到處如此，有何話說！不過我覺得，在戒期中<lb n="0149a09" ed="Y" type="old"/>，
 <lb n="0149a10" ed="Y"/>引禮師管教嚴格，還挨了兩下楊柳枝，對一個初出家的來說，不失為良好的生<lb n="0149a10" ed="Y" type="old"/>活
 <lb n="0149a11" ed="Y"/>教育！</p>
-<lb n="0149a12" ed="Y"/><lb n="0149a11" ed="Y" type="old"/><p style="text-indent:2em">台灣佛教，本從國內傳來，夾雜些羅祖下的道門（齋教）。受了日本五十年
+<lb n="0149a12" ed="Y"/><lb n="0149a11" ed="Y" type="old"/><p xml:id="pY28p0149a1201" style="text-indent:2em">台灣佛教，本從國內傳來，夾雜些羅祖下的道門（齋教）。受了日本五十年
 <lb n="0149a13" ed="Y"/><lb n="0149a12" ed="Y" type="old"/>的統治，出家中心的佛教，變得面目全非。光復後，民國四十一年，中國佛教會
 <pb n="0150a" ed="Y" xml:id="Y28.0028.0150a"/>
 <lb n="0150a01" ed="Y"/><lb n="0149a13" ed="Y" type="old"/>發起，首次在大仙寺傳授「三壇大戒」，以後每年傳戒一次，出家中心的佛教，<pb n="0150a" ed="Y" xml:id="Y28.0028.0150a.old" type="old"/>
@@ -593,10 +613,10 @@
 <lb n="0151a05" ed="Y"/>以<lb n="0151a04" ed="Y" type="old"/>受了出家的具足戒，再受增益戒是不合律制的。雖然提倡出家的增益戒，女眾
 <lb n="0151a06" ed="Y"/>來<lb n="0151a05" ed="Y" type="old"/>受戒的會更多，傳戒的法會更盛大，但這只有法會盛大的形式而已。這兩點，
 <lb n="0151a07" ed="Y"/>我<lb n="0151a06" ed="Y" type="old"/>也只是聽說，可能與事實不符！</p>
-<lb n="0151a08" ed="Y"/><lb n="0151a07" ed="Y" type="old"/><p style="text-indent:2em">有關傳戒受戒，問題多多，無從說起，說起我也無法做到，就這樣結束了
+<lb n="0151a08" ed="Y"/><lb n="0151a07" ed="Y" type="old"/><p xml:id="pY28p0151a0801" style="text-indent:2em">有關傳戒受戒，問題多多，無從說起，說起我也無法做到，就這樣結束了
 <lb n="0151a09" ed="Y"/>吧<lb n="0151a08" ed="Y" type="old"/>！</p></cb:div>
 <lb n="0151a10" ed="Y"/><lb n="0151a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">八　還俗與出家</cb:mulu><head>八　還俗與出家</head>
-<lb n="0151a11" ed="Y"/><lb n="0151a10" ed="Y" type="old"/><p style="text-indent:2em">佛教有出家制，出家的可以還俗嗎？還了俗可以再出家嗎？這是個很實際的
+<lb n="0151a11" ed="Y"/><lb n="0151a10" ed="Y" type="old"/><p xml:id="pY28p0151a1101" style="text-indent:2em">佛教有出家制，出家的可以還俗嗎？還了俗可以再出家嗎？這是個很實際的
 <lb n="0151a12" ed="Y"/><lb n="0151a11" ed="Y" type="old"/>問題。依「律部」說：出家的可以捨戒還俗，佛教與社會，都不應輕視他；出家
 <pb n="0152a" ed="Y" xml:id="Y28.0028.0152a"/>
 <lb n="0152a01" ed="Y"/><lb n="0151a12" ed="Y" type="old"/>與還俗，每人有自決的權利。還俗的原因很多，做一個如法而行的在家弟子，不<pb n="0152a" ed="Y" xml:id="Y28.0028.0152a.old" type="old"/>
@@ -606,7 +626,7 @@
 <lb n="0152a05" ed="Y"/><lb n="0152a04" ed="Y" type="old"/>貢獻多大，這些資歷，由於捨戒而全部消失了，現在還要從末座——最小的比丘
 <lb n="0152a06" ed="Y"/><lb n="0152a05" ed="Y" type="old"/>做起。女眾如捨戒還俗，是不准再出家的。為什麼不准再出家？律師們也許會知
 <lb n="0152a07" ed="Y"/><lb n="0152a06" ed="Y" type="old"/>道原因的。總之，出家是大丈夫事，還俗並不等於罪惡——佛法是這樣說的。</p>
-<lb n="0152a08" ed="Y"/><lb n="0152a07" ed="Y" type="old"/><p style="text-indent:2em">出家與還俗，與世間的入籍、出籍，入黨、退黨一樣，都有一定的制度，決
+<lb n="0152a08" ed="Y"/><lb n="0152a07" ed="Y" type="old"/><p xml:id="pY28p0152a0801" style="text-indent:2em">出家與還俗，與世間的入籍、出籍，入黨、退黨一樣，都有一定的制度，決
 <lb n="0152a09" ed="Y"/><lb n="0152a08" ed="Y" type="old"/>不能要去就去、說來就來的。我出家以後，一直往來於閩院、武院、普陀佛頂山
 <lb n="0152a10" ed="Y"/><lb n="0152a09" ed="Y" type="old"/>閱藏樓，對中國佛教的實際情況，實在知道得太少。民國二十六年，抗日戰爭開
 <lb n="0152a11" ed="Y"/><lb n="0152a10" ed="Y" type="old"/>始，我卻在武院病倒了，懨懨無生氣，一直無法康復。忽有三位僧青年，從寧波
@@ -652,7 +672,7 @@
 <lb n="0155a09" ed="Y"/>意義<lb n="0155a08" ed="Y" type="old"/>，而只是略舉一例，慨歎佛教界的法紀蕩然由來已久。「入僧」與「出僧」
 <lb n="0155a10" ed="Y"/>，<lb n="0155a09" ed="Y" type="old"/>沒有法紀可言，傳戒有什麼意義？如說佛教（出家眾）要組織化，那真是緣木
 <lb n="0155a11" ed="Y"/>而<lb n="0155a10" ed="Y" type="old"/>求魚了！</p>
-<lb n="0155a12" ed="Y"/><lb n="0155a11" ed="Y" type="old"/><p style="text-indent:2em">出家受戒，捨戒還俗，是僧伽「依律而住」的基石，這才能達成「正法久住
+<lb n="0155a12" ed="Y"/><lb n="0155a11" ed="Y" type="old"/><p xml:id="pY28p0155a1201" style="text-indent:2em">出家受戒，捨戒還俗，是僧伽「依律而住」的基石，這才能達成「正法久住
 <lb n="0155a13" ed="Y"/><lb n="0155a12" ed="Y" type="old"/>」的目的。大概的說：佛法傳來中國，最沒有成就的，就是律。早在宋代，離律
 <pb n="0156a" ed="Y" xml:id="Y28.0028.0156a"/>
 <lb n="0156a01" ed="Y"/><lb n="0155a13" ed="Y" type="old"/>寺別有禪寺、講寺；等到只有「傳戒訓練班」式的律寺，持律只是個人的奉行，<pb n="0156a" ed="Y" xml:id="Y28.0028.0156a.old" type="old"/>
@@ -687,7 +707,7 @@
 <lb n="0158a02" ed="Y"/><lb n="0158a01" ed="Y" type="old"/>），進一步做到破戒（不是犯戒）的勒令還俗，不得再出家，僧團才會有清淨的
 <lb n="0158a03" ed="Y"/><lb n="0158a02" ed="Y" type="old"/>可能。</p></cb:div>
 <lb n="0158a04" ed="Y"/><lb n="0158a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">九　供僧</cb:mulu><head>九　供僧</head>
-<lb n="0158a05" ed="Y"/><lb n="0158a04" ed="Y" type="old"/><p style="text-indent:2em">供僧，就是供眾。佛教的出家弟子，專心於自利利他的法業，生活所需，是
+<lb n="0158a05" ed="Y"/><lb n="0158a04" ed="Y" type="old"/><p xml:id="pY28p0158a0501" style="text-indent:2em">供僧，就是供眾。佛教的出家弟子，專心於自利利他的法業，生活所需，是
 <lb n="0158a06" ed="Y"/><lb n="0158a05" ed="Y" type="old"/>依在家眾的供施而來的。在印度，佛與出家弟子，每日去村落、城中乞食。布施
 <lb n="0158a07" ed="Y"/><lb n="0158a06" ed="Y" type="old"/>飲食的，不能說是供僧，因為這是隨來乞求的而施與，不是平等的施給多數人。
 <lb n="0158a08" ed="Y"/><lb n="0158a07" ed="Y" type="old"/>如在家弟子，請多少（不定）眾去他家裡受供養，平等的供給每一位，那就是供
@@ -704,11 +724,11 @@
 <lb n="0159a06" ed="Y"/><lb n="0159a05" ed="Y" type="old"/>，所以變成「僧臘」了。這一天，比丘、比丘尼都大了一歲，如父母見兒女長大
 <lb n="0159a07" ed="Y"/><lb n="0159a06" ed="Y" type="old"/>一樣，所以稱為「佛歡喜日」。可是中國佛教，七月十五日與餓鬼相結合，成為
 <lb n="0159a08" ed="Y"/><lb n="0159a07" ed="Y" type="old"/>超度鬼魂的佳節。唉！佛法的演化，有些真是出人意外的！</p>
-<lb n="0159a09" ed="Y"/><lb n="0159a08" ed="Y" type="old"/><p style="text-indent:2em">信眾（出家人也可以）到寺院裡「打齋」（西藏稱為「放茶」），平等供養
+<lb n="0159a09" ed="Y"/><lb n="0159a08" ed="Y" type="old"/><p xml:id="pY28p0159a0901" style="text-indent:2em">信眾（出家人也可以）到寺院裡「打齋」（西藏稱為「放茶」），平等供養
 <lb n="0159a10" ed="Y"/><lb n="0159a09" ed="Y" type="old"/>，就是供僧。我受戒時，天童寺「打齋」的分供眾，如意齋、上堂齋，那是依供
 <lb n="0159a11" ed="Y"/><lb n="0159a10" ed="Y" type="old"/>養金錢多少而分類的。現在台灣戒會，在上堂齋以上，又有╳╳齋、╳╳齋，而
 <lb n="0159a12" ed="Y"/><lb n="0159a11" ed="Y" type="old"/>最高的是護法大齋。一般人總說佛教守舊，其實創新的也著實不少呢！</p>
-<lb n="0159a13" ed="Y"/><lb n="0159a12" ed="Y" type="old"/><p style="text-indent:2em">七月十五日供僧，中國佛教早變質（度鬼）而忘記了。似乎菩提樹雜誌社，
+<lb n="0159a13" ed="Y"/><lb n="0159a12" ed="Y" type="old"/><p xml:id="pY28p0159a1301" style="text-indent:2em">七月十五日供僧，中國佛教早變質（度鬼）而忘記了。似乎菩提樹雜誌社，
 <pb n="0160a" ed="Y" xml:id="Y28.0028.0160a"/>
 <lb n="0160a01" ed="Y"/><lb n="0159a13" ed="Y" type="old"/>發起七月十五日供僧，由信徒發心集合，購買些日用品，選定對象，到時分別寄<pb n="0160a" ed="Y" xml:id="Y28.0028.0160a.old" type="old"/>
 <lb n="0160a02" ed="Y"/><lb n="0160a01" ed="Y" type="old"/>去，每人一分。雖不是安居施，而確是喚起供僧的先導者！台北蓮華佛學院，多
@@ -728,8 +748,8 @@
 <lb n="0161a02" ed="Y"/><lb n="0161a01" ed="Y" type="old"/>，即使是自稱信佛，或者加入中佛會，而城隍廟份子的反佛教（出家）特性，明
 <lb n="0161a03" ed="Y"/><lb n="0161a02" ed="Y" type="old"/>顯的存在。我建議，要辦齋僧大會，切不可與城隍廟、某某宮等合作。將來大家
 <lb n="0161a04" ed="Y"/><lb n="0161a03" ed="Y" type="old"/>神佛不分、佛魔不分，誰來負因果的責任！</p></cb:div>
-<lb n="0161a05" ed="Y"/><lb n="0161a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十　拈華微笑</cb:mulu><head><note n="0161a0501" resp="CBETA" type="add" subtype="規範字詞">十【CB】，一〇【印順】</note><app n="0161a0501"><lem wit="【CB】" resp="CBETA">十</lem><rdg wit="【印順】">一〇</rdg></app>　拈華微笑</head>
-<lb n="0161a06" ed="Y"/><lb n="0161a05" ed="Y" type="old"/><p style="text-indent:2em">盛唐以下，佛法日漸在起伏中衰落，能始終維持佛法形象，受到一般人尊敬
+<lb n="0161a05" ed="Y"/><lb n="0161a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十　拈華微笑</cb:mulu><head><note n="0161a0501" resp="CBETA" type="add" subtype="規範字詞">十【CB】，一〇【印順】</note><app n="0161a0501"><lem resp="CBETA" wit="【CB】">十</lem><rdg wit="【印順】">一〇</rdg></app>　拈華微笑</head>
+<lb n="0161a06" ed="Y"/><lb n="0161a05" ed="Y" type="old"/><p xml:id="pY28p0161a0601" style="text-indent:2em">盛唐以下，佛法日漸在起伏中衰落，能始終維持佛法形象，受到一般人尊敬
 <lb n="0161a07" ed="Y"/><lb n="0161a06" ed="Y" type="old"/>的，是禪宗。雖然禪宗已多少中國化了，但從維繫佛法來說，對中國佛教的功績
 <lb n="0161a08" ed="Y"/><lb n="0161a07" ed="Y" type="old"/>，是首屈一指的！佛法有師承的傳授，師長並以護持正法相付囑，如西晉譯的<cit><bibl><title level="m">《
 <lb n="0161a09" ed="Y"/><lb n="0161a08" ed="Y" type="old"/>阿育王傳》</title>說佛</bibl><quote source="T50n2042_p0112a13-14" type="嚴謹引文">「告摩訶迦葉言：於我滅後，當撰（結集）法眼」</quote><note n="0161001" resp="周怡曄" type="add">《阿育王傳》卷3(CBETA, T50, no. 2042, p. 112, a13-14)</note></cit><note place="inline">卷三</note>；<quote source="T50n2042_p0114b07-09" type="寬鬆引文">「<lb n="0161a09" ed="Y" type="old"/>迦
@@ -749,7 +769,7 @@
 <lb n="0162a10" ed="Y"/>」是五代；從此以後，果實纍纍，不再單傳一人了。禪宗所傳的西天二十八<lb n="0162a10" ed="Y" type="old"/>祖，
 <lb n="0162a11" ed="Y"/>還是依<title level="m">《付法藏因緣傳》</title>，略加補正而成的。六祖以後，師資授受，分為五<lb n="0162a11" ed="Y" type="old"/>宗。
 <lb n="0162a12" ed="Y"/>在宋代，出現了釋迦付法的新傳說，如（西元一一八八年）宋智昭的<cit><bibl><title level="m">《人天<lb n="0162a12" ed="Y" type="old"/>眼目
-<lb n="0162a13" ed="Y"/>》</title><biblScope type="卷" n="5"><note place="inline">卷五</note></biblScope>說：</bibl><quote type="嚴謹引文">「世尊登座，拈花示眾，人天百萬，悉皆罔措。獨有金色頭陀<lb n="0162a13" ed="Y" type="old"/>，破
+<lb n="0162a13" ed="Y"/>》</title><biblScope n="5" type="卷"><note place="inline">卷五</note></biblScope>說：</bibl><quote type="嚴謹引文">「世尊登座，拈花示眾，人天百萬，悉皆罔措。獨有金色頭陀<lb n="0162a13" ed="Y" type="old"/>，破
 <pb n="0163a" ed="Y" xml:id="Y28.0028.0163a"/>
 <lb n="0163a01" ed="Y"/>顏微笑。世尊云：吾有正法眼藏，涅槃妙心，實相無相，分付摩訶大迦葉。」</quote><note n="0163001" resp="厚觀法師" type="add">《人天眼目》卷5(CBETA, T48, no. 2006, p. 325, b11-14)</note></cit><pb n="0163a" ed="Y" xml:id="Y28.0028.0163a.old" type="old"/><lb n="0163a01" ed="Y" type="old"/>（
 <lb n="0163a02" ed="Y"/>一一〇九年撰）<title level="m">《禪門續燈錄》</title>，（一一八三）<title level="m">《聯燈會要》</title>，也有這一記錄<lb n="0163a02" ed="Y" type="old"/>；但
@@ -766,8 +786,8 @@
 <lb n="0163a13" ed="Y"/>直提向上」<note n="0163003" resp="厚觀法師" type="add">《五宗原》卷1(CBETA, X65, no. 1279, p. 102, a7-8 // Z 2:19, p. 101, a4-5 // R114, p. 201, a4-5)</note>的</quote><bibl><note place="inline">《<title level="m">五宗原</title>．<title level="a">序</title>》</note></bibl></cit>。這可能是不滿宗派偏執，專在師資授受上起諍<lb n="0163a13" ed="Y" type="old"/>論
 <pb n="0164a" ed="Y" xml:id="Y28.0028.0164a"/>
 <lb n="0164a01" ed="Y"/>的反響！</p></cb:div><pb n="0164a" ed="Y" xml:id="Y28.0028.0164a.old" type="old"/>
-<lb n="0164a02" ed="Y"/><lb n="0164a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十一　付法與接法</cb:mulu><head><note n="0164a0201" resp="CBETA" type="add" subtype="規範字詞">十一【CB】，一一【印順】</note><app n="0164a0201"><lem wit="【CB】" resp="CBETA">十一</lem><rdg wit="【印順】">一一</rdg></app>　付法與接法</head>
-<lb n="0164a03" ed="Y"/><lb n="0164a02" ed="Y" type="old"/><p style="text-indent:2em">禪宗自五祖弘忍以下，分為南北二宗。南宗的六祖慧能門下，也分幾大派，
+<lb n="0164a02" ed="Y"/><lb n="0164a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十一　付法與接法</cb:mulu><head><note n="0164a0201" resp="CBETA" type="add" subtype="規範字詞">十一【CB】，一一【印順】</note><app n="0164a0201"><lem resp="CBETA" wit="【CB】">十一</lem><rdg wit="【印順】">一一</rdg></app>　付法與接法</head>
+<lb n="0164a03" ed="Y"/><lb n="0164a02" ed="Y" type="old"/><p xml:id="pY28p0164a0301" style="text-indent:2em">禪宗自五祖弘忍以下，分為南北二宗。南宗的六祖慧能門下，也分幾大派，
 <lb n="0164a04" ed="Y"/><lb n="0164a03" ed="Y" type="old"/>後由南嶽懷讓、青原行思——二大流發展而分為五宗，被後世稱為禪門正宗。<lb n="0164a04" ed="Y" type="old"/>五
 <lb n="0164a05" ed="Y"/>宗中，溈仰宗與法眼宗，已經衰絕了；雲門宗也是斷斷續續的；只有臨濟宗與<lb n="0164a05" ed="Y" type="old"/>曹
 <lb n="0164a06" ed="Y"/>洞宗，最為興盛，有「臨天下」、「曹半邊」的稱譽。禪宗的師資相承，與印<lb n="0164a06" ed="Y" type="old"/>度
@@ -789,7 +809,7 @@
 <lb n="0165a09" ed="Y"/><lb n="0165a08" ed="Y" type="old"/>末了也是年月日，與神會門下的「《壇經》傳宗」，完全一致。那是當時被批評
 <lb n="0165a10" ed="Y"/>的，<lb n="0165a09" ed="Y" type="old"/>現在卻又採用了。不要說「見地」，就是傳法的形式，也沒有是非標準，這
 <lb n="0165a11" ed="Y"/>就是<lb n="0165a10" ed="Y" type="old"/>宗派意識在作祟！</p>
-<lb n="0165a12" ed="Y"/><lb n="0165a11" ed="Y" type="old"/><p style="text-indent:2em">禪宗興盛極了，臨濟、曹洞、雲門，一直在興衰起伏的流傳中，但是否代代
+<lb n="0165a12" ed="Y"/><lb n="0165a11" ed="Y" type="old"/><p xml:id="pY28p0165a1201" style="text-indent:2em">禪宗興盛極了，臨濟、曹洞、雲門，一直在興衰起伏的流傳中，但是否代代
 <lb n="0165a13" ed="Y"/><lb n="0165a12" ed="Y" type="old"/>相傳、代代都能心心相印呢？到明代（以前，還沒有見到記錄），顯然已雜亂不
 <pb n="0166a" ed="Y" xml:id="Y28.0028.0166a"/>
 <lb n="0166a01" ed="Y"/><lb n="0165a13" ed="Y" type="old"/>堪了。憨山德清（西元一五四六——一六二三）在<cit><bibl><title level="m">《紫柏尊者全集》</title>中說：</bibl><quote source="X73n1456_p0607c20-23" type="寬鬆引文">「然<pb n="0166a" ed="Y" xml:id="Y28.0028.0166a.old" type="old"/>
@@ -800,7 +820,7 @@
 <lb n="0166a06" ed="Y"/><lb n="0166a05" ed="Y" type="old"/>續藏》</title><biblScope n="127" type="冊">一二七冊</biblScope></bibl></note><note n="0166002" resp="周怡曄" type="add">《憨山老人夢遊集》卷27(CBETA, X73, no. 1456, p. 655, a20-22 // Z 2:32, p. 298, b10-12 // R127, p. 595, b10-12)</note></cit>禪宗到了明末，雖然門庭如舊，而實質已相當衰落。不是說從來<lb n="0166a06" ed="Y" type="old"/>是
 <lb n="0166a07" ed="Y"/>什麼宗，就是形式的付法，自稱臨濟多少代。當然，真參實學的，不能說從此<lb n="0166a07" ed="Y" type="old"/>沒
 <lb n="0166a08" ed="Y"/>有了，只是質量越來越差，到近代，真可說一代不如一代了！</p>
-<lb n="0166a09" ed="Y"/><lb n="0166a08" ed="Y" type="old"/><p style="text-indent:2em">付法的是「法師」，接受法的是「法子」，付法與接法的制度一直沿襲下來
+<lb n="0166a09" ed="Y"/><lb n="0166a08" ed="Y" type="old"/><p xml:id="pY28p0166a0901" style="text-indent:2em">付法的是「法師」，接受法的是「法子」，付法與接法的制度一直沿襲下來
 <lb n="0166a10" ed="Y"/><lb n="0166a09" ed="Y" type="old"/>。一般的小廟，以從師出家的關係，也自稱什麼宗，也有法派的名字。如我是臨
 <lb n="0166a11" ed="Y"/><lb n="0166a10" ed="Y" type="old"/>濟宗的，因為我出家的師父是臨濟宗，我師父的師父是臨濟宗，我也就是臨濟宗
 <lb n="0166a12" ed="Y"/><lb n="0166a11" ed="Y" type="old"/>了。這是不用接法的，也不能付法，只是出家剃度的關係，毫無「法」派的意義
@@ -828,7 +848,7 @@
 <lb n="0168a06" ed="Y"/>」與「法子」的法眷關係；「法師」、「法子」，「法兄」、「法弟」，互相<lb n="0168a06" ed="Y" type="old"/>結
 <lb n="0168a07" ed="Y"/>合，對佛教事務的運作上，多少有些世俗意義的。當然，這是不能與古代禪宗<lb n="0168a07" ed="Y" type="old"/>付
 <lb n="0168a08" ed="Y"/>法並論的。</p>
-<lb n="0168a09" ed="Y"/><lb n="0168a08" ed="Y" type="old"/><p style="text-indent:2em">再說些付法的有趣問題。依法，法是不能代付的，但沒有接過法的我，卻曾
+<lb n="0168a09" ed="Y"/><lb n="0168a08" ed="Y" type="old"/><p xml:id="pY28p0168a0901" style="text-indent:2em">再說些付法的有趣問題。依法，法是不能代付的，但沒有接過法的我，卻曾
 <lb n="0168a10" ed="Y"/><lb n="0168a09" ed="Y" type="old"/>代付了一次半的法。民國三十二年初，四川合江法王寺的老和尚、住持和尚相繼
 <lb n="0168a11" ed="Y"/><lb n="0168a10" ed="Y" type="old"/>的去世了。全縣公推了一位新住持，但他沒有資格就任。因為法王寺的制度，要
 <lb n="0168a12" ed="Y"/><lb n="0168a11" ed="Y" type="old"/>接法王寺的法，才能就任住持。老和尚與住持都去世了，住持無法登位，怎麼辦
@@ -843,14 +863,14 @@
 <lb n="0169a07" ed="Y"/>還沒有把法付出去，怎麼得了！苦苦的求他同門的師兄弟，接他的法，以免成<lb n="0169a07" ed="Y" type="old"/>為
 <lb n="0169a08" ed="Y"/>斷絕法種的大罪人。事實是可笑的，但怕斷法種而受苦報，一分對佛法的愚昧<lb n="0169a08" ed="Y" type="old"/>信
 <lb n="0169a09" ed="Y"/>心，末法中也還是難得的！</p></cb:div>
-<lb n="0169a10" ed="Y"/><lb n="0169a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十二　叢林與小廟</cb:mulu><head><note n="0169a1001" resp="CBETA" type="add" subtype="規範字詞">十二【CB】，一二【印順】</note><app n="0169a1001"><lem wit="【CB】" resp="CBETA">十二</lem><rdg wit="【印順】">一二</rdg></app>　叢林與小廟</head>
-<lb n="0169a11" ed="Y"/><lb n="0169a10" ed="Y" type="old"/><p style="text-indent:2em">「十方叢林」，意思是住眾多的大寺，是佛教僧伽所共有的。也有古寺衰落
+<lb n="0169a10" ed="Y"/><lb n="0169a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十二　叢林與小廟</cb:mulu><head><note n="0169a1001" resp="CBETA" type="add" subtype="規範字詞">十二【CB】，一二【印順】</note><app n="0169a1001"><lem resp="CBETA" wit="【CB】">十二</lem><rdg wit="【印順】">一二</rdg></app>　叢林與小廟</head>
+<lb n="0169a11" ed="Y"/><lb n="0169a10" ed="Y" type="old"/><p xml:id="pY28p0169a1101" style="text-indent:2em">「十方叢林」，意思是住眾多的大寺，是佛教僧伽所共有的。也有古寺衰落
 <lb n="0169a12" ed="Y"/><lb n="0169a11" ed="Y" type="old"/>了，寺不太大，住眾也不多，不如大寺的組織完善，但住持還是要接過法的，這
 <pb n="0170a" ed="Y" xml:id="Y28.0028.0170a"/>
 <lb n="0170a01" ed="Y"/><lb n="0169a12" ed="Y" type="old"/>也可說是叢林的一類。「小廟」，是師父傳徒弟，徒子徒孫繼承的。一般是小型<pb n="0170a" ed="Y" xml:id="Y28.0028.0170a.old" type="old"/>
 <lb n="0170a02" ed="Y"/><lb n="0170a01" ed="Y" type="old"/>的，其實只要是子孫繼承制的，不管他寺大寺小，都應歸入小廟類。這二類，宋
 <lb n="0170a03" ed="Y"/><lb n="0170a02" ed="Y" type="old"/>初就有了，稱為「十方住持院」、「甲乙徒弟院」。</p>
-<lb n="0170a04" ed="Y"/><lb n="0170a03" ed="Y" type="old"/><p style="text-indent:2em">叢林與小廟的分類，是十方公有制、子孫私有制的分類。依釋迦律制：出家
+<lb n="0170a04" ed="Y"/><lb n="0170a03" ed="Y" type="old"/><p xml:id="pY28p0170a0401" style="text-indent:2em">叢林與小廟的分類，是十方公有制、子孫私有制的分類。依釋迦律制：出家
 <lb n="0170a05" ed="Y"/><lb n="0170a04" ed="Y" type="old"/>的比丘、比丘尼，是真正無產的國際主義者。屬於比丘個人所有的，是穿著保暖
 <lb n="0170a06" ed="Y"/><lb n="0170a05" ed="Y" type="old"/>的三衣（比丘尼是五衣）；吃飯用的鉢，這是乞食所必須的；臥在床上、坐在地
 <lb n="0170a07" ed="Y"/><lb n="0170a06" ed="Y" type="old"/>上，不能把自己的衣服、常住的床與床褥弄髒了，所以要有尼師壇——舖在地上
@@ -887,7 +907,7 @@
 <lb n="0172a10" ed="Y"/>子孫繼承，子孫當然有權處分。我以為，子孫制的出現，是受了儒家家庭本位<lb n="0172a10" ed="Y" type="old"/>文
 <lb n="0172a11" ed="Y"/>化的影響。徒弟繼承師父，也許俗人以為是很合理的，習以為常，而其實是違<lb n="0172a11" ed="Y" type="old"/>反
 <lb n="0172a12" ed="Y"/>佛法的。子孫制與經懺法事的氾濫，為中國佛教沒落變質的主要原因！</p>
-<lb n="0172a13" ed="Y"/><lb n="0172a12" ed="Y" type="old"/><p style="text-indent:2em">我國佛教流傳到清末，已衰落了七、八百年，與各地佛教，也隔膜了這麼久
+<lb n="0172a13" ed="Y"/><lb n="0172a12" ed="Y" type="old"/><p xml:id="pY28p0172a1301" style="text-indent:2em">我國佛教流傳到清末，已衰落了七、八百年，與各地佛教，也隔膜了這麼久
 <pb n="0173a" ed="Y" xml:id="Y28.0028.0173a"/>
 <lb n="0173a01" ed="Y"/><lb n="0172a13" ed="Y" type="old"/>，等到再與各地佛教接觸時，發現與從前不大相同了。佛教受到國家政治的限制<pb n="0173a" ed="Y" xml:id="Y28.0028.0173a.old" type="old"/>
 <lb n="0173a02" ed="Y"/><lb n="0173a01" ed="Y" type="old"/>，而自身也失去了四方僧的特性。由於部派及衣食等瑣事的差異，在南傳佛教界
@@ -908,8 +928,8 @@
 <lb n="0174a03" ed="Y"/>根<lb n="0174a02" ed="Y" type="old"/>本大義，似乎很少聽說。缺少了佛法的實質，為佛教而努力，當然只是子孫制
 <lb n="0174a04" ed="Y"/>，<lb n="0174a03" ed="Y" type="old"/>大家為個人的前途而努力了。習以成風，如寺院而是僧所共有的，怕反而要難
 <lb n="0174a05" ed="Y"/>以<lb n="0174a04" ed="Y" type="old"/>為繼了。</p></cb:div>
-<lb n="0174a06" ed="Y"/><lb n="0174a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十三　橫出三界</cb:mulu><head><note n="0174a0601" resp="CBETA" type="add" subtype="規範字詞">十三【CB】，一三【印順】</note><app n="0174a0601"><lem wit="【CB】" resp="CBETA">十三</lem><rdg wit="【印順】">一三</rdg></app>　橫出三界</head>
-<lb n="0174a07" ed="Y"/><lb n="0174a06" ed="Y" type="old"/><p style="text-indent:2em">稱名念佛，是佛法的「易行道」，比起菩薩的深觀廣行，確是容易多了！稱
+<lb n="0174a06" ed="Y"/><lb n="0174a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十三　橫出三界</cb:mulu><head><note n="0174a0601" resp="CBETA" type="add" subtype="規範字詞">十三【CB】，一三【印順】</note><app n="0174a0601"><lem resp="CBETA" wit="【CB】">十三</lem><rdg wit="【印順】">一三</rdg></app>　橫出三界</head>
+<lb n="0174a07" ed="Y"/><lb n="0174a06" ed="Y" type="old"/><p xml:id="pY28p0174a0701" style="text-indent:2em">稱名念佛，是佛法的「易行道」，比起菩薩的深觀廣行，確是容易多了！稱
 <lb n="0174a08" ed="Y"/><lb n="0174a07" ed="Y" type="old"/>念他方佛名，能消業障，能往生淨土，能不退阿耨多羅三藐三菩提，這本是通於
 <lb n="0174a09" ed="Y"/><lb n="0174a08" ed="Y" type="old"/>一切佛的。西方極樂世界的阿彌陀——無量光、無量壽佛，更能順應眾生心，所
 <lb n="0174a10" ed="Y"/><lb n="0174a09" ed="Y" type="old"/>以為多種大乘經（及論）所提到；在最後的「秘密大乘」中，阿彌陀佛也還是三
@@ -919,7 +939,7 @@
 <lb n="0175a01" ed="Y"/><lb n="0174a12" ed="Y" type="old"/>乘莊嚴經論》</title><biblScope n="6" type="卷"><note place="inline">卷六</note></biblScope></bibl>、馬鳴（？）<title level="m">《大乘起信論》</title>所說，淨土法門的長處，是能<pb n="0175a" ed="Y" xml:id="Y28.0028.0175a.old" type="old"/>
 <lb n="0175a02" ed="Y"/><lb n="0175a01" ed="Y" type="old"/>適應一般初學，容易修學，可以堅定信願。中國稱揚淨土者，過分強調淨土的特
 <lb n="0175a03" ed="Y"/><lb n="0175a02" ed="Y" type="old"/>勝，有「橫出三界」等說，有些是值得再考慮的。</p>
-<lb n="0175a04" ed="Y"/><lb n="0175a03" ed="Y" type="old"/><p style="text-indent:2em">「橫出三界」，也許是依據<cit><bibl><title level="m">《無量壽經》</title>的</bibl><quote source="T12n0360_p0274b22-23" type="嚴謹引文">「橫截五惡趣，惡趣自然閉」</quote><bibl><note place="inline"><lb n="0175a04" ed="Y" type="old"/>卷
+<lb n="0175a04" ed="Y"/><lb n="0175a03" ed="Y" type="old"/><p xml:id="pY28p0175a0401" style="text-indent:2em">「橫出三界」，也許是依據<cit><bibl><title level="m">《無量壽經》</title>的</bibl><quote source="T12n0360_p0274b22-23" type="嚴謹引文">「橫截五惡趣，惡趣自然閉」</quote><bibl><note place="inline"><lb n="0175a04" ed="Y" type="old"/>卷
 <lb n="0175a05" ed="Y"/>下</note></bibl><note n="0175001" resp="周怡曄" type="add">《佛說無量壽經》卷2(CBETA, T12, no. 360, p. 274, b22-23)</note></cit>。惡趣，一切經論只有三惡趣，<title level="m">《無量壽經》</title>的不同譯本，也沒有「五惡<lb n="0175a05" ed="Y" type="old"/>趣」
 <lb n="0175a06" ed="Y"/>字樣，所以「五」應該是「三」的訛寫。不過，五趣是三界生死，是有漏法<lb n="0175a06" ed="Y" type="old"/>、雜
 <lb n="0175a07" ed="Y"/>染不淨法，約「勝義善」說，姑且說是三界五惡趣吧！三界五趣生死，是怎<lb n="0175a07" ed="Y" type="old"/>麼出
@@ -952,19 +972,19 @@
 <lb n="0177a06" ed="Y"/>死的根本煩惱，那由於智慧的體悟，無住無著的根斷「我我所見」（加「疑<lb n="0177a06" ed="Y" type="old"/>」與
 <lb n="0177a07" ed="Y"/>「戒禁取」，名為「三結」）。是勝義慧，不是厭下欣上那樣的世俗智，所<lb n="0177a07" ed="Y" type="old"/>以解
 <lb n="0177a08" ed="Y"/>脫生死是頓斷，對禪定的豎出，可說是橫出的。</p>
-<lb n="0177a09" ed="Y"/><lb n="0177a08" ed="Y" type="old"/><p style="text-indent:2em">淨土行者，厭惡五濁惡世而欣求淨土，約三界生死說，欣厭心是不能出離生
+<lb n="0177a09" ed="Y"/><lb n="0177a08" ed="Y" type="old"/><p xml:id="pY28p0177a0901" style="text-indent:2em">淨土行者，厭惡五濁惡世而欣求淨土，約三界生死說，欣厭心是不能出離生
 <lb n="0177a10" ed="Y"/><lb n="0177a09" ed="Y" type="old"/>死的。不過生在淨土的，由於環境好，<quote type="嚴謹引文">「諸上善人俱會一處」</quote>，蓮華化生，不會
 <lb n="0177a11" ed="Y"/><lb n="0177a10" ed="Y" type="old"/>生老病死不已。在這樣的環境下，是一定要解脫生死的，所以「因中說果」，不
 <lb n="0177a12" ed="Y"/><lb n="0177a11" ed="Y" type="old"/>妨說往生淨土已解脫生死了。正如得初預流果的，雖還有七番生死，但決定解<lb n="0177a12" ed="Y" type="old"/>脫
 <lb n="0177a13" ed="Y"/>，不妨說「我生已盡」了。至於修行，在淨土是否比穢土要快些？依經文說，<lb n="0177a13" ed="Y" type="old"/>淨
 <pb n="0178a" ed="Y" xml:id="Y28.0028.0178a"/>
-<lb n="0178a01" ed="Y"/>土修行，不如在穢土修行，如<cit><bibl><title level="m">《無量壽經》</title><biblScope type="卷" n="下"><note place="inline">卷下</note></biblScope>說：（在此娑婆五濁惡世）<pb n="0178a" ed="Y" xml:id="Y28.0028.0178a.old" type="old"/><lb n="0178a01" ed="Y" type="old"/></bibl><quote type="嚴謹引文">「為
+<lb n="0178a01" ed="Y"/>土修行，不如在穢土修行，如<cit><bibl><title level="m">《無量壽經》</title><biblScope n="下" type="卷"><note place="inline">卷下</note></biblScope>說：（在此娑婆五濁惡世）<pb n="0178a" ed="Y" xml:id="Y28.0028.0178a.old" type="old"/><lb n="0178a01" ed="Y" type="old"/></bibl><quote type="嚴謹引文">「為
 <lb n="0178a02" ed="Y"/>德立善，正<note place="inline">慈</note>心正意，齋戒清淨，一日一夜，勝在無量壽國為善百歲。」</quote><note n="0178001" resp="厚觀法師" type="add">《佛說無量壽經》卷2(CBETA, T12, no. 360, p. 277, c3-4)</note></cit><lb n="0178a02" ed="Y" type="old"/>可以說
 <lb n="0178a03" ed="Y"/>：在淨土中，進修是緩慢的，但不會退墮，非常穩當。穢土修行功德強，<lb n="0178a03" ed="Y" type="old"/>進步快
 <lb n="0178a04" ed="Y"/>，只是障礙多，風險要大些。穢土與淨土法門，適應不同根性，是各有長<lb n="0178a04" ed="Y" type="old"/>處的，
 <lb n="0178a05" ed="Y"/>不要自誇「橫出三界」了！</p></cb:div>
-<lb n="0178a06" ed="Y"/><lb n="0178a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十四　帶業往生</cb:mulu><head><note n="0178a0601" resp="CBETA" type="add" subtype="規範字詞">十四【CB】，一四【印順】</note><app n="0178a0601"><lem wit="【CB】" resp="CBETA">十四</lem><rdg wit="【印順】">一四</rdg></app>　帶業往生</head>
-<lb n="0178a07" ed="Y"/><lb n="0178a06" ed="Y" type="old"/><p style="text-indent:2em">稱念南無阿彌陀佛，能帶業往生極樂淨土，這是念佛法門的特勝！我沒有查
+<lb n="0178a06" ed="Y"/><lb n="0178a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十四　帶業往生</cb:mulu><head><note n="0178a0601" resp="CBETA" type="add" subtype="規範字詞">十四【CB】，一四【印順】</note><app n="0178a0601"><lem resp="CBETA" wit="【CB】">十四</lem><rdg wit="【印順】">一四</rdg></app>　帶業往生</head>
+<lb n="0178a07" ed="Y"/><lb n="0178a06" ed="Y" type="old"/><p xml:id="pY28p0178a0701" style="text-indent:2em">稱念南無阿彌陀佛，能帶業往生極樂淨土，這是念佛法門的特勝！我沒有查
 <lb n="0178a08" ed="Y"/><lb n="0178a07" ed="Y" type="old"/>考，不知這是那一位淨宗大德所倡說的。十年前，陳健民居士批評「帶業往生」
 <lb n="0178a09" ed="Y"/><lb n="0178a08" ed="Y" type="old"/>是沒有根據的，依據經文，要消業才能往生。於是帶業往生與消業往生，在台灣
 <lb n="0178a10" ed="Y"/><lb n="0178a09" ed="Y" type="old"/>著實熱鬧了一番。消業往生，是根據<title level="m">《觀無量壽佛經》</title>的。經說觀想念佛，念佛
@@ -979,9 +999,9 @@
 <lb n="0179a06" ed="Y"/>況憶念（觀念）！」<note n="0179002" resp="周怡曄" type="add">《佛說觀無量壽佛經》卷1(CBETA, T12, no. 365, p. 346, b11-12)</note></quote>這是聞名也能消罪，沒有說淨土——這是消罪業不一定生<lb n="0179a06" ed="Y" type="old"/>淨
 <lb n="0179a07" ed="Y"/>土。<cit><bibl><title level="m">《觀無量壽佛經》</title>，是由於韋提希的</bibl><quote source="T12n0365_p0341b28-29" type="嚴謹引文">「我今樂生極樂世界阿彌陀佛所」</quote><note n="0179003" resp="周怡曄" type="add">《佛說觀無量壽佛經》卷1(CBETA, T12, no. 365, p. 341, b28-29)</note></cit><lb n="0179a07" ed="Y" type="old"/>，佛
 <lb n="0179a08" ed="Y"/>才教他修三種「淨業正因」及觀想。「淨業正因」與（願）「樂生」，是往<lb n="0179a08" ed="Y" type="old"/>生淨
-<lb n="0179a09" ed="Y"/>土的先決條件，否則如<bibl><title level="m">《般舟三昧經》</title><biblScope type="卷" n="上"><note place="inline">卷上</note></biblScope></bibl>說念佛而見佛現前，還問佛<lb n="0179a09" ed="Y" type="old"/>怎樣
+<lb n="0179a09" ed="Y"/>土的先決條件，否則如<bibl><title level="m">《般舟三昧經》</title><biblScope n="上" type="卷"><note place="inline">卷上</note></biblScope></bibl>說念佛而見佛現前，還問佛<lb n="0179a09" ed="Y" type="old"/>怎樣
 <lb n="0179a10" ed="Y"/>才能往生佛國；可見念佛見佛而不發願往生，是不一定能往生的。</p>
-<lb n="0179a11" ed="Y"/><lb n="0179a10" ed="Y" type="old"/><p style="text-indent:2em">淨土行者所說的「帶業往生」，我以為是當然的、合理的，但並不表示淨土
+<lb n="0179a11" ed="Y"/><lb n="0179a10" ed="Y" type="old"/><p xml:id="pY28p0179a1101" style="text-indent:2em">淨土行者所說的「帶業往生」，我以為是當然的、合理的，但並不表示淨土
 <lb n="0179a12" ed="Y"/><lb n="0179a11" ed="Y" type="old"/>法門的特勝。「往生」是什麼意義？死了以後，生到別處去，就是往生——往生
 <lb n="0179a13" ed="Y"/><lb n="0179a12" ed="Y" type="old"/>人間、往生天上，都是往生。<title level="m">《般若經》</title>有<title level="a">〈往生品〉</title>，往生是不限於往生淨土
 <pb n="0180a" ed="Y" xml:id="Y28.0028.0180a"/>
@@ -1006,8 +1026,8 @@
 <lb n="0181a05" ed="Y"/>往生淨土的，沒有斷煩惱，煩惱卻不會生起；帶有無邊的生死罪業，業卻不會<lb n="0181a05" ed="Y" type="old"/>感
 <lb n="0181a06" ed="Y"/>苦報。所以我以為：「帶業往生」是當然的、合理的，大家都是這樣的；帶業<lb n="0181a06" ed="Y" type="old"/>往
 <lb n="0181a07" ed="Y"/>生淨土，值不得特別鼓吹的！</p></cb:div>
-<lb n="0181a08" ed="Y"/><lb n="0181a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十五　隔陰之迷</cb:mulu><head><note n="0181a0801" resp="CBETA" type="add" subtype="規範字詞">十五【CB】，一五【印順】</note><app n="0181a0801"><lem wit="【CB】" resp="CBETA">十五</lem><rdg wit="【印順】">一五</rdg></app>　隔陰之迷</head>
-<lb n="0181a09" ed="Y"/><lb n="0181a08" ed="Y" type="old"/><p style="text-indent:2em">四十年前，我曾讀過一本淨土宗的書，有這麼一句：<quote>「羅漢猶有隔陰之迷。
+<lb n="0181a08" ed="Y"/><lb n="0181a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十五　隔陰之迷</cb:mulu><head><note n="0181a0801" resp="CBETA" type="add" subtype="規範字詞">十五【CB】，一五【印順】</note><app n="0181a0801"><lem resp="CBETA" wit="【CB】">十五</lem><rdg wit="【印順】">一五</rdg></app>　隔陰之迷</head>
+<lb n="0181a09" ed="Y"/><lb n="0181a08" ed="Y" type="old"/><p xml:id="pY28p0181a0901" style="text-indent:2em">四十年前，我曾讀過一本淨土宗的書，有這麼一句：<quote>「羅漢猶有隔陰之迷。
 <lb n="0181a10" ed="Y"/>」</quote><lb n="0181a09" ed="Y" type="old"/>意思說：修證到羅漢，還有隔陰之迷，不如往生極樂世界的好。但阿羅漢生死
 <lb n="0181a11" ed="Y"/><lb n="0181a10" ed="Y" type="old"/>已了，不會再受後陰，怎麼會有隔陰之迷呢？我曾向人請教，有的說<quote>「四果羅<lb n="0181a11" ed="Y" type="old"/>漢
 <lb n="0181a12" ed="Y"/>」</quote>本指第四阿羅漢果，有的以為一、二、三、四果，都可以稱為阿羅漢，才<lb n="0181a12" ed="Y" type="old"/>有這
@@ -1036,7 +1056,7 @@
 <lb n="0183a08" ed="Y"/>的，一往天上，一來人間；得三果——「不還」的，一生天上，就能究<lb n="0183a08" ed="Y" type="old"/>竟解脫。
 <lb n="0183a09" ed="Y"/>所以聖者雖有「隔陰之迷」，對解脫生死來說，是絕對穩當的，解脫生<lb n="0183a09" ed="Y" type="old"/>死是為期
 <lb n="0183a10" ed="Y"/>不遠的。聖者決不會從覺入迷，不知念佛的人為什麼要怕聖者的「隔陰<lb n="0183a10" ed="Y" type="old"/>之迷」？</p>
-<lb n="0183a11" ed="Y"/><lb n="0183a11" ed="Y" type="old"/><p style="text-indent:2em">再來研求<title level="m">《淨土決疑論》</title>的意趣：文中說到<quote>「徹悟自心」</quote>，大抵是針對中國
+<lb n="0183a11" ed="Y"/><lb n="0183a11" ed="Y" type="old"/><p xml:id="pY28p0183a1101" style="text-indent:2em">再來研求<title level="m">《淨土決疑論》</title>的意趣：文中說到<quote>「徹悟自心」</quote>，大抵是針對中國
 <lb n="0183a12" ed="Y"/><lb n="0183a12" ed="Y" type="old"/>禪者說的。我不知禪者的徹悟自心有沒有斷惑。「見惑」是見（道）所斷煩惱<lb n="0183a13" ed="Y" type="old"/>，
 <lb n="0183a13" ed="Y"/>「思惑」是修（道）所斷煩惱。見惑是見諦所斷的，佛教中或說「一心見諦」<pb n="0184a" ed="Y" xml:id="Y28.0028.0184a.old" type="old"/><lb n="0184a01" ed="Y" type="old"/>，
 <pb n="0184a" ed="Y" xml:id="Y28.0028.0184a"/>
@@ -1047,8 +1067,8 @@
 <lb n="0184a05" ed="Y"/>還是與凡夫一般。如說「思惑」沒有斷盡，那是二果、三果的事，怎麼會<quote>「從<lb n="0184a06" ed="Y" type="old"/>迷
 <lb n="0184a06" ed="Y"/>入迷者多」</quote>？這一段文字，是不正確的！印光大師是精通天台的淨土行者，對<lb n="0184a07" ed="Y" type="old"/>這
 <lb n="0184a07" ed="Y"/>些應該是不會不知道的。可能慈悲心重，為了弘揚淨土，故意這樣說的吧！</p></cb:div>
-<lb n="0184a08" ed="Y"/><lb n="0184a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十六　四句料簡</cb:mulu><head><note n="0184a0801" resp="CBETA" type="add" subtype="規範字詞">十六【CB】，一六【印順】</note><app n="0184a0801"><lem wit="【CB】" resp="CBETA">十六</lem><rdg wit="【印順】">一六</rdg></app>　四句料簡</head>
-<lb n="0184a09" ed="Y"/><lb n="0184a09" ed="Y" type="old"/><p style="text-indent:2em">佛教界流傳有禪淨的四句料簡，據說是宋初永明延壽大師造的。現在簡略的
+<lb n="0184a08" ed="Y"/><lb n="0184a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十六　四句料簡</cb:mulu><head><note n="0184a0801" resp="CBETA" type="add" subtype="規範字詞">十六【CB】，一六【印順】</note><app n="0184a0801"><lem resp="CBETA" wit="【CB】">十六</lem><rdg wit="【印順】">一六</rdg></app>　四句料簡</head>
+<lb n="0184a09" ed="Y"/><lb n="0184a09" ed="Y" type="old"/><p xml:id="pY28p0184a0901" style="text-indent:2em">佛教界流傳有禪淨的四句料簡，據說是宋初永明延壽大師造的。現在簡略的
 <lb n="0184a10" ed="Y"/><lb n="0184a10" ed="Y" type="old"/>引述如下：<quote source="X78n1549_p0244c19-23" type="寬鬆引文">「有禪無淨土，十人九岔路」</quote>；<quote type="嚴謹引文">「無禪有淨土，萬修萬人去」</quote>；<quote type="嚴謹引文">「有
 <lb n="0184a11" ed="Y"/><lb n="0184a11" ed="Y" type="old"/>禪有淨土，猶如帶角虎」</quote>；<quote type="嚴謹引文">「無禪無淨土，鐵床并銅柱」<note n="0184001" resp="厚觀法師" type="add">《淨土聖賢錄》卷3：「有禪無淨土。十人九錯路。陰境若現前。瞥爾隨他去。無禪有淨土。萬修萬人去。[伹>但]得見彌陀。何愁不開悟。有禪有淨土。猶如帶角虎。現世為人師。當來作佛祖。無禪無淨土。鐵牀并銅柱。」(CBETA, X78, no. 1549, p. 244, c19-23 // Z 2B:8, p. 122, d3-7 // R135, p. 244, b3-7)</note></quote>。四句偈中的「禪」，
 <lb n="0184a12" ed="Y"/><lb n="0184a12" ed="Y" type="old"/>不是一般的，專指達磨傳來、發揚廣大的禪宗；「淨土」也不是十方淨土，而是<pb n="0185a" ed="Y" xml:id="Y28.0028.0185a.old" type="old"/>
@@ -1058,7 +1078,7 @@
 <lb n="0185a03" ed="Y"/><lb n="0185a03" ed="Y" type="old"/>，是值得再考慮的。依四句偈的內容來判斷，這是在禪、淨都流行的時代，作者
 <lb n="0185a04" ed="Y"/><lb n="0185a04" ed="Y" type="old"/>沒有輕視禪宗，而卻是志在西方淨土，以淨土行為最殊勝的法門——這是四句偈
 <lb n="0185a05" ed="Y"/>作<lb n="0185a05" ed="Y" type="old"/>者的立場。</p>
-<lb n="0185a06" ed="Y"/><lb n="0185a06" ed="Y" type="old"/><p style="text-indent:2em"><quote type="嚴謹引文">「有禪有淨土」</quote>的，最為理想。如虎稱「獸王」，老虎頭上生角，那真是雄
+<lb n="0185a06" ed="Y"/><lb n="0185a06" ed="Y" type="old"/><p xml:id="pY28p0185a0601" style="text-indent:2em"><quote type="嚴謹引文">「有禪有淨土」</quote>的，最為理想。如虎稱「獸王」，老虎頭上生角，那真是雄
 <lb n="0185a07" ed="Y"/><lb n="0185a07" ed="Y" type="old"/>猛無上了。最理想的<quote type="嚴謹引文">「有禪有淨土」</quote>，姑且不論。所說<quote type="嚴謹引文">「有禪無淨土」</quote>、<quote type="嚴謹引文">「無禪
 <lb n="0185a08" ed="Y"/><lb n="0185a08" ed="Y" type="old"/>有淨土」</quote>，到底怎樣是「有」、怎樣是「無」？如看語錄，或住過禪堂、打過禪
 <lb n="0185a09" ed="Y"/><lb n="0185a09" ed="Y" type="old"/>七，這是不是有禪？如有時去佛寺，或去居士林、蓮社等念佛（名號），或打過
@@ -1083,12 +1103,12 @@
 <pb n="0187a" ed="Y" xml:id="Y28.0028.0187a"/>
 <lb n="0187a01" ed="Y"/>中國，只知道禪與淨，缺乏對佛教深廣的遠見，一心要弘揚淨土，才作出這不<lb n="0187a02" ed="Y" type="old"/>合
 <lb n="0187a02" ed="Y"/>情理的料簡。</p>
-<lb n="0187a03" ed="Y"/><lb n="0187a03" ed="Y" type="old"/><p style="text-indent:2em">以上所說的「橫出三界」、「帶業往生」、「隔陰之迷」、「四句料簡」，
+<lb n="0187a03" ed="Y"/><lb n="0187a03" ed="Y" type="old"/><p xml:id="pY28p0187a0301" style="text-indent:2em">以上所說的「橫出三界」、「帶業往生」、「隔陰之迷」、「四句料簡」，
 <lb n="0187a04" ed="Y"/><lb n="0187a04" ed="Y" type="old"/>是一般淨土行者用來讚揚淨土法門的。依法義說，這都含有似是而非的成分，<lb n="0187a05" ed="Y" type="old"/>但
 <lb n="0187a05" ed="Y"/>在弘揚淨土來說，確有接引初學的作用。可以說：雖缺乏真實意義，卻有「為<lb n="0187a06" ed="Y" type="old"/>人
 <lb n="0187a06" ed="Y"/>生善」的宣導價值。</p></cb:div>
-<lb n="0187a07" ed="Y"/><lb n="0187a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十七　臨終助念</cb:mulu><head><note n="0187a0701" resp="CBETA" type="add" subtype="規範字詞">十七【CB】，一七【印順】</note><app n="0187a0701"><lem wit="【CB】" resp="CBETA">十七</lem><rdg wit="【印順】">一七</rdg></app>　臨終助念</head>
-<lb n="0187a08" ed="Y"/><lb n="0187a08" ed="Y" type="old"/><p style="text-indent:2em">「臨終」，是病重而死亡快將到來，可能幾點鐘，也可能拖上幾天。人既然
+<lb n="0187a07" ed="Y"/><lb n="0187a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十七　臨終助念</cb:mulu><head><note n="0187a0701" resp="CBETA" type="add" subtype="規範字詞">十七【CB】，一七【印順】</note><app n="0187a0701"><lem resp="CBETA" wit="【CB】">十七</lem><rdg wit="【印順】">一七</rdg></app>　臨終助念</head>
+<lb n="0187a08" ed="Y"/><lb n="0187a08" ed="Y" type="old"/><p xml:id="pY28p0187a0801" style="text-indent:2em">「臨終」，是病重而死亡快將到來，可能幾點鐘，也可能拖上幾天。人既然
 <lb n="0187a09" ed="Y"/><lb n="0187a09" ed="Y" type="old"/>生了，那就不能不死。從生到死的過程中，又不免（老）病。生老病死中，病而
 <lb n="0187a10" ed="Y"/><lb n="0187a10" ed="Y" type="old"/>走向死亡，確是最痛苦的。身體上的（病）苦，阿羅漢也是有的。佛在涅槃那一
 <lb n="0187a11" ed="Y"/><lb n="0187a11" ed="Y" type="old"/>年，在三月安居中，病已相當重了。後來，與阿難走向拘尸那的途中，受純陀的
@@ -1112,7 +1132,7 @@
 <lb n="0189a02" ed="Y"/>損人以成就自己的，現在一身將死，後顧茫茫，恐怖的陰影，形形式式的幻境<lb n="0189a03" ed="Y" type="old"/>，
 <lb n="0189a03" ed="Y"/>電影般的從心上掠過。這是愛所繫縛、業所影響，比起身體上的病苦，心苦的<lb n="0189a04" ed="Y" type="old"/>嚴
 <lb n="0189a04" ed="Y"/>重性，是局外人所難以想像的！</p>
-<lb n="0189a05" ed="Y"/><lb n="0189a05" ed="Y" type="old"/><p style="text-indent:2em">臨終者的身苦心苦，苦惱無邊，應該給以安慰，雖方法與程度不同，而可說
+<lb n="0189a05" ed="Y"/><lb n="0189a05" ed="Y" type="old"/><p xml:id="pY28p0189a0501" style="text-indent:2em">臨終者的身苦心苦，苦惱無邊，應該給以安慰，雖方法與程度不同，而可說
 <lb n="0189a06" ed="Y"/><lb n="0189a06" ed="Y" type="old"/>是一切宗教所共有的。釋迦佛的時代，知道某比丘、某長者病重了，會有比丘（
 <lb n="0189a07" ed="Y"/><lb n="0189a07" ed="Y" type="old"/>也有佛自己去的）去探病：安慰他，勉勵他，開示佛法的心要，使他遠離顛倒妄
 <lb n="0189a08" ed="Y"/><lb n="0189a08" ed="Y" type="old"/>想，身心安定。為一般信眾，說念佛、念法、念僧、念戒、念施、念天。教病人
@@ -1132,9 +1152,9 @@
 <lb n="0190a08" ed="Y"/><lb n="0190a08" ed="Y" type="old"/>薩來迎，病者<quote source="T17n0801_p0746c14-15" type="嚴謹引文">「便生歡喜，身不苦痛，心不散亂，正見心生，如入禪定」<note n="0190004" resp="周怡曄" type="add">《佛說無常經》卷1(CBETA, T17, no. 801, p. 746, c14-15)</note></quote>。這是
 <lb n="0190a09" ed="Y"/><lb n="0190a09" ed="Y" type="old"/>當時印度大乘佛教的「助念」法；助念，是病重到命終，使病死者身心安定的方
 <lb n="0190a10" ed="Y"/><lb n="0190a10" ed="Y" type="old"/>便。「臨終助念」，是佛教安頓病死者的行儀，而信佛學佛的，決不能專憑臨終
-<lb n="0190a11" ed="Y"/><lb n="0190a11" ed="Y" type="old"/>憶念的。人的死後往生，有隨重、隨習、隨憶念的三類，我曾在<bibl><title level="m">《成佛之道》</title><biblScope from="88" type="pp" to="89">（<lb n="0190a12" ed="Y" type="old"/>八
-<lb n="0190a12" ed="Y"/>八——八九）</biblScope><note n="0190005" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:12;page:p72-74">(ref yinshun::vol:12;page:p72-74)</ref></note></bibl>說到：</p>
-<lb n="0190a13" ed="Y"/><lb n="0190a13" ed="Y" type="old"/><quote type="寬鬆引文"><p style="margin-left:3em">1.有「隨重」的：或造作重大的善業，或造作重大的惡業（如五無間業<pb n="0191a" ed="Y" xml:id="Y28.0028.0191a.old" type="old"/><lb n="0191a01" ed="Y" type="old"/>等
+<lb n="0190a11" ed="Y"/><lb n="0190a11" ed="Y" type="old"/>憶念的。人的死後往生，有隨重、隨習、隨憶念的三類，我曾在<bibl><title level="m">《成佛之道》</title><biblScope from="88" to="89" type="pp">（<lb n="0190a12" ed="Y" type="old"/>八
+<lb n="0190a12" ed="Y"/>八——八九）</biblScope><note n="0190005" resp="周怡曄" type="add"><ref target="#vol:12;page:p72-74" type="yinshun">(ref yinshun::vol:12;page:p72-74)</ref></note></bibl>說到：</p>
+<lb n="0190a13" ed="Y"/><lb n="0190a13" ed="Y" type="old"/><quote type="寬鬆引文"><p xml:id="pY28p0190a1301" style="margin-left:3em">1.有「隨重」的：或造作重大的善業，或造作重大的惡業（如五無間業<pb n="0191a" ed="Y" xml:id="Y28.0028.0191a.old" type="old"/><lb n="0191a01" ed="Y" type="old"/>等
 <pb n="0191a" ed="Y" xml:id="Y28.0028.0191a"/>
 <lb n="0191a01" ed="Y"/>），業力異常強大，無論意識到或者沒有意識到，重業一直佔有優越的地
 <lb n="0191a02" ed="Y"/><lb n="0191a02" ed="Y" type="old"/>位。一到臨命終時，或見地獄，或見天堂，就是『業相現前』，是上升或
@@ -1156,7 +1176,7 @@
 <lb n="0192a04" ed="Y"/>臨命終時的憶念，非常重要。所以當人臨終時，最好能<lb n="0192a04" ed="Y" type="old"/>為他說法，為他念
 <lb n="0192a05" ed="Y"/>佛，說起他生前的善行，讓他憶念善行，引發善業來感果。<lb n="0192a05" ed="Y" type="old"/>淨土宗的臨終
 <lb n="0192a06" ed="Y"/>助念，也就是這一道理。……學佛修行，到底平時要緊！</p></quote>
-<lb n="0192a07" ed="Y"/><lb n="0192a06" ed="Y" type="old"/><p style="text-indent:2em">「臨終助念」，是幫助病人，使他能憶念佛、心向佛（願生淨土），不是病
+<lb n="0192a07" ed="Y"/><lb n="0192a06" ed="Y" type="old"/><p xml:id="pY28p0192a0701" style="text-indent:2em">「臨終助念」，是幫助病人，使他能憶念佛、心向佛（願生淨土），不是病
 <lb n="0192a08" ed="Y"/><lb n="0192a07" ed="Y" type="old"/>人躺著，一切讓別人來幫助的。念阿彌陀佛名號，往生西方淨土的信仰，在中國
 <lb n="0192a09" ed="Y"/><lb n="0192a08" ed="Y" type="old"/>非常普遍，所以助念阿彌陀佛，也特別流行。在這裡，我想說到幾點。一、我國
 <lb n="0192a10" ed="Y"/><lb n="0192a09" ed="Y" type="old"/>的信佛者，似乎只知臨終憶念，而不重視業力與「一心不亂」。重善（或惡）的
@@ -1191,8 +1211,8 @@
 <lb n="0194a11" ed="Y"/>老<lb n="0194a10" ed="Y" type="old"/>而不已。臨終的遺言是：不用為我念佛，因為我不想去西方；不用為我誦經，
 <lb n="0194a12" ed="Y"/>因<lb n="0194a11" ed="Y" type="old"/>為我讀的經已夠多了。唉！末法時代，還有老老實實的學佛者！</p></cb:div><pb n="0195a" ed="Y" xml:id="Y28.0028.0195a.old" type="old"/>
 <pb n="0195a" ed="Y" xml:id="Y28.0028.0195a"/>
-<lb n="0195a01" ed="Y"/><lb n="0195a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十八　肉身菩薩</cb:mulu><head><note n="0195a0101" resp="CBETA" type="add" subtype="規範字詞">十八【CB】，一八【印順】</note><app n="0195a0101"><lem wit="【CB】" resp="CBETA">十八</lem><rdg wit="【印順】">一八</rdg></app>　肉身菩薩</head>
-<lb n="0195a02" ed="Y"/><lb n="0195a02" ed="Y" type="old"/><p style="text-indent:2em">印度佛教的出家人，死了多採用火葬制，如釋迦佛那樣。火化後的骨灰，稱
+<lb n="0195a01" ed="Y"/><lb n="0195a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十八　肉身菩薩</cb:mulu><head><note n="0195a0101" resp="CBETA" type="add" subtype="規範字詞">十八【CB】，一八【印順】</note><app n="0195a0101"><lem resp="CBETA" wit="【CB】">十八</lem><rdg wit="【印順】">一八</rdg></app>　肉身菩薩</head>
+<lb n="0195a02" ed="Y"/><lb n="0195a02" ed="Y" type="old"/><p xml:id="pY28p0195a0201" style="text-indent:2em">印度佛教的出家人，死了多採用火葬制，如釋迦佛那樣。火化後的骨灰，稱
 <lb n="0195a03" ed="Y"/><lb n="0195a03" ed="Y" type="old"/>為「碎身舍利」，舍利是遺體的意思。舍利中有堅固的微粒，中國人稱之為「舍
 <lb n="0195a04" ed="Y"/><lb n="0195a04" ed="Y" type="old"/>利子」，是更適合於分散供養紀念的。如土葬的，稱為「全身舍利」，也有經多
 <lb n="0195a05" ed="Y"/><lb n="0195a05" ed="Y" type="old"/>年而沒有壞的，近代中國佛教界稱之為「肉身菩薩」。這是很難得的，但與是否
@@ -1201,7 +1221,7 @@
 <lb n="0195a08" ed="Y"/><lb n="0195a08" ed="Y" type="old"/>尼拉，恰好讀到了日報上一篇屍身不壞的報道，就寫了篇「肉身菩薩」。但想<lb n="0195a09" ed="Y" type="old"/>到
 <lb n="0195a09" ed="Y"/>，那時而發表這篇文字，是不合時宜，也會被人誤解的。文字一擱下，原稿也<lb n="0195a10" ed="Y" type="old"/>就
 <lb n="0195a10" ed="Y"/>丟了。現在時過境遷，對於這一事實，不妨依事實而略加說明。</p>
-<lb n="0195a11" ed="Y"/><lb n="0195a11" ed="Y" type="old"/><p style="text-indent:2em">以人的遺體來說，古代埃及以香料<note n="0195a1101" resp="CBETA" type="add">斂【CB】，歛【印順】</note><app n="0195a1101"><lem wit="【CB】" resp="正聞出版社">斂</lem><rdg wit="【印順】">歛</rdg></app>屍，屍身不壞而久存的，稱為木乃伊。
+<lb n="0195a11" ed="Y"/><lb n="0195a11" ed="Y" type="old"/><p xml:id="pY28p0195a1101" style="text-indent:2em">以人的遺體來說，古代埃及以香料<note n="0195a1101" resp="CBETA" type="add">斂【CB】，歛【印順】</note><app n="0195a1101"><lem resp="正聞出版社" wit="【CB】">斂</lem><rdg wit="【印順】">歛</rdg></app>屍，屍身不壞而久存的，稱為木乃伊。
 <lb n="0195a12" ed="Y"/><lb n="0195a12" ed="Y" type="old"/>我家鄉的習慣，入殮時，棺內多放石灰包與燈心草，這兩種都是能吸收水分的。<pb n="0196a" ed="Y" xml:id="Y28.0028.0196a.old" type="old"/>
 <pb n="0196a" ed="Y" xml:id="Y28.0028.0196a"/>
 <lb n="0196a01" ed="Y"/><lb n="0196a01" ed="Y" type="old"/>近代以防腐劑來保存國家偉人的遺體，更是不少。這種以藥物來保存，不是我所
@@ -1234,14 +1254,14 @@
 <pb n="0198a" ed="Y" xml:id="Y28.0028.0198a"/>
 <lb n="0198a01" ed="Y"/>沒有親見）中的事實，如南美洲的、俄羅斯的、新疆的、西藏高原的，都有天<lb n="0198a02" ed="Y" type="old"/>氣
 <lb n="0198a02" ed="Y"/>寒冷（或極熱）、乾燥的特性，在這種情況下，遺體不壞，似乎是並不太希罕<lb n="0198a03" ed="Y" type="old"/>的
-<lb n="0198a03" ed="Y"/>。說到新疆，記起唐玄奘<cit><bibl><title level="m">《大唐西域記》</title><biblScope type="卷" n="12"><note place="inline">卷十二</note></biblScope>所說：</bibl><quote source="T51n2087_p0942a21-24" type="嚴謹引文">「有二石窟，各一羅<lb n="0198a04" ed="Y" type="old"/>漢於
+<lb n="0198a03" ed="Y"/>。說到新疆，記起唐玄奘<cit><bibl><title level="m">《大唐西域記》</title><biblScope n="12" type="卷"><note place="inline">卷十二</note></biblScope>所說：</bibl><quote source="T51n2087_p0942a21-24" type="嚴謹引文">「有二石窟，各一羅<lb n="0198a04" ed="Y" type="old"/>漢於
 <lb n="0198a04" ed="Y"/>中入滅盡定。端然而坐，難以動搖，形若羸人，膚骸不朽，已經七百餘歲。<lb n="0198a05" ed="Y" type="old"/>其鬚
 <lb n="0198a05" ed="Y"/>髮恒長，故眾僧年別為剃髮易衣。」</quote><note n="0198001" resp="周怡曄" type="add">《大唐西域記》卷12(CBETA, T51, no. 2087, p. 942, a21-24)</note></cit>玄奘所見的，在新疆西部的葱嶺，正是<lb n="0198a06" ed="Y" type="old"/>天氣
 <lb n="0198a06" ed="Y"/>冷、空氣薄而乾燥的地區。玄奘所說，有眼見的；有傳聞的，如<quote type="嚴謹引文">「七百餘歲<lb n="0198a07" ed="Y" type="old"/>」</quote>、
 <lb n="0198a07" ed="Y"/><quote type="寬鬆引文">「年為剃髮」</quote>。這是年久而乾癟了的；人死了，由於肌肉萎縮、水分消失，<lb n="0198a08" ed="Y" type="old"/>會覺
 <lb n="0198a08" ed="Y"/>得鬚髮長了不少的，也就有每年為剃髮的傳說。傳說中的「入滅盡定」，也<lb n="0198a09" ed="Y" type="old"/>只是
 <lb n="0198a09" ed="Y"/>我國所說的「肉身菩薩」而已。</p>
-<lb n="0198a10" ed="Y"/><lb n="0198a10" ed="Y" type="old"/><p style="text-indent:2em">中國佛教界，禪宗的黃梅五祖、曹溪六祖、石頭希遷等，都是全身不壞的。
+<lb n="0198a10" ed="Y"/><lb n="0198a10" ed="Y" type="old"/><p xml:id="pY28p0198a1001" style="text-indent:2em">中國佛教界，禪宗的黃梅五祖、曹溪六祖、石頭希遷等，都是全身不壞的。
 <lb n="0198a11" ed="Y"/><lb n="0198a11" ed="Y" type="old"/>我所見到的，普陀山古佛洞（？）有一位，那是辛苦募化而建這道場的。香港九
 <lb n="0198a12" ed="Y"/><lb n="0198a12" ed="Y" type="old"/>龍某院有一位，是佛教而略有「道門」氣息的。生前經常到星洲，與星方的佛教
 <lb n="0198a13" ed="Y"/><lb n="0198a13" ed="Y" type="old"/>界相熟。三十九年，閩南大德廣周（？）、廣義、廣淨三位來香港，等候去星洲<pb n="0199a" ed="Y" xml:id="Y28.0028.0199a.old" type="old"/>
@@ -1257,7 +1277,7 @@
 <lb n="0199a09" ed="Y"/>，氧氣不容易進入；而龕底（缸底）大抵是不上釉的，水分能微微的滲出。如<lb n="0199a10" ed="Y" type="old"/>供
 <lb n="0199a10" ed="Y"/>龕處高燥，就有肉身不壞的可能了。在台灣，慈老的肉身，經過三十年，偶爾<lb n="0199a11" ed="Y" type="old"/>還
 <lb n="0199a11" ed="Y"/>有人去瞻禮；而新店的那一位，冷落淒涼，似乎誰也忘記了！<cit><bibl><title level="m">《小品般若波羅<lb n="0199a12" ed="Y" type="old"/>蜜
-<lb n="0199a12" ed="Y"/>經》</title><biblScope type="卷" n="2"><note place="inline">卷二</note></biblScope>說得好：</bibl><quote type="嚴謹引文">「我於（碎身的或全身的）舍利非不恭敬，以舍利從般若波
+<lb n="0199a12" ed="Y"/>經》</title><biblScope n="2" type="卷"><note place="inline">卷二</note></biblScope>說得好：</bibl><quote type="嚴謹引文">「我於（碎身的或全身的）舍利非不恭敬，以舍利從般若波
 <lb n="0199a13" ed="Y"/>羅蜜<lb n="0199a13" ed="Y" type="old"/>生故，般若波羅蜜所熏故得供養。」</quote><note n="0199001" resp="厚觀法師" type="add">《小品般若波羅蜜經》卷2〈5 舍利品〉(CBETA, T08, no. 227, p. 545, a27-29)</note></cit>佛與佛弟子的舍利<note place="inline">遺體</note>，受到尊敬供養
 <pb n="0200a" ed="Y" xml:id="Y28.0028.0200a"/>
 <lb n="0200a01" ed="Y"/>，<pb n="0200a" ed="Y" xml:id="Y28.0028.0200a.old" type="old"/><lb n="0200a01" ed="Y" type="old"/>是由於曾依此遺體，修發般若（智慧）、慈悲等功德，以正法自利，以正法利

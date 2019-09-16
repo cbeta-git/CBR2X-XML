@@ -12,48 +12,68 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版一刷<date>Date: 2013/04</date>新式標點版</edition>
+			<edition>新版一刷<date>Date: 2013/04</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>35卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 41, No. 39</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>35卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">41</idno>.<idno type="no">39</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">平凡的一生（重訂本）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十六　我真的病了</cb:mulu>
-<milestone unit="juan" n="17"/>
-<lb n="0093a02" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">十七　我離開了善導寺</cb:mulu><head><note n="0093a0201" resp="CBETA" type="add" subtype="規範字詞">十七【CB】，一七【印順】</note><app n="0093a0201"><lem wit="【CB】" resp="CBETA">十七</lem><rdg wit="【印順】">一七</rdg></app>　我離開了善導寺</head>
-<lb n="0093a03" ed="Y"/><p style="text-indent:2em">四十一年（四十七歲）來臺灣，住在善導寺。不能回去，又別無去處，南亭
+<milestone n="17" unit="juan"/>
+<lb n="0093a02" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">十七　我離開了善導寺</cb:mulu><head><note n="0093a0201" resp="CBETA" type="add" subtype="規範字詞">十七【CB】，一七【印順】</note><app n="0093a0201"><lem resp="CBETA" wit="【CB】">十七</lem><rdg wit="【印順】">一七</rdg></app>　我離開了善導寺</head>
+<lb n="0093a03" ed="Y"/><p xml:id="pY41p0093a0301" style="text-indent:2em">四十一年（四十七歲）來臺灣，住在善導寺。不能回去，又別無去處，南亭
 <lb n="0093a04" ed="Y"/>法師又事實上辭去了善導寺導師，我就在這樣的情形下長住下來。四十二年底的
 <lb n="0093a05" ed="Y"/>漫天風雨，使我認識到問題的癥結：住在善導寺，我是永不會安寧的。可是，子
 <lb n="0093a06" ed="Y"/>老雖為構成問題的要素，而問題的消散，也還是虧了他。在道義上，我還不能說
@@ -62,7 +82,7 @@
 <lb n="0093a09" ed="Y"/>。我是準備在可能的情況下，退出是非場，回精舍來與大家共同研究的，這是我
 <lb n="0093a10" ed="Y"/>當時的心願。但四十四年從菲島回來，病就重了，足足的睡了半年。在我臥病的
 <lb n="0093a11" ed="Y"/>時間，善導寺法務由演培維持。</p>
-<lb n="0093a12" ed="Y"/><p style="text-indent:2em">四十四年底，子老在伍順行的宴會中，受到了心悟的嚴厲指責，說他將寺院
+<lb n="0093a12" ed="Y"/><p xml:id="pY41p0093a1201" style="text-indent:2em">四十四年底，子老在伍順行的宴會中，受到了心悟的嚴厲指責，說他將寺院
 <pb n="0094a" ed="Y" xml:id="Y41.0039.0094a"/>
 <lb n="0094a01" ed="Y"/>佔為己有，不肯交給出家人。在這麼多的人面前，應該是很難堪的。這還是老問
 <lb n="0094a02" ed="Y"/>題，善導寺的大殿莊嚴，地點適中，長老法師們，就是以經懺為佛事的，誰不想
@@ -75,7 +95,7 @@
 <lb n="0094a09" ed="Y"/>不得介紹人來住，以免增多人事的煩累。子老都同意了，但還有更先決的條件：
 <lb n="0094a10" ed="Y"/>我一直還在靜睡中，起來也未必就能躬親寺務，要有一得力的監院，平時代為處
 <lb n="0094a11" ed="Y"/>理一切才成。沒有人，那我也只有無能為力了。</p>
-<lb n="0094a12" ed="Y"/><p style="text-indent:2em">演培來了，他是那麼熱心的希望我接下來。要有一位能代我辦事的監院，要
+<lb n="0094a12" ed="Y"/><p xml:id="pY41p0094a1201" style="text-indent:2em">演培來了，他是那麼熱心的希望我接下來。要有一位能代我辦事的監院，要
 <lb n="0094a13" ed="Y"/>演培回精舍去與大家商議，看看有沒有可能。他回來（似乎與悟一同來）答覆我
 <pb n="0095a" ed="Y" xml:id="Y41.0039.0095a"/>
 <lb n="0095a01" ed="Y"/>，商定的辦法是：在三年任期內，由演培、續明、悟一——三人來輪流擔任，並
@@ -84,24 +104,24 @@
 <lb n="0095a04" ed="Y"/>就被迎入善導寺的。身體虛浮而不實，幾乎晉山典禮也支持不下來（這是一直沒
 <lb n="0095a05" ed="Y"/>有活動的關係）。那年秋季，又在南港肺結核療養院住了三個月。這才明白了：
 <lb n="0095a06" ed="Y"/>病情就是這樣，身體能這樣也就很難得了，我不必再為病而費心。</p>
-<lb n="0095a07" ed="Y"/><p style="text-indent:2em">悟一是香港鹿野苑的四當家，曾在淨業林管理庶務，有過一年多的共住時間
+<lb n="0095a07" ed="Y"/><p xml:id="pY41p0095a0701" style="text-indent:2em">悟一是香港鹿野苑的四當家，曾在淨業林管理庶務，有過一年多的共住時間
 <lb n="0095a08" ed="Y"/>。由於淨業林共住，所以在鹿野苑紛擾而混亂的情況中，經續明的推介，我為他
 <lb n="0095a09" ed="Y"/>辦理手續來臺的，來臺就住在福嚴精舍。從四十五年一直到我離開善導寺，悟一
-<lb n="0095a10" ed="Y"/>始終是領導寺眾，早晚上殿，一起飲食，不辭勞苦。寺<note n="0095a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0095a1001"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>有了餘款，在取得我的
+<lb n="0095a10" ed="Y"/>始終是領導寺眾，早晚上殿，一起飲食，不辭勞苦。寺<note n="0095a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0095a1001"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>有了餘款，在取得我的
 <lb n="0095a11" ed="Y"/>同意之下，就用來修飾房屋，添置必須的器具。總之，悟一年富力強，有事業心
 <lb n="0095a12" ed="Y"/>，在民國以來，以辦事僧為住持的原則下，這不能不說是難得的人才！</p>
-<lb n="0095a13" ed="Y"/><p style="text-indent:2em">四十六年（五十二歲），我決定要往來於福嚴精舍及善導寺之間。精舍增建
+<lb n="0095a13" ed="Y"/><p xml:id="pY41p0095a1301" style="text-indent:2em">四十六年（五十二歲），我決定要往來於福嚴精舍及善導寺之間。精舍增建
 <pb n="0096a" ed="Y" xml:id="Y41.0039.0096a"/>
 <lb n="0096a01" ed="Y"/>以來，我沒有能與大家共住修學，身體好多了，不應該重提舊願嗎？但是，因緣
 <lb n="0096a02" ed="Y"/>是不由自己作主的。國曆三月四日，章嘉大師圓寂，善導寺忙了一星期。接著（
-<lb n="0096a03" ed="Y"/>國曆三月十三日起），善導寺<note n="0096a0301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0096a0301"><lem wit="【CB】" resp="CBETA">啟</lem><rdg wit="【印順】">啓</rdg></app>建了七天的觀音法會。國曆五月七日，去泰國出
+<lb n="0096a03" ed="Y"/>國曆三月十三日起），善導寺<note n="0096a0301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0096a0301"><lem resp="CBETA" wit="【CB】">啟</lem><rdg wit="【印順】">啓</rdg></app>建了七天的觀音法會。國曆五月七日，去泰國出
 <lb n="0096a04" ed="Y"/>席佛元二千五百年的大慶典，便中訪問高棉，一直到國曆六月七日才回臺。半年
 <lb n="0096a05" ed="Y"/>的時間，就這樣的溜走了，我能不為之而惆悵嗎？在泰國時，老學長道源讚歎我
 <lb n="0096a06" ed="Y"/>的福報大——善導寺呀，福嚴精舍呀……。我微笑說：<quote>「慢慢的看吧」</quote>！我對善
 <lb n="0096a07" ed="Y"/>導寺及出席國際會議，全無興趣；加上了兩種因緣，我定下了離開善導寺的決心
 <lb n="0096a08" ed="Y"/>。我覺得，那時離開使我不得寧靜的善導寺，我內心可以對得住子老了！</p>
-<lb n="0096a09" ed="Y"/><p style="text-indent:2em">那兩點因緣呢？</p>
-<lb n="0096a10" ed="Y"/><p style="text-indent:2em">一、四十四年冬天（我在病中），日本倉持秀峰等，護送玄奘大師的舍利來
+<lb n="0096a09" ed="Y"/><p xml:id="pY41p0096a0901" style="text-indent:2em">那兩點因緣呢？</p>
+<lb n="0096a10" ed="Y"/><p xml:id="pY41p0096a1001" style="text-indent:2em">一、四十四年冬天（我在病中），日本倉持秀峰等，護送玄奘大師的舍利來
 <lb n="0096a11" ed="Y"/>臺；子老就與倉持等有了聯繫，要送演培去日本，進行演培去日本的手續。子老
 <lb n="0096a12" ed="Y"/>曾不止一次的說：希望能得到當局的支持，派四、五位青年法師去日本。做什麼
 <lb n="0096a13" ed="Y"/>？當然是聯繫日本佛教界，反對共產了。為了反共復國，這當然是對的。然子老
@@ -118,7 +138,7 @@
 <lb n="0097a10" ed="Y"/>送他去日本，我還能說什麼呢！我從泰國回來，演培才向我說明，希望能給予經
 <lb n="0097a11" ed="Y"/>濟上的支持。我說：<quote>「這是義不容辭的，絕對支持。不過，希望以講學名義去日
 <lb n="0097a12" ed="Y"/>本，要有講學的事實而回來」</quote>。</p>
-<lb n="0097a13" ed="Y"/><p style="text-indent:2em">二、悟一是江蘇泰縣人。南亭法師是泰縣首剎光孝寺的住持；悟一曾在光孝
+<lb n="0097a13" ed="Y"/><p xml:id="pY41p0097a1301" style="text-indent:2em">二、悟一是江蘇泰縣人。南亭法師是泰縣首剎光孝寺的住持；悟一曾在光孝
 <pb n="0098a" ed="Y" xml:id="Y41.0039.0098a"/>
 <lb n="0098a01" ed="Y"/>寺讀書，是離光孝寺不遠的一所小廟的沙彌。大寺與小廟，地位懸殊，所以過去
 <lb n="0098a02" ed="Y"/>的關係平平。悟一到了臺灣，除與同戒又同學的新北投妙然，有良好的友誼往來
@@ -134,7 +154,7 @@
 <lb n="0098a12" ed="Y"/>平等，以表示團結，這是以悟一為主力而開始推動的。我從南港療養院回來，慢
 <lb n="0098a13" ed="Y"/>慢的知道了這些。這一地方性的團結，與中佛會的整理委員會相呼應。</p>
 <pb n="0099a" ed="Y" xml:id="Y41.0039.0099a"/>
-<lb n="0099a01" ed="Y"/><p style="text-indent:2em">悟一是沈著精明而有事業心的。從小出家，如老是依附平淡的，重學的，主
+<lb n="0099a01" ed="Y"/><p xml:id="pY41p0099a0101" style="text-indent:2em">悟一是沈著精明而有事業心的。從小出家，如老是依附平淡的，重學的，主
 <lb n="0099a02" ed="Y"/>張不與人（作權力之）爭的我，雖然出家不是為了打天下，但到底是會埋沒了他
 <lb n="0099a03" ed="Y"/>的才能的。自從到了臺北善導寺，在「蘇北大團結」中，傾向於蘇北的集團利益
 <lb n="0099a04" ed="Y"/>（當然是為了自己著想）。對我與精舍，看來表面上還是一樣，但我是深深的感
@@ -146,7 +166,7 @@
 <lb n="0099a10" ed="Y"/>吧！我與悟一是心心相印的，他是會知道的（子老與演培，當時都不明白）。不
 <lb n="0099a11" ed="Y"/>過，我沒有損害他，正如以建立福嚴精舍名義，而割斷了與淨業林鹿野苑的關係
 <lb n="0099a12" ed="Y"/>一樣。</p>
-<lb n="0099a13" ed="Y"/><p style="text-indent:2em">我以書面向護法會辭職。子老知道我決心要退了，就不免躊躇，請誰（為住
+<lb n="0099a13" ed="Y"/><p xml:id="pY41p0099a1301" style="text-indent:2em">我以書面向護法會辭職。子老知道我決心要退了，就不免躊躇，請誰（為住
 <pb n="0100a" ed="Y" xml:id="Y41.0039.0100a"/>
 <lb n="0100a01" ed="Y"/>持）來為他維持善導寺呢！他一再與我商量善導寺的未來人選。他提議福嚴精舍
 <lb n="0100a02" ed="Y"/>的三個人，我不能同意。最後我說：<quote>「要我提供意見，那麼南亭法師是最理想了
@@ -163,7 +183,7 @@
 <lb n="0100a13" ed="Y"/>來，印順交給演培，這還是印順力量的延續。無論是順的因緣，逆的因緣，一經
 <pb n="0101a" ed="Y" xml:id="Y41.0039.0101a"/>
 <lb n="0101a01" ed="Y"/>成為事實，就會影響下去而不易解脫，因緣就是這樣的。</p>
-<lb n="0101a02" ed="Y"/><p style="text-indent:2em">在四十六年（五十二歲）國曆九月十五日，我正式離開了善導寺，心情大為
+<lb n="0101a02" ed="Y"/><p xml:id="pY41p0101a0201" style="text-indent:2em">在四十六年（五十二歲）國曆九月十五日，我正式離開了善導寺，心情大為
 <lb n="0101a03" ed="Y"/>輕鬆。當時我以什麼理由而提出辭退呢！真正的問題，是不能說的，說了會有傷
 <lb n="0101a04" ed="Y"/>和氣。我以<quote>「因新竹福嚴精舍及女眾佛學院，需經常指導修學，以致教務寺務，
 <lb n="0101a05" ed="Y"/>兩難兼顧」</quote>為理由。但就是這些表面理由，又成了逆緣，而受到相當程度的困擾

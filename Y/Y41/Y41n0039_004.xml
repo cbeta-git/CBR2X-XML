@@ -12,59 +12,79 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版一刷<date>Date: 2013/04</date>新式標點版</edition>
+			<edition>新版一刷<date>Date: 2013/04</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>35卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 41, No. 39</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>35卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">41</idno>.<idno type="no">39</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">平凡的一生（重訂本）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">三　普陀、廈門、武昌</cb:mulu>
-<milestone unit="juan" n="4"/>
+<milestone n="4" unit="juan"/>
 <lb n="0014a10" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">四　誰使我離開了普陀</cb:mulu><head>四　誰使我離開了普陀</head>
-<lb n="0014a11" ed="Y"/><p style="text-indent:2em">為遊覽而出去遊覽，我平生只有過一次。只此一次，恰好免除了抗日期間，
+<lb n="0014a11" ed="Y"/><p xml:id="pY41p0014a1101" style="text-indent:2em">為遊覽而出去遊覽，我平生只有過一次。只此一次，恰好免除了抗日期間，
 <lb n="0014a12" ed="Y"/>陷身敵偽下的苦境，可說是不自覺的預先在安排避難。經過曲折而希奇，因緣是
 <pb n="0015a" ed="Y" xml:id="Y41.0039.0015a"/>
 <lb n="0015a01" ed="Y"/>不可思議的！</p>
-<lb n="0015a02" ed="Y"/><p style="text-indent:2em">民國二十五年（三十一歲）秋天，我在普陀佛頂山，完成了全藏的閱讀，心
+<lb n="0015a02" ed="Y"/><p xml:id="pY41p0015a0201" style="text-indent:2em">民國二十五年（三十一歲）秋天，我在普陀佛頂山，完成了全藏的閱讀，心
 <lb n="0015a03" ed="Y"/>情頓覺輕鬆。偶而去客堂（頌萊同學在客堂任知客），才聽說九月裡，蔣委員長
 <lb n="0015a04" ed="Y"/>（即總統蔣公）五秩大壽。經國先生令堂毛太夫人，在天臺山國清寺為委員長祝
 <lb n="0015a05" ed="Y"/>壽。在山上普設千僧大齋，通告各方：結緣是每人海青料一段，銀圓壹元。這個
 <lb n="0015a06" ed="Y"/>消息，忽然引起我的動念：天臺山國清寺，是智者大師——天臺宗的根本道場，
 <lb n="0015a07" ed="Y"/>我從來不曾去過。名山勝地，何不趁此齋會，順便去瞻仰一下！一舉兩得，越想
 <lb n="0015a08" ed="Y"/>越好，九月中旬，我就背起衣單，過海趕千僧齋去了。</p>
-<lb n="0015a09" ed="Y"/><p style="text-indent:2em">一到寧波，就去延慶寺，這是亦幻法師總持事務，與虛大師有關係的道場。
+<lb n="0015a09" ed="Y"/><p xml:id="pY41p0015a0901" style="text-indent:2em">一到寧波，就去延慶寺，這是亦幻法師總持事務，與虛大師有關係的道場。
 <lb n="0015a10" ed="Y"/>幾位熟識的道友，見我那個掛單模樣，要去天臺山趕齋，就勸我說：<quote>「這次千僧
 <lb n="0015a11" ed="Y"/>齋會，去的人實在太多了。這幾天的國清寺，不但住眾擠成一團，無單可安（沒
 <lb n="0015a12" ed="Y"/>有睡覺的地方），連飲水也有了問題。天臺山是值得去的，但如不是為了一塊錢
@@ -72,12 +92,12 @@
 <pb n="0016a" ed="Y" xml:id="Y41.0039.0016a"/>
 <lb n="0016a01" ed="Y"/>到處瞻禮，何等自在」</quote>！我是個一向懶於趕齋，生怕睡眠不好的人，聽他們這麼
 <lb n="0016a02" ed="Y"/>一說，也就暫時留下，等過了齋期（壽誕）再去。</p>
-<lb n="0016a03" ed="Y"/><p style="text-indent:2em">在延慶寺住了兩天，吃飯睡覺，實在乏味。想起了慈北白湖（鳴鶴場）金仙
+<lb n="0016a03" ed="Y"/><p xml:id="pY41p0016a0301" style="text-indent:2em">在延慶寺住了兩天，吃飯睡覺，實在乏味。想起了慈北白湖（鳴鶴場）金仙
 <lb n="0016a04" ed="Y"/>寺，是亦幻法師住持的地方。聽說風景優美，芝峰法師及守志（即竺摩）、月熙
 <lb n="0016a05" ed="Y"/>等同學，都住在那裡，倒不如先去白湖走一趟，回來再上天臺山不遲。決定了，
 <lb n="0016a06" ed="Y"/>就到金仙寺來。這裡，倒是一個好地方，湖光山色，風景著實不錯！在這裡自修
 <lb n="0016a07" ed="Y"/>，應該是極其理想的，但在我的感覺中，似乎太自由了一點。</p>
-<lb n="0016a08" ed="Y"/><p style="text-indent:2em">金仙寺住了幾天，打算明天要回寧波了。廈門的慧雲（俗名林子青），忽在
+<lb n="0016a08" ed="Y"/><p xml:id="pY41p0016a0801" style="text-indent:2em">金仙寺住了幾天，打算明天要回寧波了。廈門的慧雲（俗名林子青），忽在
 <lb n="0016a09" ed="Y"/>傍晚的時候來了，他就是從國清寺趕了齋下來的。大家見面，有說有笑。說不到
 <lb n="0016a10" ed="Y"/>幾句，慧雲忽然想到了什麼，拿出銀元二十元給我（那時的幣值很高）說：<quote>「知
 <lb n="0016a11" ed="Y"/>道你在普陀，卻找不到通訊處，我也無法寄給你。隆耀說：別的無所謂，只是印
@@ -85,7 +105,7 @@
 <lb n="0016a13" ed="Y"/>總算不負人之託了」</quote>。慧雲來得意外，二十塊錢也來得意外，這裡面原是有一段
 <pb n="0017a" ed="Y" xml:id="Y41.0039.0017a"/>
 <lb n="0017a01" ed="Y"/>因緣的。</p>
-<lb n="0017a02" ed="Y"/><p style="text-indent:2em">二十三年（二十九歲）下學期，我在閩院教課。隆耀（寶華山引禮出身）、
+<lb n="0017a02" ed="Y"/><p xml:id="pY41p0017a0201" style="text-indent:2em">二十三年（二十九歲）下學期，我在閩院教課。隆耀（寶華山引禮出身）、
 <lb n="0017a03" ed="Y"/>慧雲，受臺灣開元寺的禮請，一個羯磨，一個教授，要到臺灣去傳戒。隆耀想到
 <lb n="0017a04" ed="Y"/>見了臺灣的諸山長老，也得備點禮物，表示敬意。他是沒有錢的，沒有去與有錢
 <lb n="0017a05" ed="Y"/>的同學商量，卻來找我這個窮同學，商借二十元。二十元，是我所有的不少部分
@@ -94,13 +114,13 @@
 <lb n="0017a08" ed="Y"/>責，已經死了。二十四年正月，我離開廈門，從此杳無消息，我也早已忘記這二
 <lb n="0017a09" ed="Y"/>十元了。想不到隆耀沒有死，也沒有忘記我，自己還在臺灣休養，首先就設法託
 <lb n="0017a10" ed="Y"/>慧雲歸還我。佛經說：種因的會結果，這原不過遲早——今生或來生而已！</p>
-<lb n="0017a11" ed="Y"/><p style="text-indent:2em">慧雲是從杭州去天臺山的。說到杭州，慧雲的話就說開了。<quote>「杭州開化寺六
+<lb n="0017a11" ed="Y"/><p xml:id="pY41p0017a1101" style="text-indent:2em">慧雲是從杭州去天臺山的。說到杭州，慧雲的話就說開了。<quote>「杭州開化寺六
 <lb n="0017a12" ed="Y"/>和塔住持妙乘，是閩院老同學，對於閩院同學，來者不拒，去者不追。到了他那
 <lb n="0017a13" ed="Y"/>裡，有吃有住。至於參觀遊覽，那就各人自由。我住在六和塔，已一個多月了」</quote>
 <pb n="0018a" ed="Y" xml:id="Y41.0039.0018a"/>
 <lb n="0018a01" ed="Y"/>。月熙想到杭州去，邀我同行。出家以來，我沒有去過西湖。現在有人導遊，還
 <lb n="0018a02" ed="Y"/>得了意外的財物（二十元），我也就放下天臺山，先作杭州西湖之遊了。</p>
-<lb n="0018a03" ed="Y"/><p style="text-indent:2em">九月廿二日晚上，才到了錢塘江邊的開化寺。第二天（國曆十一月六日）早
+<lb n="0018a03" ed="Y"/><p xml:id="pY41p0018a0301" style="text-indent:2em">九月廿二日晚上，才到了錢塘江邊的開化寺。第二天（國曆十一月六日）早
 <lb n="0018a04" ed="Y"/>餐畢，妙乘提議：<quote>「今天太老（指虛大師）在靈隱寺講《仁王護國般若經》。我
 <lb n="0018a05" ed="Y"/>們是雲來集菩薩，也該去參加開經法會才是」</quote>。大家沒有異議，上午就到了靈隱
 <lb n="0018a06" ed="Y"/>，我也隨眾禮見了虛大師。下午聽完了經，就回開化寺。晚上，慧雲對我說：<quote>「
@@ -110,13 +130,13 @@
 <lb n="0018a10" ed="Y"/>分的弟子去參加。我以為：日本軍閥的野心是不會中止的，中日是遲早要一戰的
 <lb n="0018a11" ed="Y"/>。處於這個時代的中國佛教徒，應愛護自己，不宜與特務化的日僧相往來。也許
 <lb n="0018a12" ed="Y"/>措辭過分激烈了，我與大師的聯絡，也就中斷了一年多。</p>
-<lb n="0018a13" ed="Y"/><p style="text-indent:2em">過了兩天，妙乘在開化寺設齋，供養虛大師，沒有外客。在席上，虛大師向
+<lb n="0018a13" ed="Y"/><p xml:id="pY41p0018a1301" style="text-indent:2em">過了兩天，妙乘在開化寺設齋，供養虛大師，沒有外客。在席上，虛大師向
 <pb n="0019a" ed="Y" xml:id="Y41.0039.0019a"/>
 <lb n="0019a01" ed="Y"/>我提起：武院要辦研究班，這是由上海三昧庵寬道發心每月資助（貳）百元而引
 <lb n="0019a02" ed="Y"/>起的。有幾位研究三論的，所以希望我去武院，指導他們研究。我說了幾句謙辭
 <lb n="0019a03" ed="Y"/>的話，大師以<quote>「去一趟」</quote>來結束話題。這就是虛大師所要與我說的，說了也就算
 <lb n="0019a04" ed="Y"/>了。</p>
-<lb n="0019a05" ed="Y"/><p style="text-indent:2em">我在杭州住了一星期，忽然遊興大發，也許是二十塊錢在作怪。離開杭州，
+<lb n="0019a05" ed="Y"/><p xml:id="pY41p0019a0501" style="text-indent:2em">我在杭州住了一星期，忽然遊興大發，也許是二十塊錢在作怪。離開杭州，
 <lb n="0019a06" ed="Y"/>首先到嘉興楞嚴寺掛單。常住佛事興隆，我被派去拜了一天梁皇懺。看情形不對
 <lb n="0019a07" ed="Y"/>，第二天起單，到旅館去住了一天。多少遊覽，就搭車去江蘇的鎮江。訪玉山超
 <lb n="0019a08" ed="Y"/>岸寺，見到了守培老法師。寺主雪松，陪我去金山；又到竹林寺一宿，見到正在
@@ -130,12 +150,12 @@
 <lb n="0020a02" ed="Y"/>，這裡也有一位力定同學。住了兩三天，這才與六度話別，而搭輪船回上海。三
 <lb n="0020a03" ed="Y"/>個星期的漫遊，漫無目的的遊歷，錢也用完了，人也累了，遊興當然也就沒有了
 <lb n="0020a04" ed="Y"/>。天臺山以後再說，決定先回普陀去。</p>
-<lb n="0020a05" ed="Y"/><p style="text-indent:2em">虛大師創辦的中國佛學會上海市分會，是附設在三昧庵內的，聽說燈霞同學
+<lb n="0020a05" ed="Y"/><p xml:id="pY41p0020a0501" style="text-indent:2em">虛大師創辦的中國佛學會上海市分會，是附設在三昧庵內的，聽說燈霞同學
 <lb n="0020a06" ed="Y"/>在那裡當幹事。我在決定回普陀山的前一天，去三昧庵看他。談了一回，準備走
-<lb n="0020a07" ed="Y"/>了，他說：<quote>「下午請常惺法師演講，你<note n="0020a0701" resp="CBETA" type="add" subtype="規範字詞">吃【CB】，喫【印順】</note><app n="0020a0701"><lem wit="【CB】" resp="CBETA">吃</lem><rdg wit="【印順】">喫</rdg></app>了午飯，聽完講再走吧」</quote>！也好，我橫
+<lb n="0020a07" ed="Y"/>了，他說：<quote>「下午請常惺法師演講，你<note n="0020a0701" resp="CBETA" type="add" subtype="規範字詞">吃【CB】，喫【印順】</note><app n="0020a0701"><lem resp="CBETA" wit="【CB】">吃</lem><rdg wit="【印順】">喫</rdg></app>了午飯，聽完講再走吧」</quote>！也好，我橫
 <lb n="0020a08" ed="Y"/>豎是沒有事的。午後，慧雲、妙乘，又在這裡碰上了，真是巧合！妙乘一直埋怨
 <lb n="0020a09" ed="Y"/>我：<quote>「走了也沒說個去處！在你走了以後，太老一再派人來找你」</quote>。我說：<quote>「到
-<lb n="0020a10" ed="Y"/>那<note n="0020a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0020a1001"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，我自己也不知道呀」</quote>！不久，虛大師來了，常惺法師也來了，三昧庵主寬
+<lb n="0020a10" ed="Y"/>那<note n="0020a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0020a1001"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，我自己也不知道呀」</quote>！不久，虛大師來了，常惺法師也來了，三昧庵主寬
 <lb n="0020a11" ed="Y"/>道（原是普陀洪筏院子孫）當然也到了。講演完畢，大家坐下來，虛大師重申前
 <lb n="0020a12" ed="Y"/>議，要我到武院去。大家幫著大師說話，不善詞令的我，在這師友的包圍下，實
 <lb n="0020a13" ed="Y"/>在應付不了。虛大師拿出二十塊錢，給我作旅費。我還是要推，妙乘可說話了：
@@ -147,7 +167,7 @@
 <lb n="0021a05" ed="Y"/>漢的炎熱，我實在適應不了。可是旅費已拿了，拿錢而不去，我是不能這麼做的
 <lb n="0021a06" ed="Y"/>，除非將錢退回去。想來想去，也許還是（缺乏斷然拒絕，不顧一切的勇氣）人
 <lb n="0021a07" ed="Y"/>情難卻，沒奈何的決定：去一趟，明年早點回普陀山度夏。</p>
-<lb n="0021a08" ed="Y"/><p style="text-indent:2em">從普陀到武昌，已經是臘月中旬了。二十六年（三十二歲）的五月初，我就
+<lb n="0021a08" ed="Y"/><p xml:id="pY41p0021a0801" style="text-indent:2em">從普陀到武昌，已經是臘月中旬了。二十六年（三十二歲）的五月初，我就
 <lb n="0021a09" ed="Y"/>病倒了——老毛病。痾了幾天，溫度忽然高起來，院方才把我送入漢口某日本醫
 <lb n="0021a10" ed="Y"/>院。住了十幾天，才出院回來。天氣那樣的熱，睡眠不足，飲食減少，病雖說好
 <lb n="0021a11" ed="Y"/>了，身體卻還在衰弱下去。國曆七月七日，蘆溝橋的抗日砲聲響了。國曆八月十

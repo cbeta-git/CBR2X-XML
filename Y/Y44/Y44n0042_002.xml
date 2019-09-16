@@ -12,61 +12,81 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版四刷<date>Date: 2015/12</date>新式標點版</edition>
+			<edition>修訂版四刷<date>Date: 2015/12</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>3卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 44, No. 42</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>3卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">44</idno>.<idno type="no">42</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">大乘廣五蘊論講記</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第一章　五蘊</cb:mulu><cb:mulu level="2" type="其他">第六節　蘊的意義</cb:mulu>
-<milestone unit="juan" n="2"/>
+<milestone n="2" unit="juan"/>
 <pb n="0286a" ed="Y" xml:id="Y44.0042.0286a"/>
 <lb n="0286a01" ed="Y"/><lb n="0286a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">第二章　十二處</cb:mulu><head>第二章　十二處</head>
 <lb n="0286a02" ed="Y"/><lb n="0286a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　處的內容</cb:mulu><head>第一節　處的內容</head>
-<lb n="0286a03" ed="Y"/><lb n="0286a03" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">復有十二處，謂眼處、色處，耳處、聲處，鼻處、香處，舌處、味處，身處、觸處，意
+<lb n="0286a03" ed="Y"/><lb n="0286a03" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0286a0301" rend="bold">復有十二處，謂眼處、色處，耳處、聲處，鼻處、香處，舌處、味處，身處、觸處，意
 <lb n="0286a04" ed="Y"/><lb n="0286a04" ed="Y" type="old"/>處、法處。眼等五處，及色、聲、香、味處，如前已釋。觸處，謂諸大種及一分觸。意
 <lb n="0286a05" ed="Y"/><lb n="0286a05" ed="Y" type="old"/>處，即是識蘊。法處，謂受、想、行蘊，並無表色等，及諸無為。云何無為？謂虛空無
 <lb n="0286a06" ed="Y"/><lb n="0286a06" ed="Y" type="old"/>為、非擇滅無為、擇滅無為，及真如等。虛空者，謂容受諸色。非擇滅者，謂若滅，非
 <lb n="0286a07" ed="Y"/><lb n="0286a07" ed="Y" type="old"/>離繫。云何非離繫？謂離煩惱對治，諸蘊畢竟不生。云何擇滅？謂若滅，是離繫。云何
 <lb n="0286a08" ed="Y"/><lb n="0286a08" ed="Y" type="old"/>離繫？謂煩惱對治，諸蘊畢竟不生。云何真如？謂諸法法性，法無我性。</p></quote></cb:div>
-<lb n="0286a09" ed="Y"/><lb n="0286a09" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">這十二處法門，就是根境相對。比方我們的眼是眼根，色是眼根所取的境界；耳
+<lb n="0286a09" ed="Y"/><lb n="0286a09" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0286a0901" style="margin-left:1em;text-indent:2em">這十二處法門，就是根境相對。比方我們的眼是眼根，色是眼根所取的境界；耳
 <lb n="0286a10" ed="Y"/><lb n="0286a10" ed="Y" type="old"/>是耳根，耳根所取的境界叫做聲；鼻子所取的境界叫做香，舌頭所取的境界是味，身
 <lb n="0286a11" ed="Y"/><lb n="0286a11" ed="Y" type="old"/>根所取的境界叫做觸，意處所取的叫做法。或者是眼、耳、鼻、舌、身、意，色、聲
 <lb n="0286a12" ed="Y"/><lb n="0286a12" ed="Y" type="old"/>、香、味、觸、法，這樣子講，也還是分成六類，這叫十二處。</p><pb n="0287a" ed="Y" xml:id="Y44.0042.0287a.old" type="old"/>
 <pb n="0287a" ed="Y" xml:id="Y44.0042.0287a"/>
-<lb n="0287a01" ed="Y"/><lb n="0287a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「眼等五處，及色、聲、香、味處，如前已釋。」</quote>眼、耳、鼻、舌、身這五處，
+<lb n="0287a01" ed="Y"/><lb n="0287a01" ed="Y" type="old"/><p xml:id="pY44p0287a0101" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「眼等五處，及色、聲、香、味處，如前已釋。」</quote>眼、耳、鼻、舌、身這五處，
 <lb n="0287a02" ed="Y"/><lb n="0287a02" ed="Y" type="old"/>色、聲、香、味這四處，像上面這樣子，已經講過了。本來是眼、耳、鼻、舌、身，
 <lb n="0287a03" ed="Y"/><lb n="0287a03" ed="Y" type="old"/>色、聲、香、味、觸，不過，這個「觸」要另外加以解釋。「觸」可分兩大類，一類
 <lb n="0287a04" ed="Y"/><lb n="0287a04" ed="Y" type="old"/>是地、水、火、風四大種，一類是滑、澀、重、輕、冷、飢、渴等七種觸。<quote type="嚴謹引文">「觸處，
@@ -75,7 +95,7 @@
 <lb n="0287a07" ed="Y"/><lb n="0287a07" ed="Y" type="old"/>個地方講觸處，範圍就大了，把「四大」和「一分觸」合起來，叫做<quote type="嚴謹引文">「觸處」</quote>。這是
 <lb n="0287a08" ed="Y"/><lb n="0287a08" ed="Y" type="old"/>五蘊與十二處在解說歸類上稍稍不同的地方。「意處」就是「識蘊」，這個好懂，沒
 <lb n="0287a09" ed="Y"/><lb n="0287a09" ed="Y" type="old"/>有問題。</p>
-<lb n="0287a10" ed="Y"/><lb n="0287a10" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「法處，謂受、想、行蘊，並無表色等，及諸無為。」</quote><quote type="嚴謹引文">「法處」</quote>裡面，包括三大
+<lb n="0287a10" ed="Y"/><lb n="0287a10" ed="Y" type="old"/><p xml:id="pY44p0287a1001" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「法處，謂受、想、行蘊，並無表色等，及諸無為。」</quote><quote type="嚴謹引文">「法處」</quote>裡面，包括三大
 <lb n="0287a11" ed="Y"/><lb n="0287a11" ed="Y" type="old"/>類。第一類，<quote type="嚴謹引文">「受、想、行蘊」</quote>這三種蘊，心相應的和心不相應的都包括進去。第二
 <lb n="0287a12" ed="Y"/><lb n="0287a12" ed="Y" type="old"/>類，色蘊當中的<quote type="嚴謹引文">「無表色」</quote>，不是眼根所見的，是法處所攝，名為<quote type="嚴謹引文">「法處所攝色」</quote>。
 <lb n="0287a13" ed="Y"/><lb n="0287a13" ed="Y" type="old"/>解說五蘊的時候，無表色是在色蘊裡面講的，可是，現在講十二處，是歸在法處裡面
@@ -87,11 +107,11 @@
 <lb n="0288a04" ed="Y"/><lb n="0288a04" ed="Y" type="old"/>是有生、有住、有滅的，「無為法」就是不生、不住、不滅的，普通很簡單的這樣子
 <lb n="0288a05" ed="Y"/><lb n="0288a05" ed="Y" type="old"/>講，這是阿毘達磨論師的講法。在<title level="m">《阿含經》</title>裡，講無為法，都是離貪、離瞋、離癡
 <lb n="0288a06" ed="Y"/><lb n="0288a06" ed="Y" type="old"/>，但這裡是講阿毘達磨論師講的，不這樣講，無為法的範圍很廣。</p>
-<lb n="0288a07" ed="Y"/><lb n="0288a07" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「云何無為？謂虛空無為、非擇滅無為、擇滅無為，及真如等。」</quote>無為法裡面包
+<lb n="0288a07" ed="Y"/><lb n="0288a07" ed="Y" type="old"/><p xml:id="pY44p0288a0701" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「云何無為？謂虛空無為、非擇滅無為、擇滅無為，及真如等。」</quote>無為法裡面包
 <lb n="0288a08" ed="Y"/><lb n="0288a08" ed="Y" type="old"/>括的範圍也很多，平常小乘裡面講的是三種無為：<quote type="嚴謹引文">「虛空無為」</quote>、<quote type="嚴謹引文">「非擇滅無為」</quote>、
 <lb n="0288a09" ed="Y"/><lb n="0288a09" ed="Y" type="old"/><quote type="嚴謹引文">「擇滅無為」</quote>。大乘佛法裡面，還要加上<quote type="嚴謹引文">「真如等」</quote>，這個<quote type="嚴謹引文">「等」</quote>，比方我們普通講
 <lb n="0288a10" ed="Y"/><lb n="0288a10" ed="Y" type="old"/>的法界、法性、法定這許多，都包括在裡面，但這裡單單只解說真如的意義。</p>
-<lb n="0288a11" ed="Y"/><lb n="0288a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「虛空者，謂容受諸色」</quote>，這是虛空無為。我們眼睛看到的虛空，不是虛空無為
+<lb n="0288a11" ed="Y"/><lb n="0288a11" ed="Y" type="old"/><p xml:id="pY44p0288a1101" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「虛空者，謂容受諸色」</quote>，這是虛空無為。我們眼睛看到的虛空，不是虛空無為
 <lb n="0288a12" ed="Y"/><lb n="0288a12" ed="Y" type="old"/>，是眼睛所對的色法，不是無為法，它有變化的。那麼這個<quote type="嚴謹引文">「虛空無為」</quote>是什麼意義
 <lb n="0288a13" ed="Y"/><lb n="0288a13" ed="Y" type="old"/>呢？凡是色法，地、水、火、風，眼、耳、鼻、舌、身，色、聲、香、味、觸，近於
 <lb n="0288a14" ed="Y"/><lb n="0288a14" ed="Y" type="old"/>現在所講的物質，它必定有一個存在的地方。有了物質，就存在於虛空之中，這個虛<pb n="0289a" ed="Y" xml:id="Y44.0042.0289a.old" type="old"/>
@@ -101,7 +121,7 @@
 <lb n="0289a03" ed="Y"/><lb n="0289a03" ed="Y" type="old"/>虛空的話，那不成了，就障礙了。我們人能夠走路，來來去去的，是因為有空，如果
 <lb n="0289a04" ed="Y"/><lb n="0289a04" ed="Y" type="old"/>沒有個空的，怎麼能夠來來去去？有一個東西實在的在那裡，到處都碰到了，這就不
 <lb n="0289a05" ed="Y"/><lb n="0289a05" ed="Y" type="old"/>成。這虛空無為，是一個不生不滅的絕對的空間，為一切色法所依止而活動的處所。</p>
-<lb n="0289a06" ed="Y"/><lb n="0289a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">第二個無為，叫<quote type="嚴謹引文">「非擇滅」</quote>無為，<quote type="嚴謹引文">「謂若滅，非離繫」</quote>。<quote type="嚴謹引文">「滅」</quote>，就是這個法滅
+<lb n="0289a06" ed="Y"/><lb n="0289a06" ed="Y" type="old"/><p xml:id="pY44p0289a0601" style="margin-left:1em;text-indent:2em">第二個無為，叫<quote type="嚴謹引文">「非擇滅」</quote>無為，<quote type="嚴謹引文">「謂若滅，非離繫」</quote>。<quote type="嚴謹引文">「滅」</quote>，就是這個法滅
 <lb n="0289a07" ed="Y"/><lb n="0289a07" ed="Y" type="old"/>了以後，不會起來了<quote type="嚴謹引文">。「繫」</quote>，就是束縛。<quote type="嚴謹引文">「離」</quote>了束縛，得到解脫，這就是一種智
 <lb n="0289a08" ed="Y"/><lb n="0289a08" ed="Y" type="old"/>慧了，這是一種滅而不起的解脫方法。不過，另外還有一種滅，它也是滅了不起，但
 <lb n="0289a09" ed="Y"/><lb n="0289a09" ed="Y" type="old"/>它不是解脫，是跟解脫無關的一種滅而不起。這種情形很多，比方雞叫了一聲，我沒
@@ -119,7 +139,7 @@
 <lb n="0290a06" ed="Y"/><lb n="0290a06" ed="Y" type="old"/>了，這叫做真正的解脫了、滅了。現在這一種滅不是這樣，並不是因為智慧、因為<quote type="嚴謹引文">「
 <lb n="0290a07" ed="Y"/><lb n="0290a07" ed="Y" type="old"/>煩惱」</quote>的<quote type="嚴謹引文">「對治」</quote>而使聖道現前，從此<quote type="嚴謹引文">「諸蘊畢竟不生」</quote>。它是如同沒聽到雞叫一樣
 <lb n="0290a08" ed="Y"/><lb n="0290a08" ed="Y" type="old"/>，因為因緣不和合、不具足的關係，使之從此不會再生起。</p>
-<lb n="0290a09" ed="Y"/><lb n="0290a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「云何擇滅？謂若滅，是離繫。云何離繫？謂煩惱對治，諸蘊畢竟不生。」</quote>這種
+<lb n="0290a09" ed="Y"/><lb n="0290a09" ed="Y" type="old"/><p xml:id="pY44p0290a0901" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「云何擇滅？謂若滅，是離繫。云何離繫？謂煩惱對治，諸蘊畢竟不生。」</quote>這種
 <lb n="0290a10" ed="Y"/><lb n="0290a10" ed="Y" type="old"/><quote type="嚴謹引文">「滅」</quote>，是由於<quote type="嚴謹引文">「離繫」</quote>，也就是離了煩惱的關係，滅了以後，此後永遠不生不滅了
 <lb n="0290a11" ed="Y"/><lb n="0290a11" ed="Y" type="old"/>。<quote type="嚴謹引文">「離繫」</quote>，就是<quote type="嚴謹引文">「煩惱對治」</quote>了。智慧現前，對治煩惱，煩惱徹底解決了，以後畢
 <lb n="0290a12" ed="Y"/><lb n="0290a12" ed="Y" type="old"/>竟不生，永遠不生了。比方說初果聖者，初果聖者的智慧一現前的時候，斷了三種見
@@ -130,7 +150,7 @@
 <lb n="0291a02" ed="Y"/><lb n="0291a02" ed="Y" type="old"/>竟不生」</quote>。由於智慧的力量對治煩惱，離開繫縛，使得有為、有漏諸法畢竟不生，這
 <lb n="0291a03" ed="Y"/><lb n="0291a03" ed="Y" type="old"/>一種叫做<quote type="嚴謹引文">「擇滅無為」</quote>。假使是由於因緣不具足而不生，這還是不會解脫的，因為煩
 <lb n="0291a04" ed="Y"/><lb n="0291a04" ed="Y" type="old"/>惱還在那裡。</p>
-<lb n="0291a05" ed="Y"/><lb n="0291a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「云何真如？謂諸法法性，法無我性。」</quote><quote type="嚴謹引文">「真如」</quote>，假使用中國話來講，就是<quote>「
+<lb n="0291a05" ed="Y"/><lb n="0291a05" ed="Y" type="old"/><p xml:id="pY44p0291a0501" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「云何真如？謂諸法法性，法無我性。」</quote><quote type="嚴謹引文">「真如」</quote>，假使用中國話來講，就是<quote>「
 <lb n="0291a06" ed="Y"/><lb n="0291a06" ed="Y" type="old"/>這樣、這樣、這樣、這樣」</quote>，就是這個樣子，一直如此的，這就是一切法的法性，一
 <lb n="0291a07" ed="Y"/><lb n="0291a07" ed="Y" type="old"/>切法的本性。法相、有為，是有生有滅的，一切法的本性是不生不滅的，所以叫做<quote type="嚴謹引文">「
 <lb n="0291a08" ed="Y"/><lb n="0291a08" ed="Y" type="old"/>真如」</quote>。特別重要的，叫<quote type="嚴謹引文">「法無我性」</quote>，一切法是無我，這個無我的性，就是真如性
@@ -138,7 +158,7 @@
 <lb n="0291a10" ed="Y"/><lb n="0291a10" ed="Y" type="old"/>一個諸法無我性以後，我見根本就斷了，生死的根本就拔除了，就可以解脫生死了。
 <lb n="0291a11" ed="Y"/><lb n="0291a11" ed="Y" type="old"/>所以，佛法講修行，講開悟，悟到什麼呢？體驗到什麼呢？體驗到這個真理的話，煩
 <lb n="0291a12" ed="Y"/><lb n="0291a12" ed="Y" type="old"/>惱就決定不起了。</p>
-<lb n="0291a13" ed="Y"/><lb n="0291a13" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">所以，假使說這個人開悟了，做什麼還是我癡、我見、我慢、我愛一大套，這根
+<lb n="0291a13" ed="Y"/><lb n="0291a13" ed="Y" type="old"/><p xml:id="pY44p0291a1301" style="margin-left:1em;text-indent:2em">所以，假使說這個人開悟了，做什麼還是我癡、我見、我慢、我愛一大套，這根
 <lb n="0291a14" ed="Y"/><lb n="0291a14" ed="Y" type="old"/>本不是開悟。不管他見到什麼也好，他知道過去、未來，也沒有用，這些外道也有，<pb n="0292a" ed="Y" xml:id="Y44.0042.0292a.old" type="old"/>
 <pb n="0292a" ed="Y" xml:id="Y44.0042.0292a"/>
 <lb n="0292a01" ed="Y"/><lb n="0292a01" ed="Y" type="old"/>沒有用的。佛法的體悟，就是要見真理的。體悟到真理的話，煩惱決定不起的，這個
@@ -147,10 +167,10 @@
 <lb n="0292a04" ed="Y"/><lb n="0292a04" ed="Y" type="old"/>，就要離煩惱；離煩惱就要證悟法性、證悟真理；要證悟真理，就要智慧。離開智慧
 <lb n="0292a05" ed="Y"/><lb n="0292a05" ed="Y" type="old"/>，沒有第二個辦法，不得解脫的。</p></cb:div></cb:div>
 <lb n="0292a06" ed="Y"/><lb n="0292a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　處的意義</cb:mulu><head>第二節　處的意義</head>
-<lb n="0292a07" ed="Y"/><lb n="0292a07" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">問：處為何義？答：諸識生長門是處義。</p></quote></cb:div>
-<lb n="0292a08" ed="Y"/><lb n="0292a08" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">一切識依此而生長的，這個是<quote type="嚴謹引文">「處」</quote>。<quote type="嚴謹引文">「門」</quote>，佛法的意義，就是依此而起來的
+<lb n="0292a07" ed="Y"/><lb n="0292a07" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0292a0701" rend="bold">問：處為何義？答：諸識生長門是處義。</p></quote></cb:div>
+<lb n="0292a08" ed="Y"/><lb n="0292a08" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0292a0801" style="margin-left:1em;text-indent:2em">一切識依此而生長的，這個是<quote type="嚴謹引文">「處」</quote>。<quote type="嚴謹引文">「門」</quote>，佛法的意義，就是依此而起來的
 <lb n="0292a09" ed="Y"/><lb n="0292a09" ed="Y" type="old"/>。像我們人一樣，從這個地方出去的，叫<quote type="嚴謹引文">「門」</quote>；依此而生起的，這個叫<quote type="嚴謹引文">「處」</quote>。</p>
-<lb n="0292a10" ed="Y"/><lb n="0292a10" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">比方要生起眼識，有兩個條件：眼根不壞，外面有青黃赤白色的境界。眼根和色
+<lb n="0292a10" ed="Y"/><lb n="0292a10" ed="Y" type="old"/><p xml:id="pY44p0292a1001" style="margin-left:1em;text-indent:2em">比方要生起眼識，有兩個條件：眼根不壞，外面有青黃赤白色的境界。眼根和色
 <lb n="0292a11" ed="Y"/><lb n="0292a11" ed="Y" type="old"/>的境界一對，眼識就起來了，眼、色就是眼識生起的依處，所以叫做<quote type="嚴謹引文">「處」</quote>。又比方
 <lb n="0292a12" ed="Y"/><lb n="0292a12" ed="Y" type="old"/>耳識，耳根好好的，外面有聲音，根和境一對，耳識就起來了。外面沒有聲音的話，
 <lb n="0292a13" ed="Y"/><lb n="0292a13" ed="Y" type="old"/>耳根好好的也沒有用，什麼聲音都沒有，當然怎麼也聽不到，耳識也不會起。所以上<pb n="0293a" ed="Y" xml:id="Y44.0042.0293a.old" type="old"/>

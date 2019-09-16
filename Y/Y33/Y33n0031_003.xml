@@ -12,56 +12,76 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>重版十刷<date>Date: 2013/11</date>新式標點版</edition>
+			<edition>重版十刷<date>Date: 2013/11</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>18卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 33, No. 31</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>18卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">33</idno>.<idno type="no">31</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">印度之佛教</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第二章　釋尊略傳</cb:mulu><cb:mulu level="2" type="其他">第五節　入涅槃</cb:mulu>
-<milestone unit="juan" n="3"/>
+<milestone n="3" unit="juan"/>
 <pb n="0037a" ed="Y" xml:id="Y33.0031.0037a"/>
 <lb n="0037a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">第三章　佛理要略</cb:mulu><head>第三章　佛理要略</head>
 <lb n="0037a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　世間</cb:mulu><head>第一節　世間</head>
-<lb n="0037a03" ed="Y"/><p style="text-indent:2em">佛法無他事，「淨化世間以進趣出世之寂滅」而已。</p>
-<lb n="0037a04" ed="Y"/><p style="text-indent:2em">世間者，本無今有，有已還無，時劫之遷流變壞謂之「世」。十方器界無邊
+<lb n="0037a03" ed="Y"/><p xml:id="pY33p0037a0301" style="text-indent:2em">佛法無他事，「淨化世間以進趣出世之寂滅」而已。</p>
+<lb n="0037a04" ed="Y"/><p xml:id="pY33p0037a0401" style="text-indent:2em">世間者，本無今有，有已還無，時劫之遷流變壞謂之「世」。十方器界無邊
 <lb n="0037a05" ed="Y"/>際，在成、住、壞中；一切有情無數量，在生、老、死中。有情與器界，起滅於
 <lb n="0037a06" ed="Y"/>三世之流，莫知其終始，此之謂「世間」。世間唯有情與器界，而有情則又為其
 <lb n="0037a07" ed="Y"/>本。何者？有有情，而後往返彼此知器界，前後延續有時劫。若離有情，此器界
 <lb n="0037a08" ed="Y"/>之與時劫，不必論亦無可論也。</p>
-<lb n="0037a09" ed="Y"/><p style="text-indent:2em">言有情者：「自體愛」則內我之貪染，「境界愛」則外境之執取，「後有愛
+<lb n="0037a09" ed="Y"/><p xml:id="pY33p0037a0901" style="text-indent:2em">言有情者：「自體愛」則內我之貪染，「境界愛」則外境之執取，「後有愛
 <lb n="0037a10" ed="Y"/>」則無限生存之意欲；有情者，有此情愛也。外書之釋此，為喜，為動，為情，
 <lb n="0037a11" ed="Y"/>為光明；內典之釋此，為大心，快心，勇心，如金剛心。生存意志躍躍然，熱烈
 <pb n="0038a" ed="Y" xml:id="Y33.0031.0038a"/>
@@ -71,7 +91,7 @@
 <lb n="0038a04" ed="Y"/>。蓋心色不一不異之和合，而以愛取營為個性之活動者也。何由知世間以有情為
 <lb n="0038a05" ed="Y"/>本乎？世間之存在曰「有」，世間之顯現曰「生」，此生之與有，佛法並約有情
 <lb n="0038a06" ed="Y"/>為論。有情即世間生死死生、生生不已之存在，此可於聖典知之。自有情之種類
-<lb n="0038a07" ed="Y"/>言：分別有情之<note n="0038a0701" resp="CBETA" type="add">種【CB】，體【印順】</note><app n="0038a0701"><lem wit="【CB】" resp="正聞出版社">種</lem><rdg wit="【印順】">體</rdg></app>類者，曰「五有」：天有、人有、旁生有、鬼有、地獄有。以
+<lb n="0038a07" ed="Y"/>言：分別有情之<note n="0038a0701" resp="CBETA" type="add">種【CB】，體【印順】</note><app n="0038a0701"><lem resp="正聞出版社" wit="【CB】">種</lem><rdg wit="【印順】">體</rdg></app>類者，曰「五有」：天有、人有、旁生有、鬼有、地獄有。以
 <lb n="0038a08" ed="Y"/>人有為本、為中心，旁攝於鬼、畜；此三者之勝進者為天，劣退者為地獄。若分
 <lb n="0038a09" ed="Y"/>別有情出生之相類者，曰「四生」：胎生、卵生、濕生、化生。前三生其常見，
 <lb n="0038a10" ed="Y"/>化生則其變也。即此「五有」、「四生」而論其延續於時劫：一期則生有、本有
@@ -95,17 +115,17 @@
 <pb n="0040a" ed="Y" xml:id="Y33.0031.0040a"/>
 <lb n="0040a01" ed="Y"/>有，緣起之潛在也。業感有情總別之報果，則即潛而至顯；依心色活動而成業力
 <lb n="0040a02" ed="Y"/>，則即顯而至潛。雖業之與報，並有並生，然據偏勝而言，則業為有而報為生。</p>
-<lb n="0040a03" ed="Y"/><p style="text-indent:2em">如上所述，器界無邊際，有情無數量，其起滅於時劫無始終，可謂廣大、眾
+<lb n="0040a03" ed="Y"/><p xml:id="pY33p0040a0301" style="text-indent:2em">如上所述，器界無邊際，有情無數量，其起滅於時劫無始終，可謂廣大、眾
 <lb n="0040a04" ed="Y"/>多、悠久矣！若探其本，則有情之體有、相生而已。知此，乃知佛法所明世間之
 <lb n="0040a05" ed="Y"/>宗本，乃足以進言淨化世間，以進趣出世之寂滅。</p>
-<lb n="0040a06" ed="Y"/><p cb:type="pre">　　　內則情識──心（偏此墮唯心）　┌此有故彼有「有支」
+<lb n="0040a06" ed="Y"/><p cb:type="pre" xml:id="pY33p0040a0601">　　　內則情識──心（偏此墮唯心）　┌此有故彼有「有支」
 <lb n="0040a07" ed="Y"/>　　　　　　　　　　　　┌約因果辨─┤
 <lb n="0040a08" ed="Y"/>　　　　　炷　　　　　　│　　　　　└此生故彼生「緣生」
-<lb n="0040a09" ed="Y"/>　　　　　↑　　　　　　│　　　　　　　　　　　　┌<note n="0040a0901" resp="CBETA" type="add">種【CB】，體【印順】</note><app n="0040a0901"><lem wit="【CB】" resp="正聞出版社">種</lem><rdg wit="【印順】">體</rdg></app>類則「五有」
+<lb n="0040a09" ed="Y"/>　　　　　↑　　　　　　│　　　　　　　　　　　　┌<note n="0040a0901" resp="CBETA" type="add">種【CB】，體【印順】</note><app n="0040a0901"><lem resp="正聞出版社" wit="【CB】">種</lem><rdg wit="【印順】">體</rdg></app>類則「五有」
 <lb n="0040a10" ed="Y"/>　　　　　焰　┌─┐　　│　　　　　┌有情之自體─┤
 <lb n="0040a11" ed="Y"/>　　　　　　　│心│　　│　　　　　│　　　　　　└生相則「四生」
 <lb n="0040a12" ed="Y"/>　　　┌───┘…└─┐│　　　　　│　　　　　　┌存在則「四有」
-<lb n="0040a13" ed="Y"/>　　　│世間以有情為本├┼約<note n="0040a1301" resp="CBETA" type="add">種【CB】，體【印順】</note><app n="0040a1301"><lem wit="【CB】" resp="正聞出版社">種</lem><rdg wit="【印順】">體</rdg></app>類辨─┼有情之延續─┤
+<lb n="0040a13" ed="Y"/>　　　│世間以有情為本├┼約<note n="0040a1301" resp="CBETA" type="add">種【CB】，體【印順】</note><app n="0040a1301"><lem resp="正聞出版社" wit="【CB】">種</lem><rdg wit="【印順】">體</rdg></app>類辨─┼有情之延續─┤
 <lb n="0040a14" ed="Y"/>　　　└───┐…┌─┘│　　　　　│　　　　　　└生生則「三生」
 <lb n="0040a15" ed="Y"/>　　　　　　　│色│　　│　　　　　│　　　　　　┌得體則「三有」
 <lb n="0040a16" ed="Y"/>　　　　　焰　└─┘　　│　　　　　└有情之往返─┤
@@ -115,7 +135,7 @@
 <lb n="0040a20" ed="Y"/>　　　外則器界──色（偏此立唯物）　└報「生」</p></cb:div>
 <pb n="0041a" ed="Y" xml:id="Y33.0031.0041a"/>
 <lb n="0041a01" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　世間之淨化</cb:mulu><head>第二節　世間之淨化</head>
-<lb n="0041a02" ed="Y"/><p style="text-indent:2em">有情所依之器界有淨穢，心識有愚智，觸境生心而有情有苦樂。淨化之者，
+<lb n="0041a02" ed="Y"/><p xml:id="pY33p0041a0201" style="text-indent:2em">有情所依之器界有淨穢，心識有愚智，觸境生心而有情有苦樂。淨化之者，
 <lb n="0041a03" ed="Y"/>化世間之穢者、愚者、苦者，為淨、智、樂也。天樂、地獄苦，人、鬼、畜三苦
 <lb n="0041a04" ed="Y"/>樂雜。格其優降，則以天、人、鬼、畜、地獄為次第。離三惡趣生人中，捨人身
 <lb n="0041a05" ed="Y"/>生天上，此異學之世間淨化。佛法則不然，求出三惡趣，不必生天上；所謂「人
@@ -132,9 +152,9 @@
 <lb n="0042a03" ed="Y"/>離；苦者未得不欲得，已得求所去，意在愛未得之樂而欲得之。樂其樂，生其生
 <lb n="0042a04" ed="Y"/>，是為世人之情。我欲之，人亦欲之，即自情以通他人之情，「自通之法」，盡
 <lb n="0042a05" ed="Y"/>人之樂而遂人之生，謂之「善」；人生道德之十善基於此。</p>
-<lb n="0042a06" ed="Y"/><p style="text-indent:2em">十善者，不殺生以絕內命，不偷盜以奪外命，而個人於是乎樂生。不邪淫以
+<lb n="0042a06" ed="Y"/><p xml:id="pY33p0042a0601" style="text-indent:2em">十善者，不殺生以絕內命，不偷盜以奪外命，而個人於是乎樂生。不邪淫以
 <lb n="0042a07" ed="Y"/>破室家之好，而家族於是乎樂生。不妄語亂是非，不兩舌以破和合，不惡口以予
-<lb n="0042a08" ed="Y"/>人難堪，不唐言綺語以<note n="0042a0801" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0042a0801"><lem wit="【CB】" resp="CBETA">啟</lem><rdg wit="【印順】">啓</rdg></app>人邪思，而社會、國家於是乎樂生。此七者，曰「善業
+<lb n="0042a08" ed="Y"/>人難堪，不唐言綺語以<note n="0042a0801" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0042a0801"><lem resp="CBETA" wit="【CB】">啟</lem><rdg wit="【印順】">啓</rdg></app>人邪思，而社會、國家於是乎樂生。此七者，曰「善業
 <lb n="0042a09" ed="Y"/>」。身、語之動動於意，不貪而後能克己，不瞋而後能恕人。此二者，曰「善心
 <lb n="0042a10" ed="Y"/>」，善心者情意之善者也。正常之情意與行為，必因正確之認識，曰「善意」。
 <lb n="0042a11" ed="Y"/>善意者，信業報，明因果，知善惡，不邪見者而後知所以自處，知所以處人。十
@@ -143,32 +163,32 @@
 <pb n="0043a" ed="Y" xml:id="Y33.0031.0043a"/>
 <lb n="0043a01" ed="Y"/>、害他而遂己之樂生，然亦未嘗不欲人之予以樂生，此樂生之十善所以為世之常
 <lb n="0043a02" ed="Y"/>道，釋尊因而教之。又以化在世間，身、語為重，階梯出世，禁醉亂之無知，乃
-<lb n="0043a03" ed="Y"/>別<note n="0043a0301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0043a0301"><lem wit="【CB】" resp="CBETA">啟</lem><rdg wit="【印順】">啓</rdg></app>五戒（不殺、不盜、不邪淫、不妄語、不飲酒）之教。五戒、十善，本於自
+<lb n="0043a03" ed="Y"/>別<note n="0043a0301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0043a0301"><lem resp="CBETA" wit="【CB】">啟</lem><rdg wit="【印順】">啓</rdg></app>五戒（不殺、不盜、不邪淫、不妄語、不飲酒）之教。五戒、十善，本於自
 <lb n="0043a04" ed="Y"/>他共處，非一人之戒善；自行，教他行，讚歎行，隨喜行，必自他共行，乃足以
 <lb n="0043a05" ed="Y"/>致人世之和樂善生。不欲此世之淨化則已，求淨化，欲以大同、和平、自由為鵠
 <lb n="0043a06" ed="Y"/>者，離五戒、十善，不可得也！</p>
-<lb n="0043a07" ed="Y"/><p style="text-indent:2em">雖然，自他共處，世事繁多，離合存奪，不可名狀。戒善重於止惡，淨化世
-<lb n="0043a08" ed="Y"/>間不離此；然唯此，則樂個人之未來生而有餘，樂<note n="0043a0801" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0043a0801"><lem wit="【CB】" resp="CBETA">群</lem><rdg wit="【印順】">羣</rdg></app>眾現在之和諧共存則不足。
+<lb n="0043a07" ed="Y"/><p xml:id="pY33p0043a0701" style="text-indent:2em">雖然，自他共處，世事繁多，離合存奪，不可名狀。戒善重於止惡，淨化世
+<lb n="0043a08" ed="Y"/>間不離此；然唯此，則樂個人之未來生而有餘，樂<note n="0043a0801" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0043a0801"><lem resp="CBETA" wit="【CB】">群</lem><rdg wit="【印順】">羣</rdg></app>眾現在之和諧共存則不足。
 <lb n="0043a09" ed="Y"/>釋尊為在家眾多說施、戒、慈定以處世，戒偏於止惡；為出家眾多說戒、定、慧
 <lb n="0043a10" ed="Y"/>以出世，戒不僅止惡，和樂共處之法制，即寓於其中。種族無優劣，職業無貴賤
 <lb n="0043a11" ed="Y"/>，四姓出家同姓釋。僧事者，眾人之事也。眾人事，非一人治，非少數人治。<quote>「
 <lb n="0043a12" ed="Y"/>我不攝受眾」</quote>，佛滅無大師，一切決於僧羯磨（會議辦事）。出家者，受同一教
 <lb n="0043a13" ed="Y"/>育，守同一戒律，其學而無成者曰啞羊，亂法紀者曰無羞，不使預羯磨。德學集
 <pb n="0044a" ed="Y" xml:id="Y33.0031.0044a"/>
-<lb n="0044a01" ed="Y"/>團會議而主僧事，非少數人主，亦非侈言<note n="0044a0101" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0044a0101"><lem wit="【CB】" resp="CBETA">群</lem><rdg wit="【印順】">羣</rdg></app>主。彼無識無行者，如何能主！徒為
+<lb n="0044a01" ed="Y"/>團會議而主僧事，非少數人主，亦非侈言<note n="0044a0101" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0044a0101"><lem resp="CBETA" wit="【CB】">群</lem><rdg wit="【印順】">羣</rdg></app>主。彼無識無行者，如何能主！徒為
 <lb n="0044a02" ed="Y"/>狡黠者所利用欺騙而已。沓婆受謗，佛明知之而令自白於眾，舉道德之化而一一
 <lb n="0044a03" ed="Y"/>納諸法軌之中也。論經濟，有四方僧物，有現前僧物，眾人共有共享之，亦隨時
 <lb n="0044a04" ed="Y"/>隨地而有別。如法受別施，受別請，此私有經濟，制標準而或出入其中。超標準
 <lb n="0044a05" ed="Y"/>之私物，生則公諸眾而不得隱，死則大分沒為僧物。犯罪者，悔則服務以淨罪，
 <lb n="0044a06" ed="Y"/>不悔則默擯不齒以為刑。凡此種種，莫非自他和樂共存之制。此自他和樂共存之
 <lb n="0044a07" ed="Y"/>制，唯限於出家眾，白衣不許聞問，何哉？蓋不能見容於封建階級獨善之當世，
-<lb n="0044a08" ed="Y"/>故不得不隱之以待時！即僧制以論自他共處之<note n="0044a0801" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0044a0801"><lem wit="【CB】" resp="CBETA">群</lem><rdg wit="【印順】">羣</rdg></app>制，而世間乃有和樂平等。思想
+<lb n="0044a08" ed="Y"/>故不得不隱之以待時！即僧制以論自他共處之<note n="0044a0801" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0044a0801"><lem resp="CBETA" wit="【CB】">群</lem><rdg wit="【印順】">羣</rdg></app>制，而世間乃有和樂平等。思想
 <lb n="0044a09" ed="Y"/>正左右則「見和」，資生均貧富則「利和」，法制齊上下則「戒和」；此三，和
 <lb n="0044a10" ed="Y"/>之體。具和之體，必有和之相：情投意悅則「意和」，翔實雅正則「語和」，光
-<lb n="0044a11" ed="Y"/>明禮敬則「身和」。攝同行同願六和之<note n="0044a1101" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0044a1101"><lem wit="【CB】" resp="CBETA">群</lem><rdg wit="【印順】">羣</rdg></app>眾，行自樂樂他、自生生他之十善，淨
+<lb n="0044a11" ed="Y"/>明禮敬則「身和」。攝同行同願六和之<note n="0044a1101" resp="CBETA" type="add" subtype="規範字詞">群【CB】，羣【印順】</note><app n="0044a1101"><lem resp="CBETA" wit="【CB】">群</lem><rdg wit="【印順】">羣</rdg></app>眾，行自樂樂他、自生生他之十善，淨
 <lb n="0044a12" ed="Y"/>化世間為大同、和平、自由，可立而待也。</p>
 <pb n="0045a" ed="Y" xml:id="Y33.0031.0045a"/>
-<lb n="0045a01" ed="Y"/><p cb:type="pre">　　　　　　　　　　　　　　　　　　　　┌不殺、不盜───個人能樂其生
+<lb n="0045a01" ed="Y"/><p cb:type="pre" xml:id="pY33p0045a0101">　　　　　　　　　　　　　　　　　　　　┌不殺、不盜───個人能樂其生
 <lb n="0045a02" ed="Y"/>　　　　　　　　　　　　　　　　　┌善業┼不邪淫─────家族能樂其生
 <lb n="0045a03" ed="Y"/>　　　　　　偏此多雜染　　　　　　│　　└不妄語（四種）─社會能樂其生
 <lb n="0045a04" ed="Y"/>　　　　　　　　：　　　　　　　　│　　┌不貪欲─────能克己
@@ -183,16 +203,16 @@
 <lb n="0045a13" ed="Y"/>　　　　　　　　：　　　　　　　　│　　┌身和──────光明禮敬
 <lb n="0045a14" ed="Y"/>　　　　　　　　：　　　　　　　　└表相┼語和──────翔實雅正
 <lb n="0045a15" ed="Y"/>　　　　　　偏此多獨善　　　　　　　　　└意和──────志同情悅</p>
-<lb n="0045a16" ed="Y"/><p style="text-indent:2em">雖然，世間以有情為本，有情體有而相生，莫不悅生而惡死，厭苦以求樂。
+<lb n="0045a16" ed="Y"/><p xml:id="pY33p0045a1601" style="text-indent:2em">雖然，世間以有情為本，有情體有而相生，莫不悅生而惡死，厭苦以求樂。
 <lb n="0045a17" ed="Y"/>獨不知有情之樂生，即眾苦之本，有在即苦在，有生即苦生。厭苦而苦不盡，求
 <lb n="0045a18" ed="Y"/>樂而苦來；生不常而死繼之，奈何！致人世之和樂，非不善也，然身心無常變易
 <lb n="0045a19" ed="Y"/>苦，自他共處離合苦，器界依存拘礙苦，有即苦而苦即有，又奈何！和樂善生之
 <pb n="0046a" ed="Y" xml:id="Y33.0031.0046a"/>
 <lb n="0046a01" ed="Y"/>淨世，不足以持久。昔頂生王以十善化四洲，分帝釋之半座，然時移、人亡則政
-<lb n="0046a02" ed="Y"/>息。善眼十善化弟子，自修慈定生<note n="0046a0201" resp="CBETA" type="add">二【CB】，三【印順】</note><app n="0046a0201"><lem wit="【CB】" resp="正聞出版社">二</lem><rdg wit="【印順】">三</rdg></app>禪，功德巍巍，而今安在？有生必有滅，合
+<lb n="0046a02" ed="Y"/>息。善眼十善化弟子，自修慈定生<note n="0046a0201" resp="CBETA" type="add">二【CB】，三【印順】</note><app n="0046a0201"><lem resp="正聞出版社" wit="【CB】">二</lem><rdg wit="【印順】">三</rdg></app>禪，功德巍巍，而今安在？有生必有滅，合
 <lb n="0046a03" ed="Y"/>會終當離，世間之實相如是，吾人其奈彼何？</p></cb:div>
 <lb n="0046a04" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　世間之解脫</cb:mulu><head>第三節　世間之解脫</head>
-<lb n="0046a05" ed="Y"/><p style="text-indent:2em">有情為世間之本，染著於樂生而不知樂生之即苦。身心和合必變異，「生、
+<lb n="0046a05" ed="Y"/><p xml:id="pY33p0046a0501" style="text-indent:2em">有情為世間之本，染著於樂生而不知樂生之即苦。身心和合必變異，「生、
 <lb n="0046a06" ed="Y"/>老、病、死苦」也。有欲則有諍，有欲則有厭，自他共處必凌奪，「愛別、怨會
 <lb n="0046a07" ed="Y"/>苦」也。器界共感不以一人為轉移，共用不為一人所攝取，「求不得苦」也。苦
 <lb n="0046a08" ed="Y"/>雖無量，五蘊和合而苦生，故曰<quote>「略攝為一，五蘊熾盛苦」</quote>也。有在即苦在，有
@@ -204,7 +224,7 @@
 <lb n="0047a01" ed="Y"/>於仙國，永生於天堂。見愛別、怨會之為苦，乃欲隱身山林以傲世，離塵世而神
 <lb n="0047a02" ed="Y"/>我獨存。見求不得之為苦，乃欲蒙神之恩寵，以供獻市富貴，變化自在，聲色自
 <lb n="0047a03" ed="Y"/>娛，淨妙莊嚴。見五蘊生之為苦者，乃欲自殺以畢命。前三者見於常，求有之相
-<lb n="0047a04" ed="Y"/>續，生之不已，樂之無涯，本有情樂生之世間心行以求出世，如「<note n="0047a0401" resp="CBETA" type="add" subtype="規範字詞">煮【CB】，煑【印順】</note><app n="0047a0401"><lem wit="【CB】" resp="CBETA">煮</lem><rdg wit="【印順】">煑</rdg></app>沙成飯」。
+<lb n="0047a04" ed="Y"/>續，生之不已，樂之無涯，本有情樂生之世間心行以求出世，如「<note n="0047a0401" resp="CBETA" type="add" subtype="規範字詞">煮【CB】，煑【印順】</note><app n="0047a0401"><lem resp="CBETA" wit="【CB】">煮</lem><rdg wit="【印順】">煑</rdg></app>沙成飯」。
 <lb n="0047a05" ed="Y"/>此而可以超脫世苦，孰不能畢苦哉！後一墮於斷，不知有有相續，生生不已，病
 <lb n="0047a06" ed="Y"/>在有情之染愛。我法愛之不盡，乃欲一死以為快，「老牛敗車」之類也。此而可
 <lb n="0047a07" ed="Y"/>以畢苦，則凡死者莫不解脫，何至生生不已之狂流，奔放無極而至於今日！然則
@@ -236,7 +256,7 @@
 <lb n="0049a05" ed="Y"/>、我所故，<quote>「無餘斷，吐，盡，離欲，滅，息，沒。餘苦更不相續，不出，不生
 <lb n="0049a06" ed="Y"/>。寂靜，勝妙。捨一切有餘，一切愛盡，無欲，滅，盡，涅槃」</quote>，涅槃寂靜義也
 <lb n="0049a07" ed="Y"/>。涅槃者，寂滅義。樂生之愛盡，死苦之有滅，前蘊滅而後蘊不生。若厲風濟而
-<lb n="0049a08" ed="Y"/>眾竅虛，眩翳除而空華失，了無<note n="0049a0801" resp="CBETA" type="add" subtype="規範字詞">蹤【CB】，踪【印順】</note><app n="0049a0801"><lem wit="【CB】" resp="CBETA">蹤</lem><rdg wit="【印順】">踪</rdg></app>跡，不復可以心行、言語得之。有情之所以能
+<lb n="0049a08" ed="Y"/>眾竅虛，眩翳除而空華失，了無<note n="0049a0801" resp="CBETA" type="add" subtype="規範字詞">蹤【CB】，踪【印順】</note><app n="0049a0801"><lem resp="CBETA" wit="【CB】">蹤</lem><rdg wit="【印順】">踪</rdg></app>跡，不復可以心行、言語得之。有情之所以能
 <lb n="0049a09" ed="Y"/>涅槃解脫者，以一切法性自寂滅耳。法性空，似生而實不生，<quote>「不生不滅，法如
 <lb n="0049a10" ed="Y"/>涅槃」</quote>，此以空義成立之。空行生者，生必滅盡，<quote>「以生滅故，寂滅為樂」</quote>，此
 <lb n="0049a11" ed="Y"/>以無常義成立之。不以無我智達我法空，離三有愛，雖空行生滅本來寂，而幻幻
@@ -248,7 +268,7 @@
 <lb n="0050a03" ed="Y"/>生、滅，非苦、樂、斷、常，以此皆世間有情事也。或者，見其為澹泊空寂而妙
 <lb n="0050a04" ed="Y"/>存之，則曰真常，妙樂。言之非不成理，聞者非不愛樂，而不知由於有之永在，
 <lb n="0050a05" ed="Y"/>生之不已，樂之無涯，乃世間有情心行之想像成之。</p>
-<lb n="0050a06" ed="Y"/><p style="text-indent:2em">即空行聚而見三法印，知厭，離欲，得解脫，古仙人之道也。惟此一道得清
+<lb n="0050a06" ed="Y"/><p xml:id="pY33p0050a0601" style="text-indent:2em">即空行聚而見三法印，知厭，離欲，得解脫，古仙人之道也。惟此一道得清
 <lb n="0050a07" ed="Y"/>淨，無二亦無三。此所以<quote>「空為無二寂靜之門」</quote>；<quote>「離三解脫門無道無果」</quote>；<quote>「
 <lb n="0050a08" ed="Y"/>若諸法不空者，不動不出」</quote>。於性空緣起見三法印，曰「正見」，正見即般若之
 <lb n="0050a09" ed="Y"/>異名。見正者一切正，攝導諸行入一切智海。諸有欲破魔軍，離愛網，越生死河
@@ -264,7 +284,7 @@
 <lb n="0051a05" ed="Y"/>聞，手足所擬，莫非敵也。語默於此，動靜於此，在厭苦、離欲、得解脫，「正
 <lb n="0051a06" ed="Y"/>念」也。破魔軍，登涅槃城，王師所過，匕鬯不驚，「正定」也。慧因定發，定
 <lb n="0051a07" ed="Y"/>得慧融，寂然深入無生忍，脫然無繫，涅槃名為大定窟也。</p>
-<lb n="0051a08" ed="Y"/><p style="text-indent:2em">於空行聚正見三法印，導八正道行入涅槃，解脫之道，唯此一門。然有情之
+<lb n="0051a08" ed="Y"/><p xml:id="pY33p0051a0801" style="text-indent:2em">於空行聚正見三法印，導八正道行入涅槃，解脫之道，唯此一門。然有情之
 <lb n="0051a09" ed="Y"/>根性非一，有厭心切，急求出離者，聲聞也。有徹見緣起，悲心深入骨髓，一切
 <lb n="0051a10" ed="Y"/>有情無始來相為親友，盲無慧目，沈溺苦海與我同，我何忍獨出於生死！於是充
 <lb n="0051a11" ed="Y"/>悲憫之心，行悲濟之事，不疾斷煩惱以求證，但知行其所應行，初不以自證之勝
@@ -272,8 +292,8 @@
 <lb n="0051a13" ed="Y"/>利世，菩薩也。三鳥出籠，三獸渡河，三乘共轍，智慧功德相距不可以道理計，
 <pb n="0052a" ed="Y" xml:id="Y33.0031.0052a"/>
 <lb n="0052a01" ed="Y"/>而其同入無餘涅槃為究竟，則不復有勝劣之差。釋尊之本教，雖窮深極廣，而亦
-<lb n="0052a02" ed="Y"/>簡易可知，因為<note n="0052a0201" resp="CBETA" type="add" subtype="規範字詞">鉤【CB】，鈎【印順】</note><app n="0052a0201"><lem wit="【CB】" resp="CBETA">鉤</lem><rdg wit="【印順】">鈎</rdg></app>玄、探本，述其法門之體系如此。</p>
-<lb n="0052a03" ed="Y"/><p cb:type="pre">　　　　　　　┌─┐　　
+<lb n="0052a02" ed="Y"/>簡易可知，因為<note n="0052a0201" resp="CBETA" type="add" subtype="規範字詞">鉤【CB】，鈎【印順】</note><app n="0052a0201"><lem resp="CBETA" wit="【CB】">鉤</lem><rdg wit="【印順】">鈎</rdg></app>玄、探本，述其法門之體系如此。</p>
+<lb n="0052a03" ed="Y"/><p cb:type="pre" xml:id="pY33p0052a0301">　　　　　　　┌─┐　　
 <lb n="0052a04" ed="Y"/>　　　　　　　│戒│　　
 <lb n="0052a05" ed="Y"/>　　　┌───┘　└─┐　　　　┌諸行無常┐
 <lb n="0052a06" ed="Y"/>　　　│解脫道以慧為本├─（意）┤諸法無我├達諸行空……………………………正見

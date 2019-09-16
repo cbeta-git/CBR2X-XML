@@ -12,69 +12,89 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版四刷<date>Date: 2011/10</date>新式標點版</edition>
+			<edition>新版四刷<date>Date: 2011/10</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 24, No. 24</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">24</idno>.<idno type="no">24</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法是救世之光</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">四、南無當來下生彌勒佛</cb:mulu>
-<milestone unit="juan" n="5"/>
+<milestone n="5" unit="juan"/>
 <pb n="0037a" ed="Y" xml:id="Y24.0024.0037a"/>
 <lb n="0037a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">五、皆大歡喜</cb:mulu><head>皆大歡喜<note n="0037001" resp="DILA" type="add">民國四八年講。</note></head>
 <lb n="0037a02" ed="Y"/><byline rend="bold">——在馬尼拉大乘信願寺講——</byline>
-<lb n="0037a03" ed="Y"/><p style="text-indent:2em">各位善友！依我們中國的農曆來說，今天這個星期講演會，還是今年的第一
+<lb n="0037a03" ed="Y"/><p xml:id="pY24p0037a0301" style="text-indent:2em">各位善友！依我們中國的農曆來說，今天這個星期講演會，還是今年的第一
 <lb n="0037a04" ed="Y"/>次，在新年第一次來向諸位善友講演，首先也得循俗例向諸位說一聲：<quote>「恭喜」</quote>
 <lb n="0037a05" ed="Y"/>！</p>
-<lb n="0037a06" ed="Y"/><p style="text-indent:2em">在我們佛教裡，每逢正月初一，總是稱念<quote>「南無當來下生彌勒尊佛」</quote>。從佛
+<lb n="0037a06" ed="Y"/><p xml:id="pY24p0037a0601" style="text-indent:2em">在我們佛教裡，每逢正月初一，總是稱念<quote>「南無當來下生彌勒尊佛」</quote>。從佛
 <lb n="0037a07" ed="Y"/>法方面說，新年開始，慶祝彌勒菩薩，也充滿了「恭喜」的意味。在馬尼拉的寺
 <lb n="0037a08" ed="Y"/>廟裡，可以見到彌勒菩薩的聖像。本來在中國的大叢林裡，當我們一進山門，迎
 <lb n="0037a09" ed="Y"/>面就見到有一位大肚皮的菩薩，敞著胸懷，坐在那兒向著大家笑，笑得是那麼慈
 <lb n="0037a10" ed="Y"/>祥，自在！所以每個人走進山門，首先就生起了歡喜心。今天我就以彌勒菩薩的
 <lb n="0037a11" ed="Y"/>「皆大歡喜」作為講題。</p>
 <pb n="0038a" ed="Y" xml:id="Y24.0024.0038a"/>
-<lb n="0038a01" ed="Y"/><p style="text-indent:2em">所謂「皆大歡喜」，就是人人見了皆生歡喜心，其中也就含有「恭喜」之意
+<lb n="0038a01" ed="Y"/><p xml:id="pY24p0038a0101" style="text-indent:2em">所謂「皆大歡喜」，就是人人見了皆生歡喜心，其中也就含有「恭喜」之意
 <lb n="0038a02" ed="Y"/>。當我們一進山門，彌勒菩薩含笑相迎，似乎在祝福大家：<quote>「皆大歡喜」</quote>！這中
-<lb n="0038a03" ed="Y"/>間含了一種很重要的意義，就是<note n="0038a0301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0038a0301"><lem wit="【CB】" resp="CBETA">啟</lem><rdg wit="【印順】">啓</rdg></app>示大家，要修學「隨喜法門」。</p>
-<lb n="0038a04" ed="Y"/><p style="text-indent:2em">世間上的人，人人皆想歡喜，個個總想快樂，這本來是人之常情。不過這中
+<lb n="0038a03" ed="Y"/>間含了一種很重要的意義，就是<note n="0038a0301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0038a0301"><lem resp="CBETA" wit="【CB】">啟</lem><rdg wit="【印順】">啓</rdg></app>示大家，要修學「隨喜法門」。</p>
+<lb n="0038a04" ed="Y"/><p xml:id="pY24p0038a0401" style="text-indent:2em">世間上的人，人人皆想歡喜，個個總想快樂，這本來是人之常情。不過這中
 <lb n="0038a05" ed="Y"/>間有種毛病，就是「不耐他榮」。總是希望自己歡喜，一看到他人在歡喜，自己
 <lb n="0038a06" ed="Y"/>反而難過起來。譬如看到別人有錢，而自己沒有錢，別人的生意做得好，而自己
 <lb n="0038a07" ed="Y"/>經營不佳；或在學校裡讀書，看到別人考到第一……這種種客觀的歡喜因素，反
 <lb n="0038a08" ed="Y"/>而造成自己的不愉快。因為自己不歡喜，又惹得別人不高興。結果，自己也苦，
 <lb n="0038a09" ed="Y"/>別人也苦，這又何苦呢！</p>
-<lb n="0038a10" ed="Y"/><p style="text-indent:2em">這種不歡喜的主因，是由於一種煩惱——嫉妒心在作祟。每個人大都是為自
+<lb n="0038a10" ed="Y"/><p xml:id="pY24p0038a1001" style="text-indent:2em">這種不歡喜的主因，是由於一種煩惱——嫉妒心在作祟。每個人大都是為自
 <lb n="0038a11" ed="Y"/>己的利益打算，看到別人比我好，自己總不免有些放不下。不過中國人通常還有
 <lb n="0038a12" ed="Y"/>一種好習慣，就是一到過年，大家總能暫時放下自私自利的心理，即使平常有些
 <lb n="0038a13" ed="Y"/>難過的人，新年見了面，彼此皆互相恭喜發財，祝福健康！假使能夠把這種美德
@@ -85,19 +105,19 @@
 <lb n="0039a04" ed="Y"/>別人便罷，要恭喜人，就得生起一種真正的觀念來：必須從內心恭喜別人身體健
 <lb n="0039a05" ed="Y"/>康，生意興隆，家庭和睦，學業進步！能真誠地徹底做到為別人歡喜，也就做到
 <lb n="0039a06" ed="Y"/>了佛法上的隨喜法門，這種功德比什麼都大！</p>
-<lb n="0039a07" ed="Y"/><p style="text-indent:2em">現在再來談談彌勒菩薩所倡導的皆大歡喜的法門。關於彌勒菩薩的聖德，一
+<lb n="0039a07" ed="Y"/><p xml:id="pY24p0039a0701" style="text-indent:2em">現在再來談談彌勒菩薩所倡導的皆大歡喜的法門。關於彌勒菩薩的聖德，一
 <lb n="0039a08" ed="Y"/>般修學佛法的人，總會了解的。怕也還有人不大知道，現在簡單的來說一下。我
 <lb n="0039a09" ed="Y"/>們這個娑婆世界的教主是釋迦牟尼佛，彌勒菩薩是佛的一位大弟子，當初世尊曾
 <lb n="0039a10" ed="Y"/>為他授記，將來可以作佛，號彌勒佛。當彌勒菩薩成佛時的一切殊勝境界，當然
 <lb n="0039a11" ed="Y"/>是最美滿而理想的。</p>
-<lb n="0039a12" ed="Y"/><p style="text-indent:2em">在未講到彌勒菩薩成佛的勝境之前，先從他示現人間的一副慈祥的姿態說起
+<lb n="0039a12" ed="Y"/><p xml:id="pY24p0039a1201" style="text-indent:2em">在未講到彌勒菩薩成佛的勝境之前，先從他示現人間的一副慈祥的姿態說起
 <lb n="0039a13" ed="Y"/>：彌勒菩薩的樣子，是胖胖的，肚皮大大的，這種圓滿的福相，正顯示了很富有
 <pb n="0040a" ed="Y" xml:id="Y24.0024.0040a"/>
 <lb n="0040a01" ed="Y"/>的樣子。有錢的人，大都長得肥肥的，俗語說：<quote>「十個胖子九個富」</quote>。但也有些
 <lb n="0040a02" ed="Y"/>有錢的人，不一定胖，這也許他的心思太多，心境狹隘吧！所以除了物質豐富以
 <lb n="0040a03" ed="Y"/>外，精神也要力求開闊，心量寬大，含容一切，才能達到「心寬體胖」的地步。
 <lb n="0040a04" ed="Y"/>這是彌勒菩薩所表現給我們學習的一種榜樣。</p>
-<lb n="0040a05" ed="Y"/><p style="text-indent:2em">還有，彌勒菩薩終日對人總是笑咪咪的，這表示他是真心的歡喜。世間上有
+<lb n="0040a05" ed="Y"/><p xml:id="pY24p0040a0501" style="text-indent:2em">還有，彌勒菩薩終日對人總是笑咪咪的，這表示他是真心的歡喜。世間上有
 <lb n="0040a06" ed="Y"/>各色各樣的笑，但一般人的笑，只是因自己一時的歡喜，而從內心發出得意的笑
 <lb n="0040a07" ed="Y"/>，很少純為別人歡喜而笑的。故笑起來總沒有彌勒菩薩那樣笑得天真自然。彌勒
 <lb n="0040a08" ed="Y"/>菩薩覺得一切人都與他有緣，他的悲心止不住他的笑容。他運用了佛法四攝中的
@@ -109,14 +129,14 @@
 <pb n="0041a" ed="Y" xml:id="Y24.0024.0041a"/>
 <lb n="0041a01" ed="Y"/>。所以我們應該時時學彌勒菩薩和藹的風度，對一切人相處總笑咪咪的，自己也
 <lb n="0041a02" ed="Y"/>歡喜，別人也歡喜，在歡喜豁達的心境中，可以很容易的解決一切問題。</p>
-<lb n="0041a03" ed="Y"/><p style="text-indent:2em">在佛教裡，彌勒菩薩坐鎮在山門口，就是暗示著修學佛法，首先要培養歡喜
+<lb n="0041a03" ed="Y"/><p xml:id="pY24p0041a0301" style="text-indent:2em">在佛教裡，彌勒菩薩坐鎮在山門口，就是暗示著修學佛法，首先要培養歡喜
 <lb n="0041a04" ed="Y"/>心，開拓心境，包含一切。希望我們從彌勒法門中，討個入處，在現生即獲得利
 <lb n="0041a05" ed="Y"/>益。</p>
-<lb n="0041a06" ed="Y"/><p style="text-indent:2em">彌勒菩薩現在尚位居補處，將來龍華三會成正覺時，得到究竟的歡喜，那是
+<lb n="0041a06" ed="Y"/><p xml:id="pY24p0041a0601" style="text-indent:2em">彌勒菩薩現在尚位居補處，將來龍華三會成正覺時，得到究竟的歡喜，那是
 <lb n="0041a07" ed="Y"/>不用說的了。眾生生逢佛世，大家也有無限的歡喜。因為彌勒菩薩來成佛時，有
 <lb n="0041a08" ed="Y"/>兩件事值得我們歡喜的：第一是世界和平，第二是佛法興隆。因此，佛與眾生，
 <lb n="0041a09" ed="Y"/>皆大歡喜！</p>
-<lb n="0041a10" ed="Y"/><p style="text-indent:2em">我們目前這個混亂的世界，到處充滿了火藥氣味，終年在顛沛流離中討生活
+<lb n="0041a10" ed="Y"/><p xml:id="pY24p0041a1001" style="text-indent:2em">我們目前這個混亂的世界，到處充滿了火藥氣味，終年在顛沛流離中討生活
 <lb n="0041a11" ed="Y"/>，精神是夠痛苦的。雖然也有人倡導世界和平，口號喊得震天價響，但那還是一
 <lb n="0041a12" ed="Y"/>種理想的境界，與事實相差太遠。然而，彌勒菩薩一降臨人間，那時的確是世界
 <lb n="0041a13" ed="Y"/>和平的。仁王出世，國土清淨，政治廉明，沒有戰爭，訴訟，也沒有貪污舞弊，
@@ -125,7 +145,7 @@
 <lb n="0042a02" ed="Y"/>在這樣理想的環境中，人與人之間已沒有傾軋和衝突，個個總和樂相處，大家皆
 <lb n="0042a03" ed="Y"/>信仰佛教，皈依三寶，奉行五戒、十善等種種善行。能有緣生到那個時候，是真
 <lb n="0042a04" ed="Y"/>正值得歡喜的！</p>
-<lb n="0042a05" ed="Y"/><p style="text-indent:2em">我們現在大家所感到歡喜的，其實只是一種小歡喜。一般人以為生意做得順
+<lb n="0042a05" ed="Y"/><p xml:id="pY24p0042a0501" style="text-indent:2em">我們現在大家所感到歡喜的，其實只是一種小歡喜。一般人以為生意做得順
 <lb n="0042a06" ed="Y"/>利，有了大洋房，有了新汽車，身體又健康，於是就心滿意足了。其實這些都是
 <lb n="0042a07" ed="Y"/>靠不住的！例如說：你的家道是十足富有吧，而社會上的貪污、敲詐、盜賊等種
 <lb n="0042a08" ed="Y"/>種罪行，不一而足，你的財產時時被壞人覬覦，隨時有侵損的可能。再說到你的
@@ -140,13 +160,13 @@
 <lb n="0043a03" ed="Y"/>產得來容易，一向養尊處優慣了，視金錢如糞土，也就促成他造罪。這樣不到一
 <lb n="0043a04" ed="Y"/>兩代，有些富豪自然也就慢慢趨向沒落了。故最要緊的，還是要修學佛法，提高
 <lb n="0043a05" ed="Y"/>道德觀念，才能保持財富。彌勒菩薩的作略，才是真正的富足呢！</p>
-<lb n="0043a06" ed="Y"/><p style="text-indent:2em">彌勒佛出世，在龍華三會，說法度生，佛法非常興隆，每個人至少也得皈依
+<lb n="0043a06" ed="Y"/><p xml:id="pY24p0043a0601" style="text-indent:2em">彌勒佛出世，在龍華三會，說法度生，佛法非常興隆，每個人至少也得皈依
 <lb n="0043a07" ed="Y"/>三寶，受持五戒。因為大家奉行佛法，有了錢，也就獲得適當的處理，除了各人
 <lb n="0043a08" ed="Y"/>必須的生活費用外，多餘的皆供養三寶，或救濟別人，做公共福利事業。在這樣
 <lb n="0043a09" ed="Y"/>優越的佛化勝境中，自然善行日漸增長，大家奉公守法。所以彌勒菩薩的時代，
 <lb n="0043a10" ed="Y"/>個個都是上進的，每個人只有一天天地更加好起來。能夠生到彌勒的化土中，是
 <lb n="0043a11" ed="Y"/>何等的幸福！</p>
-<lb n="0043a12" ed="Y"/><p style="text-indent:2em">方才所說的彌勒菩薩時代的富有狀況，還只一種淺近的講法。再進一步說，
+<lb n="0043a12" ed="Y"/><p xml:id="pY24p0043a1201" style="text-indent:2em">方才所說的彌勒菩薩時代的富有狀況，還只一種淺近的講法。再進一步說，
 <lb n="0043a13" ed="Y"/>生到那個時代的人，大家皆發菩提心，修菩薩道，將來還可以了生脫死，同證佛
 <pb n="0044a" ed="Y" xml:id="Y24.0024.0044a"/>
 <lb n="0044a01" ed="Y"/>果呢！所以生到那個時代，做個人也比現在好多了，沒有罪惡，只有幸福！看看
@@ -155,7 +175,7 @@
 <lb n="0044a04" ed="Y"/>還沒有降生人間，那裡會有誕期呢？這實是對他的一種「預祝」，祈禱他早日降
 <lb n="0044a05" ed="Y"/>臨。因為他來了，會給我們帶來興隆的佛法與和平的世界，並賦予每個人一顆歡
 <lb n="0044a06" ed="Y"/>喜的心！</p>
-<lb n="0044a07" ed="Y"/><p style="text-indent:2em">今天是新年第一次講演會，我拈出「皆大歡喜」四字，對諸位解釋佛法中的
+<lb n="0044a07" ed="Y"/><p xml:id="pY24p0044a0701" style="text-indent:2em">今天是新年第一次講演會，我拈出「皆大歡喜」四字，對諸位解釋佛法中的
 <lb n="0044a08" ed="Y"/>「恭喜」之意。希望諸位發大願，常常稱念彌勒菩薩的聖號；並發隨喜心，成就
 <lb n="0044a09" ed="Y"/>一切。祝福大家同赴龍華三會，恭喜諸位早成佛道！（自立記）</p></cb:div>
 </body></text></TEI>

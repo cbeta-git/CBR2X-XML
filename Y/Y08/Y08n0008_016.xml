@@ -12,50 +12,70 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/07</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/07</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>20卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 8, No. 8</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">8</idno>.<idno type="no">8</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法概論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第十五章　佛法的信徒</cb:mulu><cb:mulu level="2" type="其他">第二節　佛徒的不同類型</cb:mulu><cb:mulu level="3" type="其他">菩薩</cb:mulu>
-<milestone unit="juan" n="16"/><pb n="0203a" ed="Y" xml:id="Y08.0008.0203a.old" type="old"/>
+<milestone n="16" unit="juan"/><pb n="0203a" ed="Y" xml:id="Y08.0008.0203a.old" type="old"/>
 <pb n="0203a" ed="Y" xml:id="Y08.0008.0203a"/>
 <lb n="0203a01" ed="Y"/><lb n="0203a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">第十六章　在家眾的德行</cb:mulu><head>第十六章　在家眾的德行</head>
 <lb n="0203a02" ed="Y"/><lb n="0203a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　一般的世間行</cb:mulu><head>第一節　一般的世間行</head>
-<lb n="0203a03" ed="Y"/><lb n="0203a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">人天行</cb:mulu><head>人天行</head><lb n="0203a04" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">出世的德行，是一般德行的勝進，是以一般人的德行為基礎而更進
+<lb n="0203a03" ed="Y"/><lb n="0203a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">人天行</cb:mulu><head>人天行</head><lb n="0203a04" ed="Y" type="old"/><p xml:id="pY08p0203a0307" style="text-indent:2em" cb:place="inline">出世的德行，是一般德行的勝進，是以一般人的德行為基礎而更進
 <lb n="0203a04" ed="Y"/><lb n="0203a05" ed="Y" type="old"/>一步的。佛法為了普及大眾、漸向解脫，所以有依人生正行而向解脫的人天行。
 <lb n="0203a05" ed="Y"/><lb n="0203a06" ed="Y" type="old"/>佛弟子未能解脫以前，常流轉於人間、天上；而佛法以外的常人，如有合理的德
 <lb n="0203a06" ed="Y"/>行<lb n="0203a07" ed="Y" type="old"/>，也能生於人、天，所以佛法的世間正行，是大體同於世間德行的。釋尊為新
@@ -70,7 +90,7 @@
 <lb n="0204a04" ed="Y"/>不如人<lb n="0204a04" ed="Y" type="old"/>間；但隨俗方便，也說生天的修行。印度宗教的人天法，充滿了宗教的迷
 <lb n="0204a05" ed="Y"/>信生活<lb n="0204a05" ed="Y" type="old"/>——祭祀、祈禱、咒術等；而佛說的人天法，即純為自他和樂的德行——
 <lb n="0204a06" ed="Y"/>施與戒<lb n="0204a06" ed="Y" type="old"/>，及淨化自心的禪定，主要為慈悲喜捨的四無量心。</p>
-<lb n="0204a07" ed="Y"/><lb n="0204a07" ed="Y" type="old"/><p style="text-indent:2em">布施不如持戒，持戒不如慈悲等定，這是佛為須達多長者所說的<bibl>（《<title level="m">增一阿
+<lb n="0204a07" ed="Y"/><lb n="0204a07" ed="Y" type="old"/><p xml:id="pY08p0204a0701" style="text-indent:2em">布施不如持戒，持戒不如慈悲等定，這是佛為須達多長者所說的<bibl>（《<title level="m">增一阿
 <lb n="0204a08" ed="Y"/>含經</title>．<lb n="0204a08" ed="Y" type="old"/><title level="a">等趣四諦品</title>》）</bibl>。布施是實際利他的善行，但一般常含有不純正的動機。
 <lb n="0204a09" ed="Y"/>如<cit><quote source="T25n1509_p0140c29" type="嚴謹引文">「有<lb n="0204a09" ed="Y" type="old"/>為求財故施，或愧人故施，或為嫌責故施，或畏懼故施，或欲求他意故施
 <lb n="0204a10" ed="Y"/>，或畏<lb n="0204a10" ed="Y" type="old"/>死故施，或誑人令喜故施，或自以富貴故應施，或諍勝故施，或妬瞋故施
@@ -84,15 +104,15 @@
 <lb n="0205a04" ed="Y"/>所以釋尊常說：布施<lb n="0205a04" ed="Y" type="old"/>、持戒，能生人、天；要生色界天以上，非修離欲的禪定不
 <lb n="0205a05" ed="Y"/>可。不過，禪定是傾向<lb n="0205a05" ed="Y" type="old"/>於獨善的、偏重於內心的，如修慈悲、欣厭等禪定而取著
 <lb n="0205a06" ed="Y"/>，即會生於天國。從正<lb n="0205a06" ed="Y" type="old"/>覺的佛法說，還不如持戒而生於人間的穩當。</p></cb:div>
-<lb n="0205a07" ed="Y"/><lb n="0205a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">正常的經濟生活</cb:mulu><head>正常的經濟生活</head><lb n="0205a08" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">在家眾，首先應顧慮到經濟生活的正常，因為有關於自己
+<lb n="0205a07" ed="Y"/><lb n="0205a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">正常的經濟生活</cb:mulu><head>正常的經濟生活</head><lb n="0205a08" ed="Y" type="old"/><p xml:id="pY08p0205a0715" style="text-indent:2em" cb:place="inline">在家眾，首先應顧慮到經濟生活的正常，因為有關於自己
 <lb n="0205a08" ed="Y"/><lb n="0205a09" ed="Y" type="old"/>、家庭的和樂，更有關於社會。釋尊曾為少年鬱闍迦說：<cit><quote source="T02n0099_p0023a26-27" type="嚴謹引文">「有四法，俗人在家得
-<lb n="0205a09" ed="Y"/><lb n="0205a10" ed="Y" type="old"/>現法安現法樂。」</quote><bibl>（<title level="m">《雜阿含經》</title><biblScope type="卷" n="4">卷四</biblScope>．<ref target="#no:99.91" type="taisho">九一經</ref>）</bibl><note n="0205001" resp="周怡曄" type="add">《雜阿含經》卷4(CBETA, T02, no. 99, p. 23, a26-27)</note></cit>一、方便具足：是<quote source="T02n0099_p0023a29" type="嚴謹引文">「種種工巧
+<lb n="0205a09" ed="Y"/><lb n="0205a10" ed="Y" type="old"/>現法安現法樂。」</quote><bibl>（<title level="m">《雜阿含經》</title><biblScope n="4" type="卷">卷四</biblScope>．<ref target="#no:99.91" type="taisho">九一經</ref>）</bibl><note n="0205001" resp="周怡曄" type="add">《雜阿含經》卷4(CBETA, T02, no. 99, p. 23, a26-27)</note></cit>一、方便具足：是<quote source="T02n0099_p0023a29" type="嚴謹引文">「種種工巧
 <lb n="0205a10" ed="Y"/>業處以自<lb n="0205a11" ed="Y" type="old"/>營生」<note n="0205002" resp="周怡曄" type="add">《雜阿含經》卷4(CBETA, T02, no. 99, p. 23, a29)</note></quote>。如沒有知識、技能從事正當的職業，寄生生活是會遭受悲慘結
 <lb n="0205a11" ed="Y"/>局的。<lb n="0205a12" ed="Y" type="old"/><cit><bibl><title level="m">《善生經》</title>也說：</bibl><quote source="T01n0001_p0072b14" type="嚴謹引文">「先當習技藝，然後獲財業。」</quote><note n="0205003" resp="周怡曄" type="add">《長阿含經》卷11(CBETA, T01, no. 1, p. 72, b14)</note></cit>正當的職業，如<cit><quote source="T02n0099_p0353b03-05" type="嚴謹引文">「田種
 <lb n="0205a12" ed="Y"/>行商賈<lb n="0205a13" ed="Y" type="old"/>，牧牛羊興息，邸舍以求利，造屋舍床臥，六種資生具」</quote><bibl>（<title level="m">《雜阿含經》</title>
-<lb n="0205a13" ed="Y"/><biblScope type="卷" n="48">卷四八</biblScope>．<ref target="#no:99.1283" type="taisho">一二八<lb n="0205a14" ed="Y" type="old"/>三經</ref>）</bibl><note n="0205004" resp="周怡曄" type="add">《雜阿含經》卷48(CBETA, T02, no. 99, p. 353, b3-5)</note></cit>；<cit><quote source="T02n0099_p0023a29-b01" type="嚴謹引文">「種田、商賈，或以王事，或以書疏算畫」</quote><bibl>（<title level="m">《雜阿含
+<lb n="0205a13" ed="Y"/><biblScope n="48" type="卷">卷四八</biblScope>．<ref target="#no:99.1283" type="taisho">一二八<lb n="0205a14" ed="Y" type="old"/>三經</ref>）</bibl><note n="0205004" resp="周怡曄" type="add">《雜阿含經》卷48(CBETA, T02, no. 99, p. 353, b3-5)</note></cit>；<cit><quote source="T02n0099_p0023a29-b01" type="嚴謹引文">「種田、商賈，或以王事，或以書疏算畫」</quote><bibl>（<title level="m">《雜阿含
 <pb n="0206a" ed="Y" xml:id="Y08.0008.0206a"/>
-<lb n="0206a01" ed="Y"/>經》</title><biblScope type="卷" n="4">卷四</biblScope>．<ref target="#no:99.91" type="taisho">九一經</ref>）</bibl><note n="0206001" resp="周怡曄" type="add">《雜阿含經》卷4(CBETA, T02, no. 99, p. 23, a29-b1)</note></cit>。一<pb n="0206a" ed="Y" xml:id="Y08.0008.0206a.old" type="old"/><lb n="0206a01" ed="Y" type="old"/>切正當的職業，都可以取得生活。如有關淫、殺、酒，
+<lb n="0206a01" ed="Y"/>經》</title><biblScope n="4" type="卷">卷四</biblScope>．<ref target="#no:99.91" type="taisho">九一經</ref>）</bibl><note n="0206001" resp="周怡曄" type="add">《雜阿含經》卷4(CBETA, T02, no. 99, p. 23, a29-b1)</note></cit>。一<pb n="0206a" ed="Y" xml:id="Y08.0008.0206a.old" type="old"/><lb n="0206a01" ed="Y" type="old"/>切正當的職業，都可以取得生活。如有關淫、殺、酒，
 <lb n="0206a02" ed="Y"/>以及占卜、厭禁、大稱小<lb n="0206a02" ed="Y" type="old"/>斗等，都是不正當的。特別是像陀然梵志那樣的<cit><quote source="T01n0026_p0456c03-04" type="嚴謹引文">「依傍
 <lb n="0206a03" ed="Y"/>於王，欺誑梵志、居士<lb n="0206a03" ed="Y" type="old"/>；依傍梵志、居士，欺誑於王」</quote><bibl>（《<title level="m">中阿含經</title>．<title level="m">梵志陀然
 <lb n="0206a04" ed="Y"/>經</title>》）</bibl><note n="0206002" resp="周怡曄" type="add">《中阿含經》卷6〈3 舍梨子相應品〉(CBETA, T01, no. 26, p. 456, c3-4)</note></cit>。他為了女人而假借政<lb n="0206a04" ed="Y" type="old"/>府的力量來欺壓民眾，利用民眾的力量來欺壓政府
@@ -106,7 +126,7 @@
 <lb n="0206a12" ed="Y"/>世，現生家庭與社會中也不會<lb n="0206a12" ed="Y" type="old"/>安樂。釋尊提示的正常經濟生活，在當時的社會環
 <lb n="0206a13" ed="Y"/>境中，可說是非常適當的辦法<lb n="0206a13" ed="Y" type="old"/>。</p></cb:div><pb n="0207a" ed="Y" xml:id="Y08.0008.0207a.old" type="old"/>
 <pb n="0207a" ed="Y" xml:id="Y08.0008.0207a"/>
-<lb n="0207a01" ed="Y"/><lb n="0207a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">合理的社會生活</cb:mulu><head>合理的社會生活</head><lb n="0207a02" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">人在社會中，與人有相互的關係。要和樂生存於社會，社
+<lb n="0207a01" ed="Y"/><lb n="0207a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">合理的社會生活</cb:mulu><head>合理的社會生活</head><lb n="0207a02" ed="Y" type="old"/><p xml:id="pY08p0207a0115" style="text-indent:2em" cb:place="inline">人在社會中，與人有相互的關係。要和樂生存於社會，社
 <lb n="0207a02" ed="Y"/><lb n="0207a03" ed="Y" type="old"/>會能合理的維持秩序，應照著彼此的關係各盡應盡的義務。佛曾為善生長者子<lb n="0207a04" ed="Y" type="old"/>說
 <lb n="0207a03" ed="Y"/>六方禮，略近儒家的五倫說。善生長者子遵循遺傳的宗教，禮拜天地四方，佛<lb n="0207a05" ed="Y" type="old"/>因
 <lb n="0207a04" ed="Y"/>教他倫理的六方禮。六方禮，即以自己為中心，東方為父母，南方為師長，西<lb n="0207a06" ed="Y" type="old"/>方
@@ -120,12 +140,12 @@
 <lb n="0207a12" ed="Y"/><lb n="0207a13" ed="Y" type="old"/>甘苦。這四攝是社團，尤其是領導者必備的條件，所以說：<cit><quote source="T02n0099_p0185a23-27" type="嚴謹引文">「以此攝世間，猶車
 <lb n="0207a13" ed="Y"/><lb n="0207a14" ed="Y" type="old"/>因工（御工）運。……以有四攝事，隨順之法故，是故有大士，德被於世間。」</quote>
 <pb n="0208a" ed="Y" xml:id="Y08.0008.0208a"/>
-<lb n="0208a01" ed="Y"/><bibl>（<pb n="0208a" ed="Y" xml:id="Y08.0008.0208a.old" type="old"/><lb n="0208a01" ed="Y" type="old"/><title level="m">《雜阿含經》</title><biblScope type="卷" n="26">卷二六</biblScope>．<ref target="#no:99.669" type="taisho">六六九經</ref>）</bibl><note n="0208001" resp="周怡曄" type="add">《雜阿含經》卷26：「以此攝世間，猶車因[6]釭運。世無四攝事，母恩子養忘，亦無父等尊，謙下之奉事。以有四攝事，隨順之法故，是故有大士，德被於世間」(CBETA, T02, no. 99, p. 185, a23-27)[6]釭＝工【宋】【元】【明】【聖】</note></cit>菩薩以四攝來化導有情，負起人類導者的責
+<lb n="0208a01" ed="Y"/><bibl>（<pb n="0208a" ed="Y" xml:id="Y08.0008.0208a.old" type="old"/><lb n="0208a01" ed="Y" type="old"/><title level="m">《雜阿含經》</title><biblScope n="26" type="卷">卷二六</biblScope>．<ref target="#no:99.669" type="taisho">六六九經</ref>）</bibl><note n="0208001" resp="周怡曄" type="add">《雜阿含經》卷26：「以此攝世間，猶車因[6]釭運。世無四攝事，母恩子養忘，亦無父等尊，謙下之奉事。以有四攝事，隨順之法故，是故有大士，德被於世間」(CBETA, T02, no. 99, p. 185, a23-27)[6]釭＝工【宋】【元】【明】【聖】</note></cit>菩薩以四攝來化導有情，負起人類導者的責
 <lb n="0208a02" ed="Y"/>任，也只<lb n="0208a02" ed="Y" type="old"/>是這一德行的擴展。主人對於僕役，除了給以適宜的工作而外，應給以
 <lb n="0208a03" ed="Y"/>衣食醫藥<lb n="0208a03" ed="Y" type="old"/>，還要隨時以「盛饌」款待他，給以按時的休假。這在古代社會，是夠
 <lb n="0208a04" ed="Y"/>寬和體貼<lb n="0208a04" ed="Y" type="old"/>的了！六方中，特別揭示師弟、宗教師與信徒的關係，看出釋尊對於文
 <lb n="0208a05" ed="Y"/>化學術的<lb n="0208a05" ed="Y" type="old"/>重視。</p></cb:div>
-<lb n="0208a06" ed="Y"/><lb n="0208a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">德化的政治生活</cb:mulu><head>德化的政治生活</head><lb n="0208a07" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">釋尊捨王子的權位而出家，對當時的政治情勢、互相侵伐
+<lb n="0208a06" ed="Y"/><lb n="0208a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">德化的政治生活</cb:mulu><head>德化的政治生活</head><lb n="0208a07" ed="Y" type="old"/><p xml:id="pY08p0208a0615" style="text-indent:2em" cb:place="inline">釋尊捨王子的權位而出家，對當時的政治情勢、互相侵伐
 <lb n="0208a07" ed="Y"/><lb n="0208a08" ed="Y" type="old"/>的爭霸戰，是不滿意的。他常說<quote source="T02n0099_p0338c18-19" type="嚴謹引文">「戰勝增怨敵，敗苦臥不安，勝敗二俱捨，臥覺
 <lb n="0208a08" ed="Y"/><lb n="0208a09" ed="Y" type="old"/>寂靜樂」<note n="0208002" resp="周怡曄" type="add">《雜阿含經》卷46(CBETA, T02, no. 99, p. 338, c18-19)</note></quote>。釋尊為國際的非戰主義者，對於當時的政治，對於當時的君主，少有
 <lb n="0208a09" ed="Y"/><lb n="0208a10" ed="Y" type="old"/>論及，更不勸民眾去向國王誓忠。關於國族的興衰，佛曾為雨勢大臣說七法<bibl>（《
@@ -139,7 +159,7 @@
 <lb n="0209a03" ed="Y"/>養人，既利以<lb n="0209a03" ed="Y" type="old"/>平均，如是眾附親。」</quote><note n="0209001" resp="周怡曄" type="add">《中本起經》卷1〈4 度瓶沙王品〉(CBETA, T04, no. 196, p. 152, c23-p. 153, a1)</note></cit>這是極有價值的教說！國王臨政的要道，主
 <lb n="0209a04" ed="Y"/>要是公正，以<lb n="0209a04" ed="Y" type="old"/>身作則，為民眾的利益著想；特別是「利以平均」，使民眾經濟不
 <lb n="0209a05" ed="Y"/>致貧富懸殊，<lb n="0209a05" ed="Y" type="old"/>這自然能得民眾的擁護，達到政治的安定繁榮。</p>
-<lb n="0209a06" ed="Y"/><lb n="0209a06" ed="Y" type="old"/><p style="text-indent:2em">佛經傳說輪王的正法治世，一般解說為佛教理想的政治，其實是古代印度的
+<lb n="0209a06" ed="Y"/><lb n="0209a06" ed="Y" type="old"/><p xml:id="pY08p0209a0601" style="text-indent:2em">佛經傳說輪王的正法治世，一般解說為佛教理想的政治，其實是古代印度的
 <lb n="0209a07" ed="Y"/><lb n="0209a07" ed="Y" type="old"/>現實政治留傳於民間傳說中。傳說阿私陀仙說：釋尊如不出家，要作輪王。依<lb n="0209a08" ed="Y" type="old"/>佛
 <lb n="0209a08" ed="Y"/>經所記，從眾許平等王以來，古代有過不少的輪王。上面說過，輪王的統一四<lb n="0209a09" ed="Y" type="old"/>洲
 <lb n="0209a09" ed="Y"/>，本為印歐人擴展統治的遺痕。佛化的輪王政治，略與中國傳說的仁政、王政<lb n="0209a10" ed="Y" type="old"/>（
@@ -150,9 +170,9 @@
 <pb n="0210a" ed="Y" xml:id="Y08.0008.0210a"/>
 <lb n="0210a01" ed="Y"/>，是為了<pb n="0210a" ed="Y" xml:id="Y08.0008.0210a.old" type="old"/><lb n="0210a01" ed="Y" type="old"/>推行德化的政治，使人類甚至鳥獸等得到和樂的善生。</p></cb:div></cb:div>
 <lb n="0210a02" ed="Y"/><lb n="0210a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　特勝的信眾行</cb:mulu><head>第二節　特勝的信眾行</head>
-<lb n="0210a03" ed="Y"/><lb n="0210a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">五法具足</cb:mulu><head>五法具足</head><lb n="0210a04" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">優婆塞與優婆夷，以在家的身分來修學佛法。關於家庭、社會的
+<lb n="0210a03" ed="Y"/><lb n="0210a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">五法具足</cb:mulu><head>五法具足</head><lb n="0210a04" ed="Y" type="old"/><p xml:id="pY08p0210a0309" style="text-indent:2em" cb:place="inline">優婆塞與優婆夷，以在家的身分來修學佛法。關於家庭、社會的
 <lb n="0210a04" ed="Y"/><lb n="0210a05" ed="Y" type="old"/>生活，雖大體如上面所說，但另有獨特的行持，這才能超過一般的人間正行而向
-<lb n="0210a05" ed="Y"/><lb n="0210a06" ed="Y" type="old"/>於解脫。修行的項目，主要為五種具足<bibl>（<title level="m">《雜阿含經》</title><biblScope type="卷" n="33">卷三三</biblScope>．<ref type="taisho" target="#no:99.927">九二七</ref>經等）</bibl>。一
+<lb n="0210a05" ed="Y"/><lb n="0210a06" ed="Y" type="old"/>於解脫。修行的項目，主要為五種具足<bibl>（<title level="m">《雜阿含經》</title><biblScope n="33" type="卷">卷三三</biblScope>．<ref target="#no:99.927" type="taisho">九二七</ref>經等）</bibl>。一
 <lb n="0210a06" ed="Y"/>、信具<lb n="0210a07" ed="Y" type="old"/>足：於如來生正信，因佛為法本、佛為僧伽上首，對如來應有堅定、正確
 <lb n="0210a07" ed="Y"/>的信仰。<lb n="0210a08" ed="Y" type="old"/>信心是<quote source="T31n1585_p0029b22-23" type="嚴謹引文">「深忍樂欲，心淨為性」<note n="0210001" resp="周怡曄" type="add">《成唯識論》卷6(CBETA, T31, no. 1585, p. 29, b22-23)</note></quote>，即深刻信解而又願求實現的淨心——
 <lb n="0210a08" ed="Y"/>這等於八<lb n="0210a09" ed="Y" type="old"/>正道的正見、正志。二、戒具足：即是五戒。五戒不僅是止惡的，更是
@@ -166,7 +186,7 @@
 <lb n="0211a03" ed="Y"/>作家庭<lb n="0211a03" ed="Y" type="old"/>私產想；在家信眾必須心住非家，才能成出離心而向解脫。供施父母、師
 <lb n="0211a04" ed="Y"/>長、三<lb n="0211a04" ed="Y" type="old"/>寶，出於尊敬心；布施孤苦貧病，出於悲憫心。也有施捨而謀公共福利的
 <lb n="0211a05" ed="Y"/>，如說<lb n="0211a05" ed="Y" type="old"/>：<cit><quote source="T02n0099_p0261b07-10" type="嚴謹引文">「種植園果故，林樹蔭清涼，橋船以濟渡，造作福德舍，穿井供渴乏，
-<lb n="0211a06" ed="Y"/>客舍給<lb n="0211a06" ed="Y" type="old"/>行旅，如此之功德，日夜常增長。」</quote><bibl>（<title level="m">《雜阿含經》</title><biblScope type="卷" n="36">卷三六</biblScope>．<ref type="taisho" target="#no:99.997">九九七經</ref>）</bibl><note n="0211002" resp="周怡曄" type="add">《雜阿含經》卷36(CBETA, T02, no. 99, p. 261, b7-10)</note></cit>
+<lb n="0211a06" ed="Y"/>客舍給<lb n="0211a06" ed="Y" type="old"/>行旅，如此之功德，日夜常增長。」</quote><bibl>（<title level="m">《雜阿含經》</title><biblScope n="36" type="卷">卷三六</biblScope>．<ref target="#no:99.997" type="taisho">九九七經</ref>）</bibl><note n="0211002" resp="周怡曄" type="add">《雜阿含經》卷36(CBETA, T02, no. 99, p. 261, b7-10)</note></cit>
 <lb n="0211a07" ed="Y"/>上二種，等於八<lb n="0211a07" ed="Y" type="old"/>正道的正語到正精進。四、聞具足：施與戒，重於培植福德；要
 <lb n="0211a08" ed="Y"/>得佛法的正知見<lb n="0211a08" ed="Y" type="old"/>、進求正覺的解脫，非聞法不可。這包括<quote type="嚴謹引文">「往詣塔寺」</quote>、<quote type="嚴謹引文">「專心
 <lb n="0211a09" ed="Y"/>聽法」</quote>、<quote type="嚴謹引文">「聞則<lb n="0211a09" ed="Y" type="old"/>能持」</quote>、<quote type="嚴謹引文">「觀察甚深微妙義」</quote>等。五、慧具足：即<quote type="寬鬆引文">「法隨法行」</quote>
@@ -176,18 +196,18 @@
 <lb n="0211a13" ed="Y"/>塞、優婆夷，真<lb n="0211a13" ed="Y" type="old"/>不容易！但這在佛法中，還是重於自利的。如能自己這樣行，又
 <pb n="0212a" ed="Y" xml:id="Y08.0008.0212a"/>
 <lb n="0212a01" ed="Y"/>教人這樣行，<quote type="嚴謹引文">「<pb n="0212a" ed="Y" xml:id="Y08.0008.0212a.old" type="old"/><lb n="0212a01" ed="Y" type="old"/>能自安慰，亦安慰他人」</quote>，這才是<quote type="嚴謹引文">「於諸眾中，威德顯曜」</quote>的<quote type="嚴謹引文">「
-<lb n="0212a02" ed="Y"/>世間難得」</quote>者<bibl>（<lb n="0212a02" ed="Y" type="old"/><title level="m">《雜阿含經》</title><biblScope type="卷" n="33">卷三三</biblScope>．<ref target="#no:99.929" type="taisho">九二九經</ref>）</bibl><note n="0212001" resp="周怡曄" type="add">《雜阿含經》卷33：「摩訶男白佛：『世尊！優婆塞成就幾法自安安他？』佛告摩訶男：『若優婆塞成就十六法者，是名優婆塞自安安他。何等為十六？摩訶男！若優婆塞具足正信，建立他人；自持淨戒，亦以淨戒建立他人；自行布施，教人行施；自詣塔寺見諸沙門，亦教人往見諸沙門；自專聽法，亦教人聽；自受持法，教人受持；自觀察義，教人觀察；自知深義，隨順修行法次法向，亦復教人解了深義，隨順修行法次法向。摩訶男！如是十六法成就者，是名優婆塞能自安慰，亦安慰他人。摩訶男！若優婆塞成就如是十六法者，彼諸大眾悉詣其所，謂婆羅門眾、剎利眾、長者眾、沙門眾，於諸眾中威德顯曜。譬如日輪，初、中及後，光明顯照。如是，優婆塞十六法成就者，初、中及後，威德顯照。如是，摩訶男！若優婆塞十六法成就者，世間難得。』」(CBETA, T02, no. 99, p. 237, b2-19)</note>！五法而外，如修習禪定，在
+<lb n="0212a02" ed="Y"/>世間難得」</quote>者<bibl>（<lb n="0212a02" ed="Y" type="old"/><title level="m">《雜阿含經》</title><biblScope n="33" type="卷">卷三三</biblScope>．<ref target="#no:99.929" type="taisho">九二九經</ref>）</bibl><note n="0212001" resp="周怡曄" type="add">《雜阿含經》卷33：「摩訶男白佛：『世尊！優婆塞成就幾法自安安他？』佛告摩訶男：『若優婆塞成就十六法者，是名優婆塞自安安他。何等為十六？摩訶男！若優婆塞具足正信，建立他人；自持淨戒，亦以淨戒建立他人；自行布施，教人行施；自詣塔寺見諸沙門，亦教人往見諸沙門；自專聽法，亦教人聽；自受持法，教人受持；自觀察義，教人觀察；自知深義，隨順修行法次法向，亦復教人解了深義，隨順修行法次法向。摩訶男！如是十六法成就者，是名優婆塞能自安慰，亦安慰他人。摩訶男！若優婆塞成就如是十六法者，彼諸大眾悉詣其所，謂婆羅門眾、剎利眾、長者眾、沙門眾，於諸眾中威德顯曜。譬如日輪，初、中及後，光明顯照。如是，優婆塞十六法成就者，初、中及後，威德顯照。如是，摩訶男！若優婆塞十六法成就者，世間難得。』」(CBETA, T02, no. 99, p. 237, b2-19)</note>！五法而外，如修習禪定，在
 <lb n="0212a03" ed="Y"/>家眾多加修四無量心。</p></cb:div>
-<lb n="0212a04" ed="Y"/><lb n="0212a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">六念</cb:mulu><head>六念</head><lb n="0212a04" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">在家的信眾，於五法而外，對心情怯弱的，每修三念：念佛、念法、
+<lb n="0212a04" ed="Y"/><lb n="0212a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">六念</cb:mulu><head>六念</head><lb n="0212a04" ed="Y" type="old"/><p xml:id="pY08p0212a0405" style="text-indent:2em" cb:place="inline">在家的信眾，於五法而外，對心情怯弱的，每修三念：念佛、念法、
 <lb n="0212a05" ed="Y"/><lb n="0212a05" ed="Y" type="old"/>念僧。或修四念，即念三寶與戒。或再加念施；或更加念天，共為六念，這都見
 <lb n="0212a06" ed="Y"/><lb n="0212a06" ed="Y" type="old"/>於<title level="m">《雜阿含經》</title>。這主要是為在家信眾說的，如摩訶男長者聽說佛與僧眾要到別
-<lb n="0212a07" ed="Y"/><lb n="0212a07" ed="Y" type="old"/>處去，心中非常難過<bibl>（<title level="m">《雜阿含經》</title><biblScope type="卷" n="33">卷三三</biblScope>．<ref target="#no:99.932" type="taisho">九三二</ref>、<ref type="taisho" target="#no:99.933">九三三經</ref>）</bibl>；還有難提長
-<lb n="0212a08" ed="Y"/>者<bibl>（<title level="m">《雜阿含經》</title><lb n="0212a08" ed="Y" type="old"/><biblScope n="30" type="卷">卷三〇</biblScope>．<ref type="taisho" target="#no:99.857">八五七</ref>、<ref type="taisho" target="#no:99.858">八五八經</ref>）</bibl>、梨師達多弟兄<bibl>（<title level="m">《雜阿含經》</title>
-<lb n="0212a09" ed="Y"/><biblScope type="卷" n="30">卷三〇</biblScope>．<ref type="taisho" target="#no:99.859">八五九</ref>、<ref type="taisho" target="#no:99.860">八六〇經</ref><lb n="0212a09" ed="Y" type="old"/>）</bibl>也如此。訶梨聚落主身遭重病<bibl>（<title level="m">《雜阿含經》</title><biblScope n="20" type="卷">卷二
-<lb n="0212a10" ed="Y"/>〇</biblScope>．<ref type="taisho" target="#no:99.554">五五四經</ref>）</bibl>；須達多長者<bibl>（<title level="m">《雜阿含經》</title><lb n="0212a10" ed="Y" type="old"/><biblScope type="卷" n="37">卷三七</biblScope>．<ref type="taisho" target="#no:99.1030">一〇三〇</ref>經等）</bibl>、八城長
-<lb n="0212a11" ed="Y"/>者<bibl>（<title level="m">《雜阿含經》</title><biblScope type="卷" n="20">卷二〇</biblScope>．<ref target="#no:99.555" type="taisho">五五五經</ref>）</bibl>、達磨提離長者<lb n="0212a11" ed="Y" type="old"/><bibl>（<title level="m">《雜阿含經》</title><biblScope type="卷" n="37">卷三七</biblScope>．
+<lb n="0212a07" ed="Y"/><lb n="0212a07" ed="Y" type="old"/>處去，心中非常難過<bibl>（<title level="m">《雜阿含經》</title><biblScope n="33" type="卷">卷三三</biblScope>．<ref target="#no:99.932" type="taisho">九三二</ref>、<ref target="#no:99.933" type="taisho">九三三經</ref>）</bibl>；還有難提長
+<lb n="0212a08" ed="Y"/>者<bibl>（<title level="m">《雜阿含經》</title><lb n="0212a08" ed="Y" type="old"/><biblScope n="30" type="卷">卷三〇</biblScope>．<ref target="#no:99.857" type="taisho">八五七</ref>、<ref target="#no:99.858" type="taisho">八五八經</ref>）</bibl>、梨師達多弟兄<bibl>（<title level="m">《雜阿含經》</title>
+<lb n="0212a09" ed="Y"/><biblScope n="30" type="卷">卷三〇</biblScope>．<ref target="#no:99.859" type="taisho">八五九</ref>、<ref target="#no:99.860" type="taisho">八六〇經</ref><lb n="0212a09" ed="Y" type="old"/>）</bibl>也如此。訶梨聚落主身遭重病<bibl>（<title level="m">《雜阿含經》</title><biblScope n="20" type="卷">卷二
+<lb n="0212a10" ed="Y"/>〇</biblScope>．<ref target="#no:99.554" type="taisho">五五四經</ref>）</bibl>；須達多長者<bibl>（<title level="m">《雜阿含經》</title><lb n="0212a10" ed="Y" type="old"/><biblScope n="37" type="卷">卷三七</biblScope>．<ref target="#no:99.1030" type="taisho">一〇三〇</ref>經等）</bibl>、八城長
+<lb n="0212a11" ed="Y"/>者<bibl>（<title level="m">《雜阿含經》</title><biblScope n="20" type="卷">卷二〇</biblScope>．<ref target="#no:99.555" type="taisho">五五五經</ref>）</bibl>、達磨提離長者<lb n="0212a11" ed="Y" type="old"/><bibl>（<title level="m">《雜阿含經》</title><biblScope n="37" type="卷">卷三七</biblScope>．
 <lb n="0212a12" ed="Y"/><ref target="#no:99.1033" type="taisho">一〇三三經</ref>）</bibl>也身患病苦。賈客們有旅行曠野的恐怖<bibl>（<title level="m">《雜阿含經》</title><biblScope n="35" type="卷">卷三<lb n="0212a12" ed="Y" type="old"/>五</biblScope>．<ref target="#no:99.980" type="taisho">九
-<lb n="0212a13" ed="Y"/>八〇經</ref>）</bibl>；比丘們有空閒獨宿的恐怖<bibl>（<title level="m">《雜阿含經》</title><biblScope type="卷" n="35">卷三五</biblScope>．<ref target="#no:99.981" type="taisho">九八一經</ref>）</bibl>。這因
+<lb n="0212a13" ed="Y"/>八〇經</ref>）</bibl>；比丘們有空閒獨宿的恐怖<bibl>（<title level="m">《雜阿含經》</title><biblScope n="35" type="卷">卷三五</biblScope>．<ref target="#no:99.981" type="taisho">九八一經</ref>）</bibl>。這因
 <pb n="0213a" ed="Y" xml:id="Y08.0008.0213a"/>
 <lb n="0213a01" ed="Y"/>為<lb n="0212a13" ed="Y" type="old"/>信眾的理智薄弱，不能以智制情，為生死別離、荒涼淒寂的陰影所惱亂，所以
 <lb n="0213a02" ed="Y"/>教<lb n="0212a14" ed="Y" type="old"/>他們念（觀想）三寶的功德，念自己持戒與布施的功德，念必會生天而得到安
@@ -198,15 +218,15 @@
 <lb n="0213a07" ed="Y"/>。<lb n="0213a05" ed="Y" type="old"/>念佛等的原理，與神教的他力——其實還是自力，並沒有什麼差別。經中也舉
 <lb n="0213a08" ed="Y"/>神<lb n="0213a06" ed="Y" type="old"/>教他力說來說明，如說：<cit><quote source="T02n0099_p0254c25" type="嚴謹引文">「天帝釋告諸天眾：汝等與阿須輪共闘戰之時生恐怖
 <lb n="0213a09" ed="Y"/>者<lb n="0213a07" ed="Y" type="old"/>，當念我幢，名摧伏幢，念彼幢時恐怖得除。……如是諸商人！汝等於曠野中
-<lb n="0213a10" ed="Y"/>有<lb n="0213a08" ed="Y" type="old"/>恐怖者，當念如來事、法事、僧事。」</quote><bibl>（<title level="m">《雜阿含經》</title><biblScope n="35" type="卷">卷三五</biblScope>．<ref type="taisho" target="#no:99.980">九八〇經</ref>；</bibl><bibl>又
+<lb n="0213a10" ed="Y"/>有<lb n="0213a08" ed="Y" type="old"/>恐怖者，當念如來事、法事、僧事。」</quote><bibl>（<title level="m">《雜阿含經》</title><biblScope n="35" type="卷">卷三五</biblScope>．<ref target="#no:99.980" type="taisho">九八〇經</ref>；</bibl><bibl>又
 <lb n="0213a11" ed="Y"/>參《<title level="m">增一阿含經</title>．<title level="a">高<lb n="0213a09" ed="Y" type="old"/>幢品</title>》）</bibl><note n="0213001" resp="周怡曄" type="add">《雜阿含經》卷35(CBETA, T02, no. 99, p. 254, c25-p. 255, a2)；《增壹阿含經》卷14〈24 高幢品〉(CBETA, T02, no. 125, p. 615, a10-b6)</note></cit>他力的寄託安慰，對於怯弱有情，確有相對作用的
 <lb n="0213a12" ed="Y"/>。但這是一般神教所<lb n="0213a10" ed="Y" type="old"/>共有的，如以此為能得解脫、能成正覺，怕不是釋尊的本意
 <lb n="0213a13" ed="Y"/>吧！</p></cb:div>
 <pb n="0214a" ed="Y" xml:id="Y08.0008.0214a"/>
-<lb n="0214a01" ed="Y"/><lb n="0213a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">在家信眾的模範人物</cb:mulu><head>在家信眾的模範人物</head><lb n="0213a12" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">現在舉幾位佛世的在家弟子，略見古代佛教信眾處身
+<lb n="0214a01" ed="Y"/><lb n="0213a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">在家信眾的模範人物</cb:mulu><head>在家信眾的模範人物</head><lb n="0213a12" ed="Y" type="old"/><p xml:id="pY08p0214a0119" style="text-indent:2em" cb:place="inline">現在舉幾位佛世的在家弟子，略見古代佛教信眾處身
 <lb n="0214a02" ed="Y"/><lb n="0213a13" ed="Y" type="old"/>社會的一斑。一、須達多，是一位大富長者，財產、商業、貸款，遍於恆河兩岸
 <lb n="0214a03" ed="Y"/>。<lb n="0213a14" ed="Y" type="old"/>自信佛以後，黃金布地以築祇園而外，<cit><quote source="T02n0099_p0269c01-02" type="嚴謹引文">「家有錢財，悉與佛弟子——比丘、比
-<lb n="0214a04" ed="Y"/>丘<pb n="0214a" ed="Y" xml:id="Y08.0008.0214a.old" type="old"/><lb n="0214a01" ed="Y" type="old"/>尼、優婆塞、優婆夷共」</quote><bibl>（<title level="m">《雜阿含經》</title><biblScope type="卷" n="37">卷三七</biblScope>．<ref type="taisho" target="#no:99.1031">一〇三一經</ref>）</bibl><note n="0214001" resp="周怡曄" type="add">《雜阿含經》卷37(CBETA, T02, no. 99, p. 269, c1-2)</note></cit>。對於自己的
+<lb n="0214a04" ed="Y"/>丘<pb n="0214a" ed="Y" xml:id="Y08.0008.0214a.old" type="old"/><lb n="0214a01" ed="Y" type="old"/>尼、優婆塞、優婆夷共」</quote><bibl>（<title level="m">《雜阿含經》</title><biblScope n="37" type="卷">卷三七</biblScope>．<ref target="#no:99.1031" type="taisho">一〇三一經</ref>）</bibl><note n="0214001" resp="周怡曄" type="add">《雜阿含經》卷37(CBETA, T02, no. 99, p. 269, c1-2)</note></cit>。對於自己的
 <lb n="0214a05" ed="Y"/>家產，能離<lb n="0214a02" ed="Y" type="old"/>去自我自私的妄執，看為佛教徒共有的財物，這是值得稱歎的。波斯
 <lb n="0214a06" ed="Y"/>匿王大臣梨<lb n="0214a03" ed="Y" type="old"/>師達多弟兄也如此，<cit><quote source="T02n0099_p0219a19-20" type="嚴謹引文">「家中所有財物，常與世尊及諸比丘、比丘尼、
 <lb n="0214a07" ed="Y"/>優婆塞、優<lb n="0214a04" ed="Y" type="old"/>婆夷等共受用，不計我所」</quote><bibl>（<title level="m">《雜阿含經》</title><biblScope n="30" type="卷">卷三〇</biblScope>．<ref target="#no:99.860" type="taisho">八六〇經</ref>）</bibl><note n="0214002" resp="周怡曄" type="add">《雜阿含經》卷30(CBETA, T02, no. 99, p. 219, a19-20)</note></cit>。須

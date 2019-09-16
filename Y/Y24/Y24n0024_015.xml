@@ -12,54 +12,74 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版四刷<date>Date: 2011/10</date>新式標點版</edition>
+			<edition>新版四刷<date>Date: 2011/10</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 24, No. 24</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">24</idno>.<idno type="no">24</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法是救世之光</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十四、佛學的兩大特色</cb:mulu><cb:mulu level="2" type="其他">二　慈悲與智慧的融和</cb:mulu>
-<milestone unit="juan" n="15"/>
+<milestone n="15" unit="juan"/>
 <pb n="0167a" ed="Y" xml:id="Y24.0024.0167a"/>
 <lb n="0167a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">十五、教法與證法的仰信</cb:mulu><head>教法與證法的仰信<note n="0167001" resp="DILA" type="add">民國四六年講。</note></head>
-<lb n="0167a02" ed="Y"/><p style="text-indent:2em">現在就「佛法是什麼」，說到我們所一定要信仰的。佛法有二大類：一是教
+<lb n="0167a02" ed="Y"/><p xml:id="pY24p0167a0201" style="text-indent:2em">現在就「佛法是什麼」，說到我們所一定要信仰的。佛法有二大類：一是教
 <lb n="0167a03" ed="Y"/>法——教，這由釋尊用語言文字所表達出來的一切經典，制度，說明宇宙人生真
 <lb n="0167a04" ed="Y"/>相的，以及生人生天成佛等一切教說。一是證法——宗，此為釋尊指示吾人發心
 <lb n="0167a05" ed="Y"/>修學，如何修戒修定等實踐過程，以達解脫或成佛的目標。前者是屬於理解方面
 <lb n="0167a06" ed="Y"/>的，後者是屬於行踐方面的。這二者，有著相互關涉不可分離的關係。</p>
-<lb n="0167a07" ed="Y"/><p style="text-indent:2em">先就教法說：不但釋尊用語言文字所表達出來的經律論稱為教法，即古今大
+<lb n="0167a07" ed="Y"/><p xml:id="pY24p0167a0701" style="text-indent:2em">先就教法說：不但釋尊用語言文字所表達出來的經律論稱為教法，即古今大
 <lb n="0167a08" ed="Y"/>德祖師們的著作，以及語言的開示教誡，也稱之為教法的。一切教法的根源，是
 <lb n="0167a09" ed="Y"/>由釋尊的如實證覺而來，非由研究假說推論得來。因此，釋尊的證覺，成為一切
 <lb n="0167a10" ed="Y"/>佛法的根本。今天世界上有多少國家人民信佛學佛，以及我們知道他方世界有許
@@ -83,9 +103,9 @@
 <lb n="0169a02" ed="Y"/>邊的眾生，仍然沈迷在生死煩惱的深淵中。故釋尊為了悲憫眾生，以悲願力，發
 <lb n="0169a03" ed="Y"/>動智慧，而將自己證悟的法門宣示出來。因此釋尊的說法，不是為了生活，也不
 <lb n="0169a04" ed="Y"/>是為了爭勝求榮自大，純係從悲心的激發，利益眾生，而說出的大悲等流法。</p>
-<lb n="0169a05" ed="Y"/><p style="text-indent:2em">佛法出現之後，傳布中國、日本等地，為了適應時代與眾生關係，而產生各
+<lb n="0169a05" ed="Y"/><p xml:id="pY24p0169a0501" style="text-indent:2em">佛法出現之後，傳布中國、日本等地，為了適應時代與眾生關係，而產生各
 <lb n="0169a06" ed="Y"/>宗各派。這情形，不但在中國、日本如此，即在印度本土，也形成了許多宗派。
-<lb n="0169a07" ed="Y"/>說到古代的各宗各派，這些宗派的起源，是有它<note n="0169a0701" resp="CBETA" type="add" subtype="規範字詞">的【CB】，底【印順】</note><app n="0019a0901"><lem wit="【CB】" resp="CBETA">的</lem><rdg wit="【印順】">底</rdg></app>特殊來歷的，決不是因智者講
+<lb n="0169a07" ed="Y"/>說到古代的各宗各派，這些宗派的起源，是有它<note n="0169a0701" resp="CBETA" type="add" subtype="規範字詞">的【CB】，底【印順】</note><app n="0019a0901"><lem resp="CBETA" wit="【CB】">的</lem><rdg wit="【印順】">底</rdg></app>特殊來歷的，決不是因智者講
 <lb n="0169a08" ed="Y"/><title level="m">《法華經》</title>而就成為天臺一派，也不因龍樹讀<title level="m">《般若經》</title>而成為性空的一派。太
 <lb n="0169a09" ed="Y"/>虛大師曾說：各宗各派的成立，皆由古代祖師依其修行經驗為主，適應當時當地
 <lb n="0169a10" ed="Y"/>的眾生機宜而成立的。對於這一觀念，必須先要認識清楚。大師說：中國佛教的
@@ -108,7 +128,7 @@
 <lb n="0170a13" ed="Y"/>對於經律論及古德祖師的著作，皆應本此觀念去理解，才能以良好正確的態度，
 <pb n="0171a" ed="Y" xml:id="Y24.0024.0171a"/>
 <lb n="0171a01" ed="Y"/>尊重一切聖典，而去比較，分別，抉擇，了解它。</p>
-<lb n="0171a02" ed="Y"/><p style="text-indent:2em">再就證法說：證法即修證，對佛法作實際的參究與體證。如專在文教研究方
+<lb n="0171a02" ed="Y"/><p xml:id="pY24p0171a0201" style="text-indent:2em">再就證法說：證法即修證，對佛法作實際的參究與體證。如專在文教研究方
 <lb n="0171a03" ed="Y"/>面著力，是不能深切了知的。先從修學者成就的功德說：一、信成就：學佛修行
 <lb n="0171a04" ed="Y"/>，最要緊的便是成就信心。信心非一加一等於二的信，而是深信不疑，奮力以求
 <lb n="0171a05" ed="Y"/>之的。如發心皈依三寶，或發心趨向無上菩提，於三寶功德，大乘佛菩薩清淨功
@@ -141,7 +161,7 @@
 <lb n="0173a04" ed="Y"/>，不管修習什麼，仍然在佛法門外，沒有進入佛法的領域。所以學佛雖有深淺及
 <lb n="0173a05" ed="Y"/>種種修習成就的不同，只要真實去行，都會有所得的，有所受用的。得到佛法利
 <lb n="0173a06" ed="Y"/>益的人，一切言行舉措，會與平日兩樣，表達了內心的真實功德。</p>
-<lb n="0173a07" ed="Y"/><p style="text-indent:2em">在學佛過程中所得的殊勝心境，約有四種：一、夢境：夢是人人都有的，但
+<lb n="0173a07" ed="Y"/><p xml:id="pY24p0173a0701" style="text-indent:2em">在學佛過程中所得的殊勝心境，約有四種：一、夢境：夢是人人都有的，但
 <lb n="0173a08" ed="Y"/>如夢中見佛，見蓮花，見菩提樹等，這都是好的學佛有進益的現象。曾經有人告
 <lb n="0173a09" ed="Y"/>訴我，夢中逢到危險，趕快念佛，惡境即消滅了。這是信心好，念佛切的現象。
 <lb n="0173a10" ed="Y"/>如信心差些，有的縱然念佛，惡境仍不離去（但夢中能見佛念佛，總是好事）。
@@ -155,8 +175,8 @@
 <lb n="0174a04" ed="Y"/>幻境，有良好的，也有不好的境界。不好的應該依法除遣，良好的也切莫執著。
 <lb n="0174a05" ed="Y"/>三、定境：真得定境的，有種種深細的定相。定境成就的，能隨定心現前，來去
 <lb n="0174a06" ed="Y"/>自如，自己可以作得主，如修彌勒觀成就，彌勒現前說法等。四、證境：勝義慧
-<lb n="0174a07" ed="Y"/>體現得法性寂<note n="0174a0701" resp="CBETA" type="add">滅【CB】，［－］【印順】</note><app n="0174a0701"><lem wit="【CB】" resp="正聞出版社">滅</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>，平等不生滅的自證，為最高究竟的智境，更非言語所能擬議。</p>
-<lb n="0174a08" ed="Y"/><p style="text-indent:2em">佛法所說，及修證所體驗到的許多事實，我們應有景仰的信心。在修行過程
+<lb n="0174a07" ed="Y"/>體現得法性寂<note n="0174a0701" resp="CBETA" type="add">滅【CB】，［－］【印順】</note><app n="0174a0701"><lem resp="正聞出版社" wit="【CB】">滅</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>，平等不生滅的自證，為最高究竟的智境，更非言語所能擬議。</p>
+<lb n="0174a08" ed="Y"/><p xml:id="pY24p0174a0801" style="text-indent:2em">佛法所說，及修證所體驗到的許多事實，我們應有景仰的信心。在修行過程
 <lb n="0174a09" ed="Y"/>中的種種境地，不是一般性的，而為佛教（淺些的，通於一般宗教）修行過程中
 <lb n="0174a10" ed="Y"/>所特有的。一般人心識散亂，追逐外界的欲塵，沒有依佛法去行，當然見不到，
 <lb n="0174a11" ed="Y"/>不知道。如依法修持，則人人都能得到，而所得到的也是大同小異（最高的證境
@@ -168,7 +188,7 @@
 <lb n="0175a03" ed="Y"/>在今年二月號<title level="j">《海刊》</title>中寫的<title level="a">〈美麗而險惡的歧途〉</title>一文，說到由靜坐而引起身體的
 <lb n="0175a04" ed="Y"/>震動（又如赤腳踏過烈火而不會灼傷），這些宗教所有的某些事實，尚為世人所
 <lb n="0175a05" ed="Y"/>信，何況我們佛弟子？</p>
-<lb n="0175a06" ed="Y"/><p style="text-indent:2em">中國人的宗教信仰不切，特別是科學發達以後。曾見到一篇報導，有科學工
+<lb n="0175a06" ed="Y"/><p xml:id="pY24p0175a0601" style="text-indent:2em">中國人的宗教信仰不切，特別是科學發達以後。曾見到一篇報導，有科學工
 <lb n="0175a07" ed="Y"/>作者，將自己親見的鬼，雖是真實見聞的事情，結果仍說它為迷信。為什麼？大
 <lb n="0175a08" ed="Y"/>家都叫做迷信呀！其實在宗教界，每一宗教都有它的特殊事情，不能以常人的眼
 <lb n="0175a09" ed="Y"/>光一概抹煞。佛法的經律論及古德的著作，都有自覺的體驗內容，並非假想推論
@@ -182,7 +202,7 @@
 <lb n="0176a03" ed="Y"/>生活有些鬆懈，那原是一個危險期。後來他突然發心到普陀山閉關，將鬆懈了的
 <lb n="0176a04" ed="Y"/>宗教生活，改變過來。這實是大師得力於初年在西方寺看<title level="m">《般若經》</title>有悟的心境
 <lb n="0176a05" ed="Y"/>，深生信心，始終不會忘卻，到底回到虔敬的宗教生活中來。</p>
-<lb n="0176a06" ed="Y"/><p style="text-indent:2em">學佛法，對佛法的自覺心源，修證中的特殊經驗，要能深信不疑，不要見世
+<lb n="0176a06" ed="Y"/><p xml:id="pY24p0176a0601" style="text-indent:2em">學佛法，對佛法的自覺心源，修證中的特殊經驗，要能深信不疑，不要見世
 <lb n="0176a07" ed="Y"/>人不信而動搖。這些，應該是庸常人所不曾知道的。祇要自己切信不移，信而趣
 <lb n="0176a08" ed="Y"/>入，佛法的光明，才會真實的臨到，在你的身心中顯現。（幻生記）</p></cb:div>
 </body></text></TEI>

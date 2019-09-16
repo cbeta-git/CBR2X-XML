@@ -12,59 +12,79 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版一刷<date>Date: 2013/04</date>新式標點版</edition>
+			<edition>新版一刷<date>Date: 2013/04</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>35卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 41, No. 39</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>35卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">41</idno>.<idno type="no">39</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">平凡的一生（重訂本）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十四　佛法概論</cb:mulu>
-<milestone unit="juan" n="15"/>
-<lb n="0085a09" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">十五　餘波蕩漾何時了</cb:mulu><head><note n="0085a0901" resp="CBETA" type="add" subtype="規範字詞">十五【CB】，一五【印順】</note><app n="0085a0901"><lem wit="【CB】" resp="CBETA">十五</lem><rdg wit="【印順】">一五</rdg></app>　餘波蕩漾何時了</head>
-<lb n="0085a10" ed="Y"/><p style="text-indent:2em">漫天風雨所引起的驚濤駭浪，雖然過去了，多少總還有點餘波蕩漾。子老與
+<milestone n="15" unit="juan"/>
+<lb n="0085a09" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">十五　餘波蕩漾何時了</cb:mulu><head><note n="0085a0901" resp="CBETA" type="add" subtype="規範字詞">十五【CB】，一五【印順】</note><app n="0085a0901"><lem resp="CBETA" wit="【CB】">十五</lem><rdg wit="【印順】">一五</rdg></app>　餘波蕩漾何時了</head>
+<lb n="0085a10" ed="Y"/><p xml:id="pY41p0085a1001" style="text-indent:2em">漫天風雨所引起的驚濤駭浪，雖然過去了，多少總還有點餘波蕩漾。子老與
 <lb n="0085a11" ed="Y"/>善導寺還是這樣，我還是這樣，福嚴精舍也還是這樣。老問題一模一樣。怎麼就
 <lb n="0085a12" ed="Y"/>能安定呢？我只慚愧自己的懦弱，多少做些自己所能做的。至於「報密」之類，
 <pb n="0086a" ed="Y" xml:id="Y41.0039.0086a"/>
 <lb n="0086a01" ed="Y"/>事關機密，我根本不會知道，所以也從不想去知道。</p>
-<lb n="0086a02" ed="Y"/><p style="text-indent:2em">四十三年（四十九歲）十一月中旬，我應性願老法師的邀請，去菲律賓弘法
+<lb n="0086a02" ed="Y"/><p xml:id="pY41p0086a0201" style="text-indent:2em">四十三年（四十九歲）十一月中旬，我應性願老法師的邀請，去菲律賓弘法
 <lb n="0086a03" ed="Y"/>。直到四十四年三月底，我通知子老，決定回臺灣主持佛誕。不幾天，我接到臺
 <lb n="0086a04" ed="Y"/>灣來的歡迎信，蓋著「歡迎印順法師弘法回國籌備會」的木戳。我對歡迎歡送的
 <lb n="0086a05" ed="Y"/>大場面，一向感不到興趣，所以立刻給子老一封信，信上說：有二、三人來機場
 <lb n="0086a06" ed="Y"/>照料就好，<quote>「切勿勞動信眾，集中機場歡迎」</quote>。四月初六日，我回到了臺灣。起
 <lb n="0086a07" ed="Y"/>初，演培他們怕我著急，不敢說；但到了晚上，終於說出了緊張的又一幕。</p>
-<lb n="0086a08" ed="Y"/><p style="text-indent:2em">弘法回國歡迎會的擴大籌備，是一位居士倡議的。中佛會緊張起來，立刻召
+<lb n="0086a08" ed="Y"/><p xml:id="pY41p0086a0801" style="text-indent:2em">弘法回國歡迎會的擴大籌備，是一位居士倡議的。中佛會緊張起來，立刻召
 <lb n="0086a09" ed="Y"/>開臨時會議，要子老去出席。吳祕書長發言：印順弘法回國，就這樣的盛大歡迎
 <lb n="0086a10" ed="Y"/>，那我們會長（章嘉大師）出國弘法，又該怎樣歡迎？這樣的炫耀誇張，非制止
 <lb n="0086a11" ed="Y"/>不可。要子老負責，不得率領信眾去機場歡迎（朱鏡宙老居士也支持吳祕書長的
@@ -78,7 +98,7 @@
 <lb n="0087a05" ed="Y"/>是「先知」，怎麼也想不到中佛會會為此而召開會議。這是又一次的不可思議因
 <lb n="0087a06" ed="Y"/>緣，中佛會的緊急決議，幫助完成了我的意願——<quote>「切勿勞動信眾，集中機場歡
 <lb n="0087a07" ed="Y"/>迎」</quote>。</p>
-<lb n="0087a08" ed="Y"/><p style="text-indent:2em">民國四十六年（五十二歲）國曆五月，我出席泰國佛元二千五百年的盛大慶
+<lb n="0087a08" ed="Y"/><p xml:id="pY41p0087a0801" style="text-indent:2em">民國四十六年（五十二歲）國曆五月，我出席泰國佛元二千五百年的盛大慶
 <lb n="0087a09" ed="Y"/>典，回國經過香港。陳靜濤居士對我說：<quote>「你上次（經過香港去泰國）離開這裡
 <lb n="0087a10" ed="Y"/>，沒有幾天，就有人調查你來了。我說：印順是太虛大師以下，我最敬愛的法師
 <lb n="0087a11" ed="Y"/>。我把辦公桌上的玻璃板移開，露出我的身分證明，告訴他：我就是這裡的負責
@@ -87,7 +107,7 @@
 <pb n="0088a" ed="Y" xml:id="Y41.0039.0088a"/>
 <lb n="0088a01" ed="Y"/>對你有利的」</quote>。我說：<quote>「是的，臺灣信徒也有人這樣說」</quote>。那時，離四十三年的
 <lb n="0088a02" ed="Y"/>驚風駭浪，已足足的三年了，餘波還是在蕩漾不已。</p>
-<lb n="0088a03" ed="Y"/><p style="text-indent:2em">據說，我當然沒有看到，對於調查我的案卷，堆積得也真不少了。我從這裡
+<lb n="0088a03" ed="Y"/><p xml:id="pY41p0088a0301" style="text-indent:2em">據說，我當然沒有看到，對於調查我的案卷，堆積得也真不少了。我從這裡
 <lb n="0088a04" ed="Y"/>，更深信世間的緣起（因緣）觀，緣起法是有相對性的。有些非常有用，而結果
 <lb n="0088a05" ed="Y"/>是多此一著。有些看來無用，而卻發生了難以估量的妙用。我的身體是衰弱的，
 <lb n="0088a06" ed="Y"/>生性是內向的；心在佛法，對世間事緣沒有什麼興趣。這對於荷擔復興佛教的
@@ -96,7 +116,7 @@
 <lb n="0088a09" ed="Y"/>香港，屬於左派的外圍組織不少，局外人也並不明白。如我也歡喜活動，偶爾去
 <lb n="0088a10" ed="Y"/>參加些什麼會，那即使簽一個名，我就不得了。我憑了這無視世間現實，在政局
 <lb n="0088a11" ed="Y"/>的動盪中，安心地探求佛法。我才能沒有任何憂慮的，安然的渡過了一切風浪。</p>
-<lb n="0088a12" ed="Y"/><p style="text-indent:2em">餘波蕩漾何時了？這大概可從中佛會（子老對中佛會的關係，一般是看作代
+<lb n="0088a12" ed="Y"/><p xml:id="pY41p0088a1201" style="text-indent:2em">餘波蕩漾何時了？這大概可從中佛會（子老對中佛會的關係，一般是看作代
 <lb n="0088a13" ed="Y"/>表我的），善導寺的演變，而可作大概的推定。國曆四十四年八月，中佛會改選
 <pb n="0089a" ed="Y" xml:id="Y41.0039.0089a"/>
 <lb n="0089a01" ed="Y"/>，理事長當然是章嘉大師，祕書長卻改由林競老居士擔任。中佛會的力量，有了
@@ -109,9 +129,9 @@
 <lb n="0089a08" ed="Y"/>失望了，與白聖法師疏遠了。末了，去執行律師的業務。大概四十六年後，中佛
 <lb n="0089a09" ed="Y"/>會不會對我有不利的企圖了。到了四十九年，我與子老的關係改變，子老也不再
 <lb n="0089a10" ed="Y"/>顧問中佛會，對我當更不會有什麼了！</p>
-<lb n="0089a11" ed="Y"/><p style="text-indent:2em">善導寺，起初我還是導師，這當然還要餘波蕩漾下去。後來我離開了，直到
+<lb n="0089a11" ed="Y"/><p xml:id="pY41p0089a1101" style="text-indent:2em">善導寺，起初我還是導師，這當然還要餘波蕩漾下去。後來我離開了，直到
 <lb n="0089a12" ed="Y"/>道安法師出來負住持的名義。子老對善導寺，我對善導寺的關係，完全改觀。此
 <lb n="0089a13" ed="Y"/>後，即使有些無傷大雅的蜚語，不妨說問題解決了。</p>
 <pb n="0090a" ed="Y" xml:id="Y41.0039.0090a"/>
-<lb n="0090a01" ed="Y"/><p style="text-indent:2em">因緣，無論是順的逆的，化解是真不容易！</p></cb:div>
+<lb n="0090a01" ed="Y"/><p xml:id="pY41p0090a0101" style="text-indent:2em">因緣，無論是順的逆的，化解是真不容易！</p></cb:div>
 </body></text></TEI>

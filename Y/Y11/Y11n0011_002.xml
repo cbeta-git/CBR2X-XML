@@ -12,69 +12,89 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2015/03</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2015/03</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>3卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 11, No. 11</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>3卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">11</idno>.<idno type="no">11</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">性空學探源</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB00145">
-	<charName>CBETA CHARACTER CB00145</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[少/兔]</value>
-	</charProp>
-	<mapping type="unicode">U+3779</mapping>
-	<mapping cb:dec="983185" type="PUA">U+F0091</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00145">
+				<charName>CBETA CHARACTER CB00145</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[少/兔]</value>
+				</charProp>
+				<mapping type="unicode">U+3779</mapping>
+				<mapping cb:dec="983185" type="PUA">U+F0091</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第一章　引論</cb:mulu><cb:mulu level="2" type="其他">第三節　空義之研究</cb:mulu>
-<milestone unit="juan" n="2"/><pb n="0015a" ed="Y" xml:id="Y11.0011.0015a.old" type="old"/>
+<milestone n="2" unit="juan"/><pb n="0015a" ed="Y" xml:id="Y11.0011.0015a.old" type="old"/>
 <pb n="0015a" ed="Y" xml:id="Y11.0011.0015a"/>
 <lb n="0015a01" ed="Y"/><lb n="0015a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">第二章　阿含之空</cb:mulu><head>第二章　阿含之空</head>
 <lb n="0015a02" ed="Y"/><lb n="0015a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　總說</cb:mulu><head>第一節　總說</head>
 <lb n="0015a03" ed="Y"/><lb n="0015a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第一項　阿含為空義之本源</cb:mulu><head>第一項　阿含為空義之本源</head>
-<lb n="0015a04" ed="Y"/><lb n="0015a04" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《阿含經》</title>是從佛陀展轉傳來的根本教典，空義當然也是以阿含為根源。有
+<lb n="0015a04" ed="Y"/><lb n="0015a04" ed="Y" type="old"/><p xml:id="pY11p0015a0401" style="text-indent:2em"><title level="m">《阿含經》</title>是從佛陀展轉傳來的根本教典，空義當然也是以阿含為根源。有
 <lb n="0015a05" ed="Y"/><lb n="0015a05" ed="Y" type="old"/>些學派，因對阿含的看法不同，影響到他對於空的看法不同；阿含對於「空」的
 <lb n="0015a06" ed="Y"/><lb n="0015a06" ed="Y" type="old"/>重要，可見一斑了。處在現今，要想對於古典的阿含，得個圓滿的認識，本是很
 <lb n="0015a07" ed="Y"/><lb n="0015a07" ed="Y" type="old"/>困難的。假使我們願意在觀察各種佛教的發展情勢中，彼此同異的比較中，時時
 <lb n="0015a08" ed="Y"/><lb n="0015a08" ed="Y" type="old"/>回過頭來注意這根本教典，從本教去觀察發展的佛教，那將會別有會心；將發現
 <lb n="0015a09" ed="Y"/><lb n="0015a09" ed="Y" type="old"/>多少學者在發展流衍中數典忘祖，把阿含都忘記了。那麼，我們在研究空的時候
 <lb n="0015a10" ed="Y"/><lb n="0015a10" ed="Y" type="old"/>，是應該怎樣的注意到這根本教典阿含中的空義。</p>
-<lb n="0015a11" ed="Y"/><lb n="0015a11" ed="Y" type="old"/><p style="text-indent:2em">聲聞學者或明我空，或明法空，思想都直接出於阿含，這是不用說了。就是<pb n="0016a" ed="Y" xml:id="Y11.0011.0016a.old" type="old"/>
+<lb n="0015a11" ed="Y"/><lb n="0015a11" ed="Y" type="old"/><p xml:id="pY11p0015a1101" style="text-indent:2em">聲聞學者或明我空，或明法空，思想都直接出於阿含，這是不用說了。就是<pb n="0016a" ed="Y" xml:id="Y11.0011.0016a.old" type="old"/>
 <pb n="0016a" ed="Y" xml:id="Y11.0011.0016a"/>
 <lb n="0016a01" ed="Y"/><lb n="0016a01" ed="Y" type="old"/>大乘學者，如龍樹、無著他們所顯了的空義，也有出於阿含的。如龍樹<title level="m">《中論》</title>
 <lb n="0016a02" ed="Y"/><lb n="0016a02" ed="Y" type="old"/>裡，引<title level="m">《虛誑妄取經》</title>及<title level="m">《化迦旃延經》</title>以明空；<title level="m">《十二門論》</title>引<title level="m">《裸形迦葉經
@@ -85,7 +105,7 @@
 <lb n="0016a07" ed="Y"/>是出於阿含的。阿含<lb n="0016a07" ed="Y" type="old"/>是古代大小乘學者的共同依據，空義有一切理論的共同本源
 <lb n="0016a08" ed="Y"/>（有人說阿含明有，<lb n="0016a08" ed="Y" type="old"/>那是很錯誤的）。源淨而後流淳，研究空義的人，對這根本
 <lb n="0016a09" ed="Y"/>教源的阿含，應該如<lb n="0016a09" ed="Y" type="old"/>何的注意！</p>
-<lb n="0016a10" ed="Y"/><lb n="0016a10" ed="Y" type="old"/><p style="text-indent:2em">現存的<title level="m">《阿含經》</title>，有兩種譯本，就是南傳巴利文三藏的五部，與漢譯的四
+<lb n="0016a10" ed="Y"/><lb n="0016a10" ed="Y" type="old"/><p xml:id="pY11p0016a1001" style="text-indent:2em">現存的<title level="m">《阿含經》</title>，有兩種譯本，就是南傳巴利文三藏的五部，與漢譯的四
 <lb n="0016a11" ed="Y"/>阿含<lb n="0016a11" ed="Y" type="old"/>。阿含中，尤以<title level="m">《雜阿含經》</title>的性質，更早出、更重要，下文所說，大部分
 <lb n="0016a12" ed="Y"/>的根<lb n="0016a12" ed="Y" type="old"/>據都出於此。《長阿含經》與《中阿含經》（<title level="m">《長部》</title>與<title level="m">《中部》</title>），時代
 <lb n="0016a13" ed="Y"/>遲一點，說明空義<lb n="0016a13" ed="Y" type="old"/>的較少。漢譯本的<title level="m">《增一阿含經》</title>，說空的地方不少，而且有
@@ -94,28 +114,28 @@
 <lb n="0017a02" ed="Y"/>都是巴利文中所無。<lb n="0017a02" ed="Y" type="old"/>就漢譯本的內容看來，明顯的與大眾部（末派）有關。因為
 <lb n="0017a03" ed="Y"/>它的學派色彩太濃厚<lb n="0017a03" ed="Y" type="old"/>，留在下面談學派佛教的時候，再去注意它。</p></cb:div>
 <lb n="0017a04" ed="Y"/><lb n="0017a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第二項　真、實、諦、如</cb:mulu><head>第二項　真、實、諦、如</head>
-<lb n="0017a05" ed="Y"/><lb n="0017a05" ed="Y" type="old"/><p style="text-indent:2em">真、實、諦、如，這幾個名辭，這裡有一加解釋的必要，因它的意義很重要<lb n="0017a06" ed="Y" type="old"/>。</p>
-<lb n="0017a06" ed="Y"/><lb n="0017a07" ed="Y" type="old"/><p style="text-indent:2em">佛法中無論說空說有，都是以修行的應離應行為主的。修行中最重要的，是
+<lb n="0017a05" ed="Y"/><lb n="0017a05" ed="Y" type="old"/><p xml:id="pY11p0017a0501" style="text-indent:2em">真、實、諦、如，這幾個名辭，這裡有一加解釋的必要，因它的意義很重要<lb n="0017a06" ed="Y" type="old"/>。</p>
+<lb n="0017a06" ed="Y"/><lb n="0017a07" ed="Y" type="old"/><p xml:id="pY11p0017a0601" style="text-indent:2em">佛法中無論說空說有，都是以修行的應離應行為主的。修行中最重要的，是
 <lb n="0017a07" ed="Y"/><lb n="0017a08" ed="Y" type="old"/>要具足如實智。「如實」，其所知所觀的對象，就必定是真、是實、是諦、是如
 <lb n="0017a08" ed="Y"/><lb n="0017a09" ed="Y" type="old"/>。小乘說到它，大乘也說到它；說空的依之說空，說有的依之明有，所以這是佛
 <lb n="0017a09" ed="Y"/><lb n="0017a10" ed="Y" type="old"/>法中通常而又重要的幾個名辭。</p>
-<lb n="0017a10" ed="Y"/><lb n="0017a11" ed="Y" type="old"/><p style="text-indent:2em">這幾個名辭，<title level="m">《阿含經》</title>中說到的，一、在明緣起處說到，如<bibl><title level="m">《雜阿含經》</title>
+<lb n="0017a10" ed="Y"/><lb n="0017a11" ed="Y" type="old"/><p xml:id="pY11p0017a1001" style="text-indent:2em">這幾個名辭，<title level="m">《阿含經》</title>中說到的，一、在明緣起處說到，如<bibl><title level="m">《雜阿含經》</title>
 <lb n="0017a11" ed="Y"/><ref target="#no:99.296" type="taisho">二九六<lb n="0017a12" ed="Y" type="old"/>經</ref></bibl>說：</p><pb n="0018a" ed="Y" xml:id="Y11.0011.0018a.old" type="old"/>
-<lb n="0017a12" ed="Y"/><lb n="0018a01" ed="Y" type="old"/><quote source="T02n0099_p0084b17-24" type="嚴謹引文"><p style="margin-left:3em">此法常住法住法界。……此等諸法，法住、法空、法如、法爾，法不離如
+<lb n="0017a12" ed="Y"/><lb n="0018a01" ed="Y" type="old"/><quote source="T02n0099_p0084b17-24" type="嚴謹引文"><p xml:id="pY11p0017a1201" style="margin-left:3em">此法常住法住法界。……此等諸法，法住、法空、法如、法爾，法不離如
 <pb n="0018a" ed="Y" xml:id="Y11.0011.0018a"/>
 <lb n="0018a01" ed="Y"/><lb n="0018a02" ed="Y" type="old"/>，法不異如，審諦真實不顛倒。<note n="0018001" resp="周怡曄" type="add">《雜阿含經》卷12：「此法常住，法住法界，彼如來自所覺知，成等正覺，為人演說，開示顯發，謂緣無明有行，乃至緣生有老死。若佛出世，若未出世，此法常住，法住法界，彼如來自覺知，成等正覺，為人演說，開示顯發，謂緣生故，有老、病、死、憂、悲、惱、苦。此等諸法，法住、法空、法如、法爾，法不離如，法不異如，審諦真實、不顛倒」(CBETA, T02, no. 99, p. 84, b17-24)</note></p></quote>
-<lb n="0018a02" ed="Y"/><lb n="0018a03" ed="Y" type="old"/><p style="text-indent:2em">這一經文，<title level="m">《瑜伽師地論》</title>等都有引證，不過文字少有出入。如<cit><bibl><title level="m">《瑜伽師地
+<lb n="0018a02" ed="Y"/><lb n="0018a03" ed="Y" type="old"/><p xml:id="pY11p0018a0201" style="text-indent:2em">這一經文，<title level="m">《瑜伽師地論》</title>等都有引證，不過文字少有出入。如<cit><bibl><title level="m">《瑜伽師地
 <lb n="0018a03" ed="Y"/>論》</title><biblScope n="93" type="卷">卷<lb n="0018a04" ed="Y" type="old"/>九三</biblScope>，引作：</bibl><quote source="T30n1579_p0833a18-27" type="寬鬆引文">「法性、法住、法定、法如性；如性非不如性，實性、諦性
-<lb n="0018a04" ed="Y"/>、真性<lb n="0018a05" ed="Y" type="old"/>、無顛倒非顛倒性。」</quote><note n="0018002" resp="周怡曄" type="add">《瑜伽師地論》卷93：「復次由二因緣。於諸緣起及緣生法。建立二分差別道理。謂如所流轉故。及諸所流轉故。當知此中有十二支差別流轉。彼復如其所應。稱理因果次第流轉。又此稱理因果次第。無始時來展轉安立。名為法性。由現在世。名為法住。由過去世。名為法定。由未來世。名法如性。非無因性故。名如性。非不如性如實因性故。名實性。如實果性故。名諦性。所知實性故。名真性。由如實智依處性故。名無倒性。非顛倒性」(CBETA, T30, no. 1579, p. 833, a18-27)</note></cit><cit><bibl><title level="m">《法蘊足論》</title><biblScope type="卷" n="11">卷一一</biblScope>，引作：</bibl><quote source="T26n1537_p0505a20-22" type="嚴謹引文">「此中所有法性、法
+<lb n="0018a04" ed="Y"/>、真性<lb n="0018a05" ed="Y" type="old"/>、無顛倒非顛倒性。」</quote><note n="0018002" resp="周怡曄" type="add">《瑜伽師地論》卷93：「復次由二因緣。於諸緣起及緣生法。建立二分差別道理。謂如所流轉故。及諸所流轉故。當知此中有十二支差別流轉。彼復如其所應。稱理因果次第流轉。又此稱理因果次第。無始時來展轉安立。名為法性。由現在世。名為法住。由過去世。名為法定。由未來世。名法如性。非無因性故。名如性。非不如性如實因性故。名實性。如實果性故。名諦性。所知實性故。名真性。由如實智依處性故。名無倒性。非顛倒性」(CBETA, T30, no. 1579, p. 833, a18-27)</note></cit><cit><bibl><title level="m">《法蘊足論》</title><biblScope n="11" type="卷">卷一一</biblScope>，引作：</bibl><quote source="T26n1537_p0505a20-22" type="嚴謹引文">「此中所有法性、法
 <lb n="0018a05" ed="Y"/>定、法<lb n="0018a06" ed="Y" type="old"/>理、法趣，是真、是實、是諦、是如，非妄、非虛、非倒、非異。」</quote><note n="0018003" resp="周怡曄" type="add">《阿毘達磨法蘊足論》卷11〈21 緣起品〉(CBETA, T26, no. 1537, p. 505, a20-22)</note></cit><cit><bibl><title level="m">《舍
-<lb n="0018a06" ed="Y"/>利弗毘<lb n="0018a07" ed="Y" type="old"/>曇》</title><biblScope type="卷" n="12">卷一二</biblScope>，引作：</bibl><quote source="T28n1548_p0606b21-22" type="嚴謹引文">「此法如爾，非不如爾；不異不異物，常法、實法、
+<lb n="0018a06" ed="Y"/>利弗毘<lb n="0018a07" ed="Y" type="old"/>曇》</title><biblScope n="12" type="卷">卷一二</biblScope>，引作：</bibl><quote source="T28n1548_p0606b21-22" type="嚴謹引文">「此法如爾，非不如爾；不異不異物，常法、實法、
 <lb n="0018a07" ed="Y"/>法住、<lb n="0018a08" ed="Y" type="old"/>法定。」</quote><note n="0018004" resp="周怡曄" type="add">《舍利弗阿毘曇論》卷12〈非問分〉(CBETA, T28, no. 1548, p. 606, b21-22)</note></cit>比較各譯，意義差不多，只是<title level="m">《雜阿含經》</title>中「法空」的「空」
 <lb n="0018a08" ed="Y"/>字，應該<lb n="0018a09" ed="Y" type="old"/>是「定」字的誤寫。經義是說緣起法中前後為緣的關係法則，是法爾如
 <lb n="0018a09" ed="Y"/>是必然不<lb n="0018a10" ed="Y" type="old"/>謬的。所以在表詮方面，說它<quote type="嚴謹引文">「是真、是實、是諦（諦是不顛倒義）、
 <lb n="0018a10" ed="Y"/>是如」</quote>；<lb n="0018a11" ed="Y" type="old"/>在遮遣方面，說它<quote type="嚴謹引文">「非妄、非虛、非倒、非異」</quote>。</p>
-<lb n="0018a11" ed="Y"/><lb n="0018a12" ed="Y" type="old"/><p style="text-indent:2em">二、在明四聖諦處說到的，如<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.417">四一七經</ref></bibl>說：</p>
-<lb n="0018a12" ed="Y"/><lb n="0018a13" ed="Y" type="old"/><quote source="T02n0099_p0110c09-10" type="嚴謹引文"><p style="margin-left:3em">如如，不離如，不異如，真、實、審諦、不顛倒。<pb n="0019a" ed="Y" xml:id="Y11.0011.0019a.old" type="old"/><note n="0018005" resp="周怡曄" type="add">《雜阿含經》卷16(CBETA, T02, no. 99, p. 110, c9-10)</note></p></quote>
-<lb n="0018a13" ed="Y"/><lb n="0019a01" ed="Y" type="old"/><p style="text-indent:2em">不要以為這些經文是在說實有自性。這是說：緣起因果，<quote source="T02n0099_p0067a04-08" type="寬鬆引文">「此有故彼有、此
+<lb n="0018a11" ed="Y"/><lb n="0018a12" ed="Y" type="old"/><p xml:id="pY11p0018a1101" style="text-indent:2em">二、在明四聖諦處說到的，如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.417" type="taisho">四一七經</ref></bibl>說：</p>
+<lb n="0018a12" ed="Y"/><lb n="0018a13" ed="Y" type="old"/><quote source="T02n0099_p0110c09-10" type="嚴謹引文"><p xml:id="pY11p0018a1201" style="margin-left:3em">如如，不離如，不異如，真、實、審諦、不顛倒。<pb n="0019a" ed="Y" xml:id="Y11.0011.0019a.old" type="old"/><note n="0018005" resp="周怡曄" type="add">《雜阿含經》卷16(CBETA, T02, no. 99, p. 110, c9-10)</note></p></quote>
+<lb n="0018a13" ed="Y"/><lb n="0019a01" ed="Y" type="old"/><p xml:id="pY11p0018a1301" style="text-indent:2em">不要以為這些經文是在說實有自性。這是說：緣起因果，<quote source="T02n0099_p0067a04-08" type="寬鬆引文">「此有故彼有、此
 <pb n="0019a" ed="Y" xml:id="Y11.0011.0019a"/>
 <lb n="0019a01" ed="Y"/><lb n="0019a02" ed="Y" type="old"/>生故彼生，此無故彼無、此滅故彼滅」<note n="0019001" resp="周怡曄" type="add">《雜阿含經》卷10：「如來離於二邊，說於中道，所謂此有故彼有，此生故彼生，謂緣無明有行，乃至生、老、病、死、憂、悲、惱、苦集；所謂此無故彼無，此滅故彼滅，謂無明滅則行滅，乃至生、老、病、死、憂、悲、惱、苦滅。」(CBETA, T02, no. 99, p. 67, a4-8)</note></quote>，其緣起流轉與緣起還滅此彼之間的因果
 <lb n="0019a02" ed="Y"/><lb n="0019a03" ed="Y" type="old"/>理則，確確實實是如此。佛能照其如此如此的理則而如實覺，依所證覺而如實說
@@ -124,7 +144,7 @@
 <lb n="0019a05" ed="Y"/><lb n="0019a06" ed="Y" type="old"/>所證與法的真相完全吻合，沒有一點錯誤，這就是真理。所以釋尊讚嘆而形容它
 <lb n="0019a06" ed="Y"/><lb n="0019a07" ed="Y" type="old"/>說：<quote type="嚴謹引文">「是真、是實、是諦、是如，非妄、非虛、非倒、非異。」</quote>切勿誤認這些形
 <lb n="0019a07" ed="Y"/><lb n="0019a08" ed="Y" type="old"/>容辭，是在說某法有真實自性。</p>
-<lb n="0019a08" ed="Y"/><lb n="0019a09" ed="Y" type="old"/><p style="text-indent:2em">緣起聖諦的因果法則，是理解與對象、能說與所詮的一致，而且是必然的、
+<lb n="0019a08" ed="Y"/><lb n="0019a09" ed="Y" type="old"/><p xml:id="pY11p0019a0801" style="text-indent:2em">緣起聖諦的因果法則，是理解與對象、能說與所詮的一致，而且是必然的、
 <lb n="0019a09" ed="Y"/><lb n="0019a10" ed="Y" type="old"/>普遍的，所以經中又說：<quote type="寬鬆引文">「法性、法住、法定、法位、法界。」</quote>緣起法是本來如
 <lb n="0019a10" ed="Y"/><lb n="0019a11" ed="Y" type="old"/>此的，<quote source="T30n1579_p0327c21-22" type="寬鬆引文">「非佛作，亦非餘人作」<note n="0019002" resp="周怡曄" type="add">《瑜伽師地論》卷10：「是諸緣起。非我所作亦非餘作」(CBETA, T30, no. 1579, p. 327, c21-22)</note></quote>，所以說是「法性」，「性」有本來如此的意義
 <lb n="0019a11" ed="Y"/>。<quote type="嚴謹引文">「住」</quote><lb n="0019a12" ed="Y" type="old"/>是不動不變的意義；緣起法則，過去如是，現在如是，未來也如是，有
@@ -134,7 +154,7 @@
 <lb n="0020a01" ed="Y"/>秩序與位<lb n="0020a02" ed="Y" type="old"/>次，絲毫不亂。<quote type="嚴謹引文">「法界」</quote>的界字，作類性解，即是普遍性；如生者必死
 <lb n="0020a02" ed="Y"/>，此地的<lb n="0020a03" ed="Y" type="old"/>也好，彼處的也好，此人也好，彼蟲也好，生者必死的共同性，總是一
 <lb n="0020a03" ed="Y"/>樣，絕不<lb n="0020a04" ed="Y" type="old"/>會有例外。</p>
-<lb n="0020a04" ed="Y"/><lb n="0020a05" ed="Y" type="old"/><p style="text-indent:2em">緣起聖諦的因果法則，是本來如是、必然如是、普遍如是而又確實如是的；
+<lb n="0020a04" ed="Y"/><lb n="0020a05" ed="Y" type="old"/><p xml:id="pY11p0020a0401" style="text-indent:2em">緣起聖諦的因果法則，是本來如是、必然如是、普遍如是而又確實如是的；
 <lb n="0020a05" ed="Y"/><lb n="0020a06" ed="Y" type="old"/>釋尊如實不謬的證悟到，所以讚嘆形容它<quote type="嚴謹引文">「是真、是實、是諦、是如」</quote>。後來的
 <lb n="0020a06" ed="Y"/><lb n="0020a07" ed="Y" type="old"/>學者，把形容緣起法則的話，拿去放在具體事實上，認為一切具體法是真、是實
 <lb n="0020a07" ed="Y"/>、是<lb n="0020a08" ed="Y" type="old"/>諦、是如。如薩婆多學者的執一切有，原因就在此。大乘經中很多名辭——
@@ -148,11 +168,11 @@
 <lb n="0021a01" ed="Y"/>之統一的緣<lb n="0021a02" ed="Y" type="old"/>起法則的必然確實性，別以為具體事物或真實勝義是真、實、諦、如
 <lb n="0021a02" ed="Y"/>，於是問題就多了<lb n="0021a03" ed="Y" type="old"/>！</p></cb:div>
 <lb n="0021a03" ed="Y"/><lb n="0021a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第三項　世俗與勝義</cb:mulu><head>第三項　世俗與勝義</head>
-<lb n="0021a04" ed="Y"/><lb n="0021a05" ed="Y" type="old"/><p style="text-indent:2em">二諦是佛法的綱要，若空若有，都是依此而開顯的。可是現有的阿含中，未
+<lb n="0021a04" ed="Y"/><lb n="0021a05" ed="Y" type="old"/><p xml:id="pY11p0021a0401" style="text-indent:2em">二諦是佛法的綱要，若空若有，都是依此而開顯的。可是現有的阿含中，未
 <lb n="0021a05" ed="Y"/><lb n="0021a06" ed="Y" type="old"/>見有明白的說明。不過，照<bibl><title level="m">《俱舍論》</title><biblScope n="22" type="卷">卷二二</biblScope></bibl>所說的<quote source="T29n1558_p0116b11" type="嚴謹引文">「餘經復說諦有二種」<note n="0021001" resp="周怡曄" type="add">《阿毘達磨俱舍論》卷22〈6 分別賢聖品〉(CBETA, T29, no. 1558, p. 116, b11)</note></quote>，阿
 <lb n="0021a06" ed="Y"/><lb n="0021a07" ed="Y" type="old"/>含應該有明闡二諦的經文，只是漢譯本中未曾譯出罷了。況且二諦是大小空有一
 <lb n="0021a07" ed="Y"/><lb n="0021a08" ed="Y" type="old"/>切部派共同承認而無異議的，那是根本佛教所有，應該是不成問題的。</p>
-<lb n="0021a08" ed="Y"/><lb n="0021a09" ed="Y" type="old"/><p style="text-indent:2em">「諦」，是正確不顛倒義，與實在不同，它是真實而不顛倒的，是從認識的
+<lb n="0021a08" ed="Y"/><lb n="0021a09" ed="Y" type="old"/><p xml:id="pY11p0021a0801" style="text-indent:2em">「諦」，是正確不顛倒義，與實在不同，它是真實而不顛倒的，是從認識的
 <lb n="0021a09" ed="Y"/><lb n="0021a10" ed="Y" type="old"/>符合對象而說的。真實只應有一個，不會是多的，為什麼說「諦」有二種呢？這
 <lb n="0021a10" ed="Y"/><lb n="0021a11" ed="Y" type="old"/>是後代學者所深切注意到的，小乘如<title level="m">《大毘婆沙論》</title>、<title level="m">《順正理論》</title>，大乘如<title level="m">《
 <lb n="0021a11" ed="Y"/>大般涅槃經》</title><lb n="0021a12" ed="Y" type="old"/>、<title level="m">《仁王般若經》</title>等，都曾討論過這問題。在這裡，我們要承認：
@@ -162,32 +182,32 @@
 <lb n="0022a02" ed="Y"/>了。若是真實而<lb n="0022a03" ed="Y" type="old"/>非一般人所能認識的，那是聖者同證的特殊境界，是第一義諦。
 <lb n="0022a03" ed="Y"/>世俗的真實，只<lb n="0022a04" ed="Y" type="old"/>要世俗立場以為真實就可以了，不必是理想所欲證達的究竟真實
 <lb n="0022a04" ed="Y"/>——聖者的證境<lb n="0022a05" ed="Y" type="old"/>，因為那是依第一義的立場說的。</p>
-<lb n="0022a05" ed="Y"/><lb n="0022a06" ed="Y" type="old"/><p style="text-indent:2em">所以，二諦是從不同的認識而安立的兩種真實；雖不是彼此無關，但卻是各
+<lb n="0022a05" ed="Y"/><lb n="0022a06" ed="Y" type="old"/><p xml:id="pY11p0022a0501" style="text-indent:2em">所以，二諦是從不同的認識而安立的兩種真實；雖不是彼此無關，但卻是各
 <lb n="0022a06" ed="Y"/><lb n="0022a07" ed="Y" type="old"/>就所見而說。釋尊不像庸俗者的固執世俗，能引凡入聖，闡述這即俗而真、隨順
-<lb n="0022a07" ed="Y"/><lb n="0022a08" ed="Y" type="old"/>第一義的世俗法，稱之為中道的立場，如<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.300">三〇〇經</ref></bibl>說：</p>
-<lb n="0022a08" ed="Y"/><lb n="0022a09" ed="Y" type="old"/><quote source="T02n0099_p0085c12-13" type="嚴謹引文"><p style="margin-left:3em">離此二邊，處於中道而說法，所謂：此有故彼有，此起故彼起。<note n="0022001" resp="周怡曄" type="add">《雜阿含經》卷12(CBETA, T02, no. 99, p. 85, c12-13)</note></p></quote>
-<lb n="0022a09" ed="Y"/><lb n="0022a10" ed="Y" type="old"/><p style="text-indent:2em">中道立場的說法，不落凡夫二邊的惡見，而能即俗明真，是恰到好處的說法
+<lb n="0022a07" ed="Y"/><lb n="0022a08" ed="Y" type="old"/>第一義的世俗法，稱之為中道的立場，如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.300" type="taisho">三〇〇經</ref></bibl>說：</p>
+<lb n="0022a08" ed="Y"/><lb n="0022a09" ed="Y" type="old"/><quote source="T02n0099_p0085c12-13" type="嚴謹引文"><p xml:id="pY11p0022a0801" style="margin-left:3em">離此二邊，處於中道而說法，所謂：此有故彼有，此起故彼起。<note n="0022001" resp="周怡曄" type="add">《雜阿含經》卷12(CBETA, T02, no. 99, p. 85, c12-13)</note></p></quote>
+<lb n="0022a09" ed="Y"/><lb n="0022a10" ed="Y" type="old"/><p xml:id="pY11p0022a0901" style="text-indent:2em">中道立場的說法，不落凡夫二邊的惡見，而能即俗明真，是恰到好處的說法
 <lb n="0022a10" ed="Y"/><lb n="0022a11" ed="Y" type="old"/>。這所說的就是<quote type="嚴謹引文">「此有故彼有」</quote>的緣起法。中道，本形容中正不偏。<title level="m">《阿含經》</title>
 <lb n="0022a11" ed="Y"/>中，<lb n="0022a12" ed="Y" type="old"/>就行為實踐上說的，是離苦樂二邊的不苦不樂的中道行（八正道）。在事理
 <lb n="0022a12" ed="Y"/>上說<lb n="0022a13" ed="Y" type="old"/>的，即緣起法。緣起法是佛教的中道法，為什麼呢？因為緣起法可以離諸邊
-<lb n="0022a13" ed="Y"/>邪執<pb n="0023a" ed="Y" xml:id="Y11.0011.0023a.old" type="old"/><lb n="0023a01" ed="Y" type="old"/>見。如<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.300">三〇〇經</ref>與<ref type="taisho" target="#no:99.961">九六一經</ref></bibl>，說緣起以離常斷二邊見；<ref type="taisho" target="#no:99.926">九二六
+<lb n="0022a13" ed="Y"/>邪執<pb n="0023a" ed="Y" xml:id="Y11.0011.0023a.old" type="old"/><lb n="0023a01" ed="Y" type="old"/>見。如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.300" type="taisho">三〇〇經</ref>與<ref target="#no:99.961" type="taisho">九六一經</ref></bibl>，說緣起以離常斷二邊見；<ref target="#no:99.926" type="taisho">九二六
 <pb n="0023a" ed="Y" xml:id="Y11.0011.0023a"/>
-<lb n="0023a01" ed="Y"/>經</ref>與<ref type="taisho" target="#no:99.262">二<lb n="0023a02" ed="Y" type="old"/>六二經</ref>，說緣起以離有無二邊見；<ref type="taisho" target="#no:99.297">二九七經</ref>說緣起以離一異二邊見。這斷
+<lb n="0023a01" ed="Y"/>經</ref>與<ref target="#no:99.262" type="taisho">二<lb n="0023a02" ed="Y" type="old"/>六二經</ref>，說緣起以離有無二邊見；<ref target="#no:99.297" type="taisho">二九七經</ref>說緣起以離一異二邊見。這斷
 <lb n="0023a02" ed="Y"/>常、有<lb n="0023a03" ed="Y" type="old"/>無、一異等偏邪執見，均可由這緣起法來遠離它；反過來，可顯示緣起法
 <lb n="0023a03" ed="Y"/>的不斷<lb n="0023a04" ed="Y" type="old"/>不常、非有非無、不一不異。一面破諸外道的偏邪，一面顯示諸法的實相
 <lb n="0023a04" ed="Y"/>，所以<lb n="0023a05" ed="Y" type="old"/>緣起法是中道。</p>
-<lb n="0023a05" ed="Y"/><lb n="0023a06" ed="Y" type="old"/><p style="text-indent:2em">這中道立場所說的緣起法，到底是世俗呢？還是第一義呢？是世俗。<bibl><title level="m">《雜阿
-<lb n="0023a06" ed="Y"/><lb n="0023a07" ed="Y" type="old"/>含經》</title><ref type="taisho" target="#no:99.335">三三五經</ref>（<title level="m">《第一義空經》</title>）</bibl>說：</p>
-<lb n="0023a07" ed="Y"/><lb n="0023a08" ed="Y" type="old"/><quote source="T02n0099_p0092c20" type="嚴謹引文"><p style="margin-left:3em">俗數法者，謂此有故彼有。<note n="0023001" resp="周怡曄" type="add">《雜阿含經》卷13(CBETA, T02, no. 99, p. 92, c20)</note></p></quote>
-<lb n="0023a08" ed="Y"/><lb n="0023a09" ed="Y" type="old"/><p style="text-indent:2em"><bibl>《<title level="m">增一阿含經</title>．<title level="a">六重品</title>》<ref target="#no:125.37.7" type="taisho">第七經</ref></bibl>，也有相同的文句：</p>
-<lb n="0023a09" ed="Y"/><lb n="0023a10" ed="Y" type="old"/><quote source="T02n0125_p0713c18-19" type="嚴謹引文"><p style="margin-left:3em">云何假號因緣？所謂緣是有是，此生則生。<note n="0023002" resp="周怡曄" type="add">《增壹阿含經》卷30〈37 六重品〉：「云何假號、因緣？所謂[20]是有[21]則有，此生則生」(CBETA, T02, no. 125, p. 713, c18-19)[20]（緣）＋是【宋】【元】【明】。[21]則有＝是【宋】【元】【明】【聖】</note></p></quote>
-<lb n="0023a10" ed="Y"/><lb n="0023a11" ed="Y" type="old"/><p style="text-indent:2em">中道立場所說的<quote type="嚴謹引文">「此有故彼有」</quote>的緣起法，經中說是「俗數法」<note n="0023003" resp="周怡曄" type="add">《雜阿含經》卷13(CBETA, T02, no. 99, p. 92, c20)</note>，是就世間
+<lb n="0023a05" ed="Y"/><lb n="0023a06" ed="Y" type="old"/><p xml:id="pY11p0023a0501" style="text-indent:2em">這中道立場所說的緣起法，到底是世俗呢？還是第一義呢？是世俗。<bibl><title level="m">《雜阿
+<lb n="0023a06" ed="Y"/><lb n="0023a07" ed="Y" type="old"/>含經》</title><ref target="#no:99.335" type="taisho">三三五經</ref>（<title level="m">《第一義空經》</title>）</bibl>說：</p>
+<lb n="0023a07" ed="Y"/><lb n="0023a08" ed="Y" type="old"/><quote source="T02n0099_p0092c20" type="嚴謹引文"><p xml:id="pY11p0023a0701" style="margin-left:3em">俗數法者，謂此有故彼有。<note n="0023001" resp="周怡曄" type="add">《雜阿含經》卷13(CBETA, T02, no. 99, p. 92, c20)</note></p></quote>
+<lb n="0023a08" ed="Y"/><lb n="0023a09" ed="Y" type="old"/><p xml:id="pY11p0023a0801" style="text-indent:2em"><bibl>《<title level="m">增一阿含經</title>．<title level="a">六重品</title>》<ref target="#no:125.37.7" type="taisho">第七經</ref></bibl>，也有相同的文句：</p>
+<lb n="0023a09" ed="Y"/><lb n="0023a10" ed="Y" type="old"/><quote source="T02n0125_p0713c18-19" type="嚴謹引文"><p xml:id="pY11p0023a0901" style="margin-left:3em">云何假號因緣？所謂緣是有是，此生則生。<note n="0023002" resp="周怡曄" type="add">《增壹阿含經》卷30〈37 六重品〉：「云何假號、因緣？所謂[20]是有[21]則有，此生則生」(CBETA, T02, no. 125, p. 713, c18-19)[20]（緣）＋是【宋】【元】【明】。[21]則有＝是【宋】【元】【明】【聖】</note></p></quote>
+<lb n="0023a10" ed="Y"/><lb n="0023a11" ed="Y" type="old"/><p xml:id="pY11p0023a1001" style="text-indent:2em">中道立場所說的<quote type="嚴謹引文">「此有故彼有」</quote>的緣起法，經中說是「俗數法」<note n="0023003" resp="周怡曄" type="add">《雜阿含經》卷13(CBETA, T02, no. 99, p. 92, c20)</note>，是就世間
 <lb n="0023a11" ed="Y"/><lb n="0023a12" ed="Y" type="old"/>一切因果生滅的假名因緣建立的。即假名緣起以離我我所、常斷、有無、一異等
 <lb n="0023a12" ed="Y"/><lb n="0023a13" ed="Y" type="old"/>邪見。因離執而悟入的，是第一義空，故<cit><bibl><title level="m">《中論》</title>說：</bibl><quote source="T30n1564_p0018c16-17" type="嚴謹引文">「大聖說空法，為離諸見<pb n="0024a" ed="Y" xml:id="Y11.0011.0024a.old" type="old"/>
 <lb n="0023a13" ed="Y"/><lb n="0024a01" ed="Y" type="old"/>故。」</quote><note n="0023004" resp="周怡曄" type="add">《中論》卷2〈13 觀行品〉(CBETA, T30, no. 1564, p. 18, c16-17)</note></cit>緣起生滅法是俗數假名法，於中能離諸錯亂，便是第一義空。是正確不顛
 <pb n="0024a" ed="Y" xml:id="Y11.0011.0024a"/>
 <lb n="0024a01" ed="Y"/><lb n="0024a02" ed="Y" type="old"/>倒的世俗諦，能即此緣起法以顯示第一義諦，所以稱為中道。</p>
-<lb n="0024a02" ed="Y"/><lb n="0024a03" ed="Y" type="old"/><p style="text-indent:2em">如不細心的思考，將覺到如來說法的矛盾。前說緣起是真是實，此卻說是俗
+<lb n="0024a02" ed="Y"/><lb n="0024a03" ed="Y" type="old"/><p xml:id="pY11p0024a0201" style="text-indent:2em">如不細心的思考，將覺到如來說法的矛盾。前說緣起是真是實，此卻說是俗
 <lb n="0024a03" ed="Y"/><lb n="0024a04" ed="Y" type="old"/>數假名法，到底是真是假？空者見假，有者執實，各走極端了。其實並不矛盾，
 <lb n="0024a04" ed="Y"/><lb n="0024a05" ed="Y" type="old"/>如來說法是不會矛盾的。緣起法則確實如是，認識與對象符合，確然不謬，所以
 <lb n="0024a05" ed="Y"/><lb n="0024a06" ed="Y" type="old"/>說是真是實。此因果的具體法是實有自體嗎？是有常住不變性嗎？有主宰獨立性
@@ -200,7 +220,7 @@
 <lb n="0024a12" ed="Y"/><lb n="0024a13" ed="Y" type="old"/>解體驗到第一義真實之空，所以解脫，所以能知世俗諦是假名；凡夫不能了解，<pb n="0025a" ed="Y" xml:id="Y11.0011.0025a.old" type="old"/>
 <lb n="0024a13" ed="Y"/><lb n="0025a01" ed="Y" type="old"/>執此假名為真實有，只說某一些是假名的、是空的，所以就生死流轉了。</p>
 <pb n="0025a" ed="Y" xml:id="Y11.0011.0025a"/>
-<lb n="0025a01" ed="Y"/><lb n="0025a02" ed="Y" type="old"/><p cb:type="pre">　　　　　　　　　　　　　　　　　<seg rend="bold">解脫</seg>
+<lb n="0025a01" ed="Y"/><lb n="0025a02" ed="Y" type="old"/><p cb:type="pre" xml:id="pY11p0025a0101">　　　　　　　　　　　　　　　　　<seg rend="bold">解脫</seg>
 <lb n="0025a02" ed="Y"/>　　　　　　　　　　　　┌───→│
 <lb n="0025a03" ed="Y"/>　　　　　┌─────<seg rend="bold">世</seg>┘真實故空│
 <lb n="0025a04" ed="Y"/>　　　　　│假名故空　：　　　　　│
@@ -218,10 +238,10 @@
 <lb n="0025a16" ed="Y"/>　　　　　│←───┘
 <lb n="0025a17" ed="Y"/>　　　　<seg rend="bold">流轉</seg></p></cb:div>
 <lb n="0025a18" ed="Y"/><lb n="0025a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第四項　思擇與現觀</cb:mulu><head>第四項　思擇與現觀</head>
-<lb n="0025a19" ed="Y"/><lb n="0025a11" ed="Y" type="old"/><p style="text-indent:2em">上面所談，是關於事理的，現在來說「思擇與現觀」。佛法說空，有體驗的
+<lb n="0025a19" ed="Y"/><lb n="0025a11" ed="Y" type="old"/><p xml:id="pY11p0025a1901" style="text-indent:2em">上面所談，是關於事理的，現在來說「思擇與現觀」。佛法說空，有體驗的
 <lb n="0025a20" ed="Y"/><lb n="0025a12" ed="Y" type="old"/>方法，這是屬於修行實踐的，也可說是「空的方法論」。學者每因所用方法的不
 <lb n="0025a21" ed="Y"/><lb n="0025a13" ed="Y" type="old"/>同，而對空也就說得不同，這可見方法論的重要。</p><pb n="0026a" ed="Y" xml:id="Y11.0011.0026a.old" type="old"/>
-<lb n="0025a22" ed="Y"/><lb n="0026a01" ed="Y" type="old"/><p style="text-indent:2em">先說現觀。經中說的知法、現法、入法，正見、正觀、如實知……等，都是
+<lb n="0025a22" ed="Y"/><lb n="0026a01" ed="Y" type="old"/><p xml:id="pY11p0025a2201" style="text-indent:2em">先說現觀。經中說的知法、現法、入法，正見、正觀、如實知……等，都是
 <pb n="0026a" ed="Y" xml:id="Y11.0011.0026a"/>
 <lb n="0026a01" ed="Y"/><lb n="0026a02" ed="Y" type="old"/>現觀的別名。現觀，是一種親切、直接而明明白白的體驗；是一種直覺到的經驗
 <lb n="0026a02" ed="Y"/><lb n="0026a03" ed="Y" type="old"/>，不是意識的分別，不是抽象的說明，也不是普通生活的經驗；它是內心深入對
@@ -245,7 +265,7 @@
 <lb n="0027a06" ed="Y"/><lb n="0027a07" ed="Y" type="old"/>去體驗空性之前，必先經過分別智慧的思擇，所以《阿含經》中說：<quote source="T02n0099_p0097b06" type="寬鬆引文">「先得法住
 <lb n="0027a07" ed="Y"/>智，後<lb n="0027a08" ed="Y" type="old"/>得涅槃智。」<note n="0027001" resp="周怡曄" type="add">《雜阿含經》卷14：「先知法住，後知涅槃」(CBETA, T02, no. 99, p. 97, b6)</note></quote>從聞而思，從思而修，從修而證，這是佛法修行的要則，絕
 <lb n="0027a08" ed="Y"/>不容踰<lb n="0027a09" ed="Y" type="old"/>越躐等；踰越，就踏上了錯誤的歧途。</p>
-<lb n="0027a09" ed="Y"/><lb n="0027a10" ed="Y" type="old"/><p style="text-indent:2em">現觀成就的結果，可得到一種離絕一切思惟分別、能知所知平等平等、融然
+<lb n="0027a09" ed="Y"/><lb n="0027a10" ed="Y" type="old"/><p xml:id="pY11p0027a0901" style="text-indent:2em">現觀成就的結果，可得到一種離絕一切思惟分別、能知所知平等平等、融然
 <lb n="0027a10" ed="Y"/><lb n="0027a11" ed="Y" type="old"/>一體的直覺，這是大小經論所共認的。不過，在這以前的思擇，學派間就有所不
 <lb n="0027a11" ed="Y"/><lb n="0027a12" ed="Y" type="old"/>同。佛說：人們種種思想見解的不同，是為了界的不同。界，是類的意思；環境
 <lb n="0027a12" ed="Y"/><lb n="0027a13" ed="Y" type="old"/>、文化、觀點、方法的不同，影響到所得的結論不同。佛法中學派思想的分歧，<pb n="0028a" ed="Y" xml:id="Y11.0011.0028a.old" type="old"/>
@@ -253,7 +273,7 @@
 <pb n="0028a" ed="Y" xml:id="Y11.0011.0028a"/>
 <lb n="0028a01" ed="Y"/><lb n="0028a02" ed="Y" type="old"/>的意義上說，思想見解是不容許混亂的；那麼，我們對於方法也就不能不注意求
 <lb n="0028a02" ed="Y"/><lb n="0028a03" ed="Y" type="old"/>其統一了。</p>
-<lb n="0028a03" ed="Y"/><lb n="0028a04" ed="Y" type="old"/><p style="text-indent:2em">阿含的觀察方法，最重要的一點，是以有情的生命之流為中心對象的。這生
+<lb n="0028a03" ed="Y"/><lb n="0028a04" ed="Y" type="old"/><p xml:id="pY11p0028a0301" style="text-indent:2em">阿含的觀察方法，最重要的一點，是以有情的生命之流為中心對象的。這生
 <lb n="0028a04" ed="Y"/><lb n="0028a05" ed="Y" type="old"/>命之流有多方面：一、身心相關，如經中說的六處，是說明這方面的。二、心境
 <lb n="0028a05" ed="Y"/><lb n="0028a06" ed="Y" type="old"/>相知，有情是有意識活動的；有能知的精神，就發現到所知的境界。經中說的五
 <lb n="0028a06" ed="Y"/><lb n="0028a07" ed="Y" type="old"/>蘊，就是說明這差別的。三、業果相續，從認識到發為行為的活動，影響於未來
@@ -261,7 +281,7 @@
 <lb n="0028a08" ed="Y"/><lb n="0028a09" ed="Y" type="old"/>命之流較具體圓滿的說明；佛法觀察的對象，就是以此為中心的。所以佛法的探
 <lb n="0028a09" ed="Y"/><lb n="0028a10" ed="Y" type="old"/>究，可說是對生命之流的一種觀察與體驗，故佛法是宗教，也可說是徹底的生命
 <lb n="0028a10" ed="Y"/><lb n="0028a11" ed="Y" type="old"/>哲學。假使忽略了有情本位的立場，便是破壞佛法的根本立場。</p>
-<lb n="0028a11" ed="Y"/><lb n="0028a12" ed="Y" type="old"/><p style="text-indent:2em">以有情生命為對象去觀察，其方法可以有三種：一、靜止的分析：將有情作
+<lb n="0028a11" ed="Y"/><lb n="0028a12" ed="Y" type="old"/><p xml:id="pY11p0028a1101" style="text-indent:2em">以有情生命為對象去觀察，其方法可以有三種：一、靜止的分析：將有情作
 <lb n="0028a12" ed="Y"/><lb n="0028a13" ed="Y" type="old"/>一種靜的觀察而加以分析，分析而又綜合它。這在因果事相的辨析，佛教做到相<pb n="0029a" ed="Y" xml:id="Y11.0011.0029a.old" type="old"/>
 <lb n="0028a13" ed="Y"/><lb n="0029a01" ed="Y" type="old"/>當的嚴密；西北印的佛學者，於此用力最勤。二、流動的觀察：在生命不斷的發
 <pb n="0029a" ed="Y" xml:id="Y11.0011.0029a"/>
@@ -272,7 +292,7 @@
 <lb n="0029a05" ed="Y"/><lb n="0029a06" ed="Y" type="old"/>的體察。這是後一種）。所得的，不再是它的表象，而是深入它的本性；直顯一
 <lb n="0029a06" ed="Y"/><lb n="0029a07" ed="Y" type="old"/>切法如幻皆空的，就是用的這類方法。但這需要建立於前二者的基礎上，即依於
 <lb n="0029a07" ed="Y"/><lb n="0029a08" ed="Y" type="old"/>同時的彼此析合，前後的起滅斷續，否則，不過是孤立而靜止的神我見。</p>
-<lb n="0029a08" ed="Y"/><lb n="0029a09" ed="Y" type="old"/><p style="text-indent:2em">佛陀用這分析、推理、直觀方法來觀察，我們也應合理善巧的應用。依修學
+<lb n="0029a08" ed="Y"/><lb n="0029a09" ed="Y" type="old"/><p xml:id="pY11p0029a0801" style="text-indent:2em">佛陀用這分析、推理、直觀方法來觀察，我們也應合理善巧的應用。依修學
 <lb n="0029a09" ed="Y"/><lb n="0029a10" ed="Y" type="old"/>的次第可以這樣：初學的，先作事理的辨析，然後推理以求其條貫之理則，然後
 <lb n="0029a10" ed="Y"/><lb n="0029a11" ed="Y" type="old"/>去體驗當體的空性。大體如此，而實際上仍須有機的適當配合起來。這些方法都
 <lb n="0029a11" ed="Y"/><lb n="0029a12" ed="Y" type="old"/>是不可缺的，後代佛弟子也都應用過，只因偏用不周，而致分化各走一端。我們
@@ -280,42 +300,42 @@
 <pb n="0030a" ed="Y" xml:id="Y11.0011.0030a"/>
 <lb n="0030a01" ed="Y"/><lb n="0030a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　空之抉擇</cb:mulu><head>第二節　空之抉擇</head>
 <lb n="0030a02" ed="Y"/><lb n="0030a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第一項　無常為論端之蘊空</cb:mulu><head>第一項　無常為論端之蘊空</head>
-<lb n="0030a03" ed="Y"/><lb n="0030a03" ed="Y" type="old"/><p style="text-indent:2em">如來對五蘊法門，曾說道：<quote>「觀五蘊生滅。」</quote>可見佛多半是在生滅無常的觀
+<lb n="0030a03" ed="Y"/><lb n="0030a03" ed="Y" type="old"/><p xml:id="pY11p0030a0301" style="text-indent:2em">如來對五蘊法門，曾說道：<quote>「觀五蘊生滅。」</quote>可見佛多半是在生滅無常的觀
 <lb n="0030a04" ed="Y"/><lb n="0030a04" ed="Y" type="old"/>點去觀察五蘊性空的。</p>
-<lb n="0030a05" ed="Y"/><lb n="0030a05" ed="Y" type="old"/><p style="text-indent:2em">佛法常說有三法印或四法印；這前面，可以加兩法印的一種。由二句而三句
+<lb n="0030a05" ed="Y"/><lb n="0030a05" ed="Y" type="old"/><p xml:id="pY11p0030a0501" style="text-indent:2em">佛法常說有三法印或四法印；這前面，可以加兩法印的一種。由二句而三句
 <lb n="0030a06" ed="Y"/><lb n="0030a06" ed="Y" type="old"/>而四句，茲依次明之。</p>
-<lb n="0030a07" ed="Y"/><lb n="0030a07" ed="Y" type="old"/><p style="text-indent:2em">最簡要的，是兩句的說明。世間上色等一切法是生滅無常的；而佛法的目標
+<lb n="0030a07" ed="Y"/><lb n="0030a07" ed="Y" type="old"/><p xml:id="pY11p0030a0701" style="text-indent:2em">最簡要的，是兩句的說明。世間上色等一切法是生滅無常的；而佛法的目標
 <lb n="0030a08" ed="Y"/><lb n="0030a08" ed="Y" type="old"/>，亦即人類的最後歸宿，在涅槃解脫。可是常人不知從何去把握涅槃，如來善巧
 <lb n="0030a09" ed="Y"/><lb n="0030a09" ed="Y" type="old"/>的就五蘊無常為出發來說明它。如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.260" type="taisho">二六〇經</ref></bibl>說：</p>
-<lb n="0030a10" ed="Y"/><lb n="0030a10" ed="Y" type="old"/><quote source="T02n0099_p0065c18-19" type="嚴謹引文"><p style="margin-left:3em">陰是本行所作，本所思願，是無常滅法；彼法滅故，是名為滅。<note n="0030001" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 65, c18-19)</note></p></quote>
-<lb n="0030a11" ed="Y"/><lb n="0030a11" ed="Y" type="old"/><p>一切法，有情也好、器界也好，都在滅的過程中前進；一切法的本性，都是歸於
+<lb n="0030a10" ed="Y"/><lb n="0030a10" ed="Y" type="old"/><quote source="T02n0099_p0065c18-19" type="嚴謹引文"><p xml:id="pY11p0030a1001" style="margin-left:3em">陰是本行所作，本所思願，是無常滅法；彼法滅故，是名為滅。<note n="0030001" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 65, c18-19)</note></p></quote>
+<lb n="0030a11" ed="Y"/><lb n="0030a11" ed="Y" type="old"/><p xml:id="pY11p0030a1101">一切法，有情也好、器界也好，都在滅的過程中前進；一切法的本性，都是歸於
 <lb n="0030a12" ed="Y"/><lb n="0030a12" ed="Y" type="old"/>滅，都在向著這個滅的大目標前進。我們只要使它滅而不起，就是涅槃。「涅槃<pb n="0031a" ed="Y" xml:id="Y11.0011.0031a.old" type="old"/>
 <pb n="0031a" ed="Y" xml:id="Y11.0011.0031a"/>
 <lb n="0031a01" ed="Y"/><lb n="0031a01" ed="Y" type="old"/>」譯曰寂滅；不擾動，不生起，體證到本性滅，就是涅槃。一切是本性自滅的，
-<lb n="0031a02" ed="Y"/><lb n="0031a02" ed="Y" type="old"/>不過常人滅了要再生而已，所以<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.956">九五六經</ref></bibl>說：</p>
-<lb n="0031a03" ed="Y"/><lb n="0031a03" ed="Y" type="old"/><quote source="T02n0099_p0244a06-07" type="嚴謹引文"><lg style="margin-left:3em" type="abnormal"><l>一切行無常，悉皆生滅法；有生無不盡，唯寂滅為樂。<note n="0031001" resp="周怡曄" type="add">《雜阿含經》卷34(CBETA, T02, no. 99, p. 244, a6-7)</note></l></lg></quote>
-<lb n="0031a04" ed="Y"/><lb n="0031a04" ed="Y" type="old"/><p style="text-indent:2em">上面是無常生滅與涅槃寂滅的兩句，如<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.270">二七〇經</ref></bibl>加上「無我」
+<lb n="0031a02" ed="Y"/><lb n="0031a02" ed="Y" type="old"/>不過常人滅了要再生而已，所以<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.956" type="taisho">九五六經</ref></bibl>說：</p>
+<lb n="0031a03" ed="Y"/><lb n="0031a03" ed="Y" type="old"/><quote source="T02n0099_p0244a06-07" type="嚴謹引文"><lg xml:id="lgY11p0031a0301" style="margin-left:3em" type="abnormal"><l>一切行無常，悉皆生滅法；有生無不盡，唯寂滅為樂。<note n="0031001" resp="周怡曄" type="add">《雜阿含經》卷34(CBETA, T02, no. 99, p. 244, a6-7)</note></l></lg></quote>
+<lb n="0031a04" ed="Y"/><lb n="0031a04" ed="Y" type="old"/><p xml:id="pY11p0031a0401" style="text-indent:2em">上面是無常生滅與涅槃寂滅的兩句，如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.270" type="taisho">二七〇經</ref></bibl>加上「無我」
 <lb n="0031a05" ed="Y"/>，<lb n="0031a05" ed="Y" type="old"/>就成為三句：</p>
-<lb n="0031a06" ed="Y"/><lb n="0031a06" ed="Y" type="old"/><quote source="T02n0099_p0071a01-02" type="嚴謹引文"><p style="margin-left:3em">無常想者能建立無我想。聖弟子住無我想，心離我慢，順得涅槃。<note n="0031002" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 71, a1-2)</note></p></quote>
-<lb n="0031a07" ed="Y"/><lb n="0031a07" ed="Y" type="old"/><p>從無常出發，以無常為因，成立無我之宗；以無我而達到涅槃。眾生之所以永在
+<lb n="0031a06" ed="Y"/><lb n="0031a06" ed="Y" type="old"/><quote source="T02n0099_p0071a01-02" type="嚴謹引文"><p xml:id="pY11p0031a0601" style="margin-left:3em">無常想者能建立無我想。聖弟子住無我想，心離我慢，順得涅槃。<note n="0031002" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 71, a1-2)</note></p></quote>
+<lb n="0031a07" ed="Y"/><lb n="0031a07" ed="Y" type="old"/><p xml:id="pY11p0031a0701">從無常出發，以無常為因，成立無我之宗；以無我而達到涅槃。眾生之所以永在
 <lb n="0031a08" ed="Y"/><lb n="0031a08" ed="Y" type="old"/>無常生滅中而不涅槃，佛說：問題在執我。佛經說的生死因，如我見、我所見、
 <lb n="0031a09" ed="Y"/><lb n="0031a09" ed="Y" type="old"/>我愛、我慢、我欲、我使等，都加個「我」字。如能斷了我見，就可證須陀洹果
 <lb n="0031a10" ed="Y"/><lb n="0031a10" ed="Y" type="old"/>，能將我慢等（修所斷惑）斷除得一乾二淨，就能證得阿羅漢的涅槃果。所以這
 <lb n="0031a11" ed="Y"/><lb n="0031a11" ed="Y" type="old"/>無常到無我、無我到涅槃的三法印，不但是三種真理（法印），而且是修行的三
 <lb n="0031a12" ed="Y"/><lb n="0031a12" ed="Y" type="old"/>種過程。</p>
-<lb n="0031a13" ed="Y"/><lb n="0031a13" ed="Y" type="old"/><p style="text-indent:2em">又有在無常下加「苦」而成四句的，如<bibl>《<title level="m">增一阿含經</title>．<title level="a">四意斷品</title>》<ref target="#no:125.26.8" type="taisho">第八經</ref></bibl>云：</p><pb n="0032a" ed="Y" xml:id="Y11.0011.0032a.old" type="old"/>
+<lb n="0031a13" ed="Y"/><lb n="0031a13" ed="Y" type="old"/><p xml:id="pY11p0031a1301" style="text-indent:2em">又有在無常下加「苦」而成四句的，如<bibl>《<title level="m">增一阿含經</title>．<title level="a">四意斷品</title>》<ref target="#no:125.26.8" type="taisho">第八經</ref></bibl>云：</p><pb n="0032a" ed="Y" xml:id="Y11.0011.0032a.old" type="old"/>
 <pb n="0032a" ed="Y" xml:id="Y11.0011.0032a"/>
-<lb n="0032a01" ed="Y"/><lb n="0032a01" ed="Y" type="old"/><quote source="T02n0125_p0639a06-08" type="寬鬆引文"><p style="margin-left:3em">一切諸行皆悉無常，一切諸行（應作「受」）苦，一切諸行（應作「法」
+<lb n="0032a01" ed="Y"/><lb n="0032a01" ed="Y" type="old"/><quote source="T02n0125_p0639a06-08" type="寬鬆引文"><p xml:id="pY11p0032a0101" style="margin-left:3em">一切諸行皆悉無常，一切諸行（應作「受」）苦，一切諸行（應作「法」
 <lb n="0032a02" ed="Y"/><lb n="0032a02" ed="Y" type="old"/>）無我，涅槃休息。<note n="0032001" resp="周怡曄" type="add">《增壹阿含經》卷18〈26 四意斷品〉：「一切諸行皆悉無常，我今知之，於四部之眾、天上、人中而作證；二者一切諸行苦；三者一切諸行無我；四者涅槃休息」(CBETA, T02, no. 125, p. 639, a6-8)</note></p></quote>
-<lb n="0032a03" ed="Y"/><lb n="0032a03" ed="Y" type="old"/><p>這樣的經文很多，這不過舉例罷了。這無常、苦、無我、涅槃，就叫四法印或四
+<lb n="0032a03" ed="Y"/><lb n="0032a03" ed="Y" type="old"/><p xml:id="pY11p0032a0301">這樣的經文很多，這不過舉例罷了。這無常、苦、無我、涅槃，就叫四法印或四
 <lb n="0032a04" ed="Y"/><lb n="0032a04" ed="Y" type="old"/>優陀那。經中常說：<quote source="T30n1579_p0388a14" type="嚴謹引文">「無常故苦，苦故無我。」<note n="0032002" resp="周怡曄" type="add">《瑜伽師地論》卷19(CBETA, T30, no. 1579, p. 388, a14)</note></quote>這四印的次第，是有因果的關係
 <lb n="0032a05" ed="Y"/><lb n="0032a05" ed="Y" type="old"/>。在學派中，有主張三法印的，有主張四法印的。其實，三法印就夠了，因為苦
 <lb n="0032a06" ed="Y"/><lb n="0032a06" ed="Y" type="old"/>是五種無常所攝，說無常就含有苦的意義了。如<cit><bibl><title level="m">《雜阿含經》</title><ref target="#no:99.1085" type="taisho">一〇八五經</ref>云：</bibl><quote source="T02n0099_p0284c11-12" type="嚴謹引文">「
 <lb n="0032a07" ed="Y"/>一<lb n="0032a07" ed="Y" type="old"/>切行無常，一切行不恆，不安，非穌息，變易之法。」</quote><note n="0032003" resp="周怡曄" type="add">《雜阿含經》卷39(CBETA, T02, no. 99, p. 284, c11-12)</note></cit>這就在無常變易中顯示
 <lb n="0032a08" ed="Y"/>其<lb n="0032a08" ed="Y" type="old"/>不安樂之苦；所以，可不必別立苦為一法印的。</p>
-<lb n="0032a09" ed="Y"/><lb n="0032a09" ed="Y" type="old"/><p style="text-indent:2em">又，三法印中的無我印，有分析為二句的，如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.9" type="taisho">第九經</ref></bibl>說：</p>
-<lb n="0032a10" ed="Y"/><lb n="0032a10" ed="Y" type="old"/><quote source="T02n0099_p0002a03-04" type="嚴謹引文"><p style="margin-left:3em">無常即苦，苦即非我，非我者亦非我所。<note n="0032004" resp="周怡曄" type="add">《雜阿含經》卷1(CBETA, T02, no. 99, p. 2, a3-4)</note></p></quote>
-<lb n="0032a11" ed="Y"/><lb n="0032a11" ed="Y" type="old"/><p>這在無常、苦、無我之後，加「無我所」成為四句。又如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.1" type="taisho">第一</ref>及<ref type="taisho" target="#no:99.1214">一
+<lb n="0032a09" ed="Y"/><lb n="0032a09" ed="Y" type="old"/><p xml:id="pY11p0032a0901" style="text-indent:2em">又，三法印中的無我印，有分析為二句的，如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.9" type="taisho">第九經</ref></bibl>說：</p>
+<lb n="0032a10" ed="Y"/><lb n="0032a10" ed="Y" type="old"/><quote source="T02n0099_p0002a03-04" type="嚴謹引文"><p xml:id="pY11p0032a1001" style="margin-left:3em">無常即苦，苦即非我，非我者亦非我所。<note n="0032004" resp="周怡曄" type="add">《雜阿含經》卷1(CBETA, T02, no. 99, p. 2, a3-4)</note></p></quote>
+<lb n="0032a11" ed="Y"/><lb n="0032a11" ed="Y" type="old"/><p xml:id="pY11p0032a1101">這在無常、苦、無我之後，加「無我所」成為四句。又如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.1" type="taisho">第一</ref>及<ref target="#no:99.1214" type="taisho">一
 <lb n="0032a12" ed="Y"/>二<lb n="0032a12" ed="Y" type="old"/>一四經</ref>等</bibl>，則說「無常、苦、空、無我」四句。這樣一來，把「空」的意義看
 <lb n="0032a13" ed="Y"/>小<lb n="0032a13" ed="Y" type="old"/>了，使它局限為苦諦四行相之一。於是有部學者，說這個「空」是無即蘊我，
 <pb n="0033a" ed="Y" xml:id="Y11.0011.0033a"/>
@@ -328,16 +348,16 @@
 <lb n="0033a07" ed="Y"/>、苦、<lb n="0033a07" ed="Y" type="old"/>無我三句。把空加上成為四行相，似乎加上了「空」義，而實是把空說小
 <lb n="0033a08" ed="Y"/>了。這<lb n="0033a08" ed="Y" type="old"/>因為，照<title level="m">《雜阿含經》</title>其他的經文看來，空是總相義，是成立無常、苦、
 <lb n="0033a09" ed="Y"/>無我的原<lb n="0033a09" ed="Y" type="old"/>則，如二六五經云：</p>
-<lb n="0033a10" ed="Y"/><lb n="0033a10" ed="Y" type="old"/><quote source="T02n0099_p0068c14-16" type="嚴謹引文"><p style="margin-left:3em">諦觀思惟分別時，無所有，無牢，無實，無有堅固，如病如癰，如刺如殺
+<lb n="0033a10" ed="Y"/><lb n="0033a10" ed="Y" type="old"/><quote source="T02n0099_p0068c14-16" type="嚴謹引文"><p xml:id="pY11p0033a1001" style="margin-left:3em">諦觀思惟分別時，無所有，無牢，無實，無有堅固，如病如癰，如刺如殺
 <lb n="0033a11" ed="Y"/><lb n="0033a11" ed="Y" type="old"/>，無常、苦、空、非我。<note n="0033002" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 68, c14-16)</note></p></quote>
-<lb n="0033a12" ed="Y"/><lb n="0033a12" ed="Y" type="old"/><p>又二七三經云：</p>
-<lb n="0033a13" ed="Y"/><lb n="0033a13" ed="Y" type="old"/><quote source="T02n0099_p0072c14-15" type="嚴謹引文"><p style="margin-left:3em">空諸行；常恆住不變易法空，無我我所。<note n="0033003" resp="周怡曄" type="add">《雜阿含經》卷11(CBETA, T02, no. 99, p. 72, c14-15)</note></p></quote><pb n="0034a" ed="Y" xml:id="Y11.0011.0034a.old" type="old"/>
+<lb n="0033a12" ed="Y"/><lb n="0033a12" ed="Y" type="old"/><p xml:id="pY11p0033a1201">又二七三經云：</p>
+<lb n="0033a13" ed="Y"/><lb n="0033a13" ed="Y" type="old"/><quote source="T02n0099_p0072c14-15" type="嚴謹引文"><p xml:id="pY11p0033a1301" style="margin-left:3em">空諸行；常恆住不變易法空，無我我所。<note n="0033003" resp="周怡曄" type="add">《雜阿含經》卷11(CBETA, T02, no. 99, p. 72, c14-15)</note></p></quote><pb n="0034a" ed="Y" xml:id="Y11.0011.0034a.old" type="old"/>
 <pb n="0034a" ed="Y" xml:id="Y11.0011.0034a"/>
-<lb n="0034a01" ed="Y"/><lb n="0034a01" ed="Y" type="old"/><p>這都先空而後無常、苦、無我；空的是總一切的「諸行」；空是貫穿了常與我我
+<lb n="0034a01" ed="Y"/><lb n="0034a01" ed="Y" type="old"/><p xml:id="pY11p0034a0101">這都先空而後無常、苦、無我；空的是總一切的「諸行」；空是貫穿了常與我我
 <lb n="0034a02" ed="Y"/><lb n="0034a02" ed="Y" type="old"/>所。以總相義的空來否定常，及我、我所，指出常、我、我所的不可得。依這見
 <lb n="0034a03" ed="Y"/><lb n="0034a03" ed="Y" type="old"/>地，不但我空、我所空，無常也是空。<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.232" type="taisho">二三二經</ref></bibl>，說得最為明白：</p>
-<lb n="0034a04" ed="Y"/><lb n="0034a04" ed="Y" type="old"/><quote source="T02n0099_p0056b24-26" type="嚴謹引文"><p style="margin-left:3em">眼空，常恆不變易法空，（我）我所空。所以者何？此性自爾。<note n="0034001" resp="周怡曄" type="add">《雜阿含經》卷9(CBETA, T02, no. 99, p. 56, b24-26)</note></p></quote>
-<lb n="0034a05" ed="Y"/><lb n="0034a05" ed="Y" type="old"/><p>一般學者，在世間生滅現象上，對無常作肯定表詮的解釋，以為無常是法的生滅
+<lb n="0034a04" ed="Y"/><lb n="0034a04" ed="Y" type="old"/><quote source="T02n0099_p0056b24-26" type="嚴謹引文"><p xml:id="pY11p0034a0401" style="margin-left:3em">眼空，常恆不變易法空，（我）我所空。所以者何？此性自爾。<note n="0034001" resp="周怡曄" type="add">《雜阿含經》卷9(CBETA, T02, no. 99, p. 56, b24-26)</note></p></quote>
+<lb n="0034a05" ed="Y"/><lb n="0034a05" ed="Y" type="old"/><p xml:id="pY11p0034a0501">一般學者，在世間生滅現象上，對無常作肯定表詮的解釋，以為無常是法的生滅
 <lb n="0034a06" ed="Y"/><lb n="0034a06" ed="Y" type="old"/>，並不是沒有自體，不是空。不知如來的本意，不在說有，是要在生滅流動中，
 <lb n="0034a07" ed="Y"/><lb n="0034a07" ed="Y" type="old"/>否定其常性的不可得。常性既空，我我所當然也無所有了。「終歸磨滅」與「終
 <lb n="0034a08" ed="Y"/><lb n="0034a08" ed="Y" type="old"/>歸於空」，在阿含中是完全一致的。所以，空是遍通諸行、「此性自爾」的——
@@ -345,17 +365,17 @@
 <lb n="0034a10" ed="Y"/>空<lb n="0034a10" ed="Y" type="old"/>是深入諸法本性的，深而又遍，不應把它看小，局限在「無人我」或「無即蘊
 <lb n="0034a11" ed="Y"/>我<lb n="0034a11" ed="Y" type="old"/>」上；這僅是空義的少分罷了！總之，蘊法門是以無常為論端的，即諸行之生
 <lb n="0034a12" ed="Y"/>滅<lb n="0034a12" ed="Y" type="old"/>無常，群趨於滅，而顯示其皆空，達到涅槃寂滅。</p>
-<lb n="0034a13" ed="Y"/><lb n="0034a13" ed="Y" type="old"/><p style="text-indent:2em">在這裡，順便談談無常、苦、無我的理由。</p><pb n="0035a" ed="Y" xml:id="Y11.0011.0035a.old" type="old"/>
+<lb n="0034a13" ed="Y"/><lb n="0034a13" ed="Y" type="old"/><p xml:id="pY11p0034a1301" style="text-indent:2em">在這裡，順便談談無常、苦、無我的理由。</p><pb n="0035a" ed="Y" xml:id="Y11.0011.0035a.old" type="old"/>
 <pb n="0035a" ed="Y" xml:id="Y11.0011.0035a"/>
-<lb n="0035a01" ed="Y"/><lb n="0035a01" ed="Y" type="old"/><p style="text-indent:2em">在一切流變的世法中，佛見出它的無常，就在現實的事象上指示我們去認識
+<lb n="0035a01" ed="Y"/><lb n="0035a01" ed="Y" type="old"/><p xml:id="pY11p0035a0101" style="text-indent:2em">在一切流變的世法中，佛見出它的無常，就在現實的事象上指示我們去認識
 <lb n="0035a02" ed="Y"/><lb n="0035a02" ed="Y" type="old"/>。本來，一切法都在變動，絕對常性的不可能，世間學者每能體會到此；就是一
 <lb n="0035a03" ed="Y"/><lb n="0035a03" ed="Y" type="old"/>般常人，也可以知道多少。但是，人們總不能徹底，總想要有個常性才好，或以
 <lb n="0035a04" ed="Y"/><lb n="0035a04" ed="Y" type="old"/>為生滅無常現象的後面有個常住的實體，或以為某分是無常，某分是常——如唯
 <lb n="0035a05" ed="Y"/><lb n="0035a05" ed="Y" type="old"/>心論者之心。以佛教的觀點看，不管內心外物，一切都是無常的。對這個道理，
 <lb n="0035a06" ed="Y"/><lb n="0035a06" ed="Y" type="old"/>釋尊曾用多少方法譬喻來顯示。現在且說兩點：</p>
-<lb n="0035a07" ed="Y"/><lb n="0035a07" ed="Y" type="old"/><p style="text-indent:2em">第一，以過未顯示現在無常，如<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.8">第八經</ref></bibl>云：</p>
-<lb n="0035a08" ed="Y"/><lb n="0035a08" ed="Y" type="old"/><quote source="T02n0099_p0001c23-24" type="嚴謹引文"><p style="margin-left:3em">過去未來色無常，況現在色！<note n="0035001" resp="周怡曄" type="add">《雜阿含經》卷1(CBETA, T02, no. 99, p. 1, c23-24)</note></p></quote>
-<lb n="0035a09" ed="Y"/><lb n="0035a09" ed="Y" type="old"/><p>這個見解，在常識上或以為希奇。其實，那是時間觀念的錯誤。佛說三世有（姑
+<lb n="0035a07" ed="Y"/><lb n="0035a07" ed="Y" type="old"/><p xml:id="pY11p0035a0701" style="text-indent:2em">第一，以過未顯示現在無常，如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.8" type="taisho">第八經</ref></bibl>云：</p>
+<lb n="0035a08" ed="Y"/><lb n="0035a08" ed="Y" type="old"/><quote source="T02n0099_p0001c23-24" type="嚴謹引文"><p xml:id="pY11p0035a0801" style="margin-left:3em">過去未來色無常，況現在色！<note n="0035001" resp="周怡曄" type="add">《雜阿含經》卷1(CBETA, T02, no. 99, p. 1, c23-24)</note></p></quote>
+<lb n="0035a09" ed="Y"/><lb n="0035a09" ed="Y" type="old"/><p xml:id="pY11p0035a0901">這個見解，在常識上或以為希奇。其實，那是時間觀念的錯誤。佛說三世有（姑
 <lb n="0035a10" ed="Y"/><lb n="0035a10" ed="Y" type="old"/>且不問是實有或是幻有），既有時間相，必然是指向前有過去相，指向後有未來
 <lb n="0035a11" ed="Y"/><lb n="0035a11" ed="Y" type="old"/>相。只要有時間性的，必然就有前後向，有這過去與未來。眾生對當前執著，同
 <lb n="0035a12" ed="Y"/><lb n="0035a12" ed="Y" type="old"/>時也不斷的顧戀過去，欣求未來。佛法上過現未之分別是：已生已滅的叫過去，
@@ -365,15 +385,15 @@
 <lb n="0036a02" ed="Y"/><lb n="0036a02" ed="Y" type="old"/>過去已滅，未來未生，現在即生即滅，正可表示其無常。現在依過未而存在，過
 <lb n="0036a03" ed="Y"/><lb n="0036a03" ed="Y" type="old"/>未尚且無常，何況現在！佛觀無常，在過未推移中安立現在，過未無常不成問題
 <lb n="0036a04" ed="Y"/><lb n="0036a04" ed="Y" type="old"/>，就依之以表示現在常性的不可得，而了達於空。</p>
-<lb n="0036a05" ed="Y"/><lb n="0036a05" ed="Y" type="old"/><p style="text-indent:2em">第二，以因緣顯示無常，如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.11" type="taisho">一一經</ref></bibl>云：</p>
-<lb n="0036a06" ed="Y"/><lb n="0036a06" ed="Y" type="old"/><quote source="T02n0099_p0002a22-24" type="嚴謹引文"><p style="margin-left:3em">若因若緣生諸色者，彼亦無常；無常因無常緣所生諸色，云何有常？<note n="0036001" resp="周怡曄" type="add">《雜阿含經》卷1(CBETA, T02, no. 99, p. 2, a22-24)</note></p></quote>
-<lb n="0036a07" ed="Y"/><lb n="0036a07" ed="Y" type="old"/><p>諸行是依無常因生的，所以無常。這與一般人的常識觀念又不同；一般人雖談因
+<lb n="0036a05" ed="Y"/><lb n="0036a05" ed="Y" type="old"/><p xml:id="pY11p0036a0501" style="text-indent:2em">第二，以因緣顯示無常，如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.11" type="taisho">一一經</ref></bibl>云：</p>
+<lb n="0036a06" ed="Y"/><lb n="0036a06" ed="Y" type="old"/><quote source="T02n0099_p0002a22-24" type="嚴謹引文"><p xml:id="pY11p0036a0601" style="margin-left:3em">若因若緣生諸色者，彼亦無常；無常因無常緣所生諸色，云何有常？<note n="0036001" resp="周怡曄" type="add">《雜阿含經》卷1(CBETA, T02, no. 99, p. 2, a22-24)</note></p></quote>
+<lb n="0036a07" ed="Y"/><lb n="0036a07" ed="Y" type="old"/><p xml:id="pY11p0036a0701">諸行是依無常因生的，所以無常。這與一般人的常識觀念又不同；一般人雖談因
 <lb n="0036a08" ed="Y"/><lb n="0036a08" ed="Y" type="old"/>果，但總以為推之最後，應該成立一個常在的本因。佛則說：凡為因緣法，必定
 <lb n="0036a09" ed="Y"/><lb n="0036a09" ed="Y" type="old"/>都是無常的。因果的關係是不即而不離的，所以，因無常，果也必然的無常。何
 <lb n="0036a10" ed="Y"/><lb n="0036a10" ed="Y" type="old"/>以知因是無常呢？在時間上說，因果不同時，說果從因生的時候，早就意味著因
 <lb n="0036a11" ed="Y"/><lb n="0036a11" ed="Y" type="old"/>的過去，這怎麼不是無常呢？——因果若同時現在，那一法是因，那一法是果，
 <lb n="0036a12" ed="Y"/><lb n="0036a12" ed="Y" type="old"/>到底如何確定，這是無法解決的。所以安立世諦因果，多約時間的先後說。</p>
-<lb n="0036a13" ed="Y"/><lb n="0036a13" ed="Y" type="old"/><p style="text-indent:2em">另提出一點與無常有關的問題。問題是這樣的：一般凡夫，對於色法，很能<pb n="0037a" ed="Y" xml:id="Y11.0011.0037a.old" type="old"/>
+<lb n="0036a13" ed="Y"/><lb n="0036a13" ed="Y" type="old"/><p xml:id="pY11p0036a1301" style="text-indent:2em">另提出一點與無常有關的問題。問題是這樣的：一般凡夫，對於色法，很能<pb n="0037a" ed="Y" xml:id="Y11.0011.0037a.old" type="old"/>
 <pb n="0037a" ed="Y" xml:id="Y11.0011.0037a"/>
 <lb n="0037a01" ed="Y"/><lb n="0037a01" ed="Y" type="old"/>夠知道它的無常，而對心法卻反不能。本來，色法有相當的安定性，日常器皿到
 <lb n="0037a02" ed="Y"/><lb n="0037a02" ed="Y" type="old"/>山河大地，可以存在得百十年到千萬年，說它是常，錯得還有點近情；但一般還
@@ -383,21 +403,21 @@
 <lb n="0037a06" ed="Y"/><lb n="0037a06" ed="Y" type="old"/>在的這個心，就不應再無常了，它是唯一常住的。循著這思想推演，終可與唯神
 <lb n="0037a07" ed="Y"/><lb n="0037a07" ed="Y" type="old"/>論或唯我論、唯心論相合。至於佛法，則認為心與色是同樣的無常，所以<bibl><title level="m">《雜阿
 <lb n="0037a08" ed="Y"/>含<lb n="0037a08" ed="Y" type="old"/>經》</title><ref target="#no:99.289" type="taisho">二八九經</ref></bibl>說：</p>
-<lb n="0037a09" ed="Y"/><lb n="0037a09" ed="Y" type="old"/><quote source="T02n0099_p0081c05-17" type="嚴謹引文"><p style="margin-left:3em">凡夫於四大身，厭患離欲背捨而非識，……心意識日夜時刻須臾轉變，異
+<lb n="0037a09" ed="Y"/><lb n="0037a09" ed="Y" type="old"/><quote source="T02n0099_p0081c05-17" type="嚴謹引文"><p xml:id="pY11p0037a0901" style="margin-left:3em">凡夫於四大身，厭患離欲背捨而非識，……心意識日夜時刻須臾轉變，異
 <lb n="0037a10" ed="Y"/><lb n="0037a10" ed="Y" type="old"/>生異滅，猶如獼猴。<note n="0037001" resp="周怡曄" type="add">《雜阿含經》卷12：「愚癡無聞凡夫於四大身厭患、離欲、背捨而非識。所以者何？見四大身有增、有減、有取、有捨，而於心、意、識，愚癡無聞凡夫不能生厭、離欲、解脫。所以者何？彼長夜於此保惜繫我，若得、若取，言：『是我、我所、相在。』是故愚癡無聞凡夫不能於彼生厭、離欲、背捨。愚癡無聞凡夫寧於四大身繫我、我所，不可於識繫我、我所。所以者何？四大色身或見十年住，二十、三十，乃至百年，若善消息或復[10]小過。彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。」(CBETA, T02, no. 99, p. 81, c5-17)</note></p></quote>
-<lb n="0037a11" ed="Y"/><lb n="0037a11" ed="Y" type="old"/><p>色法尚有暫時的安住，心法則猶如獼猴，是即生即滅的，連「住」相都沒有，可
+<lb n="0037a11" ed="Y"/><lb n="0037a11" ed="Y" type="old"/><p xml:id="pY11p0037a1101">色法尚有暫時的安住，心法則猶如獼猴，是即生即滅的，連「住」相都沒有，可
 <lb n="0037a12" ed="Y"/><lb n="0037a12" ed="Y" type="old"/>說是最無常的了。對這色心同樣無常的道理，假使不能圓滿的理解接受，必然要
 <lb n="0037a13" ed="Y"/><lb n="0037a13" ed="Y" type="old"/>走上非無常非無我的反佛教的立場。</p><pb n="0038a" ed="Y" xml:id="Y11.0011.0038a.old" type="old"/>
 <pb n="0038a" ed="Y" xml:id="Y11.0011.0038a"/>
-<lb n="0038a01" ed="Y"/><lb n="0038a01" ed="Y" type="old"/><p style="text-indent:2em">其次，說明苦的理由。無常是否定的，否定諸行，說它終究是要毀滅的。終
+<lb n="0038a01" ed="Y"/><lb n="0038a01" ed="Y" type="old"/><p xml:id="pY11p0038a0101" style="text-indent:2em">其次，說明苦的理由。無常是否定的，否定諸行，說它終究是要毀滅的。終
 <lb n="0038a02" ed="Y"/><lb n="0038a02" ed="Y" type="old"/>要毀滅，正是赤裸裸的現實真相，釋尊不過把它指出，要求我們承認而已。這不
 <lb n="0038a03" ed="Y"/><lb n="0038a03" ed="Y" type="old"/>使人感到逼迫痛苦嗎？在佛法，理智的事實說明與情意的價值判斷，常是合一的
 <lb n="0038a04" ed="Y"/><lb n="0038a04" ed="Y" type="old"/>。所以無常雖是事實的說明，而已顯出「終歸於滅」的情感；<quote type="嚴謹引文">「無常故苦」</quote>，這
 <lb n="0038a05" ed="Y"/><lb n="0038a05" ed="Y" type="old"/>是更進一步了。一般說：受有三種或五種，人生並不是沒有樂受、喜受。不過<quote type="嚴謹引文">「
 <lb n="0038a06" ed="Y"/><lb n="0038a06" ed="Y" type="old"/>無常故苦」</quote>，是就徹底的究竟的歸宿說的；人生雖暫有些許的快樂，可是絕不是
 <lb n="0038a07" ed="Y"/><lb n="0038a07" ed="Y" type="old"/>永久可靠的。<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.473" type="taisho">四七三經</ref></bibl>說：</p>
-<lb n="0038a08" ed="Y"/><lb n="0038a08" ed="Y" type="old"/><quote source="T02n0099_p0121a09-11" type="嚴謹引文"><p style="margin-left:3em">我以一切行無常故，一切諸行變易法故，說諸所有受悉皆是苦。<note n="0038001" resp="周怡曄" type="add">《雜阿含經》卷17(CBETA, T02, no. 99, p. 121, a9-11)</note></p></quote>
-<lb n="0038a09" ed="Y"/><lb n="0038a09" ed="Y" type="old"/><p>世間快樂的要隨時變化，不可保信，所以本質還是苦的。佛說，對於快樂的得而
+<lb n="0038a08" ed="Y"/><lb n="0038a08" ed="Y" type="old"/><quote source="T02n0099_p0121a09-11" type="嚴謹引文"><p xml:id="pY11p0038a0801" style="margin-left:3em">我以一切行無常故，一切諸行變易法故，說諸所有受悉皆是苦。<note n="0038001" resp="周怡曄" type="add">《雜阿含經》卷17(CBETA, T02, no. 99, p. 121, a9-11)</note></p></quote>
+<lb n="0038a09" ed="Y"/><lb n="0038a09" ed="Y" type="old"/><p xml:id="pY11p0038a0901">世間快樂的要隨時變化，不可保信，所以本質還是苦的。佛說，對於快樂的得而
 <lb n="0038a10" ed="Y"/><lb n="0038a10" ed="Y" type="old"/>後失所感受到的痛苦，比沒有得過的痛苦要猛烈得多。所以說天人五衰相現將墮
 <lb n="0038a11" ed="Y"/><lb n="0038a11" ed="Y" type="old"/>落時，是最痛苦的；在人間，先富貴而後突然貧賤，所感受的痛苦也更大。所以
 <lb n="0038a12" ed="Y"/><lb n="0038a12" ed="Y" type="old"/>樂受是不徹底的。其次捨受，常人之無記捨受，是苦樂的中間性，不見得比樂受
@@ -409,7 +429,7 @@
 <lb n="0039a04" ed="Y"/><lb n="0039a04" ed="Y" type="old"/>在一切不徹底，終歸要毀滅的意義上說的。如只說無常變化，那樂的可變苦而稱
 <lb n="0039a05" ed="Y"/><lb n="0039a05" ed="Y" type="old"/>為壞苦，苦的不也同樣可變樂嗎？這種苦的認識，是不夠深刻的。在徹底要磨滅
 <lb n="0039a06" ed="Y"/><lb n="0039a06" ed="Y" type="old"/>的意義上看，苦才夠明顯、深刻。</p>
-<lb n="0039a07" ed="Y"/><lb n="0039a07" ed="Y" type="old"/><p style="text-indent:2em">其次，說明無我的理由。簡單說一句：<quote type="嚴謹引文">「苦故無我。」</quote>無我，或分為「無我
+<lb n="0039a07" ed="Y"/><lb n="0039a07" ed="Y" type="old"/><p xml:id="pY11p0039a0701" style="text-indent:2em">其次，說明無我的理由。簡單說一句：<quote type="嚴謹引文">「苦故無我。」</quote>無我，或分為「無我
 <lb n="0039a08" ed="Y"/><lb n="0039a08" ed="Y" type="old"/>」、「無我所」二句。<cit><bibl><title level="m">《雜阿含經》</title>中也常把它分為三句，如說色：</bibl><quote source="T02n0099_p0006b10-11" type="嚴謹引文">「色是我，
 <lb n="0039a09" ed="Y"/>異<lb n="0039a09" ed="Y" type="old"/>我，相在。」</quote><note n="0039001" resp="周怡曄" type="add">《雜阿含經》卷1：「若無常、苦，是變易法，於意云何？聖弟子於中見色是我、異我、相在不？」(CBETA, T02, no. 99, p. 6, b10-11)</note></cit>反面否定辭則說：<quote source="T02n0099_p0006b18" type="嚴謹引文">「色不是我，不異我，不相在。」<note n="0039002" resp="周怡曄" type="add">《雜阿含經》卷1(CBETA, T02, no. 99, p. 6, b18)</note></quote>這初句是說
 <lb n="0039a10" ed="Y"/>無<lb n="0039a10" ed="Y" type="old"/>即蘊我，第二句說無離蘊我，第三句也是無離蘊我，不過妄計者以為雖非蘊而
@@ -426,7 +446,7 @@
 <lb n="0040a07" ed="Y"/>文<lb n="0040a07" ed="Y" type="old"/>的「我」字就是自在——平常釋我曰主宰，主宰也就是自在，含有自主而控制
 <lb n="0040a08" ed="Y"/>裁<lb n="0040a08" ed="Y" type="old"/>決諸法為我所有的意義。現在，諸行是變動的、痛苦的、不能自在的，所以無
 <lb n="0040a09" ed="Y"/>我<lb n="0040a09" ed="Y" type="old"/>。這種理論體系，純從無常出發，小至一色一心，都沒有建立自我的可能。</p>
-<lb n="0040a10" ed="Y"/><lb n="0040a10" ed="Y" type="old"/><p style="text-indent:2em">無常、苦、無我的反面，就是常、樂、我。根本佛教時期，正是婆羅門教發
+<lb n="0040a10" ed="Y"/><lb n="0040a10" ed="Y" type="old"/><p xml:id="pY11p0040a1001" style="text-indent:2em">無常、苦、無我的反面，就是常、樂、我。根本佛教時期，正是婆羅門教發
 <lb n="0040a11" ed="Y"/><lb n="0040a11" ed="Y" type="old"/>展到<title level="m">《梵書》</title>、<title level="m">《奧義書》</title>的階段，是梵我思想發揮成熟的時代。梵我是宇宙的
 <lb n="0040a12" ed="Y"/>大元，也<lb n="0040a12" ed="Y" type="old"/>是人生的本體；<title level="m">《奧義書》</title>學者的解釋，雖極其精微玄妙，但扼要點不
 <lb n="0040a13" ed="Y"/>外說這梵我是<lb n="0040a13" ed="Y" type="old"/>常在的、妙樂的、自在主動的。他們依這梵我來說明宇宙與生命的
@@ -435,7 +455,7 @@
 <lb n="0041a02" ed="Y"/>脫，依之建立<lb n="0041a02" ed="Y" type="old"/>常樂的涅槃。釋尊平日不和他們爭談這些玄虛的理論，針對著他們
 <lb n="0041a03" ed="Y"/>想像中的常、<lb n="0041a03" ed="Y" type="old"/>樂、我，拿出現實事相的無常、苦、無我，迫他們承認。釋尊的立
 <lb n="0041a04" ed="Y"/>場，是絕對反<lb n="0041a04" ed="Y" type="old"/>婆羅門的。對這，我們應該切實認識！</p>
-<lb n="0041a05" ed="Y"/><lb n="0041a05" ed="Y" type="old"/><p style="text-indent:2em">順便一談涅槃。涅槃為佛子終究的目的所在，一切問題都歸結到這裡來。綜
+<lb n="0041a05" ed="Y"/><lb n="0041a05" ed="Y" type="old"/><p xml:id="pY11p0041a0501" style="text-indent:2em">順便一談涅槃。涅槃為佛子終究的目的所在，一切問題都歸結到這裡來。綜
 <lb n="0041a06" ed="Y"/><lb n="0041a06" ed="Y" type="old"/>合上文看，五蘊法門是以無常為出發，成立苦、無我，而後達到涅槃。不過，也
 <lb n="0041a07" ed="Y"/><lb n="0041a07" ed="Y" type="old"/>有不經苦、無我，而直用無常來成立涅槃的。無常是生滅義，生者必滅，一切一
 <lb n="0041a08" ed="Y"/><lb n="0041a08" ed="Y" type="old"/>切，確都是滅盡之法。世人固或知之，但他們偏注重到生生不已的生的一面，忽
@@ -448,15 +468,15 @@
 <lb n="0042a01" ed="Y"/><lb n="0042a01" ed="Y" type="old"/>生滅滅已，寂滅為樂。」<note n="0042001" resp="周怡曄" type="add">《大般涅槃經》卷3(CBETA, T01, no. 7, p. 204, c23-24)</note></quote>或依三法印，從諸行生滅無常，體解我性的不可得。眾
 <lb n="0042a02" ed="Y"/><lb n="0042a02" ed="Y" type="old"/>生因妄執常、我而生死，現在能夠了解蘊性無常、無我，離常、我的執見，則因
 <lb n="0042a03" ed="Y"/><lb n="0042a03" ed="Y" type="old"/>無常生滅而厭、離欲，便可以達到涅槃之滅。</p>
-<lb n="0042a04" ed="Y"/><lb n="0042a04" ed="Y" type="old"/><p style="text-indent:2em">還有，如<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.262">二六二經</ref></bibl>云：</p>
-<lb n="0042a05" ed="Y"/><lb n="0042a05" ed="Y" type="old"/><quote source="T02n0099_p0066b17-18" type="嚴謹引文"><p style="margin-left:3em">一切諸行空寂，不可得，愛盡，離欲，涅槃。<note n="0042002" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 66, b17-18)</note></p></quote>
-<lb n="0042a06" ed="Y"/><lb n="0042a06" ed="Y" type="old"/><p>空，不僅在生滅有為法的否定上講，而更是直指諸行剋體的空寂不可得；本性空
+<lb n="0042a04" ed="Y"/><lb n="0042a04" ed="Y" type="old"/><p xml:id="pY11p0042a0401" style="text-indent:2em">還有，如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.262" type="taisho">二六二經</ref></bibl>云：</p>
+<lb n="0042a05" ed="Y"/><lb n="0042a05" ed="Y" type="old"/><quote source="T02n0099_p0066b17-18" type="嚴謹引文"><p xml:id="pY11p0042a0501" style="margin-left:3em">一切諸行空寂，不可得，愛盡，離欲，涅槃。<note n="0042002" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 66, b17-18)</note></p></quote>
+<lb n="0042a06" ed="Y"/><lb n="0042a06" ed="Y" type="old"/><p xml:id="pY11p0042a0601">空，不僅在生滅有為法的否定上講，而更是直指諸行剋體的空寂不可得；本性空
 <lb n="0042a07" ed="Y"/><lb n="0042a07" ed="Y" type="old"/>，就是涅槃。了空寂，離愛欲，而實現涅槃的當體，就是空寂。這樣，從無常說
 <lb n="0042a08" ed="Y"/><lb n="0042a08" ed="Y" type="old"/>，無常是生滅義，主要的是滅義（故生老病死之死，亦曰無常）；使諸行滅而不
 <lb n="0042a09" ed="Y"/><lb n="0042a09" ed="Y" type="old"/>生，恢復其滅的本性，就是涅槃的當體。就無我說，一切諸法本來無我，只是眾
 <lb n="0042a10" ed="Y"/><lb n="0042a10" ed="Y" type="old"/>生執著不了，故起流轉；故<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.57" type="taisho">第五七經</ref></bibl>云：</p>
-<lb n="0042a11" ed="Y"/><lb n="0042a11" ed="Y" type="old"/><quote source="T02n0099_p0014a13-14" type="嚴謹引文"><p style="margin-left:3em">凡夫於色見是我；若見我者，是名為行。<note n="0042003" resp="周怡曄" type="add">《雜阿含經》卷2(CBETA, T02, no. 99, p. 14, a13-14)</note></p></quote>
-<lb n="0042a12" ed="Y"/><lb n="0042a12" ed="Y" type="old"/><p>諸法本來無我，能了達而不起執，歸於本性的空寂，就是涅槃。總之，不問從無
+<lb n="0042a11" ed="Y"/><lb n="0042a11" ed="Y" type="old"/><quote source="T02n0099_p0014a13-14" type="嚴謹引文"><p xml:id="pY11p0042a1101" style="margin-left:3em">凡夫於色見是我；若見我者，是名為行。<note n="0042003" resp="周怡曄" type="add">《雜阿含經》卷2(CBETA, T02, no. 99, p. 14, a13-14)</note></p></quote>
+<lb n="0042a12" ed="Y"/><lb n="0042a12" ed="Y" type="old"/><p xml:id="pY11p0042a1201">諸法本來無我，能了達而不起執，歸於本性的空寂，就是涅槃。總之，不問從無
 <lb n="0042a13" ed="Y"/><lb n="0042a13" ed="Y" type="old"/>常說涅槃，或從無我說涅槃，都不離空義，都是以空義而說涅槃的。空，不但空<pb n="0043a" ed="Y" xml:id="Y11.0011.0043a.old" type="old"/>
 <pb n="0043a" ed="Y" xml:id="Y11.0011.0043a"/>
 <lb n="0043a01" ed="Y"/><lb n="0043a01" ed="Y" type="old"/>常、空我，涅槃的本性就是空寂。一分學者把涅槃說在離有為無常之外，把它實
@@ -464,11 +484,11 @@
 <lb n="0043a03" ed="Y"/><lb n="0043a03" ed="Y" type="old"/>、無常，經過愛盡、離欲而已。這樣，空與涅槃打成一片，一切法本性涅槃，即
 <lb n="0043a04" ed="Y"/><lb n="0043a04" ed="Y" type="old"/>此一根本要義的申說。</p></cb:div>
 <lb n="0043a05" ed="Y"/><lb n="0043a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第二項　無我為根本之處空</cb:mulu><head>第二項　無我為根本之處空</head>
-<lb n="0043a06" ed="Y"/><lb n="0043a06" ed="Y" type="old"/><p style="text-indent:2em">處，就是眼、耳、鼻、舌、身、意六處。也有分內六處、外六處為十二處的
+<lb n="0043a06" ed="Y"/><lb n="0043a06" ed="Y" type="old"/><p xml:id="pY11p0043a0601" style="text-indent:2em">處，就是眼、耳、鼻、舌、身、意六處。也有分內六處、外六處為十二處的
 <lb n="0043a07" ed="Y"/><lb n="0043a07" ed="Y" type="old"/>。釋尊說處法門的注重點，與蘊法門的重在無常不同，它是特別注重到無我——
-<lb n="0043a08" ed="Y"/><lb n="0043a08" ed="Y" type="old"/>空上面。<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.1172">第一一七二經</ref>（<title level="m">《篋毒蛇譬經》</title>）</bibl>，說蘊如拔刀賊（顯無
+<lb n="0043a08" ed="Y"/><lb n="0043a08" ed="Y" type="old"/>空上面。<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.1172" type="taisho">第一一七二經</ref>（<title level="m">《篋毒蛇譬經》</title>）</bibl>，說蘊如拔刀賊（顯無
 <lb n="0043a09" ed="Y"/>常義），處<lb n="0043a09" ed="Y" type="old"/>如空聚落。從這譬喻的意義，可見處法門與空無我義是更相符順的。</p>
-<lb n="0043a10" ed="Y"/><lb n="0043a10" ed="Y" type="old"/><p style="text-indent:2em">阿含中從五蘊和合假名眾生的當體，說明無我義，固亦有之；但大多是五蘊
+<lb n="0043a10" ed="Y"/><lb n="0043a10" ed="Y" type="old"/><p xml:id="pY11p0043a1001" style="text-indent:2em">阿含中從五蘊和合假名眾生的當體，說明無我義，固亦有之；但大多是五蘊
 <lb n="0043a11" ed="Y"/><lb n="0043a11" ed="Y" type="old"/>分開說的，如識蘊是我，前四蘊是我所等。又多從<quote type="嚴謹引文">「無常故苦，苦故無我」</quote>，從
 <lb n="0043a12" ed="Y"/><lb n="0043a12" ed="Y" type="old"/>無常的觀點出發展轉地來說明，即偏從主觀（情意的）價值判斷來說明的；很少<pb n="0044a" ed="Y" xml:id="Y11.0011.0044a.old" type="old"/>
 <pb n="0044a" ed="Y" xml:id="Y11.0011.0044a"/>
@@ -479,12 +499,12 @@
 <lb n="0044a05" ed="Y"/>沒有<lb n="0044a05" ed="Y" type="old"/>立腳點了。法若是常在實有，則依此法可以立我；若此法不能依以立我，必
 <lb n="0044a06" ed="Y"/>此法<lb n="0044a06" ed="Y" type="old"/>非常、非實。說不可執著我，必然說到法的不實。所以，從六處法門，容易
 <lb n="0044a07" ed="Y"/>生起<lb n="0044a07" ed="Y" type="old"/>法空的見解。</p>
-<lb n="0044a08" ed="Y"/><lb n="0044a08" ed="Y" type="old"/><p style="text-indent:2em"><bibl><title level="m">《雜阿含經》</title><ref target="#no:99.273" type="taisho">二七三經</ref></bibl>裡，提出這樣的幾個問題：</p>
-<lb n="0044a09" ed="Y"/><lb n="0044a09" ed="Y" type="old"/><quote source="T02n0099_p0072b24-25" type="嚴謹引文"><p style="margin-left:3em">云何為我？我何所為？何法是我？我於何住？<note n="0044001" resp="周怡曄" type="add">《雜阿含經》卷11(CBETA, T02, no. 99, p. 72, b24-25)</note></p></quote>
-<lb n="0044a10" ed="Y"/><lb n="0044a10" ed="Y" type="old"/><p style="text-indent:2em">第一個問題，是問我的自體，就是說依之成我的是什麼？釋尊答道：</p>
-<lb n="0044a11" ed="Y"/><lb n="0044a11" ed="Y" type="old"/><quote source="T02n0099_p0072b26-c10" type="嚴謹引文"><p style="margin-left:3em">眼色為二，耳聲、鼻香、舌味、身觸、意法為二。……譬如兩手和合相對
+<lb n="0044a08" ed="Y"/><lb n="0044a08" ed="Y" type="old"/><p xml:id="pY11p0044a0801" style="text-indent:2em"><bibl><title level="m">《雜阿含經》</title><ref target="#no:99.273" type="taisho">二七三經</ref></bibl>裡，提出這樣的幾個問題：</p>
+<lb n="0044a09" ed="Y"/><lb n="0044a09" ed="Y" type="old"/><quote source="T02n0099_p0072b24-25" type="嚴謹引文"><p xml:id="pY11p0044a0901" style="margin-left:3em">云何為我？我何所為？何法是我？我於何住？<note n="0044001" resp="周怡曄" type="add">《雜阿含經》卷11(CBETA, T02, no. 99, p. 72, b24-25)</note></p></quote>
+<lb n="0044a10" ed="Y"/><lb n="0044a10" ed="Y" type="old"/><p xml:id="pY11p0044a1001" style="text-indent:2em">第一個問題，是問我的自體，就是說依之成我的是什麼？釋尊答道：</p>
+<lb n="0044a11" ed="Y"/><lb n="0044a11" ed="Y" type="old"/><quote source="T02n0099_p0072b26-c10" type="嚴謹引文"><p xml:id="pY11p0044a1101" style="margin-left:3em">眼色為二，耳聲、鼻香、舌味、身觸、意法為二。……譬如兩手和合相對
 <lb n="0044a12" ed="Y"/><lb n="0044a12" ed="Y" type="old"/>作聲，如是緣眼色生眼識，三事和合觸，觸俱生受、想、思。<note n="0044002" resp="周怡曄" type="add">《雜阿含經》卷11：「眼色為二。耳聲、鼻香、舌味、身觸、意法為二，是名二法。比丘！若有說言：『沙門瞿曇所說二法，此非為二，我今捨此，更立二法。』彼但有言數，問已不知，增其疑惑，以非境界故。所以者何？緣眼、色，生眼識。比丘！彼眼者，是肉形、是內、是因緣、是堅、是受，是名眼肉形內地界。比丘！若眼肉形，若內、若因緣、津澤、是受，是名眼肉形內水界。比丘！若彼眼肉形，若內、若因緣、明暖、是受，是名眼肉形內火界。比丘！若彼眼肉形，若內、若因緣、輕飄動搖、是受，是名眼肉形內風界。比丘！譬如兩手和合相對作聲。如是緣眼、色，生眼識，三事和合觸，觸俱生受、想、思。」(CBETA, T02, no. 99, p. 72, b26-c10)</note></p></quote>
-<lb n="0044a13" ed="Y"/><lb n="0044a13" ed="Y" type="old"/><p>將十二處分為內根與外境二類。在內外相待接觸的關係下生起識來，經中喻如兩<pb n="0045a" ed="Y" xml:id="Y11.0011.0045a.old" type="old"/>
+<lb n="0044a13" ed="Y"/><lb n="0044a13" ed="Y" type="old"/><p xml:id="pY11p0044a1301">將十二處分為內根與外境二類。在內外相待接觸的關係下生起識來，經中喻如兩<pb n="0045a" ed="Y" xml:id="Y11.0011.0045a.old" type="old"/>
 <pb n="0045a" ed="Y" xml:id="Y11.0011.0045a"/>
 <lb n="0045a01" ed="Y"/><lb n="0045a01" ed="Y" type="old"/>手（根境）相拍成聲（識）。二合生識，三和合觸，有了根、境、識三的關係，
 <lb n="0045a02" ed="Y"/><lb n="0045a02" ed="Y" type="old"/>就有觸（照阿含的本義看，識與根境之聯絡就是觸，與經部假觸說相近）。如是
@@ -493,46 +513,46 @@
 <lb n="0045a05" ed="Y"/><lb n="0045a05" ed="Y" type="old"/>。緣起的存在，不是單獨的，人的存在，必然就有世界的存在，於是六根的對象
 <lb n="0045a06" ed="Y"/><lb n="0045a06" ed="Y" type="old"/>有六境存在。有生命自體，有待於自我的外界，內外接觸，就有心識的精神活動
 <lb n="0045a07" ed="Y"/><lb n="0045a07" ed="Y" type="old"/>；於是六觸、六受、六想、六思都起來了。所謂我，就是如此。</p>
-<lb n="0045a08" ed="Y"/><lb n="0045a08" ed="Y" type="old"/><p style="text-indent:2em">第二問題，問我的動作事業，釋尊的解答道：</p>
-<lb n="0045a09" ed="Y"/><lb n="0045a09" ed="Y" type="old"/><quote source="T02n0099_p0072c10-12" type="嚴謹引文"><p style="margin-left:3em">此等諸法非我非常，是無常之我，非恆非安隱變易之我。所以者何？比丘
+<lb n="0045a08" ed="Y"/><lb n="0045a08" ed="Y" type="old"/><p xml:id="pY11p0045a0801" style="text-indent:2em">第二問題，問我的動作事業，釋尊的解答道：</p>
+<lb n="0045a09" ed="Y"/><lb n="0045a09" ed="Y" type="old"/><quote source="T02n0099_p0072c10-12" type="嚴謹引文"><p xml:id="pY11p0045a0901" style="margin-left:3em">此等諸法非我非常，是無常之我，非恆非安隱變易之我。所以者何？比丘
 <lb n="0045a10" ed="Y"/><lb n="0045a10" ed="Y" type="old"/>！謂生老死沒受生之法。<note n="0045001" resp="周怡曄" type="add">《雜阿含經》卷11(CBETA, T02, no. 99, p. 72, c10-12)</note></p></quote>
-<lb n="0045a11" ed="Y"/><lb n="0045a11" ed="Y" type="old"/><p>這內外和合之假名我，是在息息流變中，毫無外道所想像的常、樂；它的事業，
+<lb n="0045a11" ed="Y"/><lb n="0045a11" ed="Y" type="old"/><p xml:id="pY11p0045a1101">這內外和合之假名我，是在息息流變中，毫無外道所想像的常、樂；它的事業，
 <lb n="0045a12" ed="Y"/><lb n="0045a12" ed="Y" type="old"/>就是受生、衰老、疾病與死沒。</p>
-<lb n="0045a13" ed="Y"/><lb n="0045a13" ed="Y" type="old"/><p style="text-indent:2em">答第三問的何法是我，則云：</p><pb n="0046a" ed="Y" xml:id="Y11.0011.0046a.old" type="old"/>
+<lb n="0045a13" ed="Y"/><lb n="0045a13" ed="Y" type="old"/><p xml:id="pY11p0045a1301" style="text-indent:2em">答第三問的何法是我，則云：</p><pb n="0046a" ed="Y" xml:id="Y11.0011.0046a.old" type="old"/>
 <pb n="0046a" ed="Y" xml:id="Y11.0011.0046a"/>
-<lb n="0046a01" ed="Y"/><lb n="0046a01" ed="Y" type="old"/><quote source="T02n0099_p0072c12-13" type="嚴謹引文"><p style="margin-left:3em">比丘！諸行如幻如炎，剎那時頃盡朽，不實來、實去。<note n="0046001" resp="周怡曄" type="add">《雜阿含經》卷11(CBETA, T02, no. 99, p. 72, c12-13)</note></p></quote>
-<lb n="0046a02" ed="Y"/><lb n="0046a02" ed="Y" type="old"/><p>十二處應特重六內處，所謂<quote type="嚴謹引文">「諸行」</quote>，就是這眼等六內處。它的性質，如幻、如
+<lb n="0046a01" ed="Y"/><lb n="0046a01" ed="Y" type="old"/><quote source="T02n0099_p0072c12-13" type="嚴謹引文"><p xml:id="pY11p0046a0101" style="margin-left:3em">比丘！諸行如幻如炎，剎那時頃盡朽，不實來、實去。<note n="0046001" resp="周怡曄" type="add">《雜阿含經》卷11(CBETA, T02, no. 99, p. 72, c12-13)</note></p></quote>
+<lb n="0046a02" ed="Y"/><lb n="0046a02" ed="Y" type="old"/><p xml:id="pY11p0046a0201">十二處應特重六內處，所謂<quote type="嚴謹引文">「諸行」</quote>，就是這眼等六內處。它的性質，如幻、如
 <lb n="0046a03" ed="Y"/><lb n="0046a03" ed="Y" type="old"/>陽燄，剎那變壞的。是因緣和合法，緣合而生，所以生無所從來；緣散而滅，所
 <lb n="0046a04" ed="Y"/><lb n="0046a04" ed="Y" type="old"/>以滅無所從去。雖然有，卻不是實在的。這六處，就是如幻諸行，就是空寂、無
 <lb n="0046a05" ed="Y"/><lb n="0046a05" ed="Y" type="old"/>自性的緣起。所謂我，就是這六根的緣境生起識、受、想、思來的活動的綜合；
 <lb n="0046a06" ed="Y"/><lb n="0046a06" ed="Y" type="old"/>世俗諦中的我，不過如此而已。</p>
-<lb n="0046a07" ed="Y"/><lb n="0046a07" ed="Y" type="old"/><p style="text-indent:2em">這如幻假我，即空寂無我的道理。更提出明顯正確的說明它，就是解答第四
+<lb n="0046a07" ed="Y"/><lb n="0046a07" ed="Y" type="old"/><p xml:id="pY11p0046a0701" style="text-indent:2em">這如幻假我，即空寂無我的道理。更提出明顯正確的說明它，就是解答第四
 <lb n="0046a08" ed="Y"/><lb n="0046a08" ed="Y" type="old"/>個問題——我於何住。</p>
-<lb n="0046a09" ed="Y"/><lb n="0046a09" ed="Y" type="old"/><quote source="T02n0099_p0072c13-15" type="嚴謹引文"><p style="margin-left:3em">是故，比丘！於空諸行，當知、當喜、當念空諸行常恆住不變易法空，無
+<lb n="0046a09" ed="Y"/><lb n="0046a09" ed="Y" type="old"/><quote source="T02n0099_p0072c13-15" type="嚴謹引文"><p xml:id="pY11p0046a0901" style="margin-left:3em">是故，比丘！於空諸行，當知、當喜、當念空諸行常恆住不變易法空，無
 <lb n="0046a10" ed="Y"/>我我所<lb n="0046a10" ed="Y" type="old"/>。<note n="0046002" resp="周怡曄" type="add">《雜阿含經》卷11(CBETA, T02, no. 99, p. 72, c13-15)</note></p></quote>
-<lb n="0046a11" ed="Y"/><lb n="0046a11" ed="Y" type="old"/><p>這是說：我無所住。如我有所住（立足點），所住必是真實、常恆的。但一切法
+<lb n="0046a11" ed="Y"/><lb n="0046a11" ed="Y" type="old"/><p xml:id="pY11p0046a1101">這是說：我無所住。如我有所住（立足點），所住必是真實、常恆的。但一切法
 <lb n="0046a12" ed="Y"/><lb n="0046a12" ed="Y" type="old"/>皆是因緣和合、不實不恆的，所以欲求真實的我，是不可得的。它只是六根和合
 <lb n="0046a13" ed="Y"/><lb n="0046a13" ed="Y" type="old"/>作用的假名我，真實自體是不可得的。處法門中，特別注重到我的建立，無真實<pb n="0047a" ed="Y" xml:id="Y11.0011.0047a.old" type="old"/>
 <pb n="0047a" ed="Y" xml:id="Y11.0011.0047a"/>
 <lb n="0047a01" ed="Y"/><lb n="0047a01" ed="Y" type="old"/>自我，唯有假名的諸行生滅。生是空法生，滅是空法滅，意義比蘊法門要明顯得
-<lb n="0047a02" ed="Y"/><lb n="0047a02" ed="Y" type="old"/>多。與這經的意義相同的，還有<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.306">三〇六經</ref></bibl>，現在也錄下來作參考。</p>
-<lb n="0047a03" ed="Y"/><lb n="0047a03" ed="Y" type="old"/><quote source="T02n0099_p0087c26" type="嚴謹引文"><p style="margin-left:3em">眼色緣生眼識，三事和合觸，觸俱生受、想、思，此四無色陰；眼（則是
+<lb n="0047a02" ed="Y"/><lb n="0047a02" ed="Y" type="old"/>多。與這經的意義相同的，還有<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.306" type="taisho">三〇六經</ref></bibl>，現在也錄下來作參考。</p>
+<lb n="0047a03" ed="Y"/><lb n="0047a03" ed="Y" type="old"/><quote source="T02n0099_p0087c26" type="嚴謹引文"><p xml:id="pY11p0047a0301" style="margin-left:3em">眼色緣生眼識，三事和合觸，觸俱生受、想、思，此四無色陰；眼（則是
 <lb n="0047a04" ed="Y"/><lb n="0047a04" ed="Y" type="old"/>）色（陰）。此等法，名為人，於斯等法作人想。……此諸法皆悉無常、
 <lb n="0047a05" ed="Y"/><lb n="0047a05" ed="Y" type="old"/>有為、思願緣生。若無常、有為、思願緣生者，彼則是苦。又復彼苦，生
 <lb n="0047a06" ed="Y"/>亦苦<lb n="0047a06" ed="Y" type="old"/>，住亦苦，滅亦苦。數數出生，一切皆苦。<note n="0047001" resp="周怡曄" type="add">《雜阿含經》卷13：「眼、色緣生眼識，三事和合觸，觸俱生受、想、思，此四無色陰、眼、色，此等法名為人，於斯等法作人想、眾生、那羅、摩<g ref="#CB00145"/>闍、摩那婆、士[其>夫]、福伽羅、耆婆、禪頭。又如是說：『我眼見色，我耳聞聲，我鼻嗅香，我舌甞味，我身覺觸，我意識法。』彼施設又如是言說：『是尊者如是名、如是生、如是姓、如是食、如是受苦樂、如是長壽、如是久住、如是壽分齊。』比丘！是則為想，是則為誌，是則言說，此諸法皆悉無常、有為、思願緣生；若無常、有為、思願緣生者，彼則是苦。又復彼苦生，亦苦住，亦苦滅，亦苦數數出生，一切皆苦」(CBETA, T02, no. 99, p. 87, c26-p. 88, a9)</note></p></quote>
-<lb n="0047a07" ed="Y"/><lb n="0047a07" ed="Y" type="old"/><p style="text-indent:2em">從上看來，在表面上，我是假我，是依六處和合安立的；這似乎有「我無法
+<lb n="0047a07" ed="Y"/><lb n="0047a07" ed="Y" type="old"/><p xml:id="pY11p0047a0701" style="text-indent:2em">從上看來，在表面上，我是假我，是依六處和合安立的；這似乎有「我無法
 <lb n="0047a08" ed="Y"/><lb n="0047a08" ed="Y" type="old"/>有」的思想。其實，一一法若有實在性、常恆性，這一法就可安立我，就是我。
 <lb n="0047a09" ed="Y"/><lb n="0047a09" ed="Y" type="old"/>唯其法法都沒有實在性、常恆性，所以我不可立。法有，必定是如幻如化的世俗
 <lb n="0047a10" ed="Y"/><lb n="0047a10" ed="Y" type="old"/>假有，才可以依以建立緣起因果。眾生不了解這假名的緣起因果，在此因果相續
 <lb n="0047a11" ed="Y"/><lb n="0047a11" ed="Y" type="old"/>上，執有常恆自在的自我。而佛法，卻在這世俗的緣起因果中，顯出第一義的真
-<lb n="0047a12" ed="Y"/><lb n="0047a12" ed="Y" type="old"/>空，如<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.335">第三三五經</ref></bibl>，即開示此義：</p>
-<lb n="0047a13" ed="Y"/><lb n="0047a13" ed="Y" type="old"/><quote source="T02n0099_p0092c16-21" type="嚴謹引文"><p style="margin-left:3em">眼生時無有來處，滅時無有去處，如是眼不實而生，生已盡滅，有業報而<pb n="0048a" ed="Y" xml:id="Y11.0011.0048a.old" type="old"/>
+<lb n="0047a12" ed="Y"/><lb n="0047a12" ed="Y" type="old"/>空，如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.335" type="taisho">第三三五經</ref></bibl>，即開示此義：</p>
+<lb n="0047a13" ed="Y"/><lb n="0047a13" ed="Y" type="old"/><quote source="T02n0099_p0092c16-21" type="嚴謹引文"><p xml:id="pY11p0047a1301" style="margin-left:3em">眼生時無有來處，滅時無有去處，如是眼不實而生，生已盡滅，有業報而<pb n="0048a" ed="Y" xml:id="Y11.0011.0048a.old" type="old"/>
 <pb n="0048a" ed="Y" xml:id="Y11.0011.0048a"/>
 <lb n="0048a01" ed="Y"/><lb n="0048a01" ed="Y" type="old"/>無作者。此陰滅已，異陰相續，除俗數法。……俗數法者，謂此有故彼有
 <lb n="0048a02" ed="Y"/><lb n="0048a02" ed="Y" type="old"/>，此起故彼起。<note n="0048001" resp="周怡曄" type="add">《雜阿含經》卷13：「眼生時無有來處，滅時無有去處。如是眼不實而生，生已盡滅，有業報而無作者，此陰滅已，異陰相續，除俗數法。耳、鼻、舌、身、意亦如是說，除俗數法。俗數法者，謂此有故彼有，此起故彼起」(CBETA, T02, no. 99, p. 92, c16-21)</note></p></quote>
-<lb n="0048a03" ed="Y"/><lb n="0048a03" ed="Y" type="old"/><p><bibl>《<title level="m">增一阿含經</title>．<title level="a">非常品</title>》<ref type="taisho" target="#no:125.51.8">第八經</ref></bibl>，<bibl><title level="a">〈六重品〉</title><ref target="#no:125.37.7" type="taisho">第七經</ref></bibl>（有鑽木生火喻），有與此
+<lb n="0048a03" ed="Y"/><lb n="0048a03" ed="Y" type="old"/><p xml:id="pY11p0048a0301"><bibl>《<title level="m">增一阿含經</title>．<title level="a">非常品</title>》<ref target="#no:125.51.8" type="taisho">第八經</ref></bibl>，<bibl><title level="a">〈六重品〉</title><ref target="#no:125.37.7" type="taisho">第七經</ref></bibl>（有鑽木生火喻），有與此
 <lb n="0048a04" ed="Y"/>相<lb n="0048a04" ed="Y" type="old"/>同的經文，都是從六處法門而引入緣起勝義空的法門。</p>
-<lb n="0048a05" ed="Y"/><lb n="0048a05" ed="Y" type="old"/><p style="text-indent:2em">現在將五蘊與六處作個比較：蘊與處，表面似乎不同，實在內容是無所差異
+<lb n="0048a05" ed="Y"/><lb n="0048a05" ed="Y" type="old"/><p xml:id="pY11p0048a0501" style="text-indent:2em">現在將五蘊與六處作個比較：蘊與處，表面似乎不同，實在內容是無所差異
 <lb n="0048a06" ed="Y"/><lb n="0048a06" ed="Y" type="old"/>的。如說處法門，由內外處的根境和合生識，三和合觸而與受、想、思俱生，這
 <lb n="0048a07" ed="Y"/><lb n="0048a07" ed="Y" type="old"/>活動的過程就是五蘊。內六處，主要是色蘊，識、受、想、思（行）是無色四蘊
 <lb n="0048a08" ed="Y"/><lb n="0048a08" ed="Y" type="old"/>。所以五蘊與六處，畢竟是同一的。假使要說二者有所不同，那麼，是這樣的：
@@ -547,22 +567,22 @@
 <lb n="0049a03" ed="Y"/><lb n="0049a03" ed="Y" type="old"/>生命總體上，五蘊則建立在內外相知的認識關係上。說無我，蘊法門是五蘊別別
 <lb n="0049a04" ed="Y"/><lb n="0049a04" ed="Y" type="old"/>而說，處法門則在六處和合上說。蘊法門，大都說<quote type="嚴謹引文">「無常故苦，苦故無我」</quote>；處
 <lb n="0049a05" ed="Y"/><lb n="0049a05" ed="Y" type="old"/>法門則直說諸行如幻如化，自性不可得空。不過，蘊法門中並不是沒有明顯的空
-<lb n="0049a06" ed="Y"/><lb n="0049a06" ed="Y" type="old"/>義，只是說得不多罷了。如<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.1202">一二〇二經</ref>、<ref target="#no:99.1203" type="taisho">一二〇三經</ref></bibl>，及<bibl>《<title level="m">中阿含
+<lb n="0049a06" ed="Y"/><lb n="0049a06" ed="Y" type="old"/>義，只是說得不多罷了。如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.1202" type="taisho">一二〇二經</ref>、<ref target="#no:99.1203" type="taisho">一二〇三經</ref></bibl>，及<bibl>《<title level="m">中阿含
 <lb n="0049a07" ed="Y"/>經</title>．<lb n="0049a07" ed="Y" type="old"/><title level="a">頻鞞娑邏王迎佛經</title>》</bibl>，都說過蘊空，而<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.265" type="taisho">二六五經</ref></bibl>說得最明顯：</p>
-<lb n="0049a08" ed="Y"/><lb n="0049a08" ed="Y" type="old"/><quote source="T02n0099_p0069a18-23" type="嚴謹引文"><lg style="margin-left:3em" type="abnormal"><l>觀色如聚沫，受如水上泡，想如春時燄，諸行如芭蕉，諸識法如幻，日種
+<lb n="0049a08" ed="Y"/><lb n="0049a08" ed="Y" type="old"/><quote source="T02n0099_p0069a18-23" type="嚴謹引文"><lg xml:id="lgY11p0049a0801" style="margin-left:3em" type="abnormal"><l>觀色如聚沫，受如水上泡，想如春時燄，諸行如芭蕉，諸識法如幻，日種
 <lb n="0049a09" ed="Y"/><lb n="0049a09" ed="Y" type="old"/>姓尊說。……無實不堅固，無有我我所。<note n="0049001" resp="周怡曄" type="add">《雜阿含經》卷10：「觀色如聚沫，受如水上泡，想如春時燄，諸行如芭蕉，諸識法如幻，日種姓尊說。周匝諦思惟，正念善觀察，無實不堅固，無有我我所。」(CBETA, T02, no. 99, p. 69, a18-23)</note></l></lg></quote>
-<lb n="0049a10" ed="Y"/><lb n="0049a10" ed="Y" type="old"/><p>古德站在法有的立場上，把這泡、沫、陽燄等譬喻，解釋為生滅無常義。如從色
+<lb n="0049a10" ed="Y"/><lb n="0049a10" ed="Y" type="old"/><p xml:id="pY11p0049a1001">古德站在法有的立場上，把這泡、沫、陽燄等譬喻，解釋為生滅無常義。如從色
 <lb n="0049a11" ed="Y"/><lb n="0049a11" ed="Y" type="old"/>受等一一法的自體上去理解，則五蘊如幻、如化、如泡沫、如陽燄，空義就顯然
 <lb n="0049a12" ed="Y"/><lb n="0049a12" ed="Y" type="old"/>了。</p></cb:div><pb n="0050a" ed="Y" xml:id="Y11.0011.0050a.old" type="old"/>
 <pb n="0050a" ed="Y" xml:id="Y11.0011.0050a"/>
 <lb n="0050a01" ed="Y"/><lb n="0050a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第三項　涅槃為歸宿之緣起空</cb:mulu><head>第三項　涅槃為歸宿之緣起空</head>
-<lb n="0050a02" ed="Y"/><lb n="0050a02" ed="Y" type="old"/><p style="text-indent:2em">蘊、處法門雖也說到涅槃，但緣起法門特別以說明涅槃為目的。緣起說<quote source="T02n0099_p0067a05" type="嚴謹引文">「<lb n="0050a03" ed="Y" type="old"/>此
+<lb n="0050a02" ed="Y"/><lb n="0050a02" ed="Y" type="old"/><p xml:id="pY11p0050a0201" style="text-indent:2em">蘊、處法門雖也說到涅槃，但緣起法門特別以說明涅槃為目的。緣起說<quote source="T02n0099_p0067a05" type="嚴謹引文">「<lb n="0050a03" ed="Y" type="old"/>此
 <lb n="0050a03" ed="Y"/>有故彼有，此生故彼生」<note n="0050001" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 67, a5)</note></quote>，必然要歸結到<quote source="T02n0099_p0067a06-07" type="嚴謹引文">「此無故彼無，此滅故彼滅」<note n="0050002" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 67, a6-7)</note></quote>的寂<lb n="0050a04" ed="Y" type="old"/>滅涅
 <lb n="0050a04" ed="Y"/>槃；不像蘊、處法門的可說可不說。論到空義，如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.293" type="taisho">第二九三經</ref></bibl>說<lb n="0050a05" ed="Y" type="old"/>：</p>
-<lb n="0050a05" ed="Y"/><lb n="0050a06" ed="Y" type="old"/><quote source="T02n0099_p0083c04-05" type="嚴謹引文"><p style="margin-left:3em">為彼比丘說賢聖出世空相應緣起隨順法。<note n="0050003" resp="周怡曄" type="add">《雜阿含經》卷12(CBETA, T02, no. 99, p. 83, c4-5)</note></p></quote>
-<lb n="0050a06" ed="Y"/><lb n="0050a07" ed="Y" type="old"/><p>一二五八經也有同樣的文句。緣起法叫空相應緣起法，可見緣起法門與空義最相
+<lb n="0050a05" ed="Y"/><lb n="0050a06" ed="Y" type="old"/><quote source="T02n0099_p0083c04-05" type="嚴謹引文"><p xml:id="pY11p0050a0501" style="margin-left:3em">為彼比丘說賢聖出世空相應緣起隨順法。<note n="0050003" resp="周怡曄" type="add">《雜阿含經》卷12(CBETA, T02, no. 99, p. 83, c4-5)</note></p></quote>
+<lb n="0050a06" ed="Y"/><lb n="0050a07" ed="Y" type="old"/><p xml:id="pY11p0050a0601">一二五八經也有同樣的文句。緣起法叫空相應緣起法，可見緣起法門與空義最相
 <lb n="0050a07" ed="Y"/><lb n="0050a08" ed="Y" type="old"/>順，即以緣起可以直接明白的顯示空義，不像處法門等的用譬喻來說。</p>
-<lb n="0050a08" ed="Y"/><lb n="0050a09" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《阿含經》</title>中，緣起雖不必都說十二支，但十二支是意義比較完備的。五蘊
+<lb n="0050a08" ed="Y"/><lb n="0050a09" ed="Y" type="old"/><p xml:id="pY11p0050a0801" style="text-indent:2em"><title level="m">《阿含經》</title>中，緣起雖不必都說十二支，但十二支是意義比較完備的。五蘊
 <lb n="0050a09" ed="Y"/>與六<lb n="0050a10" ed="Y" type="old"/>處，都攝在這十二支緣起中。如五蘊，依現實的痛苦為對象，說明其無常、
 <lb n="0050a10" ed="Y"/>無我<lb n="0050a11" ed="Y" type="old"/>以達涅槃。經說苦諦（四諦之一）時，謂生、老、病、死、愛別離、冤憎會
 <lb n="0050a11" ed="Y"/>、求<lb n="0050a12" ed="Y" type="old"/>不得之七苦，總結則謂：<quote source="T02n0099_p0095a03" type="寬鬆引文">「略說五陰熾盛苦。」<note n="0050004" resp="周怡曄" type="add">《雜阿含經》卷14：「略說五受陰苦」(CBETA, T02, no. 99, p. 95, a3)</note></quote>一切痛苦根本，就在五蘊中
@@ -580,14 +600,14 @@
 <lb n="0051a10" ed="Y"/>奔流生<lb n="0051a11" ed="Y" type="old"/>死而不止。這十支緣起，不正和六處法門所說的意義一樣嗎？五蘊、六處
 <lb n="0051a11" ed="Y"/>，都是<lb n="0051a12" ed="Y" type="old"/>緣起的一分，綜合而貫通之，加上無明與行，在生命流變過程上，作一種
 <lb n="0051a12" ed="Y"/>更圓滿<lb n="0051a13" ed="Y" type="old"/>的說明與體認，就是緣起法門。</p><pb n="0052a" ed="Y" xml:id="Y11.0011.0052a.old" type="old"/>
-<lb n="0051a13" ed="Y"/><lb n="0052a01" ed="Y" type="old"/><p style="text-indent:2em">這不過說明緣起是什麼，若要了解以涅槃為歸宿的緣起空性，則必須指出：
+<lb n="0051a13" ed="Y"/><lb n="0052a01" ed="Y" type="old"/><p xml:id="pY11p0051a1301" style="text-indent:2em">這不過說明緣起是什麼，若要了解以涅槃為歸宿的緣起空性，則必須指出：
 <pb n="0052a" ed="Y" xml:id="Y11.0011.0052a"/>
 <lb n="0052a01" ed="Y"/><lb n="0052a02" ed="Y" type="old"/><quote type="嚴謹引文">「無明緣行、行緣識……無明滅則行滅，行滅則識滅……」</quote>，這十二支，是因果
 <lb n="0052a02" ed="Y"/>事實，雖是眾生生死<lb n="0052a03" ed="Y" type="old"/>流轉的必然次第，但緣起最重要的原則，還在上面四句：</p>
-<lb n="0052a03" ed="Y"/><lb n="0052a04" ed="Y" type="old"/><quote source="T02n0099_p0067a04-08" type="嚴謹引文"><p style="margin-left:3em">此有故彼有，此生故彼生……此無故彼無，此滅故彼滅。<note n="0052001" resp="周怡曄" type="add">《雜阿含經》卷10：「如來離於二邊，說於中道，所謂此有故彼有，此生故彼生，謂緣無明有行，乃至生、老、病、死、憂、悲、惱、苦集；所謂此無故彼無，此滅故彼滅，謂無明滅則行滅，乃至生、老、病、死、憂、悲、惱、苦滅。」(CBETA, T02, no. 99, p. 67, a4-8)</note></p></quote>
-<lb n="0052a04" ed="Y"/><lb n="0052a05" ed="Y" type="old"/><p>這指出生死與還滅的根本理則，是緣起之所以為緣起的根本義；那<quote type="嚴謹引文">「無明緣行」</quote>
+<lb n="0052a03" ed="Y"/><lb n="0052a04" ed="Y" type="old"/><quote source="T02n0099_p0067a04-08" type="嚴謹引文"><p xml:id="pY11p0052a0301" style="margin-left:3em">此有故彼有，此生故彼生……此無故彼無，此滅故彼滅。<note n="0052001" resp="周怡曄" type="add">《雜阿含經》卷10：「如來離於二邊，說於中道，所謂此有故彼有，此生故彼生，謂緣無明有行，乃至生、老、病、死、憂、悲、惱、苦集；所謂此無故彼無，此滅故彼滅，謂無明滅則行滅，乃至生、老、病、死、憂、悲、惱、苦滅。」(CBETA, T02, no. 99, p. 67, a4-8)</note></p></quote>
+<lb n="0052a04" ed="Y"/><lb n="0052a05" ed="Y" type="old"/><p xml:id="pY11p0052a0401">這指出生死與還滅的根本理則，是緣起之所以為緣起的根本義；那<quote type="嚴謹引文">「無明緣行」</quote>
 <lb n="0052a05" ed="Y"/><lb n="0052a06" ed="Y" type="old"/>等，只是依這根本理則的一一緣起法的具體事實。</p>
-<lb n="0052a06" ed="Y"/><lb n="0052a07" ed="Y" type="old"/><p style="text-indent:2em">佛法的根本原理是緣起法。有人問佛說些什麼法？佛答：<quote source="T16n0717_p0841a04" type="嚴謹引文">「我說緣起。」<note n="0052002" resp="周怡曄" type="add">《分別緣起初勝法門經》卷2(CBETA, T16, no. 717, p. 841, a4)</note></quote>緣
+<lb n="0052a06" ed="Y"/><lb n="0052a07" ed="Y" type="old"/><p xml:id="pY11p0052a0601" style="text-indent:2em">佛法的根本原理是緣起法。有人問佛說些什麼法？佛答：<quote source="T16n0717_p0841a04" type="嚴謹引文">「我說緣起。」<note n="0052002" resp="周怡曄" type="add">《分別緣起初勝法門經》卷2(CBETA, T16, no. 717, p. 841, a4)</note></quote>緣
 <lb n="0052a07" ed="Y"/><lb n="0052a08" ed="Y" type="old"/>起是什麼？在各家各派之間，有著不同的解說。我以根本佛教的立場，綜合各家
 <lb n="0052a08" ed="Y"/><lb n="0052a09" ed="Y" type="old"/>所說的共通點而觀察之，可以說：緣起是一種理則。它不就是因果，而是依一一
 <lb n="0052a09" ed="Y"/><lb n="0052a10" ed="Y" type="old"/>因果事實所顯示的原理。如<quote type="嚴謹引文">「生緣老死」</quote>，凡生必死，是一切法的必然原理。何
@@ -607,26 +627,26 @@
 <lb n="0053a09" ed="Y"/>依<lb n="0053a10" ed="Y" type="old"/>緣起開顯寂滅，也就是依有為以開顯無為。由緣起而緣生，是<quote type="嚴謹引文">「此有故彼有，
 <lb n="0053a10" ed="Y"/>此<lb n="0053a11" ed="Y" type="old"/>生故彼生」</quote>的流轉界，是有為法；由緣起而寂滅，是<quote type="嚴謹引文">「此無故彼無，此滅故彼
 <lb n="0053a11" ed="Y"/>滅<lb n="0053a12" ed="Y" type="old"/>」</quote>的還滅界，是無為法。寂滅無為，就是在依緣起的生滅有為法上開示顯現的
-<lb n="0053a12" ed="Y"/>。<lb n="0053a13" ed="Y" type="old"/>如<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.293">二九三經</ref></bibl>云：</p><pb n="0054a" ed="Y" xml:id="Y11.0011.0054a.old" type="old"/>
-<lb n="0053a13" ed="Y"/><lb n="0054a01" ed="Y" type="old"/><quote source="T02n0099_p0083c04-15" type="嚴謹引文"><p style="margin-left:3em">為彼比丘說賢聖出世空相應緣起隨順法，所謂有是故是事有，是事有故是
+<lb n="0053a12" ed="Y"/>。<lb n="0053a13" ed="Y" type="old"/>如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.293" type="taisho">二九三經</ref></bibl>云：</p><pb n="0054a" ed="Y" xml:id="Y11.0011.0054a.old" type="old"/>
+<lb n="0053a13" ed="Y"/><lb n="0054a01" ed="Y" type="old"/><quote source="T02n0099_p0083c04-15" type="嚴謹引文"><p xml:id="pY11p0053a1301" style="margin-left:3em">為彼比丘說賢聖出世空相應緣起隨順法，所謂有是故是事有，是事有故是
 <pb n="0054a" ed="Y" xml:id="Y11.0011.0054a"/>
 <lb n="0054a01" ed="Y"/><lb n="0054a02" ed="Y" type="old"/>事起。……此甚深處，所謂緣起。倍復甚深難見，所謂一切取離、愛盡、
 <lb n="0054a02" ed="Y"/><lb n="0054a03" ed="Y" type="old"/>無欲、寂滅、涅槃。如此二法，謂有為、無為。<note n="0054001" resp="周怡曄" type="add">《雜阿含經》卷12：「為彼比丘說賢聖出世空相應緣起隨順法，所謂有是故是事有，是事有故是事起。所謂緣無明行，緣行識，緣識名色，緣名色六入處，緣六入處觸，緣觸受，緣受愛，緣愛取，緣取有，緣有生，緣生老、死、憂、悲、惱、苦。如是如是純大苦聚集，乃至如是純大苦聚滅。如是說法，而彼比丘猶有疑惑猶豫，先不得得想、不獲獲想、不證證想，今聞法已，心生憂苦、悔恨、矇沒、障礙。所以者何？此甚深處，所謂緣起，倍復甚深難見，所謂一切取離、愛盡、無欲、寂滅、涅槃；如此二法，謂有為、無為」(CBETA, T02, no. 99, p. 83, c4-15)</note></p></quote>
-<lb n="0054a03" ed="Y"/><lb n="0054a04" ed="Y" type="old"/><p>佛法，不出生滅的現象界與寂滅的涅槃界。這二者的連繫，就是中道緣起法。緣
+<lb n="0054a03" ed="Y"/><lb n="0054a04" ed="Y" type="old"/><p xml:id="pY11p0054a0301">佛法，不出生滅的現象界與寂滅的涅槃界。這二者的連繫，就是中道緣起法。緣
 <lb n="0054a04" ed="Y"/><lb n="0054a05" ed="Y" type="old"/>起與空義相應，擊破了一一法的常恆不變性與獨存自在性。既在一一因果法上<lb n="0054a06" ed="Y" type="old"/>顯
 <lb n="0054a05" ed="Y"/>示其「因集故苦集」為流轉界的規則，又顯示其「因滅故苦滅」為還滅界的規<lb n="0054a07" ed="Y" type="old"/>則。</p>
-<lb n="0054a06" ed="Y"/><lb n="0054a08" ed="Y" type="old"/><p style="text-indent:2em">但要問：因集故苦集，此因集，何以必能集此苦果？無常無我云何能集起而
+<lb n="0054a06" ed="Y"/><lb n="0054a08" ed="Y" type="old"/><p xml:id="pY11p0054a0601" style="text-indent:2em">但要問：因集故苦集，此因集，何以必能集此苦果？無常無我云何能集起而
 <lb n="0054a07" ed="Y"/><lb n="0054a09" ed="Y" type="old"/>非即無？因滅故苦滅，生死苦云何可滅？滅——涅槃云何而非斷滅？對這一切問
 <lb n="0054a08" ed="Y"/><lb n="0054a10" ed="Y" type="old"/>題，確能夠從現象推理成立而予圓滿解答的，只有緣起法。現在拿三條定律來說
 <lb n="0054a09" ed="Y"/><lb n="0054a11" ed="Y" type="old"/>明：</p>
-<lb n="0054a10" ed="Y"/><lb n="0054a12" ed="Y" type="old"/><p style="text-indent:2em">一、流轉律：<quote type="嚴謹引文">「此有故彼有」</quote>，由有此因，故有彼果，本是常人共喻的因果
+<lb n="0054a10" ed="Y"/><lb n="0054a12" ed="Y" type="old"/><p xml:id="pY11p0054a1001" style="text-indent:2em">一、流轉律：<quote type="嚴謹引文">「此有故彼有」</quote>，由有此因，故有彼果，本是常人共喻的因果
 <lb n="0054a11" ed="Y"/><lb n="0054a13" ed="Y" type="old"/>事理。但佛陀卻能在這平凡的事理上，發現一種真理：凡是存在，都不能離開因<pb n="0055a" ed="Y" xml:id="Y11.0011.0055a.old" type="old"/>
 <lb n="0054a12" ed="Y"/><lb n="0055a01" ed="Y" type="old"/>緣關係而單獨存在。如此存在而不如彼存在者，必有其原因與助緣。現實世界之
 <lb n="0054a13" ed="Y"/><lb n="0055a02" ed="Y" type="old"/>所以忽此忽彼，忽有忽無，有千差萬別的變化不同，都是由於它的因有所不同。
 <pb n="0055a" ed="Y" xml:id="Y11.0011.0055a"/>
 <lb n="0055a01" ed="Y"/><lb n="0055a03" ed="Y" type="old"/>所以佛說：要改造現實，必須從因上著手。這<quote type="嚴謹引文">「此有故彼有，此生故彼生」</quote>，是
 <lb n="0055a02" ed="Y"/><lb n="0055a04" ed="Y" type="old"/>緣起法的根本律，是現象界的必然定律，也是流轉法的普遍理則。</p>
-<lb n="0055a03" ed="Y"/><lb n="0055a05" ed="Y" type="old"/><p style="text-indent:2em">二、還滅律：此生故彼生，因有故果有；反轉來：此滅故彼滅，因無故果無
+<lb n="0055a03" ed="Y"/><lb n="0055a05" ed="Y" type="old"/><p xml:id="pY11p0055a0301" style="text-indent:2em">二、還滅律：此生故彼生，因有故果有；反轉來：此滅故彼滅，因無故果無
 <lb n="0055a04" ed="Y"/><lb n="0055a06" ed="Y" type="old"/>。針對著有、生，從因上著手截斷它，就歸於滅、無了。但滅，並不簡單，還是
 <lb n="0055a05" ed="Y"/>要<lb n="0055a07" ed="Y" type="old"/>用另一種相剋的因來對治它，所以說：<quote source="T02n0099_p0012c23-25" type="寬鬆引文">「有因有緣集世間，有因有緣滅世間<note n="0055001" resp="周怡曄" type="add">《雜阿含經》卷2：「有因有緣集世間，有因有緣世間集；有因有緣滅世間，有因有緣世間滅」(CBETA, T02, no. 99, p. 12, c23-25)</note></quote>。
 <lb n="0055a06" ed="Y"/><lb n="0055a08" ed="Y" type="old"/>」因此，還滅也是緣起，它也是本緣起理則而成立的，不過特別轉過一個方向，
@@ -636,7 +656,7 @@
 <lb n="0055a10" ed="Y"/><lb n="0055a12" ed="Y" type="old"/>的第二律罷了。緣起簡單的定義是「此故彼」，流轉之生、有，是<quote type="嚴謹引文">「緣此故彼起
 <lb n="0055a11" ed="Y"/><lb n="0055a13" ed="Y" type="old"/>」</quote>；現在還滅的無、滅，是「不緣此故彼不起」，並不違反「此故彼」的定義。<pb n="0056a" ed="Y" xml:id="Y11.0011.0056a.old" type="old"/>
 <lb n="0055a12" ed="Y"/><lb n="0056a01" ed="Y" type="old"/>所以<quote type="嚴謹引文">「此無故彼無，此滅故彼滅」</quote>的還滅，也是緣起理則的定律。</p>
-<lb n="0055a13" ed="Y"/><lb n="0056a02" ed="Y" type="old"/><p style="text-indent:2em">三、中道空寂律：<quote type="嚴謹引文">「此滅故彼滅」</quote>的滅，是涅槃之滅。涅槃之滅，是<quote type="嚴謹引文">「純大
+<lb n="0055a13" ed="Y"/><lb n="0056a02" ed="Y" type="old"/><p xml:id="pY11p0055a1301" style="text-indent:2em">三、中道空寂律：<quote type="嚴謹引文">「此滅故彼滅」</quote>的滅，是涅槃之滅。涅槃之滅，是<quote type="嚴謹引文">「純大
 <pb n="0056a" ed="Y" xml:id="Y11.0011.0056a"/>
 <lb n="0056a01" ed="Y"/><lb n="0056a03" ed="Y" type="old"/>苦聚滅」</quote>，是有為遷變法之否定。涅槃本身，是無為的不生不滅。只因無法顯示
 <lb n="0056a02" ed="Y"/><lb n="0056a04" ed="Y" type="old"/>，所以烘雲托月，從生死有為方面的否定來顯示它。如像大海的水相，在波浪澎
@@ -645,24 +665,24 @@
 <lb n="0056a05" ed="Y"/><lb n="0056a07" ed="Y" type="old"/>或以為涅槃是滅無而可怖的；這因為眾生有著無始來的我見在作祟，反面的否定
 <lb n="0056a06" ed="Y"/><lb n="0056a08" ed="Y" type="old"/>，使他們無法接受。那麼，要遣離眾生執涅槃為斷滅的恐怖，必須另設方便，用
 <lb n="0056a07" ed="Y"/><lb n="0056a09" ed="Y" type="old"/>中道的空寂律來顯示。從緣起的因果生滅，認取其當體如幻如化起滅無實，本來
-<lb n="0056a08" ed="Y"/><lb n="0056a10" ed="Y" type="old"/>就是空寂，自性就是涅槃。<title level="m">《詵陀迦旃延經》</title>正是開示此義，<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.262">第二
+<lb n="0056a08" ed="Y"/><lb n="0056a10" ed="Y" type="old"/>就是空寂，自性就是涅槃。<title level="m">《詵陀迦旃延經》</title>正是開示此義，<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.262" type="taisho">第二
 <lb n="0056a09" ed="Y"/>六<lb n="0056a11" ed="Y" type="old"/>二經</ref></bibl>說得最明顯。事情是這樣的：佛陀入滅後，闡陀（即車匿）比丘還沒有證
 <lb n="0056a10" ed="Y"/>得<lb n="0056a12" ed="Y" type="old"/>聖果，他向諸大聖者去求教授，說道：</p>
-<lb n="0056a11" ed="Y"/><lb n="0056a13" ed="Y" type="old"/><quote source="T02n0099_p0066b15-18" type="嚴謹引文"><p style="margin-left:3em">我已知色無常，受、想、行、識無常，一切行無常，一切法無我，涅槃寂<pb n="0057a" ed="Y" xml:id="Y11.0011.0057a.old" type="old"/>
+<lb n="0056a11" ed="Y"/><lb n="0056a13" ed="Y" type="old"/><quote source="T02n0099_p0066b15-18" type="嚴謹引文"><p xml:id="pY11p0056a1101" style="margin-left:3em">我已知色無常，受、想、行、識無常，一切行無常，一切法無我，涅槃寂<pb n="0057a" ed="Y" xml:id="Y11.0011.0057a.old" type="old"/>
 <lb n="0056a12" ed="Y"/><lb n="0057a01" ed="Y" type="old"/>滅。然我不喜聞一切諸行空寂不可得，愛盡、離欲、涅槃。<note n="0056001" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 66, b15-18)</note></p></quote>
-<lb n="0056a13" ed="Y"/><lb n="0057a02" ed="Y" type="old"/><p>他的癥結，在以為諸行是實有的（法有我無），涅槃之滅是另一實事。他把有為
+<lb n="0056a13" ed="Y"/><lb n="0057a02" ed="Y" type="old"/><p xml:id="pY11p0056a1301">他的癥結，在以為諸行是實有的（法有我無），涅槃之滅是另一實事。他把有為
 <pb n="0057a" ed="Y" xml:id="Y11.0011.0057a"/>
 <lb n="0057a01" ed="Y"/><lb n="0057a03" ed="Y" type="old"/>與無為打脫為兩節，所以僅能承認有為法的無常無我、涅槃的寂滅；而聽說一切
 <lb n="0057a02" ed="Y"/><lb n="0057a04" ed="Y" type="old"/>法空、涅槃寂滅，就不能愜意。他懷著這樣的一個問題，到處求教授。諸聖者的
 <lb n="0057a03" ed="Y"/><lb n="0057a05" ed="Y" type="old"/>開示，把無常、無我、涅槃等照樣說一遍，他始終無法接受。後來，找到阿難尊
 <lb n="0057a04" ed="Y"/><lb n="0057a06" ed="Y" type="old"/>者，阿難便舉出<title level="m">《化迦旃延經》</title>對他說道：</p>
-<lb n="0057a05" ed="Y"/><lb n="0057a07" ed="Y" type="old"/><quote source="T02n0099_p0066c25" type="嚴謹引文"><p style="margin-left:3em">我親從佛聞，教摩訶迦旃延言：世人顛倒依於二邊：若有，若無；世人取
+<lb n="0057a05" ed="Y"/><lb n="0057a07" ed="Y" type="old"/><quote source="T02n0099_p0066c25" type="嚴謹引文"><p xml:id="pY11p0057a0501" style="margin-left:3em">我親從佛聞，教摩訶迦旃延言：世人顛倒依於二邊：若有，若無；世人取
 <lb n="0057a06" ed="Y"/>諸<lb n="0057a08" ed="Y" type="old"/>境界，心便計著。迦旃延！若不受、不取、不住、不計於我，此苦生時
 <lb n="0057a07" ed="Y"/>生<lb n="0057a09" ed="Y" type="old"/>、滅時滅。迦旃延！於此不疑不惑，不由於他而能自知，是名正見、如來
 <lb n="0057a08" ed="Y"/>所<lb n="0057a10" ed="Y" type="old"/>說。所以者何？迦旃延！如實正觀世間集者，則不生世間無見；如實正
 <lb n="0057a09" ed="Y"/>觀<lb n="0057a11" ed="Y" type="old"/>世間滅者，則不生世間有見。迦旃延！如來離於二邊，說於中道，所謂
 <lb n="0057a10" ed="Y"/>：<lb n="0057a12" ed="Y" type="old"/>此有故彼有，此生故彼生……此無故彼無，此滅故彼滅。<note n="0057001" resp="周怡曄" type="add">《雜阿含經》卷10：「我親從佛聞，教摩訶迦旃延言：世人顛倒依於二邊，若有、若無，世人取諸境界，心便計著。迦旃延！若不受、不取、不住、不計於我，此苦生時生、滅時滅。迦旃延！於此不疑、不惑、不由於他而能自知，是名正見，如來所說。所以者何？迦旃延！如實正觀世間集者，則不生世間無見，如實正觀世間滅，則不生世間有見。迦旃延！如來離於二邊，說於中道，所謂此有故彼有，此生故彼生，謂緣無明有行，乃至生、老、病、死、憂、悲、惱、苦集；所謂此無故彼無，此滅故彼滅」(CBETA, T02, no. 99, p. 66, c25-p. 67, a7)</note></p></quote>
-<lb n="0057a11" ed="Y"/><lb n="0057a13" ed="Y" type="old"/><p>闡陀比丘的誤解，必須使他了解諸行非實、涅槃非斷滅才行；這中道的緣起法，<pb n="0058a" ed="Y" xml:id="Y11.0011.0058a.old" type="old"/>
+<lb n="0057a11" ed="Y"/><lb n="0057a13" ed="Y" type="old"/><p xml:id="pY11p0057a1101">闡陀比丘的誤解，必須使他了解諸行非實、涅槃非斷滅才行；這中道的緣起法，<pb n="0058a" ed="Y" xml:id="Y11.0011.0058a.old" type="old"/>
 <lb n="0057a12" ed="Y"/><lb n="0058a01" ed="Y" type="old"/>是最正確而應機的教授了。試問：為什麼如實正觀世間集可離無見而不起有見呢
 <lb n="0057a13" ed="Y"/><lb n="0058a02" ed="Y" type="old"/>？正觀世間滅可離有見而不墮於斷見呢？因為中道的緣起法，說明了緣起之有，
 <pb n="0058a" ed="Y" xml:id="Y11.0011.0058a"/>
@@ -672,13 +692,13 @@
 <lb n="0058a04" ed="Y"/>墮<lb n="0058a06" ed="Y" type="old"/>於斷滅了。這是說：要遣除眾生怖畏諸行空寂、以涅槃為斷滅的執著，不僅在
 <lb n="0058a05" ed="Y"/>知<lb n="0058a07" ed="Y" type="old"/>其為無常生滅，知其為有法無我，必需要從生滅之法、無我之法，直接體見其
 <lb n="0058a06" ed="Y"/>如<lb n="0058a08" ed="Y" type="old"/>幻不實，深入一切空寂，而顯示涅槃本性無生。</p>
-<lb n="0058a07" ed="Y"/><lb n="0058a09" ed="Y" type="old"/><p style="text-indent:2em"><bibl><title level="m">《雜阿含經》</title>的<ref target="#no:99.926" type="taisho">九二六經</ref></bibl>，佛對迦旃延說入真實（勝義）禪，不要依一切想
+<lb n="0058a07" ed="Y"/><lb n="0058a09" ed="Y" type="old"/><p xml:id="pY11p0058a0701" style="text-indent:2em"><bibl><title level="m">《雜阿含經》</title>的<ref target="#no:99.926" type="taisho">九二六經</ref></bibl>，佛對迦旃延說入真實（勝義）禪，不要依一切想
 <lb n="0058a08" ed="Y"/>，<lb n="0058a10" ed="Y" type="old"/>以見一切法自性空寂。其別譯經文（第一五一經）說：</p>
-<lb n="0058a09" ed="Y"/><lb n="0058a11" ed="Y" type="old"/><quote source="T02n0100_p0431a13-19" type="嚴謹引文"><p style="margin-left:3em">比丘深修禪定，觀彼大地悉皆虛偽，都不見有真實地想；水、火、風種及
+<lb n="0058a09" ed="Y"/><lb n="0058a11" ed="Y" type="old"/><quote source="T02n0100_p0431a13-19" type="嚴謹引文"><p xml:id="pY11p0058a0901" style="margin-left:3em">比丘深修禪定，觀彼大地悉皆虛偽，都不見有真實地想；水、火、風種及
 <lb n="0058a10" ed="Y"/><lb n="0058a12" ed="Y" type="old"/>四無色（四無色界），此世他世、日月星辰、識知見聞、推求覺觀、心意
 <lb n="0058a11" ed="Y"/>境<lb n="0058a13" ed="Y" type="old"/>界，及以於彼智不及處，亦復如是皆悉虛偽。無有實法，但有假號，因
 <lb n="0058a12" ed="Y"/>緣<pb n="0059a" ed="Y" xml:id="Y11.0011.0059a.old" type="old"/><lb n="0059a01" ed="Y" type="old"/>和合有種種名；觀斯空寂，不見有法及以非法。<note n="0058001" resp="周怡曄" type="add">《別譯雜阿含經》卷8(CBETA, T02, no. 100, p. 431, a13-19)</note></p></quote>
-<lb n="0058a13" ed="Y"/><lb n="0059a02" ed="Y" type="old"/><p>在一切生滅有為法上，觀察其當體悉皆虛偽、空寂，無有實法，一切只是假名安
+<lb n="0058a13" ed="Y"/><lb n="0059a02" ed="Y" type="old"/><p xml:id="pY11p0058a1301">在一切生滅有為法上，觀察其當體悉皆虛偽、空寂，無有實法，一切只是假名安
 <pb n="0059a" ed="Y" xml:id="Y11.0011.0059a"/>
 <lb n="0059a01" ed="Y"/><lb n="0059a03" ed="Y" type="old"/>立；如是遣離有無二邊見，而證入解脫涅槃。說到涅槃，大家都知道有兩種：無
 <lb n="0059a02" ed="Y"/><lb n="0059a04" ed="Y" type="old"/>餘依涅槃，固然無身心可說；但有餘依涅槃，阿羅漢們在生前就都證得了的。所
@@ -686,7 +706,7 @@
 <lb n="0059a04" ed="Y"/><lb n="0059a06" ed="Y" type="old"/>察它都是由因緣決定，自身無所主宰，深入體認其當體空寂；空寂，就是涅槃。
 <lb n="0059a05" ed="Y"/><lb n="0059a07" ed="Y" type="old"/>這是在緣起的流轉還滅中，見到依此不離此故彼性空，性空故假名，可稱為中道
 <lb n="0059a06" ed="Y"/><lb n="0059a08" ed="Y" type="old"/>空寂律。這是諸法的實相、佛教的心髓。</p>
-<lb n="0059a07" ed="Y"/><lb n="0059a09" ed="Y" type="old"/><p style="text-indent:2em">現在再從緣起的空相應上顯示其歸宿涅槃。緣起法此生故彼生，此滅故彼滅
+<lb n="0059a07" ed="Y"/><lb n="0059a09" ed="Y" type="old"/><p xml:id="pY11p0059a0701" style="text-indent:2em">現在再從緣起的空相應上顯示其歸宿涅槃。緣起法此生故彼生，此滅故彼滅
 <lb n="0059a08" ed="Y"/><lb n="0059a10" ed="Y" type="old"/>，當然也可以表現無常義；不過就其歸宿說，是開示本性空寂，重在涅槃。悟緣
 <lb n="0059a09" ed="Y"/><lb n="0059a11" ed="Y" type="old"/>起法的作用，主要在離我見——顯會無我。一切偏邪僻見，都是以我見為主而引
 <lb n="0059a10" ed="Y"/><lb n="0059a12" ed="Y" type="old"/>起的；在緣起中，顯示一切唯是如幻的緣起，我性本空，所以我性不可立——無
@@ -703,44 +723,44 @@
 <lb n="0060a07" ed="Y"/>見<lb n="0060a09" ed="Y" type="old"/>為本的一切戲論為大用，見之於實際修證上，便能離我我所，得大解脫而實證
 <lb n="0060a08" ed="Y"/>涅<lb n="0060a10" ed="Y" type="old"/>槃。</p></cb:div>
 <lb n="0060a09" ed="Y"/><lb n="0060a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第四項　我法空有</cb:mulu><head>第四項　我法空有</head>
-<lb n="0060a10" ed="Y"/><lb n="0060a12" ed="Y" type="old"/><p style="text-indent:2em">我空法空的意思，上面雖也略略提到，但因這是佛法主要的諍論點，所以再<pb n="0061a" ed="Y" xml:id="Y11.0011.0061a.old" type="old"/>
+<lb n="0060a10" ed="Y"/><lb n="0060a12" ed="Y" type="old"/><p xml:id="pY11p0060a1001" style="text-indent:2em">我空法空的意思，上面雖也略略提到，但因這是佛法主要的諍論點，所以再<pb n="0061a" ed="Y" xml:id="Y11.0011.0061a.old" type="old"/>
 <lb n="0060a11" ed="Y"/><lb n="0061a01" ed="Y" type="old"/>綜合的一談。</p>
-<lb n="0060a12" ed="Y"/><lb n="0061a02" ed="Y" type="old"/><p style="text-indent:2em">從阿含看，「我無法有」，是釋尊常常說到的。如<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.335">第三三五經</ref></bibl>
+<lb n="0060a12" ed="Y"/><lb n="0061a02" ed="Y" type="old"/><p xml:id="pY11p0060a1201" style="text-indent:2em">從阿含看，「我無法有」，是釋尊常常說到的。如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.335" type="taisho">第三三五經</ref></bibl>
 <pb n="0061a" ed="Y" xml:id="Y11.0011.0061a"/>
 <lb n="0061a01" ed="Y"/>說：</p>
-<lb n="0061a02" ed="Y"/><lb n="0061a03" ed="Y" type="old"/><quote source="T02n0099_p0092c18" type="嚴謹引文"><p style="margin-left:3em">有業報而無作者。<note n="0061001" resp="周怡曄" type="add">《雜阿含經》卷13(CBETA, T02, no. 99, p. 92, c18)</note></p></quote>
-<lb n="0061a03" ed="Y"/><lb n="0061a04" ed="Y" type="old"/><p style="text-indent:2em">第一二〇二經說：</p>
-<lb n="0061a04" ed="Y"/><lb n="0061a05" ed="Y" type="old"/><quote source="T02n0099_p0327b08" type="嚴謹引文"><lg style="margin-left:3em" type="abnormal"><l>唯有空陰聚，無是眾生者。<note n="0061002" resp="周怡曄" type="add">《雜阿含經》卷45(CBETA, T02, no. 99, p. 327, b8)</note></l></lg></quote>
-<lb n="0061a05" ed="Y"/><lb n="0061a06" ed="Y" type="old"/><p>作者與眾生，是「我」的異名，釋尊都說他是無。業報、陰聚等「法」，卻說它
+<lb n="0061a02" ed="Y"/><lb n="0061a03" ed="Y" type="old"/><quote source="T02n0099_p0092c18" type="嚴謹引文"><p xml:id="pY11p0061a0201" style="margin-left:3em">有業報而無作者。<note n="0061001" resp="周怡曄" type="add">《雜阿含經》卷13(CBETA, T02, no. 99, p. 92, c18)</note></p></quote>
+<lb n="0061a03" ed="Y"/><lb n="0061a04" ed="Y" type="old"/><p xml:id="pY11p0061a0301" style="text-indent:2em">第一二〇二經說：</p>
+<lb n="0061a04" ed="Y"/><lb n="0061a05" ed="Y" type="old"/><quote source="T02n0099_p0327b08" type="嚴謹引文"><lg xml:id="lgY11p0061a0401" style="margin-left:3em" type="abnormal"><l>唯有空陰聚，無是眾生者。<note n="0061002" resp="周怡曄" type="add">《雜阿含經》卷45(CBETA, T02, no. 99, p. 327, b8)</note></l></lg></quote>
+<lb n="0061a05" ed="Y"/><lb n="0061a06" ed="Y" type="old"/><p xml:id="pY11p0061a0501">作者與眾生，是「我」的異名，釋尊都說他是無。業報、陰聚等「法」，卻說它
 <lb n="0061a06" ed="Y"/><lb n="0061a07" ed="Y" type="old"/>是有。而第二六二經說須陀洹得法眼淨的時候，謂：</p>
-<lb n="0061a07" ed="Y"/><lb n="0061a08" ed="Y" type="old"/><quote source="T02n0099_p0067a16" type="嚴謹引文"><p style="margin-left:3em">不復見我，唯見正法。<note n="0061003" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 67, a16)</note></p></quote>
-<lb n="0061a08" ed="Y"/><lb n="0061a09" ed="Y" type="old"/><p>很明顯的，在聖者體驗所得的境界中，是「我無法有」的。釋尊又曾說過：</p>
-<lb n="0061a09" ed="Y"/><lb n="0061a10" ed="Y" type="old"/><quote source="T32n1646_p0259a13-14" type="寬鬆引文"><p style="margin-left:3em">見苦則不見於我，若見於我則不見苦。<note n="0061004" resp="周怡曄" type="add">《成實論》卷3〈34 無我品〉：「若人不見苦。是人則見我。若如實見苦。則不復見我。」(CBETA, T32, no. 1646, p. 259, a13-14)</note></p></quote>
-<lb n="0061a10" ed="Y"/><lb n="0061a11" ed="Y" type="old"/><p>從各方面看來，「我無法有」，可說是釋尊說法的基本方式。問題是在：「我無
+<lb n="0061a07" ed="Y"/><lb n="0061a08" ed="Y" type="old"/><quote source="T02n0099_p0067a16" type="嚴謹引文"><p xml:id="pY11p0061a0701" style="margin-left:3em">不復見我，唯見正法。<note n="0061003" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 67, a16)</note></p></quote>
+<lb n="0061a08" ed="Y"/><lb n="0061a09" ed="Y" type="old"/><p xml:id="pY11p0061a0801">很明顯的，在聖者體驗所得的境界中，是「我無法有」的。釋尊又曾說過：</p>
+<lb n="0061a09" ed="Y"/><lb n="0061a10" ed="Y" type="old"/><quote source="T32n1646_p0259a13-14" type="寬鬆引文"><p xml:id="pY11p0061a0901" style="margin-left:3em">見苦則不見於我，若見於我則不見苦。<note n="0061004" resp="周怡曄" type="add">《成實論》卷3〈34 無我品〉：「若人不見苦。是人則見我。若如實見苦。則不復見我。」(CBETA, T32, no. 1646, p. 259, a13-14)</note></p></quote>
+<lb n="0061a10" ed="Y"/><lb n="0061a11" ed="Y" type="old"/><p xml:id="pY11p0061a1001">從各方面看來，「我無法有」，可說是釋尊說法的基本方式。問題是在：「我無
 <lb n="0061a11" ed="Y"/><lb n="0061a12" ed="Y" type="old"/>」，所無的是什麼樣的我？「法有」，是怎樣的有？假有或實有？這在各家各派
 <lb n="0061a12" ed="Y"/><lb n="0061a13" ed="Y" type="old"/>，雖作了種種的解釋，但「我無法有」，總是可以代表佛法與外道不共的特色。</p><pb n="0062a" ed="Y" xml:id="Y11.0011.0062a.old" type="old"/>
-<lb n="0061a13" ed="Y"/><lb n="0062a01" ed="Y" type="old"/><p style="text-indent:2em">這，應一說「我」的意義。印度當時一般人，都認為我是一種常恆、自在者
+<lb n="0061a13" ed="Y"/><lb n="0062a01" ed="Y" type="old"/><p xml:id="pY11p0061a1301" style="text-indent:2em">這，應一說「我」的意義。印度當時一般人，都認為我是一種常恆、自在者
 <pb n="0062a" ed="Y" xml:id="Y11.0011.0062a"/>
 <lb n="0062a01" ed="Y"/><lb n="0062a02" ed="Y" type="old"/>。這裡的兩個主要命題，是「命與身一」、「命與身異」。命是生命，就是我；
 <lb n="0062a02" ed="Y"/><lb n="0062a03" ed="Y" type="old"/>身是以根身為中心的一切能所和合的活動。簡單說，命與身就是我與五蘊（或六
 <lb n="0062a03" ed="Y"/><lb n="0062a04" ed="Y" type="old"/>處）。有的外道，主張命與身是一，謂我就是法，法就是我，法是自我活動的表
 <lb n="0062a04" ed="Y"/><lb n="0062a05" ed="Y" type="old"/>現，佛教就叫它「即蘊計我」。另有外道，主張命與身異，在五蘊身心之外，別
 <lb n="0062a05" ed="Y"/><lb n="0062a06" ed="Y" type="old"/>執一個形而上的我，就是所謂「離蘊計我」。自我的基本主張，不外這兩種。</p>
-<lb n="0062a06" ed="Y"/><lb n="0062a07" ed="Y" type="old"/><p style="text-indent:2em">因自我而執身命一異，雖是完全虛妄；但有情與身心，為一切中心，在佛法
+<lb n="0062a06" ed="Y"/><lb n="0062a07" ed="Y" type="old"/><p xml:id="pY11p0062a0601" style="text-indent:2em">因自我而執身命一異，雖是完全虛妄；但有情與身心，為一切中心，在佛法
 <lb n="0062a07" ed="Y"/><lb n="0062a08" ed="Y" type="old"/>中是要建立的。擴大的觀點，命與身，就是我與世間或我與宇宙的問題。我，不
 <lb n="0062a08" ed="Y"/><lb n="0062a09" ed="Y" type="old"/>單是自己，而是一一有情。對有情而存在的，就是世間。這「世間」，可以包括
-<lb n="0062a09" ed="Y"/><lb n="0062a10" ed="Y" type="old"/>根身與境界；我則單是身心相續的生命。如上面引的<cit><bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.273">二七三經</ref>，問</bibl>
+<lb n="0062a09" ed="Y"/><lb n="0062a10" ed="Y" type="old"/>根身與境界；我則單是身心相續的生命。如上面引的<cit><bibl><title level="m">《雜阿含經》</title><ref target="#no:99.273" type="taisho">二七三經</ref>，問</bibl>
 <lb n="0062a10" ed="Y"/><quote source="T02n0099_p0072b21" type="嚴謹引文">「云<lb n="0062a11" ed="Y" type="old"/>何為我」</quote><note n="0062001" resp="周怡曄" type="add">《雜阿含經》卷11(CBETA, T02, no. 99, p. 72, b21)</note></cit>，答覆時謂以六處為本的身心活動叫我。這樣，好像我的範圍比世
 <lb n="0062a11" ed="Y"/>間狹<lb n="0062a12" ed="Y" type="old"/>了些。不過<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.230" type="taisho">二三〇經</ref></bibl>約六處來安立世間；第三七經又謂<quote source="T02n0099_p0008c02" type="嚴謹引文">「色（
 <lb n="0062a12" ed="Y"/>五蘊<lb n="0062a13" ed="Y" type="old"/>）無常苦變易法，是名世間世間法」<note n="0062002" resp="周怡曄" type="add">《雜阿含經》卷2(CBETA, T02, no. 99, p. 8, c2)</note></quote>，另約五蘊來安立世間法。以有情為本
 <lb n="0062a13" ed="Y"/>的蘊<pb n="0063a" ed="Y" xml:id="Y11.0011.0063a.old" type="old"/><lb n="0063a01" ed="Y" type="old"/>、處出發，以此安立我（有情），同時也以此安立法。這樣，我與世間畢竟
 <pb n="0063a" ed="Y" xml:id="Y11.0011.0063a"/>
-<lb n="0063a01" ed="Y"/>是不<lb n="0063a02" ed="Y" type="old"/>相離而相等的了。不但如此，即一切法，照<cit><bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.321">三二一經</ref></bibl><quote source="T02n0099_p0091b18-21" type="嚴謹引文">「眼及色
+<lb n="0063a01" ed="Y"/>是不<lb n="0063a02" ed="Y" type="old"/>相離而相等的了。不但如此，即一切法，照<cit><bibl><title level="m">《雜阿含經》</title><ref target="#no:99.321" type="taisho">三二一經</ref></bibl><quote source="T02n0099_p0091b18-21" type="嚴謹引文">「眼及色
 <lb n="0063a02" ed="Y"/>……是名<lb n="0063a03" ed="Y" type="old"/>為一切法」</quote><note n="0063001" resp="周怡曄" type="add">《雜阿含經》卷13：「眼及色、眼識、眼觸、眼觸因緣生受，若苦、若樂、不苦不樂。耳、鼻、舌、身、意法、意識、意觸、意觸因緣生受，若苦、若樂、不苦不樂，是名為一切法」(CBETA, T02, no. 99, p. 91, b18-21)</note></cit>的意義看來，也還是安立在（外有所對境界，內有身心活動
 <lb n="0063a03" ed="Y"/>的）有情<lb n="0063a04" ed="Y" type="old"/>中心上的，也是不能離開有情去談一切法的。總之，命與身，我與世間
 <lb n="0063a04" ed="Y"/>，我與一<lb n="0063a05" ed="Y" type="old"/>切法，都是以有情為中心而說到一切。我們對佛法以有情為中心的意義
 <lb n="0063a05" ed="Y"/>，必須時<lb n="0063a06" ed="Y" type="old"/>時把握住，才能對後代的諍論，徹底了解。</p>
-<lb n="0063a06" ed="Y"/><lb n="0063a07" ed="Y" type="old"/><p style="text-indent:2em">從有情因緣業果相續言，如佛說我以天眼觀見某人生天、某人墮地獄；或<lb n="0063a08" ed="Y" type="old"/>說
+<lb n="0063a06" ed="Y"/><lb n="0063a07" ed="Y" type="old"/><p xml:id="pY11p0063a0601" style="text-indent:2em">從有情因緣業果相續言，如佛說我以天眼觀見某人生天、某人墮地獄；或<lb n="0063a08" ed="Y" type="old"/>說
 <lb n="0063a07" ed="Y"/>過去頂生王就是我等等。不要以為佛說無我就無個性，須知在因果系統相續不<lb n="0063a09" ed="Y" type="old"/>斷
 <lb n="0063a08" ed="Y"/>的流變中，此彼生命之間，有其相對的獨立性。各個生命的特性，不但有，而<lb n="0063a10" ed="Y" type="old"/>且
 <lb n="0063a09" ed="Y"/>是被堅強的保留下來。這是因果相續，所謂<quote source="T02n0099_p0072c10-11" type="寬鬆引文">「無常無恆變易之我」<note n="0063002" resp="周怡曄" type="add">《雜阿含經》卷11：「無常之我，非恒、非安隱、變易之我」(CBETA, T02, no. 99, p. 72, c10-11)</note></quote>。有如長江<lb n="0063a11" ed="Y" type="old"/>大
@@ -750,25 +770,25 @@
 <lb n="0063a13" ed="Y"/>，則是毀壞世間。所以，這無常相續的假名我，是可以有的（釋尊說的頂生王<lb n="0064a02" ed="Y" type="old"/>是
 <pb n="0064a" ed="Y" xml:id="Y11.0011.0064a"/>
 <lb n="0064a01" ed="Y"/>我之我，就是這種我）；可是絕不容許在因果相續之外去另加執著。</p>
-<lb n="0064a02" ed="Y"/><lb n="0064a03" ed="Y" type="old"/><p style="text-indent:2em">一切法，有情中心的一切，必須建立緣起的存在，可說假名我、法俱有。而
+<lb n="0064a02" ed="Y"/><lb n="0064a03" ed="Y" type="old"/><p xml:id="pY11p0064a0201" style="text-indent:2em">一切法，有情中心的一切，必須建立緣起的存在，可說假名我、法俱有。而
 <lb n="0064a03" ed="Y"/><lb n="0064a04" ed="Y" type="old"/>從顛倒妄執去看，這才我無法有，甚至我法皆無。要知道，佛法處處說無我，所
 <lb n="0064a04" ed="Y"/><lb n="0064a05" ed="Y" type="old"/>無的我，其意義與假名我是不同的。眾生在相續不斷的因果系中，執有一個自在
 <lb n="0064a05" ed="Y"/><lb n="0064a06" ed="Y" type="old"/>的我；這我，向內執為自體，安立為自在者，就是我。對外，有自在者，必有所
 <lb n="0064a06" ed="Y"/><lb n="0064a07" ed="Y" type="old"/>自在支配控制的，就是我所。我我所的煩惱根本是薩迦耶見；有薩迦耶見，必然
 <lb n="0064a07" ed="Y"/><lb n="0064a08" ed="Y" type="old"/>就有內包的我與外延的我所兩方面的計執。所以佛說：薩迦耶見是生死的根本。</p>
-<lb n="0064a08" ed="Y"/><lb n="0064a09" ed="Y" type="old"/><p style="text-indent:2em">薩迦耶見使眾生下意識或本能的，自覺到自生命相續中有一常恆不變的自在
+<lb n="0064a08" ed="Y"/><lb n="0064a09" ed="Y" type="old"/><p xml:id="pY11p0064a0801" style="text-indent:2em">薩迦耶見使眾生下意識或本能的，自覺到自生命相續中有一常恆不變的自在
 <lb n="0064a09" ed="Y"/><lb n="0064a10" ed="Y" type="old"/>者，這是我見。它不用分別推理來成立，就在日常生活中有意無意間存在著，總
 <lb n="0064a10" ed="Y"/><lb n="0064a11" ed="Y" type="old"/>覺得好像應該有這麼一個自在者。有了我見，向外發展，就自然生起了我所見。
 <lb n="0064a11" ed="Y"/><lb n="0064a12" ed="Y" type="old"/>這種我我所見，是自我見（薩迦耶見）的兩面。佛法無此，而對之建立起「我無
 <lb n="0064a12" ed="Y"/><lb n="0064a13" ed="Y" type="old"/>法有」說。</p><pb n="0065a" ed="Y" xml:id="Y11.0011.0065a.old" type="old"/>
-<lb n="0064a13" ed="Y"/><lb n="0065a01" ed="Y" type="old"/><p style="text-indent:2em">我見與我所見，可說完全沒有固定性的範圍。先從大看到小，眾生最初先覺
+<lb n="0064a13" ed="Y"/><lb n="0065a01" ed="Y" type="old"/><p xml:id="pY11p0064a1301" style="text-indent:2em">我見與我所見，可說完全沒有固定性的範圍。先從大看到小，眾生最初先覺
 <pb n="0065a" ed="Y" xml:id="Y11.0011.0065a"/>
 <lb n="0065a01" ed="Y"/><lb n="0065a02" ed="Y" type="old"/>到外在世間的名位、產業及家庭，是屬於「我所」有的；內在五蘊、六處和合的
-<lb n="0065a02" ed="Y"/><lb n="0065a03" ed="Y" type="old"/>身心報體，是能有的「我」。如<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.45">第四五經</ref></bibl>云：</p>
-<lb n="0065a03" ed="Y"/><lb n="0065a04" ed="Y" type="old"/><quote source="T02n0099_p0011b03-04" type="嚴謹引文"><p style="margin-left:3em">若諸沙門、婆羅門見有我者，一切皆於此五受陰見我。<note n="0065001" resp="周怡曄" type="add">《雜阿含經》卷2(CBETA, T02, no. 99, p. 11, b3-4)</note></p></quote>
-<lb n="0065a04" ed="Y"/><lb n="0065a05" ed="Y" type="old"/><p>這以五蘊為我。<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.306">三〇六經</ref></bibl>云：</p>
-<lb n="0065a05" ed="Y"/><lb n="0065a06" ed="Y" type="old"/><quote source="T02n0099_p0087c29" type="嚴謹引文"><p style="margin-left:3em">如是說：我眼見色，……我意識法，……此等法名為人。<note n="0065002" resp="周怡曄" type="add">《雜阿含經》卷13：「『如是說：「我眼見色，我耳聞聲，我鼻嗅香，我舌甞味，我身覺觸，我意識法。」彼施設又如是言說：「是尊者如是名、如是生、如是姓、如是食、如是受苦樂、如是長壽、如是久住、如是壽分齊。」比丘！是則為想，是則為誌，是則言說，此諸法皆悉無常、有為、思願緣生；若無常、有為、思願緣生者，彼則是苦。又復彼苦生，亦苦住，亦苦滅，亦苦數數出生，一切皆苦。若復彼苦無餘斷、吐、盡、離欲、滅、息、沒，餘苦更不相續，不出生，是則寂滅，是則勝妙。所謂捨一切有餘、一切愛盡、無欲、滅盡、涅槃。耳、鼻、舌，身觸緣，生身識，三事和合觸，觸俱生受、想、思，此四是無色陰，身根是色陰，此名為人……』如上說，乃至『滅盡，涅槃。緣意，法生意識、三事和合觸，觸俱生受，想、思，此四無色陰、四大，士夫所依，此等法名為人』」(CBETA, T02, no. 99, p. 87, c29-p. 88, a16)</note></p></quote>
-<lb n="0065a06" ed="Y"/><lb n="0065a07" ed="Y" type="old"/><p>這以六處為我。他們都是以這身心綜合的生命體（蘊、處）是有其自在主宰性<lb n="0065a08" ed="Y" type="old"/>的
+<lb n="0065a02" ed="Y"/><lb n="0065a03" ed="Y" type="old"/>身心報體，是能有的「我」。如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.45" type="taisho">第四五經</ref></bibl>云：</p>
+<lb n="0065a03" ed="Y"/><lb n="0065a04" ed="Y" type="old"/><quote source="T02n0099_p0011b03-04" type="嚴謹引文"><p xml:id="pY11p0065a0301" style="margin-left:3em">若諸沙門、婆羅門見有我者，一切皆於此五受陰見我。<note n="0065001" resp="周怡曄" type="add">《雜阿含經》卷2(CBETA, T02, no. 99, p. 11, b3-4)</note></p></quote>
+<lb n="0065a04" ed="Y"/><lb n="0065a05" ed="Y" type="old"/><p xml:id="pY11p0065a0401">這以五蘊為我。<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.306" type="taisho">三〇六經</ref></bibl>云：</p>
+<lb n="0065a05" ed="Y"/><lb n="0065a06" ed="Y" type="old"/><quote source="T02n0099_p0087c29" type="嚴謹引文"><p xml:id="pY11p0065a0501" style="margin-left:3em">如是說：我眼見色，……我意識法，……此等法名為人。<note n="0065002" resp="周怡曄" type="add">《雜阿含經》卷13：「『如是說：「我眼見色，我耳聞聲，我鼻嗅香，我舌甞味，我身覺觸，我意識法。」彼施設又如是言說：「是尊者如是名、如是生、如是姓、如是食、如是受苦樂、如是長壽、如是久住、如是壽分齊。」比丘！是則為想，是則為誌，是則言說，此諸法皆悉無常、有為、思願緣生；若無常、有為、思願緣生者，彼則是苦。又復彼苦生，亦苦住，亦苦滅，亦苦數數出生，一切皆苦。若復彼苦無餘斷、吐、盡、離欲、滅、息、沒，餘苦更不相續，不出生，是則寂滅，是則勝妙。所謂捨一切有餘、一切愛盡、無欲、滅盡、涅槃。耳、鼻、舌，身觸緣，生身識，三事和合觸，觸俱生受、想、思，此四是無色陰，身根是色陰，此名為人……』如上說，乃至『滅盡，涅槃。緣意，法生意識、三事和合觸，觸俱生受，想、思，此四無色陰、四大，士夫所依，此等法名為人』」(CBETA, T02, no. 99, p. 87, c29-p. 88, a16)</note></p></quote>
+<lb n="0065a06" ed="Y"/><lb n="0065a07" ed="Y" type="old"/><p xml:id="pY11p0065a0601">這以六處為我。他們都是以這身心綜合的生命體（蘊、處）是有其自在主宰性<lb n="0065a08" ed="Y" type="old"/>的
 <lb n="0065a07" ed="Y"/>。如果退一步覺察到肉體諸根的變壞不可靠，尤其是承認生死輪迴的人，肉體<lb n="0065a09" ed="Y" type="old"/>，
 <lb n="0065a08" ed="Y"/>明明是隨著某一生命階段的結束而結束，不能說「我」，是限在這一生死的階<lb n="0065a10" ed="Y" type="old"/>段
 <lb n="0065a09" ed="Y"/>上「我所」有的軀殼；真正的「我」，該是屬於精神的受、想、行、識。<cit><bibl><title level="m">《雜<lb n="0065a11" ed="Y" type="old"/>阿
@@ -802,14 +822,14 @@
 <lb n="0067a09" ed="Y"/>柢說：一切邪見皆出自二見，二見是建立在自他、內外、能所對待關涉的我我<lb n="0067a11" ed="Y" type="old"/>所
 <lb n="0067a10" ed="Y"/>見上，我我所見的根本是執有常恆不變自在者的薩迦耶見。所以一切邪見執著<lb n="0067a12" ed="Y" type="old"/>，
 <lb n="0067a11" ed="Y"/>都是建立在「我」執上的。</p>
-<lb n="0067a12" ed="Y"/><lb n="0067a13" ed="Y" type="old"/><p style="text-indent:2em">在這裡，我們應該認識：「我無法有」，確是佛法的根本義，釋尊確不曾開<pb n="0068a" ed="Y" xml:id="Y11.0011.0068a.old" type="old"/>
+<lb n="0067a12" ed="Y"/><lb n="0067a13" ed="Y" type="old"/><p xml:id="pY11p0067a1201" style="text-indent:2em">在這裡，我們應該認識：「我無法有」，確是佛法的根本義，釋尊確不曾開<pb n="0068a" ed="Y" xml:id="Y11.0011.0068a.old" type="old"/>
 <lb n="0067a13" ed="Y"/><lb n="0068a01" ed="Y" type="old"/>口就談一切法空。一切執著（法執當然也在內），都是建立在我執的根本上的；
 <pb n="0068a" ed="Y" xml:id="Y11.0011.0068a"/>
 <lb n="0068a01" ed="Y"/><lb n="0068a02" ed="Y" type="old"/>「無我」，就可以無我所，就可以無一切執；不談法空，而一切法的常恆自在的
 <lb n="0068a02" ed="Y"/><lb n="0068a03" ed="Y" type="old"/>實有性必然是冰消瓦解，不能存餘。那麼，這「法有」當然是別有意義了。釋尊
 <lb n="0068a03" ed="Y"/><lb n="0068a04" ed="Y" type="old"/>的教授重在無我，在這意義下，只要徹底體證無我，則不一定說法空，豈不同樣
 <lb n="0068a04" ed="Y"/><lb n="0068a05" ed="Y" type="old"/>可以得到解脫生死的效果嗎？</p>
-<lb n="0068a05" ed="Y"/><lb n="0068a06" ed="Y" type="old"/><p style="text-indent:2em">所以，「我無法有」，可說我與法即表示兩種性質：一、因緣有，它存在於
+<lb n="0068a05" ed="Y"/><lb n="0068a06" ed="Y" type="old"/><p xml:id="pY11p0068a0501" style="text-indent:2em">所以，「我無法有」，可說我與法即表示兩種性質：一、因緣有，它存在於
 <lb n="0068a06" ed="Y"/><lb n="0068a07" ed="Y" type="old"/>因緣和合的關係上，合著因果法則的必然性，所以說「法有」。二、妄執有，本
 <lb n="0068a07" ed="Y"/><lb n="0068a08" ed="Y" type="old"/>來沒有，純由認識的妄執而存在；這有，就是我。本來無我，由於薩迦耶見的慣
 <lb n="0068a08" ed="Y"/><lb n="0068a09" ed="Y" type="old"/>習力，在法上現起常恆實有的錯亂相，主觀地認定它是實有。若把薩迦耶見打破
@@ -819,10 +839,10 @@
 <lb n="0068a12" ed="Y"/><lb n="0068a13" ed="Y" type="old"/>它是正確的指出一切有是緣起的存在；在這緣有上附增的一切妄執，都是建立在<pb n="0069a" ed="Y" xml:id="Y11.0011.0069a.old" type="old"/>
 <lb n="0068a13" ed="Y"/><lb n="0069a01" ed="Y" type="old"/>我執上，都可以而且必須由無我而否定它。</p>
 <pb n="0069a" ed="Y" xml:id="Y11.0011.0069a"/>
-<lb n="0069a01" ed="Y"/><lb n="0069a02" ed="Y" type="old"/><p style="text-indent:2em">現在一論我與法的關係。從上面，已可知我法的關涉，一切以有情為中心。
+<lb n="0069a01" ed="Y"/><lb n="0069a02" ed="Y" type="old"/><p xml:id="pY11p0069a0101" style="text-indent:2em">現在一論我與法的關係。從上面，已可知我法的關涉，一切以有情為中心。
 <lb n="0069a02" ed="Y"/><lb n="0069a03" ed="Y" type="old"/>但我們每以為：既我是無而法可以有，我與法似乎是兩回事。其實，在佛法上，
 <lb n="0069a03" ed="Y"/><lb n="0069a04" ed="Y" type="old"/>二者有著密切的關連，是不可分割的。第一、從流轉面說，以我故有法：上文引
-<lb n="0069a04" ed="Y"/><lb n="0069a05" ed="Y" type="old"/>過<cit><bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.57">五七經</ref>所說的：</bibl><quote source="T02n0099_p0014a13-14" type="嚴謹引文">「凡夫於色見是我，若見我者是名為行。」</quote><note n="0069001" resp="周怡曄" type="add">《雜阿含經》卷2(CBETA, T02, no. 99, p. 14, a13-14)</note></cit>執此
+<lb n="0069a04" ed="Y"/><lb n="0069a05" ed="Y" type="old"/>過<cit><bibl><title level="m">《雜阿含經》</title><ref target="#no:99.57" type="taisho">五七經</ref>所說的：</bibl><quote source="T02n0099_p0014a13-14" type="嚴謹引文">「凡夫於色見是我，若見我者是名為行。」</quote><note n="0069001" resp="周怡曄" type="add">《雜阿含經》卷2(CBETA, T02, no. 99, p. 14, a13-14)</note></cit>執此
 <lb n="0069a05" ed="Y"/>色為<lb n="0069a06" ed="Y" type="old"/>我，即可由此執而使其流演相續下去；所以一切法都是存在於妄我上的。從
 <lb n="0069a06" ed="Y"/>還滅<lb n="0069a07" ed="Y" type="old"/>面說，我無則法滅：一切法存在於我的妄執上，假使我的妄執遣除了，如聲
 <lb n="0069a07" ed="Y"/>聞聖<lb n="0069a08" ed="Y" type="old"/>者證得<quote>「我生已盡，梵行已立，不受後有」</quote>的時候，抽去我執而得涅槃，法
@@ -839,11 +859,11 @@
 <lb n="0070a04" ed="Y"/>法，緣<lb n="0070a05" ed="Y" type="old"/>法計我；還滅則我斷而後法寂，法空而後我息。約緣起，則我法俱有；約
 <lb n="0070a05" ed="Y"/>自性妄<lb n="0070a06" ed="Y" type="old"/>執，則我法俱無。由於諸見以我為本，所以偏說「我無法有」。若一定在
 <lb n="0070a06" ed="Y"/>理論上<lb n="0070a07" ed="Y" type="old"/>把二者嚴格分開去說有說無，不一定合乎佛的本意！</p>
-<lb n="0070a07" ed="Y"/><lb n="0070a08" ed="Y" type="old"/><p style="text-indent:2em">現在引幾個經來總結一下。<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.297" type="taisho">二九七經（<title level="m">《大空法經》</title>）</ref></bibl>云：</p>
-<lb n="0070a08" ed="Y"/><lb n="0070a09" ed="Y" type="old"/><quote source="T02n0099_p0084c17" type="嚴謹引文"><p style="margin-left:3em">若有問言：彼誰老死？老死屬誰？彼則答言：我即老死，今老死屬我，老
+<lb n="0070a07" ed="Y"/><lb n="0070a08" ed="Y" type="old"/><p xml:id="pY11p0070a0701" style="text-indent:2em">現在引幾個經來總結一下。<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.297" type="taisho">二九七經（<title level="m">《大空法經》</title>）</ref></bibl>云：</p>
+<lb n="0070a08" ed="Y"/><lb n="0070a09" ed="Y" type="old"/><quote source="T02n0099_p0084c17" type="嚴謹引文"><p xml:id="pY11p0070a0801" style="margin-left:3em">若有問言：彼誰老死？老死屬誰？彼則答言：我即老死，今老死屬我，老
 <lb n="0070a09" ed="Y"/><lb n="0070a10" ed="Y" type="old"/>死是我所。言命即是身，或言命異身異，此則一義。……是名<title level="m">《大空法經
 <lb n="0070a10" ed="Y"/>》</title>。<note n="0070002" resp="周怡曄" type="add">《雜阿含經》卷12：「若有問言：『彼誰老死？老死屬誰？』彼則答言：『我即老死，今老死屬我，老死是我。』所言：『命即是身。』或言：『命異身異。』此則一義，而說有種種。若見言：『命即是身。』彼梵行者所無有。若復見言：『命異身異。』梵行者所無有。於此二邊，心所不隨，正向中道。賢聖出世，如實不顛倒正見，謂緣生老死。如是生、有、取、愛受、觸、六入處、名色、識、行，緣無明故有行。若復問言：『誰是行？行屬誰？』彼則答言：『行則是我，行是我所。』彼如是：『命即是身。』或言：『命異身異。』彼見命即是身者，梵行者無有；或言命異身異者，梵行者亦無有。離此二邊，正向中道。賢聖出世，如實不顛倒正見所知，所謂緣無明行。諸比丘！若無明離欲而生明，彼誰老死？老死屬誰者？老死則斷，則知斷其根本，如截多羅樹頭，於未來世成不生法。若比丘無明離欲而生明，彼誰生？生屬誰？乃至誰[2]是行？行屬誰者？行則斷，則知斷其根本，如截多羅樹頭，於未來世成不生法，若比丘無明離欲而生明，彼無明滅則行滅，乃至純大苦聚滅，是名大空法經。」(CBETA, T02, no. 99, p. 84, c17-p. 85, a9)</note></p></quote>
-<lb n="0070a11" ed="Y"/><lb n="0070a11" ed="Y" type="old"/><p>在十二緣起中，老死代表了整個生命流。經文從我與老死的相關上問：是我即老
+<lb n="0070a11" ed="Y"/><lb n="0070a11" ed="Y" type="old"/><p xml:id="pY11p0070a1101">在十二緣起中，老死代表了整個生命流。經文從我與老死的相關上問：是我即老
 <lb n="0070a12" ed="Y"/><lb n="0070a12" ed="Y" type="old"/>死（命身一）？還是老死屬我（命身異）？以緣起說，不但老死之我沒有，即我
 <lb n="0070a13" ed="Y"/><lb n="0070a13" ed="Y" type="old"/>之老死也不可得；於是離我我所見。後代很多學派，都引此經以證明佛說緣起法<pb n="0071a" ed="Y" xml:id="Y11.0011.0071a.old" type="old"/>
 <pb n="0071a" ed="Y" xml:id="Y11.0011.0071a"/>
@@ -851,28 +871,28 @@
 <lb n="0071a02" ed="Y"/><lb n="0071a02" ed="Y" type="old"/>世受生沒有？佛陀置之無記，因為根本就沒有「我」，還談什麼後世受生不受生
 <lb n="0071a03" ed="Y"/><lb n="0071a03" ed="Y" type="old"/>！可是，這意義也有放到色等蘊上明其生與不生皆不然的，如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.962" type="taisho">九六
 <lb n="0071a04" ed="Y"/>二<lb n="0071a04" ed="Y" type="old"/>經</ref></bibl>謂：</p>
-<lb n="0071a05" ed="Y"/><lb n="0071a05" ed="Y" type="old"/><quote source="T02n0099_p0245c25-26" type="嚴謹引文"><p style="margin-left:3em">如是等解脫比丘，生者不然，不生亦不然。<note n="0071001" resp="周怡曄" type="add">《雜阿含經》卷34(CBETA, T02, no. 99, p. 245, c25-26)</note></p></quote>
-<lb n="0071a06" ed="Y"/><lb n="0071a06" ed="Y" type="old"/><p>又有些經中說：聖弟子們入無餘依涅槃，魔王於其舍利中尋識，了不可得，終不
+<lb n="0071a05" ed="Y"/><lb n="0071a05" ed="Y" type="old"/><quote source="T02n0099_p0245c25-26" type="嚴謹引文"><p xml:id="pY11p0071a0501" style="margin-left:3em">如是等解脫比丘，生者不然，不生亦不然。<note n="0071001" resp="周怡曄" type="add">《雜阿含經》卷34(CBETA, T02, no. 99, p. 245, c25-26)</note></p></quote>
+<lb n="0071a06" ed="Y"/><lb n="0071a06" ed="Y" type="old"/><p xml:id="pY11p0071a0601">又有些經中說：聖弟子們入無餘依涅槃，魔王於其舍利中尋識，了不可得，終不
 <lb n="0071a07" ed="Y"/><lb n="0071a07" ed="Y" type="old"/>見其往東西南北四維上下而去。同樣的，也可在色等蘊上說的。如<bibl><title level="m">《雜阿含經》</title>
-<lb n="0071a08" ed="Y"/><ref type="taisho" target="#no:99.962">第<lb n="0071a08" ed="Y" type="old"/>九六二經</ref></bibl>說：</p>
-<lb n="0071a09" ed="Y"/><lb n="0071a09" ed="Y" type="old"/><quote source="T02n0099_p0246a07-10" type="嚴謹引文"><p style="margin-left:3em">色已斷，已知，受、想、行、識已斷，已知，斷其根本，如截多羅樹頭，
+<lb n="0071a08" ed="Y"/><ref target="#no:99.962" type="taisho">第<lb n="0071a08" ed="Y" type="old"/>九六二經</ref></bibl>說：</p>
+<lb n="0071a09" ed="Y"/><lb n="0071a09" ed="Y" type="old"/><quote source="T02n0099_p0246a07-10" type="嚴謹引文"><p xml:id="pY11p0071a0901" style="margin-left:3em">色已斷，已知，受、想、行、識已斷，已知，斷其根本，如截多羅樹頭，
 <lb n="0071a10" ed="Y"/><lb n="0071a10" ed="Y" type="old"/>無復生分，於未來世永不復起；若至東方南西北方，是則不然。甚深廣大
 <lb n="0071a11" ed="Y"/><lb n="0071a11" ed="Y" type="old"/>，無量無數，永滅。<note n="0071002" resp="周怡曄" type="add">《雜阿含經》卷34(CBETA, T02, no. 99, p. 246, a7-10)</note></p></quote>
-<lb n="0071a12" ed="Y"/><lb n="0071a12" ed="Y" type="old"/><p>又經中拿如木生火譬喻我，同時卻也反用以譬喻五蘊的寂滅無所從去。從這各種
+<lb n="0071a12" ed="Y"/><lb n="0071a12" ed="Y" type="old"/><p xml:id="pY11p0071a1201">又經中拿如木生火譬喻我，同時卻也反用以譬喻五蘊的寂滅無所從去。從這各種
 <lb n="0071a13" ed="Y"/><lb n="0071a13" ed="Y" type="old"/>經文看來，根本佛教雖以我無法有為基本論題，但在涅槃寂滅上，給予二者的看<pb n="0072a" ed="Y" xml:id="Y11.0011.0072a.old" type="old"/>
 <pb n="0072a" ed="Y" xml:id="Y11.0011.0072a"/>
 <lb n="0072a01" ed="Y"/><lb n="0072a01" ed="Y" type="old"/>法是同樣的，平等平等，無有差別。</p>
-<lb n="0072a02" ed="Y"/><lb n="0072a02" ed="Y" type="old"/><p style="text-indent:2em">我空法有的問題，說到這裡為止，暫不作其他結論。</p></cb:div></cb:div>
+<lb n="0072a02" ed="Y"/><lb n="0072a02" ed="Y" type="old"/><p xml:id="pY11p0072a0201" style="text-indent:2em">我空法有的問題，說到這裡為止，暫不作其他結論。</p></cb:div></cb:div>
 <lb n="0072a03" ed="Y"/><lb n="0072a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　空之行踐</cb:mulu><head>第三節　空之行踐</head>
 <lb n="0072a04" ed="Y"/><lb n="0072a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第一項　空與禪</cb:mulu><head>第一項　空與禪</head>
-<lb n="0072a05" ed="Y"/><lb n="0072a05" ed="Y" type="old"/><p style="text-indent:2em">上面說的從空諸行以觀無常、無我，是所觀境空；由觀無常、無我而得涅槃
+<lb n="0072a05" ed="Y"/><lb n="0072a05" ed="Y" type="old"/><p xml:id="pY11p0072a0501" style="text-indent:2em">上面說的從空諸行以觀無常、無我，是所觀境空；由觀無常、無我而得涅槃
 <lb n="0072a06" ed="Y"/><lb n="0072a06" ed="Y" type="old"/>，是所證果空，這境與果之間的連貫，就是實行。與空相關的行持有定與慧兩種
-<lb n="0072a07" ed="Y"/><lb n="0072a07" ed="Y" type="old"/>。體證空性的慧，雖如<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.347">三四七經</ref></bibl>所說，可以不依四禪、八定便能悟
+<lb n="0072a07" ed="Y"/><lb n="0072a07" ed="Y" type="old"/>。體證空性的慧，雖如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.347" type="taisho">三四七經</ref></bibl>所說，可以不依四禪、八定便能悟
 <lb n="0072a08" ed="Y"/>入<lb n="0072a08" ed="Y" type="old"/>而得解脫的，但空慧的發生，多少要依於禪定，這是大家一致的說法。至少須
 <lb n="0072a09" ed="Y"/>有<lb n="0072a09" ed="Y" type="old"/>最低的定力，如欲界的電喻三昧，或者說初禪近分的未到定，方可發慧證空。
 <lb n="0072a10" ed="Y"/>同<lb n="0072a10" ed="Y" type="old"/>時，禪必定離欲，也與空同樣的有所離、有所否定，而可稱之為空的；所以禪
 <lb n="0072a11" ed="Y"/>與<lb n="0072a11" ed="Y" type="old"/>空有關。</p>
-<lb n="0072a12" ed="Y"/><lb n="0072a12" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《雜阿含經》</title>中雖也常見佛陀指示弟子要精進禪思，但究竟如何是禪？如何<pb n="0073a" ed="Y" xml:id="Y11.0011.0073a.old" type="old"/>
+<lb n="0072a12" ed="Y"/><lb n="0072a12" ed="Y" type="old"/><p xml:id="pY11p0072a1201" style="text-indent:2em"><title level="m">《雜阿含經》</title>中雖也常見佛陀指示弟子要精進禪思，但究竟如何是禪？如何<pb n="0073a" ed="Y" xml:id="Y11.0011.0073a.old" type="old"/>
 <pb n="0073a" ed="Y" xml:id="Y11.0011.0073a"/>
 <lb n="0073a01" ed="Y"/><lb n="0073a01" ed="Y" type="old"/>修？除了四禪以外，其詳細情形說到的很少。所以單依<title level="m">《雜阿含經》</title>，對於禪定
 <lb n="0073a02" ed="Y"/>是<lb n="0073a02" ed="Y" type="old"/>不易得到明確的觀念。至於<title level="m">《中阿含經》</title>，處處說禪定。<title level="m">《中阿含經》</title>以對治
@@ -884,7 +904,7 @@
 <lb n="0073a08" ed="Y"/>的不同，對後代有很大<lb n="0073a08" ed="Y" type="old"/>的影響。如大乘經中的種種深定，是繼承<title level="m">《雜阿含經》</title>定
 <lb n="0073a09" ed="Y"/>慧綜合的風格；另一方面，<lb n="0073a09" ed="Y" type="old"/>如小乘薩婆多部他們，分別定慧，忽略了真慧的禪定
 <lb n="0073a10" ed="Y"/>次第化，說定則專在四禪、<lb n="0073a10" ed="Y" type="old"/>八定上去詳細分析。</p>
-<lb n="0073a11" ed="Y"/><lb n="0073a11" ed="Y" type="old"/><p style="text-indent:2em">又須說明者，佛世的修行方法，平易、簡單，觀察空、無我義，由一最低的
+<lb n="0073a11" ed="Y"/><lb n="0073a11" ed="Y" type="old"/><p xml:id="pY11p0073a1101" style="text-indent:2em">又須說明者，佛世的修行方法，平易、簡單，觀察空、無我義，由一最低的
 <lb n="0073a12" ed="Y"/><lb n="0073a12" ed="Y" type="old"/>定力引發真慧，斷煩惱而得解脫。不過弟子們根性不同，有的一修即得，有的須
 <lb n="0073a13" ed="Y"/><lb n="0073a13" ed="Y" type="old"/>經各種次第；修時的下手處、得力處、注意處，彼此有異；由這種關係，佛弟子<pb n="0074a" ed="Y" xml:id="Y11.0011.0074a.old" type="old"/>
 <pb n="0074a" ed="Y" xml:id="Y11.0011.0074a"/>
@@ -897,7 +917,7 @@
 <lb n="0074a07" ed="Y"/>異。<lb n="0074a07" ed="Y" type="old"/>而由滅盡定力，將來報得生天，是有色無色？甚至舍利弗與優陀夷大大的諍
 <lb n="0074a08" ed="Y"/>論起<lb n="0074a08" ed="Y" type="old"/>來。可見禪定與諸弟子自己修行所得的體驗有密切關係。只是禪定中身心的
 <lb n="0074a09" ed="Y"/>經驗<lb n="0074a09" ed="Y" type="old"/>，大體是可以共同的，所以後代的弟子們依之建立一種共認的次第組織。</p>
-<lb n="0074a10" ed="Y"/><lb n="0074a10" ed="Y" type="old"/><p style="text-indent:2em">在佛弟子中，又可以舉兩個重要人物來談談。一、須菩提，<title level="m">《雜阿含經》</title>中
+<lb n="0074a10" ed="Y"/><lb n="0074a10" ed="Y" type="old"/><p xml:id="pY11p0074a1001" style="text-indent:2em">在佛弟子中，又可以舉兩個重要人物來談談。一、須菩提，<title level="m">《雜阿含經》</title>中
 <lb n="0074a11" ed="Y"/>沒<lb n="0074a11" ed="Y" type="old"/>有他的名字；<cit><bibl><title level="m">《中阿含經》</title>則說他觀</bibl><quote source="T01n0026_p0703c10-11" type="嚴謹引文">「此行真實空」</quote><note n="0074001" resp="周怡曄" type="add">《中阿含經》卷43〈2 根本分別品〉：「知法如真實，須菩提說偈，此行真實空，捨此住止息。」(CBETA, T01, no. 26, p. 703, c10-11)</note></cit>，觀空第一、無諍三昧第
 <lb n="0074a12" ed="Y"/>一；<lb n="0074a12" ed="Y" type="old"/>到<title level="m">《增一阿含經》</title>是更多見。在大乘經如<title level="m">《般若經》</title>等，他已經是一個非常
 <lb n="0074a13" ed="Y"/>重要的人<lb n="0074a13" ed="Y" type="old"/>物了；他與東方的學派有關。二、離婆多，同樣的在<title level="m">《雜阿含經》</title>中無
@@ -908,7 +928,7 @@
 <lb n="0075a04" ed="Y"/>者，乃至影響到以<lb n="0075a04" ed="Y" type="old"/>禪為中心而組織起全部佛教的大乘瑜伽學者。所以，禪定由佛
 <lb n="0075a05" ed="Y"/>弟子們修證體驗所<lb n="0075a05" ed="Y" type="old"/>得，依之而組織成為佛教中一種嚴密體系的；它關係到後代的
 <lb n="0075a06" ed="Y"/>學派，也促成了後<lb n="0075a06" ed="Y" type="old"/>代三界說組識的完成。</p>
-<lb n="0075a07" ed="Y"/><lb n="0075a07" ed="Y" type="old"/><p style="text-indent:2em">這裡順便談談由修定得觀慧通達正理得解脫。一切有系謂依四禪、三無色定
+<lb n="0075a07" ed="Y"/><lb n="0075a07" ed="Y" type="old"/><p xml:id="pY11p0075a0701" style="text-indent:2em">這裡順便談談由修定得觀慧通達正理得解脫。一切有系謂依四禪、三無色定
 <lb n="0075a08" ed="Y"/><lb n="0075a08" ed="Y" type="old"/>，可以發無漏慧；而於四禪、三無色定的本身，純從世俗立場去看它；這是定與
 <lb n="0075a09" ed="Y"/><lb n="0075a09" ed="Y" type="old"/>慧的差別論。在經中也可看出：佛說禪定，不是單為禪定而禪定。如四無色定，
 <lb n="0075a10" ed="Y"/><lb n="0075a10" ed="Y" type="old"/>是依定中觀察如病、如癰、如刺、如殺、無常、無我、可厭患而證得。有部等，
@@ -923,14 +943,14 @@
 <lb n="0076a05" ed="Y"/><lb n="0076a05" ed="Y" type="old"/>可以通達真理得解脫，大家是共同的；不過，有的在定慧差別的立場說，有的在
 <lb n="0076a06" ed="Y"/><lb n="0076a06" ed="Y" type="old"/>定慧綜合的立場說，影響大小學派的思想分流。</p></cb:div>
 <lb n="0076a07" ed="Y"/><lb n="0076a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第二項　空、無相、無所有</cb:mulu><head>第二項　空、無相、無所有</head>
-<lb n="0076a08" ed="Y"/><lb n="0076a08" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《中阿含經》</title>特重在禪的修行次第上，雖也談到空、無相、無所有，不若<title level="m">《
+<lb n="0076a08" ed="Y"/><lb n="0076a08" ed="Y" type="old"/><p xml:id="pY11p0076a0801" style="text-indent:2em"><title level="m">《中阿含經》</title>特重在禪的修行次第上，雖也談到空、無相、無所有，不若<title level="m">《
 <lb n="0076a09" ed="Y"/>雜<lb n="0076a09" ed="Y" type="old"/>阿含經》</title>之注重在所觀義上，所以留待下面再去說它。</p>
-<lb n="0076a10" ed="Y"/><lb n="0076a10" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《雜阿含經》</title>講的修行方法，多為觀無常苦，不限於空、無相、無所有。但
+<lb n="0076a10" ed="Y"/><lb n="0076a10" ed="Y" type="old"/><p xml:id="pY11p0076a1001" style="text-indent:2em"><title level="m">《雜阿含經》</title>講的修行方法，多為觀無常苦，不限於空、無相、無所有。但
 <lb n="0076a11" ed="Y"/>以<lb n="0076a11" ed="Y" type="old"/>空義明常恆我我所之無所有，最後的體驗諸法真實，與空義有密切關係。<bibl><title level="m">《雜
-<lb n="0076a12" ed="Y"/>阿<lb n="0076a12" ed="Y" type="old"/>含經》</title><ref type="taisho" target="#no:99.80">第八〇經</ref></bibl>說：</p><pb n="0077a" ed="Y" xml:id="Y11.0011.0077a.old" type="old"/>
+<lb n="0076a12" ed="Y"/>阿<lb n="0076a12" ed="Y" type="old"/>含經》</title><ref target="#no:99.80" type="taisho">第八〇經</ref></bibl>說：</p><pb n="0077a" ed="Y" xml:id="Y11.0011.0077a.old" type="old"/>
 <pb n="0077a" ed="Y" xml:id="Y11.0011.0077a"/>
-<lb n="0077a01" ed="Y"/><lb n="0077a01" ed="Y" type="old"/><quote source="T02n0099_p0020b04-05" type="嚴謹引文"><p style="margin-left:3em">若得空已，能起無相、無所有，離慢知見者，斯有是處。<note n="0077001" resp="周怡曄" type="add">《雜阿含經》卷3(CBETA, T02, no. 99, p. 20, b4-5)</note></p></quote>
-<lb n="0077a02" ed="Y"/><lb n="0077a02" ed="Y" type="old"/><p>這說：能見無相、無所有，知見清淨而得解脫，必須以空義為根本。固然也有經
+<lb n="0077a01" ed="Y"/><lb n="0077a01" ed="Y" type="old"/><quote source="T02n0099_p0020b04-05" type="嚴謹引文"><p xml:id="pY11p0077a0101" style="margin-left:3em">若得空已，能起無相、無所有，離慢知見者，斯有是處。<note n="0077001" resp="周怡曄" type="add">《雜阿含經》卷3(CBETA, T02, no. 99, p. 20, b4-5)</note></p></quote>
+<lb n="0077a02" ed="Y"/><lb n="0077a02" ed="Y" type="old"/><p xml:id="pY11p0077a0201">這說：能見無相、無所有，知見清淨而得解脫，必須以空義為根本。固然也有經
 <lb n="0077a03" ed="Y"/><lb n="0077a03" ed="Y" type="old"/>說空觀不究竟，但以空為前提而入三昧，更深刻的體驗真理，最後還是會歸於空
 <lb n="0077a04" ed="Y"/><lb n="0077a04" ed="Y" type="old"/>。在佛經中，無相、無所有、無所得、無著、無住等名辭，意義都可以通用；但
 <lb n="0077a05" ed="Y"/><lb n="0077a05" ed="Y" type="old"/>空字含義最廣，用之於實行的地方很多，故多以之為前提，且為歸結所在。空、
@@ -941,18 +961,18 @@
 <lb n="0077a10" ed="Y"/>這些定<lb n="0077a10" ed="Y" type="old"/>，最初下手的方法，或者彼此不同，最後所得的境界，實可歸於一致。而
 <lb n="0077a11" ed="Y"/>且是隨<lb n="0077a11" ed="Y" type="old"/>義立名，有時彼此的名稱也可以互相通用；所以經中有時說同，有時說異
 <lb n="0077a12" ed="Y"/>。不如<lb n="0077a12" ed="Y" type="old"/>此看，經中文義的多少出入，就無法了解。</p>
-<lb n="0077a13" ed="Y"/><lb n="0077a13" ed="Y" type="old"/><p style="text-indent:2em">現在將空、無相、無所有三種三昧，個別的解釋一下。一、空三昧。<bibl><title level="m">《雜阿
+<lb n="0077a13" ed="Y"/><lb n="0077a13" ed="Y" type="old"/><p xml:id="pY11p0077a1301" style="text-indent:2em">現在將空、無相、無所有三種三昧，個別的解釋一下。一、空三昧。<bibl><title level="m">《雜阿
 <pb n="0078a" ed="Y" xml:id="Y11.0011.0078a"/>
 <lb n="0078a01" ed="Y"/><pb n="0078a" ed="Y" xml:id="Y11.0011.0078a.old" type="old"/><lb n="0078a01" ed="Y" type="old"/>含經》</title><ref target="#no:99.236" type="taisho">二三六經</ref></bibl>這樣記載著：</p>
-<lb n="0078a02" ed="Y"/><lb n="0078a02" ed="Y" type="old"/><quote source="T02n0099_p0057b10-12" type="嚴謹引文"><p style="margin-left:3em">舍利弗白佛言：世尊！我今於林中入空三昧禪住。佛告舍利弗：善哉！善
+<lb n="0078a02" ed="Y"/><lb n="0078a02" ed="Y" type="old"/><quote source="T02n0099_p0057b10-12" type="嚴謹引文"><p xml:id="pY11p0078a0201" style="margin-left:3em">舍利弗白佛言：世尊！我今於林中入空三昧禪住。佛告舍利弗：善哉！善
 <lb n="0078a03" ed="Y"/><lb n="0078a03" ed="Y" type="old"/>哉！舍利弗！汝今入上座禪住而坐禪。<note n="0078001" resp="周怡曄" type="add">《雜阿含經》卷9(CBETA, T02, no. 99, p. 57, b10-12)</note></p></quote>
-<lb n="0078a04" ed="Y"/><lb n="0078a04" ed="Y" type="old"/><p>佛讚歎空三昧是高級的上座禪。至於空三昧如何修法，則未見開示，不過佛從另
+<lb n="0078a04" ed="Y"/><lb n="0078a04" ed="Y" type="old"/><p xml:id="pY11p0078a0401">佛讚歎空三昧是高級的上座禪。至於空三昧如何修法，則未見開示，不過佛從另
 <lb n="0078a05" ed="Y"/><lb n="0078a05" ed="Y" type="old"/>一方面說：</p>
-<lb n="0078a06" ed="Y"/><lb n="0078a06" ed="Y" type="old"/><quote source="T02n0099_p0057b13-24" type="嚴謹引文"><p style="margin-left:3em">若入城時，若行乞食時，若出城時，……若眼識於色有愛念染著者，彼比
+<lb n="0078a06" ed="Y"/><lb n="0078a06" ed="Y" type="old"/><quote source="T02n0099_p0057b13-24" type="嚴謹引文"><p xml:id="pY11p0078a0601" style="margin-left:3em">若入城時，若行乞食時，若出城時，……若眼識於色有愛念染著者，彼比
 <lb n="0078a07" ed="Y"/><lb n="0078a07" ed="Y" type="old"/>丘為斷惡不善故，當勤欲方便，堪能繫念修學。……若於道路，若聚落中
 <lb n="0078a08" ed="Y"/><lb n="0078a08" ed="Y" type="old"/>行乞食，若出聚落，於其中間，眼識於色無有愛念染著者，彼比丘願以此
 <lb n="0078a09" ed="Y"/><lb n="0078a09" ed="Y" type="old"/>喜樂善根，日夜精勤，繫念修習。<note n="0078002" resp="周怡曄" type="add">《雜阿含經》卷9：「若入城時、若行乞食時、若出城時，當作是思惟：我今眼見色，頗起欲、恩愛、愛念著不？舍利弗！比丘作如是觀時，若眼識於色有愛念染著者，彼比丘為斷惡不善故，當勤欲方便，堪能繫念修學。譬如有人，火燒頭衣，為盡滅故，當起增上方便，勤教令滅。彼比丘亦復如是，當起增上勤欲方便，繫念修學。若比丘觀察時，若於道路、若聚落中行乞食、若出聚落，於其中間，眼識於色，無有愛念染著者，彼比丘願以此喜樂善根，日夜精勤，繫念修習」(CBETA, T02, no. 99, p. 57, b13-24)</note></p></quote>
-<lb n="0078a10" ed="Y"/><lb n="0078a10" ed="Y" type="old"/><p>在行、住、衣、食之間，住空三昧中，時時反省觀察自心，是不是生起惑染貪著
+<lb n="0078a10" ed="Y"/><lb n="0078a10" ed="Y" type="old"/><p xml:id="pY11p0078a1001">在行、住、衣、食之間，住空三昧中，時時反省觀察自心，是不是生起惑染貪著
 <lb n="0078a11" ed="Y"/><lb n="0078a11" ed="Y" type="old"/>，有則觀察空義對治它，無則心安樂住。這樣常修空三昧，以達一切清淨。所以
 <lb n="0078a12" ed="Y"/><lb n="0078a12" ed="Y" type="old"/>，空有兩方面的意義：一、專在義理上說，是體驗無我我所。二、在行為上說，
 <lb n="0078a13" ed="Y"/><lb n="0078a13" ed="Y" type="old"/>則是於見色聞聲中不為境界所繫縛，離欲清淨，這是空三昧的特色。不體驗無我<pb n="0079a" ed="Y" xml:id="Y11.0011.0079a.old" type="old"/>
@@ -960,20 +980,20 @@
 <lb n="0079a01" ed="Y"/><lb n="0079a01" ed="Y" type="old"/>我所，固然不能解脫；但在日常生活行動中，心不為環境所縛而流散馳求，安住
 <lb n="0079a02" ed="Y"/><lb n="0079a02" ed="Y" type="old"/>不動，確是佛法的一種重要目的。離欲清淨，不因環境而引起痛苦，就是空義。
 <lb n="0079a03" ed="Y"/><lb n="0079a03" ed="Y" type="old"/>所以在<cit><bibl><title level="a">〈義品〉</title>中佛答摩犍提外道說</bibl><quote type="嚴謹引文">「空於五欲」</quote></cit>；而摩訶迦旃延在<bibl><title level="m">《雜阿含<lb n="0079a04" ed="Y" type="old"/>經
-<lb n="0079a04" ed="Y"/>》</title><ref type="taisho" target="#no:99.551">五五一經</ref>解</bibl>說為：</p>
-<lb n="0079a05" ed="Y"/><lb n="0079a05" ed="Y" type="old"/><quote source="T02n0099_p0144c07-08" type="嚴謹引文"><p style="margin-left:3em">於此五欲功德，離貪、離欲、離愛、離念、離渴，是名空欲。<note n="0079001" resp="周怡曄" type="add">《雜阿含經》卷20(CBETA, T02, no. 99, p. 144, c7-8)</note></p></quote>
-<lb n="0079a06" ed="Y"/><lb n="0079a06" ed="Y" type="old"/><p>又如摩訶迦葉修頭陀行，處處不為五欲所轉，釋尊讚歎他為「如空不著」。<title level="m">《雜
+<lb n="0079a04" ed="Y"/>》</title><ref target="#no:99.551" type="taisho">五五一經</ref>解</bibl>說為：</p>
+<lb n="0079a05" ed="Y"/><lb n="0079a05" ed="Y" type="old"/><quote source="T02n0099_p0144c07-08" type="嚴謹引文"><p xml:id="pY11p0079a0501" style="margin-left:3em">於此五欲功德，離貪、離欲、離愛、離念、離渴，是名空欲。<note n="0079001" resp="周怡曄" type="add">《雜阿含經》卷20(CBETA, T02, no. 99, p. 144, c7-8)</note></p></quote>
+<lb n="0079a06" ed="Y"/><lb n="0079a06" ed="Y" type="old"/><p xml:id="pY11p0079a0601">又如摩訶迦葉修頭陀行，處處不為五欲所轉，釋尊讚歎他為「如空不著」。<title level="m">《雜
 <lb n="0079a07" ed="Y"/><lb n="0079a07" ed="Y" type="old"/>阿含經》</title>所說的空義，都重在這離欲無繫的空的實際修持上說；至於空理的觀察
 <lb n="0079a08" ed="Y"/>，<lb n="0079a08" ed="Y" type="old"/>反而說得少。佛讚舍利弗的入空三昧為上座禪，在<title level="m">《增一阿含經》</title>也有這同樣
 <lb n="0079a09" ed="Y"/>的緣<lb n="0079a09" ed="Y" type="old"/>起，但它的側重點就不同了。如該經卷四一第六經，佛說：</p>
-<lb n="0079a10" ed="Y"/><lb n="0079a10" ed="Y" type="old"/><quote source="T02n0125_p0773c15-16" type="嚴謹引文"><p style="margin-left:3em">空三昧者，於諸三昧最為第一三昧。王三昧者，空三昧是。<note n="0079002" resp="周怡曄" type="add">《增壹阿含經》卷41〈45 馬王品〉(CBETA, T02, no. 125, p. 773, c15-16)</note></p></quote>
-<lb n="0079a11" ed="Y"/><lb n="0079a11" ed="Y" type="old"/><p>上座禪的空三昧，讚為最高的三昧之王（後來<title level="m">《摩訶般若波羅蜜經》</title>的佛入三昧
+<lb n="0079a10" ed="Y"/><lb n="0079a10" ed="Y" type="old"/><quote source="T02n0125_p0773c15-16" type="嚴謹引文"><p xml:id="pY11p0079a1001" style="margin-left:3em">空三昧者，於諸三昧最為第一三昧。王三昧者，空三昧是。<note n="0079002" resp="周怡曄" type="add">《增壹阿含經》卷41〈45 馬王品〉(CBETA, T02, no. 125, p. 773, c15-16)</note></p></quote>
+<lb n="0079a11" ed="Y"/><lb n="0079a11" ed="Y" type="old"/><p xml:id="pY11p0079a1101">上座禪的空三昧，讚為最高的三昧之王（後來<title level="m">《摩訶般若波羅蜜經》</title>的佛入三昧
 <lb n="0079a12" ed="Y"/>王三昧，即出此<lb n="0079a12" ed="Y" type="old"/>）<note n="0079003" resp="厚觀法師" type="add">《摩訶般若波羅蜜經》卷1〈1 序品〉：「爾時世尊自敷師子座，結跏趺坐，直身繫念在前，入三昧王三昧，一切三昧悉入其中。」(CBETA, T08, no. 223, p. 217, b8-10)</note>。為什麼呢？於空三昧中，觀察無我我所；一切諸行是不真實
 <lb n="0079a13" ed="Y"/>、不常恆空，因<lb n="0079a13" ed="Y" type="old"/>空故不起著於相，就是無相三昧；無相故於未來生死相續，無所
 <pb n="0080a" ed="Y" xml:id="Y11.0011.0080a"/>
 <lb n="0080a01" ed="Y"/>愛染願求，就是<pb n="0080a" ed="Y" xml:id="Y11.0011.0080a.old" type="old"/><lb n="0080a01" ed="Y" type="old"/>無願三昧。空三昧中具足了無相、無願三昧，所以是王三昧。這
 <lb n="0080a02" ed="Y"/>偏重在觀察空義<lb n="0080a02" ed="Y" type="old"/>上，與<title level="m">《雜阿含經》</title>各說明了一邊。</p>
-<lb n="0080a03" ed="Y"/><lb n="0080a03" ed="Y" type="old"/><p style="text-indent:2em">二、無相心三昧。無相三昧與空三昧略有不同。<title level="m">《雜阿含經》</title>中的修行過程
+<lb n="0080a03" ed="Y"/><lb n="0080a03" ed="Y" type="old"/><p xml:id="pY11p0080a0301" style="text-indent:2em">二、無相心三昧。無相三昧與空三昧略有不同。<title level="m">《雜阿含經》</title>中的修行過程
 <lb n="0080a04" ed="Y"/>，<lb n="0080a04" ed="Y" type="old"/>是由厭患不為境縛，而離欲證解脫。空三昧重在對外界不染，是情意的厭離。
 <lb n="0080a05" ed="Y"/>厭<lb n="0080a05" ed="Y" type="old"/>患離欲，本即可以不取相；不過有的人特別喜歡取著於相，為對治它，而說這
 <lb n="0080a06" ed="Y"/>無<lb n="0080a06" ed="Y" type="old"/>相心三昧。這無相定在所識的一一法，以破壞遣除其相，欲色一切相都遣離不
@@ -981,25 +1001,25 @@
 <lb n="0080a08" ed="Y"/>：如<lb n="0080a08" ed="Y" type="old"/>何對外境法不起所緣相？阿難答他有兩種：一、有想不覺知，修的是有想定
 <lb n="0080a09" ed="Y"/>，只<lb n="0080a09" ed="Y" type="old"/>因定力強，不起覺知。二、無想不覺知，不取外所緣相，且連內心的能緣想
 <lb n="0080a10" ed="Y"/>念也<lb n="0080a10" ed="Y" type="old"/>不生起，這是無心定。阿難為諸比丘尼說（<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.557" type="taisho">五五七經</ref></bibl>）：</p>
-<lb n="0080a11" ed="Y"/><lb n="0080a11" ed="Y" type="old"/><quote source="T02n0099_p0146a19-20" type="嚴謹引文"><p style="margin-left:3em">若無相心三昧，……是智果智功德。<note n="0080001" resp="周怡曄" type="add">《雜阿含經》卷20：「若無相心三昧，不涌、不沒，解脫已住，住已解脫，世尊說是智果、智功德。」(CBETA, T02, no. 99, p. 146, a19-20)</note></p></quote>
-<lb n="0080a12" ed="Y"/><lb n="0080a12" ed="Y" type="old"/><p>在定境中，這是比較深刻的，須有真實慧厭患離欲，觀察無常無我者，方可獲得
+<lb n="0080a11" ed="Y"/><lb n="0080a11" ed="Y" type="old"/><quote source="T02n0099_p0146a19-20" type="嚴謹引文"><p xml:id="pY11p0080a1101" style="margin-left:3em">若無相心三昧，……是智果智功德。<note n="0080001" resp="周怡曄" type="add">《雜阿含經》卷20：「若無相心三昧，不涌、不沒，解脫已住，住已解脫，世尊說是智果、智功德。」(CBETA, T02, no. 99, p. 146, a19-20)</note></p></quote>
+<lb n="0080a12" ed="Y"/><lb n="0080a12" ed="Y" type="old"/><p xml:id="pY11p0080a1201">在定境中，這是比較深刻的，須有真實慧厭患離欲，觀察無常無我者，方可獲得
 <lb n="0080a13" ed="Y"/><lb n="0080a13" ed="Y" type="old"/>，不是外道專門修定者所能得到。</p><pb n="0081a" ed="Y" xml:id="Y11.0011.0081a.old" type="old"/>
 <pb n="0081a" ed="Y" xml:id="Y11.0011.0081a"/>
-<lb n="0081a01" ed="Y"/><lb n="0081a01" ed="Y" type="old"/><p style="text-indent:2em"><bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.272">二七二經</ref></bibl>，佛陀曾為對治一般比丘的貪欲、瞋恚、親里等惡覺
+<lb n="0081a01" ed="Y"/><lb n="0081a01" ed="Y" type="old"/><p xml:id="pY11p0081a0101" style="text-indent:2em"><bibl><title level="m">《雜阿含經》</title><ref target="#no:99.272" type="taisho">二七二經</ref></bibl>，佛陀曾為對治一般比丘的貪欲、瞋恚、親里等惡覺
 <lb n="0081a02" ed="Y"/>惡想<lb n="0081a02" ed="Y" type="old"/>而起諍競故，為說無相定：</p>
-<lb n="0081a03" ed="Y"/><lb n="0081a03" ed="Y" type="old"/><quote source="T02n0099_p0072a26-b09" type="嚴謹引文"><p style="margin-left:3em">於四念處繫心，住無相三昧，修習多修習，惡不善法從是而滅，無餘永盡
+<lb n="0081a03" ed="Y"/><lb n="0081a03" ed="Y" type="old"/><quote source="T02n0099_p0072a26-b09" type="嚴謹引文"><p xml:id="pY11p0081a0301" style="margin-left:3em">於四念處繫心，住無相三昧，修習多修習，惡不善法從是而滅，無餘永盡
 <lb n="0081a04" ed="Y"/><lb n="0081a04" ed="Y" type="old"/>。……多聞聖弟子作是思惟：世間頗有一法可取而無罪過者？思惟已，都
 <lb n="0081a05" ed="Y"/><lb n="0081a05" ed="Y" type="old"/>不見一法可取而無罪過者。我若取色，即有罪過；若取受想行識，則有罪
 <lb n="0081a06" ed="Y"/><lb n="0081a06" ed="Y" type="old"/>過。作是知已，於諸世間則無所取，無所取者，自覺涅槃。<note n="0081001" resp="周怡曄" type="add">《雜阿含經》卷10：「於四念處繫心，住無相三昧，修習多修習，惡、不善法從是而滅，無餘永盡，正以此法。善男子、善女人信樂出家，修習無相三昧，修習多修習已，住甘露門，乃至究竟甘露涅槃。我不說此甘露涅槃，依三見者。何等為三？有一種見如是如是說：『命則是身。』復有如是見：『命異身異。』又作是說：『色是我，無二無異，長存不變。』多聞聖弟子作是思惟：『世間頗有一法可取而無罪過者？』思惟已，都不見一法可取而無罪過者。我若取色，即有罪過；若取受、想、行、識，則有罪過。作是知已，於諸世間，則無所取，無所取者，自覺涅槃」(CBETA, T02, no. 99, p. 72, a26-b9)</note></p></quote>
-<lb n="0081a07" ed="Y"/><lb n="0081a07" ed="Y" type="old"/><p>觀察世間一切法，不見有一法是真實可取的；取，就有煩惱不清淨——罪過。經
+<lb n="0081a07" ed="Y"/><lb n="0081a07" ed="Y" type="old"/><p xml:id="pY11p0081a0701">觀察世間一切法，不見有一法是真實可取的；取，就有煩惱不清淨——罪過。經
 <lb n="0081a08" ed="Y"/><lb n="0081a08" ed="Y" type="old"/>中說：就是善法功德，也如熱金丸，好看，還是取不得，何況五欲染污法呢！<quote source="T01n0026_p0764c12-14" type="寬鬆引文">「
 <lb n="0081a09" ed="Y"/><lb n="0081a09" ed="Y" type="old"/>法尚應捨，何況非法」<note n="0081002" resp="周怡曄" type="add">《中阿含經》卷54〈2 大品〉：「我為汝等長夜說栰喻法，欲令棄捨，不欲令受。若汝等知我長夜說栰喻法者，當以捨是法，況非法耶」(CBETA, T01, no. 26, p. 764, c12-14)</note></quote>，就是這個道理。如是觀色等相不可取，能取心亦不起，
 <lb n="0081a10" ed="Y"/><lb n="0081a10" ed="Y" type="old"/>就能自覺涅槃。無相心三昧，是在一切上不著，與大乘空最近；如<title level="m">《般若經》</title>的
 <lb n="0081a11" ed="Y"/><lb n="0081a11" ed="Y" type="old"/>無所受三昧，即此無相三昧的深化。總之，於一切相不著，不念一切相，念無相
 <lb n="0081a12" ed="Y"/><lb n="0081a12" ed="Y" type="old"/>界（涅槃），就是這無相三昧。這三昧，在<title level="m">《雜阿含經》</title>常常談到的，如：</p>
-<lb n="0081a13" ed="Y"/><lb n="0081a13" ed="Y" type="old"/><quote source="T02n0099_p0007c09-10" type="嚴謹引文"><p style="margin-left:3em">無所取故無所著，無所著故自覺涅槃。<note n="0081003" resp="周怡曄" type="add">《雜阿含經》卷2(CBETA, T02, no. 99, p. 7, c9-10)</note></p></quote><pb n="0082a" ed="Y" xml:id="Y11.0011.0082a.old" type="old"/>
+<lb n="0081a13" ed="Y"/><lb n="0081a13" ed="Y" type="old"/><quote source="T02n0099_p0007c09-10" type="嚴謹引文"><p xml:id="pY11p0081a1301" style="margin-left:3em">無所取故無所著，無所著故自覺涅槃。<note n="0081003" resp="周怡曄" type="add">《雜阿含經》卷2(CBETA, T02, no. 99, p. 7, c9-10)</note></p></quote><pb n="0082a" ed="Y" xml:id="Y11.0011.0082a.old" type="old"/>
 <pb n="0082a" ed="Y" xml:id="Y11.0011.0082a"/>
-<lb n="0082a01" ed="Y"/><lb n="0082a01" ed="Y" type="old"/><p>這，在三三、三四、二二六、二二七等經中都同樣說到，實為佛教比丘現證涅槃
+<lb n="0082a01" ed="Y"/><lb n="0082a01" ed="Y" type="old"/><p xml:id="pY11p0082a0101">這，在三三、三四、二二六、二二七等經中都同樣說到，實為佛教比丘現證涅槃
 <lb n="0082a02" ed="Y"/><lb n="0082a02" ed="Y" type="old"/>寂滅的無上境地。就是佛教迦旃延所修的真實禪，也是此無相心三昧的別名。大
 <lb n="0082a03" ed="Y"/><lb n="0082a03" ed="Y" type="old"/>梵天王遍尋不得，因為不知他禪心所依的境界。在中國，大耳三藏以他心通知道
 <lb n="0082a04" ed="Y"/><lb n="0082a04" ed="Y" type="old"/>忠國師內心的所緣，忠國師另入深禪，不住一切相，他心通也就觀察不到。這些
@@ -1008,26 +1028,26 @@
 <lb n="0082a07" ed="Y"/><lb n="0082a07" ed="Y" type="old"/>沒有實性，假名無實故，即能於法不起所緣相，進而能緣心想也不可得，就得入
 <lb n="0082a08" ed="Y"/><lb n="0082a08" ed="Y" type="old"/>此三昧。空義，在空三昧中不明顯，而這無相三昧中卻明白可見。<bibl><title level="m">《雜阿含經》</title>
 <lb n="0082a09" ed="Y"/><ref target="#no:99.559" type="taisho">五五<lb n="0082a09" ed="Y" type="old"/>九經</ref></bibl>說：</p>
-<lb n="0082a10" ed="Y"/><lb n="0082a10" ed="Y" type="old"/><quote source="T02n0099_p0146c11-12" type="嚴謹引文"><p style="margin-left:3em">一切想不憶念，無想心三昧身作證具足住。<note n="0082001" resp="周怡曄" type="add">《雜阿含經》卷21(CBETA, T02, no. 99, p. 146, c11-12)</note></p></quote>
-<lb n="0082a11" ed="Y"/><lb n="0082a11" ed="Y" type="old"/><p style="text-indent:2em">這經先說四禪及前三無色定是有相行定，在無所有定之上說這無相心三昧是
+<lb n="0082a10" ed="Y"/><lb n="0082a10" ed="Y" type="old"/><quote source="T02n0099_p0146c11-12" type="嚴謹引文"><p xml:id="pY11p0082a1001" style="margin-left:3em">一切想不憶念，無想心三昧身作證具足住。<note n="0082001" resp="周怡曄" type="add">《雜阿含經》卷21(CBETA, T02, no. 99, p. 146, c11-12)</note></p></quote>
+<lb n="0082a11" ed="Y"/><lb n="0082a11" ed="Y" type="old"/><p xml:id="pY11p0082a1101" style="text-indent:2em">這經先說四禪及前三無色定是有相行定，在無所有定之上說這無相心三昧是
 <lb n="0082a12" ed="Y"/><lb n="0082a12" ed="Y" type="old"/>無想行定（地位與非想非非想定相當），是一切定的最高深的，是無漏智所得的
 <lb n="0082a13" ed="Y"/><lb n="0082a13" ed="Y" type="old"/>。這直證涅槃空寂的深禪，是契入無相界的。</p><pb n="0083a" ed="Y" xml:id="Y11.0011.0083a.old" type="old"/>
 <pb n="0083a" ed="Y" xml:id="Y11.0011.0083a"/>
-<lb n="0083a01" ed="Y"/><lb n="0083a01" ed="Y" type="old"/><p style="text-indent:2em">三、無所有三昧。這三昧在<title level="m">《雜阿含經》</title>中，有兩個地方提到，但都沒有單
+<lb n="0083a01" ed="Y"/><lb n="0083a01" ed="Y" type="old"/><p xml:id="pY11p0083a0101" style="text-indent:2em">三、無所有三昧。這三昧在<title level="m">《雜阿含經》</title>中，有兩個地方提到，但都沒有單
 <lb n="0083a02" ed="Y"/>獨<lb n="0083a02" ed="Y" type="old"/>的說明。<title level="m">《中阿含經》</title>則說它就是無所有處定。<title level="m">《雜阿含經》</title>雖對這三昧沒有
 <lb n="0083a03" ed="Y"/>詳盡明確<lb n="0083a03" ed="Y" type="old"/>的解說，不過古來說「三三昧」，都提到它的名字，似與三解脫門中的
 <lb n="0083a04" ed="Y"/>無願三昧<lb n="0083a04" ed="Y" type="old"/>有關。</p>
-<lb n="0083a05" ed="Y"/><lb n="0083a05" ed="Y" type="old"/><p style="text-indent:2em">現在將三種三昧作綜合的觀察：<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.80">八〇經</ref>（<title level="m">《聖法印知見清淨經
+<lb n="0083a05" ed="Y"/><lb n="0083a05" ed="Y" type="old"/><p xml:id="pY11p0083a0501" style="text-indent:2em">現在將三種三昧作綜合的觀察：<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.80" type="taisho">八〇經</ref>（<title level="m">《聖法印知見清淨經
 <lb n="0083a06" ed="Y"/>》</title>）</bibl>佛<lb n="0083a06" ed="Y" type="old"/>告阿難說：</p>
-<lb n="0083a07" ed="Y"/><lb n="0083a07" ed="Y" type="old"/><quote><p style="margin-left:3em">若得空已，能起無相、無所有，離慢知見者，斯有是處。</p></quote>
-<lb n="0083a08" ed="Y"/><lb n="0083a08" ed="Y" type="old"/><quote><p style="margin-left:3em">觀察彼陰無常磨滅不堅固變易法，心樂清淨解脫，是名為空。如是觀者，
+<lb n="0083a07" ed="Y"/><lb n="0083a07" ed="Y" type="old"/><quote><p xml:id="pY11p0083a0701" style="margin-left:3em">若得空已，能起無相、無所有，離慢知見者，斯有是處。</p></quote>
+<lb n="0083a08" ed="Y"/><lb n="0083a08" ed="Y" type="old"/><quote><p xml:id="pY11p0083a0801" style="margin-left:3em">觀察彼陰無常磨滅不堅固變易法，心樂清淨解脫，是名為空。如是觀者，
 <lb n="0083a09" ed="Y"/><lb n="0083a09" ed="Y" type="old"/>亦不能離慢，知見清淨。</p></quote>
-<lb n="0083a10" ed="Y"/><lb n="0083a10" ed="Y" type="old"/><quote><p style="margin-left:3em">復有正思惟三昧，觀色相斷，聲香味觸法相斷，是名無相。如是觀者，猶
+<lb n="0083a10" ed="Y"/><lb n="0083a10" ed="Y" type="old"/><quote><p xml:id="pY11p0083a1001" style="margin-left:3em">復有正思惟三昧，觀色相斷，聲香味觸法相斷，是名無相。如是觀者，猶
 <lb n="0083a11" ed="Y"/><lb n="0083a11" ed="Y" type="old"/>未離慢，知見清淨。</p></quote>
-<lb n="0083a12" ed="Y"/><lb n="0083a12" ed="Y" type="old"/><quote><p style="margin-left:3em">復有正思惟三昧，觀察貪相斷，瞋恚相斷，是名無所有。如是觀者，猶未
+<lb n="0083a12" ed="Y"/><lb n="0083a12" ed="Y" type="old"/><quote><p xml:id="pY11p0083a1201" style="margin-left:3em">復有正思惟三昧，觀察貪相斷，瞋恚相斷，是名無所有。如是觀者，猶未
 <lb n="0083a13" ed="Y"/><lb n="0083a13" ed="Y" type="old"/>離慢，知見清淨。</p></quote><pb n="0084a" ed="Y" xml:id="Y11.0011.0084a.old" type="old"/>
 <pb n="0084a" ed="Y" xml:id="Y11.0011.0084a"/>
-<lb n="0084a01" ed="Y"/><lb n="0084a01" ed="Y" type="old"/><p>此經對三種三昧，有不同的看法。空三昧是由觀無常義，不起染著，心得清淨解
+<lb n="0084a01" ed="Y"/><lb n="0084a01" ed="Y" type="old"/><p xml:id="pY11p0084a0101">此經對三種三昧，有不同的看法。空三昧是由觀無常義，不起染著，心得清淨解
 <lb n="0084a02" ed="Y"/><lb n="0084a02" ed="Y" type="old"/>脫──心厭有漏雜染，而傾向於離染的清淨解脫。這空定的境界並不很高，近於
 <lb n="0084a03" ed="Y"/><lb n="0084a03" ed="Y" type="old"/>平常所謂「看得破」，只是心不外馳而求清淨解脫而已。無相三昧，是斷除色、
 <lb n="0084a04" ed="Y"/><lb n="0084a04" ed="Y" type="old"/>聲、香、味、觸、法六塵相的定。沒有貪、瞋、癡三毒煩惱，叫做無所有三昧。
@@ -1035,17 +1055,17 @@
 <lb n="0084a06" ed="Y"/><lb n="0084a06" ed="Y" type="old"/>最後則無所有三昧內心的欲貪等不生起。這都還不是徹底的斷除，只是由定力的
 <lb n="0084a07" ed="Y"/><lb n="0084a07" ed="Y" type="old"/>執持，在定境中暫伏，外不見六塵、內不起三毒而已。所以都還<quote type="嚴謹引文">「不能離慢知見
 <lb n="0084a08" ed="Y"/><lb n="0084a08" ed="Y" type="old"/>清淨」</quote>。要知見清淨，必須另起增上，修習以無我為出發的三昧。經云：</p>
-<lb n="0084a09" ed="Y"/><lb n="0084a09" ed="Y" type="old"/><quote source="T02n0099_p0020b16-25" type="寬鬆引文"><p style="margin-left:3em">復有正思惟三昧，觀察我我所從何而生？從若見若聞若嗅若嘗若觸若識而
+<lb n="0084a09" ed="Y"/><lb n="0084a09" ed="Y" type="old"/><quote source="T02n0099_p0020b16-25" type="寬鬆引文"><p xml:id="pY11p0084a0901" style="margin-left:3em">復有正思惟三昧，觀察我我所從何而生？從若見若聞若嗅若嘗若觸若識而
 <lb n="0084a10" ed="Y"/><lb n="0084a10" ed="Y" type="old"/>生。……若因若緣而生識者，彼因彼緣皆悉無常，……彼所生識云何有常
 <lb n="0084a11" ed="Y"/><lb n="0084a11" ed="Y" type="old"/>？無常者，是有為行，從緣起，是患法、滅法、離欲法、斷知法。是名聖
 <lb n="0084a12" ed="Y"/><lb n="0084a12" ed="Y" type="old"/>法印知見清淨。<note n="0084001" resp="周怡曄" type="add">《雜阿含經》卷3：「復有正思惟三昧，觀察我所從何而生？復有正思惟三昧，觀察我、我所，從若見、若聞、若嗅、若甞、若觸、若識而生。復作是觀察：『若因、若緣而生識者，彼識因、緣，為常、為無常？』復作是思惟：『若因、若緣而生識者，彼因、彼緣皆悉無常。』復次，彼因、彼緣皆悉無常，彼所生識云何有常？無常者，是有為行，從緣起，是患法、滅法、離欲法、斷知法，是名聖法印、知見清淨」(CBETA, T02, no. 99, p. 20, b16-25)</note></p></quote>
-<lb n="0084a13" ed="Y"/><lb n="0084a13" ed="Y" type="old"/><p>由此可見到：在定境中不受外境所繫的暫時過程，還不是究竟；必需要徹底的遣<pb n="0085a" ed="Y" xml:id="Y11.0011.0085a.old" type="old"/>
+<lb n="0084a13" ed="Y"/><lb n="0084a13" ed="Y" type="old"/><p xml:id="pY11p0084a1301">由此可見到：在定境中不受外境所繫的暫時過程，還不是究竟；必需要徹底的遣<pb n="0085a" ed="Y" xml:id="Y11.0011.0085a.old" type="old"/>
 <pb n="0085a" ed="Y" xml:id="Y11.0011.0085a"/>
 <lb n="0085a01" ed="Y"/><lb n="0085a01" ed="Y" type="old"/>除我我所，通達無自性之法法歸滅，見滅法不可量，平等寂靜不可得，即見到了
 <lb n="0085a02" ed="Y"/><lb n="0085a02" ed="Y" type="old"/>涅槃寂滅理，才能離我慢而得知見清淨。見滅而得無我，因此而得解脫，也見於
 <lb n="0085a03" ed="Y"/><lb n="0085a03" ed="Y" type="old"/><bibl><title level="m">《雜阿含經》</title><ref target="#no:99.1266" type="taisho">一二六六經</ref></bibl>。如云：</p>
-<lb n="0085a04" ed="Y"/><lb n="0085a04" ed="Y" type="old"/><quote type="嚴謹引文"><p style="margin-left:3em">於眼、眼識及色，見滅、知滅故，見眼、眼識及色非我、不異我、不相在<lb n="0085a05" ed="Y" type="old"/>。</p></quote>
-<lb n="0085a05" ed="Y"/><lb n="0085a06" ed="Y" type="old"/><p>空等三三昧是不夠的，必須要體證到法法歸滅，不可得，才能我慢畢竟斷，得真
+<lb n="0085a04" ed="Y"/><lb n="0085a04" ed="Y" type="old"/><quote type="嚴謹引文"><p xml:id="pY11p0085a0401" style="margin-left:3em">於眼、眼識及色，見滅、知滅故，見眼、眼識及色非我、不異我、不相在<lb n="0085a05" ed="Y" type="old"/>。</p></quote>
+<lb n="0085a05" ed="Y"/><lb n="0085a06" ed="Y" type="old"/><p xml:id="pY11p0085a0501">空等三三昧是不夠的，必須要體證到法法歸滅，不可得，才能我慢畢竟斷，得真
 <lb n="0085a06" ed="Y"/><lb n="0085a07" ed="Y" type="old"/>正的知見清淨。所以，「空、無相、無願」三者叫做「解脫門」，它是解脫之門
 <lb n="0085a07" ed="Y"/><lb n="0085a08" ed="Y" type="old"/>，本身尚未究竟，必須進一步體知我我所之為因緣假合，無常不可得而否定之，
 <lb n="0085a08" ed="Y"/><lb n="0085a09" ed="Y" type="old"/>始能達到解脫。空，在這裡，是最前面的基本，而最後歸結所證達的也還是它（
@@ -1058,22 +1078,22 @@
 <lb n="0086a01" ed="Y"/>無我等義，但並未名之曰<lb n="0086a02" ed="Y" type="old"/>法印；這要到<title level="m">《增一阿含經》</title>才見明說。那麼這經的「
 <lb n="0086a02" ed="Y"/>法印」，究竟是什麼？不是<lb n="0086a03" ed="Y" type="old"/>三法印或四法印，應該是證入解脫涅槃之門的三解脫
 <lb n="0086a03" ed="Y"/>門。</p>
-<lb n="0086a04" ed="Y"/><lb n="0086a04" ed="Y" type="old"/><p style="text-indent:2em">在<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.567" type="taisho">五六七經</ref></bibl>中，質多羅長者答那伽達多所問，除空、無相、無
+<lb n="0086a04" ed="Y"/><lb n="0086a04" ed="Y" type="old"/><p xml:id="pY11p0086a0401" style="text-indent:2em">在<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.567" type="taisho">五六七經</ref></bibl>中，質多羅長者答那伽達多所問，除空、無相、無
 <lb n="0086a05" ed="Y"/>所<lb n="0086a05" ed="Y" type="old"/>有三三昧外，又加一無量心三昧。後代說四無量心定，純是世俗的，不能體驗
 <lb n="0086a06" ed="Y"/>真<lb n="0086a06" ed="Y" type="old"/>理；但此經所說的無量，與三三昧也有同義，同以無煩惱來建立（有煩惱是有
 <lb n="0086a07" ed="Y"/>相<lb n="0086a07" ed="Y" type="old"/>、有量、有所有；無煩惱是無相、無量、無所有）。特在空三昧上加遣常恆性
 <lb n="0086a08" ed="Y"/>不<lb n="0086a08" ed="Y" type="old"/>可得空，同在離煩惱證真理上說明，與後代所說的三解脫門同緣實相的意義相
 <lb n="0086a09" ed="Y"/>同<lb n="0086a09" ed="Y" type="old"/>。</p>
-<lb n="0086a10" ed="Y"/><lb n="0086a10" ed="Y" type="old"/><p style="text-indent:2em">此空、無相、無所有三個名辭，含義也還可以說有不同，這與<title level="m">《中阿含經》</title>
+<lb n="0086a10" ed="Y"/><lb n="0086a10" ed="Y" type="old"/><p xml:id="pY11p0086a1001" style="text-indent:2em">此空、無相、無所有三個名辭，含義也還可以說有不同，這與<title level="m">《中阿含經》</title>
 <lb n="0086a11" ed="Y"/>所<lb n="0086a11" ed="Y" type="old"/>說的相近，我們留待次一項來討論它。</p></cb:div>
 <lb n="0086a12" ed="Y"/><lb n="0086a12" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第三項　空義之次第禪定化</cb:mulu><head>第三項　空義之次第禪定化</head><pb n="0087a" ed="Y" xml:id="Y11.0011.0087a.old" type="old"/>
 <pb n="0087a" ed="Y" xml:id="Y11.0011.0087a"/>
-<lb n="0087a01" ed="Y"/><lb n="0087a01" ed="Y" type="old"/><p style="text-indent:2em">這是以<title level="m">《中阿含經》</title>的思想為對象而觀察空義的。先拿<title level="m">《小空經》</title>說。經中
+<lb n="0087a01" ed="Y"/><lb n="0087a01" ed="Y" type="old"/><p xml:id="pY11p0087a0101" style="text-indent:2em">這是以<title level="m">《中阿含經》</title>的思想為對象而觀察空義的。先拿<title level="m">《小空經》</title>說。經中
 <lb n="0087a02" ed="Y"/>，<lb n="0087a02" ed="Y" type="old"/>佛在鹿子母講堂，給阿難舉個譬喻：如說鹿子母講堂空，是說堂中空無牛羊，
 <lb n="0087a03" ed="Y"/>並<lb n="0087a03" ed="Y" type="old"/>不是說連講堂也沒有。而後合法說：</p>
-<lb n="0087a04" ed="Y"/><lb n="0087a04" ed="Y" type="old"/><quote source="T01n0026_p0737a10-12" type="嚴謹引文"><p style="margin-left:3em">若此中無者，以此故我見是空；若此有餘者，我見真實有。阿難！是謂行
+<lb n="0087a04" ed="Y"/><lb n="0087a04" ed="Y" type="old"/><quote source="T01n0026_p0737a10-12" type="嚴謹引文"><p xml:id="pY11p0087a0401" style="margin-left:3em">若此中無者，以此故我見是空；若此有餘者，我見真實有。阿難！是謂行
 <lb n="0087a05" ed="Y"/><lb n="0087a05" ed="Y" type="old"/>真實空不顛倒也<note n="0087001" resp="周怡曄" type="add">《中阿含經》卷49〈1 雙品〉(CBETA, T01, no. 26, p. 737, a10-12)</note>（玄奘譯作「彼則是空，此實是有」）。</p></quote>
-<lb n="0087a06" ed="Y"/><lb n="0087a06" ed="Y" type="old"/><p>經文的意思說：要不顛倒的認識真實空，不但空其所空，還要有其所有，把握那
+<lb n="0087a06" ed="Y"/><lb n="0087a06" ed="Y" type="old"/><p xml:id="pY11p0087a0601">經文的意思說：要不顛倒的認識真實空，不但空其所空，還要有其所有，把握那
 <lb n="0087a07" ed="Y"/><lb n="0087a07" ed="Y" type="old"/>不空的。在此法上（有），遣離於彼（空），叫做空，不是此法也沒有；這才叫
 <lb n="0087a08" ed="Y"/><lb n="0087a08" ed="Y" type="old"/>做善取空相。後來的大乘瑜伽學者（重於禪定的），就強調這思想：謂依他、圓
 <lb n="0087a09" ed="Y"/>成<lb n="0087a09" ed="Y" type="old"/>本身不空，依、圓上的遍計所執空，所以說依他、圓成空。如果純粹以這思想
@@ -1082,17 +1102,17 @@
 <lb n="0087a12" ed="Y"/>七種空中<lb n="0087a12" ed="Y" type="old"/>，是最低下而應該離去的。它既不是說明法空深理，在抉擇空義上，似
 <lb n="0087a13" ed="Y"/>乎不應該<lb n="0087a13" ed="Y" type="old"/>引用<title level="m">《小空經》</title>的定義。<title level="m">《小空經》</title>遣離的次第是這樣：第一：</p><pb n="0088a" ed="Y" xml:id="Y11.0011.0088a.old" type="old"/>
 <pb n="0088a" ed="Y" xml:id="Y11.0011.0088a"/>
-<lb n="0088a01" ed="Y"/><lb n="0088a01" ed="Y" type="old"/><quote source="T01n0026_p0737a14-15" type="嚴謹引文"><p style="margin-left:3em">空於村想，空於人（人群雜鬧）想；然有不空，唯一無事（阿蘭若處）想<lb n="0088a02" ed="Y" type="old"/>。<note n="0088001" resp="周怡曄" type="add">《中阿含經》卷49〈1 雙品〉(CBETA, T01, no. 26, p. 737, a14-15)</note></p></quote>
-<lb n="0088a02" ed="Y"/><lb n="0088a03" ed="Y" type="old"/><p>村落、人群空，寄心於僻靜的阿蘭若處，作阿蘭若處之想，阿蘭若處不空；這是
+<lb n="0088a01" ed="Y"/><lb n="0088a01" ed="Y" type="old"/><quote source="T01n0026_p0737a14-15" type="嚴謹引文"><p xml:id="pY11p0088a0101" style="margin-left:3em">空於村想，空於人（人群雜鬧）想；然有不空，唯一無事（阿蘭若處）想<lb n="0088a02" ed="Y" type="old"/>。<note n="0088001" resp="周怡曄" type="add">《中阿含經》卷49〈1 雙品〉(CBETA, T01, no. 26, p. 737, a14-15)</note></p></quote>
+<lb n="0088a02" ed="Y"/><lb n="0088a03" ed="Y" type="old"/><p xml:id="pY11p0088a0201">村落、人群空，寄心於僻靜的阿蘭若處，作阿蘭若處之想，阿蘭若處不空；這是
 <lb n="0088a03" ed="Y"/>一<lb n="0088a04" ed="Y" type="old"/>空一不空。其次：</p>
-<lb n="0088a04" ed="Y"/><lb n="0088a05" ed="Y" type="old"/><quote source="T01n0026_p0737a28-29" type="嚴謹引文"><p style="margin-left:3em">空於人想，空無事（阿蘭若）想；然有不空，唯一地想。<note n="0088002" resp="周怡曄" type="add">《中阿含經》卷49〈1 雙品〉(CBETA, T01, no. 26, p. 737, a28-29)</note></p></quote>
-<lb n="0088a05" ed="Y"/><lb n="0088a06" ed="Y" type="old"/><p>阿蘭若還有小屋；蘭若外還有叢林荊棘、猛獸毒蛇等，這不應該思惟，還須空去
+<lb n="0088a04" ed="Y"/><lb n="0088a05" ed="Y" type="old"/><quote source="T01n0026_p0737a28-29" type="嚴謹引文"><p xml:id="pY11p0088a0401" style="margin-left:3em">空於人想，空無事（阿蘭若）想；然有不空，唯一地想。<note n="0088002" resp="周怡曄" type="add">《中阿含經》卷49〈1 雙品〉(CBETA, T01, no. 26, p. 737, a28-29)</note></p></quote>
+<lb n="0088a05" ed="Y"/><lb n="0088a06" ed="Y" type="old"/><p xml:id="pY11p0088a0501">阿蘭若還有小屋；蘭若外還有叢林荊棘、猛獸毒蛇等，這不應該思惟，還須空去
 <lb n="0088a06" ed="Y"/><lb n="0088a07" ed="Y" type="old"/>；寄心於一地平如掌無諸雜穢的清淨地，此地想不空。又是一空一不空。再進一
 <lb n="0088a07" ed="Y"/><lb n="0088a08" ed="Y" type="old"/>步，觀察地想亦空，只有無量空處不空。又進觀察如虛空相之空處亦空，只有無
 <lb n="0088a08" ed="Y"/><lb n="0088a09" ed="Y" type="old"/>量識處不空。如是乃至「無所有處」也空，而這「無想心定」不空。更進一步，
 <lb n="0088a09" ed="Y"/><lb n="0088a10" ed="Y" type="old"/>觀察這無想心三昧，還是思願所成，有為無常的，於是引發無漏慧。如經云：</p>
-<lb n="0088a10" ed="Y"/><lb n="0088a11" ed="Y" type="old"/><quote source="T01n0026_p0737c14-16" type="嚴謹引文"><p style="margin-left:3em">空欲漏，空有漏，空無明漏；然有不空，唯此我身六處命存。<note n="0088003" resp="周怡曄" type="add">《中阿含經》卷49〈1 雙品〉(CBETA, T01, no. 26, p. 737, c14-16)</note></p></quote>
-<lb n="0088a11" ed="Y"/><lb n="0088a12" ed="Y" type="old"/><p>最後還是一空一不空。這經有很多啟發處。四無色處，並非說天上，是約定境說
+<lb n="0088a10" ed="Y"/><lb n="0088a11" ed="Y" type="old"/><quote source="T01n0026_p0737c14-16" type="嚴謹引文"><p xml:id="pY11p0088a1001" style="margin-left:3em">空欲漏，空有漏，空無明漏；然有不空，唯此我身六處命存。<note n="0088003" resp="周怡曄" type="add">《中阿含經》卷49〈1 雙品〉(CBETA, T01, no. 26, p. 737, c14-16)</note></p></quote>
+<lb n="0088a11" ed="Y"/><lb n="0088a12" ed="Y" type="old"/><p xml:id="pY11p0088a1101">最後還是一空一不空。這經有很多啟發處。四無色處，並非說天上，是約定境說
 <lb n="0088a12" ed="Y"/><lb n="0088a13" ed="Y" type="old"/>的。這定境最先離村落、人群，空去有情世間；其次對器世間起清淨想，空其雜
 <lb n="0088a13" ed="Y"/>穢<pb n="0089a" ed="Y" xml:id="Y11.0011.0089a.old" type="old"/><lb n="0089a01" ed="Y" type="old"/>，後世的淨土觀，應該與此有關。再次超物質（有色界）而繫念於虛空；再則
 <pb n="0089a" ed="Y" xml:id="Y11.0011.0089a"/>
@@ -1112,7 +1132,7 @@
 <pb n="0090a" ed="Y" xml:id="Y11.0011.0090a"/>
 <lb n="0090a01" ed="Y"/>心而組<lb n="0090a02" ed="Y" type="old"/>織了全部佛法，所以他們特別重視它，以此為真空的定義，這難怪要與中
 <lb n="0090a02" ed="Y"/>觀者相<lb n="0090a03" ed="Y" type="old"/>諍。</p>
-<lb n="0090a03" ed="Y"/><lb n="0090a04" ed="Y" type="old"/><p style="text-indent:2em">再說<title level="m">《中阿含經》</title>的<title level="m">《大空經》</title>。在一次安居將要解夏的時候，眾比丘聚於
+<lb n="0090a03" ed="Y"/><lb n="0090a04" ed="Y" type="old"/><p xml:id="pY11p0090a0301" style="text-indent:2em">再說<title level="m">《中阿含經》</title>的<title level="m">《大空經》</title>。在一次安居將要解夏的時候，眾比丘聚於
 <lb n="0090a04" ed="Y"/>一<lb n="0090a05" ed="Y" type="old"/>堂製迦絺那衣，彼此戲論諍競，佛為令眾弟子於日常往來出入語默動靜之間，
 <lb n="0090a05" ed="Y"/>不<lb n="0090a06" ed="Y" type="old"/>為境轉，六根清淨，就說這<title level="m">《大空經》</title>。經中說有四種空：內空，外空，內外
 <lb n="0090a06" ed="Y"/>空<lb n="0090a07" ed="Y" type="old"/>，不移動。這四者，也是有先後次第的。因修行未得相應，則先觀內空；又不
@@ -1120,33 +1140,33 @@
 <lb n="0090a08" ed="Y"/>功<lb n="0090a09" ed="Y" type="old"/>，不但不移動，前三者皆可得成就了。後來的大小經論，都有這四個名字。內
 <lb n="0090a09" ed="Y"/>空<lb n="0090a10" ed="Y" type="old"/>，是觀六根，遣除其相而空；外空，是觀六塵，遣除其相而空；內外空，即遣
 <lb n="0090a10" ed="Y"/>除<lb n="0090a11" ed="Y" type="old"/>根境綜合相而空。如是修習，得到內心安住不動，是「不移動」。本經說：</p>
-<lb n="0090a11" ed="Y"/><lb n="0090a12" ed="Y" type="old"/><quote source="T01n0026_p0738b14-15" type="嚴謹引文"><p style="margin-left:3em">度一切色想，行於外空。<note n="0090001" resp="周怡曄" type="add">《中阿含經》卷49〈1 雙品〉(CBETA, T01, no. 26, p. 738, b14-15)</note></p></quote>
-<lb n="0090a12" ed="Y"/><lb n="0090a13" ed="Y" type="old"/><p>這可見外空、內空等，是超越色想的，與無色界的空無邊處定相當。不動，有解<pb n="0091a" ed="Y" xml:id="Y11.0011.0091a.old" type="old"/>
+<lb n="0090a11" ed="Y"/><lb n="0090a12" ed="Y" type="old"/><quote source="T01n0026_p0738b14-15" type="嚴謹引文"><p xml:id="pY11p0090a1101" style="margin-left:3em">度一切色想，行於外空。<note n="0090001" resp="周怡曄" type="add">《中阿含經》卷49〈1 雙品〉(CBETA, T01, no. 26, p. 738, b14-15)</note></p></quote>
+<lb n="0090a12" ed="Y"/><lb n="0090a13" ed="Y" type="old"/><p xml:id="pY11p0090a1201">這可見外空、內空等，是超越色想的，與無色界的空無邊處定相當。不動，有解<pb n="0091a" ed="Y" xml:id="Y11.0011.0091a.old" type="old"/>
 <lb n="0090a13" ed="Y"/><lb n="0091a01" ed="Y" type="old"/>說為第四禪，因為到了四禪，不為三災所動。但依<title level="m">《中阿含經》</title>的<title level="m">《大空經》</title>與
 <pb n="0091a" ed="Y" xml:id="Y11.0011.0091a"/>
 <lb n="0091a01" ed="Y"/><title level="m">《<lb n="0091a02" ed="Y" type="old"/>淨不動道經》</title>看來，不動是合於空無邊處定的。單修這些定，沒有無漏慧，都
 <lb n="0091a02" ed="Y"/>還<lb n="0091a03" ed="Y" type="old"/>談不上解脫。</p>
-<lb n="0091a03" ed="Y"/><lb n="0091a04" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《淨不動道經》</title>所說有四種定：不動，無所有，無想，解脫。與空義相關更
+<lb n="0091a03" ed="Y"/><lb n="0091a04" ed="Y" type="old"/><p xml:id="pY11p0091a0301" style="text-indent:2em"><title level="m">《淨不動道經》</title>所說有四種定：不動，無所有，無想，解脫。與空義相關更
 <lb n="0091a04" ed="Y"/><lb n="0091a05" ed="Y" type="old"/>切，而是更有意義的。一、淨不動道，經說：</p>
-<lb n="0091a05" ed="Y"/><lb n="0091a06" ed="Y" type="old"/><quote source="T01n0026_p0542b07-c06" type="嚴謹引文"><p style="margin-left:3em">若現世欲及後世欲，若現世色及後世色，彼一切是魔境界。……（如是觀
+<lb n="0091a05" ed="Y"/><lb n="0091a06" ed="Y" type="old"/><quote source="T01n0026_p0542b07-c06" type="嚴謹引文"><p xml:id="pY11p0091a0501" style="margin-left:3em">若現世欲及後世欲，若現世色及後世色，彼一切是魔境界。……（如是觀
 <lb n="0091a06" ed="Y"/><lb n="0091a07" ed="Y" type="old"/>「彼一切四大及四大造」，亦復如是。）若現世欲及後世欲，若現世色及
 <lb n="0091a07" ed="Y"/>後<lb n="0091a08" ed="Y" type="old"/>世色，若現世欲想後世欲想，若現世色想後世色想，彼一切想是無常法
 <lb n="0091a08" ed="Y"/>，<lb n="0091a09" ed="Y" type="old"/>是苦、是滅；彼於爾時，必得不動想。<note n="0091001" resp="周怡曄" type="add">《中阿含經》卷18〈2 長壽王品〉：「若現世欲及後世欲，若現世色及後世色，彼一切是魔境界，則是魔餌，因此令心生無量惡不善之法，增伺、瞋恚及鬪諍等，謂聖弟子學時為作障礙。多聞聖弟子作如是觀，世尊所說，欲者無常、虛偽、妄言，是妄言法則是幻化、欺誑、愚癡。若現世欲及後世欲，若現世色及後世色，彼一切是魔境界，則是魔餌，因此令心生無量惡不善之法，增伺、瞋恚及鬪諍等，謂聖弟子學時為作障礙。彼作是念：『我可得大心成就遊，掩伏世間，攝持其心。若我得大心成就遊，掩伏世間，攝持其心者，如是心便不生無量惡不善之法，增伺、瞋恚及鬪諍等，謂聖弟子學時為作障礙。』彼以是行、以是學，如是修習而廣布，便於處得心淨。於處得心淨已，比丘者或於此得入不動，或以慧為解。彼於後時，身壞命終，因本意故，必至不動。是謂第一說淨不動道。復次，多聞聖弟子作如是觀，若有色者，彼一切四大及四大造，四大者是無常法，是苦、是滅。彼如是行、如是學，如是修習而廣布，便於處得心淨。於處得心淨已，比丘者或於此得入不動，或以慧為解。彼於後時，身壞命終，因本意故，必至不動。是謂第二說淨不動道。復次，多聞聖弟子作如是觀，若現世欲及後世欲，若現世色及後世色，若現世欲想、後世欲想，若現世色想、後世色想，彼一切想是無常法、是苦、是滅，彼於爾時必得不動想。」(CBETA, T01, no. 26, p. 542, b7-c6)</note></p></quote>
-<lb n="0091a09" ed="Y"/><lb n="0091a10" ed="Y" type="old"/><p>這觀欲、觀色皆是無常、苦而超脫之，甚至連後世之欲、色想也超脫了；離欲離
+<lb n="0091a09" ed="Y"/><lb n="0091a10" ed="Y" type="old"/><p xml:id="pY11p0091a0901">這觀欲、觀色皆是無常、苦而超脫之，甚至連後世之欲、色想也超脫了；離欲離
 <lb n="0091a10" ed="Y"/>色，與<lb n="0091a11" ed="Y" type="old"/>無色界的空無邊處定同。</p>
-<lb n="0091a11" ed="Y"/><lb n="0091a12" ed="Y" type="old"/><p style="text-indent:2em">二、淨無所有處道，經說：</p>
-<lb n="0091a12" ed="Y"/><lb n="0091a13" ed="Y" type="old"/><quote source="T01n0026_p0542c12-26" type="嚴謹引文"><p style="margin-left:3em">若現世欲想、後世欲想……及不動想，彼一切想是無常法、是苦、是滅；
+<lb n="0091a11" ed="Y"/><lb n="0091a12" ed="Y" type="old"/><p xml:id="pY11p0091a1101" style="text-indent:2em">二、淨無所有處道，經說：</p>
+<lb n="0091a12" ed="Y"/><lb n="0091a13" ed="Y" type="old"/><quote source="T01n0026_p0542c12-26" type="嚴謹引文"><p xml:id="pY11p0091a1201" style="margin-left:3em">若現世欲想、後世欲想……及不動想，彼一切想是無常法、是苦、是滅；
 <lb n="0091a13" ed="Y"/>彼於爾時，得無所有處想。……<pb n="0092a" ed="Y" xml:id="Y11.0011.0092a.old" type="old"/><lb n="0092a01" ed="Y" type="old"/>空於神、神所有，空有常，空有恒，空長
 <pb n="0092a" ed="Y" xml:id="Y11.0011.0092a"/>
 <lb n="0092a01" ed="Y"/>存，空不變易。……我非為他而<lb n="0092a02" ed="Y" type="old"/>有所為，亦非自為而有所為。<note n="0092001" resp="周怡曄" type="add">《中阿含經》卷18〈2 長壽王品〉：「及不動想；彼一切想是無常法、是苦、是滅，彼於爾時得無所有處想。彼如是行、如是學，如是修習而廣布，便於處得心淨，於處得心淨已，比丘者或於此得入不動，或以慧為解。彼於後時，身壞命終，因本意故，必至不動。是謂第一說淨無所有處道。復次，多聞聖弟子作如是觀，此世空，空於神、神所有，空有常，空有恒，空長存，空不變易。彼如是行、如是學，如是修習而廣布，便於處得心淨，於處得心淨已，比丘者或於此得入無所有處，或以慧為解。彼於後時，身壞命終，因本意故，必至無所有處。是謂第二說淨無所有處道。復次，多聞聖弟子作如是觀，我非為他而有所為，亦非自為而有所為。」(CBETA, T01, no. 26, p. 542, c12-26)</note></p></quote>
-<lb n="0092a02" ed="Y"/><lb n="0092a03" ed="Y" type="old"/><p>這與無色界的無所有處定同。但分析其內容，覺得它包含三解脫門思想在內。觀
+<lb n="0092a02" ed="Y"/><lb n="0092a03" ed="Y" type="old"/><p xml:id="pY11p0092a0201">這與無色界的無所有處定同。但分析其內容，覺得它包含三解脫門思想在內。觀
 <lb n="0092a03" ed="Y"/><lb n="0092a04" ed="Y" type="old"/>欲色相、欲色想、不動想無所有，是無相的；觀常恒我我所的不可得，是空的；
 <lb n="0092a04" ed="Y"/><lb n="0092a05" ed="Y" type="old"/>觀不為自不為他而有所作為，是無作（無願）的。雖包含三義，但特重在無所作
 <lb n="0092a05" ed="Y"/><lb n="0092a06" ed="Y" type="old"/>為，所以稱之為無所有處道。</p>
-<lb n="0092a06" ed="Y"/><lb n="0092a07" ed="Y" type="old"/><p style="text-indent:2em">三、淨無想道，經說：</p>
-<lb n="0092a07" ed="Y"/><lb n="0092a08" ed="Y" type="old"/><quote source="T01n0026_p0543a04-05" type="嚴謹引文"><p style="margin-left:3em">若現世欲及後世欲……無所有處想，彼一切想是無常法、是苦、是滅；彼
+<lb n="0092a06" ed="Y"/><lb n="0092a07" ed="Y" type="old"/><p xml:id="pY11p0092a0601" style="text-indent:2em">三、淨無想道，經說：</p>
+<lb n="0092a07" ed="Y"/><lb n="0092a08" ed="Y" type="old"/><quote source="T01n0026_p0543a04-05" type="嚴謹引文"><p xml:id="pY11p0092a0701" style="margin-left:3em">若現世欲及後世欲……無所有處想，彼一切想是無常法、是苦、是滅；彼
 <lb n="0092a08" ed="Y"/>於爾時，而得無想。<note n="0092002" resp="周怡曄" type="add">《中阿含經》卷18〈2 長壽王品〉：「及不動想、無所有處想，彼一切想是無常法、是苦、是滅，彼於爾時而得無想」(CBETA, T01, no. 26, p. 543, a4-5)</note></p></quote>
-<lb n="0092a09" ed="Y"/><lb n="0092a09" ed="Y" type="old"/><p>這即無色界的非想非非想處定，重心在不起想念。佛教通常說的無想有兩種：一
+<lb n="0092a09" ed="Y"/><lb n="0092a09" ed="Y" type="old"/><p xml:id="pY11p0092a0901">這即無色界的非想非非想處定，重心在不起想念。佛教通常說的無想有兩種：一
 <lb n="0092a10" ed="Y"/><lb n="0092a10" ed="Y" type="old"/>在無色界的第四定，叫非想非非想定。一在色界最高處（除五淨居），是外道住
 <lb n="0092a11" ed="Y"/><lb n="0092a11" ed="Y" type="old"/>的無想天。不過，這兩種分別為<title level="m">《雜阿含經》</title>所無，出於<bibl>《<title level="m">中阿含經</title>．<title level="m">大因經</title>》</bibl>
 <lb n="0092a12" ed="Y"/>與<bibl>《<title level="m">長<lb n="0092a12" ed="Y" type="old"/>阿含經</title>．<title level="m">大緣方便經</title>》</bibl>。校勘巴利藏的<title level="m">《中部》</title>，並沒有這<title level="m">《大因經》</title>，
@@ -1156,13 +1176,13 @@
 <lb n="0093a02" ed="Y"/>。所以，從<lb n="0093a02" ed="Y" type="old"/>不動而無所有，而無想，只缺一個識無邊處定，其餘的次第，全與無
 <lb n="0093a03" ed="Y"/>色界定的次<lb n="0093a03" ed="Y" type="old"/>第符合。
 <lb n="0093a04" ed="Y"/>四、解脫，經說：</p>
-<lb n="0093a05" ed="Y"/><lb n="0093a04" ed="Y" type="old"/><quote source="T01n0026_p0543b12-17" type="嚴謹引文"><p style="margin-left:3em">若現世欲及後世欲……無所有處想，無想想，彼一切想是無常法、是苦、
+<lb n="0093a05" ed="Y"/><lb n="0093a04" ed="Y" type="old"/><quote source="T01n0026_p0543b12-17" type="嚴謹引文"><p xml:id="pY11p0093a0501" style="margin-left:3em">若現世欲及後世欲……無所有處想，無想想，彼一切想是無常法、是苦、
 <lb n="0093a06" ed="Y"/>是滅，是謂自己有；若<lb n="0093a05" ed="Y" type="old"/>自己有者，是生、是老、是病、是死。阿難！若有
 <lb n="0093a07" ed="Y"/>此法，一切盡滅無餘不復有者，彼<lb n="0093a06" ed="Y" type="old"/>則無生、無老病死。……彼如是觀、如
 <lb n="0093a08" ed="Y"/>是見，必得欲漏心解脫，有漏、無明漏心解脫。<note n="0093001" resp="周怡曄" type="add">《中阿含經》卷18〈2 長壽王品〉：「無所有處想、無想想，彼一切想是無常法、是苦、是滅，是謂自己有。若自己有者，是生、是老、是病、是死。阿難！若有此法，一切盡滅無餘不復有者，彼則無生，無老、病、死。聖如是觀，若有者必是解脫法，若有無餘涅槃者是名甘露，彼如是觀、如是見，必得欲漏心解脫」(CBETA, T01, no. 26, p. 543, b12-17)</note></p></quote>
-<lb n="0093a09" ed="Y"/><lb n="0093a07" ed="Y" type="old"/><p style="text-indent:2em">本經對前三道的說明，是：</p>
-<lb n="0093a10" ed="Y"/><lb n="0093a08" ed="Y" type="old"/><quote source="T01n0026_p0542b23-24" type="寬鬆引文"><p style="margin-left:3em">或以慧為解，彼於後時身壞命終，因本意故，必至（彼處）。<note n="0093002" resp="周怡曄" type="add">《中阿含經》卷18〈2 長壽王品〉：「或以慧為解。彼於後時，身壞命終，因本意故，必至不動」(CBETA, T01, no. 26, p. 542, b23-24)</note></p></quote>
-<lb n="0093a11" ed="Y"/><lb n="0093a09" ed="Y" type="old"/><p>這說修前三種道，如果不能得無漏智現生解脫，可由<quote type="嚴謹引文">「本意」</quote>生於彼三種天。前
+<lb n="0093a09" ed="Y"/><lb n="0093a07" ed="Y" type="old"/><p xml:id="pY11p0093a0901" style="text-indent:2em">本經對前三道的說明，是：</p>
+<lb n="0093a10" ed="Y"/><lb n="0093a08" ed="Y" type="old"/><quote source="T01n0026_p0542b23-24" type="寬鬆引文"><p xml:id="pY11p0093a1001" style="margin-left:3em">或以慧為解，彼於後時身壞命終，因本意故，必至（彼處）。<note n="0093002" resp="周怡曄" type="add">《中阿含經》卷18〈2 長壽王品〉：「或以慧為解。彼於後時，身壞命終，因本意故，必至不動」(CBETA, T01, no. 26, p. 542, b23-24)</note></p></quote>
+<lb n="0093a11" ed="Y"/><lb n="0093a09" ed="Y" type="old"/><p xml:id="pY11p0093a1101">這說修前三種道，如果不能得無漏智現生解脫，可由<quote type="嚴謹引文">「本意」</quote>生於彼三種天。前
 <lb n="0093a12" ed="Y"/><lb n="0093a10" ed="Y" type="old"/>三道是立足在禪上，於是就建立起無色定的層次組織了。在三道以上，再建立解
 <lb n="0093a13" ed="Y"/><lb n="0093a11" ed="Y" type="old"/>脫。拿這經的三種定與<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.567" type="taisho">五六七經</ref></bibl>所說的三種定比較一下，名義是大
 <pb n="0094a" ed="Y" xml:id="Y11.0011.0094a"/>
@@ -1174,7 +1194,7 @@
 <lb n="0094a06" ed="Y"/>變中，漸<lb n="0094a04" ed="Y" type="old"/>次的與三界的次第符合。所以我敢說：三界中無色界的次第，全是後代
 <lb n="0094a07" ed="Y"/>佛弟子們<lb n="0094a05" ed="Y" type="old"/>修定的過程，在「身壞命終由本意故得至彼處」的理論下，組織安立成
 <lb n="0094a08" ed="Y"/>功的。</p>
-<lb n="0094a09" ed="Y"/><lb n="0094a06" ed="Y" type="old"/><p style="text-indent:2em">現在，先將<title level="m">《雜阿含經》</title><title level="m">、《中阿含經》</title>二阿含中關於禪定次第的說法，表
+<lb n="0094a09" ed="Y"/><lb n="0094a06" ed="Y" type="old"/><p xml:id="pY11p0094a0901" style="text-indent:2em">現在，先將<title level="m">《雜阿含經》</title><title level="m">、《中阿含經》</title>二阿含中關於禪定次第的說法，表
 <lb n="0094a10" ed="Y"/>列如下：</p>
 <pb n="0095a" ed="Y" xml:id="Y11.0011.0095a"/>
 <lb n="0095a01" ed="Y"/><lb n="0094a07" ed="Y" type="old"/><table cols="12" style="margin-left:3em"><row><cell>雜．五六七經</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>識入處</cell><cell>無所有心三昧</cell><cell cols="3">無相心三昧</cell></row><row><cell>
@@ -1190,8 +1210,8 @@
 <pb n="0096a" ed="Y" xml:id="Y11.0011.0096a"/>
 <lb n="0096a01" ed="Y"/><lb n="0095a06" ed="Y" type="old"/>中．第一得經</cell><cell></cell><cell></cell><cell>內有色想外觀色少，外觀色無量。內無色想外觀色少，外觀色無量。</cell><cell>青黃赤白</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>
 <lb n="0096a02" ed="Y"/><lb n="0095a07" ed="Y" type="old"/>中．第一得經</cell><cell></cell><cell></cell><cell>地水火風</cell><cell>青黃赤白</cell><cell></cell><cell>空處</cell><cell>識處</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table>
-<lb n="0096a03" ed="Y"/><lb n="0095a08" ed="Y" type="old"/><p style="text-indent:2em">世尊以四禪為正定，<title level="m">《雜阿含經》</title>有明文。以空、無相、無所有三三昧的無
-<lb n="0096a04" ed="Y"/><lb n="0095a09" ed="Y" type="old"/>色化，組成三界次第，這是顯然無疑的。<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.456">四五六經</ref></bibl>的光界、淨界，
+<lb n="0096a03" ed="Y"/><lb n="0095a08" ed="Y" type="old"/><p xml:id="pY11p0096a0301" style="text-indent:2em">世尊以四禪為正定，<title level="m">《雜阿含經》</title>有明文。以空、無相、無所有三三昧的無
+<lb n="0096a04" ed="Y"/><lb n="0095a09" ed="Y" type="old"/>色化，組成三界次第，這是顯然無疑的。<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.456" type="taisho">四五六經</ref></bibl>的光界、淨界，
 <lb n="0096a05" ed="Y"/>與二禪<lb n="0095a10" ed="Y" type="old"/>（少光、無量光、光音）、三禪（少淨、無量淨、遍淨）相當。光界是定
 <lb n="0096a06" ed="Y"/>中生光<pb n="0096a" ed="Y" xml:id="Y11.0011.0096a.old" type="old"/><lb n="0096a01" ed="Y" type="old"/>而見色，<title level="m">《中阿含經》</title>中阿那律對此特為著重。淨界，成實論主解作空觀
 <lb n="0096a07" ed="Y"/>，不如<lb n="0096a02" ed="Y" type="old"/>一切有部的觀清淨色為是。八解脫的前三解脫，八勝處與十遍處中的前八
@@ -1205,19 +1225,19 @@
 <lb n="0097a04" ed="Y"/>中可得解脫<lb n="0096a09" ed="Y" type="old"/>），而佛陀與聖者的一切功德，主要是在第四禪中開發的。與解脫相
 <lb n="0097a05" ed="Y"/>應的第四禪<lb n="0096a10" ed="Y" type="old"/>，「除斷苦樂，憂苦先滅，不苦不樂，捨念清淨」，為佛教目標所在
 <lb n="0097a06" ed="Y"/>，大概是第<lb n="0096a11" ed="Y" type="old"/>一期的思想了。</p>
-<lb n="0097a07" ed="Y"/><lb n="0096a12" ed="Y" type="old"/><p style="text-indent:2em">以空、無相、無所有三三昧的熏修，其未能引發無漏即生解脫者，理應生於
+<lb n="0097a07" ed="Y"/><lb n="0096a12" ed="Y" type="old"/><p xml:id="pY11p0097a0701" style="text-indent:2em">以空、無相、無所有三三昧的熏修，其未能引發無漏即生解脫者，理應生於
 <lb n="0097a08" ed="Y"/><lb n="0096a13" ed="Y" type="old"/>此空、無相、無所有處；無色界的組織，因此成立。空處以上有識處，這是定心<pb n="0097a" ed="Y" xml:id="Y11.0011.0097a.old" type="old"/>
 <lb n="0097a09" ed="Y"/><lb n="0097a01" ed="Y" type="old"/>空外境而存內心，也就是境空心有的過程，與十遍處、四空處中識處的次第相合
 <lb n="0097a10" ed="Y"/><lb n="0097a02" ed="Y" type="old"/>。境空心有，進而不念境空、不念心有，即是無所有；等到心境並寂，即是無相
 <lb n="0097a11" ed="Y"/><lb n="0097a03" ed="Y" type="old"/>心定。瑜伽者的禪觀過程，顯然與四無色的次第相合。<title level="m">《雜阿含經》</title>空、無相、
 <lb n="0097a12" ed="Y"/>無所<lb n="0097a04" ed="Y" type="old"/>有的次第，<title level="m">《中阿含經》</title>轉而為不動、無所有、無想，實有深切注意的必要
-<lb n="0097a13" ed="Y"/>。<bibl><title level="m">《雜阿含<lb n="0097a05" ed="Y" type="old"/>經》</title><ref type="taisho" target="#no:99.567">五六七經</ref></bibl>，<bibl>《<title level="m">中阿含經</title>．<title level="m">支離彌梨經</title>》</bibl>，僅立一無相心定，這是
+<lb n="0097a13" ed="Y"/>。<bibl><title level="m">《雜阿含<lb n="0097a05" ed="Y" type="old"/>經》</title><ref target="#no:99.567" type="taisho">五六七經</ref></bibl>，<bibl>《<title level="m">中阿含經</title>．<title level="m">支離彌梨經</title>》</bibl>，僅立一無相心定，這是
 <pb n="0098a" ed="Y" xml:id="Y11.0011.0098a"/>
-<lb n="0098a01" ed="Y"/>第二期佛教者的目<lb n="0097a06" ed="Y" type="old"/>標了。但此無相心定，如<bibl><title level="m">《雜阿含經》</title><ref type="taisho" target="#no:99.485">四八五經</ref></bibl>，開為無想定
+<lb n="0098a01" ed="Y"/>第二期佛教者的目<lb n="0097a06" ed="Y" type="old"/>標了。但此無相心定，如<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.485" type="taisho">四八五經</ref></bibl>，開為無想定
 <lb n="0098a02" ed="Y"/><lb n="0097a07" ed="Y" type="old"/>（非想非非想處）與滅受想定二者；<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.456" type="taisho">四五六經</ref></bibl>，開為非想非非想界
 <lb n="0098a03" ed="Y"/>與滅<lb n="0097a08" ed="Y" type="old"/>界，<bibl>《<title level="m">中阿含經</title>．<title level="m">淨不動道經</title>》</bibl>、<title level="m">《小空經》</title>，開為非想非非想處（無想處
 <lb n="0098a04" ed="Y"/>）及解脫<lb n="0097a09" ed="Y" type="old"/>二者；而<bibl><title level="m">《雜阿含經》</title><ref target="#no:99.474" type="taisho">四七四經</ref></bibl>、<title level="m">《大因經》</title>（巴利藏見<title level="m">《長部》</title>）<lb n="0097a10" ed="Y" type="old"/>，又
 <lb n="0098a05" ed="Y"/>開為非想非非想、滅受想定及解脫三者。到此，無相心定，不再說它是智<lb n="0097a11" ed="Y" type="old"/>果智功
 <lb n="0098a06" ed="Y"/>德，被視為有念與出定計我了。空觀的化為四無色次第，豈不是顯然可見<lb n="0097a12" ed="Y" type="old"/>的嗎！</p>
-<lb n="0098a07" ed="Y"/><lb n="0097a13" ed="Y" type="old"/><p style="text-indent:2em">阿含之空義，姑止於此。</p></cb:div></cb:div></cb:div><pb n="0098a" ed="Y" xml:id="Y11.0011.0098a.old" type="old"/>
+<lb n="0098a07" ed="Y"/><lb n="0097a13" ed="Y" type="old"/><p xml:id="pY11p0098a0701" style="text-indent:2em">阿含之空義，姑止於此。</p></cb:div></cb:div></cb:div><pb n="0098a" ed="Y" xml:id="Y11.0011.0098a.old" type="old"/>
 </body></text></TEI>

@@ -12,56 +12,76 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版二刷<date>Date: 2015/03</date>新式標點版</edition>
+			<edition>修訂版二刷<date>Date: 2015/03</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>12卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 9, No. 9</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>12卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">9</idno>.<idno type="no">9</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">中觀今論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第八章　中觀之諸法實相</cb:mulu><cb:mulu level="2" type="其他">第四節　因、緣、果、報</cb:mulu>
-<milestone unit="juan" n="9"/><pb n="0181a" ed="Y" xml:id="Y09.0009.0181a.old" type="old"/>
+<milestone n="9" unit="juan"/><pb n="0181a" ed="Y" xml:id="Y09.0009.0181a.old" type="old"/>
 <pb n="0181a" ed="Y" xml:id="Y09.0009.0181a"/>
 <lb n="0181a01" ed="Y"/><lb n="0181a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">第九章　現象與實性之中道</cb:mulu><head>第九章　現象與實性之中道</head>
 <lb n="0181a02" ed="Y"/><lb n="0181a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　太過、不及、中道</cb:mulu><head>第一節　太過、不及、中道</head>
-<lb n="0181a03" ed="Y"/><lb n="0181a03" ed="Y" type="old"/><p style="text-indent:2em">緣起是側重於現象的，性空是側重於實相的、本性的。依佛法來看，現象與
+<lb n="0181a03" ed="Y"/><lb n="0181a03" ed="Y" type="old"/><p xml:id="pY09p0181a0301" style="text-indent:2em">緣起是側重於現象的，性空是側重於實相的、本性的。依佛法來看，現象與
 <lb n="0181a04" ed="Y"/><lb n="0181a04" ed="Y" type="old"/>本性的中道，是甚深的。佛法的說明諸法實相，以此相對的二門——緣起與性空
 <lb n="0181a05" ed="Y"/><lb n="0181a05" ed="Y" type="old"/>為方便。從緣起明性空，依性空明緣起，如不能適中的恰到好處，即有太過與不
 <lb n="0181a06" ed="Y"/><lb n="0181a06" ed="Y" type="old"/>及的誤解。本來，佛法以內的各宗派，對於空有，都自以為見到了中道義；然在
 <lb n="0181a07" ed="Y"/><lb n="0181a07" ed="Y" type="old"/>把握空有中道義的中觀者看來，各宗派所了解的中道，近於中道而多少還是不偏
 <lb n="0181a08" ed="Y"/><lb n="0181a08" ed="Y" type="old"/>於此即偏於彼，不是太過便是不及。</p>
-<lb n="0181a09" ed="Y"/><lb n="0181a09" ed="Y" type="old"/><p style="text-indent:2em">一、漢傳的般若三家：依中土所傳，對於二諦空假，有三宗的傳說。齊智林
+<lb n="0181a09" ed="Y"/><lb n="0181a09" ed="Y" type="old"/><p xml:id="pY09p0181a0901" style="text-indent:2em">一、漢傳的般若三家：依中土所傳，對於二諦空假，有三宗的傳說。齊智林
 <lb n="0181a10" ed="Y"/><lb n="0181a10" ed="Y" type="old"/>法師與隱士周顒倡導此三宗說。此三宗的思想，淵源甚早，如智林與周顒的信中<pb n="0182a" ed="Y" xml:id="Y09.0009.0182a.old" type="old"/>
 <pb n="0182a" ed="Y" xml:id="Y09.0009.0182a"/>
 <lb n="0182a01" ed="Y"/><lb n="0182a01" ed="Y" type="old"/>說：<quote source="T52n2103_p0274c02-03" type="寬鬆引文">「年少見長安耆老，多云：關中高勝，乃舊有此義。」<note n="0182001" resp="謝淑歆" type="add">《廣弘明集》卷24：「年少。見長安耆老。多云關中高勝迺舊有此義」(CBETA, T52, no. 2103, p. 274, c2-3)</note></quote>羅什法師來關中時，
@@ -69,14 +89,14 @@
 <lb n="0182a03" ed="Y"/>一點<lb n="0182a03" ed="Y" type="old"/>，在佛法屬於不了義。周顒的三宗說：(一)、以空假名破不空假名，(二)、以不
 <lb n="0182a04" ed="Y"/>空假<lb n="0182a04" ed="Y" type="old"/>名破空假名，(三)、以假名空雙破二者，為中道正義。後來三論宗，即常談此
 <lb n="0182a05" ed="Y"/>三宗<lb n="0182a05" ed="Y" type="old"/>。</p>
-<lb n="0182a06" ed="Y"/><lb n="0182a06" ed="Y" type="old"/><p style="text-indent:2em">「不空假名」：如<cit><bibl><title level="m">《大乘玄論》</title>說：</bibl><quote source="T45n1853_p0024c06-07" type="嚴謹引文">「不空假名者，但無性實，有假世諦，
+<lb n="0182a06" ed="Y"/><lb n="0182a06" ed="Y" type="old"/><p xml:id="pY09p0182a0601" style="text-indent:2em">「不空假名」：如<cit><bibl><title level="m">《大乘玄論》</title>說：</bibl><quote source="T45n1853_p0024c06-07" type="嚴謹引文">「不空假名者，但無性實，有假世諦，
 <lb n="0182a07" ed="Y"/><lb n="0182a07" ed="Y" type="old"/>不可全無，如鼠嘍栗。」</quote><note n="0182002" resp="謝淑歆" type="add">《大乘玄論》卷1(CBETA, T45, no. 1853, p. 24, c6-7)</note></cit>此說：諸法從緣起，緣起無實性，所以名空，而假名是
 <lb n="0182a08" ed="Y"/><lb n="0182a08" ed="Y" type="old"/>不空的。緣起無性名空是真諦，假名不空是俗諦。此不空假名宗，古人比喻為如
 <lb n="0182a09" ed="Y"/><lb n="0182a09" ed="Y" type="old"/>鼠嘍栗，他雖知無實性空，而猶存假名不空，如鼠食栗中仁盡而殼相還在。這因
 <lb n="0182a10" ed="Y"/><lb n="0182a10" ed="Y" type="old"/>為他們以為現象界不能什麼都沒有，若一切皆無，則墮斷見邪見。這本是對<lb n="0182a11" ed="Y" type="old"/>的，
 <lb n="0182a11" ed="Y"/>但以為若說有，即應當是不空，這即不能與空相成而無礙，即不能恰當。主<lb n="0182a12" ed="Y" type="old"/>張假
 <lb n="0182a12" ed="Y"/>名不空，所以對於空義的了解還不夠，這是不及派。</p>
-<lb n="0182a13" ed="Y"/><lb n="0182a13" ed="Y" type="old"/><p style="text-indent:2em">「空假名」：不空假名宗，空得不夠，此空假名宗又空得太過火了。此宗以<pb n="0183a" ed="Y" xml:id="Y09.0009.0183a.old" type="old"/>
+<lb n="0182a13" ed="Y"/><lb n="0182a13" ed="Y" type="old"/><p xml:id="pY09p0182a1301" style="text-indent:2em">「空假名」：不空假名宗，空得不夠，此空假名宗又空得太過火了。此宗以<pb n="0183a" ed="Y" xml:id="Y09.0009.0183a.old" type="old"/>
 <pb n="0183a" ed="Y" xml:id="Y09.0009.0183a"/>
 <lb n="0183a01" ed="Y"/><lb n="0183a01" ed="Y" type="old"/>為：從緣起法的假有義，以觀察因果、事相等，此屬俗諦；以真智去觀察，則緣
 <lb n="0183a02" ed="Y"/><lb n="0183a02" ed="Y" type="old"/>起法無不皆空，即是真諦。<cit><bibl><title level="m">《大乘玄論》</title>說：</bibl><quote source="T45n1853_p0024c07-09" type="嚴謹引文">「第二空假名，謂此世諦舉體不可
@@ -85,7 +105,7 @@
 <lb n="0183a05" ed="Y"/><lb n="0183a05" ed="Y" type="old"/>連假名也要空掉的；空是能破析假有而不可得的。此宗以為真諦空，能空破因緣
 <lb n="0183a06" ed="Y"/><lb n="0183a06" ed="Y" type="old"/>假有，即空得太過了，也不能把握空有之中道。他雖承認一切法空，但不能即空
 <lb n="0183a07" ed="Y"/><lb n="0183a07" ed="Y" type="old"/>而善巧安立於有，成為得此無彼、得彼無此的二諦不相及，這是太過派。</p>
-<lb n="0183a08" ed="Y"/><lb n="0183a08" ed="Y" type="old"/><p style="text-indent:2em">「假名空」：三論宗的正義是假名空，簡說為假空。緣起是假有法，假有即
+<lb n="0183a08" ed="Y"/><lb n="0183a08" ed="Y" type="old"/><p xml:id="pY09p0183a0801" style="text-indent:2em">「假名空」：三論宗的正義是假名空，簡說為假空。緣起是假有法，假有即
 <lb n="0183a09" ed="Y"/><lb n="0183a09" ed="Y" type="old"/>非真實性的，非真實有即是空。假名宛然現處，無自性即是空，不是無緣起假名
 <lb n="0183a10" ed="Y"/><lb n="0183a10" ed="Y" type="old"/>的，此與空假名不同。空是即假名的，非離假名而別觀空，即假名非實有名空，
 <lb n="0183a11" ed="Y"/><lb n="0183a11" ed="Y" type="old"/>故又與不空假名不同。<cit><bibl><title level="m">《大乘玄論》</title>說：</bibl><quote source="T45n1853_p0025a03-04" type="嚴謹引文">「假空者，雖空而宛然假，雖假而宛然
@@ -96,12 +116,12 @@
 <lb n="0184a02" ed="Y"/>從印度所傳<lb n="0184a02" ed="Y" type="old"/>，確曾有此說。即現即空、即空即現的現空無礙，實為淵源於龍樹學
 <lb n="0184a03" ed="Y"/>的。中土的<lb n="0184a03" ed="Y" type="old"/>三論宗，近於此宗。此種思想，乃循僧肇法師的<cit><bibl><title level="a">《不真空論》</title>而來：</bibl>
 <lb n="0184a04" ed="Y"/><quote source="T45n1858_p0152c16-20" type="嚴謹引文">「欲言其有<lb n="0184a04" ed="Y" type="old"/>，有非真生；欲言其無，事象既形。象形不即無，非真非實有，然則
-<lb n="0184a05" ed="Y"/>不真空義，<lb n="0184a05" ed="Y" type="old"/>顯於<note n="0184a0501" resp="CBETA" type="add">茲【CB】，玆【印順】</note><app n="0184a0501"><lem wit="【CB】" resp="正聞出版社">茲</lem><rdg wit="【印順】">玆</rdg></app>矣！故《放光》云：諸法假號不真，譬如幻化人。非無幻化人
+<lb n="0184a05" ed="Y"/>不真空義，<lb n="0184a05" ed="Y" type="old"/>顯於<note n="0184a0501" resp="CBETA" type="add">茲【CB】，玆【印順】</note><app n="0184a0501"><lem resp="正聞出版社" wit="【CB】">茲</lem><rdg wit="【印順】">玆</rdg></app>矣！故《放光》云：諸法假號不真，譬如幻化人。非無幻化人
 <lb n="0184a06" ed="Y"/>，幻化人非真人<lb n="0184a06" ed="Y" type="old"/>也。」</quote><note n="0184001" resp="謝淑歆" type="add">《肇論》卷1(CBETA, T45, no. 1858, p. 152, c16-20)</note></cit>三論宗傳此為假名空，說一切法空故非不及；雖空而假有
 <lb n="0184a07" ed="Y"/>不壞，也不是太<lb n="0184a07" ed="Y" type="old"/>過，所以能得現象與實性的中道。</p>
-<lb n="0184a08" ed="Y"/><lb n="0184a08" ed="Y" type="old"/><p style="text-indent:2em">二、藏傳的中觀三家：<title level="m">《菩提道次第廣論》</title>，抉擇中觀見，先破除太過與不
+<lb n="0184a08" ed="Y"/><lb n="0184a08" ed="Y" type="old"/><p xml:id="pY09p0184a0801" style="text-indent:2em">二、藏傳的中觀三家：<title level="m">《菩提道次第廣論》</title>，抉擇中觀見，先破除太過與不
 <lb n="0184a09" ed="Y"/><lb n="0184a09" ed="Y" type="old"/>及的兩派，然後確立自宗正見。</p>
-<lb n="0184a10" ed="Y"/><lb n="0184a10" ed="Y" type="old"/><p style="text-indent:2em">「太過派」：主張一切法性空，空能破一切法，從色乃至涅槃、菩提，無不
+<lb n="0184a10" ed="Y"/><lb n="0184a10" ed="Y" type="old"/><p xml:id="pY09p0184a1001" style="text-indent:2em">「太過派」：主張一切法性空，空能破一切法，從色乃至涅槃、菩提，無不
 <lb n="0184a11" ed="Y"/><lb n="0184a11" ed="Y" type="old"/>能破，此為宗喀巴所不許。破壞緣起法，即是抹煞現象，是不正確的。但所以執
 <lb n="0184a12" ed="Y"/><lb n="0184a12" ed="Y" type="old"/>空能破除一切法者，理由有四：(一)、一切法不外是自生、他生、共生、無因生；
 <lb n="0184a13" ed="Y"/><lb n="0184a13" ed="Y" type="old"/>四生既不可得，即一切法不能生。(二)、一切法不出有無等四句，龍樹菩薩廣破四<pb n="0185a" ed="Y" xml:id="Y09.0009.0185a.old" type="old"/>
@@ -127,7 +147,7 @@
 <lb n="0186a05" ed="Y"/>而成立，不能因此而說一切不成立。以一切法空為能破一切法，當然是誤解中<lb n="0186a06" ed="Y" type="old"/>觀
 <lb n="0186a06" ed="Y"/>義的太過者。但如<title level="m">《菩提道次第廣論》</title>的自宗，從自性與緣起、勝義與世俗的差
 <lb n="0186a07" ed="Y"/>別立論，<lb n="0186a07" ed="Y" type="old"/>不得意者，或許會落於不空假名的窠臼！</p>
-<lb n="0186a08" ed="Y"/><lb n="0186a08" ed="Y" type="old"/><p style="text-indent:2em">「不及派」：<title level="m">《菩提道次第廣論》</title>中曾引述此派的解說。此派以為無自性空
+<lb n="0186a08" ed="Y"/><lb n="0186a08" ed="Y" type="old"/><p xml:id="pY09p0186a0801" style="text-indent:2em">「不及派」：<title level="m">《菩提道次第廣論》</title>中曾引述此派的解說。此派以為無自性空
 <lb n="0186a09" ed="Y"/>的自性，即<lb n="0186a09" ed="Y" type="old"/>所破的自性，含義有三差別：<quote type="寬鬆引文">「(一)、非由因緣所生，(二)、時位無變，
 <lb n="0186a10" ed="Y"/>(三)、不待他<lb n="0186a10" ed="Y" type="old"/>立」</quote>。觀一切法的自性不可得，即是破除於一切法上含此三種錯誤的
 <lb n="0186a11" ed="Y"/>自性見。依<lb n="0186a11" ed="Y" type="old"/>此觀察，可悟證勝義空性，得到解脫。宗喀巴評此為不及者，以為他
@@ -165,15 +185,15 @@
 <lb n="0189a01" ed="Y"/>喀巴<pb n="0189a" ed="Y" xml:id="Y09.0009.0189a.old" type="old"/><lb n="0189a01" ed="Y" type="old"/>何以判之為不及？依我看，若說不及，自續派倒可以充數。如清辨論師以勝
 <lb n="0189a02" ed="Y"/>義諦<lb n="0189a02" ed="Y" type="old"/>中一切法空，而世俗諦中許有自相，即略近中土的不空假名宗。承認因緣所
 <lb n="0189a03" ed="Y"/>生法<lb n="0189a03" ed="Y" type="old"/>有自相，即於空無自性義不甚圓滿，需要更進一步去了解。</p>
-<lb n="0189a04" ed="Y"/><lb n="0189a04" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《菩提道次第廣論》</title>中於破太過與不及後，提出自宗的正見，即是月稱論師
+<lb n="0189a04" ed="Y"/><lb n="0189a04" ed="Y" type="old"/><p xml:id="pY09p0189a0401" style="text-indent:2em"><title level="m">《菩提道次第廣論》</title>中於破太過與不及後，提出自宗的正見，即是月稱論師
 <lb n="0189a05" ed="Y"/>的思想，稱<lb n="0189a05" ed="Y" type="old"/>為應成派。應成派以為：緣起法即是空的，空是不破壞緣起的。承認
 <lb n="0189a06" ed="Y"/>一切法空，<lb n="0189a06" ed="Y" type="old"/>即假有法也不承認有自相，與自續派的不及不同；雖承認一切法空而
 <lb n="0189a07" ed="Y"/>不許破緣起<lb n="0189a07" ed="Y" type="old"/>，故又與太過派不同。</p>
-<lb n="0189a08" ed="Y"/><lb n="0189a08" ed="Y" type="old"/><p style="text-indent:2em">三、印傳之大乘三家：遮太過與不及而顯中道，可作多種說明，現在再略說
+<lb n="0189a08" ed="Y"/><lb n="0189a08" ed="Y" type="old"/><p xml:id="pY09p0189a0801" style="text-indent:2em">三、印傳之大乘三家：遮太過與不及而顯中道，可作多種說明，現在再略說
 <lb n="0189a09" ed="Y"/><lb n="0189a09" ed="Y" type="old"/>印度的大乘三家。太虛大師分大乘學為三：(一)、法相唯識學，(二)、法性空慧學，
 <lb n="0189a10" ed="Y"/><lb n="0189a10" ed="Y" type="old"/>(三)、法界圓覺學。我在<title level="m">《印度之佛教》</title>裡，稱之為虛妄唯識系、性空唯名系、真
 <lb n="0189a11" ed="Y"/><lb n="0189a11" ed="Y" type="old"/>常唯心系。此大乘三系，可從有空的關係上去分別。</p>
-<lb n="0189a12" ed="Y"/><lb n="0189a12" ed="Y" type="old"/><p style="text-indent:2em">「性空者」所主張的：一切法畢竟空，於畢竟空中能成立緣起有，這是中觀
+<lb n="0189a12" ed="Y"/><lb n="0189a12" ed="Y" type="old"/><p xml:id="pY09p0189a1201" style="text-indent:2em">「性空者」所主張的：一切法畢竟空，於畢竟空中能成立緣起有，這是中觀
 <lb n="0189a13" ed="Y"/><lb n="0189a13" ed="Y" type="old"/>宗的特色。這即是<quote type="嚴謹引文">「以有空義故，一切法得成」</quote>。其他各派，以為若一切皆空了<pb n="0190a" ed="Y" xml:id="Y09.0009.0190a.old" type="old"/>
 <pb n="0190a" ed="Y" xml:id="Y09.0009.0190a"/>
 <lb n="0190a01" ed="Y"/><lb n="0190a01" ed="Y" type="old"/>，豈不破壞緣起？故另立不空之有。而不知諸法之所以是畢竟空，就因為他是緣
@@ -183,12 +203,12 @@
 <lb n="0190a05" ed="Y"/><lb n="0190a05" ed="Y" type="old"/>能善巧的知為有，則對於空也即不能善達其空。反之，對於空不能善巧的知其空
 <lb n="0190a06" ed="Y"/><lb n="0190a06" ed="Y" type="old"/>，對於有也即不能善達其為有。失空的即失有，失有的即失空。中觀者空有善巧
 <lb n="0190a07" ed="Y"/><lb n="0190a07" ed="Y" type="old"/>，一切空而不礙有，一切有而不礙空，這才是善取空者，也即是能善知有者！</p>
-<lb n="0190a08" ed="Y"/><lb n="0190a08" ed="Y" type="old"/><p style="text-indent:2em">「唯識者」，可說是不空假名論師。<title level="m">《瑜伽師地論》</title>等反對一切法性空，以
+<lb n="0190a08" ed="Y"/><lb n="0190a08" ed="Y" type="old"/><p xml:id="pY09p0190a0801" style="text-indent:2em">「唯識者」，可說是不空假名論師。<title level="m">《瑜伽師地論》</title>等反對一切法性空，以
 <lb n="0190a09" ed="Y"/>為如<lb n="0190a09" ed="Y" type="old"/>一切法空，即不能成立世出世間的一切法。主張依實立假，以一切法空為不
 <lb n="0190a10" ed="Y"/>了義<lb n="0190a10" ed="Y" type="old"/>。以為一切緣起法是依他而有，是自相安立的，故因緣所生法不空。依他起
 <lb n="0190a11" ed="Y"/>法不<lb n="0190a11" ed="Y" type="old"/>空、有自相，世間、出世間法才可依此而得建立，此是不空假名者的根本見
 <lb n="0190a12" ed="Y"/>解。</p>
-<lb n="0190a13" ed="Y"/><lb n="0190a12" ed="Y" type="old"/><p style="text-indent:2em">「真常者」，自以為是「空過來的」。對於緣起的畢竟空，他們是承認的。
+<lb n="0190a13" ed="Y"/><lb n="0190a12" ed="Y" type="old"/><p xml:id="pY09p0190a1301" style="text-indent:2em">「真常者」，自以為是「空過來的」。對於緣起的畢竟空，他們是承認的。
 <pb n="0191a" ed="Y" xml:id="Y09.0009.0191a"/>
 <lb n="0191a01" ed="Y"/><lb n="0190a13" ed="Y" type="old"/>但空了以後，卻轉出一個不空的，這即我所說的真常論者。他們以為：空是與小<pb n="0191a" ed="Y" xml:id="Y09.0009.0191a.old" type="old"/>
 <lb n="0191a02" ed="Y"/><lb n="0191a01" ed="Y" type="old"/>乘所共同的，有些人止於觀空、以空為究竟，這是不圓滿的。頓根利智的大乘學
@@ -205,7 +225,7 @@
 <lb n="0191a13" ed="Y"/><lb n="0191a12" ed="Y" type="old"/>了，以致無法成立一切；這才轉過身來，從妙有上安身立命，依舊是真實自性不
 <pb n="0192a" ed="Y" xml:id="Y09.0009.0192a"/>
 <lb n="0192a01" ed="Y"/><lb n="0191a13" ed="Y" type="old"/>空。</p><pb n="0192a" ed="Y" xml:id="Y09.0009.0192a.old" type="old"/>
-<lb n="0192a02" ed="Y"/><lb n="0192a01" ed="Y" type="old"/><p style="text-indent:2em">大乘的三家，法相唯識者是從不及派引發出來的，於諸法性空的了解不夠，
+<lb n="0192a02" ed="Y"/><lb n="0192a01" ed="Y" type="old"/><p xml:id="pY09p0192a0201" style="text-indent:2em">大乘的三家，法相唯識者是從不及派引發出來的，於諸法性空的了解不夠，
 <lb n="0192a03" ed="Y"/><lb n="0192a02" ed="Y" type="old"/>失空即失有，所以不能不說自相有。真常唯心者是從太過派引發出來的，破壞緣
 <lb n="0192a04" ed="Y"/><lb n="0192a03" ed="Y" type="old"/>起而另覓出路，是對於緣起有不夠了解，結果是失有也失空。這二派都是「依實
 <lb n="0192a05" ed="Y"/><lb n="0192a04" ed="Y" type="old"/>立假」的，「異法是空，異法不空」<note n="0192001" resp="謝淑歆" type="add">《央掘魔羅經》卷2(CBETA, T02, no. 120, p. 527, b28)</note>的。唯有中觀論者依緣起顯示性空，即空而
@@ -213,14 +233,14 @@
 <lb n="0192a07" ed="Y"/><lb n="0192a06" ed="Y" type="old"/>響，多少有妙有不空的氣息；但法法畢竟空、法法宛然有，較之他宗，仍與中觀
 <lb n="0192a08" ed="Y"/><lb n="0192a07" ed="Y" type="old"/>義相近。</p></cb:div>
 <lb n="0192a09" ed="Y"/><lb n="0192a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　即、離、中道</cb:mulu><head>第二節　即、離、中道</head>
-<lb n="0192a10" ed="Y"/><lb n="0192a09" ed="Y" type="old"/><p style="text-indent:2em">太過與不及，側重在從緣起以明空，現在從現象與本性的綜貫來說。現象與
+<lb n="0192a10" ed="Y"/><lb n="0192a09" ed="Y" type="old"/><p xml:id="pY09p0192a1001" style="text-indent:2em">太過與不及，側重在從緣起以明空，現在從現象與本性的綜貫來說。現象與
 <lb n="0192a11" ed="Y"/><lb n="0192a10" ed="Y" type="old"/>本性，關涉的方面很廣，如外道以及一般哲學上的本體與現象、實在與假相等，
 <lb n="0192a12" ed="Y"/><lb n="0192a11" ed="Y" type="old"/>都可說與此論題有關。對於現實的宇宙、人生，要能把握到它的究竟真相，無論
 <pb n="0193a" ed="Y" xml:id="Y09.0009.0193a"/>
 <lb n="0193a01" ed="Y"/><lb n="0192a12" ed="Y" type="old"/>是說明上、悟證上，都不能不分別，但又不能分成判然的兩截。從相對的差別說<pb n="0193a" ed="Y" xml:id="Y09.0009.0193a.old" type="old"/>
 <lb n="0193a02" ed="Y"/><lb n="0193a01" ed="Y" type="old"/>明中，此現象與本性，或緣起與性空，此兩者的關係究竟怎樣？現象在本性之外
 <lb n="0193a03" ed="Y"/><lb n="0193a02" ed="Y" type="old"/>？還是在本性之中？此一問題，在佛教、神教與哲學上，有多種見解的不同。</p>
-<lb n="0193a04" ed="Y"/><lb n="0193a03" ed="Y" type="old"/><p style="text-indent:2em">中觀家對現象與本性，發揮其不即不離的中道義。釋迦佛在世時，外道的主
+<lb n="0193a04" ed="Y"/><lb n="0193a03" ed="Y" type="old"/><p xml:id="pY09p0193a0401" style="text-indent:2em">中觀家對現象與本性，發揮其不即不離的中道義。釋迦佛在世時，外道的主
 <lb n="0193a05" ed="Y"/><lb n="0193a04" ed="Y" type="old"/>要者為婆羅門。婆羅門教的基本思想是本體論的、一元論的，以為宇宙與人生<lb n="0193a05" ed="Y" type="old"/>是
 <lb n="0193a06" ed="Y"/>唯一本體——梵或我等的顯現，把自我看為真實、常住、不變、妙樂的。佛法<lb n="0193a06" ed="Y" type="old"/>為
 <lb n="0193a07" ed="Y"/>破除此種思想，故特重於分析、否定。如說五蘊、十二入、十八界等，是分析的
@@ -239,7 +259,7 @@
 <lb n="0194a06" ed="Y"/><lb n="0194a05" ed="Y" type="old"/>應起差別見；經中說色即是空、空即是色，也不應起一體見。緣起與本性，應知
 <lb n="0194a07" ed="Y"/><lb n="0194a06" ed="Y" type="old"/>為不著於相即相離的中道。此是學佛者應有的基本理解，否則為言辭所拘縛，與
 <lb n="0194a08" ed="Y"/><lb n="0194a07" ed="Y" type="old"/>世間學者的說即說離一樣。</p>
-<lb n="0194a09" ed="Y"/><lb n="0194a08" ed="Y" type="old"/><p style="text-indent:2em">關於現象與本性的即離，天臺學者說得明白。臺宗判四教：藏、通、別、圓
+<lb n="0194a09" ed="Y"/><lb n="0194a08" ed="Y" type="old"/><p xml:id="pY09p0194a0901" style="text-indent:2em">關於現象與本性的即離，天臺學者說得明白。臺宗判四教：藏、通、別、圓
 <lb n="0194a10" ed="Y"/><lb n="0194a09" ed="Y" type="old"/>，四教對於世俗相與勝義性的說明，即離不同。三藏教——主要為小乘學者，對
 <lb n="0194a11" ed="Y"/><lb n="0194a10" ed="Y" type="old"/>於現象與本性、生死與涅槃、世俗與勝義，主張是差別的。通教則主張即色而空
 <lb n="0194a12" ed="Y"/><lb n="0194a11" ed="Y" type="old"/>、即生死為涅槃，主緣起與本性是相即的。別教進而講三諦——俗諦、真諦、中
@@ -254,7 +274,7 @@
 <lb n="0195a07" ed="Y"/>的。臺<lb n="0195a06" ed="Y" type="old"/>宗的說明，不一定與其他的宗派相同，但確有其意義。悟偏真，現象與本
 <lb n="0195a08" ed="Y"/>性是不<lb n="0195a07" ed="Y" type="old"/>相即的；悟圓中，假與空是相即的。但這是從悟境而方便說明的，在如實
 <lb n="0195a09" ed="Y"/>的悟證<lb n="0195a08" ed="Y" type="old"/>時，決不執取為是即、是離的。</p>
-<lb n="0195a10" ed="Y"/><lb n="0195a09" ed="Y" type="old"/><p style="text-indent:2em">從言教安立上講，各宗派關於緣起與性空的建立，是否善巧，是否易於使人
+<lb n="0195a10" ed="Y"/><lb n="0195a09" ed="Y" type="old"/><p xml:id="pY09p0195a1001" style="text-indent:2em">從言教安立上講，各宗派關於緣起與性空的建立，是否善巧，是否易於使人
 <lb n="0195a11" ed="Y"/><lb n="0195a10" ed="Y" type="old"/>誤會而落於二邊，不無可以評論。現舉大乘佛教為例：原則的說，凡是大乘佛法
 <lb n="0195a12" ed="Y"/><lb n="0195a11" ed="Y" type="old"/>，都是談二諦的，都以二諦為不即不離的。唯識、中觀、天臺、賢首，都這樣說
 <lb n="0195a13" ed="Y"/><lb n="0195a12" ed="Y" type="old"/>。如細探各宗安立的言教，即知各宗或不免偏重。唯識家重在差別，如歐陽竟無
@@ -271,7 +291,7 @@
 <lb n="0196a10" ed="Y"/>有人覺得唯識不夠融即。依唯識家的見道證真說，本側重於偏真；在言教的<lb n="0196a10" ed="Y" type="old"/>安立
 <lb n="0196a11" ed="Y"/>上，又重於世俗法相，所以結果是不免偏於差別。有人批評它：這是偏以現<lb n="0196a11" ed="Y" type="old"/>象的
 <lb n="0196a12" ed="Y"/>差別觀，說明現象與本性。</p>
-<lb n="0196a13" ed="Y"/><lb n="0196a12" ed="Y" type="old"/><p style="text-indent:2em">如賢首家，<title level="m">《起信論》</title>等也主張不即不離——天臺宗義也略近於此。但它<lb n="0196a13" ed="Y" type="old"/>實
+<lb n="0196a13" ed="Y"/><lb n="0196a12" ed="Y" type="old"/><p xml:id="pY09p0196a1301" style="text-indent:2em">如賢首家，<title level="m">《起信論》</title>等也主張不即不離——天臺宗義也略近於此。但它<lb n="0196a13" ed="Y" type="old"/>實
 <pb n="0197a" ed="Y" xml:id="Y09.0009.0197a"/>
 <lb n="0197a01" ed="Y"/>是側重在平等一如無差別的，故說舉妄即真，全事即理，一切現象或虛妄事相<pb n="0197a" ed="Y" xml:id="Y09.0009.0197a.old" type="old"/><lb n="0197a01" ed="Y" type="old"/>皆
 <lb n="0197a02" ed="Y"/>即是本來寂滅的；反過來，從真起妄，全理為事，以一切為真如的發顯。從本<lb n="0197a02" ed="Y" type="old"/>性
@@ -285,14 +305,14 @@
 <lb n="0197a10" ed="Y"/>，而九界也即不離此一界。這樣，一法攝於一切法中，一切法又攝於一法<lb n="0197a10" ed="Y" type="old"/>中，等
 <lb n="0197a11" ed="Y"/>於在因論與遍因論。賢首家雖說圓融不礙行布、行布不礙圓融，其實是<lb n="0197a11" ed="Y" type="old"/>偏於相即
 <lb n="0197a12" ed="Y"/>。有人說：這不過偏據理性的無別觀，而用於二諦關係的說明而已。</p>
-<lb n="0197a13" ed="Y"/><lb n="0197a12" ed="Y" type="old"/><p style="text-indent:2em">以中觀宗的見解來批評，唯識偏重於差別事相，多明俗諦；天臺、賢首偏重
+<lb n="0197a13" ed="Y"/><lb n="0197a12" ed="Y" type="old"/><p xml:id="pY09p0197a1301" style="text-indent:2em">以中觀宗的見解來批評，唯識偏重於差別事相，多明俗諦；天臺、賢首偏重
 <pb n="0198a" ed="Y" xml:id="Y09.0009.0198a"/>
 <lb n="0198a01" ed="Y"/><lb n="0197a13" ed="Y" type="old"/>於平等本性，多明真諦。唯識、天臺、賢首所建立的理論，高深廣大，當然不能<pb n="0198a" ed="Y" xml:id="Y09.0009.0198a.old" type="old"/>
 <lb n="0198a02" ed="Y"/><lb n="0198a01" ed="Y" type="old"/>看作荒謬不經的，但佛依二諦說法，二諦不即不離而需要完滿的善巧二諦，即不
 <lb n="0198a03" ed="Y"/><lb n="0198a02" ed="Y" type="old"/>能稍有所偏。若能正見二諦無礙的中道，則對於緣起與性空，才有正確了達的可
 <lb n="0198a04" ed="Y"/><lb n="0198a03" ed="Y" type="old"/>能。如何把握二諦的不即不離，恰到好處？不偏於差別，也不偏於平等，這是修
 <lb n="0198a05" ed="Y"/><lb n="0198a04" ed="Y" type="old"/>學中觀者所應該特別留意處。</p>
-<lb n="0198a06" ed="Y"/><lb n="0198a05" ed="Y" type="old"/><p style="text-indent:2em">中觀者的二諦中道觀：緣起即是性空，因為諸法空無自性，所以是緣起法，
+<lb n="0198a06" ed="Y"/><lb n="0198a05" ed="Y" type="old"/><p xml:id="pY09p0198a0601" style="text-indent:2em">中觀者的二諦中道觀：緣起即是性空，因為諸法空無自性，所以是緣起法，
 <lb n="0198a07" ed="Y"/><lb n="0198a06" ed="Y" type="old"/>要由眾緣而現前，這與唯識家不同。唯識學者不能從圓成空性以指出空性與依他
 <lb n="0198a08" ed="Y"/><lb n="0198a07" ed="Y" type="old"/>有何關聯，中觀則說無自性與緣起相即相成，彼此有深切的關係。<quote type="嚴謹引文">「以有空義故
 <lb n="0198a09" ed="Y"/><lb n="0198a08" ed="Y" type="old"/>，一切法得成」</quote>，諸法本性空，即是現象之可能成為現象的所以。然而現象之所
@@ -318,7 +338,7 @@
 <lb n="0200a01" ed="Y"/><lb n="0199a13" ed="Y" type="old"/>切或具足一切。然這裡要鄭重指出的，性空即緣起本相，不應作形而上的實體看<pb n="0200a" ed="Y" xml:id="Y09.0009.0200a.old" type="old"/>
 <lb n="0200a02" ed="Y"/><lb n="0200a01" ed="Y" type="old"/>，也不應作原理而為諸法的依託看；這是形上形下或理事差別者的擬想，而非緣
 <lb n="0200a03" ed="Y"/><lb n="0200a02" ed="Y" type="old"/>起性空的實相。</p>
-<lb n="0200a04" ed="Y"/><lb n="0200a03" ed="Y" type="old"/><p style="text-indent:2em">佛法中所說的緣起、本性，與一般宗教及哲學是不同的。佛法的立場是緣起
+<lb n="0200a04" ed="Y"/><lb n="0200a03" ed="Y" type="old"/><p xml:id="pY09p0200a0401" style="text-indent:2em">佛法中所說的緣起、本性，與一般宗教及哲學是不同的。佛法的立場是緣起
 <lb n="0200a05" ed="Y"/><lb n="0200a04" ed="Y" type="old"/>論，是以因果緣起安立世出世間一切法的。依此來說，聲聞乘說色心等因果緣起
 <lb n="0200a06" ed="Y"/><lb n="0200a05" ed="Y" type="old"/>是對的，他並不說因無為本體而有一切現象。中觀與唯識，還能保持此種理論。
 <lb n="0200a07" ed="Y"/><lb n="0200a06" ed="Y" type="old"/>唯識者說依阿賴耶種現相生，是從現象方面說的。中觀者說<quote type="嚴謹引文">「以有空義故，一<lb n="0200a07" ed="Y" type="old"/>切
@@ -332,7 +352,7 @@
 <lb n="0201a01" ed="Y"/>性寂滅，使人即俗以顯真；真如寂滅不是什麼神秘不思議的實體，所以從<pb n="0201a" ed="Y" xml:id="Y09.0009.0201a.old" type="old"/><lb n="0201a01" ed="Y" type="old"/>來不說
 <lb n="0201a02" ed="Y"/>從體起用。如不能把握這點，則佛法必將與中國的儒道、印度的婆羅門、<lb n="0201a02" ed="Y" type="old"/>西洋哲
 <lb n="0201a03" ed="Y"/>學的本體論、唯心論者合流。</p>
-<lb n="0201a04" ed="Y"/><lb n="0201a03" ed="Y" type="old"/><p style="text-indent:2em">熊十力的<title level="m">《新唯識論》</title>，對佛法的批評是：佛法說一切法即空空寂寂，而不
+<lb n="0201a04" ed="Y"/><lb n="0201a03" ed="Y" type="old"/><p xml:id="pY09p0201a0401" style="text-indent:2em">熊十力的<title level="m">《新唯識論》</title>，對佛法的批評是：佛法說一切法即空空寂寂，而不
 <lb n="0201a05" ed="Y"/><lb n="0201a04" ed="Y" type="old"/>能說空空寂寂即一切法。熊氏的意思，佛法不能說由空空寂寂的本體而發現為一
 <lb n="0201a06" ed="Y"/><lb n="0201a05" ed="Y" type="old"/>切法，以此為佛法的缺點。其實，佛法何嘗不能說、不會說，也還是說空寂即一
 <lb n="0201a07" ed="Y"/><lb n="0201a06" ed="Y" type="old"/>切法，但含義不同，不許從空寂體而現為一切。向來一般的神教與玄學者對於<lb n="0201a07" ed="Y" type="old"/>宇
@@ -357,7 +377,7 @@
 <lb n="0202a12" ed="Y"/>法有實性，甚而想像有一實在的本體而從此現生一切。佛學者如想像從本體而<lb n="0202a12" ed="Y" type="old"/>顯
 <lb n="0202a13" ed="Y"/>現為現象，即轉而與一般神教、玄學者類似，即不能顯出佛法異於外道的特色<lb n="0202a13" ed="Y" type="old"/>。</p><pb n="0203a" ed="Y" xml:id="Y09.0009.0203a.old" type="old"/>
 <pb n="0203a" ed="Y" xml:id="Y09.0009.0203a"/>
-<lb n="0203a01" ed="Y"/><lb n="0203a01" ed="Y" type="old"/><p style="text-indent:2em">世間也有不承認形而上學的本體者，即經驗論派或現象論派。此派以為神教
+<lb n="0203a01" ed="Y"/><lb n="0203a01" ed="Y" type="old"/><p xml:id="pY09p0203a0101" style="text-indent:2em">世間也有不承認形而上學的本體者，即經驗論派或現象論派。此派以為神教
 <lb n="0203a02" ed="Y"/><lb n="0203a02" ed="Y" type="old"/>、玄學家的本體，是幻想的產物，是以自己的推論為根據而建立的，他們根本就
 <lb n="0203a03" ed="Y"/><lb n="0203a03" ed="Y" type="old"/>沒有見到什麼本體。這極有理，但又多少偏於一邊了！中觀的根本義是：一切法
 <lb n="0203a04" ed="Y"/><lb n="0203a04" ed="Y" type="old"/>的真相、本性，要適如其量的去把握它，不能為錯亂、顛倒的認識所蒙蔽。離顛

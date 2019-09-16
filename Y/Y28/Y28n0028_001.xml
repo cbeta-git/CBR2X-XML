@@ -12,49 +12,69 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>11卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 28, No. 28</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>11卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">28</idno>.<idno type="no">28</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（四）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/><pb n="0001a" ed="Y" xml:id="Y28.0028.0001a.old" type="old"/>
 <pb n="0001a" ed="Y" xml:id="Y28.0028.0001a"/>
 <lb n="0001a01" ed="Y"/><lb n="0001a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">一、契理契機之人間佛教</cb:mulu><head>契理契機之人間佛教<note n="0001001" resp="DILA" type="add">民國七八年撰。</note></head>
 <lb n="0001a02" ed="Y"/><lb n="0001a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　探求佛法的信念與態度</cb:mulu><head>一　探求佛法的信念與態度</head>
-<lb n="0001a03" ed="Y"/><lb n="0001a03" ed="Y" type="old"/><p style="text-indent:2em">三年前，宏印法師的<cit><bibl><title level="a">〈妙雲集宗趣窺探〉</title>說：</bibl><quote>「我積多年的見聞，總覺得這
+<lb n="0001a03" ed="Y"/><lb n="0001a03" ed="Y" type="old"/><p xml:id="pY28p0001a0301" style="text-indent:2em">三年前，宏印法師的<cit><bibl><title level="a">〈妙雲集宗趣窺探〉</title>說：</bibl><quote>「我積多年的見聞，總覺得這
 <lb n="0001a04" ed="Y"/><lb n="0001a04" ed="Y" type="old"/>些人的批評，抓不住印公導師的思想核心是什麼，換句話說，他們不知<title level="m">《妙雲集
 <lb n="0001a05" ed="Y"/><lb n="0001a05" ed="Y" type="old"/>》</title>到底是在傳遞什麼訊息！」</quote></cit>最近，聖嚴法師在<cit><bibl><title level="a">〈印順長老的佛學思想〉</title>中說：</bibl>
 <lb n="0001a06" ed="Y"/><lb n="0001a06" ed="Y" type="old"/><quote>「他的著作太多，涉及範圍太廣，因此使得他的弟子們無以為繼，也使他的讀者
@@ -64,15 +84,15 @@
 <lb n="0001a10" ed="Y"/><lb n="0001a10" ed="Y" type="old"/>在民國三十一年所寫的<cit><bibl>《<title level="m">印度之佛教</title>．<title level="a">自序</title>》，就說得很明白：</bibl><quote type="寬鬆引文">「立本於根本<pb n="0002a" ed="Y" xml:id="Y28.0028.0002a.old" type="old"/><lb n="0002a01" ed="Y" type="old"/>佛
 <pb n="0002a" ed="Y" xml:id="Y28.0028.0002a"/>
 <lb n="0002a01" ed="Y"/>教之淳樸，宏闡中期佛教之行解（梵化之機應慎），攝取後期佛教之確當者，<lb n="0002a02" ed="Y" type="old"/>庶
-<lb n="0002a02" ed="Y"/>足以復興佛教而暢佛之本懷也歟！」</quote><note n="0002001" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:33;page:pa7">(ref yinshun::vol:33;page:pa7)</ref></note></cit>我不是復古的，也決不是創新的，是主張<lb n="0002a03" ed="Y" type="old"/>不
+<lb n="0002a02" ed="Y"/>足以復興佛教而暢佛之本懷也歟！」</quote><note n="0002001" resp="周怡曄" type="add"><ref target="#vol:33;page:pa7" type="yinshun">(ref yinshun::vol:33;page:pa7)</ref></note></cit>我不是復古的，也決不是創新的，是主張<lb n="0002a03" ed="Y" type="old"/>不
 <lb n="0002a03" ed="Y"/>違反佛法的本質，從適應現實中，振興純正的佛法。所以三十八年完成的<cit><bibl>《<title level="m">佛<lb n="0002a04" ed="Y" type="old"/>法
 <lb n="0002a04" ed="Y"/>概論</title>．<title level="a">自序</title>》就這樣說：</bibl><quote type="寬鬆引文">「深深的覺得，初期佛法的時代適應性，是不能充<lb n="0002a05" ed="Y" type="old"/>分表
 <lb n="0002a05" ed="Y"/>達釋尊真諦的。大乘佛法的應運而興，……確有他獨到的長處。……宏通佛<lb n="0002a06" ed="Y" type="old"/>法，
 <lb n="0002a06" ed="Y"/>不應為舊有的方便所拘蔽，應使佛法從新的適應中開展。……著重於舊有的<lb n="0002a07" ed="Y" type="old"/>抉發
 <lb n="0002a07" ed="Y"/>，希望能刺透兩邊（不偏於大小，而能通於大小），讓佛法在這人生正道中<lb n="0002a08" ed="Y" type="old"/>，逐
-<lb n="0002a08" ed="Y"/>漸能取得新的方便適應而發揚起來！」</quote><note n="0002002" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:08;page:pa1-a2">(ref yinshun::vol:08;page:pa1-a2)</ref></note></cit>——這是我所深信的，也就是我所要<lb n="0002a09" ed="Y" type="old"/>弘揚
+<lb n="0002a08" ed="Y"/>漸能取得新的方便適應而發揚起來！」</quote><note n="0002002" resp="周怡曄" type="add"><ref target="#vol:08;page:pa1-a2" type="yinshun">(ref yinshun::vol:08;page:pa1-a2)</ref></note></cit>——這是我所深信的，也就是我所要<lb n="0002a09" ed="Y" type="old"/>弘揚
 <lb n="0002a09" ed="Y"/>的佛法。</p>
-<lb n="0002a10" ed="Y"/><lb n="0002a10" ed="Y" type="old"/><p style="text-indent:2em">這一信念，一生為此而盡力的，是從修學中引發決定的。在家時期，<quote>「我的
+<lb n="0002a10" ed="Y"/><lb n="0002a10" ed="Y" type="old"/><p xml:id="pY28p0002a1001" style="text-indent:2em">這一信念，一生為此而盡力的，是從修學中引發決定的。在家時期，<quote>「我的
 <lb n="0002a11" ed="Y"/><lb n="0002a11" ed="Y" type="old"/>修學佛法，一切在摸索中進行。沒有人指導，讀什麼經論，是全憑因緣來決定的
 <lb n="0002a12" ed="Y"/><lb n="0002a12" ed="Y" type="old"/>。一開始，就以三論、唯識法門為研求對象，（法義太深），當然事倍而功半」</quote>
 <lb n="0002a13" ed="Y"/><lb n="0002a13" ed="Y" type="old"/>；<quote>「經四、五年的閱讀思惟，多少有一點了解。……理解到的佛法（那時是三論<pb n="0003a" ed="Y" xml:id="Y28.0028.0003a.old" type="old"/>
@@ -81,7 +101,7 @@
 <lb n="0003a02" ed="Y"/><lb n="0003a02" ed="Y" type="old"/><cit><quote>「佛法與現實佛教界有距離，是一向存在於內心的問題。出家來八年的修學，知
 <lb n="0003a03" ed="Y"/><lb n="0003a03" ed="Y" type="old"/>道（佛法）為中國文化所歪曲的固然不少，而佛法的漸失本真，在印度由來已久
 <lb n="0003a04" ed="Y"/><lb n="0003a04" ed="Y" type="old"/>，而且越（到後）來越嚴重。所以不能不將心力，放在印度佛教的探究上」</quote><bibl><note place="inline"><title level="a">《遊
-<lb n="0003a05" ed="Y"/><lb n="0003a05" ed="Y" type="old"/>心法海六十年》</title></note></bibl><note n="0003001" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:29;page:p13">(ref yinshun::vol:29;page:p13)</ref></note></cit>。我在佛法的探求中，直覺得佛法常說的大悲濟世，六度的首重布
+<lb n="0003a05" ed="Y"/><lb n="0003a05" ed="Y" type="old"/>心法海六十年》</title></note></bibl><note n="0003001" resp="周怡曄" type="add"><ref target="#vol:29;page:p13" type="yinshun">(ref yinshun::vol:29;page:p13)</ref></note></cit>。我在佛法的探求中，直覺得佛法常說的大悲濟世，六度的首重布
 <lb n="0003a06" ed="Y"/><lb n="0003a06" ed="Y" type="old"/>施，物質的、精神的利濟精神，與中國佛教界是不相吻合的。在國難教難嚴重時
 <lb n="0003a07" ed="Y"/><lb n="0003a07" ed="Y" type="old"/>刻，讀到了<cit><bibl><title level="m">《增壹阿含經》</title>所說：</bibl><quote source="T02n0125_p0694a04-05" type="寬鬆引文">「諸佛皆出人間，終不在天上成佛也。」</quote><note n="0003002" resp="周怡曄" type="add">《增壹阿含經》卷26〈34 等見品〉：「[2]佛世尊皆出人間，非由[3]天而得也。」(CBETA, T02, no. 125, p. 694, a4-5)[2]（諸）＋佛【宋】【元】【明】。[3]〔天〕－【聖】</note></cit>回想
 <lb n="0003a08" ed="Y"/><lb n="0003a08" ed="Y" type="old"/>到普陀山閱藏時，讀到<title level="m">《阿含經》</title>與各部廣<title level="m">律</title>，有現實人間的親切感、真實<lb n="0003a09" ed="Y" type="old"/>感，
@@ -91,27 +111,27 @@
 <lb n="0003a12" ed="Y"/>，明其流變，抉擇而洗鍊之，願自治印度佛教始。察思想之所自來，動機<lb n="0003a13" ed="Y" type="old"/>之所出
 <lb n="0003a13" ed="Y"/>，於身心國家實益之所在，不為華飾之辯論所蒙（蔽），願本此意以治印<pb n="0004a" ed="Y" xml:id="Y28.0028.0004a.old" type="old"/><lb n="0004a01" ed="Y" type="old"/>度之佛
 <pb n="0004a" ed="Y" xml:id="Y28.0028.0004a"/>
-<lb n="0004a01" ed="Y"/>教。」</quote><note n="0004001" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:33;page:pa3">(ref yinshun::vol:33;page:pa3)</ref></note></cit>所以我這一生，雖也寫了<title level="m">《中國禪宗史》</title>、<title level="m">《中國古代民族神話與<lb n="0004a02" ed="Y" type="old"/>文化之
+<lb n="0004a01" ed="Y"/>教。」</quote><note n="0004001" resp="周怡曄" type="add"><ref target="#vol:33;page:pa3" type="yinshun">(ref yinshun::vol:33;page:pa3)</ref></note></cit>所以我這一生，雖也寫了<title level="m">《中國禪宗史》</title>、<title level="m">《中國古代民族神話與<lb n="0004a02" ed="Y" type="old"/>文化之
 <lb n="0004a02" ed="Y"/>研究》</title>；對外也寫有<title level="a">〈評熊十力的新唯識論〉</title>、<title level="a">〈上帝愛世人〉</title>等，而主<lb n="0004a03" ed="Y" type="old"/>要是在
 <lb n="0004a03" ed="Y"/>作印度佛教史的探討；而佛教思想史的探究，不是一般的學問，而是<quote type="嚴謹引文">「探<lb n="0004a04" ed="Y" type="old"/>其宗本
 <lb n="0004a04" ed="Y"/>，明其流變，抉擇而洗鍊之」</quote>，使佛法能成為適應時代，有益人類身心的<lb n="0004a05" ed="Y" type="old"/>，「人
 <lb n="0004a05" ed="Y"/>類為本」的佛法。</p>
-<lb n="0004a06" ed="Y"/><lb n="0004a06" ed="Y" type="old"/><p style="text-indent:2em">印度佛教思想史的研究，我是「為佛法而研究」，不是為研究而研究的。我
+<lb n="0004a06" ed="Y"/><lb n="0004a06" ed="Y" type="old"/><p xml:id="pY28p0004a0601" style="text-indent:2em">印度佛教思想史的研究，我是「為佛法而研究」，不是為研究而研究的。我
 <lb n="0004a07" ed="Y"/><lb n="0004a07" ed="Y" type="old"/>的研究態度與方法，民國四十二年底，表示在<title level="a">〈以佛法研究佛法〉</title>一文中。我是
 <lb n="0004a08" ed="Y"/><lb n="0004a08" ed="Y" type="old"/>以佛法最普遍的法則，作為研究佛法（存在於人間的史實、文字、制度）的方法
 <lb n="0004a09" ed="Y"/><lb n="0004a09" ed="Y" type="old"/>，主要是<quote type="嚴謹引文">「諸行無常，諸法無我，涅槃寂靜」</quote>。「涅槃寂靜」，為研究佛法者的
 <lb n="0004a10" ed="Y"/><lb n="0004a10" ed="Y" type="old"/>究極理想。「諸行無常」，<quote type="寬鬆引文">「從佛法演化的見地中，去發現佛法真義的健全與正
-<lb n="0004a11" ed="Y"/><lb n="0004a11" ed="Y" type="old"/>常的適應」<note n="0004002" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:16;page:p8">(ref yinshun::vol:16;page:p8)</ref></note></quote>。「諸法無我」中，人無我是：<quote type="寬鬆引文">「在佛法的研究中，就是不固執自我
-<lb n="0004a12" ed="Y"/><lb n="0004a12" ed="Y" type="old"/>的成見，不（預）存一成見去研究」<note n="0004003" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:16;page:p9">(ref yinshun::vol:16;page:p9)</ref></note></quote>；法無我是：一切都是<quote type="寬鬆引文">「在展轉相依相拒中
-<lb n="0004a13" ed="Y"/><lb n="0004a13" ed="Y" type="old"/>，成為現實的一切。所以一切法無我，唯是相依相成的眾緣和合的存在」<note n="0004004" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:16;page:p10">(ref yinshun::vol:16;page:p10)</ref></note></quote>。也就<pb n="0005a" ed="Y" xml:id="Y28.0028.0005a.old" type="old"/>
+<lb n="0004a11" ed="Y"/><lb n="0004a11" ed="Y" type="old"/>常的適應」<note n="0004002" resp="周怡曄" type="add"><ref target="#vol:16;page:p8" type="yinshun">(ref yinshun::vol:16;page:p8)</ref></note></quote>。「諸法無我」中，人無我是：<quote type="寬鬆引文">「在佛法的研究中，就是不固執自我
+<lb n="0004a12" ed="Y"/><lb n="0004a12" ed="Y" type="old"/>的成見，不（預）存一成見去研究」<note n="0004003" resp="周怡曄" type="add"><ref target="#vol:16;page:p9" type="yinshun">(ref yinshun::vol:16;page:p9)</ref></note></quote>；法無我是：一切都是<quote type="寬鬆引文">「在展轉相依相拒中
+<lb n="0004a13" ed="Y"/><lb n="0004a13" ed="Y" type="old"/>，成為現實的一切。所以一切法無我，唯是相依相成的眾緣和合的存在」<note n="0004004" resp="周怡曄" type="add"><ref target="#vol:16;page:p10" type="yinshun">(ref yinshun::vol:16;page:p10)</ref></note></quote>。也就<pb n="0005a" ed="Y" xml:id="Y28.0028.0005a.old" type="old"/>
 <pb n="0005a" ed="Y" xml:id="Y28.0028.0005a"/>
 <lb n="0005a01" ed="Y"/><lb n="0005a01" ed="Y" type="old"/>因此，要從「自他緣成」、「總別相關」、「錯綜離合」中去理解。這樣<quote type="嚴謹引文">「研究
-<lb n="0005a02" ed="Y"/><lb n="0005a02" ed="Y" type="old"/>的方法，研究的成果，才不會是變了質的違反佛法的佛法」<note n="0005001" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:16;page:p2">(ref yinshun::vol:16;page:p2)</ref></note></quote>。這一研究的信念，
+<lb n="0005a02" ed="Y"/><lb n="0005a02" ed="Y" type="old"/>的方法，研究的成果，才不會是變了質的違反佛法的佛法」<note n="0005001" resp="周怡曄" type="add"><ref target="#vol:16;page:p2" type="yinshun">(ref yinshun::vol:16;page:p2)</ref></note></quote>。這一研究的信念，
 <lb n="0005a03" ed="Y"/><lb n="0005a03" ed="Y" type="old"/>在五十六年（夏）所寫的<cit><bibl><title level="a">〈談入世與佛學〉</title>，列舉三點：</bibl><quote type="嚴謹引文">「要重視其宗教性」</quote></cit>、
 <lb n="0005a04" ed="Y"/><lb n="0005a04" ed="Y" type="old"/><quote type="嚴謹引文">「重於求真實」</quote>、<quote type="嚴謹引文">「應有以古為鑑的實際意義」</quote>，而說<quote type="嚴謹引文">「真正的佛學研究者，要
 <lb n="0005a05" ed="Y"/><lb n="0005a05" ed="Y" type="old"/>有深徹的反省的勇氣，探求佛法的真實而求所以適應，使佛法有利於人類，永為
-<lb n="0005a06" ed="Y"/><lb n="0005a06" ed="Y" type="old"/>眾生作依怙」<note n="0005002" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:20;page:p249">(ref yinshun::vol:20;page:p249)</ref></note></quote>。那年冬天，在<cit><bibl>《<title level="m">說一切有部為主的論書與論師之研究</title>．<title level="a">自序</title>》<lb n="0005a07" ed="Y" type="old"/>，
-<lb n="0005a07" ed="Y"/>把</bibl><quote type="嚴謹引文">「我的根本信念與看法」</quote><note n="0005003" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:36;page:pa1">(ref yinshun::vol:36;page:pa1)</ref></note></cit>，列舉八項，作為研究佛法的準則<note place="inline">略</note>。我是在這<lb n="0005a08" ed="Y" type="old"/>樣
+<lb n="0005a06" ed="Y"/><lb n="0005a06" ed="Y" type="old"/>眾生作依怙」<note n="0005002" resp="周怡曄" type="add"><ref target="#vol:20;page:p249" type="yinshun">(ref yinshun::vol:20;page:p249)</ref></note></quote>。那年冬天，在<cit><bibl>《<title level="m">說一切有部為主的論書與論師之研究</title>．<title level="a">自序</title>》<lb n="0005a07" ed="Y" type="old"/>，
+<lb n="0005a07" ed="Y"/>把</bibl><quote type="嚴謹引文">「我的根本信念與看法」</quote><note n="0005003" resp="周怡曄" type="add"><ref target="#vol:36;page:pa1" type="yinshun">(ref yinshun::vol:36;page:pa1)</ref></note></cit>，列舉八項，作為研究佛法的準則<note place="inline">略</note>。我是在這<lb n="0005a08" ed="Y" type="old"/>樣
 <lb n="0005a08" ed="Y"/>的信念、態度、理想下，從事印度佛教思想史的研究，但限於學力、體力，成<lb n="0005a09" ed="Y" type="old"/>就
 <lb n="0005a09" ed="Y"/>有限，如七十一年六月致繼程法師的信上說：<quote>「我之思想，因所圖者大，體力<lb n="0005a10" ed="Y" type="old"/>又
 <lb n="0005a10" ed="Y"/>差，致未能完全有成。大抵欲簡別餘宗，必須善知自他宗，故在<bibl><title level="m">《妙雲集》</title><biblScope n="上" type="編">上<lb n="0005a11" ed="Y" type="old"/>編</biblScope></bibl>
@@ -122,7 +142,7 @@
 <lb n="0006a01" ed="Y"/>其源，以佛法本義為核心，攝取發展中之種種勝義，以期更適應人心，而跳出<lb n="0006a02" ed="Y" type="old"/>神
 <lb n="0006a02" ed="Y"/>（天）化之舊徑。此為余之思想，但從事而未能完成也！」</quote></p></cb:div>
 <lb n="0006a03" ed="Y"/><lb n="0006a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　印度佛教思想史的分判</cb:mulu><head>二　印度佛教思想史的分判</head>
-<lb n="0006a04" ed="Y"/><lb n="0006a04" ed="Y" type="old"/><p style="text-indent:2em">現在世界各地所傳的佛法，目標與修行、儀式，有相當大的差距，但大體的
+<lb n="0006a04" ed="Y"/><lb n="0006a04" ed="Y" type="old"/><p xml:id="pY28p0006a0401" style="text-indent:2em">現在世界各地所傳的佛法，目標與修行、儀式，有相當大的差距，但大體的
 <lb n="0006a05" ed="Y"/><lb n="0006a05" ed="Y" type="old"/>說，都是從印度傳來，因時地演化而形成的。印度的佛教，從西元前五世紀，釋
 <lb n="0006a06" ed="Y"/><lb n="0006a06" ed="Y" type="old"/>尊成佛說法而開始，流傳到西元十二世紀而滅亡。千七百年（大概的說千五百年
 <lb n="0006a07" ed="Y"/><lb n="0006a07" ed="Y" type="old"/>）的印度佛教，我在<title level="m">《印度之佛教》</title>中，分為五個時期：一、聲聞為本之解脫同
@@ -143,7 +163,7 @@
 <lb n="0007a09" ed="Y"/>大乘」外，把末後的「秘密大乘」獨立為一期。這是約思想的主流說，如「大<lb n="0007a10" ed="Y" type="old"/>乘
 <lb n="0007a10" ed="Y"/>佛法」時期，「部派佛教」也還在發展中；「秘密大乘佛法」時期，「大乘佛<lb n="0007a11" ed="Y" type="old"/>法
 <lb n="0007a11" ed="Y"/>」也還在宏傳，只是已退居旁流了！</p>
-<lb n="0007a12" ed="Y"/><lb n="0007a12" ed="Y" type="old"/><p style="text-indent:2em">在「大乘佛法」中，我在三十年所寫的<cit><bibl><title level="a">〈法海探珍〉</title>中，說到了三系：</bibl><quote type="嚴謹引文">「性
+<lb n="0007a12" ed="Y"/><lb n="0007a12" ed="Y" type="old"/><p xml:id="pY28p0007a1201" style="text-indent:2em">在「大乘佛法」中，我在三十年所寫的<cit><bibl><title level="a">〈法海探珍〉</title>中，說到了三系：</bibl><quote type="嚴謹引文">「性
 <lb n="0007a13" ed="Y"/><lb n="0007a13" ed="Y" type="old"/>空唯名」</quote></cit>、<quote type="嚴謹引文">「虛妄唯識」</quote>、<quote type="嚴謹引文">「真常唯心」</quote>，後來也稱之為三論。「後期大乘」是<pb n="0008a" ed="Y" xml:id="Y28.0028.0008a.old" type="old"/>
 <pb n="0008a" ed="Y" xml:id="Y28.0028.0008a"/>
 <lb n="0008a01" ed="Y"/><lb n="0008a01" ed="Y" type="old"/>真常本有的「如來藏，我，自性清淨心」，與說一切法自性空的「初期大乘」，
@@ -163,7 +183,7 @@
 <lb n="0009a01" ed="Y"/>更為恰當些。我對印度佛教史所作的分類，有五期說、三期說；也可分三期的<lb n="0009a02" ed="Y" type="old"/>「
 <lb n="0009a02" ed="Y"/>大乘佛法」為「初期大乘佛法」、「後期大乘佛法」，成為四期說。大乘佛法<lb n="0009a03" ed="Y" type="old"/>的
 <lb n="0009a03" ed="Y"/>三系說，開合不同，試列表如下：</p>
-<lb n="0009a04" ed="Y"/><lb n="0009a04" ed="Y" type="old"/><p cb:type="pre">　　　五期　　　　　　　　　　　三系　　　　　四期　　　　　　三期
+<lb n="0009a04" ed="Y"/><lb n="0009a04" ed="Y" type="old"/><p cb:type="pre" xml:id="pY28p0009a0401">　　　五期　　　　　　　　　　　三系　　　　　四期　　　　　　三期
 <lb n="0009a05" ed="Y"/>　　　聲聞為本之解脫同歸─┐
 <lb n="0009a06" ed="Y"/>　　　　　　　　　　　　　├─────────佛法──────佛法
 <lb n="0009a07" ed="Y"/>　　　菩薩傾向之聲聞分流─┴┐
@@ -176,12 +196,12 @@
 <lb n="0009a14" ed="Y"/>　　　如來為本之天佛一如──┴────────秘密大乘佛法──秘密大乘佛法</p></cb:div>
 <pb n="0010a" ed="Y" xml:id="Y28.0028.0010a"/>
 <lb n="0010a01" ed="Y"/><pb n="0010a" ed="Y" xml:id="Y28.0028.0010a.old" type="old"/><lb n="0010a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　從印度佛教思想史論臺賢教判</cb:mulu><head>三　從印度佛教思想史論臺賢教判</head>
-<lb n="0010a02" ed="Y"/><lb n="0010a02" ed="Y" type="old"/><p style="text-indent:2em">上來依印度佛教史所作的分判，與我國古德的判教是不同的。古德的判教，
+<lb n="0010a02" ed="Y"/><lb n="0010a02" ed="Y" type="old"/><p xml:id="pY28p0010a0201" style="text-indent:2em">上來依印度佛教史所作的分判，與我國古德的判教是不同的。古德的判教，
 <lb n="0010a03" ed="Y"/><lb n="0010a03" ed="Y" type="old"/>以天臺、賢首二家為最完善。但古德是以一切經為佛說，依佛說的先後而判的，
 <lb n="0010a04" ed="Y"/><lb n="0010a04" ed="Y" type="old"/>如古代的五時教、<title level="m">《華嚴經》</title>的三照，如作為出現於歷史的先後，那是不符實況
 <lb n="0010a05" ed="Y"/><lb n="0010a05" ed="Y" type="old"/>的！然天臺所判的化法四教，賢首所判的五教（十宗），從義理上說，與印度佛
 <lb n="0010a06" ed="Y"/><lb n="0010a06" ed="Y" type="old"/>教思想史的發展，倒是相當接近的，試列表而再為解說：</p>
-<lb n="0010a07" ed="Y"/><lb n="0010a07" ed="Y" type="old"/><p cb:type="pre">　　　天臺四教　　　賢首五教　　　四期
+<lb n="0010a07" ed="Y"/><lb n="0010a07" ed="Y" type="old"/><p cb:type="pre" xml:id="pY28p0010a0701">　　　天臺四教　　　賢首五教　　　四期
 <lb n="0010a08" ed="Y"/>　　　藏教─────小教─────佛法
 <lb n="0010a09" ed="Y"/>　　　通教─────始教─────初期大乘佛法
 <lb n="0010a10" ed="Y"/>　　　　　　　┌──┘└─┐
@@ -189,7 +209,7 @@
 <lb n="0010a12" ed="Y"/>　　　　　　　　　　頓教─┘
 <lb n="0010a13" ed="Y"/>　　　圓教─────圓教─────秘密大乘佛法</p>
 <pb n="0011a" ed="Y" xml:id="Y28.0028.0011a"/>
-<lb n="0011a01" ed="Y"/><pb n="0011a" ed="Y" xml:id="Y28.0028.0011a.old" type="old"/><lb n="0011a01" ed="Y" type="old"/><p style="text-indent:2em">「佛法」，與天臺的藏教、賢首的小教相當。天臺稱之為藏教，依經、律、
+<lb n="0011a01" ed="Y"/><pb n="0011a" ed="Y" xml:id="Y28.0028.0011a.old" type="old"/><lb n="0011a01" ed="Y" type="old"/><p xml:id="pY28p0011a0101" style="text-indent:2em">「佛法」，與天臺的藏教、賢首的小教相當。天臺稱之為藏教，依經、律、
 <lb n="0011a02" ed="Y"/><lb n="0011a02" ed="Y" type="old"/>論立名。<title level="m">《法華經》</title>雖說到「小乘三藏」，但藏教不但是聲聞，也有菩薩、佛。
 <lb n="0011a03" ed="Y"/><lb n="0011a03" ed="Y" type="old"/>菩薩大行，如南傳<title level="m">《小部》</title>中的<title level="m">《本生》</title>；漢譯<title level="m">《十誦律》</title>等，也說到「五百本
 <lb n="0011a04" ed="Y"/><lb n="0011a04" ed="Y" type="old"/>生」。佛，除經律中釋尊的言行外，南傳<title level="m">《小部》</title>中有<title level="m">《所行藏》</title>、<title level="m">《佛譬喻》</title>
@@ -199,7 +219,7 @@
 <lb n="0011a08" ed="Y"/><lb n="0011a08" ed="Y" type="old"/>宗」。在這裡可以看出：天臺的藏教，主要是依三藏說的；賢首的小教，重於佛
 <lb n="0011a09" ed="Y"/><lb n="0011a09" ed="Y" type="old"/>教界的事實。小教——六宗是部派佛教，不能代表一味和合的原始佛教。「小教
 <lb n="0011a10" ed="Y"/><lb n="0011a10" ed="Y" type="old"/>」與六宗，顯然的不如稱為「藏教」的好！</p>
-<lb n="0011a11" ed="Y"/><lb n="0011a11" ed="Y" type="old"/><p style="text-indent:2em">天臺的「通教」與「別教」，與「初期大乘」及「後期大乘」相當。天臺家
+<lb n="0011a11" ed="Y"/><lb n="0011a11" ed="Y" type="old"/><p xml:id="pY28p0011a1101" style="text-indent:2em">天臺的「通教」與「別教」，與「初期大乘」及「後期大乘」相當。天臺家
 <lb n="0011a12" ed="Y"/><lb n="0011a12" ed="Y" type="old"/>用一「通」字，我覺得非常好！如般若波羅蜜是三乘共學的。阿羅漢所證，與菩
 <lb n="0011a13" ed="Y"/><lb n="0011a13" ed="Y" type="old"/>薩的無生忍相當，只是菩薩悲願深切，忍而不證罷了。大乘經廣說空義，每以聲<pb n="0012a" ed="Y" xml:id="Y28.0028.0012a.old" type="old"/>
 <pb n="0012a" ed="Y" xml:id="Y28.0028.0012a"/>
@@ -221,7 +241,7 @@
 <lb n="0013a02" ed="Y"/>與俗<lb n="0013a02" ed="Y" type="old"/>諦，緣起幻有即空性。「後期大乘」說如來藏、自性清淨心，以空為有餘（
 <lb n="0013a03" ed="Y"/>不了<lb n="0013a03" ed="Y" type="old"/>義）說，別說不空——中國所說的「妙有」，天臺稱之為中諦，那是別教了
 <lb n="0013a04" ed="Y"/>。這<lb n="0013a04" ed="Y" type="old"/>些，正是「後期大乘（經）佛法」的特色。</p>
-<lb n="0013a05" ed="Y"/><lb n="0013a05" ed="Y" type="old"/><p style="text-indent:2em">賢首的五教，仰推杜順的五種觀門。第二「生即無生門」，第三「事理圓融
+<lb n="0013a05" ed="Y"/><lb n="0013a05" ed="Y" type="old"/><p xml:id="pY28p0013a0501" style="text-indent:2em">賢首的五教，仰推杜順的五種觀門。第二「生即無生門」，第三「事理圓融
 <lb n="0013a06" ed="Y"/><lb n="0013a06" ed="Y" type="old"/>門」，大體與天臺的「通教」、「別教」相近。五教與十宗相對論，始教是一切
 <lb n="0013a07" ed="Y"/><lb n="0013a07" ed="Y" type="old"/>皆空宗，也與通教相同。但賢首於始教中，立始有（相始教）、始空（空始教）
 <lb n="0013a08" ed="Y"/><lb n="0013a08" ed="Y" type="old"/>，這才與天臺不合了。天臺重於經說；智者大師在陳、隋時代，那時的地論師說
@@ -246,14 +266,14 @@
 <pb n="0015a" ed="Y" xml:id="Y28.0028.0015a"/>
 <lb n="0015a01" ed="Y"/>完成的。所以，<pb n="0015a" ed="Y" xml:id="Y28.0028.0015a.old" type="old"/><lb n="0015a01" ed="Y" type="old"/>如分「別教」為二類，真如不隨緣的，如虛妄唯識論；真如隨緣
 <lb n="0015a02" ed="Y"/>的，如真常唯心<lb n="0015a02" ed="Y" type="old"/>論，似乎比賢首的判虛妄唯識為始教，要來得恰當些！</p>
-<lb n="0015a03" ed="Y"/><lb n="0015a03" ed="Y" type="old"/><p style="text-indent:2em">賢首立「頓教」，只是重視唐代大興的禪宗，為禪宗留一地位。天臺與賢首
+<lb n="0015a03" ed="Y"/><lb n="0015a03" ed="Y" type="old"/><p xml:id="pY28p0015a0301" style="text-indent:2em">賢首立「頓教」，只是重視唐代大興的禪宗，為禪宗留一地位。天臺與賢首
 <lb n="0015a04" ed="Y"/><lb n="0015a04" ed="Y" type="old"/>，都是以「圓教」為最深妙的。天臺重<title level="m">《法華經》</title>與<title level="m">《涅槃經》</title>，賢首重<title level="m">《華嚴
 <lb n="0015a05" ed="Y"/>經<lb n="0015a05" ed="Y" type="old"/>》</title>。在印度佛教發展史上，<title level="m">《法華經》</title>的成立，應該是「初期大乘佛法」的後
 <lb n="0015a06" ed="Y"/>期<lb n="0015a06" ed="Y" type="old"/>；天臺宗的圓義，也與<title level="m">《般若經》</title>空義有關，當然是通過了涅槃常住與佛性，
 <lb n="0015a07" ed="Y"/>也接<lb n="0015a07" ed="Y" type="old"/>受了<title level="m">《華嚴經》</title>的「心佛眾生三無差別」的思想。<title level="m">《華嚴經》</title>有「後期大乘
 <lb n="0015a08" ed="Y"/>佛法」<lb n="0015a08" ed="Y" type="old"/>的成分；賢首宗從（<title level="m">《華嚴經》</title>的）地論師發展而來，所以思想是重於唯
 <lb n="0015a09" ed="Y"/>心的。臺<lb n="0015a09" ed="Y" type="old"/>、賢所共同的，是「如來為本」。<title level="m">《法華經》</title>開示悟入佛之知見，論法
-<lb n="0015a10" ed="Y"/>是一乘，<lb n="0015a10" ed="Y" type="old"/>論人是如來，開<note n="0015a1001" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0015a1001"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>顯本，表示佛的<quote source="T09n0262_p0042c20-21" type="嚴謹引文">「壽命無量阿僧祇劫，常住不滅」<note n="0015001" resp="周怡曄" type="add">《妙法蓮華經》卷5〈16 如來壽量品〉(CBETA, T09, no. 262, p. 42, c20-21)</note></quote>。
+<lb n="0015a10" ed="Y"/>是一乘，<lb n="0015a10" ed="Y" type="old"/>論人是如來，開<note n="0015a1001" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0015a1001"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>顯本，表示佛的<quote source="T09n0262_p0042c20-21" type="嚴謹引文">「壽命無量阿僧祇劫，常住不滅」<note n="0015001" resp="周怡曄" type="add">《妙法蓮華經》卷5〈16 如來壽量品〉(CBETA, T09, no. 262, p. 42, c20-21)</note></quote>。
 <lb n="0015a11" ed="Y"/><title level="m">《華嚴經<lb n="0015a11" ed="Y" type="old"/>》</title>顯示毘盧遮那的果德，說釋迦牟尼與悉達多是毘盧遮那佛的異名。釋
 <lb n="0015a12" ed="Y"/>迦與毘<lb n="0015a12" ed="Y" type="old"/>盧遮那相即，<title level="m">《法華經》</title>與<title level="m">《華嚴經》</title>還是不離釋迦而說毘盧遮那的。圓
 <lb n="0015a13" ed="Y"/>滿佛果的<lb n="0015a13" ed="Y" type="old"/>理想與信仰，本於大眾部系所說：佛無所不在，無所不知，無所不能，
@@ -268,36 +288,36 @@
 <lb n="0016a08" ed="Y"/>、賢重於<lb n="0016a08" ed="Y" type="old"/>法義的理密（圓），與「秘密大乘」的重於事密，還有些距離，可見中
 <lb n="0016a09" ed="Y"/>國佛教到<lb n="0016a09" ed="Y" type="old"/>底還是以「大乘佛法」為主流的。賢首宗成立遲一些，最高的「事事無
 <lb n="0016a10" ed="Y"/>礙」，為<lb n="0016a10" ed="Y" type="old"/>元代西番僧（喇嘛）的「無上瑜伽」所引用。</p>
-<lb n="0016a11" ed="Y"/><lb n="0016a11" ed="Y" type="old"/><p style="text-indent:2em">我分「大乘佛法」為三系：性空唯名、虛妄唯識、真常唯心，與太虛大師所
+<lb n="0016a11" ed="Y"/><lb n="0016a11" ed="Y" type="old"/><p xml:id="pY28p0016a1101" style="text-indent:2em">我分「大乘佛法」為三系：性空唯名、虛妄唯識、真常唯心，與太虛大師所
 <lb n="0016a12" ed="Y"/><lb n="0016a12" ed="Y" type="old"/>判的法性空慧宗、法相唯識宗、法界圓覺宗——三宗的次第相同。其實，在唐圭
 <lb n="0016a13" ed="Y"/><lb n="0016a13" ed="Y" type="old"/>峰宗密的教判中，已有法相宗，破相宗，法性宗（總攝終，頓，圓）的安立；永<pb n="0017a" ed="Y" xml:id="Y28.0028.0017a.old" type="old"/>
 <pb n="0017a" ed="Y" xml:id="Y28.0028.0017a"/>
 <lb n="0017a01" ed="Y"/><lb n="0017a01" ed="Y" type="old"/>明延壽是稱為相宗、空宗、性宗的。這可見，在「大乘佛法」發展中的三系說，
 <lb n="0017a02" ed="Y"/><lb n="0017a02" ed="Y" type="old"/>也與古德所說相通。次第的前後差異，是由於圭峰等是依賢首宗說的；真正差別
 <lb n="0017a03" ed="Y"/><lb n="0017a03" ed="Y" type="old"/>的，那是抉擇取捨不同了。三系的次第差異如下：</p>
-<lb n="0017a04" ed="Y"/><lb n="0017a04" ed="Y" type="old"/><p cb:type="pre">　　　性空唯名論──法性空慧宗─┐　法相宗──相宗
+<lb n="0017a04" ed="Y"/><lb n="0017a04" ed="Y" type="old"/><p cb:type="pre" xml:id="pY28p0017a0401">　　　性空唯名論──法性空慧宗─┐　法相宗──相宗
 <lb n="0017a05" ed="Y"/>　　　　　　　　　　　　　　┌─┼─┘
 <lb n="0017a06" ed="Y"/>　　　虛妄唯識論──法相唯識宗　└─破相宗──空宗
 <lb n="0017a07" ed="Y"/>　　　真常唯心論──法界圓覺宗───法性宗──性宗</p></cb:div>
 <lb n="0017a08" ed="Y"/><lb n="0017a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　印度佛教嬗變的歷程</cb:mulu><head>四　印度佛教嬗變的歷程</head>
-<lb n="0017a09" ed="Y"/><lb n="0017a08" ed="Y" type="old"/><p style="text-indent:2em">探求印度佛教史實，而作五期、四期、三期，及「大乘佛法」三系的分判，
+<lb n="0017a09" ed="Y"/><lb n="0017a08" ed="Y" type="old"/><p xml:id="pY28p0017a0901" style="text-indent:2em">探求印度佛教史實，而作五期、四期、三期，及「大乘佛法」三系的分判，
 <lb n="0017a10" ed="Y"/><lb n="0017a09" ed="Y" type="old"/>與我國古德的教判相通，但抉擇取捨不同，因為我是從歷史觀點而論判的。印度
 <lb n="0017a11" ed="Y"/><lb n="0017a10" ed="Y" type="old"/>佛教的創始到衰滅，<cit><quote type="嚴謹引文">「凡經五期之演變；若取喻人之一生，則如誕生、童年、少
-<lb n="0017a12" ed="Y"/><lb n="0017a11" ed="Y" type="old"/>壯、漸衰而老死也」</quote><bibl><note place="inline"><title level="m">《印度之佛教》</title></note></bibl><note n="0017001" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:33;page:p7">(ref yinshun::vol:33;page:p7)</ref></note></cit>。在<cit><bibl>《<title level="m">說一切有部為主的論書與論師之研究．</title>
+<lb n="0017a12" ed="Y"/><lb n="0017a11" ed="Y" type="old"/>壯、漸衰而老死也」</quote><bibl><note place="inline"><title level="m">《印度之佛教》</title></note></bibl><note n="0017001" resp="周怡曄" type="add"><ref target="#vol:33;page:p7" type="yinshun">(ref yinshun::vol:33;page:p7)</ref></note></cit>。在<cit><bibl>《<title level="m">說一切有部為主的論書與論師之研究．</title>
 <lb n="0017a13" ed="Y"/><lb n="0017a12" ed="Y" type="old"/><title level="a">自序</title>》，說得更明白些：</bibl><quote type="嚴謹引文">「印度佛教的興起、發展又衰落，正如人的一生，自<pb n="0018a" ed="Y" xml:id="Y28.0028.0018a.old" type="old"/><lb n="0018a01" ed="Y" type="old"/>童
 <pb n="0018a" ed="Y" xml:id="Y28.0028.0018a"/>
 <lb n="0018a01" ed="Y"/>真、少壯而衰老。童真，充滿活力，是可稱讚的，但童真而進入壯年，不是更<lb n="0018a02" ed="Y" type="old"/>有
 <lb n="0018a02" ed="Y"/>意義嗎？壯年而不知珍攝，轉眼衰老了。老年經驗多，知識豐富，表示成熟嗎<lb n="0018a03" ed="Y" type="old"/>？
 <lb n="0018a03" ed="Y"/>也可能表示接近衰亡。所以我不說愈古愈真，更不同情於愈後愈圓滿，愈究竟<lb n="0018a04" ed="Y" type="old"/>的
-<lb n="0018a04" ed="Y"/>見解。」</quote><note n="0018001" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:36;page:pa3">(ref yinshun::vol:36;page:pa3)</ref></note></cit>在印度佛教興滅的過程中，明顯的見到：佛教興起於中印度的東部；<lb n="0018a05" ed="Y" type="old"/>漸
+<lb n="0018a04" ed="Y"/>見解。」</quote><note n="0018001" resp="周怡曄" type="add"><ref target="#vol:36;page:pa3" type="yinshun">(ref yinshun::vol:36;page:pa3)</ref></note></cit>在印度佛教興滅的過程中，明顯的見到：佛教興起於中印度的東部；<lb n="0018a05" ed="Y" type="old"/>漸
 <lb n="0018a05" ed="Y"/>從中印度而擴展到南印與北印（及東西印度），更發展到印度以外，而有南傳<lb n="0018a06" ed="Y" type="old"/>與
 <lb n="0018a06" ed="Y"/>北傳佛教的傳播。但西元四世紀以後，北印與南印的佛教日漸衰落，萎縮到中<lb n="0018a07" ed="Y" type="old"/>東
 <lb n="0018a07" ed="Y"/>印度，最後因印度教與回教的入侵而滅亡。衰滅，固然有外來的因素，但發展<lb n="0018a08" ed="Y" type="old"/>與
 <lb n="0018a08" ed="Y"/>衰落，應有佛教自身內在的主因，正如老人的終於死亡，主因是身心的日漸老<lb n="0018a09" ed="Y" type="old"/>化
 <lb n="0018a09" ed="Y"/>一樣。所以我尊重（童真般的）「佛法」，也讚揚（少壯般的）初期的「大乘<lb n="0018a10" ed="Y" type="old"/>佛
 <lb n="0018a10" ed="Y"/>法」，而作出：<quote type="嚴謹引文">「立本於根本佛教之淳樸，宏闡中期佛法之行解，攝取後期佛<lb n="0018a11" ed="Y" type="old"/>教
-<lb n="0018a11" ed="Y"/>之確當者，庶足以復興佛教」<note n="0018002" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:33;page:pa7">(ref yinshun::vol:33;page:pa7)</ref></note></quote>的結論。</p>
-<lb n="0018a12" ed="Y"/><lb n="0018a12" ed="Y" type="old"/><p style="text-indent:2em">「佛法」，「大乘佛法」的初期與後期，「秘密大乘佛法」，印度先後傳出
+<lb n="0018a11" ed="Y"/>之確當者，庶足以復興佛教」<note n="0018002" resp="周怡曄" type="add"><ref target="#vol:33;page:pa7" type="yinshun">(ref yinshun::vol:33;page:pa7)</ref></note></quote>的結論。</p>
+<lb n="0018a12" ed="Y"/><lb n="0018a12" ed="Y" type="old"/><p xml:id="pY28p0018a1201" style="text-indent:2em">「佛法」，「大乘佛法」的初期與後期，「秘密大乘佛法」，印度先後傳出
 <lb n="0018a13" ed="Y"/><lb n="0018a13" ed="Y" type="old"/>的教典，都說這是甚深的、了義的、究竟的。如<title level="m">《法華經》</title>說是「諸經中王」，<pb n="0019a" ed="Y" xml:id="Y28.0028.0019a.old" type="old"/>
 <pb n="0019a" ed="Y" xml:id="Y28.0028.0019a"/>
 <lb n="0019a01" ed="Y"/><lb n="0019a01" ed="Y" type="old"/><title level="m">《金光明經》</title>也這樣說；「秘密大乘」的教典，有些是名為「大呾特羅王」、「
@@ -311,7 +331,7 @@
 <lb n="0019a09" ed="Y"/><lb n="0019a09" ed="Y" type="old"/>關的多數教典，是「以真如為定量」、「皆依勝義」的。不分別、了解、觀察緣
 <lb n="0019a10" ed="Y"/><lb n="0019a10" ed="Y" type="old"/>起，而直觀一切法的但名無實，而修證一切法空、一切法皆如、一切法不可得、
 <lb n="0019a11" ed="Y"/><lb n="0019a11" ed="Y" type="old"/>一切法無生。<cit><bibl><title level="m">《摩訶般若波羅蜜經》</title>明確的說：</bibl><quote source="T08n0223_p0344a03-06" type="寬鬆引文">「深奧處者，空是其義，……（
-<lb n="0019a12" ed="Y"/><lb n="0019a12" ed="Y" type="old"/>真）如、法性<note place="inline">界</note><note n="0019a1201" resp="CBETA" type="add">［－］【CB】，界【印順】</note><app n="0019a1201"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">界</rdg></app>、實際、涅槃，如是等法，是為深奧義。」</quote><note n="0019002" resp="周怡曄" type="add">《摩訶般若波羅蜜經》卷17〈57 深奧品〉：「深奧處者，空是其義。無相、無作、無起、無生、無染、寂滅、離、如、法性、實際、涅槃，須菩提！如是等法是為深奧義。」(CBETA, T08, no. 223, p. 344, a3-6)</note></cit>空（性、真）如等種
+<lb n="0019a12" ed="Y"/><lb n="0019a12" ed="Y" type="old"/>真）如、法性<note place="inline">界</note><note n="0019a1201" resp="CBETA" type="add">［－］【CB】，界【印順】</note><app n="0019a1201"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">界</rdg></app>、實際、涅槃，如是等法，是為深奧義。」</quote><note n="0019002" resp="周怡曄" type="add">《摩訶般若波羅蜜經》卷17〈57 深奧品〉：「深奧處者，空是其義。無相、無作、無起、無生、無染、寂滅、離、如、法性、實際、涅槃，須菩提！如是等法是為深奧義。」(CBETA, T08, no. 223, p. 344, a3-6)</note></cit>空（性、真）如等種
 <lb n="0019a13" ed="Y"/><lb n="0019a13" ed="Y" type="old"/>種名字，無非涅槃的異名。涅槃最甚深，本是「佛法」所說的，但「皆依勝義」<pb n="0020a" ed="Y" xml:id="Y28.0028.0020a.old" type="old"/>
 <pb n="0020a" ed="Y" xml:id="Y28.0028.0020a"/>
 <lb n="0020a01" ed="Y"/><lb n="0020a01" ed="Y" type="old"/>——無蘊、處、界，無善無惡，無凡無聖，無修無證，一切法空的深義，一般人
@@ -325,7 +345,7 @@
 <lb n="0020a09" ed="Y"/><lb n="0020a09" ed="Y" type="old"/><quote source="T30n1564_p0033a02-03" type="嚴謹引文">「若不依俗諦，不得第一義」<note n="0020004" resp="周怡曄" type="add">《中論》卷4〈24 觀四諦品〉(CBETA, T30, no. 1564, p. 33, a2-3)</note></quote>，回歸於<quote type="嚴謹引文">「先知法住，後知涅槃」</quote>——「佛法」<lb n="0020a10" ed="Y" type="old"/>的
 <lb n="0020a10" ed="Y"/>立場。由於緣起而有，是如幻如化都無自性的，所以緣起即空。而<quote source="T30n1564_p0033a22-23" type="嚴謹引文">「以有空義<lb n="0020a11" ed="Y" type="old"/>故
 <lb n="0020a11" ed="Y"/>，一切法得成」<note n="0020005" resp="周怡曄" type="add">《中論》卷4〈24 觀四諦品〉(CBETA, T30, no. 1564, p. 33, a22-23)</note></quote>，正由於一切法空，所以依緣起而成立一切。<cit><bibl><title level="m">《法華經》</title>也說<lb n="0020a12" ed="Y" type="old"/></bibl><quote source="T09n0262_p0008b25-26" type="嚴謹引文">「
-<lb n="0020a12" ed="Y"/>諸法從本來，常自寂滅相」</quote><note n="0020006" resp="周怡曄" type="add">《妙法蓮華經》卷1〈2 方便品〉(CBETA, T09, no. 262, p. 8, b25-26)</note></cit>；<quote source="T33n1716_p0789c06-07" type="嚴謹引文">「<note n="0020007" resp="CBETA" type="add">知【CB】，諸【印順】</note><app n="0020007"><lem wit="【CB】" resp="正聞出版社">知<note type="cf1">《妙法蓮華經》卷1(CBETA, T09, no. 262, p. 9b8-9)</note></lem><rdg wit="【印順】">諸</rdg></app>法常無性，佛種從緣起」<note n="0020008" resp="周怡曄" type="add">《妙法蓮華經》卷1〈2 方便品〉：「知法常無性，佛種從緣起」(CBETA, T09, no. 262, p. 9, b8-9)</note></quote>。空寂與緣起的<lb n="0020a13" ed="Y" type="old"/>統一
+<lb n="0020a12" ed="Y"/>諸法從本來，常自寂滅相」</quote><note n="0020006" resp="周怡曄" type="add">《妙法蓮華經》卷1〈2 方便品〉(CBETA, T09, no. 262, p. 8, b25-26)</note></cit>；<quote source="T33n1716_p0789c06-07" type="嚴謹引文">「<note n="0020007" resp="CBETA" type="add">知【CB】，諸【印順】</note><app n="0020007"><lem resp="正聞出版社" wit="【CB】">知<note type="cf1">《妙法蓮華經》卷1(CBETA, T09, no. 262, p. 9b8-9)</note></lem><rdg wit="【印順】">諸</rdg></app>法常無性，佛種從緣起」<note n="0020008" resp="周怡曄" type="add">《妙法蓮華經》卷1〈2 方便品〉：「知法常無性，佛種從緣起」(CBETA, T09, no. 262, p. 9, b8-9)</note></quote>。空寂與緣起的<lb n="0020a13" ed="Y" type="old"/>統一
 <lb n="0020a13" ed="Y"/>（大乘是世間即涅槃的），龍樹成立了「中觀」的「性空唯名論」，可說通<pb n="0021a" ed="Y" xml:id="Y28.0028.0021a.old" type="old"/><lb n="0021a01" ed="Y" type="old"/>於「
 <pb n="0021a" ed="Y" xml:id="Y28.0028.0021a"/>
 <lb n="0021a01" ed="Y"/>佛法」而又彰顯「為久學者說」的甚深義。「後期大乘」的<title level="m">《解深密經》</title>，<lb n="0021a02" ed="Y" type="old"/>是「
@@ -377,7 +397,7 @@
 <lb n="0024a05" ed="Y"/>所見<lb n="0024a05" ed="Y" type="old"/>的。這一適應神學（「為眾生故」）的如來藏、我、佛性、自性清淨心，是
 <lb n="0024a06" ed="Y"/>一切<lb n="0024a06" ed="Y" type="old"/>眾生本有的——「佛德本有」說，為「秘密大乘佛法」所依；在中國，臺、
 <lb n="0024a07" ed="Y"/>賢都<lb n="0024a07" ed="Y" type="old"/>依此而說「生佛不二」的圓教。</p>
-<lb n="0024a08" ed="Y"/><lb n="0024a08" ed="Y" type="old"/><p style="text-indent:2em">再從方便來說：「佛法」——緣起甚深，涅槃更甚深，解脫生死，真是談何
+<lb n="0024a08" ed="Y"/><lb n="0024a08" ed="Y" type="old"/><p xml:id="pY28p0024a0801" style="text-indent:2em">再從方便來說：「佛法」——緣起甚深，涅槃更甚深，解脫生死，真是談何
 <lb n="0024a09" ed="Y"/><lb n="0024a09" ed="Y" type="old"/>容易！這不是容易成就的，所以釋尊有不想說法的傳說。佛到底慈悲說法了，有
 <lb n="0024a10" ed="Y"/><lb n="0024a10" ed="Y" type="old"/>好多人從佛出家，也有廣大的在家信眾，但解脫的到底是少數。為了化導大眾<lb n="0024a11" ed="Y" type="old"/>種
 <lb n="0024a11" ed="Y"/>善根而漸漸的引向解脫（不一定在今生），在正常的八正道外，別有適應信強<lb n="0024a12" ed="Y" type="old"/>慧
@@ -437,7 +457,7 @@
 <lb n="0028a09" ed="Y"/>地獄<lb n="0028a09" ed="Y" type="old"/>），重修行，「索隱行怪」的「秘密大乘佛法」，是「念佛」與「念（欲）
 <lb n="0028a10" ed="Y"/>天」<lb n="0028a10" ed="Y" type="old"/>的最高統一。</p></cb:div>
 <lb n="0028a11" ed="Y"/><lb n="0028a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五　佛教思想的判攝準則</cb:mulu><head>五　佛教思想的判攝準則</head>
-<lb n="0028a12" ed="Y"/><lb n="0028a12" ed="Y" type="old"/><p style="text-indent:2em">在印度佛教思想史的探求中，發現了一項重要的判攝準則。南傳佛教的覺音<pb n="0029a" ed="Y" xml:id="Y28.0028.0029a.old" type="old"/>
+<lb n="0028a12" ed="Y"/><lb n="0028a12" ed="Y" type="old"/><p xml:id="pY28p0028a1201" style="text-indent:2em">在印度佛教思想史的探求中，發現了一項重要的判攝準則。南傳佛教的覺音<pb n="0029a" ed="Y" xml:id="Y28.0028.0029a.old" type="old"/>
 <pb n="0029a" ed="Y" xml:id="Y28.0028.0029a"/>
 <lb n="0029a01" ed="Y"/><lb n="0029a01" ed="Y" type="old"/>三藏，我沒有能力讀他的著作，但從他四部（阿含）注釋書名中，得到了啟發。
 <lb n="0029a02" ed="Y"/><lb n="0029a02" ed="Y" type="old"/>他的四部注釋，<title level="m">《長部》</title>注名「吉祥悅意」，<title level="m">《中部》</title>注名「破斥猶豫」，<title level="m">《相
@@ -456,12 +476,12 @@
 <lb n="0030a01" ed="Y"/>是<pb n="0030a" ed="Y" xml:id="Y28.0028.0030a.old" type="old"/><lb n="0030a01" ed="Y" type="old"/>約聖典主要的理趣所在而說的。四悉檀傳來中國，天臺家多約眾生的聽聞得益
 <lb n="0030a02" ed="Y"/>說<lb n="0030a02" ed="Y" type="old"/>，其實是從教典文句的特性所作客觀的判攝。依此四大宗趣，觀察印度佛教教
 <lb n="0030a03" ed="Y"/><lb n="0030a03" ed="Y" type="old"/>典的長期發展，也不外乎四悉檀，如表：</p>
-<lb n="0030a04" ed="Y"/><lb n="0030a04" ed="Y" type="old"/><p cb:type="pre">　　　佛法…………………第一義悉檀…………顯揚真義
+<lb n="0030a04" ed="Y"/><lb n="0030a04" ed="Y" type="old"/><p cb:type="pre" xml:id="pY28p0030a0401">　　　佛法…………………第一義悉檀…………顯揚真義
 <lb n="0030a05" ed="Y"/>　　　　　　　┌初期……對治悉檀……………破斥猶豫
 <lb n="0030a06" ed="Y"/>　　　大乘佛法┤
 <lb n="0030a07" ed="Y"/>　　　　　　　└後期……各各為人悉檀………滿足希求
 <lb n="0030a08" ed="Y"/>　　　秘密大乘佛法………世界悉檀……………吉祥悅意</p>
-<lb n="0030a09" ed="Y"/><lb n="0030a08" ed="Y" type="old"/><p style="text-indent:2em">五十九年所寫成的<title level="m">《原始佛教聖典之集成》</title>，我從教典的先後，作了以上的
+<lb n="0030a09" ed="Y"/><lb n="0030a08" ed="Y" type="old"/><p xml:id="pY28p0030a0901" style="text-indent:2em">五十九年所寫成的<title level="m">《原始佛教聖典之集成》</title>，我從教典的先後，作了以上的
 <lb n="0030a10" ed="Y"/><lb n="0030a09" ed="Y" type="old"/>判攝。這裡再為敘述：從長期發展的觀點來看，每一階段聖典的特色是：一、以
 <lb n="0030a11" ed="Y"/><lb n="0030a10" ed="Y" type="old"/><title level="m">《雜阿含經》</title>（<title level="m">《相應部》</title>）為本的「四部阿含」（四部可以別配四悉檀），是
 <lb n="0030a12" ed="Y"/><lb n="0030a11" ed="Y" type="old"/>「佛法」的「第一義悉檀」，無邊的甚深法義，都從此根源而流衍出來。二、「
@@ -485,10 +505,10 @@
 <lb n="0032a01" ed="Y"/>不能<pb n="0032a" ed="Y" xml:id="Y28.0028.0032a.old" type="old"/><lb n="0032a01" ed="Y" type="old"/>不求適應，不能沒有方便，如想多賣幾個錢，而在乳中加些水一樣。這樣的
 <lb n="0032a02" ed="Y"/>不斷<lb n="0032a02" ed="Y" type="old"/>適應，不斷的加入世俗的方便，四階段集成的聖典，如在乳中一再加水去賣
 <lb n="0032a03" ed="Y"/>一樣<lb n="0032a03" ed="Y" type="old"/>，終於佛法的真味淡了，印度佛教也不見了！</p>
-<lb n="0032a04" ed="Y"/><lb n="0032a04" ed="Y" type="old"/><p style="text-indent:2em">這一判攝，是佛法發展階段的重點不同，不是說「佛法」都是第一義悉檀，
+<lb n="0032a04" ed="Y"/><lb n="0032a04" ed="Y" type="old"/><p xml:id="pY28p0032a0401" style="text-indent:2em">這一判攝，是佛法發展階段的重點不同，不是說「佛法」都是第一義悉檀，
 <lb n="0032a05" ed="Y"/><lb n="0032a05" ed="Y" type="old"/>「秘密大乘佛法」都是世界悉檀。所以說<quote type="嚴謹引文">「一切聖典的集成，只是四大宗趣的<lb n="0032a06" ed="Y" type="old"/>重
-<lb n="0032a06" ed="Y"/>點開展，在不同適應的底裡，直接於佛陀自證的真實」<note n="0032001" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:35;page:pa878">(ref yinshun::vol:35;page:pa878)</ref></note></quote>；<quote type="嚴謹引文">「佛法的世界悉檀，<lb n="0032a07" ed="Y" type="old"/>還
-<lb n="0032a07" ed="Y"/>是勝於世間的神教，因為這還有傾向於解脫的成分」<note n="0032002" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:35;page:pa879">(ref yinshun::vol:35;page:pa879)</ref></note></quote>。這一切都是佛法；「秘<lb n="0032a08" ed="Y" type="old"/>密
+<lb n="0032a06" ed="Y"/>點開展，在不同適應的底裡，直接於佛陀自證的真實」<note n="0032001" resp="周怡曄" type="add"><ref target="#vol:35;page:pa878" type="yinshun">(ref yinshun::vol:35;page:pa878)</ref></note></quote>；<quote type="嚴謹引文">「佛法的世界悉檀，<lb n="0032a07" ed="Y" type="old"/>還
+<lb n="0032a07" ed="Y"/>是勝於世間的神教，因為這還有傾向於解脫的成分」<note n="0032002" resp="周怡曄" type="add"><ref target="#vol:35;page:pa879" type="yinshun">(ref yinshun::vol:35;page:pa879)</ref></note></quote>。這一切都是佛法；「秘<lb n="0032a08" ed="Y" type="old"/>密
 <lb n="0032a08" ed="Y"/>大乘」是晚期佛教的主流，這是佛教史上的事實，所以我不能同意「入篡正統<lb n="0032a09" ed="Y" type="old"/>」
 <lb n="0032a09" ed="Y"/>的批評。都是流傳中的佛法，所以不會徹底否定某些佛法。但我不是宗派徒裔<lb n="0032a10" ed="Y" type="old"/>，
 <lb n="0032a10" ed="Y"/>不是學理或某一修行方法的偏好者。我是為佛法而學，為佛法適應於現代而學<lb n="0032a11" ed="Y" type="old"/>的
@@ -500,7 +520,7 @@
 <lb n="0033a02" ed="Y"/>（梵化之機應慎），攝取後期佛教之確當者，庶足以復興佛教而暢佛之本懷<lb n="0033a03" ed="Y" type="old"/>也歟
 <lb n="0033a03" ed="Y"/>！」</quote></p></cb:div>
 <lb n="0033a04" ed="Y"/><lb n="0033a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">六　契理而又適應世間的佛法</cb:mulu><head>六　契理而又適應世間的佛法</head>
-<lb n="0033a05" ed="Y"/><lb n="0033a05" ed="Y" type="old"/><p style="text-indent:2em">什麼是<quote type="嚴謹引文">「立本於根本佛教之淳樸」</quote>？佛弟子所應特別重視的，是一切佛法的
+<lb n="0033a05" ed="Y"/><lb n="0033a05" ed="Y" type="old"/><p xml:id="pY28p0033a0501" style="text-indent:2em">什麼是<quote type="嚴謹引文">「立本於根本佛教之淳樸」</quote>？佛弟子所應特別重視的，是一切佛法的
 <lb n="0033a06" ed="Y"/><lb n="0033a06" ed="Y" type="old"/>根源：釋尊的教授教誡，早期集成的聖典——<title level="m">《阿含經》</title>與律<note place="inline">毘尼</note>。在<title level="m">《阿含經
 <lb n="0033a07" ed="Y"/>》</title>與律中，佛、法、僧——三寶，是樸質而親切的。「佛」是印度迦毘羅衛<lb n="0033a08" ed="Y" type="old"/>的王
 <lb n="0033a08" ed="Y"/>子，經出家、修行而成佛，說法、入涅槃，有印度的史跡可考。<cit><bibl><title level="m">《增壹阿含<lb n="0033a09" ed="Y" type="old"/>經》</title>
@@ -527,7 +547,7 @@
 <lb n="0035a02" ed="Y"/>沒有因時、因地的適應性。可惜在佛法流傳中，重律的拘泥固執，漸<lb n="0035a03" ed="Y" type="old"/>流於繁瑣形
 <lb n="0035a03" ed="Y"/>式。而一分專重修證或重入世利生的，卻不重毘尼，不免形同自由<lb n="0035a04" ed="Y" type="old"/>的個人主義。
 <lb n="0035a04" ed="Y"/>我想，現代的佛弟子，出家或在家的（現在也已有組織），應重視<lb n="0035a05" ed="Y" type="old"/>律制的特質。</p>
-<lb n="0035a05" ed="Y"/><lb n="0035a06" ed="Y" type="old"/><p style="text-indent:2em">律是「法」的一分。法的第一義，是八正道——正見、正思惟、正語、正業
+<lb n="0035a05" ed="Y"/><lb n="0035a06" ed="Y" type="old"/><p xml:id="pY28p0035a0501" style="text-indent:2em">律是「法」的一分。法的第一義，是八正道——正見、正思惟、正語、正業
 <lb n="0035a06" ed="Y"/><lb n="0035a07" ed="Y" type="old"/>、正命、正精進、正念、正定。依正確的知見而修行，才能達成眾苦的解脫。如
 <lb n="0035a07" ed="Y"/><lb n="0035a08" ed="Y" type="old"/>約次第說，八正道是聞、思、修（正定相應）慧的實踐歷程。這是解脫者所必修
 <lb n="0035a08" ed="Y"/><lb n="0035a09" ed="Y" type="old"/>的，所以稱為「古仙人道」，離此是沒有解脫的。修行者在正見（而起信願）中
@@ -557,7 +577,7 @@
 <lb n="0037a04" ed="Y"/>法<lb n="0037a05" ed="Y" type="old"/>。佛法是理性的德行的宗教，以解脫生（老病）死為目標的。這是印度當時的
 <lb n="0037a05" ed="Y"/>思<lb n="0037a06" ed="Y" type="old"/>想主流，但佛如實知緣起而大覺，不同於其他的神教。這是佛法的本源，正確
 <lb n="0037a06" ed="Y"/>、<lb n="0037a07" ed="Y" type="old"/>正常而又是究竟的正覺。修學佛法的，是不應迷失這一不共世間的特質！</p>
-<lb n="0037a07" ed="Y"/><lb n="0037a08" ed="Y" type="old"/><p style="text-indent:2em">什麼是<quote type="嚴謹引文">「宏闡中期佛教之行解」</quote>？中期是「大乘法」的興起，是菩薩行為本
+<lb n="0037a07" ed="Y"/><lb n="0037a08" ed="Y" type="old"/><p xml:id="pY28p0037a0701" style="text-indent:2em">什麼是<quote type="嚴謹引文">「宏闡中期佛教之行解」</quote>？中期是「大乘法」的興起，是菩薩行為本
 <lb n="0037a08" ed="Y"/><lb n="0037a09" ed="Y" type="old"/>而通於根本佛法的。依涅槃而開展為「一切法不生」、「一切法空」說。涅槃是
 <lb n="0037a09" ed="Y"/><lb n="0037a10" ed="Y" type="old"/>最甚深的，當然可說是第一義悉檀，但重點的開展，顯然存有「對治」的特性。
 <lb n="0037a10" ed="Y"/><lb n="0037a11" ed="Y" type="old"/>如一、「佛法」依緣起為本，闡明四諦、三寶、世出世法。在佛法流傳中，顯然
@@ -602,10 +622,10 @@
 <lb n="0040a07" ed="Y"/>而發心。<lb n="0040a08" ed="Y" type="old"/>龍樹論闡揚的菩薩精神，我在<cit><bibl><title level="m">《印度之佛教》</title>說：</bibl><quote type="寬鬆引文">「其說菩薩也，一、
 <lb n="0040a08" ed="Y"/>三乘同入<lb n="0040a09" ed="Y" type="old"/>無餘涅槃，而（自）發菩提心，其精神為忘己為人。二、抑他力為卑怯
 <lb n="0040a09" ed="Y"/>，自力不<lb n="0040a10" ed="Y" type="old"/>由他，其精神為盡其在我。三、三僧祇劫有限有量，其精神為任重致遠
-<lb n="0040a10" ed="Y"/>。菩薩之<lb n="0040a11" ed="Y" type="old"/>精神可學，略可於此見之。」</quote><note n="0040001" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:33;page:pa6-a7">(ref yinshun::vol:33;page:pa6-a7)</ref></note></cit>菩薩行的偉大，是能適應世間、利樂世間
+<lb n="0040a10" ed="Y"/>。菩薩之<lb n="0040a11" ed="Y" type="old"/>精神可學，略可於此見之。」</quote><note n="0040001" resp="周怡曄" type="add"><ref target="#vol:33;page:pa6-a7" type="yinshun">(ref yinshun::vol:33;page:pa6-a7)</ref></note></cit>菩薩行的偉大，是能適應世間、利樂世間
 <lb n="0040a11" ed="Y"/>的。初期<lb n="0040a12" ed="Y" type="old"/>「大乘佛法」與「佛法」的差異，正如古人所說<quote type="嚴謹引文">「古之學者為己，今之
 <lb n="0040a12" ed="Y"/>學者為<lb n="0040a13" ed="Y" type="old"/>人」</quote>。</p><pb n="0041a" ed="Y" xml:id="Y28.0028.0041a.old" type="old"/>
-<lb n="0040a13" ed="Y"/><lb n="0041a01" ed="Y" type="old"/><p style="text-indent:2em">什麼是<quote type="嚴謹引文">「（梵化之機應慎）」</quote>？梵化，應改為天化，也就是低級天的鬼神化
+<lb n="0040a13" ed="Y"/><lb n="0041a01" ed="Y" type="old"/><p xml:id="pY28p0040a1301" style="text-indent:2em">什麼是<quote type="嚴謹引文">「（梵化之機應慎）」</quote>？梵化，應改為天化，也就是低級天的鬼神化
 <pb n="0041a" ed="Y" xml:id="Y28.0028.0041a"/>
 <lb n="0041a01" ed="Y"/><lb n="0041a02" ed="Y" type="old"/>。西元前五〇年，到西元二〇〇年，「佛法」發展而進入「初期大乘」時代。由
 <lb n="0041a02" ed="Y"/><lb n="0041a03" ed="Y" type="old"/>於<quote type="嚴謹引文">「佛弟子對佛的永恆懷念」</quote>，理想化的、信仰的成分加深，與印度神教，自然
@@ -631,7 +651,7 @@
 <lb n="0042a08" ed="Y"/>可作會心的微<lb n="0042a09" ed="Y" type="old"/>笑。如受到「方便」法門功德無邊（佛經的常例，越是方便，越是
 <lb n="0042a09" ed="Y"/>功德不可思議<lb n="0042a10" ed="Y" type="old"/>）的眩惑，順著世俗心而發展，那是會迷失「佛出人間」、人間大
 <lb n="0042a10" ed="Y"/>乘正行而流入<lb n="0042a11" ed="Y" type="old"/>歧途的。</p>
-<lb n="0042a11" ed="Y"/><lb n="0042a12" ed="Y" type="old"/><p style="text-indent:2em">什麼是<quote type="嚴謹引文">「攝取後期佛教之確當者」</quote>？如「後期大乘」的如來藏、佛性、我，
+<lb n="0042a11" ed="Y"/><lb n="0042a12" ed="Y" type="old"/><p xml:id="pY28p0042a1101" style="text-indent:2em">什麼是<quote type="嚴謹引文">「攝取後期佛教之確當者」</quote>？如「後期大乘」的如來藏、佛性、我，
 <lb n="0042a12" ed="Y"/><lb n="0042a13" ed="Y" type="old"/>經說還是修菩薩行的。如知道這是「各各為人生善悉檀」，能順應世間人心，激<pb n="0043a" ed="Y" xml:id="Y28.0028.0043a.old" type="old"/>
 <lb n="0042a13" ed="Y"/><lb n="0043a01" ed="Y" type="old"/>發人發菩提心、學修菩薩行，那就是方便了。如說如來藏、佛性是（真）我，用
 <pb n="0043a" ed="Y" xml:id="Y28.0028.0043a"/>
@@ -649,10 +669,10 @@
 <lb n="0043a12" ed="Y"/>的解脫道而進修的。這是我所認為是能契合佛法、不違現代的佛法。</p></cb:div><pb n="0044a" ed="Y" xml:id="Y28.0028.0044a.old" type="old"/>
 <pb n="0044a" ed="Y" xml:id="Y28.0028.0044a"/>
 <lb n="0044a01" ed="Y"/><lb n="0044a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">七　少壯的人間佛教</cb:mulu><head>七　少壯的人間佛教</head>
-<lb n="0044a02" ed="Y"/><lb n="0044a02" ed="Y" type="old"/><p style="text-indent:2em">宣揚「人間佛教」，當然是受了太虛大師的影響，但多少是有些不同的。一
+<lb n="0044a02" ed="Y"/><lb n="0044a02" ed="Y" type="old"/><p xml:id="pY28p0044a0201" style="text-indent:2em">宣揚「人間佛教」，當然是受了太虛大師的影響，但多少是有些不同的。一
 <lb n="0044a03" ed="Y"/><lb n="0044a03" ed="Y" type="old"/>、（民國二十九年）虛大師在<title level="a">〈我怎樣判攝一切佛法〉</title>中，說到「行之當機及三
-<lb n="0044a04" ed="Y"/><lb n="0044a04" ed="Y" type="old"/>依三趣」，以為現在進入<quote type="嚴謹引文">「依人乘行果，趣進修大乘行的末法時期」<note n="0044001" resp="周怡曄" type="add"><ref type="taixu" target="#vol:13;page:p481">(ref taixu::vol:13;page:p481)</ref></note></quote>；應<quote type="嚴謹引文">「依著
-<lb n="0044a05" ed="Y"/><lb n="0044a05" ed="Y" type="old"/>人乘正行，先修成完善的人格，……由此向上增進，乃可進趣大乘行」<note n="0044002" resp="周怡曄" type="add"><ref type="taixu" target="#vol:14;page:p20">(ref taixu::vol:14;page:p20)</ref></note></quote>。這是能
+<lb n="0044a04" ed="Y"/><lb n="0044a04" ed="Y" type="old"/>依三趣」，以為現在進入<quote type="嚴謹引文">「依人乘行果，趣進修大乘行的末法時期」<note n="0044001" resp="周怡曄" type="add"><ref target="#vol:13;page:p481" type="taixu">(ref taixu::vol:13;page:p481)</ref></note></quote>；應<quote type="嚴謹引文">「依著
+<lb n="0044a05" ed="Y"/><lb n="0044a05" ed="Y" type="old"/>人乘正行，先修成完善的人格，……由此向上增進，乃可進趣大乘行」<note n="0044002" resp="周怡曄" type="add"><ref target="#vol:14;page:p20" type="taixu">(ref taixu::vol:14;page:p20)</ref></note></quote>。這是能
 <lb n="0044a06" ed="Y"/><lb n="0044a06" ed="Y" type="old"/>適應現代根機，但末法時期，應該修依人乘而趣大乘行，沒有經說的依據，不易
 <lb n="0044a07" ed="Y"/><lb n="0044a07" ed="Y" type="old"/>為一般信徒所接受。反而有的正在宣揚：<quote>「稱名念佛，是末法時期的唯一法門」</quote>
 <lb n="0044a08" ed="Y"/>呢！<lb n="0044a08" ed="Y" type="old"/>所以我要從佛教思想的演化中，探求人間佛教的依據。二、大師的思想，核
@@ -677,11 +697,11 @@
 <pb n="0046a" ed="Y" xml:id="Y28.0028.0046a"/>
 <lb n="0046a01" ed="Y"/>以民國三十年，寫了<cit><bibl><title level="m">《佛在人間》</title>，明確的說：</bibl><quote type="嚴謹引文">「佛陀怎樣被升到天上，我們<lb n="0046a02" ed="Y" type="old"/>還
 <lb n="0046a02" ed="Y"/>得照樣歡迎到人間。人間佛教的信仰者，不是人間，就是天上，此外沒有你模<lb n="0046a03" ed="Y" type="old"/>稜
-<lb n="0046a03" ed="Y"/>兩可的餘地！」</quote><note n="0046001" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:14;page:p15">(ref yinshun::vol:14;page:p15)</ref></note></cit></p>
-<lb n="0046a04" ed="Y"/><lb n="0046a04" ed="Y" type="old"/><p style="text-indent:2em">從印度佛教的興起、發展、衰落而滅亡，我譬喻為：<quote type="寬鬆引文">「正如人的一生，自童
+<lb n="0046a03" ed="Y"/>兩可的餘地！」</quote><note n="0046001" resp="周怡曄" type="add"><ref target="#vol:14;page:p15" type="yinshun">(ref yinshun::vol:14;page:p15)</ref></note></cit></p>
+<lb n="0046a04" ed="Y"/><lb n="0046a04" ed="Y" type="old"/><p xml:id="pY28p0046a0401" style="text-indent:2em">從印度佛教的興起、發展、衰落而滅亡，我譬喻為：<quote type="寬鬆引文">「正如人的一生，自童
 <lb n="0046a05" ed="Y"/><lb n="0046a05" ed="Y" type="old"/>真、少壯而衰老。童真充滿活力，是可稱讚的，但童真而進入壯年，不是更有意
 <lb n="0046a06" ed="Y"/><lb n="0046a06" ed="Y" type="old"/>義嗎？壯年而不知珍攝，轉眼衰老了。老年經驗多，知識豐富，表示成熟嗎？也
-<lb n="0046a07" ed="Y"/><lb n="0046a07" ed="Y" type="old"/>可能表示接近死亡。」<note n="0046002" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:36;page:pa3">(ref yinshun::vol:36;page:pa3)</ref></note></quote>存在於世間的，都不出「諸行無常」，我以這樣的看法，
+<lb n="0046a07" ed="Y"/><lb n="0046a07" ed="Y" type="old"/>可能表示接近死亡。」<note n="0046002" resp="周怡曄" type="add"><ref target="#vol:36;page:pa3" type="yinshun">(ref yinshun::vol:36;page:pa3)</ref></note></quote>存在於世間的，都不出「諸行無常」，我以這樣的看法，
 <lb n="0046a08" ed="Y"/><lb n="0046a08" ed="Y" type="old"/>而推重「佛法」與「初期大乘」的。童真到壯年，一般是生命力強、重事實，極
 <lb n="0046a09" ed="Y"/><lb n="0046a09" ed="Y" type="old"/>端的成為唯物論，唯心論是少有的。由壯年而入老年，內心越來越空虛（所以老
 <lb n="0046a10" ed="Y"/><lb n="0046a10" ed="Y" type="old"/>年的多信神教），思想也接近唯心（唯我、唯神）論。是唯心論者，而更多為自
@@ -698,7 +718,7 @@
 <lb n="0047a07" ed="Y"/><lb n="0047a07" ed="Y" type="old"/>法師，也不是為考證而考證、為研究而研究的學者。我只是本著從教典得來的一
 <lb n="0047a08" ed="Y"/><lb n="0047a08" ed="Y" type="old"/>項信念，「為佛法而學」，「為佛教而學」，希望條理出不違佛法本義，又能適
 <lb n="0047a09" ed="Y"/><lb n="0047a09" ed="Y" type="old"/>應現代人心的正道，為佛法的久住世間而盡一分佛弟子的責任！</p>
-<lb n="0047a10" ed="Y"/><lb n="0047a10" ed="Y" type="old"/><p style="text-indent:2em">我早期的作品，多數是講記，晚年才都是寫出的。講的寫的，只是為了從教
+<lb n="0047a10" ed="Y"/><lb n="0047a10" ed="Y" type="old"/><p xml:id="pY28p0047a1001" style="text-indent:2em">我早期的作品，多數是講記，晚年才都是寫出的。講的寫的，只是為了從教
 <lb n="0047a11" ed="Y"/><lb n="0047a11" ed="Y" type="old"/>典自身，探求適應現代的佛法，也就是脫落鬼化、神（天）化，回到佛法本義、
 <lb n="0047a12" ed="Y"/><lb n="0047a12" ed="Y" type="old"/>現實人間的佛法。我明確的討論人間佛教，民國四十年曾講了：<title level="a">〈人間佛教緒言
 <lb n="0047a13" ed="Y"/><lb n="0047a13" ed="Y" type="old"/>〉</title>、<title level="a">〈從依機設教來說明人間佛教〉</title>、<title level="a">〈人性〉</title>、<title level="a">〈人間佛教要略〉</title>。在預想中<pb n="0048a" ed="Y" xml:id="Y28.0028.0048a.old" type="old"/><lb n="0048a01" ed="Y" type="old"/>，
@@ -734,12 +754,12 @@
 <lb n="0050a01" ed="Y"/>足<pb n="0050a" ed="Y" xml:id="Y28.0028.0050a.old" type="old"/><lb n="0050a01" ed="Y" type="old"/>，就是二乘；如信與慧不足，雖以慈悲心而廣作利生善業，不免是「敗壞菩薩
 <lb n="0050a02" ed="Y"/>」<lb n="0050a02" ed="Y" type="old"/>（修學菩薩而失敗了）。所以在人間而修菩薩行的，此三德是不可偏廢的！</p></cb:div>
 <lb n="0050a03" ed="Y"/><lb n="0050a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">八　解脫道與慈悲心行</cb:mulu><head>八　解脫道與慈悲心行</head>
-<lb n="0050a04" ed="Y"/><lb n="0050a04" ed="Y" type="old"/><p style="text-indent:2em">虛大師提倡「人生佛教」（我進而稱之為「人間佛教」），民國四十年以前
+<lb n="0050a04" ed="Y"/><lb n="0050a04" ed="Y" type="old"/><p xml:id="pY28p0050a0401" style="text-indent:2em">虛大師提倡「人生佛教」（我進而稱之為「人間佛教」），民國四十年以前
 <lb n="0050a05" ed="Y"/><lb n="0050a05" ed="Y" type="old"/>，中國佛教界接受的程度是微小的；臺灣佛教現在，接受的程度高些。但傳統的
 <lb n="0050a06" ed="Y"/><lb n="0050a06" ed="Y" type="old"/>佛教界，可能會不願探究，道聽塗說而引起反感；在少數贊同者，也可能忘卻自
 <lb n="0050a07" ed="Y"/><lb n="0050a07" ed="Y" type="old"/>己，而陷於外向的庸俗化。世間是緣起的，有相對性、副作用，不能免於抗拒或
 <lb n="0050a08" ed="Y"/><lb n="0050a08" ed="Y" type="old"/>俗化的情形，但到底是越減少越好！</p>
-<lb n="0050a09" ed="Y"/><lb n="0050a09" ed="Y" type="old"/><p style="text-indent:2em">「人間佛教」是重於人菩薩行的，但對<quote type="嚴謹引文">「立本於根本佛教之淳樸」</quote>，或者會
+<lb n="0050a09" ed="Y"/><lb n="0050a09" ed="Y" type="old"/><p xml:id="pY28p0050a0901" style="text-indent:2em">「人間佛教」是重於人菩薩行的，但對<quote type="嚴謹引文">「立本於根本佛教之淳樸」</quote>，或者會
 <lb n="0050a10" ed="Y"/><lb n="0050a10" ed="Y" type="old"/>覺得離奇的。一般稱根本佛教為小乘，想像為（出家的）隱遁獨善，缺少慈悲心
 <lb n="0050a11" ed="Y"/><lb n="0050a11" ed="Y" type="old"/>的，怎麼能作為「人間佛教」——人菩薩行的根本？不知佛法本來無所謂大小，
 <lb n="0050a12" ed="Y"/><lb n="0050a12" ed="Y" type="old"/>大乘與小乘，是在佛教發展中形成的；「小乘」是指責對方的名詞。釋尊宏傳的<pb n="0051a" ed="Y" xml:id="Y28.0028.0051a.old" type="old"/>
@@ -769,7 +789,7 @@
 <lb n="0052a09" ed="Y"/>方。佛制比丘「常乞食」，不許在山林中過隱遁的生活，所以我在<title level="m">《佛在<lb n="0052a10" ed="Y" type="old"/>人間》</title>
 <lb n="0052a10" ed="Y"/>中，揭示了（子題）「出家，更接近了人間」，這不是局限於家庭本位者<lb n="0052a11" ed="Y" type="old"/>所能理
 <lb n="0052a11" ed="Y"/>解的。</p>
-<lb n="0052a12" ed="Y"/><lb n="0052a12" ed="Y" type="old"/><p style="text-indent:2em">人間佛教的人菩薩行，以釋尊時代的佛法為本，在以原始佛教為小乘的一般
+<lb n="0052a12" ed="Y"/><lb n="0052a12" ed="Y" type="old"/><p xml:id="pY28p0052a1201" style="text-indent:2em">人間佛教的人菩薩行，以釋尊時代的佛法為本，在以原始佛教為小乘的一般
 <lb n="0052a13" ed="Y"/><lb n="0052a13" ed="Y" type="old"/>人，也許會覺得離奇的。然佛法的究竟理想是解脫，而解脫心與利他的心行，是<pb n="0053a" ed="Y" xml:id="Y28.0028.0053a.old" type="old"/>
 <pb n="0053a" ed="Y" xml:id="Y28.0028.0053a"/>
 <lb n="0053a01" ed="Y"/><lb n="0053a01" ed="Y" type="old"/>並不相礙的。雖受時代的局限，不能充分表達佛的本懷，但決不能說只論解脫，
@@ -807,7 +827,7 @@
 <lb n="0055a05" ed="Y"/>樣的。如十善之一——不殺生，經上這樣說：<cit><quote>「斷殺生，離殺生，棄刀杖，<lb n="0055a06" ed="Y" type="old"/>慚愧
 <lb n="0055a06" ed="Y"/>，慈悲，利益安樂一切眾生。」</quote><note place="inline"><bibl>《<title level="m">增支部</title>．十集》</bibl></note></cit><cit><quote source="T02n0099_p0273b16-18" type="嚴謹引文">「若有欲殺我者，我不喜<lb n="0055a07" ed="Y" type="old"/>；我若
 <lb n="0055a07" ed="Y"/>所不喜，他亦如是，云何殺彼？作是覺已，受不殺生，不樂殺生。」</quote><note place="inline"><bibl><title level="m">《雜阿<lb n="0055a08" ed="Y" type="old"/>含經》</title>
-<lb n="0055a08" ed="Y"/><biblScope type="卷" n="37">卷三七</biblScope></bibl></note><note n="0055001" resp="周怡曄" type="add">《雜阿含經》卷37(CBETA, T02, no. 99, p. 273, b16-18)</note></cit>不殺生，是「以己度他情」的。我不願意被殺害，他人也是這樣，<lb n="0055a09" ed="Y" type="old"/>那我怎
+<lb n="0055a08" ed="Y"/><biblScope n="37" type="卷">卷三七</biblScope></bibl></note><note n="0055001" resp="周怡曄" type="add">《雜阿含經》卷37(CBETA, T02, no. 99, p. 273, b16-18)</note></cit>不殺生，是「以己度他情」的。我不願意被殺害，他人也是這樣，<lb n="0055a09" ed="Y" type="old"/>那我怎
 <lb n="0055a09" ed="Y"/>麼可以去殺他！所以不殺生，內心中含有慚愧——「崇重賢善，輕拒暴惡<lb n="0055a10" ed="Y" type="old"/>」的心
 <lb n="0055a10" ed="Y"/>理；有慈悲——「利益眾生，哀愍眾生」的心理（依佛法說，心是複雜心<lb n="0055a11" ed="Y" type="old"/>所的綜
 <lb n="0055a11" ed="Y"/>合活動）。不殺生，當然是有因果的，但決不是一般所說的那樣，殺了有<lb n="0055a12" ed="Y" type="old"/>多少罪
@@ -824,14 +844,14 @@
 <lb n="0056a08" ed="Y"/>的仁心普洽、浩然之氣充塞於天地之間相近。但這還是世間的、共一般的道<lb n="0056a09" ed="Y" type="old"/>德，
 <lb n="0056a09" ed="Y"/>偉大的而不是究竟的；偉大而究竟的無量三昧，要通過無我的解脫道，才能<lb n="0056a10" ed="Y" type="old"/>有忘
 <lb n="0056a10" ed="Y"/>我為人的最高道德。</p>
-<lb n="0056a11" ed="Y"/><lb n="0056a11" ed="Y" type="old"/><p style="text-indent:2em">「初期大乘」是菩薩道。菩薩道的開展，來自釋尊的本生談；「知滅而不證
+<lb n="0056a11" ed="Y"/><lb n="0056a11" ed="Y" type="old"/><p xml:id="pY28p0056a1101" style="text-indent:2em">「初期大乘」是菩薩道。菩薩道的開展，來自釋尊的本生談；「知滅而不證
 <lb n="0056a12" ed="Y"/><lb n="0056a12" ed="Y" type="old"/>」（等於無生忍的不證實際）的持行者，可說是給以最有力的動力。菩薩六度、
 <lb n="0056a13" ed="Y"/><lb n="0056a13" ed="Y" type="old"/>四攝的大行，是在「一切法不生」、「一切法空」、「以無所得為方便」（空慧<pb n="0057a" ed="Y" xml:id="Y28.0028.0057a.old" type="old"/>
 <pb n="0057a" ed="Y" xml:id="Y28.0028.0057a"/>
 <lb n="0057a01" ed="Y"/><lb n="0057a01" ed="Y" type="old"/>）而進行的。不離「佛法」的解脫道——般若，只是悲心要強些，多為眾生著想
 <lb n="0057a02" ed="Y"/><lb n="0057a02" ed="Y" type="old"/>，不急求速證而已。</p></cb:div>
 <lb n="0057a03" ed="Y"/><lb n="0057a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">九　人菩薩行的真實形象</cb:mulu><head>九　人菩薩行的真實形象</head>
-<lb n="0057a04" ed="Y"/><lb n="0057a04" ed="Y" type="old"/><p style="text-indent:2em">修學人間佛教——人菩薩行，以三心為基本，三心是大乘信願（菩提心）、
+<lb n="0057a04" ed="Y"/><lb n="0057a04" ed="Y" type="old"/><p xml:id="pY28p0057a0401" style="text-indent:2em">修學人間佛教——人菩薩行，以三心為基本，三心是大乘信願（菩提心）、
 <lb n="0057a05" ed="Y"/><lb n="0057a05" ed="Y" type="old"/>大悲心、空性見。一、發（願）菩提心：扼要的說，是以佛為理想、為目標，立
 <lb n="0057a06" ed="Y"/><lb n="0057a06" ed="Y" type="old"/>下自己要成佛的大志願。發大菩提心，先要信解佛陀的崇高偉大：智慧的深徹（
 <lb n="0057a07" ed="Y"/><lb n="0057a07" ed="Y" type="old"/>智德）、悲心的廣大（悲德）、心地的究竟清淨（斷德），超勝一切人天，阿羅
@@ -866,7 +886,7 @@
 <lb n="0059a09" ed="Y"/><lb n="0059a09" ed="Y" type="old"/>來的什麼高明修法，都不屬於成佛因行的。菩提心、大悲心、空性見——三者是
 <lb n="0059a10" ed="Y"/><lb n="0059a10" ed="Y" type="old"/>修菩薩行所必備的，切勿高推聖境，要從切近處學習起！我曾寫有<title level="a">〈菩提心的修
 <lb n="0059a11" ed="Y"/><lb n="0059a11" ed="Y" type="old"/>習次第〉</title>、<title level="a">〈慈悲為佛法宗本〉</title>、<title level="a">〈自利與利他〉</title>、<title level="a">〈慧學概說〉</title>等短篇。</p>
-<lb n="0059a12" ed="Y"/><lb n="0059a12" ed="Y" type="old"/><p style="text-indent:2em">依三心而修行，一切都是菩薩行。初修菩薩行的，經說<quote source="T08n0245_p0827b14" type="嚴謹引文">「十善菩薩發大心」<note n="0059001" resp="周怡曄" type="add">《佛說仁王般若波羅蜜經》卷1〈3 菩薩教化品〉(CBETA, T08, no. 245, p. 827, b14)</note></quote>
+<lb n="0059a12" ed="Y"/><lb n="0059a12" ed="Y" type="old"/><p xml:id="pY28p0059a1201" style="text-indent:2em">依三心而修行，一切都是菩薩行。初修菩薩行的，經說<quote source="T08n0245_p0827b14" type="嚴謹引文">「十善菩薩發大心」<note n="0059001" resp="周怡曄" type="add">《佛說仁王般若波羅蜜經》卷1〈3 菩薩教化品〉(CBETA, T08, no. 245, p. 827, b14)</note></quote>
 <lb n="0059a13" ed="Y"/><lb n="0059a13" ed="Y" type="old"/>。十善是：不殺生、不不與取<note place="inline">偷盜</note>、不邪淫（出家的是「不淫」），這三善是正<pb n="0060a" ed="Y" xml:id="Y28.0028.0060a.old" type="old"/>
 <pb n="0060a" ed="Y" xml:id="Y28.0028.0060a"/>
 <lb n="0060a01" ed="Y"/><lb n="0060a01" ed="Y" type="old"/>常合理的身行。不妄語、不兩舌、不惡口、不綺語，這四善是正常合理的語（言
@@ -884,7 +904,7 @@
 <lb n="0060a13" ed="Y"/>他，而是在自身的進修中，「隨分隨力」的從事利他，不斷進修，自身的福<pb n="0061a" ed="Y" xml:id="Y28.0028.0061a.old" type="old"/><lb n="0061a01" ed="Y" type="old"/>德、
 <pb n="0061a" ed="Y" xml:id="Y28.0028.0061a"/>
 <lb n="0061a01" ed="Y"/>智慧漸大，利他的力量也越大，這是初學菩薩行者應有的認識。</p>
-<lb n="0061a02" ed="Y"/><lb n="0061a02" ed="Y" type="old"/><p style="text-indent:2em">修人菩薩行的人間佛教，「佛法」與「初期大乘」有良好的啟示。如維摩詰
+<lb n="0061a02" ed="Y"/><lb n="0061a02" ed="Y" type="old"/><p xml:id="pY28p0061a0201" style="text-indent:2em">修人菩薩行的人間佛教，「佛法」與「初期大乘」有良好的啟示。如維摩詰
 <lb n="0061a03" ed="Y"/><lb n="0061a03" ed="Y" type="old"/>長者，六度利益眾生外，從事<quote source="T14n0475_p0539a25-a29" type="嚴謹引文">「治生」<note n="0061001" resp="周怡曄" type="add">《維摩詰所說經》卷1〈2 方便品〉(CBETA, T14, no. 475, p. 539, a25-a29)</note></quote>，是從事實業；<quote type="嚴謹引文">「入治政法」</quote>，是從事政
 <lb n="0061a04" ed="Y"/><lb n="0061a04" ed="Y" type="old"/>治；在<quote type="嚴謹引文">「講論處」</quote>宣講正法，在<quote type="嚴謹引文">「學堂（學校）誘開童蒙」</quote>，那是從事教育了。
 <lb n="0061a05" ed="Y"/><lb n="0061a05" ed="Y" type="old"/><quote source="T14n0475_p0539a28" type="寬鬆引文">「淫坊」<note n="0061002" resp="周怡曄" type="add">《維摩詰所說經》卷1〈2 方便品〉：「婬舍」(CBETA, T14, no. 475, p. 539, a28)</note></quote>、<quote type="嚴謹引文">「酒肆」</quote>也去，那是<quote type="嚴謹引文">「示欲之過」</quote>、<quote type="嚴謹引文">「能立其志（不亂）」</quote>。普入社
@@ -908,14 +928,14 @@
 <lb n="0062a09" ed="Y"/><lb n="0062a09" ed="Y" type="old"/>的，為病人服務，治療身病、心病，更為病人說到身心苦惱根源的煩惱病、根治
 <lb n="0062a10" ed="Y"/><lb n="0062a10" ed="Y" type="old"/>煩惱病的佛道，從自己所知所行而引人學菩薩行，正是善財參訪各善知識利他的
 <lb n="0062a11" ed="Y"/><lb n="0062a11" ed="Y" type="old"/>最理想的方法！</p>
-<lb n="0062a12" ed="Y"/><lb n="0062a12" ed="Y" type="old"/><p style="text-indent:2em">從「初期大乘」時代到現在，從印度到中國，時地的差距太大。現代的人間
+<lb n="0062a12" ed="Y"/><lb n="0062a12" ed="Y" type="old"/><p xml:id="pY28p0062a1201" style="text-indent:2em">從「初期大乘」時代到現在，從印度到中國，時地的差距太大。現代的人間
 <lb n="0062a13" ed="Y"/><lb n="0062a13" ed="Y" type="old"/>佛教，自利利他，當然會有更多的佛事。利他的菩薩行，不出於慧與福。慧行，<pb n="0063a" ed="Y" xml:id="Y28.0028.0063a.old" type="old"/>
 <pb n="0063a" ed="Y" xml:id="Y28.0028.0063a"/>
 <lb n="0063a01" ed="Y"/><lb n="0063a01" ed="Y" type="old"/>是使人從理解佛法，得到內心的淨化；福行，是使人從事行中得到利益（兩者也
 <lb n="0063a02" ed="Y"/><lb n="0063a02" ed="Y" type="old"/>互相關涉）。以慧行來說，說法以外，如日報、雜誌的編發，佛書的流通，廣播
 <lb n="0063a03" ed="Y"/><lb n="0063a03" ed="Y" type="old"/>、電視的弘法；佛學院與佛學研究所、佛教大學的創辦；利用寒暑假，而作不同
 <lb n="0063a04" ed="Y"/><lb n="0063a04" ed="Y" type="old"/>層次（兒童、青年……）的集體進修活動；佛教學術界的聯繫……重點在介紹佛
-<lb n="0063a05" ed="Y"/><lb n="0063a05" ed="Y" type="old"/>法，<note n="0063a0501" resp="CBETA" type="add">祛【CB】，袪【印順】</note><app n="0063a0501"><lem wit="【CB】" resp="正聞出版社">祛</lem><rdg wit="【印順】">袪</rdg></app>除一般對佛法的誤解，使人正確理解，而有利於佛法的深入人心。以福行
+<lb n="0063a05" ed="Y"/><lb n="0063a05" ed="Y" type="old"/>法，<note n="0063a0501" resp="CBETA" type="add">祛【CB】，袪【印順】</note><app n="0063a0501"><lem resp="正聞出版社" wit="【CB】">祛</lem><rdg wit="【印順】">袪</rdg></app>除一般對佛法的誤解，使人正確理解，而有利於佛法的深入人心。以福行
 <lb n="0063a06" ed="Y"/><lb n="0063a06" ed="Y" type="old"/>來說，如貧窮、疾病、傷殘、孤老、急難等社會福利事業的推行；家庭、工作不
 <lb n="0063a07" ed="Y"/><lb n="0063a07" ed="Y" type="old"/>和協而苦痛，社會不同階層的衝突而混亂，佛弟子應以超然關切的立場，使大家
 <lb n="0063a08" ed="Y"/><lb n="0063a08" ed="Y" type="old"/>在和諧歡樂中進步。凡不違反佛法的，一切都是好事。但從事於或慧或福的利他
@@ -924,8 +944,8 @@
 <lb n="0063a11" ed="Y"/><lb n="0063a11" ed="Y" type="old"/>了！下也者是「泥菩薩過河」（不見了），引起佛教的不良副作用。總之，菩薩
 <lb n="0063a12" ed="Y"/><lb n="0063a12" ed="Y" type="old"/>發心利他，要站穩自己腳跟才得！</p></cb:div><pb n="0064a" ed="Y" xml:id="Y28.0028.0064a.old" type="old"/>
 <pb n="0064a" ed="Y" xml:id="Y28.0028.0064a"/>
-<lb n="0064a01" ed="Y"/><lb n="0064a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十　向正確的目標邁進</cb:mulu><head><note n="0064a0101" resp="CBETA" type="add" subtype="規範字詞">十【CB】，一〇【印順】</note><app n="0064a0101"><lem wit="【CB】" resp="CBETA">十</lem><rdg wit="【印順】">一〇</rdg></app>　向正確的目標邁進</head>
-<lb n="0064a02" ed="Y"/><lb n="0064a02" ed="Y" type="old"/><p style="text-indent:2em">人菩薩行——人間佛教的開展，是適合現代的，但也可能引起副作用。我以
+<lb n="0064a01" ed="Y"/><lb n="0064a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">十　向正確的目標邁進</cb:mulu><head><note n="0064a0101" resp="CBETA" type="add" subtype="規範字詞">十【CB】，一〇【印順】</note><app n="0064a0101"><lem resp="CBETA" wit="【CB】">十</lem><rdg wit="【印順】">一〇</rdg></app>　向正確的目標邁進</head>
+<lb n="0064a02" ed="Y"/><lb n="0064a02" ed="Y" type="old"/><p xml:id="pY28p0064a0201" style="text-indent:2em">人菩薩行——人間佛教的開展，是適合現代的，但也可能引起副作用。我以
 <lb n="0064a03" ed="Y"/><lb n="0064a03" ed="Y" type="old"/>為，佛法有不共一般神教的特性，是應該確認肯定的。記得二十年前，有人問我
 <lb n="0064a04" ed="Y"/><lb n="0064a04" ed="Y" type="old"/>：為什麼泰、錫等（小乘）佛教區，異教徒不容易發展，而大乘佛教徒卻容易改
 <lb n="0064a05" ed="Y"/><lb n="0064a05" ed="Y" type="old"/>信異教？我當時只歎息而無辭以對。這應該與佛法的寬容特性有關，但釋尊的原
@@ -937,13 +957,13 @@
 <lb n="0064a11" ed="Y"/><lb n="0064a11" ed="Y" type="old"/>於融會貫通的！三十年發起組織「太虛大師學生會」，會員的資格是：返俗的也
 <lb n="0064a12" ed="Y"/><lb n="0064a12" ed="Y" type="old"/>好，加入異教的也好，「去陝北」的也好。在大師的意境中，<cit><quote type="嚴謹引文">「夜叉、羅剎亦有<pb n="0065a" ed="Y" xml:id="Y28.0028.0065a.old" type="old"/>
 <pb n="0065a" ed="Y" xml:id="Y28.0028.0065a"/>
-<lb n="0065a01" ed="Y"/><lb n="0065a01" ed="Y" type="old"/>其用處」</quote><note place="inline"><bibl><title level="m">《太虛大師年譜》</title></bibl></note><note n="0065001" resp="周怡曄" type="add"><ref type="taixu" target="#vol:13;page:p486">(ref taixu::vol:13;page:p486)</ref></note></cit>。後來，學生會沒有進行。會員這樣的雜濫不純，如真
+<lb n="0065a01" ed="Y"/><lb n="0065a01" ed="Y" type="old"/>其用處」</quote><note place="inline"><bibl><title level="m">《太虛大師年譜》</title></bibl></note><note n="0065001" resp="周怡曄" type="add"><ref target="#vol:13;page:p486" type="taixu">(ref taixu::vol:13;page:p486)</ref></note></cit>。後來，學生會沒有進行。會員這樣的雜濫不純，如真
 <lb n="0065a02" ed="Y"/><lb n="0065a02" ed="Y" type="old"/>的進行組織活動，夜叉、羅剎（如黑社會一樣）會對佛教引起怎樣的負面作用？
 <lb n="0065a03" ed="Y"/><lb n="0065a03" ed="Y" type="old"/>大乘佛教的寬容性，在有利於大乘流通的要求下，種種「方便」漸漸融攝進來，
 <lb n="0065a04" ed="Y"/><lb n="0065a04" ed="Y" type="old"/>終於到達「天佛一如」的境界。我不反對方便，方便是不可能沒有的，但方便有
 <lb n="0065a05" ed="Y"/><lb n="0065a05" ed="Y" type="old"/>時空的適應性，也應有初期大乘<quote source="T09n0262_p0010a19" type="嚴謹引文">「正直捨方便」<note n="0065002" resp="周怡曄" type="add">《妙法蓮華經》卷1〈2 方便品〉(CBETA, T09, no. 262, p. 10, a19)</note></quote>的精神。如虛大師在<cit><bibl><title level="a">〈我怎樣判
 <lb n="0065a06" ed="Y"/><lb n="0065a06" ed="Y" type="old"/>攝一切佛法〉</title>中說：</bibl><quote type="嚴謹引文">「到了這時候，……依天乘行果（天國土的淨土、天色身的
-<lb n="0065a07" ed="Y"/><lb n="0065a07" ed="Y" type="old"/>密宗），是要被謗為迷信神權的，不惟不是方便，而反成為障礙了！」</quote><note n="0065003" resp="周怡曄" type="add"><ref type="taixu" target="#vol:13;page:p481">(ref taixu::vol:13;page:p481)</ref></note></cit>虛大師長
+<lb n="0065a07" ed="Y"/><lb n="0065a07" ed="Y" type="old"/>密宗），是要被謗為迷信神權的，不惟不是方便，而反成為障礙了！」</quote><note n="0065003" resp="周怡曄" type="add"><ref target="#vol:13;page:p481" type="taixu">(ref taixu::vol:13;page:p481)</ref></note></cit>虛大師長
 <lb n="0065a08" ed="Y"/><lb n="0065a08" ed="Y" type="old"/>於圓融，而能放下方便，突顯適應現代的「人生佛教」，可說是希有希有！但對
 <lb n="0065a09" ed="Y"/><lb n="0065a09" ed="Y" type="old"/>讀者，大師心目中的「人生佛教」，總不免為圓融所累！現在的臺灣，「人生佛
 <lb n="0065a10" ed="Y"/><lb n="0065a10" ed="Y" type="old"/>教」、「人間佛教」、「人乘佛教」，似乎漸漸興起來，但適應時代方便的多，
@@ -959,9 +979,9 @@
 <lb n="0066a06" ed="Y"/><lb n="0066a06" ed="Y" type="old"/>期佛教「三教同源」的現代化。為達成個己的意願，或許是可能成功的，但對佛
 <lb n="0066a07" ed="Y"/><lb n="0066a07" ed="Y" type="old"/>法的純正化、現代化，不一定有前途，反而有引起印度佛教末後一著（為神教侵
 <lb n="0066a08" ed="Y"/><lb n="0066a08" ed="Y" type="old"/>蝕而消滅）的隱憂。真正的人菩薩行，要認清佛法不共世間的特性，而<quote type="嚴謹引文">「適應今
-<lb n="0066a09" ed="Y"/><lb n="0066a09" ed="Y" type="old"/>時今地今人的實際需要」<note n="0066001" resp="周怡曄" type="add"><ref type="taixu" target="#vol:13;page:p474">(ref taixu::vol:13;page:p474)</ref></note></quote>，如虛大師的<title level="a">〈從巴利語系佛教說到今菩薩行〉</title>所說（
+<lb n="0066a09" ed="Y"/><lb n="0066a09" ed="Y" type="old"/>時今地今人的實際需要」<note n="0066001" resp="周怡曄" type="add"><ref target="#vol:13;page:p474" type="taixu">(ref taixu::vol:13;page:p474)</ref></note></quote>，如虛大師的<title level="a">〈從巴利語系佛教說到今菩薩行〉</title>所說（
 <lb n="0066a10" ed="Y"/>以錫<lb n="0066a10" ed="Y" type="old"/>蘭等佛教為小乘，虛大師還是承習傳統，現在應作進一步的探求）。</p>
-<lb n="0066a11" ed="Y"/><lb n="0066a11" ed="Y" type="old"/><p style="text-indent:2em">以成佛為理想，修慈悲利他的菩薩道，到底要經歷多少時間才能成佛，這是
+<lb n="0066a11" ed="Y"/><lb n="0066a11" ed="Y" type="old"/><p xml:id="pY28p0066a1101" style="text-indent:2em">以成佛為理想，修慈悲利他的菩薩道，到底要經歷多少時間才能成佛，這是
 <lb n="0066a12" ed="Y"/><lb n="0066a12" ed="Y" type="old"/>一般所要論到的問題。或說三大阿僧祇劫，或說四大阿僧祇劫，或說七大阿僧祇
 <lb n="0066a13" ed="Y"/><lb n="0066a13" ed="Y" type="old"/>劫，或說無量阿僧祇劫，或說一生取辦、即生成佛等，可說眾說紛紜，莫衷一是<pb n="0067a" ed="Y" xml:id="Y28.0028.0067a.old" type="old"/>
 <pb n="0067a" ed="Y" xml:id="Y28.0028.0067a"/>
@@ -972,17 +992,17 @@
 <lb n="0067a05" ed="Y"/><lb n="0067a05" ed="Y" type="old"/>穫，功到自然成就的。如悲願深而得無生忍，那就體悟不落時空數量的涅槃甚深
 <lb n="0067a06" ed="Y"/><lb n="0067a06" ed="Y" type="old"/>，還說什麼久成、速成呢？印度佛教早期的論師，以有限量心論菩薩道，所以為
 <lb n="0067a07" ed="Y"/><lb n="0067a07" ed="Y" type="old"/>龍樹所呵責：<cit><quote source="T25n1509_p0092b07-09" type="嚴謹引文">「佛言無量阿僧祇劫作功德，欲度眾生，何以故言三阿僧祇劫？三
-<lb n="0067a08" ed="Y"/><lb n="0067a08" ed="Y" type="old"/>阿僧祇劫有量有限！」</quote><note place="inline"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="4">卷四</biblScope></bibl></note><note n="0067001" resp="周怡曄" type="add">《大智度論》卷4〈1 序品〉(CBETA, T25, no. 1509, p. 92, b7-9)</note></cit>「大乘佛法」後期，又都覺得太久了，所
+<lb n="0067a08" ed="Y"/><lb n="0067a08" ed="Y" type="old"/>阿僧祇劫有量有限！」</quote><note place="inline"><bibl><title level="m">《大智度論》</title><biblScope n="4" type="卷">卷四</biblScope></bibl></note><note n="0067001" resp="周怡曄" type="add">《大智度論》卷4〈1 序品〉(CBETA, T25, no. 1509, p. 92, b7-9)</note></cit>「大乘佛法」後期，又都覺得太久了，所
 <lb n="0067a09" ed="Y"/><lb n="0067a09" ed="Y" type="old"/>以有速疾成佛說。太虛大師曾提出<cit><bibl><title level="a">〈本人在佛法中之意趣〉</title>，說到</bibl><quote type="嚴謹引文">「甲、非研<lb n="0067a10" ed="Y" type="old"/>究
 <lb n="0067a10" ed="Y"/>佛書之學者」</quote></cit>；<quote type="嚴謹引文">「乙、不為專承一宗之徒裔」</quote>；<quote type="嚴謹引文">「丙、無求即時成佛之貪心」</quote><lb n="0067a11" ed="Y" type="old"/>；
 <lb n="0067a11" ed="Y"/><cit><quote type="嚴謹引文">「丁、為學菩薩發心而修學者。……願以凡夫之身，學菩薩發心修行，即是本<lb n="0067a12" ed="Y" type="old"/>人
-<lb n="0067a12" ed="Y"/>意趣之所在」</quote><bibl><note place="inline"><title level="m">《優婆塞戒經講錄》</title></note></bibl><note n="0067002" resp="周怡曄" type="add"><ref type="taixu" target="#vol:13;page:p385-386">(ref taixu::vol:13;page:p385-386)</ref></note></cit>。想即生成佛，急到連菩薩行也不要了，真是<lb n="0067a13" ed="Y" type="old"/>顛
+<lb n="0067a12" ed="Y"/>意趣之所在」</quote><bibl><note place="inline"><title level="m">《優婆塞戒經講錄》</title></note></bibl><note n="0067002" resp="周怡曄" type="add"><ref target="#vol:13;page:p385-386" type="taixu">(ref taixu::vol:13;page:p385-386)</ref></note></cit>。想即生成佛，急到連菩薩行也不要了，真是<lb n="0067a13" ed="Y" type="old"/>顛
 <lb n="0067a13" ed="Y"/>倒！虛大師在佛法中的意趣，可說是人間佛教、人菩薩行的最佳指南！</p><pb n="0068a" ed="Y" xml:id="Y28.0028.0068a.old" type="old"/>
 <pb n="0068a" ed="Y" xml:id="Y28.0028.0068a"/>
-<lb n="0068a01" ed="Y"/><lb n="0068a01" ed="Y" type="old"/><p style="text-indent:2em">人間佛教的人菩薩行，不但是契機的，也是純正的菩薩正常道。下面引一段
+<lb n="0068a01" ed="Y"/><lb n="0068a01" ed="Y" type="old"/><p xml:id="pY28p0068a0101" style="text-indent:2em">人間佛教的人菩薩行，不但是契機的，也是純正的菩薩正常道。下面引一段
 <lb n="0068a02" ed="Y"/><lb n="0068a02" ed="Y" type="old"/>舊作的<title level="a">〈自利與利他〉</title>；「不忍聖教衰，不忍眾生苦」的大心佛弟子，依菩薩正
 <lb n="0068a03" ed="Y"/><lb n="0068a03" ed="Y" type="old"/>常道而坦然直進吧！</p>
-<lb n="0068a04" ed="Y"/><lb n="0068a04" ed="Y" type="old"/><quote type="嚴謹引文"><p style="margin-left:3em">要長在生死中修菩薩行，自然要在生死中學習，要有一套長在生死而能<lb n="0068a05" ed="Y" type="old"/>普
+<lb n="0068a04" ed="Y"/><lb n="0068a04" ed="Y" type="old"/><quote type="嚴謹引文"><p xml:id="pY28p0068a0401" style="margin-left:3em">要長在生死中修菩薩行，自然要在生死中學習，要有一套長在生死而能<lb n="0068a05" ed="Y" type="old"/>普
 <lb n="0068a05" ed="Y"/>利眾生的本領。……菩薩這套長在生死而能廣利眾生的本領，除「堅定信
 <lb n="0068a06" ed="Y"/><lb n="0068a06" ed="Y" type="old"/>願（菩提心）」、「長養慈悲」而外，主要的是「勝解空性」。觀一切法
 <lb n="0068a07" ed="Y"/>如幻如化，<lb n="0068a07" ed="Y" type="old"/>了無自性，得二諦無礙的正見，是最主要的一著。所以經<lb n="0068a08" ed="Y" type="old"/>上說
@@ -995,11 +1015,11 @@
 <pb n="0069a" ed="Y" xml:id="Y28.0028.0069a"/>
 <lb n="0069a01" ed="Y"/>天的深厚，<pb n="0069a" ed="Y" xml:id="Y28.0028.0069a.old" type="old"/><lb n="0069a01" ed="Y" type="old"/>怕什麼墮落！唯有專為自己打算的，才隨時有墮落的憂慮。
 <lb n="0069a02" ed="Y"/>發願在生死中<lb n="0069a02" ed="Y" type="old"/>，常得見佛，常得聞法，「世世常行菩薩道」，這是初期大
-<lb n="0069a03" ed="Y"/>乘的共義，（也是）中<lb n="0069a03" ed="Y" type="old"/>觀與瑜伽的共義。釋尊在<cit><bibl><title level="m"><note n="0069a0301" resp="CBETA" type="add">中阿含經【CB】，經【印順】</note><app n="0069a0301"><lem wit="【CB】" resp="正聞出版社">《中阿含經》</lem><rdg wit="【印順】">經</rdg></app></title>中說：</bibl><quote source="T01n0026_p0737a04" type="嚴謹引文">「阿難！我多行
-<lb n="0069a04" ed="Y"/>空。」<note n="0069a0401" resp="CBETA" type="add">［－］【CB】，（中阿含經）【印順】</note><app n="0069a0401"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">（《中阿含經》）</rdg></app></quote><note n="0069001" resp="周怡曄" type="add">《中阿含經》卷49〈1 雙品〉(CBETA, T01, no. 26, p. 737, a4)</note></cit>（<lb n="0069a04" ed="Y" type="old"/><cit><bibl><title level="m">《瑜伽師地論》</title>解說為：</bibl><quote source="T30n1579_p0813a06-10" type="嚴謹引文">「世尊於昔修習菩薩
+<lb n="0069a03" ed="Y"/>乘的共義，（也是）中<lb n="0069a03" ed="Y" type="old"/>觀與瑜伽的共義。釋尊在<cit><bibl><title level="m"><note n="0069a0301" resp="CBETA" type="add">中阿含經【CB】，經【印順】</note><app n="0069a0301"><lem resp="正聞出版社" wit="【CB】">《中阿含經》</lem><rdg wit="【印順】">經</rdg></app></title>中說：</bibl><quote source="T01n0026_p0737a04" type="嚴謹引文">「阿難！我多行
+<lb n="0069a04" ed="Y"/>空。」<note n="0069a0401" resp="CBETA" type="add">［－］【CB】，（中阿含經）【印順】</note><app n="0069a0401"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">（《中阿含經》）</rdg></app></quote><note n="0069001" resp="周怡曄" type="add">《中阿含經》卷49〈1 雙品〉(CBETA, T01, no. 26, p. 737, a4)</note></cit>（<lb n="0069a04" ed="Y" type="old"/><cit><bibl><title level="m">《瑜伽師地論》</title>解說為：</bibl><quote source="T30n1579_p0813a06-10" type="嚴謹引文">「世尊於昔修習菩薩
 <lb n="0069a05" ed="Y"/>行位，多修空住，故能速證<lb n="0069a05" ed="Y" type="old"/>阿耨多羅三藐三菩提。」）</quote><note n="0069002" resp="周怡曄" type="add">《瑜伽師地論》卷90(CBETA, T30, no. 1579, p. 813, a6-10)</note></cit>……大乘經的多明
-<lb n="0069a06" ed="Y"/>一切法空，即是不住生死、不<lb n="0069a06" ed="Y" type="old"/>住涅槃修菩薩行的成佛大方便！<note n="0069003" resp="周怡曄" type="add"><ref type="yinshun" target="#vol:15;page:p150-151">(ref yinshun::vol:15;page:p150-151)</ref></note></p></quote>
-<lb n="0069a07" ed="Y"/><lb n="0069a07" ed="Y" type="old"/><p style="text-indent:2em">末了，我再度表明自己：我對佛法作多方面的探求，寫了一些，也講了一些
+<lb n="0069a06" ed="Y"/>一切法空，即是不住生死、不<lb n="0069a06" ed="Y" type="old"/>住涅槃修菩薩行的成佛大方便！<note n="0069003" resp="周怡曄" type="add"><ref target="#vol:15;page:p150-151" type="yinshun">(ref yinshun::vol:15;page:p150-151)</ref></note></p></quote>
+<lb n="0069a07" ed="Y"/><lb n="0069a07" ed="Y" type="old"/><p xml:id="pY28p0069a0701" style="text-indent:2em">末了，我再度表明自己：我對佛法作多方面的探求，寫了一些，也講了一些
 <lb n="0069a08" ed="Y"/><lb n="0069a08" ed="Y" type="old"/>，但我不是宗派徒裔，也不是論師。我不希望博學多聞成一佛學者；也不想開一
 <lb n="0069a09" ed="Y"/><lb n="0069a09" ed="Y" type="old"/>佛法百貨公司，你要什麼，我就給你什麼（這是大菩薩模樣）。我是繼承太虛大
 <lb n="0069a10" ed="Y"/><lb n="0069a10" ed="Y" type="old"/>師的思想路線（非「鬼化」的人生佛教），而想進一步的（非「天化」的）給以

@@ -12,56 +12,76 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>20卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 22, No. 22</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">22</idno>.<idno type="no">22</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛教史地考論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十一、從一切世間樂見比丘說到真常論</cb:mulu>
-<milestone unit="juan" n="12"/><pb n="0285a" ed="Y" xml:id="Y22.0022.0285a.old" type="old"/>
+<milestone n="12" unit="juan"/><pb n="0285a" ed="Y" xml:id="Y22.0022.0285a.old" type="old"/>
 <pb n="0281a" ed="Y" xml:id="Y22.0022.0281a"/>
 <lb n="0281a01" ed="Y"/><lb n="0285a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十二、北印度之教難</cb:mulu><head>北印度之教難<note n="0281001" resp="DILA" type="add">民國四六年撰。</note></head>
 <lb n="0281a02" ed="Y"/><lb n="0285a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　緒言</cb:mulu><head>一　緒言</head>
-<lb n="0281a03" ed="Y"/><lb n="0285a03" ed="Y" type="old"/><p style="text-indent:2em">健陀羅與迦溼彌羅為中心的北印佛教，在貴霜王朝時代，曾達到高度的發展
+<lb n="0281a03" ed="Y"/><lb n="0285a03" ed="Y" type="old"/><p xml:id="pY22p0281a0301" style="text-indent:2em">健陀羅與迦溼彌羅為中心的北印佛教，在貴霜王朝時代，曾達到高度的發展
 <lb n="0281a04" ed="Y"/><lb n="0285a04" ed="Y" type="old"/>。阿毘達磨與佛教藝術，都有過非常的光榮！但到玄奘遊學印度的時候，所見的
 <lb n="0281a05" ed="Y"/><lb n="0285a05" ed="Y" type="old"/>是：荒涼、圮敗、衰落得不堪。佛教的衰落，決不能完全推之於劫運，推之於魔
 <lb n="0281a06" ed="Y"/><lb n="0285a06" ed="Y" type="old"/>王、外道；換言之，佛教徒也必然有些本身的缺點。危機深刻化，而無法改善、
 <lb n="0281a07" ed="Y"/>增<lb n="0285a07" ed="Y" type="old"/>進生存的能力，這才一敗不可收拾。關於北印佛教的教難，近來在經傳中多少
 <lb n="0281a08" ed="Y"/>看<lb n="0285a08" ed="Y" type="old"/>到一些，所以特地敘述出來。</p>
-<lb n="0281a09" ed="Y"/><lb n="0285a09" ed="Y" type="old"/><p style="text-indent:2em">印度人不重歷史，印度佛教也同樣的史實不明。我認為經典中還保存許多史
+<lb n="0281a09" ed="Y"/><lb n="0285a09" ed="Y" type="old"/><p xml:id="pY22p0281a0901" style="text-indent:2em">印度人不重歷史，印度佛教也同樣的史實不明。我認為經典中還保存許多史
 <lb n="0281a10" ed="Y"/><lb n="0285a10" ed="Y" type="old"/>實。一般認經典為出於佛口親說，所以許多事實都成為預言。如從史的觀點去考<pb n="0286a" ed="Y" xml:id="Y22.0022.0286a.old" type="old"/>
 <pb n="0282a" ed="Y" xml:id="Y22.0022.0282a"/>
 <lb n="0282a01" ed="Y"/><lb n="0286a01" ed="Y" type="old"/>察，即能明白看出經典的時代性。不但佛教的思想演進，可以明了它的源流遞演
@@ -71,7 +91,7 @@
 <lb n="0282a05" ed="Y"/><lb n="0286a05" ed="Y" type="old"/>容的事實了！表現於經典中的傳說與預言，常是寓意的、暗示的、閃爍的、事實
 <lb n="0282a06" ed="Y"/><lb n="0286a06" ed="Y" type="old"/>與想像雜糅的，不能一字一句的作為忠實的史料看。在處理這些資料而加以研究
 <lb n="0282a07" ed="Y"/><lb n="0286a07" ed="Y" type="old"/>時，要特別的審慎，不預存成見，將事實從傳說與預言中揭露出來！</p>
-<lb n="0282a08" ed="Y"/><lb n="0286a08" ed="Y" type="old"/><p style="text-indent:2em">傳說與預言，是富有流動性的。它在時代與環境的變遷中，不息的演變；重
+<lb n="0282a08" ed="Y"/><lb n="0286a08" ed="Y" type="old"/><p xml:id="pY22p0282a0801" style="text-indent:2em">傳說與預言，是富有流動性的。它在時代與環境的變遷中，不息的演變；重
 <lb n="0282a09" ed="Y"/><lb n="0286a09" ed="Y" type="old"/>要的因素被忽略，附帶的因素反倒被強調起來。這因為，在新的時代環境中，易
 <lb n="0282a10" ed="Y"/><lb n="0286a10" ed="Y" type="old"/>與新的環境相結合，配合新事情，修正舊的而取得新的意境，這才能永久是活的
 <lb n="0282a11" ed="Y"/><lb n="0286a11" ed="Y" type="old"/>傳說、活的預言，不至於殭化而被遺棄。所以從傳說的變遷中，即可看出某些新
@@ -83,22 +103,22 @@
 <lb n="0283a03" ed="Y"/>間，北印佛教的教難，已大體可見。所以作為一完整而長期的傳說，單獨揭示<lb n="0287a04" ed="Y" type="old"/>出
 <lb n="0283a04" ed="Y"/>來。</p></cb:div>
 <lb n="0283a05" ed="Y"/><lb n="0287a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　三惡王毀法的傳說</cb:mulu><head>二　三惡王毀法的傳說</head>
-<lb n="0283a06" ed="Y"/><lb n="0287a06" ed="Y" type="old"/><p style="text-indent:2em">在這許多傳說中，<title level="m">《阿育王傳》</title>，可說是最古典的。中國即有三譯：甲、西
-<lb n="0283a07" ed="Y"/><lb n="0287a07" ed="Y" type="old"/>晉安法欽譯，名<bibl><title level="m">《阿育王傳》</title><biblScope type="卷" n="6">（卷六）</biblScope></bibl>。乙、宋求那跋陀羅譯的<bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="25">（<lb n="0287a08" ed="Y" type="old"/>卷
-<lb n="0283a08" ed="Y"/>二五）</biblScope></bibl>，也有此說。原來<bibl><title level="m">《雜阿含經》</title>的第<biblScope type="卷" n="23 25">二三與二五卷</biblScope></bibl>，本是<title level="m">《阿育王傳》</title>的
+<lb n="0283a06" ed="Y"/><lb n="0287a06" ed="Y" type="old"/><p xml:id="pY22p0283a0601" style="text-indent:2em">在這許多傳說中，<title level="m">《阿育王傳》</title>，可說是最古典的。中國即有三譯：甲、西
+<lb n="0283a07" ed="Y"/><lb n="0287a07" ed="Y" type="old"/>晉安法欽譯，名<bibl><title level="m">《阿育王傳》</title><biblScope n="6" type="卷">（卷六）</biblScope></bibl>。乙、宋求那跋陀羅譯的<bibl><title level="m">《雜阿含經》</title><biblScope n="25" type="卷">（<lb n="0287a08" ed="Y" type="old"/>卷
+<lb n="0283a08" ed="Y"/>二五）</biblScope></bibl>，也有此說。原來<bibl><title level="m">《雜阿含經》</title>的第<biblScope n="23 25" type="卷">二三與二五卷</biblScope></bibl>，本是<title level="m">《阿育王傳》</title>的
 <lb n="0283a09" ed="Y"/><lb n="0287a09" ed="Y" type="old"/>別譯，被人誤編在<title level="m">《雜阿含經》</title>中。丙、梁僧伽婆羅譯，名<title level="m">《阿育王經》</title>。論理
 <lb n="0283a10" ed="Y"/><lb n="0287a10" ed="Y" type="old"/>是一樣的，但這一傳說，被譯者略去，僅提到<quote source="T50n2043_p0150a21" type="嚴謹引文">「乃至未來三賊國王」<note n="0283001" resp="周怡曄" type="add">《阿育王傳》卷6：「未來之世當有三惡王出。」(CBETA, T50, no. 2042, p. 126, c1)</note></quote>（卷六）。
 <lb n="0283a11" ed="Y"/><lb n="0287a11" ed="Y" type="old"/>此項預言，係<quote source="T50n2042_p0126b26" type="嚴謹引文">「滿千年已，法欲滅時」<note n="0283002" resp="周怡曄" type="add">《阿育王傳》卷6(CBETA, T50, no. 2042, p. 126, b26)</note></quote>的惡王與惡比丘如何破壞佛法，以及最<lb n="0287a12" ed="Y" type="old"/>後
 <lb n="0283a12" ed="Y"/>滅法的情況。佛要四天王在佛法未滅以前，盡力護持。此外，還有丁、高齊那<pb n="0288a" ed="Y" xml:id="Y22.0022.0288a.old" type="old"/><lb n="0288a01" ed="Y" type="old"/>連
 <pb n="0284a" ed="Y" xml:id="Y22.0022.0284a"/>
-<lb n="0284a01" ed="Y"/>提耶舍譯的<bibl><bibl>《<title level="m">大集經</title>．<title level="a">月藏分</title>》</bibl><biblScope type="卷" n="56">（卷五六）</biblScope></bibl>，在護法的同樣動機下，將此傳說編入
+<lb n="0284a01" ed="Y"/>提耶舍譯的<bibl><bibl>《<title level="m">大集經</title>．<title level="a">月藏分</title>》</bibl><biblScope n="56" type="卷">（卷五六）</biblScope></bibl>，在護法的同樣動機下，將此傳說編入
 <lb n="0284a02" ed="Y"/><lb n="0288a02" ed="Y" type="old"/>，不過已參考別的記載了。傳說中的三惡王，是：</p>
-<lb n="0284a03" ed="Y"/><lb n="0288a03" ed="Y" type="old"/><p style="margin-left:5em;text-indent:-2em">甲：<quote type="嚴謹引文">「南方有王名釋拘……西方有王名曰鉢羅……北方有王名閻無那。」<note n="0284001" resp="周怡曄" type="add">《阿育王傳》卷6：「南方有王名釋拘。將十萬眷屬破壞塔寺殺害眾僧。西方有王名曰鉢[12]牢。亦將十萬眷屬亦[＊]壞破塔寺殺[13]諸道人。北方有王名閻無那。」(CBETA, T50, no. 2042, p. 126, c3-6)[12]牢＝羅【宋】【元】【明】【宮】。[＊10-1]壞破＝破壞【宋】【元】【明】【宮】＊。[13]諸＝害【宋】【元】【明】【宮】。</note></quote></p>
-<lb n="0284a04" ed="Y"/><lb n="0288a04" ed="Y" type="old"/><p style="margin-left:5em;text-indent:-2em">乙：<quote source="T02n0099_p0177c11-16" type="嚴謹引文">「西方有王名鉢羅婆……北方有王名耶槃那……南方有王名釋迦……
+<lb n="0284a03" ed="Y"/><lb n="0288a03" ed="Y" type="old"/><p xml:id="pY22p0284a0301" style="margin-left:5em;text-indent:-2em">甲：<quote type="嚴謹引文">「南方有王名釋拘……西方有王名曰鉢羅……北方有王名閻無那。」<note n="0284001" resp="周怡曄" type="add">《阿育王傳》卷6：「南方有王名釋拘。將十萬眷屬破壞塔寺殺害眾僧。西方有王名曰鉢[12]牢。亦將十萬眷屬亦[＊]壞破塔寺殺[13]諸道人。北方有王名閻無那。」(CBETA, T50, no. 2042, p. 126, c3-6)[12]牢＝羅【宋】【元】【明】【宮】。[＊10-1]壞破＝破壞【宋】【元】【明】【宮】＊。[13]諸＝害【宋】【元】【明】【宮】。</note></quote></p>
+<lb n="0284a04" ed="Y"/><lb n="0288a04" ed="Y" type="old"/><p xml:id="pY22p0284a0401" style="margin-left:5em;text-indent:-2em">乙：<quote source="T02n0099_p0177c11-16" type="嚴謹引文">「西方有王名鉢羅婆……北方有王名耶槃那……南方有王名釋迦……
 <lb n="0284a05" ed="Y"/><lb n="0288a05" ed="Y" type="old"/>東方有王名兜沙羅。」<note n="0284002" resp="周怡曄" type="add">《雜阿含經》卷25：「西方有王，名鉢羅婆，百千眷屬，破壞塔寺，殺害比丘。北方有王，名耶槃那，百千眷屬，破壞塔寺，殺害比丘。南方有王，名釋迦，百千眷屬，破壞塔寺，殺害比丘。東方有王，名兜沙羅」(CBETA, T02, no. 99, p. 177, c11-16)</note></quote></p>
-<lb n="0284a06" ed="Y"/><lb n="0288a06" ed="Y" type="old"/><p style="margin-left:5em;text-indent:-2em">丁：<quote source="T13n0397_p0377b24-29" type="嚴謹引文">「南方邊夷國，王名波羅帝……西方邊夷國，有王名百祀……北方邊
+<lb n="0284a06" ed="Y"/><lb n="0288a06" ed="Y" type="old"/><p xml:id="pY22p0284a0601" style="margin-left:5em;text-indent:-2em">丁：<quote source="T13n0397_p0377b24-29" type="嚴謹引文">「南方邊夷國，王名波羅帝……西方邊夷國，有王名百祀……北方邊
 <lb n="0284a07" ed="Y"/><lb n="0288a07" ed="Y" type="old"/>夷國，名善意釋迦。」<note n="0284003" resp="周怡曄" type="add">《大方等大集經》卷56〈20 法滅盡品〉：「南方邊夷國<space quantity="1" unit="chars"/>王名波羅帝<space quantity="1" unit="chars"/>百千諸軍眾<space quantity="1" unit="chars"/>士將共圍繞<space quantity="1" unit="chars"/>西方邊夷國<space quantity="1" unit="chars"/>有王名百祀<space quantity="1" unit="chars"/>亦將百千軍<space quantity="1" unit="chars"/>前後共圍繞<space quantity="1" unit="chars"/>北方邊夷[5]王<space quantity="1" unit="chars"/>名善意釋迦」(CBETA, T13, no. 397, p. 377, b24-29)[5]王＝國【宋】【元】【明】</note></quote></p>
-<lb n="0284a08" ed="Y"/><lb n="0288a08" ed="Y" type="old"/><p style="text-indent:2em">參考別的記載（見下），可決定早期的傳說，唯有「三王」。乙本的東方兜
+<lb n="0284a08" ed="Y"/><lb n="0288a08" ed="Y" type="old"/><p xml:id="pY22p0284a0801" style="text-indent:2em">參考別的記載（見下），可決定早期的傳說，唯有「三王」。乙本的東方兜
 <lb n="0284a09" ed="Y"/><lb n="0288a09" ed="Y" type="old"/>沙羅王，不過譯者為了滿足四方的均衡要求而附加的。從印度歷史去考察這一傳
 <lb n="0284a10" ed="Y"/><lb n="0288a10" ed="Y" type="old"/>說，知道此三王不是個人的私名，是國族的名字。他們的確曾侵入印度，成為印
 <lb n="0284a11" ed="Y"/><lb n="0288a11" ed="Y" type="old"/>度民族與佛教的威脅者。其中，「耶槃那」與「閻無那」，即梵語希臘的對音。
@@ -110,12 +130,12 @@
 <lb n="0285a03" ed="Y"/><lb n="0289a03" ed="Y" type="old"/>伽王朝的弗沙密多羅王在位時，希臘已深深侵入印度。弗王同時的文典學者帕坦
 <lb n="0285a04" ed="Y"/><lb n="0289a04" ed="Y" type="old"/>楂力，曾引用「希臘人方圍攻末荼彌迦」，「希臘人方圍攻娑寄多」的例句。<title level="m">《
 <lb n="0285a05" ed="Y"/><lb n="0289a05" ed="Y" type="old"/>古事集》</title>（<foreign xml:lang="sa">Purāṇa</foreign>）說：狡悍的希臘人，佔據娑寄多、般遮羅與摩偷羅。名劇失
-<lb n="0285a06" ed="Y"/><lb n="0289a06" ed="Y" type="old"/>環記（<foreign xml:lang="sa"><note n="0285a0601" resp="CBETA" type="add">Mālavikagnimitra【CB】，Mālavikag-nimitra【印順】</note><app n="0285a0601"><lem wit="【CB】" resp="正聞出版社">Mālavikagnimitra</lem><rdg wit="【印順】">Mālavikag-nimitra</rdg></app></foreign>），說到弗王孫伐蘇密多羅，護送祭馬，在印度河南岸
+<lb n="0285a06" ed="Y"/><lb n="0289a06" ed="Y" type="old"/>環記（<foreign xml:lang="sa"><note n="0285a0601" resp="CBETA" type="add">Mālavikagnimitra【CB】，Mālavikag-nimitra【印順】</note><app n="0285a0601"><lem resp="正聞出版社" wit="【CB】">Mālavikagnimitra</lem><rdg wit="【印順】">Mālavikag-nimitra</rdg></app></foreign>），說到弗王孫伐蘇密多羅，護送祭馬，在印度河南岸
 <lb n="0285a07" ed="Y"/><lb n="0289a07" ed="Y" type="old"/>受到臾那人的襲擊。希臘鐵蹄的如何縱橫，可以想見一二。佛教負有盛名的護法
 <lb n="0285a08" ed="Y"/><lb n="0289a08" ed="Y" type="old"/>者——彌鄰陀王，即屬於希臘的猶塞德謨王系。他約西元前一五〇年前後在位，
 <lb n="0285a09" ed="Y"/><lb n="0289a09" ed="Y" type="old"/>為希臘人在印度的全盛時代。丁本的「百祀」王，大抵是希臘的訛筆或誤譯。因
 <lb n="0285a10" ed="Y"/><lb n="0289a10" ed="Y" type="old"/>為，祀在梵語是耶柔，與希臘的梵音略近。</p>
-<lb n="0285a11" ed="Y"/><lb n="0289a11" ed="Y" type="old"/><p style="text-indent:2em">「波羅帝」，即波斯的對音，<title level="m">《西域記》</title>作「波剌斯」<note n="0285001" resp="周怡曄" type="add">《大唐西域記》卷11：「[17]波剌斯國<note place="inline">雖非印度之國路次[＊]附出舊曰波斯</note>」(CBETA, T51, no. 2087, p. 932, b16)[17]波＝婆【甲】。[＊14-1]附＝坿【明】＊。</note>。在梵文的文獻中，
+<lb n="0285a11" ed="Y"/><lb n="0289a11" ed="Y" type="old"/><p xml:id="pY22p0285a1101" style="text-indent:2em">「波羅帝」，即波斯的對音，<title level="m">《西域記》</title>作「波剌斯」<note n="0285001" resp="周怡曄" type="add">《大唐西域記》卷11：「[17]波剌斯國<note place="inline">雖非印度之國路次[＊]附出舊曰波斯</note>」(CBETA, T51, no. 2087, p. 932, b16)[17]波＝婆【甲】。[＊14-1]附＝坿【明】＊。</note>。在梵文的文獻中，
 <lb n="0285a12" ed="Y"/><lb n="0289a12" ed="Y" type="old"/>進入印度的波斯人，被稱為 <foreign xml:lang="en">Pallava</foreign>，即鉢羅婆。佛典中常見的「波羅越」，也
 <lb n="0285a13" ed="Y"/><lb n="0289a13" ed="Y" type="old"/>就是這些人。「釋拘」與「釋迦」，與迦毘羅衛的釋迦族無關。這裡所說的，是<pb n="0290a" ed="Y" xml:id="Y22.0022.0290a.old" type="old"/>
 <pb n="0286a" ed="Y" xml:id="Y22.0022.0286a"/>
@@ -127,7 +147,7 @@
 <lb n="0286a06" ed="Y"/><lb n="0290a06" ed="Y" type="old"/>人在印度的統治權，開始衰落了。塞迦與波羅婆人，彼此間每每混雜不清，政治
 <lb n="0286a07" ed="Y"/><lb n="0290a07" ed="Y" type="old"/>組織有同一的牧伯制。西元前七、八十年，領導這二族的，通常稱為塞迦——即
 <lb n="0286a08" ed="Y"/><lb n="0290a08" ed="Y" type="old"/>塞迦人為主體的茂斯王。那時，發展於沿海岸而東進的，有塞迦族的叉訶羅多人
-<lb n="0286a09" ed="Y"/><lb n="0290a09" ed="Y" type="old"/>。西元一世紀後半，深入內地，以鄔闍衍<note n="0286a0901" resp="CBETA" type="add">那【CB】，［－］【印順】</note><app n="0286a0901"><lem wit="【CB】" resp="正聞出版社">那</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>為中心的卡須那多王——塞迦人，大概
+<lb n="0286a09" ed="Y"/><lb n="0290a09" ed="Y" type="old"/>。西元一世紀後半，深入內地，以鄔闍衍<note n="0286a0901" resp="CBETA" type="add">那【CB】，［－］【印順】</note><app n="0286a0901"><lem resp="正聞出版社" wit="【CB】">那</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>為中心的卡須那多王——塞迦人，大概
 <lb n="0286a10" ed="Y"/><lb n="0290a10" ed="Y" type="old"/>也在此時向東擴展了。在北方，茂斯王朝已佔有高附及旁遮普西部。但不久，領
 <lb n="0286a11" ed="Y"/><lb n="0290a11" ed="Y" type="old"/>導權落到波羅婆人手中，這可以從錢幣的考察而知。茂斯的兒子阿吉斯，他的錢
 <lb n="0286a12" ed="Y"/><lb n="0290a12" ed="Y" type="old"/>幣，不如茂斯的單用自己名字及「王中王」的尊號，每刻著「王中王孚農」的名
@@ -139,7 +159,7 @@
 <lb n="0287a04" ed="Y"/><lb n="0291a04" ed="Y" type="old"/>有波斯語的名字，當然是波羅婆族。希臘人在印度的政權，到這時才完全瓦解。
 <lb n="0287a05" ed="Y"/><lb n="0291a05" ed="Y" type="old"/>大約西元五十年時，大月氏的兵力進入印度，取西北印波羅婆人的地位而代之；
 <lb n="0287a06" ed="Y"/><lb n="0291a06" ed="Y" type="old"/>南方的塞迦，雖然服屬月氏，保持相當的自由發展。</p>
-<lb n="0287a07" ed="Y"/><lb n="0291a07" ed="Y" type="old"/><p style="text-indent:2em">傳說中的三王，確曾先後而同時的侵擾印度。依印度史的實際情形，研究<title level="m">《
+<lb n="0287a07" ed="Y"/><lb n="0291a07" ed="Y" type="old"/><p xml:id="pY22p0287a0701" style="text-indent:2em">傳說中的三王，確曾先後而同時的侵擾印度。依印度史的實際情形，研究<title level="m">《
 <lb n="0287a08" ed="Y"/><lb n="0291a08" ed="Y" type="old"/>阿育王傳》</title>的記載，從三王的地理分布上，可以推斷這是西元前三、五十年的局
 <lb n="0287a09" ed="Y"/><lb n="0291a09" ed="Y" type="old"/>面。這一傳說，是罽賓作者從罽賓以眺望印度西北的。那時，塞迦的叉訶羅多<lb n="0291a10" ed="Y" type="old"/>人
 <lb n="0287a10" ed="Y"/>（還有卡須那多系的前代）在坎貝灣一帶，確乎在西南。希臘人局促於奢羯羅<lb n="0291a11" ed="Y" type="old"/>迤
@@ -148,23 +168,23 @@
 <lb n="0287a13" ed="Y"/>度即沒有耶槃那王的地位。再遲一些，大月氏東來，那就完全不同了。似乎也<pb n="0292a" ed="Y" xml:id="Y22.0022.0292a.old" type="old"/><lb n="0292a01" ed="Y" type="old"/>不
 <pb n="0288a" ed="Y" xml:id="Y22.0022.0288a"/>
 <lb n="0288a01" ed="Y"/>能再早些，再早三數十年，在茂斯王時，還沒有西方鉢羅婆的形勢呢！</p>
-<lb n="0288a02" ed="Y"/><lb n="0292a02" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《<note n="0288a0201" resp="CBETA" type="add">大集經月藏分【CB】，大乘月藏經【印順】</note><app n="0288a0201"><lem wit="【CB】" resp="正聞出版社">大集經．月藏分</lem><rdg wit="【印順】">大乘月藏經</rdg></app>》</title>，所記三王的方位不同，他已不明當時的實情；傳說的
+<lb n="0288a02" ed="Y"/><lb n="0292a02" ed="Y" type="old"/><p xml:id="pY22p0288a0201" style="text-indent:2em"><title level="m">《<note n="0288a0201" resp="CBETA" type="add">大集經月藏分【CB】，大乘月藏經【印順】</note><app n="0288a0201"><lem resp="正聞出版社" wit="【CB】">大集經．月藏分</lem><rdg wit="【印順】">大乘月藏經</rdg></app>》</title>，所記三王的方位不同，他已不明當時的實情；傳說的
 <lb n="0288a03" ed="Y"/>不同<lb n="0292a03" ed="Y" type="old"/>，決不能動搖<title level="m">《阿育王傳》</title>適合實際情況的價值！</p>
-<lb n="0288a04" ed="Y"/><lb n="0292a04" ed="Y" type="old"/><p style="text-indent:2em">在<title level="m">《阿育王傳》</title>中，說到三王<quote source="T50n2042_p0126c04" type="嚴謹引文">「破壞塔寺，殺害眾僧」<note n="0288001" resp="周怡曄" type="add">《阿育王傳》卷6(CBETA, T50, no. 2042, p. 126, c4)</note></quote>。這些侵入印度的外
+<lb n="0288a04" ed="Y"/><lb n="0292a04" ed="Y" type="old"/><p xml:id="pY22p0288a0401" style="text-indent:2em">在<title level="m">《阿育王傳》</title>中，說到三王<quote source="T50n2042_p0126c04" type="嚴謹引文">「破壞塔寺，殺害眾僧」<note n="0288001" resp="周怡曄" type="add">《阿育王傳》卷6(CBETA, T50, no. 2042, p. 126, c4)</note></quote>。這些侵入印度的外
 <lb n="0288a05" ed="Y"/><lb n="0292a05" ed="Y" type="old"/>族，後來雖多有信佛的，然在侵入的階段，於佛教是不會有好感的。對於佛教寺
 <lb n="0288a06" ed="Y"/><lb n="0292a06" ed="Y" type="old"/>塔的財富，也不會不摧殘掠奪的。何況，民族的特性不同，不能立即融洽！一直
 <lb n="0288a07" ed="Y"/><lb n="0292a07" ed="Y" type="old"/>到西元一二五年頃，安達羅喬曇彌子王，擊破塞迦、叉訶羅多與波羅婆人。照
 <lb n="0288a08" ed="Y"/> <lb n="0292a08" ed="Y" type="old"/><foreign xml:lang="sa">Chaitya cava karli</foreign> 第十七碑所說，喬曇彌子以印度的宗教的保護者自居（那時
 <lb n="0288a09" ed="Y"/>，<lb n="0292a09" ed="Y" type="old"/>王家是特別信佛的）。所以三族的侵入印度，<quote type="嚴謹引文">「破壞塔寺，殺害眾僧」</quote>的暴行
 <lb n="0288a10" ed="Y"/>，<lb n="0292a10" ed="Y" type="old"/>可能是非常嚴重的，引起佛教徒內心的悲憤。</p>
-<lb n="0288a11" ed="Y"/><lb n="0292a11" ed="Y" type="old"/><p style="text-indent:2em">傳上說<quote source="T50n2042_p0126c18-19" type="嚴謹引文">「三惡王毀滅佛法，殺害一切；欲向東方」<note n="0288002" resp="周怡曄" type="add">《阿育王傳》卷6(CBETA, T50, no. 2042, p. 126, c18-19)</note></quote>；這確乎寫出了侵逼恆<lb n="0292a12" ed="Y" type="old"/>河
+<lb n="0288a11" ed="Y"/><lb n="0292a11" ed="Y" type="old"/><p xml:id="pY22p0288a1101" style="text-indent:2em">傳上說<quote source="T50n2042_p0126c18-19" type="嚴謹引文">「三惡王毀滅佛法，殺害一切；欲向東方」<note n="0288002" resp="周怡曄" type="add">《阿育王傳》卷6(CBETA, T50, no. 2042, p. 126, c18-19)</note></quote>；這確乎寫出了侵逼恆<lb n="0292a12" ed="Y" type="old"/>河
 <lb n="0288a12" ed="Y"/>上流而進窺中流的情況。東方，像拘睒彌、阿瑜陀等就是。拘睒彌的大軍王（<lb n="0292a13" ed="Y" type="old"/>或
 <lb n="0288a13" ed="Y"/>作摩醯因陀羅斯那），傳位給兒子難當（或難看）王，在十二年中，殲滅三惡<pb n="0293a" ed="Y" xml:id="Y22.0022.0293a.old" type="old"/><lb n="0293a01" ed="Y" type="old"/>王
 <pb n="0289a" ed="Y" xml:id="Y22.0022.0289a"/>
 <lb n="0289a01" ed="Y"/>而作閻浮提王。勝利以後，難當王舉行十二年的無遮大施。當時，佛弟子自相<lb n="0293a02" ed="Y" type="old"/>諍
 <lb n="0289a02" ed="Y"/>論。結果，持律的羅漢、多聞的三藏，彼此兩集團的爭執，演成流血慘劇，終<lb n="0293a03" ed="Y" type="old"/>於
 <lb n="0289a03" ed="Y"/>佛法從這個世界上滅盡。</p>
-<lb n="0289a04" ed="Y"/><lb n="0293a04" ed="Y" type="old"/><p style="text-indent:2em">法滅的預言，何以在拘睒彌？在聲聞乘的經律中，敘到佛教僧團內部的糾紛
+<lb n="0289a04" ed="Y"/><lb n="0293a04" ed="Y" type="old"/><p xml:id="pY22p0289a0401" style="text-indent:2em">法滅的預言，何以在拘睒彌？在聲聞乘的經律中，敘到佛教僧團內部的糾紛
 <lb n="0289a05" ed="Y"/><lb n="0293a05" ed="Y" type="old"/>，一致說開始於拘睒彌。釋尊在世的時候，已有過律師與三藏的大諍論，甚至不
 <lb n="0289a06" ed="Y"/><lb n="0293a06" ed="Y" type="old"/>肯接受釋尊的勸解。所以拘睒彌成為是非爭執的象徵；檢讀廣律，即可明白。諍
 <lb n="0289a07" ed="Y"/><lb n="0293a07" ed="Y" type="old"/>論，破壞了僧團的和諧合作，專在人我是非上打算，不能致力於佛法的自利利人
@@ -177,13 +197,13 @@
 <pb n="0290a" ed="Y" xml:id="Y22.0022.0290a"/>
 <lb n="0290a01" ed="Y"/><lb n="0294a01" ed="Y" type="old"/>從阿輸迦王時代以來，一天天的部派紛歧，教學者與行持者的尖銳對立，於是呼
 <lb n="0290a02" ed="Y"/><lb n="0294a02" ed="Y" type="old"/>出正法千年佛法盡滅的預言，來警告佛教的僧侶們。</p>
-<lb n="0290a03" ed="Y"/><lb n="0294a03" ed="Y" type="old"/><p style="text-indent:2em">這樣的去分析、理解預言者的心境，可說是非常正確的。那麼，拘睒彌國王
+<lb n="0290a03" ed="Y"/><lb n="0294a03" ed="Y" type="old"/><p xml:id="pY22p0290a0301" style="text-indent:2em">這樣的去分析、理解預言者的心境，可說是非常正確的。那麼，拘睒彌國王
 <lb n="0290a04" ed="Y"/><lb n="0294a04" ed="Y" type="old"/>的破滅三惡王的記載，又是否事實呢？不，這不過理想而已。當時，不但外族憑
 <lb n="0290a05" ed="Y"/><lb n="0294a05" ed="Y" type="old"/>陵，依傳上說，<quote source="T50n2042_p0126c07-09" type="嚴謹引文">「東方當爾之時，諸非人鬼神亦苦惱人，劫盜等賊亦甚眾多，惡
 <lb n="0290a06" ed="Y"/><lb n="0294a06" ed="Y" type="old"/>王亦種種苦惱謫罰恐怖」<note n="0290001" resp="周怡曄" type="add">《阿育王傳》卷6(CBETA, T50, no. 2042, p. 126, c7-9)</note></quote>。印度在整個不安與苦難之中，預言者不能不將擊退外
 <lb n="0290a07" ed="Y"/><lb n="0294a07" ed="Y" type="old"/>族、安定印度的功業，寄託於像阿輸迦王那樣的「王一天下」的理想的國王（<title level="m">《
 <lb n="0290a08" ed="Y"/><lb n="0294a08" ed="Y" type="old"/>阿育王傳》</title>，即是在這樣的意境下編成的）。我們不能忽略，這正是<title level="m">《阿育王傳
-<lb n="0290a09" ed="Y"/><lb n="0294a09" ed="Y" type="old"/>》</title>的傳說呀！因此，日本椎尾辨匡氏在<bibl><title level="m">《佛教經典概說》</title>（<biblScope n="1" type="chap">第一章</biblScope>第<biblScope type="節" n="2">二節</biblScope>）</bibl>中，
+<lb n="0290a09" ed="Y"/><lb n="0294a09" ed="Y" type="old"/>》</title>的傳說呀！因此，日本椎尾辨匡氏在<bibl><title level="m">《佛教經典概說》</title>（<biblScope n="1" type="chap">第一章</biblScope>第<biblScope n="2" type="節">二節</biblScope>）</bibl>中，
 <lb n="0290a10" ed="Y"/>以<lb n="0294a10" ed="Y" type="old"/>難當王的勝利，推想為喬曇彌子的勝利。而不久，塞迦的盧陀羅達摩，又戰勝
 <lb n="0290a11" ed="Y"/>安<lb n="0294a11" ed="Y" type="old"/>達羅王，於是佛教徒又奏起法滅的悲歌。他的解說，顯然是不能在預言式的傳
 <lb n="0290a12" ed="Y"/>說<lb n="0294a12" ed="Y" type="old"/>中，正確的分辨那現實事情與理想的成分。大軍與難當，與悉婆跋提及喬曇彌
@@ -200,12 +220,12 @@
 <lb n="0291a09" ed="Y"/>傳說——即<lb n="0295a09" ed="Y" type="old"/><title level="m">《阿育王傳》</title>的編纂，以希臘的政權還局部殘留、熏迦王朝已亡的時
 <lb n="0291a10" ed="Y"/>候，最為妥<lb n="0295a10" ed="Y" type="old"/>當；這即是西元前三、五十年間吧！</p></cb:div>
 <lb n="0291a11" ed="Y"/><lb n="0295a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　迦旃延與僧伽羅剎的忠告</cb:mulu><head>三　迦旃延與僧伽羅剎的忠告</head>
-<lb n="0291a12" ed="Y"/><lb n="0295a12" ed="Y" type="old"/><p style="text-indent:2em">從<title level="m">《阿育王傳》</title>中，提出惡王與法滅的部分，給予單獨組織的，有<title level="m">《佛使比<pb n="0296a" ed="Y" xml:id="Y22.0022.0296a.old" type="old"/>
+<lb n="0291a12" ed="Y"/><lb n="0295a12" ed="Y" type="old"/><p xml:id="pY22p0291a1201" style="text-indent:2em">從<title level="m">《阿育王傳》</title>中，提出惡王與法滅的部分，給予單獨組織的，有<title level="m">《佛使比<pb n="0296a" ed="Y" xml:id="Y22.0022.0296a.old" type="old"/>
 <pb n="0292a" ed="Y" xml:id="Y22.0022.0292a"/>
 <lb n="0292a01" ed="Y"/><lb n="0296a01" ed="Y" type="old"/>丘迦旃延說法沒盡偈經》</title>，凡一百二十章（偈），失譯。同本異譯的<title level="m">《迦丁比丘
 <lb n="0292a02" ed="Y"/><lb n="0296a02" ed="Y" type="old"/>說當來變經》</title>，標<quote source="T49n2028_p0007a23" type="嚴謹引文">「失譯人名，今附宋錄」<note n="0292001" resp="周怡曄" type="add">《迦丁比丘說當來變經》卷1(CBETA, T49, no. 2028, p. 7, a23)</note></quote>，其實應該是晉譯。在這兩種譯本中
 <lb n="0292a03" ed="Y"/><lb n="0296a03" ed="Y" type="old"/>，看見一些新的事實與意義。</p>
-<lb n="0292a04" ed="Y"/><lb n="0296a04" ed="Y" type="old"/><p style="text-indent:2em">這是迦旃延（即迦丁）比丘看到未來的情況，為弟子們宣說，以警策弟子們
+<lb n="0292a04" ed="Y"/><lb n="0296a04" ed="Y" type="old"/><p xml:id="pY22p0292a0401" style="text-indent:2em">這是迦旃延（即迦丁）比丘看到未來的情況，為弟子們宣說，以警策弟子們
 <lb n="0292a05" ed="Y"/><lb n="0296a05" ed="Y" type="old"/>精進修行的。偈說：<quote source="T49n2029_p0011b12-15" type="嚴謹引文">「將有三惡王，大秦在於前，撥羅在於後，安息在中央。由
 <lb n="0292a06" ed="Y"/><lb n="0296a06" ed="Y" type="old"/>於是之故，正法有棄亡。」<note n="0292002" resp="周怡曄" type="add">《佛使比丘迦旃延說法沒盡偈百二十章》卷1(CBETA, T49, no. 2029, p. 11, b12-15)</note></quote>大秦，佛典中常用來譯希臘的。撥羅，即波羅婆的略
 <lb n="0292a07" ed="Y"/><lb n="0296a07" ed="Y" type="old"/>譯。但在撥羅以外，更有安息，這是多少費解的。因為中國史中所稱的安息，即
@@ -213,7 +233,7 @@
 <lb n="0292a09" ed="Y"/><lb n="0296a09" ed="Y" type="old"/>的。本經的編撰，約為西元一世紀。那時，不但印度、月氏、康居、安息佛教<lb n="0296a10" ed="Y" type="old"/>都
 <lb n="0292a10" ed="Y"/>普遍發展，這些國族的動亂，都直接與佛教有關。從本經的內容看來，這不如<lb n="0296a11" ed="Y" type="old"/><title level="m">《
 <lb n="0292a11" ed="Y"/>阿育王傳》</title>那樣以拘睒彌為中心而眺望印度，本經的重心在北方。</p>
-<lb n="0292a12" ed="Y"/><lb n="0296a12" ed="Y" type="old"/><p style="text-indent:2em">在迦旃延說完了以後，<quote source="T49n2029_p0012b19-21" type="嚴謹引文">「沙門解羅剎，聞是法教戒，前稽首作禮，耆年迦旃
+<lb n="0292a12" ed="Y"/><lb n="0296a12" ed="Y" type="old"/><p xml:id="pY22p0292a1201" style="text-indent:2em">在迦旃延說完了以後，<quote source="T49n2029_p0012b19-21" type="嚴謹引文">「沙門解羅剎，聞是法教戒，前稽首作禮，耆年迦旃
 <lb n="0292a13" ed="Y"/><lb n="0296a13" ed="Y" type="old"/>子」<note n="0292003" resp="周怡曄" type="add">《佛使比丘迦旃延說法沒盡偈百二十章》卷1(CBETA, T49, no. 2029, p. 12, b19-21)</note></quote>。此<quote type="嚴謹引文">「沙門解羅剎」</quote>，異譯略作弟子，所以應是迦旃延的弟子。考說一切有<pb n="0297a" ed="Y" xml:id="Y22.0022.0297a.old" type="old"/>
 <pb n="0293a" ed="Y" xml:id="Y22.0022.0293a"/>
 <lb n="0293a01" ed="Y"/><lb n="0297a01" ed="Y" type="old"/>系，有大德「僧伽羅叉」，梵音 <foreign xml:lang="sa">Saṃgharakṣa</foreign>，即此<quote type="嚴謹引文">「沙門解羅剎」</quote>的對音。<lb n="0297a02" ed="Y" type="old"/>沙
@@ -230,7 +250,7 @@
 <lb n="0293a12" ed="Y"/>他翻譯出來<lb n="0297a12" ed="Y" type="old"/>，可想見他是很早的。本經不一定為僧伽羅剎所編，應為重律與重禪
 <lb n="0293a13" ed="Y"/>的學者以<title level="m">《<lb n="0297a13" ed="Y" type="old"/>阿育王傳》</title>的傳說而再編的。</p><pb n="0298a" ed="Y" xml:id="Y22.0022.0298a.old" type="old"/>
 <pb n="0294a" ed="Y" xml:id="Y22.0022.0294a"/>
-<lb n="0294a01" ed="Y"/><lb n="0298a01" ed="Y" type="old"/><p style="text-indent:2em">異譯<title level="m">《當來變經》</title>，沒有提到沙門解羅剎，但該經譯者，可說太不忠實。他
+<lb n="0294a01" ed="Y"/><lb n="0298a01" ed="Y" type="old"/><p xml:id="pY22p0294a0101" style="text-indent:2em">異譯<title level="m">《當來變經》</title>，沒有提到沙門解羅剎，但該經譯者，可說太不忠實。他
 <lb n="0294a02" ed="Y"/><lb n="0298a02" ed="Y" type="old"/>論到三王時說：<quote source="T49n2028_p0008c24" type="嚴謹引文">「當有三天子出，破壞天下：一名邪來那，近在南方；中國當有
 <lb n="0294a03" ed="Y"/><lb n="0298a03" ed="Y" type="old"/>一天子出；北方晉土有一天子，名曰揵秋。佛法將滅，此三天子乃出晉，破壞國
 <lb n="0294a04" ed="Y"/><lb n="0298a04" ed="Y" type="old"/>土。……爾時，中國天子，當復興兵破壞晉土。」<note n="0294001" resp="周怡曄" type="add">《迦丁比丘說當來變經》卷1：「當有三天子出破壞天下。一名[38]耶來那。近在南方中國。當有一天子出北方晉土。有一天子名曰揵秋。佛法將滅。此三天子乃出晉。破壞國土殺害人民。破塔僧園輕慢沙門拷治五毒。亦率兵眾詣天竺國。破壞土地多所殘害。爾時中國天子。當復興兵破壞晉土」(CBETA, T49, no. 2028, p. 8, c24-p. 9, a1)[38]耶＝邪【宋】【元】【明】【宮】</note></quote>除了邪來（末字的誤寫）那即
@@ -239,7 +259,7 @@
 <lb n="0294a07" ed="Y"/>對照中<lb n="0298a07" ed="Y" type="old"/>國的現實。的確，西晉末年起，五胡亂華，北方佛教大受摧殘。破壞晉土
 <lb n="0294a08" ed="Y"/>，即是<lb n="0298a08" ed="Y" type="old"/>譯者有意的新見解。本譯較<title level="m">《法沒盡偈經》</title>要長一點，有演繹處；在文證
 <lb n="0294a09" ed="Y"/>上，遠不及<title level="m">《<lb n="0298a09" ed="Y" type="old"/>法沒盡偈經》</title>的價值。</p>
-<lb n="0294a10" ed="Y"/><lb n="0298a10" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《法沒盡偈經》</title>的編述，與<title level="m">《阿育王傳》</title>有一顯著的不同，即<title level="m">《法沒盡偈經
+<lb n="0294a10" ed="Y"/><lb n="0298a10" ed="Y" type="old"/><p xml:id="pY22p0294a1001" style="text-indent:2em"><title level="m">《法沒盡偈經》</title>的編述，與<title level="m">《阿育王傳》</title>有一顯著的不同，即<title level="m">《法沒盡偈經
 <lb n="0294a11" ed="Y"/>》</title><lb n="0298a11" ed="Y" type="old"/>以為惡王的興起與壞法，實由於比丘們不能依法而行。如說：<quote source="T49n2029_p0011a27-b01" type="嚴謹引文">「五通諸學士，
 <lb n="0294a12" ed="Y"/>不<lb n="0298a12" ed="Y" type="old"/>能毀法義，及所興布施。其從釋迦文，因佛作沙門，當毀於正法。」<note n="0294002" resp="周怡曄" type="add">《佛使比丘迦旃延說法沒盡偈百二十章》卷1(CBETA, T49, no. 2029, p. 11, a27-b1)</note></quote>所以，持
 <lb n="0294a13" ed="Y"/>律<lb n="0298a13" ed="Y" type="old"/>者與多聞者的諍論，雖仍為末後的重要事件，而在惡王出現以前，即痛陳比丘
@@ -250,19 +270,19 @@
 <lb n="0295a04" ed="Y"/>即是<title level="m">《<lb n="0299a04" ed="Y" type="old"/>法沒盡偈經》</title>成立的唯一理由。當時的西北印度以及吐火羅一帶的佛教，
 <lb n="0295a05" ed="Y"/>雖在普遍的<lb n="0299a05" ed="Y" type="old"/>發展，在家信徒增多，而比丘們卻確乎不能力求進步，品質一天天的
 <lb n="0295a06" ed="Y"/>沒落了！我<lb n="0299a06" ed="Y" type="old"/>可以引述幾條經論，以證實此一事實：</p>
-<lb n="0295a07" ed="Y"/><lb n="0299a07" ed="Y" type="old"/><p style="text-indent:2em">一、<cit><bibl><title level="m">《蓮華面經》</title>說：</bibl><quote source="T12n0386_p1073a29-b02" type="嚴謹引文">「未來之世，多有在家白衣得生天上，多有出家之人
+<lb n="0295a07" ed="Y"/><lb n="0299a07" ed="Y" type="old"/><p xml:id="pY22p0295a0701" style="text-indent:2em">一、<cit><bibl><title level="m">《蓮華面經》</title>說：</bibl><quote source="T12n0386_p1073a29-b02" type="嚴謹引文">「未來之世，多有在家白衣得生天上，多有出家之人
 <lb n="0295a08" ed="Y"/><lb n="0299a08" ed="Y" type="old"/>墮於地獄、餓鬼、畜生。」</quote><note n="0295002" resp="周怡曄" type="add">《蓮華面經》卷1(CBETA, T12, no. 386, p. 1073, a29-b2)</note></cit>二、<cit><bibl><title level="m">《大悲經》</title><biblScope n="2" type="卷">（卷二）</biblScope>說：</bibl><quote source="T12n0380_p0955a07-b22" type="嚴謹引文">「彼富迦羅跋帝王都<lb n="0299a09" ed="Y" type="old"/>（迦
 <lb n="0295a09" ed="Y"/>膩色迦王之都），所有在家諸白衣等，彼命終已生兜率天，諸出家者悉墮地<lb n="0299a10" ed="Y" type="old"/>獄。
 <lb n="0295a10" ed="Y"/>何以故？彼不住戒、不住律儀故。……爾時，多有比丘不持禁戒，多作非法。<lb n="0299a11" ed="Y" type="old"/>」</quote><note n="0295003" resp="周怡曄" type="add">《大悲經》卷2〈6 持正法品〉(CBETA, T12, no. 380, p. 955, a7-b22)</note></cit>
 <lb n="0295a11" ed="Y"/>三、<cit><bibl><title level="m">《大威德陀羅尼經》</title>說：</bibl><quote source="T21n1341_p0826b20-21" type="嚴謹引文">「於彼之時，出家之人，多饒煩惱，非諸俗人<lb n="0299a12" ed="Y" type="old"/>在家
-<lb n="0295a12" ed="Y"/>。」</quote><note n="0295004" resp="周怡曄" type="add">《大威德陀羅尼經》卷17(CBETA, T21, no. 1341, p. 826, b20-21)</note></cit>四、<cit><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="183">（卷一八三）</biblScope>說：</bibl><quote type="嚴謹引文">「勿謂今由在家弟子不能給施諸<lb n="0299a13" ed="Y" type="old"/>出家人
+<lb n="0295a12" ed="Y"/>。」</quote><note n="0295004" resp="周怡曄" type="add">《大威德陀羅尼經》卷17(CBETA, T21, no. 1341, p. 826, b20-21)</note></cit>四、<cit><bibl><title level="m">《大毘婆沙論》</title><biblScope n="183" type="卷">（卷一八三）</biblScope>說：</bibl><quote type="嚴謹引文">「勿謂今由在家弟子不能給施諸<lb n="0299a13" ed="Y" type="old"/>出家人
 <lb n="0295a13" ed="Y"/>令乏短故，正法滅沒；但由仁等出家弟子無正行故，令正法滅。」</quote><note n="0295005" resp="周怡曄" type="add">《阿毘達磨大毘婆沙論》卷183(CBETA, T27, no. 1545, p. 918, b15-18)</note></cit>佛法愈隆盛<pb n="0300a" ed="Y" xml:id="Y22.0022.0300a.old" type="old"/><lb n="0300a01" ed="Y" type="old"/>，
 <pb n="0296a" ed="Y" xml:id="Y22.0022.0296a"/>
 <lb n="0296a01" ed="Y"/>信施愈多，僧眾的生活愈優越；在受施而生活的制度下，賴佛逃生——<quote source="T49n2029_p0011a28-b01" type="嚴謹引文">「及所<lb n="0300a02" ed="Y" type="old"/>興
 <lb n="0296a02" ed="Y"/>布施，其從釋迦文，因佛作沙門」<note n="0296001" resp="周怡曄" type="add">《佛使比丘迦旃延說法沒盡偈百二十章》卷1(CBETA, T49, no. 2029, p. 11, a28-b1)</note></quote>——的病態一天天擴大，這即是在家眾生天<lb n="0300a03" ed="Y" type="old"/>、
 <lb n="0296a03" ed="Y"/>出家眾墮落的問題所在。為了生活而出家、而弘法，必然地引導佛法走上衰危<lb n="0300a04" ed="Y" type="old"/>的
 <lb n="0296a04" ed="Y"/>前途！</p>
-<lb n="0296a05" ed="Y"/><lb n="0300a05" ed="Y" type="old"/><p style="text-indent:2em">經中指責比丘們的惡行，略舉幾點如下：一、捨經法而樂受雜說：這造成了
+<lb n="0296a05" ed="Y"/><lb n="0300a05" ed="Y" type="old"/><p xml:id="pY22p0296a0501" style="text-indent:2em">經中指責比丘們的惡行，略舉幾點如下：一、捨經法而樂受雜說：這造成了
 <lb n="0296a06" ed="Y"/><lb n="0300a06" ed="Y" type="old"/>彼此相諍、師弟相謗的惡現象。偈說：<quote type="嚴謹引文">「當捨諸經法……反受雜文章……見訓諸
 <lb n="0296a07" ed="Y"/>淺<lb n="0300a07" ed="Y" type="old"/>經，心意為欣悅……聞受皆浮漫，講論無清話。」<note n="0296002" resp="周怡曄" type="add">《佛使比丘迦旃延說法沒盡偈百二十章》卷1：「當捨諸經法<space quantity="1" unit="chars"/>聖覺之所講<space quantity="1" unit="chars"/>反受雜文章<space quantity="1" unit="chars"/>廢捐佛所說<space quantity="1" unit="chars"/>見訓諸淺經<space quantity="1" unit="chars"/>心意為欣悅<space quantity="1" unit="chars"/>常當共諍訟<space quantity="1" unit="chars"/>違教背典經<space quantity="1" unit="chars"/>展轉興誹謗<space quantity="1" unit="chars"/>各各相慢輕<space quantity="1" unit="chars"/>愚癡課難化<space quantity="1" unit="chars"/>無智如株杌<space quantity="1" unit="chars"/>卿無所別知<space quantity="1" unit="chars"/>不學佛正法<space quantity="1" unit="chars"/>釋置經義理<space quantity="1" unit="chars"/>更互相求短<space quantity="1" unit="chars"/>吾身所聞傳<space quantity="1" unit="chars"/>獨步無儔伴<space quantity="1" unit="chars"/>持中以著下<space quantity="1" unit="chars"/>舉下著於中<space quantity="1" unit="chars"/>不復識次第<space quantity="1" unit="chars"/>所說貴不窮<space quantity="1" unit="chars"/>證處設乖謬<space quantity="1" unit="chars"/>反說無本末<space quantity="1" unit="chars"/>聞受皆浮漫<space quantity="1" unit="chars"/>講論無清話」(CBETA, T49, no. 2029, p. 10, a1-14)</note></quote>這一指責，包含了佛教界的
 <lb n="0296a08" ed="Y"/>重<lb n="0300a08" ed="Y" type="old"/>要問題。從佛滅三世紀以來，聲聞佛教中開拓一種通俗化的運動，即編集許多
@@ -282,10 +302,10 @@
 <lb n="0297a08" ed="Y"/>販<lb n="0301a08" ed="Y" type="old"/>賣規賈利，出入求生息。」<note n="0297003" resp="周怡曄" type="add">《佛使比丘迦旃延說法沒盡偈百二十章》卷1：「心樂佛法者<space quantity="1" unit="chars"/>不念諸比丘<space quantity="1" unit="chars"/>不復行擁護<space quantity="1" unit="chars"/>於時弊鬼神<space quantity="1" unit="chars"/>凶暴行毒害<space quantity="1" unit="chars"/>取比丘精氣<space quantity="1" unit="chars"/>令命無有餘<space quantity="1" unit="chars"/>比丘多疾病<space quantity="1" unit="chars"/>羸劣無氣力<space quantity="1" unit="chars"/>失神顏色變<space quantity="1" unit="chars"/>勤苦遭眾厄<space quantity="1" unit="chars"/>展轉相憎嫉<space quantity="1" unit="chars"/>疾病不相瞻<space quantity="1" unit="chars"/>或有至死亡<space quantity="1" unit="chars"/>無護橫夭終<space quantity="1" unit="chars"/>貪著利財寶<space quantity="1" unit="chars"/>衣食無限節<space quantity="1" unit="chars"/>曉知習俗法<space quantity="1" unit="chars"/>邪業以自活<space quantity="1" unit="chars"/>販賣規賈利<space quantity="1" unit="chars"/>出入求生息」(CBETA, T49, no. 2029, p. 10, c18-29)</note></quote>八、瞋惡持戒者。這些，<title level="m">《當來變經》</title>面對晉代的
 <lb n="0297a09" ed="Y"/>中<lb n="0301a09" ed="Y" type="old"/>國佛教，敘述得更為不堪！</p></cb:div>
 <lb n="0297a10" ed="Y"/><lb n="0301a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　千年法滅說的修正</cb:mulu><head>四　千年法滅說的修正</head>
-<lb n="0297a11" ed="Y"/><lb n="0301a11" ed="Y" type="old"/><p style="text-indent:2em">關於法滅的傳說，如<bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="183">卷一八三</biblScope></bibl>、<bibl><title level="m">《大般涅槃經》</title><biblScope n="16" type="卷">卷一六</biblScope></bibl><lb n="0301a12" ed="Y" type="old"/>、<bibl><title level="m">《摩
-<lb n="0297a12" ed="Y"/>訶摩耶經》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>、<bibl><title level="m">《大威德陀羅尼經》</title><biblScope type="卷" n="18">卷一八</biblScope></bibl>，也都有說到。</p><pb n="0302a" ed="Y" xml:id="Y22.0022.0302a.old" type="old"/>
+<lb n="0297a11" ed="Y"/><lb n="0301a11" ed="Y" type="old"/><p xml:id="pY22p0297a1101" style="text-indent:2em">關於法滅的傳說，如<bibl><title level="m">《大毘婆沙論》</title><biblScope n="183" type="卷">卷一八三</biblScope></bibl>、<bibl><title level="m">《大般涅槃經》</title><biblScope n="16" type="卷">卷一六</biblScope></bibl><lb n="0301a12" ed="Y" type="old"/>、<bibl><title level="m">《摩
+<lb n="0297a12" ed="Y"/>訶摩耶經》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>、<bibl><title level="m">《大威德陀羅尼經》</title><biblScope n="18" type="卷">卷一八</biblScope></bibl>，也都有說到。</p><pb n="0302a" ed="Y" xml:id="Y22.0022.0302a.old" type="old"/>
 <pb n="0298a" ed="Y" xml:id="Y22.0022.0298a"/>
-<lb n="0298a01" ed="Y"/><lb n="0302a01" ed="Y" type="old"/><p style="text-indent:2em">法滅的傳說，本是<quote source="T02n0099_p0177c04-05" type="寬鬆引文">「過千歲後，正教法滅」<note n="0298001" resp="周怡曄" type="add">《雜阿含經》卷25：「過千歲後，我教法滅時」(CBETA, T02, no. 99, p. 177, c4-5)</note></quote>的預言，也即是正法千年說。<cit><bibl><title level="m">《
+<lb n="0298a01" ed="Y"/><lb n="0302a01" ed="Y" type="old"/><p xml:id="pY22p0298a0101" style="text-indent:2em">法滅的傳說，本是<quote source="T02n0099_p0177c04-05" type="寬鬆引文">「過千歲後，正教法滅」<note n="0298001" resp="周怡曄" type="add">《雜阿含經》卷25：「過千歲後，我教法滅時」(CBETA, T02, no. 99, p. 177, c4-5)</note></quote>的預言，也即是正法千年說。<cit><bibl><title level="m">《
 <lb n="0298a02" ed="Y"/><lb n="0302a02" ed="Y" type="old"/>大毘婆沙論》</title>還主張</bibl><quote type="嚴謹引文">「釋迦牟尼般涅槃後，乃至千歲正法方滅」</quote><note n="0298002" resp="周怡曄" type="add">《阿毘達磨大毘婆沙論》卷183(CBETA, T27, no. 1545, p. 918, c27-28)</note></cit>，但它對於三惡
 <lb n="0298a03" ed="Y"/>王<lb n="0302a03" ed="Y" type="old"/>亂世的事實，已因時代的變更而多少改變。那時，在大月氏王朝護持下，得到
 <lb n="0298a04" ed="Y"/>和<lb n="0302a04" ed="Y" type="old"/>平發展的機會，充滿了新的感想。所以<title level="m">《大毘婆沙論》</title>不明說惡王是誰，而且
@@ -293,7 +313,7 @@
 <lb n="0298a06" ed="Y"/>於那位<lb n="0302a06" ed="Y" type="old"/>有法王，也僅泛泛的說：<quote source="T27n1545_p0918a20-21" type="嚴謹引文">「生在東方，威德慈仁，伏五印度。」<note n="0298004" resp="周怡曄" type="add">《阿毘達磨大毘婆沙論》卷183(CBETA, T27, no. 1545, p. 918, a20-21)</note></quote>三王擾亂
 <lb n="0298a07" ed="Y"/>印度的<lb n="0302a07" ed="Y" type="old"/>事實，已漸漸忘卻，僅剩有傳說的預言。<title level="m">《大般涅槃經》</title>與<title level="m">《摩訶摩耶經
 <lb n="0298a08" ed="Y"/>》</title>，索性不再談<lb n="0302a08" ed="Y" type="old"/>及惡王的事。</p>
-<lb n="0298a09" ed="Y"/><lb n="0302a09" ed="Y" type="old"/><p style="text-indent:2em">千年法滅的傳說，在佛教擴展的過程中，並沒有實現；在佛教徒的意境中，
+<lb n="0298a09" ed="Y"/><lb n="0302a09" ed="Y" type="old"/><p xml:id="pY22p0298a0901" style="text-indent:2em">千年法滅的傳說，在佛教擴展的過程中，並沒有實現；在佛教徒的意境中，
 <lb n="0298a10" ed="Y"/><lb n="0302a10" ed="Y" type="old"/>也不希望它實現。然而，此一預言當然有警策的功用，也還常在佛弟子的傳說中
 <lb n="0298a11" ed="Y"/><lb n="0302a11" ed="Y" type="old"/>，但不能不給以新的解說。如<cit><bibl><title level="m">《摩訶摩耶經》</title>說：</bibl><quote source="T12n0383_p1013c19" type="嚴謹引文">「千五百歲，俱睒彌國……</quote><note n="0298005" resp="周怡曄" type="add">《摩訶摩耶經》卷2(CBETA, T12, no. 383, p. 1013, c19)</note></cit>。
 <lb n="0298a12" ed="Y"/><cit><bibl><title level="m">」《<lb n="0302a12" ed="Y" type="old"/>大集經．月藏分》</title>也說：</bibl><quote source="T13n0397_p0379c05-10" type="嚴謹引文">「正法五百年……像法住於世，限滿一千年。」</quote><note n="0298006" resp="周怡曄" type="add">《大方等大集經》卷56〈20 法滅盡品〉：「正法五百年<space quantity="1" unit="chars"/>住在於世間<space quantity="1" unit="chars"/>眾生煩惱盡<space quantity="1" unit="chars"/>精進諸菩薩<space quantity="1" unit="chars"/>得滿於六度<space quantity="1" unit="chars"/>行者速能入<space quantity="1" unit="chars"/>無漏安隱城<space quantity="1" unit="chars"/>像法住於世<space quantity="1" unit="chars"/>限滿一千年」(CBETA, T13, no. 397, p. 379, c5-10)</note></cit>千五
@@ -307,19 +327,19 @@
 <lb n="0299a06" ed="Y"/>而祕密的菩薩<lb n="0303a06" ed="Y" type="old"/>——在家的、人與非人的大乘佛教，照樣的興盛。這啟示佛教的新
 <lb n="0299a07" ed="Y"/>姿態、新途徑<lb n="0303a07" ed="Y" type="old"/>，是值得我們注意的！</p></cb:div>
 <lb n="0299a08" ed="Y"/><lb n="0303a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五　罽賓滅法與師子比丘</cb:mulu><head>五　罽賓滅法與師子比丘</head>
-<lb n="0299a09" ed="Y"/><lb n="0303a09" ed="Y" type="old"/><p style="text-indent:2em">拘睒彌法滅的傳說，又見於<title level="m">《大威德陀羅尼經》</title>。此傳說與罽賓滅法有關，
+<lb n="0299a09" ed="Y"/><lb n="0303a09" ed="Y" type="old"/><p xml:id="pY22p0299a0901" style="text-indent:2em">拘睒彌法滅的傳說，又見於<title level="m">《大威德陀羅尼經》</title>。此傳說與罽賓滅法有關，
 <lb n="0299a10" ed="Y"/><lb n="0303a10" ed="Y" type="old"/>因而又牽涉到師子比丘與彌羅掘王。現在，先對於罽賓滅法與師子比丘，加以研
 <lb n="0299a11" ed="Y"/><lb n="0303a11" ed="Y" type="old"/>考。</p>
-<lb n="0299a12" ed="Y"/><lb n="0303a12" ed="Y" type="old"/><p style="text-indent:2em"><cit><bibl><title level="m">《付法藏因緣傳》</title><biblScope type="卷" n="6">（卷六）</biblScope>說：</bibl><quote source="T50n2058_p0321c14-18" type="嚴謹引文">「復有比丘，名曰師子，於罽賓國大作佛事<pb n="0304a" ed="Y" xml:id="Y22.0022.0304a.old" type="old"/>
+<lb n="0299a12" ed="Y"/><lb n="0303a12" ed="Y" type="old"/><p xml:id="pY22p0299a1201" style="text-indent:2em"><cit><bibl><title level="m">《付法藏因緣傳》</title><biblScope n="6" type="卷">（卷六）</biblScope>說：</bibl><quote source="T50n2058_p0321c14-18" type="嚴謹引文">「復有比丘，名曰師子，於罽賓國大作佛事<pb n="0304a" ed="Y" xml:id="Y22.0022.0304a.old" type="old"/>
 <pb n="0300a" ed="Y" xml:id="Y22.0022.0300a"/>
 <lb n="0300a01" ed="Y"/><lb n="0304a01" ed="Y" type="old"/>。時彼國王名彌羅掘，邪見熾盛，心無敬信，於罽賓國毀壞塔寺、殺害眾僧。即
 <lb n="0300a02" ed="Y"/><lb n="0304a02" ed="Y" type="old"/>以利劍，用斬師子頭，頭中無血，唯乳流出，相付法人於是便絕。」</quote><note n="0300001" resp="周怡曄" type="add">《付法藏因緣傳》卷6(CBETA, T50, no. 2058, p. 321, c14-18)</note></cit>師子比丘，
 <lb n="0300a03" ed="Y"/><lb n="0304a03" ed="Y" type="old"/>即中國禪宗推崇的二十四祖，他為彌羅掘王所殺。依<title level="m">《付法藏因緣傳》</title>所說，這
 <lb n="0300a04" ed="Y"/>確是<lb n="0304a04" ed="Y" type="old"/>佛教的重大損失！關於師子比丘的被殺，即罽賓法難的原因，宋志磐的<bibl><title level="m">《佛
-<lb n="0300a05" ed="Y"/>祖統<lb n="0304a05" ed="Y" type="old"/>紀》</title><biblScope n="35" type="卷">（卷三五）</biblScope></bibl>及元末念常集的<bibl><title level="m">《佛祖歷代通載》</title><biblScope type="卷" n="6">（卷六）</biblScope></bibl>，有一共同的傳說
+<lb n="0300a05" ed="Y"/>祖統<lb n="0304a05" ed="Y" type="old"/>紀》</title><biblScope n="35" type="卷">（卷三五）</biblScope></bibl>及元末念常集的<bibl><title level="m">《佛祖歷代通載》</title><biblScope n="6" type="卷">（卷六）</biblScope></bibl>，有一共同的傳說
 <lb n="0300a06" ed="Y"/><lb n="0304a06" ed="Y" type="old"/>。如<cit><bibl><title level="m">《佛祖歷代通載》</title>說：</bibl><quote type="嚴謹引文">「罽賓，……有外道二人，……學諸幻法，欲共謀亂
 <lb n="0300a07" ed="Y"/>，乃盜為釋子形象，<lb n="0304a07" ed="Y" type="old"/>潛入王宮；且曰：不成，即罪歸釋子。妖既自作，禍亦旋踵
-<lb n="0300a08" ed="Y"/>。事既敗，王果怒曰<lb n="0304a08" ed="Y" type="old"/>：吾素歸心三寶，何乃構害一至於斯？即命破毀伽藍、<note n="0300a0801" resp="CBETA" type="add">祛【CB】，袪【印順】</note><app n="0300a0801"><lem wit="【CB】" resp="正聞出版社">祛</lem><rdg wit="【印順】">袪</rdg></app>除
+<lb n="0300a08" ed="Y"/>。事既敗，王果怒曰<lb n="0304a08" ed="Y" type="old"/>：吾素歸心三寶，何乃構害一至於斯？即命破毀伽藍、<note n="0300a0801" resp="CBETA" type="add">祛【CB】，袪【印順】</note><app n="0300a0801"><lem resp="正聞出版社" wit="【CB】">祛</lem><rdg wit="【印順】">袪</rdg></app>除
 <lb n="0300a09" ed="Y"/>釋眾。復自秉劍至（<lb n="0304a09" ed="Y" type="old"/>師子）尊者所……王即揮劍斷尊者首。」</quote><note n="0300002" resp="周怡曄" type="add">《佛祖歷代通載》卷5：「罽賓。時本國有外道二人。一名摩目多。二名都落遮。學諸幻法欲共謀亂。乃盜為釋子形像潛入王宮。且曰。不成即罪歸佛子。妖既自作禍亦旋踵。事既敗。王果怒曰。吾素歸心三寶。何乃構害一至于斯。即命破毀伽藍祛除釋眾。復自秉劍至尊者所。問曰。師得蘊空否。尊者曰。已得蘊空。曰離生死否。曰已離生死。王曰。既離生死可施我頭。祖曰。身非我有何悋於頭。王即揮劍斷尊者首。」(CBETA, T49, no. 2036, p. 516, c14-23)</note></cit>這是說，罽賓的慘
 <lb n="0300a10" ed="Y"/>遭滅法，甚至師子比<lb n="0304a10" ed="Y" type="old"/>丘的被殺，是受了外道偽裝佛沙門的牽累。但滅法的實際原
 <lb n="0300a11" ed="Y"/>因，還有一不同的傳<lb n="0304a11" ed="Y" type="old"/>說。十九世紀中，迦爾訶那纂輯<title level="m">《罽賓諸王史》</title>，該書（1,
@@ -332,7 +352,7 @@
 <lb n="0301a04" ed="Y"/>子，一說是佛教行者，但當時確是認<lb n="0305a04" ed="Y" type="old"/>為佛教徒，因而才引起狂暴的毀法行動。外
 <lb n="0301a05" ed="Y"/>道的偽裝釋子，我也希望這傳說是正<lb n="0305a05" ed="Y" type="old"/>確的；因為唯有這樣，罽賓滅法才與佛教僧
 <lb n="0301a06" ed="Y"/>侶無關。</p>
-<lb n="0301a07" ed="Y"/><lb n="0305a06" ed="Y" type="old"/><p style="text-indent:2em">不過，事件似乎並不如此理想。即使是偽釋子闖下的大禍，真釋子未必能毫
+<lb n="0301a07" ed="Y"/><lb n="0305a06" ed="Y" type="old"/><p xml:id="pY22p0301a0701" style="text-indent:2em">不過，事件似乎並不如此理想。即使是偽釋子闖下的大禍，真釋子未必能毫
 <lb n="0301a08" ed="Y"/><lb n="0305a07" ed="Y" type="old"/>無關係。此項傳說，佛教的經典中，早已存在，如<title level="m">《佛滅度後棺殮葬送經》</title>，一
 <lb n="0301a09" ed="Y"/><lb n="0305a08" ed="Y" type="old"/>名<title level="m">《師比丘經》</title>，或名<title level="m">《比丘師經》</title>，作這樣說：佛鉢不見了，國王下令訪求。
 <lb n="0301a10" ed="Y"/><lb n="0305a09" ed="Y" type="old"/><quote source="T12n0392_p1114c12-18" type="嚴謹引文">「時有賤人，其名曰師，偽作比丘，饕餮酒食，妻居育子，當醉提兒詣宮門言：
@@ -354,7 +374,7 @@
 <lb n="0302a12" ed="Y"/>慚愧的佛教<lb n="0306a11" ed="Y" type="old"/>僧侶，對於佛教衰落的慘運，要將責任放在佛教僧侶的身上，不能一
 <lb n="0302a13" ed="Y"/>偽了之。</p>
 <pb n="0303a" ed="Y" xml:id="Y22.0022.0303a"/>
-<lb n="0303a01" ed="Y"/><lb n="0306a12" ed="Y" type="old"/><p style="text-indent:2em">問題又要考慮到：罽賓滅法與師子比丘的被殺，是否確如<title level="m">《付法藏因緣傳》</title>
+<lb n="0303a01" ed="Y"/><lb n="0306a12" ed="Y" type="old"/><p xml:id="pY22p0303a0101" style="text-indent:2em">問題又要考慮到：罽賓滅法與師子比丘的被殺，是否確如<title level="m">《付法藏因緣傳》</title>
 <lb n="0303a02" ed="Y"/>所<lb n="0306a13" ed="Y" type="old"/>說，與彌羅掘王有關？<title level="m">《付法藏因緣傳》</title>是錯的；彌羅掘王為五、六世紀間人
 <lb n="0303a03" ed="Y"/>，而罽<pb n="0307a" ed="Y" xml:id="Y22.0022.0307a.old" type="old"/><lb n="0307a01" ed="Y" type="old"/>賓滅法與師子比丘事件，實是古老的傳說。<title level="m">《罽賓諸王史》</title>說此事在阿輸
 <lb n="0303a04" ed="Y"/>迦王後那<lb n="0307a02" ed="Y" type="old"/>拉一世的時候。<title level="m">《佛滅度後棺殮葬送經》</title>，係西晉失譯，梁僧祐（四四
@@ -366,7 +386,7 @@
 <lb n="0303a10" ed="Y"/>法。」</quote><note n="0303002" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 887, a17-19)</note></cit>迦膩<lb n="0307a08" ed="Y" type="old"/>色迦王為二世紀五十年代以前的名王，此後，罽賓國確曾有過斥逐佛
 <lb n="0303a11" ed="Y"/>徒、毀壞佛<lb n="0307a09" ed="Y" type="old"/>法的事件。後來，因呬摩呾羅王的平定迦濕彌羅，佛法再見光復。所
 <lb n="0303a12" ed="Y"/>以此次罽賓<lb n="0307a10" ed="Y" type="old"/>滅法事件，約為西元二〇〇至二五〇年間事。</p>
-<lb n="0303a13" ed="Y"/><lb n="0307a11" ed="Y" type="old"/><p style="text-indent:2em"><quote type="嚴謹引文">「賤人其名曰師，偽作比丘」<note n="0303003" resp="周怡曄" type="add">《佛滅度後棺斂葬送經》卷1(CBETA, T12, no. 392, p. 1114, c12-13)</note></quote>，鬧出這麼大的亂子，何以四七二年頃的吉迦
+<lb n="0303a13" ed="Y"/><lb n="0307a11" ed="Y" type="old"/><p xml:id="pY22p0303a1301" style="text-indent:2em"><quote type="嚴謹引文">「賤人其名曰師，偽作比丘」<note n="0303003" resp="周怡曄" type="add">《佛滅度後棺斂葬送經》卷1(CBETA, T12, no. 392, p. 1114, c12-13)</note></quote>，鬧出這麼大的亂子，何以四七二年頃的吉迦
 <pb n="0304a" ed="Y" xml:id="Y22.0022.0304a"/>
 <lb n="0304a01" ed="Y"/>夜<lb n="0307a12" ed="Y" type="old"/>會把他看作一代佛教的住持領導者？時代既然不合，何以又牽涉到彌羅掘王？
 <lb n="0304a02" ed="Y"/>這<lb n="0307a13" ed="Y" type="old"/>自然不能完全明白，可以作兩種解說：一、在傳說中，佛徒將這次事件的責任
@@ -378,7 +398,7 @@
 <lb n="0304a08" ed="Y"/>為<quote source="X75n1513_p0313b10-11" type="嚴謹引文">「<lb n="0308a06" ed="Y" type="old"/><title level="m">《付法藏傳》</title>可焚」<note n="0304001" resp="周怡曄" type="add">《釋門正統》卷4(CBETA, X75, no. 1513, p. 313, b10-11 // Z 2B:3, p. 411, a6-7 // R130, p. 821, a6-7)</note></quote>，因為傳中說<quote source="T50n2058_p0321c18" type="嚴謹引文">「相付法人，於是便絕」<note n="0304002" resp="周怡曄" type="add">《付法藏因緣傳》卷6(CBETA, T50, no. 2058, p. 321, c18)</note></quote>，而禪宗還要二
 <lb n="0304a09" ed="Y"/>十五祖、<lb n="0308a07" ed="Y" type="old"/>二十六祖……一祖一祖傳下去。其實，<title level="m">《付法藏因緣傳》</title>確有可批評的
 <lb n="0304a10" ed="Y"/>地方，它把古<lb n="0308a08" ed="Y" type="old"/>老的賤人師比丘，胡扯為彌羅掘時代的傳承正法的祖師。</p>
-<lb n="0304a11" ed="Y"/><lb n="0308a09" ed="Y" type="old"/><p style="text-indent:2em"><bibl><title level="m">《大威德陀羅尼經》</title><biblScope to="18" type="卷" from="17">（卷一七、一八）</biblScope></bibl>所敘的法滅情況，顯然是在罽賓滅法
+<lb n="0304a11" ed="Y"/><lb n="0308a09" ed="Y" type="old"/><p xml:id="pY22p0304a1101" style="text-indent:2em"><bibl><title level="m">《大威德陀羅尼經》</title><biblScope from="17" to="18" type="卷">（卷一七、一八）</biblScope></bibl>所敘的法滅情況，顯然是在罽賓滅法
 <lb n="0304a12" ed="Y"/><lb n="0308a10" ed="Y" type="old"/>與拘睒彌法滅的傳說中，參入許多新的成分，而結合為新的傳說。此經為隋闍那
 <lb n="0304a13" ed="Y"/><lb n="0308a11" ed="Y" type="old"/>崛多譯，論到罽賓滅法的原因（卷一七）說：<quote source="T21n1341_p0827b12-c27" type="寬鬆引文">「彼等比丘所至家（此即婦女）處
 <pb n="0305a" ed="Y" xml:id="Y22.0022.0305a"/>
@@ -401,7 +421,7 @@
 <lb n="0306a03" ed="Y"/>上瑜伽——雙身法、歡喜法。從前，元順帝的太子，起初對於順帝在宮中<lb n="0310a02" ed="Y" type="old"/>男女裸
 <lb n="0306a04" ed="Y"/>居的實行演揲兒法——秘密的雙身法，不以為然。順帝勸他<quote>「秘密佛法<lb n="0310a03" ed="Y" type="old"/>可以益壽
 <lb n="0306a05" ed="Y"/>」</quote>，於是派西番僧教他。太子試驗一番，說<quote>「李先生教我讀儒書，許多<lb n="0310a04" ed="Y" type="old"/>時，我不
-<lb n="0306a06" ed="Y"/>省書中何意。西番僧教我佛經，我一夕便曉」</quote>（見<bibl>元權衡<title level="m">《庚申外史》</title><biblScope type="卷" n="下">下</biblScope></bibl>）<lb n="0310a05" ed="Y" type="old"/>。這
+<lb n="0306a06" ed="Y"/>省書中何意。西番僧教我佛經，我一夕便曉」</quote>（見<bibl>元權衡<title level="m">《庚申外史》</title><biblScope n="下" type="卷">下</biblScope></bibl>）<lb n="0310a05" ed="Y" type="old"/>。這
 <lb n="0306a07" ed="Y"/>一夕便曉的秘密佛法，即是<quote>「如汝今者於一夜中已得是法」</quote>。這種男女交合<lb n="0310a06" ed="Y" type="old"/>的歡
 <lb n="0306a08" ed="Y"/>喜法——近於中國道家的御女術，以運氣攝精為核心，當然還加上幾多儀式<lb n="0310a07" ed="Y" type="old"/>與多
 <lb n="0306a09" ed="Y"/>少高妙的佛學（？）。在密宗，不但男人要經老師的秘傳，女的被稱為明妃<lb n="0310a08" ed="Y" type="old"/>，也
@@ -421,12 +441,12 @@
 <lb n="0307a09" ed="Y"/><lb n="0311a07" ed="Y" type="old"/>宮，也是為了此事。他們並不自以為淫亂，還自以為修證受用呢！罽賓佛教，一
 <lb n="0307a10" ed="Y"/>度<lb n="0311a08" ed="Y" type="old"/>斷送在這般人身上。</p></cb:div>
 <lb n="0307a11" ed="Y"/><lb n="0311a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">六　彌羅掘的滅法</cb:mulu><head>六　彌羅掘的滅法</head>
-<lb n="0307a12" ed="Y"/><lb n="0311a10" ed="Y" type="old"/><p style="text-indent:2em">再來研考<cit><bibl><title level="m">《付法藏因緣傳》</title>的</bibl><quote source="T50n2058_p0321c15-17" type="嚴謹引文">「時彼國王，名彌羅掘，邪見熾盛，心無敬<lb n="0311a11" ed="Y" type="old"/>信
+<lb n="0307a12" ed="Y"/><lb n="0311a10" ed="Y" type="old"/><p xml:id="pY22p0307a1201" style="text-indent:2em">再來研考<cit><bibl><title level="m">《付法藏因緣傳》</title>的</bibl><quote source="T50n2058_p0321c15-17" type="嚴謹引文">「時彼國王，名彌羅掘，邪見熾盛，心無敬<lb n="0311a11" ed="Y" type="old"/>信
 <pb n="0308a" ed="Y" xml:id="Y22.0022.0308a"/>
 <lb n="0308a01" ed="Y"/>，於罽賓國毀壞塔寺、殺害眾僧」</quote><note n="0308001" resp="周怡曄" type="add">《付法藏因緣傳》卷6(CBETA, T50, no. 2058, p. 321, c15-17)</note></cit>。彌羅掘王的破壞佛法，也是確實的事件。<lb n="0311a12" ed="Y" type="old"/>隋
 <lb n="0308a02" ed="Y"/>那連提耶舍（五八四年）譯的<cit><bibl><title level="m">《蓮華面經》</title><biblScope n="下" type="卷">（卷下）</biblScope>，先說到罽賓佛教的盛況<pb n="0312a" ed="Y" xml:id="Y22.0022.0312a.old" type="old"/><lb n="0312a01" ed="Y" type="old"/>，又
 <lb n="0308a03" ed="Y"/>說：</bibl><quote source="T12n0386_p1075c11-12" type="嚴謹引文">「身為國王，名寐吱曷羅俱邏而滅我法，此大癡人！」</quote><note n="0308002" resp="周怡曄" type="add">《蓮華面經》卷2(CBETA, T12, no. 386, p. 1075, c11-12)</note></cit>寐吱曷羅俱邏的滅法
-<lb n="0308a04" ed="Y"/><lb n="0312a02" ed="Y" type="old"/>，<cit><bibl><title level="m">《西域記》</title><biblScope type="卷" n="4">（卷四）</biblScope>有較詳細的傳說：</bibl><quote source="T51n2087_p0888b24" type="寬鬆引文">「數百年前，有王號摩醯邏矩羅（唐言
+<lb n="0308a04" ed="Y"/><lb n="0312a02" ed="Y" type="old"/>，<cit><bibl><title level="m">《西域記》</title><biblScope n="4" type="卷">（卷四）</biblScope>有較詳細的傳說：</bibl><quote source="T51n2087_p0888b24" type="寬鬆引文">「數百年前，有王號摩醯邏矩羅（唐言
 <lb n="0308a05" ed="Y"/><lb n="0312a03" ed="Y" type="old"/>大族）……宣令五印度國，繼是佛法，並皆毀滅，僧徒斥逐，無復孑遺。摩揭陀
 <lb n="0308a06" ed="Y"/><lb n="0312a04" ed="Y" type="old"/>國婆羅阿迭多王（唐言幼日），崇敬佛法。……時大族王治兵將討，幼日王知其
 <lb n="0308a07" ed="Y"/><lb n="0312a05" ed="Y" type="old"/>聲聞……數萬餘人，棲竄海島。大族王以兵付弟，浮海往伐。幼日王守其厄險，
@@ -442,7 +462,7 @@
 <lb n="0309a03" ed="Y"/>刻，同<pb n="0313a" ed="Y" xml:id="Y22.0022.0313a.old" type="old"/><lb n="0313a01" ed="Y" type="old"/>樣的事實，歸功於耶輸達磨王，這是極難確定的。大概，幼日王與耶輸達
 <lb n="0309a04" ed="Y"/>磨王，<lb n="0313a02" ed="Y" type="old"/>曾聯合作戰而阻抑嚈噠的兇燄；結果，各人把勝利的光榮歸於自己。幼日
 <lb n="0309a05" ed="Y"/>王，<lb n="0313a03" ed="Y" type="old"/>約為四九〇到五三〇在位；摩醯邏矩羅的失敗，約在五一五年頃。</p>
-<lb n="0309a06" ed="Y"/><lb n="0313a04" ed="Y" type="old"/><p style="text-indent:2em">摩醯邏矩羅，約失敗於五一五頃。依<title level="m">《西域記》</title>說，此後，他又大大破壞罽
+<lb n="0309a06" ed="Y"/><lb n="0313a04" ed="Y" type="old"/><p xml:id="pY22p0309a0601" style="text-indent:2em">摩醯邏矩羅，約失敗於五一五頃。依<title level="m">《西域記》</title>說，此後，他又大大破壞罽
 <lb n="0309a07" ed="Y"/><lb n="0313a05" ed="Y" type="old"/>賓與健陀羅的佛教。那麼，隋譯的<title level="m">《蓮華面經》</title>，沒有什麼不合；吉迦夜於四七
 <lb n="0309a08" ed="Y"/><lb n="0313a06" ed="Y" type="old"/>二頃編譯的<title level="m">《付法藏因緣傳》</title>，如何能已有此項傳說？<title level="m">《付法藏因緣傳》</title>依<title level="m">《阿
 <lb n="0309a09" ed="Y"/>育王<lb n="0313a07" ed="Y" type="old"/>傳》</title>的五師相承說為本，又加入許多後代名德的傳記編纂而成。早在宋元嘉
@@ -476,48 +496,48 @@
 <lb n="0311a09" ed="Y"/><lb n="0315a07" ed="Y" type="old"/>於是感到不調和。實則，嚈噠在匈奴的極盛期，為四七〇到五一五頃。摩醯邏矩
 <lb n="0311a10" ed="Y"/><lb n="0315a08" ed="Y" type="old"/>羅晚年的失敗，內部分裂或許引起內戰，已開始在印度沒落。耶輸達磨的銘文，
 <lb n="0311a11" ed="Y"/><lb n="0315a09" ed="Y" type="old"/>說大族失敗後，也向他稱臣。</p>
-<lb n="0311a12" ed="Y"/><lb n="0315a10" ed="Y" type="old"/><p style="text-indent:2em">嚈噠在北印強大的時代，佛教所受的摧殘，實是難以計算的。據（五二〇）
+<lb n="0311a12" ed="Y"/><lb n="0315a10" ed="Y" type="old"/><p xml:id="pY22p0311a1201" style="text-indent:2em">嚈噠在北印強大的時代，佛教所受的摧殘，實是難以計算的。據（五二〇）
 <lb n="0311a13" ed="Y"/><lb n="0315a11" ed="Y" type="old"/>惠生所記：健陀羅的嚈噠王，性情兇暴，不信佛法。極為隆盛的北印佛教（六四
 <pb n="0312a" ed="Y" xml:id="Y22.0022.0312a"/>
 <lb n="0312a01" ed="Y"/><lb n="0315a12" ed="Y" type="old"/>〇頃），<title level="m">《西域記》</title>說：</p>
-<lb n="0312a02" ed="Y"/><lb n="0315a13" ed="Y" type="old"/><p style="margin-left:8em;text-indent:-5em">濫波國：<quote source="T51n2087_p0878b23-24" type="嚴謹引文">「伽藍十餘所，僧徒寡少。」<note n="0312001" resp="周怡曄" type="add">《大唐西域記》卷2(CBETA, T51, no. 2087, p. 878, b23-24)</note></quote></p>
-<lb n="0312a03" ed="Y"/><pb n="0316a" ed="Y" xml:id="Y22.0022.0316a.old" type="old"/><lb n="0316a01" ed="Y" type="old"/><p style="margin-left:8em;text-indent:-5em">那揭羅曷國：<quote source="T51n2087_p0878c02-03" type="嚴謹引文">「伽藍雖多，僧徒寡少。」<note n="0312002" resp="周怡曄" type="add">《大唐西域記》卷2(CBETA, T51, no. 2087, p. 878, c2-3)</note></quote><quote source="T51n2087_p0878c21-22" type="嚴謹引文">「有伽藍，高堂重閣，……絕
+<lb n="0312a02" ed="Y"/><lb n="0315a13" ed="Y" type="old"/><p xml:id="pY22p0312a0201" style="margin-left:8em;text-indent:-5em">濫波國：<quote source="T51n2087_p0878b23-24" type="嚴謹引文">「伽藍十餘所，僧徒寡少。」<note n="0312001" resp="周怡曄" type="add">《大唐西域記》卷2(CBETA, T51, no. 2087, p. 878, b23-24)</note></quote></p>
+<lb n="0312a03" ed="Y"/><pb n="0316a" ed="Y" xml:id="Y22.0022.0316a.old" type="old"/><lb n="0316a01" ed="Y" type="old"/><p xml:id="pY22p0312a0301" style="margin-left:8em;text-indent:-5em">那揭羅曷國：<quote source="T51n2087_p0878c02-03" type="嚴謹引文">「伽藍雖多，僧徒寡少。」<note n="0312002" resp="周怡曄" type="add">《大唐西域記》卷2(CBETA, T51, no. 2087, p. 878, c2-3)</note></quote><quote source="T51n2087_p0878c21-22" type="嚴謹引文">「有伽藍，高堂重閣，……絕
 <lb n="0312a04" ed="Y"/><lb n="0316a02" ed="Y" type="old"/>無僧侶。」<note n="0312003" resp="周怡曄" type="add">《大唐西域記》卷2：「有伽藍，高堂重閣，積石所成。庭宇寂寥，絕無僧侶。」(CBETA, T51, no. 2087, p. 878, c21-22)</note></quote></p>
-<lb n="0312a05" ed="Y"/><lb n="0316a03" ed="Y" type="old"/><p style="margin-left:8em;text-indent:-5em">健馱邏國：<quote source="T51n2087_p0879c02-03" type="嚴謹引文">「僧伽藍千餘所，摧殘荒廢，蕪漫蕭條；諸窣堵波，頗多
+<lb n="0312a05" ed="Y"/><lb n="0316a03" ed="Y" type="old"/><p xml:id="pY22p0312a0501" style="margin-left:8em;text-indent:-5em">健馱邏國：<quote source="T51n2087_p0879c02-03" type="嚴謹引文">「僧伽藍千餘所，摧殘荒廢，蕪漫蕭條；諸窣堵波，頗多
 <lb n="0312a06" ed="Y"/><lb n="0316a04" ed="Y" type="old"/>頹圮。」<note n="0312004" resp="周怡曄" type="add">《大唐西域記》卷2(CBETA, T51, no. 2087, p. 879, c2-3)</note></quote></p>
-<lb n="0312a07" ed="Y"/><lb n="0316a05" ed="Y" type="old"/><p style="margin-left:8em;text-indent:-5em">烏仗那國：<quote source="T51n2087_p0882b17-18" type="嚴謹引文">「舊有一千四百伽藍，多已荒蕪。昔僧徒一萬八千，今<lb n="0316a06" ed="Y" type="old"/>漸
+<lb n="0312a07" ed="Y"/><lb n="0316a05" ed="Y" type="old"/><p xml:id="pY22p0312a0701" style="margin-left:8em;text-indent:-5em">烏仗那國：<quote source="T51n2087_p0882b17-18" type="嚴謹引文">「舊有一千四百伽藍，多已荒蕪。昔僧徒一萬八千，今<lb n="0316a06" ed="Y" type="old"/>漸
 <lb n="0312a08" ed="Y"/>減少。」<note n="0312005" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 882, b17-18)</note></quote></p>
-<lb n="0312a09" ed="Y"/><lb n="0316a07" ed="Y" type="old"/><p style="margin-left:8em;text-indent:-5em">鉢露羅國：<quote source="T51n2087_p0884b22-23" type="嚴謹引文">「僧徒數千人，學無專習，戒行多濫。」<note n="0312006" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 884, b22-23)</note></quote></p>
-<lb n="0312a10" ed="Y"/><lb n="0316a08" ed="Y" type="old"/><p style="margin-left:8em;text-indent:-5em">呾叉始羅國：<quote source="T51n2087_p0884c03" type="嚴謹引文">「伽藍雖多，荒蕪已甚，僧徒寡少。」<note n="0312007" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 884, c3)</note></quote><quote type="嚴謹引文">「傍有伽藍，圮損
+<lb n="0312a09" ed="Y"/><lb n="0316a07" ed="Y" type="old"/><p xml:id="pY22p0312a0901" style="margin-left:8em;text-indent:-5em">鉢露羅國：<quote source="T51n2087_p0884b22-23" type="嚴謹引文">「僧徒數千人，學無專習，戒行多濫。」<note n="0312006" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 884, b22-23)</note></quote></p>
+<lb n="0312a10" ed="Y"/><lb n="0316a08" ed="Y" type="old"/><p xml:id="pY22p0312a1001" style="margin-left:8em;text-indent:-5em">呾叉始羅國：<quote source="T51n2087_p0884c03" type="嚴謹引文">「伽藍雖多，荒蕪已甚，僧徒寡少。」<note n="0312007" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 884, c3)</note></quote><quote type="嚴謹引文">「傍有伽藍，圮損
 <lb n="0312a11" ed="Y"/><lb n="0316a09" ed="Y" type="old"/>已甚，久絕僧徒。」<note n="0312008" resp="周怡曄" type="add">《大唐西域記》卷3</note></quote></p>
-<lb n="0312a12" ed="Y"/><lb n="0316a10" ed="Y" type="old"/><p style="margin-left:8em;text-indent:-5em">僧訶補羅國：<quote source="T51n2087_p0885b28-29" type="嚴謹引文">「傍有伽藍，空無僧侶。」<note n="0312009" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 885, b28-29)</note></quote><quote source="T51n2087_p0885c04-05" type="嚴謹引文">「傍有伽藍，久絕僧侶。」<note n="0312010" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 885, c4-5)</note></quote></p>
-<lb n="0312a13" ed="Y"/><lb n="0316a11" ed="Y" type="old"/><p style="margin-left:8em;text-indent:-5em">烏剌尸國：<quote source="T51n2087_p0886a04-06" type="嚴謹引文">「不信佛法，……傍有伽藍，僧徒寡少。」<note n="0312011" resp="周怡曄" type="add">《大唐西域記》卷3：「不信佛法。大城西南四五里有窣堵波，高二百餘尺，無憂王所建也。傍有伽藍，僧徒寡少」(CBETA, T51, no. 2087, p. 886, a4-6)</note></quote></p>
+<lb n="0312a12" ed="Y"/><lb n="0316a10" ed="Y" type="old"/><p xml:id="pY22p0312a1201" style="margin-left:8em;text-indent:-5em">僧訶補羅國：<quote source="T51n2087_p0885b28-29" type="嚴謹引文">「傍有伽藍，空無僧侶。」<note n="0312009" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 885, b28-29)</note></quote><quote source="T51n2087_p0885c04-05" type="嚴謹引文">「傍有伽藍，久絕僧侶。」<note n="0312010" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 885, c4-5)</note></quote></p>
+<lb n="0312a13" ed="Y"/><lb n="0316a11" ed="Y" type="old"/><p xml:id="pY22p0312a1301" style="margin-left:8em;text-indent:-5em">烏剌尸國：<quote source="T51n2087_p0886a04-06" type="嚴謹引文">「不信佛法，……傍有伽藍，僧徒寡少。」<note n="0312011" resp="周怡曄" type="add">《大唐西域記》卷3：「不信佛法。大城西南四五里有窣堵波，高二百餘尺，無憂王所建也。傍有伽藍，僧徒寡少」(CBETA, T51, no. 2087, p. 886, a4-6)</note></quote></p>
 <pb n="0313a" ed="Y" xml:id="Y22.0022.0313a"/>
-<lb n="0313a01" ed="Y"/><lb n="0316a12" ed="Y" type="old"/><p style="margin-left:8em;text-indent:-5em">迦濕彌羅國：<quote source="T51n2087_p0886a16" type="嚴謹引文">「伽藍百餘所，僧徒五千餘人，……故今此國，不甚崇信
+<lb n="0313a01" ed="Y"/><lb n="0316a12" ed="Y" type="old"/><p xml:id="pY22p0313a0101" style="margin-left:8em;text-indent:-5em">迦濕彌羅國：<quote source="T51n2087_p0886a16" type="嚴謹引文">「伽藍百餘所，僧徒五千餘人，……故今此國，不甚崇信
 <lb n="0313a02" ed="Y"/><lb n="0316a13" ed="Y" type="old"/>。」<note n="0313001" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 886, a16-p. 887, b6)</note></quote></p>
-<lb n="0313a03" ed="Y"/><pb n="0317a" ed="Y" xml:id="Y22.0022.0317a.old" type="old"/><lb n="0317a01" ed="Y" type="old"/><p style="margin-left:8em;text-indent:-5em">半笯蹉國：<quote source="T51n2087_p0888a15-16" type="嚴謹引文">「伽藍五所，並多荒圮。」<note n="0313002" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 888, a15-16)</note></quote></p>
-<lb n="0313a04" ed="Y"/><lb n="0317a02" ed="Y" type="old"/><p style="margin-left:8em;text-indent:-5em">曷羅闍補羅國：<quote source="T51n2087_p0888a23-24" type="嚴謹引文">「伽藍十所，僧徒寡少。」<note n="0313003" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 888, a23-24)</note></quote></p>
-<lb n="0313a05" ed="Y"/><lb n="0317a03" ed="Y" type="old"/><p style="text-indent:2em"><cit><bibl><title level="m">《西域記》</title><biblScope type="卷" n="3">（卷三）</biblScope>說：</bibl><quote type="嚴謹引文">「自濫波國至於此土，……非印度之正境，乃邊裔
+<lb n="0313a03" ed="Y"/><pb n="0317a" ed="Y" xml:id="Y22.0022.0317a.old" type="old"/><lb n="0317a01" ed="Y" type="old"/><p xml:id="pY22p0313a0301" style="margin-left:8em;text-indent:-5em">半笯蹉國：<quote source="T51n2087_p0888a15-16" type="嚴謹引文">「伽藍五所，並多荒圮。」<note n="0313002" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 888, a15-16)</note></quote></p>
+<lb n="0313a04" ed="Y"/><lb n="0317a02" ed="Y" type="old"/><p xml:id="pY22p0313a0401" style="margin-left:8em;text-indent:-5em">曷羅闍補羅國：<quote source="T51n2087_p0888a23-24" type="嚴謹引文">「伽藍十所，僧徒寡少。」<note n="0313003" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 888, a23-24)</note></quote></p>
+<lb n="0313a05" ed="Y"/><lb n="0317a03" ed="Y" type="old"/><p xml:id="pY22p0313a0501" style="text-indent:2em"><cit><bibl><title level="m">《西域記》</title><biblScope n="3" type="卷">（卷三）</biblScope>說：</bibl><quote type="嚴謹引文">「自濫波國至於此土，……非印度之正境，乃邊裔
 <lb n="0313a06" ed="Y"/>之<lb n="0317a04" ed="Y" type="old"/>曲俗。」</quote><note n="0313004" resp="厚觀法師" type="add">《大唐西域記》卷3：「自濫波國至於此土，形貌麁弊，情性猥暴，語言庸鄙，禮義輕薄，非印度之正境，乃邊裔之曲俗。」(CBETA, T51, no. 2087, p. 888, a24-26)</note></cit>其實，這些在貴霜王朝時代，都是佛教極隆盛的中心區域；玄奘時代
 <lb n="0313a07" ed="Y"/>，<lb n="0317a05" ed="Y" type="old"/>已一敗塗地，荒涼不堪！這不僅健陀羅、罽賓一帶，即迦畢試以及吐貨羅一帶
 <lb n="0313a08" ed="Y"/>，<lb n="0317a06" ed="Y" type="old"/>無不從此衰落。嚈噠自大族失敗以後，這一帶地方即沒有像樣的王朝。文化、
 <lb n="0313a09" ed="Y"/>經<lb n="0317a07" ed="Y" type="old"/>濟、政治、宗教，沒落得可怕。就是沒有後代回教的打擊，也未必能有希望。
 <lb n="0313a10" ed="Y"/>我<lb n="0317a08" ed="Y" type="old"/>們所見玄奘時代的那些佛教，除了不信佛法而外，即使人民信仰佛法，而佛教
 <lb n="0313a11" ed="Y"/>僧<lb n="0317a09" ed="Y" type="old"/>徒還是一樣的毫無辦法。如：</p>
-<lb n="0313a12" ed="Y"/><lb n="0317a10" ed="Y" type="old"/><p style="margin-left:8em;text-indent:-5em">那揭羅曷國：<quote source="T51n2087_p0878c02" type="嚴謹引文">「崇敬佛法，少信異道」<note n="0313005" resp="周怡曄" type="add">《大唐西域記》卷2(CBETA, T51, no. 2087, p. 878, c2)</note></quote>，結果是<quote source="T51n2087_p0878c02-22" type="嚴謹引文">「伽藍雖多，僧徒寡少，
+<lb n="0313a12" ed="Y"/><lb n="0317a10" ed="Y" type="old"/><p xml:id="pY22p0313a1201" style="margin-left:8em;text-indent:-5em">那揭羅曷國：<quote source="T51n2087_p0878c02" type="嚴謹引文">「崇敬佛法，少信異道」<note n="0313005" resp="周怡曄" type="add">《大唐西域記》卷2(CBETA, T51, no. 2087, p. 878, c2)</note></quote>，結果是<quote source="T51n2087_p0878c02-22" type="嚴謹引文">「伽藍雖多，僧徒寡少，
 <lb n="0313a13" ed="Y"/>…<lb n="0317a11" ed="Y" type="old"/>…少有僧徒……絕無僧侶」<note n="0313006" resp="周怡曄" type="add">《大唐西域記》卷2(CBETA, T51, no. 2087, p. 878, c2-22)</note></quote>。
 <pb n="0314a" ed="Y" xml:id="Y22.0022.0314a"/>
 <lb n="0314a01" ed="Y"/><lb n="0317a12" ed="Y" type="old"/>醯羅城<quote source="T51n2087_p0879a27-28" type="嚴謹引文">「城中居人，淳質正信」<note n="0314001" resp="周怡曄" type="add">《大唐西域記》卷2(CBETA, T51, no. 2087, p. 879, a27-28)</note></quote>，而又有佛頂骨等<quote source="T51n2087_p0879b13" type="嚴謹引文">「斯五聖
 <lb n="0314a02" ed="Y"/><lb n="0317a13" ed="Y" type="old"/>迹，多有靈異」<note n="0314002" resp="周怡曄" type="add">《大唐西域記》卷2(CBETA, T51, no. 2087, p. 879, b13)</note></quote>。但管理權是<quote source="T51n2087_p0879b14" type="嚴謹引文">「令五淨行（在家佛教徒，<pb n="0318a" ed="Y" xml:id="Y22.0022.0318a.old" type="old"/><lb n="0318a01" ed="Y" type="old"/>或
 <lb n="0314a03" ed="Y"/>是佛寺中工作的在家人）給侍香花，觀禮之徒，相繼不絕<lb n="0318a02" ed="Y" type="old"/>」<note n="0314003" resp="周怡曄" type="add">《大唐西域記》卷2(CBETA, T51, no. 2087, p. 879, b14)</note></quote>
 <lb n="0314a04" ed="Y"/>。僧眾那裡去了？</p>
-<lb n="0314a05" ed="Y"/><lb n="0318a03" ed="Y" type="old"/><p style="margin-left:8em;text-indent:-5em">呾叉始羅國：<quote source="T51n2087_p0884c02-03" type="嚴謹引文">「風俗輕勇，崇敬三寶」<note n="0314004" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 884, c2-3)</note></quote>，但還是<quote source="T51n2087_p0884c03" type="嚴謹引文">「伽藍雖多，荒蕪已甚，
+<lb n="0314a05" ed="Y"/><lb n="0318a03" ed="Y" type="old"/><p xml:id="pY22p0314a0501" style="margin-left:8em;text-indent:-5em">呾叉始羅國：<quote source="T51n2087_p0884c02-03" type="嚴謹引文">「風俗輕勇，崇敬三寶」<note n="0314004" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 884, c2-3)</note></quote>，但還是<quote source="T51n2087_p0884c03" type="嚴謹引文">「伽藍雖多，荒蕪已甚，
 <lb n="0314a06" ed="Y"/><lb n="0318a04" ed="Y" type="old"/>僧徒寡少」<note n="0314005" resp="周怡曄" type="add">《大唐西域記》卷3(CBETA, T51, no. 2087, p. 884, c3)</note></quote>。</p>
-<lb n="0314a07" ed="Y"/><lb n="0318a05" ed="Y" type="old"/><p style="text-indent:2em">問題，除了外來的原因，僧徒本身的沒落，也不能忽略。<title level="m">《西域記》</title>對於這
+<lb n="0314a07" ed="Y"/><lb n="0318a05" ed="Y" type="old"/><p xml:id="pY22p0314a0701" style="text-indent:2em">問題，除了外來的原因，僧徒本身的沒落，也不能忽略。<title level="m">《西域記》</title>對於這
 <lb n="0314a08" ed="Y"/><lb n="0318a06" ed="Y" type="old"/>北印佛教國的敘述，除了廢塔、荒廟、聖跡、神話而外，還有什麼？我們固然感
 <lb n="0314a09" ed="Y"/><lb n="0318a07" ed="Y" type="old"/>覺那時代那一帶佛徒的沒落，內在原因極為嚴重，然嚈噠的摧殘，也過於殘酷了
 <lb n="0314a10" ed="Y"/><lb n="0318a08" ed="Y" type="old"/>！迦旃延、僧伽羅剎所見到的佛教遠景，四百年後，一一的暴露而到來！</p>
-<lb n="0314a11" ed="Y"/><lb n="0318a09" ed="Y" type="old"/><p style="text-indent:2em">嚈噠侵入的時候，北方佛教崩潰的一幕，<title level="m">《大威德陀羅尼經》</title>暗示得非常明
+<lb n="0314a11" ed="Y"/><lb n="0318a09" ed="Y" type="old"/><p xml:id="pY22p0314a1101" style="text-indent:2em">嚈噠侵入的時候，北方佛教崩潰的一幕，<title level="m">《大威德陀羅尼經》</title>暗示得非常明
 <lb n="0314a12" ed="Y"/><lb n="0318a10" ed="Y" type="old"/>白。這固然不能作為紀實的史料，但充分得使我們看到了全景。此經為隋闍那崛
 <lb n="0314a13" ed="Y"/><lb n="0318a11" ed="Y" type="old"/>多譯，他在五六〇左右即到中國來，不過此經梵本或許是「開皇之始（五八<lb n="0318a12" ed="Y" type="old"/>一，
 <pb n="0315a" ed="Y" xml:id="Y22.0022.0315a"/>
@@ -537,7 +557,7 @@
 <pb n="0316a" ed="Y" xml:id="Y22.0022.0316a"/>
 <lb n="0316a01" ed="Y"/>諸弟子，皆悉<lb n="0319a12" ed="Y" type="old"/>逃走。時多馬王既知走已，所有伽藍，放火燒燃」<note n="0316001" resp="周怡曄" type="add">(1)《大威德陀羅尼經》卷17：「諸比丘等當還向彼[11]持叉尸羅大城」(CBETA, T21, no. 1341, p. 828, c19)[11]持＝特【宋】【元】【明】；(2)《大威德陀羅尼經》卷18：「時彼城中所有人民。皆悉聚集[13]而作誓言。今者不聽沙門釋種弟子入城。爾時彼中。復有於佛教中信行之者。有淨心者。作如是言。佛出世難。但令沙門釋種弟子入城。還共此沙門釋子等。打邊城王。令我等勝。以其逼切沙門釋種弟子輩。於彼城中諸人眾等。或作如是或作如是。言論不定。爾時魔波旬。勤求方便。願彼沙門釋種弟子。莫令得入彼特叉尸羅大城。阿難。若沙門釋種弟子。得入特叉尸羅大城者。於三年中。諸沙門等應作城主。阿難。於彼時中。魔王波旬化作大軍。莊嚴畢已。出特叉尸羅大城北門次第巡行。復作是聲。汝等好打沙門釋種弟子。汝等急捉。汝等當令墮落。汝等令破諸沙門釋種弟子輩。其諸沙門釋種弟子。聞如是聲及見是相。怖怕逃走不能在彼於前而住。亦不能入特叉尸羅大城。阿難。如是彼三摩耶。帝釋天王及四大天王。并八萬諸天子。速下閻浮提。如來所有支提之中。有舍利者。皆悉收取擎持而去。阿難。即於彼中淨居天等。見阿蘭若空閑之處。并諸塔廟及僧伽藍。作如是言。嗚呼嗚呼。此釋迦牟尼法[1]教<note place="inline">如是三說</note>阿難。於法教中當有淨信諸龍王等。於一夜中遍閻浮提所有一切諸塔精舍。皆悉收入龍宮殿中。所有禪窟經行之處。及阿蘭那一切所有。彼三摩耶皆悉空曠無復人居。其多馬王將其部伍。來至逋沙波婆帝王所居城。時沙門釋種諸弟子皆悉逃走。時多馬王既知走已。所有伽藍放火燒然。」(CBETA, T21, no. 1341, p. 828, c27-p. 829, a26)[13]而＝所【宋】。[1]教＋（於此破壞）【宋】＊【元】＊【明】＊</note></quote>。諸比丘被逼逃
 <lb n="0316a02" ed="Y"/>到拘睒彌，此<lb n="0319a13" ed="Y" type="old"/>下即與傳說中的拘睒彌法滅聯接。</p><pb n="0320a" ed="Y" xml:id="Y22.0022.0320a.old" type="old"/>
-<lb n="0316a03" ed="Y"/><lb n="0320a01" ed="Y" type="old"/><p style="text-indent:2em">此一傳說，在上承罽賓滅法、下接拘睒彌法滅的古舊傳說中，插入此北印度
+<lb n="0316a03" ed="Y"/><lb n="0320a01" ed="Y" type="old"/><p xml:id="pY22p0316a0301" style="text-indent:2em">此一傳說，在上承罽賓滅法、下接拘睒彌法滅的古舊傳說中，插入此北印度
 <lb n="0316a04" ed="Y"/><lb n="0320a02" ed="Y" type="old"/>比丘武力自衛的新傳說。這不能不重視，不能看為幻想與神話。布沙波祗，又布
 <lb n="0316a05" ed="Y"/><lb n="0320a03" ed="Y" type="old"/>沙波低，又逋沙波婆（疑衍）帝王所居城，是一個地方。宋雲到健陀羅，也說王
 <lb n="0316a06" ed="Y"/><lb n="0320a04" ed="Y" type="old"/>城名佛沙伏。這即是<title level="m">《西域記》</title>的布色羯邏伐底布邏，或說即跋虜沙城——為迦
@@ -551,10 +571,10 @@
 <pb n="0317a" ed="Y" xml:id="Y22.0022.0317a"/>
 <lb n="0317a01" ed="Y"/>，因<lb n="0320a12" ed="Y" type="old"/>而使北方佛教遭受更慘的境遇。但從世間的觀點，這多少還含有護國護教的
 <lb n="0317a02" ed="Y"/>情緒<lb n="0320a13" ed="Y" type="old"/>在內。</p><pb n="0321a" ed="Y" xml:id="Y22.0022.0321a.old" type="old"/>
-<lb n="0317a03" ed="Y"/><lb n="0321a01" ed="Y" type="old"/><p style="text-indent:2em">婆睺羅舒婆王，經中又作婆睺奢波迦（譯名不統一極了）王，應即是摩醯邏
+<lb n="0317a03" ed="Y"/><lb n="0321a01" ed="Y" type="old"/><p xml:id="pY22p0317a0301" style="text-indent:2em">婆睺羅舒婆王，經中又作婆睺奢波迦（譯名不統一極了）王，應即是摩醯邏
 <lb n="0317a04" ed="Y"/><lb n="0321a02" ed="Y" type="old"/>矩羅，或寐吱曷羅俱邏。譯作多馬，大族，都是未必對的，這是依梵文的音義去
 <lb n="0317a05" ed="Y"/>解<lb n="0321a03" ed="Y" type="old"/>釋匈奴人的名字。婆睺羅與摩醯邏，音聲極近。舒婆又作奢波迦，「迦」收音
 <lb n="0317a06" ed="Y"/>，<lb n="0321a04" ed="Y" type="old"/>與「矩」及「俱」同。此一傳說，把它作為摩醯邏矩羅侵入時的某種事實，極
 <lb n="0317a07" ed="Y"/>為<lb n="0321a05" ed="Y" type="old"/>近情而合理。玄奘所見的荒圮、衰落的原因，也可以得一更好的理解。</p>
-<lb n="0317a08" ed="Y"/><lb n="0321a06" ed="Y" type="old"/><p style="text-indent:2em">北印的佛教，在長期的內憂外患下，衰落了！</p></cb:div></cb:div><pb n="0322a" ed="Y" xml:id="Y22.0022.0322a.old" type="old"/>
+<lb n="0317a08" ed="Y"/><lb n="0321a06" ed="Y" type="old"/><p xml:id="pY22p0317a0801" style="text-indent:2em">北印的佛教，在長期的內憂外患下，衰落了！</p></cb:div></cb:div><pb n="0322a" ed="Y" xml:id="Y22.0022.0322a.old" type="old"/>
 </body></text></TEI>

@@ -12,58 +12,78 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版四刷<date>Date: 2011/10</date>新式標點版</edition>
+			<edition>新版四刷<date>Date: 2011/10</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 24, No. 24</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">24</idno>.<idno type="no">24</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法是救世之光</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">三一、舍利子釋疑</cb:mulu>
-<milestone unit="juan" n="32"/>
+<milestone n="32" unit="juan"/>
 <pb n="0337a" ed="Y" xml:id="Y24.0024.0337a"/>
 <lb n="0337a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">三二、從金龍寺大佛談起</cb:mulu><head>從金龍寺大佛談起<note n="0337001" resp="DILA" type="add">民國四五年撰。</note></head>
-<lb n="0337a02" ed="Y"/><p style="text-indent:2em">據報載：臺北內湖金龍寺，發起修建日式的銅佛一尊，高七丈二尺。遊人可
+<lb n="0337a02" ed="Y"/><p xml:id="pY24p0337a0201" style="text-indent:2em">據報載：臺北內湖金龍寺，發起修建日式的銅佛一尊，高七丈二尺。遊人可
 <lb n="0337a03" ed="Y"/>以在佛腹中，拾級而登，從佛眼中遠眺。此一對佛不敬事件，引起教內教外的種
 <lb n="0337a04" ed="Y"/>種批評。據說，由於各方的反應不佳，此一計劃可能打消。</p>
-<lb n="0337a05" ed="Y"/><p style="text-indent:2em">從此入佛腹而望風景事件，使我想起一個問題，這便是尊敬寺塔佛像，與遊
+<lb n="0337a05" ed="Y"/><p xml:id="pY24p0337a0501" style="text-indent:2em">從此入佛腹而望風景事件，使我想起一個問題，這便是尊敬寺塔佛像，與遊
 <lb n="0337a06" ed="Y"/>覽名勝風景的矛盾。名山大剎，一般社會人士，要求他成為風景區，遊覽勝地。
 <lb n="0337a07" ed="Y"/>佛寺的主持人，也以此為方便，認為不但可以攝化信眾，而且可以增加收入。但
 <lb n="0337a08" ed="Y"/>是為了遊覽名勝風景而來的，大抵是「借佛遊春」，缺少宗教的敬虔情緒。而遊
 <lb n="0337a09" ed="Y"/>客紛繁，招待引導，僧眾的世俗心也日漸增長。這樣，經濟的收入增加了，佛教
 <lb n="0337a10" ed="Y"/>的表面興盛了，而佛教的實質，卻引向衰落。</p>
-<lb n="0337a11" ed="Y"/><p style="text-indent:2em">從佛教的真意來說：佛像，菩薩像，都是作為禮敬供養的對象。塔，或是生
+<lb n="0337a11" ed="Y"/><p xml:id="pY24p0337a1101" style="text-indent:2em">從佛教的真意來說：佛像，菩薩像，都是作為禮敬供養的對象。塔，或是生
 <pb n="0338a" ed="Y" xml:id="Y24.0024.0338a"/>
 <lb n="0338a01" ed="Y"/>身舍利塔，或是法身舍利（經）塔，也是尊仰與禮敬的。寺院是供佛安僧，修持
 <lb n="0338a02" ed="Y"/>弘法的。寺塔佛像，凡是正信的佛教徒，是決不會從名勝風景的觀點去看的。依
@@ -76,7 +96,7 @@
 <lb n="0338a09" ed="Y"/>，而登塔遠望，卻被看作當然了！我希望將來奘公舍利塔的興建，切勿為了日月
 <lb n="0338a10" ed="Y"/>潭的風景，而建築為「登臨遠望」的寶塔。因為這雖然是中國式的，卻是非佛法
 <lb n="0338a11" ed="Y"/>的。</p>
-<lb n="0338a12" ed="Y"/><p style="text-indent:2em">希望社會人士，切莫以遊覽名勝風景的心情，去瞻仰佛寺塔宇。寺塔的主持
+<lb n="0338a12" ed="Y"/><p xml:id="pY24p0338a1201" style="text-indent:2em">希望社會人士，切莫以遊覽名勝風景的心情，去瞻仰佛寺塔宇。寺塔的主持
 <lb n="0338a13" ed="Y"/>人，特別要認清此點，充實敬虔嚴肅的信心。有些大殿佛像，不夠清淨；有的表
 <pb n="0339a" ed="Y" xml:id="Y24.0024.0339a"/>
 <lb n="0339a01" ed="Y"/>面清淨，而罄子裡，供桌裡，佛像旁，總是香燭零星，拉雜一大堆。尤其是僧眾
@@ -84,7 +104,7 @@
 <lb n="0339a03" ed="Y"/>心（不是沒有信心，卻是不夠標準），佛堂與塔院，便不會清淨，便不會日日以
 <lb n="0339a04" ed="Y"/>供養修福的心情去整潔。自身的功德，不會增長；社會人士，也不易從莊敬清淨
 <lb n="0339a05" ed="Y"/>中生起信心。這點，臺島佛寺，有的還比內地好，希望能保持而更進一步！</p>
-<lb n="0339a06" ed="Y"/><p style="text-indent:2em">上面說到，如以名勝風景的觀點來看寺塔經像，是錯誤的，是與佛教不利的
+<lb n="0339a06" ed="Y"/><p xml:id="pY24p0339a0601" style="text-indent:2em">上面說到，如以名勝風景的觀點來看寺塔經像，是錯誤的，是與佛教不利的
 <lb n="0339a07" ed="Y"/>。佛教界有一句老話：<quote>「名山腳下無高僧」</quote>。因為一成香火興盛的名山，香客與
 <lb n="0339a08" ed="Y"/>遊客來多了，經濟也多了，僧眾每缺少勤苦為道的精神，容易腐化。以我住過的
 <lb n="0339a09" ed="Y"/>南海普陀山來說，在沒有輪船交通以前，來普陀山禮佛進香的，都是信心懇切，
@@ -94,7 +114,7 @@
 <lb n="0339a13" ed="Y"/>，山上的小廟（房頭）增加了一倍多；洋房（私家的）電燈也有了，著實興旺！
 <pb n="0340a" ed="Y" xml:id="Y24.0024.0340a"/>
 <lb n="0340a01" ed="Y"/>然從道風去看，不免有不堪回首之感！</p>
-<lb n="0340a02" ed="Y"/><p style="text-indent:2em">金龍寺何以要建這樣的大佛，大得可以，而且還可以登高遠望？也許為了要
+<lb n="0340a02" ed="Y"/><p xml:id="pY24p0340a0201" style="text-indent:2em">金龍寺何以要建這樣的大佛，大得可以，而且還可以登高遠望？也許為了要
 <lb n="0340a03" ed="Y"/>造成名勝風景。不知佛寺的名勝風景化，只合於經濟算盤，並不合於佛教精神。
 <lb n="0340a04" ed="Y"/>這點，是可以貢獻金龍寺的主持人，作為一種參考！我們要報佛恩，不要輕佛，
 <lb n="0340a05" ed="Y"/>不要出佛身血！假使為了佛教，不但不能修建可以登臨的佛像（不是不可以建大

@@ -12,69 +12,89 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/12</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/12</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>39卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 23, No. 23</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>39卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">23</idno>.<idno type="no">23</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨香雲</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB01121">
-	<charName>CBETA CHARACTER CB01121</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[口*尃]</value>
-	</charProp>
-	<mapping type="unicode">U+35D8</mapping>
-	<mapping cb:dec="984161" type="PUA">U+F0461</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB01121">
+				<charName>CBETA CHARACTER CB01121</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[口*尃]</value>
+				</charProp>
+				<mapping type="unicode">U+35D8</mapping>
+				<mapping cb:dec="984161" type="PUA">U+F0461</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十、哌<g ref="#CB01121"/>文集序</cb:mulu>
-<milestone unit="juan" n="11"/><pb n="0249a" ed="Y" xml:id="Y23.0023.0249a.old" type="old"/>
+<milestone n="11" unit="juan"/><pb n="0249a" ed="Y" xml:id="Y23.0023.0249a.old" type="old"/>
 <pb n="0249a" ed="Y" xml:id="Y23.0023.0249a"/>
 <lb n="0249a01" ed="Y"/><lb n="0249a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十一、中國佛教哲學概論序</cb:mulu><head>中國佛教哲學概論序<note n="0249001" resp="DILA" type="add">民國四八年撰。</note></head>
-<lb n="0249a02" ed="Y"/><lb n="0249a02" ed="Y" type="old"/><p style="text-indent:2em">印度大乘之學，植基於<title level="m">《阿含經》</title>，弘廣於<title level="m">《般若經》</title>，經續紛陳，難可詳
+<lb n="0249a02" ed="Y"/><lb n="0249a02" ed="Y" type="old"/><p xml:id="pY23p0249a0201" style="text-indent:2em">印度大乘之學，植基於<title level="m">《阿含經》</title>，弘廣於<title level="m">《般若經》</title>，經續紛陳，難可詳
 <lb n="0249a03" ed="Y"/>究。<lb n="0249a03" ed="Y" type="old"/>其能抉擇而顯了之者，中觀與唯識尚矣！晚期鎔鑄為真心說，始漸異從來之
 <lb n="0249a04" ed="Y"/>學。<lb n="0249a04" ed="Y" type="old"/>傳入我國，真常唯心之說獨張。隋唐間異采紛呈，成八宗之瑰奇。唐宋化流
 <lb n="0249a05" ed="Y"/>日本<lb n="0249a05" ed="Y" type="old"/>，初無異於唐宋之舊。迨專取信願之說出，乃迥乎別矣。近代日本學者，詳
 <lb n="0249a06" ed="Y"/>考深<lb n="0249a06" ed="Y" type="old"/>究，每有所發，雖眾途並進，要不外歸宗於真心及信願之學也。</p>
-<lb n="0249a07" ed="Y"/><lb n="0249a07" ed="Y" type="old"/><p style="text-indent:2em">李居士世傑，遊心佛法，篤志大乘，其研幾之勤、思辨之精，求之我國佛教
+<lb n="0249a07" ed="Y"/><lb n="0249a07" ed="Y" type="old"/><p xml:id="pY23p0249a0701" style="text-indent:2em">李居士世傑，遊心佛法，篤志大乘，其研幾之勤、思辨之精，求之我國佛教
 <lb n="0249a08" ed="Y"/><lb n="0249a08" ed="Y" type="old"/>界，不數數見也。近出其本於中華舊說、日本新論，深究而貫之於「一心」之心
 <lb n="0249a09" ed="Y"/><lb n="0249a09" ed="Y" type="old"/>得，成<title level="m">《中國佛教哲學概論》</title>，將以行世。雖未及覽其全文，然法苑義林，足備
 <lb n="0249a10" ed="Y"/>教界<lb n="0249a10" ed="Y" type="old"/>及社會學者之研考，則確乎無可疑也。</p>
-<lb n="0249a11" ed="Y"/><lb n="0249a11" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《中國佛教哲學概論》</title>之組織，以「宇宙本體論」、「宇宙現象論」，說三論
+<lb n="0249a11" ed="Y"/><lb n="0249a11" ed="Y" type="old"/><p xml:id="pY23p0249a1101" style="text-indent:2em"><title level="m">《中國佛教哲學概論》</title>之組織，以「宇宙本體論」、「宇宙現象論」，說三論
 <pb n="0250a" ed="Y" xml:id="Y23.0023.0250a"/>
 <lb n="0250a01" ed="Y"/>、唯識、天<pb n="0250a" ed="Y" xml:id="Y23.0023.0250a.old" type="old"/><lb n="0250a01" ed="Y" type="old"/>臺、賢首；以「人生解脫論」，說密、禪、律、淨，八宗之大義備矣
 <lb n="0250a02" ed="Y"/>。佛法初無<lb n="0250a02" ed="Y" type="old"/>間於大小顯密也，要不外乎教證二門，亦即信解行證。教法為信解，
@@ -82,12 +102,12 @@
 <lb n="0250a04" ed="Y"/>聖德。證法<lb n="0250a04" ed="Y" type="old"/>為行證，則基信解而持行之道要，達於解脫聖德之實證也。性相顯密
 <lb n="0250a05" ed="Y"/>，莫不備此<lb n="0250a05" ed="Y" type="old"/>，故可謂無性相而不涉行證，無行證而不明性相，固難以性相及行證
 <lb n="0250a06" ed="Y"/>而判論諸宗<lb n="0250a06" ed="Y" type="old"/>。本書殆以義承日本學者之緒餘，或以用為哲學之說明，故如此耳。</p>
-<lb n="0250a07" ed="Y"/><lb n="0250a07" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《中國佛教哲學概論》</title>究義深徹，歎為希有。然更有可稱歎者：一、我國為
+<lb n="0250a07" ed="Y"/><lb n="0250a07" ed="Y" type="old"/><p xml:id="pY23p0250a0701" style="text-indent:2em"><title level="m">《中國佛教哲學概論》</title>究義深徹，歎為希有。然更有可稱歎者：一、我國為
 <lb n="0250a08" ed="Y"/>大乘第二祖國<lb n="0250a08" ed="Y" type="old"/>，闡發之精深博大，世無倫比，宜其為教界所宗仰、國族所弘護。
 <lb n="0250a09" ed="Y"/>然一以文義深<lb n="0250a09" ed="Y" type="old"/>隱，學者每有門牆萬仞之歎。又以舊來理學之徒，偏以禪學擬佛法
 <lb n="0250a10" ed="Y"/>之全，隱蔽法<lb n="0250a10" ed="Y" type="old"/>門，漸致式微。今備論乎八宗，如羅列眾寶，各呈奇采，乃知佛法
 <lb n="0250a11" ed="Y"/>之不僅禪也。<lb n="0250a11" ed="Y" type="old"/>文又簡而義明，學者宜可依之以漸入佛法矣。</p>
-<lb n="0250a12" ed="Y"/><lb n="0250a12" ed="Y" type="old"/><p style="text-indent:2em">二、佛法或說「唯心」，然非謂無物也，特以一切法不離心而安立，心為一
+<lb n="0250a12" ed="Y"/><lb n="0250a12" ed="Y" type="old"/><p xml:id="pY23p0250a1201" style="text-indent:2em">二、佛法或說「唯心」，然非謂無物也，特以一切法不離心而安立，心為一
 <lb n="0250a13" ed="Y"/><lb n="0250a13" ed="Y" type="old"/>切法之攝導者耳。故究極言之，即空即幻，心色緣成而無礙，初無違於法界平等<pb n="0251a" ed="Y" xml:id="Y23.0023.0251a.old" type="old"/>
 <pb n="0251a" ed="Y" xml:id="Y23.0023.0251a"/>
 <lb n="0251a01" ed="Y"/><lb n="0251a01" ed="Y" type="old"/>、一色一香之為中道。或說本性（本體），然非謂窮推冥際，立本體而依之以發

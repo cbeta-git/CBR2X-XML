@@ -12,53 +12,73 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/03</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/03</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>2卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 4, No. 4</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>2卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">4</idno>.<idno type="no">4</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">藥師經講記</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone n="1" unit="juan"/><pb n="0001a" ed="Y" xml:id="Y04.0004.0001a.old" type="old"/>
 <pb n="0001a" ed="Y" xml:id="Y04.0004.0001a"/>
-<lb n="0001a01" ed="Y"/><lb n="0001a01" ed="Y" type="old"/><cb:juan fun="open" n="1"><cb:jhead>藥師琉璃光如來本願功德經講記<note n="0001001" resp="CBETA" type="add">民國四三年講。</note></cb:jhead></cb:juan>
+<lb n="0001a01" ed="Y"/><lb n="0001a01" ed="Y" type="old"/><cb:juan n="1" fun="open"><cb:jhead>藥師琉璃光如來本願功德經講記<note n="0001001" resp="CBETA" type="add">民國四三年講。</note></cb:jhead></cb:juan>
 <lb n="0001a02" ed="Y"/><lb n="0001a02" ed="Y" type="old"/><byline rend="bold">——民國四十三年秋講於臺北善導寺——</byline>
 <lb n="0001a03" ed="Y"/><lb n="0001a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">懸論</cb:mulu><head><seg rend="border">懸論</seg></head>
 <lb n="0001a04" ed="Y"/><lb n="0001a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　敘緣起</cb:mulu><head>一　敘緣起</head>
-<lb n="0001a05" ed="Y"/><lb n="0001a05" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《藥師經》</title>，民國二十三年，太虛大師在寧波阿育王寺，曾講過一次，法緣
+<lb n="0001a05" ed="Y"/><lb n="0001a05" ed="Y" type="old"/><p xml:id="pY04p0001a0501" style="text-indent:2em"><title level="m">《藥師經》</title>，民國二十三年，太虛大師在寧波阿育王寺，曾講過一次，法緣
 <lb n="0001a06" ed="Y"/><lb n="0001a06" ed="Y" type="old"/>極盛，當時還記下一部很好的講記。</p>
-<lb n="0001a07" ed="Y"/><lb n="0001a07" ed="Y" type="old"/><p style="text-indent:2em">我們的國家，多災多難，特別是今年，大陸鬧著空前未有的大水災。我們來
+<lb n="0001a07" ed="Y"/><lb n="0001a07" ed="Y" type="old"/><p xml:id="pY04p0001a0701" style="text-indent:2em">我們的國家，多災多難，特別是今年，大陸鬧著空前未有的大水災。我們來
 <lb n="0001a08" ed="Y"/><lb n="0001a08" ed="Y" type="old"/>弘揚藥師法門，是顯得最有意義的。因為種種災難，是由眾生業力所招感，佛教
 <lb n="0001a09" ed="Y"/><lb n="0001a09" ed="Y" type="old"/>本著解救眾生苦難的慈悲立場，設有消災法門，使眾生消除業障，脫離災難。本
 <lb n="0001a10" ed="Y"/><lb n="0001a10" ed="Y" type="old"/>寺九月將啟建藥師法會，為上至元首下及軍民人等祈禱，大家能消災延壽，免難<pb n="0002a" ed="Y" xml:id="Y04.0004.0002a.old" type="old"/>
@@ -66,7 +86,7 @@
 <lb n="0002a01" ed="Y"/><lb n="0002a01" ed="Y" type="old"/>得福。所以在法會之前，先講本經，了解得其中意義，將來大家參預法會，一方
 <lb n="0002a02" ed="Y"/><lb n="0002a02" ed="Y" type="old"/>面仗三寶威力加被，一方面自己依法進修，才能真正達成消災免難的目的——此
 <lb n="0002a03" ed="Y"/><lb n="0002a03" ed="Y" type="old"/>是講說本經的近因緣。</p>
-<lb n="0002a04" ed="Y"/><lb n="0002a04" ed="Y" type="old"/><p style="text-indent:2em">虛大師講說本經時，說有三大因緣：一、近代人類重視現生安樂。現代人類
+<lb n="0002a04" ed="Y"/><lb n="0002a04" ed="Y" type="old"/><p xml:id="pY04p0002a0401" style="text-indent:2em">虛大師講說本經時，說有三大因緣：一、近代人類重視現生安樂。現代人類
 <lb n="0002a05" ed="Y"/><lb n="0002a05" ed="Y" type="old"/>所重視的是現實的人生，要求現實生活得理想、安樂。佛法所說的樂，有三種：
 <lb n="0002a06" ed="Y"/><lb n="0002a06" ed="Y" type="old"/>(一)、現法樂，(二)、後世樂，(三)、究竟解脫樂。世間眾生有種種苦痛的煎迫，所以
 <lb n="0002a07" ed="Y"/><lb n="0002a07" ed="Y" type="old"/>要求出苦，傾向安樂；而一般所希求的安樂，總不外乎現生樂、後世樂、或是究
@@ -80,7 +100,7 @@
 <lb n="0003a01" ed="Y"/><lb n="0003a01" ed="Y" type="old"/>。若根據佛法的正義來說，東方藥師琉璃光如來的淨土法門，是適應一類眾生希
 <lb n="0003a02" ed="Y"/><lb n="0003a02" ed="Y" type="old"/>求的現生樂；西方阿彌陀佛的淨土法門，則是適應另一類眾生所希求的後世樂。
 <lb n="0003a03" ed="Y"/><lb n="0003a03" ed="Y" type="old"/>但這二者，都同以此為方便，引導趣入大乘，得究竟解脫為終極。</p>
-<lb n="0003a04" ed="Y"/><lb n="0003a04" ed="Y" type="old"/><p style="text-indent:2em">本來，無論西方極樂世界，或是東方淨琉璃世界，我們誰也不曉得，都是釋
+<lb n="0003a04" ed="Y"/><lb n="0003a04" ed="Y" type="old"/><p xml:id="pY04p0003a0401" style="text-indent:2em">本來，無論西方極樂世界，或是東方淨琉璃世界，我們誰也不曉得，都是釋
 <lb n="0003a05" ed="Y"/><lb n="0003a05" ed="Y" type="old"/>迦牟尼佛告訴我們才知道的，所以這都是釋尊大悲救世的善巧方便。為了引導要
 <lb n="0003a06" ed="Y"/><lb n="0003a06" ed="Y" type="old"/>求現法樂的眾生，即示以東方藥師的淨土法門；為了引導要求後世樂的眾生，即
 <lb n="0003a07" ed="Y"/><lb n="0003a07" ed="Y" type="old"/>示以阿彌陀佛的淨土法門，兩者同為圓滿究竟法門所流出的妙用。大師所以要特
@@ -88,7 +108,7 @@
 <lb n="0003a09" ed="Y"/><lb n="0003a09" ed="Y" type="old"/>安樂土，每引起社會人士的誤解。其實佛法是本於釋尊的解脫樂，雙開東西二淨
 <lb n="0003a10" ed="Y"/><lb n="0003a10" ed="Y" type="old"/>土，同弘現生後世樂。重現生樂的法門，事實上更適應於現代人類的根性，所以
 <lb n="0003a11" ed="Y"/><lb n="0003a11" ed="Y" type="old"/>大師特為倡導，以適應現代人類，發揮佛法的大用。</p>
-<lb n="0003a12" ed="Y"/><lb n="0003a12" ed="Y" type="old"/><p style="text-indent:2em">二、東方淨土與中國：佛說<quote type="嚴謹引文">「從是西方過十萬億佛土，有世界名曰極樂」<note n="0003001" resp="厚觀法師" type="add">《佛說阿彌陀經》卷1(CBETA, T12, no. 366, p. 346, c10-11)</note></quote><lb n="0003a13" ed="Y" type="old"/>；
+<lb n="0003a12" ed="Y"/><lb n="0003a12" ed="Y" type="old"/><p xml:id="pY04p0003a1201" style="text-indent:2em">二、東方淨土與中國：佛說<quote type="嚴謹引文">「從是西方過十萬億佛土，有世界名曰極樂」<note n="0003001" resp="厚觀法師" type="add">《佛說阿彌陀經》卷1(CBETA, T12, no. 366, p. 346, c10-11)</note></quote><lb n="0003a13" ed="Y" type="old"/>；
 <lb n="0003a13" ed="Y"/>同時又說從<quote source="T14n0450_p0405a01-02" type="嚴謹引文">「東方去此過十殑伽沙等佛土，有世界名曰淨琉璃」<note n="0003002" resp="周怡曄" type="add">《藥師琉璃光如來本願功德經》卷1(CBETA, T14, no. 450, p. 405, a1-2)</note></quote>。釋尊開示<pb n="0004a" ed="Y" xml:id="Y04.0004.0004a.old" type="old"/><lb n="0004a01" ed="Y" type="old"/>了二
 <pb n="0004a" ed="Y" xml:id="Y04.0004.0004a"/>
 <lb n="0004a01" ed="Y"/>大法門，固然東方西方的淨土，都有著真實意義，但釋尊出生於印度，即就<lb n="0004a02" ed="Y" type="old"/>我們
@@ -99,7 +119,7 @@
 <lb n="0004a06" ed="Y"/>國家，如轉穢為淨，也是極樂淨土式的，重視後生樂。自印度向東，如中國<lb n="0004a07" ed="Y" type="old"/>則不
 <lb n="0004a07" ed="Y"/>然，孔子說：<quote type="嚴謹引文">「未知生，焉知死。」</quote>東方的文化思想，特別著重現生樂，實<lb n="0004a08" ed="Y" type="old"/>與藥
 <lb n="0004a08" ed="Y"/>師佛的淨土相近。所以此經最能適應中國人心。</p>
-<lb n="0004a09" ed="Y"/><lb n="0004a09" ed="Y" type="old"/><p style="text-indent:2em">三、依藥師淨土創建人間淨土：我們對於藥師法門，平時只著重消災延壽，
+<lb n="0004a09" ed="Y"/><lb n="0004a09" ed="Y" type="old"/><p xml:id="pY04p0004a0901" style="text-indent:2em">三、依藥師淨土創建人間淨土：我們對於藥師法門，平時只著重消災延壽，
 <lb n="0004a10" ed="Y"/><lb n="0004a10" ed="Y" type="old"/>而不知藥師如來在過去生中，曾發菩提心，發廣大願，行大悲行，而後才成就無
 <lb n="0004a11" ed="Y"/><lb n="0004a11" ed="Y" type="old"/>上佛果，成就清淨光明的琉璃世界。關於這，經裡說得極其詳細，我們參加藥師
 <lb n="0004a12" ed="Y"/><lb n="0004a12" ed="Y" type="old"/>法會，應該一面祈求藥師如來恩德的加被，一面依佛因地所發的大願，所行的悲
@@ -112,18 +132,18 @@
 <lb n="0005a05" ed="Y"/><lb n="0005a05" ed="Y" type="old"/>可轉成清淨的淨琉璃世界嗎？所以我們聽講此經，應如此理解與實行，而祈求人
 <lb n="0005a06" ed="Y"/><lb n="0005a06" ed="Y" type="old"/>間淨土的建立。</p></cb:div>
 <lb n="0005a07" ed="Y"/><lb n="0005a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　釋經題</cb:mulu><head>二　釋經題</head>
-<lb n="0005a08" ed="Y"/><lb n="0005a08" ed="Y" type="old"/><p style="text-indent:2em">本經的經題，據佛說有三個名稱：一、藥師琉璃光如來本願功德；二、十二
+<lb n="0005a08" ed="Y"/><lb n="0005a08" ed="Y" type="old"/><p xml:id="pY04p0005a0801" style="text-indent:2em">本經的經題，據佛說有三個名稱：一、藥師琉璃光如來本願功德；二、十二
 <lb n="0005a09" ed="Y"/><lb n="0005a09" ed="Y" type="old"/>神將饒益有情結願神咒；三、拔除一切業障。現在流通的本經，是以第一名稱為
 <lb n="0005a10" ed="Y"/><lb n="0005a10" ed="Y" type="old"/>經題。因為拔一切業障，就是藥師如來本願功德的力量；十二神將的饒益有情，
 <lb n="0005a11" ed="Y"/><lb n="0005a11" ed="Y" type="old"/>也只是護持藥師如來的功德法，而令有情獲得此功德的法益。所以以本攝末，立
 <lb n="0005a12" ed="Y"/><lb n="0005a12" ed="Y" type="old"/>名為藥師琉璃光如來本願功德經。</p><pb n="0006a" ed="Y" xml:id="Y04.0004.0006a.old" type="old"/>
 <pb n="0006a" ed="Y" xml:id="Y04.0004.0006a"/>
-<lb n="0006a01" ed="Y"/><lb n="0006a01" ed="Y" type="old"/><p style="text-indent:2em"><quote type="嚴謹引文">「藥師」</quote>：現代談到藥師，只是配藥的人，而古代卻不然，藥師與醫生的含
+<lb n="0006a01" ed="Y"/><lb n="0006a01" ed="Y" type="old"/><p xml:id="pY04p0006a0101" style="text-indent:2em"><quote type="嚴謹引文">「藥師」</quote>：現代談到藥師，只是配藥的人，而古代卻不然，藥師與醫生的含
 <lb n="0006a02" ed="Y"/><lb n="0006a02" ed="Y" type="old"/>義一樣。佛法中常稱佛陀為無上醫王或大藥師，因佛能治療一切眾生的種種疾病
 <lb n="0006a03" ed="Y"/><lb n="0006a03" ed="Y" type="old"/>。經裡說：人的生理上有三種病——老、病、死；心理上也有三種病——貪、瞋
 <lb n="0006a04" ed="Y"/><lb n="0006a04" ed="Y" type="old"/>、癡。大覺佛陀出世救濟眾生，即是為了拔除眾生身心的種種病患，故讚歎佛為
 <lb n="0006a05" ed="Y"/><lb n="0006a05" ed="Y" type="old"/>大醫王、大藥師。我們不可把含有崇高意義的藥師一名，視為普通的配藥人。</p>
-<lb n="0006a06" ed="Y"/><lb n="0006a06" ed="Y" type="old"/><p style="text-indent:2em">什麼是病？什麼是藥？病，即是由於不調和所起的現象，如經說：<quote source="T14n0523_p0796b21" type="嚴謹引文">「一大不
+<lb n="0006a06" ed="Y"/><lb n="0006a06" ed="Y" type="old"/><p xml:id="pY04p0006a0601" style="text-indent:2em">什麼是病？什麼是藥？病，即是由於不調和所起的現象，如經說：<quote source="T14n0523_p0796b21" type="嚴謹引文">「一大不
 <lb n="0006a07" ed="Y"/><lb n="0006a07" ed="Y" type="old"/>調，百一病生。」<note n="0006001" resp="周怡曄" type="add">《佛說五王經》卷1(CBETA, T14, no. 523, p. 796, b21)</note></quote>人的身體，某一部分不調和，即會有病，更會影響到全身的不
 <lb n="0006a08" ed="Y"/><lb n="0006a08" ed="Y" type="old"/>調和。心的不調也是這樣，我們心理若是有點反常現象，或是有了某種煩惱，便
 <lb n="0006a09" ed="Y"/><lb n="0006a09" ed="Y" type="old"/>會牽連及全部精神的不安。如此說來，世間的病患就多了，從各個眾生的身心，
@@ -137,7 +157,7 @@
 <lb n="0007a03" ed="Y"/><lb n="0007a03" ed="Y" type="old"/>，有五臟六腑等生理組織，而這些組織因素，時時發生矛盾，時時都在病中。不
 <lb n="0007a04" ed="Y"/><lb n="0007a04" ed="Y" type="old"/>過若能使它傾向於調和，調和的成分多，身體就稱為健康。從這個意義去看，世
 <lb n="0007a05" ed="Y"/><lb n="0007a05" ed="Y" type="old"/>間的一切，有痛苦，有災難，即無非是病。</p>
-<lb n="0007a06" ed="Y"/><lb n="0007a06" ed="Y" type="old"/><p style="text-indent:2em">眾生有病，便需治之以藥。世間的醫藥以及政治法律等，都可說是藥；但在
+<lb n="0007a06" ed="Y"/><lb n="0007a06" ed="Y" type="old"/><p xml:id="pY04p0007a0601" style="text-indent:2em">眾生有病，便需治之以藥。世間的醫藥以及政治法律等，都可說是藥；但在
 <lb n="0007a07" ed="Y"/><lb n="0007a07" ed="Y" type="old"/>佛法中，藥就是佛法——法藥。唯有佛法方能療治一切疾病。剛才說，病有身心
 <lb n="0007a08" ed="Y"/><lb n="0007a08" ed="Y" type="old"/>、家庭、團體、國家、世界等不同病態；凡能夠減除苦痛，使苦痛變成安樂的，
 <lb n="0007a09" ed="Y"/><lb n="0007a09" ed="Y" type="old"/>都是藥，因此可說世間什麼都是藥，處處都有藥，不過我們不知，若懂得了就什
@@ -150,14 +170,14 @@
 <lb n="0008a02" ed="Y"/><lb n="0008a02" ed="Y" type="old"/>，因為佛法是依眾生的病而施設的，所以說眾生有八萬四千煩惱，佛說八萬四
 <lb n="0008a03" ed="Y"/>千<lb n="0008a03" ed="Y" type="old"/>法門。有了什麼病，就治以什麼藥，若拘執為這是藥那不是藥，那就離佛法遠
 <lb n="0008a04" ed="Y"/>了<lb n="0008a04" ed="Y" type="old"/>。</p>
-<lb n="0008a05" ed="Y"/><lb n="0008a05" ed="Y" type="old"/><p style="text-indent:2em">關於藥與病，已如上所說，現在再談能知病源能應用藥的人——藥師。佛法
+<lb n="0008a05" ed="Y"/><lb n="0008a05" ed="Y" type="old"/><p xml:id="pY04p0008a0501" style="text-indent:2em">關於藥與病，已如上所說，現在再談能知病源能應用藥的人——藥師。佛法
 <lb n="0008a06" ed="Y"/><lb n="0008a06" ed="Y" type="old"/>說有兩種藥師：一為小藥師，一為大藥師。小藥師的醫術不太高明，藥箱裡也只
 <lb n="0008a07" ed="Y"/><lb n="0008a07" ed="Y" type="old"/>有一兩樣藥，只能治療一兩種病；大藥師就不同，他的藥箱裡具備了種種藥，應
 <lb n="0008a08" ed="Y"/><lb n="0008a08" ed="Y" type="old"/>有盡有，而且醫術高明，能深察病情，精用藥物。這喻諸佛菩薩，圓具精深的智
 <lb n="0008a09" ed="Y"/><lb n="0008a09" ed="Y" type="old"/>慧，宏偉的願力，廣大的悲行，有種種法門，種種的妙藥，眾生有什麼病即能治
 <lb n="0008a10" ed="Y"/><lb n="0008a10" ed="Y" type="old"/>以什麼藥，千變萬化奇形怪狀的病患，配以千差萬殊的藥方，皆能運用自如，從
 <lb n="0008a11" ed="Y"/><lb n="0008a11" ed="Y" type="old"/>無差錯；決非偏執一方一法的小藥師可比。</p>
-<lb n="0008a12" ed="Y"/><lb n="0008a12" ed="Y" type="old"/><p style="text-indent:2em">藥師治病，有標治與本治的不同，頭痛治頭，腳患醫腳，是標治；探究病源
+<lb n="0008a12" ed="Y"/><lb n="0008a12" ed="Y" type="old"/><p xml:id="pY04p0008a1201" style="text-indent:2em">藥師治病，有標治與本治的不同，頭痛治頭，腳患醫腳，是標治；探究病源
 <lb n="0008a13" ed="Y"/><lb n="0008a13" ed="Y" type="old"/>以徹底根除病患，是本治。頂好的醫治，是一面培養元氣，一面預防足以致病的<pb n="0009a" ed="Y" xml:id="Y04.0004.0009a.old" type="old"/>
 <pb n="0009a" ed="Y" xml:id="Y04.0004.0009a"/>
 <lb n="0009a01" ed="Y"/><lb n="0009a01" ed="Y" type="old"/>因素，也即是治於未然，這才是上等治法。在心理方面，如教以正當知見，信因
@@ -168,7 +188,7 @@
 <lb n="0009a06" ed="Y"/><lb n="0009a06" ed="Y" type="old"/>治國病，也如此。如病發生以後才去醫治，實已遲了一著。上等藥師無不標本兼
 <lb n="0009a07" ed="Y"/><lb n="0009a07" ed="Y" type="old"/>治，問題還是在病人本身，如醫生教他注重衛生，預防病素，他不聽，結果才病
 <lb n="0009a08" ed="Y"/><lb n="0009a08" ed="Y" type="old"/>倒下來。</p>
-<lb n="0009a09" ed="Y"/><lb n="0009a09" ed="Y" type="old"/><p style="text-indent:2em">佛給眾生治病，也有治標治本二法。歸依三寶之後，能依教法而按步進修，
+<lb n="0009a09" ed="Y"/><lb n="0009a09" ed="Y" type="old"/><p xml:id="pY04p0009a0901" style="text-indent:2em">佛給眾生治病，也有治標治本二法。歸依三寶之後，能依教法而按步進修，
 <lb n="0009a10" ed="Y"/><lb n="0009a10" ed="Y" type="old"/>從願行中慢慢地體驗。種種煩惱，種種苦痛，自然就會由減少而終至完全根絕，
 <lb n="0009a11" ed="Y"/><lb n="0009a11" ed="Y" type="old"/>以達最高理想的實現。但普通人不能如此，不知平時進修，善的不保留，不擴充
 <lb n="0009a12" ed="Y"/><lb n="0009a12" ed="Y" type="old"/>；壞的不減除，反而與日俱增。身心不知調攝，家事不善處置，國事不善治理，
@@ -178,7 +198,7 @@
 <lb n="0010a02" ed="Y"/><lb n="0010a02" ed="Y" type="old"/>，急求三寶加被，還不失消災得樂的時機。只怕不認病，不求醫，那才死而後已
 <lb n="0010a03" ed="Y"/><lb n="0010a03" ed="Y" type="old"/>。所以，能切實依教奉行，苦難不消而自消，福慧不增而自增。欲求免難延壽消
 <lb n="0010a04" ed="Y"/><lb n="0010a04" ed="Y" type="old"/>災障，大家要奉行本標兼治。</p>
-<lb n="0010a05" ed="Y"/><lb n="0010a05" ed="Y" type="old"/><p style="text-indent:2em">依照佛陀治病的方便，還可分為二：一正治，二奇治。正治，是一般的治療
+<lb n="0010a05" ed="Y"/><lb n="0010a05" ed="Y" type="old"/><p xml:id="pY04p0010a0501" style="text-indent:2em">依照佛陀治病的方便，還可分為二：一正治，二奇治。正治，是一般的治療
 <lb n="0010a06" ed="Y"/><lb n="0010a06" ed="Y" type="old"/>法；奇治，是特殊的治療法。毒藥是害人的，但真正的名醫，砒石也可當藥，這
 <lb n="0010a07" ed="Y"/><lb n="0010a07" ed="Y" type="old"/>是特殊的奇治。但奇治不易，每會發生危險，而一般的治法則較為穩當、安全，
 <lb n="0010a08" ed="Y"/><lb n="0010a08" ed="Y" type="old"/>不致引生意外。佛的治法也有正常道和特殊辦法，如佛說無我，是根本正治；但
@@ -186,7 +206,7 @@
 <lb n="0010a10" ed="Y"/><lb n="0010a10" ed="Y" type="old"/>得不又說有我，以正其偏弊。這類正用反用，種種慈濟眾生的方便，不勝枚舉。
 <lb n="0010a11" ed="Y"/><lb n="0010a11" ed="Y" type="old"/>總之，全視眾生患何種病，即治以何種藥。正路雖遠而平坦易行，曲道雖近而崎
 <lb n="0010a12" ed="Y"/><lb n="0010a12" ed="Y" type="old"/>嶇危險。這點，修學佛法的人，非首先了解不可。</p>
-<lb n="0010a13" ed="Y"/><lb n="0010a13" ed="Y" type="old"/><p style="text-indent:2em">藥師，本可為一切佛的通稱，佛都能善治眾生病的。佛體察眾生的種種病情<pb n="0011a" ed="Y" xml:id="Y04.0004.0011a.old" type="old"/>
+<lb n="0010a13" ed="Y"/><lb n="0010a13" ed="Y" type="old"/><p xml:id="pY04p0010a1301" style="text-indent:2em">藥師，本可為一切佛的通稱，佛都能善治眾生病的。佛體察眾生的種種病情<pb n="0011a" ed="Y" xml:id="Y04.0004.0011a.old" type="old"/>
 <pb n="0011a" ed="Y" xml:id="Y04.0004.0011a"/>
 <lb n="0011a01" ed="Y"/><lb n="0011a01" ed="Y" type="old"/>，能施設運用種種法藥——八萬四千法門，即是八萬四千法藥。如作大類的分別
 <lb n="0011a02" ed="Y"/><lb n="0011a02" ed="Y" type="old"/>：有人天法藥，小乘法藥，以及自利利他的菩薩法藥等。約此意義，一切諸佛都
@@ -194,22 +214,22 @@
 <lb n="0011a04" ed="Y"/><lb n="0011a04" ed="Y" type="old"/>理眾生身病，所以特以藥師為名。究竟的無上的藥師，唯是佛陀，而佛弟子依佛
 <lb n="0011a05" ed="Y"/><lb n="0011a05" ed="Y" type="old"/>教法修學，或自學，或講說以利化，多少學習了佛陀的法藥，多少救治眾生的病
 <lb n="0011a06" ed="Y"/><lb n="0011a06" ed="Y" type="old"/>苦，也可以稱為藥師。</p>
-<lb n="0011a07" ed="Y"/><lb n="0011a07" ed="Y" type="old"/><p style="text-indent:2em"><quote type="嚴謹引文">「琉璃光」</quote>：也是東方佛的名字。此中所說的琉璃，不是琉璃燈、琉璃瓦等
+<lb n="0011a07" ed="Y"/><lb n="0011a07" ed="Y" type="old"/><p xml:id="pY04p0011a0701" style="text-indent:2em"><quote type="嚴謹引文">「琉璃光」</quote>：也是東方佛的名字。此中所說的琉璃，不是琉璃燈、琉璃瓦等
 <lb n="0011a08" ed="Y"/><lb n="0011a08" ed="Y" type="old"/>琉璃，而是梵語薜琉璃的略譯，是一種寶物。顏色如萬里無雲的碧空，又如澄清
 <lb n="0011a09" ed="Y"/><lb n="0011a09" ed="Y" type="old"/>深徹的海水；體質堅固，如金剛石，為極希有的珍寶。這是以琉璃寶的光輝、明
 <lb n="0011a10" ed="Y"/><lb n="0011a10" ed="Y" type="old"/>淨，而比喻佛德，所以東方藥師佛，又以琉璃光為名。</p>
-<lb n="0011a11" ed="Y"/><lb n="0011a11" ed="Y" type="old"/><p style="text-indent:2em">琉璃寶，或釋作遠山寶。依佛教說，我們的這一世界，當中是須彌山，山的
+<lb n="0011a11" ed="Y"/><lb n="0011a11" ed="Y" type="old"/><p xml:id="pY04p0011a1101" style="text-indent:2em">琉璃寶，或釋作遠山寶。依佛教說，我們的這一世界，當中是須彌山，山的
 <lb n="0011a12" ed="Y"/><lb n="0011a12" ed="Y" type="old"/>週圍有四大部洲，須彌山的四峰皆是寶類所成。南贍部洲所對的山峰，即琉璃寶
 <lb n="0011a13" ed="Y"/><lb n="0011a13" ed="Y" type="old"/>積聚而成。此寶山光輝映入空際，遂呈青色，故琉璃義譯為遠山寶。現代科學家<pb n="0012a" ed="Y" xml:id="Y04.0004.0012a.old" type="old"/>
 <pb n="0012a" ed="Y" xml:id="Y04.0004.0012a"/>
 <lb n="0012a01" ed="Y"/><lb n="0012a01" ed="Y" type="old"/>，對於天空何以會呈現青色，當然有他的解說。而佛出印度，取印度當時的見解
 <lb n="0012a02" ed="Y"/><lb n="0012a02" ed="Y" type="old"/>，解說為由於琉璃寶光的反映。</p>
-<lb n="0012a03" ed="Y"/><lb n="0012a03" ed="Y" type="old"/><p style="text-indent:2em">佛與菩薩，皆是依德立名。但佛德崇高，沒有完美適當的，所以只能從佛（
+<lb n="0012a03" ed="Y"/><lb n="0012a03" ed="Y" type="old"/><p xml:id="pY04p0012a0301" style="text-indent:2em">佛與菩薩，皆是依德立名。但佛德崇高，沒有完美適當的，所以只能從佛（
 <lb n="0012a04" ed="Y"/><lb n="0012a04" ed="Y" type="old"/>自利或利他）德的某特性，或用譬喻來勉強詮示。如須彌山王佛，是以巍峨高大
 <lb n="0012a05" ed="Y"/><lb n="0012a05" ed="Y" type="old"/>的山王，比擬佛德的偉大崇高；如栴檀香佛，因佛的德香遠聞，故以栴檀香立名
 <lb n="0012a06" ed="Y"/><lb n="0012a06" ed="Y" type="old"/>；又如雷音王佛，形容佛的法音遠震，如空中的雷音一樣，震撼世界。佛的名號
 <lb n="0012a07" ed="Y"/><lb n="0012a07" ed="Y" type="old"/>，以德或從譬喻安立，這裡的琉璃光，也是從比類來讚佛的德性。</p>
-<lb n="0012a08" ed="Y"/><lb n="0012a08" ed="Y" type="old"/><p style="text-indent:2em">琉璃光的含義，現在略說兩點：一、依眾生的心境說：本經以東方佛土為淨
+<lb n="0012a08" ed="Y"/><lb n="0012a08" ed="Y" type="old"/><p xml:id="pY04p0012a0801" style="text-indent:2em">琉璃光的含義，現在略說兩點：一、依眾生的心境說：本經以東方佛土為淨
 <lb n="0012a09" ed="Y"/><lb n="0012a09" ed="Y" type="old"/>琉璃世界，佛名琉璃光如來；輔佛宣揚正法的，是日光遍照和月光遍照二菩薩。
 <lb n="0012a10" ed="Y"/><lb n="0012a10" ed="Y" type="old"/>前面說過，琉璃寶即是遠山寶，琉璃光係由遠山寶映現於空際的光彩；而今此二
 <lb n="0012a11" ed="Y"/><lb n="0012a11" ed="Y" type="old"/>菩薩，以名喻德，當然如日月行空，普照一切。眾生——人類在生死輪迴的過程
@@ -223,7 +243,7 @@
 <lb n="0013a05" ed="Y"/><lb n="0013a05" ed="Y" type="old"/>的本性便是向光明的，不過如知識幼稚的，信（太陽月亮）神，信鬼，而不能自
 <lb n="0013a06" ed="Y"/><lb n="0013a06" ed="Y" type="old"/>覺景仰光明的真實意義——歸向於佛陀，引發而實現佛性的明淨。所以藥師法門
 <lb n="0013a07" ed="Y"/><lb n="0013a07" ed="Y" type="old"/>，即以青天與日月的光明，表徵佛菩薩的功德，顯示人類最高的理想界。</p>
-<lb n="0013a08" ed="Y"/><lb n="0013a08" ed="Y" type="old"/><p style="text-indent:2em">世間的光明，無過於日光和月光。此二種光明，同是清淨的，象徵希望與幸
+<lb n="0013a08" ed="Y"/><lb n="0013a08" ed="Y" type="old"/><p xml:id="pY04p0013a0801" style="text-indent:2em">世間的光明，無過於日光和月光。此二種光明，同是清淨的，象徵希望與幸
 <lb n="0013a09" ed="Y"/><lb n="0013a09" ed="Y" type="old"/>福的。然多少也有些不同，大致說來，日光是溫暖的，富有熱力的，一切的一切
 <lb n="0013a10" ed="Y"/><lb n="0013a10" ed="Y" type="old"/>，在日光朗照下，都能明顯地發露出來。這喻如智慧的光明，能給予世間以熱力
 <lb n="0013a11" ed="Y"/><lb n="0013a11" ed="Y" type="old"/>，能透過蒙昧，灼照一切，通達世出世法的真相。月光呢，它是清涼的，安寧的
@@ -232,7 +252,7 @@
 <pb n="0014a" ed="Y" xml:id="Y04.0004.0014a"/>
 <lb n="0014a01" ed="Y"/><lb n="0014a01" ed="Y" type="old"/>幽靜的境界。光和熱，能夠激發我們奮發向上；而清涼與寧靜，足以陶冶我們的
 <lb n="0014a02" ed="Y"/><lb n="0014a02" ed="Y" type="old"/>性靈，獲得自在與安定——這都為人生所必須的。</p>
-<lb n="0014a03" ed="Y"/><lb n="0014a03" ed="Y" type="old"/><p style="text-indent:2em">現實世界，人人都有傾向光明的意欲，人生要有光明的人生，社會也要有光
+<lb n="0014a03" ed="Y"/><lb n="0014a03" ed="Y" type="old"/><p xml:id="pY04p0014a0301" style="text-indent:2em">現實世界，人人都有傾向光明的意欲，人生要有光明的人生，社會也要有光
 <lb n="0014a04" ed="Y"/><lb n="0014a04" ed="Y" type="old"/>明的社會。中國古有「光天化日」四字，形容光明的社會。現在中華民國，以青
 <lb n="0014a05" ed="Y"/><lb n="0014a05" ed="Y" type="old"/>天白日滿地紅的標幟為國旗，象徵著我們的國家民族，將在青天白日之下自由平
 <lb n="0014a06" ed="Y"/><lb n="0014a06" ed="Y" type="old"/>等地過著光明幸福的生活。唐朝武則天皇帝，有以佛教思想導入政治的抱負；她
@@ -242,7 +262,7 @@
 <lb n="0014a10" ed="Y"/><lb n="0014a10" ed="Y" type="old"/>們達到終極目標，使我們達到究竟的光明的人生境地，唯是佛法。故唯有大家向
 <lb n="0014a11" ed="Y"/><lb n="0014a11" ed="Y" type="old"/>佛法的大道上走，才能完成究竟圓滿的人生，才能使我們達於永久光明、無限光
 <lb n="0014a12" ed="Y"/><lb n="0014a12" ed="Y" type="old"/>明的境界。</p>
-<lb n="0014a13" ed="Y"/><lb n="0014a13" ed="Y" type="old"/><p style="text-indent:2em">二、約佛陀的證境說：佛的自證境界，本是不可以心思口議，平等平等，無<pb n="0015a" ed="Y" xml:id="Y04.0004.0015a.old" type="old"/>
+<lb n="0014a13" ed="Y"/><lb n="0014a13" ed="Y" type="old"/><p xml:id="pY04p0014a1301" style="text-indent:2em">二、約佛陀的證境說：佛的自證境界，本是不可以心思口議，平等平等，無<pb n="0015a" ed="Y" xml:id="Y04.0004.0015a.old" type="old"/>
 <pb n="0015a" ed="Y" xml:id="Y04.0004.0015a"/>
 <lb n="0015a01" ed="Y"/><lb n="0015a01" ed="Y" type="old"/>有差別，離一切相的。約從離無明暗翳而顯證說，稱佛的自證境界為最清淨法界
 <lb n="0015a02" ed="Y"/><lb n="0015a02" ed="Y" type="old"/>，猶如淨虛空；或稱畢竟空，或稱空性，都從現證的真性說。琉璃光，即佛的自
@@ -266,7 +286,7 @@
 <lb n="0016a06" ed="Y"/><lb n="0016a06" ed="Y" type="old"/>展，世局的安定，都是十分切需的。我們學佛，從凡夫到達聖者——佛的境界，
 <lb n="0016a07" ed="Y"/><lb n="0016a07" ed="Y" type="old"/>必發揮這兩面的德性；對治人世的囂狂凌亂，應重視清涼與寧靜。藥師琉璃光如
 <lb n="0016a08" ed="Y"/><lb n="0016a08" ed="Y" type="old"/>來，對此有著充分的圓滿的表現，所以，能為人世一切苦難病患的救治者。</p>
-<lb n="0016a09" ed="Y"/><lb n="0016a09" ed="Y" type="old"/><p style="text-indent:2em">次解<quote type="嚴謹引文">「如來」</quote>：藥師琉璃光是一佛的專名，如來是諸佛的通名，凡證獲無上
+<lb n="0016a09" ed="Y"/><lb n="0016a09" ed="Y" type="old"/><p xml:id="pY04p0016a0901" style="text-indent:2em">次解<quote type="嚴謹引文">「如來」</quote>：藥師琉璃光是一佛的專名，如來是諸佛的通名，凡證獲無上
 <lb n="0016a10" ed="Y"/><lb n="0016a10" ed="Y" type="old"/>佛果的，皆可通稱如來。梵語怛陀阿伽陀，有三義：即如來、如解、如說。(一)、
 <lb n="0016a11" ed="Y"/><lb n="0016a11" ed="Y" type="old"/>如來，如，是一模一樣，沒有差別的意思。菩薩到了功行圓滿，以最高的智慧，
 <lb n="0016a12" ed="Y"/><lb n="0016a12" ed="Y" type="old"/>體證了究竟的真理，此真理就是如；佛是契此平等不二真如而來，故名如來。(二)
@@ -276,7 +296,7 @@
 <lb n="0017a02" ed="Y"/><lb n="0017a02" ed="Y" type="old"/>也如實而說。應該如何說就如何說，有如實說有，無如實說無，說得都恰到好處
 <lb n="0017a03" ed="Y"/><lb n="0017a03" ed="Y" type="old"/>，故經裡稱佛為實語者，如語者，不誑語者，不異語者。如來、如解、如說，是
 <lb n="0017a04" ed="Y"/><lb n="0017a04" ed="Y" type="old"/>佛陀所有的功德；譯者因不能遍譯三義，所以都譯為如來。</p>
-<lb n="0017a05" ed="Y"/><lb n="0017a05" ed="Y" type="old"/><p style="text-indent:2em"><quote type="嚴謹引文">「本願功德」</quote>：願是願欲，本願即菩薩因地所發的弘願。修學佛法，以發願
+<lb n="0017a05" ed="Y"/><lb n="0017a05" ed="Y" type="old"/><p xml:id="pY04p0017a0501" style="text-indent:2em"><quote type="嚴謹引文">「本願功德」</quote>：願是願欲，本願即菩薩因地所發的弘願。修學佛法，以發願
 <lb n="0017a06" ed="Y"/><lb n="0017a06" ed="Y" type="old"/>為先，可說為成佛的根本。菩薩在因地所發誓願，有通有別，如願成佛道，願度
 <lb n="0017a07" ed="Y"/><lb n="0017a07" ed="Y" type="old"/>眾生；及「眾生無邊誓願度」等四弘誓願，名為通願，是每一菩薩都如此發的。
 <lb n="0017a08" ed="Y"/><lb n="0017a08" ed="Y" type="old"/>如阿彌陀佛在因地中發四十八願，藥師佛因地的十二大願，便是別願。大家別誤
@@ -288,17 +308,17 @@
 <pb n="0018a" ed="Y" xml:id="Y04.0004.0018a"/>
 <lb n="0018a01" ed="Y"/><lb n="0018a01" ed="Y" type="old"/>志願的心要了。我們每天都發願，但大都發願而不能付諸實行，所以不能實現學
 <lb n="0018a02" ed="Y"/><lb n="0018a02" ed="Y" type="old"/>佛——自利利人的目的。</p>
-<lb n="0018a03" ed="Y"/><lb n="0018a03" ed="Y" type="old"/><p style="text-indent:2em">功德，不但是在寺院裡做些佛事。功是功力，如行布施、持戒、忍辱、禮佛
+<lb n="0018a03" ed="Y"/><lb n="0018a03" ed="Y" type="old"/><p xml:id="pY04p0018a0301" style="text-indent:2em">功德，不但是在寺院裡做些佛事。功是功力，如行布施、持戒、忍辱、禮佛
 <lb n="0018a04" ed="Y"/><lb n="0018a04" ed="Y" type="old"/>、坐禪等，都要有一番功力。德即是得，修行而得成績，做一分得一分，名為功
 <lb n="0018a05" ed="Y"/><lb n="0018a05" ed="Y" type="old"/>德。依本願去實踐，所成就的功德，稱為本願功德。</p>
-<lb n="0018a06" ed="Y"/><lb n="0018a06" ed="Y" type="old"/><p style="text-indent:2em"><quote type="嚴謹引文">「經」</quote>：梵語修多羅，本義為貫串攝持的線。釋尊在世，隨機說法，現今集
+<lb n="0018a06" ed="Y"/><lb n="0018a06" ed="Y" type="old"/><p xml:id="pY04p0018a0601" style="text-indent:2em"><quote type="嚴謹引文">「經」</quote>：梵語修多羅，本義為貫串攝持的線。釋尊在世，隨機說法，現今集
 <lb n="0018a07" ed="Y"/><lb n="0018a07" ed="Y" type="old"/>成為一段一章，一部部的經典，是佛滅度後，弟子們結集成的。各類的法門，有
 <lb n="0018a08" ed="Y"/><lb n="0018a08" ed="Y" type="old"/>組織地貫串起來，像一朵朵的花，用線貫穿而成花鬘，便不會散失。經也這樣，
 <lb n="0018a09" ed="Y"/><lb n="0018a09" ed="Y" type="old"/>佛在世時隨時隨地說法，若不加以編集，就難得保存於久遠了。佛說的法，是究
 <lb n="0018a10" ed="Y"/><lb n="0018a10" ed="Y" type="old"/>竟的真理與德行，可給我們永久學習，永久依循，所以經又含有恒常法則的意義
 <lb n="0018a11" ed="Y"/><lb n="0018a11" ed="Y" type="old"/>。佛說的名為經，佛弟子的述說，不名經而名論，這是表示尊重佛說。如中國古
 <lb n="0018a12" ed="Y"/><lb n="0018a12" ed="Y" type="old"/>典而有價值的，如書、詩、易等，也叫做經。</p>
-<lb n="0018a13" ed="Y"/><lb n="0018a13" ed="Y" type="old"/><p style="text-indent:2em">以上，對經題作分別的解釋，現在把它綜合起來：經是一切佛經的總名，是<pb n="0019a" ed="Y" xml:id="Y04.0004.0019a.old" type="old"/>
+<lb n="0018a13" ed="Y"/><lb n="0018a13" ed="Y" type="old"/><p xml:id="pY04p0018a1301" style="text-indent:2em">以上，對經題作分別的解釋，現在把它綜合起來：經是一切佛經的總名，是<pb n="0019a" ed="Y" xml:id="Y04.0004.0019a.old" type="old"/>
 <pb n="0019a" ed="Y" xml:id="Y04.0004.0019a"/>
 <lb n="0019a01" ed="Y"/><lb n="0019a01" ed="Y" type="old"/>能詮教法；藥師琉璃光如來本願功德，是本經的別名，是所詮表的理行果法。所
 <lb n="0019a02" ed="Y"/><lb n="0019a02" ed="Y" type="old"/>詮法中，本願功德，約因地行願說；藥師琉璃光如來，約果德說。果德中，如來
@@ -306,11 +326,11 @@
 <lb n="0019a04" ed="Y"/><lb n="0019a04" ed="Y" type="old"/>佛的大慈悲；琉璃光顯佛的大智慧。經題有因、果，悲、智；下面經文，即對於
 <lb n="0019a05" ed="Y"/><lb n="0019a05" ed="Y" type="old"/>悲智因果等，作圓滿的開示。</p></cb:div>
 <lb n="0019a06" ed="Y"/><lb n="0019a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　明翻譯</cb:mulu><head>三　明翻譯</head>
-<lb n="0019a07" ed="Y"/><lb n="0019a07" ed="Y" type="old"/><p style="text-indent:2em">佛法雖說在不同的區域，為不同的眾生說，但釋尊出生於印度，一切佛經都
+<lb n="0019a07" ed="Y"/><lb n="0019a07" ed="Y" type="old"/><p xml:id="pY04p0019a0701" style="text-indent:2em">佛法雖說在不同的區域，為不同的眾生說，但釋尊出生於印度，一切佛經都
 <lb n="0019a08" ed="Y"/><lb n="0019a08" ed="Y" type="old"/>是以印度文字集錄的。以印度文編成的經典，必須譯成華文，我們始能理解。所
 <lb n="0019a09" ed="Y"/><lb n="0019a09" ed="Y" type="old"/>以從事譯經工作，極為重要，過去多少大德，都獻身為譯經事業而努力。像本經
 <lb n="0019a10" ed="Y"/><lb n="0019a10" ed="Y" type="old"/>的譯者玄奘三藏，在我國的翻譯史上，就有輝煌的功績。</p>
-<lb n="0019a11" ed="Y"/><lb n="0019a11" ed="Y" type="old"/><p style="text-indent:2em">本經傳來中國，共有五次翻譯。第一譯，為東晉帛尸梨密多羅三藏所譯，經
+<lb n="0019a11" ed="Y"/><lb n="0019a11" ed="Y" type="old"/><p xml:id="pY04p0019a1101" style="text-indent:2em">本經傳來中國，共有五次翻譯。第一譯，為東晉帛尸梨密多羅三藏所譯，經
 <lb n="0019a12" ed="Y"/><lb n="0019a12" ed="Y" type="old"/>名<title level="m">《佛說灌頂拔除過罪生死得度經》</title>。唯此並無單行本，係附於<title level="m">《佛說灌頂大神<pb n="0020a" ed="Y" xml:id="Y04.0004.0020a.old" type="old"/>
 <pb n="0020a" ed="Y" xml:id="Y04.0004.0020a"/>
 <lb n="0020a01" ed="Y"/><lb n="0020a01" ed="Y" type="old"/>咒經》</title>中；<title level="m">《灌頂經》</title>屬於密部的法典，有十二卷，本經為最後一卷。尸梨密多
@@ -324,7 +344,7 @@
 <lb n="0020a09" ed="Y"/><lb n="0020a09" ed="Y" type="old"/>出發，循海路經越南、錫蘭等地，也經歷許多艱難始達印度，遍訪全印的著名學
 <lb n="0020a10" ed="Y"/><lb n="0020a10" ed="Y" type="old"/>者；回國後譯出此經，名<title level="m">《佛說藥師琉璃光七佛如來本願功德經》</title>，共二卷，內
 <lb n="0020a11" ed="Y"/><lb n="0020a11" ed="Y" type="old"/>容較前四譯為廣。</p>
-<lb n="0020a12" ed="Y"/><lb n="0020a12" ed="Y" type="old"/><p style="text-indent:2em">現在所據的講本，是玄奘法師譯的。談到奘法師，可說婦孺皆知，不過一般
+<lb n="0020a12" ed="Y"/><lb n="0020a12" ed="Y" type="old"/><p xml:id="pY04p0020a1201" style="text-indent:2em">現在所據的講本，是玄奘法師譯的。談到奘法師，可說婦孺皆知，不過一般
 <lb n="0020a13" ed="Y"/><lb n="0020a13" ed="Y" type="old"/>對於奘師的傳聞，大多從<title level="m">《西遊記》</title>中得來，離奇怪誕而不符史實。我們要知正<pb n="0021a" ed="Y" xml:id="Y04.0004.0021a.old" type="old"/>
 <pb n="0021a" ed="Y" xml:id="Y04.0004.0021a"/>
 <lb n="0021a01" ed="Y"/><lb n="0021a01" ed="Y" type="old"/>確可靠的歷史，可讀藏經中的<title level="m">《慈恩三藏傳》</title>。奘師河南人，出家後遍參名德，
@@ -333,7 +353,7 @@
 <lb n="0021a04" ed="Y"/><lb n="0021a04" ed="Y" type="old"/>百多個國家，遍學大小聖典，至唐太宗貞觀十九年，始負經歸國。當時，上自皇
 <lb n="0021a05" ed="Y"/><lb n="0021a05" ed="Y" type="old"/>室，下至庶民，無不熱烈歡迎，恭敬禮拜。歸國後，即致力於譯事，譯出了大量
 <lb n="0021a06" ed="Y"/><lb n="0021a06" ed="Y" type="old"/>的經典，為譯經史上寫下不可磨滅的一頁！</p>
-<lb n="0021a07" ed="Y"/><lb n="0021a07" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《西遊記》</title>說，唐僧西天取經，曾歷九九八十一難，吃盡人間辛苦。事實雖
+<lb n="0021a07" ed="Y"/><lb n="0021a07" ed="Y" type="old"/><p xml:id="pY04p0021a0701" style="text-indent:2em"><title level="m">《西遊記》</title>說，唐僧西天取經，曾歷九九八十一難，吃盡人間辛苦。事實雖
 <lb n="0021a08" ed="Y"/><lb n="0021a08" ed="Y" type="old"/>不如此，但在往返的旅途中，經沙漠，越高嶺，確也吃了不少苦頭。像奘法師等
 <lb n="0021a09" ed="Y"/><lb n="0021a09" ed="Y" type="old"/>古德，為什麼要受盡那許多艱辛險難，而到印度去求經？這因為，他知道佛法能
 <lb n="0021a10" ed="Y"/><lb n="0021a10" ed="Y" type="old"/>夠救濟眾生，使眾生離苦得樂；因此，他不避險難，置生死於度外，由大悲心的
@@ -341,10 +361,10 @@
 <lb n="0021a12" ed="Y"/>可見取經的艱難危險！所以譯出的經典，完全是古德用自己的生命換來的，我<lb n="0021a13" ed="Y" type="old"/>們
 <lb n="0021a13" ed="Y"/>現在能夠讀到這些聖典，應該飲水思源，感念古德的恩德。</p><pb n="0022a" ed="Y" xml:id="Y04.0004.0022a.old" type="old"/>
 <pb n="0022a" ed="Y" xml:id="Y04.0004.0022a"/>
-<lb n="0022a01" ed="Y"/><lb n="0022a01" ed="Y" type="old"/><p style="text-indent:2em">「唐」是唐朝，國王姓李。「三藏」是經、律、論三藏，奘法師能博通三藏
+<lb n="0022a01" ed="Y"/><lb n="0022a01" ed="Y" type="old"/><p xml:id="pY04p0022a0101" style="text-indent:2em">「唐」是唐朝，國王姓李。「三藏」是經、律、論三藏，奘法師能博通三藏
 <lb n="0022a02" ed="Y"/><lb n="0022a02" ed="Y" type="old"/>教典，故尊稱為三藏「法師」。此經是奉皇帝的意旨而譯出來的，所以又說「奉
 <lb n="0022a03" ed="Y"/><lb n="0022a03" ed="Y" type="old"/>詔譯」。</p>
-<lb n="0022a04" ed="Y"/><lb n="0022a04" ed="Y" type="old"/><p style="text-indent:2em">現在要略辨五譯的同異：本經的前四譯，大致相同，只有義淨譯稍異。前者
+<lb n="0022a04" ed="Y"/><lb n="0022a04" ed="Y" type="old"/><p xml:id="pY04p0022a0401" style="text-indent:2em">現在要略辨五譯的同異：本經的前四譯，大致相同，只有義淨譯稍異。前者
 <lb n="0022a05" ed="Y"/><lb n="0022a05" ed="Y" type="old"/>只說藥師淨土，義淨譯則有七佛淨土。如說<quote source="T14n0451_p0409b06-09" type="寬鬆引文">「東方去此，過四殑伽河沙佛土，<lb n="0022a06" ed="Y" type="old"/>有
 <lb n="0022a06" ed="Y"/>世界名曰無勝，佛號善名稱吉祥王如來……」<note n="0022001" resp="周怡曄" type="add">《藥師琉璃光七佛本願功德經》卷1：「東方去此過四弶伽河沙佛土。有世界名曰無勝。佛號善名稱吉祥王如來應正等覺明行圓滿善逝世間解無上丈夫調御士天人師佛世尊。」(CBETA, T14, no. 451, p. 409, b6-9)</note></quote>；乃至<quote type="嚴謹引文">「東方去此，過九殑伽河沙
 <lb n="0022a07" ed="Y"/><lb n="0022a07" ed="Y" type="old"/>佛土，有世界名曰善住寶海，佛號法海勝慧遊戲神通如來……」<note n="0022002" resp="厚觀法師" type="add">《藥師琉璃光七佛本願功德經》卷1：「東方去此過九殑伽河沙佛土。有世界名曰善住寶海。佛號法海勝慧遊戲神通如來應正等覺。」(CBETA, T14, no. 451, p. 412, c1-3)</note></quote>。這其中六段，
@@ -361,7 +381,7 @@
 <lb n="0023a04" ed="Y"/>活<lb n="0023a04" ed="Y" type="old"/>躍起來，這是因時而異。第一譯者帛尸梨密多羅三藏，是龜茲人；密法早就流
 <lb n="0023a05" ed="Y"/>傳<lb n="0023a05" ed="Y" type="old"/>在龜茲，所以他就編譯<title level="m">《大灌頂神咒經》</title>。義淨到印度時，正是印度密典盛行
 <lb n="0023a06" ed="Y"/>的<lb n="0023a06" ed="Y" type="old"/>時代，故義淨三藏譯出的本典，密宗的色彩較重，奘公及達磨笈多等則較少。</p>
-<lb n="0023a07" ed="Y"/><lb n="0023a07" ed="Y" type="old"/><p style="text-indent:2em">這裡附帶一談淨土法門與秘密法門的關係。在過去，有些淨土行者，不滿意
+<lb n="0023a07" ed="Y"/><lb n="0023a07" ed="Y" type="old"/><p xml:id="pY04p0023a0701" style="text-indent:2em">這裡附帶一談淨土法門與秘密法門的關係。在過去，有些淨土行者，不滿意
 <lb n="0023a08" ed="Y"/><lb n="0023a08" ed="Y" type="old"/>密教；而密教學者，也多少輕視淨土；其實淨與密，關係最為密切，其性質也最
 <lb n="0023a09" ed="Y"/><lb n="0023a09" ed="Y" type="old"/>為接近。比方本經，若除卻咒語，便純粹是淨土法門；加上了咒語，便又通於密
 <lb n="0023a10" ed="Y"/><lb n="0023a10" ed="Y" type="old"/>部。又如<title level="m">《阿彌陀經》</title>，是純淨土法典；但如<quote source="X22n0424_p0683b19" type="嚴謹引文">「拔一切業障根本得生淨土陀羅尼

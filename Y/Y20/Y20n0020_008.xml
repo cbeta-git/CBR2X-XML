@@ -12,51 +12,71 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/01</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/01</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>11卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 20, No. 20</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>11卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">20</idno>.<idno type="no">20</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">無諍之辯</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">七、讀〈大乘三系概觀〉以後</cb:mulu><cb:mulu level="2" type="其他">三　名義的商榷</cb:mulu>
-<milestone unit="juan" n="8"/><pb n="0151a" ed="Y" xml:id="Y20.0020.0151a.old" type="old"/>
+<milestone n="8" unit="juan"/><pb n="0151a" ed="Y" xml:id="Y20.0020.0151a.old" type="old"/>
 <pb n="0151a" ed="Y" xml:id="Y20.0020.0151a"/>
 <lb n="0151a01" ed="Y"/><lb n="0151a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">八、佛法有無「共同佛心」與「絕對精神」</cb:mulu><head>佛法有無「共同佛心」與「絕對精神」<note n="0151001" resp="DILA" type="add">民國四三年撰。</note></head>
-<lb n="0151a02" ed="Y"/><lb n="0151a02" ed="Y" type="old"/><p style="text-indent:2em">鄭崇儒先生，本著護法精神，三次來信，要我對於<quote>「共同之佛心佛性」</quote>，作
+<lb n="0151a02" ed="Y"/><lb n="0151a02" ed="Y" type="old"/><p xml:id="pY20p0151a0201" style="text-indent:2em">鄭崇儒先生，本著護法精神，三次來信，要我對於<quote>「共同之佛心佛性」</quote>，作
 <lb n="0151a03" ed="Y"/><lb n="0151a03" ed="Y" type="old"/>一番解說，<quote>「以解世俗之誤會」</quote>。為佛法的真誠，實在可感！不能不說。</p>
-<lb n="0151a04" ed="Y"/><lb n="0151a04" ed="Y" type="old"/><p style="text-indent:2em">唐君毅先生誤認佛法為多元論，原是世間學者的常情。因此而推論到<quote>「佛<lb n="0151a05" ed="Y" type="old"/>教
+<lb n="0151a04" ed="Y"/><lb n="0151a04" ed="Y" type="old"/><p xml:id="pY20p0151a0401" style="text-indent:2em">唐君毅先生誤認佛法為多元論，原是世間學者的常情。因此而推論到<quote>「佛<lb n="0151a05" ed="Y" type="old"/>教
 <lb n="0151a05" ed="Y"/>徒不承認諸佛之即一即多；……佛教所以恆只能成為一個人之宗教，而不能成<lb n="0151a06" ed="Y" type="old"/>為
 <lb n="0151a06" ed="Y"/>凝結集體社會之人心之宗教」</quote>，不免因誤起誤，越說越遠！佛法決不是多元論<lb n="0151a07" ed="Y" type="old"/>：
 <lb n="0151a07" ed="Y"/>諸佛法身平等；或者說即一即多，也是佛教的共說。然對於<quote>「共同之佛心佛性<lb n="0151a08" ed="Y" type="old"/>」</quote>
@@ -68,7 +88,7 @@
 <lb n="0152a01" ed="Y"/>門教的<title level="m">《奧義書》</title>，已經能充分完成其任務，不需要釋迦佛再來饒舌。再者，也
 <lb n="0152a02" ed="Y"/>應<lb n="0152a02" ed="Y" type="old"/>該是印度教的一流，不會被看作非正統的新宗教。佛法應該另有一番境地，另
 <lb n="0152a03" ed="Y"/>有<lb n="0152a03" ed="Y" type="old"/>正覺的內容。我想本著這樣的確信，略為分說。</p>
-<lb n="0152a04" ed="Y"/><lb n="0152a04" ed="Y" type="old"/><p style="text-indent:2em">佛教是一切人的宗教。佛陀說法，總是直從一一有情——一一人的身心說起
+<lb n="0152a04" ed="Y"/><lb n="0152a04" ed="Y" type="old"/><p xml:id="pY20p0152a0401" style="text-indent:2em">佛教是一切人的宗教。佛陀說法，總是直從一一有情——一一人的身心說起
 <lb n="0152a05" ed="Y"/><lb n="0152a05" ed="Y" type="old"/>。<quote type="嚴謹引文">「識緣名色，名色緣識」</quote>，此心身相依相存的有情自體，是我們不可懷疑（世
 <lb n="0152a06" ed="Y"/><lb n="0152a06" ed="Y" type="old"/>俗諦中）的事實。一切苦痛依此而有苦痛；一切問題因此而成為問題。純正的佛
 <lb n="0152a07" ed="Y"/><lb n="0152a07" ed="Y" type="old"/>法，決不從宇宙論說起，而首先要肯定：世間有無量數的有情事實。無量數的有
@@ -79,7 +99,7 @@
 <lb n="0152a12" ed="Y"/><lb n="0152a12" ed="Y" type="old"/>蘊界處所纏」</quote>，<quote type="嚴謹引文">「貪瞋癡所染」</quote>的一一眾生。肯定眾生流轉，才能成立眾生還滅
 <lb n="0152a13" ed="Y"/><lb n="0152a13" ed="Y" type="old"/>，說聖說佛。</p><pb n="0153a" ed="Y" xml:id="Y20.0020.0153a.old" type="old"/>
 <pb n="0153a" ed="Y" xml:id="Y20.0020.0153a"/>
-<lb n="0153a01" ed="Y"/><lb n="0153a01" ed="Y" type="old"/><p style="text-indent:2em">熊十力、唐君毅先生誤解佛法為多元論，或許從此無量數的有情事實而來。
+<lb n="0153a01" ed="Y"/><lb n="0153a01" ed="Y" type="old"/><p xml:id="pY20p0153a0101" style="text-indent:2em">熊十力、唐君毅先生誤解佛法為多元論，或許從此無量數的有情事實而來。
 <lb n="0153a02" ed="Y"/><lb n="0153a02" ed="Y" type="old"/><cit><quote source="T30n1568_p0165a28" type="寬鬆引文">「聞世諦謂是第一義」</quote><bibl>（<title level="m">《十二門論》</title>）</bibl><note n="0153001" resp="謝淑歆" type="add">《十二門論》卷1：「汝今聞說世諦。謂是第一義諦」(CBETA, T30, no. 1568, p. 165, a28)</note></cit>，原是世人的常情，然佛法決非多元論
 <lb n="0153a03" ed="Y"/>。元<lb n="0153a03" ed="Y" type="old"/>是萬化的根源：從時間上看，此是最初者——最初的顯現，最初的發展者。
 <lb n="0153a04" ed="Y"/>從空<lb n="0153a04" ed="Y" type="old"/>間上看，此是存在的最後因素，最後本質（多即多元，一即一元）。聰明的
@@ -91,13 +111,13 @@
 <lb n="0153a10" ed="Y"/>是息<lb n="0153a10" ed="Y" type="old"/>息生滅中的一合相。身心不斷變化，自他不斷影響，而有情（未解脫來）一
 <lb n="0153a11" ed="Y"/>直形<lb n="0153a11" ed="Y" type="old"/>成一個個的單位，保持前後間的因果關聯（業果）。所以，無量數的有情事
 <lb n="0153a12" ed="Y"/>實，<lb n="0153a12" ed="Y" type="old"/>根本不能說元，也不可說是多——此是相對的個體，相對的眾多。</p>
-<lb n="0153a13" ed="Y"/><lb n="0153a13" ed="Y" type="old"/><p style="text-indent:2em">佛法決非多元論，不需要從「共同佛心佛性」、「絕對精神」去解說。因為<pb n="0154a" ed="Y" xml:id="Y20.0020.0154a.old" type="old"/>
+<lb n="0153a13" ed="Y"/><lb n="0153a13" ed="Y" type="old"/><p xml:id="pY20p0153a1301" style="text-indent:2em">佛法決非多元論，不需要從「共同佛心佛性」、「絕對精神」去解說。因為<pb n="0154a" ed="Y" xml:id="Y20.0020.0154a.old" type="old"/>
 <pb n="0154a" ed="Y" xml:id="Y20.0020.0154a"/>
 <lb n="0154a01" ed="Y"/><lb n="0154a01" ed="Y" type="old"/>大乘是佛法，小乘也是佛法；空宗、有宗、真心、妄心，都是佛法。決不因不立
 <lb n="0154a02" ed="Y"/><lb n="0154a02" ed="Y" type="old"/>「共同佛心」與「絕對精神」，而佛法便不及世間的哲學。佛法是宗教，是一切
 <lb n="0154a03" ed="Y"/><lb n="0154a03" ed="Y" type="old"/>人的宗教。佛法並不專為少數形而上的本體論者說法。佛法的根本問題，是無量
 <lb n="0154a04" ed="Y"/><lb n="0154a04" ed="Y" type="old"/>數的有情。</p>
-<lb n="0154a05" ed="Y"/><lb n="0154a05" ed="Y" type="old"/><p style="text-indent:2em">那麼，我否認佛法立「共同佛心佛性」嗎？並不如此，但得慢慢說來。佛法
+<lb n="0154a05" ed="Y"/><lb n="0154a05" ed="Y" type="old"/><p xml:id="pY20p0154a0501" style="text-indent:2em">那麼，我否認佛法立「共同佛心佛性」嗎？並不如此，但得慢慢說來。佛法
 <lb n="0154a06" ed="Y"/><lb n="0154a06" ed="Y" type="old"/>的根本事實，是現實的，身心依存的，因果關聯的有情。說明有情——為何如此
 <lb n="0154a07" ed="Y"/><lb n="0154a07" ed="Y" type="old"/>，如何活動，究竟是什麼？佛法不共其他宗教的特色，是緣起論。緣起論，也許
 <lb n="0154a08" ed="Y"/><lb n="0154a08" ed="Y" type="old"/>有人解說為近於「羅素關係論」，近於「科學一層論」，然「緣起甚深」，決不
@@ -116,13 +136,13 @@
 <lb n="0155a07" ed="Y"/><lb n="0155a07" ed="Y" type="old"/>，去說心說性，說一說多，精神上與佛教迥別。總之，佛法說明一一有情，從緣
 <lb n="0155a08" ed="Y"/><lb n="0155a08" ed="Y" type="old"/>起論（因果）說起，原不一定要說到「共同佛心」與「絕對精神」的有無。然從
 <lb n="0155a09" ed="Y"/><lb n="0155a09" ed="Y" type="old"/>緣起而探發到緣起的空寂，緣起——事事物物的本性，卻要接觸到這一問題。</p>
-<lb n="0155a10" ed="Y"/><lb n="0155a10" ed="Y" type="old"/><p style="text-indent:2em">從現前的身心事實，經修習正觀而現證到的，名為法。加上形容詞，即法性
+<lb n="0155a10" ed="Y"/><lb n="0155a10" ed="Y" type="old"/><p xml:id="pY20p0155a1001" style="text-indent:2em">從現前的身心事實，經修習正觀而現證到的，名為法。加上形容詞，即法性
 <lb n="0155a11" ed="Y"/><lb n="0155a11" ed="Y" type="old"/>、法住、法位、法界、正法（也譯為妙法）。此法是真、是實、是諦、是如；是
 <lb n="0155a12" ed="Y"/><lb n="0155a12" ed="Y" type="old"/>空、是寂、是滅（不是斷滅）；因而又有真如、實性、實相、性空、空性等名詞
 <lb n="0155a13" ed="Y"/><lb n="0155a13" ed="Y" type="old"/>。離二邊，名為中道，中法。勝智所證的，名為勝義。如果說本體，此法就是本<pb n="0156a" ed="Y" xml:id="Y20.0020.0156a.old" type="old"/>
 <pb n="0156a" ed="Y" xml:id="Y20.0020.0156a"/>
 <lb n="0156a01" ed="Y"/><lb n="0156a01" ed="Y" type="old"/>體；說形而上，此法就是形而上的。</p>
-<lb n="0156a02" ed="Y"/><lb n="0156a02" ed="Y" type="old"/><p style="text-indent:2em">然有兩點，我們是應該知道的。一、聖弟子展轉傳來的<title level="m">《阿含經》</title>、<title level="m">《毘曇
+<lb n="0156a02" ed="Y"/><lb n="0156a02" ed="Y" type="old"/><p xml:id="pY20p0156a0201" style="text-indent:2em">然有兩點，我們是應該知道的。一、聖弟子展轉傳來的<title level="m">《阿含經》</title>、<title level="m">《毘曇
 <lb n="0156a03" ed="Y"/><lb n="0156a03" ed="Y" type="old"/>論》</title>；大乘初期盛行的<title level="m">《般若經》</title>、<title level="m">《中觀論》</title>，都是觀緣起法而深入，向上而
 <lb n="0156a04" ed="Y"/><lb n="0156a04" ed="Y" type="old"/>體悟到此法（性）的。緣起與緣起法性——空寂性，即使解說為不二，然<title level="m">《阿含
 <lb n="0156a05" ed="Y"/><lb n="0156a05" ed="Y" type="old"/>經》</title>論，從來不說依此法性而起因果行。<cit><bibl><title level="m">《中觀論》</title>雖說：</bibl><quote source="T30n1564_p0033a22" type="嚴謹引文">「以有空義故，一切
@@ -140,21 +160,21 @@
 <lb n="0157a03" ed="Y"/><lb n="0157a03" ed="Y" type="old"/>不僅是有情的，而為一切一切的大總相。所以比說為：<quote type="寬鬆引文">「百卉異色，皆同一陰；<note n="0157002" resp="謝淑歆" type="add">《大品經遊意》卷1：「百華異色皆成一陰」(CBETA, T33, no. 1696, p. 63, b23-24)</note>
 <lb n="0157a04" ed="Y"/><lb n="0157a04" ed="Y" type="old"/>高入須彌，咸同金色。<note n="0157003" resp="謝淑歆" type="add">(1)《摩訶般若波羅蜜經》卷21〈69 方便品〉：「到須彌山王邊皆同一色」(CBETA, T08, no. 223, p. 369, c5)；(2)《大智度論》卷35〈3 習相應品〉：「如五色近須彌山自失其色，皆同金色」(CBETA, T25, no. 1509, p. 321, a28)；(3)《大智度論》卷100〈89 曇無竭品〉：「須彌山，眾[32]鳥到者皆同一色」(CBETA, T25, no. 1509, p. 752, c9-10)[32]鳥＝生【聖】【石】。</note>」</quote>如一見法性等名詞，即解說為佛心，解說為絕對精神，
 <lb n="0157a05" ed="Y"/><lb n="0157a05" ed="Y" type="old"/>這是不大妥當的。</p>
-<lb n="0157a06" ed="Y"/><lb n="0157a06" ed="Y" type="old"/><p style="text-indent:2em">瑜伽唯識者，以為因果相生的事實——依他（因緣）起性，都是虛妄分別性
+<lb n="0157a06" ed="Y"/><lb n="0157a06" ed="Y" type="old"/><p xml:id="pY20p0157a0601" style="text-indent:2em">瑜伽唯識者，以為因果相生的事實——依他（因緣）起性，都是虛妄分別性
 <lb n="0157a07" ed="Y"/><lb n="0157a07" ed="Y" type="old"/>所攝，所以成立唯識。從唯識的依他起性，說到唯識性的圓成實。然此識性，是
 <lb n="0157a08" ed="Y"/><lb n="0157a08" ed="Y" type="old"/>識的（法）性，並非說識即是性。識是有為生滅的，識之性是無為不生滅的。從
 <lb n="0157a09" ed="Y"/><lb n="0157a09" ed="Y" type="old"/>依他離執而悟證圓成實，唯識者也說「不一不異」。然圓成實——識之性，對於
 <lb n="0157a10" ed="Y"/><lb n="0157a10" ed="Y" type="old"/>依他因緣而起的一切，始終不說有什麼關係。而是說<quote type="嚴謹引文">「真如凝然」</quote>；<quote type="寬鬆引文">「真如非<lb n="0157a11" ed="Y" type="old"/>用
 <lb n="0157a11" ed="Y"/>」</quote>。一切現象界，都從種現熏生的依他起中去說，這與中觀者完全一樣。與本<lb n="0157a12" ed="Y" type="old"/>體
 <lb n="0157a12" ed="Y"/>起現象的觀念，完全不合。</p>
-<lb n="0157a13" ed="Y"/><lb n="0157a13" ed="Y" type="old"/><p style="text-indent:2em">證悟此法性時，是超越能知所知相對性的，所以說為無相、無二、平等、無<pb n="0158a" ed="Y" xml:id="Y20.0020.0158a.old" type="old"/>
+<lb n="0157a13" ed="Y"/><lb n="0157a13" ed="Y" type="old"/><p xml:id="pY20p0157a1301" style="text-indent:2em">證悟此法性時，是超越能知所知相對性的，所以說為無相、無二、平等、無<pb n="0158a" ed="Y" xml:id="Y20.0020.0158a.old" type="old"/>
 <pb n="0158a" ed="Y" xml:id="Y20.0020.0158a"/>
 <lb n="0158a01" ed="Y"/><lb n="0158a01" ed="Y" type="old"/>差別、無戲論等。但這是說明：證智是不同一般的認識，超越能知、所知的相對
 <lb n="0158a02" ed="Y"/><lb n="0158a02" ed="Y" type="old"/>性，也超越時、空、數量等觀念。如從相見道（證後所起的，對於自證的表象）
 <lb n="0158a03" ed="Y"/><lb n="0158a03" ed="Y" type="old"/>而說明：所證的如，法性，是一切法的本性；當然也是心的性，並不就是心。能
 <lb n="0158a04" ed="Y"/><lb n="0158a04" ed="Y" type="old"/>證的智，雖超越能知所知，而不妨解說為絕對主觀，但並不說一切一切都是絕對
 <lb n="0158a05" ed="Y"/><lb n="0158a05" ed="Y" type="old"/>精神所攝。</p>
-<lb n="0158a06" ed="Y"/><lb n="0158a06" ed="Y" type="old"/><p style="text-indent:2em">釋迦佛所批判而反對的<title level="m">《奧義書》</title>哲學，也自有一番體驗。他所體驗到的，
+<lb n="0158a06" ed="Y"/><lb n="0158a06" ed="Y" type="old"/><p xml:id="pY20p0158a0601" style="text-indent:2em">釋迦佛所批判而反對的<title level="m">《奧義書》</title>哲學，也自有一番體驗。他所體驗到的，
 <lb n="0158a07" ed="Y"/>是神<lb n="0158a07" ed="Y" type="old"/>秘的大實在，是萬化的本源。這不但是常，是實，是一，而且附以心的特性
 <lb n="0158a08" ed="Y"/>，所<lb n="0158a08" ed="Y" type="old"/>以又是知，是樂，是我。從此被稱為梵的宇宙全體來看自我，也不但是知，
 <lb n="0158a09" ed="Y"/>是樂<lb n="0158a09" ed="Y" type="old"/>，是我，而且是真，是常，是一。宇宙本體的梵，自己的實體名我，解說為
@@ -168,10 +188,10 @@
 <lb n="0159a03" ed="Y"/>質，<lb n="0159a03" ed="Y" type="old"/>不落梵我論的窠臼，只能說到這裡。在這樣的經論中，佛法當然不是多元論
 <lb n="0159a04" ed="Y"/>，而<lb n="0159a04" ed="Y" type="old"/><quote>「共同之佛心佛性」</quote>，<quote>「絕對精神」</quote>並沒有建立，因為沒有建立的必要，根
 <lb n="0159a05" ed="Y"/>本不<lb n="0159a05" ed="Y" type="old"/>能成立。</p>
-<lb n="0159a06" ed="Y"/><lb n="0159a06" ed="Y" type="old"/><p style="text-indent:2em">因此，鄭先生引<title level="m">《阿含經》</title>所說的「真常」，<title level="m">《成唯識論》</title>的「圓成實性」<note n="0159001" resp="謝淑歆" type="add">《成唯識論》卷9(CBETA, T31, no. 1585, p. 48, a29)</note>
+<lb n="0159a06" ed="Y"/><lb n="0159a06" ed="Y" type="old"/><p xml:id="pY20p0159a0601" style="text-indent:2em">因此，鄭先生引<title level="m">《阿含經》</title>所說的「真常」，<title level="m">《成唯識論》</title>的「圓成實性」<note n="0159001" resp="謝淑歆" type="add">《成唯識論》卷9(CBETA, T31, no. 1585, p. 48, a29)</note>
 <lb n="0159a07" ed="Y"/><lb n="0159a07" ed="Y" type="old"/>，嘉祥<title level="m">《中論疏》</title>的「獨空」<note n="0159002" resp="謝淑歆" type="add">《中觀論疏》卷7〈13 行品〉(CBETA, T42, no. 1824, p. 108, b9)</note>，以為就是絕對精神，就是共同佛心，這對於經論
 <lb n="0159a08" ed="Y"/><lb n="0159a08" ed="Y" type="old"/>本義的確認，還有一段距離。</p>
-<lb n="0159a09" ed="Y"/><lb n="0159a09" ed="Y" type="old"/><p style="text-indent:2em">學佛的主要目的，在乎依緣起而體見法性。證法性，名為法身；才能現證涅
+<lb n="0159a09" ed="Y"/><lb n="0159a09" ed="Y" type="old"/><p xml:id="pY20p0159a0901" style="text-indent:2em">學佛的主要目的，在乎依緣起而體見法性。證法性，名為法身；才能現證涅
 <lb n="0159a10" ed="Y"/><lb n="0159a10" ed="Y" type="old"/>槃，成大菩提。此法性，是常住的；涅槃是常住的；菩提是<quote source="T11n0310_p0226c12" type="嚴謹引文">「非去來今」<note n="0159003" resp="謝淑歆" type="add">《大寶積經》卷39〈4 如來不思議性品〉(CBETA, T11, no. 310, p. 226, c12)</note></quote>的。常
 <lb n="0159a11" ed="Y"/><lb n="0159a11" ed="Y" type="old"/>住，那麼眾生位中，當然也還是如此。這才從眾生位中，點出真常：或者說常住
 <lb n="0159a12" ed="Y"/><lb n="0159a12" ed="Y" type="old"/>真心，或者說自心清淨，或者說佛性，說如來藏。此一體系，中國佛學者稱為法
@@ -184,7 +204,7 @@
 <lb n="0160a05" ed="Y"/><lb n="0160a05" ed="Y" type="old"/>為主。在賢首的教學中，唯識是始有，三論是始空。唯識是法相，三論是破相，
 <lb n="0160a06" ed="Y"/><lb n="0160a06" ed="Y" type="old"/>終、頓、圓三教才是法性宗。在禪者看來，唯識宗是唯識而不是唯心。大體說，
 <lb n="0160a07" ed="Y"/><lb n="0160a07" ed="Y" type="old"/>此一體系，是重在不空（真如具德用）的，重在唯心的。</p>
-<lb n="0160a08" ed="Y"/><lb n="0160a08" ed="Y" type="old"/><p style="text-indent:2em">依<title level="m">《寶性論》</title>，此從真如無差別而來。佛果的真常，從眾生位中看出，所以
+<lb n="0160a08" ed="Y"/><lb n="0160a08" ed="Y" type="old"/><p xml:id="pY20p0160a0801" style="text-indent:2em">依<title level="m">《寶性論》</title>，此從真如無差別而來。佛果的真常，從眾生位中看出，所以
 <lb n="0160a09" ed="Y"/><lb n="0160a09" ed="Y" type="old"/>重在清淨一邊。換言之，如來藏是一切法空性（見<title level="m">《楞伽經》</title>），是眾生位中（
 <lb n="0160a10" ed="Y"/>身心<lb n="0160a10" ed="Y" type="old"/>，特重在心）的空性。從此來說明一切，有二大特點：一、這是因空所顯性
 <lb n="0160a11" ed="Y"/>，真<lb n="0160a11" ed="Y" type="old"/>實不空，與一切無漏功德性相應。二、這是雜染位中的本淨心性；有漏雜染
@@ -201,11 +221,11 @@
 <lb n="0161a08" ed="Y"/>絕對<lb n="0161a08" ed="Y" type="old"/>精神的最高峰。<quote source="T09n0278_p0446a05" type="嚴謹引文">「一即是多，多即是一」<note n="0161003" resp="謝淑歆" type="add">《大方廣佛華嚴經》卷8〈11 菩薩十住品〉(CBETA, T09, no. 278, p. 446, a5)</note></quote>，出於<title level="m">《華嚴經》</title>。所以，唐先生
 <lb n="0161a09" ed="Y"/>以為<lb n="0161a09" ed="Y" type="old"/>佛法不許作如此說，是錯的。鄭先生需要此絕對精神或共同佛心，佛教中，
 <lb n="0161a10" ed="Y"/>特別<lb n="0161a10" ed="Y" type="old"/>在中國的賢、禪二家，明顯的說到，所以不必為此而憂慮。</p>
-<lb n="0161a11" ed="Y"/><lb n="0161a11" ed="Y" type="old"/><p style="text-indent:2em">佛教中法門無量。傾向於本體論、形而上學的，據此而輕視中觀與唯識。然
+<lb n="0161a11" ed="Y"/><lb n="0161a11" ed="Y" type="old"/><p xml:id="pY20p0161a1101" style="text-indent:2em">佛教中法門無量。傾向於本體論、形而上學的，據此而輕視中觀與唯識。然
 <lb n="0161a12" ed="Y"/><lb n="0161a12" ed="Y" type="old"/>中觀與唯識者，卻另有一番見地。中觀者如月稱菩薩等說：如來藏，只是法空性
 <lb n="0161a13" ed="Y"/><lb n="0161a13" ed="Y" type="old"/>的別名，為了引攝一分計我者（常住不變清涼自在的我，為輪迴與解脫的主體；<pb n="0162a" ed="Y" xml:id="Y20.0020.0162a.old" type="old"/>
 <pb n="0162a" ed="Y" xml:id="Y20.0020.0162a"/>
-<lb n="0162a01" ed="Y"/><lb n="0162a01" ed="Y" type="old"/>這當然是印度的梵我論者），所以方便的說為如來藏，說他<quote type="嚴謹引文">「譬如伎兒，變<note n="0162a0101" resp="CBETA" type="add">現【CB】，化【印順】</note><app n="0162a0101"><lem wit="【CB】" resp="CBETA">現</lem><rdg wit="【印順】">化</rdg></app>諸
+<lb n="0162a01" ed="Y"/><lb n="0162a01" ed="Y" type="old"/>這當然是印度的梵我論者），所以方便的說為如來藏，說他<quote type="嚴謹引文">「譬如伎兒，變<note n="0162a0101" resp="CBETA" type="add">現【CB】，化【印順】</note><app n="0162a0101"><lem resp="CBETA" wit="【CB】">現</lem><rdg wit="【印順】">化</rdg></app>諸
 <lb n="0162a02" ed="Y"/><lb n="0162a02" ed="Y" type="old"/>趣」</quote>。其實，是<quote source="T16n0670_p0489b20" type="嚴謹引文">「無我如來之藏」<note n="0162001" resp="謝淑歆" type="add">《楞伽阿跋多羅寶經》卷2〈一切佛語心品〉(CBETA, T16, no. 670, p. 489, b20)</note></quote>。所以說如來藏心，是不了義教。據此來觀察
 <lb n="0162a03" ed="Y"/><lb n="0162a03" ed="Y" type="old"/>，雜染的一切法，依如來藏而有，等於說<quote type="嚴謹引文">「以有空義故，一切法得成」</quote>。生死雜
 <lb n="0162a04" ed="Y"/><lb n="0162a04" ed="Y" type="old"/>染的一切法，還是依無始來的雜染熏習為因。如眾色映於明珠，明珠上現有眾色
@@ -215,7 +235,7 @@
 <lb n="0162a08" ed="Y"/><lb n="0162a08" ed="Y" type="old"/>相應不離），等到現起時，還是有為生滅。換言之，雜染、清淨一切法，都不能
 <lb n="0162a09" ed="Y"/><lb n="0162a09" ed="Y" type="old"/>說從此法性而生起。由於一分中國佛學者，傾向於絕對精神，生起一切，所以唯
 <lb n="0162a10" ed="Y"/><lb n="0162a10" ed="Y" type="old"/>識者索性反對<title level="m">《起信論》</title>。近代的呂澂，索性說<quote>「楞伽體用未明」</quote>。</p>
-<lb n="0162a11" ed="Y"/><lb n="0162a11" ed="Y" type="old"/><p style="text-indent:2em">鄭先生引述了史蒲朗格與愛因斯坦的意見，認為非有形而上的本體不可。佛
+<lb n="0162a11" ed="Y"/><lb n="0162a11" ed="Y" type="old"/><p xml:id="pY20p0162a1101" style="text-indent:2em">鄭先生引述了史蒲朗格與愛因斯坦的意見，認為非有形而上的本體不可。佛
 <lb n="0162a12" ed="Y"/><lb n="0162a12" ed="Y" type="old"/>法，不能說沒有本體，沒有形而上的，問題在不一定與世間一般哲學的本體論，
 <lb n="0162a13" ed="Y"/><lb n="0162a13" ed="Y" type="old"/>或形而上學相同；也不一定要成立絕對精神。依我所理解的，佛法的勝義自證，<pb n="0163a" ed="Y" xml:id="Y20.0020.0163a.old" type="old"/>
 <pb n="0163a" ed="Y" xml:id="Y20.0020.0163a"/>

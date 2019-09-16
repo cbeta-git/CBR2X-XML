@@ -12,84 +12,104 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版一刷<date>Date: 2013/04</date>新式標點版</edition>
+			<edition>新版一刷<date>Date: 2013/04</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>35卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 41, No. 39</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>35卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">41</idno>.<idno type="no">39</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">平凡的一生（重訂本）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB01321">
-	<charName>CBETA CHARACTER CB01321</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[貝*親]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>嚫</value>
-	</charProp>
-	<mapping type="unicode">U+478B</mapping>
-	<mapping cb:dec="984361" type="PUA">U+F0529</mapping>
-</char>
-<char xml:id="CB01403">
-	<charName>CBETA CHARACTER CB01403</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[囗@力]</value>
-	</charProp>
-	<mapping type="unicode">U+361E</mapping>
-	<mapping cb:dec="984443" type="PUA">U+F057B</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB01321">
+				<charName>CBETA CHARACTER CB01321</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[貝*親]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>嚫</value>
+				</charProp>
+				<mapping type="unicode">U+478B</mapping>
+				<mapping cb:dec="984361" type="PUA">U+F0529</mapping>
+			</char>
+			<char xml:id="CB01403">
+				<charName>CBETA CHARACTER CB01403</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[囗@力]</value>
+				</charProp>
+				<mapping type="unicode">U+361E</mapping>
+				<mapping cb:dec="984443" type="PUA">U+F057B</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十　懷念大法師</cb:mulu>
-<milestone unit="juan" n="11"/>
-<lb n="0050a11" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">十一　墓庫運還是法運亨通</cb:mulu><head><note n="0050a1101" resp="CBETA" type="add" subtype="規範字詞">十一【CB】，一一【印順】</note><app n="0050a1101"><lem wit="【CB】" resp="CBETA">十一</lem><rdg wit="【印順】">一一</rdg></app>　墓庫運還是法運亨通</head>
-<lb n="0050a12" ed="Y"/><p style="text-indent:2em">四十二年（四十八歲）夏天，我從臺灣回香港，搬運書物及處理未了的手續
+<milestone n="11" unit="juan"/>
+<lb n="0050a11" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">十一　墓庫運還是法運亨通</cb:mulu><head><note n="0050a1101" resp="CBETA" type="add" subtype="規範字詞">十一【CB】，一一【印順】</note><app n="0050a1101"><lem resp="CBETA" wit="【CB】">十一</lem><rdg wit="【印順】">一一</rdg></app>　墓庫運還是法運亨通</head>
+<lb n="0050a12" ed="Y"/><p xml:id="pY41p0050a1201" style="text-indent:2em">四十二年（四十八歲）夏天，我從臺灣回香港，搬運書物及處理未了的手續
 <pb n="0051a" ed="Y" xml:id="Y41.0039.0051a"/>
 <lb n="0051a01" ed="Y"/>。在識廬住了好幾天，我對優曇學長說：<quote>「我交墓庫運了」</quote>（這是家鄉俗語，墓
 <lb n="0051a02" ed="Y"/>庫運會遭受種種惡劣的境遇）！他問我為什麼？我將去年（四十一年）的事告訴
 <lb n="0051a03" ed="Y"/>他。從去年起，種種因緣追迫而來，看來是非受苦難與折磨不可了。優兄為我歡
 <lb n="0051a04" ed="Y"/>喜，說我法運亨通。但到了現在，我還不能決定，這真的是法運亨通嗎？</p>
-<lb n="0051a05" ed="Y"/><p style="text-indent:2em">善於把握機緣的，人生是隨時隨地，機緣都在等待你。但在我自己，正如流
+<lb n="0051a05" ed="Y"/><p xml:id="pY41p0051a0501" style="text-indent:2em">善於把握機緣的，人生是隨時隨地，機緣都在等待你。但在我自己，正如流
 <lb n="0051a06" ed="Y"/>水上的一片落葉，等因緣來自然湊泊。我不交際、不活動，也不願自我宣傳，所
 <lb n="0051a07" ed="Y"/>以我不是沒有因緣，而是等因緣找上門來。這當然是生活平淡，少事少業了。可
 <lb n="0051a08" ed="Y"/>是一到四十一年（四十七歲），因緣是一件件的相逼而來，有的連推也推不掉，
 <lb n="0051a09" ed="Y"/>這是我一生中僅有的一年。因緣的追逼而來，真是太不可思議了！這一年的因緣
 <lb n="0051a10" ed="Y"/>，值得一提的，至少有十件。</p>
-<lb n="0051a11" ed="Y"/><p style="text-indent:2em">一、正月初三日，我與演培、續明等出門去拜年——沒有別的，只是識廬與
+<lb n="0051a11" ed="Y"/><p xml:id="pY41p0051a1101" style="text-indent:2em">一、正月初三日，我與演培、續明等出門去拜年——沒有別的，只是識廬與
 <lb n="0051a12" ed="Y"/>鹿野苑。到了香港識廬，續明去灣仔的香港佛教聯合會，這是我們曾經暫住的地
 <lb n="0051a13" ed="Y"/>方。續明帶回了一封信，信是去年十一月中（卻要在這一年收到），檳城明德法
 <pb n="0052a" ed="Y" xml:id="Y41.0039.0052a"/>
@@ -98,12 +118,12 @@
 <lb n="0052a03" ed="Y"/>法而發心，使我感動。後來籌集的款項，超過了印費，餘款又印了一部<title level="m">《勝鬘經
 <lb n="0052a04" ed="Y"/>講記》</title>。為了付印，我又檢讀了一遍原稿，忙了好多天（校對由續明他們負責）
 <lb n="0052a05" ed="Y"/>。</p>
-<lb n="0052a06" ed="Y"/><p style="text-indent:2em">二、當天下午，到了荃灣鹿野苑，這是江蘇棲霞山的下院。我們那時寄住的
+<lb n="0052a06" ed="Y"/><p xml:id="pY41p0052a0601" style="text-indent:2em">二、當天下午，到了荃灣鹿野苑，這是江蘇棲霞山的下院。我們那時寄住的
 <lb n="0052a07" ed="Y"/>淨業林，就是鹿野苑三當家（當時的實際負責者）的精舍。到了新年，我們是應
 <lb n="0052a08" ed="Y"/>該來這裡拜年的。那一天，明常老和尚提議，要我在鹿野苑講一部經。既然住在
 <lb n="0052a09" ed="Y"/>淨業林，這也就不能推辭的了。後在二、三月中，講了一部<title level="m">《寶積經》</title>——<title level="a">〈普
 <lb n="0052a10" ed="Y"/>明菩薩會〉</title>。我的口才平常，又不會講些逗人呵呵笑的故事，聽眾的反應平常。</p>
-<lb n="0052a11" ed="Y"/><p style="text-indent:2em">三、演培年初就要去臺灣了，我卻發起了福嚴精舍的籌建。說來話長，三十
+<lb n="0052a11" ed="Y"/><p xml:id="pY41p0052a1101" style="text-indent:2em">三、演培年初就要去臺灣了，我卻發起了福嚴精舍的籌建。說來話長，三十
 <lb n="0052a12" ed="Y"/>九年所住的梅修精舍，是馬廣尚老居士為我們借來，原是可以長住的。淨業林在
 <lb n="0052a13" ed="Y"/>青山九咪半，是鹿野苑三當家的精舍，最近翻修完成，邀請我們去住。三當家的
 <pb n="0053a" ed="Y" xml:id="Y41.0039.0053a"/>
@@ -118,7 +138,7 @@
 <lb n="0053a09" ed="Y"/>，種下了苦因。但我那裡能預知，這是不可思議的逆緣！我到了淨業林，仁俊也
 <lb n="0053a10" ed="Y"/>來共住；超塵（二當家）在這裡閉關；悟一（四當家）管理庶務。我不大注意別
 <lb n="0053a11" ed="Y"/>人，也不想知道別人的秘密，所以平順的住了一年。</p>
-<lb n="0053a12" ed="Y"/><p style="text-indent:2em">到了年底年初，一項不平常的事件，也許別人不覺得，而我卻深深的懊悔了
+<lb n="0053a12" ed="Y"/><p xml:id="pY41p0053a1201" style="text-indent:2em">到了年底年初，一項不平常的事件，也許別人不覺得，而我卻深深的懊悔了
 <lb n="0053a13" ed="Y"/>，為什麼要到這裡來呢！事情是這樣的：到了年底，三當家的頭髮，留得長長的
 <pb n="0054a" ed="Y" xml:id="Y41.0039.0054a"/>
 <lb n="0054a01" ed="Y"/>，不肯剃去。到了新年，也不肯去施主家拜年，這是違反（鹿野苑）常例的。三
@@ -133,17 +153,17 @@
 <lb n="0054a10" ed="Y"/>到臺灣），我們的處境會是很難堪的。但當時的鹿野苑，聲譽還好；我們受尊
 <lb n="0054a11" ed="Y"/>敬受歡迎而來，又憑什麼理由而要離去？再遷到別處，不但對不住鹿野苑與淨業
 <lb n="0054a12" ed="Y"/>林，也與自己有損。我與續明研究，唯一的辦法，是自己創立精舍，才能不留痕
-<lb n="0054a13" ed="Y"/><note n="0054a1301" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0054a1301"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>的離去。這樣決定了，就與妙欽說明。妙欽以去錫蘭為理由，願為我們成立精
+<lb n="0054a13" ed="Y"/><note n="0054a1301" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0054a1301"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>的離去。這樣決定了，就與妙欽說明。妙欽以去錫蘭為理由，願為我們成立精
 <pb n="0055a" ed="Y" xml:id="Y41.0039.0055a"/>
 <lb n="0055a01" ed="Y"/>舍而作最後的服務。就這樣，住在淨業林而開始福嚴精舍的籌建工作。這是我被
 <lb n="0055a02" ed="Y"/>迫而自己計劃的，但在香港是成功而又失敗了，雖已找到了建地，卻又改變主意
 <lb n="0055a03" ed="Y"/>而移建到臺灣。</p>
-<lb n="0055a04" ed="Y"/><p style="text-indent:2em">四、大概是三月<note n="0055a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0055a0401"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，優曇約我去識廬。荃灣芙蓉山的南天竺，有意要獻為十
+<lb n="0055a04" ed="Y"/><p xml:id="pY41p0055a0401" style="text-indent:2em">四、大概是三月<note n="0055a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0055a0401"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，優曇約我去識廬。荃灣芙蓉山的南天竺，有意要獻為十
 <lb n="0055a05" ed="Y"/>方。優曇介紹敏智（武院同學）與我！敏智任住持，我與續明他們去弘法——兩
 <lb n="0055a06" ed="Y"/>人合作。我不好卻優曇的好意，曾與敏智去南天竺一次，但此事不成事實，後來
 <lb n="0055a07" ed="Y"/>是消息全無了。問題並不在我，而是敏智。敏智是有名的天寧寺大和尚，但並不
 <lb n="0055a08" ed="Y"/>是傳說中有錢的那位天寧寺大和尚。大概行情明白了，也就免談了。</p>
-<lb n="0055a09" ed="Y"/><p style="text-indent:2em">五、優曇來信約我去識廬，因為馮公夏居士們，要成立世界佛教友誼會港澳
+<lb n="0055a09" ed="Y"/><p xml:id="pY41p0055a0901" style="text-indent:2em">五、優曇來信約我去識廬，因為馮公夏居士們，要成立世界佛教友誼會港澳
 <lb n="0055a10" ed="Y"/>分會，我沒有去。一次到了識廬，優曇要與馮公夏聯絡，我說：<quote>「今天不便，下
 <lb n="0055a11" ed="Y"/>次再來」</quote>。我習慣於在僧團中自修，不會與居士們打交道（現在老了也還是這樣
 <lb n="0055a12" ed="Y"/>）。但是，馮公夏等到了清涼法苑來；清涼法苑離淨業林不過數十步，請我去午
@@ -151,12 +171,12 @@
 <pb n="0056a" ed="Y" xml:id="Y41.0039.0056a"/>
 <lb n="0056a01" ed="Y"/>。這可說是給我的榮譽，是他們的好意，並無實際責任，我也就答應了。這是一
 <lb n="0056a02" ed="Y"/>件避也避不了的因緣。</p>
-<lb n="0056a03" ed="Y"/><p style="text-indent:2em">六、香港佛教聯合會改選，我被選為香港佛教聯合會會長。這應該是優曇與
+<lb n="0056a03" ed="Y"/><p xml:id="pY41p0056a0301" style="text-indent:2em">六、香港佛教聯合會改選，我被選為香港佛教聯合會會長。這應該是優曇與
 <lb n="0056a04" ed="Y"/>陳靜濤居士在後面策劃的。我只出席了一次改選後的就職典禮。會務由副會長王
 <lb n="0056a05" ed="Y"/>學仁居士負責。這也只是一項榮譽，歷屆（海仁、筏可老）都是這樣。在四、五
 <lb n="0056a06" ed="Y"/>月中，我一連戴上了香港佛教聯合會會長、世界佛教友誼會港澳分會會長雙重頭
 <lb n="0056a07" ed="Y"/>銜，在我還是第一次。等到定居臺灣，我就專函去辭謝了。</p>
-<lb n="0056a08" ed="Y"/><p style="text-indent:2em">七、到臺灣：這一年的離香港到臺灣，與二十五歲的離家出家，在我的一生
+<lb n="0056a08" ed="Y"/><p xml:id="pY41p0056a0801" style="text-indent:2em">七、到臺灣：這一年的離香港到臺灣，與二十五歲的離家出家，在我的一生
 <lb n="0056a09" ed="Y"/>中，都有極深遠的意義，但意義並不相同。大概是五月底，子老從臺灣來信：中
 <lb n="0056a10" ed="Y"/>國佛教會（以下簡稱中佛會）決議，推請我代表中華民國，出席在日本召開的世
 <lb n="0056a11" ed="Y"/>界佛教友誼會第二屆大會。議決案也抄了寄來，法師與居士們而將去日本出席的
@@ -168,7 +188,7 @@
 <lb n="0057a03" ed="Y"/>到就來」</quote>。七月十五日前後，我到了臺灣。去日本出席的代表，政府已限定為五
 <lb n="0057a04" ed="Y"/>人。我沒有過人的才能，語言不通，子老卻堅決的非要我去不可。等到我知道，
 <lb n="0057a05" ed="Y"/>去日本的期限也近了，只有隨波逐浪，將錯就錯的錯下去。</p>
-<lb n="0057a06" ed="Y"/><p style="text-indent:2em">八、從日本回到臺灣，已是九月天氣。子老在善導寺護法會提議，聘請我當
+<lb n="0057a06" ed="Y"/><p xml:id="pY41p0057a0601" style="text-indent:2em">八、從日本回到臺灣，已是九月天氣。子老在善導寺護法會提議，聘請我當
 <lb n="0057a07" ed="Y"/>導師。他送聘書來，我說：<quote>「南老是導師，為什麼又請我」</quote>？子老說：<quote>「善導寺
 <lb n="0057a08" ed="Y"/>的導師，不限一人，如章嘉大師也是導師，這是護法會表示的敬意。至於善導寺
 <lb n="0057a09" ed="Y"/>的法務——共修會、法會、佛七，一切由南老負責」</quote>。我就這樣的接下了，這當
@@ -183,11 +203,11 @@
 <lb n="0058a04" ed="Y"/>，我有意佔奪別人嗎？在我的回憶中，我沒有這樣的意圖，錯誤的是誰呢？我自
 <lb n="0058a05" ed="Y"/>己比喻為：我到臺灣，住進善導寺，正如嬰兒的<g ref="#CB01403"/>地一聲，落在貧丐懷裡。苦難
 <lb n="0058a06" ed="Y"/>與折磨，是不可避免的了。因緣來了，我還有什麼可說，只有順因緣而受報了！</p>
-<lb n="0058a07" ed="Y"/><p style="text-indent:2em">九、菲律賓僑領施性水與蔡金鎗居士來臺灣，特地到善導寺來看我，傳達了
+<lb n="0058a07" ed="Y"/><p xml:id="pY41p0058a0701" style="text-indent:2em">九、菲律賓僑領施性水與蔡金鎗居士來臺灣，特地到善導寺來看我，傳達了
 <lb n="0058a08" ed="Y"/>性願老法師的意思，請我到菲律賓去弘法。我以初到臺灣，還不能來菲，希望不
 <lb n="0058a09" ed="Y"/>久能來菲律賓親近——以這樣的信，辭謝了性老。這雖沒有成功，但實為四十三
 <lb n="0058a10" ed="Y"/>年底去菲的前緣。</p>
-<lb n="0058a11" ed="Y"/><p style="text-indent:2em">十、大醒法師去世了。一年多來，醒師病廢，<title level="j">《海潮音》</title>沒有人負責，由李
+<lb n="0058a11" ed="Y"/><p xml:id="pY41p0058a1101" style="text-indent:2em">十、大醒法師去世了。一年多來，醒師病廢，<title level="j">《海潮音》</title>沒有人負責，由李
 <lb n="0058a12" ed="Y"/>子寬、賈懷謙勉力維持下去。現在大醒法師死了，沒有錢、沒有文稿、沒有負
 <lb n="0058a13" ed="Y"/>責人。虛大師創辦的，維持了三十多年的<title level="j">《海潮音》</title>，總得設法來維持。子老邀
 <pb n="0059a" ed="Y" xml:id="Y41.0039.0059a"/>
@@ -196,7 +216,7 @@
 <lb n="0059a03" ed="Y"/>幹了，子老就向我要人。一而再，再而三，我那有這麼多的辦法？一共維持了十
 <lb n="0059a04" ed="Y"/>三年——四十二到五十四年，這一精神上的重壓，直到樂觀學長出來，任發行人
 <lb n="0059a05" ed="Y"/>兼編輯，我才如釋重負的免去了無形之累。</p>
-<lb n="0059a06" ed="Y"/><p style="text-indent:2em">四十一年（四十七歲）的因緣，一件件的緊迫而來，不管是苦難與折磨，還
-<lb n="0059a07" ed="Y"/>是法喜充滿，總之是引入了一個新的境界。我雖還是整天在房間<note n="0059a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0059a0701"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，但不只是翻
+<lb n="0059a06" ed="Y"/><p xml:id="pY41p0059a0601" style="text-indent:2em">四十一年（四十七歲）的因緣，一件件的緊迫而來，不管是苦難與折磨，還
+<lb n="0059a07" ed="Y"/>是法喜充滿，總之是引入了一個新的境界。我雖還是整天在房間<note n="0059a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0059a0701"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，但不只是翻
 <lb n="0059a08" ed="Y"/>開書本，而更打開了窗戶，眺望人間，從別人而更認識到自己。</p></cb:div>
 </body></text></TEI>

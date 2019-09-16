@@ -12,61 +12,81 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2012/12</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2012/12</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>14卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 21, No. 21</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">21</idno>.<idno type="no">21</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">教制教典與教學</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">七、關於素食問題</cb:mulu>
-<milestone unit="juan" n="8"/><pb n="0109a" ed="Y" xml:id="Y21.0021.0109a.old" type="old"/>
+<milestone n="8" unit="juan"/><pb n="0109a" ed="Y" xml:id="Y21.0021.0109a.old" type="old"/>
 <pb n="0109a" ed="Y" xml:id="Y21.0021.0109a"/>
 <lb n="0109a01" ed="Y"/><lb n="0109a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">八、編修藏經的先決問題</cb:mulu><head>編修藏經的先決問題<note n="0109001" resp="DILA" type="add">民國四五年撰。</note></head>
 <lb n="0109a02" ed="Y"/><lb n="0109a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　前言</cb:mulu><head>一　前言</head>
-<lb n="0109a03" ed="Y"/><lb n="0109a03" ed="Y" type="old"/><p style="text-indent:2em">最近，自由中國佛教界，舉行了兩次大會：一為玄奘大師靈骨塔寺籌建委員
+<lb n="0109a03" ed="Y"/><lb n="0109a03" ed="Y" type="old"/><p xml:id="pY21p0109a0301" style="text-indent:2em">最近，自由中國佛教界，舉行了兩次大會：一為玄奘大師靈骨塔寺籌建委員
 <lb n="0109a04" ed="Y"/><lb n="0109a04" ed="Y" type="old"/>會成立大會，一為修訂中華大藏經會成立大會。一是對於佛教古德的崇仰追思，
 <lb n="0109a05" ed="Y"/><lb n="0109a05" ed="Y" type="old"/>一是對於佛教聖典的纂集流通。這兩件大事，都相當艱巨，都非常重要。可以說
 <lb n="0109a06" ed="Y"/><lb n="0109a06" ed="Y" type="old"/>，這可以預見法運的昌明，足徵國運的中興。這是怎樣的大事，好事！每一佛弟
 <lb n="0109a07" ed="Y"/><lb n="0109a07" ed="Y" type="old"/>子，都會隨喜讚歎！</p>
-<lb n="0109a08" ed="Y"/><lb n="0109a08" ed="Y" type="old"/><p style="text-indent:2em">塔寺的籌建，要錢；經典的搜求，編集，印行，也要錢。出錢作福，是在家
+<lb n="0109a08" ed="Y"/><lb n="0109a08" ed="Y" type="old"/><p xml:id="pY21p0109a0801" style="text-indent:2em">塔寺的籌建，要錢；經典的搜求，編集，印行，也要錢。出錢作福，是在家
 <lb n="0109a09" ed="Y"/><lb n="0109a09" ed="Y" type="old"/>佛子的事；籌款方法等，我不用多說。關於聖典的編集，過去曾說過幾句。讀到
 <lb n="0109a10" ed="Y"/><lb n="0109a10" ed="Y" type="old"/>大會散發的<title level="a">〈修藏編例彙錄〉</title>，<title level="a">〈分類彙錄各方關於修藏意見〉</title>，<title level="a">〈中華大藏經<pb n="0110a" ed="Y" xml:id="Y21.0021.0110a.old" type="old"/>
 <pb n="0110a" ed="Y" xml:id="Y21.0021.0110a"/>
 <lb n="0110a01" ed="Y"/><lb n="0110a01" ed="Y" type="old"/>範本〉</title>，覺得還在各抒高見階段。主持修訂諸公，是這樣的不拘成見，廣徵眾議
 <lb n="0110a02" ed="Y"/><lb n="0110a02" ed="Y" type="old"/>，我也就敢來饒舌一番！</p>
-<lb n="0110a03" ed="Y"/><lb n="0110a03" ed="Y" type="old"/><p style="text-indent:2em">修藏的事體大，問題多，真是說也說不完。不過，作為根本的先決問題，有
+<lb n="0110a03" ed="Y"/><lb n="0110a03" ed="Y" type="old"/><p xml:id="pY21p0110a0301" style="text-indent:2em">修藏的事體大，問題多，真是說也說不完。不過，作為根本的先決問題，有
 <lb n="0110a04" ed="Y"/><lb n="0110a04" ed="Y" type="old"/>首先決定的必要。什麼是先決的根本問題？就是為什麼修藏？準備修成什麼樣的
 <lb n="0110a05" ed="Y"/><lb n="0110a05" ed="Y" type="old"/>藏經？修訂諸公，不願意少數決定，等待大家來討論，大家就應該先討論這個問
 <lb n="0110a06" ed="Y"/><lb n="0110a06" ed="Y" type="old"/>題。譬如要修房屋，東方宮殿式也好，西式洋樓也好，日式的木屋也好，臺式的
@@ -78,7 +98,7 @@
 <lb n="0110a12" ed="Y"/><lb n="0110a12" ed="Y" type="old"/>致浪費寶貴的時間與精力！</p></cb:div><pb n="0111a" ed="Y" xml:id="Y21.0021.0111a.old" type="old"/>
 <pb n="0111a" ed="Y" xml:id="Y21.0021.0111a"/>
 <lb n="0111a01" ed="Y"/><lb n="0111a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　求精要——選藏、續藏</cb:mulu><head>二　求精要——選藏、續藏</head>
-<lb n="0111a02" ed="Y"/><lb n="0111a02" ed="Y" type="old"/><p style="text-indent:2em">各方對於修藏的意見，可歸納為四種不同的願望：一、「求其完備」，二、
+<lb n="0111a02" ed="Y"/><lb n="0111a02" ed="Y" type="old"/><p xml:id="pY21p0111a0201" style="text-indent:2em">各方對於修藏的意見，可歸納為四種不同的願望：一、「求其完備」，二、
 <lb n="0111a03" ed="Y"/><lb n="0111a03" ed="Y" type="old"/>「求其精要」，三、「求其通順易曉」，四、「求其傳布世界」。大家本著這種
 <lb n="0111a04" ed="Y"/><lb n="0111a04" ed="Y" type="old"/>不同的方針，發表高見，當然難得定論。先說「求精要」。此次修藏，初以屈映
 <lb n="0111a05" ed="Y"/><lb n="0111a05" ed="Y" type="old"/>光居士「擇地靜修」，發心遍讀藏經，由此發心來發起修藏。最初就擬定了四大
@@ -94,7 +114,7 @@
 <lb n="0112a02" ed="Y"/><lb n="0112a02" ed="Y" type="old"/>的，又讀到漢文大藏而引生的見解。屈居士的這番主張，原因也許與我一樣。假
 <lb n="0112a03" ed="Y"/><lb n="0112a03" ed="Y" type="old"/>使有更多的人，知道漢文大藏以外還有佛法，而且發心去讀藏經，可能會有更多
 <lb n="0112a04" ed="Y"/><lb n="0112a04" ed="Y" type="old"/>人感覺此一方針的意義。</p>
-<lb n="0112a05" ed="Y"/><lb n="0112a05" ed="Y" type="old"/><p style="text-indent:2em">藏經，是了解佛法所依的文獻。閱讀藏經，不僅是「念誦功德」，更是為了
+<lb n="0112a05" ed="Y"/><lb n="0112a05" ed="Y" type="old"/><p xml:id="pY21p0112a0501" style="text-indent:2em">藏經，是了解佛法所依的文獻。閱讀藏經，不僅是「念誦功德」，更是為了
 <lb n="0112a06" ed="Y"/><lb n="0112a06" ed="Y" type="old"/>了解，為了增進信心，策發修持而求得必要的勝解。然漢文大藏，過於龐大：清
 <lb n="0112a07" ed="Y"/><lb n="0112a07" ed="Y" type="old"/>藏有七千餘卷（每卷平均八、九千字），<title>《大正藏》</title>約近萬二千卷，讀者是難免
 <lb n="0112a08" ed="Y"/>望洋而<lb n="0112a08" ed="Y" type="old"/>興歎的。記得我初讀大藏，從<title level="m">《大般若經》</title>開始，一字一句讀下去。經過
@@ -115,7 +135,7 @@
 <lb n="0113a09" ed="Y"/>的內容，也<lb n="0113a09" ed="Y" type="old"/>發揚了中國民族精神的偉大——廣大涵容。這兩點，我一直這樣想。
 <lb n="0113a10" ed="Y"/>所以見到修<lb n="0113a10" ed="Y" type="old"/>定大藏經的原草案，「選而又續」的辦法，使我大大的叫好！</p></cb:div>
 <lb n="0113a11" ed="Y"/><lb n="0113a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　求完備——新編整體大藏經</cb:mulu><head>三　求完備——新編整體大藏經</head>
-<lb n="0113a12" ed="Y"/><lb n="0113a12" ed="Y" type="old"/><p style="text-indent:2em">「求完備」的意見，由續明，本際法師，華嚴關主，與蔡念生居士（蔡君局<pb n="0114a" ed="Y" xml:id="Y21.0021.0114a.old" type="old"/>
+<lb n="0113a12" ed="Y"/><lb n="0113a12" ed="Y" type="old"/><p xml:id="pY21p0113a1201" style="text-indent:2em">「求完備」的意見，由續明，本際法師，華嚴關主，與蔡念生居士（蔡君局<pb n="0114a" ed="Y" xml:id="Y21.0021.0114a.old" type="old"/>
 <pb n="0114a" ed="Y" xml:id="Y21.0021.0114a"/>
 <lb n="0114a01" ed="Y"/><lb n="0114a01" ed="Y" type="old"/>於漢文）等提出。照原發起人本意，「選而又續」，不妨稱為「大藏經選粹」（
 <lb n="0114a02" ed="Y"/><lb n="0114a02" ed="Y" type="old"/>蔡念生居士說），「大藏經選刊」（續明法師說），「簡藏」（韓同居士說）；
@@ -135,7 +155,7 @@
 <lb n="0115a02" ed="Y"/><lb n="0115a02" ed="Y" type="old"/>編入。求精要是精兵主義，求完備是多多益善。這都是好的，問題在你準備修成
 <lb n="0115a03" ed="Y"/><lb n="0115a03" ed="Y" type="old"/>什麼樣的藏經！</p></cb:div>
 <lb n="0115a04" ed="Y"/><lb n="0115a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　求通順易曉——語體文本</cb:mulu><head>四　求通順易曉——語體文本</head>
-<lb n="0115a05" ed="Y"/><lb n="0115a05" ed="Y" type="old"/><p style="text-indent:2em">主張「通順易曉」的，便是使用現代的語體文，這是韓同、李添春、方倫諸
+<lb n="0115a05" ed="Y"/><lb n="0115a05" ed="Y" type="old"/><p xml:id="pY21p0115a0501" style="text-indent:2em">主張「通順易曉」的，便是使用現代的語體文，這是韓同、李添春、方倫諸
 <lb n="0115a06" ed="Y"/><lb n="0115a06" ed="Y" type="old"/>居士，在原草案以外，另行提出的寶貴意見。佛教的教典，一向是文言（除禪宗
 <lb n="0115a07" ed="Y"/><lb n="0115a07" ed="Y" type="old"/>的語錄，但也與現代語體不同），但不是古文，是之乎者也很少的，字句很整齊
 <lb n="0115a08" ed="Y"/><lb n="0115a08" ed="Y" type="old"/>的一種翻譯文學。從前日本也使用這種經文，著作也用此類文體。到近代，漢文
@@ -144,7 +164,7 @@
 <lb n="0115a11" ed="Y"/>言的<lb n="0115a11" ed="Y" type="old"/>佛典，一天天覺得難懂了！唯一辦法，只有改譯語體文。這對於佛教的普及
 <lb n="0115a12" ed="Y"/>傳布<lb n="0115a12" ed="Y" type="old"/>，有非常的價值。從這點說，求通順的語體化，比上二項更有迫切的需要。</p><pb n="0116a" ed="Y" xml:id="Y21.0021.0116a.old" type="old"/>
 <pb n="0116a" ed="Y" xml:id="Y21.0021.0116a"/>
-<lb n="0116a01" ed="Y"/><lb n="0116a01" ed="Y" type="old"/><p style="text-indent:2em">然而，佛經的改譯語體文，只能好懂一點，並不就一切通順易懂了。因為佛
+<lb n="0116a01" ed="Y"/><lb n="0116a01" ed="Y" type="old"/><p xml:id="pY21p0116a0101" style="text-indent:2em">然而，佛經的改譯語體文，只能好懂一點，並不就一切通順易懂了。因為佛
 <lb n="0116a02" ed="Y"/><lb n="0116a02" ed="Y" type="old"/>經不是小說、故事，佛經的難讀，因素極多。從內容說，如理論化的深義，內心
 <lb n="0116a03" ed="Y"/><lb n="0116a03" ed="Y" type="old"/>體悟到的勝義，都不是一般心境所能容易領解的。例如<quote source="T08n0251_p0848c08-09" type="嚴謹引文">「色不異空，空不異色，
 <lb n="0116a04" ed="Y"/><lb n="0116a04" ed="Y" type="old"/>色即是空，空即是色」<note n="0116001" resp="謝淑歆" type="add">《般若波羅蜜多心經》卷1(CBETA, T08, no. 251, p. 848, c8-9)</note></quote>，你怎麼改譯，一般人也不會一讀就懂。例如相對論、四
@@ -170,7 +190,7 @@
 <lb n="0117a10" ed="Y"/><lb n="0117a10" ed="Y" type="old"/>所特有，如五常、五倫、四維、八德、七出、八卦，不也是一樣？即使是少些，
 <lb n="0117a11" ed="Y"/><lb n="0117a11" ed="Y" type="old"/>總之非學習，非記住內容不可。所以佛經的難讀，不只是文言問題。當然，如改
 <lb n="0117a12" ed="Y"/><lb n="0117a12" ed="Y" type="old"/>譯為語體文，總是方便得多了！</p>
-<lb n="0117a13" ed="Y"/><lb n="0117a13" ed="Y" type="old"/><p style="text-indent:2em">近代的中國佛教，與知識界過於疏遠，很少人曾讀過佛經。經中平常的事理<pb n="0118a" ed="Y" xml:id="Y21.0021.0118a.old" type="old"/>
+<lb n="0117a13" ed="Y"/><lb n="0117a13" ed="Y" type="old"/><p xml:id="pY21p0117a1301" style="text-indent:2em">近代的中國佛教，與知識界過於疏遠，很少人曾讀過佛經。經中平常的事理<pb n="0118a" ed="Y" xml:id="Y21.0021.0118a.old" type="old"/>
 <pb n="0118a" ed="Y" xml:id="Y21.0021.0118a"/>
 <lb n="0118a01" ed="Y"/><lb n="0118a01" ed="Y" type="old"/>，也會茫然不解。正像身入異國，一切是生疏的一樣（過幾天就會熟習起來）。
 <lb n="0118a02" ed="Y"/><lb n="0118a02" ed="Y" type="old"/>修學佛法的，一分是由於年齡關係，急切的希求橫超直入，所以每是粗通大義，
@@ -182,7 +202,7 @@
 <lb n="0118a08" ed="Y"/><lb n="0118a08" ed="Y" type="old"/>言的障礙。論理，中等教育以上（應有閱讀文言的能力），發心弘贊佛教的人士
 <lb n="0118a09" ed="Y"/><lb n="0118a09" ed="Y" type="old"/>，不會因文字而障礙修學。據我所知，中國近幾十年的僧眾，較能深入佛法的，
 <lb n="0118a10" ed="Y"/><lb n="0118a10" ed="Y" type="old"/>很少曾受過正規教育，都是從不斷的學習中得來。</p>
-<lb n="0118a11" ed="Y"/><lb n="0118a11" ed="Y" type="old"/><p style="text-indent:2em">選譯佛典為語體文，可說是迫切需要的工作。但這是為了通俗，為了「研求
+<lb n="0118a11" ed="Y"/><lb n="0118a11" ed="Y" type="old"/><p xml:id="pY21p0118a1101" style="text-indent:2em">選譯佛典為語體文，可說是迫切需要的工作。但這是為了通俗，為了「研求
 <lb n="0118a12" ed="Y"/><lb n="0118a12" ed="Y" type="old"/>佛法的初步知識」，為了「一般信眾的基本信解」。這與「求完備」、「求精要
 <lb n="0118a13" ed="Y"/><lb n="0118a13" ed="Y" type="old"/>」不同，選輯就不必太多，不妨稱為「語體譯本佛教聖典叢書」，大概三百卷就<pb n="0119a" ed="Y" xml:id="Y21.0021.0119a.old" type="old"/>
 <pb n="0119a" ed="Y" xml:id="Y21.0021.0119a"/>
@@ -193,7 +213,7 @@
 <lb n="0119a05" ed="Y"/><lb n="0119a05" ed="Y" type="old"/>行組織去做。不過，如編修大藏會而同意的話，那麼另成立一小組，附屬於大會
 <lb n="0119a06" ed="Y"/><lb n="0119a06" ed="Y" type="old"/>也得。</p></cb:div>
 <lb n="0119a07" ed="Y"/><lb n="0119a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五　求傳布世界——譯藏</cb:mulu><head>五　求傳布世界——譯藏</head>
-<lb n="0119a08" ed="Y"/><lb n="0119a08" ed="Y" type="old"/><p style="text-indent:2em">「譯藏」，是翻譯佛典為外文，先從英譯做起，這是出發於「傳布世界」的
+<lb n="0119a08" ed="Y"/><lb n="0119a08" ed="Y" type="old"/><p xml:id="pY21p0119a0801" style="text-indent:2em">「譯藏」，是翻譯佛典為外文，先從英譯做起，這是出發於「傳布世界」的
 <lb n="0119a09" ed="Y"/><lb n="0119a09" ed="Y" type="old"/>要求。無論以此來溝通南傳北傳的佛教，或以佛法去化導西方，救濟西方文明所
 <lb n="0119a10" ed="Y"/><lb n="0119a10" ed="Y" type="old"/>造成的世界危機，都極端重要。關於這，我曾說過：<quote>「譯藏要緊，應另成專編，
 <lb n="0119a11" ed="Y"/><lb n="0119a11" ed="Y" type="old"/>不宜夾在《中華大藏經》中」</quote>。無論大家的意見如何，結論如何，將譯成外文的
@@ -214,7 +234,7 @@
 <lb n="0120a13" ed="Y"/><quote>「先<lb n="0120a13" ed="Y" type="old"/>多譯小冊子」</quote>。雖似乎不夠偉大，但也許實際而做得通些。</p></cb:div><pb n="0121a" ed="Y" xml:id="Y21.0021.0121a.old" type="old"/>
 <pb n="0121a" ed="Y" xml:id="Y21.0021.0121a"/>
 <lb n="0121a01" ed="Y"/><lb n="0121a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">六　兩項先決問題</cb:mulu><head>六　兩項先決問題</head>
-<lb n="0121a02" ed="Y"/><lb n="0121a02" ed="Y" type="old"/><p style="text-indent:2em">問題可以總結了。建議中的語體文本，外文譯本，充其量，也只能附屬於大
+<lb n="0121a02" ed="Y"/><lb n="0121a02" ed="Y" type="old"/><p xml:id="pY21p0121a0201" style="text-indent:2em">問題可以總結了。建議中的語體文本，外文譯本，充其量，也只能附屬於大
 <lb n="0121a03" ed="Y"/><lb n="0121a03" ed="Y" type="old"/>會，而不是大會所應辦的主要事業。留下來有待決定的是：到底是求其完備的大
 <lb n="0121a04" ed="Y"/><lb n="0121a04" ed="Y" type="old"/>藏經，還是求其精要的選而又續？這一問題，使我迷惘。「修訂《中華大藏經》
 <lb n="0121a05" ed="Y"/>」，<lb n="0121a05" ed="Y" type="old"/>已由發起人呈請，由內政部備案，舉行成立大會了。而在發起又主修的屈居
@@ -223,7 +243,7 @@
 <lb n="0121a08" ed="Y"/>未收<lb n="0121a08" ed="Y" type="old"/>入者（意指「續藏」），……並「譯藏」及「總目錄」，成為《中華大藏經
 <lb n="0121a09" ed="Y"/>》」。新<lb n="0121a09" ed="Y" type="old"/>編整體的《中華大藏經》，與原草案中四大法典的《中華大藏經》，大
 <lb n="0121a10" ed="Y"/>有不同。我覺得這<lb n="0121a10" ed="Y" type="old"/>是急待先決的問題。</p>
-<lb n="0121a11" ed="Y"/><lb n="0121a11" ed="Y" type="old"/><p style="text-indent:2em">我是贊同屈居士原意見的，然也贊同求其完備的新編整體大藏，只是覺得先
+<lb n="0121a11" ed="Y"/><lb n="0121a11" ed="Y" type="old"/><p xml:id="pY21p0121a1101" style="text-indent:2em">我是贊同屈居士原意見的，然也贊同求其完備的新編整體大藏，只是覺得先
 <lb n="0121a12" ed="Y"/><lb n="0121a12" ed="Y" type="old"/>要決定一下。無論是新編整體大藏，或選而又續的大藏，還有第二項重要問題先<pb n="0122a" ed="Y" xml:id="Y21.0021.0122a.old" type="old"/>
 <pb n="0122a" ed="Y" xml:id="Y21.0021.0122a"/>
 <lb n="0122a01" ed="Y"/><lb n="0122a01" ed="Y" type="old"/>要決定，這就是：是以現有的漢文譯本，及漢文著作（包括日本古德作品）為<lb n="0122a02" ed="Y" type="old"/>範
@@ -249,7 +269,7 @@
 <lb n="0123a07" ed="Y"/>新校正一下，成為一完善的漢譯本。上海方面的譯本，怕無法取出，現在如因<lb n="0123a08" ed="Y" type="old"/>陋
 <lb n="0123a08" ed="Y"/>就簡，不再譯編，似乎不及抗戰期間的氣魄，不足以象徵國運中興時代的景象<lb n="0123a09" ed="Y" type="old"/>！
 <lb n="0123a09" ed="Y"/>當然，發起又主修者的心境，不但如此，而且還記著藏文教典呢！</p>
-<lb n="0123a10" ed="Y"/><lb n="0123a10" ed="Y" type="old"/><p style="text-indent:2em"><quote>「千句併一句，目錄第一」</quote>！其實，在此以前，應該決定一下：是求其完<lb n="0123a11" ed="Y" type="old"/>備
+<lb n="0123a10" ed="Y"/><lb n="0123a10" ed="Y" type="old"/><p xml:id="pY21p0123a1001" style="text-indent:2em"><quote>「千句併一句，目錄第一」</quote>！其實，在此以前，應該決定一下：是求其完<lb n="0123a11" ed="Y" type="old"/>備
 <lb n="0123a11" ed="Y"/>的大藏呢？還是求其精約的「選而又續」呢？是專以現有的漢文本為限呢？還是
 <lb n="0123a12" ed="Y"/>更補<lb n="0123a12" ed="Y" type="old"/>譯藏文巴利文本以入藏呢？問題都不簡單，得好好的考慮一下！</p></cb:div></cb:div><pb n="0124a" ed="Y" xml:id="Y21.0021.0124a.old" type="old"/>
 </body></text></TEI>

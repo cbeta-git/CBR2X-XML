@@ -12,56 +12,76 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/12</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/12</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>39卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 23, No. 23</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>39卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">23</idno>.<idno type="no">23</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨香雲</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">二六、悼念守培上人</cb:mulu>
-<milestone unit="juan" n="27"/><pb n="0357a" ed="Y" xml:id="Y23.0023.0357a.old" type="old"/>
+<milestone n="27" unit="juan"/><pb n="0357a" ed="Y" xml:id="Y23.0023.0357a.old" type="old"/>
 <pb n="0357a" ed="Y" xml:id="Y23.0023.0357a"/>
 <lb n="0357a01" ed="Y"/><lb n="0357a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">二七、悼法舫法師</cb:mulu><head>悼法舫法師<note n="0357001" resp="DILA" type="add">民國四〇年撰。</note></head>
-<lb n="0357a02" ed="Y"/><lb n="0357a02" ed="Y" type="old"/><p style="text-indent:2em">港九佛教四眾同人，在這寒雨霏霏的日子，共同來追念這一代佛教名德——
+<lb n="0357a02" ed="Y"/><lb n="0357a02" ed="Y" type="old"/><p xml:id="pY23p0357a0201" style="text-indent:2em">港九佛教四眾同人，在這寒雨霏霏的日子，共同來追念這一代佛教名德——
 <lb n="0357a03" ed="Y"/><lb n="0357a03" ed="Y" type="old"/>法舫法師，情形倍覺淒其！依佛法講，有生必有死。一個人活著的時候，所作所
 <lb n="0357a04" ed="Y"/><lb n="0357a04" ed="Y" type="old"/>為的，都能夠保證自己的前途。所以死是一期生命的結束，不論你願意不願意，
 <lb n="0357a05" ed="Y"/><lb n="0357a05" ed="Y" type="old"/>都勢必要到來的，本沒有什麼可以悲慟的。不過在這佛教衰頹、社會苦痛到極點
 <lb n="0357a06" ed="Y"/><lb n="0357a06" ed="Y" type="old"/>的時候，大家齊集一堂，追悼法舫法師，確實是後死者應有的表示。法舫法師的
 <lb n="0357a07" ed="Y"/><lb n="0357a07" ed="Y" type="old"/>一期壽命，雖然是結束了，然而他是延續的，不是沒有了的。我們以敬崇之意，
 <lb n="0357a08" ed="Y"/><lb n="0357a08" ed="Y" type="old"/>追念法舫法師的功德，想法師在兜率天中，也必定是感奮的！</p>
-<lb n="0357a09" ed="Y"/><lb n="0357a09" ed="Y" type="old"/><p style="text-indent:2em">關於法師的事跡和紀念的意義，陳靜濤居士等介紹得很清楚了。我在這裡想
+<lb n="0357a09" ed="Y"/><lb n="0357a09" ed="Y" type="old"/><p xml:id="pY23p0357a0901" style="text-indent:2em">關於法師的事跡和紀念的意義，陳靜濤居士等介紹得很清楚了。我在這裡想
 <lb n="0357a10" ed="Y"/><lb n="0357a10" ed="Y" type="old"/>說的，即剛才道安法師所說——太虛大師門下四傑，對於印順不免贊譽過甚！如
 <lb n="0357a11" ed="Y"/>道<lb n="0357a11" ed="Y" type="old"/>安法師所舉的幾位法師，在太虛大師門下，都是我的前輩。我出家的年代淺，
 <pb n="0358a" ed="Y" xml:id="Y23.0023.0358a"/>
@@ -73,7 +93,7 @@
 <lb n="0358a06" ed="Y"/><lb n="0358a06" ed="Y" type="old"/>沒有的！不過都希望法舫法師，能再多經歷幾年，能對於佛教負起領導的責任<lb n="0358a07" ed="Y" type="old"/>。
 <lb n="0358a07" ed="Y"/>沒想到這樣早就去世了！站在同門的立場，覺得是很悲慟的！對於中國佛教來說
 <lb n="0358a08" ed="Y"/><lb n="0358a08" ed="Y" type="old"/>，也是莫大的損失！</p>
-<lb n="0358a09" ed="Y"/><lb n="0358a09" ed="Y" type="old"/><p style="text-indent:2em">學習太虛大師的人，少有能學習得像大師一樣的，但真肯學大師的，有一點
+<lb n="0358a09" ed="Y"/><lb n="0358a09" ed="Y" type="old"/><p xml:id="pY23p0358a0901" style="text-indent:2em">學習太虛大師的人，少有能學習得像大師一樣的，但真肯學大師的，有一點
 <lb n="0358a10" ed="Y"/><lb n="0358a10" ed="Y" type="old"/>卻都是相同的，即大師以為佛教是整個的，不過為了適應各時各地的根機，所以
 <lb n="0358a11" ed="Y"/><lb n="0358a11" ed="Y" type="old"/>佛法才有所謂大小顯密等的差別。真正的說起來，佛法是不能分割的。所以大師
 <lb n="0358a12" ed="Y"/><lb n="0358a12" ed="Y" type="old"/>曾經說過：<quote type="寬鬆引文">「我不是一宗一派的學者。」</quote>如法舫法師、法尊法師等，都是站在佛
@@ -86,7 +106,7 @@
 <lb n="0359a05" ed="Y"/><lb n="0359a05" ed="Y" type="old"/>各派、各時各地的佛法，都是應該學習的。因此，法舫法師近年來專攻巴利文系
 <lb n="0359a06" ed="Y"/>的<lb n="0359a06" ed="Y" type="old"/>佛法，也有些當教抑揚。然有人說他是學小乘的，這決是不符事實的。從他的
 <lb n="0359a07" ed="Y"/>思<lb n="0359a07" ed="Y" type="old"/>想作風來說，他是大乘而決非退拘小乘的。</p>
-<lb n="0359a08" ed="Y"/><lb n="0359a08" ed="Y" type="old"/><p style="text-indent:2em">其次，我們今日在這裡追悼法舫法師，要知道太虛大師是以上昇兜率內院<lb n="0359a09" ed="Y" type="old"/>親
+<lb n="0359a08" ed="Y"/><lb n="0359a08" ed="Y" type="old"/><p xml:id="pY23p0359a0801" style="text-indent:2em">其次，我們今日在這裡追悼法舫法師，要知道太虛大師是以上昇兜率內院<lb n="0359a09" ed="Y" type="old"/>親
 <lb n="0359a09" ed="Y"/>近彌勒慈尊為目的，法舫法師是追蹤大師的，當然上生兜率是他的目的。現<lb n="0359a10" ed="Y" type="old"/>在希
 <lb n="0359a10" ed="Y"/>望四眾同仁，以至誠心，回向祝願法師上昇兜率內院。但是現在距彌勒菩薩<lb n="0359a11" ed="Y" type="old"/>下生
 <lb n="0359a11" ed="Y"/>的時劫還很遠，在這遙遠的時空裡，也需要預先為彌勒菩薩的下生作些準備<lb n="0359a12" ed="Y" type="old"/>。因

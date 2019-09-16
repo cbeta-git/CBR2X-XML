@@ -12,52 +12,72 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/11</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/11</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>14卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 14, No. 14</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">14</idno>.<idno type="no">14</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛在人間</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十一、佛教的戰鬥觀</cb:mulu>
-<milestone unit="juan" n="12"/><pb n="0305a" ed="Y" xml:id="Y14.0014.0305a.old" type="old"/>
+<milestone n="12" unit="juan"/><pb n="0305a" ed="Y" xml:id="Y14.0014.0305a.old" type="old"/>
 <pb n="0305a" ed="Y" xml:id="Y14.0014.0305a"/>
 <lb n="0305a01" ed="Y"/><lb n="0305a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十二、一般道德與佛化道德</cb:mulu><head>一般道德與佛化道德<note n="0305001" resp="DILA" type="add">民國四三年撰。</note></head>
-<lb n="0305a02" ed="Y"/><lb n="0305a02" ed="Y" type="old"/><p style="text-indent:2em">道德，不獨是佛法所有的。世界的各宗教，各民族，各時代，都有他的道德
+<lb n="0305a02" ed="Y"/><lb n="0305a02" ed="Y" type="old"/><p xml:id="pY14p0305a0201" style="text-indent:2em">道德，不獨是佛法所有的。世界的各宗教，各民族，各時代，都有他的道德
 <lb n="0305a03" ed="Y"/><lb n="0305a03" ed="Y" type="old"/>，不過佛教的道德觀，在一般共通的基礎上，更有他獨到的特質而已。所以，現
 <lb n="0305a04" ed="Y"/><lb n="0305a04" ed="Y" type="old"/>在想從一般的道德，說到佛化的道德。</p>
-<lb n="0305a05" ed="Y"/><lb n="0305a05" ed="Y" type="old"/><p style="text-indent:2em">人類（進一步到一切眾生）能和樂共存，互助合作，實現家齊、國治、天下
+<lb n="0305a05" ed="Y"/><lb n="0305a05" ed="Y" type="old"/><p xml:id="pY14p0305a0501" style="text-indent:2em">人類（進一步到一切眾生）能和樂共存，互助合作，實現家齊、國治、天下
 <lb n="0305a06" ed="Y"/><lb n="0305a06" ed="Y" type="old"/>平的理想，道德是顯得極其重要的。如忽視道德，則家庭、國家、國際，都會混
 <lb n="0305a07" ed="Y"/><lb n="0305a07" ed="Y" type="old"/>亂不堪。從前釋迦佛出世時，印度傳統的婆羅門教，失去了權威，而新起的思想
 <lb n="0305a08" ed="Y"/><lb n="0305a08" ed="Y" type="old"/>界，就有懷疑道德、否定道德的。他們大抵依據機械的、唯物的觀點，覺到世間
@@ -69,7 +89,7 @@
 <lb n="0306a02" ed="Y"/><lb n="0306a02" ed="Y" type="old"/>價值的宗教。所以真正的學佛，就是從一般的道德實踐起，進步到最圓滿的道德
 <lb n="0306a03" ed="Y"/><lb n="0306a03" ed="Y" type="old"/>生活的完成。</p>
 <lb n="0306a04" ed="Y"/><lb n="0306a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　道德與不道德</cb:mulu><head>一　道德與不道德</head>
-<lb n="0306a05" ed="Y"/><lb n="0306a05" ed="Y" type="old"/><p style="text-indent:2em">說到道德，就有不道德。道德與不道德，佛法中稱為善與惡。這二者，不能
+<lb n="0306a05" ed="Y"/><lb n="0306a05" ed="Y" type="old"/><p xml:id="pY14p0306a0501" style="text-indent:2em">說到道德，就有不道德。道德與不道德，佛法中稱為善與惡。這二者，不能
 <lb n="0306a06" ed="Y"/><lb n="0306a06" ed="Y" type="old"/>從物質的觀念中得來，所以唯物論的人生觀，等於從根否定了善惡的意義。道德
 <lb n="0306a07" ed="Y"/><lb n="0306a07" ed="Y" type="old"/>與不道德，大概的說，是人類以上的文明產物，從有意識的實踐中表現出來。善
 <lb n="0306a08" ed="Y"/><lb n="0306a08" ed="Y" type="old"/>與惡，依什麼作標準？怎樣是善的？怎樣是惡的？從事相來說，可有二義。一、
@@ -87,7 +107,7 @@
 <lb n="0307a07" ed="Y"/><lb n="0307a07" ed="Y" type="old"/>惡。違理與非法的，一定會引起他人的損害，是惡。反之，合於法理的，一定會
 <lb n="0307a08" ed="Y"/><lb n="0307a08" ed="Y" type="old"/>於人有益，所以是善。善與惡的簡單分別，大略如此。</p></cb:div>
 <lb n="0307a09" ed="Y"/><lb n="0307a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　最一般的道德與道德律</cb:mulu><head>二　最一般的道德與道德律</head>
-<lb n="0307a10" ed="Y"/><lb n="0307a10" ed="Y" type="old"/><p style="text-indent:2em">什麼是一般的道德？不是佛教所獨有的，是各宗教，各民族，各時代所可能
+<lb n="0307a10" ed="Y"/><lb n="0307a10" ed="Y" type="old"/><p xml:id="pY14p0307a1001" style="text-indent:2em">什麼是一般的道德？不是佛教所獨有的，是各宗教，各民族，各時代所可能
 <lb n="0307a11" ed="Y"/><lb n="0307a11" ed="Y" type="old"/>共有的道德。在這一般的道德中，最根本的，或可說是道德的根本，為一切道德
 <lb n="0307a12" ed="Y"/><lb n="0307a12" ed="Y" type="old"/>行為所不可離的。如離開了這，雖也多少有其價值，但是微不足道，或可說不成<pb n="0308a" ed="Y" xml:id="Y14.0014.0308a.old" type="old"/>
 <pb n="0308a" ed="Y" xml:id="Y14.0014.0308a"/>
@@ -99,7 +119,7 @@
 <lb n="0308a06" ed="Y"/><lb n="0308a06" ed="Y" type="old"/>是慈心慈行。希望他離去苦痛，幫助他解除苦痛，這是悲心悲行。一般人的慈悲
 <lb n="0308a07" ed="Y"/><lb n="0308a07" ed="Y" type="old"/>，雖與佛法所說的大慈悲，不完全相合，但這是深度與闊度的不同，論性質還是
 <lb n="0308a08" ed="Y"/><lb n="0308a08" ed="Y" type="old"/>共通的。一切的道德心行，都以此為本。</p>
-<lb n="0308a09" ed="Y"/><lb n="0308a09" ed="Y" type="old"/><p style="text-indent:2em">我們學佛的，首先要受皈依。皈依的願文說：<quote type="寬鬆引文">「從今時乃至命終，護生。」</quote>
+<lb n="0308a09" ed="Y"/><lb n="0308a09" ed="Y" type="old"/><p xml:id="pY14p0308a0901" style="text-indent:2em">我們學佛的，首先要受皈依。皈依的願文說：<quote type="寬鬆引文">「從今時乃至命終，護生。」</quote>
 <lb n="0308a10" ed="Y"/><lb n="0308a10" ed="Y" type="old"/>進而受戒，先要受持不殺生戒。護生與不殺生，便是慈悲心行的實踐。佛教的一
 <lb n="0308a11" ed="Y"/><lb n="0308a11" ed="Y" type="old"/>切德行，都是不能離開慈悲不殺的。從佛法看來，眾生的生命延續，雖說是苦痛
 <lb n="0308a12" ed="Y"/><lb n="0308a12" ed="Y" type="old"/>的根源，但又沒有不貪戀生存。因為眾生所有相對的喜樂，都以生存為先決條件
@@ -115,7 +135,7 @@
 <lb n="0309a08" ed="Y"/>級的道德。事實上，從仇恨鬥爭的基礎出發，使全人類普遍陷於鬥爭殘殺的恐<lb n="0309a09" ed="Y" type="old"/>怖
 <lb n="0309a09" ed="Y"/>中，這那裡是道德！從不道德——仇恨鬥爭的動機出發，無論怎麼說，那樣做<lb n="0309a10" ed="Y" type="old"/>，
 <lb n="0309a10" ed="Y"/>只是增長人類的苦痛。不但毀滅別人，自己也被毀滅，實是抹煞道德的偽道德<lb n="0309a11" ed="Y" type="old"/>。</p>
-<lb n="0309a11" ed="Y"/><lb n="0309a12" ed="Y" type="old"/><p style="text-indent:2em">為什麼仁、慈、愛是道德的根本，是最一般的道德律？我們知道：道德是表
+<lb n="0309a11" ed="Y"/><lb n="0309a12" ed="Y" type="old"/><p xml:id="pY14p0309a1101" style="text-indent:2em">為什麼仁、慈、愛是道德的根本，是最一般的道德律？我們知道：道德是表
 <lb n="0309a12" ed="Y"/><lb n="0309a13" ed="Y" type="old"/>現於自他關係上的，而仁就是人與人間的合理關係，發為應有的合理行為。佛法<pb n="0310a" ed="Y" xml:id="Y14.0014.0310a.old" type="old"/>
 <lb n="0309a13" ed="Y"/><lb n="0310a01" ed="Y" type="old"/>說有<quote source="T02n0099_p0273b14" type="嚴謹引文">「自通之法」<note n="0309001" resp="謝淑歆" type="add">《雜阿含經》卷37(CBETA, T02, no. 99, p. 273, b14)</note></quote>，這是從自己要怎樣，推知他人也要怎樣。這是<quote type="寬鬆引文">「以己（心）
 <pb n="0310a" ed="Y" xml:id="Y14.0014.0310a"/>
@@ -128,7 +148,7 @@
 <lb n="0310a07" ed="Y"/><lb n="0310a08" ed="Y" type="old"/>從為了自己出發。佛法說：我希望如此，可見他人也是希望如此的，所以應該對
 <lb n="0310a08" ed="Y"/><lb n="0310a09" ed="Y" type="old"/>他人如此，這只是對人的同情，並無功利觀念。儒家說<quote type="嚴謹引文">「己所不欲，勿施於人<lb n="0310a10" ed="Y" type="old"/>」</quote>
 <lb n="0310a09" ed="Y"/>；<quote type="嚴謹引文">「己欲立而立人，己欲達而達人」</quote>。與佛法的精神，更為相合！</p>
-<lb n="0310a10" ed="Y"/><lb n="0310a11" ed="Y" type="old"/><p style="text-indent:2em">眾生的生命，是心色和集，又是自他增上，彼此依存，苦樂相關的。人與人
+<lb n="0310a10" ed="Y"/><lb n="0310a11" ed="Y" type="old"/><p xml:id="pY14p0310a1001" style="text-indent:2em">眾生的生命，是心色和集，又是自他增上，彼此依存，苦樂相關的。人與人
 <lb n="0310a11" ed="Y"/><lb n="0310a12" ed="Y" type="old"/>（眾生）間有這樣的關切，所以損害他是不合理的；自他既是相依而存的，害他
 <lb n="0310a12" ed="Y"/><lb n="0310a13" ed="Y" type="old"/>即等於害己。反過來說：幫助他減少痛苦，也就等於減少自己的痛苦，這當然是<pb n="0311a" ed="Y" xml:id="Y14.0014.0311a.old" type="old"/>
 <lb n="0310a13" ed="Y"/><lb n="0311a01" ed="Y" type="old"/>合理——善。這利他而後能自利，損他等於損己的道理，一般人不一定清楚地了
@@ -141,18 +161,18 @@
 <lb n="0311a06" ed="Y"/><lb n="0311a07" ed="Y" type="old"/>為物欲——色情、名譽、利養權勢等所迷覆，道德意識的自覺，不容易顯發，專
 <lb n="0311a07" ed="Y"/><lb n="0311a08" ed="Y" type="old"/>門為私為己，損他害己。甚至見他失利而幸災樂禍，見他得利而嫉妒障礙。然而
 <lb n="0311a08" ed="Y"/><lb n="0311a09" ed="Y" type="old"/>窮凶極惡的，在某種環境下，也會良心發現，感到自己的罪惡而痛哭流涕的。</p>
-<lb n="0311a09" ed="Y"/><lb n="0311a10" ed="Y" type="old"/><p style="text-indent:2em">無始來不離自他依存而引發的，根源於仁慈的道德意識，不但是人人所共有
+<lb n="0311a09" ed="Y"/><lb n="0311a10" ed="Y" type="old"/><p xml:id="pY14p0311a0901" style="text-indent:2em">無始來不離自他依存而引發的，根源於仁慈的道德意識，不但是人人所共有
 <lb n="0311a10" ed="Y"/><lb n="0311a11" ed="Y" type="old"/>的，而且是一切道德所不能離的。例如孝養父母，雖說是天經地義，然如為了奉
 <lb n="0311a11" ed="Y"/><lb n="0311a12" ed="Y" type="old"/>養，從掠奪、貪枉、欺騙而得來財物，也不能說是善的，不能不說是非法——惡
 <lb n="0311a12" ed="Y"/><lb n="0311a13" ed="Y" type="old"/>的。因為獲得財物時，對人失去了道德——慈悲的緣故。所以說到道德的心行，<pb n="0312a" ed="Y" xml:id="Y14.0014.0312a.old" type="old"/>
 <lb n="0311a13" ed="Y"/><lb n="0312a01" ed="Y" type="old"/>應該重視這最一般的道德意識。</p></cb:div>
 <pb n="0312a" ed="Y" xml:id="Y14.0014.0312a"/>
 <lb n="0312a01" ed="Y"/><lb n="0312a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　道德的變與不變</cb:mulu><head>三　道德的變與不變</head>
-<lb n="0312a02" ed="Y"/><lb n="0312a03" ed="Y" type="old"/><p style="text-indent:2em">部分人的看法，道德是<quote type="寬鬆引文">「放諸四海而皆準，百世俟諸聖人而不惑」</quote>，似乎<lb n="0312a04" ed="Y" type="old"/>一
+<lb n="0312a02" ed="Y"/><lb n="0312a03" ed="Y" type="old"/><p xml:id="pY14p0312a0201" style="text-indent:2em">部分人的看法，道德是<quote type="寬鬆引文">「放諸四海而皆準，百世俟諸聖人而不惑」</quote>，似乎<lb n="0312a04" ed="Y" type="old"/>一
 <lb n="0312a03" ed="Y"/>毫變動不得。另一些人，卻以為道德是依經濟及社會情況的變動而變動，並無<lb n="0312a05" ed="Y" type="old"/>一
 <lb n="0312a04" ed="Y"/>成不變的。這雖都有部分的意義，而實是：慈悲為道德的普遍軌律，無可變動<lb n="0312a06" ed="Y" type="old"/>；
 <lb n="0312a05" ed="Y"/>而表現於實際的德行，有著種種性，有著變動性，雖然內容還是有著一貫性的<lb n="0312a07" ed="Y" type="old"/>。</p>
-<lb n="0312a06" ed="Y"/><lb n="0312a08" ed="Y" type="old"/><p style="text-indent:2em">這可以分三點來說：一、表現於自他的社會關係時，如對家庭、區域、國家
+<lb n="0312a06" ed="Y"/><lb n="0312a08" ed="Y" type="old"/><p xml:id="pY14p0312a0601" style="text-indent:2em">這可以分三點來說：一、表現於自他的社會關係時，如對家庭、區域、國家
 <lb n="0312a07" ed="Y"/><lb n="0312a09" ed="Y" type="old"/>、世界，由於應對各社會層的不同關係，所表現的德行，也就多少不同，如<title level="m">《善
 <lb n="0312a08" ed="Y"/><lb n="0312a10" ed="Y" type="old"/>生經》</title>說：父子、夫婦、師弟等間，彼此都有應守的德目。依一般說：如家庭的
 <lb n="0312a09" ed="Y"/><lb n="0312a11" ed="Y" type="old"/>孝道，是無可疑的應有德行。但在社會或國家的立場，就有「移孝作忠」，或「
@@ -162,19 +182,19 @@
 <pb n="0313a" ed="Y" xml:id="Y14.0014.0313a"/>
 <lb n="0313a01" ed="Y"/><lb n="0313a03" ed="Y" type="old"/>為公忘私」、「全大捨小」的美名，強迫人類作違反人倫、國誼的罪行，陷人類
 <lb n="0313a02" ed="Y"/><lb n="0313a04" ed="Y" type="old"/>於大苦痛，恰好是違反慈悲，殘酷而無同情的惡行。</p>
-<lb n="0313a03" ed="Y"/><lb n="0313a05" ed="Y" type="old"/><p style="text-indent:2em">二、表現於時間的前後關係時，由於社會情況有著某種變動，道德的措施，
+<lb n="0313a03" ed="Y"/><lb n="0313a05" ed="Y" type="old"/><p xml:id="pY14p0313a0301" style="text-indent:2em">二、表現於時間的前後關係時，由於社會情況有著某種變動，道德的措施，
 <lb n="0313a04" ed="Y"/><lb n="0313a06" ed="Y" type="old"/>也就會多少不同。如家天下時代的忠君，到民國便不同。又如男女間應守的德行
 <lb n="0313a05" ed="Y"/><lb n="0313a07" ed="Y" type="old"/>，從母性中心時代，到現今的一夫一妻制，貞操的含義，有著多少不同的。但這
 <lb n="0313a06" ed="Y"/><lb n="0313a08" ed="Y" type="old"/>決不是道德無標準，忠貞永遠是人類應有的美德，僅因時而表現不同，或從不完
 <lb n="0313a07" ed="Y"/><lb n="0313a09" ed="Y" type="old"/>全而演進到更完全而已！</p>
-<lb n="0313a08" ed="Y"/><lb n="0313a10" ed="Y" type="old"/><p style="text-indent:2em">三、表現於根機的淺深關係時，同一社會、同一時代，而由於個人的根性，
+<lb n="0313a08" ed="Y"/><lb n="0313a10" ed="Y" type="old"/><p xml:id="pY14p0313a0801" style="text-indent:2em">三、表現於根機的淺深關係時，同一社會、同一時代，而由於個人的根性，
 <lb n="0313a09" ed="Y"/><lb n="0313a11" ed="Y" type="old"/>德行會多少變化。如佛法中，人乘法只要不邪淫，就是持不淫戒；而聲聞乘的出
 <lb n="0313a10" ed="Y"/><lb n="0313a12" ed="Y" type="old"/>家者，卻完全遮禁。同是一樣的戒，如不殺、不盜等，小乘要止，大乘中有可作
 <lb n="0313a11" ed="Y"/><lb n="0313a13" ed="Y" type="old"/>的。在小乘中，不那樣做是持戒，大乘中可能認為犯戒，要這樣才算持戒。表面<pb n="0314a" ed="Y" xml:id="Y14.0014.0314a.old" type="old"/>
 <lb n="0313a12" ed="Y"/><lb n="0314a01" ed="Y" type="old"/>看來，大小乘的德行相反，其實不過由於發心不同，目標不同，對於戒德的運用
 <lb n="0313a13" ed="Y"/><lb n="0314a02" ed="Y" type="old"/>，小小差別。而對於某一德目的尊重，某一德行的信守，始終是一致的。</p>
 <pb n="0314a" ed="Y" xml:id="Y14.0014.0314a"/>
-<lb n="0314a01" ed="Y"/><lb n="0314a03" ed="Y" type="old"/><p style="text-indent:2em">總之，道德的根源在慈悲，這是不可能變動的；沒有慈悲，即是不道德或非
+<lb n="0314a01" ed="Y"/><lb n="0314a03" ed="Y" type="old"/><p xml:id="pY14p0314a0101" style="text-indent:2em">總之，道德的根源在慈悲，這是不可能變動的；沒有慈悲，即是不道德或非
 <lb n="0314a02" ed="Y"/><lb n="0314a04" ed="Y" type="old"/>道德的。從此而表現於自他間多方面的合理關係，有孝弟忠信等不同德目。這些
 <lb n="0314a03" ed="Y"/><lb n="0314a05" ed="Y" type="old"/>，可因時，因地，因對象，因志趣而不同，但這些德行，永遠是人類相互依存所
 <lb n="0314a04" ed="Y"/><lb n="0314a06" ed="Y" type="old"/>應有的準則。古人說：<quote type="嚴謹引文">「盜亦有道。」</quote>大盜的劫掠殘害，當然是不道德的。但大
@@ -185,13 +205,13 @@
 <lb n="0314a09" ed="Y"/><lb n="0314a11" ed="Y" type="old"/>如忽略根本，只知拘守陳跡，死執教條，那不但不能契合道德的真意，反而會引
 <lb n="0314a10" ed="Y"/><lb n="0314a12" ed="Y" type="old"/>起對於道德的誤解，甚而障礙了道德的開展。</p></cb:div><pb n="0315a" ed="Y" xml:id="Y14.0014.0315a.old" type="old"/>
 <lb n="0314a11" ed="Y"/><lb n="0315a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　道德的三增上</cb:mulu><head>四　道德的三增上</head>
-<lb n="0314a12" ed="Y"/><lb n="0315a02" ed="Y" type="old"/><p style="text-indent:2em">增上，是依的意思。我們依此三者，可以使我們的德行，進展為更完善、更
+<lb n="0314a12" ed="Y"/><lb n="0315a02" ed="Y" type="old"/><p xml:id="pY14p0314a1201" style="text-indent:2em">增上，是依的意思。我們依此三者，可以使我們的德行，進展為更完善、更
 <pb n="0315a" ed="Y" xml:id="Y14.0014.0315a"/>
 <lb n="0315a01" ed="Y"/><lb n="0315a03" ed="Y" type="old"/>崇高的。對於道德，這三者都是有力的增上緣；但必須三者並重，而不偏於一邊
 <lb n="0315a02" ed="Y"/><lb n="0315a04" ed="Y" type="old"/>才好。什麼是三增上？一、自增上，自是自己。二、法增上，法是真理或軌律。
 <lb n="0315a03" ed="Y"/><lb n="0315a05" ed="Y" type="old"/>三、世間增上，世間是輿論及公認的意見。要遵行完善的德行，不能不顧到這三
 <lb n="0315a04" ed="Y"/><lb n="0315a06" ed="Y" type="old"/>者。這與我國古說的<quote type="嚴謹引文">「畏天命，畏大人，畏聖人之言」</quote>，有點相近。</p>
-<lb n="0315a05" ed="Y"/><lb n="0315a07" ed="Y" type="old"/><p style="text-indent:2em">一、自增上：即時常喚起自尊心。尊重自己，不甘下流。對自己所作的，勇
+<lb n="0315a05" ed="Y"/><lb n="0315a07" ed="Y" type="old"/><p xml:id="pY14p0315a0501" style="text-indent:2em">一、自增上：即時常喚起自尊心。尊重自己，不甘下流。對自己所作的，勇
 <lb n="0315a06" ed="Y"/><lb n="0315a08" ed="Y" type="old"/>於負責；對一切應做的事，由自己來擔當。聲聞乘說：人人有解脫分。大乘說：
 <lb n="0315a07" ed="Y"/><lb n="0315a09" ed="Y" type="old"/>人人有佛性。確信自己有為善，成賢成聖，成佛作祖的可能，<quote source="T31n1598_p0414b18" type="嚴謹引文">「彼既丈夫我亦爾
 <lb n="0315a08" ed="Y"/><lb n="0315a10" ed="Y" type="old"/>，不應自輕而退屈」<note n="0315001" resp="謝淑歆" type="add">《攝大乘論釋》卷6(CBETA, T31, no. 1598, p. 414, b18)</note></quote>。不願自暴自棄，努力向上，沒有不能做到的。尊重自己，
@@ -204,7 +224,7 @@
 <lb n="0316a01" ed="Y"/><lb n="0316a04" ed="Y" type="old"/>例如從事政治，受到外來的批評，不肯反省，自以為然；甚或<quote type="嚴謹引文">「笑罵由他笑罵，
 <lb n="0316a02" ed="Y"/><lb n="0316a05" ed="Y" type="old"/>好官我自為之」</quote>，這必然走向惡行。尊重輿論，就會修正自己的偏失，走向光明
 <lb n="0316a03" ed="Y"/><lb n="0316a06" ed="Y" type="old"/>的坦途。</p>
-<lb n="0316a04" ed="Y"/><lb n="0316a07" ed="Y" type="old"/><p style="text-indent:2em">三增上，是人類道德向上增進的基石。不但不能缺，就是偏在那一邊，也會
+<lb n="0316a04" ed="Y"/><lb n="0316a07" ed="Y" type="old"/><p xml:id="pY14p0316a0401" style="text-indent:2em">三增上，是人類道德向上增進的基石。不但不能缺，就是偏在那一邊，也會
 <lb n="0316a05" ed="Y"/><lb n="0316a08" ed="Y" type="old"/>發生偏弊的。如過分尊重自己，每覺得自己的超勝；什麼真理，人情，容易放在
 <lb n="0316a06" ed="Y"/><lb n="0316a09" ed="Y" type="old"/>一邊。這即使動機良善，也會漸漸地走向不道德的路，自害害人。如過於尊重真
 <lb n="0316a07" ed="Y"/><lb n="0316a10" ed="Y" type="old"/>理，可能會冷酷而不順人情。專顧世間，容易背棄真理。因為世間的意見，不一
@@ -214,16 +234,16 @@
 <lb n="0316a11" ed="Y"/><lb n="0317a01" ed="Y" type="old"/>菩薩道，三增上並重，這才能完成究竟圓滿的佛德。</p></cb:div>
 <lb n="0316a12" ed="Y"/><lb n="0317a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五　佛化的道德在般若</cb:mulu><head>五　佛化的道德在般若</head>
 <pb n="0317a" ed="Y" xml:id="Y14.0014.0317a"/>
-<lb n="0317a01" ed="Y"/><lb n="0317a03" ed="Y" type="old"/><p style="text-indent:2em">上來所講的，大抵與世間所說的相通，還不能表顯佛法的特色。佛法能完成
+<lb n="0317a01" ed="Y"/><lb n="0317a03" ed="Y" type="old"/><p xml:id="pY14p0317a0101" style="text-indent:2em">上來所講的，大抵與世間所說的相通，還不能表顯佛法的特色。佛法能完成
 <lb n="0317a02" ed="Y"/><lb n="0317a04" ed="Y" type="old"/>究竟圓滿的德行，他的特質何在？佛化道德的特質在般若。</p>
-<lb n="0317a03" ed="Y"/><lb n="0317a05" ed="Y" type="old"/><p style="text-indent:2em">梵語般若，華語為智慧。但此所說的智慧，意義極深，指通達我法空性的真
+<lb n="0317a03" ed="Y"/><lb n="0317a05" ed="Y" type="old"/><p xml:id="pY14p0317a0301" style="text-indent:2em">梵語般若，華語為智慧。但此所說的智慧，意義極深，指通達我法空性的真
 <lb n="0317a04" ed="Y"/><lb n="0317a06" ed="Y" type="old"/>慧，不是一般智慧所可比擬的，所以<cit><bibl><title level="m">《大智度論》</title>說：</bibl><quote>「般若甚深，智不足稱</quote></cit>。
 <lb n="0317a05" ed="Y"/><lb n="0317a07" ed="Y" type="old"/>」為什麼說佛化的道德在般若？這可從不道德說起。不道德的惡行，從什麼而發
 <lb n="0317a06" ed="Y"/>生<lb n="0317a08" ed="Y" type="old"/>？是由於煩惱而來的。一切煩惱，以薩迦耶見——我見為本。一般世間的一切
 <lb n="0317a07" ed="Y"/>動<lb n="0317a09" ed="Y" type="old"/>作，都從我見而流出。做壞事，固然由於我見的策動；即使是做善事，也還是
 <lb n="0317a08" ed="Y"/>不<lb n="0317a10" ed="Y" type="old"/>離我見。一般人為著自身利益，遵行道德的生活，看來是潔身自好，為眾服務
 <lb n="0317a09" ed="Y"/>，<lb n="0317a11" ed="Y" type="old"/>為社會國家謀利益，其實還是為自己的，離不了我見的力量。</p>
-<lb n="0317a10" ed="Y"/><lb n="0317a12" ed="Y" type="old"/><p style="text-indent:2em">為了滿足個己的（我家、我國等）願望，如損他而作不道德的事，固然要不<pb n="0318a" ed="Y" xml:id="Y14.0014.0318a.old" type="old"/>
+<lb n="0317a10" ed="Y"/><lb n="0317a12" ed="Y" type="old"/><p xml:id="pY14p0317a1001" style="text-indent:2em">為了滿足個己的（我家、我國等）願望，如損他而作不道德的事，固然要不<pb n="0318a" ed="Y" xml:id="Y14.0014.0318a.old" type="old"/>
 <lb n="0317a11" ed="Y"/><lb n="0318a01" ed="Y" type="old"/>得。就是行善——像布施、持戒，如覺得我能修行，我比他好，我救了他，也還
 <lb n="0317a12" ed="Y"/><lb n="0318a02" ed="Y" type="old"/>是和我見糾纏在一起。從私我的情見出發，即使高揚著為人類為社會的旗幟，也
 <lb n="0317a13" ed="Y"/><lb n="0318a03" ed="Y" type="old"/>是不理想的。因為從私我的情見出發，好事非我來做不可；救人救世，也非我（
@@ -239,7 +259,7 @@
 <lb n="0318a09" ed="Y"/><lb n="0318a12" ed="Y" type="old"/>一般的善行，不離自己的情見，就是凡夫行；凡夫本來如此，就凡夫說凡夫，這
 <lb n="0318a10" ed="Y"/><lb n="0318a13" ed="Y" type="old"/>不能責他怪他，還是應該獎勵他為善。不完善的德行，到底比作惡好得多。凡夫<pb n="0319a" ed="Y" xml:id="Y14.0014.0319a.old" type="old"/>
 <lb n="0318a11" ed="Y"/><lb n="0319a01" ed="Y" type="old"/>的善行雖如此，而聖者的德行，卻與此不同。</p>
-<lb n="0318a12" ed="Y"/><lb n="0319a02" ed="Y" type="old"/><p style="text-indent:2em">佛化的道德，建立於般若——無我智的磐石；是破除私我，掃蕩執見的特殊
+<lb n="0318a12" ed="Y"/><lb n="0319a02" ed="Y" type="old"/><p xml:id="pY14p0318a1201" style="text-indent:2em">佛化的道德，建立於般若——無我智的磐石；是破除私我，掃蕩執見的特殊
 <lb n="0318a13" ed="Y"/><lb n="0319a03" ed="Y" type="old"/>智慧。從這種智慧所攝持，所引導的，便與凡夫的德行，截然不同。不再專為自
 <pb n="0319a" ed="Y" xml:id="Y14.0014.0319a"/>
 <lb n="0319a01" ed="Y"/><lb n="0319a04" ed="Y" type="old"/>我，為我的家庭，我的廟子，我的故鄉，我的國家而著想，能從整個人類，一切
@@ -252,7 +272,7 @@
 <lb n="0319a08" ed="Y"/><lb n="0319a11" ed="Y" type="old"/>樣的慈悲，似乎與儒者的仁，耶教的愛相近，然這是無我的慈悲，實在是大大的
 <lb n="0319a09" ed="Y"/><lb n="0319a12" ed="Y" type="old"/>不同了。通達無我法性，發大慈悲心，這是真情與聖智協調的統一心境；學佛的
 <lb n="0319a10" ed="Y"/><lb n="0319a13" ed="Y" type="old"/>最高道德，即從此而發現出來。</p><pb n="0320a" ed="Y" xml:id="Y14.0014.0320a.old" type="old"/>
-<lb n="0319a11" ed="Y"/><lb n="0320a01" ed="Y" type="old"/><p style="text-indent:2em">學佛，重在<note n="0319a1101" resp="CBETA" type="add">祛【CB】，袪【印順】</note><app n="0319a1101"><lem wit="【CB】" resp="正聞出版社">祛</lem><rdg wit="【印順】">袪</rdg></app>除私我，但不依方法，還是<note n="0319a1102" resp="CBETA" type="add">祛【CB】，袪【印順】</note><app n="0319a1102"><lem wit="【CB】" resp="正聞出版社">祛</lem><rdg wit="【印順】">袪</rdg></app>除不了。如遍地的荊棘蔓草，不
+<lb n="0319a11" ed="Y"/><lb n="0320a01" ed="Y" type="old"/><p xml:id="pY14p0319a1101" style="text-indent:2em">學佛，重在<note n="0319a1101" resp="CBETA" type="add">祛【CB】，袪【印順】</note><app n="0319a1101"><lem resp="正聞出版社" wit="【CB】">祛</lem><rdg wit="【印順】">袪</rdg></app>除私我，但不依方法，還是<note n="0319a1102" resp="CBETA" type="add">祛【CB】，袪【印順】</note><app n="0319a1102"><lem resp="正聞出版社" wit="【CB】">祛</lem><rdg wit="【印順】">袪</rdg></app>除不了。如遍地的荊棘蔓草，不
 <lb n="0319a12" ed="Y"/><lb n="0320a02" ed="Y" type="old"/>鋤盡根株，決不能生長嘉穀。我們心中的私欲，也是根深蒂固，非著力的痛下功
 <lb n="0319a13" ed="Y"/><lb n="0320a03" ed="Y" type="old"/>夫，也不能清淨而完成崇高的德行。所以修持悟入，目的在淨化身心，從此而完
 <pb n="0320a" ed="Y" xml:id="Y14.0014.0320a"/>
@@ -265,12 +285,12 @@
 <lb n="0320a07" ed="Y"/><lb n="0320a10" ed="Y" type="old"/>真實的度脫有情。佛教所說的一般道德，與其他相通；唯有從般若而流出的無漏
 <lb n="0320a08" ed="Y"/><lb n="0320a11" ed="Y" type="old"/>德行，才是佛化的不共道德。道德與真理慧渾融，表現出佛化道德的特色。</p></cb:div>
 <lb n="0320a09" ed="Y"/><lb n="0320a12" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">六　學佛即是道德的實踐</cb:mulu><head>六　學佛即是道德的實踐</head><pb n="0321a" ed="Y" xml:id="Y14.0014.0321a.old" type="old"/>
-<lb n="0320a10" ed="Y"/><lb n="0321a01" ed="Y" type="old"/><p style="text-indent:2em">學佛是道德的實踐，這說明了學佛是人人應學，不論男女長幼的。信佛的，
+<lb n="0320a10" ed="Y"/><lb n="0321a01" ed="Y" type="old"/><p xml:id="pY14p0320a1001" style="text-indent:2em">學佛是道德的實踐，這說明了學佛是人人應學，不論男女長幼的。信佛的，
 <lb n="0320a11" ed="Y"/><lb n="0321a02" ed="Y" type="old"/>到寺裡來進香禮佛，持名誦咒，這是對於佛菩薩的崇敬，或請求佛菩薩的加被。
 <lb n="0320a12" ed="Y"/><lb n="0321a03" ed="Y" type="old"/>真正學佛的不但是信仰，不但是遵行佛教的禮儀，而要信智並重。學佛也不是專
 <pb n="0321a" ed="Y" xml:id="Y14.0014.0321a"/>
 <lb n="0321a01" ed="Y"/><lb n="0321a04" ed="Y" type="old"/>重教理，研究一番就算數，而要解行並重。</p>
-<lb n="0321a02" ed="Y"/><lb n="0321a05" ed="Y" type="old"/><p style="text-indent:2em">學佛的主題，不外乎三學——戒、定、慧，或開廣為六度，這都是實踐德行
+<lb n="0321a02" ed="Y"/><lb n="0321a05" ed="Y" type="old"/><p xml:id="pY14p0321a0201" style="text-indent:2em">學佛的主題，不外乎三學——戒、定、慧，或開廣為六度，這都是實踐德行
 <lb n="0321a03" ed="Y"/><lb n="0321a06" ed="Y" type="old"/>。其中，戒是一般的德行，重在止惡防非。然不單是止，如應作而不作，也是違
 <lb n="0321a04" ed="Y"/><lb n="0321a07" ed="Y" type="old"/>犯的。能夠持戒，身語的行為，就會合乎法度。不過，外表的行為雖謹持不犯，
 <lb n="0321a05" ed="Y"/><lb n="0321a08" ed="Y" type="old"/>而還不能將內心的亂念息下。散亂，失念，不正知，這都是使心地蒙昧不明，使

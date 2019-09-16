@@ -12,77 +12,96 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>初版十一刷<date>Date: 2006/06</date>新式標點版</edition>
+			<edition>初版十一刷<date>Date: 2006/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>14卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 36, No. 34</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">36</idno>.<idno type="no">34</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">說一切有部為主的論書與論師之研究</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第三章　說一切有部及其論書</cb:mulu><cb:mulu level="2" type="其他">第三節　說一切有部阿毘達磨論</cb:mulu>
-<milestone unit="juan" n="4"/>
+<milestone n="4" unit="juan"/>
 <pb n="0121a" ed="Y" xml:id="Y36.0034.0121a"/>
 <lb n="0121a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">第四章　六分阿毘達磨論</cb:mulu><head>第四章　六分阿毘達磨論</head>
 <lb n="0121a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　總說</cb:mulu><head>第一節　總說</head>
-<lb n="0121a03" ed="Y"/><p style="text-indent:2em">說一切有部的主流，阿毘達磨論師，以七部論——六足論及<title level="m">《發智論》</title>為本論。六足論是：
+<lb n="0121a03" ed="Y"/><p xml:id="pY36p0121a0301" style="text-indent:2em">說一切有部的主流，阿毘達磨論師，以七部論——六足論及<title level="m">《發智論》</title>為本論。六足論是：
 <lb n="0121a04" ed="Y"/><title level="m">《阿毘達磨法蘊足論》</title>，<title level="m">《阿毘達磨集異門足論》</title>，<title level="m">《阿毘達磨施設足論》</title>，<title level="m">《阿毘達磨品類足
 <lb n="0121a05" ed="Y"/>論》</title>，<title level="m">《阿毘達磨界身足論》</title>，<title level="m">《阿毘達磨識身足論》</title>。</p>
-<lb n="0121a06" ed="Y"/><p style="text-indent:2em">六論的集為一組，最先見於龍樹（<foreign xml:lang="sa">Nāgārjuna</foreign>）的<cit><bibl><title level="m">《大智度論》</title>，稱為</bibl><quote>「六分阿毘曇」</quote><note n="0121001" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:25;page:p70a" type="taisho">二五．七〇上</ref>）。</note></cit>。龍
+<lb n="0121a06" ed="Y"/><p xml:id="pY36p0121a0601" style="text-indent:2em">六論的集為一組，最先見於龍樹（<foreign xml:lang="sa">Nāgārjuna</foreign>）的<cit><bibl><title level="m">《大智度論》</title>，稱為</bibl><quote>「六分阿毘曇」</quote><note n="0121001" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:25;page:p70a" type="taisho">二五．七〇上</ref>）。</note></cit>。龍
 <lb n="0121a07" ed="Y"/>樹說到六分阿毘曇時，同時說到「身義毘曇」。身是<title level="m">《發智論》</title>，義是<title level="m">《大毘婆沙論》</title>，這可見
 <lb n="0121a08" ed="Y"/>龍樹的時代，已經稱<title level="m">《發智論》</title>為身，六論為支分了。<cit><bibl>《<title level="m">八犍度論</title>．<title level="a">根犍度</title>》末附記說：</bibl><quote>「八
-<lb n="0121a09" ed="Y"/>犍度是體耳，別有六足」</quote><note n="0121002" resp="釋印順" type="orig"><bibl><title level="m">《八犍度論》</title><biblScope type="卷" n="24">卷二四</biblScope></bibl>（大正<ref target="#vol:26;page:p887a" type="taisho">二六．八八七上</ref>）。</note></cit>。<cit><bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title>說：</bibl><quote>「前之六論，義門稍少；發智一論，法門
+<lb n="0121a09" ed="Y"/>犍度是體耳，別有六足」</quote><note n="0121002" resp="釋印順" type="orig"><bibl><title level="m">《八犍度論》</title><biblScope n="24" type="卷">卷二四</biblScope></bibl>（大正<ref target="#vol:26;page:p887a" type="taisho">二六．八八七上</ref>）。</note></cit>。<cit><bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title>說：</bibl><quote>「前之六論，義門稍少；發智一論，法門
 <lb n="0121a10" ed="Y"/>最廣。故後代論師，說六為足，發智為身」</quote>
-
-<note n="0121003" resp="釋印順" type="orig"><bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref target="#vol:41;page:p8c" type="taisho">四一．八下</ref>）。</note></cit>。然身與足的對稱，實是偏重<title level="m">《發智論》</title>的毘婆沙
+<note n="0121003" resp="釋印順" type="orig"><bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:41;page:p8c" type="taisho">四一．八下</ref>）。</note></cit>。然身與足的對稱，實是偏重<title level="m">《發智論》</title>的毘婆沙
 <lb n="0121a11" ed="Y"/>師的私說。上座部系的阿毘達磨，如<title level="m">《舍利弗阿毘曇論》</title>，分為四分，而<title level="m">《毘尼母經》</title>等，別為
 <lb n="0121a12" ed="Y"/>五種。南北所傳的六論，大體為取四分或五種，而別為獨立的組織，所以龍樹仍稱為六分。六分
 <pb n="0122a" ed="Y" xml:id="Y36.0034.0122a"/>
 <lb n="0122a01" ed="Y"/>是阿毘達磨的六部分，本沒有附屬於<title level="m">《發智論》</title>的意義。由於<title level="m">《發智論》</title>系的高度發達，六論就
 <lb n="0122a02" ed="Y"/>不免遜色。毘婆沙師特重<title level="m">《發智論》</title>，以<title level="m">《發智論》</title>說為主，而解說會通六論。六分於是形成<title level="m">《
 <lb n="0122a03" ed="Y"/>發智論》</title>的附屬，也就稱<title level="m">《發智論》</title>為身，六分為六足了。</p>
-<lb n="0122a04" ed="Y"/><p style="text-indent:2em">關於六論的作者，玄奘門下所傳，如<bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:41;page:p8b" type="taisho">四一．八中</ref>——下</note>說：</p>
-<lb n="0122a05" ed="Y"/><quote><p style="margin-left:3em">「舍利子造集異門論，一萬二千頌，略者八千頌。大目乾連造法蘊足論，六千頌。大迦多
+<lb n="0122a04" ed="Y"/><p xml:id="pY36p0122a0401" style="text-indent:2em">關於六論的作者，玄奘門下所傳，如<bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:41;page:p8b" type="taisho">四一．八中</ref>——下</note>說：</p>
+<lb n="0122a05" ed="Y"/><quote><p xml:id="pY36p0122a0501" style="margin-left:3em">「舍利子造集異門論，一萬二千頌，略者八千頌。大目乾連造法蘊足論，六千頌。大迦多
 <lb n="0122a06" ed="Y"/>衍那造施設足論，一萬八千頌。已上三論，佛在世時造。佛涅槃後一百年中，提婆設摩造
 <lb n="0122a07" ed="Y"/>識身論，七千頌。至三百年初，筏蘇密多羅造品類足論，六千頌。又造界身足論，廣本六
 <lb n="0122a08" ed="Y"/>千頌，略本七百頌」。</p></quote>
-<lb n="0122a09" ed="Y"/><p style="text-indent:2em">現存西藏的稱友（<foreign xml:lang="sa">Yaśomitra</foreign>）<title level="m">《俱舍論疏》</title>，也傳一說：</p>
-<lb n="0122a10" ed="Y"/><quote><p style="margin-left:3em">「品類足（作者）上座世友，識身（作者）上座天寂，法蘊（作者）聖舍利弗，施設論（
+<lb n="0122a09" ed="Y"/><p xml:id="pY36p0122a0901" style="text-indent:2em">現存西藏的稱友（<foreign xml:lang="sa">Yaśomitra</foreign>）<title level="m">《俱舍論疏》</title>，也傳一說：</p>
+<lb n="0122a10" ed="Y"/><quote><p xml:id="pY36p0122a1001" style="margin-left:3em">「品類足（作者）上座世友，識身（作者）上座天寂，法蘊（作者）聖舍利弗，施設論（
 <lb n="0122a11" ed="Y"/>作者）聖目犍連耶那，界身（作者）富樓那，集異門（作者）摩訶拘絺羅」。</p></quote>
-<lb n="0122a12" ed="Y"/><p style="text-indent:2em">龍樹的<bibl><title level="m">《大智度論》</title><biblScope type="卷" n="2">卷二</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:25;page:p70a">二五．七〇上</ref></note>也說：</p>
-<lb n="0122a13" ed="Y"/><quote><p style="margin-left:3em">「六分阿毘曇中，第三分八品之，名《分別世處分》，是目<note n="0122a1301" resp="CBETA" type="add">犍【CB】，揵【印順】</note><app n="0122a1301"><lem wit="【CB】" resp="正聞出版社">犍</lem><rdg wit="【印順】">揵</rdg></app>連作。六分中初分八品，四品是
+<lb n="0122a12" ed="Y"/><p xml:id="pY36p0122a1201" style="text-indent:2em">龍樹的<bibl><title level="m">《大智度論》</title><biblScope n="2" type="卷">卷二</biblScope></bibl><note place="inline">大正<ref target="#vol:25;page:p70a" type="taisho">二五．七〇上</ref></note>也說：</p>
+<lb n="0122a13" ed="Y"/><quote><p xml:id="pY36p0122a1301" style="margin-left:3em">「六分阿毘曇中，第三分八品之，名《分別世處分》，是目<note n="0122a1301" resp="CBETA" type="add">犍【CB】，揵【印順】</note><app n="0122a1301"><lem resp="正聞出版社" wit="【CB】">犍</lem><rdg wit="【印順】">揵</rdg></app>連作。六分中初分八品，四品是
 <lb n="0122a14" ed="Y"/>婆須蜜菩薩作，四品是罽賓阿羅漢作。餘五（四？）分，諸論議師作。」</p></quote>
-<lb n="0122a15" ed="Y"/><p style="text-indent:2em">這三項傳說，對六論的作者，都沒有一致。但這六部論，可以分為兩類：一、佛的及門弟子
+<lb n="0122a15" ed="Y"/><p xml:id="pY36p0122a1501" style="text-indent:2em">這三項傳說，對六論的作者，都沒有一致。但這六部論，可以分為兩類：一、佛的及門弟子
 <pb n="0123a" ed="Y" xml:id="Y36.0034.0123a"/>
 <lb n="0123a01" ed="Y"/>作——<title level="m">《法蘊論》</title>，<title level="m">《集異門論》</title>，<title level="m">《施設論》</title>。二、後世的論師造——<title level="m">《品類論》</title>，<title level="m">《界身論
 <lb n="0123a02" ed="Y"/>》</title>，<title level="m">《識身論》</title>。這表示了，前三部是源於古代傳來而成立的，後三論是論師的撰作。代表古傳
@@ -91,13 +110,13 @@
 <lb n="0123a05" ed="Y"/>中，有大拘絺羅而沒有大迦多衍那（<foreign xml:lang="sa">Mahākātyāyana</foreign>），更為合理。而且，就以傳說來說，玄
 <lb n="0123a06" ed="Y"/>奘所傳，大迦多衍那造施設論，也與其他的一切傳說不合。如1.晉譯的<title level="m">《鞞婆沙論》</title>說：「如彼
 <lb n="0123a07" ed="Y"/>目連施設所說」<note n="0123004" resp="釋印順" type="orig"><bibl><title level="m">《鞞婆沙論》</title><biblScope n="14" type="卷">卷一四</biblScope></bibl>（大正<ref target="#vol:28;page:p519c" type="taisho">二八．五一九下</ref>）。</note>。2.涼譯<title level="m">《毘婆沙論》</title>說：「彼尊者目犍連作如是說，顯有橫死」——指<title level="m">《
-<lb n="0123a08" ed="Y"/>施設論》</title><note n="0123005" resp="釋印順" type="orig"><bibl><title level="m">《毘婆沙論》</title><biblScope type="卷" n="15">卷一五</biblScope></bibl>（大正<ref target="#vol:28;page:p84c" type="taisho">二八．八四下</ref>）。</note>。3.<title level="m">《大智度論》</title>也說是目犍連造。4.稱友傳為目犍連造。所以<title level="m">《施設論》</title>的作者，
+<lb n="0123a08" ed="Y"/>施設論》</title><note n="0123005" resp="釋印順" type="orig"><bibl><title level="m">《毘婆沙論》</title><biblScope n="15" type="卷">卷一五</biblScope></bibl>（大正<ref target="#vol:28;page:p84c" type="taisho">二八．八四下</ref>）。</note>。3.<title level="m">《大智度論》</title>也說是目犍連造。4.稱友傳為目犍連造。所以<title level="m">《施設論》</title>的作者，
 <lb n="0123a09" ed="Y"/>除奘門的傳說外，是一致傳為目犍連造的。<title level="m">《施設論》</title>的初品，名「分別世處」——「世間施設
-<lb n="0123a10" ed="Y"/>」，傳為依<title level="m">《長阿含經》</title>的<title level="m">《世記<note n="0123a1001" resp="CBETA" type="add">經【CB】，品【印順】</note><app n="0123a1001"><lem wit="【CB】" resp="正聞出版社">經<note type="cf1">《長阿含經》卷18(CBETA, T01, no. 1, p. 114, b7)</note></lem><rdg wit="【印順】">品</rdg></app>》</title>——<title level="m">《樓炭經》</title>造的。「世間施設」，說到世界的成壞，
-<lb n="0123a11" ed="Y"/>四洲，輪王，<note n="0123a1101" resp="CBETA" type="add" subtype="規範字詞">須彌山【CB】，湏彌山【印順】</note><app n="0123a1101"><lem wit="【CB】" resp="CBETA">須彌山</lem><rdg wit="【印順】">湏彌山</rdg></app>，諸天，三惡道，阿修羅，以及劫初的傳說。這些超越一般常識的事情，以
+<lb n="0123a10" ed="Y"/>」，傳為依<title level="m">《長阿含經》</title>的<title level="m">《世記<note n="0123a1001" resp="CBETA" type="add">經【CB】，品【印順】</note><app n="0123a1001"><lem resp="正聞出版社" wit="【CB】">經<note type="cf1">《長阿含經》卷18(CBETA, T01, no. 1, p. 114, b7)</note></lem><rdg wit="【印順】">品</rdg></app>》</title>——<title level="m">《樓炭經》</title>造的。「世間施設」，說到世界的成壞，
+<lb n="0123a11" ed="Y"/>四洲，輪王，<note n="0123a1101" resp="CBETA" type="add" subtype="規範字詞">須彌山【CB】，湏彌山【印順】</note><app n="0123a1101"><lem resp="CBETA" wit="【CB】">須彌山</lem><rdg wit="【印順】">湏彌山</rdg></app>，諸天，三惡道，阿修羅，以及劫初的傳說。這些超越一般常識的事情，以
 <lb n="0123a12" ed="Y"/>神通第一的大目犍連來說明，真是恰合身分。當然，這也只是仰推大目犍連而已。</p>
-<lb n="0123a13" ed="Y"/><p style="text-indent:2em">六論的次第，除上所引——奘門的傳說，稱友疏的傳說外，近人呂澂又自推定一說：<title level="m">《法蘊
-<lb n="0123a14" ed="Y"/>論》</title>，<title level="m">《施設論》</title>，<title level="m">《集異門論》</title>，<title level="m">《品類論》</title>，<title level="m">《界身論》</title><note n="0123006" resp="釋印順" type="orig"><bibl>呂澂<title level="a">〈阿毘達磨泛論〉</title>（<title level="j">《內學》</title><biblScope type="輯" n="2">第二輯</biblScope><biblScope type="pp" from="164" to="166">一六四——一六六</biblScope>）</bibl>。</note><note n="0123006" resp="正聞出版社" type="mod"><bibl>呂澂<title level="a">〈阿毘達磨汎論〉</title>（<title level="j">《內學》</title><biblScope type="輯" n="2">第二輯</biblScope><biblScope type="pp" from="164" to="166">一六四——一六六</biblScope>）</bibl>。</note>。福原亮嚴<title level="m">《有部阿毘達磨之發
+<lb n="0123a13" ed="Y"/><p xml:id="pY36p0123a1301" style="text-indent:2em">六論的次第，除上所引——奘門的傳說，稱友疏的傳說外，近人呂澂又自推定一說：<title level="m">《法蘊
+<lb n="0123a14" ed="Y"/>論》</title>，<title level="m">《施設論》</title>，<title level="m">《集異門論》</title>，<title level="m">《品類論》</title>，<title level="m">《界身論》</title><note n="0123006" resp="釋印順" type="orig"><bibl>呂澂<title level="a">〈阿毘達磨泛論〉</title>（<title level="j">《內學》</title><biblScope n="2" type="輯">第二輯</biblScope><biblScope from="164" to="166" type="pp">一六四——一六六</biblScope>）</bibl>。</note><note n="0123006" resp="正聞出版社" type="mod"><bibl>呂澂<title level="a">〈阿毘達磨汎論〉</title>（<title level="j">《內學》</title><biblScope n="2" type="輯">第二輯</biblScope><biblScope from="164" to="166" type="pp">一六四——一六六</biblScope>）</bibl>。</note>。福原亮嚴<title level="m">《有部阿毘達磨之發
 <lb n="0123a15" ed="Y"/>達》</title>，依<title>《大正藏》</title>而列為次第。今以奘門的傳說為準，而先舉<title level="m">《法蘊論》</title>，次第來說明。</p>
 <pb n="0124a" ed="Y" xml:id="Y36.0034.0124a"/>
 <lb n="0124a01" ed="Y"/>
@@ -107,45 +126,45 @@
 <lb n="0124a05" ed="Y"/>
 <lb n="0124a06" ed="Y"/></cb:div>
 <lb n="0124a07" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　阿毘達磨法蘊足論</cb:mulu><head>第二節　阿毘達磨法蘊足論</head>
-<lb n="0124a08" ed="Y"/><p style="text-indent:2em"><title level="m">《阿毘達磨法蘊足論》</title>，唐玄奘於顯慶四年（西元六五九）譯，共十二卷，分二十一品。題
+<lb n="0124a08" ed="Y"/><p xml:id="pY36p0124a0801" style="text-indent:2em"><title level="m">《阿毘達磨法蘊足論》</title>，唐玄奘於顯慶四年（西元六五九）譯，共十二卷，分二十一品。題
 <lb n="0124a09" ed="Y"/>大目乾連（<foreign xml:lang="sa">Mahāmaudgalyāyana</foreign>）造；然稱友（<foreign xml:lang="sa">Yaśomitra</foreign>）傳說為舍利弗（<foreign xml:lang="sa">Śāriputra</foreign>）造。
 <lb n="0124a10" ed="Y"/>在說一切有部中，這代表了最古典的阿毘達磨。如<title level="m">《十誦律》</title>（說一切有部的律藏）說到論藏的
-<lb n="0124a11" ed="Y"/>結集，就舉五戒為例，意指本論的第一品<note n="0124001" resp="釋印順" type="orig"><bibl><title level="m">《十誦律》</title><biblScope n="60" type="卷">卷六〇</biblScope></bibl>（大正<ref type="taisho" target="#vol:23;page:p449a">二三．四四九上</ref>）。</note>。<title level="m">《根本說一切有部毘奈耶雜事》</title>，說到結集論藏—
-<lb n="0124a12" ed="Y"/>—摩窒理迦，項目也與本論相近<note n="0124002" resp="釋印順" type="orig"><bibl><title level="m">《根本說一切有部毘奈耶雜事》</title><biblScope type="卷" n="40">卷四〇</biblScope></bibl>（大正<ref type="taisho" target="#vol:24;page:p408b">二四．四〇八中</ref>）。</note>。唐靖邁<title level="a">〈法蘊足論後序〉</title>，也推重這部論，如<title level="m">《法蘊論》</title>末
+<lb n="0124a11" ed="Y"/>結集，就舉五戒為例，意指本論的第一品<note n="0124001" resp="釋印順" type="orig"><bibl><title level="m">《十誦律》</title><biblScope n="60" type="卷">卷六〇</biblScope></bibl>（大正<ref target="#vol:23;page:p449a" type="taisho">二三．四四九上</ref>）。</note>。<title level="m">《根本說一切有部毘奈耶雜事》</title>，說到結集論藏—
+<lb n="0124a12" ed="Y"/>—摩窒理迦，項目也與本論相近<note n="0124002" resp="釋印順" type="orig"><bibl><title level="m">《根本說一切有部毘奈耶雜事》</title><biblScope n="40" type="卷">卷四〇</biblScope></bibl>（大正<ref target="#vol:24;page:p408b" type="taisho">二四．四〇八中</ref>）。</note>。唐靖邁<title level="a">〈法蘊足論後序〉</title>，也推重這部論，如<title level="m">《法蘊論》</title>末
 <lb n="0124a13" ed="Y"/><note place="inline">大正<ref target="#vol:26;page:p513c" type="taisho">二六．五一三下</ref></note>說：</p>
-<lb n="0124a14" ed="Y"/><quote><p style="margin-left:3em">「法蘊足論，蓋阿毘達磨之權輿，一切有部之洪源也！……至如八種犍度，騖徽於發智之
+<lb n="0124a14" ed="Y"/><quote><p xml:id="pY36p0124a1401" style="margin-left:3em">「法蘊足論，蓋阿毘達磨之權輿，一切有部之洪源也！……至如八種犍度，騖徽於發智之
 <pb n="0125a" ed="Y" xml:id="Y36.0034.0125a"/>
 <lb n="0125a01" ed="Y"/>場，五百應真，馳譽於廣說之苑。斯皆挹此清波，分斯片玉」。</p></quote>
-<lb n="0125a02" ed="Y"/><p style="text-indent:2em">在「阿毘達磨<note n="0125a0201" resp="CBETA" type="add">論【CB】，［－］【印順】</note><app n="0125a0201"><lem wit="【CB】" resp="正聞出版社">論</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>初型」（本書第二章第二節第三項）中，說到銅鍱部的<title level="m">《分別論》</title>，<title level="m">《舍利弗
+<lb n="0125a02" ed="Y"/><p xml:id="pY36p0125a0201" style="text-indent:2em">在「阿毘達磨<note n="0125a0201" resp="CBETA" type="add">論【CB】，［－］【印順】</note><app n="0125a0201"><lem resp="正聞出版社" wit="【CB】">論</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>初型」（本書第二章第二節第三項）中，說到銅鍱部的<title level="m">《分別論》</title>，<title level="m">《舍利弗
 <lb n="0125a03" ed="Y"/>阿毘曇論》</title>的<title level="a">〈問分〉</title>、<title level="a">〈非問分〉</title>，說一切有部的<title level="m">《法蘊論》</title>，共同的論題，達十二項目，推為
 <lb n="0125a04" ed="Y"/>阿毘達磨的初型。然這是各派論書取捨的共同，不可誤解為：初為十二論題，後由各部的增益而
 <lb n="0125a05" ed="Y"/>不同。本論的二十一品，分為三類如下：</p>
-<lb n="0125a06" ed="Y"/><list rend="no-marker"><item><p style="margin-left:2em;text-indent:-1em">Ⅰ1.學處．2.預流支．3.證淨．4.沙門果．5.通行．6.聖種．7.正勝．8.念住．9.神足．
+<lb n="0125a06" ed="Y"/><list rend="no-marker"><item xml:id="itemY36p0125a0601"><p xml:id="pY36p0125a0601" style="margin-left:2em;text-indent:-1em">Ⅰ1.學處．2.預流支．3.證淨．4.沙門果．5.通行．6.聖種．7.正勝．8.念住．9.神足．
 <lb n="0125a07" ed="Y"/>10.聖諦．11.靜慮．12.無色．13.無量．14.修定．15.覺支（五根．五力．八聖道支）</p></item>
-<lb n="0125a08" ed="Y"/><item><p style="margin-left:2em;text-indent:-1em">Ⅱ16.雜事</p></item>
-<lb n="0125a09" ed="Y"/><item><p style="margin-left:2em;text-indent:-1em">Ⅲ17.根．18.處．19.蘊．20.多界．21.緣起</p></item></list>
-<lb n="0125a10" ed="Y"/><p style="text-indent:2em">Ⅰ<bibl><title level="m">《中部》</title>（一〇三經）<title level="m">《如何經》</title></bibl>說：四念住……八聖道支——三十七道品，為「論阿毘
+<lb n="0125a08" ed="Y"/><item xml:id="itemY36p0125a0801"><p xml:id="pY36p0125a0801" style="margin-left:2em;text-indent:-1em">Ⅱ16.雜事</p></item>
+<lb n="0125a09" ed="Y"/><item xml:id="itemY36p0125a0901"><p xml:id="pY36p0125a0901" style="margin-left:2em;text-indent:-1em">Ⅲ17.根．18.處．19.蘊．20.多界．21.緣起</p></item></list>
+<lb n="0125a10" ed="Y"/><p xml:id="pY36p0125a1001" style="text-indent:2em">Ⅰ<bibl><title level="m">《中部》</title>（一〇三經）<title level="m">《如何經》</title></bibl>說：四念住……八聖道支——三十七道品，為「論阿毘
 <lb n="0125a11" ed="Y"/>達磨論」的內容<note n="0125003" resp="釋印順" type="orig"><bibl>《<title level="m">中部</title>．<title level="m">如何經</title>》</bibl>（南傳一一上．三一一）。</note>。這是舉其宗要，以道品的修證為中心論題；道的項目，是不限於這七類的。
 <lb n="0125a12" ed="Y"/>本論的第一類，從<title level="a">〈學處品〉</title>到<title level="a">〈覺支品〉</title>，共十五品，都是道（及道果）的項目，就是古阿毘
 <lb n="0125a13" ed="Y"/>達磨論——摩窒里迦部分。</p>
-<lb n="0125a14" ed="Y"/><p style="text-indent:2em">Ⅲ古代的「論毘陀羅論」，早已涉及蘊、處的問答。蘊、處、界，是一切法，<title level="m">《阿含經》</title>已
+<lb n="0125a14" ed="Y"/><p xml:id="pY36p0125a1401" style="text-indent:2em">Ⅲ古代的「論毘陀羅論」，早已涉及蘊、處的問答。蘊、處、界，是一切法，<title level="m">《阿含經》</title>已
 <lb n="0125a15" ed="Y"/>綜合為一類。二十二根，為流轉還滅中的增上依。四諦明世出世間因果，緣起明因果流轉。這六
 <pb n="0126a" ed="Y" xml:id="Y36.0034.0126a"/>
 <lb n="0126a01" ed="Y"/>類，在阿毘達磨中，也自成一類（說一切有部，對於四諦，重在慧觀的諦理，所以攝在道品類中
 <lb n="0126a02" ed="Y"/>。<title level="m">《發智論》</title>也是這樣）。本論先道品類而後蘊處等類；<title level="m">《舍利弗阿毘曇論》</title>與<title level="m">《分別論》</title>，都
 <lb n="0126a03" ed="Y"/>是先蘊處等而後道品類。次第雖恰好相反，而分為二類，是極為明顯的。這二類的綜合，也可說
 <lb n="0126a04" ed="Y"/>阿毘達磨論與毘陀羅論的結合，形成古阿毘達磨「經分別」——分別自相的主要項目。</p>
-<lb n="0126a05" ed="Y"/><p style="text-indent:2em">Ⅱ在前後二大類間，本論有<title level="a">〈雜事品〉</title>，與<title level="m">《分別論》</title>的<title level="a">〈小事分別〉</title>，<bibl>《<title level="m">舍利弗阿毘曇論</title>
+<lb n="0126a05" ed="Y"/><p xml:id="pY36p0126a0501" style="text-indent:2em">Ⅱ在前後二大類間，本論有<title level="a">〈雜事品〉</title>，與<title level="m">《分別論》</title>的<title level="a">〈小事分別〉</title>，<bibl>《<title level="m">舍利弗阿毘曇論</title>
 <lb n="0126a06" ed="Y"/>．<title level="a">非問分</title>》</bibl>的<title level="a">〈煩惱品〉</title>相當，是種種煩惱的隨類纂集。隨類纂集所成立的，一向都附於道品
 <lb n="0126a07" ed="Y"/>等分別以後的。隨類纂集的，本論僅<title level="a">〈雜事〉</title>一品；<title level="m">《分別論》</title>有<title level="a">〈智分別〉</title>，<title level="a">〈小事分別〉</title>，
 <lb n="0126a08" ed="Y"/>（<title level="a">〈法心分別〉</title>）——三品；<bibl>《<title level="m">舍利弗阿毘曇論</title>．<title level="a">非問分</title>》</bibl>，有<title level="a">〈界品〉</title>等六品。此外，本論
 <lb n="0126a09" ed="Y"/>保存依經而作論分別的形式，<title level="m">《分別論》</title>與<title level="m">《舍利弗阿毘曇論》</title>，已直標論題而作分別。二論都
 <lb n="0126a10" ed="Y"/>有<title level="a">〈問分〉</title>，本論還沒有。從品目與形式方面來說，本論是更近於古型的。</p>
-<lb n="0126a11" ed="Y"/><p style="text-indent:2em">本論源於古傳的阿毘達磨，在法義中，一定有較古的部分。既發展獨立而成說一切有部論書
+<lb n="0126a11" ed="Y"/><p xml:id="pY36p0126a1101" style="text-indent:2em">本論源於古傳的阿毘達磨，在法義中，一定有較古的部分。既發展獨立而成說一切有部論書
 <lb n="0126a12" ed="Y"/>，也就有說一切有部的特殊論義。對於這，先舉一例——<bibl>《<title level="m">舍利弗阿毘曇論</title>．<title level="a">問分</title>．<title level="a">入品</title>》</bibl>
-<lb n="0126a13" ed="Y"/><note n="0126004" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref target="#vol:28;page:p525c" type="taisho">二八．五二五下</ref>）。</note>，及<bibl>《<title level="m">法蘊論</title>．<title level="a">根品</title>》</bibl>的一節<note n="0126005" resp="釋印順" type="orig"><bibl><title level="m">《法蘊論》</title><biblScope n="10" type="卷">卷一〇</biblScope></bibl>（大正<ref target="#vol:26;page:p498b" type="taisho">二六．四九八中</ref>——下）。</note>，試為說明阿毘達磨論義的發展與分化情形。</p>
+<lb n="0126a13" ed="Y"/><note n="0126004" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:28;page:p525c" type="taisho">二八．五二五下</ref>）。</note>，及<bibl>《<title level="m">法蘊論</title>．<title level="a">根品</title>》</bibl>的一節<note n="0126005" resp="釋印順" type="orig"><bibl><title level="m">《法蘊論》</title><biblScope n="10" type="卷">卷一〇</biblScope></bibl>（大正<ref target="#vol:26;page:p498b" type="taisho">二六．四九八中</ref>——下）。</note>，試為說明阿毘達磨論義的發展與分化情形。</p>
 <pb n="0127a" ed="Y" xml:id="Y36.0034.0127a"/>
-<lb n="0127a01" ed="Y"/><table cols="2" style="margin-left:3em" rend="no-border"><row><cell><seg style="border-style:solid;border-width:1px;padding:5px">法蘊論</seg></cell><cell><seg style="border-style:solid;border-width:1px;padding:5px">舍利弗阿毘曇論</seg></cell></row><row><cell>
+<lb n="0127a01" ed="Y"/><table cols="2" rend="no-border" style="margin-left:3em"><row><cell><seg style="border-style:solid;border-width:1px;padding:5px">法蘊論</seg></cell><cell><seg style="border-style:solid;border-width:1px;padding:5px">舍利弗阿毘曇論</seg></cell></row><row><cell>
 <lb n="0127a02" ed="Y"/></cell><cell><note place="inline">一</note>云何眼入？眼根是名眼入。</cell></row><row><cell>
 <lb n="0127a03" ed="Y"/></cell><cell><note place="inline">二</note>云何眼入？眼界是名眼入。</cell></row><row><cell>
 <lb n="0127a04" ed="Y"/><note place="inline">一</note>云何眼根？謂眼於色，已正當見，及彼同分，是名眼根。</cell><cell><note place="inline">五</note>云何眼入？我分攝，已見色，今見色，當見色，不定（是名眼入）。</cell></row><row><cell>
@@ -157,69 +176,69 @@
 <pb n="0128a" ed="Y" xml:id="Y36.0034.0128a"/>
 <lb n="0128a01" ed="Y"/>或地獄，或傍生，或鬼界，或天，或人，或中有，或修所成……。</cell><cell></cell></row><row><cell>
 <lb n="0128a02" ed="Y"/><note place="inline">六</note>謂名眼，名眼處，名眼界，名眼根，名見，名道路，名引導，名白，名淨，名藏，名門，名田，名事，名流，名池，名海，名瘡，名瘡門，名此岸，如是眼根，名內處攝。</cell><cell><note place="inline">八</note>是眼入，是眼根，是眼界，是田，是物，是門，是藏，是世，是淨，是泉，是海，是沃燋，是洄澓，是瘡，是繫，是目，是入我分，是此岸，是內入。</cell></row></table>
-<lb n="0128a03" ed="Y"/><p style="text-indent:2em"><title level="m">《分別論》</title>與此相當的，如<title level="a">〈處分別〉</title>（譯意）<note place="inline">南傳四六．八四</note>說：</p>
-<lb n="0128a04" ed="Y"/><quote><p style="margin-left:3em">「云何眼處？若眼我分攝，四大所造淨色，不可見有對」。</p></quote>
-<lb n="0128a05" ed="Y"/><quote><p style="margin-left:3em">「不可見有對眼，於可見有對色，已見，今見，當見，不定，是名眼處」。</p></quote>
-<lb n="0128a06" ed="Y"/><quote><p style="margin-left:3em">「是眼處，是眼界，是眼根，是世間，是門，是海，是淨，是田，是事，是導者，是目，
+<lb n="0128a03" ed="Y"/><p xml:id="pY36p0128a0301" style="text-indent:2em"><title level="m">《分別論》</title>與此相當的，如<title level="a">〈處分別〉</title>（譯意）<note place="inline">南傳四六．八四</note>說：</p>
+<lb n="0128a04" ed="Y"/><quote><p xml:id="pY36p0128a0401" style="margin-left:3em">「云何眼處？若眼我分攝，四大所造淨色，不可見有對」。</p></quote>
+<lb n="0128a05" ed="Y"/><quote><p xml:id="pY36p0128a0501" style="margin-left:3em">「不可見有對眼，於可見有對色，已見，今見，當見，不定，是名眼處」。</p></quote>
+<lb n="0128a06" ed="Y"/><quote><p xml:id="pY36p0128a0601" style="margin-left:3em">「是眼處，是眼界，是眼根，是世間，是門，是海，是淨，是田，是事，是導者，是目，
 <lb n="0128a07" ed="Y"/>是此岸，是空村，是名眼處」<note n="0128006" resp="釋印順" type="orig"><bibl>《<title level="m">法集論</title>．<title level="a">色品</title>》</bibl>：已正當見外，有已礙、正礙、當礙。可以參閱（南傳四五．一八八——一八九）。</note>。</p></quote>
-<lb n="0128a08" ed="Y"/><p style="text-indent:2em"><title level="m">《分別論》</title>的分別，與<title level="m">《舍利弗阿毘曇論》</title>的次第（三、五、八）相順。首明眼以有情自體
+<lb n="0128a08" ed="Y"/><p xml:id="pY36p0128a0801" style="text-indent:2em"><title level="m">《分別論》</title>的分別，與<title level="m">《舍利弗阿毘曇論》</title>的次第（三、五、八）相順。首明眼以有情自體
 <lb n="0128a09" ed="Y"/>所攝的，四大所造淨色為性。次約三世，明眼的作用，也就是眼之所以為眼的。末舉經說的異名
 <lb n="0128a10" ed="Y"/>與比喻。在這些上，三部論都是一樣的。本論與<title level="m">《舍利弗阿毘曇論》</title>，從已今當見，更說已正當
 <pb n="0129a" ed="Y" xml:id="Y36.0034.0129a"/>
 <lb n="0129a01" ed="Y"/>行，已正當礙，本論更說已正當了。解說雖大大的增廣，但沒有成為重要的異義。特別是「不定
-<lb n="0129a02" ed="Y"/>」，<title level="m">《分別論》</title>作 <foreign xml:lang="sa"><note n="0129a0201" resp="CBETA" type="add">passe【CB】，Passe【印順】</note><app n="0129a0201"><lem wit="【CB】" resp="正聞出版社">passe</lem><rdg wit="【印順】">Passe</rdg></app></foreign>，是可能（見）而沒有能（見）的。這在說一切有部中，稱為「彼同分
+<lb n="0129a02" ed="Y"/>」，<title level="m">《分別論》</title>作 <foreign xml:lang="sa"><note n="0129a0201" resp="CBETA" type="add">passe【CB】，Passe【印順】</note><app n="0129a0201"><lem resp="正聞出版社" wit="【CB】">passe</lem><rdg wit="【印順】">Passe</rdg></app></foreign>，是可能（見）而沒有能（見）的。這在說一切有部中，稱為「彼同分
 <lb n="0129a03" ed="Y"/>」。名稱不同，而意義還是一樣。這都可見上座部阿毘達磨的共義。但本論總結上說的已正當見
 <lb n="0129a04" ed="Y"/>，已正當行，已正當礙，已正當了，而說<quote>「如是過去未來現在諸所有眼根」</quote>，與<bibl><title level="m">《舍利弗阿毘曇
-<lb n="0129a05" ed="Y"/>論》</title><biblScope type="卷" n="3">（三）</biblScope></bibl>說，可說相同，而「三世有」的思想，在本論中充分表顯出來。上座部依經而作阿毘
+<lb n="0129a05" ed="Y"/>論》</title><biblScope n="3" type="卷">（三）</biblScope></bibl>說，可說相同，而「三世有」的思想，在本論中充分表顯出來。上座部依經而作阿毘
 <lb n="0129a06" ed="Y"/>達磨論義，對蘊、處、界，以及知、斷、證、修，都是作「已今當」——三世的分別解說，這實
-<lb n="0129a07" ed="Y"/>在是「三世有」說最有力的<note n="0129a0701" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0129a0701"><lem wit="【CB】" resp="CBETA">啟</lem><rdg wit="【印順】">啓</rdg></app>發。等到三世有說明確提出，一分學者不同意，而形成「說一切有
+<lb n="0129a07" ed="Y"/>在是「三世有」說最有力的<note n="0129a0701" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0129a0701"><lem resp="CBETA" wit="【CB】">啟</lem><rdg wit="【印順】">啓</rdg></app>發。等到三世有說明確提出，一分學者不同意，而形成「說一切有
 <lb n="0129a08" ed="Y"/>」、「分別說」的對立。還有，本論對眼根的分別，五趣眼而外，特立「中有」眼，也是三世有
 <lb n="0129a09" ed="Y"/>者的不共論義。從上面的對比，阿毘達磨論的古義，以及三世有說的發現，說一切有部論義的增
 <lb n="0129a10" ed="Y"/>入，可以看出阿毘達磨論發展的部分情形。</p>
-<lb n="0129a11" ed="Y"/><p style="text-indent:2em">根源於古阿毘達磨，而編成說一切有部的本論，時代是不會太遲的，還是說一切有部舊阿毘
+<lb n="0129a11" ed="Y"/><p xml:id="pY36p0129a1101" style="text-indent:2em">根源於古阿毘達磨，而編成說一切有部的本論，時代是不會太遲的，還是說一切有部舊阿毘
 <lb n="0129a12" ed="Y"/>達磨師的時代。試舉三例來說：1.本論<title level="a">〈處品〉</title>，對色、聲等的分別<note n="0129007" resp="釋印順" type="orig"><bibl><title level="m">《法蘊論》</title><biblScope n="10" type="卷">卷一〇</biblScope></bibl>（大正<ref target="#vol:26;page:p500a" type="taisho">二六．五〇〇上</ref>——下）。</note>，與<bibl>《<title level="m">舍利弗阿毘曇論</title>．
-<lb n="0129a13" ed="Y"/><title level="a">入品</title>》</bibl><note n="0129008" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref target="#vol:28;page:p526a" type="taisho">二八．五二六上</ref>——下）。</note>，銅鍱部<bibl>《<title level="m">法集論</title>．<title level="a">色品</title>》</bibl><note n="0129009" resp="釋印順" type="orig"><title level="m">《法集論》</title>（南傳四五．一九七——二〇三）。</note>，都還是雜亂的資料堆集——從契經及世俗而來的，
-<lb n="0129a14" ed="Y"/>沒有精簡整理。本論<note n="0129a1401" resp="CBETA" type="add" subtype="規範字詞">稍微【CB】，稍為【印順】</note><app n="0129a1401"><lem wit="【CB】" resp="CBETA">稍微</lem><rdg wit="【印順】">稍為</rdg></app>精簡，但在說一切有部論書中，還沒有成熟，不能表彰自宗的特色。以
+<lb n="0129a13" ed="Y"/><title level="a">入品</title>》</bibl><note n="0129008" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:28;page:p526a" type="taisho">二八．五二六上</ref>——下）。</note>，銅鍱部<bibl>《<title level="m">法集論</title>．<title level="a">色品</title>》</bibl><note n="0129009" resp="釋印順" type="orig"><title level="m">《法集論》</title>（南傳四五．一九七——二〇三）。</note>，都還是雜亂的資料堆集——從契經及世俗而來的，
+<lb n="0129a14" ed="Y"/>沒有精簡整理。本論<note n="0129a1401" resp="CBETA" type="add" subtype="規範字詞">稍微【CB】，稍為【印順】</note><app n="0129a1401"><lem resp="CBETA" wit="【CB】">稍微</lem><rdg wit="【印順】">稍為</rdg></app>精簡，但在說一切有部論書中，還沒有成熟，不能表彰自宗的特色。以
 <lb n="0129a15" ed="Y"/>色處為例如下：</p>
 <pb n="0130a" ed="Y" xml:id="Y36.0034.0130a"/>
-<lb n="0130a01" ed="Y"/><p style="margin-left:4em;text-indent:-1em"><cit><bibl><title level="m">《法集論》</title>：</bibl><quote>「云何色處？……若色四大種所造，如色可見有對：青．黃．赤．白．黑．
+<lb n="0130a01" ed="Y"/><p xml:id="pY36p0130a0101" style="margin-left:4em;text-indent:-1em"><cit><bibl><title level="m">《法集論》</title>：</bibl><quote>「云何色處？……若色四大種所造，如色可見有對：青．黃．赤．白．黑．
 <lb n="0130a02" ed="Y"/>紫．哈利．哈利色．嫩芽色．長．短．小．大．方．圓．四方．六方．八方．十六方．
 <lb n="0130a03" ed="Y"/>低．高．影．光．明．暗．雲．霧．煙．塵．月輪色．日輪色．星色．鏡輪色．寶珠（
 <lb n="0130a04" ed="Y"/>色）．寶螺（色）．真珠（色）．琉璃色．金（色）．銀色……是名色處」</quote></cit>。</p>
-<lb n="0130a05" ed="Y"/><p style="margin-left:4em;text-indent:-1em"><cit><bibl><title level="m">《法蘊論》</title>：</bibl><quote>「云何色處？……謂四大種所造：青．黃．赤．白．雲．煙．塵．霧．長．
+<lb n="0130a05" ed="Y"/><p xml:id="pY36p0130a0501" style="margin-left:4em;text-indent:-1em"><cit><bibl><title level="m">《法蘊論》</title>：</bibl><quote>「云何色處？……謂四大種所造：青．黃．赤．白．雲．煙．塵．霧．長．
 <lb n="0130a06" ed="Y"/>短．方．圓．高．下．正．不正．影．光．明．暗．空一顯色．相雜．紅．紫．碧．綠
 <lb n="0130a07" ed="Y"/>．皂．褐，及餘所有，眼根所見……名色處」</quote></cit>。</p>
-<lb n="0130a08" ed="Y"/><p style="margin-left:4em;text-indent:-1em"><title level="m">《舍利弗阿毘曇論》</title>：一、自身色。二、外色：<quote>「若外色，眼識所知：青．黃．赤．白．
-<lb n="0130a09" ed="Y"/>黑．紫．<note n="0130a0901" resp="CBETA" type="add">麁【CB】，麤【印順】</note><app n="0130a0901"><lem wit="【CB】" resp="正聞出版社">麁<note type="cf1">《舍利弗阿毘曇論》卷1〈問分〉(CBETA, T28, no. 1548, p. 526, b2-4)</note></lem><rdg wit="【印順】">麤</rdg></app>．細．長．短．方．圓．水．陸．光．影．煙．雲．塵．霧．氣．明．<note n="0130a0902" resp="CBETA" type="add">闇【CB】，暗【印順】</note><app n="0130a0902"><lem wit="【CB】" resp="正聞出版社">闇</lem><rdg wit="【印順】">暗</rdg></app>等
+<lb n="0130a08" ed="Y"/><p xml:id="pY36p0130a0801" style="margin-left:4em;text-indent:-1em"><title level="m">《舍利弗阿毘曇論》</title>：一、自身色。二、外色：<quote>「若外色，眼識所知：青．黃．赤．白．
+<lb n="0130a09" ed="Y"/>黑．紫．<note n="0130a0901" resp="CBETA" type="add">麁【CB】，麤【印順】</note><app n="0130a0901"><lem resp="正聞出版社" wit="【CB】">麁<note type="cf1">《舍利弗阿毘曇論》卷1〈問分〉(CBETA, T28, no. 1548, p. 526, b2-4)</note></lem><rdg wit="【印順】">麤</rdg></app>．細．長．短．方．圓．水．陸．光．影．煙．雲．塵．霧．氣．明．<note n="0130a0902" resp="CBETA" type="add">闇【CB】，暗【印順】</note><app n="0130a0902"><lem resp="正聞出版社" wit="【CB】">闇</lem><rdg wit="【印順】">暗</rdg></app>等
 <lb n="0130a10" ed="Y"/>，及餘外色，眼識所知，是名色入」</quote>。</p>
-<lb n="0130a11" ed="Y"/><p style="text-indent:2em">2.對於色法，本論僅說<quote>「四大及四大所造」</quote>——眼等五根，及色等五塵，始終沒有說到「無
+<lb n="0130a11" ed="Y"/><p xml:id="pY36p0130a1101" style="text-indent:2em">2.對於色法，本論僅說<quote>「四大及四大所造」</quote>——眼等五根，及色等五塵，始終沒有說到「無
 <lb n="0130a12" ed="Y"/>表色」——無見無對色，這是最值得注意的。說一切有部論宗，立無表色（業）；<title level="m">《舍利弗阿毘
 <lb n="0130a13" ed="Y"/>曇論》</title>，也立無表色。但在說一切有部——四大論師中，重經的法救（<foreign xml:lang="sa">Dharmatrāta</foreign>）、覺天
 <lb n="0130a14" ed="Y"/>（<foreign xml:lang="sa">Buddhadeva</foreign>），不立無表色。本論還存有分別契經（釋經論）的形式；對於這，似乎代表了「
 <lb n="0130a15" ed="Y"/>無表色」還沒有被熱心討論的時代。</p>
 <pb n="0131a" ed="Y" xml:id="Y36.0034.0131a"/>
-<lb n="0131a01" ed="Y"/><p style="text-indent:2em">3.古代阿毘達磨論者，特重五根、五力、七覺支、八聖道支。如銅鍱部的<title level="m">《無礙解道》</title>，處
+<lb n="0131a01" ed="Y"/><p xml:id="pY36p0131a0101" style="text-indent:2em">3.古代阿毘達磨論者，特重五根、五力、七覺支、八聖道支。如銅鍱部的<title level="m">《無礙解道》</title>，處
 <lb n="0131a02" ed="Y"/>處詳說五根、五力、七覺支、八聖道支於前，然後略說四念住，四正勤，四神足。<title level="m">《舍利弗阿毘
 <lb n="0131a03" ed="Y"/>曇論》</title>，四念處，四正勤，四神足——三品，都屬於<title level="a">〈非問分〉</title>，也表示了這一意義。其中，五
 <lb n="0131a04" ed="Y"/>根（五力）一直成為論究重心。因為，大眾部（及大陸分別說系，<title level="m">《舍利弗阿毘曇論》</title>也如此）
 <lb n="0131a05" ed="Y"/>以為五根唯是無漏的；而上座部中，銅鍱部，說一切有部，犢子部系，都說五根通於有漏及無漏
 <lb n="0131a06" ed="Y"/>。所以修證次第——從有漏到無漏，都約五根來說明；以五根為世第一法，成為上座部系異於大
-<lb n="0131a07" ed="Y"/>眾部的特點。這可從<title level="m">《大毘婆沙論》</title>而明白的理解出來<note n="0131010" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="2">卷二</biblScope></bibl>（大正<ref target="#vol:27;page:p7c" type="taisho">二七．七下</ref>——<ref type="taisho" target="#vol:27;page:p8b">八中</ref>）。</note>。本論解說「法隨法行」（沒有說到四
-<lb n="0131a08" ed="Y"/>加行），也以有漏的五根為性，與舊阿毘達磨師相同。如<title level="m">《論》</title>卷二<note place="inline">大正<ref type="taisho" target="#vol:26;page:p459c">二六．四五九下</ref></note>說：</p>
-<lb n="0131a09" ed="Y"/><quote><p style="margin-left:3em">「如理作意審正觀察深妙義已，便生出離遠離所生五勝善法，謂信，精進，及念，定，慧
+<lb n="0131a07" ed="Y"/>眾部的特點。這可從<title level="m">《大毘婆沙論》</title>而明白的理解出來<note n="0131010" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:27;page:p7c" type="taisho">二七．七下</ref>——<ref target="#vol:27;page:p8b" type="taisho">八中</ref>）。</note>。本論解說「法隨法行」（沒有說到四
+<lb n="0131a08" ed="Y"/>加行），也以有漏的五根為性，與舊阿毘達磨師相同。如<title level="m">《論》</title>卷二<note place="inline">大正<ref target="#vol:26;page:p459c" type="taisho">二六．四五九下</ref></note>說：</p>
+<lb n="0131a09" ed="Y"/><quote><p xml:id="pY36p0131a0901" style="margin-left:3em">「如理作意審正觀察深妙義已，便生出離遠離所生五勝善法，謂信，精進，及念，定，慧
 <lb n="0131a10" ed="Y"/>。……修習堅住，無間修習增上加行，如是名為法隨法行。精勤修習法隨法行，便得趣入
 <lb n="0131a11" ed="Y"/>正性離生」。</p></quote>
-<lb n="0131a12" ed="Y"/><p style="text-indent:2em">本論成為說一切有部的論書，如上引述，時間是不會遲於<title level="m">《發智論》</title>的。但自<title level="m">《發智論》</title>撰
+<lb n="0131a12" ed="Y"/><p xml:id="pY36p0131a1201" style="text-indent:2em">本論成為說一切有部的論書，如上引述，時間是不會遲於<title level="m">《發智論》</title>的。但自<title level="m">《發智論》</title>撰
 <lb n="0131a13" ed="Y"/>集流行以來，說一切有部進入了新的階段。在阿毘達磨論義的弘傳中，<title level="m">《法蘊論》</title>是隨時而有所
-<lb n="0131a14" ed="Y"/>修訂、增補的。如<title level="m">《發智論》</title>特創的九十八隨眠說，已編入<title level="a">〈沙門果品〉</title><note n="0131011" resp="釋印順" type="orig"><bibl><title level="m">《法蘊論》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref type="taisho" target="#vol:26;page:p465a">二六．四六五上</ref>）。</note>。<title level="m">《品類論》</title>所綜集
+<lb n="0131a14" ed="Y"/>修訂、增補的。如<title level="m">《發智論》</title>特創的九十八隨眠說，已編入<title level="a">〈沙門果品〉</title><note n="0131011" resp="釋印順" type="orig"><bibl><title level="m">《法蘊論》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref target="#vol:26;page:p465a" type="taisho">二六．四六五上</ref>）。</note>。<title level="m">《品類論》</title>所綜集
 <lb n="0131a15" ed="Y"/>的心所法（相應行），心不相應行，無為法，已編入<title level="a">〈處品〉</title><note n="0131012" resp="釋印順" type="orig"><bibl><title level="m">《法蘊論》</title><biblScope n="10" type="卷">卷一〇</biblScope></bibl>（大正<ref target="#vol:26;page:p500c" type="taisho">二六．五〇〇下</ref>）。</note>。<title level="m">《施設論》</title>新增的文義，也已
 <pb n="0132a" ed="Y" xml:id="Y36.0034.0132a"/>
-<lb n="0132a01" ed="Y"/>編入<title level="a">〈沙門果品〉</title>了<note n="0132013" resp="釋印順" type="orig"><bibl><title level="m">《法蘊論》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref type="taisho" target="#vol:26;page:p464c">二六．四六四下</ref>）。</note>。<bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="65">卷六五</biblScope></bibl><note place="inline">大正<ref target="#vol:27;page:p337c" type="taisho">二七．三三七下</ref></note>說：</p>
-<lb n="0132a02" ed="Y"/><quote><p style="margin-left:3em">「施設論中亦作是說：預流果有二種，謂有為及無為。云何有為預流果？謂此果得及此得
+<lb n="0132a01" ed="Y"/>編入<title level="a">〈沙門果品〉</title>了<note n="0132013" resp="釋印順" type="orig"><bibl><title level="m">《法蘊論》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref target="#vol:26;page:p464c" type="taisho">二六．四六四下</ref>）。</note>。<bibl><title level="m">《大毘婆沙論》</title><biblScope n="65" type="卷">卷六五</biblScope></bibl><note place="inline">大正<ref target="#vol:27;page:p337c" type="taisho">二七．三三七下</ref></note>說：</p>
+<lb n="0132a02" ed="Y"/><quote><p xml:id="pY36p0132a0201" style="margin-left:3em">「施設論中亦作是說：預流果有二種，謂有為及無為。云何有為預流果？謂此果得及此得
 <lb n="0132a03" ed="Y"/>得。（插入解說）……若諸學根、學力、學戒、學善根、八學法，及此種類諸學法，是名
 <lb n="0132a04" ed="Y"/>有為預流果。云何無為預流果？謂三結永斷，及此種類諸結法永斷；八十八隨眠永斷，及
 <lb n="0132a05" ed="Y"/>此種類隨眠法永斷，是名無為預流果」。</p></quote>
-<lb n="0132a06" ed="Y"/><p style="text-indent:2em"><title level="m">《施設論》</title>對四果的說明，與奘譯<bibl>《<title level="m">法蘊足論</title>．<title level="a">沙門果品</title>》</bibl>相同。<quote>「得得」</quote>，是比<title level="m">《發智
+<lb n="0132a06" ed="Y"/><p xml:id="pY36p0132a0601" style="text-indent:2em"><title level="m">《施設論》</title>對四果的說明，與奘譯<bibl>《<title level="m">法蘊足論</title>．<title level="a">沙門果品</title>》</bibl>相同。<quote>「得得」</quote>，是比<title level="m">《發智
 <lb n="0132a07" ed="Y"/>論》</title>（但說「得」）更進一層的論義。在<title level="m">《大毘婆沙論》</title>集成時，這樣的解說四果，還是<title level="m">《施設
 <lb n="0132a08" ed="Y"/>論》</title>的特義。可見<title level="m">《法蘊論》</title>的這一說明，是引取<title level="m">《施設論》</title>說而為增補的。所以現存的<title level="m">《法蘊
 <lb n="0132a09" ed="Y"/>論》</title>，是古型的，但受有新阿毘達磨——<title level="m">《發智論》</title>、<title level="m">《品類論》</title>等影響。如一概以<title level="m">《法蘊論》</title>
@@ -239,33 +258,33 @@
 <lb n="0133a07" ed="Y"/>
 <lb n="0133a08" ed="Y"/></cb:div>
 <lb n="0133a09" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　阿毘達磨集異門足論</cb:mulu><head>第三節　阿毘達磨集異門足論</head>
-<lb n="0133a10" ed="Y"/><p style="text-indent:2em"><title level="m">《阿毘達磨集異門足論》</title>，玄奘於顯慶五年，到龍朔三年（西元六六〇——六六三）譯出，
+<lb n="0133a10" ed="Y"/><p xml:id="pY36p0133a1001" style="text-indent:2em"><title level="m">《阿毘達磨集異門足論》</title>，玄奘於顯慶五年，到龍朔三年（西元六六〇——六六三）譯出，
 <lb n="0133a11" ed="Y"/>凡十二品，二十卷。本論是<title level="m">《長阿含經》</title>的<title level="m">《集異門經》</title>的解說。舊譯名<title level="m">《眾集經》</title>，<bibl><title level="m">《長部》</title>
-<lb n="0133a12" ed="Y"/>（三三經）</bibl>名<title level="m">《等誦經》</title>，宋施護（<foreign xml:lang="sa"><note n="0133a1201" resp="CBETA" type="add">Dānapāla【CB】，Danāpāla【印順】</note><app n="0133a1201"><lem wit="【CB】" resp="正聞出版社">Dānapāla</lem><rdg wit="【印順】">Danāpāla</rdg></app></foreign>）譯，作<title level="m">《佛說大集法門經》</title>，涼譯<title level="m">《毘婆沙論》</title>
+<lb n="0133a12" ed="Y"/>（三三經）</bibl>名<title level="m">《等誦經》</title>，宋施護（<foreign xml:lang="sa"><note n="0133a1201" resp="CBETA" type="add">Dānapāla【CB】，Danāpāla【印順】</note><app n="0133a1201"><lem resp="正聞出版社" wit="【CB】">Dānapāla</lem><rdg wit="【印順】">Danāpāla</rdg></app></foreign>）譯，作<title level="m">《佛說大集法門經》</title>，涼譯<title level="m">《毘婆沙論》</title>
 <lb n="0133a13" ed="Y"/>引文，作<title level="m">《攝法經》</title>或<title level="m">《集法經》</title>。經是舍利弗（<foreign xml:lang="sa">Śāriputra</foreign>）集出的，所以玄奘傳說本論為舍利
 <lb n="0133a14" ed="Y"/>弗造。稱友（<foreign xml:lang="sa">Yaśomitra</foreign>）的<title level="m">《俱舍論疏》</title>，說是大拘絺羅（<foreign xml:lang="sa">Mahākauṣṭhila</foreign>）造。其實，在阿毘
 <pb n="0134a" ed="Y" xml:id="Y36.0034.0134a"/>
 <lb n="0134a01" ed="Y"/>達磨學系中，舍利弗與大拘絺羅，早就難於分別的了。</p>
-<lb n="0134a02" ed="Y"/><p style="text-indent:2em">集經的緣起是：當時離繫親子（<foreign xml:lang="sa"><note n="0134a0201" resp="CBETA" type="add">Nirgrantha-jñātiputra【CB】，Nirgrantha-jñāta-putra【印順】</note><app n="0134a0201"><lem wit="【CB】" resp="正聞出版社">Nirgrantha-jñātiputra</lem><rdg wit="【印順】">Nirgrantha-jñāta-putra</rdg></app></foreign>）死了，徒眾自相<note n="0134a0202" resp="CBETA" type="add" subtype="規範字詞">鬥【CB】，鬪【印順】</note><app n="0134a0202"><lem wit="【CB】" resp="CBETA">鬥</lem><rdg wit="【印順】">鬪</rdg></app>爭而分散。舍
+<lb n="0134a02" ed="Y"/><p xml:id="pY36p0134a0201" style="text-indent:2em">集經的緣起是：當時離繫親子（<foreign xml:lang="sa"><note n="0134a0201" resp="CBETA" type="add">Nirgrantha-jñātiputra【CB】，Nirgrantha-jñāta-putra【印順】</note><app n="0134a0201"><lem resp="正聞出版社" wit="【CB】">Nirgrantha-jñātiputra</lem><rdg wit="【印順】">Nirgrantha-jñāta-putra</rdg></app></foreign>）死了，徒眾自相<note n="0134a0202" resp="CBETA" type="add" subtype="規範字詞">鬥【CB】，鬪【印順】</note><app n="0134a0202"><lem resp="CBETA" wit="【CB】">鬥</lem><rdg wit="【印順】">鬪</rdg></app>爭而分散。舍
 <lb n="0134a03" ed="Y"/>利弗警覺到當來的釋子比丘，也可能分散，所以當佛在世時，就結集法數，預為防護。經文的結
 <lb n="0134a04" ed="Y"/>集法數，以增一編次，從一到十為十品。前有緣起，後有讚勸，所以論文為十二品。本論是經的
 <lb n="0134a05" ed="Y"/>解說，論體是標目與釋義，被稱為摩呾理迦。<title level="m">《根本說一切有部毘奈耶雜事》</title>，結集摩呾理迦，
-<lb n="0134a06" ed="Y"/>說到「法集」，就指本論而說<note n="0134001" resp="釋印順" type="orig"><bibl><title level="m">《根本說一切有部毘奈耶雜事》</title><biblScope type="卷" n="40">卷四〇</biblScope></bibl>（大正<ref target="#vol:24;page:p408b" type="taisho">二四．四〇八中</ref>）。</note>。釋義古樸而簡要，為毘婆沙師所重視。後來大乘的<bibl>《<title level="m">瑜伽師地
-<lb n="0134a07" ed="Y"/>論</title>．<title level="a">聞所成地</title>》</bibl>的內明部分，也就是此經的另一解說<note n="0134002" resp="釋印順" type="orig"><bibl><title level="m">《瑜伽師地論》</title><biblScope to="15" from="13" type="卷">卷一三——一五</biblScope></bibl>（大正<ref type="taisho" target="#vol:30;page:p347a">三〇．三四七上</ref>——<ref type="taisho" target="#vol:30;page:p356a">三五六上</ref>）。</note>。</p>
-<lb n="0134a08" ed="Y"/><p style="text-indent:2em">銅鍱部的<title level="m">《法集論》</title>，首列論母及經母。經母部分，二法門凡四十二，並在<title level="a">〈概說品〉</title>附有
+<lb n="0134a06" ed="Y"/>說到「法集」，就指本論而說<note n="0134001" resp="釋印順" type="orig"><bibl><title level="m">《根本說一切有部毘奈耶雜事》</title><biblScope n="40" type="卷">卷四〇</biblScope></bibl>（大正<ref target="#vol:24;page:p408b" type="taisho">二四．四〇八中</ref>）。</note>。釋義古樸而簡要，為毘婆沙師所重視。後來大乘的<bibl>《<title level="m">瑜伽師地
+<lb n="0134a07" ed="Y"/>論</title>．<title level="a">聞所成地</title>》</bibl>的內明部分，也就是此經的另一解說<note n="0134002" resp="釋印順" type="orig"><bibl><title level="m">《瑜伽師地論》</title><biblScope from="13" to="15" type="卷">卷一三——一五</biblScope></bibl>（大正<ref target="#vol:30;page:p347a" type="taisho">三〇．三四七上</ref>——<ref target="#vol:30;page:p356a" type="taisho">三五六上</ref>）。</note>。</p>
+<lb n="0134a08" ed="Y"/><p xml:id="pY36p0134a0801" style="text-indent:2em">銅鍱部的<title level="m">《法集論》</title>，首列論母及經母。經母部分，二法門凡四十二，並在<title level="a">〈概說品〉</title>附有
 <lb n="0134a09" ed="Y"/>解說。<title level="m">《法集論》</title>的經母，就是<title level="m">《集異門論》</title>所依的，<title level="m">《眾集經》</title>的二法門（略有增益）。<title level="m">《法
 <lb n="0134a10" ed="Y"/>集論》</title>與本論，是淵源於同一的古傳而自為撰述的。不知銅鍱部的論師們，以什麼理由，專取二
 <lb n="0134a11" ed="Y"/>法門為摩呾理迦，而棄其他的部分，又加<title level="a">〈心生起品〉</title>、<title level="a">〈色品〉</title>，及論母、經母的解說，而成
 <lb n="0134a12" ed="Y"/><title level="m">《法集論》</title>？這才面目全非，幾乎不知<title level="m">《法集》</title>的古義了！</p>
-<lb n="0134a13" ed="Y"/><p style="text-indent:2em">在<cit><bibl><title level="m">《集異門論》</title>中，略指</bibl><quote>「如法蘊論說」</quote></cit>的，著實不少。如<quote>「惡言」</quote>、<quote>「惡友」</quote>、<quote>「善友」</quote>
+<lb n="0134a13" ed="Y"/><p xml:id="pY36p0134a1301" style="text-indent:2em">在<cit><bibl><title level="m">《集異門論》</title>中，略指</bibl><quote>「如法蘊論說」</quote></cit>的，著實不少。如<quote>「惡言」</quote>、<quote>「惡友」</quote>、<quote>「善友」</quote>
 <lb n="0134a14" ed="Y"/><note n="0134003" resp="釋印順" type="orig"><bibl><title level="m">《集異門論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:26;page:p370a" type="taisho">二六．三七〇上</ref>）。</note>；<quote>「欲界恚界害界」</quote>、<quote>「出離界無恚界無害界」</quote>、<quote>「欲界色界無色界」</quote>、<quote>「色界無色界滅界」</quote>
-<lb n="0134a15" ed="Y"/><note n="0134004" resp="釋印順" type="orig"><bibl><title level="m">《集異門論》</title><biblScope type="卷" n="3">卷三</biblScope></bibl>（大正<ref target="#vol:26;page:p378b" type="taisho">二六．三七八中</ref>——下）。</note>等。還有不曾明說，而內容與<title level="m">《法蘊論》</title>一致的，如<quote>「三善尋」</quote>的六釋<note n="0134005" resp="釋印順" type="orig"><bibl><title level="m">《集異門論》</title><biblScope type="卷" n="3">卷三</biblScope></bibl>（大正<ref target="#vol:26;page:p377b" type="taisho">二六．三七七中</ref>——<ref type="taisho" target="#vol:26;page:p378a">三七八上</ref>）。</note>。本論依<title level="m">《長阿含》</title>
+<lb n="0134a15" ed="Y"/><note n="0134004" resp="釋印順" type="orig"><bibl><title level="m">《集異門論》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref target="#vol:26;page:p378b" type="taisho">二六．三七八中</ref>——下）。</note>等。還有不曾明說，而內容與<title level="m">《法蘊論》</title>一致的，如<quote>「三善尋」</quote>的六釋<note n="0134005" resp="釋印順" type="orig"><bibl><title level="m">《集異門論》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref target="#vol:26;page:p377b" type="taisho">二六．三七七中</ref>——<ref target="#vol:26;page:p378a" type="taisho">三七八上</ref>）。</note>。本論依<title level="m">《長阿含》</title>
 <pb n="0135a" ed="Y" xml:id="Y36.0034.0135a"/>
 <lb n="0135a01" ed="Y"/>的<title level="m">《眾集經》</title>，而與<title level="m">《法蘊論》</title>一樣，同用<title level="m">《多界經》</title>的六十二界說。本論有<quote>「有說」</quote>、<quote>「或作
 <lb n="0135a02" ed="Y"/>是說」</quote>，可見阿毘達磨論義，漸入部派異說階段。所以<title level="m">《集異門論》</title>的集釋，必在<title level="m">《法蘊論》</title>成
 <lb n="0135a03" ed="Y"/>立以後。</p>
-<lb n="0135a04" ed="Y"/><p style="text-indent:2em">本論為經的解說，對說一切有部阿毘達磨新義，還很少引用。唐譯<title level="m">《大毘婆沙論》</title>，曾引<title level="m">《
-<lb n="0135a05" ed="Y"/>集異門論》</title>，說到三界見修所斷，遍行不遍行隨眠<note n="0135006" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="114">卷一一四</biblScope></bibl>（大正<ref type="taisho" target="#vol:27;page:p594b">二七．五九四中</ref>）。</note>，而實為<bibl>《<title level="m">品類論</title>．<title level="a">辯攝等品</title>》</bibl>的誤譯。
+<lb n="0135a04" ed="Y"/><p xml:id="pY36p0135a0401" style="text-indent:2em">本論為經的解說，對說一切有部阿毘達磨新義，還很少引用。唐譯<title level="m">《大毘婆沙論》</title>，曾引<title level="m">《
+<lb n="0135a05" ed="Y"/>集異門論》</title>，說到三界見修所斷，遍行不遍行隨眠<note n="0135006" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="114" type="卷">卷一一四</biblScope></bibl>（大正<ref target="#vol:27;page:p594b" type="taisho">二七．五九四中</ref>）。</note>，而實為<bibl>《<title level="m">品類論</title>．<title level="a">辯攝等品</title>》</bibl>的誤譯。
 <lb n="0135a06" ed="Y"/><title level="m">《集異門論》</title>雖成立於<title level="m">《法蘊論》</title>以後，但直釋經文，為體例所限，沒有過多的修訂、增補，所
 <lb n="0135a07" ed="Y"/>以論義反比現存的<title level="m">《法蘊論》</title>為古樸。</p>
 <lb n="0135a08" ed="Y"/>
@@ -277,34 +296,34 @@
 <lb n="0135a14" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第四節　阿毘達磨施設足論</cb:mulu><head>第四節　阿毘達磨施設足論</head>
 <pb n="0136a" ed="Y" xml:id="Y36.0034.0136a"/>
 <lb n="0136a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">第一項　品目與撰述的推論</cb:mulu><head>第一項　品目與撰述的推論</head>
-<lb n="0136a02" ed="Y"/><p style="text-indent:2em">說一切有部的阿毘達磨論——「六足」、「身義」，玄奘幾乎都翻譯了，惟有<title level="m">《施設論》</title>沒
-<lb n="0136a03" ed="Y"/>有譯出，這是很可惜的。<cit><bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title>說：</bibl><quote>「施設論壹萬八千頌」</quote><note n="0136001" resp="釋印順" type="orig"><bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:41;page:p8b">四一．八中</ref>）。</note></cit>。<cit><bibl><title level="m">《大智度論》</title>說：
-<lb n="0136a04" ed="Y"/></bibl><quote>「第三分八品之名《分別世處分》，是目犍連造。」</quote><note n="0136002" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="2">卷二</biblScope></bibl>（大正<ref target="#vol:25;page:p70a" type="taisho">二五．七〇上</ref>）。</note></cit>本論是長達一萬八千頌（可譯五六十卷），分
+<lb n="0136a02" ed="Y"/><p xml:id="pY36p0136a0201" style="text-indent:2em">說一切有部的阿毘達磨論——「六足」、「身義」，玄奘幾乎都翻譯了，惟有<title level="m">《施設論》</title>沒
+<lb n="0136a03" ed="Y"/>有譯出，這是很可惜的。<cit><bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title>說：</bibl><quote>「施設論壹萬八千頌」</quote><note n="0136001" resp="釋印順" type="orig"><bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:41;page:p8b" type="taisho">四一．八中</ref>）。</note></cit>。<cit><bibl><title level="m">《大智度論》</title>說：
+<lb n="0136a04" ed="Y"/></bibl><quote>「第三分八品之名《分別世處分》，是目犍連造。」</quote><note n="0136002" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:25;page:p70a" type="taisho">二五．七〇上</ref>）。</note></cit>本論是長達一萬八千頌（可譯五六十卷），分
 <lb n="0136a05" ed="Y"/>為八品的大論。趙宋時，法護（<foreign xml:lang="sa">Dharmapāla</foreign>）等譯出<title level="m">《施設論》</title>，共七卷。論內別題為：<quote>「對
 <lb n="0136a06" ed="Y"/>法大論中世間施設門第一」</quote>，缺。<quote>「對法大論中因施設門第二」</quote>，到<quote>「對法大論中因施設門第十
 <lb n="0136a07" ed="Y"/>四」</quote>。西藏也有<title level="m">《施設論》</title>，分<title level="a">〈世間施設〉</title>，<title level="a">〈因施設〉</title>，<title level="a">〈業施設〉</title>。藏譯的<title level="a">〈因施設〉</title>部
 <lb n="0136a08" ed="Y"/>分，與法護譯的<title level="m">《施設論》</title>相當。但從舊傳的一萬八千頌，八品，以及<title level="m">《大毘婆沙論》</title>的引文來
 <lb n="0136a09" ed="Y"/>說，不但漢譯的殘闕不全，西藏的譯本，也只是部分而已。</p>
-<lb n="0136a10" ed="Y"/><p style="text-indent:2em">施設（<foreign xml:lang="sa">prajñapti</foreign>，<foreign xml:lang="sa">paññatti</foreign>），在上座部系阿毘達磨論書中，意義重要，而應用極為普遍
+<lb n="0136a10" ed="Y"/><p xml:id="pY36p0136a1001" style="text-indent:2em">施設（<foreign xml:lang="sa">prajñapti</foreign>，<foreign xml:lang="sa">paññatti</foreign>），在上座部系阿毘達磨論書中，意義重要，而應用極為普遍
 <lb n="0136a11" ed="Y"/>。銅鍱部有<title level="m">《人施設論》</title>（與<bibl>《<title level="m">舍利弗阿毘曇論</title>．<title level="a">非問分</title>．<title level="a">人品</title>》</bibl>相當）。在<cit><bibl><title level="m">《人施設論》</title>
 <lb n="0136a12" ed="Y"/>初，首舉</bibl><quote>「六施設：蘊施設，處施設，界施設，諦施設，根施設，人施設」</quote><note n="0136003" resp="釋印順" type="orig"><title level="m">《人施設論》</title>（南傳四七．三五七）。</note></cit>。又<title level="m">《雙論》</title>等，
 <lb n="0136a13" ed="Y"/>都有<title level="a">〈施設分〉</title>——立門，釋義。以施設為論名，以施設為「分」名，都是類集、安立、分別的
 <lb n="0136a14" ed="Y"/>意思。<title level="m">《舍利弗阿毘曇論》</title>，有這樣的話：</p>
-<lb n="0136a15" ed="Y"/><quote><p style="margin-left:3em">「今當集假結正門」<note n="0136004" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope n="26" type="卷">卷二六</biblScope></bibl>（大正<ref type="taisho" target="#vol:28;page:p690b">二八．六九〇中</ref>）。</note>。</p></quote>
+<lb n="0136a15" ed="Y"/><quote><p xml:id="pY36p0136a1501" style="margin-left:3em">「今當集假結正門」<note n="0136004" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope n="26" type="卷">卷二六</biblScope></bibl>（大正<ref target="#vol:28;page:p690b" type="taisho">二八．六九〇中</ref>）。</note>。</p></quote>
 <pb n="0137a" ed="Y" xml:id="Y36.0034.0137a"/>
-<lb n="0137a01" ed="Y"/><quote><p style="margin-left:3em">「今當集假觸正門」<note n="0137005" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope n="27" type="卷">卷二七</biblScope></bibl>（大正<ref type="taisho" target="#vol:28;page:p694c">二八．六九四下</ref>）。</note>。</p></quote>
-<lb n="0137a02" ed="Y"/><quote><p style="margin-left:3em">「今當集假心正門」<note n="0137006" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope type="卷" n="27">卷二七</biblScope></bibl>（大正<ref type="taisho" target="#vol:28;page:p697b">二八．六九七中</ref>）。</note>。</p></quote>
-<lb n="0137a03" ed="Y"/><p style="text-indent:2em">假結，假觸，假心——假是什麼意義？假，應為施設的異譯。如<title level="m">《異部宗輪論》</title>的「說假部
+<lb n="0137a01" ed="Y"/><quote><p xml:id="pY36p0137a0101" style="margin-left:3em">「今當集假觸正門」<note n="0137005" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope n="27" type="卷">卷二七</biblScope></bibl>（大正<ref target="#vol:28;page:p694c" type="taisho">二八．六九四下</ref>）。</note>。</p></quote>
+<lb n="0137a02" ed="Y"/><quote><p xml:id="pY36p0137a0201" style="margin-left:3em">「今當集假心正門」<note n="0137006" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope n="27" type="卷">卷二七</biblScope></bibl>（大正<ref target="#vol:28;page:p697b" type="taisho">二八．六九七中</ref>）。</note>。</p></quote>
+<lb n="0137a03" ed="Y"/><p xml:id="pY36p0137a0301" style="text-indent:2em">假結，假觸，假心——假是什麼意義？假，應為施設的異譯。如<title level="m">《異部宗輪論》</title>的「說假部
 <lb n="0137a04" ed="Y"/>」，<title level="m">《十八部論》</title>就譯為「施設論部」。又如<bibl>《<title level="m">摩訶般若波羅蜜經</title>．<title level="a">三假品</title>》</bibl>：法假施設，受
 <lb n="0137a05" ed="Y"/>假施設，名假施設；依<title level="m">《大智度論》</title>，原文是法波羅聶提，受波羅聶提，名波羅聶提<note n="0137007" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="41" type="卷">卷四一</biblScope></bibl>（大正<ref target="#vol:25;page:p358c" type="taisho">二五．三五八下</ref>）。</note>。波羅聶
-<lb n="0137a06" ed="Y"/>提（<foreign xml:lang="sa"><note n="0137a0601" resp="CBETA" type="add">prajñapti【CB】，Prajnapti【印順】</note><app n="0137a0601"><lem wit="【CB】" resp="正聞出版社">prajñapti</lem><rdg wit="【印順】">Prajnapti</rdg></app></foreign>），可以譯為「假」，也可譯「施設」。鳩摩羅什（<foreign xml:lang="sa">Kumārajīva</foreign>）譯作「假施設
-<lb n="0137a07" ed="Y"/>」，那是重<note n="0137a0701" resp="CBETA" type="add" subtype="規範字詞">疊【CB】，叠【印順】</note><app n="0137a0701"><lem wit="【CB】" resp="CBETA">疊</lem><rdg wit="【印順】">叠</rdg></app>語，用來表達本義，以免誤解了。這樣，<title level="m">《舍利弗阿毘曇論》</title>的假結，假觸，假心
+<lb n="0137a06" ed="Y"/>提（<foreign xml:lang="sa"><note n="0137a0601" resp="CBETA" type="add">prajñapti【CB】，Prajnapti【印順】</note><app n="0137a0601"><lem resp="正聞出版社" wit="【CB】">prajñapti</lem><rdg wit="【印順】">Prajnapti</rdg></app></foreign>），可以譯為「假」，也可譯「施設」。鳩摩羅什（<foreign xml:lang="sa">Kumārajīva</foreign>）譯作「假施設
+<lb n="0137a07" ed="Y"/>」，那是重<note n="0137a0701" resp="CBETA" type="add" subtype="規範字詞">疊【CB】，叠【印順】</note><app n="0137a0701"><lem resp="CBETA" wit="【CB】">疊</lem><rdg wit="【印順】">叠</rdg></app>語，用來表達本義，以免誤解了。這樣，<title level="m">《舍利弗阿毘曇論》</title>的假結，假觸，假心
 <lb n="0137a08" ed="Y"/>，就是結施設，觸施設，心施設了。<title level="m">《舍利弗阿毘曇論》</title>中，同樣的性質，標揭同樣的文句而沒
-<lb n="0137a09" ed="Y"/>有「假」字的，還有<quote>「今當集諸道門」</quote><note n="0137008" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope type="卷" n="15">卷一五</biblScope></bibl>（大正<ref target="#vol:28;page:p625a" type="taisho">二八．六二五上</ref>）。</note>，<quote>「今當集諸不善法門」</quote><note n="0137009" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope type="卷" n="18">卷一八</biblScope></bibl>（大正<ref target="#vol:28;page:p646a" type="taisho">二八．六四六上</ref>）。</note>，<quote>「集諸因正門」</quote><note n="0137010" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope type="卷" n="26">卷二六</biblScope></bibl>（大正<ref type="taisho" target="#vol:28;page:p687b">二八．六八七中</ref>）。</note>，<quote>「今
-<lb n="0137a10" ed="Y"/>當集名色正門」</quote><note n="0137011" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope type="卷" n="26">卷二六</biblScope></bibl>（大正<ref type="taisho" target="#vol:28;page:p689a">二八．六八九上</ref>）。</note>。這種類集而立門釋義的，都是假——施設。或以一法門為主而纂集經說；或
+<lb n="0137a09" ed="Y"/>有「假」字的，還有<quote>「今當集諸道門」</quote><note n="0137008" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope n="15" type="卷">卷一五</biblScope></bibl>（大正<ref target="#vol:28;page:p625a" type="taisho">二八．六二五上</ref>）。</note>，<quote>「今當集諸不善法門」</quote><note n="0137009" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope n="18" type="卷">卷一八</biblScope></bibl>（大正<ref target="#vol:28;page:p646a" type="taisho">二八．六四六上</ref>）。</note>，<quote>「集諸因正門」</quote><note n="0137010" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope n="26" type="卷">卷二六</biblScope></bibl>（大正<ref target="#vol:28;page:p687b" type="taisho">二八．六八七中</ref>）。</note>，<quote>「今
+<lb n="0137a10" ed="Y"/>當集名色正門」</quote><note n="0137011" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope n="26" type="卷">卷二六</biblScope></bibl>（大正<ref target="#vol:28;page:p689a" type="taisho">二八．六八九上</ref>）。</note>。這種類集而立門釋義的，都是假——施設。或以一法門為主而纂集經說；或
 <lb n="0137a11" ed="Y"/>以一切法為對象，而類集種種義門——論門、論母；或依一法門，而安立章門，分別解說。在阿
 <lb n="0137a12" ed="Y"/>毘達磨論中，施設一詞的應用極廣。</p>
-<lb n="0137a13" ed="Y"/><p style="text-indent:2em">傳為大目犍連（<foreign xml:lang="sa">Mahāmaudgalyāyana</foreign>）所造的<title level="m">《施設論》</title>，<title level="m">《大智度論》</title>作<title level="m">《分別世處分》</title>
+<lb n="0137a13" ed="Y"/><p xml:id="pY36p0137a1301" style="text-indent:2em">傳為大目犍連（<foreign xml:lang="sa">Mahāmaudgalyāyana</foreign>）所造的<title level="m">《施設論》</title>，<title level="m">《大智度論》</title>作<title level="m">《分別世處分》</title>
 <lb n="0137a14" ed="Y"/>，分別也就是施設的異譯。如真諦（<foreign xml:lang="sa">Paramârtha</foreign>）的<title level="m">《部執異論》</title>，譯說假部（<title level="m">《施設論》</title>）為分別
 <lb n="0137a15" ed="Y"/>說部<note n="0137012" resp="釋印順" type="orig"><bibl>真諦<title level="m">《部執異論》</title></bibl>的分別說部，與毘婆闍婆提（<foreign xml:lang="sa">Vibhājyavādināḥ</foreign>）——分別說部，截然不同，不可混淆。</note><note n="0137012" resp="正聞出版社" type="mod"><bibl>真諦<title level="m">《部執異論》</title></bibl>的分別說部，與毘婆闍婆提（<foreign xml:lang="sa">Vibhajyavādin</foreign>）——分別說部，截然不同，不可混淆。</note>。依<title level="m">《大智度論》</title>說，論有八品，從第一品的「世間施設」得名。<title level="m">《大智度論》</title>夾注，依
 <pb n="0138a" ed="Y" xml:id="Y36.0034.0138a"/>
@@ -312,47 +331,47 @@
 <lb n="0138a02" ed="Y"/><title level="m">《起世因本經》</title>。<title level="m">《世記經》</title>，就是世分別；記有分別的意義。起世的起，也是施設安立的別譯
 <lb n="0138a03" ed="Y"/>。所以，施設——波羅聶提，古來或譯為「假」，或譯為「分別」，或譯為「記」。再來注意說
 <lb n="0138a04" ed="Y"/>一切有部古傳的阿毘達磨——摩呾理迦，如：</p>
-<lb n="0138a05" ed="Y"/><p style="margin-left:3em"><cit><bibl><title level="m">《阿育王傳》</title>：</bibl><quote>「摩得勒伽藏者，所謂四念處……願智三昧，增一定法，百八煩惱，世論
+<lb n="0138a05" ed="Y"/><p xml:id="pY36p0138a0501" style="margin-left:3em"><cit><bibl><title level="m">《阿育王傳》</title>：</bibl><quote>「摩得勒伽藏者，所謂四念處……願智三昧，增一定法，百八煩惱，世論
 <lb n="0138a06" ed="Y"/>記，結使記，業記，定慧等記。」</quote><note n="0138013" resp="釋印順" type="orig"><bibl><title level="m">《阿育王傳》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref target="#vol:50;page:p113c" type="taisho">五〇．一一三下</ref>）。</note></cit></p>
-<lb n="0138a07" ed="Y"/><p style="margin-left:3em"><cit><bibl><title level="m">《阿育王經》</title>：</bibl><quote>「云何說智母？謂四念處……願智，悉皆結集：法身，制說，寂靜見等，
-<lb n="0138a08" ed="Y"/>是說智母」</quote><note n="0138014" resp="釋印順" type="orig"><bibl><title level="m">《阿育王經》</title><biblScope type="卷" n="6">卷六</biblScope></bibl>（大正<ref type="taisho" target="#vol:50;page:p152a">五〇．一五二上</ref>）。</note></cit>。</p>
-<lb n="0138a09" ed="Y"/><p style="margin-left:3em"><cit><bibl><title level="m">《根本說一切有部毘奈耶雜事》</title>：</bibl><quote>「所謂四念處……法集，法蘊，如是總名摩呾理迦」</quote><note n="0138015" resp="釋印順" type="orig"><bibl><title level="m">《根本說一切有部毘奈耶雜事》</title><biblScope type="卷" n="40">卷四〇</biblScope></bibl>（大正<ref type="taisho" target="#vol:24;page:p408b">二四．四〇八中</ref>）。</note></cit>。</p>
-<lb n="0138a10" ed="Y"/><p style="margin-left:3em"><cit><bibl><title level="m">《順正理論》</title>：</bibl><quote>「四念住……及《集異門》、《法蘊》、《施設》，如是等類，一切總謂摩呾理迦」</quote><note n="0138016" resp="釋印順" type="orig"><bibl><title level="m">《順正理論》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref target="#vol:29;page:p330b" type="taisho">二九．三三〇中</ref>）。</note></cit>
+<lb n="0138a07" ed="Y"/><p xml:id="pY36p0138a0701" style="margin-left:3em"><cit><bibl><title level="m">《阿育王經》</title>：</bibl><quote>「云何說智母？謂四念處……願智，悉皆結集：法身，制說，寂靜見等，
+<lb n="0138a08" ed="Y"/>是說智母」</quote><note n="0138014" resp="釋印順" type="orig"><bibl><title level="m">《阿育王經》</title><biblScope n="6" type="卷">卷六</biblScope></bibl>（大正<ref target="#vol:50;page:p152a" type="taisho">五〇．一五二上</ref>）。</note></cit>。</p>
+<lb n="0138a09" ed="Y"/><p xml:id="pY36p0138a0901" style="margin-left:3em"><cit><bibl><title level="m">《根本說一切有部毘奈耶雜事》</title>：</bibl><quote>「所謂四念處……法集，法蘊，如是總名摩呾理迦」</quote><note n="0138015" resp="釋印順" type="orig"><bibl><title level="m">《根本說一切有部毘奈耶雜事》</title><biblScope n="40" type="卷">卷四〇</biblScope></bibl>（大正<ref target="#vol:24;page:p408b" type="taisho">二四．四〇八中</ref>）。</note></cit>。</p>
+<lb n="0138a10" ed="Y"/><p xml:id="pY36p0138a1001" style="margin-left:3em"><cit><bibl><title level="m">《順正理論》</title>：</bibl><quote>「四念住……及《集異門》、《法蘊》、《施設》，如是等類，一切總謂摩呾理迦」</quote><note n="0138016" resp="釋印順" type="orig"><bibl><title level="m">《順正理論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:29;page:p330b" type="taisho">二九．三三〇中</ref>）。</note></cit>
 <lb n="0138a11" ed="Y"/>。</p>
-<lb n="0138a12" ed="Y"/><p style="text-indent:2em">這是源於同一文句的不同傳譯。最初結集的阿毘達磨——摩呾理迦，首列四念處等，大致與
+<lb n="0138a12" ed="Y"/><p xml:id="pY36p0138a1201" style="text-indent:2em">這是源於同一文句的不同傳譯。最初結集的阿毘達磨——摩呾理迦，首列四念處等，大致與
 <lb n="0138a13" ed="Y"/><title level="m">《法蘊論》</title>的品目相近。文末，<title level="m">《順正理論》</title>明說<title level="m">《集異門》</title>、<title level="m">《法蘊》</title>、<title level="m">《施設》</title>——三部論的論名，這與
 <lb n="0138a14" ed="Y"/><title level="m">《阿育王經》</title>的結集、法身、制說（施設的別譯）相合。最可注意的，是晉代初譯的<cit><bibl><title level="m">《阿育王傳
 <lb n="0138a15" ed="Y"/>》</title>，末作</bibl><quote>「世論記，結使記，業記，定、慧等記」</quote></cit>。準上所說，<title level="m">《世記經》</title>的記，就是施設的古譯
 <pb n="0139a" ed="Y" xml:id="Y36.0034.0139a"/>
-<lb n="0139a01" ed="Y"/>；<note n="0139a0101" resp="CBETA" type="add" subtype="規範字詞">那麼【CB】，那末【印順】</note><app n="0139a0101"><lem wit="【CB】" resp="CBETA">那麼</lem><rdg wit="【印順】">那末</rdg></app>這就是「世論施設」、「結使施設」、「業施設」、「定施設」、「慧施設」了。藏譯的
+<lb n="0139a01" ed="Y"/>；<note n="0139a0101" resp="CBETA" type="add" subtype="規範字詞">那麼【CB】，那末【印順】</note><app n="0139a0101"><lem resp="CBETA" wit="【CB】">那麼</lem><rdg wit="【印順】">那末</rdg></app>這就是「世論施設」、「結使施設」、「業施設」、「定施設」、「慧施設」了。藏譯的
 <lb n="0139a02" ed="Y"/><title level="m">《施設論》</title>，分<title level="a">〈世間施設〉</title>、<title level="a">〈因施設〉</title>、<title level="a">〈業施設〉</title>；而上文也有「世論記」與「業記」。
 <lb n="0139a03" ed="Y"/>所以，傳說的<title level="m">《分別世處分》</title>，總有八品，現在雖不能完全明白，但憑上來的文證，可以推定：
 <lb n="0139a04" ed="Y"/>世間施設、因施設、業施設、結使施設、定施設、慧施設——是<title level="m">《施設論》</title>的部分品目。</p>
-<lb n="0139a05" ed="Y"/><p style="text-indent:2em"><title level="m">《施設論》</title>，<title level="m">《大智度論》</title>作<title level="m">《分別世處分》</title>；涼譯<title level="m">《毘婆沙論》</title>，或稱之為<title level="m">《施設世界經
-<lb n="0139a06" ed="Y"/>》</title><note n="0139017" resp="釋印順" type="orig"><bibl><title level="m">《毘婆沙論》</title><biblScope n="7" type="卷">卷七</biblScope></bibl>（大正<ref type="taisho" target="#vol:28;page:p45c">二八．四五下</ref>）。</note>。<title level="m">《施設論》</title>起初似乎是以初品——<title level="a">〈世間施設〉</title>得名的。說到<title level="a">〈世間施設〉</title>，傳說是依<title level="m">《
+<lb n="0139a05" ed="Y"/><p xml:id="pY36p0139a0501" style="text-indent:2em"><title level="m">《施設論》</title>，<title level="m">《大智度論》</title>作<title level="m">《分別世處分》</title>；涼譯<title level="m">《毘婆沙論》</title>，或稱之為<title level="m">《施設世界經
+<lb n="0139a06" ed="Y"/>》</title><note n="0139017" resp="釋印順" type="orig"><bibl><title level="m">《毘婆沙論》</title><biblScope n="7" type="卷">卷七</biblScope></bibl>（大正<ref target="#vol:28;page:p45c" type="taisho">二八．四五下</ref>）。</note>。<title level="m">《施設論》</title>起初似乎是以初品——<title level="a">〈世間施設〉</title>得名的。說到<title level="a">〈世間施設〉</title>，傳說是依<title level="m">《
 <lb n="0139a07" ed="Y"/>樓炭經》</title>造的。<title level="m">《樓炭經》</title>——<title level="m">《世記經》</title>的內容，是從器世間的成壞，器世間的安立，說明有
 <lb n="0139a08" ed="Y"/>情世間——人、天、地獄、畜生、餓鬼等情形。<title level="m">《長阿含經》</title>的<title level="m">《世記經》</title>，凡五卷，分為<title level="a">〈閻
-<lb n="0139a09" ed="Y"/>浮提洲品〉</title>，<title level="a">〈鬱單曰品〉</title>，<title level="a">〈轉輪聖王品〉</title>，<title level="a">〈地獄品〉</title>，<title level="a">〈龍鳥品〉</title>，<title level="a">〈阿須倫品〉</title>，<note n="0139a0901" resp="CBETA" type="add"><title level="a">四天王品</title>【CB】，［－］【印順】</note><app n="0139a0901"><lem wit="【CB】" resp="正聞出版社"><title level="a">〈四天王品〉</title>，</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app><title level="a">〈忉
+<lb n="0139a09" ed="Y"/>浮提洲品〉</title>，<title level="a">〈鬱單曰品〉</title>，<title level="a">〈轉輪聖王品〉</title>，<title level="a">〈地獄品〉</title>，<title level="a">〈龍鳥品〉</title>，<title level="a">〈阿須倫品〉</title>，<note n="0139a0901" resp="CBETA" type="add"><title level="a">四天王品</title>【CB】，［－］【印順】</note><app n="0139a0901"><lem resp="正聞出版社" wit="【CB】"><title level="a">〈四天王品〉</title>，</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app><title level="a">〈忉
 <lb n="0139a10" ed="Y"/>利天品〉</title>，<title level="a">〈三災品〉</title>，<title level="a">〈戰鬪品〉</title>，<title level="a">〈三中劫品〉</title>，<title level="a">〈世本緣品〉</title>——十二品。婆羅門教有<title level="m">《
 <lb n="0139a11" ed="Y"/>往世書》</title>（<foreign xml:lang="sa">Purāṇa</foreign>），敘述五事——宇宙的創造，宇宙的破壞與再建，神統與王統的世系，古代
 <lb n="0139a12" ed="Y"/>諸王治世的情形，月族的歷史。<title level="m">《世記經》</title>，可說是佛教立場的<title level="m">《往世書》</title>。與<title level="m">《世記經》</title>類似
 <lb n="0139a13" ed="Y"/>的，有陳真諦譯的<title level="m">《立世阿毘曇論》</title>，凡十卷，二十五品。<title level="m">《世記經》</title>的緣起，如<title level="m">《經》</title>卷一<note place="inline">
 <lb n="0139a14" ed="Y"/>大正<ref target="#vol:1;page:p114b" type="taisho">一．一一四中</ref></note>說：</p>
-<lb n="0139a15" ed="Y"/><quote><p style="margin-left:3em">「眾比丘於食後，集講堂上，議言：諸賢！未曾有也！今此天地，何由而敗？何由而成？
+<lb n="0139a15" ed="Y"/><quote><p xml:id="pY36p0139a1501" style="margin-left:3em">「眾比丘於食後，集講堂上，議言：諸賢！未曾有也！今此天地，何由而敗？何由而成？
 <pb n="0140a" ed="Y" xml:id="Y36.0034.0140a"/>
 <lb n="0140a01" ed="Y"/>眾生所居國土云何？爾時，世尊於閑靜處，天耳徹聽，聞諸比丘，於食後集講堂上，議如
 <lb n="0140a02" ed="Y"/>此言。……佛告諸比丘：……汝等欲聞如來記天地成敗，眾生所居國土不耶？……諦聽諦
 <lb n="0140a03" ed="Y"/>聽，善思念之，當為汝說」。</p></quote>
-<lb n="0140a04" ed="Y"/><p style="text-indent:2em">依經文，這是比丘們，以世界成壞，眾生所住的器世間為論題，而共同論議。如來知道了，
-<lb n="0140a05" ed="Y"/>就應機宣說。但內容非常類似的<cit><bibl><title level="m">《立世阿毘曇論》</title>，開端就說：</bibl><quote>「如佛婆伽婆及阿羅漢說」</quote><note n="0140018" resp="釋印順" type="orig"><bibl><title level="m">《立世阿毘曇論》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref target="#vol:32;page:p173a" type="taisho">三二．一七三上</ref>）。</note></cit>。
+<lb n="0140a04" ed="Y"/><p xml:id="pY36p0140a0401" style="text-indent:2em">依經文，這是比丘們，以世界成壞，眾生所住的器世間為論題，而共同論議。如來知道了，
+<lb n="0140a05" ed="Y"/>就應機宣說。但內容非常類似的<cit><bibl><title level="m">《立世阿毘曇論》</title>，開端就說：</bibl><quote>「如佛婆伽婆及阿羅漢說」</quote><note n="0140018" resp="釋印順" type="orig"><bibl><title level="m">《立世阿毘曇論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:32;page:p173a" type="taisho">三二．一七三上</ref>）。</note></cit>。
 <lb n="0140a06" ed="Y"/>論文中，或標<quote>「如是我聞」</quote>，直錄經文（每有新的成分），或直敘而末了說：<quote>「是義佛世尊說，
 <lb n="0140a07" ed="Y"/>如是我聞」</quote>。這顯然為經說及傳說的類集。從<title level="m">《世記經》</title>、<title level="m">《立世阿毘曇論》</title>的內容來說，一部
 <lb n="0140a08" ed="Y"/>分是見於<title level="m">《雜阿含經》</title>等的。或作佛及阿羅漢說，或作初由比丘們論議，後由佛說。這應解說為
 <lb n="0140a09" ed="Y"/>：這是依據古傳的經說，由眾比丘——阿羅漢們的整理、論議而集成，覺得完全符合如來的意
 <lb n="0140a10" ed="Y"/>思。</p>
-<lb n="0140a11" ed="Y"/><p style="text-indent:2em">說一切有部的<title level="m">《施設論》</title>——<title level="m">《分別世處分》</title>，我以為並非依<title level="m">《長阿含經》</title>的<title level="m">《世記經》</title>造
+<lb n="0140a11" ed="Y"/><p xml:id="pY36p0140a1101" style="text-indent:2em">說一切有部的<title level="m">《施設論》</title>——<title level="m">《分別世處分》</title>，我以為並非依<title level="m">《長阿含經》</title>的<title level="m">《世記經》</title>造
 <lb n="0140a12" ed="Y"/>的。<title level="m">《大智度論》</title>夾注所說，只是譯者或錄寫者所附加，並非論文。因為，編為經的體裁，作為
-<lb n="0140a13" ed="Y"/>佛為眾比丘說，如<title level="m">《世記經》</title>那樣，只是某一部派的傳說<note n="0140019" resp="釋印順" type="orig">法藏部<bibl><title level="m">《四分律》</title><biblScope n="54" type="卷">卷五四</biblScope></bibl>（大正<ref type="taisho" target="#vol:22;page:p968b">二二．九六八中</ref>）；<title level="m">《長阿含經》</title>中，有<title level="m">《世界成敗經》</title>，與漢譯<title level="m">《長阿含經》</title>有<title level="m">《世記經》</title>相合。<title level="m">《世記經》</title>及漢譯<title level="m">《長阿含經》</title>，可能為法藏部誦本。</note>，而不是各派公認的。如銅鍱部的<title level="m">《
+<lb n="0140a13" ed="Y"/>佛為眾比丘說，如<title level="m">《世記經》</title>那樣，只是某一部派的傳說<note n="0140019" resp="釋印順" type="orig">法藏部<bibl><title level="m">《四分律》</title><biblScope n="54" type="卷">卷五四</biblScope></bibl>（大正<ref target="#vol:22;page:p968b" type="taisho">二二．九六八中</ref>）；<title level="m">《長阿含經》</title>中，有<title level="m">《世界成敗經》</title>，與漢譯<title level="m">《長阿含經》</title>有<title level="m">《世記經》</title>相合。<title level="m">《世記經》</title>及漢譯<title level="m">《長阿含經》</title>，可能為法藏部誦本。</note>，而不是各派公認的。如銅鍱部的<title level="m">《
 <lb n="0140a14" ed="Y"/>長部》</title>，就沒有與<title level="m">《世記經》</title>相當的契經。銅鍱部並非沒有說到這些問題，而是沒有集成這樣的
 <lb n="0140a15" ed="Y"/>部類，作為是佛說的。說一切有部的<title level="m">《大毘婆沙論》</title>，論到有關的問題，沒有引用<title level="m">《起世經》</title>，
 <pb n="0141a" ed="Y" xml:id="Y36.0034.0141a"/>
@@ -381,41 +400,41 @@
 <lb n="0142a08" ed="Y"/></cb:div>
 <lb n="0142a09" ed="Y"/>
 <lb n="0142a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">第二項　施設論與說一切有部</cb:mulu><head>第二項　施設論與說一切有部</head>
-<lb n="0142a11" ed="Y"/><p style="text-indent:2em"><title level="m">《施設論》</title>，起初極可能為<title level="a">〈世間施設〉</title>部分，後又增編成八品。以漢譯的<title level="m">《施設論》</title>——
+<lb n="0142a11" ed="Y"/><p xml:id="pY36p0142a1101" style="text-indent:2em"><title level="m">《施設論》</title>，起初極可能為<title level="a">〈世間施設〉</title>部分，後又增編成八品。以漢譯的<title level="m">《施設論》</title>——
 <lb n="0142a12" ed="Y"/><title level="a">〈因施設〉</title>來說，輪王七寶、輪王與佛、生死與動物眼、山林花果、大海、雲雨雷電，與「世間
 <lb n="0142a13" ed="Y"/>施設」有關的問題，仍占十分之五。其餘的，也是因輪王而說到佛與菩薩，神通變化等事情。從
 <lb n="0142a14" ed="Y"/><title level="m">《大毘婆沙論》</title>引文來看，世間安立，死生，神通變化，定慧，是<title level="m">《施設論》</title>所重的，而對業與
 <lb n="0142a15" ed="Y"/>業報，說得特別多。</p>
 <pb n="0143a" ed="Y" xml:id="Y36.0034.0143a"/>
-<lb n="0143a01" ed="Y"/><p style="text-indent:2em"><title level="m">《施設論》</title>，是有古代的論說為基礎的。其淵源，與<title level="m">《長阿含經》</title>的集成，可能有關。<title level="m">《施
+<lb n="0143a01" ed="Y"/><p xml:id="pY36p0143a0101" style="text-indent:2em"><title level="m">《施設論》</title>，是有古代的論說為基礎的。其淵源，與<title level="m">《長阿含經》</title>的集成，可能有關。<title level="m">《施
 <lb n="0143a02" ed="Y"/>設論》</title>的成立，與<title level="m">《世記經》</title>、<title level="m">《立世阿毘曇論》</title>等同時，適應當時佛教界的一般需要而造作，
 <lb n="0143a03" ed="Y"/>離阿育王（<foreign xml:lang="sa">Aśoka</foreign>）的時代不遠。<title level="m">《施設論》</title>，是不限於說一切有部的，如<title level="m">《大毘婆沙論》</title>說：</p>
-<lb n="0143a04" ed="Y"/><quote><p style="margin-left:3em">「有說：四沙門果唯是無為，如分別論者。……彼作是說：無為果中亦可說住，故施設論
+<lb n="0143a04" ed="Y"/><quote><p xml:id="pY36p0143a0401" style="margin-left:3em">「有說：四沙門果唯是無為，如分別論者。……彼作是說：無為果中亦可說住，故施設論
 <lb n="0143a05" ed="Y"/>作如是說：彼住於斷，不求勝進」<note n="0143001" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="65" type="卷">卷六五</biblScope></bibl>（大正<ref target="#vol:27;page:p336c" type="taisho">二七．三三六下</ref>——<ref target="#vol:27;page:p337a" type="taisho">三三七上</ref>）。</note>。</p></quote>
-<lb n="0143a06" ed="Y"/><quote><p style="margin-left:3em">「犢子部分別論者，欲立音聲是異熟果。問：彼由何量作如是說？答：由聖言故。如施設
-<lb n="0143a07" ed="Y"/>論說：何緣菩薩感得梵音大士夫相？菩薩昔餘生中，離<note n="0143a0701" resp="CBETA" type="add">麁【CB】，麤【印順】</note><app n="0143a0701"><lem wit="【CB】" resp="正聞出版社">麁<note type="cf1">《阿毘達磨大毘婆沙論》卷118(CBETA, T27, no. 1545, p. 612, c10-14)</note></lem><rdg wit="【印順】">麤</rdg></app>惡語；此業究竟，得梵音聲。由
-<lb n="0143a08" ed="Y"/>此說故，彼便計聲是異熟果」<note n="0143002" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="118" type="卷">卷一一八</biblScope></bibl>（大正<ref type="taisho" target="#vol:27;page:p612c">二七．六一二下</ref>）。</note>。</p></quote>
-<lb n="0143a09" ed="Y"/><p style="text-indent:2em">依上二文，可見<title level="m">《施設論》</title>是被看作「聖言」的；不但為說一切有部所推重，也是犢子部、
+<lb n="0143a06" ed="Y"/><quote><p xml:id="pY36p0143a0601" style="margin-left:3em">「犢子部分別論者，欲立音聲是異熟果。問：彼由何量作如是說？答：由聖言故。如施設
+<lb n="0143a07" ed="Y"/>論說：何緣菩薩感得梵音大士夫相？菩薩昔餘生中，離<note n="0143a0701" resp="CBETA" type="add">麁【CB】，麤【印順】</note><app n="0143a0701"><lem resp="正聞出版社" wit="【CB】">麁<note type="cf1">《阿毘達磨大毘婆沙論》卷118(CBETA, T27, no. 1545, p. 612, c10-14)</note></lem><rdg wit="【印順】">麤</rdg></app>惡語；此業究竟，得梵音聲。由
+<lb n="0143a08" ed="Y"/>此說故，彼便計聲是異熟果」<note n="0143002" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="118" type="卷">卷一一八</biblScope></bibl>（大正<ref target="#vol:27;page:p612c" type="taisho">二七．六一二下</ref>）。</note>。</p></quote>
+<lb n="0143a09" ed="Y"/><p xml:id="pY36p0143a0901" style="text-indent:2em">依上二文，可見<title level="m">《施設論》</title>是被看作「聖言」的；不但為說一切有部所推重，也是犢子部、
 <lb n="0143a10" ed="Y"/>分別論者——大陸分別說系（通大眾部）所信用。各部都推重這部論，這部論的成立，是不會太
 <lb n="0143a11" ed="Y"/>遲的。說一切有部論師，重視<title level="m">《施設論》</title>，與<title level="m">《集異門論》</title>，<title level="m">《法蘊論》</title>，同樣的推為古傳的摩
 <lb n="0143a12" ed="Y"/>窒里迦；以<title level="m">《施設論》</title>為自部的六論之一。然<title level="m">《施設論》</title>的論義，每與說一切有部主流——<title level="m">《發
 <lb n="0143a13" ed="Y"/>智論》</title>系不合，如<title level="m">《大毘婆沙論》</title>說：</p>
-<lb n="0143a14" ed="Y"/><list rend="no-marker"><item><p style="margin-left:2em;text-indent:-1em">1.<quote>「云何無明？謂過去一切煩惱」</quote><note n="0143003" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="23" type="卷">卷二三</biblScope></bibl>（大正<ref target="#vol:27;page:p119a" type="taisho">二七．一一九上</ref>）。</note>。</p></item>
-<lb n="0143a15" ed="Y"/><item><p style="margin-left:2em;text-indent:-1em">2.<quote>「二唯有漏，謂慚、愧」</quote><note n="0143004" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="35">卷三五</biblScope></bibl>（大正<ref type="taisho" target="#vol:27;page:p181a">二七．一八一上</ref>）。</note>。</p></item>
+<lb n="0143a14" ed="Y"/><list rend="no-marker"><item xml:id="itemY36p0143a1401"><p xml:id="pY36p0143a1401" style="margin-left:2em;text-indent:-1em">1.<quote>「云何無明？謂過去一切煩惱」</quote><note n="0143003" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="23" type="卷">卷二三</biblScope></bibl>（大正<ref target="#vol:27;page:p119a" type="taisho">二七．一一九上</ref>）。</note>。</p></item>
+<lb n="0143a15" ed="Y"/><item xml:id="itemY36p0143a1501"><p xml:id="pY36p0143a1501" style="margin-left:2em;text-indent:-1em">2.<quote>「二唯有漏，謂慚、愧」</quote><note n="0143004" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="35" type="卷">卷三五</biblScope></bibl>（大正<ref target="#vol:27;page:p181a" type="taisho">二七．一八一上</ref>）。</note>。</p></item>
 <pb n="0144a" ed="Y" xml:id="Y36.0034.0144a"/>
-<lb n="0144a01" ed="Y"/><item><p style="margin-left:2em;text-indent:-1em">3.<quote>「男子造業勝非女人，男子練根勝非女人，男子意樂勝非女人」</quote><note n="0144005" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="35" type="卷">卷三五</biblScope></bibl>（大正<ref type="taisho" target="#vol:27;page:p182c">二七．一八二下</ref>）。</note>。</p></item>
-<lb n="0144a02" ed="Y"/><item><p style="margin-left:2em;text-indent:-1em">4.<quote>「何緣故癡增？謂於害界、害想、害尋，若習若修若多所作，彼相應尋，名為害尋」</quote><note n="0144006" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="44">卷四四</biblScope></bibl>（大正<ref target="#vol:27;page:p227a" type="taisho">二七．二二七上</ref>）。</note>
+<lb n="0144a01" ed="Y"/><item xml:id="itemY36p0144a0101"><p xml:id="pY36p0144a0101" style="margin-left:2em;text-indent:-1em">3.<quote>「男子造業勝非女人，男子練根勝非女人，男子意樂勝非女人」</quote><note n="0144005" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="35" type="卷">卷三五</biblScope></bibl>（大正<ref target="#vol:27;page:p182c" type="taisho">二七．一八二下</ref>）。</note>。</p></item>
+<lb n="0144a02" ed="Y"/><item xml:id="itemY36p0144a0201"><p xml:id="pY36p0144a0201" style="margin-left:2em;text-indent:-1em">4.<quote>「何緣故癡增？謂於害界、害想、害尋，若習若修若多所作，彼相應尋，名為害尋」</quote><note n="0144006" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="44" type="卷">卷四四</biblScope></bibl>（大正<ref target="#vol:27;page:p227a" type="taisho">二七．二二七上</ref>）。</note>
 <lb n="0144a03" ed="Y"/>。</p></item>
-<lb n="0144a04" ed="Y"/><item><p style="margin-left:2em;text-indent:-1em">5.<quote>「<note n="0144a0401" resp="CBETA" type="add">贍【CB】，瞻【印順】</note><app n="0144a0401"><lem wit="【CB】" resp="正聞出版社">贍<note type="cf1">《阿毘達磨大毘婆沙論》卷113(CBETA, T27, no. 1545, p. 585, b6-10)</note></lem><rdg wit="【印順】">瞻</rdg></app>部洲人形交成<note n="0144a0402" resp="CBETA" type="add">婬【CB】，淫【印順】</note><app n="0144a0402"><lem wit="【CB】" resp="正聞出版社">婬</lem><rdg wit="【印順】">淫</rdg></app>……他化自在天相顧眄成<note n="0144a0403" resp="CBETA" type="add">婬【CB】，淫【印順】</note><app n="0144a0403"><lem wit="【CB】" resp="正聞出版社">婬</lem><rdg wit="【印順】">淫</rdg></app>」</quote><note n="0144007" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="113">卷一一三</biblScope></bibl>（大正<ref target="#vol:27;page:p585b" type="taisho">二七．五八五中</ref>）。</note>。</p></item></list>
-<lb n="0144a05" ed="Y"/><p style="text-indent:2em">毘婆沙師非常重視<title level="m">《施設論》</title>，引用的多達七十餘則。這是由於「世間施設」，「業施設」
-<lb n="0144a06" ed="Y"/>，當時重視的問題，要借重<title level="m">《施設論》</title>的緣故。但<title level="m">《施設論》</title>義，每與毘婆沙師不合，有的勉<note n="0144a0601" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0144a0601"><lem wit="【CB】" resp="CBETA">強</lem><rdg wit="【印順】">强</rdg></app>
+<lb n="0144a04" ed="Y"/><item xml:id="itemY36p0144a0401"><p xml:id="pY36p0144a0401" style="margin-left:2em;text-indent:-1em">5.<quote>「<note n="0144a0401" resp="CBETA" type="add">贍【CB】，瞻【印順】</note><app n="0144a0401"><lem resp="正聞出版社" wit="【CB】">贍<note type="cf1">《阿毘達磨大毘婆沙論》卷113(CBETA, T27, no. 1545, p. 585, b6-10)</note></lem><rdg wit="【印順】">瞻</rdg></app>部洲人形交成<note n="0144a0402" resp="CBETA" type="add">婬【CB】，淫【印順】</note><app n="0144a0402"><lem resp="正聞出版社" wit="【CB】">婬</lem><rdg wit="【印順】">淫</rdg></app>……他化自在天相顧眄成<note n="0144a0403" resp="CBETA" type="add">婬【CB】，淫【印順】</note><app n="0144a0403"><lem resp="正聞出版社" wit="【CB】">婬</lem><rdg wit="【印順】">淫</rdg></app>」</quote><note n="0144007" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="113" type="卷">卷一一三</biblScope></bibl>（大正<ref target="#vol:27;page:p585b" type="taisho">二七．五八五中</ref>）。</note>。</p></item></list>
+<lb n="0144a05" ed="Y"/><p xml:id="pY36p0144a0501" style="text-indent:2em">毘婆沙師非常重視<title level="m">《施設論》</title>，引用的多達七十餘則。這是由於「世間施設」，「業施設」
+<lb n="0144a06" ed="Y"/>，當時重視的問題，要借重<title level="m">《施設論》</title>的緣故。但<title level="m">《施設論》</title>義，每與毘婆沙師不合，有的勉<note n="0144a0601" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0144a0601"><lem resp="CBETA" wit="【CB】">強</lem><rdg wit="【印順】">强</rdg></app>
 <lb n="0144a07" ed="Y"/>的給予會通，有的就簡單的說：<quote>「彼不應作是說」</quote><note n="0144008" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="23" type="卷">卷二三</biblScope></bibl>（大正<ref target="#vol:27;page:p119a" type="taisho">二七．一一九上</ref>）。</note>。這也可以說明，<title level="m">《施設論》</title>並不是專屬於
 <lb n="0144a08" ed="Y"/>說一切有部的。但由於說一切有部的重視，<title level="m">《施設論》</title>畢竟成為說一切有部的論書了。說一切有
-<lb n="0144a09" ed="Y"/>部的新義，據<title level="m">《大毘婆沙論》</title>所引，已增入不少。如得與得得，九十八隨眠<note n="0144009" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="65">卷六五</biblScope></bibl>（大正<ref type="taisho" target="#vol:27;page:p337c">二七．三三七下</ref>）。</note>，成就不成就<note n="0144010" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="36">卷三六</biblScope></bibl>（大正<ref target="#vol:27;page:p188b" type="taisho">二七．一八八中</ref>）。</note>。
+<lb n="0144a09" ed="Y"/>部的新義，據<title level="m">《大毘婆沙論》</title>所引，已增入不少。如得與得得，九十八隨眠<note n="0144009" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="65" type="卷">卷六五</biblScope></bibl>（大正<ref target="#vol:27;page:p337c" type="taisho">二七．三三七下</ref>）。</note>，成就不成就<note n="0144010" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="36" type="卷">卷三六</biblScope></bibl>（大正<ref target="#vol:27;page:p188b" type="taisho">二七．一八八中</ref>）。</note>。
 <lb n="0144a10" ed="Y"/>九十八隨眠，成就不成就，都是<title level="m">《發智論》</title>時代的論義；而得得，還在<title level="m">《發智論》</title>以後。<title level="m">《發智
 <lb n="0144a11" ed="Y"/>論》</title>學系，將說一切有部的論義，增補在<title level="m">《施設論》</title>中；<title level="m">《大毘婆沙論》</title>以後，才被公認為說一
 <lb n="0144a12" ed="Y"/>切有部的六論之一。<title level="m">《施設論》</title>的說一切有部化，是不會太早的。</p>
-<lb n="0144a13" ed="Y"/><p style="text-indent:2em">在說一切有部的論書中，<title level="m">《施設論》</title>當然是很重要的。但對阿毘達磨論義，也許反而遜色。
+<lb n="0144a13" ed="Y"/><p xml:id="pY36p0144a1301" style="text-indent:2em">在說一切有部的論書中，<title level="m">《施設論》</title>當然是很重要的。但對阿毘達磨論義，也許反而遜色。
 <lb n="0144a14" ed="Y"/>因為<title level="m">《施設論》</title>的根本，是「世間施設」，對有關超越一般常識的事象，綜集一切古傳與新說的
 <lb n="0144a15" ed="Y"/>大成。「因施設」等，也還是繼承這一特色。以超越一般常識的事相為對象，或是關於天象，地
 <pb n="0145a" ed="Y" xml:id="Y36.0034.0145a"/>
@@ -423,29 +442,29 @@
 <lb n="0145a02" ed="Y"/>獄，餓鬼，神通，變化等信仰傳說的問題。對這些問題，憑傳說與推理而作成的答案，這是不可
 <lb n="0145a03" ed="Y"/>避免的，容易陷於謬誤的推理，增加了佛法中的神奇成分。然而，這是當時佛教界的一般要求，
 <lb n="0145a04" ed="Y"/>共同論議；不只是<title level="m">《施設論》</title>如此，更不是說一切有部一部的事。</p>
-<lb n="0145a05" ed="Y"/><p style="text-indent:2em">順應佛教的時代需要，以「世間施設」為主而集成<title level="m">《施設論》</title>。那時的佛教界，業與空——
+<lb n="0145a05" ed="Y"/><p xml:id="pY36p0145a0501" style="text-indent:2em">順應佛教的時代需要，以「世間施設」為主而集成<title level="m">《施設論》</title>。那時的佛教界，業與空——
 <lb n="0145a06" ed="Y"/>兩大論題，已非常的重視。<title level="m">《發智論》</title>本沒有重三三摩地——空空三摩地，無相無相三摩地，無
-<lb n="0145a07" ed="Y"/>願無願三摩地，是<title level="m">《施設論》</title>所說的<note n="0145011" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="105">卷一〇五</biblScope></bibl>（大正<ref type="taisho" target="#vol:27;page:p543a">二七．五四三上</ref>）。</note>。關於空，綜集為十種空，如<bibl><title level="m">《大毘婆沙論》</title><biblScope n="104" type="卷">卷一〇四</biblScope></bibl><note place="inline">
-<lb n="0145a08" ed="Y"/>大正<ref type="taisho" target="#vol:27;page:p540a">二七．五四〇上</ref></note>說：</p>
-<lb n="0145a09" ed="Y"/><quote><p style="margin-left:3em">「施設論說：空有多種，謂內空，外空，內外空，有為空，無為空，無邊際空，本性空，
+<lb n="0145a07" ed="Y"/>願無願三摩地，是<title level="m">《施設論》</title>所說的<note n="0145011" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="105" type="卷">卷一〇五</biblScope></bibl>（大正<ref target="#vol:27;page:p543a" type="taisho">二七．五四三上</ref>）。</note>。關於空，綜集為十種空，如<bibl><title level="m">《大毘婆沙論》</title><biblScope n="104" type="卷">卷一〇四</biblScope></bibl><note place="inline">
+<lb n="0145a08" ed="Y"/>大正<ref target="#vol:27;page:p540a" type="taisho">二七．五四〇上</ref></note>說：</p>
+<lb n="0145a09" ed="Y"/><quote><p xml:id="pY36p0145a0901" style="margin-left:3em">「施設論說：空有多種，謂內空，外空，內外空，有為空，無為空，無邊際空，本性空，
 <lb n="0145a10" ed="Y"/>無所行空，勝義空，空空（如是十種空，如餘處分別）」。</p></quote>
-<lb n="0145a11" ed="Y"/><p style="text-indent:2em"><title level="m">《施設論》</title>對於空義的解說，雖不應加以推測；但<title level="m">《施設論》</title>對於空的重視，是不容懷疑的
-<lb n="0145a12" ed="Y"/>事。對於重三三摩地，有類似單修、重修、圓修的說明，如<bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="104">卷一〇四</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:27;page:p538c">二七．
+<lb n="0145a11" ed="Y"/><p xml:id="pY36p0145a1101" style="text-indent:2em"><title level="m">《施設論》</title>對於空義的解說，雖不應加以推測；但<title level="m">《施設論》</title>對於空的重視，是不容懷疑的
+<lb n="0145a12" ed="Y"/>事。對於重三三摩地，有類似單修、重修、圓修的說明，如<bibl><title level="m">《大毘婆沙論》</title><biblScope n="104" type="卷">卷一〇四</biblScope></bibl><note place="inline">大正<ref target="#vol:27;page:p538c" type="taisho">二七．
 <lb n="0145a13" ed="Y"/>五三八下</ref></note>說：</p>
-<lb n="0145a14" ed="Y"/><quote><p style="margin-left:3em">「施設論中初作是說：空三摩地，是空非無願無相；無願三摩地，是無願非空無相；無相
+<lb n="0145a14" ed="Y"/><quote><p xml:id="pY36p0145a1401" style="margin-left:3em">「施設論中初作是說：空三摩地，是空非無願無相；無願三摩地，是無願非空無相；無相
 <lb n="0145a15" ed="Y"/>三摩地，是無相非空無願」。</p></quote>
 <pb n="0146a" ed="Y" xml:id="Y36.0034.0146a"/>
-<lb n="0146a01" ed="Y"/><quote><p style="margin-left:3em">「即彼論中次作是說：空三摩地，是空亦無願，非無相；無願三摩地，是無願亦空，非無
+<lb n="0146a01" ed="Y"/><quote><p xml:id="pY36p0146a0101" style="margin-left:3em">「即彼論中次作是說：空三摩地，是空亦無願，非無相；無願三摩地，是無願亦空，非無
 <lb n="0146a02" ed="Y"/>相；無相三摩地，唯是無相，非空無願」。</p></quote>
-<lb n="0146a03" ed="Y"/><quote><p style="margin-left:3em">「即彼論中後作是說：空三摩地，是空亦無願無相；無願三摩地，是無願亦空無相；無相
+<lb n="0146a03" ed="Y"/><quote><p xml:id="pY36p0146a0301" style="margin-left:3em">「即彼論中後作是說：空三摩地，是空亦無願無相；無願三摩地，是無願亦空無相；無相
 <lb n="0146a04" ed="Y"/>三摩地，是無相亦空無願」。</p></quote>
-<lb n="0146a05" ed="Y"/><p style="text-indent:2em"><title level="m">《施設論》</title>的本義，是如說一切有部所說的嗎？在佛教界，對於三解脫門，一向有三門別入
+<lb n="0146a05" ed="Y"/><p xml:id="pY36p0146a0501" style="text-indent:2em"><title level="m">《施設論》</title>的本義，是如說一切有部所說的嗎？在佛教界，對於三解脫門，一向有三門別入
 <lb n="0146a06" ed="Y"/>、三門展轉助成、三門實義無別的異說。<title level="m">《施設論》</title>對於三三摩地的見解，是值得重視的了。</p>
-<lb n="0146a07" ed="Y"/><p style="text-indent:2em"><title level="m">《施設論》</title>——富於傳說的、神秘的推理中，唯心論的氣息增<note n="0146a0701" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0146a0701"><lem wit="【CB】" resp="CBETA">強</lem><rdg wit="【印順】">强</rdg></app>了，如<bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="26">卷二
-<lb n="0146a08" ed="Y"/>六</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:27;page:p132a">二七．一三二上</ref></note>說：</p>
-<lb n="0146a09" ed="Y"/><quote><p style="margin-left:3em">「佛告長者：此入出息，是身法，身為本，繫屬身，依身而轉」。</p></quote>
-<lb n="0146a10" ed="Y"/><quote><p style="margin-left:3em">「施設論說：何緣死者入出息不轉耶？謂入出息由心力轉；死者無心，但有身故」。</p></quote>
-<lb n="0146a11" ed="Y"/><p style="text-indent:2em">出入息，佛是作為生理現象的，所以又名「身行」。<title level="m">《施設論》</title>以為由心力而起，雖可能是
+<lb n="0146a07" ed="Y"/><p xml:id="pY36p0146a0701" style="text-indent:2em"><title level="m">《施設論》</title>——富於傳說的、神秘的推理中，唯心論的氣息增<note n="0146a0701" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0146a0701"><lem resp="CBETA" wit="【CB】">強</lem><rdg wit="【印順】">强</rdg></app>了，如<bibl><title level="m">《大毘婆沙論》</title><biblScope n="26" type="卷">卷二
+<lb n="0146a08" ed="Y"/>六</biblScope></bibl><note place="inline">大正<ref target="#vol:27;page:p132a" type="taisho">二七．一三二上</ref></note>說：</p>
+<lb n="0146a09" ed="Y"/><quote><p xml:id="pY36p0146a0901" style="margin-left:3em">「佛告長者：此入出息，是身法，身為本，繫屬身，依身而轉」。</p></quote>
+<lb n="0146a10" ed="Y"/><quote><p xml:id="pY36p0146a1001" style="margin-left:3em">「施設論說：何緣死者入出息不轉耶？謂入出息由心力轉；死者無心，但有身故」。</p></quote>
+<lb n="0146a11" ed="Y"/><p xml:id="pY36p0146a1101" style="text-indent:2em">出入息，佛是作為生理現象的，所以又名「身行」。<title level="m">《施設論》</title>以為由心力而起，雖可能是
 <lb n="0146a12" ed="Y"/>由禪定的部分經驗而引出的結論，但不免偏於心了。</p>
 <lb n="0146a13" ed="Y"/>
 <lb n="0146a14" ed="Y"/>
@@ -461,31 +480,31 @@
 <lb n="0147a08" ed="Y"/></cb:div></cb:div>
 <lb n="0147a09" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第五節　阿毘達磨品類足論</cb:mulu><head>第五節　阿毘達磨品類足論</head>
 <lb n="0147a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">第一項　傳譯與作者</cb:mulu><head>第一項　傳譯與作者</head>
-<lb n="0147a11" ed="Y"/><p style="text-indent:2em">六分阿毘達磨中，<title level="m">《阿毘達磨品類論》</title>，表達了阿毘達磨思想的圓熟階段。<title level="m">《品類論》</title>雖是
+<lb n="0147a11" ed="Y"/><p xml:id="pY36p0147a1101" style="text-indent:2em">六分阿毘達磨中，<title level="m">《阿毘達磨品類論》</title>，表達了阿毘達磨思想的圓熟階段。<title level="m">《品類論》</title>雖是
 <lb n="0147a12" ed="Y"/>屬於<title level="m">《發智論》</title>系的，但地位幾乎與<title level="m">《發智論》</title>相等。大乘的龍樹（<foreign xml:lang="sa">Nāgārjuna</foreign>），於法相分別
 <lb n="0147a13" ed="Y"/>，大抵取<title level="m">《品類論》</title>說，而不取<title level="m">《發智論》</title>與<title level="m">《大毘婆沙論》</title>。在說一切有部的阿毘達磨論書中
 <pb n="0148a" ed="Y" xml:id="Y36.0034.0148a"/>
 <lb n="0148a01" ed="Y"/>，<title level="m">《發智論》</title>而外，這是最值得重視的名著了。</p>
-<lb n="0148a02" ed="Y"/><p style="text-indent:2em"><title level="m">《阿毘達磨品類論》</title>，玄奘於顯慶五年（西元六六〇年）譯出，十八卷，分八品。異譯有宋
+<lb n="0148a02" ed="Y"/><p xml:id="pY36p0148a0201" style="text-indent:2em"><title level="m">《阿毘達磨品類論》</title>，玄奘於顯慶五年（西元六六〇年）譯出，十八卷，分八品。異譯有宋
 <lb n="0148a03" ed="Y"/>求那跋陀羅（<foreign xml:lang="sa">Guṇabhadra</foreign>）譯的，名<title level="m">《眾事分阿毘曇論》</title>，十二卷，也分八品。這二部，都是全
 <lb n="0148a04" ed="Y"/>譯。此外，<title level="m">《品類論》</title>第一<title level="a">〈辯五事品〉</title>，後漢建和二年（西元一四八）來中國的安世高，曾譯
 <lb n="0148a05" ed="Y"/>為<title level="m">《阿毘曇五法行經》</title>，一卷。唐大番國沙門法成，譯為<title level="m">《薩婆多宗五事論》</title>，一卷。從漢到唐
 <lb n="0148a06" ed="Y"/>，<title level="m">《品類論》</title>的<title level="a">〈辯五事品〉</title>，單行流通，是非常盛行的。安譯的<title level="m">《阿毘曇五法行經》</title>，在分別
 <lb n="0148a07" ed="Y"/>五法以前，有八智，十六行相，四諦——一段。這應該是譯者取別處文句，附於論前的；其他的
 <lb n="0148a08" ed="Y"/>譯本都沒有這一段，不應該為此而作不必要的推論。</p>
-<lb n="0148a09" ed="Y"/><p style="text-indent:2em"><title level="m">《品類論》</title>是世友（<foreign xml:lang="sa">Vasumitra</foreign>）造的，這是一致的傳說。這位世友，是否<title level="m">《大毘婆沙論》</title>
+<lb n="0148a09" ed="Y"/><p xml:id="pY36p0148a0901" style="text-indent:2em"><title level="m">《品類論》</title>是世友（<foreign xml:lang="sa">Vasumitra</foreign>）造的，這是一致的傳說。這位世友，是否<title level="m">《大毘婆沙論》</title>
 <lb n="0148a10" ed="Y"/>所說的，四大論師之一呢？四大論師之一的世友，是<title level="m">《發智論》</title>的權威學者。九十八隨眠說，傳
 <lb n="0148a11" ed="Y"/>為<title level="m">《發智論》</title>主的創說；<title level="m">《品類論》</title>已充分引用，可見<title level="m">《品類論》</title>也是成於<title level="m">《發智論》</title>以後的。
 <lb n="0148a12" ed="Y"/>我以為：<title level="m">《品類論》</title>作者世友，就是<title level="m">《大毘婆沙論》</title>所說的，四大論師之一的世友。約為西元前
 <lb n="0148a13" ed="Y"/>一〇〇年頃人。至於傳說他為婆沙評家，主持第三結集，到下面再為論說。</p>
-<lb n="0148a14" ed="Y"/><p style="text-indent:2em"><title level="m">《品類論》</title>八品，傳說為世友所造，但其中還有分別，如<bibl><title level="m">《大智度論》</title><biblScope type="卷" n="2">卷二</biblScope></bibl><note place="inline">大正<ref target="#vol:25;page:p70a" type="taisho">二五．七〇上</ref>
+<lb n="0148a14" ed="Y"/><p xml:id="pY36p0148a1401" style="text-indent:2em"><title level="m">《品類論》</title>八品，傳說為世友所造，但其中還有分別，如<bibl><title level="m">《大智度論》</title><biblScope n="2" type="卷">卷二</biblScope></bibl><note place="inline">大正<ref target="#vol:25;page:p70a" type="taisho">二五．七〇上</ref>
 <lb n="0148a15" ed="Y"/></note>說：</p>
 <pb n="0149a" ed="Y" xml:id="Y36.0034.0149a"/>
-<lb n="0149a01" ed="Y"/><quote><p style="margin-left:3em">「六分中，初分八品，四品是婆須蜜菩薩作，四品是罽賓阿羅漢作」。</p></quote>
-<lb n="0149a02" ed="Y"/><p style="text-indent:2em">這是龍樹所知所傳的古說。世友所作的，僅有四品，是那四品呢？呂澂曾推論為：<title level="a">〈諸處品
-<lb n="0149a03" ed="Y"/>〉</title>，<title level="a">〈七事品〉</title>，<title level="a">〈隨眠品〉</title>，<title level="a">〈攝等品〉</title>——四品，是世友所作<note n="0149001" resp="釋印順" type="orig"><bibl>呂澂<title level="a">〈阿毘達磨泛論〉</title>（<title level="j">《內學》</title><biblScope n="2" type="輯">第二輯</biblScope><biblScope type="pp" n="167">一六七</biblScope>）</bibl>。</note><note n="0149001" resp="正聞出版社" type="mod"><bibl>呂澂<title level="a">〈阿毘達磨汎論〉</title>（<title level="j">《內學》</title><biblScope n="2" type="輯">第二輯</biblScope><biblScope type="pp" n="167">一六七</biblScope>）</bibl>。</note>。這是不能輕率論定的，試
+<lb n="0149a01" ed="Y"/><quote><p xml:id="pY36p0149a0101" style="margin-left:3em">「六分中，初分八品，四品是婆須蜜菩薩作，四品是罽賓阿羅漢作」。</p></quote>
+<lb n="0149a02" ed="Y"/><p xml:id="pY36p0149a0201" style="text-indent:2em">這是龍樹所知所傳的古說。世友所作的，僅有四品，是那四品呢？呂澂曾推論為：<title level="a">〈諸處品
+<lb n="0149a03" ed="Y"/>〉</title>，<title level="a">〈七事品〉</title>，<title level="a">〈隨眠品〉</title>，<title level="a">〈攝等品〉</title>——四品，是世友所作<note n="0149001" resp="釋印順" type="orig"><bibl>呂澂<title level="a">〈阿毘達磨泛論〉</title>（<title level="j">《內學》</title><biblScope n="2" type="輯">第二輯</biblScope><biblScope n="167" type="pp">一六七</biblScope>）</bibl>。</note><note n="0149001" resp="正聞出版社" type="mod"><bibl>呂澂<title level="a">〈阿毘達磨汎論〉</title>（<title level="j">《內學》</title><biblScope n="2" type="輯">第二輯</biblScope><biblScope n="167" type="pp">一六七</biblScope>）</bibl>。</note>。這是不能輕率論定的，試
 <lb n="0149a04" ed="Y"/>先審查全論八品的內容：</p>
-<lb n="0149a05" ed="Y"/><p style="text-indent:2em">一、<title level="a">〈辯五事品〉</title>：以色、心、心所、心不相應行、無為——五事，統攝一切法（阿毘達磨
+<lb n="0149a05" ed="Y"/><p xml:id="pY36p0149a0501" style="text-indent:2em">一、<title level="a">〈辯五事品〉</title>：以色、心、心所、心不相應行、無為——五事，統攝一切法（阿毘達磨
 <lb n="0149a06" ed="Y"/>舊義，以蘊、界、處攝一切法）。這是繼承<title level="m">《發智論》</title>的分別，而整理成章的；明諸法的自相分
 <lb n="0149a07" ed="Y"/>別。二、<title level="a">〈辯諸智品〉</title>：依上品所說的十智，作所緣，（智與智）相攝，有漏、無漏，有漏緣、
 <lb n="0149a08" ed="Y"/>無漏緣，有為、無為，有為緣、無為緣——六門分別。三、<title level="a">〈辯諸處品〉</title>：舉十二處，以有色、
@@ -494,7 +513,7 @@
 <lb n="0149a11" ed="Y"/>品〉</title>：首列十八界……六愛身，次一一解說（<title level="m">《眾事分阿毘曇論》</title>，缺解說）。然後以界、蘊、
 <lb n="0149a12" ed="Y"/>處，作攝不攝、相應不相應的分別。五、<title level="a">〈辯隨眠品〉</title>：這是本論最精密的一品；先以九十八隨眠
 <lb n="0149a13" ed="Y"/>為本，作欲界繫、色界繫、無色界繫，見斷、修斷，見苦所斷、見集所斷、見滅所斷、見道所斷
-<lb n="0149a14" ed="Y"/>、修所斷（這<note n="0149a1401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0149a1401"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，插入隨眠定義，九十八隨眠與七隨眠，十二隨眠的相攝），遍行、非遍行，有
+<lb n="0149a14" ed="Y"/>、修所斷（這<note n="0149a1401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0149a1401"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，插入隨眠定義，九十八隨眠與七隨眠，十二隨眠的相攝），遍行、非遍行，有
 <lb n="0149a15" ed="Y"/>漏緣、無漏緣，有為緣、無為緣，所緣隨增、相應隨增——七門分別。其次，又就九十八隨眠，
 <pb n="0150a" ed="Y" xml:id="Y36.0034.0150a"/>
 <lb n="0150a01" ed="Y"/>類分為二十法，唯二十法，二十心，四十八心，三十六隨眠，四十八無明；一一作所緣隨增、相
@@ -502,23 +521,23 @@
 <lb n="0150a03" ed="Y"/>十一，五法門五，六法門二，七法門三，八法門三，九法門二，十法門二，十一法門一，十二法
 <lb n="0150a04" ed="Y"/>門一，十八法門一，二十二法門一，九十八法門一，共一百八十二法門。其次，一一的解說。然
 <lb n="0150a05" ed="Y"/>後以蘊處界攝、智知、識識、隨眠隨增——作四門分別。七、<title level="a">〈辯千問品〉</title>：依<title level="m">《法蘊論》</title>的十
-<lb n="0150a06" ed="Y"/>八法門，一一以五十問（五十門分別）來分別。八、<title level="a">〈辯<note n="0150a0601" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0150a0601"><lem wit="【CB】" resp="正聞出版社">決<note type="cf1">《阿毘達磨品類足論》卷18〈8 辨決擇品〉(CBETA, T26, no. 1542, p. 766, a6)</note></lem><rdg wit="【印順】">抉</rdg></app>擇品〉</title>：是依<title level="a">〈諸處品〉</title>造的。先列舉
+<lb n="0150a06" ed="Y"/>八法門，一一以五十問（五十門分別）來分別。八、<title level="a">〈辯<note n="0150a0601" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0150a0601"><lem resp="正聞出版社" wit="【CB】">決<note type="cf1">《阿毘達磨品類足論》卷18〈8 辨決擇品〉(CBETA, T26, no. 1542, p. 766, a6)</note></lem><rdg wit="【印順】">抉</rdg></app>擇品〉</title>：是依<title level="a">〈諸處品〉</title>造的。先列舉
 <lb n="0150a07" ed="Y"/>有色、無色等三十三法門，就是<title level="a">〈諸處品〉</title>用來分別的法門。次列舉蘊、界、處、根、隨眠——
 <lb n="0150a08" ed="Y"/>五門，就是<title level="a">〈諸處品〉</title>用來論相攝的。綜合了上說的三十八法門，然後以蘊處界攝、智知、識識
 <lb n="0150a09" ed="Y"/>、隨眠隨增——四門作分別，與<title level="a">〈辯攝等品〉</title>的意趣相同。</p>
-<lb n="0150a10" ed="Y"/><p style="text-indent:2em">經上面的內容分析，發見了<title level="m">《品類論》</title>的八品，的確是分為兩大類的：Ⅰ承受古論而改造的
+<lb n="0150a10" ed="Y"/><p xml:id="pY36p0150a1001" style="text-indent:2em">經上面的內容分析，發見了<title level="m">《品類論》</title>的八品，的確是分為兩大類的：Ⅰ承受古論而改造的
 <lb n="0150a11" ed="Y"/>；Ⅱ整理古說而創新的。各有四品如下：</p>
-<lb n="0150a12" ed="Y"/><list rend="no-marker"><item><p style="margin-left:2em;text-indent:-1em">Ⅰ<title level="a">〈辯七事品〉</title>．<title level="a">〈辯攝等品〉</title>．<title level="a">〈辯千問品〉</title>．<title level="a">〈辯<note n="0150a1201" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0150a1201"><lem wit="【CB】" resp="正聞出版社">決</lem><rdg wit="【印順】">抉</rdg></app>擇品〉</title></p></item>
-<lb n="0150a13" ed="Y"/><item><p style="margin-left:2em;text-indent:-1em">Ⅱ<title level="a">〈辯五事品〉</title>．<title level="a">〈辯諸智品〉</title>．<title level="a">〈辯諸處品〉</title>．<title level="a">〈辯隨眠品〉</title></p></item></list>
-<lb n="0150a14" ed="Y"/><p style="text-indent:2em">先論承受古論而改造為說一切有部論書的。一、<title level="a">〈辯七事品〉</title>：與銅鍱部的<title level="m">《界論》</title>（<title level="m">《舍
-<lb n="0150a15" ed="Y"/>利弗阿毘曇論》</title>的<title level="a">〈攝相應分〉</title>），是源於同一古典，而部派不同。<title level="m">《界論》</title><note n="0150002" resp="釋印順" type="orig"><title level="m">《界論》</title>（南傳四七．二一三）。</note>與<title level="a">〈七事品〉</title><note n="0150003" resp="釋印順" type="orig"><bibl><title level="m">《品類論》</title><biblScope type="卷" n="2">卷二</biblScope></bibl>（大正<ref target="#vol:26;page:p698b" type="taisho">二六．六九八中</ref>——下）。</note>
+<lb n="0150a12" ed="Y"/><list rend="no-marker"><item xml:id="itemY36p0150a1201"><p xml:id="pY36p0150a1201" style="margin-left:2em;text-indent:-1em">Ⅰ<title level="a">〈辯七事品〉</title>．<title level="a">〈辯攝等品〉</title>．<title level="a">〈辯千問品〉</title>．<title level="a">〈辯<note n="0150a1201" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0150a1201"><lem resp="正聞出版社" wit="【CB】">決</lem><rdg wit="【印順】">抉</rdg></app>擇品〉</title></p></item>
+<lb n="0150a13" ed="Y"/><item xml:id="itemY36p0150a1301"><p xml:id="pY36p0150a1301" style="margin-left:2em;text-indent:-1em">Ⅱ<title level="a">〈辯五事品〉</title>．<title level="a">〈辯諸智品〉</title>．<title level="a">〈辯諸處品〉</title>．<title level="a">〈辯隨眠品〉</title></p></item></list>
+<lb n="0150a14" ed="Y"/><p xml:id="pY36p0150a1401" style="text-indent:2em">先論承受古論而改造為說一切有部論書的。一、<title level="a">〈辯七事品〉</title>：與銅鍱部的<title level="m">《界論》</title>（<title level="m">《舍
+<lb n="0150a15" ed="Y"/>利弗阿毘曇論》</title>的<title level="a">〈攝相應分〉</title>），是源於同一古典，而部派不同。<title level="m">《界論》</title><note n="0150002" resp="釋印順" type="orig"><title level="m">《界論》</title>（南傳四七．二一三）。</note>與<title level="a">〈七事品〉</title><note n="0150003" resp="釋印順" type="orig"><bibl><title level="m">《品類論》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:26;page:p698b" type="taisho">二六．六九八中</ref>——下）。</note>
 <pb n="0151a" ed="Y" xml:id="Y36.0034.0151a"/>
 <lb n="0151a01" ed="Y"/>所舉的法門，對列如下：</p>
-<lb n="0151a02" ed="Y"/><table cols="2" style="margin-left:3em" rend="no-border"><row><cell><seg style="border-style:solid;border-width:1px;padding:5px">界論</seg></cell><cell><seg style="border-style:solid;border-width:1px;padding:5px">品類論辯七事品</seg></cell></row><row><cell>
+<lb n="0151a02" ed="Y"/><table cols="2" rend="no-border" style="margin-left:3em"><row><cell><seg style="border-style:solid;border-width:1px;padding:5px">界論</seg></cell><cell><seg style="border-style:solid;border-width:1px;padding:5px">品類論辯七事品</seg></cell></row><row><cell>
 <lb n="0151a03" ed="Y"/>五蘊．十二處．十八界</cell><cell>十八界．十二處．五蘊．五取蘊．六界</cell></row><row><cell>
 <lb n="0151a04" ed="Y"/>四諦．二十二根．緣起．四念處．四正勝．四正勤．四靜慮．四無量．五根．五力．七覺支．八聖道支</cell><cell>十大地法．十大善地法．十大煩惱地法．十小煩惱地法．五煩惱．五觸．五見．五根．五法</cell></row><row><cell>
 <lb n="0151a05" ed="Y"/>觸．受．想．思．心．勝解．作意</cell><cell>六識身．六觸身．六受身．六想身．六思身．六愛身</cell></row></table>
-<lb n="0151a06" ed="Y"/><p style="text-indent:2em"><title level="m">《界論》</title>與<title level="a">〈七事品〉</title>，前列蘊、界、處，後列觸、受、想、思、識，可說是完全一致的。
+<lb n="0151a06" ed="Y"/><p xml:id="pY36p0151a0601" style="text-indent:2em"><title level="m">《界論》</title>與<title level="a">〈七事品〉</title>，前列蘊、界、處，後列觸、受、想、思、識，可說是完全一致的。
 <lb n="0151a07" ed="Y"/>中間部分，<title level="m">《界論》</title>還是古型的——<title level="m">《分別論》</title>、<title level="m">《法蘊論》</title>等品目；而<title level="a">〈七事品〉</title>已進入新階
 <lb n="0151a08" ed="Y"/>段，心所法已作成不同的分類。對於上列的法門，<title level="m">《界論》</title>以三法——蘊、界、處，作攝與不攝
 <lb n="0151a09" ed="Y"/>的分別；以四法——受、想、行、識，作相應不相應的分別。而<title level="a">〈七事品〉</title>，以界、處、蘊，分
@@ -527,26 +546,26 @@
 <lb n="0151a12" ed="Y"/>在可以斷論：這都是依古傳而來的。<title level="m">《界身論》</title>的界，是從<title level="m">《界論》</title>的界來的。而所以稱為「七
 <pb n="0152a" ed="Y" xml:id="Y36.0034.0152a"/>
 <lb n="0152a01" ed="Y"/>事」，應該是淵源於古論的三法——蘊、界、處；四法——受、想、行、識而得名的。</p>
-<lb n="0152a02" ed="Y"/><p style="text-indent:2em">二、<title level="a">〈辯攝等品〉</title>：上面曾說到：<bibl>《<title level="m">舍利弗阿毘曇論</title>．<title level="a">非問分</title>．<title level="a">界品</title>》</bibl>，銅鍱部<title level="m">《法集
+<lb n="0152a02" ed="Y"/><p xml:id="pY36p0152a0201" style="text-indent:2em">二、<title level="a">〈辯攝等品〉</title>：上面曾說到：<bibl>《<title level="m">舍利弗阿毘曇論</title>．<title level="a">非問分</title>．<title level="a">界品</title>》</bibl>，銅鍱部<title level="m">《法集
 <lb n="0152a03" ed="Y"/>論》</title>的<title level="a">〈概說品〉</title>，與<title level="m">《品類論》</title>的<title level="a">〈辯攝等品〉</title>，是一脈相通的<note n="0152004" resp="釋印順" type="orig">本書第二章第二節第四項。</note>。<title level="a">〈辯攝等品〉</title>，<title level="m">《眾事分
-<lb n="0152a04" ed="Y"/>阿毘曇論》</title>作<title level="a">〈分別攝品〉</title>，<title level="m">《大智度論》</title>引文作<title level="a">〈攝法品〉</title>。攝法（<foreign xml:lang="sa"><note n="0152a0401" resp="CBETA" type="add">Dharmasaṃgraha【CB】，Dharmasaṁgraha【印順】</note><app n="0152a0401"><lem wit="【CB】" resp="正聞出版社">Dharmasaṃgraha</lem><rdg wit="【印順】">Dharmasaṁgraha</rdg></app></foreign>）與法
-<lb n="0152a05" ed="Y"/>集（<foreign xml:lang="pi"><note n="0152a0501" resp="CBETA" type="add">Dhammasaṃgaṇi【CB】，Dhammasaṁgaṇi【印順】</note><app n="0152a0501"><lem wit="【CB】" resp="正聞出版社">Dhammasaṃgaṇi</lem><rdg wit="【印順】">Dhammasaṁgaṇi</rdg></app></foreign>），是完全同一的。<title level="m">《品類論》</title>的<title level="a">〈辯攝等品〉</title>，承受古型的「界」——
+<lb n="0152a04" ed="Y"/>阿毘曇論》</title>作<title level="a">〈分別攝品〉</title>，<title level="m">《大智度論》</title>引文作<title level="a">〈攝法品〉</title>。攝法（<foreign xml:lang="sa"><note n="0152a0401" resp="CBETA" type="add">Dharmasaṃgraha【CB】，Dharmasaṁgraha【印順】</note><app n="0152a0401"><lem resp="正聞出版社" wit="【CB】">Dharmasaṃgraha</lem><rdg wit="【印順】">Dharmasaṁgraha</rdg></app></foreign>）與法
+<lb n="0152a05" ed="Y"/>集（<foreign xml:lang="pi"><note n="0152a0501" resp="CBETA" type="add">Dhammasaṃgaṇi【CB】，Dhammasaṁgaṇi【印順】</note><app n="0152a0501"><lem resp="正聞出版社" wit="【CB】">Dhammasaṃgaṇi</lem><rdg wit="【印順】">Dhammasaṁgaṇi</rdg></app></foreign>），是完全同一的。<title level="m">《品類論》</title>的<title level="a">〈辯攝等品〉</title>，承受古型的「界」——
 <lb n="0152a06" ed="Y"/>論母、論門，而附以蘊處界攝，智知，識識，隨眠隨增——阿毘達磨的新分別。</p>
-<lb n="0152a07" ed="Y"/><p style="text-indent:2em">三、<title level="a">〈辯千問品〉</title>：依古阿毘達磨，<title level="m">《法蘊論》</title>的論題，而作諸門分別，這是不消多說的。
-<lb n="0152a08" ed="Y"/>然對「千問」的意義，還值得考慮。奘譯<bibl><title level="m">《品類論》</title>（<title level="a">〈辯千問品〉</title>）<biblScope n="10" type="卷">卷一〇</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:26;page:p733a">二六．七三三上</ref>
+<lb n="0152a07" ed="Y"/><p xml:id="pY36p0152a0701" style="text-indent:2em">三、<title level="a">〈辯千問品〉</title>：依古阿毘達磨，<title level="m">《法蘊論》</title>的論題，而作諸門分別，這是不消多說的。
+<lb n="0152a08" ed="Y"/>然對「千問」的意義，還值得考慮。奘譯<bibl><title level="m">《品類論》</title>（<title level="a">〈辯千問品〉</title>）<biblScope n="10" type="卷">卷一〇</biblScope></bibl><note place="inline">大正<ref target="#vol:26;page:p733a" type="taisho">二六．七三三上</ref>
 <lb n="0152a09" ed="Y"/></note>說：</p>
-<lb n="0152a10" ed="Y"/><quote><p style="margin-left:3em">「學處淨果行聖種，正斷神足念住諦，靜慮無量無色定，覺分根處蘊界經。……經謂頌中
+<lb n="0152a10" ed="Y"/><quote><p xml:id="pY36p0152a1001" style="margin-left:3em">「學處淨果行聖種，正斷神足念住諦，靜慮無量無色定，覺分根處蘊界經。……經謂頌中
 <lb n="0152a11" ed="Y"/>前九後九，及各總為一，合有二十經。依一一經，為前五十問」。</p></quote>
-<lb n="0152a12" ed="Y"/><p style="text-indent:2em"><title level="m">《眾事分阿毘曇論》</title>，雖分列前九後九——十八經，但沒有總經；就是<title level="m">《品類論》</title>，也是沒
+<lb n="0152a12" ed="Y"/><p xml:id="pY36p0152a1201" style="text-indent:2em"><title level="m">《眾事分阿毘曇論》</title>，雖分列前九後九——十八經，但沒有總經；就是<title level="m">《品類論》</title>，也是沒
 <lb n="0152a13" ed="Y"/>有的。所以，奘譯本想依二十經，各五十問，合成千問，以解說「千問品」的名義，與實際是不
 <lb n="0152a14" ed="Y"/>相符合的。考<bibl><title level="m">《大智度論》</title><biblScope n="18" type="卷">卷一八</biblScope></bibl><note place="inline">大正<ref target="#vol:25;page:p195a" type="taisho">二五．一九五上</ref></note>說：</p>
-<lb n="0152a15" ed="Y"/><quote><p style="margin-left:3em">「一切法攝入二法中，所謂名、色，色、無色，可見、不可見，有對、無對，有漏、無漏
+<lb n="0152a15" ed="Y"/><quote><p xml:id="pY36p0152a1501" style="margin-left:3em">「一切法攝入二法中，所謂名、色，色、無色，可見、不可見，有對、無對，有漏、無漏
 <pb n="0153a" ed="Y" xml:id="Y36.0034.0153a"/>
 <lb n="0153a01" ed="Y"/>，有為、無為等，二百二法門，如千難品說」。</p></quote>
-<lb n="0153a02" ed="Y"/><p style="text-indent:2em">又<title level="m">《論》</title>卷二七<note place="inline">大正<ref target="#vol:25;page:p259b" type="taisho">二五．二五九中</ref>——下</note>說：</p>
-<lb n="0153a03" ed="Y"/><quote><p style="margin-left:3em">「一切法，所謂色、無色法，可見、不可見，有對、無對，有漏、無漏……如是等無量二
+<lb n="0153a02" ed="Y"/><p xml:id="pY36p0153a0201" style="text-indent:2em">又<title level="m">《論》</title>卷二七<note place="inline">大正<ref target="#vol:25;page:p259b" type="taisho">二五．二五九中</ref>——下</note>說：</p>
+<lb n="0153a03" ed="Y"/><quote><p xml:id="pY36p0153a0301" style="margin-left:3em">「一切法，所謂色、無色法，可見、不可見，有對、無對，有漏、無漏……如是等無量二
 <lb n="0153a04" ed="Y"/>法門攝一切法，如阿毘曇攝法品中說」。</p></quote>
-<lb n="0153a05" ed="Y"/><p style="text-indent:2em">「千難品」，是「千問品」的異譯。所說的<quote>「二百二法門」</quote>，應讀為<quote>「二，百二法門」</quote>；就
+<lb n="0153a05" ed="Y"/><p xml:id="pY36p0153a0501" style="text-indent:2em">「千難品」，是「千問品」的異譯。所說的<quote>「二百二法門」</quote>，應讀為<quote>「二，百二法門」</quote>；就
 <lb n="0153a06" ed="Y"/>是二數的法門，有百零二門。這與<title level="a">〈辯攝等品〉</title>（就是<title level="a">〈攝法品〉</title>）的百零三門，<title level="m">《法集論》</title>的
 <lb n="0153a07" ed="Y"/>百門，雖次第與內容有出入，但數目是非常接近的。據龍樹所見的，<title level="a">〈千問品〉</title>與<title level="a">〈攝法品〉</title>，
 <lb n="0153a08" ed="Y"/>是一樣的。這在銅鍱部：<title level="m">《法集論》</title>是二數的百法門；<title level="m">《分別論》</title>的<title level="a">〈問分〉</title>（論門分別），
@@ -559,9 +578,9 @@
 <lb n="0153a15" ed="Y"/>利弗阿毘曇論</title>．<title level="a">問分</title>》</bibl>，與<title level="a">〈辯千問品〉</title>相當。這都是承受古型的阿毘達磨，而成為某一部派
 <pb n="0154a" ed="Y" xml:id="Y36.0034.0154a"/>
 <lb n="0154a01" ed="Y"/>的新論書。</p>
-<lb n="0154a02" ed="Y"/><p style="text-indent:2em">四、<title level="a">〈辯<note n="0154a0201" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0154a0201"><lem wit="【CB】" resp="正聞出版社">決</lem><rdg wit="【印順】">抉</rdg></app>擇品〉</title>：如上所說，是成立於<title level="a">〈諸處品〉</title>以後。四門分別，與<title level="a">〈辯攝等品〉</title>相同
+<lb n="0154a02" ed="Y"/><p xml:id="pY36p0154a0201" style="text-indent:2em">四、<title level="a">〈辯<note n="0154a0201" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0154a0201"><lem resp="正聞出版社" wit="【CB】">決</lem><rdg wit="【印順】">抉</rdg></app>擇品〉</title>：如上所說，是成立於<title level="a">〈諸處品〉</title>以後。四門分別，與<title level="a">〈辯攝等品〉</title>相同
 <lb n="0154a03" ed="Y"/>；雖不是承受古論而成，但屬於<title level="a">〈辯攝等品〉</title>一流。</p>
-<lb n="0154a04" ed="Y"/><p style="text-indent:2em">再說整理古說而創新的。<title level="a">〈辯五事品〉</title>等四品，是有一貫性的：1.<title level="a">〈辯五事品〉</title>統攝一切法
+<lb n="0154a04" ed="Y"/><p xml:id="pY36p0154a0401" style="text-indent:2em">再說整理古說而創新的。<title level="a">〈辯五事品〉</title>等四品，是有一貫性的：1.<title level="a">〈辯五事品〉</title>統攝一切法
 <lb n="0154a05" ed="Y"/>。對於心所法，十大地法而外，分為二類，善的與不善的。不善的，以<quote>「一切結、縛、隨眠、隨
 <lb n="0154a06" ed="Y"/>煩惱、纏」</quote>為總結。善的，以<quote>「諸所有智，諸所有見，諸所有現觀」</quote>為總結。不善心所中，詳說
 <lb n="0154a07" ed="Y"/>七隨眠，分成九十八隨眠；善心所中，詳說十智。<title level="a">〈辯諸智品〉</title>，<title level="a">〈辯隨眠品〉</title>，就依此而為獨
@@ -574,26 +593,26 @@
 <lb n="0154a14" ed="Y"/>辯五事品〉</title>。作自相分別，攝一切法（代替固有的蘊、界、處）；阿毘達磨的面目一新，成為北
 <lb n="0154a15" ed="Y"/>方佛教最受推重的分類法。3.這四品的成立，阿毘達磨的論門分別，也進入一新的階段。如<bibl><title level="m">《阿
 <pb n="0155a" ed="Y" xml:id="Y36.0034.0155a"/>
-<lb n="0155a01" ed="Y"/>毘曇心論》</title><biblScope type="卷" n="4">卷四</biblScope></bibl><note place="inline">大正<ref target="#vol:28;page:p830b" type="taisho">二八．八三〇中</ref></note>說：</p>
-<lb n="0155a02" ed="Y"/><quote><p style="margin-left:3em">「此佛說契經，顯示於三門，識智及諸使（隨眠的舊譯），分別此三門」。</p></quote>
-<lb n="0155a03" ed="Y"/><p style="text-indent:2em">這重要的三門分別，實從<title level="m">《品類論》</title>的四品而來。<title level="a">〈辯諸智品〉</title>，明智所知。<title level="a">〈辯諸處品〉</title>
+<lb n="0155a01" ed="Y"/>毘曇心論》</title><biblScope n="4" type="卷">卷四</biblScope></bibl><note place="inline">大正<ref target="#vol:28;page:p830b" type="taisho">二八．八三〇中</ref></note>說：</p>
+<lb n="0155a02" ed="Y"/><quote><p xml:id="pY36p0155a0201" style="margin-left:3em">「此佛說契經，顯示於三門，識智及諸使（隨眠的舊譯），分別此三門」。</p></quote>
+<lb n="0155a03" ed="Y"/><p xml:id="pY36p0155a0301" style="text-indent:2em">這重要的三門分別，實從<title level="m">《品類論》</title>的四品而來。<title level="a">〈辯諸智品〉</title>，明智所知。<title level="a">〈辯諸處品〉</title>
 <lb n="0155a04" ed="Y"/>，明識所識。<title level="a">〈辯隨眠品〉</title>，明隨眠所隨增。<bibl><title level="m">《大毘婆沙論》</title><biblScope n="108" type="卷">卷一〇八</biblScope></bibl><note place="inline">大正<ref target="#vol:27;page:p558a" type="taisho">二七．五五八上</ref></note>說：</p>
-<lb n="0155a05" ed="Y"/><quote><p style="margin-left:3em">「若問攝，應依十八界審思而答。若問識，應依十二處審思而答。若問隨眠，應依五部審
+<lb n="0155a05" ed="Y"/><quote><p xml:id="pY36p0155a0501" style="margin-left:3em">「若問攝，應依十八界審思而答。若問識，應依十二處審思而答。若問隨眠，應依五部審
 <lb n="0155a06" ed="Y"/>思而答。若問智，應依四聖諦審思而答。如是諸義，易可顯示」。</p></quote>
-<lb n="0155a07" ed="Y"/><p style="text-indent:2em"><title level="m">《大毘婆沙論》</title>，以<title level="m">《發智論》</title>為宗，所以約界（蘊、界、處）攝法（仍用阿毘達磨舊義）
+<lb n="0155a07" ed="Y"/><p xml:id="pY36p0155a0701" style="text-indent:2em"><title level="m">《大毘婆沙論》</title>，以<title level="m">《發智論》</title>為宗，所以約界（蘊、界、處）攝法（仍用阿毘達磨舊義）
 <lb n="0155a08" ed="Y"/>，約處明識所識，約四諦（十智依四諦等分別而成）明智所知，約五部（七隨眠約三界、五部分
-<lb n="0155a09" ed="Y"/>別，成九十八）明隨眠所隨增。如依上說的四品，<note n="0155a0901" resp="CBETA" type="add" subtype="規範字詞">那麼【CB】，那末【印順】</note><app n="0155a0901"><lem wit="【CB】" resp="CBETA">那麼</lem><rdg wit="【印順】">那末</rdg></app>，如要攝法，應依五事（這到大乘中才廣
+<lb n="0155a09" ed="Y"/>別，成九十八）明隨眠所隨增。如依上說的四品，<note n="0155a0901" resp="CBETA" type="add" subtype="規範字詞">那麼【CB】，那末【印順】</note><app n="0155a0901"><lem resp="CBETA" wit="【CB】">那麼</lem><rdg wit="【印順】">那末</rdg></app>，如要攝法，應依五事（這到大乘中才廣
 <lb n="0155a10" ed="Y"/>泛應用）。這四品的統系，試列表如下：</p>
-<lb n="0155a11" ed="Y"/><p cb:type="pre">　　　辯五事品─────五事（自相）分別─────攝所攝
+<lb n="0155a11" ed="Y"/><p cb:type="pre" xml:id="pY36p0155a1101">　　　辯五事品─────五事（自相）分別─────攝所攝
 <lb n="0155a12" ed="Y"/>　　　辯諸處品─┬───諸門（共相）分別
 <lb n="0155a13" ed="Y"/>　　　　　　　　└────────────────識所識
 <lb n="0155a14" ed="Y"/>　　　辯諸智品──────────────────智所知
 <lb n="0155a15" ed="Y"/>　　　辯隨眠品──────────────────隨眠所隨增</p>
 <pb n="0156a" ed="Y" xml:id="Y36.0034.0156a"/>
-<lb n="0156a01" ed="Y"/><p style="text-indent:2em"><title level="m">《品類論》</title>八品，龍樹說：四品是婆須蜜——世友作。我以為就是：<title level="a">〈辯五事品〉</title>，<title level="a">〈辯諸
+<lb n="0156a01" ed="Y"/><p xml:id="pY36p0156a0101" style="text-indent:2em"><title level="m">《品類論》</title>八品，龍樹說：四品是婆須蜜——世友作。我以為就是：<title level="a">〈辯五事品〉</title>，<title level="a">〈辯諸
 <lb n="0156a02" ed="Y"/>處品〉</title>，<title level="a">〈辯諸智品〉</title>，<title level="a">〈辯隨眠品〉</title>。世友為健馱羅（<foreign xml:lang="sa">Gandhāra</foreign>）的大論師，繼承<title level="m">《發智論》</title>
 <lb n="0156a03" ed="Y"/>而有卓越的建樹。這四品，意義一貫，代表了世友的思想。其他四品，主要為淵源古論而改造為
-<lb n="0156a04" ed="Y"/>說一切有部的。<title level="a">〈辯攝等品〉</title>、<title level="a">〈辯<note n="0156a0401" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0156a0401"><lem wit="【CB】" resp="正聞出版社">決</lem><rdg wit="【印順】">抉</rdg></app>擇品〉</title>，都以蘊處界攝、識識、智知、隨眠隨增——四門
+<lb n="0156a04" ed="Y"/>說一切有部的。<title level="a">〈辯攝等品〉</title>、<title level="a">〈辯<note n="0156a0401" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0156a0401"><lem resp="正聞出版社" wit="【CB】">決</lem><rdg wit="【印順】">抉</rdg></app>擇品〉</title>，都以蘊處界攝、識識、智知、隨眠隨增——四門
 <lb n="0156a05" ed="Y"/>分別，與迦溼彌羅（<foreign xml:lang="sa">Kaśmīra</foreign>）毘婆沙師說相合；與龍樹的傳說——<quote>「四品是罽賓阿羅漢作」</quote>，
 <lb n="0156a06" ed="Y"/>也完全符合。</p>
 <lb n="0156a07" ed="Y"/>
@@ -601,7 +620,7 @@
 <lb n="0156a09" ed="Y"/>
 <lb n="0156a10" ed="Y"/></cb:div>
 <lb n="0156a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">第二項　世友品類論的特色</cb:mulu><head>第二項　世友品類論的特色</head>
-<lb n="0156a12" ed="Y"/><p style="text-indent:2em">依經分別，古以五蘊或十二處攝一切法。眼、耳、鼻、舌、身、色、聲、香、味、觸——十
+<lb n="0156a12" ed="Y"/><p xml:id="pY36p0156a1201" style="text-indent:2em">依經分別，古以五蘊或十二處攝一切法。眼、耳、鼻、舌、身、色、聲、香、味、觸——十
 <lb n="0156a13" ed="Y"/>色處是色蘊；意處是識蘊；法處是受蘊、想蘊、行蘊，及五蘊所不攝的無為法。這是古典的、經
 <lb n="0156a14" ed="Y"/>師的分類法。上座系阿毘達磨論師的論義，如<cit><bibl><title level="m">《分別論》</title>十二處分別說：</bibl><quote>「云何法處？受蘊，想
 <pb n="0157a" ed="Y" xml:id="Y36.0034.0157a"/>
@@ -609,21 +628,21 @@
 <lb n="0157a02" ed="Y"/>達磨論師的分類表，有了新的進步。但銅鍱部不再深究，止於這一階段，所以在有為法中，形成
 <lb n="0157a03" ed="Y"/>色心二元論，說命根有色與心的二類等。大陸的分別說系，說一切有系，有了進一步的建立，就
 <lb n="0157a04" ed="Y"/>是「心不相應法」，如<bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:28;page:p528c" type="taisho">二八．五二八下</ref></note>說：</p>
-<lb n="0157a05" ed="Y"/><quote><p style="margin-left:3em">「法入，是名一二分，或心相應，或非心相應。云何法入心相應？若法入心數，受、想乃
+<lb n="0157a05" ed="Y"/><quote><p xml:id="pY36p0157a0501" style="margin-left:3em">「法入，是名一二分，或心相應，或非心相應。云何法入心相應？若法入心數，受、想乃
 <lb n="0157a06" ed="Y"/>至煩惱使。云何法入非心相應？若法入非心數，生乃至非想非非想智」。</p></quote>
-<lb n="0157a07" ed="Y"/><p style="text-indent:2em">「心相應」，「非心相應」，本是阿毘達磨的論門（論母）。<title level="m">《舍利弗阿毘曇論》</title>，也是成
+<lb n="0157a07" ed="Y"/><p xml:id="pY36p0157a0701" style="text-indent:2em">「心相應」，「非心相應」，本是阿毘達磨的論門（論母）。<title level="m">《舍利弗阿毘曇論》</title>，也是成
 <lb n="0157a08" ed="Y"/>立這二類的。所說的非心相應，在法入中，無為法也攝在非心相應以內。在行陰中，非心相應是
-<lb n="0157a09" ed="Y"/>：<quote>「行陰若非心數，生乃至滅盡定」</quote><note n="0157002" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope type="卷" n="3">卷三</biblScope></bibl>（大正<ref target="#vol:28;page:p547b" type="taisho">二八．五四七中</ref>）。</note>。這一分別，已接近「心相應行」、「心不相應行」了。
+<lb n="0157a09" ed="Y"/>：<quote>「行陰若非心數，生乃至滅盡定」</quote><note n="0157002" resp="釋印順" type="orig"><bibl><title level="m">《舍利弗阿毘曇論》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref target="#vol:28;page:p547b" type="taisho">二八．五四七中</ref>）。</note>。這一分別，已接近「心相應行」、「心不相應行」了。
 <lb n="0157a10" ed="Y"/>但<title level="m">《舍利弗阿毘曇論》</title>，只是否定的，稱之為非心相應，而不是肯定的，稱之為心不相應。從非
 <lb n="0157a11" ed="Y"/>心相應到心不相應，似乎是理念上的死結，再也意會不過來。所以<title level="m">《舍利弗阿毘曇論》</title>，也就停
 <lb n="0157a12" ed="Y"/>止在那一階段。在說一切有部中，到<title level="m">《發智論》</title>，才明確的見到成立了「心不相應行」，如論異
-<lb n="0157a13" ed="Y"/>熟因時說：<quote>「色、心、心所法、心不相應行」</quote><note n="0157003" resp="釋印順" type="orig"><bibl><title level="m">《發智論》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref target="#vol:26;page:p920c" type="taisho">二六．九二〇下</ref>）。</note>。又如說：<quote>「依命根、眾同分，及餘如是類心不
-<lb n="0157a14" ed="Y"/>相應行」</quote><note n="0157004" resp="釋印順" type="orig"><bibl><title level="m">《發智論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:26;page:p921c">二六．九二一下</ref>）。</note>。世友（<foreign xml:lang="sa">Vasumitra</foreign>）承受論師們的論究成果，不再為蘊、界、處攝法的舊形式所拘
+<lb n="0157a13" ed="Y"/>熟因時說：<quote>「色、心、心所法、心不相應行」</quote><note n="0157003" resp="釋印順" type="orig"><bibl><title level="m">《發智論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:26;page:p920c" type="taisho">二六．九二〇下</ref>）。</note>。又如說：<quote>「依命根、眾同分，及餘如是類心不
+<lb n="0157a14" ed="Y"/>相應行」</quote><note n="0157004" resp="釋印順" type="orig"><bibl><title level="m">《發智論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:26;page:p921c" type="taisho">二六．九二一下</ref>）。</note>。世友（<foreign xml:lang="sa">Vasumitra</foreign>）承受論師們的論究成果，不再為蘊、界、處攝法的舊形式所拘
 <lb n="0157a15" ed="Y"/>束，而提出了以五事——色、心、心所、心不相應行、無為來攝一切法。這不能不說是卓越的成
 <pb n="0158a" ed="Y" xml:id="Y36.0034.0158a"/>
 <lb n="0158a01" ed="Y"/>就！這難怪<title level="a">〈五事品〉</title>的單行流通，從後漢到晚唐，一再譯傳到中國來，受到大乘瑜伽者的厚愛
 <lb n="0158a02" ed="Y"/>了。現在根據<title level="a">〈辯五事品〉</title>，列五事攝法表如下：</p>
-<lb n="0158a03" ed="Y"/><p cb:type="pre">　　　　　　┌能造色───地．水．火．風
+<lb n="0158a03" ed="Y"/><p cb:type="pre" xml:id="pY36p0158a0301">　　　　　　┌能造色───地．水．火．風
 <lb n="0158a04" ed="Y"/>　　　色──┤　　　┌眼．耳．鼻．舌．身
 <lb n="0158a05" ed="Y"/>　　　　　　└所造色┤色．聲．香．味．觸一分
 <lb n="0158a06" ed="Y"/>　　　　　　　　　　└無表色
@@ -643,33 +662,33 @@
 <lb n="0159a02" ed="Y"/>　　　　　　　　　　│生．老．住．無常性
 <lb n="0159a03" ed="Y"/>　　　　　　　　　　└名身．句身．文身等
 <lb n="0159a04" ed="Y"/>　　　無為法─────虛空．非擇滅．擇滅</p>
-<lb n="0159a05" ed="Y"/><p style="text-indent:2em">從五事攝法表來看，心不相應行，已大體完成。得，本從眾生初生的「得依、得事、得處」
+<lb n="0159a05" ed="Y"/><p xml:id="pY36p0159a0501" style="text-indent:2em">從五事攝法表來看，心不相應行，已大體完成。得，本從眾生初生的「得依、得事、得處」
 <lb n="0159a06" ed="Y"/>，及修證的得定、得果而來，所以都列舉出來。心所法還在初階段，受、想……定、慧，是十大
-<lb n="0159a07" ed="Y"/>地法，出於<bibl>《<title level="m">發智論</title>．<title level="a">智納息</title>》</bibl><note n="0159005" resp="釋印順" type="orig"><bibl><title level="m">《發智論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:26;page:p920c">二六．九二〇下</ref>）。</note>。念、定、慧連下文讀，與信、勤合為五根；尋與伺，是禪
+<lb n="0159a07" ed="Y"/>地法，出於<bibl>《<title level="m">發智論</title>．<title level="a">智納息</title>》</bibl><note n="0159005" resp="釋印順" type="orig"><bibl><title level="m">《發智論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:26;page:p920c" type="taisho">二六．九二〇下</ref>）。</note>。念、定、慧連下文讀，與信、勤合為五根；尋與伺，是禪
 <lb n="0159a08" ed="Y"/>支：這都是古代修證論的重要心所。此下，善不善相對。應斷的煩惱，以經說的結、縛等為代表
 <lb n="0159a09" ed="Y"/>；應修的智慧，以智、見、現觀為代表。這一心所的分類，還是古典的；可見<title level="m">《品類論》</title>主世友
 <lb n="0159a10" ed="Y"/>的時代，是並不太遲的。世友為<title level="m">《發智論》</title>的大家，但不立異生性，與<title level="m">《發智論》</title>的見解，多少
 <lb n="0159a11" ed="Y"/>有些不同。這所以<title level="m">《大毘婆沙論》</title>集成以後，部分不滿專宗<title level="m">《發智》</title>——毘婆沙師的論師，造作
 <lb n="0159a12" ed="Y"/>論書，都繼承世友的傳統。</p>
-<lb n="0159a13" ed="Y"/><p style="text-indent:2em"><title level="m">《法蘊論》</title>的<title level="a">〈蘊品〉</title>與<title level="a">〈處品〉</title>，所說心所法與心不相應行<note n="0159006" resp="釋印順" type="orig"><bibl><title level="m">《法蘊論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:26;page:p500c">二六．五〇〇下</ref>）。</note>，都與<title level="a">〈辯五事品〉</title>一樣。
+<lb n="0159a13" ed="Y"/><p xml:id="pY36p0159a1301" style="text-indent:2em"><title level="m">《法蘊論》</title>的<title level="a">〈蘊品〉</title>與<title level="a">〈處品〉</title>，所說心所法與心不相應行<note n="0159006" resp="釋印順" type="orig"><bibl><title level="m">《法蘊論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:26;page:p500c" type="taisho">二六．五〇〇下</ref>）。</note>，都與<title level="a">〈辯五事品〉</title>一樣。
 <lb n="0159a14" ed="Y"/>福原亮嚴解說為：世友繼承<title level="m">《法蘊論》</title>的成果<note n="0159007" resp="釋印順" type="orig"><bibl>福原亮嚴<title level="m">《有部阿毘達磨論書之發達》</title><biblScope from="158" to="160" type="pp">（一五八——一六〇）</biblScope></bibl>。</note>。<title level="m">《法蘊論》</title>，當然是有古傳淵源的，早於<title level="m">《品
 <lb n="0159a15" ed="Y"/>類論》</title>的，但內容卻在不斷的增改中。沙門果有有為與無為，出於<title level="m">《施設論》</title>；九十八隨眠，出
 <pb n="0160a" ed="Y" xml:id="Y36.0034.0160a"/>
 <lb n="0160a01" ed="Y"/>於<title level="m">《發智論》</title>。所以心相應、心不相應行的分類，不是<title level="m">《法蘊論》</title>創說，為<title level="m">《品類論》</title>所稟承，
 <lb n="0160a02" ed="Y"/>反而是依<title level="m">《品類論》</title>的新說，充實了古傳的<title level="m">《法蘊論》</title>。這在上面已經說到；如泛說<title level="m">《法蘊論》</title>
 <lb n="0160a03" ed="Y"/>為古型的，將陷於嚴重的誤解<note n="0160008" resp="釋印順" type="orig">本書本章第二節。</note>！至於<title level="a">〈辯七事品〉</title>的心所法分類，當在下一節說明。</p>
-<lb n="0160a04" ed="Y"/><p style="text-indent:2em"><title level="m">《品類論》</title>的另一特色，是不泛論一切，而集中於有代表性的法門。如通一切法的蘊、處、
+<lb n="0160a04" ed="Y"/><p xml:id="pY36p0160a0401" style="text-indent:2em"><title level="m">《品類論》</title>的另一特色，是不泛論一切，而集中於有代表性的法門。如通一切法的蘊、處、
 <lb n="0160a05" ed="Y"/>界，取處；種種智慧中，取十智；種種煩惱中，取九十八隨眠（七隨眠）。這比之<title level="m">《發智論》</title>的
 <lb n="0160a06" ed="Y"/>廣泛，更為精簡，成為後代阿毘達磨論典型。其中，隨眠——<title level="a">〈辯隨眠品〉</title>的精密論究，更為世
 <lb n="0160a07" ed="Y"/>友的特長。不但<title level="a">〈辯隨眠品〉</title>，<title level="a">〈辯五事品〉</title>也廣明隨眠。<title level="a">〈辯諸處品〉</title>的三十三門分別中，除
-<lb n="0160a08" ed="Y"/>常例的見修非所斷——三斷門外，<note n="0160a0801" resp="CBETA" type="add" subtype="規範字詞">並【CB】，并【印順】</note><app n="0160a0801"><lem wit="【CB】" resp="CBETA">並</lem><rdg wit="【印順】">并</rdg></app>出六斷門。以五法門攝法中，最後也就是九十八隨眠。世友
+<lb n="0160a08" ed="Y"/>常例的見修非所斷——三斷門外，<note n="0160a0801" resp="CBETA" type="add" subtype="規範字詞">並【CB】，并【印順】</note><app n="0160a0801"><lem resp="CBETA" wit="【CB】">並</lem><rdg wit="【印順】">并</rdg></app>出六斷門。以五法門攝法中，最後也就是九十八隨眠。世友
 <lb n="0160a09" ed="Y"/>是重視隨眠論的；<title level="m">《大毘婆沙論》</title>所引的世友說，也可見對於隨眠論的重視：</p>
-<lb n="0160a10" ed="Y"/><list rend="no-marker"><item><p style="margin-left:2em;text-indent:-1em">1.<quote>「由四事故，說諸隨眠有隨增義」</quote><note n="0160009" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="22" type="卷">卷二二</biblScope></bibl>（大正<ref type="taisho" target="#vol:27;page:p112a">二七．一一二上</ref>）。</note>。</p></item>
-<lb n="0160a11" ed="Y"/><item><p style="margin-left:2em;text-indent:-1em">2.<quote>「由五事故，諸隨眠斷」</quote><note n="0160010" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="22" type="卷">卷二二</biblScope></bibl>（大正<ref target="#vol:27;page:p114b" type="taisho">二七．一一四中</ref>）。</note>。</p></item>
-<lb n="0160a12" ed="Y"/><item><p style="margin-left:2em;text-indent:-1em">3.<quote>「相應隨眠染汙心故，所緣隨眠不如是故」</quote><note n="0160011" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="112">卷一一二</biblScope></bibl>（大正<ref type="taisho" target="#vol:27;page:p112a">二七．一一二上</ref>）。</note>。</p></item></list>
-<lb n="0160a13" ed="Y"/><p style="text-indent:2em">世友造<title level="m">《品類論》</title>——四品，引起了說一切有部阿毘達磨論者的推重。於是罽賓論師，在世
-<lb n="0160a14" ed="Y"/>友學的基礎上，取古傳的論義，而改作為<title level="a">〈辯七事品〉</title>，<title level="a">〈辯攝等品〉</title>，<title level="a">〈辯千問品〉</title>，<title level="a">〈辯<note n="0160a1401" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0160a1401"><lem wit="【CB】" resp="正聞出版社">決</lem><rdg wit="【印順】">抉</rdg></app>擇
-<lb n="0160a15" ed="Y"/>品〉</title>。而<title level="a">〈辯攝等品〉</title>與<title level="a">〈辯<note n="0160a1501" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0160a1501"><lem wit="【CB】" resp="正聞出版社">決</lem><rdg wit="【印順】">抉</rdg></app>擇品〉</title>，也就立蘊處界攝、智知、識識、隨眠隨增——四門分別
+<lb n="0160a10" ed="Y"/><list rend="no-marker"><item xml:id="itemY36p0160a1001"><p xml:id="pY36p0160a1001" style="margin-left:2em;text-indent:-1em">1.<quote>「由四事故，說諸隨眠有隨增義」</quote><note n="0160009" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="22" type="卷">卷二二</biblScope></bibl>（大正<ref target="#vol:27;page:p112a" type="taisho">二七．一一二上</ref>）。</note>。</p></item>
+<lb n="0160a11" ed="Y"/><item xml:id="itemY36p0160a1101"><p xml:id="pY36p0160a1101" style="margin-left:2em;text-indent:-1em">2.<quote>「由五事故，諸隨眠斷」</quote><note n="0160010" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="22" type="卷">卷二二</biblScope></bibl>（大正<ref target="#vol:27;page:p114b" type="taisho">二七．一一四中</ref>）。</note>。</p></item>
+<lb n="0160a12" ed="Y"/><item xml:id="itemY36p0160a1201"><p xml:id="pY36p0160a1201" style="margin-left:2em;text-indent:-1em">3.<quote>「相應隨眠染汙心故，所緣隨眠不如是故」</quote><note n="0160011" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="112" type="卷">卷一一二</biblScope></bibl>（大正<ref target="#vol:27;page:p112a" type="taisho">二七．一一二上</ref>）。</note>。</p></item></list>
+<lb n="0160a13" ed="Y"/><p xml:id="pY36p0160a1301" style="text-indent:2em">世友造<title level="m">《品類論》</title>——四品，引起了說一切有部阿毘達磨論者的推重。於是罽賓論師，在世
+<lb n="0160a14" ed="Y"/>友學的基礎上，取古傳的論義，而改作為<title level="a">〈辯七事品〉</title>，<title level="a">〈辯攝等品〉</title>，<title level="a">〈辯千問品〉</title>，<title level="a">〈辯<note n="0160a1401" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0160a1401"><lem resp="正聞出版社" wit="【CB】">決</lem><rdg wit="【印順】">抉</rdg></app>擇
+<lb n="0160a15" ed="Y"/>品〉</title>。而<title level="a">〈辯攝等品〉</title>與<title level="a">〈辯<note n="0160a1501" resp="CBETA" type="add">決【CB】，抉【印順】</note><app n="0160a1501"><lem resp="正聞出版社" wit="【CB】">決</lem><rdg wit="【印順】">抉</rdg></app>擇品〉</title>，也就立蘊處界攝、智知、識識、隨眠隨增——四門分別
 <pb n="0161a" ed="Y" xml:id="Y36.0034.0161a"/>
 <lb n="0161a01" ed="Y"/>。總編為八品的<title level="m">《品類論》</title>，而傳說為一切是世友所造的。</p>
 <lb n="0161a02" ed="Y"/>
@@ -684,22 +703,22 @@
 <lb n="0161a11" ed="Y"/>
 <lb n="0161a12" ed="Y"/></cb:div></cb:div>
 <lb n="0161a13" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第六節　阿毘達磨界身足論</cb:mulu><head>第六節　阿毘達磨界身足論</head>
-<lb n="0161a14" ed="Y"/><p style="text-indent:2em"><title level="m">《阿毘達磨界身足論》</title>，玄奘於龍朔三年（西元六六三）譯出，凡三卷。全論分為二品：一
+<lb n="0161a14" ed="Y"/><p xml:id="pY36p0161a1401" style="text-indent:2em"><title level="m">《阿毘達磨界身足論》</title>，玄奘於龍朔三年（西元六六三）譯出，凡三卷。全論分為二品：一
 <lb n="0161a15" ed="Y"/>、<title level="a">〈本事品〉</title>，與<title level="m">《品類論》</title>的<title level="a">〈辯七事品〉</title>相同，只是減略些。二、<title level="a">〈分別品〉</title>。這是六論中
 <pb n="0162a" ed="Y" xml:id="Y36.0034.0162a"/>
 <lb n="0162a01" ed="Y"/>最後出的；因為與<title level="m">《品類論》</title>的<title level="a">〈辯七事品〉</title>有關，所以先為論究。</p>
-<lb n="0162a02" ed="Y"/><p style="text-indent:2em">沙門釋基的<title level="a">〈界身足論後序〉</title><note place="inline">大正<ref type="taisho" target="#vol:26;page:p625c">二六．六二五下</ref></note>說：</p>
-<lb n="0162a03" ed="Y"/><quote><p style="margin-left:3em">「原其大本，頌有六千。後以文繁，或致刪略為九百頌，或五百頌者。今此所翻，有八百
+<lb n="0162a02" ed="Y"/><p xml:id="pY36p0162a0201" style="text-indent:2em">沙門釋基的<title level="a">〈界身足論後序〉</title><note place="inline">大正<ref target="#vol:26;page:p625c" type="taisho">二六．六二五下</ref></note>說：</p>
+<lb n="0162a03" ed="Y"/><quote><p xml:id="pY36p0162a0301" style="margin-left:3em">「原其大本，頌有六千。後以文繁，或致刪略為九百頌，或五百頌者。今此所翻，有八百
 <lb n="0162a04" ed="Y"/>三十頌」。</p></quote>
-<lb n="0162a05" ed="Y"/><p style="text-indent:2em">序文說到廣本與略本，而<title level="m">《界身論》</title>又與<title level="m">《品類論》</title>的<title level="a">〈七事品〉</title>有關，所以福原亮嚴，同
+<lb n="0162a05" ed="Y"/><p xml:id="pY36p0162a0501" style="text-indent:2em">序文說到廣本與略本，而<title level="m">《界身論》</title>又與<title level="m">《品類論》</title>的<title level="a">〈七事品〉</title>有關，所以福原亮嚴，同
 <lb n="0162a06" ed="Y"/>意<title level="m">《品類論》</title>為<title level="m">《界身論》</title>的延長與擴大的說法<note n="0162001" resp="釋印順" type="orig"><bibl>福原亮嚴<title level="m">《有部阿毘達磨論書之發達》</title><biblScope n="129" type="pp">（一二九）</biblScope></bibl>。</note>。這就是以略本為<title level="m">《界身論》</title>，廣本為<title level="m">《品類
-<lb n="0162a07" ed="Y"/>論》</title>。呂澂也同意這種意見<note n="0162002" resp="釋印順" type="orig"><bibl>呂澂<title level="a">〈阿毘達磨泛論〉</title>（<title level="j">《內學》</title><biblScope n="2" type="輯">第二輯</biblScope><biblScope type="pp" n="166">一六六</biblScope>）</bibl>。</note><note n="0162002" resp="正聞出版社" type="mod"><bibl>呂澂<title level="a">〈阿毘達磨汎論〉</title>（<title level="j">《內學》</title><biblScope n="2" type="輯">第二輯</biblScope><biblScope type="pp" n="166">一六六</biblScope>）</bibl>。</note>。其實，這是不正確的。<title level="m">《品類論》</title>本為四品；<title level="a">〈辯七事品〉</title>是增
+<lb n="0162a07" ed="Y"/>論》</title>。呂澂也同意這種意見<note n="0162002" resp="釋印順" type="orig"><bibl>呂澂<title level="a">〈阿毘達磨泛論〉</title>（<title level="j">《內學》</title><biblScope n="2" type="輯">第二輯</biblScope><biblScope n="166" type="pp">一六六</biblScope>）</bibl>。</note><note n="0162002" resp="正聞出版社" type="mod"><bibl>呂澂<title level="a">〈阿毘達磨汎論〉</title>（<title level="j">《內學》</title><biblScope n="2" type="輯">第二輯</biblScope><biblScope n="166" type="pp">一六六</biblScope>）</bibl>。</note>。其實，這是不正確的。<title level="m">《品類論》</title>本為四品；<title level="a">〈辯七事品〉</title>是增
 <lb n="0162a08" ed="Y"/>補四品的一品。<title level="m">《界身論》</title>與<title level="a">〈辯七事品〉</title>有關，不應推論為與<title level="m">《品類論》</title>全論有關。略本與廣
 <lb n="0162a09" ed="Y"/>本的傳說，應從<title level="m">《界身論》</title>自身，去尋求正確的意義。<title level="m">《界身論》</title>的<title level="a">〈分別品〉</title>，這樣說：</p>
-<lb n="0162a10" ed="Y"/><quote><p style="margin-left:3em">「（第四門）如以受對六觸身，對六想身，六思身，廣說亦爾」<note n="0162003" resp="釋印順" type="orig"><bibl><title level="m">《界身論》</title><biblScope n="中" type="卷">卷中</biblScope></bibl>（大正<ref target="#vol:26;page:p619a" type="taisho">二六．六一九上</ref>）。</note>。</p></quote>
-<lb n="0162a11" ed="Y"/><quote><p style="margin-left:3em">「（第十五門）由斯理趣，其懈怠等諸門差別，應依前說一行方便，如理應思」<note n="0162004" resp="釋印順" type="orig"><bibl><title level="m">《界身論》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:26;page:p624b" type="taisho">二六．六二四中</ref>）。</note>。</p></quote>
-<lb n="0162a12" ed="Y"/><quote><p style="margin-left:3em">「（第十六門）如是略說有十六門，若廣說有八十八門」<note n="0162005" resp="釋印順" type="orig"><bibl><title level="m">《界身論》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref type="taisho" target="#vol:26;page:p625c">二六．六二五下</ref>）。</note>。</p></quote>
-<lb n="0162a13" ed="Y"/><p style="text-indent:2em"><title level="m">《界身論》</title>的刪略，就在這<note n="0162a1301" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0162a1301"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>。<title level="a">〈分別品〉</title>共分十六門。初三門是：受根相應不相應門，識
+<lb n="0162a10" ed="Y"/><quote><p xml:id="pY36p0162a1001" style="margin-left:3em">「（第四門）如以受對六觸身，對六想身，六思身，廣說亦爾」<note n="0162003" resp="釋印順" type="orig"><bibl><title level="m">《界身論》</title><biblScope n="中" type="卷">卷中</biblScope></bibl>（大正<ref target="#vol:26;page:p619a" type="taisho">二六．六一九上</ref>）。</note>。</p></quote>
+<lb n="0162a11" ed="Y"/><quote><p xml:id="pY36p0162a1101" style="margin-left:3em">「（第十五門）由斯理趣，其懈怠等諸門差別，應依前說一行方便，如理應思」<note n="0162004" resp="釋印順" type="orig"><bibl><title level="m">《界身論》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:26;page:p624b" type="taisho">二六．六二四中</ref>）。</note>。</p></quote>
+<lb n="0162a12" ed="Y"/><quote><p xml:id="pY36p0162a1201" style="margin-left:3em">「（第十六門）如是略說有十六門，若廣說有八十八門」<note n="0162005" resp="釋印順" type="orig"><bibl><title level="m">《界身論》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:26;page:p625c" type="taisho">二六．六二五下</ref>）。</note>。</p></quote>
+<lb n="0162a13" ed="Y"/><p xml:id="pY36p0162a1301" style="text-indent:2em"><title level="m">《界身論》</title>的刪略，就在這<note n="0162a1301" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0162a1301"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>。<title level="a">〈分別品〉</title>共分十六門。初三門是：受根相應不相應門，識
 <lb n="0162a14" ed="Y"/>相應不相應門，無慚無愧相應不相應門。第四門起，是相攝門。依「一行」論法，從（十大地法
 <lb n="0162a15" ed="Y"/>的初二法）受相應、想不相應，何所攝起，到意觸所生思相應、意觸所生受不相應，何所攝止，
 <pb n="0163a" ed="Y" xml:id="Y36.0034.0163a"/>
@@ -708,8 +727,8 @@
 <lb n="0163a03" ed="Y"/>兩門，更為簡略，總攝了七十四門——十二到八十五門的內容。這樣的簡略，凡八百三十頌；如
 <lb n="0163a04" ed="Y"/>八十五門都分別廣說，就有六千頌了。廣本與略本，是<title level="m">《界身論》</title>自身的事，與<title level="m">《品類論》</title>無關
 <lb n="0163a05" ed="Y"/>。</p>
-<lb n="0163a06" ed="Y"/><p style="text-indent:2em"><title level="m">《界身論》</title>的<title level="a">〈本事品〉</title><note n="0163006" resp="釋印順" type="orig"><bibl><title level="m">《界身論》</title><biblScope type="卷" n="上">卷上</biblScope></bibl>（大正<ref target="#vol:26;page:p614b" type="taisho">二六．六一四中</ref>）。</note>，是依<title level="m">《品類論》</title>的<title level="a">〈辯七事品〉</title><note n="0163007" resp="釋印順" type="orig"><bibl><title level="m">《品類論》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref type="taisho" target="#vol:26;page:p698b">二六．六九八中</ref>——下）。</note>，而多少減略些。如下：</p>
-<lb n="0163a07" ed="Y"/><table cols="2" style="margin-left:3em" rend="no-border"><row><cell><seg style="border-style:solid;border-width:1px;padding:5px">品類論七事品</seg></cell><cell><seg style="border-style:solid;border-width:1px;padding:5px">界身論本事品</seg></cell></row><row><cell>
+<lb n="0163a06" ed="Y"/><p xml:id="pY36p0163a0601" style="text-indent:2em"><title level="m">《界身論》</title>的<title level="a">〈本事品〉</title><note n="0163006" resp="釋印順" type="orig"><bibl><title level="m">《界身論》</title><biblScope n="上" type="卷">卷上</biblScope></bibl>（大正<ref target="#vol:26;page:p614b" type="taisho">二六．六一四中</ref>）。</note>，是依<title level="m">《品類論》</title>的<title level="a">〈辯七事品〉</title><note n="0163007" resp="釋印順" type="orig"><bibl><title level="m">《品類論》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:26;page:p698b" type="taisho">二六．六九八中</ref>——下）。</note>，而多少減略些。如下：</p>
+<lb n="0163a07" ed="Y"/><table cols="2" rend="no-border" style="margin-left:3em"><row><cell><seg style="border-style:solid;border-width:1px;padding:5px">品類論七事品</seg></cell><cell><seg style="border-style:solid;border-width:1px;padding:5px">界身論本事品</seg></cell></row><row><cell>
 <lb n="0163a08" ed="Y"/>十八界．十二處</cell><cell></cell></row><row><cell>
 <lb n="0163a09" ed="Y"/>五蘊．五取蘊．六界</cell><cell></cell></row><row><cell>
 <lb n="0163a10" ed="Y"/>十大地法</cell><cell>十大地法</cell></row><row><cell>
@@ -722,15 +741,15 @@
 <pb n="0164a" ed="Y" xml:id="Y36.0034.0164a"/>
 <lb n="0164a01" ed="Y"/>六受身．六想身</cell><cell>六受身．六想身</cell></row><row><cell>
 <lb n="0164a02" ed="Y"/>六思身．六愛身</cell><cell>六思身．六愛身</cell></row></table>
-<lb n="0164a03" ed="Y"/><p style="text-indent:2em">比對二論，有二點不同：一、<title level="a">〈辯七事品〉</title>有十大善地法，<title level="m">《界身論》</title>沒有，<title level="m">《眾事分阿毘
+<lb n="0164a03" ed="Y"/><p xml:id="pY36p0164a0301" style="text-indent:2em">比對二論，有二點不同：一、<title level="a">〈辯七事品〉</title>有十大善地法，<title level="m">《界身論》</title>沒有，<title level="m">《眾事分阿毘
 <lb n="0164a04" ed="Y"/>曇論》</title>也沒有；這是後起的，依<title level="m">《大毘婆沙論》</title>而補入的。二、十八界到六界——五類，<title level="m">《界身
 <lb n="0164a05" ed="Y"/>論》</title>也沒有。</p>
-<lb n="0164a06" ed="Y"/><p style="text-indent:2em"><title level="a">〈辯七事品〉</title>所列的，可分三類。一、十八界到六界——五類，是綜集經說的。<title level="m">《界身論》</title>
+<lb n="0164a06" ed="Y"/><p xml:id="pY36p0164a0601" style="text-indent:2em"><title level="a">〈辯七事品〉</title>所列的，可分三類。一、十八界到六界——五類，是綜集經說的。<title level="m">《界身論》</title>
 <lb n="0164a07" ed="Y"/>缺。二、十大地法到五法——八類五十五法，為心所法的分類。三、六識身到六愛身——六類，
 <lb n="0164a08" ed="Y"/>是經說的六六法門。其中最重要的，是心所法的分類，八類五十五法。（一）、十大地法，是<bibl>《<title level="m">發智
 <lb n="0164a09" ed="Y"/>論</title>．<title level="a">智納息</title>》</bibl>，<bibl>《<title level="m">品類論</title>．<title level="a">辯五事品</title>》</bibl>所已經成立了的。（二）、十大煩惱地法：不信，懈怠，失
 <lb n="0164a10" ed="Y"/>念，心亂，無明，不正知，非理作意，邪勝解，掉舉，放逸。（三）、十小煩惱地法：忿，恨，覆，
-<lb n="0164a11" ed="Y"/>惱，嫉，慳，誑，諂，憍，害。上說的三類十法，與<title level="m">《大毘婆沙論》</title>所列，完全一致<note n="0164008" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="42">卷四二</biblScope></bibl>（大正<ref type="taisho" target="#vol:27;page:p220a">二七．二二〇上</ref>）。</note>。但此下
+<lb n="0164a11" ed="Y"/>惱，嫉，慳，誑，諂，憍，害。上說的三類十法，與<title level="m">《大毘婆沙論》</title>所列，完全一致<note n="0164008" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="42" type="卷">卷四二</biblScope></bibl>（大正<ref target="#vol:27;page:p220a" type="taisho">二七．二二〇上</ref>）。</note>。但此下
 <lb n="0164a12" ed="Y"/>，<title level="m">《界身論》</title>所列為：（四）、五煩惱：欲貪，色貪，無色貪，瞋，疑。（五）、五觸：有對觸，增語觸
 <lb n="0164a13" ed="Y"/>，明觸，無明觸，非明非無明觸。（六）、五見：身見，邊見，邪見，見取，戒禁取。（七）、五根：樂
 <lb n="0164a14" ed="Y"/>，苦，喜，憂，捨。（八）、五法：尋，伺，識，無慚，無愧。而<title level="m">《大毘婆沙論》</title>，在三類十法後，
@@ -741,7 +760,7 @@
 <lb n="0165a03" ed="Y"/>，五見，都只是遵循舊說，而又沒有善法。所以<title level="m">《界身論》</title>心所法的整理，比<title level="m">《發智論》</title>、<title level="m">《品
 <lb n="0165a04" ed="Y"/>類論》</title>，雖又進了一步，但還不及<title level="m">《大毘婆沙論》</title>。<title level="m">《大毘婆沙論》</title>雖沒有引用<title level="m">《界身論》</title>，而
 <lb n="0165a05" ed="Y"/><title level="m">《界身論》</title>的成立，是應該早於<title level="m">《大毘婆沙論》</title>的。</p>
-<lb n="0165a06" ed="Y"/><p style="text-indent:2em">再來看<title level="a">〈分別品〉</title>：相應門有四事：一、五受根的受；二、六識身的識；三、無慚；四、無
+<lb n="0165a06" ed="Y"/><p xml:id="pY36p0165a0601" style="text-indent:2em">再來看<title level="a">〈分別品〉</title>：相應門有四事：一、五受根的受；二、六識身的識；三、無慚；四、無
 <lb n="0165a07" ed="Y"/>愧。相攝門有三事：蘊，處，界。這樣，現存<title level="m">《品類論》</title>的<title level="a">〈辯七事品〉</title>，雖不知七事是什麼，
 <lb n="0165a08" ed="Y"/>但依<title level="m">《界身論》</title>，卻極為明白。<title level="m">《品類論》</title>的<title level="a">〈辯七事品〉</title>，是後人補作的，如上節所說。<title level="m">《品
 <lb n="0165a09" ed="Y"/>類論》</title>的<title level="a">〈辯七事品〉</title>，與<title level="m">《界身論》</title>，可能同為一本。或將論的相攝門，依「一行」論法，推
@@ -753,7 +772,7 @@
 <lb n="0165a15" ed="Y"/>身論》</title>的適合，又失去了「七事」（只有六事）的意義。不過參照<title level="m">《界論》</title>、<title level="m">《界身論》</title>列舉的
 <pb n="0166a" ed="Y" xml:id="Y36.0034.0166a"/>
 <lb n="0166a01" ed="Y"/>法門（本事），應該如<title level="a">〈辯七事品〉</title>所說，前列界、處、蘊才是。</p>
-<lb n="0166a02" ed="Y"/><p style="text-indent:2em"><title level="m">《界身論》</title>，玄奘傳為世友（<foreign xml:lang="sa">Vasumitra</foreign>）所造，這是以為與<title level="m">《品類論》</title>的作者為一人。但
+<lb n="0166a02" ed="Y"/><p xml:id="pY36p0166a0201" style="text-indent:2em"><title level="m">《界身論》</title>，玄奘傳為世友（<foreign xml:lang="sa">Vasumitra</foreign>）所造，這是以為與<title level="m">《品類論》</title>的作者為一人。但
 <lb n="0166a03" ed="Y"/>世友只造四品；<title level="a">〈辯七事品〉</title>已是別人所作，<title level="m">《界身論》</title>更不是世友所造了。稱友（<foreign xml:lang="sa">Yaśomitra</foreign>）
 <lb n="0166a04" ed="Y"/><title level="m">《俱舍論疏》</title>，傳說<title level="m">《界身論》</title>為富樓那（<foreign xml:lang="sa">Pūrṇa</foreign>）造。也許<title level="m">《界身論》</title>與<title level="a">〈辯七事品〉</title>，就
 <lb n="0166a05" ed="Y"/>是這位論師的傑作。</p>
@@ -766,17 +785,17 @@
 <lb n="0166a12" ed="Y"/>
 <lb n="0166a13" ed="Y"/></cb:div>
 <lb n="0166a14" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第七節　阿毘達磨識身足論</cb:mulu><head>第七節　阿毘達磨識身足論</head>
-<lb n="0166a15" ed="Y"/><p style="text-indent:2em"><title level="m">《阿毘達磨識身足論》</title>，傳為提婆設摩（<foreign xml:lang="sa">Devaśarman</foreign>）所造。玄奘於貞觀二十三年（西元
+<lb n="0166a15" ed="Y"/><p xml:id="pY36p0166a1501" style="text-indent:2em"><title level="m">《阿毘達磨識身足論》</title>，傳為提婆設摩（<foreign xml:lang="sa">Devaśarman</foreign>）所造。玄奘於貞觀二十三年（西元
 <pb n="0167a" ed="Y" xml:id="Y36.0034.0167a"/>
 <lb n="0167a01" ed="Y"/>六四九）譯出，共十六卷，分為六蘊。在六分阿毘達磨中，極為重要，受到毘婆沙師的推重。<title level="m">《
 <lb n="0167a02" ed="Y"/>識身論》</title>的內容，是以六識為中心的。先彈破二家，其次分別二事。所破的兩家：一，<quote>「沙門目
 <lb n="0167a03" ed="Y"/>連」</quote>的<quote>「過去未來無，現在無為有」</quote><note n="0167001" resp="釋印順" type="orig"><bibl><title level="m">《識身論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:26;page:p531a" type="taisho">二六．五三一上</ref>）。</note>。就是<title level="a">〈目乾連蘊〉</title>第一。二、<quote>「補特伽羅論者」</quote>的<quote>「諦
-<lb n="0167a04" ed="Y"/>義勝義，補特伽羅可得可證，現有等有，是故定有補特伽羅」</quote><note n="0167002" resp="釋印順" type="orig"><bibl><title level="m">《識身論》</title><biblScope type="卷" n="2">卷二</biblScope></bibl>（大正<ref type="taisho" target="#vol:26;page:p537b">二六．五三七中</ref>）。</note>，就是<title level="a">〈補特伽羅蘊〉</title>第二。但
+<lb n="0167a04" ed="Y"/>義勝義，補特伽羅可得可證，現有等有，是故定有補特伽羅」</quote><note n="0167002" resp="釋印順" type="orig"><bibl><title level="m">《識身論》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:26;page:p537b" type="taisho">二六．五三七中</ref>）。</note>，就是<title level="a">〈補特伽羅蘊〉</title>第二。但
 <lb n="0167a05" ed="Y"/><title level="a">〈補特伽羅蘊〉</title>的第三嗢陀南，說到唯有六識身聚，十二緣起，心性無常，苦集苦滅的正觀；六
 <lb n="0167a06" ed="Y"/>識有四緣。對上文說，這是說明沒有補特伽羅，僅有以六識身為中心的緣起，苦集苦滅的正觀。
 <lb n="0167a07" ed="Y"/>如對下文說，六識身有四緣，引起下文的四緣論。</p>
-<lb n="0167a08" ed="Y"/><p style="text-indent:2em"><title level="m">《識身論》</title>彈破的第一家，是<quote>「目連沙門」</quote>，就是從根本上座部分化而出的分別說系，阿育
-<lb n="0167a09" ed="Y"/>王（<foreign xml:lang="sa">Aśoka</foreign>）時代，目犍連子帝須（<foreign xml:lang="pi"><note n="0167a0901" resp="CBETA" type="add">Moggaliputta tissa【CB】，Moggaliputta-tissa【印順】</note><app n="0167a0901"><lem wit="【CB】" resp="正聞出版社">Moggaliputta tissa</lem><rdg wit="【印順】">Moggaliputta-tissa</rdg></app></foreign>）領導的部派。這一系，無論是傳化到錫
+<lb n="0167a08" ed="Y"/><p xml:id="pY36p0167a0801" style="text-indent:2em"><title level="m">《識身論》</title>彈破的第一家，是<quote>「目連沙門」</quote>，就是從根本上座部分化而出的分別說系，阿育
+<lb n="0167a09" ed="Y"/>王（<foreign xml:lang="sa">Aśoka</foreign>）時代，目犍連子帝須（<foreign xml:lang="pi"><note n="0167a0901" resp="CBETA" type="add">Moggaliputta tissa【CB】，Moggaliputta-tissa【印順】</note><app n="0167a0901"><lem resp="正聞出版社" wit="【CB】">Moggaliputta tissa</lem><rdg wit="【印順】">Moggaliputta-tissa</rdg></app></foreign>）領導的部派。這一系，無論是傳化到錫
 <lb n="0167a10" ed="Y"/>蘭的銅鍱部，或流行印度本土的化地部，法藏部，飲光部（略折中說一切有說），都是主張過未
 <lb n="0167a11" ed="Y"/>無體、現在是有的分別說者。這與三世實有的說一切有者，尖銳的對立。<title level="m">《識身論》</title>以三世一切
 <lb n="0167a12" ed="Y"/>有的立場，反復的難破他，主要是以「彼此共許的」佛說來證明。<title level="m">《識身論》</title>有四項基本原則：
@@ -788,7 +807,7 @@
 <lb n="0168a02" ed="Y"/>過去未來是有的。四、成就的可以不現前：如有學現起纏心，而還是成就五根的。現入滅盡定的
 <lb n="0168a03" ed="Y"/>，還是成就少欲，羞慚，觸，意思，識食。不現前而是成就的，那一定是過去未來有了。<quote>「目連
 <lb n="0168a04" ed="Y"/>沙門」</quote>僅提出了<quote>「有無所緣心」</quote><note n="0168003" resp="釋印順" type="orig"><bibl><title level="m">《識身論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:26;page:p535a" type="taisho">二六．五三五上</ref>）。</note>，以為過去未來雖沒有實體，但可以成為認識的境界。</p>
-<lb n="0168a05" ed="Y"/><p style="text-indent:2em">彈破的第二家，<quote>「補特伽羅論者」</quote>，就是從上座部說一切有中，分化而出的犢子部及正量等
+<lb n="0168a05" ed="Y"/><p xml:id="pY36p0168a0501" style="text-indent:2em">彈破的第二家，<quote>「補特伽羅論者」</quote>，就是從上座部說一切有中，分化而出的犢子部及正量等
 <lb n="0168a06" ed="Y"/>四部。犢子部以為：<quote>「有為可得，無為可得，補特伽羅亦有可得」</quote><note n="0168004" resp="釋印順" type="orig"><bibl><title level="m">《識身論》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref target="#vol:26;page:p545b" type="taisho">二六．五四五中</ref>）。</note>。有補特伽羅，才能造業受
 <lb n="0168a07" ed="Y"/>苦樂；為慈悲的所緣。<title level="m">《識身論》</title>自稱性空論者，即無我論者，反復的責難他。一、從前後的關
 <lb n="0168a08" ed="Y"/>係說：如有真實的補特伽羅，那從這趣而另生他趣，或從初果到二果等。如前後是一，<quote>「彼即是
@@ -796,35 +815,35 @@
 <lb n="0168a10" ed="Y"/>是）彼或異（彼）」</quote>，那也就不該說這<quote>「不可說彼或彼或異」</quote>的話了。二、如有補特伽羅，怎麼
 <lb n="0168a11" ed="Y"/>知道呢？佛說六識所知的，是色、聲、香、味、觸、法，並沒有補特伽羅；不能說六識以外，別
 <lb n="0168a12" ed="Y"/>有了別補特伽羅的第七識。依性空論者的見地，<quote>「諸法性有等有，由想等想，假說有情。於此（
-<lb n="0168a13" ed="Y"/>慈緣有情）義中，慈緣執受諸蘊相續」</quote><note n="0168005" resp="釋印順" type="orig"><bibl><title level="m">《識身論》</title><biblScope type="卷" n="3">卷三</biblScope></bibl>（大正<ref target="#vol:26;page:p543c" type="taisho">二六．五四三下</ref>）。</note>。上二蘊，成立三世有的自宗，遮破補特伽羅實有、過
+<lb n="0168a13" ed="Y"/>慈緣有情）義中，慈緣執受諸蘊相續」</quote><note n="0168005" resp="釋印順" type="orig"><bibl><title level="m">《識身論》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref target="#vol:26;page:p543c" type="taisho">二六．五四三下</ref>）。</note>。上二蘊，成立三世有的自宗，遮破補特伽羅實有、過
 <lb n="0168a14" ed="Y"/>去未來無體——二大系。從教理上，簡要的表示了說一切有部的主要思想。</p>
-<lb n="0168a15" ed="Y"/><p style="text-indent:2em">次明二事——「因緣」，「成就不成就」。一、以六識為主而廣論四緣：<title level="a">〈因緣蘊〉</title>第三，
+<lb n="0168a15" ed="Y"/><p xml:id="pY36p0168a1501" style="text-indent:2em">次明二事——「因緣」，「成就不成就」。一、以六識為主而廣論四緣：<title level="a">〈因緣蘊〉</title>第三，
 <pb n="0169a" ed="Y" xml:id="Y36.0034.0169a"/>
 <lb n="0169a01" ed="Y"/>明因緣。<title level="a">〈所緣緣蘊〉</title>第四，明所緣緣。<title level="a">〈雜蘊〉</title>第五，明等無間緣與增上緣。論「因緣」，含
 <lb n="0169a02" ed="Y"/>有<title level="m">《發智論》</title>的五因。從六識的三世、三性、四性、三界繫（三界四性成十心）、五部斷（三
 <lb n="0169a03" ed="Y"/>界成十五心），而論為因、為緣、隨眠隨增、斷等。論「所緣緣」，也約三世等六識（加學無學
 <lb n="0169a04" ed="Y"/>，成十二心），論所緣，隨眠隨增，斷等。論義非常繁密，比起<title level="m">《品類論》</title>的<title level="a">〈辯隨眠品〉</title>，是
 <lb n="0169a05" ed="Y"/>有過之而無不及的。二、<title level="a">〈成就蘊〉</title>第六，明成就不成就，也是約十二心、十心等作論。</p>
-<lb n="0169a06" ed="Y"/><p style="text-indent:2em">上座部阿毘達磨的根本論題，是自相、共相、攝、相應、因緣。<title level="m">《品類論》</title>的<title level="a">〈辯七事品〉</title>
+<lb n="0169a06" ed="Y"/><p xml:id="pY36p0169a0601" style="text-indent:2em">上座部阿毘達磨的根本論題，是自相、共相、攝、相應、因緣。<title level="m">《品類論》</title>的<title level="a">〈辯七事品〉</title>
 <lb n="0169a07" ed="Y"/>，與<title level="m">《界身論》</title>，明攝不攝，相應不相應。<title level="a">〈辯攝等品〉</title>與<title level="a">〈辯千問品〉</title>，是共相分別——<title level="a">〈問
 <lb n="0169a08" ed="Y"/>分〉</title>的說一切有部論。<title level="m">《識身論》</title>，就是明「因緣」，與銅鍱部<title level="m">《發趣論》</title>、<title level="m">《舍利弗阿毘曇論
 <lb n="0169a09" ed="Y"/>》</title>的<title level="a">〈緒分〉</title>的意趣相合。說一切有部，明六因、四緣，<title level="m">《識身論》</title>就是據此而造論的。說一切
 <lb n="0169a10" ed="Y"/>有部是三世有的，因此發展出一宗特殊的論門——成就不成就。</p>
-<lb n="0169a11" ed="Y"/><p style="text-indent:2em">提婆設摩造論的傳說，如<bibl><title level="m">《大唐西域記》</title><biblScope type="卷" n="5">卷五</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:51;page:p898c">五一．八九八下</ref></note>說：</p>
-<lb n="0169a12" ed="Y"/><quote><p style="margin-left:3em">「鞞索迦國……城南道左，有大伽藍，昔提婆設摩阿羅漢，於此造識身論，說無我人。瞿
+<lb n="0169a11" ed="Y"/><p xml:id="pY36p0169a1101" style="text-indent:2em">提婆設摩造論的傳說，如<bibl><title level="m">《大唐西域記》</title><biblScope n="5" type="卷">卷五</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p898c" type="taisho">五一．八九八下</ref></note>說：</p>
+<lb n="0169a12" ed="Y"/><quote><p xml:id="pY36p0169a1201" style="margin-left:3em">「鞞索迦國……城南道左，有大伽藍，昔提婆設摩阿羅漢，於此造識身論，說無我人。瞿
 <lb n="0169a13" ed="Y"/>波阿羅漢造聖教要實論，說有我人。因此法執，遂深諍論」。</p></quote>
-<lb n="0169a14" ed="Y"/><p style="text-indent:2em">鞞索迦（<foreign xml:lang="sa"><note n="0169a1401" resp="CBETA" type="add">Viśākhā【CB】，Viśâkhā【印順】</note><app n="0169a1401"><lem wit="【CB】" resp="正聞出版社">Viśākhā</lem><rdg wit="【印順】">Viśâkhā</rdg></app></foreign>）為正量部的化區。說一切有部與正量部，以這兩部論為代表，而引起二
+<lb n="0169a14" ed="Y"/><p xml:id="pY36p0169a1401" style="text-indent:2em">鞞索迦（<foreign xml:lang="sa"><note n="0169a1401" resp="CBETA" type="add">Viśākhā【CB】，Viśâkhā【印順】</note><app n="0169a1401"><lem resp="正聞出版社" wit="【CB】">Viśākhā</lem><rdg wit="【印順】">Viśâkhā</rdg></app></foreign>）為正量部的化區。說一切有部與正量部，以這兩部論為代表，而引起二
 <lb n="0169a15" ed="Y"/>部的諍論，當然是事實。然<title level="m">《識身論》</title>是深受<title level="m">《發智論》</title>影響的，思想極為圓熟精密，傳說佛滅
 <pb n="0170a" ed="Y" xml:id="Y36.0034.0170a"/>
-<lb n="0170a01" ed="Y"/>一百年中，提婆設摩造<title level="m">《識身論》</title><note n="0170006" resp="釋印順" type="orig"><bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:41;page:p8c">四一．八下</ref>）。</note>，是絕無可能的。約為西元一世紀初的作品。</p>
-<lb n="0170a02" ed="Y"/><p style="text-indent:2em"><title level="m">《識身論》</title>深受<title level="m">《發智論》</title>的影響，但對世友（<foreign xml:lang="sa">Vasumitra</foreign>）的<title level="m">《品類論》</title>，風格更為接近
-<lb n="0170a03" ed="Y"/>。論煩惱時，以<quote>「一切結、縛、隨眠、隨煩惱、纏」</quote>作分別<note n="0170007" resp="釋印順" type="orig"><bibl><title level="m">《識身論》</title><biblScope type="卷" n="5">卷五</biblScope></bibl>（大正<ref type="taisho" target="#vol:26;page:p557a">二六．五五七上</ref>——下）。</note>。論五無間罪時，說<quote>「眾同分，處
+<lb n="0170a01" ed="Y"/>一百年中，提婆設摩造<title level="m">《識身論》</title><note n="0170006" resp="釋印順" type="orig"><bibl><title level="m">《俱舍論<note type="authorial">（光）</note>記》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:41;page:p8c" type="taisho">四一．八下</ref>）。</note>，是絕無可能的。約為西元一世紀初的作品。</p>
+<lb n="0170a02" ed="Y"/><p xml:id="pY36p0170a0201" style="text-indent:2em"><title level="m">《識身論》</title>深受<title level="m">《發智論》</title>的影響，但對世友（<foreign xml:lang="sa">Vasumitra</foreign>）的<title level="m">《品類論》</title>，風格更為接近
+<lb n="0170a03" ed="Y"/>。論煩惱時，以<quote>「一切結、縛、隨眠、隨煩惱、纏」</quote>作分別<note n="0170007" resp="釋印順" type="orig"><bibl><title level="m">《識身論》</title><biblScope n="5" type="卷">卷五</biblScope></bibl>（大正<ref target="#vol:26;page:p557a" type="taisho">二六．五五七上</ref>——下）。</note>。論五無間罪時，說<quote>「眾同分，處
 <lb n="0170a04" ed="Y"/>得，事得，生長處得」</quote><note n="0170008" resp="釋印順" type="orig"><bibl><title level="m">《識身論》</title><biblScope n="11" type="卷">卷一一</biblScope></bibl>（大正<ref target="#vol:26;page:p586b" type="taisho">二六．五八六中</ref>）。</note>。所舉的法數，與<title level="a">〈辯五事品〉</title>相合。<title level="m">《識身論》</title>雖隱用六因說，而以
 <lb n="0170a05" ed="Y"/>四緣說為主，這與<title level="m">《品類論》</title>的<title level="a">〈辯攝等品〉</title>、<title level="a">〈辯千問品〉</title>相同。</p>
-<lb n="0170a06" ed="Y"/><p style="text-indent:2em"><title level="m">《識身論》</title>深受<title level="m">《發智論》</title>的影響，但立義每與<title level="m">《發智論》</title>不同。如<cit><bibl><title level="m">《大毘婆沙論》</title>引<title level="m">《識
-<lb n="0170a07" ed="Y"/>身論》</title>說：</bibl><quote>「身語惡行……是隨煩惱」</quote><note n="0170009" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="47">卷四七</biblScope></bibl>（大正<ref target="#vol:27;page:p244a" type="taisho">二七．二四四上</ref>）。</note></cit>，使毘婆沙師苦心的為他解說。但現存奘譯的<title level="m">《識身論
-<lb n="0170a08" ed="Y"/>》</title>，已依毘婆沙師義，改為<quote>「非隨煩惱」</quote>了<note n="0170010" resp="釋印順" type="orig"><bibl><title level="m">《識身論》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref target="#vol:26;page:p531c" type="taisho">二六．五三一下</ref>）。</note>。<title level="m">《識身論》</title>所說的十二緣起，與<title level="m">《發智論》</title>不同
-<lb n="0170a09" ed="Y"/>，<title level="m">《大毘婆沙論》</title>稱之為<quote>「遠續緣起」</quote><note n="0170011" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙<space quantity="0"/>》</title>論<biblScope n="23" type="卷">卷二三</biblScope></bibl>（大正<ref type="taisho" target="#vol:27;page:p118c">二六．一一八下</ref>）。</note><note n="0170011" resp="正聞出版社" type="mod"><bibl><title level="m">《大毘婆沙論》</title><space quantity="0"/><biblScope n="23" type="卷">卷二三</biblScope></bibl>（大正<ref type="taisho" target="#vol:27;page:p118c">二七<note type="cf1">《阿毘達磨大毘婆沙論》卷1(CBETA, T27, no. 1545, p. 1, a3)</note>．一一八下</ref>）。</note>；雖沒有取為正義，但也沒有加以責難。總之，<title level="m">《識身
+<lb n="0170a06" ed="Y"/><p xml:id="pY36p0170a0601" style="text-indent:2em"><title level="m">《識身論》</title>深受<title level="m">《發智論》</title>的影響，但立義每與<title level="m">《發智論》</title>不同。如<cit><bibl><title level="m">《大毘婆沙論》</title>引<title level="m">《識
+<lb n="0170a07" ed="Y"/>身論》</title>說：</bibl><quote>「身語惡行……是隨煩惱」</quote><note n="0170009" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙論》</title><biblScope n="47" type="卷">卷四七</biblScope></bibl>（大正<ref target="#vol:27;page:p244a" type="taisho">二七．二四四上</ref>）。</note></cit>，使毘婆沙師苦心的為他解說。但現存奘譯的<title level="m">《識身論
+<lb n="0170a08" ed="Y"/>》</title>，已依毘婆沙師義，改為<quote>「非隨煩惱」</quote>了<note n="0170010" resp="釋印順" type="orig"><bibl><title level="m">《識身論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:26;page:p531c" type="taisho">二六．五三一下</ref>）。</note>。<title level="m">《識身論》</title>所說的十二緣起，與<title level="m">《發智論》</title>不同
+<lb n="0170a09" ed="Y"/>，<title level="m">《大毘婆沙論》</title>稱之為<quote>「遠續緣起」</quote><note n="0170011" resp="釋印順" type="orig"><bibl><title level="m">《大毘婆沙<space quantity="0"/>》</title>論<biblScope n="23" type="卷">卷二三</biblScope></bibl>（大正<ref target="#vol:27;page:p118c" type="taisho">二六．一一八下</ref>）。</note><note n="0170011" resp="正聞出版社" type="mod"><bibl><title level="m">《大毘婆沙論》</title><space quantity="0"/><biblScope n="23" type="卷">卷二三</biblScope></bibl>（大正<ref target="#vol:27;page:p118c" type="taisho">二七<note type="cf1">《阿毘達磨大毘婆沙論》卷1(CBETA, T27, no. 1545, p. 1, a3)</note>．一一八下</ref>）。</note>；雖沒有取為正義，但也沒有加以責難。總之，<title level="m">《識身
 <lb n="0170a10" ed="Y"/>論》</title>主是<title level="m">《發智論》</title>的學者，在六論中有崇高的地位。但與偏宗<title level="m">《發智論》</title>者不同；與世友的<title level="m">《
 <lb n="0170a11" ed="Y"/>品類論》</title>一樣，有自己的立場與獨到的見解。</p>
 <lb n="0170a12" ed="Y"/>

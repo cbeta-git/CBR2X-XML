@@ -12,49 +12,69 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版四刷<date>Date: 2011/10</date>新式標點版</edition>
+			<edition>新版四刷<date>Date: 2011/10</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 24, No. 24</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">24</idno>.<idno type="no">24</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法是救世之光</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">六、觀世音菩薩的讚仰</cb:mulu>
-<milestone unit="juan" n="7"/>
+<milestone n="7" unit="juan"/>
 <pb n="0053a" ed="Y" xml:id="Y24.0024.0053a"/>
 <lb n="0053a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">七、修學觀世音菩薩的大悲法門</cb:mulu><head>修學觀世音菩薩的大悲法門<note n="0053001" resp="DILA" type="add">民國四三年講。</note></head>
-<lb n="0053a02" ed="Y"/><p style="text-indent:2em">在今天紀念觀音菩薩的法會中，我想把菩薩的救世悲行，作一簡單的介紹，
+<lb n="0053a02" ed="Y"/><p xml:id="pY24p0053a0201" style="text-indent:2em">在今天紀念觀音菩薩的法會中，我想把菩薩的救世悲行，作一簡單的介紹，
 <lb n="0053a03" ed="Y"/>使我們對菩薩更有深一層的信解。諸位都知道觀音菩薩的手中執有淨瓶與楊枝，
 <lb n="0053a04" ed="Y"/>淨瓶與楊枝，這是表示了菩薩普救世間的偉大悲行。世間如火宅，眾生心中充滿
 <lb n="0053a05" ed="Y"/>了熱惱。觀音菩薩時以瓶中的甘露水，遍洒人間，使在熱惱中的一切有情皆獲清
@@ -65,7 +85,7 @@
 <lb n="0053a10" ed="Y"/>的甘露水，如愚癡眾生，多病眾生，能時時虔誠的禮念觀音，能得菩薩的悲心救
 <lb n="0053a11" ed="Y"/>護，便能漸增智慧，或體力康健。</p>
 <pb n="0054a" ed="Y" xml:id="Y24.0024.0054a"/>
-<lb n="0054a01" ed="Y"/><p style="text-indent:2em">可是，人們有一怪現象，即不到苦難當頭，想不起觀音菩薩；就是信仰，也
+<lb n="0054a01" ed="Y"/><p xml:id="pY24p0054a0101" style="text-indent:2em">可是，人們有一怪現象，即不到苦難當頭，想不起觀音菩薩；就是信仰，也
 <lb n="0054a02" ed="Y"/>不懇切，也不能真心誠意的接受指導。這種臨時抱佛腳的行為，有智者決不出此
 <lb n="0054a03" ed="Y"/>。真正信仰觀音菩薩，不僅是臨時救急，更應重於平時的實踐，在忠實的實踐中
 <lb n="0054a04" ed="Y"/>，得菩薩的感應，自能解脫現生的苦痛與內心的熱惱。也唯有在平時奉行菩薩的
@@ -77,7 +97,7 @@
 <lb n="0054a10" ed="Y"/>時的行動，與菩薩的教誨相違；等到身臨苦難，即使得菩薩的救濟，也已是下策
 <lb n="0054a11" ed="Y"/>了。所以要想徹底解決苦痛，常得楊枝甘露的灌洒，常得沒有熱惱的清涼，要在
 <lb n="0054a12" ed="Y"/>平時忠實奉行菩薩的教導。</p>
-<lb n="0054a13" ed="Y"/><p style="text-indent:2em">觀音菩薩教化眾生是以身作則的。他自身精進地修大悲行，也教眾生修大悲
+<lb n="0054a13" ed="Y"/><p xml:id="pY24p0054a1301" style="text-indent:2em">觀音菩薩教化眾生是以身作則的。他自身精進地修大悲行，也教眾生修大悲
 <pb n="0055a" ed="Y" xml:id="Y24.0024.0055a"/>
 <lb n="0055a01" ed="Y"/>行；他從大悲行中自利利他，積集了無量功德，遠離了生死苦惱而得究竟的解脫
 <lb n="0055a02" ed="Y"/>。我們若依菩薩的言說奉行，最低限度也能解脫現生的苦惱，獲得人生的應有福
@@ -88,7 +108,7 @@
 <lb n="0055a07" ed="Y"/>漸地學行大悲，經過長久時間的學習，終於深入了大悲法門廣度眾生，成就無邊
 <lb n="0055a08" ed="Y"/>的清淨功德，而得無上的解脫。善財！我以大悲法門修菩薩行，一貫的目的，在
 <lb n="0055a09" ed="Y"/>解除一切眾生的苦痛，救護他，使他們免除怖畏。</p>
-<lb n="0055a10" ed="Y"/><p style="text-indent:2em">眾生欲得菩薩的護念，無有恐怖，應修學觀音菩薩的大悲法門。但大悲應如
+<lb n="0055a10" ed="Y"/><p xml:id="pY24p0055a1001" style="text-indent:2em">眾生欲得菩薩的護念，無有恐怖，應修學觀音菩薩的大悲法門。但大悲應如
 <lb n="0055a11" ed="Y"/>何修學呢？學習大悲的方法極為簡單。凡見人類的苦痛，不管他與我有什麼關係
 <lb n="0055a12" ed="Y"/>，都能平等的予以同情，願意他減輕現有的苦惱；如更能平等的同情一切眾生，
 <lb n="0055a13" ed="Y"/>時時想減輕他們的痛苦，這即是菩薩的悲心。悲心，本來每一個有情都是有的，
@@ -109,7 +129,7 @@
 <pb n="0057a" ed="Y" xml:id="Y24.0024.0057a"/>
 <lb n="0057a01" ed="Y"/>你同樣的是具有心識的動物，我與他都是障深業重的苦惱眾生，無始以來都曾有
 <lb n="0057a02" ed="Y"/>過親密的關係。能作如是觀，自能擴大同情成為平等自救救他的悲心。</p>
-<lb n="0057a03" ed="Y"/><p style="text-indent:2em">有人說：我沒有權勢，或沒有財力，如何救人？其實這都不是不能悲惻援助
+<lb n="0057a03" ed="Y"/><p xml:id="pY24p0057a0301" style="text-indent:2em">有人說：我沒有權勢，或沒有財力，如何救人？其實這都不是不能悲惻援助
 <lb n="0057a04" ed="Y"/>的理由。真正悲心激發，即自己的力量多大，就獻出多大的力量。力量可以有大
 <lb n="0057a05" ed="Y"/>小，卻不會完全沒有。如見小孩跌落水坑，難道沒有扶起他的力量？再不然，難
 <lb n="0057a06" ed="Y"/>道沒有呼救的力量？我們如存悲惻拔苦的心腸，決不問有多大力量，只是腳踏實
@@ -130,7 +150,7 @@
 <lb n="0058a07" ed="Y"/>這如初讀書的童子，開始念一兩句都背不出來。但書讀多了，增長了理解力，就
 <lb n="0058a08" ed="Y"/>是數千字的長文，也容易熟背了。修學佛法，起初總覺不易，但能耐心修學，大
 <lb n="0058a09" ed="Y"/>悲力自一天天增長，等到悲力強大，救度眾生的艱巨工作，就容易負擔了。</p>
-<lb n="0058a10" ed="Y"/><p style="text-indent:2em">真正大乘佛法的實踐者，對大悲的修學極為重視。因為大乘的發菩提心，廣
+<lb n="0058a10" ed="Y"/><p xml:id="pY24p0058a1001" style="text-indent:2em">真正大乘佛法的實踐者，對大悲的修學極為重視。因為大乘的發菩提心，廣
 <lb n="0058a11" ed="Y"/>度眾生，就是<quote source="X31n0611_p0597b07" type="嚴謹引文">「菩提所緣，緣苦眾生」<note n="0058001" resp="周怡曄" type="add">《法華經通義》卷7(CBETA, X31, no. 611, p. 597, b7 // Z 1:49, p. 473, a13 // R49, p. 945, a13)</note></quote>的悲心發動。若離去了悲心，即不成菩提
 <lb n="0058a12" ed="Y"/>心，想成佛是不可能的。沒有悲心的菩薩行——布施、持戒等，乃至廣修禮佛、
 <lb n="0058a13" ed="Y"/>誦經、供養，這都是人天的果報，或者是小乘功德。若具有悲心，他的一切修行
@@ -138,7 +158,7 @@
 <lb n="0059a01" ed="Y"/>，都是將來成佛的因緣。所以經中說到修學，總是說<quote type="嚴謹引文">「大悲為上首」</quote>。一切成佛
 <lb n="0059a02" ed="Y"/>的清淨功德，都要以大悲為領導；無大悲領導所修的一切功德，至多也不過是人
 <lb n="0059a03" ed="Y"/>天或二乘小果罷了。</p>
-<lb n="0059a04" ed="Y"/><p style="text-indent:2em">擴大同情而成為菩薩的平等悲心，在凡夫位上似乎不易做到，但我們若常觀
+<lb n="0059a04" ed="Y"/><p xml:id="pY24p0059a0401" style="text-indent:2em">擴大同情而成為菩薩的平等悲心，在凡夫位上似乎不易做到，但我們若常觀
 <lb n="0059a05" ed="Y"/>察人與人間的關係，則不難發現到我與人類的關切。當徹底透視了人我間的相關
 <lb n="0059a06" ed="Y"/>性，則不管什麼人的苦難，都容易引起同情心。其次，我們要看他人的好處，別
 <lb n="0059a07" ed="Y"/>看他人的壞處。人總有多少好處，也不能完全沒有錯誤的。若過去某人罵過我，

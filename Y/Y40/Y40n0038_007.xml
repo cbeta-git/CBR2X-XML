@@ -12,72 +12,92 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>重版一刷<date>Date: 2011/10</date>新式標點版</edition>
+			<edition>重版一刷<date>Date: 2011/10</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>9卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 40, No. 38</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>9卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">40</idno>.<idno type="no">38</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">中國禪宗史</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第六章　壇經之成立及其演變</cb:mulu><cb:mulu level="2" type="其他">第三節　壇經的變化</cb:mulu><cb:mulu level="3" type="其他">名稱的變化</cb:mulu>
-<milestone unit="juan" n="7"/>
+<milestone n="7" unit="juan"/>
 <pb n="0281a" ed="Y" xml:id="Y40.0038.0281a"/>
 <lb n="0281a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">第七章　荷澤神會與南宗</cb:mulu><head>第七章　荷澤神會與南宗</head>
 <lb n="0281a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　神會的一生</cb:mulu><head>第一節　神會的一生</head>
-<lb n="0281a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">概述</cb:mulu><p style="text-indent:2em">曹溪慧能發展了東山法門，還只是東山門下的一流。自慧能去世（七一三），弟子們<note n="0281a0301" resp="CBETA" type="add" subtype="規範字詞">稟【CB】，禀【印順】</note><app n="0281a0301"><lem wit="【CB】" resp="CBETA">稟</lem><rdg wit="【印順】">禀</rdg></app>承曹
+<lb n="0281a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">概述</cb:mulu><p xml:id="pY40p0281a0303" style="text-indent:2em">曹溪慧能發展了東山法門，還只是東山門下的一流。自慧能去世（七一三），弟子們<note n="0281a0301" resp="CBETA" type="add" subtype="規範字詞">稟【CB】，禀【印順】</note><app n="0281a0301"><lem resp="CBETA" wit="【CB】">稟</lem><rdg wit="【印順】">禀</rdg></app>承曹
 <lb n="0281a04" ed="Y"/>溪法門而充分的發展起來，中國禪宗進入了第三階段。這是以曹溪南宗為中心，而為東山與牛頭
 <lb n="0281a05" ed="Y"/>（或南宗、北宗、牛頭宗）的混融，而到達<quote>「凡言禪皆本曹溪」</quote>（元和十年——八一五，柳宗元
 <lb n="0281a06" ed="Y"/>撰<title level="a">〈賜謚大鑒禪師碑〉</title>所說）的時代。到會昌滅法（八四五），禪宗進入了「越祖分燈」的時代
 <lb n="0281a07" ed="Y"/>，才是一般人所知道的禪宗。</p>
-<lb n="0281a08" ed="Y"/><p style="text-indent:2em">慧能去世來一百零年（七一三一—八一五），曹溪禪的大發展，在中國文化史，中國佛教史
+<lb n="0281a08" ed="Y"/><p xml:id="pY40p0281a0801" style="text-indent:2em">慧能去世來一百零年（七一三一—八一五），曹溪禪的大發展，在中國文化史，中國佛教史
 <lb n="0281a09" ed="Y"/>上的成就，真是一件大事！在這期的禪宗史中，首先見到了神會向中原傳播南宗頓教，形成了荷
 <lb n="0281a10" ed="Y"/>澤一流。</p></cb:div>
-<lb n="0281a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">生卒年齡考</cb:mulu><head>生卒年齡考</head><p style="text-indent:2em">神會的傳記，主要為<bibl><title level="m">《宋僧傳》</title><biblScope type="卷" n="8">卷八</biblScope><title level="a">〈神會傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p756c" type="taisho">五〇．七五六下</ref>——<ref target="#vol:50;page:p757a" type="taisho">七五七上</ref></note>
-<lb n="0281a12" ed="Y"/>；<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope type="卷" n="3之下">卷三之下</biblScope></bibl><note place="inline">續<ref type="wxzj" target="#vol:9;page:p532c">一四．二七七<note n="0281a1201" resp="CBETA" type="add">（卍新續九五三二下）【CB】，［－］【印順】</note><app n="0281a1201"><lem wit="【CB】" resp="正聞出版社">（卍新續九．五三二下）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>；<bibl><title level="m">《傳燈錄》</title><biblScope type="卷" n="5">卷五</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p245a" type="taisho">五一．二四五上</ref>——中</note>。神會
+<lb n="0281a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">生卒年齡考</cb:mulu><head>生卒年齡考</head><p xml:id="pY40p0281a1111" style="text-indent:2em">神會的傳記，主要為<bibl><title level="m">《宋僧傳》</title><biblScope n="8" type="卷">卷八</biblScope><title level="a">〈神會傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p756c" type="taisho">五〇．七五六下</ref>——<ref target="#vol:50;page:p757a" type="taisho">七五七上</ref></note>
+<lb n="0281a12" ed="Y"/>；<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="3之下" type="卷">卷三之下</biblScope></bibl><note place="inline">續<ref target="#vol:9;page:p532c" type="wxzj">一四．二七七<note n="0281a1201" resp="CBETA" type="add">（卍新續九五三二下）【CB】，［－］【印順】</note><app n="0281a1201"><lem resp="正聞出版社" wit="【CB】">（卍新續九．五三二下）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>；<bibl><title level="m">《傳燈錄》</title><biblScope n="5" type="卷">卷五</biblScope></bibl><note place="inline">大正<ref target="#vol:51;page:p245a" type="taisho">五一．二四五上</ref>——中</note>。神會
 <pb n="0282a" ed="Y" xml:id="Y40.0038.0282a"/>
 <lb n="0282a01" ed="Y"/>的年齡與去世年月，傳有不同的異說，如：</p>
-<lb n="0282a02" ed="Y"/><list rend="no-marker"><item><p style="margin-left:1em">《圓覺經大疏鈔》　七十五歲　乾元元年五月十三日卒</p></item>
-<lb n="0282a03" ed="Y"/><item><p style="margin-left:1em">《景德傳燈錄》　　七十五歲　上元元年五月十三日卒</p></item>
-<lb n="0282a04" ed="Y"/><item><p style="margin-left:1em">《宋高僧傳》　　　九十三歲　上元元年建午月十三日卒</p></item></list>
-<lb n="0282a05" ed="Y"/><p style="text-indent:2em">胡適據<title level="m">《傳燈錄》</title>，<title level="m">《圓覺經大疏鈔》</title>的「五月十三日」，及<title level="m">《宋僧傳》</title>的「建午月十三日
+<lb n="0282a02" ed="Y"/><list rend="no-marker"><item xml:id="itemY40p0282a0201"><p xml:id="pY40p0282a0201" style="margin-left:1em">《圓覺經大疏鈔》　七十五歲　乾元元年五月十三日卒</p></item>
+<lb n="0282a03" ed="Y"/><item xml:id="itemY40p0282a0301"><p xml:id="pY40p0282a0301" style="margin-left:1em">《景德傳燈錄》　　七十五歲　上元元年五月十三日卒</p></item>
+<lb n="0282a04" ed="Y"/><item xml:id="itemY40p0282a0401"><p xml:id="pY40p0282a0401" style="margin-left:1em">《宋高僧傳》　　　九十三歲　上元元年建午月十三日卒</p></item></list>
+<lb n="0282a05" ed="Y"/><p xml:id="pY40p0282a0501" style="text-indent:2em">胡適據<title level="m">《傳燈錄》</title>，<title level="m">《圓覺經大疏鈔》</title>的「五月十三日」，及<title level="m">《宋僧傳》</title>的「建午月十三日
 <lb n="0282a06" ed="Y"/>」，而考訂為：神會應死於肅宗末年（七六二）的五月。那年是沒有年號的元年；惟有這一年的
 <lb n="0282a07" ed="Y"/>五月，才是「建午」的。後人沒有注意沒有年號那回事，所以寫作「乾元元年」，或「上元元年
-<lb n="0282a08" ed="Y"/>」<note place="inline"><bibl><title level="m">《神會集》</title><biblScope to="376" type="pp" from="370">三七〇——三七六</biblScope></bibl></note>。這一考證，是精確可信的！</p>
-<lb n="0282a09" ed="Y"/><p style="text-indent:2em">神會的生年多少，有九十三歲說，七十五歲說。近代學者大抵採取九十三歲說，因為王維受
+<lb n="0282a08" ed="Y"/>」<note place="inline"><bibl><title level="m">《神會集》</title><biblScope from="370" to="376" type="pp">三七〇——三七六</biblScope></bibl></note>。這一考證，是精確可信的！</p>
+<lb n="0282a09" ed="Y"/><p xml:id="pY40p0282a0901" style="text-indent:2em">神會的生年多少，有九十三歲說，七十五歲說。近代學者大抵採取九十三歲說，因為王維受
 <lb n="0282a10" ed="Y"/>神會所託，作<title level="a">〈六祖能禪師碑銘〉</title><note place="inline"><bibl><title level="m">《全唐文》</title><biblScope n="327" type="卷">卷三二七</biblScope></bibl></note>，曾這樣說：</p>
-<lb n="0282a11" ed="Y"/><quote><p style="margin-left:3em">「弟子曰神會，遇師於晚景，聞道於中年」。</p></quote>
-<lb n="0282a12" ed="Y"/><p style="text-indent:2em">慧能於先天二年（七一三）去世，如神會生年七十五，那時僅有二十六歲，便不能說是「中
+<lb n="0282a11" ed="Y"/><quote><p xml:id="pY40p0282a1101" style="margin-left:3em">「弟子曰神會，遇師於晚景，聞道於中年」。</p></quote>
+<lb n="0282a12" ed="Y"/><p xml:id="pY40p0282a1201" style="text-indent:2em">慧能於先天二年（七一三）去世，如神會生年七十五，那時僅有二十六歲，便不能說是「中
 <lb n="0282a13" ed="Y"/>年」。如為九十三歲，那時神會四十四歲。三十多歲來見慧能，便與<quote>「聞道於中年」</quote>相合。然「
 <lb n="0282a14" ed="Y"/>生年七十五」，是早期的傳說，神會門下的傳說，應該給予有利的考慮。宗密<title level="m">《圓覺經大疏鈔》</title>
 <lb n="0282a15" ed="Y"/>所說「年七十五」，是與<quote>「襄州神會，姓高，年十四，來謁」</quote>慧能的傳說相結合，並非「中年」
@@ -85,16 +105,16 @@
 <lb n="0283a01" ed="Y"/>。<title level="m">《曹溪別傳》</title>（七八一作）說：神會來參慧能，是十三歲的小沙彌。這雖是一部年月極雜亂的
 <lb n="0283a02" ed="Y"/>書，但足以說明神會少小來參慧能的傳說，在離神會去世不過二十年的時候，已經存在。石井光
 <lb n="0283a03" ed="Y"/>雄影印本<title level="m">《神會語錄》</title>，末段有<title level="a">〈大乘頓教頌序〉</title>說：</p>
-<lb n="0283a04" ed="Y"/><quote><p style="margin-left:3em">「我荷澤和尚，……在幼稚科，遊山訪道。……因詣嶺南，復遇曹溪尊者。……昔年九歲
+<lb n="0283a04" ed="Y"/><quote><p xml:id="pY40p0283a0401" style="margin-left:3em">「我荷澤和尚，……在幼稚科，遊山訪道。……因詣嶺南，復遇曹溪尊者。……昔年九歲
 <lb n="0283a05" ed="Y"/>，己發弘願，我若悟解，誓當顯說。今來傳授，遂過先心」。</p></quote>
-<lb n="0283a06" ed="Y"/><p style="text-indent:2em">這些早期記錄，神會門下所傳的，都不是<quote>「聞道於中年」</quote>。還有，神會於天寶十二年（七五
+<lb n="0283a06" ed="Y"/><p xml:id="pY40p0283a0601" style="text-indent:2em">這些早期記錄，神會門下所傳的，都不是<quote>「聞道於中年」</quote>。還有，神會於天寶十二年（七五
 <lb n="0283a07" ed="Y"/>三），受到盧奕的誣奏，過了四五年的流放遷徙生活。當時的罪嫌是；<quote>「奏會聚眾，疑萌不利」</quote>
 <lb n="0283a08" ed="Y"/>；<quote>「被譖聚眾」</quote>。古代僧侶，尤其是道士（元明以來的白蓮教等都是），每有假借宗教，瞽惑人
 <lb n="0283a09" ed="Y"/>心，引起暴動甚至造反的。<quote>「聚眾」</quote>，可能有不利於國家的企圖，是一項可輕又可以極重的罪嫌
 <lb n="0283a10" ed="Y"/>，所以神會受到了流放的處分。如依九十三歲說，那年神會已八十四歲。八十四歲的老和尚，在
 <lb n="0283a11" ed="Y"/>國家承平時代，政府會懷疑他有不利於國家的異圖，實在有點使人難以相信。如依七十五歲說，
 <lb n="0283a12" ed="Y"/>那時六十六歲，這就比較說得過去了。</p>
-<lb n="0283a13" ed="Y"/><p style="text-indent:2em">神會年七十五，十四歲那年（七〇一），來參謁慧能。這雖不合於<quote>「聞道於中年」</quote>，卻合於
+<lb n="0283a13" ed="Y"/><p xml:id="pY40p0283a1301" style="text-indent:2em">神會年七十五，十四歲那年（七〇一），來參謁慧能。這雖不合於<quote>「聞道於中年」</quote>，卻合於
 <lb n="0283a14" ed="Y"/><quote>「遇師於晚景」</quote>。我以為：在古代抄寫中，「中年」可能為「沖年」的別寫。中與沖，是可以假
 <lb n="0283a15" ed="Y"/>借通用的。如「沖而用之」，就是「中用」。「沖和」與「中和」，「沖虛」與「中虛」，都音
 <pb n="0284a" ed="Y" xml:id="Y40.0038.0284a"/>
@@ -102,89 +122,89 @@
 <lb n="0284a02" ed="Y"/>來謁六祖，正是<quote>「聞道於沖年」</quote>。沖年，或通假而寫為「中年」，或偏旁脫落而成為「中年」，
 <lb n="0284a03" ed="Y"/>這才與神會門下的傳說不合，與神會被流放的實際年齡不合。如讀為「沖年」，就一切都沒有矛
 <lb n="0284a04" ed="Y"/>盾了。而且，「中年」一般解說為四十歲左右。神會即使生年九十三，在七〇一年頃來見慧能，
-<lb n="0284a05" ed="Y"/>也只有三十二歲，與「中年」也並不太切合。如「中年」而是「沖年」的轉寫，<note n="0284a0501" resp="CBETA" type="add" subtype="規範字詞">那麼【CB】，那末【印順】</note><app n="0284a0501"><lem wit="【CB】" resp="CBETA">那麼</lem><rdg wit="【印順】">那末</rdg></app>神會生年七
+<lb n="0284a05" ed="Y"/>也只有三十二歲，與「中年」也並不太切合。如「中年」而是「沖年」的轉寫，<note n="0284a0501" resp="CBETA" type="add" subtype="規範字詞">那麼【CB】，那末【印順】</note><app n="0284a0501"><lem resp="CBETA" wit="【CB】">那麼</lem><rdg wit="【印順】">那末</rdg></app>神會生年七
 <lb n="0284a06" ed="Y"/>十五歲，應生於垂拱四年（六八八）。慧能入滅時，神會二十六歲，受具足戒不久，所以有「神
 <lb n="0284a07" ed="Y"/>會小僧」的傳說。</p></cb:div>
-<lb n="0284a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">參學生涯</cb:mulu><head>參學生涯</head><p style="text-indent:2em">神會，襄州（今湖北襄陽縣）人，姓高。<title level="m">《壇經》</title>燉煌本作「南陽」，興聖寺本
+<lb n="0284a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">參學生涯</cb:mulu><head>參學生涯</head><p xml:id="pY40p0284a0809" style="text-indent:2em">神會，襄州（今湖北襄陽縣）人，姓高。<title level="m">《壇經》</title>燉煌本作「南陽」，興聖寺本
 <lb n="0284a09" ed="Y"/>作「當陽」，都是傳說的錯誤。起初，從當陽玉泉寺的神秀禪師修學。神秀被徵召入京（七〇一
 <lb n="0284a10" ed="Y"/>）神會才到嶺南來參慧能，那時年才十四歲。神會來見慧能，當時的問答，傳說不一，可以分為
 <lb n="0284a11" ed="Y"/>二大類。第一類的傳說變化很多，今略舉五說，如：</p>
-<lb n="0284a12" ed="Y"/><p style="text-indent:2em">1.燉煌本<title level="m">《壇經》</title><note place="inline">大正<ref target="#vol:48;page:p343a" type="taisho">四八．三四三上</ref></note>說：</p>
-<lb n="0284a13" ed="Y"/><quote><p style="margin-left:3em">「神會，南陽人也。至曹溪山，禮拜問言：和尚坐禪，見亦不見？大師起把杖打神會三下
+<lb n="0284a12" ed="Y"/><p xml:id="pY40p0284a1201" style="text-indent:2em">1.燉煌本<title level="m">《壇經》</title><note place="inline">大正<ref target="#vol:48;page:p343a" type="taisho">四八．三四三上</ref></note>說：</p>
+<lb n="0284a13" ed="Y"/><quote><p xml:id="pY40p0284a1301" style="margin-left:3em">「神會，南陽人也。至曹溪山，禮拜問言：和尚坐禪，見亦不見？大師起把杖打神會三下
 <lb n="0284a14" ed="Y"/>，却問神會：吾打汝痛不痛？神會答言：亦痛亦不痛（六祖言曰：吾亦見亦不見。神會又
-<lb n="0284a15" ed="Y"/>問大師：何以亦見亦不見？大師言：吾亦見，常見自過患，故云亦見。亦不見者，不見<note n="0284a1501" resp="CBETA" type="add">天地【CB】，他【印順】</note><app n="0284a1501"><lem wit="【CB】" resp="正聞出版社">天地</lem><rdg wit="【印順】">他</rdg></app>
+<lb n="0284a15" ed="Y"/>問大師：何以亦見亦不見？大師言：吾亦見，常見自過患，故云亦見。亦不見者，不見<note n="0284a1501" resp="CBETA" type="add">天地【CB】，他【印順】</note><app n="0284a1501"><lem resp="正聞出版社" wit="【CB】">天地</lem><rdg wit="【印順】">他</rdg></app>
 <pb n="0285a" ed="Y" xml:id="Y40.0038.0285a"/>
-<lb n="0285a01" ed="Y"/>人過<note n="0285a0101" resp="CBETA" type="add">患【CB】，罪【印順】</note><app n="0285a0101"><lem wit="【CB】" resp="正聞出版社">患</lem><rdg wit="【印順】">罪</rdg></app>，所以亦不見也。汝亦痛亦不痛如何？神會答曰：若不痛即同無情木石，若痛即同
+<lb n="0285a01" ed="Y"/>人過<note n="0285a0101" resp="CBETA" type="add">患【CB】，罪【印順】</note><app n="0285a0101"><lem resp="正聞出版社" wit="【CB】">患</lem><rdg wit="【印順】">罪</rdg></app>，所以亦不見也。汝亦痛亦不痛如何？神會答曰：若不痛即同無情木石，若痛即同
 <lb n="0285a02" ed="Y"/>凡夫即起於恨）。大師言：神會！向前見不見是兩邊，痛不痛是生滅。汝自性且不見，敢
-<lb n="0285a03" ed="Y"/>來弄人！<note n="0285a0301" resp="CBETA" type="add">［－］【CB】，神會【印順】</note><app n="0285a0301"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">神會</rdg></app>禮拜，禮拜，更不言」。</p></quote>
-<lb n="0285a04" ed="Y"/><quote><p style="margin-left:3em">「神會作禮，便為門人，不離曹溪山中，常在左右」。</p></quote>
-<lb n="0285a05" ed="Y"/><p style="text-indent:2em">這一段師資相見的問答，對神會來說，沒有暗示神會的偉大，也沒有蓄意的譏貶，只是禪師
+<lb n="0285a03" ed="Y"/>來弄人！<note n="0285a0301" resp="CBETA" type="add">［－］【CB】，神會【印順】</note><app n="0285a0301"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">神會</rdg></app>禮拜，禮拜，更不言」。</p></quote>
+<lb n="0285a04" ed="Y"/><quote><p xml:id="pY40p0285a0401" style="margin-left:3em">「神會作禮，便為門人，不離曹溪山中，常在左右」。</p></quote>
+<lb n="0285a05" ed="Y"/><p xml:id="pY40p0285a0501" style="text-indent:2em">這一段師資相見的問答，對神會來說，沒有暗示神會的偉大，也沒有蓄意的譏貶，只是禪師
 <lb n="0285a06" ed="Y"/>平常接人的一則範例。神會是聰明人，可是不知道「自知自見」，卻向外作弄聰明，要問慧能的
 <lb n="0285a07" ed="Y"/>禪心，見還是不見。杖打三下，正要他向自己身心去自知自覺，這是禪師用棒的榜樣。一經慧能
 <lb n="0285a08" ed="Y"/>反詰，神會就自覺錯誤——痛與不痛，都落於過失。所以慧能責備他：<quote>「汝自迷不見自心，却來
 <lb n="0285a09" ed="Y"/>問慧能見否！……何不自修，問吾見否」</quote>？神會這才向慧能禮謝，死心塌地的在曹溪修學。</p>
-<lb n="0285a10" ed="Y"/><p style="text-indent:2em">2.<title level="m">《別傳》</title><note place="inline">續<ref type="wxzj" target="#vol:86;page:p51b">一四六．四八五<note n="0285a1001" resp="CBETA" type="add">（卍新續八六五一中）【CB】，［－］【印順】</note><app n="0285a1001"><lem wit="【CB】" resp="正聞出版社">（卍新續八六．五一中）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>說：</p>
-<lb n="0285a11" ed="Y"/><p style="margin-left:3em">慧能開示：<quote>「我有法，無名無字，……無頭無尾，無內無外，……此是何物」</quote>？</p>
-<lb n="0285a12" ed="Y"/><p style="margin-left:3em">神會答：<quote>「此之（疑「是」之訛）佛之本源。……本源者，諸佛本性」</quote>。</p>
-<lb n="0285a13" ed="Y"/><p style="margin-left:3em">慧能打神會幾下。至夜間，問神會：<quote>「吾打汝時，佛性受否？答云：佛性無受。……豈同
+<lb n="0285a10" ed="Y"/><p xml:id="pY40p0285a1001" style="text-indent:2em">2.<title level="m">《別傳》</title><note place="inline">續<ref target="#vol:86;page:p51b" type="wxzj">一四六．四八五<note n="0285a1001" resp="CBETA" type="add">（卍新續八六五一中）【CB】，［－］【印順】</note><app n="0285a1001"><lem resp="正聞出版社" wit="【CB】">（卍新續八六．五一中）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>說：</p>
+<lb n="0285a11" ed="Y"/><p xml:id="pY40p0285a1101" style="margin-left:3em">慧能開示：<quote>「我有法，無名無字，……無頭無尾，無內無外，……此是何物」</quote>？</p>
+<lb n="0285a12" ed="Y"/><p xml:id="pY40p0285a1201" style="margin-left:3em">神會答：<quote>「此之（疑「是」之訛）佛之本源。……本源者，諸佛本性」</quote>。</p>
+<lb n="0285a13" ed="Y"/><p xml:id="pY40p0285a1301" style="margin-left:3em">慧能打神會幾下。至夜間，問神會：<quote>「吾打汝時，佛性受否？答云：佛性無受。……豈同
 <lb n="0285a14" ed="Y"/>木石？雖痛而心性不受」</quote>。</p>
-<lb n="0285a15" ed="Y"/><p style="margin-left:3em">慧能許可他說：<quote>「汝今被打，心性不受。汝受諸觸如智證，得真正受三昧」</quote>。於是密授付
+<lb n="0285a15" ed="Y"/><p xml:id="pY40p0285a1501" style="margin-left:3em">慧能許可他說：<quote>「汝今被打，心性不受。汝受諸觸如智證，得真正受三昧」</quote>。於是密授付
 <pb n="0286a" ed="Y" xml:id="Y40.0038.0286a"/>
 <lb n="0286a01" ed="Y"/>囑。</p>
-<lb n="0286a02" ed="Y"/><p style="text-indent:2em"><title level="m">《別傳》</title>的問答，與<title level="m">《壇經》</title>不同，但有傳說上的連絡。如<title level="m">《別傳》</title>也打了幾下；又問神會
+<lb n="0286a02" ed="Y"/><p xml:id="pY40p0286a0201" style="text-indent:2em"><title level="m">《別傳》</title>的問答，與<title level="m">《壇經》</title>不同，但有傳說上的連絡。如<title level="m">《別傳》</title>也打了幾下；又問神會
 <lb n="0286a03" ed="Y"/>痛不痛，這是與<title level="m">《壇經》</title>類似的。神會說「知痛而心性不受」，慧能認可了，所以就密授付囑。
 <lb n="0286a04" ed="Y"/><title level="m">《別傳》</title>所說，是重於佛性的。如慧能未到黃梅以前，就與無盡藏尼論涅槃佛性。弘忍付慧能衣
 <lb n="0286a05" ed="Y"/>法時，也是問答佛性。與神會問答，又是問<quote>「佛性受不」</quote>。所以<title level="m">《別傳》</title>在神會門下，代表特重
 <lb n="0286a06" ed="Y"/>佛性那一派的傳說。</p>
-<lb n="0286a07" ed="Y"/><p style="text-indent:2em">3.圭峯宗密的<title level="m">《師資承襲圖》</title>，引<title level="m">《祖宗傳記》</title><note place="inline">續<ref target="#vol:63;page:p31b" type="wxzj">一一〇．四三三<note n="0286a0701" resp="CBETA" type="add">（卍新續六三三一中）【CB】，［－］【印順】</note><app n="0286a0701"><lem wit="【CB】" resp="正聞出版社">（卍新續六三．三一中）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>說：</p>
-<lb n="0286a08" ed="Y"/><quote><p style="margin-left:3em">「和尚問：知識！遠來大艱辛，將本來否？（神會）答：將來。若有本，即合識主！答：
+<lb n="0286a07" ed="Y"/><p xml:id="pY40p0286a0701" style="text-indent:2em">3.圭峯宗密的<title level="m">《師資承襲圖》</title>，引<title level="m">《祖宗傳記》</title><note place="inline">續<ref target="#vol:63;page:p31b" type="wxzj">一一〇．四三三<note n="0286a0701" resp="CBETA" type="add">（卍新續六三三一中）【CB】，［－］【印順】</note><app n="0286a0701"><lem resp="正聞出版社" wit="【CB】">（卍新續六三．三一中）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>說：</p>
+<lb n="0286a08" ed="Y"/><quote><p xml:id="pY40p0286a0801" style="margin-left:3em">「和尚問：知識！遠來大艱辛，將本來否？（神會）答：將來。若有本，即合識主！答：
 <lb n="0286a09" ed="Y"/>神會以無住為本，見即是主。大師云：遮沙彌爭敢取次語！便以杖亂打。神會杖下思惟：
 <lb n="0286a10" ed="Y"/>大善知識歷劫難逢，今既得遇，豈惜身命」！</p></quote>
-<lb n="0286a11" ed="Y"/><p style="text-indent:2em">宗密的<cit><bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="3之下" type="卷">卷三之下</biblScope>也說：</bibl><quote>「因答無住為本，見即是主（原作「性」），杖試
+<lb n="0286a11" ed="Y"/><p xml:id="pY40p0286a1101" style="text-indent:2em">宗密的<cit><bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="3之下" type="卷">卷三之下</biblScope>也說：</bibl><quote>「因答無住為本，見即是主（原作「性」），杖試
 <lb n="0286a12" ed="Y"/>諸難，夜喚審問，兩心既契，師資道合」</quote></cit>。宗密所傳的問答，<quote>「無住為本，見即是主」</quote>，為神會
 <lb n="0286a13" ed="Y"/>所傳的荷澤禪的特色。這是將神會傳禪的要義，作為初見六祖的問答了。在杖打以後，夜間又喚
 <lb n="0286a14" ed="Y"/>去審問，兩心契合，與<title level="m">《別傳》</title>所說相同。但宗密所傳，要等神會外遊，再來曹溪，才「默授密
 <lb n="0286a15" ed="Y"/>語」。這是神會門下的傳說，與<title level="m">《別傳》</title>一樣。在神會初來曹溪的問答中，就顯露頭角，意味著
 <pb n="0287a" ed="Y" xml:id="Y40.0038.0287a"/>
 <lb n="0287a01" ed="Y"/>神會的利根頓契，為南宗頓教的傳承者。</p>
-<lb n="0287a02" ed="Y"/><p style="text-indent:2em">4.<title level="m">《傳燈錄》</title>，是此較遲出的禪宗史書，深受<title level="m">《寶林傳》</title>的影響。<bibl><title level="m">《傳燈錄》</title><biblScope type="卷" n="5">（卷五）</biblScope></bibl>有關
+<lb n="0287a02" ed="Y"/><p xml:id="pY40p0287a0201" style="text-indent:2em">4.<title level="m">《傳燈錄》</title>，是此較遲出的禪宗史書，深受<title level="m">《寶林傳》</title>的影響。<bibl><title level="m">《傳燈錄》</title><biblScope n="5" type="卷">（卷五）</biblScope></bibl>有關
 <lb n="0287a03" ed="Y"/>神會來參慧能的問答，可分二節：起初，與宗密<title level="m">《禪門師資承襲圖》</title>所說相同。其次又這樣<note place="inline">大
 <lb n="0287a04" ed="Y"/>正<ref target="#vol:51;page:p245a" type="taisho">五一．二四五上</ref></note>說：</p>
-<lb n="0287a05" ed="Y"/><quote><p style="margin-left:3em">「他日，祖告眾曰：吾有一物，無頭無尾，無名無字，無背無面，諸人還識否？（神會）
+<lb n="0287a05" ed="Y"/><quote><p xml:id="pY40p0287a0501" style="margin-left:3em">「他日，祖告眾曰：吾有一物，無頭無尾，無名無字，無背無面，諸人還識否？（神會）
 <lb n="0287a06" ed="Y"/>師乃出曰：是諸佛之本源，神會之佛性。祖曰：向汝道無名無字，汝便喚本源佛性！師禮
 <lb n="0287a07" ed="Y"/>拜而退」。</p></quote>
-<lb n="0287a08" ed="Y"/><p style="text-indent:2em">這一問答，分明是引用<title level="m">《別傳》</title>的。但刪去了<title level="m">《別傳》</title>的夜喚審問，默授付囑。</p>
-<lb n="0287a09" ed="Y"/><p style="text-indent:2em">5.<title level="m">《壇經》</title>宗寶本——一般通行的<title level="m">《六祖大師法寶壇經》</title>，編定於元至元年間（一二九一頃
+<lb n="0287a08" ed="Y"/><p xml:id="pY40p0287a0801" style="text-indent:2em">這一問答，分明是引用<title level="m">《別傳》</title>的。但刪去了<title level="m">《別傳》</title>的夜喚審問，默授付囑。</p>
+<lb n="0287a09" ed="Y"/><p xml:id="pY40p0287a0901" style="text-indent:2em">5.<title level="m">《壇經》</title>宗寶本——一般通行的<title level="m">《六祖大師法寶壇經》</title>，編定於元至元年間（一二九一頃
 <lb n="0287a10" ed="Y"/>）。宗寶本將上來的各種不同傳說，結合為一。一、<quote>「無住為本，見即是主」</quote>問答，全同<title level="m">《禪門
 <lb n="0287a11" ed="Y"/>師資承襲圖》</title>所說。二、六祖杖打三下，<quote>「打汝痛不痛」</quote>的問答，與燉煌本相合。三、六祖告眾
 <lb n="0287a12" ed="Y"/>，<quote>「吾有一物，無頭無尾」</quote>問答，與<title level="m">《傳燈錄》</title>相同，但又加上了兩句，如<note place="inline">大正<ref target="#vol:48;page:p359b" type="taisho">四八．三五九中</ref>——
 <lb n="0287a13" ed="Y"/>下</note>說：</p>
-<lb n="0287a14" ed="Y"/><quote><p style="margin-left:3em">「師曰：向汝道無名無字，汝便喚作本源佛性！汝向去有把茆蓋頭，也只成箇知解宗徒」
+<lb n="0287a14" ed="Y"/><quote><p xml:id="pY40p0287a1401" style="margin-left:3em">「師曰：向汝道無名無字，汝便喚作本源佛性！汝向去有把茆蓋頭，也只成箇知解宗徒」
 <lb n="0287a15" ed="Y"/>！</p></quote>
 <pb n="0288a" ed="Y" xml:id="Y40.0038.0288a"/>
-<lb n="0288a01" ed="Y"/><p style="text-indent:2em">宗寶本比<title level="m">《傳燈錄》</title>，更多一層訶責。這兩部書，引用神會學系的傳說，卻刪去了原有的「
+<lb n="0288a01" ed="Y"/><p xml:id="pY40p0288a0101" style="text-indent:2em">宗寶本比<title level="m">《傳燈錄》</title>，更多一層訶責。這兩部書，引用神會學系的傳說，卻刪去了原有的「
 <lb n="0288a02" ed="Y"/>師資道合」，「默授付囑」，加上了訶斥的詞句。由於這兩部書的編集者，屬於曹溪門下的另一
-<lb n="0288a03" ed="Y"/>系統，反荷澤的洪州、石頭門下的關係。神會的確是一位「知解宗徒」，但這<note n="0288a0301" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0288a0301"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>是不滿神會的禪
+<lb n="0288a03" ed="Y"/>系統，反荷澤的洪州、石頭門下的關係。神會的確是一位「知解宗徒」，但這<note n="0288a0301" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0288a0301"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>是不滿神會的禪
 <lb n="0288a04" ed="Y"/>者，假託慧能所說，以貶抑神會而已。</p>
-<lb n="0288a05" ed="Y"/><p style="text-indent:2em">上來五項的不同傳說，有一項事實，那就是神會來參見時，受到慧能的杖試。神會受到杖責
+<lb n="0288a05" ed="Y"/><p xml:id="pY40p0288a0501" style="text-indent:2em">上來五項的不同傳說，有一項事實，那就是神會來參見時，受到慧能的杖試。神會受到杖責
 <lb n="0288a06" ed="Y"/>，因而有「痛不痛」的問答。儘管傳說不同，稱譽與貶抑不同，而這一事實，始終如一。4 與 5
 <lb n="0288a07" ed="Y"/>，只是援引古說，加以結合，刪去對神會的稱譽，而加上主觀的評語。2 與 3，是神會門下的傳
 <lb n="0288a08" ed="Y"/>說、所以有稱譽神會的話。1 燉煌本的傳說，是不屬於神會系的。對於神會，沒有貶抑語，也沒
 <lb n="0288a09" ed="Y"/>有稱揚讚歎的話。只是慧能平實的接引學人，誘導神會自己去體悟。這一事實，這一問答，平易
 <lb n="0288a10" ed="Y"/>而近情，沒有宗派的意味。神會初見慧能的問答，這應該是近於當時實況的。</p>
-<lb n="0288a11" ed="Y"/><p style="text-indent:2em">第二類傳說，出於<title level="m">《宋僧傳》</title>如<note place="inline">大正<ref target="#vol:50;page:p756c" type="taisho">五〇．七五六下</ref></note>說：</p>
-<lb n="0288a12" ed="Y"/><quote><p style="margin-left:3em">「及見，能問會曰：從何所來？答曰：無所從來。能曰：汝不歸去？答曰：一無所歸。能
+<lb n="0288a11" ed="Y"/><p xml:id="pY40p0288a1101" style="text-indent:2em">第二類傳說，出於<title level="m">《宋僧傳》</title>如<note place="inline">大正<ref target="#vol:50;page:p756c" type="taisho">五〇．七五六下</ref></note>說：</p>
+<lb n="0288a12" ed="Y"/><quote><p xml:id="pY40p0288a1201" style="margin-left:3em">「及見，能問會曰：從何所來？答曰：無所從來。能曰：汝不歸去？答曰：一無所歸。能
 <lb n="0288a13" ed="Y"/>曰：汝太茫茫。答曰：身緣在路。能曰：由自未到。答曰：今已得到，且無滯留」。</p></quote>
-<lb n="0288a14" ed="Y"/><p style="text-indent:2em">這是另一傳說，從來不曾受到禪者的重視。<title level="m">《宋僧傳》</title>的編成（九八八進上），離神會已二
+<lb n="0288a14" ed="Y"/><p xml:id="pY40p0288a1401" style="text-indent:2em">這是另一傳說，從來不曾受到禪者的重視。<title level="m">《宋僧傳》</title>的編成（九八八進上），離神會已二
 <lb n="0288a15" ed="Y"/>百多年，不知有關神會的問答，依據什麼傳說！不能以<quote>「宋僧傳多採碑傳」</quote>，而輕率的認為可信
 <pb n="0289a" ed="Y" xml:id="Y40.0038.0289a"/>
 <lb n="0289a01" ed="Y"/>。從問答的語意來說，大有作家相見的氣概，可能為神會門下的又一傳說。比之原始的傳說——
 <lb n="0289a02" ed="Y"/>燉煌本所傳，不及多了！</p>
-<lb n="0289a03" ed="Y"/><p style="text-indent:2em">神會就這樣的住在曹溪修學。據宗密所傳，神會曾一度外出遊學，如<title level="m">《圓覺經大疏鈔》</title>說：</p>
-<lb n="0289a04" ed="Y"/><quote><p style="margin-left:3em">「神會北遊，廣其見聞，於西京受戒。景龍年中，却歸曹溪。大師知其純熟，遂默授密語
+<lb n="0289a03" ed="Y"/><p xml:id="pY40p0289a0301" style="text-indent:2em">神會就這樣的住在曹溪修學。據宗密所傳，神會曾一度外出遊學，如<title level="m">《圓覺經大疏鈔》</title>說：</p>
+<lb n="0289a04" ed="Y"/><quote><p xml:id="pY40p0289a0401" style="margin-left:3em">「神會北遊，廣其見聞，於西京受戒。景龍年中，却歸曹溪。大師知其純熟，遂默授密語
 <lb n="0289a05" ed="Y"/>」。</p></quote>
-<lb n="0289a06" ed="Y"/><p style="text-indent:2em">景龍年中（七〇七——七〇九），神會受戒（二十歲，七〇七）回來，才受慧能的付囑。神
-<lb n="0289a07" ed="Y"/>會在曹溪門下，是<note n="0289a0701" resp="CBETA" type="add" subtype="規範字詞">年輕【CB】，年青【印順】</note><app n="0289a0701"><lem wit="【CB】" resp="CBETA">年輕</lem><rdg wit="【印順】">年青</rdg></app>的一位。他的精勤苦行，大有慧能在黃梅時，破柴踏碓的模樣。<cit><bibl><title level="m">《圓覺經
+<lb n="0289a06" ed="Y"/><p xml:id="pY40p0289a0601" style="text-indent:2em">景龍年中（七〇七——七〇九），神會受戒（二十歲，七〇七）回來，才受慧能的付囑。神
+<lb n="0289a07" ed="Y"/>會在曹溪門下，是<note n="0289a0701" resp="CBETA" type="add" subtype="規範字詞">年輕【CB】，年青【印順】</note><app n="0289a0701"><lem resp="CBETA" wit="【CB】">年輕</lem><rdg wit="【印順】">年青</rdg></app>的一位。他的精勤苦行，大有慧能在黃梅時，破柴踏碓的模樣。<cit><bibl><title level="m">《圓覺經
 <lb n="0289a08" ed="Y"/>大疏鈔》</title>曾這樣說：</bibl><quote>「會和上行門增上：苦行供養，密添眾瓶，斫冰濟眾，負薪擔水，神轉巨石
 <lb n="0289a09" ed="Y"/>等」</quote></cit>。古代禪者，都從為法忘身，勤苦琢磨而成為大器。神會從受戒回來，常在慧能左右，為慧
 <lb n="0289a10" ed="Y"/>能晚年的得意弟子。至於受慧能的付囑，那是密付密授，非局外人所知。如懷讓、行思，都說得
@@ -194,67 +214,67 @@
 <lb n="0289a14" ed="Y"/>得善不善等，毀譽不動」</quote>！神會經多年的精進，應該大有進益，但這似乎是「壇經傳宗」者添附
 <lb n="0289a15" ed="Y"/>的。<title level="m">《壇經》</title>燉煌本曾這樣<note place="inline">大正<ref target="#vol:48;page:p344a" type="taisho">四八．三四四上</ref></note>說：</p>
 <pb n="0290a" ed="Y" xml:id="Y40.0038.0290a"/>
-<lb n="0290a01" ed="Y"/><quote><p style="margin-left:3em">「上座法海向前言：大師去後，衣法當付何人？大師言：法即付了，汝不須問。吾滅後二
+<lb n="0290a01" ed="Y"/><quote><p xml:id="pY40p0290a0101" style="margin-left:3em">「上座法海向前言：大師去後，衣法當付何人？大師言：法即付了，汝不須問。吾滅後二
 <lb n="0290a02" ed="Y"/>十餘年，邪法繚亂，惑我宗旨。有人出來，不惜身命，定佛教是非，豎立宗旨，即是吾正
 <lb n="0290a03" ed="Y"/>法」。</p></quote>
-<lb n="0290a04" ed="Y"/><p style="text-indent:2em">這一問答，與「十弟子」說相矛盾。這是影射慧能滅後二十年（七三二），神會於滑臺大雲
+<lb n="0290a04" ed="Y"/><p xml:id="pY40p0290a0401" style="text-indent:2em">這一問答，與「十弟子」說相矛盾。這是影射慧能滅後二十年（七三二），神會於滑臺大雲
 <lb n="0290a05" ed="Y"/>寺，開無遮大會，定佛教是非，豎立南宗頓教的事實。這顯然是神會的<quote>「習徒迷真，橘枳變體，
 <lb n="0290a06" ed="Y"/>竟成壇經傳宗」</quote>所增入。</p></cb:div>
-<lb n="0290a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">南宗頓教的傳布</cb:mulu><head>南宗頓教的傳布</head><p style="text-indent:2em">慧能入滅後，神會的行蹤及其為南宗頓教的努力，略如<title level="m">《宋僧傳》</title>所說<note n="0290a0701" resp="CBETA" type="add" subtype="規範字詞">［－］【CB】，［－］【印順】</note><app n="0290a0701"><lem wit="【CB】" resp="CBETA">：</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>
-<lb n="0290a08" ed="Y"/><note n="0290a0801" resp="CBETA" type="add" subtype="規範字詞">［－］【CB】，［－］【印順】</note><app n="0290a0801"><lem wit="【CB】" resp="CBETA"><space quantity="0"/></lem><rdg wit="【印順】">：</rdg></app></p>
-<lb n="0290a09" ed="Y"/><quote><p style="margin-left:3em">「居曹溪數載，後遍尋名<note n="0290a0901" resp="CBETA" type="add">跡【CB】，迹【印順】</note><app n="0290a0901"><lem wit="【CB】" resp="正聞出版社">跡<note type="cf1">《宋高僧傳》卷8(CBETA, T50, no. 2061, p. 756, c19-p. 757, a11)</note></lem><rdg wit="【印順】">迹</rdg></app>。開元八年，<note n="0290a0902" resp="CBETA" type="add">勅【CB】，勑【印順】</note><app n="0290a0902"><lem wit="【CB】" resp="正聞出版社">勅</lem><rdg wit="【印順】">勑</rdg></app>配住南陽龍興寺。續於洛陽，大行禪法，聲彩
+<lb n="0290a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">南宗頓教的傳布</cb:mulu><head>南宗頓教的傳布</head><p xml:id="pY40p0290a0715" style="text-indent:2em">慧能入滅後，神會的行蹤及其為南宗頓教的努力，略如<title level="m">《宋僧傳》</title>所說<note n="0290a0701" resp="CBETA" type="add" subtype="規範字詞">［－］【CB】，［－］【印順】</note><app n="0290a0701"><lem resp="CBETA" wit="【CB】">：</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>
+<lb n="0290a08" ed="Y"/><note n="0290a0801" resp="CBETA" type="add" subtype="規範字詞">［－］【CB】，［－］【印順】</note><app n="0290a0801"><lem resp="CBETA" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">：</rdg></app></p>
+<lb n="0290a09" ed="Y"/><quote><p xml:id="pY40p0290a0901" style="margin-left:3em">「居曹溪數載，後遍尋名<note n="0290a0901" resp="CBETA" type="add">跡【CB】，迹【印順】</note><app n="0290a0901"><lem resp="正聞出版社" wit="【CB】">跡<note type="cf1">《宋高僧傳》卷8(CBETA, T50, no. 2061, p. 756, c19-p. 757, a11)</note></lem><rdg wit="【印順】">迹</rdg></app>。開元八年，<note n="0290a0902" resp="CBETA" type="add">勅【CB】，勑【印順】</note><app n="0290a0902"><lem resp="正聞出版社" wit="【CB】">勅</lem><rdg wit="【印順】">勑</rdg></app>配住南陽龍興寺。續於洛陽，大行禪法，聲彩
 <lb n="0290a10" ed="Y"/>發揮。……會之敷演，顯發能祖之宗風，使（神）秀之門寂寞矣」！<note n="0290001" resp="厚觀法師" type="add">《宋高僧傳》卷8：「居曹溪數載。後遍尋名跡。開元八年勅配住南陽龍興寺。續於洛陽大行禪法聲彩發揮。先是兩京之間皆宗神秀。若不淰之魚鮪附沼龍也。從見會明心六祖之風。蕩其漸修之[4]道矣。南北二宗時始判焉。致普寂之門盈而後虛。天寶中御史盧弈阿比於寂。誣奏會聚徒疑萌不利。玄宗召赴京。時駕幸昭應。湯池得對言理允愜。勅移往均部。二年勅徙荊州開元寺般若院住焉。十四年范陽安祿山舉兵內向。兩京版蕩駕幸巴蜀。副元帥郭子儀率兵平殄。然於飛輓索然。用右僕射裴冕權計。大府各置戒壇度僧。僧稅緡謂之香水錢。聚是以助軍須。初洛都先陷。會越在草莽。時盧弈為賊所戮。群議乃請會主其壇度。于時寺宇宮觀鞠為灰燼。乃權創一院悉資[1]苦蓋。而中築方壇。所獲財帛頓支軍費。代宗郭子儀收復兩京。會之濟用頗有力焉。肅宗皇帝詔入內供養。勅將作大匠併功齊力。為造禪宇于荷澤寺中是也。會之敷演顯發能祖之宗風。使秀之門寂寞矣。」(CBETA, T50, no. 2061, p. 756, c19-p. 757, a11)[4]道＝過【宋】。[1]苦＝苫【宋】【元】。</note></p></quote>
-<lb n="0290a11" ed="Y"/><p style="text-indent:2em">慧能去世後，神會曾過了數年的遊歷生活。開元八年（七二〇），奉<note n="0290a1101" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勑【印順】</note><app n="0290a1101"><lem wit="【CB】" resp="CBETA">敕</lem><rdg wit="【印順】">勑</rdg></app>配住南陽的龍興寺。
+<lb n="0290a11" ed="Y"/><p xml:id="pY40p0290a1101" style="text-indent:2em">慧能去世後，神會曾過了數年的遊歷生活。開元八年（七二〇），奉<note n="0290a1101" resp="CBETA" type="add" subtype="規範字詞">敕【CB】，勑【印順】</note><app n="0290a1101"><lem resp="CBETA" wit="【CB】">敕</lem><rdg wit="【印順】">勑</rdg></app>配住南陽的龍興寺。
 <lb n="0290a12" ed="Y"/>神會在南陽，住了一段較長時期，所以大家都稱他為「南陽和上」。從劉澄所集的<title level="m">《南陽和上問
 <lb n="0290a13" ed="Y"/>答雜徵義》</title>（近人稱之為「神會語錄」），見到神會與南陽太守王弼，內鄉縣令張萬頃的問答。
 <lb n="0290a14" ed="Y"/>王趙公——王琚，問三車義。應侍御史王維的請求，在臨湍驛，與同寺的慧澄禪師共話禪理。神
 <lb n="0290a15" ed="Y"/>會發揚南宗頓教的運動，從此逐漸的展開。到了開元二十年（七三二），神會四十五歲，在滑臺
 <pb n="0291a" ed="Y" xml:id="Y40.0038.0291a"/>
 <lb n="0291a01" ed="Y"/>（今河南滑縣）大雲寺，開無遮大會。現存<title level="m">《南宗定是非論》</title>，敘錄當時論議的情形。神會當時
-<lb n="0291a02" ed="Y"/>向大眾宣告<note place="inline"><bibl><title level="m">《神會集》</title><biblScope type="pp" n="267">二六七</biblScope></bibl></note>：</p>
-<lb n="0291a03" ed="Y"/><quote><p style="margin-left:3em">「神會今設無遮大會，兼莊嚴道場，不為功德，為天下學道者定（宗）旨，為天下學道（
+<lb n="0291a02" ed="Y"/>向大眾宣告<note place="inline"><bibl><title level="m">《神會集》</title><biblScope n="267" type="pp">二六七</biblScope></bibl></note>：</p>
+<lb n="0291a03" ed="Y"/><quote><p xml:id="pY40p0291a0301" style="margin-left:3em">「神會今設無遮大會，兼莊嚴道場，不為功德，為天下學道者定（宗）旨，為天下學道（
 <lb n="0291a04" ed="Y"/>者）辨是非」。</p></quote>
-<lb n="0291a05" ed="Y"/><p style="text-indent:2em">這是公開的，僧尼道俗都來參加的大會。神會召開大會的目的，是針對當時以嵩洛為中心的
+<lb n="0291a05" ed="Y"/><p xml:id="pY40p0291a0501" style="text-indent:2em">這是公開的，僧尼道俗都來參加的大會。神會召開大會的目的，是針對當時以嵩洛為中心的
 <lb n="0291a06" ed="Y"/>，推神秀為六祖的，得王家崇奉的北宗而發。神秀的弟子——義福、普寂、降魔藏等，繼承神秀
-<lb n="0291a07" ed="Y"/>的禪門，盛極一時，如<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope type="卷" n="3之1">卷三之一</biblScope></bibl>說：</p>
-<lb n="0291a08" ed="Y"/><quote><p style="margin-left:3em">「能大師滅後二十年中，曹溪頓旨，<note n="0291a0801" resp="CBETA" type="add">沉【CB】，沈【印順】</note><app n="0291a0801"><lem wit="【CB】" resp="正聞出版社">沉<note type="cf1">《圓覺經大疏釋義鈔》卷3(CBETA, X09, no. 245, p. 532, c2-3 // Z 1:14, p. 277, b9-10 // R14, p. 553, b9-10)</note></lem><rdg wit="【印順】">沈</rdg></app>廢於荊吳；嵩嶽漸門，熾盛於秦洛。普寂禪師，秀
-<lb n="0291a09" ed="Y"/>弟子也，謬稱七祖。二京法主，三帝門師，朝臣歸崇，<note n="0291a0901" resp="CBETA" type="add">敕【CB】，勑【印順】</note><app n="0291a0901"><lem wit="【CB】" resp="正聞出版社">敕</lem><rdg wit="【印順】">勑</rdg></app>使監衛」。<note n="0291001" resp="厚觀法師" type="add">《圓覺經大疏釋義鈔》卷3(CBETA, X09, no. 245, p. 532, c2-3 // Z 1:14, p. 277, b9-10 // R14, p. 553, b9-10)</note></p></quote>
-<lb n="0291a10" ed="Y"/><p style="text-indent:2em">面對這樣盛極一時的北宗，神會出來指證：在菩提達摩法系中，神秀是旁支；真正受五祖付
+<lb n="0291a07" ed="Y"/>的禪門，盛極一時，如<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="3之1" type="卷">卷三之一</biblScope></bibl>說：</p>
+<lb n="0291a08" ed="Y"/><quote><p xml:id="pY40p0291a0801" style="margin-left:3em">「能大師滅後二十年中，曹溪頓旨，<note n="0291a0801" resp="CBETA" type="add">沉【CB】，沈【印順】</note><app n="0291a0801"><lem resp="正聞出版社" wit="【CB】">沉<note type="cf1">《圓覺經大疏釋義鈔》卷3(CBETA, X09, no. 245, p. 532, c2-3 // Z 1:14, p. 277, b9-10 // R14, p. 553, b9-10)</note></lem><rdg wit="【印順】">沈</rdg></app>廢於荊吳；嵩嶽漸門，熾盛於秦洛。普寂禪師，秀
+<lb n="0291a09" ed="Y"/>弟子也，謬稱七祖。二京法主，三帝門師，朝臣歸崇，<note n="0291a0901" resp="CBETA" type="add">敕【CB】，勑【印順】</note><app n="0291a0901"><lem resp="正聞出版社" wit="【CB】">敕</lem><rdg wit="【印順】">勑</rdg></app>使監衛」。<note n="0291001" resp="厚觀法師" type="add">《圓覺經大疏釋義鈔》卷3(CBETA, X09, no. 245, p. 532, c2-3 // Z 1:14, p. 277, b9-10 // R14, p. 553, b9-10)</note></p></quote>
+<lb n="0291a10" ed="Y"/><p xml:id="pY40p0291a1001" style="text-indent:2em">面對這樣盛極一時的北宗，神會出來指證：在菩提達摩法系中，神秀是旁支；真正受五祖付
 <lb n="0291a11" ed="Y"/>法傳衣的，是韶州曹溪的慧能，慧能才是六祖。論到法門，神秀是漸門，不是祖祖相承的頓教。
-<lb n="0291a12" ed="Y"/>這一切，如<title level="m">《南宗定是非論》</title><note place="inline"><bibl><title level="m">《神會集》</title><biblScope type="pp" n="281">二八一</biblScope>、<biblScope to="288" type="pp" from="285">二八五——二八八</biblScope></bibl></note>說：</p>
-<lb n="0291a13" ed="Y"/><quote><p style="margin-left:3em">「從上已來，具有相傳付囑。……唐朝忍禪師在東山，將袈裟付囑於能禪師。經今六代，
+<lb n="0291a12" ed="Y"/>這一切，如<title level="m">《南宗定是非論》</title><note place="inline"><bibl><title level="m">《神會集》</title><biblScope n="281" type="pp">二八一</biblScope>、<biblScope from="285" to="288" type="pp">二八五——二八八</biblScope></bibl></note>說：</p>
+<lb n="0291a13" ed="Y"/><quote><p xml:id="pY40p0291a1301" style="margin-left:3em">「從上已來，具有相傳付囑。……唐朝忍禪師在東山，將袈裟付囑於能禪師。經今六代，
 <lb n="0291a14" ed="Y"/>內傳法契以印證心，外傳袈裟以定宗旨。從上相傳，一一皆與達摩袈裟為信。其袈裟今見
 <lb n="0291a15" ed="Y"/>在韶州，更不與人」。</p></quote>
 <pb n="0292a" ed="Y" xml:id="Y40.0038.0292a"/>
-<lb n="0292a01" ed="Y"/><quote><p style="margin-left:3em">「今言不同者，為秀禪師教人凝心入定，住心看淨，起心外照，攝心內證。……從上六代
+<lb n="0292a01" ed="Y"/><quote><p xml:id="pY40p0292a0101" style="margin-left:3em">「今言不同者，為秀禪師教人凝心入定，住心看淨，起心外照，攝心內證。……從上六代
 <lb n="0292a02" ed="Y"/>以來，無有一人凝心入定，住心看淨，起心外照，攝心內證，是以不同。……我六代大師
 <lb n="0292a03" ed="Y"/>，一一皆言單刀直入，直了見性，不言階漸。夫學道者，須頓見佛性，漸修因緣，不離是
 <lb n="0292a04" ed="Y"/>生而得解脫。……今言坐者，念不起為坐；今言禪者，見本性為禪」。</p></quote>
-<lb n="0292a05" ed="Y"/><p style="text-indent:2em">滑臺在洛陽的東北，神會到這<note n="0292a0501" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0292a0501"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>來召開無遮大會，論定佛法宗旨，一定是由於多年來在南陽
+<lb n="0292a05" ed="Y"/><p xml:id="pY40p0292a0501" style="text-indent:2em">滑臺在洛陽的東北，神會到這<note n="0292a0501" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0292a0501"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>來召開無遮大會，論定佛法宗旨，一定是由於多年來在南陽
 <lb n="0292a06" ed="Y"/>的宣揚頓教，得到（曾來南陽的）滑臺大雲寺僧的同情，邀到那邊去召開大會的。如不得當地僧
 <lb n="0292a07" ed="Y"/>眾的有力支持，任何有名的大德，都不可能在別處別寺，召開這樣的大會。在這次大會的進行中
-<lb n="0292a08" ed="Y"/>，不是沒有阻礙的，如<title level="m">《南宗定是非論》</title><note place="inline"><bibl><title level="m">《神會集》</title><biblScope type="pp" from="264" to="265">二六四——二六五</biblScope></bibl></note>說：</p>
-<lb n="0292a09" ed="Y"/><quote><p style="margin-left:3em">「即時（？）人侶，╳卷屏風，稱有官客，擬將著侍。和上言：此屏風非常住家者，何乃
+<lb n="0292a08" ed="Y"/>，不是沒有阻礙的，如<title level="m">《南宗定是非論》</title><note place="inline"><bibl><title level="m">《神會集》</title><biblScope from="264" to="265" type="pp">二六四——二六五</biblScope></bibl></note>說：</p>
+<lb n="0292a09" ed="Y"/><quote><p xml:id="pY40p0292a0901" style="margin-left:3em">「即時（？）人侶，╳卷屏風，稱有官客，擬將著侍。和上言：此屏風非常住家者，何乃
 <lb n="0292a10" ed="Y"/>拆破場，將用祇承官客」！</p></quote>
-<lb n="0292a11" ed="Y"/><p style="text-indent:2em">莊嚴會場的屏風，並非常住公物，而是私人的（可能向信徒借來）。到了臨時，有人以招待
+<lb n="0292a11" ed="Y"/><p xml:id="pY40p0292a1101" style="text-indent:2em">莊嚴會場的屏風，並非常住公物，而是私人的（可能向信徒借來）。到了臨時，有人以招待
 <lb n="0292a12" ed="Y"/>官客的名義，將屏風帶去，這是故意的「拆破場」（拆臺）。可見當時大雲寺內，也有反對的力
 <lb n="0292a13" ed="Y"/>量存在，但神會終於完成了這一次莊嚴的盛會。從此，南頓北漸，顯著的對立起來。慧能為六祖
 <lb n="0292a14" ed="Y"/>，<quote>「是的的相傳付囑人」</quote>，更普遍的傳揚開來。</p>
-<lb n="0292a15" ed="Y"/><p style="text-indent:2em">神會在滑臺召開的大會，不止一次，二十年是最成功的一次。此後，神會大概以南陽（洛陽
+<lb n="0292a15" ed="Y"/><p xml:id="pY40p0292a1501" style="text-indent:2em">神會在滑臺召開的大會，不止一次，二十年是最成功的一次。此後，神會大概以南陽（洛陽
 <pb n="0293a" ed="Y" xml:id="Y40.0038.0293a"/>
 <lb n="0293a01" ed="Y"/>之南）為根本，而往來於滑臺（洛陽東北）一帶。神會也到過邢州（今河北鉅鹿縣）開元寺。天
 <lb n="0293a02" ed="Y"/>寶七年，神會請宋鼎作<title level="a">〈唐曹溪能大師碑〉</title>（<bibl><title level="m">《金石錄》</title><biblScope n="7" type="卷">卷七</biblScope></bibl>），就立在邢州。直到天寶四年（
 <lb n="0293a03" ed="Y"/>七四五），神會五十八歲，應兵部侍郎宋鼎的禮請，到洛陽，住荷澤寺，這才進入北宗的教化中
 <lb n="0293a04" ed="Y"/>心。如<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>說：</p>
-<lb n="0293a05" ed="Y"/><quote><p style="margin-left:3em">「天寶四載，兵部侍郎宋鼎，請入東都。然正道易申，謬理難固。於是曹溪了義，大播於
+<lb n="0293a05" ed="Y"/><quote><p xml:id="pY40p0293a0501" style="margin-left:3em">「天寶四載，兵部侍郎宋鼎，請入東都。然正道易申，謬理難固。於是曹溪了義，大播於
 <lb n="0293a06" ed="Y"/>洛陽；荷澤頓門，派流於天下」。</p></quote>
-<lb n="0293a07" ed="Y"/><p style="text-indent:2em">神會到了洛陽，也曾召開定兩宗是非的大會。據宗密的傳說，是天寶四年（<title level="m">《曆代法寶記》</title>
+<lb n="0293a07" ed="Y"/><p xml:id="pY40p0293a0701" style="text-indent:2em">神會到了洛陽，也曾召開定兩宗是非的大會。據宗密的傳說，是天寶四年（<title level="m">《曆代法寶記》</title>
 <lb n="0293a08" ed="Y"/>，作「天寶八年」）。神會不斷的評論兩宗的傍正。當北宗普寂在世時（七三九去世），曾<cit><quote>「在
 <lb n="0293a09" ed="Y"/>嵩山豎碑銘，立七祖堂，修法寶紀，排七代數」</quote><note place="inline"><bibl><title level="m">《神會集》</title><biblScope n="289" type="pp">二八九</biblScope></bibl></note></cit>。神會也就立祖堂，立碑記，如<bibl><title level="m">《
 <lb n="0293a10" ed="Y"/>宋僧傳》</title><biblScope n="8" type="卷">卷八</biblScope><title level="a">〈慧能傳〉</title></bibl><note place="inline">大正<ref target="#vol:50;page:p755b" type="taisho">五〇．七五五中</ref></note>說：</p>
-<lb n="0293a11" ed="Y"/><quote><p style="margin-left:3em">「會於洛陽荷澤寺，崇樹能之真堂；兵部侍郎宋鼎為碑焉。會序宗脈，從如來下西域諸祖
+<lb n="0293a11" ed="Y"/><quote><p xml:id="pY40p0293a1101" style="margin-left:3em">「會於洛陽荷澤寺，崇樹能之真堂；兵部侍郎宋鼎為碑焉。會序宗脈，從如來下西域諸祖
 <lb n="0293a12" ed="Y"/>外，震旦凡六祖，盡圖繢其影。太尉房琯作六葉圖序」。</p></quote>
-<lb n="0293a13" ed="Y"/><p style="text-indent:2em">宋鼎作碑，是天寶十一年。立六代祖師的影堂，作六葉圖，當時的北宗、南宗，都是重祖師
+<lb n="0293a13" ed="Y"/><p xml:id="pY40p0293a1301" style="text-indent:2em">宋鼎作碑，是天寶十一年。立六代祖師的影堂，作六葉圖，當時的北宗、南宗，都是重祖師
 <lb n="0293a14" ed="Y"/>（甚至比佛更重要），也就是重傳承的宗派。在神會這樣的弘傳下，南宗頓教——曹溪禪在洛陽
 <lb n="0293a15" ed="Y"/>，大大的傳開了。<cit><bibl><title level="m">《宋僧傳》</title>說：</bibl><quote>「普寂之門，盈而後虛」</quote></cit>；胡適說神會是<quote>「北宗禪的毀滅者」</quote>
 <pb n="0294a" ed="Y" xml:id="Y40.0038.0294a"/>
@@ -268,217 +288,217 @@
 <lb n="0294a08" ed="Y"/>禪系——荷澤宗的命運相同。那就是經歷武宗的滅法（八四五），晚唐及五代的軍政混亂，民生
 <lb n="0294a09" ed="Y"/>凋敝，引起中原文化的全面（不但是佛教）衰落。北宗與荷澤宗，也就漸歸於泯滅，獨讓南方的
 <lb n="0294a10" ed="Y"/>禪者盛行中國。</p>
-<lb n="0294a11" ed="Y"/><p style="text-indent:2em">神會努力於慧能為六祖正統的鼓吹，不只是為了爭法門正統。神會代表了一代一人的付囑制
-<lb n="0294a12" ed="Y"/>，反對分燈普化的付法制，在禪宗史中，有深遠的意義，而不是<note n="0294a1201" resp="CBETA" type="add" subtype="規範字詞">捏【CB】，揑【印順】</note><app n="0294a1201"><lem wit="【CB】" resp="CBETA">捏</lem><rdg wit="【印順】">揑</rdg></app>造的。從代表曹溪禪風的<title level="m">《壇
+<lb n="0294a11" ed="Y"/><p xml:id="pY40p0294a1101" style="text-indent:2em">神會努力於慧能為六祖正統的鼓吹，不只是為了爭法門正統。神會代表了一代一人的付囑制
+<lb n="0294a12" ed="Y"/>，反對分燈普化的付法制，在禪宗史中，有深遠的意義，而不是<note n="0294a1201" resp="CBETA" type="add" subtype="規範字詞">捏【CB】，揑【印順】</note><app n="0294a1201"><lem resp="CBETA" wit="【CB】">捏</lem><rdg wit="【印順】">揑</rdg></app>造的。從代表曹溪禪風的<title level="m">《壇
 <lb n="0294a13" ed="Y"/>經》</title>來看，與<title level="m">《大乘無生方便門》</title>等北宗禪，顯有重大的區別。神會立頓教（如來禪）而斥漸教
-<lb n="0294a14" ed="Y"/>（清淨禪），不能說沒有自己的見地，而只是爭一法統。神會在<title level="m">《南宗定是非論》</title><note place="inline"><bibl><title level="m">《神會集》</title><biblScope type="pp" n="283">二八三</biblScope>、
-<lb n="0294a15" ed="Y"/><biblScope type="pp" n="291">二九一</biblScope></bibl></note>說：</p>
+<lb n="0294a14" ed="Y"/>（清淨禪），不能說沒有自己的見地，而只是爭一法統。神會在<title level="m">《南宗定是非論》</title><note place="inline"><bibl><title level="m">《神會集》</title><biblScope n="283" type="pp">二八三</biblScope>、
+<lb n="0294a15" ed="Y"/><biblScope n="291" type="pp">二九一</biblScope></bibl></note>說：</p>
 <pb n="0295a" ed="Y" xml:id="Y40.0038.0295a"/>
-<lb n="0295a01" ed="Y"/><quote><p style="margin-left:3em">「（和）上答：從秀禪（師）……說禪教人……。以下有數百餘人說禪教人，並無大小，
-<lb n="0295a02" ed="Y"/>無師資情，共爭名利，元無<note n="0295a0201" resp="CBETA" type="add" subtype="規範字詞">稟【CB】，禀【印順】</note><app n="0295a0201"><lem wit="【CB】" resp="CBETA">稟</lem><rdg wit="【印順】">禀</rdg></app>承，亂於正法，惑諸學道者，此滅佛法相也」。</p></quote>
-<lb n="0295a03" ed="Y"/><quote><p style="margin-left:3em">「和上告遠法師及諸人等：莫怪作如此說，見世間教禪者多，於學禪者極其繚亂。恐天魔
+<lb n="0295a01" ed="Y"/><quote><p xml:id="pY40p0295a0101" style="margin-left:3em">「（和）上答：從秀禪（師）……說禪教人……。以下有數百餘人說禪教人，並無大小，
+<lb n="0295a02" ed="Y"/>無師資情，共爭名利，元無<note n="0295a0201" resp="CBETA" type="add" subtype="規範字詞">稟【CB】，禀【印順】</note><app n="0295a0201"><lem resp="CBETA" wit="【CB】">稟</lem><rdg wit="【印順】">禀</rdg></app>承，亂於正法，惑諸學道者，此滅佛法相也」。</p></quote>
+<lb n="0295a03" ed="Y"/><quote><p xml:id="pY40p0295a0301" style="margin-left:3em">「和上告遠法師及諸人等：莫怪作如此說，見世間教禪者多，於學禪者極其繚亂。恐天魔
 <lb n="0295a04" ed="Y"/>波旬及諸外道入在其中，惑諸學道者，滅於正法，故如此說」。</p></quote>
-<lb n="0295a05" ed="Y"/><p style="text-indent:2em">從這段文看出，禪門大<note n="0295a0501" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0295a0501"><lem wit="【CB】" resp="CBETA">啟</lem><rdg wit="【印順】">啓</rdg></app>以來，人人自稱得法，處處開法立宗。從來一系相承的禪法，顯然
+<lb n="0295a05" ed="Y"/><p xml:id="pY40p0295a0501" style="text-indent:2em">從這段文看出，禪門大<note n="0295a0501" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0295a0501"><lem resp="CBETA" wit="【CB】">啟</lem><rdg wit="【印順】">啓</rdg></app>以來，人人自稱得法，處處開法立宗。從來一系相承的禪法，顯然
 <lb n="0295a06" ed="Y"/>陷於分化，分化為形形色色。尤其是神秀一系，受到國家尊重，自不免有依傍禪門，「共爭名利
 <lb n="0295a07" ed="Y"/>」的現象。這對於服膺曹溪禪風，堅信一代一人付法制的，充滿了護法真誠的神會，實有不能不
 <lb n="0295a08" ed="Y"/>大聲疾呼的苦心。神會是慧能門下的「狂」者，「狂者有所進取」。<cit><bibl><title level="m">《證道歌》</title>說：</bibl><quote>「圓頓教，
 <lb n="0295a09" ed="Y"/>勿人情，有疑不決直須爭。不是山僧爭人我，修行恐落斷常坑」</quote></cit>。神會的<quote>「為天下學道者定宗旨
 <lb n="0295a10" ed="Y"/>，為天下學道者辨是非」</quote>，正是那種為佛法、為眾生的真誠。如以世俗眼光，看作形式的法統之
 <lb n="0295a11" ed="Y"/>爭，那是與事實相去遠了！</p></cb:div>
-<lb n="0295a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">為法的挫折與成功</cb:mulu><head>為法的挫折與成功</head><p style="text-indent:2em">從神秀入京（七〇一）以來，經普寂等繼踵弘揚，到天寶初年（七四二
+<lb n="0295a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">為法的挫折與成功</cb:mulu><head>為法的挫折與成功</head><p xml:id="pY40p0295a1217" style="text-indent:2em">從神秀入京（七〇一）以來，經普寂等繼踵弘揚，到天寶初年（七四二
 <lb n="0295a13" ed="Y"/>），在當時的政教中心——洛陽、長安，以及大河南北，已有深廣的基礎。神會北上，發表震動
 <lb n="0295a14" ed="Y"/>當時，批評北宗的宏論，當然是不能沒有阻礙的。在滑臺大雲寺召開大會，就有人臨時「拆破場
-<lb n="0295a15" ed="Y"/>」了。<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope type="卷" n="3之1">卷三之一</biblScope></bibl>說：</p>
+<lb n="0295a15" ed="Y"/>」了。<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="3之1" type="卷">卷三之一</biblScope></bibl>說：</p>
 <pb n="0296a" ed="Y" xml:id="Y40.0038.0296a"/>
-<lb n="0296a01" ed="Y"/><quote><p style="margin-left:3em">「俠客沙灘五臺之事，縣官白馬。衛南盧鄭二令文事，三度幾死。商旅縗服，曾易服執秤
-<lb n="0296a02" ed="Y"/>負歸。百種艱難，具如祖傳。達<note n="0296a0201" resp="CBETA" type="add">磨【CB】，摩【印順】</note><app n="0296a0201"><lem wit="【CB】" resp="正聞出版社">磨<note type="cf1">《圓覺經大疏釋義鈔》卷3(CBETA, X09, no. 245, p. 532, c5-7 // Z 1:14, p. 277, b12-14 // R14, p. 553, b12-14)</note></lem><rdg wit="【印順】">摩</rdg></app>懸絲之記，驗於此矣！因淮上祈瑞，感炭生芝草，士庶
-<lb n="0296a03" ed="Y"/>咸覩，<note n="0296a0301" resp="CBETA" type="add">遂【CB】，乃【印順】</note><app n="0296a0301"><lem wit="【CB】" resp="正聞出版社">遂</lem><rdg wit="【印順】">乃</rdg></app>盡今（命？）建立無退屈心」。<note n="0296001" resp="厚觀法師" type="add">《圓覺經大疏釋義鈔》卷3(CBETA, X09, no. 245, p. 532, c5-7 // Z 1:14, p. 277, b12-14 // R14, p. 553, b12-14)</note></p></quote>
-<lb n="0296a04" ed="Y"/><p style="text-indent:2em">所說的這些艱難，是在到洛陽以前的。文字過於簡略，不能完全明瞭當時的情形。<quote>「縣官白
+<lb n="0296a01" ed="Y"/><quote><p xml:id="pY40p0296a0101" style="margin-left:3em">「俠客沙灘五臺之事，縣官白馬。衛南盧鄭二令文事，三度幾死。商旅縗服，曾易服執秤
+<lb n="0296a02" ed="Y"/>負歸。百種艱難，具如祖傳。達<note n="0296a0201" resp="CBETA" type="add">磨【CB】，摩【印順】</note><app n="0296a0201"><lem resp="正聞出版社" wit="【CB】">磨<note type="cf1">《圓覺經大疏釋義鈔》卷3(CBETA, X09, no. 245, p. 532, c5-7 // Z 1:14, p. 277, b12-14 // R14, p. 553, b12-14)</note></lem><rdg wit="【印順】">摩</rdg></app>懸絲之記，驗於此矣！因淮上祈瑞，感炭生芝草，士庶
+<lb n="0296a03" ed="Y"/>咸覩，<note n="0296a0301" resp="CBETA" type="add">遂【CB】，乃【印順】</note><app n="0296a0301"><lem resp="正聞出版社" wit="【CB】">遂</lem><rdg wit="【印順】">乃</rdg></app>盡今（命？）建立無退屈心」。<note n="0296001" resp="厚觀法師" type="add">《圓覺經大疏釋義鈔》卷3(CBETA, X09, no. 245, p. 532, c5-7 // Z 1:14, p. 277, b12-14 // R14, p. 553, b12-14)</note></p></quote>
+<lb n="0296a04" ed="Y"/><p xml:id="pY40p0296a0401" style="text-indent:2em">所說的這些艱難，是在到洛陽以前的。文字過於簡略，不能完全明瞭當時的情形。<quote>「縣官白
 <lb n="0296a05" ed="Y"/>馬」</quote>，是為白馬的官府所拘繫（縣與懸同）。白馬在滑臺東，當時滑臺是屬於白馬縣的；起因是
 <lb n="0296a06" ed="Y"/><quote>「俠客沙灘五臺之事」</quote>。<quote>「三度幾死」</quote>，是為了<quote>「衛南盧鄭二令文事」</quote>。盧、鄭，是二位縣令。
-<lb n="0296a07" ed="Y"/><quote>「衛南」</quote>，應是衛河（又名南運河）以南，不知是那二縣的縣令。上是武俠的牽累，這<note n="0296a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0296a0701"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>是文字
+<lb n="0296a07" ed="Y"/><quote>「衛南」</quote>，應是衛河（又名南運河）以南，不知是那二縣的縣令。上是武俠的牽累，這<note n="0296a0701" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0296a0701"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>是文字
 <lb n="0296a08" ed="Y"/>引起了麻煩。<quote>「商旅縗服」</quote>以下，似乎是受到處分，脫去僧衣而服勞役！神會在滑臺、邢州一帶
 <lb n="0296a09" ed="Y"/>，已遭遇種種的打擊。但並不氣餒，進一步的到了洛陽——北宗的中心地帶。敢說敢為，終於遭
 <lb n="0296a10" ed="Y"/>遇了更大的挫折，如<bibl>《<title level="m">宋僧傳</title>．<title level="a">神會傳</title>》</bibl>說：</p>
-<lb n="0296a11" ed="Y"/><quote><p style="margin-left:3em">「天寶中，御史盧奕阿比於寂，誣奏會聚徒，疑萌不利。玄宗召赴京，時駕幸昭應，湯池
+<lb n="0296a11" ed="Y"/><quote><p xml:id="pY40p0296a1101" style="margin-left:3em">「天寶中，御史盧奕阿比於寂，誣奏會聚徒，疑萌不利。玄宗召赴京，時駕幸昭應，湯池
 <lb n="0296a12" ed="Y"/>得對，言理允愜。敕移住均部；二年，敕徙荊州開元寺般若院住焉」。</p></quote>
-<lb n="0296a13" ed="Y"/><p style="text-indent:2em">關於神會的被徙移，<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="3之1" type="卷">卷三之一</biblScope></bibl>，說得更為分明：</p>
-<lb n="0296a14" ed="Y"/><quote><p style="margin-left:3em">「天寶十二年，被譖聚眾。敕黜弋陽郡，又移武當郡。十三載，恩命量移襄州。至七月，
+<lb n="0296a13" ed="Y"/><p xml:id="pY40p0296a1301" style="text-indent:2em">關於神會的被徙移，<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="3之1" type="卷">卷三之一</biblScope></bibl>，說得更為分明：</p>
+<lb n="0296a14" ed="Y"/><quote><p xml:id="pY40p0296a1401" style="margin-left:3em">「天寶十二年，被譖聚眾。敕黜弋陽郡，又移武當郡。十三載，恩命量移襄州。至七月，
 <lb n="0296a15" ed="Y"/>又敕移荊州開元寺，皆北宗門下之所致也」。</p></quote>
 <pb n="0297a" ed="Y" xml:id="Y40.0038.0297a"/>
-<lb n="0297a01" ed="Y"/><p style="text-indent:2em">這一次的問題，極為嚴重。天寶十二年（七五三），神會六十六歲，御史盧奕奏神會聚眾，
+<lb n="0297a01" ed="Y"/><p xml:id="pY40p0297a0101" style="text-indent:2em">這一次的問題，極為嚴重。天寶十二年（七五三），神會六十六歲，御史盧奕奏神會聚眾，
 <lb n="0297a02" ed="Y"/>怕有不利於國家的企圖。盧奕是北宗的護持者，對神會運用了政治的力量。神會的門下多了，分
 <lb n="0297a03" ed="Y"/>子就可能複雜。當時曾在湯池，面見玄宗，接受詢問。但結果，被貶放到弋陽郡（今江西弋陽縣
-<lb n="0297a04" ed="Y"/>）。又移到武當郡（今湖北均縣）。第二年（十三年），又移住襄州（今湖北襄陽）。到七月<note n="0297a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0297a0401"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>
+<lb n="0297a04" ed="Y"/>）。又移到武當郡（今湖北均縣）。第二年（十三年），又移住襄州（今湖北襄陽）。到七月<note n="0297a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0297a0401"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>
 <lb n="0297a05" ed="Y"/>，又移住荊州開元寺。不到二年，就遷徙了四次，艱困是可以想像的！在神會再回洛陽以前，就
 <lb n="0297a06" ed="Y"/>住在荊州。</p>
-<lb n="0297a07" ed="Y"/><p style="text-indent:2em">時局的突然變亂，神會得到了再起的機會。天寶十四年（七五五）十一月，安祿山反了。第
+<lb n="0297a07" ed="Y"/><p xml:id="pY40p0297a0701" style="text-indent:2em">時局的突然變亂，神會得到了再起的機會。天寶十四年（七五五）十一月，安祿山反了。第
 <lb n="0297a08" ed="Y"/>二年（七五六），洛陽、長安淪陷，玄宗去了四川，太子在靈武即位（即肅宗）。到至德二年（
 <lb n="0297a09" ed="Y"/>七五七），郭子儀等恢復了東西兩京。這時候，神會出來了，被公推來主持開壇度僧的事，如<title level="m">《
 <lb n="0297a10" ed="Y"/>宋僧傳》</title>說：</p>
-<lb n="0297a11" ed="Y"/><quote><p style="margin-left:3em">「副元帥郭子儀率兵平殄，然於飛輓索然。用右僕射裴冕權計，大府各置戒壇度僧，僧稅
+<lb n="0297a11" ed="Y"/><quote><p xml:id="pY40p0297a1101" style="margin-left:3em">「副元帥郭子儀率兵平殄，然於飛輓索然。用右僕射裴冕權計，大府各置戒壇度僧，僧稅
 <lb n="0297a12" ed="Y"/>（百）緡，謂之香水錢，聚是以助軍須。……群議乃請會主其壇度。于時寺宇宮觀，鞠為
 <lb n="0297a13" ed="Y"/>灰燼，乃權創一院，悉資苫蓋，而中築方壇。所獲財帛，頓支軍費。代宗郭子儀收復兩京
 <lb n="0297a14" ed="Y"/>，會之濟用，頗有力焉」。</p></quote>
-<lb n="0297a15" ed="Y"/><p style="text-indent:2em">當時的度僧，是納稅得度的。納稅得度的情形，如<bibl><title level="m">《佛祖歷代通載》</title><biblScope type="卷" n="13">卷一三</biblScope></bibl><note place="inline">大正<ref target="#vol:49;page:p598b" type="taisho">四九．五九八</ref>
+<lb n="0297a15" ed="Y"/><p xml:id="pY40p0297a1501" style="text-indent:2em">當時的度僧，是納稅得度的。納稅得度的情形，如<bibl><title level="m">《佛祖歷代通載》</title><biblScope n="13" type="卷">卷一三</biblScope></bibl><note place="inline">大正<ref target="#vol:49;page:p598b" type="taisho">四九．五九八</ref>
 <pb n="0298a" ed="Y" xml:id="Y40.0038.0298a"/>
 <lb n="0298a01" ed="Y"/><ref target="#vol:49;page:p598b" type="taisho">中</ref>——下</note>說：</p>
-<lb n="0298a02" ed="Y"/><quote><p style="margin-left:3em">「聽白衣能誦經五百紙者度為僧。或納錢百緡，請牒剃落，亦賜明經出身。及兩京平，又
+<lb n="0298a02" ed="Y"/><quote><p xml:id="pY40p0298a0201" style="margin-left:3em">「聽白衣能誦經五百紙者度為僧。或納錢百緡，請牒剃落，亦賜明經出身。及兩京平，又
 <lb n="0298a03" ed="Y"/>於關輔諸州，納錢度僧道萬餘人。進納自此而始」。</p></quote>
-<lb n="0298a04" ed="Y"/><p style="text-indent:2em"><cit><bibl>《<title level="m">唐書</title>．<title level="a">食貨志</title>》，也說到：</bibl><quote>「度道士僧尼不可勝計；納錢百千，賜明經出身」</quote></cit>。當時的
+<lb n="0298a04" ed="Y"/><p xml:id="pY40p0298a0401" style="text-indent:2em"><cit><bibl>《<title level="m">唐書</title>．<title level="a">食貨志</title>》，也說到：</bibl><quote>「度道士僧尼不可勝計；納錢百千，賜明經出身」</quote></cit>。當時的
 <lb n="0298a05" ed="Y"/>立壇度僧，對民眾來說，免了兵役、勞役。對政府來說，得到了軍需的支應。在政府軍費的迫切
 <lb n="0298a06" ed="Y"/>下，神會出來主持號召，獲得大量金錢上的供應，當然對神會特別重視起來。神會受到了皇帝的
 <lb n="0298a07" ed="Y"/>供養，如<title level="m">《宋僧傳》</title>說：</p>
-<lb n="0298a08" ed="Y"/><quote><p style="margin-left:3em">「肅宗皇帝詔入內供養。<note n="0298a0801" resp="CBETA" type="add">勅【CB】，勑【印順】</note><app n="0298a0801"><lem wit="【CB】" resp="正聞出版社">勅<note type="cf1">《宋高僧傳》卷8(CBETA, T50, no. 2061, p. 757, a8-9)</note></lem><rdg wit="【印順】">勑</rdg></app>將作大匠，併功齊力，為造禪宇於荷澤寺中」。<note n="0298001" resp="厚觀法師" type="add">《宋高僧傳》卷8(CBETA, T50, no. 2061, p. 757, a8-9)</note></p></quote>
-<lb n="0298a09" ed="Y"/><p style="text-indent:2em">神會在那時，念念不忘南宗頓教，為南宗做了兩件大事。一、由郭子儀出面申請，請為菩提
+<lb n="0298a08" ed="Y"/><quote><p xml:id="pY40p0298a0801" style="margin-left:3em">「肅宗皇帝詔入內供養。<note n="0298a0801" resp="CBETA" type="add">勅【CB】，勑【印順】</note><app n="0298a0801"><lem resp="正聞出版社" wit="【CB】">勅<note type="cf1">《宋高僧傳》卷8(CBETA, T50, no. 2061, p. 757, a8-9)</note></lem><rdg wit="【印順】">勑</rdg></app>將作大匠，併功齊力，為造禪宇於荷澤寺中」。<note n="0298001" resp="厚觀法師" type="add">《宋高僧傳》卷8(CBETA, T50, no. 2061, p. 757, a8-9)</note></p></quote>
+<lb n="0298a09" ed="Y"/><p xml:id="pY40p0298a0901" style="text-indent:2em">神會在那時，念念不忘南宗頓教，為南宗做了兩件大事。一、由郭子儀出面申請，請為菩提
 <lb n="0298a10" ed="Y"/>達摩——初祖立謚，如陳寬<title level="a">〈再建圓覺塔誌〉</title><note place="inline"><bibl><title level="m">《唐文拾遺》</title><biblScope n="31" type="卷">三一</biblScope></bibl></note>說：</p>
-<lb n="0298a11" ed="Y"/><quote><p style="margin-left:3em">「司徒中書令汾陽王郭子儀，復東京之明年（七五八），抗表乞大師謚。代宗皇帝謚曰圓
+<lb n="0298a11" ed="Y"/><quote><p xml:id="pY40p0298a1101" style="margin-left:3em">「司徒中書令汾陽王郭子儀，復東京之明年（七五八），抗表乞大師謚。代宗皇帝謚曰圓
 <lb n="0298a12" ed="Y"/>覺，名其塔曰空觀」。</p></quote>
-<lb n="0298a13" ed="Y"/><p style="text-indent:2em">二、由廣州節度使韋利見<note n="0298a1301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0298a1301"><lem wit="【CB】" resp="CBETA">啟</lem><rdg wit="【印順】">啓</rdg></app>奏，請六祖袈裟入內供養，如<title level="m">《別傳》</title><note place="inline">續<ref target="#vol:86;page:p53a" type="wxzj">一四六．四八七<note n="0298a1302" resp="CBETA" type="add">（卍新續八六五三上）【CB】，［－］【印順】</note><app n="0298a1302"><lem wit="【CB】" resp="正聞出版社">（卍新續八六．五三上）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>說：</p>
-<lb n="0298a14" ed="Y"/><p style="margin-left:3em"><quote>「上元二年，廣州節度韋利見奏，僧行滔及傳袈裟入內。孝感皇帝依奏，<note n="0298a1401" resp="CBETA" type="add">敕【CB】，勅【印順】</note><app n="0298a1401"><lem wit="【CB】" resp="正聞出版社">敕<note type="cf1">《曹溪大師別傳》卷1(CBETA, X86, no. 1598, p. 53, a13-17 // Z 2B:19, p. 487, a7-11 // R146, p. 973, a7-11)</note></lem><rdg wit="【印順】">勅</rdg></app>書曰：<note n="0298a1402" resp="CBETA" type="add">敕【CB】，勅【印順】</note><app n="0298a1402"><lem wit="【CB】" resp="正聞出版社">敕</lem><rdg wit="【印順】">勅</rdg></app>曹溪
-<lb n="0298a15" ed="Y"/>山六祖傳袈裟，及僧行滔<note n="0298a1501" resp="CBETA" type="add">并【CB】，並【印順】</note><app n="0298a1501"><lem wit="【CB】" resp="正聞出版社">并</lem><rdg wit="【印順】">並</rdg></app>俗弟子，韋利見令水陸給公乘，隨中使劉楚江赴上都。上元二
+<lb n="0298a13" ed="Y"/><p xml:id="pY40p0298a1301" style="text-indent:2em">二、由廣州節度使韋利見<note n="0298a1301" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0298a1301"><lem resp="CBETA" wit="【CB】">啟</lem><rdg wit="【印順】">啓</rdg></app>奏，請六祖袈裟入內供養，如<title level="m">《別傳》</title><note place="inline">續<ref target="#vol:86;page:p53a" type="wxzj">一四六．四八七<note n="0298a1302" resp="CBETA" type="add">（卍新續八六五三上）【CB】，［－］【印順】</note><app n="0298a1302"><lem resp="正聞出版社" wit="【CB】">（卍新續八六．五三上）</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app></ref></note>說：</p>
+<lb n="0298a14" ed="Y"/><p xml:id="pY40p0298a1401" style="margin-left:3em"><quote>「上元二年，廣州節度韋利見奏，僧行滔及傳袈裟入內。孝感皇帝依奏，<note n="0298a1401" resp="CBETA" type="add">敕【CB】，勅【印順】</note><app n="0298a1401"><lem resp="正聞出版社" wit="【CB】">敕<note type="cf1">《曹溪大師別傳》卷1(CBETA, X86, no. 1598, p. 53, a13-17 // Z 2B:19, p. 487, a7-11 // R146, p. 973, a7-11)</note></lem><rdg wit="【印順】">勅</rdg></app>書曰：<note n="0298a1402" resp="CBETA" type="add">敕【CB】，勅【印順】</note><app n="0298a1402"><lem resp="正聞出版社" wit="【CB】">敕</lem><rdg wit="【印順】">勅</rdg></app>曹溪
+<lb n="0298a15" ed="Y"/>山六祖傳袈裟，及僧行滔<note n="0298a1501" resp="CBETA" type="add">并【CB】，並【印順】</note><app n="0298a1501"><lem resp="正聞出版社" wit="【CB】">并</lem><rdg wit="【印順】">並</rdg></app>俗弟子，韋利見令水陸給公乘，隨中使劉楚江赴上都。上元二
 <pb n="0299a" ed="Y" xml:id="Y40.0038.0299a"/>
 <lb n="0299a01" ed="Y"/>年十二月十七日下」<note n="0299001" resp="厚觀法師" type="add">《曹溪大師別傳》卷1(CBETA, X86, no. 1598, p. 53, a13-17 // Z 2B:19, p. 487, a7-11 // R146, p. 973, a7-11)</note></quote>（「上元」，應是「乾元」的誤寫）。</p>
-<lb n="0299a02" ed="Y"/><p style="text-indent:2em">從韶州請得傳法袈裟，到宮內去供養，這是付法傳衣，慧能為六祖的最好證明。在兵荒馬亂
+<lb n="0299a02" ed="Y"/><p xml:id="pY40p0299a0201" style="text-indent:2em">從韶州請得傳法袈裟，到宮內去供養，這是付法傳衣，慧能為六祖的最好證明。在兵荒馬亂
 <lb n="0299a03" ed="Y"/>中，郭子儀與韋利見，為禪宗奏請，可斷論為與當時主持壇度，受到政府崇敬的神會有關。神會
 <lb n="0299a04" ed="Y"/>是「狂」者，是富有英雄氣概的禪僧。支持他的，如兵部侍郎宋鼎，太尉房琯（作<title level="a">〈六葉圖序〉</title>
 <lb n="0299a05" ed="Y"/>），郭子儀，韋利見，都是與軍隊有關的人，也許是氣分相投的關係！</p>
-<lb n="0299a06" ed="Y"/><p style="text-indent:2em">神會為曹溪頓教而獻身，不避任何艱險，坦然直進，終於達成了：韶州慧能為禪宗六祖，永
-<lb n="0299a07" ed="Y"/>為後代的定論。神會也該為了圓滿所願而熙怡微笑了！以後的事，如<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope type="卷" n="3之下">卷三之下</biblScope></bibl>
+<lb n="0299a06" ed="Y"/><p xml:id="pY40p0299a0601" style="text-indent:2em">神會為曹溪頓教而獻身，不避任何艱險，坦然直進，終於達成了：韶州慧能為禪宗六祖，永
+<lb n="0299a07" ed="Y"/>為後代的定論。神會也該為了圓滿所願而熙怡微笑了！以後的事，如<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="3之下" type="卷">卷三之下</biblScope></bibl>
 <lb n="0299a08" ed="Y"/>所說：</p>
-<lb n="0299a09" ed="Y"/><quote><p style="margin-left:3em">「乾元（應是無元）元年（七六二）……五月十三日示滅，年七十五」。</p></quote>
-<lb n="0299a10" ed="Y"/><quote><p style="margin-left:3em">「二年（七六三），遷厝於東京龍門，置塔寶應。二年，敕於塔所置寶應寺」。</p></quote>
-<lb n="0299a11" ed="Y"/><quote><p style="margin-left:3em">「大曆五年（七七〇），敕賜祖堂額，號真宗般若傳法之堂」。</p></quote>
-<lb n="0299a12" ed="Y"/><quote><p style="margin-left:3em">「七年（七七二），敕賜塔額，號般若大師之塔」。</p></quote>
-<lb n="0299a13" ed="Y"/><quote><p style="margin-left:3em">「貞元十二年（七九六），敕皇太子集諸禪師，楷定禪門宗旨，遂立神會禪師為第七祖」。</p></quote></cb:div></cb:div>
+<lb n="0299a09" ed="Y"/><quote><p xml:id="pY40p0299a0901" style="margin-left:3em">「乾元（應是無元）元年（七六二）……五月十三日示滅，年七十五」。</p></quote>
+<lb n="0299a10" ed="Y"/><quote><p xml:id="pY40p0299a1001" style="margin-left:3em">「二年（七六三），遷厝於東京龍門，置塔寶應。二年，敕於塔所置寶應寺」。</p></quote>
+<lb n="0299a11" ed="Y"/><quote><p xml:id="pY40p0299a1101" style="margin-left:3em">「大曆五年（七七〇），敕賜祖堂額，號真宗般若傳法之堂」。</p></quote>
+<lb n="0299a12" ed="Y"/><quote><p xml:id="pY40p0299a1201" style="margin-left:3em">「七年（七七二），敕賜塔額，號般若大師之塔」。</p></quote>
+<lb n="0299a13" ed="Y"/><quote><p xml:id="pY40p0299a1301" style="margin-left:3em">「貞元十二年（七九六），敕皇太子集諸禪師，楷定禪門宗旨，遂立神會禪師為第七祖」。</p></quote></cb:div></cb:div>
 <lb n="0299a14" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　有關神會的著作</cb:mulu><head>第二節　有關神會的著作</head>
 <pb n="0300a" ed="Y" xml:id="Y40.0038.0300a"/>
-<lb n="0300a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">概述</cb:mulu><p style="text-indent:2em">有關神會的作品，過去僅從<bibl><title level="m">《傳燈錄》</title><biblScope type="卷" n="30">（卷三〇）</biblScope></bibl>，知道<title level="m">《顯宗記》</title>短篇。直到燉煌所藏的
+<lb n="0300a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">概述</cb:mulu><p xml:id="pY40p0300a0103" style="text-indent:2em">有關神會的作品，過去僅從<bibl><title level="m">《傳燈錄》</title><biblScope n="30" type="卷">（卷三〇）</biblScope></bibl>，知道<title level="m">《顯宗記》</title>短篇。直到燉煌所藏的
 <lb n="0300a02" ed="Y"/>，有關神會作品唐寫本的發現，經胡適等校跋而發表出來，神會的禪學，及那個時代的禪宗史，
 <lb n="0300a03" ed="Y"/>才有較正確的理解。從事神會禪學的研究者，雖不一定能恰當地敘述，或不免偏頗的論斷。然從
 <lb n="0300a04" ed="Y"/>資料的整理公布來說，是不能不表示欽佩的！</p>
-<lb n="0300a05" ed="Y"/><p style="text-indent:2em">現存有關神會的作品，有<title level="m">《南陽和上頓教解脫禪門直了性壇語》</title>；<title level="m">《菩提達磨南宗定是非論
+<lb n="0300a05" ed="Y"/><p xml:id="pY40p0300a0501" style="text-indent:2em">現存有關神會的作品，有<title level="m">《南陽和上頓教解脫禪門直了性壇語》</title>；<title level="m">《菩提達磨南宗定是非論
 <lb n="0300a06" ed="Y"/>》</title>；<title level="m">《南陽和上問答雜徵義》</title>；<title level="m">《頓悟無生般若頌》</title>。在這幾部中，雖胡適說<title level="m">《顯宗記》</title>為「禪
 <lb n="0300a07" ed="Y"/>八股」，卻可能為神會所作；其餘都是門下的記錄或編集。早期的禪宗大德，很少有自己著述的
 <lb n="0300a08" ed="Y"/>。</p></cb:div>
-<lb n="0300a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">南陽和上頓教解脫禪門直了性壇語</cb:mulu><head>南陽和上頓教解脫禪門直了性壇語</head><p style="text-indent:2em">胡適依巴黎國家圖書館所藏伯希和二〇四五號第二件為
-<lb n="0300a10" ed="Y"/>底本，對勘日本<note n="0300a1001" resp="CBETA" type="add">鈴木大拙（鈴木貞太郎）【CB】，貞木鈴太郎【印順】</note><app n="0300a1001"><lem wit="【CB】" resp="正聞出版社">鈴木大拙（鈴木貞太郎）</lem><rdg wit="【印順】">貞木鈴太郎</rdg></app>校刊的，國立北平圖書館所藏的燉煌寫本，發表於中央研究院<title level="j">《歷史
+<lb n="0300a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">南陽和上頓教解脫禪門直了性壇語</cb:mulu><head>南陽和上頓教解脫禪門直了性壇語</head><p xml:id="pY40p0300a0931" style="text-indent:2em">胡適依巴黎國家圖書館所藏伯希和二〇四五號第二件為
+<lb n="0300a10" ed="Y"/>底本，對勘日本<note n="0300a1001" resp="CBETA" type="add">鈴木大拙（鈴木貞太郎）【CB】，貞木鈴太郎【印順】</note><app n="0300a1001"><lem resp="正聞出版社" wit="【CB】">鈴木大拙（鈴木貞太郎）</lem><rdg wit="【印順】">貞木鈴太郎</rdg></app>校刊的，國立北平圖書館所藏的燉煌寫本，發表於中央研究院<title level="j">《歷史
 <lb n="0300a11" ed="Y"/>語言研究所集刊》</title>二十九本。現又附入<title level="m">《神會和尚遺集》</title>。文中說到：<quote>「登此壇場，學修般若波
 <lb n="0300a12" ed="Y"/>羅蜜」</quote>。這是在「壇場」中，開法傳禪（般若）的一項記錄。對神會的禪學來說，最為體系完整
 <lb n="0300a13" ed="Y"/>。<title level="m">《曆代法寶記》</title><note place="inline">大正<ref target="#vol:51;page:p185b" type="taisho">五一．一八五中</ref></note>說到：</p>
-<lb n="0300a14" ed="Y"/><quote><p style="margin-left:3em">「東京荷澤寺神會和上，每月作檀場，為人說法，破清淨禪，立如來禪，立知見，立言說
+<lb n="0300a14" ed="Y"/><quote><p xml:id="pY40p0300a1401" style="margin-left:3em">「東京荷澤寺神會和上，每月作檀場，為人說法，破清淨禪，立如來禪，立知見，立言說
 <lb n="0300a15" ed="Y"/>。為戒定慧不破言說，云：正說之時即是戒，正說之時即是定，正說之時即是慧。說無念
 <pb n="0301a" ed="Y" xml:id="Y40.0038.0301a"/>
 <lb n="0301a01" ed="Y"/>法，立見性」。</p></quote>
-<lb n="0301a02" ed="Y"/><p style="text-indent:2em">這是神會在壇場所說的主要內容。<title level="m">《壇語》</title>雖沒有具備，而重要的也都在了。特別是<quote>「立知
+<lb n="0301a02" ed="Y"/><p xml:id="pY40p0301a0201" style="text-indent:2em">這是神會在壇場所說的主要內容。<title level="m">《壇語》</title>雖沒有具備，而重要的也都在了。特別是<quote>「立知
 <lb n="0301a03" ed="Y"/>見」</quote>，如<title level="m">《壇語》</title><note place="inline"><bibl><title level="m">《神會集》</title><biblScope n="237" type="pp">二三七</biblScope>、<biblScope n="238" type="pp">二三八</biblScope></bibl></note>說：</p>
-<lb n="0301a04" ed="Y"/><quote><p style="margin-left:3em">「心有是非不？答：無。心有來去處不？答：無。心有青黃赤白不？答：無。心有住處不
+<lb n="0301a04" ed="Y"/><quote><p xml:id="pY40p0301a0401" style="margin-left:3em">「心有是非不？答：無。心有來去處不？答：無。心有青黃赤白不？答：無。心有住處不
 <lb n="0301a05" ed="Y"/>？答：心無住處。和上言：心既無住，知心無住不？答：知。知不知？答：知」。</p></quote>
-<lb n="0301a06" ed="Y"/><quote><p style="margin-left:3em">「今推到無住處立知，作沒？……無住心不離知，知不離無住。知心無住，更無餘知。…
+<lb n="0301a06" ed="Y"/><quote><p xml:id="pY40p0301a0601" style="margin-left:3em">「今推到無住處立知，作沒？……無住心不離知，知不離無住。知心無住，更無餘知。…
 <lb n="0301a07" ed="Y"/>…無所住者，今推知識無住心是。而生其心者，知心無住是」。</p></quote>
-<lb n="0301a08" ed="Y"/><p style="text-indent:2em">神會以<note n="0301a0801" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0301a0801"><lem wit="【CB】" resp="CBETA">啟</lem><rdg wit="【印順】">啓</rdg></app>發式的問答，層層推詰，推到<quote>「知心無住」</quote>。這就是<quote>「自本空寂心」</quote>；<quote>「知之一字
+<lb n="0301a08" ed="Y"/><p xml:id="pY40p0301a0801" style="text-indent:2em">神會以<note n="0301a0801" resp="CBETA" type="add" subtype="規範字詞">啟【CB】，啓【印順】</note><app n="0301a0801"><lem resp="CBETA" wit="【CB】">啟</lem><rdg wit="【印順】">啓</rdg></app>發式的問答，層層推詰，推到<quote>「知心無住」</quote>。這就是<quote>「自本空寂心」</quote>；<quote>「知之一字
 <lb n="0301a09" ed="Y"/>，眾妙之門」</quote>的知；<quote>「唯指佛心，即心是佛」</quote>的心。</p>
-<lb n="0301a10" ed="Y"/><p style="text-indent:2em"><title level="m">《壇語》</title>是神會在洛陽，開法傳禪的記錄。開元二十年（七三二）在滑臺召開無遮大會，責
+<lb n="0301a10" ed="Y"/><p xml:id="pY40p0301a1001" style="text-indent:2em"><title level="m">《壇語》</title>是神會在洛陽，開法傳禪的記錄。開元二十年（七三二）在滑臺召開無遮大會，責
 <lb n="0301a11" ed="Y"/>神秀門下，人人開法，然後<note place="inline"><bibl><title level="m">《神會集》</title><biblScope n="283" type="pp">二八三</biblScope></bibl></note>說：</p>
-<lb n="0301a12" ed="Y"/><quote><p style="margin-left:3em">「能禪師是的的相傳付囑人。已下門徒道俗，近有數（應缺一字）餘人，無有一人敢濫開
+<lb n="0301a12" ed="Y"/><quote><p xml:id="pY40p0301a1201" style="margin-left:3em">「能禪師是的的相傳付囑人。已下門徒道俗，近有數（應缺一字）餘人，無有一人敢濫開
 <lb n="0301a13" ed="Y"/>禪門。縱有一人得付囑者，至今未說」。</p></quote>
-<lb n="0301a14" ed="Y"/><p style="text-indent:2em"><quote>「縱有一人得付囑者」</quote>，當然指神會自己，但那時神會還沒有立宗旨，開禪門。後來在洛陽
+<lb n="0301a14" ed="Y"/><p xml:id="pY40p0301a1401" style="text-indent:2em"><quote>「縱有一人得付囑者」</quote>，當然指神會自己，但那時神會還沒有立宗旨，開禪門。後來在洛陽
 <lb n="0301a15" ed="Y"/>，<quote>「每月作壇場」</quote>開法。<cit><bibl><title level="m">《圓覺經大疏鈔》</title>說：</bibl><quote>「便有難起，開法不得」</quote></cit>，可見洛陽「開法」，
 <pb n="0302a" ed="Y" xml:id="Y40.0038.0302a"/>
 <lb n="0302a01" ed="Y"/>主要是天寶亂後的事。胡適見標題為「南陽和上」，而推論為：<quote>「這是滑臺定宗旨以前的講義」</quote>
 <lb n="0302a02" ed="Y"/>，是不對的。這是開法傳禪，不可能是南陽時代的記錄。神會僧籍在南陽龍興寺，所以被稱為「
 <lb n="0302a03" ed="Y"/>南陽和尚」。</p></cb:div>
-<lb n="0302a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">菩提達摩南宗定是非論</cb:mulu><head>菩提達摩南宗定是非論</head><p style="text-indent:2em">這部論的燉煌寫本，已發見的，有巴黎國家圖書館所藏的伯希和本
+<lb n="0302a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">菩提達摩南宗定是非論</cb:mulu><head>菩提達摩南宗定是非論</head><p xml:id="pY40p0302a0421" style="text-indent:2em">這部論的燉煌寫本，已發見的，有巴黎國家圖書館所藏的伯希和本
 <lb n="0302a05" ed="Y"/>三〇四七號第一件，又三四八八號，又二〇四五號第一件——三本。胡適校定，收為<bibl><title level="m">《神會和尚
 <lb n="0302a06" ed="Y"/>遺集》</title><biblScope n="2 3" type="卷">卷二，卷三</biblScope></bibl>；及<title level="a">〈新校定的燉煌寫本神會和尚遺著兩種〉</title>的一種。散在三處的論文，經胡
 <lb n="0302a07" ed="Y"/>適的校定配合，恰為<title level="m">《南宗定是非論》</title>的全部。論題「獨孤沛撰」，獨孤沛的經歷不明，依論文
 <lb n="0302a08" ed="Y"/>，自稱「弟子」；<quote>「叨陪學侶，濫預門徒」</quote>，這是一位神會的在家弟子。這部論，起初是記錄當
 <lb n="0302a09" ed="Y"/>時滑臺召開大會的情形；但後來，顯然利用了這一出名的會議，造成一部論，作為荷澤宗的宣傳
-<lb n="0302a10" ed="Y"/>資料。如論末讚偈<note place="inline"><bibl><title level="m">《神會集》</title><biblScope type="pp" n="317">三一七</biblScope></bibl></note>說：</p>
-<lb n="0302a11" ed="Y"/><quote><p style="margin-left:3em">「大乘大論，流行四方，法幢再建，慧日重光。愛河舟楫，苦海津梁。聞者見者，咸悟真
+<lb n="0302a10" ed="Y"/>資料。如論末讚偈<note place="inline"><bibl><title level="m">《神會集》</title><biblScope n="317" type="pp">三一七</biblScope></bibl></note>說：</p>
+<lb n="0302a11" ed="Y"/><quote><p xml:id="pY40p0302a1101" style="margin-left:3em">「大乘大論，流行四方，法幢再建，慧日重光。愛河舟楫，苦海津梁。聞者見者，咸悟真
 <lb n="0302a12" ed="Y"/>常」！</p></quote>
-<lb n="0302a13" ed="Y"/><p style="text-indent:2em">這部論，可分為「序說」，「本論」，「結讚」——三部分。現存的論本，不是當時大會的
-<lb n="0302a14" ed="Y"/>忠實記錄。分析全論的內容，可見曾一再的附加，所以有頭上安頭，<note n="0302a1401" resp="CBETA" type="add" subtype="規範字詞">腳【CB】，脚【印順】</note><app n="0302a1401"><lem wit="【CB】" resp="CBETA">腳</lem><rdg wit="【印順】">脚</rdg></app>下添<note n="0302a1402" resp="CBETA" type="add" subtype="規範字詞">腳【CB】，脚【印順】</note><app n="0302a1402"><lem wit="【CB】" resp="CBETA">腳</lem><rdg wit="【印順】">脚</rdg></app>，身內有身的現象
+<lb n="0302a13" ed="Y"/><p xml:id="pY40p0302a1301" style="text-indent:2em">這部論，可分為「序說」，「本論」，「結讚」——三部分。現存的論本，不是當時大會的
+<lb n="0302a14" ed="Y"/>忠實記錄。分析全論的內容，可見曾一再的附加，所以有頭上安頭，<note n="0302a1401" resp="CBETA" type="add" subtype="規範字詞">腳【CB】，脚【印順】</note><app n="0302a1401"><lem resp="CBETA" wit="【CB】">腳</lem><rdg wit="【印順】">脚</rdg></app>下添<note n="0302a1402" resp="CBETA" type="add" subtype="規範字詞">腳【CB】，脚【印順】</note><app n="0302a1402"><lem resp="CBETA" wit="【CB】">腳</lem><rdg wit="【印順】">脚</rdg></app>，身內有身的現象
 <lb n="0302a15" ed="Y"/>。</p>
 <pb n="0303a" ed="Y" xml:id="Y40.0038.0303a"/>
-<lb n="0303a01" ed="Y"/><p style="text-indent:2em">什麼是「頭上安頭」？佛法的一般常例，論文以歸敬（三寶）及敘述造論意趣開端。本論<note place="inline"><bibl>
-<lb n="0303a02" ed="Y"/><title level="m">《神會集》</title><biblScope type="pp" from="260" to="264">二六〇——二六四</biblScope></bibl></note>說：</p>
-<lb n="0303a03" ed="Y"/><quote><p style="margin-left:3em">「歸命三寶法，法性真如藏，……出世破邪宗」。</p></quote>
-<lb n="0303a04" ed="Y"/><quote><p style="margin-left:3em">「問曰：有何因緣而造此論？……所以修論」。</p></quote>
-<lb n="0303a05" ed="Y"/><p style="text-indent:2em">這是「歸敬敘造論意」部分。但在「歸命三寶」以前，又附上一段說：</p>
-<lb n="0303a06" ed="Y"/><quote><p style="margin-left:3em">「弟子於會和尚法席下，見與崇遠法師論義，便修。從開元十八，十九，廿年，其論本並
+<lb n="0303a01" ed="Y"/><p xml:id="pY40p0303a0101" style="text-indent:2em">什麼是「頭上安頭」？佛法的一般常例，論文以歸敬（三寶）及敘述造論意趣開端。本論<note place="inline"><bibl>
+<lb n="0303a02" ed="Y"/><title level="m">《神會集》</title><biblScope from="260" to="264" type="pp">二六〇——二六四</biblScope></bibl></note>說：</p>
+<lb n="0303a03" ed="Y"/><quote><p xml:id="pY40p0303a0301" style="margin-left:3em">「歸命三寶法，法性真如藏，……出世破邪宗」。</p></quote>
+<lb n="0303a04" ed="Y"/><quote><p xml:id="pY40p0303a0401" style="margin-left:3em">「問曰：有何因緣而造此論？……所以修論」。</p></quote>
+<lb n="0303a05" ed="Y"/><p xml:id="pY40p0303a0501" style="text-indent:2em">這是「歸敬敘造論意」部分。但在「歸命三寶」以前，又附上一段說：</p>
+<lb n="0303a06" ed="Y"/><quote><p xml:id="pY40p0303a0601" style="margin-left:3em">「弟子於會和尚法席下，見與崇遠法師論義，便修。從開元十八，十九，廿年，其論本並
 <lb n="0303a07" ed="Y"/>不定；為修未成，言論不同。今取廿載一本為定。後有師資血脈傳，亦在世流行」。</p></quote>
-<lb n="0303a08" ed="Y"/><p style="text-indent:2em">這不是論文，是後來附加的造論經過，等於一般書籍的<title level="a">〈自序〉</title>。說到<quote>「後有師資血脈傳」</quote>
+<lb n="0303a08" ed="Y"/><p xml:id="pY40p0303a0801" style="text-indent:2em">這不是論文，是後來附加的造論經過，等於一般書籍的<title level="a">〈自序〉</title>。說到<quote>「後有師資血脈傳」</quote>
 <lb n="0303a09" ed="Y"/>，顯見這一段是後來附加的。</p>
-<lb n="0303a10" ed="Y"/><p style="text-indent:2em">什麼是「<note n="0303a1001" resp="CBETA" type="add" subtype="規範字詞">腳【CB】，脚【印順】</note><app n="0303a1001"><lem wit="【CB】" resp="CBETA">腳</lem><rdg wit="【印順】">脚</rdg></app>下添<note n="0303a1002" resp="CBETA" type="add" subtype="規範字詞">腳【CB】，脚【印順】</note><app n="0303a1002"><lem wit="【CB】" resp="CBETA">腳</lem><rdg wit="【印順】">脚</rdg></app>」呢？論的末後部分<note place="inline"><bibl><title level="m">《神會集》</title><biblScope to="314" from="312" type="pp">三一二——三一四</biblScope></bibl></note>說：</p>
-<lb n="0303a11" ed="Y"/><quote><p style="margin-left:3em">「（崇遠）法師既得此語，結舌無對。非論一己屈詞，抑亦諸徒失志。勝負既分，道俗嗟
+<lb n="0303a10" ed="Y"/><p xml:id="pY40p0303a1001" style="text-indent:2em">什麼是「<note n="0303a1001" resp="CBETA" type="add" subtype="規範字詞">腳【CB】，脚【印順】</note><app n="0303a1001"><lem resp="CBETA" wit="【CB】">腳</lem><rdg wit="【印順】">脚</rdg></app>下添<note n="0303a1002" resp="CBETA" type="add" subtype="規範字詞">腳【CB】，脚【印順】</note><app n="0303a1002"><lem resp="CBETA" wit="【CB】">腳</lem><rdg wit="【印順】">脚</rdg></app>」呢？論的末後部分<note place="inline"><bibl><title level="m">《神會集》</title><biblScope from="312" to="314" type="pp">三一二——三一四</biblScope></bibl></note>說：</p>
+<lb n="0303a11" ed="Y"/><quote><p xml:id="pY40p0303a1101" style="margin-left:3em">「（崇遠）法師既得此語，結舌無對。非論一己屈詞，抑亦諸徒失志。勝負既分，道俗嗟
 <lb n="0303a12" ed="Y"/>散焉」。</p></quote>
-<lb n="0303a13" ed="Y"/><quote><p style="margin-left:3em">「和上慧池春水……故得入講論處，邪幢必摧。定是非端，勝幡恒建。……謹錄所聞，藏
+<lb n="0303a13" ed="Y"/><quote><p xml:id="pY40p0303a1301" style="margin-left:3em">「和上慧池春水……故得入講論處，邪幢必摧。定是非端，勝幡恒建。……謹錄所聞，藏
 <lb n="0303a14" ed="Y"/>之篋笥」。</p></quote>
-<lb n="0303a15" ed="Y"/><p style="margin-left:3em"><quote>「發心畢竟二不別，如是二心先心難」</quote>八句。</p>
+<lb n="0303a15" ed="Y"/><p xml:id="pY40p0303a1501" style="margin-left:3em"><quote>「發心畢竟二不別，如是二心先心難」</quote>八句。</p>
 <pb n="0304a" ed="Y" xml:id="Y40.0038.0304a"/>
-<lb n="0304a01" ed="Y"/><p style="text-indent:2em"><quote>「勝負既分，道俗嗟散」</quote>，大會的論議，到此結束了，也就是「本論」的結束。<quote>「和上慧池
+<lb n="0304a01" ed="Y"/><p xml:id="pY40p0304a0101" style="text-indent:2em"><quote>「勝負既分，道俗嗟散」</quote>，大會的論議，到此結束了，也就是「本論」的結束。<quote>「和上慧池
 <lb n="0304a02" ed="Y"/>春水」</quote>以下，是結讚。到<quote>「謹錄所聞，藏之篋笥」</quote>，「結讚」部分也完畢了。<quote>「發心畢竟二不別
 <lb n="0304a03" ed="Y"/>」</quote>八句，出於<bibl>《<title level="m">大般涅槃經</title>．<title level="a">迦葉菩薩品</title>》</bibl>。對這部論來說，是不必要的附錄（<title level="m">《壇語》</title>也附
 <lb n="0304a04" ed="Y"/>有這八句）。論文應該就此完結，但此下又接著<quote>「言菩提達摩南宗定是非論者」</quote>一段，序讚這部
 <lb n="0304a05" ed="Y"/>論；末了又有十五讚偈。這不是論文，正如一部書的後跋、後敘一樣。在末後的長行、偈頌中，
-<lb n="0304a06" ed="Y"/>有這樣的話<note place="inline"><bibl><title level="m">《神會集》</title><biblScope to="318" from="316" type="pp">三一六——三一八</biblScope></bibl></note>：</p>
-<lb n="0304a07" ed="Y"/><quote><p style="margin-left:3em">「去開元二十年正月十五日，共遠法師論議」。</p></quote>
-<lb n="0304a08" ed="Y"/><quote><p style="margin-left:3em">「論之興也，開元二十。比日陵遲，今年法立」。</p></quote>
-<lb n="0304a09" ed="Y"/><quote><p style="margin-left:3em">「德超河洛，芳流京邑」。</p></quote>
-<lb n="0304a10" ed="Y"/><p style="text-indent:2em"><quote>「去開元二十」</quote>，是從前開元二十年的意思。<quote>「比日陵遲，今年法立」</quote>，顯然是由於神會的
+<lb n="0304a06" ed="Y"/>有這樣的話<note place="inline"><bibl><title level="m">《神會集》</title><biblScope from="316" to="318" type="pp">三一六——三一八</biblScope></bibl></note>：</p>
+<lb n="0304a07" ed="Y"/><quote><p xml:id="pY40p0304a0701" style="margin-left:3em">「去開元二十年正月十五日，共遠法師論議」。</p></quote>
+<lb n="0304a08" ed="Y"/><quote><p xml:id="pY40p0304a0801" style="margin-left:3em">「論之興也，開元二十。比日陵遲，今年法立」。</p></quote>
+<lb n="0304a09" ed="Y"/><quote><p xml:id="pY40p0304a0901" style="margin-left:3em">「德超河洛，芳流京邑」。</p></quote>
+<lb n="0304a10" ed="Y"/><p xml:id="pY40p0304a1001" style="text-indent:2em"><quote>「去開元二十」</quote>，是從前開元二十年的意思。<quote>「比日陵遲，今年法立」</quote>，顯然是由於神會的
 <lb n="0304a11" ed="Y"/>被貶逐，大法一時衰落，到今年才重行建立起來。這是至德二年（七五七），神會出來主持「壇
 <lb n="0304a12" ed="Y"/>度」以後的事。<quote>「芳流京邑」</quote>，是受到京中皇家的尊重。這一部分，是後來追加的，附於「結讚
 <lb n="0304a13" ed="Y"/>」以下，約與「歸敬三寶」前一段同時。</p>
-<lb n="0304a14" ed="Y"/><p style="text-indent:2em">什麼是「身內有身」呢？這部論，以神會與崇遠法師共論——滑臺大雲寺召開的大會為主體
+<lb n="0304a14" ed="Y"/><p xml:id="pY40p0304a1401" style="text-indent:2em">什麼是「身內有身」呢？這部論，以神會與崇遠法師共論——滑臺大雲寺召開的大會為主體
 <lb n="0304a15" ed="Y"/>的。<quote>「先陳激揚問答之事，……後敘師資傳授之言」</quote>——這二大段，就是「本論」。<title level="m">《論》</title><note place="inline"><bibl><title level="m">《神會
 <pb n="0305a" ed="Y" xml:id="Y40.0038.0305a"/>
-<lb n="0305a01" ed="Y"/>集》</title><biblScope type="pp" from="296" to="312">二九六——三一二</biblScope></bibl></note>說：</p>
-<lb n="0305a02" ed="Y"/><quote><p style="margin-left:3em">「遠法師問曰：禪師修何法，行何行？和上答：修般若波羅蜜法，行般若波羅蜜行。……
+<lb n="0305a01" ed="Y"/>集》</title><biblScope from="296" to="312" type="pp">二九六——三一二</biblScope></bibl></note>說：</p>
+<lb n="0305a02" ed="Y"/><quote><p xml:id="pY40p0305a0201" style="margin-left:3em">「遠法師問曰：禪師修何法，行何行？和上答：修般若波羅蜜法，行般若波羅蜜行。……
 <lb n="0305a03" ed="Y"/>修學般若波羅蜜（法），能攝一切法。行般若波羅蜜行，是一切行根本。（如說）：金剛
 <lb n="0305a04" ed="Y"/>般若波羅蜜，最尊最上最第一，無生無滅無去來，一切諸佛從中出」。</p></quote>
-<lb n="0305a05" ed="Y"/><quote><p style="margin-left:3em">「和上言：告諸知識：……獲無所得，一時成佛」。</p></quote>
-<lb n="0305a06" ed="Y"/><quote><p style="margin-left:3em">「和上問遠法師言：……勝負既分，道俗嗟散焉」。</p></quote>
-<lb n="0305a07" ed="Y"/><p style="text-indent:2em">崇遠法師問神會，<quote>「修何法，行何行」</quote>？神會告訴他：修般若法，行般若行。並引<title level="m">《壇經》</title>
+<lb n="0305a05" ed="Y"/><quote><p xml:id="pY40p0305a0501" style="margin-left:3em">「和上言：告諸知識：……獲無所得，一時成佛」。</p></quote>
+<lb n="0305a06" ed="Y"/><quote><p xml:id="pY40p0305a0601" style="margin-left:3em">「和上問遠法師言：……勝負既分，道俗嗟散焉」。</p></quote>
+<lb n="0305a07" ed="Y"/><p xml:id="pY40p0305a0701" style="text-indent:2em">崇遠法師問神會，<quote>「修何法，行何行」</quote>？神會告訴他：修般若法，行般若行。並引<title level="m">《壇經》</title>
 <lb n="0305a08" ed="Y"/>的四句，以說明般若能攝一切法門，為一切行根本。後來神會反問崇遠，講什麼經？而結束了這
 <lb n="0305a09" ed="Y"/>次大會。在這問答中間，插入了<quote>「和上言：告善知識」</quote>，有近四千字的長篇。這是長篇開示，與
 <lb n="0305a10" ed="Y"/>全論的問答體例不合。這一大段，廣引<title level="m">《勝天王般若》</title>，<title level="m">《小品般若》</title>，<title level="m">《金剛般若》</title>，讚說持
 <lb n="0305a11" ed="Y"/>誦<title level="m">《金剛經》</title>的功德，中間曾這樣<note place="inline"><bibl><title level="m">《神會集》</title><biblScope n="310" type="pp">三一〇</biblScope></bibl></note>說：</p>
-<lb n="0305a12" ed="Y"/><quote><p style="margin-left:3em">「敬白十方諸佛、諸大菩薩摩訶薩、一切賢聖：今捨身命修《頓悟最上乘論》，願一切眾生聞
+<lb n="0305a12" ed="Y"/><quote><p xml:id="pY40p0305a1201" style="margin-left:3em">「敬白十方諸佛、諸大菩薩摩訶薩、一切賢聖：今捨身命修《頓悟最上乘論》，願一切眾生聞
 <lb n="0305a13" ed="Y"/>讚歎《金剛般若波羅蜜》，決定深信，堪任不退故」。</p></quote>
-<lb n="0305a14" ed="Y"/><p style="text-indent:2em">讚歎<title level="m">《金剛般若波羅蜜經》</title>部分，原名<title level="m">《頓悟最上乘論》</title>。「修<title level="m">《頓悟最上乘論》</title>」，是造論，
+<lb n="0305a14" ed="Y"/><p xml:id="pY40p0305a1401" style="text-indent:2em">讚歎<title level="m">《金剛般若波羅蜜經》</title>部分，原名<title level="m">《頓悟最上乘論》</title>。「修<title level="m">《頓悟最上乘論》</title>」，是造論，
 <lb n="0305a15" ed="Y"/>而不是大會的論議。與<title level="m">《南宗定是非論》</title>，根本不同。這是另一部論文，而被編進去的。</p>
 <pb n="0306a" ed="Y" xml:id="Y40.0038.0306a"/>
-<lb n="0306a01" ed="Y"/><p style="text-indent:2em">除了前序、後序，<title level="m">《頓悟最上乘論》</title>，其餘部分，以滑臺的無遮大會為底本，也不完全是當
-<lb n="0306a02" ed="Y"/>時的問答。如<title level="m">《論》</title><note place="inline"><bibl><title level="m">《神會集》</title><biblScope to="294" from="293" type="pp">二九三——二九四</biblScope></bibl></note>說：</p>
-<lb n="0306a03" ed="Y"/><quote><p style="margin-left:3em">「遠法師問曰：普寂禪師名字蓋國，天下知聞，眾口共傳為不可思議，何故如此苦相非斥
+<lb n="0306a01" ed="Y"/><p xml:id="pY40p0306a0101" style="text-indent:2em">除了前序、後序，<title level="m">《頓悟最上乘論》</title>，其餘部分，以滑臺的無遮大會為底本，也不完全是當
+<lb n="0306a02" ed="Y"/>時的問答。如<title level="m">《論》</title><note place="inline"><bibl><title level="m">《神會集》</title><biblScope from="293" to="294" type="pp">二九三——二九四</biblScope></bibl></note>說：</p>
+<lb n="0306a03" ed="Y"/><quote><p xml:id="pY40p0306a0301" style="margin-left:3em">「遠法師問曰：普寂禪師名字蓋國，天下知聞，眾口共傳為不可思議，何故如此苦相非斥
 <lb n="0306a04" ed="Y"/>，豈不與身命有讎？和尚答曰：讀此論者，不識論意，謂言非斥。普寂禪師與南宗有別。
 <lb n="0306a05" ed="Y"/>我自料簡是非，定其宗旨。我今為弘揚大乘，建立正法，令一切眾生知聞，豈惜身命」？</p></quote>
-<lb n="0306a06" ed="Y"/><quote><p style="margin-left:3em">「遠法師問：修此論者，不為求名利乎？和上答曰：修此論者，生命尚不惜，豈以名利關
+<lb n="0306a06" ed="Y"/><quote><p xml:id="pY40p0306a0601" style="margin-left:3em">「遠法師問：修此論者，不為求名利乎？和上答曰：修此論者，生命尚不惜，豈以名利關
 <lb n="0306a07" ed="Y"/>心」？</p></quote>
-<lb n="0306a08" ed="Y"/><p style="text-indent:2em">這那<note n="0306a0801" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0306a0801"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>是崇遠所問，神會所說！神會與崇遠在大會共論，怎麼會說<quote>「讀此論者」</quote>，<quote>「修此論
-<lb n="0306a09" ed="Y"/>者」</quote>？這分明是造論者所增附的。<quote>「豈惜身命」</quote>，<quote>「生命尚<note n="0306a0901" resp="CBETA" type="add">［－］【CB】，且【印順】</note><app n="0306a0901"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">且</rdg></app>不惜」</quote>，可推定為：神會被貶逐回
+<lb n="0306a08" ed="Y"/><p xml:id="pY40p0306a0801" style="text-indent:2em">這那<note n="0306a0801" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0306a0801"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>是崇遠所問，神會所說！神會與崇遠在大會共論，怎麼會說<quote>「讀此論者」</quote>，<quote>「修此論
+<lb n="0306a09" ed="Y"/>者」</quote>？這分明是造論者所增附的。<quote>「豈惜身命」</quote>，<quote>「生命尚<note n="0306a0901" resp="CBETA" type="add">［－］【CB】，且【印順】</note><app n="0306a0901"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">且</rdg></app>不惜」</quote>，可推定為：神會被貶逐回
 <lb n="0306a10" ed="Y"/>來，受到朝野的尊敬，改寫這部論，用作宣傳資料。不了解這部論的改編，難怪胡適會說：<quote>「這
 <lb n="0306a11" ed="Y"/>種氣概，這種搏獅子的手段，都可以震動一時人的心魄了」</quote>。</p>
-<lb n="0306a12" ed="Y"/><p style="text-indent:2em">了解這部論的增附，改寫，才可以解說一個事實。論前說：<quote>「從開元十八，十九，廿年，論
+<lb n="0306a12" ed="Y"/><p xml:id="pY40p0306a1201" style="text-indent:2em">了解這部論的增附，改寫，才可以解說一個事實。論前說：<quote>「從開元十八，十九，廿年，論
 <lb n="0306a13" ed="Y"/>本並不定」</quote>。宗密在<bibl><title level="m">《圓覺經大疏鈔》</title><biblScope n="3之1" type="卷">卷三之一</biblScope></bibl>說：</p>
-<lb n="0306a14" ed="Y"/><quote><p style="margin-left:3em">「因洛陽詰北宗傳衣之由，及滑臺演兩宗真偽，與崇遠等<note n="0306a1401" resp="CBETA" type="add">詩【CB】，持【印順】</note><app n="0306a1401"><lem wit="【CB】" resp="正聞出版社">詩</lem><rdg wit="【印順】">持</rdg></app>論一會，具在《南宗定是非論》中
+<lb n="0306a14" ed="Y"/><quote><p xml:id="pY40p0306a1401" style="margin-left:3em">「因洛陽詰北宗傳衣之由，及滑臺演兩宗真偽，與崇遠等<note n="0306a1401" resp="CBETA" type="add">詩【CB】，持【印順】</note><app n="0306a1401"><lem resp="正聞出版社" wit="【CB】">詩</lem><rdg wit="【印順】">持</rdg></app>論一會，具在《南宗定是非論》中
 <lb n="0306a15" ed="Y"/>」。<note n="0306001" resp="厚觀法師" type="add">《圓覺經大疏釋義鈔》卷3(CBETA, X09, no. 245, p. 532, c1 // Z 1:14, p. 277, b8 // R14, p. 553, b8)</note></p></quote>
 <pb n="0307a" ed="Y" xml:id="Y40.0038.0307a"/>
-<lb n="0307a01" ed="Y"/><p style="text-indent:2em"><title level="m">《曆代法寶記》</title><note place="inline">大正<ref target="#vol:51;page:p185b" type="taisho">五一．一八五中</ref></note>也說：</p>
-<lb n="0307a02" ed="Y"/><quote><p style="margin-left:3em">「開元中，滑臺寺為天下學道者定其宗旨。……天寶八載中，洛州荷澤寺亦定宗旨，被崇
+<lb n="0307a01" ed="Y"/><p xml:id="pY40p0307a0101" style="text-indent:2em"><title level="m">《曆代法寶記》</title><note place="inline">大正<ref target="#vol:51;page:p185b" type="taisho">五一．一八五中</ref></note>也說：</p>
+<lb n="0307a02" ed="Y"/><quote><p xml:id="pY40p0307a0201" style="margin-left:3em">「開元中，滑臺寺為天下學道者定其宗旨。……天寶八載中，洛州荷澤寺亦定宗旨，被崇
 <lb n="0307a03" ed="Y"/>遠法師問」。</p></quote>
-<lb n="0307a04" ed="Y"/><p style="text-indent:2em">滑臺召開的大會，似乎不止一次；而洛陽也曾舉行定宗旨的大會。現存本，是作為<quote>「開元二
+<lb n="0307a04" ed="Y"/><p xml:id="pY40p0307a0401" style="text-indent:2em">滑臺召開的大會，似乎不止一次；而洛陽也曾舉行定宗旨的大會。現存本，是作為<quote>「開元二
 <lb n="0307a05" ed="Y"/>十年正月十五日，在滑臺大雲寺」</quote>大會的論議。那一次大會，與崇遠法師問答，是較成功的出名
 <lb n="0307a06" ed="Y"/>的一次。獨孤沛是以這一次論議為底本的。每次論議的要點，後來都編集進去，也就都作為與崇
 <lb n="0307a07" ed="Y"/>遠的問答。貶逐回來，又有所改寫，再增加前序、後序。這是歷次論議的綜集，經過增附與改寫
 <lb n="0307a08" ed="Y"/>的。胡適懷疑：<quote>「何以兩次皆有崇遠的質問」</quote>？晚年更參照西方神教，而想像為：<cit><quote>「很可能的，
-<lb n="0307a09" ed="Y"/>崇遠法師是神會和上請來的一位有訓練的配角」</quote><note place="inline"><bibl><title level="m">《神會集》</title><biblScope type="pp" n="369">三六九</biblScope></bibl></note></cit>！這未免太信賴文章的表面記錄，
+<lb n="0307a09" ed="Y"/>崇遠法師是神會和上請來的一位有訓練的配角」</quote><note place="inline"><bibl><title level="m">《神會集》</title><biblScope n="369" type="pp">三六九</biblScope></bibl></note></cit>！這未免太信賴文章的表面記錄，
 <lb n="0307a10" ed="Y"/>而沒有注意到這部論的不斷修正與補充！</p>
-<lb n="0307a11" ed="Y"/><p style="text-indent:2em">崇遠是一位講經法師，不是禪師，並沒有代表北宗。即使崇遠的論辯失敗，也並不等於北宗
+<lb n="0307a11" ed="Y"/><p xml:id="pY40p0307a1101" style="text-indent:2em">崇遠是一位講經法師，不是禪師，並沒有代表北宗。即使崇遠的論辯失敗，也並不等於北宗
 <lb n="0307a12" ed="Y"/>的失敗。這部<title level="m">《南宗定是非論》</title>，為什麼由崇遠來與神會進行論辯呢？中國佛教，從兩晉以來，
 <lb n="0307a13" ed="Y"/>凡講經法會，必先有人出來，與主講問難一番。有名的「支許」問答，就是這種問答。講經以外
-<lb n="0307a14" ed="Y"/>，也有論辯法義的法會。如三國論師僧粲<bibl>（<title level="m">《續高僧傳》</title><biblScope type="卷" n="9">卷九</biblScope>）</bibl>，與嘉祥吉藏<bibl>（<title level="m">《續高僧傳》</title><biblScope n="11" type="卷">卷
+<lb n="0307a14" ed="Y"/>，也有論辯法義的法會。如三國論師僧粲<bibl>（<title level="m">《續高僧傳》</title><biblScope n="9" type="卷">卷九</biblScope>）</bibl>，與嘉祥吉藏<bibl>（<title level="m">《續高僧傳》</title><biblScope n="11" type="卷">卷
 <lb n="0307a15" ed="Y"/>十一</biblScope>）</bibl>，在齊王府的問難。任何法會（除傳戒），都有主持的大德，通例有人出來問難。原意是
 <pb n="0308a" ed="Y" xml:id="Y40.0038.0308a"/>
 <lb n="0308a01" ed="Y"/>為了究明法義所作的友誼的論辯。「無遮大會」，本為布施大會，任何人都可以來參加的大會。
@@ -487,7 +507,7 @@
 <lb n="0308a04" ed="Y"/>發問，而發表達摩宗旨的正統，是慧能的頓教。而盛極一時的神秀門下，<quote>「師承是傍，法門是漸
 <lb n="0308a05" ed="Y"/>」</quote>。這一大會，對於禪的南宗北宗不同，傍正、頓漸，引起了當時的重視。而崇遠與神會的問答
 <lb n="0308a06" ed="Y"/>，也就被傳說開來。如以崇遠的論難失敗，作為北宗的失敗，那就誤解了！</p></cb:div>
-<lb n="0308a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">南陽和上問答雜徵義</cb:mulu><head>南陽和上問答雜徵義</head><p style="text-indent:2em">日本入矢義高，在一九五七年，發見大英博物館所藏的燉煌寫本斯坦
+<lb n="0308a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">南陽和上問答雜徵義</cb:mulu><head>南陽和上問答雜徵義</head><p xml:id="pY40p0308a0719" style="text-indent:2em">日本入矢義高，在一九五七年，發見大英博物館所藏的燉煌寫本斯坦
 <lb n="0308a08" ed="Y"/>因本六五五七號，題作<title level="m">《南陽和尚問答雜徵義》</title>，附有殘「序」，「前唐山主簿劉澄集」。除序
 <lb n="0308a09" ed="Y"/>，共十四章。這部神會的問答集，除序，及第一章多一段外，與日本石井光雄所藏的燉煌寫本，
 <lb n="0308a10" ed="Y"/>前十四章相合。石井本前面沒有題目，影印本題作<title level="m">《燉煌出土神會錄》</title>，共分五十六章。早在民
@@ -497,11 +517,11 @@
 <lb n="0308a14" ed="Y"/>九、三四、三九、四〇——幾章外；更增四五——五六，共十一章於後。五〇——五五，是六代
 <lb n="0308a15" ed="Y"/>祖師的傳記。末章，是<title level="a">〈大乘頓教頌〉</title>附序，也就是神會傳。這三本的出入不同，胡適曾有所解
 <pb n="0309a" ed="Y" xml:id="Y40.0038.0309a"/>
-<lb n="0309a01" ed="Y"/>說<note place="inline"><bibl><title level="m">《神會集》</title><biblScope to="420" from="403" type="pp">四〇三——四二〇</biblScope></bibl></note>。</p>
-<lb n="0309a02" ed="Y"/><p style="text-indent:2em">這一部，是神會與人問答為主的集子。如劉澄序<note place="inline"><bibl><title level="m">《神會集》</title><biblScope from="426" type="pp" to="427">四二六——四二七</biblScope></bibl></note>說：</p>
-<lb n="0309a03" ed="Y"/><quote><p style="margin-left:3em">「南陽和尚，斯其盛焉。<note n="0309a0301" resp="CBETA" type="add" subtype="規範字詞">稟【CB】，禀【印順】</note><app n="0309a0301"><lem wit="【CB】" resp="CBETA">稟</lem><rdg wit="【印順】">禀</rdg></app>六代為先師，居七數為今教。……貴賤雖問，記錄多忘。若不
+<lb n="0309a01" ed="Y"/>說<note place="inline"><bibl><title level="m">《神會集》</title><biblScope from="403" to="420" type="pp">四〇三——四二〇</biblScope></bibl></note>。</p>
+<lb n="0309a02" ed="Y"/><p xml:id="pY40p0309a0201" style="text-indent:2em">這一部，是神會與人問答為主的集子。如劉澄序<note place="inline"><bibl><title level="m">《神會集》</title><biblScope from="426" to="427" type="pp">四二六——四二七</biblScope></bibl></note>說：</p>
+<lb n="0309a03" ed="Y"/><quote><p xml:id="pY40p0309a0301" style="margin-left:3em">「南陽和尚，斯其盛焉。<note n="0309a0301" resp="CBETA" type="add" subtype="規範字詞">稟【CB】，禀【印順】</note><app n="0309a0301"><lem resp="CBETA" wit="【CB】">稟</lem><rdg wit="【印順】">禀</rdg></app>六代為先師，居七數為今教。……貴賤雖問，記錄多忘。若不
 <lb n="0309a04" ed="Y"/>集成，恐無遺簡。更訪得者，遂綴於後。勒成一卷，名曰問答雜徵義」。</p></quote>
-<lb n="0309a05" ed="Y"/><p style="text-indent:2em">劉澄集本，與石井本相合，只是現存本殘缺了。<quote>「<note n="0309a0501" resp="CBETA" type="add" subtype="規範字詞">稟【CB】，禀【印順】</note><app n="0309a0501"><lem wit="【CB】" resp="CBETA">稟</lem><rdg wit="【印順】">禀</rdg></app>六代為先師，居七數為今教」</quote>：從序意
+<lb n="0309a05" ed="Y"/><p xml:id="pY40p0309a0501" style="text-indent:2em">劉澄集本，與石井本相合，只是現存本殘缺了。<quote>「<note n="0309a0501" resp="CBETA" type="add" subtype="規範字詞">稟【CB】，禀【印順】</note><app n="0309a0501"><lem resp="CBETA" wit="【CB】">稟</lem><rdg wit="【印順】">禀</rdg></app>六代為先師，居七數為今教」</quote>：從序意
 <lb n="0309a06" ed="Y"/>看來，編集的時代，是並不太早的。<quote>「六代」</quote>與<quote>「七數」</quote>，正是石井本末七章的內容。神會被許
 <lb n="0309a07" ed="Y"/>為「七數」，至少是貶逐回來的事。稱為「南陽和上」，只是習慣上的稱呼，並不就是南陽時代
 <lb n="0309a08" ed="Y"/>所集成的。這部集子，除問答外，將<title level="m">《南宗定是非論》</title>（<title level="m">《頓悟最上乘論》</title>已編集在內，更可見
@@ -509,52 +529,52 @@
 <lb n="0309a10" ed="Y"/>，都是。以問答為主，而將別部論的部分編入，所以胡適推論石井本的五〇——五五（應為五六
 <lb n="0309a11" ed="Y"/>）章，是將<title level="a">〈師資血脈傳〉</title>編入<note place="inline"><bibl><title level="m">《神會集》</title><biblScope n="418" type="pp">四一八</biblScope></bibl></note>，極為可能。胡適本不取祖師傳記，將<title level="m">《南宗定是
 <lb n="0309a12" ed="Y"/>非論》</title>的一部分刪去，更增加部分的問答，從文字的更通順來說，是比較遲一些集成的。</p>
-<lb n="0309a13" ed="Y"/><p style="text-indent:2em">日本圓仁（八三八）入唐求法，留學十年，取回的經籍中，有<quote>「南陽和尚問答雜徵義一卷，
+<lb n="0309a13" ed="Y"/><p xml:id="pY40p0309a1301" style="text-indent:2em">日本圓仁（八三八）入唐求法，留學十年，取回的經籍中，有<quote>「南陽和尚問答雜徵義一卷，
 <lb n="0309a14" ed="Y"/>劉澄集」</quote>，與入矢義高所見本的題目相合。遲一些，圓珍（八五三——八五八）來中國，請得<title level="m">《
 <lb n="0309a15" ed="Y"/>南宗荷澤禪師問答雜徵》</title>一卷，都是這部問答集。近人稱之為<title level="m">《神會語錄》</title>，也很好。</p></cb:div>
 <pb n="0310a" ed="Y" xml:id="Y40.0038.0310a"/>
-<lb n="0310a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">頓悟無生般若頌</cb:mulu><head>頓悟無生般若頌</head><p style="text-indent:2em">倫敦英國博物院所藏的燉煌寫本斯坦因二九六號，又四六八號，題名<title level="m">《頓
-<lb n="0310a02" ed="Y"/>悟無生般若頌》</title>，是一篇而被分散在兩處的，與<bibl><title level="m">《傳燈錄》</title><biblScope type="卷" n="30">（卷三〇）</biblScope></bibl>的<title level="m">《顯宗記》</title>同本。這一
+<lb n="0310a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">頓悟無生般若頌</cb:mulu><head>頓悟無生般若頌</head><p xml:id="pY40p0310a0115" style="text-indent:2em">倫敦英國博物院所藏的燉煌寫本斯坦因二九六號，又四六八號，題名<title level="m">《頓
+<lb n="0310a02" ed="Y"/>悟無生般若頌》</title>，是一篇而被分散在兩處的，與<bibl><title level="m">《傳燈錄》</title><biblScope n="30" type="卷">（卷三〇）</biblScope></bibl>的<title level="m">《顯宗記》</title>同本。這一
 <lb n="0310a03" ed="Y"/>短篇，先標「宗本」說：</p>
-<lb n="0310a04" ed="Y"/><quote><p style="margin-left:3em">「無念是實相真如，知見是無生般若。般若照真達俗，真空理事皆如：此為宗本也」。</p></quote>
-<lb n="0310a05" ed="Y"/><p style="text-indent:2em">然後敷暢這一宗本義，而成一短篇。先標「宗本」，是模倣<title level="m">《肇論》</title>的。在闡明宗義後，次
+<lb n="0310a04" ed="Y"/><quote><p xml:id="pY40p0310a0401" style="margin-left:3em">「無念是實相真如，知見是無生般若。般若照真達俗，真空理事皆如：此為宗本也」。</p></quote>
+<lb n="0310a05" ed="Y"/><p xml:id="pY40p0310a0501" style="text-indent:2em">然後敷暢這一宗本義，而成一短篇。先標「宗本」，是模倣<title level="m">《肇論》</title>的。在闡明宗義後，次
 <lb n="0310a06" ed="Y"/>明傳授：</p>
-<lb n="0310a07" ed="Y"/><quote><p style="margin-left:3em">「三世諸佛，教旨如斯。菩薩大悲，轉相傳授。至於達摩，屆此為初；遞代相傳，於今不
+<lb n="0310a07" ed="Y"/><quote><p xml:id="pY40p0310a0701" style="margin-left:3em">「三世諸佛，教旨如斯。菩薩大悲，轉相傳授。至於達摩，屆此為初；遞代相傳，於今不
 <lb n="0310a08" ed="Y"/>絕。……衣為法信，法是衣宗；衣法相傳，更無別付」。</p></quote>
-<lb n="0310a09" ed="Y"/><p style="text-indent:2em">體裁不是偈頌，不知為什麼稱為「頌」，不如稱為<title level="m">《顯宗記》</title>的好。這正代表了神會對於禪
+<lb n="0310a09" ed="Y"/><p xml:id="pY40p0310a0901" style="text-indent:2em">體裁不是偈頌，不知為什麼稱為「頌」，不如稱為<title level="m">《顯宗記》</title>的好。這正代表了神會對於禪
 <lb n="0310a10" ed="Y"/>，及禪門傳授的立場。<title level="m">《傳燈錄》</title>本——<cit><bibl><title level="m">《顯宗記》</title>，有</bibl><quote>「西天二十八祖，共傳無住之心，同說
 <lb n="0310a11" ed="Y"/>如來知見」</quote></cit>的話。<title level="m">《南宗定是非論》</title>，僅說西土八祖，是神會晚年的定本，所以<title level="m">《顯宗記》</title>的二
 <lb n="0310a12" ed="Y"/>十八祖說，應該是神會門下所增入的。</p></cb:div></cb:div>
 <lb n="0310a13" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　南頓北漸</cb:mulu><head>第三節　南頓北漸</head>
-<lb n="0310a14" ed="Y"/><p style="text-indent:2em">神會為了慧能「南宗頓教」的正統性，與神秀門下對抗，是當時禪宗的重要事實。關於「南
+<lb n="0310a14" ed="Y"/><p xml:id="pY40p0310a1401" style="text-indent:2em">神會為了慧能「南宗頓教」的正統性，與神秀門下對抗，是當時禪宗的重要事實。關於「南
 <pb n="0311a" ed="Y" xml:id="Y40.0038.0311a"/>
 <lb n="0311a01" ed="Y"/>宗」，第三章已經說過了。隋、唐的大統一，政治是北方勝過了南方，而南方文化，在南北統一
 <lb n="0311a02" ed="Y"/>中，卻非常活躍。有南方特色的繪畫，道教，都在那個時代發展出南宗。佛教的南宗，也在這個
 <lb n="0311a03" ed="Y"/>時代隆盛起來。雖然達摩傳來的「南天竺一乘宗」，一向就稱為南宗，然在南方精神有力的擴展
 <lb n="0311a04" ed="Y"/>下，神會自然會覺得，嶺南慧能才是名符其實的南宗。慧能門下，有的自稱「南方宗旨」，也就
 <lb n="0311a05" ed="Y"/>是這種意義。所以在本來就是南宗的南天竺一乘宗中，又演化為南宗與北宗的對立。</p>
-<lb n="0311a06" ed="Y"/><p style="text-indent:2em">神會稱慧能的法門為南宗，神秀所傳的是北宗：<quote>「師承是傍，法門是漸」</quote>，而南北從此對立
+<lb n="0311a06" ed="Y"/><p xml:id="pY40p0311a0601" style="text-indent:2em">神會稱慧能的法門為南宗，神秀所傳的是北宗：<quote>「師承是傍，法門是漸」</quote>，而南北從此對立
 <lb n="0311a07" ed="Y"/>起來。南北對立，不只是師承傍正的爭執；<quote>「南頓北漸」</quote>，才是法門對立的實質。說到頓與漸，
 <lb n="0311a08" ed="Y"/>至少要明白兩點：一是理的頓悟漸悟，一是行的頓入漸入。諦理，小乘有漸入四諦，頓悟滅諦的
 <lb n="0311a09" ed="Y"/>二派。大乘以「一切法本不生」為究極，中國雖有過漸悟、頓悟的辯論（如劉虬<title level="a">〈無量義經序〉</title>
-<lb n="0311a10" ed="Y"/>所說），而大乘經義，從來都是「悟理必頓」的。如<bibl><title level="m">《楞伽阿跋多羅寶經》</title><biblScope type="卷" n="1">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:16;page:p486a" type="taisho">一六．四八六
+<lb n="0311a10" ed="Y"/>所說），而大乘經義，從來都是「悟理必頓」的。如<bibl><title level="m">《楞伽阿跋多羅寶經》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:16;page:p486a" type="taisho">一六．四八六
 <lb n="0311a11" ed="Y"/>上</ref></note>說：</p>
-<lb n="0311a12" ed="Y"/><quote><p style="margin-left:3em">「譬如明鏡頓現一切無相色像，如來淨除一切眾生自心現流，亦復如是頓現無相無所有清
+<lb n="0311a12" ed="Y"/><quote><p xml:id="pY40p0311a1201" style="margin-left:3em">「譬如明鏡頓現一切無相色像，如來淨除一切眾生自心現流，亦復如是頓現無相無所有清
 <lb n="0311a13" ed="Y"/>淨境界」。</p></quote>
-<lb n="0311a14" ed="Y"/><p style="text-indent:2em">這就是理的頓悟。不過在頓悟中，古說七地悟無生忍（小頓悟），或說初地頓悟，或說初住
+<lb n="0311a14" ed="Y"/><p xml:id="pY40p0311a1401" style="text-indent:2em">這就是理的頓悟。不過在頓悟中，古說七地悟無生忍（小頓悟），或說初地頓悟，或說初住
 <lb n="0311a15" ed="Y"/>就證悟，初信就證悟（後二者，比道生的時代略遲）。這就是證悟以後，還有一層層的深入。古
 <pb n="0312a" ed="Y" xml:id="Y40.0038.0312a"/>
 <lb n="0312a01" ed="Y"/>人的解說，或多少不同，但依大乘，所證法是沒有層次可說的；依智慧就可說，這所以<quote>「三乘皆
 <lb n="0312a02" ed="Y"/>依無為法而有差別」</quote>。道生是針對這悟入又悟入的見解，所以立大頓悟說。道生的頓悟說，保存
 <lb n="0312a03" ed="Y"/>於謝靈運的<title level="m">《辯宗論》</title>，如<bibl><title level="m">《廣弘明集》</title><biblScope n="20" type="卷">卷二〇</biblScope></bibl><note place="inline">大正<ref target="#vol:52;page:p225a" type="taisho">五二．二二五上</ref></note>說：</p>
-<lb n="0312a04" ed="Y"/><quote><p style="margin-left:3em">「有新論道士（指道生），以為鑒寂微妙，不容階級。積學無限，何為自絕」！</p></quote>
-<lb n="0312a05" ed="Y"/><p style="text-indent:2em">嘉祥在<cit><bibl><title level="m">《二諦義》</title>中，也曾有所引述：</bibl><quote>「大頓悟義，此是竺道生所辯。彼云：果報是變謝之
+<lb n="0312a04" ed="Y"/><quote><p xml:id="pY40p0312a0401" style="margin-left:3em">「有新論道士（指道生），以為鑒寂微妙，不容階級。積學無限，何為自絕」！</p></quote>
+<lb n="0312a05" ed="Y"/><p xml:id="pY40p0312a0501" style="text-indent:2em">嘉祥在<cit><bibl><title level="m">《二諦義》</title>中，也曾有所引述：</bibl><quote>「大頓悟義，此是竺道生所辯。彼云：果報是變謝之
 <lb n="0312a06" ed="Y"/>宅，生死是大夢之境。從生死至金剛心，皆是夢。金剛後心，豁然大悟，無復所見」</quote></cit><note place="inline">大正<ref target="#vol:45;page:p111b" type="taisho">四五．
 <lb n="0312a07" ed="Y"/>一一一中</ref></note>。道生以為：<quote>「積學無限」</quote>；不悟則已，<quote>「一悟則紛累都盡耳」</quote>，究竟成佛。所以，道
 <lb n="0312a08" ed="Y"/>生是積學無限的漸修頓悟說，與後代禪宗的見地，恰好相反。近代人歡喜將道生的頓悟，與禪宗
 <lb n="0312a09" ed="Y"/>的頓悟說相混合（其實，禪者早已不自覺的混而為一了），所以略為分別。扼要的說，一切大乘
 <lb n="0312a10" ed="Y"/>法門，都認為真如法性是頓悟的。</p>
-<lb n="0312a11" ed="Y"/><p style="text-indent:2em">說到行的頓入漸入，主要是從初發心到證悟成佛，如一定要歷位進修，經三大阿僧祇劫，就
+<lb n="0312a11" ed="Y"/><p xml:id="pY40p0312a1101" style="text-indent:2em">說到行的頓入漸入，主要是從初發心到證悟成佛，如一定要歷位進修，經三大阿僧祇劫，就
 <lb n="0312a12" ed="Y"/>是漸。如直捷的證入，成佛，<quote>「不歷僧祇獲法身」</quote>，就是頓。彌勒系的唯識學，馬鳴的<title level="m">《大乘起
 <lb n="0312a13" ed="Y"/>信論》</title>（論文分明說），決定要三祇成佛，是沒有頓的。龍樹論依<title level="m">《必定不定印經》</title>，約根機利
 <lb n="0312a14" ed="Y"/>鈍，說有漸入的，也有一發心就頓入無生，廣度眾生的。在中國佛教界，天臺宗立四十二位，初
@@ -563,32 +583,32 @@
 <lb n="0313a01" ed="Y"/>位悟入義；後來賢首宗也如此說。大乘經中，<title level="m">《法華經》</title>的龍女，發心就成佛道。<cit><bibl><title level="m">《涅槃經》</title>說
 <lb n="0313a02" ed="Y"/>：</bibl><quote>「發心畢竟二不別」</quote></cit>。<cit><bibl><title level="m">《楞伽經》</title>說：</bibl><quote>「無所有何次」</quote></cit>（有什麼次第可說）！中國佛教，到了
 <lb n="0313a03" ed="Y"/>隋唐之間，發心頓入佛道，已是多數學者的共信了。</p>
-<lb n="0313a04" ed="Y"/><p style="text-indent:2em">北方禪師，以<title level="m">《楞伽》</title>、<title level="m">《思益經》</title>為無相教，是不立次第的頓禪。頓，是說發心能現生頓
+<lb n="0313a04" ed="Y"/><p xml:id="pY40p0313a0401" style="text-indent:2em">北方禪師，以<title level="m">《楞伽》</title>、<title level="m">《思益經》</title>為無相教，是不立次第的頓禪。頓，是說發心能現生頓
 <lb n="0313a05" ed="Y"/>入佛慧，與佛不二。東山宗的<quote>「即心是佛」</quote>；<quote>「心外無佛，佛外無心」</quote>，都可說是頓禪。如代表
 <lb n="0313a06" ed="Y"/>神秀所傳的<title level="m">《大乘無生方便門》</title><note place="inline">大正<ref target="#vol:85;page:p1273c" type="taisho">八五．一二七三下</ref></note>說：</p>
-<lb n="0313a07" ed="Y"/><quote><p style="margin-left:3em">「諸佛如來有入道大方便，一念淨心，頓超佛地」。</p></quote>
-<lb n="0313a08" ed="Y"/><p style="text-indent:2em">從神秀弟子義福修學的大乘和尚，曾到西藏去教授禪學。大乘和尚與印度來的蓮華戒辯論，
+<lb n="0313a07" ed="Y"/><quote><p xml:id="pY40p0313a0701" style="margin-left:3em">「諸佛如來有入道大方便，一念淨心，頓超佛地」。</p></quote>
+<lb n="0313a08" ed="Y"/><p xml:id="pY40p0313a0801" style="text-indent:2em">從神秀弟子義福修學的大乘和尚，曾到西藏去教授禪學。大乘和尚與印度來的蓮華戒辯論，
 <lb n="0313a09" ed="Y"/>失敗了，被禁止傳授；這就是宗喀巴書中所說的「支那堪布」。現存燉煌本（斯坦因本二六七二
 <lb n="0313a10" ed="Y"/>號）<title level="m">《頓悟大乘正理訣》</title>，就是大乘和尚的宗義。前河西觀察判官朝散大夫殿中侍御史王錫為該
 <lb n="0313a11" ed="Y"/>書作序說：</p>
-<lb n="0313a12" ed="Y"/><quote><p style="margin-left:3em">「我大師忽奉明詔曰：婆羅門僧等奏言：漢僧所教授頓悟禪宗，並非金口親說，請即停廢
+<lb n="0313a12" ed="Y"/><quote><p xml:id="pY40p0313a1201" style="margin-left:3em">「我大師忽奉明詔曰：婆羅門僧等奏言：漢僧所教授頓悟禪宗，並非金口親說，請即停廢
 <lb n="0313a13" ed="Y"/>」。</p></quote>
-<lb n="0313a14" ed="Y"/><p style="text-indent:2em">依上引二文，可見北宗也是自稱「頓悟」的。<note n="0313a1401" resp="CBETA" type="add" subtype="規範字詞">那麼【CB】，那末【印順】</note><app n="0313a1401"><lem wit="【CB】" resp="CBETA">那麼</lem><rdg wit="【印順】">那末</rdg></app>，曹溪門下為什麼自稱為頓，以神秀所傳
+<lb n="0313a14" ed="Y"/><p xml:id="pY40p0313a1401" style="text-indent:2em">依上引二文，可見北宗也是自稱「頓悟」的。<note n="0313a1401" resp="CBETA" type="add" subtype="規範字詞">那麼【CB】，那末【印順】</note><app n="0313a1401"><lem resp="CBETA" wit="【CB】">那麼</lem><rdg wit="【印順】">那末</rdg></app>，曹溪門下為什麼自稱為頓，以神秀所傳
 <lb n="0313a15" ed="Y"/>的為漸呢？「頓」的意義，神會曾一再的說到（引文並見<title level="m">《神會和尚遺集》</title>）：</p>
 <pb n="0314a" ed="Y" xml:id="Y40.0038.0314a"/>
-<lb n="0314a01" ed="Y"/><p style="margin-left:3em"><quote>「出世間不思議者，十信初發心，一念相應，便成正覺。於理相應，有何可怪！此明頓悟
+<lb n="0314a01" ed="Y"/><p xml:id="pY40p0314a0101" style="margin-left:3em"><quote>「出世間不思議者，十信初發心，一念相應，便成正覺。於理相應，有何可怪！此明頓悟
 <lb n="0314a02" ed="Y"/>不思議」</quote><note place="inline">一〇〇</note>。</p>
-<lb n="0314a03" ed="Y"/><p style="margin-left:3em"><quote>「發心有頓漸，迷悟有遲疾。迷即累劫，悟乃須臾。若遇真正善知識，以巧方便直示真如
+<lb n="0314a03" ed="Y"/><p xml:id="pY40p0314a0301" style="margin-left:3em"><quote>「發心有頓漸，迷悟有遲疾。迷即累劫，悟乃須臾。若遇真正善知識，以巧方便直示真如
 <lb n="0314a04" ed="Y"/>，用金剛慧斷諸位地煩惱，豁然曉悟。……恆沙妄念，一時頓盡。無邊功德，應時等備」</quote>
 <lb n="0314a05" ed="Y"/><note place="inline">一二一</note>。</p>
-<lb n="0314a06" ed="Y"/><p style="margin-left:3em"><quote>「眾生見性成佛道。又龍女須臾發菩提心，便成正覺。又欲令眾生入佛知見。……唯存一
+<lb n="0314a06" ed="Y"/><p xml:id="pY40p0314a0601" style="margin-left:3em"><quote>「眾生見性成佛道。又龍女須臾發菩提心，便成正覺。又欲令眾生入佛知見。……唯存一
 <lb n="0314a07" ed="Y"/>念相應，實更非由階漸。相應義者，謂見無念者，謂了自性者，謂無所得。以無所得，即
 <lb n="0314a08" ed="Y"/>如來禪」</quote><note place="inline">一三一</note>。</p>
-<lb n="0314a09" ed="Y"/><p style="margin-left:3em"><quote>「見諸教禪者，不許頓悟，要須隨方便始悟，此是大下品之見」</quote><note place="inline">二五二</note>。</p>
-<lb n="0314a10" ed="Y"/><p style="margin-left:3em"><quote>「學道者須頓見佛性，漸修因緣，不離是生而得解脫。譬如母頓生子，與乳，漸漸養育，
+<lb n="0314a09" ed="Y"/><p xml:id="pY40p0314a0901" style="margin-left:3em"><quote>「見諸教禪者，不許頓悟，要須隨方便始悟，此是大下品之見」</quote><note place="inline">二五二</note>。</p>
+<lb n="0314a10" ed="Y"/><p xml:id="pY40p0314a1001" style="margin-left:3em"><quote>「學道者須頓見佛性，漸修因緣，不離是生而得解脫。譬如母頓生子，與乳，漸漸養育，
 <lb n="0314a11" ed="Y"/>其子智慧自然增長。頓悟見佛性者，亦復如是，智慧自然漸漸增長」</quote><note place="inline">二八七</note>。</p>
-<lb n="0314a12" ed="Y"/><p style="text-indent:2em">宣說「南頓北漸」的神會，當時是有根據的。初發心<quote>「一念相應」</quote>，<quote>「唯存一念相應，實<note n="0314a1201" resp="CBETA" type="add">更【CB】，非【印順】</note><app n="0314a1201"><lem wit="【CB】" resp="正聞出版社">更</lem><rdg wit="【印順】">非</rdg></app>
-<lb n="0314a13" ed="Y"/><note n="0314a1301" resp="CBETA" type="add">非由【CB】，更有【印順】</note><app n="0314a1301"><lem wit="【CB】" resp="正聞出版社">非由</lem><rdg wit="【印順】">更有</rdg></app>階漸」</quote>。「一念相應」，就是「無念」。只此<quote>「無念」</quote>，<quote>「單刀直入」</quote>，<quote>「直了見性」</quote>，不
+<lb n="0314a12" ed="Y"/><p xml:id="pY40p0314a1201" style="text-indent:2em">宣說「南頓北漸」的神會，當時是有根據的。初發心<quote>「一念相應」</quote>，<quote>「唯存一念相應，實<note n="0314a1201" resp="CBETA" type="add">更【CB】，非【印順】</note><app n="0314a1201"><lem resp="正聞出版社" wit="【CB】">更</lem><rdg wit="【印順】">非</rdg></app>
+<lb n="0314a13" ed="Y"/><note n="0314a1301" resp="CBETA" type="add">非由【CB】，更有【印順】</note><app n="0314a1301"><lem resp="正聞出版社" wit="【CB】">非由</lem><rdg wit="【印順】">更有</rdg></app>階漸」</quote>。「一念相應」，就是「無念」。只此<quote>「無念」</quote>，<quote>「單刀直入」</quote>，<quote>「直了見性」</quote>，不
 <lb n="0314a14" ed="Y"/>假其他方便的，是頓。如以為<quote>「須隨方便始悟」</quote>，也就是要經種種方便——攝心方便、觀察次第
 <lb n="0314a15" ed="Y"/>方便，才能悟入的，就是漸。傳說神秀的禪法，是：<quote>「專念以息想，極力以攝心。……趣定之前
 <pb n="0315a" ed="Y" xml:id="Y40.0038.0315a"/>
@@ -597,34 +617,34 @@
 <lb n="0315a03" ed="Y"/>便始悟」</quote>——非漸不可，即就是<quote>「大下品之見」</quote>了！神會所說，約根機的利鈍說，更著重於法門
 <lb n="0315a04" ed="Y"/>的直捷。神會說<quote>「直了見性」</quote>；南方說<quote>「直指人心見性成佛」</quote>。「直了」，「直指」，南宗學者
 <lb n="0315a05" ed="Y"/>自覺得比起北宗來，更有資格稱為「頓教」。</p>
-<lb n="0315a06" ed="Y"/><p style="text-indent:2em"><title level="m">《壇經》</title>有關頓漸的意見，與神會所說大致相合，如說：</p>
-<lb n="0315a07" ed="Y"/><p style="margin-left:3em"><quote>「法無頓漸，人有利鈍。迷（原作「明」）即漸契（原作「勸」），悟人頓修」</quote><note place="inline"><ref target="#vol:48;page:p338b" type="taisho"><note n="0315a0701" resp="CBETA" type="add" subtype="規範字詞">大正四八【CB】，［－］【印順】</note><app n="0315a0701"><lem wit="【CB】" resp="CBETA">大正四八．</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app><note n="0315a0702" resp="CBETA" type="add">三【CB】，二【印順】</note><app n="0315a0702"><lem wit="【CB】" resp="正聞出版社">三</lem><rdg wit="【印順】">二</rdg></app>三八中</ref>
+<lb n="0315a06" ed="Y"/><p xml:id="pY40p0315a0601" style="text-indent:2em"><title level="m">《壇經》</title>有關頓漸的意見，與神會所說大致相合，如說：</p>
+<lb n="0315a07" ed="Y"/><p xml:id="pY40p0315a0701" style="margin-left:3em"><quote>「法無頓漸，人有利鈍。迷（原作「明」）即漸契（原作「勸」），悟人頓修」</quote><note place="inline"><ref target="#vol:48;page:p338b" type="taisho"><note n="0315a0701" resp="CBETA" type="add" subtype="規範字詞">大正四八【CB】，［－］【印順】</note><app n="0315a0701"><lem resp="CBETA" wit="【CB】">大正四八．</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app><note n="0315a0702" resp="CBETA" type="add">三【CB】，二【印順】</note><app n="0315a0702"><lem resp="正聞出版社" wit="【CB】">三</lem><rdg wit="【印順】">二</rdg></app>三八中</ref>
 <lb n="0315a08" ed="Y"/>——下</note>。</p>
-<lb n="0315a09" ed="Y"/><p style="margin-left:3em"><quote>「迷來經累劫，悟則須臾間」</quote><note place="inline"><ref target="#vol:48;page:p342a" type="taisho"><note n="0315a0901" resp="CBETA" type="add" subtype="規範字詞">大正四八【CB】，［－］【印順】</note><app n="0315a0901"><lem wit="【CB】" resp="CBETA">大正四八．</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>三四二上</ref></note>。</p>
-<lb n="0315a10" ed="Y"/><p style="margin-left:3em"><quote>「何以漸頓？法即一種，見有遲疾。見遲即漸，見疾即頓。法無漸頓，人有利鈍，故名漸
-<lb n="0315a11" ed="Y"/>頓」</quote><note place="inline"><ref target="#vol:48;page:p342b" type="taisho"><note n="0315a1101" resp="CBETA" type="add" subtype="規範字詞">大正四八【CB】，［－］【印順】</note><app n="0315a1101"><lem wit="【CB】" resp="CBETA">大正四八．</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>三四二中</ref></note>。</p>
-<lb n="0315a12" ed="Y"/><p style="margin-left:3em"><quote>「神秀師常見人說：慧能法疾直指路。秀師遂喚門人僧志誠曰：汝聰明多智，汝與吾至曹
-<lb n="0315a13" ed="Y"/>溪山，到慧能所禮拜。但聽，莫言<note n="0315a1301" resp="CBETA" type="add">我【CB】，吾【印順】</note><app n="0315a1301"><lem wit="【CB】" resp="正聞出版社">我</lem><rdg wit="【印順】">吾</rdg></app>使汝來。所聽意旨，記<note n="0315a1302" resp="CBETA" type="add">起【CB】，取【印順】</note><app n="0315a1302"><lem wit="【CB】" resp="正聞出版社">起</lem><rdg wit="【印順】">取</rdg></app>却來，與吾說，看慧能見解
-<lb n="0315a14" ed="Y"/>與吾誰遲疾」</quote><note place="inline"><ref target="#vol:48;page:p342b" type="taisho"><note n="0315a1401" resp="CBETA" type="add" subtype="規範字詞">大正四八【CB】，［－］【印順】</note><app n="0315a1401"><lem wit="【CB】" resp="CBETA">大正四八．</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>三四二中</ref></note>。</p>
-<lb n="0315a15" ed="Y"/><p style="text-indent:2em"><title level="m">《壇經》</title>的頓漸說，與神會大意相合。頓與漸，是根機的利鈍問題，不是「法」的不同。鈍
+<lb n="0315a09" ed="Y"/><p xml:id="pY40p0315a0901" style="margin-left:3em"><quote>「迷來經累劫，悟則須臾間」</quote><note place="inline"><ref target="#vol:48;page:p342a" type="taisho"><note n="0315a0901" resp="CBETA" type="add" subtype="規範字詞">大正四八【CB】，［－］【印順】</note><app n="0315a0901"><lem resp="CBETA" wit="【CB】">大正四八．</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>三四二上</ref></note>。</p>
+<lb n="0315a10" ed="Y"/><p xml:id="pY40p0315a1001" style="margin-left:3em"><quote>「何以漸頓？法即一種，見有遲疾。見遲即漸，見疾即頓。法無漸頓，人有利鈍，故名漸
+<lb n="0315a11" ed="Y"/>頓」</quote><note place="inline"><ref target="#vol:48;page:p342b" type="taisho"><note n="0315a1101" resp="CBETA" type="add" subtype="規範字詞">大正四八【CB】，［－］【印順】</note><app n="0315a1101"><lem resp="CBETA" wit="【CB】">大正四八．</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>三四二中</ref></note>。</p>
+<lb n="0315a12" ed="Y"/><p xml:id="pY40p0315a1201" style="margin-left:3em"><quote>「神秀師常見人說：慧能法疾直指路。秀師遂喚門人僧志誠曰：汝聰明多智，汝與吾至曹
+<lb n="0315a13" ed="Y"/>溪山，到慧能所禮拜。但聽，莫言<note n="0315a1301" resp="CBETA" type="add">我【CB】，吾【印順】</note><app n="0315a1301"><lem resp="正聞出版社" wit="【CB】">我</lem><rdg wit="【印順】">吾</rdg></app>使汝來。所聽意旨，記<note n="0315a1302" resp="CBETA" type="add">起【CB】，取【印順】</note><app n="0315a1302"><lem resp="正聞出版社" wit="【CB】">起</lem><rdg wit="【印順】">取</rdg></app>却來，與吾說，看慧能見解
+<lb n="0315a14" ed="Y"/>與吾誰遲疾」</quote><note place="inline"><ref target="#vol:48;page:p342b" type="taisho"><note n="0315a1401" resp="CBETA" type="add" subtype="規範字詞">大正四八【CB】，［－］【印順】</note><app n="0315a1401"><lem resp="CBETA" wit="【CB】">大正四八．</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>三四二中</ref></note>。</p>
+<lb n="0315a15" ed="Y"/><p xml:id="pY40p0315a1501" style="text-indent:2em"><title level="m">《壇經》</title>的頓漸說，與神會大意相合。頓與漸，是根機的利鈍問題，不是「法」的不同。鈍
 <pb n="0316a" ed="Y" xml:id="Y40.0038.0316a"/>
 <lb n="0316a01" ed="Y"/>根累劫漸修，等到悟入，還是一樣的「自性般若」。從應機的利鈍說，直捷的開示悟入，是頓；
 <lb n="0316a02" ed="Y"/>須種種方便，漸次修學而悟入的，是漸。如「定慧等學」，「三學等」是頓；戒、定、慧的分別
 <lb n="0316a03" ed="Y"/>次第進修，是漸。所以南宗的稱為「頓教」，是不假方便，直指直示的。<quote>「念佛名，令淨心」</quote>的
 <lb n="0316a04" ed="Y"/>北宗，本淵源於道信的「入道安心要方便」，無念是念佛，契入心地明淨。東山門下，不一定是
 <lb n="0316a05" ed="Y"/>非漸不可的，如<title level="m">《法如行狀》</title><note place="inline"><bibl><title level="m">《金石續編》</title><biblScope n="6" type="卷">卷六</biblScope></bibl></note>說：</p>
-<lb n="0316a06" ed="Y"/><quote><p style="margin-left:3em">「今唯以一法，能令聖凡同入決定。……眾皆屈申臂頃，便得本心。（如禪）師以一印之
+<lb n="0316a06" ed="Y"/><quote><p xml:id="pY40p0316a0601" style="margin-left:3em">「今唯以一法，能令聖凡同入決定。……眾皆屈申臂頃，便得本心。（如禪）師以一印之
 <lb n="0316a07" ed="Y"/>法，密印於眾意。世界不現，則是法界。此法如空中月影，出現應度者心」。</p></quote>
-<lb n="0316a08" ed="Y"/><p style="text-indent:2em">法如的開法方便，<quote>「以一印之法，密印於眾意」</quote>，不能說不是頓教。<quote>「法如乃祖範師資，發
+<lb n="0316a08" ed="Y"/><p xml:id="pY40p0316a0801" style="text-indent:2em">法如的開法方便，<quote>「以一印之法，密印於眾意」</quote>，不能說不是頓教。<quote>「法如乃祖範師資，發
 <lb n="0316a09" ed="Y"/>大方便，令心直至，無所委曲」</quote>。<quote>「眾皆屈申臂頃，便得本心」</quote>，不能說不是頓悟。然從神秀以
 <lb n="0316a10" ed="Y"/>來，<quote>「以方便顯」</quote>，門下都在方便漸修中用力。所以<title level="m">《傳法寶紀》</title>的作者杜胐，對神秀門下有說
 <lb n="0316a11" ed="Y"/>不出的慨歎，如說：</p>
-<lb n="0316a12" ed="Y"/><quote><p style="margin-left:3em">「今之學者，將（念佛名，令淨心）為委巷之談。……悲夫！豈悟念性本空，焉有念處！
-<lb n="0316a13" ed="Y"/>淨性已寂，夫何淨心！念淨都忘，自然滿照。於<note n="0316a1301" resp="CBETA" type="add" subtype="規範字詞">戲【CB】，戱【印順】</note><app n="0316a1301"><lem wit="【CB】" resp="CBETA">戲</lem><rdg wit="【印順】">戱</rdg></app>！僧可有言曰：四世之後，變成名相，
+<lb n="0316a12" ed="Y"/><quote><p xml:id="pY40p0316a1201" style="margin-left:3em">「今之學者，將（念佛名，令淨心）為委巷之談。……悲夫！豈悟念性本空，焉有念處！
+<lb n="0316a13" ed="Y"/>淨性已寂，夫何淨心！念淨都忘，自然滿照。於<note n="0316a1301" resp="CBETA" type="add" subtype="規範字詞">戲【CB】，戱【印順】</note><app n="0316a1301"><lem resp="CBETA" wit="【CB】">戲</lem><rdg wit="【印順】">戱</rdg></app>！僧可有言曰：四世之後，變成名相，
 <lb n="0316a14" ed="Y"/>信矣！……今大通（神秀）門人，法棟無撓，伏膺何遠？裹足宜行，勉哉學流，光陰不棄
 <lb n="0316a15" ed="Y"/>也」！</p></quote>
 <pb n="0317a" ed="Y" xml:id="Y40.0038.0317a"/>
-<lb n="0317a01" ed="Y"/><p style="text-indent:2em">從當時（法如開法以來，慧能還在世，比神會北上早得多）的情形看來，「淨心」方便的次
+<lb n="0317a01" ed="Y"/><p xml:id="pY40p0317a0101" style="text-indent:2em">從當時（法如開法以來，慧能還在世，比神會北上早得多）的情形看來，「淨心」方便的次
 <lb n="0317a02" ed="Y"/>第化，已失去了東山法門——即心是佛的頓入氣息。神秀所傳，是有頓悟入道成分的，而<quote>「以方
 <lb n="0317a03" ed="Y"/>便顯」</quote>，逐漸落入了漸修的情況。這難怪杜胐要慨歎，神會要專提<quote>「直了見性」</quote>，以「南宗頓教
 <lb n="0317a04" ed="Y"/>」宣告於天下了！</p></cb:div></cb:div>

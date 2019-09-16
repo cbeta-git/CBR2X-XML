@@ -12,49 +12,69 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/11</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/11</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>14卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 14, No. 14</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">14</idno>.<idno type="no">14</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛在人間</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十二、一般道德與佛化道德</cb:mulu><cb:mulu level="2" type="其他">六　學佛即是道德的實踐</cb:mulu>
-<milestone unit="juan" n="13"/><pb n="0323a" ed="Y" xml:id="Y14.0014.0323a.old" type="old"/>
+<milestone n="13" unit="juan"/><pb n="0323a" ed="Y" xml:id="Y14.0014.0323a.old" type="old"/>
 <pb n="0323a" ed="Y" xml:id="Y14.0014.0323a"/>
 <lb n="0323a01" ed="Y"/><lb n="0323a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十三、佛教與教育</cb:mulu><head>佛教與教育<note n="0323001" resp="DILA" type="add">民國五〇年講。</note></head>
-<lb n="0323a02" ed="Y"/><lb n="0323a02" ed="Y" type="old"/><p style="text-indent:2em">佛教是宗教，但與一般神教，是不相同的。他不只是要你信仰，而更要你修
+<lb n="0323a02" ed="Y"/><lb n="0323a02" ed="Y" type="old"/><p xml:id="pY14p0323a0201" style="text-indent:2em">佛教是宗教，但與一般神教，是不相同的。他不只是要你信仰，而更要你修
 <lb n="0323a03" ed="Y"/><lb n="0323a03" ed="Y" type="old"/>學，所以信佛也稱為「學佛」。佛教是著重修學的，所以尅實的說，佛教是一種
 <lb n="0323a04" ed="Y"/><lb n="0323a04" ed="Y" type="old"/>教育。佛所教的是什麼？要我們學些什麼？最主要的是：「戒學」、「定學」、
 <lb n="0323a05" ed="Y"/><lb n="0323a05" ed="Y" type="old"/>「慧學」——「三學」。佛教的「三學」，與一般所說的德育、體育、智育——
@@ -66,17 +86,17 @@
 <lb n="0323a11" ed="Y"/><lb n="0323a11" ed="Y" type="old"/>僕人。我想，說佛教是教育，把「佛教與教育」作為論題來講，是不應該看作牽<pb n="0324a" ed="Y" xml:id="Y14.0014.0324a.old" type="old"/>
 <pb n="0324a" ed="Y" xml:id="Y14.0014.0324a"/>
 <lb n="0324a01" ed="Y"/><lb n="0324a01" ed="Y" type="old"/>強附會的！</p>
-<lb n="0324a02" ed="Y"/><lb n="0324a02" ed="Y" type="old"/><p style="text-indent:2em">從廣義來說，<quote source="T25n1509_p0066b03-04" type="寬鬆引文">「世間一切微妙善語，皆是佛法」<note n="0324001" resp="謝淑歆" type="add">(1)《大智度論》卷2〈1 序品〉：「一切世間真實善語，微妙好語，皆出佛法中。」(CBETA, T25, no. 1509, p. 66, b3-4)；(2)《成實論》卷1〈6 三善品〉：「一切世間所有善語。皆是佛說」(CBETA, T32, no. 1646, p. 243, c5)</note></quote>，可說一切良善的知識、德
+<lb n="0324a02" ed="Y"/><lb n="0324a02" ed="Y" type="old"/><p xml:id="pY14p0324a0201" style="text-indent:2em">從廣義來說，<quote source="T25n1509_p0066b03-04" type="寬鬆引文">「世間一切微妙善語，皆是佛法」<note n="0324001" resp="謝淑歆" type="add">(1)《大智度論》卷2〈1 序品〉：「一切世間真實善語，微妙好語，皆出佛法中。」(CBETA, T25, no. 1509, p. 66, b3-4)；(2)《成實論》卷1〈6 三善品〉：「一切世間所有善語。皆是佛說」(CBETA, T32, no. 1646, p. 243, c5)</note></quote>，可說一切良善的知識、德
 <lb n="0324a03" ed="Y"/><lb n="0324a03" ed="Y" type="old"/>性、技能，都總攝於佛的教育範圍內。如從佛陀施教的重心來說，最深徹而圓滿
 <lb n="0324a04" ed="Y"/><lb n="0324a04" ed="Y" type="old"/>的佛教，應該是「覺」的教育。佛的意義是覺者，是圓滿徹悟宇宙人生的真意義
 <lb n="0324a05" ed="Y"/><lb n="0324a05" ed="Y" type="old"/>，而到達究極無上者的尊稱。佛的教育，不外乎本著自己圓滿的覺悟內容，適應
 <lb n="0324a06" ed="Y"/><lb n="0324a06" ed="Y" type="old"/>眾生的根機，來教育大家，引導大家來修學，同登正覺成佛的地步。所以佛教是
 <lb n="0324a07" ed="Y"/><lb n="0324a07" ed="Y" type="old"/>先覺覺後覺的覺的教育。如隨俗而用一般的術語來說，那可說佛教是最圓滿的
-<lb n="0324a08" ed="Y"/><lb n="0324a08" ed="Y" type="old"/>完人教育。太虛大師說：<quote type="嚴謹引文">「仰止唯佛陀，<note n="0324a0801" resp="CBETA" type="add">完【CB】，成【印順】</note><app n="0324a0801"><lem wit="【CB】" resp="正聞出版社">完</lem><rdg wit="【印順】">成</rdg></app>就在人格；人成佛即成，是名真現實
-<lb n="0324a09" ed="Y"/><lb n="0324a09" ed="Y" type="old"/>。」<note n="0324002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:32;page:p258">(ref taixu::vol:32;page:p258)</ref></note></quote>成佛就是人格的究竟完成，虛大師是這樣明確的表達了佛教的真意義！</p>
-<lb n="0324a10" ed="Y"/><lb n="0324a10" ed="Y" type="old"/><p style="text-indent:2em">學佛，是向佛學習。佛是我們的最高典範，信解了究竟圓滿的佛德，才能以
+<lb n="0324a08" ed="Y"/><lb n="0324a08" ed="Y" type="old"/>完人教育。太虛大師說：<quote type="嚴謹引文">「仰止唯佛陀，<note n="0324a0801" resp="CBETA" type="add">完【CB】，成【印順】</note><app n="0324a0801"><lem resp="正聞出版社" wit="【CB】">完</lem><rdg wit="【印順】">成</rdg></app>就在人格；人成佛即成，是名真現實
+<lb n="0324a09" ed="Y"/><lb n="0324a09" ed="Y" type="old"/>。」<note n="0324002" resp="謝淑歆" type="add"><ref target="#vol:32;page:p258" type="taixu">(ref taixu::vol:32;page:p258)</ref></note></quote>成佛就是人格的究竟完成，虛大師是這樣明確的表達了佛教的真意義！</p>
+<lb n="0324a10" ed="Y"/><lb n="0324a10" ed="Y" type="old"/><p xml:id="pY14p0324a1001" style="text-indent:2em">學佛，是向佛學習。佛是我們的最高典範，信解了究竟圓滿的佛德，才能以
 <lb n="0324a11" ed="Y"/><lb n="0324a11" ed="Y" type="old"/>佛為師而常隨佛學。說到佛德，古來有<quote source="T19n0945_p0119b18" type="嚴謹引文">「大雄大力大慈悲」<note n="0324003" resp="謝淑歆" type="add">《大佛頂如來密因修證了義諸菩薩萬行首楞嚴經》卷3(CBETA, T19, no. 945, p. 119, b18)</note></quote>、<quote source="T29n1559_p0292c07" type="寬鬆引文">「智德恩德斷德」<note n="0324004" resp="謝淑歆" type="add">《阿毘達磨俱舍釋論》卷20〈7 分別慧品〉：「智德斷德恩德」(CBETA, T29, no. 1559, p. 292, c7)</note></quote>
-<lb n="0324a12" ed="Y"/><lb n="0324a12" ed="Y" type="old"/>等種種說明。太虛大師總攝為<quote type="嚴謹引文">「大悲大智大雄力」<note n="0324005" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:32;page:p258">(ref taixu::vol:32;page:p258)</ref></note></quote>，極為精確！分別的來說：一
+<lb n="0324a12" ed="Y"/><lb n="0324a12" ed="Y" type="old"/>等種種說明。太虛大師總攝為<quote type="嚴謹引文">「大悲大智大雄力」<note n="0324005" resp="謝淑歆" type="add"><ref target="#vol:32;page:p258" type="taixu">(ref taixu::vol:32;page:p258)</ref></note></quote>，極為精確！分別的來說：一
 <lb n="0324a13" ed="Y"/><lb n="0324a13" ed="Y" type="old"/>、「大智慧」：佛的智慧（大覺），圓滿通達<quote type="嚴謹引文">「如所有性」</quote>（不二的平等空性）<pb n="0325a" ed="Y" xml:id="Y14.0014.0325a.old" type="old"/>
 <pb n="0325a" ed="Y" xml:id="Y14.0014.0325a"/>
 <lb n="0325a01" ed="Y"/><lb n="0325a01" ed="Y" type="old"/>、<quote type="嚴謹引文">「盡所有性」</quote>（無限的緣起事相），是窮理盡事的大智。在佛的大智中，含得
@@ -100,7 +120,7 @@
 <lb n="0326a05" ed="Y"/>悲是最圓正的道德，大雄力是最偉大的能力；也可說這是究竟圓滿的知識、<lb n="0326a06" ed="Y" type="old"/>感
 <lb n="0326a06" ed="Y"/>情與意志。當然，在佛的功德中，這是即三即一而無礙的。不過從這三方面去<lb n="0326a07" ed="Y" type="old"/>說
 <lb n="0326a07" ed="Y"/>明，容易正確了解佛德的全貌。</p>
-<lb n="0326a08" ed="Y"/><lb n="0326a08" ed="Y" type="old"/><p style="text-indent:2em">我不止說過一次了，學佛就是向這樣的圓滿佛德去修學。學習佛的三德，就
+<lb n="0326a08" ed="Y"/><lb n="0326a08" ed="Y" type="old"/><p xml:id="pY14p0326a0801" style="text-indent:2em">我不止說過一次了，學佛就是向這樣的圓滿佛德去修學。學習佛的三德，就
 <lb n="0326a09" ed="Y"/><lb n="0326a09" ed="Y" type="old"/>是大乘學要的三金剛句——信願，慈悲，智慧。而這三者，又實在就是依據人性
 <lb n="0326a10" ed="Y"/><lb n="0326a10" ed="Y" type="old"/>本有的三種特勝——<quote type="嚴謹引文">「憶念勝」</quote>、<quote type="嚴謹引文">「梵行勝」</quote>、<quote type="嚴謹引文">「堅忍勝」</quote>，而使之淨化、進化<lb n="0326a11" ed="Y" type="old"/>。
 <lb n="0326a11" ed="Y"/>這不妨再為略說：一、人性是有憶念的特勝（這是最主要的，在梵語中，「人<lb n="0326a12" ed="Y" type="old"/>」
@@ -123,13 +143,13 @@
 <pb n="0328a" ed="Y" xml:id="Y14.0014.0328a"/>
 <lb n="0328a01" ed="Y"/>大學》</title><pb n="0328a" ed="Y" xml:id="Y14.0014.0328a.old" type="old"/><lb n="0328a01" ed="Y" type="old"/>的三綱。但次第升進、淨化覺化的全部學程，唯有在佛法中，才有明確精
 <lb n="0328a02" ed="Y"/>嚴的說<lb n="0328a02" ed="Y" type="old"/>明。</p>
-<lb n="0328a03" ed="Y"/><lb n="0328a03" ed="Y" type="old"/><p style="text-indent:2em">這種覺化的完人教育，自覺覺他，就是教育自己又教育別人。自教與教人
+<lb n="0328a03" ed="Y"/><lb n="0328a03" ed="Y" type="old"/><p xml:id="pY14p0328a0301" style="text-indent:2em">這種覺化的完人教育，自覺覺他，就是教育自己又教育別人。自教與教人
 <lb n="0328a04" ed="Y"/><lb n="0328a04" ed="Y" type="old"/>，都不是空虛的知識傳授，而是著重於自覺的、實踐的。教育或者說學習，如作
 <lb n="0328a05" ed="Y"/><lb n="0328a05" ed="Y" type="old"/>為無關於自己身心的淨化，而僅是學一些知識或者技能來維持生活，滿足物欲
 <lb n="0328a06" ed="Y"/><lb n="0328a06" ed="Y" type="old"/>的享受，那實在是不成其為教育的。這點，佛教與儒家，都是同一看法。佛教的
 <lb n="0328a07" ed="Y"/><lb n="0328a07" ed="Y" type="old"/>第一義，是覺悟人生的真意義，使自己從隨波逐浪的迷妄中覺醒過來。唯有自覺
 <lb n="0328a08" ed="Y"/><lb n="0328a08" ed="Y" type="old"/>，才會源泉渾渾，流露無盡的悲願，勇於向上的精進。</p>
-<lb n="0328a09" ed="Y"/><lb n="0328a09" ed="Y" type="old"/><p style="text-indent:2em">以自覺為重心的佛教，又是實踐的。如教育而離開了實踐，就與佛教的精神
+<lb n="0328a09" ed="Y"/><lb n="0328a09" ed="Y" type="old"/><p xml:id="pY14p0328a0901" style="text-indent:2em">以自覺為重心的佛教，又是實踐的。如教育而離開了實踐，就與佛教的精神
 <lb n="0328a10" ed="Y"/><lb n="0328a10" ed="Y" type="old"/>不合。所以「義學」（教理的研究、著述）雖是佛教的一大科，但偏重義學或專
 <lb n="0328a11" ed="Y"/><lb n="0328a11" ed="Y" type="old"/>作學問的研究，在佛教中是不能受到特別尊重的。拿知與行來說吧，佛教是從實
 <lb n="0328a12" ed="Y"/><lb n="0328a12" ed="Y" type="old"/>踐的立場，來確定知的地位。如修行的八聖道，首先是屬知的正見與正思惟，這
@@ -140,7 +160,7 @@
 <lb n="0329a03" ed="Y"/><lb n="0329a03" ed="Y" type="old"/>這樣的學程中，達到徹底的正知與如實的修行。如佛被稱為「明行足」，即是
 <lb n="0329a04" ed="Y"/><lb n="0329a04" ed="Y" type="old"/>到達了知與行的究竟圓滿。佛的教育，以實踐為本，而實踐又必然是以知為先要
 <lb n="0329a05" ed="Y"/><lb n="0329a05" ed="Y" type="old"/>的。佛弟子應站穩這一立場，去求得世出世間的智慧。</p>
-<lb n="0329a06" ed="Y"/><lb n="0329a06" ed="Y" type="old"/><p style="text-indent:2em">雖然說佛教重於實踐，不僅是空虛的知識傳授，但在佛學的教化傳習方面<lb n="0329a07" ed="Y" type="old"/>，
+<lb n="0329a06" ed="Y"/><lb n="0329a06" ed="Y" type="old"/><p xml:id="pY14p0329a0601" style="text-indent:2em">雖然說佛教重於實踐，不僅是空虛的知識傳授，但在佛學的教化傳習方面<lb n="0329a07" ed="Y" type="old"/>，
 <lb n="0329a07" ed="Y"/>還是不離語言文字的，因為這是師資授受的主要工具。不離語文的學問，從前<lb n="0329a08" ed="Y" type="old"/>彌
 <lb n="0329a08" ed="Y"/>勒菩薩曾總括應該修學的，說<quote source="T30n1579_p0500c20-24" type="寬鬆引文">「菩薩求法，應於五明處求」<note n="0329001" resp="謝淑歆" type="add">《瑜伽師地論》卷38〈8力種姓品〉：「如是一切明處所攝有五明處。一內明處。二因明處。三聲明處。四醫方明處。五工業明處。菩薩於此五種明處若正勤求。則名勤求一切明處。」(CBETA, T30, no. 1579, p. 500, c20-24)</note></quote>。五明，就是大<lb n="0329a09" ed="Y" type="old"/>乘佛
 <lb n="0329a09" ed="Y"/>弟子應該修學的五類學術。五明是：一、聲明：是語言文字學，包括有語言<lb n="0329a10" ed="Y" type="old"/>、訓
@@ -165,7 +185,7 @@
 <pb n="0331a" ed="Y" xml:id="Y14.0014.0331a"/>
 <lb n="0331a01" ed="Y"/>，即世間而出世，世與出世無礙，聲明、因明等，是共世間的出世學，真俗<lb n="0331a02" ed="Y" type="old"/>融通
 <lb n="0331a02" ed="Y"/>，為佛教教育的一科。</p>
-<lb n="0331a03" ed="Y"/><lb n="0331a03" ed="Y" type="old"/><p style="text-indent:2em">佛教的重心，是覺化的完人教育；方法，是實踐教育；傳習的科目，是五明；這
+<lb n="0331a03" ed="Y"/><lb n="0331a03" ed="Y" type="old"/><p xml:id="pY14p0331a0301" style="text-indent:2em">佛教的重心，是覺化的完人教育；方法，是實踐教育；傳習的科目，是五明；這
 <lb n="0331a04" ed="Y"/><lb n="0331a04" ed="Y" type="old"/>都已在上面概略的說到。現在，再從從事教育事業來說：佛教的說法、開示以及
 <lb n="0331a05" ed="Y"/><lb n="0331a05" ed="Y" type="old"/>著作，或者佛教的文藝、音樂，經典的蒐藏、流通、翻譯，這都是教育文化的活
 <lb n="0331a06" ed="Y"/><lb n="0331a06" ed="Y" type="old"/>動。但作為佛教的教育活動，是不應該局限於此的。在經中，佛陀不斷的讚歎「
@@ -178,7 +198,7 @@
 <lb n="0331a13" ed="Y"/><lb n="0331a13" ed="Y" type="old"/>乘的基礎。所以，從事這一般的教育事業，不應看作適應時代、附屬於佛教的，<pb n="0332a" ed="Y" xml:id="Y14.0014.0332a.old" type="old"/>
 <pb n="0332a" ed="Y" xml:id="Y14.0014.0332a"/>
 <lb n="0332a01" ed="Y"/><lb n="0332a01" ed="Y" type="old"/>而應作為佛教自身的重要內容而努力！</p>
-<lb n="0332a02" ed="Y"/><lb n="0332a02" ed="Y" type="old"/><p style="text-indent:2em">佛稱這些為「法施」，是最有意義！因為布施是有功德的，努力於世出世法
+<lb n="0332a02" ed="Y"/><lb n="0332a02" ed="Y" type="old"/><p xml:id="pY14p0332a0201" style="text-indent:2em">佛稱這些為「法施」，是最有意義！因為布施是有功德的，努力於世出世法
 <lb n="0332a03" ed="Y"/><lb n="0332a03" ed="Y" type="old"/>的教化，無論是個人或教團，都是有功德的。但真正的如法布施，是出於與人同
 <lb n="0332a04" ed="Y"/><lb n="0332a04" ed="Y" type="old"/>樂、為人拔苦的同情，這是無條件的施與，而不是為了果報，或者為了現生的功
 <lb n="0332a05" ed="Y"/><lb n="0332a05" ed="Y" type="old"/>利。所以從事世出世法的教育，不但不應為自身的名聞利養著想，也不應為教團

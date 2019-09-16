@@ -12,71 +12,91 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>20卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 22, No. 22</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">22</idno>.<idno type="no">22</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛教史地考論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB00145">
-	<charName>CBETA CHARACTER CB00145</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[少/兔]</value>
-	</charProp>
-	<mapping type="unicode">U+3779</mapping>
-	<mapping cb:dec="983185" type="PUA">U+F0091</mapping>
-</char>
-<char xml:id="CB01368">
-	<charName>CBETA CHARACTER CB01368</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[飢-几+夌]</value>
-	</charProp>
-	<mapping type="unicode">U+29701</mapping>
-	<mapping cb:dec="984408" type="PUA">U+F0558</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00145">
+				<charName>CBETA CHARACTER CB00145</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[少/兔]</value>
+				</charProp>
+				<mapping type="unicode">U+3779</mapping>
+				<mapping cb:dec="983185" type="PUA">U+F0091</mapping>
+			</char>
+			<char xml:id="CB01368">
+				<charName>CBETA CHARACTER CB01368</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[飢-几+夌]</value>
+				</charProp>
+				<mapping type="unicode">U+29701</mapping>
+				<mapping cb:dec="984408" type="PUA">U+F0558</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">二、印度佛教流變概觀——《印度之佛教》第一章</cb:mulu>
-<milestone unit="juan" n="3"/><pb n="0107a" ed="Y" xml:id="Y22.0022.0107a.old" type="old"/>
+<milestone n="3" unit="juan"/><pb n="0107a" ed="Y" xml:id="Y22.0022.0107a.old" type="old"/>
 <pb n="0105a" ed="Y" xml:id="Y22.0022.0105a"/>
 <lb n="0105a01" ed="Y"/><lb n="0107a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">三、佛滅紀年抉擇談</cb:mulu><head>佛滅紀年抉擇談<note n="0105001" resp="DILA" type="add">民國三九年撰。</note></head>
 <lb n="0105a02" ed="Y"/><lb n="0107a02" ed="Y" type="old"/><byline rend="bold">——民國三十九年冬寫於香港佛聯會——</byline>
 <lb n="0105a03" ed="Y"/><lb n="0107a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　緒言</cb:mulu><head>一　緒言</head>
-<lb n="0105a04" ed="Y"/><lb n="0107a04" ed="Y" type="old"/><p style="text-indent:2em">印度文化不重視歷史，缺乏明確紀年的史書。佛教創立發展於這樣的環境中
+<lb n="0105a04" ed="Y"/><lb n="0107a04" ed="Y" type="old"/><p xml:id="pY22p0105a0401" style="text-indent:2em">印度文化不重視歷史，缺乏明確紀年的史書。佛教創立發展於這樣的環境中
 <lb n="0105a05" ed="Y"/><lb n="0107a05" ed="Y" type="old"/>，自然也不會有明確的佛曆。過去，中國佛教界，純憑傳說與信仰，寫下佛滅多
 <lb n="0105a06" ed="Y"/><lb n="0107a06" ed="Y" type="old"/>少年的史書；到現在，一切得從頭寫過了。西藏、錫蘭、緬甸等佛教國的佛元傳
 <lb n="0105a07" ed="Y"/><lb n="0107a07" ed="Y" type="old"/>說，近代學者考定的佛元說，加上中國舊有的傳說，到底那一種是正確的？近代
@@ -84,19 +104,19 @@
 <lb n="0105a09" ed="Y"/><lb n="0107a09" ed="Y" type="old"/>佛滅多少年而阿育王（<foreign xml:lang="sa">Azoka</foreign>）出世的傳說。阿育王灌頂的年代，經學者的研究
 <lb n="0105a10" ed="Y"/><lb n="0107a10" ed="Y" type="old"/>，已大致確定。那麼，在阿育王灌頂的年代上，再加佛滅以來多少年，即可得出<pb n="0108a" ed="Y" xml:id="Y22.0022.0108a.old" type="old"/>
 <pb n="0106a" ed="Y" xml:id="Y22.0022.0106a"/>
-<lb n="0106a01" ed="Y"/><lb n="0108a01" ed="Y" type="old"/>明確的佛元了。錫蘭（<foreign xml:lang="pi"><note n="0106a0101" resp="CBETA" type="add">Siṃhala【CB】，Siṅhala【印順】</note><app n="0106a0101"><lem wit="【CB】" resp="正聞出版社">Siṃhala</lem><rdg wit="【印順】">Siṅhala</rdg></app></foreign>）所傳的<title level="m">《善見律》</title>，有<quote source="T24n1462_p0679c12-13" type="嚴謹引文">「阿育王自拜為王；從<lb n="0108a02" ed="Y" type="old"/>此
+<lb n="0106a01" ed="Y"/><lb n="0108a01" ed="Y" type="old"/>明確的佛元了。錫蘭（<foreign xml:lang="pi"><note n="0106a0101" resp="CBETA" type="add">Siṃhala【CB】，Siṅhala【印順】</note><app n="0106a0101"><lem resp="正聞出版社" wit="【CB】">Siṃhala</lem><rdg wit="【印順】">Siṅhala</rdg></app></foreign>）所傳的<title level="m">《善見律》</title>，有<quote source="T24n1462_p0679c12-13" type="嚴謹引文">「阿育王自拜為王；從<lb n="0108a02" ed="Y" type="old"/>此
 <lb n="0106a02" ed="Y"/>，佛涅槃已二百十八年」<note n="0106001" resp="周怡曄" type="add">《善見律毘婆沙》卷1〈3 阿育王品〉：「阿育王自拜為王，從此佛涅槃已[32]一百一十八年。」(CBETA, T24, no. 1462, p. 679, c12-13)[32]一＝二【宋】【元】【明】【宮】【聖】</note></quote>的傳說，得到一般學者的信用。然在中國所譯的，有<lb n="0108a03" ed="Y" type="old"/>罽
-<lb n="0106a03" ed="Y"/>賓（<foreign xml:lang="sa"><note n="0106a0301" resp="CBETA" type="add">Kaśpira【CB】，Kaspīra【印順】</note><app n="0106a0301"><lem wit="【CB】" resp="正聞出版社">Kaśpira</lem><rdg wit="【印順】">Kaspīra</rdg></app></foreign>）所傳的<title level="m">《阿育王傳》</title>等，別有不同的傳說，如說：</p>
-<lb n="0106a04" ed="Y"/><lb n="0108a04" ed="Y" type="old"/><p style="margin-left:3em"><cit><quote source="T50n2042_p0101c22-23" type="嚴謹引文">「佛滅百年後，王華氏城，號阿恕伽。」</quote><bibl>（<title level="m">《阿育王傳》</title><biblScope type="卷" n="1">卷一</biblScope>）</bibl><note n="0106002" resp="周怡曄" type="add">《阿育王傳》卷1(CBETA, T50, no. 2042, p. 101, c22-23)</note></cit></p>
-<lb n="0106a05" ed="Y"/><lb n="0108a05" ed="Y" type="old"/><p style="margin-left:3em"><cit><quote type="嚴謹引文">「佛滅度後百一十六年，城名巴連弗，時阿育王王閻浮提。」</quote><bibl>（<title level="m">《十八部
+<lb n="0106a03" ed="Y"/>賓（<foreign xml:lang="sa"><note n="0106a0301" resp="CBETA" type="add">Kaśpira【CB】，Kaspīra【印順】</note><app n="0106a0301"><lem resp="正聞出版社" wit="【CB】">Kaśpira</lem><rdg wit="【印順】">Kaspīra</rdg></app></foreign>）所傳的<title level="m">《阿育王傳》</title>等，別有不同的傳說，如說：</p>
+<lb n="0106a04" ed="Y"/><lb n="0108a04" ed="Y" type="old"/><p xml:id="pY22p0106a0401" style="margin-left:3em"><cit><quote source="T50n2042_p0101c22-23" type="嚴謹引文">「佛滅百年後，王華氏城，號阿恕伽。」</quote><bibl>（<title level="m">《阿育王傳》</title><biblScope n="1" type="卷">卷一</biblScope>）</bibl><note n="0106002" resp="周怡曄" type="add">《阿育王傳》卷1(CBETA, T50, no. 2042, p. 101, c22-23)</note></cit></p>
+<lb n="0106a05" ed="Y"/><lb n="0108a05" ed="Y" type="old"/><p xml:id="pY22p0106a0501" style="margin-left:3em"><cit><quote type="嚴謹引文">「佛滅度後百一十六年，城名巴連弗，時阿育王王閻浮提。」</quote><bibl>（<title level="m">《十八部
 <lb n="0106a06" ed="Y"/>論》</title>）</bibl><note n="0106003" resp="厚觀法師" type="add">《十八部論》卷1〈15 分別部品〉(CBETA, T49, no. 2032, p. 18, a9-10)</note></cit></p>
-<lb n="0106a07" ed="Y"/><lb n="0108a06" ed="Y" type="old"/><p style="text-indent:2em">日本小野玄妙的<title level="m">《佛教年代考》</title>，宇井伯壽的<title level="m">《佛滅年代論》</title>，我的<title level="m">《印度
+<lb n="0106a07" ed="Y"/><lb n="0108a06" ed="Y" type="old"/><p xml:id="pY22p0106a0701" style="text-indent:2em">日本小野玄妙的<title level="m">《佛教年代考》</title>，宇井伯壽的<title level="m">《佛滅年代論》</title>，我的<title level="m">《印度
 <lb n="0106a08" ed="Y"/><lb n="0108a07" ed="Y" type="old"/>之佛教》</title>，都依這百十六年的傳說。對於這一問題，近來作深一層的思考，從錫
 <lb n="0106a09" ed="Y"/><lb n="0108a08" ed="Y" type="old"/>蘭與罽賓共同的傳說去研究，覺得從佛滅到阿育王登位，百餘年說與二百餘年說
 <lb n="0106a10" ed="Y"/><lb n="0108a09" ed="Y" type="old"/>，同為一古老的傳說；而罽賓所傳的百餘年說，更為合理。所以不嫌煩瑣的，以
 <lb n="0106a11" ed="Y"/><lb n="0108a10" ed="Y" type="old"/><title level="m">《阿育王傳》</title>為研究對象，以優波毱多（<foreign xml:lang="sa">Upagupta</foreign>）與阿育王同時為論題核心<lb n="0108a11" ed="Y" type="old"/>，
 <lb n="0106a12" ed="Y"/>從解說與考論中，推定佛滅百餘年而阿育王登位的結論。</p>
-<lb n="0106a13" ed="Y"/><lb n="0108a12" ed="Y" type="old"/><p style="text-indent:2em">在研究的過程中，應該深切注意的是：我們所處理的問題，是古代的；所處
+<lb n="0106a13" ed="Y"/><lb n="0108a12" ed="Y" type="old"/><p xml:id="pY22p0106a1301" style="text-indent:2em">在研究的過程中，應該深切注意的是：我們所處理的問題，是古代的；所處
 <pb n="0107a" ed="Y" xml:id="Y22.0022.0107a"/>
 <lb n="0107a01" ed="Y"/><lb n="0108a13" ed="Y" type="old"/>理的材料，是傳說的，不是嚴正的史書。這種傳說，佛典中名為譬喻（<foreign xml:lang="sa">Avadāna</foreign>
 <lb n="0107a02" ed="Y"/>）<pb n="0109a" ed="Y" xml:id="Y22.0022.0109a.old" type="old"/><lb n="0109a01" ed="Y" type="old"/>，是說教時所引用的事證。為了達到感動聽眾的目的，所以或透過神話的形式
@@ -104,9 +124,9 @@
 <lb n="0107a04" ed="Y"/><lb n="0109a03" ed="Y" type="old"/>而不被這種形式所拘蔽。所怕的，還是那些照著自己意思、滿足自己需要而編寫
 <lb n="0107a05" ed="Y"/><lb n="0109a04" ed="Y" type="old"/>的歷史，看來翔實可信，而實際是謬說。依我而論，對於佛教傳說的信心，過於
 <lb n="0107a06" ed="Y"/><lb n="0109a05" ed="Y" type="old"/>那些杜撰的歷史。</p>
-<lb n="0107a07" ed="Y"/><lb n="0109a06" ed="Y" type="old"/><p style="text-indent:2em">優波毱多與阿育王同時，為本論的重要關鍵。優波毱多，或音譯為優波崛、
+<lb n="0107a07" ed="Y"/><lb n="0109a06" ed="Y" type="old"/><p xml:id="pY22p0107a0701" style="text-indent:2em">優波毱多與阿育王同時，為本論的重要關鍵。優波毱多，或音譯為優波崛、
 <lb n="0107a08" ed="Y"/><lb n="0109a07" ed="Y" type="old"/>優波崛多、優婆毱多、優波笈多、鄔波毱多，玄奘義譯為近護。摩偷羅（<foreign xml:lang="sa">Mathurā</foreign>
-<lb n="0107a09" ed="Y"/>）<lb n="0109a08" ed="Y" type="old"/>香商毱多（<foreign xml:lang="sa">Gupta</foreign>）的第三子，商那和修（<foreign xml:lang="sa"><note n="0107a0901" resp="CBETA" type="add">Śāṇa-vāsin【CB】，Sāṇavāsī【印順】</note><app n="0107a0901"><lem wit="【CB】" resp="正聞出版社">Śāṇa-vāsin</lem><rdg wit="【印順】">Sāṇavāsī</rdg></app></foreign>）的弟子，在初期佛教<lb n="0109a09" ed="Y" type="old"/>中
+<lb n="0107a09" ed="Y"/>）<lb n="0109a08" ed="Y" type="old"/>香商毱多（<foreign xml:lang="sa">Gupta</foreign>）的第三子，商那和修（<foreign xml:lang="sa"><note n="0107a0901" resp="CBETA" type="add">Śāṇa-vāsin【CB】，Sāṇavāsī【印順】</note><app n="0107a0901"><lem resp="正聞出版社" wit="【CB】">Śāṇa-vāsin</lem><rdg wit="【印順】">Sāṇavāsī</rdg></app></foreign>）的弟子，在初期佛教<lb n="0109a09" ed="Y" type="old"/>中
 <lb n="0107a10" ed="Y"/>，是重要的大師。他是禪者，是論師，是偉大的布教者。如拙作<title level="m">《說一切有部<lb n="0109a10" ed="Y" type="old"/>為
 <lb n="0107a11" ed="Y"/>主的論書與論師之研究》</title>（<ref target="#vol:36;page:p99" type="yinshun">九九</ref>——一〇六頁）：禪師、論師、優越的教化師。
 <lb n="0107a12" ed="Y"/><lb n="0109a11" ed="Y" type="old"/>說一切有部中的瑜伽者、阿毘達磨者、經師譬喻者，在尊者可說是總而有之；有
@@ -117,23 +137,23 @@
 <lb n="0108a03" ed="Y"/>耶雜事》</title>、銅鍱部<lb n="0110a02" ed="Y" type="old"/><title level="m">《善見律》</title>等的紊亂，這需要審慎的研究，將歷史的內容，從
 <lb n="0108a04" ed="Y"/>傳說中掘發出來！</p></cb:div>
 <lb n="0108a05" ed="Y"/><lb n="0110a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　阿育王傳的內容</cb:mulu><head>二　阿育王傳的內容</head>
-<lb n="0108a06" ed="Y"/><lb n="0110a04" ed="Y" type="old"/><cb:mulu level="3" type="其他">一　本傳的組織概說</cb:mulu><head>一　本傳的組織概說</head><p style="text-indent:2em"><title level="m">《阿育王傳》</title>，西晉惠帝時（二九〇——三〇六）的
+<lb n="0108a06" ed="Y"/><lb n="0110a04" ed="Y" type="old"/><cb:mulu level="3" type="其他">一　本傳的組織概說</cb:mulu><head>一　本傳的組織概說</head><p xml:id="pY22p0108a0617" style="text-indent:2em"><title level="m">《阿育王傳》</title>，西晉惠帝時（二九〇——三〇六）的
 <lb n="0108a07" ed="Y"/><lb n="0110a05" ed="Y" type="old"/>安法欽譯，凡五卷（或分七卷），十一品。異譯現存二本：一、劉宋元嘉中（四
 <lb n="0108a08" ed="Y"/><lb n="0110a06" ed="Y" type="old"/>三五——四五三）求那跋陀羅（<foreign xml:lang="sa">Guṇabhadra</foreign>）譯，名<title level="m">《無憂王經》</title>。<title level="m">《出三藏記
 <lb n="0108a09" ed="Y"/>集》</title><lb n="0110a07" ed="Y" type="old"/>作一卷，缺本。其實，被誤編於<title level="m">《雜阿含經》</title>中，即二三、二五——兩卷，
-<lb n="0108a10" ed="Y"/>不分<lb n="0110a08" ed="Y" type="old"/>品。二、梁天監中（五〇六——五一八），僧伽婆羅（<foreign xml:lang="sa"><note n="0108a1001" resp="CBETA" type="add">Saṃghavarman【CB】，Saṃghabhala【印順】</note><app n="0108a1001"><lem wit="【CB】" resp="正聞出版社">Saṃghavarman</lem><rdg wit="【印順】">Saṃghabhala</rdg></app></foreign>）譯，
+<lb n="0108a10" ed="Y"/>不分<lb n="0110a08" ed="Y" type="old"/>品。二、梁天監中（五〇六——五一八），僧伽婆羅（<foreign xml:lang="sa"><note n="0108a1001" resp="CBETA" type="add">Saṃghavarman【CB】，Saṃghabhala【印順】</note><app n="0108a1001"><lem resp="正聞出版社" wit="【CB】">Saṃghavarman</lem><rdg wit="【印順】">Saṃghabhala</rdg></app></foreign>）譯，
 <lb n="0108a11" ed="Y"/>名<lb n="0110a09" ed="Y" type="old"/><title level="m">《阿育王經》</title>，凡一〇卷，八品。此外，有<title level="m">《大阿育王經》</title>，已經佚失。現存
-<lb n="0108a12" ed="Y"/>梵<lb n="0110a10" ed="Y" type="old"/>文 <foreign xml:lang="sa"><note n="0108a1201" resp="CBETA" type="add">divyâvadāna【CB】，Divyāvadāna【印順】</note><app n="0108a1201"><lem wit="【CB】" resp="正聞出版社">divyâvadāna</lem><rdg wit="【印順】">Divyāvadāna</rdg></app></foreign> 第二六到二九章，與此相合。依西藏<title level="m">多氏《印度佛教史》</title>說
+<lb n="0108a12" ed="Y"/>梵<lb n="0110a10" ed="Y" type="old"/>文 <foreign xml:lang="sa"><note n="0108a1201" resp="CBETA" type="add">divyâvadāna【CB】，Divyāvadāna【印順】</note><app n="0108a1201"><lem resp="正聞出版社" wit="【CB】">divyâvadāna</lem><rdg wit="【印順】">Divyāvadāna</rdg></app></foreign> 第二六到二九章，與此相合。依西藏<title level="m">多氏《印度佛教史》</title>說
 <pb n="0109a" ed="Y" xml:id="Y22.0022.0109a"/>
 <lb n="0109a01" ed="Y"/>：<lb n="0110a11" ed="Y" type="old"/>殑世彌陀羅跋陀羅（<foreign xml:lang="sa">Kṣemendrabhadra</foreign>）所編的<title level="m">《付法傳》</title>，關於阿育王部分
 <lb n="0109a02" ed="Y"/>，<lb n="0110a12" ed="Y" type="old"/>依據七種譬喻——「阿育王譬喻」，「阿育王教化譬喻」，「阿育王龍調伏譬喻<pb n="0111a" ed="Y" xml:id="Y22.0022.0111a.old" type="old"/>
 <lb n="0109a03" ed="Y"/><lb n="0111a01" ed="Y" type="old"/>」，「法塔譬喻」，「法會譬喻」，「黃金獻供譬喻」，「鳩那羅（<foreign xml:lang="sa">Kuṇāla</foreign>）王<lb n="0111a02" ed="Y" type="old"/>子
 <lb n="0109a04" ed="Y"/>譬喻」。關於付法部分，從阿難（<foreign xml:lang="x-sa-pi">Ananda</foreign>）到善見（<foreign xml:lang="sa">Sudarzana</foreign>），都有譬喻<lb n="0111a03" ed="Y" type="old"/>。</p>
-<lb n="0109a05" ed="Y"/><lb n="0111a04" ed="Y" type="old"/><p style="text-indent:2em">比對漢譯的三種譯本，彼此有增減處。<title level="m">《阿育王傳》</title>在印度，是有不同誦本
+<lb n="0109a05" ed="Y"/><lb n="0111a04" ed="Y" type="old"/><p xml:id="pY22p0109a0501" style="text-indent:2em">比對漢譯的三種譯本，彼此有增減處。<title level="m">《阿育王傳》</title>在印度，是有不同誦本
 <lb n="0109a06" ed="Y"/><lb n="0111a05" ed="Y" type="old"/>的。宋譯最簡：阿育王部分，沒有王弟與王子因緣；付法傳承部分，但略說授優
 <lb n="0109a07" ed="Y"/><lb n="0111a06" ed="Y" type="old"/>波毱多記與法滅的故事。晉譯與梁譯，大體相同；但梁譯缺法滅的故事，晉譯<lb n="0111a07" ed="Y" type="old"/>又
 <lb n="0109a08" ed="Y"/>獨多<title level="a">〈阿育王現報因緣〉</title>。今綜合的對列如下：</p>
-<lb n="0109a09" ed="Y"/><lb n="0111a08" ed="Y" type="old"/><p cb:type="pre">　　　〔晉譯〕　　　　　　　　〔梁譯〕　　　　　　　　　　　〔宋譯〕
+<lb n="0109a09" ed="Y"/><lb n="0111a08" ed="Y" type="old"/><p cb:type="pre" xml:id="pY22p0109a0901">　　　〔晉譯〕　　　　　　　　〔梁譯〕　　　　　　　　　　　〔宋譯〕
 <lb n="0109a10" ed="Y"/>　　　本施土緣───────┬生因緣───────────────一
 <lb n="0109a11" ed="Y"/>　　　阿育王本緣傳─────┤
 <lb n="0109a12" ed="Y"/>　　　　登位至造塔─────┘
@@ -155,42 +175,42 @@
 <pb n="0111a" ed="Y" xml:id="Y22.0022.0111a"/>
 <lb n="0111a01" ed="Y"/>　　　　法滅因緣─────────────────────────五
 <lb n="0111a02" ed="Y"/>　　　阿育王現報因緣</p>
-<lb n="0111a03" ed="Y"/><pb n="0113a" ed="Y" xml:id="Y22.0022.0113a.old" type="old"/><lb n="0113a02" ed="Y" type="old"/><p style="text-indent:2em">比對本傳的三譯不同，可論斷為：晉譯的<title level="m">《阿育王傳》</title>，除<title level="a">〈阿育王現報因
+<lb n="0111a03" ed="Y"/><pb n="0113a" ed="Y" xml:id="Y22.0022.0113a.old" type="old"/><lb n="0113a02" ed="Y" type="old"/><p xml:id="pY22p0111a0301" style="text-indent:2em">比對本傳的三譯不同，可論斷為：晉譯的<title level="m">《阿育王傳》</title>，除<title level="a">〈阿育王現報因
 <lb n="0111a04" ed="Y"/>緣品<lb n="0113a03" ed="Y" type="old"/>〉</title>，其他的內容與結構，都是本傳的原有部分。梁譯沒有滅法故事，然「未
 <lb n="0111a05" ed="Y"/>來三<lb n="0113a04" ed="Y" type="old"/>賊國王」的傳說，見於<title level="a">〈佛記優波笈多因緣〉</title>。宋譯沒有諸師相承部分，然
 <lb n="0111a06" ed="Y"/>佛記優波<lb n="0113a05" ed="Y" type="old"/>掘多，即諸師相承的發端，也已存在。沒有王子王弟因緣，然育王不傳
 <lb n="0111a07" ed="Y"/>位王子，<lb n="0113a06" ed="Y" type="old"/>傳位於王孫，與晉譯、梁譯都相合。大概的說：宋譯以育王護法事業為
 <lb n="0111a08" ed="Y"/>重心，所<lb n="0113a07" ed="Y" type="old"/>以有所節略。</p>
-<lb n="0111a09" ed="Y"/><lb n="0113a08" ed="Y" type="old"/><p style="text-indent:2em">晉譯的<title level="a">〈阿育王現報因緣品〉</title>，是宋、梁二譯所沒有的。這實在是另一種「
+<lb n="0111a09" ed="Y"/><lb n="0113a08" ed="Y" type="old"/><p xml:id="pY22p0111a0901" style="text-indent:2em">晉譯的<title level="a">〈阿育王現報因緣品〉</title>，是宋、梁二譯所沒有的。這實在是另一種「
 <lb n="0111a10" ed="Y"/><lb n="0113a09" ed="Y" type="old"/>阿育王譬喻集」，安法欽譯出而附編於本傳的。這不但因為宋、梁二譯沒有，更
 <lb n="0111a11" ed="Y"/><lb n="0113a10" ed="Y" type="old"/>由於內容與本傳不一致，如「龍王譬喻」、「請賓頭盧譬喻」。這雖非本傳固有的
 <lb n="0111a12" ed="Y"/>內容，<lb n="0113a11" ed="Y" type="old"/>然傳說也還是極早的，西元前後已存在了。</p>
-<lb n="0111a13" ed="Y"/><lb n="0113a12" ed="Y" type="old"/><cb:mulu level="3" type="其他">二　本傳對於後代的影響</cb:mulu><head>二　本傳對於後代的影響</head><p style="text-indent:2em">以阿育王、優波毱多為中心而編纂的本傳，成為
+<lb n="0111a13" ed="Y"/><lb n="0113a12" ed="Y" type="old"/><cb:mulu level="3" type="其他">二　本傳對於後代的影響</cb:mulu><head>二　本傳對於後代的影響</head><p xml:id="pY22p0111a1321" style="text-indent:2em">以阿育王、優波毱多為中心而編纂的本傳，成為
 <pb n="0112a" ed="Y" xml:id="Y22.0022.0112a"/>
 <lb n="0112a01" ed="Y"/><lb n="0113a13" ed="Y" type="old"/>大陸佛教公認的史實。阿育王與優波毱多，出於佛滅百餘年，也是眾所共知的傳<pb n="0114a" ed="Y" xml:id="Y22.0022.0114a.old" type="old"/>
 <lb n="0112a02" ed="Y"/><lb n="0114a01" ed="Y" type="old"/>說。本傳的影響，非常廣大，今舉一切有部的<title level="m">《大毘婆沙論》</title>、大眾末系的<title level="m">《分
 <lb n="0112a03" ed="Y"/><lb n="0114a02" ed="Y" type="old"/>別功德論》</title>、譬喻者馬鳴（<foreign xml:lang="sa">Aśvaghoṣa</foreign>）的<title level="m">《大莊嚴經論》</title>、大乘中觀者龍樹<lb n="0114a03" ed="Y" type="old"/>（
 <lb n="0112a04" ed="Y"/><foreign xml:lang="sa">Nāgārjuna</foreign>）的<title level="m">《大智度論》</title>，以見影響的一斑。</p>
-<lb n="0112a05" ed="Y"/><lb n="0114a04" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《大毘婆沙論》</title>，編纂於西元二世紀中。所敘因緣與本傳一致的，有補沙友
+<lb n="0112a05" ed="Y"/><lb n="0114a04" ed="Y" type="old"/><p xml:id="pY22p0112a0501" style="text-indent:2em"><title level="m">《大毘婆沙論》</title>，編纂於西元二世紀中。所敘因緣與本傳一致的，有補沙友
 <lb n="0112a06" ed="Y"/><lb n="0114a05" ed="Y" type="old"/>——弗沙蜜多羅毀法緣（卷一二五）、商諾迦入滅緣（卷一六）、迦葉入滅緣（
 <lb n="0112a07" ed="Y"/><lb n="0114a06" ed="Y" type="old"/>卷一三五）、優波笈多降魔化佛緣（卷一三五）、拘睒彌法滅緣（卷一八三）。</p>
-<lb n="0112a08" ed="Y"/><lb n="0114a07" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《分別功德論》</title>，為大眾部末派的論典。與本論一致的，有善覺比丘誤入地
+<lb n="0112a08" ed="Y"/><lb n="0114a07" ed="Y" type="old"/><p xml:id="pY22p0112a0801" style="text-indent:2em"><title level="m">《分別功德論》</title>，為大眾部末派的論典。與本論一致的，有善覺比丘誤入地
 <lb n="0112a09" ed="Y"/><lb n="0114a08" ed="Y" type="old"/>獄緣、王弟修伽跖路七日作王緣（卷二）。</p>
-<lb n="0112a10" ed="Y"/><lb n="0114a09" ed="Y" type="old"/><p style="text-indent:2em">馬鳴的<title level="m">《大莊嚴經論》</title>，也是二世紀的作品。引用本傳的，有育王施半庵摩
+<lb n="0112a10" ed="Y"/><lb n="0114a09" ed="Y" type="old"/><p xml:id="pY22p0112a1001" style="text-indent:2em">馬鳴的<title level="m">《大莊嚴經論》</title>，也是二世紀的作品。引用本傳的，有育王施半庵摩
 <lb n="0112a11" ed="Y"/>勒<lb n="0114a10" ed="Y" type="old"/>果緣（卷五）、優婆毱多降魔化佛緣（卷九）。馬鳴引用<title level="a">〈阿育王現報因緣品
 <lb n="0112a12" ed="Y"/>〉</title><lb n="0114a11" ed="Y" type="old"/>的，有大臣耶賒賣人頭緣（卷三）、育王宮女撥幕聽法緣（卷五）、比丘口有
 <lb n="0112a13" ed="Y"/>香<lb n="0114a12" ed="Y" type="old"/>氣緣（卷一〇）、夫婦自賣布施緣（卷一五）。</p>
 <pb n="0113a" ed="Y" xml:id="Y22.0022.0113a"/>
-<lb n="0113a01" ed="Y"/><lb n="0114a13" ed="Y" type="old"/><p style="text-indent:2em">龍樹的<title level="m">《大智度論》</title>，是西元三世紀的作品，也曾引用本論。如王弟韋陀輸<pb n="0115a" ed="Y" xml:id="Y22.0022.0115a.old" type="old"/>
+<lb n="0113a01" ed="Y"/><lb n="0114a13" ed="Y" type="old"/><p xml:id="pY22p0113a0101" style="text-indent:2em">龍樹的<title level="m">《大智度論》</title>，是西元三世紀的作品，也曾引用本論。如王弟韋陀輸<pb n="0115a" ed="Y" xml:id="Y22.0022.0115a.old" type="old"/>
 <lb n="0113a02" ed="Y"/><lb n="0115a01" ed="Y" type="old"/>七日作王緣（卷二〇）、阿輸迦宿生施土緣（卷一二、三二）、如來遊化北天竺
 <lb n="0113a03" ed="Y"/><lb n="0115a02" ed="Y" type="old"/>緣（卷九）、迦葉入滅緣（卷三）等。現報因緣中的比丘口有香氣緣，也見於<title level="m">《
 <lb n="0113a04" ed="Y"/><lb n="0115a03" ed="Y" type="old"/>大智度論》</title>。</p>
-<lb n="0113a05" ed="Y"/><lb n="0115a04" ed="Y" type="old"/><p style="text-indent:2em">本傳為大陸佛教的早期傳說，為聲聞佛教、大乘佛教界的共同採用，極為明
+<lb n="0113a05" ed="Y"/><lb n="0115a04" ed="Y" type="old"/><p xml:id="pY22p0113a0501" style="text-indent:2em">本傳為大陸佛教的早期傳說，為聲聞佛教、大乘佛教界的共同採用，極為明
 <lb n="0113a06" ed="Y"/><lb n="0115a05" ed="Y" type="old"/>顯。</p></cb:div>
 <lb n="0113a07" ed="Y"/><lb n="0115a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　編纂的時地考</cb:mulu><head>三　編纂的時地考</head>
-<lb n="0113a08" ed="Y"/><lb n="0115a07" ed="Y" type="old"/><cb:mulu level="3" type="其他">一　本傳為西元前的作品</cb:mulu><head>一　本傳為西元前的作品</head><p style="text-indent:2em">育王及優波毱多的並世護法，為本傳中心。阿育
+<lb n="0113a08" ed="Y"/><lb n="0115a07" ed="Y" type="old"/><cb:mulu level="3" type="其他">一　本傳為西元前的作品</cb:mulu><head>一　本傳為西元前的作品</head><p xml:id="pY22p0113a0821" style="text-indent:2em">育王及優波毱多的並世護法，為本傳中心。阿育
 <lb n="0113a09" ed="Y"/><lb n="0115a08" ed="Y" type="old"/>王——王統部分：一、如來授育王記；二、育王以前的王統；三、育王的光大佛
-<lb n="0113a10" ed="Y"/><lb n="0115a09" ed="Y" type="old"/>教事業；四、育王卒；五、育王以後的王統，與弗沙蜜多羅（<foreign xml:lang="sa"><note n="0113a1001" resp="CBETA" type="add">Puṣamitra【CB】，Puśyamitra【印順】</note><app n="0113a1001"><lem wit="【CB】" resp="正聞出版社">Puṣamitra</lem><rdg wit="【印順】">Puśyamitra</rdg></app></foreign>）的<lb n="0115a10" ed="Y" type="old"/>毀
+<lb n="0113a10" ed="Y"/><lb n="0115a09" ed="Y" type="old"/>教事業；四、育王卒；五、育王以後的王統，與弗沙蜜多羅（<foreign xml:lang="sa"><note n="0113a1001" resp="CBETA" type="add">Puṣamitra【CB】，Puśyamitra【印順】</note><app n="0113a1001"><lem resp="正聞出版社" wit="【CB】">Puṣamitra</lem><rdg wit="【印順】">Puśyamitra</rdg></app></foreign>）的<lb n="0115a10" ed="Y" type="old"/>毀
 <lb n="0113a11" ed="Y"/>法。關於優波毱多——法統部分：一、如來授優波毱多記；二、毱多以前的法<lb n="0115a11" ed="Y" type="old"/>系
 <lb n="0113a12" ed="Y"/>；三、毱多的弘法事業；四、毱多付法入滅；五、未來三惡王毀法，與拘舍彌<lb n="0115a12" ed="Y" type="old"/>（
 <pb n="0114a" ed="Y" xml:id="Y22.0022.0114a"/>
@@ -198,35 +218,35 @@
 <lb n="0114a02" ed="Y"/>目的，以毀法滅法的傳說為警策。這一政治與宗教相協調的護法集，先有事<lb n="0116a02" ed="Y" type="old"/>實而
 <lb n="0114a03" ed="Y"/>後有傳說，有傳說而後有編纂，傳說是早於編纂而存在的。本集的編纂時代<lb n="0116a03" ed="Y" type="old"/>，可
 <lb n="0114a04" ed="Y"/>依本集提到的兩項史實來推定，即弗沙蜜多羅的滅法與三惡王的擾亂。</p>
-<lb n="0114a05" ed="Y"/><lb n="0116a04" ed="Y" type="old"/><p style="text-indent:2em">依印度史者考得：阿育王約死於西元前二三二年。到西元前一八五年頃，孔
+<lb n="0114a05" ed="Y"/><lb n="0116a04" ed="Y" type="old"/><p xml:id="pY22p0114a0501" style="text-indent:2em">依印度史者考得：阿育王約死於西元前二三二年。到西元前一八五年頃，孔
 <lb n="0114a06" ed="Y"/><lb n="0116a05" ed="Y" type="old"/>雀王朝為弗沙蜜多羅所篡，創熏伽（<foreign xml:lang="sa">Śuṅga</foreign>）王朝。西元前七二年，又由婆藪提
-<lb n="0114a07" ed="Y"/><lb n="0116a06" ed="Y" type="old"/>婆（<foreign xml:lang="sa">Vasudeva</foreign>）篡立甘婆（<foreign xml:lang="sa"><note n="0114a0701" resp="CBETA" type="add">Kaṇva【CB】，Kāṇva【印順】</note><app n="0114a0701"><lem wit="【CB】" resp="正聞出版社">Kaṇva</lem><rdg wit="【印順】">Kāṇva</rdg></app></foreign>）王朝。到西元年前二八年，為安達羅<lb n="0116a07" ed="Y" type="old"/>（<foreign xml:lang="en">Andhra</foreign>
+<lb n="0114a07" ed="Y"/><lb n="0116a06" ed="Y" type="old"/>婆（<foreign xml:lang="sa">Vasudeva</foreign>）篡立甘婆（<foreign xml:lang="sa"><note n="0114a0701" resp="CBETA" type="add">Kaṇva【CB】，Kāṇva【印順】</note><app n="0114a0701"><lem resp="正聞出版社" wit="【CB】">Kaṇva</lem><rdg wit="【印順】">Kāṇva</rdg></app></foreign>）王朝。到西元年前二八年，為安達羅<lb n="0116a07" ed="Y" type="old"/>（<foreign xml:lang="en">Andhra</foreign>
 <lb n="0114a08" ed="Y"/>）王朝所滅。<title level="m">《阿育王傳》</title>論到了弗沙蜜多羅的毀滅佛法，說到他的覆亡<lb n="0116a08" ed="Y" type="old"/>。如晉
 <lb n="0114a09" ed="Y"/>譯（卷三）說：</p>
-<lb n="0114a10" ed="Y"/><lb n="0116a09" ed="Y" type="old"/><quote source="T50n2042_p0111b08-26" type="嚴謹引文"><p style="margin-left:3em">「弗舍蜜哆便集四兵，向雞頭摩寺，欲壞寺門。……壓殺王及諸軍眾，此
+<lb n="0114a10" ed="Y"/><lb n="0116a09" ed="Y" type="old"/><quote source="T50n2042_p0111b08-26" type="嚴謹引文"><p xml:id="pY22p0114a1001" style="margin-left:3em">「弗舍蜜哆便集四兵，向雞頭摩寺，欲壞寺門。……壓殺王及諸軍眾，此
 <lb n="0114a11" ed="Y"/><lb n="0116a10" ed="Y" type="old"/>處即名為深藏。摩伽提王種，於是即斷。」<note n="0114001" resp="周怡曄" type="add">《阿育王傳》卷3：「弗舍密哆便集四兵向雞頭摩寺欲壞寺門。爾時寺門有師子吼。王大恐懼不敢入寺復還歸來。如是三返猶不得入。後乃使人喚諸比丘而語之言。我欲壞佛法。汝等比丘欲留浮圖為留僧房。比丘答言欲留佛圖。於是密哆殺害眾僧毀壞僧房。如是次第至舍伽羅國而作募言。有得沙門頭來者當賞金錢。時彼界內大浮圖中有阿羅漢。化作數萬沙門之頭。告諸人民使持與王。王聞是已欲殺羅漢。時此羅漢入滅盡定不能得殺。王即捨去往至偷羅厥吒國欲破佛法。其國土中有護佛法神作是思惟。我受持佛戒不能作惡。云何當得護持佛法。禁密舍鬼昔求我女。以彼行惡故我不與。今為佛法當與彼女。以是因緣偷羅厥吒有大鬼神為作擁護。弗舍密哆無所能壞。於是菩提鬼神誘進守王。鬼神將至南海。禁密舍鬼擔大石山而壓殺王及諸軍眾。此處即名為深藏摩伽提。王種於是即斷。」(CBETA, T50, no. 2042, p. 111, b8-26)</note></p></quote>
-<lb n="0114a12" ed="Y"/><lb n="0116a11" ed="Y" type="old"/><p style="text-indent:2em">摩伽提，即摩竭陀（<foreign xml:lang="pi">Magadha</foreign>）。所以本傳的編纂，必在熏伽王朝或甘婆<lb n="0116a12" ed="Y" type="old"/>王
+<lb n="0114a12" ed="Y"/><lb n="0116a11" ed="Y" type="old"/><p xml:id="pY22p0114a1201" style="text-indent:2em">摩伽提，即摩竭陀（<foreign xml:lang="pi">Magadha</foreign>）。所以本傳的編纂，必在熏伽王朝或甘婆<lb n="0116a12" ed="Y" type="old"/>王
 <lb n="0114a13" ed="Y"/>朝滅亡以後。到這時，摩竭陀的王統才中斷，這必是西元前七二年以後的纂集<lb n="0116a13" ed="Y" type="old"/>。
 <pb n="0115a" ed="Y" xml:id="Y22.0022.0115a"/>
 <lb n="0115a01" ed="Y"/>摩伽提，宋譯作孔雀苗裔，梁譯作孔雀大姓。孔雀（<foreign xml:lang="sa">Maurya</foreign>），是阿育王王系<pb n="0117a" ed="Y" xml:id="Y22.0022.0117a.old" type="old"/><lb n="0117a01" ed="Y" type="old"/>；
 <lb n="0115a02" ed="Y"/>或者以弗沙蜜多為系出於育王，所以說孔雀苗裔，然以晉譯的意義為適當。</p>
-<lb n="0115a03" ed="Y"/><lb n="0117a02" ed="Y" type="old"/><p style="text-indent:2em">關於三惡王的預記，如晉譯說：</p>
-<lb n="0115a04" ed="Y"/><lb n="0117a03" ed="Y" type="old"/><p style="margin-left:3em"><cit><quote type="嚴謹引文">「未來之世，當有三惡王出。……南方有王名釋拘，……西方有王名曰鉢
+<lb n="0115a03" ed="Y"/><lb n="0117a02" ed="Y" type="old"/><p xml:id="pY22p0115a0301" style="text-indent:2em">關於三惡王的預記，如晉譯說：</p>
+<lb n="0115a04" ed="Y"/><lb n="0117a03" ed="Y" type="old"/><p xml:id="pY22p0115a0401" style="margin-left:3em"><cit><quote type="嚴謹引文">「未來之世，當有三惡王出。……南方有王名釋拘，……西方有王名曰鉢
 <lb n="0115a05" ed="Y"/><lb n="0117a04" ed="Y" type="old"/>羅，……北方有王名閻無那，亦將十萬眷屬，破壞僧坊塔寺，殺諸道人。
 <lb n="0115a06" ed="Y"/><lb n="0117a05" ed="Y" type="old"/>東方當爾之時，諸非人鬼神亦苦惱人，劫盜等賊亦甚眾多，惡王亦種<lb n="0117a06" ed="Y" type="old"/>種苦
 <lb n="0115a07" ed="Y"/>惱謫罰恐怖。」</quote><bibl>（卷六）</bibl><note n="0115001" resp="厚觀法師" type="add">《阿育王傳》卷6：「未來之世當有三惡王出。一名釋拘。二名閻無那。三名鉢羅擾。害百姓破壞佛法。如來肉髻及以佛牙當至東天竺。南方有王名釋拘。將十萬眷屬破壞塔寺殺害眾僧。西方有王名曰鉢[12]牢。亦將十萬眷屬亦壞破塔寺殺[13]諸道人。北方有王名閻無那。亦將十萬眷屬破壞僧坊塔寺殺諸道人。[14]當爾之時。諸非人鬼神亦苦惱人。劫盜等賊亦甚眾多。惡王亦種種苦惱謫罰恐怖。」(CBETA, T50, no. 2042, p. 126, c1-9)[12]牢＝羅【宋】【元】【明】【宮】。[＊10-1]壞破＝破壞【宋】【元】【明】【宮】＊。[13]諸＝害【宋】【元】【明】【宮】。[14]（東方）＋當【宋】【元】【明】【宮】</note></cit></p>
-<lb n="0115a08" ed="Y"/><lb n="0117a07" ed="Y" type="old"/><p style="text-indent:2em">三惡王的預言，佛典中記載得很多。這雖表現為預言的形式，但不是預言，
-<lb n="0115a09" ed="Y"/><lb n="0117a08" ed="Y" type="old"/>是編纂者目睹身經的事實。釋拘，即賒迦（<foreign xml:lang="sa"><note n="0115a0901" resp="CBETA" type="add">Saka【CB】，Sakas【印順】</note><app n="0115a0901"><lem wit="【CB】" resp="正聞出版社">Saka</lem><rdg wit="【印順】">Sakas</rdg></app></foreign>）人，即<title level="m">《漢書》</title>所說的塞種。
-<lb n="0115a10" ed="Y"/>鉢<lb n="0117a09" ed="Y" type="old"/>羅，即波羅婆（<foreign xml:lang="en"><note n="0115a1001" resp="CBETA" type="add">Pahlava【CB】，Pallava【印順】</note><app n="0115a1001"><lem wit="【CB】" resp="正聞出版社">Pahlava</lem><rdg wit="【印順】">Pallava</rdg></app></foreign>）人，是侵入印度的安息（波斯）人。閻無那，即希臘
+<lb n="0115a08" ed="Y"/><lb n="0117a07" ed="Y" type="old"/><p xml:id="pY22p0115a0801" style="text-indent:2em">三惡王的預言，佛典中記載得很多。這雖表現為預言的形式，但不是預言，
+<lb n="0115a09" ed="Y"/><lb n="0117a08" ed="Y" type="old"/>是編纂者目睹身經的事實。釋拘，即賒迦（<foreign xml:lang="sa"><note n="0115a0901" resp="CBETA" type="add">Saka【CB】，Sakas【印順】</note><app n="0115a0901"><lem resp="正聞出版社" wit="【CB】">Saka</lem><rdg wit="【印順】">Sakas</rdg></app></foreign>）人，即<title level="m">《漢書》</title>所說的塞種。
+<lb n="0115a10" ed="Y"/>鉢<lb n="0117a09" ed="Y" type="old"/>羅，即波羅婆（<foreign xml:lang="en"><note n="0115a1001" resp="CBETA" type="add">Pahlava【CB】，Pallava【印順】</note><app n="0115a1001"><lem resp="正聞出版社" wit="【CB】">Pahlava</lem><rdg wit="【印順】">Pallava</rdg></app></foreign>）人，是侵入印度的安息（波斯）人。閻無那，即希臘
 <lb n="0115a11" ed="Y"/><lb n="0117a10" ed="Y" type="old"/>人，印度稱他為 <foreign xml:lang="sa">Yavana</foreign>。三惡王的侵入印度，即賒迦人、希臘人、波羅婆人的
 <lb n="0115a12" ed="Y"/><lb n="0117a11" ed="Y" type="old"/>侵入西北印度所起的大擾亂。賒迦人在南，希臘人在北，安息人在西的割據局勢
 <lb n="0115a13" ed="Y"/><lb n="0117a12" ed="Y" type="old"/>，可看出編纂者是在犍陀羅（<foreign xml:lang="sa">Gandhāra</foreign>）一帶的。當時的情勢是這樣的：賒迦<lb n="0117a13" ed="Y" type="old"/>人
 <pb n="0116a" ed="Y" xml:id="Y22.0022.0116a"/>
-<lb n="0116a01" ed="Y"/>沿印度河（<foreign xml:lang="en">Sindhu <note n="0116a0101" resp="CBETA" type="add" subtype="規範字詞">River【CB】，R.【印順】</note><app n="0116a0101"><lem wit="【CB】" resp="CBETA">River</lem><rdg wit="【印順】">R.</rdg></app></foreign>）的下流，向東侵入。那時，先侵入北印的希臘人——<pb n="0118a" ed="Y" xml:id="Y22.0022.0118a.old" type="old"/><lb n="0118a01" ed="Y" type="old"/>猶塞
-<lb n="0116a02" ed="Y"/>德謨（<foreign xml:lang="en">Euthydemos</foreign>）王家，還保有五河（<foreign xml:lang="sa"><note n="0116a0201" resp="CBETA" type="add">Panjāb【CB】，Panjab【印順】</note><app n="0116a0201"><lem wit="【CB】" resp="正聞出版社">Panjāb</lem><rdg wit="【印順】">Panjab</rdg></app></foreign>）地方，而安息人活躍於<lb n="0118a02" ed="Y" type="old"/>高附河
-<lb n="0116a03" ed="Y"/>（<foreign xml:lang="en">Kabul <note n="0116a0301" resp="CBETA" type="add" subtype="規範字詞">River【CB】，R.【印順】</note><app n="0116a0301"><lem wit="【CB】" resp="CBETA">River</lem><rdg wit="【印順】">R.</rdg></app></foreign>）以西。這一佔據三分的動亂局勢，是西元前五〇年左右的事<lb n="0118a03" ed="Y" type="old"/>。不久
+<lb n="0116a01" ed="Y"/>沿印度河（<foreign xml:lang="en">Sindhu <note n="0116a0101" resp="CBETA" type="add" subtype="規範字詞">River【CB】，R.【印順】</note><app n="0116a0101"><lem resp="CBETA" wit="【CB】">River</lem><rdg wit="【印順】">R.</rdg></app></foreign>）的下流，向東侵入。那時，先侵入北印的希臘人——<pb n="0118a" ed="Y" xml:id="Y22.0022.0118a.old" type="old"/><lb n="0118a01" ed="Y" type="old"/>猶塞
+<lb n="0116a02" ed="Y"/>德謨（<foreign xml:lang="en">Euthydemos</foreign>）王家，還保有五河（<foreign xml:lang="sa"><note n="0116a0201" resp="CBETA" type="add">Panjāb【CB】，Panjab【印順】</note><app n="0116a0201"><lem resp="正聞出版社" wit="【CB】">Panjāb</lem><rdg wit="【印順】">Panjab</rdg></app></foreign>）地方，而安息人活躍於<lb n="0118a02" ed="Y" type="old"/>高附河
+<lb n="0116a03" ed="Y"/>（<foreign xml:lang="en">Kabul <note n="0116a0301" resp="CBETA" type="add" subtype="規範字詞">River【CB】，R.【印順】</note><app n="0116a0301"><lem resp="CBETA" wit="【CB】">River</lem><rdg wit="【印順】">R.</rdg></app></foreign>）以西。這一佔據三分的動亂局勢，是西元前五〇年左右的事<lb n="0118a03" ed="Y" type="old"/>。不久
 <lb n="0116a04" ed="Y"/>，局勢變化：希臘人的統治，為賒迦與波羅婆的合力所摧毀。到了西元五<lb n="0118a04" ed="Y" type="old"/>〇年頃
-<lb n="0116a05" ed="Y"/>，貴霜（<foreign xml:lang="sa"><note n="0116a0501" resp="CBETA" type="add">Kuṣāṇa【CB】，Kushan【印順】</note><app n="0116a0501"><lem wit="【CB】" resp="正聞出版社">Kuṣāṇa</lem><rdg wit="【印順】">Kushan</rdg></app></foreign>）王朝的兵威，到達了高附河流域。賒迦與波羅婆人在<lb n="0118a05" ed="Y" type="old"/>北印的權
+<lb n="0116a05" ed="Y"/>，貴霜（<foreign xml:lang="sa"><note n="0116a0501" resp="CBETA" type="add">Kuṣāṇa【CB】，Kushan【印順】</note><app n="0116a0501"><lem resp="正聞出版社" wit="【CB】">Kuṣāṇa</lem><rdg wit="【印順】">Kushan</rdg></app></foreign>）王朝的兵威，到達了高附河流域。賒迦與波羅婆人在<lb n="0118a05" ed="Y" type="old"/>北印的權
 <lb n="0116a06" ed="Y"/>力，又迅速崩潰。本傳說三惡王的擾亂，說東方也混亂得很。希臘人的<lb n="0118a06" ed="Y" type="old"/>權力還在
 <lb n="0116a07" ed="Y"/>，而貴霜王的兵威還沒有來：這幅全印的政治地圖，明顯是西元前一世<lb n="0118a07" ed="Y" type="old"/>紀末年的
 <lb n="0116a08" ed="Y"/>情況。三惡王的擾亂，摩伽提王種被滅絕，編入了本傳。編纂者正在懷<lb n="0118a08" ed="Y" type="old"/>念一阿育
@@ -234,108 +254,108 @@
 <lb n="0116a10" ed="Y"/>印度一點也找不到，佛教是到處遭受嚴重的損失。佛弟子這才唱出滅<lb n="0118a10" ed="Y" type="old"/>法的預言，
 <lb n="0116a11" ed="Y"/>策勵佛弟子的加深警覺。從這種政治局勢而論，本傳的編纂，必在西<lb n="0118a11" ed="Y" type="old"/>元前一世紀
 <lb n="0116a12" ed="Y"/>末年。離阿育王的時代，約二百年。</p>
-<lb n="0116a13" ed="Y"/><lb n="0118a12" ed="Y" type="old"/><cb:mulu level="3" type="其他">二　本傳編集於罽賓</cb:mulu><head>二　本傳編集於罽賓</head><p style="text-indent:2em">本傳所有的傳說，是阿育王王系、優波毱多法系，是
+<lb n="0116a13" ed="Y"/><lb n="0118a12" ed="Y" type="old"/><cb:mulu level="3" type="其他">二　本傳編集於罽賓</cb:mulu><head>二　本傳編集於罽賓</head><p xml:id="pY22p0116a1317" style="text-indent:2em">本傳所有的傳說，是阿育王王系、優波毱多法系，是
 <pb n="0117a" ed="Y" xml:id="Y22.0022.0117a"/>
 <lb n="0117a01" ed="Y"/><lb n="0118a13" ed="Y" type="old"/>華氏城（<foreign xml:lang="sa">Pāṭaliputra</foreign>）與摩偷羅的故事，但本傳的編纂，應該是罽賓地方的學者<pb n="0119a" ed="Y" xml:id="Y22.0022.0119a.old" type="old"/>
 <lb n="0117a02" ed="Y"/><lb n="0119a01" ed="Y" type="old"/>所編纂的。罽賓是摩偷羅優波毱多一系的發展區，是譬喻師的活動重鎮，這可以
 <lb n="0117a03" ed="Y"/><lb n="0119a02" ed="Y" type="old"/>從本集的兩項記載來證明。</p>
-<lb n="0117a04" ed="Y"/><lb n="0119a03" ed="Y" type="old"/><p style="text-indent:2em">一、說到如來預記優波毱多的廣大教化以前，先提到如來遊化北方的行跡，
+<lb n="0117a04" ed="Y"/><lb n="0119a03" ed="Y" type="old"/><p xml:id="pY22p0117a0401" style="text-indent:2em">一、說到如來預記優波毱多的廣大教化以前，先提到如來遊化北方的行跡，
 <lb n="0117a05" ed="Y"/><lb n="0119a04" ed="Y" type="old"/>如說：</p>
-<lb n="0117a06" ed="Y"/><lb n="0119a05" ed="Y" type="old"/><p style="margin-left:3em"><cit><quote source="T50n2042_p0102b13-15" type="嚴謹引文">「昔者，佛在烏萇國降阿波波龍，於罽賓國降化梵志師，於乾陀衛國化真
+<lb n="0117a06" ed="Y"/><lb n="0119a05" ed="Y" type="old"/><p xml:id="pY22p0117a0601" style="margin-left:3em"><cit><quote source="T50n2042_p0102b13-15" type="嚴謹引文">「昔者，佛在烏萇國降阿波波龍，於罽賓國降化梵志師，於乾陀衛國化真
 <lb n="0117a07" ed="Y"/><lb n="0119a06" ed="Y" type="old"/>陀羅，於乾陀羅國降伏牛龍。」</quote><bibl>（晉譯卷一）</bibl><note n="0117001" resp="周怡曄" type="add">《阿育王傳》卷1(CBETA, T50, no. 2042, p. 102, b13-15)</note></cit></p>
-<lb n="0117a08" ed="Y"/><lb n="0119a07" ed="Y" type="old"/><p style="margin-left:3em"><cit><quote source="T02n0099_p0165b21-22" type="嚴謹引文">「佛臨般涅槃時，降伏阿波羅龍王、陶師、旃陀羅、瞿波黎龍。」</quote><bibl>（宋譯
+<lb n="0117a08" ed="Y"/><lb n="0119a07" ed="Y" type="old"/><p xml:id="pY22p0117a0801" style="margin-left:3em"><cit><quote source="T02n0099_p0165b21-22" type="嚴謹引文">「佛臨般涅槃時，降伏阿波羅龍王、陶師、旃陀羅、瞿波黎龍。」</quote><bibl>（宋譯
 <lb n="0117a09" ed="Y"/><title level="m">《雜阿含<lb n="0119a08" ed="Y" type="old"/>經》</title><biblScope n="23" type="卷">卷二三</biblScope>）</bibl><note n="0117002" resp="周怡曄" type="add">《雜阿含經》卷23(CBETA, T02, no. 99, p. 165, b21-22)</note></cit></p>
-<lb n="0117a10" ed="Y"/><lb n="0119a09" ed="Y" type="old"/><p style="margin-left:3em"><cit><quote source="T50n2043_p0135b17-19" type="嚴謹引文">「世尊未涅槃時，有龍王名阿波羅囉，復有陶師及旃陀羅龍王，佛化是<lb n="0119a10" ed="Y" type="old"/>等
+<lb n="0117a10" ed="Y"/><lb n="0119a09" ed="Y" type="old"/><p xml:id="pY22p0117a1001" style="margin-left:3em"><cit><quote source="T50n2043_p0135b17-19" type="嚴謹引文">「世尊未涅槃時，有龍王名阿波羅囉，復有陶師及旃陀羅龍王，佛化是<lb n="0119a10" ed="Y" type="old"/>等
 <lb n="0117a11" ed="Y"/>。」</quote><bibl>（梁譯卷二）</bibl><note n="0117003" resp="周怡曄" type="add">《阿育王經》卷2〈2 見優波笈多因緣品〉(CBETA, T50, no. 2043, p. 135, b17-19)</note></cit></p>
-<lb n="0117a12" ed="Y"/><lb n="0119a11" ed="Y" type="old"/><p style="text-indent:2em">釋迦如來的化跡，本不出恆河流域。然在佛教區的擴展中，如來遊化的聖跡
+<lb n="0117a12" ed="Y"/><lb n="0119a11" ed="Y" type="old"/><p xml:id="pY22p0117a1201" style="text-indent:2em">釋迦如來的化跡，本不出恆河流域。然在佛教區的擴展中，如來遊化的聖跡
 <lb n="0117a13" ed="Y"/><lb n="0119a12" ed="Y" type="old"/>，也不斷地擴大。如錫蘭傳說佛去錫蘭的聖跡，北方佛教者也說佛遊化到北方。
 <pb n="0118a" ed="Y" xml:id="Y22.0022.0118a"/>
 <lb n="0118a01" ed="Y"/><lb n="0119a13" ed="Y" type="old"/>本傳只傳說四處，龍樹的<bibl><title level="m">《大智度論》</title><biblScope n="9" type="卷">（卷九）</biblScope></bibl>也有說到，<bibl><title level="m">《根本說一切有部毘
-<lb n="0118a02" ed="Y"/>奈耶<pb n="0120a" ed="Y" xml:id="Y22.0022.0120a.old" type="old"/><lb n="0120a01" ed="Y" type="old"/>藥事》</title><biblScope type="卷" n="9">（卷九）</biblScope></bibl>，佛遊北天竺的地點竟擴展到十四處，與望見二處。本傳不
+<lb n="0118a02" ed="Y"/>奈耶<pb n="0120a" ed="Y" xml:id="Y22.0022.0120a.old" type="old"/><lb n="0120a01" ed="Y" type="old"/>藥事》</title><biblScope n="9" type="卷">（卷九）</biblScope></bibl>，佛遊北天竺的地點竟擴展到十四處，與望見二處。本傳不
 <lb n="0118a03" ed="Y"/>說<lb n="0120a02" ed="Y" type="old"/>佛到別處去，專說來北方，這暗示著編集者的環境與熟習的聖跡。如上所引的
 <lb n="0118a04" ed="Y"/>，<lb n="0120a03" ed="Y" type="old"/>宋譯與梁譯，都沒有列舉地名。其中，第一、化阿波波龍。<title level="m">《藥事》</title>說：</p>
-<lb n="0118a05" ed="Y"/><lb n="0120a04" ed="Y" type="old"/><quote source="T24n1448_p0040a02-b07" type="嚴謹引文"><p style="margin-left:3em">「世尊告金剛手藥叉曰：汝可共我往北天竺，調伏阿鉢羅龍王。……詣無
+<lb n="0118a05" ed="Y"/><lb n="0120a04" ed="Y" type="old"/><quote source="T24n1448_p0040a02-b07" type="嚴謹引文"><p xml:id="pY22p0118a0501" style="margin-left:3em">「世尊告金剛手藥叉曰：汝可共我往北天竺，調伏阿鉢羅龍王。……詣無
 <lb n="0118a06" ed="Y"/><lb n="0120a05" ed="Y" type="old"/>稻芉龍王宮。」<note n="0118001" resp="周怡曄" type="add">《根本說一切有部毘奈耶藥事》卷9(CBETA, T24, no. 1448, p. 40, a2-b7)</note></p></quote>
-<lb n="0118a07" ed="Y"/><lb n="0120a06" ed="Y" type="old"/><p style="text-indent:2em">阿鉢羅（<foreign xml:lang="sa">Apalāla</foreign>），譯義即無稻芉。本傳與<title level="m">《大智度論》</title>：如來的遊化北天
+<lb n="0118a07" ed="Y"/><lb n="0120a06" ed="Y" type="old"/><p xml:id="pY22p0118a0701" style="text-indent:2em">阿鉢羅（<foreign xml:lang="sa">Apalāla</foreign>），譯義即無稻芉。本傳與<title level="m">《大智度論》</title>：如來的遊化北天
 <lb n="0118a08" ed="Y"/>竺<lb n="0120a07" ed="Y" type="old"/>，首先降伏阿波羅龍。<title level="m">《藥事》</title>的調伏阿鉢羅龍，雖已是第五處，然這是遊化
 <lb n="0118a09" ed="Y"/>北<lb n="0120a08" ed="Y" type="old"/>天的主要目的，還保留古典的遺痕。<title level="m">《大智度論》</title>說：月氏國化阿波羅龍。依
 <lb n="0118a10" ed="Y"/><bibl><title level="m">《西域<lb n="0120a09" ed="Y" type="old"/>記》</title><biblScope n="3" type="卷">（卷三）</biblScope></bibl>，阿波邏龍泉，在烏仗那——烏萇（<foreign xml:lang="sa">Udyāna</foreign>），蘇婆伐窣堵
-<lb n="0118a11" ed="Y"/>河（<lb n="0120a10" ed="Y" type="old"/>今 <foreign xml:lang="en">Swāt <note n="0118a1101" resp="CBETA" type="add" subtype="規範字詞">River【CB】，R.【印順】</note><app n="0118a1101"><lem wit="【CB】" resp="CBETA">River</lem><rdg wit="【印順】">R.</rdg></app></foreign>）的河源處。法顯與宋雲，也記有此事。</p>
-<lb n="0118a12" ed="Y"/><lb n="0120a11" ed="Y" type="old"/><p style="text-indent:2em">第二、化梵志師，宋譯與梁譯作陶師。<title level="m">《藥事》</title>說：及理逸多（即頡利伐多
+<lb n="0118a11" ed="Y"/>河（<lb n="0120a10" ed="Y" type="old"/>今 <foreign xml:lang="en">Swāt <note n="0118a1101" resp="CBETA" type="add" subtype="規範字詞">River【CB】，R.【印順】</note><app n="0118a1101"><lem resp="CBETA" wit="【CB】">River</lem><rdg wit="【印順】">R.</rdg></app></foreign>）的河源處。法顯與宋雲，也記有此事。</p>
+<lb n="0118a12" ed="Y"/><lb n="0120a11" ed="Y" type="old"/><p xml:id="pY22p0118a1201" style="text-indent:2em">第二、化梵志師，宋譯與梁譯作陶師。<title level="m">《藥事》</title>說：及理逸多（即頡利伐多
 <lb n="0118a13" ed="Y"/><lb n="0120a12" ed="Y" type="old"/>）化陶師，是第九處。<title level="m">《大智度論》</title>說：</p>
 <pb n="0119a" ed="Y" xml:id="Y22.0022.0119a"/>
-<lb n="0119a01" ed="Y"/><lb n="0120a13" ed="Y" type="old"/><quote type="嚴謹引文"><p style="margin-left:3em">「至罽賓隸跋陀仙人山，住虛空中，降此仙人。仙人言：我樂住此中，願<pb n="0121a" ed="Y" xml:id="Y22.0022.0121a.old" type="old"/>
+<lb n="0119a01" ed="Y"/><lb n="0120a13" ed="Y" type="old"/><quote type="嚴謹引文"><p xml:id="pY22p0119a0101" style="margin-left:3em">「至罽賓隸跋陀仙人山，住虛空中，降此仙人。仙人言：我樂住此中，願<pb n="0121a" ed="Y" xml:id="Y22.0022.0121a.old" type="old"/>
 <lb n="0119a02" ed="Y"/><lb n="0121a01" ed="Y" type="old"/>佛與我佛髮、佛爪，起塔供養。塔於今現存。」<note n="0119001" resp="厚觀法師" type="add">《大智度論》卷9〈1 序品〉(CBETA, T25, no. 1509, p. 126, c2-4)</note></p></quote>
-<lb n="0119a03" ed="Y"/><lb n="0121a02" ed="Y" type="old"/><p style="text-indent:2em">及理逸多，即隸跋陀（<foreign xml:lang="sa">Revata</foreign>）。化梵志師，即化隸跋陀仙人。梵志與仙人
+<lb n="0119a03" ed="Y"/><lb n="0121a02" ed="Y" type="old"/><p xml:id="pY22p0119a0301" style="text-indent:2em">及理逸多，即隸跋陀（<foreign xml:lang="sa">Revata</foreign>）。化梵志師，即化隸跋陀仙人。梵志與仙人
 <lb n="0119a04" ed="Y"/><lb n="0121a03" ed="Y" type="old"/>的傳說相合。</p>
-<lb n="0119a05" ed="Y"/><lb n="0121a04" ed="Y" type="old"/><p style="text-indent:2em">第三、化真陀羅（<foreign xml:lang="sa">Caṇḍāla</foreign>），在乾陀衛，即犍陀羅，王城在現在的白沙瓦<lb n="0121a05" ed="Y" type="old"/>（
+<lb n="0119a05" ed="Y"/><lb n="0121a04" ed="Y" type="old"/><p xml:id="pY22p0119a0501" style="text-indent:2em">第三、化真陀羅（<foreign xml:lang="sa">Caṇḍāla</foreign>），在乾陀衛，即犍陀羅，王城在現在的白沙瓦<lb n="0121a05" ed="Y" type="old"/>（
 <lb n="0119a06" ed="Y"/><foreign xml:lang="en">Peshawar</foreign>）。然<title level="m">《藥事》</title>說：這是增喜城——難提跋檀那（<foreign xml:lang="sa">Nandivardhana</foreign>）<lb n="0121a06" ed="Y" type="old"/>的事
 <lb n="0119a07" ed="Y"/>，是第十二處。如說：</p>
-<lb n="0119a08" ed="Y"/><lb n="0121a07" ed="Y" type="old"/><quote type="嚴謹引文"><p style="margin-left:3em">「至增喜城，……調伏栴荼梨七子，并護池藥叉。」<note n="0119002" resp="厚觀法師" type="add">《根本說一切有部毘奈耶藥事》卷9：「至增喜城。於此城中。王名天有。及其眷屬。令住實諦。復次調伏栴荼梨七子。并護池藥叉。」(CBETA, T24, no. 1448, p. 41, a12-14)</note></p></quote>
-<lb n="0119a09" ed="Y"/><lb n="0121a08" ed="Y" type="old"/><p style="text-indent:2em">第四、化牛龍，即瞿波羅龍（<foreign xml:lang="sa">Gopāla</foreign>），<title level="m">《伽藍記》</title>作瞿羅羅鹿。這是有名
+<lb n="0119a08" ed="Y"/><lb n="0121a07" ed="Y" type="old"/><quote type="嚴謹引文"><p xml:id="pY22p0119a0801" style="margin-left:3em">「至增喜城，……調伏栴荼梨七子，并護池藥叉。」<note n="0119002" resp="厚觀法師" type="add">《根本說一切有部毘奈耶藥事》卷9：「至增喜城。於此城中。王名天有。及其眷屬。令住實諦。復次調伏栴荼梨七子。并護池藥叉。」(CBETA, T24, no. 1448, p. 41, a12-14)</note></p></quote>
+<lb n="0119a09" ed="Y"/><lb n="0121a08" ed="Y" type="old"/><p xml:id="pY22p0119a0901" style="text-indent:2em">第四、化牛龍，即瞿波羅龍（<foreign xml:lang="sa">Gopāla</foreign>），<title level="m">《伽藍記》</title>作瞿羅羅鹿。這是有名
 <lb n="0119a10" ed="Y"/><lb n="0121a09" ed="Y" type="old"/>的佛影洞，如<title level="m">《大智度論》</title>說：</p>
-<lb n="0119a11" ed="Y"/><lb n="0121a10" ed="Y" type="old"/><quote type="嚴謹引文"><p style="margin-left:3em">「月氏國西降女羅剎；佛在彼石窟中一宿，於今佛影猶在。」<note n="0119003" resp="厚觀法師" type="add">《大智度論》卷9〈1 序品〉(CBETA, T25, no. 1509, p. 126, b28-29)</note></p></quote>
-<lb n="0119a12" ed="Y"/><lb n="0121a11" ed="Y" type="old"/><p style="text-indent:2em"><bibl><title level="m">《觀佛三昧經》</title><biblScope n="7" type="卷">（卷七）</biblScope></bibl>說降龍留影的地點，是：</p>
-<lb n="0119a13" ed="Y"/><lb n="0121a12" ed="Y" type="old"/><quote type="嚴謹引文"><p style="margin-left:3em">「那乾訶羅國，古仙山，薝蔔華林，毒龍池側，青蓮華泉北羅剎穴中，阿
+<lb n="0119a11" ed="Y"/><lb n="0121a10" ed="Y" type="old"/><quote type="嚴謹引文"><p xml:id="pY22p0119a1101" style="margin-left:3em">「月氏國西降女羅剎；佛在彼石窟中一宿，於今佛影猶在。」<note n="0119003" resp="厚觀法師" type="add">《大智度論》卷9〈1 序品〉(CBETA, T25, no. 1509, p. 126, b28-29)</note></p></quote>
+<lb n="0119a12" ed="Y"/><lb n="0121a11" ed="Y" type="old"/><p xml:id="pY22p0119a1201" style="text-indent:2em"><bibl><title level="m">《觀佛三昧經》</title><biblScope n="7" type="卷">（卷七）</biblScope></bibl>說降龍留影的地點，是：</p>
+<lb n="0119a13" ed="Y"/><lb n="0121a12" ed="Y" type="old"/><quote type="嚴謹引文"><p xml:id="pY22p0119a1301" style="margin-left:3em">「那乾訶羅國，古仙山，薝蔔華林，毒龍池側，青蓮華泉北羅剎穴中，阿
 <pb n="0120a" ed="Y" xml:id="Y22.0022.0120a"/>
 <lb n="0120a01" ed="Y"/><lb n="0121a13" ed="Y" type="old"/>那斯山巖南。」<note n="0120001" resp="厚觀法師" type="add">《佛說觀佛三昧海經》卷7〈6 觀四威儀品〉(CBETA, T15, no. 643, p. 679, b7-9)</note></p></quote>
-<lb n="0120a02" ed="Y"/><pb n="0122a" ed="Y" xml:id="Y22.0022.0122a.old" type="old"/><lb n="0122a01" ed="Y" type="old"/><p style="text-indent:2em">法顯、宋雲、玄奘所見的，都在那竭或那揭羅曷（<foreign xml:lang="sa">Nagarahāra</foreign>），與<title level="m">《觀佛
-<lb n="0120a03" ed="Y"/><lb n="0122a02" ed="Y" type="old"/>三昧經》</title>一致。<bibl><title level="m">《西域記》</title><biblScope type="卷" n="3">（卷三）</biblScope></bibl>說：佛影洞在城西南二十餘里，所以應在今
-<lb n="0120a04" ed="Y"/>闍<lb n="0122a03" ed="Y" type="old"/>羅羅城（<foreign xml:lang="sa"><note n="0120a0401" resp="CBETA" type="add">Jalālābad【CB】，Jalalabad【印順】</note><app n="0120a0401"><lem wit="【CB】" resp="正聞出版社">Jalālābad</lem><rdg wit="【印順】">Jalalabad</rdg></app></foreign>）附近。然本傳說在乾陀羅，與化真陀羅的乾陀衛，是同一
+<lb n="0120a02" ed="Y"/><pb n="0122a" ed="Y" xml:id="Y22.0022.0122a.old" type="old"/><lb n="0122a01" ed="Y" type="old"/><p xml:id="pY22p0120a0201" style="text-indent:2em">法顯、宋雲、玄奘所見的，都在那竭或那揭羅曷（<foreign xml:lang="sa">Nagarahāra</foreign>），與<title level="m">《觀佛
+<lb n="0120a03" ed="Y"/><lb n="0122a02" ed="Y" type="old"/>三昧經》</title>一致。<bibl><title level="m">《西域記》</title><biblScope n="3" type="卷">（卷三）</biblScope></bibl>說：佛影洞在城西南二十餘里，所以應在今
+<lb n="0120a04" ed="Y"/>闍<lb n="0122a03" ed="Y" type="old"/>羅羅城（<foreign xml:lang="sa"><note n="0120a0401" resp="CBETA" type="add">Jalālābad【CB】，Jalalabad【印順】</note><app n="0120a0401"><lem resp="正聞出版社" wit="【CB】">Jalālābad</lem><rdg wit="【印順】">Jalalabad</rdg></app></foreign>）附近。然本傳說在乾陀羅，與化真陀羅的乾陀衛，是同一
 <lb n="0120a05" ed="Y"/>國<lb n="0122a04" ed="Y" type="old"/>名。這在<title level="m">《藥事》</title>，也說化栴荼梨七子與化龍<note n="0120002" resp="厚觀法師" type="add">《根本說一切有部毘奈耶藥事》卷9：「復次調伏栴荼梨七子。并護池藥叉。」(CBETA, T24, no. 1448, p. 41, a13-14)</note>（它不說是瞿波羅龍，說是馬師
 <lb n="0120a06" ed="Y"/>、<lb n="0122a05" ed="Y" type="old"/>滿宿二龍），都在增喜城。增喜城是有名的聖地，如<cit><bibl><title level="m">《華嚴經》</title><biblScope n="45" type="卷">（卷四五）</biblScope>說
 <lb n="0120a07" ed="Y"/>：<lb n="0122a06" ed="Y" type="old"/></bibl><quote type="嚴謹引文">「增長歡喜城，有一住處，名尊者窟。」</quote></cit><title level="m">《孔雀王經》</title>也有增喜城，在盧鹿迦
-<lb n="0120a08" ed="Y"/><lb n="0122a07" ed="Y" type="old"/>（<foreign xml:lang="sa">Rauruka</foreign>）與濫波（<foreign xml:lang="sa">Lampāka</foreign>）間。此地，僧伽婆羅譯作興咎跋他那<lb n="0122a08" ed="Y" type="old"/>（<foreign xml:lang="sa"><note n="0120a0801" resp="CBETA" type="add">Hingumardana【CB】，Hiṅgumardhana【印順】</note><app n="0120a0801"><lem wit="【CB】" resp="正聞出版社">Hingumardana</lem><rdg wit="【印順】">Hiṅgumardhana</rdg></app></foreign>）
+<lb n="0120a08" ed="Y"/><lb n="0122a07" ed="Y" type="old"/>（<foreign xml:lang="sa">Rauruka</foreign>）與濫波（<foreign xml:lang="sa">Lampāka</foreign>）間。此地，僧伽婆羅譯作興咎跋他那<lb n="0122a08" ed="Y" type="old"/>（<foreign xml:lang="sa"><note n="0120a0801" resp="CBETA" type="add">Hingumardana【CB】，Hiṅgumardhana【印順】</note><app n="0120a0801"><lem resp="正聞出版社" wit="【CB】">Hingumardana</lem><rdg wit="【印順】">Hiṅgumardhana</rdg></app></foreign>）
 <lb n="0120a09" ed="Y"/>，不空譯作呬隅摧，與巴黎圖書館鈔本的 <foreign xml:lang="sa">Hingumardana</foreign> 相合<lb n="0122a09" ed="Y" type="old"/>。梵本
 <lb n="0120a10" ed="Y"/> <foreign xml:lang="sa">Avadānakalpalatā</foreign> 所說降伏瞿波龍的故事，也在興渠末檀那。梵本<lb n="0122a10" ed="Y" type="old"/><title level="m">《孔雀王經》</title>
-<lb n="0120a11" ed="Y"/>作 <foreign xml:lang="sa"><note n="0120a1101" resp="CBETA" type="add">Nandivardhana【CB】，Nadivardhana【印順】</note><app n="0120a1101"><lem wit="【CB】" resp="正聞出版社">Nandivardhana</lem><rdg wit="【印順】">Nadivardhana</rdg></app></foreign>，即增喜，與義淨的譯為難提合。這樣，增<lb n="0122a11" ed="Y" type="old"/>喜——難提跋檀那
+<lb n="0120a11" ed="Y"/>作 <foreign xml:lang="sa"><note n="0120a1101" resp="CBETA" type="add">Nandivardhana【CB】，Nadivardhana【印順】</note><app n="0120a1101"><lem resp="正聞出版社" wit="【CB】">Nandivardhana</lem><rdg wit="【印順】">Nadivardhana</rdg></app></foreign>，即增喜，與義淨的譯為難提合。這樣，增<lb n="0122a11" ed="Y" type="old"/>喜——難提跋檀那
 <lb n="0120a12" ed="Y"/>，或作興渠跋檀那、興渠末但那，及本傳的乾陀羅，共有四名<lb n="0122a12" ed="Y" type="old"/>。然這確就是那揭
 <lb n="0120a13" ed="Y"/>羅曷，如說：</p>
 <pb n="0121a" ed="Y" xml:id="Y22.0022.0121a"/>
-<lb n="0121a01" ed="Y"/><lb n="0122a13" ed="Y" type="old"/><p style="margin-left:3em"><cit><quote type="嚴謹引文">「北天竺國有城，名興渠末但那，彼得我牙，尊重供養。」</quote><bibl>（<title level="m">《大悲經》</title>
-<lb n="0121a02" ed="Y"/><biblScope type="卷" n="2">卷二</biblScope>）</bibl><note n="0121001" resp="厚觀法師" type="add">《大悲經》卷2〈6 持正法品〉(CBETA, T12, no. 380, p. 955, c17-19)</note></cit></p>
-<lb n="0121a03" ed="Y"/><pb n="0123a" ed="Y" xml:id="Y22.0022.0123a.old" type="old"/><lb n="0123a01" ed="Y" type="old"/><p style="margin-left:3em"><cit><quote source="T51n2087_p0878b27-c13" type="嚴謹引文">「那揭羅曷，……城內有大窣堵波故基。聞諸先志曰：昔有佛齒，高曠嚴
-<lb n="0121a04" ed="Y"/><lb n="0123a02" ed="Y" type="old"/>麗。今既無齒，唯餘故基。」</quote><bibl>（<title level="m">《西域記》</title><biblScope type="卷" n="2">卷二</biblScope>）</bibl><note n="0121002" resp="周怡曄" type="add">《大唐西域記》卷2(CBETA, T51, no. 2087, p. 878, b27-c13)</note></cit></p>
-<lb n="0121a05" ed="Y"/><lb n="0123a03" ed="Y" type="old"/><p style="text-indent:2em">比對二文，<title level="m">《大悲經》</title>的興渠末檀那，即是那揭羅曷的異名。興渠末檀那，
+<lb n="0121a01" ed="Y"/><lb n="0122a13" ed="Y" type="old"/><p xml:id="pY22p0121a0101" style="margin-left:3em"><cit><quote type="嚴謹引文">「北天竺國有城，名興渠末但那，彼得我牙，尊重供養。」</quote><bibl>（<title level="m">《大悲經》</title>
+<lb n="0121a02" ed="Y"/><biblScope n="2" type="卷">卷二</biblScope>）</bibl><note n="0121001" resp="厚觀法師" type="add">《大悲經》卷2〈6 持正法品〉(CBETA, T12, no. 380, p. 955, c17-19)</note></cit></p>
+<lb n="0121a03" ed="Y"/><pb n="0123a" ed="Y" xml:id="Y22.0022.0123a.old" type="old"/><lb n="0123a01" ed="Y" type="old"/><p xml:id="pY22p0121a0301" style="margin-left:3em"><cit><quote source="T51n2087_p0878b27-c13" type="嚴謹引文">「那揭羅曷，……城內有大窣堵波故基。聞諸先志曰：昔有佛齒，高曠嚴
+<lb n="0121a04" ed="Y"/><lb n="0123a02" ed="Y" type="old"/>麗。今既無齒，唯餘故基。」</quote><bibl>（<title level="m">《西域記》</title><biblScope n="2" type="卷">卷二</biblScope>）</bibl><note n="0121002" resp="周怡曄" type="add">《大唐西域記》卷2(CBETA, T51, no. 2087, p. 878, b27-c13)</note></cit></p>
+<lb n="0121a05" ed="Y"/><lb n="0123a03" ed="Y" type="old"/><p xml:id="pY22p0121a0501" style="text-indent:2em">比對二文，<title level="m">《大悲經》</title>的興渠末檀那，即是那揭羅曷的異名。興渠末檀那，
 <lb n="0121a06" ed="Y"/><lb n="0123a04" ed="Y" type="old"/>或作興渠跋檀那、難提跋檀那，都是那揭羅曷。而本傳作乾陀羅，是指當時所屬
 <lb n="0121a07" ed="Y"/><lb n="0123a05" ed="Y" type="old"/>的國名。</p>
-<lb n="0121a08" ed="Y"/><lb n="0123a06" ed="Y" type="old"/><p style="text-indent:2em">本傳所說的如來化跡，在須呵多河河源，在那揭羅曷，在罽賓的隸跋陀山。
-<lb n="0121a09" ed="Y"/><lb n="0123a07" ed="Y" type="old"/>罽賓（<foreign xml:lang="sa"><note n="0121a0901" resp="CBETA" type="add">Kaśpira【CB】，Kaspīra【印順】</note><app n="0121a0901"><lem wit="【CB】" resp="正聞出版社">Kaśpira</lem><rdg wit="【印順】">Kaspīra</rdg></app></foreign>）與迦溼彌羅（<foreign xml:lang="sa"><note n="0121a0902" resp="CBETA" type="add">Kaśmīra【CB】，Kashmir【印順】</note><app n="0121a0902"><lem wit="【CB】" resp="正聞出版社">Kaśmīra</lem><rdg wit="【印順】">Kashmir</rdg></app></foreign>），雖為同一語言的轉化，但古代的罽<lb n="0123a08" ed="Y" type="old"/>賓
+<lb n="0121a08" ed="Y"/><lb n="0123a06" ed="Y" type="old"/><p xml:id="pY22p0121a0801" style="text-indent:2em">本傳所說的如來化跡，在須呵多河河源，在那揭羅曷，在罽賓的隸跋陀山。
+<lb n="0121a09" ed="Y"/><lb n="0123a07" ed="Y" type="old"/>罽賓（<foreign xml:lang="sa"><note n="0121a0901" resp="CBETA" type="add">Kaśpira【CB】，Kaspīra【印順】</note><app n="0121a0901"><lem resp="正聞出版社" wit="【CB】">Kaśpira</lem><rdg wit="【印順】">Kaspīra</rdg></app></foreign>）與迦溼彌羅（<foreign xml:lang="sa"><note n="0121a0902" resp="CBETA" type="add">Kaśmīra【CB】，Kashmir【印順】</note><app n="0121a0902"><lem resp="正聞出版社" wit="【CB】">Kaśmīra</lem><rdg wit="【印順】">Kashmir</rdg></app></foreign>），雖為同一語言的轉化，但古代的罽<lb n="0123a08" ed="Y" type="old"/>賓
 <lb n="0121a10" ed="Y"/>決非指現在的喀什米爾（<foreign xml:lang="en">Kashmir</foreign>）。如中國<title level="m">《漢書》</title>所說的罽賓，指懸度以南<lb n="0123a09" ed="Y" type="old"/>地
-<lb n="0121a11" ed="Y"/>區。本傳說摩田提（<foreign xml:lang="sa"><note n="0121a1101" resp="CBETA" type="add">Madhyāntika【CB】，Madhyantika【印順】</note><app n="0121a1101"><lem wit="【CB】" resp="正聞出版社">Madhyāntika</lem><rdg wit="【印順】">Madhyantika</rdg></app></foreign>）降伏罽賓的龍王。錫蘭傳說<bibl>（<title level="m">《善見律》</title><biblScope n="2" type="卷">卷
+<lb n="0121a11" ed="Y"/>區。本傳說摩田提（<foreign xml:lang="sa"><note n="0121a1101" resp="CBETA" type="add">Madhyāntika【CB】，Madhyantika【印順】</note><app n="0121a1101"><lem resp="正聞出版社" wit="【CB】">Madhyāntika</lem><rdg wit="【印順】">Madhyantika</rdg></app></foreign>）降伏罽賓的龍王。錫蘭傳說<bibl>（<title level="m">《善見律》</title><biblScope n="2" type="卷">卷
 <lb n="0121a12" ed="Y"/>二</biblScope><lb n="0123a10" ed="Y" type="old"/>）</bibl>：末闡提到罽賓化阿波樓羅龍王。阿波樓羅即阿波羅龍，這那裡是迦溼彌羅
 <lb n="0121a13" ed="Y"/>—<lb n="0123a11" ed="Y" type="old"/>—喀什米爾的龍王？<title level="m">《藥事》</title>說：</p>
 <pb n="0122a" ed="Y" xml:id="Y22.0022.0122a"/>
-<lb n="0122a01" ed="Y"/><lb n="0123a12" ed="Y" type="old"/><quote type="嚴謹引文"><p style="margin-left:3em">「此迦濕彌羅國境，我滅度後百年中，當有苾芻弟子，彼苾芻當調伏虎嚕
-<lb n="0122a02" ed="Y"/><note n="0122a0201" resp="CBETA" type="add">茶【CB】，荼【印順】</note><app n="0122a0201"><lem wit="【CB】" resp="正聞出版社">茶</lem><rdg wit="【印順】">荼</rdg></app><lb n="0123a13" ed="Y" type="old"/>（<bibl><title level="m">《雜事》</title><biblScope n="40" type="卷">卷四〇</biblScope></bibl>作「忽弄」<note n="0122001" resp="周怡曄" type="add">《根本說一切有部毘奈耶雜事》卷40：「於迦濕彌羅國調伏毒龍。其名忽弄。」(CBETA, T24, no. 1451, p. 411, a8)</note>）毒龍。」<note n="0122002" resp="周怡曄" type="add">《根本說一切有部毘奈耶藥事》卷9(CBETA, T24, no. 1448, p. 40, c17-19)</note></p></quote>
-<lb n="0122a03" ed="Y"/><pb n="0124a" ed="Y" xml:id="Y22.0022.0124a.old" type="old"/><lb n="0124a01" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《根有律》</title>所指的比丘，意指摩田提，然並不是本傳及錫蘭共傳的罽賓阿波
-<lb n="0122a04" ed="Y"/><lb n="0124a02" ed="Y" type="old"/>羅龍（這可見有部傳說的轉變）。錫蘭傳說：罽賓的夜叉槃度（<foreign xml:lang="sa"><note n="0122a0401" resp="CBETA" type="add">Pañcika【CB】，Pāñcika【印順】</note><app n="0122a0401"><lem wit="【CB】" resp="正聞出版社">Pañcika</lem><rdg wit="【印順】">Pāñcika</rdg></app></foreign>），與<lb n="0124a03" ed="Y" type="old"/>女
-<lb n="0122a05" ed="Y"/>夜叉訶黎帝耶（<foreign xml:lang="sa"><note n="0122a0501" resp="CBETA" type="add">Hārītī【CB】，Harītī【印順】</note><app n="0122a0501"><lem wit="【CB】" resp="正聞出版社">Hārītī</lem><rdg wit="【印順】">Harītī</rdg></app></foreign>），及五百子，也歸依佛法。<title level="m">《根有律》</title>的<bibl><title level="m">《雜事》</title><biblScope type="卷" n="40">（卷四
+<lb n="0122a01" ed="Y"/><lb n="0123a12" ed="Y" type="old"/><quote type="嚴謹引文"><p xml:id="pY22p0122a0101" style="margin-left:3em">「此迦濕彌羅國境，我滅度後百年中，當有苾芻弟子，彼苾芻當調伏虎嚕
+<lb n="0122a02" ed="Y"/><note n="0122a0201" resp="CBETA" type="add">茶【CB】，荼【印順】</note><app n="0122a0201"><lem resp="正聞出版社" wit="【CB】">茶</lem><rdg wit="【印順】">荼</rdg></app><lb n="0123a13" ed="Y" type="old"/>（<bibl><title level="m">《雜事》</title><biblScope n="40" type="卷">卷四〇</biblScope></bibl>作「忽弄」<note n="0122001" resp="周怡曄" type="add">《根本說一切有部毘奈耶雜事》卷40：「於迦濕彌羅國調伏毒龍。其名忽弄。」(CBETA, T24, no. 1451, p. 411, a8)</note>）毒龍。」<note n="0122002" resp="周怡曄" type="add">《根本說一切有部毘奈耶藥事》卷9(CBETA, T24, no. 1448, p. 40, c17-19)</note></p></quote>
+<lb n="0122a03" ed="Y"/><pb n="0124a" ed="Y" xml:id="Y22.0022.0124a.old" type="old"/><lb n="0124a01" ed="Y" type="old"/><p xml:id="pY22p0122a0301" style="text-indent:2em"><title level="m">《根有律》</title>所指的比丘，意指摩田提，然並不是本傳及錫蘭共傳的罽賓阿波
+<lb n="0122a04" ed="Y"/><lb n="0124a02" ed="Y" type="old"/>羅龍（這可見有部傳說的轉變）。錫蘭傳說：罽賓的夜叉槃度（<foreign xml:lang="sa"><note n="0122a0401" resp="CBETA" type="add">Pañcika【CB】，Pāñcika【印順】</note><app n="0122a0401"><lem resp="正聞出版社" wit="【CB】">Pañcika</lem><rdg wit="【印順】">Pāñcika</rdg></app></foreign>），與<lb n="0124a03" ed="Y" type="old"/>女
+<lb n="0122a05" ed="Y"/>夜叉訶黎帝耶（<foreign xml:lang="sa"><note n="0122a0501" resp="CBETA" type="add">Hārītī【CB】，Harītī【印順】</note><app n="0122a0501"><lem resp="正聞出版社" wit="【CB】">Hārītī</lem><rdg wit="【印順】">Harītī</rdg></app></foreign>），及五百子，也歸依佛法。<title level="m">《根有律》</title>的<bibl><title level="m">《雜事》</title><biblScope n="40" type="卷">（卷四
 <lb n="0122a06" ed="Y"/><lb n="0124a04" ed="Y" type="old"/>〇）</biblScope></bibl>說：訶黎底藥叉女，是犍陀羅藥叉半支迦（即槃度）的妻子。<cit><bibl><title level="m">《佛說孔雀王
 <lb n="0122a07" ed="Y"/><lb n="0124a05" ed="Y" type="old"/>咒經》</title>，也說：</bibl><quote source="T19n0984_p0451b05" type="嚴謹引文">「般之介夜叉，住劫賓國。」</quote><note n="0122003" resp="周怡曄" type="add">《孔雀王咒經》卷1(CBETA, T19, no. 984, p. 451, b5)</note></cit>所以依中國舊傳、本傳及錫蘭的共
-<lb n="0122a08" ed="Y"/><lb n="0124a06" ed="Y" type="old"/>同傳說，無論罽賓的原語是 <foreign xml:lang="sa"><note n="0122a0801" resp="CBETA" type="add">Kaśpira【CB】，Kaspīra【印順】</note><app n="0122a0801"><lem wit="【CB】" resp="正聞出版社">Kaśpira</lem><rdg wit="【印順】">Kaspīra</rdg></app></foreign> 或者 <foreign xml:lang="sa"><note n="0122a0802" resp="CBETA" type="add">Kaśmīra【CB】，Kashmir【印順】</note><app n="0122a0802"><lem wit="【CB】" resp="正聞出版社">Kaśmīra</lem><rdg wit="【印順】">Kashmir</rdg></app></foreign>，都指懸度西南、犍陀羅<lb n="0124a07" ed="Y" type="old"/>以北
+<lb n="0122a08" ed="Y"/><lb n="0124a06" ed="Y" type="old"/>同傳說，無論罽賓的原語是 <foreign xml:lang="sa"><note n="0122a0801" resp="CBETA" type="add">Kaśpira【CB】，Kaspīra【印順】</note><app n="0122a0801"><lem resp="正聞出版社" wit="【CB】">Kaśpira</lem><rdg wit="【印順】">Kaspīra</rdg></app></foreign> 或者 <foreign xml:lang="sa"><note n="0122a0802" resp="CBETA" type="add">Kaśmīra【CB】，Kashmir【印順】</note><app n="0122a0802"><lem resp="正聞出版社" wit="【CB】">Kaśmīra</lem><rdg wit="【印順】">Kashmir</rdg></app></foreign>，都指懸度西南、犍陀羅<lb n="0124a07" ed="Y" type="old"/>以北
 <lb n="0122a09" ed="Y"/>一帶。這一原語，被擴充而使用於犍陀羅——業波、業波羅，用於東鄰的喀<lb n="0124a08" ed="Y" type="old"/>什米
 <lb n="0122a10" ed="Y"/>爾，用於西鄰的迦畢試。罽賓的隸跋陀山，<title level="m">《藥事》</title>說在稻穀樓閣城<lb n="0124a09" ed="Y" type="old"/>（<foreign xml:lang="sa">Koṣṭhā</foreign>）
 <lb n="0122a11" ed="Y"/>——瞢揭釐（<foreign xml:lang="sa">Maṅgali</foreign>）與那揭羅曷間，這也可見不會是東面的喀什米爾<lb n="0124a10" ed="Y" type="old"/>的。總
 <lb n="0122a12" ed="Y"/>之，本傳所說的如來聖跡，都在須呵多河與高附河流域，即古代所說的罽<lb n="0124a11" ed="Y" type="old"/>賓區。</p>
-<lb n="0122a13" ed="Y"/><lb n="0124a12" ed="Y" type="old"/><p style="text-indent:2em">二、阿育王設大會時，召請諸方的賢聖僧。除佛教共傳的阿耨達池、香醉山
+<lb n="0122a13" ed="Y"/><lb n="0124a12" ed="Y" type="old"/><p xml:id="pY22p0122a1301" style="text-indent:2em">二、阿育王設大會時，召請諸方的賢聖僧。除佛教共傳的阿耨達池、香醉山
 <pb n="0123a" ed="Y" xml:id="Y22.0022.0123a"/>
 <lb n="0123a01" ed="Y"/><lb n="0124a13" ed="Y" type="old"/>等而外，有：</p><pb n="0125a" ed="Y" xml:id="Y22.0022.0125a.old" type="old"/>
-<lb n="0123a02" ed="Y"/><lb n="0125a01" ed="Y" type="old"/><p style="margin-left:3em"><cit><quote type="嚴謹引文">「居住罽賓：晝夜無畏、摩訶婆那、離越諸聖。」</quote><bibl>（晉譯卷二）</bibl><note n="0123001" resp="厚觀法師" type="add">《阿育王傳》卷2(CBETA, T50, no. 2042, p. 105, a26-27)</note></cit></p>
-<lb n="0123a03" ed="Y"/><lb n="0125a02" ed="Y" type="old"/><p style="text-indent:2em">梁譯說：<quote source="T50n2043_p0139c06" type="嚴謹引文">「於罽賓國處」<note n="0123002" resp="周怡曄" type="add">《阿育王經》卷3〈3 供養菩提樹因緣品〉(CBETA, T50, no. 2043, p. 139, c6)</note></quote>，可知罽賓為總名，離越等都是屬於罽賓的。<quote type="嚴謹引文">「晝
+<lb n="0123a02" ed="Y"/><lb n="0125a01" ed="Y" type="old"/><p xml:id="pY22p0123a0201" style="margin-left:3em"><cit><quote type="嚴謹引文">「居住罽賓：晝夜無畏、摩訶婆那、離越諸聖。」</quote><bibl>（晉譯卷二）</bibl><note n="0123001" resp="厚觀法師" type="add">《阿育王傳》卷2(CBETA, T50, no. 2042, p. 105, a26-27)</note></cit></p>
+<lb n="0123a03" ed="Y"/><lb n="0125a02" ed="Y" type="old"/><p xml:id="pY22p0123a0301" style="text-indent:2em">梁譯說：<quote source="T50n2043_p0139c06" type="嚴謹引文">「於罽賓國處」<note n="0123002" resp="周怡曄" type="add">《阿育王經》卷3〈3 供養菩提樹因緣品〉(CBETA, T50, no. 2043, p. 139, c6)</note></quote>，可知罽賓為總名，離越等都是屬於罽賓的。<quote type="嚴謹引文">「晝
 <lb n="0123a04" ed="Y"/><lb n="0125a03" ed="Y" type="old"/>夜無畏」</quote>，宋譯作多波婆，梁譯作闇林，梵語為 <foreign xml:lang="sa">Tamasāvana</foreign>。闇林本為森林地
-<lb n="0123a05" ed="Y"/><lb n="0125a04" ed="Y" type="old"/>的通名，但這裡所說的，是北印有名的聖地，<bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="118">（卷一一八）</biblScope></bibl>也曾
-<lb n="0123a06" ed="Y"/><lb n="0125a05" ed="Y" type="old"/>說到。<bibl><title level="m">《西域記》</title><biblScope type="卷" n="4">（卷四）</biblScope></bibl>說：</p>
-<lb n="0123a07" ed="Y"/><lb n="0125a06" ed="Y" type="old"/><quote source="T51n2087_p0889b15-29" type="嚴謹引文"><p style="margin-left:3em">「至那僕底國，……大城東南行五百餘里，至答秣蘇伐那僧伽藍（唐言闇
+<lb n="0123a05" ed="Y"/><lb n="0125a04" ed="Y" type="old"/>的通名，但這裡所說的，是北印有名的聖地，<bibl><title level="m">《大毘婆沙論》</title><biblScope n="118" type="卷">（卷一一八）</biblScope></bibl>也曾
+<lb n="0123a06" ed="Y"/><lb n="0125a05" ed="Y" type="old"/>說到。<bibl><title level="m">《西域記》</title><biblScope n="4" type="卷">（卷四）</biblScope></bibl>說：</p>
+<lb n="0123a07" ed="Y"/><lb n="0125a06" ed="Y" type="old"/><quote source="T51n2087_p0889b15-29" type="嚴謹引文"><p xml:id="pY22p0123a0701" style="margin-left:3em">「至那僕底國，……大城東南行五百餘里，至答秣蘇伐那僧伽藍（唐言闇
 <lb n="0123a08" ed="Y"/><lb n="0125a07" ed="Y" type="old"/>林）。」<note n="0123003" resp="周怡曄" type="add">《大唐西域記》卷4(CBETA, T51, no. 2087, p. 889, b15-29)</note></p></quote>
-<lb n="0123a09" ed="Y"/><lb n="0125a08" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《藥事》</title>於遊行北天竺的途中，首先即望見闇林說：</p>
-<lb n="0123a10" ed="Y"/><lb n="0125a09" ed="Y" type="old"/><quote type="嚴謹引文"><p style="margin-left:3em">「我滅度一百年後，當於此處造僧伽毘訶羅，名曰暗林（多磨沙林）。」</p></quote>
-<lb n="0123a11" ed="Y"/><lb n="0125a10" ed="Y" type="old"/><lb n="0125a11" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《藥事》</title>與<title level="m">《西域記》</title>所說的闇林，遠在薩特里（<foreign xml:lang="sa">Sutlej</foreign>）河上游的南岸。<lb n="0125a12" ed="Y" type="old"/>趙
+<lb n="0123a09" ed="Y"/><lb n="0125a08" ed="Y" type="old"/><p xml:id="pY22p0123a0901" style="text-indent:2em"><title level="m">《藥事》</title>於遊行北天竺的途中，首先即望見闇林說：</p>
+<lb n="0123a10" ed="Y"/><lb n="0125a09" ed="Y" type="old"/><quote type="嚴謹引文"><p xml:id="pY22p0123a1001" style="margin-left:3em">「我滅度一百年後，當於此處造僧伽毘訶羅，名曰暗林（多磨沙林）。」</p></quote>
+<lb n="0123a11" ed="Y"/><lb n="0125a10" ed="Y" type="old"/><lb n="0125a11" ed="Y" type="old"/><p xml:id="pY22p0123a1101" style="text-indent:2em"><title level="m">《藥事》</title>與<title level="m">《西域記》</title>所說的闇林，遠在薩特里（<foreign xml:lang="sa">Sutlej</foreign>）河上游的南岸。<lb n="0125a12" ed="Y" type="old"/>趙
 <lb n="0123a12" ed="Y"/>宋譯經師天息災所屬的「惹爛馱羅國密林寺」，也即此處。但這與古傳北印的<lb n="0125a13" ed="Y" type="old"/>闇
 <lb n="0123a13" ed="Y"/>林不合，如<bibl><title level="m">《大莊嚴經論》</title><biblScope n="4" type="卷">（卷四）</biblScope></bibl>說：弗羯羅衛（<foreign xml:lang="sa">Puṣkarāvatī</foreign>）畫師，從<pb n="0126a" ed="Y" xml:id="Y22.0022.0126a.old" type="old"/><lb n="0126a01" ed="Y" type="old"/>石室
 <pb n="0124a" ed="Y" xml:id="Y22.0022.0124a"/>
 <lb n="0124a01" ed="Y"/>國回家，路見晝闇山作大會，即將三十兩金供僧。<bibl><title level="m">《大智度論》</title><biblScope n="11" type="卷">（卷一一）</biblScope></bibl>與<bibl><title level="m">《
-<lb n="0124a02" ed="Y"/><lb n="0126a02" ed="Y" type="old"/>雜寶藏經》</title><biblScope type="卷" n="4">（卷四）</biblScope></bibl>，都說到這一故事。弗羯羅衛，<title level="m">《大智度論》</title>作弗迦羅，即<title level="m">《
+<lb n="0124a02" ed="Y"/><lb n="0126a02" ed="Y" type="old"/>雜寶藏經》</title><biblScope n="4" type="卷">（卷四）</biblScope></bibl>，都說到這一故事。弗羯羅衛，<title level="m">《大智度論》</title>作弗迦羅，即<title level="m">《
 <lb n="0124a03" ed="Y"/>西<lb n="0126a03" ed="Y" type="old"/>域記》</title>的布色羯羅伐底。石室，解說為怛叉始羅（<foreign xml:lang="sa">Takṣaśilā</foreign>）的很多。如拘那
 <lb n="0124a04" ed="Y"/><lb n="0126a04" ed="Y" type="old"/>羅（<foreign xml:lang="sa">Kuṇāla</foreign>）去怛叉始羅，<title level="m">《王子壞目因緣經》</title>即作石室。<title level="m">《大智度論》</title>作多利
 <lb n="0124a05" ed="Y"/><lb n="0126a05" ed="Y" type="old"/>陀羅，多字實為草書分（<figure><graphic url="../figures/Y/Y22p0124_01.gif"></graphic><figDesc>分</figDesc></figure>）字的訛寫。考給孤獨長者的愛女，遠嫁多信尼乾外
@@ -350,28 +370,28 @@
 <pb n="0125a" ed="Y" xml:id="Y22.0022.0125a"/>
 <lb n="0125a01" ed="Y"/>大林。<bibl><title level="m">《西域記》</title><pb n="0127a" ed="Y" xml:id="Y22.0022.0127a.old" type="old"/><lb n="0127a01" ed="Y" type="old"/><biblScope n="3" type="卷">（卷三）</biblScope></bibl>說：瞢揭釐城南二百里，有大林伽藍。<title level="m">《大莊嚴論探
 <lb n="0125a02" ed="Y"/>源》</title>，考為在今印<lb n="0127a02" ed="Y" type="old"/>度河西岸，阿多克城（<foreign>Attock</foreign>）北。<quote type="嚴謹引文">「離越」</quote>即離越多——隸
-<lb n="0125a03" ed="Y"/>跋陀山。<cit><bibl><title level="m">《大智度論》</title><lb n="0127a03" ed="Y" type="old"/><biblScope type="卷" n="9">（卷九）</biblScope>附注說：</bibl><quote source="T25n1509_p0126c05" type="嚴謹引文">「此山下有離越寺。」</quote><note n="0125001" resp="周怡曄" type="add">《大智度論》卷9〈1 序品〉(CBETA, T25, no. 1509, p. 126, c5)</note></cit><bibl><title level="m">《大莊嚴經論》</title><biblScope n="15" type="卷">（
+<lb n="0125a03" ed="Y"/>跋陀山。<cit><bibl><title level="m">《大智度論》</title><lb n="0127a03" ed="Y" type="old"/><biblScope n="9" type="卷">（卷九）</biblScope>附注說：</bibl><quote source="T25n1509_p0126c05" type="嚴謹引文">「此山下有離越寺。」</quote><note n="0125001" resp="周怡曄" type="add">《大智度論》卷9〈1 序品〉(CBETA, T25, no. 1509, p. 126, c5)</note></cit><bibl><title level="m">《大莊嚴經論》</title><biblScope n="15" type="卷">（
 <lb n="0125a04" ed="Y"/>卷一五）</biblScope></bibl>，也說到罽<lb n="0127a04" ed="Y" type="old"/>賓的離越寺。這樣，闇林伽藍、大林伽藍、離越寺，都在罽
 <lb n="0125a05" ed="Y"/>賓——犍陀羅及西北<lb n="0127a05" ed="Y" type="old"/>地方，這是北方佛教的重鎮！</p>
-<lb n="0125a06" ed="Y"/><lb n="0127a06" ed="Y" type="old"/><p style="text-indent:2em">如來遊化的聖跡，賢聖眾的住處，本傳所說的，都在這高附河與須呵多河流
+<lb n="0125a06" ed="Y"/><lb n="0127a06" ed="Y" type="old"/><p xml:id="pY22p0125a0601" style="text-indent:2em">如來遊化的聖跡，賢聖眾的住處，本傳所說的，都在這高附河與須呵多河流
 <lb n="0125a07" ed="Y"/><lb n="0127a07" ed="Y" type="old"/>域。所以本傳編集的地點，必在這一區域無疑。</p></cb:div>
 <lb n="0125a08" ed="Y"/><lb n="0127a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　優婆毱多中心的法系</cb:mulu><head>四　優婆毱多中心的法系</head>
-<lb n="0125a09" ed="Y"/><lb n="0127a09" ed="Y" type="old"/><cb:mulu level="3" type="其他">一　五師相承說</cb:mulu><head>一　五師相承說</head><p style="text-indent:2em">付法系統的五師相承，是中國舊有的傳說，兩晉時代已普
+<lb n="0125a09" ed="Y"/><lb n="0127a09" ed="Y" type="old"/><cb:mulu level="3" type="其他">一　五師相承說</cb:mulu><head>一　五師相承說</head><p xml:id="pY22p0125a0913" style="text-indent:2em">付法系統的五師相承，是中國舊有的傳說，兩晉時代已普
 <lb n="0125a10" ed="Y"/><lb n="0127a10" ed="Y" type="old"/>遍流傳。這一傳說的最早記錄，即是<title level="m">《阿育王傳》</title>。如晉譯（卷六）說：</p>
-<lb n="0125a11" ed="Y"/><lb n="0127a11" ed="Y" type="old"/><quote source="T50n2042_p0126b02-10" type="嚴謹引文"><p style="margin-left:3em">「尊者（優波）毱多……語提多迦言：子！佛以法付囑迦葉，迦葉以法付
+<lb n="0125a11" ed="Y"/><lb n="0127a11" ed="Y" type="old"/><quote source="T50n2042_p0126b02-10" type="嚴謹引文"><p xml:id="pY22p0125a1101" style="margin-left:3em">「尊者（優波）毱多……語提多迦言：子！佛以法付囑迦葉，迦葉以法付
 <lb n="0125a12" ed="Y"/><lb n="0127a12" ed="Y" type="old"/>囑阿難，阿難以法付我和上商那和修，商那和修以法付我，我今以法付囑<pb n="0128a" ed="Y" xml:id="Y22.0022.0128a.old" type="old"/>
 <pb n="0126a" ed="Y" xml:id="Y22.0022.0126a"/>
 <lb n="0126a01" ed="Y"/><lb n="0128a01" ed="Y" type="old"/>於汝。」<note n="0126001" resp="周怡曄" type="add">《阿育王傳》卷6(CBETA, T50, no. 2042, p. 126, b2-10)</note></p></quote>
-<lb n="0126a02" ed="Y"/><lb n="0128a02" ed="Y" type="old"/><p style="text-indent:2em">晉譯的傳譯雖早，西元二九〇——三〇六，然古代的中國學者，不是直據原
+<lb n="0126a02" ed="Y"/><lb n="0128a02" ed="Y" type="old"/><p xml:id="pY22p0126a0201" style="text-indent:2em">晉譯的傳譯雖早，西元二九〇——三〇六，然古代的中國學者，不是直據原
 <lb n="0126a03" ed="Y"/><lb n="0128a03" ed="Y" type="old"/>始傳說，而是依據間接的後起的傳說。如慧遠（與慧觀）的<title level="a">〈禪經序〉</title>，依覺賢
 <lb n="0126a04" ed="Y"/><lb n="0128a04" ed="Y" type="old"/>所譯的<title level="m">《禪經》</title>，列阿難到優波毱多——四師，說以後<quote>「有五部之異」</quote>。法顯的
 <lb n="0126a05" ed="Y"/><lb n="0128a05" ed="Y" type="old"/><title level="a">〈摩訶僧祇律私記〉</title>，依東晉失譯的<title level="m">《舍利弗問經》</title>，列迦葉到優波掘多——五
 <lb n="0126a06" ed="Y"/><lb n="0128a06" ed="Y" type="old"/>師，說以後律<quote>「有五部名生」</quote>。這東晉時代的傳說，與西晉舊譯不同。</p>
-<lb n="0126a07" ed="Y"/><lb n="0128a07" ed="Y" type="old"/><p cb:type="pre">　　　阿育王傳──迦葉……阿難…………………商那和修…優波毱多…提多迦
+<lb n="0126a07" ed="Y"/><lb n="0128a07" ed="Y" type="old"/><p cb:type="pre" xml:id="pY22p0126a0701">　　　阿育王傳──迦葉……阿難…………………商那和修…優波毱多…提多迦
 <lb n="0126a08" ed="Y"/>　　　　　　　　　　　　　　　└……摩田地
 <lb n="0126a09" ed="Y"/>　　　禪經────────阿難………末田地…舍那婆斯…優波掘多
 <lb n="0126a10" ed="Y"/>　　　舍利弗問經─迦葉……阿難………末田地…舍那婆斯…優波掘多</p>
-<lb n="0126a11" ed="Y"/><lb n="0128a11" ed="Y" type="old"/><p style="text-indent:2em">商那和修（<foreign xml:lang="sa"><note n="0126a1101" resp="CBETA" type="add">Śāṇaka-vāsin【CB】，Sāṇavāsī【印順】</note><app n="0126a1101"><lem wit="【CB】" resp="正聞出版社">Śāṇaka-vāsin</lem><rdg wit="【印順】">Sāṇavāsī</rdg></app></foreign>）即舍那婆斯。可見<title level="m">《禪經》</title>與<title level="m">《舍利弗問經》</title>，對於
+<lb n="0126a11" ed="Y"/><lb n="0128a11" ed="Y" type="old"/><p xml:id="pY22p0126a1101" style="text-indent:2em">商那和修（<foreign xml:lang="sa"><note n="0126a1101" resp="CBETA" type="add">Śāṇaka-vāsin【CB】，Sāṇavāsī【印順】</note><app n="0126a1101"><lem resp="正聞出版社" wit="【CB】">Śāṇaka-vāsin</lem><rdg wit="【印順】">Sāṇavāsī</rdg></app></foreign>）即舍那婆斯。可見<title level="m">《禪經》</title>與<title level="m">《舍利弗問經》</title>，對於
 <lb n="0126a12" ed="Y"/><lb n="0128a12" ed="Y" type="old"/><title level="m">《阿育王傳》</title>中阿難弟子摩田提，忽略他與商那和修的同受付囑，把他作為阿難
 <lb n="0126a13" ed="Y"/>與<lb n="0128a13" ed="Y" type="old"/>商那和修間的傳法者，這是怎樣的錯誤！梁譯的<title level="m">《阿育王經》</title>，也與<title level="m">《舍利弗
 <pb n="0127a" ed="Y" xml:id="Y22.0022.0127a"/>
@@ -379,13 +399,13 @@
 <lb n="0127a02" ed="Y"/>教<lb n="0129a02" ed="Y" type="old"/>的開創者——摩田提為傳法中人，這才修改了<title level="m">《阿育王傳》</title>的舊說。然依<title level="m">《阿
 <lb n="0127a03" ed="Y"/>育王<lb n="0129a03" ed="Y" type="old"/>傳》</title>（及梁譯）所說，阿難付囑商那和修與摩田提，商那和修付囑優婆毱多
 <lb n="0127a04" ed="Y"/>來說<lb n="0129a04" ed="Y" type="old"/>，晉譯的舊有傳說，更為適當！</p>
-<lb n="0127a05" ed="Y"/><lb n="0129a05" ed="Y" type="old"/><p style="text-indent:2em">五師相承，罽賓有迦葉等傳法說，優婆毱多與阿育王同時。錫蘭也有五師相
+<lb n="0127a05" ed="Y"/><lb n="0129a05" ed="Y" type="old"/><p xml:id="pY22p0127a0501" style="text-indent:2em">五師相承，罽賓有迦葉等傳法說，優婆毱多與阿育王同時。錫蘭也有五師相
 <lb n="0127a06" ed="Y"/><lb n="0129a06" ed="Y" type="old"/>承說，五師是優波離（<foreign xml:lang="x-sa-pi">Upāli</foreign>）、馱寫拘（<foreign xml:lang="sa">Dāsaka</foreign>）、蘇那拘（<foreign xml:lang="sa">Sonaka</foreign>）、悉伽婆
 <lb n="0127a07" ed="Y"/><lb n="0129a07" ed="Y" type="old"/>（<foreign xml:lang="sa">Siggava</foreign>）、目犍連子帝須（<foreign xml:lang="pi">Moggaliputta tissa</foreign>），帝須也與阿育王同時。<lb n="0129a08" ed="Y" type="old"/>從
 <lb n="0127a08" ed="Y"/>佛滅到阿育王，屬於上座系的罽賓與錫蘭佛教，同有這四師或五師相承說。即<lb n="0129a09" ed="Y" type="old"/>使
 <lb n="0127a09" ed="Y"/>錫蘭舊有此說，都可相信為：佛滅到阿育王時，法系已經四傳。至於所傳的五<lb n="0129a10" ed="Y" type="old"/>師
 <lb n="0127a10" ed="Y"/>不同，那是法系各別，如迦葉等是經師與禪師，優波離等是律師。</p>
-<lb n="0127a11" ed="Y"/><lb n="0129a11" ed="Y" type="old"/><p style="text-indent:2em">從佛滅到孔雀王朝的阿育王間，有東方毘舍離（<foreign xml:lang="sa"><note n="0127a1101" resp="CBETA" type="add">Vaiśālī【CB】，Vaiśāli【印順】</note><app n="0127a1101"><lem wit="【CB】" resp="正聞出版社">Vaiśālī</lem><rdg wit="【印順】">Vaiśāli</rdg></app></foreign>）的七百結集，這<lb n="0129a12" ed="Y" type="old"/>是
+<lb n="0127a11" ed="Y"/><lb n="0129a11" ed="Y" type="old"/><p xml:id="pY22p0127a1101" style="text-indent:2em">從佛滅到孔雀王朝的阿育王間，有東方毘舍離（<foreign xml:lang="sa"><note n="0127a1101" resp="CBETA" type="add">Vaiśālī【CB】，Vaiśāli【印順】</note><app n="0127a1101"><lem resp="正聞出版社" wit="【CB】">Vaiśālī</lem><rdg wit="【印順】">Vaiśāli</rdg></app></foreign>）的七百結集，這<lb n="0129a12" ed="Y" type="old"/>是
 <lb n="0127a12" ed="Y"/>律家所傳而為南北共信的史實。發起結集的，是耶舍，是阿難弟子；唯<title level="m">《雜事<lb n="0129a13" ed="Y" type="old"/>》</title>
 <lb n="0127a13" ed="Y"/>說是阿難的再傳。罽賓所傳的第三師商那和修，也是七百結集中的重要人物。<pb n="0130a" ed="Y" xml:id="Y22.0022.0130a.old" type="old"/><lb n="0130a01" ed="Y" type="old"/><title level="m">《
 <pb n="0128a" ed="Y" xml:id="Y22.0022.0128a"/>
@@ -400,10 +420,10 @@
 <lb n="0128a09" ed="Y"/>蘭傳者高抬自宗的祖師，附合於古代的重要史實，以強調這一法系<lb n="0130a10" ed="Y" type="old"/>在初期佛教中
 <lb n="0128a10" ed="Y"/>的正統性而已。關於這，罽賓所傳第三師商那和修為七百結集<lb n="0130a11" ed="Y" type="old"/>的代表，絕非錫蘭
 <lb n="0128a11" ed="Y"/>傳自稱須那拘集毘尼可比！</p>
-<lb n="0128a12" ed="Y"/><lb n="0130a12" ed="Y" type="old"/><p style="text-indent:2em">罽賓傳，商那和修傳於優波毱多；錫蘭傳，須那拘再傳到目犍連子帝須，即
+<lb n="0128a12" ed="Y"/><lb n="0130a12" ed="Y" type="old"/><p xml:id="pY22p0128a1201" style="text-indent:2em">罽賓傳，商那和修傳於優波毱多；錫蘭傳，須那拘再傳到目犍連子帝須，即
 <lb n="0128a13" ed="Y"/><lb n="0130a13" ed="Y" type="old"/>到了育王的時代。</p><pb n="0131a" ed="Y" xml:id="Y22.0022.0131a.old" type="old"/>
 <pb n="0129a" ed="Y" xml:id="Y22.0022.0129a"/>
-<lb n="0129a01" ed="Y"/><lb n="0131a01" ed="Y" type="old"/><cb:mulu level="3" type="其他">二　育王時代的大德</cb:mulu><head>二　育王時代的大德</head><p style="text-indent:2em">教化育王的善覺比丘：感化育王的，本傳三譯，都作
+<lb n="0129a01" ed="Y"/><lb n="0131a01" ed="Y" type="old"/><cb:mulu level="3" type="其他">二　育王時代的大德</cb:mulu><head>二　育王時代的大德</head><p xml:id="pY22p0129a0117" style="text-indent:2em">教化育王的善覺比丘：感化育王的，本傳三譯，都作
 <lb n="0129a02" ed="Y"/><lb n="0131a02" ed="Y" type="old"/>海比丘；<title level="m">《釋迦譜》</title>引<title level="m">《大阿育王經》</title>，作海意比丘。海即經中常見的薩羅<lb n="0131a03" ed="Y" type="old"/>（
 <lb n="0129a03" ed="Y"/><foreign xml:lang="sa">Samudra</foreign>, <foreign xml:lang="pi">Samudda</foreign>）。<title level="m">《分別功德論》</title>說：阿難的弟子優多羅（<foreign xml:lang="x-sa-pi">Uttara</foreign>），優<lb n="0131a04" ed="Y" type="old"/>多
 <lb n="0129a04" ed="Y"/>羅的弟子善覺老比丘，感化了育王。善覺（<foreign xml:lang="pi">Samiddhi</foreign>）與海，實為同人的異<lb n="0131a05" ed="Y" type="old"/>傳。
@@ -412,29 +432,29 @@
 <lb n="0129a07" ed="Y"/>我以為這本是老比丘或上座，所以說為沙彌，不過<quote>「沙彌雖小不可輕」</quote>，形容<lb n="0131a08" ed="Y" type="old"/>佛
 <lb n="0129a08" ed="Y"/>法的偉大而已。善覺比丘，應確為阿育王時人。然阿育王是否因善覺而歸依佛<lb n="0131a09" ed="Y" type="old"/>法
 <lb n="0129a09" ed="Y"/>，由於別有不同的傳說，也還不能確定。</p>
-<lb n="0129a10" ed="Y"/><lb n="0131a10" ed="Y" type="old"/><p style="text-indent:2em">大天——摩訶提婆（<foreign xml:lang="sa">Mahādeva</foreign>）：<bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="99">（卷九九）</biblScope></bibl>說：大天是<lb n="0131a11" ed="Y" type="old"/>波
-<lb n="0129a11" ed="Y"/>吒梨（華氏城）王時人。<bibl><title level="m">《善見律》</title><biblScope type="卷" n="2">（卷二）</biblScope></bibl>說：大天與育王同時，是王子摩<lb n="0131a12" ed="Y" type="old"/>哂
-<lb n="0129a12" ed="Y"/>陀（<foreign xml:lang="pi">Mahinda</foreign>）的阿闍黎，到摩醯<note n="0129a1201" resp="CBETA" type="add">沙慢【CB】，娑末【印順】</note><app n="0129a1201"><lem wit="【CB】" resp="正聞出版社">沙慢</lem><rdg wit="【印順】">娑末</rdg></app>陀羅（<foreign xml:lang="sa"><note n="0129a1202" resp="CBETA" type="add">Mahisamaṇḍala【CB】，Mahisa-maṇḍala【印順】</note><app n="0129a1202"><lem wit="【CB】" resp="正聞出版社">Mahisamaṇḍala</lem><rdg wit="【印順】">Mahisa-maṇḍala</rdg></app></foreign>）的傳教師。<lb n="0131a13" ed="Y" type="old"/>玄奘
+<lb n="0129a10" ed="Y"/><lb n="0131a10" ed="Y" type="old"/><p xml:id="pY22p0129a1001" style="text-indent:2em">大天——摩訶提婆（<foreign xml:lang="sa">Mahādeva</foreign>）：<bibl><title level="m">《大毘婆沙論》</title><biblScope n="99" type="卷">（卷九九）</biblScope></bibl>說：大天是<lb n="0131a11" ed="Y" type="old"/>波
+<lb n="0129a11" ed="Y"/>吒梨（華氏城）王時人。<bibl><title level="m">《善見律》</title><biblScope n="2" type="卷">（卷二）</biblScope></bibl>說：大天與育王同時，是王子摩<lb n="0131a12" ed="Y" type="old"/>哂
+<lb n="0129a12" ed="Y"/>陀（<foreign xml:lang="pi">Mahinda</foreign>）的阿闍黎，到摩醯<note n="0129a1201" resp="CBETA" type="add">沙慢【CB】，娑末【印順】</note><app n="0129a1201"><lem resp="正聞出版社" wit="【CB】">沙慢</lem><rdg wit="【印順】">娑末</rdg></app>陀羅（<foreign xml:lang="sa"><note n="0129a1202" resp="CBETA" type="add">Mahisamaṇḍala【CB】，Mahisa-maṇḍala【印順】</note><app n="0129a1202"><lem resp="正聞出版社" wit="【CB】">Mahisamaṇḍala</lem><rdg wit="【印順】">Mahisa-maṇḍala</rdg></app></foreign>）的傳教師。<lb n="0131a13" ed="Y" type="old"/>玄奘
 <lb n="0129a13" ed="Y"/>譯<title level="m">《異部宗輪論》</title>，說大天是育王時人，與<title level="m">《善見律》</title>相合。在有部的傳說<pb n="0132a" ed="Y" xml:id="Y22.0022.0132a.old" type="old"/><lb n="0132a01" ed="Y" type="old"/>中，
 <pb n="0130a" ed="Y" xml:id="Y22.0022.0130a"/>
 <lb n="0130a01" ed="Y"/>大天是受到攻訐的。大概有部與大天，有思想的不同或教化權的爭執。本<lb n="0132a02" ed="Y" type="old"/>傳雖沒
 <lb n="0130a02" ed="Y"/>有明說大天，但有與大天行徑一致的三藏，如晉譯（卷五）說：</p>
-<lb n="0130a03" ed="Y"/><lb n="0132a03" ed="Y" type="old"/><quote source="T50n2042_p0120c10-16" type="嚴謹引文"><p style="margin-left:3em">「南天竺，有一男子，與他婦女交通。母語兒言：與他交通，是大惡法。
+<lb n="0130a03" ed="Y"/><lb n="0132a03" ed="Y" type="old"/><quote source="T50n2042_p0120c10-16" type="嚴謹引文"><p xml:id="pY22p0130a0301" style="margin-left:3em">「南天竺，有一男子，與他婦女交通。母語兒言：與他交通，是大惡法。
 <lb n="0130a04" ed="Y"/>…<lb n="0132a04" ed="Y" type="old"/>…聞是語已，即殺其母。往至他家，求彼女人，竟不獲得。心生厭惡，
 <lb n="0130a05" ed="Y"/>即<lb n="0132a05" ed="Y" type="old"/>便出家。不久，受持讀誦三藏經，教習徒眾，多諸弟子。將其徒眾，至
 <lb n="0130a06" ed="Y"/>尊<lb n="0132a06" ed="Y" type="old"/>者毱多所。尊者知其犯於逆罪，竟不與語。」<note n="0130001" resp="周怡曄" type="add">《阿育王傳》卷5(CBETA, T50, no. 2042, p. 120, c10-16)</note></p></quote>
-<lb n="0130a07" ed="Y"/><lb n="0132a07" ed="Y" type="old"/><p style="text-indent:2em">西元二世紀編集的<title level="m">《大毘婆沙論》</title>，即大為<note n="0130a0701" resp="CBETA" type="add">渲【CB】，煊【印順】</note><app n="0130a0701"><lem wit="【CB】" resp="正聞出版社">渲</lem><rdg wit="【印順】">煊</rdg></app>染，說大天與母私通，又殺父
+<lb n="0130a07" ed="Y"/><lb n="0132a07" ed="Y" type="old"/><p xml:id="pY22p0130a0701" style="text-indent:2em">西元二世紀編集的<title level="m">《大毘婆沙論》</title>，即大為<note n="0130a0701" resp="CBETA" type="add">渲【CB】，煊【印順】</note><app n="0130a0701"><lem resp="正聞出版社" wit="【CB】">渲</lem><rdg wit="【印順】">煊</rdg></app>染，說大天與母私通，又殺父
 <lb n="0130a08" ed="Y"/><lb n="0132a08" ed="Y" type="old"/>、殺母、殺阿羅漢，造三逆罪。優波毱多與大天同時，即為優婆毱多與育王同世
 <lb n="0130a09" ed="Y"/><lb n="0132a09" ed="Y" type="old"/>的好論據。</p>
-<lb n="0130a10" ed="Y"/><lb n="0132a10" ed="Y" type="old"/><p style="text-indent:2em">罽賓的善見比丘：善見與優婆毱多同時，如晉譯（卷六）說：</p>
-<lb n="0130a11" ed="Y"/><lb n="0132a11" ed="Y" type="old"/><quote source="T50n2042_p0126a04-20" type="嚴謹引文"><p style="margin-left:3em">「時罽賓國有一比丘，名曰善見，獲世俗四禪。……善見大得利養，便起
+<lb n="0130a10" ed="Y"/><lb n="0132a10" ed="Y" type="old"/><p xml:id="pY22p0130a1001" style="text-indent:2em">罽賓的善見比丘：善見與優婆毱多同時，如晉譯（卷六）說：</p>
+<lb n="0130a11" ed="Y"/><lb n="0132a11" ed="Y" type="old"/><quote source="T50n2042_p0126a04-20" type="嚴謹引文"><p xml:id="pY22p0130a1101" style="margin-left:3em">「時罽賓國有一比丘，名曰善見，獲世俗四禪。……善見大得利養，便起
 <lb n="0130a12" ed="Y"/><lb n="0132a12" ed="Y" type="old"/>憍慢。……往詣尊者，求教授法。……尊者教授，便得羅漢。」<note n="0130002" resp="周怡曄" type="add">《阿育王傳》卷6(CBETA, T50, no. 2042, p. 126, a4-20)</note></p></quote>
-<lb n="0130a13" ed="Y"/><lb n="0132a13" ed="Y" type="old"/><p style="text-indent:2em">善見（<foreign xml:lang="sa">Sudarśana</foreign>）曾受優波毱多的教導，而有部後出的<title level="m">《根本說一切有部<pb n="0133a" ed="Y" xml:id="Y22.0022.0133a.old" type="old"/><lb n="0133a01" ed="Y" type="old"/>毘
+<lb n="0130a13" ed="Y"/><lb n="0132a13" ed="Y" type="old"/><p xml:id="pY22p0130a1301" style="text-indent:2em">善見（<foreign xml:lang="sa">Sudarśana</foreign>）曾受優波毱多的教導，而有部後出的<title level="m">《根本說一切有部<pb n="0133a" ed="Y" xml:id="Y22.0022.0133a.old" type="old"/><lb n="0133a01" ed="Y" type="old"/>毘
 <pb n="0131a" ed="Y" xml:id="Y22.0022.0131a"/>
 <lb n="0131a01" ed="Y"/>奈耶雜事》</title>，胡扯亂說，杜撰付法七代的傳說。七代是：</p>
-<lb n="0131a02" ed="Y"/><lb n="0133a02" ed="Y" type="old"/><p style="margin-left:3em">迦葉——阿難——奢搦迦——鄔波笈多——地底迦（有媿）——訖里瑟拏
+<lb n="0131a02" ed="Y"/><lb n="0133a02" ed="Y" type="old"/><p xml:id="pY22p0131a0201" style="margin-left:3em">迦葉——阿難——奢搦迦——鄔波笈多——地底迦（有媿）——訖里瑟拏
 <lb n="0131a03" ed="Y"/><lb n="0133a03" ed="Y" type="old"/>（黑色）——蘇跌里舍那（善見）</p>
-<lb n="0131a04" ed="Y"/><lb n="0133a04" ed="Y" type="old"/><p style="text-indent:2em">西藏多氏的<title level="m">《印度佛教史》</title>，依據<title level="m">《雜事》</title>，說七代付法，而年代依殑世彌
+<lb n="0131a04" ed="Y"/><lb n="0133a04" ed="Y" type="old"/><p xml:id="pY22p0131a0401" style="text-indent:2em">西藏多氏的<title level="m">《印度佛教史》</title>，依據<title level="m">《雜事》</title>，說七代付法，而年代依殑世彌
 <lb n="0131a05" ed="Y"/><lb n="0133a05" ed="Y" type="old"/>陀羅跋陀羅的臆說。<title level="m">《雜事》</title>的七代傳法，為五百結集與七百結集間的聯繫，實
 <lb n="0131a06" ed="Y"/><lb n="0133a06" ed="Y" type="old"/>不能不給以糾正。一、從迦葉到提多迦的傳承，本為經師與禪師的法系；<title level="m">《雜事
 <lb n="0131a07" ed="Y"/><lb n="0133a07" ed="Y" type="old"/>》</title>編於結集間，不免混為律學的傳統！二、從迦葉到地底迦，<title level="m">《雜事》</title>所說的，
@@ -452,25 +472,25 @@
 <lb n="0132a05" ed="Y"/>將五師傳承<lb n="0134a05" ed="Y" type="old"/>說擴編為七世，這才造成初期佛教史的混亂！呂澂竟據<title level="m">《雜事》</title>，以
 <lb n="0132a06" ed="Y"/>為優婆毱多<lb n="0134a06" ed="Y" type="old"/>與育王不同時，因而反證錫蘭傳的年代——阿育王登位於佛滅二百十
 <lb n="0132a07" ed="Y"/>八年——為<lb n="0134a07" ed="Y" type="old"/>合理，更為謬誤！其實，<title level="m">《根有律》</title>的後起與雜亂，是無可諱言的。
-<lb n="0132a08" ed="Y"/>如<bibl><title level="m">《藥事》</title><lb n="0134a08" ed="Y" type="old"/><biblScope type="卷" n="9">（卷九）</biblScope></bibl>以為末田地那度優波毱多（「近密」）出家，而<title level="m">《雜事》</title>又
+<lb n="0132a08" ed="Y"/>如<bibl><title level="m">《藥事》</title><lb n="0134a08" ed="Y" type="old"/><biblScope n="9" type="卷">（卷九）</biblScope></bibl>以為末田地那度優波毱多（「近密」）出家，而<title level="m">《雜事》</title>又
 <lb n="0132a09" ed="Y"/>說鄔波笈<lb n="0134a09" ed="Y" type="old"/>多從奢搦迦出家：前後的矛盾如此！至於訖里瑟拏（<foreign xml:lang="sa">Kṛṣṇa</foreign>），依中國
 <lb n="0132a10" ed="Y"/>禪者的傳<lb n="0134a10" ed="Y" type="old"/>說，出於婆須蜜（<foreign xml:lang="sa">Vasumitra</foreign>）——世友以後，<title level="m">《雜事》</title>編為善見的師長
 <lb n="0132a11" ed="Y"/>，也不<lb n="0134a11" ed="Y" type="old"/>可信。</p>
-<lb n="0132a12" ed="Y"/><lb n="0134a12" ed="Y" type="old"/><p style="text-indent:2em">雞園寺的上座夜舍：夜舍（<foreign xml:lang="sa">Yesa</foreign>），或譯耶奢，是教化育王造塔的，勸育王
+<lb n="0132a12" ed="Y"/><lb n="0134a12" ed="Y" type="old"/><p xml:id="pY22p0132a1201" style="text-indent:2em">雞園寺的上座夜舍：夜舍（<foreign xml:lang="sa">Yesa</foreign>），或譯耶奢，是教化育王造塔的，勸育王
 <lb n="0132a13" ed="Y"/><lb n="0134a13" ed="Y" type="old"/>迎請優波毱多的大德。錫蘭的傳說中，沒有提到。七百結集的發起者，是迦蘭陀<pb n="0135a" ed="Y" xml:id="Y22.0022.0135a.old" type="old"/>
 <pb n="0133a" ed="Y" xml:id="Y22.0022.0133a"/>
 <lb n="0133a01" ed="Y"/><lb n="0135a01" ed="Y" type="old"/>子耶舍。或因此以為上座耶舍並無其人，這不過是持律耶舍的誤傳。然耶舍不<lb n="0135a02" ed="Y" type="old"/>一
 <lb n="0133a02" ed="Y"/>定即是七百結集中的耶舍，釋尊的時代，耶舍即不止一人。本傳所說的上座耶<lb n="0135a03" ed="Y" type="old"/>舍
 <lb n="0133a03" ed="Y"/>，如沒有確是七百結集大德的論證，即不能輕率的否認。考<bibl><title level="m">多氏《印度佛教史<lb n="0135a04" ed="Y" type="old"/>》</title>
-<lb n="0133a04" ed="Y"/>（<biblScope type="chap" n="6">六</biblScope>．<biblScope n="4" type="節">四</biblScope>）</bibl>，東方雞園寺主耶舍陀婆闍（<foreign xml:lang="sa">Yesadhvaja</foreign>），應阿育王召，到華氏<lb n="0135a05" ed="Y" type="old"/>城
+<lb n="0133a04" ed="Y"/>（<biblScope n="6" type="chap">六</biblScope>．<biblScope n="4" type="節">四</biblScope>）</bibl>，東方雞園寺主耶舍陀婆闍（<foreign xml:lang="sa">Yesadhvaja</foreign>），應阿育王召，到華氏<lb n="0135a05" ed="Y" type="old"/>城
 <lb n="0133a05" ed="Y"/>為王說法懺悔。又（四．二）說：鬱多羅於央伽（<foreign xml:lang="x-sa-pi">Aṅga</foreign>）教化，上首弟子<lb n="0135a06" ed="Y" type="old"/>為耶舍
 <lb n="0133a06" ed="Y"/>阿羅漢。阿羅漢耶舍，顯然即是耶舍陀婆闍。東方的長老，到華氏城雞頭<lb n="0135a07" ed="Y" type="old"/>摩寺作
 <lb n="0133a07" ed="Y"/>上座，也極為近情。上面說：優多羅的弟子善覺老比丘，與育王同時。耶<lb n="0135a08" ed="Y" type="old"/>舍與善
 <lb n="0133a08" ed="Y"/>覺，同為優多羅弟子，同為阿育王時人。耶舍勸阿育王迎請優波毱多，是<lb n="0135a09" ed="Y" type="old"/>可以信
 <lb n="0133a09" ed="Y"/>受的，不能因名字與古人相同而懷疑他。</p>
-<lb n="0133a10" ed="Y"/><lb n="0135a10" ed="Y" type="old"/><p style="text-indent:2em">本傳所說與優波毱多同時的大德，還有一切友等，但事跡都不可考。可考見
+<lb n="0133a10" ed="Y"/><lb n="0135a10" ed="Y" type="old"/><p xml:id="pY22p0133a1001" style="text-indent:2em">本傳所說與優波毱多同時的大德，還有一切友等，但事跡都不可考。可考見
 <lb n="0133a11" ed="Y"/><lb n="0135a11" ed="Y" type="old"/>的幾位，都可以證明為阿育王時人，所以優波毱多與育王同時，應該是可信的！</p>
-<lb n="0133a12" ed="Y"/><lb n="0135a12" ed="Y" type="old"/><cb:mulu level="3" type="其他">三　優婆毱多與目犍連子帝須</cb:mulu><head>三　優婆毱多與目犍連子帝須</head><p style="text-indent:2em">罽賓傳與錫蘭傳，都推尊自宗的大德，以為
+<lb n="0133a12" ed="Y"/><lb n="0135a12" ed="Y" type="old"/><cb:mulu level="3" type="其他">三　優婆毱多與目犍連子帝須</cb:mulu><head>三　優婆毱多與目犍連子帝須</head><p xml:id="pY22p0133a1225" style="text-indent:2em">罽賓傳與錫蘭傳，都推尊自宗的大德，以為
 <lb n="0133a13" ed="Y"/><lb n="0135a13" ed="Y" type="old"/>得到育王的尊敬，為當時佛教的師導。其實，育王禮敬的大德，何止這一、二人
 <pb n="0134a" ed="Y" xml:id="Y22.0022.0134a"/>
 <lb n="0134a01" ed="Y"/>！<pb n="0136a" ed="Y" xml:id="Y22.0022.0136a.old" type="old"/><lb n="0136a01" ed="Y" type="old"/>毱多與帝須，大概都受育王的尊敬。<title level="m">《善見律》</title>說：帝須住摩偷羅的阿烋河山
@@ -479,12 +499,12 @@
 <lb n="0134a04" ed="Y"/>大<lb n="0136a04" ed="Y" type="old"/>山，山在城東五、六里<bibl>（<title level="m">《西域記》</title><biblScope n="4" type="卷">卷四</biblScope>）</bibl>。優留慢荼山，<title level="m">《藥事》</title>作烏盧門荼
 <lb n="0134a05" ed="Y"/>山；<title level="m">《<lb n="0136a05" ed="Y" type="old"/>雜事》</title>作牟論荼山。這與阿烋河山，都是這一帶的山名。可見優婆毱多與
 <lb n="0134a06" ed="Y"/>帝須，<lb n="0136a06" ed="Y" type="old"/>同為摩偷羅的大德，這裡是西方上座系的重鎮。</p>
-<lb n="0134a07" ed="Y"/><lb n="0136a07" ed="Y" type="old"/><p style="text-indent:2em">南北的傳說，都多少有想像與誇張的成分。依本傳說：優婆毱多受阿育王禮
+<lb n="0134a07" ed="Y"/><lb n="0136a07" ed="Y" type="old"/><p xml:id="pY22p0134a0701" style="text-indent:2em">南北的傳說，都多少有想像與誇張的成分。依本傳說：優婆毱多受阿育王禮
 <lb n="0134a08" ed="Y"/><lb n="0136a08" ed="Y" type="old"/>請，沿恆河到華氏城，為王說法，引導他參禮聖跡。這雖是錫蘭傳所沒有的，<lb n="0136a09" ed="Y" type="old"/>然
 <lb n="0134a09" ed="Y"/>依近代發見的銘刻，育王的參禮聖跡，是千真萬實的。如嵐毘尼園（<foreign xml:lang="sa">Lumbinī</foreign>）
 <lb n="0134a10" ed="Y"/><lb n="0136a10" ed="Y" type="old"/>石柱刻銘說：</p>
-<lb n="0134a11" ed="Y"/><lb n="0136a11" ed="Y" type="old"/><quote><p style="margin-left:3em">「善見王即位二十年，因釋迦牟尼佛誕生於是地，親來敬禮。王命刻石。」</p></quote>
-<lb n="0134a12" ed="Y"/><lb n="0136a12" ed="Y" type="old"/><lb n="0136a13" ed="Y" type="old"/><p style="text-indent:2em">尊者與育王的關係，北方的佛教者，還沒有過分誇大；阿育王與優波毱多同<pb n="0137a" ed="Y" xml:id="Y22.0022.0137a.old" type="old"/>
+<lb n="0134a11" ed="Y"/><lb n="0136a11" ed="Y" type="old"/><quote><p xml:id="pY22p0134a1101" style="margin-left:3em">「善見王即位二十年，因釋迦牟尼佛誕生於是地，親來敬禮。王命刻石。」</p></quote>
+<lb n="0134a12" ed="Y"/><lb n="0136a12" ed="Y" type="old"/><lb n="0136a13" ed="Y" type="old"/><p xml:id="pY22p0134a1201" style="text-indent:2em">尊者與育王的關係，北方的佛教者，還沒有過分誇大；阿育王與優波毱多同<pb n="0137a" ed="Y" xml:id="Y22.0022.0137a.old" type="old"/>
 <lb n="0134a13" ed="Y"/><lb n="0137a01" ed="Y" type="old"/>時，並不否認其他大德的法化。同樣的，錫蘭傳說：目犍連子帝須，因育王禮請
 <pb n="0135a" ed="Y" xml:id="Y22.0022.0135a"/>
 <lb n="0135a01" ed="Y"/><lb n="0137a02" ed="Y" type="old"/>，沿恆河到華氏城，受王敬禮；平息了華氏城的諍論，擴大布教運動。這雖是北
@@ -504,24 +524,24 @@
 <lb n="0136a01" ed="Y"/><lb n="0138a02" ed="Y" type="old"/>到王家的尊敬，實沒有再回摩偷羅的必要。從帝須的被請東下說，與優波毱多的
 <lb n="0136a02" ed="Y"/><lb n="0138a03" ed="Y" type="old"/>傳說完全一致，這不過是本傳優波毱多故事的再版。育王時代的佛教諍論，是另
 <lb n="0136a03" ed="Y"/><lb n="0138a04" ed="Y" type="old"/>有問題的，決不如錫蘭傳說的那樣。</p>
-<lb n="0136a04" ed="Y"/><lb n="0138a05" ed="Y" type="old"/><cb:mulu level="3" type="其他">四　華氏城的諍論與部派分化</cb:mulu><head>四　華氏城的諍論與部派分化</head><p style="text-indent:2em">先論優波毱多以後的五部分流：這一傳說，
+<lb n="0136a04" ed="Y"/><lb n="0138a05" ed="Y" type="old"/><cb:mulu level="3" type="其他">四　華氏城的諍論與部派分化</cb:mulu><head>四　華氏城的諍論與部派分化</head><p xml:id="pY22p0136a0425" style="text-indent:2em">先論優波毱多以後的五部分流：這一傳說，
 <lb n="0136a05" ed="Y"/><lb n="0138a06" ed="Y" type="old"/>對於優波毱多與育王同時，是一有力的論據。西元七世紀末的唐義淨，以為印度
 <lb n="0136a06" ed="Y"/><lb n="0138a07" ed="Y" type="old"/>並沒有五部說<bibl>（<title level="m">《南海寄歸傳》</title><biblScope n="1" type="卷">卷一</biblScope>）</bibl>，這犯有以今為古的大錯誤。不知五部的
 <lb n="0136a07" ed="Y"/>傳說<lb n="0138a08" ed="Y" type="old"/>，最早見於吳支謙（二三〇頃作）的<title level="a">〈法句經序〉</title>：</p>
-<lb n="0136a08" ed="Y"/><lb n="0138a09" ed="Y" type="old"/><quote source="T04n0210_p0566b23-26" type="嚴謹引文"><p style="margin-left:3em">「五部沙門，各自鈔眾經中四句、六句之偈，……故曰法句。」<note n="0136001" resp="周怡曄" type="add">《法句經》卷1：「五部，沙門各自鈔眾經中四句、六句之偈，比次其義條別為品，於十二部經靡不斟酌，無所適名，故曰法句。」(CBETA, T04, no. 210, p. 566, b23-26)</note></p></quote>
-<lb n="0136a09" ed="Y"/><lb n="0138a10" ed="Y" type="old"/><p style="text-indent:2em">到東晉的時代（五世紀初），慧遠的<title level="a">〈禪經序〉</title>，法顯的<title level="a">〈摩訶僧祇律私記
+<lb n="0136a08" ed="Y"/><lb n="0138a09" ed="Y" type="old"/><quote source="T04n0210_p0566b23-26" type="嚴謹引文"><p xml:id="pY22p0136a0801" style="margin-left:3em">「五部沙門，各自鈔眾經中四句、六句之偈，……故曰法句。」<note n="0136001" resp="周怡曄" type="add">《法句經》卷1：「五部，沙門各自鈔眾經中四句、六句之偈，比次其義條別為品，於十二部經靡不斟酌，無所適名，故曰法句。」(CBETA, T04, no. 210, p. 566, b23-26)</note></p></quote>
+<lb n="0136a09" ed="Y"/><lb n="0138a10" ed="Y" type="old"/><p xml:id="pY22p0136a0901" style="text-indent:2em">到東晉的時代（五世紀初），慧遠的<title level="a">〈禪經序〉</title>，法顯的<title level="a">〈摩訶僧祇律私記
 <lb n="0136a10" ed="Y"/>〉</title>，<lb n="0138a11" ed="Y" type="old"/>都說到優波毱多以後，有五部的別異。這一傳說，出於東晉失譯的<title level="m">《舍利弗
 <lb n="0136a11" ed="Y"/>問經<lb n="0138a12" ed="Y" type="old"/>》</title>與（誤作安世高譯）失譯的<title level="m">《大比丘三千威儀》</title>（隋譯的<title level="m">《佛本行集經》</title>
-<lb n="0136a12" ed="Y"/>，也有<lb n="0138a13" ed="Y" type="old"/>）。這是古傳的五部說，五部是：摩訶僧祇（<foreign xml:lang="sa"><note n="0136a1201" resp="CBETA" type="add">Mahāsāṃghika【CB】，Mahāsāṃghikāḥ【印順】</note><app n="0136a1201"><lem wit="【CB】" resp="正聞出版社">Mahāsāṃghika</lem><rdg wit="【印順】">Mahāsāṃghikāḥ</rdg></app></foreign>），曇無屈
-<lb n="0136a13" ed="Y"/>多迦<pb n="0139a" ed="Y" xml:id="Y22.0022.0139a.old" type="old"/><lb n="0139a01" ed="Y" type="old"/>（<foreign xml:lang="sa"><note n="0136a1301" resp="CBETA" type="add">Dharmaguptaka【CB】，Dharmaguptāḥ【印順】</note><app n="0136a1301"><lem wit="【CB】" resp="正聞出版社">Dharmaguptaka</lem><rdg wit="【印順】">Dharmaguptāḥ</rdg></app></foreign>），薩婆多（<foreign xml:lang="sa"><note n="0136a1302" resp="CBETA" type="add">Sarvāstivāda【CB】，Sarvāstivadāḥ【印順】</note><app n="0136a1302"><lem wit="【CB】" resp="正聞出版社">Sarvāstivāda</lem><rdg wit="【印順】">Sarvāstivadāḥ</rdg></app></foreign>），迦葉維（<foreign xml:lang="sa"><note n="0136a1303" resp="CBETA" type="add">Kāśyapīya【CB】，Kāśyapiyāḥ【印順】</note><app n="0136a1303"><lem wit="【CB】" resp="正聞出版社">Kāśyapīya</lem><rdg wit="【印順】">Kāśyapiyāḥ</rdg></app></foreign>），
+<lb n="0136a12" ed="Y"/>，也有<lb n="0138a13" ed="Y" type="old"/>）。這是古傳的五部說，五部是：摩訶僧祇（<foreign xml:lang="sa"><note n="0136a1201" resp="CBETA" type="add">Mahāsāṃghika【CB】，Mahāsāṃghikāḥ【印順】</note><app n="0136a1201"><lem resp="正聞出版社" wit="【CB】">Mahāsāṃghika</lem><rdg wit="【印順】">Mahāsāṃghikāḥ</rdg></app></foreign>），曇無屈
+<lb n="0136a13" ed="Y"/>多迦<pb n="0139a" ed="Y" xml:id="Y22.0022.0139a.old" type="old"/><lb n="0139a01" ed="Y" type="old"/>（<foreign xml:lang="sa"><note n="0136a1301" resp="CBETA" type="add">Dharmaguptaka【CB】，Dharmaguptāḥ【印順】</note><app n="0136a1301"><lem resp="正聞出版社" wit="【CB】">Dharmaguptaka</lem><rdg wit="【印順】">Dharmaguptāḥ</rdg></app></foreign>），薩婆多（<foreign xml:lang="sa"><note n="0136a1302" resp="CBETA" type="add">Sarvāstivāda【CB】，Sarvāstivadāḥ【印順】</note><app n="0136a1302"><lem resp="正聞出版社" wit="【CB】">Sarvāstivāda</lem><rdg wit="【印順】">Sarvāstivadāḥ</rdg></app></foreign>），迦葉維（<foreign xml:lang="sa"><note n="0136a1303" resp="CBETA" type="add">Kāśyapīya【CB】，Kāśyapiyāḥ【印順】</note><app n="0136a1303"><lem resp="正聞出版社" wit="【CB】">Kāśyapīya</lem><rdg wit="【印順】">Kāśyapiyāḥ</rdg></app></foreign>），
 <pb n="0137a" ed="Y" xml:id="Y22.0022.0137a"/>
-<lb n="0137a01" ed="Y"/>彌<lb n="0139a02" ed="Y" type="old"/>沙塞（<foreign xml:lang="sa"><note n="0137a0101" resp="CBETA" type="add">Mahīśāsaka【CB】，Mahīśāsakāḥ【印順】</note><app n="0137a0101"><lem wit="【CB】" resp="正聞出版社">Mahīśāsaka</lem><rdg wit="【印順】">Mahīśāsakāḥ</rdg></app></foreign>）。同時，涼曇無讖譯的<title level="m">《大集經》</title>，以摩訶僧祇為五部以
-<lb n="0137a02" ed="Y"/><lb n="0139a03" ed="Y" type="old"/>外的，加一婆<note n="0137a0201" resp="CBETA" type="add">麁【CB】，麤【印順】</note><app n="0137a0201"><lem wit="【CB】" resp="正聞出版社">麁<note type="cf1">《宋高僧傳》卷16(CBETA, T50, no. 2061, p. 811, c3)</note></lem><rdg wit="【印順】">麤</rdg></app>富羅（犢子，<foreign xml:lang="sa">Vātsīputrīya</foreign>）。稍遲，僧祐的<title level="m">《薩婆多師資傳》</title><lb n="0139a04" ed="Y" type="old"/>，
+<lb n="0137a01" ed="Y"/>彌<lb n="0139a02" ed="Y" type="old"/>沙塞（<foreign xml:lang="sa"><note n="0137a0101" resp="CBETA" type="add">Mahīśāsaka【CB】，Mahīśāsakāḥ【印順】</note><app n="0137a0101"><lem resp="正聞出版社" wit="【CB】">Mahīśāsaka</lem><rdg wit="【印順】">Mahīśāsakāḥ</rdg></app></foreign>）。同時，涼曇無讖譯的<title level="m">《大集經》</title>，以摩訶僧祇為五部以
+<lb n="0137a02" ed="Y"/><lb n="0139a03" ed="Y" type="old"/>外的，加一婆<note n="0137a0201" resp="CBETA" type="add">麁【CB】，麤【印順】</note><app n="0137a0201"><lem resp="正聞出版社" wit="【CB】">麁<note type="cf1">《宋高僧傳》卷16(CBETA, T50, no. 2061, p. 811, c3)</note></lem><rdg wit="【印順】">麤</rdg></app>富羅（犢子，<foreign xml:lang="sa">Vātsīputrīya</foreign>）。稍遲，僧祐的<title level="m">《薩婆多師資傳》</title><lb n="0139a04" ed="Y" type="old"/>，
 <lb n="0137a03" ed="Y"/>以五部為從薩婆多所分出的，所以也加上犢子。不知五部分流時，犢子部還沒<lb n="0139a05" ed="Y" type="old"/>有
 <lb n="0137a04" ed="Y"/>成立呢！這五部分流的傳說，與<title level="m">《善見律》</title>所傳的布教師的分化一方，顯然有<lb n="0139a06" ed="Y" type="old"/>密
 <lb n="0137a05" ed="Y"/>切的關係：</p>
 <lb n="0137a06" ed="Y"/><lb n="0139a07" ed="Y" type="old"/><table cols="2" style="margin-left:3em"><row><cell>末闡提</cell><cell>罽賓、犍陀羅</cell></row><row><cell>
-<lb n="0137a07" ed="Y"/><lb n="0139a08" ed="Y" type="old"/>摩訶提婆</cell><cell>摩醯<note n="0137a0701" resp="CBETA" type="add">沙慢【CB】，娑末【印順】</note><app n="0137a0701"><lem wit="【CB】" resp="正聞出版社">沙慢</lem><rdg wit="【印順】">娑末</rdg></app>陀羅</cell></row><row><cell>
+<lb n="0137a07" ed="Y"/><lb n="0139a08" ed="Y" type="old"/>摩訶提婆</cell><cell>摩醯<note n="0137a0701" resp="CBETA" type="add">沙慢【CB】，娑末【印順】</note><app n="0137a0701"><lem resp="正聞出版社" wit="【CB】">沙慢</lem><rdg wit="【印順】">娑末</rdg></app>陀羅</cell></row><row><cell>
 <lb n="0137a08" ed="Y"/><lb n="0139a09" ed="Y" type="old"/>勒棄多</cell><cell>婆那婆私</cell></row><row><cell>
 <lb n="0137a09" ed="Y"/><lb n="0139a10" ed="Y" type="old"/>曇無德</cell><cell>阿波蘭多迦</cell></row><row><cell>
 <lb n="0137a10" ed="Y"/><lb n="0139a11" ed="Y" type="old"/>摩訶曇無德</cell><cell>摩訶勒咤</cell></row><row><cell>
@@ -530,7 +550,7 @@
 <lb n="0137a13" ed="Y"/><lb n="0140a01" ed="Y" type="old"/>須那等</cell><cell>金地</cell></row><row><cell>
 <pb n="0138a" ed="Y" xml:id="Y22.0022.0138a"/>
 <lb n="0138a01" ed="Y"/><lb n="0140a02" ed="Y" type="old"/>摩哂陀等</cell><cell>師子國</cell></row></table>
-<lb n="0138a02" ed="Y"/><lb n="0140a03" ed="Y" type="old"/><p style="text-indent:2em">阿育王的時代，本已有三系：大眾系、分別說系、一切有（實為後來一切有
+<lb n="0138a02" ed="Y"/><lb n="0140a03" ed="Y" type="old"/><p xml:id="pY22p0138a0201" style="text-indent:2em">阿育王的時代，本已有三系：大眾系、分別說系、一切有（實為後來一切有
 <lb n="0138a03" ed="Y"/><lb n="0140a04" ed="Y" type="old"/>、犢子、經量等的母部）系。由於諸師的分化，特別是分別說系的分化，成為一
 <lb n="0138a04" ed="Y"/><lb n="0140a05" ed="Y" type="old"/>時盛行的五部。如曇無德，即曇無屈多迦，成為<title level="m">《四分律》</title>的法藏部。迦葉波，
 <lb n="0138a05" ed="Y"/><lb n="0140a06" ed="Y" type="old"/>即迦葉維，成為<title level="m">《解脫律》</title>的飲光部。彌沙塞，為分別說系分化了的母部，即成
@@ -540,7 +560,7 @@
 <lb n="0138a09" ed="Y"/><lb n="0140a10" ed="Y" type="old"/>系、末闡提的說一切有部，即為一時盛行的五部。向來說從迦葉到優婆毱多<lb n="0140a11" ed="Y" type="old"/>佛法
 <lb n="0138a10" ed="Y"/>一味，這是不可信的。說優婆毱多以後成為五部，卻是事實。這與育王時代<lb n="0140a12" ed="Y" type="old"/>的傳
 <lb n="0138a11" ed="Y"/>教師有關，證明了優婆毱多與阿育王同時的正確。</p>
-<lb n="0138a12" ed="Y"/><lb n="0140a13" ed="Y" type="old"/><p style="text-indent:2em">諸大德的分化一方，與阿育王的弘傳正法有關，未必是帝須的意見。但當時<pb n="0141a" ed="Y" xml:id="Y22.0022.0141a.old" type="old"/>
+<lb n="0138a12" ed="Y"/><lb n="0140a13" ed="Y" type="old"/><p xml:id="pY22p0138a1201" style="text-indent:2em">諸大德的分化一方，與阿育王的弘傳正法有關，未必是帝須的意見。但當時<pb n="0141a" ed="Y" xml:id="Y22.0022.0141a.old" type="old"/>
 <lb n="0138a13" ed="Y"/><lb n="0141a01" ed="Y" type="old"/>的分別說系——帝須派，似乎佔有優勢。如傳教師中的曇無德、迦葉波、摩哂陀
 <pb n="0139a" ed="Y" xml:id="Y22.0022.0139a"/>
 <lb n="0139a01" ed="Y"/><lb n="0141a02" ed="Y" type="old"/>，都是屬於分別說系的。在後代的傳說中，分化一方的大德，每被推尊為一方佛
@@ -549,7 +569,7 @@
 <lb n="0139a04" ed="Y"/><lb n="0141a05" ed="Y" type="old"/>的南印、北印，與印度以外；或沒有佛法，或有而不盛的地方。依於分化一方的
 <lb n="0139a05" ed="Y"/><lb n="0141a06" ed="Y" type="old"/>原因，受地域文化、師承差別的影響，發展為更多的學派。育王時布教師分化一
 <lb n="0139a06" ed="Y"/><lb n="0141a07" ed="Y" type="old"/>方；等到五部盛行，那是阿育王、優婆毱多以後的事了。</p>
-<lb n="0139a07" ed="Y"/><lb n="0141a08" ed="Y" type="old"/><p style="text-indent:2em">再論育王時代華氏城的諍論：本傳除了暗示不願與大天談話而外，沒有提到
+<lb n="0139a07" ed="Y"/><lb n="0141a08" ed="Y" type="old"/><p xml:id="pY22p0139a0701" style="text-indent:2em">再論育王時代華氏城的諍論：本傳除了暗示不願與大天談話而外，沒有提到
 <lb n="0139a08" ed="Y"/><lb n="0141a09" ed="Y" type="old"/>什麼。但一切有系的論師，如前一世紀的世友<title level="m">《異部宗輪論》</title>、二世紀迦濕彌羅
 <lb n="0139a09" ed="Y"/><lb n="0141a10" ed="Y" type="old"/>論師的<title level="m">《毘婆沙論》</title>，都說到因大天而起的諍論。依錫蘭的<title level="m">《島史》</title>、<title level="m">《大史》</title><lb n="0141a11" ed="Y" type="old"/>說
 <lb n="0139a10" ed="Y"/>：從佛滅百年到二百年，僧伽分裂為十八部。如阿育王為佛滅二百餘年人，即<lb n="0141a12" ed="Y" type="old"/>與
@@ -558,26 +578,26 @@
 <lb n="0139a13" ed="Y"/>來，所以也有這一傳說。但這與賊住比丘有關，是大眾系末派的分化，而不是<lb n="0142a02" ed="Y" type="old"/>阿
 <pb n="0140a" ed="Y" xml:id="Y22.0022.0140a"/>
 <lb n="0140a01" ed="Y"/>育王時代的事！</p>
-<lb n="0140a02" ed="Y"/><lb n="0142a03" ed="Y" type="old"/><p style="text-indent:2em">北方的傳說，主要是世友論。傳為羅什初譯的，名<title level="m">《十八部論》</title>，說：</p>
-<lb n="0140a03" ed="Y"/><lb n="0142a04" ed="Y" type="old"/><quote type="嚴謹引文"><p style="margin-left:3em">「佛滅度後百一十六年，城名巴連弗，時阿育王王閻浮提，匡於天下。」<note n="0140001" resp="周怡曄" type="add">《十八部論》卷1〈15 分別部品〉(CBETA, T49, no. 2032, p. 18, a9-10)</note></p></quote>
-<lb n="0140a04" ed="Y"/><lb n="0142a05" ed="Y" type="old"/><p style="text-indent:2em">百十六年，奘譯作百有餘年。所論的學派分裂，與錫蘭所傳育王時代的事情
+<lb n="0140a02" ed="Y"/><lb n="0142a03" ed="Y" type="old"/><p xml:id="pY22p0140a0201" style="text-indent:2em">北方的傳說，主要是世友論。傳為羅什初譯的，名<title level="m">《十八部論》</title>，說：</p>
+<lb n="0140a03" ed="Y"/><lb n="0142a04" ed="Y" type="old"/><quote type="嚴謹引文"><p xml:id="pY22p0140a0301" style="margin-left:3em">「佛滅度後百一十六年，城名巴連弗，時阿育王王閻浮提，匡於天下。」<note n="0140001" resp="周怡曄" type="add">《十八部論》卷1〈15 分別部品〉(CBETA, T49, no. 2032, p. 18, a9-10)</note></p></quote>
+<lb n="0140a04" ed="Y"/><lb n="0142a05" ed="Y" type="old"/><p xml:id="pY22p0140a0401" style="text-indent:2em">百十六年，奘譯作百有餘年。所論的學派分裂，與錫蘭所傳育王時代的事情
 <lb n="0140a05" ed="Y"/><lb n="0142a06" ed="Y" type="old"/>相關的，有二：一、阿育王時，大眾分散為三（或四），諍論五事，分為大眾與
 <lb n="0140a06" ed="Y"/><lb n="0142a07" ed="Y" type="old"/>上座二部。二、佛滅二百年中（滿），支提山（<foreign xml:lang="sa">Caitiya</foreign>）的大天眾起諍，再論<lb n="0142a08" ed="Y" type="old"/>五
 <lb n="0140a07" ed="Y"/>事，又分出三（或二）部。阿育王時的分散為三，如<title level="m">《十八部論》</title>說：</p>
-<lb n="0140a08" ed="Y"/><lb n="0142a09" ed="Y" type="old"/><quote source="T49n2032_p0018a10-14" type="嚴謹引文"><p style="margin-left:3em">「爾時，大僧別部異法，時有比丘，一名能（能是草書龍字的訛誤，即奘
+<lb n="0140a08" ed="Y"/><lb n="0142a09" ed="Y" type="old"/><quote source="T49n2032_p0018a10-14" type="嚴謹引文"><p xml:id="pY22p0140a0801" style="margin-left:3em">「爾時，大僧別部異法，時有比丘，一名能（能是草書龍字的訛誤，即奘
 <lb n="0140a09" ed="Y"/><lb n="0142a10" ed="Y" type="old"/>譯的龍象眾），二名因緣，三名多聞，說有五處以教眾生。……始生二部
 <lb n="0140a10" ed="Y"/><lb n="0142a11" ed="Y" type="old"/>：一謂摩訶僧祇，二謂他鞞羅。」<note n="0140002" resp="周怡曄" type="add">《十八部論》卷1〈15 分別部品〉：「爾時大僧別部異法。時有比丘。一名能。二名因緣。三名多聞。說有五處以教眾生。所謂從他饒益無知。疑由觀察言說得道。此是佛從始生二部。一謂摩訶僧祇。二謂他鞞羅」(CBETA, T49, no. 2032, p. 18, a10-14)</note></p></quote>
-<lb n="0140a11" ed="Y"/><lb n="0142a12" ed="Y" type="old"/><p style="text-indent:2em">真諦與玄奘譯，都說<quote type="嚴謹引文">「破散大眾，凡有四種」<note n="0140003" resp="周怡曄" type="add">《部執異論》卷1(CBETA, T49, no. 2033, p. 20, a20-22)</note></quote>（加大德眾）。調伏天以後期
+<lb n="0140a11" ed="Y"/><lb n="0142a12" ed="Y" type="old"/><p xml:id="pY22p0140a1101" style="text-indent:2em">真諦與玄奘譯，都說<quote type="嚴謹引文">「破散大眾，凡有四種」<note n="0140003" resp="周怡曄" type="add">《部執異論》卷1(CBETA, T49, no. 2033, p. 20, a20-22)</note></quote>（加大德眾）。調伏天以後期
 <lb n="0140a12" ed="Y"/><lb n="0142a13" ed="Y" type="old"/>的聲聞佛教四大派——大眾、一切有、犢子、上座去解說它；窺基的<title level="m">《宗輪論述<pb n="0143a" ed="Y" xml:id="Y22.0022.0143a.old" type="old"/>
 <lb n="0140a13" ed="Y"/><lb n="0143a01" ed="Y" type="old"/>記》</title>，也有類似的意見。<title level="m">《十八部論》</title>的三比丘，即三比丘眾（三系）。犢子系<lb n="0143a02" ed="Y" type="old"/>（
 <pb n="0141a" ed="Y" xml:id="Y22.0022.0141a"/>
 <lb n="0141a01" ed="Y"/>正量）有一傳說，與本論非常類似，如毘跋耶（<foreign xml:lang="sa">Bhavya</foreign>）<title level="m">《異部精釋》</title>所傳<lb n="0143a03" ed="Y" type="old"/>說：</p>
-<lb n="0141a02" ed="Y"/><lb n="0143a04" ed="Y" type="old"/><quote><p style="margin-left:3em">「世尊無餘涅槃後，百三十七年，經難陀王與摩訶鉢土摩王，於波吒釐子
+<lb n="0141a02" ed="Y"/><lb n="0143a04" ed="Y" type="old"/><quote><p xml:id="pY22p0141a0201" style="margin-left:3em">「世尊無餘涅槃後，百三十七年，經難陀王與摩訶鉢土摩王，於波吒釐子
 <lb n="0141a03" ed="Y"/><lb n="0143a05" ed="Y" type="old"/>城集諸聖眾。……天魔跋陀羅，住僧中，有一切不相應之見。現諸神通，
 <lb n="0141a04" ed="Y"/><lb n="0143a06" ed="Y" type="old"/>以根本五事，僧伽起大諍論。上座龍與堅意等，宣傳五事。……佛教分裂
 <lb n="0141a05" ed="Y"/><lb n="0143a07" ed="Y" type="old"/>為二，名上座與大眾。如是，凡六十三年間諍論。……犢子比丘出而息諍
 <lb n="0141a06" ed="Y"/><lb n="0143a08" ed="Y" type="old"/>。」</p></quote>
-<lb n="0141a07" ed="Y"/><lb n="0143a09" ed="Y" type="old"/><p style="text-indent:2em">這一傳說，如佛滅百三十七年（百十六年加育王十七年，即大體相近），華
+<lb n="0141a07" ed="Y"/><lb n="0143a09" ed="Y" type="old"/><p xml:id="pY22p0141a0701" style="text-indent:2em">這一傳說，如佛滅百三十七年（百十六年加育王十七年，即大體相近），華
 <lb n="0141a08" ed="Y"/><lb n="0143a10" ed="Y" type="old"/>氏城有五事諍論，其中有龍比丘，與世友論相合。傳說諍論起於百三十七年，經
 <lb n="0141a09" ed="Y"/><lb n="0143a11" ed="Y" type="old"/>六十三年，才由犢子比丘集眾息諍。這可解說為：到二百年，犢子比丘系獨立成
 <lb n="0141a10" ed="Y"/><lb n="0143a12" ed="Y" type="old"/>部，確定了五事的非法（這是犢子系的見解）。這與世友論的犢子部出於佛滅三
@@ -585,12 +605,12 @@
 <lb n="0141a12" ed="Y"/><lb n="0144a01" ed="Y" type="old"/>子部（當時二部還沒有分化）共有的傳說。但犢子系所傳的其他事情，即異常錯
 <lb n="0141a13" ed="Y"/><lb n="0144a02" ed="Y" type="old"/>亂。華氏城的難陀王（<foreign xml:lang="x-sa-pi">Nanda</foreign>），猶塞德謨王家的彌稜陀王（<foreign xml:lang="pi">Milinda</foreign>），或彌<lb n="0144a03" ed="Y" type="old"/>難
 <pb n="0142a" ed="Y" xml:id="Y22.0022.0142a"/>
-<lb n="0142a01" ed="Y"/>陀（<foreign xml:lang="sa"><note n="0142a0101" resp="CBETA" type="add">Minandra【CB】，Minandre【印順】</note><app n="0142a0101"><lem wit="【CB】" resp="正聞出版社">Minandra</lem><rdg wit="【印順】">Minandre</rdg></app></foreign>），時有混雜。<bibl>《<title level="m">雜寶藏經</title>．<title level="a">難陀王與那伽斯那共論緣</title>》</bibl>，<lb n="0144a04" ed="Y" type="old"/>即誤稱
+<lb n="0142a01" ed="Y"/>陀（<foreign xml:lang="sa"><note n="0142a0101" resp="CBETA" type="add">Minandra【CB】，Minandre【印順】</note><app n="0142a0101"><lem resp="正聞出版社" wit="【CB】">Minandra</lem><rdg wit="【印順】">Minandre</rdg></app></foreign>），時有混雜。<bibl>《<title level="m">雜寶藏經</title>．<title level="a">難陀王與那伽斯那共論緣</title>》</bibl>，<lb n="0144a04" ed="Y" type="old"/>即誤稱
 <lb n="0142a02" ed="Y"/>彌難陀為難陀。彌難陀王時，有那伽斯那（<foreign xml:lang="x-sa-pi">Nāgasena</foreign>）——龍軍比丘；<lb n="0144a05" ed="Y" type="old"/>而犢子系
 <lb n="0142a03" ed="Y"/>的學者誤以為華氏城五事諍論中的龍比丘（<foreign xml:lang="x-sa-pi">Nāga</foreign>）為龍軍，這才定<lb n="0144a06" ed="Y" type="old"/>說是難陀王時
 <lb n="0142a04" ed="Y"/>。犢子系的傳說，雖雜入錯亂的成分，然與世友論的傳說，有同一<lb n="0144a07" ed="Y" type="old"/>的依據，還是
 <lb n="0142a05" ed="Y"/>明顯的事實。</p>
-<lb n="0142a06" ed="Y"/><lb n="0144a08" ed="Y" type="old"/><p style="text-indent:2em">龍等三比丘的共諍，依真諦、玄奘譯，這到底是三比丘眾——龍象眾、因緣
+<lb n="0142a06" ed="Y"/><lb n="0144a08" ed="Y" type="old"/><p xml:id="pY22p0142a0601" style="text-indent:2em">龍等三比丘的共諍，依真諦、玄奘譯，這到底是三比丘眾——龍象眾、因緣
 <lb n="0142a07" ed="Y"/><lb n="0144a09" ed="Y" type="old"/>眾、多聞眾的意思。三眾共諍的結果，分為二部（犢子系也如此說）。然二部的
 <lb n="0142a08" ed="Y"/><lb n="0144a10" ed="Y" type="old"/>開始分化，還在阿育王以前的七百結集。當時，西方系得到勝利，東方系承認西
 <lb n="0142a09" ed="Y"/><lb n="0144a11" ed="Y" type="old"/>方說的正確，回復形式上的和合（律家所傳如此）。然二部的分化，還是一天天
@@ -599,7 +619,7 @@
 <lb n="0142a12" ed="Y"/><foreign xml:lang="sa">Śrāvastī</foreign>）、阿槃提等，也是屬於西方的。到阿育王時，上座系中目犍連子帝須與
 <lb n="0142a13" ed="Y"/><lb n="0145a02" ed="Y" type="old"/>隨順他的學者，大量到達當時的首都華氏城。帝須自稱為分別說者（<foreign xml:lang="sa">Vibhajyavādin</foreign>）
 <pb n="0143a" ed="Y" xml:id="Y22.0022.0143a"/>
-<lb n="0143a01" ed="Y"/><lb n="0145a03" ed="Y" type="old"/>。分別說系的大德，如帝須為王子摩哂陀和尚，曇無德為王弟帝須（<foreign xml:lang="sa"><note n="0143a0101" resp="CBETA" type="add">Tissa【CB】，Tessa【印順】</note><app n="0143a0101"><lem wit="【CB】" resp="正聞出版社">Tissa</lem><rdg wit="【印順】">Tessa</rdg></app></foreign>
+<lb n="0143a01" ed="Y"/><lb n="0145a03" ed="Y" type="old"/>。分別說系的大德，如帝須為王子摩哂陀和尚，曇無德為王弟帝須（<foreign xml:lang="sa"><note n="0143a0101" resp="CBETA" type="add">Tissa【CB】，Tessa【印順】</note><app n="0143a0101"><lem resp="正聞出版社" wit="【CB】">Tissa</lem><rdg wit="【印順】">Tessa</rdg></app></foreign>
 <lb n="0143a02" ed="Y"/>）<lb n="0145a04" ed="Y" type="old"/>的和尚，雖不一定可信，然可見當時分別說者地位的優越。如大眾部所傳<lb n="0145a05" ed="Y" type="old"/>的部
 <lb n="0143a03" ed="Y"/>派說：佛法初分為二部；上座系中，次分為分別說、一切有，與大眾合為三<lb n="0145a06" ed="Y" type="old"/>部。
 <lb n="0143a04" ed="Y"/>這三部說，合於當時的事實，這即是世友論三比丘眾的意義。由於後代四大<lb n="0145a07" ed="Y" type="old"/>派的
@@ -608,20 +628,20 @@
 <lb n="0143a07" ed="Y"/>衷調和的形式，與大眾系的大天合作。嚴守西方傳統的說一切有（實還是有<lb n="0145a10" ed="Y" type="old"/>部與
 <lb n="0143a08" ed="Y"/>犢子部未分以前的母體），有的不愉快的離開了華氏城。如<bibl><title level="m">《大毘婆沙論》</title><lb n="0145a11" ed="Y" type="old"/><biblScope n="99" type="卷">（卷
 <lb n="0143a09" ed="Y"/>九九）</biblScope></bibl>說：</p>
-<lb n="0143a10" ed="Y"/><lb n="0145a12" ed="Y" type="old"/><quote type="嚴謹引文"><p style="margin-left:3em">「十五日夜布灑他時，次當大天昇座說戒，彼便自誦所造伽他（五事）。
+<lb n="0143a10" ed="Y"/><lb n="0145a12" ed="Y" type="old"/><quote type="嚴謹引文"><p xml:id="pY22p0143a1001" style="margin-left:3em">「十五日夜布灑他時，次當大天昇座說戒，彼便自誦所造伽他（五事）。
 <lb n="0143a11" ed="Y"/><lb n="0145a13" ed="Y" type="old"/>……於是竟夜鬪諍紛然，乃至終朝朋黨轉盛。……王聞，自出詣僧伽藍。<pb n="0146a" ed="Y" xml:id="Y22.0022.0146a.old" type="old"/>
 <lb n="0143a12" ed="Y"/><lb n="0146a01" ed="Y" type="old"/>……大天白王：戒經中說若欲滅諍依多人語。王遂令僧兩朋別住。賢<lb n="0146a02" ed="Y" type="old"/>聖朋
 <lb n="0143a13" ed="Y"/>內，耆年雖多而僧數少；大天朋內，耆年雖少而眾數多。王遂從多，<lb n="0146a03" ed="Y" type="old"/>依大
 <pb n="0144a" ed="Y" xml:id="Y22.0022.0144a"/>
 <lb n="0144a01" ed="Y"/>天眾，訶伏餘眾。……時諸賢聖，知眾乖違，便捨鷄園。」<note n="0144001" resp="周怡曄" type="add">《阿毘達磨大毘婆沙論》卷99：「十五日夜布灑他時。次當大天昇座說戒。彼便自誦所造伽他。爾時眾中。有學無學多聞持戒修靜慮者。聞彼所說無不驚訶。咄哉愚人寧作是說。此於三藏曾所未聞。咸即對之翻彼頌曰。<space quantity="1" unit="chars"/>餘所誘無知<space quantity="1" unit="chars"/>猶豫他令入<space quantity="1" unit="chars"/>道因聲故起<space quantity="1" unit="chars"/>汝言非佛教。於是竟夜鬪諍紛然。乃至終朝朋黨轉盛。城中士庶乃至大臣。相次來和皆不能息。王聞自出詣僧伽藍。於是兩朋各執己誦。時王聞已亦自生疑。尋白大天。孰非誰是我等今者當寄何朋。大天白王。戒經中說若欲滅諍依多人語。王遂令僧兩朋別住。賢聖朋內耆年雖多而僧數少。大天朋內耆年雖少而眾數多。王遂從多依大天眾。訶伏餘眾。事畢還宮。爾時鷄園諍猶未息後隨異見遂分二部。一上座部。二大眾部。時諸賢聖知眾乖違。便捨鷄園」(CBETA, T27, no. 1545, p. 511, c3-21)</note></p></quote>
-<lb n="0144a02" ed="Y"/><lb n="0146a04" ed="Y" type="old"/><p style="text-indent:2em">五事的諍論，因大天而起。嚴守西方傳統的學者，不能抗拒多數的東方系；
+<lb n="0144a02" ed="Y"/><lb n="0146a04" ed="Y" type="old"/><p xml:id="pY22p0144a0201" style="text-indent:2em">五事的諍論，因大天而起。嚴守西方傳統的學者，不能抗拒多數的東方系；
 <lb n="0144a03" ed="Y"/><lb n="0146a05" ed="Y" type="old"/>公決的結果，是失敗了。這才<title level="m">《大毘婆沙論》</title>等，極力的醜詆大天。帝須等分別
 <lb n="0144a04" ed="Y"/>說系<lb n="0146a06" ed="Y" type="old"/>與大天合作，所以<title level="m">《大毘婆沙論》</title>不滿「分別論者」，甚至凡是上座系中而
 <lb n="0144a05" ed="Y"/>與有部<lb n="0146a07" ed="Y" type="old"/>——阿毘達磨者立異的，都稱為分別論者。分別論者——毘婆闍婆提，被
 <lb n="0144a06" ed="Y"/>看作一<lb n="0146a08" ed="Y" type="old"/>切不正分別的通名。總之，育王的時代，不是二部初分，是二部分裂的明
 <lb n="0144a07" ed="Y"/>朗化；<lb n="0146a09" ed="Y" type="old"/>三系的形式，事實上已經存在。等到傳教師的分化，即到達五部盛行的時
 <lb n="0144a08" ed="Y"/>代。</p>
-<lb n="0144a09" ed="Y"/><lb n="0146a10" ed="Y" type="old"/><p style="text-indent:2em">錫蘭的傳說，著重於賊住比丘，說七年不能說戒；由育王迎帝須來息諍，稱
+<lb n="0144a09" ed="Y"/><lb n="0146a10" ed="Y" type="old"/><p xml:id="pY22p0144a0901" style="text-indent:2em">錫蘭的傳說，著重於賊住比丘，說七年不能說戒；由育王迎帝須來息諍，稱
 <lb n="0144a10" ed="Y"/><lb n="0146a11" ed="Y" type="old"/>為第三結集。這是北方傳說所沒有的。帝須系與第二結集毫無關係，還被寫為<lb n="0146a12" ed="Y" type="old"/>「
 <lb n="0144a11" ed="Y"/>須那拘集眾出毘尼藏」。這但是赤銅鍱者一家的傳說，到底有多少事實根據！帝
 <lb n="0144a12" ed="Y"/><lb n="0146a13" ed="Y" type="old"/>須們折衷東西的態度，與東方系合作，西方系是這樣的失敗了。如諍論為育王十<pb n="0147a" ed="Y" xml:id="Y22.0022.0147a.old" type="old"/>
@@ -629,30 +649,30 @@
 <pb n="0145a" ed="Y" xml:id="Y22.0022.0145a"/>
 <lb n="0145a01" ed="Y"/><lb n="0147a02" ed="Y" type="old"/>），約為育王晚年。部派分裂的迅速與繁多，即是大眾與分別說者在當時順利<lb n="0147a03" ed="Y" type="old"/>環
 <lb n="0145a02" ed="Y"/>境中的擴展成果。世友論說：</p>
-<lb n="0145a03" ed="Y"/><lb n="0147a04" ed="Y" type="old"/><p style="margin-left:3em"><cit><quote source="T49n2032_p0018a17-20" type="嚴謹引文">「二百年中，摩訶提婆外道出家，住支提山。於摩訶僧祇部中，復建立三
+<lb n="0145a03" ed="Y"/><lb n="0147a04" ed="Y" type="old"/><p xml:id="pY22p0145a0301" style="margin-left:3em"><cit><quote source="T49n2032_p0018a17-20" type="嚴謹引文">「二百年中，摩訶提婆外道出家，住支提山。於摩訶僧祇部中，復建立三
 <lb n="0145a04" ed="Y"/><lb n="0147a05" ed="Y" type="old"/>部：一名支提加，二名佛婆羅，三名鬱多羅施羅。」</quote><bibl>（<title level="m">《十八部論》</title>）</bibl><note n="0145001" resp="周怡曄" type="add">《十八部論》卷1〈15 分別部品〉(CBETA, T49, no. 2032, p. 18, a17-20)</note></cit></p>
-<lb n="0145a05" ed="Y"/><lb n="0147a06" ed="Y" type="old"/><p style="margin-left:3em"><cit><quote type="嚴謹引文">「二百年滿時，有一出家外道，捨邪歸正，亦名大天。大眾部中出家受具
+<lb n="0145a05" ed="Y"/><lb n="0147a06" ed="Y" type="old"/><p xml:id="pY22p0145a0501" style="margin-left:3em"><cit><quote type="嚴謹引文">「二百年滿時，有一出家外道，捨邪歸正，亦名大天。大眾部中出家受具
 <lb n="0145a06" ed="Y"/><lb n="0147a07" ed="Y" type="old"/>，多聞精進，居制多山。與彼部僧重詳五事，因茲乖諍，分為三部：一、
 <lb n="0145a07" ed="Y"/><lb n="0147a08" ed="Y" type="old"/>制多山部，二、西山住部，三、北山住部。」</quote><bibl>（<title level="m">《異部宗輪論》</title>）</bibl><note n="0145002" resp="周怡曄" type="add">《異部宗輪論》卷1(CBETA, T49, no. 2031, p. 15, b1-4)</note></cit></p>
-<lb n="0145a08" ed="Y"/><lb n="0147a09" ed="Y" type="old"/><p style="text-indent:2em">世友論所說，與錫蘭<title level="m">《菩提史》</title>所說相近。但世友論三譯，關於三眾共諍，
+<lb n="0145a08" ed="Y"/><lb n="0147a09" ed="Y" type="old"/><p xml:id="pY22p0145a0801" style="text-indent:2em">世友論所說，與錫蘭<title level="m">《菩提史》</title>所說相近。但世友論三譯，關於三眾共諍，
 <lb n="0145a09" ed="Y"/><lb n="0147a10" ed="Y" type="old"/>譯文略有出入：</p>
-<lb n="0145a10" ed="Y"/><lb n="0147a11" ed="Y" type="old"/><table cols="3" style="margin-left:3em" rend="no-border"><row><cell>羅什譯</cell><cell>育王時代</cell><cell>三眾共諍五事</cell></row><row><cell>
+<lb n="0145a10" ed="Y"/><lb n="0147a11" ed="Y" type="old"/><table cols="3" rend="no-border" style="margin-left:3em"><row><cell>羅什譯</cell><cell>育王時代</cell><cell>三眾共諍五事</cell></row><row><cell>
 <lb n="0145a11" ed="Y"/><lb n="0147a12" ed="Y" type="old"/></cell><cell>二百年中</cell><cell>外道大天出家分出三部</cell></row><row><cell>
 <lb n="0145a12" ed="Y"/><lb n="0147a13" ed="Y" type="old"/>真諦譯</cell><cell>育王時代</cell><cell>四眾共諍外道五因緣</cell></row><row><cell><pb n="0148a" ed="Y" xml:id="Y22.0022.0148a.old" type="old"/>
 <lb n="0145a13" ed="Y"/><lb n="0148a01" ed="Y" type="old"/></cell><cell>二百年滿</cell><cell>外道大天出家重諍五事分二部</cell></row><row><cell>
 <pb n="0146a" ed="Y" xml:id="Y22.0022.0146a"/>
 <lb n="0146a01" ed="Y"/><lb n="0148a02" ed="Y" type="old"/>玄奘譯</cell><cell>育王時代</cell><cell>四眾共諍大天五事</cell></row><row><cell>
 <lb n="0146a02" ed="Y"/><lb n="0148a03" ed="Y" type="old"/></cell><cell>二百年滿</cell><cell>外道大天出家重諍五事分三部</cell></row></table>
-<lb n="0146a03" ed="Y"/><lb n="0148a04" ed="Y" type="old"/><p style="text-indent:2em">育王時代的諍論，什譯與真諦譯，並不明說大天；真諦譯說「外道五因緣」
+<lb n="0146a03" ed="Y"/><lb n="0148a04" ed="Y" type="old"/><p xml:id="pY22p0146a0301" style="text-indent:2em">育王時代的諍論，什譯與真諦譯，並不明說大天；真諦譯說「外道五因緣」
 <lb n="0146a04" ed="Y"/><lb n="0148a05" ed="Y" type="old"/>；玄奘依<title level="m">《大毘婆沙論》</title>，補譯為大天五事，大天實就是外道出家的大天。由於
 <lb n="0146a05" ed="Y"/><title level="m">《大毘婆<lb n="0148a06" ed="Y" type="old"/>沙論》</title>說：大天是商主兒，所以玄奘所傳，誤分為「舶主兒大天」與「
 <lb n="0146a06" ed="Y"/>賊住大天<lb n="0148a07" ed="Y" type="old"/>」。阿育王與優婆毱多的時代，依<title level="m">《善見律》</title>、<title level="m">《大毘婆沙論》</title>及<title level="m">《阿育
 <lb n="0146a07" ed="Y"/>王傳》</title>，可<lb n="0148a08" ed="Y" type="old"/>以確信當時有這一位大德——大天，布教於摩醯娑末陀羅。二百年滿
 <lb n="0146a08" ed="Y"/>的諍論，實<lb n="0148a09" ed="Y" type="old"/>是大天教化區中的分派，也就是大天系徒眾間（也許大天當時還在世
-<lb n="0146a09" ed="Y"/>）的自相諍<lb n="0148a10" ed="Y" type="old"/>論。「五事」，是他們共信的教條。<bibl><title level="m">《西域記》</title><biblScope type="卷" n="10">（卷一〇）</biblScope></bibl>說：</p>
-<lb n="0146a10" ed="Y"/><lb n="0148a11" ed="Y" type="old"/><quote source="T51n2087_p0930c11-18" type="嚴謹引文"><p style="margin-left:3em">「馱那羯磔迦國……（都）城東據山，有弗婆勢羅（唐言東山）僧伽藍。
+<lb n="0146a09" ed="Y"/>）的自相諍<lb n="0148a10" ed="Y" type="old"/>論。「五事」，是他們共信的教條。<bibl><title level="m">《西域記》</title><biblScope n="10" type="卷">（卷一〇）</biblScope></bibl>說：</p>
+<lb n="0146a10" ed="Y"/><lb n="0148a11" ed="Y" type="old"/><quote source="T51n2087_p0930c11-18" type="嚴謹引文"><p xml:id="pY22p0146a1001" style="margin-left:3em">「馱那羯磔迦國……（都）城東據山，有弗婆勢羅（唐言東山）僧伽藍。
 <lb n="0146a11" ed="Y"/><lb n="0148a12" ed="Y" type="old"/>城西據山，有阿伐羅勢羅（唐言西山）僧伽藍。」<note n="0146001" resp="周怡曄" type="add">《大唐西域記》卷10：「馱那羯磔迦國，周六千餘里。國大都城周四十餘里。土地膏腴，稼穡殷盛。荒野多，邑居少。氣序溫暑，人貌釐黑。性猛烈，好學藝。伽藍鱗次，荒蕪已甚，存者二十餘所，僧徒千餘人，並多習學大眾部法。天祠百餘所，異道寔多。城東據山有弗婆勢羅<note place="inline">唐言東山</note>僧伽藍，城西據山有阿伐羅勢羅<note place="inline">唐言西山</note>僧伽藍」(CBETA, T51, no. 2087, p. 930, c11-18)</note></p></quote>
-<lb n="0146a12" ed="Y"/><lb n="0148a13" ed="Y" type="old"/><p style="text-indent:2em">這即是古代東山住部、西山住部的道場。馱那羯磔迦（<foreign xml:lang="sa"><note n="0146a1201" resp="CBETA" type="add">Dhānyakaṭaka【CB】，Dhana-KaTaka【印順】</note><app n="0146a1201"><lem wit="【CB】" resp="正聞出版社">Dhānyakaṭaka</lem><rdg wit="【印順】">Dhana-KaTaka</rdg></app></foreign>）在<pb n="0149a" ed="Y" xml:id="Y22.0022.0149a.old" type="old"/>
+<lb n="0146a12" ed="Y"/><lb n="0148a13" ed="Y" type="old"/><p xml:id="pY22p0146a1201" style="text-indent:2em">這即是古代東山住部、西山住部的道場。馱那羯磔迦（<foreign xml:lang="sa"><note n="0146a1201" resp="CBETA" type="add">Dhānyakaṭaka【CB】，Dhana-KaTaka【印順】</note><app n="0146a1201"><lem resp="正聞出版社" wit="【CB】">Dhānyakaṭaka</lem><rdg wit="【印順】">Dhana-KaTaka</rdg></app></foreign>）在<pb n="0149a" ed="Y" xml:id="Y22.0022.0149a.old" type="old"/>
 <lb n="0146a13" ed="Y"/><lb n="0149a01" ed="Y" type="old"/>罽尸河（<foreign xml:lang="pi">Kistna</foreign>）南岸。佛教的遺跡，現在還有遺存的。這裡的學派分化（錫蘭
 <pb n="0147a" ed="Y" xml:id="Y22.0022.0147a"/>
 <lb n="0147a01" ed="Y"/><lb n="0149a02" ed="Y" type="old"/>傳稱為安達羅學派），即大天的學眾。「外道出家」，即<title level="m">《菩提史》</title>所說以外道
@@ -660,24 +680,24 @@
 <lb n="0147a03" ed="Y"/>起諍，雖大量沙汰，還有一分有智慧的，竟無法論定他是否外道，所以另外造<lb n="0149a05" ed="Y" type="old"/>寺
 <lb n="0147a04" ed="Y"/>安住，成為別部。這是同一事實的傳說，實是大天所化的徒裔。而<title level="m">《善見律》</title><lb n="0149a06" ed="Y" type="old"/>等
 <lb n="0147a05" ed="Y"/>誤作阿育王時，這才編出帝須息諍、第三結集的臆說！</p>
-<lb n="0147a06" ed="Y"/><lb n="0149a07" ed="Y" type="old"/><cb:mulu level="3" type="其他">五　摩田提與摩哂陀</cb:mulu><head>五　摩田提與摩哂陀</head><p style="text-indent:2em">育王時代的傳教師，影響於後代最大的，要算去錫蘭
+<lb n="0147a06" ed="Y"/><lb n="0149a07" ed="Y" type="old"/><cb:mulu level="3" type="其他">五　摩田提與摩哂陀</cb:mulu><head>五　摩田提與摩哂陀</head><p xml:id="pY22p0147a0617" style="text-indent:2em">育王時代的傳教師，影響於後代最大的，要算去錫蘭
 <lb n="0147a07" ed="Y"/><lb n="0149a08" ed="Y" type="old"/>的摩哂陀、去罽賓的摩田提。摩田提被傳說為阿難弟子，由於<title level="m">《阿育王傳》</title>的一
 <lb n="0147a08" ed="Y"/>再<lb n="0149a09" ed="Y" type="old"/>傳譯，成為中國佛教界熟悉的大師。錫蘭傳說：摩哂陀是阿育王的兒子，傳佛
 <lb n="0147a09" ed="Y"/>法<lb n="0149a10" ed="Y" type="old"/>去錫蘭，在一切傳教師中，似乎與阿育王有特殊的深切關係。但摩哂陀的傳教
 <lb n="0147a10" ed="Y"/>錫<lb n="0149a11" ed="Y" type="old"/>蘭，在漢譯的佛教典籍中，幾乎沒有論到。特別是阿育王後二百年編成的<title level="m">《阿
 <lb n="0147a11" ed="Y"/>育<lb n="0149a12" ed="Y" type="old"/>王傳》</title>，對育王的父母兄弟妻兒，都有說到，卻沒有摩哂陀的名字。唯一見於
 <lb n="0147a12" ed="Y"/>中<lb n="0149a13" ed="Y" type="old"/>國譯典（除<title level="m">《善見律》</title>）的，有<title level="m">《分別功德論》</title>。論（卷上）說：</p><pb n="0150a" ed="Y" xml:id="Y22.0022.0150a.old" type="old"/>
-<lb n="0147a13" ed="Y"/><lb n="0150a01" ed="Y" type="old"/><quote source="T25n1507_p0037b16-26" type="嚴謹引文"><p style="margin-left:3em">「阿難將欲涅槃時，……以神力制船令住中流。時度弟子，一名摩禪提，
+<lb n="0147a13" ed="Y"/><lb n="0150a01" ed="Y" type="old"/><quote source="T25n1507_p0037b16-26" type="嚴謹引文"><p xml:id="pY22p0147a1301" style="margin-left:3em">「阿難將欲涅槃時，……以神力制船令住中流。時度弟子，一名摩禪提，
 <pb n="0148a" ed="Y" xml:id="Y22.0022.0148a"/>
 <lb n="0148a01" ed="Y"/><lb n="0150a02" ed="Y" type="old"/>一名摩呻提。告摩禪提：汝至羯賓，興顯佛法，彼土未有佛法，好令流布
 <lb n="0148a02" ed="Y"/><lb n="0150a03" ed="Y" type="old"/>。告摩呻提曰：汝至師子諸國，興隆佛法。」<note n="0148001" resp="周怡曄" type="add">《分別功德論》卷2：「阿難將欲涅槃時。先現光瑞。有梵志從阿難學算術。見阿難顏色發明。告阿闍世王曰。阿難顏色異常。將欲取涅槃耶。王即遣人追尋阿難。阿難已將五百弟子。至中路恒水岸上。上船欲度。適至水半。王以至岸。毘舍離承阿難來。亦遣五百童子迎。欲適二國意故。以神力制船令住中流。時度弟子。一名摩禪提。二名摩呻提。告摩禪提。汝至羯賓興顯佛法。彼土未有佛法。好令流布。告摩呻提曰。汝至師子渚國興隆佛法。」(CBETA, T25, no. 1507, p. 37, b16-26)</note></p></quote>
-<lb n="0148a03" ed="Y"/><lb n="0150a04" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《分別功德論》</title>以摩呻提——摩哂陀為阿難弟子，顯然有參考<title level="m">《阿育王傳》</title>
+<lb n="0148a03" ed="Y"/><lb n="0150a04" ed="Y" type="old"/><p xml:id="pY22p0148a0301" style="text-indent:2em"><title level="m">《分別功德論》</title>以摩呻提——摩哂陀為阿難弟子，顯然有參考<title level="m">《阿育王傳》</title>
 <lb n="0148a04" ed="Y"/><lb n="0150a05" ed="Y" type="old"/>的形跡。中國學者中，如初期的法顯、晚期的義淨，留住錫蘭多年，但對於阿育
 <lb n="0148a05" ed="Y"/><lb n="0150a06" ed="Y" type="old"/>王子摩哂陀的傳教錫蘭，都沒有注意到。玄奘在南印，訪問從錫蘭回來的大德，
-<lb n="0148a06" ed="Y"/><lb n="0150a07" ed="Y" type="old"/>對於摩哂陀的事跡，也說得與錫蘭傳不同。如<bibl><title level="m">《西域記》</title><biblScope type="卷" n="11">（卷一一）</biblScope></bibl>說：</p>
-<lb n="0148a07" ed="Y"/><lb n="0150a08" ed="Y" type="old"/><quote source="T51n2087_p0934a10-13" type="嚴謹引文"><p style="margin-left:3em">「佛去世後第一百年，無憂王弟摩醯因陀羅，捨離欲愛，志求聖果，得六
+<lb n="0148a06" ed="Y"/><lb n="0150a07" ed="Y" type="old"/>對於摩哂陀的事跡，也說得與錫蘭傳不同。如<bibl><title level="m">《西域記》</title><biblScope n="11" type="卷">（卷一一）</biblScope></bibl>說：</p>
+<lb n="0148a07" ed="Y"/><lb n="0150a08" ed="Y" type="old"/><quote source="T51n2087_p0934a10-13" type="嚴謹引文"><p xml:id="pY22p0148a0701" style="margin-left:3em">「佛去世後第一百年，無憂王弟摩醯因陀羅，捨離欲愛，志求聖果，得六
 <lb n="0148a08" ed="Y"/><lb n="0150a09" ed="Y" type="old"/>神通，具八解脫。足步虛空，來遊此國，弘宣正法，流布遺教。」<note n="0148002" resp="周怡曄" type="add">《大唐西域記》卷11(CBETA, T51, no. 2087, p. 934, a10-13)</note></p></quote>
-<lb n="0148a09" ed="Y"/><lb n="0150a10" ed="Y" type="old"/><p style="text-indent:2em">這些，可以看出印度的佛教界，對於錫蘭佛教的摩哂陀，是怎樣的漠視與生
+<lb n="0148a09" ed="Y"/><lb n="0150a10" ed="Y" type="old"/><p xml:id="pY22p0148a0901" style="text-indent:2em">這些，可以看出印度的佛教界，對於錫蘭佛教的摩哂陀，是怎樣的漠視與生
 <lb n="0148a10" ed="Y"/><lb n="0150a11" ed="Y" type="old"/>疏。覺音（<foreign xml:lang="sa">Buddhaghoṣa</foreign>）以前的錫蘭佛教，一切在傳說中。摩哂陀南傳佛教<lb n="0150a12" ed="Y" type="old"/>的
 <lb n="0148a11" ed="Y"/>情形，不為印度大陸佛教所重視，而覺音所整理完成的，又那樣的重視摩哂陀<lb n="0150a13" ed="Y" type="old"/>而
 <lb n="0148a12" ed="Y"/>抹殺一切！錫蘭的佛教，在中印的交通中，目見耳聞，實在是大小顯密無一<pb n="0151a" ed="Y" xml:id="Y22.0022.0151a.old" type="old"/><lb n="0151a01" ed="Y" type="old"/>不弘
@@ -686,28 +706,28 @@
 <lb n="0149a01" ed="Y"/>音前後，如<title level="m">《島史》</title>、<title level="m">《善見律》</title>，才逐漸明確的完成。據我所知，南<lb n="0151a03" ed="Y" type="old"/>北共有或
 <lb n="0149a02" ed="Y"/>多少變形的傳說，實受本傳——<title level="m">《阿育王傳》</title>的影響。所以摩哂陀的身分<lb n="0151a04" ed="Y" type="old"/>，應出
 <lb n="0149a03" ed="Y"/>以保留的態度。</p>
-<lb n="0149a04" ed="Y"/><lb n="0151a05" ed="Y" type="old"/><p style="text-indent:2em">西元七世紀，玄奘得來的傳說，傳佛法去錫蘭的，是王弟摩醯因陀羅<lb n="0151a06" ed="Y" type="old"/>（<foreign xml:lang="sa"><note n="0149a0401" resp="CBETA" type="add">Mahendra【CB】，Mohendra【印順】</note><app n="0149a0401"><lem wit="【CB】" resp="正聞出版社">Mahendra</lem><rdg wit="【印順】">Mohendra</rdg></app></foreign>）
+<lb n="0149a04" ed="Y"/><lb n="0151a05" ed="Y" type="old"/><p xml:id="pY22p0149a0401" style="text-indent:2em">西元七世紀，玄奘得來的傳說，傳佛法去錫蘭的，是王弟摩醯因陀羅<lb n="0151a06" ed="Y" type="old"/>（<foreign xml:lang="sa"><note n="0149a0401" resp="CBETA" type="add">Mahendra【CB】，Mohendra【印順】</note><app n="0149a0401"><lem resp="正聞出版社" wit="【CB】">Mahendra</lem><rdg wit="【印順】">Mohendra</rdg></app></foreign>）
 <lb n="0149a05" ed="Y"/>（唐言大帝）。這當然即是摩哂陀，為梵語與巴利語的差別。摩哂陀不
 <lb n="0149a06" ed="Y"/><lb n="0151a07" ed="Y" type="old"/>為大陸佛教所重視，等於不知道。偶然的傳說：或模倣本傳的末闡提，而說他是
 <lb n="0149a07" ed="Y"/><lb n="0151a08" ed="Y" type="old"/>阿難弟子（<title level="m">《分別功德論》</title>）；或參考本傳，而說是阿育王弟（晉譯王弟宿大哆
 <lb n="0149a08" ed="Y"/><lb n="0151a09" ed="Y" type="old"/>，也就是因陀羅的異傳）。而錫蘭的傳說，又那樣的富於排他性。所以摩哂陀的
 <lb n="0149a09" ed="Y"/><lb n="0151a10" ed="Y" type="old"/>有否此人，也大有可疑。原來，摩醯因陀羅在印度的傳說中，為錫蘭的山名。今
-<lb n="0149a10" ed="Y"/><lb n="0151a11" ed="Y" type="old"/>舉<title level="m">《正法念處經》</title>與烈維（<foreign xml:lang="fr"><note n="0149a1001" resp="CBETA" type="add">Sylvain Lévi【CB】，Levi【印順】</note><app n="0149a1001"><lem wit="【CB】" resp="正聞出版社">Sylvain Lévi</lem><rdg wit="【印順】">Levi</rdg></app></foreign>）的考證於此：</p>
-<lb n="0149a11" ed="Y"/><lb n="0151a12" ed="Y" type="old"/><quote source="T17n0721_p0402a01-14" type="嚴謹引文"><p style="margin-left:3em">「有一渚，縱廣五百由旬，有諸羅剎，住在其中。……過羅剎渚，有一大
-<lb n="0149a12" ed="Y"/><lb n="0151a13" ed="Y" type="old"/>山，名摩醯陀（與摩哂陀合。下文又作摩醯陀羅，對比<title level="m">《<note n="0149a1201" resp="CBETA" type="add" subtype="規範字詞">羅摩衍那【CB】，羅摩耶那【印順】</note><app n="0149a1201"><lem wit="【CB】" resp="CBETA">羅摩衍那</lem><rdg wit="【印順】">羅摩耶那</rdg></app>》</title>，即<pb n="0152a" ed="Y" xml:id="Y22.0022.0152a.old" type="old"/>
+<lb n="0149a10" ed="Y"/><lb n="0151a11" ed="Y" type="old"/>舉<title level="m">《正法念處經》</title>與烈維（<foreign xml:lang="fr"><note n="0149a1001" resp="CBETA" type="add">Sylvain Lévi【CB】，Levi【印順】</note><app n="0149a1001"><lem resp="正聞出版社" wit="【CB】">Sylvain Lévi</lem><rdg wit="【印順】">Levi</rdg></app></foreign>）的考證於此：</p>
+<lb n="0149a11" ed="Y"/><lb n="0151a12" ed="Y" type="old"/><quote source="T17n0721_p0402a01-14" type="嚴謹引文"><p xml:id="pY22p0149a1101" style="margin-left:3em">「有一渚，縱廣五百由旬，有諸羅剎，住在其中。……過羅剎渚，有一大
+<lb n="0149a12" ed="Y"/><lb n="0151a13" ed="Y" type="old"/>山，名摩醯陀（與摩哂陀合。下文又作摩醯陀羅，對比<title level="m">《<note n="0149a1201" resp="CBETA" type="add" subtype="規範字詞">羅摩衍那【CB】，羅摩耶那【印順】</note><app n="0149a1201"><lem resp="CBETA" wit="【CB】">羅摩衍那</lem><rdg wit="【印順】">羅摩耶那</rdg></app>》</title>，即<pb n="0152a" ed="Y" xml:id="Y22.0022.0152a.old" type="old"/>
 <lb n="0149a13" ed="Y"/><lb n="0152a01" ed="Y" type="old"/>摩醯因陀羅）。……於閻浮提六齋之日，四天王天，住此山上，觀閻浮提
 <pb n="0150a" ed="Y" xml:id="Y22.0022.0150a"/>
 <lb n="0150a01" ed="Y"/><lb n="0152a02" ed="Y" type="old"/>。……四天王天至帝釋所，白如是言……。」（經）<note n="0150001" resp="周怡曄" type="add">《正法念處經》卷68〈7 身念處品〉：「有一渚。縱廣五百由旬。有諸羅剎。住在其中。其形醜惡。甚可怖畏。過羅剎渚。有一大山。名摩醯陀。縱廣四十由旬。高十由旬。多有眾樹。謂多羅樹。娑羅樹。諸阿修羅。諸龍龍女。遊戲其中。或復在於園林遊戲。於閻浮提六齋之日。四天王天。住此山上觀閻浮提何等眾生孝養父母隨順法行。何人齋日受持齋戒。有何等人信佛法僧。有何等人與魔共戰。誰行直心。誰行布施。何人不慳。誰不惱他。何人知恩。何人信業。誰行十善。誰近善友。何人信於邪見外道。如是四天王於摩醯陀羅山。觀閻浮提。若閻浮提順法修行。四天王天。至帝釋所。白如是言。」(CBETA, T17, no. 721, p. 402, a1-14)</note></p></quote>
-<lb n="0150a02" ed="Y"/><lb n="0152a03" ed="Y" type="old"/><quote><p style="margin-left:3em">「據史頌（丙乙本），此島唯有一百由旬，諸羅剎及其王羅婆那之所居。
+<lb n="0150a02" ed="Y"/><lb n="0152a03" ed="Y" type="old"/><quote><p xml:id="pY22p0150a0201" style="margin-left:3em">「據史頌（丙乙本），此島唯有一百由旬，諸羅剎及其王羅婆那之所居。
 <lb n="0150a03" ed="Y"/><lb n="0152a04" ed="Y" type="old"/>……摩醯因陀羅山，必為錫蘭島中央之高峰，今名亞當峰（<foreign xml:lang="en">Adam</foreign>）者是
 <lb n="0150a04" ed="Y"/><lb n="0152a05" ed="Y" type="old"/>。據史頌（乙丙本），猴使賀奴末（<foreign xml:lang="sa">Hanumat</foreign>）置跳板於摩醯因陀羅山上
 <lb n="0150a05" ed="Y"/><lb n="0152a06" ed="Y" type="old"/>，由大陸一躍而至楞迦。……史頌唯說：因陀羅（即佛教的帝釋）於六齋
 <lb n="0150a06" ed="Y"/><lb n="0152a07" ed="Y" type="old"/>之日，常至此山，未言其原因也。而<title level="m">《念處經》</title>乃以帝釋受天使之報告。
 <lb n="0150a07" ed="Y"/>」（考<lb n="0152a08" ed="Y" type="old"/>證）</p></quote>
-<lb n="0150a08" ed="Y"/><lb n="0152a09" ed="Y" type="old"/><p style="text-indent:2em">山名摩醯因陀羅，顯然依因陀羅得名（也許山名與因陀羅同，才附會於因陀
+<lb n="0150a08" ed="Y"/><lb n="0152a09" ed="Y" type="old"/><p xml:id="pY22p0150a0801" style="text-indent:2em">山名摩醯因陀羅，顯然依因陀羅得名（也許山名與因陀羅同，才附會於因陀
 <lb n="0150a09" ed="Y"/><lb n="0152a10" ed="Y" type="old"/>羅天神的故事），為錫蘭的神山，而為錫蘭人所崇敬的。摩醯因陀羅山，初見於
 <lb n="0150a10" ed="Y"/><lb n="0152a11" ed="Y" type="old"/>羅摩的傳說，從大陸一跳而登楞伽。後如佛遊錫蘭而留足跡的傳說、摩哂陀飛騰
-<lb n="0150a11" ed="Y"/>虛<lb n="0152a12" ed="Y" type="old"/>空（天帝釋隨從，<bibl><title level="m">《善見毘婆沙》</title><biblScope type="卷" n="2">卷二</biblScope></bibl>）而入錫蘭說，甚至佛入楞伽而化羅婆
+<lb n="0150a11" ed="Y"/>虛<lb n="0152a12" ed="Y" type="old"/>空（天帝釋隨從，<bibl><title level="m">《善見毘婆沙》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>）而入錫蘭說，甚至佛入楞伽而化羅婆
 <lb n="0150a12" ed="Y"/>那王說<lb n="0152a13" ed="Y" type="old"/>，都受著這一神話的影響。摩醯因陀羅即摩哂陀，可能為帝釋天的人化。
 <lb n="0150a13" ed="Y"/>如北方<pb n="0153a" ed="Y" xml:id="Y22.0022.0153a.old" type="old"/><lb n="0153a01" ed="Y" type="old"/>傳離越山有離越仙人，其後建離越寺，或者即傳說為罽賓有離越阿羅漢。
 <pb n="0151a" ed="Y" xml:id="Y22.0022.0151a"/>
@@ -720,13 +740,13 @@
 <lb n="0151a07" ed="Y"/>裡是<lb n="0153a08" ed="Y" type="old"/>一人傳承得了（也不會一時傳入，參照其他佛教國的傳入史，即可明白）！
 <lb n="0151a08" ed="Y"/>這實<lb n="0153a09" ed="Y" type="old"/>是目犍連子帝須系的學者們，經一期努力而得的業績。總之，摩哂陀的身分
 <lb n="0151a09" ed="Y"/>，有<lb n="0153a10" ed="Y" type="old"/>加以保留而出於審慎研討的必要！</p>
-<lb n="0151a10" ed="Y"/><lb n="0153a11" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《善見律》</title>說摩田提是育王時代的大德，布教於罽賓，揵陀羅咤。弘化罽賓
-<lb n="0151a11" ed="Y"/><lb n="0153a12" ed="Y" type="old"/>，與本傳所說的相合。<bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="99">（卷九九）</biblScope></bibl>說：阿育王時，由於育王的信
+<lb n="0151a10" ed="Y"/><lb n="0153a11" ed="Y" type="old"/><p xml:id="pY22p0151a1001" style="text-indent:2em"><title level="m">《善見律》</title>說摩田提是育王時代的大德，布教於罽賓，揵陀羅咤。弘化罽賓
+<lb n="0151a11" ed="Y"/><lb n="0153a12" ed="Y" type="old"/>，與本傳所說的相合。<bibl><title level="m">《大毘婆沙論》</title><biblScope n="99" type="卷">（卷九九）</biblScope></bibl>說：阿育王時，由於育王的信
 <lb n="0151a12" ed="Y"/>從<lb n="0153a13" ed="Y" type="old"/>大天，呵伏賢聖僧，所以都西行到迦濕彌羅。這一傳說，與摩田提的開化罽賓
 <lb n="0151a13" ed="Y"/>，<pb n="0154a" ed="Y" xml:id="Y22.0022.0154a.old" type="old"/><lb n="0154a01" ed="Y" type="old"/>恆河上流的佛教發展到罽賓，顯然為同一事實（傳說末田地立五百伽藍，育王
 <pb n="0152a" ed="Y" xml:id="Y22.0022.0152a"/>
 <lb n="0152a01" ed="Y"/><lb n="0154a02" ed="Y" type="old"/>為僧眾立五百伽藍，也可見一致）。所以摩田提為阿育王時人，是很可信的。</p>
-<lb n="0152a02" ed="Y"/><lb n="0154a03" ed="Y" type="old"/><p style="text-indent:2em">那麼，本傳為什麼說摩田提是阿難弟子？本傳為罽賓學者所編的，已如上說
+<lb n="0152a02" ed="Y"/><lb n="0154a03" ed="Y" type="old"/><p xml:id="pY22p0152a0201" style="text-indent:2em">那麼，本傳為什麼說摩田提是阿難弟子？本傳為罽賓學者所編的，已如上說
 <lb n="0152a03" ed="Y"/><lb n="0154a04" ed="Y" type="old"/>。編集的是阿育王王統、優婆毱多法統——阿育王與優婆毱多為中心的護法史。
 <lb n="0152a04" ed="Y"/>這<lb n="0154a05" ed="Y" type="old"/>一法統，如晉譯（卷五）所說：迦葉，阿難，商那和修，優婆毱多，提多迦，
 <lb n="0152a05" ed="Y"/>本<lb n="0154a06" ed="Y" type="old"/>沒有說到摩田提。從法統的到提多迦為止，可見五師相承的定說離提多迦的時
@@ -742,28 +762,28 @@
 <lb n="0153a01" ed="Y"/>；摩<lb n="0155a02" ed="Y" type="old"/>田提（水中）因此被傳說為阿難在恆河中流所度的弟子。二、說摩田提是雪
 <lb n="0153a02" ed="Y"/>山的<lb n="0155a03" ed="Y" type="old"/>外道出家，是阿難臨入滅時所度。這與佛度須跋陀羅（<foreign xml:lang="sa">Subhadra</foreign>）極為相類
 <lb n="0153a03" ed="Y"/>，<lb n="0155a04" ed="Y" type="old"/>顯為模仿的傳說。摩田提編為阿難的弟子，其理由不外乎如此。</p>
-<lb n="0153a04" ed="Y"/><lb n="0155a05" ed="Y" type="old"/><p style="text-indent:2em">摩田提的開化罽賓，依<title level="m">《善見律》</title>說，本不指迦溼彌羅（喀什彌爾）。降伏
+<lb n="0153a04" ed="Y"/><lb n="0155a05" ed="Y" type="old"/><p xml:id="pY22p0153a0401" style="text-indent:2em">摩田提的開化罽賓，依<title level="m">《善見律》</title>說，本不指迦溼彌羅（喀什彌爾）。降伏
 <lb n="0153a05" ed="Y"/><lb n="0155a06" ed="Y" type="old"/>阿波羅龍王，只是說明了罽賓人尊崇的神祇成為佛教的護法者。本傳所說，與<lb n="0155a07" ed="Y" type="old"/><title level="m">《
 <lb n="0153a06" ed="Y"/>善見律》</title>大致相近。如商那和修的降伏優留漫荼山的龍王一樣（本傳卷四），並
 <lb n="0153a07" ed="Y"/><lb n="0155a08" ed="Y" type="old"/>無特殊意義。但摩田提的降龍故事，被誤會為降伏迦濕彌羅的忽弄龍<bibl>（<title level="m">《雜事》</title>
-<lb n="0153a08" ed="Y"/><biblScope type="卷" n="40">卷四<lb n="0155a09" ed="Y" type="old"/>〇</biblScope>）</bibl>。迦溼彌羅舊有這樣的傳說：迦溼彌羅，本為 <foreign xml:lang="sa">Satisaras</foreign> 湖；由於梵天
+<lb n="0153a08" ed="Y"/><biblScope n="40" type="卷">卷四<lb n="0155a09" ed="Y" type="old"/>〇</biblScope>）</bibl>。迦溼彌羅舊有這樣的傳說：迦溼彌羅，本為 <foreign xml:lang="sa">Satisaras</foreign> 湖；由於梵天
 <lb n="0153a09" ed="Y"/>使<lb n="0155a10" ed="Y" type="old"/>毘溼紐（<foreign xml:lang="sa">Viṣṇu</foreign>）與婆羅跋陀羅（<foreign xml:lang="sa">Balabhadra</foreign>）刺山而使湖水乾涸，成為平地
 <lb n="0153a10" ed="Y"/><lb n="0155a11" ed="Y" type="old"/>。這個神話，與摩田提開化罽賓，降伏龍王的傳說相結合，這才化為摩田地向龍
 <lb n="0153a11" ed="Y"/><lb n="0155a12" ed="Y" type="old"/>索地，<cit><quote type="嚴謹引文">「龍王於是縮水奉施」</quote><bibl>（<title level="m">《西域記》</title><biblScope n="3" type="卷">卷三</biblScope>）</bibl></cit>。摩田提不但為罽賓佛教的弘
 <lb n="0153a12" ed="Y"/>化者<lb n="0155a13" ed="Y" type="old"/>，竟成為使迦溼彌羅從大湖而成為平地，且成為移民事業的推行者了<bibl>（<title level="m">多
-<lb n="0153a13" ed="Y"/>氏《印度佛教<pb n="0156a" ed="Y" xml:id="Y22.0022.0156a.old" type="old"/><lb n="0156a01" ed="Y" type="old"/>史》</title><biblScope type="chap" n="3">三</biblScope>．<biblScope type="節" n="1">一</biblScope>）</bibl>。本傳串插進去的摩田提的傳說，應另為處理，勿使紊
+<lb n="0153a13" ed="Y"/>氏《印度佛教<pb n="0156a" ed="Y" xml:id="Y22.0022.0156a.old" type="old"/><lb n="0156a01" ed="Y" type="old"/>史》</title><biblScope n="3" type="chap">三</biblScope>．<biblScope n="1" type="節">一</biblScope>）</bibl>。本傳串插進去的摩田提的傳說，應另為處理，勿使紊
 <pb n="0154a" ed="Y" xml:id="Y22.0022.0154a"/>
 <lb n="0154a01" ed="Y"/>亂初期佛教的<lb n="0156a02" ed="Y" type="old"/>師承事實！</p></cb:div>
 <lb n="0154a02" ed="Y"/><lb n="0156a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五　阿育王中心的王系</cb:mulu><head>五　阿育王中心的王系</head>
-<lb n="0154a03" ed="Y"/><lb n="0156a04" ed="Y" type="old"/><cb:mulu level="3" type="其他">一　泛說印度王系</cb:mulu><head>一　泛說印度王系</head><p style="text-indent:2em">關於王統，宋譯與梁譯，只說到旃那羅笈多（<foreign xml:lang="sa">Candragupta</foreign>）
+<lb n="0154a03" ed="Y"/><lb n="0156a04" ed="Y" type="old"/><cb:mulu level="3" type="其他">一　泛說印度王系</cb:mulu><head>一　泛說印度王系</head><p xml:id="pY22p0154a0315" style="text-indent:2em">關於王統，宋譯與梁譯，只說到旃那羅笈多（<foreign xml:lang="sa">Candragupta</foreign>）
 <lb n="0154a04" ed="Y"/><lb n="0156a05" ed="Y" type="old"/>、頻頭娑羅（<foreign xml:lang="x-sa-pi">Bindusāra</foreign>）、阿輸柯（<foreign xml:lang="sa">Aśoka</foreign>）；這是印度史上著名的<lb n="0156a06" ed="Y" type="old"/>時代
 <lb n="0154a05" ed="Y"/>，與錫蘭及印度所傳的王統相合。安法欽的晉譯（卷一）這樣說：</p>
-<lb n="0154a06" ed="Y"/><lb n="0156a07" ed="Y" type="old"/><quote type="嚴謹引文"><p style="margin-left:3em">「頻婆娑羅王子名阿闍世，阿闍世子名優陀那跋陀羅，優陀那跋陀<lb n="0156a08" ed="Y" type="old"/>羅子名
+<lb n="0154a06" ed="Y"/><lb n="0156a07" ed="Y" type="old"/><quote type="嚴謹引文"><p xml:id="pY22p0154a0601" style="margin-left:3em">「頻婆娑羅王子名阿闍世，阿闍世子名優陀那跋陀羅，優陀那跋陀<lb n="0156a08" ed="Y" type="old"/>羅子名
 <lb n="0154a07" ed="Y"/>文荼，文荼子名烏耳，烏耳子名莎破羅，莎破羅子名兜羅貴，兜羅<lb n="0156a09" ed="Y" type="old"/>貴之子
 <lb n="0154a08" ed="Y"/>名莎呵蔓荼羅，莎呵蔓荼羅子名波斯匿，波斯匿子名難陀，難陀子名<lb n="0156a10" ed="Y" type="old"/>頻頭
 <lb n="0154a09" ed="Y"/>莎羅王。」</p></quote>
-<lb n="0154a10" ed="Y"/><lb n="0156a11" ed="Y" type="old"/><p style="text-indent:2em">現存的梵本<title level="m">《阿育譬喻集》</title>（<foreign xml:lang="sa">AśokAvadAna</foreign>）所說的王系，與晉譯相同，<lb n="0156a12" ed="Y" type="old"/>僅
-<lb n="0154a11" ed="Y"/>名字小異。如優陀那跋陀羅作 <foreign xml:lang="sa">Udāyibhadra</foreign>（優陀耶跋陀羅），烏耳作<pb n="0157a" ed="Y" xml:id="Y22.0022.0157a.old" type="old"/> <lb n="0157a01" ed="Y" type="old"/><foreign xml:lang="sa"><note n="0154a1101" resp="CBETA" type="add">Kākavarṇin【CB】，kākavarṇī【印順】</note><app n="0154a1101"><lem wit="【CB】" resp="正聞出版社">Kākavarṇin</lem><rdg wit="【印順】">kākavarṇī</rdg></app></foreign>
+<lb n="0154a10" ed="Y"/><lb n="0156a11" ed="Y" type="old"/><p xml:id="pY22p0154a1001" style="text-indent:2em">現存的梵本<title level="m">《阿育譬喻集》</title>（<foreign xml:lang="sa">AśokAvadAna</foreign>）所說的王系，與晉譯相同，<lb n="0156a12" ed="Y" type="old"/>僅
+<lb n="0154a11" ed="Y"/>名字小異。如優陀那跋陀羅作 <foreign xml:lang="sa">Udāyibhadra</foreign>（優陀耶跋陀羅），烏耳作<pb n="0157a" ed="Y" xml:id="Y22.0022.0157a.old" type="old"/> <lb n="0157a01" ed="Y" type="old"/><foreign xml:lang="sa"><note n="0154a1101" resp="CBETA" type="add">Kākavarṇin【CB】，kākavarṇī【印順】</note><app n="0154a1101"><lem resp="正聞出版社" wit="【CB】">Kākavarṇin</lem><rdg wit="【印順】">kākavarṇī</rdg></app></foreign>
 <lb n="0154a12" ed="Y"/>（迦迦婆羅那），莎破羅作 <foreign xml:lang="sa">Sahalī</foreign>（莎訶羅），莎呵蔓荼羅作 <lb n="0157a02" ed="Y" type="old"/><foreign xml:lang="sa">Mahāmaṇḍala</foreign>（摩
 <pb n="0155a" ed="Y" xml:id="Y22.0022.0155a"/>
 <lb n="0155a01" ed="Y"/>訶曼陀羅）。安法欽所傳的王統，為印度舊有的傳說，但宋、梁二<lb n="0157a03" ed="Y" type="old"/>譯都缺。所以
@@ -773,36 +793,36 @@
 <lb n="0155a05" ed="Y"/>，佛教的傳說、<title level="m">《古事集》</title>的傳說，又多而出入又大。安法欽所有<lb n="0157a07" ed="Y" type="old"/>的特殊部分，
 <lb n="0155a06" ed="Y"/>與錫蘭的傳說也不一致。正確而眾說一致的，還只是從旃陀羅笈多<lb n="0157a08" ed="Y" type="old"/>到阿育王——
 <lb n="0155a07" ed="Y"/>三世。</p>
-<lb n="0155a08" ed="Y"/><lb n="0157a09" ed="Y" type="old"/><p style="text-indent:2em">從佛滅到阿育王灌頂，錫蘭的傳說，是二百十八年滿。或說：二百十八年滿
-<lb n="0155a09" ed="Y"/><lb n="0157a10" ed="Y" type="old"/>，已是二百十九年了。王統的相承，如梁譯<bibl><title level="m">《善見律》</title><biblScope type="卷" n="2">（卷二）</biblScope></bibl>說：</p>
-<lb n="0155a10" ed="Y"/><lb n="0157a11" ed="Y" type="old"/><quote source="T24n1462_p0687a29-b07" type="嚴謹引文"><p style="margin-left:3em">「佛涅槃後，阿<g ref="#CB00145"/>樓陀王、閔躕王在位各八年；那迦逮婆（娑？）迦作王
+<lb n="0155a08" ed="Y"/><lb n="0157a09" ed="Y" type="old"/><p xml:id="pY22p0155a0801" style="text-indent:2em">從佛滅到阿育王灌頂，錫蘭的傳說，是二百十八年滿。或說：二百十八年滿
+<lb n="0155a09" ed="Y"/><lb n="0157a10" ed="Y" type="old"/>，已是二百十九年了。王統的相承，如梁譯<bibl><title level="m">《善見律》</title><biblScope n="2" type="卷">（卷二）</biblScope></bibl>說：</p>
+<lb n="0155a10" ed="Y"/><lb n="0157a11" ed="Y" type="old"/><quote source="T24n1462_p0687a29-b07" type="嚴謹引文"><p xml:id="pY22p0155a1001" style="margin-left:3em">「佛涅槃後，阿<g ref="#CB00145"/>樓陀王、閔躕王在位各八年；那迦逮婆（娑？）迦作王
 <lb n="0155a11" ed="Y"/><lb n="0157a12" ed="Y" type="old"/>十四年；修修佛那迦作王十八年；其兒代名阿育，作王二十八年；阿育有
 <lb n="0155a12" ed="Y"/><lb n="0157a13" ed="Y" type="old"/>十兒，並登為王二十二年；次玖難陀代作王，二十二年；復有旃陀掘多作<pb n="0158a" ed="Y" xml:id="Y22.0022.0158a.old" type="old"/>
 <lb n="0155a13" ed="Y"/><lb n="0158a01" ed="Y" type="old"/>王二十四年；賓頭沙羅王代在位二十八年。阿育王代位已十八年，摩哂陀
 <pb n="0156a" ed="Y" xml:id="Y22.0022.0156a"/>
 <lb n="0156a01" ed="Y"/><lb n="0158a02" ed="Y" type="old"/>到師子洲中。」<note n="0156001" resp="周怡曄" type="add">《善見律毘婆沙》卷2〈3 阿育王品〉(CBETA, T24, no. 1462, p. 687, a29-b7)</note></p></quote>
-<lb n="0156a02" ed="Y"/><lb n="0158a03" ed="Y" type="old"/><p style="text-indent:2em">阿育王灌頂時，錫蘭傳說為佛滅二百十八年滿。漢譯的<title level="m">《善見律》</title>，略有錯
+<lb n="0156a02" ed="Y"/><lb n="0158a03" ed="Y" type="old"/><p xml:id="pY22p0156a0201" style="text-indent:2em">阿育王灌頂時，錫蘭傳說為佛滅二百十八年滿。漢譯的<title level="m">《善見律》</title>，略有錯
 <lb n="0156a03" ed="Y"/><lb n="0158a04" ed="Y" type="old"/>脫處。漢譯所沒有譯出的，據巴利<title level="m">《善見律》</title>說：佛滅於阿闍世王八年；三十二
 <lb n="0156a04" ed="Y"/><lb n="0158a05" ed="Y" type="old"/>年卒，為佛滅後二十四年；鬱陀耶跋陀羅王十六年。漢譯所譯誤（也許是傳寫的
 <lb n="0156a05" ed="Y"/><lb n="0158a06" ed="Y" type="old"/>筆誤）的，阿<g ref="#CB00145"/>樓陀（<foreign xml:lang="x-sa-pi">Anuruddha</foreign>）與閔躕王（<foreign xml:lang="sa">Muṇḍa</foreign>）合八年，誤作各八年。
 <lb n="0156a06" ed="Y"/><lb n="0158a07" ed="Y" type="old"/>那迦逮婆迦王（<foreign xml:lang="sa">Nāgadāsaka</foreign>）二十四年，誤作十四年。此外，育王灌頂前自立<lb n="0158a08" ed="Y" type="old"/>爭
 <lb n="0156a07" ed="Y"/>位四年，即為恰合二百十八年的王統編年。緬甸所傳的也是二百十八年說，但<lb n="0158a09" ed="Y" type="old"/>王
 <lb n="0156a08" ed="Y"/>統的年代，頗有出入。</p>
-<lb n="0156a09" ed="Y"/><lb n="0158a10" ed="Y" type="old"/><p style="text-indent:2em">本傳說：阿育王出於<quote>「佛滅百年後」<note n="0156002" resp="周怡曄" type="add">《阿育王傳》卷1：「大王當知佛亦記汝將來佛滅百年後。王華氏城號阿恕伽。」(CBETA, T50, no. 2042, p. 101, c21-23)</note></quote>。如依世友論而肯定為百十六年，即<lb n="0158a11" ed="Y" type="old"/>與
+<lb n="0156a09" ed="Y"/><lb n="0158a10" ed="Y" type="old"/><p xml:id="pY22p0156a0901" style="text-indent:2em">本傳說：阿育王出於<quote>「佛滅百年後」<note n="0156002" resp="周怡曄" type="add">《阿育王傳》卷1：「大王當知佛亦記汝將來佛滅百年後。王華氏城號阿恕伽。」(CBETA, T50, no. 2042, p. 101, c21-23)</note></quote>。如依世友論而肯定為百十六年，即<lb n="0158a11" ed="Y" type="old"/>與
 <lb n="0156a10" ed="Y"/>錫蘭的傳說，相差約一百年。這一時代的印度王統，除孔雀王朝三世外，見於<lb n="0158a12" ed="Y" type="old"/><title level="m">《
 <lb n="0156a11" ed="Y"/>阿含經》</title>的有三：一、阿闍世王。二、阿闍世王子優婆陀延或優婆延<bibl>（<title level="m">《長阿含
 <lb n="0156a12" ed="Y"/><lb n="0158a13" ed="Y" type="old"/>經》</title><biblScope n="27" type="卷">卷二七</biblScope>）</bibl>：巴利語作 <foreign xml:lang="sa">Udaya</foreign>，即本傳晉譯的優陀那（耶？）跋陀羅。三、文<pb n="0159a" ed="Y" xml:id="Y22.0022.0159a.old" type="old"/>
-<lb n="0156a13" ed="Y"/><lb n="0159a01" ed="Y" type="old"/>荼王<bibl>（<title level="m">《增一阿含經》</title><biblScope type="卷" n="24">卷二四</biblScope>）</bibl>：巴利語作 <foreign xml:lang="sa">Muṇḍa</foreign>，即梁譯的閔躕。此外，見於
+<lb n="0156a13" ed="Y"/><lb n="0159a01" ed="Y" type="old"/>荼王<bibl>（<title level="m">《增一阿含經》</title><biblScope n="24" type="卷">卷二四</biblScope>）</bibl>：巴利語作 <foreign xml:lang="sa">Muṇḍa</foreign>，即梁譯的閔躕。此外，見於
 <pb n="0157a" ed="Y" xml:id="Y22.0022.0157a"/>
 <lb n="0157a01" ed="Y"/>傳<lb n="0159a02" ed="Y" type="old"/>記的，有難陀王 <foreign xml:lang="x-sa-pi">Nanda</foreign>，即<title level="m">《善見律》</title>的難陀。中國舊來所傳，除<title level="m">《善見律》</title>
 <lb n="0157a02" ed="Y"/><lb n="0159a03" ed="Y" type="old"/>與晉譯本傳外，百餘年間的印度王統，沒有詳備的傳述。</p>
-<lb n="0157a03" ed="Y"/><lb n="0159a04" ed="Y" type="old"/><cb:mulu level="3" type="其他">二　二百十八年說的檢討</cb:mulu><head>二　二百十八年說的檢討</head><p style="text-indent:2em">一般人同情於錫蘭的傳說，是不無理由的。一、
+<lb n="0157a03" ed="Y"/><lb n="0159a04" ed="Y" type="old"/><cb:mulu level="3" type="其他">二　二百十八年說的檢討</cb:mulu><head>二　二百十八年說的檢討</head><p xml:id="pY22p0157a0321" style="text-indent:2em">一般人同情於錫蘭的傳說，是不無理由的。一、
 <lb n="0157a04" ed="Y"/><lb n="0159a05" ed="Y" type="old"/>因為（由歐人創導）不曾留心華文教典，先入為主的引起執著。二、錫蘭對於<lb n="0159a06" ed="Y" type="old"/>二
 <lb n="0157a05" ed="Y"/>百十八年的傳說，從印度王統、錫蘭王統、五師傳承——三方面，確乎編排得<lb n="0159a07" ed="Y" type="old"/>活
 <lb n="0157a06" ed="Y"/>像事實。三、由於近代考證所得的，旃陀羅與阿育王間的年代，與錫蘭傳部分<lb n="0159a08" ed="Y" type="old"/>相
 <lb n="0157a07" ed="Y"/>合。四、由於「眾聖點記」的方法——按年下一點，使人信以為真。然而，二百
 <lb n="0157a08" ed="Y"/>十<lb n="0159a09" ed="Y" type="old"/>八年說，與百十六年說一樣，也不過是傳說而已。這不妨從三方面去推究。</p>
-<lb n="0157a09" ed="Y"/><lb n="0159a10" ed="Y" type="old"/><p style="text-indent:2em">一、印度王統的二百十八年說：印度所傳的王統譜牒，是非常雜亂的！對<title level="m">《
+<lb n="0157a09" ed="Y"/><lb n="0159a10" ed="Y" type="old"/><p xml:id="pY22p0157a0901" style="text-indent:2em">一、印度王統的二百十八年說：印度所傳的王統譜牒，是非常雜亂的！對<title level="m">《
 <lb n="0157a10" ed="Y"/><lb n="0159a11" ed="Y" type="old"/>善見律》</title>所傳的，也就不能不出於審慎的態度。錫蘭所傳二百十八年的王統，我
 <lb n="0157a11" ed="Y"/><lb n="0159a12" ed="Y" type="old"/>們並沒有一部精確可信的王統編年可以證實它的錯誤。但由於錫蘭王統、五師<lb n="0159a13" ed="Y" type="old"/>傳
 <lb n="0157a12" ed="Y"/>承的編年充分暴露了它的偽妄面目，所以同為證明二百十八年說的印度王統<pb n="0160a" ed="Y" xml:id="Y22.0022.0160a.old" type="old"/><lb n="0160a01" ed="Y" type="old"/>，也
@@ -814,11 +834,11 @@
 <lb n="0158a04" ed="Y"/>、<title level="m">《善見律》</title>的修修（佛）那迦（<foreign xml:lang="sa">Susunāga</foreign>），<title level="m">《阿育王譬喻集》</title><lb n="0160a06" ed="Y" type="old"/>缺。傳為廢君
 <lb n="0158a05" ed="Y"/>自立，創立悉蘇那伽王朝，定都舊王舍城（<foreign xml:lang="sa">Rājagṛha</foreign>）的名王。<lb n="0160a07" ed="Y" type="old"/>然悉蘇那伽王朝
 <lb n="0158a06" ed="Y"/>，實創立於頻婆娑羅王（<foreign xml:lang="x-sa-pi">Bimbisāra</foreign>）以前，頻王為第四世。從<lb n="0160a08" ed="Y" type="old"/>定都舊王舍城說，
-<lb n="0158a07" ed="Y"/>恰好證明了這還是以王舍城為首都的時代。考<bibl><title level="m">《中阿含經》</title>（<lb n="0160a09" ed="Y" type="old"/><biblScope type="卷" n="11">卷一一</biblScope></bibl>，又<bibl>《<title level="m">銅鍱
+<lb n="0158a07" ed="Y"/>恰好證明了這還是以王舍城為首都的時代。考<bibl><title level="m">《中阿含經》</title>（<lb n="0160a09" ed="Y" type="old"/><biblScope n="11" type="卷">卷一一</biblScope></bibl>，又<bibl>《<title level="m">銅鍱
 <lb n="0158a08" ed="Y"/>律</title>．<title level="a">大品</title>》</bibl>），稱頻王為「洗尼頻婆沙羅」。洗尼（<foreign xml:lang="sa">Seṇiya</foreign>），<lb n="0160a10" ed="Y" type="old"/>即悉蘇那伽的音
 <lb n="0158a09" ed="Y"/>轉。所以<title level="m">《善見律》</title>的修修那迦王，是編排譜牒者，誤以頻王前<lb n="0160a11" ed="Y" type="old"/>的古王，錯編於
 <lb n="0158a10" ed="Y"/>閔躕王後。<title level="m">《古事集》</title>即是編列於頻王之前的。(三)、<title level="m">《善見律》</title><lb n="0160a12" ed="Y" type="old"/>的（迦羅）阿育
-<lb n="0158a11" ed="Y"/>，與<title level="m">《古事集》</title>的迦迦婆羅那（<foreign xml:lang="sa">Kākavarṇa</foreign>）相當；音轉而簡為<lb n="0160a13" ed="Y" type="old"/>迦羅（<foreign xml:lang="x-sa-pi"><note n="0158a1101" resp="CBETA" type="add">kāla【CB】，kālā【印順】</note><app n="0158a1101"><lem wit="【CB】" resp="正聞出版社">kāla</lem><rdg wit="【印順】">kālā</rdg></app></foreign>），即
+<lb n="0158a11" ed="Y"/>，與<title level="m">《古事集》</title>的迦迦婆羅那（<foreign xml:lang="sa">Kākavarṇa</foreign>）相當；音轉而簡為<lb n="0160a13" ed="Y" type="old"/>迦羅（<foreign xml:lang="x-sa-pi"><note n="0158a1101" resp="CBETA" type="add">kāla【CB】，kālā【印順】</note><app n="0158a1101"><lem resp="正聞出版社" wit="【CB】">kāla</lem><rdg wit="【印順】">kālā</rdg></app></foreign>），即
 <lb n="0158a12" ed="Y"/>晉譯的烏耳，意義為「黑」。錫蘭傳說為迦羅輸柯（<foreign xml:lang="sa">kālāsoka</foreign>）<pb n="0161a" ed="Y" xml:id="Y22.0022.0161a.old" type="old"/><lb n="0161a01" ed="Y" type="old"/>；<title level="m">《善見律》</title>的譯
 <lb n="0158a13" ed="Y"/>者直譯之為阿育（阿輸柯）。「輸柯」，是錫蘭傳所特有<lb n="0161a02" ed="Y" type="old"/>的。本傳說：阿育王早
 <pb n="0159a" ed="Y" xml:id="Y22.0022.0159a"/>
@@ -839,7 +859,7 @@
 <lb n="0160a01" ed="Y"/>。這位篡滅悉蘇那伽朝的難陀<lb n="0162a03" ed="Y" type="old"/>王（<foreign xml:lang="x-sa-pi">Nanda</foreign>），傳說中名字的變化極大。然傳說為
 <lb n="0160a02" ed="Y"/>「九難陀」，晉譯的摩訶曼陀<lb n="0162a04" ed="Y" type="old"/>羅、波斯匿、難陀，及<title level="m">多氏《印度佛教史》</title>的毘羅
 <lb n="0160a03" ed="Y"/>斯那、難陀、摩訶波頭摩，大<lb n="0162a05" ed="Y" type="old"/>抵都屬於九難陀王的一王。</p>
-<lb n="0160a04" ed="Y"/><lb n="0162a06" ed="Y" type="old"/><p style="text-indent:2em">今綜<title level="m">《古事集》</title>、拔那、科爾提等傳說，認為：迦迦婆羅那是被襲殺的；他
+<lb n="0160a04" ed="Y"/><lb n="0162a06" ed="Y" type="old"/><p xml:id="pY22p0160a0401" style="text-indent:2em">今綜<title level="m">《古事集》</title>、拔那、科爾提等傳說，認為：迦迦婆羅那是被襲殺的；他
 <lb n="0160a05" ed="Y"/><lb n="0162a07" ed="Y" type="old"/>應為與難陀王朝相啣接。阿育十兒並立的二十二年，在歷代王統編年中，實屬不
 <lb n="0160a06" ed="Y"/><lb n="0162a08" ed="Y" type="old"/>當。十兒的稱王是可能的；王朝被難陀王所篡竊，仍不妨佔有少數城邑，延續殘
 <lb n="0160a07" ed="Y"/><lb n="0162a09" ed="Y" type="old"/>破偏安的舊統。王統譜牒，本是一朝朝獨立的；先後代興的王朝，每同時存在。
@@ -854,12 +874,12 @@
 <lb n="0161a02" ed="Y"/><lb n="0163a04" ed="Y" type="old"/>有闍王在位十八年的傳說（卒於佛滅十年）。又頻頭沙羅王，<title level="m">《善見律》</title>說在位
 <lb n="0161a03" ed="Y"/><lb n="0163a05" ed="Y" type="old"/>二十八年，<title level="m">《古事集》</title>說是二十五年。總之，錫蘭所傳的印度王統編年，值得懷
 <lb n="0161a04" ed="Y"/><lb n="0163a06" ed="Y" type="old"/>疑處不少！</p>
-<lb n="0161a05" ed="Y"/><lb n="0163a07" ed="Y" type="old"/><p style="text-indent:2em">耆那教所傳，王統的年代較長。然一致說，難陀王朝即位於大雄（<foreign xml:lang="pi">Mahāvīra</foreign>
+<lb n="0161a05" ed="Y"/><lb n="0163a07" ed="Y" type="old"/><p xml:id="pY22p0161a0501" style="text-indent:2em">耆那教所傳，王統的年代較長。然一致說，難陀王朝即位於大雄（<foreign xml:lang="pi">Mahāvīra</foreign>
 <lb n="0161a06" ed="Y"/>）<lb n="0163a08" ed="Y" type="old"/>涅槃後六十年。即依近代學者所說，大雄比佛遲十年入滅，那難陀王朝的成<lb n="0163a09" ed="Y" type="old"/>立
 <lb n="0161a07" ed="Y"/>，也不過佛滅七十年而已。然佛教傳說，大雄死於佛陀涅槃以前，所以從佛滅<lb n="0163a10" ed="Y" type="old"/>到
 <lb n="0161a08" ed="Y"/>難陀王朝的成立，大約為六十年左右。難陀王朝二十二年，再加旃陀羅笈多及<lb n="0163a11" ed="Y" type="old"/>頻
 <lb n="0161a09" ed="Y"/>頭沙羅，也不過一百二十多年。</p>
-<lb n="0161a10" ed="Y"/><lb n="0163a12" ed="Y" type="old"/><p style="text-indent:2em">由於亞歷山大（<foreign xml:lang="en">Alexander</foreign>）的侵入印度，阿育王摩崖石刻的發見，孔雀王
+<lb n="0161a10" ed="Y"/><lb n="0163a12" ed="Y" type="old"/><p xml:id="pY22p0161a1001" style="text-indent:2em">由於亞歷山大（<foreign xml:lang="en">Alexander</foreign>）的侵入印度，阿育王摩崖石刻的發見，孔雀王
 <lb n="0161a11" ed="Y"/><lb n="0163a13" ed="Y" type="old"/>朝的旃陀羅笈多登位與阿育王灌頂年代，總算大致確定。然旃王以前，<pb n="0164a" ed="Y" xml:id="Y22.0022.0164a.old" type="old"/><lb n="0164a01" ed="Y" type="old"/>阿闍世王
 <lb n="0161a12" ed="Y"/>以後，一切還在不同的傳說中。一般學者，為西元四、五世紀所編定的<lb n="0164a02" ed="Y" type="old"/>錫蘭文獻
 <lb n="0161a13" ed="Y"/>所蔽，大抵曲附二百十八年說來解說印度王統，以護法的阿育王出佛滅<lb n="0164a03" ed="Y" type="old"/>百餘年為
@@ -868,10 +888,10 @@
 <lb n="0162a02" ed="Y"/>不應列於難陀王前；又參以傳說在位年代的不同，百餘年說是儘有可能<lb n="0164a05" ed="Y" type="old"/>的。我們
 <lb n="0162a03" ed="Y"/>必須記著：二百十八年說，確為一古老傳說；而錫蘭傳的印度王統編年<lb n="0164a06" ed="Y" type="old"/>，實與錫
 <lb n="0162a04" ed="Y"/>蘭王統、五師傳承的編年一樣，都是為了證實這一傳說而任意編纂成的<lb n="0164a07" ed="Y" type="old"/>！</p>
-<lb n="0162a05" ed="Y"/><lb n="0164a08" ed="Y" type="old"/><p style="text-indent:2em">二、錫蘭王統的二百十八年說：錫蘭所編的印度王統編年，如不經考詰，可
+<lb n="0162a05" ed="Y"/><lb n="0164a08" ed="Y" type="old"/><p xml:id="pY22p0162a0501" style="text-indent:2em">二、錫蘭王統的二百十八年說：錫蘭所編的印度王統編年，如不經考詰，可
 <lb n="0162a06" ed="Y"/><lb n="0164a09" ed="Y" type="old"/>能信以為真。等到配合錫蘭的王統，那種任意編排的作風，即完全暴露。照<title level="m">《善
 <lb n="0162a07" ed="Y"/><lb n="0164a10" ed="Y" type="old"/>見律》</title>所說，列表如下：</p>
-<lb n="0162a08" ed="Y"/><lb n="0164a11" ed="Y" type="old"/><table cols="2" style="margin-left:3em" rend="no-border"><row><cell><seg style="border-style:solid;border-width:1px;padding:5px">印度</seg></cell><cell><seg style="border-style:solid;border-width:1px;padding:5px">錫蘭</seg></cell></row><row><cell>
+<lb n="0162a08" ed="Y"/><lb n="0164a11" ed="Y" type="old"/><table cols="2" rend="no-border" style="margin-left:3em"><row><cell><seg style="border-style:solid;border-width:1px;padding:5px">印度</seg></cell><cell><seg style="border-style:solid;border-width:1px;padding:5px">錫蘭</seg></cell></row><row><cell>
 <lb n="0162a09" ed="Y"/><lb n="0164a12" ed="Y" type="old"/>阿闍世王八年</cell><cell>師子洲童子立</cell></row><row><cell><pb n="0165a" ed="Y" xml:id="Y22.0022.0165a.old" type="old"/>
 <lb n="0162a10" ed="Y"/><lb n="0165a01" ed="Y" type="old"/></cell><cell>毘闍耶成立國家</cell></row><row><cell>
 <lb n="0162a11" ed="Y"/><lb n="0165a02" ed="Y" type="old"/>鬱陀耶跋陀羅十四年</cell><cell>毘闍耶卒</cell></row><row><cell>
@@ -885,13 +905,13 @@
 <lb n="0163a06" ed="Y"/><lb n="0165a09" ed="Y" type="old"/>旃陀掘多十四年</cell><cell>婆君荼迦婆耶卒</cell></row><row><cell>
 <lb n="0163a07" ed="Y"/><lb n="0165a10" ed="Y" type="old"/></cell><cell>聞荼私婆立</cell></row><row><cell>
 <lb n="0163a08" ed="Y"/><lb n="0165a11" ed="Y" type="old"/>阿育王十七年</cell><cell>聞荼私婆卒</cell></row></table>
-<lb n="0163a09" ed="Y"/><lb n="0165a12" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《善見律》</title>所說的錫蘭王統，除枝節的錯失外，最少有三大不可信。師子洲
-<lb n="0163a10" ed="Y"/><lb n="0165a13" ed="Y" type="old"/>童子，依<bibl><title level="m">《西域記》</title><biblScope type="卷" n="11">（卷一一）</biblScope></bibl>，不過一神話人物，不可信一。傳說佛滅那年，<pb n="0166a" ed="Y" xml:id="Y22.0022.0166a.old" type="old"/>
-<lb n="0163a11" ed="Y"/><lb n="0166a01" ed="Y" type="old"/>恰巧是錫蘭立國的年代，不可信二。迦羅阿育十六年，是婆君荼迦婆耶王<lb n="0166a02" ed="Y" type="old"/>（<foreign xml:lang="sa"><note n="0163a1101" resp="CBETA" type="add">Pakuṇḍuakābhaya【CB】，Pakuṇḍakābhaya【印順】</note><app n="0163a1101"><lem wit="【CB】" resp="正聞出版社">Pakuṇḍuakābhaya</lem><rdg wit="【印順】">Pakuṇḍakābhaya</rdg></app></foreign>）
+<lb n="0163a09" ed="Y"/><lb n="0165a12" ed="Y" type="old"/><p xml:id="pY22p0163a0901" style="text-indent:2em"><title level="m">《善見律》</title>所說的錫蘭王統，除枝節的錯失外，最少有三大不可信。師子洲
+<lb n="0163a10" ed="Y"/><lb n="0165a13" ed="Y" type="old"/>童子，依<bibl><title level="m">《西域記》</title><biblScope n="11" type="卷">（卷一一）</biblScope></bibl>，不過一神話人物，不可信一。傳說佛滅那年，<pb n="0166a" ed="Y" xml:id="Y22.0022.0166a.old" type="old"/>
+<lb n="0163a11" ed="Y"/><lb n="0166a01" ed="Y" type="old"/>恰巧是錫蘭立國的年代，不可信二。迦羅阿育十六年，是婆君荼迦婆耶王<lb n="0166a02" ed="Y" type="old"/>（<foreign xml:lang="sa"><note n="0163a1101" resp="CBETA" type="add">Pakuṇḍuakābhaya【CB】，Pakuṇḍakābhaya【印順】</note><app n="0163a1101"><lem resp="正聞出版社" wit="【CB】">Pakuṇḍuakābhaya</lem><rdg wit="【印順】">Pakuṇḍakābhaya</rdg></app></foreign>）
 <lb n="0163a12" ed="Y"/>十八年；又說婆王卒於旃陀掘多十四年。如確卒於旃王十四年，
 <lb n="0163a13" ed="Y"/><lb n="0166a03" ed="Y" type="old"/>依<title level="m">《善見律》</title>的印度王統編年，即總共作王八十七年，不可信三。</p>
 <pb n="0164a" ed="Y" xml:id="Y22.0022.0164a"/>
-<lb n="0164a01" ed="Y"/><lb n="0166a04" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《島史》</title>的編者以為：婆君荼迦婆耶初為盜賊，十七年間無王。其後，勝利
+<lb n="0164a01" ed="Y"/><lb n="0166a04" ed="Y" type="old"/><p xml:id="pY22p0164a0101" style="text-indent:2em"><title level="m">《島史》</title>的編者以為：婆君荼迦婆耶初為盜賊，十七年間無王。其後，勝利
 <lb n="0164a02" ed="Y"/><lb n="0166a05" ed="Y" type="old"/>歸於婆君荼迦，作王達七十年。這僅是於八十七年中，分出十七年為無政府時代
 <lb n="0164a03" ed="Y"/><lb n="0166a06" ed="Y" type="old"/>而已。如依<title level="m">《島史》</title>說，婆君荼迦初為盜賊時（王國因而崩潰），至少也得二十
 <lb n="0164a04" ed="Y"/><lb n="0166a07" ed="Y" type="old"/>多歲吧！經十七年，又七十年而卒，那麼應享年一百十歲以上。聞荼私婆<lb n="0166a08" ed="Y" type="old"/>（<foreign xml:lang="sa">Mu-ṭasīva</foreign>）
@@ -901,11 +921,11 @@
 <lb n="0164a08" ed="Y"/><lb n="0166a11" ed="Y" type="old"/>代，錫蘭人記憶中的君王（可能還有神在內）不過五人，這那裡有二百三十六年
 <lb n="0164a09" ed="Y"/><lb n="0166a12" ed="Y" type="old"/>（到育王十七年止）？為了證實佛滅二百十八年說，造成王統編年。這一古老的
 <lb n="0164a10" ed="Y"/><lb n="0166a13" ed="Y" type="old"/>傳說，在這些創造歷史的專家手裡，被惡化到極點！</p><pb n="0167a" ed="Y" xml:id="Y22.0022.0167a.old" type="old"/>
-<lb n="0164a11" ed="Y"/><lb n="0167a01" ed="Y" type="old"/><p style="text-indent:2em">三、五師傳承的二百十八年說：在印度王統、錫蘭王統、五師傳承的法統中
+<lb n="0164a11" ed="Y"/><lb n="0167a01" ed="Y" type="old"/><p xml:id="pY22p0164a1101" style="text-indent:2em">三、五師傳承的二百十八年說：在印度王統、錫蘭王統、五師傳承的法統中
 <lb n="0164a12" ed="Y"/><lb n="0167a02" ed="Y" type="old"/>，對於法統的編年，論理必有較確實的記錄，而事實並不如此。我在<title level="a">〈與蘇慧純
 <lb n="0164a13" ed="Y"/><lb n="0167a03" ed="Y" type="old"/>論佛元書〉</title>，說得極為明白：</p>
 <pb n="0165a" ed="Y" xml:id="Y22.0022.0165a"/>
-<lb n="0165a01" ed="Y"/><lb n="0167a04" ed="Y" type="old"/><quote><p style="margin-left:3em">「關於五師傳承，錫蘭傳而外，印度復有迦葉等五師說。可推見自佛滅至
+<lb n="0165a01" ed="Y"/><lb n="0167a04" ed="Y" type="old"/><quote><p xml:id="pY22p0165a0101" style="margin-left:3em">「關於五師傳承，錫蘭傳而外，印度復有迦葉等五師說。可推見自佛滅至
 <lb n="0165a02" ed="Y"/><lb n="0167a05" ed="Y" type="old"/>阿育王時，必有五師相承之事，各派乃競以自宗之師承當之。第一師優波
 <lb n="0165a03" ed="Y"/><lb n="0167a06" ed="Y" type="old"/>離，為持律上座，其必為年高德劭可知（優波離隨釋種出家，佛滅時，出
 <lb n="0165a04" ed="Y"/><lb n="0167a07" ed="Y" type="old"/>家且將四十年）。第五師目犍連子帝須，阿育王信佛及第三結集時，應亦
@@ -915,14 +935,14 @@
 <lb n="0165a08" ed="Y"/>間<lb n="0167a11" ed="Y" type="old"/>，平均年齡約八、九十歲。衡之一般師承，殊難取信！……此不外先有
 <lb n="0165a09" ed="Y"/>一佛<lb n="0167a12" ed="Y" type="old"/>滅來二百餘年之傳說，銅鍱者乃摭拾帝王譜牒、自宗師承，編排造作
 <lb n="0165a10" ed="Y"/>以強<lb n="0167a13" ed="Y" type="old"/>合之耳！」</p></quote>
-<lb n="0165a11" ed="Y"/><pb n="0168a" ed="Y" xml:id="Y22.0022.0168a.old" type="old"/><lb n="0168a01" ed="Y" type="old"/><p style="text-indent:2em">從二百十八年的傳說自身去考察，編排造作的情形，徹底的被揭發出來！即
+<lb n="0165a11" ed="Y"/><pb n="0168a" ed="Y" xml:id="Y22.0022.0168a.old" type="old"/><lb n="0168a01" ed="Y" type="old"/><p xml:id="pY22p0165a1101" style="text-indent:2em">從二百十八年的傳說自身去考察，編排造作的情形，徹底的被揭發出來！即
 <lb n="0165a12" ed="Y"/><lb n="0168a02" ed="Y" type="old"/>以深信錫蘭傳的呂澂，對錫蘭王統的荒謬，也默認而不加辯護；對五師傳承的編
 <lb n="0165a13" ed="Y"/><lb n="0168a03" ed="Y" type="old"/>年，也覺得<cit><quote>「南傳諸師年代，因此而有錯誤」</quote><bibl>（<title level="a">〈對點記記年之再商榷〉</title>）</bibl></cit>。二<lb n="0168a04" ed="Y" type="old"/>百
 <pb n="0166a" ed="Y" xml:id="Y22.0022.0166a"/>
 <lb n="0166a01" ed="Y"/>餘年說與百餘年說，同為古老的傳說。自從錫蘭學者偽作欺人，二百十八年<lb n="0168a05" ed="Y" type="old"/>說，
 <lb n="0166a02" ed="Y"/>竟被誤會作歷史！我不敢輕視這一傳說的古老，但要從古老傳說的觀點，探<lb n="0168a06" ed="Y" type="old"/>論佛
 <lb n="0166a03" ed="Y"/>教的紀元。</p>
-<lb n="0166a04" ed="Y"/><lb n="0168a07" ed="Y" type="old"/><cb:mulu level="3" type="其他">三　育王灌頂與遣使弘法的年代</cb:mulu><head>三　育王灌頂與遣使弘法的年代</head><p style="text-indent:2em">從旃陀羅笈多（二十四年，頻婆娑羅二十
+<lb n="0166a04" ed="Y"/><lb n="0168a07" ed="Y" type="old"/><cb:mulu level="3" type="其他">三　育王灌頂與遣使弘法的年代</cb:mulu><head>三　育王灌頂與遣使弘法的年代</head><p xml:id="pY22p0166a0427" style="text-indent:2em">從旃陀羅笈多（二十四年，頻婆娑羅二十
 <lb n="0166a05" ed="Y"/><lb n="0168a08" ed="Y" type="old"/>五年，爭位四年）到育王登位，這五十多年，是印度從來未有的統一盛世；王朝
 <lb n="0166a06" ed="Y"/><lb n="0168a09" ed="Y" type="old"/>的年代，<title level="m">《古事集》</title>與錫蘭的傳說，都大體一致。本傳雖沒有記年，三王的次第
 <lb n="0166a07" ed="Y"/><lb n="0168a10" ed="Y" type="old"/>也不悞。所以錫蘭的傳說，關於旃王到育王間的年代，與印度的<title level="m">《古事集》</title>，希
@@ -934,10 +954,10 @@
 <lb n="0166a13" ed="Y"/>說：上半生老實，下半生騙騙也有飯吃。這雖是容易受欺的，但考論歷史，決<lb n="0169a04" ed="Y" type="old"/>不
 <pb n="0167a" ed="Y" xml:id="Y22.0022.0167a"/>
 <lb n="0167a01" ed="Y"/>可這樣了事！</p>
-<lb n="0167a02" ed="Y"/><lb n="0169a05" ed="Y" type="old"/><p style="text-indent:2em">考論育王灌頂的年代，如撇開傳說——「眾聖點記」、<title level="m">《善見律》</title>、<title level="m">《大史<lb n="0169a06" ed="Y" type="old"/>》</title>
+<lb n="0167a02" ed="Y"/><lb n="0169a05" ed="Y" type="old"/><p xml:id="pY22p0167a0201" style="text-indent:2em">考論育王灌頂的年代，如撇開傳說——「眾聖點記」、<title level="m">《善見律》</title>、<title level="m">《大史<lb n="0169a06" ed="Y" type="old"/>》</title>
 <lb n="0167a03" ed="Y"/>、<title level="m">《島史》</title>，直接從育王的摩崖石刻、希臘與埃及的史料著手，大可以減省一<lb n="0169a07" ed="Y" type="old"/>些
 <lb n="0167a04" ed="Y"/>無謂的糾紛。</p>
-<lb n="0167a05" ed="Y"/><lb n="0169a08" ed="Y" type="old"/><p style="text-indent:2em">大摩崖石刻第十三章，說到育王遣使西方五王國弘法，記著五王的名字。經
+<lb n="0167a05" ed="Y"/><lb n="0169a08" ed="Y" type="old"/><p xml:id="pY22p0167a0501" style="text-indent:2em">大摩崖石刻第十三章，說到育王遣使西方五王國弘法，記著五王的名字。經
 <lb n="0167a06" ed="Y"/><lb n="0169a09" ed="Y" type="old"/>學者的考究，五王的在位年代，雖還有多少異說，然五王並世的年代，不出於西
 <lb n="0167a07" ed="Y"/><lb n="0169a10" ed="Y" type="old"/>元前二六一到二五八——四年間，已成為學界的定論。依交通不便的古代情況說
 <lb n="0167a08" ed="Y"/><lb n="0169a11" ed="Y" type="old"/>：<foreign xml:lang="en">Antiochus</foreign> Ⅱ王，於西元前二六一年即位。即位與來年（前二六〇年），育王
@@ -953,7 +973,7 @@
 <lb n="0168a04" ed="Y"/>不<lb n="0170a07" ed="Y" type="old"/>一定是，到底比其他的有根據些。育王的遣使弘法，可以推定為育王十三年。
 <lb n="0168a05" ed="Y"/>這<lb n="0170a08" ed="Y" type="old"/>一年，是西元前二五九或二五八年，那麼育王灌頂登位的年代，不是前二七一
 <lb n="0168a06" ed="Y"/>，<lb n="0170a09" ed="Y" type="old"/>就是二七〇了。</p>
-<lb n="0168a07" ed="Y"/><lb n="0170a10" ed="Y" type="old"/><p style="text-indent:2em">考定年代的另一依據，即亞歷山大侵入印度的年代。亞王的侵入印度，為西
+<lb n="0168a07" ed="Y"/><lb n="0170a10" ed="Y" type="old"/><p xml:id="pY22p0168a0701" style="text-indent:2em">考定年代的另一依據，即亞歷山大侵入印度的年代。亞王的侵入印度，為西
 <lb n="0168a08" ed="Y"/><lb n="0170a11" ed="Y" type="old"/>元前三二六；三二五還軍；即其年去世。據普魯塔克（<foreign xml:lang="sa">Plutarch</foreign>）的傳說：旃陀
 <lb n="0168a09" ed="Y"/><lb n="0170a12" ed="Y" type="old"/>羅笈多曾勸亞王東攻印度。朱斯丁（<foreign xml:lang="en">Justin</foreign>）說：旃陀羅笈多逃避 <foreign xml:lang="en">Alexander</foreign><lb n="0170a13" ed="Y" type="old"/>（亞
 <lb n="0168a10" ed="Y"/>歷山大）。傳說不一。旃王趁亞王還軍與身死的時機，起來推翻希臘人在北<pb n="0171a" ed="Y" xml:id="Y22.0022.0171a.old" type="old"/><lb n="0171a01" ed="Y" type="old"/>印的
@@ -962,7 +982,7 @@
 <lb n="0168a13" ed="Y"/>二十四年，頻王二十五年，爭位四年，育王登位年，凡五十四年；即育王登<lb n="0171a04" ed="Y" type="old"/>位於
 <pb n="0169a" ed="Y" xml:id="Y22.0022.0169a"/>
 <lb n="0169a01" ed="Y"/>西元前二七一或二七〇年。十三年遣使弘法，為西元前二五九或二五八年。</p>
-<lb n="0169a02" ed="Y"/><lb n="0171a05" ed="Y" type="old"/><p style="text-indent:2em">一切的諍論，都是糾纏於錫蘭的傳說中。如呂澂取西元前三二四年旃王即位
+<lb n="0169a02" ed="Y"/><lb n="0171a05" ed="Y" type="old"/><p xml:id="pY22p0169a0201" style="text-indent:2em">一切的諍論，都是糾纏於錫蘭的傳說中。如呂澂取西元前三二四年旃王即位
 <lb n="0169a03" ed="Y"/><lb n="0171a06" ed="Y" type="old"/>說；二六八年育王登位說；二五八——育王十一年遣使弘法說。他信從錫蘭傳的
 <lb n="0169a04" ed="Y"/><lb n="0171a07" ed="Y" type="old"/>頻王二十八年說，所以非堅執如此不可。育王九年的攻破羯<g ref="#CB01368"/>迦（<foreign xml:lang="sa">Kaliṅga</foreign>），<lb n="0171a08" ed="Y" type="old"/>雖
 <lb n="0169a05" ed="Y"/>屬確實；但是否當年即信佛，也還難說。所以史密司（<foreign xml:lang="sa">Smith</foreign>）也說：九年信<lb n="0171a09" ed="Y" type="old"/>佛
@@ -979,22 +999,22 @@
 <lb n="0170a02" ed="Y"/>、三年中，實還不能確定。依我看，旃王前三二三年登位，育王前二七〇年登<lb n="0172a06" ed="Y" type="old"/>位
 <lb n="0170a03" ed="Y"/>，似乎更妥當些。但為了避免無法確定的諍論，姑取旃王西元前三二四年登位<lb n="0172a07" ed="Y" type="old"/>說
 <lb n="0170a04" ed="Y"/>，育王前二七一年登位說，前二五九遣使弘法說。</p>
-<lb n="0170a05" ed="Y"/><lb n="0172a08" ed="Y" type="old"/><cb:mulu level="3" type="其他">四　有關育王的故事</cb:mulu><head>四　有關育王的故事</head><p style="text-indent:2em">本傳為一古老的譬喻集，為大陸佛教界熟識的傳記。
+<lb n="0170a05" ed="Y"/><lb n="0172a08" ed="Y" type="old"/><cb:mulu level="3" type="其他">四　有關育王的故事</cb:mulu><head>四　有關育王的故事</head><p xml:id="pY22p0170a0517" style="text-indent:2em">本傳為一古老的譬喻集，為大陸佛教界熟識的傳記。
 <lb n="0170a06" ed="Y"/><lb n="0172a09" ed="Y" type="old"/>覺音從大陸去錫蘭，是應該知道本傳而有所參考的。從南北共傳的故事去研究，
 <lb n="0170a07" ed="Y"/><lb n="0172a10" ed="Y" type="old"/>這一意見，被充分的顯露出來。</p>
-<lb n="0170a08" ed="Y"/><lb n="0172a11" ed="Y" type="old"/><p style="text-indent:2em">育王早年的故事：本傳說：頻婆沙羅王不大歡喜育王，曾奉命鎮壓呾叉尸羅
-<lb n="0170a09" ed="Y"/><lb n="0172a12" ed="Y" type="old"/>的叛變，得到成功。<title level="m">《善見律》</title>說：育王出鎮的是鬱支城（<foreign xml:lang="sa"><note n="0170a0901" resp="CBETA" type="add">Ujjayainī【CB】，Ujjayinī【印順】</note><app n="0170a0901"><lem wit="【CB】" resp="正聞出版社">Ujjayainī</lem><rdg wit="【印順】">Ujjayinī</rdg></app></foreign>），即鄔闍<lb n="0172a13" ed="Y" type="old"/>衍
+<lb n="0170a08" ed="Y"/><lb n="0172a11" ed="Y" type="old"/><p xml:id="pY22p0170a0801" style="text-indent:2em">育王早年的故事：本傳說：頻婆沙羅王不大歡喜育王，曾奉命鎮壓呾叉尸羅
+<lb n="0170a09" ed="Y"/><lb n="0172a12" ed="Y" type="old"/>的叛變，得到成功。<title level="m">《善見律》</title>說：育王出鎮的是鬱支城（<foreign xml:lang="sa"><note n="0170a0901" resp="CBETA" type="add">Ujjayainī【CB】，Ujjayinī【印順】</note><app n="0170a0901"><lem resp="正聞出版社" wit="【CB】">Ujjayainī</lem><rdg wit="【印順】">Ujjayinī</rdg></app></foreign>），即鄔闍<lb n="0172a13" ed="Y" type="old"/>衍
 <lb n="0170a10" ed="Y"/>那。<title level="m">《善見律》</title>的傳說，可能基於一種情感。佛教南傳的摩哂陀，母家在鄔闍<pb n="0173a" ed="Y" xml:id="Y22.0022.0173a.old" type="old"/><lb n="0173a01" ed="Y" type="old"/>衍
 <lb n="0170a11" ed="Y"/>那，這是摩哂陀的外婆家。</p>
-<lb n="0170a12" ed="Y"/><lb n="0173a02" ed="Y" type="old"/><p style="text-indent:2em">兄弟爭位的故事：本傳說：育王與兄蘇深摩（<foreign xml:lang="x-sa-pi">Susīma</foreign>）爭位，殺蘇深摩。<lb n="0173a03" ed="Y" type="old"/><title level="m">《
-<lb n="0170a13" ed="Y"/>善見律》</title>也說兄名修私摩那，但說頻王有百子，除了育王的同母弟帝須（<foreign xml:lang="sa"><note n="0170a1301" resp="CBETA" type="add">Tissa【CB】，Tessa【印順】</note><app n="0170a1301"><lem wit="【CB】" resp="正聞出版社">Tissa</lem><rdg wit="【印順】">Tessa</rdg></app></foreign>）
+<lb n="0170a12" ed="Y"/><lb n="0173a02" ed="Y" type="old"/><p xml:id="pY22p0170a1201" style="text-indent:2em">兄弟爭位的故事：本傳說：育王與兄蘇深摩（<foreign xml:lang="x-sa-pi">Susīma</foreign>）爭位，殺蘇深摩。<lb n="0173a03" ed="Y" type="old"/><title level="m">《
+<lb n="0170a13" ed="Y"/>善見律》</title>也說兄名修私摩那，但說頻王有百子，除了育王的同母弟帝須（<foreign xml:lang="sa"><note n="0170a1301" resp="CBETA" type="add">Tissa【CB】，Tessa【印順】</note><app n="0170a1301"><lem resp="正聞出版社" wit="【CB】">Tissa</lem><rdg wit="【印順】">Tessa</rdg></app></foreign>）
 <pb n="0171a" ed="Y" xml:id="Y22.0022.0171a"/>
-<lb n="0171a01" ed="Y"/><lb n="0173a04" ed="Y" type="old"/>——毘多輸柯（<foreign xml:lang="sa"><note n="0171a0101" resp="CBETA" type="add">Vītaśoka【CB】，Vitaśoka【印順】</note><app n="0171a0101"><lem wit="【CB】" resp="正聞出版社">Vītaśoka</lem><rdg wit="【印順】">Vitaśoka</rdg></app></foreign>）而外，育王都把他殺了。<title level="m">《善見律》</title>所說，不免<lb n="0173a05" ed="Y" type="old"/>太過
+<lb n="0171a01" ed="Y"/><lb n="0173a04" ed="Y" type="old"/>——毘多輸柯（<foreign xml:lang="sa"><note n="0171a0101" resp="CBETA" type="add">Vītaśoka【CB】，Vitaśoka【印順】</note><app n="0171a0101"><lem resp="正聞出版社" wit="【CB】">Vītaśoka</lem><rdg wit="【印順】">Vitaśoka</rdg></app></foreign>）而外，育王都把他殺了。<title level="m">《善見律》</title>所說，不免<lb n="0173a05" ed="Y" type="old"/>太過
 <lb n="0171a02" ed="Y"/>。本傳說：頻王病危，恰好蘇深摩出鎮呾叉尸羅；育王取得部分大臣的擁戴<lb n="0173a06" ed="Y" type="old"/>，即
 <lb n="0171a03" ed="Y"/>在華氏城稱帝。蘇深摩回來爭位，育王利用了——出鎮北方時所得的外軍的<lb n="0173a07" ed="Y" type="old"/>協力
 <lb n="0171a04" ed="Y"/>，擊殺了蘇深摩。這一傳說，大致近於事實。<title level="m">《善見律》</title>說：育王代立四年<lb n="0173a08" ed="Y" type="old"/>，才
 <lb n="0171a05" ed="Y"/>舉行灌頂典禮，互爭的事情，似乎並不簡單。</p>
-<lb n="0171a06" ed="Y"/><lb n="0173a09" ed="Y" type="old"/><p style="text-indent:2em">王弟宿大哆的故事：<foreign xml:lang="sa"><note n="0171a0601" resp="CBETA" type="add">Vītaśoka【CB】，Vitaśoka【印順】</note><app n="0171a0601"><lem wit="【CB】" resp="正聞出版社">Vītaśoka</lem><rdg wit="【印順】">Vitaśoka</rdg></app></foreign>，<title level="m">《善見律》</title>作帝須；本傳的晉譯作宿大哆，
+<lb n="0171a06" ed="Y"/><lb n="0173a09" ed="Y" type="old"/><p xml:id="pY22p0171a0601" style="text-indent:2em">王弟宿大哆的故事：<foreign xml:lang="sa"><note n="0171a0601" resp="CBETA" type="add">Vītaśoka【CB】，Vitaśoka【印順】</note><app n="0171a0601"><lem resp="正聞出版社" wit="【CB】">Vītaśoka</lem><rdg wit="【印順】">Vitaśoka</rdg></app></foreign>，<title level="m">《善見律》</title>作帝須；本傳的晉譯作宿大哆，
 <lb n="0171a07" ed="Y"/><lb n="0173a10" ed="Y" type="old"/>梁譯作毘多輸柯。這位育王同母弟的故事，可分二節說。一、本傳說：宿大哆因
 <lb n="0171a08" ed="Y"/><lb n="0173a11" ed="Y" type="old"/>育王的廣作供養，引起不滿。見苦行外道還不能離欲，因此更懷疑不嚴格苦行<lb n="0173a12" ed="Y" type="old"/>的
 <lb n="0171a09" ed="Y"/>釋沙門。育王為了轉化王弟的邪見，故意使他犯罪，然後給他七天作王，再行<lb n="0173a13" ed="Y" type="old"/>處
@@ -1006,7 +1026,7 @@
 <lb n="0172a01" ed="Y"/>王的動機，也不明。戲劇式的七天作王，可能並非事實，但在本傳中是入情<lb n="0174a05" ed="Y" type="old"/>入理
 <lb n="0172a02" ed="Y"/>的。<title level="m">《善見律》</title>敘述簡化，於是乎得罪了王，讓他七天作王再殺，又忽而不<lb n="0174a06" ed="Y" type="old"/>殺，
 <lb n="0172a03" ed="Y"/>成為不近情的傳說。</p>
-<lb n="0172a04" ed="Y"/><lb n="0174a07" ed="Y" type="old"/><p style="text-indent:2em">二、本傳說宿大哆到遠國去出家，曾回華氏城一次。再到邊方，生了大病（
+<lb n="0172a04" ed="Y"/><lb n="0174a07" ed="Y" type="old"/><p xml:id="pY22p0172a0401" style="text-indent:2em">二、本傳說宿大哆到遠國去出家，曾回華氏城一次。再到邊方，生了大病（
 <lb n="0172a05" ed="Y"/><lb n="0174a08" ed="Y" type="old"/>頭瘡），需要吃乳酪，所以移住曠野的牧牛人邊。那時，弗那槃達（<foreign xml:lang="sa">Puṇḍavardhana</foreign>）
 <lb n="0172a06" ed="Y"/><lb n="0174a09" ed="Y" type="old"/>與華氏城的尼乾子外道有誹毀佛的，引起育王敕殺尼乾子的事件。宿<lb n="0174a10" ed="Y" type="old"/>大
 <lb n="0172a07" ed="Y"/>哆病中垢衣長髮，因此被誤殺了。這一故事，<title level="m">《善見律》</title>說得很不同。王弟帝<lb n="0174a11" ed="Y" type="old"/>須
@@ -1020,13 +1040,13 @@
 <lb n="0173a01" ed="Y"/>被殺，<title level="m">《善見律》</title>說殺到帝須而止；本傳以王弟為中心人物來敘述，<title level="m">《善見<lb n="0175a05" ed="Y" type="old"/>律》</title>
 <lb n="0173a02" ed="Y"/>中間隔斷，忽然在雞園寺出現。這是同一故事的演變。大概帝須是阿育王的<lb n="0175a06" ed="Y" type="old"/>同母
 <lb n="0173a03" ed="Y"/>弟，所以<title level="m">《善見律》</title>的作者不好意思說他無醫無藥，刀下留情了吧！</p>
-<lb n="0173a04" ed="Y"/><lb n="0175a07" ed="Y" type="old"/><p style="text-indent:2em">帝須，梵語為 <foreign xml:lang="sa"><note n="0173a0401" resp="CBETA" type="add">Vītaśoka【CB】，Vitaśoka【印順】</note><app n="0173a0401"><lem wit="【CB】" resp="正聞出版社">Vītaśoka</lem><rdg wit="【印順】">Vitaśoka</rdg></app></foreign>。晉譯（卷一）初說<quote source="T50n2042_p0100a08-09" type="嚴謹引文">「復生一子，名為盡憂」<note n="0173001" resp="周怡曄" type="add">《阿育王傳》卷1(CBETA, T50, no. 2042, p. 100, a8-9)</note></quote>，即
+<lb n="0173a04" ed="Y"/><lb n="0175a07" ed="Y" type="old"/><p xml:id="pY22p0173a0401" style="text-indent:2em">帝須，梵語為 <foreign xml:lang="sa"><note n="0173a0401" resp="CBETA" type="add">Vītaśoka【CB】，Vitaśoka【印順】</note><app n="0173a0401"><lem resp="正聞出版社" wit="【CB】">Vītaśoka</lem><rdg wit="【印順】">Vitaśoka</rdg></app></foreign>。晉譯（卷一）初說<quote source="T50n2042_p0100a08-09" type="嚴謹引文">「復生一子，名為盡憂」<note n="0173001" resp="周怡曄" type="add">《阿育王傳》卷1(CBETA, T50, no. 2042, p. 100, a8-9)</note></quote>，即
 <lb n="0173a05" ed="Y"/><lb n="0175a08" ed="Y" type="old"/>與宋、梁二譯合。但在王弟的本緣中，又作「宿大哆」。考<title level="m">《分別功德論》</title>的王
 <lb n="0173a06" ed="Y"/><lb n="0175a09" ed="Y" type="old"/>弟故事，與本傳同，而王弟也名「修伽跖路」。<cit><bibl><title level="m">《釋迦譜》</title>引<title level="m">《出求離牢獄經》</title>
 <lb n="0173a07" ed="Y"/>說<lb n="0175a10" ed="Y" type="old"/>：</bibl><quote source="T50n2040_p0067a02-03" type="嚴謹引文">「阿育王弟名善容，亦名違陀首祗。」</quote><note n="0173002" resp="周怡曄" type="add">《釋迦譜》卷3(CBETA, T50, no. 2040, p. 67, a3)</note></cit>違陀首祇即毘多輸柯；善容，即宿大
 <lb n="0173a08" ed="Y"/>哆<lb n="0175a11" ed="Y" type="old"/>——修伽跖路的對譯。宿大哆與修伽跖路，我以為即玄奘所傳的王弟摩醯因陀
 <lb n="0173a09" ed="Y"/>羅<lb n="0175a12" ed="Y" type="old"/>。</p>
-<lb n="0173a10" ed="Y"/><lb n="0175a13" ed="Y" type="old"/><p style="text-indent:2em">育王的殘暴故事：本傳說育王的初年非常暴虐，曾手殺五百大臣與五百宮<pb n="0176a" ed="Y" xml:id="Y22.0022.0176a.old" type="old"/><lb n="0176a01" ed="Y" type="old"/>女
+<lb n="0173a10" ed="Y"/><lb n="0175a13" ed="Y" type="old"/><p xml:id="pY22p0173a1001" style="text-indent:2em">育王的殘暴故事：本傳說育王的初年非常暴虐，曾手殺五百大臣與五百宮<pb n="0176a" ed="Y" xml:id="Y22.0022.0176a.old" type="old"/><lb n="0176a01" ed="Y" type="old"/>女
 <lb n="0173a11" ed="Y"/>，使人作泥犁（地獄）的酷刑。這在<title level="m">《善見律》</title>中，由於別立黑阿育，除了育<lb n="0176a02" ed="Y" type="old"/>王
 <lb n="0173a12" ed="Y"/>的殺兄弟而外，被看作極仁慈的了。然據摩崖石刻所說，育王在戰爭中的屠戮<lb n="0176a03" ed="Y" type="old"/>，
 <lb n="0173a13" ed="Y"/>並不怎樣的仁慈！四〇五——四〇七年間，法顯親見華氏城的大塔旁，有石柱<lb n="0176a04" ed="Y" type="old"/>記
@@ -1034,22 +1054,22 @@
 <lb n="0174a01" ed="Y"/>著作泥犁城的因緣與年月。玄奘西遊，也目睹這一遺跡<bibl>（<title level="m">《西域記》</title><biblScope n="8" type="卷">卷八</biblScope>）</bibl>。然
 <lb n="0174a02" ed="Y"/><lb n="0176a05" ed="Y" type="old"/>又說鄔闍衍那有無憂王作地獄處<bibl>（<title level="m">《西域記》</title><biblScope n="11" type="卷">卷一一</biblScope>）</bibl>。<title level="m">《善見律》</title>的略而不論，
 <lb n="0174a03" ed="Y"/>因<lb n="0176a06" ed="Y" type="old"/>為將一切暴行歸罪於黑阿育去了。</p>
-<lb n="0174a04" ed="Y"/><lb n="0176a07" ed="Y" type="old"/><p style="text-indent:2em">信佛因緣的故事：本傳說：海比丘誤入地獄，現神通，育王這才壞地獄而信
+<lb n="0174a04" ed="Y"/><lb n="0176a07" ed="Y" type="old"/><p xml:id="pY22p0174a0401" style="text-indent:2em">信佛因緣的故事：本傳說：海比丘誤入地獄，現神通，育王這才壞地獄而信
 <lb n="0174a05" ed="Y"/><lb n="0176a08" ed="Y" type="old"/>佛。<title level="m">《善見律》</title>說：育王見到兄子泥瞿陀（<foreign xml:lang="sa">Nigrodha</foreign>）沙彌，才發心學佛。石<lb n="0176a09" ed="Y" type="old"/>刻
 <lb n="0174a06" ed="Y"/>說：育王深覺殺戮的慘酷，所以歸依佛法。海比丘的故事，顯然是神話化的。<lb n="0176a10" ed="Y" type="old"/>可
 <lb n="0174a07" ed="Y"/>能的解說是：育王受海比丘（善意）的感化，這才廢除殘酷的刑罰。泥瞿陀的<lb n="0176a11" ed="Y" type="old"/>故
 <lb n="0174a08" ed="Y"/>事，從神話變化而來（見下）。</p>
-<lb n="0174a09" ed="Y"/><lb n="0176a12" ed="Y" type="old"/><p style="text-indent:2em">造塔施金的故事：育王造八萬四千塔，布施九十六億金，是南北一致的傳說
+<lb n="0174a09" ed="Y"/><lb n="0176a12" ed="Y" type="old"/><p xml:id="pY22p0174a0901" style="text-indent:2em">造塔施金的故事：育王造八萬四千塔，布施九十六億金，是南北一致的傳說
 <lb n="0174a10" ed="Y"/><lb n="0176a13" ed="Y" type="old"/>。但本傳說：育王布施的總計，凡九十六億金；而<title level="m">《善見律》</title>以為六年大會時，<pb n="0177a" ed="Y" xml:id="Y22.0022.0177a.old" type="old"/>
 <lb n="0174a11" ed="Y"/><lb n="0177a01" ed="Y" type="old"/>即布施了這些。本傳的傳說更原始些。</p>
-<lb n="0174a12" ed="Y"/><lb n="0177a02" ed="Y" type="old"/><p style="text-indent:2em">供養菩提樹的故事：本傳說育王特別的尊敬菩提樹，引起王妃的妒忌。佛教
+<lb n="0174a12" ed="Y"/><lb n="0177a02" ed="Y" type="old"/><p xml:id="pY22p0174a1201" style="text-indent:2em">供養菩提樹的故事：本傳說育王特別的尊敬菩提樹，引起王妃的妒忌。佛教
 <lb n="0174a13" ed="Y"/><lb n="0177a03" ed="Y" type="old"/>的初期，菩提樹與菩提葉都是象徵如來成道的。育王的特為尊敬，非常合理。<lb n="0177a04" ed="Y" type="old"/><title level="m">《
 <pb n="0175a" ed="Y" xml:id="Y22.0022.0175a"/>
 <lb n="0175a01" ed="Y"/>善見律》</title>作者的心目中，主要是錫蘭，所以但說育王以菩提樹的南枝，移贈錫<lb n="0177a05" ed="Y" type="old"/>蘭
 <lb n="0175a02" ed="Y"/>；用意也還是一樣。法顯得自錫蘭的傳說：從前某國王，從印度取菩提樹子來<lb n="0177a06" ed="Y" type="old"/>錫
 <lb n="0175a03" ed="Y"/>蘭，種於無畏寺側。那時，高約二十丈。這與同時代的覺音的傳說——阿育王<lb n="0177a07" ed="Y" type="old"/>送
 <lb n="0175a04" ed="Y"/>樹來，栽在大寺旁不同。<title level="m">《善見律》</title>的傳說，也只是大寺派的傳說罷了！</p>
-<lb n="0175a05" ed="Y"/><lb n="0177a08" ed="Y" type="old"/><p style="text-indent:2em">育王與龍王的故事：本傳（晉譯與梁譯）說：育王取得阿闍世王七舍利塔的
+<lb n="0175a05" ed="Y"/><lb n="0177a08" ed="Y" type="old"/><p xml:id="pY22p0175a0501" style="text-indent:2em">育王與龍王的故事：本傳（晉譯與梁譯）說：育王取得阿闍世王七舍利塔的
 <lb n="0175a06" ed="Y"/><lb n="0177a09" ed="Y" type="old"/>舍利；惟羅摩聚落龍王處的舍利，因龍王的要求而沒有取得。<title level="m">《釋迦譜》</title>所引的
 <lb n="0175a07" ed="Y"/><lb n="0177a10" ed="Y" type="old"/><title level="m">《大阿育王經》</title>、法顯的<title level="m">《歷遊天竺記》</title>、玄奘<title level="m">《西域記》</title>，都這樣說，這是本<lb n="0177a11" ed="Y" type="old"/>傳
 <lb n="0175a08" ed="Y"/>龍王故事的舊說。宋譯說：育王向龍索舍利，<quote>「諸龍王開懷與」</quote>，這是樂意的<lb n="0177a12" ed="Y" type="old"/>奉
@@ -1057,7 +1077,7 @@
 <lb n="0175a10" ed="Y"/>王，育王造了龍王與育王的兩軀金像，起初是龍王重而育王輕。育王大作福事<pb n="0178a" ed="Y" xml:id="Y22.0022.0178a.old" type="old"/><lb n="0178a01" ed="Y" type="old"/>，
 <lb n="0175a11" ed="Y"/>王像的分量，一天天重起來，龍王知道福力不及育王，只好奉上舍利。<title level="a">〈阿育<lb n="0178a02" ed="Y" type="old"/>王
 <lb n="0175a12" ed="Y"/>現報因緣〉</title>，本是另一譬喻集，與本傳有很多不同，安法欽卻譯出而附編於本<lb n="0178a03" ed="Y" type="old"/>傳
-<lb n="0175a13" ed="Y"/>中。這一故事，失譯的<bibl><title level="m">《雜譬喻經》</title><biblScope type="卷" n="上">（卷上）</biblScope></bibl>、<title level="m">《阿育王譬喻經》</title>，都有說到，<lb n="0178a04" ed="Y" type="old"/>都
+<lb n="0175a13" ed="Y"/>中。這一故事，失譯的<bibl><title level="m">《雜譬喻經》</title><biblScope n="上" type="卷">（卷上）</biblScope></bibl>、<title level="m">《阿育王譬喻經》</title>，都有說到，<lb n="0178a04" ed="Y" type="old"/>都
 <pb n="0176a" ed="Y" xml:id="Y22.0022.0176a"/>
 <lb n="0176a01" ed="Y"/>還是重於事相的修福。<title level="m">《善見律》</title>中，進一步（含有象徵降伏自心而現身成佛<lb n="0178a05" ed="Y" type="old"/>的
 <lb n="0176a02" ed="Y"/>深意；錫蘭學者怕未必懂得）說：阿育王以金鎖將龍王鎖來；育王要龍王化現<lb n="0178a06" ed="Y" type="old"/>佛
@@ -1066,7 +1086,7 @@
 <lb n="0176a05" ed="Y"/>，未免與輪王的尊嚴有損，於是乎有育王作福、降伏龍王的故事。<title level="m">《善見律》</title><lb n="0178a09" ed="Y" type="old"/>更
 <lb n="0176a06" ed="Y"/>老實不客氣的把他鎖了來。降伏龍王，與優婆毱多降伏魔王的故事相類，魔王<lb n="0178a10" ed="Y" type="old"/>的
 <lb n="0176a07" ed="Y"/>化作佛身，錫蘭傳者也就修正為龍王化作佛身了。</p>
-<lb n="0176a08" ed="Y"/><lb n="0178a11" ed="Y" type="old"/><p style="text-indent:2em">泥瞿陀的故事：<title level="m">《善見律》</title>說：育王的姪子泥瞿陀，七歲出家作沙彌。育王
+<lb n="0176a08" ed="Y"/><lb n="0178a11" ed="Y" type="old"/><p xml:id="pY22p0176a0801" style="text-indent:2em">泥瞿陀的故事：<title level="m">《善見律》</title>說：育王的姪子泥瞿陀，七歲出家作沙彌。育王
 <lb n="0176a09" ed="Y"/><lb n="0178a12" ed="Y" type="old"/>見了，生起信心。育王本供養六萬外道；這時才供養比丘，從二比丘、四比丘，
 <lb n="0176a10" ed="Y"/><lb n="0178a13" ed="Y" type="old"/>到一切都供養比丘。育王每日以錢一千供養泥瞿陀。外道都投入佛法中，作賊住<pb n="0179a" ed="Y" xml:id="Y22.0022.0179a.old" type="old"/>
 <lb n="0176a11" ed="Y"/><lb n="0179a01" ed="Y" type="old"/>比丘。本傳沒有這個故事，但安法欽附譯的<title level="a">〈阿育王現報因緣〉</title>，敘述一有趣的
@@ -1091,49 +1111,49 @@
 <lb n="0178a02" ed="Y"/>律》</title><lb n="0180a05" ed="Y" type="old"/>取材於此，脫去神秘的形式，顯出故事中的真意義，這是最好不過的！但不
 <lb n="0178a03" ed="Y"/>知七<lb n="0180a06" ed="Y" type="old"/>歲沙彌的象徵性，而描寫為歷史的人物，反而使人誤解了。這一故事，為帝
 <lb n="0178a04" ed="Y"/>須比<lb n="0180a07" ed="Y" type="old"/>丘的第三結集奠定了基礎。</p>
-<lb n="0178a05" ed="Y"/><lb n="0180a08" ed="Y" type="old"/><p style="text-indent:2em">迎請大德的故事：本傳說育王將親自去迎請優婆毱多，毱多自動的前去；乘
+<lb n="0178a05" ed="Y"/><lb n="0180a08" ed="Y" type="old"/><p xml:id="pY22p0178a0501" style="text-indent:2em">迎請大德的故事：本傳說育王將親自去迎請優婆毱多，毱多自動的前去；乘
 <lb n="0178a06" ed="Y"/><lb n="0180a09" ed="Y" type="old"/>船與眾比丘沿恆河東下，到了華氏城，育王親自到恆河邊禮迎。這種禮迎的方<lb n="0180a10" ed="Y" type="old"/>式
 <lb n="0178a07" ed="Y"/>，在<title level="m">《善見律》</title>中，即一模一樣的禮迎目犍連子帝須。雖然帝須早曾到過華氏<lb n="0180a11" ed="Y" type="old"/>城
 <lb n="0178a08" ed="Y"/>，卻又跑回摩偷羅，表演這被歡迎的大禮。<title level="m">《善見律》</title>採用本傳，這是極明顯<lb n="0180a12" ed="Y" type="old"/>的
 <lb n="0178a09" ed="Y"/>例子。</p>
-<lb n="0178a10" ed="Y"/><lb n="0180a13" ed="Y" type="old"/><p style="text-indent:2em">信佛與遣使弘法的故事：<title level="m">《善見律》</title>所傳的育王信佛、遣使弘法，當然是有<pb n="0181a" ed="Y" xml:id="Y22.0022.0181a.old" type="old"/>
+<lb n="0178a10" ed="Y"/><lb n="0180a13" ed="Y" type="old"/><p xml:id="pY22p0178a1001" style="text-indent:2em">信佛與遣使弘法的故事：<title level="m">《善見律》</title>所傳的育王信佛、遣使弘法，當然是有<pb n="0181a" ed="Y" xml:id="Y22.0022.0181a.old" type="old"/>
 <lb n="0178a11" ed="Y"/><lb n="0181a01" ed="Y" type="old"/>事實的。但據石刻說：育王的歸依佛法，在第九年；十二、三年的遣使弘法，已
 <lb n="0178a12" ed="Y"/><lb n="0181a02" ed="Y" type="old"/>提到錫蘭。<title level="m">《善見律》</title>說：育王第四年信佛，王弟帝須出家；六年已建塔完成，
 <lb n="0178a13" ed="Y"/><lb n="0181a03" ed="Y" type="old"/>育王的兒女出家；到十七、八年，才派遣傳教師弘法。這一切年代，都與可信的
 <pb n="0179a" ed="Y" xml:id="Y22.0022.0179a"/>
 <lb n="0179a01" ed="Y"/><lb n="0181a04" ed="Y" type="old"/>史料不合。編造年譜，是錫蘭佛教的特長。如沒有育王的摩崖石刻發見，誰會相
 <lb n="0179a02" ed="Y"/><lb n="0181a05" ed="Y" type="old"/>信他們的年代不可靠！</p>
-<lb n="0179a03" ed="Y"/><lb n="0181a06" ed="Y" type="old"/><p style="text-indent:2em">巡禮聖跡的故事，三施閻浮提與半庵摩勒果布施的故事：巡禮聖跡的事實，
+<lb n="0179a03" ed="Y"/><lb n="0181a06" ed="Y" type="old"/><p xml:id="pY22p0179a0301" style="text-indent:2em">巡禮聖跡的故事，三施閻浮提與半庵摩勒果布施的故事：巡禮聖跡的事實，
 <lb n="0179a04" ed="Y"/><lb n="0181a07" ed="Y" type="old"/>已因石柱銘刻的發現而證實。三施閻浮的石柱銘刻，法顯與玄奘都是親見的。<title level="m">《
 <lb n="0179a05" ed="Y"/><lb n="0181a08" ed="Y" type="old"/>善見律》</title>雖沒有說，而石柱已湮沒不見，但不能說不是事實。</p>
-<lb n="0179a06" ed="Y"/><lb n="0181a09" ed="Y" type="old"/><p style="text-indent:2em">王子法益失明的故事：錫蘭的傳說，摩哂陀出了家，阿育王即沒有兒子。本
-<lb n="0179a07" ed="Y"/><lb n="0181a10" ed="Y" type="old"/>傳的法益（<foreign xml:lang="sa"><note n="0179a0701" resp="CBETA" type="add">Dharmavadhana【CB】，Dharmavardhana【印順】</note><app n="0179a0701"><lem wit="【CB】" resp="正聞出版社">Dharmavadhana</lem><rdg wit="【印順】">Dharmavardhana</rdg></app></foreign>）王子，是<title level="m">《善見律》</title>所沒有的。耆那教傳說法益<lb n="0181a11" ed="Y" type="old"/>曾
+<lb n="0179a06" ed="Y"/><lb n="0181a09" ed="Y" type="old"/><p xml:id="pY22p0179a0601" style="text-indent:2em">王子法益失明的故事：錫蘭的傳說，摩哂陀出了家，阿育王即沒有兒子。本
+<lb n="0179a07" ed="Y"/><lb n="0181a10" ed="Y" type="old"/>傳的法益（<foreign xml:lang="sa"><note n="0179a0701" resp="CBETA" type="add">Dharmavadhana【CB】，Dharmavardhana【印順】</note><app n="0179a0701"><lem resp="正聞出版社" wit="【CB】">Dharmavadhana</lem><rdg wit="【印順】">Dharmavardhana</rdg></app></foreign>）王子，是<title level="m">《善見律》</title>所沒有的。耆那教傳說法益<lb n="0181a11" ed="Y" type="old"/>曾
 <lb n="0179a08" ed="Y"/>造過很多的耆那教寺，這可見確有此人。</p>
-<lb n="0179a09" ed="Y"/><lb n="0181a12" ed="Y" type="old"/><p style="text-indent:2em">育王兒女出家的故事，帝須第三結集的故事：<title level="m">《善見律》</title>的著重處，本傳是
+<lb n="0179a09" ed="Y"/><lb n="0181a12" ed="Y" type="old"/><p xml:id="pY22p0179a0901" style="text-indent:2em">育王兒女出家的故事，帝須第三結集的故事：<title level="m">《善見律》</title>的著重處，本傳是
 <lb n="0179a10" ed="Y"/><lb n="0181a13" ed="Y" type="old"/>根本不知有此事的。從<title level="m">《善見律》</title>研究起來，它是將育王的信佛、錫蘭的傳法，<pb n="0182a" ed="Y" xml:id="Y22.0022.0182a.old" type="old"/>
 <lb n="0179a11" ed="Y"/><lb n="0182a01" ed="Y" type="old"/>緊緊的與王家發生特殊關係：如育王的信佛，由於兄子泥瞿陀；王弟帝須的出家
 <lb n="0179a12" ed="Y"/><lb n="0182a02" ed="Y" type="old"/>，與第三結集；錫蘭的佛法，由育王的兒女親自傳去；錫蘭的菩提樹，由育王送
 <lb n="0179a13" ed="Y"/><lb n="0182a03" ed="Y" type="old"/>去。錫蘭佛教史的特色，大概就是這些。</p></cb:div>
 <pb n="0180a" ed="Y" xml:id="Y22.0022.0180a"/>
 <lb n="0180a01" ed="Y"/><lb n="0182a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">六　二大傳說的比觀</cb:mulu><head>六　二大傳說的比觀</head>
-<lb n="0180a02" ed="Y"/><lb n="0182a05" ed="Y" type="old"/><cb:mulu level="3" type="其他">一　從傳說的來源演變去考察</cb:mulu><head>一　從傳說的來源演變去考察</head><p style="text-indent:2em">佛滅到阿育王登位，二百十八年說與百餘年
+<lb n="0180a02" ed="Y"/><lb n="0182a05" ed="Y" type="old"/><cb:mulu level="3" type="其他">一　從傳說的來源演變去考察</cb:mulu><head>一　從傳說的來源演變去考察</head><p xml:id="pY22p0180a0225" style="text-indent:2em">佛滅到阿育王登位，二百十八年說與百餘年
 <lb n="0180a03" ed="Y"/><lb n="0182a06" ed="Y" type="old"/>——百十六年說，這兩種古老的傳說，可作一對比的觀察。先從傳說的來源與演
 <lb n="0180a04" ed="Y"/><lb n="0182a07" ed="Y" type="old"/>變去比說：</p>
-<lb n="0180a05" ed="Y"/><lb n="0182a08" ed="Y" type="old"/><p style="text-indent:2em">一、從傳說的譯傳中國說：錫蘭所傳的，為齊永明七年（四八九），僧伽跋
+<lb n="0180a05" ed="Y"/><lb n="0182a08" ed="Y" type="old"/><p xml:id="pY22p0180a0501" style="text-indent:2em">一、從傳說的譯傳中國說：錫蘭所傳的，為齊永明七年（四八九），僧伽跋
 <lb n="0180a06" ed="Y"/><lb n="0182a09" ed="Y" type="old"/>陀羅（<foreign xml:lang="sa">Saṃghabhadra</foreign>）譯出<title level="m">《善見律》</title>，及附<title level="m">《善見律》</title>而傳來的「眾聖點記<lb n="0182a10" ed="Y" type="old"/>」
 <lb n="0180a07" ed="Y"/>。罽賓所傳的，為晉惠帝時（二九〇——三〇六），安法欽譯的<title level="m">《阿育王傳》</title><lb n="0182a11" ed="Y" type="old"/>；
 <lb n="0180a08" ed="Y"/>及五世紀初，羅什譯的<title level="m">《十八部論》</title>。</p>
-<lb n="0180a09" ed="Y"/><lb n="0182a12" ed="Y" type="old"/><p style="text-indent:2em">二、從傳說的編纂成書說：錫蘭傳是四、五世紀間成書的<title level="m">《島史》</title>，及覺音<pb n="0183a" ed="Y" xml:id="Y22.0022.0183a.old" type="old"/>
+<lb n="0180a09" ed="Y"/><lb n="0182a12" ed="Y" type="old"/><p xml:id="pY22p0180a0901" style="text-indent:2em">二、從傳說的編纂成書說：錫蘭傳是四、五世紀間成書的<title level="m">《島史》</title>，及覺音<pb n="0183a" ed="Y" xml:id="Y22.0022.0183a.old" type="old"/>
 <lb n="0180a10" ed="Y"/><lb n="0183a01" ed="Y" type="old"/>的<title level="m">《善見律》</title>等。佛滅二百十八年說的古典敘述，已無可考見。罽賓所傳的，是
 <lb n="0180a11" ed="Y"/><lb n="0183a02" ed="Y" type="old"/>罽賓學者編纂於西元前一世紀末，為二、三世紀間馬鳴、龍樹等所信用。確定為
 <lb n="0180a12" ed="Y"/><lb n="0183a03" ed="Y" type="old"/>佛滅百十六年的世友論，也是西元前一世紀的作品。</p>
 <pb n="0181a" ed="Y" xml:id="Y22.0022.0181a"/>
-<lb n="0181a01" ed="Y"/><lb n="0183a04" ed="Y" type="old"/><p style="text-indent:2em">三、從傳說的確定說：罽賓傳的百餘年說，離阿育王的時代不遠，因為這<lb n="0183a05" ed="Y" type="old"/>是
+<lb n="0181a01" ed="Y"/><lb n="0183a04" ed="Y" type="old"/><p xml:id="pY22p0181a0101" style="text-indent:2em">三、從傳說的確定說：罽賓傳的百餘年說，離阿育王的時代不遠，因為這<lb n="0183a05" ed="Y" type="old"/>是
 <lb n="0181a02" ed="Y"/>從迦葉到提多迦（即優婆毱多弟子）的時代。傳說的師承，沒有摩田提，到提多
 <lb n="0181a03" ed="Y"/><lb n="0183a06" ed="Y" type="old"/>迦為止，顯出了這一傳說的古老性。這還是摩偷羅時代、上座系（不是分別說系
 <lb n="0181a04" ed="Y"/><lb n="0183a07" ed="Y" type="old"/>）佛教的傳說。錫蘭的傳說，不妨看作佛教傳入錫蘭不久的初期傳說，與北方所
 <lb n="0181a05" ed="Y"/><lb n="0183a08" ed="Y" type="old"/>傳的百餘年說，同樣的古老。一是重經與重禪者的傳說，一是重律者的傳說。</p>
-<lb n="0181a06" ed="Y"/><lb n="0183a09" ed="Y" type="old"/><p style="text-indent:2em">四、從傳說的動機與性質說：罽賓所傳的<title level="m">《阿育王傳》</title>，是譬喻集。罽賓學
+<lb n="0181a06" ed="Y"/><lb n="0183a09" ed="Y" type="old"/><p xml:id="pY22p0181a0601" style="text-indent:2em">四、從傳說的動機與性質說：罽賓所傳的<title level="m">《阿育王傳》</title>，是譬喻集。罽賓學
 <lb n="0181a07" ed="Y"/>者雖<lb n="0183a10" ed="Y" type="old"/>把罽賓佛教的弘通者——摩田提附入法系中，把摩伽提的王朝的覆亡、北方
 <lb n="0181a08" ed="Y"/>政<lb n="0183a11" ed="Y" type="old"/>局的混亂編入傳中，然纂集的主要事情，是阿育王的護法史、西方上座系傳法
 <lb n="0181a09" ed="Y"/><lb n="0183a12" ed="Y" type="old"/>的情況，並非為了罽賓的佛教而編集。錫蘭所傳的，如<title level="m">《善見律》</title>等，是銅鍱部
@@ -1150,7 +1170,7 @@
 <lb n="0182a06" ed="Y"/>錫蘭的年代，印度王統、錫蘭王統的記年，寫得非常認真，不像<title level="m">《阿育王傳<lb n="0184a10" ed="Y" type="old"/>》</title>那
 <lb n="0182a07" ed="Y"/>樣的疏略。然而考論起來，這是偽史，還不如<title level="m">《阿育王傳》</title>不失它的譬喻<lb n="0184a11" ed="Y" type="old"/>作風來
 <lb n="0182a08" ed="Y"/>得老實！</p>
-<lb n="0182a09" ed="Y"/><lb n="0184a12" ed="Y" type="old"/><p style="text-indent:2em">五、從傳說的確定與演變來說：罽賓的傳說，西元前一世紀，編集成書；而
+<lb n="0182a09" ed="Y"/><lb n="0184a12" ed="Y" type="old"/><p xml:id="pY22p0182a0901" style="text-indent:2em">五、從傳說的確定與演變來說：罽賓的傳說，西元前一世紀，編集成書；而
 <lb n="0182a10" ed="Y"/><lb n="0184a13" ed="Y" type="old"/>傳說是確定於優波毱多弟子（或再傳）的時代。其後，罽賓學者為了高推摩田提<pb n="0185a" ed="Y" xml:id="Y22.0022.0185a.old" type="old"/>
 <lb n="0182a11" ed="Y"/><lb n="0185a01" ed="Y" type="old"/>，以摩田提編入傳法正系，介於阿難及商那和修間。本來，從迦葉到提多迦的傳
 <lb n="0182a12" ed="Y"/><lb n="0185a02" ed="Y" type="old"/>承，雖優波毱多與育王同時，而付法實到提多迦為止。等到摩田提被編為傳承中
@@ -1161,7 +1181,7 @@
 <lb n="0183a03" ed="Y"/><lb n="0185a06" ed="Y" type="old"/>傳承說，起著重大的影響。晚期的有部律師改編有部律，以佛滅到阿育王的五<lb n="0185a07" ed="Y" type="old"/>師
 <lb n="0183a04" ed="Y"/>相承說，編為從五百結集到七百結集間的七世相承說。這是北方傳說的大變化<lb n="0185a08" ed="Y" type="old"/>、
 <lb n="0183a05" ed="Y"/>大錯誤！</p>
-<lb n="0183a06" ed="Y"/><lb n="0185a09" ed="Y" type="old"/><p style="text-indent:2em">二百十八年說，也經歷同一命運。這一傳說，到底什麼時候傳入錫蘭，雖不
+<lb n="0183a06" ed="Y"/><lb n="0185a09" ed="Y" type="old"/><p xml:id="pY22p0183a0601" style="text-indent:2em">二百十八年說，也經歷同一命運。這一傳說，到底什麼時候傳入錫蘭，雖不
 <lb n="0183a07" ed="Y"/><lb n="0185a10" ed="Y" type="old"/>能定說，但在西元前八七年，大寺與無畏山寺的紛諍期，這一傳說必已被大寺<lb n="0185a11" ed="Y" type="old"/>的
 <lb n="0183a08" ed="Y"/>一分學者所信用。錫蘭所傳的佛元說，主要的有：(一)、西元四一〇年（晉義熙<lb n="0185a12" ed="Y" type="old"/>六
 <lb n="0183a09" ed="Y"/>年，依足立喜六<title level="m">《法顯傳考證》</title>），法顯從錫蘭（無畏山寺）得來的佛元說，為
@@ -1181,7 +1201,7 @@
 <lb n="0184a09" ed="Y"/>說以巴利語<lb n="0186a12" ed="Y" type="old"/>寫定聖典，即大寺與無畏山寺相諍時——西元前八十七年。有成文的
 <lb n="0184a10" ed="Y"/>律典可點，<lb n="0186a13" ed="Y" type="old"/>有不同的傳說而需要點，點記制的產生，最可能為此時。所以大寺上
 <lb n="0184a11" ed="Y"/>座們的點記<pb n="0187a" ed="Y" xml:id="Y22.0022.0187a.old" type="old"/><lb n="0187a01" ed="Y" type="old"/>制，即依據舊有的傳說：佛滅到阿育王登位為二百十九年；傳入錫蘭
-<lb n="0184a12" ed="Y"/>為二百三十<lb n="0187a02" ed="Y" type="old"/>七年；從天愛帝須（<foreign xml:lang="sa"><note n="0184a1201" resp="CBETA" type="add">Tissa【CB】，Tessa【印順】</note><app n="0184a1201"><lem wit="【CB】" resp="正聞出版社">Tissa</lem><rdg wit="【印順】">Tessa</rdg></app></foreign>）王登位（佛滅二三七年）以來有多少年。
+<lb n="0184a12" ed="Y"/>為二百三十<lb n="0187a02" ed="Y" type="old"/>七年；從天愛帝須（<foreign xml:lang="sa"><note n="0184a1201" resp="CBETA" type="add">Tissa【CB】，Tessa【印順】</note><app n="0184a1201"><lem resp="正聞出版社" wit="【CB】">Tissa</lem><rdg wit="【印順】">Tessa</rdg></app></foreign>）王登位（佛滅二三七年）以來有多少年。
 <lb n="0184a13" ed="Y"/>在這種傳<lb n="0187a03" ed="Y" type="old"/>說的基礎上，每年一點的點下去。所以，「眾聖點記」的確實性，即從
 <pb n="0185a" ed="Y" xml:id="Y22.0022.0185a"/>
 <lb n="0185a01" ed="Y"/>帝須以來<lb n="0187a04" ed="Y" type="old"/>的年代說，創立點記制以後的年年一點，不失為大致可信。而佛滅到育
@@ -1189,13 +1209,13 @@
 <lb n="0185a03" ed="Y"/>的可信。<lb n="0187a06" ed="Y" type="old"/>單是這樣，這一古老的傳說，是值得尊重的。然而，從<title level="m">《島史》</title>、<title level="m">《善
 <lb n="0185a04" ed="Y"/>見律》</title>以<lb n="0187a07" ed="Y" type="old"/>來，為了證明這二百十八年說，從印度王統、錫蘭王統、五師傳承去配
 <lb n="0185a05" ed="Y"/>合，想把<lb n="0187a08" ed="Y" type="old"/>這古老的傳說，造成鐵定的史實。這可反成為可懷疑的偽史了！</p>
-<lb n="0185a06" ed="Y"/><lb n="0187a09" ed="Y" type="old"/><cb:mulu level="3" type="其他">二　從傳說的人事關係去考察</cb:mulu><head>二　從傳說的人事關係去考察</head><p style="text-indent:2em">古老的傳說，洗盡後起的附會與演變，恢復
+<lb n="0185a06" ed="Y"/><lb n="0187a09" ed="Y" type="old"/><cb:mulu level="3" type="其他">二　從傳說的人事關係去考察</cb:mulu><head>二　從傳說的人事關係去考察</head><p xml:id="pY22p0185a0625" style="text-indent:2em">古老的傳說，洗盡後起的附會與演變，恢復
 <lb n="0185a07" ed="Y"/><lb n="0187a10" ed="Y" type="old"/>它的原始傳說，這是極重要的！傳說的是否可信，這可以討論了。傳說中的事情
 <lb n="0185a08" ed="Y"/><lb n="0187a11" ed="Y" type="old"/>，必局限於一定的時空；出現於一定時空中的事實，不會孤立的，必與同時及前
 <lb n="0185a09" ed="Y"/><lb n="0187a12" ed="Y" type="old"/>後的人事發生關係。除了另一傳說的謬誤，彼此間總是相合而不會矛盾的。如<lb n="0187a13" ed="Y" type="old"/>發
 <lb n="0185a10" ed="Y"/>現彼此的矛盾不符合，即傳說的真實性有問題。所以，再綜合上來所論的彼此<pb n="0188a" ed="Y" xml:id="Y22.0022.0188a.old" type="old"/><lb n="0188a01" ed="Y" type="old"/>關
 <lb n="0185a11" ed="Y"/>係，審論這二種傳說。</p>
-<lb n="0185a12" ed="Y"/><lb n="0188a02" ed="Y" type="old"/><p style="text-indent:2em">從佛滅到阿育王登位的年代，本來可以從印度的王統紀年去確定，可惜印度
+<lb n="0185a12" ed="Y"/><lb n="0188a02" ed="Y" type="old"/><p xml:id="pY22p0185a1201" style="text-indent:2em">從佛滅到阿育王登位的年代，本來可以從印度的王統紀年去確定，可惜印度
 <lb n="0185a13" ed="Y"/><lb n="0188a03" ed="Y" type="old"/>缺乏可信的歷史，<title level="m">《古事集》</title>的價值，不會比傳說高些。佛典所敘述的，如錫蘭
 <pb n="0186a" ed="Y" xml:id="Y22.0022.0186a"/>
 <lb n="0186a01" ed="Y"/><lb n="0188a04" ed="Y" type="old"/>的印度王統編年不可信；罽賓傳的疏略不備；安法欽的傳說、西藏<title level="m">多氏《印度佛
@@ -1204,18 +1224,18 @@
 <lb n="0186a04" ed="Y"/>一方面的<lb n="0188a07" ed="Y" type="old"/>論究，可說毫無成功（確立佛滅年代）希望。我希望：佛陀同時的頻婆
 <lb n="0186a05" ed="Y"/>娑羅王、<lb n="0188a08" ed="Y" type="old"/>波斯匿王他們自身或與他相關的史料，將來能有新發現，這才能確定更
 <lb n="0186a06" ed="Y"/>正確的佛<lb n="0188a09" ed="Y" type="old"/>滅年代。</p>
-<lb n="0186a07" ed="Y"/><lb n="0188a10" ed="Y" type="old"/><p style="text-indent:2em">錫蘭的王統編年不可信，是無可諱言的。到阿育王時代，所知古王的名字，
+<lb n="0186a07" ed="Y"/><lb n="0188a10" ed="Y" type="old"/><p xml:id="pY22p0186a0701" style="text-indent:2em">錫蘭的王統編年不可信，是無可諱言的。到阿育王時代，所知古王的名字，
 <lb n="0186a08" ed="Y"/><lb n="0188a11" ed="Y" type="old"/>只有五人。如毘闍耶的時代離如來涅槃不久，那麼五王相傳，百餘年說應該<lb n="0188a12" ed="Y" type="old"/>比二
 <lb n="0186a09" ed="Y"/>百餘年說更可信些！</p>
-<lb n="0186a10" ed="Y"/><lb n="0188a13" ed="Y" type="old"/><p style="text-indent:2em">佛教自身的人事關係，五師傳承中，七百結集時代為第三師，育王時代為第<pb n="0189a" ed="Y" xml:id="Y22.0022.0189a.old" type="old"/>
+<lb n="0186a10" ed="Y"/><lb n="0188a13" ed="Y" type="old"/><p xml:id="pY22p0186a1001" style="text-indent:2em">佛教自身的人事關係，五師傳承中，七百結集時代為第三師，育王時代為第<pb n="0189a" ed="Y" xml:id="Y22.0022.0189a.old" type="old"/>
 <lb n="0186a11" ed="Y"/><lb n="0189a01" ed="Y" type="old"/>五師，這是南北一致的傳說。承認五師說，又堅持二百十八年說，是矛盾而不可
 <lb n="0186a12" ed="Y"/><lb n="0189a02" ed="Y" type="old"/>通的。關於這，確信錫蘭傳說的呂澂，提出新的解說，如<title level="a">〈對點記記年之再商榷
 <lb n="0186a13" ed="Y"/><lb n="0189a03" ed="Y" type="old"/>〉</title>說：</p>
 <pb n="0187a" ed="Y" xml:id="Y22.0022.0187a"/>
-<lb n="0187a01" ed="Y"/><lb n="0189a04" ed="Y" type="old"/><quote><p style="margin-left:3em">「後世律家追溯傳承，率從第二結集諸上座出發。……南傳律師之相承，
+<lb n="0187a01" ed="Y"/><lb n="0189a04" ed="Y" type="old"/><quote><p xml:id="pY22p0187a0101" style="margin-left:3em">「後世律家追溯傳承，率從第二結集諸上座出發。……南傳律師之相承，
 <lb n="0187a02" ed="Y"/><lb n="0189a05" ed="Y" type="old"/>亦當從第二結集出發。而馱寫拘其人，又明明為陀娑婆羅之異稱。故南傳
 <lb n="0187a03" ed="Y"/><lb n="0189a06" ed="Y" type="old"/>馱寫拘為優波離弟子云者，意謂出於優波離系統，不必即為親炙者矣！」</p></quote>
-<lb n="0187a04" ed="Y"/><lb n="0189a07" ed="Y" type="old"/><p style="text-indent:2em">以馱寫拘遙承優波離，說馱寫拘是第二結集時人；這雖與錫蘭舊有的傳說不
+<lb n="0187a04" ed="Y"/><lb n="0189a07" ed="Y" type="old"/><p xml:id="pY22p0187a0401" style="text-indent:2em">以馱寫拘遙承優波離，說馱寫拘是第二結集時人；這雖與錫蘭舊有的傳說不
 <lb n="0187a05" ed="Y"/><lb n="0189a08" ed="Y" type="old"/>同，但未必能延長到二百多年。陀娑婆羅，一作陀婆婆羅；他的弟子樹提陀娑，
 <lb n="0187a06" ed="Y"/><lb n="0189a09" ed="Y" type="old"/>也有作樹提陀婆的。娑與婆，<title level="m">《大眾律》</title>多相雜不明。<title level="m">《大眾律》</title>是推重陀娑婆
 <lb n="0187a07" ed="Y"/><lb n="0189a10" ed="Y" type="old"/>羅而輕視持律耶舍的。西方系的耶舍（發起七百結集的），因判罪不當，被樹提
@@ -1225,14 +1245,14 @@
 <lb n="0187a11" ed="Y"/><lb n="0190a01" ed="Y" type="old"/>優波毱多與育王同時；與他同時的大德，也都有與育王同時的論據。佛滅來
 <lb n="0187a12" ed="Y"/><lb n="0190a02" ed="Y" type="old"/>四傳或五傳，那裡有二百多年？</p>
 <pb n="0188a" ed="Y" xml:id="Y22.0022.0188a"/>
-<lb n="0188a01" ed="Y"/><lb n="0190a03" ed="Y" type="old"/><p cb:type="pre">　　　　　　　　　　　　　　　　　　　　┌──善覺
+<lb n="0188a01" ed="Y"/><lb n="0190a03" ed="Y" type="old"/><p cb:type="pre" xml:id="pY22p0188a0101">　　　　　　　　　　　　　　　　　　　　┌──善覺
 <lb n="0188a02" ed="Y"/>　　　　　　　　　　　┌─優多羅────┤
 <lb n="0188a03" ed="Y"/>　　　　　　　　　　　│　　　　　　　　└──耶奢
 <lb n="0188a04" ed="Y"/>　　　迦葉……阿難──┴─商那和修──────優波毱多──提多迦
 <lb n="0188a05" ed="Y"/>　　　優波離┬馱寫拘───須那拘──悉伽婆──帝須
 <lb n="0188a06" ed="Y"/>　　　　　　└陀娑婆羅──樹提陀娑</p>
 <lb n="0188a07" ed="Y"/></cb:div><lb n="0190a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">七　結論</cb:mulu><head>七　結論</head>
-<lb n="0188a08" ed="Y"/><lb n="0190a10" ed="Y" type="old"/><p style="text-indent:2em">二大傳說中，錫蘭傳的不如罽賓傳，已非常明白。罽賓所傳的<title level="m">《阿育王傳》</title>
+<lb n="0188a08" ed="Y"/><lb n="0190a10" ed="Y" type="old"/><p xml:id="pY22p0188a0801" style="text-indent:2em">二大傳說中，錫蘭傳的不如罽賓傳，已非常明白。罽賓所傳的<title level="m">《阿育王傳》</title>
 <lb n="0188a09" ed="Y"/><lb n="0190a11" ed="Y" type="old"/>，說佛滅<quote>「百年之後」</quote>，本沒有確定年代。然參照同屬於罽賓系的同作於西元<lb n="0190a12" ed="Y" type="old"/>前
 <lb n="0188a10" ed="Y"/>一世紀的世友論，可知<quote>「佛滅百十六年」</quote>，即為百年之後的明確定說。再比對<lb n="0190a13" ed="Y" type="old"/>於
 <lb n="0188a11" ed="Y"/>同屬西方上座系（分別說分離以後的）的犢子系說，華氏城的諍論，為百三十<pb n="0191a" ed="Y" xml:id="Y22.0022.0191a.old" type="old"/><lb n="0191a01" ed="Y" type="old"/>七
@@ -1242,23 +1262,23 @@
 <lb n="0189a01" ed="Y"/>十年，諍論於百三十六年。與犢子系的傳說，所差不過一年。這一佛滅年代的<lb n="0191a04" ed="Y" type="old"/>傳
 <lb n="0189a02" ed="Y"/>說，雖還不足據以確定為必然無疑的佛元，但傳說的古老性、普遍性，決非錫<lb n="0191a05" ed="Y" type="old"/>蘭
 <lb n="0189a03" ed="Y"/>傳可比！</p>
-<lb n="0189a04" ed="Y"/><lb n="0191a06" ed="Y" type="old"/><p style="text-indent:2em">育王登位於佛滅百餘年說，也有一項傳說的矛盾，即一般所說佛滅百年的七
+<lb n="0189a04" ed="Y"/><lb n="0191a06" ed="Y" type="old"/><p xml:id="pY22p0189a0401" style="text-indent:2em">育王登位於佛滅百餘年說，也有一項傳說的矛盾，即一般所說佛滅百年的七
 <lb n="0189a05" ed="Y"/><lb n="0191a07" ed="Y" type="old"/>百結集說。雖律家的傳說每與經師（論從經出）的傳說不同，但這是各部各派<lb n="0191a08" ed="Y" type="old"/>共
 <lb n="0189a06" ed="Y"/>有的傳說，不能不尊重而予以研考。如確為佛滅百年——或百年後而舉行七百<lb n="0191a09" ed="Y" type="old"/>結
 <lb n="0189a07" ed="Y"/>集，適為商那和修與須那拘的時代，那麼育王登位，即使不是二百十八年，也<lb n="0191a10" ed="Y" type="old"/>決
 <lb n="0189a08" ed="Y"/>不會是百十六年了。考七百結集的年代，廣律中並不一致：</p>
-<lb n="0189a09" ed="Y"/><lb n="0191a11" ed="Y" type="old"/><p style="margin-left:3em"><cit><bibl><title level="m">《大眾律》</title>：</bibl><quote>「佛涅槃後。」</quote></cit></p>
-<lb n="0189a10" ed="Y"/><lb n="0191a12" ed="Y" type="old"/><p style="margin-left:3em"><cit><bibl><title level="m">《五分律》</title>：</bibl><quote source="T22n1421_p0192a27" type="嚴謹引文">「佛泥洹後百歲。」</quote><note n="0189001" resp="周怡曄" type="add">《彌沙塞部和醯五分律》卷30(CBETA, T22, no. 1421, p. 192, a27)</note></cit></p>
-<lb n="0189a11" ed="Y"/><lb n="0191a13" ed="Y" type="old"/><p style="margin-left:3em"><cit><bibl><title level="m">《四分律》</title>：</bibl><quote source="T22n1428_p0968c19" type="嚴謹引文">「世尊般涅槃後百歲。」</quote><note n="0189002" resp="周怡曄" type="add">《四分律》卷54(CBETA, T22, no. 1428, p. 968, c19)</note></cit></p>
-<lb n="0189a12" ed="Y"/><pb n="0192a" ed="Y" xml:id="Y22.0022.0192a.old" type="old"/><lb n="0192a01" ed="Y" type="old"/><p style="margin-left:3em"><cit><bibl><title level="m">《善見律》</title>：</bibl><quote source="T24n1462_p0677c14-15" type="嚴謹引文">「世尊涅槃已一百歲。」</quote><note n="0189003" resp="周怡曄" type="add">《善見律毘婆沙》卷1〈2 跋闍子品〉(CBETA, T24, no. 1462, p. 677, c14-15)</note></cit></p>
-<lb n="0189a13" ed="Y"/><lb n="0192a02" ed="Y" type="old"/><p style="margin-left:3em"><cit><bibl><title level="m">《十誦律》</title>：</bibl><quote source="T23n1435_p0450a28" type="嚴謹引文">「佛般涅槃後一百一十歲。」</quote><note n="0189004" resp="周怡曄" type="add">《十誦律》卷60(CBETA, T23, no. 1435, p. 450, a28)</note></cit></p>
+<lb n="0189a09" ed="Y"/><lb n="0191a11" ed="Y" type="old"/><p xml:id="pY22p0189a0901" style="margin-left:3em"><cit><bibl><title level="m">《大眾律》</title>：</bibl><quote>「佛涅槃後。」</quote></cit></p>
+<lb n="0189a10" ed="Y"/><lb n="0191a12" ed="Y" type="old"/><p xml:id="pY22p0189a1001" style="margin-left:3em"><cit><bibl><title level="m">《五分律》</title>：</bibl><quote source="T22n1421_p0192a27" type="嚴謹引文">「佛泥洹後百歲。」</quote><note n="0189001" resp="周怡曄" type="add">《彌沙塞部和醯五分律》卷30(CBETA, T22, no. 1421, p. 192, a27)</note></cit></p>
+<lb n="0189a11" ed="Y"/><lb n="0191a13" ed="Y" type="old"/><p xml:id="pY22p0189a1101" style="margin-left:3em"><cit><bibl><title level="m">《四分律》</title>：</bibl><quote source="T22n1428_p0968c19" type="嚴謹引文">「世尊般涅槃後百歲。」</quote><note n="0189002" resp="周怡曄" type="add">《四分律》卷54(CBETA, T22, no. 1428, p. 968, c19)</note></cit></p>
+<lb n="0189a12" ed="Y"/><pb n="0192a" ed="Y" xml:id="Y22.0022.0192a.old" type="old"/><lb n="0192a01" ed="Y" type="old"/><p xml:id="pY22p0189a1201" style="margin-left:3em"><cit><bibl><title level="m">《善見律》</title>：</bibl><quote source="T24n1462_p0677c14-15" type="嚴謹引文">「世尊涅槃已一百歲。」</quote><note n="0189003" resp="周怡曄" type="add">《善見律毘婆沙》卷1〈2 跋闍子品〉(CBETA, T24, no. 1462, p. 677, c14-15)</note></cit></p>
+<lb n="0189a13" ed="Y"/><lb n="0192a02" ed="Y" type="old"/><p xml:id="pY22p0189a1301" style="margin-left:3em"><cit><bibl><title level="m">《十誦律》</title>：</bibl><quote source="T23n1435_p0450a28" type="嚴謹引文">「佛般涅槃後一百一十歲。」</quote><note n="0189004" resp="周怡曄" type="add">《十誦律》卷60(CBETA, T23, no. 1435, p. 450, a28)</note></cit></p>
 <pb n="0190a" ed="Y" xml:id="Y22.0022.0190a"/>
-<lb n="0190a01" ed="Y"/><lb n="0192a03" ed="Y" type="old"/><p style="text-indent:2em">經這一比觀，可見七百結集中開始立異，育王時早已完成分立的大眾部律，
+<lb n="0190a01" ed="Y"/><lb n="0192a03" ed="Y" type="old"/><p xml:id="pY22p0190a0101" style="text-indent:2em">經這一比觀，可見七百結集中開始立異，育王時早已完成分立的大眾部律，
 <lb n="0190a02" ed="Y"/><lb n="0192a04" ed="Y" type="old"/>但說佛涅槃後。育王時代分化，而完成於育王晚年的分別說系，如<title level="m">《五分律》</title>、
 <lb n="0190a03" ed="Y"/><title level="m">《<lb n="0192a05" ed="Y" type="old"/>四分律》</title>、<title level="m">《善見律》</title>，都說佛滅百年。與犢子部分化而成的一切有部<title level="m">《十誦<lb n="0192a06" ed="Y" type="old"/>律
 <lb n="0190a04" ed="Y"/>》</title>，時代為佛滅三世紀初，才確定說佛滅百十年。這可以看出一種趨勢，即分<lb n="0192a07" ed="Y" type="old"/>部
 <lb n="0190a05" ed="Y"/>越遲，對七百結集的年代，也傳說得越遲。西藏的晚期傳說：餘部毘奈耶中，<lb n="0192a08" ed="Y" type="old"/>有
-<lb n="0190a06" ed="Y"/>說二百十年或二百二十年舉行第二結集的<bibl>（<title level="m">多氏《印度佛教史》</title><biblScope n="7" type="chap">七</biblScope>．<biblScope type="節" n="1">一</biblScope>）</bibl>。緬甸
+<lb n="0190a06" ed="Y"/>說二百十年或二百二十年舉行第二結集的<bibl>（<title level="m">多氏《印度佛教史》</title><biblScope n="7" type="chap">七</biblScope>．<biblScope n="1" type="節">一</biblScope>）</bibl>。緬甸
 <lb n="0190a07" ed="Y"/>佛傳，<lb n="0192a09" ed="Y" type="old"/>也說是二百年。更證明了：愈後起的，傳說的時代愈遲。統論佛典的記年
 <lb n="0190a08" ed="Y"/>法，一般<lb n="0192a10" ed="Y" type="old"/>都以百年、二百年、三百年等計；這與西元所說的一世紀、二世紀相同
 <lb n="0190a09" ed="Y"/>。如準確<lb n="0192a11" ed="Y" type="old"/>些，即說百年「初」、百年「滿」、百年「後」等。分別說系所說的<quote>「
@@ -1273,7 +1293,7 @@
 <lb n="0191a04" ed="Y"/>與西藏的傳說<lb n="0193a05" ed="Y" type="old"/>相合。然七百結集時的國王，廣律中並沒有明文；錫蘭傳以為迦羅
 <lb n="0191a05" ed="Y"/>輸柯王時，不<lb n="0193a06" ed="Y" type="old"/>過執定為百年（恰好為一〇〇年），再配合所編的印度王統記年而
 <lb n="0191a06" ed="Y"/>已！</p>
-<lb n="0191a07" ed="Y"/><lb n="0193a07" ed="Y" type="old"/><p style="text-indent:2em">罽賓所傳與錫蘭所傳，同樣的古老，而相差為一百年。同一事實的不同傳說
+<lb n="0191a07" ed="Y"/><lb n="0193a07" ed="Y" type="old"/><p xml:id="pY22p0191a0701" style="text-indent:2em">罽賓所傳與錫蘭所傳，同樣的古老，而相差為一百年。同一事實的不同傳說
 <lb n="0191a08" ed="Y"/><lb n="0193a08" ed="Y" type="old"/>，決不如同情錫蘭傳者所說北方是誤以黑阿育為法阿育了。二阿育，根本是莫<lb n="0193a09" ed="Y" type="old"/>須
 <lb n="0191a09" ed="Y"/>有的。這二種傳說的不同，我的解說為：佛滅後百年，有七百結集，是律家的<lb n="0193a10" ed="Y" type="old"/>傳
 <lb n="0191a10" ed="Y"/>說；佛滅百餘年——百十六年，阿育王立，是經師（論師）的傳說。這雖各說<lb n="0193a11" ed="Y" type="old"/>各
@@ -1284,7 +1304,7 @@
 <lb n="0192a01" ed="Y"/>）說。十六與十八不同，僅是小枝節而已。這佛滅到育王的古老傳說，糾纏於<lb n="0194a03" ed="Y" type="old"/>佛
 <lb n="0192a02" ed="Y"/>滅百年的七百結集說，這才造成二百十八年說，南北的所傳不一。這恰好相差<lb n="0194a04" ed="Y" type="old"/>百
 <lb n="0192a03" ed="Y"/>年，不是偶然的：佛元的討論者，有深刻重視這恰好一百年的必要！</p>
-<lb n="0192a04" ed="Y"/><lb n="0194a05" ed="Y" type="old"/><p style="text-indent:2em">佛滅百十六年，阿育王自立；百二十年，育王行灌頂禮，這不但<quote>「持之有故
+<lb n="0192a04" ed="Y"/><lb n="0194a05" ed="Y" type="old"/><p xml:id="pY22p0192a0401" style="text-indent:2em">佛滅百十六年，阿育王自立；百二十年，育王行灌頂禮，這不但<quote>「持之有故
 <lb n="0192a05" ed="Y"/><lb n="0194a06" ed="Y" type="old"/>，言之成理」</quote>，可說各方面都能吻合；與錫蘭傳的所以不同，也說出它的不同來
 <lb n="0192a06" ed="Y"/><lb n="0194a07" ed="Y" type="old"/>源。如考定佛元，在現階段，這是唯一可用的傳說。如育王灌頂於西元前二七一
 <lb n="0192a07" ed="Y"/><lb n="0194a08" ed="Y" type="old"/>，即自立於二七五，即可推得佛滅年，即佛後元年——為西元前三九〇年。</p></cb:div></cb:div>

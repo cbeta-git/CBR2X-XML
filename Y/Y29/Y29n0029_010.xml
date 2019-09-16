@@ -12,51 +12,71 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 29, No. 29</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">29</idno>.<idno type="no">29</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（五）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">九、讀《中國歷代佛教書畫精粹》後</cb:mulu>
-<milestone unit="juan" n="10"/><pb n="0133a" ed="Y" xml:id="Y29.0029.0133a.old" type="old"/>
+<milestone n="10" unit="juan"/><pb n="0133a" ed="Y" xml:id="Y29.0029.0133a.old" type="old"/>
 <pb n="0133a" ed="Y" xml:id="Y29.0029.0133a"/>
 <lb n="0133a01" ed="Y"/><lb n="0133a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十、印順導師訪問記——普獻、宏印法師等訪問</cb:mulu><head>印順導師訪問記
 <lb n="0133a02" ed="Y"/><lb n="0133a02" ed="Y" type="old"/>——普獻、宏印法師等訪問——<note n="0133001" resp="DILA" type="add">民國六七年講。</note></head>
-<lb n="0133a03" ed="Y"/><lb n="0133a03" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">問</seg>：靜坐時，如何靜下來止觀？</p>
-<lb n="0133a04" ed="Y"/><lb n="0133a04" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">答</seg>：修道的主體，不外乎止觀，因止觀而成就定慧。或依止而修觀的，也有
+<lb n="0133a03" ed="Y"/><lb n="0133a03" ed="Y" type="old"/><p xml:id="pY29p0133a0301" style="text-indent:2em"><seg rend="bold">問</seg>：靜坐時，如何靜下來止觀？</p>
+<lb n="0133a04" ed="Y"/><lb n="0133a04" ed="Y" type="old"/><p xml:id="pY29p0133a0401" style="text-indent:2em"><seg rend="bold">答</seg>：修道的主體，不外乎止觀，因止觀而成就定慧。或依止而修觀的，也有
 <lb n="0133a05" ed="Y"/><lb n="0133a05" ed="Y" type="old"/>依觀而成就止的，但一般來說，真正的觀慧要成就止才能起修的。約達成靜止來
 <lb n="0133a06" ed="Y"/><lb n="0133a06" ed="Y" type="old"/>說，方法很多，但基本原則是不變的。第一、要在心理上抓住一事，如一開始就
 <lb n="0133a07" ed="Y"/><lb n="0133a07" ed="Y" type="old"/>想什麼都不想，那是一般人所做不到的。這也就是說，先要修「念」。佛法中，
@@ -64,7 +84,7 @@
 <lb n="0133a09" ed="Y"/>不<lb n="0133a09" ed="Y" type="old"/>淨觀也是「念不淨」。心要安在所念上，不讓它跑掉；如念佛的，心不離於佛
 <lb n="0133a10" ed="Y"/>這<lb n="0133a10" ed="Y" type="old"/>一念。能繫念不忘，其他的雜念事自然就沒有了。</p><pb n="0134a" ed="Y" xml:id="Y29.0029.0134a.old" type="old"/>
 <pb n="0134a" ed="Y" xml:id="Y29.0029.0134a"/>
-<lb n="0134a01" ed="Y"/><lb n="0134a01" ed="Y" type="old"/><p style="text-indent:2em">第二原則是：如「念」一馳散，就要馬上抓回來——「攝心」。初學習時，
+<lb n="0134a01" ed="Y"/><lb n="0134a01" ed="Y" type="old"/><p xml:id="pY29p0134a0101" style="text-indent:2em">第二原則是：如「念」一馳散，就要馬上抓回來——「攝心」。初學習時，
 <lb n="0134a02" ed="Y"/><lb n="0134a02" ed="Y" type="old"/>念是一定要馳散的，忽而想這，忽而想那，不可能安住在所念的。心念雖然散失
 <lb n="0134a03" ed="Y"/><lb n="0134a03" ed="Y" type="old"/>了，不要心生厭、悔，只要立刻把它抓回來；否則徒增煩惱。念一跑就抓回來（
 <lb n="0134a04" ed="Y"/><lb n="0134a04" ed="Y" type="old"/>只怕妄想馳散到別處，而不能警覺）；慢慢的念稍一動，就能很快安住所念了；
@@ -78,8 +98,8 @@
 <lb n="0134a12" ed="Y"/>心，再修習觀慧，不斷的修習，不斷地進步，最後到達「止觀雙運」，才能引<lb n="0134a13" ed="Y" type="old"/>發
 <lb n="0134a13" ed="Y"/>真般若。</p><pb n="0135a" ed="Y" xml:id="Y29.0029.0135a.old" type="old"/>
 <pb n="0135a" ed="Y" xml:id="Y29.0029.0135a"/>
-<lb n="0135a01" ed="Y"/><lb n="0135a01" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">問</seg>：修行人是否每天靜坐比較好？</p>
-<lb n="0135a02" ed="Y"/><lb n="0135a02" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">答</seg>：修行人，能靜坐是最好的，但修行要有善巧。年輕人，體力好，如果思
+<lb n="0135a01" ed="Y"/><lb n="0135a01" ed="Y" type="old"/><p xml:id="pY29p0135a0101" style="text-indent:2em"><seg rend="bold">問</seg>：修行人是否每天靜坐比較好？</p>
+<lb n="0135a02" ed="Y"/><lb n="0135a02" ed="Y" type="old"/><p xml:id="pY29p0135a0201" style="text-indent:2em"><seg rend="bold">答</seg>：修行人，能靜坐是最好的，但修行要有善巧。年輕人，體力好，如果思
 <lb n="0135a03" ed="Y"/><lb n="0135a03" ed="Y" type="old"/>想不太複雜，靜坐是比較容易靜定的。從前，出家人靜坐的時間很多，在家人事
 <lb n="0135a04" ed="Y"/><lb n="0135a04" ed="Y" type="old"/>業忙，每天也沒有太多時間來靜坐。最好，每天靜坐，要有一定的時間。每天規
 <lb n="0135a05" ed="Y"/><lb n="0135a05" ed="Y" type="old"/>定在一定的時間，起初時間不要長，而是慢慢地增加；否則，時間長了，坐不住
@@ -92,19 +112,19 @@
 <lb n="0135a12" ed="Y"/>。這主要是時間不定，不容易成為習慣。因此，在一定時間內不間斷的實行，<lb n="0135a13" ed="Y" type="old"/>充
 <lb n="0135a13" ed="Y"/>滿興趣而養成習慣，在修習上是相當重要的。</p><pb n="0136a" ed="Y" xml:id="Y29.0029.0136a.old" type="old"/>
 <pb n="0136a" ed="Y" xml:id="Y29.0029.0136a"/>
-<lb n="0136a01" ed="Y"/><lb n="0136a01" ed="Y" type="old"/><p style="text-indent:2em">修定的人，真正得定後，有一種餘力，出定後也仍有輕安愉快的感覺。</p>
-<lb n="0136a02" ed="Y"/><lb n="0136a02" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">問</seg>：修定時如何修緣起空觀？</p>
-<lb n="0136a03" ed="Y"/><lb n="0136a03" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">答</seg>：先要深切了解緣起無自性的道理，然後把它「歸納」起來，歸納成原則
+<lb n="0136a01" ed="Y"/><lb n="0136a01" ed="Y" type="old"/><p xml:id="pY29p0136a0101" style="text-indent:2em">修定的人，真正得定後，有一種餘力，出定後也仍有輕安愉快的感覺。</p>
+<lb n="0136a02" ed="Y"/><lb n="0136a02" ed="Y" type="old"/><p xml:id="pY29p0136a0201" style="text-indent:2em"><seg rend="bold">問</seg>：修定時如何修緣起空觀？</p>
+<lb n="0136a03" ed="Y"/><lb n="0136a03" ed="Y" type="old"/><p xml:id="pY29p0136a0301" style="text-indent:2em"><seg rend="bold">答</seg>：先要深切了解緣起無自性的道理，然後把它「歸納」起來，歸納成原則
 <lb n="0136a04" ed="Y"/><lb n="0136a04" ed="Y" type="old"/>性的。比如觀「四句」不可得，天臺宗觀「四生」不可得。如果不理解緣起性空
 <lb n="0136a05" ed="Y"/><lb n="0136a05" ed="Y" type="old"/>的要義，那是觀不起來的。從「止」再起「觀」，慢慢的止與觀兩者才可以相稱
 <lb n="0136a06" ed="Y"/><lb n="0136a06" ed="Y" type="old"/>，到達「止觀雙運」。如果光是修觀，或光是修定，那麼沒有定的觀，便是「散
 <lb n="0136a07" ed="Y"/><lb n="0136a07" ed="Y" type="old"/>心觀」；而修定不修觀，於佛法上也無多大用處。</p>
-<lb n="0136a08" ed="Y"/><lb n="0136a08" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">問</seg>：如何以中觀觀法應用於生活？</p>
-<lb n="0136a09" ed="Y"/><lb n="0136a09" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">答</seg>：中觀的觀法，與一般的思惟是不同的，它是緣起觀，是達到解脫證<lb n="0136a10" ed="Y" type="old"/>悟的
+<lb n="0136a08" ed="Y"/><lb n="0136a08" ed="Y" type="old"/><p xml:id="pY29p0136a0801" style="text-indent:2em"><seg rend="bold">問</seg>：如何以中觀觀法應用於生活？</p>
+<lb n="0136a09" ed="Y"/><lb n="0136a09" ed="Y" type="old"/><p xml:id="pY29p0136a0901" style="text-indent:2em"><seg rend="bold">答</seg>：中觀的觀法，與一般的思惟是不同的，它是緣起觀，是達到解脫證<lb n="0136a10" ed="Y" type="old"/>悟的
 <lb n="0136a10" ed="Y"/>法門。雖不一定要很深的定力，但散心分別，是不能成就觀的。嚴格的說，<lb n="0136a11" ed="Y" type="old"/>中觀
 <lb n="0136a11" ed="Y"/>的應用，必須在修觀有成就，也就是對緣起有深切的體認，才能應用在日常<lb n="0136a12" ed="Y" type="old"/>生活
 <lb n="0136a12" ed="Y"/>中。</p>
-<lb n="0136a13" ed="Y"/><lb n="0136a13" ed="Y" type="old"/><p style="text-indent:2em">在我們還沒有能體悟以前，還只是一般的理解，知道什麼是貪，什麼樣是瞋<pb n="0137a" ed="Y" xml:id="Y29.0029.0137a.old" type="old"/>
+<lb n="0136a13" ed="Y"/><lb n="0136a13" ed="Y" type="old"/><p xml:id="pY29p0136a1301" style="text-indent:2em">在我們還沒有能體悟以前，還只是一般的理解，知道什麼是貪，什麼樣是瞋<pb n="0137a" ed="Y" xml:id="Y29.0029.0137a.old" type="old"/>
 <pb n="0137a" ed="Y" xml:id="Y29.0029.0137a"/>
 <lb n="0137a01" ed="Y"/><lb n="0137a01" ed="Y" type="old"/>，什麼樣是順於正理，什麼樣是根本顛倒。經常以緣起來觀察一切，應用於日常
 <lb n="0137a02" ed="Y"/><lb n="0137a02" ed="Y" type="old"/>生活，但這跟一般的修養是相近的，只是減少一些煩惱，增加內心的力量，解決
@@ -112,13 +132,13 @@
 <lb n="0137a04" ed="Y"/><lb n="0137a04" ed="Y" type="old"/>而忘形」，弄得「樂極生悲」。像這些，處理日常的小事是可以，遇到重大的，
 <lb n="0137a05" ed="Y"/><lb n="0137a05" ed="Y" type="old"/>如老病死到來，卻起不了什麼作用。要得到真正的受用，必須在平常修習「止觀
 <lb n="0137a06" ed="Y"/><lb n="0137a06" ed="Y" type="old"/>」，對止觀多下功夫。</p>
-<lb n="0137a07" ed="Y"/><lb n="0137a07" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">問</seg>：請導師談談「斷食」。</p>
-<lb n="0137a08" ed="Y"/><lb n="0137a08" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">答</seg>：我個人並沒有斷食的經驗，只是看了一些書，知道在斷食期間，要多喝
+<lb n="0137a07" ed="Y"/><lb n="0137a07" ed="Y" type="old"/><p xml:id="pY29p0137a0701" style="text-indent:2em"><seg rend="bold">問</seg>：請導師談談「斷食」。</p>
+<lb n="0137a08" ed="Y"/><lb n="0137a08" ed="Y" type="old"/><p xml:id="pY29p0137a0801" style="text-indent:2em"><seg rend="bold">答</seg>：我個人並沒有斷食的經驗，只是看了一些書，知道在斷食期間，要多喝
 <lb n="0137a09" ed="Y"/><lb n="0137a09" ed="Y" type="old"/>水，不要做出力的工作，內心要安靜。這樣，體內積存的廢料，隨身體的消耗而
 <lb n="0137a10" ed="Y"/><lb n="0137a10" ed="Y" type="old"/>排泄出去，再漸漸的進食，能促進新陳代謝，有益於健康。但斷食期間，不要太
 <lb n="0137a11" ed="Y"/><lb n="0137a11" ed="Y" type="old"/>久，人是不能沒有「食」而生存的。</p>
-<lb n="0137a12" ed="Y"/><lb n="0137a12" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">問</seg>：請導師談「隔陰之迷」。</p>
-<lb n="0137a13" ed="Y"/><lb n="0137a13" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">答</seg>：中國淨土行者所說羅漢有「隔陰之迷」，指死了以後轉世，前世的事都<pb n="0138a" ed="Y" xml:id="Y29.0029.0138a.old" type="old"/>
+<lb n="0137a12" ed="Y"/><lb n="0137a12" ed="Y" type="old"/><p xml:id="pY29p0137a1201" style="text-indent:2em"><seg rend="bold">問</seg>：請導師談「隔陰之迷」。</p>
+<lb n="0137a13" ed="Y"/><lb n="0137a13" ed="Y" type="old"/><p xml:id="pY29p0137a1301" style="text-indent:2em"><seg rend="bold">答</seg>：中國淨土行者所說羅漢有「隔陰之迷」，指死了以後轉世，前世的事都<pb n="0138a" ed="Y" xml:id="Y29.0029.0138a.old" type="old"/>
 <pb n="0138a" ed="Y" xml:id="Y29.0029.0138a"/>
 <lb n="0138a01" ed="Y"/><lb n="0138a01" ed="Y" type="old"/>忘了。依<title level="m">《阿含經》</title>來說，證了初果的人，便是真正徹見了真理，那麼便永不退
 <lb n="0138a02" ed="Y"/><lb n="0138a02" ed="Y" type="old"/>失。這種「不退」，並非一天到晚都在前，而是像把東西放在自己衣袋裡一樣，
@@ -128,14 +148,14 @@
 <lb n="0138a06" ed="Y"/>，<lb n="0138a06" ed="Y" type="old"/>忘記了，這是「隔陰之迷」。但隔陰之迷，怕什麼呢！「七返生死」，在一定
 <lb n="0138a07" ed="Y"/>期<lb n="0138a07" ed="Y" type="old"/>間內，一定要解脫生死，不會永遠的「迷」下去。所以證果的聖者，是終究不
 <lb n="0138a08" ed="Y"/>會<lb n="0138a08" ed="Y" type="old"/>退失的。</p>
-<lb n="0138a09" ed="Y"/><lb n="0138a09" ed="Y" type="old"/><p style="text-indent:2em">證初果的，已經徹見真理，他的煩惱已經去掉了大部分，很多的「迷」（煩
+<lb n="0138a09" ed="Y"/><lb n="0138a09" ed="Y" type="old"/><p xml:id="pY29p0138a0901" style="text-indent:2em">證初果的，已經徹見真理，他的煩惱已經去掉了大部分，很多的「迷」（煩
 <lb n="0138a10" ed="Y"/><lb n="0138a10" ed="Y" type="old"/>惱）消失了，暫時的「迷」，對他沒有什麼關係。二果也是這樣。至於三果，已
 <lb n="0138a11" ed="Y"/><lb n="0138a11" ed="Y" type="old"/>經離欲不往來了，煩惱更要少些，不過有時仍會「失念」。四果阿羅漢，也不免
 <lb n="0138a12" ed="Y"/><lb n="0138a12" ed="Y" type="old"/>「失念」，因為他仍留有業報身，還有那麼一點點。但阿羅漢般涅槃，不會有「
 <lb n="0138a13" ed="Y"/><lb n="0138a13" ed="Y" type="old"/>隔陰之迷」了。</p><pb n="0139a" ed="Y" xml:id="Y29.0029.0139a.old" type="old"/>
 <pb n="0139a" ed="Y" xml:id="Y29.0029.0139a"/>
-<lb n="0139a01" ed="Y"/><lb n="0139a01" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">問</seg>：密宗的「雙修法」真能當作修行方法嗎？</p>
-<lb n="0139a02" ed="Y"/><lb n="0139a02" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">答</seg>：說到佛法，我們必須從現實世間來探討。佛法是怎樣出現於我們這個世
+<lb n="0139a01" ed="Y"/><lb n="0139a01" ed="Y" type="old"/><p xml:id="pY29p0139a0101" style="text-indent:2em"><seg rend="bold">問</seg>：密宗的「雙修法」真能當作修行方法嗎？</p>
+<lb n="0139a02" ed="Y"/><lb n="0139a02" ed="Y" type="old"/><p xml:id="pY29p0139a0201" style="text-indent:2em"><seg rend="bold">答</seg>：說到佛法，我們必須從現實世間來探討。佛法是怎樣出現於我們這個世
 <lb n="0139a03" ed="Y"/><lb n="0139a03" ed="Y" type="old"/>界的？當然是二千五、六百年以前，從印度釋迦牟尼佛而來的。釋迦佛以前，講
 <lb n="0139a04" ed="Y"/>修<lb n="0139a04" ed="Y" type="old"/>行，講證悟，印度的外道也是多得很。但就佛法而言，佛法有超越外道的不共
 <lb n="0139a05" ed="Y"/><lb n="0139a05" ed="Y" type="old"/>處，這是從釋迦佛而開始的。<quote>「修雙身法才能成佛」</quote>，釋迦佛無此說；<quote>「淫欲為
@@ -146,7 +166,7 @@
 <lb n="0139a10" ed="Y"/><lb n="0139a10" ed="Y" type="old"/>是方便，不究竟，出現於千百年後的佛說才是究竟，那就不好說了。如說到中<lb n="0139a11" ed="Y" type="old"/>國
 <lb n="0139a11" ed="Y"/>的儒家，總是推源到孔子，如果以孔子所說為方便不究竟，而大談其他的才是<lb n="0139a12" ed="Y" type="old"/>真
 <lb n="0139a12" ed="Y"/>正儒家，那便是笑話奇談了。</p>
-<lb n="0139a13" ed="Y"/><lb n="0139a13" ed="Y" type="old"/><p style="text-indent:2em">我們生在欲界，「欲」是生死的根源。古人往往把男女之欲（新生命由此而<pb n="0140a" ed="Y" xml:id="Y29.0029.0140a.old" type="old"/>
+<lb n="0139a13" ed="Y"/><lb n="0139a13" ed="Y" type="old"/><p xml:id="pY29p0139a1301" style="text-indent:2em">我們生在欲界，「欲」是生死的根源。古人往往把男女之欲（新生命由此而<pb n="0140a" ed="Y" xml:id="Y29.0029.0140a.old" type="old"/>
 <pb n="0140a" ed="Y" xml:id="Y29.0029.0140a"/>
 <lb n="0140a01" ed="Y"/><lb n="0140a01" ed="Y" type="old"/>來）看得非常的神秘，我在<title level="m">《中國古代民族神話與文化之研究》</title>一書中，便提到
 <lb n="0140a02" ed="Y"/><lb n="0140a02" ed="Y" type="old"/>了這些。在印度，如遍行外道；在中國，如道家的一部分，都有以兩性交合為修
@@ -160,7 +180,7 @@
 <lb n="0140a10" ed="Y"/>術」</quote>的。不過大乘佛教的主流，還是反對這一類的。特別是由於這一類「<lb n="0140a11" ed="Y" type="old"/>幻法」
 <lb n="0140a11" ed="Y"/>，引起罽賓滅法的法難，為大乘佛教界所痛心疾首的。不過到了西元八、<lb n="0140a12" ed="Y" type="old"/>九世紀
 <lb n="0140a12" ed="Y"/>，後來居上，成為佛教末期的主流。</p>
-<lb n="0140a13" ed="Y"/><lb n="0140a13" ed="Y" type="old"/><p style="text-indent:2em">釋迦佛的時代，印度的教派相當多。對於各式各樣的神教，佛是重於啟發感<pb n="0141a" ed="Y" xml:id="Y29.0029.0141a.old" type="old"/>
+<lb n="0140a13" ed="Y"/><lb n="0140a13" ed="Y" type="old"/><p xml:id="pY29p0140a1301" style="text-indent:2em">釋迦佛的時代，印度的教派相當多。對於各式各樣的神教，佛是重於啟發感<pb n="0141a" ed="Y" xml:id="Y29.0029.0141a.old" type="old"/>
 <pb n="0141a" ed="Y" xml:id="Y29.0029.0141a"/>
 <lb n="0141a01" ed="Y"/><lb n="0141a01" ed="Y" type="old"/>化，採取溫和的革新，而不是強烈的、鬥爭的，即使是批評，也不是攻擊性的。
 <lb n="0141a02" ed="Y"/><lb n="0141a02" ed="Y" type="old"/>佛採取印度固有文化中合於真理、道德——有用的部分，而引入不共世間一般的
@@ -172,8 +192,8 @@
 <lb n="0141a08" ed="Y"/>供養妻兒眷屬名居家火，供養沙門、婆羅門名福田火；可是密宗又攝取了它。<lb n="0141a09" ed="Y" type="old"/>在
 <lb n="0141a09" ed="Y"/>密宗裡，所供養的許多佛菩薩，其實都是夜叉像、龍王像。這到底是佛的神化<lb n="0141a10" ed="Y" type="old"/>呢
 <lb n="0141a10" ed="Y"/>？還是神的佛化呢？還是神佛不二呢？這是值得我們深思的問題。</p>
-<lb n="0141a11" ed="Y"/><lb n="0141a11" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">問</seg>：大乘講世世修菩薩行，未證悟前應如何堅定菩提心？</p>
-<lb n="0141a12" ed="Y"/><lb n="0141a12" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">答</seg>：大乘的世世修菩薩行，主要是從悲願力說的。若從智慧來說，聲聞也有
+<lb n="0141a11" ed="Y"/><lb n="0141a11" ed="Y" type="old"/><p xml:id="pY29p0141a1101" style="text-indent:2em"><seg rend="bold">問</seg>：大乘講世世修菩薩行，未證悟前應如何堅定菩提心？</p>
+<lb n="0141a12" ed="Y"/><lb n="0141a12" ed="Y" type="old"/><p xml:id="pY29p0141a1201" style="text-indent:2em"><seg rend="bold">答</seg>：大乘的世世修菩薩行，主要是從悲願力說的。若從智慧來說，聲聞也有
 <lb n="0141a13" ed="Y"/><lb n="0141a13" ed="Y" type="old"/>類似的說法。如<cit><bibl><title level="m">《雜阿含經》</title>說：</bibl><quote type="嚴謹引文">「假使有世間，正見增上者，雖復百千生，終<pb n="0142a" ed="Y" xml:id="Y29.0029.0142a.old" type="old"/>
 <pb n="0142a" ed="Y" xml:id="Y29.0029.0142a"/>
 <lb n="0142a01" ed="Y"/><lb n="0142a01" ed="Y" type="old"/>不墮惡趣。」</quote><note n="0142001" resp="厚觀法師" type="add">《雜阿含經》卷28(CBETA, T02, no. 99, p. 204, c11-12)</note></cit>菩薩具智慧與悲願二者，即使是墮了地獄，也是受罪輕微，一下子
@@ -183,12 +203,12 @@
 <lb n="0142a05" ed="Y"/><lb n="0142a05" ed="Y" type="old"/>菩薩雖未證悟，但具足正見，發願生生世世生於有佛法之處，而得見聞佛法。這
 <lb n="0142a06" ed="Y"/><lb n="0142a06" ed="Y" type="old"/>樣的發願，自然不會離開佛法，而能依法修行。若正見與願力增上，即使生在無
 <lb n="0142a07" ed="Y"/><lb n="0142a07" ed="Y" type="old"/>佛法處，也不會退失。若是已得「無生法忍」的菩薩，自然更不用擔心了。</p>
-<lb n="0142a08" ed="Y"/><lb n="0142a08" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">問</seg>：如何鑑定是否「證果」？</p>
-<lb n="0142a09" ed="Y"/><lb n="0142a09" ed="Y" type="old"/><p style="text-indent:2em"><seg rend="bold">答</seg>：說到「證果」，約聲聞乘說，就是初果……四果等。證果就成為聖者，
+<lb n="0142a08" ed="Y"/><lb n="0142a08" ed="Y" type="old"/><p xml:id="pY29p0142a0801" style="text-indent:2em"><seg rend="bold">問</seg>：如何鑑定是否「證果」？</p>
+<lb n="0142a09" ed="Y"/><lb n="0142a09" ed="Y" type="old"/><p xml:id="pY29p0142a0901" style="text-indent:2em"><seg rend="bold">答</seg>：說到「證果」，約聲聞乘說，就是初果……四果等。證果就成為聖者，
 <lb n="0142a10" ed="Y"/><lb n="0142a10" ed="Y" type="old"/>最低限度是對於苦、集、滅、道——四諦能「如實知」，再沒有疑惑，也就是對
 <lb n="0142a11" ed="Y"/><lb n="0142a11" ed="Y" type="old"/>佛法僧——三寶有淨信心。這不是想像中的什麼奧秘，而是從修行中達到的「如
 <lb n="0142a12" ed="Y"/><lb n="0142a12" ed="Y" type="old"/>實知」。證果的人，對「法」已沒有什麼疑惑。</p>
-<lb n="0142a13" ed="Y"/><lb n="0142a13" ed="Y" type="old"/><p style="text-indent:2em">就「苦」而言，不單是當前「感受」的苦；如專從當前的感受來說，那就有<pb n="0143a" ed="Y" xml:id="Y29.0029.0143a.old" type="old"/>
+<lb n="0142a13" ed="Y"/><lb n="0142a13" ed="Y" type="old"/><p xml:id="pY29p0142a1301" style="text-indent:2em">就「苦」而言，不單是當前「感受」的苦；如專從當前的感受來說，那就有<pb n="0143a" ed="Y" xml:id="Y29.0029.0143a.old" type="old"/>
 <pb n="0143a" ed="Y" xml:id="Y29.0029.0143a"/>
 <lb n="0143a01" ed="Y"/><lb n="0143a01" ed="Y" type="old"/>苦有樂了，也就是有「苦受」、「樂受」。然從現實世間來觀察，從個人以至世
 <lb n="0143a02" ed="Y"/><lb n="0143a02" ed="Y" type="old"/>間一切事物，一切是無常的，也就是沒有一法是永恒的、徹底的，無論怎樣好的
@@ -198,9 +218,9 @@
 <lb n="0143a06" ed="Y"/><lb n="0143a06" ed="Y" type="old"/>而了解到<quote type="嚴謹引文">「一切是苦」</quote>，這才是佛法所說的「苦」。然依佛法，並非說世間的一
 <lb n="0143a07" ed="Y"/><lb n="0143a07" ed="Y" type="old"/>切一無是處，而是承認有其相對價值的，所以有苦也有樂，但終究是不永久的<lb n="0143a08" ed="Y" type="old"/>、
 <lb n="0143a08" ed="Y"/>不徹底的。知道是苦，要了解苦的原因——「集」，然後從正「道」的修習中<lb n="0143a09" ed="Y" type="old"/>，
-<lb n="0143a09" ed="Y"/><note n="0143a0901" resp="CBETA" type="add">祛【CB】，袪【印順】</note><app n="0143a0901"><lem wit="【CB】" resp="正聞出版社">祛</lem><rdg wit="【印順】">袪</rdg></app>除苦的根源，實現苦的徹底解脫——滅。也就是徹底的解決人生問題，能達<lb n="0143a10" ed="Y" type="old"/>成
+<lb n="0143a09" ed="Y"/><note n="0143a0901" resp="CBETA" type="add">祛【CB】，袪【印順】</note><app n="0143a0901"><lem resp="正聞出版社" wit="【CB】">祛</lem><rdg wit="【印順】">袪</rdg></app>除苦的根源，實現苦的徹底解脫——滅。也就是徹底的解決人生問題，能達<lb n="0143a10" ed="Y" type="old"/>成
 <lb n="0143a10" ed="Y"/>究竟的理想。</p>
-<lb n="0143a11" ed="Y"/><lb n="0143a11" ed="Y" type="old"/><p style="text-indent:2em">所以，佛法要在「道」的實踐。了解<quote source="T25n1509_p0072a26-27" type="嚴謹引文">「無常故苦，苦故無我」<note n="0143001" resp="謝淑歆" type="add">《大智度論》卷2〈1 序品〉(CBETA, T25, no. 1509, p. 72, a26-27)</note></quote>，就是「道」
+<lb n="0143a11" ed="Y"/><lb n="0143a11" ed="Y" type="old"/><p xml:id="pY29p0143a1101" style="text-indent:2em">所以，佛法要在「道」的實踐。了解<quote source="T25n1509_p0072a26-27" type="嚴謹引文">「無常故苦，苦故無我」<note n="0143001" resp="謝淑歆" type="add">《大智度論》卷2〈1 序品〉(CBETA, T25, no. 1509, p. 72, a26-27)</note></quote>，就是「道」
 <lb n="0143a12" ed="Y"/><lb n="0143a12" ed="Y" type="old"/>的先導——「正見」、「正思惟」；能如實知，便可消除生死根本的煩惱。所以
 <lb n="0143a13" ed="Y"/>，<lb n="0143a13" ed="Y" type="old"/>真能徹悟真理，證入聖果的，我見等煩惱便斷而不起了。證真理而成聖果，是
 <pb n="0144a" ed="Y" xml:id="Y29.0029.0144a"/>

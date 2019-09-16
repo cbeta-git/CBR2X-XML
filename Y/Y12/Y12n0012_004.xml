@@ -12,55 +12,75 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/01</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/01</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>5卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 12, No. 12</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>5卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">12</idno>.<idno type="no">12</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">成佛之道</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第三章　五乘共法</cb:mulu>
-<milestone unit="juan" n="4"/><pb n="0127a" ed="Y" xml:id="Y12.0012.0127a.old" type="old"/>
+<milestone n="4" unit="juan"/><pb n="0127a" ed="Y" xml:id="Y12.0012.0127a.old" type="old"/>
 <pb n="0143a" ed="Y" xml:id="Y12.0012.0143a"/>
 <lb n="0143a01" ed="Y"/><lb n="0127a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">第四章　三乘共法</cb:mulu><head>第四章　三乘共法</head>
-<lb n="0143a02" ed="Y"/><lb n="0127a02" ed="Y" type="old"/><p style="text-indent:2em">三乘共法，是出世間法，是建立在五乘共法的基石上的。如不備人天功德，
+<lb n="0143a02" ed="Y"/><lb n="0127a02" ed="Y" type="old"/><p xml:id="pY12p0143a0201" style="text-indent:2em">三乘共法，是出世間法，是建立在五乘共法的基石上的。如不備人天功德，
 <lb n="0143a03" ed="Y"/><lb n="0127a03" ed="Y" type="old"/>沈淪在三惡道中，當然不能發心了脫生死。即使現生人間，如作惡多端，無慚無
 <lb n="0143a04" ed="Y"/><lb n="0127a04" ed="Y" type="old"/>愧，害人害世，喪失了人性；連做一平常人都不成，還會發心了生死嗎？所以成
 <lb n="0143a05" ed="Y"/><lb n="0127a05" ed="Y" type="old"/>就人天功德的，才能修學出世間的三乘共法。五乘共法，上面已說過了，現在來
 <lb n="0143a06" ed="Y"/><lb n="0127a06" ed="Y" type="old"/>敘述三乘共法。</p>
-<lb n="0143a07" ed="Y"/><lb n="0127a07" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>一切行無常，說諸受皆苦；緣此生厭離，向於解脫道。</l></lg></quote>
-<lb n="0143a08" ed="Y"/><lb n="0127a08" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">出世間的三乘法，根本在出離心，要首先學習發起。世間的一切，是不永
+<lb n="0143a07" ed="Y"/><lb n="0127a07" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0143a0701" rend="bold" type="abnormal"><l>一切行無常，說諸受皆苦；緣此生厭離，向於解脫道。</l></lg></quote>
+<lb n="0143a08" ed="Y"/><lb n="0127a08" ed="Y" type="old"/><p xml:id="pY12p0143a0801" style="margin-left:1em;text-indent:2em">出世間的三乘法，根本在出離心，要首先學習發起。世間的一切，是不永
 <lb n="0143a09" ed="Y"/><lb n="0127a09" ed="Y" type="old"/>恒的、不徹底的、不自在的，也就是世間——眾生是苦的。肯定了世間徹底是
 <lb n="0143a10" ed="Y"/><lb n="0127a10" ed="Y" type="old"/>苦的，才會引發出離心。照一般的感受經驗來說，世間有憂苦的，也有喜樂的
 <lb n="0143a11" ed="Y"/><lb n="0127a11" ed="Y" type="old"/>，也有不苦不樂無所謂的，這是不能說人生世間都是苦的。要知道，『世間是<pb n="0128a" ed="Y" xml:id="Y12.0012.0128a.old" type="old"/>
@@ -79,7 +99,7 @@
 <lb n="0144a12" ed="Y"/>行是無常的、<lb n="0128a12" ed="Y" type="old"/>不永久的、不徹底的、不可保信的觀察起來，就不能不說『諸受
 <lb n="0144a13" ed="Y"/>皆苦』；不能<lb n="0128a13" ed="Y" type="old"/>不說：世間如火宅，三界如牢獄。</p><pb n="0129a" ed="Y" xml:id="Y12.0012.0129a.old" type="old"/>
 <pb n="0145a" ed="Y" xml:id="Y12.0012.0145a"/>
-<lb n="0145a01" ed="Y"/><lb n="0129a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">修學佛法的，如有這種深切的認識，那麼無論怎樣喜樂，也不會留戀。就
+<lb n="0145a01" ed="Y"/><lb n="0129a01" ed="Y" type="old"/><p xml:id="pY12p0145a0101" style="margin-left:1em;text-indent:2em">修學佛法的，如有這種深切的認識，那麼無論怎樣喜樂，也不會留戀。就
 <lb n="0145a02" ed="Y"/><lb n="0129a02" ed="Y" type="old"/>是上升天國，盡情享受，也不感興趣。<quote type="嚴謹引文">「緣此」</quote>就能發<quote type="嚴謹引文">「生厭離」</quote>生死的決心
 <lb n="0145a03" ed="Y"/><lb n="0129a03" ed="Y" type="old"/>。有了這樣的認識，引發這樣的意欲，從學習中養成了堅強的志願。苦哉！苦
 <lb n="0145a04" ed="Y"/><lb n="0129a04" ed="Y" type="old"/>哉！這世間不是安樂鄉；不但不能永久的住著，簡直一刻兒也住不下去。正像
@@ -89,14 +109,14 @@
 <lb n="0145a08" ed="Y"/><lb n="0129a08" ed="Y" type="old"/>心所攝導，成為解脫生死的因素，稱為『順解脫分善』。這就是說：這種善根
 <lb n="0145a09" ed="Y"/><lb n="0129a09" ed="Y" type="old"/>，已成為隨順趨向解脫的因素了。出離心是出世法的根本，口口聲聲說了生死
 <lb n="0145a10" ed="Y"/><lb n="0129a10" ed="Y" type="old"/>的學佛同人，應反省自己，看看自己有沒有這種心情。</p>
-<lb n="0145a11" ed="Y"/><lb n="0129a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>隨機立三乘，正化於聲聞。</l></lg></quote>
-<lb n="0145a12" ed="Y"/><lb n="0129a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">發出離心而修出世法的，根機並不一致。統攝來說，佛<quote type="嚴謹引文">「隨」</quote>順聽眾的<quote type="嚴謹引文">「
+<lb n="0145a11" ed="Y"/><lb n="0129a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0145a1101" rend="bold" type="abnormal"><l>隨機立三乘，正化於聲聞。</l></lg></quote>
+<lb n="0145a12" ed="Y"/><lb n="0129a12" ed="Y" type="old"/><p xml:id="pY12p0145a1201" style="margin-left:1em;text-indent:2em">發出離心而修出世法的，根機並不一致。統攝來說，佛<quote type="嚴謹引文">「隨」</quote>順聽眾的<quote type="嚴謹引文">「
 <lb n="0145a13" ed="Y"/><lb n="0129a13" ed="Y" type="old"/>機」</quote>感不同，安<quote type="嚴謹引文">「立」</quote>了<quote type="嚴謹引文">「三乘」</quote>的差別。三乘是：聲聞乘、緣覺乘、菩薩乘<pb n="0130a" ed="Y" xml:id="Y12.0012.0130a.old" type="old"/>
 <pb n="0146a" ed="Y" xml:id="Y12.0012.0146a"/>
 <lb n="0146a01" ed="Y"/><lb n="0130a01" ed="Y" type="old"/>。<title level="m">《法華經》</title>等，從特殊的意義說：佛為聲聞說四諦，為緣覺說十二緣起，為
 <lb n="0146a02" ed="Y"/><lb n="0130a02" ed="Y" type="old"/>菩薩說六波羅蜜。其實出世法都是觀甚深義——四諦與十二緣起的，不過在菩
 <lb n="0146a03" ed="Y"/><lb n="0130a03" ed="Y" type="old"/>薩道中，著重廣大行的六波羅蜜多而已。</p>
-<lb n="0146a04" ed="Y"/><lb n="0130a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在這三乘共法中，<quote type="嚴謹引文">「正化」</quote>的是<quote type="嚴謹引文">「聲聞」</quote>乘；菩薩與緣覺，可說是旁化。
+<lb n="0146a04" ed="Y"/><lb n="0130a04" ed="Y" type="old"/><p xml:id="pY12p0146a0401" style="margin-left:1em;text-indent:2em">在這三乘共法中，<quote type="嚴謹引文">「正化」</quote>的是<quote type="嚴謹引文">「聲聞」</quote>乘；菩薩與緣覺，可說是旁化。
 <lb n="0146a05" ed="Y"/><lb n="0130a05" ed="Y" type="old"/>因為在三乘共法的<title level="m">《阿含經》</title>等，僅有二位菩薩：一、未成佛前的釋迦菩薩，
 <lb n="0146a06" ed="Y"/><lb n="0130a06" ed="Y" type="old"/>說法時已經成佛，是說法的教主，並不是受教者。二、彌勒菩薩，在釋迦佛的
 <lb n="0146a07" ed="Y"/><lb n="0130a07" ed="Y" type="old"/>法會中，受記作佛。如果說佛說三乘，那麼當前的菩薩行者，只有這彌勒一人
@@ -110,9 +130,9 @@
 <lb n="0147a01" ed="Y"/><lb n="0131a01" ed="Y" type="old"/>宗卻稱之為小教，因為事實上，是以小乘聲聞法為主的。從釋迦佛法的顯了邊
 <lb n="0147a02" ed="Y"/><lb n="0131a02" ed="Y" type="old"/>說，雖然如此，如從十方三世一切佛的佛法來說，修學出世法的，確有聲聞、
 <lb n="0147a03" ed="Y"/><lb n="0131a03" ed="Y" type="old"/>緣覺、菩薩的三乘教法。</p>
-<lb n="0147a04" ed="Y"/><lb n="0131a04" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>解脫道遠離，苦樂之二邊：順攝樂行者，在家修法行；順攝苦行者，出家作沙門<lb n="0131a05" ed="Y" type="old"/>。</l></lg></quote>
-<lb n="0147a05" ed="Y"/><lb n="0131a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在佛的聲聞弟子中，也有種種的根性，先說在家與出家的二類。</p>
-<lb n="0147a06" ed="Y"/><lb n="0131a07" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">釋尊的時代，印度社會的風尚，正走上極端的路子。有的是樂行者，就是
+<lb n="0147a04" ed="Y"/><lb n="0131a04" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0147a0401" rend="bold" type="abnormal"><l>解脫道遠離，苦樂之二邊：順攝樂行者，在家修法行；順攝苦行者，出家作沙門<lb n="0131a05" ed="Y" type="old"/>。</l></lg></quote>
+<lb n="0147a05" ed="Y"/><lb n="0131a06" ed="Y" type="old"/><p xml:id="pY12p0147a0501" style="margin-left:1em;text-indent:2em">在佛的聲聞弟子中，也有種種的根性，先說在家與出家的二類。</p>
+<lb n="0147a06" ed="Y"/><lb n="0131a07" ed="Y" type="old"/><p xml:id="pY12p0147a0601" style="margin-left:1em;text-indent:2em">釋尊的時代，印度社會的風尚，正走上極端的路子。有的是樂行者，就是
 <lb n="0147a07" ed="Y"/><lb n="0131a08" ed="Y" type="old"/>縱欲的享樂主義者，這是大多數。大家在物欲的追求中，爭取、享受，為無窮
 <lb n="0147a08" ed="Y"/><lb n="0131a09" ed="Y" type="old"/>的欲望所奴役。最極端的，有庸俗的順世外道，還有性欲崇拜的遍入外道，以
 <lb n="0147a09" ed="Y"/><lb n="0131a10" ed="Y" type="old"/>男女交合為大樂，看作解脫生死的妙法。相反的是苦行者，就是禁欲的克己主
@@ -125,7 +145,7 @@
 <lb n="0148a02" ed="Y"/><lb n="0132a03" ed="Y" type="old"/>所以佛的真<quote type="嚴謹引文">「解脫道」</quote>，是<quote type="嚴謹引文">「遠離」</quote>那<quote type="嚴謹引文">「苦」</quote>行與<quote type="嚴謹引文">「樂」</quote>行<quote type="嚴謹引文">「二邊」</quote>，而保持
 <lb n="0148a03" ed="Y"/><lb n="0132a04" ed="Y" type="old"/>那中道的以智化情的生活——克制自己，而不可戕賊自己；受用維持生存所<lb n="0132a05" ed="Y" type="old"/>必
 <lb n="0148a04" ed="Y"/>須的享受，而不可放縱。唯有這樣，才能引上解脫的正道。</p>
-<lb n="0148a05" ed="Y"/><lb n="0132a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">佛以中道行為正鵠，而當時的根機，是有偏苦、偏樂傾向的。適應這不同
+<lb n="0148a05" ed="Y"/><lb n="0132a06" ed="Y" type="old"/><p xml:id="pY12p0148a0501" style="margin-left:1em;text-indent:2em">佛以中道行為正鵠，而當時的根機，是有偏苦、偏樂傾向的。適應這不同
 <lb n="0148a06" ed="Y"/>的<lb n="0132a07" ed="Y" type="old"/>根性而引導他，所以聲聞弟子，就有在家與出家二類。在家與出家，主要是
 <lb n="0148a07" ed="Y"/>生<lb n="0132a08" ed="Y" type="old"/>活方式的不同。當時，佛為大眾說法，有的聽了法，或者悟了真諦，就自願
 <lb n="0148a08" ed="Y"/>歸<lb n="0132a09" ed="Y" type="old"/>依三寶，作佛的在家弟子。有的聽了法，或者悟了真諦，就自願隨佛出家，
@@ -146,8 +166,8 @@
 <lb n="0149a09" ed="Y"/>，<lb n="0133a10" ed="Y" type="old"/>順樂行的在家也好，順苦行的出家也好，只要有出離心，過著不過分縱欲、
 <lb n="0149a10" ed="Y"/>不<lb n="0133a11" ed="Y" type="old"/>過分苦行的中道生活，都是佛的聲聞弟子。依法修行，都有證得聲聞道果，
 <lb n="0149a11" ed="Y"/>解<lb n="0133a12" ed="Y" type="old"/>脫生死的可能。</p>
-<lb n="0149a12" ed="Y"/><lb n="0133a13" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>此或樂獨住；或樂人間住。</l></lg></quote><pb n="0134a" ed="Y" xml:id="Y12.0012.0134a.old" type="old"/>
-<lb n="0149a13" ed="Y"/><lb n="0134a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在這出家人中，也有不同的根性，表現不同的風格。<quote type="嚴謹引文">「或」</quote>者是愛<quote type="嚴謹引文">「樂獨
+<lb n="0149a12" ed="Y"/><lb n="0133a13" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0149a1201" rend="bold" type="abnormal"><l>此或樂獨住；或樂人間住。</l></lg></quote><pb n="0134a" ed="Y" xml:id="Y12.0012.0134a.old" type="old"/>
+<lb n="0149a13" ed="Y"/><lb n="0134a01" ed="Y" type="old"/><p xml:id="pY12p0149a1301" style="margin-left:1em;text-indent:2em">在這出家人中，也有不同的根性，表現不同的風格。<quote type="嚴謹引文">「或」</quote>者是愛<quote type="嚴謹引文">「樂獨
 <pb n="0150a" ed="Y" xml:id="Y12.0012.0150a"/>
 <lb n="0150a01" ed="Y"/><lb n="0134a02" ed="Y" type="old"/>住」</quote>的，名為無事比丘（阿蘭若比丘）。他們住在山林曠野，塚間住、樹下宿
 <lb n="0150a02" ed="Y"/><lb n="0134a03" ed="Y" type="old"/>，或者是簡陋的草庵。吃的、穿的，都非常清苦。不願與大眾共住，免得人事
@@ -156,14 +176,14 @@
 <lb n="0150a05" ed="Y"/><lb n="0134a06" ed="Y" type="old"/>合共住，不離僧團；大都住在近郊，經常遊行人間，隨緣在人間教化。雖還是
 <lb n="0150a06" ed="Y"/><lb n="0134a07" ed="Y" type="old"/>一樣的精勤修行，但過著集體生活，與社會保持密切聯繫。佛教的發展，主要
 <lb n="0150a07" ed="Y"/><lb n="0134a08" ed="Y" type="old"/>是人間比丘的功德。</p>
-<lb n="0150a08" ed="Y"/><lb n="0134a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">如釋尊常與弟子共住，遊行各國，教化眾生，是人間比丘的榜樣。佛也曾
+<lb n="0150a08" ed="Y"/><lb n="0134a09" ed="Y" type="old"/><p xml:id="pY12p0150a0801" style="margin-left:1em;text-indent:2em">如釋尊常與弟子共住，遊行各國，教化眾生，是人間比丘的榜樣。佛也曾
 <lb n="0150a09" ed="Y"/><lb n="0134a10" ed="Y" type="old"/>獨處三月，修習安那般那，便是獨住的榜樣。依佛法的真意義來說，獨住，是
 <lb n="0150a10" ed="Y"/><lb n="0134a11" ed="Y" type="old"/>要內心離煩惱而住；否則怎麼安靜的環境，也還是妄想散亂。反之，如心地安
 <lb n="0150a11" ed="Y"/><lb n="0134a12" ed="Y" type="old"/>靜解脫，獨住也得，大眾住而人間遊化也得。但在學者的根性偏好中，顯出二
 <lb n="0150a12" ed="Y"/><lb n="0134a13" ed="Y" type="old"/>大類不同；這也近於獨覺與聲聞的不同風格。</p><pb n="0135a" ed="Y" xml:id="Y12.0012.0135a.old" type="old"/>
-<lb n="0150a13" ed="Y"/><lb n="0135a01" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>或是隨信行；或是隨法行。</l></lg></quote>
+<lb n="0150a13" ed="Y"/><lb n="0135a01" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0150a1301" rend="bold" type="abnormal"><l>或是隨信行；或是隨法行。</l></lg></quote>
 <pb n="0151a" ed="Y" xml:id="Y12.0012.0151a"/>
-<lb n="0151a01" ed="Y"/><lb n="0135a02" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">這又是兩大類的根性不同，是通於在家、出家的。在聲聞弟子中，<quote type="嚴謹引文">「或是
+<lb n="0151a01" ed="Y"/><lb n="0135a02" ed="Y" type="old"/><p xml:id="pY12p0151a0101" style="margin-left:1em;text-indent:2em">這又是兩大類的根性不同，是通於在家、出家的。在聲聞弟子中，<quote type="嚴謹引文">「或是
 <lb n="0151a02" ed="Y"/>隨<lb n="0135a03" ed="Y" type="old"/>信行」</quote>的，是鈍根；<quote type="嚴謹引文">「或是隨法行」</quote>的，是利根。信與智，是學佛所不可缺
 <lb n="0151a03" ed="Y"/>少<lb n="0135a04" ed="Y" type="old"/>的功德。有信又有智，是佛法與外道（基督教等）的最大差別。信是情意的
 <lb n="0151a04" ed="Y"/>，<lb n="0135a05" ed="Y" type="old"/>智是理性的，學佛的要使這二者，平衡進展到融和。因為<quote type="嚴謹引文">『無慧之信，增長
@@ -171,7 +191,7 @@
 <lb n="0151a06" ed="Y"/>有<lb n="0135a07" ed="Y" type="old"/>是重信的，一切以信為前提而進修的；有是重智的，一切以智為前提而進修
 <lb n="0151a07" ed="Y"/>的<lb n="0135a08" ed="Y" type="old"/>。所以雖然究竟的目標一致，但下手時，信與智不免偏重，形成了佛弟子的
 <lb n="0151a08" ed="Y"/>二<lb n="0135a09" ed="Y" type="old"/>大類。</p>
-<lb n="0151a09" ed="Y"/><lb n="0135a10" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">『行』，是由於一向的慣習而造成特性的意思，如『貪行』、『瞋行』等
+<lb n="0151a09" ed="Y"/><lb n="0135a10" ed="Y" type="old"/><p xml:id="pY12p0151a0901" style="margin-left:1em;text-indent:2em">『行』，是由於一向的慣習而造成特性的意思，如『貪行』、『瞋行』等
 <lb n="0151a10" ed="Y"/><lb n="0135a11" ed="Y" type="old"/>。所以，隨信行是個性慣習於信順，一切隨信心而轉的。這類根性，如遇到了
 <lb n="0151a11" ed="Y"/><lb n="0135a12" ed="Y" type="old"/>佛法，師長只要叫他怎麼做去就得了。他並不想追求所以然，怎麼說，就怎麼
 <lb n="0151a12" ed="Y"/><lb n="0135a13" ed="Y" type="old"/>信、怎麼行。這類根性，切勿給他詳細開示，說多了不但不感需要，有的反而<pb n="0136a" ed="Y" xml:id="Y12.0012.0136a.old" type="old"/>
@@ -183,12 +203,12 @@
 <lb n="0152a04" ed="Y"/><lb n="0136a05" ed="Y" type="old"/>，這才深信不疑，精進修學。這類的根機是利根，因為法行人更有引導人進<lb n="0136a06" ed="Y" type="old"/>修
 <lb n="0152a05" ed="Y"/>的能力。這二類根性，都是信智不離的，但不免偏重。不但初學的如此，就<lb n="0136a07" ed="Y" type="old"/>是
 <lb n="0152a06" ed="Y"/>證了果，也還是個性不同的。</p>
-<lb n="0152a07" ed="Y"/><lb n="0136a08" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>雖復種種性，同修出離行。</l></lg></quote>
-<lb n="0152a08" ed="Y"/><lb n="0136a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">上面說到，發出離心的，有聲聞、緣覺、菩薩，有在家的、出家的，有獨
+<lb n="0152a07" ed="Y"/><lb n="0136a08" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0152a0701" rend="bold" type="abnormal"><l>雖復種種性，同修出離行。</l></lg></quote>
+<lb n="0152a08" ed="Y"/><lb n="0136a09" ed="Y" type="old"/><p xml:id="pY12p0152a0801" style="margin-left:1em;text-indent:2em">上面說到，發出離心的，有聲聞、緣覺、菩薩，有在家的、出家的，有獨
 <lb n="0152a09" ed="Y"/><lb n="0136a10" ed="Y" type="old"/>住的、人間住的，有信行人、法行人。<quote type="嚴謹引文">「雖」</quote>然有這<quote type="嚴謹引文">「種種」</quote>不同的根<quote type="嚴謹引文">「性」</quote>
 <lb n="0152a10" ed="Y"/><lb n="0136a11" ed="Y" type="old"/>，表現的風格不同，只要他真能發起出離心，就<quote type="嚴謹引文">「同」</quote>樣的能<quote type="嚴謹引文">「修出離行」</quote>，
 <lb n="0152a11" ed="Y"/><lb n="0136a12" ed="Y" type="old"/>達到解脫生死的目的。</p>
-<lb n="0152a12" ed="Y"/><lb n="0136a13" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">一般人，總以自己的個性、自己的偏好去衡量一切，而不知學佛（這還是<pb n="0137a" ed="Y" xml:id="Y12.0012.0137a.old" type="old"/>
+<lb n="0152a12" ed="Y"/><lb n="0136a13" ed="Y" type="old"/><p xml:id="pY12p0152a1201" style="margin-left:1em;text-indent:2em">一般人，總以自己的個性、自己的偏好去衡量一切，而不知學佛（這還是<pb n="0137a" ed="Y" xml:id="Y12.0012.0137a.old" type="old"/>
 <lb n="0152a13" ed="Y"/><lb n="0137a01" ed="Y" type="old"/>共三乘的）是有不同類型的。這才重信的，把專究法義的法行人看作不修行<lb n="0137a02" ed="Y" type="old"/>，
 <pb n="0153a" ed="Y" xml:id="Y12.0012.0153a"/>
 <lb n="0153a01" ed="Y"/>而自己才是利根；重視慧解的，把重信者的信行看作盲修瞎鍊（這可能是<lb n="0137a03" ed="Y" type="old"/>盲修
@@ -201,8 +221,8 @@
 <lb n="0153a08" ed="Y"/>天下，或者攝受徒眾、爭取信眾，造成與佛法無關的派系惡果。也許<lb n="0137a10" ed="Y" type="old"/>做在家弟
 <lb n="0153a09" ed="Y"/>子，還適當得多，可以多修集些功德呢！總之，學佛是有不同根性、<lb n="0137a11" ed="Y" type="old"/>不同風格
 <lb n="0153a10" ed="Y"/>的，所以應尊重別人，更應該認識自己。</p>
-<lb n="0153a11" ed="Y"/><lb n="0137a12" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>佛說解脫道，四諦與緣起，甚深諸佛法，由是而顯示。</l></lg></quote>
-<lb n="0153a12" ed="Y"/><lb n="0137a13" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">先來說明出世三乘共法的總綱。<quote type="嚴謹引文">「佛說」</quote>的法門，雖然是隨機說法，無量<pb n="0138a" ed="Y" xml:id="Y12.0012.0138a.old" type="old"/>
+<lb n="0153a11" ed="Y"/><lb n="0137a12" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0153a1101" rend="bold" type="abnormal"><l>佛說解脫道，四諦與緣起，甚深諸佛法，由是而顯示。</l></lg></quote>
+<lb n="0153a12" ed="Y"/><lb n="0137a13" ed="Y" type="old"/><p xml:id="pY12p0153a1201" style="margin-left:1em;text-indent:2em">先來說明出世三乘共法的總綱。<quote type="嚴謹引文">「佛說」</quote>的法門，雖然是隨機說法，無量<pb n="0138a" ed="Y" xml:id="Y12.0012.0138a.old" type="old"/>
 <lb n="0153a13" ed="Y"/><lb n="0138a01" ed="Y" type="old"/>無邊，但歸結起來，所說的<quote type="嚴謹引文">「解脫道」</quote>，不外乎<quote type="嚴謹引文">「四諦與緣起」</quote>法門。離開了
 <pb n="0154a" ed="Y" xml:id="Y12.0012.0154a"/>
 <lb n="0154a01" ed="Y"/><lb n="0138a02" ed="Y" type="old"/>這，是沒有出世佛法的。諦，是不顛倒，所以也有確實的意思。佛的出世法門
@@ -219,15 +239,15 @@
 <lb n="0154a12" ed="Y"/>、發生的。所以可從因緣的改變中，使它消解而達到解脫，這就是滅<pb n="0139a" ed="Y" xml:id="Y12.0012.0139a.old" type="old"/>、<lb n="0139a01" ed="Y" type="old"/>道二諦
 <lb n="0154a13" ed="Y"/>。所以，在下文的說明中，以四諦為綱，而同時說明了緣起法門。</p>
 <pb n="0155a" ed="Y" xml:id="Y12.0012.0155a"/>
-<lb n="0155a01" ed="Y"/><lb n="0139a02" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">一般以為：四諦與緣起，是小乘法。不知大乘的<quote type="嚴謹引文">「甚深諸佛法」</quote>，也都是
+<lb n="0155a01" ed="Y"/><lb n="0139a02" ed="Y" type="old"/><p xml:id="pY12p0155a0101" style="margin-left:1em;text-indent:2em">一般以為：四諦與緣起，是小乘法。不知大乘的<quote type="嚴謹引文">「甚深諸佛法」</quote>，也都是
 <lb n="0155a02" ed="Y"/><lb n="0139a03" ed="Y" type="old"/><quote type="嚴謹引文">「由是而顯示」</quote>出來的。約偏重的意義說：小乘法著重於苦與集的說明；大乘
 <lb n="0155a03" ed="Y"/><lb n="0139a04" ed="Y" type="old"/>法著重於滅與道，特別是滅的說明。就以大乘的中觀及瑜伽二宗來說，中觀者
 <lb n="0155a04" ed="Y"/><lb n="0139a05" ed="Y" type="old"/>對於空性，瑜伽者對於緣起，都不曾離開了四諦與緣起一步。經上說得好（<title level="m">《
 <lb n="0155a05" ed="Y"/><lb n="0139a06" ed="Y" type="old"/>勝鬘經》</title>）：小乘是有量的四諦、有作的四諦；大乘是無量的四諦、無作的四
 <lb n="0155a06" ed="Y"/><lb n="0139a07" ed="Y" type="old"/>諦。又說（<title level="m">《涅槃經》</title>）：下智觀緣起，得聲聞菩提；……上上智觀緣起，得
 <lb n="0155a07" ed="Y"/><lb n="0139a08" ed="Y" type="old"/>佛菩提。佛法不出四諦與緣起法門，只是證悟的偏圓、教說的淺深而已。</p>
-<lb n="0155a08" ed="Y"/><lb n="0139a09" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>苦集與滅道，是謂四聖諦。</l></lg></quote>
-<lb n="0155a09" ed="Y"/><lb n="0139a10" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">四諦，就是<quote type="嚴謹引文">「苦集與滅道」</quote>。這四者，經中稱為<quote type="嚴謹引文">「四聖諦」</quote>。人人都有苦
+<lb n="0155a08" ed="Y"/><lb n="0139a09" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0155a0801" rend="bold" type="abnormal"><l>苦集與滅道，是謂四聖諦。</l></lg></quote>
+<lb n="0155a09" ed="Y"/><lb n="0139a10" ed="Y" type="old"/><p xml:id="pY12p0155a0901" style="margin-left:1em;text-indent:2em">四諦，就是<quote type="嚴謹引文">「苦集與滅道」</quote>。這四者，經中稱為<quote type="嚴謹引文">「四聖諦」</quote>。人人都有苦
 <lb n="0155a10" ed="Y"/><lb n="0139a11" ed="Y" type="old"/>惱，人人都有煩惱（集），為什麼偏說四聖諦呢？從事實來說：苦是人生世間
 <lb n="0155a11" ed="Y"/><lb n="0139a12" ed="Y" type="old"/>的苦迫現實；集是煩惱與從煩惱而來的業力；滅是滅除煩惱，不再生起苦果<lb n="0139a13" ed="Y" type="old"/>；
 <lb n="0155a12" ed="Y"/>道是戒、定、慧，是對治煩惱、通達涅槃的修法。但這些，唯有聖者才能從<pb n="0140a" ed="Y" xml:id="Y12.0012.0140a.old" type="old"/><lb n="0140a01" ed="Y" type="old"/>事
@@ -238,8 +258,8 @@
 <lb n="0156a03" ed="Y"/>無餘道。』</quote></cit>人生世間的苦惱性，煩惱的招集性，涅槃的滅離性，戒、定、慧<lb n="0140a05" ed="Y" type="old"/>的
 <lb n="0156a04" ed="Y"/>對治性、能通（涅槃）性，是確實的、必然的、絕對的，唯有聖者才能深切<lb n="0140a06" ed="Y" type="old"/>體
 <lb n="0156a05" ed="Y"/>悟到<quote type="嚴謹引文">，『決定無疑』</quote>，所以叫做四聖諦。</p>
-<lb n="0156a06" ed="Y"/><lb n="0140a07" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>苦者求不得，怨會愛別離，生老與病死，總由五蘊聚。</l></lg></quote>
-<lb n="0156a07" ed="Y"/><lb n="0140a08" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">四諦中，先說苦諦，這是現實的身心世界為我們所應該首先體認的。<quote type="嚴謹引文">「苦
+<lb n="0156a06" ed="Y"/><lb n="0140a07" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0156a0601" rend="bold" type="abnormal"><l>苦者求不得，怨會愛別離，生老與病死，總由五蘊聚。</l></lg></quote>
+<lb n="0156a07" ed="Y"/><lb n="0140a08" ed="Y" type="old"/><p xml:id="pY12p0156a0701" style="margin-left:1em;text-indent:2em">四諦中，先說苦諦，這是現實的身心世界為我們所應該首先體認的。<quote type="嚴謹引文">「苦
 <lb n="0156a08" ed="Y"/><lb n="0140a09" ed="Y" type="old"/>」</quote>是逼惱的意思，逼切身心而致困惱不安的。佛曾說了種種苦的分類，但從人
 <lb n="0156a09" ed="Y"/><lb n="0140a10" ed="Y" type="old"/>類的立場來說，最切要的是八苦。一、所<quote type="嚴謹引文">「求不得」</quote>苦：無論是名譽、權位、
 <lb n="0156a10" ed="Y"/><lb n="0140a11" ed="Y" type="old"/>眷屬、財富……，這是人人所希求的，可是卻常常是求之不得。希求而得不到
@@ -256,22 +276,22 @@
 <lb n="0157a07" ed="Y"/>是悲哀的；不知道生了就不能不老，不能不病，不能不死。老、病、死由生<lb n="0141a09" ed="Y" type="old"/>而
 <lb n="0157a08" ed="Y"/>來，那生有什麼可樂呢？生是苦根，老、病、死如枝葉花果一樣。從根芽到<lb n="0141a10" ed="Y" type="old"/>結
 <lb n="0157a09" ed="Y"/>果，都是苦的。</p>
-<lb n="0157a10" ed="Y"/><lb n="0141a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">從我們對外物、對社會、對身心的關係中，分別為七種苦。如推究起來，
+<lb n="0157a10" ed="Y"/><lb n="0141a11" ed="Y" type="old"/><p xml:id="pY12p0157a1001" style="margin-left:1em;text-indent:2em">從我們對外物、對社會、對身心的關係中，分別為七種苦。如推究起來，
 <lb n="0157a11" ed="Y"/><lb n="0141a12" ed="Y" type="old"/>這些苦，<quote type="嚴謹引文">「總」</quote>是<quote type="嚴謹引文">「由」</quote>於<quote type="嚴謹引文">「五蘊聚」</quote>而有。五蘊，是五類（五聚）不同的事
 <lb n="0157a12" ed="Y"/><lb n="0141a13" ed="Y" type="old"/>素，也就是我們身心的總和。這五蘊自身，存在著一切苦痛的癥結；在對外物<pb n="0142a" ed="Y" xml:id="Y12.0012.0142a.old" type="old"/>
 <lb n="0157a13" ed="Y"/><lb n="0142a01" ed="Y" type="old"/>、對社會、對身心，就不能免於上說的七苦。我們所以有一切問題、一切苦惱
 <pb n="0158a" ed="Y" xml:id="Y12.0012.0158a"/>
 <lb n="0158a01" ed="Y"/><lb n="0142a02" ed="Y" type="old"/>，並不是別的，只是因為有了這個五蘊——身心自體。五（取）蘊是苦惱的總
 <lb n="0158a02" ed="Y"/><lb n="0142a03" ed="Y" type="old"/>體，與前各別的七苦，合稱為八苦。</p>
-<lb n="0158a03" ed="Y"/><lb n="0142a04" ed="Y" type="old"/><p cb:type="pre">　　　　　　　　　┌─對外物所引起的───所求不得苦
+<lb n="0158a03" ed="Y"/><lb n="0142a04" ed="Y" type="old"/><p cb:type="pre" xml:id="pY12p0158a0301">　　　　　　　　　┌─對外物所引起的───所求不得苦
 <lb n="0158a04" ed="Y"/>　　　　　　　　　│　　　　　　　　　┌─怨憎聚會苦
 <lb n="0158a05" ed="Y"/>　　　　五取蘊苦─┼─對社會所引起的─┴─恩愛別離苦
 <lb n="0158a06" ed="Y"/>　　　　　　　　　│　　　　　　　　　┌─生苦
 <lb n="0158a07" ed="Y"/>　　　　　　　　　└─對身心所引起的─┤　老苦
 <lb n="0158a08" ed="Y"/>　　　　　　　　　　　　　　　　　　　│　病苦
 <lb n="0158a09" ed="Y"/>　　　　　　　　　　　　　　　　　　　└─死苦</p>
-<lb n="0158a10" ed="Y"/><lb n="0142a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>所謂五蘊者，色受想行識，取識處處住，染著不能離。</l></lg></quote>
-<lb n="0158a11" ed="Y"/><lb n="0142a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">上文<quote type="嚴謹引文">「所」</quote>說的<quote type="嚴謹引文">「五蘊」</quote>，是五類不同的事素。同類相聚，每一類都包括
+<lb n="0158a10" ed="Y"/><lb n="0142a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0158a1001" rend="bold" type="abnormal"><l>所謂五蘊者，色受想行識，取識處處住，染著不能離。</l></lg></quote>
+<lb n="0158a11" ed="Y"/><lb n="0142a12" ed="Y" type="old"/><p xml:id="pY12p0158a1101" style="margin-left:1em;text-indent:2em">上文<quote type="嚴謹引文">「所」</quote>說的<quote type="嚴謹引文">「五蘊」</quote>，是五類不同的事素。同類相聚，每一類都包括
 <lb n="0158a12" ed="Y"/><lb n="0142a13" ed="Y" type="old"/>了很多的事素，所以叫蘊，蘊就是聚集的意思。佛說到苦諦，每約五蘊來說。
 <lb n="0158a13" ed="Y"/><lb n="0142a14" ed="Y" type="old"/>經中曾說：五蘊像五個拔刀的賊，這正是使眾生苦迫，而無法逃脫魔區的東西<pb n="0143a" ed="Y" xml:id="Y12.0012.0143a.old" type="old"/>
 <pb n="0159a" ed="Y" xml:id="Y12.0012.0159a"/>
@@ -294,7 +314,7 @@
 <lb n="0160a03" ed="Y"/>是<lb n="0144a03" ed="Y" type="old"/>能識的統覺。色是物質的，受、想、行、識是精神的；輪迴在生死中的眾生
 <lb n="0160a04" ed="Y"/>，就是這<lb n="0144a04" ed="Y" type="old"/>五蘊。我們所自以為是我，或是我的，其實都離不了五蘊，不外乎身
 <lb n="0160a05" ed="Y"/>心的活動<lb n="0144a05" ed="Y" type="old"/>，物質與精神而已。</p>
-<lb n="0160a06" ed="Y"/><lb n="0144a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">眾生的五蘊，叫五取蘊，因為是從過去的取——煩惱而招感來的。從取煩
+<lb n="0160a06" ed="Y"/><lb n="0144a06" ed="Y" type="old"/><p xml:id="pY12p0160a0601" style="margin-left:1em;text-indent:2em">眾生的五蘊，叫五取蘊，因為是從過去的取——煩惱而招感來的。從取煩
 <lb n="0160a07" ed="Y"/><lb n="0144a07" ed="Y" type="old"/>惱而生的，本質上已免不了苦痛。而現在有了這五取蘊，由於取煩惱的妄想執
 <lb n="0160a08" ed="Y"/><lb n="0144a08" ed="Y" type="old"/>著，所以又苦上加苦。佛說有『四識住』法門：我們的<quote type="嚴謹引文">「取識」</quote>（與煩惱相應
 <lb n="0160a09" ed="Y"/><lb n="0144a09" ed="Y" type="old"/>的識），是不能沒有境界的。取識的境界，不外乎四事：物質的色；情緒的受
@@ -308,8 +328,8 @@
 <lb n="0161a03" ed="Y"/>，<lb n="0145a03" ed="Y" type="old"/>或瀕臨死亡的邊緣，那就會感到無比的痛苦。這因為你染著他，看作自己或
 <lb n="0161a04" ed="Y"/>自<lb n="0145a04" ed="Y" type="old"/>己的。取識的對境染著，正像陷身於網羅或荊棘叢中一樣。總之，識是能住
 <lb n="0161a05" ed="Y"/>著<lb n="0145a05" ed="Y" type="old"/>的，色、受、想、行是所住著的；總合為五蘊，就是一切苦痛的總匯。</p>
-<lb n="0161a06" ed="Y"/><lb n="0145a06" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>此復由六處，取境而生識。</l></lg></quote>
-<lb n="0161a07" ed="Y"/><lb n="0145a07" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">眾生的身心自體，就是苦惱的總聚。除了五蘊的開示而外，佛又有六處說
+<lb n="0161a06" ed="Y"/><lb n="0145a06" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0161a0601" rend="bold" type="abnormal"><l>此復由六處，取境而生識。</l></lg></quote>
+<lb n="0161a07" ed="Y"/><lb n="0145a07" ed="Y" type="old"/><p xml:id="pY12p0161a0701" style="margin-left:1em;text-indent:2em">眾生的身心自體，就是苦惱的總聚。除了五蘊的開示而外，佛又有六處說
 <lb n="0161a08" ed="Y"/><lb n="0145a08" ed="Y" type="old"/>（又十二處）、六界說（又十八界）。所以<quote type="嚴謹引文">「此」</quote>苦聚，<quote type="嚴謹引文">「復由六處」</quote>來開示
 <lb n="0161a09" ed="Y"/><lb n="0145a09" ed="Y" type="old"/>。六處，是眼處、耳處、鼻處、舌處、身處、意處。六處又叫六根，都是『生
 <lb n="0161a10" ed="Y"/><lb n="0145a10" ed="Y" type="old"/>長』的意義。六處是身心自體的又一分類，說明了由此六根門，攝取境界，發
@@ -320,13 +340,13 @@
 <lb n="0162a01" ed="Y"/><lb n="0146a01" ed="Y" type="old"/>心識的源泉。眾生的認識，是不能離開六處而成立的。六根能攝取六種境界，
 <lb n="0162a02" ed="Y"/><lb n="0146a02" ed="Y" type="old"/>就是色、聲、香、味、觸、法。依六根門而攝<quote type="嚴謹引文">「取」</quote>六<quote type="嚴謹引文">「境」</quote>，就能發<quote type="嚴謹引文">「生」</quote>
 <lb n="0162a03" ed="Y"/><lb n="0146a03" ed="Y" type="old"/>六<quote type="嚴謹引文">「識」</quote>：眼識、耳識、鼻識、舌識、身識、意識。</p>
-<lb n="0162a04" ed="Y"/><lb n="0146a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">六識是依六根而發生的，六根是增上緣；也是緣六境而發生的，六境是所
+<lb n="0162a04" ed="Y"/><lb n="0146a04" ed="Y" type="old"/><p xml:id="pY12p0162a0401" style="margin-left:1em;text-indent:2em">六識是依六根而發生的，六根是增上緣；也是緣六境而發生的，六境是所
 <lb n="0162a05" ed="Y"/><lb n="0146a05" ed="Y" type="old"/>緣緣。因為根與境對了別的識來說，都有生長的作用，所以也可以總合六根<lb n="0146a06" ed="Y" type="old"/>、
 <lb n="0162a06" ed="Y"/>六境，名為十二處。不過從眾生的身心自體來說，經中大都著重眼等六處。<lb n="0146a07" ed="Y" type="old"/>六
 <lb n="0162a07" ed="Y"/>處為根門，這才取六境而生六識。等到六識起來，不但是了別境界，而且是<lb n="0146a08" ed="Y" type="old"/>煩
 <lb n="0162a08" ed="Y"/>惱相應，取著境界。取著境界，這個自心身體，就陷在苦痛的深淵了！</p>
-<lb n="0162a09" ed="Y"/><lb n="0146a09" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>或六界和合，世間苦唯爾。</l></lg></quote>
-<lb n="0162a10" ed="Y"/><lb n="0146a10" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">對於苦聚的身心自體，佛<quote type="嚴謹引文">「或」</quote>著重於物質的分類，而說<quote type="嚴謹引文">「六界和合」</quote>。
+<lb n="0162a09" ed="Y"/><lb n="0146a09" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0162a0901" rend="bold" type="abnormal"><l>或六界和合，世間苦唯爾。</l></lg></quote>
+<lb n="0162a10" ed="Y"/><lb n="0146a10" ed="Y" type="old"/><p xml:id="pY12p0162a1001" style="margin-left:1em;text-indent:2em">對於苦聚的身心自體，佛<quote type="嚴謹引文">「或」</quote>著重於物質的分類，而說<quote type="嚴謹引文">「六界和合」</quote>。
 <lb n="0162a11" ed="Y"/><lb n="0146a11" ed="Y" type="old"/>如說：<quote type="嚴謹引文">『四大圍空，有識在中，數名為人。』</quote>六界，是六類，是構成眾生自體
 <lb n="0162a12" ed="Y"/><lb n="0146a12" ed="Y" type="old"/>的六項因素；界是種類或因素的意義。六界是：地界、水界、火界、風界、空
 <lb n="0162a13" ed="Y"/><lb n="0146a13" ed="Y" type="old"/>界、識界；也叫六大。地、水、火、風四（大）界，是物質特性的分類，意義<pb n="0147a" ed="Y" xml:id="Y12.0012.0147a.old" type="old"/>
@@ -336,24 +356,24 @@
 <lb n="0163a03" ed="Y"/><lb n="0147a03" ed="Y" type="old"/>。空界，是空間。如臟腑中空隙，眼耳鼻口等空隙，以及周身毛孔，都是空界
 <lb n="0163a04" ed="Y"/><lb n="0147a04" ed="Y" type="old"/>。換言之，物質的身體，是充滿空隙的。識界，就是了別、取著的六識。有了
 <lb n="0163a05" ed="Y"/>這<lb n="0147a05" ed="Y" type="old"/>六種因素，就成為眾生。</p>
-<lb n="0163a06" ed="Y"/><lb n="0147a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">眾生成就的身心自體，經上每說<quote type="寬鬆引文">『得蘊，得界，得處』</quote>，這是眾生苦聚<lb n="0147a07" ed="Y" type="old"/>的
+<lb n="0163a06" ed="Y"/><lb n="0147a06" ed="Y" type="old"/><p xml:id="pY12p0163a0601" style="margin-left:1em;text-indent:2em">眾生成就的身心自體，經上每說<quote type="寬鬆引文">『得蘊，得界，得處』</quote>，這是眾生苦聚<lb n="0147a07" ed="Y" type="old"/>的
 <lb n="0163a07" ed="Y"/>一切。有了這，就有了生命（約通俗說），也就有了苦迫。這正如老子說的<lb n="0147a08" ed="Y" type="old"/><quote type="寬鬆引文">『
 <lb n="0163a08" ed="Y"/>吾有大患，為吾有身』</quote>。但在外道的思想中，除了這身心現象而外，還有<lb n="0147a09" ed="Y" type="old"/>永恒
 <lb n="0163a09" ed="Y"/>不變的『靈』，或者叫『我』，才是流轉於地獄、人間、天國的主體。其<lb n="0147a10" ed="Y" type="old"/>實，
 <lb n="0163a10" ed="Y"/>這是眾生愚癡的幻想產物。<quote type="嚴謹引文">「世間」</quote>眾生在生死六道中受<quote type="嚴謹引文">「苦」</quote>，苦因苦<lb n="0147a11" ed="Y" type="old"/>果的
 <lb n="0163a11" ed="Y"/>無限延續，更沒有別的，<quote type="嚴謹引文">「唯」</quote>是這蘊、界、處而已。</p>
-<lb n="0163a12" ed="Y"/><lb n="0147a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在佛說苦聚的開示中，一、指出了這是徹底的苦迫性，<quote type="嚴謹引文">『真實是苦，不可
+<lb n="0163a12" ed="Y"/><lb n="0147a12" ed="Y" type="old"/><p xml:id="pY12p0163a1201" style="margin-left:1em;text-indent:2em">在佛說苦聚的開示中，一、指出了這是徹底的苦迫性，<quote type="嚴謹引文">『真實是苦，不可
 <lb n="0163a13" ed="Y"/><lb n="0147a13" ed="Y" type="old"/>令樂』</quote>。如不給以徹底的修治，是沒有任何希望的。二、指出了苦聚的事實，<pb n="0148a" ed="Y" xml:id="Y12.0012.0148a.old" type="old"/>
 <pb n="0164a" ed="Y" xml:id="Y12.0012.0164a"/>
 <lb n="0164a01" ed="Y"/><lb n="0148a01" ed="Y" type="old"/>眾生才能從『靈性』、『真我』的神教迷妄中解脫出來，才有解脫自在的可能
 <lb n="0164a02" ed="Y"/><lb n="0148a02" ed="Y" type="old"/>。修學出世的聖法，這是必要而首先應該深切解了的。</p>
-<lb n="0164a03" ed="Y"/><lb n="0148a03" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>苦生由業集，業集復由惑，發業與潤生，緣會感苦果。</l></lg></quote>
-<lb n="0164a04" ed="Y"/><lb n="0148a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">以下，說明集諦。集，是為因為緣而生起的意思。眾生世間的<quote type="嚴謹引文">「苦」</quote>果，
+<lb n="0164a03" ed="Y"/><lb n="0148a03" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0164a0301" rend="bold" type="abnormal"><l>苦生由業集，業集復由惑，發業與潤生，緣會感苦果。</l></lg></quote>
+<lb n="0164a04" ed="Y"/><lb n="0148a04" ed="Y" type="old"/><p xml:id="pY12p0164a0401" style="margin-left:1em;text-indent:2em">以下，說明集諦。集，是為因為緣而生起的意思。眾生世間的<quote type="嚴謹引文">「苦」</quote>果，
 <lb n="0164a05" ed="Y"/>為<lb n="0148a05" ed="Y" type="old"/>什麼會不斷的<quote type="嚴謹引文">「生」</quote>起呢？這是<quote type="嚴謹引文">「由」</quote>於<quote type="嚴謹引文">「業集」</quote>。業，是為善為惡的行為
 <lb n="0164a06" ed="Y"/>（<lb n="0148a06" ed="Y" type="old"/>表業），又從善惡行為而引起的潛力（無表業）。因業力的積集，苦果就從
 <lb n="0164a07" ed="Y"/>業<lb n="0148a07" ed="Y" type="old"/>力而集起了。但<quote type="嚴謹引文">「業集」</quote>又為什麼生起呢？這是<quote type="嚴謹引文">「由」</quote>於<quote type="嚴謹引文">「惑」</quote>。惑，是迷
 <lb n="0164a08" ed="Y"/>惑<lb n="0148a08" ed="Y" type="old"/>，是煩惱的通稱。因眾生內心的不良因素，煩動惱亂，這才有業的集起。</p>
-<lb n="0164a09" ed="Y"/><lb n="0148a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">說到這，應該了解一個重要的問題。要知道，業力的招感苦果，煩惱是主
+<lb n="0164a09" ed="Y"/><lb n="0148a09" ed="Y" type="old"/><p xml:id="pY12p0164a0901" style="margin-left:1em;text-indent:2em">說到這，應該了解一個重要的問題。要知道，業力的招感苦果，煩惱是主
 <lb n="0164a10" ed="Y"/><lb n="0148a10" ed="Y" type="old"/>要的力量。煩惱對於業，有二種力量。一、<quote type="嚴謹引文">「發業」</quote>力：無論善業或惡業，凡
 <lb n="0164a11" ed="Y"/><lb n="0148a11" ed="Y" type="old"/>能招感生死苦果的，都是由於煩惱直接或間接的引發而起的。所以如斷了煩<lb n="0148a12" ed="Y" type="old"/>惱
 <lb n="0164a12" ed="Y"/>，一切行為就都不成為招感生死的業力。二、<quote type="嚴謹引文">「潤生」</quote>力：業已經造了，<lb n="0148a13" ed="Y" type="old"/>成為
@@ -363,8 +383,8 @@
 <lb n="0165a02" ed="Y"/>切業種就乾枯了，失去了生果的力量。由於煩惱的發業與潤生，在因<quote type="嚴謹引文">「緣<lb n="0149a03" ed="Y" type="old"/>會」</quote>
 <lb n="0165a03" ed="Y"/>合時，才有業種的招<quote type="嚴謹引文">「感苦果」</quote>。所以，一般但說業感，是說得不夠明白<lb n="0149a04" ed="Y" type="old"/>的。
 <lb n="0165a04" ed="Y"/>假如要說業感生死，倒不如說由無明等煩惱而感生死，說得更扼要些。</p>
-<lb n="0165a05" ed="Y"/><lb n="0149a05" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>業有身語意，善惡及不動。業滅如種習，百千劫不失，隨業感生死，不出於三界<lb n="0149a06" ed="Y" type="old"/>。</l></lg></quote>
-<lb n="0165a06" ed="Y"/><lb n="0149a07" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">集諦中，招感生死的業力，在<title level="a">〈五乘共法〉</title>中，已經說到。現在略說<quote type="嚴謹引文">「業
+<lb n="0165a05" ed="Y"/><lb n="0149a05" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0165a0501" rend="bold" type="abnormal"><l>業有身語意，善惡及不動。業滅如種習，百千劫不失，隨業感生死，不出於三界<lb n="0149a06" ed="Y" type="old"/>。</l></lg></quote>
+<lb n="0165a06" ed="Y"/><lb n="0149a07" ed="Y" type="old"/><p xml:id="pY12p0165a0601" style="margin-left:1em;text-indent:2em">集諦中，招感生死的業力，在<title level="a">〈五乘共法〉</title>中，已經說到。現在略說<quote type="嚴謹引文">「業
 <lb n="0165a07" ed="Y"/>有」</quote><lb n="0149a08" ed="Y" type="old"/>二類的三業。一、<quote type="嚴謹引文">「身語意」</quote>三業：這是從業的所依而分類的。身體的動
 <lb n="0165a08" ed="Y"/>作，<lb n="0149a09" ed="Y" type="old"/>或是惡的，如殺生、偷盜等；或是善的，如不殺、不盜等。這不但是一般
 <lb n="0165a09" ed="Y"/>的生<lb n="0149a10" ed="Y" type="old"/>理活動，而是帶有道德或不道德性質的身體動作。這種身體的動作，名為
@@ -382,7 +402,7 @@
 <lb n="0166a07" ed="Y"/>不動業呢<lb n="0150a08" ed="Y" type="old"/>？這是與禪定相應的業。與色或無色定相應的業，當然是善的；但禪
 <lb n="0166a08" ed="Y"/>定的特徵<lb n="0150a09" ed="Y" type="old"/>是不動亂，所以業也叫不動業。這種不動業，能招感色界及無色界的
 <lb n="0166a09" ed="Y"/>生死。因<lb n="0150a10" ed="Y" type="old"/>此，善業與惡業，是專指能感欲界生死的業力而說。</p>
-<lb n="0166a10" ed="Y"/><lb n="0150a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">無論是身、語的動作，或者由此而引起的動能——表業與無表業，依佛法
+<lb n="0166a10" ed="Y"/><lb n="0150a11" ed="Y" type="old"/><p xml:id="pY12p0166a1001" style="margin-left:1em;text-indent:2em">無論是身、語的動作，或者由此而引起的動能——表業與無表業，依佛法
 <lb n="0166a11" ed="Y"/>說<lb n="0150a12" ed="Y" type="old"/>，這都是生滅無常的，剎那就過去了的。<quote type="嚴謹引文">「業」</quote>已剎那<quote type="嚴謹引文">「滅」</quote>而過去了，那
 <lb n="0166a12" ed="Y"/>怎<lb n="0150a13" ed="Y" type="old"/>麼還能招感後果呢？對於這，經中或比喻為<quote type="嚴謹引文">「如種」</quote>子：如草木的開花結子
 <lb n="0166a13" ed="Y"/>，<pb n="0151a" ed="Y" xml:id="Y12.0012.0151a.old" type="old"/><lb n="0151a01" ed="Y" type="old"/>雖然凋謝枯萎了，但種子還會生芽、抽枝而發葉的。或者比喻為如熏<quote type="嚴謹引文">「習」</quote>
@@ -396,15 +416,15 @@
 <lb n="0167a07" ed="Y"/><lb n="0151a08" ed="Y" type="old"/>的存在（當然不是現在），只要遇到因緣的會合，就會招感果報，如能的化而
 <lb n="0167a08" ed="Y"/><lb n="0151a09" ed="Y" type="old"/>為質一樣。假使因緣不和合，業是永久存在的，無論是<quote type="嚴謹引文">「百」</quote>劫、<quote type="嚴謹引文">「千劫」</quote>、
 <lb n="0167a09" ed="Y"/><lb n="0151a10" ed="Y" type="old"/>萬劫、無量數劫，業力<quote type="嚴謹引文">「不」</quote>會<quote type="嚴謹引文">「失」</quote>去，還是會感果的。</p>
-<lb n="0167a10" ed="Y"/><lb n="0151a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">眾生，<quote type="嚴謹引文">「隨」</quote>著不同的<quote type="嚴謹引文">「業」</quote>，招<quote type="嚴謹引文">「感生死」</quote>果報，一生又一生的延續下
+<lb n="0167a10" ed="Y"/><lb n="0151a11" ed="Y" type="old"/><p xml:id="pY12p0167a1001" style="margin-left:1em;text-indent:2em">眾生，<quote type="嚴謹引文">「隨」</quote>著不同的<quote type="嚴謹引文">「業」</quote>，招<quote type="嚴謹引文">「感生死」</quote>果報，一生又一生的延續下
 <lb n="0167a11" ed="Y"/><lb n="0151a12" ed="Y" type="old"/>去，常在五趣中流轉。由於這是煩惱所引發的、煩惱所滋潤的，所以無論業是
 <lb n="0167a12" ed="Y"/><lb n="0151a13" ed="Y" type="old"/>怎樣的善，高尚到什麼地步，終究<quote type="嚴謹引文">「不出於三界」</quote>——欲界、色界、無色界。<pb n="0152a" ed="Y" xml:id="Y12.0012.0152a.old" type="old"/>
 <lb n="0167a13" ed="Y"/><lb n="0152a01" ed="Y" type="old"/>三界，是眾生活動的三大區域。在這三界以內，永久是生死不了。所以出世的
 <pb n="0168a" ed="Y" xml:id="Y12.0012.0168a"/>
 <lb n="0168a01" ed="Y"/><lb n="0152a02" ed="Y" type="old"/>三乘聖法，就是要從根本上消除生死的原因，而不致再受三界生死的繫縛，這
 <lb n="0168a02" ed="Y"/><lb n="0152a03" ed="Y" type="old"/>才能實現佛法大解脫的目標。</p>
-<lb n="0168a03" ed="Y"/><lb n="0152a04" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>煩惱貪瞋癡，不善之根本，癡如醉如迷，瞋重貪過深。</l></lg></quote>
-<lb n="0168a04" ed="Y"/><lb n="0152a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">再說到集諦中的<quote type="嚴謹引文">「煩惱」</quote>。這是內心的不良因素、壞分子。無論是知識的
+<lb n="0168a03" ed="Y"/><lb n="0152a04" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0168a0301" rend="bold" type="abnormal"><l>煩惱貪瞋癡，不善之根本，癡如醉如迷，瞋重貪過深。</l></lg></quote>
+<lb n="0168a04" ed="Y"/><lb n="0152a05" ed="Y" type="old"/><p xml:id="pY12p0168a0401" style="margin-left:1em;text-indent:2em">再說到集諦中的<quote type="嚴謹引文">「煩惱」</quote>。這是內心的不良因素、壞分子。無論是知識的
 <lb n="0168a05" ed="Y"/><lb n="0152a06" ed="Y" type="old"/>、感情的、意志的，凡是不正確、不恰當的，使我們因此而煩動惱亂，引生不
 <lb n="0168a06" ed="Y"/><lb n="0152a07" ed="Y" type="old"/>安定、不和諧、不自在；由此煩惱，造作種種業，更引起未來的苦迫：這都叫
 <lb n="0168a07" ed="Y"/><lb n="0152a08" ed="Y" type="old"/>做煩惱。煩惱是非常複雜的，在煩惱中，<quote type="嚴謹引文">「貪」、「瞋」、「癡」</quote>，是一切<quote type="嚴謹引文">「不
@@ -416,7 +436,7 @@
 <lb n="0168a13" ed="Y"/>性，如<pb n="0153a" ed="Y" xml:id="Y12.0012.0153a.old" type="old"/><lb n="0153a01" ed="Y" type="old"/>貪行人、瞋行人、癡行人。如三類沒有偏重的，就稱為等分行人。更詳
 <pb n="0169a" ed="Y" xml:id="Y12.0012.0169a"/>
 <lb n="0169a01" ed="Y"/>細的，<lb n="0153a02" ed="Y" type="old"/>有『人情凡十九輩』的分類。</p>
-<lb n="0169a02" ed="Y"/><lb n="0153a03" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">煩惱太多，這裡不能廣說，就舉三不善來說吧！一、<quote type="嚴謹引文">「癡」</quote>是愚癡，也叫
+<lb n="0169a02" ed="Y"/><lb n="0153a03" ed="Y" type="old"/><p xml:id="pY12p0169a0201" style="margin-left:1em;text-indent:2em">煩惱太多，這裡不能廣說，就舉三不善來說吧！一、<quote type="嚴謹引文">「癡」</quote>是愚癡，也叫
 <lb n="0169a03" ed="Y"/><lb n="0153a04" ed="Y" type="old"/>無明，從對於真實事理的無所知而得名。但不是說什麼都不知，反而這是知的
 <lb n="0169a04" ed="Y"/><lb n="0153a05" ed="Y" type="old"/>一類，不過是錯誤顛倒，似是而非。<quote type="嚴謹引文">「如醉」</quote>酒，也<quote type="嚴謹引文">「如」</quote>著了<quote type="嚴謹引文">「迷」</quote>的。是
 <lb n="0169a05" ed="Y"/><lb n="0153a06" ed="Y" type="old"/>的看成不是的，不是的卻看作是的；有的以為沒有，沒有的以為是有。不應該
@@ -446,8 +466,8 @@
 <lb n="0171a01" ed="Y"/>法來說，這是凡夫的真面目。庸俗的神教徒，還能想像出超庸俗的真正<lb n="0155a03" ed="Y" type="old"/>道德嗎
 <lb n="0171a02" ed="Y"/>？而且，有了愛染，染著了一切，一切的變動就會牽動自心而引起苦<lb n="0155a04" ed="Y" type="old"/>痛。所以
 <lb n="0171a03" ed="Y"/>佛說：<quote type="寬鬆引文">『愛生則苦生。』</quote></p>
-<lb n="0171a04" ed="Y"/><lb n="0155a05" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>佛攝諸煩惱，見愛慢無明。我我所攝故，死生永相續。</l></lg></quote>
-<lb n="0171a05" ed="Y"/><lb n="0155a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">煩惱的三大分類，可說是專約欲界，尤其是約人類而說。如在色界與無色
+<lb n="0171a04" ed="Y"/><lb n="0155a05" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0171a0401" rend="bold" type="abnormal"><l>佛攝諸煩惱，見愛慢無明。我我所攝故，死生永相續。</l></lg></quote>
+<lb n="0171a05" ed="Y"/><lb n="0155a06" ed="Y" type="old"/><p xml:id="pY12p0171a0501" style="margin-left:1em;text-indent:2em">煩惱的三大分類，可說是專約欲界，尤其是約人類而說。如在色界與無色
 <lb n="0171a06" ed="Y"/><lb n="0155a07" ed="Y" type="old"/>界，瞋恚就不會生起了。所以，<quote type="嚴謹引文">「佛」</quote>在統<quote type="嚴謹引文">「攝」</quote>一切眾生所有的<quote type="嚴謹引文">「諸煩惱」</quote>
 <lb n="0171a07" ed="Y"/><lb n="0155a08" ed="Y" type="old"/>中，又另有<quote type="嚴謹引文">「見」、「愛」、「慢」、「無明」</quote>——四煩惱的分類。這是可從種
 <lb n="0171a08" ed="Y"/>種意義，作<lb n="0155a09" ed="Y" type="old"/>不同解說的。現在略說三義。一、古德稱此為『四無記根』。並非
@@ -469,7 +489,7 @@
 <lb n="0172a10" ed="Y"/>——不染污<lb n="0156a11" ed="Y" type="old"/>無知；如能這也斷盡，那就真正究竟清淨了。三、癡——無明，為
 <lb n="0172a11" ed="Y"/>一切煩惱的<lb n="0156a12" ed="Y" type="old"/>總相。如由此而分別起來，屬於知的謬誤，是見；屬於情的謬誤，
 <lb n="0172a12" ed="Y"/>是愛；屬於<lb n="0156a13" ed="Y" type="old"/>意志的謬誤，是慢。一切煩惱，總不外乎這些。</p><pb n="0157a" ed="Y" xml:id="Y12.0012.0157a.old" type="old"/>
-<lb n="0172a13" ed="Y"/><lb n="0157a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">每一煩惱，都有發業與潤生的功能，也就都有集起生死的力量。但最根本
+<lb n="0172a13" ed="Y"/><lb n="0157a01" ed="Y" type="old"/><p xml:id="pY12p0172a1301" style="margin-left:1em;text-indent:2em">每一煩惱，都有發業與潤生的功能，也就都有集起生死的力量。但最根本
 <pb n="0173a" ed="Y" xml:id="Y12.0012.0173a"/>
 <lb n="0173a01" ed="Y"/><lb n="0157a02" ed="Y" type="old"/>的煩惱，是什麼呢？在四諦的說明中，以愛為主，因為愛是染著而起苦的根本
 <lb n="0173a02" ed="Y"/><lb n="0157a03" ed="Y" type="old"/>。其他經論，總是說：無明為本；我我所見為本。這可以舉一比喻：如人陷身
@@ -494,8 +514,8 @@
 <lb n="0174a07" ed="Y"/>也有因為福盡及橫死的）。但我我所見為本的煩惱，還在發揮它的統攝<lb n="0158a09" ed="Y" type="old"/>凝聚力
 <lb n="0174a08" ed="Y"/>，這才又引發另一業系，展開一新的生命。眾生就是這樣的<quote type="嚴謹引文">「死生」</quote>、<lb n="0158a10" ed="Y" type="old"/>生死，
 <lb n="0174a09" ed="Y"/><quote type="嚴謹引文">「永」</quote>遠的<quote type="嚴謹引文">「相續」</quote>下去，成為流轉生死、茫無了期的現象。</p>
-<lb n="0174a10" ed="Y"/><lb n="0158a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>苦集相鉤纏，死生從緣起，佛說十二支，如城如果樹。</l></lg></quote>
-<lb n="0174a11" ed="Y"/><lb n="0158a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">四諦的苦諦與集諦，已約略說明了。現在要說緣起法門，緣起就是集苦相
+<lb n="0174a10" ed="Y"/><lb n="0158a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0174a1001" rend="bold" type="abnormal"><l>苦集相鉤纏，死生從緣起，佛說十二支，如城如果樹。</l></lg></quote>
+<lb n="0174a11" ed="Y"/><lb n="0158a12" ed="Y" type="old"/><p xml:id="pY12p0174a1101" style="margin-left:1em;text-indent:2em">四諦的苦諦與集諦，已約略說明了。現在要說緣起法門，緣起就是集苦相
 <lb n="0174a12" ed="Y"/><lb n="0158a13" ed="Y" type="old"/>生的豎的說明。要知道，不只是由集而生苦，苦也是能起集的。如眾生在感到<pb n="0159a" ed="Y" xml:id="Y12.0012.0159a.old" type="old"/>
 <lb n="0174a13" ed="Y"/><lb n="0159a01" ed="Y" type="old"/>了生的苦報後，依此業感的身心苦果，又有煩惱與業的活動。所以，<quote type="嚴謹引文">「苦」</quote>與
 <pb n="0175a" ed="Y" xml:id="Y12.0012.0175a"/>
@@ -509,7 +529,7 @@
 <lb n="0175a08" ed="Y"/>產物。所以，佛說生死無始。拿苦與集來說：苦從集生，而集又依苦而起，<lb n="0159a10" ed="Y" type="old"/>一
 <lb n="0175a09" ed="Y"/>向是這樣的展轉相續。如從一點鐘而到十二點，又從十二點而到一點鐘，不<lb n="0159a11" ed="Y" type="old"/>能
 <lb n="0175a10" ed="Y"/>說最初從何而起一樣。生死的無始相續，就是從緣起的正見中發現出來。</p>
-<lb n="0175a11" ed="Y"/><lb n="0159a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「佛說」</quote>緣起，因隨機不同，所以有不同的開示。<quote type="嚴謹引文">「十二支」</quote>說，只是說
+<lb n="0175a11" ed="Y"/><lb n="0159a12" ed="Y" type="old"/><p xml:id="pY12p0175a1101" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「佛說」</quote>緣起，因隨機不同，所以有不同的開示。<quote type="嚴謹引文">「十二支」</quote>說，只是說
 <lb n="0175a12" ed="Y"/><lb n="0159a13" ed="Y" type="old"/>得更完備些，成為佛教緣起說的典型而已。如說集與苦，也是緣起。或說三支<pb n="0160a" ed="Y" xml:id="Y12.0012.0160a.old" type="old"/>
 <lb n="0175a13" ed="Y"/><lb n="0160a01" ed="Y" type="old"/>：煩惱、業、苦。從煩惱起業，由業感苦果，又依苦果而生起煩惱。或說五支
 <pb n="0176a" ed="Y" xml:id="Y12.0012.0176a"/>
@@ -528,13 +548,13 @@
 <lb n="0176a13" ed="Y"/><lb n="0161a01" ed="Y" type="old"/>。雖然在前的不就是後來的，卻有因果的密切關係。種果相生，一直延續下來
 <pb n="0177a" ed="Y" xml:id="Y12.0012.0177a"/>
 <lb n="0177a01" ed="Y"/><lb n="0161a02" ed="Y" type="old"/>，拿這作為生死緣起相續的比喻，是最親切不過的。</p>
-<lb n="0177a02" ed="Y"/><lb n="0161a03" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>無明之所覆，愛結之所繫，有識身相續，相續而不已。</l></lg></quote>
-<lb n="0177a03" ed="Y"/><lb n="0161a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">緣起支的敘述，很多是從識支開始的，所以經說：<quote type="嚴謹引文">『齊識而還，不能過彼</quote>
+<lb n="0177a02" ed="Y"/><lb n="0161a03" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0177a0201" rend="bold" type="abnormal"><l>無明之所覆，愛結之所繫，有識身相續，相續而不已。</l></lg></quote>
+<lb n="0177a03" ed="Y"/><lb n="0161a04" ed="Y" type="old"/><p xml:id="pY12p0177a0301" style="margin-left:1em;text-indent:2em">緣起支的敘述，很多是從識支開始的，所以經說：<quote type="嚴謹引文">『齊識而還，不能過彼</quote>
 <lb n="0177a04" ed="Y"/><lb n="0161a05" ed="Y" type="old"/>。』可是，在識支以前，有的又加上無明與行二支，成為十二支。在<title level="m">《阿含經
 <lb n="0177a05" ed="Y"/><lb n="0161a06" ed="Y" type="old"/>》</title>中，一再說：<quote type="嚴謹引文">『無明覆，愛緣繫，得此識身。』<note n="0177001" resp="厚觀法師" type="add">《雜阿含經》卷12(CBETA, T02, no. 99, p. 83, c25)</note></quote>無明、愛（行）、識三者，
 <lb n="0177a06" ed="Y"/><lb n="0161a07" ed="Y" type="old"/>可以看作完整的、獨立的緣起說。等到與識支以下相綜合，才成為十二支的。
 <lb n="0177a07" ed="Y"/><lb n="0161a08" ed="Y" type="old"/>現在，先從這三支自成系統的意義來說。</p>
-<lb n="0177a08" ed="Y"/><lb n="0161a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「無明」</quote><quote type="嚴謹引文">「所覆」</quote>，<quote type="嚴謹引文">「愛結」</quote><quote type="嚴謹引文">「所繫」</quote>，在上面的譬喻中說過。生死流轉
+<lb n="0177a08" ed="Y"/><lb n="0161a09" ed="Y" type="old"/><p xml:id="pY12p0177a0801" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「無明」</quote><quote type="嚴謹引文">「所覆」</quote>，<quote type="嚴謹引文">「愛結」</quote><quote type="嚴謹引文">「所繫」</quote>，在上面的譬喻中說過。生死流轉
 <lb n="0177a09" ed="Y"/><lb n="0161a10" ed="Y" type="old"/>，如陷身在棘藤深草叢中，眼目又被蒙住，不能脫離一樣。無明，是知的迷謬
 <lb n="0177a10" ed="Y"/><lb n="0161a11" ed="Y" type="old"/>錯亂，所以像布物的蒙蔽了眼目。經上說：<quote type="嚴謹引文">『真義心當生，常能為障礙，俱行
 <lb n="0177a11" ed="Y"/><lb n="0161a12" ed="Y" type="old"/>一切分，謂不共無明。』</quote>無明確是對於通達真實義的智慧，起著蒙蔽障礙作用
@@ -547,7 +567,7 @@
 <lb n="0178a04" ed="Y"/>識身，是有取識的結生相續，為一新生命的開始。這樣的無明、愛、識身，<lb n="0162a06" ed="Y" type="old"/>無
 <lb n="0178a05" ed="Y"/>始以來，從過去到現在，現在到未來，一直是這樣的，不斷的<quote type="嚴謹引文">「相續」</quote><quote type="嚴謹引文">「不<lb n="0162a07" ed="Y" type="old"/>已
 <lb n="0178a06" ed="Y"/>」</quote>。</p>
-<lb n="0178a07" ed="Y"/><lb n="0162a08" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在一般的十二支緣起中，第二支是行，行是業的別名。行業，不是別的，
+<lb n="0178a07" ed="Y"/><lb n="0162a08" ed="Y" type="old"/><p xml:id="pY12p0178a0701" style="margin-left:1em;text-indent:2em">在一般的十二支緣起中，第二支是行，行是業的別名。行業，不是別的，
 <lb n="0178a08" ed="Y"/><lb n="0162a09" ed="Y" type="old"/>只是與愛相應的、思心所所發動的行為。所以三事說的無明、愛、識，與十二
 <lb n="0178a09" ed="Y"/><lb n="0162a10" ed="Y" type="old"/>支中的無明、行、識，是可以相通的。如從十二支的立場來說，識是現在這一
 <lb n="0178a10" ed="Y"/><lb n="0162a11" ed="Y" type="old"/>生的開始。拿人來說，就是當父精母血結合時，有識的剎那現起，因而結成有
@@ -559,9 +579,9 @@
 <lb n="0179a02" ed="Y"/><lb n="0163a03" ed="Y" type="old"/>業與潤生的。無明就是煩惱，是以我我所見為攝導的煩惱的總名。這樣，由於
 <lb n="0179a03" ed="Y"/><lb n="0163a04" ed="Y" type="old"/>過去世的煩惱——無明，有過去世的業——行；從過去世的煩惱與行業，才有
 <lb n="0179a04" ed="Y"/><lb n="0163a05" ed="Y" type="old"/>現生的生命開始——識。從無明而行而識，說明了從過去到現在的生死歷程。</p>
-<lb n="0179a05" ed="Y"/><lb n="0163a06" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>緣識有名色，從是有六處，根境相涉觸，從觸生於受，緣受起於愛，愛增則名取
+<lb n="0179a05" ed="Y"/><lb n="0163a06" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0179a0501" rend="bold" type="abnormal"><l>緣識有名色，從是有六處，根境相涉觸，從觸生於受，緣受起於愛，愛增則名取
 <lb n="0179a06" ed="Y"/><lb n="0163a07" ed="Y" type="old"/>，因是集後有，生老死相隨。</l></lg></quote>
-<lb n="0179a07" ed="Y"/><lb n="0163a08" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">十二支中的識，是一期生命的開始。有些經典，從識支說起，這因為：推
+<lb n="0179a07" ed="Y"/><lb n="0163a08" ed="Y" type="old"/><p xml:id="pY12p0179a0701" style="margin-left:1em;text-indent:2em">十二支中的識，是一期生命的開始。有些經典，從識支說起，這因為：推
 <lb n="0179a08" ed="Y"/><lb n="0163a09" ed="Y" type="old"/>求現實的身心活動，到達識的結生相續階段，已到了生死業報識的核心。後代
 <lb n="0179a09" ed="Y"/><lb n="0163a10" ed="Y" type="old"/>唯識學者，以異熟的阿賴耶識為中心，來說明生死雜染的一切，可說是吻合佛
 <lb n="0179a10" ed="Y"/><lb n="0163a11" ed="Y" type="old"/>意的。<quote type="嚴謹引文">「緣」</quote>此結生的<quote type="嚴謹引文">「識」</quote>，就<quote type="嚴謹引文">「有名色」</quote>支的生起。名是心理的，色是生
@@ -572,9 +592,9 @@
 <lb n="0180a01" ed="Y"/><lb n="0164a02" ed="Y" type="old"/>能存在。正像沒有領袖，就不可能有群眾的組織活動；如沒有群眾，領袖也就
 <lb n="0180a02" ed="Y"/><lb n="0164a03" ed="Y" type="old"/>失去了存在的意義。但在十二緣起支中，著重在識緣名色，應解說為：名色是
 <lb n="0180a03" ed="Y"/><lb n="0164a04" ed="Y" type="old"/>精血和合以後，還是肉團的階段。</p>
-<lb n="0180a04" ed="Y"/><lb n="0164a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「從」</quote>此名色而進一步的開展，就生起眼、耳、鼻、舌，加上身、意，<quote type="嚴謹引文">「
+<lb n="0180a04" ed="Y"/><lb n="0164a05" ed="Y" type="old"/><p xml:id="pY12p0180a0401" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「從」</quote>此名色而進一步的開展，就生起眼、耳、鼻、舌，加上身、意，<quote type="嚴謹引文">「
 <lb n="0180a05" ed="Y"/><lb n="0164a06" ed="Y" type="old"/>有」</quote>了<quote type="嚴謹引文">「六處」</quote>的差別，這已到了形成人體形態的階段。</p>
-<lb n="0180a06" ed="Y"/><lb n="0164a07" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">胎中雖有眼耳等根，還不能見色聞聲等。一到出了胎，從此六<quote type="嚴謹引文">「根」</quote>開始
+<lb n="0180a06" ed="Y"/><lb n="0164a07" ed="Y" type="old"/><p xml:id="pY12p0180a0601" style="margin-left:1em;text-indent:2em">胎中雖有眼耳等根，還不能見色聞聲等。一到出了胎，從此六<quote type="嚴謹引文">「根」</quote>開始
 <lb n="0180a07" ed="Y"/><lb n="0164a08" ed="Y" type="old"/>了與六塵<quote type="嚴謹引文">「境」</quote>界<quote type="嚴謹引文">「相」</quote>關<quote type="嚴謹引文">「涉」</quote>的活動，根境相觸而起一般的認識，叫做<quote type="嚴謹引文">「
 <lb n="0180a08" ed="Y"/><lb n="0164a09" ed="Y" type="old"/>觸」</quote>。根、境、識三者，因觸而和合，也可說因三者的和合而有觸。認識開始
 <lb n="0180a09" ed="Y"/>，就<lb n="0164a10" ed="Y" type="old"/>到了重要的關頭。在觸對境界時，首先發生了合意的，或不合意的，或非
@@ -584,32 +604,32 @@
 <lb n="0180a13" ed="Y"/>。佛<pb n="0165a" ed="Y" xml:id="Y12.0012.0165a.old" type="old"/><lb n="0165a01" ed="Y" type="old"/>所以教誡弟子，要『守護根門』。在根境相觸時，如有智慧的觀照，就稱
 <pb n="0181a" ed="Y" xml:id="Y12.0012.0181a"/>
 <lb n="0181a01" ed="Y"/>為『<lb n="0165a02" ed="Y" type="old"/>明相應觸』，那就能從此透出，裂破十二緣起的連鎖。</p>
-<lb n="0181a02" ed="Y"/><lb n="0165a03" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「從觸」</quote>的可意或不可意，當下就能<quote type="嚴謹引文">「生於受」</quote>。可意的，起喜受、樂受
+<lb n="0181a02" ed="Y"/><lb n="0165a03" ed="Y" type="old"/><p xml:id="pY12p0181a0201" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「從觸」</quote>的可意或不可意，當下就能<quote type="嚴謹引文">「生於受」</quote>。可意的，起喜受、樂受
 <lb n="0181a03" ed="Y"/>；<lb n="0165a04" ed="Y" type="old"/>不可意的，起苦受、憂受；非可意不可意的，就起捨受。如有智慧而正念現
 <lb n="0181a04" ed="Y"/>前的<lb n="0165a05" ed="Y" type="old"/>，就不起味著，不為情感的苦樂所惑亂；否則就危險了。</p>
-<lb n="0181a05" ed="Y"/><lb n="0165a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">沒有正念正知的，都是依<quote type="嚴謹引文">「緣」</quote>此或苦或樂的<quote type="嚴謹引文">「受」</quote>味，生<quote type="嚴謹引文">「起」</quote>深深的
+<lb n="0181a05" ed="Y"/><lb n="0165a06" ed="Y" type="old"/><p xml:id="pY12p0181a0501" style="margin-left:1em;text-indent:2em">沒有正念正知的，都是依<quote type="嚴謹引文">「緣」</quote>此或苦或樂的<quote type="嚴謹引文">「受」</quote>味，生<quote type="嚴謹引文">「起」</quote>深深的
 <lb n="0181a06" ed="Y"/><lb n="0165a07" ed="Y" type="old"/><quote type="嚴謹引文">「愛」</quote>著：愛著自我，愛著境界。這時候，已以主動的姿態，對生命與塵世，
 <lb n="0181a07" ed="Y"/><lb n="0165a08" ed="Y" type="old"/>傾向愛戀而作不得主。此後，只有愈陷愈深，無法自拔。上面從識的結生，說
 <lb n="0181a08" ed="Y"/><lb n="0165a09" ed="Y" type="old"/>明了身心的開展過程，以及對境而引起內心的活動情況。觸是認識的，受是情
 <lb n="0181a09" ed="Y"/><lb n="0165a10" ed="Y" type="old"/>感的，愛以下是意志的活動了。</p>
-<lb n="0181a10" ed="Y"/><lb n="0165a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">內心有了<quote type="嚴謹引文">「愛」</quote>染，愛心的<quote type="嚴謹引文">「增」</quote>強，就進展到<quote type="嚴謹引文">「名」</quote>為<quote type="嚴謹引文">「取」</quote>。取有四
+<lb n="0181a10" ed="Y"/><lb n="0165a11" ed="Y" type="old"/><p xml:id="pY12p0181a1001" style="margin-left:1em;text-indent:2em">內心有了<quote type="嚴謹引文">「愛」</quote>染，愛心的<quote type="嚴謹引文">「增」</quote>強，就進展到<quote type="嚴謹引文">「名」</quote>為<quote type="嚴謹引文">「取」</quote>。取有四
 <lb n="0181a11" ed="Y"/><lb n="0165a12" ed="Y" type="old"/>：執取自我，叫我語取。一般的追求五欲，叫欲取。而宗教與哲學家們，不是
 <lb n="0181a12" ed="Y"/><lb n="0165a13" ed="Y" type="old"/>執取種種錯誤的見解——見取；就是執取種種無意義的戒條、苦行——戒禁取<pb n="0166a" ed="Y" xml:id="Y12.0012.0166a.old" type="old"/>
 <lb n="0181a13" ed="Y"/><lb n="0166a01" ed="Y" type="old"/>。這是從愛染生命與塵世，進而作思想的或行為的取著，造成世間一切苦難的
 <pb n="0182a" ed="Y" xml:id="Y12.0012.0182a"/>
 <lb n="0182a01" ed="Y"/><lb n="0166a02" ed="Y" type="old"/>結局。</p>
-<lb n="0182a02" ed="Y"/><lb n="0166a03" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">愛與取，正是依著煩惱而有的一切活動。<quote type="嚴謹引文">「因」</quote>此煩惱的活動，就起<quote type="嚴謹引文">「集
+<lb n="0182a02" ed="Y"/><lb n="0166a03" ed="Y" type="old"/><p xml:id="pY12p0182a0201" style="margin-left:1em;text-indent:2em">愛與取，正是依著煩惱而有的一切活動。<quote type="嚴謹引文">「因」</quote>此煩惱的活動，就起<quote type="嚴謹引文">「集
 <lb n="0182a03" ed="Y"/><lb n="0166a04" ed="Y" type="old"/>」</quote>成<quote type="嚴謹引文">「後有」</quote>的業種。這在十二支中，叫有支。有，是三有：欲有、色有、無
 <lb n="0182a04" ed="Y"/><lb n="0166a05" ed="Y" type="old"/>色有，就是三界的生命自體。但這裡所說的，不是現實生命的存在（有），而
 <lb n="0182a05" ed="Y"/><lb n="0166a06" ed="Y" type="old"/>是能起後世生命的業力，也可說是未來生命的潛在。有了這，那麼現生死了以
 <lb n="0182a06" ed="Y"/><lb n="0166a07" ed="Y" type="old"/>後，未來識又會結<quote type="嚴謹引文">「生」</quote>。生了，就不能不<quote type="嚴謹引文">「老」</quote>不<quote type="嚴謹引文">「死」</quote>。生、老死的<quote type="嚴謹引文">「相
 <lb n="0182a07" ed="Y"/>隨<lb n="0166a08" ed="Y" type="old"/>」</quote>而來，便是未來生死相續的簡說。</p>
-<lb n="0182a08" ed="Y"/><lb n="0166a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">十二支，可以分為三世，有兩重因果：過去因（無明與行）生現在果（識
+<lb n="0182a08" ed="Y"/><lb n="0166a09" ed="Y" type="old"/><p xml:id="pY12p0182a0801" style="margin-left:1em;text-indent:2em">十二支，可以分為三世，有兩重因果：過去因（無明與行）生現在果（識
 <lb n="0182a09" ed="Y"/><lb n="0166a10" ed="Y" type="old"/>、名色、六處、觸、受），現在因（愛、取，及有）生未來果（生、老死）。
 <lb n="0182a10" ed="Y"/><lb n="0166a11" ed="Y" type="old"/>同時，前生以前有前生，後世以後（如不了脫生死）有後世，三世因果相續說
 <lb n="0182a11" ed="Y"/><lb n="0166a12" ed="Y" type="old"/>明，就是無限生死相續的歷程全貌。</p>
-<lb n="0182a12" ed="Y"/><lb n="0166a13" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>滅應滅於惑，惑滅則苦滅，解脫於癡愛，現證寂滅樂。</l></lg></quote><pb n="0167a" ed="Y" xml:id="Y12.0012.0167a.old" type="old"/>
-<lb n="0182a13" ed="Y"/><lb n="0167a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">現在來說滅諦。滅有兩個意義：一、是滅除；二、是寂滅。滅除了苦痛的
+<lb n="0182a12" ed="Y"/><lb n="0166a13" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0182a1201" rend="bold" type="abnormal"><l>滅應滅於惑，惑滅則苦滅，解脫於癡愛，現證寂滅樂。</l></lg></quote><pb n="0167a" ed="Y" xml:id="Y12.0012.0167a.old" type="old"/>
+<lb n="0182a13" ed="Y"/><lb n="0167a01" ed="Y" type="old"/><p xml:id="pY12p0182a1301" style="margin-left:1em;text-indent:2em">現在來說滅諦。滅有兩個意義：一、是滅除；二、是寂滅。滅除了苦痛的
 <pb n="0183a" ed="Y" xml:id="Y12.0012.0183a"/>
 <lb n="0183a01" ed="Y"/><lb n="0167a02" ed="Y" type="old"/>根源，才能解脫生死苦，實現涅槃的寂滅。從滅除來說：眾生在生死輪迴中，
 <lb n="0183a02" ed="Y"/><lb n="0167a03" ed="Y" type="old"/>從苦生苦，苦個不了，這是要滅除的對象。然解除眾生的生死苦迫，佛法並不
@@ -620,7 +640,7 @@
 <lb n="0183a07" ed="Y"/><lb n="0167a08" ed="Y" type="old"/>。所以佛肯定地指出：要<quote type="嚴謹引文">「滅」</quote>除生死大苦，<quote type="嚴謹引文">「應」</quote>該<quote type="嚴謹引文">「滅於惑」</quote>——煩惱。
 <lb n="0183a08" ed="Y"/><lb n="0167a09" ed="Y" type="old"/>如<quote type="嚴謹引文">「惑滅」</quote>了，那就不再造業了，過去所有的業也就乾枯無用了。這樣，生死
 <lb n="0183a09" ed="Y"/><lb n="0167a10" ed="Y" type="old"/><quote type="嚴謹引文">「苦」</quote>果，就會徹底的<quote type="嚴謹引文">「滅」</quote>除。</p>
-<lb n="0183a10" ed="Y"/><lb n="0167a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">說到煩惱的滅除，當然也要從根本的煩惱去著手。如伐大樹一樣，專門斫
+<lb n="0183a10" ed="Y"/><lb n="0167a11" ed="Y" type="old"/><p xml:id="pY12p0183a1001" style="margin-left:1em;text-indent:2em">說到煩惱的滅除，當然也要從根本的煩惱去著手。如伐大樹一樣，專門斫
 <lb n="0183a11" ed="Y"/><lb n="0167a12" ed="Y" type="old"/>枝摘葉，是不能達成目的的。如斷了樹根，那即使是暫時發葉，也終究是會死
 <lb n="0183a12" ed="Y"/><lb n="0167a13" ed="Y" type="old"/>去的。說到煩惱的根本，當然是愚癡無明了。無明，主要是迷於無我的無明，<pb n="0168a" ed="Y" xml:id="Y12.0012.0168a.old" type="old"/>
 <lb n="0183a13" ed="Y"/><lb n="0168a01" ed="Y" type="old"/>還有染著於境界的貪愛。一是障於智的，一是障於行的。從修學佛法來說，應
@@ -636,13 +656,13 @@
 <lb n="0184a09" ed="Y"/>鬥爭中出來，享受到和諧而平靜的境地一樣。經論中每以寂、靜、妙、離，<lb n="0168a11" ed="Y" type="old"/>來
 <lb n="0184a10" ed="Y"/>形容這滅——涅槃。所說的樂，也不是衝動性的樂感，而是捨去煩惱重擔而<lb n="0168a12" ed="Y" type="old"/>得
 <lb n="0184a11" ed="Y"/>來的自在——『離繫之樂』。</p>
-<lb n="0184a12" ed="Y"/><lb n="0168a13" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>能滅苦集者，唯有一乘道。三學八正道，能入於涅槃。</l></lg></quote><pb n="0169a" ed="Y" xml:id="Y12.0012.0169a.old" type="old"/>
-<lb n="0184a13" ed="Y"/><lb n="0169a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">苦痛的原因（集）消除了，生死大苦也就從此結束，得到了涅槃的大解脫
+<lb n="0184a12" ed="Y"/><lb n="0168a13" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0184a1201" rend="bold" type="abnormal"><l>能滅苦集者，唯有一乘道。三學八正道，能入於涅槃。</l></lg></quote><pb n="0169a" ed="Y" xml:id="Y12.0012.0169a.old" type="old"/>
+<lb n="0184a13" ed="Y"/><lb n="0169a01" ed="Y" type="old"/><p xml:id="pY12p0184a1301" style="margin-left:1em;text-indent:2em">苦痛的原因（集）消除了，生死大苦也就從此結束，得到了涅槃的大解脫
 <pb n="0185a" ed="Y" xml:id="Y12.0012.0185a"/>
 <lb n="0185a01" ed="Y"/><lb n="0169a02" ed="Y" type="old"/>。但無始以來，苦與集是不斷的延續，如不修對治道，是不會自動結束的。所
 <lb n="0185a02" ed="Y"/><lb n="0169a03" ed="Y" type="old"/>以要說到道諦，道才是佛弟子修學的心要，如生病而請醫生，主要是為了服藥
 <lb n="0185a03" ed="Y"/><lb n="0169a04" ed="Y" type="old"/>一樣。</p>
-<lb n="0185a04" ed="Y"/><lb n="0169a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「能滅苦集」</quote>的道，是些什麼呢？雖然眾生的根性不同，有利有鈍，有聲
+<lb n="0185a04" ed="Y"/><lb n="0169a05" ed="Y" type="old"/><p xml:id="pY12p0185a0401" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「能滅苦集」</quote>的道，是些什麼呢？雖然眾生的根性不同，有利有鈍，有聲
 <lb n="0185a05" ed="Y"/><lb n="0169a06" ed="Y" type="old"/>聞、緣覺、菩薩，佛也應機而說有多少不同的法門，但真正能出離生死的，是
 <lb n="0185a06" ed="Y"/><lb n="0169a07" ed="Y" type="old"/><quote type="嚴謹引文">「唯有一乘道」</quote>，也可說只有一乘——一道。乘是車乘，能運載人物，從此到
 <lb n="0185a07" ed="Y"/>彼<lb n="0169a08" ed="Y" type="old"/>。佛所說的法門，能使眾生從生死中出來，到達究竟解脫的境地，所以稱法
@@ -651,7 +671,7 @@
 <lb n="0185a10" ed="Y"/>。<lb n="0169a11" ed="Y" type="old"/>苦與集的體性是一樣的，那出離生死苦的法門，那裡會有不同呢？所以佛在
 <lb n="0185a11" ed="Y"/><title level="m">《<lb n="0169a12" ed="Y" type="old"/>阿含經》</title>中，曾明確地宣說一乘法，也就是<quote type="嚴謹引文">『一道出生死』</quote>，<quote type="嚴謹引文">『同坐解脫床
 <lb n="0185a12" ed="Y"/>』</quote><lb n="0169a13" ed="Y" type="old"/>。</p><pb n="0170a" ed="Y" xml:id="Y12.0012.0170a.old" type="old"/>
-<lb n="0185a13" ed="Y"/><lb n="0170a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">出離生死的一乘法——不二法，從證悟真理來說，是無二無別的<quote type="寬鬆引文">（『同入
+<lb n="0185a13" ed="Y"/><lb n="0170a01" ed="Y" type="old"/><p xml:id="pY12p0185a1301" style="margin-left:1em;text-indent:2em">出離生死的一乘法——不二法，從證悟真理來說，是無二無別的<quote type="寬鬆引文">（『同入
 <pb n="0186a" ed="Y" xml:id="Y12.0012.0186a"/>
 <lb n="0186a01" ed="Y"/><lb n="0170a02" ed="Y" type="old"/>一法性』）</quote>；從修行的方法來說，是同樣的。適應眾生的不同根性，佛是說有
 <lb n="0186a02" ed="Y"/><lb n="0170a03" ed="Y" type="old"/>種種方法的，但除了方便引導的以外，論到出離生死的道體，並無差別，總不
@@ -668,7 +688,7 @@
 <lb n="0186a13" ed="Y"/><lb n="0171a01" ed="Y" type="old"/>這可見八正道是<quote type="嚴謹引文">「能入於涅槃」</quote>的唯一法門了。這在大乘的<cit><bibl><title level="m">《楞伽經》</title>中，也
 <pb n="0187a" ed="Y" xml:id="Y12.0012.0187a"/>
 <lb n="0187a01" ed="Y"/><lb n="0171a02" ed="Y" type="old"/>還是這樣說：</bibl><quote type="嚴謹引文">『唯有一大乘，清涼八支道。』</quote></cit></p>
-<lb n="0187a02" ed="Y"/><lb n="0171a03" ed="Y" type="old"/><p cb:type="pre">　　　　　　　　　　　　　　正見─┐
+<lb n="0187a02" ed="Y"/><lb n="0171a03" ed="Y" type="old"/><p cb:type="pre" xml:id="pY12p0187a0201">　　　　　　　　　　　　　　正見─┐
 <lb n="0187a03" ed="Y"/>　　　　　　　┌戒學┐　　　正思惟┤
 <lb n="0187a04" ed="Y"/>　　　　　　　│　　└──┬正語　│
 <lb n="0187a05" ed="Y"/>　　　　一乘─┼定學──┐├正業　│
@@ -678,10 +698,10 @@
 <lb n="0187a09" ed="Y"/>　　　　　　　　　　　│├─正念　│
 <lb n="0187a10" ed="Y"/>　　　　　　　　　　　│└─正定　│
 <lb n="0187a11" ed="Y"/>　　　　　　　　　　　└─────┘</p>
-<lb n="0187a12" ed="Y"/><lb n="0171a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>初增上尸羅，心地淨增上，護心令不犯，別別得解脫。</l></lg></quote>
-<lb n="0187a13" ed="Y"/><lb n="0171a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在道諦的說明中，八正道的體系最完整。但現在依三學來說，說到慧學時
+<lb n="0187a12" ed="Y"/><lb n="0171a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0187a1201" rend="bold" type="abnormal"><l>初增上尸羅，心地淨增上，護心令不犯，別別得解脫。</l></lg></quote>
+<lb n="0187a13" ed="Y"/><lb n="0171a12" ed="Y" type="old"/><p xml:id="pY12p0187a1301" style="margin-left:1em;text-indent:2em">在道諦的說明中，八正道的體系最完整。但現在依三學來說，說到慧學時
 <lb n="0187a14" ed="Y"/><lb n="0171a13" ed="Y" type="old"/>，再敘述八正道，以明佛說道品的一貫性。</p><pb n="0172a" ed="Y" xml:id="Y12.0012.0172a.old" type="old"/>
-<lb n="0187a15" ed="Y"/><lb n="0172a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「初」</quote>說<quote type="嚴謹引文">「增上尸羅」</quote>：尸羅是梵語，意譯為戒，有平治、清涼等意思。
+<lb n="0187a15" ed="Y"/><lb n="0172a01" ed="Y" type="old"/><p xml:id="pY12p0187a1501" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「初」</quote>說<quote type="嚴謹引文">「增上尸羅」</quote>：尸羅是梵語，意譯為戒，有平治、清涼等意思。
 <pb n="0188a" ed="Y" xml:id="Y12.0012.0188a"/>
 <lb n="0188a01" ed="Y"/><lb n="0172a02" ed="Y" type="old"/>一般聽到戒，就想到戒條，其實這是成文的規制，是因時、因地、因機而不同
 <lb n="0188a02" ed="Y"/>的；<lb n="0172a03" ed="Y" type="old"/>重要的是戒的實質。戒的力用，是惡止善行。依佛的本意，決非專從法制
@@ -699,7 +719,7 @@
 <pb n="0189a" ed="Y" xml:id="Y12.0012.0189a"/>
 <lb n="0189a01" ed="Y"/>磨也<lb n="0173a02" ed="Y" type="old"/>還是不得戒的。所以戒是從深信而來的<quote type="嚴謹引文">「心地」</quote>清<quote type="嚴謹引文">「淨」</quote>，從心淨而起誓
 <lb n="0189a02" ed="Y"/>願，<lb n="0173a03" ed="Y" type="old"/>引發<quote type="嚴謹引文">「增上」</quote>力，有<quote type="嚴謹引文">「護」</quote>持自<quote type="嚴謹引文">「心」</quote>、使心<quote type="嚴謹引文">「不犯」</quote>過失的功能。</p>
-<lb n="0189a03" ed="Y"/><lb n="0173a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">戒，也稱為律儀。梵語三跋羅，如直譯應作等護；義譯為律儀，從防護過
+<lb n="0189a03" ed="Y"/><lb n="0173a04" ed="Y" type="old"/><p xml:id="pY12p0189a0301" style="margin-left:1em;text-indent:2em">戒，也稱為律儀。梵語三跋羅，如直譯應作等護；義譯為律儀，從防護過
 <lb n="0189a04" ed="Y"/><lb n="0173a05" ed="Y" type="old"/>惡的功能而得名。律儀有三類：一、如真智現前，以慧而離煩惱，就得道共律
 <lb n="0189a05" ed="Y"/><lb n="0173a06" ed="Y" type="old"/>儀。二、如定心現前，以定而離煩惱，就得定共律儀。三、如淨信（信三寶、
 <lb n="0189a06" ed="Y"/>四<lb n="0173a07" ed="Y" type="old"/>諦）現前，願於佛法中修學，作在家弟子或出家弟子，就得別解脫律儀。從
@@ -713,15 +733,15 @@
 <pb n="0190a" ed="Y" xml:id="Y12.0012.0190a"/>
 <lb n="0190a01" ed="Y"/>重證悟的清淨，也不是一般所能得的。其實，佛法是<quote type="嚴謹引文">『信為能入』</quote>、<quote type="嚴謹引文">『信<lb n="0174a03" ed="Y" type="old"/>為道
 <lb n="0190a02" ed="Y"/>源』</quote>；真切的淨信，誓願修學，才是戒學的根本。</p>
-<lb n="0190a03" ed="Y"/><lb n="0174a04" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>在家五八戒，如前之所說。</l></lg></quote>
-<lb n="0190a04" ed="Y"/><lb n="0174a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">受持的戒律中，<quote type="嚴謹引文">「在家」</quote>弟子，有近事律儀，這就是優婆塞、優婆夷的<quote type="嚴謹引文">「
+<lb n="0190a03" ed="Y"/><lb n="0174a04" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0190a0301" rend="bold" type="abnormal"><l>在家五八戒，如前之所說。</l></lg></quote>
+<lb n="0190a04" ed="Y"/><lb n="0174a05" ed="Y" type="old"/><p xml:id="pY12p0190a0401" style="margin-left:1em;text-indent:2em">受持的戒律中，<quote type="嚴謹引文">「在家」</quote>弟子，有近事律儀，這就是優婆塞、優婆夷的<quote type="嚴謹引文">「
 <lb n="0190a05" ed="Y"/><lb n="0174a06" ed="Y" type="old"/>五」</quote>戒。還有近住律儀，就是在家而仰修出家法的<quote type="嚴謹引文">「八戒」</quote>，作一日夜或短期
 <lb n="0190a06" ed="Y"/><lb n="0174a07" ed="Y" type="old"/>的修持。這都<quote type="嚴謹引文">「如前」</quote>五乘共法中<quote type="嚴謹引文">「所說」</quote>的。五戒與八戒，本是聲聞的在家
 <lb n="0190a07" ed="Y"/><lb n="0174a08" ed="Y" type="old"/>弟子戒；以出離心來修學，為了脫生死而受持，就是出世的戒法。不過，如以
 <lb n="0190a08" ed="Y"/><lb n="0174a09" ed="Y" type="old"/>增上生心，為了求得現生與後世的安樂而受持，就成為人天乘法。有以為五戒
 <lb n="0190a09" ed="Y"/><lb n="0174a10" ed="Y" type="old"/>只是人天乘法，這是不對的。</p>
-<lb n="0190a10" ed="Y"/><lb n="0174a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>出家戒類五：沙彌沙彌尼，比丘比丘尼，及式叉摩那。</l></lg></quote>
-<lb n="0190a11" ed="Y"/><lb n="0174a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在聲聞弟子中，<quote type="嚴謹引文">「出家」</quote>的<quote type="嚴謹引文">「戒」</quote>法，分<quote type="嚴謹引文">「類」</quote>為<quote type="嚴謹引文">「五」</quote>：一、<quote type="嚴謹引文">「沙彌」</quote>
+<lb n="0190a10" ed="Y"/><lb n="0174a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0190a1001" rend="bold" type="abnormal"><l>出家戒類五：沙彌沙彌尼，比丘比丘尼，及式叉摩那。</l></lg></quote>
+<lb n="0190a11" ed="Y"/><lb n="0174a12" ed="Y" type="old"/><p xml:id="pY12p0190a1101" style="margin-left:1em;text-indent:2em">在聲聞弟子中，<quote type="嚴謹引文">「出家」</quote>的<quote type="嚴謹引文">「戒」</quote>法，分<quote type="嚴謹引文">「類」</quote>為<quote type="嚴謹引文">「五」</quote>：一、<quote type="嚴謹引文">「沙彌」</quote>
 <lb n="0190a12" ed="Y"/><lb n="0174a13" ed="Y" type="old"/>戒；二、<quote type="嚴謹引文">「沙彌尼」</quote>戒。這是出家而還不曾完備出家資格的，可說是出家眾的<pb n="0175a" ed="Y" xml:id="Y12.0012.0175a.old" type="old"/>
 <lb n="0190a13" ed="Y"/><lb n="0175a01" ed="Y" type="old"/>預科。沙彌，義譯為勤策，是精勤策勵，求脫生死的意思。男的叫沙彌，女的
 <pb n="0191a" ed="Y" xml:id="Y12.0012.0191a"/>
@@ -730,7 +750,7 @@
 <lb n="0191a03" ed="Y"/>十<lb n="0175a04" ed="Y" type="old"/>戒是：一、不殺生；二、不偷盜；三、不淫；四、不妄語；五、不飲酒；六
 <lb n="0191a04" ed="Y"/>、<lb n="0175a05" ed="Y" type="old"/>不香華鬘嚴身；七、不歌舞倡伎及故往觀聽；八、不坐臥高廣大床；九、不
 <lb n="0191a05" ed="Y"/>非<lb n="0175a06" ed="Y" type="old"/>時食；十、不捉生像金銀寶物。前九戒，與近住戒相同。</p>
-<lb n="0191a06" ed="Y"/><lb n="0175a07" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">出家以後，受了這十戒，才算是沙彌或沙彌尼。這是出家戒，所以完全制
+<lb n="0191a06" ed="Y"/><lb n="0175a07" ed="Y" type="old"/><p xml:id="pY12p0191a0601" style="margin-left:1em;text-indent:2em">出家以後，受了這十戒，才算是沙彌或沙彌尼。這是出家戒，所以完全制
 <lb n="0191a07" ed="Y"/><lb n="0175a08" ed="Y" type="old"/>斷淫行。六、七、八——三戒，都是少欲知足的淡泊生活。佛制的出家生活，
 <lb n="0191a08" ed="Y"/><lb n="0175a09" ed="Y" type="old"/>以少欲知足為原則。衣食住藥——四資生具，都從乞化得來。衣與食，不得多
 <lb n="0191a09" ed="Y"/><lb n="0175a10" ed="Y" type="old"/>蓄積，以免引起無限的貪欲，何況手持金銀寶物呢！常行乞食法，所以奉行過
@@ -741,13 +761,13 @@
 <pb n="0192a" ed="Y" xml:id="Y12.0012.0192a"/>
 <lb n="0192a01" ed="Y"/><lb n="0176a02" ed="Y" type="old"/>，與出家生活的本意，越來越遠。所以我國的良好僧眾，也每只是嚴持根本戒
 <lb n="0192a02" ed="Y"/><lb n="0176a03" ed="Y" type="old"/>而已。嚴格的說，我國的比丘僧，也許還不及沙彌呢！</p>
-<lb n="0192a03" ed="Y"/><lb n="0176a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">三、<quote type="嚴謹引文">「比丘」</quote>戒；四、<quote type="嚴謹引文">「比丘尼」</quote>戒：這是過著完全遠離惡行與欲行的生
+<lb n="0192a03" ed="Y"/><lb n="0176a04" ed="Y" type="old"/><p xml:id="pY12p0192a0301" style="margin-left:1em;text-indent:2em">三、<quote type="嚴謹引文">「比丘」</quote>戒；四、<quote type="嚴謹引文">「比丘尼」</quote>戒：這是過著完全遠離惡行與欲行的生
 <lb n="0192a04" ed="Y"/><lb n="0176a05" ed="Y" type="old"/>活，完備僧格的出家人，為僧團的主體。比丘，譯義為乞士，是過著乞化生活
 <lb n="0192a05" ed="Y"/><lb n="0176a06" ed="Y" type="old"/>的修道人；女的就叫做比丘尼。從戒法來說，比丘與比丘尼戒，是同樣完全的
 <lb n="0192a06" ed="Y"/><lb n="0176a07" ed="Y" type="old"/>，只是由於社會關係、情意強弱，佛分別制為比丘及比丘尼戒。平常說：比丘
 <lb n="0192a07" ed="Y"/><lb n="0176a08" ed="Y" type="old"/>二百五十戒，比丘尼五百戒，這是大概說的，意味著尼戒要嚴格得多。實際是
 <lb n="0192a08" ed="Y"/><lb n="0176a09" ed="Y" type="old"/>：比丘戒二百五十左右，比丘尼戒三百四十左右。</p>
-<lb n="0192a09" ed="Y"/><lb n="0176a10" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">發展完成了的僧伽制度，出家後先受沙彌（沙彌尼）戒，再受比丘（比丘
+<lb n="0192a09" ed="Y"/><lb n="0176a10" ed="Y" type="old"/><p xml:id="pY12p0192a0901" style="margin-left:1em;text-indent:2em">發展完成了的僧伽制度，出家後先受沙彌（沙彌尼）戒，再受比丘（比丘
 <lb n="0192a10" ed="Y"/><lb n="0176a11" ed="Y" type="old"/>尼）戒。研求佛的本制，原是攝受歸心三寶，而自動發心（成年而有自由意志
 <lb n="0192a11" ed="Y"/><lb n="0176a12" ed="Y" type="old"/>的）出家的。所以發心出家的，或者說<quote type="嚴謹引文">『善來比丘！於我法中快修梵行』</quote>，<lb n="0176a13" ed="Y" type="old"/>就
 <lb n="0192a12" ed="Y"/>算得比丘戒，成為比丘；或者說三歸依的誓詞，就算得戒，名為比丘。這本<pb n="0177a" ed="Y" xml:id="Y12.0012.0177a.old" type="old"/><lb n="0177a01" ed="Y" type="old"/>是
@@ -759,7 +779,7 @@
 <lb n="0193a04" ed="Y"/>沒有受比丘戒，也叫做（老）沙彌了。然在僧制中，如年滿二十出家的，雖<lb n="0177a06" ed="Y" type="old"/>沒
 <lb n="0193a05" ed="Y"/>有受沙彌戒就直接受比丘戒，也還是得戒的——這是吻合佛制本意的，不<lb n="0177a07" ed="Y" type="old"/>過從
 <lb n="0193a06" ed="Y"/>發展完成的僧制來說，似乎不太理想而已。</p>
-<lb n="0193a07" ed="Y"/><lb n="0177a08" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">五、<quote type="嚴謹引文">「式叉摩那」</quote>戒：這是女眾，屬於沙彌尼以上、比丘尼以下的一級。
+<lb n="0193a07" ed="Y"/><lb n="0177a08" ed="Y" type="old"/><p xml:id="pY12p0193a0701" style="margin-left:1em;text-indent:2em">五、<quote type="嚴謹引文">「式叉摩那」</quote>戒：這是女眾，屬於沙彌尼以上、比丘尼以下的一級。
 <lb n="0193a08" ed="Y"/><lb n="0177a09" ed="Y" type="old"/>式叉摩那，譯義為學法女，是在二年內受持六法戒的一類。這實在還是沙彌<lb n="0177a10" ed="Y" type="old"/>尼
 <lb n="0193a09" ed="Y"/>（女眾出家的預修），不過仰修比丘尼戒的一分而已。佛制女眾出家，起初<lb n="0177a11" ed="Y" type="old"/>當
 <lb n="0193a10" ed="Y"/>然也只是比丘尼，其後增立沙彌尼，後來又增列式叉摩那，成為出家女眾的<lb n="0177a12" ed="Y" type="old"/>三
@@ -779,20 +799,20 @@
 <lb n="0194a10" ed="Y"/>六隨法』<note n="0194001" resp="厚觀法師" type="add">《根本說一切有部苾芻尼毘奈耶》卷19(CBETA, T23, no. 1443, p. 1014, b9-10)</note></quote></cit>，這是二種六法。大眾部的<title level="m">《僧祇律》</title>，<quote type="寬鬆引文">『二歲隨行十八事』</quote><lb n="0178a12" ed="Y" type="old"/>，這是
 <lb n="0194a11" ed="Y"/>三種六法。二年六法的古說是一致的，而六法的內容不同，這可以想見<lb n="0178a13" ed="Y" type="old"/>，這一
 <lb n="0194a12" ed="Y"/>學法女的古制早就不曾嚴格遵行，這才傳說紛紜了。</p><pb n="0179a" ed="Y" xml:id="Y12.0012.0179a.old" type="old"/>
-<lb n="0194a13" ed="Y"/><lb n="0179a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">佛弟子雖有在家二眾、出家五眾；論戒法，雖有八類（加近住的八戒），
+<lb n="0194a13" ed="Y"/><lb n="0179a01" ed="Y" type="old"/><p xml:id="pY12p0194a1301" style="margin-left:1em;text-indent:2em">佛弟子雖有在家二眾、出家五眾；論戒法，雖有八類（加近住的八戒），
 <pb n="0195a" ed="Y" xml:id="Y12.0012.0195a"/>
 <lb n="0195a01" ed="Y"/><lb n="0179a02" ed="Y" type="old"/>但戒體的清淨，有防非止惡的功能，有生長定慧的功德，卻是一樣的。所以，
 <lb n="0195a02" ed="Y"/><lb n="0179a03" ed="Y" type="old"/>在家也好、出家也好，男眾、女眾、童年、成年也好，只要信願懇切，發起淨
 <lb n="0195a03" ed="Y"/><lb n="0179a04" ed="Y" type="old"/>戒，都是可以依之而解脫生死的。</p>
-<lb n="0195a04" ed="Y"/><lb n="0179a05" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>於中具足戒，戒法之最勝，殷重所受得，護持莫失壞。</l></lg></quote>
-<lb n="0195a05" ed="Y"/><lb n="0179a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「於」</quote>此八種戒<quote type="嚴謹引文">「中」</quote>，比丘與比丘尼所受的，名為<quote type="嚴謹引文">「具足戒」</quote>。具足，
+<lb n="0195a04" ed="Y"/><lb n="0179a05" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0195a0401" rend="bold" type="abnormal"><l>於中具足戒，戒法之最勝，殷重所受得，護持莫失壞。</l></lg></quote>
+<lb n="0195a05" ed="Y"/><lb n="0179a06" ed="Y" type="old"/><p xml:id="pY12p0195a0501" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「於」</quote>此八種戒<quote type="嚴謹引文">「中」</quote>，比丘與比丘尼所受的，名為<quote type="嚴謹引文">「具足戒」</quote>。具足，
 <lb n="0195a06" ed="Y"/><lb n="0179a07" ed="Y" type="old"/>是舊譯，新譯作『近圓』（圓就是具足）。近是鄰近，圓是圓寂——涅槃。這
 <lb n="0195a07" ed="Y"/><lb n="0179a08" ed="Y" type="old"/>是說：受持比丘、比丘尼戒，是已鄰近涅槃了。雖然佛制的每一戒法，如能受
 <lb n="0195a08" ed="Y"/><lb n="0179a09" ed="Y" type="old"/>持清淨，都可以生長定慧的，解脫生死的，但比較起來，比丘、比丘尼戒，過
 <lb n="0195a09" ed="Y"/><lb n="0179a10" ed="Y" type="old"/>著離欲（五欲、男女欲）出俗的生活，在這物欲橫流的世間，比其他的戒法，
 <lb n="0195a10" ed="Y"/><lb n="0179a11" ed="Y" type="old"/>是最嚴格的、最清淨的，最能勝過情欲的。所以，這在佛制的<quote type="嚴謹引文">「戒法」</quote>中，<quote type="嚴謹引文">「
 <lb n="0195a11" ed="Y"/><lb n="0179a12" ed="Y" type="old"/>最」</quote>為殊<quote type="嚴謹引文">「勝」</quote>。受了具足戒的，位居僧寶，為僧團的主體，受人天的供養。</p>
-<lb n="0195a12" ed="Y"/><lb n="0179a13" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">具足戒是戒法中最殊勝的，所以受具足戒也是最不容易的。論年齡，要滿<pb n="0180a" ed="Y" xml:id="Y12.0012.0180a.old" type="old"/>
+<lb n="0195a12" ed="Y"/><lb n="0179a13" ed="Y" type="old"/><p xml:id="pY12p0195a1201" style="margin-left:1em;text-indent:2em">具足戒是戒法中最殊勝的，所以受具足戒也是最不容易的。論年齡，要滿<pb n="0180a" ed="Y" xml:id="Y12.0012.0180a.old" type="old"/>
 <lb n="0195a13" ed="Y"/><lb n="0180a01" ed="Y" type="old"/>二十歲。論受戒的師長，要有三師——和尚、羯磨阿闍黎、教授阿闍黎，還要
 <pb n="0196a" ed="Y" xml:id="Y12.0012.0196a"/>
 <lb n="0196a01" ed="Y"/><lb n="0180a02" ed="Y" type="old"/>有七師作證明。就是在佛法不興盛的邊地，也非三師、二證不可。這比起在家
@@ -804,8 +824,8 @@
 <lb n="0196a07" ed="Y"/><lb n="0180a08" ed="Y" type="old"/>放逸，在環境的誘惑下、煩惱的衝動下，<quote type="嚴謹引文">「失壞」</quote>了這無價的戒寶！如不能依
 <lb n="0196a08" ed="Y"/><lb n="0180a09" ed="Y" type="old"/>此殊勝的戒法，生人間、天上，或解脫生死，反而袈裟下失卻人身，這是多麼
 <lb n="0196a09" ed="Y"/>可<lb n="0180a10" ed="Y" type="old"/>痛心的事呀！</p>
-<lb n="0196a10" ed="Y"/><lb n="0180a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>極重戒有四：淫行不與取，殺人大妄語，破失沙門性。</l></lg></quote>
-<lb n="0196a11" ed="Y"/><lb n="0180a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在具足戒中，比丘戒約二百五十戒左右。其中<quote type="嚴謹引文">「極重」</quote>的<quote type="嚴謹引文">「戒」，「有四
+<lb n="0196a10" ed="Y"/><lb n="0180a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0196a1001" rend="bold" type="abnormal"><l>極重戒有四：淫行不與取，殺人大妄語，破失沙門性。</l></lg></quote>
+<lb n="0196a11" ed="Y"/><lb n="0180a12" ed="Y" type="old"/><p xml:id="pY12p0196a1101" style="margin-left:1em;text-indent:2em">在具足戒中，比丘戒約二百五十戒左右。其中<quote type="嚴謹引文">「極重」</quote>的<quote type="嚴謹引文">「戒」，「有四
 <lb n="0196a12" ed="Y"/>」</quote>（<lb n="0180a13" ed="Y" type="old"/>尼戒有八）。極重戒，是絕對不可犯的；犯了如樹木的截了根一樣，如人
 <lb n="0196a13" ed="Y"/>的斷<pb n="0181a" ed="Y" xml:id="Y12.0012.0181a.old" type="old"/><lb n="0181a01" ed="Y" type="old"/>了頭一樣，也像作戰的失敗投降，為他方取得完全的勝利一樣。犯了極重
 <pb n="0197a" ed="Y" xml:id="Y12.0012.0197a"/>
@@ -828,18 +848,18 @@
 <lb n="0198a03" ed="Y"/>」</quote>去<lb n="0182a04" ed="Y" type="old"/>了<quote type="嚴謹引文">「沙門」</quote>的體<quote type="嚴謹引文">「性」</quote>，也就是失去了沙門——出家人的資格。沙門，是
 <lb n="0198a04" ed="Y"/>梵語<lb n="0182a05" ed="Y" type="old"/>，義譯為勤息，是勤修道法、息除惡行的意思。如犯了這四重戒，雖然出
 <lb n="0198a05" ed="Y"/>家，<lb n="0182a06" ed="Y" type="old"/>已完全失去出家的資格了。</p>
-<lb n="0198a06" ed="Y"/><lb n="0182a07" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在佛制的僧團中，如有人犯重，就逐出僧團，取消他的出家資格。不但不
+<lb n="0198a06" ed="Y"/><lb n="0182a07" ed="Y" type="old"/><p xml:id="pY12p0198a0601" style="margin-left:1em;text-indent:2em">在佛制的僧團中，如有人犯重，就逐出僧團，取消他的出家資格。不但不
 <lb n="0198a07" ed="Y"/><lb n="0182a08" ed="Y" type="old"/>是比丘，連沙彌也不是。犯重的，是會墮落的。不過，如犯淫而當下發覺，心
 <lb n="0198a08" ed="Y"/><lb n="0182a09" ed="Y" type="old"/>生極大慚愧，懇求不離僧團的，仍許作沙彌，受持比丘戒。不過無論怎樣，現
 <lb n="0198a09" ed="Y"/><lb n="0182a10" ed="Y" type="old"/>生是不會得道成聖的了！</p>
-<lb n="0198a10" ed="Y"/><lb n="0182a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>餘戒輕或重，犯者勿覆藏，出罪還清淨，不悔得安樂。</l></lg></quote>
-<lb n="0198a11" ed="Y"/><lb n="0182a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">除了不准懺悔的極重戒而外（不容許懺悔而留在僧團內），犯了其<quote type="嚴謹引文">「餘」</quote>
+<lb n="0198a10" ed="Y"/><lb n="0182a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0198a1001" rend="bold" type="abnormal"><l>餘戒輕或重，犯者勿覆藏，出罪還清淨，不悔得安樂。</l></lg></quote>
+<lb n="0198a11" ed="Y"/><lb n="0182a12" ed="Y" type="old"/><p xml:id="pY12p0198a1101" style="margin-left:1em;text-indent:2em">除了不准懺悔的極重戒而外（不容許懺悔而留在僧團內），犯了其<quote type="嚴謹引文">「餘」</quote>
 <lb n="0198a12" ed="Y"/><lb n="0182a13" ed="Y" type="old"/>的<quote type="嚴謹引文">「戒」</quote>，或是<quote type="嚴謹引文">「輕」</quote>的，<quote type="嚴謹引文">「或」</quote>是<quote type="嚴謹引文">「重」</quote>的，都應該如法懺悔。輕與重也有<pb n="0183a" ed="Y" xml:id="Y12.0012.0183a.old" type="old"/>
 <lb n="0198a13" ed="Y"/><lb n="0183a01" ed="Y" type="old"/>好多類：最輕的，只要自己生慚愧心，自己責備一番就得了。有的要面對一比
 <pb n="0199a" ed="Y" xml:id="Y12.0012.0199a"/>
 <lb n="0199a01" ed="Y"/>丘<lb n="0183a02" ed="Y" type="old"/>，陳說自己的錯失，才算清淨。嚴重的，要在二十位清淨比丘前懺悔，才得
 <lb n="0199a02" ed="Y"/>出<lb n="0183a03" ed="Y" type="old"/>罪。但總之，是可以懺悔的、應該懺悔的。</p>
-<lb n="0199a03" ed="Y"/><lb n="0183a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">這裡，有一要點，就是<quote type="嚴謹引文">「犯」</quote>戒<quote type="嚴謹引文">「者」</quote>，切<quote type="嚴謹引文">「勿覆藏」</quote>自己的罪過。懺悔
+<lb n="0199a03" ed="Y"/><lb n="0183a04" ed="Y" type="old"/><p xml:id="pY12p0199a0301" style="margin-left:1em;text-indent:2em">這裡，有一要點，就是<quote type="嚴謹引文">「犯」</quote>戒<quote type="嚴謹引文">「者」</quote>，切<quote type="嚴謹引文">「勿覆藏」</quote>自己的罪過。懺悔
 <lb n="0199a04" ed="Y"/><lb n="0183a05" ed="Y" type="old"/>，意義是乞求容忍，再將自己所有的過失發露出來。如犯戒而又怕人知道，故
 <lb n="0199a05" ed="Y"/><lb n="0183a06" ed="Y" type="old"/>意隱藏在心裡，這是再也沒法清淨了。依佛法來說，誰沒有過失？或輕或重，
 <lb n="0199a06" ed="Y"/><lb n="0183a07" ed="Y" type="old"/>大家都是不免違犯的。只要能生慚愧心，肯懺悔，就好了。這正如儒家所說的
@@ -852,7 +872,7 @@
 <lb n="0199a13" ed="Y"/><lb n="0184a01" ed="Y" type="old"/>，就公開的舉發出來（但也要在適當的時候）。這才是助人為善，才能保持僧
 <pb n="0200a" ed="Y" xml:id="Y12.0012.0200a"/>
 <lb n="0200a01" ed="Y"/><lb n="0184a02" ed="Y" type="old"/>團的清淨。在僧團中，切勿互相隱藏，而誤以為是團結的美德。</p>
-<lb n="0200a02" ed="Y"/><lb n="0184a03" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">懺悔，佛制是有一定方法的。如依法懺悔了，就名為<quote type="嚴謹引文">「出罪」</quote>，像服滿了
+<lb n="0200a02" ed="Y"/><lb n="0184a03" ed="Y" type="old"/><p xml:id="pY12p0200a0201" style="margin-left:1em;text-indent:2em">懺悔，佛制是有一定方法的。如依法懺悔了，就名為<quote type="嚴謹引文">「出罪」</quote>，像服滿了
 <lb n="0200a03" ed="Y"/><lb n="0184a04" ed="Y" type="old"/>刑罪一樣。出了罪，就<quote type="嚴謹引文">「還」</quote>復戒體的<quote type="嚴謹引文">「清淨」</quote>，回復清淨的僧格。凡是出罪
 <lb n="0200a04" ed="Y"/><lb n="0184a05" ed="Y" type="old"/>得清淨的，同道們再不得舊案重翻、譏諷、評擊；假使這樣做，那是犯戒的。
 <lb n="0200a05" ed="Y"/><lb n="0184a06" ed="Y" type="old"/>關於懺悔而得清淨，可有二種意義。凡是違犯僧團一般規章的，大抵是輕戒，
@@ -869,13 +889,13 @@
 <lb n="0201a02" ed="Y"/><lb n="0185a03" ed="Y" type="old"/>惡而憂<quote type="嚴謹引文">「悔」</quote>，也就自然能心<quote type="嚴謹引文">「得安樂」</quote>了。儒家說<quote type="寬鬆引文">『君子有過，則人皆見<lb n="0185a04" ed="Y" type="old"/>之
 <lb n="0201a03" ed="Y"/>』</quote>，又說<quote type="嚴謹引文">『君子坦蕩蕩』</quote>，這都是心無積罪、心安理得的氣象；這才有勇<lb n="0185a05" ed="Y" type="old"/>於為
 <lb n="0201a04" ed="Y"/>善的力量。</p>
-<lb n="0201a05" ed="Y"/><lb n="0185a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">出家眾的戒，極為深細，學者應研求廣律，才知開遮持犯、還出還淨<lb n="0185a07" ed="Y" type="old"/>的法
+<lb n="0201a05" ed="Y"/><lb n="0185a06" ed="Y" type="old"/><p xml:id="pY12p0201a0501" style="margin-left:1em;text-indent:2em">出家眾的戒，極為深細，學者應研求廣律，才知開遮持犯、還出還淨<lb n="0185a07" ed="Y" type="old"/>的法
 <lb n="0201a06" ed="Y"/>門。</p>
-<lb n="0201a07" ed="Y"/><lb n="0185a08" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>能持於淨戒，三業咸清淨。</l></lg></quote>
-<lb n="0201a08" ed="Y"/><lb n="0185a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">以下兩頌，論意義，也是在家弟子所應學習的；但從事相來說，是佛特別
+<lb n="0201a07" ed="Y"/><lb n="0185a08" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0201a0701" rend="bold" type="abnormal"><l>能持於淨戒，三業咸清淨。</l></lg></quote>
+<lb n="0201a08" ed="Y"/><lb n="0185a09" ed="Y" type="old"/><p xml:id="pY12p0201a0801" style="margin-left:1em;text-indent:2em">以下兩頌，論意義，也是在家弟子所應學習的；但從事相來說，是佛特別
 <lb n="0201a09" ed="Y"/><lb n="0185a10" ed="Y" type="old"/>為出家弟子說的。這是（世間道）向於出世離欲道的必備資糧。著重在戒行，
 <lb n="0201a10" ed="Y"/><lb n="0185a11" ed="Y" type="old"/>為習定的方便。</p>
-<lb n="0201a11" ed="Y"/><lb n="0185a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在家、出家的七眾弟子，在修學（世）出世道中，首先要安住淨戒，以淨
+<lb n="0201a11" ed="Y"/><lb n="0185a12" ed="Y" type="old"/><p xml:id="pY12p0201a1101" style="margin-left:1em;text-indent:2em">在家、出家的七眾弟子，在修學（世）出世道中，首先要安住淨戒，以淨
 <lb n="0201a12" ed="Y"/>戒<lb n="0185a13" ed="Y" type="old"/>為根本。凡<quote type="嚴謹引文">「能持於淨戒」</quote>的，身口意<quote type="嚴謹引文">「三業」</quote>都能<quote type="嚴謹引文">「清淨」</quote>，這才能生、
 <lb n="0201a13" ed="Y"/>能<pb n="0186a" ed="Y" xml:id="Y12.0012.0186a.old" type="old"/><lb n="0186a01" ed="Y" type="old"/>證世出世間的一切功德。如<cit><bibl><title level="m">《遺教經》</title>說：</bibl><quote type="嚴謹引文">『若人能持淨戒，是則能有善法
 <pb n="0202a" ed="Y" xml:id="Y12.0012.0202a"/>
@@ -887,8 +907,8 @@
 <lb n="0202a06" ed="Y"/>要到<lb n="0186a07" ed="Y" type="old"/>歌舞娼妓、淫坊、酒肆、政治機關去走動，因為這是容易生起不淨心行的
 <lb n="0202a07" ed="Y"/>地方<lb n="0186a08" ed="Y" type="old"/>。四、就是小小的罪，也不可看為輕易，而要謹嚴的護持。能這樣受持學
 <lb n="0202a08" ed="Y"/>習，<lb n="0186a09" ed="Y" type="old"/>就能安住於淨戒，引生一切善功德了！</p>
-<lb n="0202a09" ed="Y"/><lb n="0186a10" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>密護於根門，飲食知節量，勤修寤瑜伽，依正知而住。</l></lg></quote>
-<lb n="0202a10" ed="Y"/><lb n="0186a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">這包含了四項修法。一、<quote type="嚴謹引文">「密護於根門」</quote>，就是<title level="m">《遺教經》</title>的制伏五根及
+<lb n="0202a09" ed="Y"/><lb n="0186a10" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0202a0901" rend="bold" type="abnormal"><l>密護於根門，飲食知節量，勤修寤瑜伽，依正知而住。</l></lg></quote>
+<lb n="0202a10" ed="Y"/><lb n="0186a11" ed="Y" type="old"/><p xml:id="pY12p0202a1001" style="margin-left:1em;text-indent:2em">這包含了四項修法。一、<quote type="嚴謹引文">「密護於根門」</quote>，就是<title level="m">《遺教經》</title>的制伏五根及
 <lb n="0202a11" ed="Y"/><lb n="0186a12" ed="Y" type="old"/>制心。六根——眼、耳、鼻、舌、身、意，是認識的門路，也是六識——劫功
 <lb n="0202a12" ed="Y"/><lb n="0186a13" ed="Y" type="old"/>德賊的入門，所以叫根門。五根是見色、聞聲、嗅香、嘗味、覺觸的；意根是<pb n="0187a" ed="Y" xml:id="Y12.0012.0187a.old" type="old"/>
 <lb n="0202a13" ed="Y"/><lb n="0187a01" ed="Y" type="old"/>知一切法的，為六根中最主要的。在我們的日常生活中，不外乎見色、聞聲、
@@ -905,7 +925,7 @@
 <lb n="0203a10" ed="Y"/>有<lb n="0187a11" ed="Y" type="old"/>正念，時時忘失，如小偷進門，大箱小籠搬了走，還呼呼的熟睡，沒有發覺
 <lb n="0203a11" ed="Y"/>，<lb n="0187a12" ed="Y" type="old"/>那怎能制伏呢？能謹密的守護根門，才能止惡，才能惡法漸伏、功德日增。
 <lb n="0203a12" ed="Y"/>說<lb n="0187a13" ed="Y" type="old"/>修行，在平常日用中，要從這些地方著力！</p><pb n="0188a" ed="Y" xml:id="Y12.0012.0188a.old" type="old"/>
-<lb n="0203a13" ed="Y"/><lb n="0188a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">二、<quote type="嚴謹引文">「飲食知節量」</quote>：對於出家眾，依賴施主、依賴乞食而生活的，這是
+<lb n="0203a13" ed="Y"/><lb n="0188a01" ed="Y" type="old"/><p xml:id="pY12p0203a1301" style="margin-left:1em;text-indent:2em">二、<quote type="嚴謹引文">「飲食知節量」</quote>：對於出家眾，依賴施主、依賴乞食而生活的，這是
 <pb n="0204a" ed="Y" xml:id="Y12.0012.0204a"/>
 <lb n="0204a01" ed="Y"/><lb n="0188a02" ed="Y" type="old"/>特別重要的。生在人間，為生理所限制，飲食是免不了的，沒有便無法生活，
 <lb n="0204a02" ed="Y"/><lb n="0188a03" ed="Y" type="old"/>所以佛說：<quote type="嚴謹引文">『一切眾生皆依食住。』</quote>但依賴施主而生活的，應該思量到：飲食
@@ -918,7 +938,7 @@
 <lb n="0204a09" ed="Y"/><lb n="0188a10" ed="Y" type="old"/>無厭，不但專在身體上著想、滋味上著想，對施主也會起顛倒心、生嫌恨心—
 <lb n="0204a10" ed="Y"/><lb n="0188a11" ed="Y" type="old"/>—多生煩惱，多作惡業。在家人對於經濟生活尚且要知節量，何況依施主而<lb n="0188a12" ed="Y" type="old"/>生
 <lb n="0204a11" ed="Y"/>活的出家人呢！</p>
-<lb n="0204a12" ed="Y"/><lb n="0188a13" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">三、<quote type="嚴謹引文">「勤修寤瑜伽」</quote>：這是有關睡眠的修持法。為了休養身心、保持身心<pb n="0189a" ed="Y" xml:id="Y12.0012.0189a.old" type="old"/>
+<lb n="0204a12" ed="Y"/><lb n="0188a13" ed="Y" type="old"/><p xml:id="pY12p0204a1201" style="margin-left:1em;text-indent:2em">三、<quote type="嚴謹引文">「勤修寤瑜伽」</quote>：這是有關睡眠的修持法。為了休養身心、保持身心<pb n="0189a" ed="Y" xml:id="Y12.0012.0189a.old" type="old"/>
 <lb n="0204a13" ed="Y"/><lb n="0189a01" ed="Y" type="old"/>的健康，睡眠是必要的。依佛制：初夜（以六時天黑，夜分十二小時計，初夜
 <pb n="0205a" ed="Y" xml:id="Y12.0012.0205a"/>
 <lb n="0205a01" ed="Y"/><lb n="0189a02" ed="Y" type="old"/>是下午六時到十時）、後夜（上午二時到六時），出家弟子都應過著經行及靜
@@ -938,13 +958,13 @@
 <lb n="0206a01" ed="Y"/>經，整夜都不睡眠。這也許譯文過簡而有了語病，把初夜（後夜）誦經譯<lb n="0190a03" ed="Y" type="old"/>在中
 <lb n="0206a02" ed="Y"/>夜裡，或者<quote type="嚴謹引文">『誦經以自消息』</quote>就是睡眠時（聞思修習純熟了的）法義的<lb n="0190a04" ed="Y" type="old"/>正念不
 <lb n="0206a03" ed="Y"/>忘。</p>
-<lb n="0206a04" ed="Y"/><lb n="0190a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">四、<quote type="嚴謹引文">「依正知而住」</quote>：出家人在一般生活中，無論是往或還來，（無意的
+<lb n="0206a04" ed="Y"/><lb n="0190a05" ed="Y" type="old"/><p xml:id="pY12p0206a0401" style="margin-left:1em;text-indent:2em">四、<quote type="嚴謹引文">「依正知而住」</quote>：出家人在一般生活中，無論是往或還來，（無意的
 <lb n="0206a05" ed="Y"/><lb n="0190a06" ed="Y" type="old"/>）睹見或（有意的）瞻視，手臂支節的屈或伸，對衣鉢的受持保護，飲食、行
 <lb n="0206a06" ed="Y"/><lb n="0190a07" ed="Y" type="old"/>、住、坐、臥、覺寤、語、默、解勞睡等，都要保持正知。在每一生活動作中
 <lb n="0206a07" ed="Y"/><lb n="0190a08" ed="Y" type="old"/>，知道自己在做什麼，應該做不應該做，適當或是不適當的時候，做得好不好
 <lb n="0206a08" ed="Y"/><lb n="0190a09" ed="Y" type="old"/>。總之，在這些事情中，能事事正知，就不會落入錯誤過失中去。</p>
-<lb n="0206a09" ed="Y"/><lb n="0190a10" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>知足心遠離，順於解脫乘。</l></lg></quote>
-<lb n="0206a10" ed="Y"/><lb n="0190a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">修學出世道的，要能夠隨遇而安。不可多求多欲，俗語也說：<quote type="嚴謹引文">『人到無求
+<lb n="0206a09" ed="Y"/><lb n="0190a10" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0206a0901" rend="bold" type="abnormal"><l>知足心遠離，順於解脫乘。</l></lg></quote>
+<lb n="0206a10" ed="Y"/><lb n="0190a11" ed="Y" type="old"/><p xml:id="pY12p0206a1001" style="margin-left:1em;text-indent:2em">修學出世道的，要能夠隨遇而安。不可多求多欲，俗語也說：<quote type="嚴謹引文">『人到無求
 <lb n="0206a11" ed="Y"/><lb n="0190a12" ed="Y" type="old"/>品自高。』</quote>對衣服、飲食、醫藥、日常用品，隨緣所得的，就要<quote type="嚴謹引文">「知足」</quote>。不
 <lb n="0206a12" ed="Y"/><lb n="0190a13" ed="Y" type="old"/>但多得了心意滿足，就是少得了，或者得到的不太合意，也能知足。能這樣，<pb n="0191a" ed="Y" xml:id="Y12.0012.0191a.old" type="old"/>
 <lb n="0206a13" ed="Y"/><lb n="0191a01" ed="Y" type="old"/>煩惱就少了，心也安了，容易修行。人不能離群，有群就有人事。如歡喜談話
@@ -959,9 +979,9 @@
 <lb n="0207a08" ed="Y"/>，中途出關。這都由於心不遠離，過不了安靜修行的生活，這怎麼能解脫<lb n="0191a10" ed="Y" type="old"/>生死
 <lb n="0207a09" ed="Y"/>呢？所以對物欲要知足，對人事要心遠離，這才能<quote type="嚴謹引文">「順於解脫」</quote>的三<quote type="嚴謹引文">「乘<lb n="0191a11" ed="Y" type="old"/>」</quote>法
 <lb n="0207a10" ed="Y"/>門，能趣向出世解脫的道果。</p>
-<lb n="0207a11" ed="Y"/><lb n="0191a12" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>此能淨尸羅，亦是定方便。</l></lg></quote>
-<lb n="0207a12" ed="Y"/><lb n="0191a13" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">這是結前起後；現在要從戒增上學，說到心（定）增上學了。</p><pb n="0192a" ed="Y" xml:id="Y12.0012.0192a.old" type="old"/>
-<lb n="0207a13" ed="Y"/><lb n="0192a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">上面所說的密護根門、飲食知量、覺寤瑜伽、正知而住、知足、遠離，<lb n="0192a02" ed="Y" type="old"/>都
+<lb n="0207a11" ed="Y"/><lb n="0191a12" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0207a1101" rend="bold" type="abnormal"><l>此能淨尸羅，亦是定方便。</l></lg></quote>
+<lb n="0207a12" ed="Y"/><lb n="0191a13" ed="Y" type="old"/><p xml:id="pY12p0207a1201" style="margin-left:1em;text-indent:2em">這是結前起後；現在要從戒增上學，說到心（定）增上學了。</p><pb n="0192a" ed="Y" xml:id="Y12.0012.0192a.old" type="old"/>
+<lb n="0207a13" ed="Y"/><lb n="0192a01" ed="Y" type="old"/><p xml:id="pY12p0207a1301" style="margin-left:1em;text-indent:2em">上面所說的密護根門、飲食知量、覺寤瑜伽、正知而住、知足、遠離，<lb n="0192a02" ed="Y" type="old"/>都
 <pb n="0208a" ed="Y" xml:id="Y12.0012.0208a"/>
 <lb n="0208a01" ed="Y"/>是<quote type="嚴謹引文">「能淨尸羅」</quote>的；能這樣去行，戒學一定會如法清淨。雖然戒以殺、盜、<lb n="0192a03" ed="Y" type="old"/>淫
 <lb n="0208a02" ed="Y"/>、妄為根本，但如在日常生活中貪求飲食、貪樂睡眠，不能守護根門，不<lb n="0192a04" ed="Y" type="old"/>能自
@@ -970,7 +990,7 @@
 <lb n="0208a05" ed="Y"/>活納入於如法的軌範，犯戒的因緣自然就少了；犯戒的因緣現前，也就能<lb n="0192a07" ed="Y" type="old"/>立刻
 <lb n="0208a06" ed="Y"/>警覺防護了。這樣，自然能做到戒法清淨。所以說到戒學，切勿輕視這些<lb n="0192a08" ed="Y" type="old"/>飲食
 <lb n="0208a07" ed="Y"/>等日常生活、以為無關緊要才是！</p>
-<lb n="0208a08" ed="Y"/><lb n="0192a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">這樣的戒學清淨，也就<quote type="嚴謹引文">「是定」</quote>學的<quote type="嚴謹引文">「方便」</quote>。這是修定所必備的基礎，
+<lb n="0208a08" ed="Y"/><lb n="0192a09" ed="Y" type="old"/><p xml:id="pY12p0208a0801" style="margin-left:1em;text-indent:2em">這樣的戒學清淨，也就<quote type="嚴謹引文">「是定」</quote>學的<quote type="嚴謹引文">「方便」</quote>。這是修定所必備的基礎，
 <lb n="0208a09" ed="Y"/><lb n="0192a10" ed="Y" type="old"/>也可說是修定的準備工作。經上說：<quote type="嚴謹引文">『戒淨便得無（熱惱追）悔；無悔故歡；
 <lb n="0208a10" ed="Y"/><lb n="0192a11" ed="Y" type="old"/>歡故生喜；由心喜故，身得輕安；身輕安故，便受勝樂；樂故心定。』</quote>這因為
 <lb n="0208a11" ed="Y"/><lb n="0192a12" ed="Y" type="old"/>持戒清淨的一定心安理得，自然能隨順趣入定學。如從日常生活的如法來<lb n="0192a13" ed="Y" type="old"/>說，
@@ -983,8 +1003,8 @@
 <lb n="0209a04" ed="Y"/>息等，一下子壓伏下去，這就難怪不容易得定了。就使有一些定力，由<lb n="0193a06" ed="Y" type="old"/>於戒行
 <lb n="0209a05" ed="Y"/>不淨、意欲（動機等）不正，也就成為邪定，結果是為邪魔非人所嬈亂<lb n="0193a07" ed="Y" type="old"/>，自害
 <lb n="0209a06" ed="Y"/>害人。</p>
-<lb n="0209a07" ed="Y"/><lb n="0193a08" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>進修於定學，離五欲五蓋。</l></lg></quote>
-<lb n="0209a08" ed="Y"/><lb n="0193a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">為了修定而持戒，叫做增上戒學。那麼戒學清淨，當然要依戒而<quote type="嚴謹引文">「進修於
+<lb n="0209a07" ed="Y"/><lb n="0193a08" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0209a0701" rend="bold" type="abnormal"><l>進修於定學，離五欲五蓋。</l></lg></quote>
+<lb n="0209a08" ed="Y"/><lb n="0193a09" ed="Y" type="old"/><p xml:id="pY12p0209a0801" style="margin-left:1em;text-indent:2em">為了修定而持戒，叫做增上戒學。那麼戒學清淨，當然要依戒而<quote type="嚴謹引文">「進修於
 <lb n="0209a09" ed="Y"/><lb n="0193a10" ed="Y" type="old"/>定學」</quote>了。首先要肯定認識：如修定而想有成就，那一定要<quote type="寬鬆引文">『離欲及惡不善法
 <lb n="0209a10" ed="Y"/><lb n="0193a11" ed="Y" type="old"/>』</quote>。因為定是屬於色、無色界的善法，如心在欲事上轉，不離欲界的惡不善法
 <lb n="0209a11" ed="Y"/>，<lb n="0193a12" ed="Y" type="old"/>那是不能進入色界善法的。這一點，有些人是忽略了。念念不忘飲食男女，
@@ -1001,7 +1021,7 @@
 <lb n="0210a08" ed="Y"/>苦去而安樂）一樣。想得定而又捨不得欲樂的，從三摩鉢底的字義中，有意<lb n="0194a10" ed="Y" type="old"/>無
 <lb n="0210a09" ed="Y"/>意的雜揉起來，這才修精煉氣，在色身及淫欲上用功，而不覺得誤入歧途了<lb n="0194a11" ed="Y" type="old"/>，
 <lb n="0210a10" ed="Y"/>這真是可悲可憫！</p>
-<lb n="0210a11" ed="Y"/><lb n="0194a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在應<quote type="嚴謹引文">「離」</quote>的欲及惡不善法中，欲是<quote type="嚴謹引文">「五欲」</quote>，惡不善法是<quote type="嚴謹引文">「五蓋」</quote>。五
+<lb n="0210a11" ed="Y"/><lb n="0194a12" ed="Y" type="old"/><p xml:id="pY12p0210a1101" style="margin-left:1em;text-indent:2em">在應<quote type="嚴謹引文">「離」</quote>的欲及惡不善法中，欲是<quote type="嚴謹引文">「五欲」</quote>，惡不善法是<quote type="嚴謹引文">「五蓋」</quote>。五
 <lb n="0210a12" ed="Y"/><lb n="0194a13" ed="Y" type="old"/>欲是淨妙的色、聲、香、味、觸，這是誘惑人心貪著追求的物欲。修定的，<pb n="0195a" ed="Y" xml:id="Y12.0012.0195a.old" type="old"/><lb n="0195a01" ed="Y" type="old"/>要
 <lb n="0210a13" ed="Y"/>攝心向內，所以必須離棄它。對於五欲境界，要不受味——不為一時滿意的<lb n="0195a02" ed="Y" type="old"/>快
 <pb n="0211a" ed="Y" xml:id="Y12.0012.0211a"/>
@@ -1012,7 +1032,7 @@
 <lb n="0211a05" ed="Y"/><lb n="0195a06" ed="Y" type="old"/>，引出無邊罪惡、無邊苦痛。經中形容為：如緊緊的繩索，縛得你破皮、破肉
 <lb n="0211a06" ed="Y"/><lb n="0195a07" ed="Y" type="old"/>、斷筋、斷骨，還不能捨離。這是與定相反的，所以就是在家弟子，如想修習
 <lb n="0211a07" ed="Y"/><lb n="0195a08" ed="Y" type="old"/>禪定，也非節淫欲不可。</p>
-<lb n="0211a08" ed="Y"/><lb n="0195a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">五蓋，是欲貪蓋、瞋恚蓋、惛沈睡眠蓋、掉舉惡作蓋、疑蓋。這都是覆蓋
+<lb n="0211a08" ed="Y"/><lb n="0195a09" ed="Y" type="old"/><p xml:id="pY12p0211a0801" style="margin-left:1em;text-indent:2em">五蓋，是欲貪蓋、瞋恚蓋、惛沈睡眠蓋、掉舉惡作蓋、疑蓋。這都是覆蓋
 <lb n="0211a09" ed="Y"/><lb n="0195a10" ed="Y" type="old"/>淨心善法而不得發生，對修習定慧的障礙極大，所以叫蓋。欲貪，從五欲的淨
 <lb n="0211a10" ed="Y"/><lb n="0195a11" ed="Y" type="old"/>妙相而來。瞋恚，從可憎境而起。惛沈的心情昧劣下沈，與睡眠鄰近，這是從
 <lb n="0211a11" ed="Y"/><lb n="0195a12" ed="Y" type="old"/>闇昧相而來的。掉舉與惛沈相反，是心性的向上飛揚。惡作是追悔，是從想到
@@ -1022,27 +1042,27 @@
 <lb n="0212a01" ed="Y"/><lb n="0196a02" ed="Y" type="old"/>……，這一類的疑惑。這要修不淨想來治欲貪，修慈悲想來治瞋恚，修緣起想
 <lb n="0212a02" ed="Y"/>來<lb n="0196a03" ed="Y" type="old"/>治疑，修光明想（法義的觀察）來治惛沈睡眠，修止息想來治掉舉惡作。這
 <lb n="0212a03" ed="Y"/>五<lb n="0196a04" ed="Y" type="old"/>蓋能除遣了，定也就要成就了。</p>
-<lb n="0212a04" ed="Y"/><lb n="0196a05" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>不淨及持息，是名二甘露。</l></lg></quote>
-<lb n="0212a05" ed="Y"/><lb n="0196a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">為了修發真慧而修習禪定的，叫心（定）增上學，就是住心法門。佛多教
+<lb n="0212a04" ed="Y"/><lb n="0196a05" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0212a0401" rend="bold" type="abnormal"><l>不淨及持息，是名二甘露。</l></lg></quote>
+<lb n="0212a05" ed="Y"/><lb n="0196a06" ed="Y" type="old"/><p xml:id="pY12p0212a0501" style="margin-left:1em;text-indent:2em">為了修發真慧而修習禪定的，叫心（定）增上學，就是住心法門。佛多教
 <lb n="0212a06" ed="Y"/><lb n="0196a07" ed="Y" type="old"/>授<quote type="嚴謹引文">「不淨」</quote>觀<quote type="嚴謹引文">「及持息」</quote>念，使弟子們從此下手，修定而修發真慧的。這在<lb n="0196a08" ed="Y" type="old"/>古
 <lb n="0212a07" ed="Y"/>代，<quote type="嚴謹引文">「名」</quote>這二者為<quote type="嚴謹引文">「二甘露」</quote>門。印度語的甘露，與中國傳說的仙丹相近<lb n="0196a09" ed="Y" type="old"/>，
 <lb n="0212a08" ed="Y"/>是不死藥。佛法以此譬喻不生滅的涅槃；修習這二大法門，能了脫生死，所<lb n="0196a10" ed="Y" type="old"/>以
 <lb n="0212a09" ed="Y"/>叫甘露門。其後，阿毘達磨論師，加上界分別，稱為『三度門』。</p>
-<lb n="0212a10" ed="Y"/><lb n="0196a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">佛所開示的禪觀，如約眾生的煩惱特重不同，修習不同的對治，使心漸歸
+<lb n="0212a10" ed="Y"/><lb n="0196a11" ed="Y" type="old"/><p xml:id="pY12p0212a1001" style="margin-left:1em;text-indent:2em">佛所開示的禪觀，如約眾生的煩惱特重不同，修習不同的對治，使心漸歸
 <lb n="0212a11" ed="Y"/><lb n="0196a12" ed="Y" type="old"/>安定清淨來說，古師曾總集為『五停心』（玄奘譯為五種淨行），就是：以不
 <lb n="0212a12" ed="Y"/><lb n="0196a13" ed="Y" type="old"/>淨觀治貪欲，慈悲觀治瞋恚，緣起觀治愚癡，界分別治我慢，持息念治尋思散<pb n="0197a" ed="Y" xml:id="Y12.0012.0197a.old" type="old"/>
 <lb n="0212a13" ed="Y"/><lb n="0197a01" ed="Y" type="old"/>亂。這是針對某一類的煩惱特別強而施用的不同治法，但一般說來，佛是多<lb n="0197a02" ed="Y" type="old"/>以
 <pb n="0213a" ed="Y" xml:id="Y12.0012.0213a"/>
 <lb n="0213a01" ed="Y"/>這二大法門來教授的。這不但對治欲貪、散亂（這是障定最重的），依此修<lb n="0197a03" ed="Y" type="old"/>成
 <lb n="0213a02" ed="Y"/>禪定，也可由此進修真慧而了生死的。</p>
-<lb n="0213a03" ed="Y"/><lb n="0197a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">不淨觀，是先取死屍的不淨相而修習的，就是九想：一、青瘀想；二、膿
+<lb n="0213a03" ed="Y"/><lb n="0197a04" ed="Y" type="old"/><p xml:id="pY12p0213a0301" style="margin-left:1em;text-indent:2em">不淨觀，是先取死屍的不淨相而修習的，就是九想：一、青瘀想；二、膿
 <lb n="0213a04" ed="Y"/><lb n="0197a05" ed="Y" type="old"/>爛想；三、變壞想；四、膨脹想；五、食噉想；六、血塗想；七、分散想；八
 <lb n="0213a05" ed="Y"/><lb n="0197a06" ed="Y" type="old"/>、骨鎖想；九、散壞想。這是對治貪欲——淫欲貪、身體愛最有力的。持息念
 <lb n="0213a06" ed="Y"/><lb n="0197a07" ed="Y" type="old"/>，俗稱數息觀，是心念出入息（呼吸）而修定的，就是六妙門：一、數；二、
 <lb n="0213a07" ed="Y"/><lb n="0197a08" ed="Y" type="old"/>隨；三、止；四、觀；五、還；六、淨。還有十六勝行，那是持息念中最高勝
 <lb n="0213a08" ed="Y"/><lb n="0197a09" ed="Y" type="old"/>的。</p>
-<lb n="0213a09" ed="Y"/><lb n="0197a10" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>依此而攝心，攝心得正定。能發真慧者，佛說有七依。</l></lg></quote>
-<lb n="0213a10" ed="Y"/><lb n="0197a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「依」</quote>著上面所說的法門——不淨想、持息念，<quote type="嚴謹引文">「而」</quote>修習<quote type="嚴謹引文">「攝心」</quote>，不
+<lb n="0213a09" ed="Y"/><lb n="0197a10" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0213a0901" rend="bold" type="abnormal"><l>依此而攝心，攝心得正定。能發真慧者，佛說有七依。</l></lg></quote>
+<lb n="0213a10" ed="Y"/><lb n="0197a11" ed="Y" type="old"/><p xml:id="pY12p0213a1001" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「依」</quote>著上面所說的法門——不淨想、持息念，<quote type="嚴謹引文">「而」</quote>修習<quote type="嚴謹引文">「攝心」</quote>，不
 <lb n="0213a11" ed="Y"/><lb n="0197a12" ed="Y" type="old"/>使散亂的，就是修定。無論是修定，或者修觀慧，起初都是有所緣境相的，如
 <lb n="0213a12" ed="Y"/><lb n="0197a13" ed="Y" type="old"/>以青瘀等不淨相為境，或以出入的呼吸為境。對於所緣的境相，如觀察思惟它<pb n="0198a" ed="Y" xml:id="Y12.0012.0198a.old" type="old"/>
 <lb n="0213a13" ed="Y"/><lb n="0198a01" ed="Y" type="old"/>，就是修觀；如依著而攝心不散，心住一境，便是修定了。修定的方法很多，
@@ -1052,7 +1072,7 @@
 <lb n="0214a03" ed="Y"/><lb n="0198a04" ed="Y" type="old"/>如能達到遠離五欲、斷除五蓋，那麼定心明淨，會很快的發生功德而成就的，
 <lb n="0214a04" ed="Y"/><lb n="0198a05" ed="Y" type="old"/>所以說<quote type="嚴謹引文">「攝心」</quote>能<quote type="嚴謹引文">「得正定」</quote>。約一般的禪定說，不是邪定、味定，就是正定
 <lb n="0214a05" ed="Y"/><lb n="0198a06" ed="Y" type="old"/>。約出世法說，那無漏定才是正定呢！</p>
-<lb n="0214a06" ed="Y"/><lb n="0198a07" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">三乘賢聖弟子，是為了修發真慧而修定的。定境由淺而深，階位不一，到
+<lb n="0214a06" ed="Y"/><lb n="0198a07" ed="Y" type="old"/><p xml:id="pY12p0214a0601" style="margin-left:1em;text-indent:2em">三乘賢聖弟子，是為了修發真慧而修定的。定境由淺而深，階位不一，到
 <lb n="0214a07" ed="Y"/><lb n="0198a08" ed="Y" type="old"/>底那些定可以作為依止而修發真慧呢？總攝修發的一切定法，不出這樣的大<lb n="0198a09" ed="Y" type="old"/>階
 <lb n="0214a08" ed="Y"/>位——四禪、八定（還沒有滅受想定，這是聖者所修證的，姑且不說）。四<lb n="0198a10" ed="Y" type="old"/>禪
 <lb n="0214a09" ed="Y"/>是：初禪，二禪，三禪，四禪。八定是：四禪以外，再加空無邊處定、識無<lb n="0198a11" ed="Y" type="old"/>邊
@@ -1067,9 +1087,9 @@
 <lb n="0215a04" ed="Y"/>。所以<quote type="嚴謹引文">「能」</quote>夠<quote type="嚴謹引文">「發真慧」</quote>的，<quote type="嚴謹引文">「佛說」</quote>只<quote type="嚴謹引文">「有七依」</quote>定，就是：初禪，<lb n="0199a06" ed="Y" type="old"/>二禪
 <lb n="0215a05" ed="Y"/>，三禪，四禪，空無邊處，識無邊處，無所有處——七定。但最初的未到<lb n="0199a07" ed="Y" type="old"/>定，
 <lb n="0215a06" ed="Y"/>也是可以發慧的；這是初禪的近分定，所以就攝在初禪中。</p>
-<lb n="0215a07" ed="Y"/><lb n="0199a08" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">關於定學的修習，就是攝心令住的修法，下面會有更詳明的說明。</p>
-<lb n="0215a08" ed="Y"/><lb n="0199a09" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>增上慧學者，即出世正見。</l></lg></quote>
-<lb n="0215a09" ed="Y"/><lb n="0199a10" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">道諦，是三學、八正道。戒學、定學，都說過了，現在要說到慧學。慧學
+<lb n="0215a07" ed="Y"/><lb n="0199a08" ed="Y" type="old"/><p xml:id="pY12p0215a0701" style="margin-left:1em;text-indent:2em">關於定學的修習，就是攝心令住的修法，下面會有更詳明的說明。</p>
+<lb n="0215a08" ed="Y"/><lb n="0199a09" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0215a0801" rend="bold" type="abnormal"><l>增上慧學者，即出世正見。</l></lg></quote>
+<lb n="0215a09" ed="Y"/><lb n="0199a10" ed="Y" type="old"/><p xml:id="pY12p0215a0901" style="margin-left:1em;text-indent:2em">道諦，是三學、八正道。戒學、定學，都說過了，現在要說到慧學。慧學
 <lb n="0215a10" ed="Y"/><lb n="0199a11" ed="Y" type="old"/>就是八正道中的正見（還有正思惟），所以綜合起來說：<quote type="嚴謹引文">「增上慧學」</quote>，就是
 <lb n="0215a11" ed="Y"/><lb n="0199a12" ed="Y" type="old"/><quote type="嚴謹引文">「出世正見」</quote>。什麼是增上慧學？為了作為解脫的依止而修慧，叫增上慧。這
 <lb n="0215a12" ed="Y"/><lb n="0199a13" ed="Y" type="old"/>當然不是俗知俗見，而是究竟的真實慧了。正見也如此，如上面說到的知善惡<pb n="0200a" ed="Y" xml:id="Y12.0012.0200a.old" type="old"/>
@@ -1078,20 +1098,20 @@
 <lb n="0216a01" ed="Y"/><lb n="0200a02" ed="Y" type="old"/>斷煩惱、得解脫，要有出世的正見。什麼叫出世？就是超過和勝出一般世間（
 <lb n="0216a02" ed="Y"/><lb n="0200a03" ed="Y" type="old"/>凡夫）的意思。或是悟解真理的正見，或是離煩惱的無漏正見，都叫出世正見
 <lb n="0216a03" ed="Y"/><lb n="0200a04" ed="Y" type="old"/>。在說明上，現在是著重於勝義——真實義的知見。</p>
-<lb n="0216a04" ed="Y"/><lb n="0200a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">慧，梵語般若。在佛法所修的一切功德中，般若是最究竟的：有了般若，
+<lb n="0216a04" ed="Y"/><lb n="0200a05" ed="Y" type="old"/><p xml:id="pY12p0216a0401" style="margin-left:1em;text-indent:2em">慧，梵語般若。在佛法所修的一切功德中，般若是最究竟的：有了般若，
 <lb n="0216a05" ed="Y"/><lb n="0200a06" ed="Y" type="old"/>可說到了家；體悟真理、解脫生死的大事，已經能夠成辦；涅槃城大門，已經
 <lb n="0216a06" ed="Y"/><lb n="0200a07" ed="Y" type="old"/>打開。如沒有般若，什麼行門，都不能解脫生死。般若又是最根本的：般若是
 <lb n="0216a07" ed="Y"/><lb n="0200a08" ed="Y" type="old"/>領導者，啟導一切功德的進修，與一切功德相應。在三學中，慧學最後，為能
 <lb n="0216a08" ed="Y"/><lb n="0200a09" ed="Y" type="old"/>得解脫的依止；而在八正道中，卻以正見為首。這說明了般若在佛法中的地位
 <lb n="0216a09" ed="Y"/><lb n="0200a10" ed="Y" type="old"/>，是徹始徹終的；它是領導者，又是完成者！</p>
-<lb n="0216a10" ed="Y"/><lb n="0200a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在三乘共法的經典裡，慧是有很多名稱的，如慧、見、明、觀、忍、智、
+<lb n="0216a10" ed="Y"/><lb n="0200a11" ed="Y" type="old"/><p xml:id="pY12p0216a1001" style="margin-left:1em;text-indent:2em">在三乘共法的經典裡，慧是有很多名稱的，如慧、見、明、觀、忍、智、
 <lb n="0216a11" ed="Y"/><lb n="0200a12" ed="Y" type="old"/>覺；正觀、正見、正知、正思惟；如實觀、如實知、如實見、如實知見、如實
 <lb n="0216a12" ed="Y"/><lb n="0200a13" ed="Y" type="old"/>思惟；擇法等。</p><pb n="0201a" ed="Y" xml:id="Y12.0012.0201a.old" type="old"/>
-<lb n="0216a13" ed="Y"/><lb n="0201a01" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>佛為阿難說：緣起義甚深；此有故彼有，此生故彼生；無常空無我，惟世俗假<lb n="0201a02" ed="Y" type="old"/>有。</l></lg></quote>
+<lb n="0216a13" ed="Y"/><lb n="0201a01" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0216a1301" rend="bold" type="abnormal"><l>佛為阿難說：緣起義甚深；此有故彼有，此生故彼生；無常空無我，惟世俗假<lb n="0201a02" ed="Y" type="old"/>有。</l></lg></quote>
 <pb n="0217a" ed="Y" xml:id="Y12.0012.0217a"/>
-<lb n="0217a01" ed="Y"/><lb n="0201a03" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">出世的解脫法門，不出乎四諦與緣起的二大綱，所以說到出世的慧學，也
+<lb n="0217a01" ed="Y"/><lb n="0201a03" ed="Y" type="old"/><p xml:id="pY12p0217a0101" style="margin-left:1em;text-indent:2em">出世的解脫法門，不出乎四諦與緣起的二大綱，所以說到出世的慧學，也
 <lb n="0217a02" ed="Y"/><lb n="0201a04" ed="Y" type="old"/>就是通達緣起與知四諦的慧。現在，先從正見緣起來說。</p>
-<lb n="0217a03" ed="Y"/><lb n="0201a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">上面說到過的十二緣起說，在一般人的心目中，這不過是煩惱起業、業感
+<lb n="0217a03" ed="Y"/><lb n="0201a05" ed="Y" type="old"/><p xml:id="pY12p0217a0301" style="margin-left:1em;text-indent:2em">上面說到過的十二緣起說，在一般人的心目中，這不過是煩惱起業、業感
 <lb n="0217a04" ed="Y"/><lb n="0201a06" ed="Y" type="old"/>苦果的說明，說明了生死的無限延續並非神造而已。就是部分的分別法相的<lb n="0201a07" ed="Y" type="old"/>佛
 <lb n="0217a05" ed="Y"/>學者，也每每如此。如真的這樣，這不過是緣起的世間正見，怎麼能解脫生<lb n="0201a08" ed="Y" type="old"/>死
 <lb n="0217a06" ed="Y"/>呢？阿難曾代表過這樣的見地，以為緣起是很好懂的。<quote type="嚴謹引文">「佛」</quote>就因此<quote type="嚴謹引文">「為阿<lb n="0201a09" ed="Y" type="old"/>難
@@ -1106,7 +1126,7 @@
 <lb n="0218a01" ed="Y"/>死的因果序列，有著必然性與普遍性的。從因果的不同事實，而悟解到一切<lb n="0202a04" ed="Y" type="old"/>眾
 <lb n="0218a02" ed="Y"/>生共同的必然理性，堅定的信解，這才得到了初步的成就。但還要再深入，<lb n="0202a05" ed="Y" type="old"/>徹
 <lb n="0218a03" ed="Y"/>悟更深的真義。</p>
-<lb n="0218a04" ed="Y"/><lb n="0202a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">佛的開示緣起，總是說：<quote type="嚴謹引文">『依此有彼有，此生故彼生；謂無明緣行，行緣
+<lb n="0218a04" ed="Y"/><lb n="0202a06" ed="Y" type="old"/><p xml:id="pY12p0218a0401" style="margin-left:1em;text-indent:2em">佛的開示緣起，總是說：<quote type="嚴謹引文">『依此有彼有，此生故彼生；謂無明緣行，行緣
 <lb n="0218a05" ed="Y"/><lb n="0202a07" ed="Y" type="old"/>識……生緣老死。』</quote>要知道：無明、行……老死，這十二支的因果相生，是緣
 <lb n="0218a06" ed="Y"/><lb n="0202a08" ed="Y" type="old"/>起的事實或緣起的序列；而<quote type="嚴謹引文">「此有故彼有」，「此生故彼生」</quote>，才是緣起的法
 <lb n="0218a07" ed="Y"/>則<lb n="0202a09" ed="Y" type="old"/>。因果的所以成為因果，生死的所以成為生死，都離不了這個——此有故彼
@@ -1127,7 +1147,7 @@
 <lb n="0219a08" ed="Y"/>依相<lb n="0203a10" ed="Y" type="old"/>待的存在。展轉相關的、相依相待的存在，才能成為因果。所以，從佛悟
 <lb n="0219a09" ed="Y"/>證的<lb n="0203a11" ed="Y" type="old"/><quote type="嚴謹引文">『此有故彼有，此生故彼生』</quote>的因果定律，就能正見因果的深義，而不是
 <lb n="0219a10" ed="Y"/>庸俗<lb n="0203a12" ed="Y" type="old"/>的因果觀了！</p>
-<lb n="0219a11" ed="Y"/><lb n="0203a13" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">依照這深刻的因果觀，來正觀一切，就能正確地了解：一切是<quote type="嚴謹引文">「無常」</quote>的<pb n="0204a" ed="Y" xml:id="Y12.0012.0204a.old" type="old"/>
+<lb n="0219a11" ed="Y"/><lb n="0203a13" ed="Y" type="old"/><p xml:id="pY12p0219a1101" style="margin-left:1em;text-indent:2em">依照這深刻的因果觀，來正觀一切，就能正確地了解：一切是<quote type="嚴謹引文">「無常」</quote>的<pb n="0204a" ed="Y" xml:id="Y12.0012.0204a.old" type="old"/>
 <lb n="0219a12" ed="Y"/><lb n="0204a01" ed="Y" type="old"/>，是<quote type="嚴謹引文">「空」、「無我」</quote>的。存在與生起的一切法，都是無常的。你看！器界在
 <lb n="0219a13" ed="Y"/>成而壞<lb n="0204a02" ed="Y" type="old"/>，國家在興而衰亡，眾生在生而老死。如粗顯的說，是一期無常：如器
 <pb n="0220a" ed="Y" xml:id="Y12.0012.0220a"/>
@@ -1152,7 +1172,7 @@
 <lb n="0221a05" ed="Y"/>自由（<lb n="0205a07" ed="Y" type="old"/>樂）的我呢？無常無我的正觀，如佛所常說的<quote type="嚴謹引文">『色（等一切法）無常，
 <lb n="0221a06" ed="Y"/>無常<lb n="0205a08" ed="Y" type="old"/>即苦（不安隱，不自由），苦即非我，非我者亦非我所。如是觀者，名真
 <lb n="0221a07" ed="Y"/>實正<lb n="0205a09" ed="Y" type="old"/>觀』</quote>。</p>
-<lb n="0221a08" ed="Y"/><lb n="0205a10" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">這樣，器界也好，眾生也好，一一法也好，都<quote type="嚴謹引文">「惟」</quote>是<quote type="嚴謹引文">「世俗」</quote>的<quote type="嚴謹引文">「假有
+<lb n="0221a08" ed="Y"/><lb n="0205a10" ed="Y" type="old"/><p xml:id="pY12p0221a0801" style="margin-left:1em;text-indent:2em">這樣，器界也好，眾生也好，一一法也好，都<quote type="嚴謹引文">「惟」</quote>是<quote type="嚴謹引文">「世俗」</quote>的<quote type="嚴謹引文">「假有
 <lb n="0221a09" ed="Y"/><lb n="0205a11" ed="Y" type="old"/>」</quote>了。除去世俗的假有，什麼也不可得。什麼叫世俗？什麼叫假有呢？世俗，
 <lb n="0221a10" ed="Y"/><lb n="0205a12" ed="Y" type="old"/>有浮虛不實的意思。經我們——一切眾生的虛妄分別心而發現的一切，覺得這
 <lb n="0221a11" ed="Y"/><lb n="0205a13" ed="Y" type="old"/>是什麼、那是什麼；心裡覺得的那個，覺得就是稱之為什麼的，庸常所認識到<pb n="0206a" ed="Y" xml:id="Y12.0012.0206a.old" type="old"/>
@@ -1174,8 +1194,8 @@
 <lb n="0222a13" ed="Y"/>存在，流轉不絕於生死大海。生死死生的相續不已，也就是輪迴不已、苦痛<lb n="0207a03" ed="Y" type="old"/>不
 <pb n="0223a" ed="Y" xml:id="Y12.0012.0223a"/>
 <lb n="0223a01" ed="Y"/>已。</p>
-<lb n="0223a02" ed="Y"/><lb n="0207a04" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>此無故彼無，此滅故彼滅；緣起空寂性，義倍復甚深。</l></lg></quote>
-<lb n="0223a03" ed="Y"/><lb n="0207a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">無常無我的生死，從煩惱起業，從業起苦果，又從苦果起惑、業。這緣起
+<lb n="0223a02" ed="Y"/><lb n="0207a04" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0223a0201" rend="bold" type="abnormal"><l>此無故彼無，此滅故彼滅；緣起空寂性，義倍復甚深。</l></lg></quote>
+<lb n="0223a03" ed="Y"/><lb n="0207a05" ed="Y" type="old"/><p xml:id="pY12p0223a0301" style="margin-left:1em;text-indent:2em">無常無我的生死，從煩惱起業，從業起苦果，又從苦果起惑、業。這緣起
 <lb n="0223a04" ed="Y"/>的<lb n="0207a06" ed="Y" type="old"/>生死，是否會永遠不斷的生死流轉下去？不！生死是可以解脫的。為什麼可
 <lb n="0223a05" ed="Y"/>以<lb n="0207a07" ed="Y" type="old"/>解脫？就因為它是緣起法的緣故。佛在開示了緣起的生死流轉以後，接著就
 <lb n="0223a06" ed="Y"/>開<lb n="0207a08" ed="Y" type="old"/>示生死的還滅說：<quote type="嚴謹引文">『此無故彼無，此滅故彼滅，無明滅故行滅，行滅故識滅
@@ -1198,7 +1218,7 @@
 <lb n="0224a09" ed="Y"/>，通達是無常、無我的，那自我中心的妄執失去了對象，煩惱也就不起了<lb n="0208a12" ed="Y" type="old"/>（煩
 <lb n="0224a10" ed="Y"/>惱也是緣起的生滅），生死也就解脫了。佛所以這樣說：<quote type="嚴謹引文">『無常想者，能<lb n="0208a13" ed="Y" type="old"/>建立
 <lb n="0224a11" ed="Y"/>無我想。聖弟子住無我想，心離我慢，順得涅槃。』</quote></p><pb n="0209a" ed="Y" xml:id="Y12.0012.0209a.old" type="old"/>
-<lb n="0224a12" ed="Y"/><lb n="0209a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">正觀緣起的無常無我，離煩惱而解脫生死，名為得般涅槃。涅槃到底是怎
+<lb n="0224a12" ed="Y"/><lb n="0209a01" ed="Y" type="old"/><p xml:id="pY12p0224a1201" style="margin-left:1em;text-indent:2em">正觀緣起的無常無我，離煩惱而解脫生死，名為得般涅槃。涅槃到底是怎
 <lb n="0224a13" ed="Y"/><lb n="0209a02" ed="Y" type="old"/>樣的呢？那是深而更深的。佛為阿難說有為與無為法，也就是緣起與<quote type="嚴謹引文">「緣起」</quote>
 <pb n="0225a" ed="Y" xml:id="Y12.0012.0225a"/>
 <lb n="0225a01" ed="Y"/><lb n="0209a03" ed="Y" type="old"/>的<quote type="嚴謹引文">「空寂性」</quote>，說是<quote type="嚴謹引文">「義倍復甚深」</quote>。如說：<quote type="嚴謹引文">『此甚深處，所謂緣起（有為）
@@ -1219,8 +1239,8 @@
 <lb n="0226a02" ed="Y"/>應說，<lb n="0210a04" ed="Y" type="old"/>有無亦不應說，非有非無亦不應說。……離諸虛偽，得般涅槃，此則佛
 <lb n="0226a03" ed="Y"/>說。』</quote><lb n="0210a05" ed="Y" type="old"/>總之，這是超越了假名相對界（緣起），而契入絕對界，什麼也不可說
 <lb n="0226a04" ed="Y"/>，說著<lb n="0210a06" ed="Y" type="old"/>也不對。但這是從正觀緣起的空寂而悟入，也就是緣起法性的實證。</p>
-<lb n="0226a05" ed="Y"/><lb n="0210a07" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>此是佛所說，緣起中道義，不著有無見，正見得解脫。</l></lg></quote>
-<lb n="0226a06" ed="Y"/><lb n="0210a08" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">上來所說的，<quote type="嚴謹引文">「是佛」</quote>在<title level="m">《阿含經》</title>等<quote type="嚴謹引文">「所說」</quote>的，名為<quote type="嚴謹引文">「緣起中道義」</quote>
+<lb n="0226a05" ed="Y"/><lb n="0210a07" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0226a0501" rend="bold" type="abnormal"><l>此是佛所說，緣起中道義，不著有無見，正見得解脫。</l></lg></quote>
+<lb n="0226a06" ed="Y"/><lb n="0210a08" ed="Y" type="old"/><p xml:id="pY12p0226a0601" style="margin-left:1em;text-indent:2em">上來所說的，<quote type="嚴謹引文">「是佛」</quote>在<title level="m">《阿含經》</title>等<quote type="嚴謹引文">「所說」</quote>的，名為<quote type="嚴謹引文">「緣起中道義」</quote>
 <lb n="0226a07" ed="Y"/><lb n="0210a09" ed="Y" type="old"/>。中道，是正確的、恰好的，沒有偏差、不落於兩邊邪見的。佛法的中道觀，
 <lb n="0226a08" ed="Y"/><lb n="0210a10" ed="Y" type="old"/>是從緣起法的正觀中顯出，為佛說法的根本立場。所以，正觀也稱為中觀，正
 <lb n="0226a09" ed="Y"/><lb n="0210a11" ed="Y" type="old"/>法也稱為中法了。說到不落二邊，經中都依眾生自體說。眾生，是緣起的生滅
@@ -1233,7 +1253,7 @@
 <lb n="0227a02" ed="Y"/><lb n="0211a04" ed="Y" type="old"/>說：<quote type="嚴謹引文">『若先來有我，則是常見；於今斷滅，則是斷見。如來離於二邊，處中說
 <lb n="0227a03" ed="Y"/><lb n="0211a05" ed="Y" type="old"/>法，所謂是事有故是事有……。』</quote>這都是不常不斷的中道。佛說中道，都是依
 <lb n="0227a04" ed="Y"/><lb n="0211a06" ed="Y" type="old"/>緣起而立論的；最重要的，要算不有不無的緣起中道了。</p>
-<lb n="0227a05" ed="Y"/><lb n="0211a07" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">佛為刪陀迦旃延，說過不落有無二邊的緣起中道。迦旃延，是不著一切相
+<lb n="0227a05" ed="Y"/><lb n="0211a07" ed="Y" type="old"/><p xml:id="pY12p0227a0501" style="margin-left:1em;text-indent:2em">佛為刪陀迦旃延，說過不落有無二邊的緣起中道。迦旃延，是不著一切相
 <lb n="0227a06" ed="Y"/><lb n="0211a08" ed="Y" type="old"/>而深入『勝義禪』的大師。大乘龍樹的<title level="m">《中觀論》</title>、彌勒的<title level="m">《瑜伽師地論》</title>，
 <lb n="0227a07" ed="Y"/>都引<lb n="0211a09" ed="Y" type="old"/>證這<title level="m">《阿含經》</title>的教授，來說明諸法的真實相。所以這一教授，在抉擇佛
 <lb n="0227a08" ed="Y"/>法的<lb n="0211a10" ed="Y" type="old"/>緣起正見中，有著無比的重要性。佛對迦旃延說：<quote type="嚴謹引文">『世人顛倒，依於二邊
@@ -1258,8 +1278,8 @@
 <lb n="0228a13" ed="Y"/>了。三<lb n="0213a02" ed="Y" type="old"/>學的增上慧學——甚深般若，八正道的正見，都是緣起的中道觀。所以
 <pb n="0229a" ed="Y" xml:id="Y12.0012.0229a"/>
 <lb n="0229a01" ed="Y"/>佛弟子<lb n="0213a03" ed="Y" type="old"/>能不著常我，不落斷常、一異、有無的執見，破無明而了脫生死。</p>
-<lb n="0229a02" ed="Y"/><lb n="0213a04" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>又復正見者，即是四諦慧；如實知四諦，應斷及應修，惑苦滅應證，由滅得涅槃<lb n="0213a05" ed="Y" type="old"/>。</l></lg></quote>
-<lb n="0229a03" ed="Y"/><lb n="0213a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">出世的解脫道，是以緣起及四諦法門為綱要的。所以說到正見，除知緣起
+<lb n="0229a02" ed="Y"/><lb n="0213a04" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0229a0201" rend="bold" type="abnormal"><l>又復正見者，即是四諦慧；如實知四諦，應斷及應修，惑苦滅應證，由滅得涅槃<lb n="0213a05" ed="Y" type="old"/>。</l></lg></quote>
+<lb n="0229a03" ed="Y"/><lb n="0213a06" ed="Y" type="old"/><p xml:id="pY12p0229a0301" style="margin-left:1em;text-indent:2em">出世的解脫道，是以緣起及四諦法門為綱要的。所以說到正見，除知緣起
 <lb n="0229a04" ed="Y"/><lb n="0213a07" ed="Y" type="old"/>的集、滅外，還有四諦的正見，這是經中特別重視的。正見流轉還滅的緣起法
 <lb n="0229a05" ed="Y"/><lb n="0213a08" ed="Y" type="old"/>，是依因而起、依因而滅的正見。但這不是空洞的因果觀、有空觀，而是無明
 <lb n="0229a06" ed="Y"/><lb n="0213a09" ed="Y" type="old"/>緣行等的依緣而有，無明滅就行滅等的依緣而無。因果相依的必然性，從中道
@@ -1273,7 +1293,7 @@
 <pb n="0230a" ed="Y" xml:id="Y12.0012.0230a"/>
 <lb n="0230a01" ed="Y"/>智）。所以緣<lb n="0214a04" ed="Y" type="old"/>起<quote type="嚴謹引文">「正見」</quote>，也<quote type="嚴謹引文">「即是」</quote>知<quote type="嚴謹引文">「四諦慧」</quote>。不過在說明上，緣起法
 <lb n="0230a02" ed="Y"/>門著重於豎的<lb n="0214a05" ed="Y" type="old"/>系列說明，四諦著重於橫的分類而已。</p>
-<lb n="0230a03" ed="Y"/><lb n="0214a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">佛在鹿野苑，最初為五比丘大轉法輪，就是四諦法門，也就是稱為『三轉
+<lb n="0230a03" ed="Y"/><lb n="0214a06" ed="Y" type="old"/><p xml:id="pY12p0230a0301" style="margin-left:1em;text-indent:2em">佛在鹿野苑，最初為五比丘大轉法輪，就是四諦法門，也就是稱為『三轉
 <lb n="0230a04" ed="Y"/><lb n="0214a07" ed="Y" type="old"/>十二行相』的法輪，明白表示出對四諦的次第深入。當時，佛先指示了：那些
 <lb n="0230a05" ed="Y"/><lb n="0214a08" ed="Y" type="old"/>是苦，那些是集，什麼是滅，什麼是道。這應該是剴切分別，詳細指示。不但
 <lb n="0230a06" ed="Y"/><lb n="0214a09" ed="Y" type="old"/>要知道那些是苦的、那些是苦的集因，苦必從集生，有集就有苦等事理，而且
@@ -1295,7 +1315,7 @@
 <lb n="0231a08" ed="Y"/>實知<lb n="0215a11" ed="Y" type="old"/>，也就能知集是<quote type="嚴謹引文">「應斷」</quote>的，道是<quote type="嚴謹引文">「應修」</quote>的，<quote type="嚴謹引文">「惑苦滅應證」</quote>的。依正
 <lb n="0231a09" ed="Y"/>知見<lb n="0215a12" ed="Y" type="old"/>而起正行，最後才能達到已知、已斷、已滅、已修的無學位，<quote type="嚴謹引文">「由」</quote>於苦
 <lb n="0231a10" ed="Y"/>集<lb n="0215a13" ed="Y" type="old"/><quote type="嚴謹引文">「滅」</quote>而<quote type="嚴謹引文">「得涅槃」</quote>。</p><pb n="0216a" ed="Y" xml:id="Y12.0012.0216a.old" type="old"/>
-<lb n="0231a11" ed="Y"/><lb n="0216a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">對於四諦的如實知見，引起了見諦（真實）得道的問題。在四諦中，體見
+<lb n="0231a11" ed="Y"/><lb n="0216a01" ed="Y" type="old"/><p xml:id="pY12p0231a1101" style="margin-left:1em;text-indent:2em">對於四諦的如實知見，引起了見諦（真實）得道的問題。在四諦中，體見
 <lb n="0231a12" ed="Y"/><lb n="0216a02" ed="Y" type="old"/>什麼才算得證？由於學者的根性、修持方法的傳承不同，分為頓漸二派。觀四
 <lb n="0231a13" ed="Y"/><lb n="0216a03" ed="Y" type="old"/>諦十六行相，以十六（或說五）心見道的，是漸見派——見四諦得道，是西北
 <pb n="0232a" ed="Y" xml:id="Y12.0012.0232a"/>
@@ -1324,8 +1344,8 @@
 <lb n="0233a09" ed="Y"/>是<lb n="0217a12" ed="Y" type="old"/>這樣的。見寂滅而證道，為古代無數學者所修證的，是不容懷疑的事實；稱
 <lb n="0233a10" ed="Y"/>此<lb n="0217a13" ed="Y" type="old"/>為滅諦的體見，是寂滅性自身的體見，與見四諦的見——四類價值的確認不
 <lb n="0233a11" ed="Y"/>同<pb n="0218a" ed="Y" xml:id="Y12.0012.0218a.old" type="old"/><lb n="0218a01" ed="Y" type="old"/>。</p>
-<lb n="0233a12" ed="Y"/><lb n="0218a02" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>先得法住智，後得涅槃智；依俗契真實，正觀法如是。</l></lg></quote>
-<lb n="0233a13" ed="Y"/><lb n="0218a03" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在中道的正見中，有著一定的程序，主要是：<quote type="嚴謹引文">「先得法住智」，「後得涅
+<lb n="0233a12" ed="Y"/><lb n="0218a02" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0233a1201" rend="bold" type="abnormal"><l>先得法住智，後得涅槃智；依俗契真實，正觀法如是。</l></lg></quote>
+<lb n="0233a13" ed="Y"/><lb n="0218a03" ed="Y" type="old"/><p xml:id="pY12p0233a1301" style="margin-left:1em;text-indent:2em">在中道的正見中，有著一定的程序，主要是：<quote type="嚴謹引文">「先得法住智」，「後得涅
 <pb n="0234a" ed="Y" xml:id="Y12.0012.0234a"/>
 <lb n="0234a01" ed="Y"/>槃智<lb n="0218a04" ed="Y" type="old"/>」</quote>。佛為深摩說：<quote type="嚴謹引文">『不問汝知不知，且自先知法住，後知涅槃。』</quote>這是怎
 <lb n="0234a02" ed="Y"/>樣的<lb n="0218a05" ed="Y" type="old"/>肯定、必然！什麼是法住智？什麼是涅槃智？依<title level="m">《七十七智經》</title>說：一切
@@ -1343,7 +1363,7 @@
 <pb n="0235a" ed="Y" xml:id="Y12.0012.0235a"/>
 <lb n="0235a01" ed="Y"/><quote type="嚴謹引文">「依俗<lb n="0219a04" ed="Y" type="old"/>」</quote>諦的緣起因果，而後<quote type="嚴謹引文">「契」</quote>入緣起寂滅的<quote type="嚴謹引文">「真實」</quote>，這是解脫道中<quote type="嚴謹引文">「
 <lb n="0235a02" ed="Y"/>正觀法<lb n="0219a05" ed="Y" type="old"/>」</quote>的必然歷程，一定<quote type="嚴謹引文">「如是」</quote>而決無例外的。</p>
-<lb n="0235a03" ed="Y"/><lb n="0219a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">說到這裡，覺得佛教中，每有一種錯誤的傾向，就是不求法住智，而但求
+<lb n="0235a03" ed="Y"/><lb n="0219a06" ed="Y" type="old"/><p xml:id="pY12p0235a0301" style="margin-left:1em;text-indent:2em">說到這裡，覺得佛教中，每有一種錯誤的傾向，就是不求法住智，而但求
 <lb n="0235a04" ed="Y"/><lb n="0219a07" ed="Y" type="old"/>涅槃智。特別是備有世間一般知識、年老而求佛法的。對於因果緣起的必然性
 <lb n="0235a05" ed="Y"/><lb n="0219a08" ed="Y" type="old"/>、四諦的價值決定，常是並無希求；有的以為這早都已經知道，而不知夢都沒
 <lb n="0235a06" ed="Y"/><lb n="0219a09" ed="Y" type="old"/>有夢想過；卻以為需要的是開悟、是明心見性。不知道沒有修成法住智，涅<lb n="0219a10" ed="Y" type="old"/>槃
@@ -1359,8 +1379,8 @@
 <lb n="0236a02" ed="Y"/><lb n="0220a05" ed="Y" type="old"/>，為什麼？就是於佛法沒有正見，不知佛法的涅槃智是依緣起因果的法住智<lb n="0220a06" ed="Y" type="old"/>而
 <lb n="0236a03" ed="Y"/>進修得來。所以，如以為只要談心說性，或者說什麼絕對精神之類，以為就<lb n="0220a07" ed="Y" type="old"/>是
 <lb n="0236a04" ed="Y"/>最高的佛法，那真是誤入歧途、自甘沈淪了！</p>
-<lb n="0236a05" ed="Y"/><lb n="0220a08" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>正思向於厭，向離欲及滅。</l></lg></quote>
-<lb n="0236a06" ed="Y"/><lb n="0220a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">無漏的八正道支，是同時成就的。但在修習過程中，有次第引生的意義。
+<lb n="0236a05" ed="Y"/><lb n="0220a08" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0236a0501" rend="bold" type="abnormal"><l>正思向於厭，向離欲及滅。</l></lg></quote>
+<lb n="0236a06" ed="Y"/><lb n="0220a09" ed="Y" type="old"/><p xml:id="pY12p0236a0601" style="margin-left:1em;text-indent:2em">無漏的八正道支，是同時成就的。但在修習過程中，有次第引生的意義。
 <lb n="0236a07" ed="Y"/><lb n="0220a10" ed="Y" type="old"/>從先後的引生來說：正見以後，是<quote type="嚴謹引文">「正思」</quote>惟，是對正見所見的，作更深入的
 <lb n="0236a08" ed="Y"/><lb n="0220a11" ed="Y" type="old"/>正確思惟。正見可說是從聞（或從佛及佛弟子聞，或從經典聞）而來的慧學，
 <lb n="0236a09" ed="Y"/><lb n="0220a12" ed="Y" type="old"/>正思惟是從慎思明辨而來的慧學。有正見的，一定成就正信；有信的一定有要
@@ -1376,8 +1396,8 @@
 <lb n="0237a05" ed="Y"/><lb n="0221a08" ed="Y" type="old"/>」</quote>，心向涅槃而行道，一切以此為目標。這三者，表示了內心的從世間而向解
 <lb n="0237a06" ed="Y"/><lb n="0221a09" ed="Y" type="old"/>脫，也就是真正的出離心。出離心，貫徹了解脫道——八正道的始終，不過正
 <lb n="0237a07" ed="Y"/><lb n="0221a10" ed="Y" type="old"/>見著重於知厭、知離欲、知滅而已。以下六支，都是向此而修習的。</p>
-<lb n="0237a08" ed="Y"/><lb n="0221a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>正語業及命，淨戒以為性。</l></lg></quote>
-<lb n="0237a09" ed="Y"/><lb n="0221a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">正見與正思，是慧學。依於正思的要求實踐，必然的引發<quote type="嚴謹引文">「正語」</quote>、正<quote type="嚴謹引文">「
+<lb n="0237a08" ed="Y"/><lb n="0221a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0237a0801" rend="bold" type="abnormal"><l>正語業及命，淨戒以為性。</l></lg></quote>
+<lb n="0237a09" ed="Y"/><lb n="0221a12" ed="Y" type="old"/><p xml:id="pY12p0237a0901" style="margin-left:1em;text-indent:2em">正見與正思，是慧學。依於正思的要求實踐，必然的引發<quote type="嚴謹引文">「正語」</quote>、正<quote type="嚴謹引文">「
 <lb n="0237a10" ed="Y"/><lb n="0221a13" ed="Y" type="old"/>業及」</quote>正<quote type="嚴謹引文">「命」</quote>——三正道支。正語，是不妄語、不兩舌、不惡口、不綺語—<pb n="0222a" ed="Y" xml:id="Y12.0012.0222a.old" type="old"/><lb n="0222a01" ed="Y" type="old"/>—
 <lb n="0237a11" ed="Y"/>合法的語言文字。正業，指不殺、不盜、不淫——合法的身業。正命，是合<lb n="0222a02" ed="Y" type="old"/>法
 <lb n="0237a12" ed="Y"/>的經濟生活。有正確的見地，進求解脫生死，一定會表現出合法的行為。這<lb n="0222a03" ed="Y" type="old"/>三
@@ -1391,9 +1411,9 @@
 <lb n="0238a06" ed="Y"/>湯藥、占相吉凶、仰觀星宿、推步盈虛、曆數算計，皆所不應。節身時食，<lb n="0222a10" ed="Y" type="old"/>清
 <lb n="0238a07" ed="Y"/>淨自活。不得參與世事、通致使命，咒術仙藥、結好貴人、親厚媟慢，皆不<lb n="0222a11" ed="Y" type="old"/>應
 <lb n="0238a08" ed="Y"/>作。當自端心，正念求度，不得包藏瑕疵、顯異惑眾；於四供養，知量知足，
-<lb n="0238a09" ed="Y"/><lb n="0222a12" ed="Y" type="old"/>趣得供事，不<note n="0238a0901" resp="CBETA" type="add">應【CB】，得【印順】</note><app n="0238a0901"><lem wit="【CB】" resp="正聞出版社">應</lem><rdg wit="【印順】">得</rdg></app>蓄積。此則略說持戒之相。』</quote></p>
-<lb n="0238a10" ed="Y"/><lb n="0222a13" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>始則直其見，次則淨其行；足目兩相成，能達於彼岸。</l></lg></quote><pb n="0223a" ed="Y" xml:id="Y12.0012.0223a.old" type="old"/>
-<lb n="0238a11" ed="Y"/><lb n="0223a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">這是對於上來正道的合說。修學解脫道的，開<quote type="嚴謹引文">「始」</quote>是先要正<quote type="嚴謹引文">「直其見」</quote>
+<lb n="0238a09" ed="Y"/><lb n="0222a12" ed="Y" type="old"/>趣得供事，不<note n="0238a0901" resp="CBETA" type="add">應【CB】，得【印順】</note><app n="0238a0901"><lem resp="正聞出版社" wit="【CB】">應</lem><rdg wit="【印順】">得</rdg></app>蓄積。此則略說持戒之相。』</quote></p>
+<lb n="0238a10" ed="Y"/><lb n="0222a13" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0238a1001" rend="bold" type="abnormal"><l>始則直其見，次則淨其行；足目兩相成，能達於彼岸。</l></lg></quote><pb n="0223a" ed="Y" xml:id="Y12.0012.0223a.old" type="old"/>
+<lb n="0238a11" ed="Y"/><lb n="0223a01" ed="Y" type="old"/><p xml:id="pY12p0238a1101" style="margin-left:1em;text-indent:2em">這是對於上來正道的合說。修學解脫道的，開<quote type="嚴謹引文">「始」</quote>是先要正<quote type="嚴謹引文">「直其見」</quote>
 <lb n="0238a12" ed="Y"/><lb n="0223a02" ed="Y" type="old"/>解，這就是正見與正思。其<quote type="嚴謹引文">「次」</quote>是要清<quote type="嚴謹引文">「淨其行」</quote>為，這就是正語、正業與
 <lb n="0238a13" ed="Y"/><lb n="0223a03" ed="Y" type="old"/>正命。正業、正語、正命，如雙<quote type="嚴謹引文">「足」</quote>，足是能向前進的。不但要有兩隻腳，
 <pb n="0239a" ed="Y" xml:id="Y12.0012.0239a"/>
@@ -1405,8 +1425,8 @@
 <lb n="0239a06" ed="Y"/><lb n="0223a09" ed="Y" type="old"/>，非先有正確的見解、清淨的行為不可。否則，不管你說修說證，決無實現的
 <lb n="0239a07" ed="Y"/><lb n="0223a10" ed="Y" type="old"/>可能。如在火宅中，瞎子（有足）與跛子（有目）不肯合作，或只是瞎子或跛
 <lb n="0239a08" ed="Y"/><lb n="0223a11" ed="Y" type="old"/>子一個人，那怎麼能脫離火宅的災患呢？</p>
-<lb n="0239a09" ed="Y"/><lb n="0223a12" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>正勤遍策發，由念得正定，依定起證慧，慧成得解脫。</l></lg></quote>
-<lb n="0239a10" ed="Y"/><lb n="0223a13" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">有了正確的見地、清淨的行為，自然身安心安，而可以進修趣證了。這要<pb n="0224a" ed="Y" xml:id="Y12.0012.0224a.old" type="old"/>
+<lb n="0239a09" ed="Y"/><lb n="0223a12" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0239a0901" rend="bold" type="abnormal"><l>正勤遍策發，由念得正定，依定起證慧，慧成得解脫。</l></lg></quote>
+<lb n="0239a10" ed="Y"/><lb n="0223a13" ed="Y" type="old"/><p xml:id="pY12p0239a1001" style="margin-left:1em;text-indent:2em">有了正確的見地、清淨的行為，自然身安心安，而可以進修趣證了。這要<pb n="0224a" ed="Y" xml:id="Y12.0012.0224a.old" type="old"/>
 <lb n="0239a11" ed="Y"/><lb n="0224a01" ed="Y" type="old"/>有<quote type="嚴謹引文">「正勤」</quote>，是向厭、向離欲、向滅的精進，也稱為正精進。佛說正勤為『四
 <lb n="0239a12" ed="Y"/><lb n="0224a02" ed="Y" type="old"/>正勤』：一、沒有生起的惡法，要使它不生。二、已生的惡法，要斷除它。三
 <lb n="0239a13" ed="Y"/><lb n="0224a03" ed="Y" type="old"/>、沒有生的善法，要使它生起。四、已生的善法，要使它增長廣大起來。正勤
@@ -1417,7 +1437,7 @@
 <lb n="0240a04" ed="Y"/>努力。<lb n="0224a07" ed="Y" type="old"/>這一切，都要精進修習，才能成功。世間的善事，都還非努力不可，何
 <lb n="0240a05" ed="Y"/>況出世<lb n="0224a08" ed="Y" type="old"/>大事？所以佛在遊行，休息時聽到阿難說精進，就立刻起坐，表示對於
 <lb n="0240a06" ed="Y"/>精進的<lb n="0224a09" ed="Y" type="old"/>無限崇敬。</p>
-<lb n="0240a07" ed="Y"/><lb n="0224a10" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">有了正知見與清淨戒，可以修定，但要<quote type="嚴謹引文">「由念」</quote>的修習得來。念是專心繫
+<lb n="0240a07" ed="Y"/><lb n="0224a10" ed="Y" type="old"/><p xml:id="pY12p0240a0701" style="margin-left:1em;text-indent:2em">有了正知見與清淨戒，可以修定，但要<quote type="嚴謹引文">「由念」</quote>的修習得來。念是專心繫
 <lb n="0240a08" ed="Y"/><lb n="0224a11" ed="Y" type="old"/>念，為攝心不亂的主要修法。但這裡，還是以出離心為導向的。而所修的念，
 <lb n="0240a09" ed="Y"/><lb n="0224a12" ed="Y" type="old"/>不是念別的，就是從正見、正思惟得來的正念，這是與慧相應的、向於涅槃的
 <lb n="0240a10" ed="Y"/><lb n="0224a13" ed="Y" type="old"/>正念。正念修習成就，能<quote type="嚴謹引文">「得正定」</quote>。約定境說，就是上面所說的七依定，佛<pb n="0225a" ed="Y" xml:id="Y12.0012.0225a.old" type="old"/>
@@ -1428,7 +1448,7 @@
 <lb n="0241a01" ed="Y"/><lb n="0225a04" ed="Y" type="old"/>斷煩惱、證真理、了生死而<quote type="嚴謹引文">「得解脫」</quote>。到此，才完成修習出世解脫道的目標
 <lb n="0241a02" ed="Y"/><lb n="0225a05" ed="Y" type="old"/>。解脫、涅槃，由修習八正道而成，所以佛說道諦，總是說八正道，譽為<quote type="嚴謹引文">『八
 <lb n="0241a03" ed="Y"/><lb n="0225a06" ed="Y" type="old"/>正道行入涅槃』</quote>。</p>
-<lb n="0241a04" ed="Y"/><lb n="0225a07" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">在這三學、八正道的敘述中，似乎有不同的次第：三學是戒而定，定而慧
+<lb n="0241a04" ed="Y"/><lb n="0225a07" ed="Y" type="old"/><p xml:id="pY12p0241a0401" style="margin-left:1em;text-indent:2em">在這三學、八正道的敘述中，似乎有不同的次第：三學是戒而定，定而慧
 <lb n="0241a05" ed="Y"/><lb n="0225a08" ed="Y" type="old"/>；八正道是慧而戒，戒而定。其實，道次是一樣的。因為，慧學不但是首先的
 <lb n="0241a06" ed="Y"/><lb n="0225a09" ed="Y" type="old"/>，也是究竟的，所以八正道的次第是：正見是聞慧。正思惟是思慧；思惟發起
 <lb n="0241a07" ed="Y"/><lb n="0225a10" ed="Y" type="old"/>正語、正業、正命，是戒學。正精進遍通一切，特別是依著精進而去修正念、
@@ -1437,15 +1457,15 @@
 <lb n="0241a10" ed="Y"/>不離聞、思、<lb n="0225a13" ed="Y" type="old"/>修及現證慧的次第，也就是依戒而定，依定而慧，依慧得解脫的
 <lb n="0241a11" ed="Y"/>次第。三學與<pb n="0226a" ed="Y" xml:id="Y12.0012.0226a.old" type="old"/><lb n="0226a01" ed="Y" type="old"/>八正道的一致性，試列表如下：</p>
 <pb n="0242a" ed="Y" xml:id="Y12.0012.0242a"/>
-<lb n="0242a01" ed="Y"/><lb n="0226a02" ed="Y" type="old"/><p cb:type="pre">　　　　正見───────────聞慧位
+<lb n="0242a01" ed="Y"/><lb n="0226a02" ed="Y" type="old"/><p cb:type="pre" xml:id="pY12p0242a0101">　　　　正見───────────聞慧位
 <lb n="0242a02" ed="Y"/>　　　　正思、正語、正業、正命──思慧位────戒增上學
 <lb n="0242a03" ed="Y"/>　　　　　　　　　　　　　　┌──修慧位─┬──定增上學
 <lb n="0242a04" ed="Y"/>　　　　　　　　　　　　　　│　　　　　　└──┐
 <lb n="0242a05" ed="Y"/>　　　　正勤、正念、正定──┤　　　　　　　　　慧增上學
 <lb n="0242a06" ed="Y"/>　　　　　　　　　　　　　　│　　　　　　┌──┘
 <lb n="0242a07" ed="Y"/>　　　　　　　　　　　　　　└──現證慧位┴──得解脫</p>
-<lb n="0242a08" ed="Y"/><lb n="0226a07" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>佛說諸道品，總集三十七，道同隨機異，或是淺深別。</l></lg></quote>
-<lb n="0242a09" ed="Y"/><lb n="0226a08" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">佛說道諦，總是說八正道支。但散在各處經中，<quote type="嚴謹引文">「佛說」</quote>的修道項目，更
+<lb n="0242a08" ed="Y"/><lb n="0226a07" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0242a0801" rend="bold" type="abnormal"><l>佛說諸道品，總集三十七，道同隨機異，或是淺深別。</l></lg></quote>
+<lb n="0242a09" ed="Y"/><lb n="0226a08" ed="Y" type="old"/><p xml:id="pY12p0242a0901" style="margin-left:1em;text-indent:2em">佛說道諦，總是說八正道支。但散在各處經中，<quote type="嚴謹引文">「佛說」</quote>的修道項目，更
 <lb n="0242a10" ed="Y"/><lb n="0226a09" ed="Y" type="old"/>有種種<quote type="嚴謹引文">「道品」</quote>。道品，是道類，是將修道的項目，組成一類一類的。經中將
 <lb n="0242a11" ed="Y"/><lb n="0226a10" ed="Y" type="old"/>道品，<quote type="嚴謹引文">「總集」</quote>為<quote type="嚴謹引文">「三十七」</quote>道品，分七大類：(一)、四念處；(二)、四正勤；(三)
 <lb n="0242a12" ed="Y"/><lb n="0226a11" ed="Y" type="old"/>、四神足；(四)、五根；(五)、五力；(六)、七覺支；(七)、八正道支。這七大類——
@@ -1459,32 +1479,32 @@
 <lb n="0243a05" ed="Y"/>得堅定而為引發功德的根源，名為根。五力，就是上面的五事，但已有降伏<lb n="0227a06" ed="Y" type="old"/>煩
 <lb n="0243a06" ed="Y"/>惱等力量，所以叫力。七覺支是：念覺支、擇法覺支、精進覺支、喜覺支、<lb n="0227a07" ed="Y" type="old"/>輕
 <lb n="0243a07" ed="Y"/>安覺支、定覺支、捨覺支。這是道品中的重要一類，為引發正覺的因素。</p>
-<lb n="0243a08" ed="Y"/><lb n="0227a08" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">解脫生死的道品，為什麼說有這七類——三十七品呢？古人以為：<quote type="嚴謹引文">「道」</quote>
+<lb n="0243a08" ed="Y"/><lb n="0227a08" ed="Y" type="old"/><p xml:id="pY12p0243a0801" style="margin-left:1em;text-indent:2em">解脫生死的道品，為什麼說有這七類——三十七品呢？古人以為：<quote type="嚴謹引文">「道」</quote>
 <lb n="0243a09" ed="Y"/><lb n="0227a09" ed="Y" type="old"/>體是<quote type="嚴謹引文">「同」</quote>一的；修習的功德，本來是很多的，佛說的也只是舉其主要而說。
 <lb n="0243a10" ed="Y"/><lb n="0227a10" ed="Y" type="old"/>眾生的生死是同一的，解脫生死的道，不會是不同的；不過<quote type="嚴謹引文">「隨」</quote>眾生的根<quote type="嚴謹引文">「
 <lb n="0243a11" ed="Y"/><lb n="0227a11" ed="Y" type="old"/>機」</quote>不同，佛就說有別<quote type="嚴謹引文">「異」</quote>的道品而已。因為從經中看來，任何一項道品（
 <lb n="0243a12" ed="Y"/><lb n="0227a12" ed="Y" type="old"/>其實是包含一切功德，不過舉其重要而說），都是能解脫生死的，都說為『一
 <lb n="0243a13" ed="Y"/><lb n="0227a13" ed="Y" type="old"/>乘道』的。將一切道品總合起來，解脫道的主要項目，不外乎十類：</p><pb n="0228a" ed="Y" xml:id="Y12.0012.0228a.old" type="old"/>
 <pb n="0244a" ed="Y" xml:id="Y12.0012.0244a"/>
-<lb n="0244a01" ed="Y"/><lb n="0228a01" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:2em">一、信——信根，信力。</p></item>
-<lb n="0244a02" ed="Y"/><lb n="0228a02" ed="Y" type="old"/><item><p style="margin-left:2em">二、勤——四正勤，勤根，勤力，精進覺支，正精進。</p></item>
-<lb n="0244a03" ed="Y"/><lb n="0228a03" ed="Y" type="old"/><item><p style="margin-left:2em">三、念——念根，念力，念覺支，正念。</p></item>
-<lb n="0244a04" ed="Y"/><lb n="0228a04" ed="Y" type="old"/><item><p style="margin-left:2em">四、定——四神足，定根，定力，定覺支，正定。</p></item>
-<lb n="0244a05" ed="Y"/><lb n="0228a05" ed="Y" type="old"/><item><p style="margin-left:2em">五、慧——四念處，慧根，慧力，擇法覺支，正見。</p></item>
-<lb n="0244a06" ed="Y"/><lb n="0228a06" ed="Y" type="old"/><item><p style="margin-left:2em">六、尋思—正思惟。</p></item>
-<lb n="0244a07" ed="Y"/><lb n="0228a07" ed="Y" type="old"/><item><p style="margin-left:2em">七、戒——正語，正業，正命。</p></item>
-<lb n="0244a08" ed="Y"/><lb n="0228a08" ed="Y" type="old"/><item><p style="margin-left:2em">八、喜——喜覺支。</p></item>
-<lb n="0244a09" ed="Y"/><lb n="0228a09" ed="Y" type="old"/><item><p style="margin-left:2em">九、捨——捨覺支。</p></item>
-<lb n="0244a10" ed="Y"/><lb n="0228a10" ed="Y" type="old"/><item><p style="margin-left:2em">十、輕安—輕安覺支。</p></item></list>
-<lb n="0244a11" ed="Y"/><lb n="0228a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">道的主要項目雖有此十種，但正見成就，就能得信成就；而喜、捨、輕<lb n="0228a12" ed="Y" type="old"/>安
+<lb n="0244a01" ed="Y"/><lb n="0228a01" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY12p0244a0101"><p xml:id="pY12p0244a0101" style="margin-left:2em">一、信——信根，信力。</p></item>
+<lb n="0244a02" ed="Y"/><lb n="0228a02" ed="Y" type="old"/><item xml:id="itemY12p0244a0201"><p xml:id="pY12p0244a0201" style="margin-left:2em">二、勤——四正勤，勤根，勤力，精進覺支，正精進。</p></item>
+<lb n="0244a03" ed="Y"/><lb n="0228a03" ed="Y" type="old"/><item xml:id="itemY12p0244a0301"><p xml:id="pY12p0244a0301" style="margin-left:2em">三、念——念根，念力，念覺支，正念。</p></item>
+<lb n="0244a04" ed="Y"/><lb n="0228a04" ed="Y" type="old"/><item xml:id="itemY12p0244a0401"><p xml:id="pY12p0244a0401" style="margin-left:2em">四、定——四神足，定根，定力，定覺支，正定。</p></item>
+<lb n="0244a05" ed="Y"/><lb n="0228a05" ed="Y" type="old"/><item xml:id="itemY12p0244a0501"><p xml:id="pY12p0244a0501" style="margin-left:2em">五、慧——四念處，慧根，慧力，擇法覺支，正見。</p></item>
+<lb n="0244a06" ed="Y"/><lb n="0228a06" ed="Y" type="old"/><item xml:id="itemY12p0244a0601"><p xml:id="pY12p0244a0601" style="margin-left:2em">六、尋思—正思惟。</p></item>
+<lb n="0244a07" ed="Y"/><lb n="0228a07" ed="Y" type="old"/><item xml:id="itemY12p0244a0701"><p xml:id="pY12p0244a0701" style="margin-left:2em">七、戒——正語，正業，正命。</p></item>
+<lb n="0244a08" ed="Y"/><lb n="0228a08" ed="Y" type="old"/><item xml:id="itemY12p0244a0801"><p xml:id="pY12p0244a0801" style="margin-left:2em">八、喜——喜覺支。</p></item>
+<lb n="0244a09" ed="Y"/><lb n="0228a09" ed="Y" type="old"/><item xml:id="itemY12p0244a0901"><p xml:id="pY12p0244a0901" style="margin-left:2em">九、捨——捨覺支。</p></item>
+<lb n="0244a10" ed="Y"/><lb n="0228a10" ed="Y" type="old"/><item xml:id="itemY12p0244a1001"><p xml:id="pY12p0244a1001" style="margin-left:2em">十、輕安—輕安覺支。</p></item></list>
+<lb n="0244a11" ed="Y"/><lb n="0228a11" ed="Y" type="old"/><p xml:id="pY12p0244a1101" style="margin-left:1em;text-indent:2em">道的主要項目雖有此十種，但正見成就，就能得信成就；而喜、捨、輕<lb n="0228a12" ed="Y" type="old"/>安
 <lb n="0244a12" ed="Y"/>，不外乎定中的功德。所以八正道的敘述是最圓滿的，而三學是最簡要的<lb n="0228a13" ed="Y" type="old"/>。</p><pb n="0229a" ed="Y" xml:id="Y12.0012.0229a.old" type="old"/>
-<lb n="0244a13" ed="Y"/><lb n="0229a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「或」</quote>者說：在個人修學的程序上，這七類道品，都是需要的，<quote type="嚴謹引文">「是淺深
+<lb n="0244a13" ed="Y"/><lb n="0229a01" ed="Y" type="old"/><p xml:id="pY12p0244a1301" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「或」</quote>者說：在個人修學的程序上，這七類道品，都是需要的，<quote type="嚴謹引文">「是淺深
 <pb n="0245a" ed="Y" xml:id="Y12.0012.0245a"/>
 <lb n="0245a01" ed="Y"/><lb n="0229a02" ed="Y" type="old"/>」</quote>次第的差<quote type="嚴謹引文">「別」</quote>而一類類的進修。這是說：初修學時，修四念處；到了煖<lb n="0229a03" ed="Y" type="old"/>位
 <lb n="0245a02" ed="Y"/>，修四正勤；頂位修四神足；忍位修五根；世第一位修五力；見道位修八正<lb n="0229a04" ed="Y" type="old"/>道
 <lb n="0245a03" ed="Y"/>；修道位修七覺支。但這也不過約特勝的意義說說而已。</p>
-<lb n="0245a04" ed="Y"/><lb n="0229a05" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>此是聖所行，此是聖所證，三乘諸聖者，一味涅槃城。</l></lg></quote>
-<lb n="0245a05" ed="Y"/><lb n="0229a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">出世的解脫法門——四諦、緣起，道諦中的三學、八正道，都如上文說過
+<lb n="0245a04" ed="Y"/><lb n="0229a05" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0245a0401" rend="bold" type="abnormal"><l>此是聖所行，此是聖所證，三乘諸聖者，一味涅槃城。</l></lg></quote>
+<lb n="0245a05" ed="Y"/><lb n="0229a06" ed="Y" type="old"/><p xml:id="pY12p0245a0501" style="margin-left:1em;text-indent:2em">出世的解脫法門——四諦、緣起，道諦中的三學、八正道，都如上文說過
 <lb n="0245a06" ed="Y"/><lb n="0229a07" ed="Y" type="old"/>了。這都<quote type="嚴謹引文">「是聖」</quote>者<quote type="嚴謹引文">「所」</quote>修<quote type="嚴謹引文">「行」</quote>的，也<quote type="嚴謹引文">「是聖」</quote>者<quote type="嚴謹引文">「所證」</quote>得的。修行、
 <lb n="0245a07" ed="Y"/><lb n="0229a08" ed="Y" type="old"/>證入，都離不了這些，這是釋迦佛金口開示的正法。離了這，別無可歸依的法
 <lb n="0245a08" ed="Y"/><lb n="0229a09" ed="Y" type="old"/>門，別無能解脫的途徑，別無永恒的歸宿。這是佛弟子所應決然無疑信受奉行
@@ -1494,8 +1514,8 @@
 <lb n="0245a12" ed="Y"/>然飛行有遠近，渡水有淺深，但總是不離於虛空與大河，所以說<quote>『三乘同<pb n="0230a" ed="Y" xml:id="Y12.0012.0230a.old" type="old"/><lb n="0230a01" ed="Y" type="old"/>入一
 <lb n="0245a13" ed="Y"/>法性』</quote>，<quote type="嚴謹引文">『三乘同坐解脫床』</quote>。</p>
 <pb n="0246a" ed="Y" xml:id="Y12.0012.0246a"/>
-<lb n="0246a01" ed="Y"/><lb n="0230a02" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>通論解脫道，經於種熟脫，修證有遲速，非由利鈍別。</l></lg></quote>
-<lb n="0246a02" ed="Y"/><lb n="0230a03" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">能證這四諦與緣起法的聖者，想簡略的敘述一下。首先，不問聲聞、緣覺
+<lb n="0246a01" ed="Y"/><lb n="0230a02" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0246a0101" rend="bold" type="abnormal"><l>通論解脫道，經於種熟脫，修證有遲速，非由利鈍別。</l></lg></quote>
+<lb n="0246a02" ed="Y"/><lb n="0230a03" ed="Y" type="old"/><p xml:id="pY12p0246a0201" style="margin-left:1em;text-indent:2em">能證這四諦與緣起法的聖者，想簡略的敘述一下。首先，不問聲聞、緣覺
 <lb n="0246a03" ed="Y"/><lb n="0230a04" ed="Y" type="old"/>、菩薩，<quote type="嚴謹引文">「通」</quote>泛的<quote type="嚴謹引文">「論」</quote>起來，每一聖者，在<quote type="嚴謹引文">「解脫道」</quote>的修行中，都是<quote type="嚴謹引文">「
 <lb n="0246a04" ed="Y"/><lb n="0230a05" ed="Y" type="old"/>經」</quote>歷了<quote type="嚴謹引文">「種」、「熟」、「脫」</quote>三階段的。一、初聽佛法，生起厭離心，從此
 <lb n="0246a05" ed="Y"/>種下了解脫<lb n="0230a06" ed="Y" type="old"/>的善根，如種下種子一樣。如沒有出離心種，怎麼聽法修行，都是
@@ -1512,24 +1532,24 @@
 <lb n="0247a02" ed="Y"/>就是上面<lb n="0231a03" ed="Y" type="old"/>說過的信行人與法行人了。著重於依師學習，以信為先的，是鈍根；
 <lb n="0247a03" ed="Y"/>著重於自力<lb n="0231a04" ed="Y" type="old"/>學習，以慧為先的，是利根；但這都是要經歷種、熟、脫三階的。
 <lb n="0247a04" ed="Y"/>依現生的修證而論<lb n="0231a05" ed="Y" type="old"/>，是不能以證入的遲速來決定他是利或鈍的。</p>
-<lb n="0247a05" ed="Y"/><lb n="0231a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">近代的佛教界，有許多觀念，都是與經論相反的。他們以現生的修證努力
+<lb n="0247a05" ed="Y"/><lb n="0231a06" ed="Y" type="old"/><p xml:id="pY12p0247a0501" style="margin-left:1em;text-indent:2em">近代的佛教界，有許多觀念，都是與經論相反的。他們以現生的修證努力
 <lb n="0247a06" ed="Y"/><lb n="0231a07" ed="Y" type="old"/>，或悟證遲速來分別利鈍，而不知恰好相反。重信與重慧的差別以外，凡急求
 <lb n="0247a07" ed="Y"/><lb n="0231a08" ed="Y" type="old"/>速成的，才是鈍根；大器晚成的，才是利根。如以三乘來說，聲聞根性是鈍，
 <lb n="0247a08" ed="Y"/><lb n="0231a09" ed="Y" type="old"/>緣覺根性是中，菩薩根性是利。聲聞是鈍根，從發心到解脫，快些的是三生，
 <lb n="0247a09" ed="Y"/><lb n="0231a10" ed="Y" type="old"/>最遲也不過六十劫。緣覺的根性要利些，從發心到解脫，最快的也要四生，最
 <lb n="0247a10" ed="Y"/><lb n="0231a11" ed="Y" type="old"/>遲的要一百劫。菩薩是利根，他要修三大阿僧祇劫才究竟解脫呢！關於根性的
 <lb n="0247a11" ed="Y"/><lb n="0231a12" ed="Y" type="old"/>利鈍，在大乘不共法的申述中，再依經論來說明。</p>
-<lb n="0247a12" ed="Y"/><lb n="0231a13" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>見此正法者，初名須陀洹，三結斷無餘，無量生死息。</l></lg></quote><pb n="0232a" ed="Y" xml:id="Y12.0012.0232a.old" type="old"/>
-<lb n="0247a13" ed="Y"/><lb n="0232a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">再來敘述聖者證入的次第。聲聞乘的修行者，證入聖果，一向分為四級，
+<lb n="0247a12" ed="Y"/><lb n="0231a13" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0247a1201" rend="bold" type="abnormal"><l>見此正法者，初名須陀洹，三結斷無餘，無量生死息。</l></lg></quote><pb n="0232a" ed="Y" xml:id="Y12.0012.0232a.old" type="old"/>
+<lb n="0247a13" ed="Y"/><lb n="0232a01" ed="Y" type="old"/><p xml:id="pY12p0247a1301" style="margin-left:1em;text-indent:2em">再來敘述聖者證入的次第。聲聞乘的修行者，證入聖果，一向分為四級，
 <pb n="0248a" ed="Y" xml:id="Y12.0012.0248a"/>
 <lb n="0248a01" ed="Y"/><lb n="0232a02" ed="Y" type="old"/>先說初果。</p>
-<lb n="0248a02" ed="Y"/><lb n="0232a03" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">觀緣起法無常、無我而契入緣起空寂性的，就是體<quote type="寬鬆引文">「見」「正法」</quote>，也叫
+<lb n="0248a02" ed="Y"/><lb n="0232a03" ed="Y" type="old"/><p xml:id="pY12p0248a0201" style="margin-left:1em;text-indent:2em">觀緣起法無常、無我而契入緣起空寂性的，就是體<quote type="寬鬆引文">「見」「正法」</quote>，也叫
 <lb n="0248a03" ed="Y"/>做『入<lb n="0232a04" ed="Y" type="old"/>法界』。<quote type="嚴謹引文">「初」</quote>入正法的聖者，<quote type="嚴謹引文">「名須陀洹」</quote>果。須陀洹，是梵語，譯
 <lb n="0248a04" ed="Y"/>義為『<lb n="0232a05" ed="Y" type="old"/>預流』或『入流』。修行到此，契入了法性流，也就參預了聖者的流類
 <lb n="0248a05" ed="Y"/>。須陀<lb n="0232a06" ed="Y" type="old"/>洹果的證入，經中形容為：<quote type="嚴謹引文">『見法，得法，知法，入法；得離狐疑，不
 <lb n="0248a06" ed="Y"/>由於他<lb n="0232a07" ed="Y" type="old"/>；入正法律，得無所畏。』</quote>所以，這是現見的、自覺的，於正法有了絕
 <lb n="0248a07" ed="Y"/>對的自信<lb n="0232a08" ed="Y" type="old"/>。</p>
-<lb n="0248a08" ed="Y"/><lb n="0232a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">初果聖者，已斷了生死的根本——最主要的煩惱。照後代論師的分析，條
+<lb n="0248a08" ed="Y"/><lb n="0232a09" ed="Y" type="old"/><p xml:id="pY12p0248a0801" style="margin-left:1em;text-indent:2em">初果聖者，已斷了生死的根本——最主要的煩惱。照後代論師的分析，條
 <lb n="0248a09" ed="Y"/>理起<lb n="0232a10" ed="Y" type="old"/>來，煩惱是非常多的。但大體可分為二類：一、見道所斷的煩惱：是以智
 <lb n="0248a10" ed="Y"/>慧的<lb n="0232a11" ed="Y" type="old"/>體見法性而斷的那部分，也稱為見惑。二、修道所斷的煩惱：是要從不斷
 <lb n="0248a11" ed="Y"/>的修<lb n="0232a12" ed="Y" type="old"/>習中，一分一分斷除的，也叫做修惑。現在初果所斷的，屬於見惑。這也
@@ -1548,7 +1568,7 @@
 <lb n="0249a10" ed="Y"/>將<lb n="0233a11" ed="Y" type="old"/>信將疑。在修行的過程中，這些煩惱，早已伏而不起；到了證見法性，才是
 <lb n="0249a11" ed="Y"/>斷<lb n="0233a12" ed="Y" type="old"/>了根，永無生起的可能。所以，斷是徹底斷盡，不只是不現起而已。以三結
 <lb n="0249a12" ed="Y"/>為<lb n="0233a13" ed="Y" type="old"/>首的一切見所斷惑，都由於真智現前、體見法性而斷盡了。</p><pb n="0234a" ed="Y" xml:id="Y12.0012.0234a.old" type="old"/>
-<lb n="0249a13" ed="Y"/><lb n="0234a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">見了正法，斷了煩惱，也就斷了生死，因為生死苦果是以煩惱為根源而<lb n="0234a02" ed="Y" type="old"/>生
+<lb n="0249a13" ed="Y"/><lb n="0234a01" ed="Y" type="old"/><p xml:id="pY12p0249a1301" style="margin-left:1em;text-indent:2em">見了正法，斷了煩惱，也就斷了生死，因為生死苦果是以煩惱為根源而<lb n="0234a02" ed="Y" type="old"/>生
 <pb n="0250a" ed="Y" xml:id="Y12.0012.0250a"/>
 <lb n="0250a01" ed="Y"/>起的，因斷果也就斷了。證到初果，可說<quote type="嚴謹引文">「無量生死」</quote>都已經<quote type="嚴謹引文">「息」</quote>了。經<lb n="0234a03" ed="Y" type="old"/>上
 <lb n="0250a02" ed="Y"/>說：如大池的水都乾了，只剩一滴、二滴一樣。分別來說，在沒有證悟法性<lb n="0234a04" ed="Y" type="old"/>以
@@ -1560,8 +1580,8 @@
 <lb n="0250a08" ed="Y"/>延續下去了，所以在聖位中，初果是最可寶貴的、最難得的！得了初果，可<lb n="0234a10" ed="Y" type="old"/>說
 <lb n="0250a09" ed="Y"/>生死已了（一定會了）。如破竹一樣，能破第一節，第二節以下，是不費力<lb n="0234a11" ed="Y" type="old"/>的
 <lb n="0250a10" ed="Y"/>一破到底。這是學佛法者當前的唯一目標。</p>
-<lb n="0250a11" ed="Y"/><lb n="0234a12" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>二名斯陀含，進薄修斷惑。</l></lg></quote>
-<lb n="0250a12" ed="Y"/><lb n="0234a13" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">說明從初果而二果、三果、四果，就要說到斷惑。但這有一番特殊意義，<pb n="0235a" ed="Y" xml:id="Y12.0012.0235a.old" type="old"/>
+<lb n="0250a11" ed="Y"/><lb n="0234a12" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0250a1101" rend="bold" type="abnormal"><l>二名斯陀含，進薄修斷惑。</l></lg></quote>
+<lb n="0250a12" ed="Y"/><lb n="0234a13" ed="Y" type="old"/><p xml:id="pY12p0250a1201" style="margin-left:1em;text-indent:2em">說明從初果而二果、三果、四果，就要說到斷惑。但這有一番特殊意義，<pb n="0235a" ed="Y" xml:id="Y12.0012.0235a.old" type="old"/>
 <lb n="0250a13" ed="Y"/><lb n="0235a01" ed="Y" type="old"/>與初果的斷惑不同，應該加以解說。先說一譬喻：如一棵大樹，把它連根拔起
 <pb n="0251a" ed="Y" xml:id="Y12.0012.0251a"/>
 <lb n="0251a01" ed="Y"/><lb n="0235a02" ed="Y" type="old"/>，那它是死定了。然而，在三日、五日，或者半月、一月間，它可能還會發芽
@@ -1582,13 +1602,13 @@
 <lb n="0252a02" ed="Y"/>子們<lb n="0236a03" ed="Y" type="old"/>為家庭、職業、生活所累，但煩惱也是會萎縮，很快會斷盡的；充其量，
 <lb n="0252a03" ed="Y"/>也只<lb n="0236a04" ed="Y" type="old"/>維持七返生死而已。所以證得初果的，雖可能有『隔陰之迷』，但決不像
 <lb n="0252a04" ed="Y"/>凡夫<lb n="0236a05" ed="Y" type="old"/>一樣。無論怎樣，也還是生死已有邊際，可說生死已了。</p>
-<lb n="0252a05" ed="Y"/><lb n="0236a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">第<quote type="嚴謹引文">「二」</quote>果，<quote type="嚴謹引文">「名」</quote>叫<quote type="嚴謹引文">「斯陀含」</quote>。斯陀含是梵語，譯義為『一來』。因
+<lb n="0252a05" ed="Y"/><lb n="0236a06" ed="Y" type="old"/><p xml:id="pY12p0252a0501" style="margin-left:1em;text-indent:2em">第<quote type="嚴謹引文">「二」</quote>果，<quote type="嚴謹引文">「名」</quote>叫<quote type="嚴謹引文">「斯陀含」</quote>。斯陀含是梵語，譯義為『一來』。因
 <lb n="0252a06" ed="Y"/><lb n="0236a07" ed="Y" type="old"/>為或是由初果而進修，或是經過了人間、天上的六番生死，修道所斷的煩惱<lb n="0236a08" ed="Y" type="old"/>大
 <lb n="0252a07" ed="Y"/>大的削弱了力量，可說是斷去了一分。剩下的修惑，所能潤生的力量，已只<lb n="0236a09" ed="Y" type="old"/>有
 <lb n="0252a08" ed="Y"/>一生天上、一來人間，再不能延續下去了。到了這一階段，由於<quote type="嚴謹引文">「進」</quote>修而<lb n="0236a10" ed="Y" type="old"/>減
 <lb n="0252a09" ed="Y"/><quote type="嚴謹引文">「薄」</quote>了<quote type="嚴謹引文">「修」</quote>道所<quote type="嚴謹引文">「斷惑」</quote>，只有一番生死的力量，所以稱為斯陀含果。</p>
-<lb n="0252a10" ed="Y"/><lb n="0236a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>三名阿那含，離欲不復還。</l></lg></quote>
-<lb n="0252a11" ed="Y"/><lb n="0236a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">再進一步，是<quote type="嚴謹引文">「三」</quote>果，<quote type="嚴謹引文">「名」</quote>叫<quote type="嚴謹引文">「阿那含」</quote>。阿那含是梵語，譯義為『
+<lb n="0252a10" ed="Y"/><lb n="0236a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0252a1001" rend="bold" type="abnormal"><l>三名阿那含，離欲不復還。</l></lg></quote>
+<lb n="0252a11" ed="Y"/><lb n="0236a12" ed="Y" type="old"/><p xml:id="pY12p0252a1101" style="margin-left:1em;text-indent:2em">再進一步，是<quote type="嚴謹引文">「三」</quote>果，<quote type="嚴謹引文">「名」</quote>叫<quote type="嚴謹引文">「阿那含」</quote>。阿那含是梵語，譯義為『
 <lb n="0252a12" ed="Y"/><lb n="0236a13" ed="Y" type="old"/>不來』或『不還』。就是說：阿那含果死後，<quote type="嚴謹引文">「離欲」</quote>界而上生色界或者無<pb n="0237a" ed="Y" xml:id="Y12.0012.0237a.old" type="old"/><lb n="0237a01" ed="Y" type="old"/>色
 <lb n="0252a13" ed="Y"/>界，一定就在那邊入涅槃，再<quote type="嚴謹引文">「不復還」</quote>來生欲界了。這或是由二果而進修<lb n="0237a02" ed="Y" type="old"/>，
 <pb n="0253a" ed="Y" xml:id="Y12.0012.0253a"/>
@@ -1601,20 +1621,20 @@
 <lb n="0253a07" ed="Y"/>，但欲貪指欲界的貪欲而說。欲貪斷盡了而證得三果的，雖然身在人間，但<lb n="0237a09" ed="Y" type="old"/>對
 <lb n="0253a08" ed="Y"/>欲界的五欲、男女的性欲，已經不再染著。所以如證得三果，就是在家弟子<lb n="0237a10" ed="Y" type="old"/>，
 <lb n="0253a09" ed="Y"/>也是會絕男女之欲的。</p>
-<lb n="0253a10" ed="Y"/><lb n="0237a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>斷惑究竟者，名曰阿羅漢，畢故不造新，生死更無緣。</l></lg></quote>
-<lb n="0253a11" ed="Y"/><lb n="0237a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">體見正法而斷了見惑的聖者，知見是絕對的正確了。但在一切境界上，愛
+<lb n="0253a10" ed="Y"/><lb n="0237a11" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0253a1001" rend="bold" type="abnormal"><l>斷惑究竟者，名曰阿羅漢，畢故不造新，生死更無緣。</l></lg></quote>
+<lb n="0253a11" ed="Y"/><lb n="0237a12" ed="Y" type="old"/><p xml:id="pY12p0253a1101" style="margin-left:1em;text-indent:2em">體見正法而斷了見惑的聖者，知見是絕對的正確了。但在一切境界上，愛
 <lb n="0253a12" ed="Y"/><lb n="0237a13" ed="Y" type="old"/>染的力量還很強，所以可能進修停頓，或者再生人、天，忘失本來。不過修惑
 <lb n="0253a13" ed="Y"/>是<pb n="0238a" ed="Y" xml:id="Y12.0012.0238a.old" type="old"/><lb n="0238a01" ed="Y" type="old"/>自然萎縮（如拔了根，樹皮會乾枯一樣），聖道的潛力一定會現起，一定會
 <pb n="0254a" ed="Y" xml:id="Y12.0012.0254a"/>
 <lb n="0254a01" ed="Y"/>再<lb n="0238a02" ed="Y" type="old"/>向前進的。在這再進修中，無論是行住坐臥、衣食語默、毀譽得失、衰老病
 <lb n="0254a02" ed="Y"/>患<lb n="0238a03" ed="Y" type="old"/>、待人接物，在這一切境界上，能提起正念，時時照顧，不斷熏修，這能使
 <lb n="0254a03" ed="Y"/>愛<lb n="0238a04" ed="Y" type="old"/>染為本的修惑漸漸銷融淨盡。這是二果以來都是如此的。</p>
-<lb n="0254a04" ed="Y"/><lb n="0238a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">證得初果或二果、三果，現生不斷進修；或是阿那含（三果）死後，生到
+<lb n="0254a04" ed="Y"/><lb n="0238a05" ed="Y" type="old"/><p xml:id="pY12p0254a0401" style="margin-left:1em;text-indent:2em">證得初果或二果、三果，現生不斷進修；或是阿那含（三果）死後，生到
 <lb n="0254a05" ed="Y"/><lb n="0238a06" ed="Y" type="old"/>上界，聖道現前，到了<quote type="嚴謹引文">「斷惑究竟」</quote>淨盡的時候，就證第四果，<quote type="嚴謹引文">「名」</quote>為<quote type="嚴謹引文">「阿
 <lb n="0254a06" ed="Y"/><lb n="0238a07" ed="Y" type="old"/>羅漢」</quote>。阿羅漢也是梵語，譯義是『應』，意思說這是真正應受人天供養的<lb n="0238a08" ed="Y" type="old"/>聖
 <lb n="0254a07" ed="Y"/>者。或譯為『無生』、『殺賊』，是說：到此階位，殺盡了一切煩惱賊，不<lb n="0238a09" ed="Y" type="old"/>會再
 <lb n="0254a08" ed="Y"/>有生死的生起了。總之，這是斷盡煩惱、斷盡生死的極果。所斷的煩惱，<lb n="0238a10" ed="Y" type="old"/>論師
-<lb n="0254a09" ed="Y"/>說是色、無色界的修斷煩惱。佛在經中說：<quote type="嚴謹引文">『斷五（順）上分結得阿<lb n="0238a11" ed="Y" type="old"/>羅漢。』<note n="0254a0901" resp="CBETA" type="add">［－］【CB】，[57]【印順】</note><app n="0254a0901"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">[57]</rdg></app></quote>
+<lb n="0254a09" ed="Y"/>說是色、無色界的修斷煩惱。佛在經中說：<quote type="嚴謹引文">『斷五（順）上分結得阿<lb n="0238a11" ed="Y" type="old"/>羅漢。』<note n="0254a0901" resp="CBETA" type="add">［－］【CB】，[57]【印順】</note><app n="0254a0901"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">[57]</rdg></app></quote>
 <lb n="0254a10" ed="Y"/>五順上分結是：色貪、無色貪、掉舉、慢、無明。色貪、無色貪，是色<lb n="0238a12" ed="Y" type="old"/>界與
 <lb n="0254a11" ed="Y"/>無色界的貪染。掉舉、慢、無明，也應該是二界不同的；但修惑以染愛為<lb n="0238a13" ed="Y" type="old"/>本，
 <lb n="0254a12" ed="Y"/>所以特約二界而分別為二類。這五結，是使眾生生於上界的，現在也斷了<pb n="0239a" ed="Y" xml:id="Y12.0012.0239a.old" type="old"/><lb n="0239a01" ed="Y" type="old"/>，就
@@ -1624,8 +1644,8 @@
 <lb n="0255a02" ed="Y"/><quote type="嚴謹引文">「造新」</quote>業，所以未來的<quote type="嚴謹引文">「生死」</quote>苦果，<quote type="嚴謹引文">「更無」</quote>生起的因<quote type="嚴謹引文">「緣」</quote>了。所<lb n="0239a04" ed="Y" type="old"/>以阿
 <lb n="0255a03" ed="Y"/>羅漢現有的生死身，到了壽命盡時，就<quote type="寬鬆引文">『前蘊滅，後蘊更不生』</quote>，而入於<lb n="0239a05" ed="Y" type="old"/>不生
 <lb n="0255a04" ed="Y"/>不滅的無餘涅槃——聲聞乘的進修，以此為最究竟的果位。</p>
-<lb n="0255a05" ed="Y"/><lb n="0239a06" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>此或慧解脫，或是俱解脫。六通及三明，世間上福田。</l></lg></quote>
-<lb n="0255a06" ed="Y"/><lb n="0239a07" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">經中說到阿羅漢，有六種、九種等分別。現在說二大類：<quote type="嚴謹引文">「此」</quote>阿羅漢，
+<lb n="0255a05" ed="Y"/><lb n="0239a06" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0255a0501" rend="bold" type="abnormal"><l>此或慧解脫，或是俱解脫。六通及三明，世間上福田。</l></lg></quote>
+<lb n="0255a06" ed="Y"/><lb n="0239a07" ed="Y" type="old"/><p xml:id="pY12p0255a0601" style="margin-left:1em;text-indent:2em">經中說到阿羅漢，有六種、九種等分別。現在說二大類：<quote type="嚴謹引文">「此」</quote>阿羅漢，
 <lb n="0255a07" ed="Y"/><lb n="0239a08" ed="Y" type="old"/><quote type="嚴謹引文">「或」</quote>是<quote type="嚴謹引文">「慧解脫」</quote>的，<quote type="嚴謹引文">「或是俱解脫」</quote>的。俱解脫，就是定與慧都解脫的。
 <lb n="0255a08" ed="Y"/><lb n="0239a09" ed="Y" type="old"/>要知道，定與慧，都有煩惱障蔽它，所以不能現起；如能現起，就從這些障礙
 <lb n="0255a09" ed="Y"/><lb n="0239a10" ed="Y" type="old"/>而得解脫。經中時常說到：<quote type="嚴謹引文">『離貪欲者，心（定）解脫；離無明者，慧解脫</quote><lb n="0239a11" ed="Y" type="old"/>。
@@ -1644,7 +1664,7 @@
 <lb n="0256a08" ed="Y"/>竟而<lb n="0240a09" ed="Y" type="old"/>不究竟解脫定障，就稱為慧解脫阿羅漢。生死苦果，依慧證法性而得解脫
 <lb n="0256a09" ed="Y"/>，所以定<lb n="0240a10" ed="Y" type="old"/>力不得究竟，也沒有關係。阿羅漢的定力，是淺深不等的，所以可分
 <lb n="0256a10" ed="Y"/>好幾類。</p>
-<lb n="0256a11" ed="Y"/><lb n="0240a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">俱解脫阿羅漢，不消說是能得<quote type="嚴謹引文">「六通及三明」</quote>功德的。其他的阿羅漢，凡
+<lb n="0256a11" ed="Y"/><lb n="0240a11" ed="Y" type="old"/><p xml:id="pY12p0256a1101" style="margin-left:1em;text-indent:2em">俱解脫阿羅漢，不消說是能得<quote type="嚴謹引文">「六通及三明」</quote>功德的。其他的阿羅漢，凡
 <lb n="0256a12" ed="Y"/><lb n="0240a12" ed="Y" type="old"/>能得四根本禪的，都能修發三明、六通。六通是：神境通、天眼通、天耳通、
 <lb n="0256a13" ed="Y"/><lb n="0240a13" ed="Y" type="old"/>他心通、宿命通、漏盡通。神境通能：變多為一，變一為多，隱顯自在，山河<pb n="0241a" ed="Y" xml:id="Y12.0012.0241a.old" type="old"/>
 <pb n="0257a" ed="Y" xml:id="Y12.0012.0257a"/>
@@ -1663,9 +1683,9 @@
 <lb n="0257a13" ed="Y"/><lb n="0241a13" ed="Y" type="old"/>業果明了的重視。阿羅漢有這樣的殊勝功德，所以是<quote type="嚴謹引文">「世間」</quote>的上<quote type="嚴謹引文">「上福田」</quote><pb n="0242a" ed="Y" xml:id="Y12.0012.0242a.old" type="old"/>
 <pb n="0258a" ed="Y" xml:id="Y12.0012.0258a"/>
 <lb n="0258a01" ed="Y"/><lb n="0242a01" ed="Y" type="old"/>，應受人天的恭敬供養。</p>
-<lb n="0258a02" ed="Y"/><lb n="0242a02" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>明淨恒不動，如日處晴空；一切世間行，不染如蓮華。</l></lg></quote>
-<lb n="0258a03" ed="Y"/><lb n="0242a03" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">再舉兩個譬喻，來讚歎阿羅漢的功德。</p>
-<lb n="0258a04" ed="Y"/><lb n="0242a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">一、證得阿羅漢果的聖者，智慧斷盡了煩惱，所以是<quote type="嚴謹引文">「明」</quote>而又<quote type="嚴謹引文">「淨」</quote>。
+<lb n="0258a02" ed="Y"/><lb n="0242a02" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0258a0201" rend="bold" type="abnormal"><l>明淨恒不動，如日處晴空；一切世間行，不染如蓮華。</l></lg></quote>
+<lb n="0258a03" ed="Y"/><lb n="0242a03" ed="Y" type="old"/><p xml:id="pY12p0258a0301" style="margin-left:1em;text-indent:2em">再舉兩個譬喻，來讚歎阿羅漢的功德。</p>
+<lb n="0258a04" ed="Y"/><lb n="0242a04" ed="Y" type="old"/><p xml:id="pY12p0258a0401" style="margin-left:1em;text-indent:2em">一、證得阿羅漢果的聖者，智慧斷盡了煩惱，所以是<quote type="嚴謹引文">「明」</quote>而又<quote type="嚴謹引文">「淨」</quote>。
 <lb n="0258a05" ed="Y"/><lb n="0242a05" ed="Y" type="old"/>在觸對一切境界時，可以<quote type="嚴謹引文">「恒不動」</quote>來說明。阿羅漢的功德，有『六恒住』。
 <lb n="0258a06" ed="Y"/><lb n="0242a06" ed="Y" type="old"/>在見色聞聲等六境起用時，恒常是<quote type="嚴謹引文">『不苦不樂，捨心住正念正智』</quote>，這就是<lb n="0242a07" ed="Y" type="old"/>不
 <lb n="0258a07" ed="Y"/>動。在觸對六境時，或是合意的，或是不合意的，但不會因此而起貪、起瞋。
@@ -1677,14 +1697,14 @@
 <lb n="0258a13" ed="Y"/>了<lb n="0242a13" ed="Y" type="old"/>，到末後，浮雲淨盡。阿羅漢極明極淨，正<quote type="嚴謹引文">「如日」</quote>光朗照，<quote type="嚴謹引文">「處」</quote>在萬里
 <pb n="0259a" ed="Y" xml:id="Y12.0012.0259a"/>
 <lb n="0259a01" ed="Y"/>無<pb n="0243a" ed="Y" xml:id="Y12.0012.0243a.old" type="old"/><lb n="0243a01" ed="Y" type="old"/>雲的<quote type="嚴謹引文">「晴空」</quote>中一樣。</p>
-<lb n="0259a02" ed="Y"/><lb n="0243a02" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">二、證得阿羅漢的聖者，無論定力的淺深怎樣，在沒有捨報以前，總是生
+<lb n="0259a02" ed="Y"/><lb n="0243a02" ed="Y" type="old"/><p xml:id="pY12p0259a0201" style="margin-left:1em;text-indent:2em">二、證得阿羅漢的聖者，無論定力的淺深怎樣，在沒有捨報以前，總是生
 <lb n="0259a03" ed="Y"/><lb n="0243a03" ed="Y" type="old"/>活在世間。一樣的吃飯、穿衣、來去，一樣的遊化人間、待人接物。他的身體
 <lb n="0259a04" ed="Y"/><lb n="0243a04" ed="Y" type="old"/>、他的環境，還是世間的有漏法，還是無常、苦、不淨的。然而，阿羅漢生活
 <lb n="0259a05" ed="Y"/>在這<lb n="0243a05" ed="Y" type="old"/>世間中，卻不受雜染的環境所熏變。所以他在<quote type="嚴謹引文">「一切世間行」</quote>中，清淨<quote type="嚴謹引文">「
 <lb n="0259a06" ed="Y"/>不染<lb n="0243a06" ed="Y" type="old"/>如蓮華」</quote>一樣。蓮花是生於淤泥中，而卻『微妙香潔』。周茂叔以蓮花譬
 <lb n="0259a07" ed="Y"/>君<lb n="0243a07" ed="Y" type="old"/>子，其實人中君子，怎麼比得蓮花，阿羅漢才像蓮花呢！</p>
-<lb n="0259a08" ed="Y"/><lb n="0243a08" ed="Y" type="old"/><quote type="被解釋的引文"><lg type="abnormal" rend="bold"><l>或不由他覺，從於遠離生，名辟支迦佛，合說為二乘。</l></lg></quote>
-<lb n="0259a09" ed="Y"/><lb n="0243a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">三乘共法的教化主機，是聲聞乘，上面已大略說到。第二是緣覺乘。從證
+<lb n="0259a08" ed="Y"/><lb n="0243a08" ed="Y" type="old"/><quote type="被解釋的引文"><lg xml:id="lgY12p0259a0801" rend="bold" type="abnormal"><l>或不由他覺，從於遠離生，名辟支迦佛，合說為二乘。</l></lg></quote>
+<lb n="0259a09" ed="Y"/><lb n="0243a09" ed="Y" type="old"/><p xml:id="pY12p0259a0901" style="margin-left:1em;text-indent:2em">三乘共法的教化主機，是聲聞乘，上面已大略說到。第二是緣覺乘。從證
 <lb n="0259a10" ed="Y"/><lb n="0243a10" ed="Y" type="old"/>真斷惑的地位來說，緣覺與聲聞是一樣的。但他的主要不同處：一、是<quote type="嚴謹引文">「不由
 <lb n="0259a11" ed="Y"/><lb n="0243a11" ed="Y" type="old"/>他覺」</quote>，也就是無師自悟的。傳說：有一國王，遊覽王家花園，見香花盛開，
 <lb n="0259a12" ed="Y"/><lb n="0243a12" ed="Y" type="old"/>非常歡喜。不久，一群宮女來採花，那棵絢爛的花樹，一下子被折得不成樣子

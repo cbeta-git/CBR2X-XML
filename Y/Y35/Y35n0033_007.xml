@@ -12,80 +12,100 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂七刷<date>Date: 2010/09</date>新式標點版</edition>
+			<edition>修訂七刷<date>Date: 2010/09</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>12卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 35, No. 33</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>12卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">35</idno>.<idno type="no">33</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">原始佛教聖典之集成</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第六章　比丘尼、附隨、毘尼藏之組織</cb:mulu><cb:mulu level="2" type="其他">第三節　結論毘尼藏的組織</cb:mulu><cb:div type="other">
-<milestone unit="juan" n="7"/>
+<milestone n="7" unit="juan"/>
 <pb n="0463a" ed="Y" xml:id="Y35.0033.0463a"/>
 <lb n="0463a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">第七章　經典部類概論</cb:mulu><head>第七章　經典部類概論</head>
 <lb n="0463a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　經典的部類</cb:mulu><head>第一節　經典的部類</head>
 <lb n="0463a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">第一項　經典的實存部類</cb:mulu><head>第一項　經典的實存部類</head>
-<lb n="0463a04" ed="Y"/><p style="text-indent:2em">「佛法」聖典的集成，「律藏」（<foreign xml:lang="x-sa-pi">Vinaya-piṭaka</foreign>）而外，就是「經藏」（<foreign xml:lang="sa"><note n="0463a0401" resp="CBETA" type="add">Sūtra-piṭaka【CB】，Sūtra-pi.【印順】</note><app n="0463a0401"><lem wit="【CB】" resp="正聞出版社">Sūtra-piṭaka</lem><rdg wit="【印順】">Sūtra-pi.</rdg></app></foreign>），
+<lb n="0463a04" ed="Y"/><p xml:id="pY35p0463a0401" style="text-indent:2em">「佛法」聖典的集成，「律藏」（<foreign xml:lang="x-sa-pi">Vinaya-piṭaka</foreign>）而外，就是「經藏」（<foreign xml:lang="sa"><note n="0463a0401" resp="CBETA" type="add">Sūtra-piṭaka【CB】，Sūtra-pi.【印順】</note><app n="0463a0401"><lem resp="正聞出版社" wit="【CB】">Sūtra-piṭaka</lem><rdg wit="【印順】">Sūtra-pi.</rdg></app></foreign>），
 <lb n="0463a05" ed="Y"/>也就是「五部」（或稱「五阿含」）、「四阿含」的集成。「經藏」集成的研究，比起「律藏」
 <lb n="0463a06" ed="Y"/>來，實在是困難得多，主要是由於「文獻不足」。「五部」、「四阿含」的現存經典，都是部派
-<lb n="0463a07" ed="Y"/>所傳的。<note n="0463a0701" resp="CBETA" type="add" subtype="規範字詞">巴利【CB】，巴黎【印順】</note><app n="0463a0701"><lem wit="【CB】" resp="CBETA">巴利</lem><rdg wit="【印順】">巴黎</rdg></app>語（<foreign xml:lang="pi"><note n="0463a0702" resp="CBETA" type="add">Pāli【CB】，Pali【印順】</note><app n="0463a0702"><lem wit="【CB】" resp="正聞出版社">Pāli</lem><rdg wit="【印順】">Pali</rdg></app></foreign>）的「五部」，完整的保存了銅鍱部（<foreign xml:lang="sa"><note n="0463a0703" resp="CBETA" type="add">Tāmraśāṭīya【CB】，Tāmra-śātīyāḥ【印順】</note><app n="0463a0703"><lem wit="【CB】" resp="正聞出版社">Tāmraśāṭīya</lem><rdg wit="【印順】">Tāmra-śātīyāḥ</rdg></app></foreign>）的傳承，這是
-<lb n="0463a08" ed="Y"/>很難得的！但不容忽視的，這是銅鍱部，是上座部（<foreign xml:lang="sa"><note n="0463a0801" resp="CBETA" type="add">Sthavira【CB】，Sthavirāḥ【印順】</note><app n="0463a0801"><lem wit="【CB】" resp="正聞出版社">Sthavira</lem><rdg wit="【印順】">Sthavirāḥ</rdg></app></foreign>）中，分別說系（<foreign xml:lang="sa"><note n="0463a0802" resp="CBETA" type="add">Vibhajyavādin【CB】，Vibhājya-vādināḥ【印順】</note><app n="0463a0802"><lem wit="【CB】" resp="正聞出版社">Vibhajyavādin</lem><rdg wit="【印順】">Vibhājya-vādināḥ</rdg></app></foreign>）
+<lb n="0463a07" ed="Y"/>所傳的。<note n="0463a0701" resp="CBETA" type="add" subtype="規範字詞">巴利【CB】，巴黎【印順】</note><app n="0463a0701"><lem resp="CBETA" wit="【CB】">巴利</lem><rdg wit="【印順】">巴黎</rdg></app>語（<foreign xml:lang="pi"><note n="0463a0702" resp="CBETA" type="add">Pāli【CB】，Pali【印順】</note><app n="0463a0702"><lem resp="正聞出版社" wit="【CB】">Pāli</lem><rdg wit="【印順】">Pali</rdg></app></foreign>）的「五部」，完整的保存了銅鍱部（<foreign xml:lang="sa"><note n="0463a0703" resp="CBETA" type="add">Tāmraśāṭīya【CB】，Tāmra-śātīyāḥ【印順】</note><app n="0463a0703"><lem resp="正聞出版社" wit="【CB】">Tāmraśāṭīya</lem><rdg wit="【印順】">Tāmra-śātīyāḥ</rdg></app></foreign>）的傳承，這是
+<lb n="0463a08" ed="Y"/>很難得的！但不容忽視的，這是銅鍱部，是上座部（<foreign xml:lang="sa"><note n="0463a0801" resp="CBETA" type="add">Sthavira【CB】，Sthavirāḥ【印順】</note><app n="0463a0801"><lem resp="正聞出版社" wit="【CB】">Sthavira</lem><rdg wit="【印順】">Sthavirāḥ</rdg></app></foreign>）中，分別說系（<foreign xml:lang="sa"><note n="0463a0802" resp="CBETA" type="add">Vibhajyavādin【CB】，Vibhājya-vādināḥ【印順】</note><app n="0463a0802"><lem resp="正聞出版社" wit="【CB】">Vibhajyavādin</lem><rdg wit="【印順】">Vibhājya-vādināḥ</rdg></app></foreign>）
 <lb n="0463a09" ed="Y"/>的一部。充其量，也只能代表分別說系的「經藏」。漢譯的，有<title level="m">《四阿含經》</title>（西藏沒
 <lb n="0463a10" ed="Y"/>有大部的傳譯），但不是屬於同一部派。<title level="m">《雜阿含經》</title>與<title level="m">《中阿含經》</title>，是說一切有部
-<lb n="0463a11" ed="Y"/>（<foreign xml:lang="sa"><note n="0463a1101" resp="CBETA" type="add">Sarvāstivāda【CB】，Sarvāsti-vādāḥ【印順】</note><app n="0463a1101"><lem wit="【CB】" resp="正聞出版社">Sarvāstivāda</lem><rdg wit="【印順】">Sarvāsti-vādāḥ</rdg></app></foreign>）所傳的。<title level="m">《雜阿含經》</title>已有所殘失；而說一切有部所傳的<title level="m">《長阿含經》</title>、<title level="m">《增一阿
+<lb n="0463a11" ed="Y"/>（<foreign xml:lang="sa"><note n="0463a1101" resp="CBETA" type="add">Sarvāstivāda【CB】，Sarvāsti-vādāḥ【印順】</note><app n="0463a1101"><lem resp="正聞出版社" wit="【CB】">Sarvāstivāda</lem><rdg wit="【印順】">Sarvāsti-vādāḥ</rdg></app></foreign>）所傳的。<title level="m">《雜阿含經》</title>已有所殘失；而說一切有部所傳的<title level="m">《長阿含經》</title>、<title level="m">《增一阿
 <pb n="0464a" ed="Y" xml:id="Y35.0033.0464a"/>
-<lb n="0464a01" ed="Y"/>含經》</title>，並沒有傳譯過來。漢譯的<title level="m">《長阿含經》</title>，是分別說系法藏部（<foreign xml:lang="sa"><note n="0464a0101" resp="CBETA" type="add">Dharmaguptaka【CB】，Dharmaguptakāḥ【印順】</note><app n="0464a0101"><lem wit="【CB】" resp="正聞出版社">Dharmaguptaka</lem><rdg wit="【印順】">Dharmaguptakāḥ</rdg></app></foreign>）所
-<lb n="0464a02" ed="Y"/>傳的。<title level="m">《增壹阿含經》</title>是大眾部（<foreign xml:lang="sa"><note n="0464a0201" resp="CBETA" type="add">Mahāsāṃghika【CB】，Mahāsāṅghikāḥ【印順】</note><app n="0464a0201"><lem wit="【CB】" resp="正聞出版社">Mahāsāṃghika</lem><rdg wit="【印順】">Mahāsāṅghikāḥ</rdg></app></foreign>）的末派所傳。所以各部派的「五部」或「
+<lb n="0464a01" ed="Y"/>含經》</title>，並沒有傳譯過來。漢譯的<title level="m">《長阿含經》</title>，是分別說系法藏部（<foreign xml:lang="sa"><note n="0464a0101" resp="CBETA" type="add">Dharmaguptaka【CB】，Dharmaguptakāḥ【印順】</note><app n="0464a0101"><lem resp="正聞出版社" wit="【CB】">Dharmaguptaka</lem><rdg wit="【印順】">Dharmaguptakāḥ</rdg></app></foreign>）所
+<lb n="0464a02" ed="Y"/>傳的。<title level="m">《增壹阿含經》</title>是大眾部（<foreign xml:lang="sa"><note n="0464a0201" resp="CBETA" type="add">Mahāsāṃghika【CB】，Mahāsāṅghikāḥ【印順】</note><app n="0464a0201"><lem resp="正聞出版社" wit="【CB】">Mahāsāṃghika</lem><rdg wit="【印順】">Mahāsāṅghikāḥ</rdg></app></foreign>）的末派所傳。所以各部派的「五部」或「
 <lb n="0464a03" ed="Y"/>四阿含」，現存的非常不完備；尤其是大眾部——大眾部本派的誦本。憑現有的文獻，而作經典
 <lb n="0464a04" ed="Y"/>集成的研究，不能取三大系的經典來作相互的比較，實難有良好的成就。最多也只能約略推見上
 <lb n="0464a05" ed="Y"/>座部（沒有再分派）時代的經典情形。</p>
-<lb n="0464a06" ed="Y"/><p style="text-indent:2em">現存的「五部」與「四阿含」，都存有部派的色彩。不同的部派，有不同誦本的經典；都是
+<lb n="0464a06" ed="Y"/><p xml:id="pY35p0464a0601" style="text-indent:2em">現存的「五部」與「四阿含」，都存有部派的色彩。不同的部派，有不同誦本的經典；都是
 <lb n="0464a07" ed="Y"/>「依自阿笈摩」而成立自宗的<note n="0464001" resp="釋印順" type="orig"><title level="m">《異部宗輪論》</title>（大正<ref target="#vol:49;page:p15a" type="taisho">四九．一五上</ref>）。</note>。我們相信，在師資傳承中，當獨立而成為一宗時，對於經律，
 <lb n="0464a08" ed="Y"/>都會有一番結集與整理的；一宗的經與律，也就大體凝定。但同一部派，傳承得久了，或化區太
 <lb n="0464a09" ed="Y"/>廣大了，內部會有不同的學系（可能發展而成為另一宗派），所傳也就多少有所差異。所以同一
 <lb n="0464a10" ed="Y"/>部派的聖典，在組織上，教相上，會多少有些不同的。論斷某一聖典為屬於某一部派，應著重大
 <lb n="0464a11" ed="Y"/>體，不能因枝末而異議的。</p>
-<lb n="0464a12" ed="Y"/><p style="text-indent:2em">現存而屬於分別說系銅鍱部的，「經藏」分為「五部」：1.<title level="m">《長部》</title>（<foreign xml:lang="pi"><note n="0464a1201" resp="CBETA" type="add">Dīgha Nikāya【CB】，Dīgha-nikāya【印順】</note><app n="0464a1201"><lem wit="【CB】" resp="正聞出版社">Dīgha Nikāya</lem><rdg wit="【印順】">Dīgha-nikāya</rdg></app></foreign>）；
-<lb n="0464a13" ed="Y"/>2.<title level="m">《中部》</title>（<foreign xml:lang="pi"><note n="0464a1301" resp="CBETA" type="add">Majjhima-nikāya【CB】，Majjhima-ni.【印順】</note><app n="0464a1301"><lem wit="【CB】" resp="正聞出版社">Majjhima-nikāya</lem><rdg wit="【印順】">Majjhima-ni.</rdg></app></foreign>）；3.<title level="m">《相應部》</title>（<foreign xml:lang="pi"><note n="0464a1302" resp="CBETA" type="add">Saṃyutta-nikāya【CB】，Saṃyutta-ni.【印順】</note><app n="0464a1302"><lem wit="【CB】" resp="正聞出版社">Saṃyutta-nikāya</lem><rdg wit="【印順】">Saṃyutta-ni.</rdg></app></foreign>）；4.<title level="m">《增支部》</title>（<foreign xml:lang="pi"><note n="0464a1303" resp="CBETA" type="add">Aṅguttara-nikāya【CB】，Aṅguttara-ni.【印順】</note><app n="0464a1303"><lem wit="【CB】" resp="正聞出版社">Aṅguttara-nikāya</lem><rdg wit="【印順】">Aṅguttara-ni.</rdg></app></foreign>）
-<lb n="0464a14" ed="Y"/>5.<title level="m">《小部》</title>（<foreign xml:lang="pi"><note n="0464a1401" resp="CBETA" type="add">Khuddaka-nikāya【CB】，Khuddaka-ni.【印順】</note><app n="0464a1401"><lem wit="【CB】" resp="正聞出版社">Khuddaka-nikāya</lem><rdg wit="【印順】">Khuddaka-ni.</rdg></app></foreign>）。關於<title level="m">《小部》</title>的內容，錫蘭、緬甸所傳的部類，多
-<lb n="0464a15" ed="Y"/>少略有出入，如下<note n="0464002" resp="釋印順" type="orig"><bibl><title level="m">《望月佛教大辭典》</title><biblScope n="5" type="卷">卷五</biblScope><biblScope type="pp" n="4174上">（四一七四上）</biblScope></bibl>說：錫、緬而外，泰國所刊「經藏」，僅有八種：<title level="m">《小誦》</title>、<title level="m">《法句》</title>、<title level="m">《自說》</title>、<title level="m">《如是語》</title>、<title level="m">《經集》</title>、<title level="m">《義釋》</title>、<title level="m">《無礙解道》</title>、<title level="m">《譬喻》</title>。又漢譯<bibl><title level="m">《善見律毘婆沙》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:24;page:p676a">二四．六七六上</ref>）說：僅有一四種，缺<title level="m">《小誦》</title>一部。</note>：</p>
+<lb n="0464a12" ed="Y"/><p xml:id="pY35p0464a1201" style="text-indent:2em">現存而屬於分別說系銅鍱部的，「經藏」分為「五部」：1.<title level="m">《長部》</title>（<foreign xml:lang="pi"><note n="0464a1201" resp="CBETA" type="add">Dīgha Nikāya【CB】，Dīgha-nikāya【印順】</note><app n="0464a1201"><lem resp="正聞出版社" wit="【CB】">Dīgha Nikāya</lem><rdg wit="【印順】">Dīgha-nikāya</rdg></app></foreign>）；
+<lb n="0464a13" ed="Y"/>2.<title level="m">《中部》</title>（<foreign xml:lang="pi"><note n="0464a1301" resp="CBETA" type="add">Majjhima-nikāya【CB】，Majjhima-ni.【印順】</note><app n="0464a1301"><lem resp="正聞出版社" wit="【CB】">Majjhima-nikāya</lem><rdg wit="【印順】">Majjhima-ni.</rdg></app></foreign>）；3.<title level="m">《相應部》</title>（<foreign xml:lang="pi"><note n="0464a1302" resp="CBETA" type="add">Saṃyutta-nikāya【CB】，Saṃyutta-ni.【印順】</note><app n="0464a1302"><lem resp="正聞出版社" wit="【CB】">Saṃyutta-nikāya</lem><rdg wit="【印順】">Saṃyutta-ni.</rdg></app></foreign>）；4.<title level="m">《增支部》</title>（<foreign xml:lang="pi"><note n="0464a1303" resp="CBETA" type="add">Aṅguttara-nikāya【CB】，Aṅguttara-ni.【印順】</note><app n="0464a1303"><lem resp="正聞出版社" wit="【CB】">Aṅguttara-nikāya</lem><rdg wit="【印順】">Aṅguttara-ni.</rdg></app></foreign>）
+<lb n="0464a14" ed="Y"/>5.<title level="m">《小部》</title>（<foreign xml:lang="pi"><note n="0464a1401" resp="CBETA" type="add">Khuddaka-nikāya【CB】，Khuddaka-ni.【印順】</note><app n="0464a1401"><lem resp="正聞出版社" wit="【CB】">Khuddaka-nikāya</lem><rdg wit="【印順】">Khuddaka-ni.</rdg></app></foreign>）。關於<title level="m">《小部》</title>的內容，錫蘭、緬甸所傳的部類，多
+<lb n="0464a15" ed="Y"/>少略有出入，如下<note n="0464002" resp="釋印順" type="orig"><bibl><title level="m">《望月佛教大辭典》</title><biblScope n="5" type="卷">卷五</biblScope><biblScope n="4174上" type="pp">（四一七四上）</biblScope></bibl>說：錫、緬而外，泰國所刊「經藏」，僅有八種：<title level="m">《小誦》</title>、<title level="m">《法句》</title>、<title level="m">《自說》</title>、<title level="m">《如是語》</title>、<title level="m">《經集》</title>、<title level="m">《義釋》</title>、<title level="m">《無礙解道》</title>、<title level="m">《譬喻》</title>。又漢譯<bibl><title level="m">《善見律毘婆沙》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:24;page:p676a" type="taisho">二四．六七六上</ref>）說：僅有一四種，缺<title level="m">《小誦》</title>一部。</note>：</p>
 <pb n="0465a" ed="Y" xml:id="Y35.0033.0465a"/>
 <lb n="0465a01" ed="Y"/><table cols="3" style="margin-left:3em"><row><cell>〔錫蘭長部師所傳〕</cell><cell>〔錫蘭中部師所傳〕</cell><cell>〔緬甸所傳〕</cell></row><row><cell>
 <lb n="0465a02" ed="Y"/></cell><cell><foreign xml:lang="pi">Khuddakapāṭha</foreign>（小誦）</cell><cell>同</cell></row><row><cell>
 <lb n="0465a03" ed="Y"/>Dhammapada（法句）</cell><cell>同</cell><cell>同</cell></row><row><cell>
 <lb n="0465a04" ed="Y"/>Udāna（自說）</cell><cell>同</cell><cell>同</cell></row><row><cell>
-<lb n="0465a05" ed="Y"/><note n="0465a0501" resp="CBETA" type="add">itivuttaka【CB】，Itivuttaka【印順】</note><app n="0465a0501"><lem wit="【CB】" resp="正聞出版社">itivuttaka</lem><rdg wit="【印順】">Itivuttaka</rdg></app>（如是語）</cell><cell>同</cell><cell>同</cell></row><row><cell>
+<lb n="0465a05" ed="Y"/><note n="0465a0501" resp="CBETA" type="add">itivuttaka【CB】，Itivuttaka【印順】</note><app n="0465a0501"><lem resp="正聞出版社" wit="【CB】">itivuttaka</lem><rdg wit="【印順】">Itivuttaka</rdg></app>（如是語）</cell><cell>同</cell><cell>同</cell></row><row><cell>
 <lb n="0465a06" ed="Y"/>Sutta-nipāta（經集）</cell><cell>同</cell><cell>同</cell></row><row><cell>
 <lb n="0465a07" ed="Y"/>Vimānavatthu（天宮事）</cell><cell>同</cell><cell>同</cell></row><row><cell>
 <lb n="0465a08" ed="Y"/>Petavatthu（餓鬼事）</cell><cell>同</cell><cell>同</cell></row><row><cell>
@@ -96,139 +116,139 @@
 <lb n="0465a13" ed="Y"/>Paṭisambhidāmagga（無礙解道）</cell><cell>同</cell><cell>同</cell></row><row><cell>
 <lb n="0465a14" ed="Y"/></cell><cell>Apadāna（譬喻）</cell><cell>同</cell></row><row><cell>
 <pb n="0466a" ed="Y" xml:id="Y35.0033.0466a"/>
-<lb n="0466a01" ed="Y"/></cell><cell><note n="0466a0101" resp="CBETA" type="add">Buddhavaṃśa【CB】，Buddhavaṁsa【印順】</note><app n="0466a0101"><lem wit="【CB】" resp="正聞出版社">Buddhavaṃśa</lem><rdg wit="【印順】">Buddhavaṁsa</rdg></app>（佛種姓）</cell><cell>同</cell></row><row><cell>
+<lb n="0466a01" ed="Y"/></cell><cell><note n="0466a0101" resp="CBETA" type="add">Buddhavaṃśa【CB】，Buddhavaṁsa【印順】</note><app n="0466a0101"><lem resp="正聞出版社" wit="【CB】">Buddhavaṃśa</lem><rdg wit="【印順】">Buddhavaṁsa</rdg></app>（佛種姓）</cell><cell>同</cell></row><row><cell>
 <lb n="0466a02" ed="Y"/></cell><cell>Cariyāpiṭaka（所行藏）</cell><cell>同</cell></row><row><cell>
-<lb n="0466a03" ed="Y"/></cell><cell></cell><cell><note n="0466a0301" resp="CBETA" type="add">Milindapañha【CB】，Milandapañha【印順】</note><app n="0466a0301"><lem wit="【CB】" resp="正聞出版社">Milindapañha</lem><rdg wit="【印順】">Milandapañha</rdg></app>（彌陵陀問）</cell></row><row><cell>
+<lb n="0466a03" ed="Y"/></cell><cell></cell><cell><note n="0466a0301" resp="CBETA" type="add">Milindapañha【CB】，Milandapañha【印順】</note><app n="0466a0301"><lem resp="正聞出版社" wit="【CB】">Milindapañha</lem><rdg wit="【印順】">Milandapañha</rdg></app>（彌陵陀問）</cell></row><row><cell>
 <lb n="0466a04" ed="Y"/></cell><cell></cell><cell>Sutta-saṃgaha（經攝）</cell></row><row><cell>
-<lb n="0466a05" ed="Y"/></cell><cell></cell><cell><note n="0466a0501" resp="CBETA" type="add">Peṭakopadeśa【CB】，Peṭakopadesa【印順】</note><app n="0466a0501"><lem wit="【CB】" resp="正聞出版社">Peṭakopadeśa</lem><rdg wit="【印順】">Peṭakopadesa</rdg></app>（藏論）</cell></row><row><cell>
-<lb n="0466a06" ed="Y"/></cell><cell></cell><cell><note n="0466a0601" resp="CBETA" type="add">Nettipakaraṇa【CB】，Nettippakaraṇa【印順】</note><app n="0466a0601"><lem wit="【CB】" resp="正聞出版社">Nettipakaraṇa</lem><rdg wit="【印順】">Nettippakaraṇa</rdg></app>（指導論）</cell></row></table>
-<lb n="0466a07" ed="Y"/><p style="text-indent:2em">屬於分別說系法藏部的，有漢譯的<title level="m">《長阿含經》</title>，與<title level="m">《長部》</title>相當。</p>
-<lb n="0466a08" ed="Y"/><p style="text-indent:2em">屬於分別說系飲光部（<foreign xml:lang="sa"><note n="0466a0801" resp="CBETA" type="add">Kāśyapīya【CB】，Kāśyapīyaāḥ【印順】</note><app n="0466a0801"><lem wit="【CB】" resp="正聞出版社">Kāśyapīya</lem><rdg wit="【印順】">Kāśyapīyaāḥ</rdg></app></foreign>）的，有漢譯的<title level="m">《別譯雜阿含經》</title>，與<title level="m">《相應部》</title>的
+<lb n="0466a05" ed="Y"/></cell><cell></cell><cell><note n="0466a0501" resp="CBETA" type="add">Peṭakopadeśa【CB】，Peṭakopadesa【印順】</note><app n="0466a0501"><lem resp="正聞出版社" wit="【CB】">Peṭakopadeśa</lem><rdg wit="【印順】">Peṭakopadesa</rdg></app>（藏論）</cell></row><row><cell>
+<lb n="0466a06" ed="Y"/></cell><cell></cell><cell><note n="0466a0601" resp="CBETA" type="add">Nettipakaraṇa【CB】，Nettippakaraṇa【印順】</note><app n="0466a0601"><lem resp="正聞出版社" wit="【CB】">Nettipakaraṇa</lem><rdg wit="【印順】">Nettippakaraṇa</rdg></app>（指導論）</cell></row></table>
+<lb n="0466a07" ed="Y"/><p xml:id="pY35p0466a0701" style="text-indent:2em">屬於分別說系法藏部的，有漢譯的<title level="m">《長阿含經》</title>，與<title level="m">《長部》</title>相當。</p>
+<lb n="0466a08" ed="Y"/><p xml:id="pY35p0466a0801" style="text-indent:2em">屬於分別說系飲光部（<foreign xml:lang="sa"><note n="0466a0801" resp="CBETA" type="add">Kāśyapīya【CB】，Kāśyapīyaāḥ【印順】</note><app n="0466a0801"><lem resp="正聞出版社" wit="【CB】">Kāśyapīya</lem><rdg wit="【印順】">Kāśyapīyaāḥ</rdg></app></foreign>）的，有漢譯的<title level="m">《別譯雜阿含經》</title>，與<title level="m">《相應部》</title>的
 <lb n="0466a09" ed="Y"/> <title level="a">〈有偈品〉</title>等相當。</p>
-<lb n="0466a10" ed="Y"/><p style="text-indent:2em">屬於說一切有部的，有漢譯的<title level="m">《雜阿含經》</title>、<title level="m">《中阿含經》</title>——二部，與<title level="m">《相應部》</title>及<title level="m">《中
+<lb n="0466a10" ed="Y"/><p xml:id="pY35p0466a1001" style="text-indent:2em">屬於說一切有部的，有漢譯的<title level="m">《雜阿含經》</title>、<title level="m">《中阿含經》</title>——二部，與<title level="m">《相應部》</title>及<title level="m">《中
 <lb n="0466a11" ed="Y"/>部》</title>相當。</p>
-<lb n="0466a12" ed="Y"/><p style="text-indent:2em">屬於大眾部末派（或是說出世部所傳）的，有漢譯的<title level="m">《增壹阿含經》</title>，與<title level="m">《增支部》</title>相當。</p>
-<lb n="0466a13" ed="Y"/><p style="text-indent:2em">此外，大部內一經或數經的別譯，漢譯的還有不少。在下面如有所論及的，再為說到。</p>
+<lb n="0466a12" ed="Y"/><p xml:id="pY35p0466a1201" style="text-indent:2em">屬於大眾部末派（或是說出世部所傳）的，有漢譯的<title level="m">《增壹阿含經》</title>，與<title level="m">《增支部》</title>相當。</p>
+<lb n="0466a13" ed="Y"/><p xml:id="pY35p0466a1301" style="text-indent:2em">此外，大部內一經或數經的別譯，漢譯的還有不少。在下面如有所論及的，再為說到。</p>
 <lb n="0466a14" ed="Y"/>
 <lb n="0466a15" ed="Y"/></cb:div>
 <lb n="0467a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">第二項　部派傳說的部類</cb:mulu><head>第二項　部派傳說的部類</head>
-<lb n="0467a04" ed="Y"/><p style="text-indent:2em">現存的經典，極不完備。然在傳說中，各部派所傳的「經藏」內容，有部分的記錄下來，可
+<lb n="0467a04" ed="Y"/><p xml:id="pY35p0467a0401" style="text-indent:2em">現存的經典，極不完備。然在傳說中，各部派所傳的「經藏」內容，有部分的記錄下來，可
 <lb n="0467a05" ed="Y"/>貢參考，多少能了解到各部「經藏」的組織與內容，再為列舉如下：</p>
-<lb n="0467a06" ed="Y"/><p style="text-indent:2em">一、大眾部（<foreign xml:lang="sa"><note n="0467a0601" resp="CBETA" type="add">Mahāsāṃghika【CB】，Mahāsāṁghikāḥ【印順】</note><app n="0467a0601"><lem wit="【CB】" resp="正聞出版社">Mahāsāṃghika</lem><rdg wit="【印順】">Mahāsāṁghikāḥ</rdg></app></foreign>）所傳，如<bibl><title level="m">《僧祇律》</title><biblScope n="32" type="卷">卷三二</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:22;page:p491c">二二．四九一下</ref></note>說：</p>
-<lb n="0467a07" ed="Y"/><quote><p style="margin-left:3em">「文句長者，集為長阿含。文句中者，集為中阿含。文句雜者，集為雜阿含，所謂根雜、
+<lb n="0467a06" ed="Y"/><p xml:id="pY35p0467a0601" style="text-indent:2em">一、大眾部（<foreign xml:lang="sa"><note n="0467a0601" resp="CBETA" type="add">Mahāsāṃghika【CB】，Mahāsāṁghikāḥ【印順】</note><app n="0467a0601"><lem resp="正聞出版社" wit="【CB】">Mahāsāṃghika</lem><rdg wit="【印順】">Mahāsāṁghikāḥ</rdg></app></foreign>）所傳，如<bibl><title level="m">《僧祇律》</title><biblScope n="32" type="卷">卷三二</biblScope></bibl><note place="inline">大正<ref target="#vol:22;page:p491c" type="taisho">二二．四九一下</ref></note>說：</p>
+<lb n="0467a07" ed="Y"/><quote><p xml:id="pY35p0467a0701" style="margin-left:3em">「文句長者，集為長阿含。文句中者，集為中阿含。文句雜者，集為雜阿含，所謂根雜、
 <lb n="0467a08" ed="Y"/>力雜、覺雜、道雜，如是比等名為雜。一增、二增、三增乃至百增，隨其數類相從，集為
 <lb n="0467a09" ed="Y"/>增壹阿含。雜藏者，所謂辟支佛、阿羅漢自說本行因緣，如是等比諸偈誦，是名雜藏」。</p></quote>
-<lb n="0467a10" ed="Y"/><p style="text-indent:2em">大眾部所傳，阿難（<foreign xml:lang="x-sa-pi">Ānanda</foreign>）集「法藏」；法藏的內容，是「四阿含」與「雜藏」。關於
+<lb n="0467a10" ed="Y"/><p xml:id="pY35p0467a1001" style="text-indent:2em">大眾部所傳，阿難（<foreign xml:lang="x-sa-pi">Ānanda</foreign>）集「法藏」；法藏的內容，是「四阿含」與「雜藏」。關於
 <lb n="0467a11" ed="Y"/>「雜藏」的文句，<title level="m">《原始佛教聖典之成立史研究》</title>，以為「辟支佛阿羅漢自說」，是「譬喻」；
 <lb n="0467a12" ed="Y"/>「本行」是「本生」；「因緣」是「因緣」；「如是」是「如是語」；「等比」是「方等」；「
-<lb n="0467a13" ed="Y"/>諸偈」是「伽陀」；「誦」，可能是「祇夜」<note n="0467001" resp="釋印順" type="orig"><bibl>前田惠學<title level="m">《原始佛教聖典之成立史研究》</title><biblScope type="pp" n="684">（六八四）</biblScope></bibl>。</note>。這一破句的讀法，可說巧妙極了！但是依律文
+<lb n="0467a13" ed="Y"/>諸偈」是「伽陀」；「誦」，可能是「祇夜」<note n="0467001" resp="釋印順" type="orig"><bibl>前田惠學<title level="m">《原始佛教聖典之成立史研究》</title><biblScope n="684" type="pp">（六八四）</biblScope></bibl>。</note>。這一破句的讀法，可說巧妙極了！但是依律文
 <lb n="0467a14" ed="Y"/>的原意來說，這是不妥當的！「如是等比」，是「如是等類」的意思。如<cit><bibl><title level="m">《僧祇律》</title>上文說到：
 <pb n="0468a" ed="Y" xml:id="Y35.0033.0468a"/>
 <lb n="0468a01" ed="Y"/></bibl><quote>「如是比等名為雜」</quote></cit>，「如是比等」，與「如是等比」的意義一樣。而且，<title level="m">《僧祇律》</title>譯為「本
-<lb n="0468a02" ed="Y"/>生」、「如是語」、「方廣」<note n="0468002" resp="釋印順" type="orig"><title level="m">《摩訶僧祇律》</title>九部經的譯語，見卷一（大正<ref type="taisho" target="#vol:22;page:p227b">二二．二二七中</ref>）。</note>，並沒有譯為「本行」、「如是」、「等比」。所以<title level="m">《僧祇律》</title>
+<lb n="0468a02" ed="Y"/>生」、「如是語」、「方廣」<note n="0468002" resp="釋印順" type="orig"><title level="m">《摩訶僧祇律》</title>九部經的譯語，見卷一（大正<ref target="#vol:22;page:p227b" type="taisho">二二．二二七中</ref>）。</note>，並沒有譯為「本行」、「如是」、「等比」。所以<title level="m">《僧祇律》</title>
 <lb n="0468a03" ed="Y"/>所說的「雜藏」，是舉「辟支佛阿羅漢自說本行因緣」為例。「如是等比諸偈誦」，是「這一類
 <lb n="0468a04" ed="Y"/>的眾多偈頌」的意思。譯文的文義分明，是不許任意別解的。「辟支佛阿羅漢自說本行因緣」，
 <lb n="0468a05" ed="Y"/>與漢譯的<title level="m">《五百弟子自說本起經》</title>等相當。<title level="m">《僧祇律》</title>在說明了結集的內容，接著說到「法」與
 <lb n="0468a06" ed="Y"/>「毘尼」的師資傳承<note place="inline">大正<ref target="#vol:22;page:p492c" type="taisho">二二．四九二下</ref></note>說：</p>
-<lb n="0468a07" ed="Y"/><quote><p style="margin-left:3em">「從尊者道力聞：毘尼、阿毘曇、雜阿含、增壹阿含、中阿含、長阿含」。</p></quote>
-<lb n="0468a08" ed="Y"/><p style="text-indent:2em">與結集的內容相對比，毘尼（<foreign xml:lang="x-sa-pi"><note n="0468a0801" resp="CBETA" type="add">vinaya【CB】，Vinaya【印順】</note><app n="0468a0801"><lem wit="【CB】" resp="正聞出版社">vinaya</lem><rdg wit="【印順】">Vinaya</rdg></app></foreign>）是「毘尼藏」；阿毘曇（<foreign xml:lang="sa">Abhidharma</foreign>）等是「法
+<lb n="0468a07" ed="Y"/><quote><p xml:id="pY35p0468a0701" style="margin-left:3em">「從尊者道力聞：毘尼、阿毘曇、雜阿含、增壹阿含、中阿含、長阿含」。</p></quote>
+<lb n="0468a08" ed="Y"/><p xml:id="pY35p0468a0801" style="text-indent:2em">與結集的內容相對比，毘尼（<foreign xml:lang="x-sa-pi"><note n="0468a0801" resp="CBETA" type="add">vinaya【CB】，Vinaya【印順】</note><app n="0468a0801"><lem resp="正聞出版社" wit="【CB】">vinaya</lem><rdg wit="【印順】">Vinaya</rdg></app></foreign>）是「毘尼藏」；阿毘曇（<foreign xml:lang="sa">Abhidharma</foreign>）等是「法
 <lb n="0468a09" ed="Y"/>藏」。「四阿含」以外的阿毘曇，顯然的與「雜藏」相當。依<cit><bibl><title level="m">《僧祇律》</title>說：</bibl><quote>「九部修多羅，是
-<lb n="0468a10" ed="Y"/>名阿毘曇」</quote><note n="0468003" resp="釋印順" type="orig"><bibl><title level="m">《摩訶僧祇律》</title><biblScope n="14" type="卷">卷一四</biblScope></bibl>（大正<ref target="#vol:22;page:p340c" type="taisho">二二．三四〇下</ref>）。又卷三四（大正<ref target="#vol:22;page:p501c" type="taisho">二二．五〇一下</ref>）。又卷三九（大正<ref type="taisho" target="#vol:22;page:p536b">二二．五三六中</ref>）。</note></cit>。所以大眾部的「雜藏」，是與九部經有關的諸偈頌；「自說本行因緣」，就是偈
+<lb n="0468a10" ed="Y"/>名阿毘曇」</quote><note n="0468003" resp="釋印順" type="orig"><bibl><title level="m">《摩訶僧祇律》</title><biblScope n="14" type="卷">卷一四</biblScope></bibl>（大正<ref target="#vol:22;page:p340c" type="taisho">二二．三四〇下</ref>）。又卷三四（大正<ref target="#vol:22;page:p501c" type="taisho">二二．五〇一下</ref>）。又卷三九（大正<ref target="#vol:22;page:p536b" type="taisho">二二．五三六中</ref>）。</note></cit>。所以大眾部的「雜藏」，是與九部經有關的諸偈頌；「自說本行因緣」，就是偈
 <lb n="0468a11" ed="Y"/>頌的一種。</p>
-<lb n="0468a12" ed="Y"/><p style="text-indent:2em">大眾部的末派所傳，略有變化。依<cit><bibl><title level="a">〈增壹阿含經序〉</title>：</bibl><quote>「方等大乘義玄邃，及諸契經為雜藏
-<lb n="0468a13" ed="Y"/>」</quote><note n="0468004" resp="釋印順" type="orig"><bibl><title level="m">《增壹阿含經》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:2;page:p550c">二．五五〇下</ref>）。</note></cit>。那時的<title level="m">《雜藏》</title>，已有「方等大乘」在內。但在<title level="m">《增壹阿含經》</title>的部分釋論——<bibl><title level="m">《分別功
-<lb n="0468a14" ed="Y"/>德論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:25;page:p32b">二五．三二中</ref></note>說：</p>
-<lb n="0468a15" ed="Y"/><quote><p style="margin-left:3em">「雜藏者，非一人說。或佛所說，或弟子說，或諸天讚誦，或說宿緣，三阿僧祇菩薩所生
+<lb n="0468a12" ed="Y"/><p xml:id="pY35p0468a1201" style="text-indent:2em">大眾部的末派所傳，略有變化。依<cit><bibl><title level="a">〈增壹阿含經序〉</title>：</bibl><quote>「方等大乘義玄邃，及諸契經為雜藏
+<lb n="0468a13" ed="Y"/>」</quote><note n="0468004" resp="釋印順" type="orig"><bibl><title level="m">《增壹阿含經》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:2;page:p550c" type="taisho">二．五五〇下</ref>）。</note></cit>。那時的<title level="m">《雜藏》</title>，已有「方等大乘」在內。但在<title level="m">《增壹阿含經》</title>的部分釋論——<bibl><title level="m">《分別功
+<lb n="0468a14" ed="Y"/>德論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:25;page:p32b" type="taisho">二五．三二中</ref></note>說：</p>
+<lb n="0468a15" ed="Y"/><quote><p xml:id="pY35p0468a1501" style="margin-left:3em">「雜藏者，非一人說。或佛所說，或弟子說，或諸天讚誦，或說宿緣，三阿僧祇菩薩所生
 <pb n="0469a" ed="Y" xml:id="Y35.0033.0469a"/>
 <lb n="0469a01" ed="Y"/>：文義非一，多於三藏，故曰雜藏」。</p></quote>
-<lb n="0469a02" ed="Y"/><quote><p style="margin-left:3em">「諸方等正經，皆是菩薩藏中事。先佛在時，已名大士藏。阿難所撰者，即今四藏是也。
+<lb n="0469a02" ed="Y"/><quote><p xml:id="pY35p0469a0201" style="margin-left:3em">「諸方等正經，皆是菩薩藏中事。先佛在時，已名大士藏。阿難所撰者，即今四藏是也。
 <lb n="0469a03" ed="Y"/>合而言之，為五藏也」。</p></quote>
-<lb n="0469a04" ed="Y"/><p style="text-indent:2em">在大眾部的流傳，「雜藏」的開展中，略有三階段：起初以九部經為「雜藏」。其次，方等
+<lb n="0469a04" ed="Y"/><p xml:id="pY35p0469a0401" style="text-indent:2em">在大眾部的流傳，「雜藏」的開展中，略有三階段：起初以九部經為「雜藏」。其次，方等
 <lb n="0469a05" ed="Y"/>大乘，也包括在內。末了，方等大乘獨立而自成「菩薩藏」，「雜藏」又回復了舊有的體制。</p>
-<lb n="0469a06" ed="Y"/><p style="text-indent:2em">二、分別說部（<foreign xml:lang="sa"><note n="0469a0601" resp="CBETA" type="add">Vibhajyavādin【CB】，Vibhājya-vadinaḥ【印順】</note><app n="0469a0601"><lem wit="【CB】" resp="正聞出版社">Vibhajyavādin</lem><rdg wit="【印順】">Vibhājya-vadinaḥ</rdg></app></foreign>）所傳，又有三部。1.銅鍱部（<foreign xml:lang="sa"><note n="0469a0602" resp="CBETA" type="add">Tāmraśāṭīya【CB】，Tāmra-śātīyāḥ【印順】</note><app n="0469a0602"><lem wit="【CB】" resp="正聞出版社">Tāmraśāṭīya</lem><rdg wit="【印順】">Tāmra-śātīyāḥ</rdg></app></foreign>）所
+<lb n="0469a06" ed="Y"/><p xml:id="pY35p0469a0601" style="text-indent:2em">二、分別說部（<foreign xml:lang="sa"><note n="0469a0601" resp="CBETA" type="add">Vibhajyavādin【CB】，Vibhājya-vadinaḥ【印順】</note><app n="0469a0601"><lem resp="正聞出版社" wit="【CB】">Vibhajyavādin</lem><rdg wit="【印順】">Vibhājya-vadinaḥ</rdg></app></foreign>）所傳，又有三部。1.銅鍱部（<foreign xml:lang="sa"><note n="0469a0602" resp="CBETA" type="add">Tāmraśāṭīya【CB】，Tāmra-śātīyāḥ【印順】</note><app n="0469a0602"><lem resp="正聞出版社" wit="【CB】">Tāmraśāṭīya</lem><rdg wit="【印順】">Tāmra-śātīyāḥ</rdg></app></foreign>）所
 <lb n="0469a07" ed="Y"/>說，如<bibl>《<title level="m">銅鍱律</title>．<title level="a">小品</title>》</bibl>，以<title level="m">《長部》</title>的<title level="m">《梵網經》</title>、<title level="m">《沙門果經》</title>為例，而說有「五部」<note n="0469005" resp="釋印順" type="orig"><bibl>《<title level="m">銅鍱律</title>．<title level="a">小品</title>》</bibl>（南傳四．四三〇）。</note>
 <lb n="0469a08" ed="Y"/>雖所說不詳，但與現存的相合。</p>
-<lb n="0469a09" ed="Y"/><p style="text-indent:2em">2.化地部（<foreign xml:lang="sa"><note n="0469a0901" resp="CBETA" type="add">Mahīśāsaka【CB】，Mahīśāsakāḥ【印順】</note><app n="0469a0901"><lem wit="【CB】" resp="正聞出版社">Mahīśāsaka</lem><rdg wit="【印順】">Mahīśāsakāḥ</rdg></app></foreign>），如<bibl><title level="m">《五分律》</title><biblScope n="30" type="卷">卷三〇</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:22;page:p191a">二二．一九一上</ref></note>說：</p>
-<lb n="0469a10" ed="Y"/><quote><p style="margin-left:3em">「佛在何處說<title level="m">《增一經》</title>？在何處說<title level="m">《增十經》</title>、<title level="m">《大因緣經》</title>、<title level="m">《僧祇陀經》</title>、<title level="m">《沙門
+<lb n="0469a09" ed="Y"/><p xml:id="pY35p0469a0901" style="text-indent:2em">2.化地部（<foreign xml:lang="sa"><note n="0469a0901" resp="CBETA" type="add">Mahīśāsaka【CB】，Mahīśāsakāḥ【印順】</note><app n="0469a0901"><lem resp="正聞出版社" wit="【CB】">Mahīśāsaka</lem><rdg wit="【印順】">Mahīśāsakāḥ</rdg></app></foreign>），如<bibl><title level="m">《五分律》</title><biblScope n="30" type="卷">卷三〇</biblScope></bibl><note place="inline">大正<ref target="#vol:22;page:p191a" type="taisho">二二．一九一上</ref></note>說：</p>
+<lb n="0469a10" ed="Y"/><quote><p xml:id="pY35p0469a1001" style="margin-left:3em">「佛在何處說<title level="m">《增一經》</title>？在何處說<title level="m">《增十經》</title>、<title level="m">《大因緣經》</title>、<title level="m">《僧祇陀經》</title>、<title level="m">《沙門
 <lb n="0469a11" ed="Y"/>果經》</title>、<title level="m">《梵動經》</title>？何等經因比丘說，何等經因比丘尼、優婆塞、優婆夷、諸天子、天
 <lb n="0469a12" ed="Y"/>女說」？</p></quote>
-<lb n="0469a13" ed="Y"/><quote><p style="margin-left:3em">「此是長經，今集為一部，名長阿含。此是不長不短，今集為一部，名中阿含。此是雜說
+<lb n="0469a13" ed="Y"/><quote><p xml:id="pY35p0469a1301" style="margin-left:3em">「此是長經，今集為一部，名長阿含。此是不長不短，今集為一部，名中阿含。此是雜說
 <lb n="0469a14" ed="Y"/>，為比丘、比丘尼、優婆塞、優婆夷、天子、天女說，今集為一部，名雜阿含。此是從一
 <lb n="0469a15" ed="Y"/>法增至十一法，今集為一部，名增壹阿含。自餘雜說，今集為一部，名為雜藏」。</p></quote>
 <pb n="0470a" ed="Y" xml:id="Y35.0033.0470a"/>
-<lb n="0470a01" ed="Y"/><p style="text-indent:2em">在發問一段中，舉<title level="m">《增一經》</title>、<title level="m">《增十經》</title>、<title level="m">《大因緣經》</title>、<title level="m">《僧祇陀經》</title>、<title level="m">《沙門果經》</title>
+<lb n="0470a01" ed="Y"/><p xml:id="pY35p0470a0101" style="text-indent:2em">在發問一段中，舉<title level="m">《增一經》</title>、<title level="m">《增十經》</title>、<title level="m">《大因緣經》</title>、<title level="m">《僧祇陀經》</title>、<title level="m">《沙門果經》</title>
 <lb n="0470a02" ed="Y"/>、<title level="m">《梵動經》</title>——六經，這都是屬於<title level="m">《長阿含》</title>的。因比丘、比丘尼等說，是<title level="m">《雜阿含》</title>。「雜
 <lb n="0470a03" ed="Y"/>藏」部分，也沒有詳說。在「四阿含」以外，別立「雜藏」，與大眾部相合。</p>
-<lb n="0470a04" ed="Y"/><p style="text-indent:2em">3.法藏部（<foreign xml:lang="sa">Dharmaguptaka</foreign>）所傳，如<bibl><title level="m">《四分律》</title><biblScope type="卷" n="54">卷五四</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:22;page:p968b">二二．九六八中</ref></note>說：</p>
-<lb n="0470a05" ed="Y"/><quote><p style="margin-left:3em">「<title level="m">《梵動經》</title>在何處說？<title level="m">《增一》</title>在何處說？<title level="m">《增十》</title>在何處說？<title level="m">《世界成敗經》</title>在何處
+<lb n="0470a04" ed="Y"/><p xml:id="pY35p0470a0401" style="text-indent:2em">3.法藏部（<foreign xml:lang="sa">Dharmaguptaka</foreign>）所傳，如<bibl><title level="m">《四分律》</title><biblScope n="54" type="卷">卷五四</biblScope></bibl><note place="inline">大正<ref target="#vol:22;page:p968b" type="taisho">二二．九六八中</ref></note>說：</p>
+<lb n="0470a05" ed="Y"/><quote><p xml:id="pY35p0470a0501" style="margin-left:3em">「<title level="m">《梵動經》</title>在何處說？<title level="m">《增一》</title>在何處說？<title level="m">《增十》</title>在何處說？<title level="m">《世界成敗經》</title>在何處
 <lb n="0470a06" ed="Y"/>說？<title level="m">《僧祇陀經》</title>在何處說？<title level="m">《大因緣經》</title>在何處說？<title level="m">《天帝釋問經》</title>在何處說？阿難皆
 <lb n="0470a07" ed="Y"/>答：如長阿含說。彼即集一切長經為長阿含；一切中經為中阿含；從一事至十事，從十事
 <lb n="0470a08" ed="Y"/>至十一事，為增一（阿含）；雜比丘、比丘尼、優婆塞、優婆私、諸天、雜帝釋、雜魔、
 <lb n="0470a09" ed="Y"/>雜梵王，集為雜阿含。如是生經、本經、善因緣經、方等經、未曾有經、譬喻經、優婆提
 <lb n="0470a10" ed="Y"/>舍經、句義經、法句經、波羅延經、雜難經、聖偈經，如是集為雜藏」。</p></quote>
-<lb n="0470a11" ed="Y"/><p style="text-indent:2em">法藏部也是在「四阿含」以外，別立「雜藏」的。所舉<title level="m">《梵動經》</title>等七部，屬於<title level="m">《長阿含》</title>
+<lb n="0470a11" ed="Y"/><p xml:id="pY35p0470a1101" style="text-indent:2em">法藏部也是在「四阿含」以外，別立「雜藏」的。所舉<title level="m">《梵動經》</title>等七部，屬於<title level="m">《長阿含》</title>
 <lb n="0470a12" ed="Y"/>。「雜藏」的內容，共十二種，部分與「十二部經」相近。</p>
-<lb n="0470a13" ed="Y"/><p style="text-indent:2em">三、說一切有部（<foreign xml:lang="sa"><note n="0470a1301" resp="CBETA" type="add">Sarvāstivāda【CB】，Sarvāsti-vādāḥ【印順】</note><app n="0470a1301"><lem wit="【CB】" resp="正聞出版社">Sarvāstivāda</lem><rdg wit="【印順】">Sarvāsti-vādāḥ</rdg></app></foreign>）系中，<title level="m">《十誦律》</title>傳說結集「三藏」。但舉<title level="m">《轉法輪
-<lb n="0470a14" ed="Y"/>經》</title>為例，泛說<quote>「一切修多羅藏集竟」</quote><note n="0470006" resp="釋印順" type="orig"><bibl><title level="m">《十誦律》</title><biblScope type="卷" n="60">卷六〇</biblScope></bibl>（大正<ref type="taisho" target="#vol:23;page:p448b">二三．四四八中</ref>——<ref type="taisho" target="#vol:23;page:p449a">四四九上</ref>）。</note>。根本說一切有部（<foreign xml:lang="sa"><note n="0470a1401" resp="CBETA" type="add">Mūlasarvāstivādin【CB】，Mūlasarvāsti-vādāḥ【印順】</note><app n="0470a1401"><lem wit="【CB】" resp="正聞出版社">Mūlasarvāstivādin</lem><rdg wit="【印順】">Mūlasarvāsti-vādāḥ</rdg></app></foreign>），所說較
-<lb n="0470a15" ed="Y"/>詳。「經藏」部分，如<bibl><title level="m">《根有律雜事》</title><biblScope n="39" type="卷">卷三九</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:24;page:p407b">二四．四〇七中</ref>——下</note>說：</p>
+<lb n="0470a13" ed="Y"/><p xml:id="pY35p0470a1301" style="text-indent:2em">三、說一切有部（<foreign xml:lang="sa"><note n="0470a1301" resp="CBETA" type="add">Sarvāstivāda【CB】，Sarvāsti-vādāḥ【印順】</note><app n="0470a1301"><lem resp="正聞出版社" wit="【CB】">Sarvāstivāda</lem><rdg wit="【印順】">Sarvāsti-vādāḥ</rdg></app></foreign>）系中，<title level="m">《十誦律》</title>傳說結集「三藏」。但舉<title level="m">《轉法輪
+<lb n="0470a14" ed="Y"/>經》</title>為例，泛說<quote>「一切修多羅藏集竟」</quote><note n="0470006" resp="釋印順" type="orig"><bibl><title level="m">《十誦律》</title><biblScope n="60" type="卷">卷六〇</biblScope></bibl>（大正<ref target="#vol:23;page:p448b" type="taisho">二三．四四八中</ref>——<ref target="#vol:23;page:p449a" type="taisho">四四九上</ref>）。</note>。根本說一切有部（<foreign xml:lang="sa"><note n="0470a1401" resp="CBETA" type="add">Mūlasarvāstivādin【CB】，Mūlasarvāsti-vādāḥ【印順】</note><app n="0470a1401"><lem resp="正聞出版社" wit="【CB】">Mūlasarvāstivādin</lem><rdg wit="【印順】">Mūlasarvāsti-vādāḥ</rdg></app></foreign>），所說較
+<lb n="0470a15" ed="Y"/>詳。「經藏」部分，如<bibl><title level="m">《根有律雜事》</title><biblScope n="39" type="卷">卷三九</biblScope></bibl><note place="inline">大正<ref target="#vol:24;page:p407b" type="taisho">二四．四〇七中</ref>——下</note>說：</p>
 <pb n="0471a" ed="Y" xml:id="Y35.0033.0471a"/>
-<lb n="0471a01" ed="Y"/><quote><p style="margin-left:3em">「諸阿羅漢同為結集：但是五蘊相應者，即以蘊品而為建立。若與六處十八界相應者，即
+<lb n="0471a01" ed="Y"/><quote><p xml:id="pY35p0471a0101" style="margin-left:3em">「諸阿羅漢同為結集：但是五蘊相應者，即以蘊品而為建立。若與六處十八界相應者，即
 <lb n="0471a02" ed="Y"/>以處界品而為建立。若與緣起聖諦相應者，即名緣起而為建立。若聲聞所說者，於聲聞品
 <lb n="0471a03" ed="Y"/>處而為建立。若是佛所說者，於佛品處而為建立。若與念處、正勤、神足、根、力、覺、
 <lb n="0471a04" ed="Y"/>道分相應者，於聖道品處而為建立。若經與伽他相應者，（於伽他品處而為建立）：此即
 <lb n="0471a05" ed="Y"/>名為相應阿笈摩。若經長長說者，此即名為長阿笈摩。若經中中說者，此即名為中阿笈摩
 <lb n="0471a06" ed="Y"/>。若經說一句事、二句事，乃至十句事者，此即名為增一阿笈摩」。</p></quote>
-<lb n="0471a07" ed="Y"/><p style="text-indent:2em">在結集的傳說中，說一切有部但立「三藏」，但說「四阿笈摩」。然屬於「雜藏」的部分內
+<lb n="0471a07" ed="Y"/><p xml:id="pY35p0471a0701" style="text-indent:2em">在結集的傳說中，說一切有部但立「三藏」，但說「四阿笈摩」。然屬於「雜藏」的部分內
 <lb n="0471a08" ed="Y"/>容，說一切有部也是有的。如<title level="m">《十誦律》</title>所傳「多識多知諸大經」，共十八種，末後三種為：「
 <lb n="0471a09" ed="Y"/>波羅延<note place="inline2">晉言過道經</note>，阿陀婆耆耶修妬路<note place="inline2">晉言眾德經</note>，薩耆陀舍修多羅<note place="inline2">晉言諦見經</note>」<note n="0471007" resp="釋印順" type="orig"><bibl><title level="m">《十誦律》</title><biblScope n="24" type="卷">卷二四</biblScope></bibl>（大正<ref target="#vol:23;page:p174b" type="taisho">二三．一七四中</ref>）。</note>，都是屬於「雜藏」的。說一
-<lb n="0471a10" ed="Y"/>切有系所說而與「雜藏」相關的，還有<title level="m">《十誦律》</title><note n="0471008" resp="釋印順" type="orig"><bibl><title level="m">《十誦律》</title><biblScope n="25" type="卷">卷二五</biblScope></bibl>（大正<ref target="#vol:23;page:p181b" type="taisho">二三．一八一中</ref>）。</note>；<title level="m">《根有律藥事》</title><note n="0471009" resp="釋印順" type="orig"><bibl><title level="m">《根本說一切有部毘奈耶藥事》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref type="taisho" target="#vol:24;page:p11b">二四．一一中</ref>）。</note>；梵本<title level="m">《譬喻集》</title>
-<lb n="0471a11" ed="Y"/>（<foreign xml:lang="sa"><note n="0471a1101" resp="CBETA" type="add">divyâvadāna【CB】，Divyâvadāna【印順】</note><app n="0471a1101"><lem wit="【CB】" resp="正聞出版社">divyâvadāna</lem><rdg wit="【印順】">Divyâvadāna</rdg></app></foreign>）<note n="0471010" resp="釋印順" type="orig"><foreign xml:lang="sa">Cowell and neil</foreign>: <foreign xml:lang="sa">the divyâvadāna</foreign>, PP.20.34-35.</note>；<foreign xml:lang="en">Gilgit</foreign> 發見的梵本<title level="m">《根有律皮革事》</title>（藏譯本同）<note n="0471011" resp="釋印順" type="orig"><foreign xml:lang="en">N</foreign>.<foreign xml:lang="sa">dutt</foreign>: <foreign xml:lang="en">gilgit manuscripts</foreign> Ⅲ, <foreign xml:lang="en">Part</foreign> 4, P.188。</note><note n="0471011" resp="正聞出版社" type="mod"><foreign xml:lang="en">N</foreign>.<foreign xml:lang="sa">Dutt</foreign>: <foreign xml:lang="en">Gilgit manuscripts</foreign> Ⅲ, <foreign xml:lang="en">Part</foreign> 4, P.188。</note>；<title level="m">《雜阿含經》</title><note n="0471012" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="49">卷四九</biblScope></bibl>（大正<ref type="taisho" target="#vol:2;page:p362c">二．三六二下</ref>）。</note>所
+<lb n="0471a10" ed="Y"/>切有系所說而與「雜藏」相關的，還有<title level="m">《十誦律》</title><note n="0471008" resp="釋印順" type="orig"><bibl><title level="m">《十誦律》</title><biblScope n="25" type="卷">卷二五</biblScope></bibl>（大正<ref target="#vol:23;page:p181b" type="taisho">二三．一八一中</ref>）。</note>；<title level="m">《根有律藥事》</title><note n="0471009" resp="釋印順" type="orig"><bibl><title level="m">《根本說一切有部毘奈耶藥事》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref target="#vol:24;page:p11b" type="taisho">二四．一一中</ref>）。</note>；梵本<title level="m">《譬喻集》</title>
+<lb n="0471a11" ed="Y"/>（<foreign xml:lang="sa"><note n="0471a1101" resp="CBETA" type="add">divyâvadāna【CB】，Divyâvadāna【印順】</note><app n="0471a1101"><lem resp="正聞出版社" wit="【CB】">divyâvadāna</lem><rdg wit="【印順】">Divyâvadāna</rdg></app></foreign>）<note n="0471010" resp="釋印順" type="orig"><foreign xml:lang="sa">Cowell and neil</foreign>: <foreign xml:lang="sa">the divyâvadāna</foreign>, PP.20.34-35.</note>；<foreign xml:lang="en">Gilgit</foreign> 發見的梵本<title level="m">《根有律皮革事》</title>（藏譯本同）<note n="0471011" resp="釋印順" type="orig"><foreign xml:lang="en">N</foreign>.<foreign xml:lang="sa">dutt</foreign>: <foreign xml:lang="en">gilgit manuscripts</foreign> Ⅲ, <foreign xml:lang="en">Part</foreign> 4, P.188。</note><note n="0471011" resp="正聞出版社" type="mod"><foreign xml:lang="en">N</foreign>.<foreign xml:lang="sa">Dutt</foreign>: <foreign xml:lang="en">Gilgit manuscripts</foreign> Ⅲ, <foreign xml:lang="en">Part</foreign> 4, P.188。</note>；<title level="m">《雜阿含經》</title><note n="0471012" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="49" type="卷">卷四九</biblScope></bibl>（大正<ref target="#vol:2;page:p362c" type="taisho">二．三六二下</ref>）。</note>所
 <lb n="0471a12" ed="Y"/>說，雖多少不一，而其中似有一定的次第。</p>
 <lb n="0471a13" ed="Y"/><table cols="6" style="margin-left:3em"><row><cell>〔十誦律〕</cell><cell>〔根有律雜事〕</cell><cell>〔Divy.Ⅰ〕</cell><cell>〔Divy.Ⅱ〕</cell><cell>〔雜阿含經〕</cell><cell>〔Gilgit MS〕</cell></row><row><cell>
 <lb n="0471a14" ed="Y"/></cell><cell>1 嗢拕南頌</cell><cell>1 Udāna</cell><cell>1 Udāna</cell><cell>1 憂陀那</cell><cell>1 Udāna</cell></row><row><cell>
 <lb n="0471a15" ed="Y"/>1 波羅延</cell><cell></cell><cell>2 Pārāyaṇa</cell><cell>2 Pārāyaṇa</cell><cell>2 波羅延那</cell><cell>2 Pārāyaṇa</cell></row><row><cell>
 <pb n="0472a" ed="Y" xml:id="Y35.0033.0472a"/>
-<lb n="0472a01" ed="Y"/>2 薩耆陀舍</cell><cell></cell><cell>3 <note n="0472a0101" resp="CBETA" type="add">Satyadṛṣṭa【CB】，Satyadṛśa【印順】</note><app n="0472a0101"><lem wit="【CB】" resp="正聞出版社">Satyadṛṣṭa</lem><rdg wit="【印順】">Satyadṛśa</rdg></app></cell><cell>3 Satyadṛśa</cell><cell>3 見真諦</cell><cell>3 Satyadṛśa</cell></row><row><cell>
+<lb n="0472a01" ed="Y"/>2 薩耆陀舍</cell><cell></cell><cell>3 <note n="0472a0101" resp="CBETA" type="add">Satyadṛṣṭa【CB】，Satyadṛśa【印順】</note><app n="0472a0101"><lem resp="正聞出版社" wit="【CB】">Satyadṛṣṭa</lem><rdg wit="【印順】">Satyadṛśa</rdg></app></cell><cell>3 Satyadṛśa</cell><cell>3 見真諦</cell><cell>3 Satyadṛśa</cell></row><row><cell>
 <lb n="0472a02" ed="Y"/></cell><cell>2 諸上座頌</cell><cell></cell><cell>4 Sthaviragāthā</cell><cell>4 諸上座所說偈</cell><cell>6 Sthaviragāthā</cell></row><row><cell>
-<lb n="0472a03" ed="Y"/></cell><cell></cell><cell></cell><cell></cell><cell>5 比丘尼所說偈</cell><cell>7 <note n="0472a0301" resp="CBETA" type="add">Sthavirīgāthā【CB】，Sthavirlgāthā【印順】</note><app n="0472a0301"><lem wit="【CB】" resp="正聞出版社">Sthavirīgāthā</lem><rdg wit="【印順】">Sthavirlgāthā</rdg></app></cell></row><row><cell>
+<lb n="0472a03" ed="Y"/></cell><cell></cell><cell></cell><cell></cell><cell>5 比丘尼所說偈</cell><cell>7 <note n="0472a0301" resp="CBETA" type="add">Sthavirīgāthā【CB】，Sthavirlgāthā【印順】</note><app n="0472a0301"><lem resp="正聞出版社" wit="【CB】">Sthavirīgāthā</lem><rdg wit="【印順】">Sthavirlgāthā</rdg></app></cell></row><row><cell>
 <lb n="0472a04" ed="Y"/></cell><cell>3 世羅尼頌</cell><cell>4 Śailagāthā</cell><cell>5 Śailagāthā</cell><cell>6 尸路偈</cell><cell>4 Śailagāthā</cell></row><row><cell>
 <lb n="0472a05" ed="Y"/></cell><cell>4 牟尼之頌</cell><cell>5 Munigāthā</cell><cell>6 Munigāthā</cell><cell>8 牟尼偈</cell><cell>5 Munigāthā</cell></row><row><cell>
 <lb n="0472a06" ed="Y"/></cell><cell>5 眾義</cell><cell>6 Arthavargīya</cell><cell>7 Arthavargīya</cell><cell>7 義品</cell><cell>8 Arthavargīya</cell></row><row><cell>
 <lb n="0472a07" ed="Y"/>　修多羅</cell><cell>　經</cell><cell></cell><cell></cell><cell>　修多羅</cell><cell>　Ca sūtraṇi</cell></row></table>
-<lb n="0472a08" ed="Y"/><p style="text-indent:2em">上來八部的次第，大致相合。<title level="m">《雜阿含經》</title>，僅<title level="a">〈義品〉</title>與<title level="a">〈牟尼偈〉</title>相倒。梵本<title level="m">《根有律
-<lb n="0472a09" ed="Y"/>皮革事》</title>，也只是移<title level="a">〈上座頌〉</title>與<title level="a">〈上座尼頌〉</title>在下面而已。這八部的次第，應為<title level="a"><note n="0472a0901" resp="CBETA" type="add" subtype="規範字詞">嗢拕南【CB】，嗢柁南【印順】</note><app n="0472a0901"><lem wit="【CB】" resp="CBETA">〈嗢拕南〉</lem><rdg wit="【印順】">〈嗢柁南〉</rdg></app></title>、
+<lb n="0472a08" ed="Y"/><p xml:id="pY35p0472a0801" style="text-indent:2em">上來八部的次第，大致相合。<title level="m">《雜阿含經》</title>，僅<title level="a">〈義品〉</title>與<title level="a">〈牟尼偈〉</title>相倒。梵本<title level="m">《根有律
+<lb n="0472a09" ed="Y"/>皮革事》</title>，也只是移<title level="a">〈上座頌〉</title>與<title level="a">〈上座尼頌〉</title>在下面而已。這八部的次第，應為<title level="a"><note n="0472a0901" resp="CBETA" type="add" subtype="規範字詞">嗢拕南【CB】，嗢柁南【印順】</note><app n="0472a0901"><lem resp="CBETA" wit="【CB】">〈嗢拕南〉</lem><rdg wit="【印順】">〈嗢柁南〉</rdg></app></title>、
 <lb n="0472a10" ed="Y"/><title level="a">〈波羅延〉</title>、<title level="a">〈見真諦〉</title>、<title level="a">〈上座頌〉</title>、<title level="a">〈上座尼頌〉</title>、<title level="a">〈世羅頌〉</title>、<title level="a">〈牟尼頌〉</title>、<title level="a">〈義品〉</title>。
 <lb n="0472a11" ed="Y"/>末後一部，多一「經」字，這是通於上面諸經的。如<title level="m">《十誦律》</title>的<title level="m">《薩耆陀舍修妬路》</title>；<title level="m">《根有
-<lb n="0472a12" ed="Y"/>律雜事》</title>的<title level="m">《眾義經》</title>；<title level="m">《雜阿含經》</title>的<title level="m">《牟尼偈修多羅》</title>；<foreign xml:lang="en">Gilgit</foreign> 梵本的「<foreign xml:lang="sa"><note n="0472a1201" resp="CBETA" type="add">arthavargīyāṇi ca sūtrani【CB】，Arthavargīyaṇi Ca Sūtrāṇi【印順】</note><app n="0472a1201"><lem wit="【CB】" resp="正聞出版社">arthavargīyāṇi ca sūtrani</lem><rdg wit="【印順】">Arthavargīyaṇi Ca Sūtrāṇi</rdg></app></foreign>
+<lb n="0472a12" ed="Y"/>律雜事》</title>的<title level="m">《眾義經》</title>；<title level="m">《雜阿含經》</title>的<title level="m">《牟尼偈修多羅》</title>；<foreign xml:lang="en">Gilgit</foreign> 梵本的「<foreign xml:lang="sa"><note n="0472a1201" resp="CBETA" type="add">arthavargīyāṇi ca sūtrani【CB】，Arthavargīyaṇi Ca Sūtrāṇi【印順】</note><app n="0472a1201"><lem resp="正聞出版社" wit="【CB】">arthavargīyāṇi ca sūtrani</lem><rdg wit="【印順】">Arthavargīyaṇi Ca Sūtrāṇi</rdg></app></foreign>
 <pb n="0473a" ed="Y" xml:id="Y35.0033.0473a"/>
 <lb n="0473a01" ed="Y"/>」，都是總結前面各部的。</p>
-<lb n="0473a02" ed="Y"/><p style="text-indent:2em">說一切有部系，但立「三藏」，然也不妨隨俗而稱為「雜藏」的，如<bibl><title level="m">《阿毘達磨順正理論》</title>
-<lb n="0473a03" ed="Y"/><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:29;page:p330b" type="taisho"><note n="0473a0301" resp="CBETA" type="add">二九【CB】，二八【印順】</note><app n="0473a0301"><lem wit="【CB】" resp="正聞出版社">二九</lem><rdg wit="【印順】">二八</rdg></app>．三三〇中</ref></note>說：</p>
-<lb n="0473a04" ed="Y"/><quote><p style="margin-left:3em">「如世尊說：老耄出家，持吾三藏，甚為難得！若謂此言依雜藏說，理必不然，以彼即是
+<lb n="0473a02" ed="Y"/><p xml:id="pY35p0473a0201" style="text-indent:2em">說一切有部系，但立「三藏」，然也不妨隨俗而稱為「雜藏」的，如<bibl><title level="m">《阿毘達磨順正理論》</title>
+<lb n="0473a03" ed="Y"/><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:29;page:p330b" type="taisho"><note n="0473a0301" resp="CBETA" type="add">二九【CB】，二八【印順】</note><app n="0473a0301"><lem resp="正聞出版社" wit="【CB】">二九</lem><rdg wit="【印順】">二八</rdg></app>．三三〇中</ref></note>說：</p>
+<lb n="0473a04" ed="Y"/><quote><p xml:id="pY35p0473a0401" style="margin-left:3em">「如世尊說：老耄出家，持吾三藏，甚為難得！若謂此言依雜藏說，理必不然，以彼即是
 <lb n="0473a05" ed="Y"/>經差別故；曾無處說別持彼（雜藏）故；唯有處說持素怛纜及毘奈耶、摩呾理迦，而無別
 <lb n="0473a06" ed="Y"/>處言持雜藏」。</p></quote>
-<lb n="0473a07" ed="Y"/><p style="text-indent:2em">以阿毘達磨論師為主流的說一切有部，不立「雜藏」，認為只是「經藏」（只有四阿笈摩）
+<lb n="0473a07" ed="Y"/><p xml:id="pY35p0473a0701" style="text-indent:2em">以阿毘達磨論師為主流的說一切有部，不立「雜藏」，認為只是「經藏」（只有四阿笈摩）
 <lb n="0473a08" ed="Y"/>的差別。說一切有部正統，對於這些被稱為「雜藏」的部類，有他獨到的卓越的看法，這是我們
 <lb n="0473a09" ed="Y"/>所不容忽略的！</p>
-<lb n="0473a10" ed="Y"/><p style="text-indent:2em">四、先上座部（<foreign xml:lang="sa"><note n="0473a1001" resp="CBETA" type="add">Pūrvasthavira【CB】，Pūrva-sthavirāḥ【印順】</note><app n="0473a1001"><lem wit="【CB】" resp="正聞出版社">Pūrvasthavira</lem><rdg wit="【印順】">Pūrva-sthavirāḥ</rdg></app></foreign>）轉名雪山部（<foreign xml:lang="sa"><note n="0473a1002" resp="CBETA" type="add">Haimavata【CB】，Haimavatāḥ【印順】</note><app n="0473a1002"><lem wit="【CB】" resp="正聞出版社">Haimavata</lem><rdg wit="【印順】">Haimavatāḥ</rdg></app></foreign>）的<title level="m">《毘尼母經》</title>，也有
-<lb n="0473a11" ed="Y"/>結集的傳說，如卷四<note place="inline">大正<ref type="taisho" target="#vol:24;page:p818a">二四．八一八上</ref></note>說：</p>
-<lb n="0473a12" ed="Y"/><quote><p style="margin-left:3em">「諸經中所說，與長阿含相應者，總為長阿含。諸經中所說，與中阿含相應者，集為中阿
+<lb n="0473a10" ed="Y"/><p xml:id="pY35p0473a1001" style="text-indent:2em">四、先上座部（<foreign xml:lang="sa"><note n="0473a1001" resp="CBETA" type="add">Pūrvasthavira【CB】，Pūrva-sthavirāḥ【印順】</note><app n="0473a1001"><lem resp="正聞出版社" wit="【CB】">Pūrvasthavira</lem><rdg wit="【印順】">Pūrva-sthavirāḥ</rdg></app></foreign>）轉名雪山部（<foreign xml:lang="sa"><note n="0473a1002" resp="CBETA" type="add">Haimavata【CB】，Haimavatāḥ【印順】</note><app n="0473a1002"><lem resp="正聞出版社" wit="【CB】">Haimavata</lem><rdg wit="【印順】">Haimavatāḥ</rdg></app></foreign>）的<title level="m">《毘尼母經》</title>，也有
+<lb n="0473a11" ed="Y"/>結集的傳說，如卷四<note place="inline">大正<ref target="#vol:24;page:p818a" type="taisho">二四．八一八上</ref></note>說：</p>
+<lb n="0473a12" ed="Y"/><quote><p xml:id="pY35p0473a1201" style="margin-left:3em">「諸經中所說，與長阿含相應者，總為長阿含。諸經中所說，與中阿含相應者，集為中阿
 <lb n="0473a13" ed="Y"/>含。一二三四乃至十一數增者，集為增壹阿含。與比丘相應，與比丘尼相應，與帝釋相應
 <lb n="0473a14" ed="Y"/>，與諸天相應，與梵王相應，如是諸經，總為雜阿含。若法句，若說義，若波羅延；如來
 <lb n="0473a15" ed="Y"/>所說，從修妬路乃至優波提舍，如是諸經與雜藏相應者，總為雜藏。如是五種，名為修妬
 <pb n="0474a" ed="Y" xml:id="Y35.0033.0474a"/>
 <lb n="0474a01" ed="Y"/>路藏」。</p></quote>
-<lb n="0474a02" ed="Y"/><p style="text-indent:2em"><title level="m">《毘尼母經》</title>所傳，近於<title level="m">《四分律》</title>。在「雜藏」中，先舉<title level="m">《法句》</title>、<title level="a">〈義說〉</title>（應該就是
+<lb n="0474a02" ed="Y"/><p xml:id="pY35p0474a0201" style="text-indent:2em"><title level="m">《毘尼母經》</title>所傳，近於<title level="m">《四分律》</title>。在「雜藏」中，先舉<title level="m">《法句》</title>、<title level="a">〈義說〉</title>（應該就是
 <lb n="0474a03" ed="Y"/><title level="a">〈義品〉</title>）、<title level="a">〈波羅延〉</title>——三部；然後總舉佛說的「十二部經」中，與「雜藏」相應的部分。
 <lb n="0474a04" ed="Y"/>上面列舉的結集傳說，對於「經藏」的分類，顯然有三系不同：1.銅鍱部總稱為「五部」（
-<lb n="0474a05" ed="Y"/>五尼柯耶 <foreign xml:lang="sa"><note n="0474a0501" resp="CBETA" type="add">pañca-nikāya【CB】，Pañca nikāya【印順】</note><app n="0474a0501"><lem wit="【CB】" resp="正聞出版社">pañca-nikāya</lem><rdg wit="【印順】">Pañca nikāya</rdg></app></foreign>）——長、中、相應、增支、雜；或總稱為「五阿含」（五阿笈摩 <foreign xml:lang="sa"><note n="0474a0502" resp="CBETA" type="add">Panca āgama【CB】，Pañca āgama【印順】</note><app n="0474a0502"><lem wit="【CB】" resp="正聞出版社">Panca āgama</lem><rdg wit="【印順】">Pañca āgama</rdg></app></foreign>）
-<lb n="0474a06" ed="Y"/><note n="0474013" resp="釋印順" type="orig"><bibl><title level="m">《善見律毘婆沙》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:24;page:p677a">二四．六七七上</ref>）。<title level="m">《大阿羅漢難提蜜多羅所說法住記》</title>（大正<ref target="#vol:49;page:p14b" type="taisho">四九．一四中</ref>）。</note>。雜部（<foreign xml:lang="pi"><note n="0474a0601" resp="CBETA" type="add">Khuddaka-nikāya【CB】，Khuddakanikāya【印順】</note><app n="0474a0601"><lem wit="【CB】" resp="正聞出版社">Khuddaka-nikāya</lem><rdg wit="【印順】">Khuddakanikāya</rdg></app></foreign>）與其他四部，名稱與地位，都是平等的。2.大眾部
+<lb n="0474a05" ed="Y"/>五尼柯耶 <foreign xml:lang="sa"><note n="0474a0501" resp="CBETA" type="add">pañca-nikāya【CB】，Pañca nikāya【印順】</note><app n="0474a0501"><lem resp="正聞出版社" wit="【CB】">pañca-nikāya</lem><rdg wit="【印順】">Pañca nikāya</rdg></app></foreign>）——長、中、相應、增支、雜；或總稱為「五阿含」（五阿笈摩 <foreign xml:lang="sa"><note n="0474a0502" resp="CBETA" type="add">Panca āgama【CB】，Pañca āgama【印順】</note><app n="0474a0502"><lem resp="正聞出版社" wit="【CB】">Panca āgama</lem><rdg wit="【印順】">Pañca āgama</rdg></app></foreign>）
+<lb n="0474a06" ed="Y"/><note n="0474013" resp="釋印順" type="orig"><bibl><title level="m">《善見律毘婆沙》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:24;page:p677a" type="taisho">二四．六七七上</ref>）。<title level="m">《大阿羅漢難提蜜多羅所說法住記》</title>（大正<ref target="#vol:49;page:p14b" type="taisho">四九．一四中</ref>）。</note>。雜部（<foreign xml:lang="pi"><note n="0474a0601" resp="CBETA" type="add">Khuddaka-nikāya【CB】，Khuddakanikāya【印順】</note><app n="0474a0601"><lem resp="正聞出版社" wit="【CB】">Khuddaka-nikāya</lem><rdg wit="【印順】">Khuddakanikāya</rdg></app></foreign>）與其他四部，名稱與地位，都是平等的。2.大眾部
 <lb n="0474a07" ed="Y"/>、化地部、法藏部、雪山部，稱長、中、雜、增一為「阿含」，而稱「雜部」為「雜藏」。這雖
 <lb n="0474a08" ed="Y"/>然都是「經藏」，而有「阿含」與「雜藏」的差別。3.說一切有部，「經藏」只有四種「阿含」
 <lb n="0474a09" ed="Y"/>，沒有「雜藏」，因為這只是「經之差別」，沒有獨立而成大部的必要。在這三類不同的組織中
 <lb n="0474a10" ed="Y"/>，大眾部、先上座部——雪山部、化地部、法藏部的見解，應代表初期的意見。在律的結集中，
 <lb n="0474a11" ed="Y"/>經是「波羅提木叉」（<foreign xml:lang="sa">Prātimokṣa</foreign>），是「佛說」；而推行於僧伽中的僧伽規制，漸集為「摩
-<lb n="0474a12" ed="Y"/>得勒伽」（<foreign xml:lang="sa"><note n="0474a1201" resp="CBETA" type="add">mātṛkā【CB】，Mātṛkā【印順】</note><app n="0474a1201"><lem wit="【CB】" resp="正聞出版社">mātṛkā</lem><rdg wit="【印順】">Mātṛkā</rdg></app></foreign>），而被稱為「雜誦」。在經的結集中，顯然的也有同樣的傾向。經，集成
+<lb n="0474a12" ed="Y"/>得勒伽」（<foreign xml:lang="sa"><note n="0474a1201" resp="CBETA" type="add">mātṛkā【CB】，Mātṛkā【印順】</note><app n="0474a1201"><lem resp="正聞出版社" wit="【CB】">mātṛkā</lem><rdg wit="【印順】">Mātṛkā</rdg></app></foreign>），而被稱為「雜誦」。在經的結集中，顯然的也有同樣的傾向。經，集成
 <lb n="0474a13" ed="Y"/>而名為「阿含」；而流傳於僧伽及民間的偈頌、傳說，也漸次集成，名為「雜藏」。說一切有部
 <lb n="0474a14" ed="Y"/>（不立「雜藏」）的立場，是重視修多羅的最初集成，「阿含」為佛法根本的立場。</p>
 <lb n="0474a15" ed="Y"/>
@@ -249,88 +269,88 @@
 <lb n="0475a14" ed="Y"/>
 <lb n="0475a15" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　四阿含與九分教</cb:mulu><head>第二節　四阿含與九分教</head>
 <pb n="0476a" ed="Y" xml:id="Y35.0033.0476a"/>
-<lb n="0476a01" ed="Y"/><p style="text-indent:2em">有關經典成立的研究，近代學者雖多少有偏重<note n="0476a0101" resp="CBETA" type="add" subtype="規範字詞">巴利【CB】，巴梨【印順】</note><app n="0476a0101"><lem wit="【CB】" resp="CBETA">巴利</lem><rdg wit="【印順】">巴梨</rdg></app>語（<foreign xml:lang="pi"><note n="0476a0102" resp="CBETA" type="add">Pāli【CB】，Pali【印順】</note><app n="0476a0102"><lem wit="【CB】" resp="正聞出版社">Pāli</lem><rdg wit="【印順】">Pali</rdg></app></foreign>）的傾向，而忽略其部派的實際
+<lb n="0476a01" ed="Y"/><p xml:id="pY35p0476a0101" style="text-indent:2em">有關經典成立的研究，近代學者雖多少有偏重<note n="0476a0101" resp="CBETA" type="add" subtype="規範字詞">巴利【CB】，巴梨【印順】</note><app n="0476a0101"><lem resp="CBETA" wit="【CB】">巴利</lem><rdg wit="【印順】">巴梨</rdg></app>語（<foreign xml:lang="pi"><note n="0476a0102" resp="CBETA" type="add">Pāli【CB】，Pali【印順】</note><app n="0476a0102"><lem resp="正聞出版社" wit="【CB】">Pāli</lem><rdg wit="【印順】">Pali</rdg></app></foreign>）的傾向，而忽略其部派的實際
 <lb n="0476a02" ed="Y"/>意義，但成就不能說不大。隨研究而來的，有「九分教」與「四阿含」的先後；「九分教」與「
 <lb n="0476a03" ed="Y"/>十二分教」的先後；「四阿含」的同時成立或先後集成等問題。有關「四阿含」與「九分教」的
-<lb n="0476a04" ed="Y"/>先後，這<note n="0476a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0476a0401"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>先略為敘說。</p>
-<lb n="0476a05" ed="Y"/><p style="text-indent:2em">「九分教」與「十二分教」，舊譯為「九部經」與「十二部經」。「十二分教」的名目，玄
+<lb n="0476a04" ed="Y"/>先後，這<note n="0476a0401" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0476a0401"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>先略為敘說。</p>
+<lb n="0476a05" ed="Y"/><p xml:id="pY35p0476a0501" style="text-indent:2em">「九分教」與「十二分教」，舊譯為「九部經」與「十二部經」。「十二分教」的名目，玄
 <lb n="0476a06" ed="Y"/>奘譯為：「契經」、「應頌」、「記說」、「伽陀」、「自說」、「因緣」、「譬喻」、「本事
 <lb n="0476a07" ed="Y"/>」、「本生」、「方廣」、「希法」、「論議」<note n="0476001" resp="釋印順" type="orig"><bibl><title level="m">《阿毘達磨大毘婆沙論》</title><biblScope n="126" type="卷">卷一二六</biblScope></bibl>（大正<ref target="#vol:27;page:p659c" type="taisho">二七．六五九下</ref>）。</note>。「九分教」，就是十二分中的九分，雖有多
 <lb n="0476a08" ed="Y"/>種的不同傳說，依據較古的傳說，應以「契經」、「應頌」、「記說」、「伽陀」、「自說」、
-<lb n="0476a09" ed="Y"/>「本事」、「本生」、「方廣」、「希法」——九分為正。「九分教」的原語為 <foreign xml:lang="sa"><note n="0476a0901" resp="CBETA" type="add">navaṅga-vacana【CB】，Nanvâṅga-vacana,P.【印順】</note><app n="0476a0901"><lem wit="【CB】" resp="正聞出版社">navaṅga-vacana</lem><rdg wit="【印順】">Nanvâṅga-vacana,P.</rdg></app></foreign>
-<lb n="0476a10" ed="Y"/> <foreign xml:lang="sa"><note n="0476a1001" resp="CBETA" type="add">navaṅga【CB】，navâṅga【印順】</note><app n="0476a1001"><lem wit="【CB】" resp="正聞出版社">navaṅga</lem><rdg wit="【印順】">navâṅga</rdg></app></foreign>-[<foreign xml:lang="x-sa-pi">buddha</foreign>]-vacana，「十二分教」為 <foreign xml:lang="sa"><note n="0476a1002" resp="CBETA" type="add">dvādaśâṅga-vacana【CB】，Dvādaśâṅga-vacana【印順】</note><app n="0476a1002"><lem wit="【CB】" resp="正聞出版社">dvādaśâṅga-vacana</lem><rdg wit="【印順】">Dvādaśâṅga-vacana</rdg></app></foreign>。分（<foreign xml:lang="x-sa-pi">Aṅga</foreign>）
+<lb n="0476a09" ed="Y"/>「本事」、「本生」、「方廣」、「希法」——九分為正。「九分教」的原語為 <foreign xml:lang="sa"><note n="0476a0901" resp="CBETA" type="add">navaṅga-vacana【CB】，Nanvâṅga-vacana,P.【印順】</note><app n="0476a0901"><lem resp="正聞出版社" wit="【CB】">navaṅga-vacana</lem><rdg wit="【印順】">Nanvâṅga-vacana,P.</rdg></app></foreign>
+<lb n="0476a10" ed="Y"/> <foreign xml:lang="sa"><note n="0476a1001" resp="CBETA" type="add">navaṅga【CB】，navâṅga【印順】</note><app n="0476a1001"><lem resp="正聞出版社" wit="【CB】">navaṅga</lem><rdg wit="【印順】">navâṅga</rdg></app></foreign>-[<foreign xml:lang="x-sa-pi">buddha</foreign>]-vacana，「十二分教」為 <foreign xml:lang="sa"><note n="0476a1002" resp="CBETA" type="add">dvādaśâṅga-vacana【CB】，Dvādaśâṅga-vacana【印順】</note><app n="0476a1002"><lem resp="正聞出版社" wit="【CB】">dvādaśâṅga-vacana</lem><rdg wit="【印順】">Dvādaśâṅga-vacana</rdg></app></foreign>。分（<foreign xml:lang="x-sa-pi">Aṅga</foreign>）
 <lb n="0476a11" ed="Y"/>是支分的分，所以這是教法的分類，九部分或十二部分。</p>
-<lb n="0476a12" ed="Y"/><p style="text-indent:2em">古代的結集傳說，出於律部（犍度與本母）。據持律者的傳說，阿難（<foreign xml:lang="x-sa-pi">Ānanda</foreign>）集一切經
+<lb n="0476a12" ed="Y"/><p xml:id="pY35p0476a1201" style="text-indent:2em">古代的結集傳說，出於律部（犍度與本母）。據持律者的傳說，阿難（<foreign xml:lang="x-sa-pi">Ānanda</foreign>）集一切經
 <lb n="0476a13" ed="Y"/>為四阿含或五部，並沒有說到依九分教（或十二分教）而集成四阿含。近代學者，開始注意這一
 <lb n="0476a14" ed="Y"/>問題，是由於發見了<title level="m">《島史》</title><note place="inline">南傳六〇．二六</note>的傳說：</p>
-<lb n="0476a15" ed="Y"/><quote><p style="margin-left:3em">「五百長老，住七葉窟，分別師之九分教。師之九分教：修多、祇夜、和伽羅那、伽陀、
+<lb n="0476a15" ed="Y"/><quote><p xml:id="pY35p0476a1501" style="margin-left:3em">「五百長老，住七葉窟，分別師之九分教。師之九分教：修多、祇夜、和伽羅那、伽陀、
 <pb n="0477a" ed="Y" xml:id="Y35.0033.0477a"/>
 <lb n="0477a01" ed="Y"/>優陀那、伊帝目多伽、闍多伽、阿浮多、毘陀羅；以此不滅之正法，分類名為『品』、『
 <lb n="0477a02" ed="Y"/>五十集』、『相應』、『集』，為阿含藏經典之集成」。</p></quote>
-<lb n="0477a03" ed="Y"/><p style="text-indent:2em"><title level="m">《島史》</title>（<foreign xml:lang="sa"><note n="0477a0301" resp="CBETA" type="add">Dīpavaṃsa【CB】，Dīpavaṁsa【印順】</note><app n="0477a0301"><lem wit="【CB】" resp="正聞出版社">Dīpavaṃsa</lem><rdg wit="【印順】">Dīpavaṁsa</rdg></app></foreign>）為錫蘭最古的編年史詩，約作於西元四、五世紀間。依九分教而
-<lb n="0477a04" ed="Y"/>集成阿含藏（<foreign xml:lang="x-sa-pi">Āgamapiṭaka</foreign>），在中國也有類似的傳說，如<bibl><title level="m">《般泥洹經》</title><biblScope n="下" type="卷">卷下</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:1;page:p190c">一．一九〇下</ref>
+<lb n="0477a03" ed="Y"/><p xml:id="pY35p0477a0301" style="text-indent:2em"><title level="m">《島史》</title>（<foreign xml:lang="sa"><note n="0477a0301" resp="CBETA" type="add">Dīpavaṃsa【CB】，Dīpavaṁsa【印順】</note><app n="0477a0301"><lem resp="正聞出版社" wit="【CB】">Dīpavaṃsa</lem><rdg wit="【印順】">Dīpavaṁsa</rdg></app></foreign>）為錫蘭最古的編年史詩，約作於西元四、五世紀間。依九分教而
+<lb n="0477a04" ed="Y"/>集成阿含藏（<foreign xml:lang="x-sa-pi">Āgamapiṭaka</foreign>），在中國也有類似的傳說，如<bibl><title level="m">《般泥洹經》</title><biblScope n="下" type="卷">卷下</biblScope></bibl><note place="inline">大正<ref target="#vol:1;page:p190c" type="taisho">一．一九〇下</ref>
 <lb n="0477a05" ed="Y"/>——一九一上</note>說：</p>
-<lb n="0477a06" ed="Y"/><quote><p style="margin-left:3em">「眾比丘會共議：佛十二部經，有四阿含。……即選眾中四十應真，從阿難受得四阿含」
+<lb n="0477a06" ed="Y"/><quote><p xml:id="pY35p0477a0601" style="margin-left:3em">「眾比丘會共議：佛十二部經，有四阿含。……即選眾中四十應真，從阿難受得四阿含」
 <lb n="0477a07" ed="Y"/>。</p></quote>
-<lb n="0477a08" ed="Y"/><p style="text-indent:2em"><title level="m">《般泥洹經》</title>，是<title level="m">《長含》</title><title level="m">《遊行經》</title>（<title level="m">《大般涅槃經》</title>）的別誦本，不知屬於什麼部派；
-<lb n="0477a09" ed="Y"/>傳為「東晉失譯」（約西元四世紀譯）<note n="0477002" resp="釋印順" type="orig">晉白法祖所譯<title level="m">《佛般泥洹經》</title>，為此經的同本異譯。</note>。<bibl><title level="m">《出三藏記集》</title><biblScope type="卷" n="9">卷九</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:55;page:p64c">五五．六四下</ref></note>，道安序也說
+<lb n="0477a08" ed="Y"/><p xml:id="pY35p0477a0801" style="text-indent:2em"><title level="m">《般泥洹經》</title>，是<title level="m">《長含》</title><title level="m">《遊行經》</title>（<title level="m">《大般涅槃經》</title>）的別誦本，不知屬於什麼部派；
+<lb n="0477a09" ed="Y"/>傳為「東晉失譯」（約西元四世紀譯）<note n="0477002" resp="釋印順" type="orig">晉白法祖所譯<title level="m">《佛般泥洹經》</title>，為此經的同本異譯。</note>。<bibl><title level="m">《出三藏記集》</title><biblScope n="9" type="卷">卷九</biblScope></bibl><note place="inline">大正<ref target="#vol:55;page:p64c" type="taisho">五五．六四下</ref></note>，道安序也說
 <lb n="0477a10" ed="Y"/>：</p>
-<lb n="0477a11" ed="Y"/><quote><p style="margin-left:3em">「阿難既出十二部經，又採撮其要，逕至道法，為四阿鋡暮；與阿毘曇及律，並為三藏焉
+<lb n="0477a11" ed="Y"/><quote><p xml:id="pY35p0477a1101" style="margin-left:3em">「阿難既出十二部經，又採撮其要，逕至道法，為四阿鋡暮；與阿毘曇及律，並為三藏焉
 <lb n="0477a12" ed="Y"/>」。</p></quote>
-<lb n="0477a13" ed="Y"/><p style="text-indent:2em"><title level="m">《島史》</title>與<title level="m">《般泥洹經》</title>所說，佛法——九分教或十二部經，是通於經與律的；四阿含僅是
+<lb n="0477a13" ed="Y"/><p xml:id="pY35p0477a1301" style="text-indent:2em"><title level="m">《島史》</title>與<title level="m">《般泥洹經》</title>所說，佛法——九分教或十二部經，是通於經與律的；四阿含僅是
 <lb n="0477a14" ed="Y"/>其中的一分。以九分教或十二部經，集為三藏的傳說，現存西元二世紀以來的論書，大抵如此。
-<lb n="0477a15" ed="Y"/>所以<title level="m">《原始佛教聖典之成立史研究》</title>，論證九分教為<quote>「通於經律之全體」</quote><note n="0477003" resp="釋印順" type="orig"><bibl>前田惠學<title level="m">《原始佛教聖典之成立史研究》</title><biblScope to="194" from="191" type="pp">（一九一——一九四）</biblScope></bibl>。</note>，當然是沒有問題的
+<lb n="0477a15" ed="Y"/>所以<title level="m">《原始佛教聖典之成立史研究》</title>，論證九分教為<quote>「通於經律之全體」</quote><note n="0477003" resp="釋印順" type="orig"><bibl>前田惠學<title level="m">《原始佛教聖典之成立史研究》</title><biblScope from="191" to="194" type="pp">（一九一——一九四）</biblScope></bibl>。</note>，當然是沒有問題的
 <pb n="0478a" ed="Y" xml:id="Y35.0033.0478a"/>
 <lb n="0478a01" ed="Y"/>。然而，在古典的結集傳說中，沒有說到依九分教而集成四阿含；所以說九分教為四阿含以前的
 <lb n="0478a02" ed="Y"/>聖典形態，還是不能不審慎考慮的問題。</p>
-<lb n="0478a03" ed="Y"/><p style="text-indent:2em">九分教是法的分類，還是通於律呢？古代持律者所傳，如<bibl>《<title level="m">銅鍱律</title>．<title level="a">經分別</title>》</bibl><note place="inline">南傳一．一
+<lb n="0478a03" ed="Y"/><p xml:id="pY35p0478a0301" style="text-indent:2em">九分教是法的分類，還是通於律呢？古代持律者所傳，如<bibl>《<title level="m">銅鍱律</title>．<title level="a">經分別</title>》</bibl><note place="inline">南傳一．一
 <lb n="0478a04" ed="Y"/>三</note>說：</p>
-<lb n="0478a05" ed="Y"/><quote><p style="margin-left:3em">「舍利弗！拘摟孫佛、拘那含牟尼佛、迦葉佛、廣為聲聞弟子說法不厭，為弟子多說修多
+<lb n="0478a05" ed="Y"/><quote><p xml:id="pY35p0478a0501" style="margin-left:3em">「舍利弗！拘摟孫佛、拘那含牟尼佛、迦葉佛、廣為聲聞弟子說法不厭，為弟子多說修多
 <lb n="0478a06" ed="Y"/>、祇夜、記說、伽陀、優陀南、如是語、本生、未曾有、毘陀羅；為諸弟子制立學處，制
 <lb n="0478a07" ed="Y"/>說波羅提木叉。諸佛世尊、大聲聞等滅後，種種名、種種族、種種種、種種姓出家，後諸
 <lb n="0478a08" ed="Y"/>弟子梵行久住」。</p></quote>
-<lb n="0478a09" ed="Y"/><p style="text-indent:2em">佛法的是否久住，在乎是否廣為弟子說法——九分教；為弟子制立「學處」，制「說波羅提
-<lb n="0478a10" ed="Y"/>木叉」，文段非常分明<note n="0478004" resp="釋印順" type="orig"><title level="m">《銅鍱律》</title>文，<bibl><title level="m">《摩訶僧祇律》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:22;page:p227b">二二．二二七中</ref>）；<bibl><title level="m">《彌沙塞部和醯五分律》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:22;page:p1c" type="taisho">二二．一下</ref>）；<bibl><title level="m">《四分律》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:22;page:p569b" type="taisho">二二．五六九中</ref>——下）：都有同樣的記載。</note>。九分教是說的，是法的理解（修證）；「學處」、「說波羅提木叉」
+<lb n="0478a09" ed="Y"/><p xml:id="pY35p0478a0901" style="text-indent:2em">佛法的是否久住，在乎是否廣為弟子說法——九分教；為弟子制立「學處」，制「說波羅提
+<lb n="0478a10" ed="Y"/>木叉」，文段非常分明<note n="0478004" resp="釋印順" type="orig"><title level="m">《銅鍱律》</title>文，<bibl><title level="m">《摩訶僧祇律》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:22;page:p227b" type="taisho">二二．二二七中</ref>）；<bibl><title level="m">《彌沙塞部和醯五分律》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:22;page:p1c" type="taisho">二二．一下</ref>）；<bibl><title level="m">《四分律》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:22;page:p569b" type="taisho">二二．五六九中</ref>——下）：都有同樣的記載。</note>。九分教是說的，是法的理解（修證）；「學處」、「說波羅提木叉」
 <lb n="0478a11" ed="Y"/>，是制的，是僧伽的制度。九分教的古義，在持律者看來，顯然是所說的法，而是與律相對的。
 <lb n="0478a12" ed="Y"/>律宗所說的「化教」與「制教」，正可為這一段文字的說明。</p>
-<lb n="0478a13" ed="Y"/><p style="text-indent:2em">九分教（或十二分教）的組成，最早見於<title level="m">《中部》</title>（<title level="m">《中含》</title>），<title level="m">《增支部》</title>（<title level="m">《增一含》</title>
-<lb n="0478a14" ed="Y"/>）<note n="0478005" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="41">卷四一</biblScope></bibl>（大正<ref target="#vol:2;page:p300c" type="taisho">二．三〇〇下</ref>），<bibl><title level="m">《長阿含經》</title><biblScope n="12" type="卷">卷一二</biblScope></bibl>（大正<ref type="taisho" target="#vol:1;page:p74b">一．七四中</ref>），都有「十二部經」說。然與之相當的<bibl>《<title level="m">相應部</title>．<title level="a">迦葉相應</title>》</bibl>（南傳一三．二九九——三〇二）；<bibl>《<title level="m">長部</title>．<title level="m">清淨經</title>》</bibl>（南傳八．一六三——一六五），都沒有分教的明文。</note>。凡<title level="m">《中部》</title>與<title level="m">《增支部》</title>而說到九分教的，都是約「教法」說的。如「知法」是知九分教
-<lb n="0478a15" ed="Y"/>；「知義」是知九分教的意義<note n="0478006" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．七集》</bibl>（南傳二〇．三六七——三六八）。<bibl><title level="m">《中阿含經》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:1;page:p421a">一．四二一上</ref>）。</note>。「學法」（九分教），是<quote>「以慧而究明其義。以慧而究明其義
+<lb n="0478a13" ed="Y"/><p xml:id="pY35p0478a1301" style="text-indent:2em">九分教（或十二分教）的組成，最早見於<title level="m">《中部》</title>（<title level="m">《中含》</title>），<title level="m">《增支部》</title>（<title level="m">《增一含》</title>
+<lb n="0478a14" ed="Y"/>）<note n="0478005" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="41" type="卷">卷四一</biblScope></bibl>（大正<ref target="#vol:2;page:p300c" type="taisho">二．三〇〇下</ref>），<bibl><title level="m">《長阿含經》</title><biblScope n="12" type="卷">卷一二</biblScope></bibl>（大正<ref target="#vol:1;page:p74b" type="taisho">一．七四中</ref>），都有「十二部經」說。然與之相當的<bibl>《<title level="m">相應部</title>．<title level="a">迦葉相應</title>》</bibl>（南傳一三．二九九——三〇二）；<bibl>《<title level="m">長部</title>．<title level="m">清淨經</title>》</bibl>（南傳八．一六三——一六五），都沒有分教的明文。</note>。凡<title level="m">《中部》</title>與<title level="m">《增支部》</title>而說到九分教的，都是約「教法」說的。如「知法」是知九分教
+<lb n="0478a15" ed="Y"/>；「知義」是知九分教的意義<note n="0478006" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．七集》</bibl>（南傳二〇．三六七——三六八）。<bibl><title level="m">《中阿含經》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:1;page:p421a" type="taisho">一．四二一上</ref>）。</note>。「學法」（九分教），是<quote>「以慧而究明其義。以慧而究明其義
 <pb n="0479a" ed="Y" xml:id="Y35.0033.0479a"/>
-<lb n="0479a01" ed="Y"/>者，……適於真正目的。以能善解法故，永得饒益」</quote><note n="0479007" resp="釋印順" type="orig"><bibl>《<title level="m">中部</title>．<title level="m">蛇喻經</title>》</bibl>（南傳九．二四六）。參考<bibl><title level="m">《中阿含經》</title><biblScope type="卷" n="54">卷五四</biblScope></bibl>（大正<ref type="taisho" target="#vol:1;page:p764b">一．七六四中</ref>）。</note>。多聞持法，不一定是多聽九分教法。如
+<lb n="0479a01" ed="Y"/>者，……適於真正目的。以能善解法故，永得饒益」</quote><note n="0479007" resp="釋印順" type="orig"><bibl>《<title level="m">中部</title>．<title level="m">蛇喻經</title>》</bibl>（南傳九．二四六）。參考<bibl><title level="m">《中阿含經》</title><biblScope n="54" type="卷">卷五四</biblScope></bibl>（大正<ref target="#vol:1;page:p764b" type="taisho">一．七六四中</ref>）。</note>。多聞持法，不一定是多聽九分教法。如
 <lb n="0479a02" ed="Y"/><quote>「一四句偈、知義、知法、法隨法行，是名多聞持法者」</quote><note n="0479008" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．四集》</bibl>（南傳一八．三一二）。</note>。對於九分教法，<quote>「法來入耳（聽聞
 <lb n="0479a03" ed="Y"/>），熟習其語，意善觀察，見善分析。不失念而死故，生於天上」</quote><note n="0479009" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．四集》</bibl>（南傳一八．三二四）。</note>。怎樣才能多聞？<quote>「通達於
 <lb n="0479a04" ed="Y"/>法（九分教）。如所聽聞，如所通達而廣為他說，……廣為他讀，……廣為諷誦，……心隨尋伺
 <lb n="0479a05" ed="Y"/>，意隨觀察。何處有多聞，傳阿含，持法、持律、持母長老比丘，時彼比丘往詣其處：大德！是
 <lb n="0479a06" ed="Y"/>義云何」</quote><note n="0479010" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．六集》</bibl>（南傳二〇．一一一——一一二）。</note>。依上文證，九分教——法，是學習通達的。多聞持法的，重於法義的聞持。說到九
-<lb n="0479a07" ed="Y"/>分教的，都近於「十法行」<note n="0479011" resp="釋印順" type="orig"><quote>「有十法行：一、書寫；二、供養；三、施他；四、若他誦讀專心諦聽；五、自披讀；六、受持；七、正為他開演文義；八、諷誦；九、思惟；十、修習」</quote>：見<bibl><title level="m">《辯中邊論》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref type="taisho" target="#vol:31;page:p474b">三一．四七四中</ref>）。</note>，而為聞思修的修學過程。所以九分教與十二分教，雖在佛教的流
+<lb n="0479a07" ed="Y"/>分教的，都近於「十法行」<note n="0479011" resp="釋印順" type="orig"><quote>「有十法行：一、書寫；二、供養；三、施他；四、若他誦讀專心諦聽；五、自披讀；六、受持；七、正為他開演文義；八、諷誦；九、思惟；十、修習」</quote>：見<bibl><title level="m">《辯中邊論》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:31;page:p474b" type="taisho">三一．四七四中</ref>）。</note>，而為聞思修的修學過程。所以九分教與十二分教，雖在佛教的流
 <lb n="0479a08" ed="Y"/>傳中，早已總攝三藏，更不要說通於法與律了。但論到九分教組成的早期意義，我覺得這是經師
 <lb n="0479a09" ed="Y"/>所傳，一切經法的九類。</p>
-<lb n="0479a10" ed="Y"/><p style="text-indent:2em">九分教，無論是法的，或是通於法與律的，依九分教而集成四阿含，僅有部分的意義。九分
+<lb n="0479a10" ed="Y"/><p xml:id="pY35p0479a1001" style="text-indent:2em">九分教，無論是法的，或是通於法與律的，依九分教而集成四阿含，僅有部分的意義。九分
 <lb n="0479a11" ed="Y"/>教（或十二分教）與四阿含，在基本精神上，有一重大的差別。「佛法」，從佛的證覺而宣流出
 <lb n="0479a12" ed="Y"/>來，本於佛說，那是無可疑的。然而，佛法就可以稱為「佛說」嗎？<title level="m">《增支部》</title>標九分教為「沙
 <lb n="0479a13" ed="Y"/>門瞿曇之法」<note n="0479012" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．五集》</bibl>（南傳一九．三二九）。</note>；<title level="m">《島史》</title>稱為「勝者之九分教」<note n="0479013" resp="釋印順" type="orig"><title level="m">《島史》</title>（南傳六〇．二六）。</note>。說得更確切的，如說：<quote><quote>「十二部經，如來
-<lb n="0479a14" ed="Y"/>所說」</quote></quote><note n="0479014" resp="釋印順" type="orig"><bibl><title level="m">《增壹阿含經》</title><biblScope n="21" type="卷">卷二一</biblScope></bibl>（大正<ref type="taisho" target="#vol:2;page:p657a">二．六五七上</ref>）。</note>。<quote>「謂佛所說十二部經」</quote><note n="0479015" resp="釋印順" type="orig"><bibl><title level="m">《般泥洹經》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref type="taisho" target="#vol:1;page:p188a">一．一八八上</ref>）。</note>。<quote>「汝等持我所說修多羅……優波提舍等法」</quote><note n="0479016" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="41">卷四一</biblScope></bibl>（大正<ref target="#vol:2;page:p300c" type="taisho">二．三〇〇下</ref>）。</note>。<quote>「佛所宣
-<lb n="0479a15" ed="Y"/>說」</quote><note n="0479017" resp="釋印順" type="orig"><bibl><title level="m">《大集法門經》</title><biblScope type="卷" n="上">卷上</biblScope></bibl>（大正<ref type="taisho" target="#vol:1;page:p227b">一．二二七中</ref>）。</note>。<quote>「如來所說，從修多羅乃至優波提舍」</quote><note n="0479018" resp="釋印順" type="orig"><bibl><title level="m">《毘尼母經》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref type="taisho" target="#vol:24;page:p818a">二四．八一八上</ref>）。</note>。九分教或十二分教，在古來的傳述中，都是
+<lb n="0479a14" ed="Y"/>所說」</quote></quote><note n="0479014" resp="釋印順" type="orig"><bibl><title level="m">《增壹阿含經》</title><biblScope n="21" type="卷">卷二一</biblScope></bibl>（大正<ref target="#vol:2;page:p657a" type="taisho">二．六五七上</ref>）。</note>。<quote>「謂佛所說十二部經」</quote><note n="0479015" resp="釋印順" type="orig"><bibl><title level="m">《般泥洹經》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:1;page:p188a" type="taisho">一．一八八上</ref>）。</note>。<quote>「汝等持我所說修多羅……優波提舍等法」</quote><note n="0479016" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="41" type="卷">卷四一</biblScope></bibl>（大正<ref target="#vol:2;page:p300c" type="taisho">二．三〇〇下</ref>）。</note>。<quote>「佛所宣
+<lb n="0479a15" ed="Y"/>說」</quote><note n="0479017" resp="釋印順" type="orig"><bibl><title level="m">《大集法門經》</title><biblScope n="上" type="卷">卷上</biblScope></bibl>（大正<ref target="#vol:1;page:p227b" type="taisho">一．二二七中</ref>）。</note>。<quote>「如來所說，從修多羅乃至優波提舍」</quote><note n="0479018" resp="釋印順" type="orig"><bibl><title level="m">《毘尼母經》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref target="#vol:24;page:p818a" type="taisho">二四．八一八上</ref>）。</note>。九分教或十二分教，在古來的傳述中，都是
 <pb n="0480a" ed="Y" xml:id="Y35.0033.0480a"/>
 <lb n="0480a01" ed="Y"/>標明為「佛說」的。然在阿含中，集成的佛法，是不限於佛說的。佛說的以外，諸大弟子所說，
-<lb n="0480a02" ed="Y"/>都集錄在內。又如<title level="m">《蜱肆經》</title>、<title level="m">《瞿默目連經》</title>等，佛涅槃以後弟子所說的，也都集在<note n="0480a0201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0480a0201"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>面。這
+<lb n="0480a02" ed="Y"/>都集錄在內。又如<title level="m">《蜱肆經》</title>、<title level="m">《瞿默目連經》</title>等，佛涅槃以後弟子所說的，也都集在<note n="0480a0201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0480a0201"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>面。這
 <lb n="0480a03" ed="Y"/>還可說「佛涅槃未久」，而如<title level="m">《增壹阿含經》</title>，那羅陀（<foreign xml:lang="sa">Nārada</foreign>）為文荼王（<foreign xml:lang="sa">Muṇḍa</foreign>）說法，是
 <lb n="0480a04" ed="Y"/>佛滅後四五十年的事了<note n="0480019" resp="釋印順" type="orig"><bibl>宇井伯壽<title level="m">《印度哲學研究》</title><biblScope n="3" type="卷">卷三</biblScope><title level="a">〈原始佛教資料論〉</title><biblScope from="312" to="315" type="pp">（三一二——三一五）</biblScope></bibl>。</note>。此外，如<bibl>《<title level="m">相應部</title>．<title level="a">有偈品</title>》</bibl>中諸天所說的，也集錄起來。時間上
 <lb n="0480a05" ed="Y"/>，從佛世到佛涅槃以後。說法者，從佛到諸大弟子、諸天。「阿含」所集錄的佛法，是以佛為本
-<lb n="0480a06" ed="Y"/>的；將流傳於僧伽內部，社會民間的佛法，一起集為「阿含」，所以<bibl><title level="m">《成實論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:32;page:p243c">三二．
+<lb n="0480a06" ed="Y"/>的；將流傳於僧伽內部，社會民間的佛法，一起集為「阿含」，所以<bibl><title level="m">《成實論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:32;page:p243c" type="taisho">三二．
 <lb n="0480a07" ed="Y"/>二四三下</ref></note>說：</p>
-<lb n="0480a08" ed="Y"/><quote><p style="margin-left:3em">「是法根本，皆從佛出。是諸聲聞及天神等，皆傳佛語。如比尼中說：佛法名佛所說，弟
+<lb n="0480a08" ed="Y"/><quote><p xml:id="pY35p0480a0801" style="margin-left:3em">「是法根本，皆從佛出。是諸聲聞及天神等，皆傳佛語。如比尼中說：佛法名佛所說，弟
 <lb n="0480a09" ed="Y"/>子所說，變化（人）所說，諸天所說。取要言之，一切世間所有善語，皆是佛說」。</p></quote>
-<lb n="0480a10" ed="Y"/><p style="text-indent:2em"><title level="m">《成實論》</title>文，是依「律藏」及<title level="m">《增支部》</title>而作此解說的。這是原始結集以來的「教法」真
+<lb n="0480a10" ed="Y"/><p xml:id="pY35p0480a1001" style="text-indent:2em"><title level="m">《成實論》</title>文，是依「律藏」及<title level="m">《增支部》</title>而作此解說的。這是原始結集以來的「教法」真
 <lb n="0480a11" ed="Y"/>相，也正是集經為「阿含」的指導方針。當「九分教」組成時，雖不一定有稱為「阿含」的部類
 <lb n="0480a12" ed="Y"/>，而傳誦的經法，確已不少。組為九分，而標揭為「如來所說」，是當時經師們推重經法的表示
 <lb n="0480a13" ed="Y"/>。後來集成的經（律部也受此影響），「佛說」與「佛法」不分，顯然是受了「佛說九分教」（
-<lb n="0480a14" ed="Y"/>或「十二分教」）的影響。離佛的時代遠了，崇仰佛陀的信念，也逐漸加<note n="0480a1401" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0480a1401"><lem wit="【CB】" resp="CBETA">強</lem><rdg wit="【印順】">强</rdg></app>；「佛法」也嬗變為
+<lb n="0480a14" ed="Y"/>或「十二分教」）的影響。離佛的時代遠了，崇仰佛陀的信念，也逐漸加<note n="0480a1401" resp="CBETA" type="add" subtype="規範字詞">強【CB】，强【印順】</note><app n="0480a1401"><lem resp="CBETA" wit="【CB】">強</lem><rdg wit="【印順】">强</rdg></app>；「佛法」也嬗變為
 <lb n="0480a15" ed="Y"/>「佛說」了。</p>
 <pb n="0481a" ed="Y" xml:id="Y35.0033.0481a"/>
-<lb n="0481a01" ed="Y"/><p style="text-indent:2em">依「九分教」（十二分教）而集成「四阿含」，或先有「四阿含」而後有「九分教」，這在
-<lb n="0481a02" ed="Y"/>近代學者，有著濃厚的論究興趣<note n="0481020" resp="釋印順" type="orig"><bibl>前田惠學<title level="m">《原始佛教聖典之成立史研究》</title>列舉諸說<biblScope to="488" from="486" type="pp">（四八六——四八八）</biblScope></bibl>。</note>。在這<note n="0481a0201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0481a0201"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，概略的表示我的意見。「九分教」的類別，是逐漸
+<lb n="0481a01" ed="Y"/><p xml:id="pY35p0481a0101" style="text-indent:2em">依「九分教」（十二分教）而集成「四阿含」，或先有「四阿含」而後有「九分教」，這在
+<lb n="0481a02" ed="Y"/>近代學者，有著濃厚的論究興趣<note n="0481020" resp="釋印順" type="orig"><bibl>前田惠學<title level="m">《原始佛教聖典之成立史研究》</title>列舉諸說<biblScope from="486" to="488" type="pp">（四八六——四八八）</biblScope></bibl>。</note>。在這<note n="0481a0201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0481a0201"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，概略的表示我的意見。「九分教」的類別，是逐漸
 <lb n="0481a03" ed="Y"/>形成而後綜合組成的。「四阿含」，在原始結集時，就有部分的集成。當然，原始集成的，並不
 <lb n="0481a04" ed="Y"/>是四部，也未必稱為阿含，但確是阿含部的根源。在這集成的原形中，又不斷的集錄、分化，最
 <lb n="0481a05" ed="Y"/>後形成四部，而確立「四阿含」的部類。「四阿含」不是一下子編成的；也不是先組成九分教，
@@ -370,45 +390,45 @@
 <lb n="0483a06" ed="Y"/></cb:div>
 <lb n="0483a07" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　四部阿含的次第與宗趣</cb:mulu><head>第三節　四部阿含的次第與宗趣</head>
 <lb n="0483a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">第一項　阿含與傳承</cb:mulu><head>第一項　阿含與傳承</head>
-<lb n="0483a09" ed="Y"/><p style="text-indent:2em">「經藏」的內容，有五部與四部的差別。名稱上，有稱為阿含（<foreign xml:lang="x-sa-pi"><note n="0483a0901" resp="CBETA" type="add">āgama【CB】，Āgama【印順】</note><app n="0483a0901"><lem wit="【CB】" resp="正聞出版社">āgama</lem><rdg wit="【印順】">Āgama</rdg></app></foreign>），稱為尼迦耶
-<lb n="0483a10" ed="Y"/>（<foreign xml:lang="x-sa-pi"><note n="0483a1001" resp="CBETA" type="add">Nikāya【CB】，Nikaya【印順】</note><app n="0483a1001"><lem wit="【CB】" resp="正聞出版社">Nikāya</lem><rdg wit="【印順】">Nikaya</rdg></app></foreign>）的差別。尼迦耶——部，是部類，銅鍱部（<foreign xml:lang="sa"><note n="0483a1002" resp="CBETA" type="add">Tāmraśāṭīya【CB】，Tāmra-śātīyāḥ【印順】</note><app n="0483a1002"><lem wit="【CB】" resp="正聞出版社">Tāmraśāṭīya</lem><rdg wit="【印順】">Tāmra-śātīyāḥ</rdg></app></foreign>）所傳的<note n="0483a1003" resp="CBETA" type="add" subtype="規範字詞">巴利【CB】，巴梨【印順】</note><app n="0483a1003"><lem wit="【CB】" resp="CBETA">巴利</lem><rdg wit="【印順】">巴梨</rdg></app>語聖典，是
+<lb n="0483a09" ed="Y"/><p xml:id="pY35p0483a0901" style="text-indent:2em">「經藏」的內容，有五部與四部的差別。名稱上，有稱為阿含（<foreign xml:lang="x-sa-pi"><note n="0483a0901" resp="CBETA" type="add">āgama【CB】，Āgama【印順】</note><app n="0483a0901"><lem resp="正聞出版社" wit="【CB】">āgama</lem><rdg wit="【印順】">Āgama</rdg></app></foreign>），稱為尼迦耶
+<lb n="0483a10" ed="Y"/>（<foreign xml:lang="x-sa-pi"><note n="0483a1001" resp="CBETA" type="add">Nikāya【CB】，Nikaya【印順】</note><app n="0483a1001"><lem resp="正聞出版社" wit="【CB】">Nikāya</lem><rdg wit="【印順】">Nikaya</rdg></app></foreign>）的差別。尼迦耶——部，是部類，銅鍱部（<foreign xml:lang="sa"><note n="0483a1002" resp="CBETA" type="add">Tāmraśāṭīya【CB】，Tāmra-śātīyāḥ【印順】</note><app n="0483a1002"><lem resp="正聞出版社" wit="【CB】">Tāmraśāṭīya</lem><rdg wit="【印順】">Tāmra-śātīyāḥ</rdg></app></foreign>）所傳的<note n="0483a1003" resp="CBETA" type="add" subtype="規範字詞">巴利【CB】，巴梨【印順】</note><app n="0483a1003"><lem resp="CBETA" wit="【CB】">巴利</lem><rdg wit="【印順】">巴梨</rdg></app>語聖典，是
 <lb n="0483a11" ed="Y"/>稱為尼迦耶的（也有稱為阿含的），這應該是佛教界初期的稱謂。然在經法的流傳中，各部派大
 <lb n="0483a12" ed="Y"/>都稱之為阿含，因為阿含有著更深一層的意義。阿含，古來或音譯為阿鋡暮、阿笈摩。義譯不一
-<lb n="0483a13" ed="Y"/>，一般以玄奘等傳譯為正。如<bibl><title level="m">《瑜伽師地論》</title><biblScope type="卷" n="85">卷八五</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:30;page:p772c">三〇．七七二下</ref>——<ref target="#vol:30;page:p773a" type="taisho">七七三上</ref></note>說：</p>
+<lb n="0483a13" ed="Y"/>，一般以玄奘等傳譯為正。如<bibl><title level="m">《瑜伽師地論》</title><biblScope n="85" type="卷">卷八五</biblScope></bibl><note place="inline">大正<ref target="#vol:30;page:p772c" type="taisho">三〇．七七二下</ref>——<ref target="#vol:30;page:p773a" type="taisho">七七三上</ref></note>說：</p>
 <pb n="0484a" ed="Y" xml:id="Y35.0033.0484a"/>
-<lb n="0484a01" ed="Y"/><quote><p style="margin-left:3em">「如是四種，師弟展轉傳來於今；由此道理，是故說名阿笈摩」。</p></quote>
-<lb n="0484a02" ed="Y"/><p style="text-indent:2em">據此，阿含是「展轉傳來」的意思，也可以簡譯為「傳」。然所說的「展轉傳來」，不只是
+<lb n="0484a01" ed="Y"/><quote><p xml:id="pY35p0484a0101" style="margin-left:3em">「如是四種，師弟展轉傳來於今；由此道理，是故說名阿笈摩」。</p></quote>
+<lb n="0484a02" ed="Y"/><p xml:id="pY35p0484a0201" style="text-indent:2em">據此，阿含是「展轉傳來」的意思，也可以簡譯為「傳」。然所說的「展轉傳來」，不只是
 <lb n="0484a03" ed="Y"/>文句的師弟傳授，而更有實質的意義。後代學者的解說，似乎忘失了阿含的實質意義，而解說為
 <lb n="0484a04" ed="Y"/>：集種種經為四大部，而稱此大部為阿含。其實，在大部集成以前，阿含一詞，早已在佛教界流
 <lb n="0484a05" ed="Y"/>行，如<bibl>《<title level="m">中部</title>．<title level="m">牧牛者大經</title>》</bibl>（南傳九．三八五）說：</p>
-<lb n="0484a06" ed="Y"/><quote><p style="margin-left:3em">「彼比丘多聞，傳阿含、持法、持律、持母」。</p></quote>
-<lb n="0484a07" ed="Y"/><p style="text-indent:2em">同樣的文句，在<title level="m">《增支部》</title>中，也有好幾處<note n="0484001" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．三集》</bibl>（南傳一七．一九〇）。又<title level="a">〈四集〉</title>（南傳一八．二五九）。又<title level="a">〈五集〉</title>（南傳一九．二五〇——二五二）。又<title level="a">〈六集〉</title>（南傳二〇．一一一——一一二）。</note>。在持法者（<foreign xml:lang="sa"><note n="0484a0701" resp="CBETA" type="add">dhammadhara【CB】，Dhammadhara【印順】</note><app n="0484a0701"><lem wit="【CB】" resp="正聞出版社">dhammadhara</lem><rdg wit="【印順】">Dhammadhara</rdg></app></foreign>）、持律者
-<lb n="0484a08" ed="Y"/>（<foreign xml:lang="x-sa-pi"><note n="0484a0801" resp="CBETA" type="add">vinayadhara【CB】，Vinayadhara【印順】</note><app n="0484a0801"><lem wit="【CB】" resp="正聞出版社">vinayadhara</lem><rdg wit="【印順】">Vinayadhara</rdg></app></foreign>）、持母者（<foreign xml:lang="pi"><note n="0484a0802" resp="CBETA" type="add">mātikādhara【CB】，Mātikādhara【印順】</note><app n="0484a0802"><lem wit="【CB】" resp="正聞出版社">mātikādhara</lem><rdg wit="【印順】">Mātikādhara</rdg></app></foreign>）外，又別說傳阿含（<foreign xml:lang="pi">Āgatāgama</foreign>）。<foreign xml:lang="x-sa-pi"><note n="0484a0803" resp="CBETA" type="add">āgama【CB】，Āgama【印順】</note><app n="0484a0803"><lem wit="【CB】" resp="正聞出版社">āgama</lem><rdg wit="【印順】">Āgama</rdg></app></foreign> 是由彼
-<lb n="0484a09" ed="Y"/>而此——「來」的意義。如四果中的「一來」（<foreign xml:lang="sa"><note n="0484a0901" resp="CBETA" type="add">sakṛdāgāmin【CB】，Sakṛdāgāmin【印順】</note><app n="0484a0901"><lem wit="【CB】" resp="正聞出版社">sakṛdāgāmin</lem><rdg wit="【印順】">Sakṛdāgāmin</rdg></app></foreign>）、「不來」（<foreign xml:lang="x-sa-pi"><note n="0484a0902" resp="CBETA" type="add">anāgāmin【CB】，Anāgāmin【印順】</note><app n="0484a0902"><lem wit="【CB】" resp="正聞出版社">anāgāmin</lem><rdg wit="【印順】">Anāgāmin</rdg></app></foreign>），
-<lb n="0484a10" ed="Y"/>都是譯 <foreign xml:lang="pi"><note n="0484a1001" resp="CBETA" type="add">āgāmi【CB】，Āgāmi【印順】</note><app n="0484a1001"><lem wit="【CB】" resp="正聞出版社">āgāmi</lem><rdg wit="【印順】">Āgāmi</rdg></app></foreign> 為來的。阿含是「來」，是「展轉傳來」，有傳授傳承的意思。如<cit><bibl><title level="m">《楞伽阿跋多羅
-<lb n="0484a11" ed="Y"/>寶經》</title>所說：</bibl><quote>「從本已來，成事相承」</quote></cit>；就是<title level="m">《入楞伽經》</title>的「阿含」（梵本作 <foreign xml:lang="x-sa-pi"><note n="0484a1101" resp="CBETA" type="add">āgama【CB】，Āgama【印順】</note><app n="0484a1101"><lem wit="【CB】" resp="正聞出版社">āgama</lem><rdg wit="【印順】">Āgama</rdg></app></foreign>）<note n="0484002" resp="釋印順" type="orig"><bibl><title level="m">《楞伽阿跋多羅寶經》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:16;page:p483c">一六．四八三下</ref>）。<bibl><title level="m">《入楞伽經》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref type="taisho" target="#vol:16;page:p522c">一六．五二二下</ref>）。</note>。在
+<lb n="0484a06" ed="Y"/><quote><p xml:id="pY35p0484a0601" style="margin-left:3em">「彼比丘多聞，傳阿含、持法、持律、持母」。</p></quote>
+<lb n="0484a07" ed="Y"/><p xml:id="pY35p0484a0701" style="text-indent:2em">同樣的文句，在<title level="m">《增支部》</title>中，也有好幾處<note n="0484001" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．三集》</bibl>（南傳一七．一九〇）。又<title level="a">〈四集〉</title>（南傳一八．二五九）。又<title level="a">〈五集〉</title>（南傳一九．二五〇——二五二）。又<title level="a">〈六集〉</title>（南傳二〇．一一一——一一二）。</note>。在持法者（<foreign xml:lang="sa"><note n="0484a0701" resp="CBETA" type="add">dhammadhara【CB】，Dhammadhara【印順】</note><app n="0484a0701"><lem resp="正聞出版社" wit="【CB】">dhammadhara</lem><rdg wit="【印順】">Dhammadhara</rdg></app></foreign>）、持律者
+<lb n="0484a08" ed="Y"/>（<foreign xml:lang="x-sa-pi"><note n="0484a0801" resp="CBETA" type="add">vinayadhara【CB】，Vinayadhara【印順】</note><app n="0484a0801"><lem resp="正聞出版社" wit="【CB】">vinayadhara</lem><rdg wit="【印順】">Vinayadhara</rdg></app></foreign>）、持母者（<foreign xml:lang="pi"><note n="0484a0802" resp="CBETA" type="add">mātikādhara【CB】，Mātikādhara【印順】</note><app n="0484a0802"><lem resp="正聞出版社" wit="【CB】">mātikādhara</lem><rdg wit="【印順】">Mātikādhara</rdg></app></foreign>）外，又別說傳阿含（<foreign xml:lang="pi">Āgatāgama</foreign>）。<foreign xml:lang="x-sa-pi"><note n="0484a0803" resp="CBETA" type="add">āgama【CB】，Āgama【印順】</note><app n="0484a0803"><lem resp="正聞出版社" wit="【CB】">āgama</lem><rdg wit="【印順】">Āgama</rdg></app></foreign> 是由彼
+<lb n="0484a09" ed="Y"/>而此——「來」的意義。如四果中的「一來」（<foreign xml:lang="sa"><note n="0484a0901" resp="CBETA" type="add">sakṛdāgāmin【CB】，Sakṛdāgāmin【印順】</note><app n="0484a0901"><lem resp="正聞出版社" wit="【CB】">sakṛdāgāmin</lem><rdg wit="【印順】">Sakṛdāgāmin</rdg></app></foreign>）、「不來」（<foreign xml:lang="x-sa-pi"><note n="0484a0902" resp="CBETA" type="add">anāgāmin【CB】，Anāgāmin【印順】</note><app n="0484a0902"><lem resp="正聞出版社" wit="【CB】">anāgāmin</lem><rdg wit="【印順】">Anāgāmin</rdg></app></foreign>），
+<lb n="0484a10" ed="Y"/>都是譯 <foreign xml:lang="pi"><note n="0484a1001" resp="CBETA" type="add">āgāmi【CB】，Āgāmi【印順】</note><app n="0484a1001"><lem resp="正聞出版社" wit="【CB】">āgāmi</lem><rdg wit="【印順】">Āgāmi</rdg></app></foreign> 為來的。阿含是「來」，是「展轉傳來」，有傳授傳承的意思。如<cit><bibl><title level="m">《楞伽阿跋多羅
+<lb n="0484a11" ed="Y"/>寶經》</title>所說：</bibl><quote>「從本已來，成事相承」</quote></cit>；就是<title level="m">《入楞伽經》</title>的「阿含」（梵本作 <foreign xml:lang="x-sa-pi"><note n="0484a1101" resp="CBETA" type="add">āgama【CB】，Āgama【印順】</note><app n="0484a1101"><lem resp="正聞出版社" wit="【CB】">āgama</lem><rdg wit="【印順】">Āgama</rdg></app></foreign>）<note n="0484002" resp="釋印順" type="orig"><bibl><title level="m">《楞伽阿跋多羅寶經》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:16;page:p483c" type="taisho">一六．四八三下</ref>）。<bibl><title level="m">《入楞伽經》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:16;page:p522c" type="taisho">一六．五二二下</ref>）。</note>。在
 <lb n="0484a12" ed="Y"/>經法的展轉傳來中，師資授受，不僅是文句的暗誦。在經典的結集過程中，有的是短篇，異常複
 <lb n="0484a13" ed="Y"/>雜。或詳或略，或具足，或少分，甚或近乎矛盾。在師資的展轉傳來中，也傳承了經法的文義與
 <lb n="0484a14" ed="Y"/>意趣。傳授這種傳承的，名為「傳阿含」者。「傳阿含」者，早在大部集成以前，因經法的傳通
 <lb n="0484a15" ed="Y"/>而得名。等到大部集成，還是由人傳承傳授下去，也就因此而被稱為「阿含」了。</p>
 <pb n="0485a" ed="Y" xml:id="Y35.0033.0485a"/>
-<lb n="0485a01" ed="Y"/><p style="text-indent:2em">我國古譯阿含為「趣」與「歸」。如晉代道安，解為「秦言趣無」<note n="0485003" resp="釋印順" type="orig"><bibl><title level="m">《出三藏記集》</title><biblScope type="卷" n="9">卷九</biblScope></bibl>（大正<ref type="taisho" target="#vol:55;page:p64c">五五．六四下</ref>）。</note>。僧肇<title level="a">〈長阿含經序〉</title>
-<lb n="0485a02" ed="Y"/>說：<quote>「秦言法歸。……譬彼巨海，百川所歸，故以法歸為名」</quote><note n="0485004" resp="釋印順" type="orig"><bibl><title level="m">《出三藏記集》</title><biblScope n="9" type="卷">卷九</biblScope></bibl>（大正<ref type="taisho" target="#vol:55;page:p63b">五五．六三中</ref>）。</note>。<bibl><title level="m">《善見律毘婆沙》</title><biblScope type="卷" n="1">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:24;page:p677a" type="taisho">二
+<lb n="0485a01" ed="Y"/><p xml:id="pY35p0485a0101" style="text-indent:2em">我國古譯阿含為「趣」與「歸」。如晉代道安，解為「秦言趣無」<note n="0485003" resp="釋印順" type="orig"><bibl><title level="m">《出三藏記集》</title><biblScope n="9" type="卷">卷九</biblScope></bibl>（大正<ref target="#vol:55;page:p64c" type="taisho">五五．六四下</ref>）。</note>。僧肇<title level="a">〈長阿含經序〉</title>
+<lb n="0485a02" ed="Y"/>說：<quote>「秦言法歸。……譬彼巨海，百川所歸，故以法歸為名」</quote><note n="0485004" resp="釋印順" type="orig"><bibl><title level="m">《出三藏記集》</title><biblScope n="9" type="卷">卷九</biblScope></bibl>（大正<ref target="#vol:55;page:p63b" type="taisho">五五．六三中</ref>）。</note>。<bibl><title level="m">《善見律毘婆沙》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:24;page:p677a" type="taisho">二
 <lb n="0485a03" ed="Y"/>四．六七七上</ref></note>說：</p>
-<lb n="0485a04" ed="Y"/><quote><p style="margin-left:3em">「容受聚集義名阿含。如修多羅說：佛告諸比丘：我於三界中，不見一阿含，如畜生阿含
+<lb n="0485a04" ed="Y"/><quote><p xml:id="pY35p0485a0401" style="margin-left:3em">「容受聚集義名阿含。如修多羅說：佛告諸比丘：我於三界中，不見一阿含，如畜生阿含
 <lb n="0485a05" ed="Y"/>，純是眾生聚集處也」。</p></quote>
-<lb n="0485a06" ed="Y"/><p style="text-indent:2em"><title level="m">《善見律毘婆沙》</title>，舉「畜生阿含」為例。畜生阿含，就是畜生趣（<foreign xml:lang="sa"><note n="0485a0601" resp="CBETA" type="add">tiryagyonigata tiracchānagatiyo【CB】，Tiryaūcgatayaḥ, P.tiracchānagatiyo【印順】</note><app n="0485a0601"><lem wit="【CB】" resp="正聞出版社">tiryagyonigata tiracchānagatiyo</lem><rdg wit="【印順】">Tiryaūcgatayaḥ, P.tiracchānagatiyo</rdg></app></foreign>）
-<lb n="0485a07" ed="Y"/>。趣是趣向、去處，實與道安等傳說相近；是以 <foreign xml:lang="sa"><note n="0485a0701" resp="CBETA" type="add">gata【CB】，Gata【印順】</note><app n="0485a0701"><lem wit="【CB】" resp="正聞出版社">gata</lem><rdg wit="【印順】">Gata</rdg></app></foreign>（去的意思）轉釋阿
+<lb n="0485a06" ed="Y"/><p xml:id="pY35p0485a0601" style="text-indent:2em"><title level="m">《善見律毘婆沙》</title>，舉「畜生阿含」為例。畜生阿含，就是畜生趣（<foreign xml:lang="sa"><note n="0485a0601" resp="CBETA" type="add">tiryagyonigata tiracchānagatiyo【CB】，Tiryaūcgatayaḥ, P.tiracchānagatiyo【印順】</note><app n="0485a0601"><lem resp="正聞出版社" wit="【CB】">tiryagyonigata tiracchānagatiyo</lem><rdg wit="【印順】">Tiryaūcgatayaḥ, P.tiracchānagatiyo</rdg></app></foreign>）
+<lb n="0485a07" ed="Y"/>。趣是趣向、去處，實與道安等傳說相近；是以 <foreign xml:lang="sa"><note n="0485a0701" resp="CBETA" type="add">gata【CB】，Gata【印順】</note><app n="0485a0701"><lem resp="正聞出版社" wit="【CB】">gata</lem><rdg wit="【印順】">Gata</rdg></app></foreign>（去的意思）轉釋阿
 <lb n="0485a08" ed="Y"/>含的。</p>
-<lb n="0485a09" ed="Y"/><p style="text-indent:2em">在<title level="m">《阿含經》</title>集成的研究中，有關傳承事項，本是可以不必說的。但在佛教中，尤其是對於
+<lb n="0485a09" ed="Y"/><p xml:id="pY35p0485a0901" style="text-indent:2em">在<title level="m">《阿含經》</title>集成的研究中，有關傳承事項，本是可以不必說的。但在佛教中，尤其是對於
 <lb n="0485a10" ed="Y"/><title level="m">《阿含經》</title>的集成，而形成部派的過程中，傳承是有重要意義的。古人對於佛法的勝解，不是近
 <lb n="0485a11" ed="Y"/>代學者那樣，專從文字與意義上去研究，而是佛法宗要，經文意義，修持方法，與異文異義的解
 <lb n="0485a12" ed="Y"/>說會通，主要從傳授傳承中去獲得的。這是尊重古代聖賢的意見，認為唯有這樣，才能理解經法
 <lb n="0485a13" ed="Y"/>的真意。雖然時間久了，傳承間會有多少不同，而逐漸形成派別。但口口相傳的佛法，到底這樣
 <lb n="0485a14" ed="Y"/>的流傳了下來。</p>
-<lb n="0485a15" ed="Y"/><p style="text-indent:2em">覺音（<foreign xml:lang="sa"><note n="0485a1501" resp="CBETA" type="add">Buddhaghoṣa【CB】，Buddhaghosa【印順】</note><app n="0485a1501"><lem wit="【CB】" resp="正聞出版社">Buddhaghoṣa</lem><rdg wit="【印順】">Buddhaghosa</rdg></app></foreign>）在 <foreign xml:lang="pi">Sumaṅgalavilāsinī</foreign>（<title level="m">《長部》</title>注）序中說：第一結集以後，<title level="m">《
+<lb n="0485a15" ed="Y"/><p xml:id="pY35p0485a1501" style="text-indent:2em">覺音（<foreign xml:lang="sa"><note n="0485a1501" resp="CBETA" type="add">Buddhaghoṣa【CB】，Buddhaghosa【印順】</note><app n="0485a1501"><lem resp="正聞出版社" wit="【CB】">Buddhaghoṣa</lem><rdg wit="【印順】">Buddhaghosa</rdg></app></foreign>）在 <foreign xml:lang="pi">Sumaṅgalavilāsinī</foreign>（<title level="m">《長部》</title>注）序中說：第一結集以後，<title level="m">《
 <pb n="0486a" ed="Y" xml:id="Y35.0033.0486a"/>
-<lb n="0486a01" ed="Y"/>長部》</title>由阿難（<foreign xml:lang="x-sa-pi">Ānanda</foreign>），<title level="m">《中部》</title>由舍利弗（<foreign xml:lang="sa"><note n="0486a0101" resp="CBETA" type="add">Śāriputra【CB】，Sāriputta【印順】</note><app n="0486a0101"><lem wit="【CB】" resp="正聞出版社">Śāriputra</lem><rdg wit="【印順】">Sāriputta</rdg></app></foreign>），<title level="m">《相應部》</title>由大迦葉（<foreign xml:lang="sa"><note n="0486a0102" resp="CBETA" type="add">Mahākasyapa【CB】，Mahākassapa【印順】</note><app n="0486a0102"><lem wit="【CB】" resp="正聞出版社">Mahākasyapa</lem><rdg wit="【印順】">Mahākassapa</rdg></app></foreign>）
+<lb n="0486a01" ed="Y"/>長部》</title>由阿難（<foreign xml:lang="x-sa-pi">Ānanda</foreign>），<title level="m">《中部》</title>由舍利弗（<foreign xml:lang="sa"><note n="0486a0101" resp="CBETA" type="add">Śāriputra【CB】，Sāriputta【印順】</note><app n="0486a0101"><lem resp="正聞出版社" wit="【CB】">Śāriputra</lem><rdg wit="【印順】">Sāriputta</rdg></app></foreign>），<title level="m">《相應部》</title>由大迦葉（<foreign xml:lang="sa"><note n="0486a0102" resp="CBETA" type="add">Mahākasyapa【CB】，Mahākassapa【印順】</note><app n="0486a0102"><lem resp="正聞出版社" wit="【CB】">Mahākasyapa</lem><rdg wit="【印順】">Mahākassapa</rdg></app></foreign>）
 <lb n="0486a02" ed="Y"/>，<title level="m">《增支部》</title>由阿那律（<foreign xml:lang="x-sa-pi">Anuruddha</foreign>）系統的學者，分別傳承宏通<note n="0486005" resp="釋印順" type="orig"><bibl><title level="m">《望月大辭典》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（二〇下）。</note>。漢譯的<cit><bibl>《<title level="m">增一
 <lb n="0486a03" ed="Y"/>阿含經</title>．<title level="a">序</title>》，也說：</bibl><quote>「阿難以此增一，付授優多羅，不囑累餘比丘」</quote><note n="0486006" resp="釋印順" type="orig"><bibl><title level="m">《增壹阿含經》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:2;page:p551a" type="taisho">二．五五一上</ref>）。</note></cit>。南北的不同傳說，未必
 <lb n="0486a04" ed="Y"/>與事實相符合，但說明了四部阿含，是由比丘們傳承下去，而傳承間存有不同學系的那個事實。
@@ -417,26 +437,26 @@
 <lb n="0486a07" ed="Y"/>、<title level="m">《譬喻》</title>、<title level="m">《佛種姓》</title>、<title level="m">《小誦》</title>——四部，意見不同。長部師將這四部，從「經藏」（「小
 <lb n="0486a08" ed="Y"/>部」）中除去<note n="0486007" resp="釋印順" type="orig"><bibl>前田惠學<title level="m">《原始佛教聖典之成立史研究》</title><biblScope n="692" type="pp">（六九二）</biblScope></bibl>。</note>。「四阿含」（四部）是公認的聖典；長部師與中部師，就是特重<title level="m">《長部》</title>與<title level="m">《
 <lb n="0486a09" ed="Y"/>中部》</title>的經師。</p>
-<lb n="0486a10" ed="Y"/><p style="text-indent:2em">在古代的結集傳說中，四部阿含的次第，也有所不同。這不是偶然的，而是表示著一種意義
+<lb n="0486a10" ed="Y"/><p xml:id="pY35p0486a1001" style="text-indent:2em">在古代的結集傳說中，四部阿含的次第，也有所不同。這不是偶然的，而是表示著一種意義
 <lb n="0486a11" ed="Y"/>。現存部派所傳的異說，共有四種，可分為二類。第一類早期的傳說，是：</p>
-<lb n="0486a12" ed="Y"/><p cb:type="pre">　　　　　　　　　　　┌（一）長．（二）中．（三）雜（相應）
+<lb n="0486a12" ed="Y"/><p cb:type="pre" xml:id="pY35p0486a1201">　　　　　　　　　　　┌（一）長．（二）中．（三）雜（相應）
 <lb n="0486a13" ed="Y"/>　　　大眾部等說───┤
 <lb n="0486a14" ed="Y"/>　　　　　　　　　　　└（四）增一（增支）
 <lb n="0486a15" ed="Y"/>　　　　　　　　　　　┌（一）相應．（二）中．（三）長
 <lb n="0486a16" ed="Y"/>　　　說一切有部說──┤
 <lb n="0486a17" ed="Y"/>　　　　　　　　　　　└（四）增一</p>
 <pb n="0487a" ed="Y" xml:id="Y35.0033.0487a"/>
-<lb n="0487a01" ed="Y"/><p style="text-indent:2em">初是大眾部（<foreign xml:lang="sa"><note n="0487a0101" resp="CBETA" type="add">Mahāsāṃghika【CB】，Mahāsāṁghikāḥ【印順】</note><app n="0487a0101"><lem wit="【CB】" resp="正聞出版社">Mahāsāṃghika</lem><rdg wit="【印順】">Mahāsāṁghikāḥ</rdg></app></foreign>）、雪山部（<foreign xml:lang="sa"><note n="0487a0102" resp="CBETA" type="add">Haimavata【CB】，Haimavatāḥ【印順】</note><app n="0487a0102"><lem wit="【CB】" resp="正聞出版社">Haimavata</lem><rdg wit="【印順】">Haimavatāḥ</rdg></app></foreign>）、銅鍱部、化地部（<foreign xml:lang="sa"><note n="0487a0103" resp="CBETA" type="add">Mahīśāsaka【CB】，Mahīśāsakāḥ【印順】</note><app n="0487a0103"><lem wit="【CB】" resp="正聞出版社">Mahīśāsaka</lem><rdg wit="【印順】">Mahīśāsakāḥ</rdg></app></foreign>）
-<lb n="0487a02" ed="Y"/>、法藏部（<foreign xml:lang="sa"><note n="0487a0201" resp="CBETA" type="add">Dharmaguptaka【CB】，Dharmaguptāḥ【印順】</note><app n="0487a0201"><lem wit="【CB】" resp="正聞出版社">Dharmaguptaka</lem><rdg wit="【印順】">Dharmaguptāḥ</rdg></app></foreign>）的共同傳說<note n="0487008" resp="釋印順" type="orig"><bibl><title level="m">《摩訶僧祇律》</title><biblScope type="卷" n="32">卷三二</biblScope></bibl>（大正<ref type="taisho" target="#vol:22;page:p491c">二二．四九一下</ref>）。<bibl><title level="m">《毘尼母經》</title><biblScope type="卷" n="4">卷四</biblScope></bibl>（大正<ref target="#vol:24;page:p818a" type="taisho">二四．八一八上</ref>）。<bibl>《<title level="m">銅鍱律</title>．<title level="a">小品</title>》</bibl>（南傳四．四三〇）。<bibl><title level="m">《彌沙塞部和醯五分律》</title><biblScope n="30" type="卷">卷三〇</biblScope></bibl>（大正<ref type="taisho" target="#vol:22;page:p191a">二二．一九一上</ref>）。<bibl><title level="m">《四分律》</title><biblScope type="卷" n="54">卷五四</biblScope></bibl>（大正<ref target="#vol:22;page:p968b" type="taisho">二二．九六八中</ref>）。</note>；次是<title level="m">《瑜伽師地論》</title>，代表說一切有部
-<lb n="0487a03" ed="Y"/>（<foreign xml:lang="sa"><note n="0487a0301" resp="CBETA" type="add">Sarvāstivāda【CB】，śarvāsti-vādāḥ【印順】</note><app n="0487a0301"><lem wit="【CB】" resp="正聞出版社">Sarvāstivāda</lem><rdg wit="【印順】">śarvāsti-vādāḥ</rdg></app></foreign>）的古義<note n="0487009" resp="釋印順" type="orig"><bibl><title level="m">《瑜伽師地論》</title><biblScope n="85" type="卷">卷八五</biblScope></bibl>（大正<ref type="taisho" target="#vol:30;page:p772c">三〇．七七二下</ref>）。</note>。這二說看來不同，而主要的不同，是「長」．「中」．「雜」；
+<lb n="0487a01" ed="Y"/><p xml:id="pY35p0487a0101" style="text-indent:2em">初是大眾部（<foreign xml:lang="sa"><note n="0487a0101" resp="CBETA" type="add">Mahāsāṃghika【CB】，Mahāsāṁghikāḥ【印順】</note><app n="0487a0101"><lem resp="正聞出版社" wit="【CB】">Mahāsāṃghika</lem><rdg wit="【印順】">Mahāsāṁghikāḥ</rdg></app></foreign>）、雪山部（<foreign xml:lang="sa"><note n="0487a0102" resp="CBETA" type="add">Haimavata【CB】，Haimavatāḥ【印順】</note><app n="0487a0102"><lem resp="正聞出版社" wit="【CB】">Haimavata</lem><rdg wit="【印順】">Haimavatāḥ</rdg></app></foreign>）、銅鍱部、化地部（<foreign xml:lang="sa"><note n="0487a0103" resp="CBETA" type="add">Mahīśāsaka【CB】，Mahīśāsakāḥ【印順】</note><app n="0487a0103"><lem resp="正聞出版社" wit="【CB】">Mahīśāsaka</lem><rdg wit="【印順】">Mahīśāsakāḥ</rdg></app></foreign>）
+<lb n="0487a02" ed="Y"/>、法藏部（<foreign xml:lang="sa"><note n="0487a0201" resp="CBETA" type="add">Dharmaguptaka【CB】，Dharmaguptāḥ【印順】</note><app n="0487a0201"><lem resp="正聞出版社" wit="【CB】">Dharmaguptaka</lem><rdg wit="【印順】">Dharmaguptāḥ</rdg></app></foreign>）的共同傳說<note n="0487008" resp="釋印順" type="orig"><bibl><title level="m">《摩訶僧祇律》</title><biblScope n="32" type="卷">卷三二</biblScope></bibl>（大正<ref target="#vol:22;page:p491c" type="taisho">二二．四九一下</ref>）。<bibl><title level="m">《毘尼母經》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref target="#vol:24;page:p818a" type="taisho">二四．八一八上</ref>）。<bibl>《<title level="m">銅鍱律</title>．<title level="a">小品</title>》</bibl>（南傳四．四三〇）。<bibl><title level="m">《彌沙塞部和醯五分律》</title><biblScope n="30" type="卷">卷三〇</biblScope></bibl>（大正<ref target="#vol:22;page:p191a" type="taisho">二二．一九一上</ref>）。<bibl><title level="m">《四分律》</title><biblScope n="54" type="卷">卷五四</biblScope></bibl>（大正<ref target="#vol:22;page:p968b" type="taisho">二二．九六八中</ref>）。</note>；次是<title level="m">《瑜伽師地論》</title>，代表說一切有部
+<lb n="0487a03" ed="Y"/>（<foreign xml:lang="sa"><note n="0487a0301" resp="CBETA" type="add">Sarvāstivāda【CB】，śarvāsti-vādāḥ【印順】</note><app n="0487a0301"><lem resp="正聞出版社" wit="【CB】">Sarvāstivāda</lem><rdg wit="【印順】">śarvāsti-vādāḥ</rdg></app></foreign>）的古義<note n="0487009" resp="釋印順" type="orig"><bibl><title level="m">《瑜伽師地論》</title><biblScope n="85" type="卷">卷八五</biblScope></bibl>（大正<ref target="#vol:30;page:p772c" type="taisho">三〇．七七二下</ref>）。</note>。這二說看來不同，而主要的不同，是「長」．「中」．「雜」；
 <lb n="0487a04" ed="Y"/>與「雜」．「中」．「長」——次第恰好相反的不同。而「增一」的列在最後，是彼此一致的。
 <lb n="0487a05" ed="Y"/>這二類傳說，我以為都是對的。大眾部等傳說，是四部完成的排列次第——後來居先，是部派未
 <lb n="0487a06" ed="Y"/>分以前的一般意見。而說一切有部所傳，是次第形成的開展過程，代表更古老的傳說。</p>
-<lb n="0487a07" ed="Y"/><p style="text-indent:2em">第二類後起的傳說，是：</p>
-<lb n="0487a08" ed="Y"/><list rend="no-marker"><item><p style="margin-left:1em">根本說一切有部說─（一）雜．（二）長．（三）中．（四）增一</p></item>
-<lb n="0487a09" ed="Y"/><item><p style="margin-left:1em">大眾部末派說───（一）增一．（二）中．（三）長．（四）雜</p></item></list>
-<lb n="0487a10" ed="Y"/><p style="text-indent:2em"><title level="m">《根有律雜事》</title>所說<note n="0487010" resp="釋印順" type="orig"><bibl><title level="m">《根本說一切有部毘奈耶雜事》</title><biblScope type="卷" n="39">卷三九</biblScope></bibl>（大正<ref target="#vol:24;page:p407b" type="taisho">二四．四〇七中</ref>）。</note>，與說一切有部舊義，「長」與「中」的次第變化了。大眾部末派說
-<lb n="0487a11" ed="Y"/>，見<bibl>《<title level="m">增壹阿含經</title>．<title level="a">序</title>》</bibl><note n="0487011" resp="釋印順" type="orig"><bibl><title level="m">《增壹阿含經》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:2;page:p551a">二．五五一上</ref>）。</note>，與大眾部的古義不合。這是特重「增一」的一派，是將根本說一切有
+<lb n="0487a07" ed="Y"/><p xml:id="pY35p0487a0701" style="text-indent:2em">第二類後起的傳說，是：</p>
+<lb n="0487a08" ed="Y"/><list rend="no-marker"><item xml:id="itemY35p0487a0801"><p xml:id="pY35p0487a0801" style="margin-left:1em">根本說一切有部說─（一）雜．（二）長．（三）中．（四）增一</p></item>
+<lb n="0487a09" ed="Y"/><item xml:id="itemY35p0487a0901"><p xml:id="pY35p0487a0901" style="margin-left:1em">大眾部末派說───（一）增一．（二）中．（三）長．（四）雜</p></item></list>
+<lb n="0487a10" ed="Y"/><p xml:id="pY35p0487a1001" style="text-indent:2em"><title level="m">《根有律雜事》</title>所說<note n="0487010" resp="釋印順" type="orig"><bibl><title level="m">《根本說一切有部毘奈耶雜事》</title><biblScope n="39" type="卷">卷三九</biblScope></bibl>（大正<ref target="#vol:24;page:p407b" type="taisho">二四．四〇七中</ref>）。</note>，與說一切有部舊義，「長」與「中」的次第變化了。大眾部末派說
+<lb n="0487a11" ed="Y"/>，見<bibl>《<title level="m">增壹阿含經</title>．<title level="a">序</title>》</bibl><note n="0487011" resp="釋印順" type="orig"><bibl><title level="m">《增壹阿含經》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:2;page:p551a" type="taisho">二．五五一上</ref>）。</note>，與大眾部的古義不合。這是特重「增一」的一派，是將根本說一切有
 <lb n="0487a12" ed="Y"/>部的傳說，全部顛倒過來。在這二類不同的傳說中，初期的二種傳說，將受到本書的重視。</p>
 <lb n="0487a13" ed="Y"/>
 <lb n="0487a14" ed="Y"/>
@@ -454,31 +474,31 @@
 <lb n="0488a10" ed="Y"/>
 <lb n="0488a11" ed="Y"/></cb:div>
 <lb n="0488a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">第二項　四部阿含的宗趣</cb:mulu><head>第二項　四部阿含的宗趣</head>
-<lb n="0488a13" ed="Y"/><p style="text-indent:2em">「四阿含」，無論是先後成立，或者是同時形成的，總之是有了四部阿含的存在。錫蘭佛教
+<lb n="0488a13" ed="Y"/><p xml:id="pY35p0488a1301" style="text-indent:2em">「四阿含」，無論是先後成立，或者是同時形成的，總之是有了四部阿含的存在。錫蘭佛教
 <lb n="0488a14" ed="Y"/>，是傳說「五部」或「五阿含」的，但以第一結集的「阿含藏」，分為四部：「品、五十集、相
 <pb n="0489a" ed="Y" xml:id="Y35.0033.0489a"/>
 <lb n="0489a01" ed="Y"/>應、集」——四阿含，也是<title level="m">《島史》</title>（西元四五紀間作）所說<note n="0489001" resp="釋印順" type="orig"><title level="m">《島史》</title>（南傳六〇．二六）。</note>。四部的地位，顯然不是<title level="m">《小部
 <lb n="0489a02" ed="Y"/>》</title>所可及的。然而，為什麼集成四部？這四部有什麼不同的特殊意義？起初，也許沒有考慮到，
 <lb n="0489a03" ed="Y"/>但在四部形成的階段，古人是應有這一構想的。近代的學者，當然可以從現存的部類中，探索其
-<lb n="0489a04" ed="Y"/>不同的目的。但在古代，那就是從傳承而來的古說了。說一切有部的<bibl><title level="m">《薩婆多毘尼毘婆沙》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>
-<lb n="0489a05" ed="Y"/><note place="inline">大正<ref target="#vol:23;page:p503c" type="taisho">二三．五〇三下</ref>——<ref type="taisho" target="#vol:23;page:p504a">五〇四上</ref></note>，曾這樣說：</p>
-<lb n="0489a06" ed="Y"/><quote><p style="margin-left:3em">「為諸天世人隨時說法，集為增一，是勸化人所習。為利根眾生說諸深義，名中阿含，是
+<lb n="0489a04" ed="Y"/>不同的目的。但在古代，那就是從傳承而來的古說了。說一切有部的<bibl><title level="m">《薩婆多毘尼毘婆沙》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>
+<lb n="0489a05" ed="Y"/><note place="inline">大正<ref target="#vol:23;page:p503c" type="taisho">二三．五〇三下</ref>——<ref target="#vol:23;page:p504a" type="taisho">五〇四上</ref></note>，曾這樣說：</p>
+<lb n="0489a06" ed="Y"/><quote><p xml:id="pY35p0489a0601" style="margin-left:3em">「為諸天世人隨時說法，集為增一，是勸化人所習。為利根眾生說諸深義，名中阿含，是
 <lb n="0489a07" ed="Y"/>學問者所習。說種種禪法，名雜阿含，是坐禪人所習。破諸外道，是長阿含」。</p></quote>
-<lb n="0489a08" ed="Y"/><p style="text-indent:2em">大體說來，這一分類，是有實際意義的。在說一切有部中，「增壹阿含」是（持經）「譬喻
+<lb n="0489a08" ed="Y"/><p xml:id="pY35p0489a0801" style="text-indent:2em">大體說來，這一分類，是有實際意義的。在說一切有部中，「增壹阿含」是（持經）「譬喻
 <lb n="0489a09" ed="Y"/>師」，「中阿含」是「阿毘達磨者」，「雜阿含」是「禪師」所特重，近於事實。說一切有部論
 <lb n="0489a10" ed="Y"/>義特色，多半依（說一切有部的）「中阿含」而成立；「中阿含」重於分別法義，所以說是「學
 <lb n="0489a11" ed="Y"/>問者所習」。從<title level="m">《瑜伽師地論》</title>，以「雜阿含」為佛法本源來說，「雜阿含」是「坐禪人所習」
-<lb n="0489a12" ed="Y"/>，也非常適合。這一傳說，應有古老的傳說為依據的。覺音（<foreign xml:lang="sa"><note n="0489a1201" resp="CBETA" type="add">Buddhaghoṣa【CB】，Buddhaghosa【印順】</note><app n="0489a1201"><lem wit="【CB】" resp="正聞出版社">Buddhaghoṣa</lem><rdg wit="【印順】">Buddhaghosa</rdg></app></foreign>）有四部的注釋，
+<lb n="0489a12" ed="Y"/>，也非常適合。這一傳說，應有古老的傳說為依據的。覺音（<foreign xml:lang="sa"><note n="0489a1201" resp="CBETA" type="add">Buddhaghoṣa【CB】，Buddhaghosa【印順】</note><app n="0489a1201"><lem resp="正聞出版社" wit="【CB】">Buddhaghoṣa</lem><rdg wit="【印順】">Buddhaghosa</rdg></app></foreign>）有四部的注釋，
 <lb n="0489a13" ed="Y"/>從注釋的書名中，表現了「四阿含」（四部）的特色。</p>
-<lb n="0489a14" ed="Y"/><list rend="no-marker"><item><p style="margin-left:1em">長部注：<foreign xml:lang="pi">Sumaṅgalavilāsinī</foreign>（吉祥悅意）</p></item>
-<lb n="0489a15" ed="Y"/><item><p style="margin-left:1em">中部注：<foreign xml:lang="sa"><note n="0489a1501" resp="CBETA" type="add">Papañca-sūdanī【CB】，Papañca-sũdanī【印順】</note><app n="0489a1501"><lem wit="【CB】" resp="正聞出版社">Papañca-sūdanī</lem><rdg wit="【印順】">Papañca-sũdanī</rdg></app></foreign>（破斥猶豫）</p></item>
+<lb n="0489a14" ed="Y"/><list rend="no-marker"><item xml:id="itemY35p0489a1401"><p xml:id="pY35p0489a1401" style="margin-left:1em">長部注：<foreign xml:lang="pi">Sumaṅgalavilāsinī</foreign>（吉祥悅意）</p></item>
+<lb n="0489a15" ed="Y"/><item xml:id="itemY35p0489a1501"><p xml:id="pY35p0489a1501" style="margin-left:1em">中部注：<foreign xml:lang="sa"><note n="0489a1501" resp="CBETA" type="add">Papañca-sūdanī【CB】，Papañca-sũdanī【印順】</note><app n="0489a1501"><lem resp="正聞出版社" wit="【CB】">Papañca-sūdanī</lem><rdg wit="【印順】">Papañca-sũdanī</rdg></app></foreign>（破斥猶豫）</p></item>
 <pb n="0490a" ed="Y" xml:id="Y35.0033.0490a"/>
-<lb n="0490a01" ed="Y"/><item><p style="margin-left:1em">相應部注：<foreign xml:lang="x-sa-pi">Sāratthapakāsinī</foreign>（顯揚真義）</p></item>
-<lb n="0490a02" ed="Y"/><item><p style="margin-left:1em">增支部注：<foreign xml:lang="sa"><note n="0490a0201" resp="CBETA" type="add">Manorathapūraṇī【CB】，Manoratha-pūraṇī【印順】</note><app n="0490a0201"><lem wit="【CB】" resp="正聞出版社">Manorathapūraṇī</lem><rdg wit="【印順】">Manoratha-pūraṇī</rdg></app></foreign>（滿足希求）</p></item></list>
-<lb n="0490a03" ed="Y"/><p style="text-indent:2em">龍樹（<foreign xml:lang="sa">Nāgārjuna</foreign>）有「四悉檀」的教說，如<bibl><title level="m">《大智度論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:25;page:p59b">二五．五九中</ref></note>說：</p>
-<lb n="0490a04" ed="Y"/><quote><p style="margin-left:3em">「有四種悉檀：一者，世界悉檀；二者，各各為人悉檀；三者，對治悉檀；四者，第一義
+<lb n="0490a01" ed="Y"/><item xml:id="itemY35p0490a0101"><p xml:id="pY35p0490a0101" style="margin-left:1em">相應部注：<foreign xml:lang="x-sa-pi">Sāratthapakāsinī</foreign>（顯揚真義）</p></item>
+<lb n="0490a02" ed="Y"/><item xml:id="itemY35p0490a0201"><p xml:id="pY35p0490a0201" style="margin-left:1em">增支部注：<foreign xml:lang="sa"><note n="0490a0201" resp="CBETA" type="add">Manorathapūraṇī【CB】，Manoratha-pūraṇī【印順】</note><app n="0490a0201"><lem resp="正聞出版社" wit="【CB】">Manorathapūraṇī</lem><rdg wit="【印順】">Manoratha-pūraṇī</rdg></app></foreign>（滿足希求）</p></item></list>
+<lb n="0490a03" ed="Y"/><p xml:id="pY35p0490a0301" style="text-indent:2em">龍樹（<foreign xml:lang="sa">Nāgārjuna</foreign>）有「四悉檀」的教說，如<bibl><title level="m">《大智度論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl><note place="inline">大正<ref target="#vol:25;page:p59b" type="taisho">二五．五九中</ref></note>說：</p>
+<lb n="0490a04" ed="Y"/><quote><p xml:id="pY35p0490a0401" style="margin-left:3em">「有四種悉檀：一者，世界悉檀；二者，各各為人悉檀；三者，對治悉檀；四者，第一義
 <lb n="0490a05" ed="Y"/>悉檀。四悉檀中，總攝一切十二部經，八萬四千法藏，皆是實，無相違背」。</p></quote>
-<lb n="0490a06" ed="Y"/><p style="text-indent:2em">「悉檀」，梵語 <foreign xml:lang="sa"><note n="0490a0601" resp="CBETA" type="add">siddhānta【CB】，Siddhānta【印順】</note><app n="0490a0601"><lem wit="【CB】" resp="正聞出版社">siddhānta</lem><rdg wit="【印順】">Siddhānta</rdg></app></foreign>，譯為成就、宗、理。四種悉檀，是四種宗旨，四種道理。四悉
+<lb n="0490a06" ed="Y"/><p xml:id="pY35p0490a0601" style="text-indent:2em">「悉檀」，梵語 <foreign xml:lang="sa"><note n="0490a0601" resp="CBETA" type="add">siddhānta【CB】，Siddhānta【印順】</note><app n="0490a0601"><lem resp="正聞出版社" wit="【CB】">siddhānta</lem><rdg wit="【印順】">Siddhānta</rdg></app></foreign>，譯為成就、宗、理。四種悉檀，是四種宗旨，四種道理。四悉
 <lb n="0490a07" ed="Y"/>檀可以<quote>「總攝一切十二部經，八萬四千法藏」</quote>。龍樹四悉檀的判攝一切佛法，到底根據什麼？說
 <lb n="0490a08" ed="Y"/>破了，這只是依於「四阿含」的四大宗旨。以四悉檀與覺音的四論相對比，就可以明白過來。「
 <lb n="0490a09" ed="Y"/>吉祥悅意」，是「長阿含」，「世界悉檀」。如<title level="m">《闍尼沙經》</title>、<title level="m">《大典尊經》</title>、<title level="m">《大會經》</title>、<title level="m">《
@@ -493,12 +513,12 @@
 <lb n="0491a02" ed="Y"/>，都可以有此四宗；但就每一部的特色來分別，那就可說「長阿含」是「世界悉檀」，「增一阿
 <lb n="0491a03" ed="Y"/>含」是「為人悉檀」；「中阿含」是「對治悉檀」；「雜阿含」是「第一義悉檀」了。這一佛法
 <lb n="0491a04" ed="Y"/>的四大方針，在佛法的實際應用中，也是一樣。所以教人修習禪觀，就有「四隨」，如<bibl><title level="m">《摩訶止
-<lb n="0491a05" ed="Y"/>觀》</title><biblScope type="卷" n="1上">卷一上</biblScope></bibl><note place="inline">大正<ref target="#vol:46;page:p4c" type="taisho">四六．四下</ref></note>說：</p>
-<lb n="0491a06" ed="Y"/><quote><p style="margin-left:3em">「佛以四隨說法：隨（好）樂，隨（適）宜，隨（對）治，隨（勝）義」。</p></quote>
-<lb n="0491a07" ed="Y"/><p style="text-indent:2em">天台學者，早就以「四隨」解說「四悉檀」。集一切佛法為四阿含，在古代的傳承中，顯然
+<lb n="0491a05" ed="Y"/>觀》</title><biblScope n="1上" type="卷">卷一上</biblScope></bibl><note place="inline">大正<ref target="#vol:46;page:p4c" type="taisho">四六．四下</ref></note>說：</p>
+<lb n="0491a06" ed="Y"/><quote><p xml:id="pY35p0491a0601" style="margin-left:3em">「佛以四隨說法：隨（好）樂，隨（適）宜，隨（對）治，隨（勝）義」。</p></quote>
+<lb n="0491a07" ed="Y"/><p xml:id="pY35p0491a0701" style="text-indent:2em">天台學者，早就以「四隨」解說「四悉檀」。集一切佛法為四阿含，在古代的傳承中，顯然
 <lb n="0491a08" ed="Y"/>有一明確的了解。<title level="m">《薩婆多毘尼毘婆沙》</title>，也是同一傳說。由於說一切有部論師，過分重視「中
 <lb n="0491a09" ed="Y"/>阿含」，這才以究明「深義」為「中阿含」，而有小小的差異。千百年傳來的四含宗義，在現在
-<lb n="0491a10" ed="Y"/>看來，仍不失為理解佛法開展的指針<note n="0491002" resp="釋印順" type="orig">本節的內容，曾表示於拙講的<bibl><title level="m">《阿含講要》</title><biblScope type="chap" n="1">第一章</biblScope></bibl>，載<bibl><title level="j">《海潮音》</title><biblScope n="25" type="卷">二五卷</biblScope></bibl>。</note>。</p>
+<lb n="0491a10" ed="Y"/>看來，仍不失為理解佛法開展的指針<note n="0491002" resp="釋印順" type="orig">本節的內容，曾表示於拙講的<bibl><title level="m">《阿含講要》</title><biblScope n="1" type="chap">第一章</biblScope></bibl>，載<bibl><title level="j">《海潮音》</title><biblScope n="25" type="卷">二五卷</biblScope></bibl>。</note>。</p>
 <lb n="0491a11" ed="Y"/>
 <lb n="0491a12" ed="Y"/></cb:div></cb:div></cb:div>
 <pb n="0492a" ed="Y" xml:id="Y35.0033.0492a"/>

@@ -12,50 +12,70 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2012/11</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2012/11</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>11卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 15, No. 15</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>11卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">15</idno>.<idno type="no">15</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">學佛三要</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">四、學佛三要</cb:mulu><cb:mulu level="2" type="其他">五　念佛、吃素、誦經</cb:mulu>
-<milestone unit="juan" n="5"/><pb n="0083a" ed="Y" xml:id="Y15.0015.0083a.old" type="old"/>
+<milestone n="5" unit="juan"/><pb n="0083a" ed="Y" xml:id="Y15.0015.0083a.old" type="old"/>
 <pb n="0083a" ed="Y" xml:id="Y15.0015.0083a"/>
 <lb n="0083a01" ed="Y"/><lb n="0083a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">五、信心及其修學</cb:mulu><head>信心及其修學<note n="0083001" resp="DILA" type="add">民國四二年撰。</note></head>
 <lb n="0083a02" ed="Y"/><lb n="0083a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　信心的必要</cb:mulu><head>一　信心的必要</head>
-<lb n="0083a03" ed="Y"/><lb n="0083a03" ed="Y" type="old"/><p style="text-indent:2em">學佛的因緣不一，有從信仰而來，有從慈悲而來，有從智慧而來。然能真實
+<lb n="0083a03" ed="Y"/><lb n="0083a03" ed="Y" type="old"/><p xml:id="pY15p0083a0301" style="text-indent:2em">學佛的因緣不一，有從信仰而來，有從慈悲而來，有從智慧而來。然能真實
 <lb n="0083a04" ed="Y"/><lb n="0083a04" ed="Y" type="old"/>的進入佛門，要推「信心」為唯一要著。在學佛的完整過程（信解行證）中，信
 <lb n="0083a05" ed="Y"/><lb n="0083a05" ed="Y" type="old"/>也是首先的、第一的。聲聞乘中說：<quote type="寬鬆引文">「信為能入，戒為能度。」</quote>菩薩乘中說：<quote source="T25n1509_p0063a01-02" type="嚴謹引文">「
 <lb n="0083a06" ed="Y"/><lb n="0083a06" ed="Y" type="old"/>信為能入，智為能度。」<note n="0083002" resp="周怡曄" type="add">《大智度論》卷1〈1 序品〉(CBETA, T25, no. 1509, p. 63, a1-2)</note></quote>戒與智，不妨有所偏重，而<quote type="嚴謹引文">「信為能入」</quote>，卻是一致而
@@ -66,20 +86,20 @@
 <pb n="0084a" ed="Y" xml:id="Y15.0015.0084a"/>
 <lb n="0084a01" ed="Y"/><lb n="0084a01" ed="Y" type="old"/>有信心，到頭來也是一無所有。這可見佛法的無邊功德，都從信心的根源中來，
 <lb n="0084a02" ed="Y"/><lb n="0084a02" ed="Y" type="old"/>所以說<quote source="T44n1843_p0175b28" type="嚴謹引文">「信為道源功德母」<note n="0084001" resp="周怡曄" type="add">《大乘起信論義疏》卷1：「華嚴經云。信為道源功德母」(CBETA, T44, no. 1843, p. 175, b28)</note></quote>。信心，是怎樣的重要！</p>
-<lb n="0084a03" ed="Y"/><lb n="0084a03" ed="Y" type="old"/><p style="text-indent:2em">釋尊在世時，為了要攝化<note n="0084a0301" resp="CBETA" type="add" subtype="規範字詞">恒【CB】，恆【印順】</note><app n="0084a0301"><lem wit="【CB】" resp="CBETA">恒</lem><rdg wit="【印順】">恆</rdg></app>水邊的一群漁民，所以化現一個人，踏著水，從
+<lb n="0084a03" ed="Y"/><lb n="0084a03" ed="Y" type="old"/><p xml:id="pY15p0084a0301" style="text-indent:2em">釋尊在世時，為了要攝化<note n="0084a0301" resp="CBETA" type="add" subtype="規範字詞">恒【CB】，恆【印順】</note><app n="0084a0301"><lem resp="CBETA" wit="【CB】">恒</lem><rdg wit="【印順】">恆</rdg></app>水邊的一群漁民，所以化現一個人，踏著水，從
 <lb n="0084a04" ed="Y"/><lb n="0084a04" ed="Y" type="old"/>那邊到這邊來。漁民們非常驚奇，那人說：我不過信佛所說而已，這有什麼希奇
 <lb n="0084a05" ed="Y"/><lb n="0084a05" ed="Y" type="old"/>！漁民們大大的引發了信心，佛就來攝化他們。在釋尊以後五、六百年，據說：
 <lb n="0084a06" ed="Y"/>打<lb n="0084a06" ed="Y" type="old"/>漁出身的彼得，在海船中遇到大風浪，忽見他的老師耶穌在海上行走；他因耶
 <lb n="0084a07" ed="Y"/>穌<lb n="0084a07" ed="Y" type="old"/>說<quote>「你來吧」</quote>！就跳下海走去。忽而想到風浪，害怕起來；耶穌責備他「小信
 <lb n="0084a08" ed="Y"/>」<lb n="0084a08" ed="Y" type="old"/>。這個故事，顯然為佛教傳說的翻版，但同樣的表示著信心的力量。</p></cb:div>
 <lb n="0084a09" ed="Y"/><lb n="0084a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　正信與迷信</cb:mulu><head>二　正信與迷信</head>
-<lb n="0084a10" ed="Y"/><lb n="0084a10" ed="Y" type="old"/><p style="text-indent:2em">論到信仰，首先應討論正信與迷信。這雖然不容易弄清楚，但是不能不辨別
+<lb n="0084a10" ed="Y"/><lb n="0084a10" ed="Y" type="old"/><p xml:id="pY15p0084a1001" style="text-indent:2em">論到信仰，首先應討論正信與迷信。這雖然不容易弄清楚，但是不能不辨別
 <lb n="0084a11" ed="Y"/><lb n="0084a11" ed="Y" type="old"/>的。宗教與宗教間，每指責另一宗教為迷信。如西洋來的神教徒，自己可以供馬
 <lb n="0084a12" ed="Y"/><lb n="0084a12" ed="Y" type="old"/>利亞像，可以懸掛耶穌像，可以跪在地上大喊「天上的父」，生了病可以向神祈<pb n="0085a" ed="Y" xml:id="Y15.0015.0085a.old" type="old"/>
 <pb n="0085a" ed="Y" xml:id="Y15.0015.0085a"/>
 <lb n="0085a01" ed="Y"/><lb n="0085a01" ed="Y" type="old"/>求；而對於佛教的禮敬佛像，卻指為迷信。凡不肯理解對方，而主觀的抹煞對方
 <lb n="0085a02" ed="Y"/><lb n="0085a02" ed="Y" type="old"/>，充其量，也只是「迷不信」而已。迷信與正信，是不能從他們得到結論的。</p>
-<lb n="0085a03" ed="Y"/><lb n="0085a03" ed="Y" type="old"/><p style="text-indent:2em">迷信與正信，可從兩方面說。一、約所信的對象說：凡是正信，必須所信的
+<lb n="0085a03" ed="Y"/><lb n="0085a03" ed="Y" type="old"/><p xml:id="pY15p0085a0301" style="text-indent:2em">迷信與正信，可從兩方面說。一、約所信的對象說：凡是正信，必須所信的
 <lb n="0085a04" ed="Y"/><lb n="0085a04" ed="Y" type="old"/>對象有實、有德、有能。如信佛，佛是確實有的，如出現於印度的釋迦牟尼。
 <lb n="0085a05" ed="Y"/><lb n="0085a05" ed="Y" type="old"/>佛又確乎有佛德的，他有大覺的智德、離煩惱的斷德、慈悲的恩德。佛是人性淨
 <lb n="0085a06" ed="Y"/><lb n="0085a06" ed="Y" type="old"/>化的究竟圓成，確是值得我們信敬的。佛為我們的導師，因佛的德能，能引我們
@@ -94,7 +114,7 @@
 <lb n="0086a01" ed="Y"/><lb n="0086a01" ed="Y" type="old"/>迷信不一定壞，比沒有信仰好得多。二、約能信的心情說：如經過一番正確的了
 <lb n="0086a02" ed="Y"/><lb n="0086a02" ed="Y" type="old"/>解，見得真，信得切，這是智信、正信。如盲目的附和，因父母，因朋友，莫名
 <lb n="0086a03" ed="Y"/><lb n="0086a03" ed="Y" type="old"/>其妙的信仰，便是迷信。</p>
-<lb n="0086a04" ed="Y"/><lb n="0086a04" ed="Y" type="old"/><p style="text-indent:2em">將這兩方面綜合起來，就有四類差別：一、所信的，確乎有實、有德、有能
+<lb n="0086a04" ed="Y"/><lb n="0086a04" ed="Y" type="old"/><p xml:id="pY15p0086a0401" style="text-indent:2em">將這兩方面綜合起來，就有四類差別：一、所信的，確乎有實、有德、有能
 <lb n="0086a05" ed="Y"/><lb n="0086a05" ed="Y" type="old"/>，但能信者卻是糊裡糊塗的信仰。如某藥確有治某病的功用，病人雖不知藥性，
 <lb n="0086a06" ed="Y"/><lb n="0086a06" ed="Y" type="old"/>但信醫師而服藥，這還可以說是正信的。但這並不理想，可能誤入歧途（如醫師
 <lb n="0086a07" ed="Y"/><lb n="0086a07" ed="Y" type="old"/>不一定可靠）。所以說：<quote source="X34n0639_p0943b14-15" type="嚴謹引文">「有信無智，增長愚癡。」<note n="0086001" resp="周怡曄" type="add">《法華經玄贊釋》卷1(CBETA, X34, no. 639, p. 943, b14-15 // Z 1:93, p. 14, b5-6 // R93, p. 27, b5-6)；《大般涅槃經》卷33〈24 迦葉菩薩品〉：「若人信心無有智慧。是人則能增長無明。若有智慧無有信心。是人則能增長邪見」(CBETA, T12, no. 375, p. 827, c27-29)</note></quote>二、所信的並無實體、實用
@@ -106,12 +126,12 @@
 <lb n="0086a13" ed="Y"/><lb n="0086a13" ed="Y" type="old"/>弟子。</p></cb:div><pb n="0087a" ed="Y" xml:id="Y15.0015.0087a.old" type="old"/>
 <pb n="0087a" ed="Y" xml:id="Y15.0015.0087a"/>
 <lb n="0087a01" ed="Y"/><lb n="0087a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　順信與淨信</cb:mulu><head>三　順信與淨信</head>
-<lb n="0087a02" ed="Y"/><lb n="0087a02" ed="Y" type="old"/><p style="text-indent:2em">上來所說的信心，是泛通一般的。佛經所說的信，大抵指佛法的正信說。所
+<lb n="0087a02" ed="Y"/><lb n="0087a02" ed="Y" type="old"/><p xml:id="pY15p0087a0201" style="text-indent:2em">上來所說的信心，是泛通一般的。佛經所說的信，大抵指佛法的正信說。所
 <lb n="0087a03" ed="Y"/><lb n="0087a03" ed="Y" type="old"/>以西北印的佛教，如一切有部與瑜伽師，專約純善的信心說。其實，信不但是善
 <lb n="0087a04" ed="Y"/><lb n="0087a04" ed="Y" type="old"/>淨的，所以東南印的大眾與分別說系，分別信心為二：一、順信，同於一般所說
 <lb n="0087a05" ed="Y"/><lb n="0087a05" ed="Y" type="old"/>的信仰，這是有善的、惡的、無記的。如當前的共產黨徒，不能說他沒有信仰，
 <lb n="0087a06" ed="Y"/><lb n="0087a06" ed="Y" type="old"/>但是雜染的、邪惡的。二、佛法所特有的信心，是淨善的。</p>
-<lb n="0087a07" ed="Y"/><lb n="0087a07" ed="Y" type="old"/><p style="text-indent:2em">記得梁潄溟說過：西洋文化的特徵，是宗教的、信仰的；中國文化的特徵，
+<lb n="0087a07" ed="Y"/><lb n="0087a07" ed="Y" type="old"/><p xml:id="pY15p0087a0701" style="text-indent:2em">記得梁潄溟說過：西洋文化的特徵，是宗教的、信仰的；中國文化的特徵，
 <lb n="0087a08" ed="Y"/><lb n="0087a08" ed="Y" type="old"/>是倫理的、理性的。他卻不曾注意，印度文化，尤其是佛教文化，宗教是哲學的
 <lb n="0087a09" ed="Y"/><lb n="0087a09" ed="Y" type="old"/>，哲學是宗教的。信仰與理性相應，信智合一，是佛法的特徵。依佛法說：信，
 <lb n="0087a10" ed="Y"/><lb n="0087a10" ed="Y" type="old"/>當然是重於情意的；但所信的對象，預想為理智所可能通達的。智，雖然是知的
@@ -120,7 +140,7 @@
 <pb n="0088a" ed="Y" xml:id="Y15.0015.0088a"/>
 <lb n="0088a01" ed="Y"/><lb n="0088a01" ed="Y" type="old"/>、矛盾的。換言之，信心是理智的，理智是信心的。這點，可以從「信」的解說
 <lb n="0088a02" ed="Y"/><lb n="0088a02" ed="Y" type="old"/>中，充分的顯發出來。</p>
-<lb n="0088a03" ed="Y"/><lb n="0088a03" ed="Y" type="old"/><p style="text-indent:2em">「信」是什麼？以<quote source="T31n1585_p0029b22-23" type="嚴謹引文">「心淨為性」<note n="0088001" resp="周怡曄" type="add">《成唯識論》卷6：「云何為信。於實德能深忍樂欲心淨為性。」(CBETA, T31, no. 1585, p. 29, b22-23)</note></quote>，這是非常難懂的！要從引發信心的因緣
+<lb n="0088a03" ed="Y"/><lb n="0088a03" ed="Y" type="old"/><p xml:id="pY15p0088a0301" style="text-indent:2em">「信」是什麼？以<quote source="T31n1585_p0029b22-23" type="嚴謹引文">「心淨為性」<note n="0088001" resp="周怡曄" type="add">《成唯識論》卷6：「云何為信。於實德能深忍樂欲心淨為性。」(CBETA, T31, no. 1585, p. 29, b22-23)</note></quote>，這是非常難懂的！要從引發信心的因緣
 <lb n="0088a04" ed="Y"/><lb n="0088a04" ed="Y" type="old"/>與信心所起的成果來說明。「深忍」，是深刻的忍可，即「勝解」。由於深刻的
 <lb n="0088a05" ed="Y"/><lb n="0088a05" ed="Y" type="old"/>有力的理解，能引發信心，所以說<quote source="T31n1585_p0029b28-29" type="寬鬆引文">「勝解為信因」<note n="0088002" resp="周怡曄" type="add">《成唯識論》卷6：「忍謂勝解。此即信因」(CBETA, T31, no. 1585, p. 29, b28-29)</note></quote>。「樂欲」，是要實現目的的
 <lb n="0088a06" ed="Y"/><lb n="0088a06" ed="Y" type="old"/>希求、願望。有信心，必有願欲，所以說<quote source="T31n1585_p0029b29" type="寬鬆引文">「樂欲為信果」<note n="0088003" resp="周怡曄" type="add">《成唯識論》卷6：「樂欲謂欲即是信果」(CBETA, T31, no. 1585, p. 29, b29)</note></quote>。這本來與中山先生的
@@ -130,7 +150,7 @@
 <lb n="0088a10" ed="Y"/><lb n="0088a10" ed="Y" type="old"/>能清濁水一樣。信心一起，心地純淨而安定，沒有疑惑，於三寶充滿了崇仰的真
 <lb n="0088a11" ed="Y"/><lb n="0088a11" ed="Y" type="old"/>誠。由於見得真、信得切，必然的要求從自己的實踐中去實現佛法。這可見佛說
 <lb n="0088a12" ed="Y"/><lb n="0088a12" ed="Y" type="old"/>淨信，從理智中來，與神教的信仰，截然不同。</p>
-<lb n="0088a13" ed="Y"/><lb n="0088a13" ed="Y" type="old"/><p style="text-indent:2em">西洋的神教徒，有信仰而不重理性。在宗教的生活中，是不需要智的。唯物<pb n="0089a" ed="Y" xml:id="Y15.0015.0089a.old" type="old"/>
+<lb n="0088a13" ed="Y"/><lb n="0088a13" ed="Y" type="old"/><p xml:id="pY15p0088a1301" style="text-indent:2em">西洋的神教徒，有信仰而不重理性。在宗教的生活中，是不需要智的。唯物<pb n="0089a" ed="Y" xml:id="Y15.0015.0089a.old" type="old"/>
 <pb n="0089a" ed="Y" xml:id="Y15.0015.0089a"/>
 <lb n="0089a01" ed="Y"/><lb n="0089a01" ed="Y" type="old"/>的科學家，有智而沒有信。彼此間，造成了思想的對立。有些人，覺得護持傳統
 <lb n="0089a02" ed="Y"/><lb n="0089a02" ed="Y" type="old"/>的神教，對於安定社會，是有益的。然而他們，並不能做到信智合一，而只是六
@@ -138,11 +158,11 @@
 <lb n="0089a04" ed="Y"/><lb n="0089a04" ed="Y" type="old"/>生活，勉強地機械地合作，患著內心的人格破裂症。這難怪人情的瘋狂、時代的
 <lb n="0089a05" ed="Y"/><lb n="0089a05" ed="Y" type="old"/>苦難，不斷的嚴重起來！在中國，雖有「知行合一」、「即知即行」（實從佛法
 <lb n="0089a06" ed="Y"/><lb n="0089a06" ed="Y" type="old"/>中得來）的思想，以為知而不行決非真知，不知道如為了抽象的知識、生活
-<lb n="0089a07" ed="Y"/><lb n="0089a07" ed="Y" type="old"/>的工具，而不是把<note n="0089a0701" resp="CBETA" type="add" subtype="規範字詞">它【CB】，他【印順】</note><app n="0089a0701"><lem wit="【CB】" resp="CBETA">它</lem><rdg wit="【印順】">他</rdg></app>成為自己的，這是不見得能行的。必須從知而起信願，這才
+<lb n="0089a07" ed="Y"/><lb n="0089a07" ed="Y" type="old"/>的工具，而不是把<note n="0089a0701" resp="CBETA" type="add" subtype="規範字詞">它【CB】，他【印順】</note><app n="0089a0701"><lem resp="CBETA" wit="【CB】">它</lem><rdg wit="【印順】">他</rdg></app>成為自己的，這是不見得能行的。必須從知而起信願，這才
 <lb n="0089a08" ed="Y"/><lb n="0089a08" ed="Y" type="old"/>能保證必行。換言之，沒有信智合一，決不能知行合一。佛教的信智相感的正信
 <lb n="0089a09" ed="Y"/><lb n="0089a09" ed="Y" type="old"/>，才是今日人類急需的一味阿伽陀藥！</p></cb:div>
 <lb n="0089a10" ed="Y"/><lb n="0089a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　信忍、信求與證信</cb:mulu><head>四　信忍、信求與證信</head>
-<lb n="0089a11" ed="Y"/><lb n="0089a11" ed="Y" type="old"/><p style="text-indent:2em">信心，不但是在先的，也是在後的；在學佛的歷程中，信心貫徹於一切。約
+<lb n="0089a11" ed="Y"/><lb n="0089a11" ed="Y" type="old"/><p xml:id="pY15p0089a1101" style="text-indent:2em">信心，不但是在先的，也是在後的；在學佛的歷程中，信心貫徹於一切。約
 <lb n="0089a12" ed="Y"/><lb n="0089a12" ed="Y" type="old"/>從淺到深的次第，（般若道）可析為三階段：一、「信可」，或稱「信忍」。這<pb n="0090a" ed="Y" xml:id="Y15.0015.0090a.old" type="old"/>
 <pb n="0090a" ed="Y" xml:id="Y15.0015.0090a"/>
 <lb n="0090a01" ed="Y"/><lb n="0090a01" ed="Y" type="old"/>是對於佛法，從深刻的理解而起的淨信。到此，信心成就；純淨的信心，與明達
@@ -153,8 +173,8 @@
 <lb n="0090a06" ed="Y"/><lb n="0090a06" ed="Y" type="old"/>「不依文字」，現量的通達，這是證位。在大乘中，是初地的「淨勝意樂」；在
 <lb n="0090a07" ed="Y"/><lb n="0090a07" ed="Y" type="old"/>聲聞，是初果的得「四證淨」或「四不壞信」。一向仰信的佛、法、僧、戒，這
 <lb n="0090a08" ed="Y"/><lb n="0090a08" ed="Y" type="old"/>才得著沒有絲毫疑惑的徹底的自信。</p>
-<lb n="0090a09" ed="Y"/><lb n="0090a09" ed="Y" type="old"/><p style="text-indent:2em">約一念淨信說，並不太難，難在淨信的成就。聲聞到忍位，菩薩到初住，這
-<lb n="0090a10" ed="Y"/><lb n="0090a10" ed="Y" type="old"/>才淨信成就了。以前，如聲聞的<note n="0090a1001" resp="CBETA" type="add">頂【CB】，暖【印順】</note><app n="0090a1001"><lem wit="【CB】" resp="正聞出版社">頂<note type="cf1">《阿毘達磨發智論》卷1(CBETA, T26, no. 1544, p. 918, c20-22)</note></lem><rdg wit="【印順】">暖</rdg></app>位也有「小量信」<note n="0090001" resp="厚觀法師" type="add">《阿毘達磨發智論》卷1：「云何頂？答：於佛法僧生小量信。如世尊為波羅衍拏摩納婆說：若於佛法僧，生起微小信，儒童應知彼，名已得頂法。」(CBETA, T26, no. 1544, p. 918, c20-24)</note>，但容易退失。如菩薩初住
+<lb n="0090a09" ed="Y"/><lb n="0090a09" ed="Y" type="old"/><p xml:id="pY15p0090a0901" style="text-indent:2em">約一念淨信說，並不太難，難在淨信的成就。聲聞到忍位，菩薩到初住，這
+<lb n="0090a10" ed="Y"/><lb n="0090a10" ed="Y" type="old"/>才淨信成就了。以前，如聲聞的<note n="0090a1001" resp="CBETA" type="add">頂【CB】，暖【印順】</note><app n="0090a1001"><lem resp="正聞出版社" wit="【CB】">頂<note type="cf1">《阿毘達磨發智論》卷1(CBETA, T26, no. 1544, p. 918, c20-22)</note></lem><rdg wit="【印順】">暖</rdg></app>位也有「小量信」<note n="0090001" resp="厚觀法師" type="add">《阿毘達磨發智論》卷1：「云何頂？答：於佛法僧生小量信。如世尊為波羅衍拏摩納婆說：若於佛法僧，生起微小信，儒童應知彼，名已得頂法。」(CBETA, T26, no. 1544, p. 918, c20-24)</note>，但容易退失。如菩薩初住
 <lb n="0090a11" ed="Y"/><lb n="0090a11" ed="Y" type="old"/>以前的十信位，<quote source="T44n1844_p0220a09" type="嚴謹引文">「猶如輕毛，隨風東西」<note n="0090002" resp="周怡曄" type="add">《起信論疏》卷2(CBETA, T44, no. 1844, p. 220, a9)</note></quote>。這雖是淨信，但是不堅定的，沒有完
 <lb n="0090a12" ed="Y"/><lb n="0090a12" ed="Y" type="old"/>成到不退階段的。我們修學信心，是要策發淨信，而且要修學到成就不退。如學
 <lb n="0090a13" ed="Y"/><lb n="0090a13" ed="Y" type="old"/>者不能於三寶、四諦得勝解，也就不能得佛法的淨信。雖然三寶與四諦是真實的<pb n="0091a" ed="Y" xml:id="Y15.0015.0091a.old" type="old"/>
@@ -162,9 +182,9 @@
 <lb n="0091a01" ed="Y"/><lb n="0091a01" ed="Y" type="old"/>、有德有能的，初學者能「仰信」、「順信」，也不失為佛教的正信，為學佛的
 <lb n="0091a02" ed="Y"/><lb n="0091a02" ed="Y" type="old"/>要門。然嚴格的說，沒有經過「勝解」，還不能表顯正信的特色！</p></cb:div>
 <lb n="0091a03" ed="Y"/><lb n="0091a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五　正常道與方便道</cb:mulu><head>五　正常道與方便道</head>
-<lb n="0091a04" ed="Y"/><lb n="0091a04" ed="Y" type="old"/><p style="text-indent:2em">從發起正信而修學成就，是正信的最初修學，這又有兩類的進修法：一、正
+<lb n="0091a04" ed="Y"/><lb n="0091a04" ed="Y" type="old"/><p xml:id="pY15p0091a0401" style="text-indent:2em">從發起正信而修學成就，是正信的最初修學，這又有兩類的進修法：一、正
 <lb n="0091a05" ed="Y"/><lb n="0091a05" ed="Y" type="old"/>常道的修習信心：正信（正信必有正願），聲聞法中是「出離心」，大乘法中是
-<lb n="0091a06" ed="Y"/><lb n="0091a06" ed="Y" type="old"/>「菩提心」。修學大乘信心的一般方法，如<title level="m"><note n="0091a0601" resp="CBETA" type="add" subtype="規範字詞">大乘起信論【CB】，起信論【印順】</note><app n="0091a0601"><lem wit="【CB】" resp="CBETA">《大乘起信論》</lem><rdg wit="【印順】">《起信論》</rdg></app></title>說的信佛、信法、信僧，
+<lb n="0091a06" ed="Y"/><lb n="0091a06" ed="Y" type="old"/>「菩提心」。修學大乘信心的一般方法，如<title level="m"><note n="0091a0601" resp="CBETA" type="add" subtype="規範字詞">大乘起信論【CB】，起信論【印順】</note><app n="0091a0601"><lem resp="CBETA" wit="【CB】">《大乘起信論》</lem><rdg wit="【印順】">《起信論》</rdg></app></title>說的信佛、信法、信僧，
 <lb n="0091a07" ed="Y"/><lb n="0091a07" ed="Y" type="old"/>又修布施、持戒、忍辱、精進、止觀去助成。這可見，自利利他的大乘信願，要
 <lb n="0091a08" ed="Y"/><lb n="0091a08" ed="Y" type="old"/>從事行與理行的修習中來完成。換言之，信心並非孤立的，而是與種種功德相應
 <lb n="0091a09" ed="Y"/><lb n="0091a09" ed="Y" type="old"/>的，依種種功德的進修而助成的。然經論所說的菩提心，般若道中有三階：初是
@@ -173,11 +193,11 @@
 <lb n="0091a12" ed="Y"/><lb n="0091a12" ed="Y" type="old"/>心為慈悲所成就，那是約行菩提心說。初學大乘信願，是約願菩提心說，是上求<pb n="0092a" ed="Y" xml:id="Y15.0015.0092a.old" type="old"/>
 <pb n="0092a" ed="Y" xml:id="Y15.0015.0092a"/>
 <lb n="0092a01" ed="Y"/><lb n="0092a01" ed="Y" type="old"/>佛道、下化眾生的信願。初學者，對於佛（菩薩）的無邊功德，一切眾生的無邊
-<lb n="0092a02" ed="Y"/><lb n="0092a02" ed="Y" type="old"/>苦迫，佛法濟世的真實利益，發菩提心的種種功德，應該多多聽聞、多多<note n="0092a0201" resp="CBETA" type="add" subtype="規範字詞">思惟【CB】，思維【印順】</note><app n="0092a0201"><lem wit="【CB】" resp="CBETA">思惟</lem><rdg wit="【印順】">思維</rdg></app>。
+<lb n="0092a02" ed="Y"/><lb n="0092a02" ed="Y" type="old"/>苦迫，佛法濟世的真實利益，發菩提心的種種功德，應該多多聽聞、多多<note n="0092a0201" resp="CBETA" type="add" subtype="規範字詞">思惟【CB】，思維【印順】</note><app n="0092a0201"><lem resp="CBETA" wit="【CB】">思惟</lem><rdg wit="【印順】">思維</rdg></app>。
 <lb n="0092a03" ed="Y"/><lb n="0092a03" ed="Y" type="old"/>這對於大乘信願的策發，最為有力。如大乘的信願勃發，應受菩薩戒，這就是願
 <lb n="0092a04" ed="Y"/><lb n="0092a04" ed="Y" type="old"/>菩提心，為法身種子。菩提心，是菩薩的唯一根本大戒。受戒就是立願；依戒修
 <lb n="0092a05" ed="Y"/><lb n="0092a05" ed="Y" type="old"/>學，就能漸次進修，達到大乘正信的成就。</p>
-<lb n="0092a06" ed="Y"/><lb n="0092a06" ed="Y" type="old"/><p style="text-indent:2em">二、方便道的修習信心：這是信增上菩薩的修學法。由於<quote type="嚴謹引文">「眾生初學是法（
+<lb n="0092a06" ed="Y"/><lb n="0092a06" ed="Y" type="old"/><p xml:id="pY15p0092a0601" style="text-indent:2em">二、方便道的修習信心：這是信增上菩薩的修學法。由於<quote type="嚴謹引文">「眾生初學是法（
 <lb n="0092a07" ed="Y"/>大乘<lb n="0092a07" ed="Y" type="old"/>），欲求正信，其心怯弱」<note n="0092001" resp="厚觀法師" type="add">《大乘起信論》卷1(CBETA, T32, no. 1666, p. 583, a12)</note></quote>，所以特重仰信，依佛力的加被而修習。龍樹說
 <lb n="0092a08" ed="Y"/>：這是以信（願<lb n="0092a08" ed="Y" type="old"/>）精進為門而入佛法的，也就是樂集佛功德而往生淨土的易行
 <lb n="0092a09" ed="Y"/>道。說得最圓滿<lb n="0092a09" ed="Y" type="old"/>的，要算<title level="a">〈普賢行願品〉</title>的十大行願。這因為佛是無上菩提的圓
@@ -189,7 +209,7 @@
 <lb n="0093a01" ed="Y"/>懺法。大乘通於<pb n="0093a" ed="Y" xml:id="Y15.0015.0093a.old" type="old"/><lb n="0093a01" ed="Y" type="old"/>在家、出家，所以不用僧伽的作法懺，專重於佛前的懺悔。(五)、隨
 <lb n="0093a02" ed="Y"/>喜功德，(十)、普<lb n="0093a02" ed="Y" type="old"/>皆迴向：這是大乘法所特別重視的。(八)、隨順佛學：即依佛的因
 <lb n="0093a03" ed="Y"/>行果行而隨順修<lb n="0093a03" ed="Y" type="old"/>學。(九)、恒順眾生：是增長悲心。</p>
-<lb n="0093a04" ed="Y"/><lb n="0093a04" ed="Y" type="old"/><p style="text-indent:2em">這十大行願，有三大特點：(一)、佛佛平等，所以從一佛（毘盧遮那）而通一
+<lb n="0093a04" ed="Y"/><lb n="0093a04" ed="Y" type="old"/><p xml:id="pY15p0093a0401" style="text-indent:2em">這十大行願，有三大特點：(一)、佛佛平等，所以從一佛（毘盧遮那）而通一
 <lb n="0093a05" ed="Y"/><lb n="0093a05" ed="Y" type="old"/>切佛，盡虛空，遍法界，而不是局限於一時一地一佛的。(二)、重於觀念，不但懺
 <lb n="0093a06" ed="Y"/><lb n="0093a06" ed="Y" type="old"/>悔、隨喜、迴向，由於心念而修；就是禮佛、供養、讚佛等，也唯由心念。如說
 <lb n="0093a07" ed="Y"/><lb n="0093a07" ed="Y" type="old"/>：<quote source="X74n1473_p0371b09" type="嚴謹引文">「深心信解，如對目前」<note n="0093001" resp="周怡曄" type="add">《華嚴普賢行願修證儀》卷1(CBETA, X74, no. 1473, p. 371, b9 // Z 1:95, p. 535, b15 // R95, p. 1069, b15)</note></quote>；<quote source="X74n1472_p0366c09" type="嚴謹引文">「起深信解，現前知見」<note n="0093002" resp="周怡曄" type="add">《華嚴普賢行願修證儀》卷1(CBETA, X74, no. 1472, p. 366, c9 // Z 1:95, p. 530, d1 // R95, p. 1060, b1)</note></quote>。這是心中「念佛」的易
@@ -198,7 +218,7 @@
 <lb n="0093a10" ed="Y"/><lb n="0093a10" ed="Y" type="old"/>諸佛。若於眾生尊重承事，則為尊重承事如來。若令眾生生歡喜者，則令一切如
 <lb n="0093a11" ed="Y"/><lb n="0093a11" ed="Y" type="old"/>來歡喜。何以故？諸佛如來以大悲心而為體故」<note n="0093003" resp="周怡曄" type="add">《大方廣佛華嚴經》卷40〈入不思議解脫境界普賢行願品〉(CBETA, T10, no. 293, p. 846, a10-13)</note></quote>。這與上帝愛世人，所以我也要
 <lb n="0093a12" ed="Y"/>愛<lb n="0093a12" ed="Y" type="old"/>人的理論相近，這是偏重於仰信的緣故。</p>
-<lb n="0093a13" ed="Y"/><lb n="0093a13" ed="Y" type="old"/><p style="text-indent:2em">信增上菩薩，信願集中於佛，念念不忘佛，能隨願往生極樂世界。但由信願<pb n="0094a" ed="Y" xml:id="Y15.0015.0094a.old" type="old"/>
+<lb n="0093a13" ed="Y"/><lb n="0093a13" ed="Y" type="old"/><p xml:id="pY15p0093a1301" style="text-indent:2em">信增上菩薩，信願集中於佛，念念不忘佛，能隨願往生極樂世界。但由信願<pb n="0094a" ed="Y" xml:id="Y15.0015.0094a.old" type="old"/>
 <pb n="0094a" ed="Y" xml:id="Y15.0015.0094a"/>
 <lb n="0094a01" ed="Y"/><lb n="0094a01" ed="Y" type="old"/>觀念，所以是易行道。然心心念於如來功德，念念常隨佛學，念念恒順眾生，如
 <lb n="0094a02" ed="Y"/><lb n="0094a02" ed="Y" type="old"/>信願增長，也自然能引發為法為人的悲行、智行。龍樹說修易行道的，能<quote type="嚴謹引文">「福力轉

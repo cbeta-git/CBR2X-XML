@@ -12,68 +12,88 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版四刷<date>Date: 2011/10</date>新式標點版</edition>
+			<edition>新版四刷<date>Date: 2011/10</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>8卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 19, No. 19</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>8卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">19</idno>.<idno type="no">19</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">我之宗教觀</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">二、中國的宗教興衰與儒家</cb:mulu>
-<milestone unit="juan" n="3"/>
+<milestone n="3" unit="juan"/>
 <pb n="0055a" ed="Y" xml:id="Y19.0019.0055a"/>
 <lb n="0055a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">三、修身之道</cb:mulu><head>三、修身之道<note n="0055001" resp="DILA" type="add">民國四七年講。</note></head>
-<lb n="0055a02" ed="Y"/><p style="text-indent:2em">近年來，由於弘法的因緣，每與學佛的同道，或留心中國文化的朋友，談到
+<lb n="0055a02" ed="Y"/><p xml:id="pY19p0055a0201" style="text-indent:2em">近年來，由於弘法的因緣，每與學佛的同道，或留心中國文化的朋友，談到
 <lb n="0055a03" ed="Y"/>佛法與儒學的同異。但我只是專心佛法，對儒學並無深切的研究，所以雖說到一
 <lb n="0055a04" ed="Y"/>些，一定也難於恰到好處。我覺得：佛法與儒學，在其文化背景、學理來源，及
 <lb n="0055a05" ed="Y"/>其要求實現的究極目的，顯然是不同的。但在立身處世的基本觀念，及修學的歷
 <lb n="0055a06" ed="Y"/>程上，可說是大致相近的。如現在要說到的「修身之道」——為人以修身為本，
 <lb n="0055a07" ed="Y"/>以修身為關要，就是儒佛非常一致的問題。</p>
 <lb n="0055a08" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">一　儒佛之道大同</cb:mulu><head>一　儒佛之道大同</head>
-<lb n="0055a09" ed="Y"/><cb:mulu level="3" type="其他">一、修身為本之道</cb:mulu><head>一、修身為本之道</head><p style="text-indent:2em">被看作「初學入德之門」的<cit><bibl><title level="m">《大學》</title>上說：</bibl><quote>「自天子以
+<lb n="0055a09" ed="Y"/><cb:mulu level="3" type="其他">一、修身為本之道</cb:mulu><head>一、修身為本之道</head><p xml:id="pY19p0055a0915" style="text-indent:2em">被看作「初學入德之門」的<cit><bibl><title level="m">《大學》</title>上說：</bibl><quote>「自天子以
 <lb n="0055a10" ed="Y"/>至於庶人，壹是皆以修身為本」</quote></cit>。這是說：無論是誰，想不失卻人的本分，想為
 <pb n="0056a" ed="Y" xml:id="Y19.0019.0056a"/>
 <lb n="0056a01" ed="Y"/>君子，希賢希聖，或者齊家治國平天下，都要從修身做起。如孔子說：<quote>「君子求
 <lb n="0056a02" ed="Y"/>諸己」</quote>。孟子說：<quote>「君子之守，修其身而天下平」</quote>。所以子路問君子，孔子也就
 <lb n="0056a03" ed="Y"/>告訴他：<quote>「修己以敬」</quote>；<quote>「修己以安人」</quote>；<quote>「修己以安百姓」</quote>。</p>
-<lb n="0056a04" ed="Y"/><p style="text-indent:2em">修身，就是修己。在梵語中，「迦耶」譯為身，是積聚的意思。身有廣狹的
+<lb n="0056a04" ed="Y"/><p xml:id="pY19p0056a0401" style="text-indent:2em">修身，就是修己。在梵語中，「迦耶」譯為身，是積聚的意思。身有廣狹的
 <lb n="0056a05" ed="Y"/>不同含義：一、指皮膚的感覺官能，名為「身根」，近於觸覺神經。二、指眼、
 <lb n="0056a06" ed="Y"/>耳、鼻、舌等生理組織，名為「根身」，與習用的身體一詞相近。三、統指身心
 <lb n="0056a07" ed="Y"/>的綜合體，就是個人或個己。如佛法常說的「我見」，其實就是「身見」。儒者
 <lb n="0056a08" ed="Y"/>所說的修身或修己，當然指第三義的修治自我說。如誤解為身體，那修身就成為
 <lb n="0056a09" ed="Y"/>修精煉氣的方士道了。</p>
-<lb n="0056a10" ed="Y"/><p style="text-indent:2em">依儒者看來，希求世界和平，社會安寧，國家富強，家庭和樂，這決不但是
+<lb n="0056a10" ed="Y"/><p xml:id="pY19p0056a1001" style="text-indent:2em">依儒者看來，希求世界和平，社會安寧，國家富強，家庭和樂，這決不但是
 <lb n="0056a11" ed="Y"/>發展物產，或者改革政治，或者嚴密控制人民所能濟事的。這必須重視自身的修
 <lb n="0056a12" ed="Y"/>養，尤其是從事政治的人，修身更覺重要。不能以身作則，一味要求別人，或者
 <lb n="0056a13" ed="Y"/>覺得都是別人不好，那是不對的。所以孔子說：<quote>「子欲善而民善矣」</quote>！<quote>「子帥以
@@ -85,14 +105,14 @@
 <lb n="0057a05" ed="Y"/>的本源。而佛法說到人生（眾生）的淨化，世界的淨化時，也歸結到心說：<quote source="T02n0099_p0069c13" type="寬鬆引文">「心
 <lb n="0057a06" ed="Y"/>淨則眾生淨」<note n="0057001" resp="周怡曄" type="add">(1)《雜阿含經》卷10：「心淨故眾生淨」(CBETA, T02, no. 99, p. 69, c13)；(2)《維摩詰所說經》卷1〈3 弟子品〉：「心淨故眾生淨」(CBETA, T14, no. 475, p. 541, b19)</note></quote>；<quote source="T14n0475_p0538c05" type="寬鬆引文">「心淨則國土淨」<note n="0057002" resp="周怡曄" type="add">《維摩詰所說經》卷1〈1 佛國品〉：「心淨，則佛土淨」(CBETA, T14, no. 475, p. 538, c5)</note></quote>。說到心，並非離開當前的自己，而只是把握
 <lb n="0057a07" ed="Y"/>自己的最緊要處而已。</p>
-<lb n="0057a08" ed="Y"/><p style="text-indent:2em">佛法及儒家，同以修身為本，從自身而探求到自心，以此為進德成業，解決
+<lb n="0057a08" ed="Y"/><p xml:id="pY19p0057a0801" style="text-indent:2em">佛法及儒家，同以修身為本，從自身而探求到自心，以此為進德成業，解決
 <lb n="0057a09" ed="Y"/>問題的關鍵。這不像西方的唯物論者，從環境，從物質出發，而想從物質與經濟
 <lb n="0057a10" ed="Y"/>的制御中去求解決。也不像西方的神教者，以神為本，而想從求神憐愍，求神救
 <lb n="0057a11" ed="Y"/>贖中解決問題。唯物論與神意論者，都不是直從自己的當下去求解決，而引導人
 <lb n="0057a12" ed="Y"/>心去馳逐那空虛的物質，渺茫的神靈。修身為本的文化，才是尊重人性的真現實
 <lb n="0057a13" ed="Y"/>者！</p>
 <pb n="0058a" ed="Y" xml:id="Y19.0019.0058a"/>
-<lb n="0058a01" ed="Y"/><p style="text-indent:2em">儒佛一致的修身之道，是有修學次第的。從平凡的人身，向上修學，達到高
+<lb n="0058a01" ed="Y"/><p xml:id="pY19p0058a0101" style="text-indent:2em">儒佛一致的修身之道，是有修學次第的。從平凡的人身，向上修學，達到高
 <lb n="0058a02" ed="Y"/>明究竟的地步，當然要有次第，要遵循漸入的程序。<cit><bibl><title level="m">《大學》</title>說：</bibl><quote>「知所先後，
 <lb n="0058a03" ed="Y"/>則近道矣」</quote></cit>，這是怎樣的重視次第！<quote>「登高自卑，行遠自邇」</quote>，原是不容躐等的
 <lb n="0058a04" ed="Y"/>。佛法也是一樣，佛說：<quote source="T40n1804_p0025a24-25" type="寬鬆引文">「佛法如大海，漸入漸深」<note n="0058001" resp="周怡曄" type="add">《四分律刪繁補闕行事鈔》卷1：「佛法不爾。猶如大海漸深漸入。」(CBETA, T40, no. 1804, p. 25, a24-25)</note></quote>。兩晉以前，印度傳來的佛
@@ -102,7 +122,7 @@
 <lb n="0058a08" ed="Y"/>有<title level="m">《大乘入道次第章》</title>。佛法在西藏，有著名的<title level="m">《菩提道次第》</title>，也就是證入涅
 <lb n="0058a09" ed="Y"/>槃的道次。證入，有漸入的，頓入的，但從道的修學歷程說，是不能沒有始終先
 <lb n="0058a10" ed="Y"/>後的。現在要說到的修身之道，就是依先後的道次來說。</p>
-<lb n="0058a11" ed="Y"/><cb:mulu level="3" type="其他">二、大人之學</cb:mulu><head>二、大人之學</head><p style="text-indent:2em">修身為本的大學，朱子說是：<quote>「大人之學」</quote>。什麼是小人與
+<lb n="0058a11" ed="Y"/><cb:mulu level="3" type="其他">二、大人之學</cb:mulu><head>二、大人之學</head><p xml:id="pY19p0058a1111" style="text-indent:2em">修身為本的大學，朱子說是：<quote>「大人之學」</quote>。什麼是小人與
 <lb n="0058a12" ed="Y"/>大人呢？孔子每以君子與小人對稱，如說：<quote type="嚴謹引文">「女為君子儒，無為小人儒」</quote>。孟子
 <lb n="0058a13" ed="Y"/>卻有時以大人與小人對稱，如說：<quote type="嚴謹引文">「養其小者為小人，養其大者為大人」</quote>。在古
 <pb n="0059a" ed="Y" xml:id="Y19.0019.0059a"/>
@@ -112,12 +132,12 @@
 <lb n="0059a04" ed="Y"/>德學來化導平民，所以說：<quote type="嚴謹引文">「君子之德風，小人之德草」</quote>。這樣，小人不一定是
 <lb n="0059a05" ed="Y"/>壞人，只是局限於生活利益，而不能本著德學來利益廣大人群。所以樊遲問稼，
 <lb n="0059a06" ed="Y"/>問圃，孔子就不免慨歎說：<quote type="嚴謹引文">「小人哉！樊須也」</quote>。</p>
-<lb n="0059a07" ed="Y"/><p style="text-indent:2em">大人君子的大學，本是執政者的政治學，所以被看作<quote>「堯、舜、禹、湯、文
+<lb n="0059a07" ed="Y"/><p xml:id="pY19p0059a0701" style="text-indent:2em">大人君子的大學，本是執政者的政治學，所以被看作<quote>「堯、舜、禹、湯、文
 <lb n="0059a08" ed="Y"/>、武、周公之道」</quote>。但孔子以來，道學民間化，政治不只是貴族的政治，布衣卿
 <lb n="0059a09" ed="Y"/>相也起來了。這樣，沒有從政的平民，也有學習政治的；而有了修身為本的政治
 <lb n="0059a10" ed="Y"/>學，卻不一定有從政的機會。於是乎從政的君子與大人，漸演為修身立德的君子
 <lb n="0059a11" ed="Y"/>與大人。小人也不再等於平民，而成為醉心私利者的別名。</p>
-<lb n="0059a12" ed="Y"/><p style="text-indent:2em">大學可解說為大人之學，那小學也可說是小人之學嗎？古代，原有小學與大
+<lb n="0059a12" ed="Y"/><p xml:id="pY19p0059a1201" style="text-indent:2em">大學可解說為大人之學，那小學也可說是小人之學嗎？古代，原有小學與大
 <lb n="0059a13" ed="Y"/>學的學制。初入小學，學習文字（所以稱文字學為小學）；學習灑掃應對，也就
 <pb n="0060a" ed="Y" xml:id="Y19.0019.0060a"/>
 <lb n="0060a01" ed="Y"/>是對父兄賓客的禮節，與日常家庭生活的學習。等到進入大學，近於孔子的六藝
@@ -137,21 +157,21 @@
 <lb n="0061a01" ed="Y"/>夏的話，也極有道理。有始有終，原是不容易的。始小而不能終歸於大，結果會
 <lb n="0061a02" ed="Y"/>背棄儒學；而偏重尊德性的，離小說大，如理學的演化到空疏媕陋，也不一定是
 <lb n="0061a03" ed="Y"/>君子儒的真面目吧！</p>
-<lb n="0061a04" ed="Y"/><p style="text-indent:2em">與此有同樣意義的，就是佛法的小乘與大乘了。大學是大人之學，大乘也就
+<lb n="0061a04" ed="Y"/><p xml:id="pY19p0061a0401" style="text-indent:2em">與此有同樣意義的，就是佛法的小乘與大乘了。大學是大人之學，大乘也就
 <lb n="0061a05" ed="Y"/>是大人之乘。龍樹<cit><bibl><title level="m">《十二門論》</title>說：</bibl><quote type="嚴謹引文">「諸佛大人乘是乘故，故名為大。……又觀
-<lb n="0061a06" ed="Y"/>世音，得大勢，文殊師利，彌勒菩薩等，是諸大士之所乘故，名為大<note n="0061a0601" resp="CBETA" type="add">［－］【CB】，乘【印順】</note><app n="0061a0601"><lem wit="【CB】" resp="正聞出版社"><note type="cf1">《十二門論》卷1(CBETA, T30, no. 1568, p. 159, c16-19)</note></lem><rdg wit="【印順】">乘</rdg></app>」</quote><note n="0061001" resp="厚觀法師" type="add">《十二門論》卷1：「諸佛大人乘是乘故。故名為大。又能滅除眾生大苦。與大利益事故名為大。又觀世音。得大勢。文殊師利。彌勒菩薩等。是諸大士之所乘故。故名為大。」(CBETA, T30, no. 1568, p. 159, c16-19)</note></cit>。佛法
+<lb n="0061a06" ed="Y"/>世音，得大勢，文殊師利，彌勒菩薩等，是諸大士之所乘故，名為大<note n="0061a0601" resp="CBETA" type="add">［－］【CB】，乘【印順】</note><app n="0061a0601"><lem resp="正聞出版社" wit="【CB】"><note type="cf1">《十二門論》卷1(CBETA, T30, no. 1568, p. 159, c16-19)</note></lem><rdg wit="【印順】">乘</rdg></app>」</quote><note n="0061001" resp="厚觀法師" type="add">《十二門論》卷1：「諸佛大人乘是乘故。故名為大。又能滅除眾生大苦。與大利益事故名為大。又觀世音。得大勢。文殊師利。彌勒菩薩等。是諸大士之所乘故。故名為大。」(CBETA, T30, no. 1568, p. 159, c16-19)</note></cit>。佛法
 <lb n="0061a07" ed="Y"/>本是平等一味的，無所謂小乘與大乘。為了人的根性不同，方便適應，不能沒有
 <lb n="0061a08" ed="Y"/>大乘與小乘的差別。所以說：<quote source="X72n1440_p0647a04-05" type="寬鬆引文">「一地所生，一雨所滋，三草兩木，各自生長」<note n="0061002" resp="周怡曄" type="add">(1)《為霖道霈禪師還山錄》卷1：「一地所生一雨所潤。三草二木各得增長。」(CBETA, X72, no. 1440, p. 647, a4-5 // Z 2:30, p. 463, c4-5 // R125, p. 926, a4-5)；(2)《妙法蓮華經》卷3〈5 藥草喻品〉：「一地所生，一雨所潤，而諸草木，各有差別。」(CBETA, T09, no. 262, p. 19, b5-6)</note></quote>。
-<lb n="0061a09" ed="Y"/>在佛的本懷，這是一貫的。<quote type="嚴謹引文">「始則為實施權，終<note n="0061a0901" resp="CBETA" type="add">乃開【CB】，則會【印順】</note><app n="0061a0901"><lem wit="【CB】" resp="正聞出版社">乃開<note type="cf1">《法華經演義》卷4(CBETA, X33, no. 625, p. 176, b7-8 // Z 1:52, p. 153, c14-15 // R52, p. 306, a14-15)</note></lem><rdg wit="【印順】">則會</rdg></app>權<note n="0061a0902" resp="CBETA" type="add">顯【CB】，歸【印順】</note><app n="0061a0902"><lem wit="【CB】" resp="正聞出版社">顯</lem><rdg wit="【印順】">歸</rdg></app>實」<note n="0061003" resp="厚觀法師" type="add">《法華經演義》卷4(CBETA, X33, no. 625, p. 176, b7-8 // Z 1:52, p. 153, c14-15 // R52, p. 306, a14-15)</note></quote>，一切同歸大乘的
+<lb n="0061a09" ed="Y"/>在佛的本懷，這是一貫的。<quote type="嚴謹引文">「始則為實施權，終<note n="0061a0901" resp="CBETA" type="add">乃開【CB】，則會【印順】</note><app n="0061a0901"><lem resp="正聞出版社" wit="【CB】">乃開<note type="cf1">《法華經演義》卷4(CBETA, X33, no. 625, p. 176, b7-8 // Z 1:52, p. 153, c14-15 // R52, p. 306, a14-15)</note></lem><rdg wit="【印順】">則會</rdg></app>權<note n="0061a0902" resp="CBETA" type="add">顯【CB】，歸【印順】</note><app n="0061a0902"><lem resp="正聞出版社" wit="【CB】">顯</lem><rdg wit="【印順】">歸</rdg></app>實」<note n="0061003" resp="厚觀法師" type="add">《法華經演義》卷4(CBETA, X33, no. 625, p. 176, b7-8 // Z 1:52, p. 153, c14-15 // R52, p. 306, a14-15)</note></quote>，一切同歸大乘的
 <lb n="0061a10" ed="Y"/>實道，也就是有始有終，其唯聖人了。可是，由於根性不同，學風的好尚不同，
 <lb n="0061a11" ed="Y"/>佛教也就有滯小而不知歸大的小乘。大乘與小乘的主要差別是：一、小乘是重律
 <lb n="0061a12" ed="Y"/>的，律與儒家的禮相近。偏重的學派，流行於錫蘭、緬甸等國，都是偏重制度，
-<lb n="0061a13" ed="Y"/>拘泥形<note n="0061a1301" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0061a1301"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>。大乘是重法的，重於義理的鑽研，法性的體證。二、小乘是著重己利
+<lb n="0061a13" ed="Y"/>拘泥形<note n="0061a1301" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0061a1301"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>。大乘是重法的，重於義理的鑽研，法性的體證。二、小乘是著重己利
 <pb n="0062a" ed="Y" xml:id="Y19.0019.0062a"/>
 <lb n="0062a01" ed="Y"/>的，大乘是著重自利利他的。所以佛教的大乘學，與儒家修身為本的大學，是比
 <lb n="0062a02" ed="Y"/>較接近的。不過，在大乘佛教的流傳中，也有些忽略三乘共學（小乘），不能始
 <lb n="0062a03" ed="Y"/>終條理，成為偏重心性冥證的空疏學派。與佛的大乘本義，也就多少出入了。</p>
-<lb n="0062a04" ed="Y"/><cb:mulu level="3" type="其他">三、大道之二階與二類</cb:mulu><head>三、大道之二階與二類</head><p style="text-indent:2em">修身為本的大道，可以略分為二階。我們的身心是
+<lb n="0062a04" ed="Y"/><cb:mulu level="3" type="其他">三、大道之二階與二類</cb:mulu><head>三、大道之二階與二類</head><p xml:id="pY19p0062a0419" style="text-indent:2em">修身為本的大道，可以略分為二階。我們的身心是
 <lb n="0062a05" ed="Y"/>不清淨的：思想有錯誤，行為多有不妥當。由於自己的身心不淨，所作都成為生
 <lb n="0062a06" ed="Y"/>死邊事；煩惱與不淨業，招感了種種苦果。所以學佛應先將自己的身心轉變過來
 <lb n="0062a07" ed="Y"/>，使成為清淨的，超過一般的；這叫自利，也叫「般若道」。因為凡夫都是情識
@@ -169,7 +189,7 @@
 <lb n="0063a05" ed="Y"/>學以修身為本；要成賢成聖，必先從修己做起，儒、佛大致相合。佛法是，完成
 <lb n="0063a06" ed="Y"/>自利的，可以廣度眾生，莊嚴國土。儒者說：修其身，而後能齊家治國，明明德
 <lb n="0063a07" ed="Y"/>於天下。</p>
-<lb n="0063a08" ed="Y"/><p style="text-indent:2em">大道平等不二，但在人修學起來，就有不同的風格。依佛法說，眾生的根性
+<lb n="0063a08" ed="Y"/><p xml:id="pY19p0063a0801" style="text-indent:2em">大道平等不二，但在人修學起來，就有不同的風格。依佛法說，眾生的根性
 <lb n="0063a09" ed="Y"/>，千差萬別，所以應機說法，也就有不同。有的一心一意，先要修治己身。急急
 <lb n="0063a10" ed="Y"/>的成就己利，做到身心清淨，自由自在。這是以修身為本的，專重修身的。依儒
 <lb n="0063a11" ed="Y"/>學說，當然是大人之學了。但佛法稱他是小乘，即使他終歸於大乘，而現階段，
@@ -178,7 +198,7 @@
 <pb n="0064a" ed="Y" xml:id="Y19.0019.0064a"/>
 <lb n="0064a01" ed="Y"/>。二、悲增上的，著重於慈悲益物。這二類，都是發心學佛，以自利利他為宗，
 <lb n="0064a02" ed="Y"/>只是初學時著重不同而已。</p>
-<lb n="0064a03" ed="Y"/><p style="text-indent:2em">大乘學的自利利他，可說是窮深極廣！說修身，要把從我見而來的生死，徹
+<lb n="0064a03" ed="Y"/><p xml:id="pY19p0064a0301" style="text-indent:2em">大乘學的自利利他，可說是窮深極廣！說修身，要把從我見而來的生死，徹
 <lb n="0064a04" ed="Y"/>底掀翻，了生死，得解脫。儒家的修身，意趣相近而深度不夠。至於大乘的利他
 <lb n="0064a05" ed="Y"/>，論對象，不只是人類，而遍為一切眾生。論時間，不但是現在，而盡未來際。
 <lb n="0064a06" ed="Y"/>論空間，遍為一切世界，不捨棄一個眾生，而儒家呢，著重於人類，拘限於現在
@@ -201,18 +221,18 @@
 <lb n="0065a09" ed="Y"/>共產黨那樣，驅迫學生去勞動生產，才算不自私嗎？利他必以修身為本；真的要
 <lb n="0065a10" ed="Y"/>徹底的修身克己一番，應有這自利的階段。</p></cb:div>
 <lb n="0065a11" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">二　道之宗要及其次第</cb:mulu><head>二　道之宗要及其次第</head>
-<lb n="0065a12" ed="Y"/><cb:mulu level="3" type="其他">一、學道之要在知</cb:mulu><head>一、學道之要在知</head><p style="text-indent:2em">修身之道，是有宗要與次第的，如<title level="m">《大學》</title>之三綱領與
+<lb n="0065a12" ed="Y"/><cb:mulu level="3" type="其他">一、學道之要在知</cb:mulu><head>一、學道之要在知</head><p xml:id="pY19p0065a1215" style="text-indent:2em">修身之道，是有宗要與次第的，如<title level="m">《大學》</title>之三綱領與
 <pb n="0066a" ed="Y" xml:id="Y19.0019.0066a"/>
 <lb n="0066a01" ed="Y"/>八條目。無論是綱宗，或是次第，都以知為必要。<cit><bibl><title level="m">《大學》</title>明明的說：</bibl><quote type="嚴謹引文">「在明明
 <lb n="0066a02" ed="Y"/>德，在親民，在止於至善」</quote></cit>。下手工夫，是止於至善；這先要<quote type="嚴謹引文">「知止（於至善）
 <lb n="0066a03" ed="Y"/>而後（才）……能得」</quote>。又說：<quote type="嚴謹引文">「物有本末，事有終始，知所先後，則近道矣」</quote>
 <lb n="0066a04" ed="Y"/>。知，是那樣的重要！</p>
-<lb n="0066a05" ed="Y"/><p style="text-indent:2em">「修身以道」，不外乎道的學習。道是不曾離開我們的，如經說：<quote type="嚴謹引文">「一切法
+<lb n="0066a05" ed="Y"/><p xml:id="pY19p0066a0501" style="text-indent:2em">「修身以道」，不外乎道的學習。道是不曾離開我們的，如經說：<quote type="嚴謹引文">「一切法
 <lb n="0066a06" ed="Y"/>不出於如」</quote>。<cit><bibl><title level="m">《中庸》</title>也說：</bibl><quote type="嚴謹引文">「可離非道也」</quote></cit>。道雖不曾離我們，而我們卻沒有
 <lb n="0066a07" ed="Y"/>與道相應，不曾能明道而體現出來，這當然有了障道的東西。障道的是什麼？可
 <lb n="0066a08" ed="Y"/>能說得不一定相同，但不能不修身以明道，不能沒有修道之謂教，到底是大體一
 <lb n="0066a09" ed="Y"/>致的。</p>
-<lb n="0066a10" ed="Y"/><p style="text-indent:2em">道是無所不在的，但卻是不可思議——不是概念的知識，語言文字所能表達
+<lb n="0066a10" ed="Y"/><p xml:id="pY19p0066a1001" style="text-indent:2em">道是無所不在的，但卻是不可思議——不是概念的知識，語言文字所能表達
 <lb n="0066a11" ed="Y"/>得了的。<cit><bibl><title level="m">《老子》</title>說：</bibl><quote type="嚴謹引文">「道可道，非常道」</quote></cit>。又說：視之不見，聽之不聞，搏之
 <lb n="0066a12" ed="Y"/>不得（佛法稱為<quote>「超越根量」</quote>），而只可強名為道。儒者不大深說他，但也有<quote type="嚴謹引文">「
 <lb n="0066a13" ed="Y"/>無聲無臭」</quote>等說。其實，這不但佛法、道家、儒家，世間儘多有這樣的宗教與哲
@@ -224,11 +244,11 @@
 <lb n="0067a05" ed="Y"/>什麼樣的修學歷程，才是主要問題。這便是不能不知道的宗要與次第的真義所在
 <lb n="0067a06" ed="Y"/>。如不知宗要，不知次第，儘他說得玄之又玄，都無非是卜度擬議。如畫鬼的一
 <lb n="0067a07" ed="Y"/>樣，人人說好，其實是毫不相干。</p>
-<lb n="0067a08" ed="Y"/><p style="text-indent:2em">儒者以修身為本，而齊家治國平天下為末；以致知，也就是知止於至善為先
+<lb n="0067a08" ed="Y"/><p xml:id="pY19p0067a0801" style="text-indent:2em">儒者以修身為本，而齊家治國平天下為末；以致知，也就是知止於至善為先
 <lb n="0067a09" ed="Y"/>，以平天下——明明德於天下為後。<quote type="嚴謹引文">「物有本末，事有終始，知所先後，則近道
 <lb n="0067a10" ed="Y"/>矣」</quote>。在佛法，修治身心為本，這是不消多說的。<title level="m">《阿含經》</title>以正見為先，大乘
 <lb n="0067a11" ed="Y"/>以般若（慧）為導，正見或般若，都說明了知為進入佛道的要門。</p>
-<lb n="0067a12" ed="Y"/><p style="text-indent:2em">道的宗要與次第，怎樣才能知呢？這就是聞，也就是學了。孔子說：<quote type="嚴謹引文">「朝聞
+<lb n="0067a12" ed="Y"/><p xml:id="pY19p0067a1201" style="text-indent:2em">道的宗要與次第，怎樣才能知呢？這就是聞，也就是學了。孔子說：<quote type="嚴謹引文">「朝聞
 <lb n="0067a13" ed="Y"/>道，夕死可矣」</quote>！佛在<cit><bibl><title level="m">《法句》</title>中說：</bibl><quote>「若人生百歲，不聞生滅法，不如生一日
 <pb n="0068a" ed="Y" xml:id="Y19.0019.0068a"/>
 <lb n="0068a01" ed="Y"/>，而得見聞之」</quote></cit>。道的內容淺深，可能不完全一致，但從聞道的重要來說，完全
@@ -240,7 +260,7 @@
 <lb n="0068a07" ed="Y"/>之，好學雖不是專在考據訓詁中作活計，但修身或修道，是不能不學，不能不聞
 <lb n="0068a08" ed="Y"/>的。中庸舉博學，審問，慎思，明辨，篤行五項；佛法說聞，思，修三階。雖開
 <lb n="0068a09" ed="Y"/>合不同，而修身為本的道，都認為必須從學——聞中得來。</p>
-<lb n="0068a10" ed="Y"/><p style="text-indent:2em">古聖先賢，依著自己的學歷經驗，為了誘誨後學，雖然道是不可思議的，而
+<lb n="0068a10" ed="Y"/><p xml:id="pY19p0068a1001" style="text-indent:2em">古聖先賢，依著自己的學歷經驗，為了誘誨後學，雖然道是不可思議的，而
 <lb n="0068a11" ed="Y"/>不得不以語文來詮表他。由於個性及文化承習不同，教誨的對象不同，說得或深
 <lb n="0068a12" ed="Y"/>或淺，甚至可能有是有非，但這終究不失為修學的指導。莊子以為：表現於文字
 <lb n="0068a13" ed="Y"/>章句的，早成為道的糟粕；這是<quote>「離文字而說解脫」</quote>的。我們雖然不可以盡信書
@@ -257,7 +277,7 @@
 <lb n="0069a10" ed="Y"/>於實行的，為政而何必讀書，與近人所說的社會大學：革命第一，讀書第二，同
 <lb n="0069a11" ed="Y"/>一想法。這是似是而非的，所以受到孔子的譏嫌。不但從政如此，那些說心說性
 <lb n="0069a12" ed="Y"/>而認為何必讀書的，也一樣是孔子與釋迦的罪人！</p>
-<lb n="0069a13" ed="Y"/><cb:mulu level="3" type="其他">二、道要與道次之略說</cb:mulu><head>二、道要與道次之略說</head><p style="text-indent:2em">儒者的大學之道，有三綱領（宗要）：<quote type="嚴謹引文">「在明明德
+<lb n="0069a13" ed="Y"/><cb:mulu level="3" type="其他">二、道要與道次之略說</cb:mulu><head>二、道要與道次之略說</head><p xml:id="pY19p0069a1319" style="text-indent:2em">儒者的大學之道，有三綱領（宗要）：<quote type="嚴謹引文">「在明明德
 <pb n="0070a" ed="Y" xml:id="Y19.0019.0070a"/>
 <lb n="0070a01" ed="Y"/>，在親民，在止於至善」</quote>。這三要，可以作多種解說，但應特別注意那三個「在
 <lb n="0070a02" ed="Y"/>」字。在，指出大學的宗要所在，更一層層的推究到下手處。在明明德，就是下
@@ -268,13 +288,13 @@
 <lb n="0070a07" ed="Y"/>住的境地。這個應止的至善，分別來說，是仁、義、禮、智等；總相的說，是良
 <lb n="0070a08" ed="Y"/>知。所以止於至善，就是致知。心住於善，使善心擴充而到達究極，就是致知功
 <lb n="0070a09" ed="Y"/>夫。致知的本義，應該是住心於道德意識的自覺，而引使擴充。這到下面再說。</p>
-<lb n="0070a10" ed="Y"/><p style="text-indent:2em">程、朱著重了人人以修身為本的大學，所以撇開政治理想，以明明德為顯發
+<lb n="0070a10" ed="Y"/><p xml:id="pY19p0070a1001" style="text-indent:2em">程、朱著重了人人以修身為本的大學，所以撇開政治理想，以明明德為顯發
 <lb n="0070a11" ed="Y"/>己心的明德；然後推己及人叫新民；而後自明與新他，達到至善的地步。這也許
 <lb n="0070a12" ed="Y"/>是可以這樣解說的，以明明德為先，止於至善為後（這是受了禪宗影響的新說）
 <lb n="0070a13" ed="Y"/>。但探求大學的本義，必須注意「在」字，一定要著落到知止於至善為下手處，
 <pb n="0071a" ed="Y" xml:id="Y19.0019.0071a"/>
 <lb n="0071a01" ed="Y"/>才能與下文相呼應。</p>
-<lb n="0071a02" ed="Y"/><p style="text-indent:2em">說到八條目，就是修學的次第。大學的下手功夫，<quote type="嚴謹引文">「在止於至善」</quote>；<quote type="嚴謹引文">「知止
+<lb n="0071a02" ed="Y"/><p xml:id="pY19p0071a0201" style="text-indent:2em">說到八條目，就是修學的次第。大學的下手功夫，<quote type="嚴謹引文">「在止於至善」</quote>；<quote type="嚴謹引文">「知止
 <lb n="0071a03" ed="Y"/>而後……能得」</quote>。所以大學的進修歷程，是：<quote type="嚴謹引文">「物格而後知至，知至而後意誠，
 <lb n="0071a04" ed="Y"/>意誠而後心正，心正而後身修，身修而後家齊，家齊而後國治，國治而後天下平
 <lb n="0071a05" ed="Y"/>」</quote>。對於這一學次，想說到幾點。一、八條目實是七因果系：格物為因，致知為
@@ -299,7 +319,7 @@
 <lb n="0072a10" ed="Y"/>心正，正心是依於誠意，更遠依於致知的。這樣的正心，就含攝得致知與誠意。
 <lb n="0072a11" ed="Y"/>當然，正心相應的知，又殊勝多了！這樣，修身完成，也就是致知，誠意，正心
 <lb n="0072a12" ed="Y"/>的完成。這一相依相攝的道理，極為重要！</p>
-<lb n="0072a13" ed="Y"/><p style="text-indent:2em">大乘與大學相近，也有三綱領，稱為三金剛句。如<cit><bibl><title level="m">《大般若經》</title>說：</bibl><quote source="T07n0220_p0479c29" type="寬鬆引文">「一切
+<lb n="0072a13" ed="Y"/><p xml:id="pY19p0072a1301" style="text-indent:2em">大乘與大學相近，也有三綱領，稱為三金剛句。如<cit><bibl><title level="m">《大般若經》</title>說：</bibl><quote source="T07n0220_p0479c29" type="寬鬆引文">「一切
 <pb n="0073a" ed="Y" xml:id="Y19.0019.0073a"/>
 <lb n="0073a01" ed="Y"/>智智（大菩提的別名）相應作意，大悲為上首，無所得為方便」</quote><note n="0073001" resp="周怡曄" type="add">《大般若波羅蜜多經(第401卷-第600卷)》卷488〈3 善現品〉：「菩薩摩訶薩以一切智智相應作意，大悲為首，自捨一切內外所有，亦勸他捨內外諸物，持此善根，用無所得而為方便，與諸有情平等共有迴向無上正等菩提，是為布施波羅蜜多」(CBETA, T07, no. 220, p. 479, c29-p. 480, a5)</note></cit>。聖龍樹的<cit><bibl><title level="m">《寶
 <lb n="0073a02" ed="Y"/>鬘論》</title>也說：</bibl><quote type="寬鬆引文">「不動菩提心，堅固如山王；遍際大悲心；不著二邊慧」</quote><note n="0073002" resp="周怡曄" type="add">《入中論》卷1：「本謂菩提心，堅固如山王；大悲遍十方；不依二邊慧」</note></cit>。這三者
@@ -316,7 +336,7 @@
 <lb n="0073a13" ed="Y"/>有無我慧，才會徹明真理，能徹底的利他。無我慧是佛法特有的至善，為一切出
 <pb n="0074a" ed="Y" xml:id="Y19.0019.0074a"/>
 <lb n="0074a01" ed="Y"/>世法的根源。</p>
-<lb n="0074a02" ed="Y"/><p style="text-indent:2em">此三心，是大乘學綱，也是次第。我曾依聖龍樹的五菩提而略明學程。首先
+<lb n="0074a02" ed="Y"/><p xml:id="pY19p0074a0201" style="text-indent:2em">此三心，是大乘學綱，也是次第。我曾依聖龍樹的五菩提而略明學程。首先
 <lb n="0074a03" ed="Y"/>，發起大菩提願，誓願上成佛道，下化眾生。然後廣修十善行，積集十王大業，
 <lb n="0074a04" ed="Y"/>為大悲心行。末了，慧從定發，徹證不生滅的空無我性，就是體達了無漏的至善
 <lb n="0074a05" ed="Y"/>。以上是般若道。這一無漏至善的現證，在向上的方便道中，也名為菩提心——
@@ -330,7 +350,7 @@
 <lb n="0074a13" ed="Y"/>階。一分圓頓的佛教，如禪宗等，大抵忽視前階，而想直入勝義菩提心。這一學
 <pb n="0075a" ed="Y" xml:id="Y19.0019.0075a"/>
 <lb n="0075a01" ed="Y"/>風，影響儒學而成為理學。然在完整的道次中，始終條理，是不能忽視先後的。</p>
-<lb n="0075a02" ed="Y"/><p style="text-indent:2em">佛法遍為一切眾生，所以如廣說修學次第，是非常複雜的。最大概的分別為
+<lb n="0075a02" ed="Y"/><p xml:id="pY19p0075a0201" style="text-indent:2em">佛法遍為一切眾生，所以如廣說修學次第，是非常複雜的。最大概的分別為
 <lb n="0075a03" ed="Y"/>三：一、五乘共的人天乘；二、三乘共的二乘；三、大乘不共的佛乘。如儒家的
 <lb n="0075a04" ed="Y"/>大學，一般說來，是人乘（通於天乘）的善法。佛出世的時代，人類的厭離心很
 <lb n="0075a05" ed="Y"/>深，所以依於人乘的善法，而趨入無漏至善的聖法，以後才回小入大。依佛法來
@@ -345,7 +365,7 @@
 <pb n="0076a" ed="Y" xml:id="Y19.0019.0076a"/>
 <lb n="0076a01" ed="Y"/>法的真宗，這就是太虛大師所說的人生佛教。</p></cb:div>
 <lb n="0076a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">三　格物以致其知（信成就）</cb:mulu><head>三　格物以致其知（信成就）</head>
-<lb n="0076a03" ed="Y"/><cb:mulu level="3" type="其他">一、約儒學說</cb:mulu><head>一、約儒學說</head><p style="text-indent:2em">修身為本的大學，在乎<quote type="嚴謹引文">「先致其知」</quote>，致是得到的意思。儒
+<lb n="0076a03" ed="Y"/><cb:mulu level="3" type="其他">一、約儒學說</cb:mulu><head>一、約儒學說</head><p xml:id="pY19p0076a0311" style="text-indent:2em">修身為本的大學，在乎<quote type="嚴謹引文">「先致其知」</quote>，致是得到的意思。儒
 <lb n="0076a04" ed="Y"/>者所致的知，依<title level="m">《大學》</title>（孟子、中庸）看來，雖含得理智成分，但著重在善，
 <lb n="0076a05" ed="Y"/>是性善的良知。如<cit><bibl><title level="m">《大學》</title>開宗明義，初說：</bibl><quote type="嚴謹引文">「在明明德，在親民，在止於至善
 <lb n="0076a06" ed="Y"/>」</quote></cit>；接著就說：<quote type="嚴謹引文">「知止而後……能得」</quote>。次廣明說：<quote type="嚴謹引文">「先致其知」</quote>。其後解說止
@@ -354,14 +374,14 @@
 <lb n="0076a09" ed="Y"/>至善（仁等），就是知止；學習到得而勿失，就名為致知。古本<title level="m">《大學》</title>中，文
 <lb n="0076a10" ed="Y"/>義一貫，極為明白。致知的知，是至善的良知。初學者要安住（止）他，進而得
 <lb n="0076a11" ed="Y"/>到他，試引<title level="m">《中庸》</title>及<title level="m">《孟子》</title>來說明。</p>
-<lb n="0076a12" ed="Y"/><p style="text-indent:2em"><cit><bibl><title level="m">《中庸》</title>說：</bibl><quote type="嚴謹引文">「回之為人也，擇乎中庸，得一善，則拳拳服膺而弗失之矣」</quote></cit>
+<lb n="0076a12" ed="Y"/><p xml:id="pY19p0076a1201" style="text-indent:2em"><cit><bibl><title level="m">《中庸》</title>說：</bibl><quote type="嚴謹引文">「回之為人也，擇乎中庸，得一善，則拳拳服膺而弗失之矣」</quote></cit>
 <pb n="0077a" ed="Y" xml:id="Y19.0019.0077a"/>
 <lb n="0077a01" ed="Y"/>。又說：<quote type="嚴謹引文">「誠之者，擇善而固執之者也」</quote>。佛法說：「思擇」、「抉擇」，都是
 <lb n="0077a02" ed="Y"/>知（慧）的作用。擇善，就是知善、思擇善。「固執」、「勿失」，就是知止於
 <lb n="0077a03" ed="Y"/>善，慮而後得的致知。起初，此雖是一善，一端的善，但能固執勿失、止，就能
 <lb n="0077a04" ed="Y"/>充類至盡而廣大起來。如<cit><bibl><title level="m">《中庸》</title>說：</bibl><quote type="嚴謹引文">「其次致曲」</quote></cit>，致曲即致一端的善；能致
 <lb n="0077a05" ed="Y"/>曲，就能<quote type="嚴謹引文">「有誠，……能化」</quote>了。</p>
-<lb n="0077a06" ed="Y"/><p style="text-indent:2em">孟子說性善，說良知，良心，把致知作致良知解，是儒者的一般見地。依孟
+<lb n="0077a06" ed="Y"/><p xml:id="pY19p0077a0601" style="text-indent:2em">孟子說性善，說良知，良心，把致知作致良知解，是儒者的一般見地。依孟
 <lb n="0077a07" ed="Y"/>子說：<quote type="寬鬆引文">「人所不學而能者，其良能也；不慮而知者，其良知也。孩提之童，無不
 <lb n="0077a08" ed="Y"/>知愛其親也；及其長也，無不知敬其兄也」</quote>。這是約孝弟說（<quote type="寬鬆引文">「孝弟為仁之本」</quote>
 <lb n="0077a09" ed="Y"/>），舉出愛親敬兄的善德，以例明性自有之的良知。又二次說到：惻隱之心，羞
@@ -371,13 +391,13 @@
 <lb n="0077a13" ed="Y"/>善性一樣，所以孟子舉牛山濯濯的比喻，來說明這良知的消失。依佛法說：善心
 <pb n="0078a" ed="Y" xml:id="Y19.0019.0078a"/>
 <lb n="0078a01" ed="Y"/>是可能在一期間喪失而不現起的，稱為「斷善根」。這只是一期的不起，如受到
-<lb n="0078a02" ed="Y"/>苦難的逼切，或善友的激發，又會<note n="0078a0201" resp="CBETA" type="add" subtype="規範字詞">倏【CB】，倐【印順】</note><app n="0078a0201"><lem wit="【CB】" resp="CBETA">倏</lem><rdg wit="【印順】">倐</rdg></app>的善心現前，稱為「續善根」。斷善根的是
+<lb n="0078a02" ed="Y"/>苦難的逼切，或善友的激發，又會<note n="0078a0201" resp="CBETA" type="add" subtype="規範字詞">倏【CB】，倐【印順】</note><app n="0078a0201"><lem resp="CBETA" wit="【CB】">倏</lem><rdg wit="【印順】">倐</rdg></app>的善心現前，稱為「續善根」。斷善根的是
 <lb n="0078a03" ed="Y"/>絕少數；在一般人，善心都是或多或少現起的。所以致良知，不是得到什麼高深
 <lb n="0078a04" ed="Y"/>的悟境，不在乎良知——善心的生起，而是怎樣使良知念念相續，展轉增長。如
 <lb n="0078a05" ed="Y"/>源泉的渾渾而來，流成長江大河；像星星的火，使他旺盛而不息。只此一念良知
 <lb n="0078a06" ed="Y"/>，孟子說：<quote type="嚴謹引文">「求則得之」</quote>，<quote type="嚴謹引文">「思則得之」</quote>，重在一個得字。得是「勿失」，「知
 <lb n="0078a07" ed="Y"/>至」；約佛法的術語說，是「成就」，「不退」。</p>
-<lb n="0078a08" ed="Y"/><p style="text-indent:2em">良知是人人固有的，但要「致知」，或者說「得之」，「勿失」，這可要一
+<lb n="0078a08" ed="Y"/><p xml:id="pY19p0078a0801" style="text-indent:2em">良知是人人固有的，但要「致知」，或者說「得之」，「勿失」，這可要一
 <lb n="0078a09" ed="Y"/>番修持功夫。孟子提出了「求」與「思」；<cit><bibl><title level="m">《中庸》</title>說</bibl><quote type="嚴謹引文">「拳拳服膺」</quote></cit>，<quote type="嚴謹引文">「固執」</quote>
 <lb n="0078a10" ed="Y"/>；<cit><bibl><title level="m">《大學》</title>說</bibl><quote type="嚴謹引文">「在格物」</quote></cit>，而格物致知，要經止，定，靜，安，慮，得——六個
 <lb n="0078a11" ed="Y"/>過程。現在以格物為主來說明他。什麼叫格物？儒者的異說極多，有的是越說越
@@ -386,7 +406,7 @@
 <pb n="0079a" ed="Y" xml:id="Y19.0019.0079a"/>
 <lb n="0079a01" ed="Y"/>在格物」</quote>，格物為因，致知為果，而鄭注卻顛倒的說成知至而后格物了！這些，
 <lb n="0079a02" ed="Y"/>也不用一一料簡。</p>
-<lb n="0079a03" ed="Y"/><p style="text-indent:2em">良知的所以喪失，是蔽於物而陷溺其心的關係。對於這，孟子有一段重要文
+<lb n="0079a03" ed="Y"/><p xml:id="pY19p0079a0301" style="text-indent:2em">良知的所以喪失，是蔽於物而陷溺其心的關係。對於這，孟子有一段重要文
 <lb n="0079a04" ed="Y"/>字，如說：<quote type="嚴謹引文">「耳目之官，不思而蔽於物，物交物則引之而已矣。心之官則思，思
 <lb n="0079a05" ed="Y"/>則得之，不思則不得也」</quote>。孟子分官能為二：<quote type="嚴謹引文">「耳目之官」</quote>，是眼、耳、鼻、舌
 <lb n="0079a06" ed="Y"/>、身五根，是色法——物。從五根而發生的五識，是不能思擇善惡與義理的（佛
@@ -403,14 +423,14 @@
 <lb n="0080a03" ed="Y"/>於物質的官能；性善的良知，屬於能思擇的心。這種心物、善惡二分法，實在籠
 <lb n="0080a04" ed="Y"/>統之極！但為物所轉，蔽於物而習於惡；能思擇才能致良知，到底不失為修持的
 <lb n="0080a05" ed="Y"/>方法。</p>
-<lb n="0080a06" ed="Y"/><p style="text-indent:2em">有人釋格物為「格物欲」，以格為格拒的格，物為物欲，似乎訓詁有問題。
+<lb n="0080a06" ed="Y"/><p xml:id="pY19p0080a0601" style="text-indent:2em">有人釋格物為「格物欲」，以格為格拒的格，物為物欲，似乎訓詁有問題。
 <lb n="0080a07" ed="Y"/><cit><bibl><title level="m">《大學》</title>說</bibl><quote type="嚴謹引文">「物有本末」</quote></cit>，<cit><bibl><title level="m">《中庸》</title>說</bibl><quote type="嚴謹引文">「不誠無物」</quote></cit>，物是身、家、國、天下的
 <lb n="0080a08" ed="Y"/>具體事物，並不是格除的對象。而且，儒者只是<quote type="嚴謹引文">「欲不可縱」</quote>，<quote type="嚴謹引文">「養心莫善於寡
 <lb n="0080a09" ed="Y"/>欲」</quote>。如儒門心傳的<quote type="嚴謹引文">「人心惟危」</quote>，也還是<quote type="嚴謹引文">「允執厥中」</quote>，並沒有棄絕人心（欲
 <lb n="0080a10" ed="Y"/>）。大概宋儒在佛法的熏習中，習聞佛法的「離欲」說，又不曾深究「離欲」的
 <lb n="0080a11" ed="Y"/>真正意義。這才會有「格物欲」的解說，而宣傳<quote type="嚴謹引文">「人欲淨盡，天理流行」</quote>的新儒
 <lb n="0080a12" ed="Y"/>學。</p>
-<lb n="0080a13" ed="Y"/><p style="text-indent:2em">陽明釋格物的格為「正」，從<cit><bibl><title level="m">《論語》</title>的</bibl><quote type="嚴謹引文">「有恥且格」</quote></cit>，<cit><bibl><title level="m">《孟子》</title>的</bibl><quote type="寬鬆引文">「惟大
+<lb n="0080a13" ed="Y"/><p xml:id="pY19p0080a1301" style="text-indent:2em">陽明釋格物的格為「正」，從<cit><bibl><title level="m">《論語》</title>的</bibl><quote type="嚴謹引文">「有恥且格」</quote></cit>，<cit><bibl><title level="m">《孟子》</title>的</bibl><quote type="寬鬆引文">「惟大
 <pb n="0081a" ed="Y" xml:id="Y19.0019.0081a"/>
 <lb n="0081a01" ed="Y"/>人能格君心之非」</quote></cit>來說，訓詁是對的。但陽明說：<quote type="寬鬆引文">「物乃意之用，格物乃格意之
 <lb n="0081a02" ed="Y"/>不正而歸於正」</quote>，不免偏於心理的解說。其實<cit><bibl><title level="m">《大學》</title>的</bibl><quote type="嚴謹引文">「物有本末」</quote></cit>，<cit><bibl><title level="m">《孟子
@@ -422,7 +442,7 @@
 <lb n="0081a08" ed="Y"/>止於仁、敬、孝、慈、信，愛親敬兄，親親長長，不失仁、義、禮、智。修身之
 <lb n="0081a09" ed="Y"/>道，就從這樣的格物、知止入門。平常踏實，這便是人人能學，人人應該學的大
 <lb n="0081a10" ed="Y"/>學！</p>
-<lb n="0081a11" ed="Y"/><p style="text-indent:2em">知止格物的入門功夫，是人人所能學的，但要圓滿成就，就不大容易。修身
+<lb n="0081a11" ed="Y"/><p xml:id="pY19p0081a1101" style="text-indent:2em">知止格物的入門功夫，是人人所能學的，但要圓滿成就，就不大容易。修身
 <lb n="0081a12" ed="Y"/>圓成，才是致知的圓成。這與佛學的「慧」一樣，是首先的，也是貫徹始終，究
 <lb n="0081a13" ed="Y"/>竟圓成的。從初學到究竟成就，<cit><bibl><title level="m">《大學》</title>歷舉</bibl><quote type="寬鬆引文">「止定靜安慮得」</quote></cit>；這與<title level="m">《孟子》</title>
 <pb n="0082a" ed="Y" xml:id="Y19.0019.0082a"/>
@@ -433,7 +453,7 @@
 <lb n="0082a05" ed="Y"/>一樣。因此，如但見止、觀的學程相同，就把儒、佛攪成一團，弄得儒不成儒，
 <lb n="0082a06" ed="Y"/>佛不像佛，那真不免被譏為：望見生鬚的，就認為是老父了！然而，世間卻儘多
 <lb n="0082a07" ed="Y"/>這樣的附會圓融的大家！</p>
-<lb n="0082a08" ed="Y"/><p style="text-indent:2em">大學的止、定、靜、安，是屬於止的；慮、得，是屬於觀的。佛教說：修止
+<lb n="0082a08" ed="Y"/><p xml:id="pY19p0082a0801" style="text-indent:2em">大學的止、定、靜、安，是屬於止的；慮、得，是屬於觀的。佛教說：修止
 <lb n="0082a09" ed="Y"/>不外乎「九住心」——住心的九個過程，這與止、定、靜、安，雖開合不同，而
 <lb n="0082a10" ed="Y"/>大致一樣。今先依佛法，說明住心的歷程，再來說明<title level="m">《大學》</title>與<title level="m">《孟子》</title>。九住
 <lb n="0082a11" ed="Y"/>心是：一、「內住」：我們的心，經常是向外馳散的，被稱為「心猿意馬」，跳
@@ -446,12 +466,12 @@
 <lb n="0083a04" ed="Y"/>爾失念，心向外散，能立刻攝回，還住於要住（止）的境地。四、「近住」：心
 <lb n="0083a05" ed="Y"/>愈來愈安定了，不但不會散亂太久，就是偶爾散亂，幾乎是一動就攝住。到此，
 <lb n="0083a06" ed="Y"/>住心已達相當安定的境界。這四住，相當於<quote type="嚴謹引文">「知止而後能定」</quote>。<cit><bibl><title level="m">《孟子》</title>稱此為
-<lb n="0083a07" ed="Y"/></bibl><quote type="寬鬆引文">「求放心」</quote></cit>，一般人總是逐外物而流動散亂，如<note n="0083a0701" resp="CBETA" type="add" subtype="規範字詞">雞【CB】，鷄【印順】</note><app n="0083a0701"><lem wit="【CB】" resp="CBETA">雞</lem><rdg wit="【印順】">鷄</rdg></app>犬的放失，到處亂跑，不知道
+<lb n="0083a07" ed="Y"/></bibl><quote type="寬鬆引文">「求放心」</quote></cit>，一般人總是逐外物而流動散亂，如<note n="0083a0701" resp="CBETA" type="add" subtype="規範字詞">雞【CB】，鷄【印順】</note><app n="0083a0701"><lem resp="CBETA" wit="【CB】">雞</lem><rdg wit="【印順】">鷄</rdg></app>犬的放失，到處亂跑，不知道
 <lb n="0083a08" ed="Y"/>歸家一樣。人心也是如此，所以稱為「放心」。<cit><bibl><title level="m">《孟子》</title>說：</bibl><quote type="嚴謹引文">「學問之道無他，
 <lb n="0083a09" ed="Y"/>求其放心而已矣」</quote></cit>！又說：<quote type="嚴謹引文">「求則得之」</quote>。求放心，就是攝亂心，使心不散而住
 <lb n="0083a10" ed="Y"/>於良知。住於良知而攝持不失，也就是孔子的<quote type="嚴謹引文">「操則存」</quote>。如能安住淨善的良心
 <lb n="0083a11" ed="Y"/>，因定力漸深而愈明愈淨，展轉增長，就是長養。</p>
-<lb n="0083a12" ed="Y"/><p style="text-indent:2em">再修習下去，五、「調伏」：美色妙聲等，一向是因而散亂動失的。現在心
+<lb n="0083a12" ed="Y"/><p xml:id="pY19p0083a1201" style="text-indent:2em">再修習下去，五、「調伏」：美色妙聲等，一向是因而散亂動失的。現在心
 <lb n="0083a13" ed="Y"/>被調伏了，對於這些境相，不再散亂而起貪瞋等了。六、「寂靜」：障定的欲貪
 <pb n="0084a" ed="Y" xml:id="Y19.0019.0084a"/>
 <lb n="0084a01" ed="Y"/>等，靜中最易現起的不正尋思，都漸能不起，不因之而流散。七、「最極寂靜」
@@ -461,21 +481,21 @@
 <lb n="0084a05" ed="Y"/>」</quote></cit>。止、定、靜的過程，姑以譬喻來說：如人乘船，在波翻浪轉中動亂不停。船
 <lb n="0084a06" ed="Y"/>停了，如「止」。人上了岸，不再有動搖的感覺，如「定」。但是心有餘悸，或
 <lb n="0084a07" ed="Y"/>者氣喘汗流。休息過後，心平氣和，如「靜」。</p>
-<lb n="0084a08" ed="Y"/><p style="text-indent:2em">再修習下去，八、「專注一趣」：心住所止的境地，進到沒有缺失，沒有間
+<lb n="0084a08" ed="Y"/><p xml:id="pY19p0084a0801" style="text-indent:2em">再修習下去，八、「專注一趣」：心住所止的境地，進到沒有缺失，沒有間
 <lb n="0084a09" ed="Y"/>斷，安定的相續下去，但還要用力去控制。九、「等持」：不必再加功用（這叫
 <lb n="0084a10" ed="Y"/>「不勉而中」），自然而然，心地平正而相續。到那時，不但心地安定，而且特
 <lb n="0084a11" ed="Y"/>別明淨。功候成熟，會發生「輕安」，身心獲得從來沒有的愉悅（這也許就是孔
 <lb n="0084a12" ed="Y"/>顏樂處），而且充滿了力量。<cit><bibl><title level="m">《大學》</title>的</bibl><quote type="嚴謹引文">「靜而後能安」</quote></cit>，就是這樣的輕安。輕
 <lb n="0084a13" ed="Y"/>安發生，才算修止成就。這種修止過程，佛法與世間學，都是一樣的。</p>
 <pb n="0085a" ed="Y" xml:id="Y19.0019.0085a"/>
-<lb n="0085a01" ed="Y"/><p style="text-indent:2em">止於明淨的善心（仁），經定、靜而引發輕安，這就可以進而修觀了。這不
+<lb n="0085a01" ed="Y"/><p xml:id="pY19p0085a0101" style="text-indent:2em">止於明淨的善心（仁），經定、靜而引發輕安，這就可以進而修觀了。這不
 <lb n="0085a02" ed="Y"/>是說，以前完全沒有審思、觀察，反而在修習的過程中，止的安住，觀的明察，
 <lb n="0085a03" ed="Y"/>一向是互相交替推進的。不過在止沒有修習成就，思慮就只是散心的分別，如風
 <lb n="0085a04" ed="Y"/>中的燭光一樣。所以止後修觀，是修止成就，才能修觀成就的意思。<title level="m">《大學》</title>說
 <lb n="0085a05" ed="Y"/>慮，是止後起觀。<title level="m">《中庸》</title>說擇，<title level="m">《孟子》</title>說思，都是通於散心的。什麼是觀？
 <lb n="0085a06" ed="Y"/>梵語毘鉢舍那，經上說：<quote source="T16n0676_p0698a11-13" type="嚴謹引文">「能正思擇，最極思擇，周遍尋思，周遍伺察；若忍，
 <lb n="0085a07" ed="Y"/>若樂，若慧，若見，若觀，是名毘鉢舍那」<note n="0085001" resp="周怡曄" type="add">《解深密經》卷3〈6 分別瑜伽品〉(CBETA, T16, no. 676, p. 698, a11-13)</note></quote>。</p>
-<lb n="0085a08" ed="Y"/><p style="text-indent:2em">儒者止於至善良知，怎樣的思慮觀察呢？簡單說，是譬類推度的思察。我們
+<lb n="0085a08" ed="Y"/><p xml:id="pY19p0085a0801" style="text-indent:2em">儒者止於至善良知，怎樣的思慮觀察呢？簡單說，是譬類推度的思察。我們
 <lb n="0085a09" ed="Y"/>知道，儒者以「修身為本」，從「反求諸己」（身）做起，所以是從切近的自己
 <lb n="0085a10" ed="Y"/>，充類至盡的推而大之。<cit><bibl><title level="m">《論語》</title>說：</bibl><quote type="嚴謹引文">「仁者，己欲立而立人，己欲達而達人。
 <lb n="0085a11" ed="Y"/>能近取譬，可謂仁之方也矣」</quote></cit>。近取譬，就是<quote type="嚴謹引文">「近取諸身」</quote>，以自己為譬而類推
@@ -487,7 +507,7 @@
 <lb n="0086a03" ed="Y"/>之」</quote>的忠恕：以己度人，想他人與自己一樣，是恕。盡己的心，是忠。以自度他
 <lb n="0086a04" ed="Y"/>，使自心的仁，做到充類至盡，就是忠恕。這在佛法中，稱為「以己度他情」的
 <lb n="0086a05" ed="Y"/>「自通之法」。這是人乘善法，如深化起來，就是修菩提心。</p>
-<lb n="0086a06" ed="Y"/><p style="text-indent:2em"><title level="m">《孟子》</title>也徹底使用這類推的思慮，但多為政治領袖們說。或名為充，如說
+<lb n="0086a06" ed="Y"/><p xml:id="pY19p0086a0601" style="text-indent:2em"><title level="m">《孟子》</title>也徹底使用這類推的思慮，但多為政治領袖們說。或名為充，如說
 <lb n="0086a07" ed="Y"/>：<quote type="嚴謹引文">「凡有（仁義禮智）四端於我者，知皆擴而充之矣」</quote>。<quote type="嚴謹引文">「苟能充之，足以保四
 <lb n="0086a08" ed="Y"/>海；苟不充之，不足以事父母」</quote>。<quote type="寬鬆引文">「人能充無欲害之心，而仁不可勝用也」</quote>。又
 <lb n="0086a09" ed="Y"/>稱為推，如說：<quote type="嚴謹引文">「老吾老以及人之老，幼吾幼以及人之幼。……推恩足以保四海
@@ -501,7 +521,7 @@
 <lb n="0087a03" ed="Y"/>指不若人，則知惡之；心不若人，則不知惡，此之謂不知類也」</quote>。四、以物推己
 <lb n="0087a04" ed="Y"/>，如說：<quote type="寬鬆引文">「豈愛身不若桐梓者，弗思甚也」</quote>。類推的思慮法，孟子是繼承了近思
 <lb n="0087a05" ed="Y"/>的方法而擴大了些。再擴大，就是<quote type="嚴謹引文">「類萬物之情而通神明之德」</quote>了。</p>
-<lb n="0087a06" ed="Y"/><p style="text-indent:2em">安住於明淨的善心——良知，作以己推人的審思，類推而擴充到一切，名<quote type="嚴謹引文">「
+<lb n="0087a06" ed="Y"/><p xml:id="pY19p0087a0601" style="text-indent:2em">安住於明淨的善心——良知，作以己推人的審思，類推而擴充到一切，名<quote type="嚴謹引文">「
 <lb n="0087a07" ed="Y"/>安而後能慮」</quote>。等到止觀相應，觀心成就，就是<quote type="嚴謹引文">「不違仁」</quote>。孔子說：<quote type="嚴謹引文">「君子無
 <lb n="0087a08" ed="Y"/>終食之間違仁，造次必於是，顛沛必於是」</quote>，這可能是<quote type="嚴謹引文">「夫子自道」</quote>。而<quote type="嚴謹引文">「回也
 <lb n="0087a09" ed="Y"/>，其心三月不違仁」</quote>，應該是顏淵向孔子的修驗報告。要知道良知是德性的端緒
@@ -510,7 +530,7 @@
 <lb n="0087a12" ed="Y"/>知的圓滿成就。上來說明<title level="m">《大學》</title>的<quote type="嚴謹引文">「知止」</quote>到<quote type="嚴謹引文">「能得」</quote>，是格物致知的圓滿學
 <lb n="0087a13" ed="Y"/>程。</p>
 <pb n="0088a" ed="Y" xml:id="Y19.0019.0088a"/>
-<lb n="0088a01" ed="Y"/><p style="text-indent:2em">上面說，格物是在對境時心得其正；正於物，是適宜於解說修止的。因為攝
+<lb n="0088a01" ed="Y"/><p xml:id="pY19p0088a0101" style="text-indent:2em">上面說，格物是在對境時心得其正；正於物，是適宜於解說修止的。因為攝
 <lb n="0088a02" ed="Y"/>持亂心——求放心，無非是止於至善，不為物所引，不因貪欲、尋思而散動。然
 <lb n="0088a03" ed="Y"/>在修觀時，格物就應解說為<quote type="嚴謹引文">「類推於物」</quote>。格可解說為「度量」，如平常說的「
 <lb n="0088a04" ed="Y"/>格量」。儒者稱以己度他的類推法，名<quote type="嚴謹引文">「絜矩之道」</quote>。絜是度，是量長短的；矩
@@ -522,7 +542,7 @@
 <lb n="0088a10" ed="Y"/>應事，芒昧格言」</quote>，格言就是喻說。所以，格有比類的意思，也就是推度的意思
 <lb n="0088a11" ed="Y"/>。譬類的推度，是格；以己度人（家國天下），就是格物。這樣的格物，能使良
 <lb n="0088a12" ed="Y"/>知成就而不失，所以說：<quote type="嚴謹引文">「物格而後知至」</quote>。</p>
-<lb n="0088a13" ed="Y"/><p style="text-indent:2em">關於格物致知，說得多了。這與佛法的「無量等至」，大致相近（這與孟子
+<lb n="0088a13" ed="Y"/><p xml:id="pY19p0088a1301" style="text-indent:2em">關於格物致知，說得多了。這與佛法的「無量等至」，大致相近（這與孟子
 <pb n="0089a" ed="Y" xml:id="Y19.0019.0089a"/>
 <lb n="0089a01" ed="Y"/>的養氣等，留到正心段去解說），不外乎世間的人天善法。但在古代，漢學家在
 <lb n="0089a02" ed="Y"/>訓詁中過活，似乎不知道孔、孟的修持法。宋、明的理學家，在佛法的熏染中，
@@ -538,13 +558,13 @@
 <lb n="0089a12" ed="Y"/>為修道的下手功夫，而理學家卻說得那麼高妙，這真是<quote type="嚴謹引文">「道不遠人，人之為道而
 <lb n="0089a13" ed="Y"/>遠人」</quote>了！</p>
 <pb n="0090a" ed="Y" xml:id="Y19.0019.0090a"/>
-<lb n="0090a01" ed="Y"/><cb:mulu level="3" type="其他">二、約佛法說</cb:mulu><head>二、約佛法說</head><p style="text-indent:2em">儒者以致知入門，學佛的以正見為首。見就是知，是深徹的
+<lb n="0090a01" ed="Y"/><cb:mulu level="3" type="其他">二、約佛法說</cb:mulu><head>二、約佛法說</head><p xml:id="pY19p0090a0111" style="text-indent:2em">儒者以致知入門，學佛的以正見為首。見就是知，是深徹的
 <lb n="0090a02" ed="Y"/>知。儒者重於道德的良知；佛法雖也是道德的，但更富於理智的成分。這所以佛
 <lb n="0090a03" ed="Y"/>法從道德的確認，而進入「如所有性」，「盡所有性」的事理正覺。至善的知見
 <lb n="0090a04" ed="Y"/>，不僅是仁心，而要能契合於事理的真實。因此，佛法的修得正見，不只是儒者
 <lb n="0090a05" ed="Y"/>那樣的格物，而要從無限時空，一切眾生中，如實正觀死生的歷程，心識的性相
 <lb n="0090a06" ed="Y"/>，染淨的樞紐等，得到如實的正見，也就是真正的良知的體認。</p>
-<lb n="0090a07" ed="Y"/><p style="text-indent:2em">先約共世間的正見來說，可略分四句：一、知善知惡：依心識而展開的身語
+<lb n="0090a07" ed="Y"/><p xml:id="pY19p0090a0701" style="text-indent:2em">先約共世間的正見來說，可略分四句：一、知善知惡：依心識而展開的身語
 <lb n="0090a08" ed="Y"/>活動，都是有善有惡的。知道有，也就確信是有。這是道德的確認，而使自己的
 <lb n="0090a09" ed="Y"/>身語意業有所遵循——去惡行善。陽明說：<quote type="嚴謹引文">「知善知惡是良知」</quote>；佛法的正見，
 <lb n="0090a10" ed="Y"/>也確是以知善知惡為出發的。但人類的道德意識，知善知惡，不一定是正確的。
@@ -572,10 +592,10 @@
 <lb n="0092a04" ed="Y"/>國，也不是究竟的，還是要墮落的。如能除去那輪迴的癥結，達到徹底解決，永
 <lb n="0092a05" ed="Y"/>恆自在，那就是聖人（與儒者的聖人，含義有點不同）。如能確知確信，有超越
 <lb n="0092a06" ed="Y"/>庸常的向上淨化，就能策導自己，邁向高明的境地。</p>
-<lb n="0092a07" ed="Y"/><p style="text-indent:2em">如上所說的正見，從知善知惡而來。由淺及深，由近及遠。不但知有善惡，
+<lb n="0092a07" ed="Y"/><p xml:id="pY19p0092a0701" style="text-indent:2em">如上所說的正見，從知善知惡而來。由淺及深，由近及遠。不但知有善惡，
 <lb n="0092a08" ed="Y"/>禍福，更知生命相續，絕對永恆，打開了出世法的大門。約佛法的共世間正見來
 <lb n="0092a09" ed="Y"/>說，就有些是儒者所不知的了。</p>
-<lb n="0092a10" ed="Y"/><p style="text-indent:2em">出世（三乘法）的正見，是以上說的正見為基礎，而為更深廣的悟入。身心
+<lb n="0092a10" ed="Y"/><p xml:id="pY19p0092a1001" style="text-indent:2em">出世（三乘法）的正見，是以上說的正見為基礎，而為更深廣的悟入。身心
 <lb n="0092a11" ed="Y"/>的行為——善惡，業報的延續，這一切是「緣起」的：依因緣而存在，依因緣而
 <lb n="0092a12" ed="Y"/>現起。自與他，身與心，眾生（人）與國土，現在與將來，彼此間有著密切的因
 <lb n="0092a13" ed="Y"/>果關係。儒者不大深究這些，只是以自心量度別人，知道人心是同樣的，從此而
@@ -584,7 +604,7 @@
 <lb n="0093a02" ed="Y"/>如此，自己如此，一切眾生也如此。儘管眾生的根性好樂不同，<quote source="T27n1545_p0003a11-12" type="嚴謹引文">「異見異忍異欲
 <lb n="0093a03" ed="Y"/>」<note n="0093001" resp="周怡曄" type="add">《阿毘達磨大毘婆沙論》卷1(CBETA, T27, no. 1545, p. 3, a11-12)</note></quote>；儘管世間的因果無限差別，但一切是緣起的存在，那是最普遍的軌律——法
 <lb n="0093a04" ed="Y"/>（法的定義是軌持，意思是不變失的軌律），從此而獲得進修解脫的正見。</p>
-<lb n="0093a05" ed="Y"/><p style="text-indent:2em">從自己而觀察到眾生，從眾生而觀察到自己，發現一切眾生，都在依於因緣
+<lb n="0093a05" ed="Y"/><p xml:id="pY19p0093a0501" style="text-indent:2em">從自己而觀察到眾生，從眾生而觀察到自己，發現一切眾生，都在依於因緣
 <lb n="0093a06" ed="Y"/>的輪迴中——生而老，老而死，死而生。知道這緣起因果，是以心為主為導的，
 <lb n="0093a07" ed="Y"/>以心的傾向而轉移的。眾生的心，無始以來就惑亂了，不能契合於緣起法（不合
 <lb n="0093a08" ed="Y"/>真理），叫做「無明」。依無明而有煩惱，依煩惱而造業；依惑業的輕重，造成
@@ -596,7 +616,7 @@
 <pb n="0094a" ed="Y" xml:id="Y19.0019.0094a"/>
 <lb n="0094a01" ed="Y"/>聖道。或簡化為<quote>「依戒得定，因定發慧」</quote>。這解脫的必然律，叫做「聖道支性」
 <lb n="0094a02" ed="Y"/>。這是一切聖者所共同的<quote source="T02n0099_p0080c27" type="嚴謹引文">「古仙人道」<note n="0094001" resp="周怡曄" type="add">《雜阿含經》卷12(CBETA, T02, no. 99, p. 80, c27)</note></quote>，佛也只是發現他而已。</p>
-<lb n="0094a03" ed="Y"/><p style="text-indent:2em">向迷的緣起支性，轉悟的聖道支性，都依於心為主導的緣起而得正見。一切
+<lb n="0094a03" ed="Y"/><p xml:id="pY19p0094a0301" style="text-indent:2em">向迷的緣起支性，轉悟的聖道支性，都依於心為主導的緣起而得正見。一切
 <lb n="0094a04" ed="Y"/>是依因待緣的存在；深刻的觀察起來，到達一切緣起法——身心、自他、國土等
 <lb n="0094a05" ed="Y"/>——的底裡（緣起寂滅性），體現得萬化的平等一如，稱為「空性」，「真如」
 <lb n="0094a06" ed="Y"/>等。空性，不是沒有，而是緣起法的本性——普遍的，永恆的絕待真實。由於一
@@ -608,7 +628,7 @@
 <lb n="0094a12" ed="Y"/>一實相印」</quote>。觀緣起——廣觀一切法，中（不廣不略）觀身心，要略觀自心——
 <lb n="0094a13" ed="Y"/>法性而得這樣的深見，才是出世法的正見。</p>
 <pb n="0095a" ed="Y" xml:id="Y19.0019.0095a"/>
-<lb n="0095a01" ed="Y"/><p style="text-indent:2em">知善惡因果，知業報相續，是五乘共的正見。依此而知緣起，緣起的空寂性
+<lb n="0095a01" ed="Y"/><p xml:id="pY19p0095a0101" style="text-indent:2em">知善惡因果，知業報相續，是五乘共的正見。依此而知緣起，緣起的空寂性
 <lb n="0095a02" ed="Y"/>，是三乘共的正見。大乘正見，也還是這個，只是更深徹的，更切要的確知確信
 <lb n="0095a03" ed="Y"/>而已。從更深徹來說：善惡、身心、依正——這一切，都是緣起的存在，稱為「
 <lb n="0095a04" ed="Y"/>假名有」。假名，是有特性、有形相、有作用、有因果關係的。假名的意義，是
@@ -622,7 +642,7 @@
 <lb n="0095a12" ed="Y"/>佛」……一切都融通無礙。從空有無礙中，這樣的<quote>「一即一切，一切即一」</quote>，開
 <lb n="0095a13" ed="Y"/>顯了圓滿的中道正見。</p>
 <pb n="0096a" ed="Y" xml:id="Y19.0019.0096a"/>
-<lb n="0096a01" ed="Y"/><p style="text-indent:2em">從更切要來說：緣起法是依心而為轉移的，心為一切法的樞紐。依心而得正
+<lb n="0096a01" ed="Y"/><p xml:id="pY19p0096a0101" style="text-indent:2em">從更切要來說：緣起法是依心而為轉移的，心為一切法的樞紐。依心而得正
 <lb n="0096a02" ed="Y"/>見，最為切要。心也是緣起的，也就是假名有的，本性空的——即空即有。佛處
 <lb n="0096a03" ed="Y"/>處說空寂，但有的誤解了，引起誹毀，所以佛又處處說淨（如「法性本淨」，「
 <lb n="0096a04" ed="Y"/>心性本淨」），淨實在就是空的別名。所以深見心性，是心本空寂的，心本清淨
@@ -631,7 +651,7 @@
 <lb n="0096a07" ed="Y"/>佛性。成佛，就是究竟圓滿了，究竟清淨（離垢清淨）了心性；學佛，就是怎樣
 <lb n="0096a08" ed="Y"/>的顯發了，怎樣的體見了心性。這切要的心性正見，在大乘修學中，稱為發菩提
 <lb n="0096a09" ed="Y"/>心，也叫做起大乘信心。所以說：<quote source="T18n0848_p0001c01-02" type="寬鬆引文">「菩提心者，謂如實知自心」<note n="0096001" resp="周怡曄" type="add">《大毘盧遮那成佛神變加持經》卷1〈1 入真言門住心品〉：「云何菩提。謂如實知自心。」(CBETA, T18, no. 848, p. 1, c1-2)</note></quote>。</p>
-<lb n="0096a10" ed="Y"/><p style="text-indent:2em">大乘正見，從知善知惡始，經重重的深入，而到光明清淨心性。如單說知善
+<lb n="0096a10" ed="Y"/><p xml:id="pY19p0096a1001" style="text-indent:2em">大乘正見，從知善知惡始，經重重的深入，而到光明清淨心性。如單說知善
 <lb n="0096a11" ed="Y"/>知惡，與自心清淨（菩提心，大乘信心），好像與儒者的良知相近。我國的先哲
 <lb n="0096a12" ed="Y"/>，也歡喜說他一致，其實是淺深不同的。如佛法成立於三世業果的緣起，而儒者
 <lb n="0096a13" ed="Y"/>卻不然。如儒者的良知，是人之所以為人的，是人與禽獸所差別的；而佛法的本
@@ -643,7 +663,7 @@
 <lb n="0097a05" ed="Y"/>的。因此，儒者的致良知，無論功夫如何，總不過是有漏現量心，有漏無分別（
 <lb n="0097a06" ed="Y"/>沒有「隨念分別」，「計度分別」）善心的等流相續。而佛法中勝義菩提心的顯
 <lb n="0097a07" ed="Y"/>發，卻是脫落塵習，無漏現量的覺性現前。</p>
-<lb n="0097a08" ed="Y"/><p style="text-indent:2em">古人以致良知來比擬心性的徹悟——勝義菩提心現前，是不適合的。但與初
+<lb n="0097a08" ed="Y"/><p xml:id="pY19p0097a0801" style="text-indent:2em">古人以致良知來比擬心性的徹悟——勝義菩提心現前，是不適合的。但與初
 <lb n="0097a09" ed="Y"/>修世俗菩提心，卻大有相同處。（無上）菩提是佛所圓滿了的，究竟清淨了的，
 <lb n="0097a10" ed="Y"/>極真至善的大覺。這雖可說一切眾生本來如此，但在無明蒙惑下，卻從來沒有體
 <lb n="0097a11" ed="Y"/>現過。如以此為究極理想，修慈悲心，聞思（本空、本淨、空有無礙的正見）慧
@@ -668,7 +688,7 @@
 <lb n="0099a02" ed="Y"/>在、此地、人類，那只是人乘善法。如由此而推及一切眾生，盡未來際，而知有
 <lb n="0099a03" ed="Y"/>究竟的聖果可得，那就通入菩提心，由人乘而入佛乘了！</p></cb:div>
 <lb n="0099a04" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">四　誠意（戒成就）</cb:mulu><head>四　誠意（戒成就）</head>
-<lb n="0099a05" ed="Y"/><p style="text-indent:2em">儒者的修學次第是：致知而後意誠。依佛法，由於正見——正信，引起戒行
+<lb n="0099a05" ed="Y"/><p xml:id="pY19p0099a0501" style="text-indent:2em">儒者的修學次第是：致知而後意誠。依佛法，由於正見——正信，引起戒行
 <lb n="0099a06" ed="Y"/>的修學。意是意欲——意向的願欲，誠是真誠無妄。由於格物而致良知，引發出
 <lb n="0099a07" ed="Y"/>真誠的意欲，止惡行善，在平常實踐中表達出來。如果說心說理，頭頭是道，而
 <lb n="0099a08" ed="Y"/>所行的卻不是這樣；或者想為善而毫無力量，這說明了那是僅有空虛的知識，不
@@ -678,7 +698,7 @@
 <lb n="0099a12" ed="Y"/>壞。這種自欺，由於缺乏真誠的意欲。沒有誠意，也就沒有「至誠無息」的不斷
 <pb n="0100a" ed="Y" xml:id="Y19.0019.0100a"/>
 <lb n="0100a01" ed="Y"/>向上努力了。</p>
-<lb n="0100a02" ed="Y"/><p style="text-indent:2em">佛法依正見而起的學次，也是一樣。如佛說的八正道中，正見以後，就有正
+<lb n="0100a02" ed="Y"/><p xml:id="pY19p0100a0201" style="text-indent:2em">佛法依正見而起的學次，也是一樣。如佛說的八正道中，正見以後，就有正
 <lb n="0100a03" ed="Y"/>思惟（或譯正欲），就是審思、決定而要求實踐。這依內心的思欲而表現出來，
 <lb n="0100a04" ed="Y"/>八正道中是：正語，正業，正命。正語是語言文字的如法；正業是身體行動的如
 <lb n="0100a05" ed="Y"/>法；正命是合法的經濟生活。這表現於外的戒行，由內心的正精進來策動，精進
@@ -691,13 +711,13 @@
 <lb n="0100a12" ed="Y"/>：見小罪而生大怖畏，見微善而生大歡喜。修學到心行如此，才可說誠意，或說
 <lb n="0100a13" ed="Y"/>精進不放逸了。</p>
 <pb n="0101a" ed="Y" xml:id="Y19.0019.0101a"/>
-<lb n="0101a01" ed="Y"/><p style="text-indent:2em">依<title level="m">《大學》</title>所說的誠意，應該有止惡行善的表現。止惡行善，本可說人人都
+<lb n="0101a01" ed="Y"/><p xml:id="pY19p0101a0101" style="text-indent:2em">依<title level="m">《大學》</title>所說的誠意，應該有止惡行善的表現。止惡行善，本可說人人都
 <lb n="0101a02" ed="Y"/>有過此心的，卻大家都不能完滿的實行。儒者說：致知的才能誠意，說明還嫌簡
 <lb n="0101a03" ed="Y"/>略。如應用佛說的心理分析，這有<quote source="T33n1695_p0027c25" type="寬鬆引文">「信為欲依，欲為勤依」<note n="0101001" resp="周怡曄" type="add">《大般若波羅蜜多經般若理趣分述讚》卷1：「信為欲依欲為精進依」(CBETA, T33, no. 1695, p. 27, c25)</note></quote>的次第，也就是誠意
 <lb n="0101a04" ed="Y"/>的心理過程。有正見而成立信心的（致知），那一定會引起實現的欲求；唯有內
 <lb n="0101a05" ed="Y"/>心的堅強信願，才能策發自己去努力實行。為善止惡的力量來源，要從這裡面去
 <lb n="0101a06" ed="Y"/>發掘出來。</p>
-<lb n="0101a07" ed="Y"/><p style="text-indent:2em">誠意的學習，<title level="m">《大學》</title>揭出了慎獨功夫。理論是：你在無人處做了不善，以
+<lb n="0101a07" ed="Y"/><p xml:id="pY19p0101a0701" style="text-indent:2em">誠意的學習，<title level="m">《大學》</title>揭出了慎獨功夫。理論是：你在無人處做了不善，以
 <lb n="0101a08" ed="Y"/>為沒有人知道，總想掩飾起來，可是大家看得清楚不過，怎麼也掩飾不了。所以
 <lb n="0101a09" ed="Y"/>說：<quote type="嚴謹引文">「人之視己，如見其肺肝然……故君子必慎其獨也」</quote>。<quote type="嚴謹引文">「十目所視，十手所
 <lb n="0101a10" ed="Y"/>指，其嚴乎」</quote>！因此，不但不可彰明的作惡，連閒居獨處，也還是放逸不得。絲
@@ -717,7 +737,7 @@
 <lb n="0102a10" ed="Y"/>而是自己知道了就感到憂悔，所以不敢覆藏（隱瞞），立刻要懺悔。這樣的隨犯
 <lb n="0102a11" ed="Y"/>隨懺，時時保持清淨，精進行善，心地就自然純淨起來。這有心理學的根據，在
 <lb n="0102a12" ed="Y"/>宗教信仰中，強而有力，而且是多數人可以因此而止惡行善的。</p>
-<lb n="0102a13" ed="Y"/><p style="text-indent:2em">儒者說，別人會知道，這是局於人倫道德的立場。若在宗教的領域內，那就
+<lb n="0102a13" ed="Y"/><p xml:id="pY19p0102a1301" style="text-indent:2em">儒者說，別人會知道，這是局於人倫道德的立場。若在宗教的領域內，那就
 <pb n="0103a" ed="Y" xml:id="Y19.0019.0103a"/>
 <lb n="0103a01" ed="Y"/>是列祖列宗會知道，天神知道，地祇知道，佛與菩薩知道。楊震說：<quote>「天知，地
 <lb n="0103a02" ed="Y"/>知，汝知，我知，何謂無知」</quote>？這就是有了天神、地祇的信仰，而能夠不欺暗室
@@ -732,18 +752,18 @@
 <lb n="0103a11" ed="Y"/>知道，更為有力！</p></cb:div>
 <lb n="0103a12" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">五　正心（定成就）</cb:mulu><head>五　正心（定成就）</head>
 <pb n="0104a" ed="Y" xml:id="Y19.0019.0104a"/>
-<lb n="0104a01" ed="Y"/><p style="text-indent:2em">依誠意所成惡止善行的戒學，進一步修定，原是順理成章，容易成就的。因
+<lb n="0104a01" ed="Y"/><p xml:id="pY19p0104a0101" style="text-indent:2em">依誠意所成惡止善行的戒學，進一步修定，原是順理成章，容易成就的。因
 <lb n="0104a02" ed="Y"/>為心地善淨，雖是散亂，也如池水的微波蕩漾，很快的就會安定下來。沒有誠意
 <lb n="0104a03" ed="Y"/>的，思想不正，動機不純，行為邪僻，內心動亂得波翻浪湧一樣。如想修禪定，
 <lb n="0104a04" ed="Y"/>那就難怪不易成就；有的反而會顛倒錯亂，失心入魔。所以戒為定學基礎，如經
 <lb n="0104a05" ed="Y"/>所說：<quote source="T01n0026_p0485b08-10" type="寬鬆引文">「戒則不悔，不悔則心樂，心樂則得定」<note n="0104001" resp="周怡曄" type="add">《中阿含經》卷10〈5 習相應品〉：「持戒便得不悔，因不悔便得歡悅，因歡悅便得喜，因喜便得止，因止便得樂，因樂便得定。」(CBETA, T01, no. 26, p. 485, b8-10)</note></quote>。</p>
-<lb n="0104a06" ed="Y"/><p style="text-indent:2em">誠意而後能正心，正心就是定。先從字義來說：梵語「三昧」（三摩提），
+<lb n="0104a06" ed="Y"/><p xml:id="pY19p0104a0601" style="text-indent:2em">誠意而後能正心，正心就是定。先從字義來說：梵語「三昧」（三摩提），
 <lb n="0104a07" ed="Y"/>意義為「等持」，也譯為「正定」。正就是等；正定是平等持心，不浮不沈，不
 <lb n="0104a08" ed="Y"/>昏不散……。又梵語「質多」，義譯為「心」，可泛稱一切心理現象，重在心理
 <lb n="0104a09" ed="Y"/>的統一性。心的特殊的意義就是定，如三增上學的定學，名為「增上心學」；心
 <lb n="0104a10" ed="Y"/>是「定有七名」的一名，修心與修定的意義相同。這樣，說「正心」就是平等持
 <lb n="0104a11" ed="Y"/>心的定，決非附會的解說。</p>
-<lb n="0104a12" ed="Y"/><p style="text-indent:2em">再從內容來說：一、心不正就是心不定。什麼叫心不正？<title level="m">《大學》</title>舉出了<quote type="嚴謹引文">「
+<lb n="0104a12" ed="Y"/><p xml:id="pY19p0104a1201" style="text-indent:2em">再從內容來說：一、心不正就是心不定。什麼叫心不正？<title level="m">《大學》</title>舉出了<quote type="嚴謹引文">「
 <lb n="0104a13" ed="Y"/>身（心）有所忿懥」</quote>，<quote type="嚴謹引文">「有所恐懼」</quote>，<quote type="嚴謹引文">「有所好樂」</quote>，<quote type="嚴謹引文">「有所憂患」</quote>，心就不能
 <pb n="0105a" ed="Y" xml:id="Y19.0019.0105a"/>
 <lb n="0105a01" ed="Y"/>得其正。這只是重要的舉例，佛法說得更詳明些。佛說：心要離五蓋——貪欲、
@@ -754,7 +774,7 @@
 <lb n="0105a06" ed="Y"/>那就一定沒有憂與苦。憂受，苦受，及五蓋中的惡作——悔（悔必有憂苦，熱惱
 <lb n="0105a07" ed="Y"/>或恐怖），就是<title level="m">《大學》</title>所說的恐懼與憂患了。必須離去這些，心才能正能定；
 <lb n="0105a08" ed="Y"/>這是<title level="m">《大學》</title>所說，與佛說的定學相合的。</p>
-<lb n="0105a09" ed="Y"/><p style="text-indent:2em">二、<quote type="嚴謹引文">「心不在焉，視而不見，聽而不聞，食而不知其味」</quote>：這是正心——定
+<lb n="0105a09" ed="Y"/><p xml:id="pY19p0105a0901" style="text-indent:2em">二、<quote type="嚴謹引文">「心不在焉，視而不見，聽而不聞，食而不知其味」</quote>：這是正心——定
 <lb n="0105a10" ed="Y"/>的描寫。我們的心，除了熟睡、悶絕等而外，意識在不斷的活動。意識是常與眼
 <lb n="0105a11" ed="Y"/>、耳、鼻、舌等五識相應，成為見色、聞聲等作用。修定是攝心而不使他向外馳
 <lb n="0105a12" ed="Y"/>散。學習到心能安住時，純意識的內在活動，代替了與五識相應的意識。約世俗
@@ -766,7 +786,7 @@
 <lb n="0106a04" ed="Y"/>的，會得到更深的定。定心深起來，連呼吸、脈搏、心臟等活動都會停止。十天
 <lb n="0106a05" ed="Y"/>半月中（可以更久些），不動、不起、不食、不便利，那怕雷轟山崩，也不會感
 <lb n="0106a06" ed="Y"/>覺。如在行住起臥，語默動靜中修，叫「歷緣對境修」；六祖以下的禪者，都著
-<lb n="0106a07" ed="Y"/>重於此。修習到在一切生活中，隨著大眾，起身、<note n="0106a0701" resp="CBETA" type="add" subtype="規範字詞">吃【CB】，喫【印順】</note><app n="0106a0701"><lem wit="【CB】" resp="CBETA">吃</lem><rdg wit="【印順】">喫</rdg></app>飯、搬柴挑水、來去出入，
+<lb n="0106a07" ed="Y"/>重於此。修習到在一切生活中，隨著大眾，起身、<note n="0106a0701" resp="CBETA" type="add" subtype="規範字詞">吃【CB】，喫【印順】</note><app n="0106a0701"><lem resp="CBETA" wit="【CB】">吃</lem><rdg wit="【印順】">喫</rdg></app>飯、搬柴挑水、來去出入，
 <lb n="0106a08" ed="Y"/>連自己在做什麼都不管，只是心念成片，驀直的這麼一念萬年去。旁人看來，「
 <lb n="0106a09" ed="Y"/>兀兀騰騰」（現在叫「呆瞪瞪」），而內心卻淨念不動。這不是不視不聽，只是
 <lb n="0106a10" ed="Y"/>無關心的瞥然過去，不加分別。實在說來，這是五俱意識的一味相續，還不是不
@@ -774,7 +794,7 @@
 <lb n="0106a12" ed="Y"/>（定前）。由於偏重的不同，中國禪宗行者，定心不及印度禪師的深切，但活潑
 <lb n="0106a13" ed="Y"/>潑的禪風，不會陷入枯寂的禪行。儒者的正心，也是屬於動中用功的一類。</p>
 <pb n="0107a" ed="Y" xml:id="Y19.0019.0107a"/>
-<lb n="0107a01" ed="Y"/><p style="text-indent:2em">孟子有一番「養氣」功夫，<quote type="嚴謹引文">「至大至剛，……塞於天地之間」</quote>，這是定的一
+<lb n="0107a01" ed="Y"/><p xml:id="pY19p0107a0101" style="text-indent:2em">孟子有一番「養氣」功夫，<quote type="嚴謹引文">「至大至剛，……塞於天地之間」</quote>，這是定的一
 <lb n="0107a02" ed="Y"/>種境界。也許漢儒失傳了，宋儒又專在語錄禪悟中求消息，缺乏定的經驗，也就
 <lb n="0107a03" ed="Y"/>不能充分明了這回事。「養氣」，「守氣」，與不動心有關。不動心是心志堅定
 <lb n="0107a04" ed="Y"/>，不會因思想紛雜，情緒衝激，得失存亡，而疑惑、憂悔、變異。孟子稱此不動
@@ -788,7 +808,7 @@
 <lb n="0107a12" ed="Y"/>得，孟子與告子，就都與氣有關，孟施舍的勇，孟子也稱他為「守氣」，這可見
 <lb n="0107a13" ed="Y"/>不動心與養氣有關。</p>
 <pb n="0108a" ed="Y" xml:id="Y19.0019.0108a"/>
-<lb n="0108a01" ed="Y"/><p style="text-indent:2em">養成堅定的勇氣，方法不同，淺深不同，遲速也不同。北宮黝，孟施舍，是
+<lb n="0108a01" ed="Y"/><p xml:id="pY19p0108a0101" style="text-indent:2em">養成堅定的勇氣，方法不同，淺深不同，遲速也不同。北宮黝，孟施舍，是
 <lb n="0108a02" ed="Y"/>武俠派。如日本的武士道，在切腹時，有的要能做到：在腹破腸流，血盡力竭時
 <lb n="0108a03" ed="Y"/>，保持心不驚怖，身不動亂，神智清明到死去。儒家與佛弟子的不動心，當然是
 <lb n="0108a04" ed="Y"/>不會以此為理想的，但也能做到，而且更高的境地。說到遲速，這與個性及身心
@@ -797,7 +817,7 @@
 <lb n="0108a07" ed="Y"/>心，什麼都鼓不起勁），思想紛亂的「尋思行人」（大都患有神經衰弱症），學
 <lb n="0108a08" ed="Y"/>習就困難得多。告子的修成不動心，比孟子早些，儒者就推論出一番道理，以為
 <lb n="0108a09" ed="Y"/>是方法問題，實在並無根據，與修習的實際經驗不合！</p>
-<lb n="0108a10" ed="Y"/><p style="text-indent:2em">孟子說性善，荀子說性惡，告子也說性，但說性無善不善。孟子說仁義，告
+<lb n="0108a10" ed="Y"/><p xml:id="pY19p0108a1001" style="text-indent:2em">孟子說性善，荀子說性惡，告子也說性，但說性無善不善。孟子說仁義，告
 <lb n="0108a11" ed="Y"/>子也說仁義，但說仁內義外。孟子得不動心，知言，養氣；告子也得不動心，也
 <lb n="0108a12" ed="Y"/>說言、說氣。可見告子與孟子，是相近的不同學派。以不動心來說，重要的不同
 <lb n="0108a13" ed="Y"/>原因，是告子的「仁內義外」說。孟子以為：<quote type="嚴謹引文">「仁，人心也；義，人路也」</quote>。<quote type="嚴謹引文">「
@@ -806,7 +826,7 @@
 <lb n="0109a02" ed="Y"/>所以說在內。但告子以為：仁愛是<quote type="嚴謹引文">「以我為悅」</quote>的，是適合自己的自然情感而產
 <lb n="0109a03" ed="Y"/>生的，如敬親愛兄弟，可以說在內。義是適合社會關係而決定的行為軌範，如敬
 <lb n="0109a04" ed="Y"/>長等，所以是在外的。</p>
-<lb n="0109a05" ed="Y"/><p style="text-indent:2em">由於仁內義外說的不同，所以告子修得不動心的方法，也與孟子不同。告子
+<lb n="0109a05" ed="Y"/><p xml:id="pY19p0109a0501" style="text-indent:2em">由於仁內義外說的不同，所以告子修得不動心的方法，也與孟子不同。告子
 <lb n="0109a06" ed="Y"/>的方法是：<quote type="嚴謹引文">「不得於言，勿求於心，不得於心，勿求於氣」</quote>。言，是輿論，學說
 <lb n="0109a07" ed="Y"/>，以為應該這樣那樣的。對於這些——言，告子以為，不能憑主觀去判斷，而應
 <lb n="0109a08" ed="Y"/>從外在關係中去審定他，是否合宜，怎樣才是合宜——義。在沒有獲得確定——
@@ -841,7 +861,7 @@
 <lb n="0111a09" ed="Y"/>了然的。這是本著自心的義理去「知言」的，所以認為如不得於言，那就反求於
 <lb n="0111a10" ed="Y"/>心好了。孟子的養氣，也是本著自心的性善去「養氣」，似乎修習得比告子要高
 <lb n="0111a11" ed="Y"/>深得多（這只是想像，因為告子對於氣的修養，並沒有說明傳下來）！</p>
-<lb n="0111a12" ed="Y"/><p style="text-indent:2em">孟子說到「守氣」，「養氣」，「平旦之氣」，「夜氣」。氣在後代的儒學
+<lb n="0111a12" ed="Y"/><p xml:id="pY19p0111a1201" style="text-indent:2em">孟子說到「守氣」，「養氣」，「平旦之氣」，「夜氣」。氣在後代的儒學
 <lb n="0111a13" ed="Y"/>中，是說得不大分明的，所以先來介紹一些佛法的說明，來幫助這一問題的了解
 <pb n="0112a" ed="Y" xml:id="Y19.0019.0112a"/>
 <lb n="0112a01" ed="Y"/>。氣，佛典中稱為「風」。風是什麼？是一切成為活動的因素。在人身上，呼吸
@@ -868,7 +888,7 @@
 <lb n="0113a08" ed="Y"/>善時有善息，心不善時有不善息。心與息是相應的，簡直是同一內容的不同顯現
 <lb n="0113a09" ed="Y"/>。由此，修心或修息，終歸一致，從心息相依，到心息不二。如向於善，純善的
 <lb n="0113a10" ed="Y"/>心，就有純善的息，身也成為善淨的了。</p>
-<lb n="0113a11" ed="Y"/><p style="text-indent:2em">還是來說孟子的養氣吧！孟子的養氣，當然與佛、道等不盡同，但不能說沒
+<lb n="0113a11" ed="Y"/><p xml:id="pY19p0113a1101" style="text-indent:2em">還是來說孟子的養氣吧！孟子的養氣，當然與佛、道等不盡同，但不能說沒
 <lb n="0113a12" ed="Y"/>有共通的部分。一般外向的，老是向外馳求，當然不知道。如重視德性，身心的
 <lb n="0113a13" ed="Y"/>修養，有安靜的思擇，達到心志專一，那就不問古今中外，都會體察到氣息的勝
 <pb n="0114a" ed="Y" xml:id="Y19.0019.0114a"/>
@@ -878,7 +898,7 @@
 <lb n="0114a04" ed="Y"/>於身」，氣息氤氳，無處不到。孟子那個時代，學者都有類似的修習。如老子的
 <lb n="0114a05" ed="Y"/><quote type="嚴謹引文">「專氣致柔」</quote>；莊子的<quote type="嚴謹引文">「真人之息以踵」</quote>，更說出了氣達全身，貫徹足跟的事實
 <lb n="0114a06" ed="Y"/>。有了這種經驗，才知道氣充全體，而為身體行動的力量來源。</p>
-<lb n="0114a07" ed="Y"/><p style="text-indent:2em">孟子的不動心，從養氣得來，方法是：<quote type="嚴謹引文">「持其志，無暴其氣」</quote>。志，是「心
+<lb n="0114a07" ed="Y"/><p xml:id="pY19p0114a0701" style="text-indent:2em">孟子的不動心，從養氣得來，方法是：<quote type="嚴謹引文">「持其志，無暴其氣」</quote>。志，是「心
 <lb n="0114a08" ed="Y"/>之所至」。孟子說：<quote type="嚴謹引文">「必有事焉」</quote>，心一定要有繫著處，如止於仁，止於浩然之
 <lb n="0114a09" ed="Y"/>氣。持心於此而不散，與佛法的「繫心」，「勿令馳散」一樣。氣呢，孟子說要
 <lb n="0114a10" ed="Y"/>「無暴」，這是呼吸的安和調勻（身體的自然安和）。依孟子說，雖然<quote type="寬鬆引文">「志帥焉
@@ -889,7 +909,7 @@
 <lb n="0115a01" ed="Y"/>養心，而且要從養氣中來成就養心，得不動心，這與佛法所說相同。以息修心，
 <lb n="0115a02" ed="Y"/>本是修持經驗所充分證實了的。至於說：<quote type="寬鬆引文">「今夫蹶者趨者，是氣也，而反動於心
 <lb n="0115a03" ed="Y"/>」</quote>，不過舉一顯見的事例，證明氣能動心，以說明持志以外，還有養氣的必要。</p>
-<lb n="0115a04" ed="Y"/><p style="text-indent:2em">孟子是心息相應論者，如說：<quote type="寬鬆引文">「其為氣也，配義與道，是無餒也」</quote>。氣是與
+<lb n="0115a04" ed="Y"/><p xml:id="pY19p0115a0401" style="text-indent:2em">孟子是心息相應論者，如說：<quote type="寬鬆引文">「其為氣也，配義與道，是無餒也」</quote>。氣是與
 <lb n="0115a05" ed="Y"/>義理相契應的，心是固有仁義的，氣也與道義相應，本是至大至剛而無餒的。在
 <lb n="0115a06" ed="Y"/>這點上，孟子與告子完全不同。孟子是義內的，所以與道義相對應的浩然之氣，
 <lb n="0115a07" ed="Y"/>是<quote type="嚴謹引文">「集義所生者，非義襲而取之也」</quote>。襲取，是從外在的事物，得出合宜的義，
@@ -897,11 +917,11 @@
 <lb n="0115a09" ed="Y"/>，不能成為唯義所在的大勇。佛法說：「心」是「積集滋長」（集起）的意思。
 <lb n="0115a10" ed="Y"/>所以孟子的「集義」，可解說為滋長於心而生的義。由此固有仁義的知，引發與
 <lb n="0115a11" ed="Y"/>道義相契應的氣，所以能至大至剛，沒有絲毫的虛餒，而表現出最高的勇氣。如
-<lb n="0115a12" ed="Y"/>或基於親族愛而作的戰<note n="0115a1201" resp="CBETA" type="add" subtype="規範字詞">鬥【CB】，鬪【印順】</note><app n="0115a1201"><lem wit="【CB】" resp="CBETA">鬥</lem><rdg wit="【印順】">鬪</rdg></app>，或僅因嚴格的軍令而作戰，那種勇氣的程度，是完全
+<lb n="0115a12" ed="Y"/>或基於親族愛而作的戰<note n="0115a1201" resp="CBETA" type="add" subtype="規範字詞">鬥【CB】，鬪【印順】</note><app n="0115a1201"><lem resp="CBETA" wit="【CB】">鬥</lem><rdg wit="【印順】">鬪</rdg></app>，或僅因嚴格的軍令而作戰，那種勇氣的程度，是完全
 <lb n="0115a13" ed="Y"/>不相同的。所以孟子批評<quote type="嚴謹引文">「告子未嘗知義」</quote>，而不能贊同他那種不動心的修養法
 <pb n="0116a" ed="Y" xml:id="Y19.0019.0116a"/>
 <lb n="0116a01" ed="Y"/>。</p>
-<lb n="0116a02" ed="Y"/><p style="text-indent:2em">與道義相應的氣，是固有的，所以不是怎樣的使他發生，而是怎樣的使他長
+<lb n="0116a02" ed="Y"/><p xml:id="pY19p0116a0201" style="text-indent:2em">與道義相應的氣，是固有的，所以不是怎樣的使他發生，而是怎樣的使他長
 <lb n="0116a03" ed="Y"/>養——「養氣」。依孟子的比喻來說：萌蘗也是木，森林也是木。牛山濯濯，不
 <lb n="0116a04" ed="Y"/>是沒有木，而是不知道養，傷害過甚了。只要保養他，讓他得到合理的生長，就
 <lb n="0116a05" ed="Y"/>會林木茂盛起來。因此，孟子的本有說，不是什麼都完成了，而是具體而微。在
@@ -917,16 +937,16 @@
 <lb n="0117a01" ed="Y"/>孟子也說：那是夜氣長養，而平旦之氣，還沒有大損害的時候。在那時修心養氣
 <lb n="0117a02" ed="Y"/>，確是比較容易成就的。孟子所以提到夜氣，平旦之氣，無非是由於養氣得來的
 <lb n="0117a03" ed="Y"/>經驗。</p>
-<lb n="0117a04" ed="Y"/><p style="text-indent:2em">孟子對於養氣，有穩妥的方法，就是「直養」——順其自然而得合理的長養
+<lb n="0117a04" ed="Y"/><p xml:id="pY19p0117a0401" style="text-indent:2em">孟子對於養氣，有穩妥的方法，就是「直養」——順其自然而得合理的長養
 <lb n="0117a05" ed="Y"/>。他提出了：<quote type="嚴謹引文">「必有事焉，而勿正心，勿忘，勿助長也」</quote>的扼要方法。這段文句
 <lb n="0117a06" ed="Y"/>，古人有不同的句讀。有的說：勿正心，就是勿忘二字的誤寫。這方法的主要條
 <lb n="0117a07" ed="Y"/>件是：一、<quote type="嚴謹引文">「必有事焉」</quote>，無論是致良知，養氣，都要心有著落，止在事上。二
-<lb n="0117a08" ed="Y"/>、<quote type="嚴謹引文">「勿忘」</quote>，即佛法的不忘念。要念<note n="0117a0801" resp="CBETA" type="add">茲【CB】，玆【印順】</note><app n="0117a0801"><lem wit="【CB】" resp="正聞出版社">茲</lem><rdg wit="【印順】">玆</rdg></app>在<note n="0117a0802" resp="CBETA" type="add">茲【CB】，玆【印順】</note><app n="0117a0802"><lem wit="【CB】" resp="正聞出版社">茲</lem><rdg wit="【印順】">玆</rdg></app>，念念不離所緣，不能忘失而馳散到
+<lb n="0117a08" ed="Y"/>、<quote type="嚴謹引文">「勿忘」</quote>，即佛法的不忘念。要念<note n="0117a0801" resp="CBETA" type="add">茲【CB】，玆【印順】</note><app n="0117a0801"><lem resp="正聞出版社" wit="【CB】">茲</lem><rdg wit="【印順】">玆</rdg></app>在<note n="0117a0802" resp="CBETA" type="add">茲【CB】，玆【印順】</note><app n="0117a0802"><lem resp="正聞出版社" wit="【CB】">茲</lem><rdg wit="【印順】">玆</rdg></app>，念念不離所緣，不能忘失而馳散到
 <lb n="0117a09" ed="Y"/>別處。三、<quote type="嚴謹引文">「勿助長」</quote>，任其自然的長養，不可性急，矯揉造作。如心住一處，
 <lb n="0117a10" ed="Y"/>心會漸漸的安定，切勿過於壓制。息會漸漸細長，也不可勉強。孟子不像深修禪
 <lb n="0117a11" ed="Y"/>定的人，對於調心調息，有種種巧妙的方便，而只是一任自然，繫住一處而已。
 <lb n="0117a12" ed="Y"/>這也許平庸一點，但卻毫無流弊。</p>
-<lb n="0117a13" ed="Y"/><p style="text-indent:2em">孟子不動心的特長，勝過告子的，就是養氣。但他不是為了身體健康而養氣
+<lb n="0117a13" ed="Y"/><p xml:id="pY19p0117a1301" style="text-indent:2em">孟子不動心的特長，勝過告子的，就是養氣。但他不是為了身體健康而養氣
 <pb n="0118a" ed="Y" xml:id="Y19.0019.0118a"/>
 <lb n="0118a01" ed="Y"/>，而是從心——良知的長養去養氣（與本著內心的義去知言一樣）。孟子所養的
 <lb n="0118a02" ed="Y"/>氣，讚歎為：<quote type="嚴謹引文">「難言也」</quote>；<quote type="嚴謹引文">「浩然之氣」</quote>。難言，是妙不可說的意思。浩然，就
@@ -951,12 +971,12 @@
 <lb n="0119a07" ed="Y"/>都不過是世間法。但孟子到底有過浩氣的修養，不像後代儒者，止於說性說理而
 <lb n="0119a08" ed="Y"/>已。</p></cb:div>
 <lb n="0119a09" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">六　修身（慧成就）</cb:mulu><head>六　修身（慧成就）</head>
-<lb n="0119a10" ed="Y"/><p style="text-indent:2em">現在要說到修身了。上面說過，道學的修習次第，儒佛是大致相近的。如從
+<lb n="0119a10" ed="Y"/><p xml:id="pY19p0119a1001" style="text-indent:2em">現在要說到修身了。上面說過，道學的修習次第，儒佛是大致相近的。如從
 <lb n="0119a11" ed="Y"/>致知、誠意到正心，與佛學的（依正見）成正信，修正戒，得正定一樣。現在依
 <lb n="0119a12" ed="Y"/>正心而進到修身，也等於佛法的依正定而修慧。到此，淨化身心的自利工夫，才
 <pb n="0120a" ed="Y" xml:id="Y19.0019.0120a"/>
 <lb n="0120a01" ed="Y"/>能完成。修身與慧學一致，這是需要說明的。請先從<title level="m">《大學》</title>的修身說起。</p>
-<lb n="0120a02" ed="Y"/><p style="text-indent:2em">什麼叫修身——修治自己？大學從反面說——這樣就不能修身：<quote type="嚴謹引文">「人之其所
+<lb n="0120a02" ed="Y"/><p xml:id="pY19p0120a0201" style="text-indent:2em">什麼叫修身——修治自己？大學從反面說——這樣就不能修身：<quote type="嚴謹引文">「人之其所
 <lb n="0120a03" ed="Y"/>親愛而辟焉……之其所敖惰而辟焉。故好而知其惡，惡而知其美者，天下鮮矣」</quote>
 <lb n="0120a04" ed="Y"/>！這是什麼意思呢？簡單的說，自己有了積習所成的私見，為習見所蔽，就不能
 <lb n="0120a05" ed="Y"/>如實了達一切。修身，要不受習成的私見、僻（辟）執所蒙蔽，如實了知一切；
@@ -977,7 +997,7 @@
 <lb n="0121a06" ed="Y"/>不正不同。有了貪欲、瞋恚等（依中庸說，是不能中節），心就不能平衡寧定，
 <lb n="0121a07" ed="Y"/>叫心不正。有了固蔽僻執，心就不能如實了知，不能君君，臣臣，父父，子子，
 <lb n="0121a08" ed="Y"/>叫身不修。</p>
-<lb n="0121a09" ed="Y"/><p style="text-indent:2em">再從<title level="m">《中庸》</title>與<title level="m">《論語》</title>來說：<cit><bibl><title level="m">《中庸》</title>說：</bibl><quote type="嚴謹引文">「修身以道，修道以仁」</quote></cit>。<quote type="嚴謹引文">「
+<lb n="0121a09" ed="Y"/><p xml:id="pY19p0121a0901" style="text-indent:2em">再從<title level="m">《中庸》</title>與<title level="m">《論語》</title>來說：<cit><bibl><title level="m">《中庸》</title>說：</bibl><quote type="嚴謹引文">「修身以道，修道以仁」</quote></cit>。<quote type="嚴謹引文">「
 <lb n="0121a10" ed="Y"/>齋明盛服，非禮不動，所以修身也」</quote>。從這可以知道：修身的內心是仁，修身的
 <lb n="0121a11" ed="Y"/>行為是禮。但<cit><bibl><title level="m">《中庸》</title>又說：</bibl><quote type="嚴謹引文">「知斯三者，則知所以修身」</quote></cit>。所以修身以道，道
 <lb n="0121a12" ed="Y"/>不但是仁，而是以仁為本，其實含有知與勇——三達德的。這與<title level="m">《論語》</title>對讀起
@@ -986,7 +1006,7 @@
 <lb n="0122a01" ed="Y"/>非禮勿視，非禮勿聽，非禮勿言，非禮勿動」</quote>。克己，就是修身。修身的方法是
 <lb n="0122a02" ed="Y"/>復禮；能克己復禮，就是仁的實踐。<title level="m">《中庸》</title>與<title level="m">《論語》</title>相同，差別在：<title level="m">《中庸
 <lb n="0122a03" ed="Y"/>》</title>說修身，而提到仁與禮。<title level="m">《論語》</title>說為仁，而談到了克己與復禮。</p>
-<lb n="0122a04" ed="Y"/><p style="text-indent:2em">修身的內在是仁，表現於外行是禮。仁與禮，是儒者的大本。在古代儒者的
+<lb n="0122a04" ed="Y"/><p xml:id="pY19p0122a0401" style="text-indent:2em">修身的內在是仁，表現於外行是禮。仁與禮，是儒者的大本。在古代儒者的
 <lb n="0122a05" ed="Y"/>見地中，仁是人與人（仁就是二人）間的同情；禮是人與人間的合適行為。禮，
 <lb n="0122a06" ed="Y"/>雖是因時因地而有損益的，但認為是人與人的，適合的關係方式，為社會所應共
 <lb n="0122a07" ed="Y"/>同遵守，有軌範人心，而使人類——家國天下，達到和樂與治平的。同時，人是
@@ -1001,8 +1021,8 @@
 <lb n="0123a02" ed="Y"/>越，如季氏的<quote type="嚴謹引文">「八佾舞於庭」</quote>；就是不足，如短喪，有些更是失去了。孔子景仰
 <lb n="0123a03" ed="Y"/>於西周的文明，不滿春秋時代的禮制崩潰，所以以古禮為教（有的說他託古改制
 <lb n="0123a04" ed="Y"/>）。他還說：<quote type="嚴謹引文">「先進於禮樂，野人也。……如用之，則吾從先進」</quote>。<quote type="嚴謹引文">「禮失而求
-<lb n="0123a05" ed="Y"/><note n="0123a0501" resp="CBETA" type="add">諸【CB】，之【印順】</note><app n="0123a0501"><lem wit="【CB】" resp="正聞出版社">諸<note type="cf1">《漢書·藝文志》</note></lem><rdg wit="【印順】">之</rdg></app>野」<note n="0123001" resp="厚觀法師" type="add">《漢書．藝文志》：「仲尼有言：『禮失而求諸野。』」</note></quote>。要人的視聽言動，依西周古樸的禮法而行，就是復禮。</p>
-<lb n="0123a06" ed="Y"/><p style="text-indent:2em">禮為維持社會關係於合理的，節制人類情感於適中的制度。禮雖由國家（天
+<lb n="0123a05" ed="Y"/><note n="0123a0501" resp="CBETA" type="add">諸【CB】，之【印順】</note><app n="0123a0501"><lem resp="正聞出版社" wit="【CB】">諸<note type="cf1">《漢書·藝文志》</note></lem><rdg wit="【印順】">之</rdg></app>野」<note n="0123001" resp="厚觀法師" type="add">《漢書．藝文志》：「仲尼有言：『禮失而求諸野。』」</note></quote>。要人的視聽言動，依西周古樸的禮法而行，就是復禮。</p>
+<lb n="0123a06" ed="Y"/><p xml:id="pY19p0123a0601" style="text-indent:2em">禮為維持社會關係於合理的，節制人類情感於適中的制度。禮雖由國家（天
 <lb n="0123a07" ed="Y"/>子）制定，卻不像刑與政，以權力來強制執行，而只是化民成俗。無論是私人生
 <lb n="0123a08" ed="Y"/>活，公共關係，都造成一種社會的共同意識，覺得那是人人應該奉行，而成非此
 <lb n="0123a09" ed="Y"/>不可的社會制裁力量。如不依禮俗，就會受到社會大眾的評擊。依儒者看來，善
@@ -1013,7 +1033,7 @@
 <pb n="0124a" ed="Y" xml:id="Y19.0019.0124a"/>
 <lb n="0124a01" ed="Y"/>中節的內容，那有什麼意義呢？這點，孔子說得明切，如說：<quote type="嚴謹引文">「禮云禮云，玉帛
 <lb n="0124a02" ed="Y"/>云乎哉」</quote>！<quote type="嚴謹引文">「人而不仁，如禮何」</quote>！<quote type="寬鬆引文">「為禮不敬，居喪不哀，吾何以觀之哉」</quote>！</p>
-<lb n="0124a03" ed="Y"/><p style="text-indent:2em">儒者的學本是「仁」；從立志起，修學歷程，始終重於德性的存養（與此相
+<lb n="0124a03" ed="Y"/><p xml:id="pY19p0124a0301" style="text-indent:2em">儒者的學本是「仁」；從立志起，修學歷程，始終重於德性的存養（與此相
 <lb n="0124a04" ed="Y"/>應的政治，也是情勝於法的）。一方面是，充此人同此心的仁德，做到常與仁相
 <lb n="0124a05" ed="Y"/>應的「不違仁」；一方面是，視聽言動，居家治國，一切合於古聖的禮制。依於
 <lb n="0124a06" ed="Y"/>仁，復於禮，才能達成修身的自利。修有修正、修治的意思，所以修身就是克己
@@ -1036,7 +1056,7 @@
 <lb n="0125a09" ed="Y"/>中道的，固蔽而不契真理的。如不能絕此自己的私蔽，就不能克己——修身，當
 <lb n="0125a10" ed="Y"/>然也就不能居仁復禮。這點，佛法更深徹的決定宣說，除了通達無我，離去我見
 <lb n="0125a11" ed="Y"/>（或譯身見）為本的煩惱，是不能成就自利的。</p>
-<lb n="0125a12" ed="Y"/><p style="text-indent:2em"><title level="m">《論語》</title>有一段文，可看出孔子（絕四的）無私的實踐。如說：<quote type="寬鬆引文">「吾有知乎
+<lb n="0125a12" ed="Y"/><p xml:id="pY19p0125a1201" style="text-indent:2em"><title level="m">《論語》</title>有一段文，可看出孔子（絕四的）無私的實踐。如說：<quote type="寬鬆引文">「吾有知乎
 <lb n="0125a13" ed="Y"/>哉！無知也。有鄙夫問於我，空空如也，叩其兩端而竭也」</quote>。一般的病根，是自
 <pb n="0126a" ed="Y" xml:id="Y19.0019.0126a"/>
 <lb n="0126a01" ed="Y"/>己心裡充塞了無邊的情見——意，必，固，我，不能虛心到<quote type="嚴謹引文">「空空如也」</quote>。孔子
@@ -1046,21 +1066,21 @@
 <lb n="0126a05" ed="Y"/>別人舌頭團團轉，反而是從他所問的種種方面（兩端），推究審辨，而到達究竟
 <lb n="0126a06" ed="Y"/>徹底。孔子雖說<quote type="嚴謹引文">「無知也」</quote>，而其實這才是大知！這與<cit><bibl><title level="m">《中庸》</title>所說：</bibl><quote type="嚴謹引文">「舜其大
 <lb n="0126a07" ed="Y"/>知也歟！舜好問而好察邇言（邇言，就是鄙近之言）……執其兩端而用其中」</quote></cit>，
-<lb n="0126a08" ed="Y"/>同一意趣。肇公說：<quote type="嚴謹引文">「以中為名者，<note n="0126a0801" resp="CBETA" type="add">照【CB】，盡【印順】</note><app n="0126a0801"><lem wit="【CB】" resp="正聞出版社">照<note type="cf1">《中論》卷1(CBETA, T30, no. 1564, p. 1, a6-7)</note></lem><rdg wit="【印順】">盡</rdg></app>其實也」<note n="0126001" resp="厚觀法師" type="add">《中論》卷1(CBETA, T30, no. 1564, p. 1, a6-7)</note></quote>。中是究竟盡理的真實，是無私
+<lb n="0126a08" ed="Y"/>同一意趣。肇公說：<quote type="嚴謹引文">「以中為名者，<note n="0126a0801" resp="CBETA" type="add">照【CB】，盡【印順】</note><app n="0126a0801"><lem resp="正聞出版社" wit="【CB】">照<note type="cf1">《中論》卷1(CBETA, T30, no. 1564, p. 1, a6-7)</note></lem><rdg wit="【印順】">盡</rdg></app>其實也」<note n="0126001" resp="厚觀法師" type="add">《中論》卷1(CBETA, T30, no. 1564, p. 1, a6-7)</note></quote>。中是究竟盡理的真實，是無私
 <lb n="0126a09" ed="Y"/>的大知所能徹了的，近於「不落兩邊，善處中道」的慧學。後世儒者，偏於仁本
 <lb n="0126a10" ed="Y"/>而重人情，這才中庸之道，流為模稜兩可或折扣主義。</p>
-<lb n="0126a11" ed="Y"/><p style="text-indent:2em">從上來的論證，大學所說的修身，似乎簡單，卻非常扼要。修身是要依於仁
+<lb n="0126a11" ed="Y"/><p xml:id="pY19p0126a1101" style="text-indent:2em">從上來的論證，大學所說的修身，似乎簡單，卻非常扼要。修身是要依於仁
 <lb n="0126a12" ed="Y"/>，復於禮的；但心要卻在無私無蔽。孔子歎舜為「大知」，是最確當的！因為無
 <lb n="0126a13" ed="Y"/>私無蔽，不落兩端的中道，正是慧學的內容。</p>
 <pb n="0127a" ed="Y" xml:id="Y19.0019.0127a"/>
-<lb n="0127a01" ed="Y"/><p style="text-indent:2em">儒者以仁為本，但真要「復禮」，「為仁」，修身克己的切要工夫，卻在無
+<lb n="0127a01" ed="Y"/><p xml:id="pY19p0127a0101" style="text-indent:2em">儒者以仁為本，但真要「復禮」，「為仁」，修身克己的切要工夫，卻在無
 <lb n="0127a02" ed="Y"/>私蔽的「大知」。佛法以「三菩提」——正覺為宗，也就是大智為宗。唯有知，
 <lb n="0127a03" ed="Y"/>覺，才能成就修身。從成就自利的修身來說，要有無私蔽的大智慧；這不但佛如
 <lb n="0127a04" ed="Y"/>此說，重仁的儒學，也還是如此。不過一分小乘學者，由於不重視慈悲，而流入
 <lb n="0127a05" ed="Y"/>枯寂的理智生涯。一般儒者偏重仁德的存養，忽視了甚深法性的悟入，結果就老
 <lb n="0127a06" ed="Y"/>是停滯於世間善行的階段。唯有大乘法，依深智而起大悲，悲智兼融的大覺，才
 <lb n="0127a07" ed="Y"/>完美的開顯了究竟的修身正道。</p>
-<lb n="0127a08" ed="Y"/><p style="text-indent:2em">無我的平等大慧，為佛法所以超越一般世間學的特色。有關於慧的正見，如
+<lb n="0127a08" ed="Y"/><p xml:id="pY19p0127a0801" style="text-indent:2em">無我的平等大慧，為佛法所以超越一般世間學的特色。有關於慧的正見，如
 <lb n="0127a09" ed="Y"/>前正見中所說：從知善惡起，解了到三世因果，了達世間的現實相，確立人生進
 <lb n="0127a10" ed="Y"/>善的正道。進一步，深入到三乘的慧學，抉示了我見為生死的根源，為世間一切
 <lb n="0127a11" ed="Y"/>苦難的癥結所在。如果說私欲，這是私欲的根本了。依佛法說：為什麼會有私欲
@@ -1082,7 +1102,7 @@
 <lb n="0128a13" ed="Y"/>無我，才能超越自我中心——私欲中心；才能無私無蔽，徹見一切真相，成就修
 <pb n="0129a" ed="Y" xml:id="Y19.0019.0129a"/>
 <lb n="0129a01" ed="Y"/>身的自利功德。</p>
-<lb n="0129a02" ed="Y"/><p style="text-indent:2em">眾生無始以來的我見，執取身心，造成自我中心的特性。這是無明——迷蒙
+<lb n="0129a02" ed="Y"/><p xml:id="pY19p0129a0201" style="text-indent:2em">眾生無始以來的我見，執取身心，造成自我中心的特性。這是無明——迷蒙
 <lb n="0129a03" ed="Y"/>的知，為一切煩惱，不仁，私欲的根源。佛的正覺，就是破除無明的大智。說起
 <lb n="0129a04" ed="Y"/>無私無我，世間學者——儒學等，也有部分類似的提示，如說：<quote type="嚴謹引文">「毋意，毋必，
 <lb n="0129a05" ed="Y"/>毋固，毋我」</quote>。但世學者，就是儒學，也總是向外觀察，見到自己與人類萬物的
@@ -1098,7 +1118,7 @@
 <lb n="0130a01" ed="Y"/>這是超出世間一般的，是正確的！但偏重自己身心的內觀悟入，多數不再去理會
 <lb n="0130a02" ed="Y"/>身外一切的緣起性，所以又不免有忽視慈悲的傾向。這還不能徹了佛說無我的究
 <lb n="0130a03" ed="Y"/>竟深義，略於慈悲，所以被稱為小乘。</p>
-<lb n="0130a04" ed="Y"/><p style="text-indent:2em">大乘慧是比三乘共慧更深徹的。大乘慧，不只內觀（自我）身心而通達無我
+<lb n="0130a04" ed="Y"/><p xml:id="pY19p0130a0401" style="text-indent:2em">大乘慧是比三乘共慧更深徹的。大乘慧，不只內觀（自我）身心而通達無我
 <lb n="0130a05" ed="Y"/>，還更廣泛的觀察外在的一切法；內外一如，都是緣起的空無我性。所以「一切
 <lb n="0130a06" ed="Y"/>法空」，「一切法不生」，為大乘慧學的宗本。向內執取的「我見」，與向外執
 <lb n="0130a07" ed="Y"/>取的「法見」，錯亂的性質是一樣的，都是「自性見」，不能明見緣起，不能徹
@@ -1110,12 +1130,12 @@
 <lb n="0130a13" ed="Y"/>同體的大悲心。明白了這點，世間學，出世的聲聞學，出世而入世的大乘慧學，
 <pb n="0131a" ed="Y" xml:id="Y19.0019.0131a"/>
 <lb n="0131a01" ed="Y"/>所有淺深、差別，就可以清楚地分辨出來。</p>
-<lb n="0131a02" ed="Y"/><list rend="no-marker"><item><p style="margin-left:1em">世　間——向外觀察，了解萬化同體，重於仁愛。</p></item>
-<lb n="0131a03" ed="Y"/><item><p style="margin-left:1em">聲　聞——向內觀察，通達空無我性，重於智證。</p></item>
-<lb n="0131a04" ed="Y"/><item><p style="margin-left:1em">佛菩薩——內外交徹，遍達人法空無我性，即智起悲，悲智平等。</p></item></list>
-<lb n="0131a05" ed="Y"/><p style="text-indent:2em">修大乘慧學，是依定修慧，而到達現證無生，成就自利功德。這裡不再去詳
+<lb n="0131a02" ed="Y"/><list rend="no-marker"><item xml:id="itemY19p0131a0201"><p xml:id="pY19p0131a0201" style="margin-left:1em">世　間——向外觀察，了解萬化同體，重於仁愛。</p></item>
+<lb n="0131a03" ed="Y"/><item xml:id="itemY19p0131a0301"><p xml:id="pY19p0131a0301" style="margin-left:1em">聲　聞——向內觀察，通達空無我性，重於智證。</p></item>
+<lb n="0131a04" ed="Y"/><item xml:id="itemY19p0131a0401"><p xml:id="pY19p0131a0401" style="margin-left:1em">佛菩薩——內外交徹，遍達人法空無我性，即智起悲，悲智平等。</p></item></list>
+<lb n="0131a05" ed="Y"/><p xml:id="pY19p0131a0501" style="text-indent:2em">修大乘慧學，是依定修慧，而到達現證無生，成就自利功德。這裡不再去詳
 <lb n="0131a06" ed="Y"/>說了。</p>
-<lb n="0131a07" ed="Y"/><p style="text-indent:2em">如儒者的克己（修身），一定是內依於仁，外復於禮。佛菩薩的自利究竟，
+<lb n="0131a07" ed="Y"/><p xml:id="pY19p0131a0701" style="text-indent:2em">如儒者的克己（修身），一定是內依於仁，外復於禮。佛菩薩的自利究竟，
 <lb n="0131a08" ed="Y"/>雖是智證法性，但也一定是住於慈悲，而表現為持律的生活。律，一般以為只是
 <lb n="0131a09" ed="Y"/>禁戒的，其實佛教的律行，意義非常深廣，與儒者的禮相近。律是依法（法是真
 <lb n="0131a10" ed="Y"/>理，是智的證境，與儒者的禮依於仁不同）而制訂的，有軌範（出家眾的）身心
@@ -1134,7 +1154,7 @@
 <lb n="0132a09" ed="Y"/>能說沒有實質上的差異。但從人以修身為本；修身的要內心無私無我，外行有良
 <lb n="0132a10" ed="Y"/>好的私德、公德，依此才能達成人類的和樂，儒佛的確是有著相同的見地。</p></cb:div>
 <lb n="0132a11" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">七　成就利他的道次——齊家治國平天下</cb:mulu><head>七　成就利他的道次——齊家治國平天下</head>
-<lb n="0132a12" ed="Y"/><p style="text-indent:2em">儒者經過致知，誠意，正心的學程，完成修身的自立自達；學佛者經過信，
+<lb n="0132a12" ed="Y"/><p xml:id="pY19p0132a1201" style="text-indent:2em">儒者經過致知，誠意，正心的學程，完成修身的自立自達；學佛者經過信，
 <pb n="0133a" ed="Y" xml:id="Y19.0019.0133a"/>
 <lb n="0133a01" ed="Y"/>戒，定的學程，而達成慧證的己利。這兩者的深度雖不相同，而修成無私無我的
 <lb n="0133a02" ed="Y"/>明智，作為利人利世的根本，卻是一樣的。說到利他，儒者分為齊家，治國，平
@@ -1153,7 +1173,7 @@
 <lb n="0134a01" ed="Y"/>變亂以前，唐代的國威遠振，特別是唐太宗，總不能說他不能治國吧！所以齊家
 <lb n="0134a02" ed="Y"/>治國平天下的次第，在現代看來，雖不一定如此，而在古代的封建政制，卻有他
 <lb n="0134a03" ed="Y"/>一定的程序。</p>
-<lb n="0134a04" ed="Y"/><p style="text-indent:2em">儒者的大學，始終是政治第一，<quote type="嚴謹引文">「學而優則仕」</quote>。所以自修其身，只是實現
+<lb n="0134a04" ed="Y"/><p xml:id="pY19p0134a0401" style="text-indent:2em">儒者的大學，始終是政治第一，<quote type="嚴謹引文">「學而優則仕」</quote>。所以自修其身，只是實現
 <lb n="0134a05" ed="Y"/>政治理想的應有私德，而目的是經齊家治國，而達到明明德於天下。那些沒辦法
 <lb n="0134a06" ed="Y"/>而<quote type="嚴謹引文">「窮則獨善其身」</quote>的，也許是不能看作救人救世的。學佛者，要從自利而能利
 <lb n="0134a07" ed="Y"/>他，雖與儒者的精神一致，而利他的方式與次第，卻與儒者不同。這一主要的差
@@ -1172,7 +1192,7 @@
 <lb n="0135a06" ed="Y"/>人救世；也就走到那裡，受到那裡人的尊敬。大乘行者的利他，不出於家國天下
 <lb n="0135a07" ed="Y"/>，而工作不偏於王公宰官，或者教育。從現代的意義來看，這樣的利人利世，是
 <lb n="0135a08" ed="Y"/>更確當的。</p>
-<lb n="0135a09" ed="Y"/><p style="text-indent:2em">儒者重於家本位的德化政治，後代又多少拘泥了齊家治國，由親近而疏遠的
+<lb n="0135a09" ed="Y"/><p xml:id="pY19p0135a0901" style="text-indent:2em">儒者重於家本位的德化政治，後代又多少拘泥了齊家治國，由親近而疏遠的
 <lb n="0135a10" ed="Y"/>次第。所以對利他的不定性，尤其是佛教的出家制，不能理解同情。依佛法來說
 <lb n="0135a11" ed="Y"/>，對於父母，兄弟，朋友，親的疏的，就是不說過去生中的關係，現在也每因思
 <lb n="0135a12" ed="Y"/>想、性格等不同，不能一概而論。如對父母的忤逆不孝，當然是不對的。但對自
@@ -1186,7 +1206,7 @@
 <lb n="0136a06" ed="Y"/>然關係，更有種種複雜的關係。說恩德，也有不同意義的種種恩德。何況人與人
 <lb n="0136a07" ed="Y"/>間，過去生中，有著或順或逆，非常複雜的因緣呢！所以道德的擴展，利他的層
 <lb n="0136a08" ed="Y"/>次，是不應該拘泥於親疏次第的。</p>
-<lb n="0136a09" ed="Y"/><p style="text-indent:2em">家國天下的次第是存在的，但也是不定的。有的著重家庭，有的著重國家，
+<lb n="0136a09" ed="Y"/><p xml:id="pY19p0136a0901" style="text-indent:2em">家國天下的次第是存在的，但也是不定的。有的著重家庭，有的著重國家，
 <lb n="0136a10" ed="Y"/>有的著重人類，一切眾生。人的根性不同，思想不一，所以志業的著重，也不能
 <lb n="0136a11" ed="Y"/>一致。儒者重於家庭，特重對家庭的責任；把孝父母看作最先與最要的道德。家
 <lb n="0136a12" ed="Y"/>是社會組織的基層，雖是非常重要的，但過分偏重，也就不免有專為榮宗耀祖，
@@ -1207,7 +1227,7 @@
 <lb n="0137a13" ed="Y"/>忠」，「大義滅親」之類。只可惜還不能更進一步，移家庭的責任，而作為一切
 <pb n="0138a" ed="Y" xml:id="Y19.0019.0138a"/>
 <lb n="0138a01" ed="Y"/>人類，一切眾生而獻身心的大業而已！</p>
-<lb n="0138a02" ed="Y"/><p style="text-indent:2em">儒者的大學，是著重政治的。佛法，由於釋尊的放棄王位，出家修行成佛，
+<lb n="0138a02" ed="Y"/><p xml:id="pY19p0138a0201" style="text-indent:2em">儒者的大學，是著重政治的。佛法，由於釋尊的放棄王位，出家修行成佛，
 <lb n="0138a03" ed="Y"/>每被誤會為學佛是應棄絕政治的，但實際並不如此。現出家身而修學，以宗教師
 <lb n="0138a04" ed="Y"/>的身分來說法利他，只是學佛利他的一種重要方式，而不是全部。以佛來說吧：
 <lb n="0138a05" ed="Y"/>釋迦佛現出家相，而佛的真實法身——毘盧遮那，卻是在家相。這意味著在家為
@@ -1232,7 +1252,7 @@
 <lb n="0139a10" ed="Y"/>也就必然與群眾結緣，受到群眾的信任與擁戴。這樣，修身成就後，從事治國平
 <lb n="0139a11" ed="Y"/>天下的大任，佛法豈不是與儒家完全相合？只是佛法以為，不一定要從政，才能
 <lb n="0139a12" ed="Y"/>利益人群而已！</p>
-<lb n="0139a13" ed="Y"/><p style="text-indent:2em">儒者重視禮教的德化，輕視刑政的法治，所以說：<quote type="寬鬆引文">「導之以德，齊之以禮，
+<lb n="0139a13" ed="Y"/><p xml:id="pY19p0139a1301" style="text-indent:2em">儒者重視禮教的德化，輕視刑政的法治，所以說：<quote type="寬鬆引文">「導之以德，齊之以禮，
 <pb n="0140a" ed="Y" xml:id="Y19.0019.0140a"/>
 <lb n="0140a01" ed="Y"/>有恥且格。導之以政，齊之以刑，民免而無恥」</quote>。然而在佛法，如當政者從慈悲
 <lb n="0140a02" ed="Y"/>心出發，那德化也得，刑政也得，全依現實社會情況的需要而決定。<title level="m">《華嚴經》</title>
@@ -1249,7 +1269,7 @@
 <lb n="0140a13" ed="Y"/>；有的善惡參半；有的是驕奢淫亂，誤入歧途。如是惡王，這雖然是福業所感，
 <pb n="0141a" ed="Y" xml:id="Y19.0019.0141a"/>
 <lb n="0141a01" ed="Y"/>對未來說，不免是罪業深重了！</p>
-<lb n="0141a02" ed="Y"/><p style="text-indent:2em">凡修身成就而能利他的，儒與佛都是稱之為聖人的。中國古代的聖人，如堯
+<lb n="0141a02" ed="Y"/><p xml:id="pY19p0141a0201" style="text-indent:2em">凡修身成就而能利他的，儒與佛都是稱之為聖人的。中國古代的聖人，如堯
 <lb n="0141a03" ed="Y"/>、舜、文、武等，古聖就是賢明的君主。後來，孔子也被尊為聖人（也被稱為素
 <lb n="0141a04" ed="Y"/>王），而聖與王不必合一，這才有「內聖外王」的說法。但到底要怎樣才稱為聖
 <lb n="0141a05" ed="Y"/>人？<cit><bibl><title level="m">《中庸》</title>說：</bibl><quote type="嚴謹引文">「聖人亦有所不知……亦有所不能」</quote></cit>，這與一般宗教的全知全
@@ -1266,7 +1286,7 @@
 <lb n="0142a02" ed="Y"/>也。柳下惠，聖之和者也。孔子，聖之時者也」</quote>。<quote type="嚴謹引文">「伯夷隘，柳下惠不恭」</quote>。所
 <lb n="0142a03" ed="Y"/>以，修身完成的聖人，由於個性（也應該是見解）不同，風格是那樣的差別，不
 <lb n="0142a04" ed="Y"/>一定是盡美盡善的。孟子的聖人說，是更合於人中聖者的。</p>
-<lb n="0142a05" ed="Y"/><p style="text-indent:2em">佛教所說的聖人，比起儒者所說，可說是更寬泛的，又更高深的，更圓滿的
+<lb n="0142a05" ed="Y"/><p xml:id="pY19p0142a0501" style="text-indent:2em">佛教所說的聖人，比起儒者所說，可說是更寬泛的，又更高深的，更圓滿的
 <lb n="0142a06" ed="Y"/>。儒者重於人倫，要進修到人性（天性，明德）的徹底開發，唯善心行的任運現
 <lb n="0142a07" ed="Y"/>行（天理流行，人欲淨盡），才是聖人，這是不可多得的。但依佛法來說，這是
 <lb n="0142a08" ed="Y"/>難得的，卻是不徹底的。因為經過修持，使內心純淨，雜染的不起現行；或者修
@@ -1283,7 +1303,7 @@
 <lb n="0143a05" ed="Y"/>般的善淨心識的任運現行，而是無漏無我慧（也稱空慧，無相智，無分別智等）
 <lb n="0143a06" ed="Y"/>的顯發。有了這無漏智證的體驗，才能截斷煩惱的根栽。從此一得永得，決不退
 <lb n="0143a07" ed="Y"/>轉，必然能到達無限的法性海，獲得永恆的大自在。</p>
-<lb n="0143a08" ed="Y"/><p style="text-indent:2em">有了無漏無我慧，徹證無我法性，就稱為聖者。不一定有神通，還有煩惱現
+<lb n="0143a08" ed="Y"/><p xml:id="pY19p0143a0801" style="text-indent:2em">有了無漏無我慧，徹證無我法性，就稱為聖者。不一定有神通，還有煩惱現
 <lb n="0143a09" ed="Y"/>行，身語方面也不一定清淨。比起儒者所說：<quote type="嚴謹引文">「不勉而中，不思而得，從容中道
 <lb n="0143a10" ed="Y"/>」</quote>；<quote type="嚴謹引文">「從心所欲不踰矩」</quote>的心境，好像差得多，然而卻是道地的聖人了。這如大
 <lb n="0143a11" ed="Y"/>樹已截斷根本，雖還有生芽，發葉，開花的現象；比起斫枝摘葉，樹幹光禿禿而
@@ -1296,7 +1316,7 @@
 <lb n="0144a04" ed="Y"/>乘行者，不但徹證無我法性，又有廣大悲願。為了嚴淨國土，成熟眾生，長劫修
 <lb n="0144a05" ed="Y"/>行，福慧圓滿而成佛，那不是儒者所可比擬的！不再是有所不知，有所不能的聖
 <lb n="0144a06" ed="Y"/>人了。</p>
-<lb n="0144a07" ed="Y"/><p style="text-indent:2em">儒者與佛教的聖人，本質上雖有不同，但約聖者的風格來說，也有近似處。
+<lb n="0144a07" ed="Y"/><p xml:id="pY19p0144a0701" style="text-indent:2em">儒者與佛教的聖人，本質上雖有不同，但約聖者的風格來說，也有近似處。
 <lb n="0144a08" ed="Y"/>如小乘是聖之清者；菩薩是聖之和者，任者；大地菩薩到佛位，「隨機利見」，
 <lb n="0144a09" ed="Y"/>「適化無方」，那當然是聖之時者了。又信願增上的近於和，智增上的近於清，
 <lb n="0144a10" ed="Y"/>悲增上的近於任。由於根機性習不同，修學而成聖時，風格也不能一致。當然，

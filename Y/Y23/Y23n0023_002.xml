@@ -12,50 +12,70 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/12</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/12</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>39卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 23, No. 23</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>39卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">23</idno>.<idno type="no">23</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨香雲</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">一、平凡的一生</cb:mulu><cb:mulu level="2" type="其他">二六　最後的篇章</cb:mulu>
-<milestone unit="juan" n="2"/><pb n="0151a" ed="Y" xml:id="Y23.0023.0151a.old" type="old"/>
+<milestone n="2" unit="juan"/><pb n="0151a" ed="Y" xml:id="Y23.0023.0151a.old" type="old"/>
 <pb n="0151a" ed="Y" xml:id="Y23.0023.0151a"/>
 <lb n="0151a01" ed="Y"/><lb n="0151a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">二、雜華雜記</cb:mulu><head>雜華雜記<note n="0151001" resp="DILA" type="add">民國三一年撰。</note></head>
 <lb n="0151a02" ed="Y"/><lb n="0151a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　華嚴經</cb:mulu><head>一　華嚴經</head>
-<lb n="0151a03" ed="Y"/><lb n="0151a03" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《華嚴經》</title>的漢譯，有東晉佛陀跋陀羅的六〇卷本、唐實叉難陀的八〇卷本
+<lb n="0151a03" ed="Y"/><lb n="0151a03" ed="Y" type="old"/><p xml:id="pY23p0151a0301" style="text-indent:2em"><title level="m">《華嚴經》</title>的漢譯，有東晉佛陀跋陀羅的六〇卷本、唐實叉難陀的八〇卷本
 <lb n="0151a04" ed="Y"/><lb n="0151a04" ed="Y" type="old"/>。此外，抽譯一部分的還多，像唐般若的<title level="m">「四十華嚴」</title>，就是最後一品的別譯。
 <lb n="0151a05" ed="Y"/><lb n="0151a05" ed="Y" type="old"/>本經的卷帙很多，其中最流行的部分，要算<title level="a">〈十地品〉</title>與<title level="a">〈入法界品〉</title>。原來這
 <lb n="0151a06" ed="Y"/><lb n="0151a06" ed="Y" type="old"/>兩品，一直到後代，還是單獨的在佛教界流行。它的價值，在古代印度學者的眼
@@ -86,7 +106,7 @@
 <lb n="0153a05" ed="Y"/>有人<lb n="0153a05" ed="Y" type="old"/>把思想類似的，編集成大部，這應該是合於歷史的。但在編集以前的傳布中
 <lb n="0153a06" ed="Y"/>，<title level="a">〈<lb n="0153a06" ed="Y" type="old"/>十地品〉</title>與<title level="a">〈入法界品〉</title>，是更古型、更有價值而為當時盛行的。</p></cb:div>
 <lb n="0153a07" ed="Y"/><lb n="0153a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　不思議解脫、入法界、普賢行願</cb:mulu><head>二　不思議解脫、入法界、普賢行願</head>
-<lb n="0153a08" ed="Y"/><lb n="0153a08" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《華嚴經》</title>的最後一品，有三種名稱：一、龍樹的<title level="m">《大智度論》</title>，稱之為<title level="m">《
+<lb n="0153a08" ed="Y"/><lb n="0153a08" ed="Y" type="old"/><p xml:id="pY23p0153a0801" style="text-indent:2em"><title level="m">《華嚴經》</title>的最後一品，有三種名稱：一、龍樹的<title level="m">《大智度論》</title>，稱之為<title level="m">《
 <lb n="0153a09" ed="Y"/>不可<lb n="0153a09" ed="Y" type="old"/>思議解脫經》</title>，這是表示與一般聲聞乘不同，從入世無礙的作用上說。聲聞
 <lb n="0153a10" ed="Y"/>者以<lb n="0153a10" ed="Y" type="old"/>為世間的生死是繫縛，出世的涅槃是解脫，截然不同；解脫非擺脫一切不可
 <lb n="0153a11" ed="Y"/>，要<lb n="0153a11" ed="Y" type="old"/>從厭苦離欲中得來。大乘解脫，恰好針對這一點，所以說生死是如幻性空的
@@ -98,7 +118,7 @@
 <lb n="0154a04" ed="Y"/><lb n="0154a04" ed="Y" type="old"/>精神，也從此確立。本品的善知識，各有一種解脫門（一部分叫般若的、叫三<lb n="0154a05" ed="Y" type="old"/>昧
 <lb n="0154a05" ed="Y"/>的、叫陀羅尼的，其實都是解脫法門），在自行化他上，活潑潑的自由自在。<lb n="0154a06" ed="Y" type="old"/>這
 <lb n="0154a06" ed="Y"/>在聲聞的解脫論看來，實在不可思議！</p>
-<lb n="0154a07" ed="Y"/><lb n="0154a07" ed="Y" type="old"/><p style="text-indent:2em">晉譯與唐譯，都標名<title level="a">〈入法界品〉</title>，這是從悟境上說。法界是什麼？依古人
+<lb n="0154a07" ed="Y"/><lb n="0154a07" ed="Y" type="old"/><p xml:id="pY23p0154a0701" style="text-indent:2em">晉譯與唐譯，都標名<title level="a">〈入法界品〉</title>，這是從悟境上說。法界是什麼？依古人
 <lb n="0154a08" ed="Y"/><lb n="0154a08" ed="Y" type="old"/>的解說，界有類與因二義。類，是普遍的類性。類性可以有種種，但最高無上的
 <lb n="0154a09" ed="Y"/>類<lb n="0154a09" ed="Y" type="old"/>性，是一味平等的空寂性。因，是生起的所依性。有人從事相方面說，界是種
 <lb n="0154a10" ed="Y"/>子；<lb n="0154a10" ed="Y" type="old"/>有人從理性方面說，界是緣生法所依的必然法則。大乘中除了種子以外，把
@@ -117,7 +137,7 @@
 <lb n="0155a09" ed="Y"/><lb n="0155a09" ed="Y" type="old"/>幻現，達到最徹底與最均衡，這是究竟的佛境了。雖可以分為三階，法界的平等
 <lb n="0155a10" ed="Y"/><lb n="0155a10" ed="Y" type="old"/>無差別，還是不容分劃。善財再見文殊，進入普門城的時候，是悟入平等法界。
 <lb n="0155a11" ed="Y"/><lb n="0155a11" ed="Y" type="old"/>到見普賢時，那又進入第二階段，從空出假，修嚴土化生的普賢行了。</p>
-<lb n="0155a12" ed="Y"/><lb n="0155a12" ed="Y" type="old"/><p style="text-indent:2em">「四十華嚴」，叫做<title level="a">〈普賢行願品〉</title>，這是從利他得名。願是志願，行是實
+<lb n="0155a12" ed="Y"/><lb n="0155a12" ed="Y" type="old"/><p xml:id="pY23p0155a1201" style="text-indent:2em">「四十華嚴」，叫做<title level="a">〈普賢行願品〉</title>，這是從利他得名。願是志願，行是實
 <lb n="0155a13" ed="Y"/>行，<lb n="0155a13" ed="Y" type="old"/>大乘的行願，也與聲聞不同。聲聞是不諱言自利的，他們的目的在逮得己利
 <pb n="0156a" ed="Y" xml:id="Y23.0023.0156a"/>
 <lb n="0156a01" ed="Y"/>，所<pb n="0156a" ed="Y" xml:id="Y23.0023.0156a.old" type="old"/><lb n="0156a01" ed="Y" type="old"/>以是己利行（獨善）。大乘呢，不但自利，還要利他；這自他兼濟的菩薩行
@@ -128,7 +148,7 @@
 <lb n="0156a06" ed="Y"/>賢地<lb n="0156a06" ed="Y" type="old"/>以前的菩薩行願，也不出普賢行願以外；究竟佛果，又只是普賢行願的究竟
 <lb n="0156a07" ed="Y"/>圓滿<lb n="0156a07" ed="Y" type="old"/>。所以本品說了普賢行願，從因圓顯果滿，不再談佛果了。</p></cb:div>
 <lb n="0156a08" ed="Y"/><lb n="0156a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　青年佛教</cb:mulu><head>三　青年佛教</head>
-<lb n="0156a09" ed="Y"/><lb n="0156a09" ed="Y" type="old"/><p style="text-indent:2em">據古人說：在佛滅一百年的時候，恆河兩岸的佛教，發生了重大的糾紛。毘
+<lb n="0156a09" ed="Y"/><lb n="0156a09" ed="Y" type="old"/><p xml:id="pY23p0156a0901" style="text-indent:2em">據古人說：在佛滅一百年的時候，恆河兩岸的佛教，發生了重大的糾紛。毘
 <lb n="0156a10" ed="Y"/><lb n="0156a10" ed="Y" type="old"/>舍離為中心的東方系，多是青年大眾，後來成立了大眾部。波利為中心的西方系
 <lb n="0156a11" ed="Y"/><lb n="0156a11" ed="Y" type="old"/>，多是耆年上座，後來成立了上座部。這二部的分化，就是出家上座的聲聞佛教
 <lb n="0156a12" ed="Y"/><lb n="0156a12" ed="Y" type="old"/>與青年大眾的菩薩佛教的前身。少壯與耆年的對立，是佛教的史實。青年在家<pb n="0157a" ed="Y" xml:id="Y23.0023.0157a.old" type="old"/><lb n="0157a01" ed="Y" type="old"/>佛
@@ -142,7 +162,7 @@
 <lb n="0157a07" ed="Y"/>。除了這些以外，不論是長者、居士、醫生、法官，在善財所參訪的善知識中<lb n="0157a08" ed="Y" type="old"/>，
 <lb n="0157a08" ed="Y"/>沒有一個是衰老的。這不能不引起我們的注意，我所以稱之為「青年佛教與佛教
 <lb n="0157a09" ed="Y"/><lb n="0157a09" ed="Y" type="old"/>青年」。</p>
-<lb n="0157a10" ed="Y"/><lb n="0157a10" ed="Y" type="old"/><p style="text-indent:2em">青年是典型的人生吧！耶穌與老子，都讚美過嬰兒；孟子也說不失赤子之心
+<lb n="0157a10" ed="Y"/><lb n="0157a10" ed="Y" type="old"/><p xml:id="pY23p0157a1001" style="text-indent:2em">青年是典型的人生吧！耶穌與老子，都讚美過嬰兒；孟子也說不失赤子之心
 <lb n="0157a11" ed="Y"/><lb n="0157a11" ed="Y" type="old"/>。佛教也讚美童年，不單讚他的真誠純潔，特別注重他的慈和，內心有無限光明
 <lb n="0157a12" ed="Y"/><lb n="0157a12" ed="Y" type="old"/>的憧憬，能不惜一切為真理而追求。童年是聖潔的；在大乘中，菩薩離去煩惱，
 <lb n="0157a13" ed="Y"/><lb n="0157a13" ed="Y" type="old"/>使內心潔淨無疵，像童子那一顆無邪的心，就叫做童子地。童年是率真的，笑得<pb n="0158a" ed="Y" xml:id="Y23.0023.0158a.old" type="old"/>
@@ -163,7 +183,7 @@
 <pb n="0159a" ed="Y" xml:id="Y23.0023.0159a"/>
 <lb n="0159a01" ed="Y"/><lb n="0159a01" ed="Y" type="old"/>他的見解、行動的是否青年，不是生理的名詞，這一點是千萬不可誤會的！</p></cb:div>
 <lb n="0159a02" ed="Y"/><lb n="0159a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　青年佛教的出現與南行</cb:mulu><head>四　青年佛教的出現與南行</head>
-<lb n="0159a03" ed="Y"/><lb n="0159a03" ed="Y" type="old"/><p style="text-indent:2em">大乘佛教的出現，與佛陀行果的讚仰有關。佛果究竟如何？菩薩行如何？從
+<lb n="0159a03" ed="Y"/><lb n="0159a03" ed="Y" type="old"/><p xml:id="pY23p0159a0301" style="text-indent:2em">大乘佛教的出現，與佛陀行果的讚仰有關。佛果究竟如何？菩薩行如何？從
 <lb n="0159a04" ed="Y"/><lb n="0159a04" ed="Y" type="old"/>此去探發，大乘佛教的面目就漸漸的揭開了。本經說得好：<quote type="嚴謹引文">「咸作是念：如來行
 <lb n="0159a05" ed="Y"/><lb n="0159a05" ed="Y" type="old"/>、如來智境界，……無能知……無能為人如實解說。」<note n="0159001" resp="厚觀法師" type="add">《大方廣佛華嚴經》卷44〈34 入法界品〉：「咸作是念：如來行、如來智境界、如來持、如來力、如來無畏、如來三昧、如來住、如來勝妙功德、如來身、如來智、[12]如來法，一切天人無能知、無能度、無能得底、無能受、無能思惟、無能觀察、無能分別、無能開發、無能宣明、無能為人如實解說」(CBETA, T09, no. 278, p. 676, c19-25)[12]〔如來法〕－【宋】【元】【明】【宮】【聖】。</note></quote>——這是說大家不知道。
 <lb n="0159a06" ed="Y"/>接著說<lb n="0159a06" ed="Y" type="old"/>：<quote type="嚴謹引文">「除佛持力、自在力、威神力，如來本願力；過去善根力、親近善知識
@@ -181,7 +201,7 @@
 <lb n="0160a05" ed="Y"/>大眾學者的最初<lb n="0160a05" ed="Y" type="old"/>分化，中心地帶是毘舍離，他們自以為是釋尊的老鄉，實在是恆
 <lb n="0160a06" ed="Y"/>河東岸的一團，<lb n="0160a06" ed="Y" type="old"/>迦毘羅、拘尸那都是。這像波利比丘的代表西方，統攝了拘睒彌
 <lb n="0160a07" ed="Y"/>、摩偷羅等一樣<lb n="0160a07" ed="Y" type="old"/>。這東方的大眾系，漸漸的東南移到央伽羅，傳說已有大乘經了
-<lb n="0160a08" ed="Y"/>。又漸漸的傳到<lb n="0160a08" ed="Y" type="old"/>南印度的摩醯沙<note n="0160a0801" resp="CBETA" type="add">慢【CB】，漫【印順】</note><app n="0160a0801"><lem wit="【CB】" resp="正聞出版社">慢</lem><rdg wit="【印順】">漫</rdg></app>陀羅；後來大案達羅、小案達羅，永遠是大眾
+<lb n="0160a08" ed="Y"/>。又漸漸的傳到<lb n="0160a08" ed="Y" type="old"/>南印度的摩醯沙<note n="0160a0801" resp="CBETA" type="add">慢【CB】，漫【印順】</note><app n="0160a0801"><lem resp="正聞出版社" wit="【CB】">慢</lem><rdg wit="【印順】">漫</rdg></app>陀羅；後來大案達羅、小案達羅，永遠是大眾
 <lb n="0160a09" ed="Y"/>系的化區，也就<lb n="0160a09" ed="Y" type="old"/>是大乘佛教盛行的地方。本經從舍衛國出發，這當然因舍衛是釋
 <lb n="0160a10" ed="Y"/>迦的主要教化區<lb n="0160a10" ed="Y" type="old"/>，不能說是大乘佛教的最初出發點。依大乘經的記載，除了東南
 <lb n="0160a11" ed="Y"/>海岸及王舍城而<lb n="0160a11" ed="Y" type="old"/>外，宣說大乘經的地點，十分之九與舍衛、拘尸那、雪山、毘舍
@@ -193,7 +213,7 @@
 <lb n="0161a03" ed="Y"/>，這或者是說破<lb n="0161a03" ed="Y" type="old"/>這一點吧！雖這麼說，善財的遊蹤，宜乎大體上看，不能太拘滯
 <lb n="0161a04" ed="Y"/>的。到摩竭陀，<lb n="0161a04" ed="Y" type="old"/>這要從修學的見地去解說（見佛）才適當。</p></cb:div>
 <lb n="0161a05" ed="Y"/><lb n="0161a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五　文殊、普賢、釋迦</cb:mulu><head>五　文殊、普賢、釋迦</head>
-<lb n="0161a06" ed="Y"/><lb n="0161a06" ed="Y" type="old"/><p style="text-indent:2em">文殊、普賢二大士，在本經裡，是助佛揚化的上首，所以古人稱之為「脇侍
+<lb n="0161a06" ed="Y"/><lb n="0161a06" ed="Y" type="old"/><p xml:id="pY23p0161a0601" style="text-indent:2em">文殊、普賢二大士，在本經裡，是助佛揚化的上首，所以古人稱之為「脇侍
 <lb n="0161a07" ed="Y"/><lb n="0161a07" ed="Y" type="old"/>」。大乘佛教的真面目，也就寄託在二大士的言行中表現出來。大智文殊、大行
 <lb n="0161a08" ed="Y"/><lb n="0161a08" ed="Y" type="old"/>普賢，這在中國，連小沙彌都熟背了的。二位是否歷史人物，或者實有其人而成
 <lb n="0161a09" ed="Y"/><lb n="0161a09" ed="Y" type="old"/>為箭垛式的人物，或是道德的人格化，這都不在討論之內。依古人的解說，佛菩
@@ -211,14 +231,14 @@
 <lb n="0162a08" ed="Y"/>表<lb n="0162a08" ed="Y" type="old"/>他。發了信根以後，進一步求解，像善財的參訪善知識；到後來，得到證實的
 <lb n="0162a09" ed="Y"/>智<lb n="0162a09" ed="Y" type="old"/>慧（這智慧，就是悟不由他的證信）。善財在普門城再見文殊，就是這信念與
 <lb n="0162a10" ed="Y"/>理<lb n="0162a10" ed="Y" type="old"/>智合一的大智。</p>
-<lb n="0162a11" ed="Y"/><lb n="0162a11" ed="Y" type="old"/><p style="text-indent:2em">再說普賢，他表示行（側重在自他兼濟的大行），但也表示願。「普賢行願
+<lb n="0162a11" ed="Y"/><lb n="0162a11" ed="Y" type="old"/><p xml:id="pY23p0162a1101" style="text-indent:2em">再說普賢，他表示行（側重在自他兼濟的大行），但也表示願。「普賢行願
 <lb n="0162a12" ed="Y"/>」一<lb n="0162a12" ed="Y" type="old"/>句，就很可明白了。不問是上成佛道、下化眾生，願總是一種崇高的理想意
 <lb n="0162a13" ed="Y"/>欲，<lb n="0162a13" ed="Y" type="old"/>行是偉大的實踐。這兩者也有一致性，願是內發的動力，行是意志的實現。
 <pb n="0163a" ed="Y" xml:id="Y23.0023.0163a"/>
 <lb n="0163a01" ed="Y"/>合一<pb n="0163a" ed="Y" xml:id="Y23.0023.0163a.old" type="old"/><lb n="0163a01" ed="Y" type="old"/>也不妨先願後行：從意志的決定，到見於實際；從漸漸的實行，到完全實行
 <lb n="0163a02" ed="Y"/>的大<lb n="0163a02" ed="Y" type="old"/>願滿足。這像善財的願學普賢行，到面見普賢；普賢就代表這理想與實行合
 <lb n="0163a03" ed="Y"/>一的<lb n="0163a03" ed="Y" type="old"/>大行。</p>
-<lb n="0163a04" ed="Y"/><lb n="0163a04" ed="Y" type="old"/><p style="text-indent:2em">文殊的大智、普賢的大行，各得佛陀的一體，而實不相離而相成的。甚深智
+<lb n="0163a04" ed="Y"/><lb n="0163a04" ed="Y" type="old"/><p xml:id="pY23p0163a0401" style="text-indent:2em">文殊的大智、普賢的大行，各得佛陀的一體，而實不相離而相成的。甚深智
 <lb n="0163a05" ed="Y"/><lb n="0163a05" ed="Y" type="old"/>為方便，廣行自他兼濟行，叫攝導萬行；因了萬行的修集，使智慧更明淨，叫莊
 <lb n="0163a06" ed="Y"/><lb n="0163a06" ed="Y" type="old"/>嚴般若。知所以能行，行所以能知；愈知愈行，達到知行的合一，而且究竟——
 <lb n="0163a07" ed="Y"/>釋<lb n="0163a07" ed="Y" type="old"/>迦的大雄表示它。佛陀，從知一方面說，可以叫正遍知（正等覺）；從行一方
@@ -230,7 +250,7 @@
 <lb n="0163a13" ed="Y"/>精髓<lb n="0163a13" ed="Y" type="old"/>。</p></cb:div><pb n="0164a" ed="Y" xml:id="Y23.0023.0164a.old" type="old"/>
 <pb n="0164a" ed="Y" xml:id="Y23.0023.0164a"/>
 <lb n="0164a01" ed="Y"/><lb n="0164a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">六　善知識、菩提心</cb:mulu><head>六　善知識、菩提心</head>
-<lb n="0164a02" ed="Y"/><lb n="0164a02" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《不可思議解脫經》</title>中，關於發菩提心、親近善知識，大有百說不厭的意味
+<lb n="0164a02" ed="Y"/><lb n="0164a02" ed="Y" type="old"/><p xml:id="pY23p0164a0201" style="text-indent:2em"><title level="m">《不可思議解脫經》</title>中，關於發菩提心、親近善知識，大有百說不厭的意味
 <lb n="0164a03" ed="Y"/><lb n="0164a03" ed="Y" type="old"/>，這是值得重視的。不親近善知識，就沒有正確的知見；不發菩提心，就沒有立
 <lb n="0164a04" ed="Y"/><lb n="0164a04" ed="Y" type="old"/>定成佛的志願；這在大乘佛道上說，再也不能走上成佛的路。這兩者何等重要！
 <lb n="0164a05" ed="Y"/><lb n="0164a05" ed="Y" type="old"/>本經的一再讚歎，確是有它的深意。原來，印度人重口口傳授，一直到後代還如
@@ -248,7 +268,7 @@
 <lb n="0165a04" ed="Y"/>演出<lb n="0165a04" ed="Y" type="old"/>依人不依法的怪現象！在文字普遍應用的今日，還有執著印度幾千年前的老
 <lb n="0165a05" ed="Y"/>習慣<lb n="0165a05" ed="Y" type="old"/>——佛法非從老師的口裡聽來不可。並且，供養上師，以多為妙，非多少供
 <lb n="0165a06" ed="Y"/>養一點<lb n="0165a06" ed="Y" type="old"/>，沒有學法的資格。這實在大失讚歎善知識的初意了！</p>
-<lb n="0165a07" ed="Y"/><lb n="0165a07" ed="Y" type="old"/><p style="text-indent:2em">論到發菩提心，大有淺深。淺一點說，是學佛的動機，是堅定不拔的成佛信
+<lb n="0165a07" ed="Y"/><lb n="0165a07" ed="Y" type="old"/><p xml:id="pY23p0165a0701" style="text-indent:2em">論到發菩提心，大有淺深。淺一點說，是學佛的動機，是堅定不拔的成佛信
 <lb n="0165a08" ed="Y"/><lb n="0165a08" ed="Y" type="old"/>念。經中所特別注重的，也是初發心的安住菩提心。菩提是大乘學者的目標；發
 <lb n="0165a09" ed="Y"/><lb n="0165a09" ed="Y" type="old"/>菩提心，是為了菩提而發動前進，也可說菩提在最初動。這樣，長期的修學普賢
 <lb n="0165a10" ed="Y"/><lb n="0165a10" ed="Y" type="old"/>行願，也可說是菩提的一天天實現。但因了菩提心功德的讚歎，流出極端的真常
@@ -261,7 +281,7 @@
 <lb n="0166a03" ed="Y"/>說的<lb n="0166a03" ed="Y" type="old"/>），就是把發菩提心，看為真常平等無上大菩提的初現，否定它從多聞熏習
 <lb n="0166a04" ed="Y"/>中生<lb n="0166a04" ed="Y" type="old"/>，這又不是本經讚歎菩提心的本意了！</p></cb:div>
 <lb n="0166a05" ed="Y"/><lb n="0166a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">七　百一十善知識</cb:mulu><head>七　百一十善知識</head>
-<lb n="0166a06" ed="Y"/><lb n="0166a06" ed="Y" type="old"/><p style="text-indent:2em">善財參訪的善知識，到有德姊弟那裡，已經說參訪一百十善知識了。此後，
+<lb n="0166a06" ed="Y"/><lb n="0166a06" ed="Y" type="old"/><p xml:id="pY23p0166a0601" style="text-indent:2em">善財參訪的善知識，到有德姊弟那裡，已經說參訪一百十善知識了。此後，
 <lb n="0166a07" ed="Y"/><lb n="0166a07" ed="Y" type="old"/>又見彌勒，晉譯還是說一百十城、一百十善知識；唐譯卻譯為百十餘。再見文殊
 <lb n="0166a08" ed="Y"/><lb n="0166a08" ed="Y" type="old"/>，文殊伸手過百十由旬。從這些上看，可見百一十，是表示某種意義，並不是實
 <lb n="0166a09" ed="Y"/><lb n="0166a09" ed="Y" type="old"/>數。古人硬要配成百十位，說什麼自分、勝進，實在毫無意義！百十城、百十善
@@ -297,8 +317,8 @@
 <lb n="0168a12" ed="Y"/>後期佛教不同。人間佛教、青年佛教，本經永遠在啟示我們！</p></cb:div><pb n="0169a" ed="Y" xml:id="Y23.0023.0169a.old" type="old"/>
 <pb n="0169a" ed="Y" xml:id="Y23.0023.0169a"/>
 <lb n="0169a01" ed="Y"/><lb n="0169a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">八　住、普、幻、莊嚴</cb:mulu><head>八　住、普、幻、莊嚴</head>
-<lb n="0169a02" ed="Y"/><lb n="0169a02" ed="Y" type="old"/><p style="text-indent:2em">現在，再談幾個特殊的名詞：</p>
-<lb n="0169a03" ed="Y"/><lb n="0169a03" ed="Y" type="old"/><p style="text-indent:2em">一、住：本經的善知識與住處，有很多叫住的。像文殊的善住樓閣、解脫長
+<lb n="0169a02" ed="Y"/><lb n="0169a02" ed="Y" type="old"/><p xml:id="pY23p0169a0201" style="text-indent:2em">現在，再談幾個特殊的名詞：</p>
+<lb n="0169a03" ed="Y"/><lb n="0169a03" ed="Y" type="old"/><p xml:id="pY23p0169a0301" style="text-indent:2em">一、住：本經的善知識與住處，有很多叫住的。像文殊的善住樓閣、解脫長
 <lb n="0169a04" ed="Y"/><lb n="0169a04" ed="Y" type="old"/>者的住林國、自在優婆夷的海住城、不動優婆夷的安住城，善住比丘、安住長者
 <lb n="0169a05" ed="Y"/><lb n="0169a05" ed="Y" type="old"/>、安住地神。傾向真常論者的，又故意多譯了常住菩薩、常住如來。住是什麼？
 <lb n="0169a06" ed="Y"/><lb n="0169a06" ed="Y" type="old"/>住是安定不動。像善住樓閣，是菩提心的堅定不退失。住林國，是在煩惱稠林中
@@ -313,7 +333,7 @@
 <lb n="0170a02" ed="Y"/>到<lb n="0170a02" ed="Y" type="old"/>極端，流出菩提本有的真常論。其實，性空是常住；緣起是如幻的生滅，只可
 <lb n="0170a03" ed="Y"/>說<lb n="0170a03" ed="Y" type="old"/>相續中的安定，不能說發心與修行一切都是真常的。文殊菩薩的特色，在勸發
 <lb n="0170a04" ed="Y"/>菩<lb n="0170a04" ed="Y" type="old"/>提心，智證性空理，所以也可說住是文殊學的核心。</p>
-<lb n="0170a05" ed="Y"/><lb n="0170a05" ed="Y" type="old"/><p style="text-indent:2em">二、普：普賢菩薩、普門城、普賢道場、普莊嚴園、普眼城的普眼長者。此
+<lb n="0170a05" ed="Y"/><lb n="0170a05" ed="Y" type="old"/><p xml:id="pY23p0170a0501" style="text-indent:2em">二、普：普賢菩薩、普門城、普賢道場、普莊嚴園、普眼城的普眼長者。此
 <lb n="0170a06" ed="Y"/><lb n="0170a06" ed="Y" type="old"/>外，法門以普為名的，像<title level="m">《普照法界經》</title>、<title level="m">《普眼經》</title>、普眼捨得法門等，不知
 <lb n="0170a07" ed="Y"/><lb n="0170a07" ed="Y" type="old"/>有多少！這實在是本經的心要。菩薩發心，為了普見一切佛、普聞一切法、普度
 <lb n="0170a08" ed="Y"/><lb n="0170a08" ed="Y" type="old"/>一切眾生、普莊嚴一切國土……；在菩薩所行的法門中，一切都廣大到其大無外
@@ -332,7 +352,7 @@
 <lb n="0171a07" ed="Y"/><lb n="0171a07" ed="Y" type="old"/>，不論在理論上、在行證上，原理在一切空。空是遍一切一味的，空才能空靈無
 <lb n="0171a08" ed="Y"/><lb n="0171a08" ed="Y" type="old"/>礙。善財的進入普賢道場，不是因為文殊智的證入嗎？但文殊是引發者，普法界
 <lb n="0171a09" ed="Y"/><lb n="0171a09" ed="Y" type="old"/>的實踐開顯者，是普賢，所以普是普賢學的核心。</p>
-<lb n="0171a10" ed="Y"/><lb n="0171a10" ed="Y" type="old"/><p style="text-indent:2em">三、幻：幻是譬喻，用來說明一切法的似有而無實的。這裡面，有非常重要
+<lb n="0171a10" ed="Y"/><lb n="0171a10" ed="Y" type="old"/><p xml:id="pY23p0171a1001" style="text-indent:2em">三、幻：幻是譬喻，用來說明一切法的似有而無實的。這裡面，有非常重要
 <lb n="0171a11" ed="Y"/><lb n="0171a11" ed="Y" type="old"/>的現實問題。一般人，在顯現的一切上，覺得他是真實的；等到暴露了虛妄性，
 <lb n="0171a12" ed="Y"/><lb n="0171a12" ed="Y" type="old"/>那又想像內在的真實或超越的真實，把真實作為顯現的根本。世間的上帝、梵<lb n="0171a13" ed="Y" type="old"/>天
 <lb n="0171a13" ed="Y"/>，唯心、唯物，……這一切，無非是覺得顯現事物的內在或背後有一大實在<pb n="0172a" ed="Y" xml:id="Y23.0023.0172a.old" type="old"/><lb n="0172a01" ed="Y" type="old"/>，這
@@ -348,7 +368,7 @@
 <lb n="0172a09" ed="Y"/>現者；他的一切大用，就是隨機幻現。所以幻的現實，可以作為佛的核心<lb n="0172a10" ed="Y" type="old"/>。這像
 <lb n="0172a10" ed="Y"/>安住不動，是豎窮三際的文殊信智；普入無礙，是橫遍十方的普賢行願；<lb n="0172a11" ed="Y" type="old"/>幻化現
 <lb n="0172a11" ed="Y"/>實，是深徹諸法的釋迦體用了！</p>
-<lb n="0172a12" ed="Y"/><lb n="0172a12" ed="Y" type="old"/><p style="text-indent:2em">四、莊嚴：住、普、幻三者的融化，成為一大莊嚴，表徵大乘佛教的特色。
+<lb n="0172a12" ed="Y"/><lb n="0172a12" ed="Y" type="old"/><p xml:id="pY23p0172a1201" style="text-indent:2em">四、莊嚴：住、普、幻三者的融化，成為一大莊嚴，表徵大乘佛教的特色。
 <lb n="0172a13" ed="Y"/><lb n="0172a13" ed="Y" type="old"/>所以本經也就稱為<title level="m">《華嚴經》</title>。本經所載的地方，不論是山林、園苑、樓閣、城<pb n="0173a" ed="Y" xml:id="Y23.0023.0173a.old" type="old"/>
 <pb n="0173a" ed="Y" xml:id="Y23.0023.0173a"/>
 <lb n="0173a01" ed="Y"/><lb n="0173a01" ed="Y" type="old"/>邑，甚至虛空；所記的人，也不論是童子、童女、長者、優婆夷，除非簡略不說

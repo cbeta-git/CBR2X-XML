@@ -12,56 +12,76 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>初版一刷<date>Date: 2004/06</date>新式標點版</edition>
+			<edition>初版一刷<date>Date: 2004/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>11卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 43, No. 41</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>11卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">43</idno>.<idno type="no">41</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">永光集</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">八、為自己說幾句話</cb:mulu><cb:mulu level="2" type="其他">八</cb:mulu>
-<milestone unit="juan" n="9"/>
+<milestone n="9" unit="juan"/>
 <pb n="0271a" ed="Y" xml:id="Y43.0041.0271a"/>
 <lb n="0271a01" ed="Y"/>
 <lb n="0271a02" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">九、永懷學友</cb:mulu><head>永懷學友</head>
-<lb n="0271a03" ed="Y"/><p style="text-indent:2em">去年九月，我到了星加坡，住在寶光佛堂與慧嚴精舍靜養。十一月十日晚上
+<lb n="0271a03" ed="Y"/><p xml:id="pY43p0271a0301" style="text-indent:2em">去年九月，我到了星加坡，住在寶光佛堂與慧嚴精舍靜養。十一月十日晚上
 <lb n="0271a04" ed="Y"/>八點鐘，明聖接到一通電話，就嗚嗚咽咽的哭起來。問他什麼事？起初不肯說，
 <lb n="0271a05" ed="Y"/>怕我不好睡，後來終於說出來：<quote>「演公法師（因心肌梗塞）去世了」</quote>！這太突然
 <lb n="0271a06" ed="Y"/>了！十一日早上，我去福慧講堂，那時，演師的色身還安詳的睡在床上。想起這
 <lb n="0271a07" ed="Y"/>次來星，晤談了好幾次，覺得演師的體力還可以，怎麼竟突然的去了呢！唉！真
 <lb n="0271a08" ed="Y"/>如佛說的<quote>「人命在呼吸間」</quote>呀！</p>
-<lb n="0271a09" ed="Y"/><p style="text-indent:2em">演師高壽八十，與佛同年，從演師對佛教的貢獻來說，真是值得讚頌的。他
+<lb n="0271a09" ed="Y"/><p xml:id="pY43p0271a0901" style="text-indent:2em">演師高壽八十，與佛同年，從演師對佛教的貢獻來說，真是值得讚頌的。他
 <lb n="0271a10" ed="Y"/>的一生，從求學到從事僧教育，從事社會的教化，又從事社會福利事業。他的講
 <lb n="0271a11" ed="Y"/>經、說法而記錄的，著作、翻譯，編成<title level="s">《諦觀全集》</title>二十八冊，<title level="s">《諦觀續集》</title>十
 <lb n="0271a12" ed="Y"/>二冊，還有<title level="m">《六祖壇經講記》</title>、<title level="m">《弘法拾零》</title>等，真可說著作等身！對社會弘法
@@ -72,7 +92,7 @@
 <lb n="0272a04" ed="Y"/>福利協會，辦了安老院、洗腎中心、托兒發展中心、開心停留站、安樂之家、福
 <lb n="0272a05" ed="Y"/>樂林等福利社會的善事，受到星加坡社會的稱譽。演師的一生，可說是福慧雙修
 <lb n="0272a06" ed="Y"/>。講堂名為「福慧」，的確能彰顯了演師偉大的僧格！</p>
-<lb n="0272a07" ed="Y"/><p style="text-indent:2em">我對演師的安詳去世，除了讚歎，總不免有些難忘的懷念。記得民國（農曆
+<lb n="0272a07" ed="Y"/><p xml:id="pY43p0272a0701" style="text-indent:2em">我對演師的安詳去世，除了讚歎，總不免有些難忘的懷念。記得民國（農曆
 <lb n="0272a08" ed="Y"/>）二十九年底，我從貴陽回漢藏教理院，見到了從香港來的演師與妙欽法師等青
 <lb n="0272a09" ed="Y"/>年學友。三十年秋，演師主持合江的法王學院，請我同去。三十五年春，我與演
 <lb n="0272a10" ed="Y"/>師及欽師，離開了四川，經陝西、河南而回到了江南。他們二位，受太虛大師慈
@@ -83,14 +103,14 @@
 <lb n="0273a01" ed="Y"/>二十五、六年。在這不算太短的日子裡，演師給了我說不盡的護持。如(一)、來台
 <lb n="0273a02" ed="Y"/>灣以前，我的講說，由演師記錄而成<title level="m">《中觀論頌講記》</title>、<title level="m">《金剛般若波羅蜜經講
 <lb n="0273a03" ed="Y"/>記》</title>；其他的<title level="m">《攝大乘論講記》</title>、<title level="m">《大乘起信論講記》</title>等，也是演師與欽師等共
-<lb n="0273a04" ed="Y"/>同記錄。沒有他們的自動發心，以我當時的衰弱身體，不可能有<bibl><title level="s">《妙雲集》</title><biblScope type="編" n="上">上編</biblScope></bibl>
+<lb n="0273a04" ed="Y"/>同記錄。沒有他們的自動發心，以我當時的衰弱身體，不可能有<bibl><title level="s">《妙雲集》</title><biblScope n="上" type="編">上編</biblScope></bibl>
 <lb n="0273a05" ed="Y"/>那些講記的。(二)、三十二年，在重慶出版了我的第一部著作——<title level="m">《印度之佛教》</title>
 <lb n="0273a06" ed="Y"/>。那時，在生活清苦的抗戰大後方，自己又沒有錢，怎麼能自己出版？這主要是
 <lb n="0273a07" ed="Y"/>得到演師的支持。(三)、在香港時，時局動盪，生活相當的不安定。演師與續師，
 <lb n="0273a08" ed="Y"/>為<title level="m">《太虛大師全書》</title>的出版（斷斷續續的），負責校對；同時也為我的作品，負
 <lb n="0273a09" ed="Y"/>起向印刷廠接洽、校對、寄發等全部責任。二、三年中，竟出版了<title level="m">《佛法概論》</title>
 <lb n="0273a10" ed="Y"/>、<title level="m">《般若心經講記》</title>、<title level="m">《評熊十力新唯識論》</title>、<title level="m">《青年佛教與佛教青年》</title>、<title level="m">《性
-<lb n="0273a11" ed="Y"/>空學探源》</title>、<title level="m">《大乘是佛說論》</title>、<title level="m">《佛滅紀<note n="0273a1101" resp="CBETA" type="add">年【CB】，元【印順】</note><app n="0273a1101"><lem wit="【CB】" resp="正聞出版社">年</lem><rdg wit="【印順】">元</rdg></app>抉擇談》</title>、<title level="m">《淨土新論》</title>、<title level="m">《大乘
+<lb n="0273a11" ed="Y"/>空學探源》</title>、<title level="m">《大乘是佛說論》</title>、<title level="m">《佛滅紀<note n="0273a1101" resp="CBETA" type="add">年【CB】，元【印順】</note><app n="0273a1101"><lem resp="正聞出版社" wit="【CB】">年</lem><rdg wit="【印順】">元</rdg></app>抉擇談》</title>、<title level="m">《淨土新論》</title>、<title level="m">《大乘
 <lb n="0273a12" ed="Y"/>起信論講記》</title>、<title level="m">《中觀論頌講記》</title>、<title level="m">《勝鬘經講記》</title>等十多種。演師們能無條件
 <lb n="0273a13" ed="Y"/>的為佛法而奉獻，使衰弱多病的我，也更堅強的為佛法而精勤。(四)、到了台灣，
 <pb n="0274a" ed="Y" xml:id="Y43.0041.0274a"/>
@@ -99,7 +119,7 @@
 <lb n="0274a03" ed="Y"/>理。這樣的學友，對我的認同與護持，雖由於因緣殊勝，定住星加坡弘法，我們
 <lb n="0274a04" ed="Y"/>相見的機會不多了，但在我的心中，可說五十六年如一日；而今竟突然去世，我
 <lb n="0274a05" ed="Y"/>怎能不深深的懷念呢！</p>
-<lb n="0274a06" ed="Y"/><p style="text-indent:2em">我到四川，見到了幾位學友，如演師、欽師與續師。大家都真誠的為佛教、
+<lb n="0274a06" ed="Y"/><p xml:id="pY43p0274a0601" style="text-indent:2em">我到四川，見到了幾位學友，如演師、欽師與續師。大家都真誠的為佛教、
 <lb n="0274a07" ed="Y"/>為眾生而修學，也都願為佛教、為眾生而奉獻，這使我相當的歡喜。可是，民國
 <lb n="0274a08" ed="Y"/>五十五年，續師在印度去世；六十五年，欽師又在菲律賓去世；而今八十五年，
 <lb n="0274a09" ed="Y"/>演師又在星加坡去世了！大家都去了，卻留下衰朽不堪的我。唉！<quote>「業緣未了死

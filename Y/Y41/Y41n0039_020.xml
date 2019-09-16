@@ -12,53 +12,73 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版一刷<date>Date: 2013/04</date>新式標點版</edition>
+			<edition>新版一刷<date>Date: 2013/04</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>35卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 41, No. 39</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>35卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">41</idno>.<idno type="no">39</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">平凡的一生（重訂本）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十九　好事不如無</cb:mulu>
-<milestone unit="juan" n="20"/>
+<milestone n="20" unit="juan"/>
 <pb n="0111a" ed="Y" xml:id="Y41.0039.0111a"/>
-<lb n="0111a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">二十　實現了多年來的願望</cb:mulu><head><note n="0111a0101" resp="CBETA" type="add" subtype="規範字詞">二十【CB】，二〇【印順】</note><app n="0111a0101"><lem wit="【CB】" resp="CBETA">二十</lem><rdg wit="【印順】">二〇</rdg></app>　實現了多年來的願望</head>
-<lb n="0111a02" ed="Y"/><p style="text-indent:2em">我到臺灣來，有那麼多的障礙，主要的癥結，以住在善導寺為第一。脫離這
+<lb n="0111a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">二十　實現了多年來的願望</cb:mulu><head><note n="0111a0101" resp="CBETA" type="add" subtype="規範字詞">二十【CB】，二〇【印順】</note><app n="0111a0101"><lem resp="CBETA" wit="【CB】">二十</lem><rdg wit="【印順】">二〇</rdg></app>　實現了多年來的願望</head>
+<lb n="0111a02" ed="Y"/><p xml:id="pY41p0111a0201" style="text-indent:2em">我到臺灣來，有那麼多的障礙，主要的癥結，以住在善導寺為第一。脫離這
 <lb n="0111a03" ed="Y"/>是非場，是我經歷了漫天風雨以來的最大願望。四十六年（五十二歲），我辭去
 <lb n="0111a04" ed="Y"/>了善導寺住持，這應該可以解決了嗎？然李子老竟把演培留了下來，由護法會請
 <lb n="0111a05" ed="Y"/>演培任住持，這所以我對於善導寺，斷而又似乎未斷。脫離是非場真不容易！</p>
-<lb n="0111a06" ed="Y"/><p style="text-indent:2em">演培任住持，請悟一為監院；四十七年底，又邀悟一的好友妙然進善導寺為
+<lb n="0111a06" ed="Y"/><p xml:id="pY41p0111a0601" style="text-indent:2em">演培任住持，請悟一為監院；四十七年底，又邀悟一的好友妙然進善導寺為
 <lb n="0111a07" ed="Y"/>監院（二當家）。演培出國了兩次，等到回來，早上已沒有人上殿。演培一個人
 <lb n="0111a08" ed="Y"/>去敲木魚、禮誦。演培與妙然不和，悟一卻表示在兩人之間。恰好善導寺收回了
 <lb n="0111a09" ed="Y"/>部分房屋，悟一大加修理，為了裝置衛生設備，子老與悟一衝突起來。子老一向
@@ -68,7 +88,7 @@
 <pb n="0112a" ed="Y" xml:id="Y41.0039.0112a"/>
 <lb n="0112a01" ed="Y"/>，又拿去給護法會的護法看。又回來對我說：<quote>「我告訴大家，導師（指我）也看
 <lb n="0112a02" ed="Y"/>過了」</quote>。我當時問他：<quote>「導師說什麼」</quote>？子老答：<quote>「不加可否」</quote>。</p>
-<lb n="0112a03" ed="Y"/><p style="text-indent:2em">還有，我辭退了，子老留演培任住持，演培是沒有經濟觀念的。我為了十八
+<lb n="0112a03" ed="Y"/><p xml:id="pY41p0112a0301" style="text-indent:2em">還有，我辭退了，子老留演培任住持，演培是沒有經濟觀念的。我為了十八
 <lb n="0112a04" ed="Y"/>年來的友誼，不能不對子老說（對演培說，他是不會懂的）：<quote>「此次從泰國回來
 <lb n="0112a05" ed="Y"/>，發見帳目有了變動。過去有了積餘，將款存出去時，就明白的在帳上支出，存
 <lb n="0112a06" ed="Y"/>在什麼地方。而現在帳上，悟一將一切外存都收回了。帳上只是結存臺幣多少萬
@@ -80,7 +100,7 @@
 <lb n="0112a12" ed="Y"/>」</quote>。話立刻傳入悟一耳中，當然對我不愉快。子老老了！不知<quote type="嚴謹引文">「導師說」</quote>到底有
 <lb n="0112a13" ed="Y"/>多少分量，而只想一再的加以運用。</p>
 <pb n="0113a" ed="Y" xml:id="Y41.0039.0113a"/>
-<lb n="0113a01" ed="Y"/><p style="text-indent:2em">會計制度被破壞而建立不起來。四十九年，演培又增請隆根任監院（三位了
+<lb n="0113a01" ed="Y"/><p xml:id="pY41p0113a0101" style="text-indent:2em">會計制度被破壞而建立不起來。四十九年，演培又增請隆根任監院（三位了
 <lb n="0113a02" ed="Y"/>），但也不能有什麼用。到此時，一件事——我一直懷疑的事，終於明白了。隆
 <lb n="0113a03" ed="Y"/>根是我任住持時，經悟一建議而邀來臺灣的。四十六年（五十二歲），我請隆根
 <lb n="0113a04" ed="Y"/>任副寺，也就是協助監院。隆根並不負責，悟一也沒有說什麼，這現象是離奇的
@@ -90,7 +110,7 @@
 <lb n="0113a08" ed="Y"/>略。他自己是監院，就會不得我（住持）的同意而去香港請監院，他早在為他的
 <lb n="0113a09" ed="Y"/>未來而布局，當時我雖不明白一切內情，而早就深刻的直覺得不對，但我可以去
 <lb n="0113a10" ed="Y"/>向誰說呢！</p>
-<lb n="0113a11" ed="Y"/><p style="text-indent:2em">善導寺糾紛的本質，事件發展的趨勢，我自以為認識得非常徹底，不存任何
+<lb n="0113a11" ed="Y"/><p xml:id="pY41p0113a1101" style="text-indent:2em">善導寺糾紛的本質，事件發展的趨勢，我自以為認識得非常徹底，不存任何
 <lb n="0113a12" ed="Y"/>幻想。可是，四十九年（五十五歲）春天，我的忽然一念無明，幾乎脫不了手。
 <lb n="0113a13" ed="Y"/>一直鬧得不可開交，總不是辦法呀！我忽然想起，就與悟一等（善導寺全體僧眾
 <pb n="0114a" ed="Y" xml:id="Y41.0039.0114a"/>
@@ -105,7 +125,7 @@
 <lb n="0114a09" ed="Y"/>大概想通了，這是與自己的權力有礙的。好在有護法陳景陶居士出來，抗論了一
 <lb n="0114a10" ed="Y"/>下，我與證老才從糾紛中脫出來。事後回憶起來，想不通自己為什麼又忽而愚癡
 <lb n="0114a11" ed="Y"/>，這大概就是人性一面，在明知其不可能，而又多少存點僥倖心吧！</p>
-<lb n="0114a12" ed="Y"/><p style="text-indent:2em">子老只為他的善導寺，決不為別人著想。他要演培來問我，能不能將慧日講
+<lb n="0114a12" ed="Y"/><p xml:id="pY41p0114a1201" style="text-indent:2em">子老只為他的善導寺，決不為別人著想。他要演培來問我，能不能將慧日講
 <lb n="0114a13" ed="Y"/>堂的建築費，用來修建善導寺的大講堂（演培那時可能也有這種想法的）？演培
 <pb n="0115a" ed="Y" xml:id="Y41.0039.0115a"/>
 <lb n="0115a01" ed="Y"/>在年底，還邀悟一去精舍，希望能解釋誤會。演培對悟一存有幻想，竟忘了蘇北
@@ -113,7 +133,7 @@
 <lb n="0115a03" ed="Y"/>青年領袖。否則，蘇北人沒有與你做朋友的」</quote>！這要到我的方案被反對，續明的
 <lb n="0115a04" ed="Y"/><title level="m">《佛教時論集》</title>被密告，演培這才漸漸的絕望了。我要去菲律賓時說：<quote>「你三年
 <lb n="0115a05" ed="Y"/>的任期圓滿，可以辭退了」</quote>！</p>
-<lb n="0115a06" ed="Y"/><p style="text-indent:2em">演培辭退了，由誰來為子老護持善導寺呢？四十九年秋，由護法會禮請閩院
+<lb n="0115a06" ed="Y"/><p xml:id="pY41p0115a0601" style="text-indent:2em">演培辭退了，由誰來為子老護持善導寺呢？四十九年秋，由護法會禮請閩院
 <lb n="0115a07" ed="Y"/>學長默如住持。晉山那一天，監院就當眾叫囂訶斥子老。子老這才住入醫院，盡
 <lb n="0115a08" ed="Y"/>其最後的努力。子老擬了以善導寺為中國佛教活動中心的提案，經最高當局核可
 <lb n="0115a09" ed="Y"/>。然後由中央黨部，內政部等五單位，共同作成行政處分，交由中國佛教會、臺
@@ -122,7 +142,7 @@
 <lb n="0115a12" ed="Y"/>，那是政府的事」</quote>。有政治經驗的人，到底是不同的。假使是我，那只有承認失
 <lb n="0115a13" ed="Y"/>敗了。</p>
 <pb n="0116a" ed="Y" xml:id="Y41.0039.0116a"/>
-<lb n="0116a01" ed="Y"/><p style="text-indent:2em">默如又不得不辭退了。五十年夏，由護法會禮請道安法師住持，以尊重二位
+<lb n="0116a01" ed="Y"/><p xml:id="pY41p0116a0101" style="text-indent:2em">默如又不得不辭退了。五十年夏，由護法會禮請道安法師住持，以尊重二位
 <lb n="0116a02" ed="Y"/>監院的確定地位為前提。從此子老也從事實經驗中，知道了悟一的確能幹，是一
 <lb n="0116a03" ed="Y"/>位難得的人才。於是放下一切，一切由悟一去處理，也就相安無事，恢復了兩年
 <lb n="0116a04" ed="Y"/>前的友善，在善導寺過著寧靜的晚年。道安法師漸漸少來了，不來了，很久很久
@@ -131,7 +151,7 @@
 <lb n="0116a07" ed="Y"/>十九、五十年——二年多的艱苦鬥爭，到此才可以告一結束。我自從離開善導寺
 <lb n="0116a08" ed="Y"/>，與善導寺的內部糾紛，已沒有直接的關係，但多少還要被子老與演培牽涉到。
 <lb n="0116a09" ed="Y"/>等到演培辭退，我多年來的願望，才真正的實現了！</p>
-<lb n="0116a10" ed="Y"/><p style="text-indent:2em">子老曾經寫了一部<title level="m">《百年一夢記》</title>，別的事情，倒還記得清楚，獨對於二年
+<lb n="0116a10" ed="Y"/><p xml:id="pY41p0116a1001" style="text-indent:2em">子老曾經寫了一部<title level="m">《百年一夢記》</title>，別的事情，倒還記得清楚，獨對於二年
 <lb n="0116a11" ed="Y"/>多為善導寺的護法奮鬥，竟沒有說到。子老畢竟老了！老年人是容易忘記近年事
 <lb n="0116a12" ed="Y"/>的。如掛在善導寺門口，那塊海潮音月刊社的招牌，也在糾紛中被拿下來而不知
 <lb n="0116a13" ed="Y"/>丟到那裡去。而一經和好如初，子老還想請悟一來共同保管海潮音的基金呢！子

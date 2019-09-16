@@ -12,51 +12,71 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/11</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/11</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>14卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 14, No. 14</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">14</idno>.<idno type="no">14</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛在人間</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">九、佛教的財富觀</cb:mulu><cb:mulu level="2" type="其他">五　財富究屬於誰</cb:mulu>
-<milestone unit="juan" n="10"/><pb n="0267a" ed="Y" xml:id="Y14.0014.0267a.old" type="old"/>
+<milestone n="10" unit="juan"/><pb n="0267a" ed="Y" xml:id="Y14.0014.0267a.old" type="old"/>
 <pb n="0267a" ed="Y" xml:id="Y14.0014.0267a"/>
 <lb n="0267a01" ed="Y"/><lb n="0267a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十、佛教的知識觀</cb:mulu><head>佛教的知識觀<note n="0267001" resp="DILA" type="add">民國四四年講。</note></head>
-<lb n="0267a02" ed="Y"/><lb n="0267a02" ed="Y" type="old"/><p style="text-indent:2em">今天講說的，為「佛教對於知識的態度」。這問題，有關於佛教修行的方法
+<lb n="0267a02" ed="Y"/><lb n="0267a02" ed="Y" type="old"/><p xml:id="pY14p0267a0201" style="text-indent:2em">今天講說的，為「佛教對於知識的態度」。這問題，有關於佛教修行的方法
 <lb n="0267a03" ed="Y"/><lb n="0267a03" ed="Y" type="old"/>論，及佛教徒對現世間的知識文明是取什麼態度。</p>
-<lb n="0267a04" ed="Y"/><lb n="0267a04" ed="Y" type="old"/><p style="text-indent:2em">知識究竟是好是壞？佛教徒依於佛法，應有一個公正的估價。時代青年，說
+<lb n="0267a04" ed="Y"/><lb n="0267a04" ed="Y" type="old"/><p xml:id="pY14p0267a0401" style="text-indent:2em">知識究竟是好是壞？佛教徒依於佛法，應有一個公正的估價。時代青年，說
 <lb n="0267a05" ed="Y"/><lb n="0267a05" ed="Y" type="old"/>今日人類社會在知識發達中有了進步，進步離不了知識。年老的，每說今日世界
 <lb n="0267a06" ed="Y"/><lb n="0267a06" ed="Y" type="old"/>人心不古，越來越壞了，壞也離不了知識。這是一般常識的看法，並沒有觸到<lb n="0267a07" ed="Y" type="old"/>知
 <lb n="0267a07" ed="Y"/>識的本身。一般說：現在的科學發達，世界的文明進步，都是知識發達的好處<lb n="0267a08" ed="Y" type="old"/>。
@@ -65,7 +85,7 @@
 <lb n="0267a10" ed="Y"/>法每每不同，即古今中外人士，也都有好壞的不同看法。</p><pb n="0268a" ed="Y" xml:id="Y14.0014.0268a.old" type="old"/>
 <pb n="0268a" ed="Y" xml:id="Y14.0014.0268a"/>
 <lb n="0268a01" ed="Y"/><lb n="0268a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　一般文化界的看法</cb:mulu><head>一　一般文化界的看法</head>
-<lb n="0268a02" ed="Y"/><lb n="0268a02" ed="Y" type="old"/><p style="text-indent:2em">中國文明中的不同看法：中國人對知識的不同看法，從中國固有的文化思想
+<lb n="0268a02" ed="Y"/><lb n="0268a02" ed="Y" type="old"/><p xml:id="pY14p0268a0201" style="text-indent:2em">中國文明中的不同看法：中國人對知識的不同看法，從中國固有的文化思想
 <lb n="0268a03" ed="Y"/><lb n="0268a03" ed="Y" type="old"/>中考察，可以略分為儒墨與老莊的兩大派。儒家與墨子的看法一樣——他們是推
 <lb n="0268a04" ed="Y"/><lb n="0268a04" ed="Y" type="old"/>崇知識的。孔子說：<quote type="嚴謹引文">「我非生而知之者，好古敏以求之者也。」</quote>即對固有的文化
 <lb n="0268a05" ed="Y"/><lb n="0268a05" ed="Y" type="old"/>，發生了高度興趣，不斷地探求、深入。所以孔子成了一位<quote type="寬鬆引文">「學不厭、教不倦」</quote>
@@ -80,7 +100,7 @@
 <lb n="0269a01" ed="Y"/>理<pb n="0269a" ed="Y" xml:id="Y14.0014.0269a.old" type="old"/><lb n="0269a01" ed="Y" type="old"/>、數學等，在墨子的學說中，也有發揚，墨家還是精於器械製造的。從儒、墨
 <lb n="0269a02" ed="Y"/>的<lb n="0269a02" ed="Y" type="old"/>學說思想看，知道他們是崇尚知識的，這是中國古代正統文化對於知識的正面
 <lb n="0269a03" ed="Y"/>看<lb n="0269a03" ed="Y" type="old"/>法。</p>
-<lb n="0269a04" ed="Y"/><lb n="0269a04" ed="Y" type="old"/><p style="text-indent:2em">老、莊是崇尚自然的。老、莊的思想，主張反樸歸真。老子認為：世界上有
+<lb n="0269a04" ed="Y"/><lb n="0269a04" ed="Y" type="old"/><p xml:id="pY14p0269a0401" style="text-indent:2em">老、莊是崇尚自然的。老、莊的思想，主張反樸歸真。老子認為：世界上有
 <lb n="0269a05" ed="Y"/><lb n="0269a05" ed="Y" type="old"/>聖人，就有虛偽的道德；有知識，就有欺詐，天下就要發生禍亂，人民遭受苦痛
 <lb n="0269a06" ed="Y"/><lb n="0269a06" ed="Y" type="old"/>。所以他要<quote type="嚴謹引文">「絕聖棄智」</quote>，若世間沒有聖者與智，人類在自然的生活中，得以享
 <lb n="0269a07" ed="Y"/><lb n="0269a07" ed="Y" type="old"/>受安寧和平的幸福。老子的這套思想，到莊子更為明朗極端，更富於哲學內容。
@@ -96,9 +116,9 @@
 <lb n="0270a03" ed="Y"/>—<lb n="0270a03" ed="Y" type="old"/>—形容無名無形的，很快的就尋得了「玄珠」。這含意是說：聰明人以知識求
 <lb n="0270a04" ed="Y"/>道<lb n="0270a04" ed="Y" type="old"/>，道越求越遠。這都表示了知識的無益於大道、無益於人類。故老、莊的社會
 <lb n="0270a05" ed="Y"/>觀<lb n="0270a05" ed="Y" type="old"/>念，是反樸歸真，崇尚自然的原始社會的生活。</p>
-<lb n="0270a06" ed="Y"/><lb n="0270a06" ed="Y" type="old"/><p style="text-indent:2em">從儒、墨與老、莊的兩種思想去看，那麼說今日社會由於知識而文明進步，
+<lb n="0270a06" ed="Y"/><lb n="0270a06" ed="Y" type="old"/><p xml:id="pY14p0270a0601" style="text-indent:2em">從儒、墨與老、莊的兩種思想去看，那麼說今日社會由於知識而文明進步，
 <lb n="0270a07" ed="Y"/><lb n="0270a07" ed="Y" type="old"/>與由於知的發展而人心不古，這種對立的不同觀點，原是中國古已有之的。</p>
-<lb n="0270a08" ed="Y"/><lb n="0270a08" ed="Y" type="old"/><p style="text-indent:2em">西方文明中的不同看法：現有的西方宗教，主要是起自希伯來民族。起先是
+<lb n="0270a08" ed="Y"/><lb n="0270a08" ed="Y" type="old"/><p xml:id="pY14p0270a0801" style="text-indent:2em">西方文明中的不同看法：現有的西方宗教，主要是起自希伯來民族。起先是
 <lb n="0270a09" ed="Y"/><lb n="0270a09" ed="Y" type="old"/>猶太教；後來耶穌革新而成基督教；後來又經過馬丁路得的宗教改革，分成固有
 <lb n="0270a10" ed="Y"/><lb n="0270a10" ed="Y" type="old"/>的天主教與新的耶穌教。回教，又是受過這幾種宗教思想而蛻化出來的。今日的<lb n="0270a11" ed="Y" type="old"/>西
 <lb n="0270a11" ed="Y"/>方宗教家，他們像也在提倡教育、研究科學等，實際上，希伯來式一神宗教的<lb n="0270a12" ed="Y" type="old"/>根
@@ -122,7 +142,7 @@
 <lb n="0272a01" ed="Y"/>說：</bibl><quote type="寬鬆引文">「你不要研究撒旦深奧之理。」</quote></cit>在進向真理的過程中，這是推崇信仰而抹<lb n="0272a02" ed="Y" type="old"/>煞
 <lb n="0272a02" ed="Y"/>知識價值的代表者。在他們認為：人類的自由知識，是死亡、苦痛一切不幸的<lb n="0272a03" ed="Y" type="old"/>根
 <lb n="0272a03" ed="Y"/>源。</p>
-<lb n="0272a04" ed="Y"/><lb n="0272a04" ed="Y" type="old"/><p style="text-indent:2em">希臘，是西方哲學的發源地，在西方文明中，這是主要的一面。哲學的意義
+<lb n="0272a04" ed="Y"/><lb n="0272a04" ed="Y" type="old"/><p xml:id="pY14p0272a0401" style="text-indent:2em">希臘，是西方哲學的發源地，在西方文明中，這是主要的一面。哲學的意義
 <lb n="0272a05" ed="Y"/><lb n="0272a05" ed="Y" type="old"/>，是愛智。愛智，是對知識的思慕愛好，因為愛好而不斷地探求。哲學，起初包
 <lb n="0272a06" ed="Y"/><lb n="0272a06" ed="Y" type="old"/>含一切學問的統一，所以哲學即等於一切知識的鑽求。被看作哲學之祖的蘇格拉
 <lb n="0272a07" ed="Y"/><lb n="0272a07" ed="Y" type="old"/>底說：知就是德；有了知識，才會向上向善而邁進於德性的開展。這分明是推崇
@@ -133,14 +153,14 @@
 <lb n="0272a12" ed="Y"/><lb n="0272a12" ed="Y" type="old"/>自由的成分。然而近代的西方文明，宗教信仰與知識之間，始終沒有做到協調的
 <lb n="0272a13" ed="Y"/><lb n="0272a13" ed="Y" type="old"/>地步。</p><pb n="0273a" ed="Y" xml:id="Y14.0014.0273a.old" type="old"/>
 <pb n="0273a" ed="Y" xml:id="Y14.0014.0273a"/>
-<lb n="0273a01" ed="Y"/><lb n="0273a01" ed="Y" type="old"/><p style="text-indent:2em">印度文明中的不同看法：印度的正統文化，是婆羅門教。婆羅門極重視知識
+<lb n="0273a01" ed="Y"/><lb n="0273a01" ed="Y" type="old"/><p xml:id="pY14p0273a0101" style="text-indent:2em">印度文明中的不同看法：印度的正統文化，是婆羅門教。婆羅門極重視知識
 <lb n="0273a02" ed="Y"/><lb n="0273a02" ed="Y" type="old"/>，他們所依的經典，叫<title level="m">《吠陀》</title>，吠陀即是明的意思。在古來印度的社會文化，
 <lb n="0273a03" ed="Y"/>幾乎<lb n="0273a03" ed="Y" type="old"/>一切都包含在吠陀裡。到佛教時代，總括為五明，明即是學問；一切學問，
 <lb n="0273a04" ed="Y"/>皆是<lb n="0273a04" ed="Y" type="old"/>宗教徒應該學習探求的。因此，印度宗教信仰而重視理智；宗教即哲學，哲
 <lb n="0273a05" ed="Y"/>學即<lb n="0273a05" ed="Y" type="old"/>宗教。如佛教中，佛稱覺者；證得菩提，菩提就是覺。此外如明、智、見、
 <lb n="0273a06" ed="Y"/>觀、<lb n="0273a06" ed="Y" type="old"/>勝解等名詞，到處都是，表示了重智的特徵。因為重智，故印度宗教的信仰
 <lb n="0273a07" ed="Y"/>裡，<lb n="0273a07" ed="Y" type="old"/>充滿了知識。這一點，顯然與西方宗教的精神不同。</p>
-<lb n="0273a08" ed="Y"/><lb n="0273a08" ed="Y" type="old"/><p style="text-indent:2em">在佛出世前一、二百年間，印度有反抗婆羅門教的沙門團崛起。沙門團雖也
+<lb n="0273a08" ed="Y"/><lb n="0273a08" ed="Y" type="old"/><p xml:id="pY14p0273a0801" style="text-indent:2em">在佛出世前一、二百年間，印度有反抗婆羅門教的沙門團崛起。沙門團雖也
 <lb n="0273a09" ed="Y"/>注<lb n="0273a09" ed="Y" type="old"/>重知識，但與婆羅門教的看法多少不同，在哲學的思考中，露出知識不能確見
 <lb n="0273a10" ed="Y"/><lb n="0273a10" ed="Y" type="old"/>真理的意思。有一名刪惹耶毘羅胝子的，如問起有無後世，他反問你覺得怎樣？
 <lb n="0273a11" ed="Y"/><lb n="0273a11" ed="Y" type="old"/>若對方說後世是有的，他也跟著對方的意思說後世有；若對方說後世是沒有的，
@@ -150,7 +170,7 @@
 <lb n="0274a01" ed="Y"/>為不<pb n="0274a" ed="Y" xml:id="Y14.0014.0274a.old" type="old"/><lb n="0274a01" ed="Y" type="old"/>知主義。舍利弗尊者，最初即依這一派思想學習。問他的老師：究竟得到真
 <lb n="0274a02" ed="Y"/>理沒<lb n="0274a02" ed="Y" type="old"/>有？他沒有具體的說什麼，而說：我也不知道得與不得。在哲學上，有他的
 <lb n="0274a03" ed="Y"/>地位<lb n="0274a03" ed="Y" type="old"/>與價值，即看透了知識本身的缺陷、不能表達真理。</p>
-<lb n="0274a04" ed="Y"/><lb n="0274a04" ed="Y" type="old"/><p style="text-indent:2em">佛教，有著沙門文明的內容，而又含攝了婆羅門重智的傳統。因此，佛教是
+<lb n="0274a04" ed="Y"/><lb n="0274a04" ed="Y" type="old"/><p xml:id="pY14p0274a0401" style="text-indent:2em">佛教，有著沙門文明的內容，而又含攝了婆羅門重智的傳統。因此，佛教是
 <lb n="0274a05" ed="Y"/><lb n="0274a05" ed="Y" type="old"/>更能認透知識之性質與價值的。在這三大文明中，雖略舉為例，也可看出對知<lb n="0274a06" ed="Y" type="old"/>識
 <lb n="0274a06" ed="Y"/>都有正反的兩面。但由於民族、文化的不同，輕視知識的學派，目的並不全同。
 <lb n="0274a07" ed="Y"/><lb n="0274a07" ed="Y" type="old"/>中國重人事，齊家治國平天下，所以儒、墨主用世，而老、莊主張反樸、歸真、
@@ -158,7 +178,7 @@
 <lb n="0274a09" ed="Y"/>義等，都是以知識為不足表彰真理，而大家傾向無分別的體驗生活。西方的哲<lb n="0274a10" ed="Y" type="old"/>學
 <lb n="0274a10" ed="Y"/>與宗教，為完全不同的兩個系統，希伯來宗教的輕視知識，著重於敬虔的信仰<lb n="0274a11" ed="Y" type="old"/>生
 <lb n="0274a11" ed="Y"/>活。我想附帶的說到中國佛教的一面。</p>
-<lb n="0274a12" ed="Y"/><lb n="0274a12" ed="Y" type="old"/><p style="text-indent:2em">佛教傳來中國，發展為有力的禪宗，但也有兩大派：一、<quote type="嚴謹引文">「知之一字眾妙之
+<lb n="0274a12" ed="Y"/><lb n="0274a12" ed="Y" type="old"/><p xml:id="pY14p0274a1201" style="text-indent:2em">佛教傳來中國，發展為有力的禪宗，但也有兩大派：一、<quote type="嚴謹引文">「知之一字眾妙之
 <lb n="0274a13" ed="Y"/><lb n="0274a13" ed="Y" type="old"/>門」</quote>；二、<quote type="嚴謹引文">「知之一字眾禍之門」</quote>。這是對於知的兩個相反態度。禪宗下的荷澤<pb n="0275a" ed="Y" xml:id="Y14.0014.0275a.old" type="old"/>
 <pb n="0275a" ed="Y" xml:id="Y14.0014.0275a"/>
 <lb n="0275a01" ed="Y"/><lb n="0275a01" ed="Y" type="old"/>派，有圭峰大師，他說<quote type="嚴謹引文">「知之一字，眾妙之門」</quote>；此知雖與一般的妄識不相同<lb n="0275a02" ed="Y" type="old"/>，
@@ -168,13 +188,13 @@
 <lb n="0275a05" ed="Y"/>原門下，<lb n="0275a05" ed="Y" type="old"/>不重經教而高揚不立文字的特色，只要行者死心塌地參究去就好，至於
 <lb n="0275a06" ed="Y"/>教理、<lb n="0275a06" ed="Y" type="old"/>文字，甚至看作禪悟的大障礙。可是在圭峰大師，即主張教禪一致。這豈
 <lb n="0275a07" ed="Y"/>不是佛<lb n="0275a07" ed="Y" type="old"/>教禪宗二派，對知的看法不同？</p>
-<lb n="0275a08" ed="Y"/><lb n="0275a08" ed="Y" type="old"/><p style="text-indent:2em">從上面看，知識本身定有問題。若知識是絕對好，你想還會有人反對嗎？<lb n="0275a09" ed="Y" type="old"/>知
+<lb n="0275a08" ed="Y"/><lb n="0275a08" ed="Y" type="old"/><p xml:id="pY14p0275a0801" style="text-indent:2em">從上面看，知識本身定有問題。若知識是絕對好，你想還會有人反對嗎？<lb n="0275a09" ed="Y" type="old"/>知
 <lb n="0275a09" ed="Y"/>識的反對者都極聰明，可見知識本身一定有毛病在。若知識是絕對要不得，你<lb n="0275a10" ed="Y" type="old"/>想
 <lb n="0275a10" ed="Y"/>還會有人推崇？難道由知識而來的文明燦爛，真是可咒詛的嗎？知識是有它<lb n="0275a11" ed="Y" type="old"/>的價
 <lb n="0275a11" ed="Y"/>值與好處的。佛教徒對知識的看法究竟如何？應該根據正確的佛法來說明它<lb n="0275a12" ed="Y" type="old"/>。</p></cb:div><pb n="0276a" ed="Y" xml:id="Y14.0014.0276a.old" type="old"/>
 <lb n="0275a12" ed="Y"/><lb n="0276a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　佛教的知識觀</cb:mulu><head>二　佛教的知識觀</head>
 <pb n="0276a" ed="Y" xml:id="Y14.0014.0276a"/>
-<lb n="0276a01" ed="Y"/><lb n="0276a02" ed="Y" type="old"/><p style="text-indent:2em">一、知識的缺點：可從四方面說。(一)、知識的片面性：知識是片面的，是一
+<lb n="0276a01" ed="Y"/><lb n="0276a02" ed="Y" type="old"/><p xml:id="pY14p0276a0101" style="text-indent:2em">一、知識的缺點：可從四方面說。(一)、知識的片面性：知識是片面的，是一
 <lb n="0276a02" ed="Y"/><lb n="0276a03" ed="Y" type="old"/>點一滴的。不但宇宙人生的最高真理，知識不能充分去把握；就是現象的事物繁
 <lb n="0276a03" ed="Y"/><lb n="0276a04" ed="Y" type="old"/>多，人類對它們的了解，也是從一點一滴的聚合而來。識，在佛法中，是了別的
 <lb n="0276a04" ed="Y"/><lb n="0276a05" ed="Y" type="old"/>意思。了是明了，別是區別。宇宙本好像混沌一團，由我們的區別它、分別它的
@@ -202,7 +222,7 @@
 <lb n="0277a12" ed="Y"/>性，也<pb n="0278a" ed="Y" xml:id="Y14.0014.0278a.old" type="old"/><lb n="0278a01" ed="Y" type="old"/>每每忽略而錯誤，只以自己所重的片面知識，拿來作為一切知識的基礎，
 <lb n="0277a13" ed="Y"/>衡量一<lb n="0278a02" ed="Y" type="old"/>切。這怎麼行？這是知識本身缺點之一。</p>
 <pb n="0278a" ed="Y" xml:id="Y14.0014.0278a"/>
-<lb n="0278a01" ed="Y"/><lb n="0278a03" ed="Y" type="old"/><p style="text-indent:2em">(二)、知識的相對性：知識的本身，是片面的、點滴的總合，故常忽略整體而
+<lb n="0278a01" ed="Y"/><lb n="0278a03" ed="Y" type="old"/><p xml:id="pY14p0278a0101" style="text-indent:2em">(二)、知識的相對性：知識的本身，是片面的、點滴的總合，故常忽略整體而
 <lb n="0278a02" ed="Y"/><lb n="0278a04" ed="Y" type="old"/>偏執部分，而且也是相對的。知識的相對性，可從知識的兩方面說。知識的活動
 <lb n="0278a03" ed="Y"/><lb n="0278a05" ed="Y" type="old"/>與表達，不外乎內心的思想與外表的語文。若離開了思想、語文，即不能成為知
 <lb n="0278a04" ed="Y"/><lb n="0278a06" ed="Y" type="old"/>識。知識的特性，是遮他顯自的，如見紅色，即不是白色等。沒有光明，即不知
@@ -222,7 +242,7 @@
 <lb n="0279a04" ed="Y"/>中<lb n="0279a06" ed="Y" type="old"/>。然而說到中，中是對邊說的，離中無邊，離邊無中，邊與中是相對的。可見
 <lb n="0279a05" ed="Y"/>我<lb n="0279a07" ed="Y" type="old"/>們的思想、語文所論說的中道、絕對，也早就不是絕對與中道了。口說與心想
 <lb n="0279a06" ed="Y"/><lb n="0279a08" ed="Y" type="old"/>的知識，永遠觸不著絕對、中道的邊緣，這不能不說是知識的缺憾。</p>
-<lb n="0279a07" ed="Y"/><lb n="0279a09" ed="Y" type="old"/><p style="text-indent:2em">(三)、知識的名義性：人類的思想、語文，都是名字。名字是心想所構畫的假
+<lb n="0279a07" ed="Y"/><lb n="0279a09" ed="Y" type="old"/><p xml:id="pY14p0279a0701" style="text-indent:2em">(三)、知識的名義性：人類的思想、語文，都是名字。名字是心想所構畫的假
 <lb n="0279a08" ed="Y"/><lb n="0279a10" ed="Y" type="old"/>名——符號，並不就是物體的自身。如心裡想火、口裡說火，火是名字，若名字
 <lb n="0279a09" ed="Y"/><lb n="0279a11" ed="Y" type="old"/>代表了真實，想火，火應燒心；說火，火應燒口。事實上，心想口說，並沒有受
 <lb n="0279a10" ed="Y"/>到火的<lb n="0279a12" ed="Y" type="old"/>燒灼，可見名字並不就是那物體的實相。但人類從來說慣了，便生起錯覺
@@ -245,7 +265,7 @@
 <lb n="0280a13" ed="Y"/>而不能直顯<lb n="0281a02" ed="Y" type="old"/>它的絕待性——真理。這是知識的本性如是，對於絕對真實，是無法
 <pb n="0281a" ed="Y" xml:id="Y14.0014.0281a"/>
 <lb n="0281a01" ed="Y"/>把握的。</p>
-<lb n="0281a02" ed="Y"/><lb n="0281a03" ed="Y" type="old"/><p style="text-indent:2em">(四)、知識的錯亂性：知識的錯亂性很大，如一杯水，把筆插下去，即見筆形
+<lb n="0281a02" ed="Y"/><lb n="0281a03" ed="Y" type="old"/><p xml:id="pY14p0281a0201" style="text-indent:2em">(四)、知識的錯亂性：知識的錯亂性很大，如一杯水，把筆插下去，即見筆形
 <lb n="0281a03" ed="Y"/><lb n="0281a04" ed="Y" type="old"/>曲折；或見天上雲動，以為月行；或眺望馬路，見前面越遠越小，但這些雖都是
 <lb n="0281a04" ed="Y"/><lb n="0281a05" ed="Y" type="old"/>知識上的錯亂，還容易改正。而知識的根本錯亂，卻習非成是，難於糾正了。如
 <lb n="0281a05" ed="Y"/><lb n="0281a06" ed="Y" type="old"/>宇宙萬物的流動變化，息息不居，哲學與科學能推證為變化，但常人即不能了<lb n="0281a07" ed="Y" type="old"/>解
@@ -261,7 +281,7 @@
 <lb n="0282a01" ed="Y"/>在諸法的事相上不見無常變化，因此每在無常變化中又執實執常，這即是<lb n="0282a03" ed="Y" type="old"/>由於知
 <lb n="0282a02" ed="Y"/>識的根本錯亂而來。佛法說：「常」是眾生知識的顛倒錯覺。的確，在眾<lb n="0282a04" ed="Y" type="old"/>生的觀
 <lb n="0282a03" ed="Y"/>念中，世間諸法是常實的，這不是顛倒錯亂嗎？</p>
-<lb n="0282a04" ed="Y"/><lb n="0282a05" ed="Y" type="old"/><p style="text-indent:2em">我們觀察桌子，知是木料與人工等關係所成。科學說人是由九十幾種原素的
+<lb n="0282a04" ed="Y"/><lb n="0282a05" ed="Y" type="old"/><p xml:id="pY14p0282a0401" style="text-indent:2em">我們觀察桌子，知是木料與人工等關係所成。科學說人是由九十幾種原素的
 <lb n="0282a05" ed="Y"/><lb n="0282a06" ed="Y" type="old"/>集合，佛說人是六大假合。人與物體，都是多種因素的複合體，世間那有絕對的
 <lb n="0282a06" ed="Y"/><lb n="0282a07" ed="Y" type="old"/>獨立物體？因此，諸法皆是緣起關係的存在顯現，就是極小的電子，科學也還說
 <lb n="0282a07" ed="Y"/><lb n="0282a08" ed="Y" type="old"/>是複合體。但一般人就不能體會緣起的關係性，特別當自己在做事時，很少見到
@@ -270,19 +290,19 @@
 <lb n="0282a10" ed="Y"/><lb n="0282a11" ed="Y" type="old"/>決定下，世間沒有絕對的獨立個體，沒有真實獨存的我與一。而一切眾生，從無
 <lb n="0282a11" ed="Y"/><lb n="0282a12" ed="Y" type="old"/>始來，即有我的獨一觀念，這又不能不說是知識的錯誤。知識對我與世間的緣起
 <lb n="0282a12" ed="Y"/><lb n="0282a13" ed="Y" type="old"/>事物，尚有如此倒亂錯覺，更深更妙的真理，自不能體會。</p><pb n="0283a" ed="Y" xml:id="Y14.0014.0283a.old" type="old"/>
-<lb n="0282a13" ed="Y"/><lb n="0283a01" ed="Y" type="old"/><p style="text-indent:2em">知識中既包含了許多錯誤，以知識來說明事物，怎能恰合真理，沒有顛倒與
+<lb n="0282a13" ed="Y"/><lb n="0283a01" ed="Y" type="old"/><p xml:id="pY14p0282a1301" style="text-indent:2em">知識中既包含了許多錯誤，以知識來說明事物，怎能恰合真理，沒有顛倒與
 <pb n="0283a" ed="Y" xml:id="Y14.0014.0283a"/>
 <lb n="0283a01" ed="Y"/><lb n="0283a02" ed="Y" type="old"/>種種流弊產生？如人有時為了一個名詞的認識不同，而起諍論；有時把虛假當為
 <lb n="0283a02" ed="Y"/><lb n="0283a03" ed="Y" type="old"/>真實，把真實看作虛假，這都是常有而難免的錯亂。唯識說：外境唯識所現，不
 <lb n="0283a03" ed="Y"/><lb n="0283a04" ed="Y" type="old"/>像常人所見為客觀外在的。中觀說：一切法無自性，不像常人所見為實有的。這
 <lb n="0283a04" ed="Y"/><lb n="0283a05" ed="Y" type="old"/>都是表示了：一般知識有著根本的錯亂性。</p>
-<lb n="0283a05" ed="Y"/><lb n="0283a06" ed="Y" type="old"/><p style="text-indent:2em">還有，有人把知識看為人類痛苦的根源。我們仔細想，這話也有他的道理。
+<lb n="0283a05" ed="Y"/><lb n="0283a06" ed="Y" type="old"/><p xml:id="pY14p0283a0501" style="text-indent:2em">還有，有人把知識看為人類痛苦的根源。我們仔細想，這話也有他的道理。
 <lb n="0283a06" ed="Y"/><lb n="0283a07" ed="Y" type="old"/>因為人類的私欲，由於知識的我見錯亂，一直與知識不相分離。混沌愚癡的人，
 <lb n="0283a07" ed="Y"/><lb n="0283a08" ed="Y" type="old"/>知識未開，欲望也低，得少為足。等到知識高了，欲望也就大起來，物質、金錢
 <lb n="0283a08" ed="Y"/><lb n="0283a09" ed="Y" type="old"/>、名位不能滿足他的私欲，因而諍論。欲望跟著知識而擴大發展，知識即成了人
 <lb n="0283a09" ed="Y"/><lb n="0283a10" ed="Y" type="old"/>類苦痛的根源，難怪有人要咒詛知識。然而，知識最低下的眾生，也還是有他的
 <lb n="0283a10" ed="Y"/><lb n="0283a11" ed="Y" type="old"/>錯亂，有他的私欲。所以知識低、欲望低，並非是理想的，並非是問題的解決。</p>
-<lb n="0283a11" ed="Y"/><lb n="0283a12" ed="Y" type="old"/><p style="text-indent:2em">一般的知識，離不了私欲。知識大，私欲也就隨著知識而擴大。知識低的，
+<lb n="0283a11" ed="Y"/><lb n="0283a12" ed="Y" type="old"/><p xml:id="pY14p0283a1101" style="text-indent:2em">一般的知識，離不了私欲。知識大，私欲也就隨著知識而擴大。知識低的，
 <lb n="0283a12" ed="Y"/><lb n="0283a13" ed="Y" type="old"/>他的欲望也低，如只想做一家之主，佔有家的一切，支配一切；可是知識高的，<pb n="0284a" ed="Y" xml:id="Y14.0014.0284a.old" type="old"/>
 <lb n="0283a13" ed="Y"/><lb n="0284a01" ed="Y" type="old"/>發展他的無窮私欲，他希望佔有一國，或做整個人類世界的支配者、控制者。各
 <pb n="0284a" ed="Y" xml:id="Y14.0014.0284a"/>
@@ -290,7 +310,7 @@
 <lb n="0284a02" ed="Y"/><lb n="0284a03" ed="Y" type="old"/>顯著的例子，如山地人民的知識低，生活淡泊清苦，但他們的欲望少，多少好一
 <lb n="0284a03" ed="Y"/><lb n="0284a04" ed="Y" type="old"/>點，即能暫告滿足；而都市中的人民知識高，他們就是住的洋房、坐的汽車……
 <lb n="0284a04" ed="Y"/><lb n="0284a05" ed="Y" type="old"/>，還是感到不滿足。這就難怪老、莊要討厭知識了。</p>
-<lb n="0284a05" ed="Y"/><lb n="0284a06" ed="Y" type="old"/><p style="text-indent:2em">二、知識的長處：知識有錯誤的一面，然而也有好的一面。現在即以佛法的
+<lb n="0284a05" ed="Y"/><lb n="0284a06" ed="Y" type="old"/><p xml:id="pY14p0284a0501" style="text-indent:2em">二、知識的長處：知識有錯誤的一面，然而也有好的一面。現在即以佛法的
 <lb n="0284a06" ed="Y"/><lb n="0284a07" ed="Y" type="old"/>立場說明知識的好處。(一)、以分別識成利生事：現世間的衣、食、住、交通……
 <lb n="0284a07" ed="Y"/><lb n="0284a08" ed="Y" type="old"/>，都因知識的發達而有了長足的進步。今天農家的耕種，也進步到機械代替人工
 <lb n="0284a08" ed="Y"/><lb n="0284a09" ed="Y" type="old"/>，比起從前來，真不知好得多少倍。從前人去臺北，艱苦的跑上兩三天；現在搭
@@ -301,7 +321,7 @@
 <lb n="0284a13" ed="Y"/><lb n="0285a01" ed="Y" type="old"/>貨，絕少匪類的搶奪危險，顯然比從前好多，這能說不是知識文明的好處嗎？世
 <pb n="0285a" ed="Y" xml:id="Y14.0014.0285a"/>
 <lb n="0285a01" ed="Y"/><lb n="0285a02" ed="Y" type="old"/>間的利用厚生，非知識不成。</p>
-<lb n="0285a02" ed="Y"/><lb n="0285a03" ed="Y" type="old"/><p style="text-indent:2em">大乘法說：初學菩薩向上向善的正行，即由分別知識的引導——由知識分別
+<lb n="0285a02" ed="Y"/><lb n="0285a03" ed="Y" type="old"/><p xml:id="pY14p0285a0201" style="text-indent:2em">大乘法說：初學菩薩向上向善的正行，即由分別知識的引導——由知識分別
 <lb n="0285a03" ed="Y"/><lb n="0285a04" ed="Y" type="old"/>，知善知惡，了解世間的因果事相，知善而深信善法的價值，於是不斷地努力向
 <lb n="0285a04" ed="Y"/><lb n="0285a05" ed="Y" type="old"/>善，這才能趣向證悟的聖境，得平等無戲論的根本智。不但初學的，菩薩在自覺
 <lb n="0285a05" ed="Y"/><lb n="0285a06" ed="Y" type="old"/>的聖境中雖遠離了分別妄識，但菩薩行的特點在利他，故從平等的根本智中<lb n="0285a07" ed="Y" type="old"/>又起
@@ -309,7 +329,7 @@
 <lb n="0285a07" ed="Y"/>切事業中看，佛法始終重視知識。佛法把知識看為：是自利證悟的前導，利<lb n="0285a09" ed="Y" type="old"/>他妙
 <lb n="0285a08" ed="Y"/>行的方便。離去了知識，即不能成就自利與利他的事業，這是佛法重視知識<lb n="0285a10" ed="Y" type="old"/>而說
 <lb n="0285a09" ed="Y"/>明了知識的崇高價值。</p>
-<lb n="0285a10" ed="Y"/><lb n="0285a11" ed="Y" type="old"/><p style="text-indent:2em">佛經說：周利槃陀伽根性暗鈍，教他讀經，他記得前一句即忘掉後一句。<lb n="0285a12" ed="Y" type="old"/>但
+<lb n="0285a10" ed="Y"/><lb n="0285a11" ed="Y" type="old"/><p xml:id="pY14p0285a1001" style="text-indent:2em">佛經說：周利槃陀伽根性暗鈍，教他讀經，他記得前一句即忘掉後一句。<lb n="0285a12" ed="Y" type="old"/>但
 <lb n="0285a11" ed="Y"/>佛陀是慈悲的，始終慢慢教他，誘發他學習，他在佛陀的慈悲教授策勵下，終<lb n="0285a13" ed="Y" type="old"/>於
 <lb n="0285a12" ed="Y"/>證得了阿羅漢果。雖證聖果，但不會說法，請他開示，他只會說<quote type="寬鬆引文">「人生無常<pb n="0286a" ed="Y" xml:id="Y14.0014.0286a.old" type="old"/><lb n="0286a01" ed="Y" type="old"/>，是
 <lb n="0285a13" ed="Y"/>苦」</quote>，此外只有現神通了。他的話錯嗎？當然不錯，但他缺乏知識，故證悟<lb n="0286a02" ed="Y" type="old"/>了也
@@ -322,7 +342,7 @@
 <lb n="0286a06" ed="Y"/>深廣知識啊。知識是菩薩攝化眾生的要門，故<cit><bibl><title level="m">《瑜伽師地論》</title>說：</bibl><quote source="T30n1579_p0500c13-24" type="寬鬆引文">「菩薩求<lb n="0286a08" ed="Y" type="old"/>法，
 <lb n="0286a07" ed="Y"/>當於五明處求。」</quote><note n="0286003" resp="謝淑歆" type="add">《瑜伽師地論》卷38〈8力種姓品〉(CBETA, T30, no. 1579, p. 500, c13-24)</note></cit>從這些事實看，即知佛教對知識是多麼重視了！分別識是<lb n="0286a09" ed="Y" type="old"/>能成
 <lb n="0286a08" ed="Y"/>利生大用的。</p>
-<lb n="0286a09" ed="Y"/><lb n="0286a10" ed="Y" type="old"/><p style="text-indent:2em">(二)、以分別識成深信解：佛教與希伯來的宗教不同。希伯來宗教厭惡知識，
+<lb n="0286a09" ed="Y"/><lb n="0286a10" ed="Y" type="old"/><p xml:id="pY14p0286a0901" style="text-indent:2em">(二)、以分別識成深信解：佛教與希伯來的宗教不同。希伯來宗教厭惡知識，
 <lb n="0286a10" ed="Y"/><lb n="0286a11" ed="Y" type="old"/>重於感情的信仰；佛教卻說<quote source="T12n0374_p0580b21-24" type="寬鬆引文">「有信無智長愚癡」<note n="0286004" resp="謝淑歆" type="add">《大般涅槃經》卷36〈12 迦葉菩薩品〉：「信者無慧顛倒解義。令聞法者謗佛法僧。善男子。是故我說不信之人瞋恚心故。有信之人無智慧故。是人能謗佛法僧寶。」(CBETA, T12, no. 374, p. 580, b21-24)</note></quote>，這肯定了無知的信仰會造<lb n="0286a12" ed="Y" type="old"/>成愚
 <lb n="0286a11" ed="Y"/>妄的行為，不是合理的正信。所以佛教的正信，要透過知識的考察，以知識<lb n="0286a13" ed="Y" type="old"/>為信
 <lb n="0286a12" ed="Y"/>仰的基點，解得分明，信得懇切，這才是合理的正信。如對佛法的正確知解<pb n="0287a" ed="Y" xml:id="Y14.0014.0287a.old" type="old"/><lb n="0287a01" ed="Y" type="old"/>愈高
@@ -335,7 +355,7 @@
 <lb n="0287a05" ed="Y"/>最高度，即與智慧融合一體。可見知與信不但沒有衝突，而且是從互相助<lb n="0287a07" ed="Y" type="old"/>成而能
 <lb n="0287a06" ed="Y"/>達成統一的。有了高度的智慧，才有更深刻堅固的信願，這是說明信仰建<lb n="0287a08" ed="Y" type="old"/>築在理
 <lb n="0287a07" ed="Y"/>解的基礎中。理解不能不說是知識的力能，這是知識的又一長處。</p>
-<lb n="0287a08" ed="Y"/><lb n="0287a09" ed="Y" type="old"/><p style="text-indent:2em">(三)、以分別識成無分別智：世間的知識，雖有缺陷而不能證知絕對真理，但
+<lb n="0287a08" ed="Y"/><lb n="0287a09" ed="Y" type="old"/><p xml:id="pY14p0287a0801" style="text-indent:2em">(三)、以分別識成無分別智：世間的知識，雖有缺陷而不能證知絕對真理，但
 <lb n="0287a09" ed="Y"/><lb n="0287a10" ed="Y" type="old"/>如能根治錯亂而引向更高度，即成通達真性的出世間無分別智。有人以為世間<lb n="0287a11" ed="Y" type="old"/>的
 <lb n="0287a10" ed="Y"/>分別妄識不能契見真實，反而是證悟的大障礙，所以一味訶毀分別識。不知<lb n="0287a12" ed="Y" type="old"/>道在
 <lb n="0287a11" ed="Y"/>沒有證得聖智前，如不以世間分別識分別善惡、觀察真妄，即無從修行。誰<lb n="0287a13" ed="Y" type="old"/>能直
@@ -352,7 +372,7 @@
 <lb n="0288a08" ed="Y"/>分別力，才能分別善惡真妄，才能痛下決心依法觀行，才能契悟絕待的真<lb n="0288a10" ed="Y" type="old"/>性。所
 <lb n="0288a09" ed="Y"/>以佛法不否認知識本身的缺點，但認為若捨棄了它的缺點，把握它的長處<lb n="0288a11" ed="Y" type="old"/>，即是
 <lb n="0288a10" ed="Y"/>證悟解脫的正因。</p>
-<lb n="0288a11" ed="Y"/><lb n="0288a12" ed="Y" type="old"/><p style="text-indent:2em">有人認為：分別識不能契真，如再以分別識修觀，豈不分別愈多，與真理愈
+<lb n="0288a11" ed="Y"/><lb n="0288a12" ed="Y" type="old"/><p xml:id="pY14p0288a1101" style="text-indent:2em">有人認為：分別識不能契真，如再以分別識修觀，豈不分別愈多，與真理愈
 <lb n="0288a12" ed="Y"/><lb n="0288a13" ed="Y" type="old"/>遠？這是不懂緣起相對性的機械論法！豈不見：如一木，再以一木相摩擦，似乎<pb n="0289a" ed="Y" xml:id="Y14.0014.0289a.old" type="old"/>
 <lb n="0288a13" ed="Y"/><lb n="0289a01" ed="Y" type="old"/>木積越多，而實則兩木相摩，即有火生；火一生起，木也就燒燬了。又如青草，
 <pb n="0289a" ed="Y" xml:id="Y14.0014.0289a"/>
@@ -364,7 +384,7 @@
 <lb n="0289a06" ed="Y"/><lb n="0289a07" ed="Y" type="old"/>有如雹墮草，草死雹消；以藥治病，病癒藥廢之喻），沒有小楔，深陷在管中的
 <lb n="0289a07" ed="Y"/><lb n="0289a08" ed="Y" type="old"/>大楔即無法取出。等到大楔取出，小楔也就自然落下了。學佛以分別識觀破分別
 <lb n="0289a08" ed="Y"/><lb n="0289a09" ed="Y" type="old"/>，證入無分別聖智，分別也即斷捨了，就與此理相同。</p>
-<lb n="0289a09" ed="Y"/><lb n="0289a10" ed="Y" type="old"/><p style="text-indent:2em">佛教重無分別的智證，但也重視知識，與印度宗教中專重瑜伽、禪定的學<lb n="0289a11" ed="Y" type="old"/>派
+<lb n="0289a09" ed="Y"/><lb n="0289a10" ed="Y" type="old"/><p xml:id="pY14p0289a0901" style="text-indent:2em">佛教重無分別的智證，但也重視知識，與印度宗教中專重瑜伽、禪定的學<lb n="0289a11" ed="Y" type="old"/>派
 <lb n="0289a10" ed="Y"/>，精神大有差別，所以佛法的特點在觀慧。佛法認為：知識雖不能表詮真理，<lb n="0289a12" ed="Y" type="old"/>但
 <lb n="0289a11" ed="Y"/>它有引向真理的作用。如有人問：從精舍去新竹公園，向那裡去？我們就告訴<lb n="0289a13" ed="Y" type="old"/>他
 <lb n="0289a12" ed="Y"/>，從此向北，轉幾個彎等。他依著指示的方向一直走去，自可達到公園。直觀<pb n="0290a" ed="Y" xml:id="Y14.0014.0290a.old" type="old"/><lb n="0290a01" ed="Y" type="old"/>公
@@ -374,7 +394,7 @@
 <lb n="0290a02" ed="Y"/><lb n="0290a03" ed="Y" type="old"/>到達新竹公園。分別識而為無分別智的方便，是佛法確認的道理，所以在證入以
 <lb n="0290a03" ed="Y"/><lb n="0290a04" ed="Y" type="old"/>前，有信解行。</p></cb:div>
 <lb n="0290a04" ed="Y"/><lb n="0290a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　現代知識應有之反省</cb:mulu><head>三　現代知識應有之反省</head>
-<lb n="0290a05" ed="Y"/><lb n="0290a06" ed="Y" type="old"/><p style="text-indent:2em">從上面看，知識有缺憾錯誤的一面，也有優越良好的一面。知識若向錯誤的
+<lb n="0290a05" ed="Y"/><lb n="0290a06" ed="Y" type="old"/><p xml:id="pY14p0290a0501" style="text-indent:2em">從上面看，知識有缺憾錯誤的一面，也有優越良好的一面。知識若向錯誤的
 <lb n="0290a06" ed="Y"/><lb n="0290a07" ed="Y" type="old"/>一面發展，會造成人類的無邊苦痛；若著重道德與真理而去發展知識，亦能引生
 <lb n="0290a07" ed="Y"/><lb n="0290a08" ed="Y" type="old"/>人類的無邊幸福。知識的本身有好有壞，而不是決定好、決定壞，既不是「妙門
 <lb n="0290a08" ed="Y"/><lb n="0290a09" ed="Y" type="old"/>」，也不是「禍根」，問題看我們對它的運用如何！近代的知識進步，人類受到
@@ -392,7 +412,7 @@
 <lb n="0291a07" ed="Y"/>明的原子等，不使用於和平利人，卻以此為殺人或控制世界的武器，這<lb n="0291a09" ed="Y" type="old"/>才予人類
 <lb n="0291a08" ed="Y"/>以恐怖威脅的無限苦痛！問題在人類自己，對知識的偏向與運用不當，<lb n="0291a10" ed="Y" type="old"/>這才發展
 <lb n="0291a09" ed="Y"/>知識而反被知識所威脅傷害。</p>
-<lb n="0291a10" ed="Y"/><lb n="0291a11" ed="Y" type="old"/><p style="text-indent:2em">近代知識文明的迅速發展，是難得的！但知識發展的路向，有兩種偏向，造
+<lb n="0291a10" ed="Y"/><lb n="0291a11" ed="Y" type="old"/><p xml:id="pY14p0291a1001" style="text-indent:2em">近代知識文明的迅速發展，是難得的！但知識發展的路向，有兩種偏向，造
 <lb n="0291a11" ed="Y"/><lb n="0291a12" ed="Y" type="old"/>成畸形的病態的發展。一、精神知識趕不上物質知識：近代的知識發展，先是從
 <lb n="0291a12" ed="Y"/><lb n="0291a13" ed="Y" type="old"/>物質界發展起，不斷地向外追求物質的知識，以物質為對象而考察、研究、實驗<pb n="0292a" ed="Y" xml:id="Y14.0014.0292a.old" type="old"/>
 <lb n="0291a13" ed="Y"/><lb n="0292a01" ed="Y" type="old"/>、利用，因此而忽略了精神。由於起初是重於自然界中天文、地理、物理的知識
@@ -414,7 +434,7 @@
 <lb n="0293a01" ed="Y"/>一樣的利用，這才缺乏人性、沒有同情，只是盡量發展個己的私欲，利用迫<lb n="0293a03" ed="Y" type="old"/>害奴
 <lb n="0293a02" ed="Y"/>役的一切技巧，以妄想達成控制整個的人類世界。這種錯誤暴虐的行為，是<lb n="0293a04" ed="Y" type="old"/>從知
 <lb n="0293a03" ed="Y"/>識偏向發展所引起的嚴重危險。</p>
-<lb n="0293a04" ed="Y"/><lb n="0293a05" ed="Y" type="old"/><p style="text-indent:2em">二、道德趕不上知識：知識的錯亂性，與私欲不相離，所以知識的發展，最
+<lb n="0293a04" ed="Y"/><lb n="0293a05" ed="Y" type="old"/><p xml:id="pY14p0293a0401" style="text-indent:2em">二、道德趕不上知識：知識的錯亂性，與私欲不相離，所以知識的發展，最
 <lb n="0293a05" ed="Y"/><lb n="0293a06" ed="Y" type="old"/>易引起個人自私欲的擴展。然世界的知識，本來也不離向上向善的德性，知識發
 <lb n="0293a06" ed="Y"/><lb n="0293a07" ed="Y" type="old"/>達而能促成人與人間和平共存、富裕康樂，即應重視道德的發達，至少要做到道
 <lb n="0293a07" ed="Y"/><lb n="0293a08" ed="Y" type="old"/>德與知識並駕齊驅，使知識受道德的影響，受人類德性的領導，巧為利用，不致
@@ -434,7 +454,7 @@
 <lb n="0294a07" ed="Y"/>而我愈不自由（我是自在自由義），制物而反為物所控制，這才面臨無邊的<lb n="0294a09" ed="Y" type="old"/>苦痛
 <lb n="0294a08" ed="Y"/>與毀滅的威脅。有些科學家、政治家，患著原子武器的恐懼病，其實真正可<lb n="0294a10" ed="Y" type="old"/>怕的
 <lb n="0294a09" ed="Y"/>，並不是這些。</p>
-<lb n="0294a10" ed="Y"/><lb n="0294a11" ed="Y" type="old"/><p style="text-indent:2em">近代世局混亂，多少善良人民被關進了鐵幕，處於鐵幕鬥爭的世界中，人<lb n="0294a12" ed="Y" type="old"/>人
+<lb n="0294a10" ed="Y"/><lb n="0294a11" ed="Y" type="old"/><p xml:id="pY14p0294a1001" style="text-indent:2em">近代世局混亂，多少善良人民被關進了鐵幕，處於鐵幕鬥爭的世界中，人<lb n="0294a12" ed="Y" type="old"/>人
 <lb n="0294a11" ed="Y"/>變成了仇敵，變成了囚犯。據鐵幕透露出來的消息說：人民正普遍的陷於心理<lb n="0294a13" ed="Y" type="old"/>變
 <lb n="0294a12" ed="Y"/>態——虐殺狂、神經病。在仇恨、鬥爭、殘酷的世界裡，人民還有正常而和樂<pb n="0295a" ed="Y" xml:id="Y14.0014.0295a.old" type="old"/><lb n="0295a01" ed="Y" type="old"/>的
 <lb n="0294a13" ed="Y"/>心情嗎？想毀滅別人，必為自己所毀滅。在自由世界裡，據報載：今日美國的<lb n="0295a02" ed="Y" type="old"/>精

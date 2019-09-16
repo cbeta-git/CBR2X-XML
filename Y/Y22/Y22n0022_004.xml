@@ -12,60 +12,80 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>20卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 22, No. 22</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">22</idno>.<idno type="no">22</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛教史地考論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">三、佛滅紀年抉擇談</cb:mulu><cb:mulu level="2" type="其他">七　結論</cb:mulu>
-<milestone unit="juan" n="4"/><pb n="0195a" ed="Y" xml:id="Y22.0022.0195a.old" type="old"/>
+<milestone n="4" unit="juan"/><pb n="0195a" ed="Y" xml:id="Y22.0022.0195a.old" type="old"/>
 <pb n="0193a" ed="Y" xml:id="Y22.0022.0193a"/>
 <lb n="0193a01" ed="Y"/><lb n="0195a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">四、論佛滅的年代</cb:mulu><head>論佛滅的年代<note n="0193001" resp="DILA" type="add">民國四六年撰。</note></head>
-<lb n="0193a02" ed="Y"/><lb n="0195a02" ed="Y" type="old"/><p style="text-indent:2em">去年（西元一九五六），印度、錫蘭、緬甸等國家，舉行佛涅槃來二千五百
+<lb n="0193a02" ed="Y"/><lb n="0195a02" ed="Y" type="old"/><p xml:id="pY22p0193a0201" style="text-indent:2em">去年（西元一九五六），印度、錫蘭、緬甸等國家，舉行佛涅槃來二千五百
 <lb n="0193a03" ed="Y"/><lb n="0195a03" ed="Y" type="old"/>年的盛大法會。今年，泰國（高棉等）又舉行佛滅二千五百年的大典，邀請佛教
 <lb n="0193a04" ed="Y"/><lb n="0195a04" ed="Y" type="old"/>國家派代表來會。由此可見，在緬甸召開的世界佛教徒友誼會第三屆大會，雖通
 <lb n="0193a05" ed="Y"/><lb n="0195a05" ed="Y" type="old"/>過了緬甸等傳統的佛元——佛滅於西元前五四四年，而佛教國際並不曾無異議的
 <lb n="0193a06" ed="Y"/><lb n="0195a06" ed="Y" type="old"/>遵行。所以現在不妨再為論列，為真正關心此一論題的佛教友人作參考。</p>
-<lb n="0193a07" ed="Y"/><lb n="0195a07" ed="Y" type="old"/><p style="text-indent:2em">佛教，古來以釋迦佛入滅的年代為準，來記載佛教界史事的年代。這是佛滅
+<lb n="0193a07" ed="Y"/><lb n="0195a07" ed="Y" type="old"/><p xml:id="pY22p0193a0701" style="text-indent:2em">佛教，古來以釋迦佛入滅的年代為準，來記載佛教界史事的年代。這是佛滅
 <lb n="0193a08" ed="Y"/><lb n="0195a08" ed="Y" type="old"/>紀年，而不是以佛的誕生來計算（去年的二千五百年，中日佛教界每有誤認為佛
 <lb n="0193a09" ed="Y"/><lb n="0195a09" ed="Y" type="old"/>誕紀年的）。佛滅以來的年代，雖傳說有七十多種，然不出兩大類：一、古典的
 <lb n="0193a10" ed="Y"/><lb n="0195a10" ed="Y" type="old"/>傳述，最有歷史價值，可以根據它而論斷出比較確實的年代。二、廣大的傳說，
 <lb n="0193a11" ed="Y"/><lb n="0195a11" ed="Y" type="old"/>曾經在長時期中，為多數的信徒所尊重與信用。</p><pb n="0196a" ed="Y" xml:id="Y22.0022.0196a.old" type="old"/>
 <pb n="0194a" ed="Y" xml:id="Y22.0022.0194a"/>
-<lb n="0194a01" ed="Y"/><lb n="0196a01" ed="Y" type="old"/><p style="text-indent:2em">古典的傳說——依中國譯典及巴利文典所記載的，主要有二項：一、阿育王
+<lb n="0194a01" ed="Y"/><lb n="0196a01" ed="Y" type="old"/><p xml:id="pY22p0194a0101" style="text-indent:2em">古典的傳說——依中國譯典及巴利文典所記載的，主要有二項：一、阿育王
 <lb n="0194a02" ed="Y"/><lb n="0196a02" ed="Y" type="old"/>登位，為佛滅後百年說；精確的年代，為百十六年，這是佛法北傳罽賓而傳出的
 <lb n="0194a03" ed="Y"/><lb n="0196a03" ed="Y" type="old"/>。現存的最古文記，是<title level="m">《阿育王傳》</title>、世友的<title level="m">《十八部論》</title>，都編纂於西元前一
 <lb n="0194a04" ed="Y"/><lb n="0196a04" ed="Y" type="old"/>世紀。此說的傳入中國，比較早。<title level="m">《阿育王傳》</title>是晉惠帝時（西元二九〇——三
@@ -76,7 +96,7 @@
 <lb n="0194a09" ed="Y"/><lb n="0196a09" ed="Y" type="old"/>間的作品。此說的傳入中國，<title level="m">《善見律毘婆沙》</title>為齊永明七年（西元四八九）。
 <lb n="0194a10" ed="Y"/><lb n="0196a10" ed="Y" type="old"/>與<title level="m">《善見律》</title>同時傳入的，還有著名的「眾聖點記」。這可推為南傳佛教特有的
 <lb n="0194a11" ed="Y"/><lb n="0196a11" ed="Y" type="old"/>古說，因為傳於中國的，也還是從錫蘭傳來。</p>
-<lb n="0194a12" ed="Y"/><lb n="0196a12" ed="Y" type="old"/><p style="text-indent:2em">此二項傳說，我稱之為古典的傳述，因為確見於古典的文記，而不是後起的
+<lb n="0194a12" ed="Y"/><lb n="0196a12" ed="Y" type="old"/><p xml:id="pY22p0194a1201" style="text-indent:2em">此二項傳說，我稱之為古典的傳述，因為確見於古典的文記，而不是後起的
 <lb n="0194a13" ed="Y"/><lb n="0196a13" ed="Y" type="old"/>傳說。雖然，在過去，北傳的中國與日本，南傳的錫蘭與泰國等，對此古典的佛<pb n="0197a" ed="Y" xml:id="Y22.0022.0197a.old" type="old"/>
 <pb n="0195a" ed="Y" xml:id="Y22.0022.0195a"/>
 <lb n="0195a01" ed="Y"/><lb n="0197a01" ed="Y" type="old"/>元說已經等於遺忘，然由於阿育王登位的年代近代學者已考證得大體一致，<lb n="0197a02" ed="Y" type="old"/>所以
@@ -91,12 +111,12 @@
 <lb n="0195a10" ed="Y"/>比這二大古說更可信了。我在<title level="m">《佛滅紀年抉擇談》</title>裡，曾有過嚴密而廣泛的討<lb n="0197a11" ed="Y" type="old"/>論
 <lb n="0195a11" ed="Y"/>，認為：北傳的阿育王登位於佛滅百十六年說，實為最古的傳述，也就是最可信
 <lb n="0195a12" ed="Y"/><lb n="0197a12" ed="Y" type="old"/>賴的佛滅年代。南傳的佛滅年代說，在這個基礎上，又誤加了一百年。</p>
-<lb n="0195a13" ed="Y"/><lb n="0197a13" ed="Y" type="old"/><p style="text-indent:2em">廣大的傳說——據中國及錫蘭等傳說，主要的又有二類：一、中國與南傳國<pb n="0198a" ed="Y" xml:id="Y22.0022.0198a.old" type="old"/>
+<lb n="0195a13" ed="Y"/><lb n="0197a13" ed="Y" type="old"/><p xml:id="pY22p0195a1301" style="text-indent:2em">廣大的傳說——據中國及錫蘭等傳說，主要的又有二類：一、中國與南傳國<pb n="0198a" ed="Y" xml:id="Y22.0022.0198a.old" type="old"/>
 <pb n="0196a" ed="Y" xml:id="Y22.0022.0196a"/>
 <lb n="0196a01" ed="Y"/><lb n="0198a01" ed="Y" type="old"/>家共傳共信的，依<title level="a">〈菩提伽耶碑記〉</title>，佛滅應為西元前五四六年。此說傳入錫蘭
 <lb n="0196a02" ed="Y"/><lb n="0198a02" ed="Y" type="old"/>、緬甸，傳說為西元前五四四年（去年滿二千五百年）。傳入泰國、高棉，傳為
 <lb n="0196a03" ed="Y"/><lb n="0198a03" ed="Y" type="old"/>西元前五四三年。彼此雖有二、三年的差異，實依於同一來源而來。考玄奘<bibl><title level="m">《西
-<lb n="0196a04" ed="Y"/><lb n="0198a04" ed="Y" type="old"/>域記》</title><biblScope type="卷" n="8">（卷八）</biblScope></bibl>：菩提伽耶，為釋尊成道處。菩提場北，有摩訶菩提寺，為僧伽
+<lb n="0196a04" ed="Y"/><lb n="0198a04" ed="Y" type="old"/>域記》</title><biblScope n="8" type="卷">（卷八）</biblScope></bibl>：菩提伽耶，為釋尊成道處。菩提場北，有摩訶菩提寺，為僧伽
 <lb n="0196a05" ed="Y"/><lb n="0198a05" ed="Y" type="old"/>羅國王所建築，寺內的僧眾，也以僧伽羅國來的為多。摩訶菩提寺內的僧伽羅學
 <lb n="0196a06" ed="Y"/><lb n="0198a06" ed="Y" type="old"/>僧，所信所行的，是「大乘上座部」。我們知道，僧伽羅就是現在的錫蘭，所以
 <lb n="0196a07" ed="Y"/><lb n="0198a07" ed="Y" type="old"/>毫無疑問的，現在南傳佛教國家所信用的佛滅年代——西元前五四四（或五四三
@@ -115,7 +135,7 @@
 <lb n="0197a06" ed="Y"/><lb n="0199a06" ed="Y" type="old"/>滅年代說，就因為他與中國所傳大乘佛教史的年代相合。可是此一佛滅紀元，比
 <lb n="0197a07" ed="Y"/><lb n="0199a07" ed="Y" type="old"/>起巴利文典古傳的阿育王登位時佛滅二百十八年滿，並不相合，而是增多了<lb n="0199a08" ed="Y" type="old"/>六十
 <lb n="0197a08" ed="Y"/>年。</p>
-<lb n="0197a09" ed="Y"/><lb n="0199a09" ed="Y" type="old"/><p style="text-indent:2em">然而，錫蘭的佛元傳說，不止於此。西元四一〇年，法顯留學錫蘭時，住在
+<lb n="0197a09" ed="Y"/><lb n="0199a09" ed="Y" type="old"/><p xml:id="pY22p0197a0901" style="text-indent:2em">然而，錫蘭的佛元傳說，不止於此。西元四一〇年，法顯留學錫蘭時，住在
 <lb n="0197a10" ed="Y"/><lb n="0199a10" ed="Y" type="old"/>無畏山寺。他聽見該寺的傳說：<quote>「泥洹以來，一千四百九十七年。」</quote>年代太長，
 <lb n="0197a11" ed="Y"/><lb n="0199a11" ed="Y" type="old"/>值得懷疑。有人解說為：法顯所聽到的，應該是正法滅已四百九十七年。法顯以
 <lb n="0197a12" ed="Y"/><lb n="0199a12" ed="Y" type="old"/>為正法千年，所以傳說為一千四百九十七年。如依正法五百年說（正法千年或正
@@ -125,14 +145,14 @@
 <lb n="0198a02" ed="Y"/><lb n="0200a02" ed="Y" type="old"/>所記的<title level="m">《佛般泥洹經》後記</title>——西元前五八九年說（緬甸也有此說），大體相合
 <lb n="0198a03" ed="Y"/><lb n="0200a03" ed="Y" type="old"/>。這比起巴利古典所傳，佛滅二百十八年而阿育王登位的傳說，恰好增加了一百
 <lb n="0198a04" ed="Y"/><lb n="0200a04" ed="Y" type="old"/>年。</p>
-<lb n="0198a05" ed="Y"/><lb n="0200a05" ed="Y" type="old"/><p style="text-indent:2em">總之，此二說，非南傳佛教的古說，反而與大乘佛教初期共傳共信的佛滅年
+<lb n="0198a05" ed="Y"/><lb n="0200a05" ed="Y" type="old"/><p xml:id="pY22p0198a0501" style="text-indent:2em">總之，此二說，非南傳佛教的古說，反而與大乘佛教初期共傳共信的佛滅年
 <lb n="0198a06" ed="Y"/><lb n="0200a06" ed="Y" type="old"/>代說相合。法顯所住的是無畏山寺，而現代錫蘭的佛教，是大寺派。所以，我敢
 <lb n="0198a07" ed="Y"/><lb n="0200a07" ed="Y" type="old"/>肯定說：佛滅於西元前四八六頃的古說，五世紀後的錫蘭僧眾，除少數外，大部
 <lb n="0198a08" ed="Y"/><lb n="0200a08" ed="Y" type="old"/>分已缺乏明確的認識。大寺派所信的，是西元前五四四說；無畏山寺派所信的，
 <lb n="0198a09" ed="Y"/><lb n="0200a09" ed="Y" type="old"/>是西元前五八九（頃）說。由於無畏山寺派的衰落，錫蘭漸成為大寺派的一派教
 <lb n="0198a10" ed="Y"/><lb n="0200a10" ed="Y" type="old"/>區，而佛元說也就專傳西元前五四四（五四三）說。然而，這並非巴利文典的古
 <lb n="0198a11" ed="Y"/><lb n="0200a11" ed="Y" type="old"/>傳，反而是北傳大乘學者共信的傳說。</p>
-<lb n="0198a12" ed="Y"/><lb n="0200a12" ed="Y" type="old"/><p style="text-indent:2em">佛滅於西元前五四六頃或五八七頃，本為中國與錫蘭等共有的傳說。錫蘭<lb n="0200a13" ed="Y" type="old"/>等
+<lb n="0198a12" ed="Y"/><lb n="0200a12" ed="Y" type="old"/><p xml:id="pY22p0198a1201" style="text-indent:2em">佛滅於西元前五四六頃或五八七頃，本為中國與錫蘭等共有的傳說。錫蘭<lb n="0200a13" ed="Y" type="old"/>等
 <lb n="0198a13" ed="Y"/>國家，雖尊信巴利文的古典，但不知道阿育王登位於佛滅二百十八年的古傳，<pb n="0201a" ed="Y" xml:id="Y22.0022.0201a.old" type="old"/><lb n="0201a01" ed="Y" type="old"/>與
 <pb n="0199a" ed="Y" xml:id="Y22.0022.0199a"/>
 <lb n="0199a01" ed="Y"/>他們傳統信用的西元前五四四頃說、五八七頃說，有了六十年與一百年的距離<lb n="0201a02" ed="Y" type="old"/>。
@@ -140,7 +160,7 @@
 <lb n="0199a03" ed="Y"/>五世紀初，並非佛滅千載，而有一百六十年的差異（古代傳說的佛滅紀年，彼<lb n="0201a04" ed="Y" type="old"/>此
 <lb n="0199a04" ed="Y"/>相差，不是一百年，就是六十年，這是很可注意的）。上述的二說，在佛教界<lb n="0201a05" ed="Y" type="old"/>，
 <lb n="0199a05" ed="Y"/>有著悠久與廣大的信用，但在佛教史的年代學上，缺乏價值。</p>
-<lb n="0199a06" ed="Y"/><lb n="0201a06" ed="Y" type="old"/><p style="text-indent:2em">二、還有中國特有的傳說：佛生於周昭王二十四年（或作二十六年），入滅
+<lb n="0199a06" ed="Y"/><lb n="0201a06" ed="Y" type="old"/><p xml:id="pY22p0199a0601" style="text-indent:2em">二、還有中國特有的傳說：佛生於周昭王二十四年（或作二十六年），入滅
 <lb n="0199a07" ed="Y"/><lb n="0201a07" ed="Y" type="old"/>於周穆王五十三年說（西元前九四九）。從傳記看來，這並無從印度傳來的形跡
 <lb n="0199a08" ed="Y"/><lb n="0201a08" ed="Y" type="old"/>。此一傳說，是元魏曇無最在正光元年（西元五二〇），為了與道教的爭論而<lb n="0201a09" ed="Y" type="old"/>說
 <lb n="0199a09" ed="Y"/>到的。北齊法上，也如此說。曇無最的根據，是<title level="m">《周書異記》</title>，為一來歷不明<lb n="0201a10" ed="Y" type="old"/>的
@@ -149,7 +169,7 @@
 <lb n="0199a12" ed="Y"/>於西元前九四九年的傳說，成為千餘年來，中國佛教信用的佛元（但中國多<lb n="0201a13" ed="Y" type="old"/>用佛
 <lb n="0199a13" ed="Y"/>誕紀年）。</p><pb n="0202a" ed="Y" xml:id="Y22.0022.0202a.old" type="old"/>
 <pb n="0200a" ed="Y" xml:id="Y22.0022.0200a"/>
-<lb n="0200a01" ed="Y"/><lb n="0202a01" ed="Y" type="old"/><p style="text-indent:2em">西元一九五四年，在緬甸召開的世界佛教徒友誼會第三屆大會，通過了佛滅
+<lb n="0200a01" ed="Y"/><lb n="0202a01" ed="Y" type="old"/><p xml:id="pY22p0200a0101" style="text-indent:2em">西元一九五四年，在緬甸召開的世界佛教徒友誼會第三屆大會，通過了佛滅
 <lb n="0200a02" ed="Y"/><lb n="0202a02" ed="Y" type="old"/>於西元前五四四年說，並決定去年為佛滅二千五百年。當時，到底有沒有對此問
 <lb n="0200a03" ed="Y"/><lb n="0202a03" ed="Y" type="old"/>題有研究的學者參加？到底有沒有經過慎密的辯論？我並不明了，但相信，這僅
 <lb n="0200a04" ed="Y"/><lb n="0202a04" ed="Y" type="old"/>由少數人提議，輕率的把錫蘭、緬甸的後起傳說，寫作世界佛教公認的佛元。不
@@ -173,11 +193,11 @@
 <lb n="0201a08" ed="Y"/>教也已在廢墟中重建起來。到那時，對於有著一千五百年歷<lb n="0203a09" ed="Y" type="old"/>史的佛誕紀年，希望
 <lb n="0201a09" ed="Y"/>佛教同人能集合全國佛徒的力量，來舉行佛誕三千年的大<lb n="0203a10" ed="Y" type="old"/>典，寫下中國佛教史的
 <lb n="0201a10" ed="Y"/>空前一頁。</p>
-<lb n="0201a11" ed="Y"/><lb n="0203a11" ed="Y" type="old"/><p style="text-indent:2em">釋尊入滅的時代，從傳說的信仰立場，儘管各自遵用自己的傳統。如捨己從
+<lb n="0201a11" ed="Y"/><lb n="0203a11" ed="Y" type="old"/><p xml:id="pY22p0201a1101" style="text-indent:2em">釋尊入滅的時代，從傳說的信仰立場，儘管各自遵用自己的傳統。如捨己從
 <lb n="0201a12" ed="Y"/><lb n="0203a12" ed="Y" type="old"/>人，不過象徵了信心的空虛、佛教的衰落。依據後起的傳說，是不能成為佛教國
 <lb n="0201a13" ed="Y"/><lb n="0203a13" ed="Y" type="old"/>際所公認的。</p><pb n="0204a" ed="Y" xml:id="Y22.0022.0204a.old" type="old"/>
 <pb n="0202a" ed="Y" xml:id="Y22.0022.0202a"/>
-<lb n="0202a01" ed="Y"/><lb n="0204a01" ed="Y" type="old"/><p style="text-indent:2em">如真的要確立人人公認的佛滅年代，那麼非透過歷史的考證不可。最有希望
+<lb n="0202a01" ed="Y"/><lb n="0204a01" ed="Y" type="old"/><p xml:id="pY22p0202a0101" style="text-indent:2em">如真的要確立人人公認的佛滅年代，那麼非透過歷史的考證不可。最有希望
 <lb n="0202a02" ed="Y"/><lb n="0204a02" ed="Y" type="old"/>的，是依據北傳的——佛滅百十六年而阿育王登位，或依據南傳的——佛滅二百
 <lb n="0202a03" ed="Y"/>十八<lb n="0204a03" ed="Y" type="old"/>年而阿育王登位。當然，依我的廣泛辨證，相信北傳的——中國華文教典所
 <lb n="0202a04" ed="Y"/>記載<lb n="0204a04" ed="Y" type="old"/>的佛滅百十六年而育王登位說，是最古典的、最可信賴的傳說了。</p></cb:div>

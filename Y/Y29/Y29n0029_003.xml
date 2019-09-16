@@ -12,66 +12,86 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 29, No. 29</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">29</idno>.<idno type="no">29</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（五）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">二、研究佛法的立場與方法</cb:mulu>
-<milestone unit="juan" n="3"/><pb n="0081a" ed="Y" xml:id="Y29.0029.0081a.old" type="old"/>
+<milestone n="3" unit="juan"/><pb n="0081a" ed="Y" xml:id="Y29.0029.0081a.old" type="old"/>
 <pb n="0081a" ed="Y" xml:id="Y29.0029.0081a"/>
 <lb n="0081a01" ed="Y"/><lb n="0081a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">三、從復興佛教談研究佛學</cb:mulu><head>從復興佛教談研究佛學<note n="0081001" resp="DILA" type="add">民國三五年撰。</note></head>
 <lb n="0081a02" ed="Y"/><lb n="0081a02" ed="Y" type="old"/><byline rend="bold">——三十五年十月在世苑圖書館講——</byline>
-<lb n="0081a03" ed="Y"/><lb n="0081a03" ed="Y" type="old"/><p style="text-indent:2em">研究佛學的目的，可以有各方面的不同，現在單從復興佛教的觀點來談研究
+<lb n="0081a03" ed="Y"/><lb n="0081a03" ed="Y" type="old"/><p xml:id="pY29p0081a0301" style="text-indent:2em">研究佛學的目的，可以有各方面的不同，現在單從復興佛教的觀點來談研究
 <lb n="0081a04" ed="Y"/><lb n="0081a04" ed="Y" type="old"/>佛學。我國佛教由宋以後，就漸漸衰落了，明太祖雖洞悉僧人的種種病象，而加
 <lb n="0081a05" ed="Y"/><lb n="0081a05" ed="Y" type="old"/>以整頓，可是因沒有把握到根本，結果也沒有真能復興。清初歷代君主，皆信仰
 <lb n="0081a06" ed="Y"/><lb n="0081a06" ed="Y" type="old"/>佛教，保護佛教，但是佛教仍舊衰落下去。到清末民初，真是一蹶不振，莫此為
 <lb n="0081a07" ed="Y"/><lb n="0081a07" ed="Y" type="old"/>甚了！</p>
-<lb n="0081a08" ed="Y"/><lb n="0081a08" ed="Y" type="old"/><p style="text-indent:2em">佛教的興盛，並不能單靠國家的保護與整頓，主要的問題，在乎佛教本身，
+<lb n="0081a08" ed="Y"/><lb n="0081a08" ed="Y" type="old"/><p xml:id="pY29p0081a0801" style="text-indent:2em">佛教的興盛，並不能單靠國家的保護與整頓，主要的問題，在乎佛教本身，
 <lb n="0081a09" ed="Y"/><lb n="0081a09" ed="Y" type="old"/>有否堅強的信仰與思想。隋唐在佛教史上稱為黃金時代，原因就在各宗學者，有
 <lb n="0081a10" ed="Y"/><lb n="0081a10" ed="Y" type="old"/>求真的真誠；佛教的思想界，可說全盤是活潑潑地。後因種種原因，禪宗獨盛，<pb n="0082a" ed="Y" xml:id="Y29.0029.0082a.old" type="old"/>
 <pb n="0082a" ed="Y" xml:id="Y29.0029.0082a"/>
 <lb n="0082a01" ed="Y"/><lb n="0082a01" ed="Y" type="old"/>偏重行持，忽略了教理的研究，以致佛教的思想界，一天天貧乏，凝固，而佛教
 <lb n="0082a02" ed="Y"/><lb n="0082a02" ed="Y" type="old"/>也就一天衰頹一天了！</p>
-<lb n="0082a03" ed="Y"/><lb n="0082a03" ed="Y" type="old"/><p style="text-indent:2em">虛大師看到這點，知道要復興佛教，必須從闡揚真理始，欲闡揚真理，應先
+<lb n="0082a03" ed="Y"/><lb n="0082a03" ed="Y" type="old"/><p xml:id="pY29p0082a0301" style="text-indent:2em">虛大師看到這點，知道要復興佛教，必須從闡揚真理始，欲闡揚真理，應先
 <lb n="0082a04" ed="Y"/><lb n="0082a04" ed="Y" type="old"/>造就僧才，於是有佛學院的設立。一面發揮固有的家珍，一面吸收外來（藏文系
 <lb n="0082a05" ed="Y"/><lb n="0082a05" ed="Y" type="old"/>，巴利文系）新的思想，資助自己，充實自己，希望發展佛教文化為人生的指針
 <lb n="0082a06" ed="Y"/><lb n="0082a06" ed="Y" type="old"/>，造福人類。雖然造就出來的人才有限，而且也沒有如大師的理想，但這是因為
 <lb n="0082a07" ed="Y"/><lb n="0082a07" ed="Y" type="old"/>中國佛教的衰落過久，積習太深，不能在短時間內成功。</p>
-<lb n="0082a08" ed="Y"/><lb n="0082a08" ed="Y" type="old"/><p style="text-indent:2em">現在僧青年，有一個普遍的現象，就是對於祖教缺乏深切的信心，這實在<lb n="0082a09" ed="Y" type="old"/>是
+<lb n="0082a08" ed="Y"/><lb n="0082a08" ed="Y" type="old"/><p xml:id="pY29p0082a0801" style="text-indent:2em">現在僧青年，有一個普遍的現象，就是對於祖教缺乏深切的信心，這實在<lb n="0082a09" ed="Y" type="old"/>是
 <lb n="0082a09" ed="Y"/>復興佛教過程中的嚴重問題。我以為復興要有動力，動力從信念中來，信念的<lb n="0082a10" ed="Y" type="old"/>基
 <lb n="0082a10" ed="Y"/>礎在思想。依佛法說：佛教徒對於佛法，要有正確堅固的認識——「勝解」。<lb n="0082a11" ed="Y" type="old"/>勝
 <lb n="0082a11" ed="Y"/>解是信仰的前因，勝解後的信仰，才是真誠的信仰，理智的信仰，不是迷信。<lb n="0082a12" ed="Y" type="old"/>有
@@ -85,7 +105,7 @@
 <lb n="0083a05" ed="Y"/>實的打擊而引起的衝動，缺乏佛法本質上的理解與信仰。他們重視利濟人類<lb n="0083a06" ed="Y" type="old"/>的實
 <lb n="0083a06" ed="Y"/>行；過激者，甚至輕視佛法的修學與深造。缺乏自信，結果常常是與佛教無<lb n="0083a07" ed="Y" type="old"/>緣，
 <lb n="0083a07" ed="Y"/>自家的腳跟卻動搖了。</p>
-<lb n="0083a08" ed="Y"/><lb n="0083a08" ed="Y" type="old"/><p style="text-indent:2em">我們要復興佛教，非研究佛法不可，必須要將佛教的思想加以研究發揮，奠
+<lb n="0083a08" ed="Y"/><lb n="0083a08" ed="Y" type="old"/><p xml:id="pY29p0083a0801" style="text-indent:2em">我們要復興佛教，非研究佛法不可，必須要將佛教的思想加以研究發揮，奠
 <lb n="0083a09" ed="Y"/><lb n="0083a09" ed="Y" type="old"/>定我們的信仰，造成復興佛教的動力。如現在國民黨與共產黨等，為了政治的
 <lb n="0083a10" ed="Y"/>勝<lb n="0083a10" ed="Y" type="old"/>利與實現，無不注重主義，都在繼續不斷的研究與宣傳，才得到現在的成果。
 <lb n="0083a11" ed="Y"/>政<lb n="0083a11" ed="Y" type="old"/>黨尚且如此，何況乎宗教？再說日本佛教復興，雖因為他們從事社會活動，但
@@ -94,7 +114,7 @@
 <pb n="0084a" ed="Y" xml:id="Y29.0029.0084a"/>
 <lb n="0084a01" ed="Y"/><lb n="0084a01" ed="Y" type="old"/>——活佛、格西們，大抵能貫通幾大部經論。佛教的復興決不是偶然的，決非單
 <lb n="0084a02" ed="Y"/><lb n="0084a02" ed="Y" type="old"/>靠外力而能成功。</p>
-<lb n="0084a03" ed="Y"/><lb n="0084a03" ed="Y" type="old"/><p style="text-indent:2em">我希望自己，希望多數的同人，要從佛法的研究中，確立一個堅強的信念：
+<lb n="0084a03" ed="Y"/><lb n="0084a03" ed="Y" type="old"/><p xml:id="pY29p0084a0301" style="text-indent:2em">我希望自己，希望多數的同人，要從佛法的研究中，確立一個堅強的信念：
 <lb n="0084a04" ed="Y"/><lb n="0084a04" ed="Y" type="old"/>佛教是確能利己利人的，唯有佛教，才是偉大的而究竟徹底的宗教。說到這裡，
 <lb n="0084a05" ed="Y"/><lb n="0084a05" ed="Y" type="old"/>順便說一個故事：<quote>「從前楚國有一個卞和，他獻一塊璞玉給楚王，說裡面有寶玉
 <lb n="0084a06" ed="Y"/><lb n="0084a06" ed="Y" type="old"/>。當時察看的人，都說沒有，說他欺騙，結果，楚王割掉他一隻腳。後來，第二

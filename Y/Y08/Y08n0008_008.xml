@@ -12,55 +12,75 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/07</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/07</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>20卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 8, No. 8</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">8</idno>.<idno type="no">8</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法概論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第七章　關於有情流轉的業力</cb:mulu><cb:mulu level="2" type="其他">第二節　業及依業而有的輪迴</cb:mulu><cb:mulu level="3" type="其他">從前生到後生</cb:mulu>
-<milestone unit="juan" n="8"/><pb n="0105a" ed="Y" xml:id="Y08.0008.0105a.old" type="old"/>
+<milestone n="8" unit="juan"/><pb n="0105a" ed="Y" xml:id="Y08.0008.0105a.old" type="old"/>
 <pb n="0105a" ed="Y" xml:id="Y08.0008.0105a"/>
 <lb n="0105a01" ed="Y"/><lb n="0105a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">第八章　佛法的心理觀</cb:mulu><head>第八章　佛法的心理觀</head>
 <lb n="0105a02" ed="Y"/><lb n="0105a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　心意識</cb:mulu><head>第一節　心意識</head>
-<lb n="0105a03" ed="Y"/><lb n="0105a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">意為有情的中樞</cb:mulu><head>意為有情的中樞</head><lb n="0105a04" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">有情即有情識，故識為有情的特徵。佛教於心識發揮得極
+<lb n="0105a03" ed="Y"/><lb n="0105a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">意為有情的中樞</cb:mulu><head>意為有情的中樞</head><lb n="0105a04" ed="Y" type="old"/><p xml:id="pY08p0105a0315" style="text-indent:2em" cb:place="inline">有情即有情識，故識為有情的特徵。佛教於心識發揮得極
 <lb n="0105a04" ed="Y"/><lb n="0105a05" ed="Y" type="old"/>精密，確為應有的努力。經中以種種名詞去說明識，又總括為<cit><quote source="T02n0099_p0008a08" type="嚴謹引文">「此心、此意、此
-<lb n="0105a05" ed="Y"/><lb n="0105a06" ed="Y" type="old"/>識」</quote><bibl>（<title level="m">《雜阿含經》</title><biblScope n="2" type="卷">卷二</biblScope>．<ref type="taisho" target="#no:99.35">三五經</ref>）</bibl><note n="0105001" resp="周怡曄" type="add">《雜阿含經》卷2(CBETA, T02, no. 99, p. 8, a8)</note></cit>。佛雖總說此三者，但並未給與嚴密的定義
+<lb n="0105a05" ed="Y"/><lb n="0105a06" ed="Y" type="old"/>識」</quote><bibl>（<title level="m">《雜阿含經》</title><biblScope n="2" type="卷">卷二</biblScope>．<ref target="#no:99.35" type="taisho">三五經</ref>）</bibl><note n="0105001" resp="周怡曄" type="add">《雜阿含經》卷2(CBETA, T02, no. 99, p. 8, a8)</note></cit>。佛雖總說此三者，但並未給與嚴密的定義
 <lb n="0105a06" ed="Y"/>。聖典中<lb n="0105a07" ed="Y" type="old"/>有時說心，有時說意，有時又說識。所以歷來論師，都認此三者為同一
 <lb n="0105a07" ed="Y"/>的；但從<lb n="0105a08" ed="Y" type="old"/>它的特殊含義說，可以作相對的分別。</p>
-<lb n="0105a08" ed="Y"/><lb n="0105a09" ed="Y" type="old"/><p style="text-indent:2em">先說意：意的梵語，即「末那」（不必作第七識解），是「思量」義。意的
+<lb n="0105a08" ed="Y"/><lb n="0105a09" ed="Y" type="old"/><p xml:id="pY08p0105a0801" style="text-indent:2em">先說意：意的梵語，即「末那」（不必作第七識解），是「思量」義。意的
 <lb n="0105a09" ed="Y"/><lb n="0105a10" ed="Y" type="old"/>特殊含義，有二：一、意為身心交感的中樞：有情的身心自體，為六根的總和，
 <lb n="0105a10" ed="Y"/><lb n="0105a11" ed="Y" type="old"/>除前五色根外，還有意根。意根與五根的關係，如<cit><bibl>《<title level="m">中阿含經</title>．<title level="m">大拘絺羅經</title>》說
 <pb n="0106a" ed="Y" xml:id="Y08.0008.0106a"/>
@@ -70,7 +90,7 @@
 <lb n="0106a04" ed="Y"/>以五<lb n="0106a04" ed="Y" type="old"/>根與意根，為相依而共存的，實為有情自體的兩面觀。從觸對物質世界看，
 <lb n="0106a05" ed="Y"/>沒有<lb n="0106a05" ed="Y" type="old"/>五根，即不能顯出意根的存在；從引發精神作用看，沒有意根，五根即沒有
 <lb n="0106a06" ed="Y"/>取境<lb n="0106a06" ed="Y" type="old"/>生識的作用。試為圖如下：</p>
-<lb n="0106a07" ed="Y"/><lb n="0106a07" ed="Y" type="old"/><p cb:type="pre">　　　　│
+<lb n="0106a07" ed="Y"/><lb n="0106a07" ed="Y" type="old"/><p cb:type="pre" xml:id="pY08p0106a0701">　　　　│
 <lb n="0106a08" ed="Y"/>　　　　│﹨
 <lb n="0106a09" ed="Y"/>　　　　│
 <lb n="0106a10" ed="Y"/>　　　　│　﹨
@@ -90,7 +110,7 @@
 <lb n="0106a24" ed="Y"/>　　　　│　│　　　　　　﹨
 <lb n="0106a25" ed="Y"/>　　　　└─┴──<seg rend="kaiti">身</seg>────</p>
 <pb n="0107a" ed="Y" xml:id="Y08.0008.0107a"/>
-<lb n="0107a01" ed="Y"/><pb n="0107a" ed="Y" xml:id="Y08.0008.0107a.old" type="old"/><lb n="0107a01" ed="Y" type="old"/><p style="text-indent:2em">觀此圖，可見身根與意根的交感。意根為根身——含攝得眼、耳、鼻、舌四
+<lb n="0107a01" ed="Y"/><pb n="0107a" ed="Y" xml:id="Y08.0008.0107a.old" type="old"/><lb n="0107a01" ed="Y" type="old"/><p xml:id="pY08p0107a0101" style="text-indent:2em">觀此圖，可見身根與意根的交感。意根為根身——含攝得眼、耳、鼻、舌四
 <lb n="0107a02" ed="Y"/><lb n="0107a02" ed="Y" type="old"/>根的身根活動的所依，根身也是意根存在與生起的所依，二者如蘆束相依。五根
 <lb n="0107a03" ed="Y"/><lb n="0107a03" ed="Y" type="old"/>中，身根比四根的範圍大，有眼、耳等是必有身根的。這可見意的特徵，即是與
 <lb n="0107a04" ed="Y"/><lb n="0107a04" ed="Y" type="old"/>根身的和合。低級有情，眼等四根可能是沒有的，但身根一定有，沒有即不成其
@@ -101,14 +121,14 @@
 <lb n="0107a09" ed="Y"/><lb n="0107a09" ed="Y" type="old"/>心理。佛法的有情論：意根與五色根相依而存。單有五根，僅能與外境觸對，而
 <lb n="0107a10" ed="Y"/><lb n="0107a10" ed="Y" type="old"/>不能發生認識作用；意根不離五根的活動，所以想分解五根而別求意根，也是不
 <lb n="0107a11" ed="Y"/><lb n="0107a11" ed="Y" type="old"/>可能的。</p>
-<lb n="0107a12" ed="Y"/><lb n="0107a12" ed="Y" type="old"/><p style="text-indent:2em">意根與五根的關係，可從取境的作用而知。如眼根，像一架照相機，能攝取
+<lb n="0107a12" ed="Y"/><lb n="0107a12" ed="Y" type="old"/><p xml:id="pY08p0107a1201" style="text-indent:2em">意根與五根的關係，可從取境的作用而知。如眼根，像一架照相機，能攝取
 <lb n="0107a13" ed="Y"/><lb n="0107a13" ed="Y" type="old"/>外境作資料，現為心相而生起眼識。意根是根，所以也能攝取境界。<cit><bibl>《<title level="m">中阿含經</title>
 <pb n="0108a" ed="Y" xml:id="Y08.0008.0108a"/>
 <lb n="0108a01" ed="Y"/>．<title level="m">大<pb n="0108a" ed="Y" xml:id="Y08.0008.0108a.old" type="old"/><lb n="0108a01" ed="Y" type="old"/>拘絺羅經</title>》說：</bibl><quote source="T01n0026_p0791b16-17" type="嚴謹引文">「五根異行異境界，各各受（取）自境界，意為彼盡受境界
 <lb n="0108a02" ed="Y"/>。」</quote><note n="0108001" resp="周怡曄" type="add">《中阿含經》卷58〈3 晡利多品〉(CBETA, T01, no. 26, p. 791, b16-17)</note></cit><lb n="0108a02" ed="Y" type="old"/>意根不但有他獨特的（「別法處」）境界，還能承受五根所取的境界。五根
 <lb n="0108a03" ed="Y"/>如新<lb n="0108a03" ed="Y" type="old"/>聞的採訪員，意根是編輯部的外稿搜集者。意根能取五根的所取，又為五根
 <lb n="0108a04" ed="Y"/>起用<lb n="0108a04" ed="Y" type="old"/>的所依。五根與意根的交感相通，即說明了意根為身心和合的中樞。</p>
-<lb n="0108a05" ed="Y"/><lb n="0108a05" ed="Y" type="old"/><p style="text-indent:2em">二、意為認識作用的源泉：根是生義，如樹依根而發枝葉；六根能發識，所
+<lb n="0108a05" ed="Y"/><lb n="0108a05" ed="Y" type="old"/><p xml:id="pY08p0108a0501" style="text-indent:2em">二、意為認識作用的源泉：根是生義，如樹依根而發枝葉；六根能發識，所
 <lb n="0108a06" ed="Y"/><lb n="0108a06" ed="Y" type="old"/>以稱根。平常說依眼根生眼識，……依意根生意識，這還是大概的解說。精密<lb n="0108a07" ed="Y" type="old"/>的
 <lb n="0108a07" ed="Y"/>說，意根不但生意識，而且還能生前五識。所以凡能生認識的心理根源，都稱<lb n="0108a08" ed="Y" type="old"/>為
 <lb n="0108a08" ed="Y"/>意根；而從此所生的一切識，也可總名之為意識。意為認識作用的根源，研究<lb n="0108a09" ed="Y" type="old"/>此
@@ -119,20 +139,20 @@
 <lb n="0108a13" ed="Y"/>特徵，即認識活動的泉源。依根本教義而論，意根應該是與六識同時存在的<pb n="0109a" ed="Y" xml:id="Y08.0008.0109a.old" type="old"/><lb n="0109a01" ed="Y" type="old"/>，如
 <pb n="0109a" ed="Y" xml:id="Y08.0008.0109a"/>
 <lb n="0109a01" ed="Y"/>十八界中有六識界，同時還有意界。</p></cb:div>
-<lb n="0109a02" ed="Y"/><lb n="0109a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">依意生識</cb:mulu><head>依意生識</head><lb n="0109a03" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">識，了別義，重在觸對境界的認識；能了識別，故稱為識。所依
+<lb n="0109a02" ed="Y"/><lb n="0109a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">依意生識</cb:mulu><head>依意生識</head><lb n="0109a03" ed="Y" type="old"/><p xml:id="pY08p0109a0209" style="text-indent:2em" cb:place="inline">識，了別義，重在觸對境界的認識；能了識別，故稱為識。所依
 <lb n="0109a03" ed="Y"/><lb n="0109a04" ed="Y" type="old"/>的根有六，所取的境也有六，識也因此分為六種。<bibl>《<title level="m">中阿含經</title>．<title level="m">嗏啼經</title>》</bibl><note n="0109001" resp="周怡曄" type="add">《中阿含經》卷54〈2 大品〉：「我說識因緣故起，識有緣則生，無緣則滅，識隨所緣生，即彼緣。說緣眼色生識，生識已說眼識，如是耳、鼻、舌、身，意法生識，生識已說意識。猶若如火，隨所緣生，即彼緣，說緣木生火，說木火也。緣草糞聚火，說草糞聚火。」(CBETA, T01, no. 26, p. 767, a24-29)</note>說：如
 <lb n="0109a04" ed="Y"/>火是<lb n="0109a05" ed="Y" type="old"/>同一的，草燒即名草火，木燒即名木火。識也如此，依六根，緣六境，依此
 <lb n="0109a05" ed="Y"/>即成<lb n="0109a06" ed="Y" type="old"/>為六識。關於識的是一是多，古來大有爭辯。依緣起觀的見地說，識應為相
 <lb n="0109a06" ed="Y"/>對的<lb n="0109a07" ed="Y" type="old"/>種種差別，而非絕對的多識。但識為依根緣境而現起者，所以說明上不妨側
 <lb n="0109a07" ed="Y"/>重差<lb n="0109a08" ed="Y" type="old"/>別。</p>
-<lb n="0109a08" ed="Y"/><lb n="0109a09" ed="Y" type="old"/><p style="text-indent:2em">佛教後期，發展為七識說、八識說、九識說。佛的區別識類，本以六根為主
+<lb n="0109a08" ed="Y"/><lb n="0109a09" ed="Y" type="old"/><p xml:id="pY08p0109a0801" style="text-indent:2em">佛教後期，發展為七識說、八識說、九識說。佛的區別識類，本以六根為主
 <lb n="0109a09" ed="Y"/><lb n="0109a10" ed="Y" type="old"/>要根據，唯有眼等六根，那裡會有七識、八識？大乘學者所說的第七識、第八識
 <lb n="0109a10" ed="Y"/><lb n="0109a11" ed="Y" type="old"/>，都不過是意識的細分。古代的一意識師（見<title level="m">《攝大乘論》</title>），以意識為本而說
 <lb n="0109a11" ed="Y"/><lb n="0109a12" ed="Y" type="old"/>明諸識，以為意識對外而了別五塵時，即為一般所說的前五識；意識又向內而執
 <lb n="0109a12" ed="Y"/><lb n="0109a13" ed="Y" type="old"/>取根身。這向內而執取根身的，即等於一般所說的阿陀那識。此意識為本的意識
 <lb n="0109a13" ed="Y"/><lb n="0109a14" ed="Y" type="old"/>，應為從意而生的意識，不只是六識中的意識。</p><pb n="0110a" ed="Y" xml:id="Y08.0008.0110a.old" type="old"/>
 <pb n="0110a" ed="Y" xml:id="Y08.0008.0110a"/>
-<lb n="0110a01" ed="Y"/><lb n="0110a01" ed="Y" type="old"/><p style="text-indent:2em">從有情為本的立場說，有情為六處和合的存在，意處為身心交感、認識活動
+<lb n="0110a01" ed="Y"/><lb n="0110a01" ed="Y" type="old"/><p xml:id="pY08p0110a0101" style="text-indent:2em">從有情為本的立場說，有情為六處和合的存在，意處為身心交感、認識活動
 <lb n="0110a02" ed="Y"/><lb n="0110a02" ed="Y" type="old"/>的源泉。意根與身根的交感，即有情身心的統一。佛說<quote type="寬鬆引文">「依意生識」</quote>，應以與根
 <lb n="0110a03" ed="Y"/><lb n="0110a03" ed="Y" type="old"/>身相依存的「意」為根源。低級的有情，可能沒有眼、耳、鼻、舌，但身根是有
 <lb n="0110a04" ed="Y"/><lb n="0110a04" ed="Y" type="old"/>的。身根為四大所造清淨色，由於地大增勝而成定形的機體；水大增勝而有液汁
@@ -147,7 +167,7 @@
 <lb n="0110a13" ed="Y"/>識」</quote>的教義、<quote source="T26n1539_p0547a05-06" type="嚴謹引文">「六處和合」<note n="0110002" resp="周怡曄" type="add">《阿毘達磨識身足論》卷3(CBETA, T26, no. 1539, p. 547, a5-6)</note></quote>的立場，應從根身與意識的交感處，說明一切有<pb n="0111a" ed="Y" xml:id="Y08.0008.0111a.old" type="old"/><lb n="0111a01" ed="Y" type="old"/>情共
 <pb n="0111a" ed="Y" xml:id="Y08.0008.0111a"/>
 <lb n="0111a01" ed="Y"/>有的微細身識與意識，到達人類特有的明確意識。</p></cb:div>
-<lb n="0111a02" ed="Y"/><lb n="0111a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">心及三者的綜合</cb:mulu><head>心及三者的綜合</head><lb n="0111a03" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">心的梵語有四，但中國譯成同樣的心字。這裡所要說的，
+<lb n="0111a02" ed="Y"/><lb n="0111a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">心及三者的綜合</cb:mulu><head>心及三者的綜合</head><lb n="0111a03" ed="Y" type="old"/><p xml:id="pY08p0111a0215" style="text-indent:2em" cb:place="inline">心的梵語有四，但中國譯成同樣的心字。這裡所要說的，
 <lb n="0111a03" ed="Y"/><lb n="0111a04" ed="Y" type="old"/>是「質多」。質多是「種種」的意義；但不就是種種，是由種種而存在、而長成
 <lb n="0111a04" ed="Y"/>的<lb n="0111a05" ed="Y" type="old"/>，所以古來約<quote source="T16n0676_p0692b18" type="寬鬆引文">「種種積集滋長」<note n="0111001" resp="周怡曄" type="add">《解深密經》卷1〈3 心意識相品〉：「由此識色聲香味觸等積集滋長故」(CBETA, T16, no. 676, p. 692, b18)</note></quote>而解說為「集」。眼、耳、鼻、舌、身、意六
 <lb n="0111a05" ed="Y"/>識<lb n="0111a06" ed="Y" type="old"/>的認識，取之於外，同時留下所認識的印象於內，即成為心。識愈攀緣得多，
@@ -158,18 +178,18 @@
 <lb n="0111a10" ed="Y"/>」<note n="0111004" resp="周怡曄" type="add">《阿毘達磨大毘婆沙論》卷72：「遠行是心業。如有頌曰。能遠行獨行<space quantity="1" unit="chars"/>無身寐於窟  調伏此心者<space quantity="1" unit="chars"/>解脫大怖畏」(CBETA, T27, no. 1545, p. 371, b10-12)</note></quote>，<lb n="0111a11" ed="Y" type="old"/>獨即有獨一的意義。所以此心為種種的集起義，又是種種的統一義。這樣，
 <lb n="0111a11" ed="Y"/>依上<lb n="0111a12" ed="Y" type="old"/>來的解說，心意識的關係如此：</p><pb n="0112a" ed="Y" xml:id="Y08.0008.0112a.old" type="old"/>
 <pb n="0112a" ed="Y" xml:id="Y08.0008.0112a"/>
-<lb n="0112a01" ed="Y"/><lb n="0112a01" ed="Y" type="old"/><p cb:type="pre" rend="kaiti">　　　　　　　　　　識
+<lb n="0112a01" ed="Y"/><lb n="0112a01" ed="Y" type="old"/><p cb:type="pre" xml:id="pY08p0112a0101" rend="kaiti">　　　　　　　　　　識
 <lb n="0112a02" ed="Y"/>　　　　　　　　　／　↖
 <lb n="0112a03" ed="Y"/>　　　　　　　　／　　　＼
 <lb n="0112a04" ed="Y"/>　　　　－－－／　　　　　＼－－－
 <lb n="0112a05" ed="Y"/>　　　　　　／　　　　　　　＼
 <lb n="0112a06" ed="Y"/>　　　　　↙　　　　　　　　　＼
 <lb n="0112a07" ed="Y"/>　　　　心　　　　　　　　　　　意</p>
-<lb n="0112a08" ed="Y"/><lb n="0112a05" ed="Y" type="old"/><p style="text-indent:2em">識，約認識境界——內境、外境說。識由何來？由身心交感的、心理源泉<lb n="0112a06" ed="Y" type="old"/>的
+<lb n="0112a08" ed="Y"/><lb n="0112a05" ed="Y" type="old"/><p xml:id="pY08p0112a0801" style="text-indent:2em">識，約認識境界——內境、外境說。識由何來？由身心交感的、心理源泉<lb n="0112a06" ed="Y" type="old"/>的
 <lb n="0112a09" ed="Y"/>意處而來。識生了又如何？識生後剎那即滅，留影象而充實內心，心是種種的<lb n="0112a07" ed="Y" type="old"/>積
 <lb n="0112a10" ed="Y"/>集與統一。心與意，為內心的兩種特性：一是六識所引生的，一是六識所從生<lb n="0112a08" ed="Y" type="old"/>的
 <lb n="0112a11" ed="Y"/>，流出又流回。識多對境界說，意多對根身說，心多對心所說。</p>
-<lb n="0112a12" ed="Y"/><lb n="0112a09" ed="Y" type="old"/><p style="text-indent:2em">一般的心理學者或認識論者，論到認識的來源時，有的說：心如白紙，什麼
+<lb n="0112a12" ed="Y"/><lb n="0112a09" ed="Y" type="old"/><p xml:id="pY08p0112a1201" style="text-indent:2em">一般的心理學者或認識論者，論到認識的來源時，有的說：心如白紙，什麼
 <lb n="0112a13" ed="Y"/><lb n="0112a10" ed="Y" type="old"/>都沒有，一切認識作用都由生活經驗而漸漸生起、資長；如不和外境接觸，心<lb n="0112a11" ed="Y" type="old"/>就
 <lb n="0112a14" ed="Y"/>什麼也不會有。一切從經驗來，即所謂經驗派。有的說：認識作用的種種功能<lb n="0112a12" ed="Y" type="old"/>，
 <lb n="0112a15" ed="Y"/>是與生俱來的。如想像、思考、推測等種種認識功能，都本來就有，由外境的<lb n="0112a13" ed="Y" type="old"/>觸
@@ -180,7 +200,7 @@
 <lb n="0113a03" ed="Y"/>無始以來，即有此心、此意、此識，不悟時間的幻惑性，推斷為本有或者始<lb n="0113a04" ed="Y" type="old"/>有，
 <lb n="0113a04" ed="Y"/>實在可以無須！</p></cb:div></cb:div>
 <lb n="0113a05" ed="Y"/><lb n="0113a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　心與心所</cb:mulu><head>第二節　心與心所</head>
-<lb n="0113a06" ed="Y"/><lb n="0113a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">認識的過程</cb:mulu><head>認識的過程</head><lb n="0113a07" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">心與心所，約心的統覺及所有複雜的心理內容說。心所，是「
+<lb n="0113a06" ed="Y"/><lb n="0113a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">認識的過程</cb:mulu><head>認識的過程</head><lb n="0113a07" ed="Y" type="old"/><p xml:id="pY08p0113a0611" style="text-indent:2em" cb:place="inline">心與心所，約心的統覺及所有複雜的心理內容說。心所，是「
 <lb n="0113a07" ed="Y"/><lb n="0113a08" ed="Y" type="old"/>心所有法」，心所生起，繫屬於心而為心所有的。此心與心所，從依根緣境而發
 <lb n="0113a08" ed="Y"/><lb n="0113a09" ed="Y" type="old"/>識來說，每分為六識聚，而分別說明他的複雜內容與發展程序。六識聚所有的心
 <lb n="0113a09" ed="Y"/><lb n="0113a10" ed="Y" type="old"/>所中，最一般的，即作意、觸、受、想、思五者。作意與觸，更為認識過程中的
@@ -194,7 +214,7 @@
 <lb n="0114a04" ed="Y"/>達磨論<lb n="0114a04" ed="Y" type="old"/>》</title>也說：</bibl><quote source="T28n1554_p0982a13-14" type="嚴謹引文">「亦是憶持曾受境等。」</quote><note n="0114001" resp="周怡曄" type="add">《入阿毘達磨論》卷1(CBETA, T28, no. 1554, p. 982, a13-14)</note></cit>唯識家的<quote source="T31n1585_p0011c06-07" type="寬鬆引文">「警起心種」<note n="0114002" resp="周怡曄" type="add">《成唯識論》卷3：「作意謂能警心為性。於所緣境引心為業。謂此警覺應起心種引令趣境故名作意。」(CBETA, T31, no. 1585, p. 11, c6-7)</note></quote>，也即此義的不
 <lb n="0114a05" ed="Y"/>同解說<lb n="0114a05" ed="Y" type="old"/>。上座者的九心輪，在根識的矚「見」境界前，有「能引發」（藏譯作動
 <lb n="0114a06" ed="Y"/>），即<lb n="0114a06" ed="Y" type="old"/>與作意——念的作用相同。</p>
-<lb n="0114a07" ed="Y"/><lb n="0114a07" ed="Y" type="old"/><p style="text-indent:2em">論到觸，習見的經句，如<cit><bibl><title level="m">《雜阿含經》</title>（<biblScope n="13" type="卷">卷一三</biblScope>．<ref type="taisho" target="#no:99.306">三〇六經</ref>）說：</bibl><quote source="T02n0099_p0087c26-27" type="嚴謹引文">「眼、色
+<lb n="0114a07" ed="Y"/><lb n="0114a07" ed="Y" type="old"/><p xml:id="pY08p0114a0701" style="text-indent:2em">論到觸，習見的經句，如<cit><bibl><title level="m">《雜阿含經》</title>（<biblScope n="13" type="卷">卷一三</biblScope>．<ref target="#no:99.306" type="taisho">三〇六經</ref>）說：</bibl><quote source="T02n0099_p0087c26-27" type="嚴謹引文">「眼、色
 <lb n="0114a08" ed="Y"/>緣，<lb n="0114a08" ed="Y" type="old"/>生眼識，三事和合觸，觸俱生受、想、思。」</quote><note n="0114003" resp="周怡曄" type="add">《雜阿含經》卷13(CBETA, T02, no. 99, p. 87, c26-27)</note></cit>這即是根、境二和生識，根、
 <lb n="0114a09" ed="Y"/>境、<lb n="0114a09" ed="Y" type="old"/>識三和合觸的明證。根、境和合生識，即由於根、境相對而引起覺了的識。
 <lb n="0114a10" ed="Y"/>此識<lb n="0114a10" ed="Y" type="old"/>起時，依根緣境而成三事的和合；和合的識，即名為觸——感覺而成為認識
@@ -202,18 +222,18 @@
 <lb n="0114a12" ed="Y"/>七經</ref>）說<lb n="0114a12" ed="Y" type="old"/>：</bibl><quote source="T02n0099_p0088b01-03" type="嚴謹引文">「眼色二種緣，生於心心法。識觸及俱生，受想等有因。」</quote><note n="0114004" resp="周怡曄" type="add">《雜阿含經》卷13(CBETA, T02, no. 99, p. 88, b1-3)</note></cit>有部以識
 <lb n="0114a13" ed="Y"/>及觸為二<lb n="0114a13" ed="Y" type="old"/>，又是同時相應的；所以觸從三和生，又為令三和合的心所。</p><pb n="0115a" ed="Y" xml:id="Y08.0008.0115a.old" type="old"/>
 <pb n="0115a" ed="Y" xml:id="Y08.0008.0115a"/>
-<lb n="0115a01" ed="Y"/><lb n="0115a01" ed="Y" type="old"/><p style="text-indent:2em">與根、境相對的識，本沒有二者，但由於根取境的引動內心，心反應緣境而
+<lb n="0115a01" ed="Y"/><lb n="0115a01" ed="Y" type="old"/><p xml:id="pY08p0115a0101" style="text-indent:2em">與根、境相對的識，本沒有二者，但由於根取境的引動內心，心反應緣境而
 <lb n="0115a02" ed="Y"/>成<lb n="0115a02" ed="Y" type="old"/>為認識，此從外而內、從內而外的認識過程，似乎有內在心與緣境心的二者。
 <lb n="0115a03" ed="Y"/>如<lb n="0115a03" ed="Y" type="old"/>作意與心，識與觸，即是如此。此認識過程，本為極迅速而難於分別先後的，
 <lb n="0115a04" ed="Y"/>也<lb n="0115a04" ed="Y" type="old"/>不能強作內外的劃分，不過為了說明方便而如此說。否則，易於誤會內心為離
 <lb n="0115a05" ed="Y"/>根<lb n="0115a05" ed="Y" type="old"/>境而恆在。</p>
-<lb n="0115a06" ed="Y"/><lb n="0115a06" ed="Y" type="old"/><p style="text-indent:2em">受、想、思與識觸俱生。經中曾說到受等依觸緣觸而生，因為不是識的觸境
+<lb n="0115a06" ed="Y"/><lb n="0115a06" ed="Y" type="old"/><p xml:id="pY08p0115a0601" style="text-indent:2em">受、想、思與識觸俱生。經中曾說到受等依觸緣觸而生，因為不是識的觸境
 <lb n="0115a07" ed="Y"/><lb n="0115a07" ed="Y" type="old"/>而成為認識，一切感情、構想、意志作用，都無法表達出來。識為有情對境所起
 <lb n="0115a08" ed="Y"/><lb n="0115a08" ed="Y" type="old"/>的認識，認識到的境界，必與自己相關而引起不同的情感；認識必有攝取境像而
 <lb n="0115a09" ed="Y"/><lb n="0115a09" ed="Y" type="old"/>成為表象作用，或進而有推想、想像；認識外境，必引起對付外境的作用——思
 <lb n="0115a10" ed="Y"/><lb n="0115a10" ed="Y" type="old"/>。所以佛法中，不論為五識的感性知識、意識的理性知識，都必會引起受、想、
 <lb n="0115a11" ed="Y"/><lb n="0115a11" ed="Y" type="old"/>思來。</p>
-<lb n="0115a12" ed="Y"/><lb n="0115a12" ed="Y" type="old"/><p style="text-indent:2em">古來，或主張心與心所同起，即同時而有極複雜的心理活動。或主張我們的
+<lb n="0115a12" ed="Y"/><lb n="0115a12" ed="Y" type="old"/><p xml:id="pY08p0115a1201" style="text-indent:2em">古來，或主張心與心所同起，即同時而有極複雜的心理活動。或主張我們的
 <lb n="0115a13" ed="Y"/><lb n="0115a13" ed="Y" type="old"/>心識是獨一的，在極迅速的情況下，次第引起不同的心所。關於這，應從緣起觀<pb n="0116a" ed="Y" xml:id="Y08.0008.0116a.old" type="old"/>
 <pb n="0116a" ed="Y" xml:id="Y08.0008.0116a"/>
 <lb n="0116a01" ed="Y"/><lb n="0116a01" ed="Y" type="old"/>的立場而抉擇它。認識作用，為相依共存的。如從和合的觀點而分析它，即發現
@@ -221,7 +241,7 @@
 <lb n="0116a03" ed="Y"/>內容，即知認識又確為先後別異的心流。從識觸而受，從受而想，從想而行的<lb n="0116a04" ed="Y" type="old"/>認
 <lb n="0116a04" ed="Y"/>識過程，似乎與識觸與受、想、思俱生的見解相反；但在同時相應的學者中，<lb n="0116a05" ed="Y" type="old"/>對
 <lb n="0116a05" ed="Y"/>於認識的先後發展，也有此解說。</p>
-<lb n="0116a06" ed="Y"/><lb n="0116a06" ed="Y" type="old"/><p cb:type="pre">　　┌───┐┌─────┐┌────┐┌────┐
+<lb n="0116a06" ed="Y"/><lb n="0116a06" ed="Y" type="old"/><p cb:type="pre" xml:id="pY08p0116a0601">　　┌───┐┌─────┐┌────┐┌────┐
 <lb n="0116a07" ed="Y"/>　　│阿含經││瑜伽師地論││攝大乘論││解脫道論│
 <lb n="0116a08" ed="Y"/>　　└───┘└─────┘└────┘└────┘
 <lb n="0116a09" ed="Y"/>　　　識觸………率爾……………見……………見
@@ -230,19 +250,19 @@
 <lb n="0116a12" ed="Y"/>　　　　　　　　　　　　　　└安立─┘
 <lb n="0116a13" ed="Y"/>　　　行…………染淨……………勢用………┌令起
 <lb n="0116a14" ed="Y"/>　　　　　　　　　　　　　　　　　　　　└速行</p>
-<lb n="0116a15" ed="Y"/><lb n="0116a12" ed="Y" type="old"/><p style="text-indent:2em">受，是情感的受，也是從承受到未能明確分別中間的探求。決定，即確定他
+<lb n="0116a15" ed="Y"/><lb n="0116a12" ed="Y" type="old"/><p xml:id="pY08p0116a1501" style="text-indent:2em">受，是情感的受，也是從承受到未能明確分別中間的探求。決定，即確定他
 <lb n="0116a16" ed="Y"/><lb n="0116a13" ed="Y" type="old"/>是什麼，徹底明了而安立分別名言，這與想心所一致。染淨，即善惡心行，與勢<pb n="0117a" ed="Y" xml:id="Y08.0008.0117a.old" type="old"/>
 <pb n="0117a" ed="Y" xml:id="Y08.0008.0117a"/>
 <lb n="0117a01" ed="Y"/><lb n="0117a01" ed="Y" type="old"/>用等相同。這樣，儘管同時起與前後起有諍，而在認識的發展過程中，識觸與受
 <lb n="0117a02" ed="Y"/><lb n="0117a02" ed="Y" type="old"/>、想、思，確乎可以看作先後代起而為一心聚的重心。</p></cb:div>
-<lb n="0117a03" ed="Y"/><lb n="0117a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">善心所與惡心所</cb:mulu><head>善心所與惡心所</head><lb n="0117a04" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">佛法對心心所的辨析，為了淨化自心，即了解認識的內容
+<lb n="0117a03" ed="Y"/><lb n="0117a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">善心所與惡心所</cb:mulu><head>善心所與惡心所</head><lb n="0117a04" ed="Y" type="old"/><p xml:id="pY08p0117a0315" style="text-indent:2em" cb:place="inline">佛法對心心所的辨析，為了淨化自心，即了解認識的內容
 <lb n="0117a04" ed="Y"/><lb n="0117a05" ed="Y" type="old"/>與過程為善為惡，才能給予對治而淨化它。佛法的觀心，是應用的心理學，這<lb n="0117a06" ed="Y" type="old"/>是
 <lb n="0117a05" ed="Y"/>學者所不可忽略的。直覺境界的（五）識觸，即含有可意與不可意，於是引起<lb n="0117a07" ed="Y" type="old"/>自
 <lb n="0117a06" ed="Y"/>心的痛苦或喜樂——受；種種分別——想；引起見於身體語言的動作——思。<lb n="0117a08" ed="Y" type="old"/>五
 <lb n="0117a07" ed="Y"/>蘊的識、受、想、行，實為從認識到行為的過程。五蘊中的行蘊，以思心所為<lb n="0117a09" ed="Y" type="old"/>主
 <lb n="0117a08" ed="Y"/>。除了受、想以外，以一切善惡心所為行蘊的內容，雖為後起的，但實為當然<lb n="0117a10" ed="Y" type="old"/>的
 <lb n="0117a09" ed="Y"/>結論。</p>
-<lb n="0117a10" ed="Y"/><lb n="0117a11" ed="Y" type="old"/><p style="text-indent:2em">善心所與惡心所，是極複雜的，可以約種種的含義而立種種名的。其中主要
+<lb n="0117a10" ed="Y"/><lb n="0117a11" ed="Y" type="old"/><p xml:id="pY08p0117a1001" style="text-indent:2em">善心所與惡心所，是極複雜的，可以約種種的含義而立種種名的。其中主要
 <lb n="0117a11" ed="Y"/><lb n="0117a12" ed="Y" type="old"/>的，即三善根與三不善根。根，即為善與惡的根本特性，其他善惡心所都依此<lb n="0117a13" ed="Y" type="old"/>而
 <lb n="0117a12" ed="Y"/>生起。三不善根，即貪、瞋、癡。貪是有情自體與環境的染著；癡——無明是<lb n="0117a14" ed="Y" type="old"/>對
 <lb n="0117a13" ed="Y"/>於有情無情一切事理的蒙昧；瞋是對他——他人的不能關切、不能容忍的敵視<pb n="0118a" ed="Y" xml:id="Y08.0008.0118a.old" type="old"/><lb n="0118a01" ed="Y" type="old"/>。
@@ -258,7 +278,7 @@
 <lb n="0118a09" ed="Y"/>心，但到底是不清淨的。這相反的善根，即無貪、無瞋、無癡，也是希微<lb n="0118a10" ed="Y" type="old"/>而難以
 <lb n="0118a10" ed="Y"/>明確覺了的。即在一般有情的不善心中，善根也隱微的潛行於心的深處，<lb n="0118a11" ed="Y" type="old"/>如經中
 <lb n="0118a11" ed="Y"/>說<cit><quote source="T29n1562_p0440b05-06" type="嚴謹引文">「如是補特伽羅，善法隱沒，惡法出現，有隨俱行善根未斷」</quote><bibl>（<title level="m">《順正<lb n="0118a12" ed="Y" type="old"/>理論》</title>
-<lb n="0118a12" ed="Y"/><biblScope type="卷" n="18">卷一八</biblScope>引經）</bibl><note n="0118002" resp="周怡曄" type="add">《阿毘達磨順正理論》卷18(CBETA, T29, no. 1562, p. 440, b5-6)</note></cit>。從此三善根而顯現流行，即一般心相應的無貪、無瞋、無癡<lb n="0118a13" ed="Y" type="old"/>。如
+<lb n="0118a12" ed="Y"/><biblScope n="18" type="卷">卷一八</biblScope>引經）</bibl><note n="0118002" resp="周怡曄" type="add">《阿毘達磨順正理論》卷18(CBETA, T29, no. 1562, p. 440, b5-6)</note></cit>。從此三善根而顯現流行，即一般心相應的無貪、無瞋、無癡<lb n="0118a13" ed="Y" type="old"/>。如
 <lb n="0118a13" ed="Y"/>擴充發展到極高明處，無癡即般若，無瞋即大（慈）悲，無貪即三昧。三昧<pb n="0119a" ed="Y" xml:id="Y08.0008.0119a.old" type="old"/><lb n="0119a01" ed="Y" type="old"/>即定
 <pb n="0119a" ed="Y" xml:id="Y08.0008.0119a"/>
 <lb n="0119a01" ed="Y"/>心；定學或稱心學，而經說<quote source="T27n1545_p0758a08-09" type="嚴謹引文">「離貪故心得解脫」<note n="0119001" resp="周怡曄" type="add">《阿毘達磨大毘婆沙論》卷148(CBETA, T27, no. 1545, p. 758, a8-9)</note></quote>。無貪為心性明淨而不受染<lb n="0119a02" ed="Y" type="old"/>著，

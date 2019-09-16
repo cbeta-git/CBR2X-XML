@@ -12,55 +12,75 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2012/12</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2012/12</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>14卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 21, No. 21</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">21</idno>.<idno type="no">21</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">教制教典與教學</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">三、從「中國佛教協會」說起</cb:mulu>
-<milestone unit="juan" n="4"/><pb n="0031a" ed="Y" xml:id="Y21.0021.0031a.old" type="old"/>
+<milestone n="4" unit="juan"/><pb n="0031a" ed="Y" xml:id="Y21.0021.0031a.old" type="old"/>
 <pb n="0031a" ed="Y" xml:id="Y21.0021.0031a"/>
 <lb n="0031a01" ed="Y"/><lb n="0031a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">四、僧裝改革評議</cb:mulu><head>僧裝改革評議<note n="0031001" resp="DILA" type="add">民國三六年撰。</note></head>
 <lb n="0031a02" ed="Y"/><lb n="0031a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　僧裝改革運動之回顧</cb:mulu><head>一　僧裝改革運動之回顧</head>
-<lb n="0031a03" ed="Y"/><lb n="0031a03" ed="Y" type="old"/><p style="text-indent:2em">僧裝改革運動，在新僧派中，雖還不過說說而已，「試用」而已，但這個運
+<lb n="0031a03" ed="Y"/><lb n="0031a03" ed="Y" type="old"/><p xml:id="pY21p0031a0301" style="text-indent:2em">僧裝改革運動，在新僧派中，雖還不過說說而已，「試用」而已，但這個運
 <lb n="0031a04" ed="Y"/><lb n="0031a04" ed="Y" type="old"/>動是存在的。被推尊為新僧領袖的太虛大師，早在青年時代，「服隨國俗」而出
 <lb n="0031a05" ed="Y"/><lb n="0031a05" ed="Y" type="old"/>現於公眾集會的場所。他說：<quote type="嚴謹引文">「太虛……出言吐語，大都不經。僻行怪狀，不理
 <lb n="0031a06" ed="Y"/><lb n="0031a06" ed="Y" type="old"/>眾口。然隨宜示現，不存軌則。……就事相以論之，髮留一寸，本出佛制。服隨
 <lb n="0031a07" ed="Y"/>國<lb n="0031a07" ed="Y" type="old"/>俗，自古已然。彼印度之比丘，固未始穿袍著褲，似吾國俗人今所目為和尚者
-<lb n="0031a08" ed="Y"/>也<lb n="0031a08" ed="Y" type="old"/>」<note n="0031002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:27;page:p4">(ref taixu::vol:27;page:p4)</ref></note></quote>。這位富於革命情緒的青年，勇敢地開始了僧裝改革的嘗試。此後，虛大師
+<lb n="0031a08" ed="Y"/>也<lb n="0031a08" ed="Y" type="old"/>」<note n="0031002" resp="謝淑歆" type="add"><ref target="#vol:27;page:p4" type="taixu">(ref taixu::vol:27;page:p4)</ref></note></quote>。這位富於革命情緒的青年，勇敢地開始了僧裝改革的嘗試。此後，虛大師
 <lb n="0031a09" ed="Y"/>也<lb n="0031a09" ed="Y" type="old"/>曾擬過制服，雖沒有實行，而「太虛帽」早被某些同袍所樂予採用了。鼓吹「
 <lb n="0031a10" ed="Y"/>現<lb n="0031a10" ed="Y" type="old"/>代僧伽」的閩南佛學院，也曾試用新的制服，據說曾用過一次。僧眾受軍訓，
 <pb n="0032a" ed="Y" xml:id="Y21.0021.0032a"/>
@@ -72,10 +92,10 @@
 <lb n="0032a06" ed="Y"/>對<lb n="0032a06" ed="Y" type="old"/>的理由，有人作文反對。南嶽明真法師，也不贊成。尤其是以「新僧派」自居
 <lb n="0032a07" ed="Y"/>的<lb n="0032a07" ed="Y" type="old"/>慈航法師，忠憤悲慨，竟然不惜與師友為難，在「護法」（<title level="m">《中國佛學月刊》</title>
 <lb n="0032a08" ed="Y"/>出<lb n="0032a08" ed="Y" type="old"/>「護法」專號）的旗幟下，硬要打倒「偽裝」。這個僧裝改革問題，引起的糾
-<lb n="0032a09" ed="Y"/>紛<lb n="0032a09" ed="Y" type="old"/>真不小。虛大師說：<quote type="寬鬆引文">「理智要更清明一點」<note n="0032001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:26;page:p107">(ref taixu::vol:26;page:p107)</ref></note></quote>！真的，我們應該更理智一點，從
+<lb n="0032a09" ed="Y"/>紛<lb n="0032a09" ed="Y" type="old"/>真不小。虛大師說：<quote type="寬鬆引文">「理智要更清明一點」<note n="0032001" resp="謝淑歆" type="add"><ref target="#vol:26;page:p107" type="taixu">(ref taixu::vol:26;page:p107)</ref></note></quote>！真的，我們應該更理智一點，從
 <lb n="0032a10" ed="Y"/>佛<lb n="0032a10" ed="Y" type="old"/>教僧伽的立場，來考慮僧裝的改革。</p></cb:div>
 <lb n="0032a11" ed="Y"/><lb n="0032a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　先要認清立場</cb:mulu><head>二　先要認清立場</head>
-<lb n="0032a12" ed="Y"/><lb n="0032a12" ed="Y" type="old"/><p style="text-indent:2em">僧裝改革，是佛教出家眾的服裝改革。所以僧裝無論如何改革，終久是出家<pb n="0033a" ed="Y" xml:id="Y21.0021.0033a.old" type="old"/>
+<lb n="0032a12" ed="Y"/><lb n="0032a12" ed="Y" type="old"/><p xml:id="pY21p0032a1201" style="text-indent:2em">僧裝改革，是佛教出家眾的服裝改革。所以僧裝無論如何改革，終久是出家<pb n="0033a" ed="Y" xml:id="Y21.0021.0033a.old" type="old"/>
 <pb n="0033a" ed="Y" xml:id="Y21.0021.0033a"/>
 <lb n="0033a01" ed="Y"/><lb n="0033a01" ed="Y" type="old"/>眾的服裝。承認出家制有存在的必要，願意站定出家崗位，這才有討論僧裝的應
 <lb n="0033a02" ed="Y"/><lb n="0033a02" ed="Y" type="old"/>否改革與如何改革的價值，否則是多餘的。討論僧裝改革，是以出家制的存在為
@@ -87,10 +107,10 @@
 <lb n="0033a08" ed="Y"/><lb n="0033a08" ed="Y" type="old"/>的倡導，是為了健全僧團，提高僧格，堅定出家立場，履行出家任務，而不是為
 <lb n="0033a09" ed="Y"/><lb n="0033a09" ed="Y" type="old"/>了取消出家與在家的差別。這裡，準備與這樣的僧裝改革論者，共同商討。</p></cb:div>
 <lb n="0033a10" ed="Y"/><lb n="0033a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　僧裝的特點與問題</cb:mulu><head>三　僧裝的特點與問題</head>
-<lb n="0033a11" ed="Y"/><lb n="0033a11" ed="Y" type="old"/><p style="text-indent:2em">論到改革僧裝，先應理解佛制僧裝的特點，以及何故而有問題。這才能進而
+<lb n="0033a11" ed="Y"/><lb n="0033a11" ed="Y" type="old"/><p xml:id="pY21p0033a1101" style="text-indent:2em">論到改革僧裝，先應理解佛制僧裝的特點，以及何故而有問題。這才能進而
 <lb n="0033a12" ed="Y"/><lb n="0033a12" ed="Y" type="old"/>討論中國僧裝的應否改革，如何改革？</p><pb n="0034a" ed="Y" xml:id="Y21.0021.0034a.old" type="old"/>
 <pb n="0034a" ed="Y" xml:id="Y21.0021.0034a"/>
-<lb n="0034a01" ed="Y"/><lb n="0034a01" ed="Y" type="old"/><p style="text-indent:2em">佛制僧裝，即是「三衣」，本是適合印度情況，參照印度服裝，略加改革而
+<lb n="0034a01" ed="Y"/><lb n="0034a01" ed="Y" type="old"/><p xml:id="pY21p0034a0101" style="text-indent:2em">佛制僧裝，即是「三衣」，本是適合印度情況，參照印度服裝，略加改革而
 <lb n="0034a02" ed="Y"/><lb n="0034a02" ed="Y" type="old"/>成。所以今日南方的佛教國，與印度氣候相近的，還大體保持佛制僧裝的形式。
 <lb n="0034a03" ed="Y"/><lb n="0034a03" ed="Y" type="old"/>但在溫帶及寒冷的地方，如我國內地、蒙、藏，及韓、日，即不能沒有當地適用
 <lb n="0034a04" ed="Y"/><lb n="0034a04" ed="Y" type="old"/>足以禦寒的衣服。尤其是佛制沒有鞋、襪、帽子，在中國等即不能沒有。因此現
@@ -115,7 +135,7 @@
 <lb n="0035a09" ed="Y"/><lb n="0035a09" ed="Y" type="old"/>攜帶。這決非中國僧眾輕視三衣，不遵佛制，實有其實際的原因。三衣雖是佛制
 <lb n="0035a10" ed="Y"/><lb n="0035a10" ed="Y" type="old"/>的僧裝，但五衣算不得禮服。所以在服隨國俗的便裝而外，再加三衣為制服，不
 <lb n="0035a11" ed="Y"/><lb n="0035a11" ed="Y" type="old"/>但麻煩，也不合理。這個僧裝的標相與實用，應怎樣去統一！</p>
-<lb n="0035a12" ed="Y"/><lb n="0035a12" ed="Y" type="old"/><p style="text-indent:2em">僧衣本同於一般的服裝。但在僧制的建立過程中，僧裝向一個目標演進，即
+<lb n="0035a12" ed="Y"/><lb n="0035a12" ed="Y" type="old"/><p xml:id="pY21p0035a1201" style="text-indent:2em">僧衣本同於一般的服裝。但在僧制的建立過程中，僧裝向一個目標演進，即
 <lb n="0035a13" ed="Y"/><lb n="0035a13" ed="Y" type="old"/>表彰僧相使與在家眾不同。在顏色方面，為了簡別印度在家人的多穿白衣，特別<pb n="0036a" ed="Y" xml:id="Y21.0021.0036a.old" type="old"/>
 <pb n="0036a" ed="Y" xml:id="Y21.0021.0036a"/>
 <lb n="0036a01" ed="Y"/><lb n="0036a01" ed="Y" type="old"/>採用染色。染色，不用鮮艷的正色，而取樸實無華的古銅色、灰色、紅而闇黑的
@@ -126,7 +146,7 @@
 <lb n="0036a06" ed="Y"/><lb n="0036a06" ed="Y" type="old"/>束自己。至於佛教內部，一歲比丘如此，百歲比丘也如此，就是佛也如此，一律
 <lb n="0036a07" ed="Y"/><lb n="0036a07" ed="Y" type="old"/>服用三衣，平等平等。所以，對外差別，對內平等，為佛制僧裝的原則。</p></cb:div>
 <lb n="0036a08" ed="Y"/><lb n="0036a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　中國僧裝改革的諍論重心</cb:mulu><head>四　中國僧裝改革的諍論重心</head>
-<lb n="0036a09" ed="Y"/><lb n="0036a09" ed="Y" type="old"/><p style="text-indent:2em">中國不是印度、緬甸……，三衣不夠禦寒，因而演成佛制三衣與隨俗便服的
+<lb n="0036a09" ed="Y"/><lb n="0036a09" ed="Y" type="old"/><p xml:id="pY21p0036a0901" style="text-indent:2em">中國不是印度、緬甸……，三衣不夠禦寒，因而演成佛制三衣與隨俗便服的
 <lb n="0036a10" ed="Y"/><lb n="0036a10" ed="Y" type="old"/>分化。圓領的海青、長袍，大體同於清代以前的中國俗服。到清代，在家人改用
 <lb n="0036a11" ed="Y"/><lb n="0036a11" ed="Y" type="old"/>滿裝的方領，容許出家眾沿用舊裝，於是乎現代中國僧伽的便服，與現在的中國
 <lb n="0036a12" ed="Y"/><lb n="0036a12" ed="Y" type="old"/>便服脫節。這本是僧眾的便服，因為與俗人便服不同，習久相傳，成為公認的僧<pb n="0037a" ed="Y" xml:id="Y21.0021.0037a.old" type="old"/>
@@ -137,7 +157,7 @@
 <lb n="0037a04" ed="Y"/><lb n="0037a04" ed="Y" type="old"/>改革，不能代以明確表顯僧相的服裝，勢必造成進（山）門做和尚，出門充俗人
 <lb n="0037a05" ed="Y"/><lb n="0037a05" ed="Y" type="old"/>的流弊。僧裝改革者，應該記住這一事實，才能認清論諍的焦點。</p></cb:div>
 <lb n="0037a06" ed="Y"/><lb n="0037a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五　向反對改革者進一言</cb:mulu><head>五　向反對改革者進一言</head>
-<lb n="0037a07" ed="Y"/><lb n="0037a07" ed="Y" type="old"/><p style="text-indent:2em">我是贊同中國僧裝改革的，所以先要向反對改革的老上座們說幾句話。反對
+<lb n="0037a07" ed="Y"/><lb n="0037a07" ed="Y" type="old"/><p xml:id="pY21p0037a0701" style="text-indent:2em">我是贊同中國僧裝改革的，所以先要向反對改革的老上座們說幾句話。反對
 <lb n="0037a08" ed="Y"/><lb n="0037a08" ed="Y" type="old"/>的理由何在？可惜我還沒有看到。我相信，反對者的根本動機，唯一的理由，即
 <lb n="0037a09" ed="Y"/><lb n="0037a09" ed="Y" type="old"/>為了維護僧制，不忍看進門做和尚，出門充俗人，因而引起不堪設想的流弊。為
 <lb n="0037a10" ed="Y"/><lb n="0037a10" ed="Y" type="old"/>了護持佛教，沈重的責任感，不能不出來反對。在這點上，我是完全同情的。然
@@ -150,10 +170,10 @@
 <lb n="0038a04" ed="Y"/><lb n="0038a04" ed="Y" type="old"/>的中國古裝——圓領方袍，是何道理？所以，不應當反對僧裝的改革，而應研討
 <lb n="0038a05" ed="Y"/><lb n="0038a05" ed="Y" type="old"/>合理的改革！</p></cb:div>
 <lb n="0038a06" ed="Y"/><lb n="0038a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">六　回到祖國的懷抱中來吧</cb:mulu><head>六　回到祖國的懷抱中來吧</head>
-<lb n="0038a07" ed="Y"/><lb n="0038a07" ed="Y" type="old"/><p style="text-indent:2em">東初法師提議的僧裝改革，慈航法師是根本反對的。他不是反對中國僧裝的
+<lb n="0038a07" ed="Y"/><lb n="0038a07" ed="Y" type="old"/><p xml:id="pY21p0038a0701" style="text-indent:2em">東初法師提議的僧裝改革，慈航法師是根本反對的。他不是反對中國僧裝的
 <lb n="0038a08" ed="Y"/><lb n="0038a08" ed="Y" type="old"/>改革，而是反對僧裝的如此改革。他的熱情、耿直，橫溢於「護法專刊」的言論
 <lb n="0038a09" ed="Y"/>中<lb n="0038a09" ed="Y" type="old"/>。</p>
-<lb n="0038a10" ed="Y"/><lb n="0038a10" ed="Y" type="old"/><p style="text-indent:2em">我想以同門、同學，同屬於新僧的立場，先說幾句家常話。老學長「太魯莽
+<lb n="0038a10" ed="Y"/><lb n="0038a10" ed="Y" type="old"/><p xml:id="pY21p0038a1001" style="text-indent:2em">我想以同門、同學，同屬於新僧的立場，先說幾句家常話。老學長「太魯莽
 <lb n="0038a11" ed="Y"/><lb n="0038a11" ed="Y" type="old"/>了」，自以為是新僧，而不大明白新僧的實際。從有新僧以來，照例是宣傳多於
 <lb n="0038a12" ed="Y"/><lb n="0038a12" ed="Y" type="old"/>事實，說過也就算了。「中國佛教會的命令」，「全國通行」，還不是學僧們吹<pb n="0039a" ed="Y" xml:id="Y21.0021.0039a.old" type="old"/>
 <pb n="0039a" ed="Y" xml:id="Y21.0021.0039a"/>
@@ -163,7 +183,7 @@
 <lb n="0039a04" ed="Y"/><lb n="0039a04" ed="Y" type="old"/>是學僧們的幻想。就像住持焦山的東初法師，也未必真能慷常住之慨，讓焦山的
 <lb n="0039a05" ed="Y"/><lb n="0039a05" ed="Y" type="old"/>學僧們，<quote type="嚴謹引文">「糾正心理上的不健全，……使僧青年思想發酵」</quote>！中國是會做文章的
 <lb n="0039a06" ed="Y"/><lb n="0039a06" ed="Y" type="old"/>國家，學僧是正學習寫作，這那裡認真得！</p>
-<lb n="0039a07" ed="Y"/><lb n="0039a07" ed="Y" type="old"/><p style="text-indent:2em">反對如此改革，<quote type="寬鬆引文">「儘可向作文的一、二人，在《海潮音》去辯論」<note n="0039001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:26;page:p106">(ref taixu::vol:26;page:p106)</ref></note></quote>。假定<title level="m">《
+<lb n="0039a07" ed="Y"/><lb n="0039a07" ed="Y" type="old"/><p xml:id="pY21p0039a0701" style="text-indent:2em">反對如此改革，<quote type="寬鬆引文">「儘可向作文的一、二人，在《海潮音》去辯論」<note n="0039001" resp="謝淑歆" type="add"><ref target="#vol:26;page:p106" type="taixu">(ref taixu::vol:26;page:p106)</ref></note></quote>。假定<title level="m">《
 <lb n="0039a08" ed="Y"/>海<lb n="0039a08" ed="Y" type="old"/>潮音》</title>不願發表，<title level="m">《中國佛學》</title>不是現成的嗎？何必說「打倒」，鬧「脫離」
 <lb n="0039a09" ed="Y"/>？<lb n="0039a09" ed="Y" type="old"/>現階段的中國佛教，中國的僧青年，都在盲目地碰命運，誰也難得領導起來。
 <lb n="0039a10" ed="Y"/>虛<lb n="0039a10" ed="Y" type="old"/>大師苦心孤詣的鼓舞作育，何嘗敢以新僧的領導者自居！領導，也不過「提示
@@ -172,7 +192,7 @@
 <lb n="0039a13" ed="Y"/>，<lb n="0039a13" ed="Y" type="old"/>這才忠憤奔放，甚至要請大師負起<quote type="寬鬆引文">「禍及萬年的因果責任」</quote>。老學長！這不過
 <pb n="0040a" ed="Y" xml:id="Y21.0021.0040a"/>
 <lb n="0040a01" ed="Y"/>「<pb n="0040a" ed="Y" xml:id="Y21.0021.0040a.old" type="old"/><lb n="0040a01" ed="Y" type="old"/>試用」呀！</p>
-<lb n="0040a02" ed="Y"/><lb n="0040a02" ed="Y" type="old"/><p style="text-indent:2em">撇開私話，再談公理。關於僧裝改革，慈航法師的主張，不失為一項辦法。
+<lb n="0040a02" ed="Y"/><lb n="0040a02" ed="Y" type="old"/><p xml:id="pY21p0040a0201" style="text-indent:2em">撇開私話，再談公理。關於僧裝改革，慈航法師的主張，不失為一項辦法。
 <lb n="0040a03" ed="Y"/><lb n="0040a03" ed="Y" type="old"/>但所持的改革理由與方法，都是可商討的。為甚麼需要改革？他以為：<quote>「佛教的
 <lb n="0040a04" ed="Y"/><lb n="0040a04" ed="Y" type="old"/>教主既是一個，佛教的儀式當然也是一樣。除了中華系的佛教（包括安南、日本
 <lb n="0040a05" ed="Y"/><lb n="0040a05" ed="Y" type="old"/>、朝鮮、西藏、蒙古等），僧裝奇形怪狀外，人家南方的佛教，他們的僧裝是完
@@ -192,7 +212,7 @@
 <lb n="0041a05" ed="Y"/><lb n="0041a05" ed="Y" type="old"/>個小小的笑話，說明了「少見者多怪」。所以，<quote>「他們（南方佛教國）看見中國
 <lb n="0041a06" ed="Y"/><lb n="0041a06" ed="Y" type="old"/>和尚，都說不是和尚」</quote>，這不過愚妄者的淺見。應該好好的開導他們，焉能把這
 <lb n="0041a07" ed="Y"/><lb n="0041a07" ed="Y" type="old"/>些作為中國僧裝需要改革的理由。</p>
-<lb n="0041a08" ed="Y"/><lb n="0041a08" ed="Y" type="old"/><p style="text-indent:2em">忽略了服隨國俗的正確性，多受他鄉風習的熏染，所以提議：<quote>「黃衣簡別俗
+<lb n="0041a08" ed="Y"/><lb n="0041a08" ed="Y" type="old"/><p xml:id="pY21p0041a0801" style="text-indent:2em">忽略了服隨國俗的正確性，多受他鄉風習的熏染，所以提議：<quote>「黃衣簡別俗
 <lb n="0041a09" ed="Y"/><lb n="0041a09" ed="Y" type="old"/>服，袈裟表示僧相」</quote>。<quote>「只知道簡別俗服，和南方各佛教國的僧裝是一色黃」</quote>，
 <lb n="0041a10" ed="Y"/><lb n="0041a10" ed="Y" type="old"/>而不能虛心的研討佛制。甚至說：<quote>「什麼黃色合不合佛制，那只好去問佛」</quote>，這
 <lb n="0041a11" ed="Y"/><lb n="0041a11" ed="Y" type="old"/>成什麼話！這何必問佛，中國所傳各部派的律典，都用雜染色（南方所傳的律，
@@ -206,7 +226,7 @@
 <lb n="0042a05" ed="Y"/><lb n="0042a05" ed="Y" type="old"/>袈裟」</quote>，<quote type="嚴謹引文">「欽賜黃馬褂」</quote>，這應該聽見說過吧！在南方，或者還感覺到一色黃的
 <lb n="0042a06" ed="Y"/><lb n="0042a06" ed="Y" type="old"/>尊貴。在現代中國，黃帽、黃鞋、黃衣，會被人看作封建餘毒，如何使得！鮮明
 <lb n="0042a07" ed="Y"/><lb n="0042a07" ed="Y" type="old"/>的黃色僧裝，招搖過市，中國人看起來，這才奇怪呢！</p>
-<lb n="0042a08" ed="Y"/><lb n="0042a08" ed="Y" type="old"/><p style="text-indent:2em"><quote type="寬鬆引文">「袈裟表示僧相」</quote>，大體是正確的。然建議的內穿便服，外披印度式的袈裟
+<lb n="0042a08" ed="Y"/><lb n="0042a08" ed="Y" type="old"/><p xml:id="pY21p0042a0801" style="text-indent:2em"><quote type="寬鬆引文">「袈裟表示僧相」</quote>，大體是正確的。然建議的內穿便服，外披印度式的袈裟
 <lb n="0042a09" ed="Y"/><lb n="0042a09" ed="Y" type="old"/>，不過中國僧裝的老辦法。從來的中國僧裝，就是在隨俗便服的圓領衣上，再披
 <lb n="0042a10" ed="Y"/>上<lb n="0042a10" ed="Y" type="old"/>袈裟，結果卻引起了問題。佛制袈裟，是在印度當時的俗服上，加以雜色與條
 <lb n="0042a11" ed="Y"/>紋<lb n="0042a11" ed="Y" type="old"/>的標相，是表徵僧相的，也是實用的。建議的一色黃，未必合於佛制。而外披
@@ -217,13 +237,13 @@
 <lb n="0043a02" ed="Y"/>同<lb n="0043a02" ed="Y" type="old"/>情慈航法師的原則。但他建議的理由與辦法，不免缺乏對中國佛教的理解與同
 <lb n="0043a03" ed="Y"/>情<lb n="0043a03" ed="Y" type="old"/>。</p></cb:div>
 <lb n="0043a04" ed="Y"/><lb n="0043a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">七　新乎僧乎</cb:mulu><head>七　新乎僧乎</head>
-<lb n="0043a05" ed="Y"/><lb n="0043a05" ed="Y" type="old"/><p style="text-indent:2em">東初法師建議的「改革僧裝與提高禮服」，附記說：<quote type="寬鬆引文">「這只能算是筆者的建
+<lb n="0043a05" ed="Y"/><lb n="0043a05" ed="Y" type="old"/><p xml:id="pY21p0043a0501" style="text-indent:2em">東初法師建議的「改革僧裝與提高禮服」，附記說：<quote type="寬鬆引文">「這只能算是筆者的建
 <lb n="0043a06" ed="Y"/><lb n="0043a06" ed="Y" type="old"/>議，是否有當，尚待僧中知識見教」</quote>。那種虛心與敢於建議改革的膽識，真是太
 <lb n="0043a07" ed="Y"/><lb n="0043a07" ed="Y" type="old"/>好了，引起我對僧裝改革的考慮與商討的決心。但我以為，這不僅是<quote type="嚴謹引文">「筆者的建
 <lb n="0043a08" ed="Y"/><lb n="0043a08" ed="Y" type="old"/>議」</quote>，而是代表部分或大部分的「新僧」。「新僧」，是進過佛學院的（也不一
 <lb n="0043a09" ed="Y"/><lb n="0043a09" ed="Y" type="old"/>定重視佛學），年輕點兒的。東初法師不過代表這「新僧」群的意識，吐露<quote type="寬鬆引文">「一
 <lb n="0043a10" ed="Y"/><lb n="0043a10" ed="Y" type="old"/>般人都認為有迅予改革的必要」</quote>的要求而已。</p>
-<lb n="0043a11" ed="Y"/><lb n="0043a11" ed="Y" type="old"/><p style="text-indent:2em">改革僧裝的理由，主要是：<quote type="寬鬆引文">「今日僧裝穿起來那種腐敗的樣子，就給社會一
+<lb n="0043a11" ed="Y"/><lb n="0043a11" ed="Y" type="old"/><p xml:id="pY21p0043a1101" style="text-indent:2em">改革僧裝的理由，主要是：<quote type="寬鬆引文">「今日僧裝穿起來那種腐敗的樣子，就給社會一
 <lb n="0043a12" ed="Y"/><lb n="0043a12" ed="Y" type="old"/>般人一個太壞的印象。……總之，社會群眾給我僧眾這種冷視的態度，以及種種<pb n="0044a" ed="Y" xml:id="Y21.0021.0044a.old" type="old"/>
 <pb n="0044a" ed="Y" xml:id="Y21.0021.0044a"/>
 <lb n="0044a01" ed="Y"/><lb n="0044a01" ed="Y" type="old"/>譏笑，並不是由於僧眾心理上或行為上有什麼弱點暴露，或是僧眾知識能力不夠
@@ -240,7 +260,7 @@
 <lb n="0044a12" ed="Y"/><lb n="0044a12" ed="Y" type="old"/>不說太缺乏反省，太自欺欺人了！我希望一般「新僧」並不如此，而只是建議者
 <lb n="0044a13" ed="Y"/><lb n="0044a13" ed="Y" type="old"/>個人的錯誤。</p><pb n="0045a" ed="Y" xml:id="Y21.0021.0045a.old" type="old"/>
 <pb n="0045a" ed="Y" xml:id="Y21.0021.0045a"/>
-<lb n="0045a01" ed="Y"/><lb n="0045a01" ed="Y" type="old"/><p style="text-indent:2em">基於改革理由的錯誤，建議的<quote type="嚴謹引文">「提高禮服」</quote>與<quote type="寬鬆引文">「新裝樣式」</quote>，自然也不免犯
+<lb n="0045a01" ed="Y"/><lb n="0045a01" ed="Y" type="old"/><p xml:id="pY21p0045a0101" style="text-indent:2em">基於改革理由的錯誤，建議的<quote type="嚴謹引文">「提高禮服」</quote>與<quote type="寬鬆引文">「新裝樣式」</quote>，自然也不免犯
 <lb n="0045a02" ed="Y"/><lb n="0045a02" ed="Y" type="old"/>著嚴重的錯誤。他建議除了少數人在特殊時節（宗教禮節），穿著高貴的禮服而
 <lb n="0045a03" ed="Y"/><lb n="0045a03" ed="Y" type="old"/>外，平時與一般僧眾，都改著新裝。新裝又分德僧服、職僧服、學僧服三品。此
 <lb n="0045a04" ed="Y"/><lb n="0045a04" ed="Y" type="old"/>種新裝的缺點，一、不合僧裝對內的平等原則：佛制三衣，是每一比丘所必備的
@@ -249,13 +269,13 @@
 <lb n="0045a07" ed="Y"/><lb n="0045a07" ed="Y" type="old"/>衣之式，略同東初所議職僧服；廢德僧、學僧服」</quote>。僧裝應符合佛制的平等原則
 <lb n="0045a08" ed="Y"/><lb n="0045a08" ed="Y" type="old"/>，不能有級別的區分。二、缺乏僧裝對外的表相作用：依建議改革的新裝樣式，
 <lb n="0045a09" ed="Y"/><lb n="0045a09" ed="Y" type="old"/>不免與在家人服裝相混雜。</p>
-<lb n="0045a10" ed="Y"/><lb n="0045a10" ed="Y" type="old"/><p style="text-indent:2em">我相信，新裝的擁護者，會用不同的理由來辯護。初步的理由是：我們的新
+<lb n="0045a10" ed="Y"/><lb n="0045a10" ed="Y" type="old"/><p xml:id="pY21p0045a1001" style="text-indent:2em">我相信，新裝的擁護者，會用不同的理由來辯護。初步的理由是：我們的新
 <lb n="0045a11" ed="Y"/><lb n="0045a11" ed="Y" type="old"/>裝，並<quote>「不同於俗服」</quote>。的確，新裝的樣式，並不與世間的任何服裝完全一致。
 <lb n="0045a12" ed="Y"/><lb n="0045a12" ed="Y" type="old"/>但這種不同，在一般的社會群眾，不能一望而知的發覺他的差別，也不能從這點
 <lb n="0045a13" ed="Y"/><lb n="0045a13" ed="Y" type="old"/>不同中，知道你的身分。簡單說，這樣的服裝，不能明顯的表示出僧侶的身分。<pb n="0046a" ed="Y" xml:id="Y21.0021.0046a.old" type="old"/>
 <pb n="0046a" ed="Y" xml:id="Y21.0021.0046a"/>
 <lb n="0046a01" ed="Y"/><lb n="0046a01" ed="Y" type="old"/>所以<quote>「不同於俗服」</quote>的理由，不過是詭辯而已。</p>
-<lb n="0046a02" ed="Y"/><lb n="0046a02" ed="Y" type="old"/><p style="text-indent:2em">溫和的修正者，會解說給我聽。佛制的三衣是應該遵用的；試用的新裝，不
+<lb n="0046a02" ed="Y"/><lb n="0046a02" ed="Y" type="old"/><p xml:id="pY21p0046a0201" style="text-indent:2em">溫和的修正者，會解說給我聽。佛制的三衣是應該遵用的；試用的新裝，不
 <lb n="0046a03" ed="Y"/><lb n="0046a03" ed="Y" type="old"/>過是俗服的改變。有合時宜的便服，有表徵僧相的僧裝；過去的三衣與海青等，
 <lb n="0046a04" ed="Y"/><lb n="0046a04" ed="Y" type="old"/>不也是這樣的嗎？但這種解說，不能使人滿意，因為不足表徵僧相的根本問題，
 <lb n="0046a05" ed="Y"/><lb n="0046a05" ed="Y" type="old"/>並沒有解決。佛制表徵僧相的僧裝，決非專用於上殿、過堂或者說法，而是不離
@@ -264,7 +284,7 @@
 <lb n="0046a08" ed="Y"/><lb n="0046a08" ed="Y" type="old"/>而普遍使用，進門做和尚，出門混充俗人的流弊，勢必不堪設想！過去中國僧人
 <lb n="0046a09" ed="Y"/><lb n="0046a09" ed="Y" type="old"/>的便服（圓領衣），與時裝有顯著的差別，所以出門不披袈裟，仍能表彰僧人的
 <lb n="0046a10" ed="Y"/><lb n="0046a10" ed="Y" type="old"/>身分。試問試用的新裝，能否如此？</p>
-<lb n="0046a11" ed="Y"/><lb n="0046a11" ed="Y" type="old"/><p style="text-indent:2em">新裝的建議者，早已自覺到<quote>「不同於俗服」</quote>的理由是不成理由的，所以索性
+<lb n="0046a11" ed="Y"/><lb n="0046a11" ed="Y" type="old"/><p xml:id="pY21p0046a1101" style="text-indent:2em">新裝的建議者，早已自覺到<quote>「不同於俗服」</quote>的理由是不成理由的，所以索性
 <lb n="0046a12" ed="Y"/><lb n="0046a12" ed="Y" type="old"/>否定區別僧裝與俗裝的必要說：<quote type="寬鬆引文">「僧眾與在俗人，不必在服裝上分別，要在心理
 <lb n="0046a13" ed="Y"/><lb n="0046a13" ed="Y" type="old"/>上分別，要在言行上分別」</quote>。在心理上、言行上分別，是對的，不必在服裝上分<pb n="0047a" ed="Y" xml:id="Y21.0021.0047a.old" type="old"/>
 <pb n="0047a" ed="Y" xml:id="Y21.0021.0047a"/>
@@ -275,7 +295,7 @@
 <lb n="0047a05" ed="Y"/><lb n="0047a05" ed="Y" type="old"/>能把握社會歧視僧眾的原因，淺見地專在形式上打算，想從形式的改變中，消除
 <lb n="0047a06" ed="Y"/><lb n="0047a06" ed="Y" type="old"/>僧俗的界限，以逃避社會歧視的目光。那裡還記得要在心理上分別，行為上分別
 <lb n="0047a07" ed="Y"/><lb n="0047a07" ed="Y" type="old"/>！為了掩護自己的錯謬言論，才偽裝的唱起偏重實質的論調。</p>
-<lb n="0047a08" ed="Y"/><lb n="0047a08" ed="Y" type="old"/><p style="text-indent:2em">建議者又從另一理由，為缺乏僧相的新裝作辯護：<quote type="寬鬆引文">「事實警告我們，必須由
+<lb n="0047a08" ed="Y"/><lb n="0047a08" ed="Y" type="old"/><p xml:id="pY21p0047a0801" style="text-indent:2em">建議者又從另一理由，為缺乏僧相的新裝作辯護：<quote type="寬鬆引文">「事實警告我們，必須由
 <lb n="0047a09" ed="Y"/><lb n="0047a09" ed="Y" type="old"/>山門內搬到山門外來，佛教才有辦法」</quote>。<quote type="寬鬆引文">「要普及佛教於社會（「使佛教與社會
 <lb n="0047a10" ed="Y"/><lb n="0047a10" ed="Y" type="old"/>打成一片」），首先要改革僧裝，使得僧裝群眾化，把社會群眾與僧眾間隔礙化
 <lb n="0047a11" ed="Y"/><lb n="0047a11" ed="Y" type="old"/>除，達到四攝法中同事化導的目的」</quote>。<quote type="寬鬆引文">「搬出山門外」</quote>，不外乎僧眾健全，能以
@@ -293,7 +313,7 @@
 <lb n="0048a09" ed="Y"/><lb n="0048a09" ed="Y" type="old"/>確有為教的真誠，立志要從事社會事業，表現佛教精神，以轉移社會心理，也許
 <lb n="0048a10" ed="Y"/><lb n="0048a10" ed="Y" type="old"/>這更適合於自己的性格與興趣，那就應該貫徹護教的真誠，退出僧團而改取在家
 <lb n="0048a11" ed="Y"/><lb n="0048a11" ed="Y" type="old"/>的立場。</p>
-<lb n="0048a12" ed="Y"/><lb n="0048a12" ed="Y" type="old"/><p style="text-indent:2em">新裝的建議者與擁護者，會嚴厲的反駁我。新裝是這樣的美麗合時，為什麼
+<lb n="0048a12" ed="Y"/><lb n="0048a12" ed="Y" type="old"/><p xml:id="pY21p0048a1201" style="text-indent:2em">新裝的建議者與擁護者，會嚴厲的反駁我。新裝是這樣的美麗合時，為什麼
 <lb n="0048a13" ed="Y"/><lb n="0048a13" ed="Y" type="old"/>硬要反對？說什麼<quote type="寬鬆引文">「不足表顯僧相」</quote>。<quote type="寬鬆引文">「今日僧眾服裝與俗人不同，但僧眾的信<pb n="0049a" ed="Y" xml:id="Y21.0021.0049a.old" type="old"/>
 <pb n="0049a" ed="Y" xml:id="Y21.0021.0049a"/>
 <lb n="0049a01" ed="Y"/><lb n="0049a01" ed="Y" type="old"/>仰言行，未見得比俗人高超，甚至不及俗人」</quote>。到底表顯僧相有什麼用處？我可
@@ -314,10 +334,10 @@
 <lb n="0050a02" ed="Y"/><lb n="0050a02" ed="Y" type="old"/>為非作惡。表徵僧相的僧裝，雖沒有決定作用，而相對的作用，是非常強大的。
 <lb n="0050a03" ed="Y"/><lb n="0050a03" ed="Y" type="old"/>在佛法衰落的現代，正應該利用社會的約束與督導，而改革者卻漠視他的價值，
 <lb n="0050a04" ed="Y"/><lb n="0050a04" ed="Y" type="old"/>這等於誇談水利而自毀堤防。</p>
-<lb n="0050a05" ed="Y"/><lb n="0050a05" ed="Y" type="old"/><p style="text-indent:2em">關於提高禮服，佛制的僧伽黎是被廢棄了。七衣、海青等高貴禮服，不再是
+<lb n="0050a05" ed="Y"/><lb n="0050a05" ed="Y" type="old"/><p xml:id="pY21p0050a0501" style="text-indent:2em">關於提高禮服，佛制的僧伽黎是被廢棄了。七衣、海青等高貴禮服，不再是
 <lb n="0050a06" ed="Y"/><lb n="0050a06" ed="Y" type="old"/>一般僧眾的禮服，被奉獻為少數階級的特權與榮耀。這種非法建議，真是豈有此
 <lb n="0050a07" ed="Y"/><lb n="0050a07" ed="Y" type="old"/>理！</p>
-<lb n="0050a08" ed="Y"/><lb n="0050a08" ed="Y" type="old"/><p style="text-indent:2em">何以而有提高禮服與改革僧裝的建議？何以如此建議？構成此項建議的意識
+<lb n="0050a08" ed="Y"/><lb n="0050a08" ed="Y" type="old"/><p xml:id="pY21p0050a0801" style="text-indent:2em">何以而有提高禮服與改革僧裝的建議？何以如此建議？構成此項建議的意識
 <lb n="0050a09" ed="Y"/><lb n="0050a09" ed="Y" type="old"/>根源何在？應該是這樣的：向山門外眺望，社會的一切是好的，值得追求的。可
 <lb n="0050a10" ed="Y"/><lb n="0050a10" ed="Y" type="old"/>是佛教的制度，尤其是僧裝，給以種種約束，不得自在。社會人士見了僧裝，會
 <lb n="0050a11" ed="Y"/><lb n="0050a11" ed="Y" type="old"/>立刻歧視、譏笑，連自己也覺得<quote type="寬鬆引文">「那種腐敗樣子」</quote>了。但轉身向山門內看看，覺
@@ -341,7 +361,7 @@
 <lb n="0052a01" ed="Y"/><lb n="0052a01" ed="Y" type="old"/>！在普及社會的口號下，名正言順的去學學世俗事業。假定取得僧界權位，也就
 <lb n="0052a02" ed="Y"/><lb n="0052a02" ed="Y" type="old"/>算了，否則山門外的路寬著呢！這不能不說是好辦法！捨不了寺院的財富與權位
 <lb n="0052a03" ed="Y"/><lb n="0052a03" ed="Y" type="old"/>，受不了社會的刺激與誘惑，該是一般要求僧裝改革者的意識根源。</p>
-<lb n="0052a04" ed="Y"/><lb n="0052a04" ed="Y" type="old"/><p style="text-indent:2em">不單是這樣，如此改革的心理根據，還有蒂固根深的封建餘習。在古老的寺
+<lb n="0052a04" ed="Y"/><lb n="0052a04" ed="Y" type="old"/><p xml:id="pY21p0052a0401" style="text-indent:2em">不單是這樣，如此改革的心理根據，還有蒂固根深的封建餘習。在古老的寺
 <lb n="0052a05" ed="Y"/><lb n="0052a05" ed="Y" type="old"/>院裡，充滿封建臭味的階級性。看到清眾衣食住的低劣情況，與和尚當家們作一
 <lb n="0052a06" ed="Y"/><lb n="0052a06" ed="Y" type="old"/>對照，即可以想像而知。在大殿裡，和尚才掛念珠，糾察只許手串，清眾是一概
 <lb n="0052a07" ed="Y"/><lb n="0052a07" ed="Y" type="old"/>不許。階級性的古規，叢林裡還多著呢！建議提高禮服的少數佔有，新裝式樣的
@@ -355,7 +375,7 @@
 <lb n="0053a01" ed="Y"/><lb n="0053a01" ed="Y" type="old"/>改革，對外不像僧，對內不夠新，不新不僧的僧裝改革，是難以容忍的，不能不
 <lb n="0053a02" ed="Y"/><lb n="0053a02" ed="Y" type="old"/>加以徹底的批判！</p></cb:div>
 <lb n="0053a03" ed="Y"/><lb n="0053a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">八　我的建議</cb:mulu><head>八　我的建議</head>
-<lb n="0053a04" ed="Y"/><lb n="0053a04" ed="Y" type="old"/><p style="text-indent:2em">中國僧裝是應該改革的。我的建議，可分兩點來說。一、應該改革；二、如
+<lb n="0053a04" ed="Y"/><lb n="0053a04" ed="Y" type="old"/><p xml:id="pY21p0053a0401" style="text-indent:2em">中國僧裝是應該改革的。我的建議，可分兩點來說。一、應該改革；二、如
 <lb n="0053a05" ed="Y"/><lb n="0053a05" ed="Y" type="old"/>何改革。現代的中國僧裝，是應該改革的。不是為了「奇形怪狀」，也不是為了
 <lb n="0053a06" ed="Y"/><lb n="0053a06" ed="Y" type="old"/>「腐敗樣子」。理由簡單明瞭，那就是僧裝應適合於時代及環境。從佛制僧裝的
 <lb n="0053a07" ed="Y"/><lb n="0053a07" ed="Y" type="old"/>意趣說，僧裝即是那個時代的印度俗服，佛不過加以染色及福田的割截相。佛沒
@@ -365,16 +385,16 @@
 <lb n="0053a11" ed="Y"/><lb n="0053a11" ed="Y" type="old"/>階段？何況這還是中國古裝，與佛制無關。今天不變，明天還是要變的。終於要
 <lb n="0053a12" ed="Y"/><lb n="0053a12" ed="Y" type="old"/>變的，誰敢說佛法千萬年住世，而中國僧裝將永遠是圓領方袍！</p><pb n="0054a" ed="Y" xml:id="Y21.0021.0054a.old" type="old"/>
 <pb n="0054a" ed="Y" xml:id="Y21.0021.0054a"/>
-<lb n="0054a01" ed="Y"/><lb n="0054a01" ed="Y" type="old"/><p style="text-indent:2em">說到如何改革，這必需是「合乎佛法，不違世間」的。原則可以作這樣的決
+<lb n="0054a01" ed="Y"/><lb n="0054a01" ed="Y" type="old"/><p xml:id="pY21p0054a0101" style="text-indent:2em">說到如何改革，這必需是「合乎佛法，不違世間」的。原則可以作這樣的決
 <lb n="0054a02" ed="Y"/>定<lb n="0054a02" ed="Y" type="old"/>：</p>
-<lb n="0054a03" ed="Y"/><lb n="0054a03" ed="Y" type="old"/><p cb:type="pre">　　　　　　　　　　　　　　　　　　　　　┌採用時服
+<lb n="0054a03" ed="Y"/><lb n="0054a03" ed="Y" type="old"/><p cb:type="pre" xml:id="pY21p0054a0301">　　　　　　　　　　　　　　　　　　　　　┌採用時服
 <lb n="0054a04" ed="Y"/>　　　　　　┌不離俗服而表顯僧相的差別──┤
 <lb n="0054a05" ed="Y"/>　　　　　　│　　　　　　　　　　　　　　└表顯僧相
 <lb n="0054a06" ed="Y"/>　　　僧裝─┤
 <lb n="0054a07" ed="Y"/>　　　　　　│　　　　　　　　　　　　　　┌對外差別
 <lb n="0054a08" ed="Y"/>　　　　　　└不同俗服而表顯僧相的合一──┤
 <lb n="0054a09" ed="Y"/>　　　　　　　　　　　　　　　　　　　　　└對內平等</p>
-<lb n="0054a10" ed="Y"/><lb n="0054a07" ed="Y" type="old"/><p style="text-indent:2em">僧眾負化導社會的責任，即不能使社會誤會你為另一時代另一世界的人物，
+<lb n="0054a10" ed="Y"/><lb n="0054a07" ed="Y" type="old"/><p xml:id="pY21p0054a1001" style="text-indent:2em">僧眾負化導社會的責任，即不能使社會誤會你為另一時代另一世界的人物，
 <lb n="0054a11" ed="Y"/><lb n="0054a08" ed="Y" type="old"/>而有礙於僧眾與信眾的接近。我們應該效法釋尊，採用此時此地的服裝。以現代
 <lb n="0054a12" ed="Y"/><lb n="0054a09" ed="Y" type="old"/>中國（內地）的服裝來說，根本沒有統一，有久經國人服用的滿裝，有舶來的西
 <lb n="0054a13" ed="Y"/><lb n="0054a10" ed="Y" type="old"/>裝，還有中山裝。僧裝不應硬性規定，採用某一服式，也不需要創新。在滿裝、
@@ -387,7 +407,7 @@
 <lb n="0055a03" ed="Y"/><lb n="0055a03" ed="Y" type="old"/>的一律的新裝，將來又不免舊了，我們將常為僧裝的仍舊與創新而煩勞！我們只
 <lb n="0055a04" ed="Y"/><lb n="0055a04" ed="Y" type="old"/>要有僧伽的標相，在共同的僧伽標相下，隨教化的環境，隨時代的演化，給予每
 <lb n="0055a05" ed="Y"/><lb n="0055a05" ed="Y" type="old"/>人以服裝選擇的自由。這是何等徹底（不會再有僧裝的改革問題）！何等簡單！</p>
-<lb n="0055a06" ed="Y"/><lb n="0055a06" ed="Y" type="old"/><p style="text-indent:2em">這樣的「採用俗服」，怎麼能「表顯僧相」？佛制僧裝（三衣）的標相，是
+<lb n="0055a06" ed="Y"/><lb n="0055a06" ed="Y" type="old"/><p xml:id="pY21p0055a0601" style="text-indent:2em">這樣的「採用俗服」，怎麼能「表顯僧相」？佛制僧裝（三衣）的標相，是
 <lb n="0055a07" ed="Y"/><lb n="0055a07" ed="Y" type="old"/>雜染色與割截相。至於長方形的布幅（袈裟舊樣），不過是印度的俗服。如沒有
 <lb n="0055a08" ed="Y"/><lb n="0055a08" ed="Y" type="old"/>染色與割截相，在印度是不足以表徵僧相的。今日的僧裝改革，應為一勞永逸的
 <lb n="0055a09" ed="Y"/><lb n="0055a09" ed="Y" type="old"/>徹底計劃。尊重佛制原意，中國的僧裝，不應採用印度式，而應該中國（俗服）
@@ -419,7 +439,7 @@
 <lb n="0057a07" ed="Y"/><lb n="0057a07" ed="Y" type="old"/>沒有階級性，表象僧伽的和合。合於佛制的原則，合乎世間的實況。統一而不妨
 <lb n="0057a08" ed="Y"/><lb n="0057a08" ed="Y" type="old"/>差別的自由，差別而不礙統一的和合。在不息的演變中，不會頑固守舊，也不會
 <lb n="0057a09" ed="Y"/><lb n="0057a09" ed="Y" type="old"/>標新競異：我覺得這是非常合理的建議。</p>
-<lb n="0057a10" ed="Y"/><lb n="0057a10" ed="Y" type="old"/><p style="text-indent:2em">依佛制的意趣，僧裝應該是：一、材料，以不殺生為原則。不得用絲織品。
+<lb n="0057a10" ed="Y"/><lb n="0057a10" ed="Y" type="old"/><p xml:id="pY21p0057a1001" style="text-indent:2em">依佛制的意趣，僧裝應該是：一、材料，以不殺生為原則。不得用絲織品。
 <lb n="0057a11" ed="Y"/><lb n="0057a11" ed="Y" type="old"/>二、價格，以不奢侈為原則。佛教為一般民眾的宗教，應保持淡泊、知足的傳統
 <lb n="0057a12" ed="Y"/><lb n="0057a12" ed="Y" type="old"/>精神。服裝價值，可比例此時此地的農工，及一般中下級公教人員的情形為標準
 <lb n="0057a13" ed="Y"/><lb n="0057a13" ed="Y" type="old"/>。三、顏色，以雜染色為原則。莊重、肅穆、寧靜、和藹，雜染色是最適當不過<pb n="0058a" ed="Y" xml:id="Y21.0021.0058a.old" type="old"/>
@@ -437,6 +457,6 @@
 <lb n="0058a11" ed="Y"/><lb n="0058a11" ed="Y" type="old"/>時機與步驟，是更不能輕率的。</p>
 <lb n="0058a12" ed="Y"/><lb n="0058a12" ed="Y" type="old"/><byline cb:type="other">卅六．二．一〇，脫稿於世苑。</byline>
 <pb n="0059a" ed="Y" xml:id="Y21.0021.0059a"/>
-<lb n="0059a01" ed="Y"/><lb n="0058a13" ed="Y" type="old"/><p rend="kaiti" style="margin-left:3em">太虛按：吾原擬於修正東初職僧服上，再加以五條、七條、九條福田僧相的<pb n="0059a" ed="Y" xml:id="Y21.0021.0059a.old" type="old"/>
+<lb n="0059a01" ed="Y"/><lb n="0058a13" ed="Y" type="old"/><p xml:id="pY21p0059a0101" rend="kaiti" style="margin-left:3em">太虛按：吾原擬於修正東初職僧服上，再加以五條、七條、九條福田僧相的<pb n="0059a" ed="Y" xml:id="Y21.0021.0059a.old" type="old"/>
 <lb n="0059a02" ed="Y"/><lb n="0059a01" ed="Y" type="old"/>袖章或襟章，試製未試用，茲附提及。</p></cb:div></cb:div><pb n="0060a" ed="Y" xml:id="Y21.0021.0060a.old" type="old"/>
 </body></text></TEI>

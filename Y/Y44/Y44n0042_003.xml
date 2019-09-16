@@ -12,70 +12,90 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版四刷<date>Date: 2015/12</date>新式標點版</edition>
+			<edition>修訂版四刷<date>Date: 2015/12</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>3卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 44, No. 42</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>3卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">44</idno>.<idno type="no">42</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">大乘廣五蘊論講記</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第二章　十二處</cb:mulu><cb:mulu level="2" type="其他">第二節　處的意義</cb:mulu>
-<milestone unit="juan" n="3"/>
+<milestone n="3" unit="juan"/>
 <pb n="0294a" ed="Y" xml:id="Y44.0042.0294a"/>
 <lb n="0294a01" ed="Y"/><lb n="0294a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">第三章　十八界</cb:mulu><head>第三章　十八界</head>
 <lb n="0294a02" ed="Y"/><lb n="0294a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　界的內容</cb:mulu><head>第一節　界的內容</head>
-<lb n="0294a03" ed="Y"/><lb n="0294a03" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">復有十八界，謂眼界、色界、眼識界；耳界、聲界、耳識界；鼻界、香界、鼻識界；舌
+<lb n="0294a03" ed="Y"/><lb n="0294a03" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0294a0301" rend="bold">復有十八界，謂眼界、色界、眼識界；耳界、聲界、耳識界；鼻界、香界、鼻識界；舌
 <lb n="0294a04" ed="Y"/><lb n="0294a04" ed="Y" type="old"/>界、味界、舌識界；身界、觸界、身識界；意界、法界、意識界。眼等諸界及色等諸界
 <lb n="0294a05" ed="Y"/><lb n="0294a05" ed="Y" type="old"/>，如處中說。六識界者，謂依眼等根緣色等境，了別為性。意界者，即彼無間滅等；為
 <lb n="0294a06" ed="Y"/><lb n="0294a06" ed="Y" type="old"/>顯第六識依止及廣建立十八界故。如是，色蘊即十處、十界及法處、法界一分。識蘊即
 <lb n="0294a07" ed="Y"/><lb n="0294a07" ed="Y" type="old"/>意處及七心界。餘三蘊及色蘊一分並諸無為，即法處、法界。</p></quote></cb:div>
-<lb n="0294a08" ed="Y"/><lb n="0294a08" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">十二處講了，還有十八界。十八界的名字，是三個、三個，<quote type="嚴謹引文">「謂眼界、色界、眼
+<lb n="0294a08" ed="Y"/><lb n="0294a08" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0294a0801" style="margin-left:1em;text-indent:2em">十二處講了，還有十八界。十八界的名字，是三個、三個，<quote type="嚴謹引文">「謂眼界、色界、眼
 <lb n="0294a09" ed="Y"/><lb n="0294a09" ed="Y" type="old"/>識界；耳界、聲界、耳識界；鼻界、香界、鼻識界；舌界、味界、舌識界；身界、觸
 <lb n="0294a10" ed="Y"/><lb n="0294a10" ed="Y" type="old"/>界、身識界；意界、法界、意識界」</quote>。因為我們有六根，外面就有六境，六根、六境
 <lb n="0294a11" ed="Y"/><lb n="0294a11" ed="Y" type="old"/>生起六識，合起來就是十八界。這大部分在十二處裡面都講過了，下面就依十二處去
 <lb n="0294a12" ed="Y"/><lb n="0294a12" ed="Y" type="old"/>解說。</p><pb n="0295a" ed="Y" xml:id="Y44.0042.0295a.old" type="old"/>
 <pb n="0295a" ed="Y" xml:id="Y44.0042.0295a"/>
-<lb n="0295a01" ed="Y"/><lb n="0295a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「眼等諸界及色等諸界，如處中說」</quote>，這個「處」，就是十二處的處。<quote type="嚴謹引文">「眼等諸
+<lb n="0295a01" ed="Y"/><lb n="0295a01" ed="Y" type="old"/><p xml:id="pY44p0295a0101" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「眼等諸界及色等諸界，如處中說」</quote>，這個「處」，就是十二處的處。<quote type="嚴謹引文">「眼等諸
 <lb n="0295a02" ed="Y"/><lb n="0295a02" ed="Y" type="old"/>界」</quote>，是眼、耳、鼻、舌、身這五界。<quote type="嚴謹引文">「色等諸界」</quote>，就是色、聲、香、味、觸、法
 <lb n="0295a03" ed="Y"/><lb n="0295a03" ed="Y" type="old"/>。這些和十二處裡面所講的一樣。</p>
-<lb n="0295a04" ed="Y"/><lb n="0295a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「六識界者，謂依眼等根緣色等境，了別為性。」</quote>識的定義，就是「了別為性」
+<lb n="0295a04" ed="Y"/><lb n="0295a04" ed="Y" type="old"/><p xml:id="pY44p0295a0401" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「六識界者，謂依眼等根緣色等境，了別為性。」</quote>識的定義，就是「了別為性」
 <lb n="0295a05" ed="Y"/><lb n="0295a05" ed="Y" type="old"/>。六轉識要依六根緣六境，了別這六種境的，就是六識。</p>
-<lb n="0295a06" ed="Y"/><lb n="0295a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「意界者，即彼無間滅等；為顯第六識依止及廣建立十八界故。」</quote><quote type="嚴謹引文">「意界」</quote>，這
+<lb n="0295a06" ed="Y"/><lb n="0295a06" ed="Y" type="old"/><p xml:id="pY44p0295a0601" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「意界者，即彼無間滅等；為顯第六識依止及廣建立十八界故。」</quote><quote type="嚴謹引文">「意界」</quote>，這
 <lb n="0295a07" ed="Y"/><lb n="0295a07" ed="Y" type="old"/>個<quote type="嚴謹引文">「即彼無間滅等」</quote>，佛法裡面這個名詞叫做<quote type="嚴謹引文">「無間滅意」</quote>。這裡解說起來，稍稍有
 <lb n="0295a08" ed="Y"/><lb n="0295a08" ed="Y" type="old"/>阿毘達磨的特殊意義，沒有講末那識、阿賴耶識。照道理，阿賴耶識、末那識都包括
 <lb n="0295a09" ed="Y"/><lb n="0295a09" ed="Y" type="old"/>在意界裡面的，這個有點不同，它現在是說一個特別的意界。</p>
-<lb n="0295a10" ed="Y"/><lb n="0295a10" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">經裡面講依意生識，識要依意而生起，特別像意識，要依意而生的。這個「意」
+<lb n="0295a10" ed="Y"/><lb n="0295a10" ed="Y" type="old"/><p xml:id="pY44p0295a1001" style="margin-left:1em;text-indent:2em">經裡面講依意生識，識要依意而生起，特別像意識，要依意而生的。這個「意」
 <lb n="0295a11" ed="Y"/><lb n="0295a11" ed="Y" type="old"/>，阿毘達磨論師向來講是<quote type="嚴謹引文">「無間滅意」</quote>。比方前一念心滅，後一念的心依此而起來，
 <lb n="0295a12" ed="Y"/><lb n="0295a12" ed="Y" type="old"/>這前一念的心，對於後一念的心有引起它的特殊意義，這就是叫做<quote type="嚴謹引文">「無間滅意」</quote>。我
 <lb n="0295a13" ed="Y"/><lb n="0295a13" ed="Y" type="old"/>們心裡的心識活動，現在是眼識，接下去是意識，一下子是耳識，一下子又眼識，我
@@ -92,20 +112,20 @@
 <lb n="0296a09" ed="Y"/><lb n="0296a09" ed="Y" type="old"/>還有六識界，六識界就是依意界而生起的。立意界，為了顯示第六識的依止，<quote type="嚴謹引文">「及廣
 <lb n="0296a10" ed="Y"/><lb n="0296a10" ed="Y" type="old"/>建立十八界故」</quote>，還要廣建立十八種的界——六根、六處、六識。因此，六識之外，
 <lb n="0296a11" ed="Y"/><lb n="0296a11" ed="Y" type="old"/>另外有個意界。其實，這個意界，包括阿賴耶識、末那識、無間滅意這許多在裡面。</p>
-<lb n="0296a12" ed="Y"/><lb n="0296a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">上面是分開來講，現在是蘊、處、界合起來講。<quote type="嚴謹引文">「如是，色蘊即十處、十界及法
+<lb n="0296a12" ed="Y"/><lb n="0296a12" ed="Y" type="old"/><p xml:id="pY44p0296a1201" style="margin-left:1em;text-indent:2em">上面是分開來講，現在是蘊、處、界合起來講。<quote type="嚴謹引文">「如是，色蘊即十處、十界及法
 <lb n="0296a13" ed="Y"/><lb n="0296a13" ed="Y" type="old"/>處、法界一分。」</quote>眼、耳、鼻、舌、身，色、聲、香、味、觸這十種，在處裡面是十
 <lb n="0296a14" ed="Y"/><lb n="0296a14" ed="Y" type="old"/>種處，在界裡面也是十種界。無表色，普通都是叫<quote type="嚴謹引文">「法處所攝色」</quote>，是法處所攝的色<pb n="0297a" ed="Y" xml:id="Y44.0042.0297a.old" type="old"/>
 <pb n="0297a" ed="Y" xml:id="Y44.0042.0297a"/>
 <lb n="0297a01" ed="Y"/><lb n="0297a01" ed="Y" type="old"/>，在法界裡面也是叫色，所以說是<quote type="嚴謹引文">「法處、法界的一分」</quote>。這些，就是色蘊。</p>
-<lb n="0297a02" ed="Y"/><lb n="0297a02" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「識蘊即意處及七心界。」</quote>識蘊，在十二處裡面就是「意處」，在十八界裡面叫
+<lb n="0297a02" ed="Y"/><lb n="0297a02" ed="Y" type="old"/><p xml:id="pY44p0297a0201" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「識蘊即意處及七心界。」</quote>識蘊，在十二處裡面就是「意處」，在十八界裡面叫
 <lb n="0297a03" ed="Y"/><lb n="0297a03" ed="Y" type="old"/><quote type="嚴謹引文">「七心界」</quote>。意界加六識界，叫七心界。</p>
-<lb n="0297a04" ed="Y"/><lb n="0297a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「餘三蘊及色蘊一分並諸無為，即法處、法界。」</quote>其他的受、想、行三蘊，及色
+<lb n="0297a04" ed="Y"/><lb n="0297a04" ed="Y" type="old"/><p xml:id="pY44p0297a0401" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「餘三蘊及色蘊一分並諸無為，即法處、法界。」</quote>其他的受、想、行三蘊，及色
 <lb n="0297a05" ed="Y"/><lb n="0297a05" ed="Y" type="old"/>蘊的一分（就是無表色），及無為法，叫做法處、法界。</p>
-<lb n="0297a06" ed="Y"/><lb n="0297a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">原則上講，十二處、十八界的內容一樣，不過歸類不同；五蘊小一點，沒有無為
+<lb n="0297a06" ed="Y"/><lb n="0297a06" ed="Y" type="old"/><p xml:id="pY44p0297a0601" style="margin-left:1em;text-indent:2em">原則上講，十二處、十八界的內容一樣，不過歸類不同；五蘊小一點，沒有無為
 <lb n="0297a07" ed="Y"/><lb n="0297a07" ed="Y" type="old"/>法，專門是以有為法來講的。所以，五蘊知道了以後，十二處、十八界也就知道了。</p></cb:div></cb:div>
 <lb n="0297a08" ed="Y"/><lb n="0297a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　界的意義</cb:mulu><head>第二節　界的意義</head>
-<lb n="0297a09" ed="Y"/><lb n="0297a09" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">問：界為何義？答：任持無作用性自相是界義。</p></quote></cb:div>
-<lb n="0297a10" ed="Y"/><lb n="0297a10" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">界的定義，實際上就是<quote type="嚴謹引文">「任持自相」</quote>，或者是<quote type="嚴謹引文">「任持自性」</quote>。這個<quote type="嚴謹引文">「界」</quote>字，在
+<lb n="0297a09" ed="Y"/><lb n="0297a09" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0297a0901" rend="bold">問：界為何義？答：任持無作用性自相是界義。</p></quote></cb:div>
+<lb n="0297a10" ed="Y"/><lb n="0297a10" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0297a1001" style="margin-left:1em;text-indent:2em">界的定義，實際上就是<quote type="嚴謹引文">「任持自相」</quote>，或者是<quote type="嚴謹引文">「任持自性」</quote>。這個<quote type="嚴謹引文">「界」</quote>字，在
 <lb n="0297a11" ed="Y"/><lb n="0297a11" ed="Y" type="old"/>梵文裡面，是一種特殊的性質，「特性」。這種特性它是不會失去的，不失自性，能
 <lb n="0297a12" ed="Y"/><lb n="0297a12" ed="Y" type="old"/>保持這一種特性，所以叫<quote type="嚴謹引文">「任持」</quote>。如果說沒有這個自性，沒有這種特性了，那就不
 <lb n="0297a13" ed="Y"/><lb n="0297a13" ed="Y" type="old"/>叫做這個法了。比方說地堅性，水濕性，地有「堅」的特性，怎麼樣它都永遠保持這<pb n="0298a" ed="Y" xml:id="Y44.0042.0298a.old" type="old"/>
@@ -114,7 +134,7 @@
 <lb n="0298a02" ed="Y"/><lb n="0298a02" ed="Y" type="old"/>沒有這個濕了，那就不是水了。所以，十八界之中，眼界、耳界、鼻界，一一界就有
 <lb n="0298a03" ed="Y"/><lb n="0298a03" ed="Y" type="old"/>一一法的特性，和其他的都不同。保持這種特性，所以叫<quote type="嚴謹引文">「任持自相」</quote>。「自相」，
 <lb n="0298a04" ed="Y"/><lb n="0298a04" ed="Y" type="old"/>或者叫「自性」，是一樣的意義。</p>
-<lb n="0298a05" ed="Y"/><lb n="0298a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">不過，這個地方很特別的加個<quote type="嚴謹引文">「無作用」</quote>在裡面。我們平常講，每一法有每一法
+<lb n="0298a05" ed="Y"/><lb n="0298a05" ed="Y" type="old"/><p xml:id="pY44p0298a0501" style="margin-left:1em;text-indent:2em">不過，這個地方很特別的加個<quote type="嚴謹引文">「無作用」</quote>在裡面。我們平常講，每一法有每一法
 <lb n="0298a06" ed="Y"/><lb n="0298a06" ed="Y" type="old"/>的作用，什麼叫<quote type="嚴謹引文">「作用」</quote>呢？就是對於其他的、對外的，有一種影響力量。但是在大
 <lb n="0298a07" ed="Y"/><lb n="0298a07" ed="Y" type="old"/>乘法或者像經部師來說，因緣和合之下，出現一個形象，好像是可以說有某種作用，
 <lb n="0298a08" ed="Y"/><lb n="0298a08" ed="Y" type="old"/>其實這個作用是虛假的，沒有實體，沒有自性。因為沒有實質的、真實的作用，都是
@@ -123,34 +143,34 @@
 <lb n="0298a11" ed="Y"/><lb n="0298a11" ed="Y" type="old"/>來，三根槍就成了。是那一根槍的力量呢？要說的話，三根槍都有力量，其實，力量
 <lb n="0298a12" ed="Y"/><lb n="0298a12" ed="Y" type="old"/>等於對消，結果就成了這樣子。我們暫且把<quote type="嚴謹引文">「無作用性」</quote>拿掉，先瞭解「界」是一一
 <lb n="0298a13" ed="Y"/><lb n="0298a13" ed="Y" type="old"/>法的特性，保持特性不失掉的。</p>
-<lb n="0298a14" ed="Y"/><lb n="0298a14" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">佛平常用的法門，就是蘊、處、界這三種法門。五蘊的內容少一點，沒有無為法<pb n="0299a" ed="Y" xml:id="Y44.0042.0299a.old" type="old"/>
+<lb n="0298a14" ed="Y"/><lb n="0298a14" ed="Y" type="old"/><p xml:id="pY44p0298a1401" style="margin-left:1em;text-indent:2em">佛平常用的法門，就是蘊、處、界這三種法門。五蘊的內容少一點，沒有無為法<pb n="0299a" ed="Y" xml:id="Y44.0042.0299a.old" type="old"/>
 <pb n="0299a" ed="Y" xml:id="Y44.0042.0299a"/>
 <lb n="0299a01" ed="Y"/><lb n="0299a01" ed="Y" type="old"/>，十二處、十八界都是一樣的。既然是這樣，那麼佛何必又說十二處、又說十八界呢
 <lb n="0299a02" ed="Y"/><lb n="0299a02" ed="Y" type="old"/>？內容是一樣的，為什麼要說不同的法門呢？依這一個意義，下面就引起問題。</p></cb:div></cb:div>
 <lb n="0299a03" ed="Y"/><lb n="0299a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　蘊處界對治的用意</cb:mulu><head>第三節　蘊處界對治的用意</head>
-<lb n="0299a04" ed="Y"/><lb n="0299a04" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">問：以何義故說蘊、界、處等？答：對治三種我執故，所謂一性我執、受者我執、作者
+<lb n="0299a04" ed="Y"/><lb n="0299a04" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0299a0401" rend="bold">問：以何義故說蘊、界、處等？答：對治三種我執故，所謂一性我執、受者我執、作者
 <lb n="0299a05" ed="Y"/><lb n="0299a05" ed="Y" type="old"/>我執，如其次第。</p></quote></cb:div>
-<lb n="0299a06" ed="Y"/><lb n="0299a06" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">問：為什麼說蘊、界、處這三種法門呢？各各差別說這三種法門的用意何在？答
+<lb n="0299a06" ed="Y"/><lb n="0299a06" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0299a0601" style="margin-left:1em;text-indent:2em">問：為什麼說蘊、界、處這三種法門呢？各各差別說這三種法門的用意何在？答
 <lb n="0299a07" ed="Y"/><lb n="0299a07" ed="Y" type="old"/>覆說：眾生是執著我的，但執著我有三種不同的意義，所以佛就說五蘊、十二處、十
 <lb n="0299a08" ed="Y"/><lb n="0299a08" ed="Y" type="old"/>八界三種法門，來對治三種我執。</p>
-<lb n="0299a09" ed="Y"/><lb n="0299a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">第一種，叫<quote type="嚴謹引文">「一性我執」</quote>。對治執著我是一個實體的眾生，就說五蘊法門。<quote type="嚴謹引文">「一
+<lb n="0299a09" ed="Y"/><lb n="0299a09" ed="Y" type="old"/><p xml:id="pY44p0299a0901" style="margin-left:1em;text-indent:2em">第一種，叫<quote type="嚴謹引文">「一性我執」</quote>。對治執著我是一個實體的眾生，就說五蘊法門。<quote type="嚴謹引文">「一
 <lb n="0299a10" ed="Y"/><lb n="0299a10" ed="Y" type="old"/>」</quote>是一分。色、受、想、行、識這五種東西，怎麼能夠說是一個我呢？受是我，那想
 <lb n="0299a11" ed="Y"/><lb n="0299a11" ed="Y" type="old"/>就不是我；想是我，行就不是我，究竟什麼是<quote type="嚴謹引文">「我」</quote>？因為要對治執著這個<quote type="嚴謹引文">「我」</quote>是
 <lb n="0299a12" ed="Y"/><lb n="0299a12" ed="Y" type="old"/>一個實體的<quote type="嚴謹引文">「一性我執」</quote>，所以說五蘊法門，表明這只是色、受、想、行、識五蘊而
 <lb n="0299a13" ed="Y"/><lb n="0299a13" ed="Y" type="old"/>已，並沒有這個實我。</p><pb n="0300a" ed="Y" xml:id="Y44.0042.0300a.old" type="old"/>
 <pb n="0300a" ed="Y" xml:id="Y44.0042.0300a"/>
-<lb n="0300a01" ed="Y"/><lb n="0300a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">第二種，叫<quote type="嚴謹引文">「受者我執」</quote>。有的人以為這個<quote type="嚴謹引文">「我」</quote>是受者，是受苦、受樂、受業
+<lb n="0300a01" ed="Y"/><lb n="0300a01" ed="Y" type="old"/><p xml:id="pY44p0300a0101" style="margin-left:1em;text-indent:2em">第二種，叫<quote type="嚴謹引文">「受者我執」</quote>。有的人以為這個<quote type="嚴謹引文">「我」</quote>是受者，是受苦、受樂、受業
 <lb n="0300a02" ed="Y"/><lb n="0300a02" ed="Y" type="old"/>報、受什麼的一個實我，那麼佛就說十二處法門。一切法當中，不過是六根、六境，
 <lb n="0300a03" ed="Y"/><lb n="0300a03" ed="Y" type="old"/>眼、耳、鼻、舌、身、意是六根，色、聲、香、味、觸、法是六境，一切法不出於這
 <lb n="0300a04" ed="Y"/><lb n="0300a04" ed="Y" type="old"/>六根、六境，那有一個實際的我可以受？沒有這個實際的受者我，不存在的。因為要
 <lb n="0300a05" ed="Y"/><lb n="0300a05" ed="Y" type="old"/>破除<quote type="嚴謹引文">「受者我執」</quote>，所以說十二處法門。</p>
-<lb n="0300a06" ed="Y"/><lb n="0300a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">第三種，叫<quote type="嚴謹引文">「作者我執」</quote>。印度的外道講起<quote type="嚴謹引文">「我」</quote>來，是各式各樣的。有的說這
+<lb n="0300a06" ed="Y"/><lb n="0300a06" ed="Y" type="old"/><p xml:id="pY44p0300a0601" style="margin-left:1em;text-indent:2em">第三種，叫<quote type="嚴謹引文">「作者我執」</quote>。印度的外道講起<quote type="嚴謹引文">「我」</quote>來，是各式各樣的。有的說這
 <lb n="0300a07" ed="Y"/><lb n="0300a07" ed="Y" type="old"/>個<quote type="嚴謹引文">「我」</quote>是專門受報，不造業的。有的講這個我能夠做業的，造種種善、造種種惡，
 <lb n="0300a08" ed="Y"/><lb n="0300a08" ed="Y" type="old"/>就是這個<quote type="嚴謹引文">「我」</quote>做的。執著這種我的，叫<quote type="嚴謹引文">「作者我執」</quote>，執著我是作者。因此，佛也
 <lb n="0300a09" ed="Y"/><lb n="0300a09" ed="Y" type="old"/>說十八界。作者，誰是作者？一切法不出十八界。十八界，法法是無作用任持自性，
 <lb n="0300a10" ed="Y"/><lb n="0300a10" ed="Y" type="old"/>那有作者？這個地方，<quote type="嚴謹引文">「無作用」</quote>就派上用場了。所以，無作者，沒有這個「作者我
 <lb n="0300a11" ed="Y"/><lb n="0300a11" ed="Y" type="old"/>」。佛是以這三種特殊的意義，所以各各差別說蘊、說處、說界。</p>
-<lb n="0300a12" ed="Y"/><lb n="0300a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">這部論說蘊、處、界，就是綜合一切法在這裡面，一切法也不出於這些法。佛法
+<lb n="0300a12" ed="Y"/><lb n="0300a12" ed="Y" type="old"/><p xml:id="pY44p0300a1201" style="margin-left:1em;text-indent:2em">這部論說蘊、處、界，就是綜合一切法在這裡面，一切法也不出於這些法。佛法
 <lb n="0300a13" ed="Y"/><lb n="0300a13" ed="Y" type="old"/>裡面每每講<quote type="嚴謹引文">「一切法」</quote>，一切法就是這許多東西。下面這一大段，佛教裡的名字叫<quote type="嚴謹引文">「
 <lb n="0300a14" ed="Y"/><lb n="0300a14" ed="Y" type="old"/>法門分別」</quote>，就是把這許多法加以分類。分類，要有個標準，以什麼來分類。這個法<pb n="0301a" ed="Y" xml:id="Y44.0042.0301a.old" type="old"/>
 <pb n="0301a" ed="Y" xml:id="Y44.0042.0301a"/>
@@ -169,25 +189,25 @@
 <lb n="0301a13" ed="Y"/><lb n="0301a13" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第四節　十八界的諸門分別</cb:mulu><head>第四節　十八界的諸門分別</head><pb n="0302a" ed="Y" xml:id="Y44.0042.0302a.old" type="old"/>
 <pb n="0302a" ed="Y" xml:id="Y44.0042.0302a"/>
 <lb n="0302a01" ed="Y"/><lb n="0302a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第一項　有色、無色</cb:mulu><head>第一項　有色、無色</head>
-<lb n="0302a02" ed="Y"/><lb n="0302a02" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">復次，此十八界幾有色？謂十界、一少分，即色蘊自性。幾無色？謂所餘界。</p></quote></cb:div>
-<lb n="0302a03" ed="Y"/><lb n="0302a03" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">這是第一門，叫色無色門。在十八界之中，有幾種是有色的？幾種是無色的？現
+<lb n="0302a02" ed="Y"/><lb n="0302a02" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0302a0201" rend="bold">復次，此十八界幾有色？謂十界、一少分，即色蘊自性。幾無色？謂所餘界。</p></quote></cb:div>
+<lb n="0302a03" ed="Y"/><lb n="0302a03" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0302a0301" style="margin-left:1em;text-indent:2em">這是第一門，叫色無色門。在十八界之中，有幾種是有色的？幾種是無色的？現
 <lb n="0302a04" ed="Y"/><lb n="0302a04" ed="Y" type="old"/>在答覆說：<quote type="嚴謹引文">「十界」</quote>還有<quote type="嚴謹引文">「一少分」</quote>是<quote type="嚴謹引文">「有色」</quote>的。十界，就是眼、耳、鼻、舌、身
 <lb n="0302a05" ed="Y"/><lb n="0302a05" ed="Y" type="old"/>，色、聲、香、味、觸。一少分，就是法處所攝色——無表色，這個不在色界裡面，
 <lb n="0302a06" ed="Y"/><lb n="0302a06" ed="Y" type="old"/>是屬於法界的，所以叫一界的少分。因此，有色的就是<quote type="嚴謹引文">「色蘊自性」</quote>，簡單講就是五
 <lb n="0302a07" ed="Y"/><lb n="0302a07" ed="Y" type="old"/>蘊裡面的色蘊。</p>
-<lb n="0302a08" ed="Y"/><lb n="0302a08" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「幾」</quote>種<quote type="嚴謹引文">「無色」</quote>呢？除了色蘊自性以外，其他的一切都是無色的。受蘊、想蘊
+<lb n="0302a08" ed="Y"/><lb n="0302a08" ed="Y" type="old"/><p xml:id="pY44p0302a0801" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「幾」</quote>種<quote type="嚴謹引文">「無色」</quote>呢？除了色蘊自性以外，其他的一切都是無色的。受蘊、想蘊
 <lb n="0302a09" ed="Y"/><lb n="0302a09" ed="Y" type="old"/>、行蘊、識蘊、無為法，都是無色的。這就是以有色、無色來分別這十八界。</p></cb:div></cb:div>
 <lb n="0302a10" ed="Y"/><lb n="0302a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第二項　有見、無見</cb:mulu><head>第二項　有見、無見</head>
-<lb n="0302a11" ed="Y"/><lb n="0302a11" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">幾有見？謂一色界。幾無見？謂所餘界。</p></quote></cb:div>
-<lb n="0302a12" ed="Y"/><lb n="0302a12" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">第二，幾種界是有見的？幾種界是無見的？有見，就是我們平常眼睛就看得到的<pb n="0303a" ed="Y" xml:id="Y44.0042.0303a.old" type="old"/>
+<lb n="0302a11" ed="Y"/><lb n="0302a11" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0302a1101" rend="bold">幾有見？謂一色界。幾無見？謂所餘界。</p></quote></cb:div>
+<lb n="0302a12" ed="Y"/><lb n="0302a12" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0302a1201" style="margin-left:1em;text-indent:2em">第二，幾種界是有見的？幾種界是無見的？有見，就是我們平常眼睛就看得到的<pb n="0303a" ed="Y" xml:id="Y44.0042.0303a.old" type="old"/>
 <pb n="0303a" ed="Y" xml:id="Y44.0042.0303a"/>
 <lb n="0303a01" ed="Y"/><lb n="0303a01" ed="Y" type="old"/>，這只有色界一種。色界的色，是我們眼睛所見的對象，和色蘊的色是不同的，上面
 <lb n="0303a02" ed="Y"/><lb n="0303a02" ed="Y" type="old"/><quote type="嚴謹引文">「幾有色」</quote>、<quote type="嚴謹引文">「幾無色」</quote>的<quote type="嚴謹引文">「色」</quote>，是物質的意思，兩個不同。所以，可見的，只有
 <lb n="0303a03" ed="Y"/><lb n="0303a03" ed="Y" type="old"/>色界，像青、黃、赤、白，長、短、方、圓。十八界裡面其餘的十七界，都是無見的
 <lb n="0303a04" ed="Y"/><lb n="0303a04" ed="Y" type="old"/>，都是看不到的。</p></cb:div></cb:div>
 <lb n="0303a05" ed="Y"/><lb n="0303a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第三項　有對、無對</cb:mulu><head>第三項　有對、無對</head>
-<lb n="0303a06" ed="Y"/><lb n="0303a06" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">幾有對？謂十色界，若彼於此有所礙故。幾無對？謂所餘界。</p></quote></cb:div>
-<lb n="0303a07" ed="Y"/><lb n="0303a07" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">第三個叫做<quote type="嚴謹引文">「有對無對分別」</quote>，<quote type="嚴謹引文">「有對」</quote>就是有礙的意思，有質礙的。比方手碰
+<lb n="0303a06" ed="Y"/><lb n="0303a06" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0303a0601" rend="bold">幾有對？謂十色界，若彼於此有所礙故。幾無對？謂所餘界。</p></quote></cb:div>
+<lb n="0303a07" ed="Y"/><lb n="0303a07" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0303a0701" style="margin-left:1em;text-indent:2em">第三個叫做<quote type="嚴謹引文">「有對無對分別」</quote>，<quote type="嚴謹引文">「有對」</quote>就是有礙的意思，有質礙的。比方手碰
 <lb n="0303a08" ed="Y"/><lb n="0303a08" ed="Y" type="old"/>到東西，兩個有障礙了，這個就叫<quote type="嚴謹引文">「有對」</quote>。在十八界之中，眼、耳、鼻、舌、身，
 <lb n="0303a09" ed="Y"/><lb n="0303a09" ed="Y" type="old"/>色、聲、香、味、觸這十種，就是十色界，我們普通叫物質。物質是有障礙的、有對
 <lb n="0303a10" ed="Y"/><lb n="0303a10" ed="Y" type="old"/>礙的，有了這個東西，第二個就放不下去了。<quote type="嚴謹引文">「若彼於此有所礙故」</quote>，因為彼對於此
@@ -197,13 +217,13 @@
 <pb n="0304a" ed="Y" xml:id="Y44.0042.0304a"/>
 <lb n="0304a01" ed="Y"/><lb n="0304a01" ed="Y" type="old"/>西在那裡，不能建。不說別的，這個地方我們搬了幾個收音機在這裡，你要再搬上去
 <lb n="0304a02" ed="Y"/><lb n="0304a02" ed="Y" type="old"/>，這個位置就不成了，它佔據了，有障礙了。色界就是這樣，有十個界。</p>
-<lb n="0304a03" ed="Y"/><lb n="0304a03" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">其他的，還有八個界。如眼識、耳識、鼻識、舌識、身識、意識、意界，這是七
+<lb n="0304a03" ed="Y"/><lb n="0304a03" ed="Y" type="old"/><p xml:id="pY44p0304a0301" style="margin-left:1em;text-indent:2em">其他的，還有八個界。如眼識、耳識、鼻識、舌識、身識、意識、意界，這是七
 <lb n="0304a04" ed="Y"/><lb n="0304a04" ed="Y" type="old"/>心界。我們的心心所（我們的精神作用）當然是沒有障礙的，一下子想到天上，一下
 <lb n="0304a05" ed="Y"/><lb n="0304a05" ed="Y" type="old"/>子想到地獄，一下子想到西方極樂世界，快得很。無為法、心心所法、不相應行，這
 <lb n="0304a06" ed="Y"/><lb n="0304a06" ed="Y" type="old"/>些都是無障礙的，所以說除十色界以外，都是<quote type="嚴謹引文">「無對」</quote>。</p></cb:div></cb:div>
 <lb n="0304a07" ed="Y"/><lb n="0304a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第四項　有漏、無漏</cb:mulu><head>第四項　有漏、無漏</head>
-<lb n="0304a08" ed="Y"/><lb n="0304a08" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">幾有漏？謂十五界及後三少分；謂於是處煩惱起故，現所行處故。幾無漏？謂後三少分。</p></quote></cb:div>
-<lb n="0304a09" ed="Y"/><lb n="0304a09" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">下面，有漏無漏分別。有漏、無漏，我們佛教徒時常講，其實，很難講。照名字
+<lb n="0304a08" ed="Y"/><lb n="0304a08" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0304a0801" rend="bold">幾有漏？謂十五界及後三少分；謂於是處煩惱起故，現所行處故。幾無漏？謂後三少分。</p></quote></cb:div>
+<lb n="0304a09" ed="Y"/><lb n="0304a09" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0304a0901" style="margin-left:1em;text-indent:2em">下面，有漏無漏分別。有漏、無漏，我們佛教徒時常講，其實，很難講。照名字
 <lb n="0304a10" ed="Y"/><lb n="0304a10" ed="Y" type="old"/>上講，<quote type="嚴謹引文">「漏」</quote>，就是煩惱，經上講有煩惱就是<quote type="嚴謹引文">「有漏」</quote>，沒有煩惱就是<quote type="嚴謹引文">「無漏」</quote>，比
 <lb n="0304a11" ed="Y"/><lb n="0304a11" ed="Y" type="old"/>方一個人沒有煩惱了，那他就無漏了。說是這麼說，再仔細想一想看，比方釋迦牟尼
 <lb n="0304a12" ed="Y"/><lb n="0304a12" ed="Y" type="old"/>佛、阿羅漢，都沒有煩惱了，那他們的手、眼睛、耳朵、鼻子、大便、小便這許多，
@@ -211,7 +231,7 @@
 <pb n="0305a" ed="Y" xml:id="Y44.0042.0305a"/>
 <lb n="0305a01" ed="Y"/><lb n="0305a01" ed="Y" type="old"/>像說一切有部這一類講人間的佛教的，說佛的身體是有漏的。無漏，是心理上煩惱沒
 <lb n="0305a02" ed="Y"/><lb n="0305a02" ed="Y" type="old"/>有了，因此可以究竟解脫，這叫無漏；身體是業報所感的，還是有漏的。</p>
-<lb n="0305a03" ed="Y"/><lb n="0305a03" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">下面講有漏的定義，<quote type="嚴謹引文">「謂於是處煩惱起故，現所行處故」</quote>，就是對於這一個地方
+<lb n="0305a03" ed="Y"/><lb n="0305a03" ed="Y" type="old"/><p xml:id="pY44p0305a0301" style="margin-left:1em;text-indent:2em">下面講有漏的定義，<quote type="嚴謹引文">「謂於是處煩惱起故，現所行處故」</quote>，就是對於這一個地方
 <lb n="0305a04" ed="Y"/><lb n="0305a04" ed="Y" type="old"/>，可以起煩惱的，這個就是有漏法。如果是無漏法，不可能在這個上面起煩惱。<quote type="嚴謹引文">「現
 <lb n="0305a05" ed="Y"/><lb n="0305a05" ed="Y" type="old"/>所行處故」</quote>，就是成為煩惱現起來所行的境界，這不是說自己起煩惱。戒律裡面有這
 <lb n="0305a06" ed="Y"/><lb n="0305a06" ed="Y" type="old"/>樣一個故事，釋迦牟尼佛出去了，有個人帶了一個很美的女兒出來，她對佛生起一種
@@ -226,7 +246,7 @@
 <pb n="0306a" ed="Y" xml:id="Y44.0042.0306a"/>
 <lb n="0306a01" ed="Y"/><lb n="0306a01" ed="Y" type="old"/>地方講的，是這樣子的定義。不要以為我目前沒有煩惱，好像我什麼都沒有煩惱了，
 <lb n="0306a02" ed="Y"/><lb n="0306a02" ed="Y" type="old"/>也不對，身體是業報所感，還是有漏的。</p>
-<lb n="0306a03" ed="Y"/><lb n="0306a03" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">因此，幾個是有漏？<quote type="嚴謹引文">「謂十五界及後三少分」</quote>。眼、耳、鼻、舌、身，色、聲、
+<lb n="0306a03" ed="Y"/><lb n="0306a03" ed="Y" type="old"/><p xml:id="pY44p0306a0301" style="margin-left:1em;text-indent:2em">因此，幾個是有漏？<quote type="嚴謹引文">「謂十五界及後三少分」</quote>。眼、耳、鼻、舌、身，色、聲、
 <lb n="0306a04" ed="Y"/><lb n="0306a04" ed="Y" type="old"/>香、味、觸，眼識、耳識、鼻識、舌眼、身識，這<quote type="嚴謹引文">「十五界」</quote>都是有漏的。<quote type="嚴謹引文">「後三少
 <lb n="0306a05" ed="Y"/><lb n="0306a05" ed="Y" type="old"/>分」</quote>，有漏的意界，有漏的意識界，法界當中像不相應行法、煩惱心心所法這一部分
 <lb n="0306a06" ed="Y"/><lb n="0306a06" ed="Y" type="old"/>，都是有漏的。十五界是有漏法，後面這三種，一部分是有漏，一部分是無漏。所以
@@ -240,30 +260,30 @@
 <lb n="0306a14" ed="Y"/><lb n="0306a14" ed="Y" type="old"/>漏，是這樣子來分別的。</p></cb:div><pb n="0307a" ed="Y" xml:id="Y44.0042.0307a.old" type="old"/></cb:div>
 <pb n="0307a" ed="Y" xml:id="Y44.0042.0307a"/>
 <lb n="0307a01" ed="Y"/><lb n="0307a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第五項　繫、不繫</cb:mulu><head>第五項　繫、不繫</head>
-<lb n="0307a02" ed="Y"/><lb n="0307a02" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">幾欲界繫？謂一切。幾色界繫？謂十四，除香、味及鼻、舌識。幾無色界繫？謂後三。
+<lb n="0307a02" ed="Y"/><lb n="0307a02" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0307a0201" rend="bold">幾欲界繫？謂一切。幾色界繫？謂十四，除香、味及鼻、舌識。幾無色界繫？謂後三。
 <lb n="0307a03" ed="Y"/><lb n="0307a03" ed="Y" type="old"/>幾不繫？謂即彼無漏。</p></quote></cb:div>
-<lb n="0307a04" ed="Y"/><lb n="0307a04" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">這個地方是四門分別，欲界繫、色界繫、無色界繫、不繫，分做四門。<quote type="嚴謹引文">「繫」</quote>，
+<lb n="0307a04" ed="Y"/><lb n="0307a04" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0307a0401" style="margin-left:1em;text-indent:2em">這個地方是四門分別，欲界繫、色界繫、無色界繫、不繫，分做四門。<quote type="嚴謹引文">「繫」</quote>，
 <lb n="0307a05" ed="Y"/><lb n="0307a05" ed="Y" type="old"/>就是繫縛，沒有得到解脫以前叫做<quote type="嚴謹引文">「繫」</quote>，等於縛住了的意思一樣，叫繫縛。三界就
 <lb n="0307a06" ed="Y"/><lb n="0307a06" ed="Y" type="old"/>是三界生死，三界是生死法，生死在三界之中，所以三界都是繫。凡是三界之內的欲
 <lb n="0307a07" ed="Y"/><lb n="0307a07" ed="Y" type="old"/>界繫、色界繫、無色界繫，都是有漏法。所以，這個地方講<quote type="嚴謹引文">「繫」</quote>和<quote type="嚴謹引文">「不繫」</quote>，以三
 <lb n="0307a08" ed="Y"/><lb n="0307a08" ed="Y" type="old"/>界及十八界來分配。<quote type="嚴謹引文">「欲界繫」</quote>有幾界呢？<quote type="嚴謹引文">「謂一切」</quote>，十八界。換一句話，欲界裡
 <lb n="0307a09" ed="Y"/><lb n="0307a09" ed="Y" type="old"/>面，有漏的十八界都有的。</p>
-<lb n="0307a10" ed="Y"/><lb n="0307a10" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">色界所繫的呢？只有十四界，沒有香、味，也就是沒有鼻識和舌識。到了色界以
+<lb n="0307a10" ed="Y"/><lb n="0307a10" ed="Y" type="old"/><p xml:id="pY44p0307a1001" style="margin-left:1em;text-indent:2em">色界所繫的呢？只有十四界，沒有香、味，也就是沒有鼻識和舌識。到了色界以
 <lb n="0307a11" ed="Y"/><lb n="0307a11" ed="Y" type="old"/>上，初禪、二禪、三禪、四禪，生在這一種色界禪禪定境界之中的，沒有鼻識、舌識
 <lb n="0307a12" ed="Y"/><lb n="0307a12" ed="Y" type="old"/>。鼻識所聞到的是香氣，舌識所嚐到的是味，沒有鼻識界、舌識界，也就沒有香界、
-<lb n="0307a13" ed="Y"/><lb n="0307a13" ed="Y" type="old"/>沒有味界，可是鼻子、舌頭是有的，色界天有莊嚴的相。鼻<note n="0307a1301" resp="CBETA" type="add">子【CB】，識【印順】</note><app n="0307a1301"><lem wit="【CB】" resp="正聞出版社">子</lem><rdg wit="【印順】">識</rdg></app>是有的，只是它不發展<pb n="0308a" ed="Y" xml:id="Y44.0042.0308a.old" type="old"/>
+<lb n="0307a13" ed="Y"/><lb n="0307a13" ed="Y" type="old"/>沒有味界，可是鼻子、舌頭是有的，色界天有莊嚴的相。鼻<note n="0307a1301" resp="CBETA" type="add">子【CB】，識【印順】</note><app n="0307a1301"><lem resp="正聞出版社" wit="【CB】">子</lem><rdg wit="【印順】">識</rdg></app>是有的，只是它不發展<pb n="0308a" ed="Y" xml:id="Y44.0042.0308a.old" type="old"/>
 <pb n="0308a" ed="Y" xml:id="Y44.0042.0308a"/>
 <lb n="0308a01" ed="Y"/><lb n="0308a01" ed="Y" type="old"/>，不像我們這個欲界一樣起這許多煩惱。所以，如果色界天要借識起這一個作用的話
 <lb n="0308a02" ed="Y"/><lb n="0308a02" ed="Y" type="old"/>，他要起欲界識，才能夠聞到欲界的香氣，才能夠嚐到欲界的滋味。所以，香界、味
 <lb n="0308a03" ed="Y"/><lb n="0308a03" ed="Y" type="old"/>界、鼻識界、舌識界，這四種界都是欲界的境界，色界是沒有的。</p>
-<lb n="0308a04" ed="Y"/><lb n="0308a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">到了無色界，只剩三個界了。無色界就是沒有色了，眼、耳、鼻、舌、身，色、
+<lb n="0308a04" ed="Y"/><lb n="0308a04" ed="Y" type="old"/><p xml:id="pY44p0308a0401" style="margin-left:1em;text-indent:2em">到了無色界，只剩三個界了。無色界就是沒有色了，眼、耳、鼻、舌、身，色、
 <lb n="0308a05" ed="Y"/><lb n="0308a05" ed="Y" type="old"/>聲、香、味、觸都沒有了，那麼眼識、耳識、鼻識、舌識、身識當然也就沒有了。沒
 <lb n="0308a06" ed="Y"/><lb n="0308a06" ed="Y" type="old"/>有前五根與前五種境界，當然相應的五識就沒有了。所以，無色界只剩意界、意識界
 <lb n="0308a07" ed="Y"/><lb n="0308a07" ed="Y" type="old"/>、法界這後三界。</p>
-<lb n="0308a08" ed="Y"/><lb n="0308a08" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">用三界繫來配十八界，欲界有十八界，色界只有十四界，無色界只有三界。那麼
+<lb n="0308a08" ed="Y"/><lb n="0308a08" ed="Y" type="old"/><p xml:id="pY44p0308a0801" style="margin-left:1em;text-indent:2em">用三界繫來配十八界，欲界有十八界，色界只有十四界，無色界只有三界。那麼
 <lb n="0308a09" ed="Y"/><lb n="0308a09" ed="Y" type="old"/>，<quote type="嚴謹引文">「不繫」</quote>就是無漏法。比方涅槃，涅槃是超出三界，不屬於三界，它是無漏法。其
 <lb n="0308a10" ed="Y"/><lb n="0308a10" ed="Y" type="old"/>實，無漏的戒、定、慧，這些無漏法都是<quote type="嚴謹引文">「不繫」</quote>。</p>
-<lb n="0308a11" ed="Y"/><lb n="0308a11" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">所以，佛法這個道理講起來，非常可以加以分別的。比方我們現在是人，住在欲
+<lb n="0308a11" ed="Y"/><lb n="0308a11" ed="Y" type="old"/><p xml:id="pY44p0308a1101" style="margin-left:1em;text-indent:2em">所以，佛法這個道理講起來，非常可以加以分別的。比方我們現在是人，住在欲
 <lb n="0308a12" ed="Y"/><lb n="0308a12" ed="Y" type="old"/>界，那麼我們平常的時候就有這十八界的法。假使生在欲界，修行證道了，不要講大
 <lb n="0308a13" ed="Y"/><lb n="0308a13" ed="Y" type="old"/>菩薩，證初果這一個時候的智慧，就是無漏法門，不屬三界，出三界了。這個智慧所
 <lb n="0308a14" ed="Y"/><lb n="0308a14" ed="Y" type="old"/>證到的四諦真理之類，或者大乘法講證到真如、無我之類的，都是不屬三界生死的。<pb n="0309a" ed="Y" xml:id="Y44.0042.0309a.old" type="old"/>
@@ -275,31 +295,31 @@
 <lb n="0309a05" ed="Y"/><lb n="0309a05" ed="Y" type="old"/>候還是會生病，大小便還是要大小便，苦惱的時候也有苦惱，冷起來也會怕冷，聖人
 <lb n="0309a06" ed="Y"/><lb n="0309a06" ed="Y" type="old"/>也是一樣。這就叫<quote type="嚴謹引文">「繫不繫分別」</quote>，分四類。</p></cb:div></cb:div>
 <lb n="0309a07" ed="Y"/><lb n="0309a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第六項　蘊所攝、取蘊所攝</cb:mulu><head>第六項　蘊所攝、取蘊所攝</head>
-<lb n="0309a08" ed="Y"/><lb n="0309a08" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">幾蘊所攝？謂除無為。幾取蘊所攝？謂有漏。</p></quote></cb:div>
-<lb n="0309a09" ed="Y"/><lb n="0309a09" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">這個叫<quote type="嚴謹引文">「蘊取蘊分別」</quote>。<quote type="嚴謹引文">「蘊」</quote>和<quote type="嚴謹引文">「取蘊」</quote>，這兩個名字有分別的。除了無為，
+<lb n="0309a08" ed="Y"/><lb n="0309a08" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0309a0801" rend="bold">幾蘊所攝？謂除無為。幾取蘊所攝？謂有漏。</p></quote></cb:div>
+<lb n="0309a09" ed="Y"/><lb n="0309a09" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0309a0901" style="margin-left:1em;text-indent:2em">這個叫<quote type="嚴謹引文">「蘊取蘊分別」</quote>。<quote type="嚴謹引文">「蘊」</quote>和<quote type="嚴謹引文">「取蘊」</quote>，這兩個名字有分別的。除了無為，
 <lb n="0309a10" ed="Y"/><lb n="0309a10" ed="Y" type="old"/>其他的一切有為法，都屬<quote type="嚴謹引文">「五蘊」</quote>。<quote type="嚴謹引文">「五取蘊」</quote>，古代有的翻譯<quote type="嚴謹引文">「五取陰」</quote>，純粹是
 <lb n="0309a11" ed="Y"/><lb n="0309a11" ed="Y" type="old"/>有漏法。</p>
-<lb n="0309a12" ed="Y"/><lb n="0309a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「取」</quote>是一種煩惱，像我們生死眾生的這個五蘊身，就是叫<quote type="嚴謹引文">「五取蘊」</quote>。因為前
+<lb n="0309a12" ed="Y"/><lb n="0309a12" ed="Y" type="old"/><p xml:id="pY44p0309a1201" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「取」</quote>是一種煩惱，像我們生死眾生的這個五蘊身，就是叫<quote type="嚴謹引文">「五取蘊」</quote>。因為前
 <lb n="0309a13" ed="Y"/><lb n="0309a13" ed="Y" type="old"/>生<quote type="嚴謹引文">「愛緣取，取緣有，有緣生」</quote>，我們這個生死身的五蘊法，從<quote type="嚴謹引文">「取」</quote>所生，從<quote type="嚴謹引文">「取<pb n="0310a" ed="Y" xml:id="Y44.0042.0310a.old" type="old"/>
 <pb n="0310a" ed="Y" xml:id="Y44.0042.0310a"/>
 <lb n="0310a01" ed="Y"/><lb n="0310a01" ed="Y" type="old"/>」</quote>來的，所以叫<quote type="嚴謹引文">「取蘊」</quote>。五取蘊不但是從<quote type="嚴謹引文">「取」</quote>來的，還會再生起<quote type="嚴謹引文">「取」</quote>煩惱，生
 <lb n="0310a02" ed="Y"/><lb n="0310a02" ed="Y" type="old"/>後面的五取蘊。同時，我們現在就很多時候與<quote type="嚴謹引文">「取」</quote>相應，取的煩惱時常生起。所以
 <lb n="0310a03" ed="Y"/><lb n="0310a03" ed="Y" type="old"/>，有漏的生死法，叫做<quote type="嚴謹引文">「取蘊」</quote>。</p>
-<lb n="0310a04" ed="Y"/><lb n="0310a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">比方佛、阿羅漢，甚至於證悟了的聖人，他們的五蘊還是五蘊，眼、耳、鼻、舌
+<lb n="0310a04" ed="Y"/><lb n="0310a04" ed="Y" type="old"/><p xml:id="pY44p0310a0401" style="margin-left:1em;text-indent:2em">比方佛、阿羅漢，甚至於證悟了的聖人，他們的五蘊還是五蘊，眼、耳、鼻、舌
 <lb n="0310a05" ed="Y"/><lb n="0310a05" ed="Y" type="old"/>、身這許多，色、聲、香、味、觸之類的，還是有漏法。但是，他們已不叫<quote type="嚴謹引文">「五取蘊
 <lb n="0310a06" ed="Y"/><lb n="0310a06" ed="Y" type="old"/>」</quote>，叫<quote type="嚴謹引文">「五蘊」</quote>，因為已經得到解脫了。聖人的五蘊之所以還是叫做<quote type="嚴謹引文">「五蘊」</quote>，因為
 <lb n="0310a07" ed="Y"/><lb n="0310a07" ed="Y" type="old"/>還是從取所生的，不過，不會再生起取來就是了。所以，<quote type="嚴謹引文">「取蘊」</quote>就是有漏法，<quote type="嚴謹引文">「蘊
 <lb n="0310a08" ed="Y"/><lb n="0310a08" ed="Y" type="old"/>」</quote>可能是有漏，也可能無漏，不限的。</p></cb:div></cb:div>
 <lb n="0310a09" ed="Y"/><lb n="0310a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第七項　善、不善、無記</cb:mulu><head>第七項　善、不善、無記</head>
-<lb n="0310a10" ed="Y"/><lb n="0310a10" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">幾善？幾不善？幾無記？謂十通三性，七心界、色、聲及法界一分；八無記性。</p></quote></cb:div>
-<lb n="0310a11" ed="Y"/><lb n="0310a11" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">十八界裡面，有幾種是善的？幾種是不善的？幾種是無記的？先簡單解說一下<quote type="嚴謹引文">「
+<lb n="0310a10" ed="Y"/><lb n="0310a10" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0310a1001" rend="bold">幾善？幾不善？幾無記？謂十通三性，七心界、色、聲及法界一分；八無記性。</p></quote></cb:div>
+<lb n="0310a11" ed="Y"/><lb n="0310a11" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0310a1101" style="margin-left:1em;text-indent:2em">十八界裡面，有幾種是善的？幾種是不善的？幾種是無記的？先簡單解說一下<quote type="嚴謹引文">「
 <lb n="0310a12" ed="Y"/><lb n="0310a12" ed="Y" type="old"/>善」</quote>、<quote type="嚴謹引文">「不善」</quote>、<quote type="嚴謹引文">「無記」</quote>。一種心理的作用也好，活動也好，我們的行為也好，這
 <lb n="0310a13" ed="Y"/><lb n="0310a13" ed="Y" type="old"/>樣子做了，對己、對人有利，將來能夠感到好的果報的，這個叫做善。假使這種心、<pb n="0311a" ed="Y" xml:id="Y44.0042.0311a.old" type="old"/>
 <pb n="0311a" ed="Y" xml:id="Y44.0042.0311a"/>
 <lb n="0311a01" ed="Y"/><lb n="0311a01" ed="Y" type="old"/>這種行為，對自、對他都沒有利益，或者是傷害別人，將來（主要是未來生中）要受
 <lb n="0311a02" ed="Y"/><lb n="0311a02" ed="Y" type="old"/>苦果的，這個叫惡業、不善業。另外有一種叫無記，也不能說是善的，也不能說是不
 <lb n="0311a03" ed="Y"/><lb n="0311a03" ed="Y" type="old"/>善的，比方這手或者頭動一下，無所謂善、不善，這個就叫<quote type="嚴謹引文">「無記」</quote>。</p>
-<lb n="0311a04" ed="Y"/><lb n="0311a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">知道了善、不善、無記的定義，那麼就可以分別了。<quote type="嚴謹引文">「十通三性」</quote>，有十個界通
+<lb n="0311a04" ed="Y"/><lb n="0311a04" ed="Y" type="old"/><p xml:id="pY44p0311a0401" style="margin-left:1em;text-indent:2em">知道了善、不善、無記的定義，那麼就可以分別了。<quote type="嚴謹引文">「十通三性」</quote>，有十個界通
 <lb n="0311a05" ed="Y"/><lb n="0311a05" ed="Y" type="old"/>於善、惡、無記的。那幾個呢？<quote type="嚴謹引文">「七心界、色、聲及法界一分」</quote>。<quote type="嚴謹引文">「七心界」</quote>，就是
 <lb n="0311a06" ed="Y"/><lb n="0311a06" ed="Y" type="old"/>意界和前面的六識界——眼識、耳識、鼻識、舌識、身識、意識，這可以是善，也可
 <lb n="0311a07" ed="Y"/><lb n="0311a07" ed="Y" type="old"/>以是不善，也可以是無記。<quote type="嚴謹引文">「色、聲」</quote>，色、聲怎麼能夠說是善和不善呢？比方我用
@@ -316,28 +336,28 @@
 <lb n="0312a03" ed="Y"/><lb n="0312a03" ed="Y" type="old"/>善、惡的。<quote type="嚴謹引文">「法界一分」</quote>通三性，比方我們講「念」：「失念」，這是屬於煩惱的；
 <lb n="0312a04" ed="Y"/><lb n="0312a04" ed="Y" type="old"/>假使是說信、進、「念」、定、慧，這是無漏的，是善法；假使普普通通的記著，像
 <lb n="0312a05" ed="Y"/><lb n="0312a05" ed="Y" type="old"/>讀書一樣的這樣過去的，這種念，那是無記。法界裡面很多是通於三性的。</p>
-<lb n="0312a06" ed="Y"/><lb n="0312a06" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">其他八個，都是<quote type="嚴謹引文">「無記性」</quote>。眼、耳、鼻、舌、身這五界，是無記的，業報所感
+<lb n="0312a06" ed="Y"/><lb n="0312a06" ed="Y" type="old"/><p xml:id="pY44p0312a0601" style="margin-left:1em;text-indent:2em">其他八個，都是<quote type="嚴謹引文">「無記性」</quote>。眼、耳、鼻、舌、身這五界，是無記的，業報所感
 <lb n="0312a07" ed="Y"/><lb n="0312a07" ed="Y" type="old"/>的。還有香、味、觸這三界沒有善、惡。這八種都是無記法，沒有善、惡的。</p></cb:div></cb:div>
 <lb n="0312a08" ed="Y"/><lb n="0312a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第八項　內、外</cb:mulu><head>第八項　內、外</head>
-<lb n="0312a09" ed="Y"/><lb n="0312a09" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">幾是內？謂十二，除色、聲、香、味、觸及法界。幾是外？謂所餘六。</p></quote></cb:div>
-<lb n="0312a10" ed="Y"/><lb n="0312a10" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">六根，這屬於<quote type="嚴謹引文">「內」</quote>。眾生之所以為眾生，眾生的生命自體就是眼、耳、鼻、舌
+<lb n="0312a09" ed="Y"/><lb n="0312a09" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0312a0901" rend="bold">幾是內？謂十二，除色、聲、香、味、觸及法界。幾是外？謂所餘六。</p></quote></cb:div>
+<lb n="0312a10" ed="Y"/><lb n="0312a10" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0312a1001" style="margin-left:1em;text-indent:2em">六根，這屬於<quote type="嚴謹引文">「內」</quote>。眾生之所以為眾生，眾生的生命自體就是眼、耳、鼻、舌
 <lb n="0312a11" ed="Y"/><lb n="0312a11" ed="Y" type="old"/>、身、意六界，這六界當然是屬於<quote type="嚴謹引文">「內」</quote>。還有眼識、耳識、鼻識、舌識、身識、意
 <lb n="0312a12" ed="Y"/><lb n="0312a12" ed="Y" type="old"/>識，這六種識是心理活動、心理作用，當然屬於<quote type="嚴謹引文">「內」</quote>。其他的色、聲、香、味、觸
 <lb n="0312a13" ed="Y"/><lb n="0312a13" ed="Y" type="old"/>及法界，都是以六識所緣的境界，所以這個就是<quote type="嚴謹引文">「外」</quote>。換一句話，「外」就是色、<pb n="0313a" ed="Y" xml:id="Y44.0042.0313a.old" type="old"/>
 <pb n="0313a" ed="Y" xml:id="Y44.0042.0313a"/>
 <lb n="0313a01" ed="Y"/><lb n="0313a01" ed="Y" type="old"/>聲、香、味、觸及法界；除了這六個<quote type="嚴謹引文">「外」</quote>以外，剩下的十二個就屬於<quote type="嚴謹引文">「內」</quote>。</p></cb:div></cb:div>
 <lb n="0313a02" ed="Y"/><lb n="0313a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第九項　有緣慮、無緣慮</cb:mulu><head>第九項　有緣慮、無緣慮</head>
-<lb n="0313a03" ed="Y"/><lb n="0313a03" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">幾有緣？謂七心界及法界少分心所法性。幾無緣？謂餘十及法界少分。</p></quote></cb:div>
-<lb n="0313a04" ed="Y"/><lb n="0313a04" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">這個有緣、無緣的「緣」，與我們普通講的我和你有緣，兩個人很有緣的「緣」
+<lb n="0313a03" ed="Y"/><lb n="0313a03" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0313a0301" rend="bold">幾有緣？謂七心界及法界少分心所法性。幾無緣？謂餘十及法界少分。</p></quote></cb:div>
+<lb n="0313a04" ed="Y"/><lb n="0313a04" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0313a0401" style="margin-left:1em;text-indent:2em">這個有緣、無緣的「緣」，與我們普通講的我和你有緣，兩個人很有緣的「緣」
 <lb n="0313a05" ed="Y"/><lb n="0313a05" ed="Y" type="old"/>不同。這個緣是「緣慮」的緣，單單一個「緣」字，容易誤解，加個「慮」字——緣
 <lb n="0313a06" ed="Y"/><lb n="0313a06" ed="Y" type="old"/>慮。心能夠去了別境界，能夠去緣慮境界的，叫做<quote type="嚴謹引文">「有緣」</quote>；不能夠去緣境界的，就
 <lb n="0313a07" ed="Y"/><lb n="0313a07" ed="Y" type="old"/>叫做<quote type="嚴謹引文">「無緣」</quote>。</p>
-<lb n="0313a08" ed="Y"/><lb n="0313a08" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「七心界」</quote>，這個當然是有緣慮的，是能緣法。法界當中的少分，就是心相應法
+<lb n="0313a08" ed="Y"/><lb n="0313a08" ed="Y" type="old"/><p xml:id="pY44p0313a0801" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「七心界」</quote>，這個當然是有緣慮的，是能緣法。法界當中的少分，就是心相應法
 <lb n="0313a09" ed="Y"/><lb n="0313a09" ed="Y" type="old"/>，所以是<quote type="嚴謹引文">「心所法性」</quote>。叫<quote type="嚴謹引文">「法界少分」</quote>，是法界當中的一部分，就是屬於心所法的
 <lb n="0313a10" ed="Y"/><lb n="0313a10" ed="Y" type="old"/>這一部分，遍行、別境、善、煩惱、不定這許多，這都是有緣慮的法。其他的，都是
 <lb n="0313a11" ed="Y"/><lb n="0313a11" ed="Y" type="old"/>沒有緣慮的，眼、耳、鼻、舌、身這五根，色、聲、香、味、觸這五塵，法界當中的
 <lb n="0313a12" ed="Y"/><lb n="0313a12" ed="Y" type="old"/>一部分，像無為法、不相應行，這種都是沒有緣慮的。</p>
-<lb n="0313a13" ed="Y"/><lb n="0313a13" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">佛法裡面，這些地方分得很細。比方我們眼睛看到的東西，我們總說我眼睛能夠<pb n="0314a" ed="Y" xml:id="Y44.0042.0314a.old" type="old"/>
+<lb n="0313a13" ed="Y"/><lb n="0313a13" ed="Y" type="old"/><p xml:id="pY44p0313a1301" style="margin-left:1em;text-indent:2em">佛法裡面，這些地方分得很細。比方我們眼睛看到的東西，我們總說我眼睛能夠<pb n="0314a" ed="Y" xml:id="Y44.0042.0314a.old" type="old"/>
 <pb n="0314a" ed="Y" xml:id="Y44.0042.0314a"/>
 <lb n="0314a01" ed="Y"/><lb n="0314a01" ed="Y" type="old"/>看到，好像我眼睛能夠知道一樣；佛法裡講的，不是這樣。眼睛是取這個境界，好像
 <lb n="0314a02" ed="Y"/><lb n="0314a02" ed="Y" type="old"/>照相機一樣，啪！照出相來，取這個境界。能知道的，那是眼識，不是眼根。眼根只
@@ -351,11 +371,11 @@
 <lb n="0314a10" ed="Y"/><lb n="0314a10" ed="Y" type="old"/>的，眼睛只會取這個相，眼識才會知道。所以，這叫<quote type="嚴謹引文">「有緣」</quote>；其他十個，眼、耳、
 <lb n="0314a11" ed="Y"/><lb n="0314a11" ed="Y" type="old"/>鼻、舌、身，色、聲、香、味、觸，及法界的少分，那就是<quote type="嚴謹引文">「無緣」</quote>法。</p></cb:div></cb:div>
 <lb n="0314a12" ed="Y"/><lb n="0314a12" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第十項　有分別、無分別</cb:mulu><head>第十項　有分別、無分別</head>
-<lb n="0314a13" ed="Y"/><lb n="0314a13" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">幾有分別？謂意識界、意界及法界少分。</p></quote></cb:div><pb n="0315a" ed="Y" xml:id="Y44.0042.0315a.old" type="old"/>
+<lb n="0314a13" ed="Y"/><lb n="0314a13" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0314a1301" rend="bold">幾有分別？謂意識界、意界及法界少分。</p></quote></cb:div><pb n="0315a" ed="Y" xml:id="Y44.0042.0315a.old" type="old"/>
 <pb n="0315a" ed="Y" xml:id="Y44.0042.0315a"/>
-<lb n="0315a01" ed="Y"/><lb n="0315a01" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">這裡說只有意識界、意界及法界少分這三種是<quote type="嚴謹引文">「有分別」</quote>的，沒有說到<quote type="嚴謹引文">「無分別
+<lb n="0315a01" ed="Y"/><lb n="0315a01" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0315a0101" style="margin-left:1em;text-indent:2em">這裡說只有意識界、意界及法界少分這三種是<quote type="嚴謹引文">「有分別」</quote>的，沒有說到<quote type="嚴謹引文">「無分別
 <lb n="0315a02" ed="Y"/><lb n="0315a02" ed="Y" type="old"/>」</quote>。換一句話，其他的十五界及法界少分，就是沒有分別了。</p>
-<lb n="0315a03" ed="Y"/><lb n="0315a03" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">佛法的名字，有許多講起來很難講。比方這裡說到「有分別」，眼識有沒有分別
+<lb n="0315a03" ed="Y"/><lb n="0315a03" ed="Y" type="old"/><p xml:id="pY44p0315a0301" style="margin-left:1em;text-indent:2em">佛法的名字，有許多講起來很難講。比方這裡說到「有分別」，眼識有沒有分別
 <lb n="0315a04" ed="Y"/><lb n="0315a04" ed="Y" type="old"/>呢？其實眼識也有分別的，但是，這一個分別的名字叫「自性分別」，它是直覺的就
 <lb n="0315a05" ed="Y"/><lb n="0315a05" ed="Y" type="old"/>知道。耳朵聽到的話，因耳根引起耳識，它是一種直覺的知道，這一種叫「自性分別
 <lb n="0315a06" ed="Y"/><lb n="0315a06" ed="Y" type="old"/>」。但是，真正的說要去研究研究，要去瞭解瞭解，那這一種的分別，眼識、耳識、
@@ -364,25 +384,25 @@
 <lb n="0315a09" ed="Y"/><lb n="0315a09" ed="Y" type="old"/>那眼識是不成的，沒有這個作用。它雖然看到這個人是個什麼樣子，但是，要知道這
 <lb n="0315a10" ed="Y"/><lb n="0315a10" ed="Y" type="old"/>是什麼人，那不是它的事，是意識的事了。所以，意識才是有分別的，我們一天到晚
 <lb n="0315a11" ed="Y"/><lb n="0315a11" ed="Y" type="old"/>的分別，主要都是意識。意識裡面還有意界，末那識執我的，就是這意界。</p>
-<lb n="0315a12" ed="Y"/><lb n="0315a12" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">法界當中的心所法，如果與五識相應，那麼這個心所法也沒有分別，也是自性分
+<lb n="0315a12" ed="Y"/><lb n="0315a12" ed="Y" type="old"/><p xml:id="pY44p0315a1201" style="margin-left:1em;text-indent:2em">法界當中的心所法，如果與五識相應，那麼這個心所法也沒有分別，也是自性分
 <lb n="0315a13" ed="Y"/><lb n="0315a13" ed="Y" type="old"/>別；如果是與意識相應，不管是善的、是惡的，只要是與意識相應，那這種心所法也
 <lb n="0315a14" ed="Y"/><lb n="0315a14" ed="Y" type="old"/>是有分別。所以，這裡說的有沒有分別，也不是說五識什麼都不曉得，它知道，只是<pb n="0316a" ed="Y" xml:id="Y44.0042.0316a.old" type="old"/>
 <pb n="0316a" ed="Y" xml:id="Y44.0042.0316a"/>
 <lb n="0316a01" ed="Y"/><lb n="0316a01" ed="Y" type="old"/>它這是叫做自性分別，它沒有我們普通說的這個分別的作用。</p></cb:div></cb:div>
 <lb n="0316a02" ed="Y"/><lb n="0316a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第十一項　有執受、非執受</cb:mulu><head>第十一項　有執受、非執受</head>
-<lb n="0316a03" ed="Y"/><lb n="0316a03" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">幾有執受？謂五內界及四界少分，謂色、香、味、觸。幾非執受？謂餘九及四少分。</p></quote></cb:div>
-<lb n="0316a04" ed="Y"/><lb n="0316a04" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">比方我們這個人，不管是說物質的也好，心心所法也好，其實是各式各樣和合而
+<lb n="0316a03" ed="Y"/><lb n="0316a03" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0316a0301" rend="bold">幾有執受？謂五內界及四界少分，謂色、香、味、觸。幾非執受？謂餘九及四少分。</p></quote></cb:div>
+<lb n="0316a04" ed="Y"/><lb n="0316a04" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0316a0401" style="margin-left:1em;text-indent:2em">比方我們這個人，不管是說物質的也好，心心所法也好，其實是各式各樣和合而
 <lb n="0316a05" ed="Y"/><lb n="0316a05" ed="Y" type="old"/>有的。人之所以能成為一個有機的人，能夠統一活動，成為像我們的身心之類的，是
 <lb n="0316a06" ed="Y"/><lb n="0316a06" ed="Y" type="old"/>阿賴耶識所執受的。所以，簡單說，屬於我們眾生的，就是<quote type="嚴謹引文">「有執受」</quote>的。比方桌子
 <lb n="0316a07" ed="Y"/><lb n="0316a07" ed="Y" type="old"/>、山河大地、草木、叢林、土、泥這許多，就是<quote type="嚴謹引文">「非執受」</quote>。</p>
-<lb n="0316a08" ed="Y"/><lb n="0316a08" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">所以，<quote type="嚴謹引文">「有執受」</quote>就是屬於眾生法。<quote type="嚴謹引文">「謂五內界」</quote>——眼、耳、鼻、舌、身，還
+<lb n="0316a08" ed="Y"/><lb n="0316a08" ed="Y" type="old"/><p xml:id="pY44p0316a0801" style="margin-left:1em;text-indent:2em">所以，<quote type="嚴謹引文">「有執受」</quote>就是屬於眾生法。<quote type="嚴謹引文">「謂五內界」</quote>——眼、耳、鼻、舌、身，還
 <lb n="0316a09" ed="Y"/><lb n="0316a09" ed="Y" type="old"/>有<quote type="嚴謹引文">「四界」</quote>的<quote type="嚴謹引文">「少分」</quote>——色、香、味、觸，這都為心心所法所執受的，屬於<quote type="嚴謹引文">「有執
 <lb n="0316a10" ed="Y"/><lb n="0316a10" ed="Y" type="old"/>受」</quote>。我們這個人，有眼、耳、鼻、舌、身，這個沒有問題。我自己看到我的手，手
 <lb n="0316a11" ed="Y"/><lb n="0316a11" ed="Y" type="old"/>是<quote type="嚴謹引文">「色」</quote>。我這個身根去觸，不一定觸別的，我的手自己碰自己，也是身根觸，也有
 <lb n="0316a12" ed="Y"/><lb n="0316a12" ed="Y" type="old"/><quote type="嚴謹引文">「觸」</quote>。不但我吃東西的時候是有滋味的，沒有吃東西的時候，其實裡面還是有<quote type="嚴謹引文">「味
 <lb n="0316a13" ed="Y"/><lb n="0316a13" ed="Y" type="old"/>」</quote>的。我們人身體上也有一種氣息、一種氣味，這是<quote type="嚴謹引文">「香」</quote>。這種都是有執受的。</p><pb n="0317a" ed="Y" xml:id="Y44.0042.0317a.old" type="old"/>
 <pb n="0317a" ed="Y" xml:id="Y44.0042.0317a"/>
-<lb n="0317a01" ed="Y"/><lb n="0317a01" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">這裡面有個「聲音」是非執受的。比方外面的聲音，風吹、草動的聲音，或者是
+<lb n="0317a01" ed="Y"/><lb n="0317a01" ed="Y" type="old"/><p xml:id="pY44p0317a0101" style="margin-left:1em;text-indent:2em">這裡面有個「聲音」是非執受的。比方外面的聲音，風吹、草動的聲音，或者是
 <lb n="0317a02" ed="Y"/><lb n="0317a02" ed="Y" type="old"/>水流的聲音，這是非執受的。那麼，我們講話的聲音，怎麼也是<quote type="嚴謹引文">「非執受」</quote>呢？執受
 <lb n="0317a03" ed="Y"/><lb n="0317a03" ed="Y" type="old"/>的，就是在我們身上的；講話的聲音是進進出出的氣的活動，「聲音」不能說是在我
 <lb n="0317a04" ed="Y"/><lb n="0317a04" ed="Y" type="old"/>們身上的，這是氣息在那裡進出，所以，聲音是<quote type="嚴謹引文">「非執受」</quote>。而且，凡是執受的東西
@@ -391,42 +411,42 @@
 <lb n="0317a07" ed="Y"/><lb n="0317a07" ed="Y" type="old"/>界少分，其他的都是<quote type="嚴謹引文">「非執受」</quote>法。至於心心所法，是能夠執受的，所以也不在其內
 <lb n="0317a08" ed="Y"/><lb n="0317a08" ed="Y" type="old"/>，也是非執受。</p></cb:div></cb:div>
 <lb n="0317a09" ed="Y"/><lb n="0317a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">第十二項　同分、彼同分</cb:mulu><head>第十二項　同分、彼同分</head>
-<lb n="0317a10" ed="Y"/><lb n="0317a10" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p rend="bold">幾同分？謂五內有色界，與彼自識等境界故。幾彼同分？謂彼自識空時，與自類等故。</p></quote></cb:div>
-<lb n="0317a11" ed="Y"/><lb n="0317a11" ed="Y" type="old"/><cb:div type="commentary"><p style="margin-left:1em;text-indent:2em">最後一個很特殊，上面講到<quote type="嚴謹引文">「眾同分」</quote>，現在這個地方不是<quote type="嚴謹引文">「眾同分」</quote>，叫<quote type="嚴謹引文">「同
+<lb n="0317a10" ed="Y"/><lb n="0317a10" ed="Y" type="old"/><cb:div type="orig"><quote type="被解釋的經論"><p xml:id="pY44p0317a1001" rend="bold">幾同分？謂五內有色界，與彼自識等境界故。幾彼同分？謂彼自識空時，與自類等故。</p></quote></cb:div>
+<lb n="0317a11" ed="Y"/><lb n="0317a11" ed="Y" type="old"/><cb:div type="commentary"><p xml:id="pY44p0317a1101" style="margin-left:1em;text-indent:2em">最後一個很特殊，上面講到<quote type="嚴謹引文">「眾同分」</quote>，現在這個地方不是<quote type="嚴謹引文">「眾同分」</quote>，叫<quote type="嚴謹引文">「同
 <lb n="0317a12" ed="Y"/><lb n="0317a12" ed="Y" type="old"/>分」</quote>、<quote type="嚴謹引文">「彼同分」</quote>。</p>
-<lb n="0317a13" ed="Y"/><lb n="0317a13" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">這個<quote type="嚴謹引文">「同分」</quote>，就是同類的意思。<quote type="嚴謹引文">「五內有色界」</quote>，就是眼、耳、鼻、舌、身這<pb n="0318a" ed="Y" xml:id="Y44.0042.0318a.old" type="old"/>
+<lb n="0317a13" ed="Y"/><lb n="0317a13" ed="Y" type="old"/><p xml:id="pY44p0317a1301" style="margin-left:1em;text-indent:2em">這個<quote type="嚴謹引文">「同分」</quote>，就是同類的意思。<quote type="嚴謹引文">「五內有色界」</quote>，就是眼、耳、鼻、舌、身這<pb n="0318a" ed="Y" xml:id="Y44.0042.0318a.old" type="old"/>
 <pb n="0318a" ed="Y" xml:id="Y44.0042.0318a"/>
 <lb n="0318a01" ed="Y"/><lb n="0318a01" ed="Y" type="old"/>五根。比方眼根去取色境界，眼識就起來瞭解這個色境界，這個眼識就是眼根的<quote type="嚴謹引文">「自
 <lb n="0318a02" ed="Y"/><lb n="0318a02" ed="Y" type="old"/>識」</quote>。眼根取色正在起眼識，眼根去看這個色，眼識去分別這個色，根<quote type="嚴謹引文">「與彼自識等
 <lb n="0318a03" ed="Y"/><lb n="0318a03" ed="Y" type="old"/>境界故」</quote>。眼、耳、鼻、舌、身這五根，在生起自識的時候，因為和自識的境界是同
 <lb n="0318a04" ed="Y"/><lb n="0318a04" ed="Y" type="old"/>一個境界，所以叫<quote type="嚴謹引文">「同分」</quote>。</p>
-<lb n="0318a05" ed="Y"/><lb n="0318a05" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「彼同分」</quote>，佛法裡這個名字很特別的，<quote type="嚴謹引文">「謂彼自識空時，與自類等故」</quote>。比方
+<lb n="0318a05" ed="Y"/><lb n="0318a05" ed="Y" type="old"/><p xml:id="pY44p0318a0501" style="margin-left:1em;text-indent:2em"><quote type="嚴謹引文">「彼同分」</quote>，佛法裡這個名字很特別的，<quote type="嚴謹引文">「謂彼自識空時，與自類等故」</quote>。比方
 <lb n="0318a06" ed="Y"/><lb n="0318a06" ed="Y" type="old"/>眼睛看，眼識再瞭解，這個時候叫<quote type="嚴謹引文">「同分」</quote>。眼睛不看了，這時候眼識也不起了，就
 <lb n="0318a07" ed="Y"/><lb n="0318a07" ed="Y" type="old"/>是只有眼根，眼根自類相等，與眼識沒有同境界的意義，這叫<quote type="嚴謹引文">「彼同分」</quote>。換一句話
 <lb n="0318a08" ed="Y"/><lb n="0318a08" ed="Y" type="old"/>，有一點像<quote type="嚴謹引文">「非同分」</quote>，雖然不是上面的<quote type="嚴謹引文">「同分」</quote>，它沒有與彼同，沒有與其他的相
 <lb n="0318a09" ed="Y"/><lb n="0318a09" ed="Y" type="old"/>等，可是它還是自己同，還是有<quote type="嚴謹引文">「同分」</quote>，這叫<quote type="嚴謹引文">「彼同分」</quote>。</p></cb:div></cb:div></cb:div></cb:div><pb n="0319a" ed="Y" xml:id="Y44.0042.0319a.old" type="old"/>
 <pb n="0319a" ed="Y" xml:id="Y44.0042.0319a"/>
-<lb n="0319a01" ed="Y"/><lb n="0319a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">後語</cb:mulu><p style="margin-left:1em;text-indent:2em">※　　　　　※　　　　　※</p>
-<lb n="0319a02" ed="Y"/><lb n="0319a02" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">這許多名詞（名相），我們這麼簡要講講，有很多也不太好懂。真正的研究，要
+<lb n="0319a01" ed="Y"/><lb n="0319a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">後語</cb:mulu><p xml:id="pY44p0319a0103" style="margin-left:1em;text-indent:2em">※　　　　　※　　　　　※</p>
+<lb n="0319a02" ed="Y"/><lb n="0319a02" ed="Y" type="old"/><p xml:id="pY44p0319a0201" style="margin-left:1em;text-indent:2em">這許多名詞（名相），我們這麼簡要講講，有很多也不太好懂。真正的研究，要
 <lb n="0319a03" ed="Y"/><lb n="0319a03" ed="Y" type="old"/>慢慢慢慢去理解，參考很多註解，慢慢地懂起來。</p>
-<lb n="0319a04" ed="Y"/><lb n="0319a04" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">佛說的經很多，佛說的道理也很多，也很困難，不容易瞭解。後來的佛弟子，就
+<lb n="0319a04" ed="Y"/><lb n="0319a04" ed="Y" type="old"/><p xml:id="pY44p0319a0401" style="margin-left:1em;text-indent:2em">佛說的經很多，佛說的道理也很多，也很困難，不容易瞭解。後來的佛弟子，就
 <lb n="0319a05" ed="Y"/><lb n="0319a05" ed="Y" type="old"/>把佛說過的五蘊、十二處、十八界這許多名詞收集起來，慢慢慢慢歸類，得出這麼一
 <lb n="0319a06" ed="Y"/><lb n="0319a06" ed="Y" type="old"/>個一種有多少、佛說的就是這許多的歸類。各式各樣的說法，說來說去，主要的就是
 <lb n="0319a07" ed="Y"/><lb n="0319a07" ed="Y" type="old"/>這些問題，都是依這些事情講的。不管講善、惡，講起煩惱、繫縛，講生死、解脫，
 <lb n="0319a08" ed="Y"/><lb n="0319a08" ed="Y" type="old"/>講來講去，都是講這些問題。</p>
-<lb n="0319a09" ed="Y"/><lb n="0319a09" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">所以，把這些基本名詞知道了以後，其他的佛法，慢慢慢慢瞭解。這種基本的，
+<lb n="0319a09" ed="Y"/><lb n="0319a09" ed="Y" type="old"/><p xml:id="pY44p0319a0901" style="margin-left:1em;text-indent:2em">所以，把這些基本名詞知道了以後，其他的佛法，慢慢慢慢瞭解。這種基本的，
 <lb n="0319a10" ed="Y"/><lb n="0319a10" ed="Y" type="old"/>我叫做「基礎佛學」，要瞭解佛法，這是一種基礎。我們中國人有的人歡喜講得很高
 <lb n="0319a11" ed="Y"/><lb n="0319a11" ed="Y" type="old"/>妙，一下子講心、講性，講有、講空，頭頭是道，可是，實際上這種基礎佛學沒有，
 <lb n="0319a12" ed="Y"/><lb n="0319a12" ed="Y" type="old"/>很空洞的，經不起問的。講得好像有道理，真正一個問題一研究的話，就答不出來了
 <lb n="0319a13" ed="Y"/><lb n="0319a13" ed="Y" type="old"/>。阿毘達磨對每一個問題，都依據這個根本講的。比方說業報、感業，「業」是什麼<pb n="0320a" ed="Y" xml:id="Y44.0042.0320a.old" type="old"/>
 <pb n="0320a" ed="Y" xml:id="Y44.0042.0320a"/>
 <lb n="0320a01" ed="Y"/><lb n="0320a01" ed="Y" type="old"/>？它是什麼情形的？業報是怎麼感的？所講的種種，都是依據這個根本講的。</p>
-<lb n="0320a02" ed="Y"/><lb n="0320a02" ed="Y" type="old"/><p style="margin-left:1em;text-indent:2em">這個看似很淺，可是，真正對於我們生死輪迴、涅槃、解脫、修行裡面許多的問
+<lb n="0320a02" ed="Y"/><lb n="0320a02" ed="Y" type="old"/><p xml:id="pY44p0320a0201" style="margin-left:1em;text-indent:2em">這個看似很淺，可是，真正對於我們生死輪迴、涅槃、解脫、修行裡面許多的問
 <lb n="0320a03" ed="Y"/><lb n="0320a03" ed="Y" type="old"/>題，講得很具體。所以，現在做一個中國佛教徒的話，當然，高妙的也要學一點，但
 <lb n="0320a04" ed="Y"/><lb n="0320a04" ed="Y" type="old"/>是，如果沒有這種基礎的話，那就叫空談心性了。專門講上乘的、高的道理，下面沒
 <lb n="0320a05" ed="Y"/><lb n="0320a05" ed="Y" type="old"/>有基礎，不成！所以，我並不是講什麼高妙得很的，我們從前都還是從基礎的學來的
 <lb n="0320a06" ed="Y"/><lb n="0320a06" ed="Y" type="old"/>。雖然我不太講這許多事情，<title level="s">《妙雲集》</title>裡也都沒有，向來不講這許多的，但是，沒
 <lb n="0320a07" ed="Y"/><lb n="0320a07" ed="Y" type="old"/>有這許多的基本知識，其實是不成的。當然，有許多問題，各部各派講的、解說的，
 <lb n="0320a08" ed="Y"/><lb n="0320a08" ed="Y" type="old"/>有一點不同的地方也有的，但是，本論所講的是主要的。</p><pb n="0321a" ed="Y" xml:id="Y44.0042.0321a.old" type="old"/>
-<lb n="0320a09" ed="Y"/><lb n="0321a01" ed="Y" type="old"/><byline cb:type="other"><note n="0320a0901" resp="CBETA" type="add">編按<title level="m">大乘廣五蘊論講記</title>紙本之出版係根據華雨精舍明聖法師提供的原音錄音帶經聽錄整理編輯而成印公導師於民國７４年１月２０日起至４月３日止每日上午兩個小時左右在改建前的太平鄉華雨精舍舊宅內宣講聽眾有比丘淨耀比丘尼明聖慧琛心如性斌常妙德歆清硯如誠如儉達聞並夏居士朱秀英等謹敘講記因緣如上以徵時地人之信也【CB】，〔－〕【印順】</note><app n="0320a0901"><lem wit="【CB】" resp="正聞出版社">編按：<seg rend="kaiti"><title level="m">《大乘廣五蘊論講記》</title>紙本之出版，係根據華雨精舍明聖法師提供的原音<lb n="0321a02" ed="Y" type="old"/>錄音帶，經聽錄、整理、編輯而成。　印公導師於民國７４年１月２０日起，<lb n="0321a03" ed="Y" type="old"/>至４月３日止，每日上午兩個小時左右，在改建前的太平鄉華雨精舍舊宅<lb n="0321a04" ed="Y" type="old"/>內宣講。聽眾有：比丘淨耀，比丘尼明聖、慧琛、心如、性斌、常妙、德<lb n="0321a05" ed="Y" type="old"/>歆、清硯、如誠、如儉、達聞，並夏居士、朱秀英等。謹敘講記因緣如上<lb n="0321a06" ed="Y" type="old"/>，以徵時、地、人之信也。</seg></lem><rdg wit="【印順】"><lb n="0321a02" ed="Y" type="old"/><lb n="0321a03" ed="Y" type="old"/><lb n="0321a04" ed="Y" type="old"/><lb n="0321a05" ed="Y" type="old"/><lb n="0321a06" ed="Y" type="old"/><space quantity="0"/></rdg></app></byline><lb n="0321a07" ed="Y" type="old"/></cb:div>
+<lb n="0320a09" ed="Y"/><lb n="0321a01" ed="Y" type="old"/><byline cb:type="other"><note n="0320a0901" resp="CBETA" type="add">編按<title level="m">大乘廣五蘊論講記</title>紙本之出版係根據華雨精舍明聖法師提供的原音錄音帶經聽錄整理編輯而成印公導師於民國７４年１月２０日起至４月３日止每日上午兩個小時左右在改建前的太平鄉華雨精舍舊宅內宣講聽眾有比丘淨耀比丘尼明聖慧琛心如性斌常妙德歆清硯如誠如儉達聞並夏居士朱秀英等謹敘講記因緣如上以徵時地人之信也【CB】，〔－〕【印順】</note><app n="0320a0901"><lem resp="正聞出版社" wit="【CB】">編按：<seg rend="kaiti"><title level="m">《大乘廣五蘊論講記》</title>紙本之出版，係根據華雨精舍明聖法師提供的原音<lb n="0321a02" ed="Y" type="old"/>錄音帶，經聽錄、整理、編輯而成。　印公導師於民國７４年１月２０日起，<lb n="0321a03" ed="Y" type="old"/>至４月３日止，每日上午兩個小時左右，在改建前的太平鄉華雨精舍舊宅<lb n="0321a04" ed="Y" type="old"/>內宣講。聽眾有：比丘淨耀，比丘尼明聖、慧琛、心如、性斌、常妙、德<lb n="0321a05" ed="Y" type="old"/>歆、清硯、如誠、如儉、達聞，並夏居士、朱秀英等。謹敘講記因緣如上<lb n="0321a06" ed="Y" type="old"/>，以徵時、地、人之信也。</seg></lem><rdg wit="【印順】"><lb n="0321a02" ed="Y" type="old"/><lb n="0321a03" ed="Y" type="old"/><lb n="0321a04" ed="Y" type="old"/><lb n="0321a05" ed="Y" type="old"/><lb n="0321a06" ed="Y" type="old"/><space quantity="0"/></rdg></app></byline><lb n="0321a07" ed="Y" type="old"/></cb:div>
 </body></text></TEI>

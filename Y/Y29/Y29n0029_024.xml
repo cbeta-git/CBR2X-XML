@@ -12,49 +12,69 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 29, No. 29</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">29</idno>.<idno type="no">29</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（五）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">二三、《諦觀全集》序</cb:mulu>
-<milestone unit="juan" n="24"/><pb n="0205a" ed="Y" xml:id="Y29.0029.0205a.old" type="old"/>
+<milestone n="24" unit="juan"/><pb n="0205a" ed="Y" xml:id="Y29.0029.0205a.old" type="old"/>
 <pb n="0205a" ed="Y" xml:id="Y29.0029.0205a"/>
 <lb n="0205a01" ed="Y"/><lb n="0205a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">二四、《律宗教義及其紀傳》序</cb:mulu><head><title level="m">《律宗教義及其紀傳》</title>序<note n="0205001" resp="DILA" type="add">民國五〇年撰。</note></head>
-<lb n="0205a02" ed="Y"/><lb n="0205a02" ed="Y" type="old"/><p style="text-indent:2em">入佛之道，要在三學，而戒增上學居其首。載道之籍，統凡三藏，而律藏居
+<lb n="0205a02" ed="Y"/><lb n="0205a02" ed="Y" type="old"/><p xml:id="pY29p0205a0201" style="text-indent:2em">入佛之道，要在三學，而戒增上學居其首。載道之籍，統凡三藏，而律藏居
 <lb n="0205a03" ed="Y"/><lb n="0205a03" ed="Y" type="old"/>其一。戒律於佛法之重要，固不待繁言而知也！國人之於戒律，類知珍敬之，然
 <lb n="0205a04" ed="Y"/><lb n="0205a04" ed="Y" type="old"/>以特重心地之淨悟，個人之篤行，而律制乃漸以式微。夫學重心地之淨悟，理固
 <lb n="0205a05" ed="Y"/><lb n="0205a05" ed="Y" type="old"/>然也；然悟心而清淨者，身語清淨必有之，未有身語穢染，而心地能淨能悟者也
@@ -65,13 +85,13 @@
 <lb n="0205a10" ed="Y"/><lb n="0205a10" ed="Y" type="old"/>以清淨；以之化世，則日以廣信。末法障重而緣乖，非如法僧團以為之攝護，個
 <lb n="0205a11" ed="Y"/><lb n="0205a11" ed="Y" type="old"/>人篤行，言之何易？</p><pb n="0206a" ed="Y" xml:id="Y29.0029.0206a.old" type="old"/>
 <pb n="0206a" ed="Y" xml:id="Y29.0029.0206a"/>
-<lb n="0206a01" ed="Y"/><lb n="0206a01" ed="Y" type="old"/><p style="text-indent:2em">宋元以來，律制久衰，得明末古林馨公而重振之，後乃有寶華之崇律。然其
+<lb n="0206a01" ed="Y"/><lb n="0206a01" ed="Y" type="old"/><p xml:id="pY29p0206a0101" style="text-indent:2em">宋元以來，律制久衰，得明末古林馨公而重振之，後乃有寶華之崇律。然其
 <lb n="0206a02" ed="Y"/><lb n="0206a02" ed="Y" type="old"/>初也，三昧門下，日以傳戒為業，而不知安居為何事（見<title level="m">《一夢漫言》</title>），宏律
 <lb n="0206a03" ed="Y"/><lb n="0206a03" ed="Y" type="old"/>而不知律，其由來久矣！故雖得此而延授受之儀，而以律攝僧，以戒資定慧之大
 <lb n="0206a04" ed="Y"/><lb n="0206a04" ed="Y" type="old"/>用，終尠成就，而佛教亦卒於日衰！太虛大師嘗以得十人學律而後宏傳為望，固
 <lb n="0206a05" ed="Y"/><lb n="0206a05" ed="Y" type="old"/>以不知律無以宏傳，不宏律無以攝僧，淨身語以資定慧，乃能起正法之衰也！赤
 <lb n="0206a06" ed="Y"/><lb n="0206a06" ed="Y" type="old"/>禍中華，諸大德來遊寶島，傳戒時聞，講律間作，其正法復興之朕歟！</p>
-<lb n="0206a07" ed="Y"/><lb n="0206a07" ed="Y" type="old"/><p style="text-indent:2em">慧嶽法師，名德斌宗大師之上足也。撰<title level="m">《律宗教義及其紀傳》</title>，問序於余，
+<lb n="0206a07" ed="Y"/><lb n="0206a07" ed="Y" type="old"/><p xml:id="pY29p0206a0701" style="text-indent:2em">慧嶽法師，名德斌宗大師之上足也。撰<title level="m">《律宗教義及其紀傳》</title>，問序於余，
 <lb n="0206a08" ed="Y"/><lb n="0206a08" ed="Y" type="old"/>余雖僅窺其大概，而竊喜與宏揚正法之有賴於宏律，而宏律之首宜知律之意合，
 <lb n="0206a09" ed="Y"/><lb n="0206a09" ed="Y" type="old"/>因樂為之序。時民國五十年六月十五日，印順序於臺北慧日講堂。</p></cb:div>
 </body></text></TEI>

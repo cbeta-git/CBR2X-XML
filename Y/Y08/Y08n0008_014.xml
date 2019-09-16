@@ -12,57 +12,77 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/07</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/07</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>20卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 8, No. 8</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">8</idno>.<idno type="no">8</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法概論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第十三章　中道泛論</cb:mulu><cb:mulu level="2" type="其他">第二節　正覺的德行</cb:mulu><cb:mulu level="3" type="其他">正覺的生活</cb:mulu>
-<milestone unit="juan" n="14"/><pb n="0181a" ed="Y" xml:id="Y08.0008.0181a.old" type="old"/>
+<milestone n="14" unit="juan"/><pb n="0181a" ed="Y" xml:id="Y08.0008.0181a.old" type="old"/>
 <pb n="0181a" ed="Y" xml:id="Y08.0008.0181a"/>
 <lb n="0181a01" ed="Y"/><lb n="0181a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">第十四章　德行的心素與實施原則</cb:mulu><head>第十四章　德行的心素與實施原則</head>
 <lb n="0181a02" ed="Y"/><lb n="0181a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　德行的心理要素</cb:mulu><head>第一節　德行的心理要素</head>
-<lb n="0181a03" ed="Y"/><lb n="0181a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">道德的意向</cb:mulu><head>道德的意向</head><lb n="0181a04" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">中道的德行，出發於善心，而表現為合理的、有益自他的行為
+<lb n="0181a03" ed="Y"/><lb n="0181a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">道德的意向</cb:mulu><head>道德的意向</head><lb n="0181a04" ed="Y" type="old"/><p xml:id="pY08p0181a0311" style="text-indent:2em" cb:place="inline">中道的德行，出發於善心，而表現為合理的、有益自他的行為
 <lb n="0181a04" ed="Y"/>；<lb n="0181a05" ed="Y" type="old"/>又以合理的善行淨化內心，使內心趨向於完善——無漏。所以論到德行，應從
 <lb n="0181a05" ed="Y"/><lb n="0181a06" ed="Y" type="old"/>內心與事行兩方面去分別。有情內心的活動，本是非常複雜的，是相互依存、相
 <lb n="0181a06" ed="Y"/><lb n="0181a07" ed="Y" type="old"/>互融入，又相互凌奪、互相起伏的。每一心理活動，複雜相應，而沒有絲毫自體
 <lb n="0181a07" ed="Y"/><lb n="0181a08" ed="Y" type="old"/>性；分析內心的因素，不過從它的相對特性加以敘述而已。關於道德的心理因<lb n="0181a09" ed="Y" type="old"/>素
 <lb n="0181a08" ed="Y"/>，如道德的根源，是「無貪」、「無瞋」、「無癡」，已約略說過。今再論道<lb n="0181a10" ed="Y" type="old"/>德
 <lb n="0181a09" ed="Y"/>的意向、道德的努力、道德的純潔。</p>
-<lb n="0181a10" ed="Y"/><lb n="0181a11" ed="Y" type="old"/><p style="text-indent:2em">慚與愧，可說是道德意向。一般人陷於重重的罪惡中，善根力非常微薄，惟<pb n="0182a" ed="Y" xml:id="Y08.0008.0182a.old" type="old"/>
+<lb n="0181a10" ed="Y"/><lb n="0181a11" ed="Y" type="old"/><p xml:id="pY08p0181a1001" style="text-indent:2em">慚與愧，可說是道德意向。一般人陷於重重的罪惡中，善根力非常微薄，惟<pb n="0182a" ed="Y" xml:id="Y08.0008.0182a.old" type="old"/>
 <pb n="0182a" ed="Y" xml:id="Y08.0008.0182a"/>
 <lb n="0182a01" ed="Y"/><lb n="0182a01" ed="Y" type="old"/>有慚愧的重善輕惡，能使人戰勝罪惡，使善根顯發而日趨於增進。釋尊說：慚愧
 <lb n="0182a02" ed="Y"/><lb n="0182a02" ed="Y" type="old"/>是人類不同於禽獸的地方。這可見慚愧是人類的特點，是人的所以為人處。什麼
@@ -75,7 +95,7 @@
 <lb n="0182a09" ed="Y"/>、不正確，離惡向善的道德判斷、良心抉擇不一定是完善的，而且是常有錯<lb n="0182a10" ed="Y" type="old"/>誤的
 <lb n="0182a10" ed="Y"/>。這所以佛說慚愧心<quote source="T31n1602_p0481b26-c01" type="寬鬆引文">「自增上、法增上、世間增上」<note n="0182001" resp="周怡曄" type="add">《顯揚聖教論》卷1〈1 攝事品〉：「慚者謂依自增上及法增上羞恥過惡為體。斷無慚障為業。如前乃至增長慚為業。如經說慚於所慚。乃至廣說。愧者。謂依世增上羞恥過惡為體。斷無愧障為業。如前乃至增長愧為業。如經說愧於所愧。乃至廣說。」(CBETA, T31, no. 1602, p. 481, b26-c1)；《大乘五蘊論》卷1：「云何為慚。謂自增上及法增上。於所作罪羞恥為性。云何為愧。謂世增上於所作罪羞恥為性。」(CBETA, T31, no. 1612, p. 848, c22-24)</note></quote>，即是說慚愧應依<lb n="0182a11" ed="Y" type="old"/>（增上是
 <lb n="0182a11" ed="Y"/>依義）於自、法、世間三者的助緣來完成。</p>
-<lb n="0182a12" ed="Y"/><lb n="0182a12" ed="Y" type="old"/><p style="text-indent:2em">一、依自己：人類應自尊自重，佛說：一切有情有解脫分，一切有情有佛性
+<lb n="0182a12" ed="Y"/><lb n="0182a12" ed="Y" type="old"/><p xml:id="pY08p0182a1201" style="text-indent:2em">一、依自己：人類應自尊自重，佛說：一切有情有解脫分，一切有情有佛性
 <lb n="0182a13" ed="Y"/><lb n="0182a13" ed="Y" type="old"/>。誰也有止惡行善的可能，我為什麼不能？人人應努力於身正心正、自利利他的<pb n="0183a" ed="Y" xml:id="Y08.0008.0183a.old" type="old"/>
 <pb n="0183a" ed="Y" xml:id="Y08.0008.0183a"/>
 <lb n="0183a01" ed="Y"/><lb n="0183a01" ed="Y" type="old"/>德行，圓成崇高的聖性，所以說：<quote source="T31n1598_p0414b18" type="嚴謹引文">「彼既丈夫我亦爾，不應自輕而退屈。」<note n="0183001" resp="周怡曄" type="add">《攝大乘論釋》卷6(CBETA, T31, no. 1598, p. 414, b18)</note></quote>自我
@@ -98,7 +118,7 @@
 <lb n="0184a04" ed="Y"/>——法是<lb n="0184a04" ed="Y" type="old"/>更主要的，惟有從真理的理解與隨順中，能離去自我的固蔽，促進世間
 <lb n="0184a05" ed="Y"/>的向上。<lb n="0184a05" ed="Y" type="old"/>同時也要從自我的解脫、世間的淨化中，才能達到法的完滿實現，即德
 <lb n="0184a06" ed="Y"/>行的完成<lb n="0184a06" ed="Y" type="old"/>。</p></cb:div>
-<lb n="0184a07" ed="Y"/><lb n="0184a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">道德的努力</cb:mulu><head>道德的努力</head><lb n="0184a08" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">德行的實踐，由於自我的私欲、環境的壓力、知識的不充分，
+<lb n="0184a07" ed="Y"/><lb n="0184a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">道德的努力</cb:mulu><head>道德的努力</head><lb n="0184a08" ed="Y" type="old"/><p xml:id="pY08p0184a0711" style="text-indent:2em" cb:place="inline">德行的實踐，由於自我的私欲、環境的壓力、知識的不充分，
 <lb n="0184a08" ed="Y"/><lb n="0184a09" ed="Y" type="old"/>想充分實現出來，並不容易，這需要最大努力的。這種推行德行的努力，經中稱
 <lb n="0184a09" ed="Y"/><lb n="0184a10" ed="Y" type="old"/>為精進與不放逸。精進是勤勇的策進，不放逸是惰性的克服。精進是破除前進的
 <lb n="0184a10" ed="Y"/><lb n="0184a11" ed="Y" type="old"/>阻礙，不放逸是擺脫後面的羈絆。經中說：精進是<quote source="T26n1536_p0422b26" type="嚴謹引文">「有勢、有勤、有勇、堅猛、
@@ -108,11 +128,11 @@
 <pb n="0185a" ed="Y" xml:id="Y08.0008.0185a"/>
 <lb n="0185a01" ed="Y"/><biblScope n="9" type="卷">卷九</biblScope>．<ref target="#no:99.254" type="taisho">二五<pb n="0185a" ed="Y" xml:id="Y08.0008.0185a.old" type="old"/><lb n="0185a01" ed="Y" type="old"/>四經</ref>）</bibl><note n="0185001" resp="周怡曄" type="add">《雜阿含經》卷9(CBETA, T02, no. 99, p. 62, c16-18)</note></cit>從容中努力前進，這是大踏步的向前走，不是暴虎憑河般的前
 <lb n="0185a02" ed="Y"/>進。至於<lb n="0185a02" ed="Y" type="old"/>不放逸，即近人所說的警覺，所以說：<cit><quote source="T02n0099_p0344b10" type="嚴謹引文">「常自警策不放逸。」</quote><bibl>（<title level="m">《雜阿
-<lb n="0185a03" ed="Y"/>含經》</title><biblScope n="47" type="卷">卷四七</biblScope>．<ref type="taisho" target="#no:99.1252">一二<lb n="0185a03" ed="Y" type="old"/>五二經</ref>）</bibl><note n="0185002" resp="周怡曄" type="add">《雜阿含經》卷47(CBETA, T02, no. 99, p. 344, b10)</note></cit>警覺一切可能對於自己不利的心情及環境，特別是
+<lb n="0185a03" ed="Y"/>含經》</title><biblScope n="47" type="卷">卷四七</biblScope>．<ref target="#no:99.1252" type="taisho">一二<lb n="0185a03" ed="Y" type="old"/>五二經</ref>）</bibl><note n="0185002" resp="周怡曄" type="add">《雜阿含經》卷47(CBETA, T02, no. 99, p. 344, b10)</note></cit>警覺一切可能對於自己不利的心情及環境，特別是
 <lb n="0185a04" ed="Y"/>順利安適中養成的<lb n="0185a04" ed="Y" type="old"/>惰性。能時時的警策自己，不敢放逸，即能不斷向上增進。經
 <lb n="0185a05" ed="Y"/>中對於一切善行的<lb n="0185a05" ed="Y" type="old"/>進修，認為非精進與不放逸不可。這種心理因素，對於德行的
 <lb n="0185a06" ed="Y"/>進修，有非常重要<lb n="0185a06" ed="Y" type="old"/>的價值！</p></cb:div>
-<lb n="0185a07" ed="Y"/><lb n="0185a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">道德的純潔</cb:mulu><head>道德的純潔</head><lb n="0185a08" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">對於佛、法、僧三寶的「信」心，在德行中，有著重要的意義
+<lb n="0185a07" ed="Y"/><lb n="0185a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">道德的純潔</cb:mulu><head>道德的純潔</head><lb n="0185a08" ed="Y" type="old"/><p xml:id="pY08p0185a0711" style="text-indent:2em" cb:place="inline">對於佛、法、僧三寶的「信」心，在德行中，有著重要的意義
 <lb n="0185a08" ed="Y"/><lb n="0185a09" ed="Y" type="old"/>。佛法所說的信，與一般宗教的信仰，是多少不同的。信是什麼？<quote source="T31n1585_p0029b22-23" type="嚴謹引文">「心淨為性」<note n="0185003" resp="周怡曄" type="add">《成唯識論》卷6(CBETA, T31, no. 1585, p. 29, b22-23)</note></quote>
 <lb n="0185a09" ed="Y"/><lb n="0185a10" ed="Y" type="old"/>，即內心的純潔，不預存一些主觀與私見，惟是一片純潔無疵的心情。有了這樣
 <lb n="0185a10" ed="Y"/><lb n="0185a11" ed="Y" type="old"/>的淨心，這才對於覺者、真理、奉行真理的大眾，能虛心容受，從「信順」、「
@@ -130,7 +150,7 @@
 <lb n="0186a08" ed="Y"/>以說：<quote source="T09n0278_p0433a26" type="寬鬆引文">「<lb n="0186a08" ed="Y" type="old"/>信為道源功德母。」<note n="0186001" resp="周怡曄" type="add">《大方廣佛華嚴經》卷6〈8 賢首菩薩品〉：「信為道元功德母」(CBETA, T09, no. 278, p. 433, a26)</note></quote>以此為善的，可見佛法的德行對於真理是怎樣的尊
 <lb n="0186a09" ed="Y"/>重！德<lb n="0186a09" ed="Y" type="old"/>行的心理因素，此外還有，但以上面所說的八法為最要。</p></cb:div></cb:div>
 <lb n="0186a10" ed="Y"/><lb n="0186a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　德行的實施原則</cb:mulu><head>第二節　德行的實施原則</head>
-<lb n="0186a11" ed="Y"/><lb n="0186a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">從平常到深刻與廣大</cb:mulu><head>從平常到深刻與廣大</head><lb n="0186a12" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">德行不但是內心的，是見於事實的。引發人類的德行
+<lb n="0186a11" ed="Y"/><lb n="0186a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">從平常到深刻與廣大</cb:mulu><head>從平常到深刻與廣大</head><lb n="0186a12" ed="Y" type="old"/><p xml:id="pY08p0186a1119" style="text-indent:2em" cb:place="inline">德行不但是內心的，是見於事實的。引發人類的德行
 <lb n="0186a12" ed="Y"/><lb n="0186a13" ed="Y" type="old"/>本能，使他實現出來，才成為善的行為。從全體佛法去理解，佛法的德行，以人<pb n="0187a" ed="Y" xml:id="Y08.0008.0187a.old" type="old"/>
 <pb n="0187a" ed="Y" xml:id="Y08.0008.0187a"/>
 <lb n="0187a01" ed="Y"/><lb n="0187a01" ed="Y" type="old"/>生的和諧、福樂、清淨為理想、為標準。生存是最基本的，如離開這一根本事實
@@ -141,7 +161,7 @@
 <lb n="0187a06" ed="Y"/>於情<lb n="0187a06" ed="Y" type="old"/>的人生終極的理想，到底是人類生活中的部分事實。人生德行的自覺，有意
 <lb n="0187a07" ed="Y"/>無意<lb n="0187a07" ed="Y" type="old"/>的以此和樂清淨的人生為理想，以身心行為而契合這一標準的為善行；從自
 <lb n="0187a08" ed="Y"/>他關<lb n="0187a08" ed="Y" type="old"/>係中，不斷努力而使它增進。</p>
-<lb n="0187a09" ed="Y"/><lb n="0187a09" ed="Y" type="old"/><p style="text-indent:2em">然而，自他的和樂清淨，應該從無限時空的觀點去眺望，這比一般所見的要
+<lb n="0187a09" ed="Y"/><lb n="0187a09" ed="Y" type="old"/><p xml:id="pY08p0187a0901" style="text-indent:2em">然而，自他的和樂清淨，應該從無限時空的觀點去眺望，這比一般所見的要
 <lb n="0187a10" ed="Y"/><lb n="0187a10" ed="Y" type="old"/>擴大得多。世間的有情，如人、如畜，更低級的，或更高級的，有情是無限的眾
 <lb n="0187a11" ed="Y"/><lb n="0187a11" ed="Y" type="old"/>多。有情依住的器世間，也不但是渺小的地球；像地球那樣的，更大更小，空間
 <lb n="0187a12" ed="Y"/><lb n="0187a12" ed="Y" type="old"/>是無限的廣大。有情從無始以來，在死死生生的不斷相續中，時間是那樣的悠久
@@ -151,7 +171,7 @@
 <lb n="0188a02" ed="Y"/><lb n="0188a02" ed="Y" type="old"/>一世間、這一時代的人類；不過佛出人間，為人類說人法，還是依這人類為本，
 <lb n="0188a03" ed="Y"/><lb n="0188a03" ed="Y" type="old"/>再延續於無限的時間、擴展到無限的空間，織成自他間展轉相依、展轉差別的網
 <lb n="0188a04" ed="Y"/><lb n="0188a04" ed="Y" type="old"/>絡。</p>
-<lb n="0188a05" ed="Y"/><lb n="0188a05" ed="Y" type="old"/><p style="text-indent:2em">自他生存的和樂清淨，不能單著眼於外表的事行。內心會策導我們趨向於合
+<lb n="0188a05" ed="Y"/><lb n="0188a05" ed="Y" type="old"/><p xml:id="pY08p0188a0501" style="text-indent:2em">自他生存的和樂清淨，不能單著眼於外表的事行。內心會策導我們趨向於合
 <lb n="0188a06" ed="Y"/><lb n="0188a06" ed="Y" type="old"/>理的行為，或誤趨於不合理的行為，所以內心的是否清淨、是否出於善意，對於
 <lb n="0188a07" ed="Y"/><lb n="0188a07" ed="Y" type="old"/>自他的和樂清淨，有著深切的關係。那麼，人類的德行，應內向的深刻到內心的
 <lb n="0188a08" ed="Y"/><lb n="0188a08" ed="Y" type="old"/>淨化，使道德的心能增進、擴展而完成。淨化自心的「定慧熏修」，「離惑證真
@@ -163,17 +183,17 @@
 <pb n="0189a" ed="Y" xml:id="Y08.0008.0189a"/>
 <lb n="0189a01" ed="Y"/><lb n="0189a01" ed="Y" type="old"/>完善的層次。大體的說，人天的德行是一般的；聲聞的德行，進展到深刻的淨化
 <lb n="0189a02" ed="Y"/><lb n="0189a02" ed="Y" type="old"/>自心；菩薩的德行，更擴大到國土的嚴淨。</p></cb:div>
-<lb n="0189a03" ed="Y"/><lb n="0189a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">德行深化的真義</cb:mulu><head>德行深化的真義</head><lb n="0189a04" ed="Y" type="old"/><p style="text-indent:2em" cb:place="inline">佛法的德行，不但是深化的，但否定世間而傾向於超脫的
+<lb n="0189a03" ed="Y"/><lb n="0189a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="3" type="其他">德行深化的真義</cb:mulu><head>德行深化的真義</head><lb n="0189a04" ed="Y" type="old"/><p xml:id="pY08p0189a0315" style="text-indent:2em" cb:place="inline">佛法的德行，不但是深化的，但否定世間而傾向於超脫的
 <lb n="0189a04" ed="Y"/><lb n="0189a05" ed="Y" type="old"/>深化，確是佛法德行的核心。考釋尊的教法，世間是<quote type="嚴謹引文">「危脆敗壞」</quote>的別名<bibl>（<title level="m">《雜
-<lb n="0189a05" ed="Y"/>阿含經》</title><lb n="0189a06" ed="Y" type="old"/><biblScope n="9" type="卷">卷九</biblScope>．<ref type="taisho" target="#no:99.231">二三一經</ref>）</bibl><note n="0189001" resp="周怡曄" type="add">《雜阿含經》卷9(CBETA, T02, no. 99, p. 56, b14-15)</note>；有情是迷情為本的蘊聚，生死死生的流轉者；世間
+<lb n="0189a05" ed="Y"/>阿含經》</title><lb n="0189a06" ed="Y" type="old"/><biblScope n="9" type="卷">卷九</biblScope>．<ref target="#no:99.231" type="taisho">二三一經</ref>）</bibl><note n="0189001" resp="周怡曄" type="add">《雜阿含經》卷9(CBETA, T02, no. 99, p. 56, b14-15)</note>；有情是迷情為本的蘊聚，生死死生的流轉者；世間
 <lb n="0189a06" ed="Y"/>是無常、苦、<lb n="0189a07" ed="Y" type="old"/>無我、不淨的；學者應該<cit><quote source="T02n0099_p0195b23" type="嚴謹引文">「依遠離，依無欲，依滅，向於捨」</quote><bibl>（<title level="m">《
-<lb n="0189a07" ed="Y"/>雜阿含經》</title><biblScope type="卷" n="27">卷二七</biblScope>．<ref type="taisho" target="#no:99.726">七二<lb n="0189a08" ed="Y" type="old"/>六經</ref>）</bibl><note n="0189002" resp="周怡曄" type="add">《雜阿含經》卷27(CBETA, T02, no. 99, p. 195, b23)</note></cit>。確認世間的無常苦迫，勤修戒定慧，即對於現
+<lb n="0189a07" ed="Y"/>雜阿含經》</title><biblScope n="27" type="卷">卷二七</biblScope>．<ref target="#no:99.726" type="taisho">七二<lb n="0189a08" ed="Y" type="old"/>六經</ref>）</bibl><note n="0189002" resp="周怡曄" type="add">《雜阿含經》卷27(CBETA, T02, no. 99, p. 195, b23)</note></cit>。確認世間的無常苦迫，勤修戒定慧，即對於現
 <lb n="0189a08" ed="Y"/>實的要求超脫。現實的超<lb n="0189a09" ed="Y" type="old"/>脫，決不是常人所誤解的悲觀、厭世、否定人生。依一
-<lb n="0189a09" ed="Y"/>般說，人生是無常的，也<lb n="0189a10" ed="Y" type="old"/>是相續的；是苦，而色等也有樂<bibl>（<title level="m">《雜阿含經》</title><biblScope type="卷" n="3">卷三</biblScope>．
+<lb n="0189a09" ed="Y"/>般說，人生是無常的，也<lb n="0189a10" ed="Y" type="old"/>是相續的；是苦，而色等也有樂<bibl>（<title level="m">《雜阿含經》</title><biblScope n="3" type="卷">卷三</biblScope>．
 <lb n="0189a10" ed="Y"/><ref target="#no:99.81" type="taisho">八一經</ref>）</bibl>；是不淨，也是有淨相的<lb n="0189a11" ed="Y" type="old"/>；是無我，也有相對的假我。依人事論人事，
 <lb n="0189a11" ed="Y"/>佛法決不否定人生，反而肯定人生<lb n="0189a12" ed="Y" type="old"/>，以人生的和樂為道德標準，確定行為的價值
 <lb n="0189a12" ed="Y"/>，使人類努力於止惡行善。至於深<lb n="0189a13" ed="Y" type="old"/>化的德行，從無常苦迫的世間觀，修戒定慧，
-<lb n="0189a13" ed="Y"/>傾向於無生解脫，這是另有它的深<lb n="0189a14" ed="Y" type="old"/>意。如<cit><bibl><title level="m">《雜阿含經》</title>（<biblScope type="卷" n="17">卷一七</biblScope>．<ref type="taisho" target="#no:99.473">四七三經</ref>）說
+<lb n="0189a13" ed="Y"/>傾向於無生解脫，這是另有它的深<lb n="0189a14" ed="Y" type="old"/>意。如<cit><bibl><title level="m">《雜阿含經》</title>（<biblScope n="17" type="卷">卷一七</biblScope>．<ref target="#no:99.473" type="taisho">四七三經</ref>）說
 <pb n="0190a" ed="Y" xml:id="Y08.0008.0190a"/>
 <lb n="0190a01" ed="Y"/>：</bibl><quote source="T02n0099_p0121a09-11" type="嚴謹引文">「我以一切行無常故，一切諸行變易<pb n="0190a" ed="Y" xml:id="Y08.0008.0190a.old" type="old"/><lb n="0190a01" ed="Y" type="old"/>法故，說諸所有受悉皆是苦。」</quote><note n="0190001" resp="周怡曄" type="add">《雜阿含經》卷17(CBETA, T02, no. 99, p. 121, a9-11)</note></cit>又<cit><bibl><ref target="#no:99.474" type="taisho">（四七
 <lb n="0190a02" ed="Y"/>四經）</ref>說：</bibl><quote source="T02n0099_p0121a28-b01" type="嚴謹引文">「以諸行漸次寂滅故說，以<lb n="0190a02" ed="Y" type="old"/>諸行漸次止息故說，一切諸受悉皆是苦</quote><note n="0190002" resp="周怡曄" type="add">《雜阿含經》卷17(CBETA, T02, no. 99, p. 121, a28-b1)</note></cit>。

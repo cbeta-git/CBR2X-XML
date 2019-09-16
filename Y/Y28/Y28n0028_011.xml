@@ -12,55 +12,75 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>11卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 28, No. 28</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>11卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">28</idno>.<idno type="no">28</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（四）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十、談佛法的宗教經驗</cb:mulu><cb:mulu level="2" type="其他">結論</cb:mulu>
-<milestone unit="juan" n="11"/><pb n="0289a" ed="Y" xml:id="Y28.0028.0289a.old" type="old"/>
+<milestone n="11" unit="juan"/><pb n="0289a" ed="Y" xml:id="Y28.0028.0289a.old" type="old"/>
 <pb n="0289a" ed="Y" xml:id="Y28.0028.0289a"/>
 <lb n="0289a01" ed="Y"/><lb n="0289a01" ed="Y" type="old"/><lb n="0289a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十一、佛學大要</cb:mulu><head>佛學大要</head>
-<lb n="0289a02" ed="Y"/><lb n="0289a03" ed="Y" type="old"/><p style="text-indent:2em">佛學乃佛法之學，西元前五、六世紀，釋迦牟尼佛創立於印度。佛法經長期
+<lb n="0289a02" ed="Y"/><lb n="0289a03" ed="Y" type="old"/><p xml:id="pY28p0289a0201" style="text-indent:2em">佛學乃佛法之學，西元前五、六世紀，釋迦牟尼佛創立於印度。佛法經長期
 <lb n="0289a03" ed="Y"/><lb n="0289a04" ed="Y" type="old"/>之發展，可大分為三期：初期之「佛法」，中期之「大乘佛法」，後期之「秘密
 <lb n="0289a04" ed="Y"/><lb n="0289a05" ed="Y" type="old"/>大乘佛法」。佛法傳入中國，可考者為漢哀帝元壽元年（西元前二年）。經典之
 <lb n="0289a05" ed="Y"/><lb n="0289a06" ed="Y" type="old"/>大量傳譯，則始於漢桓、靈之世（西元二世紀後半），終於趙宋真宗（西元十世
 <lb n="0289a06" ed="Y"/><lb n="0289a07" ed="Y" type="old"/>紀）。譯典雖遍及三期，然初、後二期，譯傳而未嘗廣事弘通；傳宏而卓有所成
 <lb n="0289a07" ed="Y"/>之<lb n="0289a08" ed="Y" type="old"/>中國佛學，以中期之「大乘佛法」為主。</p>
-<lb n="0289a08" ed="Y"/><lb n="0289a09" ed="Y" type="old"/><p style="text-indent:2em">中國佛學本於印度之「大乘佛法」，而「大乘佛法」乃承初期「佛法」而來
+<lb n="0289a08" ed="Y"/><lb n="0289a09" ed="Y" type="old"/><p xml:id="pY28p0289a0801" style="text-indent:2em">中國佛學本於印度之「大乘佛法」，而「大乘佛法」乃承初期「佛法」而來
 <lb n="0289a09" ed="Y"/><lb n="0289a10" ed="Y" type="old"/>，故應先明初期「佛法」之要！釋迦時代，印度宗教界，以一切眾生為生死不已
 <lb n="0289a10" ed="Y"/><lb n="0289a11" ed="Y" type="old"/>、流轉於升沈苦樂之間，各提出其解脫之道。釋迦於菩提樹下，廓然妙悟，究竟
 <lb n="0289a11" ed="Y"/><lb n="0289a12" ed="Y" type="old"/>解脫，尊稱為「佛」，乃覺者之義。佛以自覺者覺人，自覺覺人之道，名為「法<pb n="0290a" ed="Y" xml:id="Y28.0028.0290a.old" type="old"/>
@@ -88,7 +108,7 @@
 <lb n="0291a07" ed="Y"/>曰「清<lb n="0291a07" ed="Y" type="old"/>淨」；非有為（生滅）曰「無為」（不生不滅）；非虛妄曰「真實」；非
 <lb n="0291a08" ed="Y"/>變異曰<lb n="0291a08" ed="Y" type="old"/>「常」。「涅槃寂滅」，為聖智自證，非言說邊事，唯從現實生死之正見
 <lb n="0291a09" ed="Y"/>、正行<lb n="0291a09" ed="Y" type="old"/>以實證之，故釋迦佛不予深說也。</p>
-<lb n="0291a10" ed="Y"/><lb n="0291a10" ed="Y" type="old"/><p style="text-indent:2em">佛入滅百年頃，佛所說法，已集成<title level="m">《雜<note type="authorial">（相應）</note>阿含經》</title>、<title level="m">《中阿含經》</title>、<title level="m">《
+<lb n="0291a10" ed="Y"/><lb n="0291a10" ed="Y" type="old"/><p xml:id="pY28p0291a1001" style="text-indent:2em">佛入滅百年頃，佛所說法，已集成<title level="m">《雜<note type="authorial">（相應）</note>阿含經》</title>、<title level="m">《中阿含經》</title>、<title level="m">《
 <lb n="0291a11" ed="Y"/>長阿含經》</title>、<title level="m">《增<lb n="0291a11" ed="Y" type="old"/>一阿含經》</title>——「四<title level="m">阿含經」</title>，或加<title level="m">《雜藏》</title>為五部。經文隨
 <lb n="0291a12" ed="Y"/>機散說，或綜集條理之，辨析精<lb n="0291a12" ed="Y" type="old"/>嚴，重「阿毘達磨論」，為上座系；或隨文貫攝
 <lb n="0291a13" ed="Y"/>融通者，為大眾系；學風異而宗<lb n="0291a13" ed="Y" type="old"/>派生焉。佛與菩薩之聖德，為教界所共仰。菩薩
@@ -99,7 +119,7 @@
 <lb n="0292a04" ed="Y"/>」</quote>，<quote source="T49n2031_p0015c10-11" type="嚴謹引文">「為欲饒益有情，願生惡趣<lb n="0292a04" ed="Y" type="old"/>，隨意能往」<note n="0292003" resp="周怡曄" type="add">《異部宗輪論》卷1(CBETA, T49, no. 2031, p. 15, c10-11)</note></quote>。崇高佛德與菩薩方便，近於大乘
 <lb n="0292a05" ed="Y"/>。而上座系，<quote type="寬鬆引文">「無十方佛，佛身<lb n="0292a05" ed="Y" type="old"/>有漏」</quote>。蓋大眾系富於理想，依釋迦佛而究其極
 <lb n="0292a06" ed="Y"/>，上座系則謹守歷史上之佛陀為<lb n="0292a06" ed="Y" type="old"/>所宗也。</p>
-<lb n="0292a07" ed="Y"/><lb n="0292a07" ed="Y" type="old"/><p style="text-indent:2em">「大乘佛法」初興，或重信願，有懺悔、迴向與願生淨土行；或重智證，有
+<lb n="0292a07" ed="Y"/><lb n="0292a07" ed="Y" type="old"/><p xml:id="pY28p0292a0701" style="text-indent:2em">「大乘佛法」初興，或重信願，有懺悔、迴向與願生淨土行；或重智證，有
 <lb n="0292a08" ed="Y"/>般<lb n="0292a08" ed="Y" type="old"/>若與方便行。<title level="m">《般若經》</title>特重般若（勝義慧），菩薩以般若為導，攝導一切行
 <lb n="0292a09" ed="Y"/>歸<lb n="0292a09" ed="Y" type="old"/>於（佛）一切智海。經說不著、不取、不可得、無所住，意在離妄執而悟入深
 <lb n="0292a10" ed="Y"/>義<lb n="0292a10" ed="Y" type="old"/>。<quote source="T08n0223_p0344a03-05" type="嚴謹引文">「深奧處者，空是其義，無相、無作、無起、無生、無染（淨）、寂滅、離
@@ -116,7 +136,7 @@
 <lb n="0293a07" ed="Y"/>獨菩薩法，能除諸顛倒。坐道場時，應如是觀，當得一切種智。」<note n="0293004" resp="周怡曄" type="add">《摩訶般若波羅蜜經》卷20〈67 無盡品〉(CBETA, T08, no. 223, p. 364, b23-25)</note></quote>般若經深義<lb n="0293a08" ed="Y" type="old"/>，
 <lb n="0293a08" ed="Y"/>即阿含之涅槃深義。菩薩利根巧度，觀因緣本自空寂，而後有為與無為，世間<lb n="0293a09" ed="Y" type="old"/>與
 <lb n="0293a09" ed="Y"/>出世間，生死與涅槃，煩惱與菩提——無二無別，而開展「大乘佛法」之特勝<lb n="0293a10" ed="Y" type="old"/>！</p>
-<lb n="0293a10" ed="Y"/><lb n="0293a11" ed="Y" type="old"/><p style="text-indent:2em">初期大乘經部類繁多，要皆本於般若之深義，故<quote source="T16n0670_p0489a10-11" type="嚴謹引文">「空、無生、無二、離自性
+<lb n="0293a10" ed="Y"/><lb n="0293a11" ed="Y" type="old"/><p xml:id="pY28p0293a1001" style="text-indent:2em">初期大乘經部類繁多，要皆本於般若之深義，故<quote source="T16n0670_p0489a10-11" type="嚴謹引文">「空、無生、無二、離自性
 <lb n="0293a11" ed="Y"/><lb n="0293a12" ed="Y" type="old"/>相，普入諸佛一切修多羅」<note n="0293005" resp="周怡曄" type="add">《楞伽阿跋多羅寶經》卷1〈一切佛語心品〉(CBETA, T16, no. 670, p. 489, a10-11)</note></quote>。依此深義，故一、<quote type="嚴謹引文">「俗間經書，治生產業，皆與實
 <lb n="0293a12" ed="Y"/><lb n="0293a13" ed="Y" type="old"/>相不相違背」<note n="0293006" resp="厚觀法師" type="add">(1)《妙法蓮華經玄義》卷9(CBETA, T33, no. 1716, p. 792, c4-5)；(2)《妙法蓮華經》卷6〈19 法師功德品〉：「皆與實相不相違背。若說俗間經書、治世語言、資生業等，皆順正法。」(CBETA, T09, no. 262, p. 50, a23-24)</note></quote>。世間學術事業，不違如實空性，故入世無礙於出世。如維摩詰長<pb n="0294a" ed="Y" xml:id="Y28.0028.0294a.old" type="old"/>
 <lb n="0293a13" ed="Y"/><lb n="0294a01" ed="Y" type="old"/>者，<quote type="嚴謹引文">「無量方便利益眾生」</quote>。善財所參善知識，有醫師、數學家、語言學者、建
@@ -133,7 +153,7 @@
 <lb n="0294a10" ed="Y"/>願度眾<lb n="0294a11" ed="Y" type="old"/>生，不能離於煩惱。<quote source="T15n0588_p0104c08-09" type="嚴謹引文">「菩薩從一切（愛）欲而起道意（菩提心）」<note n="0294006" resp="周怡曄" type="add">《佛說須真天子經》卷3〈5 無畏品〉(CBETA, T15, no. 588, p. 104, c8-9)</note></quote>；<quote source="T14n0475_p0549b03-04" type="嚴謹引文">「六
 <lb n="0294a11" ed="Y"/>十二見<lb n="0294a12" ed="Y" type="old"/>及一切煩惱，皆是佛種」<note n="0294007" resp="周怡曄" type="add">《維摩詰所說經》卷2〈8 佛道品〉(CBETA, T14, no. 475, p. 549, b3-4)</note></quote>；<quote source="T12n0340_p0108b05-06" type="嚴謹引文">「佛境界當於一切眾生煩惱中求」<note n="0294008" resp="周怡曄" type="add">《文殊師利所說不思議佛境界經》卷1(CBETA, T12, no. 340, p. 108, b5-6)</note></quote>：所以<quote source="T38n1781_p0971c20" type="嚴謹引文">「煩
 <lb n="0294a12" ed="Y"/>惱為佛<lb n="0294a13" ed="Y" type="old"/>種」<note n="0294009" resp="周怡曄" type="add">《維摩經義疏》卷5〈8 佛道品〉(CBETA, T38, no. 1781, p. 971, c20)</note></quote>，<quote source="T09n0262_p0009b09" type="嚴謹引文">「佛種從緣起」<note n="0294010" resp="周怡曄" type="add">《妙法蓮華經》卷1〈2 方便品〉(CBETA, T09, no. 262, p. 9, b9)</note></quote>。</p><pb n="0295a" ed="Y" xml:id="Y28.0028.0295a.old" type="old"/>
-<lb n="0294a13" ed="Y"/><lb n="0295a01" ed="Y" type="old"/><p style="text-indent:2em">西元三、四世紀，如來藏系經典傳出，如<title level="m">《大般涅槃經》</title>初分、<title level="m">《如來藏經
+<lb n="0294a13" ed="Y"/><lb n="0295a01" ed="Y" type="old"/><p xml:id="pY28p0294a1301" style="text-indent:2em">西元三、四世紀，如來藏系經典傳出，如<title level="m">《大般涅槃經》</title>初分、<title level="m">《如來藏經
 <pb n="0295a" ed="Y" xml:id="Y28.0028.0295a"/>
 <lb n="0295a01" ed="Y"/><lb n="0295a02" ed="Y" type="old"/>》</title>等。<quote source="T12n0374_p0494b18-19" type="嚴謹引文">「如來常住不變易」<note n="0295001" resp="周怡曄" type="add">《大般涅槃經》卷22〈10 光明遍照高貴德王菩薩品〉(CBETA, T12, no. 374, p. 494, b18-19)</note></quote>；如來有<quote type="嚴謹引文">「常、樂、我、淨」</quote>四德；<quote source="T12n0374_p0407b09-10" type="嚴謹引文">「我者即是如來
 <lb n="0295a02" ed="Y"/><lb n="0295a03" ed="Y" type="old"/>藏義。一切眾生悉有佛性，即是我義」<note n="0295002" resp="周怡曄" type="add">《大般涅槃經》卷7〈4 如來性品〉(CBETA, T12, no. 374, p. 407, b9-10)</note></quote>。<title level="m">《如來藏經》</title>九喻說如來藏（佛性）：
@@ -144,13 +164,13 @@
 <lb n="0295a07" ed="Y"/>（即自性清淨心）為客塵所染說相同，故如來藏即自性清淨心。依此（真我<lb n="0295a09" ed="Y" type="old"/>）淨
 <lb n="0295a08" ed="Y"/>心，說轉染還淨。法門承<title level="m">《法華經》</title>、<title level="m">《大集經》</title>、<title level="m">《華嚴經》</title>而來，然說真我
 <lb n="0295a09" ed="Y"/>、<lb n="0295a10" ed="Y" type="old"/>真心、不空，與初期大乘方便異矣！</p>
-<lb n="0295a10" ed="Y"/><lb n="0295a11" ed="Y" type="old"/><p style="text-indent:2em">敘佛菩薩聖境以啟信行，明一切法無二以策修證，初期大乘經之體例如是。
+<lb n="0295a10" ed="Y"/><lb n="0295a11" ed="Y" type="old"/><p xml:id="pY28p0295a1001" style="text-indent:2em">敘佛菩薩聖境以啟信行，明一切法無二以策修證，初期大乘經之體例如是。
 <lb n="0295a11" ed="Y"/><lb n="0295a12" ed="Y" type="old"/>西元三世紀以下，大乘論師輩出，精思入微，條理嚴密，以通釋大乘經義。印度
 <lb n="0295a12" ed="Y"/><lb n="0295a13" ed="Y" type="old"/>大乘論學，不外中觀、瑜伽、如來藏三大流。論學傳於中國，或據以成一家之學<pb n="0296a" ed="Y" xml:id="Y28.0028.0296a.old" type="old"/>
 <lb n="0295a13" ed="Y"/><lb n="0296a01" ed="Y" type="old"/>，然中國大乘佛學主流，則條理貫攝諸經，參考論義，而闡發大乘之極意，不以
 <pb n="0296a" ed="Y" xml:id="Y28.0028.0296a"/>
 <lb n="0296a01" ed="Y"/><lb n="0296a02" ed="Y" type="old"/>印度論學而自拘也。</p>
-<lb n="0296a02" ed="Y"/><lb n="0296a03" ed="Y" type="old"/><p style="text-indent:2em">中國大乘，舊傳八宗，其中禪、淨、密、律，重於持行；以義學見長者，唯
+<lb n="0296a02" ed="Y"/><lb n="0296a03" ed="Y" type="old"/><p xml:id="pY28p0296a0201" style="text-indent:2em">中國大乘，舊傳八宗，其中禪、淨、密、律，重於持行；以義學見長者，唯
 <lb n="0296a03" ed="Y"/><lb n="0296a04" ed="Y" type="old"/>三論、唯識、天台、賢首——四宗。然宏傳論義者，有地論師與攝論師，蔚為大
 <lb n="0296a04" ed="Y"/><lb n="0296a05" ed="Y" type="old"/>流。此二系與唯識宗同源，且與如來藏學有關，不可不論及之。大乘佛學所以分
 <lb n="0296a05" ed="Y"/><lb n="0296a06" ed="Y" type="old"/>宗，與二義有關：一、釋迦佛說：此有故彼有而集起生死，此無故彼無而還滅涅
@@ -161,7 +181,7 @@
 <lb n="0296a10" ed="Y"/><lb n="0296a11" ed="Y" type="old"/>心雜染故，眾生雜染；心清淨故，眾生清淨」</quote>。又曰：<quote source="T31n1600_p0466b17" type="寬鬆引文">「心（性）明淨，客塵所
 <lb n="0296a11" ed="Y"/><lb n="0296a12" ed="Y" type="old"/>染。」<note n="0296003" resp="周怡曄" type="add">《辯中邊論》卷1〈1 辯相品〉：「心性本淨故<space quantity="1" unit="chars"/>由客塵所染」(CBETA, T31, no. 1600, p. 466, b17)</note></quote>生死流轉與還滅涅槃中，心識有主導之勝用。此則心識為依、真如為依，
 <lb n="0296a12" ed="Y"/><lb n="0296a13" ed="Y" type="old"/>立說之方便又異。中國大乘佛學（源本印度），於此各有宗重，故各有特勝。</p><pb n="0297a" ed="Y" xml:id="Y28.0028.0297a.old" type="old"/>
-<lb n="0296a13" ed="Y"/><lb n="0297a01" ed="Y" type="old"/><p style="text-indent:2em">一、三論宗：依<title level="m">《中論》</title>、<title level="m">《百論》</title>、<title level="m">《十二門論》</title>為名。龍樹造<title level="m">《中論》</title>
+<lb n="0296a13" ed="Y"/><lb n="0297a01" ed="Y" type="old"/><p xml:id="pY28p0296a1301" style="text-indent:2em">一、三論宗：依<title level="m">《中論》</title>、<title level="m">《百論》</title>、<title level="m">《十二門論》</title>為名。龍樹造<title level="m">《中論》</title>
 <pb n="0297a" ed="Y" xml:id="Y28.0028.0297a"/>
 <lb n="0297a01" ed="Y"/>、<title level="m">《十<lb n="0297a02" ed="Y" type="old"/>二門論》</title>（更有<title level="m">《大智度論》</title>），弟子提婆造<title level="m">《百論》</title>，姚秦鳩摩羅什譯
 <lb n="0297a02" ed="Y"/>出，即印<lb n="0297a03" ed="Y" type="old"/>度所傳（代表初期大乘）中觀學。三論抉擇甚深義，即因緣生法以明空
@@ -182,7 +202,7 @@
 <lb n="0298a03" ed="Y"/>勝鬘經寶窟》</title>、<title level="m">《涅槃經遊意》</title>，依<lb n="0298a04" ed="Y" type="old"/><title level="m">《十八空論》</title>說唯識無塵。會入如來藏、佛
 <lb n="0298a04" ed="Y"/>性、唯識之學，非中觀之舊。其學衰<lb n="0298a05" ed="Y" type="old"/>於盛唐，唯無所得正觀演化為牛頭禪，與達
 <lb n="0298a05" ed="Y"/>磨門下東山法門，一時媲美！</p>
-<lb n="0298a06" ed="Y"/><lb n="0298a06" ed="Y" type="old"/><p style="text-indent:2em">二、唯識宗：印度瑜伽學，仰推彌勒<title level="m">《瑜伽師地論》</title>為本。<bibl>《<title level="m">瑜伽師地論</title>．
+<lb n="0298a06" ed="Y"/><lb n="0298a06" ed="Y" type="old"/><p xml:id="pY28p0298a0601" style="text-indent:2em">二、唯識宗：印度瑜伽學，仰推彌勒<title level="m">《瑜伽師地論》</title>為本。<bibl>《<title level="m">瑜伽師地論</title>．
 <lb n="0298a07" ed="Y"/><title level="a">本地分<lb n="0298a07" ed="Y" type="old"/></title>》</bibl>，立八識，第八識為<quote source="T30n1579_p0280b06-08" type="嚴謹引文">「心，謂一切種子所隨依止性，所隨依附依止性，
 <lb n="0298a08" ed="Y"/>體能<lb n="0298a08" ed="Y" type="old"/>執受，異熟所攝阿賴耶識」<note n="0298003" resp="周怡曄" type="add">《瑜伽師地論》卷1(CBETA, T30, no. 1579, p. 280, b6-8)</note></quote>。阿賴耶識為一切有漏無漏種子所依止，能執受
 <lb n="0298a09" ed="Y"/>諸根<lb n="0298a09" ed="Y" type="old"/>及所依止，業力所感總異熟體。立二類種子：（本有）本性住種，（新熏）
@@ -198,7 +218,7 @@
 <lb n="0299a05" ed="Y"/>種子起<lb n="0299a05" ed="Y" type="old"/>現行，現行剎那生滅，熏成種子。種子生現，現行熏種，阿賴耶與前七識
 <lb n="0299a06" ed="Y"/>，互為<lb n="0299a06" ed="Y" type="old"/>因緣。又末那識（等）依阿賴耶，阿賴耶依末那；阿賴耶與末那，更互依
 <lb n="0299a07" ed="Y"/>存。唯<lb n="0299a07" ed="Y" type="old"/>識宗學，不失阿含<quote source="T30n1579_p0321b08-09" type="嚴謹引文">「識緣名色，名色緣識」<note n="0299002" resp="周怡曄" type="add">《瑜伽師地論》卷9(CBETA, T30, no. 1579, p. 321, b8-9)</note></quote>之義。</p>
-<lb n="0299a08" ed="Y"/><lb n="0299a08" ed="Y" type="old"/><p style="text-indent:2em">唯識宗立三自性：依他起性，是因緣生性，即唯識現；遍計所執性，是於依
+<lb n="0299a08" ed="Y"/><lb n="0299a08" ed="Y" type="old"/><p xml:id="pY28p0299a0801" style="text-indent:2em">唯識宗立三自性：依他起性，是因緣生性，即唯識現；遍計所執性，是於依
 <lb n="0299a09" ed="Y"/><lb n="0299a09" ed="Y" type="old"/>他起而起種種執著，即離心實有（外境）；圓成實性，是於依他起離遍計執所顯
 <lb n="0299a10" ed="Y"/><lb n="0299a10" ed="Y" type="old"/>空性，即唯識性（心性本淨）。依他起性即心心所法，而以根本阿賴耶識為依止
 <lb n="0299a11" ed="Y"/><lb n="0299a11" ed="Y" type="old"/>，依之明轉染還淨；究竟清淨，即無垢識為依止。然無漏正智現前，契入真如空
@@ -210,7 +230,7 @@
 <lb n="0300a03" ed="Y"/><lb n="0300a03" ed="Y" type="old"/>遍計所執相，是空義。遍計執空而依他泯寂——都無所得，是空性義。如約世俗
 <lb n="0300a04" ed="Y"/><lb n="0300a04" ed="Y" type="old"/>安立，依他、圓成是有，不可說空。唯識宗依<title level="m">《瑜伽師地論》</title>，特重<title level="m">《解深密經
 <lb n="0300a05" ed="Y"/>》</title>。</p>
-<lb n="0300a06" ed="Y"/><lb n="0300a05" ed="Y" type="old"/><p style="text-indent:2em">無著依<title level="m">《阿毘達磨大乘經》</title>，造<title level="m">《攝大乘論》</title>，世親為之釋。梁真諦譯出（
+<lb n="0300a06" ed="Y"/><lb n="0300a05" ed="Y" type="old"/><p xml:id="pY28p0300a0601" style="text-indent:2em">無著依<title level="m">《阿毘達磨大乘經》</title>，造<title level="m">《攝大乘論》</title>，世親為之釋。梁真諦譯出（
 <lb n="0300a07" ed="Y"/><lb n="0300a06" ed="Y" type="old"/>唐玄奘再譯），傳宏者名攝論師。真諦譯時有增益，然<title level="m">《攝大乘論》</title>本義，與<title level="m">《
 <lb n="0300a08" ed="Y"/>瑜伽師地論<lb n="0300a07" ed="Y" type="old"/>》</title>、<title level="m">《成唯識論》</title>，確有差異之處。如一、<title level="m">《攝大乘論》</title>立阿賴耶識
 <lb n="0300a09" ed="Y"/>為所知（一切法）依，<lb n="0300a08" ed="Y" type="old"/>然無漏種子，但立新熏。出世清淨無漏，<quote source="T31n1594_p0136c03-04" type="嚴謹引文">「從最清淨法界
@@ -244,7 +264,7 @@
 <lb n="0302a09" ed="Y"/>無垢識。但<cit><bibl><title level="m">《十八空論》</title>以</bibl><quote source="T31n1616_p0863b20" type="嚴謹引文">「阿摩羅識是自性<lb n="0302a08" ed="Y" type="old"/>清淨心」</quote><note n="0302004" resp="周怡曄" type="add">《十八空論》卷1(CBETA, T31, no. 1616, p. 863, b20)</note></cit>，與如來藏學之自性清淨
 <lb n="0302a10" ed="Y"/>心相合。真諦所譯，每以如來藏學入瑜伽學，<lb n="0302a09" ed="Y" type="old"/>以瑜伽學入如來藏學，有調和會通
 <lb n="0302a11" ed="Y"/>二學之意。</p>
-<lb n="0302a12" ed="Y"/><lb n="0302a10" ed="Y" type="old"/><p style="text-indent:2em">魏菩提流支、勒那摩提、佛陀扇多，譯出無著、世親論，<title level="m">《十地經論》</title>為最
+<lb n="0302a12" ed="Y"/><lb n="0302a10" ed="Y" type="old"/><p xml:id="pY28p0302a1201" style="text-indent:2em">魏菩提流支、勒那摩提、佛陀扇多，譯出無著、世親論，<title level="m">《十地經論》</title>為最
 <lb n="0302a13" ed="Y"/>著<lb n="0302a11" ed="Y" type="old"/>，宏傳者稱地論師。傳地論師以阿梨耶識為第一義心，以譯者所見互異，故所
 <pb n="0303a" ed="Y" xml:id="Y28.0028.0303a"/>
 <lb n="0303a01" ed="Y"/>傳<lb n="0302a12" ed="Y" type="old"/>不同。勒那摩提以阿梨耶為淨識，即法性真如，故<quote source="T34n1719_p0285a05" type="嚴謹引文">「計法性生一切法」<note n="0303001" resp="周怡曄" type="add">《法華文句記》卷7〈釋信解品〉(CBETA, T34, no. 1719, p. 285, a5)</note></quote>，<quote>「計
@@ -267,7 +287,7 @@
 <lb n="0304a04" ed="Y"/>大乘論》</title>。如來藏（真心）藏識之<lb n="0304a02" ed="Y" type="old"/>學，乃成為北土唯心論之主流。唯識宗及攝論
 <lb n="0304a05" ed="Y"/>、地論三系，同源異流，並為印度<lb n="0304a03" ed="Y" type="old"/>大乘論學，惟宏傳北地之地論師，以如來藏為
 <lb n="0304a06" ed="Y"/>能生一切，漸有中國佛學之特色。</p>
-<lb n="0304a07" ed="Y"/><lb n="0304a04" ed="Y" type="old"/><p style="text-indent:2em">三、天台宗：北齊慧文，於<title level="m">《大智度論》</title>悟三智一心，於<title level="m">《中論》</title>得三諦相
+<lb n="0304a07" ed="Y"/><lb n="0304a04" ed="Y" type="old"/><p xml:id="pY28p0304a0701" style="text-indent:2em">三、天台宗：北齊慧文，於<title level="m">《大智度論》</title>悟三智一心，於<title level="m">《中論》</title>得三諦相
 <lb n="0304a08" ed="Y"/>即之義；<lb n="0304a05" ed="Y" type="old"/>經慧思，傳天台智顗而大成。自經典東來，法門不一。南朝宋之慧觀，
 <lb n="0304a09" ed="Y"/>初創判教<lb n="0304a06" ed="Y" type="old"/>：華嚴為頓說，漸說為五時——阿含、方等、般若、法華、涅槃，依經
 <lb n="0304a10" ed="Y"/>說先後為次<lb n="0304a07" ed="Y" type="old"/>第。北土判教，多約義理淺深。智顗「研覈取去」，立五時八教。五
@@ -284,7 +304,7 @@
 <lb n="0305a07" ed="Y"/>具不思議佛法<lb n="0305a04" ed="Y" type="old"/>（不空）；瑜伽學別說阿賴耶識為依持，罕言相即。凡是地論、攝
 <lb n="0305a08" ed="Y"/>論師義——界<lb n="0305a05" ed="Y" type="old"/>外法門，智顗依相即互融而超越之，故天台圓義，意通<title level="m">《中論》</title>、
 <lb n="0305a09" ed="Y"/><title level="m">《大智度論》</title>而義<lb n="0305a06" ed="Y" type="old"/>異。</p>
-<lb n="0305a10" ed="Y"/><lb n="0305a07" ed="Y" type="old"/><p style="text-indent:2em">天台學圓融深廣，且約「一念三千」以略明之。「三千諸法」，即一切法。
+<lb n="0305a10" ed="Y"/><lb n="0305a07" ed="Y" type="old"/><p xml:id="pY28p0305a1001" style="text-indent:2em">天台學圓融深廣，且約「一念三千」以略明之。「三千諸法」，即一切法。
 <lb n="0305a11" ed="Y"/><lb n="0305a08" ed="Y" type="old"/><quote type="嚴謹引文">「夫一心具十法界，一法界又具十法界，（成）百法界。一界具三十種世間。百
 <lb n="0305a12" ed="Y"/>法<lb n="0305a09" ed="Y" type="old"/>界即具三千種世間，此三千在一念心。」<note n="0305002" resp="厚觀法師" type="add">《摩訶止觀》卷5(CBETA, T46, no. 1911, p. 54, a5-8)</note></quote>十法界為地獄、餓鬼、畜生、阿修羅
 <lb n="0305a13" ed="Y"/>、<lb n="0305a10" ed="Y" type="old"/>人、天、聲聞、緣覺、菩薩、佛；十界互具成百界。又有三世間：五陰世間、
@@ -307,7 +327,7 @@
 <lb n="0307a02" ed="Y"/>即是<lb n="0306a12" ed="Y" type="old"/>因緣所生法，是為假名，假觀也。若一切法即一法，我說即是空，空觀也。
 <lb n="0307a03" ed="Y"/>若非<lb n="0306a13" ed="Y" type="old"/>一非一切，即是中道觀」<note n="0307002" resp="周怡曄" type="add">《摩訶止觀》卷5(CBETA, T46, no. 1911, p. 55, b13-15)</note></quote>。只此一念無明法性心，具一切法，相依相即，非
 <lb n="0307a04" ed="Y"/>一非<pb n="0307a" ed="Y" xml:id="Y28.0028.0307a.old" type="old"/><lb n="0307a01" ed="Y" type="old"/>異；雖備明迷悟、諦觀、修證，而<quote source="T46n1911_p0001c29" type="嚴謹引文">「純一實相，實相外更無別法」<note n="0307003" resp="周怡曄" type="add">《摩訶止觀》卷1(CBETA, T46, no. 1911, p. 1, c29)</note></quote>。</p>
-<lb n="0307a05" ed="Y"/><lb n="0307a02" ed="Y" type="old"/><p style="text-indent:2em">四、賢首宗：地論師慧光一系，經<title level="m">《大乘起信論》</title>，發展而成賢首宗。<title level="m">《大
+<lb n="0307a05" ed="Y"/><lb n="0307a02" ed="Y" type="old"/><p xml:id="pY28p0307a0501" style="text-indent:2em">四、賢首宗：地論師慧光一系，經<title level="m">《大乘起信論》</title>，發展而成賢首宗。<title level="m">《大
 <lb n="0307a06" ed="Y"/>乘起<lb n="0307a03" ed="Y" type="old"/>信論》</title>傳為真諦所譯，馬鳴菩薩造。北土唯心論，有法性為依持（如來藏說
 <lb n="0307a07" ed="Y"/>）、<lb n="0307a04" ed="Y" type="old"/>阿黎耶識為依持之諍，<title level="m">《大乘起信論》</title>頗能統一而調和之。<title level="m">《大乘起信論》</title>
 <lb n="0307a08" ed="Y"/>立義，以<lb n="0307a05" ed="Y" type="old"/>「眾生心」為法（體），體相用三大為（法）義。三大與如來藏三義大
@@ -332,7 +352,7 @@
 <lb n="0308a13" ed="Y"/>真妄互熏<lb n="0308a10" ed="Y" type="old"/>，異於<title level="m">《楞伽經》</title>。此論不傳於印度，古有<quote>「非馬鳴造，昔日地論造論
 <pb n="0309a" ed="Y" xml:id="Y28.0028.0309a"/>
 <lb n="0309a01" ed="Y"/>，借菩薩名<lb n="0308a11" ed="Y" type="old"/>目之」</quote>之說。</p>
-<lb n="0309a02" ed="Y"/><lb n="0308a12" ed="Y" type="old"/><p style="text-indent:2em">賢首宗依唐賢首法藏得名。北土宏<title level="m">《十地經論》</title>、<title level="m">《大乘起信論》</title>，智正、
+<lb n="0309a02" ed="Y"/><lb n="0308a12" ed="Y" type="old"/><p xml:id="pY28p0309a0201" style="text-indent:2em">賢首宗依唐賢首法藏得名。北土宏<title level="m">《十地經論》</title>、<title level="m">《大乘起信論》</title>，智正、
 <lb n="0309a03" ed="Y"/>智儼以<lb n="0308a13" ed="Y" type="old"/>傳賢首，賢首判五教而大成華嚴宗學。五教者：一、小教，即小乘法。二
 <lb n="0309a04" ed="Y"/>、始教<pb n="0309a" ed="Y" xml:id="Y28.0028.0309a.old" type="old"/><lb n="0309a01" ed="Y" type="old"/>、即中觀空與瑜伽（唯識）有。三、終教，如來藏真心隨染，如<title level="m">《大乘起
 <lb n="0309a05" ed="Y"/>信論》</title>。四<lb n="0309a02" ed="Y" type="old"/>、頓教，絕相離言，如禪宗。五、圓教，即<title level="m">《華嚴經》</title>。賢首宗說：
@@ -348,7 +368,7 @@
 <lb n="0310a01" ed="Y"/>成於染淨，亦<lb n="0309a11" ed="Y" type="old"/>乃成染淨方顯性淨；非直不壞染淨明於性淨，亦乃由性淨故方成染
 <lb n="0310a02" ed="Y"/>淨」<note n="0310001" resp="周怡曄" type="add">《華嚴一乘教義分齊章》卷4(CBETA, T45, no. 1866, p. 499, b8-11)</note></quote>。真如<quote>「<lb n="0309a12" ed="Y" type="old"/>不變隨緣，隨緣不變」</quote>，同<title level="m">《大乘起信論》</title>意，以簡唯識宗，<quote source="X11n0269_p0740b18" type="嚴謹引文">「真
 <lb n="0310a03" ed="Y"/>如凝然不變，不許<lb n="0309a13" ed="Y" type="old"/>隨緣」<note n="0310002" resp="周怡曄" type="add">《楞嚴經熏聞記》卷3(CBETA, X11, no. 269, p. 740, b18 // Z 1:17, p. 307, c10 // R17, p. 614, a10)</note></quote>之說。</p><pb n="0310a" ed="Y" xml:id="Y28.0028.0310a.old" type="old"/>
-<lb n="0310a04" ed="Y"/><lb n="0310a01" ed="Y" type="old"/><p style="text-indent:2em">賢首宗以<title level="m">《華嚴經》</title>為圓極，又稱華嚴宗。經明華藏世界，毘盧遮那佛圓滿
+<lb n="0310a04" ed="Y"/><lb n="0310a01" ed="Y" type="old"/><p xml:id="pY28p0310a0401" style="text-indent:2em">賢首宗以<title level="m">《華嚴經》</title>為圓極，又稱華嚴宗。經明華藏世界，毘盧遮那佛圓滿
 <lb n="0310a05" ed="Y"/><lb n="0310a02" ed="Y" type="old"/>德相，敘菩薩行位以趣入佛地。相即相入，重重無盡，<title level="m">《華嚴經》</title>處處說之。土
 <lb n="0310a06" ed="Y"/><lb n="0310a03" ed="Y" type="old"/>名「華藏莊嚴世界」，佛為「毘盧遮那如來藏身」，即「如來藏恒沙佛法」所顯
 <lb n="0310a07" ed="Y"/><lb n="0310a04" ed="Y" type="old"/>。發心修行，圓顯如來藏，即是法身。毘盧遮那海印三昧所顯，一切相即相入，
@@ -366,7 +386,7 @@
 <lb n="0311a05" ed="Y"/>者，<lb n="0311a02" ed="Y" type="old"/>多義不相違故，同成一總相故。異相者，多義相望各各異故。成相者，由此
 <lb n="0311a06" ed="Y"/>諸義<lb n="0311a03" ed="Y" type="old"/>，緣起成故。壞相者，諸義各住自法，不移動故。」<note n="0311002" resp="周怡曄" type="add">《華嚴一乘教義分齊章復古記》卷3：「總相者一含多德故別相者多德非一故別依止總滿彼總故同相者多義不相違同成一總故異相者多義相望各各異故成相者由此諸義緣起成故壞相者諸義各住自法不移動故。」(CBETA, X58, no. 998, p. 394, a4-7 // Z 2:8, p. 285, c7-10 // R103, p. 570, a7-10)</note></quote>依上因門六義、十玄、
 <lb n="0311a07" ed="Y"/>六相<lb n="0311a04" ed="Y" type="old"/>，顯示圓融無礙法界緣起。</p>
-<lb n="0311a08" ed="Y"/><lb n="0311a05" ed="Y" type="old"/><p style="text-indent:2em">天台與賢首，並以圓義見稱，後之學者，莫能外也。如淨土宗，重於信願往
+<lb n="0311a08" ed="Y"/><lb n="0311a05" ed="Y" type="old"/><p xml:id="pY28p0311a0801" style="text-indent:2em">天台與賢首，並以圓義見稱，後之學者，莫能外也。如淨土宗，重於信願往
 <lb n="0311a09" ed="Y"/><lb n="0311a06" ed="Y" type="old"/>生；釋其義者，或以天台，或取賢首。如密宗，本「後期秘密大乘佛法」。唐開
 <lb n="0311a10" ed="Y"/><lb n="0311a07" ed="Y" type="old"/>元中，傳來胎藏、金剛二部密法，行持有其特色。東傳日本，或以賢首圓義釋之
 <lb n="0311a11" ed="Y"/><lb n="0311a08" ed="Y" type="old"/>，成「東密」；或以天台圓義釋之，成「台密」。如禪宗，本為「如來（藏）禪

@@ -12,64 +12,84 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>7卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 27, No. 27</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>7卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">27</idno>.<idno type="no">27</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（三）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB01121">
-	<charName>CBETA CHARACTER CB01121</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[口*尃]</value>
-	</charProp>
-	<mapping type="unicode">U+35D8</mapping>
-	<mapping cb:dec="984161" type="PUA">U+F0461</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB01121">
+				<charName>CBETA CHARACTER CB01121</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[口*尃]</value>
+				</charProp>
+				<mapping type="unicode">U+35D8</mapping>
+				<mapping cb:dec="984161" type="PUA">U+F0461</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">三、論毘舍離七百結集</cb:mulu><cb:mulu level="2" type="其他">七</cb:mulu>
-<milestone unit="juan" n="4"/><pb n="0087a" ed="Y" xml:id="Y27.0027.0087a.old" type="old"/>
+<milestone n="4" unit="juan"/><pb n="0087a" ed="Y" xml:id="Y27.0027.0087a.old" type="old"/>
 <pb n="0087a" ed="Y" xml:id="Y27.0027.0087a"/>
 <lb n="0087a01" ed="Y"/><lb n="0087a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">四、阿難過在何處</cb:mulu><head>阿難過在何處<note n="0087001" resp="DILA" type="add">民國五三年撰。</note></head>
 <lb n="0087a02" ed="Y"/><lb n="0087a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一</cb:mulu><head>一</head>
-<lb n="0087a03" ed="Y"/><lb n="0087a03" ed="Y" type="old"/><p style="text-indent:2em">阿難稱「多聞第一」，為佛的侍者，達二十五年。在這漫長的歲月裡，敬事
+<lb n="0087a03" ed="Y"/><lb n="0087a03" ed="Y" type="old"/><p xml:id="pY27p0087a0301" style="text-indent:2em">阿難稱「多聞第一」，為佛的侍者，達二十五年。在這漫長的歲月裡，敬事
 <lb n="0087a04" ed="Y"/><lb n="0087a04" ed="Y" type="old"/>如來，教誨四眾，始終是不厭不倦。明敏慈和，應對如法，在佛的大弟子中，是
 <lb n="0087a05" ed="Y"/><lb n="0087a05" ed="Y" type="old"/>一位值得尊敬的聖者！</p>
-<lb n="0087a06" ed="Y"/><lb n="0087a06" ed="Y" type="old"/><p style="text-indent:2em">以律典為主的傳記，大同小異的說到：阿難侍從如來，到拘尸那，佛入涅槃
+<lb n="0087a06" ed="Y"/><lb n="0087a06" ed="Y" type="old"/><p xml:id="pY27p0087a0601" style="text-indent:2em">以律典為主的傳記，大同小異的說到：阿難侍從如來，到拘尸那，佛入涅槃
 <lb n="0087a07" ed="Y"/><lb n="0087a07" ed="Y" type="old"/>。那時，長老大迦葉率領五百位大比丘，遠遠的趕來參預荼毘大典。大迦葉當時
 <lb n="0087a08" ed="Y"/><lb n="0087a08" ed="Y" type="old"/>發起選定五百位大比丘，在王舍城結集法藏。在發起結集時，阿難幾乎為大迦葉
 <lb n="0087a09" ed="Y"/><lb n="0087a09" ed="Y" type="old"/>所擯棄。在結集過程中，大迦葉所領導的僧伽，對阿難舉發一連串的過失。阿難
@@ -81,16 +101,16 @@
 <lb n="0088a04" ed="Y"/><lb n="0088a04" ed="Y" type="old"/>來，這裡面問題很多呢！阿難受到責備，到底是些什麼過失？研究這一連串的過
 <lb n="0088a05" ed="Y"/><lb n="0088a05" ed="Y" type="old"/>失，就充分明白這是什麼一回事，發見了僧團的真正問題。這是佛教史的重要關
 <lb n="0088a06" ed="Y"/><lb n="0088a06" ed="Y" type="old"/>節，讓我不厭煩的敘述出來。</p>
-<lb n="0088a07" ed="Y"/><lb n="0088a07" ed="Y" type="old"/><p style="text-indent:2em">阿難受責，載於有關結集的傳記；各派所傳，大同小異。一、南傳<bibl>《<title level="m">銅鍱律</title>
+<lb n="0088a07" ed="Y"/><lb n="0088a07" ed="Y" type="old"/><p xml:id="pY27p0088a0701" style="text-indent:2em">阿難受責，載於有關結集的傳記；各派所傳，大同小異。一、南傳<bibl>《<title level="m">銅鍱律</title>
 <lb n="0088a08" ed="Y"/><lb n="0088a08" ed="Y" type="old"/>．<title level="a">小品</title>．<note place="inline">一一</note><title level="a">五百犍度</title>》</bibl>，有五突吉羅（或譯惡作）。二、化地部<bibl><title level="m">《五分律》</title><lb n="0088a09" ed="Y" type="old"/>第
 <lb n="0088a09" ed="Y"/>五分之九<title level="a">〈五百集法〉</title><biblScope n="30" type="卷"><note place="inline">三〇</note></biblScope></bibl>，有六突吉羅。三、摩偷羅有部舊傳<bibl>《<title level="m">十誦律</title>．<lb n="0088a10" ed="Y" type="old"/><title level="a">五
-<lb n="0088a10" ed="Y"/>百比丘結集三藏法品</title>》<biblScope type="卷" n="60"><note place="inline">六〇</note></biblScope></bibl>，有六突吉羅。四、大乘中觀宗<bibl><title level="m">《大智度論》</title><biblScope type="卷" n="2"><note place="inline"><lb n="0088a11" ed="Y" type="old"/>二</note></biblScope></bibl>
+<lb n="0088a10" ed="Y"/>百比丘結集三藏法品</title>》<biblScope n="60" type="卷"><note place="inline">六〇</note></biblScope></bibl>，有六突吉羅。四、大乘中觀宗<bibl><title level="m">《大智度論》</title><biblScope n="2" type="卷"><note place="inline"><lb n="0088a11" ed="Y" type="old"/>二</note></biblScope></bibl>
 <lb n="0088a11" ed="Y"/>，有六突吉羅。論文僅出五罪；與<title level="m">《十誦律》</title>相同，只是次第先後而已。五<lb n="0088a12" ed="Y" type="old"/>、大
 <lb n="0088a12" ed="Y"/>眾部<bibl>《<title level="m">摩訶僧祇律</title>．<title level="a">雜跋渠</title>》<biblScope n="32" type="卷"><note place="inline">三二</note></biblScope></bibl>，有七越毘尼罪（即突吉羅罪）。六<lb n="0088a13" ed="Y" type="old"/>、法藏
 <lb n="0088a13" ed="Y"/>部<bibl><title level="m">《四分律》</title>第四分<title level="a">〈五百集法毘尼〉</title><biblScope n="54" type="卷"><note place="inline">五四</note></biblScope></bibl>，有七突吉羅。七、<bibl><title level="m">《毘尼<pb n="0089a" ed="Y" xml:id="Y27.0027.0089a.old" type="old"/><lb n="0089a01" ed="Y" type="old"/>母經》</title>
 <pb n="0089a" ed="Y" xml:id="Y27.0027.0089a"/>
-<lb n="0089a01" ed="Y"/><biblScope type="卷" n="4"><note place="inline">四</note></biblScope></bibl>，有七過，但僅出不問微細戒及度女人出家二事。八、白法祖譯<bibl><title level="m">《<lb n="0089a02" ed="Y" type="old"/>佛般泥洹
-<lb n="0089a02" ed="Y"/>經》</title><biblScope type="卷" n="下"><note place="inline">下</note></biblScope></bibl>，有七過，但只說到不請佛住世。七、八兩部經律，大抵與五<lb n="0089a03" ed="Y" type="old"/>、六相近
+<lb n="0089a01" ed="Y"/><biblScope n="4" type="卷"><note place="inline">四</note></biblScope></bibl>，有七過，但僅出不問微細戒及度女人出家二事。八、白法祖譯<bibl><title level="m">《<lb n="0089a02" ed="Y" type="old"/>佛般泥洹
+<lb n="0089a02" ed="Y"/>經》</title><biblScope n="下" type="卷"><note place="inline">下</note></biblScope></bibl>，有七過，但只說到不請佛住世。七、八兩部經律，大抵與五<lb n="0089a03" ed="Y" type="old"/>、六相近
 <lb n="0089a03" ed="Y"/>。九、迦溼彌羅有部新律——<bibl><title level="m">《根本說一切有部毘奈耶雜事》</title><biblScope n="39" type="卷"><note place="inline">三九</note></biblScope></bibl>，<lb n="0089a04" ed="Y" type="old"/>有八惡作
 <lb n="0089a04" ed="Y"/>罪。十、<title level="m">《迦葉結經》</title>有九過失，與<title level="m">《雜事》</title>同。此外，<title level="m">《撰集三藏及<lb n="0089a05" ed="Y" type="old"/>雜藏傳》</title>（
 <lb n="0089a05" ed="Y"/>安世高譯），只說了重要的四事。在這些或多或少的過失中，可歸納<lb n="0089a06" ed="Y" type="old"/>為三類：一
@@ -99,39 +119,39 @@
 <lb n="0089a08" ed="Y"/>》</title>、<title level="m">《十誦律》</title>，都以不問微細戒為第一過；而<title level="m">《四分律》</title><lb n="0089a09" ed="Y" type="old"/>等，都以請度女人為
 <lb n="0089a09" ed="Y"/>第一。大抵當時阿難傳佛遺命——<quote type="寬鬆引文">「小小戒可捨」</quote>，這一來<lb n="0089a10" ed="Y" type="old"/>，引起了大迦葉學團
 <lb n="0089a10" ed="Y"/>的舊痕新傷；這才一連串的舉發，連二十年前的老問題，也<lb n="0089a11" ed="Y" type="old"/>重新翻出來。</p>
-<lb n="0089a11" ed="Y"/><lb n="0089a12" ed="Y" type="old"/><p style="text-indent:2em">這些或多或少的過失，總列如下。但眾傳一致的，僅一、二、五、六——四
+<lb n="0089a11" ed="Y"/><lb n="0089a12" ed="Y" type="old"/><p xml:id="pY27p0089a1101" style="text-indent:2em">這些或多或少的過失，總列如下。但眾傳一致的，僅一、二、五、六——四
 <lb n="0089a12" ed="Y"/><lb n="0089a13" ed="Y" type="old"/>事。</p><pb n="0090a" ed="Y" xml:id="Y27.0027.0090a.old" type="old"/>
-<lb n="0089a13" ed="Y"/><lb n="0090a01" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:3em;text-indent:-2em">一、不問佛小小戒</p></item>
+<lb n="0089a13" ed="Y"/><lb n="0090a01" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY27p0089a1301"><p xml:id="pY27p0089a1301" style="margin-left:3em;text-indent:-2em">一、不問佛小小戒</p></item>
 <pb n="0090a" ed="Y" xml:id="Y27.0027.0090a"/>
-<lb n="0090a01" ed="Y"/><lb n="0090a02" ed="Y" type="old"/><item><p style="margin-left:3em;text-indent:-2em">二、請佛度女人出家</p></item>
-<lb n="0090a02" ed="Y"/><lb n="0090a03" ed="Y" type="old"/><item><p style="margin-left:3em;text-indent:-2em">三、聽女人先禮致汙舍利（佛身）——<title level="m">《四分律》</title>與<title level="m">《僧祇律》</title>作不遮女
+<lb n="0090a01" ed="Y"/><lb n="0090a02" ed="Y" type="old"/><item xml:id="itemY27p0090a0101"><p xml:id="pY27p0090a0101" style="margin-left:3em;text-indent:-2em">二、請佛度女人出家</p></item>
+<lb n="0090a02" ed="Y"/><lb n="0090a03" ed="Y" type="old"/><item xml:id="itemY27p0090a0201"><p xml:id="pY27p0090a0201" style="margin-left:3em;text-indent:-2em">三、聽女人先禮致汙舍利（佛身）——<title level="m">《四分律》</title>與<title level="m">《僧祇律》</title>作不遮女
 <lb n="0090a03" ed="Y"/><lb n="0090a04" ed="Y" type="old"/>人禮佛致汙佛足；<title level="m">《雜事》</title>及<title level="m">《迦葉結經》</title>作以佛金身示女人致為涕
 <lb n="0090a04" ed="Y"/><lb n="0090a05" ed="Y" type="old"/>淚汙足</p></item>
-<lb n="0090a05" ed="Y"/><lb n="0090a06" ed="Y" type="old"/><item><p style="margin-left:3em;text-indent:-2em">四、以佛陰藏相示女人</p></item>
-<lb n="0090a06" ed="Y"/><lb n="0090a07" ed="Y" type="old"/><item><p style="margin-left:3em;text-indent:-2em">五、不請佛久住世間</p></item>
-<lb n="0090a07" ed="Y"/><lb n="0090a08" ed="Y" type="old"/><item><p style="margin-left:3em;text-indent:-2em">六、佛索水而不與——<title level="m">《雜事》</title>作以濁水供佛</p></item>
-<lb n="0090a08" ed="Y"/><lb n="0090a09" ed="Y" type="old"/><item><p style="margin-left:3em;text-indent:-2em">七、為佛縫衣而以足躡——<title level="m">《雜事》</title>作浣衣；<title level="m">《十誦律》</title>作擘衣</p></item>
-<lb n="0090a09" ed="Y"/><lb n="0090a10" ed="Y" type="old"/><item><p style="margin-left:3em;text-indent:-2em">八、佛為說喻而對佛別說——<title level="m">《迦葉結經》</title>作他犯他坐</p></item>
-<lb n="0090a10" ed="Y"/><lb n="0090a11" ed="Y" type="old"/><item><p style="margin-left:3em;text-indent:-2em">九、命為侍者而初不願</p></item></list></cb:div>
+<lb n="0090a05" ed="Y"/><lb n="0090a06" ed="Y" type="old"/><item xml:id="itemY27p0090a0501"><p xml:id="pY27p0090a0501" style="margin-left:3em;text-indent:-2em">四、以佛陰藏相示女人</p></item>
+<lb n="0090a06" ed="Y"/><lb n="0090a07" ed="Y" type="old"/><item xml:id="itemY27p0090a0601"><p xml:id="pY27p0090a0601" style="margin-left:3em;text-indent:-2em">五、不請佛久住世間</p></item>
+<lb n="0090a07" ed="Y"/><lb n="0090a08" ed="Y" type="old"/><item xml:id="itemY27p0090a0701"><p xml:id="pY27p0090a0701" style="margin-left:3em;text-indent:-2em">六、佛索水而不與——<title level="m">《雜事》</title>作以濁水供佛</p></item>
+<lb n="0090a08" ed="Y"/><lb n="0090a09" ed="Y" type="old"/><item xml:id="itemY27p0090a0801"><p xml:id="pY27p0090a0801" style="margin-left:3em;text-indent:-2em">七、為佛縫衣而以足躡——<title level="m">《雜事》</title>作浣衣；<title level="m">《十誦律》</title>作擘衣</p></item>
+<lb n="0090a09" ed="Y"/><lb n="0090a10" ed="Y" type="old"/><item xml:id="itemY27p0090a0901"><p xml:id="pY27p0090a0901" style="margin-left:3em;text-indent:-2em">八、佛為說喻而對佛別說——<title level="m">《迦葉結經》</title>作他犯他坐</p></item>
+<lb n="0090a10" ed="Y"/><lb n="0090a11" ed="Y" type="old"/><item xml:id="itemY27p0090a1001"><p xml:id="pY27p0090a1001" style="margin-left:3em;text-indent:-2em">九、命為侍者而初不願</p></item></list></cb:div>
 <lb n="0090a11" ed="Y"/><lb n="0090a12" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二</cb:mulu><head>二</head><pb n="0091a" ed="Y" xml:id="Y27.0027.0091a.old" type="old"/>
-<lb n="0090a12" ed="Y"/><lb n="0091a01" ed="Y" type="old"/><p style="text-indent:2em">阿難被責的真實起因，是阿難在結集大會中，向大眾傳達了釋尊的遺命：<quote type="寬鬆引文">「
+<lb n="0090a12" ed="Y"/><lb n="0091a01" ed="Y" type="old"/><p xml:id="pY27p0090a1201" style="text-indent:2em">阿難被責的真實起因，是阿難在結集大會中，向大眾傳達了釋尊的遺命：<quote type="寬鬆引文">「
 <pb n="0091a" ed="Y" xml:id="Y27.0027.0091a"/>
 <lb n="0091a01" ed="Y"/><lb n="0091a02" ed="Y" type="old"/>小小戒可捨」</quote>。據傳說：什麼是小小戒，由於阿難沒有問佛，所以法會大眾，異
 <lb n="0091a02" ed="Y"/><lb n="0091a03" ed="Y" type="old"/>說紛紜。結果，大迦葉出來中止討論，決定為：<cit><quote type="嚴謹引文">「若佛所不制，不應妄制；若已
-<lb n="0091a03" ed="Y"/><lb n="0091a04" ed="Y" type="old"/>制，不得有違。如佛所教，應謹學之。」</quote><note place="inline"><bibl><title level="m">《五分律》</title><biblScope type="卷" n="30">三〇</biblScope></bibl></note><note n="0091001" resp="厚觀法師" type="add">《彌沙塞部和醯五分律》卷30(CBETA, T22, no. 1421, p. 191, c17-18)</note></cit>什麼是小小戒，既然大
+<lb n="0091a03" ed="Y"/><lb n="0091a04" ed="Y" type="old"/>制，不得有違。如佛所教，應謹學之。」</quote><note place="inline"><bibl><title level="m">《五分律》</title><biblScope n="30" type="卷">三〇</biblScope></bibl></note><note n="0091001" resp="厚觀法師" type="add">《彌沙塞部和醯五分律》卷30(CBETA, T22, no. 1421, p. 191, c17-18)</note></cit>什麼是小小戒，既然大
 <lb n="0091a04" ed="Y"/><lb n="0091a05" ed="Y" type="old"/>家莫衷一是，那不如奉行如來的一切律制。已制的不得捨除，沒有制的不得再制
 <lb n="0091a05" ed="Y"/><lb n="0091a06" ed="Y" type="old"/>，那是怎樣的忠於佛制！然而，<quote type="寬鬆引文">「小小戒可捨」</quote>，到底是釋尊最後的遺命。所以
 <lb n="0091a06" ed="Y"/><lb n="0091a07" ed="Y" type="old"/>大迦葉的硬性決定，不免違反佛陀的本意。為了這，大迦葉指責阿難，為什麼沒
 <lb n="0091a07" ed="Y"/><lb n="0091a08" ed="Y" type="old"/>有詳細問佛，犯突吉羅罪。這一問題，導火線一樣，大迦葉接著提出一連串的指
 <lb n="0091a08" ed="Y"/><lb n="0091a09" ed="Y" type="old"/>責。所以阿難的被責，決不只是為了沒有問明白，而更有內在的問題。</p>
-<lb n="0091a09" ed="Y"/><lb n="0091a10" ed="Y" type="old"/><p style="text-indent:2em">什麼是小小戒？小小戒，或譯微細戒；雜碎戒；小隨小戒；隨順雜碎戒禁。
+<lb n="0091a09" ed="Y"/><lb n="0091a10" ed="Y" type="old"/><p xml:id="pY27p0091a0901" style="text-indent:2em">什麼是小小戒？小小戒，或譯微細戒；雜碎戒；小隨小戒；隨順雜碎戒禁。
 <lb n="0091a10" ed="Y"/><lb n="0091a11" ed="Y" type="old"/>在結集法會上，雖並沒有定論，但在各家律典中，都曾給予明白的解說。</p>
-<lb n="0091a11" ed="Y"/><lb n="0091a12" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:3em;text-indent:-2em">一、一切戒法<note place="inline"><bibl><title level="m">《十誦律》</title><biblScope type="卷" n="10">一〇</biblScope>；</bibl><bibl><title level="m">《鼻奈耶》</title><biblScope n="7" type="卷">七</biblScope>；</bibl><bibl><title level="m">《薩婆多毘尼毘婆沙》</title><biblScope n="6" type="卷">六</biblScope></bibl></note></p></item>
-<lb n="0091a12" ed="Y"/><lb n="0091a13" ed="Y" type="old"/><item><p style="margin-left:3em;text-indent:-2em">二、除四事<note place="inline"><bibl><title level="m">《根有律》</title><biblScope n="27" type="卷">二七</biblScope>；</bibl><bibl><title level="m">《薩婆多部律攝論》</title><biblScope type="卷" n="9">九</biblScope>；</bibl><title level="m">《二十二明了論》</title></note></p></item><pb n="0092a" ed="Y" xml:id="Y27.0027.0092a.old" type="old"/>
-<lb n="0091a13" ed="Y"/><lb n="0092a01" ed="Y" type="old"/><item><p style="margin-left:3em;text-indent:-2em">三、除四事十三事<note place="inline"><bibl><title level="m">《僧祇律》</title><biblScope n="14" type="卷">一四</biblScope>；</bibl><bibl><title level="m">《四分律》</title><biblScope n="18" type="卷">一八</biblScope></bibl></note></p></item>
+<lb n="0091a11" ed="Y"/><lb n="0091a12" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY27p0091a1101"><p xml:id="pY27p0091a1101" style="margin-left:3em;text-indent:-2em">一、一切戒法<note place="inline"><bibl><title level="m">《十誦律》</title><biblScope n="10" type="卷">一〇</biblScope>；</bibl><bibl><title level="m">《鼻奈耶》</title><biblScope n="7" type="卷">七</biblScope>；</bibl><bibl><title level="m">《薩婆多毘尼毘婆沙》</title><biblScope n="6" type="卷">六</biblScope></bibl></note></p></item>
+<lb n="0091a12" ed="Y"/><lb n="0091a13" ed="Y" type="old"/><item xml:id="itemY27p0091a1201"><p xml:id="pY27p0091a1201" style="margin-left:3em;text-indent:-2em">二、除四事<note place="inline"><bibl><title level="m">《根有律》</title><biblScope n="27" type="卷">二七</biblScope>；</bibl><bibl><title level="m">《薩婆多部律攝論》</title><biblScope n="9" type="卷">九</biblScope>；</bibl><title level="m">《二十二明了論》</title></note></p></item><pb n="0092a" ed="Y" xml:id="Y27.0027.0092a.old" type="old"/>
+<lb n="0091a13" ed="Y"/><lb n="0092a01" ed="Y" type="old"/><item xml:id="itemY27p0091a1301"><p xml:id="pY27p0091a1301" style="margin-left:3em;text-indent:-2em">三、除四事十三事<note place="inline"><bibl><title level="m">《僧祇律》</title><biblScope n="14" type="卷">一四</biblScope>；</bibl><bibl><title level="m">《四分律》</title><biblScope n="18" type="卷">一八</biblScope></bibl></note></p></item>
 <pb n="0092a" ed="Y" xml:id="Y27.0027.0092a"/>
-<lb n="0092a01" ed="Y"/><lb n="0092a02" ed="Y" type="old"/><item><p style="margin-left:3em;text-indent:-2em">四、除四事十三事二不定法<note place="inline"><bibl><title level="m">《五分律》</title><biblScope n="6" type="卷">六</biblScope></bibl></note></p></item></list>
-<lb n="0092a02" ed="Y"/><lb n="0092a03" ed="Y" type="old"/><p style="text-indent:2em">如照第一類<note place="inline"><title level="m">《十誦律》</title>等</note>解說，那佛說<quote type="寬鬆引文">「小小戒可捨」</quote>，不等於全部取消了
+<lb n="0092a01" ed="Y"/><lb n="0092a02" ed="Y" type="old"/><item xml:id="itemY27p0092a0101"><p xml:id="pY27p0092a0101" style="margin-left:3em;text-indent:-2em">四、除四事十三事二不定法<note place="inline"><bibl><title level="m">《五分律》</title><biblScope n="6" type="卷">六</biblScope></bibl></note></p></item></list>
+<lb n="0092a02" ed="Y"/><lb n="0092a03" ed="Y" type="old"/><p xml:id="pY27p0092a0201" style="text-indent:2em">如照第一類<note place="inline"><title level="m">《十誦律》</title>等</note>解說，那佛說<quote type="寬鬆引文">「小小戒可捨」</quote>，不等於全部取消了
 <lb n="0092a03" ed="Y"/><lb n="0092a04" ed="Y" type="old"/>律制嗎？這是決無可能的。那怎麼會作這樣的解說？這無非強化反對<quote type="寬鬆引文">「小小戒可
 <lb n="0092a04" ed="Y"/><lb n="0092a05" ed="Y" type="old"/>捨」</quote>的理由。照這類律師的看法，小小戒可捨，那就等於取消了一切律制！所以
 <lb n="0092a05" ed="Y"/><lb n="0092a06" ed="Y" type="old"/>凡主張小小戒（雜碎戒）可捨的，就是不重律，不持戒的比丘。這一推論，是有
@@ -151,7 +171,7 @@
 <lb n="0093a05" ed="Y"/>大迦葉為此而決定了發起<lb n="0093a06" ed="Y" type="old"/>結集毘尼，而阿難竟公然傳達如來的遺命<quote type="寬鬆引文">「小小戒可捨
 <lb n="0093a06" ed="Y"/>」</quote>，這簡直與大迦葉為難<lb n="0093a07" ed="Y" type="old"/>。明瞭大迦葉與律師們的見地，根本不同意小小戒可捨
 <lb n="0093a07" ed="Y"/>，那對一連串的責難阿難<lb n="0093a08" ed="Y" type="old"/>，也就不覺得可怪了！</p>
-<lb n="0093a08" ed="Y"/><lb n="0093a09" ed="Y" type="old"/><p style="text-indent:2em">二、另有一類不同的句法，如<cit><bibl><title level="m">《十誦律》</title>說</bibl><quote type="嚴謹引文">「我般涅槃後，若僧一心和<lb n="0093a10" ed="Y" type="old"/>合籌
+<lb n="0093a08" ed="Y"/><lb n="0093a09" ed="Y" type="old"/><p xml:id="pY27p0093a0801" style="text-indent:2em">二、另有一類不同的句法，如<cit><bibl><title level="m">《十誦律》</title>說</bibl><quote type="嚴謹引文">「我般涅槃後，若僧一心和<lb n="0093a10" ed="Y" type="old"/>合籌
 <lb n="0093a09" ed="Y"/>量，放捨微細戒」</quote><note n="0093002" resp="厚觀法師" type="add">《十誦律》卷60(CBETA, T23, no. 1435, p. 449, b13-14)</note></cit>；南傳<title level="m">《銅鍱律》</title>及<cit><bibl><title level="m">《長部》</title><note place="inline">一六</note><title level="m">《大般涅槃經》</title>說<lb n="0093a11" ed="Y" type="old"/></bibl><quote>「我滅
 <lb n="0093a10" ed="Y"/>後僧伽若欲捨小小戒者，可捨」</quote></cit>；<cit><bibl><title level="m">《毘尼母經》</title>說</bibl><quote source="T24n1463_p0818b03-04" type="嚴謹引文">「吾滅度後，應集眾<lb n="0093a12" ed="Y" type="old"/>僧捨微細
 <lb n="0093a11" ed="Y"/>戒」</quote><note n="0093003" resp="謝淑歆" type="add">《毘尼母經》卷3(CBETA, T24, no. 1463, p. 818, b3-4)</note></cit>。這不是說隨便放棄，也不是說捨就捨，而整篇的捨去眾學法，波<lb n="0093a13" ed="Y" type="old"/>逸提等。
@@ -170,7 +190,7 @@
 <lb n="0094a10" ed="Y"/>在時地機宜的必<lb n="0094a11" ed="Y" type="old"/>要下，僧伽可集議處理小小戒；這才能適應實際，不致窒礙難通
 <lb n="0094a11" ed="Y"/>。但苦行與重戒者，<lb n="0094a12" ed="Y" type="old"/>以為捨小小戒，就是破壞戒法、不要一切戒法，只是為了便
 <lb n="0094a12" ed="Y"/>於個人的任意為非。這與<lb n="0094a13" ed="Y" type="old"/>釋尊<quote type="寬鬆引文">「小小戒可捨」</quote>的見地，距離實在太遠，也難怪他
-<lb n="0094a13" ed="Y"/>們堅決反對了！據<bibl><title level="m">《五分律》</title><pb n="0095a" ed="Y" xml:id="Y27.0027.0095a.old" type="old"/><lb n="0095a01" ed="Y" type="old"/><biblScope type="卷" n="4"><note place="inline">四</note></biblScope></bibl>等說：僧伽也可以立制——波逸提等。但頭陀
+<lb n="0094a13" ed="Y"/>們堅決反對了！據<bibl><title level="m">《五分律》</title><pb n="0095a" ed="Y" xml:id="Y27.0027.0095a.old" type="old"/><lb n="0095a01" ed="Y" type="old"/><biblScope n="4" type="卷"><note place="inline">四</note></biblScope></bibl>等說：僧伽也可以立制——波逸提等。但頭陀
 <pb n="0095a" ed="Y" xml:id="Y27.0027.0095a"/>
 <lb n="0095a01" ed="Y"/>苦行的優婆斯那，不肯尊敬僧<lb n="0095a02" ed="Y" type="old"/>伽的制立，而只承認佛制。大概頭陀行者，重律制
 <lb n="0095a02" ed="Y"/>者，確信律制愈嚴密，愈精苦<lb n="0095a03" ed="Y" type="old"/>愈好，這才能因戒法的軌範而清淨修行。所以佛所
@@ -187,7 +207,7 @@
 <lb n="0095a13" ed="Y"/>，就影響到佛法的正常開展。<pb n="0096a" ed="Y" xml:id="Y27.0027.0096a.old" type="old"/><lb n="0096a01" ed="Y" type="old"/>追究起來，不能不說是由於拒絕<quote type="寬鬆引文">「小小戒可捨」</quote>的
 <pb n="0096a" ed="Y" xml:id="Y27.0027.0096a"/>
 <lb n="0096a01" ed="Y"/>如來遺命所引起的。</p>
-<lb n="0096a02" ed="Y"/><lb n="0096a02" ed="Y" type="old"/><p style="text-indent:2em">阿難傳佛遺命，不但沒有為大眾所接受，反而受到一連串的責難。這是既成
+<lb n="0096a02" ed="Y"/><lb n="0096a02" ed="Y" type="old"/><p xml:id="pY27p0096a0201" style="text-indent:2em">阿難傳佛遺命，不但沒有為大眾所接受，反而受到一連串的責難。這是既成
 <lb n="0096a03" ed="Y"/><lb n="0096a03" ed="Y" type="old"/>事實，也不必多說了。惟各家律典，同有輕呵毘尼（學處）戒，再為一說。由於
 <lb n="0096a04" ed="Y"/><lb n="0096a04" ed="Y" type="old"/>闡陀或六群比丘，宣稱<quote source="T23n1435_p0074b25" type="嚴謹引文">「用是雜碎戒為」<note n="0096001" resp="謝淑歆" type="add">《十誦律》卷10(CBETA, T23, no. 1435, p. 74, b25)</note></quote>，而經如來制立學處，結為波逸提罪。
 <lb n="0096a05" ed="Y"/><lb n="0096a05" ed="Y" type="old"/>佛世早已制立學處，判為非法，那釋尊又怎麼遺命——小小戒可捨？不准比丘們
@@ -196,15 +216,15 @@
 <lb n="0096a08" ed="Y"/><lb n="0096a08" ed="Y" type="old"/>學系所拒絕。為了不使重法學系的重提遺命，而特地制立這一學處吧！論理是不
 <lb n="0096a09" ed="Y"/><lb n="0096a09" ed="Y" type="old"/>會這樣的，但矛盾的事實，值得律師們多多思考！</p></cb:div>
 <lb n="0096a10" ed="Y"/><lb n="0096a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三</cb:mulu><head>三</head>
-<lb n="0096a11" ed="Y"/><lb n="0096a11" ed="Y" type="old"/><p style="text-indent:2em">與女眾有關的過失，最重要的是阿難懇求佛度女眾出家。此事見於各家廣律
+<lb n="0096a11" ed="Y"/><lb n="0096a11" ed="Y" type="old"/><p xml:id="pY27p0096a1101" style="text-indent:2em">與女眾有關的過失，最重要的是阿難懇求佛度女眾出家。此事見於各家廣律
 <lb n="0096a12" ed="Y"/><lb n="0096a12" ed="Y" type="old"/>的<title level="a">〈比丘尼犍度〉</title>；還有南傳<bibl><title level="m">《增支部》</title><note place="inline">八．五一</note></bibl>的<title level="m">《瞿曇彌經》</title>與漢譯<bibl><title level="m">《中阿
 <pb n="0097a" ed="Y" xml:id="Y27.0027.0097a"/>
-<lb n="0097a01" ed="Y"/>含<pb n="0097a" ed="Y" xml:id="Y27.0027.0097a.old" type="old"/><lb n="0097a01" ed="Y" type="old"/>經》</title>(<biblScope type="卷" n="28" rend="small">二八</biblScope><seg rend="small">．<ref target="#no:26.116" type="taisho">一一六</ref></seg>)</bibl><title level="m">《瞿曇彌經》</title>。大迦葉指責阿難求度女眾出家，犯突吉羅，
+<lb n="0097a01" ed="Y"/>含<pb n="0097a" ed="Y" xml:id="Y27.0027.0097a.old" type="old"/><lb n="0097a01" ed="Y" type="old"/>經》</title>(<biblScope n="28" rend="small" type="卷">二八</biblScope><seg rend="small">．<ref target="#no:26.116" type="taisho">一一六</ref></seg>)</bibl><title level="m">《瞿曇彌經》</title>。大迦葉指責阿難求度女眾出家，犯突吉羅，
 <lb n="0097a02" ed="Y"/>見於<lb n="0097a02" ed="Y" type="old"/>有關五百結集的律與論。</p>
-<lb n="0097a03" ed="Y"/><lb n="0097a03" ed="Y" type="old"/><p style="text-indent:2em">求度女眾出家的當時情況是：佛的姨母摩訶波闍波提瞿曇彌，與眾多的釋種
+<lb n="0097a03" ed="Y"/><lb n="0097a03" ed="Y" type="old"/><p xml:id="pY27p0097a0301" style="text-indent:2em">求度女眾出家的當時情況是：佛的姨母摩訶波闍波提瞿曇彌，與眾多的釋種
 <lb n="0097a04" ed="Y"/><lb n="0097a04" ed="Y" type="old"/>女，到處追隨如來，求佛出家。但再三請求，得不到釋尊的允許。他們是夠虔誠
 <lb n="0097a05" ed="Y"/><lb n="0097a05" ed="Y" type="old"/>的，由於不得出家，而苦切得不得了。</p>
-<lb n="0097a06" ed="Y"/><lb n="0097a06" ed="Y" type="old"/><p style="text-indent:2em">阿難見到他們那種流離苦切的情況，不覺起了同情心，於是進見釋尊，代為
+<lb n="0097a06" ed="Y"/><lb n="0097a06" ed="Y" type="old"/><p xml:id="pY27p0097a0601" style="text-indent:2em">阿難見到他們那種流離苦切的情況，不覺起了同情心，於是進見釋尊，代為
 <lb n="0097a07" ed="Y"/><lb n="0097a07" ed="Y" type="old"/>請求。據<title level="a">〈比丘尼犍度〉</title>，及阿難自己分辯的理由是：一、摩訶波闍波提，乳養
 <lb n="0097a08" ed="Y"/>撫育<lb n="0097a08" ed="Y" type="old"/>釋尊，恩深如生母一樣。為了報恩，請准其出家（這理由，只適用於瞿曇彌
 <lb n="0097a09" ed="Y"/>一人<lb n="0097a09" ed="Y" type="old"/>）。二、阿難問佛：女人如出家修道，是否能證初果到四果——阿羅漢，佛
@@ -219,10 +239,10 @@
 <lb n="0098a04" ed="Y"/><lb n="0098a04" ed="Y" type="old"/>場，也不可能以此為理由。二、摩訶波闍波提等，都是釋種，阿難憐念親族，所
 <lb n="0098a05" ed="Y"/><lb n="0098a05" ed="Y" type="old"/>以代為請求。這只是迦溼彌羅有部——<title level="m">《根有律雜事》</title>、<title level="m">《迦葉結經》</title>的一派傳
 <lb n="0098a06" ed="Y"/><lb n="0098a06" ed="Y" type="old"/>說，想當然而已。</p>
-<lb n="0098a07" ed="Y"/><lb n="0098a07" ed="Y" type="old"/><p style="text-indent:2em">為了報答佛母深恩，女眾能究竟解脫生死，阿難一再請求如來，准許女眾出
+<lb n="0098a07" ed="Y"/><lb n="0098a07" ed="Y" type="old"/><p xml:id="pY27p0098a0701" style="text-indent:2em">為了報答佛母深恩，女眾能究竟解脫生死，阿難一再請求如來，准許女眾出
 <lb n="0098a08" ed="Y"/><lb n="0098a08" ed="Y" type="old"/>家，這到底有什麼過失呢？阿難不認自己為有罪，但大迦葉領導的法會大眾，顯
 <lb n="0098a09" ed="Y"/><lb n="0098a09" ed="Y" type="old"/>然別有理由。<title level="m">《銅鍱律》</title>等，只責怪阿難的苦請如來，而沒有別說什麼，但在<bibl><title level="m">《
-<lb n="0098a10" ed="Y"/><lb n="0098a10" ed="Y" type="old"/>毘尼母經》</title><biblScope type="卷" n="3"><note place="inline">三</note></biblScope></bibl>、<bibl><title level="m">《大智度論》</title><biblScope type="卷" n="2"><note place="inline">二</note></biblScope></bibl>、<cit><bibl><title level="m">《撰集三藏及雜藏傳》</title>，卻說出了</bibl><quote type="嚴謹引文">「坐汝
+<lb n="0098a10" ed="Y"/><lb n="0098a10" ed="Y" type="old"/>毘尼母經》</title><biblScope n="3" type="卷"><note place="inline">三</note></biblScope></bibl>、<bibl><title level="m">《大智度論》</title><biblScope n="2" type="卷"><note place="inline">二</note></biblScope></bibl>、<cit><bibl><title level="m">《撰集三藏及雜藏傳》</title>，卻說出了</bibl><quote type="嚴謹引文">「坐汝
 <lb n="0098a11" ed="Y"/>佛法減<lb n="0098a11" ed="Y" type="old"/>於千歲」</quote><note n="0098002" resp="厚觀法師" type="add">《撰集三藏及雜藏傳》卷1(CBETA, T49, no. 2026, p. 2, a15-16)</note></cit>的理由。意思是，如來本不願女眾出家，為了阿難苦求，才允許
 <lb n="0098a12" ed="Y"/>了，這<lb n="0098a12" ed="Y" type="old"/>才造成佛法早衰的惡果。<title level="m">《毘尼母經》</title>說了十大理由，大意為女眾出家，
 <lb n="0098a13" ed="Y"/>信眾減<lb n="0098a13" ed="Y" type="old"/>少尊敬供養了，比丘缺少威德了，正法也不久住了。從經律看來，釋尊晚
@@ -236,7 +256,7 @@
 <lb n="0099a07" ed="Y"/>」</quote><note place="inline"><bibl><title level="m">《十誦律》</title><lb n="0099a07" ed="Y" type="old"/><biblScope n="40 others" type="卷">四〇等</biblScope></bibl></note><note n="0099001" resp="厚觀法師" type="add">《十誦律》卷40(CBETA, T23, no. 1435, p. 291, a21-22)</note></cit>意思說：如阿難不請求，女人不出家，那不是這些問題都沒有
 <lb n="0099a08" ed="Y"/>了嗎？不<lb n="0099a08" ed="Y" type="old"/>是梵行清淨，正法久住了嗎？佛法的品雜不淨，引起社會的不良印象，
 <lb n="0099a09" ed="Y"/>大迦葉領<lb n="0099a09" ed="Y" type="old"/>導的僧伽，是歸罪於尼眾的；這才是指責阿難的理由。</p>
-<lb n="0099a10" ed="Y"/><lb n="0099a10" ed="Y" type="old"/><p style="text-indent:2em">說到女眾出家，會使佛法早衰，是各家廣律的一致傳說，而且是作為釋尊預
+<lb n="0099a10" ed="Y"/><lb n="0099a10" ed="Y" type="old"/><p xml:id="pY27p0099a1001" style="text-indent:2em">說到女眾出家，會使佛法早衰，是各家廣律的一致傳說，而且是作為釋尊預
 <lb n="0099a11" ed="Y"/><lb n="0099a11" ed="Y" type="old"/>記而表白出來。例如<cit><bibl><title level="m">《四分律》</title><biblScope n="48" type="卷"><note place="inline">四八</note></biblScope>說：</bibl><quote type="嚴謹引文">「譬如，阿難！有長者家男少女多，
 <lb n="0099a12" ed="Y"/>則<lb n="0099a12" ed="Y" type="old"/>知其家衰微。……如好稻田而被霜雹，即時破壞。如是，阿難！若女人在佛法
 <lb n="0099a13" ed="Y"/>中出家<lb n="0099a13" ed="Y" type="old"/>受大戒，即令佛法不久。」</quote><note n="0099002" resp="厚觀法師" type="add">《四分律》卷48：「譬如阿難有長者家男少女多則知其家衰微。如是阿難。若女人在佛法中出家受大戒。則令佛法不久。又如好稻田而被霜雹即時破壞。如是阿難。若女人在佛法中出家受大戒。即令佛法不久」(CBETA, T22, no. 1428, p. 923, a1-6)</note></cit>第一比喻，如中國所說的陰盛陽衰。女人出家
@@ -255,7 +275,7 @@
 <lb n="0100a12" ed="Y"/>出家<lb n="0100a12" ed="Y" type="old"/>。因為有問題，應該解決問題，而不是咒詛問題。在慈悲普濟的佛陀精神中
 <lb n="0100a13" ed="Y"/>，女<lb n="0100a13" ed="Y" type="old"/>眾終於出家，得到了修道解脫的平等機會。</p><pb n="0101a" ed="Y" xml:id="Y27.0027.0101a.old" type="old"/>
 <pb n="0101a" ed="Y" xml:id="Y27.0027.0101a"/>
-<lb n="0101a01" ed="Y"/><lb n="0101a01" ed="Y" type="old"/><p style="text-indent:2em"><quote source="T22n1421_p0186a13-15" type="寬鬆引文">「女眾出家，正法減少五百年」<note n="0101001" resp="謝淑歆" type="add">《彌沙塞部和醯五分律》卷29：「若不聽女人出家受具足戒。佛之正法住世千歲。今聽出家則減五百年」(CBETA, T22, no. 1421, p. 186, a13-15)</note></quote>，如看作頭陀行者大迦葉，重律行者優波離
+<lb n="0101a01" ed="Y"/><lb n="0101a01" ed="Y" type="old"/><p xml:id="pY27p0101a0101" style="text-indent:2em"><quote source="T22n1421_p0186a13-15" type="寬鬆引文">「女眾出家，正法減少五百年」<note n="0101001" resp="謝淑歆" type="add">《彌沙塞部和醯五分律》卷29：「若不聽女人出家受具足戒。佛之正法住世千歲。今聽出家則減五百年」(CBETA, T22, no. 1421, p. 186, a13-15)</note></quote>，如看作頭陀行者大迦葉，重律行者優波離
 <lb n="0101a02" ed="Y"/><lb n="0101a02" ed="Y" type="old"/>等，見到僧伽的流品漸雜，而歸咎於女眾出家，作出正法不久住的預想，是近情
 <lb n="0101a03" ed="Y"/><lb n="0101a03" ed="Y" type="old"/>的。律師們卻傳說為釋尊的預記，因而陷於傳說的極端混亂。根據經律，現有三
 <lb n="0101a04" ed="Y"/><lb n="0101a04" ed="Y" type="old"/>項不同的敘述：一、阿難一再請求，佛允許了！阿難轉告瞿曇彌，女眾出家已成
@@ -271,25 +291,25 @@
 <pb n="0102a" ed="Y" xml:id="Y27.0027.0102a"/>
 <lb n="0102a01" ed="Y"/>時候<pb n="0102a" ed="Y" xml:id="Y27.0027.0102a.old" type="old"/><lb n="0102a01" ed="Y" type="old"/>，都與情理不合。也就由於這樣，律師們將預記放在那一階段都不合，然而
 <lb n="0102a02" ed="Y"/>非放<lb n="0102a02" ed="Y" type="old"/>進去不可。於是或前或後，自相矛盾！</p>
-<lb n="0102a03" ed="Y"/><lb n="0102a03" ed="Y" type="old"/><p style="text-indent:2em">阿難求度女眾出家，受到大迦葉的責難，原因是不單純的，這裡再說一項，
+<lb n="0102a03" ed="Y"/><lb n="0102a03" ed="Y" type="old"/><p xml:id="pY27p0102a0301" style="text-indent:2em">阿難求度女眾出家，受到大迦葉的責難，原因是不單純的，這裡再說一項，
 <lb n="0102a04" ed="Y"/><lb n="0102a04" ed="Y" type="old"/>那就是與大迦葉自己有關。大迦葉出身於豪富的名族，生性為一女性的厭惡者。
 <lb n="0102a05" ed="Y"/><lb n="0102a05" ed="Y" type="old"/>雖曾經勉強結婚，而過著有名無實的夫婦關係，後來就出家了。這是南傳<bibl>《<title level="m">小部</title>
 <lb n="0102a06" ed="Y"/><lb n="0102a06" ed="Y" type="old"/>．<title level="m">長老偈</title>》</bibl>、北傳有部<title level="m">《苾芻尼毘奈耶》</title>等所一致傳說的。也許是他的個性如<lb n="0102a07" ed="Y" type="old"/>此
 <lb n="0102a07" ed="Y"/>，所以在佛教中，與尼眾的關係，十分不良好。他被尼眾們說是「外道」<note place="inline"><title level="m">《Ｓ<lb n="0102a08" ed="Y" type="old"/>》</title>
-<lb n="0102a08" ed="Y"/>一六．一三；<bibl><title level="m">《雜阿含經》</title><biblScope n="32" type="卷">三二</biblScope>．<ref type="taisho" target="#no:99.906">九〇六</ref></bibl>；<bibl><title level="m">《十誦律》</title><biblScope type="卷" n="40">四〇</biblScope></bibl></note>；說是<quote source="T23n1435_p0085b19" type="嚴謹引文">「小小比丘」<note n="0102001" resp="謝淑歆" type="add">《十誦律》卷12(CBETA, T23, no. 1435, p. 85, b19)</note></quote>（不是大龍象
-<lb n="0102a09" ed="Y"/>）<note place="inline"><lb n="0102a09" ed="Y" type="old"/><bibl><title level="m">《十誦律》</title><biblScope type="卷" n="12">一二</biblScope></bibl></note>；說他的說法，<quote type="嚴謹引文">「如販針兒於針師家賣」<note n="0102002" resp="厚觀法師" type="add">《雜阿含經》卷41(CBETA, T02, no. 99, p. 302, b16-17)</note></quote>（這等於說：聖人門前
+<lb n="0102a08" ed="Y"/>一六．一三；<bibl><title level="m">《雜阿含經》</title><biblScope n="32" type="卷">三二</biblScope>．<ref target="#no:99.906" type="taisho">九〇六</ref></bibl>；<bibl><title level="m">《十誦律》</title><biblScope n="40" type="卷">四〇</biblScope></bibl></note>；說是<quote source="T23n1435_p0085b19" type="嚴謹引文">「小小比丘」<note n="0102001" resp="謝淑歆" type="add">《十誦律》卷12(CBETA, T23, no. 1435, p. 85, b19)</note></quote>（不是大龍象
+<lb n="0102a09" ed="Y"/>）<note place="inline"><lb n="0102a09" ed="Y" type="old"/><bibl><title level="m">《十誦律》</title><biblScope n="12" type="卷">一二</biblScope></bibl></note>；說他的說法，<quote type="嚴謹引文">「如販針兒於針師家賣」<note n="0102002" resp="厚觀法師" type="add">《雜阿含經》卷41(CBETA, T02, no. 99, p. 302, b16-17)</note></quote>（這等於說：聖人門前
 <lb n="0102a10" ed="Y"/>賣<lb n="0102a10" ed="Y" type="old"/>字）<note place="inline"><title level="m">《Ｓ》</title>一六．一〇；<bibl><title level="m">《雜阿含經》</title><biblScope n="41" type="卷">四一</biblScope>．<ref target="#no:99.1143" type="taisho">一一四三</ref></bibl></note>；尼眾故意為難，使他受到說不
 <lb n="0102a11" ed="Y"/>盡的困<lb n="0102a11" ed="Y" type="old"/>擾<note place="inline"><title level="m">《十誦律》</title>、<title level="m">《根有律》</title>等</note>。大迦葉無可奈何，只能說：<quote type="嚴謹引文">「我不責汝，我責
 <lb n="0102a12" ed="Y"/>阿難。<lb n="0102a12" ed="Y" type="old"/>」<note n="0102003" resp="厚觀法師" type="add">《十誦律》卷40(CBETA, T23, no. 1435, p. 291, a21-22)</note></quote>大迦葉與尼眾的關係，一向不良好，在這結集法會中，因阿難傳述小小
 <lb n="0102a13" ed="Y"/>戒可<lb n="0102a13" ed="Y" type="old"/>捨，而不免將多年來的不平，一齊向阿難責怪一番。</p><pb n="0103a" ed="Y" xml:id="Y27.0027.0103a.old" type="old"/>
 <pb n="0103a" ed="Y" xml:id="Y27.0027.0103a"/>
-<lb n="0103a01" ed="Y"/><lb n="0103a01" ed="Y" type="old"/><p style="text-indent:2em">阿難不認有罪，好在他為了僧伽的和合，不願引起紛擾，而向大眾懺悔。如
+<lb n="0103a01" ed="Y"/><lb n="0103a01" ed="Y" type="old"/><p xml:id="pY27p0103a0101" style="text-indent:2em">阿難不認有罪，好在他為了僧伽的和合，不願引起紛擾，而向大眾懺悔。如
 <lb n="0103a02" ed="Y"/><lb n="0103a02" ed="Y" type="old"/>換了別人，作出反擊：女眾出家，是我阿難所請求的，也是釋尊所允可的。這是
 <lb n="0103a03" ed="Y"/><lb n="0103a03" ed="Y" type="old"/>二十年前（？）事了！如以為我阿難有罪，為什麼釋尊在世，不向僧伽舉發？現
 <lb n="0103a04" ed="Y"/><lb n="0103a04" ed="Y" type="old"/>在如來入滅，還不到幾個月，就清算陳年老帳！如真的這樣反問，也許金色頭陀
 <lb n="0103a05" ed="Y"/><lb n="0103a05" ed="Y" type="old"/>不能不作會心的微笑了！</p></cb:div>
 <lb n="0103a06" ed="Y"/><lb n="0103a06" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四</cb:mulu><head>四</head>
-<lb n="0103a07" ed="Y"/><lb n="0103a07" ed="Y" type="old"/><p style="text-indent:2em">有關女眾的其他兩項過失，也是有關侍奉不周的問題。一、據<title level="m">《銅鍱律》</title>說
+<lb n="0103a07" ed="Y"/><lb n="0103a07" ed="Y" type="old"/><p xml:id="pY27p0103a0701" style="text-indent:2em">有關女眾的其他兩項過失，也是有關侍奉不周的問題。一、據<title level="m">《銅鍱律》</title>說
 <lb n="0103a08" ed="Y"/><lb n="0103a08" ed="Y" type="old"/>：佛涅槃後，阿難讓女人先禮世尊舍利（遺體）；女人涕淚哭泣，以致汙染了佛
 <lb n="0103a09" ed="Y"/><lb n="0103a09" ed="Y" type="old"/>足。法顯譯的<bibl><title level="m">《大般涅槃經》</title><biblScope n="下" type="卷"><note place="inline">下</note></biblScope></bibl>，也這樣說。這一過失，包含兩項事實；其他
 <lb n="0103a10" ed="Y"/><lb n="0103a10" ed="Y" type="old"/>的部分經律，有的只各說一端。如<cit><bibl><title level="m">《五分律》</title>，但說</bibl><quote source="T22n1421_p0191c01-02" type="嚴謹引文">「聽女人先禮」</quote><note n="0103001" resp="謝淑歆" type="add">《彌沙塞部和醯五分律》卷30(CBETA, T22, no. 1421, p. 191, c1-2)</note></cit>；<title level="m">《四分律
@@ -297,7 +317,7 @@
 <lb n="0103a12" ed="Y"/>拘尸那<lb n="0103a12" ed="Y" type="old"/>末羅族人，男男女女，都來向佛致最後的敬禮。阿難要男人退後，讓女人
 <pb n="0104a" ed="Y" xml:id="Y27.0027.0104a"/>
 <lb n="0104a01" ed="Y"/>先禮。<pb n="0104a" ed="Y" xml:id="Y27.0027.0104a.old" type="old"/><lb n="0104a01" ed="Y" type="old"/>據阿難自己辯解說：<cit><quote source="T22n1421_p0191c03-04" type="嚴謹引文">「恐其日暮不得入城」</quote><note place="inline"><bibl><title level="m">《五分律》</title></bibl></note><note n="0104001" resp="謝淑歆" type="add">《彌沙塞部和醯五分律》卷30(CBETA, T22, no. 1421, p. 191, c3-4)</note></cit>；<cit><quote type="嚴謹引文">「女人羸弱，不
-<lb n="0104a02" ed="Y"/>必得前<lb n="0104a02" ed="Y" type="old"/>」</quote><note place="inline"><bibl><title level="m">《大般涅槃經》</title><biblScope type="卷" n="下">下</biblScope></bibl></note><note n="0104002" resp="厚觀法師" type="add">《大般涅槃經》卷3(CBETA, T01, no. 7, p. 207, a2)</note></cit>。所以招呼大眾，讓女人先禮。如在現代，男人見女人
+<lb n="0104a02" ed="Y"/>必得前<lb n="0104a02" ed="Y" type="old"/>」</quote><note place="inline"><bibl><title level="m">《大般涅槃經》</title><biblScope n="下" type="卷">下</biblScope></bibl></note><note n="0104002" resp="厚觀法師" type="add">《大般涅槃經》卷3(CBETA, T01, no. 7, p. 207, a2)</note></cit>。所以招呼大眾，讓女人先禮。如在現代，男人見女人
 <lb n="0104a03" ed="Y"/>讓坐。<lb n="0104a03" ed="Y" type="old"/>如有危險，先撤退婦孺。那麼阿難的想法，也就合乎情理了！人那麼多，
 <lb n="0104a04" ed="Y"/>女人怎<lb n="0104a04" ed="Y" type="old"/>麼擠得上去？為了禮佛致敬，如天晚不得回城，家裡兒啼女哭，怎麼辦？
 <lb n="0104a05" ed="Y"/>如深夜<lb n="0104a05" ed="Y" type="old"/>在途中發生什麼意外，又怎麼好？讓男人等一下，以當時的情形來說，阿
@@ -307,7 +327,7 @@
 <lb n="0104a09" ed="Y"/>汙色，就心裡<lb n="0104a09" ed="Y" type="old"/>不高興。這雖然由於<quote source="T22n1428_p0966c07" type="嚴謹引文">「女人心軟」<note n="0104003" resp="謝淑歆" type="add">《四分律》卷54(CBETA, T22, no. 1428, p. 966, c7)</note></quote>、<quote source="T01n0001_p0029a02" type="嚴謹引文">「淚墮其上」<note n="0104004" resp="謝淑歆" type="add">《長阿含經》卷4(CBETA, T01, no. 1, p. 29, a2)</note></quote>，到底可說阿難
 <lb n="0104a10" ed="Y"/>身為侍者照<lb n="0104a10" ed="Y" type="old"/>顧不周。如來的涅槃大典，一切由阿難來張羅，一時照顧不周，可能
 <lb n="0104a11" ed="Y"/>是有的。這<lb n="0104a11" ed="Y" type="old"/>是不圓滿的，但應該是可以原諒的。</p>
-<lb n="0104a12" ed="Y"/><lb n="0104a12" ed="Y" type="old"/><p style="text-indent:2em">二、阿難在佛涅槃以後，以佛的陰藏相給女人看，如<title level="m">《十誦律》</title><note place="inline"><title level="m">《大智度論》</title>
+<lb n="0104a12" ed="Y"/><lb n="0104a12" ed="Y" type="old"/><p xml:id="pY27p0104a1201" style="text-indent:2em">二、阿難在佛涅槃以後，以佛的陰藏相給女人看，如<title level="m">《十誦律》</title><note place="inline"><title level="m">《大智度論》</title>
 <lb n="0104a13" ed="Y"/><lb n="0104a13" ed="Y" type="old"/>所據</note>、<title level="m">《僧祇律》</title>、<title level="m">《根有律雜事》</title>、<title level="m">《迦葉結經》</title>所說。這與上一則，實在<pb n="0105a" ed="Y" xml:id="Y27.0027.0105a.old" type="old"/><lb n="0105a01" ed="Y" type="old"/>是
 <pb n="0105a" ed="Y" xml:id="Y27.0027.0105a"/>
 <lb n="0105a01" ed="Y"/>同一事實的兩項傳說。以律典來說，恆河上流，摩偷羅中心的一切有系，以<title level="m">《<lb n="0105a02" ed="Y" type="old"/>十
@@ -321,13 +341,13 @@
 <lb n="0105a09" ed="Y"/>傳<lb n="0105a09" ed="Y" type="old"/>說，應加抉擇！經律的傳說不一致，但裡面應有一項事實，這應該是女人先禮
 <lb n="0105a10" ed="Y"/>佛<lb n="0105a10" ed="Y" type="old"/>而汙佛足吧！女人先禮，在大迦葉領導的學眾來說，是大為不滿的。</p></cb:div>
 <lb n="0105a11" ed="Y"/><lb n="0105a11" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">五</cb:mulu><head>五</head>
-<lb n="0105a12" ed="Y"/><lb n="0105a12" ed="Y" type="old"/><p style="text-indent:2em">還有三項過失，是責怪阿難的「侍奉無狀」。三月前，佛從毘舍離動身，到<pb n="0106a" ed="Y" xml:id="Y27.0027.0106a.old" type="old"/>
+<lb n="0105a12" ed="Y"/><lb n="0105a12" ed="Y" type="old"/><p xml:id="pY27p0105a1201" style="text-indent:2em">還有三項過失，是責怪阿難的「侍奉無狀」。三月前，佛從毘舍離動身，到<pb n="0106a" ed="Y" xml:id="Y27.0027.0106a.old" type="old"/>
 <pb n="0106a" ed="Y" xml:id="Y27.0027.0106a"/>
 <lb n="0106a01" ed="Y"/><lb n="0106a01" ed="Y" type="old"/>拘尸那入滅，一直由阿難侍從。佛在拘尸那涅槃了！怎麼會涅槃呢？雖說終歸要
 <lb n="0106a02" ed="Y"/><lb n="0106a02" ed="Y" type="old"/>涅槃的，但面臨如來涅槃，聖者們不免惆悵，多少會嫌怪阿難的侍奉不周。所以
 <lb n="0106a03" ed="Y"/><lb n="0106a03" ed="Y" type="old"/>下面三項過失，阿難是否有過，雖是另一問題；而大迦葉提出來說說，也還是人
 <lb n="0106a04" ed="Y"/><lb n="0106a04" ed="Y" type="old"/>情之常。</p>
-<lb n="0106a05" ed="Y"/><lb n="0106a05" ed="Y" type="old"/><p style="text-indent:2em">第一、沒有請佛住世。經律一致傳說：佛在毘舍離時，與阿難到附近的遮波
+<lb n="0106a05" ed="Y"/><lb n="0106a05" ed="Y" type="old"/><p xml:id="pY27p0106a0501" style="text-indent:2em">第一、沒有請佛住世。經律一致傳說：佛在毘舍離時，與阿難到附近的遮波
 <lb n="0106a06" ed="Y"/><lb n="0106a06" ed="Y" type="old"/>羅支提（取弓制底）靜坐。佛告阿難說：這世間，毘舍離一帶地方太安樂了！不
 <lb n="0106a07" ed="Y"/><lb n="0106a07" ed="Y" type="old"/>論什麼人，如善巧修習四神足成就，要住壽一劫或過一劫，都是可能的，如來也
 <lb n="0106a08" ed="Y"/><lb n="0106a08" ed="Y" type="old"/>是善修四神足成就。這幾句話，暗示了世間並非厭離者所想像的一刻都住不下去
@@ -339,7 +359,7 @@
 <pb n="0107a" ed="Y" xml:id="Y27.0027.0107a"/>
 <lb n="0107a01" ed="Y"/><lb n="0107a01" ed="Y" type="old"/>麼不請佛住世呢？佛說：那是<quote source="T12n0383_p1011a18" type="寬鬆引文">「惡魔蔽心」<note n="0107001" resp="謝淑歆" type="add">(1)《摩訶摩耶經》卷2：「魔蔽汝故」(CBETA, T12, no. 383, p. 1011, a18)；(2)《彌沙塞部和醯五分律》卷29：「魔蔽汝心」(CBETA, T22, no. 1421, p. 186, a24-25)</note></quote>，使阿難不能領悟佛說的意思，所以
 <lb n="0107a02" ed="Y"/><lb n="0107a02" ed="Y" type="old"/>不知請佛住世——傳說的經過是這樣。</p>
-<lb n="0107a03" ed="Y"/><lb n="0107a03" ed="Y" type="old"/><p style="text-indent:2em">這一傳說所含蓄的、啟示的意義，非常深遠。一、聖者們（一般人更不必說
+<lb n="0107a03" ed="Y"/><lb n="0107a03" ed="Y" type="old"/><p xml:id="pY27p0107a0301" style="text-indent:2em">這一傳說所含蓄的、啟示的意義，非常深遠。一、聖者們（一般人更不必說
 <lb n="0107a04" ed="Y"/><lb n="0107a04" ed="Y" type="old"/>）的理智與情感，是多少矛盾的。從現象來說，誰也知道諸行無常，有生必滅，
 <lb n="0107a05" ed="Y"/><lb n="0107a05" ed="Y" type="old"/>但面對如來入涅槃，也不免有情感上的懊悵，總覺得不會就這樣涅槃了的。從實
 <lb n="0107a06" ed="Y"/><lb n="0107a06" ed="Y" type="old"/>際來說，入涅槃是超越生滅而安住於寂滅，根本用不著悲哀，但面對現實，還是
@@ -358,15 +378,15 @@
 <lb n="0108a05" ed="Y"/>足惡魔的希願呢？阿難日夕侍佛，在做什麼呢？阿難不請佛住世，如來早入涅<lb n="0108a06" ed="Y" type="old"/>槃
 <lb n="0108a06" ed="Y"/>——這一佛弟子間共同的心聲，因佛涅槃而立刻傳揚開來，成為事實。正如耶<lb n="0108a07" ed="Y" type="old"/>穌
 <lb n="0108a07" ed="Y"/>一死，門徒們心中立刻現起復活的願望，就成為事實一樣。</p>
-<lb n="0108a08" ed="Y"/><lb n="0108a08" ed="Y" type="old"/><p style="text-indent:2em">本來，這只表示佛弟子心中，<quote type="寬鬆引文">「佛不應該這樣就涅槃了的」</quote>的心聲；但一經
+<lb n="0108a08" ed="Y"/><lb n="0108a08" ed="Y" type="old"/><p xml:id="pY27p0108a0801" style="text-indent:2em">本來，這只表示佛弟子心中，<quote type="寬鬆引文">「佛不應該這樣就涅槃了的」</quote>的心聲；但一經
 <lb n="0108a09" ed="Y"/><lb n="0108a09" ed="Y" type="old"/>公認，阿難的問題可大了！不請佛住世，要負起如來早滅、佛不久住的責任！阿
 <lb n="0108a10" ed="Y"/><lb n="0108a10" ed="Y" type="old"/>難當時以惡魔蔽心為理由，不認自己有過失。這等於說，當時只是沒有領會到這
-<lb n="0108a11" ed="Y"/><lb n="0108a11" ed="Y" type="old"/>話的意義，有什麼過失呢！<cit><bibl><title level="m">《般泥洹經》</title><biblScope type="卷" n="下"><note place="inline">下</note></biblScope>說得好：</bibl><quote source="T01n0006_p0191a13-15" type="嚴謹引文">「阿難下（座）言：佛說
+<lb n="0108a11" ed="Y"/><lb n="0108a11" ed="Y" type="old"/>話的意義，有什麼過失呢！<cit><bibl><title level="m">《般泥洹經》</title><biblScope n="下" type="卷"><note place="inline">下</note></biblScope>說得好：</bibl><quote source="T01n0006_p0191a13-15" type="嚴謹引文">「阿難下（座）言：佛說
 <lb n="0108a12" ed="Y"/><lb n="0108a12" ed="Y" type="old"/>彌勒當下作佛，始入法者，應從彼成。設自留者，如彌勒何？」</quote><note n="0108001" resp="謝淑歆" type="add">《般泥洹經》卷2(CBETA, T01, no. 6, p. 191, a13-15)</note></cit>這是該經獨有的
 <lb n="0108a13" ed="Y"/><lb n="0108a13" ed="Y" type="old"/>反駁，肯定了釋迦佛入涅槃的合理性。也許在傳說中，有的覺得大迦葉的指責，<pb n="0109a" ed="Y" xml:id="Y27.0027.0109a.old" type="old"/>
 <pb n="0109a" ed="Y" xml:id="Y27.0027.0109a"/>
 <lb n="0109a01" ed="Y"/><lb n="0109a01" ed="Y" type="old"/>太過分了吧！</p>
-<lb n="0109a02" ed="Y"/><lb n="0109a02" ed="Y" type="old"/><p style="text-indent:2em">第二、如來索水而不與：<title level="m">《五分律》</title>（除<title level="m">《雜事》</title>）等一致說：大迦葉責備
+<lb n="0109a02" ed="Y"/><lb n="0109a02" ed="Y" type="old"/><p xml:id="pY27p0109a0201" style="text-indent:2em">第二、如來索水而不與：<title level="m">《五分律》</title>（除<title level="m">《雜事》</title>）等一致說：大迦葉責備
 <lb n="0109a03" ed="Y"/><lb n="0109a03" ed="Y" type="old"/>阿難，為什麼如來三次索水而不奉水？在連串的責難中，這是最近情的。據南傳
 <lb n="0109a04" ed="Y"/><lb n="0109a04" ed="Y" type="old"/><bibl>《<title level="m">長部</title>．<title level="m">大般涅槃經</title>》</bibl>、漢譯<bibl>《<title level="m">長阿含經</title>．<title level="m">遊行經</title>》</bibl>說：釋尊受純陀供養以後（
 <lb n="0109a05" ed="Y"/>約為涅槃<lb n="0109a05" ed="Y" type="old"/>前一日），在向拘尸那的途中，病腹下血。天又熱，口又渴，在近腳俱
@@ -377,7 +397,7 @@
 <lb n="0109a10" ed="Y"/>佛不久就<lb n="0109a10" ed="Y" type="old"/>涅槃了，所以在一般人來說，不管水清水濁，要水而不奉水，阿難總是
 <lb n="0109a11" ed="Y"/>不對的。<lb n="0109a11" ed="Y" type="old"/>據律典所說，阿難沒有奉水，連濁水也不取一點來，是錯誤的！因為沒
 <lb n="0109a12" ed="Y"/>有清水，<lb n="0109a12" ed="Y" type="old"/>取點濁水來也是好的，如說：<cit><quote source="T22n1428_p0967c21-22" type="嚴謹引文">「若佛威神，或復諸天，能令水清。」</quote><note place="inline"><bibl><title level="m">《
-<lb n="0109a13" ed="Y"/>四分律》</title><biblScope type="卷" n="54">五四</biblScope>；</bibl><lb n="0109a13" ed="Y" type="old"/><bibl><title level="m">《大智度論》</title><biblScope n="2" type="卷">二</biblScope>意同</bibl></note><note n="0109001" resp="謝淑歆" type="add">(1)《四分律》卷54(CBETA, T22, no. 1428, p. 967, c21-22)；(2)《大智度論》卷2〈1 序品〉：「正使水濁，佛有大神力，能令大海濁水清淨。汝何[13]以不與」(CBETA, T25, no. 1509, p. 68, a23-24)[13]以＋（故）【宋】【元】【明】【宮】。</note></cit>不奉水一事，在傳說中變化了！<title level="m">《根有律雜事》</title>及
+<lb n="0109a13" ed="Y"/>四分律》</title><biblScope n="54" type="卷">五四</biblScope>；</bibl><lb n="0109a13" ed="Y" type="old"/><bibl><title level="m">《大智度論》</title><biblScope n="2" type="卷">二</biblScope>意同</bibl></note><note n="0109001" resp="謝淑歆" type="add">(1)《四分律》卷54(CBETA, T22, no. 1428, p. 967, c21-22)；(2)《大智度論》卷2〈1 序品〉：「正使水濁，佛有大神力，能令大海濁水清淨。汝何[13]以不與」(CBETA, T25, no. 1509, p. 68, a23-24)[13]以＋（故）【宋】【元】【明】【宮】。</note></cit>不奉水一事，在傳說中變化了！<title level="m">《根有律雜事》</title>及
 <pb n="0110a" ed="Y" xml:id="Y27.0027.0110a"/>
 <lb n="0110a01" ed="Y"/><title level="m">《佛般泥洹經<pb n="0110a" ed="Y" xml:id="Y27.0027.0110a.old" type="old"/><lb n="0110a01" ed="Y" type="old"/>》</title>、<title level="m">《般泥洹經》</title>，就說阿難當時奉上濁水，釋尊只洗洗身而已。
 <lb n="0110a02" ed="Y"/>可是奉上濁水<lb n="0110a02" ed="Y" type="old"/>，當然還是錯誤的，大迦葉責備說：<cit><quote type="嚴謹引文">「何不仰鉢向空，諸天自注八
@@ -387,22 +407,22 @@
 <lb n="0110a06" ed="Y"/>澄清，於是<lb n="0110a06" ed="Y" type="old"/>讚歎世尊的威力！<bibl>《<title level="m">長阿含經</title>．<title level="m">遊行經</title>》</bibl>說：阿難不奉水，雪山的鬼
 <lb n="0110a07" ed="Y"/>神就以鉢奉上清<lb n="0110a07" ed="Y" type="old"/>水。這樣，阿難雖一再不奉水，而釋尊是喝到清水了！這應該更
 <lb n="0110a08" ed="Y"/>能滿足信仰者的<lb n="0110a08" ed="Y" type="old"/>心願！</p>
-<lb n="0110a09" ed="Y"/><lb n="0110a09" ed="Y" type="old"/><p style="text-indent:2em">第三、足踏佛衣：這是各家一致的傳說，但問題單純，只是責阿難不夠恭敬
+<lb n="0110a09" ed="Y"/><lb n="0110a09" ed="Y" type="old"/><p xml:id="pY27p0110a0901" style="text-indent:2em">第三、足踏佛衣：這是各家一致的傳說，但問題單純，只是責阿難不夠恭敬
 <lb n="0110a10" ed="Y"/><lb n="0110a10" ed="Y" type="old"/>而已。阿難對佛的僧伽梨（或說雨浴衣），在摺疊的時候（或說縫衣時、洗濯時
 <lb n="0110a11" ed="Y"/><lb n="0110a11" ed="Y" type="old"/>），用腳踏在衣上。這未免不恭敬。阿難說：當時沒有人相助，恰逢風吹衣起，
 <lb n="0110a12" ed="Y"/><lb n="0110a12" ed="Y" type="old"/>所以踏在腳上。這一事實，在經律中，還沒有找到出處。不過這些小事，可能是
 <lb n="0110a13" ed="Y"/><lb n="0110a13" ed="Y" type="old"/>佛入涅槃前不久的事。以疊衣來說，阿難每天都在為佛服務呢！</p></cb:div><pb n="0111a" ed="Y" xml:id="Y27.0027.0111a.old" type="old"/>
 <pb n="0111a" ed="Y" xml:id="Y27.0027.0111a"/>
 <lb n="0111a01" ed="Y"/><lb n="0111a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">六</cb:mulu><head>六</head>
-<lb n="0111a02" ed="Y"/><lb n="0111a02" ed="Y" type="old"/><p style="text-indent:2em">在傳記中，還有幾項過失，但只是一家的傳說，是不足採信的。一、佛要阿
+<lb n="0111a02" ed="Y"/><lb n="0111a02" ed="Y" type="old"/><p xml:id="pY27p0111a0201" style="text-indent:2em">在傳記中，還有幾項過失，但只是一家的傳說，是不足採信的。一、佛要阿
 <lb n="0111a03" ed="Y"/><lb n="0111a03" ed="Y" type="old"/>難任侍者，阿難起初不答應，<cit><bibl><title level="m">《四分律》</title><biblScope n="54" type="卷"><note place="inline">五四</note></biblScope>說：</bibl><quote source="T22n1428_p0967c03-04" type="嚴謹引文">「世尊三反請汝作供養人而
 <lb n="0111a04" ed="Y"/><lb n="0111a04" ed="Y" type="old"/>言不作，得突吉羅罪。」</quote><note n="0111001" resp="謝淑歆" type="add">《四分律》卷54(CBETA, T22, no. 1428, p. 967, c3-4)</note></cit>此事見於<bibl>《<title level="m">中阿含經</title>．<title level="m">侍者經</title>》</bibl>、<title level="m">《根有律破僧事》</title>等
 <lb n="0111a05" ed="Y"/><lb n="0111a05" ed="Y" type="old"/>。侍者是不容易的任務，阿難當然要鄭重考慮。末了，阿難以三項條件而答允了
-<lb n="0111a06" ed="Y"/><lb n="0111a06" ed="Y" type="old"/>，受到釋尊的讚歎（考慮得周到），這怎能說是犯呢？二、<cit><bibl><title level="m">《根有律雜事》</title><biblScope type="卷" n="39"><note place="inline">三九<lb n="0111a07" ed="Y" type="old"/></note></biblScope>
+<lb n="0111a06" ed="Y"/><lb n="0111a06" ed="Y" type="old"/>，受到釋尊的讚歎（考慮得周到），這怎能說是犯呢？二、<cit><bibl><title level="m">《根有律雜事》</title><biblScope n="39" type="卷"><note place="inline">三九<lb n="0111a07" ed="Y" type="old"/></note></biblScope>
 <lb n="0111a07" ed="Y"/>說：</bibl><quote source="T24n1451_p0405a20-21" type="嚴謹引文">「世尊在日，為說譬喻，汝對佛前別說其事，此是第三過。」</quote><note n="0111002" resp="謝淑歆" type="add">《根本說一切有部毘奈耶雜事》卷39(CBETA, T24, no. 1451, p. 405, a20-21)</note></cit>這到底指什<lb n="0111a08" ed="Y" type="old"/>麼
 <lb n="0111a08" ed="Y"/>事，還不明了。與<title level="m">《雜事》</title>相符的<cit><bibl><title level="m">《迦葉結經》</title>說</bibl><quote type="嚴謹引文">「世尊訶汝，汝時恨言他<lb n="0111a09" ed="Y" type="old"/>犯他
 <lb n="0111a09" ed="Y"/>坐，是為三過」</quote><note n="0111003" resp="厚觀法師" type="add">《迦葉結經》卷1(CBETA, T49, no. 2027, p. 6, a18-19)</note></cit>，該就是這件事了。鄔陀夷與舍利弗共諍滅受想定，而阿難<lb n="0111a10" ed="Y" type="old"/>受到
-<lb n="0111a10" ed="Y"/>僅此一次的訶責。當時阿難對白淨說：<cit><quote source="T01n0026_p0450b02" type="嚴謹引文">「是他所作而我得責。」</quote><note place="inline"><bibl><title level="m">《中阿含經》</title><biblScope n="5" type="卷">五</biblScope>．<ref type="taisho" target="#no:26.22">二
+<lb n="0111a10" ed="Y"/>僅此一次的訶責。當時阿難對白淨說：<cit><quote source="T01n0026_p0450b02" type="嚴謹引文">「是他所作而我得責。」</quote><note place="inline"><bibl><title level="m">《中阿含經》</title><biblScope n="5" type="卷">五</biblScope>．<ref target="#no:26.22" type="taisho">二
 <lb n="0111a11" ed="Y"/><lb n="0111a11" ed="Y" type="old"/>二</ref></bibl></note><note n="0111004" resp="謝淑歆" type="add">《中阿含經》卷5〈3 舍梨子相應品〉(CBETA, T01, no. 26, p. 450, b2)</note></cit>南傳<bibl><title level="m">《增支部》</title><note place="inline">五．一六六</note></bibl>，有此受責一事，而沒有心懷嫌恨的話。依漢譯
 <lb n="0111a12" ed="Y"/><lb n="0111a12" ed="Y" type="old"/><title level="m">《中阿含經》</title>，也只是自己為他受過，不好意思問佛而已。三、<cit><bibl><title level="m">《迦葉結經》</title>又
 <pb n="0112a" ed="Y" xml:id="Y27.0027.0112a"/>
@@ -413,7 +433,7 @@
 <lb n="0112a05" ed="Y"/>，<lb n="0112a05" ed="Y" type="old"/>北方的律師，對阿難來說，已不免盡量搜集資料，而有羅織的嫌疑了！這是與
 <lb n="0112a06" ed="Y"/>當<lb n="0112a06" ed="Y" type="old"/>時情形不合的。</p></cb:div>
 <lb n="0112a07" ed="Y"/><lb n="0112a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">七</cb:mulu><head>七</head>
-<lb n="0112a08" ed="Y"/><lb n="0112a08" ed="Y" type="old"/><p style="text-indent:2em">大迦葉領導僧伽，對阿難舉發一連串的過失；當時的真實意義，經上面逐項
+<lb n="0112a08" ed="Y"/><lb n="0112a08" ed="Y" type="old"/><p xml:id="pY27p0112a0801" style="text-indent:2em">大迦葉領導僧伽，對阿難舉發一連串的過失；當時的真實意義，經上面逐項
 <lb n="0112a09" ed="Y"/><lb n="0112a09" ed="Y" type="old"/>論究，已充分明了，不外乎戒律問題、女眾問題、侍奉不周問題。關於戒律，阿
 <lb n="0112a10" ed="Y"/><lb n="0112a10" ed="Y" type="old"/>難傳達釋尊的遺命，<quote type="寬鬆引文">「小小戒可捨」</quote>，代表了律重根本的立場。於小隨小戒，認
 <lb n="0112a11" ed="Y"/><lb n="0112a11" ed="Y" type="old"/>為應該通變適應；如僧伽和合一心，可以籌量放捨。而大迦葉代表了<quote type="嚴謹引文">「輕重等持
@@ -423,12 +443,12 @@
 <lb n="0113a02" ed="Y"/><lb n="0113a02" ed="Y" type="old"/>立。重法學系是義解的法師、實踐的禪師<quote>（「阿難弟子多行禪」</quote>）。重律學系是
 <lb n="0113a03" ed="Y"/><lb n="0113a03" ed="Y" type="old"/>重制度的律師，謹嚴些的是頭陀行者。這兩大思想的激盪，在五百結集、七百結
 <lb n="0113a04" ed="Y"/><lb n="0113a04" ed="Y" type="old"/>集中，都充分表達出來。</p>
-<lb n="0113a05" ed="Y"/><lb n="0113a05" ed="Y" type="old"/><p style="text-indent:2em">關於女眾，阿難請度女眾出家，釋尊准女眾出家，代表了修道解脫的男女平
+<lb n="0113a05" ed="Y"/><lb n="0113a05" ed="Y" type="old"/><p xml:id="pY27p0113a0501" style="text-indent:2em">關於女眾，阿難請度女眾出家，釋尊准女眾出家，代表了修道解脫的男女平
 <lb n="0113a06" ed="Y"/><lb n="0113a06" ed="Y" type="old"/>等觀。大迦葉所代表的，是傳統的男性中心，以女眾為小人、為禍害的立場。這
 <lb n="0113a07" ed="Y"/><lb n="0113a07" ed="Y" type="old"/>所以漠視問題全部，而將正法不久住的責任，片面的歸咎於女眾。阿難讓女眾先
 <lb n="0113a08" ed="Y"/><lb n="0113a08" ed="Y" type="old"/>禮舍利，也被認為有汙如來遺體，應該責難了。——上來兩項問題，阿難始終站
 <lb n="0113a09" ed="Y"/><lb n="0113a09" ed="Y" type="old"/>在釋尊的立場。</p>
-<lb n="0113a10" ed="Y"/><lb n="0113a10" ed="Y" type="old"/><p style="text-indent:2em">關於侍奉不周，主要是釋尊入涅槃，激發了佛弟子的思慕懊悵，而不免歸咎
+<lb n="0113a10" ed="Y"/><lb n="0113a10" ed="Y" type="old"/><p xml:id="pY27p0113a1001" style="text-indent:2em">關於侍奉不周，主要是釋尊入涅槃，激發了佛弟子的思慕懊悵，而不免歸咎
 <lb n="0113a11" ed="Y"/><lb n="0113a11" ed="Y" type="old"/>於侍者。父母不管多老了，如一旦去世，孝順兒孫，總會覺得心有未安的。為了
 <lb n="0113a12" ed="Y"/><lb n="0113a12" ed="Y" type="old"/>父母去世，弟兄姊妹們，每每對於延醫、侍病，引起不愉快。所以釋尊入滅，想
 <lb n="0113a13" ed="Y"/><lb n="0113a13" ed="Y" type="old"/>到阿難不奉水，一定是沒有盡責，釋尊才不久住世。這一類問題，確乎是人情之<pb n="0114a" ed="Y" xml:id="Y27.0027.0114a.old" type="old"/>

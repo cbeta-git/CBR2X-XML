@@ -12,49 +12,69 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版四刷<date>Date: 2011/10</date>新式標點版</edition>
+			<edition>新版四刷<date>Date: 2011/10</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 24, No. 24</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">24</idno>.<idno type="no">24</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛法是救世之光</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十二、從學者心行中論三乘與一乘</cb:mulu>
-<milestone unit="juan" n="13"/>
+<milestone n="13" unit="juan"/>
 <pb n="0145a" ed="Y" xml:id="Y24.0024.0145a"/>
 <lb n="0145a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">十三、中道之佛教</cb:mulu><head>中道之佛教<note n="0145001" resp="DILA" type="add">民國三九年撰。</note></head>
-<lb n="0145a02" ed="Y"/><p style="text-indent:2em">佛教在一切宗教中，是脫盡神教氣分的。說明這一點，必須了解釋尊時代印
+<lb n="0145a02" ed="Y"/><p xml:id="pY24p0145a0201" style="text-indent:2em">佛教在一切宗教中，是脫盡神教氣分的。說明這一點，必須了解釋尊時代印
 <lb n="0145a03" ed="Y"/>度宗教的情況。印度從吠陀時代到奧義書時代，婆羅門教的勢力已根深蒂固。婆
 <lb n="0145a04" ed="Y"/>羅門教的思想，把宇宙看為神祕的實在，是一種形而上的本體論者。這擬人的神
 <lb n="0145a05" ed="Y"/>而即是一切的本體，或叫生主，或叫祈禱主，或叫梵，或叫我，名稱雖隨時代而
@@ -77,10 +97,10 @@
 <lb n="0146a10" ed="Y"/>的革新。生死輪迴與涅槃解脫，在印度當時，是一種公認的事實；問題只在為什
 <lb n="0146a11" ed="Y"/>麼會輪迴？怎樣才能解脫？佛法對這些問題，給予一種理智的解答，這就是「中
 <lb n="0146a12" ed="Y"/>道」的教說。我們可以用「中道」二字，簡別一般的宗教，顯出佛教的特色。</p>
-<lb n="0146a13" ed="Y"/><p style="text-indent:2em">「中道」很容易被人誤認為模稜兩可，其實佛教絕不如此。「中」是中正、
+<lb n="0146a13" ed="Y"/><p xml:id="pY24p0146a1301" style="text-indent:2em">「中道」很容易被人誤認為模稜兩可，其實佛教絕不如此。「中」是中正、
 <pb n="0147a" ed="Y" xml:id="Y24.0024.0147a"/>
 <lb n="0147a01" ed="Y"/>中心，即用中正不偏的態度與立場，深入人生為本的事事物物的根本核心，窮究
-<lb n="0147a02" ed="Y"/>它<note n="0147a0201" resp="CBETA" type="add" subtype="規範字詞">的【CB】，底【印順】</note><app n="0019a0901"><lem wit="【CB】" resp="CBETA">的</lem><rdg wit="【印順】">底</rdg></app>真相。解決一個問題，必須以中正不偏的立場，從關涉到的各方面去考察，
+<lb n="0147a02" ed="Y"/>它<note n="0147a0201" resp="CBETA" type="add" subtype="規範字詞">的【CB】，底【印順】</note><app n="0019a0901"><lem resp="CBETA" wit="【CB】">的</lem><rdg wit="【印順】">底</rdg></app>真相。解決一個問題，必須以中正不偏的立場，從關涉到的各方面去考察，
 <lb n="0147a03" ed="Y"/>在各方面結合點上深入推究，徹底了解問題的真相，才能得到合理的解決。所以
 <lb n="0147a04" ed="Y"/>佛法的中道，不是固執一端的偏見，也不是世俗膚淺的認識。「中道」代表了佛
 <lb n="0147a05" ed="Y"/>法理論與實踐的不共方法。佛法是崇高的德行宗教，所以在人類關涉的自然、社
@@ -89,9 +109,9 @@
 <lb n="0147a08" ed="Y"/>把握人類活動的法則。這樣，佛陀指出了兩種的中道，即緣起中道與八正道中道
 <lb n="0147a09" ed="Y"/>。緣起法，指出了一般人生活動的規律；八正道，指示一種更好的向上的實踐法
 <lb n="0147a10" ed="Y"/>則。</p>
-<lb n="0147a11" ed="Y"/><p style="text-indent:2em"><cit><quote source="T02n0099_p0067a04-08" type="寬鬆引文">「如來離於二邊說中道，所謂此有故彼有，此生故彼生；謂無明緣行……生
+<lb n="0147a11" ed="Y"/><p xml:id="pY24p0147a1101" style="text-indent:2em"><cit><quote source="T02n0099_p0067a04-08" type="寬鬆引文">「如來離於二邊說中道，所謂此有故彼有，此生故彼生；謂無明緣行……生
 <lb n="0147a12" ed="Y"/>緣老死，如是純大苦聚集。此無故彼無，此滅故彼滅；謂無明滅則行滅……生滅
-<lb n="0147a13" ed="Y"/>則老死滅，如是純大苦聚滅」</quote><bibl>（<title level="m">《雜含》</title><biblScope type="卷" n="12">卷一二</biblScope>）</bibl><note n="0147001" resp="周怡曄" type="add">(1)《雜阿含經》卷10：「如來離於二邊，說於中道，所謂此有故彼有，此生故彼生，謂緣無明有行，乃至生、老、病、死、憂、悲、[1]惱、苦集；所謂此無故彼無，此滅故彼滅，謂無明[2]滅則行滅，乃至生、老、病、死、憂、悲、惱、苦滅。」(CBETA, T02, no. 99, p. 67, a4-8)[1]惱苦＝苦惱【宋】＊【元】＊【明】＊。[2]滅＋（滅）【宋】【元】【明】；(2)《雜阿含經》卷12：「離此二邊，處於中道而說法，所謂此有故彼有，此起故彼起，緣無明行，乃至純大苦聚集，無明滅則行滅，乃至純大苦聚滅。」(CBETA, T02, no. 99, p. 85, c12-15)</note></cit>。<quote type="嚴謹引文">「此有彼有，此生彼生」</quote>，
+<lb n="0147a13" ed="Y"/>則老死滅，如是純大苦聚滅」</quote><bibl>（<title level="m">《雜含》</title><biblScope n="12" type="卷">卷一二</biblScope>）</bibl><note n="0147001" resp="周怡曄" type="add">(1)《雜阿含經》卷10：「如來離於二邊，說於中道，所謂此有故彼有，此生故彼生，謂緣無明有行，乃至生、老、病、死、憂、悲、[1]惱、苦集；所謂此無故彼無，此滅故彼滅，謂無明[2]滅則行滅，乃至生、老、病、死、憂、悲、惱、苦滅。」(CBETA, T02, no. 99, p. 67, a4-8)[1]惱苦＝苦惱【宋】＊【元】＊【明】＊。[2]滅＋（滅）【宋】【元】【明】；(2)《雜阿含經》卷12：「離此二邊，處於中道而說法，所謂此有故彼有，此起故彼起，緣無明行，乃至純大苦聚集，無明滅則行滅，乃至純大苦聚滅。」(CBETA, T02, no. 99, p. 85, c12-15)</note></cit>。<quote type="嚴謹引文">「此有彼有，此生彼生」</quote>，
 <pb n="0148a" ed="Y" xml:id="Y24.0024.0148a"/>
 <lb n="0148a01" ed="Y"/>是緣起法的原則；無明緣行等是緣起法的內容。依中道而說的緣起，可以遣離二
 <lb n="0148a02" ed="Y"/>邊邪執，這是<title level="m">《雜阿含經》</title>處處可見的。如卷一二依緣起說不一不異，說不常不
@@ -115,22 +135,22 @@
 <lb n="0149a06" ed="Y"/>可能性，而且指出了解脫之道，不在因果法則之外。<quote type="寬鬆引文">「生者必有死，崇高必墮落
 <lb n="0149a07" ed="Y"/>」</quote>，這是世間因果的必然法則；也是緣起法內在相對性的掘發，這可叫緣起的還
 <lb n="0149a08" ed="Y"/>滅律。</p>
-<lb n="0149a09" ed="Y"/><p style="text-indent:2em">緣起中道的二律，是一正一反的兩大定律，說明了流轉與還滅的必然律。此
+<lb n="0149a09" ed="Y"/><p xml:id="pY24p0149a0901" style="text-indent:2em">緣起中道的二律，是一正一反的兩大定律，說明了流轉與還滅的必然律。此
 <lb n="0149a10" ed="Y"/>緣起因果的起滅，還是「俗數法」，還是在現象的表面上說，還不是深入的、究
 <lb n="0149a11" ed="Y"/>竟真實的、第一義的說法。但是第一義還是依緣起法說的，即是緣起法的空寂性
-<lb n="0149a12" ed="Y"/><note n="0149a1201" resp="CBETA" type="add">［－］【CB】，<bibl>（<title level="m">雜含</title><biblScope type="卷" n="12">卷一二</biblScope>）</bibl>【印順】</note><app n="0149a1201"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】"><bibl>（<title level="m">《雜含》</title><biblScope type="卷" n="12">卷一二</biblScope>）</bibl></rdg></app>。所以<note n="0149a1202" resp="CBETA" type="add"><bibl>（<title level="m">雜含</title><biblScope n="12" type="卷">卷一二</biblScope>）</bibl>【CB】，［－］【印順】</note><app n="0149a1202"><lem wit="【CB】" resp="正聞出版社"><bibl>（<title level="m">《雜含》</title><biblScope n="12" type="卷">卷一二</biblScope>）</bibl></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>說：<quote type="嚴謹引文">「為<note n="0149a1203" resp="CBETA" type="add">彼【CB】，［－］【印順】</note><app n="0149a1203"><lem wit="【CB】" resp="正聞出版社">彼<note type="cf1">《雜阿含經》卷12(CBETA, T02, no. 99, p. 83, c4-5)</note></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>比丘說賢聖出世空相應<note n="0149a1204" resp="CBETA" type="add">緣起【CB】，［－］【印順】</note><app n="0149a1204"><lem wit="【CB】" resp="正聞出版社">緣起</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>隨順法」<note n="0149001" resp="厚觀法師" type="add">《雜阿含經》卷12(CBETA, T02, no. 99, p. 83, c4-5)</note></quote>。在一正一
-<lb n="0149a13" ed="Y"/>反的緣起相對性中，鞭辟入裡，直顯空性，才是第一義。<cit><bibl><title level="m">《雜含》</title><biblScope type="卷" n="13">卷一三</biblScope>的<title level="m">《第
+<lb n="0149a12" ed="Y"/><note n="0149a1201" resp="CBETA" type="add">［－］【CB】，<bibl>（<title level="m">雜含</title><biblScope n="12" type="卷">卷一二</biblScope>）</bibl>【印順】</note><app n="0149a1201"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】"><bibl>（<title level="m">《雜含》</title><biblScope n="12" type="卷">卷一二</biblScope>）</bibl></rdg></app>。所以<note n="0149a1202" resp="CBETA" type="add"><bibl>（<title level="m">雜含</title><biblScope n="12" type="卷">卷一二</biblScope>）</bibl>【CB】，［－］【印順】</note><app n="0149a1202"><lem resp="正聞出版社" wit="【CB】"><bibl>（<title level="m">《雜含》</title><biblScope n="12" type="卷">卷一二</biblScope>）</bibl></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>說：<quote type="嚴謹引文">「為<note n="0149a1203" resp="CBETA" type="add">彼【CB】，［－］【印順】</note><app n="0149a1203"><lem resp="正聞出版社" wit="【CB】">彼<note type="cf1">《雜阿含經》卷12(CBETA, T02, no. 99, p. 83, c4-5)</note></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>比丘說賢聖出世空相應<note n="0149a1204" resp="CBETA" type="add">緣起【CB】，［－］【印順】</note><app n="0149a1204"><lem resp="正聞出版社" wit="【CB】">緣起</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>隨順法」<note n="0149001" resp="厚觀法師" type="add">《雜阿含經》卷12(CBETA, T02, no. 99, p. 83, c4-5)</note></quote>。在一正一
+<lb n="0149a13" ed="Y"/>反的緣起相對性中，鞭辟入裡，直顯空性，才是第一義。<cit><bibl><title level="m">《雜含》</title><biblScope n="13" type="卷">卷一三</biblScope>的<title level="m">《第
 <pb n="0150a" ed="Y" xml:id="Y24.0024.0150a"/>
 <lb n="0150a01" ed="Y"/>一義空經》</title>說：</bibl><quote type="嚴謹引文">「眼生時無有來處，滅時無有去處，如是眼不實而生，生已盡滅
-<lb n="0150a02" ed="Y"/>……除俗數法。俗數法者，謂此有故彼有，此<note n="0150a0201" resp="CBETA" type="add">起【CB】，生【印順】</note><app n="0150a0201"><lem wit="【CB】" resp="正聞出版社">起<note type="cf1">《雜阿含經》卷13(CBETA, T02, no. 99, p. 92, c16-21)</note></lem><rdg wit="【印順】">生</rdg></app>故彼<note n="0150a0202" resp="CBETA" type="add">起【CB】，生【印順】</note><app n="0150a0202"><lem wit="【CB】" resp="正聞出版社">起</lem><rdg wit="【印順】">生</rdg></app>」</quote><note n="0150001" resp="厚觀法師" type="add">《雜阿含經》卷13：「眼生時無有來處，滅時無有去處。如是眼不實而生，生已盡滅，有業報而無作者，此陰滅已，異陰相續，除俗數法。耳、鼻、舌、身、意亦如是說，除俗數法。俗數法者，謂此有故彼有，此起故彼起」(CBETA, T02, no. 99, p. 92, c16-21)</note></cit>。佛從緣起世俗諦的生
+<lb n="0150a02" ed="Y"/>……除俗數法。俗數法者，謂此有故彼有，此<note n="0150a0201" resp="CBETA" type="add">起【CB】，生【印順】</note><app n="0150a0201"><lem resp="正聞出版社" wit="【CB】">起<note type="cf1">《雜阿含經》卷13(CBETA, T02, no. 99, p. 92, c16-21)</note></lem><rdg wit="【印順】">生</rdg></app>故彼<note n="0150a0202" resp="CBETA" type="add">起【CB】，生【印順】</note><app n="0150a0202"><lem resp="正聞出版社" wit="【CB】">起</lem><rdg wit="【印順】">生</rdg></app>」</quote><note n="0150001" resp="厚觀法師" type="add">《雜阿含經》卷13：「眼生時無有來處，滅時無有去處。如是眼不實而生，生已盡滅，有業報而無作者，此陰滅已，異陰相續，除俗數法。耳、鼻、舌、身、意亦如是說，除俗數法。俗數法者，謂此有故彼有，此起故彼起」(CBETA, T02, no. 99, p. 92, c16-21)</note></cit>。佛從緣起世俗諦的生
 <lb n="0150a03" ed="Y"/>滅非實中，說明第一義空，極為明白。在第一義空中，即遣離有無、斷常等二邊
-<lb n="0150a04" ed="Y"/>。如<note n="0150a0401" resp="CBETA" type="add">（<title level="m">別譯雜阿含經</title>）佛為【CB】，［－］【印順】</note><app n="0150a0401"><lem wit="【CB】" resp="正聞出版社">（<title level="m">《別譯雜阿含經》</title>）佛為</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>迦旃延說真實禪（體悟第一義的禪觀）說：<quote type="嚴謹引文">「觀彼<note n="0150a0402" resp="CBETA" type="add">大地【CB】，［－］【印順】</note><app n="0150a0402"><lem wit="【CB】" resp="正聞出版社">大地<note type="cf1">《別譯雜阿含經》卷8(CBETA, T02, no. 100, p. 431, a13-19)</note></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>悉皆虛偽，都不見<note n="0150a0403" resp="CBETA" type="add">有【CB】，［－］【印順】</note><app n="0150a0403"><lem wit="【CB】" resp="正聞出版社">有</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>真實…
-<lb n="0150a05" ed="Y"/>…但以假號因緣和合有種種名，觀斯空寂，不見有法（有見）及<note n="0150a0501" resp="CBETA" type="add">以【CB】，與【印順】</note><app n="0150a0501"><lem wit="【CB】" resp="正聞出版社">以</lem><rdg wit="【印順】">與</rdg></app>非法（無見）
-<lb n="0150a06" ed="Y"/>」<note n="0150002" resp="厚觀法師" type="add">《別譯雜阿含經》卷8：「觀彼大地悉皆虛偽，都不見有真實地想，水火風種，及四無色，此世、他世、日月星辰、識知見聞、推求覺觀、心意境界，及以於彼智不及處，亦復如是，皆悉虛偽，無有實法，但以假號，因緣和合，有種種名，觀斯空寂，不見有法，及以非法」(CBETA, T02, no. 100, p. 431, a13-19)</note><note n="0150a0601" resp="CBETA" type="add">［－］【CB】，（別譯<title level="m">雜含</title>）【印順】</note><app n="0150a0601"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">（別譯<title level="m">《雜含》</title>）</rdg></app></quote><bibl></bibl>。一切法都是因緣和合的假名法——世俗的，聖弟子就在這
+<lb n="0150a04" ed="Y"/>。如<note n="0150a0401" resp="CBETA" type="add">（<title level="m">別譯雜阿含經</title>）佛為【CB】，［－］【印順】</note><app n="0150a0401"><lem resp="正聞出版社" wit="【CB】">（<title level="m">《別譯雜阿含經》</title>）佛為</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>迦旃延說真實禪（體悟第一義的禪觀）說：<quote type="嚴謹引文">「觀彼<note n="0150a0402" resp="CBETA" type="add">大地【CB】，［－］【印順】</note><app n="0150a0402"><lem resp="正聞出版社" wit="【CB】">大地<note type="cf1">《別譯雜阿含經》卷8(CBETA, T02, no. 100, p. 431, a13-19)</note></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>悉皆虛偽，都不見<note n="0150a0403" resp="CBETA" type="add">有【CB】，［－］【印順】</note><app n="0150a0403"><lem resp="正聞出版社" wit="【CB】">有</lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>真實…
+<lb n="0150a05" ed="Y"/>…但以假號因緣和合有種種名，觀斯空寂，不見有法（有見）及<note n="0150a0501" resp="CBETA" type="add">以【CB】，與【印順】</note><app n="0150a0501"><lem resp="正聞出版社" wit="【CB】">以</lem><rdg wit="【印順】">與</rdg></app>非法（無見）
+<lb n="0150a06" ed="Y"/>」<note n="0150002" resp="厚觀法師" type="add">《別譯雜阿含經》卷8：「觀彼大地悉皆虛偽，都不見有真實地想，水火風種，及四無色，此世、他世、日月星辰、識知見聞、推求覺觀、心意境界，及以於彼智不及處，亦復如是，皆悉虛偽，無有實法，但以假號，因緣和合，有種種名，觀斯空寂，不見有法，及以非法」(CBETA, T02, no. 100, p. 431, a13-19)</note><note n="0150a0601" resp="CBETA" type="add">［－］【CB】，（別譯<title level="m">雜含</title>）【印順】</note><app n="0150a0601"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">（別譯<title level="m">《雜含》</title>）</rdg></app></quote><bibl></bibl>。一切法都是因緣和合的假名法——世俗的，聖弟子就在這
 <lb n="0150a07" ed="Y"/>因緣中，名相世俗法中，體觀空寂，離「有法」、「非法」二邊見，就證得第一義
-<lb n="0150a08" ed="Y"/>諦。所以說：<quote type="嚴謹引文">「<note n="0150a0801" resp="CBETA" type="add">大聖【CB】，諸佛【印順】</note><app n="0150a0801"><lem wit="【CB】" resp="正聞出版社">大聖<note type="cf1">《中論》卷2〈13 觀行品〉(CBETA, T30, no. 1564, p. 18, c16-17)</note></lem><rdg wit="【印順】">諸佛</rdg></app>說空法，為離諸見故」<note n="0150003" resp="厚觀法師" type="add">《中論》卷2〈13 觀行品〉(CBETA, T30, no. 1564, p. 18, c16-17)</note></quote>。佛陀<note n="0150a0802" resp="CBETA" type="add"><bibl>（<title level="m">雜阿含經</title><biblScope n="10" type="卷">卷一〇</biblScope>）</bibl>【CB】，［－］【印順】</note><app n="0150a0802"><lem wit="【CB】" resp="正聞出版社"><bibl>（<title level="m">《雜阿含經》</title><biblScope n="10" type="卷">卷一〇</biblScope>）</bibl></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>又說<quote type="嚴謹引文">「如實正觀世間集者，
+<lb n="0150a08" ed="Y"/>諦。所以說：<quote type="嚴謹引文">「<note n="0150a0801" resp="CBETA" type="add">大聖【CB】，諸佛【印順】</note><app n="0150a0801"><lem resp="正聞出版社" wit="【CB】">大聖<note type="cf1">《中論》卷2〈13 觀行品〉(CBETA, T30, no. 1564, p. 18, c16-17)</note></lem><rdg wit="【印順】">諸佛</rdg></app>說空法，為離諸見故」<note n="0150003" resp="厚觀法師" type="add">《中論》卷2〈13 觀行品〉(CBETA, T30, no. 1564, p. 18, c16-17)</note></quote>。佛陀<note n="0150a0802" resp="CBETA" type="add"><bibl>（<title level="m">雜阿含經</title><biblScope n="10" type="卷">卷一〇</biblScope>）</bibl>【CB】，［－］【印順】</note><app n="0150a0802"><lem resp="正聞出版社" wit="【CB】"><bibl>（<title level="m">《雜阿含經》</title><biblScope n="10" type="卷">卷一〇</biblScope>）</bibl></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>又說<quote type="嚴謹引文">「如實正觀世間集者，
 <lb n="0150a09" ed="Y"/>則不生世間無見，如實正觀世間滅，則不生世間有見；如來離於二邊，說於中道
-<lb n="0150a10" ed="Y"/>，所謂此有故彼有，此生故彼生」</quote><note n="0150a1001" resp="CBETA" type="add">［－］【CB】，<bibl>（<title level="m">雜含</title><biblScope n="10" type="卷">卷一〇</biblScope>）</bibl>【印順】</note><app n="0150a1001"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】"><bibl>（<title level="m">《雜含》</title><biblScope n="10" type="卷">卷一〇</biblScope>）</bibl></rdg></app><note n="0150004" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 67, a2-5)</note>。世俗的人，看見生，就
+<lb n="0150a10" ed="Y"/>，所謂此有故彼有，此生故彼生」</quote><note n="0150a1001" resp="CBETA" type="add">［－］【CB】，<bibl>（<title level="m">雜含</title><biblScope n="10" type="卷">卷一〇</biblScope>）</bibl>【印順】</note><app n="0150a1001"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】"><bibl>（<title level="m">《雜含》</title><biblScope n="10" type="卷">卷一〇</biblScope>）</bibl></rdg></app><note n="0150004" resp="周怡曄" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 67, a2-5)</note>。世俗的人，看見生，就
 <lb n="0150a11" ed="Y"/>以為有實在的法生起，看見滅，就以為有實在法毀滅了。有是實實在在的有，無
 <lb n="0150a12" ed="Y"/>是實實在在的取消，這是落於二邊見的。聖弟子不然，看見法生起，遣離了無見
 <lb n="0150a13" ed="Y"/>，但並不執著以為是實有；看見法消滅了，遣除了有見，但並不執著以為是斷滅
@@ -145,7 +165,7 @@
 <lb n="0151a08" ed="Y"/>滅關涉的現象中，直接體現到法法本性的空寂，可以叫他做中道的空寂律。這是
 <lb n="0151a09" ed="Y"/>第一義的中道教說，也為佛法特質——緣起性空的真義所在。大乘學者常說的「
 <lb n="0151a10" ed="Y"/>當體即空」，就是如此。</p>
-<lb n="0151a11" ed="Y"/><p style="text-indent:2em">我們勿以為這是老生常談，要知道佛法超勝於一般世間法，就在此。因為世
+<lb n="0151a11" ed="Y"/><p xml:id="pY24p0151a1101" style="text-indent:2em">我們勿以為這是老生常談，要知道佛法超勝於一般世間法，就在此。因為世
 <lb n="0151a12" ed="Y"/>俗與外道，他們想像宇宙本體的「神」，人生實質的「我」，都是圓滿常住快樂
 <lb n="0151a13" ed="Y"/>的，在這形而上本體論的決定下，必然是情意的信仰追求。佛陀卻以現實為出發
 <pb n="0152a" ed="Y" xml:id="Y24.0024.0152a"/>
@@ -153,13 +173,13 @@
 <lb n="0152a02" ed="Y"/>不變的常住性。一切都是因緣關係的生起、存在，因緣關係的消滅、空無，絕沒
 <lb n="0152a03" ed="Y"/>有離開其他而又能創造主宰（我）的獨存性。世人情意想像中常住獨存性的神我
 <lb n="0152a04" ed="Y"/>，在這裡無情地被否定了。</p>
-<lb n="0152a05" ed="Y"/><p style="text-indent:2em">從緣起法觀察到諸法空寂，佛陀就依之而建立三法印。所以經<note n="0152a0501" resp="CBETA" type="add"><bibl>（<title level="m">雜含</title><biblScope type="卷" n="11">卷一一</biblScope>）</bibl>【CB】，［－］【印順】</note><app n="0152a0501"><lem wit="【CB】" resp="正聞出版社"><bibl>（<title level="m">《雜含》</title><biblScope type="卷" n="11">卷一一</biblScope>）</bibl></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>說：<quote type="嚴謹引文">「<note n="0152a0502" resp="CBETA" type="add">空諸行【CB】，諸行空【印順】</note><app n="0152a0502"><lem wit="【CB】" resp="正聞出版社">空諸行<note type="cf1">《雜阿含經》卷11(CBETA, T02, no. 99, p. 72, c14-15)</note></lem><rdg wit="【印順】">諸行空</rdg></app>
-<lb n="0152a06" ed="Y"/>，常<note n="0152a0601" resp="CBETA" type="add">恒住【CB】，恆【印順】</note><app n="0152a0601"><lem wit="【CB】" resp="正聞出版社">、恒、住、</lem><rdg wit="【印順】">恆</rdg></app>不變易法空，無我我所」<note n="0152001" resp="厚觀法師" type="add">《雜阿含經》卷11(CBETA, T02, no. 99, p. 72, c14-15)</note></quote><note n="0152a0602" resp="CBETA" type="add">［－］【CB】，<bibl>（<title level="m">雜含</title><biblScope n="11" type="卷">卷一一</biblScope>）</bibl>【印順】</note><app n="0152a0602"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】"><bibl>（<title level="m">《雜含》</title><biblScope n="11" type="卷">卷一一</biblScope>）</bibl></rdg></app>。因為一切法（諸行）是本
-<lb n="0152a07" ed="Y"/>性空寂的，所以<quote type="寬鬆引文">「常<note n="0152a0701" resp="CBETA" type="add">恒【CB】，恆【印順】</note><app n="0152a0701"><lem wit="【CB】" resp="正聞出版社">恒</lem><rdg wit="【印順】">恆</rdg></app>不變易法」</quote>不能成立，常住、獨存而自在的神我，也不能
+<lb n="0152a05" ed="Y"/><p xml:id="pY24p0152a0501" style="text-indent:2em">從緣起法觀察到諸法空寂，佛陀就依之而建立三法印。所以經<note n="0152a0501" resp="CBETA" type="add"><bibl>（<title level="m">雜含</title><biblScope n="11" type="卷">卷一一</biblScope>）</bibl>【CB】，［－］【印順】</note><app n="0152a0501"><lem resp="正聞出版社" wit="【CB】"><bibl>（<title level="m">《雜含》</title><biblScope n="11" type="卷">卷一一</biblScope>）</bibl></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>說：<quote type="嚴謹引文">「<note n="0152a0502" resp="CBETA" type="add">空諸行【CB】，諸行空【印順】</note><app n="0152a0502"><lem resp="正聞出版社" wit="【CB】">空諸行<note type="cf1">《雜阿含經》卷11(CBETA, T02, no. 99, p. 72, c14-15)</note></lem><rdg wit="【印順】">諸行空</rdg></app>
+<lb n="0152a06" ed="Y"/>，常<note n="0152a0601" resp="CBETA" type="add">恒住【CB】，恆【印順】</note><app n="0152a0601"><lem resp="正聞出版社" wit="【CB】">、恒、住、</lem><rdg wit="【印順】">恆</rdg></app>不變易法空，無我我所」<note n="0152001" resp="厚觀法師" type="add">《雜阿含經》卷11(CBETA, T02, no. 99, p. 72, c14-15)</note></quote><note n="0152a0602" resp="CBETA" type="add">［－］【CB】，<bibl>（<title level="m">雜含</title><biblScope n="11" type="卷">卷一一</biblScope>）</bibl>【印順】</note><app n="0152a0602"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】"><bibl>（<title level="m">《雜含》</title><biblScope n="11" type="卷">卷一一</biblScope>）</bibl></rdg></app>。因為一切法（諸行）是本
+<lb n="0152a07" ed="Y"/>性空寂的，所以<quote type="寬鬆引文">「常<note n="0152a0701" resp="CBETA" type="add">恒【CB】，恆【印順】</note><app n="0152a0701"><lem resp="正聞出版社" wit="【CB】">恒</lem><rdg wit="【印順】">恆</rdg></app>不變易法」</quote>不能成立，常住、獨存而自在的神我，也不能
 <lb n="0152a08" ed="Y"/>建立。因此，一切法息息遷變中，一切是相依相待而存在。依緣起法悟入無常性
 <lb n="0152a09" ed="Y"/>、無我性，即是通達法法的本性空寂，空寂就是涅槃寂靜，即是離常我等戲論邪
-<lb n="0152a10" ed="Y"/>見而實現解脫了。所以經<note n="0152a1001" resp="CBETA" type="add"><bibl>（<title level="m">雜含</title>卷<biblScope n="10" type="卷">一〇</biblScope>）</bibl>【CB】，［－］【印順】</note><app n="0152a1001"><lem wit="【CB】" resp="正聞出版社"><bibl>（<title level="m">《雜含》</title>卷<biblScope n="10" type="卷">一〇</biblScope>）</bibl></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>說：<quote type="嚴謹引文">「無常想者，能建立無我想；聖弟子住無我想，心
-<lb n="0152a11" ed="Y"/>離我慢，順得<note n="0152a1101" resp="CBETA" type="add">［－］【CB】，解脫【印順】</note><app n="0152a1101"><lem wit="【CB】" resp="正聞出版社"><note type="cf1">《雜阿含經》卷10(CBETA, T02, no. 99, p. 71, a1-2)</note></lem><rdg wit="【印順】">解脫</rdg></app>涅槃」<note n="0152002" resp="厚觀法師" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 71, a1-2)</note></quote><note n="0152a1102" resp="CBETA" type="add">［－］【CB】，<bibl>（<title level="m">雜含</title>卷<biblScope n="10" type="卷">一〇</biblScope>）</bibl>【印順】</note><app n="0152a1102"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】"><bibl>（<title level="m">《雜含》</title>卷<biblScope n="10" type="卷">一〇</biblScope>）</bibl></rdg></app>。以中道的立場，在緣起空寂法性
+<lb n="0152a10" ed="Y"/>見而實現解脫了。所以經<note n="0152a1001" resp="CBETA" type="add"><bibl>（<title level="m">雜含</title>卷<biblScope n="10" type="卷">一〇</biblScope>）</bibl>【CB】，［－］【印順】</note><app n="0152a1001"><lem resp="正聞出版社" wit="【CB】"><bibl>（<title level="m">《雜含》</title>卷<biblScope n="10" type="卷">一〇</biblScope>）</bibl></lem><rdg wit="【印順】"><space quantity="0"/></rdg></app>說：<quote type="嚴謹引文">「無常想者，能建立無我想；聖弟子住無我想，心
+<lb n="0152a11" ed="Y"/>離我慢，順得<note n="0152a1101" resp="CBETA" type="add">［－］【CB】，解脫【印順】</note><app n="0152a1101"><lem resp="正聞出版社" wit="【CB】"><note type="cf1">《雜阿含經》卷10(CBETA, T02, no. 99, p. 71, a1-2)</note></lem><rdg wit="【印順】">解脫</rdg></app>涅槃」<note n="0152002" resp="厚觀法師" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 71, a1-2)</note></quote><note n="0152a1102" resp="CBETA" type="add">［－］【CB】，<bibl>（<title level="m">雜含</title>卷<biblScope n="10" type="卷">一〇</biblScope>）</bibl>【印順】</note><app n="0152a1102"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】"><bibl>（<title level="m">《雜含》</title>卷<biblScope n="10" type="卷">一〇</biblScope>）</bibl></rdg></app>。以中道的立場，在緣起空寂法性
 <lb n="0152a12" ed="Y"/>中，建立「諸行無常」、「諸法無我」、「涅槃寂靜」的三法印，正是佛法的根
 <lb n="0152a13" ed="Y"/>本思想。不過一般人偏於世俗的現象的知見，以為無常只是現象的變化而已，所
 <pb n="0153a" ed="Y" xml:id="Y24.0024.0153a"/>
@@ -167,14 +187,14 @@
 <lb n="0153a02" ed="Y"/>想像到法有我無。其實阿含的本義，無常無我，即空義，由法性本空而說的。因
 <lb n="0153a03" ed="Y"/>為法性空，常性不可得，所以法法是息息遷變的；假若本體（法性）實有自性而
 <lb n="0153a04" ed="Y"/>不空，現象又怎樣變動不居呢？因為法性空，所以我性不可得；假使還有實法恆
-<lb n="0153a05" ed="Y"/>在，不論此實法是精神是物質，就可以為我性的安足處。<cit><quote type="嚴謹引文">「眼（等）空，常<note n="0153a0501" resp="CBETA" type="add">恒【CB】，恆【印順】</note><app n="0153a0501"><lem wit="【CB】" resp="正聞出版社">恒<note type="cf1">《雜阿含經》卷9(CBETA, T02, no. 99, p. 56, b24-26)</note></lem><rdg wit="【印順】">恆</rdg></app>不
-<lb n="0153a06" ed="Y"/>變易法空，<note n="0153a0601" resp="CBETA" type="add">［－］【CB】，我【印順】</note><app n="0153a0601"><lem wit="【CB】" resp="正聞出版社"><space quantity="0"/></lem><rdg wit="【印順】">我</rdg></app>我所空。所以者何？<note n="0153a0602" resp="CBETA" type="add">此性自爾【CB】，自性爾故【印順】</note><app n="0153a0602"><lem wit="【CB】" resp="正聞出版社">此性自爾</lem><rdg wit="【印順】">自性爾故</rdg></app>」</quote><bibl>（<title level="m">《雜含》</title><biblScope type="卷" n="9">卷九</biblScope>）</bibl><note n="0153001" resp="厚觀法師" type="add">《雜阿含經》卷9(CBETA, T02, no. 99, p. 56, b24-26)</note></cit>。阿含的本義，
+<lb n="0153a05" ed="Y"/>在，不論此實法是精神是物質，就可以為我性的安足處。<cit><quote type="嚴謹引文">「眼（等）空，常<note n="0153a0501" resp="CBETA" type="add">恒【CB】，恆【印順】</note><app n="0153a0501"><lem resp="正聞出版社" wit="【CB】">恒<note type="cf1">《雜阿含經》卷9(CBETA, T02, no. 99, p. 56, b24-26)</note></lem><rdg wit="【印順】">恆</rdg></app>不
+<lb n="0153a06" ed="Y"/>變易法空，<note n="0153a0601" resp="CBETA" type="add">［－］【CB】，我【印順】</note><app n="0153a0601"><lem resp="正聞出版社" wit="【CB】"><space quantity="0"/></lem><rdg wit="【印順】">我</rdg></app>我所空。所以者何？<note n="0153a0602" resp="CBETA" type="add">此性自爾【CB】，自性爾故【印順】</note><app n="0153a0602"><lem resp="正聞出版社" wit="【CB】">此性自爾</lem><rdg wit="【印順】">自性爾故</rdg></app>」</quote><bibl>（<title level="m">《雜含》</title><biblScope n="9" type="卷">卷九</biblScope>）</bibl><note n="0153001" resp="厚觀法師" type="add">《雜阿含經》卷9(CBETA, T02, no. 99, p. 56, b24-26)</note></cit>。阿含的本義，
 <lb n="0153a07" ed="Y"/>豈非明白的依本性空寂而安立無常無我嗎？空寂是「法性自爾」的，而一般人不
 <lb n="0153a08" ed="Y"/>能明見，因此無明顛倒，執常執我而流轉了！在緣起現象可有可無可生可滅中，
 <lb n="0153a09" ed="Y"/>破除了絕對的獨存自主性，固定不變性，體驗本性的空寂，即得解脫。依緣起見
 <lb n="0153a10" ed="Y"/>自性空，不是表面的，而是深入事相核心的，這是釋尊對人生流轉還滅而開示的
 <lb n="0153a11" ed="Y"/>實相。無論是建立自宗，或簡別外道，這都是佛法的要義所在。</p>
-<lb n="0153a12" ed="Y"/><p style="text-indent:2em">除此，還有一種中道，是篤行的八正道中道。八正道，也是緣起法，它不在
+<lb n="0153a12" ed="Y"/><p xml:id="pY24p0153a1201" style="text-indent:2em">除此，還有一種中道，是篤行的八正道中道。八正道，也是緣起法，它不在
 <lb n="0153a13" ed="Y"/>乎說明生死雜染可以解脫的，所以不說<quote type="嚴謹引文">「此有故彼有，此生故彼生」</quote>的定律，它
 <pb n="0154a" ed="Y" xml:id="Y24.0024.0154a"/>
 <lb n="0154a01" ed="Y"/>告訴實修解脫行者所應採取的不苦不樂的中道行。當時印度的外道們，有的在那
@@ -195,14 +215,14 @@
 <lb n="0155a02" ed="Y"/>行的過程中，最初應該用道德的行為（法），去改善糾正不道德的行為（非法）
 <lb n="0155a03" ed="Y"/>。但這道德善法，也還是因緣所生法，也還是自性空寂的；假使如一般人的妄執
 <lb n="0155a04" ed="Y"/>，取相執實，那麼與性空不相應，始終不能悟證性空而獲得解脫的。所以<title level="m">《百論
-<lb n="0155a05" ed="Y"/>》</title>說：先依福捨罪，次一步必依捨捨福，才能得入無相。<cit><bibl><title level="m">《雜阿含》</title><biblScope n="10" type="卷">卷<note n="0155a0501" resp="CBETA" type="add">十【CB】，七【印順】</note><app n="0155a0501"><lem wit="【CB】" resp="正聞出版社">十<note type="cf1">《雜阿含經》卷10(CBETA, T02, no. 99, p. 72, b6-9)</note></lem><rdg wit="【印順】">七</rdg></app></biblScope>說：</bibl><quote type="嚴謹引文">「
-<lb n="0155a06" ed="Y"/><note n="0155a0601" resp="CBETA" type="add">都【CB】，我【印順】</note><app n="0155a0601"><lem wit="【CB】" resp="正聞出版社">都</lem><rdg wit="【印順】">我</rdg></app>不見一法可取而無罪過者；我若取色（等），即有罪過。……作是知已，於諸
+<lb n="0155a05" ed="Y"/>》</title>說：先依福捨罪，次一步必依捨捨福，才能得入無相。<cit><bibl><title level="m">《雜阿含》</title><biblScope n="10" type="卷">卷<note n="0155a0501" resp="CBETA" type="add">十【CB】，七【印順】</note><app n="0155a0501"><lem resp="正聞出版社" wit="【CB】">十<note type="cf1">《雜阿含經》卷10(CBETA, T02, no. 99, p. 72, b6-9)</note></lem><rdg wit="【印順】">七</rdg></app></biblScope>說：</bibl><quote type="嚴謹引文">「
+<lb n="0155a06" ed="Y"/><note n="0155a0601" resp="CBETA" type="add">都【CB】，我【印順】</note><app n="0155a0601"><lem resp="正聞出版社" wit="【CB】">都</lem><rdg wit="【印順】">我</rdg></app>不見一法可取而無罪過者；我若取色（等），即有罪過。……作是知已，於諸
 <lb n="0155a07" ed="Y"/>世間則無所取」</quote><note n="0155002" resp="厚觀法師" type="add">《雜阿含經》卷10：「都不見一法可取而無罪過者。我若取色，即有罪過；若取受、想、行、識，則有罪過。作是知已，於諸世間，則無所取」(CBETA, T02, no. 99, p. 72, b6-9)</note></cit>。罪過，是煩惱障礙的意思。只要對一法上執取實有，就是不能
 <lb n="0155a08" ed="Y"/>徹了空寂，就是障礙了解脫。可見善法功德法，也是執取不得；所以執取不得，
 <lb n="0155a09" ed="Y"/>即因為善法的本性空寂。龍樹菩薩說：功德法如火燒紅了的金錢，雖是值錢的東
 <lb n="0155a10" ed="Y"/>西，可是千萬取不得。所以這八正道的中道行，本性還是空寂的，它與中道的理
 <lb n="0155a11" ed="Y"/>性，是相應的。理性與實踐，在空寂中融然無二了。</p>
-<lb n="0155a12" ed="Y"/><p style="text-indent:2em">緣起空的中道，遣離了一切錯謬的思想（二邊邪見）；八正道的中道行，離
+<lb n="0155a12" ed="Y"/><p xml:id="pY24p0155a1201" style="text-indent:2em">緣起空的中道，遣離了一切錯謬的思想（二邊邪見）；八正道的中道行，離
 <lb n="0155a13" ed="Y"/>苦樂二邊而不取相執著。這兩大中道法，是相輔相成而圓滿無缺的。因為假使只
 <pb n="0156a" ed="Y" xml:id="Y24.0024.0156a"/>
 <lb n="0156a01" ed="Y"/>說緣起法性的如何如何，不能付之自己身心的修證體悟，即不能滿足人類衝破束

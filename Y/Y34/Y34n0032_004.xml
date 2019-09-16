@@ -12,66 +12,86 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2009/07</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2009/07</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>10卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 34, No. 32</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>10卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">34</idno>.<idno type="no">32</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">印度佛教思想史</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB00626">
-	<charName>CBETA CHARACTER CB00626</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[疊*毛]</value>
-	</charProp>
-	<mapping type="unicode">U+3CB2</mapping>
-	<mapping cb:dec="983666" type="PUA">U+F0272</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00626">
+				<charName>CBETA CHARACTER CB00626</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[疊*毛]</value>
+				</charProp>
+				<mapping type="unicode">U+3CB2</mapping>
+				<mapping cb:dec="983666" type="PUA">U+F0272</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第三章　初期「大乘佛法」</cb:mulu><cb:mulu level="2" type="其他">第三節　方便易行的大乘</cb:mulu>
-<milestone unit="juan" n="4"/>
+<milestone n="4" unit="juan"/>
 <pb n="0119a" ed="Y" xml:id="Y34.0032.0119a"/>
 <lb n="0119a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">第四章　中觀大乘——「性空唯名論」</cb:mulu><head>第四章　中觀大乘——「性空唯名論」</head>
 <lb n="0119a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　龍樹及其論著</cb:mulu><head>第一節　龍樹及其論著</head>
-<lb n="0119a03" ed="Y"/><p style="text-indent:2em">多方面傳出的大乘經，數量不少，內容又各有所重，在下化眾生，上求佛道，修菩薩行的大
+<lb n="0119a03" ed="Y"/><p xml:id="pY34p0119a0301" style="text-indent:2em">多方面傳出的大乘經，數量不少，內容又各有所重，在下化眾生，上求佛道，修菩薩行的大
 <lb n="0119a04" ed="Y"/>原則下，「初期大乘」經的行解，不免有點龐雜。「初期大乘」流行以來，（西元前五〇年——
 <lb n="0119a05" ed="Y"/>西元二〇〇年）已經二百多年了。面對印度的神教，「佛法」流傳出的部派，大乘自身的異義，實
 <lb n="0119a06" ed="Y"/>有分別、抉擇、貫通，確立大乘正義的必要。龍樹（<foreign xml:lang="sa">Nāgārjuna</foreign>）就是適應這一時代的要求，而成
 <lb n="0119a07" ed="Y"/>為印度佛教史上著名的第一位大乘論師。</p>
-<lb n="0119a08" ed="Y"/><p style="text-indent:2em">龍樹在世的年代，傳說不一，而年壽又都說很長。西元<note n="0119a0801" resp="CBETA" type="add">四〇一【CB】，四〇四【印順】</note><app n="0119a0801"><lem wit="【CB】" resp="正聞出版社">四〇一</lem><rdg wit="【印順】">四〇四</rdg></app>年，鳩摩羅什（<foreign xml:lang="sa">Kumārajīva</foreign>）
+<lb n="0119a08" ed="Y"/><p xml:id="pY34p0119a0801" style="text-indent:2em">龍樹在世的年代，傳說不一，而年壽又都說很長。西元<note n="0119a0801" resp="CBETA" type="add">四〇一【CB】，四〇四【印順】</note><app n="0119a0801"><lem resp="正聞出版社" wit="【CB】">四〇一</lem><rdg wit="【印順】">四〇四</rdg></app>年，鳩摩羅什（<foreign xml:lang="sa">Kumārajīva</foreign>）
 <lb n="0119a09" ed="Y"/>來到我國的長安。羅什譯出的<cit><bibl><title level="m">《龍樹菩薩傳》</title>說：</bibl><quote>「去此世已來，至今始過百歲」</quote><note n="0119001" resp="釋印順" type="orig"><title level="m">《龍樹菩薩傳》</title>（大正<ref target="#vol:50;page:p185b" type="taisho">五〇．一八五中</ref>）。</note></cit>。羅什二十
 <lb n="0119a10" ed="Y"/>歲以前，在西域學得龍樹的大乘法門。二十歲以後，住在龜茲。前秦建元十八年（西元三八二）
 <lb n="0119a11" ed="Y"/>，羅什離龜茲而到了姑臧，住了十九年，才到長安。可見<title level="m">《龍樹傳》</title>的成立，一定在西元三八二
@@ -80,12 +100,12 @@
 <lb n="0120a01" ed="Y"/>是很長壽了！龍樹是南印度人；當時的南方，是案達羅（<foreign xml:lang="en">Andhra</foreign>）王朝。宋（西元四三一年）求
 <lb n="0120a02" ed="Y"/>那跋摩（<foreign xml:lang="sa">Guṇavarman</foreign>）譯出了<title level="m">《龍樹菩薩為禪陀迦王說法要偈》</title>。<quote>「禪陀迦王」</quote>，就是唐義淨
 <lb n="0120a03" ed="Y"/>的異譯本，<cit><bibl><title level="m">《龍樹菩薩勸誡王頌》</title>所說的</bibl><quote>「乘土國王」</quote></cit>；<cit><bibl><title level="m">《南海寄歸內法傳》</title>說到的</bibl><quote>「市演得迦
-<lb n="0120a04" ed="Y"/>」</quote><note n="0120002" resp="釋印順" type="orig"><title level="m">《龍樹菩薩勸誡王頌》</title>（大正<ref target="#vol:32;page:p751b" type="taisho">三二．七五一中</ref>）。<bibl><title level="m">《南海寄歸內法傳》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref type="taisho" target="#vol:54;page:p227c">五四．二二七下</ref>）。</note></cit>。一般以為：「禪陀伽」是案達羅王朝的創建者 <foreign xml:lang="sa">Simuka</foreign>。龍樹仰推禪陀伽王，用意在勸誡
+<lb n="0120a04" ed="Y"/>」</quote><note n="0120002" resp="釋印順" type="orig"><title level="m">《龍樹菩薩勸誡王頌》</title>（大正<ref target="#vol:32;page:p751b" type="taisho">三二．七五一中</ref>）。<bibl><title level="m">《南海寄歸內法傳》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref target="#vol:54;page:p227c" type="taisho">五四．二二七下</ref>）。</note></cit>。一般以為：「禪陀伽」是案達羅王朝的創建者 <foreign xml:lang="sa">Simuka</foreign>。龍樹仰推禪陀伽王，用意在勸誡
 <lb n="0120a05" ed="Y"/>案達羅國王，依法而行。宋僧伽跋摩（<foreign xml:lang="sa">Saṃghavarman</foreign>）再譯本，名<title level="m">《勸發諸王要偈》</title>，也許更
 <lb n="0120a06" ed="Y"/>符合實際。後代稱此「偈」為<title level="m">《密友<note type="authorial">（或作「親友」）</note>書》</title>，那是說龍樹與某國王有親密關係，
 <lb n="0120a07" ed="Y"/>得到某國王的崇敬護持了。近代學者，紛紛的推定當時的國王是誰，但一直在推論階段，沒有得
 <lb n="0120a08" ed="Y"/>到定論。</p>
-<lb n="0120a09" ed="Y"/><p style="text-indent:2em">關於龍樹的傳記，首先要辨別的是：龍樹或譯作龍猛、龍勝。然<cit><bibl><title level="m">《楞伽經》</title>所說：</bibl><quote>「證得歡
+<lb n="0120a09" ed="Y"/><p xml:id="pY34p0120a0901" style="text-indent:2em">關於龍樹的傳記，首先要辨別的是：龍樹或譯作龍猛、龍勝。然<cit><bibl><title level="m">《楞伽經》</title>所說：</bibl><quote>「證得歡
 <lb n="0120a10" ed="Y"/>喜地，往生極樂國」</quote></cit>的龍猛，梵語 <foreign xml:lang="sa">Nāgāhvaya</foreign>，應譯為「龍叫」、「龍名」。月稱（<foreign xml:lang="sa">Candrakīrti</foreign>）
 <lb n="0120a11" ed="Y"/>的<title level="m">《入中論》</title>，為了證明龍樹的勝德，引了<title level="m">《楞伽經》</title>說；又引<cit><bibl><title level="m">《大雲經》</title>說：</bibl><quote>「此離車子，
 <lb n="0120a12" ed="Y"/>一切有情樂見童子，於我滅度後滿四百年，轉為苾芻，其名曰龍，廣弘我教法，後於極淨光世界
@@ -93,33 +113,33 @@
 <lb n="0120a14" ed="Y"/>名字就是如來賢（<foreign xml:lang="sa">Tathāgata-bhadra</foreign>），弘揚唯識中道，是龍樹的弟子<note n="0120004" resp="釋印順" type="orig"><bibl><title level="m">多氏《印度佛教史》</title>（寺本婉雅日譯本<biblScope n="139" type="pp">一三九</biblScope>）</bibl>。</note><note n="0120004" resp="正聞出版社" type="mod"><bibl><title level="m">多氏《印度佛教史》</title>（寺本婉雅日譯本<biblScope n="139" type="pp">一三九</biblScope>）</bibl>。</note>。這位如來賢阿闍黎，絕
 <lb n="0120a15" ed="Y"/>對不是龍樹；思想（其實是如來藏說）與龍樹不同，也不可能是龍樹的弟子。</p>
 <pb n="0121a" ed="Y" xml:id="Y34.0032.0121a"/>
-<lb n="0121a01" ed="Y"/><p style="text-indent:2em">龍樹菩薩出家，修學，弘法的事<note n="0121a0101" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0121a0101"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>，依早期的<title level="m">《龍樹菩薩傳》</title>，是這樣的<note n="0121005" resp="釋印順" type="orig"><title level="m">《龍樹菩薩傳》</title>（大正<ref target="#vol:50;page:p184a" type="taisho">五〇．一八四上</ref>——<ref target="#vol:50;page:p185b" type="taisho">一八五中</ref>）。</note>：</p>
-<lb n="0121a02" ed="Y"/><quote><p style="margin-left:3em">「入山，詣一佛塔，出家受戒。九十日中，誦三藏盡，更求異經，都無得處」。</p></quote>
-<lb n="0121a03" ed="Y"/><quote><p style="margin-left:3em">「遂入雪山，山中有塔，塔中有一老比丘，以摩訶衍經典與之」。</p></quote>
-<lb n="0121a04" ed="Y"/><p style="margin-left:3em">（龍樹欲）<quote>「立師教戒，更造衣服，令附佛法而有小異」</quote>。</p>
-<lb n="0121a05" ed="Y"/><quote><p style="margin-left:3em">「大龍菩薩……接之入海，於宮殿中，開七寶藏，發七寶華函，以諸方等深奧經典無量妙
+<lb n="0121a01" ed="Y"/><p xml:id="pY34p0121a0101" style="text-indent:2em">龍樹菩薩出家，修學，弘法的事<note n="0121a0101" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0121a0101"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>，依早期的<title level="m">《龍樹菩薩傳》</title>，是這樣的<note n="0121005" resp="釋印順" type="orig"><title level="m">《龍樹菩薩傳》</title>（大正<ref target="#vol:50;page:p184a" type="taisho">五〇．一八四上</ref>——<ref target="#vol:50;page:p185b" type="taisho">一八五中</ref>）。</note>：</p>
+<lb n="0121a02" ed="Y"/><quote><p xml:id="pY34p0121a0201" style="margin-left:3em">「入山，詣一佛塔，出家受戒。九十日中，誦三藏盡，更求異經，都無得處」。</p></quote>
+<lb n="0121a03" ed="Y"/><quote><p xml:id="pY34p0121a0301" style="margin-left:3em">「遂入雪山，山中有塔，塔中有一老比丘，以摩訶衍經典與之」。</p></quote>
+<lb n="0121a04" ed="Y"/><p xml:id="pY34p0121a0401" style="margin-left:3em">（龍樹欲）<quote>「立師教戒，更造衣服，令附佛法而有小異」</quote>。</p>
+<lb n="0121a05" ed="Y"/><quote><p xml:id="pY34p0121a0501" style="margin-left:3em">「大龍菩薩……接之入海，於宮殿中，開七寶藏，發七寶華函，以諸方等深奧經典無量妙
 <lb n="0121a06" ed="Y"/>法授之。……龍還送出，於南天竺大弘佛法」。</p></quote>
-<lb n="0121a07" ed="Y"/><quote><p style="margin-left:3em">「去此世已來，至今始過百歲，南天竺諸國為其立廟，敬奉如佛」。</p></quote>
-<lb n="0121a08" ed="Y"/><p style="text-indent:2em">龍樹出家時，佛像初興，舍利塔（<foreign xml:lang="sa">śarīra-stūpa</foreign>）代表了佛，與僧寺相連，由比丘僧管理。
+<lb n="0121a07" ed="Y"/><quote><p xml:id="pY34p0121a0701" style="margin-left:3em">「去此世已來，至今始過百歲，南天竺諸國為其立廟，敬奉如佛」。</p></quote>
+<lb n="0121a08" ed="Y"/><p xml:id="pY34p0121a0801" style="text-indent:2em">龍樹出家時，佛像初興，舍利塔（<foreign xml:lang="sa">śarīra-stūpa</foreign>）代表了佛，與僧寺相連，由比丘僧管理。
 <lb n="0121a09" ed="Y"/>龍樹在佛塔出家，就是在僧寺中出家。「初期大乘」經的傳出，雖與部派佛教的三藏不同，但「
 <lb n="0121a10" ed="Y"/>初期大乘」是重法而輕律的，還沒有成立菩薩僧團，所以大乘而出家的，還是在部派的僧寺中出
 <lb n="0121a11" ed="Y"/>家。也就因此，龍樹出了家，先讀聲聞乘的三藏。龍樹論所引的律典，多與<title level="m">《十誦律》</title>相同，所
-<lb n="0121a12" ed="Y"/>以傳說龍樹於說一切有部（<foreign xml:lang="sa"><note n="0121a1201" resp="CBETA" type="add">Sarvāstivāda【CB】，Sarvāstivādin【印順】</note><app n="0121a1201"><lem wit="【CB】" resp="正聞出版社">Sarvāstivāda</lem><rdg wit="【印順】">Sarvāstivādin</rdg></app></foreign>）出家，大致是可信的。後來，龍樹在雪山（<foreign xml:lang="sa">Himālaya</foreign>）
+<lb n="0121a12" ed="Y"/>以傳說龍樹於說一切有部（<foreign xml:lang="sa"><note n="0121a1201" resp="CBETA" type="add">Sarvāstivāda【CB】，Sarvāstivādin【印順】</note><app n="0121a1201"><lem resp="正聞出版社" wit="【CB】">Sarvāstivāda</lem><rdg wit="【印順】">Sarvāstivādin</rdg></app></foreign>）出家，大致是可信的。後來，龍樹在雪山（<foreign xml:lang="sa">Himālaya</foreign>）
 <lb n="0121a13" ed="Y"/>的一處佛寺中，讀到了大乘經。雪山在印度北部的邊境；<title level="m">《般若》</title>等大乘經，起於南方而大成於
 <lb n="0121a14" ed="Y"/>北方，在雪山地區讀到大乘經，是合於事實的。龍樹有<quote>「立師教戒，更造衣服」</quote>，也就是有別立
 <lb n="0121a15" ed="Y"/>大乘僧伽的意圖。但沒有實現這一理想，可能是為了避免諍論，或被誤會為叛離佛教。這可見個
 <pb n="0122a" ed="Y" xml:id="Y34.0032.0122a"/>
 <lb n="0122a01" ed="Y"/>人的理證不難，而大眾制度的改革，卻是很不容易的！龍樹入龍宮的傳說，極為普遍。我曾作<title level="a">〈
-<lb n="0122a02" ed="Y"/>龍樹龍宮取經考〉</title>，論證為：龍樹取經處，在烏荼（<foreign xml:lang="sa">Uḍra</foreign>），今奧里薩（<foreign xml:lang="en">Orissa</foreign>）地方。這<note n="0122a0201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0122a0201"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>
-<lb n="0122a03" ed="Y"/>在大海邊，傳說是龍王往來的地方。這<note n="0122a0301" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0122a0301"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>有神奇的塔，傳說是龍樹從龍宮取來的。這<note n="0122a0302" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0122a0302"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>是善財
+<lb n="0122a02" ed="Y"/>龍樹龍宮取經考〉</title>，論證為：龍樹取經處，在烏荼（<foreign xml:lang="sa">Uḍra</foreign>），今奧里薩（<foreign xml:lang="en">Orissa</foreign>）地方。這<note n="0122a0201" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0122a0201"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>
+<lb n="0122a03" ed="Y"/>在大海邊，傳說是龍王往來的地方。這<note n="0122a0301" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0122a0301"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>有神奇的塔，傳說是龍樹從龍宮取來的。這<note n="0122a0302" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0122a0302"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>是善財
 <lb n="0122a04" ed="Y"/>（<foreign xml:lang="sa">Sudhana</foreign>）童子的故鄉，與<title level="m">《華嚴》</title>的<title level="a">〈入法界品〉</title>有關。龍樹在龍宮讀到大乘經，應有事實成
-<lb n="0122a05" ed="Y"/>分，極可能經典是從龍王祠廟中得來的<note n="0122006" resp="釋印順" type="orig">拙作<bibl><title level="a">〈龍樹龍宮取經考〉</title>（<title level="s">《妙雲集》</title><biblScope n="下" type="編">下編</biblScope><biblScope n="9" type="vol">九</biblScope><title level="m">《佛教史地考論》</title><ref type="yinshun" target="#vol:22;page:p211">二一一</ref>——二二一）</bibl>。</note>。龍樹在南天竺弘法。是當然的。<title level="m">多氏《印度佛教史》</title>
-<lb n="0122a06" ed="Y"/>說：龍樹也在中印度弘法。多氏所說的龍樹弘法事<note n="0122a0601" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0122a0601"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>，已有後期「秘密大乘」的色彩，有些是附
-<lb n="0122a07" ed="Y"/>會的傳說。龍樹曾在雪山地區修學大乘法，對北方也應有影響。龍樹的弘揚佛法，不是<note n="0122a0701" resp="CBETA" type="add" subtype="規範字詞">局限【CB】，侷限【印順】</note><app n="0122a0701"><lem wit="【CB】" resp="CBETA">局限</lem><rdg wit="【印順】">侷限</rdg></app>在一
+<lb n="0122a05" ed="Y"/>分，極可能經典是從龍王祠廟中得來的<note n="0122006" resp="釋印順" type="orig">拙作<bibl><title level="a">〈龍樹龍宮取經考〉</title>（<title level="s">《妙雲集》</title><biblScope n="下" type="編">下編</biblScope><biblScope n="9" type="vol">九</biblScope><title level="m">《佛教史地考論》</title><ref target="#vol:22;page:p211" type="yinshun">二一一</ref>——二二一）</bibl>。</note>。龍樹在南天竺弘法。是當然的。<title level="m">多氏《印度佛教史》</title>
+<lb n="0122a06" ed="Y"/>說：龍樹也在中印度弘法。多氏所說的龍樹弘法事<note n="0122a0601" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0122a0601"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>，已有後期「秘密大乘」的色彩，有些是附
+<lb n="0122a07" ed="Y"/>會的傳說。龍樹曾在雪山地區修學大乘法，對北方也應有影響。龍樹的弘揚佛法，不是<note n="0122a0701" resp="CBETA" type="add" subtype="規範字詞">局限【CB】，侷限【印順】</note><app n="0122a0701"><lem resp="CBETA" wit="【CB】">局限</lem><rdg wit="【印順】">侷限</rdg></app>在一
 <lb n="0122a08" ed="Y"/>地區的。依<title level="m">《大唐西域記》</title>，龍樹晚年，住南憍薩羅（<foreign xml:lang="sa">Kośalā</foreign>）國都西南的跋邏末羅耆釐山
-<lb n="0122a09" ed="Y"/>（<foreign xml:lang="sa"><note n="0122a0901" resp="CBETA" type="add">Brāhmagiri【CB】，Bh-rāmaragiri【印順】</note><app n="0122a0901"><lem wit="【CB】" resp="正聞出版社">Brāhmagiri</lem><rdg wit="【印順】">Bh-rāmaragiri</rdg></app></foreign>）——黑峰山<note n="0122007" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域記》</title><biblScope n="10" type="卷">卷一〇</biblScope></bibl>（大正<ref type="taisho" target="#vol:51;page:p929c">五一．九二九下</ref>）。</note>。後住阿摩羅縛底（<foreign xml:lang="sa">Amarāvatī</foreign>）大塔西北的吉祥山（<foreign xml:lang="sa"><note n="0122a0902" resp="CBETA" type="add">Śrīparvata【CB】，Śrī-paravata【印順】</note><app n="0122a0902"><lem wit="【CB】" resp="正聞出版社">Śrīparvata</lem><rdg wit="【印順】">Śrī-paravata</rdg></app></foreign>），
-<lb n="0122a10" ed="Y"/>在這<note n="0122a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0122a1001"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>去世。</p>
-<lb n="0122a11" ed="Y"/><p style="text-indent:2em">龍樹所造的論典，留傳世間，受到大乘佛教界普遍的崇敬。由於眾望所歸，即使思想不同，
+<lb n="0122a09" ed="Y"/>（<foreign xml:lang="sa"><note n="0122a0901" resp="CBETA" type="add">Brāhmagiri【CB】，Bh-rāmaragiri【印順】</note><app n="0122a0901"><lem resp="正聞出版社" wit="【CB】">Brāhmagiri</lem><rdg wit="【印順】">Bh-rāmaragiri</rdg></app></foreign>）——黑峰山<note n="0122007" resp="釋印順" type="orig"><bibl><title level="m">《大唐西域記》</title><biblScope n="10" type="卷">卷一〇</biblScope></bibl>（大正<ref target="#vol:51;page:p929c" type="taisho">五一．九二九下</ref>）。</note>。後住阿摩羅縛底（<foreign xml:lang="sa">Amarāvatī</foreign>）大塔西北的吉祥山（<foreign xml:lang="sa"><note n="0122a0902" resp="CBETA" type="add">Śrīparvata【CB】，Śrī-paravata【印順】</note><app n="0122a0902"><lem resp="正聞出版社" wit="【CB】">Śrīparvata</lem><rdg wit="【印順】">Śrī-paravata</rdg></app></foreign>），
+<lb n="0122a10" ed="Y"/>在這<note n="0122a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0122a1001"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>去世。</p>
+<lb n="0122a11" ed="Y"/><p xml:id="pY34p0122a1101" style="text-indent:2em">龍樹所造的論典，留傳世間，受到大乘佛教界普遍的崇敬。由於眾望所歸，即使思想不同，
 <lb n="0122a12" ed="Y"/>也沒有人敢出來責難的。西元七、八世紀，還有人自稱是龍樹的傳人；後起的著作，也傳說是龍
 <lb n="0122a13" ed="Y"/>樹造的，那不免為盛名所累了！龍樹論流傳在北方，經西域而傳來我國的，西元五世紀初，譯出
 <lb n="0122a14" ed="Y"/>了四部：一、<title level="m">《中論》</title>：四卷，是龍樹本頌與青目釋論合編的。二、<title level="m">《十二門論》</title>：一卷，<title level="m">《論
@@ -127,32 +147,32 @@
 <pb n="0123a" ed="Y" xml:id="Y34.0032.0123a"/>
 <lb n="0123a01" ed="Y"/>卷，是二萬二千偈（中品）<title level="m">《大般若波羅蜜經》</title>的釋論，也是經、論合編的。僧叡的<cit><bibl><title level="a">〈大智釋論
 <lb n="0123a02" ed="Y"/>序〉</title>說：</bibl><quote>「論之略本，有十萬偈。……三分除二，得此百卷」</quote></cit>。<cit><bibl><title level="a">〈大智論（後）記〉</title>說：</bibl><quote>「論初
-<lb n="0123a03" ed="Y"/>品三十四卷，解釋一品，是全論<note n="0123a0301" resp="CBETA" type="add">具【CB】，其【印順】</note><app n="0123a0301"><lem wit="【CB】" resp="正聞出版社">具<note type="cf1">此處修訂依《大正藏》用字，參見《大智度論》卷100〈90 囑累品〉(CBETA, T25, no. 1509, p. 756, c14-18)</note></lem><rdg wit="【印順】">其</rdg></app>本。二品已下，法師略之，……得此百卷。若盡出之，將十倍
-<lb n="0123a04" ed="Y"/>於此」</quote><note n="0123008" resp="釋印順" type="orig"><bibl><title level="m">《出三藏記集》</title><biblScope type="卷" n="10">卷一〇</biblScope></bibl>（大正<ref target="#vol:55;page:p75a" type="taisho">五五．七五上</ref>、中）。</note></cit>。這部<title level="m">《大般若波羅蜜<note place="inline">大智度</note>經》</title>的釋論，是十萬偈廣論的略譯。「後記」所說，似乎
+<lb n="0123a03" ed="Y"/>品三十四卷，解釋一品，是全論<note n="0123a0301" resp="CBETA" type="add">具【CB】，其【印順】</note><app n="0123a0301"><lem resp="正聞出版社" wit="【CB】">具<note type="cf1">此處修訂依《大正藏》用字，參見《大智度論》卷100〈90 囑累品〉(CBETA, T25, no. 1509, p. 756, c14-18)</note></lem><rdg wit="【印順】">其</rdg></app>本。二品已下，法師略之，……得此百卷。若盡出之，將十倍
+<lb n="0123a04" ed="Y"/>於此」</quote><note n="0123008" resp="釋印順" type="orig"><bibl><title level="m">《出三藏記集》</title><biblScope n="10" type="卷">卷一〇</biblScope></bibl>（大正<ref target="#vol:55;page:p75a" type="taisho">五五．七五上</ref>、中）。</note></cit>。這部<title level="m">《大般若波羅蜜<note place="inline">大智度</note>經》</title>的釋論，是十萬偈廣論的略譯。「後記」所說，似乎
 <lb n="0123a05" ed="Y"/>誇大了些！四、<title level="m">《十住毘婆沙論》</title>：十七卷，是<bibl>《<title level="m">華嚴經</title>．<title level="a">十地品</title>》</bibl>重頌的廣說，僅解說二地
 <lb n="0123a06" ed="Y"/>。這兩部解說經文的論，在甚深義的基礎上，廣明菩薩的大行。以上四部，是現存最早譯出的龍
 <lb n="0123a07" ed="Y"/>樹論。<cit><bibl><title level="m">《龍樹傳》</title>說：</bibl><quote>「廣明摩訶衍，作優波提舍十萬偈，又作莊嚴佛道論五千偈，大慈方便論
 <lb n="0123a08" ed="Y"/>五千偈，中論五百偈，令摩訶衍教大行於天竺。又造無畏論十萬偈，中論出其中」</quote><note n="0123009" resp="釋印順" type="orig"><title level="m">《龍樹菩薩傳》</title>（大正<ref target="#vol:50;page:p184c" type="taisho">五〇．一八四下</ref>）。</note></cit>。<quote>「優波提
-<lb n="0123a09" ed="Y"/>舍十萬偈」</quote>，應該就是<title level="m">《大智度論》</title>；經的釋論，一般是稱為「論議」——優波提舍（<foreign xml:lang="sa"><note n="0123a0901" resp="CBETA" type="add">Upadeśa【CB】，upadeśa【印順】</note><app n="0123a0901"><lem wit="【CB】" resp="正聞出版社">Upadeśa</lem><rdg wit="【印順】">upadeśa</rdg></app></foreign>）
+<lb n="0123a09" ed="Y"/>舍十萬偈」</quote>，應該就是<title level="m">《大智度論》</title>；經的釋論，一般是稱為「論議」——優波提舍（<foreign xml:lang="sa"><note n="0123a0901" resp="CBETA" type="add">Upadeśa【CB】，upadeśa【印順】</note><app n="0123a0901"><lem resp="正聞出版社" wit="【CB】">Upadeśa</lem><rdg wit="【印順】">upadeśa</rdg></app></foreign>）
 <lb n="0123a10" ed="Y"/>的。<title level="m">《十住毘婆沙論》</title>，是菩薩道——十地的廣釋，可能就是<title level="m">《莊嚴佛道論》</title>。<title level="m">《中論》</title>，傳說
 <lb n="0123a11" ed="Y"/>出於<title level="m">《無畏論》</title>，那<title level="m">《無畏論》</title>是龍樹所作偈頌（及注釋）的總集了。</p>
-<lb n="0123a12" ed="Y"/><p style="text-indent:2em">西元七、八世紀，佛法傳入西藏；在藏文的譯本中，有眾多的龍樹作品。除傳說的秘密部外
+<lb n="0123a12" ed="Y"/><p xml:id="pY34p0123a1201" style="text-indent:2em">西元七、八世紀，佛法傳入西藏；在藏文的譯本中，有眾多的龍樹作品。除傳說的秘密部外
 <lb n="0123a13" ed="Y"/>，主要的是「五正理聚」，顯示甚深義的五部論。一、<title level="m">《根本中論頌》</title>。二、<title level="m">《六十頌如理論》</title>
 <lb n="0123a14" ed="Y"/>：我國趙宋施護（<foreign xml:lang="sa">Dānapāla</foreign>）曾譯出龍樹的本頌。三、<title level="m">《七十空性論》</title>（頌及釋）：近代法尊依
 <lb n="0123a15" ed="Y"/>藏文譯成漢文。四、<title level="m">《迴諍論》</title>：後魏毘目智仙（<foreign xml:lang="sa">Vimokṣaprajñāṛṣi</foreign>）與瞿曇流支（<foreign xml:lang="sa">Prajñāruci</foreign>）
 <pb n="0124a" ed="Y" xml:id="Y34.0032.0124a"/>
-<lb n="0124a01" ed="Y"/>，曾譯出偈與釋。五、<title level="m">《廣破經》</title>。後二部，是破斥印度的正理派（<foreign xml:lang="sa"><note n="0124a0101" resp="CBETA" type="add">Nyāyika【CB】，Naiyāyika【印順】</note><app n="0124a0101"><lem wit="【CB】" resp="正聞出版社">Nyāyika</lem><rdg wit="【印順】">Naiyāyika</rdg></app></foreign>）的。此外，有一
-<lb n="0124a02" ed="Y"/>、<title level="m">《菩提資糧論》</title>：隋達磨笈多（<foreign xml:lang="sa">Dharmagupta</foreign>）譯，六卷。本頌是龍樹造，釋論是自在（<foreign xml:lang="sa"><note n="0124a0201" resp="CBETA" type="add">Īśvara【CB】，Śvara【印順】</note><app n="0124a0201"><lem wit="【CB】" resp="正聞出版社">Īśvara</lem><rdg wit="【印順】">Śvara</rdg></app></foreign>）
-<lb n="0124a03" ed="Y"/>比丘造的。<title level="m">《十住毘婆沙論》</title>提到了這部論，羅什譯作<title level="m">《助道經》</title><note n="0124010" resp="釋印順" type="orig"><bibl><title level="m">《十住毘婆沙論》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref target="#vol:26;page:p25b" type="taisho">二六．二五中</ref>）。</note>。二、<title level="m">《寶鬘論》</title>：真諦
+<lb n="0124a01" ed="Y"/>，曾譯出偈與釋。五、<title level="m">《廣破經》</title>。後二部，是破斥印度的正理派（<foreign xml:lang="sa"><note n="0124a0101" resp="CBETA" type="add">Nyāyika【CB】，Naiyāyika【印順】</note><app n="0124a0101"><lem resp="正聞出版社" wit="【CB】">Nyāyika</lem><rdg wit="【印順】">Naiyāyika</rdg></app></foreign>）的。此外，有一
+<lb n="0124a02" ed="Y"/>、<title level="m">《菩提資糧論》</title>：隋達磨笈多（<foreign xml:lang="sa">Dharmagupta</foreign>）譯，六卷。本頌是龍樹造，釋論是自在（<foreign xml:lang="sa"><note n="0124a0201" resp="CBETA" type="add">Īśvara【CB】，Śvara【印順】</note><app n="0124a0201"><lem resp="正聞出版社" wit="【CB】">Īśvara</lem><rdg wit="【印順】">Śvara</rdg></app></foreign>）
+<lb n="0124a03" ed="Y"/>比丘造的。<title level="m">《十住毘婆沙論》</title>提到了這部論，羅什譯作<title level="m">《助道經》</title><note n="0124010" resp="釋印順" type="orig"><bibl><title level="m">《十住毘婆沙論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:26;page:p25b" type="taisho">二六．二五中</ref>）。</note>。二、<title level="m">《寶鬘論》</title>：真諦
 <lb n="0124a04" ed="Y"/>（<foreign xml:lang="sa">Paramârtha</foreign>）所譯<title level="m">《寶行王正論》</title>，就是<title level="m">《寶鬘論》</title>，但真諦沒有題「龍樹造」。三、<title level="m">《寄親
 <lb n="0124a05" ed="Y"/>友書》</title>：與<title level="m">《勸發諸王要偈》</title>同本，我國共有三譯。四、<title level="m">《大乘二十頌論》</title>：趙宋施護也有譯出
 <lb n="0124a06" ed="Y"/>。論說<quote>「一切唯心」</quote>，未必是龍樹造的！</p>
-<lb n="0124a07" ed="Y"/><p style="text-indent:2em">龍樹成立的大乘義，特別是<title level="m">《中論》</title>，影響深遠，所以稱龍樹學系為中觀派（<foreign xml:lang="sa"><note n="0124a0701" resp="CBETA" type="add">Mādhyamika【CB】，Madhyamika【印順】</note><app n="0124a0701"><lem wit="【CB】" resp="正聞出版社">Mādhyamika</lem><rdg wit="【印順】">Madhyamika</rdg></app></foreign>）
+<lb n="0124a07" ed="Y"/><p xml:id="pY34p0124a0701" style="text-indent:2em">龍樹成立的大乘義，特別是<title level="m">《中論》</title>，影響深遠，所以稱龍樹學系為中觀派（<foreign xml:lang="sa"><note n="0124a0701" resp="CBETA" type="add">Mādhyamika【CB】，Madhyamika【印順】</note><app n="0124a0701"><lem resp="正聞出版社" wit="【CB】">Mādhyamika</lem><rdg wit="【印順】">Madhyamika</rdg></app></foreign>）
 <lb n="0124a08" ed="Y"/>。傳說無著（<foreign xml:lang="sa">Asaṅga</foreign>）造<title level="m">《順中論》</title>，元魏瞿曇（般若）流支譯為二卷。西藏傳<title level="m">《中論》</title>有八家
 <lb n="0124a09" ed="Y"/>注釋：安慧（<foreign xml:lang="sa">Sthiramati</foreign>）釋，提婆設摩（<foreign xml:lang="sa">Devaśarman</foreign>）釋，德吉祥（<foreign xml:lang="sa">Guṇaśrī</foreign>）釋，德慧
-<lb n="0124a10" ed="Y"/>（<foreign xml:lang="sa">Guṇamati</foreign>）釋——四家，都屬於瑜伽行派（<foreign xml:lang="x-sa-pi"><note n="0124a1001" resp="CBETA" type="add">Yogācāra【CB】，Yogācārika【印順】</note><app n="0124a1001"><lem wit="【CB】" resp="正聞出版社">Yogācāra</lem><rdg wit="【印順】">Yogācārika</rdg></app></foreign>）。瑜伽派的解釋，未必符合龍樹論的
-<lb n="0124a11" ed="Y"/>本義，但受到大乘學界所重視，可以想見龍樹<title level="m">《中論》</title>的地位了！四家中的安慧釋論，由趙宋<note n="0124a1101" resp="CBETA" type="add">惟【CB】，唯【印順】</note><app n="0124a1101"><lem wit="【CB】" resp="正聞出版社">惟<note type="cf1">《大乘中觀釋論》卷1(CBETA, T30, no. 1567, p. 136, a9)</note></lem><rdg wit="【印順】">唯</rdg></app>
-<lb n="0124a12" ed="Y"/>淨等譯出，名<title level="m">《大乘中觀釋論》</title>，<note n="0124a1201" resp="CBETA" type="add">十八【CB】，共九【印順】</note><app n="0124a1201"><lem wit="【CB】" resp="正聞出版社">十八<note type="cf1">《大正藏》僅收錄前九卷，後九卷見《高麗藏》。</note></lem><rdg wit="【印順】">共九</rdg></app>卷。其他四家中，有<title level="m">《無畏釋》</title>，也許因此說龍樹造<title level="m">《無
+<lb n="0124a10" ed="Y"/>（<foreign xml:lang="sa">Guṇamati</foreign>）釋——四家，都屬於瑜伽行派（<foreign xml:lang="x-sa-pi"><note n="0124a1001" resp="CBETA" type="add">Yogācāra【CB】，Yogācārika【印順】</note><app n="0124a1001"><lem resp="正聞出版社" wit="【CB】">Yogācāra</lem><rdg wit="【印順】">Yogācārika</rdg></app></foreign>）。瑜伽派的解釋，未必符合龍樹論的
+<lb n="0124a11" ed="Y"/>本義，但受到大乘學界所重視，可以想見龍樹<title level="m">《中論》</title>的地位了！四家中的安慧釋論，由趙宋<note n="0124a1101" resp="CBETA" type="add">惟【CB】，唯【印順】</note><app n="0124a1101"><lem resp="正聞出版社" wit="【CB】">惟<note type="cf1">《大乘中觀釋論》卷1(CBETA, T30, no. 1567, p. 136, a9)</note></lem><rdg wit="【印順】">唯</rdg></app>
+<lb n="0124a12" ed="Y"/>淨等譯出，名<title level="m">《大乘中觀釋論》</title>，<note n="0124a1201" resp="CBETA" type="add">十八【CB】，共九【印順】</note><app n="0124a1201"><lem resp="正聞出版社" wit="【CB】">十八<note type="cf1">《大正藏》僅收錄前九卷，後九卷見《高麗藏》。</note></lem><rdg wit="【印順】">共九</rdg></app>卷。其他四家中，有<title level="m">《無畏釋》</title>，也許因此說龍樹造<title level="m">《無
 <lb n="0124a13" ed="Y"/>畏論》</title>，<title level="m">《中論》</title>出在其中。這部釋論，近於羅什所譯的青目釋。西藏傳說為龍樹造，但也有以
 <lb n="0124a14" ed="Y"/>為不是的。有清辨（<foreign xml:lang="sa">Bhavya</foreign>）釋，名<title level="m">《般若燈》</title>。唐波羅頗蜜多羅（<foreign xml:lang="sa">Prabhākaramitra</foreign>）譯出，
 <lb n="0124a15" ed="Y"/>十五卷，名<title level="m">《般若燈論釋》</title>。譯者是瑜伽行派，在<title level="a">〈觀涅槃品〉</title>中，清辨評斥瑜伽行派部分，譯
@@ -177,137 +197,137 @@
 <lb n="0126a01" ed="Y"/>
 <lb n="0126a02" ed="Y"/></cb:div>
 <lb n="0126a03" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　龍樹的思想</cb:mulu><head>第二節　龍樹的思想</head>
-<lb n="0126a04" ed="Y"/><p style="text-indent:2em">龍樹（<foreign xml:lang="sa">Nāgārjuna</foreign>）學被稱為中觀派（<foreign xml:lang="sa"><note n="0126a0401" resp="CBETA" type="add">Mādhyamika【CB】，Madhyamika【印順】</note><app n="0126a0401"><lem wit="【CB】" resp="正聞出版社">Mādhyamika</lem><rdg wit="【印順】">Madhyamika</rdg></app></foreign>），可見<title level="m">《中（觀）論》</title>所受到的重視。
+<lb n="0126a04" ed="Y"/><p xml:id="pY34p0126a0401" style="text-indent:2em">龍樹（<foreign xml:lang="sa">Nāgārjuna</foreign>）學被稱為中觀派（<foreign xml:lang="sa"><note n="0126a0401" resp="CBETA" type="add">Mādhyamika【CB】，Madhyamika【印順】</note><app n="0126a0401"><lem resp="正聞出版社" wit="【CB】">Mādhyamika</lem><rdg wit="【印順】">Madhyamika</rdg></app></foreign>），可見<title level="m">《中（觀）論》</title>所受到的重視。
 <lb n="0126a05" ed="Y"/>龍樹是大乘行者，本於深觀而修廣大行的，所以更應從<title level="m">《大智度論》</title>，<title level="m">《十住毘婆沙論》</title>，去理
 <lb n="0126a06" ed="Y"/>解大乘的全貌。龍樹生於南印度，在北方修學，所以龍樹論有綜貫南北的特色；抉擇、貫通一切
 <lb n="0126a07" ed="Y"/>，撥荊棘而啟大乘的坦途，不是為理論而理論的說明者。「佛法」的「四部阿含」以外，大乘經
 <lb n="0126a08" ed="Y"/>的傳出，部類眾多，宗趣不一，所以龍樹依據古說，依「四阿含」的不同特性，立四種悉檀
-<lb n="0126a09" ed="Y"/>（<foreign xml:lang="sa"><note n="0126a0901" resp="CBETA" type="add">siddhānta【CB】，si-ddhān ta【印順】</note><app n="0126a0901"><lem wit="【CB】" resp="正聞出版社">siddhānta</lem><rdg wit="【印順】">si-ddhān ta</rdg></app></foreign>），以貫攝一切佛法，悉檀是宗旨、理趣的意思。四悉檀是：有的是適應俗情，方便誘導
+<lb n="0126a09" ed="Y"/>（<foreign xml:lang="sa"><note n="0126a0901" resp="CBETA" type="add">siddhānta【CB】，si-ddhān ta【印順】</note><app n="0126a0901"><lem resp="正聞出版社" wit="【CB】">siddhānta</lem><rdg wit="【印順】">si-ddhān ta</rdg></app></foreign>），以貫攝一切佛法，悉檀是宗旨、理趣的意思。四悉檀是：有的是適應俗情，方便誘導
 <lb n="0126a10" ed="Y"/>向佛的「世界悉檀」；有的是針對偏蔽過失而說的「對治悉檀」；有的是啟發人心向上向善的「
 <lb n="0126a11" ed="Y"/>各各為人悉檀」；有的是顯示究竟真實的「第一義悉檀」。以此四悉檀通攝當時的一切佛說，<quote>「
 <lb n="0126a12" ed="Y"/>皆是實，無相違背」</quote><note n="0126001" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:25;page:p59b" type="taisho">二五．五九中</ref>）。</note>。經說不同，如從應機說法來說，一切是如實說，<quote>「佛說無不如義」</quote>，所
 <lb n="0126a13" ed="Y"/>以<quote>「如來是真語者，實語者，如語者，不誑語者，不異語者」</quote>！然依修行而得究竟來說，那就是
-<lb n="0126a14" ed="Y"/>「第一義悉檀」了。第一義——勝義（<foreign xml:lang="sa">paramârtha</foreign>）在「佛法」中，是緣起（<foreign xml:lang="sa"><note n="0126a1401" resp="CBETA" type="add">pratītyasamutpāda【CB】，pratītya-samut-pāda【印順】</note><app n="0126a1401"><lem wit="【CB】" resp="正聞出版社">pratītyasamutpāda</lem><rdg wit="【印順】">pratītya-samut-pāda</rdg></app></foreign>）
+<lb n="0126a14" ed="Y"/>「第一義悉檀」了。第一義——勝義（<foreign xml:lang="sa">paramârtha</foreign>）在「佛法」中，是緣起（<foreign xml:lang="sa"><note n="0126a1401" resp="CBETA" type="add">pratītyasamutpāda【CB】，pratītya-samut-pāda【印順】</note><app n="0126a1401"><lem resp="正聞出版社" wit="【CB】">pratītyasamutpāda</lem><rdg wit="【印順】">pratītya-samut-pāda</rdg></app></foreign>）
 <pb n="0127a" ed="Y" xml:id="Y34.0032.0127a"/>
-<lb n="0127a01" ed="Y"/>；緣起法是法性（<foreign xml:lang="sa">dharmatā</foreign>），法住（<foreign xml:lang="sa"><note n="0127a0101" resp="CBETA" type="add">dharma-sthititā【CB】，dharma-sthitatā【印順】</note><app n="0127a0101"><lem wit="【CB】" resp="正聞出版社">dharma-sthititā</lem><rdg wit="【印順】">dharma-sthitatā</rdg></app></foreign>），法界（<foreign xml:lang="sa">dharma-dhātu</foreign>）。依緣
+<lb n="0127a01" ed="Y"/>；緣起法是法性（<foreign xml:lang="sa">dharmatā</foreign>），法住（<foreign xml:lang="sa"><note n="0127a0101" resp="CBETA" type="add">dharma-sthititā【CB】，dharma-sthitatā【印順】</note><app n="0127a0101"><lem resp="正聞出版社" wit="【CB】">dharma-sthititā</lem><rdg wit="【印順】">dharma-sthitatā</rdg></app></foreign>），法界（<foreign xml:lang="sa">dharma-dhātu</foreign>）。依緣
 <lb n="0127a02" ed="Y"/>起說，蘊，處，（因緣），諦，界，及出世因的道品，都是勝義，這就是<title level="m">《雜阿含經》</title>（巴利藏
 <lb n="0127a03" ed="Y"/>作<title level="m">《相應部》</title>）的主要內容。龍樹是大乘行者，依<title level="m">《般若經》</title>說，以涅槃（<foreign xml:lang="sa">nirvāṇa</foreign>）異名——
 <lb n="0127a04" ed="Y"/>空性（<foreign xml:lang="sa">śūnyatā</foreign>），真如（<foreign xml:lang="x-sa-pi">tathatā</foreign>），法界，實際（<foreign xml:lang="sa">bhūtakoṭi</foreign>）等為勝義，如<title level="m">《論》</title>說：<quote>「第一
 <lb n="0127a05" ed="Y"/>義悉檀者，一切法性，一切論議語言，一切是法非法，一一可分別破散；諸佛、辟支佛、阿羅漢
-<lb n="0127a06" ed="Y"/>所行真實法，不可破，不可散」</quote><note n="0127002" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref target="#vol:25;page:p60c" type="taisho">二五．六〇下</ref>）。</note>。勝義是三乘聖者自證的，不落論議語言，所以不可破壞。反
+<lb n="0127a06" ed="Y"/>所行真實法，不可破，不可散」</quote><note n="0127002" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:25;page:p60c" type="taisho">二五．六〇下</ref>）。</note>。勝義是三乘聖者自證的，不落論議語言，所以不可破壞。反
 <lb n="0127a07" ed="Y"/>之，說一切法（自）性，一切論議語言，說是說非，都是可破壞的。因為世俗施設，都有相對性
 <lb n="0127a08" ed="Y"/>，沒有不落於可破壞的境地。第一義悉檀真實不可破；如方便的應機設教，有相對的真實意義，
 <lb n="0127a09" ed="Y"/>所以前三悉檀也可說是實了。</p>
-<lb n="0127a10" ed="Y"/><p style="text-indent:2em">龍樹的造論通經，面對佛教界的種種問題。如「佛法」的部派林立，互相評破；「佛法」
+<lb n="0127a10" ed="Y"/><p xml:id="pY34p0127a1001" style="text-indent:2em">龍樹的造論通經，面對佛教界的種種問題。如「佛法」的部派林立，互相評破；「佛法」
 <lb n="0127a11" ed="Y"/>與「大乘佛法」間，存有嚴重的偏差，有礙佛法的合理開展。如傳統的「佛法」行者，指大乘為
-<lb n="0127a12" ed="Y"/>非佛所說<note n="0127003" resp="釋印順" type="orig"><bibl><title level="m">《道行般若波羅蜜經》</title><biblScope type="卷" n="6">卷六</biblScope></bibl>（大正<ref type="taisho" target="#vol:8;page:p455b">八．四五五中</ref>）。<bibl><title level="m">《般舟三昧經》</title><biblScope type="卷" n="上">卷上</biblScope></bibl>（大正<ref target="#vol:13;page:p907a" type="taisho">一三．九〇七上</ref>——中）。</note>。「大乘佛法」行者，指傳統「佛法」為小乘（<foreign xml:lang="x-sa-pi">hīnayāna</foreign>）；過分的讚揚菩薩，貶抑
+<lb n="0127a12" ed="Y"/>非佛所說<note n="0127003" resp="釋印順" type="orig"><bibl><title level="m">《道行般若波羅蜜經》</title><biblScope n="6" type="卷">卷六</biblScope></bibl>（大正<ref target="#vol:8;page:p455b" type="taisho">八．四五五中</ref>）。<bibl><title level="m">《般舟三昧經》</title><biblScope n="上" type="卷">卷上</biblScope></bibl>（大正<ref target="#vol:13;page:p907a" type="taisho">一三．九〇七上</ref>——中）。</note>。「大乘佛法」行者，指傳統「佛法」為小乘（<foreign xml:lang="x-sa-pi">hīnayāna</foreign>）；過分的讚揚菩薩，貶抑
 <lb n="0127a13" ed="Y"/>阿羅漢，使釋尊為了「佛法久住」而建立起來的，和樂清淨僧伽的律（<foreign xml:lang="x-sa-pi">vinaya</foreign>）行，也受到輕視
-<lb n="0127a14" ed="Y"/>。如維摩詰（<foreign xml:lang="sa">Vimalakīrti</foreign>）呵斥優波離（<foreign xml:lang="x-sa-pi">Upāli</foreign>）的如法為比丘出罪<note n="0127004" resp="釋印順" type="orig"><bibl><title level="m">《維摩詰所說經》</title><biblScope type="卷" n="上">卷上</biblScope></bibl>（大正<ref type="taisho" target="#vol:14;page:p541b">一四．五四一中</ref>）。</note>；文殊師利（<foreign xml:lang="sa">Mañjuśrī</foreign>）
+<lb n="0127a14" ed="Y"/>。如維摩詰（<foreign xml:lang="sa">Vimalakīrti</foreign>）呵斥優波離（<foreign xml:lang="x-sa-pi">Upāli</foreign>）的如法為比丘出罪<note n="0127004" resp="釋印順" type="orig"><bibl><title level="m">《維摩詰所說經》</title><biblScope n="上" type="卷">卷上</biblScope></bibl>（大正<ref target="#vol:14;page:p541b" type="taisho">一四．五四一中</ref>）。</note>；文殊師利（<foreign xml:lang="sa">Mañjuśrī</foreign>）
 <lb n="0127a15" ed="Y"/>以出家身分，<quote>「不現佛邊，亦不見在眾僧，亦不見在請會，亦不在說戒中」</quote>，卻在<quote>「王宮采女中
 <pb n="0128a" ed="Y" xml:id="Y34.0032.0128a"/>
-<lb n="0128a01" ed="Y"/>，及諸婬女、小兒之中三月」</quote>安居<note n="0128005" resp="釋印順" type="orig"><bibl><title level="m">《文殊師利現寶藏經》</title><biblScope type="卷" n="下">卷下</biblScope></bibl>（大正<ref type="taisho" target="#vol:14;page:p460a">一四．四六〇上</ref>——中）。<bibl><title level="m">《大方廣寶篋經》</title><biblScope n="中" type="卷">卷中</biblScope></bibl>（大正<ref type="taisho" target="#vol:14;page:p474a">一四．四七四上</ref>）。</note><note n="0128005" resp="正聞出版社" type="mod"><bibl><title level="m">《文殊師利現寶藏經》</title><biblScope type="卷" n="下">卷下</biblScope></bibl>（大正<ref type="taisho" target="#vol:14;page:p460a">一四．四六〇上</ref><space quantity="0"/>）。<bibl><title level="m">《大方廣寶篋經》</title><biblScope n="中" type="卷">卷中</biblScope></bibl>（大正<ref type="taisho" target="#vol:14;page:p474a">一四．四七四上</ref>）。</note>。這表示了有個人自由主義傾向的大乘行者，藐視過著集體
+<lb n="0128a01" ed="Y"/>，及諸婬女、小兒之中三月」</quote>安居<note n="0128005" resp="釋印順" type="orig"><bibl><title level="m">《文殊師利現寶藏經》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:14;page:p460a" type="taisho">一四．四六〇上</ref>——中）。<bibl><title level="m">《大方廣寶篋經》</title><biblScope n="中" type="卷">卷中</biblScope></bibl>（大正<ref target="#vol:14;page:p474a" type="taisho">一四．四七四上</ref>）。</note><note n="0128005" resp="正聞出版社" type="mod"><bibl><title level="m">《文殊師利現寶藏經》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:14;page:p460a" type="taisho">一四．四六〇上</ref><space quantity="0"/>）。<bibl><title level="m">《大方廣寶篋經》</title><biblScope n="中" type="卷">卷中</biblScope></bibl>（大正<ref target="#vol:14;page:p474a" type="taisho">一四．四七四上</ref>）。</note>。這表示了有個人自由主義傾向的大乘行者，藐視過著集體
 <lb n="0128a02" ed="Y"/>生活的謹嚴律制（也許當時律制，有的已徒存形式了）。大乘的極端者，以為：<quote>「若有經卷說聲
 <lb n="0128a03" ed="Y"/>聞事，其行菩薩（道者）不當學此，亦不當聽。非吾等法，非吾道義，聲聞所行也，修菩薩者慎
-<lb n="0128a04" ed="Y"/>勿學彼」</quote><note n="0128006" resp="釋印順" type="orig"><title level="m">《濟諸方等學經》</title>（大正<ref type="taisho" target="#vol:9;page:p375b">九．三七五中</ref>）。</note>。以上是「佛法」與「大乘佛法」者的互相抗拒。又如「大乘佛法」以勝義諦為先，
+<lb n="0128a04" ed="Y"/>勿學彼」</quote><note n="0128006" resp="釋印順" type="orig"><title level="m">《濟諸方等學經》</title>（大正<ref target="#vol:9;page:p375b" type="taisho">九．三七五中</ref>）。</note>。以上是「佛法」與「大乘佛法」者的互相抗拒。又如「大乘佛法」以勝義諦為先，
 <lb n="0128a05" ed="Y"/>尤其是<title level="m">《般若經》</title>的發揚空義。空是無二無別的，一切法平等，所以空中無善無惡，無業無報，
 <lb n="0128a06" ed="Y"/>無修無證，無凡無聖。在「一切法空」的普遍發揚中，不免引起副作用，如吳支謙所譯<cit><bibl><title level="m">《慧印三
 <lb n="0128a07" ed="Y"/>昧經》</title>說：</bibl><quote>「住在有中，言一切空。亦不曉空，何所是空。內意不除，所行非法。口但說空，住
 <lb n="0128a08" ed="Y"/>在有中」</quote><note n="0128007" resp="釋印順" type="orig"><title level="m">《慧印三昧經》</title>（大正<ref target="#vol:15;page:p464b" type="taisho">一五．四六四中</ref>）。</note></cit>。西晉竺法護譯的<cit><bibl><title level="m">《濟諸方等學經》</title>也說：</bibl><quote>「所可宣講，但論空法，言無罪福，輕蔑
-<lb n="0128a09" ed="Y"/>諸行」</quote><note n="0128008" resp="釋印順" type="orig"><title level="m">《濟諸方等學經》</title>（大正<ref type="taisho" target="#vol:9;page:p376a">九．三七六上</ref>）。</note></cit>。談空而輕毀善行，是佛教界的時代病，難怪原始的<cit><bibl><title level="m">《寶積經》</title>，要大聲疾呼：</bibl><quote>「寧起
-<lb n="0128a10" ed="Y"/>我見積若須彌，非以空見起增上慢。所以者何？一切諸見依空得脫，若起空見，則不可除」</quote><note n="0128009" resp="釋印順" type="orig"><bibl><title level="m">《大寶積經》</title><biblScope n="112" type="卷">卷一一二</biblScope><title level="a">〈普明菩薩會〉</title></bibl>（大正<ref target="#vol:11;page:p634a" type="taisho">一一．六三四上</ref>）。以上部分，可參閱拙作<bibl><title level="m">《初期大乘佛教之起源與開展》</title><biblScope n="14" type="chap">第一四章</biblScope></bibl>（<ref type="yinshun" target="#vol:37;page:p1167">一一六七</ref>——一一七三）。</note></cit>。
+<lb n="0128a09" ed="Y"/>諸行」</quote><note n="0128008" resp="釋印順" type="orig"><title level="m">《濟諸方等學經》</title>（大正<ref target="#vol:9;page:p376a" type="taisho">九．三七六上</ref>）。</note></cit>。談空而輕毀善行，是佛教界的時代病，難怪原始的<cit><bibl><title level="m">《寶積經》</title>，要大聲疾呼：</bibl><quote>「寧起
+<lb n="0128a10" ed="Y"/>我見積若須彌，非以空見起增上慢。所以者何？一切諸見依空得脫，若起空見，則不可除」</quote><note n="0128009" resp="釋印順" type="orig"><bibl><title level="m">《大寶積經》</title><biblScope n="112" type="卷">卷一一二</biblScope><title level="a">〈普明菩薩會〉</title></bibl>（大正<ref target="#vol:11;page:p634a" type="taisho">一一．六三四上</ref>）。以上部分，可參閱拙作<bibl><title level="m">《初期大乘佛教之起源與開展》</title><biblScope n="14" type="chap">第一四章</biblScope></bibl>（<ref target="#vol:37;page:p1167" type="yinshun">一一六七</ref>——一一七三）。</note></cit>。
 <lb n="0128a11" ed="Y"/>「大乘佛法」興起，「佛法」與「大乘佛法」的相互抗拒，談空而蔑視人間善行，龍樹的時代，
 <lb n="0128a12" ed="Y"/>已相當嚴重了！</p>
-<lb n="0128a13" ed="Y"/><p style="text-indent:2em">「佛法」以緣起（<foreign xml:lang="sa">pratītya-samutpāda</foreign>）為先，「大乘佛法」以空性、真如等為量。龍樹面
+<lb n="0128a13" ed="Y"/><p xml:id="pY34p0128a1301" style="text-indent:2em">「佛法」以緣起（<foreign xml:lang="sa">pratītya-samutpāda</foreign>）為先，「大乘佛法」以空性、真如等為量。龍樹面
 <lb n="0128a14" ed="Y"/>對佛教界的相互抗拒，於是探求佛法的真義，以「佛法」的中道（<foreign xml:lang="sa">madhyamā-pratipad</foreign>）緣起，
-<lb n="0128a15" ed="Y"/>貫通大乘空義，寫出最著名的一偈，如<bibl><title level="m">《中論》</title><biblScope type="卷" n="4">卷四</biblScope></bibl><note place="inline">大正<ref target="#vol:30;page:p33b" type="taisho">三〇．三三中</ref></note>說：</p>
+<lb n="0128a15" ed="Y"/>貫通大乘空義，寫出最著名的一偈，如<bibl><title level="m">《中論》</title><biblScope n="4" type="卷">卷四</biblScope></bibl><note place="inline">大正<ref target="#vol:30;page:p33b" type="taisho">三〇．三三中</ref></note>說：</p>
 <pb n="0129a" ed="Y" xml:id="Y34.0032.0129a"/>
-<lb n="0129a01" ed="Y"/><quote><p style="margin-left:3em">「眾因緣生法，我說即是無<note place="inline">空</note>，亦為是假名，亦是中道義」。</p></quote>
-<lb n="0129a02" ed="Y"/><p style="text-indent:2em"><quote>「眾因緣生法」</quote>，是緣起法的異譯。第二句，依梵本是<quote>「我等說是空性」</quote>。緣起與空性的統
+<lb n="0129a01" ed="Y"/><quote><p xml:id="pY34p0129a0101" style="margin-left:3em">「眾因緣生法，我說即是無<note place="inline">空</note>，亦為是假名，亦是中道義」。</p></quote>
+<lb n="0129a02" ed="Y"/><p xml:id="pY34p0129a0201" style="text-indent:2em"><quote>「眾因緣生法」</quote>，是緣起法的異譯。第二句，依梵本是<quote>「我等說是空性」</quote>。緣起與空性的統
 <lb n="0129a03" ed="Y"/>一，可見當時的經文及大乘行者，已有這種見解，龍樹不過是論述得更精密更完成而已。緣起與
 <lb n="0129a04" ed="Y"/>空性，不是對立的，緣起就是空性，空性就是緣起。從依緣而起說，名為緣起；從現起而本性空
 <lb n="0129a05" ed="Y"/>說，名為空性。出發於緣起或空性的經典，所說各有所重，而實際是同一的；說得不同，只是應
 <lb n="0129a06" ed="Y"/>機的方便。龍樹是大乘行者，所以依空性成立一切，如<cit><bibl><title level="m">《中論》</title>說：</bibl><quote>「以有空義故，一切法得成
-<lb n="0129a07" ed="Y"/>，若無空義者，一切則不成」</quote><note n="0129010" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope type="卷" n="4">卷四</biblScope></bibl>（大正<ref type="taisho" target="#vol:30;page:p33a">三〇．三三上</ref>）。</note></cit>。<cit><bibl><title level="m">《迴諍論》</title>說：</bibl><quote>「若人信於空，彼人信一切；若人不信空，彼
+<lb n="0129a07" ed="Y"/>，若無空義者，一切則不成」</quote><note n="0129010" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref target="#vol:30;page:p33a" type="taisho">三〇．三三上</ref>）。</note></cit>。<cit><bibl><title level="m">《迴諍論》</title>說：</bibl><quote>「若人信於空，彼人信一切；若人不信空，彼
 <lb n="0129a08" ed="Y"/>不信一切」</quote><note n="0129011" resp="釋印順" type="orig"><title level="m">《迴諍論》</title>（大正<ref target="#vol:32;page:p15a" type="taisho">三二．一五上</ref>）。</note></cit>。空，是成立世出世間一切法的法則。大乘經說空性，大都是：<quote>「空中無色，……
 <lb n="0129a09" ed="Y"/>無智亦無得」</quote>。一切無所得，一切不可安立，一切法空而隨順世俗說有，不免引起誤解：真實義
 <lb n="0129a10" ed="Y"/>並沒有善惡因果，說善惡因果，只是化導愚人的方便。說空而有輕視或破壞世俗事的傾向，問題
-<lb n="0129a11" ed="Y"/>就在這<note n="0129a1101" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0129a1101"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>。所以龍樹重空性，而說緣起與空性，不但不是對立，而且是相成的。<title level="m">《般若經》</title>廣說
+<lb n="0129a11" ed="Y"/>就在這<note n="0129a1101" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0129a1101"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>。所以龍樹重空性，而說緣起與空性，不但不是對立，而且是相成的。<title level="m">《般若經》</title>廣說
 <lb n="0129a12" ed="Y"/>空，重在勝義，但空也有虛妄不實的意義，龍樹著重這點，專依無自性（<foreign xml:lang="sa">niḥsvabhāva</foreign>）明空性
 <lb n="0129a13" ed="Y"/>。為什麼一切法空？因為一切法是沒有自性的。為什麼無自性？因為是緣起有的。<title level="m">《中論》</title>貫徹
 <lb n="0129a14" ed="Y"/>了有自性就不是緣起，緣起就沒有自性的原則，如說：<quote>「如諸法自性，不在於緣中」</quote>；<quote>「眾緣中
-<lb n="0129a15" ed="Y"/>有（自）性，是事則不然」</quote><note n="0129012" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:30;page:p2b">三〇．二中</ref>）。卷三（大正<ref type="taisho" target="#vol:30;page:p19c">三〇．一九下</ref>）。</note>。這樣，緣起是無自性的，無自性所以是空的；空無自性，所以從
+<lb n="0129a15" ed="Y"/>有（自）性，是事則不然」</quote><note n="0129012" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:30;page:p2b" type="taisho">三〇．二中</ref>）。卷三（大正<ref target="#vol:30;page:p19c" type="taisho">三〇．一九下</ref>）。</note>。這樣，緣起是無自性的，無自性所以是空的；空無自性，所以從
 <pb n="0130a" ed="Y" xml:id="Y34.0032.0130a"/>
-<lb n="0130a01" ed="Y"/>緣起，明確的說明了緣起與空性的統一，如<title level="m">《迴諍論》</title><note n="0130013" resp="釋印順" type="orig"><bibl><title level="m">《菩提道次第廣論》</title><biblScope type="卷" n="17">卷一七</biblScope>引文（漢院刊本三三上）</bibl>。舊譯<title level="m">《迴諍論》</title>（大正<ref target="#vol:32;page:p18a" type="taisho">三二．一八上</ref>）。</note>說：</p>
-<lb n="0130a02" ed="Y"/><p style="margin-left:3em"><quote>「若法依緣起，即說彼為空；若法依緣起，即說無自性」</quote><note place="inline">頌</note>。</p>
-<lb n="0130a03" ed="Y"/><quote><p style="margin-left:3em">「諸緣起法即是空性。何以故？是無自性故。諸緣起法其性非有，無自性故。……無自性
+<lb n="0130a01" ed="Y"/>緣起，明確的說明了緣起與空性的統一，如<title level="m">《迴諍論》</title><note n="0130013" resp="釋印順" type="orig"><bibl><title level="m">《菩提道次第廣論》</title><biblScope n="17" type="卷">卷一七</biblScope>引文（漢院刊本三三上）</bibl>。舊譯<title level="m">《迴諍論》</title>（大正<ref target="#vol:32;page:p18a" type="taisho">三二．一八上</ref>）。</note>說：</p>
+<lb n="0130a02" ed="Y"/><p xml:id="pY34p0130a0201" style="margin-left:3em"><quote>「若法依緣起，即說彼為空；若法依緣起，即說無自性」</quote><note place="inline">頌</note>。</p>
+<lb n="0130a03" ed="Y"/><quote><p xml:id="pY34p0130a0301" style="margin-left:3em">「諸緣起法即是空性。何以故？是無自性故。諸緣起法其性非有，無自性故。……無自性
 <lb n="0130a04" ed="Y"/>故說為空」。</p></quote>
-<lb n="0130a05" ed="Y"/><p style="text-indent:2em">緣起與空性的統一，關鍵在沒有自性。緣起是無自性的、空的，所以可依緣起而契會空性。
+<lb n="0130a05" ed="Y"/><p xml:id="pY34p0130a0501" style="text-indent:2em">緣起與空性的統一，關鍵在沒有自性。緣起是無自性的、空的，所以可依緣起而契會空性。
 <lb n="0130a06" ed="Y"/>空性是無自性的，所以依空而緣起一切。緣起即空，也就是<quote>「世間即涅槃」</quote>了。</p>
-<lb n="0130a07" ed="Y"/><p style="text-indent:2em"><quote>「眾因緣生法，我說即是空，亦為是假名，亦是中道義」</quote>，偈中所說的<quote>「亦為是假名」</quote>，「
+<lb n="0130a07" ed="Y"/><p xml:id="pY34p0130a0701" style="text-indent:2em"><quote>「眾因緣生法，我說即是空，亦為是假名，亦是中道義」</quote>，偈中所說的<quote>「亦為是假名」</quote>，「
 <lb n="0130a08" ed="Y"/>論」意是：空性也是假名的。如<cit><bibl><title level="m">《智度論》</title>說：</bibl><quote>「畢竟空但為破著心故說，非是實空」</quote></cit>；<quote>「畢竟
-<lb n="0130a09" ed="Y"/>空亦空」</quote><note n="0130014" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="63" type="卷">卷六三</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p508c">二五．五〇八下</ref>）。卷三一（大正<ref type="taisho" target="#vol:25;page:p290a">二五．二九〇上</ref>）。</note>。空性是假名說，緣起也是假名說的。<title level="m">《般若經》</title>初，以一切但有名字——唯名
+<lb n="0130a09" ed="Y"/>空亦空」</quote><note n="0130014" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="63" type="卷">卷六三</biblScope></bibl>（大正<ref target="#vol:25;page:p508c" type="taisho">二五．五〇八下</ref>）。卷三一（大正<ref target="#vol:25;page:p290a" type="taisho">二五．二九〇上</ref>）。</note>。空性是假名說，緣起也是假名說的。<title level="m">《般若經》</title>初，以一切但有名字——唯名
 <lb n="0130a10" ed="Y"/>（<foreign xml:lang="sa">nāmamātratā</foreign>），說菩薩、般若波羅蜜不可得。假名——波羅聶提（<foreign xml:lang="sa">prajñapti</foreign>），或譯施設，
 <lb n="0130a11" ed="Y"/>假施設。<title level="m">《大品般若》</title>立三種假：法假（<foreign xml:lang="sa">dharma-prajñapti</foreign>）、受假（<foreign xml:lang="sa">upādāya-prajñapti</foreign>）、
 <lb n="0130a12" ed="Y"/>名假（<foreign xml:lang="sa">nāma-prajñapti</foreign>）。法假，如蘊、處、界等法（或類別七十五法，或百法）。受假，如五
-<lb n="0130a13" ed="Y"/>蘊和合為眾生，是依眾緣和合而有的。名假，是世俗共許的名字<note n="0130015" resp="釋印順" type="orig"><bibl><title level="m">《摩訶般若波羅蜜經》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:8;page:p231a" type="taisho">八．二三一上</ref>）。<bibl><title level="m">《大智度論》</title><biblScope n="41" type="卷">卷四一</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p358b">二五．三五八中</ref>——下）。</note>。這一切，都是假名的。<cit><bibl><title level="m">《中
-<lb n="0130a14" ed="Y"/>論》</title>的</bibl><quote>「空則不可說，非空不可說，共不共叵說，但以假名說」</quote><note n="0130016" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope type="卷" n="4">卷四</biblScope></bibl>（大正<ref type="taisho" target="#vol:30;page:p30b">三〇．三〇中</ref>）。</note></cit>的假名，正是 <foreign xml:lang="sa">prajñapti</foreign> 的對
-<lb n="0130a15" ed="Y"/>譯。然<quote>「亦為是假名」</quote>的假名，原語為 <foreign xml:lang="sa"><note n="0130a1501" resp="CBETA" type="add">prajñapti upādāya【CB】，prajñapti-upādāya【印順】</note><app n="0130a1501"><lem wit="【CB】" resp="正聞出版社">prajñapti upādāya</lem><rdg wit="【印順】">prajñapti-upādāya</rdg></app></foreign>，正是三假中的受假（或譯為取施設
+<lb n="0130a13" ed="Y"/>蘊和合為眾生，是依眾緣和合而有的。名假，是世俗共許的名字<note n="0130015" resp="釋印順" type="orig"><bibl><title level="m">《摩訶般若波羅蜜經》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:8;page:p231a" type="taisho">八．二三一上</ref>）。<bibl><title level="m">《大智度論》</title><biblScope n="41" type="卷">卷四一</biblScope></bibl>（大正<ref target="#vol:25;page:p358b" type="taisho">二五．三五八中</ref>——下）。</note>。這一切，都是假名的。<cit><bibl><title level="m">《中
+<lb n="0130a14" ed="Y"/>論》</title>的</bibl><quote>「空則不可說，非空不可說，共不共叵說，但以假名說」</quote><note n="0130016" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref target="#vol:30;page:p30b" type="taisho">三〇．三〇中</ref>）。</note></cit>的假名，正是 <foreign xml:lang="sa">prajñapti</foreign> 的對
+<lb n="0130a15" ed="Y"/>譯。然<quote>「亦為是假名」</quote>的假名，原語為 <foreign xml:lang="sa"><note n="0130a1501" resp="CBETA" type="add">prajñapti upādāya【CB】，prajñapti-upādāya【印順】</note><app n="0130a1501"><lem resp="正聞出版社" wit="【CB】">prajñapti upādāya</lem><rdg wit="【印順】">prajñapti-upādāya</rdg></app></foreign>，正是三假中的受假（或譯為取施設
 <pb n="0131a" ed="Y" xml:id="Y34.0032.0131a"/>
 <lb n="0131a01" ed="Y"/>、因施設）。龍樹說<quote>「亦為是假名」</quote>，在三種假中，特取「受假」，這不致為一般誤解為「有法
 <lb n="0131a02" ed="Y"/>施設」，也不同於空華，龜毛等名假。<quote>「亦為是假名」</quote>的假名，是不常不斷、不一不異等緣起，
-<lb n="0131a03" ed="Y"/>沒有實性而有緣起用，如<title level="m">《空之探究》</title>中廣說<note n="0131017" resp="釋印順" type="orig">拙作<bibl><title level="m">《空之探究》</title><biblScope type="chap" n="4">第四章</biblScope></bibl>（<ref target="#vol:38;page:p233" type="yinshun">二三三</ref>——二四一）。</note>。<title level="m">《般若經》</title>說空性，說一切但有名字——唯名
+<lb n="0131a03" ed="Y"/>沒有實性而有緣起用，如<title level="m">《空之探究》</title>中廣說<note n="0131017" resp="釋印順" type="orig">拙作<bibl><title level="m">《空之探究》</title><biblScope n="4" type="chap">第四章</biblScope></bibl>（<ref target="#vol:38;page:p233" type="yinshun">二三三</ref>——二四一）。</note>。<title level="m">《般若經》</title>說空性，說一切但有名字——唯名
 <lb n="0131a04" ed="Y"/>；龍樹依中道的緣起說，闡揚大乘的（無自）性空與但有假名。一切依於空性，依性空而成立一
 <lb n="0131a05" ed="Y"/>切；依空而有的一切，但有假名（受假），所以我稱之為「性空唯名論」。</p>
-<lb n="0131a06" ed="Y"/><p style="text-indent:2em">龍樹以無自性義，成立緣起即空，空即緣起，也就貫通了「佛法」（大乘稱之為「聲聞法」
+<lb n="0131a06" ed="Y"/><p xml:id="pY34p0131a0601" style="text-indent:2em">龍樹以無自性義，成立緣起即空，空即緣起，也就貫通了「佛法」（大乘稱之為「聲聞法」
 <lb n="0131a07" ed="Y"/>）與「大乘佛法」的對立。如「佛法」說三法印——<quote>「諸行無常」</quote>，<quote>「諸法無我」</quote>，<quote>「涅槃寂靜
 <lb n="0131a08" ed="Y"/>」</quote>；而大乘說一實相印，即一切法本空、本不生、本來寂滅。知一切行無常（<foreign xml:lang="sa">anityatā</foreign>），無常
 <lb n="0131a09" ed="Y"/>故苦（<foreign xml:lang="sa">duḥkha</foreign>），苦故無我我所（<foreign xml:lang="sa">nir-ātman-mamakāra</foreign>），以無我我所執而得涅槃（<foreign xml:lang="sa">nirvāṇa</foreign>），
 <lb n="0131a10" ed="Y"/>是<title level="m">《阿含經》</title>的一致意見。「大乘佛法」依據一切法本不生的見地，竟說：<quote>「色是無常，……受
 <lb n="0131a11" ed="Y"/>想行識是無常，……是名說相似般若波羅蜜」</quote>。應該說：<quote>「不壞色故觀色無常，不壞受想行識故觀
-<lb n="0131a12" ed="Y"/>識（等）無常」</quote><note n="0131018" resp="釋印順" type="orig"><bibl><title level="m">《小品般若波羅蜜經》</title><biblScope type="卷" n="3">卷三</biblScope></bibl>（大正<ref target="#vol:8;page:p546c" type="taisho">八．五四六下</ref>）。</note>。不壞，是沒有變易的。不壞色等觀無常，也就是<cit><bibl><title level="m">《維摩詰經》</title>所說：</bibl><quote>「不生
-<lb n="0131a13" ed="Y"/>不滅是無常義」</quote><note n="0131019" resp="釋印順" type="orig"><bibl><title level="m">《維摩詰所說經》</title><biblScope type="卷" n="上">卷上</biblScope></bibl>（大正<ref type="taisho" target="#vol:14;page:p541a">一四．五四一上</ref>）。</note></cit>。不生不滅，怎麼說是無常呢？<bibl><title level="m">《大智度論》</title><biblScope type="卷" n="22">卷二二</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:25;page:p222b">二五．二二二中</ref>——下、
+<lb n="0131a12" ed="Y"/>識（等）無常」</quote><note n="0131018" resp="釋印順" type="orig"><bibl><title level="m">《小品般若波羅蜜經》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref target="#vol:8;page:p546c" type="taisho">八．五四六下</ref>）。</note>。不壞，是沒有變易的。不壞色等觀無常，也就是<cit><bibl><title level="m">《維摩詰經》</title>所說：</bibl><quote>「不生
+<lb n="0131a13" ed="Y"/>不滅是無常義」</quote><note n="0131019" resp="釋印順" type="orig"><bibl><title level="m">《維摩詰所說經》</title><biblScope n="上" type="卷">卷上</biblScope></bibl>（大正<ref target="#vol:14;page:p541a" type="taisho">一四．五四一上</ref>）。</note></cit>。不生不滅，怎麼說是無常呢？<bibl><title level="m">《大智度論》</title><biblScope n="22" type="卷">卷二二</biblScope></bibl><note place="inline">大正<ref target="#vol:25;page:p222b" type="taisho">二五．二二二中</ref>——下、
 <lb n="0131a14" ed="Y"/>二二三中</note>說：</p>
-<lb n="0131a15" ed="Y"/><quote><p style="margin-left:3em">「問曰：摩訶衍<note place="inline">大乘</note>中說諸法不生不滅，一相所謂無相，此中云何說一切有為作法無常，
+<lb n="0131a15" ed="Y"/><quote><p xml:id="pY34p0131a1501" style="margin-left:3em">「問曰：摩訶衍<note place="inline">大乘</note>中說諸法不生不滅，一相所謂無相，此中云何說一切有為作法無常，
 <pb n="0132a" ed="Y" xml:id="Y34.0032.0132a"/>
 <lb n="0132a01" ed="Y"/>名為法印？二法云何不相違？答曰：觀無常即是觀空因緣，如觀色念念無常，即知為空。
 <lb n="0132a02" ed="Y"/>……空即是無生無滅；無生無滅及生滅，其實是一，說有廣略」。</p></quote>
-<lb n="0132a03" ed="Y"/><quote><p style="margin-left:3em">「摩訶衍中有一實，今何以說三實（法印）？答曰……有為法無常，念念生滅故皆屬因
+<lb n="0132a03" ed="Y"/><quote><p xml:id="pY34p0132a0301" style="margin-left:3em">「摩訶衍中有一實，今何以說三實（法印）？答曰……有為法無常，念念生滅故皆屬因
 <lb n="0132a04" ed="Y"/>緣，無有自在，無有自在故無我。無常無我無相故心不著，無相不著故即是寂滅涅槃。以
 <lb n="0132a05" ed="Y"/>是故，摩訶衍法中。雖說一切法不生不滅，一相所謂無相，（其實）無相即寂滅涅槃」。</p></quote>
-<lb n="0132a06" ed="Y"/><p style="text-indent:2em">無常是念念生滅的，涅槃是不生不滅，一般每以此而看作不相同的二法。然「佛法」以無常
+<lb n="0132a06" ed="Y"/><p xml:id="pY34p0132a0601" style="text-indent:2em">無常是念念生滅的，涅槃是不生不滅，一般每以此而看作不相同的二法。然「佛法」以無常
 <lb n="0132a07" ed="Y"/>（苦）故無我我所，以無我我所能契入涅槃。無我我所是空義，龍樹以空（即無我我所）為中心
 <lb n="0132a08" ed="Y"/>，無常故空；空即無相涅槃。以空貫通了生滅與無生滅，而有<quote>「無生無滅及生滅，其實是一」</quote>的
 <lb n="0132a09" ed="Y"/>結論。無我我所是空義，然「佛法」並沒有說一切法空，不生不滅！對於這，龍樹也有良好的通
-<lb n="0132a10" ed="Y"/>釋，如<cit><bibl><title level="m">《智度論》</title>說：</bibl><quote>「聲聞乘多說眾生空，佛乘說眾生空、法空」</quote><note n="0132020" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="4">卷四</biblScope></bibl>（大正<ref target="#vol:25;page:p85b" type="taisho">二五．八五中</ref>）。</note></cit>。「佛法」並不是不說法
-<lb n="0132a11" ed="Y"/>空，如<title level="m">《智度論》</title>所說，三種法門中的「空門」<note n="0132021" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="18" type="卷">卷一八</biblScope></bibl>（大正<ref target="#vol:25;page:p192c" type="taisho">二五．一九二下</ref>——<ref type="taisho" target="#vol:25;page:p193b">一九三中</ref>）。</note>。「佛法」只是<quote>「多說眾生空」</quote>而已，如<bibl><title level="m">《大
-<lb n="0132a12" ed="Y"/>智度論》</title><biblScope type="卷" n="26">卷二六</biblScope></bibl><note place="inline">大正<ref target="#vol:25;page:p254a" type="taisho">二五．二五四上</ref></note>說：</p>
-<lb n="0132a13" ed="Y"/><quote><p style="margin-left:3em">「不大利根眾生，為說無我；利根深智眾生，說諸法本末空。何以故？若無我則捨諸法」
+<lb n="0132a10" ed="Y"/>釋，如<cit><bibl><title level="m">《智度論》</title>說：</bibl><quote>「聲聞乘多說眾生空，佛乘說眾生空、法空」</quote><note n="0132020" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref target="#vol:25;page:p85b" type="taisho">二五．八五中</ref>）。</note></cit>。「佛法」並不是不說法
+<lb n="0132a11" ed="Y"/>空，如<title level="m">《智度論》</title>所說，三種法門中的「空門」<note n="0132021" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="18" type="卷">卷一八</biblScope></bibl>（大正<ref target="#vol:25;page:p192c" type="taisho">二五．一九二下</ref>——<ref target="#vol:25;page:p193b" type="taisho">一九三中</ref>）。</note>。「佛法」只是<quote>「多說眾生空」</quote>而已，如<bibl><title level="m">《大
+<lb n="0132a12" ed="Y"/>智度論》</title><biblScope n="26" type="卷">卷二六</biblScope></bibl><note place="inline">大正<ref target="#vol:25;page:p254a" type="taisho">二五．二五四上</ref></note>說：</p>
+<lb n="0132a13" ed="Y"/><quote><p xml:id="pY34p0132a1301" style="margin-left:3em">「不大利根眾生，為說無我；利根深智眾生，說諸法本末空。何以故？若無我則捨諸法」
 <lb n="0132a14" ed="Y"/>。</p></quote>
-<lb n="0132a15" ed="Y"/><quote><p style="margin-left:3em">「佛法二種說：若了了說，則言一切諸法空；若方便說，則言無我」。</p></quote>
+<lb n="0132a15" ed="Y"/><quote><p xml:id="pY34p0132a1501" style="margin-left:3em">「佛法二種說：若了了說，則言一切諸法空；若方便說，則言無我」。</p></quote>
 <pb n="0133a" ed="Y" xml:id="Y34.0032.0133a"/>
-<lb n="0133a01" ed="Y"/><p style="text-indent:2em">依龍樹論意，說無我，說一切法空，只是應機不同；說得含渾些，說得徹底些。所以「佛法
+<lb n="0133a01" ed="Y"/><p xml:id="pY34p0133a0101" style="text-indent:2em">依龍樹論意，說無我，說一切法空，只是應機不同；說得含渾些，說得徹底些。所以「佛法
 <lb n="0133a02" ed="Y"/>」說無我，「大乘佛法」說一切法空，是相通而不相礙的。修行者從觀法而契入實相，<cit><bibl><title level="m">《中論》</title>
 <lb n="0133a03" ed="Y"/>的<title level="a">〈觀法品〉</title>，是觀五蘊無我入門的，如說：</bibl><quote>「若無有我者，何得有我所？滅我我所故，名得無
-<lb n="0133a04" ed="Y"/>我智。……諸法實相者，心行言語斷，無生亦無滅，寂滅如涅槃」</quote><note n="0133022" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope type="卷" n="3">卷三</biblScope></bibl>（大正<ref target="#vol:30;page:p23c" type="taisho">三〇．二三下</ref>——<ref target="#vol:30;page:p24a" type="taisho">二四上</ref>）。</note></cit>。可見佛法本來不二，隨機
+<lb n="0133a04" ed="Y"/>我智。……諸法實相者，心行言語斷，無生亦無滅，寂滅如涅槃」</quote><note n="0133022" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope n="3" type="卷">卷三</biblScope></bibl>（大正<ref target="#vol:30;page:p23c" type="taisho">三〇．二三下</ref>——<ref target="#vol:30;page:p24a" type="taisho">二四上</ref>）。</note></cit>。可見佛法本來不二，隨機
 <lb n="0133a05" ed="Y"/>而方便不同，真正的解脫門是沒有別異的。</p>
-<lb n="0133a06" ed="Y"/><p style="text-indent:2em">大乘經說一切法空，一切不可得，對於根性鈍的，或沒有善知識引導的，可能會引起誤解，
+<lb n="0133a06" ed="Y"/><p xml:id="pY34p0133a0601" style="text-indent:2em">大乘經說一切法空，一切不可得，對於根性鈍的，或沒有善知識引導的，可能會引起誤解，
 <lb n="0133a07" ed="Y"/>從<title level="m">《慧印三昧經》</title>等，可見<title level="m">《般若經》</title>等，已引起不重正行的流弊。同時，外道也有觀空的，所
-<lb n="0133a08" ed="Y"/>以龍樹論一再辨別，主要是二諦說：<quote>「若不依俗諦，不得第一義」</quote><note n="0133023" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope type="卷" n="4">卷四</biblScope></bibl>（大正<ref target="#vol:30;page:p33a" type="taisho">三〇．三三上</ref>）。</note>。眾生生活在世俗中，沒有
+<lb n="0133a08" ed="Y"/>以龍樹論一再辨別，主要是二諦說：<quote>「若不依俗諦，不得第一義」</quote><note n="0133023" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref target="#vol:30;page:p33a" type="taisho">三〇．三三上</ref>）。</note>。眾生生活在世俗中，沒有
 <lb n="0133a09" ed="Y"/>世俗諦的名、相、分別，不可能契入第一義空；不依世俗諦的善行，怎麼能趣向甚深空義？如<cit><bibl><title level="m">《
 <lb n="0133a10" ed="Y"/>大智度論》</title>說：</bibl><quote>「觀真空人，先有無量布施、持戒、禪定，其心柔軟，諸結使薄，然後得真空」</quote></cit>
-<lb n="0133a11" ed="Y"/>；<quote>「不行諸功德，但欲得空，是為邪見」</quote><note n="0133024" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="18">卷一八</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p194a">二五．一九四上</ref>）。</note>。所以雖一切法空平等，沒有染淨可得，而眾生不了
+<lb n="0133a11" ed="Y"/>；<quote>「不行諸功德，但欲得空，是為邪見」</quote><note n="0133024" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="18" type="卷">卷一八</biblScope></bibl>（大正<ref target="#vol:25;page:p194a" type="taisho">二五．一九四上</ref>）。</note>。所以雖一切法空平等，沒有染淨可得，而眾生不了
 <lb n="0133a12" ed="Y"/>，要依世俗的正見、善行，才能深入。<cit><bibl><title level="m">《金剛般若經》</title>也說：</bibl><quote>「是法平等，無有高下，是名阿耨
-<lb n="0133a13" ed="Y"/>多羅三藐三菩提。以無我、無人、無眾生、無壽者，修一切善法，則得阿耨多羅三藐三菩提」</quote><note n="0133025" resp="釋印順" type="orig"><title level="m">《金剛般若波羅蜜經》</title>（大正<ref type="taisho" target="#vol:8;page:p751c">八．七五一下</ref>）。</note></cit>
+<lb n="0133a13" ed="Y"/>多羅三藐三菩提。以無我、無人、無眾生、無壽者，修一切善法，則得阿耨多羅三藐三菩提」</quote><note n="0133025" resp="釋印順" type="orig"><title level="m">《金剛般若波羅蜜經》</title>（大正<ref target="#vol:8;page:p751c" type="taisho">八．七五一下</ref>）。</note></cit>
 <lb n="0133a14" ed="Y"/>。要知道，空性即緣起，也就是不離如幻（<foreign xml:lang="sa">māyā</foreign>）、如化（<foreign xml:lang="sa">nirmita</foreign>）的因果。如<title level="m">《論》</title>說：<quote>「
-<lb n="0133a15" ed="Y"/>若無常、空相，則不可取，如幻如化，是名為空」</quote><note n="0133026" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="31">卷三一</biblScope></bibl>（大正<ref target="#vol:25;page:p290c" type="taisho">二五．二九〇下</ref>）。</note>。空是如幻如化的，幻化等譬喻，是<quote>「以易
+<lb n="0133a15" ed="Y"/>若無常、空相，則不可取，如幻如化，是名為空」</quote><note n="0133026" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="31" type="卷">卷三一</biblScope></bibl>（大正<ref target="#vol:25;page:p290c" type="taisho">二五．二九〇下</ref>）。</note>。空是如幻如化的，幻化等譬喻，是<quote>「以易
 <pb n="0134a" ed="Y" xml:id="Y34.0032.0134a"/>
 <lb n="0134a01" ed="Y"/>解空，喻難解空」</quote>；<quote>「十喻為解空法故」</quote><note n="0134027" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="6" type="卷">卷六</biblScope></bibl>（大正<ref target="#vol:25;page:p105c" type="taisho">二五．一〇五下</ref>）。卷六（大正<ref target="#vol:25;page:p101c" type="taisho">二五．一〇一下</ref>）。</note>。一切法空，一切是如幻如化的：<quote>「如幻化象馬及種
 <lb n="0134a02" ed="Y"/>種諸物，雖知無實，然色可見、聲可聞，與六情<note place="inline">根</note>相對，不相錯亂。諸法亦如是，雖空而可見可
-<lb n="0134a03" ed="Y"/>聞，不相錯亂」</quote><note n="0134028" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="6" type="卷">卷六</biblScope></bibl>（大正<ref target="#vol:25;page:p101c" type="taisho">二五．一〇一下</ref>）。</note>。所以，<quote>「大聖說空法，為離諸見故」</quote><note n="0134029" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref type="taisho" target="#vol:30;page:p18c">三〇．一八下</ref>）。</note>。為離情執而勝解一切法空不可得，
+<lb n="0134a03" ed="Y"/>聞，不相錯亂」</quote><note n="0134028" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="6" type="卷">卷六</biblScope></bibl>（大正<ref target="#vol:25;page:p101c" type="taisho">二五．一〇一下</ref>）。</note>。所以，<quote>「大聖說空法，為離諸見故」</quote><note n="0134029" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:30;page:p18c" type="taisho">三〇．一八下</ref>）。</note>。為離情執而勝解一切法空不可得，
 <lb n="0134a04" ed="Y"/>不是否定一切善惡邪正；善行、正行，是與第一義空相順而能趣入的。即使徹悟無生的菩薩，也
 <lb n="0134a05" ed="Y"/>修度化眾生，莊嚴佛土的善行，決不如中國所傳的野狐禪，<quote>「大修行人不落因果」</quote>。龍樹「性空
-<lb n="0134a06" ed="Y"/>唯名」的正確解行，是學佛者良好的指南<note n="0134030" resp="釋印順" type="orig">本節參閱拙作<bibl><title level="m">《空之探究》</title><biblScope type="chap" n="4">第四章</biblScope></bibl>（<ref target="#vol:38;page:p201" type="yinshun">二〇一</ref>——二六五）。</note>！</p>
-<lb n="0134a07" ed="Y"/><p style="text-indent:2em">龍樹的時代，部派紛諍，而「佛法」與「大乘佛法」，又處於嚴重的對抗局面。所以龍樹論
+<lb n="0134a06" ed="Y"/>唯名」的正確解行，是學佛者良好的指南<note n="0134030" resp="釋印順" type="orig">本節參閱拙作<bibl><title level="m">《空之探究》</title><biblScope n="4" type="chap">第四章</biblScope></bibl>（<ref target="#vol:38;page:p201" type="yinshun">二〇一</ref>——二六五）。</note>！</p>
+<lb n="0134a07" ed="Y"/><p xml:id="pY34p0134a0701" style="text-indent:2em">龍樹的時代，部派紛諍，而「佛法」與「大乘佛法」，又處於嚴重的對抗局面。所以龍樹論
 <lb n="0134a08" ed="Y"/>的特色，是確立不二的中道，能適應多方，兼容並蓄。龍樹<title level="m">《中論》</title>的中道，是八不的緣起說。
 <lb n="0134a09" ed="Y"/>不斷不常，不一不異，不來不出，<title level="m">《阿含經》</title>是約中道緣起說的；不生不滅，<title level="m">《阿含經》</title>是約涅
 <lb n="0134a10" ed="Y"/>槃說的。緣起的定律是：依緣而有的，也依緣而無。在依緣而有的一切法中，直顯依緣而無的本
@@ -327,132 +347,132 @@
 <lb n="0135a08" ed="Y"/>涅槃。<title level="m">《般若經》</title>說：一切法如幻如化，涅槃也如幻如化。一切是不離即空的緣起，也就不離即
 <lb n="0135a09" ed="Y"/>緣起的空寂。古代三論宗說：龍樹<quote>「破邪即顯正」</quote>，是約深觀的契悟說。如約依空而能成立一切
 <lb n="0135a10" ed="Y"/>法說，那就不能這樣的泛泛而說了！</p>
-<lb n="0135a11" ed="Y"/><p style="text-indent:2em">龍樹會通了<title level="m">《般若經》</title>的性空、但名，<title level="m">《阿含經》</title>的中道、緣起，也就貫通了「大乘佛法」
+<lb n="0135a11" ed="Y"/><p xml:id="pY34p0135a1101" style="text-indent:2em">龍樹會通了<title level="m">《般若經》</title>的性空、但名，<title level="m">《阿含經》</title>的中道、緣起，也就貫通了「大乘佛法」
 <lb n="0135a12" ed="Y"/>與「佛法」，互不相礙。一切法義的成立，不是為了論議，論議是可破的，惟有修行以契入實相
-<lb n="0135a13" ed="Y"/>——第一義，才是龍樹論意的所在。大乘的修行，一切依般若（<foreign xml:lang="sa"><note n="0135a1301" resp="CBETA" type="add">Prajñā【CB】，prajñā【印順】</note><app n="0135a1301"><lem wit="【CB】" resp="正聞出版社">Prajñā</lem><rdg wit="【印順】">prajñā</rdg></app></foreign>）為導；然得無生法忍
+<lb n="0135a13" ed="Y"/>——第一義，才是龍樹論意的所在。大乘的修行，一切依般若（<foreign xml:lang="sa"><note n="0135a1301" resp="CBETA" type="add">Prajñā【CB】，prajñā【印順】</note><app n="0135a1301"><lem resp="正聞出版社" wit="【CB】">Prajñā</lem><rdg wit="【印順】">prajñā</rdg></app></foreign>）為導；然得無生法忍
 <lb n="0135a14" ed="Y"/>（<foreign xml:lang="sa">anutpattika-dharma-kṣānti</foreign>）菩薩，重於方便（<foreign xml:lang="x-sa-pi">upāya</foreign>），所以說：<quote>「菩薩道有二種：一者、般
-<lb n="0135a15" ed="Y"/>若波羅蜜道；二者、方便道」</quote><note n="0135032" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="100">卷一〇〇</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p754b">二五．七五四中</ref>——下）。</note>。這是依<title level="m">《般若經》</title>，先後有二<title level="a">〈囑累品〉</title>而說的。其實<quote>「方便
+<lb n="0135a15" ed="Y"/>若波羅蜜道；二者、方便道」</quote><note n="0135032" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="100" type="卷">卷一〇〇</biblScope></bibl>（大正<ref target="#vol:25;page:p754b" type="taisho">二五．七五四中</ref>——下）。</note>。這是依<title level="m">《般若經》</title>，先後有二<title level="a">〈囑累品〉</title>而說的。其實<quote>「方便
 <pb n="0136a" ed="Y" xml:id="Y34.0032.0136a"/>
-<lb n="0136a01" ed="Y"/>即是智慧<note place="inline">般若</note>，智慧淳淨故變名方便，教化眾生，淨佛世界」</quote><note n="0136033" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="46">卷四六</biblScope></bibl>（大正<ref target="#vol:25;page:p394c" type="taisho">二五．三九四下</ref>）。</note>。般若是體，方便是般若所起的
-<lb n="0136a02" ed="Y"/>利他巧用，如真金與真金所造的金飾一樣。<cit><bibl><title level="m">《般若經》</title>說</bibl><quote>「五種菩提」</quote></cit>（<foreign xml:lang="sa"><note n="0136a0201" resp="CBETA" type="add">pañcabodhi【CB】，pañca-bodhi【印順】</note><app n="0136a0201"><lem wit="【CB】" resp="正聞出版社">pañcabodhi</lem><rdg wit="【印順】">pañca-bodhi</rdg></app></foreign>），<title level="m">《智論
-<lb n="0136a03" ed="Y"/>》</title>解說為：一、發心菩提，二、伏心菩提，三、明心菩提，四、出到菩提，五、無上菩提<note n="0136034" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="53">卷五三</biblScope></bibl>（大正<ref target="#vol:25;page:p438a" type="taisho">二五．四三八上</ref>）。</note>。大
+<lb n="0136a01" ed="Y"/>即是智慧<note place="inline">般若</note>，智慧淳淨故變名方便，教化眾生，淨佛世界」</quote><note n="0136033" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="46" type="卷">卷四六</biblScope></bibl>（大正<ref target="#vol:25;page:p394c" type="taisho">二五．三九四下</ref>）。</note>。般若是體，方便是般若所起的
+<lb n="0136a02" ed="Y"/>利他巧用，如真金與真金所造的金飾一樣。<cit><bibl><title level="m">《般若經》</title>說</bibl><quote>「五種菩提」</quote></cit>（<foreign xml:lang="sa"><note n="0136a0201" resp="CBETA" type="add">pañcabodhi【CB】，pañca-bodhi【印順】</note><app n="0136a0201"><lem resp="正聞出版社" wit="【CB】">pañcabodhi</lem><rdg wit="【印順】">pañca-bodhi</rdg></app></foreign>），<title level="m">《智論
+<lb n="0136a03" ed="Y"/>》</title>解說為：一、發心菩提，二、伏心菩提，三、明心菩提，四、出到菩提，五、無上菩提<note n="0136034" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="53" type="卷">卷五三</biblScope></bibl>（大正<ref target="#vol:25;page:p438a" type="taisho">二五．四三八上</ref>）。</note>。大
 <lb n="0136a04" ed="Y"/>乘以成就阿耨多羅三藐三菩提——成佛為究竟，從初發心以來，無非是隨順，趣入菩提的進修，
 <lb n="0136a05" ed="Y"/>所以五菩提是從發心到成佛的歷程。天臺家的「六即佛」，就是依此（加「理即」）而成立的。
 <lb n="0136a06" ed="Y"/>然發心有二：初於生死中，聞佛功德，悲憫眾生而發願成佛；次知諸法如實相，得無生法忍，與
-<lb n="0136a07" ed="Y"/>無上菩提相應，名<quote>「真發心」</quote><note n="0136035" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="45">卷四五</biblScope></bibl>（大正<ref target="#vol:25;page:p383b" type="taisho">二五．三八三中</ref>）。</note>。初發心是發心菩提，明心菩提是真發心——勝義發心。二道、
+<lb n="0136a07" ed="Y"/>無上菩提相應，名<quote>「真發心」</quote><note n="0136035" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="45" type="卷">卷四五</biblScope></bibl>（大正<ref target="#vol:25;page:p383b" type="taisho">二五．三八三中</ref>）。</note>。初發心是發心菩提，明心菩提是真發心——勝義發心。二道、
 <lb n="0136a08" ed="Y"/>五菩提，說明了發心成佛的修行歷程。眾生的根性是不一致的，所以<quote>「菩薩以種種門入佛道：或
-<lb n="0136a09" ed="Y"/>從悲門，或從精進智慧門入」</quote><note n="0136036" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="40">卷四〇</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p350a">二五．三五〇上</ref>）。</note>。<quote>「或有勤行精進，或有以信方便，易行疾至阿惟越致」</quote>，這就
-<lb n="0136a10" ed="Y"/>是難行道與易行道<note n="0136037" resp="釋印順" type="orig"><bibl><title level="m">《十住毘婆沙論》</title><biblScope type="卷" n="5">卷五</biblScope></bibl>（大正<ref target="#vol:26;page:p41b" type="taisho">二六．四一中</ref>）。</note>。在般若法門的進修中，也有<quote>「智慧精進門入；……信及精進門入」</quote><note n="0136038" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="58">卷五八</biblScope></bibl>（大正<ref target="#vol:25;page:p472c" type="taisho">二五．四七二下</ref>）。</note>。重
+<lb n="0136a09" ed="Y"/>從悲門，或從精進智慧門入」</quote><note n="0136036" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="40" type="卷">卷四〇</biblScope></bibl>（大正<ref target="#vol:25;page:p350a" type="taisho">二五．三五〇上</ref>）。</note>。<quote>「或有勤行精進，或有以信方便，易行疾至阿惟越致」</quote>，這就
+<lb n="0136a10" ed="Y"/>是難行道與易行道<note n="0136037" resp="釋印順" type="orig"><bibl><title level="m">《十住毘婆沙論》</title><biblScope n="5" type="卷">卷五</biblScope></bibl>（大正<ref target="#vol:26;page:p41b" type="taisho">二六．四一中</ref>）。</note>。在般若法門的進修中，也有<quote>「智慧精進門入；……信及精進門入」</quote><note n="0136038" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="58" type="卷">卷五八</biblScope></bibl>（大正<ref target="#vol:25;page:p472c" type="taisho">二五．四七二下</ref>）。</note>。重
 <lb n="0136a11" ed="Y"/>於信願的，重於慈悲的，重於智慧的，眾生的根性不一，所以經中入佛道的方便也不一。菩薩的
 <lb n="0136a12" ed="Y"/>種種不同，如<title level="m">《般若經》</title>的<title level="a">〈往生品〉</title>說。發心到成佛，有遲緩與速疾的差別，<cit><bibl><title level="m">《智論》</title>說</bibl><quote>「乘
 <lb n="0136a13" ed="Y"/>羊而去」</quote></cit>，<quote>「乘馬而去」</quote>，<quote>「神通去」</quote>，是依<title level="m">《入必定不必定印經》</title>說的。成佛的遲速，由於發
 <lb n="0136a14" ed="Y"/>心以前，修習功德所成的根性不同<note n="0136039" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="38" type="卷">卷三八</biblScope></bibl>（大正<ref target="#vol:25;page:p342b" type="taisho">二五．三四二中</ref>——下）。</note>。<cit><bibl><title level="m">《十住毘婆沙論》</title>也說：</bibl><quote>「或有初發心時即入必定；或有
-<lb n="0136a15" ed="Y"/>漸修功德，如釋迦牟尼佛，初發心時不入必定，後修集功德，值燃燈佛，得入必定」</quote><note n="0136040" resp="釋印順" type="orig"><bibl><title level="m">《十住毘婆沙論》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref type="taisho" target="#vol:26;page:p24c">二六．二四下</ref>）。</note></cit>。初入的
+<lb n="0136a15" ed="Y"/>漸修功德，如釋迦牟尼佛，初發心時不入必定，後修集功德，值燃燈佛，得入必定」</quote><note n="0136040" resp="釋印順" type="orig"><bibl><title level="m">《十住毘婆沙論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:26;page:p24c" type="taisho">二六．二四下</ref>）。</note></cit>。初入的
 <pb n="0137a" ed="Y" xml:id="Y34.0032.0137a"/>
 <lb n="0137a01" ed="Y"/>方便不同，發心成佛的遲速不同，而實質上，都是通過菩薩行位（二道、五菩提）而到達究竟的
 <lb n="0137a02" ed="Y"/>。龍樹是論師，但也有經師隨機方便而貫通的特長，一切論議是與修持相關聯的；這所以成立緣
-<lb n="0137a03" ed="Y"/>起即空的中道，而又說<quote>「空則不可說」</quote>；<quote>「若復見有空，諸佛所不化」</quote><note n="0137041" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope type="卷" n="4">卷四</biblScope></bibl>（大正<ref type="taisho" target="#vol:30;page:p30b">三〇．三〇中</ref>）。卷二（大正<ref type="taisho" target="#vol:30;page:p18c">三〇．一八下</ref>）。</note>。</p>
-<lb n="0137a04" ed="Y"/><p style="text-indent:2em">龍樹依緣起與空性（涅槃）而明一貫的中道，那對於從「佛法」而分流出的部派，也就有了
+<lb n="0137a03" ed="Y"/>起即空的中道，而又說<quote>「空則不可說」</quote>；<quote>「若復見有空，諸佛所不化」</quote><note n="0137041" resp="釋印順" type="orig"><bibl><title level="m">《中論》</title><biblScope n="4" type="卷">卷四</biblScope></bibl>（大正<ref target="#vol:30;page:p30b" type="taisho">三〇．三〇中</ref>）。卷二（大正<ref target="#vol:30;page:p18c" type="taisho">三〇．一八下</ref>）。</note>。</p>
+<lb n="0137a04" ed="Y"/><p xml:id="pY34p0137a0401" style="text-indent:2em">龍樹依緣起與空性（涅槃）而明一貫的中道，那對於從「佛法」而分流出的部派，也就有了
 <lb n="0137a05" ed="Y"/>合理的處理。當時，部派佛教思想，趨於極端，如<quote>「佛法中方廣道人<note place="inline">比丘</note>言：一切法不生不滅，
-<lb n="0137a06" ed="Y"/>空無所有，譬如<note n="0137a0601" resp="CBETA" type="add" subtype="規範字詞">兔【CB】，兎【印順】</note><app n="0137a0601"><lem wit="【CB】" resp="CBETA">兔</lem><rdg wit="【印順】">兎</rdg></app>角、龜毛常無」</quote><note n="0137042" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="1">卷一</biblScope></bibl>（大正<ref target="#vol:25;page:p61a" type="taisho">二五．六一上</ref>——中）。</note>，這是極空而破壞了世俗。而<quote>「是聲聞人，著聲聞法，佛法
-<lb n="0137a07" ed="Y"/>過五百歲後，各各分別有五（百）部，……聞說（大乘）般若諸法畢竟空，如刀傷心」</quote><note n="0137043" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="63">卷六三</biblScope></bibl>（大正<ref target="#vol:25;page:p503c" type="taisho">二五．五〇三下</ref>）。</note>，這是
+<lb n="0137a06" ed="Y"/>空無所有，譬如<note n="0137a0601" resp="CBETA" type="add" subtype="規範字詞">兔【CB】，兎【印順】</note><app n="0137a0601"><lem resp="CBETA" wit="【CB】">兔</lem><rdg wit="【印順】">兎</rdg></app>角、龜毛常無」</quote><note n="0137042" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="1" type="卷">卷一</biblScope></bibl>（大正<ref target="#vol:25;page:p61a" type="taisho">二五．六一上</ref>——中）。</note>，這是極空而破壞了世俗。而<quote>「是聲聞人，著聲聞法，佛法
+<lb n="0137a07" ed="Y"/>過五百歲後，各各分別有五（百）部，……聞說（大乘）般若諸法畢竟空，如刀傷心」</quote><note n="0137043" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="63" type="卷">卷六三</biblScope></bibl>（大正<ref target="#vol:25;page:p503c" type="taisho">二五．五〇三下</ref>）。</note>，這是
 <lb n="0137a08" ed="Y"/>極有而不知勝義。部派的種種異見，龍樹統攝為<quote>「三門：一者、蜫勒門，二者、阿毘曇門，三者
-<lb n="0137a09" ed="Y"/>、空門」</quote>。蜫勒（<foreign xml:lang="x-sa-pi"><note n="0137a0901" resp="CBETA" type="add">karaṇḍa【CB】，kuraṇḍa【印順】</note><app n="0137a0901"><lem wit="【CB】" resp="正聞出版社">karaṇḍa</lem><rdg wit="【印順】">kuraṇḍa</rdg></app></foreign>），傳說是佛世大迦旃延（<foreign xml:lang="sa">Mahākātyāyana</foreign>）所造的，可譯名<title level="m">《藏論》</title>
+<lb n="0137a09" ed="Y"/>、空門」</quote>。蜫勒（<foreign xml:lang="x-sa-pi"><note n="0137a0901" resp="CBETA" type="add">karaṇḍa【CB】，kuraṇḍa【印順】</note><app n="0137a0901"><lem resp="正聞出版社" wit="【CB】">karaṇḍa</lem><rdg wit="【印順】">kuraṇḍa</rdg></app></foreign>），傳說是佛世大迦旃延（<foreign xml:lang="sa">Mahākātyāyana</foreign>）所造的，可譯名<title level="m">《藏論》</title>
 <lb n="0137a10" ed="Y"/>，是盛行於南天竺的論書。蜫勒論的特色是：<quote>「廣比諸事，以類相從」</quote>；<quote>「入蜫勒門，論議則無
 <lb n="0137a11" ed="Y"/>窮，其中有隨相門、對治門等種種諸門」</quote>；論議的都是佛說。阿毘曇（<foreign xml:lang="sa">abhidharma</foreign>），<quote>「或佛自
 <lb n="0137a12" ed="Y"/>說諸法義，或佛自說諸法名，諸弟子種種集述解其義」</quote>。說一切有部有<quote>「六足毘曇」</quote>；<title level="m">《發智經
 <lb n="0137a13" ed="Y"/>八犍度》</title>，及釋義的<title level="m">《大毘婆沙論》</title>。有<title level="m">《舍利弗阿毘曇》</title>，是<quote>「犢子道人等讀誦」</quote>的。現存漢
 <lb n="0137a14" ed="Y"/>譯的<title level="m">《舍利弗阿毘曇論》</title>，與雪山部（<foreign xml:lang="sa">Haimavata</foreign>），法藏部（<foreign xml:lang="sa">Dharmaguptaka</foreign>）的論書相近。
-<lb n="0137a15" ed="Y"/>赤銅鍱部（<foreign xml:lang="sa"><note n="0137a1501" resp="CBETA" type="add">Tāmraśāṭīya【CB】，Tāmraśātīya【印順】</note><app n="0137a1501"><lem wit="【CB】" resp="正聞出版社">Tāmraśāṭīya</lem><rdg wit="【印順】">Tāmraśātīya</rdg></app></foreign>）的七部阿毘曇，龍樹沒有說到，也許是孤傳海島，對印度大陸佛教的
+<lb n="0137a15" ed="Y"/>赤銅鍱部（<foreign xml:lang="sa"><note n="0137a1501" resp="CBETA" type="add">Tāmraśāṭīya【CB】，Tāmraśātīya【印順】</note><app n="0137a1501"><lem resp="正聞出版社" wit="【CB】">Tāmraśāṭīya</lem><rdg wit="【印順】">Tāmraśātīya</rdg></app></foreign>）的七部阿毘曇，龍樹沒有說到，也許是孤傳海島，對印度大陸佛教的
 <pb n="0138a" ed="Y" xml:id="Y34.0032.0138a"/>
 <lb n="0138a01" ed="Y"/>影響不深吧！「空門」說（眾）生空（<foreign xml:lang="sa">pudgala-śūnyatā</foreign>），法空（<foreign xml:lang="sa">dharma-śūnyatā</foreign>），都是依
 <lb n="0138a02" ed="Y"/>據經文——<title level="m">《雜阿含經》</title>，<title level="m">《中阿含經》</title>，<title level="m">《長阿含經》</title>，<title level="m">《增壹阿含經》</title>，<title level="m">《波羅延經》</title>——
 <lb n="0138a03" ed="Y"/><title level="a">〈彼岸道品〉</title>，<title level="a">〈義品〉</title>等而說的。部派佛教的三門，都是依佛說，依佛說的意義而論述的，只
-<lb n="0138a04" ed="Y"/>是思想方法不同，陷於對立而互不相容的狀態。對於這，<title level="m">《大智度論》</title>這樣說<note n="0138044" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="18">卷一八</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p192a">二五．一九二上</ref>、<ref target="#vol:25;page:p194a" type="taisho">一九四上</ref>）。</note>：</p>
-<lb n="0138a05" ed="Y"/><quote><p style="margin-left:3em">「無智聞之，謂為乖錯。智者入三種法門，觀一切佛語皆是實法，不相違背」。</p></quote>
-<lb n="0138a06" ed="Y"/><quote><p style="margin-left:3em">「入此三門，則知佛法義不相違背。能知是事，即是般若波羅蜜力，於一切法無所罣礙。
+<lb n="0138a04" ed="Y"/>是思想方法不同，陷於對立而互不相容的狀態。對於這，<title level="m">《大智度論》</title>這樣說<note n="0138044" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="18" type="卷">卷一八</biblScope></bibl>（大正<ref target="#vol:25;page:p192a" type="taisho">二五．一九二上</ref>、<ref target="#vol:25;page:p194a" type="taisho">一九四上</ref>）。</note>：</p>
+<lb n="0138a05" ed="Y"/><quote><p xml:id="pY34p0138a0501" style="margin-left:3em">「無智聞之，謂為乖錯。智者入三種法門，觀一切佛語皆是實法，不相違背」。</p></quote>
+<lb n="0138a06" ed="Y"/><quote><p xml:id="pY34p0138a0601" style="margin-left:3em">「入此三門，則知佛法義不相違背。能知是事，即是般若波羅蜜力，於一切法無所罣礙。
 <lb n="0138a07" ed="Y"/>若不得般若波羅蜜法，入阿毘曇門則墮有中，若入空門則墮無中，若入蜫勒門則墮有無中
 <lb n="0138a08" ed="Y"/>」。</p></quote>
-<lb n="0138a09" ed="Y"/><p style="text-indent:2em">阿毘曇分別法的自相、共相，因而引起一一法實有自性（<foreign xml:lang="sa">svabhāva</foreign>）的執見，所以墮在「有
+<lb n="0138a09" ed="Y"/><p xml:id="pY34p0138a0901" style="text-indent:2em">阿毘曇分別法的自相、共相，因而引起一一法實有自性（<foreign xml:lang="sa">svabhāva</foreign>）的執見，所以墮在「有
 <lb n="0138a10" ed="Y"/>」中。空門說法空，如方廣道人那樣，就是墮在空「無」中。蜫勒是大迦旃延所造的論，依真諦
 <lb n="0138a11" ed="Y"/>的<title level="m">《部執異論疏》</title>說：大眾部（<foreign xml:lang="sa">Mahāsāṃghika</foreign>）分出的分別說（玄奘譯作「說假」）部
-<lb n="0138a12" ed="Y"/>（<foreign xml:lang="sa">Prajñaptivādin</foreign>），是大迦旃延弟子：<quote>「此是佛假名說，此是佛真實說；此是真諦，此是俗諦」</quote><note n="0138045" resp="釋印順" type="orig"><bibl><title level="m">《三論玄義檢幽集》</title><biblScope type="卷" n="5">卷五</biblScope></bibl>所引（大正<ref type="taisho" target="#vol:70;page:p461a">七〇．四六一上</ref>）。</note>
-<lb n="0138a13" ed="Y"/>。分別的說實說假，說真說俗，很可能墮入「有無」中的<note n="0138046" resp="釋印順" type="orig">三門，見<bibl><title level="m">《大智度論》</title><biblScope type="卷" n="18">卷一八</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p192a">二五．一九二上</ref>——<ref type="taisho" target="#vol:25;page:p194a">一九四上</ref>）。參閱<bibl><title level="m">《大智度論》</title><biblScope type="卷" n="2">卷二</biblScope></bibl>（大正<ref target="#vol:25;page:p70a" type="taisho">二五．七〇上</ref>——中）。</note>。這種種論義，都淵源於佛（<title level="m">《阿含
+<lb n="0138a12" ed="Y"/>（<foreign xml:lang="sa">Prajñaptivādin</foreign>），是大迦旃延弟子：<quote>「此是佛假名說，此是佛真實說；此是真諦，此是俗諦」</quote><note n="0138045" resp="釋印順" type="orig"><bibl><title level="m">《三論玄義檢幽集》</title><biblScope n="5" type="卷">卷五</biblScope></bibl>所引（大正<ref target="#vol:70;page:p461a" type="taisho">七〇．四六一上</ref>）。</note>
+<lb n="0138a13" ed="Y"/>。分別的說實說假，說真說俗，很可能墮入「有無」中的<note n="0138046" resp="釋印順" type="orig">三門，見<bibl><title level="m">《大智度論》</title><biblScope n="18" type="卷">卷一八</biblScope></bibl>（大正<ref target="#vol:25;page:p192a" type="taisho">二五．一九二上</ref>——<ref target="#vol:25;page:p194a" type="taisho">一九四上</ref>）。參閱<bibl><title level="m">《大智度論》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:25;page:p70a" type="taisho">二五．七〇上</ref>——中）。</note>。這種種論義，都淵源於佛（<title level="m">《阿含
 <lb n="0138a14" ed="Y"/>》</title>）說，只是偏執而以對方為「乖錯」。如得般若波羅蜜，也就是通達緣起即空即假名的中道，
 <lb n="0138a15" ed="Y"/>那可說部派異義，都有其相對的真實性，於一切法門無所礙了！一切法是緣起的，不是沒有特性
 <pb n="0139a" ed="Y" xml:id="Y34.0032.0139a"/>
-<lb n="0139a01" ed="Y"/>、形態、作用，與其他法的關係，只是沒有自性<note n="0139a0101" resp="CBETA" type="add">罷【CB】，吧【印順】</note><app n="0139a0101"><lem wit="【CB】" resp="正聞出版社">罷</lem><rdg wit="【印順】">吧</rdg></app>了。如<cit><bibl><title level="m">《大智度論》</title>說：</bibl><quote>「一一法有九種」</quote></cit>：
+<lb n="0139a01" ed="Y"/>、形態、作用，與其他法的關係，只是沒有自性<note n="0139a0101" resp="CBETA" type="add">罷【CB】，吧【印順】</note><app n="0139a0101"><lem resp="正聞出版社" wit="【CB】">罷</lem><rdg wit="【印順】">吧</rdg></app>了。如<cit><bibl><title level="m">《大智度論》</title>說：</bibl><quote>「一一法有九種」</quote></cit>：
 <lb n="0139a02" ed="Y"/>一、有體，二、各有法（業），三、各有力用，四、各有因，五、各有緣，六、各有果，七、各
 <lb n="0139a03" ed="Y"/>有性，八、各有限礙，九、各有開通方便，知此九法名<quote>「下如」</quote>。知九法終歸要變異盡滅的，名
-<lb n="0139a04" ed="Y"/><quote>「中如」</quote>。知九法<quote>「非有非無，非生非滅，滅諸觀法，究竟清淨，是名上如」</quote><note n="0139047" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="32">卷三二</biblScope></bibl>（大正<ref target="#vol:25;page:p298c" type="taisho">二五．二九八下</ref>）。參閱卷三三（大正<ref type="taisho" target="#vol:25;page:p303a">二五．三〇三上</ref>）；卷二七（大正<ref target="#vol:25;page:p260b" type="taisho">二五．二六〇中</ref>）。</note>。如（<foreign xml:lang="x-sa-pi">tathatā</foreign>）
+<lb n="0139a04" ed="Y"/><quote>「中如」</quote>。知九法<quote>「非有非無，非生非滅，滅諸觀法，究竟清淨，是名上如」</quote><note n="0139047" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="32" type="卷">卷三二</biblScope></bibl>（大正<ref target="#vol:25;page:p298c" type="taisho">二五．二九八下</ref>）。參閱卷三三（大正<ref target="#vol:25;page:p303a" type="taisho">二五．三〇三上</ref>）；卷二七（大正<ref target="#vol:25;page:p260b" type="taisho">二五．二六〇中</ref>）。</note>。如（<foreign xml:lang="x-sa-pi">tathatā</foreign>）
 <lb n="0139a05" ed="Y"/>是不異義，也就是如實。下、中、上——淺深的不同，可說都是如實的。所以論師的不同異義，
 <lb n="0139a06" ed="Y"/>都有相對的意義，只是執有執無，執假執實，所以處處不通。如得般若如實慧，那就一切無礙；
 <lb n="0139a07" ed="Y"/>應機說法，知<quote>「一切佛語皆是實」</quote>了！</p>
-<lb n="0139a08" ed="Y"/><p style="text-indent:2em">龍樹說緣起即空的中道，然空是<title level="m">《阿含經》</title>以來，佛教界一致宣說的修行法門，只是解說有
-<lb n="0139a09" ed="Y"/>些不同而已。<title level="m">《大智度論》</title>提出了三種空：一、分破空，二、觀空，三、十八空<note n="0139048" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="12" type="卷">卷一二</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p147c">二五．一四七下</ref>——<ref type="taisho" target="#vol:25;page:p148a">一四八上</ref>）。</note>。「分破空」
+<lb n="0139a08" ed="Y"/><p xml:id="pY34p0139a0801" style="text-indent:2em">龍樹說緣起即空的中道，然空是<title level="m">《阿含經》</title>以來，佛教界一致宣說的修行法門，只是解說有
+<lb n="0139a09" ed="Y"/>些不同而已。<title level="m">《大智度論》</title>提出了三種空：一、分破空，二、觀空，三、十八空<note n="0139048" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="12" type="卷">卷一二</biblScope></bibl>（大正<ref target="#vol:25;page:p147c" type="taisho">二五．一四七下</ref>——<ref target="#vol:25;page:p148a" type="taisho">一四八上</ref>）。</note>。「分破空」
 <lb n="0139a10" ed="Y"/>，即天臺宗所說的析法空。以<g ref="#CB00626"/>為例：將<g ref="#CB00626"/>分析到極微（<foreign xml:lang="sa">paramāṇu</foreign>），而極微是假立的，如<quote>「推
 <lb n="0139a11" ed="Y"/>求微塵，則不可得」</quote>。「觀空」：外境是可以隨觀心而轉的，如<title level="m">《阿含經》</title>所說的不淨觀
-<lb n="0139a12" ed="Y"/>（<foreign xml:lang="sa"><note n="0139a1201" resp="CBETA" type="add">Aśubhā-smṛti【CB】，aśu-bhā-smṛti【印順】</note><app n="0139a1201"><lem wit="【CB】" resp="正聞出版社">Aśubhā-smṛti</lem><rdg wit="【印順】">aśu-bhā-smṛti</rdg></app></foreign>），十遍處（<foreign xml:lang="sa"><note n="0139a1202" resp="CBETA" type="add">daṣa-kṛtsna-āyatanāni【CB】，daśa-kṛtsnāyatanāni【印順】</note><app n="0139a1202"><lem wit="【CB】" resp="正聞出版社">daṣa-kṛtsna-āyatanāni</lem><rdg wit="【印順】">daśa-kṛtsnāyatanāni</rdg></app></foreign>）等。如一女人，或見是美麗清淨的；修不淨觀的
+<lb n="0139a12" ed="Y"/>（<foreign xml:lang="sa"><note n="0139a1201" resp="CBETA" type="add">Aśubhā-smṛti【CB】，aśu-bhā-smṛti【印順】</note><app n="0139a1201"><lem resp="正聞出版社" wit="【CB】">Aśubhā-smṛti</lem><rdg wit="【印順】">aśu-bhā-smṛti</rdg></app></foreign>），十遍處（<foreign xml:lang="sa"><note n="0139a1202" resp="CBETA" type="add">daṣa-kṛtsna-āyatanāni【CB】，daśa-kṛtsnāyatanāni【印順】</note><app n="0139a1202"><lem resp="正聞出版社" wit="【CB】">daṣa-kṛtsna-āyatanāni</lem><rdg wit="【印順】">daśa-kṛtsnāyatanāni</rdg></app></foreign>）等。如一女人，或見是美麗清淨的；修不淨觀的
 <lb n="0139a13" ed="Y"/>，見是惡露充滿的；嫉妒他的生瞋恨心；無關的人「無所適莫」。好惡、美醜，隨人的觀感不同
 <lb n="0139a14" ed="Y"/>而異，可見外境沒有實性，所以是空。「十八空」（<foreign xml:lang="sa">aṣṭādaśa-śūnyatāḥ</foreign>）：雖隨法而有種種名字
-<lb n="0139a15" ed="Y"/>，而所以是空的理由，都是<quote>「非常非滅故。何以故？性自爾」</quote><note n="0139049" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="46">卷四六</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p393c">二五．三九三下</ref>）。</note>。這是說一切法本來自性空，也
+<lb n="0139a15" ed="Y"/>，而所以是空的理由，都是<quote>「非常非滅故。何以故？性自爾」</quote><note n="0139049" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="46" type="卷">卷四六</biblScope></bibl>（大正<ref target="#vol:25;page:p393c" type="taisho">二五．三九三下</ref>）。</note>。這是說一切法本來自性空，也
 <pb n="0140a" ed="Y" xml:id="Y34.0032.0140a"/>
-<lb n="0140a01" ed="Y"/>就是出離二邊戲論的中道，是大乘空的精義<note n="0140050" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="46">卷四六</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p396a">二五．三九六上</ref>）。</note>。<title level="m">《智論》</title>含容的統攝了三種空，偶爾也以前二空
+<lb n="0140a01" ed="Y"/>就是出離二邊戲論的中道，是大乘空的精義<note n="0140050" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="46" type="卷">卷四六</biblScope></bibl>（大正<ref target="#vol:25;page:p396a" type="taisho">二五．三九六上</ref>）。</note>。<title level="m">《智論》</title>含容的統攝了三種空，偶爾也以前二空
 <lb n="0140a02" ed="Y"/>為方便，但究極的離戲論的中道，是十八空——本無自性空。<title level="m">《智度論》</title>在說到空，無相（<foreign xml:lang="x-sa-pi">animitta</foreign>）
 <lb n="0140a03" ed="Y"/>，無願（<foreign xml:lang="sa">apraṇihita</foreign>）為甚深義時，又提到三種空：一、「三昧空」：在三昧（<foreign xml:lang="x-sa-pi">samādhi</foreign>）
 <lb n="0140a04" ed="Y"/>——定心中，觀一切法空；空是能緣的三昧（心）空，以空三昧觀一切法，所以說一切法空。二
 <lb n="0140a05" ed="Y"/>、「所緣空」：所緣境是空的，緣外境的空相，名為空三昧。三、「無自性空」，如<bibl><title level="m">《大智度論
 <lb n="0140a06" ed="Y"/>》</title><biblScope n="74" type="卷">卷七四</biblScope></bibl><note place="inline">大正<ref target="#vol:25;page:p581b" type="taisho">二五．五八一中</ref>——下</note>說：</p>
-<lb n="0140a07" ed="Y"/><quote><p style="margin-left:3em">「不以空三昧故空，亦不以所緣外色等諸法故空。……此中說離是二邊說中道，所謂諸法
+<lb n="0140a07" ed="Y"/><quote><p xml:id="pY34p0140a0701" style="margin-left:3em">「不以空三昧故空，亦不以所緣外色等諸法故空。……此中說離是二邊說中道，所謂諸法
 <lb n="0140a08" ed="Y"/>因緣和合生，是和合法無有一定法故空。……無自性故即是畢竟空，是畢竟空從本以來空
 <lb n="0140a09" ed="Y"/>，非佛所作，亦非餘人所作，諸佛為可度眾生故，說是畢竟空相」。</p></quote>
-<lb n="0140a10" ed="Y"/><p style="text-indent:2em">從這<note n="0140a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0140a1001"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>，可以理解龍樹的大乘空義，依緣起說；從緣起而知一切法沒有定性<note place="inline">自性</note>，沒有自性
+<lb n="0140a10" ed="Y"/><p xml:id="pY34p0140a1001" style="text-indent:2em">從這<note n="0140a1001" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0140a1001"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>，可以理解龍樹的大乘空義，依緣起說；從緣起而知一切法沒有定性<note place="inline">自性</note>，沒有自性
 <lb n="0140a11" ed="Y"/>故是畢竟空（<foreign xml:lang="sa">atyanta-śūnyatā</foreign>），畢竟空是寂滅無戲論的。為了化度眾生，依世俗諦說畢竟空，
 <lb n="0140a12" ed="Y"/>畢竟空是空相也不可得的。龍樹是中道的緣起即空論者，如從認識論去解說，那是不能符合龍樹
 <lb n="0140a13" ed="Y"/>論意的。當然，龍樹得般若波羅蜜，是於一切法無礙的，也偶爾應用「觀空」來解說。<title level="m">《論》</title>引
 <lb n="0140a14" ed="Y"/><title level="m">《般舟三昧經》</title>的念佛見佛說：<quote>「三界所有，皆心所作。……若取心相，悉皆無智，心亦虛誑」</quote>
-<lb n="0140a15" ed="Y"/>（不實）<note n="0140051" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="29">卷二九</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p276b">二五．二七六中</ref>）。</note>。修念佛三昧成就，佛現在前立；進而見佛如虛空中繁星那樣的現前。但不是佛來了
+<lb n="0140a15" ed="Y"/>（不實）<note n="0140051" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="29" type="卷">卷二九</biblScope></bibl>（大正<ref target="#vol:25;page:p276b" type="taisho">二五．二七六中</ref>）。</note>。修念佛三昧成就，佛現在前立；進而見佛如虛空中繁星那樣的現前。但不是佛來了
 <pb n="0141a" ed="Y" xml:id="Y34.0032.0141a"/>
 <lb n="0141a01" ed="Y"/>，只是自心三昧力所現。依此而推論為：三界所有，都是自心所造作的。心所造作的，虛誑不實
-<lb n="0141a02" ed="Y"/>，所以取著心相，是愚癡的。<cit><bibl><title level="m">《般舟三昧經》</title>也說：</bibl><quote>「心起想則癡，無想是泥洹」</quote><note n="0141052" resp="釋印順" type="orig"><bibl><title level="m">《般舟三昧經》</title><biblScope type="卷" n="上">卷上</biblScope></bibl>（大正<ref type="taisho" target="#vol:13;page:p906a">一三．九〇六上</ref>）。</note></cit>。<cit><bibl><title level="m">《智論》</title>
-<lb n="0141a03" ed="Y"/>引偈說：</bibl><quote>「諸法如芭蕉，一切從心生，當知法無實；是心亦復空，若有人念空，是則非道行」</quote><note n="0141053" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="8">卷八</biblScope></bibl>（大正<ref target="#vol:25;page:p118a" type="taisho">二五．一一八上</ref>）。</note></cit>
+<lb n="0141a02" ed="Y"/>，所以取著心相，是愚癡的。<cit><bibl><title level="m">《般舟三昧經》</title>也說：</bibl><quote>「心起想則癡，無想是泥洹」</quote><note n="0141052" resp="釋印順" type="orig"><bibl><title level="m">《般舟三昧經》</title><biblScope n="上" type="卷">卷上</biblScope></bibl>（大正<ref target="#vol:13;page:p906a" type="taisho">一三．九〇六上</ref>）。</note></cit>。<cit><bibl><title level="m">《智論》</title>
+<lb n="0141a03" ed="Y"/>引偈說：</bibl><quote>「諸法如芭蕉，一切從心生，當知法無實；是心亦復空，若有人念空，是則非道行」</quote><note n="0141053" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="8" type="卷">卷八</biblScope></bibl>（大正<ref target="#vol:25;page:p118a" type="taisho">二五．一一八上</ref>）。</note></cit>
 <lb n="0141a04" ed="Y"/>。這也是法從心生說，法空心也是空，空是離取著戲論的，所以取空相的也就非道了。又說：<quote>「
-<lb n="0141a05" ed="Y"/>如頗梨珠，隨前色（而）變，自無定色。諸法亦如是，無有定相，隨心為異」</quote><note n="0141054" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="43">卷四三</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p372b">二五．三七二中</ref>）。</note>。法無定相，隨
+<lb n="0141a05" ed="Y"/>如頗梨珠，隨前色（而）變，自無定色。諸法亦如是，無有定相，隨心為異」</quote><note n="0141054" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="43" type="卷">卷四三</biblScope></bibl>（大正<ref target="#vol:25;page:p372b" type="taisho">二五．三七二中</ref>）。</note>。法無定相，隨
 <lb n="0141a06" ed="Y"/>心而差異不同，與上面所說的「觀空」，是完全相同的。佛法中，善惡與迷悟，<quote>「心為一切法的
 <lb n="0141a07" ed="Y"/>主導者」</quote>，所以說<quote>「心所作」</quote>，<quote>「從心生」</quote>。反之，<quote>「心隨身故，身得樂事，心則欣悅。……將
-<lb n="0141a08" ed="Y"/>諸天眾入<note n="0141a0801" resp="CBETA" type="add">麁【CB】，麤【印順】</note><app n="0141a0801"><lem wit="【CB】" resp="正聞出版社">麁<note type="cf1">《大智度論》卷8〈1 序品〉(CBETA, T25, no. 1509, p. 117, b12-21)</note></lem><rdg wit="【印順】">麤</rdg></app>澁園中，……諸天人眾<note n="0141a0802" resp="CBETA" type="add">鬪【CB】，鬥【印順】</note><app n="0141a0802"><lem wit="【CB】" resp="正聞出版社">鬪</lem><rdg wit="【印順】">鬥</rdg></app>心即生」</quote>，又如<quote>「北方地有雪山，雪山冷故，藥草能殺諸毒
+<lb n="0141a08" ed="Y"/>諸天眾入<note n="0141a0801" resp="CBETA" type="add">麁【CB】，麤【印順】</note><app n="0141a0801"><lem resp="正聞出版社" wit="【CB】">麁<note type="cf1">《大智度論》卷8〈1 序品〉(CBETA, T25, no. 1509, p. 117, b12-21)</note></lem><rdg wit="【印順】">麤</rdg></app>澁園中，……諸天人眾<note n="0141a0802" resp="CBETA" type="add">鬪【CB】，鬥【印順】</note><app n="0141a0802"><lem resp="正聞出版社" wit="【CB】">鬪</lem><rdg wit="【印順】">鬥</rdg></app>心即生」</quote>，又如<quote>「北方地有雪山，雪山冷故，藥草能殺諸毒
 <lb n="0141a09" ed="Y"/>。所食米穀，三毒不能大發；三毒不能大發故，眾生柔軟，信等五根皆得勢力。以是等因緣，北
-<lb n="0141a10" ed="Y"/>方多行般若波羅蜜」</quote><note n="0141055" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="8" type="卷">卷八</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p117b">二五．一一七中</ref>）。又卷六七（大正<ref type="taisho" target="#vol:25;page:p531b">二五．五三一中</ref>）。</note>。心隨身轉，心隨環境而變異，<title level="m">《智度論》</title>不也說得很明白嗎？所以不可
+<lb n="0141a10" ed="Y"/>方多行般若波羅蜜」</quote><note n="0141055" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="8" type="卷">卷八</biblScope></bibl>（大正<ref target="#vol:25;page:p117b" type="taisho">二五．一一七中</ref>）。又卷六七（大正<ref target="#vol:25;page:p531b" type="taisho">二五．五三一中</ref>）。</note>。心隨身轉，心隨環境而變異，<title level="m">《智度論》</title>不也說得很明白嗎？所以不可
 <lb n="0141a11" ed="Y"/>依據片段文字，誤解龍樹與無著（<foreign xml:lang="sa">Asaṅga</foreign>）的「唯心論」一脈相通！龍樹是緣起論者，直說一切
 <lb n="0141a12" ed="Y"/>法空，而不是無著學系那樣的。</p>
-<lb n="0141a13" ed="Y"/><p style="text-indent:2em">文殊（<foreign xml:lang="sa">Mañjuśrī</foreign>）法門，與<title level="m">《般若》</title>同源而異流，每說煩惱即菩提，如說：<quote>「貪欲是涅槃，
-<lb n="0141a14" ed="Y"/>恚癡亦如是，如此三事中，有無量佛道」</quote><note n="0141056" resp="釋印順" type="orig"><bibl><title level="m">《諸法無行經》</title><biblScope type="卷" n="下">卷下</biblScope></bibl>（大正<ref target="#vol:15;page:p759c" type="taisho">一五．七五九下</ref>）。</note>。龍樹怎樣解說這些文句？對於淫欲，<title level="m">《智論》</title>依<title level="m">《
+<lb n="0141a13" ed="Y"/><p xml:id="pY34p0141a1301" style="text-indent:2em">文殊（<foreign xml:lang="sa">Mañjuśrī</foreign>）法門，與<title level="m">《般若》</title>同源而異流，每說煩惱即菩提，如說：<quote>「貪欲是涅槃，
+<lb n="0141a14" ed="Y"/>恚癡亦如是，如此三事中，有無量佛道」</quote><note n="0141056" resp="釋印順" type="orig"><bibl><title level="m">《諸法無行經》</title><biblScope n="下" type="卷">卷下</biblScope></bibl>（大正<ref target="#vol:15;page:p759c" type="taisho">一五．七五九下</ref>）。</note>。龍樹怎樣解說這些文句？對於淫欲，<title level="m">《智論》</title>依<title level="m">《
 <lb n="0141a15" ed="Y"/>般若經》</title>，說三種菩薩：<quote>「初者，如世間人受五欲，後捨離出家，得菩提道。二者，大功德牢固，
 <pb n="0142a" ed="Y" xml:id="Y34.0032.0142a"/>
 <lb n="0142a01" ed="Y"/>初發心時斷於婬欲，乃至成佛道。是菩薩或法身，或肉身；或離欲，或未離欲。三者，清淨法身
-<lb n="0142a02" ed="Y"/>菩薩，……與眾生同事而攝取之」</quote><note n="0142057" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="35">卷三五</biblScope></bibl>（大正<ref target="#vol:25;page:p317b" type="taisho">二五．三一七中</ref>）。</note>。第一類菩薩，如釋尊。第二類，<quote>「從初發心常作童真行，
+<lb n="0142a02" ed="Y"/>菩薩，……與眾生同事而攝取之」</quote><note n="0142057" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="35" type="卷">卷三五</biblScope></bibl>（大正<ref target="#vol:25;page:p317b" type="taisho">二五．三一七中</ref>）。</note>。第一類菩薩，如釋尊。第二類，<quote>「從初發心常作童真行，
 <lb n="0142a03" ed="Y"/>不與色欲共會」</quote>，也就是發菩提心以來，生生世世，過著清淨梵行的生活。即使是得了無生忍的
 <lb n="0142a04" ed="Y"/>法身菩薩，也是這樣。<bibl><title level="m">《大智度論》</title><biblScope n="35" type="卷">卷三五</biblScope></bibl><note place="inline">大正<ref target="#vol:25;page:p317b" type="taisho">二五．三一七中</ref></note>說：</p>
-<lb n="0142a05" ed="Y"/><quote><p style="margin-left:3em">「有人言：菩薩雖受五欲，心不著故，不妨於道」。</p></quote>
-<lb n="0142a06" ed="Y"/><quote><p style="margin-left:3em">「菩薩應作童真修行梵行，當得阿耨多羅三藐三菩提。梵行菩薩不著世間故，速成菩薩道
+<lb n="0142a05" ed="Y"/><quote><p xml:id="pY34p0142a0501" style="margin-left:3em">「有人言：菩薩雖受五欲，心不著故，不妨於道」。</p></quote>
+<lb n="0142a06" ed="Y"/><quote><p xml:id="pY34p0142a0601" style="margin-left:3em">「菩薩應作童真修行梵行，當得阿耨多羅三藐三菩提。梵行菩薩不著世間故，速成菩薩道
 <lb n="0142a07" ed="Y"/>。若婬欲者，譬如膠漆，難可得離」。</p></quote>
-<lb n="0142a08" ed="Y"/><p style="text-indent:2em">有大乘人以為：受五欲，對修道是不妨礙的，只要不執著他。對於這種見解，龍樹是不以為
+<lb n="0142a08" ed="Y"/><p xml:id="pY34p0142a0801" style="text-indent:2em">有大乘人以為：受五欲，對修道是不妨礙的，只要不執著他。對於這種見解，龍樹是不以為
 <lb n="0142a09" ed="Y"/>然的。認為始終修童真梵行，能<quote>「速成菩薩道」</quote>，也就是成佛要容易得多。<title level="m">《龍樹傳》</title>說：起初
 <lb n="0142a10" ed="Y"/>，龍樹與友人，到王宮中去淫亂，幾乎被殺，這才深感欲為苦本而出家。龍樹有過這一番經歷，
 <lb n="0142a11" ed="Y"/>當然會稱讚始終修梵行的。這是<quote>「大功德牢固」</quote>，不是一般人都能這樣的。先受欲而後出家（第
 <lb n="0142a12" ed="Y"/>一類），應該是最一般的。第三類是法身菩薩，為了攝化眾生，如維摩詰（<foreign xml:lang="sa">Vimalakīrti</foreign>）長者那
-<lb n="0142a13" ed="Y"/>樣。大菩薩的善巧方便，不是初學者所能行的。說到<quote>「煩惱是菩提」</quote>，如<title level="m">《大智度論》</title><note n="0142058" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="80" type="卷">卷八〇</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p622a">二五．六二二上</ref>）。又卷三五（大正<ref target="#vol:25;page:p321a" type="taisho">二五．三二一上</ref>——中）。</note>說：</p>
-<lb n="0142a14" ed="Y"/><quote><p style="margin-left:3em">「因緣生故無實，……不從十方三世來，是法定相不可得。何以故？一切法入如故。若（
+<lb n="0142a13" ed="Y"/>樣。大菩薩的善巧方便，不是初學者所能行的。說到<quote>「煩惱是菩提」</quote>，如<title level="m">《大智度論》</title><note n="0142058" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="80" type="卷">卷八〇</biblScope></bibl>（大正<ref target="#vol:25;page:p622a" type="taisho">二五．六二二上</ref>）。又卷三五（大正<ref target="#vol:25;page:p321a" type="taisho">二五．三二一上</ref>——中）。</note>說：</p>
+<lb n="0142a14" ed="Y"/><quote><p xml:id="pY34p0142a1401" style="margin-left:3em">「因緣生故無實，……不從十方三世來，是法定相不可得。何以故？一切法入如故。若（
 <lb n="0142a15" ed="Y"/>不）得是無明定相，即是智慧，不名為癡。是故癡相、智慧相無異，癡實相即是智慧，取
 <pb n="0143a" ed="Y" xml:id="Y34.0032.0143a"/>
 <lb n="0143a01" ed="Y"/>著智慧相即是癡」。</p></quote>
-<lb n="0143a02" ed="Y"/><quote><p style="margin-left:3em">「諸法如入法性中，無有別異。……愚癡實相即是智慧，若分別著此智慧即是愚癡。如是
+<lb n="0143a02" ed="Y"/><quote><p xml:id="pY34p0143a0201" style="margin-left:3em">「諸法如入法性中，無有別異。……愚癡實相即是智慧，若分別著此智慧即是愚癡。如是
 <lb n="0143a03" ed="Y"/>愚癡智慧，有何別異」？</p></quote>
-<lb n="0143a04" ed="Y"/><p style="text-indent:2em">龍樹的解說，是依據<title level="m">《思益梵天所問經》</title>的。<title level="m">《思益經》</title>明如來以<quote>「五力」</quote>說法，<quote>「二者、
+<lb n="0143a04" ed="Y"/><p xml:id="pY34p0143a0401" style="text-indent:2em">龍樹的解說，是依據<title level="m">《思益梵天所問經》</title>的。<title level="m">《思益經》</title>明如來以<quote>「五力」</quote>說法，<quote>「二者、
 <lb n="0143a05" ed="Y"/>隨宜」</quote>：<quote>「如來或垢法說淨，淨法說垢。……何謂垢法說淨？不得垢法性故。何謂淨法說垢？貪
-<lb n="0143a06" ed="Y"/>著淨法故」</quote><note n="0143059" resp="釋印順" type="orig"><bibl><title level="m">《思益梵天所問經》</title><biblScope type="卷" n="2">卷二</biblScope></bibl>（大正<ref type="taisho" target="#vol:15;page:p40c">一五．四〇下</ref>）。</note>。這就是<cit><bibl><title level="m">《智度論》</title>所說：</bibl><quote>「癡實相即是智慧，取著智慧相即是癡」</quote></cit>的意義。一般
+<lb n="0143a06" ed="Y"/>著淨法故」</quote><note n="0143059" resp="釋印順" type="orig"><bibl><title level="m">《思益梵天所問經》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>（大正<ref target="#vol:15;page:p40c" type="taisho">一五．四〇下</ref>）。</note>。這就是<cit><bibl><title level="m">《智度論》</title>所說：</bibl><quote>「癡實相即是智慧，取著智慧相即是癡」</quote></cit>的意義。一般
 <lb n="0143a07" ed="Y"/>不知道這是「隨宜」說法，以為究竟理趣。只知煩惱即菩提，而不知取著菩提就是煩惱！如通達
-<lb n="0143a08" ed="Y"/>性空，般若現前，那<note n="0143a0801" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0143a0801"><lem wit="【CB】" resp="CBETA">裡</lem><rdg wit="【印順】">裏</rdg></app>還有煩惱？如誤解煩惱為即是菩提，那真是顛倒了！</p>
+<lb n="0143a08" ed="Y"/>性空，般若現前，那<note n="0143a0801" resp="CBETA" type="add" subtype="規範字詞">裡【CB】，裏【印順】</note><app n="0143a0801"><lem resp="CBETA" wit="【CB】">裡</lem><rdg wit="【印順】">裏</rdg></app>還有煩惱？如誤解煩惱為即是菩提，那真是顛倒了！</p>
 <lb n="0143a09" ed="Y"/>
 <lb n="0143a10" ed="Y"/>
 <lb n="0143a11" ed="Y"/>
@@ -521,16 +541,16 @@
 <lb n="0147a06" ed="Y"/>
 <lb n="0147a07" ed="Y"/></cb:div>
 <lb n="0147a08" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　提婆的「百」論</cb:mulu><head>第三節　提婆的「百」論</head>
-<lb n="0147a09" ed="Y"/><p style="text-indent:2em">龍樹的弟子提婆（<foreign xml:lang="sa">Āryadeva</foreign>），印度南方的錫蘭人，從犢子部（<foreign xml:lang="sa">Vātsīputrīya</foreign>）出家。那時
+<lb n="0147a09" ed="Y"/><p xml:id="pY34p0147a0901" style="text-indent:2em">龍樹的弟子提婆（<foreign xml:lang="sa">Āryadeva</foreign>），印度南方的錫蘭人，從犢子部（<foreign xml:lang="sa">Vātsīputrīya</foreign>）出家。那時
 <lb n="0147a10" ed="Y"/>錫蘭的無畏山（<foreign xml:lang="x-sa-pi">Abhayagiri</foreign>）派，態度寬容，容許別部及大乘者共住。提婆到了南印度，從龍樹
-<lb n="0147a11" ed="Y"/>（<foreign xml:lang="sa">Nāgārjuna</foreign>）學。留傳下來的提婆事<note n="0147a1101" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0147a1101"><lem wit="【CB】" resp="CBETA">跡</lem><rdg wit="【印順】">迹</rdg></app>，主要是到處去破斥外道，破斥小乘的妄執，後來為<note n="0147a1102" resp="CBETA" type="add">外【CB】，小【印順】</note><app n="0147a1102"><lem wit="【CB】" resp="正聞出版社">外<note type="cf1">參見《提婆菩薩傳》卷1(CBETA, T50, no. 2048, p. 187, b27-c7)</note></lem><rdg wit="【印順】">小</rdg></app>
-<lb n="0147a12" ed="Y"/><note n="0147a1201" resp="CBETA" type="add">道【CB】，乘學者【印順】</note><app n="0147a1201"><lem wit="【CB】" resp="正聞出版社">道<note type="cf1">參見《提婆菩薩傳》卷1(CBETA, T50, no. 2048, p. 187, b27-c7)</note></lem><rdg wit="【印順】">乘學者</rdg></app>所殺。提婆的著作有：一、<title level="m">《百論》</title>，以百偈得名。鳩摩羅什（<foreign xml:lang="sa">Kumārajīva</foreign>）譯，不是全
+<lb n="0147a11" ed="Y"/>（<foreign xml:lang="sa">Nāgārjuna</foreign>）學。留傳下來的提婆事<note n="0147a1101" resp="CBETA" type="add" subtype="規範字詞">跡【CB】，迹【印順】</note><app n="0147a1101"><lem resp="CBETA" wit="【CB】">跡</lem><rdg wit="【印順】">迹</rdg></app>，主要是到處去破斥外道，破斥小乘的妄執，後來為<note n="0147a1102" resp="CBETA" type="add">外【CB】，小【印順】</note><app n="0147a1102"><lem resp="正聞出版社" wit="【CB】">外<note type="cf1">參見《提婆菩薩傳》卷1(CBETA, T50, no. 2048, p. 187, b27-c7)</note></lem><rdg wit="【印順】">小</rdg></app>
+<lb n="0147a12" ed="Y"/><note n="0147a1201" resp="CBETA" type="add">道【CB】，乘學者【印順】</note><app n="0147a1201"><lem resp="正聞出版社" wit="【CB】">道<note type="cf1">參見《提婆菩薩傳》卷1(CBETA, T50, no. 2048, p. 187, b27-c7)</note></lem><rdg wit="【印順】">乘學者</rdg></app>所殺。提婆的著作有：一、<title level="m">《百論》</title>，以百偈得名。鳩摩羅什（<foreign xml:lang="sa">Kumārajīva</foreign>）譯，不是全
 <lb n="0147a13" ed="Y"/>譯而是有所省略的。提婆的本論，名為「修妬路」<note place="inline">經</note>，論釋是婆藪開士造的。有以為婆藪就是世
-<lb n="0147a14" ed="Y"/>親（<foreign xml:lang="sa"><note n="0147a1401" resp="CBETA" type="add">Vasubanbhu【CB】，Vasubandhu【印順】</note><app n="0147a1401"><lem wit="【CB】" resp="正聞出版社">Vasubanbhu</lem><rdg wit="【印順】">Vasubandhu</rdg></app></foreign>），然在年代上是不可能的。二、<title level="m">《四百觀論》</title>，西藏本作<title level="m">《瑜伽行地四百論
+<lb n="0147a14" ed="Y"/>親（<foreign xml:lang="sa"><note n="0147a1401" resp="CBETA" type="add">Vasubanbhu【CB】，Vasubandhu【印順】</note><app n="0147a1401"><lem resp="正聞出版社" wit="【CB】">Vasubanbhu</lem><rdg wit="【印順】">Vasubandhu</rdg></app></foreign>），然在年代上是不可能的。二、<title level="m">《四百觀論》</title>，西藏本作<title level="m">《瑜伽行地四百論
 <pb n="0148a" ed="Y" xml:id="Y34.0032.0148a"/>
 <lb n="0148a01" ed="Y"/>》</title>，四百偈。唐玄奘所譯<title level="m">《大乘廣百論釋論》</title>，一〇卷，是<title level="m">《四百論》</title>的後二百偈，及瑜伽學者
 <lb n="0148a02" ed="Y"/>護法（<foreign xml:lang="sa">Dharmapāla</foreign>）的注釋。三、<title level="m">《百字論》</title>，元魏菩提流志（<foreign xml:lang="sa">Bodhiruci</foreign>）譯，一卷。提婆本
-<lb n="0148a03" ed="Y"/>論僅百字，就是論末偈頌中，<quote>「一切法無一，如是法無異！……等如夢無異，相亦無有體」</quote><note n="0148001" resp="釋印順" type="orig"><title level="m">《百字論》</title>（大正<ref type="taisho" target="#vol:30;page:p252c">三〇．二五二下</ref>）。</note>；
+<lb n="0148a03" ed="Y"/>論僅百字，就是論末偈頌中，<quote>「一切法無一，如是法無異！……等如夢無異，相亦無有體」</quote><note n="0148001" resp="釋印順" type="orig"><title level="m">《百字論》</title>（大正<ref target="#vol:30;page:p252c" type="taisho">三〇．二五二下</ref>）。</note>；
 <lb n="0148a04" ed="Y"/>其餘論釋，不知是誰造的。此論在西藏，說是龍樹造的。提婆所造的論，都以「百」為名。這固
 <lb n="0148a05" ed="Y"/>然由於百字、百偈、四百偈的論偈數目，然在梵文中，百是 <foreign xml:lang="sa">śataka</foreign>，字根 <foreign xml:lang="sa">śat</foreign> 有破壞的意義，
 <lb n="0148a06" ed="Y"/>實表示了破斥摧壞一切異說的宗趣。此外，北涼道泰譯出<title level="m">《大丈夫論》</title>，二卷。論末說：<quote>「阿闍
@@ -538,42 +558,42 @@
 <lb n="0148a08" ed="Y"/>與提波羅小異。這部論，著重於悲心施捨一切的菩薩行，為慈悲增上的代表作。如是提婆所造的
 <lb n="0148a09" ed="Y"/>，那提婆不計自身安危，盡力破斥外小異見<note place="inline">法施</note>，弘護大乘，終於以身殉教，這真是能說能行的
 <lb n="0148a10" ed="Y"/>大丈夫！</p>
-<lb n="0148a11" ed="Y"/><p style="text-indent:2em">提婆的弟子羅睺羅跋陀羅（<foreign xml:lang="sa">Rāhulabhadra</foreign>），曾在中、南印弘法。西藏所傳，羅睺羅跋陀羅
+<lb n="0148a11" ed="Y"/><p xml:id="pY34p0148a1101" style="text-indent:2em">提婆的弟子羅睺羅跋陀羅（<foreign xml:lang="sa">Rāhulabhadra</foreign>），曾在中、南印弘法。西藏所傳，羅睺羅跋陀羅
 <lb n="0148a12" ed="Y"/>著有<title level="a">〈讚法華經偈〉</title>，<title level="a">〈讚般若偈〉</title>。真諦傳說：羅睺羅跋陀羅有<title level="m">《中論註》</title>。據吉藏<cit><bibl><title level="m">《中觀論
-<lb n="0148a13" ed="Y"/>疏》</title>說：</bibl><quote>「羅睺羅法師，是龍樹同時人。釋八不，乃作常樂我淨明之」</quote><note n="0148003" resp="釋印順" type="orig"><bibl><title level="m">《中觀論疏》</title><biblScope n="3" type="卷">卷三</biblScope>本</bibl>（大正<ref type="taisho" target="#vol:42;page:p40c">四二．四〇下</ref>）。</note></cit>。以八不緣起來解說大
-<lb n="0148a14" ed="Y"/>涅槃四德，與<title level="m">《大般涅槃經》</title>續譯的<title level="a">〈師子吼菩薩品〉</title>，以八不緣起為<quote>「正因佛性」</quote><note n="0148004" resp="釋印順" type="orig"><bibl><title level="m">《大般涅槃經》</title><biblScope n="27" type="卷">卷二七</biblScope></bibl>（大正<ref type="taisho" target="#vol:12;page:p524a">一二．五二四上</ref>——中）。</note>，同一學
-<lb n="0148a15" ed="Y"/>風。這顯然是中觀學者，面對後期大乘經而加以會通了。<title level="m">《智度論》</title>引用他的<title level="a">〈讚般若偈〉</title><note n="0148005" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="18">卷一八</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p190b">二五．一九〇中</ref>——<ref type="taisho" target="#vol:25;page:p191a">一九一上</ref>）。</note>，
+<lb n="0148a13" ed="Y"/>疏》</title>說：</bibl><quote>「羅睺羅法師，是龍樹同時人。釋八不，乃作常樂我淨明之」</quote><note n="0148003" resp="釋印順" type="orig"><bibl><title level="m">《中觀論疏》</title><biblScope n="3" type="卷">卷三</biblScope>本</bibl>（大正<ref target="#vol:42;page:p40c" type="taisho">四二．四〇下</ref>）。</note></cit>。以八不緣起來解說大
+<lb n="0148a14" ed="Y"/>涅槃四德，與<title level="m">《大般涅槃經》</title>續譯的<title level="a">〈師子吼菩薩品〉</title>，以八不緣起為<quote>「正因佛性」</quote><note n="0148004" resp="釋印順" type="orig"><bibl><title level="m">《大般涅槃經》</title><biblScope n="27" type="卷">卷二七</biblScope></bibl>（大正<ref target="#vol:12;page:p524a" type="taisho">一二．五二四上</ref>——中）。</note>，同一學
+<lb n="0148a15" ed="Y"/>風。這顯然是中觀學者，面對後期大乘經而加以會通了。<title level="m">《智度論》</title>引用他的<title level="a">〈讚般若偈〉</title><note n="0148005" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="18" type="卷">卷一八</biblScope></bibl>（大正<ref target="#vol:25;page:p190b" type="taisho">二五．一九〇中</ref>——<ref target="#vol:25;page:p191a" type="taisho">一九一上</ref>）。</note>，
 <pb n="0149a" ed="Y" xml:id="Y34.0032.0149a"/>
 <lb n="0149a01" ed="Y"/>可能是後人所附入的。龍樹，提婆，羅睺羅跋陀羅，三人有先後的師資關係，為漢、藏一致的傳
 <lb n="0149a02" ed="Y"/>說。以後的傳承，如西藏所傳的，我國從來不知。如三論宗所傳：羅睺羅傳青目，青目傳須利耶
 <lb n="0149a03" ed="Y"/>蘇摩（<foreign xml:lang="sa">Sūryasoma</foreign>），須利耶蘇摩傳羅什。這一傳承中，青目是什麼傳說也沒有，說他在羅睺羅
 <lb n="0149a04" ed="Y"/>與羅什之間，不過因為青目作<title level="m">《中論釋》</title>而已。佛教學派的次第相傳，有些是不必盡信的！</p>
-<lb n="0149a05" ed="Y"/><p style="text-indent:2em">龍樹開闢了大乘的坦途，提婆也就移重心到對外的破斥。以空義來掃除有、非有等一切戲論
+<lb n="0149a05" ed="Y"/><p xml:id="pY34p0149a0501" style="text-indent:2em">龍樹開闢了大乘的坦途，提婆也就移重心到對外的破斥。以空義來掃除有、非有等一切戲論
 <lb n="0149a06" ed="Y"/>，而「空」不是言說所安立處，所以空也不立，而被稱為「破而不立」。說到破，破的是什麼？
-<lb n="0149a07" ed="Y"/>法是不可破的；種種論破，只是破除眾生的愛著、執見，如<bibl><title level="m">《大智度論》</title><biblScope type="卷" n="32">卷三二</biblScope></bibl><note place="inline">大正<ref target="#vol:25;page:p296c" type="taisho">二五．二九六
-<lb n="0149a08" ed="Y"/>下</ref>、<ref type="taisho" target="#vol:25;page:p297b">二九七中</ref></note>說：</p>
-<lb n="0149a09" ed="Y"/><quote><p style="margin-left:3em">「般若波羅蜜，於一切法無所捨，無所破，畢竟清淨，無諸戲論。如佛說有四緣，但以少
+<lb n="0149a07" ed="Y"/>法是不可破的；種種論破，只是破除眾生的愛著、執見，如<bibl><title level="m">《大智度論》</title><biblScope n="32" type="卷">卷三二</biblScope></bibl><note place="inline">大正<ref target="#vol:25;page:p296c" type="taisho">二五．二九六
+<lb n="0149a08" ed="Y"/>下</ref>、<ref target="#vol:25;page:p297b" type="taisho">二九七中</ref></note>說：</p>
+<lb n="0149a09" ed="Y"/><quote><p xml:id="pY34p0149a0901" style="margin-left:3em">「般若波羅蜜，於一切法無所捨，無所破，畢竟清淨，無諸戲論。如佛說有四緣，但以少
 <lb n="0149a10" ed="Y"/>智之人，著於四緣而生邪論，為破著故，說言諸法實空無所破」。</p></quote>
-<lb n="0149a11" ed="Y"/><quote><p style="margin-left:3em">「般若波羅蜜中，但除邪見而不破四緣」。</p></quote>
-<lb n="0149a12" ed="Y"/><p style="text-indent:2em"><quote>「佛為破妄見故，言三事不可得，實無所破」</quote>；<quote>「是法空，諸佛以憐愍心，為斷愛結、除邪
-<lb n="0149a13" ed="Y"/>見故說」</quote><note n="0149006" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope type="卷" n="12">卷一二</biblScope></bibl>（大正<ref type="taisho" target="#vol:25;page:p150a">二五．一五〇上</ref>）。卷二〇（大正<ref target="#vol:25;page:p207b" type="taisho">二五．二〇七中</ref>）。</note>。這就是<cit><bibl><title level="m">《維摩詰經》</title>所說：</bibl><quote>「但除其病而不除法，為斷病本而教導之。何謂病本？
-<lb n="0149a14" ed="Y"/>謂有攀緣」</quote></cit>的意思<note n="0149007" resp="釋印順" type="orig"><bibl><title level="m">《維摩詰所說經》</title><biblScope type="卷" n="中">卷中</biblScope></bibl>（大正<ref target="#vol:14;page:p545a" type="taisho">一四．五四五上</ref>）。</note>。攀緣，玄奘譯作「緣慮」。大概的說，「佛法」重在破愛著。由於部派分
+<lb n="0149a11" ed="Y"/><quote><p xml:id="pY34p0149a1101" style="margin-left:3em">「般若波羅蜜中，但除邪見而不破四緣」。</p></quote>
+<lb n="0149a12" ed="Y"/><p xml:id="pY34p0149a1201" style="text-indent:2em"><quote>「佛為破妄見故，言三事不可得，實無所破」</quote>；<quote>「是法空，諸佛以憐愍心，為斷愛結、除邪
+<lb n="0149a13" ed="Y"/>見故說」</quote><note n="0149006" resp="釋印順" type="orig"><bibl><title level="m">《大智度論》</title><biblScope n="12" type="卷">卷一二</biblScope></bibl>（大正<ref target="#vol:25;page:p150a" type="taisho">二五．一五〇上</ref>）。卷二〇（大正<ref target="#vol:25;page:p207b" type="taisho">二五．二〇七中</ref>）。</note>。這就是<cit><bibl><title level="m">《維摩詰經》</title>所說：</bibl><quote>「但除其病而不除法，為斷病本而教導之。何謂病本？
+<lb n="0149a14" ed="Y"/>謂有攀緣」</quote></cit>的意思<note n="0149007" resp="釋印順" type="orig"><bibl><title level="m">《維摩詰所說經》</title><biblScope n="中" type="卷">卷中</biblScope></bibl>（大正<ref target="#vol:14;page:p545a" type="taisho">一四．五四五上</ref>）。</note>。攀緣，玄奘譯作「緣慮」。大概的說，「佛法」重在破愛著。由於部派分
 <lb n="0149a15" ed="Y"/>化而異說紛紜，外道的反對聲也漸高，都在義理上兜圈子，辯論上下功夫，這所以「一切法空」
 <pb n="0150a" ed="Y" xml:id="Y34.0032.0150a"/>
 <lb n="0150a01" ed="Y"/>說應運而生，重在破邪了。如於一切法不生愛著，於一切法不「自以為是」，那緣起法本來如此
-<lb n="0150a02" ed="Y"/>，有什麼可破的！提婆的<bibl><title level="m">《大乘廣百論釋論》</title><biblScope type="卷" n="8">卷八</biblScope></bibl><note place="inline">大正<ref type="taisho" target="#vol:30;page:p236a">三〇．二三六上</ref></note>說：</p>
-<lb n="0150a03" ed="Y"/><quote><p style="margin-left:3em">「識為諸有種，境是識所行，見境無我時，諸有種皆滅」。</p></quote>
-<lb n="0150a04" ed="Y"/><p style="text-indent:2em">或者以為：<quote>「見境無我」</quote>，是破境，這是境空而心不起的意思。其實，提婆所說，是本於<bibl><title level="m">《
-<lb n="0150a05" ed="Y"/>雜阿含經》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>的，如<note place="inline">大正<ref type="taisho" target="#vol:2;page:p9a">二．九上</ref></note>說：</p>
-<lb n="0150a06" ed="Y"/><quote><p style="margin-left:3em">「種子者，譬取陰俱識。地界者，譬（色、受、想、行）四識住。水界者，譬貪喜四取攀
+<lb n="0150a02" ed="Y"/>，有什麼可破的！提婆的<bibl><title level="m">《大乘廣百論釋論》</title><biblScope n="8" type="卷">卷八</biblScope></bibl><note place="inline">大正<ref target="#vol:30;page:p236a" type="taisho">三〇．二三六上</ref></note>說：</p>
+<lb n="0150a03" ed="Y"/><quote><p xml:id="pY34p0150a0301" style="margin-left:3em">「識為諸有種，境是識所行，見境無我時，諸有種皆滅」。</p></quote>
+<lb n="0150a04" ed="Y"/><p xml:id="pY34p0150a0401" style="text-indent:2em">或者以為：<quote>「見境無我」</quote>，是破境，這是境空而心不起的意思。其實，提婆所說，是本於<bibl><title level="m">《
+<lb n="0150a05" ed="Y"/>雜阿含經》</title><biblScope n="2" type="卷">卷二</biblScope></bibl>的，如<note place="inline">大正<ref target="#vol:2;page:p9a" type="taisho">二．九上</ref></note>說：</p>
+<lb n="0150a06" ed="Y"/><quote><p xml:id="pY34p0150a0601" style="margin-left:3em">「種子者，譬取陰俱識。地界者，譬（色、受、想、行）四識住。水界者，譬貪喜四取攀
 <lb n="0150a07" ed="Y"/>緣識住」。</p></quote>
-<lb n="0150a08" ed="Y"/><quote><p style="margin-left:3em">「色（受、想、行）界離貪；離貪已，於色封滯意生縛斷；於色封滯意生縛斷已，攀緣斷
+<lb n="0150a08" ed="Y"/><quote><p xml:id="pY34p0150a0801" style="margin-left:3em">「色（受、想、行）界離貪；離貪已，於色封滯意生縛斷；於色封滯意生縛斷已，攀緣斷
 <lb n="0150a09" ed="Y"/>；攀緣斷已，識無住處，不復生長增廣」。<note n="0150008" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（二二）<title level="a">〈蘊相應〉</title></bibl>（南傳一四．八五——八七）。</note></p></quote>
-<lb n="0150a10" ed="Y"/><p style="text-indent:2em">識（<foreign xml:lang="sa">vijñāna</foreign>）是有取識，為流轉三有的種子。為什麼是三有種？因為識在色、受、想、行
+<lb n="0150a10" ed="Y"/><p xml:id="pY34p0150a1001" style="text-indent:2em">識（<foreign xml:lang="sa">vijñāna</foreign>）是有取識，為流轉三有的種子。為什麼是三有種？因為識在色、受、想、行
 <lb n="0150a11" ed="Y"/>——四處住（四識住）。識行境時，由於貪喜的染著繫縛，取識攀緣不捨而成流轉三有的種子。
 <lb n="0150a12" ed="Y"/>如離愛，識行境時就不為貪喜所縛而攀緣不捨，那就識無住處——<quote>「三有種當滅」</quote>了。黑牛與白
 <lb n="0150a13" ed="Y"/>牛相繫的譬喻，也是同一意義，不過約根境說：<quote>「非意繫法，非法繫意。……於其中間，若彼欲
-<lb n="0150a14" ed="Y"/>貪，是其繫也」</quote><note n="0150009" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="9">卷九</biblScope></bibl>（大正<ref type="taisho" target="#vol:2;page:p60b">二．六〇中</ref>）。<bibl><title level="m">《相應部》</title>（三五）<title level="a">〈<space quantity="0"/>處相應〉</title></bibl>（南傳一五．二六〇——二六一）。</note><note n="0150009" resp="正聞出版社" type="mod"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="9">卷九</biblScope></bibl>（大正<ref type="taisho" target="#vol:2;page:p60b">二．六〇中</ref>）。<bibl><title level="m">《相應部》</title>（三五）<title level="a">〈六處相應〉</title></bibl>（南傳一五．二六〇——二六一）。</note>。依<title level="m">《維摩經》</title>說：只因攀緣三界，起有無見，如不起二見，那就都無所得，
+<lb n="0150a14" ed="Y"/>貪，是其繫也」</quote><note n="0150009" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="9" type="卷">卷九</biblScope></bibl>（大正<ref target="#vol:2;page:p60b" type="taisho">二．六〇中</ref>）。<bibl><title level="m">《相應部》</title>（三五）<title level="a">〈<space quantity="0"/>處相應〉</title></bibl>（南傳一五．二六〇——二六一）。</note><note n="0150009" resp="正聞出版社" type="mod"><bibl><title level="m">《雜阿含經》</title><biblScope n="9" type="卷">卷九</biblScope></bibl>（大正<ref target="#vol:2;page:p60b" type="taisho">二．六〇中</ref>）。<bibl><title level="m">《相應部》</title>（三五）<title level="a">〈六處相應〉</title></bibl>（南傳一五．二六〇——二六一）。</note>。依<title level="m">《維摩經》</title>說：只因攀緣三界，起有無見，如不起二見，那就都無所得，
 <lb n="0150a15" ed="Y"/>攀緣——生死病根也就斷了。<title level="m">《阿含》</title>與<title level="m">《大乘經》</title>一脈相通，不過<title level="m">《阿含》</title>重在離愛（<foreign xml:lang="sa">tṛṣṇā</foreign>, <foreign xml:lang="x-sa-pi">anunaya</foreign>）
 <pb n="0151a" ed="Y" xml:id="Y34.0032.0151a"/>
 <lb n="0151a01" ed="Y"/>，大乘重在離見（<foreign xml:lang="sa">dṛṣṭi</foreign>）。生死病根的「攀緣」，不是能緣，也不是所緣，是能所相關

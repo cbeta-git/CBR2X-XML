@@ -12,65 +12,85 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/01</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/01</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>12卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 16, No. 16</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>12卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">16</idno>.<idno type="no">16</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">以佛法研究佛法</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">三、「法」之研究</cb:mulu><cb:mulu level="2" type="其他">六　意識所識的法</cb:mulu>
-<milestone unit="juan" n="4"/><pb n="0131a" ed="Y" xml:id="Y16.0016.0131a.old" type="old"/>
+<milestone n="4" unit="juan"/><pb n="0131a" ed="Y" xml:id="Y16.0016.0131a.old" type="old"/>
 <pb n="0131a" ed="Y" xml:id="Y16.0016.0131a"/>
 <lb n="0131a01" ed="Y"/><lb n="0131a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">四、密教之興與佛教之滅——《印度之佛教》第十七章</cb:mulu><head>密教之興與佛教之滅
-<lb n="0131a02" ed="Y"/><lb n="0131a02" ed="Y" type="old"/>——<bibl><title level="m">《印度之佛教》</title><biblScope type="chap" n="17">第十七章</biblScope></bibl>——<note n="0131001" resp="DILA" type="add">民國三二年撰。</note></head>
+<lb n="0131a02" ed="Y"/><lb n="0131a02" ed="Y" type="old"/>——<bibl><title level="m">《印度之佛教》</title><biblScope n="17" type="chap">第十七章</biblScope></bibl>——<note n="0131001" resp="DILA" type="add">民國三二年撰。</note></head>
 <lb n="0131a03" ed="Y"/><lb n="0131a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　祕密思想之濫觴</cb:mulu><head>一　祕密思想之濫觴</head>
-<lb n="0131a04" ed="Y"/><lb n="0131a04" ed="Y" type="old"/><p style="text-indent:2em">佛元八世紀以降，祕密教日見風行，以身語意三密相應行，求得世出世之成
+<lb n="0131a04" ed="Y"/><lb n="0131a04" ed="Y" type="old"/><p xml:id="pY16p0131a0401" style="text-indent:2em">佛元八世紀以降，祕密教日見風行，以身語意三密相應行，求得世出世之成
 <lb n="0131a05" ed="Y"/><lb n="0131a05" ed="Y" type="old"/>就果也。密咒遠源於吠陀之咒術，信咒語有神祕之能力；藉表徵物與咒力，以利
 <lb n="0131a06" ed="Y"/><lb n="0131a06" ed="Y" type="old"/>用神鬼精魅，俾達其目的。表徵物及密咒，乃至身體之動作，常若有神力於其間
 <lb n="0131a07" ed="Y"/><lb n="0131a07" ed="Y" type="old"/>者。咒法之作用，分「息災」、「咒詛」、「開運」，或加「幻術」為四類，此
 <lb n="0131a08" ed="Y"/><lb n="0131a08" ed="Y" type="old"/>與祕密教之「息災」、「調伏」、「增益」，大致相同。原印度文明以<title level="m">《梨俱吠
-<lb n="0131a09" ed="Y"/><lb n="0131a09" ed="Y" type="old"/>陀》</title>為本；次組織補充之，成為<title level="m"><note n="0131a0901" resp="CBETA" type="add" subtype="規範字詞">沙磨吠陀【CB】，沙磨【印順】</note><app n="0131a0901"><lem wit="【CB】" resp="CBETA">《沙磨吠陀》</lem><rdg wit="【印順】">《沙磨》</rdg></app></title>、<title level="m"><note n="0131a0902" resp="CBETA" type="add" subtype="規範字詞">夜柔吠陀【CB】，夜柔【印順】</note><app n="0131a0902"><lem wit="【CB】" resp="CBETA">《夜柔吠陀》</lem><rdg wit="【印順】">《夜柔》</rdg></app></title>二吠陀。是三者，雖崇事神
+<lb n="0131a09" ed="Y"/><lb n="0131a09" ed="Y" type="old"/>陀》</title>為本；次組織補充之，成為<title level="m"><note n="0131a0901" resp="CBETA" type="add" subtype="規範字詞">沙磨吠陀【CB】，沙磨【印順】</note><app n="0131a0901"><lem resp="CBETA" wit="【CB】">《沙磨吠陀》</lem><rdg wit="【印順】">《沙磨》</rdg></app></title>、<title level="m"><note n="0131a0902" resp="CBETA" type="add" subtype="規範字詞">夜柔吠陀【CB】，夜柔【印順】</note><app n="0131a0902"><lem resp="CBETA" wit="【CB】">《夜柔吠陀》</lem><rdg wit="【印順】">《夜柔》</rdg></app></title>二吠陀。是三者，雖崇事神
 <lb n="0131a10" ed="Y"/><lb n="0131a10" ed="Y" type="old"/>權，而末流成「祭祀萬能」，意象尚稱高潔，總名之曰「三明」。別有<title level="m">《阿闥婆<pb n="0132a" ed="Y" xml:id="Y16.0016.0132a.old" type="old"/>
 <pb n="0132a" ed="Y" xml:id="Y16.0016.0132a"/>
 <lb n="0132a01" ed="Y"/><lb n="0132a01" ed="Y" type="old"/>吠陀》</title>，以咒術為中心，乃鬼魅幽靈之崇拜，用以適應低級趣味者。釋尊出世，
-<lb n="0132a02" ed="Y"/><lb n="0132a02" ed="Y" type="old"/>斥婆羅門三明，而猶略事含容。於咒法、幻術，則拒之惟恐不及。<cit><bibl><title level="m"><note n="0132a0201" resp="CBETA" type="add" subtype="規範字詞">雜阿含經【CB】，雜阿含【印順】</note><app n="0132a0201"><lem wit="【CB】" resp="CBETA">《雜阿含經》</lem><rdg wit="【印順】">《雜阿含》</rdg></app></title>云
+<lb n="0132a02" ed="Y"/><lb n="0132a02" ed="Y" type="old"/>斥婆羅門三明，而猶略事含容。於咒法、幻術，則拒之惟恐不及。<cit><bibl><title level="m"><note n="0132a0201" resp="CBETA" type="add" subtype="規範字詞">雜阿含經【CB】，雜阿含【印順】</note><app n="0132a0201"><lem resp="CBETA" wit="【CB】">《雜阿含經》</lem><rdg wit="【印順】">《雜阿含》</rdg></app></title>云
 <lb n="0132a03" ed="Y"/><lb n="0132a03" ed="Y" type="old"/>：</bibl><quote type="嚴謹引文">「幻術皆是虛誑法，令人墮地獄。」</quote><note n="0132001" resp="厚觀法師" type="add">《雜阿含經》卷40(CBETA, T02, no. 99, p. 296, b15-16)</note></cit>巴利藏之<title level="m">《小品》</title>、<title level="m">《三明》</title>、<title level="m">《釋塔尼
 <lb n="0132a04" ed="Y"/>波<lb n="0132a04" ed="Y" type="old"/>陀經》</title>，並嚴禁之。其後，「阿含」、「毘奈耶」間有雜入，然見於現存經律
 <lb n="0132a05" ed="Y"/>者<lb n="0132a05" ed="Y" type="old"/>，以治病為主。佛滅二百年，分別說系之法藏部，推尊目連，盛說鬼神，始傳
 <lb n="0132a06" ed="Y"/>有<lb n="0132a06" ed="Y" type="old"/>「咒藏」之說。</p>
-<lb n="0132a07" ed="Y"/><lb n="0132a07" ed="Y" type="old"/><p style="text-indent:2em">大乘佛教與祕密，無必然之關係，然大乘佛教之興起，則確予祕密思想以活
+<lb n="0132a07" ed="Y"/><lb n="0132a07" ed="Y" type="old"/><p xml:id="pY16p0132a0701" style="text-indent:2em">大乘佛教與祕密，無必然之關係，然大乘佛教之興起，則確予祕密思想以活
 <lb n="0132a08" ed="Y"/><lb n="0132a08" ed="Y" type="old"/>躍之機。大乘仰聖者功德之崇高，昔之世出世善並由自力以致之者，今則佛力無
 <lb n="0132a09" ed="Y"/><lb n="0132a09" ed="Y" type="old"/>量，菩薩願大，他力加持之思想乃勃興。菩薩遍入六道，龍、鬼、夜叉中，自應
 <lb n="0132a10" ed="Y"/><lb n="0132a10" ed="Y" type="old"/>有菩薩存在。而佛弟子之編集遺聞，融攝世俗，既以魔王及外道師宗多菩薩之示
@@ -86,7 +106,7 @@
 <lb n="0133a06" ed="Y"/><lb n="0133a06" ed="Y" type="old"/>傳出；密典多以祕密主或金剛手為當機者，其間之關係，固顯然可見也。大乘佛
 <lb n="0133a07" ed="Y"/><lb n="0133a07" ed="Y" type="old"/>教之演化為密教，雖千頭萬緒，而菩薩與外道、龍、鬼、夜叉之合化，為一特要
 <lb n="0133a08" ed="Y"/><lb n="0133a08" ed="Y" type="old"/>之因素也。</p>
-<lb n="0133a09" ed="Y"/><lb n="0133a09" ed="Y" type="old"/><p style="text-indent:2em"><title level="m"><note n="0133a0901" resp="CBETA" type="add" subtype="規範字詞">般若經【CB】，般若【印順】</note><app n="0133a0901"><lem wit="【CB】" resp="CBETA">《般若經》</lem><rdg wit="【印順】">《般若》</rdg></app></title>、<title level="m"><note n="0133a0902" resp="CBETA" type="add" subtype="規範字詞">華嚴經【CB】，華嚴【印順】</note><app n="0133a0902"><lem wit="【CB】" resp="CBETA">《華嚴經》</lem><rdg wit="【印順】">《華嚴》</rdg></app></title>之字門陀羅尼，亦予祕密法以有力之根據。大眾部<quote source="T49n2031_p0015c19" type="嚴謹引文">「苦
+<lb n="0133a09" ed="Y"/><lb n="0133a09" ed="Y" type="old"/><p xml:id="pY16p0133a0901" style="text-indent:2em"><title level="m"><note n="0133a0901" resp="CBETA" type="add" subtype="規範字詞">般若經【CB】，般若【印順】</note><app n="0133a0901"><lem resp="CBETA" wit="【CB】">《般若經》</lem><rdg wit="【印順】">《般若》</rdg></app></title>、<title level="m"><note n="0133a0902" resp="CBETA" type="add" subtype="規範字詞">華嚴經【CB】，華嚴【印順】</note><app n="0133a0902"><lem resp="CBETA" wit="【CB】">《華嚴經》</lem><rdg wit="【印順】">《華嚴》</rdg></app></title>之字門陀羅尼，亦予祕密法以有力之根據。大眾部<quote source="T49n2031_p0015c19" type="嚴謹引文">「苦
 <lb n="0133a10" ed="Y"/><lb n="0133a10" ed="Y" type="old"/>言能助」<note n="0133001" resp="謝淑歆" type="add">《異部宗輪論》卷1(CBETA, T49, no. 2031, p. 15, c19)</note></quote>，開音聲佛事之始。至字門陀羅尼，則藉字母之含義，聞聲思義，因之
 <lb n="0133a11" ed="Y"/><lb n="0133a11" ed="Y" type="old"/>悟入一切法之實相。如「阿」字是「無」義，「不」義，聞唱阿字，即悟入一切
 <lb n="0133a12" ed="Y"/><lb n="0133a12" ed="Y" type="old"/>法本不生性；此深受婆羅門聲常住論之影響也。其初，猶以此聞聲顧義為悟入實
@@ -94,15 +114,15 @@
 <pb n="0134a" ed="Y" xml:id="Y16.0016.0134a"/>
 <lb n="0134a01" ed="Y"/><lb n="0134a01" ed="Y" type="old"/>密咒，用以為「息災」、「調伏」、「增益」，後則以密咒為成佛之妙方便。<quote source="T18n0863_p0195a13" type="嚴謹引文">「
 <lb n="0134a02" ed="Y"/><lb n="0134a02" ed="Y" type="old"/>阿字本不生」<note n="0134001" resp="謝淑歆" type="add">《大毘盧遮那經阿闍梨真實智品中阿闍梨住阿字觀門》卷1(CBETA, T18, no. 863, p. 195, a13)</note></quote>，固為其重要理論之一。</p>
-<lb n="0134a03" ed="Y"/><lb n="0134a03" ed="Y" type="old"/><p style="text-indent:2em">龍鬼神祕之思想，雖逐大乘道而漸盛，然初期大乘經中，助佛揚化及受化者
+<lb n="0134a03" ed="Y"/><lb n="0134a03" ed="Y" type="old"/><p xml:id="pY16p0134a0301" style="text-indent:2em">龍鬼神祕之思想，雖逐大乘道而漸盛，然初期大乘經中，助佛揚化及受化者
 <lb n="0134a04" ed="Y"/><lb n="0134a04" ed="Y" type="old"/>，多為人身菩薩，猶以入世利生、深智悟真為本。此期之經典，密咒之成分漸多
 <lb n="0134a05" ed="Y"/><lb n="0134a05" ed="Y" type="old"/>，然多用以護持佛法，未視為成佛之道。且此項密咒，亦多後代增附之。如<cit><bibl><title level="m">《般
 <lb n="0134a06" ed="Y"/><lb n="0134a06" ed="Y" type="old"/>若經》</title>本無咒，雖說</bibl><quote type="嚴謹引文">「是大神呪，是大明呪，是無上呪，是無等等呪，是一切呪
-<lb n="0134a07" ed="Y"/><lb n="0134a07" ed="Y" type="old"/>王」</quote><note n="0134002" resp="厚觀法師" type="add">《大般若波羅蜜多經(第1卷-第200卷)》卷105〈30 校量功德品〉(CBETA, T05, no. 220, p. 580, c5-6)</note></cit>，實以喻讚般若之特尊。後人集出<title level="a">〈<note n="0134a0701" resp="CBETA" type="add">相應【CB】，學觀【印順】</note><app n="0134a0701"><lem wit="【CB】" resp="正聞出版社">相應</lem><rdg wit="【印順】">學觀</rdg></app>品〉</title>要成<cit><bibl><title level="m">《般若心經》</title>，則加以</bibl><quote source="T08n0251_p0848c21" type="嚴謹引文">「
+<lb n="0134a07" ed="Y"/><lb n="0134a07" ed="Y" type="old"/>王」</quote><note n="0134002" resp="厚觀法師" type="add">《大般若波羅蜜多經(第1卷-第200卷)》卷105〈30 校量功德品〉(CBETA, T05, no. 220, p. 580, c5-6)</note></cit>，實以喻讚般若之特尊。後人集出<title level="a">〈<note n="0134a0701" resp="CBETA" type="add">相應【CB】，學觀【印順】</note><app n="0134a0701"><lem resp="正聞出版社" wit="【CB】">相應</lem><rdg wit="【印順】">學觀</rdg></app>品〉</title>要成<cit><bibl><title level="m">《般若心經》</title>，則加以</bibl><quote source="T08n0251_p0848c21" type="嚴謹引文">「
 <lb n="0134a08" ed="Y"/><lb n="0134a08" ed="Y" type="old"/>即說咒曰」</quote><note n="0134003" resp="謝淑歆" type="add">《般若波羅蜜多心經》卷1(CBETA, T08, no. 251, p. 848, c21)</note></cit>云云。<title level="m">《法華經》</title>本無咒，而<title level="a">〈囑累品〉</title>以後之附編者，有<title level="a">〈陀羅尼
 <lb n="0134a09" ed="Y"/><lb n="0134a09" ed="Y" type="old"/>品〉</title><note n="0134004" resp="謝淑歆" type="add">《妙法蓮華經》卷7〈26 陀羅尼品〉(CBETA, T09, no. 262, p. 58, b8-p. 59, b27)</note>。<title level="m">《仁王經》</title>、<title level="m">《理趣經》</title>本無咒，唐譯則有。凡此皆足以見初期大乘之猶
 <lb n="0134a10" ed="Y"/><lb n="0134a10" ed="Y" type="old"/>未太濫也。</p>
-<lb n="0134a11" ed="Y"/><lb n="0134a11" ed="Y" type="old"/><p style="text-indent:2em">密教亦稱瑜伽教，與瑜伽者之關切特深。詳解脫之道，唯八正道，即三增上
+<lb n="0134a11" ed="Y"/><lb n="0134a11" ed="Y" type="old"/><p xml:id="pY16p0134a1101" style="text-indent:2em">密教亦稱瑜伽教，與瑜伽者之關切特深。詳解脫之道，唯八正道，即三增上
 <lb n="0134a12" ed="Y"/><lb n="0134a12" ed="Y" type="old"/>學。以正見、正思之慧學為眼目，以正語、正業、正命之戒學為足。必心懷明潔
 <lb n="0134a13" ed="Y"/><lb n="0134a13" ed="Y" type="old"/>，行止無瑕，而後以勇猛精進心，因正念以入正定（定學）。止觀相應，乃得斷<pb n="0135a" ed="Y" xml:id="Y16.0016.0135a.old" type="old"/>
 <pb n="0135a" ed="Y" xml:id="Y16.0016.0135a"/>
@@ -124,7 +144,7 @@
 <lb n="0136a02" ed="Y"/><lb n="0136a02" ed="Y" type="old"/>初出虛妄唯識論，又伴真常唯心論而大出密法。南北瑜伽者合流，三密瑜伽之教
 <lb n="0136a03" ed="Y"/><lb n="0136a03" ed="Y" type="old"/>乃盛行矣！</p></cb:div>
 <lb n="0136a04" ed="Y"/><lb n="0136a04" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　祕密教之傳布</cb:mulu><head>二　祕密教之傳布</head>
-<lb n="0136a05" ed="Y"/><lb n="0136a05" ed="Y" type="old"/><p style="text-indent:2em">祕密法雖逐大乘而起，然獨立而成所謂呾特羅乘，則遠在其後。密乘學者欲
+<lb n="0136a05" ed="Y"/><lb n="0136a05" ed="Y" type="old"/><p xml:id="pY16p0136a0501" style="text-indent:2em">祕密法雖逐大乘而起，然獨立而成所謂呾特羅乘，則遠在其後。密乘學者欲
 <lb n="0136a06" ed="Y"/><lb n="0136a06" ed="Y" type="old"/>託古以自厚，乃謂昔已有之，且大弘於龍樹。於佛教名德，如提婆、無著輩，莫
 <lb n="0136a07" ed="Y"/><lb n="0136a07" ed="Y" type="old"/>不引以為密乘大師；傳說之紛雜，亦已極矣！西藏傳密乘有事部、行部、瑜伽部
 <lb n="0136a08" ed="Y"/><lb n="0136a08" ed="Y" type="old"/>、無上瑜伽部——四部。我國舊傳之密乘而流入日本者，有胎藏、金剛二大部，
@@ -138,7 +158,7 @@
 <lb n="0137a03" ed="Y"/><lb n="0137a03" ed="Y" type="old"/>觀想。其觀想本尊，則召請一外來之本尊而觀之，修畢則送之還，未直觀自身即
 <lb n="0137a04" ed="Y"/><lb n="0137a04" ed="Y" type="old"/>佛也（大都如此）。於祕密教之發展中，事部乃其未臻圓熟之初型，其流出實先
 <lb n="0137a05" ed="Y"/><lb n="0137a05" ed="Y" type="old"/>於真常唯心論之盛行。佛元七世紀之末，（晉永嘉中）帛尸梨密多羅，即以善持
-<lb n="0137a06" ed="Y"/><lb n="0137a06" ed="Y" type="old"/>咒術稱，來華譯出<title level="m"><note n="0137a0601" resp="CBETA" type="add" subtype="規範字詞">孔雀明王經【CB】，孔雀明王【印順】</note><app n="0137a0601"><lem wit="【CB】" resp="CBETA">《孔雀明王經》</lem><rdg wit="【印順】">《孔雀明王》</rdg></app></title>、<title level="m">《灌頂神咒經》</title>矣。初期之雜密，與北印之瑜
+<lb n="0137a06" ed="Y"/><lb n="0137a06" ed="Y" type="old"/>咒術稱，來華譯出<title level="m"><note n="0137a0601" resp="CBETA" type="add" subtype="規範字詞">孔雀明王經【CB】，孔雀明王【印順】</note><app n="0137a0601"><lem resp="CBETA" wit="【CB】">《孔雀明王經》</lem><rdg wit="【印順】">《孔雀明王》</rdg></app></title>、<title level="m">《灌頂神咒經》</title>矣。初期之雜密，與北印之瑜
 <lb n="0137a07" ed="Y"/><lb n="0137a07" ed="Y" type="old"/>伽師有關。<cit><bibl><title level="m">《西域記》</title>謂北印烏仗那人</bibl><quote type="嚴謹引文">「特閑禁呪」</quote><note n="0137001" resp="厚觀法師" type="add">《大唐西域記》卷3：「烏仗那國，……，特閑禁呪。律儀傳訓，有五部焉：一法密部，二化地部，三飲光部，四說一切有部，五大眾部。天祠十有餘所，異道雜居。[34]堅城四五，其王多治瞢揭釐城。城周十六七里，居人殷盛。」(CBETA, T51, no. 2087, p. 882, b10-23)</note></cit>，秣底補羅亦以「深閑呪術
 <lb n="0137a08" ed="Y"/>」<note n="0137002" resp="厚觀法師" type="add">《大唐西域記》卷4：「秣底補羅國，周六[19]千餘里。國大都城周二十餘里。宜穀、麥，多華果。氣序和暢，風俗淳質。崇尚學藝，深閑呪[20]術。信邪正者，其徒相半。王，戍[21]達羅種也，不信佛法，敬事天神。伽藍十餘所，僧徒八百餘人，多學小乘教說一切有部。天祠五十餘所，異道[22]雜居。」(CBETA, T51, no. 2087, p. 891, b21-26)[19]千＝十【甲】。[20]〔術〕－【甲】。[21]達＝陀【宋】【元】【明】【甲】【乙】。[22]雜＝親【甲】。</note><lb n="0137a08" ed="Y" type="old"/>著稱。西藏傳僧護以前，祕密法不無流行，烏仗那人多有得持明位者。初期來
 <lb n="0137a09" ed="Y"/>華<lb n="0137a09" ed="Y" type="old"/>傳譯密典與精閑咒術者，多北印及西域之龜茲人。龜茲之帛尸梨密多羅，善持
@@ -147,8 +167,8 @@
 <lb n="0137a12" ed="Y"/>隋<lb n="0137a12" ed="Y" type="old"/>世廣出咒典。沿雪山而住之瑜伽師，內有所見於定境，外有所取於民俗之咒術
 <lb n="0137a13" ed="Y"/>，<lb n="0137a13" ed="Y" type="old"/>以之自護，以之教他，事部乃漸行。</p><pb n="0138a" ed="Y" xml:id="Y16.0016.0138a.old" type="old"/>
 <pb n="0138a" ed="Y" xml:id="Y16.0016.0138a"/>
-<lb n="0138a01" ed="Y"/><lb n="0138a01" ed="Y" type="old"/><p style="text-indent:2em">密乘之流布，常途多託始於龍樹，其初指<title level="m">《大日經》</title>而言，請一論龍樹師資
-<lb n="0138a02" ed="Y"/><lb n="0138a02" ed="Y" type="old"/>之傳承。什公來華，惟傳龍樹、提婆，青目等之傳承不明。<title level="m"><note n="0138a0201" resp="CBETA" type="add" subtype="規範字詞">付法藏因緣傳【CB】，付法藏傳【印順】</note><app n="0138a0201"><lem wit="【CB】" resp="CBETA">《付法藏因緣傳》</lem><rdg wit="【印順】">《付法藏傳》</rdg></app></title>謂提婆
+<lb n="0138a01" ed="Y"/><lb n="0138a01" ed="Y" type="old"/><p xml:id="pY16p0138a0101" style="text-indent:2em">密乘之流布，常途多託始於龍樹，其初指<title level="m">《大日經》</title>而言，請一論龍樹師資
+<lb n="0138a02" ed="Y"/><lb n="0138a02" ed="Y" type="old"/>之傳承。什公來華，惟傳龍樹、提婆，青目等之傳承不明。<title level="m"><note n="0138a0201" resp="CBETA" type="add" subtype="規範字詞">付法藏因緣傳【CB】，付法藏傳【印順】</note><app n="0138a0201"><lem resp="CBETA" wit="【CB】">《付法藏因緣傳》</lem><rdg wit="【印順】">《付法藏傳》</rdg></app></title>謂提婆
 <lb n="0138a03" ed="Y"/><lb n="0138a03" ed="Y" type="old"/>弟子羅睺羅；真諦傳羅睺羅以常樂我淨釋八不，性空者之轉入真常，可考見者，
 <lb n="0138a04" ed="Y"/><lb n="0138a04" ed="Y" type="old"/>自此人始。西藏傳羅睺羅弟子有龍友，龍友弟子僧護。龍友之與龍樹，傳說頗為
 <lb n="0138a05" ed="Y"/><lb n="0138a05" ed="Y" type="old"/>紊亂。龍友之師為羅睺羅（跋陀羅），俗乃傳龍樹之師亦為羅睺羅，其訛傳蓋可
@@ -161,8 +181,8 @@
 <lb n="0138a12" ed="Y"/><lb n="0138a12" ed="Y" type="old"/>弟子歟！事部乃咒法發展之雛形；其融攝真常之深理，以三密為行法，組成事理
 <lb n="0138a13" ed="Y"/><lb n="0138a13" ed="Y" type="old"/>圓具之密典，疑即龍叫、龍智其人。</p><pb n="0139a" ed="Y" xml:id="Y16.0016.0139a.old" type="old"/>
 <pb n="0139a" ed="Y" xml:id="Y16.0016.0139a"/>
-<lb n="0139a01" ed="Y"/><lb n="0139a01" ed="Y" type="old"/><p style="text-indent:2em">行部之流行較早，以<quote source="T18n0848_p0001b29-c01" type="寬鬆引文">「菩提心為因，大悲為根（本），方便而至究竟」<note n="0139001" resp="謝淑歆" type="add">(1)《大毘盧遮那成佛神變加持經》卷1〈1 入真言門住心品〉：「菩提心為因。悲為根本。方便為究竟」(CBETA, T18, no. 848, p. 1, b29-c1)；(2)《兩部大法相承師資付法記》卷2：「菩提心為因。大悲為根方便為究竟」(CBETA, T51, no. 2081, p. 786, a9)</note></quote>三句
-<lb n="0139a02" ed="Y"/><lb n="0139a02" ed="Y" type="old"/>義為大本。明十緣生句，頗類於<title level="m"><note n="0139a0201" resp="CBETA" type="add" subtype="規範字詞">般若經【CB】，般若【印順】</note><app n="0139a0201"><lem wit="【CB】" resp="CBETA">《般若經》</lem><rdg wit="【印順】">《般若》</rdg></app></title>之說。然菩提心指自心本具真常性德，
+<lb n="0139a01" ed="Y"/><lb n="0139a01" ed="Y" type="old"/><p xml:id="pY16p0139a0101" style="text-indent:2em">行部之流行較早，以<quote source="T18n0848_p0001b29-c01" type="寬鬆引文">「菩提心為因，大悲為根（本），方便而至究竟」<note n="0139001" resp="謝淑歆" type="add">(1)《大毘盧遮那成佛神變加持經》卷1〈1 入真言門住心品〉：「菩提心為因。悲為根本。方便為究竟」(CBETA, T18, no. 848, p. 1, b29-c1)；(2)《兩部大法相承師資付法記》卷2：「菩提心為因。大悲為根方便為究竟」(CBETA, T51, no. 2081, p. 786, a9)</note></quote>三句
+<lb n="0139a02" ed="Y"/><lb n="0139a02" ed="Y" type="old"/>義為大本。明十緣生句，頗類於<title level="m"><note n="0139a0201" resp="CBETA" type="add" subtype="規範字詞">般若經【CB】，般若【印順】</note><app n="0139a0201"><lem resp="CBETA" wit="【CB】">《般若經》</lem><rdg wit="【印順】">《般若》</rdg></app></title>之說。然菩提心指自心本具真常性德，
 <lb n="0139a03" ed="Y"/><lb n="0139a03" ed="Y" type="old"/>方便則多明隨機適化之行，可謂真常化之般若也。瑜伽部之<title level="m">《金剛頂經》</title>，明五
 <lb n="0139a04" ed="Y"/><lb n="0139a04" ed="Y" type="old"/>智成身，蓋後於唯心論之盛行。行部、瑜伽部之流行，已漸自北印而移入南中。
 <lb n="0139a05" ed="Y"/><lb n="0139a05" ed="Y" type="old"/>後期之性空者，佛護、清辯弘法於南印，並轉入密乘。<title level="m">《西域記》</title>謂清辯入那羅
@@ -172,7 +192,7 @@
 <lb n="0139a09" ed="Y"/><lb n="0139a09" ed="Y" type="old"/>心、圓融、祕密、他力、頓成，融性空與唯識之學而無所不可。空有之交諍，僅
 <lb n="0139a10" ed="Y"/><lb n="0139a10" ed="Y" type="old"/>供祕密者之莊嚴而已。初無所偏於二家，其力崇中觀，則以龍智而下，性空者多
 <lb n="0139a11" ed="Y"/><lb n="0139a11" ed="Y" type="old"/>入密有以致之。</p>
-<lb n="0139a12" ed="Y"/><lb n="0139a12" ed="Y" type="old"/><p style="text-indent:2em">行部與瑜伽部之成立，在融攝世俗邊，可謂佛梵之綜合，此於胎藏界、金剛
+<lb n="0139a12" ed="Y"/><lb n="0139a12" ed="Y" type="old"/><p xml:id="pY16p0139a1201" style="text-indent:2em">行部與瑜伽部之成立，在融攝世俗邊，可謂佛梵之綜合，此於胎藏界、金剛
 <lb n="0139a13" ed="Y"/><lb n="0139a13" ed="Y" type="old"/>界之曼陀羅可知。惟其中有可注目者，即以在家菩薩（天人）形之大日如來為中<pb n="0140a" ed="Y" xml:id="Y16.0016.0140a.old" type="old"/>
 <pb n="0140a" ed="Y" xml:id="Y16.0016.0140a"/>
 <lb n="0140a01" ed="Y"/><lb n="0140a01" ed="Y" type="old"/>心，以金剛手等護翼之，釋迦及阿羅漢等，則退列於外圍。蓋以密者之見，印度
@@ -184,7 +204,7 @@
 <lb n="0140a07" ed="Y"/><lb n="0140a07" ed="Y" type="old"/>尊卑之倒置耳！舊傳羅睺羅跋陀羅，即婆羅門學者娑訶羅，而龍智亦一長壽婆羅
 <lb n="0140a08" ed="Y"/><lb n="0140a08" ed="Y" type="old"/>門。此時之佛教，常以佛化之婆羅門學者為其先導；其精神固已非僧非俗，亦佛
 <lb n="0140a09" ed="Y"/><lb n="0140a09" ed="Y" type="old"/>亦梵矣！</p>
-<lb n="0140a10" ed="Y"/><lb n="0140a10" ed="Y" type="old"/><p style="text-indent:2em">雖然，行部與瑜伽部，猶以人形之大日如來為中心也。次以密乘行者，於胎
+<lb n="0140a10" ed="Y"/><lb n="0140a10" ed="Y" type="old"/><p xml:id="pY16p0140a1001" style="text-indent:2em">雖然，行部與瑜伽部，猶以人形之大日如來為中心也。次以密乘行者，於胎
 <lb n="0140a11" ed="Y"/><lb n="0140a11" ed="Y" type="old"/>、金之圓融大法界中，特契於金剛明王。以大貪樂為攝引，大忿怒為折伏；大貪
 <lb n="0140a12" ed="Y"/><lb n="0140a12" ed="Y" type="old"/>大瞋而大慢，觀自身即本尊而修之。其中心之崇拜，為羅剎、夜叉，求其如大日
 <lb n="0140a13" ed="Y"/><lb n="0140a13" ed="Y" type="old"/>如來之人形，亦不易得矣。於此，吾人於古人之心境，似應有所諒解也。印度為<pb n="0141a" ed="Y" xml:id="Y16.0016.0141a.old" type="old"/>
@@ -197,14 +217,14 @@
 <lb n="0141a06" ed="Y"/><lb n="0141a06" ed="Y" type="old"/>已極於性空緣起，而菩薩僧之不立，政教形勢之限制，亦難以成入眾利濟之行。
 <lb n="0141a07" ed="Y"/><lb n="0141a07" ed="Y" type="old"/>大乘唯有趨於隨機適應，專精禪思發通以濟眾之途。自性空以入形而上之妙有，
 <lb n="0141a08" ed="Y"/><lb n="0141a08" ed="Y" type="old"/>自力以入他力，緣起以入唯心，無神而入有神，固有意無意而開始轉變者。馴致
-<lb n="0141a09" ed="Y"/><lb n="0141a09" ed="Y" type="old"/>形成梵佛之綜合，一反根本佛教之精神。然創始轉化者，似未嘗不知之。<title level="m"><note n="0141a1001" resp="CBETA" type="add" subtype="規範字詞">解深密經【CB】，深密經【印順】</note><app n="0141a1001"><lem wit="【CB】" resp="CBETA">《解深<lb n="0141a10" ed="Y" type="old"/>密
-<lb n="0141a10" ed="Y"/>經》</lem><rdg wit="【印順】">《深密<lb n="0141a10" ed="Y"/><lb n="0141a10" ed="Y" type="old"/>經》</rdg></app></title>明說為五事不具之鈍根，說依他自相有。<cit><bibl><title level="m"><note n="0141a1002" resp="CBETA" type="add" subtype="規範字詞">楞伽經【CB】，楞伽【印順】</note><app n="0141a1002"><lem wit="【CB】" resp="CBETA">《楞伽經》</lem><rdg wit="【印順】">《楞伽》</rdg></app></title>明真常唯心，而謂：</bibl><quote source="T16n0672_p0595a03-19" type="嚴謹引文">「言
+<lb n="0141a09" ed="Y"/><lb n="0141a09" ed="Y" type="old"/>形成梵佛之綜合，一反根本佛教之精神。然創始轉化者，似未嘗不知之。<title level="m"><note n="0141a1001" resp="CBETA" type="add" subtype="規範字詞">解深密經【CB】，深密經【印順】</note><app n="0141a1001"><lem resp="CBETA" wit="【CB】">《解深<lb n="0141a10" ed="Y" type="old"/>密
+<lb n="0141a10" ed="Y"/>經》</lem><rdg wit="【印順】">《深密<lb n="0141a10" ed="Y"/><lb n="0141a10" ed="Y" type="old"/>經》</rdg></app></title>明說為五事不具之鈍根，說依他自相有。<cit><bibl><title level="m"><note n="0141a1002" resp="CBETA" type="add" subtype="規範字詞">楞伽經【CB】，楞伽【印順】</note><app n="0141a1002"><lem resp="CBETA" wit="【CB】">《楞伽經》</lem><rdg wit="【印順】">《楞伽》</rdg></app></title>明真常唯心，而謂：</bibl><quote source="T16n0672_p0595a03-19" type="嚴謹引文">「言
 <lb n="0141a11" ed="Y"/><lb n="0141a11" ed="Y" type="old"/>心起眾相，開悟諸凡夫……若說真實者，彼心無真實。」</quote><note n="0141001" resp="謝淑歆" type="add">《大乘入楞伽經》卷2〈2 集一切法品〉(CBETA, T16, no. 672, p. 595, a3-19)</note></cit><cit><bibl><title level="m">《大日經》</title>明祕密法，
 <lb n="0141a12" ed="Y"/><lb n="0141a12" ed="Y" type="old"/>而謂：</bibl><quote type="嚴謹引文">「劣慧所不堪……兼存有相說。」</quote><note n="0141002" resp="厚觀法師" type="add">《大毘盧遮那成佛神變加持經》卷7〈5 真言事業品〉：「劣慧所不堪<space quantity="1" unit="chars"/>為應彼等故<space quantity="1" unit="chars"/>兼存有相說」(CBETA, T18, no. 848, p. 54, c25-26)</note></cit>古人非不知之，特欲以此為方便，攝世
 <lb n="0141a13" ed="Y"/>俗<lb n="0141a13" ed="Y" type="old"/>以向佛耳。其如始簡終鉅，真常唯心神祕之說，與生死心積習相應，乃一發而
 <pb n="0142a" ed="Y" xml:id="Y16.0016.0142a"/>
 <lb n="0142a01" ed="Y"/>不<pb n="0142a" ed="Y" xml:id="Y16.0016.0142a.old" type="old"/><lb n="0142a01" ed="Y" type="old"/>可收拾也。</p>
-<lb n="0142a02" ed="Y"/><lb n="0142a02" ed="Y" type="old"/><p style="text-indent:2em">前三部之流行，笈多朝以來三百餘年事也。若無上瑜伽，則後弘於波羅王朝
+<lb n="0142a02" ed="Y"/><lb n="0142a02" ed="Y" type="old"/><p xml:id="pY16p0142a0201" style="text-indent:2em">前三部之流行，笈多朝以來三百餘年事也。若無上瑜伽，則後弘於波羅王朝
 <lb n="0142a03" ed="Y"/><lb n="0142a03" ed="Y" type="old"/>。自伐彈那王朝傾覆，中印大亂，佛教之勢轉衰。有波羅王朝興，佛教乃賴以偏
 <lb n="0142a04" ed="Y"/><lb n="0142a04" ed="Y" type="old"/>安五百年，而成一異樣之繁榮。東方有瞿波羅王，起而統一藩伽羅國，西取摩竭
 <lb n="0142a05" ed="Y"/><lb n="0142a05" ed="Y" type="old"/>陀等地，創波羅王朝。王朝相承，凡十八世。夜叉波羅王為大臣羅婆斯那所篡，
@@ -234,7 +254,7 @@
 <lb n="0144a01" ed="Y"/><lb n="0144a01" ed="Y" type="old"/>曉五明，專弘密乘，於無上瑜伽之「勝樂」，尤所致意。其後座主之佼佼者，有
 <lb n="0144a02" ed="Y"/><lb n="0144a02" ed="Y" type="old"/>阿提峽師資，那露波師資等，以十七世羅摩波羅王朝之無畏現護為斯學之殿軍。
 <lb n="0144a03" ed="Y"/><lb n="0144a03" ed="Y" type="old"/>王朝多故，教界落寞，餘勢已奄奄欲息矣！</p>
-<lb n="0144a04" ed="Y"/><lb n="0144a04" ed="Y" type="old"/><p style="text-indent:2em">綜觀祕密教發展之勢，即鬼神崇拜而達於究竟。事部本為次第錯雜之傳出，
+<lb n="0144a04" ed="Y"/><lb n="0144a04" ed="Y" type="old"/><p xml:id="pY16p0144a0401" style="text-indent:2em">綜觀祕密教發展之勢，即鬼神崇拜而達於究竟。事部本為次第錯雜之傳出，
 <lb n="0144a05" ed="Y"/><lb n="0144a05" ed="Y" type="old"/>後人嘗董理而統攝之，分佛部（上），蓮華部（中），金剛部（下）之三部。佛
 <lb n="0144a06" ed="Y"/><lb n="0144a06" ed="Y" type="old"/>部以釋迦為部尊，文殊為部主；蓮華部以阿彌陀為部尊，觀世音為部主；金剛部
 <lb n="0144a07" ed="Y"/><lb n="0144a07" ed="Y" type="old"/>以不動為部尊，金剛手為部主。雖意在融攝鬼神，而尊卑之勢猶存。此三部，就
@@ -257,13 +277,13 @@
 <lb n="0145a10" ed="Y"/><lb n="0145a10" ed="Y" type="old"/>俱來，故特重金剛之雄猛法以制之。教法當機，義或近之。雖然，國難教難，五
 <lb n="0145a11" ed="Y"/><lb n="0145a11" ed="Y" type="old"/>大金剛其能救之乎！</p><pb n="0146a" ed="Y" xml:id="Y16.0016.0146a.old" type="old"/>
 <pb n="0146a" ed="Y" xml:id="Y16.0016.0146a"/>
-<lb n="0146a01" ed="Y"/><lb n="0146a01" ed="Y" type="old"/><p cb:type="pre">　　　事部─────解脫之佛陀主，攝外……．
+<lb n="0146a01" ed="Y"/><lb n="0146a01" ed="Y" type="old"/><p cb:type="pre" xml:id="pY16p0146a0101">　　　事部─────解脫之佛陀主，攝外……．
 <lb n="0146a02" ed="Y"/>　　　行部──┐　　　　　　　　　　　　　：
 <lb n="0146a03" ed="Y"/>　　　　　　　├──悲和之菩薩主，融外……．鬼神崇拜之密教
 <lb n="0146a04" ed="Y"/>　　　瑜伽部─┘　　　　　　　　　　　　　：
 <lb n="0146a05" ed="Y"/>　　　無上瑜伽部──貪瞋之鬼神主，同外……．</p></cb:div>
 <lb n="0146a06" ed="Y"/><lb n="0146a05" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　祕密教之特色</cb:mulu><head>三　祕密教之特色</head>
-<lb n="0146a07" ed="Y"/><lb n="0146a06" ed="Y" type="old"/><p style="text-indent:2em">密教多特色，承固有之傾向而流於極端者有之，融攝外道者有之。若以一言
+<lb n="0146a07" ed="Y"/><lb n="0146a06" ed="Y" type="old"/><p xml:id="pY16p0146a0701" style="text-indent:2em">密教多特色，承固有之傾向而流於極端者有之，融攝外道者有之。若以一言
 <lb n="0146a08" ed="Y"/><lb n="0146a07" ed="Y" type="old"/>而罄無不盡者，則以<quote>「世間心為解脫」</quote>是已。信師長達於極端，即自身妻女亦奉
 <lb n="0146a09" ed="Y"/><lb n="0146a08" ed="Y" type="old"/>獻而不疑。師命之殺，不敢不殺；命之淫不敢不淫，此婆羅門所固有（讀<title level="m">《央掘
 <lb n="0146a10" ed="Y"/><lb n="0146a09" ed="Y" type="old"/>魔羅經》</title>可知），後期佛教所取用者也。佛斥外道之事火，而教以事根本火（供
@@ -336,7 +356,7 @@
 <lb n="0151a07" ed="Y"/><lb n="0151a07" ed="Y" type="old"/>之熱信而麻醉之，順眾生之欲而引攝之耳。察其思想所自來，動機之所出，價值
 <lb n="0151a08" ed="Y"/><lb n="0151a08" ed="Y" type="old"/>之所在，痼疾其可愈乎！</p></cb:div>
 <lb n="0151a09" ed="Y"/><lb n="0151a09" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">四　印度佛教之衰亡</cb:mulu><head>四　印度佛教之衰亡</head>
-<lb n="0151a10" ed="Y"/><lb n="0151a10" ed="Y" type="old"/><p style="text-indent:2em">佛元八世紀以來，佛教外以婆羅門教之復興，於具有反吠陀傳統之佛教，予
+<lb n="0151a10" ed="Y"/><lb n="0151a10" ed="Y" type="old"/><p xml:id="pY16p0151a1001" style="text-indent:2em">佛元八世紀以來，佛教外以婆羅門教之復興，於具有反吠陀傳統之佛教，予
 <lb n="0151a11" ed="Y"/><lb n="0151a11" ed="Y" type="old"/>以甚大之逼迫。內以「唯心」、「真常」、「圓融」、「他力」、「神祕」、「
 <lb n="0151a12" ed="Y"/><lb n="0151a12" ed="Y" type="old"/>欲樂」、「頓證」思想之泛濫，日與梵神同化。幸得波羅王朝之覆育，乃得一長<pb n="0152a" ed="Y" xml:id="Y16.0016.0152a.old" type="old"/>
 <pb n="0152a" ed="Y" xml:id="Y16.0016.0152a"/>

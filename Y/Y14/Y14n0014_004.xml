@@ -12,56 +12,76 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/11</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/11</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>14卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 14, No. 14</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">14</idno>.<idno type="no">14</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛在人間</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">三、從依機設教來說明人間佛教</cb:mulu><cb:mulu level="2" type="其他">二　諸乘應機的分析</cb:mulu>
-<milestone unit="juan" n="4"/><pb n="0075a" ed="Y" xml:id="Y14.0014.0075a.old" type="old"/>
+<milestone n="4" unit="juan"/><pb n="0075a" ed="Y" xml:id="Y14.0014.0075a.old" type="old"/>
 <pb n="0075a" ed="Y" xml:id="Y14.0014.0075a"/>
 <lb n="0075a01" ed="Y"/><lb n="0075a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">四、人性</cb:mulu><head>人性<note n="0075001" resp="DILA" type="add">民國四一年講。</note></head>
 <lb n="0075a02" ed="Y"/><lb n="0075a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　人與眾生性</cb:mulu><head>一　人與眾生性</head>
-<lb n="0075a03" ed="Y"/><lb n="0075a03" ed="Y" type="old"/><p style="text-indent:2em">眾生之通性：佛法雖普為一切有情，而真能發菩提心，修菩薩行而成佛果的
+<lb n="0075a03" ed="Y"/><lb n="0075a03" ed="Y" type="old"/><p xml:id="pY14p0075a0301" style="text-indent:2em">眾生之通性：佛法雖普為一切有情，而真能發菩提心，修菩薩行而成佛果的
 <lb n="0075a04" ed="Y"/><lb n="0075a04" ed="Y" type="old"/>，唯有人類。如唐裴休的<cit><bibl>〈<title level="a">圓覺經略疏序</title>〉說：</bibl><quote source="T39n1795_p0524a07" type="寬鬆引文">「真能發趣菩提心者，唯人道為
 <lb n="0075a05" ed="Y"/>能。」</quote><note n="0075002" resp="謝淑歆" type="add">《大方廣圓覺修多羅了義經略疏》卷1：「可以整心慮趣菩提。唯人道為能耳。」(CBETA, T39, no. 1795, p. 524, a7)</note></cit><lb n="0075a05" ed="Y" type="old"/>所以雖說眾生都是佛法所濟度的對象，而唯有人類，有智慧，有悲心，有
 <lb n="0075a06" ed="Y"/>毅力<lb n="0075a06" ed="Y" type="old"/>，最能承受佛法的熏陶。佛出人間，就是人類能受佛法教化的證明。一切眾
 <lb n="0075a07" ed="Y"/>生各<lb n="0075a07" ed="Y" type="old"/>有他的特性；人有人的特性，必須了解人在眾生中的特勝，以人的特性去學
 <lb n="0075a08" ed="Y"/>佛，<lb n="0075a08" ed="Y" type="old"/>切勿把自己看作完全與（一切）眾生相同。</p>
-<lb n="0075a09" ed="Y"/><lb n="0075a09" ed="Y" type="old"/><p style="text-indent:2em">同是眾生，眾生即有眾生的通性。今略舉三點說：一、依經說，<quote source="T19n0945_p0141c03" type="嚴謹引文">「一切眾生
+<lb n="0075a09" ed="Y"/><lb n="0075a09" ed="Y" type="old"/><p xml:id="pY14p0075a0901" style="text-indent:2em">同是眾生，眾生即有眾生的通性。今略舉三點說：一、依經說，<quote source="T19n0945_p0141c03" type="嚴謹引文">「一切眾生
 <lb n="0075a10" ed="Y"/><lb n="0075a10" ed="Y" type="old"/>皆依食住」<note n="0075003" resp="謝淑歆" type="add">(1)《大佛頂如來密因修證了義諸菩薩萬行首楞嚴經》卷8(CBETA, T19, no. 945, p. 141, c3)；(2)《雜阿含經》卷15：「有四食資益眾生，令得住世攝受長養。何等為四？謂一、麤摶食，二、細觸食，三、意思食，四、識食。」(CBETA, T02, no. 99, p. 101, c26-28)</note></quote>。眾生生命的延續，必須不斷的獲得營養。人是這樣，雞、犬、蟲、<pb n="0076a" ed="Y" xml:id="Y14.0014.0076a.old" type="old"/>
 <pb n="0076a" ed="Y" xml:id="Y14.0014.0076a"/>
 <lb n="0076a01" ed="Y"/><lb n="0076a01" ed="Y" type="old"/>魚等也無不是這樣。佛法說食有四種：(一)、段食，像我們煮的飯和吃的菜，都是
@@ -85,7 +105,7 @@
 <lb n="0077a05" ed="Y"/><lb n="0077a05" ed="Y" type="old"/>通性，但又有超越其他眾生的特性。太虛大師曾經說：<quote>「人類的教育，如專在穿
 <lb n="0077a06" ed="Y"/><lb n="0077a06" ed="Y" type="old"/>衣吃飯上著想，這是動物教育，與一般動物並無大差別」</quote>。這雖似乎說得刻薄，
 <lb n="0077a07" ed="Y"/><lb n="0077a07" ed="Y" type="old"/>但人的教育，解決人的問題，不能局限於這些，也是確實如此的。</p>
-<lb n="0077a08" ed="Y"/><lb n="0077a08" ed="Y" type="old"/><p style="text-indent:2em">二、<quote type="寬鬆引文">「一切眾生皆以愛欲而正性命」</quote>，這是<bibl><title level="m">《圓覺經》</title></bibl><note n="0077001" resp="謝淑歆" type="add">《大方廣圓覺修多羅了義經》卷1：「一切眾生從無始際，由有種種恩愛、貪欲故有輪迴。若諸世界一切種性，卵生、胎生、濕生、化生，皆因婬欲而正性命，當知輪迴愛為根本。」(CBETA, T17, no. 842, p. 916, b4-7)</note>所說的。愛欲，經文
+<lb n="0077a08" ed="Y"/><lb n="0077a08" ed="Y" type="old"/><p xml:id="pY14p0077a0801" style="text-indent:2em">二、<quote type="寬鬆引文">「一切眾生皆以愛欲而正性命」</quote>，這是<bibl><title level="m">《圓覺經》</title></bibl><note n="0077001" resp="謝淑歆" type="add">《大方廣圓覺修多羅了義經》卷1：「一切眾生從無始際，由有種種恩愛、貪欲故有輪迴。若諸世界一切種性，卵生、胎生、濕生、化生，皆因婬欲而正性命，當知輪迴愛為根本。」(CBETA, T17, no. 842, p. 916, b4-7)</note>所說的。愛欲，經文
 <lb n="0077a09" ed="Y"/><lb n="0077a09" ed="Y" type="old"/>作淫欲。然淫欲實不遍一切眾生，非生死根源。人類的綿延不絕，是由男女淫欲
 <lb n="0077a10" ed="Y"/><lb n="0077a10" ed="Y" type="old"/>的關係，淫欲側重在人類，可通於欲界（地獄趣亦不通）。如約一切眾生說，應
 <lb n="0077a11" ed="Y"/><lb n="0077a11" ed="Y" type="old"/>該為愛欲。人類有男女性別，才互相配偶，人是由父母的淫欲而生的。從淫欲而
@@ -112,7 +132,7 @@
 <lb n="0079a04" ed="Y"/>過但指人類說。這雖是人生的大問題，但決不是人類所獨有的，至少大部分<lb n="0079a05" ed="Y" type="old"/>眾生
 <lb n="0079a05" ed="Y"/>是相同的。人類與眾生，同為這食色——食與愛的強烈束縛，因此而作出種<lb n="0079a06" ed="Y" type="old"/>種罪
 <lb n="0079a06" ed="Y"/>惡，所以有方法——教育，政治，法律等來規範他，以減少一切不必要的罪<lb n="0079a07" ed="Y" type="old"/>惡。</p>
-<lb n="0079a07" ed="Y"/><lb n="0079a08" ed="Y" type="old"/><p style="text-indent:2em">三、自我感，也是一切眾生所共有的。本來，一切眾生都是互有關係的；而
+<lb n="0079a07" ed="Y"/><lb n="0079a08" ed="Y" type="old"/><p xml:id="pY14p0079a0701" style="text-indent:2em">三、自我感，也是一切眾生所共有的。本來，一切眾生都是互有關係的；而
 <lb n="0079a08" ed="Y"/><lb n="0079a09" ed="Y" type="old"/>構成眾生的因素，也是一切法不離一法，一法不離一切法的。可是在緣起的和合
 <lb n="0079a09" ed="Y"/><lb n="0079a10" ed="Y" type="old"/>中，眾生是形成一獨立的單位，自他間現出彼此的差別，各成一單元而不斷的延
 <lb n="0079a10" ed="Y"/><lb n="0079a11" ed="Y" type="old"/>續。雖然息息相關，人與人間沒有絕對的獨立性，而因緣和合所現起的形相，有
@@ -145,7 +165,7 @@
 <lb n="0081a09" ed="Y"/><lb n="0081a10" ed="Y" type="old"/>由自恃輕他的慢而起，從輕厭他，而瞋恨他。貪，耽戀五欲，都是從愛而來。顯
 <lb n="0081a10" ed="Y"/><lb n="0081a11" ed="Y" type="old"/>著的不知因果，不知善惡等愚癡，皆由於錯誤的妄見。總之，這一切可泛稱為無
 <lb n="0081a11" ed="Y"/><lb n="0081a12" ed="Y" type="old"/>明，而實為自我感的發展。人類固然有此，一切眾生也不能例外。</p>
-<lb n="0081a12" ed="Y"/><lb n="0081a13" ed="Y" type="old"/><p style="text-indent:2em">人之眾生性：眾生有各各的特性，姑且不談，先說人的眾生性。人是眾生，<pb n="0082a" ed="Y" xml:id="Y14.0014.0082a.old" type="old"/>
+<lb n="0081a12" ed="Y"/><lb n="0081a13" ed="Y" type="old"/><p xml:id="pY14p0081a1201" style="text-indent:2em">人之眾生性：眾生有各各的特性，姑且不談，先說人的眾生性。人是眾生，<pb n="0082a" ed="Y" xml:id="Y14.0014.0082a.old" type="old"/>
 <lb n="0081a13" ed="Y"/><lb n="0082a01" ed="Y" type="old"/>有眾生的一般特性，雖不是別的眾生，也有類似眾生的特性。這雖是人類所有，
 <pb n="0082a" ed="Y" xml:id="Y14.0014.0082a"/>
 <lb n="0082a01" ed="Y"/><lb n="0082a02" ed="Y" type="old"/>而不是人類特有的人性。眾生的種類極多，通常分為五趣：天、人、畜生、餓鬼
@@ -206,7 +226,7 @@
 <pb n="0086a" ed="Y" xml:id="Y14.0014.0086a"/>
 <lb n="0086a01" ed="Y"/><lb n="0086a02" ed="Y" type="old"/>生通性，或眾生所有的特性，應減輕他，揚棄他，使充分發揮人性以進成佛道。</p></cb:div>
 <lb n="0086a02" ed="Y"/><lb n="0086a03" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　人性與佛性</cb:mulu><head>二　人性與佛性</head>
-<lb n="0086a03" ed="Y"/><lb n="0086a04" ed="Y" type="old"/><p style="text-indent:2em">人，含有眾生性，也含有佛性，而人又有人的特性。關於人的人性、眾生性
+<lb n="0086a03" ed="Y"/><lb n="0086a04" ed="Y" type="old"/><p xml:id="pY14p0086a0301" style="text-indent:2em">人，含有眾生性，也含有佛性，而人又有人的特性。關於人的人性、眾生性
 <lb n="0086a04" ed="Y"/><lb n="0086a05" ed="Y" type="old"/>、佛性，先泛說世間一般的相似的見解。一般以為，人有神性，也有獸性，這是
 <lb n="0086a05" ed="Y"/><lb n="0086a06" ed="Y" type="old"/>浸淫於神教的西洋學者所說。他們認為：人也帶著獸性的成分，如人的性格發展
 <lb n="0086a06" ed="Y"/><lb n="0086a07" ed="Y" type="old"/>到極其殘暴酷毒，喪失人性，這與禽獸是沒有分別的。基督教的神學說，人可分
@@ -223,7 +243,7 @@
 <lb n="0087a04" ed="Y"/>向重視這二者的協調綜合，<quote type="嚴謹引文">「允執厥中」</quote>。以道心制人心，不偏向於情欲；以<lb n="0087a06" ed="Y" type="old"/>人
 <lb n="0087a05" ed="Y"/>心合道心，不偏重於理性。到了理學家，也許受了不了義的佛法——真常唯心<lb n="0087a07" ed="Y" type="old"/>論
 <lb n="0087a06" ed="Y"/>的影響，以為<quote type="嚴謹引文">「人心即人欲，道心即天理」</quote>，而主張去人欲、存天理。</p>
-<lb n="0087a07" ed="Y"/><lb n="0087a08" ed="Y" type="old"/><p style="text-indent:2em">佛法所說的人類特性，不像儒者所說的人心；他是與道心相對，而偏於人欲
+<lb n="0087a07" ed="Y"/><lb n="0087a08" ed="Y" type="old"/><p xml:id="pY14p0087a0701" style="text-indent:2em">佛法所說的人類特性，不像儒者所說的人心；他是與道心相對，而偏於人欲
 <lb n="0087a08" ed="Y"/><lb n="0087a09" ed="Y" type="old"/>的。也與神學者的魂不同，他僅是靈與肉的化合物，不免偏向於靈的生活。現在
 <lb n="0087a09" ed="Y"/><lb n="0087a10" ed="Y" type="old"/>所說的人性，除卻與眾生類同的人的眾生性，與佛類同的人的佛性，而正明人所
 <lb n="0087a10" ed="Y"/><lb n="0087a11" ed="Y" type="old"/>特勝的人性。人的特性是什麼？有的學者說：人是有手的動物，人有兩隻手，可
@@ -240,7 +260,7 @@
 <lb n="0088a07" ed="Y"/><lb n="0088a08" ed="Y" type="old"/>利用火，並不因為能用火，所以成為人。人的特性，當然從有手、會說話、腦髓
 <lb n="0088a08" ed="Y"/><lb n="0088a09" ed="Y" type="old"/>大，能用火，能創造器具等中表現出來，但人類根本的特色，不如說是人類的文
 <lb n="0088a09" ed="Y"/><lb n="0088a10" ed="Y" type="old"/>化生活，非常發達的意識活動。</p>
-<lb n="0088a10" ed="Y"/><lb n="0088a11" ed="Y" type="old"/><p style="text-indent:2em"><quote type="嚴謹引文">「佛出人間」</quote>，<quote type="嚴謹引文">「人身難得」</quote>，可顯出人在眾生中的地位。這在<title level="m">《佛法概論
+<lb n="0088a10" ed="Y"/><lb n="0088a11" ed="Y" type="old"/><p xml:id="pY14p0088a1001" style="text-indent:2em"><quote type="嚴謹引文">「佛出人間」</quote>，<quote type="嚴謹引文">「人身難得」</quote>，可顯出人在眾生中的地位。這在<title level="m">《佛法概論
 <lb n="0088a11" ed="Y"/><lb n="0088a12" ed="Y" type="old"/>》</title>「人類的特勝」中，依佛經所說，人類具有三事，不但超過了鳥、獸、蟲、魚
 <lb n="0088a12" ed="Y"/><lb n="0088a13" ed="Y" type="old"/>，還超過了天上。三事是：一、憶念（末那沙）勝：末那沙即人的梵語，與末那<pb n="0089a" ed="Y" xml:id="Y14.0014.0089a.old" type="old"/>
 <lb n="0088a13" ed="Y"/><lb n="0089a01" ed="Y" type="old"/>（意）同語。人能思惟分別一切法，憶念過去，預期未來，認識現在的，都在意
@@ -261,7 +281,7 @@
 <pb n="0090a" ed="Y" xml:id="Y14.0014.0090a"/>
 <lb n="0090a01" ed="Y"/><lb n="0090a02" ed="Y" type="old"/>真能善巧地運用思惟憶念，淘練雜染的而擴充淨善的，經加行慧的熏修，即能引
 <lb n="0090a02" ed="Y"/><lb n="0090a03" ed="Y" type="old"/>生清淨智慧，成為人類學佛，不共其他眾生的特色。</p>
-<lb n="0090a03" ed="Y"/><lb n="0090a04" ed="Y" type="old"/><p style="text-indent:2em">二、梵行勝：<title level="m">《阿含經》</title>說：以世間有此二法（慚、愧），與六畜不共<lb n="0090a05" ed="Y" type="old"/><note n="0090001" resp="謝淑歆" type="add">《增壹阿含經》卷9〈18 慚愧品〉：「有二妙法擁護世間。云何為二法？所謂有慚、有愧也。諸比丘！若無此二法，世間則不別有父、有母、有兄、有弟、有妻子、知識、尊長、大小，便當與猪、雞、狗、牛、羊六畜之類而同一等。以其世間有此二法擁護世間，則別有父母、兄弟、妻子、尊長、大小，亦不與六畜共同。」(CBETA, T02, no. 125, p. 587, b7-13)</note>。慚
+<lb n="0090a03" ed="Y"/><lb n="0090a04" ed="Y" type="old"/><p xml:id="pY14p0090a0301" style="text-indent:2em">二、梵行勝：<title level="m">《阿含經》</title>說：以世間有此二法（慚、愧），與六畜不共<lb n="0090a05" ed="Y" type="old"/><note n="0090001" resp="謝淑歆" type="add">《增壹阿含經》卷9〈18 慚愧品〉：「有二妙法擁護世間。云何為二法？所謂有慚、有愧也。諸比丘！若無此二法，世間則不別有父、有母、有兄、有弟、有妻子、知識、尊長、大小，便當與猪、雞、狗、牛、羊六畜之類而同一等。以其世間有此二法擁護世間，則別有父母、兄弟、妻子、尊長、大小，亦不與六畜共同。」(CBETA, T02, no. 125, p. 587, b7-13)</note>。慚
 <lb n="0090a04" ed="Y"/>與愧，梵語含義稍不同，而總是連合說的。人能知有父子、師弟、夫婦、<lb n="0090a06" ed="Y" type="old"/>親友等
 <lb n="0090a05" ed="Y"/>——人類關係。因有此慚愧心，才能建立合宜的人倫關係，不致造成亂倫<lb n="0090a07" ed="Y" type="old"/>悖常的
 <lb n="0090a06" ed="Y"/>現象。如沒有慚愧心，像畜生那樣的不問父母、兄弟、姊妹，亂攪一頓，<lb n="0090a08" ed="Y" type="old"/>相殺相
@@ -287,7 +307,7 @@
 <lb n="0091a12" ed="Y"/>屬；在家的，如父子、夫婦、兄弟、朋友，都應以慚愧心，履行應行的<pb n="0092a" ed="Y" xml:id="Y14.0014.0092a.old" type="old"/><lb n="0092a01" ed="Y" type="old"/>道德分宜
 <lb n="0091a13" ed="Y"/>。但這決非孝順父母，輕欺他人的父母；愛護自己的同屬，而排擠另一<lb n="0092a02" ed="Y" type="old"/>團體。</p>
 <pb n="0092a" ed="Y" xml:id="Y14.0014.0092a"/>
-<lb n="0092a01" ed="Y"/><lb n="0092a03" ed="Y" type="old"/><p style="text-indent:2em">慚愧，是從人類應有的關係中，傾向於善的（人或法），拒遠於惡的（人或
+<lb n="0092a01" ed="Y"/><lb n="0092a03" ed="Y" type="old"/><p xml:id="pY14p0092a0101" style="text-indent:2em">慚愧，是從人類應有的關係中，傾向於善的（人或法），拒遠於惡的（人或
 <lb n="0092a02" ed="Y"/><lb n="0092a04" ed="Y" type="old"/>法）。慚愧為道德的意向，傾向於善良；多多親近善知識，聽聞正法，制伏煩惱
 <lb n="0092a03" ed="Y"/><lb n="0092a05" ed="Y" type="old"/>，都從慚愧而來。要有向善遠惡的自覺——慚愧，這才算具足了人的資格。有人
 <lb n="0092a04" ed="Y"/><lb n="0092a06" ed="Y" type="old"/>說：樹也知道傾向光明；狗子也會對主人表示殷勤，負責守護。然人是不同的！
@@ -310,7 +330,7 @@
 <lb n="0093a07" ed="Y"/><lb n="0093a09" ed="Y" type="old"/>算不得崇高的德行。所以，如大家都那樣的胡作妄為，如了解為顛倒罪惡，那必
 <lb n="0093a08" ed="Y"/><lb n="0093a10" ed="Y" type="old"/>要立定腳跟，任何苦難都不妨，卻決不附和遷就，這才是人性中道德力的高尚表
 <lb n="0093a09" ed="Y"/><lb n="0093a11" ed="Y" type="old"/>現。德行——即梵行，梵行為清淨而非穢惡的行為，這是人類所有的特性。</p>
-<lb n="0093a10" ed="Y"/><lb n="0093a12" ed="Y" type="old"/><p style="text-indent:2em">三、勇猛勝：娑婆世界——堪忍的人類，是最能耐苦的。只要所做的事情，
+<lb n="0093a10" ed="Y"/><lb n="0093a12" ed="Y" type="old"/><p xml:id="pY14p0093a1001" style="text-indent:2em">三、勇猛勝：娑婆世界——堪忍的人類，是最能耐苦的。只要所做的事情，
 <lb n="0093a11" ed="Y"/><lb n="0093a13" ed="Y" type="old"/>自覺得有意義，即使任何艱苦的情況，也能忍受，毫不猶豫。<quote source="T43n1830_p0433c10" type="嚴謹引文">「信為欲依，欲為<pb n="0094a" ed="Y" xml:id="Y14.0014.0094a.old" type="old"/>
 <lb n="0093a12" ed="Y"/><lb n="0094a01" ed="Y" type="old"/>勤依」<note n="0093001" resp="謝淑歆" type="add">《成唯識論述記》卷6(CBETA, T43, no. 1830, p. 433, c10)</note></quote>，欲即願欲，是企圖達成某一目標的希願；勤即精進，是以積極的行動去
 <lb n="0093a13" ed="Y"/><lb n="0094a02" ed="Y" type="old"/>努力完成。從願欲而起精勤，即從內心的想望，引發實踐的毅力。提起精神去做
@@ -321,10 +341,10 @@
 <lb n="0094a04" ed="Y"/><lb n="0094a06" ed="Y" type="old"/>受有生活的逼迫，但每能出於自發的，覺得自己應這樣做的，即奮力去做成。這
 <lb n="0094a05" ed="Y"/><lb n="0094a07" ed="Y" type="old"/>種願欲與精進，人類也常是誤用而作出驚人的罪惡；然實行菩薩道，難行能行，
 <lb n="0094a06" ed="Y"/><lb n="0094a08" ed="Y" type="old"/>難忍能忍，即由此勇毅而來。</p>
-<lb n="0094a07" ed="Y"/><lb n="0094a09" ed="Y" type="old"/><p style="text-indent:2em">經上說，人的特勝中，這三者，是眾生與諸天所不及的。雖不是盡善盡美的
+<lb n="0094a07" ed="Y"/><lb n="0094a09" ed="Y" type="old"/><p xml:id="pY14p0094a0701" style="text-indent:2em">經上說，人的特勝中，這三者，是眾生與諸天所不及的。雖不是盡善盡美的
 <lb n="0094a08" ed="Y"/><lb n="0094a10" ed="Y" type="old"/>，不如菩薩的清淨圓滿，但已足以表示出人類特點，人性的尊嚴。我們既然生得
 <lb n="0094a09" ed="Y"/><lb n="0094a11" ed="Y" type="old"/>人身，應利用自己的長處，日求上進。</p>
-<lb n="0094a10" ed="Y"/><lb n="0094a12" ed="Y" type="old"/><p style="text-indent:2em">人的特性，眾生也多少有些，唯人能充分發揮出來，才叫做人。人性中，也
+<lb n="0094a10" ed="Y"/><lb n="0094a12" ed="Y" type="old"/><p xml:id="pY14p0094a1001" style="text-indent:2em">人的特性，眾生也多少有些，唯人能充分發揮出來，才叫做人。人性中，也
 <lb n="0094a11" ed="Y"/><lb n="0094a13" ed="Y" type="old"/>含攝得一分佛性；將這分佛性擴充、淨化，即能與佛同等。怎樣是佛？概略的說<pb n="0095a" ed="Y" xml:id="Y14.0014.0095a.old" type="old"/>
 <lb n="0094a12" ed="Y"/><lb n="0095a01" ed="Y" type="old"/>具足三事：大智、大悲、大雄。佛的特色，正確的普遍的證覺，得大自在，是佛
 <lb n="0094a13" ed="Y"/><lb n="0095a02" ed="Y" type="old"/>的無上智。佛智，凡是有意識活動的眾生，都可說是智慧性，所以經說<quote source="T12n0374_p0524c07-09" type="寬鬆引文">「凡有<lb n="0095a03" ed="Y" type="old"/>心

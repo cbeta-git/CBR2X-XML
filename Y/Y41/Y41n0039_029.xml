@@ -12,52 +12,72 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>新版一刷<date>Date: 2013/04</date>新式標點版</edition>
+			<edition>新版一刷<date>Date: 2013/04</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>35卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 41, No. 39</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>35卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">41</idno>.<idno type="no">39</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">平凡的一生（重訂本）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">二八　傳戒因緣</cb:mulu>
-<milestone unit="juan" n="29"/>
+<milestone n="29" unit="juan"/>
 <lb n="0192a05" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">二九　我與居士的佛教事業</cb:mulu><head>二九　我與居士的佛教事業</head>
-<lb n="0192a06" ed="Y"/><p style="text-indent:2em">佛教的在家弟子，應以佛教的立場，從事文化、慈善、社會福利事業，這不
+<lb n="0192a06" ed="Y"/><p xml:id="pY41p0192a0601" style="text-indent:2em">佛教的在家弟子，應以佛教的立場，從事文化、慈善、社會福利事業，這不
 <lb n="0192a07" ed="Y"/>但契合佛教的菩薩精神，也能取得社會大眾的好感，有利於佛教的流行。所以在
 <lb n="0192a08" ed="Y"/>家居士而能從事佛教的文化與慈善事業，不論他對我怎樣，我都表示由衷的讚歎
 <lb n="0192a09" ed="Y"/>！</p>
-<lb n="0192a10" ed="Y"/><p style="text-indent:2em">一、臺中李炳南老居士領導的蓮社，對我有思想上的距離，所以在<title level="m">《佛法概
+<lb n="0192a10" ed="Y"/><p xml:id="pY41p0192a1001" style="text-indent:2em">一、臺中李炳南老居士領導的蓮社，對我有思想上的距離，所以在<title level="m">《佛法概
 <lb n="0192a11" ed="Y"/>論》</title>事件的動盪中，有臺中燒毀我著作的傳說。在重信仰的宗教界，這可說是一
 <lb n="0192a12" ed="Y"/>般的現象。民國五十三年，我辭退了慧日講堂的住持，要去嘉義掩關時，聽說李
 <pb n="0193a" ed="Y" xml:id="Y41.0039.0193a"/>
@@ -78,7 +98,7 @@
 <lb n="0194a01" ed="Y"/>多少引起我的疑問。菩提醫院建成了，正式開業。由於佛教界缺少（西）醫務人
 <lb n="0194a02" ed="Y"/>才，加上人事的不能和諧合作，陽光乍現的菩提醫院，就陷於低沈；不久，等於
 <lb n="0194a03" ed="Y"/>從佛教界消失了！</p>
-<lb n="0194a04" ed="Y"/><p style="text-indent:2em">二、紐約的美國佛教會，在福嚴精舍成立「駐臺譯經院」，這是極有意義而
+<lb n="0194a04" ed="Y"/><p xml:id="pY41p0194a0401" style="text-indent:2em">二、紐約的美國佛教會，在福嚴精舍成立「駐臺譯經院」，這是極有意義而
 <lb n="0194a05" ed="Y"/>又不免失望的事。因緣是這樣的：五十八年，新竹福嚴精舍與臺北慧日講堂，在
 <lb n="0194a06" ed="Y"/>常覺與印海的主持合作下，福嚴精舍增建了大講堂與學生宿舍，開辦女眾的福嚴
 <lb n="0194a07" ed="Y"/>佛學院。到六十年夏，學生畢業，也就停辦而恢復為男眾道場。精舍房屋多而住
@@ -108,7 +128,7 @@
 <lb n="0196a03" ed="Y"/>不少的。如停譯而毫無成就，這不免太使人失望了！辦醫院，譯佛經，我們都無
 <lb n="0196a04" ed="Y"/>條件的贊助過居士們，而結果都等於零。我不會怪那一位，只是為中國佛教界（
 <lb n="0196a05" ed="Y"/>美國佛教會，也是中國式的佛教）的衰落而惆悵！</p>
-<lb n="0196a06" ed="Y"/><p style="text-indent:2em">三、周宣德老居士對現代佛教的<note n="0196a0601" resp="CBETA" type="add" subtype="規範字詞">年輕【CB】，年青【印順】</note><app n="0196a0601"><lem wit="【CB】" resp="CBETA">年輕</lem><rdg wit="【印順】">年青</rdg></app>化，是有貢獻的！雖在<title level="m">《佛法概論》</title>的
+<lb n="0196a06" ed="Y"/><p xml:id="pY41p0196a0601" style="text-indent:2em">三、周宣德老居士對現代佛教的<note n="0196a0601" resp="CBETA" type="add" subtype="規範字詞">年輕【CB】，年青【印順】</note><app n="0196a0601"><lem resp="CBETA" wit="【CB】">年輕</lem><rdg wit="【印順】">年青</rdg></app>化，是有貢獻的！雖在<title level="m">《佛法概論》</title>的
 <lb n="0196a07" ed="Y"/>風波中，他也曾勸我：中國佛教不要提倡日本化，也不要小乘化。那是在無限的
 <lb n="0196a08" ed="Y"/>謠言中，他也信以為真而已。四十八年，他贊同丘漢平居士的建議，成立大專獎
 <lb n="0196a09" ed="Y"/>學基金，以引導大專同學的接近佛法，也徵得南亭長老的贊同。丘居士當時是中
@@ -128,7 +148,7 @@
 <lb n="0197a09" ed="Y"/>北，帶去一封給宣老的信，並臺幣參拾捌萬元（合當時美金壹萬元）。隨喜樂施
 <lb n="0197a10" ed="Y"/>，是不用宣揚的，所以接近我的人，都不知這件事。七十四年，仁俊等在美國為
 <lb n="0197a11" ed="Y"/>我祝壽並座談，宣老提起這件事，被記錄而刊登在香港的<title level="j">《內明》</title>，所以我也就
-<lb n="0197a12" ed="Y"/>說到。從獎學基金而引起成立大專院校的佛學社團，使臺灣佛教<note n="0197a1201" resp="CBETA" type="add" subtype="規範字詞">年輕【CB】，年青【印順】</note><app n="0197a1201"><lem wit="【CB】" resp="CBETA">年輕</lem><rdg wit="【印順】">年青</rdg></app>化，宣老的
+<lb n="0197a12" ed="Y"/>說到。從獎學基金而引起成立大專院校的佛學社團，使臺灣佛教<note n="0197a1201" resp="CBETA" type="add" subtype="規範字詞">年輕【CB】，年青【印順】</note><app n="0197a1201"><lem resp="CBETA" wit="【CB】">年輕</lem><rdg wit="【印順】">年青</rdg></app>化，宣老的
 <lb n="0197a13" ed="Y"/>功德是不可沒的。在我與居士團體的關係中，這是沒有使我失望的一次！現在宣
 <pb n="0198a" ed="Y" xml:id="Y41.0039.0198a"/>
 <lb n="0198a01" ed="Y"/>老已去世了，願繼承這一事業的，能永遠的引導學生，趨向於純正的佛法！</p></cb:div>

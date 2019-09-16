@@ -12,128 +12,148 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>十二刷<date>Date: 2011/10</date>新式標點版</edition>
+			<edition>十二刷<date>Date: 2011/10</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>3卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 32, No. 30</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>3卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">32</idno>.<idno type="no">30</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">雜阿含經論會編（下）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB00036">
-	<charName>CBETA CHARACTER CB00036</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[卄/積]</value>
-	</charProp>
-	<mapping type="unicode">U+27090</mapping>
-	<mapping cb:dec="983076" type="PUA">U+F0024</mapping>
-</char>
-<char xml:id="CB00178">
-	<charName>CBETA CHARACTER CB00178</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[木*奈]</value>
-	</charProp>
-	<mapping type="unicode">U+3B88</mapping>
-	<mapping cb:dec="983218" type="PUA">U+F00B2</mapping>
-</char>
-<char xml:id="CB00267">
-	<charName>CBETA CHARACTER CB00267</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[矛*贊]</value>
-	</charProp>
-	<mapping type="unicode">U+408E</mapping>
-	<mapping cb:dec="983307" type="PUA">U+F010B</mapping>
-</char>
-<char xml:id="CB00426">
-	<charName>CBETA CHARACTER CB00426</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[金*矛]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>矛</value>
-	</charProp>
-	<mapping type="unicode">U+28968</mapping>
-	<mapping cb:dec="983466" type="PUA">U+F01AA</mapping>
-</char>
-<char xml:id="CB00626">
-	<charName>CBETA CHARACTER CB00626</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[疊*毛]</value>
-	</charProp>
-	<mapping type="unicode">U+3CB2</mapping>
-	<mapping cb:dec="983666" type="PUA">U+F0272</mapping>
-</char>
-<char xml:id="CB00866">
-	<charName>CBETA CHARACTER CB00866</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[僉*殳]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>歛</value>
-	</charProp>
-	<mapping type="unicode">U+23ACD</mapping>
-	<mapping cb:dec="983906" type="PUA">U+F0362</mapping>
-</char>
-<char xml:id="CB33004">
-	<charName>CBETA CHARACTER CB33004</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[麥*并]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>餅</value>
-	</charProp>
-	<mapping type="unicode">U+4D35</mapping>
-	<mapping cb:dec="1016044" type="PUA">U+F80EC</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00036">
+				<charName>CBETA CHARACTER CB00036</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[卄/積]</value>
+				</charProp>
+				<mapping type="unicode">U+27090</mapping>
+				<mapping cb:dec="983076" type="PUA">U+F0024</mapping>
+			</char>
+			<char xml:id="CB00178">
+				<charName>CBETA CHARACTER CB00178</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[木*奈]</value>
+				</charProp>
+				<mapping type="unicode">U+3B88</mapping>
+				<mapping cb:dec="983218" type="PUA">U+F00B2</mapping>
+			</char>
+			<char xml:id="CB00267">
+				<charName>CBETA CHARACTER CB00267</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[矛*贊]</value>
+				</charProp>
+				<mapping type="unicode">U+408E</mapping>
+				<mapping cb:dec="983307" type="PUA">U+F010B</mapping>
+			</char>
+			<char xml:id="CB00426">
+				<charName>CBETA CHARACTER CB00426</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[金*矛]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>矛</value>
+				</charProp>
+				<mapping type="unicode">U+28968</mapping>
+				<mapping cb:dec="983466" type="PUA">U+F01AA</mapping>
+			</char>
+			<char xml:id="CB00626">
+				<charName>CBETA CHARACTER CB00626</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[疊*毛]</value>
+				</charProp>
+				<mapping type="unicode">U+3CB2</mapping>
+				<mapping cb:dec="983666" type="PUA">U+F0272</mapping>
+			</char>
+			<char xml:id="CB00866">
+				<charName>CBETA CHARACTER CB00866</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[僉*殳]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>歛</value>
+				</charProp>
+				<mapping type="unicode">U+23ACD</mapping>
+				<mapping cb:dec="983906" type="PUA">U+F0362</mapping>
+			</char>
+			<char xml:id="CB33004">
+				<charName>CBETA CHARACTER CB33004</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[麥*并]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>餅</value>
+				</charProp>
+				<mapping type="unicode">U+4D35</mapping>
+				<mapping cb:dec="1016044" type="PUA">U+F80EC</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">八眾誦第五</cb:mulu><cb:mulu level="2" type="其他">二七　林相應（三二經）</cb:mulu><cb:mulu level="3" type="其他">27-32;1475(1362)</cb:mulu>
-<milestone unit="juan" n="6"/>
+<milestone n="6" unit="juan"/>
 <pb n="0373a" ed="Y" xml:id="Y32.0030.0373a"/>
 <lb n="0373a01" ed="Y"/><cb:div type="other"><cb:mulu level="1" type="其他">弟子所說誦第六</cb:mulu><head>弟子所說誦第六<note n="0373001" resp="釋印順" type="orig"><title level="a">〈弟子所說誦〉</title>，本附於<title level="a">〈雜因誦〉</title>等下，但原譯本已別立，題<title level="a">〈弟子所說誦第四〉</title>。自卷一八起，至卷二一，共四卷。分<title level="a">〈舍利弗〉</title>、<title level="a">〈目揵連〉</title>、<title level="a">〈阿那律〉</title>、<title level="a">〈大迦旃延〉</title>、<title level="a">〈阿難〉</title>、<title level="a">〈質多羅〉</title>——六種相應。</note></head>
 <lb n="0373a02" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">二八　舍利弗相應（八一經）</cb:mulu><head>二八　舍利弗相應<note n="0373002" resp="釋印順" type="orig"><title level="a">〈舍利弗相應〉</title>，共八一經。前七二經與<bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title></bibl>，<bibl>（三九）<title level="a">〈沙門出家相應〉</title></bibl>相當。</note></head>
-<lb n="0373a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-1;1476(490)</cb:mulu><head><num type="各相應之經號" n="28-1">一</num><note n="0373003" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一六經</bibl>。</note>；<num n="1476" type="雜含會編經號">一四七六</num><num type="大正藏雜含經號" n="490">（四九〇）</num></head>
-<lb n="0373a04" ed="Y"/><p style="text-indent:2em"><note n="0373004" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="18" type="卷">卷一八</biblScope></bibl>。</note>如是我聞：一時，佛住摩竭提國那羅聚落。爾時，尊者舍利弗，亦在摩竭提國那羅聚落。
+<lb n="0373a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-1;1476(490)</cb:mulu><head><num n="28-1" type="各相應之經號">一</num><note n="0373003" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一六經</bibl>。</note>；<num n="1476" type="雜含會編經號">一四七六</num><num n="490" type="大正藏雜含經號">（四九〇）</num></head>
+<lb n="0373a04" ed="Y"/><p xml:id="pY32p0373a0401" style="text-indent:2em"><note n="0373004" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="18" type="卷">卷一八</biblScope></bibl>。</note>如是我聞：一時，佛住摩竭提國那羅聚落。爾時，尊者舍利弗，亦在摩竭提國那羅聚落。
 <lb n="0373a05" ed="Y"/>時有外道出家，名閻浮車，是舍利弗舊善知識。來詣舍利弗（所），問訊，共相慰勞已，退坐一
 <lb n="0373a06" ed="Y"/>面。問舍利弗言：「賢聖法律中，有何難事」？舍利弗告閻浮車：「唯出家難」。「云何出家難
 <lb n="0373a07" ed="Y"/>」？答言：「愛樂者難」。「云何愛樂難」？答言：「樂常修善法難」。復問舍利弗：「有道、
@@ -143,148 +163,148 @@
 <lb n="0373a11" ed="Y"/>座起而去。如是比，閻浮車所問序，四十經。</p>
 <pb n="0374a" ed="Y" xml:id="Y32.0030.0374a"/></cb:div>
 <lb n="0374a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-2;1477()</cb:mulu><head><num n="28-2" type="各相應之經號">二</num><note n="0374005" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>三經</bibl>。</note>；<num n="1477" type="雜含會編經號">一四七七</num>（　　　　）</head>
-<lb n="0374a02" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「云何名善說法者？（云何名）為世間正向？云何名為世間善逝」？舍利
+<lb n="0374a02" ed="Y"/><p xml:id="pY32p0374a0201" style="text-indent:2em">閻浮車問舍利弗：「云何名善說法者？（云何名）為世間正向？云何名為世間善逝」？舍利
 <lb n="0374a03" ed="Y"/>弗言：「若說法調伏欲貪，調伏瞋恚，調伏愚癡，是名世間說法者。若向調伏欲貪，向調伏瞋恚
 <lb n="0374a04" ed="Y"/>，向調伏愚癡，是名正向。若貪欲已盡，無餘斷知；瞋恚、愚癡已盡，無餘斷知，是名善逝<note n="0374006" resp="釋印順" type="orig">「逝」，原本作「斷」，依宋本改。</note>」
 <lb n="0374a05" ed="Y"/>。復問舍利弗：「有道、有向，修習、多修習，能起善逝<note n="0374007" resp="釋印順" type="orig">「逝」，原本作「斷」，今改。</note>」？舍利弗言：「有，謂八正道，正
 <lb n="0374a06" ed="Y"/>見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0374a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-3;1478()</cb:mulu><head><num type="各相應之經號" n="28-3">三</num><note n="0374008" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一經</bibl>。</note>；<num n="1478" type="雜含會編經號">一四七八</num>（　　　　）</head>
-<lb n="0374a08" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「謂涅槃者，云何為涅槃」？舍利弗言：「涅槃者，貪欲永盡，瞋恚永盡
+<lb n="0374a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-3;1478()</cb:mulu><head><num n="28-3" type="各相應之經號">三</num><note n="0374008" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一經</bibl>。</note>；<num n="1478" type="雜含會編經號">一四七八</num>（　　　　）</head>
+<lb n="0374a08" ed="Y"/><p xml:id="pY32p0374a0801" style="text-indent:2em">閻浮車問舍利弗：「謂涅槃者，云何為涅槃」？舍利弗言：「涅槃者，貪欲永盡，瞋恚永盡
 <lb n="0374a09" ed="Y"/>，愚癡永盡，一切諸煩惱永盡，是名涅槃」。復問舍利弗：「有道、有向，修習、多修習，得涅
 <lb n="0374a10" ed="Y"/>槃耶」？舍利弗言：「有，謂八正道，正見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
 <lb n="0374a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-4;1479()</cb:mulu><head><num n="28-4" type="各相應之經號">四</num><note n="0374009" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>四經</bibl>。</note>；<num n="1479" type="雜含會編經號">一四七九</num>（　　　　）</head>
-<lb n="0374a12" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「何故於沙門瞿曇所出家修梵行」？舍利弗言：「為斷貪欲故，斷瞋恚故
+<lb n="0374a12" ed="Y"/><p xml:id="pY32p0374a1201" style="text-indent:2em">閻浮車問舍利弗：「何故於沙門瞿曇所出家修梵行」？舍利弗言：「為斷貪欲故，斷瞋恚故
 <lb n="0374a13" ed="Y"/>，斷愚癡故，於沙門瞿曇所出家修梵行」。復問舍利弗：「有道、有向，修習、多修習，得斷貪
 <lb n="0374a14" ed="Y"/>欲、瞋恚、愚癡耶」？舍利弗言：「有，謂八正道，正見乃至正定」。時二正士共論議已，各從
 <lb n="0374a15" ed="Y"/>座起而去。</p>
 <pb n="0375a" ed="Y" xml:id="Y32.0030.0375a"/></cb:div>
-<lb n="0375a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-5;1480()</cb:mulu><head><num type="各相應之經號" n="28-5">五</num>；<num n="1480" type="雜含會編經號">一四八〇</num>（　　　　）</head>
-<lb n="0375a02" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「謂有漏盡，云何名為有漏盡」？舍利弗言：「有漏者，三有漏：謂欲有
+<lb n="0375a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-5;1480()</cb:mulu><head><num n="28-5" type="各相應之經號">五</num>；<num n="1480" type="雜含會編經號">一四八〇</num>（　　　　）</head>
+<lb n="0375a02" ed="Y"/><p xml:id="pY32p0375a0201" style="text-indent:2em">閻浮車問舍利弗：「謂有漏盡，云何名為有漏盡」？舍利弗言：「有漏者，三有漏：謂欲有
 <lb n="0375a03" ed="Y"/>漏，有有漏，無明有漏。此三有漏欲盡無餘，名有漏盡」。復問舍利弗：「有道、有向，修習、
 <lb n="0375a04" ed="Y"/>多修習，得漏盡耶」？舍利弗答言：「有，謂八正道，正見乃至正定」。時二正士共論議已，各
 <lb n="0375a05" ed="Y"/>從座起而去。</p></cb:div>
-<lb n="0375a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-6;1481()</cb:mulu><head><num type="各相應之經號" n="28-6">六</num><note n="0375010" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>二經</bibl>。</note>；<num type="雜含會編經號" n="1481">一四八一</num>（　　　　）</head>
-<lb n="0375a07" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂阿羅漢者，云何名阿羅漢」？舍利弗言：「貪欲已斷無餘，瞋恚、
+<lb n="0375a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-6;1481()</cb:mulu><head><num n="28-6" type="各相應之經號">六</num><note n="0375010" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>二經</bibl>。</note>；<num n="1481" type="雜含會編經號">一四八一</num>（　　　　）</head>
+<lb n="0375a07" ed="Y"/><p xml:id="pY32p0375a0701" style="text-indent:2em">閻浮車問舍利弗：「所謂阿羅漢者，云何名阿羅漢」？舍利弗言：「貪欲已斷無餘，瞋恚、
 <lb n="0375a08" ed="Y"/>愚癡已斷無餘，是名阿羅漢」。復問舍利弗：「有道、有向，修習、多修習，得阿羅漢耶」？舍
 <lb n="0375a09" ed="Y"/>利弗言：「有，謂八正道，正見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
 <lb n="0375a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-7;1482()</cb:mulu><head><num n="28-7" type="各相應之經號">七</num><note n="0375011" resp="釋印順" type="orig">同上經。</note>；<num n="1482" type="雜含會編經號">一四八二</num>（　　　　）</head>
-<lb n="0375a11" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂阿羅漢者，云何名阿羅漢者」？舍利弗言：「貪欲永盡無餘，瞋恚
+<lb n="0375a11" ed="Y"/><p xml:id="pY32p0375a1101" style="text-indent:2em">閻浮車問舍利弗：「所謂阿羅漢者，云何名阿羅漢者」？舍利弗言：「貪欲永盡無餘，瞋恚
 <lb n="0375a12" ed="Y"/>、愚癡永盡無餘，是名阿羅漢者」。復問：「有道、有向，修習、多修習，得阿羅漢者耶」？舍
 <lb n="0375a13" ed="Y"/>利弗言：「有，謂八正道，正見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0375a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-8;1483()</cb:mulu><head><num type="各相應之經號" n="28-8">八</num><note n="0375012" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>九經</bibl>。</note>；<num type="雜含會編經號" n="1483">一四八三</num>（　　　　）</head>
-<lb n="0375a15" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂無明者，云何為無明」？舍利弗言：「所謂無明者，於前際無知，
+<lb n="0375a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-8;1483()</cb:mulu><head><num n="28-8" type="各相應之經號">八</num><note n="0375012" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>九經</bibl>。</note>；<num n="1483" type="雜含會編經號">一四八三</num>（　　　　）</head>
+<lb n="0375a15" ed="Y"/><p xml:id="pY32p0375a1501" style="text-indent:2em">閻浮車問舍利弗：「所謂無明者，云何為無明」？舍利弗言：「所謂無明者，於前際無知，
 <pb n="0376a" ed="Y" xml:id="Y32.0030.0376a"/>
 <lb n="0376a01" ed="Y"/>後際無知，前後中際無知；佛、法、僧寶無知；苦、集、滅、道無知；善、不善、無記無知；內
 <lb n="0376a02" ed="Y"/>無知，外無知；若於彼彼事無知闇障，是名無明」。閻浮車語舍利弗：「此是大闇積聚」！復問
 <lb n="0376a03" ed="Y"/>舍利弗：「有道、有向，修習、多修習，斷無明耶」？舍利弗言：「有，謂八正道，正見乃至正
 <lb n="0376a04" ed="Y"/>定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0376a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-9;1484()</cb:mulu><head><num type="各相應之經號" n="28-9">九</num><note n="0376013" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>八經</bibl>。</note>；<num type="雜含會編經號" n="1484">一四八四</num>（　　　　）</head>
-<lb n="0376a06" ed="Y"/><p style="text-indent:2em">閻浮車復問尊者舍利弗：「所謂有漏，云何有漏」？如前說。</p></cb:div>
-<lb n="0376a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-10;1485()</cb:mulu><head><num type="各相應之經號" n="28-10">一〇</num><note n="0376014" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一三經</bibl>。</note>；<num type="雜含會編經號" n="1485">一四八五</num>（　　　　）</head>
-<lb n="0376a08" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂有，云何為有」？舍利弗言：「有謂三有：欲有，色有，無色有」
+<lb n="0376a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-9;1484()</cb:mulu><head><num n="28-9" type="各相應之經號">九</num><note n="0376013" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>八經</bibl>。</note>；<num n="1484" type="雜含會編經號">一四八四</num>（　　　　）</head>
+<lb n="0376a06" ed="Y"/><p xml:id="pY32p0376a0601" style="text-indent:2em">閻浮車復問尊者舍利弗：「所謂有漏，云何有漏」？如前說。</p></cb:div>
+<lb n="0376a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-10;1485()</cb:mulu><head><num n="28-10" type="各相應之經號">一〇</num><note n="0376014" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一三經</bibl>。</note>；<num n="1485" type="雜含會編經號">一四八五</num>（　　　　）</head>
+<lb n="0376a08" ed="Y"/><p xml:id="pY32p0376a0801" style="text-indent:2em">閻浮車問舍利弗：「所謂有，云何為有」？舍利弗言：「有謂三有：欲有，色有，無色有」
 <lb n="0376a09" ed="Y"/>。復問舍利弗：「有道、有向，修習、多修習，斷此有耶」？舍利弗言：「有，謂八正道，正見
 <lb n="0376a10" ed="Y"/>乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0376a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-11;1486()</cb:mulu><head><num type="各相應之經號" n="28-11">一一</num><note n="0376015" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一五經</bibl>。</note>；<num type="雜含會編經號" n="1486">一四八六</num>（　　　　）</head>
-<lb n="0376a12" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂有身，云何有身」？舍利弗言：「有身者，五受陰。云何五受陰？
+<lb n="0376a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-11;1486()</cb:mulu><head><num n="28-11" type="各相應之經號">一一</num><note n="0376015" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一五經</bibl>。</note>；<num n="1486" type="雜含會編經號">一四八六</num>（　　　　）</head>
+<lb n="0376a12" ed="Y"/><p xml:id="pY32p0376a1201" style="text-indent:2em">閻浮車問舍利弗：「所謂有身，云何有身」？舍利弗言：「有身者，五受陰。云何五受陰？
 <lb n="0376a13" ed="Y"/>謂色受陰，受、想、行、識受陰」。復問舍利弗：「有道、有向，斷此有身耶」？舍利弗言：「
 <lb n="0376a14" ed="Y"/>有，謂八正道，正見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0376a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-12;1487()</cb:mulu><head><num type="各相應之經號" n="28-12">一二</num><note n="0376016" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一四經</bibl>。</note>；<num type="雜含會編經號" n="1487">一四八七</num>（　　　　）</head>
+<lb n="0376a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-12;1487()</cb:mulu><head><num n="28-12" type="各相應之經號">一二</num><note n="0376016" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一四經</bibl>。</note>；<num n="1487" type="雜含會編經號">一四八七</num>（　　　　）</head>
 <pb n="0377a" ed="Y" xml:id="Y32.0030.0377a"/>
-<lb n="0377a01" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂苦者，云何為苦」？舍利弗言：「苦者，謂生苦，老苦，病苦，死
+<lb n="0377a01" ed="Y"/><p xml:id="pY32p0377a0101" style="text-indent:2em">閻浮車問舍利弗：「所謂苦者，云何為苦」？舍利弗言：「苦者，謂生苦，老苦，病苦，死
 <lb n="0377a02" ed="Y"/>苦，恩愛別離苦，怨憎會苦，所求不得苦：略說五受陰苦，是名為苦」。復問舍利弗：「有道、
 <lb n="0377a03" ed="Y"/>有向，斷此苦耶」？舍利弗言：「有，謂八正道，正見乃至正定」。時二正士共論議已，各從座
 <lb n="0377a04" ed="Y"/>起而去。</p></cb:div>
-<lb n="0377a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-13;1488()</cb:mulu><head><num n="28-13" type="各相應之經號">一三</num><note n="0377017" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一一經</bibl>。</note>；<num type="雜含會編經號" n="1488">一四八八</num>（　　　　）</head>
-<lb n="0377a06" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂流者，云何為流」？舍利弗言：「流者，謂欲流，有流，見流，無
+<lb n="0377a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-13;1488()</cb:mulu><head><num n="28-13" type="各相應之經號">一三</num><note n="0377017" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一一經</bibl>。</note>；<num n="1488" type="雜含會編經號">一四八八</num>（　　　　）</head>
+<lb n="0377a06" ed="Y"/><p xml:id="pY32p0377a0601" style="text-indent:2em">閻浮車問舍利弗：「所謂流者，云何為流」？舍利弗言：「流者，謂欲流，有流，見流，無
 <lb n="0377a07" ed="Y"/>明流」。復問舍利弗：「有道、有向，修習、多修習，斷此流耶」？舍利弗言：「有，謂八正道
 <lb n="0377a08" ed="Y"/>，正見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
 <lb n="0377a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-14;1489()</cb:mulu><head><num n="28-14" type="各相應之經號">一四</num>；<num n="1489" type="雜含會編經號">一四八九</num>（　　　　）</head>
-<lb n="0377a10" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂扼者，云何為扼」？扼如流說。</p></cb:div>
-<lb n="0377a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-15;1490()</cb:mulu><head><num type="各相應之經號" n="28-15">一五</num><note n="0377018" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一二經</bibl>。</note>；<num n="1490" type="雜含會編經號">一四九〇</num>（　　　　）</head>
-<lb n="0377a12" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂取者，云何為取」？舍利弗言：「取者，四取：謂欲取，我取，見
+<lb n="0377a10" ed="Y"/><p xml:id="pY32p0377a1001" style="text-indent:2em">閻浮車問舍利弗：「所謂扼者，云何為扼」？扼如流說。</p></cb:div>
+<lb n="0377a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-15;1490()</cb:mulu><head><num n="28-15" type="各相應之經號">一五</num><note n="0377018" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一二經</bibl>。</note>；<num n="1490" type="雜含會編經號">一四九〇</num>（　　　　）</head>
+<lb n="0377a12" ed="Y"/><p xml:id="pY32p0377a1201" style="text-indent:2em">閻浮車問舍利弗：「所謂取者，云何為取」？舍利弗言：「取者，四取：謂欲取，我取，見
 <lb n="0377a13" ed="Y"/>取，戒取」。復問舍利弗：「有道、有向，修習、多修習，斷此取耶」？舍利弗言：「有，謂八
 <lb n="0377a14" ed="Y"/>正道，正見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0377a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-16;1491()</cb:mulu><head><num type="各相應之經號" n="28-16">一六</num>；<num n="1491" type="雜含會編經號">一四九一</num>（　　　　）</head>
+<lb n="0377a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-16;1491()</cb:mulu><head><num n="28-16" type="各相應之經號">一六</num>；<num n="1491" type="雜含會編經號">一四九一</num>（　　　　）</head>
 <pb n="0378a" ed="Y" xml:id="Y32.0030.0378a"/>
-<lb n="0378a01" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂縛者，云何為縛」？舍利弗言：「縛者，四縛：謂貪欲縛，瞋恚縛
+<lb n="0378a01" ed="Y"/><p xml:id="pY32p0378a0101" style="text-indent:2em">閻浮車問舍利弗：「所謂縛者，云何為縛」？舍利弗言：「縛者，四縛：謂貪欲縛，瞋恚縛
 <lb n="0378a02" ed="Y"/>，戒取縛，我見縛」。復問舍利弗：「有道、有向，修習、多修習，斷此縛耶」？舍利弗言：「
 <lb n="0378a03" ed="Y"/>有，謂八正道，正見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0378a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-17;1492()</cb:mulu><head><num n="28-17" type="各相應之經號">一七</num>；<num type="雜含會編經號" n="1492">一四九二</num>（　　　　）</head>
-<lb n="0378a05" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂結者，云何為結」？舍利弗言：「結者，九結：謂愛結，恚結，慢
+<lb n="0378a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-17;1492()</cb:mulu><head><num n="28-17" type="各相應之經號">一七</num>；<num n="1492" type="雜含會編經號">一四九二</num>（　　　　）</head>
+<lb n="0378a05" ed="Y"/><p xml:id="pY32p0378a0501" style="text-indent:2em">閻浮車問舍利弗：「所謂結者，云何為結」？舍利弗言：「結者，九結：謂愛結，恚結，慢
 <lb n="0378a06" ed="Y"/>結，無明結，見結，他取結，疑結，嫉結，慳結」。復問舍利弗；「有道、有向，修習、多修習
 <lb n="0378a07" ed="Y"/>，斷此結耶」？舍利弗言：「有，謂八正道，正見乃至正定」。時二正士共論議已，各從座起而
 <lb n="0378a08" ed="Y"/>去。</p></cb:div>
 <lb n="0378a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-18;1493()</cb:mulu><head><num n="28-18" type="各相應之經號">一八</num>；<num n="1493" type="雜含會編經號">一四九三</num>（　　　　）</head>
-<lb n="0378a10" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂使者，云何為使」？舍利弗言：「使者，七使：謂貪欲使：瞋恚使
+<lb n="0378a10" ed="Y"/><p xml:id="pY32p0378a1001" style="text-indent:2em">閻浮車問舍利弗：「所謂使者，云何為使」？舍利弗言：「使者，七使：謂貪欲使：瞋恚使
 <lb n="0378a11" ed="Y"/>，有愛使，慢使，無明使，見使，疑使」。復問舍利弗：「有道、有向，修習、多修習，斷此使
 <lb n="0378a12" ed="Y"/>耶」？舍利弗言：「有，謂八正道，正見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0378a13" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-19;1494()</cb:mulu><head><num n="28-19" type="各相應之經號">一九</num>；<num type="雜含會編經號" n="1494">一四九四</num>（　　　　）</head>
-<lb n="0378a14" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂欲者，云何為欲」？舍利弗言：「欲者，謂眼所識色，可愛、樂、
+<lb n="0378a13" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-19;1494()</cb:mulu><head><num n="28-19" type="各相應之經號">一九</num>；<num n="1494" type="雜含會編經號">一四九四</num>（　　　　）</head>
+<lb n="0378a14" ed="Y"/><p xml:id="pY32p0378a1401" style="text-indent:2em">閻浮車問舍利弗：「所謂欲者，云何為欲」？舍利弗言：「欲者，謂眼所識色，可愛、樂、
 <lb n="0378a15" ed="Y"/>念、染著色；耳、聲；鼻、香；舌、味；身所識觸，可愛、樂、念、染、著觸。閻浮車！此功德
 <pb n="0379a" ed="Y" xml:id="Y32.0030.0379a"/>
 <lb n="0379a01" ed="Y"/>非欲，但覺想思惟者是」。時舍利弗即說偈言：</p>
-<lb n="0379a02" ed="Y"/><lg type="abnormal"><l style="text-indent:2em">「非彼愛欲使，世間種種色，唯有覺想者，是則士夫欲。</l>
+<lb n="0379a02" ed="Y"/><lg xml:id="lgY32p0379a0201" type="abnormal"><l style="text-indent:2em">「非彼愛欲使，世間種種色，唯有覺想者，是則士夫欲。</l>
 <lb n="0379a03" ed="Y"/><l style="text-indent:3em">彼諸種種色，常在於世間，調伏愛欲心，是則黠慧者」。</l></lg>
-<lb n="0379a04" ed="Y"/><p style="text-indent:2em">復問舍利弗：「有道、有向，修習、多修習，斷此欲耶」？舍利弗答言：「有，謂八正道，
+<lb n="0379a04" ed="Y"/><p xml:id="pY32p0379a0401" style="text-indent:2em">復問舍利弗：「有道、有向，修習、多修習，斷此欲耶」？舍利弗答言：「有，謂八正道，
 <lb n="0379a05" ed="Y"/>正見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0379a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-20;1495()</cb:mulu><head><num type="各相應之經號" n="28-20">二〇</num>；<num type="雜含會編經號" n="1495">一四九五</num>（　　　　）</head>
-<lb n="0379a07" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗言：「所謂蓋<note n="0379019" resp="釋印順" type="orig">「蓋」，原本作「養」，依元本改。下例。</note>者，云何為蓋」？舍利弗言：「蓋者，有五蓋：謂貪欲蓋，
+<lb n="0379a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-20;1495()</cb:mulu><head><num n="28-20" type="各相應之經號">二〇</num>；<num n="1495" type="雜含會編經號">一四九五</num>（　　　　）</head>
+<lb n="0379a07" ed="Y"/><p xml:id="pY32p0379a0701" style="text-indent:2em">閻浮車問舍利弗言：「所謂蓋<note n="0379019" resp="釋印順" type="orig">「蓋」，原本作「養」，依元本改。下例。</note>者，云何為蓋」？舍利弗言：「蓋者，有五蓋：謂貪欲蓋，
 <lb n="0379a08" ed="Y"/>瞋恚蓋，睡眠蓋，掉悔蓋，疑蓋」。復問舍利弗：「有道、有向，修習、多修習，斷此五蓋耶」
 <lb n="0379a09" ed="Y"/>？舍利弗答言：「有，謂八正道，正見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0379a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-21;1496()</cb:mulu><head><num n="28-21" type="各相應之經號">二一</num><note n="0379020" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>五經</bibl>。下經同。</note>；<num type="雜含會編經號" n="1496">一四九六</num>（　　　　）</head>
-<lb n="0379a11" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「謂穌息者，云何為穌息」？舍利弗言：「穌息者，謂斷三結」。復問舍
+<lb n="0379a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-21;1496()</cb:mulu><head><num n="28-21" type="各相應之經號">二一</num><note n="0379020" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>五經</bibl>。下經同。</note>；<num n="1496" type="雜含會編經號">一四九六</num>（　　　　）</head>
+<lb n="0379a11" ed="Y"/><p xml:id="pY32p0379a1101" style="text-indent:2em">閻浮車問舍利弗：「謂穌息者，云何為穌息」？舍利弗言：「穌息者，謂斷三結」。復問舍
 <lb n="0379a12" ed="Y"/>利弗：「有道、有向，修習、多修習，斷三結耶」？舍利弗答言：「有，謂八正道，正見乃至正
 <lb n="0379a13" ed="Y"/>定」。時二正士共論議已，各從座起而去。</p></cb:div>
 <lb n="0379a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-22;1497()</cb:mulu><head><num n="28-22" type="各相應之經號">二二</num>；<num n="1497" type="雜含會編經號">一四九七</num>（　　　　）</head>
-<lb n="0379a15" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「謂得穌息者，云何為得穌息者」？舍利弗言：「得穌息者謂三結已盡、
+<lb n="0379a15" ed="Y"/><p xml:id="pY32p0379a1501" style="text-indent:2em">閻浮車問舍利弗：「謂得穌息者，云何為得穌息者」？舍利弗言：「得穌息者謂三結已盡、
 <pb n="0380a" ed="Y" xml:id="Y32.0030.0380a"/>
 <lb n="0380a01" ed="Y"/>已知」。復問：「有道、有向，斷此結耶」？舍利弗答言：「有，謂八正道，正見乃至正定」。
 <lb n="0380a02" ed="Y"/>時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0380a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-23;1498()</cb:mulu><head><num type="各相應之經號" n="28-23">二三</num><note n="0380021" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>六經</bibl>。下經同。</note>；<num n="1498" type="雜含會編經號">一四九八</num>（　　　　）</head>
-<lb n="0380a04" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「謂得上穌息，云何為得上穌息」？舍利弗言：「得上穌息者，謂貪欲永
+<lb n="0380a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-23;1498()</cb:mulu><head><num n="28-23" type="各相應之經號">二三</num><note n="0380021" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>六經</bibl>。下經同。</note>；<num n="1498" type="雜含會編經號">一四九八</num>（　　　　）</head>
+<lb n="0380a04" ed="Y"/><p xml:id="pY32p0380a0401" style="text-indent:2em">閻浮車問舍利弗：「謂得上穌息，云何為得上穌息」？舍利弗言：「得上穌息者，謂貪欲永
 <lb n="0380a05" ed="Y"/>盡，瞋恚、愚癡永盡，是名得上穌息」。復問舍利弗：「有道、有向，修習、多修習，得上穌息
 <lb n="0380a06" ed="Y"/>耶」？舍利弗答言：「有，謂八正道，正見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0380a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-24;1499()</cb:mulu><head><num type="各相應之經號" n="28-24">二四</num>；<num n="1499" type="雜含會編經號">一四九九</num>（　　　　）</head>
-<lb n="0380a08" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「謂得上穌息處，云何為得上穌息處」？舍利弗言：「得上穌息處者，謂
+<lb n="0380a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-24;1499()</cb:mulu><head><num n="28-24" type="各相應之經號">二四</num>；<num n="1499" type="雜含會編經號">一四九九</num>（　　　　）</head>
+<lb n="0380a08" ed="Y"/><p xml:id="pY32p0380a0801" style="text-indent:2em">閻浮車問舍利弗：「謂得上穌息處，云何為得上穌息處」？舍利弗言：「得上穌息處者，謂
 <lb n="0380a09" ed="Y"/>貪欲已斷、已知，永盡無餘；瞋恚、愚癡已斷、已知，永盡無餘，是為得上穌息處」。復問舍利
 <lb n="0380a10" ed="Y"/>弗：「有道、有向，修習、多修習，得上穌息處耶」？舍利弗答言：「有，謂八正道，正見乃至
 <lb n="0380a11" ed="Y"/>正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0380a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-25;1500()</cb:mulu><head><num n="28-25" type="各相應之經號">二五</num>；<num type="雜含會編經號" n="1500">一五〇〇</num>（　　　　）</head>
-<lb n="0380a13" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂清涼，云何為清涼」？舍利弗言：「清涼者，五下分結盡，謂身見
+<lb n="0380a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-25;1500()</cb:mulu><head><num n="28-25" type="各相應之經號">二五</num>；<num n="1500" type="雜含會編經號">一五〇〇</num>（　　　　）</head>
+<lb n="0380a13" ed="Y"/><p xml:id="pY32p0380a1301" style="text-indent:2em">閻浮車問舍利弗：「所謂清涼，云何為清涼」？舍利弗言：「清涼者，五下分結盡，謂身見
 <lb n="0380a14" ed="Y"/>、戒取、疑、貪欲、瞋恚」。復問：「有道、有向，修習、多修習，斷此五下分結、得清涼耶」
 <lb n="0380a15" ed="Y"/>？舍利弗言：「有，謂八正道，正見乃至正定」。時二正士共論議已，各從座起而去。</p>
 <pb n="0381a" ed="Y" xml:id="Y32.0030.0381a"/></cb:div>
-<lb n="0381a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-26;1501()</cb:mulu><head><num type="各相應之經號" n="28-26">二六</num>；<num n="1501" type="雜含會編經號">一五〇一</num>（　　　　）</head>
-<lb n="0381a02" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「謂得清涼，云何為得清涼」？舍利弗言：「五下分結已盡、已知，是名
+<lb n="0381a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-26;1501()</cb:mulu><head><num n="28-26" type="各相應之經號">二六</num>；<num n="1501" type="雜含會編經號">一五〇一</num>（　　　　）</head>
+<lb n="0381a02" ed="Y"/><p xml:id="pY32p0381a0201" style="text-indent:2em">閻浮車問舍利弗：「謂得清涼，云何為得清涼」？舍利弗言：「五下分結已盡、已知，是名
 <lb n="0381a03" ed="Y"/>得清涼」。復問舍利弗：「有道、有向，修習、多修習，得清涼耶」？舍利弗言：「有，謂八正
 <lb n="0381a04" ed="Y"/>道，正見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0381a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-27;1502()</cb:mulu><head><num n="28-27" type="各相應之經號">二七</num>；<num type="雜含會編經號" n="1502">一五〇二</num>（　　　　）</head>
-<lb n="0381a06" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂上清涼者，云何為上清涼」？舍利弗言：「上清涼者，謂貪欲永盡
+<lb n="0381a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-27;1502()</cb:mulu><head><num n="28-27" type="各相應之經號">二七</num>；<num n="1502" type="雜含會編經號">一五〇二</num>（　　　　）</head>
+<lb n="0381a06" ed="Y"/><p xml:id="pY32p0381a0601" style="text-indent:2em">閻浮車問舍利弗：「所謂上清涼者，云何為上清涼」？舍利弗言：「上清涼者，謂貪欲永盡
 <lb n="0381a07" ed="Y"/>無餘，瞋恚、愚癡永盡無餘，一切煩惱永盡無餘，是名上清涼」。復問：「有道、有向，得此上
 <lb n="0381a08" ed="Y"/>清涼耶」？舍利弗言：「有，謂八正道，正見乃至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0381a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-28;1503()</cb:mulu><head><num type="各相應之經號" n="28-28">二八</num>；<num type="雜含會編經號" n="1503">一五〇三</num>（　　　　）</head>
-<lb n="0381a10" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂得上清涼，云何名得上清涼」？舍利弗言：「得上清涼者，謂貪欲
+<lb n="0381a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-28;1503()</cb:mulu><head><num n="28-28" type="各相應之經號">二八</num>；<num n="1503" type="雜含會編經號">一五〇三</num>（　　　　）</head>
+<lb n="0381a10" ed="Y"/><p xml:id="pY32p0381a1001" style="text-indent:2em">閻浮車問舍利弗：「所謂得上清涼，云何名得上清涼」？舍利弗言：「得上清涼者，謂貪欲
 <lb n="0381a11" ed="Y"/>永盡無餘，已斷已知；瞋恚、愚癡永盡無餘，已斷、已知，是名得上清涼」。復問舍利弗：「有
 <lb n="0381a12" ed="Y"/>道、有向，得此上清涼耶」？舍利弗言：「有，謂八正道，正見乃至正定」。時二正士共論議已
 <lb n="0381a13" ed="Y"/>，各從座起而去。</p></cb:div>
-<lb n="0381a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-29;1504()</cb:mulu><head><num type="各相應之經號" n="28-29">二九</num><note n="0381022" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一〇經</bibl>。</note>；<num n="1504" type="雜含會編經號">一五〇四</num>（　　　　）</head>
-<lb n="0381a15" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂愛，云何為愛」？舍利弗言：「有三愛：謂欲愛，色愛，無色愛」
+<lb n="0381a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-29;1504()</cb:mulu><head><num n="28-29" type="各相應之經號">二九</num><note n="0381022" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三八）<title level="a">〈閻浮車相應〉</title>一〇經</bibl>。</note>；<num n="1504" type="雜含會編經號">一五〇四</num>（　　　　）</head>
+<lb n="0381a15" ed="Y"/><p xml:id="pY32p0381a1501" style="text-indent:2em">閻浮車問舍利弗：「所謂愛，云何為愛」？舍利弗言：「有三愛：謂欲愛，色愛，無色愛」
 <pb n="0382a" ed="Y" xml:id="Y32.0030.0382a"/>
 <lb n="0382a01" ed="Y"/>。復問：「有道、有向，斷此三愛耶」？舍利弗言：「有，謂八正道，正見乃至正定」。時二正
 <lb n="0382a02" ed="Y"/>士共論議已，各從座起而去。</p></cb:div>
 <lb n="0382a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-30;1505()</cb:mulu><head><num n="28-30" type="各相應之經號">三〇</num>；<num n="1505" type="雜含會編經號">一五〇五</num>（　　　　）</head>
-<lb n="0382a04" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「謂業跡，云何為業跡」？舍利弗言：「業跡者，十不善業跡：謂殺生，
+<lb n="0382a04" ed="Y"/><p xml:id="pY32p0382a0401" style="text-indent:2em">閻浮車問舍利弗：「謂業跡，云何為業跡」？舍利弗言：「業跡者，十不善業跡：謂殺生，
 <lb n="0382a05" ed="Y"/>偷盜，邪婬，妄語，兩舌，惡口，綺語，貪欲，瞋恚，邪見」。復問舍利弗：「有道、有向，斷
 <lb n="0382a06" ed="Y"/>此十業跡耶」？舍利弗言：「有，謂八正道，正見乃至正定」。時二正士共論議已，各從座起而
 <lb n="0382a07" ed="Y"/>去。</p></cb:div>
 <lb n="0382a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-31;1506()</cb:mulu><head><num n="28-31" type="各相應之經號">三一</num>；<num n="1506" type="雜含會編經號">一五〇六</num>（　　　　）</head>
-<lb n="0382a09" ed="Y"/><p style="text-indent:2em">閻浮車問舍利弗：「所謂穢者，云何為穢」？舍利弗言：「穢者，謂三穢：貪欲穢，瞋恚穢
+<lb n="0382a09" ed="Y"/><p xml:id="pY32p0382a0901" style="text-indent:2em">閻浮車問舍利弗：「所謂穢者，云何為穢」？舍利弗言：「穢者，謂三穢：貪欲穢，瞋恚穢
 <lb n="0382a10" ed="Y"/>，愚癡穢」。復問舍利弗：「有道、有向，斷此三穢耶」？舍利弗言：「有，謂八正道，正見乃
 <lb n="0382a11" ed="Y"/>至正定」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0382a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-32~28-36;1507~1511()</cb:mulu><head><num n="28-32" type="各相應之經號">三二</num>——<num type="各相應之經號" n="28-36">三六</num>；<num n="1507" type="雜含會編經號">一五〇七</num>——<num type="雜含會編經號" n="1511">一五一一</num>（　　　　）</head>
-<lb n="0382a13" ed="Y"/><p style="text-indent:2em">如穢，如是垢，膩，刺，戀，縛，亦爾。</p></cb:div>
-<lb n="0382a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-37~28-72;1512~1547(491)</cb:mulu><head><num n="28-37" type="各相應之經號">三七</num>——<num n="28-72" type="各相應之經號">七二</num><note n="0382023" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三九）<title level="a">〈沙門出家相應〉</title>，共一六經</bibl>。</note>；<num type="雜含會編經號" n="1512">一五一二</num>——<num type="雜含會編經號" n="1547">一五四七</num><num n="491" type="大正藏雜含經號">（四九一）</num></head>
-<lb n="0382a15" ed="Y"/><p style="text-indent:2em">如閻浮車所問經，沙門出家所問，亦如是。</p>
+<lb n="0382a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-32~28-36;1507~1511()</cb:mulu><head><num n="28-32" type="各相應之經號">三二</num>——<num n="28-36" type="各相應之經號">三六</num>；<num n="1507" type="雜含會編經號">一五〇七</num>——<num n="1511" type="雜含會編經號">一五一一</num>（　　　　）</head>
+<lb n="0382a13" ed="Y"/><p xml:id="pY32p0382a1301" style="text-indent:2em">如穢，如是垢，膩，刺，戀，縛，亦爾。</p></cb:div>
+<lb n="0382a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-37~28-72;1512~1547(491)</cb:mulu><head><num n="28-37" type="各相應之經號">三七</num>——<num n="28-72" type="各相應之經號">七二</num><note n="0382023" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（三九）<title level="a">〈沙門出家相應〉</title>，共一六經</bibl>。</note>；<num n="1512" type="雜含會編經號">一五一二</num>——<num n="1547" type="雜含會編經號">一五四七</num><num n="491" type="大正藏雜含經號">（四九一）</num></head>
+<lb n="0382a15" ed="Y"/><p xml:id="pY32p0382a1501" style="text-indent:2em">如閻浮車所問經，沙門出家所問，亦如是。</p>
 <pb n="0383a" ed="Y" xml:id="Y32.0030.0383a"/>
 <lb n="0383a01" ed="Y"/>
 <lb n="0383a02" ed="Y"/>
@@ -313,8 +333,8 @@
 <lb n="0384a08" ed="Y"/>
 <lb n="0384a09" ed="Y"/>
 <lb n="0384a10" ed="Y"/></cb:div>
-<lb n="0384a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-73;1548(492)</cb:mulu><head><num n="28-73" type="各相應之經號">七三</num><note n="0384001" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．四集》一七八經</bibl>。</note>；<num type="雜含會編經號" n="1548">一五四八</num><num type="大正藏雜含經號" n="492">（四九二）</num></head>
-<lb n="0384a12" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。爾時，尊者舍利弗，亦在彼住。時尊者舍利弗，
+<lb n="0384a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-73;1548(492)</cb:mulu><head><num n="28-73" type="各相應之經號">七三</num><note n="0384001" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．四集》一七八經</bibl>。</note>；<num n="1548" type="雜含會編經號">一五四八</num><num n="492" type="大正藏雜含經號">（四九二）</num></head>
+<lb n="0384a12" ed="Y"/><p xml:id="pY32p0384a1201" style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。爾時，尊者舍利弗，亦在彼住。時尊者舍利弗，
 <lb n="0384a13" ed="Y"/>語諸比丘：「若有比丘得無量三昧，身作證具足住，於有身滅涅槃心不樂著，顧念有身。譬如士
 <lb n="0384a14" ed="Y"/>夫，膠著於手，以執樹枝，手即著樹，不能得離。所以者何？膠著手故。比丘無量三摩提身作證
 <lb n="0384a15" ed="Y"/>，心不樂著有身滅涅槃，顧念有身，終不得離，不得現法隨順法教，乃至命終亦無所得，還復來
@@ -327,8 +347,8 @@
 <lb n="0385a06" ed="Y"/>泥池，四方流水，及數天雨，水常入池，其水盈溢，穢惡流出，其池清淨。如是皆得現法隨順法
 <lb n="0385a07" ed="Y"/>教，乃至命終不復還生此界。是故比丘當勤方便，破壞無明」。尊者舍利弗說此經已，諸比丘聞
 <lb n="0385a08" ed="Y"/>其所說，歡喜奉行。</p></cb:div>
-<lb n="0385a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-74;1549(493)</cb:mulu><head><num n="28-74" type="各相應之經號">七四</num>；<num n="1549" type="雜含會編經號">一五四九</num><num type="大正藏雜含經號" n="493">（四九三）</num></head>
-<lb n="0385a10" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。時尊者舍利弗，告諸比丘：「若阿練若比丘，或
+<lb n="0385a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-74;1549(493)</cb:mulu><head><num n="28-74" type="各相應之經號">七四</num>；<num n="1549" type="雜含會編經號">一五四九</num><num n="493" type="大正藏雜含經號">（四九三）</num></head>
+<lb n="0385a10" ed="Y"/><p xml:id="pY32p0385a1001" style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。時尊者舍利弗，告諸比丘：「若阿練若比丘，或
 <lb n="0385a11" ed="Y"/>於空地、林中、樹下，當作是學：內自觀察思惟，心中自覺有欲想不？若不覺者，當於境界，或
 <lb n="0385a12" ed="Y"/>於淨相，若愛欲起，違於遠離。譬如士夫用力乘船，逆流而上，身小疲怠，船則倒還，順流而下
 <lb n="0385a13" ed="Y"/>。如是比丘思惟淨想，還生愛欲，違於遠離。是比丘學時，修下方便，不得淳淨，是故還為愛欲
@@ -339,9 +359,9 @@
 <lb n="0386a02" ed="Y"/>舒展。如是比丘或取淨相，即順遠離，流注、浚輸。比丘當如是知於方便行，心不懈怠，得法寂
 <lb n="0386a03" ed="Y"/>靜，寂止息樂，淳淨一心。謂我思惟已，於淨相順於遠離，隨順修道，則能堪任自記，於五欲功
 <lb n="0386a04" ed="Y"/>德離欲解脫」。尊者舍利弗說是經已，諸比丘聞其所說，歡喜奉行。</p></cb:div>
-<lb n="0386a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-75;1550(494)</cb:mulu><head><num type="各相應之經號" n="28-75">七五</num><note n="0386003" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．六集》四一經</bibl>。</note>；<num type="雜含會編經號" n="1550">一五五〇</num><num type="大正藏雜含經號" n="494">（四九四）</num></head>
-<lb n="0386a06" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。尊者舍利弗在耆闍崛山中。爾時，尊者舍利弗，
-<lb n="0386a07" ed="Y"/>晨朝著衣持鉢，出耆闍崛山，入王舍城乞食。於路邊見一大枯樹，即於樹下敷<note n="0386a0701" resp="CBETA" type="add">坐【CB】，座【印順】</note><app n="0386a0701"><lem wit="【CB】" resp="正聞出版社">坐<note type="cf1">《雜阿含經》卷18(CBETA, T02, no. 99, p. 128, c20-23)</note></lem><rdg wit="【印順】">座</rdg></app>具，<g ref="#CB00866"/>身正坐。
+<lb n="0386a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-75;1550(494)</cb:mulu><head><num n="28-75" type="各相應之經號">七五</num><note n="0386003" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．六集》四一經</bibl>。</note>；<num n="1550" type="雜含會編經號">一五五〇</num><num n="494" type="大正藏雜含經號">（四九四）</num></head>
+<lb n="0386a06" ed="Y"/><p xml:id="pY32p0386a0601" style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。尊者舍利弗在耆闍崛山中。爾時，尊者舍利弗，
+<lb n="0386a07" ed="Y"/>晨朝著衣持鉢，出耆闍崛山，入王舍城乞食。於路邊見一大枯樹，即於樹下敷<note n="0386a0701" resp="CBETA" type="add">坐【CB】，座【印順】</note><app n="0386a0701"><lem resp="正聞出版社" wit="【CB】">坐<note type="cf1">《雜阿含經》卷18(CBETA, T02, no. 99, p. 128, c20-23)</note></lem><rdg wit="【印順】">座</rdg></app>具，<g ref="#CB00866"/>身正坐。
 <lb n="0386a08" ed="Y"/>語諸比丘：「若有比丘修習禪思，得神通力，心得自在，欲令此枯樹成地，即時為地。所以者何
 <lb n="0386a09" ed="Y"/>？謂此枯樹中有地界，是故比丘得神通力，心作地解，即成地不異。若有比丘得神通力，自在如
 <lb n="0386a10" ed="Y"/>意，欲令此樹為水、火、風、金、銀等物，悉皆成就不異。所以者何？謂此枯樹有水界故，……
@@ -349,9 +369,9 @@
 <lb n="0386a12" ed="Y"/>異。所以者何？以彼枯樹有種種界故。是故比丘禪思，得神通力，自在如意，為種種物，悉成不
 <lb n="0386a13" ed="Y"/>異。比丘！當知比丘禪思，神通境界不可思議。是故比丘當勤禪思，學諸神通」。舍利弗說是經
 <lb n="0386a14" ed="Y"/>已，諸比丘聞其所說，歡喜奉行。</p></cb:div>
-<lb n="0386a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-76;1551(495)</cb:mulu><head><num n="28-76" type="各相應之經號">七六</num><note n="0386004" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．五集》一六八經</bibl>。<bibl><title level="a">〈十集〉</title>四經</bibl>。<bibl><title level="a">〈十一集〉</title>四、五經</bibl>。<bibl><title level="m">《中阿含經》</title><ref target="#no:26.48" type="taisho">（四八）</ref><title level="m">《戒經》</title></bibl>。</note>；<num type="雜含會編經號" n="1551">一五五一</num><num n="495" type="大正藏雜含經號">（四九五）</num></head>
+<lb n="0386a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-76;1551(495)</cb:mulu><head><num n="28-76" type="各相應之經號">七六</num><note n="0386004" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．五集》一六八經</bibl>。<bibl><title level="a">〈十集〉</title>四經</bibl>。<bibl><title level="a">〈十一集〉</title>四、五經</bibl>。<bibl><title level="m">《中阿含經》</title><ref target="#no:26.48" type="taisho">（四八）</ref><title level="m">《戒經》</title></bibl>。</note>；<num n="1551" type="雜含會編經號">一五五一</num><num n="495" type="大正藏雜含經號">（四九五）</num></head>
 <pb n="0387a" ed="Y" xml:id="Y32.0030.0387a"/>
-<lb n="0387a01" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。時尊者舍利弗，在耆闍崛山中。爾時，尊者舍利
+<lb n="0387a01" ed="Y"/><p xml:id="pY32p0387a0101" style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。時尊者舍利弗，在耆闍崛山中。爾時，尊者舍利
 <lb n="0387a02" ed="Y"/>弗告諸比丘：「其犯戒者，以破戒故，所依退減，心不樂住。不樂住已，失喜、息、樂、寂靜三
 <lb n="0387a03" ed="Y"/>昧，如實知見，厭離、離欲、解脫已，永不能得無餘涅槃。如樹根壞，枝、葉、華、果悉不成就
 <lb n="0387a04" ed="Y"/>。犯戒比丘亦復如是，功德退減，心不樂住。不信樂已，失喜、息、樂、寂靜三昧，如實知見，
@@ -360,23 +380,23 @@
 <lb n="0387a07" ed="Y"/>無餘涅槃。譬如樹根不壞，枝、葉、華、果悉得成就。持戒比丘亦復如是，根本具足，所依成就
 <lb n="0387a08" ed="Y"/>，心得信樂。得信樂已，歡喜、息、樂、寂靜三昧，如實知見，厭離、離欲、解脫，疾得無餘涅
 <lb n="0387a09" ed="Y"/>槃」。尊者舍利弗說是經已，諸比丘聞其所說，歡喜奉行。</p></cb:div>
-<lb n="0387a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-77;1552(496)</cb:mulu><head><num type="各相應之經號" n="28-77">七七</num>；<num type="雜含會編經號" n="1552">一五五二</num><num n="496" type="大正藏雜含經號">（四九六）</num></head>
-<lb n="0387a11" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，舍利弗告諸比丘：「若諸比丘諍起相言
-<lb n="0387a12" ed="Y"/>，有犯罪比丘，舉罪比丘。彼若不依正思惟，自省察者，當知彼比丘長夜<note n="0387a1201" resp="CBETA" type="add">強【CB】，强【印順】</note><app n="0387a1201"><lem wit="【CB】" resp="正聞出版社">強</lem><rdg wit="【印順】">强</rdg></app>梁，諍訟轉增，共相
+<lb n="0387a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-77;1552(496)</cb:mulu><head><num n="28-77" type="各相應之經號">七七</num>；<num n="1552" type="雜含會編經號">一五五二</num><num n="496" type="大正藏雜含經號">（四九六）</num></head>
+<lb n="0387a11" ed="Y"/><p xml:id="pY32p0387a1101" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，舍利弗告諸比丘：「若諸比丘諍起相言
+<lb n="0387a12" ed="Y"/>，有犯罪比丘，舉罪比丘。彼若不依正思惟，自省察者，當知彼比丘長夜<note n="0387a1201" resp="CBETA" type="add">強【CB】，强【印順】</note><app n="0387a1201"><lem resp="正聞出版社" wit="【CB】">強</lem><rdg wit="【印順】">强</rdg></app>梁，諍訟轉增，共相
 <lb n="0387a13" ed="Y"/>違反，結恨彌深。於所起之罪，不能以正法律止令休息。若比丘有此已起諍訟，若犯罪比丘，若
-<lb n="0387a14" ed="Y"/>舉罪比丘，俱依正思惟，自省察尅責，當知彼比丘不長夜<note n="0387a1401" resp="CBETA" type="add">強【CB】，强【印順】</note><app n="0387a1401"><lem wit="【CB】" resp="正聞出版社">強</lem><rdg wit="【印順】">强</rdg></app>梁，共相違反，結恨轉增。於所起之
+<lb n="0387a14" ed="Y"/>舉罪比丘，俱依正思惟，自省察尅責，當知彼比丘不長夜<note n="0387a1401" resp="CBETA" type="add">強【CB】，强【印順】</note><app n="0387a1401"><lem resp="正聞出版社" wit="【CB】">強</lem><rdg wit="【印順】">强</rdg></app>梁，共相違反，結恨轉增。於所起之
 <lb n="0387a15" ed="Y"/>罪，能以法律止令休息。云何比丘正思惟自省察？比丘應如是思惟：我不是、不類，不應作罪，
 <pb n="0388a" ed="Y" xml:id="Y32.0030.0388a"/>
 <lb n="0388a01" ed="Y"/>令彼見我。若我不為此罪，彼則不見，以彼見我罪，不喜嫌責，故舉之耳；餘比丘聞者，亦當嫌
-<lb n="0388a02" ed="Y"/>責。是故長夜諍訟，<note n="0388a0201" resp="CBETA" type="add">強【CB】，强【印順】</note><app n="0388a0201"><lem wit="【CB】" resp="正聞出版社">強</lem><rdg wit="【印順】">强</rdg></app>梁轉增，諍訟相言，於所起之罪，不能以正法律止令休息。我今自知，如
+<lb n="0388a02" ed="Y"/>責。是故長夜諍訟，<note n="0388a0201" resp="CBETA" type="add">強【CB】，强【印順】</note><app n="0388a0201"><lem resp="正聞出版社" wit="【CB】">強</lem><rdg wit="【印順】">强</rdg></app>梁轉增，諍訟相言，於所起之罪，不能以正法律止令休息。我今自知，如
 <lb n="0388a03" ed="Y"/>己輸稅，是名比丘於所起罪，能自觀察。云何舉罪比丘能自省察？舉罪比丘應如是念：彼長老比
 <lb n="0388a04" ed="Y"/>丘，作不類罪，令我見之。若彼不作此不類罪者，我則不見。我見其罪，不喜故舉；餘比丘見，
 <lb n="0388a05" ed="Y"/>亦當不喜故舉之，長夜諍訟，轉增不息，不能以正法律止所起罪，令其休息。我從今日，當自去
 <lb n="0388a06" ed="Y"/>之，如己輸稅。如是舉罪比丘，善能依正思惟內自觀察。是故諸比丘！有罪及舉罪者，當依正思
-<lb n="0388a07" ed="Y"/>惟而自觀察，不令長夜<note n="0388a0701" resp="CBETA" type="add">強【CB】，强【印順】</note><app n="0388a0701"><lem wit="【CB】" resp="正聞出版社">強</lem><rdg wit="【印順】">强</rdg></app>梁增長。諸比丘得不諍訟；所起之諍，能以法律止令休息」。尊者舍利
+<lb n="0388a07" ed="Y"/>惟而自觀察，不令長夜<note n="0388a0701" resp="CBETA" type="add">強【CB】，强【印順】</note><app n="0388a0701"><lem resp="正聞出版社" wit="【CB】">強</lem><rdg wit="【印順】">强</rdg></app>梁增長。諸比丘得不諍訟；所起之諍，能以法律止令休息」。尊者舍利
 <lb n="0388a08" ed="Y"/>弗說是經已，諸比丘聞已，歡喜奉行。</p></cb:div>
-<lb n="0388a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-78;1553(497)</cb:mulu><head><num type="各相應之經號" n="28-78">七八</num><note n="0388005" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．五集》一六七經</bibl>。</note>；<num n="1553" type="雜含會編經號">一五五三</num><num type="大正藏雜含經號" n="497">（四九七）</num></head>
-<lb n="0388a10" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者舍利弗，詣佛所，稽首佛足，退坐
+<lb n="0388a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-78;1553(497)</cb:mulu><head><num n="28-78" type="各相應之經號">七八</num><note n="0388005" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．五集》一六七經</bibl>。</note>；<num n="1553" type="雜含會編經號">一五五三</num><num n="497" type="大正藏雜含經號">（四九七）</num></head>
+<lb n="0388a10" ed="Y"/><p xml:id="pY32p0388a1001" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者舍利弗，詣佛所，稽首佛足，退坐
 <lb n="0388a11" ed="Y"/>一面。白佛言：「世尊！若舉罪比丘欲舉他罪者，令心安住幾法，得舉他罪」？佛告舍利弗：「
 <lb n="0388a12" ed="Y"/>若比丘令心安住五法，得舉他罪。云何為五？實非不實，時不非時，義饒益非非義饒益，柔軟不
 <lb n="0388a13" ed="Y"/>麁澁，慈心不瞋恚。舍利弗！舉罪比丘具此五法，得舉他罪」。舍利弗白佛言：「世尊！被舉比
@@ -390,7 +410,7 @@
 <lb n="0389a05" ed="Y"/>，汝當改悔！舍利弗！不實舉他罪比丘，當以此五法饒益，令其改悔。亦令當來世比丘，不為不
 <lb n="0389a06" ed="Y"/>實舉他罪」。舍利弗白佛言：「世尊！被不實舉罪比丘，復以幾法令不變悔」？佛告舍利弗：「
 <lb n="0389a07" ed="Y"/>被不實舉罪比丘，當以五法不自變悔。彼應作是念：彼比丘不實舉罪非是實，非時非是時，非義
-<lb n="0389a08" ed="Y"/>饒益非是義饒益，麁澁非柔軟，瞋恚非慈心，我真<note n="0389a0801" resp="CBETA" type="add">不【CB】，是【印順】</note><app n="0389a0801"><lem wit="【CB】" resp="正聞出版社">不<note type="cf1">案：下文有說「不自變悔」，從文義來看，「是」應改為「不」較恰當（CBETA 亦校訂為「是」）。參見《雜阿含經》卷18（497經）(CBETA, T02, no. 99, p. 129, c20-27)</note></lem><rdg wit="【印順】">是</rdg></app>變悔。被不實舉罪比丘，當以此五法，自安
+<lb n="0389a08" ed="Y"/>饒益非是義饒益，麁澁非柔軟，瞋恚非慈心，我真<note n="0389a0801" resp="CBETA" type="add">不【CB】，是【印順】</note><app n="0389a0801"><lem resp="正聞出版社" wit="【CB】">不<note type="cf1">案：下文有說「不自變悔」，從文義來看，「是」應改為「不」較恰當（CBETA 亦校訂為「是」）。參見《雜阿含經》卷18（497經）(CBETA, T02, no. 99, p. 129, c20-27)</note></lem><rdg wit="【印順】">是</rdg></app>變悔。被不實舉罪比丘，當以此五法，自安
 <lb n="0389a09" ed="Y"/>其心，不自變悔」。舍利弗白佛言：「世尊！有比丘舉罪，實非不實，時不非時，義饒益不非義
 <lb n="0389a10" ed="Y"/>饒益，柔軟非麁澁，慈心非瞋恚。實舉罪比丘，當以幾法饒益令不改變」？佛告舍利弗：「實舉
 <lb n="0389a11" ed="Y"/>罪比丘，當以五法饒益令不變悔。當作是言：長老！汝實舉罪非不實，時不非時，義饒益不非義
@@ -411,23 +431,23 @@
 <lb n="0390a10" ed="Y"/>，欲修善法，於此不善法當斷，善法當修，精勤方便，善自防護，繫念思惟，不放逸行，應當學
 <lb n="0390a11" ed="Y"/>」。舍利弗白佛言：「世尊！我若舉他比丘罪，實非不實，時非不時，義饒益非非義饒益，柔軟
 <lb n="0390a12" ed="Y"/>非麁澁，慈心不瞋恚。然彼被舉比丘，有懷瞋恚者」。佛問舍利弗；「何等像類比丘，聞舉其罪
-<lb n="0390a13" ed="Y"/>而生瞋恚」？舍利弗白佛言：「世尊！若彼比丘<note n="0390a1301" resp="CBETA" type="add">諂【CB】，謟【印順】</note><app n="0390a1301"><lem wit="【CB】" resp="正聞出版社">諂</lem><rdg wit="【印順】">謟</rdg></app>曲，幻偽，欺誑，不信，無慚，無愧，懈怠，
+<lb n="0390a13" ed="Y"/>而生瞋恚」？舍利弗白佛言：「世尊！若彼比丘<note n="0390a1301" resp="CBETA" type="add">諂【CB】，謟【印順】</note><app n="0390a1301"><lem resp="正聞出版社" wit="【CB】">諂</lem><rdg wit="【印順】">謟</rdg></app>曲，幻偽，欺誑，不信，無慚，無愧，懈怠，
 <lb n="0390a14" ed="Y"/>失念，不定，惡慧，慢緩，違於遠離，不敬戒律，不顧沙門，不勤修學，不自省察，為命出家，
 <lb n="0390a15" ed="Y"/>不求涅槃，如是等人，聞我舉罪則生瞋恚」。佛問舍利弗：「何等像類比丘，聞汝舉罪而不瞋恨
 <pb n="0391a" ed="Y" xml:id="Y32.0030.0391a"/>
-<lb n="0391a01" ed="Y"/>」？舍利弗白佛言：「世尊！若有比丘不<note n="0391a0101" resp="CBETA" type="add">諂【CB】，謟【印順】</note><app n="0391a0101"><lem wit="【CB】" resp="正聞出版社">諂</lem><rdg wit="【印順】">謟</rdg></app>曲，不幻偽，不欺誑，有信，慚，愧，精勤，正念，
+<lb n="0391a01" ed="Y"/>」？舍利弗白佛言：「世尊！若有比丘不<note n="0391a0101" resp="CBETA" type="add">諂【CB】，謟【印順】</note><app n="0391a0101"><lem resp="正聞出版社" wit="【CB】">諂</lem><rdg wit="【印順】">謟</rdg></app>曲，不幻偽，不欺誑，有信，慚，愧，精勤，正念，
 <lb n="0391a02" ed="Y"/>正定，智慧，不慢緩，不捨遠離，深敬戒律，顧沙門行，尊崇涅槃，為法出家，不為性命，如是
 <lb n="0391a03" ed="Y"/>比丘，聞我舉罪，歡喜頂受，如飲甘露。譬如剎利、婆羅門女，沐浴清淨，得好妙華，愛樂頂戴
-<lb n="0391a04" ed="Y"/>以冠其首。如是比丘不<note n="0391a0401" resp="CBETA" type="add">諂【CB】，謟【印順】</note><app n="0391a0401"><lem wit="【CB】" resp="正聞出版社">諂</lem><rdg wit="【印順】">謟</rdg></app>曲，不幻偽，不欺誑，正信，慚，愧，精勤，正念，正定，智慧，不慢
+<lb n="0391a04" ed="Y"/>以冠其首。如是比丘不<note n="0391a0401" resp="CBETA" type="add">諂【CB】，謟【印順】</note><app n="0391a0401"><lem resp="正聞出版社" wit="【CB】">諂</lem><rdg wit="【印順】">謟</rdg></app>曲，不幻偽，不欺誑，正信，慚，愧，精勤，正念，正定，智慧，不慢
 <lb n="0391a05" ed="Y"/>緩，心存遠離，深敬戒律，顧沙門行，勤修自省，為法出家，志求涅槃，如是比丘，聞我舉罪，
-<lb n="0391a06" ed="Y"/>歡喜頂受，如飲甘露」。佛告舍利弗：「若彼比丘<note n="0391a0601" resp="CBETA" type="add">諂【CB】，謟【印順】</note><app n="0391a0601"><lem wit="【CB】" resp="正聞出版社">諂</lem><rdg wit="【印順】">謟</rdg></app>曲，幻偽，欺誑，不信，無慚，無愧，懈怠
+<lb n="0391a06" ed="Y"/>歡喜頂受，如飲甘露」。佛告舍利弗：「若彼比丘<note n="0391a0601" resp="CBETA" type="add">諂【CB】，謟【印順】</note><app n="0391a0601"><lem resp="正聞出版社" wit="【CB】">諂</lem><rdg wit="【印順】">謟</rdg></app>曲，幻偽，欺誑，不信，無慚，無愧，懈怠
 <lb n="0391a07" ed="Y"/>，失念，不定，惡慧，慢緩，違於遠離，不敬戒律，不顧沙門行，不求涅槃，為命出家，如是比
-<lb n="0391a08" ed="Y"/>丘，不應教授與共言語。所以者何？此等比丘破梵行故。若彼比丘不<note n="0391a0801" resp="CBETA" type="add">諂【CB】，謟【印順】</note><app n="0391a0801"><lem wit="【CB】" resp="正聞出版社">諂</lem><rdg wit="【印順】">謟</rdg></app>曲，不幻偽，不欺誑，信
+<lb n="0391a08" ed="Y"/>丘，不應教授與共言語。所以者何？此等比丘破梵行故。若彼比丘不<note n="0391a0801" resp="CBETA" type="add">諂【CB】，謟【印順】</note><app n="0391a0801"><lem resp="正聞出版社" wit="【CB】">諂</lem><rdg wit="【印順】">謟</rdg></app>曲，不幻偽，不欺誑，信
 <lb n="0391a09" ed="Y"/>心，慚，愧，精勤，正念，正定，智慧，不慢緩，心存遠離，深敬戒律，顧沙門行，志崇涅槃，
 <lb n="0391a10" ed="Y"/>為法出家，如是比丘，應當教授。所以者何？如是比丘能修梵行，能自建立故」。佛說此經已，
 <lb n="0391a11" ed="Y"/>尊者舍利弗聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0391a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-79;1554(498)</cb:mulu><head><num type="各相應之經號" n="28-79">七九</num><note n="0391007" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四七）<title level="a">〈念處相應〉</title>一二經</bibl>。<bibl><title level="m">《長部》</title>（二八）<title level="m">《自歡喜經》</title>初分</bibl>。<bibl><title level="m">《長阿含經》</title><ref target="#no:1.18" type="taisho">（一八）</ref><title level="m">《自歡喜經》</title>初分</bibl>。</note>；<num type="雜含會編經號" n="1554">一五五四</num><num n="498" type="大正藏雜含經號">（四九八）</num></head>
-<lb n="0391a13" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住那羅揵陀賣衣者菴羅園。爾時，舍利弗詣世尊所，稽首禮足，退坐一
+<lb n="0391a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-79;1554(498)</cb:mulu><head><num n="28-79" type="各相應之經號">七九</num><note n="0391007" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四七）<title level="a">〈念處相應〉</title>一二經</bibl>。<bibl><title level="m">《長部》</title>（二八）<title level="m">《自歡喜經》</title>初分</bibl>。<bibl><title level="m">《長阿含經》</title><ref target="#no:1.18" type="taisho">（一八）</ref><title level="m">《自歡喜經》</title>初分</bibl>。</note>；<num n="1554" type="雜含會編經號">一五五四</num><num n="498" type="大正藏雜含經號">（四九八）</num></head>
+<lb n="0391a13" ed="Y"/><p xml:id="pY32p0391a1301" style="text-indent:2em">如是我聞：一時，佛住那羅揵陀賣衣者菴羅園。爾時，舍利弗詣世尊所，稽首禮足，退坐一
 <lb n="0391a14" ed="Y"/>面。白佛言：「世尊！我深信世尊，過去、當來、今現在，諸沙門、婆羅門所有智慧，無有與世
 <lb n="0391a15" ed="Y"/>尊菩提等者，況復過上」！佛告舍利弗：「善哉！善哉！舍利弗！善哉所說第一之說，能於眾中
 <pb n="0392a" ed="Y" xml:id="Y32.0030.0392a"/>
@@ -452,8 +472,8 @@
 <lb n="0393a03" ed="Y"/>得阿耨多羅三藐三菩提」。佛告舍利弗：「如是，如是！舍利弗！過去、未來、今現在佛，悉斷
 <lb n="0393a04" ed="Y"/>五蓋惱心，令<note n="0393009" resp="釋印順" type="orig">「令」，原本缺，依宋本補。</note>慧力羸，墮障礙品，不向涅槃者；住四念處，修七覺分，得阿耨多羅三藐三菩提
 <lb n="0393a05" ed="Y"/>」。佛說是經已，尊者舍利弗聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0393a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-80;1555(499)</cb:mulu><head><num type="各相應之經號" n="28-80">八〇</num><note n="0393010" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．九集》二六經</bibl>。</note>；<num n="1555" type="雜含會編經號">一五五五</num><num type="大正藏雜含經號" n="499">（四九九）</num></head>
-<lb n="0393a07" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。爾時，尊者舍利弗，在耆闍崛山中。時有月子比
+<lb n="0393a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-80;1555(499)</cb:mulu><head><num n="28-80" type="各相應之經號">八〇</num><note n="0393010" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．九集》二六經</bibl>。</note>；<num n="1555" type="雜含會編經號">一五五五</num><num n="499" type="大正藏雜含經號">（四九九）</num></head>
+<lb n="0393a07" ed="Y"/><p xml:id="pY32p0393a0701" style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。爾時，尊者舍利弗，在耆闍崛山中。時有月子比
 <lb n="0393a08" ed="Y"/>丘，是提婆達多弟子，詣尊者舍利弗，共相問訊，慰勞已，退住一面。退住一面已，尊者舍利弗
 <lb n="0393a09" ed="Y"/>問月子比丘言：「提婆達多比丘，為諸比丘說法不」？月子比丘答言：「說法，尊者」！舍利弗
 <lb n="0393a10" ed="Y"/>問月子比丘言：「提婆達多云何說法」？月子比丘語尊者舍利弗言：「彼提婆達多如是說法言：
@@ -474,8 +494,8 @@
 <lb n="0394a09" ed="Y"/>，梵行已立，所作已作，自知不受後有。譬如火，燒未燒者，燒已不復更燒。如是比丘心法，修
 <lb n="0394a10" ed="Y"/>心已，離貪欲心，離瞋恚心，離愚癡心，得無貪法、無恚法、無癡法，能自記說：我生已盡，梵
 <lb n="0394a11" ed="Y"/>行已立，所作已作，自知不受後有」。舍利弗說此經已，諸比丘聞其所說，歡喜奉行。</p></cb:div>
-<lb n="0394a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-81;1556(500)</cb:mulu><head><num n="28-81" type="各相應之經號">八一</num><note n="0394011" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（二八）<title level="a">〈舍利弗相應〉</title>一〇經</bibl>。</note>；<num type="雜含會編經號" n="1556">一五五六</num><num n="500" type="大正藏雜含經號">（五〇〇）</num></head>
-<lb n="0394a13" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。時尊者舍利弗，亦住王舍城迦蘭陀竹園。爾時，
+<lb n="0394a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">28-81;1556(500)</cb:mulu><head><num n="28-81" type="各相應之經號">八一</num><note n="0394011" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（二八）<title level="a">〈舍利弗相應〉</title>一〇經</bibl>。</note>；<num n="1556" type="雜含會編經號">一五五六</num><num n="500" type="大正藏雜含經號">（五〇〇）</num></head>
+<lb n="0394a13" ed="Y"/><p xml:id="pY32p0394a1301" style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。時尊者舍利弗，亦住王舍城迦蘭陀竹園。爾時，
 <lb n="0394a14" ed="Y"/>尊者舍利弗，晨朝著衣持鉢，入王舍城乞食。乞食已，於一樹下食。時有淨口外道出家尼，從王
 <lb n="0394a15" ed="Y"/>舍城出，少有所營。見尊者舍利弗坐一樹下食，見已問言：「沙門食耶」？尊者舍利弗答言：「
 <pb n="0395a" ed="Y" xml:id="Y32.0030.0395a"/>
@@ -489,7 +509,7 @@
 <lb n="0395a08" ed="Y"/>羅門，為諸醫方，種種治病，邪命求食者，如是沙門、婆羅門，則為四維口食也。姊妹！我不墮
 <lb n="0395a09" ed="Y"/>此四種邪命而求食也。然我姊妹！但以法求食而自活也。是故我說，不為四種食也」。時淨口外
 <lb n="0395a10" ed="Y"/>道出家尼，聞尊者舍利弗所說，歡喜隨喜而去。</p>
-<lb n="0395a11" ed="Y"/><p style="text-indent:2em">時淨口外道出家尼，於王舍城里巷、四衢處，讚歎言：「沙門釋子，淨命自活，極淨命自活
+<lb n="0395a11" ed="Y"/><p xml:id="pY32p0395a1101" style="text-indent:2em">時淨口外道出家尼，於王舍城里巷、四衢處，讚歎言：「沙門釋子，淨命自活，極淨命自活
 <lb n="0395a12" ed="Y"/>！諸有欲為施者，應施沙門釋種子。若欲為福者，應於沙門釋子所作福」。時有諸外道出家，聞
 <lb n="0395a13" ed="Y"/>淨口外道出家尼，讚歎沙門釋子聲，以嫉妬心，害彼淨口外道出家尼。命終之後，生兜率天，以
 <lb n="0395a14" ed="Y"/>於尊者舍利弗所生信心故也。</p>
@@ -509,8 +529,8 @@
 <lb n="0396a12" ed="Y"/></cb:div></cb:div>
 <pb n="0397a" ed="Y" xml:id="Y32.0030.0397a"/>
 <lb n="0397a01" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">二九　目揵連相應（五三經）</cb:mulu><head>二九　目揵連相應<note n="0397001" resp="釋印順" type="orig"><title level="a">〈目揵連相應〉</title>，共五三經。與<bibl><title level="m">《相應部》</title>（四〇）<title level="a">〈目揵連相應〉</title></bibl>少分，<bibl>（一九）<title level="a">〈勒叉那相應〉</title></bibl>相當。</note></head>
-<lb n="0397a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-1;1557(501)</cb:mulu><head><num n="29-1" type="各相應之經號">一</num><note n="0397002" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（二一）<title level="a">〈比丘相應〉</title>一經</bibl>。<bibl>（四〇）<title level="a">〈目揵連相應〉</title>二經</bibl>。</note>；<num n="1557" type="雜含會編經號">一五五七</num><num type="大正藏雜含經號" n="501">（五〇一）</num></head>
-<lb n="0397a03" ed="Y"/><p style="text-indent:2em"><note n="0397003" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="18中">卷一八中</biblScope></bibl>。</note>如是我聞：一時，佛住王舍城迦蘭陀竹園。爾時，尊者大目揵連，在王舍城耆闍崛山中。
+<lb n="0397a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-1;1557(501)</cb:mulu><head><num n="29-1" type="各相應之經號">一</num><note n="0397002" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（二一）<title level="a">〈比丘相應〉</title>一經</bibl>。<bibl>（四〇）<title level="a">〈目揵連相應〉</title>二經</bibl>。</note>；<num n="1557" type="雜含會編經號">一五五七</num><num n="501" type="大正藏雜含經號">（五〇一）</num></head>
+<lb n="0397a03" ed="Y"/><p xml:id="pY32p0397a0301" style="text-indent:2em"><note n="0397003" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="18中" type="卷">卷一八中</biblScope></bibl>。</note>如是我聞：一時，佛住王舍城迦蘭陀竹園。爾時，尊者大目揵連，在王舍城耆闍崛山中。
 <lb n="0397a04" ed="Y"/>爾時，尊者大目揵連告諸比丘：「一時，世尊住王舍城迦蘭陀竹園，我於此耆闍崛山中住。我獨
 <lb n="0397a05" ed="Y"/>一靜處，作如是念：云何為聖默然？復作是念：若有比丘息有覺、有觀，內淨一心，無覺、無觀
 <lb n="0397a06" ed="Y"/>三昧生喜樂，第二禪具足住，是名聖默然。復作是念：我今亦當聖默然，息有覺、有觀，內淨一
@@ -524,8 +544,8 @@
 <lb n="0397a14" ed="Y"/>、三昧、正受。於一日中，世尊以神通力，三至我所，三教授我，以大人處所建立於我」。尊者
 <pb n="0398a" ed="Y" xml:id="Y32.0030.0398a"/>
 <lb n="0398a01" ed="Y"/>大目揵連說此經已，諸比丘聞其所說，歡喜奉行。</p></cb:div>
-<lb n="0398a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-2;1558(502)</cb:mulu><head><num type="各相應之經號" n="29-2">二</num><note n="0398004" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四〇）<title level="a">〈目揵連相應〉</title>九經</bibl>。</note>；<num type="雜含會編經號" n="1558">一五五八</num><num type="大正藏雜含經號" n="502">（五〇二）</num></head>
-<lb n="0398a03" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。爾時，尊者大目揵連在王舍城耆闍崛山中。爾時
+<lb n="0398a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-2;1558(502)</cb:mulu><head><num n="29-2" type="各相應之經號">二</num><note n="0398004" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四〇）<title level="a">〈目揵連相應〉</title>九經</bibl>。</note>；<num n="1558" type="雜含會編經號">一五五八</num><num n="502" type="大正藏雜含經號">（五〇二）</num></head>
+<lb n="0398a03" ed="Y"/><p xml:id="pY32p0398a0301" style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。爾時，尊者大目揵連在王舍城耆闍崛山中。爾時
 <lb n="0398a04" ed="Y"/>，尊者大目揵連，告諸比丘：「一時，世尊住王舍城，我住耆闍崛山中。我獨一靜處，作如是念
 <lb n="0398a05" ed="Y"/>：云何名為聖住？復作是念：若有比丘不念一切相，無相心正受，身作證具足住，是名聖住。我
 <lb n="0398a06" ed="Y"/>作是念：我當於此聖住，不念一切相，無相心正受，身作證具足住、多住。多住已，取相心生。
@@ -537,9 +557,9 @@
 <lb n="0398a12" ed="Y"/>輪聖王太子，雖未灌頂，已得王法，不勤方便，能得五欲功德。我亦如是，為佛之子，不勤方便
 <lb n="0398a13" ed="Y"/>，得禪、解脫、三昧、正受。於一日中，世尊以神通力，三至我所，三教授我，以大人處建立於
 <lb n="0398a14" ed="Y"/>我」。尊者大目揵連說此經已，諸比丘聞其所說，歡喜奉行。</p></cb:div>
-<lb n="0398a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-3;1559(503)</cb:mulu><head><num type="各相應之經號" n="29-3">三</num><note n="0398005" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（二一）<title level="a">〈比丘相應〉</title>三經</bibl>。</note>；<num type="雜含會編經號" n="1559">一五五九</num><num n="503" type="大正藏雜含經號">（五〇三）</num></head>
+<lb n="0398a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-3;1559(503)</cb:mulu><head><num n="29-3" type="各相應之經號">三</num><note n="0398005" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（二一）<title level="a">〈比丘相應〉</title>三經</bibl>。</note>；<num n="1559" type="雜含會編經號">一五五九</num><num n="503" type="大正藏雜含經號">（五〇三）</num></head>
 <pb n="0399a" ed="Y" xml:id="Y32.0030.0399a"/>
-<lb n="0399a01" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者舍利弗，尊者大目揵連，尊者阿難
+<lb n="0399a01" ed="Y"/><p xml:id="pY32p0399a0101" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者舍利弗，尊者大目揵連，尊者阿難
 <lb n="0399a02" ed="Y"/>，在王舍城迦蘭陀竹園，於一房共住。時尊者舍利弗，於後夜時，告尊者目揵連：「奇哉！尊者
 <lb n="0399a03" ed="Y"/>目揵連！汝於今夜住寂滅正受，（尊者目揵連聞尊者舍利弗語，尊者目揵連言）我都不聞汝喘息
 <lb n="0399a04" ed="Y"/>之聲」。尊者目揵連言：「此非寂滅正受，麁正受住耳。尊者舍利弗！我於今夜，與世尊共語」
@@ -550,7 +570,7 @@
 <lb n="0399a09" ed="Y"/>晝則經行、若坐，以不障礙法自淨其心；初夜若坐、經行，以不障礙法自淨其心；於中夜時，出
 <lb n="0399a10" ed="Y"/>房外洗足，還入房右脇而臥，足足相累，係念明相，正念、正知，作起思惟；於後夜時，徐覺、
 <lb n="0399a11" ed="Y"/>徐起，若坐亦經行，以不障礙法自淨其心。目揵連！是名比丘慇懃精進」。</p>
-<lb n="0399a12" ed="Y"/><p style="text-indent:2em">尊者舍利弗語尊者目揵連言：「汝大目揵連，真為大神通力，大功德力，安坐而坐。我亦大
+<lb n="0399a12" ed="Y"/><p xml:id="pY32p0399a1201" style="text-indent:2em">尊者舍利弗語尊者目揵連言：「汝大目揵連，真為大神通力，大功德力，安坐而坐。我亦大
 <lb n="0399a13" ed="Y"/>力，得與汝俱。目揵連！譬如大山，有人持一小石，投之大山，色味悉同。我亦如是，得與尊者
 <lb n="0399a14" ed="Y"/>大力、大德，同座而坐。譬如世間鮮淨好物，人皆頂戴，如是尊者目揵連！大德、大力，諸梵行
 <lb n="0399a15" ed="Y"/>者皆應頂戴。諸有得遇尊者目揵連，交遊往來，恭敬供養者，大得善利。我<note n="0399006" resp="釋印順" type="orig">「我」，原本缺，依宋本補。</note>今亦得與尊者大目
@@ -558,25 +578,25 @@
 <lb n="0400a01" ed="Y"/>揵連交遊往來，亦得善利」。時尊者大目揵連語尊者舍利弗：「我今得與大智、大德尊者舍利弗
 <lb n="0400a02" ed="Y"/>同座而坐，如以小石投之大山，得同其色。我亦如是，得與尊者大智舍利弗同座而坐，為第二伴
 <lb n="0400a03" ed="Y"/>」。時二正士共論議已，各從座起而去<note n="0400007" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="18" type="卷">卷一八</biblScope></bibl>終。</note>。</p></cb:div>
-<lb n="0400a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-4;1560(504)</cb:mulu><head><num n="29-4" type="各相應之經號">四</num>；<num type="雜含會編經號" n="1560">一五六〇</num><num type="大正藏雜含經號" n="504">（五〇四）</num></head>
-<lb n="0400a05" ed="Y"/><p style="text-indent:2em"><note n="0400008" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="19">卷一九</biblScope></bibl>。</note>如是我聞：一時佛住王舍城迦蘭陀竹園。爾時，尊者大目揵連，在耆闍崛山。時釋提桓因
+<lb n="0400a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-4;1560(504)</cb:mulu><head><num n="29-4" type="各相應之經號">四</num>；<num n="1560" type="雜含會編經號">一五六〇</num><num n="504" type="大正藏雜含經號">（五〇四）</num></head>
+<lb n="0400a05" ed="Y"/><p xml:id="pY32p0400a0501" style="text-indent:2em"><note n="0400008" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="19" type="卷">卷一九</biblScope></bibl>。</note>如是我聞：一時佛住王舍城迦蘭陀竹園。爾時，尊者大目揵連，在耆闍崛山。時釋提桓因
 <lb n="0400a06" ed="Y"/>，有上妙堂觀，於夜來詣尊者大目揵連所，稽首禮足，退坐一面。時釋提桓因光明，普照耆闍崛
 <lb n="0400a07" ed="Y"/>山，周匝大明。爾時，釋提桓因坐已，即說偈言：</p>
-<lb n="0400a08" ed="Y"/><lg type="abnormal"><l style="text-indent:2em">「能伏於慳垢，大德隨時施，是名施中賢，來世見殊勝」。</l></lg>
-<lb n="0400a09" ed="Y"/><p style="text-indent:2em">時大目揵連問帝釋言：「憍尸迦！云何為調伏慳垢，見於殊勝？而汝說言：</p>
-<lb n="0400a10" ed="Y"/><lg type="abnormal"><l style="text-indent:3em">能調伏慳垢，大德隨時施，是則施中賢，來世見殊勝」？</l></lg>
-<lb n="0400a11" ed="Y"/><p style="text-indent:2em">時天帝釋答言：「尊者大目揵連！勝婆羅門大姓，勝剎利大姓，勝長者大姓，勝四王天，勝
+<lb n="0400a08" ed="Y"/><lg xml:id="lgY32p0400a0801" type="abnormal"><l style="text-indent:2em">「能伏於慳垢，大德隨時施，是名施中賢，來世見殊勝」。</l></lg>
+<lb n="0400a09" ed="Y"/><p xml:id="pY32p0400a0901" style="text-indent:2em">時大目揵連問帝釋言：「憍尸迦！云何為調伏慳垢，見於殊勝？而汝說言：</p>
+<lb n="0400a10" ed="Y"/><lg xml:id="lgY32p0400a1001" type="abnormal"><l style="text-indent:3em">能調伏慳垢，大德隨時施，是則施中賢，來世見殊勝」？</l></lg>
+<lb n="0400a11" ed="Y"/><p xml:id="pY32p0400a1101" style="text-indent:2em">時天帝釋答言：「尊者大目揵連！勝婆羅門大姓，勝剎利大姓，勝長者大姓，勝四王天，勝
 <lb n="0400a12" ed="Y"/>三十三天，稽首敬禮故。尊者大目揵連！我為勝婆羅門大姓，勝剎利大姓，勝長者大姓，勝四王
 <lb n="0400a13" ed="Y"/>天，勝三十三天恭敬作禮，見斯果報，故說此偈。復次、尊者大目揵連！乃至日所周行，照於諸
 <lb n="0400a14" ed="Y"/>方，至千世界，千月，千日，千須彌山王，千弗婆提舍，千欝多羅提舍，千瞿陀尼迦，千閻浮提
 <lb n="0400a15" ed="Y"/>，千四王天<note n="0400009" resp="釋印順" type="orig">「四王天」，原本作「四天王」，今改。</note>，千三十三天、炎摩天、兜率陀天、化樂天、他化自在天、千梵天，名為小千世界
 <pb n="0401a" ed="Y" xml:id="Y32.0030.0401a"/>
-<lb n="0401a01" ed="Y"/>。此小千世界中，無有堂觀與<note n="0401a0101" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0401a0101"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>闍延堂觀等者。<note n="0401a0102" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0401a0102"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>闍延有百一樓觀，觀有七重，重有七房，房有
-<lb n="0401a02" ed="Y"/>七天后，后各七侍女。尊者大目揵連！於小千世界，無有如是堂觀端嚴，如<note n="0401a0201" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0401a0201"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>闍延者。我見是調
+<lb n="0401a01" ed="Y"/>。此小千世界中，無有堂觀與<note n="0401a0101" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0401a0101"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>闍延堂觀等者。<note n="0401a0102" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0401a0102"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>闍延有百一樓觀，觀有七重，重有七房，房有
+<lb n="0401a02" ed="Y"/>七天后，后各七侍女。尊者大目揵連！於小千世界，無有如是堂觀端嚴，如<note n="0401a0201" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0401a0201"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>闍延者。我見是調
 <lb n="0401a03" ed="Y"/>伏慳故，有此妙果，故說斯偈」。大目揵連語帝釋言：「善哉！善哉！憍尸迦！汝能見此勝妙果
 <lb n="0401a04" ed="Y"/>報，而說斯偈」。時天帝釋聞尊者大目揵連所說，歡喜隨喜，忽然不現。</p></cb:div>
-<lb n="0401a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-5;1561(505)</cb:mulu><head><num type="各相應之經號" n="29-5">五</num><note n="0401010" resp="釋印順" type="orig"><bibl><title level="m">《中部》</title>（三七）<title level="m">《愛盡小經》</title></bibl>。<bibl><title level="m">《增壹阿含經》</title>（一九）<title level="a">〈勸請品〉</title><ref target="#no:125.19.3" type="taisho">三經</ref></bibl>。</note>；<num n="1561" type="雜含會編經號">一五六一</num><num type="大正藏雜含經號" n="505">（五〇五）</num></head>
-<lb n="0401a06" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城；時尊者大目揵連，在耆闍崛山中。爾時尊者大目揵連，獨一
+<lb n="0401a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-5;1561(505)</cb:mulu><head><num n="29-5" type="各相應之經號">五</num><note n="0401010" resp="釋印順" type="orig"><bibl><title level="m">《中部》</title>（三七）<title level="m">《愛盡小經》</title></bibl>。<bibl><title level="m">《增壹阿含經》</title>（一九）<title level="a">〈勸請品〉</title><ref target="#no:125.19.3" type="taisho">三經</ref></bibl>。</note>；<num n="1561" type="雜含會編經號">一五六一</num><num n="505" type="大正藏雜含經號">（五〇五）</num></head>
+<lb n="0401a06" ed="Y"/><p xml:id="pY32p0401a0601" style="text-indent:2em">如是我聞：一時，佛住王舍城；時尊者大目揵連，在耆闍崛山中。爾時尊者大目揵連，獨一
 <lb n="0401a07" ed="Y"/>靜處禪思，作是念：昔有時，釋提桓因於界隔山石窟中，問世尊愛盡解脫之義，世尊為說，聞已
 <lb n="0401a08" ed="Y"/>隨喜，似欲更有所問義。我今當往，問其喜意。作是念已，如力士屈申臂頃，於耆闍崛山沒，至
 <lb n="0401a09" ed="Y"/>三十三天，去一分陀利池不遠而住。時天帝釋與五百婇女，遊戲浴池，有諸天女音聲美妙。爾時
@@ -596,22 +616,22 @@
 <lb n="0402a07" ed="Y"/>堂觀震掉、動搖，顛沛恐怖，東西馳走，白帝釋言：「此是憍尸迦大師，有此大功德力耶」？時
 <lb n="0402a08" ed="Y"/>天帝釋語諸天女：「此非我師，是大師弟子大目揵連，梵行清淨，大德大力者」。諸天女言：「
 <lb n="0402a09" ed="Y"/>善哉憍尸迦！乃有如此梵行大德、大力同學，大師德力，當復如何」！</p></cb:div>
-<lb n="0402a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-6;1562(506)</cb:mulu><head><num type="各相應之經號" n="29-6">六</num><note n="0402011" resp="釋印順" type="orig"><bibl><title level="m">《增壹阿含經》</title>（三六）<title level="a">〈聽法品〉</title><ref target="#no:125.36.5" type="taisho">五經</ref>中分</bibl>。</note>；<num type="雜含會編經號" n="1562">一五六二</num><num type="大正藏雜含經號" n="506">（五〇六）</num></head>
-<lb n="0402a11" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住三十三天驄色虛軟石上，去波梨耶多羅拘<note n="0402a1101" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0402a1101"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>陀羅香樹不遠，夏安居，
+<lb n="0402a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-6;1562(506)</cb:mulu><head><num n="29-6" type="各相應之經號">六</num><note n="0402011" resp="釋印順" type="orig"><bibl><title level="m">《增壹阿含經》</title>（三六）<title level="a">〈聽法品〉</title><ref target="#no:125.36.5" type="taisho">五經</ref>中分</bibl>。</note>；<num n="1562" type="雜含會編經號">一五六二</num><num n="506" type="大正藏雜含經號">（五〇六）</num></head>
+<lb n="0402a11" ed="Y"/><p xml:id="pY32p0402a1101" style="text-indent:2em">如是我聞：一時，佛住三十三天驄色虛軟石上，去波梨耶多羅拘<note n="0402a1101" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0402a1101"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>陀羅香樹不遠，夏安居，
 <lb n="0402a12" ed="Y"/>為母及三十三天說法。爾時，尊者大目揵連在舍衛國祇樹給孤獨園安居。時諸四眾，詣尊者大目
 <lb n="0402a13" ed="Y"/>揵連所，稽首禮足，退坐一面。白尊者大目揵連：「知世尊夏安居處不」？尊者大目揵連答言：
-<lb n="0402a14" ed="Y"/>「我聞世尊在三十三天驄色虛軟石上，去波梨耶多羅拘<note n="0402a1401" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0402a1401"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>陀羅香樹不遠夏安居，為母及三十三天
+<lb n="0402a14" ed="Y"/>「我聞世尊在三十三天驄色虛軟石上，去波梨耶多羅拘<note n="0402a1401" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0402a1401"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>陀羅香樹不遠夏安居，為母及三十三天
 <lb n="0402a15" ed="Y"/>說法」。時諸四眾聞尊者大目揵連所說，歡喜隨喜，各從座起，作禮而去。</p>
 <pb n="0403a" ed="Y" xml:id="Y32.0030.0403a"/>
-<lb n="0403a01" ed="Y"/><p style="text-indent:2em">時諸四眾過三月安居已，復詣尊者大目揵連所，稽首禮足，退坐一面。時尊者大目揵連，為
+<lb n="0403a01" ed="Y"/><p xml:id="pY32p0403a0101" style="text-indent:2em">時諸四眾過三月安居已，復詣尊者大目揵連所，稽首禮足，退坐一面。時尊者大目揵連，為
 <lb n="0403a02" ed="Y"/>諸四眾種種說法，示教、照喜，示教照喜已，默然而住。時諸四眾從座而起，稽首作禮，白尊者
 <lb n="0403a03" ed="Y"/>大目揵連：「尊者大目揵連！當知我等不見世尊已久，眾甚虛渴，欲見世尊。尊者大目揵連！若
 <lb n="0403a04" ed="Y"/>不憚勞者，願為我等往詣三十三天！普為我等問訊世尊：少病、少惱，起居輕利，安樂住不？又
 <lb n="0403a05" ed="Y"/>白世尊：閻浮提四眾，願見世尊，而無神力昇三十三天禮敬世尊，三十三天自有神力來下人中。
 <lb n="0403a06" ed="Y"/>唯願世尊還閻浮提，以哀愍故」！時尊者大目揵連，默然而許。時諸四眾知尊者大目揵連默然許
 <lb n="0403a07" ed="Y"/>已，各從座起，作禮而去。</p>
-<lb n="0403a08" ed="Y"/><p style="text-indent:2em">爾時，尊者大目揵連知四眾去已，即入三昧，如其正受，如大力士屈申臂頃，從舍衛國沒，
-<lb n="0403a09" ed="Y"/>於三十三天驄色虛軟石上，去波梨耶多羅拘<note n="0403a0901" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0403a0901"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>陀羅香樹不遠而現。爾時，世尊與三十三天眾，無
+<lb n="0403a08" ed="Y"/><p xml:id="pY32p0403a0801" style="text-indent:2em">爾時，尊者大目揵連知四眾去已，即入三昧，如其正受，如大力士屈申臂頃，從舍衛國沒，
+<lb n="0403a09" ed="Y"/>於三十三天驄色虛軟石上，去波梨耶多羅拘<note n="0403a0901" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0403a0901"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>陀羅香樹不遠而現。爾時，世尊與三十三天眾，無
 <lb n="0403a10" ed="Y"/>量眷屬圍繞說法。時尊者大目揵連，遙見世尊，踊躍歡喜，作是念：今日世尊，諸天大眾圍繞說
 <lb n="0403a11" ed="Y"/>法，與閻浮提眾會不異。爾時，世尊知尊者大目揵連心之所念，語尊者大目揵連言：「大目揵連
 <lb n="0403a12" ed="Y"/>！非為自力，我欲為諸天說法，彼即來集；欲令其去，彼即還去，彼隨心來、隨心去也」。爾時
@@ -631,19 +651,19 @@
 <lb n="0404a10" ed="Y"/>安樂住不？四眾思慕，願見世尊！又白世尊：我等人間無有神力昇三十三天，禮覲世尊，然彼諸
 <lb n="0404a11" ed="Y"/>天有大德力，悉能來下至閻浮提。唯願世尊還閻浮提，愍四眾故」。佛告目揵連：「汝可還彼，
 <lb n="0404a12" ed="Y"/>語閻浮提人，卻後七日，世尊當從三十三天，還閻浮提僧迦舍城，於外門外優曇鉢樹下」。</p>
-<lb n="0404a13" ed="Y"/><p style="text-indent:2em">尊者大目揵連受世尊教，即入三昧，譬如力士屈申臂頃，從三十三天沒，至閻浮提，告諸四
+<lb n="0404a13" ed="Y"/><p xml:id="pY32p0404a1301" style="text-indent:2em">尊者大目揵連受世尊教，即入三昧，譬如力士屈申臂頃，從三十三天沒，至閻浮提，告諸四
 <lb n="0404a14" ed="Y"/>眾：「諸人當知！世尊卻後七日，從三十三天還閻浮提，僧迦舍城，於外門外優曇鉢樹下」。如
 <lb n="0404a15" ed="Y"/>期七日，世尊從三十三天下閻浮提、僧迦舍城優曇鉢樹下。天、龍、鬼神，乃至梵天，悉從來下
 <pb n="0405a" ed="Y" xml:id="Y32.0030.0405a"/>
 <lb n="0405a01" ed="Y"/>，即於此時，名此會名天下處。</p></cb:div>
-<lb n="0405a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-7~29-10;1563~1566(507)</cb:mulu><head><num type="各相應之經號" n="29-7">七</num>——<num n="29-10" type="各相應之經號">一〇</num><note n="0405012" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四〇）<title level="a">〈目揵連相應〉</title>一〇經之一</bibl>。</note>；<num n="1563" type="雜含會編經號">一五六三</num>——<num type="雜含會編經號" n="1566">一五六六</num><num type="大正藏雜含經號" n="507">（五〇七）</num></head>
-<lb n="0405a03" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。時有四十天子，來詣尊者大目揵連所，稽首作禮
+<lb n="0405a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-7~29-10;1563~1566(507)</cb:mulu><head><num n="29-7" type="各相應之經號">七</num>——<num n="29-10" type="各相應之經號">一〇</num><note n="0405012" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四〇）<title level="a">〈目揵連相應〉</title>一〇經之一</bibl>。</note>；<num n="1563" type="雜含會編經號">一五六三</num>——<num n="1566" type="雜含會編經號">一五六六</num><num n="507" type="大正藏雜含經號">（五〇七）</num></head>
+<lb n="0405a03" ed="Y"/><p xml:id="pY32p0405a0301" style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。時有四十天子，來詣尊者大目揵連所，稽首作禮
 <lb n="0405a04" ed="Y"/>，退坐一面。時尊者大目揵連，語諸天子言：「善哉諸天子！於佛不壞淨成就，法、僧不壞淨成
 <lb n="0405a05" ed="Y"/>就」。時四十天子從座起，整衣服，偏袒右肩，合掌白尊者大目揵連：「我得於佛不壞淨，於法
 <lb n="0405a06" ed="Y"/>、僧不壞淨，聖戒成就，故生天上」。有一天言：「得於佛不壞淨」。有言：「得法不壞淨」。
 <lb n="0405a07" ed="Y"/>有言：「得僧不壞淨」。有言：「聖戒成就，身壞命終，得生天上」。時四十天子，於尊者大目
 <lb n="0405a08" ed="Y"/>揵連前，各自記說得須陀洹果，即沒不現。</p>
-<lb n="0405a09" ed="Y"/><p style="text-indent:2em">如四十天子，如是四百，八百，十千天子，亦如是說。</p>
+<lb n="0405a09" ed="Y"/><p xml:id="pY32p0405a0901" style="text-indent:2em">如四十天子，如是四百，八百，十千天子，亦如是說。</p>
 <lb n="0405a10" ed="Y"/>
 <lb n="0405a11" ed="Y"/>
 <lb n="0405a12" ed="Y"/>
@@ -658,14 +678,14 @@
 <lb n="0406a05" ed="Y"/>
 <lb n="0406a06" ed="Y"/>
 <lb n="0406a07" ed="Y"/></cb:div>
-<lb n="0406a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-11;1567(508)</cb:mulu><head><num type="各相應之經號" n="29-11">一一</num><note n="0406001" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一經</bibl>。</note>；<num n="1567" type="雜含會編經號">一五六七</num><num type="大正藏雜含經號" n="508">（五〇八）</num></head>
-<lb n="0406a09" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。時尊者大目揵<note n="0406002" resp="釋印順" type="orig">「揵」，以下各經，原本均作「犍」。</note>連，與尊者勒叉那比丘，共在耆
+<lb n="0406a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-11;1567(508)</cb:mulu><head><num n="29-11" type="各相應之經號">一一</num><note n="0406001" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一經</bibl>。</note>；<num n="1567" type="雜含會編經號">一五六七</num><num n="508" type="大正藏雜含經號">（五〇八）</num></head>
+<lb n="0406a09" ed="Y"/><p xml:id="pY32p0406a0901" style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。時尊者大目揵<note n="0406002" resp="釋印順" type="orig">「揵」，以下各經，原本均作「犍」。</note>連，與尊者勒叉那比丘，共在耆
 <lb n="0406a10" ed="Y"/>闍崛山中。尊者勒叉那，晨朝詣尊者大目揵連所，語尊者大目揵連：「共出耆闍崛山，入王舍城
 <lb n="0406a11" ed="Y"/>乞食」。時尊者大目揵連默然而許，即共出耆闍崛山，入王舍城乞食。行至一處，尊者大目揵連
 <lb n="0406a12" ed="Y"/>心有所念，欣然微笑。尊者勒叉那見微笑已，即問尊者大目揵連言：「若佛及佛弟子欣然微笑，
 <lb n="0406a13" ed="Y"/>非無因緣，尊者今日何因何緣而發微笑」？尊者大目揵連言：「所問非時，且入王舍城乞食還，
 <lb n="0406a14" ed="Y"/>於世尊前，當問是事；是應時問，當為汝說」。</p>
-<lb n="0406a15" ed="Y"/><p style="text-indent:2em">時尊者大目揵連，與尊者勒叉那，入王舍城乞食而還，洗足，舉衣鉢，俱詣佛所，稽首佛足
+<lb n="0406a15" ed="Y"/><p xml:id="pY32p0406a1501" style="text-indent:2em">時尊者大目揵連，與尊者勒叉那，入王舍城乞食而還，洗足，舉衣鉢，俱詣佛所，稽首佛足
 <pb n="0407a" ed="Y" xml:id="Y32.0030.0407a"/>
 <lb n="0407a01" ed="Y"/>，退坐一面。尊者勒叉那問尊者大目揵連：「我今晨朝與汝共出耆闍崛山乞食，汝於一處欣然微
 <lb n="0407a02" ed="Y"/>笑，我即問汝微笑因緣，汝答我言所問非時。今復問汝：何因何緣，欣然微笑」？尊者大目揵連
@@ -676,15 +696,15 @@
 <lb n="0407a07" ed="Y"/>大身眾生，在此王舍城為屠牛兒，以屠牛因緣故，於百千歲墮地獄中。從地獄出，有屠牛餘罪，
 <lb n="0407a08" ed="Y"/>得如是身，常受如是憂悲惱苦。如是諸比丘！如尊者大目揵連所見，（真實）不異，汝等受持」
 <lb n="0407a09" ed="Y"/>。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0407a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-12;1568(509)</cb:mulu><head><num type="各相應之經號" n="29-12">一二</num><note n="0407003" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>二經</bibl>。</note>；<num type="雜含會編經號" n="1568">一五六八</num><num type="大正藏雜含經號" n="509">（五〇九）</num></head>
-<lb n="0407a11" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。爾時尊者大目揵連，與尊者勒叉那，在耆闍崛山
+<lb n="0407a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-12;1568(509)</cb:mulu><head><num n="29-12" type="各相應之經號">一二</num><note n="0407003" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>二經</bibl>。</note>；<num n="1568" type="雜含會編經號">一五六八</num><num n="509" type="大正藏雜含經號">（五〇九）</num></head>
+<lb n="0407a11" ed="Y"/><p xml:id="pY32p0407a1101" style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。爾時尊者大目揵連，與尊者勒叉那，在耆闍崛山
 <lb n="0407a12" ed="Y"/>。尊者勒叉那於晨朝時，詣尊者大目揵連所，語尊者大目揵連：「共出耆闍崛山，入王舍城乞食
 <lb n="0407a13" ed="Y"/>」。尊者大目揵連默然而許，即共出耆闍崛山，入王舍城乞食。行至一處，尊者大目揵連心有所
 <lb n="0407a14" ed="Y"/>念，欣然微笑。尊者勒叉那見尊者大目揵連微笑，即問言：「尊者！若佛及佛聲聞弟子，欣然微
 <lb n="0407a15" ed="Y"/>笑，非無因緣，尊者今日何因何緣而發微笑」？尊者大目揵連言：「所問非時，且乞食還，於世
 <pb n="0408a" ed="Y" xml:id="Y32.0030.0408a"/>
 <lb n="0408a01" ed="Y"/>尊前當問是事，是應時問」。</p>
-<lb n="0408a02" ed="Y"/><p style="text-indent:2em">尊者大目揵連與尊者勒叉那，共入城乞食，食已還。洗足，舉衣鉢，俱詣佛所，稽首佛足，
+<lb n="0408a02" ed="Y"/><p xml:id="pY32p0408a0201" style="text-indent:2em">尊者大目揵連與尊者勒叉那，共入城乞食，食已還。洗足，舉衣鉢，俱詣佛所，稽首佛足，
 <lb n="0408a03" ed="Y"/>退坐一面。尊者勒叉那問尊者大目揵連：「我今晨朝，與汝共入王舍城乞食，汝於一處欣然微笑
 <lb n="0408a04" ed="Y"/>，我即問汝何因緣笑，汝答我言所問非時。我今問汝：何因何緣欣然微笑」？尊者大目揵連語尊
 <lb n="0408a05" ed="Y"/>者勒叉那：「我於路中，見一眾生，筋骨相連，舉身不淨，臭穢可厭。烏、鵄、鵰、鷲、野干、
@@ -695,15 +715,15 @@
 <lb n="0408a10" ed="Y"/>舍城為屠牛弟子，緣屠牛罪故，已百千歲墮地獄中，受無量苦。彼屠牛惡行餘罪緣故，今得此身
 <lb n="0408a11" ed="Y"/>，續受如是不饒益苦。諸比丘！如大目揵連所見，真實不異，汝等受持」。佛說此經已，諸比丘
 <lb n="0408a12" ed="Y"/>聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0408a13" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-13;1569(510)</cb:mulu><head><num type="各相應之經號" n="29-13">一三</num><note n="0408004" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>四經</bibl>。</note>；<num type="雜含會編經號" n="1569">一五六九</num><num n="510" type="大正藏雜含經號">（五一〇）</num></head>
-<lb n="0408a14" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。尊者大目揵連，與尊者勒叉那，在耆闍崛山中。
+<lb n="0408a13" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-13;1569(510)</cb:mulu><head><num n="29-13" type="各相應之經號">一三</num><note n="0408004" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>四經</bibl>。</note>；<num n="1569" type="雜含會編經號">一五六九</num><num n="510" type="大正藏雜含經號">（五一〇）</num></head>
+<lb n="0408a14" ed="Y"/><p xml:id="pY32p0408a1401" style="text-indent:2em">如是我聞：一時，佛住王舍城迦蘭陀竹園。尊者大目揵連，與尊者勒叉那，在耆闍崛山中。
 <lb n="0408a15" ed="Y"/>尊者勒叉那於晨朝時，詣尊者大目揵連所，語尊者大目揵連：「共出耆闍崛山，入王舍城乞食」
 <pb n="0409a" ed="Y" xml:id="Y32.0030.0409a"/>
 <lb n="0409a01" ed="Y"/>。尊者大目揵連默然而許，即共出耆闍崛山，入王舍城乞食。行至一處，尊者大目揵連心有所念
 <lb n="0409a02" ed="Y"/>，欣然微笑。尊者勒叉那見尊者大目揵連微笑，即問言：「尊者！若佛及佛聲聞弟子，欣然微笑
 <lb n="0409a03" ed="Y"/>，非無因緣，尊者今日何因何緣而發微笑」？尊者大目揵連言：「所問非時，且乞食還，於世尊
 <lb n="0409a04" ed="Y"/>前，當問是事，是應時問」。</p>
-<lb n="0409a05" ed="Y"/><p style="text-indent:2em">尊者大目揵連與尊者勒叉那，共入城乞食已還。洗足，舉衣鉢，俱詣佛所，稽首佛足，退坐
+<lb n="0409a05" ed="Y"/><p xml:id="pY32p0409a0501" style="text-indent:2em">尊者大目揵連與尊者勒叉那，共入城乞食已還。洗足，舉衣鉢，俱詣佛所，稽首佛足，退坐
 <lb n="0409a06" ed="Y"/>一面。尊者勒叉那問尊者大目揵連：「我今晨朝，共入王舍城乞食，汝於一處欣然微笑，我即問
 <lb n="0409a07" ed="Y"/>汝微笑因緣，汝答我言所問非時。我今問汝：何因何緣欣然微笑」？尊者大目揵連語勒叉那：「
 <lb n="0409a08" ed="Y"/>我於路中，見一大眾生、舉身無皮，純一肉段，乘空而行。烏、鵄、鵰、鷲、野干、餓狗，隨而
@@ -713,86 +733,86 @@
 <lb n="0409a12" ed="Y"/>人長夜當受不饒益苦。諸比丘！是眾生者、過去世時，於此王舍城為屠羊者，緣斯罪故，已百千
 <lb n="0409a13" ed="Y"/>歲墮地獄中，受無量苦。今得此身，餘罪緣故，續受斯苦。諸比丘！如大目揵連所見，真實無異
 <lb n="0409a14" ed="Y"/>，汝等受持」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0409a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-14;1570(511)</cb:mulu><head><num type="各相應之經號" n="29-14">一四</num>；<num n="1570" type="雜含會編經號">一五七〇</num><num n="511" type="大正藏雜含經號">（五一一）</num></head>
+<lb n="0409a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-14;1570(511)</cb:mulu><head><num n="29-14" type="各相應之經號">一四</num>；<num n="1570" type="雜含會編經號">一五七〇</num><num n="511" type="大正藏雜含經號">（五一一）</num></head>
 <pb n="0410a" ed="Y" xml:id="Y32.0030.0410a"/>
-<lb n="0410a01" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至尊者大目揵連，於路中見一大身眾生，舉體無皮，形如
+<lb n="0410a01" ed="Y"/><p xml:id="pY32p0410a0101" style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至尊者大目揵連，於路中見一大身眾生，舉體無皮，形如
 <lb n="0410a02" ed="Y"/>脯腊，乘虛而行。乃至佛告諸比丘：「此眾生者，過去世時，於此王舍城為屠羊弟子，屠羊罪故
 <lb n="0410a03" ed="Y"/>，已百千歲墮地獄中，受無量苦。今得此身，續受斯罪。諸比丘！如大目揵連所見，真實無異，
 <lb n="0410a04" ed="Y"/>當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0410a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-15;1571(512)</cb:mulu><head><num type="各相應之經號" n="29-15">一五</num>；<num type="雜含會編經號" n="1571">一五七一</num><num type="大正藏雜含經號" n="512">（五一二）</num></head>
-<lb n="0410a06" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至路中見一大身眾生，舉體無皮，形如肉段，乘虛而行。
+<lb n="0410a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-15;1571(512)</cb:mulu><head><num n="29-15" type="各相應之經號">一五</num>；<num n="1571" type="雜含會編經號">一五七一</num><num n="512" type="大正藏雜含經號">（五一二）</num></head>
+<lb n="0410a06" ed="Y"/><p xml:id="pY32p0410a0601" style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至路中見一大身眾生，舉體無皮，形如肉段，乘虛而行。
 <lb n="0410a07" ed="Y"/>乃至佛告諸比丘：「此眾生者，過去世時，於此王舍城自墮其胎，緣斯罪故，墮地獄中，已百千
 <lb n="0410a08" ed="Y"/>歲受無量苦。以餘罪故，今得此身，續受斯苦。諸比丘！如大目揵連所見，真實無異，當受持之
 <lb n="0410a09" ed="Y"/>」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0410a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-16;1572(513)</cb:mulu><head><num n="29-16" type="各相應之經號">一六</num><note n="0410005" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>八經</bibl>。</note>；<num type="雜含會編經號" n="1572">一五七二</num><num type="大正藏雜含經號" n="513">（五一三）</num></head>
-<lb n="0410a11" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至尊者大目揵連，於路中見一大身<note n="0410006" resp="釋印順" type="orig">「身」，原本缺，依明本補。</note>眾生，舉體生毛，毛
+<lb n="0410a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-16;1572(513)</cb:mulu><head><num n="29-16" type="各相應之經號">一六</num><note n="0410005" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>八經</bibl>。</note>；<num n="1572" type="雜含會編經號">一五七二</num><num n="513" type="大正藏雜含經號">（五一三）</num></head>
+<lb n="0410a11" ed="Y"/><p xml:id="pY32p0410a1101" style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至尊者大目揵連，於路中見一大身<note n="0410006" resp="釋印順" type="orig">「身」，原本缺，依明本補。</note>眾生，舉體生毛，毛
 <lb n="0410a12" ed="Y"/>如大針，針皆火然，還燒其體，痛徹骨髓。乃至佛告諸比丘：「此眾生者，過去世時，於此王舍
 <lb n="0410a13" ed="Y"/>城，為調象士。緣斯罪故，已百千歲墮地獄中，受無量苦。地獄餘罪，今得此身，續受斯苦。諸
 <lb n="0410a14" ed="Y"/>比丘！如大目揵連所見，真實不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0410a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-17~29-20;1573~1576()</cb:mulu><head><num type="各相應之經號" n="29-17">一七</num>——<num n="29-20" type="各相應之經號">二〇</num>；<num type="雜含會編經號" n="1573">一五七三</num>——<num type="雜含會編經號" n="1576">一五七六</num>（　　　　）</head>
+<lb n="0410a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-17~29-20;1573~1576()</cb:mulu><head><num n="29-17" type="各相應之經號">一七</num>——<num n="29-20" type="各相應之經號">二〇</num>；<num n="1573" type="雜含會編經號">一五七三</num>——<num n="1576" type="雜含會編經號">一五七六</num>（　　　　）</head>
 <pb n="0411a" ed="Y" xml:id="Y32.0030.0411a"/>
-<lb n="0411a01" ed="Y"/><p style="text-indent:2em">如調象士，如是調馬士，調牛士，好讒人者，及諸種種苦切人者，亦復如是。</p></cb:div>
-<lb n="0411a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-21;1577(514)</cb:mulu><head><num n="29-21" type="各相應之經號">二一</num>；<num type="雜含會編經號" n="1577">一五七七</num><num n="514" type="大正藏雜含經號">（五一四）</num></head>
-<lb n="0411a03" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至尊者大目揵連，於路中見一大身眾生，舉身生毛，毛利
+<lb n="0411a01" ed="Y"/><p xml:id="pY32p0411a0101" style="text-indent:2em">如調象士，如是調馬士，調牛士，好讒人者，及諸種種苦切人者，亦復如是。</p></cb:div>
+<lb n="0411a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-21;1577(514)</cb:mulu><head><num n="29-21" type="各相應之經號">二一</num>；<num n="1577" type="雜含會編經號">一五七七</num><num n="514" type="大正藏雜含經號">（五一四）</num></head>
+<lb n="0411a03" ed="Y"/><p xml:id="pY32p0411a0301" style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至尊者大目揵連，於路中見一大身眾生，舉身生毛，毛利
 <lb n="0411a04" ed="Y"/>如刀，其毛火然，還割其體，痛徹骨髓。乃至佛告諸比丘：「此眾生者，過去世時，於此王舍城
 <lb n="0411a05" ed="Y"/>，好樂戰諍，刀劍傷人，已百千歲墮地獄中，受無量苦。地獄餘罪，今得此身，續受斯苦。諸比
 <lb n="0411a06" ed="Y"/>丘！如大目揵連所見，真實不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0411a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-22;1578(515)</cb:mulu><head><num n="29-22" type="各相應之經號">二二</num><note n="0411007" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>六經</bibl>。</note>；<num type="雜含會編經號" n="1578">一五七八</num><num type="大正藏雜含經號" n="515">（五一五）</num></head>
-<lb n="0411a08" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至尊者大目揵連，於路中見一大身眾生，遍身生毛，其毛
+<lb n="0411a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-22;1578(515)</cb:mulu><head><num n="29-22" type="各相應之經號">二二</num><note n="0411007" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>六經</bibl>。</note>；<num n="1578" type="雜含會編經號">一五七八</num><num n="515" type="大正藏雜含經號">（五一五）</num></head>
+<lb n="0411a08" ed="Y"/><p xml:id="pY32p0411a0801" style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至尊者大目揵連，於路中見一大身眾生，遍身生毛，其毛
 <lb n="0411a09" ed="Y"/>似箭，皆悉火然，還燒其身，痛徹骨髓。乃至佛告諸比丘：「此眾生者，過去世時，於此王舍城
 <lb n="0411a10" ed="Y"/>，曾為獵師，射諸禽獸，緣斯罪故，已百千歲墮地獄中，受無量苦。地獄餘罪，今得此身，續受
 <lb n="0411a11" ed="Y"/>斯苦。諸比丘！如大目揵連所見，真實不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜
 <lb n="0411a12" ed="Y"/>奉行。</p></cb:div>
-<lb n="0411a13" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-23;1579(516)</cb:mulu><head><num type="各相應之經號" n="29-23">二三</num><note n="0411008" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>五經</bibl>。</note>；<num n="1579" type="雜含會編經號">一五七九</num><num type="大正藏雜含經號" n="516">（五一六）</num></head>
-<lb n="0411a14" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至我於路中，見一大身眾生，舉體生毛，毛如<g ref="#CB00267"/><g ref="#CB00426"/>，毛悉
+<lb n="0411a13" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-23;1579(516)</cb:mulu><head><num n="29-23" type="各相應之經號">二三</num><note n="0411008" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>五經</bibl>。</note>；<num n="1579" type="雜含會編經號">一五七九</num><num n="516" type="大正藏雜含經號">（五一六）</num></head>
+<lb n="0411a14" ed="Y"/><p xml:id="pY32p0411a1401" style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至我於路中，見一大身眾生，舉體生毛，毛如<g ref="#CB00267"/><g ref="#CB00426"/>，毛悉
 <lb n="0411a15" ed="Y"/>火然，還燒其身，痛徹骨髓。乃至佛告諸比丘：「此眾生者，過去世時，於此王舍城，為屠豬人
 <pb n="0412a" ed="Y" xml:id="Y32.0030.0412a"/>
-<lb n="0412a01" ed="Y"/>，<g ref="#CB00267"/>殺<note n="0412a0101" resp="CBETA" type="add">群【CB】，羣【印順】</note><app n="0412a0101"><lem wit="【CB】" resp="正聞出版社">群</lem><rdg wit="【印順】">羣</rdg></app>豬，緣斯罪故，已百千歲墮地獄中，受無量苦。地獄餘罪，今得此身，續受斯苦。諸比
+<lb n="0412a01" ed="Y"/>，<g ref="#CB00267"/>殺<note n="0412a0101" resp="CBETA" type="add">群【CB】，羣【印順】</note><app n="0412a0101"><lem resp="正聞出版社" wit="【CB】">群</lem><rdg wit="【印順】">羣</rdg></app>豬，緣斯罪故，已百千歲墮地獄中，受無量苦。地獄餘罪，今得此身，續受斯苦。諸比
 <lb n="0412a02" ed="Y"/>丘！如大目揵連所見，真實不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0412a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-24;1580(517)</cb:mulu><head><num type="各相應之經號" n="29-24">二四</num><note n="0412009" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一六經</bibl>。</note>；<num n="1580" type="雜含會編經號">一五八〇</num><num n="517" type="大正藏雜含經號">（五一七）</num></head>
-<lb n="0412a04" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至我於路中，見一大身無頭眾生，兩邊生目，胸前生口，
+<lb n="0412a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-24;1580(517)</cb:mulu><head><num n="29-24" type="各相應之經號">二四</num><note n="0412009" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一六經</bibl>。</note>；<num n="1580" type="雜含會編經號">一五八〇</num><num n="517" type="大正藏雜含經號">（五一七）</num></head>
+<lb n="0412a04" ed="Y"/><p xml:id="pY32p0412a0401" style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至我於路中，見一大身無頭眾生，兩邊生目，胸前生口，
 <lb n="0412a05" ed="Y"/>身常流血，諸蟲唼食，痛徹骨髓。乃至佛告諸比丘：「此眾生者，過去世時，於此王舍城，好斷
 <lb n="0412a06" ed="Y"/>人頭，緣斯罪故，已百千歲墮地獄中，受無量苦。今得此身，續受斯苦。諸比丘！如大目揵連所
 <lb n="0412a07" ed="Y"/>見，真實不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0412a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-25;1581()</cb:mulu><head><num type="各相應之經號" n="29-25">二五</num>；<num type="雜含會編經號" n="1581">一五八一</num>（　　　　）</head>
-<lb n="0412a09" ed="Y"/><p style="text-indent:2em">如斷人頭，捉頭亦如是。</p></cb:div>
-<lb n="0412a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-26;1582(518)</cb:mulu><head><num type="各相應之經號" n="29-26">二六</num><note n="0412010" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一〇經</bibl>。</note>；<num n="1582" type="雜含會編經號">一五八二</num><num type="大正藏雜含經號" n="518">（五一八）</num></head>
-<lb n="0412a11" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至我於路中，見一眾生，陰卵如瓮，坐則踞上，行則肩擔
+<lb n="0412a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-25;1581()</cb:mulu><head><num n="29-25" type="各相應之經號">二五</num>；<num n="1581" type="雜含會編經號">一五八一</num>（　　　　）</head>
+<lb n="0412a09" ed="Y"/><p xml:id="pY32p0412a0901" style="text-indent:2em">如斷人頭，捉頭亦如是。</p></cb:div>
+<lb n="0412a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-26;1582(518)</cb:mulu><head><num n="29-26" type="各相應之經號">二六</num><note n="0412010" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一〇經</bibl>。</note>；<num n="1582" type="雜含會編經號">一五八二</num><num n="518" type="大正藏雜含經號">（五一八）</num></head>
+<lb n="0412a11" ed="Y"/><p xml:id="pY32p0412a1101" style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至我於路中，見一眾生，陰卵如瓮，坐則踞上，行則肩擔
 <lb n="0412a12" ed="Y"/>。乃至佛告諸比丘：「此眾生者，過去世時，於王舍城作鍛銅師，偽器欺人，緣斯罪故，已地獄
 <lb n="0412a13" ed="Y"/>中受無量苦。地獄餘罪，今得此身，續受斯苦。諸比丘！如大目揵連所見，真實不異，當受持之
 <lb n="0412a14" ed="Y"/>」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0412a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-27~29-29;1583~1585()</cb:mulu><head><num n="29-27" type="各相應之經號">二七</num>——<num type="各相應之經號" n="29-29">二九</num><note n="0412011" resp="釋印順" type="orig">同上經。</note>；<num type="雜含會編經號" n="1583">一五八三</num>——<num type="雜含會編經號" n="1585">一五八五</num>（　　　　）</head>
+<lb n="0412a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-27~29-29;1583~1585()</cb:mulu><head><num n="29-27" type="各相應之經號">二七</num>——<num n="29-29" type="各相應之經號">二九</num><note n="0412011" resp="釋印順" type="orig">同上經。</note>；<num n="1583" type="雜含會編經號">一五八三</num>——<num n="1585" type="雜含會編經號">一五八五</num>（　　　　）</head>
 <pb n="0413a" ed="Y" xml:id="Y32.0030.0413a"/>
-<lb n="0413a01" ed="Y"/><p style="text-indent:2em">如鍛銅師，如是斗秤欺人，村主，市監，亦復如是。</p></cb:div>
-<lb n="0413a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-30;1586(519)</cb:mulu><head><num type="各相應之經號" n="29-30">三〇</num>；<num n="1586" type="雜含會編經號">一五八六</num><num type="大正藏雜含經號" n="519">（五一九）</num></head>
-<lb n="0413a03" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至路中見一眾生，以銅鐵羅網自纏其身，火常熾然，還燒
+<lb n="0413a01" ed="Y"/><p xml:id="pY32p0413a0101" style="text-indent:2em">如鍛銅師，如是斗秤欺人，村主，市監，亦復如是。</p></cb:div>
+<lb n="0413a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-30;1586(519)</cb:mulu><head><num n="29-30" type="各相應之經號">三〇</num>；<num n="1586" type="雜含會編經號">一五八六</num><num n="519" type="大正藏雜含經號">（五一九）</num></head>
+<lb n="0413a03" ed="Y"/><p xml:id="pY32p0413a0301" style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至路中見一眾生，以銅鐵羅網自纏其身，火常熾然，還燒
 <lb n="0413a04" ed="Y"/>其體，痛徹骨髓，乘虛而行。佛告諸比丘：「此眾生者，過去世時，於此王舍城，為捕魚師，緣
 <lb n="0413a05" ed="Y"/>斯罪故，已地獄中受無量苦。地獄餘罪，今受此身，續受斯苦。諸比丘！如大目揵連所見，真實
 <lb n="0413a06" ed="Y"/>不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0413a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-31~29-32;1587~1588()</cb:mulu><head><num n="29-31" type="各相應之經號">三一</num>——<num type="各相應之經號" n="29-32">三二</num>；<num type="雜含會編經號" n="1587">一五八七</num>——<num n="1588" type="雜含會編經號">一五八八</num>（　　　　）</head>
-<lb n="0413a08" ed="Y"/><p style="text-indent:2em">如捕魚師，捕鳥<note n="0413012" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>三經</bibl>。</note>，網兔，亦復如是。</p></cb:div>
-<lb n="0413a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-33;1589(520)</cb:mulu><head><num type="各相應之經號" n="29-33">三三</num><note n="0413013" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一四經</bibl>。</note>；<num type="雜含會編經號" n="1589">一五八九</num><num type="大正藏雜含經號" n="520">（五二〇）</num></head>
-<lb n="0413a10" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至路中見一眾生，頂有鐵磨，盛火熾然，轉磨其頂，乘虛
+<lb n="0413a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-31~29-32;1587~1588()</cb:mulu><head><num n="29-31" type="各相應之經號">三一</num>——<num n="29-32" type="各相應之經號">三二</num>；<num n="1587" type="雜含會編經號">一五八七</num>——<num n="1588" type="雜含會編經號">一五八八</num>（　　　　）</head>
+<lb n="0413a08" ed="Y"/><p xml:id="pY32p0413a0801" style="text-indent:2em">如捕魚師，捕鳥<note n="0413012" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>三經</bibl>。</note>，網兔，亦復如是。</p></cb:div>
+<lb n="0413a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-33;1589(520)</cb:mulu><head><num n="29-33" type="各相應之經號">三三</num><note n="0413013" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一四經</bibl>。</note>；<num n="1589" type="雜含會編經號">一五八九</num><num n="520" type="大正藏雜含經號">（五二〇）</num></head>
+<lb n="0413a10" ed="Y"/><p xml:id="pY32p0413a1001" style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至路中見一眾生，頂有鐵磨，盛火熾然，轉磨其頂，乘虛
 <lb n="0413a11" ed="Y"/>而行，受無量苦。乃至佛告諸比丘：「此眾生者，過去世時，於此王舍城，為卜占女人，轉式卜
 <lb n="0413a12" ed="Y"/>占，欺妄惑人以求財物，緣斯罪故，已地獄中受無量苦。地獄餘罪，今得此身，續受斯苦。諸比
 <lb n="0413a13" ed="Y"/>丘！如大目揵連所見，真實不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0413a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-34;1590(521)</cb:mulu><head><num type="各相應之經號" n="29-34">三四</num>；<num n="1590" type="雜含會編經號">一五九〇</num><num n="521" type="大正藏雜含經號">（五二一）</num></head>
-<lb n="0413a15" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至路中見一眾生，其身獨轉，猶若旋風，乘虛而行。乃至
+<lb n="0413a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-34;1590(521)</cb:mulu><head><num n="29-34" type="各相應之經號">三四</num>；<num n="1590" type="雜含會編經號">一五九〇</num><num n="521" type="大正藏雜含經號">（五二一）</num></head>
+<lb n="0413a15" ed="Y"/><p xml:id="pY32p0413a1501" style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至路中見一眾生，其身獨轉，猶若旋風，乘虛而行。乃至
 <pb n="0414a" ed="Y" xml:id="Y32.0030.0414a"/>
 <lb n="0414a01" ed="Y"/>佛告諸比丘：「此眾生者，過去世時，於此王舍城，為卜占師，誤惑多人，以求財物，緣斯罪故
 <lb n="0414a02" ed="Y"/>，已地獄中受無量苦。地獄餘罪，今得此身，續受斯苦。諸比丘！如大目揵連所見，真實不異，
 <lb n="0414a03" ed="Y"/>當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0414a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-35;1591(522)</cb:mulu><head><num type="各相應之經號" n="29-35">三五</num>；<num type="雜含會編經號" n="1591">一五九一</num><num n="522" type="大正藏雜含經號">（五二二）</num></head>
-<lb n="0414a05" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至路中見一眾生，傴身藏行，狀如恐怖，舉體被服，悉皆
+<lb n="0414a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-35;1591(522)</cb:mulu><head><num n="29-35" type="各相應之經號">三五</num>；<num n="1591" type="雜含會編經號">一五九一</num><num n="522" type="大正藏雜含經號">（五二二）</num></head>
+<lb n="0414a05" ed="Y"/><p xml:id="pY32p0414a0501" style="text-indent:2em">如是我聞：一時，佛住王舍城。乃至路中見一眾生，傴身藏行，狀如恐怖，舉體被服，悉皆
 <lb n="0414a06" ed="Y"/>火然，還燒其身，乘虛而行。佛告諸比丘：「此眾生者，過去世時，於此王舍城，好行他婬，緣
 <lb n="0414a07" ed="Y"/>斯罪故，已地獄中受無量苦。地獄餘罪，今得此身，續受斯苦。諸比丘！如大目揵連所見，真實
 <lb n="0414a08" ed="Y"/>不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0414a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-36;1592(523)</cb:mulu><head><num type="各相應之經號" n="29-36">三六</num><note n="0414014" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一三經</bibl>。</note>；<num n="1592" type="雜含會編經號">一五九二</num><num n="523" type="大正藏雜含經號">（五二三）</num></head>
-<lb n="0414a10" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住波羅<g ref="#CB00178"/>國仙人住處鹿野苑中。時尊者大目揵連，尊者勒叉那比丘，晨
+<lb n="0414a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-36;1592(523)</cb:mulu><head><num n="29-36" type="各相應之經號">三六</num><note n="0414014" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一三經</bibl>。</note>；<num n="1592" type="雜含會編經號">一五九二</num><num n="523" type="大正藏雜含經號">（五二三）</num></head>
+<lb n="0414a10" ed="Y"/><p xml:id="pY32p0414a1001" style="text-indent:2em">如是我聞：一時，佛住波羅<g ref="#CB00178"/>國仙人住處鹿野苑中。時尊者大目揵連，尊者勒叉那比丘，晨
 <lb n="0414a11" ed="Y"/>朝共入波羅<g ref="#CB00178"/>城乞食。於路中，尊者大目揵連思惟顧念，欣然微笑。時尊者勒叉那白尊者大目揵
 <lb n="0414a12" ed="Y"/>連言：「世尊及世尊弟子，欣然微笑，必有因緣，何緣尊者今日欣然微笑」？尊者大目揵連語尊
 <lb n="0414a13" ed="Y"/>者勒叉那：「此非時問，且乞食還，詣世尊前，當問此事」。</p>
-<lb n="0414a14" ed="Y"/><p style="text-indent:2em">時俱入城，乞食還。洗足，舉衣鉢，俱詣世尊，稽首禮足，退坐一面。時尊者勒叉那問尊者
+<lb n="0414a14" ed="Y"/><p xml:id="pY32p0414a1401" style="text-indent:2em">時俱入城，乞食還。洗足，舉衣鉢，俱詣世尊，稽首禮足，退坐一面。時尊者勒叉那問尊者
 <lb n="0414a15" ed="Y"/>大目揵連：「晨朝路中，何因何緣欣然微笑」？尊者大目揵連語尊者勒叉那：「我於路中，見一
 <pb n="0415a" ed="Y" xml:id="Y32.0030.0415a"/>
 <lb n="0415a01" ed="Y"/>大身眾生，舉體膿壞，臭穢不淨，乘虛而行。烏、鵄、鵰、鷲、野干、餓狗，隨逐擭食，啼哭號
@@ -802,62 +822,62 @@
 <lb n="0415a05" ed="Y"/>受請，不解其意。女人瞋恚，以不淨水灑比丘身，緣斯罪故，已地獄中受無量苦。地獄餘罪，今
 <lb n="0415a06" ed="Y"/>得此身，續受斯苦。諸比丘！如大目揵連所見，真實不異，當受持之」。佛說是經已，諸比丘聞
 <lb n="0415a07" ed="Y"/>佛所說，歡喜奉行。</p></cb:div>
-<lb n="0415a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-37;1593(524)</cb:mulu><head><num n="29-37" type="各相應之經號">三七</num><note n="0415015" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一五經</bibl>。</note>；<num type="雜含會編經號" n="1593">一五九三</num><num n="524" type="大正藏雜含經號">（五二四）</num></head>
-<lb n="0415a09" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住波羅<g ref="#CB00178"/>國仙人住處鹿野苑中。乃至我於路中，見一大身眾生，舉體火
+<lb n="0415a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-37;1593(524)</cb:mulu><head><num n="29-37" type="各相應之經號">三七</num><note n="0415015" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一五經</bibl>。</note>；<num n="1593" type="雜含會編經號">一五九三</num><num n="524" type="大正藏雜含經號">（五二四）</num></head>
+<lb n="0415a09" ed="Y"/><p xml:id="pY32p0415a0901" style="text-indent:2em">如是我聞：一時，佛住波羅<g ref="#CB00178"/>國仙人住處鹿野苑中。乃至我於路中，見一大身眾生，舉體火
 <lb n="0415a10" ed="Y"/>然，乘虛而行，啼哭號呼，受諸苦痛。乃至佛告諸比丘：「此眾生者，過去世時，於此波羅<g ref="#CB00178"/>城
 <lb n="0415a11" ed="Y"/>，為自在王第一夫人。與王共宿，起瞋恚心，以然燈油灑王身上，緣斯罪故，已地獄中受無量苦
 <lb n="0415a12" ed="Y"/>。地獄餘罪，今得此身，續受斯苦。諸比丘！如大目揵連所見，真實不異，當受持之」。佛說是
 <lb n="0415a13" ed="Y"/>經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0415a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-38;1594(525)</cb:mulu><head><num type="各相應之經號" n="29-38">三八</num><note n="0415016" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一二經</bibl>。</note>；<num n="1594" type="雜含會編經號">一五九四</num><num type="大正藏雜含經號" n="525">（五二五）</num></head>
-<lb n="0415a15" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住波羅<g ref="#CB00178"/>國仙人住處鹿野苑中。乃至尊者大目揵連言：「我於路中，見
+<lb n="0415a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-38;1594(525)</cb:mulu><head><num n="29-38" type="各相應之經號">三八</num><note n="0415016" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一二經</bibl>。</note>；<num n="1594" type="雜含會編經號">一五九四</num><num n="525" type="大正藏雜含經號">（五二五）</num></head>
+<lb n="0415a15" ed="Y"/><p xml:id="pY32p0415a1501" style="text-indent:2em">如是我聞：一時，佛住波羅<g ref="#CB00178"/>國仙人住處鹿野苑中。乃至尊者大目揵連言：「我於路中，見
 <pb n="0416a" ed="Y" xml:id="Y32.0030.0416a"/>
 <lb n="0416a01" ed="Y"/>一眾生，舉體糞穢以塗其身，亦食糞穢，乘虛而行。臭穢苦惱，啼哭號呼」。乃至佛告諸比丘：
 <lb n="0416a02" ed="Y"/>「此眾生者，過去世時，於此波羅<g ref="#CB00178"/>城，為自在王師婆羅門。以憎嫉心，請迦葉佛聲聞僧，以糞
 <lb n="0416a03" ed="Y"/>著飯下，試惱眾僧，緣斯罪故，已地獄中受無量苦。地獄餘罪，今得此身，續受斯苦。諸比丘！
 <lb n="0416a04" ed="Y"/>如大目揵連所見，真實不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0416a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-39;1595(526)</cb:mulu><head><num type="各相應之經號" n="29-39">三九</num>；<num n="1595" type="雜含會編經號">一五九五</num><num type="大正藏雜含經號" n="526">（五二六）</num></head>
-<lb n="0416a06" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。乃至尊者大目揵連言：「我於路中，見一大身
+<lb n="0416a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-39;1595(526)</cb:mulu><head><num n="29-39" type="各相應之經號">三九</num>；<num n="1595" type="雜含會編經號">一五九五</num><num n="526" type="大正藏雜含經號">（五二六）</num></head>
+<lb n="0416a06" ed="Y"/><p xml:id="pY32p0416a0601" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。乃至尊者大目揵連言：「我於路中，見一大身
 <lb n="0416a07" ed="Y"/>眾生，頭上有大銅鑊，熾然滿中烊<note n="0416017" resp="釋印順" type="orig">「烊」，原本作「群」，今改。宋本作「洋」。</note>銅，流灌身體，乘虛而行，啼哭號呼」。乃至佛告諸比丘：
 <lb n="0416a08" ed="Y"/>「此眾生者，過去世時，於此舍衛國，迦葉佛所出家，為知事比丘。有檀越送油，應付諸比丘。
 <lb n="0416a09" ed="Y"/>時有眾多客比丘，知事比丘不時分油，待客比丘去，然後乃分。緣斯罪故，已地獄中受無量苦。
 <lb n="0416a10" ed="Y"/>地獄餘罪，今得此身，續受斯苦。諸比丘！如大目揵連所見，真實不異」。佛說此經已，諸比丘
 <lb n="0416a11" ed="Y"/>聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0416a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-40;1596(527)</cb:mulu><head><num type="各相應之經號" n="29-40">四〇</num>；<num n="1596" type="雜含會編經號">一五九六</num><num type="大正藏雜含經號" n="527">（五二七）</num></head>
-<lb n="0416a13" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。乃至尊者大目揵連言：「我於路中，見一大身
+<lb n="0416a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-40;1596(527)</cb:mulu><head><num n="29-40" type="各相應之經號">四〇</num>；<num n="1596" type="雜含會編經號">一五九六</num><num n="527" type="大正藏雜含經號">（五二七）</num></head>
+<lb n="0416a13" ed="Y"/><p xml:id="pY32p0416a1301" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。乃至尊者大目揵連言：「我於路中，見一大身
 <lb n="0416a14" ed="Y"/>眾生，有熾熱鐵丸，從身出入，乘虛而行，苦痛切迫，啼哭號呼」。乃至佛告諸比丘：「此眾生
 <lb n="0416a15" ed="Y"/>者，過去世時，於此舍衛國，迦葉佛法中出家作沙彌，次守眾僧果園。盜取七果，持奉和上，緣
 <pb n="0417a" ed="Y" xml:id="Y32.0030.0417a"/>
 <lb n="0417a01" ed="Y"/>斯罪故，已地獄中受無量苦。地獄餘罪，今得此身，續受斯苦。諸比丘！如大目揵連所見，真實
 <lb n="0417a02" ed="Y"/>不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0417a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-41;1597(528)</cb:mulu><head><num type="各相應之經號" n="29-41">四一</num>；<num type="雜含會編經號" n="1597">一五九七</num><num type="大正藏雜含經號" n="528">（五二八）</num></head>
-<lb n="0417a04" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至尊者大目揵連言：「我於路中，見一大身眾生，其舌廣
+<lb n="0417a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-41;1597(528)</cb:mulu><head><num n="29-41" type="各相應之經號">四一</num>；<num n="1597" type="雜含會編經號">一五九七</num><num n="528" type="大正藏雜含經號">（五二八）</num></head>
+<lb n="0417a04" ed="Y"/><p xml:id="pY32p0417a0401" style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至尊者大目揵連言：「我於路中，見一大身眾生，其舌廣
 <lb n="0417a05" ed="Y"/>長，見有利釿，炎火熾然以釿其舌，乘虛而行，啼哭號呼」。乃至佛告諸比丘：「此眾生者，過
 <lb n="0417a06" ed="Y"/>去世時，於此舍衛國，迦葉佛法中出家作沙彌，以斧破石蜜，供養眾僧。著斧刃者，盜取食之，
 <lb n="0417a07" ed="Y"/>緣斯罪故，入地獄中，受無量苦。地獄餘罪，今得此身，續受斯苦。諸比丘！如大目揵連所見，
 <lb n="0417a08" ed="Y"/>真實不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0417a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-42;1598(529)</cb:mulu><head><num type="各相應之經號" n="29-42">四二</num>；<num n="1598" type="雜含會編經號">一五九八</num><num n="529" type="大正藏雜含經號">（五二九）</num></head>
-<lb n="0417a10" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至尊者大目揵連言：「我於路中，見一<note n="0417018" resp="釋印順" type="orig">「一」，原本作「是」，今改。</note>大身眾生，有雙
+<lb n="0417a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-42;1598(529)</cb:mulu><head><num n="29-42" type="各相應之經號">四二</num>；<num n="1598" type="雜含會編經號">一五九八</num><num n="529" type="大正藏雜含經號">（五二九）</num></head>
+<lb n="0417a10" ed="Y"/><p xml:id="pY32p0417a1001" style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至尊者大目揵連言：「我於路中，見一<note n="0417018" resp="釋印順" type="orig">「一」，原本作「是」，今改。</note>大身眾生，有雙
 <lb n="0417a11" ed="Y"/>鐵輪，在兩脇下，熾然旋轉，還燒其身，乘虛而行，啼哭號呼」。乃至佛告諸比丘：「此眾生者
 <lb n="0417a12" ed="Y"/>，過去世時，於此舍衛國，迦葉佛法中出家作沙彌，持石蜜<g ref="#CB33004"/>供養眾僧。盜取二<g ref="#CB33004"/>，著於掖下，
 <lb n="0417a13" ed="Y"/>緣斯罪故，已地獄中受無量苦。地獄餘罪，今得此身，續受斯苦。諸比丘！如大目揵連所見，真
 <lb n="0417a14" ed="Y"/>實不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0417a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-43;1599(530)</cb:mulu><head><num n="29-43" type="各相應之經號">四三</num><note n="0417019" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一七經</bibl>。</note>；<num n="1599" type="雜含會編經號">一五九九</num><num type="大正藏雜含經號" n="530">（五三〇）</num></head>
+<lb n="0417a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-43;1599(530)</cb:mulu><head><num n="29-43" type="各相應之經號">四三</num><note n="0417019" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一七經</bibl>。</note>；<num n="1599" type="雜含會編經號">一五九九</num><num n="530" type="大正藏雜含經號">（五三〇）</num></head>
 <pb n="0418a" ed="Y" xml:id="Y32.0030.0418a"/>
-<lb n="0418a01" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至尊者大目揵連言：「我於路中，見一大身眾生，以熾然
+<lb n="0418a01" ed="Y"/><p xml:id="pY32p0418a0101" style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至尊者大目揵連言：「我於路中，見一大身眾生，以熾然
 <lb n="0418a02" ed="Y"/>鐵葉以纏其身，衣被、床臥悉皆熱鐵，炎火熾然，食熱鐵丸，乘虛而行，啼哭號呼」。乃至佛告
 <lb n="0418a03" ed="Y"/>諸比丘：「此眾生者，過去世時，於此舍衛國，迦葉佛法中，出家作比丘，為眾僧乞衣食。供僧
 <lb n="0418a04" ed="Y"/>之餘，輒自受用，緣斯罪故，已地獄中受無量苦。地獄餘罪，今得此身，續受斯苦。諸比丘！如
 <lb n="0418a05" ed="Y"/>大目揵連所見，真實不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0418a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-44~29-49;1600~1605()</cb:mulu><head><num n="29-44" type="各相應之經號">四四</num>——<num n="29-49" type="各相應之經號">四九</num>；<num type="雜含會編經號" n="1600">一六〇〇</num>——<num type="雜含會編經號" n="1605">一六〇五</num>（　　　　）</head>
-<lb n="0418a07" ed="Y"/><p style="text-indent:2em">如比丘，如是比丘尼<note n="0418020" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一八經</bibl>。</note>，式叉摩那<note n="0418021" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一九經</bibl>。</note>，沙彌<note n="0418022" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>二〇經</bibl>。</note>，沙彌尼<note n="0418023" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>二一經</bibl>。</note>，優婆塞，優婆夷，亦復如是。</p></cb:div>
-<lb n="0418a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-50;1606(531)</cb:mulu><head><num n="29-50" type="各相應之經號">五〇</num>；<num n="1606" type="雜含會編經號">一六〇六</num><num type="大正藏雜含經號" n="531">（五三一）</num></head>
-<lb n="0418a09" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至尊者大目揵連言：「我於路中，見一大身眾生，熾然鐵
+<lb n="0418a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-44~29-49;1600~1605()</cb:mulu><head><num n="29-44" type="各相應之經號">四四</num>——<num n="29-49" type="各相應之經號">四九</num>；<num n="1600" type="雜含會編經號">一六〇〇</num>——<num n="1605" type="雜含會編經號">一六〇五</num>（　　　　）</head>
+<lb n="0418a07" ed="Y"/><p xml:id="pY32p0418a0701" style="text-indent:2em">如比丘，如是比丘尼<note n="0418020" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一八經</bibl>。</note>，式叉摩那<note n="0418021" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>一九經</bibl>。</note>，沙彌<note n="0418022" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>二〇經</bibl>。</note>，沙彌尼<note n="0418023" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（一九）<title level="a">〈勒叉那相應〉</title>二一經</bibl>。</note>，優婆塞，優婆夷，亦復如是。</p></cb:div>
+<lb n="0418a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-50;1606(531)</cb:mulu><head><num n="29-50" type="各相應之經號">五〇</num>；<num n="1606" type="雜含會編經號">一六〇六</num><num n="531" type="大正藏雜含經號">（五三一）</num></head>
+<lb n="0418a09" ed="Y"/><p xml:id="pY32p0418a0901" style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至尊者大目揵連言：「我於路中，見一大身眾生，熾然鐵
 <lb n="0418a10" ed="Y"/>車而駕其頸，拔其頸筋，及連四腳筋，以勒其頸，行熱鐵地，乘虛而去，啼哭號呼」。乃至佛告
 <lb n="0418a11" ed="Y"/>諸比丘：「此眾生者，過去世時，於此舍衛國，駕乘牛車以自生活，緣斯罪故，於地獄中受無量
 <lb n="0418a12" ed="Y"/>苦。地獄餘罪，今得此身，續受斯苦。諸比丘！如大目揵連所見，真實不異，當受持之」。佛說
 <lb n="0418a13" ed="Y"/>此經已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
 <lb n="0418a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-51;1607(532)</cb:mulu><head><num n="29-51" type="各相應之經號">五一</num>；<num n="1607" type="雜含會編經號">一六〇七</num><num n="532" type="大正藏雜含經號">（五三二）</num></head>
-<lb n="0418a15" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至尊者大目揵連言：「我於路中，見一大身眾生，其舌長
+<lb n="0418a15" ed="Y"/><p xml:id="pY32p0418a1501" style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至尊者大目揵連言：「我於路中，見一大身眾生，其舌長
 <pb n="0419a" ed="Y" xml:id="Y32.0030.0419a"/>
 <lb n="0419a01" ed="Y"/>廣，熾然鐵釘以釘其舌，乘虛而行，啼哭號呼」。乃至佛告諸比丘：「此眾生者，過去世時，於
 <lb n="0419a02" ed="Y"/>此舍衛國，迦葉佛法中，出家作比丘，為摩摩帝。呵責諸比丘言：諸長老！汝等可去！此處儉薄
@@ -865,15 +885,15 @@
 <lb n="0419a04" ed="Y"/>皆捨去，客僧聞之，亦復不來。緣斯罪故，已地獄中受無量苦。地獄餘罪，今得此身，續受斯苦
 <lb n="0419a05" ed="Y"/>。諸比丘！如大目揵連所見，真實不異，當受持之」。佛說此經已，諸比丘聞佛所說，歡喜奉行
 <lb n="0419a06" ed="Y"/>。</p></cb:div>
-<lb n="0419a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-52;1608(533)</cb:mulu><head><num type="各相應之經號" n="29-52">五二</num>；<num n="1608" type="雜含會編經號">一六〇八</num><num n="533" type="大正藏雜含經號">（五三三）</num></head>
-<lb n="0419a08" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至尊者大目揵連言：「我於路中，見一大身眾生，比丘之
+<lb n="0419a07" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-52;1608(533)</cb:mulu><head><num n="29-52" type="各相應之經號">五二</num>；<num n="1608" type="雜含會編經號">一六〇八</num><num n="533" type="大正藏雜含經號">（五三三）</num></head>
+<lb n="0419a08" ed="Y"/><p xml:id="pY32p0419a0801" style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至尊者大目揵連言：「我於路中，見一大身眾生，比丘之
 <lb n="0419a09" ed="Y"/>像，皆著鐵葉以為衣服，舉體火然，亦以鐵鉢盛熱鐵丸而食之」。乃至佛告諸比丘：「此眾生者
 <lb n="0419a10" ed="Y"/>，過去世時，於此舍衛國，迦葉佛法中，出家作比丘，作摩摩帝。惡口形名諸比丘，或言此是惡
 <lb n="0419a11" ed="Y"/>禿，此惡風法，此惡衣服。以彼惡口故，先住者去，未來不來。緣斯罪故，已地獄中受無量苦。
 <lb n="0419a12" ed="Y"/>地獄餘罪，今得此身，續受斯苦。諸比丘！如大目揵連所見，真實不異，當受持之」。佛說此經
 <lb n="0419a13" ed="Y"/>已，諸比丘聞佛所說，歡喜奉行。</p></cb:div>
-<lb n="0419a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-53;1609(534)</cb:mulu><head><num n="29-53" type="各相應之經號">五三</num>；<num type="雜含會編經號" n="1609">一六〇九</num><num type="大正藏雜含經號" n="534">（五三四）</num></head>
-<lb n="0419a15" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至佛告諸比丘：「此眾生者，過去世時，於此舍衛國，迦
+<lb n="0419a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">29-53;1609(534)</cb:mulu><head><num n="29-53" type="各相應之經號">五三</num>；<num n="1609" type="雜含會編經號">一六〇九</num><num n="534" type="大正藏雜含經號">（五三四）</num></head>
+<lb n="0419a15" ed="Y"/><p xml:id="pY32p0419a1501" style="text-indent:2em">如是我聞：一時，佛住舍衛國。乃至佛告諸比丘：「此眾生者，過去世時，於此舍衛國，迦
 <pb n="0420a" ed="Y" xml:id="Y32.0030.0420a"/>
 <lb n="0420a01" ed="Y"/>葉佛法中，出家作比丘，好起諍訟，鬪亂眾僧，作諸口舌，令不和合。先住比丘厭惡捨去，未來
 <lb n="0420a02" ed="Y"/>者不來。緣斯罪故，已地獄中受無量苦。地獄餘罪，今得此身，續受斯苦。諸比丘！如大目揵連
@@ -904,9 +924,9 @@
 <lb n="0421a10" ed="Y"/></cb:div></cb:div>
 <pb n="0422a" ed="Y" xml:id="Y32.0030.0422a"/>
 <pb n="0423a" ed="Y" xml:id="Y32.0030.0423a"/>
-<lb n="0423a01" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">三十　阿那律相應（一一經）</cb:mulu><head><note n="0423a0101" resp="CBETA" type="add" subtype="規範字詞">三十【CB】，三〇【印順】</note><app n="0423a0101"><lem wit="【CB】" resp="CBETA">三十</lem><rdg wit="【印順】">三〇</rdg></app>　阿那律相應<note n="0423001" resp="釋印順" type="orig"><title level="a">〈阿那律相應〉</title>，共一一經。與<bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title></bibl>相當。</note></head>
-<lb n="0423a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-1;1610(535)</cb:mulu><head><num type="各相應之經號" n="30-1">一</num><note n="0423002" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>二經</bibl>。</note>；<num type="雜含會編經號" n="1610">一六一〇</num><num type="大正藏雜含經號" n="535">（五三五）</num></head>
-<lb n="0423a03" ed="Y"/><p style="text-indent:2em"><note n="0423003" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="19中" type="卷">卷一九中</biblScope></bibl>。</note>如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者阿那律，住松林精舍。時尊者大
+<lb n="0423a01" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">三十　阿那律相應（一一經）</cb:mulu><head><note n="0423a0101" resp="CBETA" type="add" subtype="規範字詞">三十【CB】，三〇【印順】</note><app n="0423a0101"><lem resp="CBETA" wit="【CB】">三十</lem><rdg wit="【印順】">三〇</rdg></app>　阿那律相應<note n="0423001" resp="釋印順" type="orig"><title level="a">〈阿那律相應〉</title>，共一一經。與<bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title></bibl>相當。</note></head>
+<lb n="0423a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-1;1610(535)</cb:mulu><head><num n="30-1" type="各相應之經號">一</num><note n="0423002" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>二經</bibl>。</note>；<num n="1610" type="雜含會編經號">一六一〇</num><num n="535" type="大正藏雜含經號">（五三五）</num></head>
+<lb n="0423a03" ed="Y"/><p xml:id="pY32p0423a0301" style="text-indent:2em"><note n="0423003" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="19中" type="卷">卷一九中</biblScope></bibl>。</note>如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者阿那律，住松林精舍。時尊者大
 <lb n="0423a04" ed="Y"/>目揵連，住跋祇聚落失收摩羅山恐怖稠林禽獸之處。時尊者阿那律，獨一靜處，禪思思惟，作是
 <lb n="0423a05" ed="Y"/>念：有一乘道，淨眾生，離憂悲惱苦，得真如法，所謂四念處。何等為四？身身觀念處，受……
 <lb n="0423a06" ed="Y"/>，心……，法法觀念處。若於四念處遠離者，於賢聖法遠離；於賢聖法遠離者，於聖道遠離；聖
@@ -924,16 +944,16 @@
 <lb n="0424a03" ed="Y"/>身身觀念處，心緣身，正念住，調伏止息寂靜，一心增進；如是受，心，法念處，正念住，調伏
 <lb n="0424a04" ed="Y"/>止息寂靜，一心增進。尊者大目揵連！是名比丘樂四念處」。時尊者大目揵連，即如其像三昧正
 <lb n="0424a05" ed="Y"/>受，從舍衛國松林精舍沒<note n="0424004" resp="釋印順" type="orig">「沒」，原本作「門」，依宋本改。</note>，還至跋祇聚落失收摩羅山恐怖稠林禽獸之處。</p></cb:div>
-<lb n="0424a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-2;1611(536)</cb:mulu><head><num type="各相應之經號" n="30-2">二</num><note n="0424005" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>一經</bibl>。</note>；<num n="1611" type="雜含會編經號">一六一一</num><num n="536" type="大正藏雜含經號">（五三六）</num></head>
-<lb n="0424a07" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。乃至尊者大目揵連問尊者阿那律：「云何名為
+<lb n="0424a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-2;1611(536)</cb:mulu><head><num n="30-2" type="各相應之經號">二</num><note n="0424005" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>一經</bibl>。</note>；<num n="1611" type="雜含會編經號">一六一一</num><num n="536" type="大正藏雜含經號">（五三六）</num></head>
+<lb n="0424a07" ed="Y"/><p xml:id="pY32p0424a0701" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。乃至尊者大目揵連問尊者阿那律：「云何名為
 <lb n="0424a08" ed="Y"/>四念處修習、多修習」？尊者阿那律語尊者大目揵連言：「若比丘於內身起厭離想，於內身起不
 <lb n="0424a09" ed="Y"/>厭離想，厭離不厭離俱捨想，正念、正知。如內身，如是外身、內外身；內受，外受，內外受；
 <lb n="0424a10" ed="Y"/>內心，外心，內外心；內法，外法，內外法：作厭離想，不厭離想，厭離不厭離俱捨想，住正念
 <lb n="0424a11" ed="Y"/>、正知。如是尊者大目揵連！是名四念處修習、多修習」。時尊者大目揵連，即（入三昧）從舍
 <lb n="0424a12" ed="Y"/>衛國松林精舍，入三昧神通力，如力士屈申臂頃，還到跋祇聚落失收摩羅山恐怖稠林禽獸住處<note n="0424006" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="19" type="卷">卷一九</biblScope></bibl>終。</note>
 <lb n="0424a13" ed="Y"/>。</p></cb:div>
-<lb n="0424a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-3;1612(537)</cb:mulu><head><num n="30-3" type="各相應之經號">三</num><note n="0424007" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>六經</bibl>。</note>；<num n="1612" type="雜含會編經號">一六一二</num><num type="大正藏雜含經號" n="537">（五三七）</num></head>
-<lb n="0424a15" ed="Y"/><p style="text-indent:2em"><note n="0424008" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="20">卷二〇</biblScope></bibl>。</note>如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者大目揵連，尊者阿那律，住舍衛
+<lb n="0424a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-3;1612(537)</cb:mulu><head><num n="30-3" type="各相應之經號">三</num><note n="0424007" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>六經</bibl>。</note>；<num n="1612" type="雜含會編經號">一六一二</num><num n="537" type="大正藏雜含經號">（五三七）</num></head>
+<lb n="0424a15" ed="Y"/><p xml:id="pY32p0424a1501" style="text-indent:2em"><note n="0424008" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="20" type="卷">卷二〇</biblScope></bibl>。</note>如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者大目揵連，尊者阿那律，住舍衛
 <pb n="0425a" ed="Y" xml:id="Y32.0030.0425a"/>
 <lb n="0425a01" ed="Y"/>國手成浴池側。尊者舍利弗詣尊者阿那律所，共相問訊，慰勞已，於一面坐。尊者舍利弗語尊者
 <lb n="0425a02" ed="Y"/>阿那律言：「奇哉阿那律！有大德神力，於何功德修習、多修習而能致<note n="0425009" resp="釋印順" type="orig">「致」，原本作「至」，依宋本改。</note>此」？尊者阿那律語尊
@@ -943,8 +963,8 @@
 <lb n="0425a06" ed="Y"/>名四念處修習、多修習，成此大德神力。尊者舍利弗！我於四念處善修習故，於小千世界，少作
 <lb n="0425a07" ed="Y"/>方便，能遍觀察。如明目士夫，於樓觀上，觀下平地種種之物。我少作方便，觀察小千世界，亦
 <lb n="0425a08" ed="Y"/>復如是。如是我於四念處修習、多修習，成此大德神力」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0425a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-4;1613(538)</cb:mulu><head><num type="各相應之經號" n="30-4">四</num><note n="0425010" resp="釋印順" type="orig">與上經同。</note>；<num type="雜含會編經號" n="1613">一六一三</num><num type="大正藏雜含經號" n="538">（五三八）</num></head>
-<lb n="0425a10" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。尊者舍利弗，尊者大目揵連，尊者阿難，尊者
+<lb n="0425a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-4;1613(538)</cb:mulu><head><num n="30-4" type="各相應之經號">四</num><note n="0425010" resp="釋印順" type="orig">與上經同。</note>；<num n="1613" type="雜含會編經號">一六一三</num><num n="538" type="大正藏雜含經號">（五三八）</num></head>
+<lb n="0425a10" ed="Y"/><p xml:id="pY32p0425a1001" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。尊者舍利弗，尊者大目揵連，尊者阿難，尊者
 <lb n="0425a11" ed="Y"/>阿那律，住舍衛國。爾時，尊者大目揵連，詣尊者阿那律所，共相問訊，慰勞已，於一面坐。時
 <lb n="0425a12" ed="Y"/>尊者大目揵連問尊者阿那律：「於何功德修習、多修習，成此大德神力」？尊者阿那律語尊者大
 <lb n="0425a13" ed="Y"/>目揵連：「我於四念處修習、多修習，成此大德神力。何等為四？內身身觀繫心住，精勤方便，
@@ -954,8 +974,8 @@
 <lb n="0426a01" ed="Y"/>成此大德神力，於千須彌山，以少方便，悉能觀察。如明目士夫，登高山頂，觀下千多羅樹林。
 <lb n="0426a02" ed="Y"/>如是我於四念處修習、多修習，成此大德神力，以少方便，見千須彌山。如是尊者大目揵連！我
 <lb n="0426a03" ed="Y"/>於四念處修習、多修習，成此大德神力」。時二正士共論議已，各從座起而去。</p></cb:div>
-<lb n="0426a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-5;1614(539)</cb:mulu><head><num n="30-5" type="各相應之經號">五</num><note n="0426011" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>二三經</bibl>。</note>；<num n="1614" type="雜含會編經號">一六一四</num><num type="大正藏雜含經號" n="539">（五三九）</num></head>
-<lb n="0426a05" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。尊者舍利弗，尊者大目揵連，尊者阿難，尊者
+<lb n="0426a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-5;1614(539)</cb:mulu><head><num n="30-5" type="各相應之經號">五</num><note n="0426011" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>二三經</bibl>。</note>；<num n="1614" type="雜含會編經號">一六一四</num><num n="539" type="大正藏雜含經號">（五三九）</num></head>
+<lb n="0426a05" ed="Y"/><p xml:id="pY32p0426a0501" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。尊者舍利弗，尊者大目揵連，尊者阿難，尊者
 <lb n="0426a06" ed="Y"/>阿那律，住舍衛國手成浴池側。爾時，尊者阿難往尊者阿那律所，共相問訊，慰勞已，於一面坐
 <lb n="0426a07" ed="Y"/>。尊者阿難問尊者阿那律：「於何功德修習、多修習，成就如是大德大力、大神通」？尊者阿那
 <lb n="0426a08" ed="Y"/>律語尊者阿難：「我於四念處修習、多修習，成此大德大力。何等為四？內身身觀念處，繫心住
@@ -971,7 +991,7 @@
 <lb n="0427a02" ed="Y"/>，正見因緣，身壞命終，得生天上。如是尊者阿難！我於四念處修習、多修習，成此大德大力神
 <lb n="0427a03" ed="Y"/>通」。時二正士共論議已，各從座起而去。</p></cb:div>
 <lb n="0427a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-6;1615(540)</cb:mulu><head><num n="30-6" type="各相應之經號">六</num><note n="0427012" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>一〇經</bibl>。</note>；<num n="1615" type="雜含會編經號">一六一五</num><num n="540" type="大正藏雜含經號">（五四〇）</num></head>
-<lb n="0427a05" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者阿那律，在舍衛國松林精舍，身遭
+<lb n="0427a05" ed="Y"/><p xml:id="pY32p0427a0501" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者阿那律，在舍衛國松林精舍，身遭
 <lb n="0427a06" ed="Y"/>病苦。時有眾多比丘，詣尊者阿那律所，問訊慰勞已，於一面住。語尊者阿那律言：「尊者阿那
 <lb n="0427a07" ed="Y"/>律！所患增損，可安忍不？病勢漸損，不轉增耶」？尊者阿那律言：「我病不安，難可安忍，身
 <lb n="0427a08" ed="Y"/>諸苦痛，轉增無損。即說三種譬，如上叉<note n="0427013" resp="釋印順" type="orig">「叉摩」，即「差摩」。</note>摩經說。然我身已遭此苦痛，且當安忍，正念、正知
@@ -979,16 +999,16 @@
 <lb n="0427a10" ed="Y"/>丘言：「住四念處。我於所起身諸苦痛，能自安忍，正念、正知。何等為四念處？謂內身身觀念
 <lb n="0427a11" ed="Y"/>處，乃至受，心，法觀念處。是名住於四念處，身諸苦痛，能自安忍，正念、正知」。時諸正士
 <lb n="0427a12" ed="Y"/>共論議已，歡喜隨喜，各從座起而去。</p></cb:div>
-<lb n="0427a13" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-7;1616(541)</cb:mulu><head><num n="30-7" type="各相應之經號">七</num>；<num type="雜含會編經號" n="1616">一六一六</num><num n="541" type="大正藏雜含經號">（五四一）</num></head>
-<lb n="0427a14" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。時尊者阿那律，在舍衛國松林精舍，病差未久
+<lb n="0427a13" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-7;1616(541)</cb:mulu><head><num n="30-7" type="各相應之經號">七</num>；<num n="1616" type="雜含會編經號">一六一六</num><num n="541" type="大正藏雜含經號">（五四一）</num></head>
+<lb n="0427a14" ed="Y"/><p xml:id="pY32p0427a1401" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。時尊者阿那律，在舍衛國松林精舍，病差未久
 <lb n="0427a15" ed="Y"/>。時有眾多比丘，往詣阿那律所，問訊慰勞已，於一面坐。問尊者阿那律：「安隱樂住不」？阿
 <pb n="0428a" ed="Y" xml:id="Y32.0030.0428a"/>
 <lb n="0428a01" ed="Y"/>那律言：「安隱樂住，身諸苦痛，漸已休息」。諸比丘問尊者阿那律：「住何所住，身諸苦痛漸
 <lb n="0428a02" ed="Y"/><note n="0428014" resp="釋印順" type="orig">「漸」，原本缺，依宋本補。</note>得安隱」？尊者阿那律言：「住四念處，身諸苦痛，漸得安隱。何等為四？謂內身身觀念處，
 <lb n="0428a03" ed="Y"/>乃至法法觀念處，是名四念處。住此四念處故，身諸苦痛漸得休息」。時諸正士共論議已，歡喜
 <lb n="0428a04" ed="Y"/>隨喜，各從座起而去。</p></cb:div>
-<lb n="0428a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-8;1617(542)</cb:mulu><head><num type="各相應之經號" n="30-8">八</num><note n="0428015" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>四經</bibl>。</note>；<num type="雜含會編經號" n="1617">一六一七</num><num n="542" type="大正藏雜含經號">（五四二）</num></head>
-<lb n="0428a06" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。時尊者阿那律，在舍衛國松林精舍。時有眾多
+<lb n="0428a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-8;1617(542)</cb:mulu><head><num n="30-8" type="各相應之經號">八</num><note n="0428015" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>四經</bibl>。</note>；<num n="1617" type="雜含會編經號">一六一七</num><num n="542" type="大正藏雜含經號">（五四二）</num></head>
+<lb n="0428a06" ed="Y"/><p xml:id="pY32p0428a0601" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。時尊者阿那律，在舍衛國松林精舍。時有眾多
 <lb n="0428a07" ed="Y"/>比丘，詣尊者阿那律所，共相問訊，慰勞已，於一面坐。問尊者阿那律：「若比丘在於學地，上
 <lb n="0428a08" ed="Y"/>求安隱涅槃住，聖弟子云何修習、多修習，於此法律得盡諸漏，無漏心解脫，慧解脫，現法自知
 <lb n="0428a09" ed="Y"/>作證：我生已盡，梵行已立，所作已作，自知不受後有」？尊者阿那律語諸比丘言：「若比丘在
@@ -997,25 +1017,25 @@
 <lb n="0428a12" ed="Y"/>四？謂內身身觀念處，乃至法法觀念處。如是四念處修習、多修習，於此法律，得盡諸漏，無漏
 <lb n="0428a13" ed="Y"/>心解脫，慧解脫，現法自知作證：我生已盡，梵行已立，所作已作，自知不受後有」。時諸比丘
 <lb n="0428a14" ed="Y"/>共聞尊者阿那律所說，歡喜隨喜，各從座起而去。</p></cb:div>
-<lb n="0428a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-9;1618(543)</cb:mulu><head><num n="30-9" type="各相應之經號">九</num><note n="0428016" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>五、九經</bibl>。</note>；<num type="雜含會編經號" n="1618">一六一八</num><num type="大正藏雜含經號" n="543">（五四三）</num></head>
+<lb n="0428a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-9;1618(543)</cb:mulu><head><num n="30-9" type="各相應之經號">九</num><note n="0428016" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>五、九經</bibl>。</note>；<num n="1618" type="雜含會編經號">一六一八</num><num n="543" type="大正藏雜含經號">（五四三）</num></head>
 <pb n="0429a" ed="Y" xml:id="Y32.0030.0429a"/>
-<lb n="0429a01" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。時尊者阿那律，在舍衛國松林精舍住。時有眾
+<lb n="0429a01" ed="Y"/><p xml:id="pY32p0429a0101" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。時尊者阿那律，在舍衛國松林精舍住。時有眾
 <lb n="0429a02" ed="Y"/>多比丘，詣尊者阿那律所，與尊者阿那律共相問訊，慰勞已，於一面坐。語尊者阿那律言：「若
 <lb n="0429a03" ed="Y"/>阿羅漢比丘諸漏已盡，所作已作，捨離重擔，離諸有結，正智心善解脫，亦修四念處耶」？尊者
 <lb n="0429a04" ed="Y"/>阿那律語比丘言：「若比丘諸漏已盡，所作已作，捨離重擔，離諸有結，正智心善解脫，彼亦修
 <lb n="0429a05" ed="Y"/>四念處也。所以者何？不得者得，不證者證，為現法樂住故。所以者何？我亦離諸有漏，得阿羅
 <lb n="0429a06" ed="Y"/>漢，所作已作，心善解脫，亦修四念處故，不得者得，不到者到，不證者證，乃至現法安樂住」
 <lb n="0429a07" ed="Y"/>。時諸正士共論議已，歡喜隨喜，各從座起而去。</p></cb:div>
-<lb n="0429a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-10;1619(544)</cb:mulu><head><num type="各相應之經號" n="30-10">一〇</num>；<num type="雜含會編經號" n="1619">一六一九</num><num n="544" type="大正藏雜含經號">（五四四）</num></head>
-<lb n="0429a09" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。時尊者阿那律，在舍衛國松林精舍。時有眾多
+<lb n="0429a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-10;1619(544)</cb:mulu><head><num n="30-10" type="各相應之經號">一〇</num>；<num n="1619" type="雜含會編經號">一六一九</num><num n="544" type="大正藏雜含經號">（五四四）</num></head>
+<lb n="0429a09" ed="Y"/><p xml:id="pY32p0429a0901" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。時尊者阿那律，在舍衛國松林精舍。時有眾多
 <lb n="0429a10" ed="Y"/>外道出家，詣尊者阿那律所，共相問訊，慰勞已，於一面坐。語尊者阿那律：「尊者何故於沙門
 <lb n="0429a11" ed="Y"/>瞿曇法中出家」？尊者阿那律言：「為修習故」。復問：「何所修習」？答言：「謂修諸根，修
 <lb n="0429a12" ed="Y"/>諸力，修諸覺分，修諸念處，汝欲聞何等修」？復問：「根，力，覺分。我不知其名字，況復問
 <lb n="0429a13" ed="Y"/>義！然我欲聞念處」。尊者阿那律言：「諦聽，善思，當為汝說。若比丘內身身觀念處，乃至法
 <lb n="0429a14" ed="Y"/>法觀念處」。時眾多外道出家，聞尊者阿那律所說，歡喜隨喜，各從座起而去。</p></cb:div>
-<lb n="0429a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-11;1620(545)</cb:mulu><head><num n="30-11" type="各相應之經號">一一</num><note n="0429017" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>八經</bibl>。</note>；<num n="1620" type="雜含會編經號">一六二〇</num><num type="大正藏雜含經號" n="545">（五四五）</num></head>
+<lb n="0429a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">30-11;1620(545)</cb:mulu><head><num n="30-11" type="各相應之經號">一一</num><note n="0429017" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五二）<title level="a">〈阿那律相應〉</title>八經</bibl>。</note>；<num n="1620" type="雜含會編經號">一六二〇</num><num n="545" type="大正藏雜含經號">（五四五）</num></head>
 <pb n="0430a" ed="Y" xml:id="Y32.0030.0430a"/>
-<lb n="0430a01" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者阿那律，在舍衛國，住松林精舍。
+<lb n="0430a01" ed="Y"/><p xml:id="pY32p0430a0101" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者阿那律，在舍衛國，住松林精舍。
 <lb n="0430a02" ed="Y"/>時尊者阿那律語諸比丘：「譬如大樹，生而順下，隨浚隨輸；若伐其根，樹必當倒，隨所而順下
 <lb n="0430a03" ed="Y"/>。如是比丘修四念處，長夜順趣、浚輸，向於遠離；順趣浚輸，向於出要；順趣、浚輸，向於涅
 <lb n="0430a04" ed="Y"/>槃」。尊者阿那律說此經已，諸比丘聞其所說，歡喜奉行。</p>
@@ -1040,8 +1060,8 @@
 <pb n="0432a" ed="Y" xml:id="Y32.0030.0432a"/>
 <pb n="0433a" ed="Y" xml:id="Y32.0030.0433a"/>
 <lb n="0433a01" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">三一　大迦旃延相應（一〇經）</cb:mulu><head>三一　大迦旃延相應<note n="0433001" resp="釋印順" type="orig"><title level="a">〈大迦旃延相應〉</title>，共一〇經。</note></head>
-<lb n="0433a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-1;1621(546)</cb:mulu><head><num n="31-1" type="各相應之經號">一</num><note n="0433002" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．二集》四品六經</bibl>。</note>；<num type="雜含會編經號" n="1621">一六二一</num><num n="546" type="大正藏雜含經號">（五四六）</num></head>
-<lb n="0433a03" ed="Y"/><p style="text-indent:2em"><note n="0433003" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="20中" type="卷">卷二〇中</biblScope></bibl>。</note>如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，在跋蘭那聚落烏泥
+<lb n="0433a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-1;1621(546)</cb:mulu><head><num n="31-1" type="各相應之經號">一</num><note n="0433002" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．二集》四品六經</bibl>。</note>；<num n="1621" type="雜含會編經號">一六二一</num><num n="546" type="大正藏雜含經號">（五四六）</num></head>
+<lb n="0433a03" ed="Y"/><p xml:id="pY32p0433a0301" style="text-indent:2em"><note n="0433003" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="20中" type="卷">卷二〇中</biblScope></bibl>。</note>如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，在跋蘭那聚落烏泥
 <lb n="0433a04" ed="Y"/>池側。時有執澡灌杖梵志，詣摩訶迦旃延所，共相問訊，慰勞已，於一面坐。問摩訶迦旃延言：
 <lb n="0433a05" ed="Y"/>「何因何緣，王、王共諍？婆羅門、居士，婆羅門、居士共諍」？摩訶迦旃延答梵志言；「貪欲
 <lb n="0433a06" ed="Y"/>繫著因緣故，王、王共諍，婆羅門、居士，婆羅門、居士共諍」。梵志復問：「何因何緣，出家
@@ -1052,9 +1072,9 @@
 <lb n="0433a11" ed="Y"/>拘薩羅國舍衛城祇樹給孤獨園」。爾時，梵志從座起，整衣服，偏袒右肩，右膝著地，向佛所住
 <lb n="0433a12" ed="Y"/>處，合掌讚歎：「南無（南無）佛世尊、如來、應供、等正覺，能離欲貪諸繫著；悉能遠離貪欲
 <lb n="0433a13" ed="Y"/>縛及諸見欲——諍<note n="0433004" resp="釋印順" type="orig">「諍根本」，原本作「淨根本」，今改。</note>根本」。時持澡灌杖梵志，聞尊者摩訶迦旃延所說，歡喜隨喜，從座起去。</p></cb:div>
-<lb n="0433a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-2;1622(547)</cb:mulu><head><num type="各相應之經號" n="31-2">二</num><note n="0433005" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．二集》四品七經</bibl>。<bibl><title level="m">《增壹阿含經》</title>（一九）<title level="a">〈勸請品〉</title><ref type="taisho" target="#no:125.19.9">九經</ref></bibl>。</note>；<num type="雜含會編經號" n="1622">一六二二</num><num type="大正藏雜含經號" n="547">（五四七）</num></head>
+<lb n="0433a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-2;1622(547)</cb:mulu><head><num n="31-2" type="各相應之經號">二</num><note n="0433005" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．二集》四品七經</bibl>。<bibl><title level="m">《增壹阿含經》</title>（一九）<title level="a">〈勸請品〉</title><ref target="#no:125.19.9" type="taisho">九經</ref></bibl>。</note>；<num n="1622" type="雜含會編經號">一六二二</num><num n="547" type="大正藏雜含經號">（五四七）</num></head>
 <pb n="0434a" ed="Y" xml:id="Y32.0030.0434a"/>
-<lb n="0434a01" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。尊者摩訶迦旃延，在婆羅那烏泥池側，與眾多
+<lb n="0434a01" ed="Y"/><p xml:id="pY32p0434a0101" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。尊者摩訶迦旃延，在婆羅那烏泥池側，與眾多
 <lb n="0434a02" ed="Y"/>比丘，集於食堂，為持衣事。時有執杖梵志，年耆根熟，詣食堂所，於一面柱杖而住。須臾默然
 <lb n="0434a03" ed="Y"/>已，語諸比丘：「諸長老！汝等何故見老宿士，不共語、問訊、恭敬命坐」？時尊者摩訶迦旃延
 <lb n="0434a04" ed="Y"/>，亦在眾中坐。時尊者摩訶迦旃延語梵志言：「我法有宿老來，皆共語、問訊、恭敬禮拜，命之
@@ -1070,8 +1090,8 @@
 <lb n="0434a14" ed="Y"/>尊者所說義，我自省察，雖老則少；汝等雖少，成耆年法。世間多事，今便請還」。尊者摩訶迦
 <lb n="0434a15" ed="Y"/>旃延言：「梵志！汝自知時」。爾時，梵志聞尊者摩訶迦旃延所說，歡喜隨喜，還其本處。</p>
 <pb n="0435a" ed="Y" xml:id="Y32.0030.0435a"/></cb:div>
-<lb n="0435a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-3;1623(548)</cb:mulu><head><num n="31-3" type="各相應之經號">三</num><note n="0435008" resp="釋印順" type="orig"><bibl><title level="m">《中部》</title>（八四）<title level="m">《摩偷羅經》</title></bibl>。</note>；<num n="1623" type="雜含會編經號">一六二三</num><num type="大正藏雜含經號" n="548">（五四八）</num></head>
-<lb n="0435a02" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。尊者摩訶迦旃延，在稠林中住。時摩偷羅國王
+<lb n="0435a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-3;1623(548)</cb:mulu><head><num n="31-3" type="各相應之經號">三</num><note n="0435008" resp="釋印順" type="orig"><bibl><title level="m">《中部》</title>（八四）<title level="m">《摩偷羅經》</title></bibl>。</note>；<num n="1623" type="雜含會編經號">一六二三</num><num n="548" type="大正藏雜含經號">（五四八）</num></head>
+<lb n="0435a02" ed="Y"/><p xml:id="pY32p0435a0201" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。尊者摩訶迦旃延，在稠林中住。時摩偷羅國王
 <lb n="0435a03" ed="Y"/>，是西方王子，詣尊者摩訶迦旃延所，禮摩訶迦旃延足，退坐一面。問尊者摩訶迦旃延：「婆羅
 <lb n="0435a04" ed="Y"/>門自言：我第一、他人卑劣，我白、餘人黑，婆羅門清淨、非非婆羅門；是婆羅門子，從口生，
 <lb n="0435a05" ed="Y"/>婆羅門所化，是婆羅門所有。尊者摩訶迦旃延！此義云何」？尊者摩訶迦旃延語摩偷羅王言：「
@@ -1106,15 +1126,15 @@
 <lb n="0437a02" ed="Y"/>皆是世間言說，故有婆羅門勝、餘者卑劣，婆羅門白、餘者悉黑，婆羅門清淨、非非婆羅門；婆
 <lb n="0437a03" ed="Y"/>羅門生，生從口生，婆羅門化，婆羅門所有。皆是業真實依於業」。爾時，摩偷羅王聞尊者摩訶
 <lb n="0437a04" ed="Y"/>迦旃延所說，歡喜隨喜，作禮而去。</p></cb:div>
-<lb n="0437a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-4;1624(549)</cb:mulu><head><num type="各相應之經號" n="31-4">四</num><note n="0437010" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．十集》二六經</bibl>。</note>；<num n="1624" type="雜含會編經號">一六二四</num><num n="549" type="大正藏雜含經號">（五四九）</num></head>
-<lb n="0437a06" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，住阿槃提國拘羅羅咤
+<lb n="0437a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-4;1624(549)</cb:mulu><head><num n="31-4" type="各相應之經號">四</num><note n="0437010" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．十集》二六經</bibl>。</note>；<num n="1624" type="雜含會編經號">一六二四</num><num n="549" type="大正藏雜含經號">（五四九）</num></head>
+<lb n="0437a06" ed="Y"/><p xml:id="pY32p0437a0601" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，住阿槃提國拘羅羅咤
 <lb n="0437a07" ed="Y"/>精舍。尊者摩訶迦旃延，晨朝著衣持鉢，入拘羅羅咤<note n="0437011" resp="釋印順" type="orig">「拘羅羅咤」下，原本有「精舍」二字，今刪。</note>，次第乞食，至迦梨迦優婆夷舍。時優婆
 <lb n="0437a08" ed="Y"/>夷見尊者摩訶迦旃延，即敷床坐，請令就坐。前禮尊者摩訶迦旃延足，退住一面。白尊者摩訶迦
 <lb n="0437a09" ed="Y"/>旃延：「如世尊所說，答僧耆多童女所問，如世尊說僧耆多童女所問偈<note n="0437012" resp="釋印順" type="orig">經所引偈，見<bibl>（一八）<title level="a">〈魔相應〉</title>九經</bibl>。</note>：</p>
-<lb n="0437a10" ed="Y"/><lg type="abnormal"><l style="text-indent:3em">實義存於心，寂滅而不亂，降伏諸勇猛，可愛端正色。</l>
+<lb n="0437a10" ed="Y"/><lg xml:id="lgY32p0437a1001" type="abnormal"><l style="text-indent:3em">實義存於心，寂滅而不亂，降伏諸勇猛，可愛端正色。</l>
 <lb n="0437a11" ed="Y"/><l style="text-indent:3em">一心獨靜思，服食妙禪樂，是則為遠離，世間諸伴黨。</l>
 <lb n="0437a12" ed="Y"/><l style="text-indent:3em">世間諸伴黨，無習近我者。</l></lg>
-<lb n="0437a13" ed="Y"/><p style="text-indent:2em">尊者摩訶迦旃延！世尊此偈，其義云何」？尊者摩訶迦旃延語優婆夷言：「姊妹！有一沙門、婆
+<lb n="0437a13" ed="Y"/><p xml:id="pY32p0437a1301" style="text-indent:2em">尊者摩訶迦旃延！世尊此偈，其義云何」？尊者摩訶迦旃延語優婆夷言：「姊妹！有一沙門、婆
 <lb n="0437a14" ed="Y"/>羅門言：地一切入處正受，此則無上，為求此果。姊妹！若沙門、婆羅門於地一切入處正受，清
 <lb n="0437a15" ed="Y"/>淨鮮白者，則見其本，見患，見滅，見滅道跡。以見本、見患、見滅、見滅道跡故，得真實義存
 <pb n="0438a" ed="Y" xml:id="Y32.0030.0438a"/>
@@ -1123,16 +1143,16 @@
 <lb n="0438a03" ed="Y"/>門、婆羅門，乃至於識處一切入處正受，清淨鮮白者，見本、見患、見滅、見滅道跡。以見本、
 <lb n="0438a04" ed="Y"/>見患、見滅、見滅道跡故，是則實義存於心，寂滅而不亂，善見、善入。是故世尊答僧耆多童女
 <lb n="0438a05" ed="Y"/>所問偈：</p>
-<lb n="0438a06" ed="Y"/><lg type="abnormal"><l style="text-indent:3em">實義存於心，寂滅而不亂，降伏諸勇猛，可愛端正色。</l>
+<lb n="0438a06" ed="Y"/><lg xml:id="lgY32p0438a0601" type="abnormal"><l style="text-indent:3em">實義存於心，寂滅而不亂，降伏諸勇猛，可愛端正色。</l>
 <lb n="0438a07" ed="Y"/><l style="text-indent:3em">一心獨靜思，服食妙禪樂，是則為遠離，世間之伴黨。</l>
 <lb n="0438a08" ed="Y"/><l style="text-indent:3em">世間諸伴黨，無習近我者。</l></lg>
-<lb n="0438a09" ed="Y"/><p style="text-indent:2em">如是姊妹！我解世尊以如是義故，說如是偈」。優婆夷言：「善哉！尊者說真實義，唯願尊者受
+<lb n="0438a09" ed="Y"/><p xml:id="pY32p0438a0901" style="text-indent:2em">如是姊妹！我解世尊以如是義故，說如是偈」。優婆夷言：「善哉！尊者說真實義，唯願尊者受
 <lb n="0438a10" ed="Y"/>我請食」。時尊者摩訶迦旃延，默然受請。時迦梨迦優婆夷，知尊者摩訶迦旃延受請已，即辦種
 <lb n="0438a11" ed="Y"/>種淨美飲食，恭敬尊重，自手奉食。時優婆夷知尊者摩訶迦旃延食已，洗鉢，澡嗽訖，敷一卑坐
 <lb n="0438a12" ed="Y"/>，於尊者摩訶迦旃延前恭敬聽法。尊者摩訶迦旃延，為迦梨迦優婆夷種種說法，示教、照喜。示
 <lb n="0438a13" ed="Y"/>教照喜已，從座起而去。</p></cb:div>
-<lb n="0438a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-5;1625(550)</cb:mulu><head><num n="31-5" type="各相應之經號">五</num><note n="0438013" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．六集》二六經</bibl>。</note>；<num n="1625" type="雜含會編經號">一六二五</num><num type="大正藏雜含經號" n="550">（五五〇）</num></head>
-<lb n="0438a15" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，在舍衛國祇樹給孤獨
+<lb n="0438a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-5;1625(550)</cb:mulu><head><num n="31-5" type="各相應之經號">五</num><note n="0438013" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．六集》二六經</bibl>。</note>；<num n="1625" type="雜含會編經號">一六二五</num><num n="550" type="大正藏雜含經號">（五五〇）</num></head>
+<lb n="0438a15" ed="Y"/><p xml:id="pY32p0438a1501" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，在舍衛國祇樹給孤獨
 <pb n="0439a" ed="Y" xml:id="Y32.0030.0439a"/>
 <lb n="0439a01" ed="Y"/>園。尊者摩訶迦旃延語諸比丘：「佛世尊如來、應、等正覺所知所見，說六<note n="0439014" resp="釋印順" type="orig">「六」，原本作「於」，依宋本改。</note>法，出苦處昇於勝
 <lb n="0439a02" ed="Y"/>處，說一乘道淨諸眾生，離諸惱苦、憂悲悉滅，得真如法。何等為六？謂聖弟子念如來、應、等
@@ -1167,13 +1187,13 @@
 <lb n="0440a15" ed="Y"/>向涅槃。是名如來、應、等、正覺所知所見，說第六出苦處，昇於勝處，一乘道淨於眾生，離苦
 <pb n="0441a" ed="Y" xml:id="Y32.0030.0441a"/>
 <lb n="0441a01" ed="Y"/>惱，滅憂悲，得如實法」。尊者摩訶迦旃延說此經已，諸比丘聞其所說，歡喜奉行。</p></cb:div>
-<lb n="0441a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-6;1626(551)</cb:mulu><head><num type="各相應之經號" n="31-6">六</num><note n="0441017" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（二二）<title level="a">〈蘊相應〉</title>三經</bibl>。</note>；<num type="雜含會編經號" n="1626">一六二六</num><num type="大正藏雜含經號" n="551">（五五一）</num></head>
-<lb n="0441a03" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，住釋氏訶梨聚落精舍
+<lb n="0441a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-6;1626(551)</cb:mulu><head><num n="31-6" type="各相應之經號">六</num><note n="0441017" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（二二）<title level="a">〈蘊相應〉</title>三經</bibl>。</note>；<num n="1626" type="雜含會編經號">一六二六</num><num n="551" type="大正藏雜含經號">（五五一）</num></head>
+<lb n="0441a03" ed="Y"/><p xml:id="pY32p0441a0301" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，住釋氏訶梨聚落精舍
 <lb n="0441a04" ed="Y"/>。時訶梨聚落長者，詣尊者摩訶迦旃延所，稽首禮足，退坐一面。白尊者摩訶迦旃延：「如世尊
 <lb n="0441a05" ed="Y"/>義品答摩揵提所問偈<note n="0441018" resp="釋印順" type="orig">經中引偈，出<bibl>《<title level="m">小部</title>．<title level="a">經集</title>》四品九經</bibl>。</note>：</p>
-<lb n="0441a06" ed="Y"/><lg type="abnormal"><l style="text-indent:3em">斷一切諸流，亦塞其流源，聚落相習近，牟尼不稱歎。</l>
+<lb n="0441a06" ed="Y"/><lg xml:id="lgY32p0441a0601" type="abnormal"><l style="text-indent:3em">斷一切諸流，亦塞其流源，聚落相習近，牟尼不稱歎。</l>
 <lb n="0441a07" ed="Y"/><l style="text-indent:3em">虛空於五欲，永以不還滿；世間諍言訟，畢竟不復為。</l></lg>
-<lb n="0441a08" ed="Y"/><p style="text-indent:2em">尊者摩訶迦旃延！此偈有何義」？尊者摩訶迦旃延答長者言：「眼流者，眼識起貪，依眼界貪欲
+<lb n="0441a08" ed="Y"/><p xml:id="pY32p0441a0801" style="text-indent:2em">尊者摩訶迦旃延！此偈有何義」？尊者摩訶迦旃延答長者言：「眼流者，眼識起貪，依眼界貪欲
 <lb n="0441a09" ed="Y"/>流出，故名為流。耳；鼻；舌；身；意流者，謂意識起貪，依意界貪識流出，故名為流」。長者
 <lb n="0441a10" ed="Y"/>復問尊者摩訶迦旃延：「云何名為不流」？尊者迦旃延語長者言：「謂眼識，眼識所識色，依生
 <lb n="0441a11" ed="Y"/>愛喜，彼若盡、無欲、滅、息、沒，是名不流。耳；鼻；舌；身；意意識，意識所識法，依生貪
@@ -1192,13 +1212,13 @@
 <lb n="0442a08" ed="Y"/>功德，離貪，離欲，離愛，離念，離渴，是名空欲。說我繫著使，是名心法還復滿。彼阿羅漢比
 <lb n="0442a09" ed="Y"/>丘，諸漏已盡，斷其根本，如截多羅樹頭，於未來世更不復生，云何當復與他諍訟！是故世尊說
 <lb n="0442a10" ed="Y"/>義品，答摩揵提所問偈：</p>
-<lb n="0442a11" ed="Y"/><lg type="abnormal"><l style="text-indent:3em">若斷一切流，亦塞其流源，聚落相習近，牟尼不稱歎。</l>
+<lb n="0442a11" ed="Y"/><lg xml:id="lgY32p0442a1101" type="abnormal"><l style="text-indent:3em">若斷一切流，亦塞其流源，聚落相習近，牟尼不稱歎。</l>
 <lb n="0442a12" ed="Y"/><l style="text-indent:3em">虛空於諸欲，永已不還滿；不復與世間，共言語諍訟。</l></lg>
-<lb n="0442a13" ed="Y"/><p style="text-indent:2em">是名如來所說偈義分別也」。爾時，訶梨聚落長者，聞尊者摩訶迦旃延所說，歡喜隨喜，作禮而
+<lb n="0442a13" ed="Y"/><p xml:id="pY32p0442a1301" style="text-indent:2em">是名如來所說偈義分別也」。爾時，訶梨聚落長者，聞尊者摩訶迦旃延所說，歡喜隨喜，作禮而
 <lb n="0442a14" ed="Y"/>去。</p></cb:div>
 <lb n="0442a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-7;1627(552)</cb:mulu><head><num n="31-7" type="各相應之經號">七</num><note n="0442019" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（二二）<title level="a">〈蘊相應〉</title>四經</bibl>。</note>；<num n="1627" type="雜含會編經號">一六二七</num><num n="552" type="大正藏雜含經號">（五五二）</num></head>
 <pb n="0443a" ed="Y" xml:id="Y32.0030.0443a"/>
-<lb n="0443a01" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，住釋氏訶梨聚落精舍
+<lb n="0443a01" ed="Y"/><p xml:id="pY32p0443a0101" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，住釋氏訶梨聚落精舍
 <lb n="0443a02" ed="Y"/>。時訶梨聚落主長者，詣尊者摩訶迦旃延所，稽首禮足，退坐一面。白尊者摩訶迦旃延：「如世
 <lb n="0443a03" ed="Y"/>尊於界隔山天帝釋石窟說言：憍尸迦！若沙門、婆羅門，無上愛盡解脫，心正善解脫，究竟邊際
 <lb n="0443a04" ed="Y"/>，究竟無垢，究竟梵行，畢竟清淨。云何於此法律，究竟邊際，究竟無垢，究竟梵行，畢竟清淨
@@ -1206,8 +1226,8 @@
 <lb n="0443a06" ed="Y"/>、沒，於此法律究竟邊際，究竟無垢，究竟梵行，畢竟清淨。耳；鼻；舌；身；意；意識，意識
 <lb n="0443a07" ed="Y"/>所識法，相依生喜，彼若盡、（無欲）、滅、息、沒，比丘於此法律，（究竟邊際），究竟無垢
 <lb n="0443a08" ed="Y"/>，究竟梵行，畢竟清淨」。時訶梨聚落主長者，聞尊者摩訶迦旃延所說，歡喜隨喜，作禮而去。</p></cb:div>
-<lb n="0443a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-8;1628(553)</cb:mulu><head><num n="31-8" type="各相應之經號">八</num>；<num type="雜含會編經號" n="1628">一六二八</num><num n="553" type="大正藏雜含經號">（五五三）</num></head>
-<lb n="0443a10" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，在釋氏訶梨聚落。時
+<lb n="0443a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-8;1628(553)</cb:mulu><head><num n="31-8" type="各相應之經號">八</num>；<num n="1628" type="雜含會編經號">一六二八</num><num n="553" type="大正藏雜含經號">（五五三）</num></head>
+<lb n="0443a10" ed="Y"/><p xml:id="pY32p0443a1001" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，在釋氏訶梨聚落。時
 <lb n="0443a11" ed="Y"/><note n="0443020" resp="釋印順" type="orig">「時」，原本缺，依宋本補。</note>聚落主長者，詣尊者摩訶迦旃延所，稽首禮足，退坐一面。問尊者摩訶迦旃延：「如世尊界隔
 <lb n="0443a12" ed="Y"/>山石窟中，為天帝釋說言：憍尸迦！若沙門、婆羅門，無上愛盡解脫，心善解脫，究竟邊際<note n="0443021" resp="釋印順" type="orig">「究竟邊際」原本作「邊際究竟」，今改正。</note>，
 <lb n="0443a13" ed="Y"/>究竟無垢，究竟梵行，畢竟清淨。云何於此法律，究竟邊際，究竟無垢，究竟梵行，畢竟清淨」
@@ -1216,8 +1236,8 @@
 <pb n="0444a" ed="Y" xml:id="Y32.0030.0444a"/>
 <lb n="0444a01" ed="Y"/>。意界取心法境界繫著、使，若盡、離（欲）、滅、息、沒，於此法律，究竟邊際，究竟無垢，
 <lb n="0444a02" ed="Y"/>究竟梵行，畢竟清淨」。時訶梨聚落主長者，聞尊者摩訶迦旃延所說，歡喜隨喜，作禮而去。</p></cb:div>
-<lb n="0444a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-9;1629(554)</cb:mulu><head><num type="各相應之經號" n="31-9">九</num>；<num n="1629" type="雜含會編經號">一六二九</num><num n="554" type="大正藏雜含經號">（五五四）</num></head>
-<lb n="0444a04" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，住釋氏訶梨聚落。時
+<lb n="0444a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-9;1629(554)</cb:mulu><head><num n="31-9" type="各相應之經號">九</num>；<num n="1629" type="雜含會編經號">一六二九</num><num n="554" type="大正藏雜含經號">（五五四）</num></head>
+<lb n="0444a04" ed="Y"/><p xml:id="pY32p0444a0401" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，住釋氏訶梨聚落。時
 <lb n="0444a05" ed="Y"/>訶梨聚落主長者，身遭病苦。尊者摩訶迦旃延，聞訶梨聚落主長者身遭病苦。聞已，晨朝著衣持
 <lb n="0444a06" ed="Y"/>鉢，入訶梨聚落乞食，次第入訶梨聚落主長者舍。訶梨聚落主長者，遙見尊者摩訶迦旃延，從座
 <lb n="0444a07" ed="Y"/>欲起。尊者摩訶迦旃延見長者欲起，即告之言：「長者莫起！幸有餘座，我自可坐於餘座」。語
@@ -1240,8 +1260,8 @@
 <lb n="0445a08" ed="Y"/>自記說，得阿那含」。是時長者白尊者摩訶迦旃延：「願於此食」。尊者摩訶迦旃延，默然受請
 <lb n="0445a09" ed="Y"/>。訶梨聚落主長者，知尊者摩訶迦旃延受請已，具種種淨美食，自手供養。飯食訖，澡鉢洗嗽畢
 <lb n="0445a10" ed="Y"/>，為長者種種說法，示教、照喜。示教、照喜已，從座起去。</p></cb:div>
-<lb n="0445a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-10;1630(555)</cb:mulu><head><num type="各相應之經號" n="31-10">一〇</num>；<num type="雜含會編經號" n="1630">一六三〇</num><num type="大正藏雜含經號" n="555">（五五五）</num></head>
-<lb n="0445a12" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，於釋氏訶梨聚落住。
+<lb n="0445a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">31-10;1630(555)</cb:mulu><head><num n="31-10" type="各相應之經號">一〇</num>；<num n="1630" type="雜含會編經號">一六三〇</num><num n="555" type="大正藏雜含經號">（五五五）</num></head>
+<lb n="0445a12" ed="Y"/><p xml:id="pY32p0445a1201" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。爾時，尊者摩訶迦旃延，於釋氏訶梨聚落住。
 <lb n="0445a13" ed="Y"/>時有八城長者，名曰陀施，身遭病苦。尊者摩訶迦旃延，聞陀施長者身遭苦患，晨朝著衣持鉢，
 <lb n="0445a14" ed="Y"/>入八城乞食，次到陀施長者舍，如訶梨長者經廣說。</p>
 <lb n="0445a15" ed="Y"/>
@@ -1273,8 +1293,8 @@
 <pb n="0448a" ed="Y" xml:id="Y32.0030.0448a"/>
 <pb n="0449a" ed="Y" xml:id="Y32.0030.0449a"/>
 <lb n="0449a01" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">三二　阿難相應（一一經）</cb:mulu><head>三二　阿難相應<note n="0449001" resp="釋印順" type="orig"><title level="a">〈阿難相應〉</title>，共一一經。</note></head>
-<lb n="0449a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-1;1631(556)</cb:mulu><head><num type="各相應之經號" n="32-1">一</num>；<num type="雜含會編經號" n="1631">一六三一</num><num n="556" type="大正藏雜含經號">（五五六）</num></head>
-<lb n="0449a03" ed="Y"/><p style="text-indent:2em"><note n="0449002" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="20中" type="卷">卷二〇中</biblScope></bibl>。</note>如是我聞：一時，佛住娑祇城安禪林中。爾時，眾多比丘尼詣佛所，稽首禮足，退住一面
+<lb n="0449a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-1;1631(556)</cb:mulu><head><num n="32-1" type="各相應之經號">一</num>；<num n="1631" type="雜含會編經號">一六三一</num><num n="556" type="大正藏雜含經號">（五五六）</num></head>
+<lb n="0449a03" ed="Y"/><p xml:id="pY32p0449a0301" style="text-indent:2em"><note n="0449002" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="20中" type="卷">卷二〇中</biblScope></bibl>。</note>如是我聞：一時，佛住娑祇城安禪林中。爾時，眾多比丘尼詣佛所，稽首禮足，退住一面
 <lb n="0449a04" ed="Y"/>。爾時，世尊為眾多比丘尼，種種說法，示教、照喜；示教、照喜已，默然住。時諸比丘尼白佛
 <lb n="0449a05" ed="Y"/>言：「世尊！若無相心三昧，不踊<note n="0449003" resp="釋印順" type="orig">「踊」，原本作「勇」，依宋本改。下例。</note>、不沒，解脫已住，住已解脫。此無相心三昧，世尊說是何
 <lb n="0449a06" ed="Y"/>果、何功德」？佛告諸比丘尼：「若無相心三昧，不踊、不沒，解脫已住，住已解脫。此無相心
@@ -1285,9 +1305,9 @@
 <lb n="0449a11" ed="Y"/>弟子，同句、同味、同義，所謂第一句義。今諸比丘尼詣世尊所，以如是句、如是味、如是義問
 <lb n="0449a12" ed="Y"/>世尊，世尊亦以<note n="0449004" resp="釋印順" type="orig">「以」，原本作「已」，依宋本改。</note>如是句、如是味、如是義為我等說，如尊者阿難所說不異。是故奇特！大師及
 <lb n="0449a13" ed="Y"/>弟子，同句、同味、同義」。時諸比丘尼聞尊者阿難所說，歡喜隨喜，作禮而去。</p></cb:div>
-<lb n="0449a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-2;1632(557)</cb:mulu><head><num type="各相應之經號" n="32-2">二</num><note n="0449005" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．九集》三七經後分</bibl>。</note>；<num type="雜含會編經號" n="1632">一六三二</num><num n="557" type="大正藏雜含經號">（五五七）</num></head>
+<lb n="0449a14" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-2;1632(557)</cb:mulu><head><num n="32-2" type="各相應之經號">二</num><note n="0449005" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．九集》三七經後分</bibl>。</note>；<num n="1632" type="雜含會編經號">一六三二</num><num n="557" type="大正藏雜含經號">（五五七）</num></head>
 <pb n="0450a" ed="Y" xml:id="Y32.0030.0450a"/>
-<lb n="0450a01" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住拘睒彌國瞿師羅園。爾時，尊者阿難亦在彼住。時有闍知羅比丘尼，
+<lb n="0450a01" ed="Y"/><p xml:id="pY32p0450a0101" style="text-indent:2em">如是我聞：一時，佛住拘睒彌國瞿師羅園。爾時，尊者阿難亦在彼住。時有闍知羅比丘尼，
 <lb n="0450a02" ed="Y"/>詣尊者阿難所，稽首禮足，退坐一面。問尊者阿難：「若無相心三昧，不踊、不沒，解脫已住，
 <lb n="0450a03" ed="Y"/>住已解脫。尊者阿難！世尊說此何果、何功德」？尊者阿難語闍知羅比丘尼：「若無相心三昧不
 <lb n="0450a04" ed="Y"/>踊、不沒，解脫已住，住已解脫，世尊說是智果、智功德」。闍知羅比丘尼言：「奇哉尊者阿難
@@ -1295,10 +1315,10 @@
 <lb n="0450a06" ed="Y"/>尼，往詣佛所，問如此義。爾時，世尊以如是句、如是味、如是義，為諸比丘尼說。是故當知奇
 <lb n="0450a07" ed="Y"/>特！大師、弟子，所說同句、同味、同義，所謂第一句義」。時闍知羅比丘尼聞尊者阿難所說，
 <lb n="0450a08" ed="Y"/>歡喜隨喜，作禮而去。</p></cb:div>
-<lb n="0450a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-3;1633()</cb:mulu><head><num type="各相應之經號" n="32-3">三</num>；<num n="1633" type="雜含會編經號">一六三三</num>（　　　　）</head>
-<lb n="0450a10" ed="Y"/><p style="text-indent:2em">如闍知羅比丘尼，迦羅跋比丘尼亦爾。</p></cb:div>
-<lb n="0450a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-4;1634(558)</cb:mulu><head><num n="32-4" type="各相應之經號">四</num>；<num type="雜含會編經號" n="1634">一六三四</num><num type="大正藏雜含經號" n="558">（五五八）</num></head>
-<lb n="0450a12" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住俱睒彌國瞿師羅園。爾時，尊者阿難亦住俱睒彌國瞿師羅園。時有異
+<lb n="0450a09" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-3;1633()</cb:mulu><head><num n="32-3" type="各相應之經號">三</num>；<num n="1633" type="雜含會編經號">一六三三</num>（　　　　）</head>
+<lb n="0450a10" ed="Y"/><p xml:id="pY32p0450a1001" style="text-indent:2em">如闍知羅比丘尼，迦羅跋比丘尼亦爾。</p></cb:div>
+<lb n="0450a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-4;1634(558)</cb:mulu><head><num n="32-4" type="各相應之經號">四</num>；<num n="1634" type="雜含會編經號">一六三四</num><num n="558" type="大正藏雜含經號">（五五八）</num></head>
+<lb n="0450a12" ed="Y"/><p xml:id="pY32p0450a1201" style="text-indent:2em">如是我聞：一時，佛住俱睒彌國瞿師羅園。爾時，尊者阿難亦住俱睒彌國瞿師羅園。時有異
 <lb n="0450a13" ed="Y"/>比丘得無相心三昧，作是念：我若詣尊者阿難所，問尊者阿難：若比丘得無相心三昧，不踊、不
 <lb n="0450a14" ed="Y"/>沒，解脫已住，住已解脫，此無相心三昧何果？世尊說此何功德？尊者阿難若問我言：比丘！汝
 <lb n="0450a15" ed="Y"/>得此無相心三昧耶？我未曾有實問異答，我當隨逐尊者阿難，脫有餘人問此義者，因而得聞。彼
@@ -1307,9 +1327,9 @@
 <lb n="0451a02" ed="Y"/>不踊、不沒，解脫已住，住已解脫，世尊說此是何果、何功德」？尊者阿難問彼比丘言：「比丘
 <lb n="0451a03" ed="Y"/>！汝得此三昧」？彼比丘默然住。尊者阿難語彼比丘言：「若比丘得無相心三昧，不踊、不沒，
 <lb n="0451a04" ed="Y"/>解脫已住，住已解脫，世尊說此是智果、智功德」。尊者阿難說此法時，異比丘聞其所說，歡喜
-<lb n="0451a05" ed="Y"/>奉行<note n="0451006" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="20">卷二〇</biblScope></bibl>終。</note>。</p></cb:div>
-<lb n="0451a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-5;1635(559)</cb:mulu><head><num type="各相應之經號" n="32-5">五</num><note n="0451007" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．九集》三七經前分</bibl>。</note>；<num n="1635" type="雜含會編經號">一六三五</num><num type="大正藏雜含經號" n="559">（五五九）</num></head>
-<lb n="0451a07" ed="Y"/><p style="text-indent:2em"><note n="0451008" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="21" type="卷">卷二一</biblScope></bibl>。</note>如是我聞：一時，佛住波羅利弗妬路國。尊者阿難，及尊者迦摩，亦在波羅利弗妬路雞林
+<lb n="0451a05" ed="Y"/>奉行<note n="0451006" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="20" type="卷">卷二〇</biblScope></bibl>終。</note>。</p></cb:div>
+<lb n="0451a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-5;1635(559)</cb:mulu><head><num n="32-5" type="各相應之經號">五</num><note n="0451007" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．九集》三七經前分</bibl>。</note>；<num n="1635" type="雜含會編經號">一六三五</num><num n="559" type="大正藏雜含經號">（五五九）</num></head>
+<lb n="0451a07" ed="Y"/><p xml:id="pY32p0451a0701" style="text-indent:2em"><note n="0451008" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="21" type="卷">卷二一</biblScope></bibl>。</note>如是我聞：一時，佛住波羅利弗妬路國。尊者阿難，及尊者迦摩，亦在波羅利弗妬路雞林
 <lb n="0451a08" ed="Y"/>精舍。時尊者迦摩詣尊者阿難所，共相問訊，慰勞已，於一面坐。語尊者阿難：「奇哉！尊者阿
 <lb n="0451a09" ed="Y"/>難！有眼、有色，有耳、有聲，有鼻、有香，有舌、有味，有身、有觸，有意、有法，而有比丘
 <lb n="0451a10" ed="Y"/>有是等法，能不覺知。云何尊者阿難？彼比丘為有想不覺知，為無想故不覺知」？尊者阿難語迦
@@ -1322,8 +1342,8 @@
 <lb n="0452a01" ed="Y"/>心三昧，不踊、不沒，解脫已住，住已解脫，世尊說此是何果、何功德」？尊者阿難語迦摩比丘
 <lb n="0452a02" ed="Y"/>言：「若比丘無想心三昧不踊、不沒，解脫已住，住已解脫，世尊說此是智果、智功德」。時二
 <lb n="0452a03" ed="Y"/>正士共論議已，歡喜隨喜，各從座起去。</p></cb:div>
-<lb n="0452a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-6;1636(560)</cb:mulu><head><num n="32-6" type="各相應之經號">六</num><note n="0452009" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．四集》一七〇經</bibl>。</note>；<num n="1636" type="雜含會編經號">一六三六</num><num type="大正藏雜含經號" n="560">（五六〇）</num></head>
-<lb n="0452a05" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住俱睒彌國瞿師羅園。爾時，尊者阿難亦在彼住。時尊者阿難告諸比丘
+<lb n="0452a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-6;1636(560)</cb:mulu><head><num n="32-6" type="各相應之經號">六</num><note n="0452009" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．四集》一七〇經</bibl>。</note>；<num n="1636" type="雜含會編經號">一六三六</num><num n="560" type="大正藏雜含經號">（五六〇）</num></head>
+<lb n="0452a05" ed="Y"/><p xml:id="pY32p0452a0501" style="text-indent:2em">如是我聞：一時，佛住俱睒彌國瞿師羅園。爾時，尊者阿難亦在彼住。時尊者阿難告諸比丘
 <lb n="0452a06" ed="Y"/>：「若比丘、比丘尼，於我前自記說，我當善哉慰勞問訊，或求以四道。何等為四？若比丘、比
 <lb n="0452a07" ed="Y"/>丘尼坐，作如是住心，善住心，局住心，調伏心，止觀一心，等受分別，於法量度，修習、多修
 <lb n="0452a08" ed="Y"/>習已，得斷諸使。若有比丘、比丘尼，於我前自記說，我則如是善哉慰喻，或求是名說初道。復
@@ -1336,7 +1356,7 @@
 <lb n="0452a15" ed="Y"/>丘聞尊者阿難所說，歡喜奉行。</p>
 <pb n="0453a" ed="Y" xml:id="Y32.0030.0453a"/></cb:div>
 <lb n="0453a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-7;1637(561)</cb:mulu><head><num n="32-7" type="各相應之經號">七</num><note n="0453010" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（五一）<title level="a">〈神足相應〉</title>一五經</bibl>。</note>；<num n="1637" type="雜含會編經號">一六三七</num><num n="561" type="大正藏雜含經號">（五六一）</num></head>
-<lb n="0453a02" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住俱睒彌國瞿師羅園。尊者阿難亦在彼住。時有異婆羅門，詣尊者阿難
+<lb n="0453a02" ed="Y"/><p xml:id="pY32p0453a0201" style="text-indent:2em">如是我聞：一時，佛住俱睒彌國瞿師羅園。尊者阿難亦在彼住。時有異婆羅門，詣尊者阿難
 <lb n="0453a03" ed="Y"/>所，共相問訊，慰勞已，於一面坐。問尊者阿難：「何故於沙門瞿曇所修梵行」？尊者阿難語婆
 <lb n="0453a04" ed="Y"/>羅門：「為斷故」。復問：「尊者！何所斷」？答言：「斷愛」。復問：「尊者阿難！何所依而
 <lb n="0453a05" ed="Y"/>得斷愛」？答言：「婆羅門！依於欲而斷愛」。復問：「尊者阿難！豈非無邊際」？答言：「婆
@@ -1351,8 +1371,8 @@
 <lb n="0453a14" ed="Y"/>滅，向於捨，乃至愛盡。愛盡已，思惟則息。婆羅門！於意云何？此非邊際耶」？婆羅門言：「
 <lb n="0453a15" ed="Y"/>尊者阿難！此是邊際，非不邊際」。爾時婆羅門聞尊者阿難所說，歡喜隨喜，從座起去。</p>
 <pb n="0454a" ed="Y" xml:id="Y32.0030.0454a"/></cb:div>
-<lb n="0454a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-8;1638(562)</cb:mulu><head><num type="各相應之經號" n="32-8">八</num>；<num type="雜含會編經號" n="1638">一六三八</num><num n="562" type="大正藏雜含經號">（五六二）</num></head>
-<lb n="0454a02" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住拘睒彌國瞿師羅園。尊者阿難亦在彼住。爾時瞿師羅長者，詣尊者阿
+<lb n="0454a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-8;1638(562)</cb:mulu><head><num n="32-8" type="各相應之經號">八</num>；<num n="1638" type="雜含會編經號">一六三八</num><num n="562" type="大正藏雜含經號">（五六二）</num></head>
+<lb n="0454a02" ed="Y"/><p xml:id="pY32p0454a0201" style="text-indent:2em">如是我聞：一時，佛住拘睒彌國瞿師羅園。尊者阿難亦在彼住。爾時瞿師羅長者，詣尊者阿
 <lb n="0454a03" ed="Y"/>難所，稽首禮足，退坐一面。白尊者阿難：「云何名為世間說法者？云何名世間善向？云何名世
 <lb n="0454a04" ed="Y"/>間善到」？尊者阿難語瞿師羅長者：「我今問汝，隨意答我。長者！於意云何？若有說法，調伏
 <lb n="0454a05" ed="Y"/>貪欲，調伏瞋恚，調伏愚癡，得名世間說法者不」？長者答言：「尊者阿難！若有說法，能調伏
@@ -1361,9 +1381,9 @@
 <lb n="0454a08" ed="Y"/>」？長者答言：「尊者阿難！若調伏貪欲，已斷無餘，瞋恚、愚癡已斷無餘，是名善到」。尊者
 <lb n="0454a09" ed="Y"/>阿難答言：「長者！我試問汝，汝便真實答我，其義如此，當受持之」。瞿師羅長者聞尊者阿難
 <lb n="0454a10" ed="Y"/>所說，歡喜隨喜，作禮而去。</p></cb:div>
-<lb n="0454a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-9;1639(563)</cb:mulu><head><num n="32-9" type="各相應之經號">九</num><note n="0454011" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．三集》七四經</bibl>。</note>；<num type="雜含會編經號" n="1639">一六三九</num><num n="563" type="大正藏雜含經號">（五六三）</num></head>
-<lb n="0454a12" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住<note n="0454a1201" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0454a1201"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>舍離獼猴池側重閣講堂。尊者阿難亦在彼住。爾時，無畏離車是尼
-<lb n="0454a13" ed="Y"/>揵弟子，聰明童子離車是阿耆<note n="0454a1301" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0454a1301"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>弟子，俱往尊者阿難所，共相問訊，慰勞已，於一面坐。時無畏
+<lb n="0454a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-9;1639(563)</cb:mulu><head><num n="32-9" type="各相應之經號">九</num><note n="0454011" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．三集》七四經</bibl>。</note>；<num n="1639" type="雜含會編經號">一六三九</num><num n="563" type="大正藏雜含經號">（五六三）</num></head>
+<lb n="0454a12" ed="Y"/><p xml:id="pY32p0454a1201" style="text-indent:2em">如是我聞：一時，佛住<note n="0454a1201" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0454a1201"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>舍離獼猴池側重閣講堂。尊者阿難亦在彼住。爾時，無畏離車是尼
+<lb n="0454a13" ed="Y"/>揵弟子，聰明童子離車是阿耆<note n="0454a1301" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0454a1301"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>弟子，俱往尊者阿難所，共相問訊，慰勞已，於一面坐。時無畏
 <lb n="0454a14" ed="Y"/>離車語尊者阿難：「我師尼揵子，滅熾然法，清淨超出，為諸弟子說如是道：宿命之業，行苦行
 <lb n="0454a15" ed="Y"/>故，悉能吐之。身業不作，斷截橋梁，於未來世無復諸漏，諸業永盡。業永盡故，眾苦永盡；苦
 <pb n="0455a" ed="Y" xml:id="Y32.0030.0455a"/>
@@ -1376,14 +1396,14 @@
 <lb n="0455a07" ed="Y"/>熾然，乃至得如實法。復有三昧正受，於此苦聖諦如實知，此苦集聖諦、苦滅聖諦、苦滅道跡聖
 <lb n="0455a08" ed="Y"/>諦如實知。具足如是智慧，新<note n="0455012" resp="釋印順" type="orig">「新」，原本誤作「心」，今改。</note>業更不造，宿業漸已斷，得現正法，離諸熾然，不待時節，通達
 <lb n="0455a09" ed="Y"/>現見，生自覺智。離車！是名如來、應、等正覺所知所見，說第三離熾然，清淨超出，以一乘道
-<lb n="0455a10" ed="Y"/>淨眾生，離苦惱，滅憂悲，得如實法」。爾時，尼揵弟子離車無畏，默然住。爾時，阿耆<note n="0455a1001" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0455a1001"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>弟子
+<lb n="0455a10" ed="Y"/>淨眾生，離苦惱，滅憂悲，得如實法」。爾時，尼揵弟子離車無畏，默然住。爾時，阿耆<note n="0455a1001" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0455a1001"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>弟子
 <lb n="0455a11" ed="Y"/>離車聰慧，重語離車無畏言：「怪哉無畏！何默然住？於如來、應、等正覺所說，所知所見善說
 <lb n="0455a12" ed="Y"/>法，聞不隨喜耶」？離車無畏答言：「我思惟其義，故默然住耳。誰聞世尊沙門瞿曇所說法不隨
 <lb n="0455a13" ed="Y"/>喜者！若有聞沙門瞿曇說法而不隨喜者，此則愚夫，長夜當受非義不饒益苦」。時尼揵弟子離車
-<lb n="0455a14" ed="Y"/>無畏，阿耆<note n="0455a1401" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0455a1401"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>弟子聰慧，重聞佛所說法，尊者阿難陀所說，歡喜隨喜，從座起去。</p></cb:div>
+<lb n="0455a14" ed="Y"/>無畏，阿耆<note n="0455a1401" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0455a1401"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>弟子聰慧，重聞佛所說法，尊者阿難陀所說，歡喜隨喜，從座起去。</p></cb:div>
 <lb n="0455a15" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-10;1640(564)</cb:mulu><head><num n="32-10" type="各相應之經號">一〇</num><note n="0455013" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．四集》一五九經</bibl>。</note>；<num n="1640" type="雜含會編經號">一六四〇</num><num n="564" type="大正藏雜含經號">（五六四）</num></head>
 <pb n="0456a" ed="Y" xml:id="Y32.0030.0456a"/>
-<lb n="0456a01" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。尊者阿難亦在彼住。時有異比丘尼，於尊者阿
+<lb n="0456a01" ed="Y"/><p xml:id="pY32p0456a0101" style="text-indent:2em">如是我聞：一時，佛住舍衛國祇樹給孤獨園。尊者阿難亦在彼住。時有異比丘尼，於尊者阿
 <lb n="0456a02" ed="Y"/>難所起染著心，遣使白尊者阿難：「我身遇病苦，唯願尊者哀愍見看」！尊者阿難晨朝著衣持鉢
 <lb n="0456a03" ed="Y"/>，往彼比丘尼所。彼比丘尼遙見尊者阿難來，露身體，臥床上。尊者阿難遙見彼比丘尼身，即自
 <lb n="0456a04" ed="Y"/>攝<g ref="#CB00866"/>諸根，迴身背住。彼比丘尼見尊者阿難，攝<g ref="#CB00866"/>諸根，迴身背住，即自慚愧，起著衣服。敷坐
@@ -1403,15 +1423,15 @@
 <lb n="0457a02" ed="Y"/>姊妹！云何依愛斷愛？謂聖弟子聞某尊者、某尊者弟子，盡諸有漏，乃至自知不受後有，我等何
 <lb n="0457a03" ed="Y"/>不盡諸有漏，乃至自知不受後有？彼於爾時，能斷諸有漏，乃至自知不受後有。姊妹！是名依愛
 <lb n="0457a04" ed="Y"/>斷愛。姊妹！無所行者，斷截婬欲和合橋梁」。</p>
-<lb n="0457a05" ed="Y"/><p style="text-indent:2em">尊者阿難說是法時，彼比丘尼遠塵、離垢，得法眼淨。彼比丘尼見法，得法，覺法，入法，
+<lb n="0457a05" ed="Y"/><p xml:id="pY32p0457a0501" style="text-indent:2em">尊者阿難說是法時，彼比丘尼遠塵、離垢，得法眼淨。彼比丘尼見法，得法，覺法，入法，
 <lb n="0457a06" ed="Y"/>度狐疑，不由於他，於正法律心得無畏。禮尊者阿難足，白尊者阿難：「我今發露悔過，愚癡
 <lb n="0457a07" ed="Y"/>、不善，脫作如是不流類事。今於尊者阿難所，自見過，自知過，發露懺悔，哀愍故」！尊者阿
 <lb n="0457a08" ed="Y"/>難語比丘尼：「汝今真實自見罪，自知罪，愚癡、不善。汝自知作不類之罪，汝今自知自見而悔
 <lb n="0457a09" ed="Y"/>過，於未來世得具足戒。我今受汝悔過，哀愍故，令汝善法增長，終不退減<note n="0457015" resp="釋印順" type="orig">「減」，原本作「滅」，依宋本改。下例。</note>。所以者何？若有
 <lb n="0457a10" ed="Y"/>自見罪，自知罪，能悔過者，於未來世得具足戒，善法增長，終不退減」。尊者阿難為彼比丘尼
 <lb n="0457a11" ed="Y"/>種種說法，示教照喜已，從座起去。</p></cb:div>
-<lb n="0457a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-11;1641(565)</cb:mulu><head><num n="32-11" type="各相應之經號">一一</num><note n="0457016" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．四集》一九四經</bibl>。</note>；<num type="雜含會編經號" n="1641">一六四一</num><num type="大正藏雜含經號" n="565">（五六五）</num></head>
-<lb n="0457a13" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛在橋池人間遊行，與尊者阿難俱，至婆頭聚落國北身恕林中。爾時，婆
+<lb n="0457a12" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">32-11;1641(565)</cb:mulu><head><num n="32-11" type="各相應之經號">一一</num><note n="0457016" resp="釋印順" type="orig"><bibl>《<title level="m">增支部</title>．四集》一九四經</bibl>。</note>；<num n="1641" type="雜含會編經號">一六四一</num><num n="565" type="大正藏雜含經號">（五六五）</num></head>
+<lb n="0457a13" ed="Y"/><p xml:id="pY32p0457a1301" style="text-indent:2em">如是我聞：一時，佛在橋池人間遊行，與尊者阿難俱，至婆頭聚落國北身恕林中。爾時，婆
 <lb n="0457a14" ed="Y"/>頭聚落諸童子，聞尊者阿難橋池人間遊行，住婆頭聚落國北身恕林中。聞已，相呼聚集，往詣尊
 <lb n="0457a15" ed="Y"/>者阿難所，稽首禮尊者阿難足，退坐一面。時尊者阿難語諸童子言：「帝<note n="0457017" resp="釋印順" type="orig">「帝種」，宋本作「苦種」。下例。</note>種！如來、應、等正
 <pb n="0458a" ed="Y" xml:id="Y32.0030.0458a"/>
@@ -1457,13 +1477,13 @@
 <lb n="0460a07" ed="Y"/></cb:div></cb:div>
 <pb n="0461a" ed="Y" xml:id="Y32.0030.0461a"/>
 <lb n="0461a01" ed="Y"/><cb:div type="other"><cb:mulu level="2" type="其他">三三　質多羅相應（一〇經）</cb:mulu><head>三三　質多羅相應<note n="0461001" resp="釋印順" type="orig"><title level="a">〈質多羅相應〉</title>，共一〇經。與<bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title></bibl>相當。</note></head>
-<lb n="0461a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-1;1642(566)</cb:mulu><head><num type="各相應之經號" n="33-1">一</num><note n="0461002" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>五經</bibl>。</note>；<num n="1642" type="雜含會編經號">一六四二</num><num n="566" type="大正藏雜含經號">（五六六）</num></head>
-<lb n="0461a03" ed="Y"/><p style="text-indent:2em"><note n="0461003" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope type="卷" n="21中">卷二一中</biblScope></bibl>。</note>如是我聞：一時，佛住菴羅聚落菴羅林中，與眾上座比丘俱。時有質多羅長者，詣諸上座
+<lb n="0461a02" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-1;1642(566)</cb:mulu><head><num n="33-1" type="各相應之經號">一</num><note n="0461002" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>五經</bibl>。</note>；<num n="1642" type="雜含會編經號">一六四二</num><num n="566" type="大正藏雜含經號">（五六六）</num></head>
+<lb n="0461a03" ed="Y"/><p xml:id="pY32p0461a0301" style="text-indent:2em"><note n="0461003" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="21中" type="卷">卷二一中</biblScope></bibl>。</note>如是我聞：一時，佛住菴羅聚落菴羅林中，與眾上座比丘俱。時有質多羅長者，詣諸上座
 <lb n="0461a04" ed="Y"/>比丘，稽首禮足，退坐一面。時諸上座比丘，為質多羅長者種種說法，示教、照喜。種種說法，
 <lb n="0461a05" ed="Y"/>示教、照喜已，默然住。時質多羅長者稽首禮諸上座比丘足，往詣那伽達多比丘房，稽首禮那伽
 <lb n="0461a06" ed="Y"/>達多比丘足，退坐一面。時那伽達多比丘問質多羅長者：「如所說<note n="0461004" resp="釋印順" type="orig">經中引偈，見<bibl>《<title level="m">小部</title>．<title level="a">自說</title>》七品五經</bibl>。</note>：</p>
-<lb n="0461a07" ed="Y"/><lg type="abnormal"><l style="text-indent:3em">枝青以白覆，一輻轉之車，離結觀察來，斷流不復縛。</l></lg>
-<lb n="0461a08" ed="Y"/><p style="text-indent:2em">長者！此偈有何義」？質多羅長者言：「尊者那伽達多！世尊說此偈耶」？答言：「如是」。質
+<lb n="0461a07" ed="Y"/><lg xml:id="lgY32p0461a0701" type="abnormal"><l style="text-indent:3em">枝青以白覆，一輻轉之車，離結觀察來，斷流不復縛。</l></lg>
+<lb n="0461a08" ed="Y"/><p xml:id="pY32p0461a0801" style="text-indent:2em">長者！此偈有何義」？質多羅長者言：「尊者那伽達多！世尊說此偈耶」？答言：「如是」。質
 <lb n="0461a09" ed="Y"/>多羅長者語尊者那伽達多言：「尊者！須臾默然，我當思惟此義」。須臾默然思惟已，語尊者那
 <lb n="0461a10" ed="Y"/>伽達多言：「青者，謂戒也。白覆，謂解脫也。一輻者，身念也。轉者，轉出也。車者，止觀也
 <lb n="0461a11" ed="Y"/>。離結者，有三種結，謂貪、恚、癡。彼阿羅漢諸漏已盡，已滅、已知，已斷根本，如截多羅樹
@@ -1472,12 +1492,12 @@
 <lb n="0461a14" ed="Y"/>，謂三縛——貪欲縛，瞋恚縛，愚癡縛。彼阿羅漢比丘，諸漏已盡，已斷、已知，斷其根本，如
 <pb n="0462a" ed="Y" xml:id="Y32.0030.0462a"/>
 <lb n="0462a01" ed="Y"/>截多羅樹頭，更不復生，於未來世成不起法。是故尊者那伽達多！世尊說此偈：</p>
-<lb n="0462a02" ed="Y"/><lg type="abnormal"><l style="text-indent:3em">枝青以白覆，一輻轉之車，離結觀察來，斷流不復縛。</l></lg>
-<lb n="0462a03" ed="Y"/><p style="text-indent:2em">此世尊所說偈，我已分別也」。尊者那伽達多問質多羅長者言：「此義汝先聞耶」？答言：「不
+<lb n="0462a02" ed="Y"/><lg xml:id="lgY32p0462a0201" type="abnormal"><l style="text-indent:3em">枝青以白覆，一輻轉之車，離結觀察來，斷流不復縛。</l></lg>
+<lb n="0462a03" ed="Y"/><p xml:id="pY32p0462a0301" style="text-indent:2em">此世尊所說偈，我已分別也」。尊者那伽達多問質多羅長者言：「此義汝先聞耶」？答言：「不
 <lb n="0462a04" ed="Y"/>聞」。尊者那伽達多言：「長者！汝得善利，於此甚深佛法，賢<note n="0462007" resp="釋印順" type="orig">「賢」，疑「現」。</note>聖慧眼得入」。時質多羅長者
 <lb n="0462a05" ed="Y"/>聞尊者那伽達多所說，歡喜隨喜，作禮而去。</p></cb:div>
-<lb n="0462a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-2;1643(567)</cb:mulu><head><num type="各相應之經號" n="33-2">二</num><note n="0462008" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>七經</bibl>。</note>；<num n="1643" type="雜含會編經號">一六四三</num><num type="大正藏雜含經號" n="567">（五六七）</num></head>
-<lb n="0462a07" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林精舍，與眾多上座比丘俱。時有質多羅長者，詣諸上
+<lb n="0462a06" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-2;1643(567)</cb:mulu><head><num n="33-2" type="各相應之經號">二</num><note n="0462008" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>七經</bibl>。</note>；<num n="1643" type="雜含會編經號">一六四三</num><num n="567" type="大正藏雜含經號">（五六七）</num></head>
+<lb n="0462a07" ed="Y"/><p xml:id="pY32p0462a0701" style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林精舍，與眾多上座比丘俱。時有質多羅長者，詣諸上
 <lb n="0462a08" ed="Y"/>座比丘所，稽首禮足，退坐一面。時諸上座比丘，為質多羅長者種種說法，示教、照喜；示教、
 <lb n="0462a09" ed="Y"/>照喜已，默然住。時質多羅長者，詣尊者那伽達多比丘所，稽首禮足，退坐一面。尊者那伽達多
 <lb n="0462a10" ed="Y"/>告質多羅長者：「有無量心三昧，無相心三昧，無所有心三昧，空心三昧。云何長者！此法為種
@@ -1497,8 +1517,8 @@
 <lb n="0463a08" ed="Y"/>無諍者空於貪，空於恚、癡，空常住、不變易，空非我、非我所。是名法一義、種種味」。尊者
 <lb n="0463a09" ed="Y"/>那伽達多問言：「云何長者！此義汝先所聞耶」？答言：「尊者！不聞」。復告長者：「汝得大
 <lb n="0463a10" ed="Y"/>利，於甚深佛法，現聖<note n="0463009" resp="釋印順" type="orig">「聖」字上原本有「賢」，依宋本刪。</note>慧眼得入」。質多羅長者聞尊者那伽達多所說，歡喜隨喜，作禮而去。</p></cb:div>
-<lb n="0463a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-3;1644(568)</cb:mulu><head><num n="33-3" type="各相應之經號">三</num><note n="0463010" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>六經</bibl>。</note>；<num type="雜含會編經號" n="1644">一六四四</num><num type="大正藏雜含經號" n="568">（五六八）</num></head>
-<lb n="0463a12" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林中，與諸上座比丘俱。時有質多羅長者，詣諸上座比
+<lb n="0463a11" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-3;1644(568)</cb:mulu><head><num n="33-3" type="各相應之經號">三</num><note n="0463010" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>六經</bibl>。</note>；<num n="1644" type="雜含會編經號">一六四四</num><num n="568" type="大正藏雜含經號">（五六八）</num></head>
+<lb n="0463a12" ed="Y"/><p xml:id="pY32p0463a1201" style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林中，與諸上座比丘俱。時有質多羅長者，詣諸上座比
 <lb n="0463a13" ed="Y"/>丘所，禮諸上座已，詣尊者伽摩比丘所，稽首禮足，退坐一面。白尊者伽摩比丘：「所謂行者，
 <lb n="0463a14" ed="Y"/>云何名行」？伽摩比丘言：「行者，謂三行——身行，口行，意行」。復問：「云何身行？云何
 <lb n="0463a15" ed="Y"/>口行？云何意行」？答言：「長者！出息、入息，名為身行。有覺、有觀，名為口行。想、思，
@@ -1508,10 +1528,10 @@
 <lb n="0464a03" ed="Y"/>有觀故，則口語，是故有覺、有觀是口行。想、思是意行，依於心，屬於心，依心轉，是故想、
 <lb n="0464a04" ed="Y"/>思是意行」。復問：「尊者〕<note n="0464011" resp="釋印順" type="orig">重複，應刪。</note>！覺、觀已，發口語，是（故）覺、觀名為口行。想、思是心數
 <lb n="0464a05" ed="Y"/>法，依於心，屬於心想<note n="0464012" resp="釋印順" type="orig">「想」，宋本作「相」。</note>轉，是故想、思名為意行」。復問：「尊者！有幾法？</p>
-<lb n="0464a06" ed="Y"/><lg type="abnormal"><l style="text-indent:3em">若人捨身時，彼身屍臥地，棄於丘塚間，無心如木石」。</l></lg>
-<lb n="0464a07" ed="Y"/><p style="text-indent:2em">答言：「長者！</p>
-<lb n="0464a08" ed="Y"/><lg type="abnormal"><l style="text-indent:3em">壽、暖及與識，捨身時俱捨，彼身棄塚間，無心如木石」。</l></lg>
-<lb n="0464a09" ed="Y"/><p style="text-indent:2em">復問：「尊者！若死、若入滅盡正受，有差別不」？答：「捨於壽、暖，諸根悉壞，身命分
+<lb n="0464a06" ed="Y"/><lg xml:id="lgY32p0464a0601" type="abnormal"><l style="text-indent:3em">若人捨身時，彼身屍臥地，棄於丘塚間，無心如木石」。</l></lg>
+<lb n="0464a07" ed="Y"/><p xml:id="pY32p0464a0701" style="text-indent:2em">答言：「長者！</p>
+<lb n="0464a08" ed="Y"/><lg xml:id="lgY32p0464a0801" type="abnormal"><l style="text-indent:3em">壽、暖及與識，捨身時俱捨，彼身棄塚間，無心如木石」。</l></lg>
+<lb n="0464a09" ed="Y"/><p xml:id="pY32p0464a0901" style="text-indent:2em">復問：「尊者！若死、若入滅盡正受，有差別不」？答：「捨於壽、暖，諸根悉壞，身命分
 <lb n="0464a10" ed="Y"/>離，是名為死。滅盡定者，身、口、意行滅，不捨壽命，不離於暖，諸根不壞，身命相屬，此則
 <lb n="0464a11" ed="Y"/>命終、入滅正受差別之相」。復問：「尊者！云何入滅正受」？答言：「長者！入滅正受，不言
 <lb n="0464a12" ed="Y"/>我入滅正受，我當入滅正受。然先作如是漸息方便，如先方便向入正受」。復問：「尊者！入滅
@@ -1526,8 +1546,8 @@
 <lb n="0465a05" ed="Y"/>。復問：「尊者！入滅正受時，為作幾法」？答言：「長者！此應先問，何故今問？然當為汝說
 <lb n="0465a06" ed="Y"/>：比丘入滅正受者，作於二法，止與<note n="0465013" resp="釋印順" type="orig">「與」，原本作「以」，今改。</note>觀」。時質多羅長者聞尊者迦摩所說，歡喜隨喜，作禮而
 <lb n="0465a07" ed="Y"/>去。</p></cb:div>
-<lb n="0465a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-4;1645(569)</cb:mulu><head><num type="各相應之經號" n="33-4">四</num><note n="0465014" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>二經</bibl>。</note>；<num type="雜含會編經號" n="1645">一六四五</num><num type="大正藏雜含經號" n="569">（五六九）</num></head>
-<lb n="0465a09" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林中，與眾多上座比丘俱。時質多羅長者，詣諸上座比
+<lb n="0465a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-4;1645(569)</cb:mulu><head><num n="33-4" type="各相應之經號">四</num><note n="0465014" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>二經</bibl>。</note>；<num n="1645" type="雜含會編經號">一六四五</num><num n="569" type="大正藏雜含經號">（五六九）</num></head>
+<lb n="0465a09" ed="Y"/><p xml:id="pY32p0465a0901" style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林中，與眾多上座比丘俱。時質多羅長者，詣諸上座比
 <lb n="0465a10" ed="Y"/>丘所，稽首禮足，於一面坐。諸上座比丘，為質多羅長者種種說法，示教、照喜；示教、照喜已
 <lb n="0465a11" ed="Y"/>，默然住。時質多羅長者從座起，偏袒右肩，右膝著地，合十指掌，請諸上座言：「唯願諸尊受
 <lb n="0465a12" ed="Y"/>我薄食」！時諸上座默然受請。時彼長者知諸上座默然受請已，禮足而去。還歸自家，辦種種飲
@@ -1542,8 +1562,8 @@
 <lb n="0466a05" ed="Y"/>床，於上座前坐聽法。爾時，上座為長者種種說法，示教、照喜已，從座起去。時諸上座於路中
 <lb n="0466a06" ed="Y"/>，語梨犀達多：「善哉！善哉！梨犀達多比丘！汝真辯捷，知事而說。若於餘時，汝應常如此應
 <lb n="0466a07" ed="Y"/>時（說）」。諸上座聞梨犀達多所說，歡喜奉行。</p></cb:div>
-<lb n="0466a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-5;1646(570)</cb:mulu><head><num n="33-5" type="各相應之經號">五</num><note n="0466015" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>三經</bibl>。</note>；<num type="雜含會編經號" n="1646">一六四六</num><num n="570" type="大正藏雜含經號">（五七〇）</num></head>
-<lb n="0466a09" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林中，與眾多上座比丘俱。時質多羅長者，詣諸上座所
+<lb n="0466a08" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-5;1646(570)</cb:mulu><head><num n="33-5" type="各相應之經號">五</num><note n="0466015" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>三經</bibl>。</note>；<num n="1646" type="雜含會編經號">一六四六</num><num n="570" type="大正藏雜含經號">（五七〇）</num></head>
+<lb n="0466a09" ed="Y"/><p xml:id="pY32p0466a0901" style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林中，與眾多上座比丘俱。時質多羅長者，詣諸上座所
 <lb n="0466a10" ed="Y"/>，稽首禮足，退坐一面。白諸上座言：「諸世間所見，或說有我，或說眾生，或說壽命，或說世
 <lb n="0466a11" ed="Y"/>間吉凶，云何尊者！此諸異見，何本？何集？何生？何轉」？時諸上座默然不答。如是三問，亦
 <lb n="0466a12" ed="Y"/>三默然。時有一下座比丘，名梨犀達多，白諸上座言：「我欲答彼長者所問」。諸上座言：「善
@@ -1560,15 +1580,15 @@
 <lb n="0467a07" ed="Y"/>！若能住此菴羅林中，我盡形壽供養——衣服、飲食、隨病湯藥」。尊者梨犀達多默然受請。時
 <lb n="0467a08" ed="Y"/>尊者梨犀達多，受質多羅長者請，供養障礙故，久不詣世尊所。時諸上座比丘，為質多羅長者種
 <lb n="0467a09" ed="Y"/>種說法，示教照喜；示教照喜已，質多羅長者歡喜隨喜，作禮而去。</p></cb:div>
-<lb n="0467a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-6;1647(571)</cb:mulu><head><num n="33-6" type="各相應之經號">六</num><note n="0467016" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>四經</bibl>。</note>；<num type="雜含會編經號" n="1647">一六四七</num><num type="大正藏雜含經號" n="571">（五七一）</num></head>
-<lb n="0467a11" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林中，與眾多上座比丘俱。時有質多羅長者，詣諸上座
+<lb n="0467a10" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-6;1647(571)</cb:mulu><head><num n="33-6" type="各相應之經號">六</num><note n="0467016" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>四經</bibl>。</note>；<num n="1647" type="雜含會編經號">一六四七</num><num n="571" type="大正藏雜含經號">（五七一）</num></head>
+<lb n="0467a11" ed="Y"/><p xml:id="pY32p0467a1101" style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林中，與眾多上座比丘俱。時有質多羅長者，詣諸上座
 <lb n="0467a12" ed="Y"/>所，稽首禮足，退坐一面。白諸上座比丘言：「唯願諸尊，於牛牧中受我請食」！時諸上座，默
 <lb n="0467a13" ed="Y"/>然受請。質多羅長者，知諸上座默然受請已，即自還家。星夜備具種種飲食，晨朝敷座，遣使白
 <lb n="0467a14" ed="Y"/>諸上座：「時到」。諸上座著衣持鉢，至牛牧中，質多羅長者舍，就座而坐。時質多羅長者，自
 <lb n="0467a15" ed="Y"/>手供養種種飲食。食已，洗鉢，澡嗽畢，質多羅長者敷一卑床，於上座前坐聽法。時諸上座，為
 <pb n="0468a" ed="Y" xml:id="Y32.0030.0468a"/>
 <lb n="0468a01" ed="Y"/>長者說種種法，示教、照喜；示教、照喜已，從座起去。質多羅長者，亦隨後去。</p>
-<lb n="0468a02" ed="Y"/><p style="text-indent:2em">諸上座食諸酥、酪、蜜飽滿，於春後月，熱時行路悶極。爾時，有一下座比丘，名摩訶迦，
+<lb n="0468a02" ed="Y"/><p xml:id="pY32p0468a0201" style="text-indent:2em">諸上座食諸酥、酪、蜜飽滿，於春後月，熱時行路悶極。爾時，有一下座比丘，名摩訶迦，
 <lb n="0468a03" ed="Y"/>白諸上座：「今日大熱，我欲起雲雨微風，可爾不」？諸上座答言：「汝能爾者，佳」！時摩訶
 <lb n="0468a04" ed="Y"/>迦即入三昧，如其正受，應時雲起，細雨微下，涼風亹亹，從四方來。至精舍門，尊者摩訶迦語
 <lb n="0468a05" ed="Y"/>諸上座言：「所作可止」？答言：「可止」。時尊者摩訶迦，即止神通，還於自房。時質多羅長
@@ -1585,9 +1605,9 @@
 <pb n="0469a" ed="Y" xml:id="Y32.0030.0469a"/>
 <lb n="0469a01" ed="Y"/>藥」。尊者摩訶迦有行因緣故，不受其請。質多羅長者聞說法已，歡喜隨喜，即從座起，作禮而
 <lb n="0469a02" ed="Y"/>去。</p>
-<lb n="0469a03" ed="Y"/><p style="text-indent:2em">尊者摩訶迦不欲令供養利障罪故，即從座起去，遂不復還。</p></cb:div>
-<lb n="0469a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-7;1648(572)</cb:mulu><head><num type="各相應之經號" n="33-7">七</num><note n="0469019" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>一經</bibl>。</note>；<num type="雜含會編經號" n="1648">一六四八</num><num type="大正藏雜含經號" n="572">（五七二）</num></head>
-<lb n="0469a05" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住菴羅林中，與眾多上座比丘俱。爾時，眾多上座比丘，集於食堂，作
+<lb n="0469a03" ed="Y"/><p xml:id="pY32p0469a0301" style="text-indent:2em">尊者摩訶迦不欲令供養利障罪故，即從座起去，遂不復還。</p></cb:div>
+<lb n="0469a04" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-7;1648(572)</cb:mulu><head><num n="33-7" type="各相應之經號">七</num><note n="0469019" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>一經</bibl>。</note>；<num n="1648" type="雜含會編經號">一六四八</num><num n="572" type="大正藏雜含經號">（五七二）</num></head>
+<lb n="0469a05" ed="Y"/><p xml:id="pY32p0469a0501" style="text-indent:2em">如是我聞：一時，佛住菴羅林中，與眾多上座比丘俱。爾時，眾多上座比丘，集於食堂，作
 <lb n="0469a06" ed="Y"/>如是論議：「諸尊！於意云何？謂眼繫色耶？色繫眼耶？如是耳、聲；鼻、香；舌、味；身、觸
 <lb n="0469a07" ed="Y"/>；意、法：為意繫法耶？法繫意耶」？時質多羅長者行有所營，便過精舍，見諸上座比丘，集於
 <lb n="0469a08" ed="Y"/>食堂。即便前禮諸上座足，禮足已，問言：「尊者！集於食堂，論說何法」？諸上座答言：「長
@@ -1599,26 +1619,26 @@
 <lb n="0469a14" ed="Y"/>非白牛繫黑牛，然彼軛鞅，是其繫也」。「如是尊者！非眼繫色，非色繫眼；乃至非意繫法，非
 <lb n="0469a15" ed="Y"/>法繫意。然其中間，欲貪是其繫也」。時質多羅長者，聞諸上座所說，歡喜隨喜，作禮而去。</p>
 <pb n="0470a" ed="Y" xml:id="Y32.0030.0470a"/></cb:div>
-<lb n="0470a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-8;1649(573)</cb:mulu><head><num n="33-8" type="各相應之經號">八</num><note n="0470020" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>九經</bibl>。</note>；<num type="雜含會編經號" n="1649">一六四九</num><num type="大正藏雜含經號" n="573">（五七三）</num></head>
-<lb n="0470a02" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住菴羅林中。時有阿耆<note n="0470a0201" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a0201"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>外道，是質多羅長者先人親厚，來詣質多羅長
-<lb n="0470a03" ed="Y"/>者所，共相問訊，慰勞已，於一面住。質多羅長者問阿耆<note n="0470a0301" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a0301"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>外道：「汝出家幾時」？答言：「長
+<lb n="0470a01" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-8;1649(573)</cb:mulu><head><num n="33-8" type="各相應之經號">八</num><note n="0470020" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>九經</bibl>。</note>；<num n="1649" type="雜含會編經號">一六四九</num><num n="573" type="大正藏雜含經號">（五七三）</num></head>
+<lb n="0470a02" ed="Y"/><p xml:id="pY32p0470a0201" style="text-indent:2em">如是我聞：一時，佛住菴羅林中。時有阿耆<note n="0470a0201" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a0201"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>外道，是質多羅長者先人親厚，來詣質多羅長
+<lb n="0470a03" ed="Y"/>者所，共相問訊，慰勞已，於一面住。質多羅長者問阿耆<note n="0470a0301" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a0301"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>外道：「汝出家幾時」？答言：「長
 <lb n="0470a04" ed="Y"/>者！我出家已來，二十餘年」。質多羅長者問言：「汝出家來過二十年，為得過人法，究竟知見
 <lb n="0470a05" ed="Y"/>，安樂住不」？答言：「長者！雖出家過二十年，不得過人法，究竟知見，安樂住，唯有躶形、
 <lb n="0470a06" ed="Y"/>拔髮、乞食，人間遊行，臥於土中」。質多羅長者言：「此非名稱法律，此是惡知，非出要道，
 <lb n="0470a07" ed="Y"/>非曰等覺，非讚歎處，不可依止。唐名出家，過二十年，躶形、拔髮、乞食，人間遊行，臥灰土
-<lb n="0470a08" ed="Y"/>中」。阿耆<note n="0470a0801" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a0801"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>問質多羅長者：「汝為沙門瞿曇作弟子，於今幾時」？質多羅長者答言：「我為世
+<lb n="0470a08" ed="Y"/>中」。阿耆<note n="0470a0801" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a0801"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>問質多羅長者：「汝為沙門瞿曇作弟子，於今幾時」？質多羅長者答言：「我為世
 <lb n="0470a09" ed="Y"/>尊弟子，過二十年」。復問質多羅長者：「汝為沙門瞿曇弟子，過二十年，復得過人法，勝究竟
 <lb n="0470a10" ed="Y"/>知見不」？質多羅長者答言：「汝今當知！質多羅長者要不復經由胞胎而受生，不復增於丘塚，
 <lb n="0470a11" ed="Y"/>不復起於血氣。如世尊所說五下分結，不見一結而不斷者，若一結不斷，當復還生此世」。如是
-<lb n="0470a12" ed="Y"/>說時，阿耆<note n="0470a1201" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a1201"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>迦悲歎涕淚，以衣拭面，謂質多羅長者言：「我今當作何計」？質多羅長者答言：
-<lb n="0470a13" ed="Y"/>「汝若能於正法律出家者，我當給汝衣鉢、供身之具」。阿耆<note n="0470a1301" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a1301"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>迦須臾思惟已，語質多羅長者言
-<lb n="0470a14" ed="Y"/>：「我今隨喜，示我所作」。時質多羅長者，將彼阿耆<note n="0470a1401" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a1401"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>迦，往詣諸上座所，禮諸上座足，於一
-<lb n="0470a15" ed="Y"/>面坐。白諸上座、比丘言：「尊者！此阿耆<note n="0470a1501" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a1501"><lem wit="【CB】" resp="正聞出版社">毘</lem><rdg wit="【印順】">毗</rdg></app>迦，是我先人親厚，今求出家作比丘。願諸上座度
+<lb n="0470a12" ed="Y"/>說時，阿耆<note n="0470a1201" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a1201"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>迦悲歎涕淚，以衣拭面，謂質多羅長者言：「我今當作何計」？質多羅長者答言：
+<lb n="0470a13" ed="Y"/>「汝若能於正法律出家者，我當給汝衣鉢、供身之具」。阿耆<note n="0470a1301" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a1301"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>迦須臾思惟已，語質多羅長者言
+<lb n="0470a14" ed="Y"/>：「我今隨喜，示我所作」。時質多羅長者，將彼阿耆<note n="0470a1401" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a1401"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>迦，往詣諸上座所，禮諸上座足，於一
+<lb n="0470a15" ed="Y"/>面坐。白諸上座、比丘言：「尊者！此阿耆<note n="0470a1501" resp="CBETA" type="add">毘【CB】，毗【印順】</note><app n="0470a1501"><lem resp="正聞出版社" wit="【CB】">毘</lem><rdg wit="【印順】">毗</rdg></app>迦，是我先人親厚，今求出家作比丘。願諸上座度
 <pb n="0471a" ed="Y" xml:id="Y32.0030.0471a"/>
 <lb n="0471a01" ed="Y"/>令出家，我當供給衣鉢眾具」。諸上座即令出家，剃除鬚髮，著袈裟衣。出家已思惟，所以善男
 <lb n="0471a02" ed="Y"/>子剃除鬚髮，著袈裟衣，出家增進學道，淨修梵行，得阿羅漢。</p></cb:div>
-<lb n="0471a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-9;1650(574)</cb:mulu><head><num n="33-9" type="各相應之經號">九</num><note n="0471021" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>八經</bibl>。</note>；<num type="雜含會編經號" n="1650">一六五〇</num><num n="574" type="大正藏雜含經號">（五七四）</num></head>
-<lb n="0471a04" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林中，與諸上座比丘俱。時有尼揵若提子，與五百眷屬
+<lb n="0471a03" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-9;1650(574)</cb:mulu><head><num n="33-9" type="各相應之經號">九</num><note n="0471021" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>八經</bibl>。</note>；<num n="1650" type="雜含會編經號">一六五〇</num><num n="574" type="大正藏雜含經號">（五七四）</num></head>
+<lb n="0471a04" ed="Y"/><p xml:id="pY32p0471a0401" style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林中，與諸上座比丘俱。時有尼揵若提子，與五百眷屬
 <lb n="0471a05" ed="Y"/>，詣菴羅林中，欲誘質多羅長者以為弟子。質多羅長者聞尼揵若提子，將五百眷屬，來詣菴羅林
 <lb n="0471a06" ed="Y"/>中，欲誘我為弟子。聞已，即往詣其所，共相問訊畢，各於一面坐。時尼揵若提子語質多羅長者
 <lb n="0471a07" ed="Y"/>言：「汝信沙門瞿曇，得無覺、無觀三昧耶」？質多羅長者答言：「我不以信故來也」。尼揵若
@@ -1635,8 +1655,8 @@
 <lb n="0472a02" ed="Y"/>尼揵若提子：「有於一問一說一記論，乃至十問十說十記論，汝有此不？若無一問一說一記論，
 <lb n="0472a03" ed="Y"/>乃至十問十說十記論，云何能誘於我？而來至此菴羅林中，欲誘誑我」？於是尼揵若提子，息閉
 <lb n="0472a04" ed="Y"/>掉頭，反拱而出，不復還顧。</p></cb:div>
-<lb n="0472a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-10;1651(575)</cb:mulu><head><num type="各相應之經號" n="33-10">一〇</num><note n="0472023" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>一〇經</bibl>。</note>；<num type="雜含會編經號" n="1651">一六五一</num><num type="大正藏雜含經號" n="575">（五七五）</num></head>
-<lb n="0472a06" ed="Y"/><p style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林中，與眾多上座比丘俱。爾時，質多羅長者病苦，諸
+<lb n="0472a05" ed="Y"/><cb:div type="other"><cb:mulu level="3" type="其他">33-10;1651(575)</cb:mulu><head><num n="33-10" type="各相應之經號">一〇</num><note n="0472023" resp="釋印順" type="orig"><bibl><title level="m">《相應部》</title>（四一）<title level="a">〈質多相應〉</title>一〇經</bibl>。</note>；<num n="1651" type="雜含會編經號">一六五一</num><num n="575" type="大正藏雜含經號">（五七五）</num></head>
+<lb n="0472a06" ed="Y"/><p xml:id="pY32p0472a0601" style="text-indent:2em">如是我聞：一時，佛住菴羅聚落菴羅林中，與眾多上座比丘俱。爾時，質多羅長者病苦，諸
 <lb n="0472a07" ed="Y"/>親圍繞。有眾多諸天，來詣長者所，語質多羅長者言：「長者！汝當發願得作轉輪王」。質多羅
 <lb n="0472a08" ed="Y"/>長者語諸天言：「若作轉輪王，彼亦無常，苦，空，無我」。時長者親屬語長者：「汝當繫念！
 <lb n="0472a09" ed="Y"/>汝當繫念」！質多羅長者語親屬：「何故汝等教我繫念，繫念」？彼親屬言：「汝作是言：無常
@@ -1648,7 +1668,7 @@
 <lb n="0472a15" ed="Y"/>有，我不自見一結不斷；若結不斷，則還生此世」。於是長者即從床起，結加趺坐，正念在前，
 <pb n="0473a" ed="Y" xml:id="Y32.0030.0473a"/>
 <lb n="0473a01" ed="Y"/>而說偈言：</p>
-<lb n="0473a02" ed="Y"/><lg type="abnormal"><l style="text-indent:2em">「服食積所積，廣度於眾難，施上進福田，殖斯五種力。</l>
+<lb n="0473a02" ed="Y"/><lg xml:id="lgY32p0473a0201" type="abnormal"><l style="text-indent:2em">「服食積所積，廣度於眾難，施上進福田，殖斯五種力。</l>
 <lb n="0473a03" ed="Y"/><l style="text-indent:3em">以斯義所欲，俗人處於家，我悉得此利，已免於眾難。</l>
 <lb n="0473a04" ed="Y"/><l style="text-indent:3em">世間所聞習，遠離眾難事，生樂知稍難，隨順等正覺。</l>
 <lb n="0473a05" ed="Y"/><l style="text-indent:3em">供養持戒者，善修諸梵行，漏盡阿羅漢，及聲聞牟尼，</l>
@@ -1656,16 +1676,16 @@
 <lb n="0473a07" ed="Y"/><l style="text-indent:3em">習行眾多施，施諸良福田，於此世命終，化生於天上。</l>
 <lb n="0473a08" ed="Y"/><l style="text-indent:3em">五欲具足滿，無量心悅樂，獲斯妙果報，以無慳悋故，</l>
 <lb n="0473a09" ed="Y"/><l style="text-indent:3em">在所處受生，未曾不歡喜」。</l></lg>
-<lb n="0473a10" ed="Y"/><p style="text-indent:2em">質多羅長者說此偈已，尋即命終，生於不煩熱天。爾時，質多羅天子作是念：我不應停此，
+<lb n="0473a10" ed="Y"/><p xml:id="pY32p0473a1001" style="text-indent:2em">質多羅長者說此偈已，尋即命終，生於不煩熱天。爾時，質多羅天子作是念：我不應停此，
 <lb n="0473a11" ed="Y"/>當往閻浮提，禮拜諸上座比丘。如力士屈伸臂頃，以天神力，至菴羅林中，放身天光，遍照菴羅
 <lb n="0473a12" ed="Y"/>林。時有異比丘，夜起出房，露地經行。見勝光明普照樹林，即說偈言：</p>
-<lb n="0473a13" ed="Y"/><lg type="abnormal"><l style="text-indent:2em">「是誰妙天色，住於虛空中，譬如純金山，閻浮檀淨光」？</l></lg>
-<lb n="0473a14" ed="Y"/><p style="text-indent:2em">質多羅天子說偈答言：</p>
-<lb n="0473a15" ed="Y"/><lg type="abnormal"><l style="text-indent:2em">「我是天人王，瞿曇名稱子，是菴羅林中，質多羅長者。</l>
+<lb n="0473a13" ed="Y"/><lg xml:id="lgY32p0473a1301" type="abnormal"><l style="text-indent:2em">「是誰妙天色，住於虛空中，譬如純金山，閻浮檀淨光」？</l></lg>
+<lb n="0473a14" ed="Y"/><p xml:id="pY32p0473a1401" style="text-indent:2em">質多羅天子說偈答言：</p>
+<lb n="0473a15" ed="Y"/><lg xml:id="lgY32p0473a1501" type="abnormal"><l style="text-indent:2em">「我是天人王，瞿曇名稱子，是菴羅林中，質多羅長者。</l>
 <pb n="0474a" ed="Y" xml:id="Y32.0030.0474a"/>
 <lb n="0474a01" ed="Y"/><l style="text-indent:3em">以淨戒具足，繫念自寂靜，解脫身具足，智慧身亦然。</l>
 <lb n="0474a02" ed="Y"/><l style="text-indent:3em">我知法故來，仁者應當知！當於彼涅槃，此法法如是」。</l></lg>
-<lb n="0474a03" ed="Y"/><p style="text-indent:2em">質多羅天子說此偈已，即沒不現<note n="0474024" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="21" type="卷">卷二一</biblScope></bibl>終。</note>。</p>
+<lb n="0474a03" ed="Y"/><p xml:id="pY32p0474a0301" style="text-indent:2em">質多羅天子說此偈已，即沒不現<note n="0474024" resp="釋印順" type="orig"><bibl><title level="m">《雜阿含經》</title><biblScope n="21" type="卷">卷二一</biblScope></bibl>終。</note>。</p>
 <lb n="0474a04" ed="Y"/>
 <lb n="0474a05" ed="Y"/>
 <lb n="0474a06" ed="Y"/>

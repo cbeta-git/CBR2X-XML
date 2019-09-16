@@ -12,65 +12,85 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版二刷<date>Date: 2015/03</date>新式標點版</edition>
+			<edition>修訂版二刷<date>Date: 2015/03</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>12卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 9, No. 9</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>12卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">9</idno>.<idno type="no">9</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">中觀今論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB00626">
-	<charName>CBETA CHARACTER CB00626</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[疊*毛]</value>
-	</charProp>
-	<mapping type="unicode">U+3CB2</mapping>
-	<mapping cb:dec="983666" type="PUA">U+F0272</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00626">
+				<charName>CBETA CHARACTER CB00626</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[疊*毛]</value>
+				</charProp>
+				<mapping type="unicode">U+3CB2</mapping>
+				<mapping cb:dec="983666" type="PUA">U+F0272</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">第四章　中道之方法論</cb:mulu><cb:mulu level="2" type="其他">第三節　聞量、比量、現量</cb:mulu>
-<milestone unit="juan" n="5"/><pb n="0059a" ed="Y" xml:id="Y09.0009.0059a.old" type="old"/>
+<milestone n="5" unit="juan"/><pb n="0059a" ed="Y" xml:id="Y09.0009.0059a.old" type="old"/>
 <pb n="0059a" ed="Y" xml:id="Y09.0009.0059a"/>
 <lb n="0059a01" ed="Y"/><lb n="0059a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">第五章　中觀之根本論題</cb:mulu><head>第五章　中觀之根本論題</head>
 <lb n="0059a02" ed="Y"/><lb n="0059a02" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第一節　緣起</cb:mulu><head>第一節　緣起</head>
-<lb n="0059a03" ed="Y"/><lb n="0059a03" ed="Y" type="old"/><p style="text-indent:2em"><cit><bibl><title level="m">《中論》</title>說：</bibl><quote type="寬鬆引文">「眾因緣生（即緣起）法，我說即是空。」</quote><note n="0059001" resp="厚觀法師" type="add">《中論》卷4〈24 觀四諦品〉：「眾因緣生法<space quantity="1" unit="chars"/>我說即是無」(CBETA, T30, no. 1564, p. 33, b11)</note></cit><quote source="T30n1564_p0010c11" type="嚴謹引文">「若法眾緣生，即
+<lb n="0059a03" ed="Y"/><lb n="0059a03" ed="Y" type="old"/><p xml:id="pY09p0059a0301" style="text-indent:2em"><cit><bibl><title level="m">《中論》</title>說：</bibl><quote type="寬鬆引文">「眾因緣生（即緣起）法，我說即是空。」</quote><note n="0059001" resp="厚觀法師" type="add">《中論》卷4〈24 觀四諦品〉：「眾因緣生法<space quantity="1" unit="chars"/>我說即是無」(CBETA, T30, no. 1564, p. 33, b11)</note></cit><quote source="T30n1564_p0010c11" type="嚴謹引文">「若法眾緣生，即
 <lb n="0059a04" ed="Y"/><lb n="0059a04" ed="Y" type="old"/>是寂滅性」<note n="0059002" resp="謝淑歆" type="add">《中論》卷2〈7 觀三相品〉(CBETA, T30, no. 1564, p. 10, c11)</note></quote>。<cit><bibl><title level="m">《十二門論》</title>說：</bibl><quote source="T30n1568_p0159c26" type="嚴謹引文">「眾緣所生法，是即無自性。」</quote><note n="0059003" resp="謝淑歆" type="add">《十二門論》卷1(CBETA, T30, no. 1568, p. 159, c26)</note></cit>緣起，所以是無
 <lb n="0059a05" ed="Y"/><lb n="0059a05" ed="Y" type="old"/>自性的；無自性，所以是空的；空，所以是寂滅的。「緣起自性空」，實為中觀
 <lb n="0059a06" ed="Y"/><lb n="0059a06" ed="Y" type="old"/>的根本論題、根本觀法、根本的法則。緣起、自性、空，到底是什麼意義呢？</p>
-<lb n="0059a07" ed="Y"/><lb n="0059a07" ed="Y" type="old"/><p style="text-indent:2em">佛法以有情的生死相續及還滅為中心，所以經中說到緣起，總是這樣說：<quote source="T02n0099_p0092c20-22" type="寬鬆引文">「
+<lb n="0059a07" ed="Y"/><lb n="0059a07" ed="Y" type="old"/><p xml:id="pY09p0059a0701" style="text-indent:2em">佛法以有情的生死相續及還滅為中心，所以經中說到緣起，總是這樣說：<quote source="T02n0099_p0092c20-22" type="寬鬆引文">「
 <lb n="0059a08" ed="Y"/><lb n="0059a08" ed="Y" type="old"/>此有故彼有，此生故彼生，謂無明緣行，……乃至純大苦聚集。」<note n="0059004" resp="謝淑歆" type="add">《雜阿含經》卷13：「『此有故彼有，此起故彼起，如無明緣行，行緣識……』廣說乃至『純大苦聚集起。』」(CBETA, T02, no. 99, p. 92, c20-22)</note></quote><quote source="T02n0099_p0092c22-24" type="寬鬆引文">「此無故彼無
 <lb n="0059a09" ed="Y"/><lb n="0059a09" ed="Y" type="old"/>，此滅故彼滅，謂無明滅則行滅，……乃至純大苦聚滅。」<note n="0059005" resp="謝淑歆" type="add">《雜阿含經》卷13：「『此無故彼無，此滅故彼滅，無明滅故行滅，行滅故識滅……』如是廣說，乃至『純大苦聚滅。』」(CBETA, T02, no. 99, p. 92, c22-24)</note></quote><title level="m">《阿含經》</title>說緣起，
 <lb n="0059a10" ed="Y"/><lb n="0059a10" ed="Y" type="old"/>雖多從有情的流轉還滅說，實則器世間也還是緣起的。阿毘達磨論中說四種緣起<pb n="0060a" ed="Y" xml:id="Y09.0009.0060a.old" type="old"/>
@@ -80,9 +100,9 @@
 <lb n="0060a03" ed="Y"/><lb n="0060a03" ed="Y" type="old"/>有情、無情的。依<title level="m">《大智度論》</title>說：不但內外的有為法是緣起的，因待有為而施
 <lb n="0060a04" ed="Y"/>設無為<lb n="0060a04" ed="Y" type="old"/>，無為也是緣起的。這樣，凡是存在的因果、事理，一切是緣起的存在；
 <lb n="0060a05" ed="Y"/>離卻緣<lb n="0060a05" ed="Y" type="old"/>起，一切無從安立。</p>
-<lb n="0060a06" ed="Y"/><lb n="0060a06" ed="Y" type="old"/><p style="text-indent:2em">「緣起」為佛法最主要的術語。從經義的通貫生滅及不生滅，依學派間的種
+<lb n="0060a06" ed="Y"/><lb n="0060a06" ed="Y" type="old"/><p xml:id="pY09p0060a0601" style="text-indent:2em">「緣起」為佛法最主要的術語。從經義的通貫生滅及不生滅，依學派間的種
 <lb n="0060a07" ed="Y"/><lb n="0060a07" ed="Y" type="old"/>種異說，今總括為三點來說明：</p>
-<lb n="0060a08" ed="Y"/><lb n="0060a08" ed="Y" type="old"/><p style="text-indent:2em">一、相關的因待性：起是生起，緣是果法生起所因待（<foreign xml:lang="sa">apekṣya</foreign>）的。約從
+<lb n="0060a08" ed="Y"/><lb n="0060a08" ed="Y" type="old"/><p xml:id="pY09p0060a0801" style="text-indent:2em">一、相關的因待性：起是生起，緣是果法生起所因待（<foreign xml:lang="sa">apekṣya</foreign>）的。約從
 <lb n="0060a09" ed="Y"/><lb n="0060a09" ed="Y" type="old"/>緣所生起的果法說，即緣生；約從果起所因待的因緣說，即緣起。薩婆多部等以
 <lb n="0060a10" ed="Y"/><lb n="0060a10" ed="Y" type="old"/>緣起為因，也有他的見地。但他們關於緣起的解說，專作事相的辨析，考察無明
 <lb n="0060a11" ed="Y"/><lb n="0060a11" ed="Y" type="old"/>等的自相、共相、因相、果相等，忽略了<quote type="嚴謹引文">「此有故彼有，此生故彼生」</quote>的因待性
@@ -113,7 +133,7 @@
 <lb n="0062a08" ed="Y"/>象，這<lb n="0062a08" ed="Y" type="old"/>即是具體的說明了由此而生，必由此而滅。所以緣起法有此二大定律：即
 <lb n="0062a09" ed="Y"/>相依相<lb n="0062a09" ed="Y" type="old"/>生的流轉律，又相反的有相依相滅的還滅律。依於緣起，成立生死，也即
 <lb n="0062a10" ed="Y"/>依之成<lb n="0062a10" ed="Y" type="old"/>立涅槃，佛法是何等善巧！</p>
-<lb n="0062a11" ed="Y"/><lb n="0062a11" ed="Y" type="old"/><p style="text-indent:2em">二、序列的必然性：佛法說緣起，不但說明「此故彼」的因果關係，而且在
+<lb n="0062a11" ed="Y"/><lb n="0062a11" ed="Y" type="old"/><p xml:id="pY09p0062a1101" style="text-indent:2em">二、序列的必然性：佛法說緣起，不但說明「此故彼」的因果關係，而且在
 <lb n="0062a12" ed="Y"/><lb n="0062a12" ed="Y" type="old"/>因果中，抉出因果生滅的序列必然性。如悟入十二有支，這決不止於別別的因果
 <lb n="0062a13" ed="Y"/><lb n="0062a13" ed="Y" type="old"/>事實，而是從一切眾生無限複雜的因果事相中，發見此因果的必然程序。如發<pb n="0063a" ed="Y" xml:id="Y09.0009.0063a.old" type="old"/><lb n="0063a01" ed="Y" type="old"/>見
 <pb n="0063a" ed="Y" xml:id="Y09.0009.0063a"/>
@@ -122,7 +142,7 @@
 <lb n="0063a03" ed="Y"/>世間相常住」<note n="0063002" resp="謝淑歆" type="add">《妙法蓮華經》卷1〈2 方便品〉(CBETA, T09, no. 262, p. 9, b10)</note></quote>，都是說明緣起序列的必然性。但依中觀義來說，緣起的序列必<lb n="0063a04" ed="Y" type="old"/>然
 <lb n="0063a04" ed="Y"/>性決非離事說理，是在緣能起果的作用中現出此必然的理則。生死相續，似<lb n="0063a05" ed="Y" type="old"/>乎依
 <lb n="0063a05" ed="Y"/>照此理則而發展，佛也不過發見此因果事中的理則而已。</p>
-<lb n="0063a06" ed="Y"/><lb n="0063a06" ed="Y" type="old"/><p style="text-indent:2em">三、自性的空寂性：從緣起果的作用，有相關的因待性，有序列的必然性。
+<lb n="0063a06" ed="Y"/><lb n="0063a06" ed="Y" type="old"/><p xml:id="pY09p0063a0601" style="text-indent:2em">三、自性的空寂性：從緣起果的作用，有相關的因待性，有序列的必然性。
 <lb n="0063a07" ed="Y"/><lb n="0063a07" ed="Y" type="old"/>此因待與必然，不但是如此相生，也如此還滅。如進一層考察，一切法的如此生
 <lb n="0063a08" ed="Y"/><lb n="0063a08" ed="Y" type="old"/>滅、如此次第，無不由於眾緣。那麼，此有無生滅的一切法，即沒有自體，即非
 <lb n="0063a09" ed="Y"/><lb n="0063a09" ed="Y" type="old"/>自己如此的。這即能從如此生滅、次第中，悟入此是即空的諸行，並非是實有實
@@ -131,7 +151,7 @@
 <lb n="0063a12" ed="Y"/>竟<lb n="0063a12" ed="Y" type="old"/>空而宛然有」</quote>。</p></cb:div><pb n="0064a" ed="Y" xml:id="Y09.0009.0064a.old" type="old"/>
 <pb n="0064a" ed="Y" xml:id="Y09.0009.0064a"/>
 <lb n="0064a01" ed="Y"/><lb n="0064a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第二節　自性</cb:mulu><head>第二節　自性</head>
-<lb n="0064a02" ed="Y"/><lb n="0064a02" ed="Y" type="old"/><p style="text-indent:2em">緣起是無自性的，什麼是自性呢？自性（<foreign xml:lang="sa">svabhāva</foreign>）是專門術語，如<cit><bibl><title level="m">《壹輸
+<lb n="0064a02" ed="Y"/><lb n="0064a02" ed="Y" type="old"/><p xml:id="pY09p0064a0201" style="text-indent:2em">緣起是無自性的，什麼是自性呢？自性（<foreign xml:lang="sa">svabhāva</foreign>）是專門術語，如<cit><bibl><title level="m">《壹輸
 <lb n="0064a03" ed="Y"/><lb n="0064a03" ed="Y" type="old"/>盧迦論》</title>說：</bibl><quote source="T30n1573_p0253c21-25" type="嚴謹引文">「凡諸法體、性、法、物、事、有，名異義同。是故或言體，或言
 <lb n="0064a04" ed="Y"/><lb n="0064a04" ed="Y" type="old"/>性，或言法，或言有，或言物，莫不皆是有之差別。正音云私婆婆，或譯為自體
 <lb n="0064a05" ed="Y"/><lb n="0064a05" ed="Y" type="old"/>（的）體，或譯為無法有法（的法），或譯為無自性（的）性。」</quote><note n="0064001" resp="謝淑歆" type="add">《壹輸盧迦論》卷1(CBETA, T30, no. 1573, p. 253, c21-25)</note></cit>所舉的名字雖
@@ -144,7 +164,7 @@
 <lb n="0064a12" ed="Y"/>為本源的性質，即本質或原質。所以，自性是自己如此的，也是本來的性質如<pb n="0065a" ed="Y" xml:id="Y09.0009.0065a.old" type="old"/><lb n="0065a01" ed="Y" type="old"/>此
 <pb n="0065a" ed="Y" xml:id="Y09.0009.0065a"/>
 <lb n="0065a01" ed="Y"/>的。如哲學上所說的實在、本體、本元等，皆與此自性的含義相合。</p>
-<lb n="0065a02" ed="Y"/><lb n="0065a02" ed="Y" type="old"/><p style="text-indent:2em">要明瞭「自性」一語的意義，請聽薩婆多部所說。如<cit><bibl><title level="m">《大毘婆沙論》</title><biblScope n="1" type="卷">卷一</biblScope>說
+<lb n="0065a02" ed="Y"/><lb n="0065a02" ed="Y" type="old"/><p xml:id="pY09p0065a0201" style="text-indent:2em">要明瞭「自性」一語的意義，請聽薩婆多部所說。如<cit><bibl><title level="m">《大毘婆沙論》</title><biblScope n="1" type="卷">卷一</biblScope>說
 <lb n="0065a03" ed="Y"/><lb n="0065a03" ed="Y" type="old"/>：</bibl><quote source="T27n1545_p0004a10-11" type="嚴謹引文">「如說自性，我、物、自體、相、分、本性，應知亦爾。」</quote><note n="0065001" resp="謝淑歆" type="add">《阿毘達磨大毘婆沙論》卷1(CBETA, T27, no. 1545, p. 4, a10-11)</note></cit>薩婆多部的學者，
 <lb n="0065a04" ed="Y"/><lb n="0065a04" ed="Y" type="old"/>把自性、我、物、自體、相、分、本性看成同一意義。尤其所謂「分」，最值得
 <lb n="0065a05" ed="Y"/><lb n="0065a05" ed="Y" type="old"/>注意。此分，就是事物的最後原素，也即是所謂「點」，即「其小無內」不可再
@@ -154,7 +174,7 @@
 <lb n="0065a09" ed="Y"/><lb n="0065a09" ed="Y" type="old"/>相。此和合及相續，即假有的，可以說沒有自性。而在相續與和合的現象中，分
 <lb n="0065a10" ed="Y"/><lb n="0065a10" ed="Y" type="old"/>析到內在不可再分析的點，即是自性實有的。如在色法的和集中，分析至極微，
 <lb n="0065a11" ed="Y"/><lb n="0065a11" ed="Y" type="old"/>以極微的物質點，為集成粗顯色相的實質。對於精神作用，也分析到心心所的單
-<lb n="0065a12" ed="Y"/><lb n="0065a12" ed="Y" type="old"/>元。此分析出的單元，是自性，也稱為我——我即自在義。如<cit><bibl><title level="m">《大毘婆沙論》</title><biblScope type="卷" n="9">卷
+<lb n="0065a12" ed="Y"/><lb n="0065a12" ed="Y" type="old"/>元。此分析出的單元，是自性，也稱為我——我即自在義。如<cit><bibl><title level="m">《大毘婆沙論》</title><biblScope n="9" type="卷">卷
 <lb n="0065a13" ed="Y"/>九</biblScope>說：<lb n="0065a13" ed="Y" type="old"/></bibl><quote source="T27n1545_p0041a19-20" type="嚴謹引文">「善說法者，唯說實有法我，法性實有，如實見故。」</quote><note n="0065003" resp="謝淑歆" type="add">《阿毘達磨大毘婆沙論》卷9(CBETA, T27, no. 1545, p. 41, a19-20)</note></cit>補特伽羅我是五蘊
 <pb n="0066a" ed="Y" xml:id="Y09.0009.0066a"/>
 <lb n="0066a01" ed="Y"/>和合有<pb n="0066a" ed="Y" xml:id="Y09.0009.0066a.old" type="old"/><lb n="0066a01" ed="Y" type="old"/>的，所以是假；假的所依是自性實有，所以說：<quote type="嚴謹引文">「法性實有，如實見故。
@@ -165,7 +185,7 @@
 <lb n="0066a06" ed="Y"/>是最根<lb n="0066a06" ed="Y" type="old"/>本的見解。薩婆多主張有自性的，於是佛說諸行無常，諸法無我，照他們
 <lb n="0066a07" ed="Y"/>的意見<lb n="0066a07" ed="Y" type="old"/>追究諸法的實在，相續與和合假所依的自性法，即是三世常如其性的、不
 <lb n="0066a08" ed="Y"/>變的<lb n="0066a08" ed="Y" type="old"/>，有不能無、無不能有的，甚至可以稱為法我了。</p>
-<lb n="0066a09" ed="Y"/><lb n="0066a09" ed="Y" type="old"/><p style="text-indent:2em">假有無自性說，經部師是擴大了，但自性有的基本原則並未改變。三世常<lb n="0066a10" ed="Y" type="old"/>如
+<lb n="0066a09" ed="Y"/><lb n="0066a09" ed="Y" type="old"/><p xml:id="pY09p0066a0901" style="text-indent:2em">假有無自性說，經部師是擴大了，但自性有的基本原則並未改變。三世常<lb n="0066a10" ed="Y" type="old"/>如
 <lb n="0066a10" ed="Y"/>其性的一切法，在經部的現在實有論中，轉化為潛在於現在的種子或舊隨界。<lb n="0066a11" ed="Y" type="old"/>此
 <lb n="0066a11" ed="Y"/>種子與界，雖不斷的從種子而轉化為現行，現行轉化為種子，但依舊是不變的<lb n="0066a12" ed="Y" type="old"/>。
 <lb n="0066a12" ed="Y"/>這點，唯識學者說得明白，名為「自性緣起」，即色生色，眼生眼，貪生貪，<lb n="0066a13" ed="Y" type="old"/>有
@@ -188,7 +208,7 @@
 <lb n="0068a01" ed="Y"/>咸<pb n="0068a" ed="Y" xml:id="Y09.0009.0068a.old" type="old"/><lb n="0068a01" ed="Y" type="old"/>有體性，縱令虛空亦有名貌，何況清淨妙淨明心性一切心而自無體？」</quote><note n="0068001" resp="謝淑歆" type="add">《大佛頂如來密因修證了義諸菩薩萬行首楞嚴經》卷1(CBETA, T19, no. 945, p. 109, a4-7)</note></cit>這是自
 <lb n="0068a02" ed="Y"/><lb n="0068a02" ed="Y" type="old"/>性論者的另一面目。在萬化中，終必有一個真實自性而不是假的，這即是「自性
 <lb n="0068a03" ed="Y"/><lb n="0068a03" ed="Y" type="old"/>」的意義。一般的宗教與哲學，無不從此自性的老路而來！</p>
-<lb n="0068a04" ed="Y"/><lb n="0068a04" ed="Y" type="old"/><p style="text-indent:2em"><cit><bibl>《<title level="m">中論</title>．<title level="a">觀有無品</title>》說：</bibl><quote source="T30n1564_p0019c22-28" type="嚴謹引文">「眾緣中有性，是事則不然，性從眾緣出，即名為
+<lb n="0068a04" ed="Y"/><lb n="0068a04" ed="Y" type="old"/><p xml:id="pY09p0068a0401" style="text-indent:2em"><cit><bibl>《<title level="m">中論</title>．<title level="a">觀有無品</title>》說：</bibl><quote source="T30n1564_p0019c22-28" type="嚴謹引文">「眾緣中有性，是事則不然，性從眾緣出，即名為
 <lb n="0068a05" ed="Y"/><lb n="0068a05" ed="Y" type="old"/>作法。<note n="0068002" resp="謝淑歆" type="add">《中論》卷3〈15 觀有無品〉(CBETA, T30, no. 1564, p. 19, c22-23)</note>性若是作者，云何有此義？性名為無作，不待異法成。<note n="0068003" resp="謝淑歆" type="add">《中論》卷3〈15 觀有無品〉(CBETA, T30, no. 1564, p. 19, c27-28)</note>」</quote></cit>這是<title level="m">《中觀論》</title>
 <lb n="0068a06" ed="Y"/><lb n="0068a06" ed="Y" type="old"/>對於「自性」的具體說明。佛法說緣起，除了極端者而外，誰都承認，但總覺得
 <lb n="0068a07" ed="Y"/><lb n="0068a07" ed="Y" type="old"/>是諸法自性有，由眾緣的和合關係而發現。若依中觀的看法，自性與緣起，是不
@@ -202,7 +222,7 @@
 <lb n="0069a01" ed="Y"/><lb n="0069a01" ed="Y" type="old"/>的非作性。凡是緣起即是和合的，如補特伽羅是依待五蘊等而假立的，所以佛說
 <lb n="0069a02" ed="Y"/><lb n="0069a02" ed="Y" type="old"/>諸法無我，即否定了自性的不待它性。無常、無我的緣起論，即說明了諸法的無
 <lb n="0069a03" ed="Y"/>自<lb n="0069a03" ed="Y" type="old"/>性。</p>
-<lb n="0069a04" ed="Y"/><lb n="0069a04" ed="Y" type="old"/><p style="text-indent:2em">但如此的自性，表現於學者的思想體系中，依佛法說，這都是分別的自性執
+<lb n="0069a04" ed="Y"/><lb n="0069a04" ed="Y" type="old"/><p xml:id="pY09p0069a0401" style="text-indent:2em">但如此的自性，表現於學者的思想體系中，依佛法說，這都是分別的自性執
 <lb n="0069a05" ed="Y"/><lb n="0069a05" ed="Y" type="old"/>。眾生生死根本的自性執，應該是眾生所共的、與生俱來的俱生自性執。這是什
 <lb n="0069a06" ed="Y"/><lb n="0069a06" ed="Y" type="old"/>麼？不論外觀內察，我們總有一種原始的、根本的、素樸的，即明知不是而依然
 <lb n="0069a07" ed="Y"/><lb n="0069a07" ed="Y" type="old"/>頑強存在於心目中的實在感，這即一切自性執的根源。存在的一切，都離不開時
@@ -220,7 +240,7 @@
 <lb n="0070a05" ed="Y"/><lb n="0070a05" ed="Y" type="old"/>，即豎入（直觀）法體的說明。而佛法的緣起觀，是與這自性執完全相反。所以
 <lb n="0070a06" ed="Y"/><lb n="0070a06" ed="Y" type="old"/>，自性即非緣起，緣起即無自性，二者不能並存，<title level="m">《中論》</title>曾反覆的說到。</p></cb:div>
 <lb n="0070a07" ed="Y"/><lb n="0070a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第三節　空</cb:mulu><head>第三節　空</head>
-<lb n="0070a08" ed="Y"/><lb n="0070a08" ed="Y" type="old"/><p style="text-indent:2em">空，是佛教所共同的，而中觀家的觀法不盡與他派相同。如<bibl><title level="m">《大智度論》</title><biblScope type="卷" n="12">卷
+<lb n="0070a08" ed="Y"/><lb n="0070a08" ed="Y" type="old"/><p xml:id="pY09p0070a0801" style="text-indent:2em">空，是佛教所共同的，而中觀家的觀法不盡與他派相同。如<bibl><title level="m">《大智度論》</title><biblScope n="12" type="卷">卷
 <lb n="0070a09" ed="Y"/><lb n="0070a09" ed="Y" type="old"/>一二</biblScope></bibl>說有三種空：一、分破空，二、觀空，三、十八空。「分破空」，即臺宗所
 <lb n="0070a10" ed="Y"/><lb n="0070a10" ed="Y" type="old"/>說的析法空。如舉<g ref="#CB00626"/>為喻，將<g ref="#CB00626"/>析至極微，再分析到無方分相，即現空相，所以
 <lb n="0070a11" ed="Y"/><lb n="0070a11" ed="Y" type="old"/>極微名為「鄰虛」。這是從佔有空間的物質上說；若從佔有時間者說，分析到剎
@@ -263,7 +283,7 @@
 <lb n="0073a07" ed="Y"/>法——<lb n="0073a07" ed="Y" type="old"/>依他起性上，不能到達心無自性論；對於六塵——境的緣起性忽略了，所
 <lb n="0073a08" ed="Y"/>以不能<lb n="0073a08" ed="Y" type="old"/>盡契中道。龍樹菩薩所發揮的空義，是立足於自性空的，不是某一部分是
 <lb n="0073a09" ed="Y"/>空而<lb n="0073a09" ed="Y" type="old"/>某些不空，也不是境空而心不空。</p>
-<lb n="0073a10" ed="Y"/><lb n="0073a10" ed="Y" type="old"/><p style="text-indent:2em"><bibl><title level="m">《大智度論》</title><biblScope n="74" type="卷">（卷七四）</biblScope></bibl>又說有三種空：一、三昧（心）空，二、所緣（境
+<lb n="0073a10" ed="Y"/><lb n="0073a10" ed="Y" type="old"/><p xml:id="pY09p0073a1001" style="text-indent:2em"><bibl><title level="m">《大智度論》</title><biblScope n="74" type="卷">（卷七四）</biblScope></bibl>又說有三種空：一、三昧（心）空，二、所緣（境
 <lb n="0073a11" ed="Y"/>）<lb n="0073a11" ed="Y" type="old"/>空，三、自性空。「三昧空」，與上面三空中的觀空不同。這是就修空觀——
 <lb n="0073a12" ed="Y"/>三<lb n="0073a12" ed="Y" type="old"/>三昧的時候，在能觀的心上所現的空相說的。如十遍處觀，在觀青的時候，一
 <lb n="0073a13" ed="Y"/>切<lb n="0073a13" ed="Y" type="old"/>法皆青，觀黃時一切法皆黃，青、黃等都是觀心上的觀境。這樣，空也是因空
@@ -283,7 +303,7 @@
 <lb n="0074a13" ed="Y"/>知一切法畢竟皆<lb n="0074a13" ed="Y" type="old"/>空。若偏於三昧空或所緣空，專在認識論上說，不能即緣起知空
 <pb n="0075a" ed="Y" xml:id="Y09.0009.0075a"/>
 <lb n="0075a01" ed="Y"/>，即不能達到一<pb n="0075a" ed="Y" xml:id="Y09.0009.0075a.old" type="old"/><lb n="0075a01" ed="Y" type="old"/>切法空的結論。</p>
-<lb n="0075a02" ed="Y"/><lb n="0075a02" ed="Y" type="old"/><p style="text-indent:2em">自空與他空，係兩種不同的空觀。譬如觀花空，自空者說：花的當體就是空
+<lb n="0075a02" ed="Y"/><lb n="0075a02" ed="Y" type="old"/><p xml:id="pY09p0075a0201" style="text-indent:2em">自空與他空，係兩種不同的空觀。譬如觀花空，自空者說：花的當體就是空
 <lb n="0075a03" ed="Y"/><lb n="0075a03" ed="Y" type="old"/>的。他空者說：此花上沒有某些，所以說是空，但不是花的本身空。如<cit><bibl><title level="m">《瑜伽師
 <lb n="0075a04" ed="Y"/>地論<lb n="0075a04" ed="Y" type="old"/>》</title>的<title level="a">〈真實義品〉</title>說：</bibl><quote source="T30n1579_p0488c24-26" type="嚴謹引文">「由彼故空，彼實是無；於此而空，此實是有：由此
 <lb n="0075a05" ed="Y"/>道理<lb n="0075a05" ed="Y" type="old"/>，可說為空。」</quote><note n="0075001" resp="謝淑歆" type="add">《瑜伽師地論》卷36〈4真實義品〉(CBETA, T30, no. 1579, p. 488, c24-26)</note></cit>這即是說：在此法上由於空去彼法，沒有彼法，可以說為空
@@ -307,7 +327,7 @@
 <lb n="0076a09" ed="Y"/>隔著<lb n="0076a09" ed="Y" type="old"/>的。至於自空，也是淵源於<title level="m">《阿含經》</title>的。如<cit><bibl><title level="m">《雜阿含經》</title>說：</bibl><quote source="T02n0099_p0056b24-26" type="寬鬆引文">「常空……
 <lb n="0076a10" ed="Y"/>我我所<lb n="0076a10" ed="Y" type="old"/>空，性自爾故。」</quote><note n="0076003" resp="謝淑歆" type="add">《雜阿含經》卷9：「眼空，常、恒、不變易法空，我所空。所以者何？此性自爾」(CBETA, T02, no. 99, p. 56, b24-26)</note></cit>這即是說常、我、我所的當體即空，不是空外另有常、
 <lb n="0076a11" ed="Y"/>我、<lb n="0076a11" ed="Y" type="old"/>我所等不空。常、我、我所等所以即空，是因為常、我、我所的性自爾故。
-<lb n="0076a12" ed="Y"/>又如<lb n="0076a12" ed="Y" type="old"/><cit><bibl><title level="m">《雜阿含經》</title>的<title level="m">《勝義空經》</title><ref type="taisho" target="#no:99.335">（三三五經）</ref>說：無我我所而有因果業報流轉
+<lb n="0076a12" ed="Y"/>又如<lb n="0076a12" ed="Y" type="old"/><cit><bibl><title level="m">《雜阿含經》</title>的<title level="m">《勝義空經》</title><ref target="#no:99.335" type="taisho">（三三五經）</ref>說：無我我所而有因果業報流轉
 <lb n="0076a13" ed="Y"/>事，但<lb n="0076a13" ed="Y" type="old"/>不是勝義諦中有此因果業報流轉等，所以說：</bibl><quote source="T02n0099_p0092c20-21" type="寬鬆引文">「俗數法者，謂此有故彼有
 <pb n="0077a" ed="Y" xml:id="Y09.0009.0077a"/>
 <lb n="0077a01" ed="Y"/>，此生<pb n="0077a" ed="Y" xml:id="Y09.0009.0077a.old" type="old"/><lb n="0077a01" ed="Y" type="old"/>故彼生，謂無明緣行。」</quote><note n="0077001" resp="謝淑歆" type="add">《雜阿含經》卷13(CBETA, T02, no. 99, p. 92, c20-21)</note></cit>緣起因果的相續有，是世俗的；勝義諦中即無我
@@ -318,7 +338,7 @@
 <lb n="0077a06" ed="Y"/>不但不<lb n="0077a06" ed="Y" type="old"/>能說緣起即空所顯，也不能當下確認諸法皆空，所以自空與他空是根本不
 <lb n="0077a07" ed="Y"/>同。假<lb n="0077a07" ed="Y" type="old"/>使引用<cit><bibl><title level="m">《成唯識論》</title>所說</bibl><quote source="T31n1585_p0006c25-26" type="嚴謹引文">「若執唯識真實有者……亦是法執」</quote><note n="0077002" resp="謝淑歆" type="add">《成唯識論》卷2(CBETA, T31, no. 1585, p. 6, c25-26)</note></cit>，以為唯識
 <lb n="0077a08" ed="Y"/>也說<lb n="0077a08" ed="Y" type="old"/>緣起心心所法空，不免附會。</p>
-<lb n="0077a09" ed="Y"/><lb n="0077a09" ed="Y" type="old"/><p style="text-indent:2em">我覺得中觀者的一切法空，主要是從緣起因果而顯的，而唯識宗是從認識論
+<lb n="0077a09" ed="Y"/><lb n="0077a09" ed="Y" type="old"/><p xml:id="pY09p0077a0901" style="text-indent:2em">我覺得中觀者的一切法空，主要是從緣起因果而顯的，而唯識宗是從認識論
 <lb n="0077a10" ed="Y"/><lb n="0077a10" ed="Y" type="old"/>上說的。唯識者以為從因果緣起上明空，是共小乘的，不徹底的；大乘應從認識
 <lb n="0077a11" ed="Y"/><lb n="0077a11" ed="Y" type="old"/>上說。如<cit><bibl><title level="m">《攝大乘論》</title>說：</bibl><quote source="T31n1594_p0141a13-14" type="嚴謹引文">「自然自體無，自性不堅住，如執取不有，故許無自
 <lb n="0077a12" ed="Y"/><lb n="0077a12" ed="Y" type="old"/>性。」</quote><note n="0077003" resp="謝淑歆" type="add">《攝大乘論本》卷2(CBETA, T31, no. 1594, p. 141, a13-14)</note></cit>無自性，不是說自性完全沒有。如未來法，在未來而生，必待因緣而決無
@@ -346,7 +366,7 @@
 <lb n="0079a06" ed="Y"/>與其他的學派<lb n="0079a06" ed="Y" type="old"/>不同。所以不能望文生義，見了緣起、自性、空的名詞，就以為是
 <lb n="0079a07" ed="Y"/>同歸一致的。</p></cb:div>
 <lb n="0079a08" ed="Y"/><lb n="0079a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">第四節　緣起自性空</cb:mulu><head>第四節　緣起自性空</head>
-<lb n="0079a09" ed="Y"/><lb n="0079a08" ed="Y" type="old"/><p style="text-indent:2em">現在，把上面講的緣起、自性、空，總合起來說：緣起與自性是絕對相反的
+<lb n="0079a09" ed="Y"/><lb n="0079a08" ed="Y" type="old"/><p xml:id="pY09p0079a0901" style="text-indent:2em">現在，把上面講的緣起、自性、空，總合起來說：緣起與自性是絕對相反的
 <lb n="0079a10" ed="Y"/><lb n="0079a09" ed="Y" type="old"/>，緣起的即無自性，自性的即非緣起。一般的眾生、外道以及佛法中的其他各派
 <lb n="0079a11" ed="Y"/><lb n="0079a10" ed="Y" type="old"/>，都是以自性為根源而出發的。而佛陀的所以與外道不同，即是<quote type="嚴謹引文">「我說緣起」</quote>、
 <lb n="0079a12" ed="Y"/><lb n="0079a11" ed="Y" type="old"/><quote source="T02n0099_p0012c21-22" type="嚴謹引文">「論因說因」<note n="0079001" resp="謝淑歆" type="add">《雜阿含經》卷2(CBETA, T02, no. 99, p. 12, c21-22)</note></quote>。所以依中觀說，中觀可稱緣起宗，其他各派可稱為自性宗，也即
@@ -367,7 +387,7 @@
 <pb n="0081a" ed="Y" xml:id="Y09.0009.0081a"/>
 <lb n="0081a01" ed="Y"/><lb n="0080a13" ed="Y" type="old"/>即是畢竟空的，今還其本來之空，無增無減，而不是虛誑顛倒，所以也可說真說<pb n="0081a" ed="Y" xml:id="Y09.0009.0081a.old" type="old"/>
 <lb n="0081a02" ed="Y"/><lb n="0081a01" ed="Y" type="old"/>實。總結的說，如此：</p>
-<lb n="0081a03" ed="Y"/><lb n="0081a02" ed="Y" type="old"/><p cb:type="pre">　　　自性與緣起──相反相奪的──自性非緣起，緣起非自性。
+<lb n="0081a03" ed="Y"/><lb n="0081a02" ed="Y" type="old"/><p cb:type="pre" xml:id="pY09p0081a0301">　　　自性與緣起──相反相奪的──自性非緣起，緣起非自性。
 <lb n="0081a04" ed="Y"/>　　　緣起與空寂──相順相成的──緣起故空寂，空寂故緣起。
 <lb n="0081a05" ed="Y"/>　　　空寂與自性┬─相順而相反──自性即空寂，空寂非自性。
 <lb n="0081a06" ed="Y"/>　　　　　　　　└─相反而相成──無自性故空，空故即自性。</p></cb:div></cb:div><pb n="0082a" ed="Y" xml:id="Y09.0009.0082a.old" type="old"/>

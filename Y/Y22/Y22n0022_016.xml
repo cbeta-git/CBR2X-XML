@@ -12,68 +12,88 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>20卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 22, No. 22</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>20卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">22</idno>.<idno type="no">22</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">佛教史地考論</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	<charDecl>
-<char xml:id="CB07330">
-	<charName>CBETA CHARACTER CB07330</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[耜-耒]</value>
-	</charProp>
-	<mapping type="normal_unicode">U+382F</mapping>
-	<mapping cb:dec="990370" type="PUA">U+F1CA2</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB07330">
+				<charName>CBETA CHARACTER CB07330</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[耜-耒]</value>
+				</charProp>
+				<mapping type="normal_unicode">U+382F</mapping>
+				<mapping cb:dec="990370" type="PUA">U+F1CA2</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十五、漢明帝與《四十二章經》</cb:mulu>
-<milestone unit="juan" n="16"/><pb n="0357a" ed="Y" xml:id="Y22.0022.0357a.old" type="old"/>
+<milestone n="16" unit="juan"/><pb n="0357a" ed="Y" xml:id="Y22.0022.0357a.old" type="old"/>
 <pb n="0353a" ed="Y" xml:id="Y22.0022.0353a"/>
 <lb n="0353a01" ed="Y"/><lb n="0357a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十六、玄奘大師年代之論定</cb:mulu><head>玄奘大師年代之論定<note n="0353001" resp="DILA" type="add">民國五〇年撰。</note></head>
-<lb n="0353a02" ed="Y"/><lb n="0357a02" ed="Y" type="old"/><p style="text-indent:2em">羅香林先生，承梁任公之說，撰<title level="a">〈玄奘法師年代考〉</title>，堅主奘公享年六十九
-<lb n="0353a03" ed="Y"/><lb n="0357a03" ed="Y" type="old"/>歲，載於<bibl><title level="m">《香港佛教》</title><biblScope to="3" type="issue" from="1">一——三期</biblScope></bibl>。然察其論證，未為平允。奘公為我國傑出之
+<lb n="0353a02" ed="Y"/><lb n="0357a02" ed="Y" type="old"/><p xml:id="pY22p0353a0201" style="text-indent:2em">羅香林先生，承梁任公之說，撰<title level="a">〈玄奘法師年代考〉</title>，堅主奘公享年六十九
+<lb n="0353a03" ed="Y"/><lb n="0357a03" ed="Y" type="old"/>歲，載於<bibl><title level="m">《香港佛教》</title><biblScope from="1" to="3" type="issue">一——三期</biblScope></bibl>。然察其論證，未為平允。奘公為我國傑出之
 <lb n="0353a04" ed="Y"/><lb n="0357a04" ed="Y" type="old"/>大師，有關中印文化之交流者甚大，近人多所論述。因取而論正之，非敢與時賢
 <lb n="0353a05" ed="Y"/><lb n="0357a05" ed="Y" type="old"/>故為出入焉。</p>
-<lb n="0353a06" ed="Y"/><lb n="0357a06" ed="Y" type="old"/><p style="text-indent:2em">詳敘奘公一代事跡者，不外三書：(一)、冥詳所撰<title level="m">《大唐故三藏玄奘法師行狀
+<lb n="0353a06" ed="Y"/><lb n="0357a06" ed="Y" type="old"/><p xml:id="pY22p0353a0601" style="text-indent:2em">詳敘奘公一代事跡者，不外三書：(一)、冥詳所撰<title level="m">《大唐故三藏玄奘法師行狀
 <lb n="0353a07" ed="Y"/><lb n="0357a07" ed="Y" type="old"/>》</title>（簡稱<title level="m">《行狀》</title>），最為先出。奘公卒於麟德元年（西元六六四年）二月五日
 <lb n="0353a08" ed="Y"/><lb n="0357a08" ed="Y" type="old"/>。三月十五日，敕京城僧尼以幢蓋送葬。四月十五日，葬於滻東白鹿原。<cit><bibl><title level="m">《行狀
 <lb n="0353a09" ed="Y"/><lb n="0357a09" ed="Y" type="old"/>》</title>說及敕葬而未及葬事，有</bibl><quote source="T50n2052_p0219c20" type="嚴謹引文">「捨命時經六十日，頭髮漸生」</quote><note n="0353002" resp="周怡曄" type="add">《大唐故三藏玄奘法師行狀》卷1(CBETA, T50, no. 2052, p. 219, c20)</note></cit>之語，可斷為四月初
-<lb n="0353a10" ed="Y"/><lb n="0357a10" ed="Y" type="old"/>旬，臨葬前所作。(二)、道宣撰<bibl><title level="m">《續高僧傳》</title><biblScope type="卷" n="4">卷四</biblScope>之<title level="a">〈京大慈恩寺釋玄奘傳〉</title></bibl>（簡
+<lb n="0353a10" ed="Y"/><lb n="0357a10" ed="Y" type="old"/>旬，臨葬前所作。(二)、道宣撰<bibl><title level="m">《續高僧傳》</title><biblScope n="4" type="卷">卷四</biblScope>之<title level="a">〈京大慈恩寺釋玄奘傳〉</title></bibl>（簡
 <lb n="0353a11" ed="Y"/><lb n="0357a11" ed="Y" type="old"/>稱<title level="m">《僧傳》</title>）。道宣卒於乾封三年（西元六六七年），距奘公之卒僅三年。<title level="m">《僧<pb n="0358a" ed="Y" xml:id="Y22.0022.0358a.old" type="old"/>
 <pb n="0354a" ed="Y" xml:id="Y22.0022.0354a"/>
 <lb n="0354a01" ed="Y"/><lb n="0358a01" ed="Y" type="old"/>傳》</title>之寫定，當即此二、三年內。(三)、<title level="m">《大慈恩寺三藏法師傳》</title>（簡稱<title level="m">《慈恩傳
@@ -82,10 +102,10 @@
 <lb n="0354a04" ed="Y"/><lb n="0358a04" ed="Y" type="old"/>：<quote source="T50n2053_p0221b12-13" type="嚴謹引文">「乃參犬羊以虎豹，糅瓦石以琳璆；錯綜本文，箋為十卷。」<note n="0354001" resp="周怡曄" type="add">《大唐大慈恩寺三藏法師傳》卷1(CBETA, T50, no. 2053, p. 221, b12-13)</note></quote>是知今傳間異慧
 <lb n="0354a05" ed="Y"/><lb n="0358a05" ed="Y" type="old"/>立之舊。垂拱四年，即西元六八八年，去奘公之卒，已二十四年矣。餘如唐劉軻
 <lb n="0354a06" ed="Y"/><lb n="0358a06" ed="Y" type="old"/>所作<title level="a">〈唐三藏大遍覺法師塔銘（并序）〉</title>（簡稱<title level="a">〈塔銘〉</title>），撰於文宗開成二年（
-<lb n="0354a07" ed="Y"/>西<lb n="0358a07" ed="Y" type="old"/>元八三七年）。<bibl><title level="m">《舊唐書》</title><biblScope type="卷" n="191">卷一百九十一</biblScope>之<title level="a">〈僧玄奘傳〉</title></bibl>（簡稱<title level="a">〈本傳〉</title>），雖
+<lb n="0354a07" ed="Y"/>西<lb n="0358a07" ed="Y" type="old"/>元八三七年）。<bibl><title level="m">《舊唐書》</title><biblScope n="191" type="卷">卷一百九十一</biblScope>之<title level="a">〈僧玄奘傳〉</title></bibl>（簡稱<title level="a">〈本傳〉</title>），雖
 <lb n="0354a08" ed="Y"/><lb n="0358a08" ed="Y" type="old"/>或以唐臣所修國史為本，而實成於後晉之世（西元九三六——九四六年）。文既
 <lb n="0354a09" ed="Y"/><lb n="0358a09" ed="Y" type="old"/>後出，義多因襲。論奘公之年代，應以前述三書為主。</p>
-<lb n="0354a10" ed="Y"/><lb n="0358a10" ed="Y" type="old"/><p style="text-indent:2em">奘公卒於麟德元年，享壽則有<title level="m">《行狀》</title>之六十三歲說，<title level="m">《僧傳》</title>之六十五歲
+<lb n="0354a10" ed="Y"/><lb n="0358a10" ed="Y" type="old"/><p xml:id="pY22p0354a1001" style="text-indent:2em">奘公卒於麟德元年，享壽則有<title level="m">《行狀》</title>之六十三歲說，<title level="m">《僧傳》</title>之六十五歲
 <lb n="0354a11" ed="Y"/><lb n="0358a11" ed="Y" type="old"/>說，<title level="m">《慈恩傳》</title>（文隱而義顯）及<title level="a">〈塔銘〉</title>之六十九歲說，究以何說為是？茲先<lb n="0358a12" ed="Y" type="old"/>檢
 <lb n="0354a12" ed="Y"/>考三書，察其自身之有否矛盾。(一)、<title level="m">《行狀》</title>有<quote type="嚴謹引文">「今麟德元年，吾行年六十有<lb n="0358a13" ed="Y" type="old"/>三
 <lb n="0354a13" ed="Y"/>，必卒於玉花（宮）」<note n="0354002" resp="厚觀法師" type="add">《大唐故三藏玄奘法師行狀》卷1(CBETA, T50, no. 2052, p. 219, a18-19)</note></quote>之說，據此，奘公應生於隋仁壽二年（西元六〇二年）<pb n="0359a" ed="Y" xml:id="Y22.0022.0359a.old" type="old"/><lb n="0359a01" ed="Y" type="old"/>。<cit><bibl><title level="m">《
@@ -106,25 +126,25 @@
 <pb n="0356a" ed="Y" xml:id="Y22.0022.0356a"/>
 <lb n="0356a01" ed="Y"/>具。」</quote><note n="0356001" resp="周怡曄" type="add">《大唐大慈恩寺三藏法師傳》卷1(CBETA, T50, no. 2053, p. 222, b4-5)</note></cit>依六十九歲說，此年實為二十七歲。又云：<quote type="嚴謹引文">「貞觀三年秋……遂即行矣<lb n="0360a02" ed="Y" type="old"/>，
 <lb n="0356a02" ed="Y"/>時年二十六也。」<note n="0356002" resp="厚觀法師" type="add">《大唐大慈恩寺三藏法師傳》卷1：「貞觀三年秋八月，將欲首塗，又求祥瑞。乃夜夢見大海中有蘇迷盧山，四寶所成，極為嚴麗。意欲登山，而洪濤洶湧，又無船栰，不以為懼，乃決意而入。忽見石蓮華涌乎波外，應足而生，却而觀之，隨足而滅。須臾至山下，又峻峭不可上。試踊身自騰，有摶飈颯至，扶而上昇。到山頂，四望廓然，無復擁礙，喜而寤焉，遂即行矣。時年二十六也。」(CBETA, T50, no. 2053, p. 222, c15-23)</note></quote>依六十九歲說，此年應為三十四歲。總察三書，雖所說年代<lb n="0360a03" ed="Y" type="old"/>，
-<lb n="0356a03" ed="Y"/>俱不無自相<note n="0356a0301" resp="CBETA" type="add">剌【CB】，刺【印順】</note><app n="0356a0301"><lem wit="【CB】" resp="正聞出版社">剌</lem><rdg wit="【印順】">刺</rdg></app>謬之處，此或傳寫致誤。<title level="m">《僧傳》</title>與<title level="m">《慈恩傳》</title>，雖別主六十五<lb n="0360a04" ed="Y" type="old"/>、
+<lb n="0356a03" ed="Y"/>俱不無自相<note n="0356a0301" resp="CBETA" type="add">剌【CB】，刺【印順】</note><app n="0356a0301"><lem resp="正聞出版社" wit="【CB】">剌</lem><rdg wit="【印順】">刺</rdg></app>謬之處，此或傳寫致誤。<title level="m">《僧傳》</title>與<title level="m">《慈恩傳》</title>，雖別主六十五<lb n="0360a04" ed="Y" type="old"/>、
 <lb n="0356a04" ed="Y"/>六十九說，而實沿襲<title level="m">《行狀》</title>之說，宜其多所矛盾。</p>
-<lb n="0356a05" ed="Y"/><lb n="0360a05" ed="Y" type="old"/><p style="text-indent:2em">奘公享年，雖三說不同，然並本於奘公——<quote>「吾年六十╳矣，將卒於玉華」</quote>
+<lb n="0356a05" ed="Y"/><lb n="0360a05" ed="Y" type="old"/><p xml:id="pY22p0356a0501" style="text-indent:2em">奘公享年，雖三說不同，然並本於奘公——<quote>「吾年六十╳矣，將卒於玉華」</quote>
 <lb n="0356a06" ed="Y"/><lb n="0360a06" ed="Y" type="old"/>之傳說。其中六十九歲，決非吾人所敢贊同，茲列其說而後比論之。</p>
-<lb n="0356a07" ed="Y"/><lb n="0360a07" ed="Y" type="old"/><p style="margin-left:3em"><cit><bibl><title level="m">《行狀》</title>：</bibl><quote type="嚴謹引文">「麟德元年正月一日，玉花寺眾及僧等，請翻<title level="m">《大寶積經》</title>。
+<lb n="0356a07" ed="Y"/><lb n="0360a07" ed="Y" type="old"/><p xml:id="pY22p0356a0701" style="margin-left:3em"><cit><bibl><title level="m">《行狀》</title>：</bibl><quote type="嚴謹引文">「麟德元年正月一日，玉花寺眾及僧等，請翻<title level="m">《大寶積經》</title>。
 <lb n="0356a08" ed="Y"/>法師<lb n="0360a08" ed="Y" type="old"/>……謂弟子及翻經僧等：有為之法，必歸磨滅。泡幻之質，何得久停
 <lb n="0356a09" ed="Y"/>！今<lb n="0360a09" ed="Y" type="old"/>麟德元年，吾行年六十有三，必卒於玉花。……徒眾聞者，無不驚泣
 <lb n="0356a10" ed="Y"/>。…<lb n="0360a10" ed="Y" type="old"/>…正月三日，法師又告門人：吾恐無常，欲往辭佛。……九日申時，
 <lb n="0356a11" ed="Y"/>……曰<lb n="0360a11" ed="Y" type="old"/>：某必當死。」</quote><note n="0356003" resp="厚觀法師" type="add">《大唐故三藏玄奘法師行狀》卷1：「麟德元年正月一日。玉花寺眾及僧等。請翻大寶積經。法師辭曰。知此經於漢土未有[綠>緣]。縱翻亦不了。固請不免。法師曰。翻必不滿五行。遂譯四行止。謂弟子及翻經僧等。有為之法。必歸磨滅。泡幻之質。何得久停。今麟德元年。吾行年六十有三。必卒於玉花。若於經論有疑。宜即速問。勿為後悔。徒眾聞者。無不驚泣。皆曰。和上尊體康和。計年未至耆耄。何為忽作此言。報曰。此事自知。非徒眾所悉。是時法師。未有疾患。徒眾相顧。咸生疑怪。至正月三日。法師又告門人。吾恐無常。欲往辭佛。遂與弟子等往。先造俱[偶>胝]像所。禮懺辭別。其有翻經僧及子等。辭向京覲省者。法師皆報云。汝宜好去。所有衣鉢經書。並皆將去。吾與汝別。汝亦不須更來。設來亦不相見。去者報云。和上康休。必無此事。法師報曰。非汝所知。去者果不重見。至正月八日。有弟子僧玄覺。夜見夢一大木浮圖。高顯嚴麗。意欲瞻仰。忽然摧倒崩振。心驚。遂即睡寤。平旦參禮。具說此事。法師報曰。此事屬我。不關於汝。勿為憂怖。至月九日申時。又告玉花寺寺主慧德等曰。某必當死。」(CBETA, T50, no. 2052, p. 219, a13-b5)</note></cit></p>
-<lb n="0356a12" ed="Y"/><lb n="0360a12" ed="Y" type="old"/><p style="margin-left:3em"><cit><bibl><title level="m">《僧傳》</title>：</bibl><quote source="T50n2060_p0458a11-18" type="嚴謹引文">「麟德元年，告翻經僧及門人曰：有為之法，必歸磨滅。泡幻
+<lb n="0356a12" ed="Y"/><lb n="0360a12" ed="Y" type="old"/><p xml:id="pY22p0356a1201" style="margin-left:3em"><cit><bibl><title level="m">《僧傳》</title>：</bibl><quote source="T50n2060_p0458a11-18" type="嚴謹引文">「麟德元年，告翻經僧及門人曰：有為之法，必歸磨滅。泡幻
 <lb n="0356a13" ed="Y"/><lb n="0360a13" ed="Y" type="old"/>形質，何得久停！行年六十五矣，必卒玉華。……遂往辭佛。……正月九<pb n="0361a" ed="Y" xml:id="Y22.0022.0361a.old" type="old"/>
 <pb n="0357a" ed="Y" xml:id="Y22.0022.0357a"/>
 <lb n="0357a01" ed="Y"/><lb n="0361a01" ed="Y" type="old"/>日，告寺僧曰：奘必當死。」</quote><note n="0357001" resp="周怡曄" type="add">《續高僧傳》卷4：「麟德元年告翻經僧及門人曰。有為之法必歸磨滅。泡幻形質何得久停。行年六十五矣。必卒玉華。於經論有疑者可速問。聞者驚曰。年未耆耄何出此言。報曰。此事自知。遂往辭佛。先造俱胝十億像所。禮懺辭別。有門人外行者。皆報好去。今與汝別亦不須來來亦不見。至正月九日告寺僧曰。奘必當死。」(CBETA, T50, no. 2060, p. 458, a11-18)</note></cit></p>
-<lb n="0357a02" ed="Y"/><lb n="0361a02" ed="Y" type="old"/><p style="margin-left:3em"><cit><bibl><title level="m">《慈恩傳》</title>：</bibl><quote type="嚴謹引文">「（顯慶）五年春正月一日，起首翻<title level="m">《大般若經》</title>。……法
+<lb n="0357a02" ed="Y"/><lb n="0361a02" ed="Y" type="old"/><p xml:id="pY22p0357a0201" style="margin-left:3em"><cit><bibl><title level="m">《慈恩傳》</title>：</bibl><quote type="嚴謹引文">「（顯慶）五年春正月一日，起首翻<title level="m">《大般若經》</title>。……法
 <lb n="0357a03" ed="Y"/>師翻<lb n="0361a03" ed="Y" type="old"/>此經時，汲汲然恒慮無常，謂諸僧曰：玄奘今年六十有五，必當卒命
 <lb n="0357a04" ed="Y"/>於此<lb n="0361a04" ed="Y" type="old"/>伽藍。……麟德元年春正月朔一日……請翻<title level="m">《大寶積經》</title>。……玄奘
 <lb n="0357a05" ed="Y"/>自量氣力<lb n="0361a05" ed="Y" type="old"/>不復辦此，死期已至，勢非賒遠。今欲往蘭芝等谷，拜辭俱胝佛
 <lb n="0357a06" ed="Y"/>像。」</quote></cit></p>
-<lb n="0357a07" ed="Y"/><lb n="0361a06" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《行狀》</title>與<title level="m">《僧傳》</title>所說相同，僅六十三與六十五之異，此或傳寫之誤，姑
+<lb n="0357a07" ed="Y"/><lb n="0361a06" ed="Y" type="old"/><p xml:id="pY22p0357a0701" style="text-indent:2em"><title level="m">《行狀》</title>與<title level="m">《僧傳》</title>所說相同，僅六十三與六十五之異，此或傳寫之誤，姑
 <lb n="0357a08" ed="Y"/><lb n="0361a07" ed="Y" type="old"/>置不論。奘公卒於二月五日，與正月一日相距不過月餘，奘公宣稱將卒於玉華，
 <lb n="0357a09" ed="Y"/><lb n="0361a08" ed="Y" type="old"/>事固近情可信。<title level="m">《慈恩傳》</title>繫此語於初翻<title level="m">《大般若經》</title>時——顯慶五年（西元六
 <lb n="0357a10" ed="Y"/>〇<lb n="0361a09" ed="Y" type="old"/>〇）正月一日，下距奘公之卒，四年一月有餘。四年以前，奘公即宣稱將卒於
@@ -137,7 +157,7 @@
 <lb n="0358a03" ed="Y"/>言<lb n="0362a02" ed="Y" type="old"/><quote source="T50n2052_p0219a18" type="嚴謹引文">「行年六十有三」<note n="0358003" resp="周怡曄" type="add">《大唐故三藏玄奘法師行狀》卷1(CBETA, T50, no. 2052, p. 219, a18)</note></quote>，撰<title level="m">《行狀》</title>者加上「麟德元年」字樣，亦不足以證其謬。
 <lb n="0358a04" ed="Y"/>蓋繫<lb n="0362a03" ed="Y" type="old"/>此語於麟德元年，非<title level="m">《行狀》</title>私說，亦<title level="m">《僧傳》</title>所同。乃羅氏必指此為「違
 <lb n="0358a05" ed="Y"/>異者<lb n="0362a04" ed="Y" type="old"/>一」，誠可異也！</p>
-<lb n="0358a06" ed="Y"/><lb n="0362a05" ed="Y" type="old"/><p style="text-indent:2em">次從奘公出家、受具、西行之年代，以推論三說之孰為允當。為推論便宜計
+<lb n="0358a06" ed="Y"/><lb n="0362a05" ed="Y" type="old"/><p xml:id="pY22p0358a0601" style="text-indent:2em">次從奘公出家、受具、西行之年代，以推論三說之孰為允當。為推論便宜計
 <lb n="0358a07" ed="Y"/><lb n="0362a06" ed="Y" type="old"/>，先論西行之年代。奘公於貞觀三年西遊天竺，為從來所公認。貞觀十八年，奘
 <lb n="0358a08" ed="Y"/><lb n="0362a07" ed="Y" type="old"/>公自于闐上表，即謂：<quote source="T50n2053_p0251c18-19" type="嚴謹引文">「貞觀三年四月，冒越憲章，私往天竺。」<note n="0358004" resp="周怡曄" type="add">《大唐大慈恩寺三藏法師傳》卷5(CBETA, T50, no. 2053, p. 251, c18-19)</note></quote>二十年，<title level="a">〈請
 <lb n="0358a09" ed="Y"/>御製三<lb n="0362a08" ed="Y" type="old"/>藏聖教序表〉</title>亦謂：<quote source="T52n2103_p0258a09-10" type="嚴謹引文">「奘以貞觀三<note n="0358005" resp="周怡曄" type="add">《廣弘明集》卷22：「請御[3]制[4]經序[5]表沙門玄奘言。奘以貞觀元年。往遊西域。」(CBETA, T52, no. 2103, p. 258, a9-10)[3]制＝製【宋】【元】【明】【宮】。[4]經＝三藏聖教【明】。[5]表＋（唐三藏法師玄奘）【宋】【元】，（唐釋玄奘）【明】。</note>年，私往天竺。」</quote>辨機<cit><bibl><title level="m">《西域記》</title>謂</bibl><quote source="T51n2087_p0867c12" type="嚴謹引文">「貞
@@ -146,7 +166,7 @@
 <lb n="0358a12" ed="Y"/>狀》</title>、<lb n="0362a11" ed="Y" type="old"/><title level="m">《僧傳》</title>、<title level="m">《慈恩傳》</title>等，更無異說。然自梁任公考出葉護可汗卒於貞觀二
 <lb n="0358a13" ed="Y"/>年<lb n="0362a12" ed="Y" type="old"/>，而後奘公於貞觀元年西行，乃成不易之定論。</p>
 <pb n="0359a" ed="Y" xml:id="Y22.0022.0359a"/>
-<lb n="0359a01" ed="Y"/><lb n="0362a13" ed="Y" type="old"/><p style="text-indent:2em">今略為敘述：奘公西去，曾晤見西突厥葉護可汗，並得其助力。然<cit><bibl>《<title level="m">新唐書<pb n="0363a" ed="Y" xml:id="Y22.0022.0363a.old" type="old"/></title>
+<lb n="0359a01" ed="Y"/><lb n="0362a13" ed="Y" type="old"/><p xml:id="pY22p0359a0101" style="text-indent:2em">今略為敘述：奘公西去，曾晤見西突厥葉護可汗，並得其助力。然<cit><bibl>《<title level="m">新唐書<pb n="0363a" ed="Y" xml:id="Y22.0022.0363a.old" type="old"/></title>
 <lb n="0359a02" ed="Y"/><lb n="0363a01" ed="Y" type="old"/>．<title level="a">薛延陀傳</title>》謂：</bibl><quote>「貞觀二年，葉護死，其國亂。」</quote></cit><cit><bibl>《<title level="m">新唐書</title>．<title level="a">突厥傳</title>》亦謂：<lb n="0363a02" ed="Y" type="old"/>葉
 <lb n="0359a03" ed="Y"/>護死後，</bibl><quote>「乙毘鉢羅肆葉護可汗，與俟毘可汗，分王其國，拏鬥不解，各遣使<lb n="0363a03" ed="Y" type="old"/>朝
 <lb n="0359a04" ed="Y"/>獻」</quote></cit>。<title level="m">《舊唐書》</title>同。此與〈太宗本紀〉<quote>「（貞觀三年）冬十一月丙午，西突厥<lb n="0363a04" ed="Y" type="old"/>、
@@ -156,7 +176,7 @@
 <lb n="0359a08" ed="Y"/>之<cit><bibl><title level="m">《舊唐書》</title>，</bibl><quote>「貞觀元年……八月……關東及河南、隴右沿邊諸州，霜害秋稼
 <lb n="0359a09" ed="Y"/><lb n="0363a08" ed="Y" type="old"/>」</quote></cit>；三年則並無霜儉之事。乃知<title level="m">《僧傳》</title>之三年，實為貞觀元年之誤。元年秋西
 <lb n="0359a10" ed="Y"/><lb n="0363a09" ed="Y" type="old"/>行，故得見葉護可汗，並得其助力也。</p>
-<lb n="0359a11" ed="Y"/><lb n="0363a10" ed="Y" type="old"/><p style="text-indent:2em">然則諸書何以悉云貞觀三年西行，事殊費解。梁任公之<title level="m">《中國歷史研究法》</title>
+<lb n="0359a11" ed="Y"/><lb n="0363a10" ed="Y" type="old"/><p xml:id="pY22p0359a1101" style="text-indent:2em">然則諸書何以悉云貞觀三年西行，事殊費解。梁任公之<title level="m">《中國歷史研究法》</title>
 <lb n="0359a12" ed="Y"/>，以<lb n="0363a11" ed="Y" type="old"/>為諸書為依據同一藍本，藍本誤而悉誤。此為唯一合理之解說，蓋古書多屬
 <lb n="0359a13" ed="Y"/>抄寫<lb n="0363a12" ed="Y" type="old"/>，雜以行草，誤讀元年為三年，極為可能。羅君不取此說而創為別解，以為
 <pb n="0360a" ed="Y" xml:id="Y22.0022.0360a"/>
@@ -172,7 +192,7 @@
 <lb n="0360a10" ed="Y"/>：<quote type="嚴謹引文">「踐流<lb n="0364a09" ed="Y" type="old"/>沙之漫漫，陟雪嶺之巍巍，鐵門巉嶮之塗，熱海波濤之路。始自長安神
 <lb n="0360a11" ed="Y"/>邑，終於<lb n="0364a10" ed="Y" type="old"/>王舍新城。」</quote>私往之說，明明若是，何得別解為「已達北印之時」？然
 <lb n="0360a12" ed="Y"/>此實應為<lb n="0364a11" ed="Y" type="old"/>貞觀元年，故三年之說，必為誤寫無疑。</p>
-<lb n="0360a13" ed="Y"/><lb n="0364a12" ed="Y" type="old"/><p style="text-indent:2em">舊傳奘公於貞觀三年西征，<title level="m">《行狀》</title>及<title level="m">《僧傳》</title>作二十九歲；<title level="m">《慈恩傳》</title>作
+<lb n="0360a13" ed="Y"/><lb n="0364a12" ed="Y" type="old"/><p xml:id="pY22p0360a1301" style="text-indent:2em">舊傳奘公於貞觀三年西征，<title level="m">《行狀》</title>及<title level="m">《僧傳》</title>作二十九歲；<title level="m">《慈恩傳》</title>作
 <pb n="0361a" ed="Y" xml:id="Y22.0022.0361a"/>
 <lb n="0361a01" ed="Y"/><lb n="0364a13" ed="Y" type="old"/>二十六歲，俱不符合。今考定為貞觀元年成行，依六十九歲說，時為三十二歲；<pb n="0365a" ed="Y" xml:id="Y22.0022.0365a.old" type="old"/>
 <lb n="0361a02" ed="Y"/><lb n="0365a01" ed="Y" type="old"/>依六十五歲說，時為二十八歲；依六十三歲說，則為二十六歲。<title level="m">《慈恩傳》</title>之二
@@ -183,7 +203,7 @@
 <lb n="0361a07" ed="Y"/><title level="m">《行狀》</title>同。可推見關於西行之年歲，本為二十六歲，<title level="m">《慈恩傳》</title>乃據而書之<lb n="0365a07" ed="Y" type="old"/>。
 <lb n="0361a08" ed="Y"/>唯<title level="m">《行狀》</title>及<title level="m">《僧傳》</title>之「六」字，已形誤而傳寫為「九」，致與六十三歲說<lb n="0365a08" ed="Y" type="old"/>不
 <lb n="0361a09" ed="Y"/>符耳。</p>
-<lb n="0361a10" ed="Y"/><lb n="0365a09" ed="Y" type="old"/><p style="text-indent:2em">關於奘公西行之年月，其自于闐上表，作<quote>「三年四月」</quote>；<cit><bibl><title level="m">《西域記》</title>作</bibl><quote type="嚴謹引文">「<lb n="0365a10" ed="Y" type="old"/>三
+<lb n="0361a10" ed="Y"/><lb n="0365a09" ed="Y" type="old"/><p xml:id="pY22p0361a1001" style="text-indent:2em">關於奘公西行之年月，其自于闐上表，作<quote>「三年四月」</quote>；<cit><bibl><title level="m">《西域記》</title>作</bibl><quote type="嚴謹引文">「<lb n="0365a10" ed="Y" type="old"/>三
 <lb n="0361a11" ed="Y"/>年仲秋朔旦」</quote></cit>；<cit><bibl><title level="m">《慈恩傳》</title>慧立序作</bibl><quote source="T50n2053_p0222c15-16" type="嚴謹引文">「三年秋八月」</quote><note n="0361001" resp="周怡曄" type="add">《大唐大慈恩寺三藏法師傳》卷1(CBETA, T50, no. 2053, p. 222, c15-16)</note></cit>。今知三年乃元年之誤<lb n="0365a11" ed="Y" type="old"/>；四
 <lb n="0361a12" ed="Y"/>月與八月（仲秋）之歧說，應如何決定？今謂應是八月。其理由為：一、<title level="m">《<lb n="0365a12" ed="Y" type="old"/>西域
 <lb n="0361a13" ed="Y"/>記》</title>與<title level="m">《慈恩傳》</title>同，仲秋即八月，明文不應有誤；而四月之四，可能乃以<lb n="0365a13" ed="Y" type="old"/>八為
@@ -210,7 +230,7 @@
 <lb n="0363a06" ed="Y"/>」<note n="0363005" resp="周怡曄" type="add">《大唐大慈恩寺三藏法師傳》卷2(CBETA, T50, no. 2053, p. 227, a14)</note></quote>，至跋祿迦<lb n="0367a05" ed="Y" type="old"/>國；再<quote source="T50n2053_p0227a15" type="嚴謹引文">「西北行三百里」<note n="0363006" resp="周怡曄" type="add">《大唐大慈恩寺三藏法師傳》卷2(CBETA, T50, no. 2053, p. 227, a15)</note></quote>而至凌山。五月下旬（或六月上旬），通
 <lb n="0363a07" ed="Y"/>過凌山雪道，<lb n="0367a06" ed="Y" type="old"/>甚為適合。若奘公四月成行，則此時為正、二月間，其不宜通過凌
 <lb n="0363a08" ed="Y"/>山，至為顯然。<lb n="0367a07" ed="Y" type="old"/>故奘公應為貞觀元年八月，西往天竺。</p>
-<lb n="0363a09" ed="Y"/><lb n="0367a08" ed="Y" type="old"/><p style="text-indent:2em">論奘公出家之年，羅君之誤說特多。彼謂：<quote>「考玄奘初於洛陽被度為僧，<title level="m">《
+<lb n="0363a09" ed="Y"/><lb n="0367a08" ed="Y" type="old"/><p xml:id="pY22p0363a0901" style="text-indent:2em">論奘公出家之年，羅君之誤說特多。彼謂：<quote>「考玄奘初於洛陽被度為僧，<title level="m">《
 <lb n="0363a10" ed="Y"/>慈<lb n="0367a09" ed="Y" type="old"/>恩傳》</title>與<title level="a">〈塔銘〉</title>，均謂在其年十三歲之年。而<title level="m">《行狀》</title>則謂在大業之際，時年
 <lb n="0363a11" ed="Y"/>十五歲也。<lb n="0367a10" ed="Y" type="old"/><title level="m">《僧傳》</title>則謂其年在十一歲時。若以玄奘本人所自述者言之，則以十
 <lb n="0363a12" ed="Y"/>三歲一說為最<lb n="0367a11" ed="Y" type="old"/>得實。」</quote>然精讀<title level="m">《行狀》</title>、<title level="m">《僧傳》</title>及<title level="m">《慈恩傳》</title>，乃知羅君所說，
@@ -221,7 +241,7 @@
 <lb n="0364a03" ed="Y"/>大業之際，詔度僧尼。……因聽落飾，止於東都淨土道場。</cell><cell>東都恒度，便預其次。……</cell><cell>俄而有勅，於洛陽度二七僧……得出家。……</cell></row><row><cell>
 <pb n="0365a" ed="Y" xml:id="Y22.0022.0365a"/>
 <lb n="0365a01" ed="Y"/>時寺有景法師講<title level="m">《涅槃經》</title>……又學嚴法師<title level="m">《攝論》</title>……昇座覆述，抑揚剖暢，備盡師宗。美問芳聲，從茲發爽（矣），時年十五也。」</cell><cell>時……<title level="m">《涅槃》</title>、<title level="m">《攝論》</title>，輪馳相係。……僧徒異其欣奉，美其風素。……重其學功，弘開役務，時年十五。」</cell><cell>時寺有景法師講<title level="m">《涅槃經》</title>，……又學嚴法師<title level="m">《攝大乘論》</title>……昇座覆述，抑揚剖暢，備盡師宗。美聞芳聲，從茲發矣，時年十三也。」</cell></row></table>
-<lb n="0365a02" ed="Y"/><lb n="0369a02" ed="Y" type="old"/><p style="text-indent:2em">察<title level="m">《行狀》</title>、<title level="m">《僧傳》</title>之「時年十五」，<title level="m">《慈恩傳》</title>之「時年十三」，非指<lb n="0369a03" ed="Y" type="old"/>奘
+<lb n="0365a02" ed="Y"/><lb n="0369a02" ed="Y" type="old"/><p xml:id="pY22p0365a0201" style="text-indent:2em">察<title level="m">《行狀》</title>、<title level="m">《僧傳》</title>之「時年十五」，<title level="m">《慈恩傳》</title>之「時年十三」，非指<lb n="0369a03" ed="Y" type="old"/>奘
 <lb n="0365a03" ed="Y"/>公得度為僧，乃於淨土寺研學<title level="m">《涅槃經》</title>、<title level="m">《攝大乘論》</title>，登座覆述，而為寺<lb n="0369a04" ed="Y" type="old"/>眾推
 <lb n="0365a04" ed="Y"/>重之時。<title level="m">《涅槃經》</title>三六卷（南本），梁譯<title level="m">《攝大乘論》</title>一五卷，並當時有<lb n="0369a05" ed="Y" type="old"/>名之大
 <lb n="0365a05" ed="Y"/>經大論，文繁義富，年十五（或十三）而能備盡師宗，誠非易事！修學經<lb n="0369a06" ed="Y" type="old"/>論，振
@@ -241,14 +261,14 @@
 <lb n="0366a05" ed="Y"/>三，<lb n="0370a05" ed="Y" type="old"/>不外傳寫之誤。此如<title level="m">《行狀》</title>之「年六十三」，<title level="m">《僧傳》</title>及<title level="m">《慈恩傳》</title>，傳
 <lb n="0366a06" ed="Y"/>寫為<lb n="0370a06" ed="Y" type="old"/>六十五。據武德五年為二十一歲論之，亦是傳寫之誤。三五互誤，非關傳聞
 <lb n="0366a07" ed="Y"/>之異<lb n="0370a07" ed="Y" type="old"/>。</p>
-<lb n="0366a08" ed="Y"/><lb n="0370a08" ed="Y" type="old"/><p style="text-indent:2em">奘公離高昌時，上高昌王表云<quote source="T50n2053_p0225c19-20" type="嚴謹引文">「宿因有慶，早預緇門，負笈從師，年將二<lb n="0370a09" ed="Y" type="old"/>紀
+<lb n="0366a08" ed="Y"/><lb n="0370a08" ed="Y" type="old"/><p xml:id="pY22p0366a0801" style="text-indent:2em">奘公離高昌時，上高昌王表云<quote source="T50n2053_p0225c19-20" type="嚴謹引文">「宿因有慶，早預緇門，負笈從師，年將二<lb n="0370a09" ed="Y" type="old"/>紀
 <lb n="0366a09" ed="Y"/>」<note n="0366005" resp="周怡曄" type="add">《大唐大慈恩寺三藏法師傳》卷1(CBETA, T50, no. 2053, p. 225, c19-20)</note></quote>，羅君推為<quote>「為考定玄奘年代之最大關鍵」</quote>。然<title level="m">《行狀》</title>主行年六十三說，<lb n="0370a10" ed="Y" type="old"/>應
 <lb n="0366a10" ed="Y"/>生於仁壽二年（西元六〇二年）。十一歲出家，為大業八年（西元六一二），<lb n="0370a11" ed="Y" type="old"/>與
 <lb n="0366a11" ed="Y"/><quote source="T50n2052_p0214a17" type="嚴謹引文">「大業之際」<note n="0366006" resp="周怡曄" type="add">《大唐故三藏玄奘法師行狀》卷1(CBETA, T50, no. 2052, p. 214, a17)</note></quote>合。依上來敘述，奘公離高昌上表時，為貞觀二年（西元六二八<lb n="0370a12" ed="Y" type="old"/>年
 <lb n="0366a12" ed="Y"/>）二月。出家至此，始末十七年，與「年將二紀」之說，並無不合。將者，將<lb n="0370a13" ed="Y" type="old"/>至
 <lb n="0366a13" ed="Y"/>未至，大抵十六、七年以上，即可稱「年將二紀」也。</p><pb n="0371a" ed="Y" xml:id="Y22.0022.0371a.old" type="old"/>
 <pb n="0367a" ed="Y" xml:id="Y22.0022.0367a"/>
-<lb n="0367a01" ed="Y"/><lb n="0371a01" ed="Y" type="old"/><p style="text-indent:2em"><cit><bibl><title level="m">《行狀》</title>之</bibl><quote source="T50n2052_p0214b24-25" type="嚴謹引文">「法師年二十有一，以武德五年，於城都受具，坐夏學律」</quote><note n="0367001" resp="周怡曄" type="add">《大唐故三藏玄奘法師行狀》卷1(CBETA, T50, no. 2052, p. 214, b24-25)</note></cit>，<cit><bibl><title level="m">《
+<lb n="0367a01" ed="Y"/><lb n="0371a01" ed="Y" type="old"/><p xml:id="pY22p0367a0101" style="text-indent:2em"><cit><bibl><title level="m">《行狀》</title>之</bibl><quote source="T50n2052_p0214b24-25" type="嚴謹引文">「法師年二十有一，以武德五年，於城都受具，坐夏學律」</quote><note n="0367001" resp="周怡曄" type="add">《大唐故三藏玄奘法師行狀》卷1(CBETA, T50, no. 2052, p. 214, b24-25)</note></cit>，<cit><bibl><title level="m">《
 <lb n="0367a02" ed="Y"/>慈恩<lb n="0371a02" ed="Y" type="old"/>傳》</title>全同，但作</bibl><quote source="T50n2053_p0222b04-05" type="嚴謹引文">「年滿二十」</quote><note n="0367002" resp="周怡曄" type="add">《大唐大慈恩寺三藏法師傳》卷(CBETA, T50, no. 2053, p. 222, b4-5)</note></cit>。年滿二十，即中國習用之二十一歲。<cit><bibl><title level="m">《僧傳
 <lb n="0367a03" ed="Y"/>》</title>亦<lb n="0371a03" ed="Y" type="old"/>同，說</bibl><quote source="T50n2060_p0447a14" type="嚴謹引文">「武德五年，二十有一」</quote><note n="0367003" resp="周怡曄" type="add">《續高僧傳》卷4(CBETA, T50, no. 2060, p. 447, a14)</note></cit>。佛制：出家之稱，通於沙彌，故七歲以上
 <lb n="0367a04" ed="Y"/>，即可<lb n="0371a04" ed="Y" type="old"/>出家。受具，即受具足戒。受此具足戒已，名為比丘。此則佛制以「年滿
@@ -270,7 +290,7 @@
 <lb n="0368a06" ed="Y"/>相違，<lb n="0372a06" ed="Y" type="old"/>其誤二。解<title level="m">《舊唐書》</title>之出家為受具，反指<title level="m">《慈恩傳》</title>等之受具為誤，臆
 <lb n="0368a07" ed="Y"/>解無稽，<lb n="0372a07" ed="Y" type="old"/>其誤三。實則武德五年，年二十一，為三書所公認。受具坐夏學律，即
 <lb n="0368a08" ed="Y"/>是受具坐<lb n="0372a08" ed="Y" type="old"/>夏學律，不勞別解也。</p>
-<lb n="0368a09" ed="Y"/><lb n="0372a09" ed="Y" type="old"/><p style="text-indent:2em"><cit><bibl>《<title level="m">舊唐書</title>．<title level="a">僧玄奘傳</title>》，以奘公</bibl><quote>「大業末出家」</quote></cit>，<quote>「年五十六」</quote>，梁任公深致
+<lb n="0368a09" ed="Y"/><lb n="0372a09" ed="Y" type="old"/><p xml:id="pY22p0368a0901" style="text-indent:2em"><cit><bibl>《<title level="m">舊唐書</title>．<title level="a">僧玄奘傳</title>》，以奘公</bibl><quote>「大業末出家」</quote></cit>，<quote>「年五十六」</quote>，梁任公深致
 <lb n="0368a10" ed="Y"/>其<lb n="0372a10" ed="Y" type="old"/>不滿之意。然<quote>「大業末」</quote>，應即<cit><bibl><title level="m">《行狀》</title>之</bibl><quote source="T50n2052_p0214a17" type="嚴謹引文">「大業之際」</quote><note n="0368001" resp="周怡曄" type="add">《大唐故三藏玄奘法師行狀》卷1(CBETA, T50, no. 2052, p. 214, a17)</note></cit>。依<title level="m">《行狀》</title>，推知十
 <lb n="0368a11" ed="Y"/><lb n="0372a11" ed="Y" type="old"/>一歲出家，為大業八年。時當衰亂之末世，故曰「末」，何用定指為大業十二年
 <lb n="0368a12" ed="Y"/><lb n="0372a12" ed="Y" type="old"/>？例如「清末」，豈是局指宣統三年？「年五十六」，羅君解說為僧臘，乃加以
@@ -279,7 +299,7 @@
 <lb n="0369a01" ed="Y"/><lb n="0373a01" ed="Y" type="old"/>誤繫「年六十五」於顯慶元年而來；十三歲出家，乃羅君誤讀<title level="m">《慈恩傳》</title>而來；
 <lb n="0369a02" ed="Y"/><lb n="0373a02" ed="Y" type="old"/>六十九歲說又不足取信，何用別解「年五十六」為僧臘？予以為：「年五十六」
 <lb n="0369a03" ed="Y"/><lb n="0373a03" ed="Y" type="old"/>，或是「年六十五」之傳寫致誤。否則，史書晚出，記載失實而已。</p>
-<lb n="0369a04" ed="Y"/><lb n="0373a04" ed="Y" type="old"/><p style="text-indent:2em">證為六十九歲說而似有可信者，為顯慶二年（西元六五七年）九月，表請入
+<lb n="0369a04" ed="Y"/><lb n="0373a04" ed="Y" type="old"/><p xml:id="pY22p0369a0401" style="text-indent:2em">證為六十九歲說而似有可信者，為顯慶二年（西元六五七年）九月，表請入
 <lb n="0369a05" ed="Y"/><lb n="0373a05" ed="Y" type="old"/>少林寺譯經，中有<quote type="嚴謹引文">「六十之年，颯焉已至」<note n="0369001" resp="厚觀法師" type="add">《大唐大慈恩寺三藏法師傳》卷9(CBETA, T50, no. 2053, p. 273, c3)</note></quote>之句。如奘公卒年六十三，則顯慶二
 <lb n="0369a06" ed="Y"/><lb n="0373a06" ed="Y" type="old"/>年為五十六歲；若卒年六十五，亦為五十八歲，並與「已至」之語不合。若卒年
 <lb n="0369a07" ed="Y"/><lb n="0373a07" ed="Y" type="old"/>為六十九歲，則顯慶二年為六十二歲，乃能與<quote type="嚴謹引文">「六十之年，颯焉已至」</quote>相合。然
@@ -296,7 +316,7 @@
 <lb n="0370a04" ed="Y"/>偏執「已至」之句，則與一切文記相乖違，故應別求解說。以，古每寫作<g ref="#CB07330"/>；<lb n="0374a05" ed="Y" type="old"/>已
 <lb n="0370a05" ed="Y"/>與以，古多通用。故可解說為：「已至」乃「且至」之訛奪。如<quote type="嚴謹引文">「六十之年，<lb n="0374a06" ed="Y" type="old"/>颯
 <lb n="0370a06" ed="Y"/>焉且至」</quote>，則行狀之年六十有三說，無有不合者矣。</p>
-<lb n="0370a07" ed="Y"/><lb n="0374a07" ed="Y" type="old"/><p style="text-indent:2em">吾今獨取<title level="m">《行狀》</title>所說，奘公享年六十有三者，理由為：(一)、<title level="m">《行狀》</title>最先
+<lb n="0370a07" ed="Y"/><lb n="0374a07" ed="Y" type="old"/><p xml:id="pY22p0370a0701" style="text-indent:2em">吾今獨取<title level="m">《行狀》</title>所說，奘公享年六十有三者，理由為：(一)、<title level="m">《行狀》</title>最先
 <lb n="0370a08" ed="Y"/><lb n="0374a08" ed="Y" type="old"/>出。(二)、武德五年，為二十一歲；此與六十三歲說相合。且此不特<title level="m">《行狀》</title>所說
 <lb n="0370a09" ed="Y"/><lb n="0374a09" ed="Y" type="old"/>，亦<title level="m">《僧傳》</title>與<title level="m">《慈恩傳》</title>所共說。(三)、奘公西行，應為貞觀元年。<title level="m">《慈恩傳》</title><lb n="0374a10" ed="Y" type="old"/>作
 <lb n="0370a10" ed="Y"/>時年二十六，與<title level="m">《慈恩傳》</title>之六十九歲說不合，反與<title level="m">《行狀》</title>六十三歲合。此<lb n="0374a11" ed="Y" type="old"/>應
@@ -309,19 +329,19 @@
 <lb n="0371a03" ed="Y"/>十九歲，不但與一切文獻相乖，即與當年表奏之<quote type="嚴謹引文">「已經四十餘載」</quote>亦不合。<lb n="0375a04" ed="Y" type="old"/>不應
 <lb n="0371a04" ed="Y"/>偏取片文隻語，故應解「已至」為「且至」，則<title level="m">《行狀》</title>所傳之六十三歲說<lb n="0375a05" ed="Y" type="old"/>，一
 <lb n="0371a05" ed="Y"/>切均合。</p>
-<lb n="0371a06" ed="Y"/><lb n="0375a06" ed="Y" type="old"/><p style="text-indent:2em"><title level="m">《僧傳》</title>雖大致可通，但多一不合，即<quote source="T50n2060_p0447a14" type="寬鬆引文">「武德五年，二十一歲」<note n="0371001" resp="周怡曄" type="add">《續高僧傳》卷4(CBETA, T50, no. 2060, p. 447, a14)</note></quote>之說。故<lb n="0375a07" ed="Y" type="old"/>以
+<lb n="0371a06" ed="Y"/><lb n="0375a06" ed="Y" type="old"/><p xml:id="pY22p0371a0601" style="text-indent:2em"><title level="m">《僧傳》</title>雖大致可通，但多一不合，即<quote source="T50n2060_p0447a14" type="寬鬆引文">「武德五年，二十一歲」<note n="0371001" resp="周怡曄" type="add">《續高僧傳》卷4(CBETA, T50, no. 2060, p. 447, a14)</note></quote>之說。故<lb n="0375a07" ed="Y" type="old"/>以
 <lb n="0371a07" ed="Y"/><title level="m">《行狀》</title>之說為正；而以<title level="m">《僧傳》</title>之六十五說，為六十三之誤傳也。</p>
-<lb n="0371a08" ed="Y"/><lb n="0375a08" ed="Y" type="old"/><p style="text-indent:2em">依<title level="m">《行狀》</title>所說，考定奘公之年代如下：</p>
-<lb n="0371a09" ed="Y"/><lb n="0375a09" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">一、奘公生於隋仁壽二年。</p></item>
-<lb n="0371a10" ed="Y"/><lb n="0375a10" ed="Y" type="old"/><item><p style="margin-left:1em">二、奘公出家於隋大業八年，時年十一。</p></item>
-<lb n="0371a11" ed="Y"/><lb n="0375a11" ed="Y" type="old"/><item><p style="margin-left:1em">三、唐武德五年，奘公受具足戒，時年二十一。</p></item>
-<lb n="0371a12" ed="Y"/><lb n="0375a12" ed="Y" type="old"/><item><p style="margin-left:1em">四、貞觀元年八月西行，時年二十六。</p></item>
-<lb n="0371a13" ed="Y"/><lb n="0375a13" ed="Y" type="old"/><item><p style="margin-left:1em">五、貞觀二年，表謝高昌王。時年二十七，出家已十七年。</p></item><pb n="0376a" ed="Y" xml:id="Y22.0022.0376a.old" type="old"/>
+<lb n="0371a08" ed="Y"/><lb n="0375a08" ed="Y" type="old"/><p xml:id="pY22p0371a0801" style="text-indent:2em">依<title level="m">《行狀》</title>所說，考定奘公之年代如下：</p>
+<lb n="0371a09" ed="Y"/><lb n="0375a09" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY22p0371a0901"><p xml:id="pY22p0371a0901" style="margin-left:1em">一、奘公生於隋仁壽二年。</p></item>
+<lb n="0371a10" ed="Y"/><lb n="0375a10" ed="Y" type="old"/><item xml:id="itemY22p0371a1001"><p xml:id="pY22p0371a1001" style="margin-left:1em">二、奘公出家於隋大業八年，時年十一。</p></item>
+<lb n="0371a11" ed="Y"/><lb n="0375a11" ed="Y" type="old"/><item xml:id="itemY22p0371a1101"><p xml:id="pY22p0371a1101" style="margin-left:1em">三、唐武德五年，奘公受具足戒，時年二十一。</p></item>
+<lb n="0371a12" ed="Y"/><lb n="0375a12" ed="Y" type="old"/><item xml:id="itemY22p0371a1201"><p xml:id="pY22p0371a1201" style="margin-left:1em">四、貞觀元年八月西行，時年二十六。</p></item>
+<lb n="0371a13" ed="Y"/><lb n="0375a13" ed="Y" type="old"/><item xml:id="itemY22p0371a1301"><p xml:id="pY22p0371a1301" style="margin-left:1em">五、貞觀二年，表謝高昌王。時年二十七，出家已十七年。</p></item><pb n="0376a" ed="Y" xml:id="Y22.0022.0376a.old" type="old"/>
 <pb n="0372a" ed="Y" xml:id="Y22.0022.0372a"/>
-<lb n="0372a01" ed="Y"/><lb n="0376a01" ed="Y" type="old"/><item><p style="margin-left:1em">六、貞觀十八年，還抵于闐，表奏。時年四十五，西遊已十七年。</p></item>
-<lb n="0372a02" ed="Y"/><lb n="0376a02" ed="Y" type="old"/><item><p style="margin-left:1em">七、貞觀十九年春，還至長安，時年四十六。</p></item>
-<lb n="0372a03" ed="Y"/><lb n="0376a03" ed="Y" type="old"/><item><p style="margin-left:1em">八、顯慶二年，至洛陽，改葬父母，時年五十六。</p></item>
-<lb n="0372a04" ed="Y"/><lb n="0376a04" ed="Y" type="old"/><item><p style="margin-left:1em">九、顯慶二年秋，表請入少林寺譯經。</p></item>
-<lb n="0372a05" ed="Y"/><lb n="0376a05" ed="Y" type="old"/><item><p style="margin-left:1em">十、顯慶五年，初譯<title level="m">《般若經》</title>於玉華宮，時年五十九。</p></item>
-<lb n="0372a06" ed="Y"/><lb n="0376a06" ed="Y" type="old"/><item><p style="margin-left:1em">十一、麟德元年二月，卒，時年六十三。</p></item></list></cb:div>
+<lb n="0372a01" ed="Y"/><lb n="0376a01" ed="Y" type="old"/><item xml:id="itemY22p0372a0101"><p xml:id="pY22p0372a0101" style="margin-left:1em">六、貞觀十八年，還抵于闐，表奏。時年四十五，西遊已十七年。</p></item>
+<lb n="0372a02" ed="Y"/><lb n="0376a02" ed="Y" type="old"/><item xml:id="itemY22p0372a0201"><p xml:id="pY22p0372a0201" style="margin-left:1em">七、貞觀十九年春，還至長安，時年四十六。</p></item>
+<lb n="0372a03" ed="Y"/><lb n="0376a03" ed="Y" type="old"/><item xml:id="itemY22p0372a0301"><p xml:id="pY22p0372a0301" style="margin-left:1em">八、顯慶二年，至洛陽，改葬父母，時年五十六。</p></item>
+<lb n="0372a04" ed="Y"/><lb n="0376a04" ed="Y" type="old"/><item xml:id="itemY22p0372a0401"><p xml:id="pY22p0372a0401" style="margin-left:1em">九、顯慶二年秋，表請入少林寺譯經。</p></item>
+<lb n="0372a05" ed="Y"/><lb n="0376a05" ed="Y" type="old"/><item xml:id="itemY22p0372a0501"><p xml:id="pY22p0372a0501" style="margin-left:1em">十、顯慶五年，初譯<title level="m">《般若經》</title>於玉華宮，時年五十九。</p></item>
+<lb n="0372a06" ed="Y"/><lb n="0376a06" ed="Y" type="old"/><item xml:id="itemY22p0372a0601"><p xml:id="pY22p0372a0601" style="margin-left:1em">十一、麟德元年二月，卒，時年六十三。</p></item></list></cb:div>
 </body></text></TEI>

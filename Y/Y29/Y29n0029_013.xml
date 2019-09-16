@@ -12,49 +12,69 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 29, No. 29</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">29</idno>.<idno type="no">29</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（五）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十二、訪印順老法師</cb:mulu>
-<milestone unit="juan" n="13"/><pb n="0173a" ed="Y" xml:id="Y29.0029.0173a.old" type="old"/>
+<milestone n="13" unit="juan"/><pb n="0173a" ed="Y" xml:id="Y29.0029.0173a.old" type="old"/>
 <pb n="0173a" ed="Y" xml:id="Y29.0029.0173a"/>
 <lb n="0173a01" ed="Y"/><lb n="0173a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十三、太虛大師傳略</cb:mulu><head>太虛大師傳略<note n="0173001" resp="DILA" type="add">民國五五年撰。</note></head>
-<lb n="0173a02" ed="Y"/><lb n="0173a02" ed="Y" type="old"/><p style="text-indent:2em">大師諱唯心，字太虛，籍浙江崇德。年十六出家，受具於天童，寄禪和尚深
+<lb n="0173a02" ed="Y"/><lb n="0173a02" ed="Y" type="old"/><p xml:id="pY29p0173a0201" style="text-indent:2em">大師諱唯心，字太虛，籍浙江崇德。年十六出家，受具於天童，寄禪和尚深
 <lb n="0173a03" ed="Y"/><lb n="0173a03" ed="Y" type="old"/>器之。嘗閱藏於慈谿，掩關於普陀，契悟日深，為教救世之悲心乃日切。時值國
 <lb n="0173a04" ed="Y"/><lb n="0173a04" ed="Y" type="old"/>運丕變，世局紛亂，大師主復興中華佛教以救國救世，而此必先之以整僧。緣是
 <lb n="0173a05" ed="Y"/><lb n="0173a05" ed="Y" type="old"/>興學院，議僧制，謀中國佛教會之健全；獻身心於佛教，終其身而未嘗貳焉！大

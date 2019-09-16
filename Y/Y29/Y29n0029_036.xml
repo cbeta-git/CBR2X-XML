@@ -12,50 +12,70 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2014/06</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2014/06</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>43卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 29, No. 29</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>43卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">29</idno>.<idno type="no">29</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨集（五）</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">三五、致樂觀老法師函</cb:mulu>
-<milestone unit="juan" n="36"/><pb n="0241a" ed="Y" xml:id="Y29.0029.0241a.old" type="old"/>
+<milestone n="36" unit="juan"/><pb n="0241a" ed="Y" xml:id="Y29.0029.0241a.old" type="old"/>
 <pb n="0241a" ed="Y" xml:id="Y29.0029.0241a"/>
 <lb n="0241a01" ed="Y"/><lb n="0241a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">三六、答成元法師問</cb:mulu><head>答成元法師問</head>
-<lb n="0241a02" ed="Y"/><lb n="0241a02" ed="Y" type="old"/><p style="text-indent:2em">承以佛法相詢，問題過多，不易詳說，謹略為簡言之。</p>
-<lb n="0241a03" ed="Y"/><lb n="0241a03" ed="Y" type="old"/><p style="text-indent:2em">一、關於訊問者：（１）龍樹是受菩薩戒之比丘。（２）比丘以正覺為目標
+<lb n="0241a02" ed="Y"/><lb n="0241a02" ed="Y" type="old"/><p xml:id="pY29p0241a0201" style="text-indent:2em">承以佛法相詢，問題過多，不易詳說，謹略為簡言之。</p>
+<lb n="0241a03" ed="Y"/><lb n="0241a03" ed="Y" type="old"/><p xml:id="pY29p0241a0301" style="text-indent:2em">一、關於訊問者：（１）龍樹是受菩薩戒之比丘。（２）比丘以正覺為目標
 <lb n="0241a04" ed="Y"/><lb n="0241a04" ed="Y" type="old"/>，菩薩如釋迦因地及彌勒等以成就無上菩提——正覺——為目標。菩薩成佛，當
 <lb n="0241a05" ed="Y"/><lb n="0241a05" ed="Y" type="old"/>然勝於比丘，惟初心菩薩亦多不及比丘之聖者。（３）大眾與上座，各得佛法之
 <lb n="0241a06" ed="Y"/><lb n="0241a06" ed="Y" type="old"/>一體，各有所長，亦各有所蔽。（４）龍樹宏揚之佛法，能否取得主導地位，當
@@ -63,21 +83,21 @@
 <lb n="0241a08" ed="Y"/><lb n="0241a08" ed="Y" type="old"/>闡揚之。以本人之意見，尚未有何地能有領導今世佛教之可能者。（６）我國佛
 <lb n="0241a09" ed="Y"/><lb n="0241a09" ed="Y" type="old"/>教，應自佛教徒之信仰佛法、深知佛法、實行佛法，乃能生存於今日，救度於人
 <lb n="0241a10" ed="Y"/><lb n="0241a10" ed="Y" type="old"/>類。</p>
-<lb n="0241a11" ed="Y"/><lb n="0241a11" ed="Y" type="old"/><p style="text-indent:2em">二、關於商榷者：三寶以僧為重，此義確然無誤。然決非消極的自棄於人間<pb n="0242a" ed="Y" xml:id="Y29.0029.0242a.old" type="old"/>
+<lb n="0241a11" ed="Y"/><lb n="0241a11" ed="Y" type="old"/><p xml:id="pY29p0241a1101" style="text-indent:2em">二、關於商榷者：三寶以僧為重，此義確然無誤。然決非消極的自棄於人間<pb n="0242a" ed="Y" xml:id="Y29.0029.0242a.old" type="old"/>
 <pb n="0242a" ed="Y" xml:id="Y29.0029.0242a"/>
 <lb n="0242a01" ed="Y"/><lb n="0242a01" ed="Y" type="old"/>，或盲目的濫同世俗；決非專談虛玄之妙義，亦非專知形式，托鉢乞食了事。要
 <lb n="0242a02" ed="Y"/><lb n="0242a02" ed="Y" type="old"/>知佛法之衰，問題在僧眾之自身沒落，並非別人故意輕視僧寶。尊重僧眾，要僧
 <lb n="0242a03" ed="Y"/><lb n="0242a03" ed="Y" type="old"/>眾從信、解、行中自己尊重起來！</p>
-<lb n="0242a04" ed="Y"/><lb n="0242a04" ed="Y" type="old"/><p style="text-indent:2em">論到佛法中誰堪當選（教中）總統，不問為比丘為菩薩，並屬非法，請檢<title level="m">《
+<lb n="0242a04" ed="Y"/><lb n="0242a04" ed="Y" type="old"/><p xml:id="pY29p0242a0401" style="text-indent:2em">論到佛法中誰堪當選（教中）總統，不問為比丘為菩薩，並屬非法，請檢<title level="m">《
 <lb n="0242a05" ed="Y"/><lb n="0242a05" ed="Y" type="old"/>阿含經》</title>阿難答雨勢大臣之問。如有教王之類，即是外道氣味！</p>
-<lb n="0242a06" ed="Y"/><lb n="0242a06" ed="Y" type="old"/><p style="text-indent:2em">依本人所知，佛法本無所謂大乘、小乘。但在佛法流行中，一分偏主保守者
+<lb n="0242a06" ed="Y"/><lb n="0242a06" ed="Y" type="old"/><p xml:id="pY29p0242a0601" style="text-indent:2em">依本人所知，佛法本無所謂大乘、小乘。但在佛法流行中，一分偏主保守者
 <lb n="0242a07" ed="Y"/><lb n="0242a07" ed="Y" type="old"/>，慧劣而拘於戒條，重於自了者，成為聲聞；一分偏於自由適應時代者，慧深而
 <lb n="0242a08" ed="Y"/><lb n="0242a08" ed="Y" type="old"/>略於瑣屑之戒條（並不反對根本及主要戒律），重於化他者，成為菩薩，因之演
 <lb n="0242a09" ed="Y"/><lb n="0242a09" ed="Y" type="old"/>成小乘與大乘。龍樹之破斥小乘，並非破斥釋迦之阿含與律，僅是破斥不知釋迦
 <lb n="0242a10" ed="Y"/><lb n="0242a10" ed="Y" type="old"/>真義而專於支離名相者。此等聲聞，即是不知佛法而自以為是之聲聞，非佛說之
 <lb n="0242a11" ed="Y"/><lb n="0242a11" ed="Y" type="old"/>聲聞也。來文所說，多屬誤會。佛法並非講人情，邪者應破。印度佛教之亡，亡
 <lb n="0242a12" ed="Y"/><lb n="0242a12" ed="Y" type="old"/>於邪正不分，知否？</p>
-<lb n="0242a13" ed="Y"/><lb n="0242a13" ed="Y" type="old"/><p style="text-indent:2em"><quote>「苦無逼迫性」</quote>，無逼迫性所以是苦，此理乃第一義諦，原非俗知俗見者所<pb n="0243a" ed="Y" xml:id="Y29.0029.0243a.old" type="old"/>
+<lb n="0242a13" ed="Y"/><lb n="0242a13" ed="Y" type="old"/><p xml:id="pY29p0242a1301" style="text-indent:2em"><quote>「苦無逼迫性」</quote>，無逼迫性所以是苦，此理乃第一義諦，原非俗知俗見者所<pb n="0243a" ed="Y" xml:id="Y29.0029.0243a.old" type="old"/>
 <pb n="0243a" ed="Y" xml:id="Y29.0029.0243a"/>
 <lb n="0243a01" ed="Y"/><lb n="0243a01" ed="Y" type="old"/>知。<quote source="T08n0235_p0752b28" type="嚴謹引文">「一切有為法，如夢幻泡影」<note n="0243001" resp="謝淑歆" type="add">《金剛般若波羅蜜經》卷1(CBETA, T08, no. 235, p. 752, b28)</note></quote>，本出<title level="m">《阿含經》</title>。<cit><bibl><title level="m">《阿含經》</title>云</bibl><quote source="T02n0099_p0069a18" type="嚴謹引文">「觀色如聚
 <lb n="0243a02" ed="Y"/>沫<lb n="0243a02" ed="Y" type="old"/>（泡之一類）」</quote><note n="0243002" resp="謝淑歆" type="add">《雜阿含經》卷10(CBETA, T02, no. 99, p. 69, a18)</note></cit>，乃至<quote source="T06n0220_p0797a11" type="嚴謹引文">「觀識如幻事」<note n="0243003" resp="謝淑歆" type="add">《大般若波羅蜜多經(第201卷-第400卷)》卷350〈60 相引攝品〉(CBETA, T06, no. 220, p. 797, a11)</note></quote>。大空出<bibl>《<title level="m">雜阿含經</title>．<title level="m">大空經</title>》</bibl>，小空
@@ -87,6 +107,6 @@
 <lb n="0243a06" ed="Y"/>而<lb n="0243a06" ed="Y" type="old"/>已。苦哉！苦哉！須知若欲弘通聲聞佛法，應於聲聞經律論如實信解，得正知
 <lb n="0243a07" ed="Y"/>見<lb n="0243a07" ed="Y" type="old"/>；然後攝護身心，策發定慧，以求自證。若一概不知，僅以托鉢、不持金銀為
 <lb n="0243a08" ed="Y"/>佛<lb n="0243a08" ed="Y" type="old"/>法，此佛法之所以江河日下也！</p>
-<lb n="0243a09" ed="Y"/><lb n="0243a09" ed="Y" type="old"/><p style="text-indent:2em">貴處組織學院，不知日常所學何事？不敢懸揣而有所說也。雅承商問，不敢
+<lb n="0243a09" ed="Y"/><lb n="0243a09" ed="Y" type="old"/><p xml:id="pY29p0243a0901" style="text-indent:2em">貴處組織學院，不知日常所學何事？不敢懸揣而有所說也。雅承商問，不敢
 <lb n="0243a10" ed="Y"/><lb n="0243a10" ed="Y" type="old"/>不以所知者相答，質直之處，希以容恕！</p></cb:div><pb n="0244a" ed="Y" xml:id="Y29.0029.0244a.old" type="old"/>
 </body></text></TEI>

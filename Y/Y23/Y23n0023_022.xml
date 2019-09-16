@@ -12,76 +12,96 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2013/12</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2013/12</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>39卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 23, No. 23</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>39卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">23</idno>.<idno type="no">23</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">華雨香雲</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">二一、向近代的佛教大師學習</cb:mulu>
-<milestone unit="juan" n="22"/><pb n="0283a" ed="Y" xml:id="Y23.0023.0283a.old" type="old"/>
+<milestone n="22" unit="juan"/><pb n="0283a" ed="Y" xml:id="Y23.0023.0283a.old" type="old"/>
 <pb n="0283a" ed="Y" xml:id="Y23.0023.0283a"/>
 <lb n="0283a01" ed="Y"/><lb n="0283a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">二二、革命時代的太虛大師</cb:mulu><head>革命時代的太虛大師<note n="0283001" resp="DILA" type="add">民國三九年撰。</note></head>
-<lb n="0283a02" ed="Y"/><lb n="0283a02" ed="Y" type="old"/><p style="text-indent:2em">太虛大師在民國元年，提出了佛教的「三種革命」。十七年，寫了一篇<title level="a">〈對
+<lb n="0283a02" ed="Y"/><lb n="0283a02" ed="Y" type="old"/><p xml:id="pY23p0283a0201" style="text-indent:2em">太虛大師在民國元年，提出了佛教的「三種革命」。十七年，寫了一篇<title level="a">〈對
 <lb n="0283a03" ed="Y"/><lb n="0283a03" ed="Y" type="old"/>於中國佛教革命僧的訓詞〉</title>。二十六年，又寫過<title level="a">〈我的佛教革命失敗史〉</title>。大師
 <lb n="0283a04" ed="Y"/><lb n="0283a04" ed="Y" type="old"/>是有革命的志願與行動的，一般人也就以「革命和尚」看他。他的革命思想、革
 <lb n="0283a05" ed="Y"/><lb n="0283a05" ed="Y" type="old"/>命方向、革命動機、革命主張、革命手段等到底如何？他的革命是否徹底而恰當
 <lb n="0283a06" ed="Y"/><lb n="0283a06" ed="Y" type="old"/>？或者像有些人嫌他不夠革命，甚至說他反革命——這都需要踏實的考察。不過
 <lb n="0283a07" ed="Y"/>，<lb n="0283a07" ed="Y" type="old"/>在近代中國與中國佛教中，他確乎是有過一番的革命言論與行動的。</p>
-<lb n="0283a08" ed="Y"/><lb n="0283a08" ed="Y" type="old"/><p style="text-indent:2em">從大師佛教生活的全程去看，至少可以分為兩個時期：閉關以前，大師自稱
+<lb n="0283a08" ed="Y"/><lb n="0283a08" ed="Y" type="old"/><p xml:id="pY23p0283a0801" style="text-indent:2em">從大師佛教生活的全程去看，至少可以分為兩個時期：閉關以前，大師自稱
 <lb n="0283a09" ed="Y"/><lb n="0283a09" ed="Y" type="old"/>為浪漫（大師晚年嫌它容易誤會，又改作激昂）的革命時期；閉關以後，可說是
 <lb n="0283a10" ed="Y"/><lb n="0283a10" ed="Y" type="old"/>溫和（對激昂而說）的改進時期。也可以稱前者為政治為先的革命時期，後者是
 <lb n="0283a11" ed="Y"/><lb n="0283a11" ed="Y" type="old"/>佛教為本的改進時期。這一重心與態度的變化，如從大師的根本見地去理解，這<pb n="0284a" ed="Y" xml:id="Y23.0023.0284a.old" type="old"/>
 <pb n="0284a" ed="Y" xml:id="Y23.0023.0284a"/>
 <lb n="0284a01" ed="Y"/><lb n="0284a01" ed="Y" type="old"/>是並不希奇的。他轉變了，而根本的精神，始終有他的一貫性。我覺得，要認識
 <lb n="0284a02" ed="Y"/><lb n="0284a02" ed="Y" type="old"/>這位近代的佛教革命大師，對於他的青年激昂時代，先該有一番認識。</p>
-<lb n="0284a03" ed="Y"/><lb n="0284a03" ed="Y" type="old"/><p style="text-indent:2em">光緒三十四年的春天，大師二十歲，從華山法師那裡，接觸到當時的新思想
+<lb n="0284a03" ed="Y"/><lb n="0284a03" ed="Y" type="old"/><p xml:id="pY23p0284a0301" style="text-indent:2em">光緒三十四年的春天，大師二十歲，從華山法師那裡，接觸到當時的新思想
 <lb n="0284a04" ed="Y"/><lb n="0284a04" ed="Y" type="old"/>——康有為的<title level="m">《大同書》</title>、梁啟超的<title level="m">《新民說》</title>、譚嗣同的<title level="m">《仁學》</title>等，開始從
 <lb n="0284a05" ed="Y"/><lb n="0284a05" ed="Y" type="old"/>深山古寺中出來，發見這快要變動的社會。就在那一年秋天，遇見李棲雲，開始
 <lb n="0284a06" ed="Y"/><lb n="0284a06" ed="Y" type="old"/>了與革命黨人的往來；讀到了孫中山、章太炎的<title level="j">《民報》</title>，鄒容的<title level="m">《革命軍》</title>等
 <lb n="0284a07" ed="Y"/><lb n="0284a07" ed="Y" type="old"/>。宣統二年到廣東，結識了一些革命的文化工作者——潘達微、鄒海濱等，更接
 <lb n="0284a08" ed="Y"/><lb n="0284a08" ed="Y" type="old"/>觸到託爾斯泰、巴枯寧、蒲魯東、克魯泡特金、馬克斯、幸德秋水的譯品，及張
 <lb n="0284a09" ed="Y"/><lb n="0284a09" ed="Y" type="old"/>繼等編行的<title level="m">《新世紀》</title>。大師對於政治社會的思想，非常迅速的前進，如<cit><bibl><title level="m">《自傳
-<lb n="0284a10" ed="Y"/><lb n="0284a10" ed="Y" type="old"/>》</title>四說：</bibl><quote type="嚴謹引文">「由君憲而國民革命、而社會主義、而無政府主義。」</quote><note n="0284001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:29;page:p194">(ref taixu::vol:29;page:p194)</ref></note></cit>宣統三年的春夏
+<lb n="0284a10" ed="Y"/><lb n="0284a10" ed="Y" type="old"/>》</title>四說：</bibl><quote type="嚴謹引文">「由君憲而國民革命、而社會主義、而無政府主義。」</quote><note n="0284001" resp="謝淑歆" type="add"><ref target="#vol:29;page:p194" type="taixu">(ref taixu::vol:29;page:p194)</ref></note></cit>宣統三年的春夏
 <lb n="0284a11" ed="Y"/>間，<lb n="0284a11" ed="Y" type="old"/>為了黃花崗事件的嫌疑，不能不離開廣州。光復以後，他往來於南京、上海
 <lb n="0284a12" ed="Y"/>、紹<lb n="0284a12" ed="Y" type="old"/>興、杭州、寧波一帶。起初，與江亢虎的社會黨相呼應。其後，與不滿江亢
 <lb n="0284a13" ed="Y"/>虎的<lb n="0284a13" ed="Y" type="old"/>一群——沙淦、呂大任等紅旗社會黨人，打成一片。光復以後的兩年多，對
 <pb n="0285a" ed="Y" xml:id="Y23.0023.0285a"/>
 <lb n="0285a01" ed="Y"/>佛教<pb n="0285a" ed="Y" xml:id="Y23.0023.0285a.old" type="old"/><lb n="0285a01" ed="Y" type="old"/>的事情，做得很少。在民國三年的秋天，他忽然結束了這一期的浪漫行動，
 <lb n="0285a02" ed="Y"/>上普<lb n="0285a02" ed="Y" type="old"/>陀山閉關去。</p>
-<lb n="0285a03" ed="Y"/><lb n="0285a03" ed="Y" type="old"/><p style="text-indent:2em">和尚也來革命，這似乎有點希奇，或者現在還有人作如此想。其實，在辛亥
+<lb n="0285a03" ed="Y"/><lb n="0285a03" ed="Y" type="old"/><p xml:id="pY23p0285a0301" style="text-indent:2em">和尚也來革命，這似乎有點希奇，或者現在還有人作如此想。其實，在辛亥
 <lb n="0285a04" ed="Y"/><lb n="0285a04" ed="Y" type="old"/>革命中，和尚革命，非常平凡。李棲雲、許鐵岩、蘇曼殊，這是大家知道的。（
 <lb n="0285a05" ed="Y"/><lb n="0285a05" ed="Y" type="old"/>黃）宗仰以經濟接濟革命黨；玉皇組僧軍去參加攻南京；連天臺宗諦閑法師（時
 <lb n="0285a06" ed="Y"/><lb n="0285a06" ed="Y" type="old"/>年五十四歲），也撇開上海龍華寺，趕到紹興去當僧軍統領（僧軍是鐵岩組織的
@@ -93,15 +113,15 @@
 <lb n="0285a12" ed="Y"/>然不是「光復漢河山」、「取銷帝制」就以為滿足。革命的真正目的，在乎<lb n="0285a13" ed="Y" type="old"/>解除
 <lb n="0285a13" ed="Y"/>人民痛苦，那非實行社會主義不可！</p><pb n="0286a" ed="Y" xml:id="Y23.0023.0286a.old" type="old"/>
 <pb n="0286a" ed="Y" xml:id="Y23.0023.0286a"/>
-<lb n="0286a01" ed="Y"/><lb n="0286a01" ed="Y" type="old"/><p style="text-indent:2em">大師早年的言論，遺存得太少，不能得到完整的認識，只能略見梗概。大師
+<lb n="0286a01" ed="Y"/><lb n="0286a01" ed="Y" type="old"/><p xml:id="pY23p0286a0101" style="text-indent:2em">大師早年的言論，遺存得太少，不能得到完整的認識，只能略見梗概。大師
 <lb n="0286a02" ed="Y"/><lb n="0286a02" ed="Y" type="old"/>自己曾說：<cit><quote type="嚴謹引文">「意將以無政府主義與佛教為鄰近，而可由民主社會主義以漸階進。
-<lb n="0286a03" ed="Y"/>」<note n="0286001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:29;page:p194">(ref taixu::vol:29;page:p194)</ref></note></quote><lb n="0286a03" ed="Y" type="old"/><bibl>（<title level="m">《自傳》</title>）</bibl></cit>在各種政治社會思想中，大師是以無政府的社會主義為最理想的
+<lb n="0286a03" ed="Y"/>」<note n="0286001" resp="謝淑歆" type="add"><ref target="#vol:29;page:p194" type="taixu">(ref taixu::vol:29;page:p194)</ref></note></quote><lb n="0286a03" ed="Y" type="old"/><bibl>（<title level="m">《自傳》</title>）</bibl></cit>在各種政治社會思想中，大師是以無政府的社會主義為最理想的
 <lb n="0286a04" ed="Y"/><lb n="0286a04" ed="Y" type="old"/>；但這是不易實現的，這只可先實行民主的社會主義，再過渡到無政府社會主義
 <lb n="0286a05" ed="Y"/><lb n="0286a05" ed="Y" type="old"/>。目前當行的民主社會主義，即具有國家組織的民主政治，所以是民主的國家社
 <lb n="0286a06" ed="Y"/><lb n="0286a06" ed="Y" type="old"/>會主義。從經濟的主張說，大師常提到「集產」與「共產」，如（民國二年春作
 <lb n="0286a07" ed="Y"/>）<lb n="0286a07" ed="Y" type="old"/><cit><bibl><title level="a">〈上佛教總會全國支會部聯合會意見書〉</title>說：</bibl><quote type="嚴謹引文">「須知集產與共產有異：集產但
 <lb n="0286a08" ed="Y"/>各<lb n="0286a08" ed="Y" type="old"/>取所值，共產則各取所需。當此社會未能平等、金錢未能廢除之時代，各取所
-<lb n="0286a09" ed="Y"/>需<lb n="0286a09" ed="Y" type="old"/>，萬難通行！」</quote><note n="0286002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:17;page:p332">(ref taixu::vol:17;page:p332)</ref></note></cit>大師是主張實行各取所值的集產；雖然各取所需的共產，是更
+<lb n="0286a09" ed="Y"/>需<lb n="0286a09" ed="Y" type="old"/>，萬難通行！」</quote><note n="0286002" resp="謝淑歆" type="add"><ref target="#vol:17;page:p332" type="taixu">(ref taixu::vol:17;page:p332)</ref></note></cit>大師是主張實行各取所值的集產；雖然各取所需的共產，是更
 <lb n="0286a10" ed="Y"/>理<lb n="0286a10" ed="Y" type="old"/>想的，但現前還不能施行。不過這裡所說的共產，與現在眾所週知的不同；大
 <lb n="0286a11" ed="Y"/>師<lb n="0286a11" ed="Y" type="old"/>當時所說的共產，實在是無政府主義。此如（民國九年作）<title level="a">〈唐代禪宗與現代
 <lb n="0286a12" ed="Y"/>思潮<lb n="0286a12" ed="Y" type="old"/>〉</title>，即明白的提到這集產與共產的差別，如說：<quote type="嚴謹引文">「於產，亦有屬個人主義之
@@ -109,23 +129,23 @@
 <pb n="0287a" ed="Y" xml:id="Y23.0023.0287a"/>
 <lb n="0287a01" ed="Y"/>，而<pb n="0287a" ed="Y" xml:id="Y23.0023.0287a.old" type="old"/><lb n="0287a01" ed="Y" type="old"/>猶以社會共產主義為無政府主義正宗。而無強權的社會共產主義，即世人各
 <lb n="0287a02" ed="Y"/>各自<lb n="0287a02" ed="Y" type="old"/>由以盡其所能，與世人各各自由以取其所需也。無政府黨人雖能有此懷想…
-<lb n="0287a03" ed="Y"/>…。」<note n="0287001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:20;page:p226">(ref taixu::vol:20;page:p226)</ref></note></quote>大師<lb n="0287a03" ed="Y" type="old"/>所說的集產，即各取所值的，是<quote type="嚴謹引文">「尚容各個人以其勞力所換得之代價
-<lb n="0287a04" ed="Y"/>，可依其現身<lb n="0287a04" ed="Y" type="old"/>為限而保其私有者」<note n="0287002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:20;page:p227">(ref taixu::vol:20;page:p227)</ref></note></quote>。還不能全除私有制，所以雖認為現前可行，
+<lb n="0287a03" ed="Y"/>…。」<note n="0287001" resp="謝淑歆" type="add"><ref target="#vol:20;page:p226" type="taixu">(ref taixu::vol:20;page:p226)</ref></note></quote>大師<lb n="0287a03" ed="Y" type="old"/>所說的集產，即各取所值的，是<quote type="嚴謹引文">「尚容各個人以其勞力所換得之代價
+<lb n="0287a04" ed="Y"/>，可依其現身<lb n="0287a04" ed="Y" type="old"/>為限而保其私有者」<note n="0287002" resp="謝淑歆" type="add"><ref target="#vol:20;page:p227" type="taixu">(ref taixu::vol:20;page:p227)</ref></note></quote>。還不能全除私有制，所以雖認為現前可行，
 <lb n="0287a05" ed="Y"/>而到底不如<lb n="0287a05" ed="Y" type="old"/>各取所需的共產好。</p>
-<lb n="0287a06" ed="Y"/><lb n="0287a06" ed="Y" type="old"/><p style="text-indent:2em">論到政治制度，民主當然比君主好。然而，<quote type="嚴謹引文">「強權，實依國或家的私產而起
-<lb n="0287a07" ed="Y"/><lb n="0287a07" ed="Y" type="old"/>，為保國與家的私產……而存」<note n="0287003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:20;page:p226">(ref taixu::vol:20;page:p226)</ref></note></quote>。所以有家的私產，而家與家間的問題叢生；有
+<lb n="0287a06" ed="Y"/><lb n="0287a06" ed="Y" type="old"/><p xml:id="pY23p0287a0601" style="text-indent:2em">論到政治制度，民主當然比君主好。然而，<quote type="嚴謹引文">「強權，實依國或家的私產而起
+<lb n="0287a07" ed="Y"/><lb n="0287a07" ed="Y" type="old"/>，為保國與家的私產……而存」<note n="0287003" resp="謝淑歆" type="add"><ref target="#vol:20;page:p226" type="taixu">(ref taixu::vol:20;page:p226)</ref></note></quote>。所以有家的私產，而家與家間的問題叢生；有
 <lb n="0287a08" ed="Y"/>國的<lb n="0287a08" ed="Y" type="old"/>私產（即國家的集產）而國與國間的爭執不息。像蘇聯那樣的社會主義，即
-<lb n="0287a09" ed="Y"/>不廢<lb n="0287a09" ed="Y" type="old"/><quote type="嚴謹引文">「國的私產」<note n="0287004" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:20;page:p228">(ref taixu::vol:20;page:p228)</ref></note></quote>者，大師批評說：<quote type="嚴謹引文">「此實始終必須由主張者集用其絕對強權，
-<lb n="0287a10" ed="Y"/>外以<lb n="0287a10" ed="Y" type="old"/>維持國產，內以壓散家族家產之發生成立不可。」<note n="0287005" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:20;page:p228">(ref taixu::vol:20;page:p228)</ref></note></quote>即使民主的國家的集產，
+<lb n="0287a09" ed="Y"/>不廢<lb n="0287a09" ed="Y" type="old"/><quote type="嚴謹引文">「國的私產」<note n="0287004" resp="謝淑歆" type="add"><ref target="#vol:20;page:p228" type="taixu">(ref taixu::vol:20;page:p228)</ref></note></quote>者，大師批評說：<quote type="嚴謹引文">「此實始終必須由主張者集用其絕對強權，
+<lb n="0287a10" ed="Y"/>外以<lb n="0287a10" ed="Y" type="old"/>維持國產，內以壓散家族家產之發生成立不可。」<note n="0287005" resp="謝淑歆" type="add"><ref target="#vol:20;page:p228" type="taixu">(ref taixu::vol:20;page:p228)</ref></note></quote>即使民主的國家的集產，
 <lb n="0287a11" ed="Y"/>還不<lb n="0287a11" ed="Y" type="old"/>如無政府好，何況民主的國家的私產制度？</p>
-<lb n="0287a12" ed="Y"/><lb n="0287a12" ed="Y" type="old"/><p style="text-indent:2em">大師當時的佛教革命運動，可依大師所提出的「三種革命」來說。革命是摧
+<lb n="0287a12" ed="Y"/><lb n="0287a12" ed="Y" type="old"/><p xml:id="pY23p0287a1201" style="text-indent:2em">大師當時的佛教革命運動，可依大師所提出的「三種革命」來說。革命是摧
 <lb n="0287a13" ed="Y"/><lb n="0287a13" ed="Y" type="old"/>毀腐舊而建設新生的，是必須對於某些挑戰而要求改變的。這樣的革命，是否可<pb n="0288a" ed="Y" xml:id="Y23.0023.0288a.old" type="old"/>
 <pb n="0288a" ed="Y" xml:id="Y23.0023.0288a"/>
 <lb n="0288a01" ed="Y"/><lb n="0288a01" ed="Y" type="old"/>以應用到佛教，尤其是佛教的教理！一般的信教者，對於教理、教制，總多少感
 <lb n="0288a02" ed="Y"/><lb n="0288a02" ed="Y" type="old"/>有神聖性、不可毀犯性，這所以大師一提到「組織革命」、「財產革命」、「學
 <lb n="0288a03" ed="Y"/><lb n="0288a03" ed="Y" type="old"/>理革命」時，<title level="j">《佛教叢報》</title>的編者濮一乘，就要以惡辣不過的詞句來痛罵他，特
 <lb n="0288a04" ed="Y"/><lb n="0288a04" ed="Y" type="old"/>別是關於教理的。如說：<quote type="嚴謹引文">「第三條之牽涉學理，竊恐非自命新佛之提婆達多從地
-<lb n="0288a05" ed="Y"/><lb n="0288a05" ed="Y" type="old"/>獄復起不可！」<note n="0288001" resp="謝淑歆" type="add"><ref type="yinshun" target="#vol:13;page:p58">(ref yinshun::vol:13;page:p58)</ref></note></quote>然而大師以為是可以革命、應該革命的。關於教理方面，大師當
+<lb n="0288a05" ed="Y"/><lb n="0288a05" ed="Y" type="old"/>獄復起不可！」<note n="0288001" resp="謝淑歆" type="add"><ref target="#vol:13;page:p58" type="yinshun">(ref yinshun::vol:13;page:p58)</ref></note></quote>然而大師以為是可以革命、應該革命的。關於教理方面，大師當
 <lb n="0288a06" ed="Y"/><lb n="0288a06" ed="Y" type="old"/>時還沒有充實的內容提出；據他晚年回憶所得，學理革命的主要意義是：<cit><quote type="寬鬆引文">「我認
 <lb n="0288a07" ed="Y"/><lb n="0288a07" ed="Y" type="old"/>為：今後佛教，應多注意現生的問題，不應專向死後的問題上探討。過去佛教，
 <lb n="0288a08" ed="Y"/><lb n="0288a08" ed="Y" type="old"/>曾被帝王以鬼神禍福作愚民的工具，今後則應該用為研究宇宙人生真相，以指導
@@ -135,32 +155,32 @@
 <lb n="0288a12" ed="Y"/><lb n="0288a12" ed="Y" type="old"/>佛法的東西；這是重心的轉換、形式的變化。濮一乘他們大驚小怪，可見當時一
 <lb n="0288a13" ed="Y"/><lb n="0288a13" ed="Y" type="old"/>般佛學者的無知！</p><pb n="0289a" ed="Y" xml:id="Y23.0023.0289a.old" type="old"/>
 <pb n="0289a" ed="Y" xml:id="Y23.0023.0289a"/>
-<lb n="0289a01" ed="Y"/><lb n="0289a01" ed="Y" type="old"/><p style="text-indent:2em">關於教產，大師是主張「集產」的（見<title level="a">〈上佛教總會全國支會部聯合會意見
-<lb n="0289a02" ed="Y"/><lb n="0289a02" ed="Y" type="old"/>書〉</title>）。與此有關而成為教制的重大改革，即主張<quote type="嚴謹引文">「不得傳法收徒」<note n="0289001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:17;page:p332">(ref taixu::vol:17;page:p332)</ref></note></quote>。<cit><bibl><title level="a">〈上佛教總
+<lb n="0289a01" ed="Y"/><lb n="0289a01" ed="Y" type="old"/><p xml:id="pY23p0289a0101" style="text-indent:2em">關於教產，大師是主張「集產」的（見<title level="a">〈上佛教總會全國支會部聯合會意見
+<lb n="0289a02" ed="Y"/><lb n="0289a02" ed="Y" type="old"/>書〉</title>）。與此有關而成為教制的重大改革，即主張<quote type="嚴謹引文">「不得傳法收徒」<note n="0289001" resp="謝淑歆" type="add"><ref target="#vol:17;page:p332" type="taixu">(ref taixu::vol:17;page:p332)</ref></note></quote>。<cit><bibl><title level="a">〈上佛教總
 <lb n="0289a03" ed="Y"/>會全國支會部聯合會意見書<lb n="0289a03" ed="Y" type="old"/>〉</title>說：</bibl><quote type="嚴謹引文">「傳入中國，沿承綱倫劣制、宗法惡習，……
 <lb n="0289a04" ed="Y"/>產生出非驢非馬之佛教家族<lb n="0289a04" ed="Y" type="old"/>制。此寺彼庵，各自封執，傳徒及孫，儼同世俗，日
-<lb n="0289a05" ed="Y"/>肆其貪瞋以奔競於煩惱塵勞<lb n="0289a05" ed="Y" type="old"/>之場。薾然既疲，反置弘教度人之責任於無暇顧問</quote><note n="0289002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:17;page:p328">(ref taixu::vol:17;page:p328)</ref></note></cit>。
+<lb n="0289a05" ed="Y"/>肆其貪瞋以奔競於煩惱塵勞<lb n="0289a05" ed="Y" type="old"/>之場。薾然既疲，反置弘教度人之責任於無暇顧問</quote><note n="0289002" resp="謝淑歆" type="add"><ref target="#vol:17;page:p328" type="taixu">(ref taixu::vol:17;page:p328)</ref></note></cit>。
 <lb n="0289a06" ed="Y"/>」大師對於剃派、法派的以<lb n="0289a06" ed="Y" type="old"/>十方公物作變相的私產授受，四十年來徹底採取反對
 <lb n="0289a07" ed="Y"/>的態度。因為這樣，大師<lb n="0289a07" ed="Y" type="old"/>開始了對於諦閑法師的輕視。民國元年冬，寧波佛教會
 <lb n="0289a08" ed="Y"/>選派諦閑任延慶寺觀堂的<lb n="0289a08" ed="Y" type="old"/>住持。等到任了方丈，觀堂改為觀宗寺，改為天臺宗的
 <lb n="0289a09" ed="Y"/>法派叢林；對於住持的進<lb n="0289a09" ed="Y" type="old"/>退，不再容許佛教會的執行權力。這與大師當年的主張
 <lb n="0289a10" ed="Y"/>，化私（取消剃派與法<lb n="0289a10" ed="Y" type="old"/>派的接授）而為真正的十方僧物，恰好走著相反的路子。</p>
-<lb n="0289a11" ed="Y"/><lb n="0289a11" ed="Y" type="old"/><p style="text-indent:2em">其他，大師當年的主張，僧眾應有參政的權利。如民國二年夏<cit><bibl><title level="a">〈上參眾兩院
-<lb n="0289a12" ed="Y"/>請<lb n="0289a12" ed="Y" type="old"/>願書〉</title>說：</bibl><quote type="嚴謹引文">「宜根據一律平等之條，切實保護，並規定佛教徒同有參政之權</quote><note n="0289003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:17;page:p660">(ref taixu::vol:17;page:p660)</ref></note></cit>。
+<lb n="0289a11" ed="Y"/><lb n="0289a11" ed="Y" type="old"/><p xml:id="pY23p0289a1101" style="text-indent:2em">其他，大師當年的主張，僧眾應有參政的權利。如民國二年夏<cit><bibl><title level="a">〈上參眾兩院
+<lb n="0289a12" ed="Y"/>請<lb n="0289a12" ed="Y" type="old"/>願書〉</title>說：</bibl><quote type="嚴謹引文">「宜根據一律平等之條，切實保護，並規定佛教徒同有參政之權</quote><note n="0289003" resp="謝淑歆" type="add"><ref target="#vol:17;page:p660" type="taixu">(ref taixu::vol:17;page:p660)</ref></note></cit>。
 <lb n="0289a13" ed="Y"/><lb n="0289a13" ed="Y" type="old"/>」又主張：服裝應加改革，如<cit><bibl><title level="a">〈上佛教總會全國支會部聯合會意見書〉</title>說：</bibl><quote type="嚴謹引文">「服
 <pb n="0290a" ed="Y" xml:id="Y23.0023.0290a"/>
-<lb n="0290a01" ed="Y"/>制<pb n="0290a" ed="Y" xml:id="Y23.0023.0290a.old" type="old"/><lb n="0290a01" ed="Y" type="old"/>，則除袈裟直裰之禮服外，他項似不妨隨俗。」</quote><note n="0290001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:17;page:p333">(ref taixu::vol:17;page:p333)</ref></note></cit>其實，大師那時早已以身作則
+<lb n="0290a01" ed="Y"/>制<pb n="0290a" ed="Y" xml:id="Y23.0023.0290a.old" type="old"/><lb n="0290a01" ed="Y" type="old"/>，則除袈裟直裰之禮服外，他項似不妨隨俗。」</quote><note n="0290001" resp="謝淑歆" type="add"><ref target="#vol:17;page:p333" type="taixu">(ref taixu::vol:17;page:p333)</ref></note></cit>其實，大師那時早已以身作則
 <lb n="0290a02" ed="Y"/>了<lb n="0290a02" ed="Y" type="old"/>；如在宏誓會的講辭說：<quote type="嚴謹引文">「太虛……出言吐語，大都不經，僻行怪狀，不理眾
 <lb n="0290a03" ed="Y"/>口<lb n="0290a03" ed="Y" type="old"/>。然……就事相以論之，髮留一寸，本出佛制；服隨國俗，自古已然。彼印度
 <lb n="0290a04" ed="Y"/>之比<lb n="0290a04" ed="Y" type="old"/>丘，固未始穿袍著褲似吾國俗人今所目為和尚者也。……彼以太虛為奇怪者
-<lb n="0290a05" ed="Y"/>，彼<lb n="0290a05" ed="Y" type="old"/>亦自奇怪之耳！」<note n="0290002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:27;page:p4">(ref taixu::vol:27;page:p4)</ref></note></quote>參政與改裝兩點，閉關以後，忽地轉變，而且反對（見<title level="a">〈
-<lb n="0290a06" ed="Y"/>與廖笏<lb n="0290a06" ed="Y" type="old"/>堂先生書〉</title><note n="0290003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:26;page:p153">(ref taixu::vol:26;page:p153)</ref></note>）。這一直到民國二十年以後，才又適應時勢而重新提出來。</p>
-<lb n="0290a07" ed="Y"/><lb n="0290a07" ed="Y" type="old"/><p style="text-indent:2em">我要論到一個重要事實，即民國元年一月，大師「大鬧金山」<note n="0290004" resp="謝淑歆" type="add"><ref type="yinshun" target="#vol:13;page:p51">(ref yinshun::vol:13;page:p51)</ref></note>，召開佛教協
+<lb n="0290a05" ed="Y"/>，彼<lb n="0290a05" ed="Y" type="old"/>亦自奇怪之耳！」<note n="0290002" resp="謝淑歆" type="add"><ref target="#vol:27;page:p4" type="taixu">(ref taixu::vol:27;page:p4)</ref></note></quote>參政與改裝兩點，閉關以後，忽地轉變，而且反對（見<title level="a">〈
+<lb n="0290a06" ed="Y"/>與廖笏<lb n="0290a06" ed="Y" type="old"/>堂先生書〉</title><note n="0290003" resp="謝淑歆" type="add"><ref target="#vol:26;page:p153" type="taixu">(ref taixu::vol:26;page:p153)</ref></note>）。這一直到民國二十年以後，才又適應時勢而重新提出來。</p>
+<lb n="0290a07" ed="Y"/><lb n="0290a07" ed="Y" type="old"/><p xml:id="pY23p0290a0701" style="text-indent:2em">我要論到一個重要事實，即民國元年一月，大師「大鬧金山」<note n="0290004" resp="謝淑歆" type="add"><ref target="#vol:13;page:p51" type="yinshun">(ref yinshun::vol:13;page:p51)</ref></note>，召開佛教協
 <lb n="0290a08" ed="Y"/><lb n="0290a08" ed="Y" type="old"/>進會。使人驚心動目的，是改金山寺為佛教學堂。其實，這是算不了什麼的，這
 <lb n="0290a09" ed="Y"/><lb n="0290a09" ed="Y" type="old"/>還是仁山法師等動議的。大師的佛教協進會失敗，民國二年春天，接著與式海、
 <lb n="0290a10" ed="Y"/>玉皇<lb n="0290a10" ed="Y" type="old"/>等，在寧波觀宗寺辦佛教宏誓會。又失敗，大師又想辦維持佛教同盟會。這
 <lb n="0290a11" ed="Y"/>一貫<lb n="0290a11" ed="Y" type="old"/>的行動，據現存的<title level="a">〈佛教宏誓會簡章〉</title>、<title level="a">〈維持佛教同盟會宣言〉</title>，知道這
-<lb n="0290a12" ed="Y"/>是一<lb n="0290a12" ed="Y" type="old"/>種「自由組合」的「特別團體」<note n="0290005" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:31;page:p1006">(ref taixu::vol:31;page:p1006)</ref></note>。換言之，這是為了佛教革命的革命團體。
+<lb n="0290a12" ed="Y"/>是一<lb n="0290a12" ed="Y" type="old"/>種「自由組合」的「特別團體」<note n="0290005" resp="謝淑歆" type="add"><ref target="#vol:31;page:p1006" type="taixu">(ref taixu::vol:31;page:p1006)</ref></note>。換言之，這是為了佛教革命的革命團體。
 <lb n="0290a13" ed="Y"/>依大<lb n="0290a13" ed="Y" type="old"/>師的理想，集合不論中外、僧俗、男女，凡是對佛教有深切信願的一群同志
 <pb n="0291a" ed="Y" xml:id="Y23.0023.0291a"/>
 <lb n="0291a01" ed="Y"/>，共<pb n="0291a" ed="Y" xml:id="Y23.0023.0291a.old" type="old"/><lb n="0291a01" ed="Y" type="old"/>同努力，來創建理想的新的佛教。依大師的見解，復興佛教，不能沒有自由
@@ -172,15 +192,15 @@
 <lb n="0291a07" ed="Y"/>眾的<lb n="0291a07" ed="Y" type="old"/>多數贊同，要獲得政府權力的授與，這真是夜長夢多！然而，大師想組織革
 <lb n="0291a08" ed="Y"/>命性<lb n="0291a08" ed="Y" type="old"/>的同志，連號稱同志的文希、仁山，也根本不了解而主張妥協。那樣的佛教
 <lb n="0291a09" ed="Y"/>界，<lb n="0291a09" ed="Y" type="old"/>大師革命的不斷挫折，是不可避免的。</p>
-<lb n="0291a10" ed="Y"/><lb n="0291a10" ed="Y" type="old"/><p style="text-indent:2em">另一個重要見解，同志的集合，是不分中外僧俗的，特別是重視在家的學佛
+<lb n="0291a10" ed="Y"/><lb n="0291a10" ed="Y" type="old"/><p xml:id="pY23p0291a1001" style="text-indent:2em">另一個重要見解，同志的集合，是不分中外僧俗的，特別是重視在家的學佛
 <lb n="0291a11" ed="Y"/><lb n="0291a11" ed="Y" type="old"/>者。宣統二年所作<cit><bibl><title level="m">《佛教史略》</title>說：</bibl><quote type="嚴謹引文">「今後之佛教，勢必日趨於通便精闢，凡有
 <lb n="0291a12" ed="Y"/><lb n="0291a12" ed="Y" type="old"/>學問頭腦者，皆能言其理趣、心其信仰，而不復拘拘於僧之一部份，可斷言矣！
 <lb n="0291a13" ed="Y"/><lb n="0291a13" ed="Y" type="old"/>我國佛教之不發達，以佛學局於僧界，以僧界局於方外阻之也。……其以僧界局
 <pb n="0292a" ed="Y" xml:id="Y23.0023.0292a"/>
 <lb n="0292a01" ed="Y"/>、方<pb n="0292a" ed="Y" xml:id="Y23.0023.0292a.old" type="old"/><lb n="0292a01" ed="Y" type="old"/>外拘者，皆取形式而不取精神者耳！」</quote></cit><quote type="嚴謹引文">「我佛教等視眾生猶如一子，且未嘗
-<lb n="0292a02" ed="Y"/>軒輊於<lb n="0292a02" ed="Y" type="old"/>天、龍、鬼、畜，豈規規然拘親疏於緇白之間哉！」<note n="0292001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:2;page:p915">(ref taixu::vol:2;page:p915)</ref></note></quote>後來，大師雖也重視
+<lb n="0292a02" ed="Y"/>軒輊於<lb n="0292a02" ed="Y" type="old"/>天、龍、鬼、畜，豈規規然拘親疏於緇白之間哉！」<note n="0292001" resp="謝淑歆" type="add"><ref target="#vol:2;page:p915" type="taixu">(ref taixu::vol:2;page:p915)</ref></note></quote>後來，大師雖也重視
 <lb n="0292a03" ed="Y"/>在家信<lb n="0292a03" ed="Y" type="old"/>眾的誘導、組織，但已將中心移轉為「建僧第一」。</p>
-<lb n="0292a04" ed="Y"/><lb n="0292a04" ed="Y" type="old"/><p style="text-indent:2em">大師的革命思想，由於時代風尚所引發，然在還沒接觸到時代的思想時——
+<lb n="0292a04" ed="Y"/><lb n="0292a04" ed="Y" type="old"/><p xml:id="pY23p0292a0401" style="text-indent:2em">大師的革命思想，由於時代風尚所引發，然在還沒接觸到時代的思想時——
 <lb n="0292a05" ed="Y"/><lb n="0292a05" ed="Y" type="old"/>光緒三十四年前，他在西方寺佛法的參究中，已經體認得含有革命性的特殊經驗
 <lb n="0292a06" ed="Y"/><lb n="0292a06" ed="Y" type="old"/>。這種內心的特殊經驗，即是「空」，即是「本來無一物」；是從一般經驗來的
 <lb n="0292a07" ed="Y"/><lb n="0292a07" ed="Y" type="old"/>習識中透出，而了得明淨的精神本質——自心。這是直覺得了無纖塵，直覺得一
@@ -189,51 +209,51 @@
 <lb n="0292a10" ed="Y"/><lb n="0292a10" ed="Y" type="old"/>；如在逆轉而沒落的階段，他會立刻感覺它的不契宜，會以毫不猶疑的態度去洗
 <lb n="0292a11" ed="Y"/>革<lb n="0292a11" ed="Y" type="old"/>它。大師這種經驗，深度與恰當到什麼程度，可以不論，但對於這位革命和尚
 <lb n="0292a12" ed="Y"/>，<lb n="0292a12" ed="Y" type="old"/>卻有著重要的意義。</p>
-<lb n="0292a13" ed="Y"/><lb n="0292a13" ed="Y" type="old"/><p style="text-indent:2em">大師對於佛法的安身立命處，或者以為是唯識，這是不對的。他的宗教生命<pb n="0293a" ed="Y" xml:id="Y23.0023.0293a.old" type="old"/>
+<lb n="0292a13" ed="Y"/><lb n="0292a13" ed="Y" type="old"/><p xml:id="pY23p0292a1301" style="text-indent:2em">大師對於佛法的安身立命處，或者以為是唯識，這是不對的。他的宗教生命<pb n="0293a" ed="Y" xml:id="Y23.0023.0293a.old" type="old"/>
 <pb n="0293a" ed="Y" xml:id="Y23.0023.0293a"/>
 <lb n="0293a01" ed="Y"/><lb n="0293a01" ed="Y" type="old"/>，是禪——是受過天臺與般若影響的禪；其後才受到唯識的影響。大師對於禪，
 <lb n="0293a02" ed="Y"/>有<lb n="0293a02" ed="Y" type="old"/>特殊的領會處、特別讚歎處。如在<title level="a">〈唐代禪宗與現代思潮〉</title>中，列舉了禪宗的
-<lb n="0293a03" ed="Y"/>「<lb n="0293a03" ed="Y" type="old"/>反信教的精神」<note n="0293001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:20;page:p208">(ref taixu::vol:20;page:p208)</ref></note>、「反玄學的實用精神」<note n="0293002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:20;page:p216">(ref taixu::vol:20;page:p216)</ref></note>、「反因襲的創化精神」<note n="0293003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:20;page:p218">(ref taixu::vol:20;page:p218)</ref></note>，歌頌禪宗
+<lb n="0293a03" ed="Y"/>「<lb n="0293a03" ed="Y" type="old"/>反信教的精神」<note n="0293001" resp="謝淑歆" type="add"><ref target="#vol:20;page:p208" type="taixu">(ref taixu::vol:20;page:p208)</ref></note>、「反玄學的實用精神」<note n="0293002" resp="謝淑歆" type="add"><ref target="#vol:20;page:p216" type="taixu">(ref taixu::vol:20;page:p216)</ref></note>、「反因襲的創化精神」<note n="0293003" resp="謝淑歆" type="add"><ref target="#vol:20;page:p218" type="taixu">(ref taixu::vol:20;page:p218)</ref></note>，歌頌禪宗
 <lb n="0293a04" ed="Y"/>到極<lb n="0293a04" ed="Y" type="old"/>峰。<cit><bibl><title level="a">〈佛之修學法〉</title>說：</bibl><quote type="嚴謹引文">「世有不達此理者，謂佛法之衰落，原於禪宗之興
-<lb n="0293a05" ed="Y"/>盛，<lb n="0293a05" ed="Y" type="old"/>故抑禪宗而倡唯識，不知禪宗實為佛法之精蘊所寄。」</quote><note n="0293004" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:18;page:p37">(ref taixu::vol:18;page:p37)</ref></note></cit>大師當時的宗教經驗
+<lb n="0293a05" ed="Y"/>盛，<lb n="0293a05" ed="Y" type="old"/>故抑禪宗而倡唯識，不知禪宗實為佛法之精蘊所寄。」</quote><note n="0293004" resp="謝淑歆" type="add"><ref target="#vol:18;page:p37" type="taixu">(ref taixu::vol:18;page:p37)</ref></note></cit>大師當時的宗教經驗
 <lb n="0293a06" ed="Y"/>，是<lb n="0293a06" ed="Y" type="old"/>近於空的禪。所以大師作<title level="a">〈大乘之革命〉</title>，即以空為唯一的方法。在閉關期
-<lb n="0293a07" ed="Y"/>中，<lb n="0293a07" ed="Y" type="old"/>究心三論，特別賞識<title level="m">《百論疏》</title>，曾擬作「一切可破論」<note n="0293005" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:29;page:p216">(ref taixu::vol:29;page:p216)</ref></note>。在這位佛教革命
+<lb n="0293a07" ed="Y"/>中，<lb n="0293a07" ed="Y" type="old"/>究心三論，特別賞識<title level="m">《百論疏》</title>，曾擬作「一切可破論」<note n="0293005" resp="謝淑歆" type="add"><ref target="#vol:29;page:p216" type="taixu">(ref taixu::vol:29;page:p216)</ref></note>。在這位佛教革命
 <lb n="0293a08" ed="Y"/>大師<lb n="0293a08" ed="Y" type="old"/>的心目中，一切唯求適宜。一切不適合於時宜而成為滯礙的（在個人即是固
 <lb n="0293a09" ed="Y"/>執的<lb n="0293a09" ed="Y" type="old"/>），什麼都可以一舉而摧破之。這種含有革命性的精神來源，<cit><bibl><title level="a">〈告徒眾書〉</title>
 <lb n="0293a10" ed="Y"/>曾說<lb n="0293a10" ed="Y" type="old"/>得非常明白：</bibl><quote type="嚴謹引文">「余在民國紀元前四年至民國三年，受康之《大同書》、譚之
 <lb n="0293a11" ed="Y"/>《仁學》……<lb n="0293a11" ed="Y" type="old"/>等之影響，本其得於禪與般若及天台之佛學，嘗有一期作浪漫之佛
-<lb n="0293a12" ed="Y"/>教革新行動。」</quote><note n="0293006" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:17;page:p584">(ref taixu::vol:17;page:p584)</ref></note></cit></p>
-<lb n="0293a13" ed="Y"/><lb n="0293a12" ed="Y" type="old"/><lb n="0293a13" ed="Y" type="old"/><p style="text-indent:2em">大師閉關以前的革命時代，與閉關後有顯著的不同，如大師老友呂蔭南（大<pb n="0294a" ed="Y" xml:id="Y23.0023.0294a.old" type="old"/>
+<lb n="0293a12" ed="Y"/>教革新行動。」</quote><note n="0293006" resp="謝淑歆" type="add"><ref target="#vol:17;page:p584" type="taixu">(ref taixu::vol:17;page:p584)</ref></note></cit></p>
+<lb n="0293a13" ed="Y"/><lb n="0293a12" ed="Y" type="old"/><lb n="0293a13" ed="Y" type="old"/><p xml:id="pY23p0293a1301" style="text-indent:2em">大師閉關以前的革命時代，與閉關後有顯著的不同，如大師老友呂蔭南（大<pb n="0294a" ed="Y" xml:id="Y23.0023.0294a.old" type="old"/>
 <pb n="0294a" ed="Y" xml:id="Y23.0023.0294a"/>
 <lb n="0294a01" ed="Y"/><lb n="0294a01" ed="Y" type="old"/>任）說：<quote>「大師閉關前，好談禪理，多極端之語句外，其他言論行動，則與尋常
 <lb n="0294a02" ed="Y"/><lb n="0294a02" ed="Y" type="old"/>黨人無殊</quote>（與一般僧徒即不同）。」極端的語句，確乎可以看作當時的一種特徵
 <lb n="0294a03" ed="Y"/><lb n="0294a03" ed="Y" type="old"/>。早年的言論，雖遺存不多，但極端處還明白可見。如民國二年春的宏誓研究會
-<lb n="0294a04" ed="Y"/>講<lb n="0294a04" ed="Y" type="old"/>辭說：<quote type="嚴謹引文">「名譽不足惜」<note n="0294001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:27;page:p1">(ref taixu::vol:27;page:p1)</ref></note></quote>，<quote type="嚴謹引文">「道德無可崇」<note n="0294002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:27;page:p3">(ref taixu::vol:27;page:p3)</ref></note></quote>。這使我們聯想到：受過禪宗陶鑄而
+<lb n="0294a04" ed="Y"/>講<lb n="0294a04" ed="Y" type="old"/>辭說：<quote type="嚴謹引文">「名譽不足惜」<note n="0294001" resp="謝淑歆" type="add"><ref target="#vol:27;page:p1" type="taixu">(ref taixu::vol:27;page:p1)</ref></note></quote>，<quote type="嚴謹引文">「道德無可崇」<note n="0294002" resp="謝淑歆" type="add"><ref target="#vol:27;page:p3" type="taixu">(ref taixu::vol:27;page:p3)</ref></note></quote>。這使我們聯想到：受過禪宗陶鑄而
 <lb n="0294a05" ed="Y"/>作<lb n="0294a05" ed="Y" type="old"/>政治改革的王安石，也曾擺脫儒家的傳統，敢於說<quote type="嚴謹引文">「天變不足畏，祖宗不足法
 <lb n="0294a06" ed="Y"/><lb n="0294a06" ed="Y" type="old"/>，人言不足恤」</quote>，看出彼此間的同樣氣魄。在一般斤斤於辨別公私時，他卻在（
-<lb n="0294a07" ed="Y"/><lb n="0294a07" ed="Y" type="old"/>民國二年作）<cit><bibl><title level="a">〈致私篇〉</title>說：</bibl><quote type="嚴謹引文">「天下亦私而已矣，無所謂公也。」</quote><note n="0294003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:21;page:p643">(ref taixu::vol:21;page:p643)</ref></note></cit>而極端辭意說
+<lb n="0294a07" ed="Y"/><lb n="0294a07" ed="Y" type="old"/>民國二年作）<cit><bibl><title level="a">〈致私篇〉</title>說：</bibl><quote type="嚴謹引文">「天下亦私而已矣，無所謂公也。」</quote><note n="0294003" resp="謝淑歆" type="add"><ref target="#vol:21;page:p643" type="taixu">(ref taixu::vol:21;page:p643)</ref></note></cit>而極端辭意說
 <lb n="0294a08" ed="Y"/>得<lb n="0294a08" ed="Y" type="old"/>最親切的，如民國二年<cit><bibl><title level="a">〈春宵感事〉</title>詩說：</bibl><quote type="嚴謹引文">「從來般若原非有，最是貪嗔不可
 <lb n="0294a09" ed="Y"/>無。<lb n="0294a09" ed="Y" type="old"/>顛倒乾坤見魔力，總持凡聖此靈珠。圖南漫作鯤鵬變，成佛當行鳥獸途。忽
-<lb n="0294a10" ed="Y"/>地橫<lb n="0294a10" ed="Y" type="old"/>刀向天笑，萬星今夜屬狂夫。」</quote><note n="0294004" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:32;page:p38">(ref taixu::vol:32;page:p38)</ref></note></cit>這種浪漫的狂飆精神，真是橫掃千軍、目空
-<lb n="0294a11" ed="Y"/>一切<lb n="0294a11" ed="Y" type="old"/>。<cit><bibl><title level="m">《自傳》</title>中也說：</bibl><quote type="嚴謹引文">「心精勇銳，目空一切。」</quote><note n="0294005" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:29;page:p191">(ref taixu::vol:29;page:p191)</ref></note></cit><quote type="嚴謹引文">「我其時在禪慧融徹中，俠
-<lb n="0294a12" ed="Y"/>情噴<lb n="0294a12" ed="Y" type="old"/>湧，不可一世。」<note n="0294006" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:29;page:p191">(ref taixu::vol:29;page:p191)</ref></note></quote>這種浪漫精神，使他敢於為了援救盟兄圓暎而得罪八指頭
+<lb n="0294a10" ed="Y"/>地橫<lb n="0294a10" ed="Y" type="old"/>刀向天笑，萬星今夜屬狂夫。」</quote><note n="0294004" resp="謝淑歆" type="add"><ref target="#vol:32;page:p38" type="taixu">(ref taixu::vol:32;page:p38)</ref></note></cit>這種浪漫的狂飆精神，真是橫掃千軍、目空
+<lb n="0294a11" ed="Y"/>一切<lb n="0294a11" ed="Y" type="old"/>。<cit><bibl><title level="m">《自傳》</title>中也說：</bibl><quote type="嚴謹引文">「心精勇銳，目空一切。」</quote><note n="0294005" resp="謝淑歆" type="add"><ref target="#vol:29;page:p191" type="taixu">(ref taixu::vol:29;page:p191)</ref></note></cit><quote type="嚴謹引文">「我其時在禪慧融徹中，俠
+<lb n="0294a12" ed="Y"/>情噴<lb n="0294a12" ed="Y" type="old"/>湧，不可一世。」<note n="0294006" resp="謝淑歆" type="add"><ref target="#vol:29;page:p191" type="taixu">(ref taixu::vol:29;page:p191)</ref></note></quote>這種浪漫精神，使他敢於為了援救盟兄圓暎而得罪八指頭
 <lb n="0294a13" ed="Y"/>陀；<lb n="0294a13" ed="Y" type="old"/>使他<cit><quote type="嚴謹引文">「憤僧眾之委靡頑陋，擬用金剛怒目、霹靂轟頂之精神，搖撼而驚覺之
 <pb n="0295a" ed="Y" xml:id="Y23.0023.0295a"/>
-<lb n="0295a01" ed="Y"/>」</quote><bibl>（<pb n="0295a" ed="Y" xml:id="Y23.0023.0295a.old" type="old"/><lb n="0295a01" ed="Y" type="old"/><title level="m">《中興佛教寄禪安和尚傳》</title>）</bibl><note n="0295001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:29;page:p132">(ref taixu::vol:29;page:p132)</ref></note></cit>。於是乎「大鬧金山」，使長老們聽見太虛二字
+<lb n="0295a01" ed="Y"/>」</quote><bibl>（<pb n="0295a" ed="Y" xml:id="Y23.0023.0295a.old" type="old"/><lb n="0295a01" ed="Y" type="old"/><title level="m">《中興佛教寄禪安和尚傳》</title>）</bibl><note n="0295001" resp="謝淑歆" type="add"><ref target="#vol:29;page:p132" type="taixu">(ref taixu::vol:29;page:p132)</ref></note></cit>。於是乎「大鬧金山」，使長老們聽見太虛二字
 <lb n="0295a02" ed="Y"/>，<lb n="0295a02" ed="Y" type="old"/>頭痛三日。至於大師的疏放不羈、不拘小行、與俗同化，反而是極平常的了。</p>
-<lb n="0295a03" ed="Y"/><lb n="0295a03" ed="Y" type="old"/><p style="text-indent:2em">極端的言句、浪漫的精神，本於禪。中國的禪宗，蘊蓄於大乘經——佛法的
+<lb n="0295a03" ed="Y"/><lb n="0295a03" ed="Y" type="old"/><p xml:id="pY23p0295a0301" style="text-indent:2em">極端的言句、浪漫的精神，本於禪。中國的禪宗，蘊蓄於大乘經——佛法的
 <lb n="0295a04" ed="Y"/><lb n="0295a04" ed="Y" type="old"/>通俗化，與吠檀多的「真我」說相合，再受中國魏晉來玄學的熏染，逐次創化完
 <lb n="0295a05" ed="Y"/><lb n="0295a05" ed="Y" type="old"/>成。這是唯心論的、唯我論的，與老、莊、孟，大有共同點；與從此流出的理學
 <lb n="0295a06" ed="Y"/><lb n="0295a06" ed="Y" type="old"/>，當然更為接近。大師在民國元年夏天的<cit><bibl><title level="a">〈懷故人詩〉</title>說：</bibl><quote type="嚴謹引文">「不是聖賢死，那得
-<lb n="0295a07" ed="Y"/>盜賊<lb n="0295a07" ed="Y" type="old"/>止！我意尚無為，唯君同所喜。」</quote><note n="0295002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:32;page:p36">(ref taixu::vol:32;page:p36)</ref></note></cit>大師當時的見地，近於道家的無為，如<cit><bibl><title level="a">〈
+<lb n="0295a07" ed="Y"/>盜賊<lb n="0295a07" ed="Y" type="old"/>止！我意尚無為，唯君同所喜。」</quote><note n="0295002" resp="謝淑歆" type="add"><ref target="#vol:32;page:p36" type="taixu">(ref taixu::vol:32;page:p36)</ref></note></cit>大師當時的見地，近於道家的無為，如<cit><bibl><title level="a">〈
 <lb n="0295a08" ed="Y"/>唐代<lb n="0295a08" ed="Y" type="old"/>禪宗與現代思潮〉</title>說：</bibl><quote type="嚴謹引文">「唐代禪者……，不知有政，不知有教，不知有王，
 <lb n="0295a09" ed="Y"/>不知<lb n="0295a09" ed="Y" type="old"/>有佛，乃真能洗除乎老子所云失道而後所起之仁之德之義之禮智忠信慈孝等
-<lb n="0295a10" ed="Y"/>等，而<lb n="0295a10" ed="Y" type="old"/>聖王死，而盜賊出，而剖斗折衡，而民息其爭者也。」</quote><note n="0295003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:20;page:p225">(ref taixu::vol:20;page:p225)</ref></note></cit>這顯然以禪者真能
+<lb n="0295a10" ed="Y"/>等，而<lb n="0295a10" ed="Y" type="old"/>聖王死，而盜賊出，而剖斗折衡，而民息其爭者也。」</quote><note n="0295003" resp="謝淑歆" type="add"><ref target="#vol:20;page:p225" type="taixu">(ref taixu::vol:20;page:p225)</ref></note></cit>這顯然以禪者真能
 <lb n="0295a11" ed="Y"/>實現完<lb n="0295a11" ed="Y" type="old"/>成道家這一著的，所以大師以為：<quote type="嚴謹引文">「無政府主義與佛教為鄰近，而可由民
-<lb n="0295a12" ed="Y"/>主社<lb n="0295a12" ed="Y" type="old"/>會主義以漸階進。」<note n="0295004" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:29;page:p194">(ref taixu::vol:29;page:p194)</ref></note></quote>餘如<cit><bibl><title level="a">〈致私篇〉</title>，由</bibl><quote type="嚴謹引文">「陸子曰：宇宙內事，皆己分內事
-<lb n="0295a13" ed="Y"/>」</quote><note n="0295005" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:21;page:p643">(ref taixu::vol:21;page:p643)</ref></note></cit>演出，而<lb n="0295a13" ed="Y" type="old"/>表現禪者真我的思想。</p><pb n="0296a" ed="Y" xml:id="Y23.0023.0296a.old" type="old"/>
+<lb n="0295a12" ed="Y"/>主社<lb n="0295a12" ed="Y" type="old"/>會主義以漸階進。」<note n="0295004" resp="謝淑歆" type="add"><ref target="#vol:29;page:p194" type="taixu">(ref taixu::vol:29;page:p194)</ref></note></quote>餘如<cit><bibl><title level="a">〈致私篇〉</title>，由</bibl><quote type="嚴謹引文">「陸子曰：宇宙內事，皆己分內事
+<lb n="0295a13" ed="Y"/>」</quote><note n="0295005" resp="謝淑歆" type="add"><ref target="#vol:21;page:p643" type="taixu">(ref taixu::vol:21;page:p643)</ref></note></cit>演出，而<lb n="0295a13" ed="Y" type="old"/>表現禪者真我的思想。</p><pb n="0296a" ed="Y" xml:id="Y23.0023.0296a.old" type="old"/>
 <pb n="0296a" ed="Y" xml:id="Y23.0023.0296a"/>
-<lb n="0296a01" ed="Y"/><lb n="0296a01" ed="Y" type="old"/><p style="text-indent:2em">這種思想，多少大同小異的內契於「空」、「本無」、「無為」、「活潑潑
+<lb n="0296a01" ed="Y"/><lb n="0296a01" ed="Y" type="old"/><p xml:id="pY23p0296a0101" style="text-indent:2em">這種思想，多少大同小異的內契於「空」、「本無」、「無為」、「活潑潑
 <lb n="0296a02" ed="Y"/><lb n="0296a02" ed="Y" type="old"/>、赤裸裸」的心性；外則深透了宇宙人生的相對性。這不從現實的相對中確定<lb n="0296a03" ed="Y" type="old"/>它
 <lb n="0296a03" ed="Y"/>發展的必然法則、確定現象中的不變性，而將一切歸本於自心，作為自心的稱<lb n="0296a04" ed="Y" type="old"/>性
 <lb n="0296a04" ed="Y"/>舒發看。所以，不滯著現象中的某一跡象，只是隨宜適化，而重視自心本具的<lb n="0296a05" ed="Y" type="old"/>功
@@ -247,28 +267,28 @@
 <lb n="0296a12" ed="Y"/>。凡<lb n="0296a12" ed="Y" type="old"/>是，皆道德之跡，非道德之所以跡也。……著道德之跡，則矯揉造作，奸偽
 <lb n="0296a13" ed="Y"/>百出，<lb n="0296a13" ed="Y" type="old"/>非愚即妄……。故吾人安心立命，亦莫若以真。真何所在？即空寂之自性
 <pb n="0297a" ed="Y" xml:id="Y23.0023.0297a"/>
-<lb n="0297a01" ed="Y"/>是也。百千<pb n="0297a" ed="Y" xml:id="Y23.0023.0297a.old" type="old"/><lb n="0297a01" ed="Y" type="old"/>功德，性自具足，無施不獲，安用外求！」<note n="0297001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:27;page:p1-4">(ref taixu::vol:27;page:p1-4)</ref></note></quote>任良心與本真性，並非不
+<lb n="0297a01" ed="Y"/>是也。百千<pb n="0297a" ed="Y" xml:id="Y23.0023.0297a.old" type="old"/><lb n="0297a01" ed="Y" type="old"/>功德，性自具足，無施不獲，安用外求！」<note n="0297001" resp="謝淑歆" type="add"><ref target="#vol:27;page:p1-4" type="taixu">(ref taixu::vol:27;page:p1-4)</ref></note></quote>任良心與本真性，並非不
 <lb n="0297a02" ed="Y"/>受環境影響<lb n="0297a02" ed="Y" type="old"/>，也非置現實問題不論；這只是以此為本體，為一切取捨衡度的標準
 <lb n="0297a03" ed="Y"/>，也即是將<lb n="0297a03" ed="Y" type="old"/>最高的立法權、裁判權，賦予這良心與真性。從此去了解一切，一切
 <lb n="0297a04" ed="Y"/>是相對的存<lb n="0297a04" ed="Y" type="old"/>在，一切是求其適宜。所以一切可破，而又一切可適應，<quote>「餓鬼畜生
 <lb n="0297a05" ed="Y"/>也有用處」</quote><lb n="0297a05" ed="Y" type="old"/>。這點，對於大師未來的教理、教制的建議，實為絕對的指導原則。</p>
-<lb n="0297a06" ed="Y"/><lb n="0297a06" ed="Y" type="old"/><p style="text-indent:2em">民國三年九月，大師閉關了。從政治革命的立場說，他是離開了革命陣容。
+<lb n="0297a06" ed="Y"/><lb n="0297a06" ed="Y" type="old"/><p xml:id="pY23p0297a0601" style="text-indent:2em">民國三年九月，大師閉關了。從政治革命的立場說，他是離開了革命陣容。
 <lb n="0297a07" ed="Y"/><lb n="0297a07" ed="Y" type="old"/>然從大師的立場說，近三、四年的參加政治活動，如<cit><bibl><title level="m">《自傳》</title>四說：</bibl><quote type="嚴謹引文">「我初不稍
-<lb n="0297a08" ed="Y"/>移<lb n="0297a08" ed="Y" type="old"/>我以佛法救世的立場，只覺中國政治革命後，中國的佛教亦須經過革命而已</quote><note n="0297002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:29;page:p192">(ref taixu::vol:29;page:p192)</ref></note></cit>。
+<lb n="0297a08" ed="Y"/>移<lb n="0297a08" ed="Y" type="old"/>我以佛法救世的立場，只覺中國政治革命後，中國的佛教亦須經過革命而已</quote><note n="0297002" resp="謝淑歆" type="add"><ref target="#vol:29;page:p192" type="taixu">(ref taixu::vol:29;page:p192)</ref></note></cit>。
 <lb n="0297a09" ed="Y"/>」大<lb n="0297a09" ed="Y" type="old"/>師始終不離佛教，這不但是八指頭陀、奘老、昱山等師友的關係，實有關於
 <lb n="0297a10" ed="Y"/>他那<lb n="0297a10" ed="Y" type="old"/>種內心的經驗。真我唯心觀中，充滿了與時俱新的內容；政治革命與佛教革
 <lb n="0297a11" ed="Y"/>命，<lb n="0297a11" ed="Y" type="old"/>大師是決不看為背道而馳的。然而，大師禪慧中的俠情奔放、被時代所引起
 <lb n="0297a12" ed="Y"/>的浪<lb n="0297a12" ed="Y" type="old"/>漫革新行動，漸漸的從失望而懷疑。<quote type="嚴謹引文">「潮流滿地來新鬼，荊棘參天失古途。
-<lb n="0297a13" ed="Y"/>」<note n="0297003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:32;page:p38">(ref taixu::vol:32;page:p38)</ref></note></quote>（癸<lb n="0297a13" ed="Y" type="old"/>丑<title level="a">〈春宵感事〉</title>）對於隨革命而來的新時局，太不理想；所以曾主編<title level="j">《良
+<lb n="0297a13" ed="Y"/>」<note n="0297003" resp="謝淑歆" type="add"><ref target="#vol:32;page:p38" type="taixu">(ref taixu::vol:32;page:p38)</ref></note></quote>（癸<lb n="0297a13" ed="Y" type="old"/>丑<title level="a">〈春宵感事〉</title>）對於隨革命而來的新時局，太不理想；所以曾主編<title level="j">《良
 <pb n="0298a" ed="Y" xml:id="Y23.0023.0298a"/>
 <lb n="0298a01" ed="Y"/>心雜<pb n="0298a" ed="Y" xml:id="Y23.0023.0298a.old" type="old"/><lb n="0298a01" ed="Y" type="old"/>誌》</title>，宣傳社會主義而揭示「良心」。這對於現實的政治活動，早已吐露了
 <lb n="0298a02" ed="Y"/>要從<lb n="0298a02" ed="Y" type="old"/>人心改造起的意思。經過的政治情形更惡化，於是乎開始了對於自己的懷疑
 <lb n="0298a03" ed="Y"/>；對<lb n="0298a03" ed="Y" type="old"/>於如此混下去，是否為救人救世的最好行動，也開始懷疑起來：<cit><quote type="寬鬆引文">「鑒於政潮
-<lb n="0298a04" ed="Y"/>之逆<lb n="0298a04" ed="Y" type="old"/>流，且自審於佛陀之法化，未完成其體系。」</quote><bibl>（<title level="a">〈告徒眾書〉</title>）</bibl><note n="0298001" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:17;page:p584">(ref taixu::vol:17;page:p584)</ref></note></cit><cit><quote type="寬鬆引文">「歐戰爆發，
+<lb n="0298a04" ed="Y"/>之逆<lb n="0298a04" ed="Y" type="old"/>流，且自審於佛陀之法化，未完成其體系。」</quote><bibl>（<title level="a">〈告徒眾書〉</title>）</bibl><note n="0298001" resp="謝淑歆" type="add"><ref target="#vol:17;page:p584" type="taixu">(ref taixu::vol:17;page:p584)</ref></note></cit><cit><quote type="寬鬆引文">「歐戰爆發，
 <lb n="0298a05" ed="Y"/>對<lb n="0298a05" ed="Y" type="old"/>於西洋的學說，及自己以佛法救世的力量，發生懷疑。」</quote><bibl>（<title level="a">〈我的宗教經驗〉</title>
-<lb n="0298a06" ed="Y"/>）</bibl><note n="0298002" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:21;page:p348">(ref taixu::vol:21;page:p348)</ref></note></cit>社<lb n="0298a06" ed="Y" type="old"/>會革命，對於大師是第二的。等到對社會革命失望，對自己的佛法救世力量
+<lb n="0298a06" ed="Y"/>）</bibl><note n="0298002" resp="謝淑歆" type="add"><ref target="#vol:21;page:p348" type="taixu">(ref taixu::vol:21;page:p348)</ref></note></cit>社<lb n="0298a06" ed="Y" type="old"/>會革命，對於大師是第二的。等到對社會革命失望，對自己的佛法救世力量
 <lb n="0298a07" ed="Y"/>知<lb n="0298a07" ed="Y" type="old"/>道不夠，這自然會回歸佛法，再來死心塌地的活埋一番，去完成佛法的統系組
 <lb n="0298a08" ed="Y"/>織<lb n="0298a08" ed="Y" type="old"/>，去充實自己佛教救世的力量。他謝謝關心他的革命朋友，告訴他們說：<quote type="寬鬆引文">「芙
 <lb n="0298a09" ed="Y"/>蓉<lb n="0298a09" ed="Y" type="old"/>寶劍葡萄酒，都是迷離舊夢痕。大陸龍蛇莽飛動，故山猿鶴積清怨。三年化碧
-<lb n="0298a10" ed="Y"/>書<lb n="0298a10" ed="Y" type="old"/>生血，一劍成虹俠士魂。一到梅岑（即普陀）渾不憶，爐香經梵自晨昏。」<note n="0298003" resp="謝淑歆" type="add"><ref type="taixu" target="#vol:32;page:p235-236">(ref taixu::vol:32;page:p235-236)</ref></note></quote></p></cb:div>
+<lb n="0298a10" ed="Y"/>書<lb n="0298a10" ed="Y" type="old"/>生血，一劍成虹俠士魂。一到梅岑（即普陀）渾不憶，爐香經梵自晨昏。」<note n="0298003" resp="謝淑歆" type="add"><ref target="#vol:32;page:p235-236" type="taixu">(ref taixu::vol:32;page:p235-236)</ref></note></quote></p></cb:div>
 </body></text></TEI>

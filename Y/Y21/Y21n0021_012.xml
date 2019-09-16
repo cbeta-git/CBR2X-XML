@@ -12,56 +12,76 @@
 			</respStmt>
 		</titleStmt>
 		<editionStmt>
-			<edition>修訂版一刷<date>Date: 2012/12</date>新式標點版</edition>
+			<edition>修訂版一刷<date>Date: 2012/12</date>單卷版 XML TEI P5b</edition>
 		</editionStmt>
-        <extent>14卷</extent>
-        <publicationStmt>
-            <distributor>
-                <name>中華電子佛典協會 (CBETA)</name>
-                <address>
-                    <addrLine>service@cbeta.org</addrLine>
-                </address>
-            </distributor>
-            <availability>
-                <p>Available for non-commercial use when distributed with this header intact.</p>
-            </availability>
-            <date>Date: 2017/02/23 00:00:00 </date>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl>Corpus of Venerable Yin Shun's Buddhist Studies Vol. 21, No. 21</bibl>
-        </sourceDesc>
-    </fileDesc>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">Y</idno>.<idno type="vol">21</idno>.<idno type="no">21</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:24:06 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Corpus of Venerable Yin Shun's Buddhist Studies</title>
+				<title level="s" xml:lang="zh-Hant">印順法師佛學著作集</title>
+				<title level="m" xml:lang="zh-Hant">教制教典與教學</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Text as provided by Yin-Shun Cultural and Educational Foundation</p>
 			<p xml:lang="zh-Hant" cb:type="ly">印順文教基金會提供</p>
 		</projectDesc>
-	</encodingDesc>
-    <profileDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【印順】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+			</encodingDesc>
+	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
-			<language ident="zh">Chinese</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
 		<change when="2016-11-27">
 			<name>Heaven Chou</name>DILA XML to CBETA P5a conversion by ys2p5a.pl
 		</change>
-    </revisionDesc>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">十一、論佛學的修學</cb:mulu>
-<milestone unit="juan" n="12"/><pb n="0165a" ed="Y" xml:id="Y21.0021.0165a.old" type="old"/>
+<milestone n="12" unit="juan"/><pb n="0165a" ed="Y" xml:id="Y21.0021.0165a.old" type="old"/>
 <pb n="0165a" ed="Y" xml:id="Y21.0021.0165a"/>
 <lb n="0165a01" ed="Y"/><lb n="0165a01" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="1" type="其他">十二、談修學佛法</cb:mulu><head>談修學佛法<note n="0165001" resp="DILA" type="add">民國四七年講。</note></head>
-<lb n="0165a02" ed="Y"/><lb n="0165a02" ed="Y" type="old"/><p style="text-indent:2em">在這舉世動亂的時代，要想修學佛法，真是不易！從佛法觀點上看：諸行無
+<lb n="0165a02" ed="Y"/><lb n="0165a02" ed="Y" type="old"/><p xml:id="pY21p0165a0201" style="text-indent:2em">在這舉世動亂的時代，要想修學佛法，真是不易！從佛法觀點上看：諸行無
 <lb n="0165a03" ed="Y"/><lb n="0165a03" ed="Y" type="old"/>常，只要我們做的是自利利他的事業，做一天就是一天，不問他風雨飄搖，能延
 <lb n="0165a04" ed="Y"/><lb n="0165a04" ed="Y" type="old"/>續幾久。那怕一天、一刻，都有利益。大家抱著為法的大願學下去，這是學者應
 <lb n="0165a05" ed="Y"/><lb n="0165a05" ed="Y" type="old"/>具足的精神。研究佛法應從聖教——經論下手。但研究佛法，並不就是完美的修
 <lb n="0165a06" ed="Y"/><lb n="0165a06" ed="Y" type="old"/>學佛法；研究佛法，只是修學佛法的基礎，對它不可看得太高、太易。修學佛法
 <lb n="0165a07" ed="Y"/><lb n="0165a07" ed="Y" type="old"/>，應從認識和實踐兩方面去學。</p>
 <lb n="0165a08" ed="Y"/><lb n="0165a08" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">一　論聞法</cb:mulu><head>一　論聞法</head>
-<lb n="0165a09" ed="Y"/><lb n="0165a09" ed="Y" type="old"/><p style="text-indent:2em">學佛的人，第一要聞法。聞是聽人講解。平常以為誦經有什麼功德，真正的
+<lb n="0165a09" ed="Y"/><lb n="0165a09" ed="Y" type="old"/><p xml:id="pY21p0165a0901" style="text-indent:2em">學佛的人，第一要聞法。聞是聽人講解。平常以為誦經有什麼功德，真正的
 <lb n="0165a10" ed="Y"/><lb n="0165a10" ed="Y" type="old"/>說，因為聞法，這才成為功德。舍利子對佛說：<quote>「我不聞佛說法，像瞎子一樣」</quote><pb n="0166a" ed="Y" xml:id="Y21.0021.0166a.old" type="old"/>
 <pb n="0166a" ed="Y" xml:id="Y21.0021.0166a"/>
 <lb n="0166a01" ed="Y"/><lb n="0166a01" ed="Y" type="old"/>！他是佛諸大弟子中智慧第一的尊者，尚且要從佛聞法，何況一般根性暗鈍的人
@@ -86,7 +106,7 @@
 <lb n="0167a06" ed="Y"/><lb n="0167a06" ed="Y" type="old"/>了。難怪注重實踐的學佛者，討厭佛學這個名詞，因為佛學這個名詞是學術化了
 <lb n="0167a07" ed="Y"/><lb n="0167a07" ed="Y" type="old"/>的，是重在抽象的知識。真正的學佛者，是慧解和信行融合而為一的。所以我們
 <lb n="0167a08" ed="Y"/><lb n="0167a08" ed="Y" type="old"/>一方面聞法，一方面要實踐所聞的法，才可免除頭重頭輕的譏誚！</p>
-<lb n="0167a09" ed="Y"/><lb n="0167a09" ed="Y" type="old"/><p style="text-indent:2em">聞是用耳根聽，佛世弟子從佛聞法，沒有現成的經本，聽了多記在心裡。<cit><bibl><title level="m">《
+<lb n="0167a09" ed="Y"/><lb n="0167a09" ed="Y" type="old"/><p xml:id="pY21p0167a0901" style="text-indent:2em">聞是用耳根聽，佛世弟子從佛聞法，沒有現成的經本，聽了多記在心裡。<cit><bibl><title level="m">《
 <lb n="0167a10" ed="Y"/><lb n="0167a10" ed="Y" type="old"/>楞嚴經》</title>云：</bibl><quote source="T19n0945_p0130c18" type="嚴謹引文">「此方真教體，清淨在音聞」</quote><note n="0167001" resp="謝淑歆" type="add">《大佛頂如來密因修證了義諸菩薩萬行首楞嚴經》卷6(CBETA, T19, no. 945, p. 130, c18)</note></cit>。古代印度的佛法，都是口口相傳的
 <lb n="0167a11" ed="Y"/><lb n="0167a11" ed="Y" type="old"/>。佛滅度後，結集成藏。到後代，書寫流通，其後又印刷流通。有了經卷，也可
 <lb n="0167a12" ed="Y"/><lb n="0167a12" ed="Y" type="old"/>以從經典而聞法了。<quote source="T25n1509_p0196a14-15" type="寬鬆引文">「佛法從三處聞：從佛聞，從佛弟子聞，從經典聞」<note n="0167002" resp="謝淑歆" type="add">《大智度論》卷18〈1 序品〉：「若從佛聞、若從弟子聞、若於經中聞」(CBETA, T25, no. 1509, p. 196, a14-15)</note></quote>。這是
@@ -99,9 +119,9 @@
 <lb n="0168a05" ed="Y"/><lb n="0168a05" ed="Y" type="old"/>懇到用一番功力，才能深入經藏，觸到佛法的核心。不受古人著述的錮囿，變成
 <lb n="0168a06" ed="Y"/><lb n="0168a06" ed="Y" type="old"/>為自己的。但是初學者，還須從人聞法起。</p></cb:div>
 <lb n="0168a07" ed="Y"/><lb n="0168a07" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">二　學法之目標與程序</cb:mulu><head>二　學法之目標與程序</head>
-<lb n="0168a08" ed="Y"/><lb n="0168a08" ed="Y" type="old"/><p style="text-indent:2em">學法應有目標，即為什麼要學佛法。學法要有程序，即是從淺至深，層次歷
+<lb n="0168a08" ed="Y"/><lb n="0168a08" ed="Y" type="old"/><p xml:id="pY21p0168a0801" style="text-indent:2em">學法應有目標，即為什麼要學佛法。學法要有程序，即是從淺至深，層次歷
 <lb n="0168a09" ed="Y"/>然<lb n="0168a09" ed="Y" type="old"/>。</p>
-<lb n="0168a10" ed="Y"/><lb n="0168a10" ed="Y" type="old"/><p style="text-indent:2em">先說目標：發心有兩種：一、發了生死的心，此心為小乘心——出離心，發
+<lb n="0168a10" ed="Y"/><lb n="0168a10" ed="Y" type="old"/><p xml:id="pY21p0168a1001" style="text-indent:2em">先說目標：發心有兩種：一、發了生死的心，此心為小乘心——出離心，發
 <lb n="0168a11" ed="Y"/><lb n="0168a11" ed="Y" type="old"/>了此心，行到極點，可證羅漢果。二、發菩提心，此心為大乘心，以自利利他為
 <lb n="0168a12" ed="Y"/><lb n="0168a12" ed="Y" type="old"/>目的，所謂：<quote type="嚴謹引文">「上求佛道，下化眾生」</quote>。綜括佛法的宗趣，不外出離生死，廣度<pb n="0169a" ed="Y" xml:id="Y21.0021.0169a.old" type="old"/>
 <pb n="0169a" ed="Y" xml:id="Y21.0021.0169a"/>
@@ -116,7 +136,7 @@
 <lb n="0169a09" ed="Y"/><lb n="0169a09" ed="Y" type="old"/>式的熱鬧而已，於佛法毫無裨益。學小乘，學大乘，都離不了淨治身心，千經萬
 <lb n="0169a10" ed="Y"/><lb n="0169a10" ed="Y" type="old"/>論莫不是這樣說的。所以淨治身心，是學佛者最根本最重要的問題。如果忽視了
 <lb n="0169a11" ed="Y"/><lb n="0169a11" ed="Y" type="old"/>它，學佛、出家，都是與佛無緣！我們必以此為初步目標，離此則佛法無基。</p>
-<lb n="0169a12" ed="Y"/><lb n="0169a12" ed="Y" type="old"/><p style="text-indent:2em">單這樣，還是不夠的。我改造行為，得到安樂；我淨治身心，求證涅槃，這
+<lb n="0169a12" ed="Y"/><lb n="0169a12" ed="Y" type="old"/><p xml:id="pY21p0169a1201" style="text-indent:2em">單這樣，還是不夠的。我改造行為，得到安樂；我淨治身心，求證涅槃，這
 <lb n="0169a13" ed="Y"/><lb n="0169a13" ed="Y" type="old"/>純是自利的。應當學佛那樣的發大悲大願心，大願是弘揚正法，大悲是利濟眾生<pb n="0170a" ed="Y" xml:id="Y21.0021.0170a.old" type="old"/>
 <pb n="0170a" ed="Y" xml:id="Y21.0021.0170a"/>
 <lb n="0170a01" ed="Y"/><lb n="0170a01" ed="Y" type="old"/>。佛法是世界一切的光明，世界上任何事情與佛法相違，或個人的行為與佛法相
@@ -131,7 +151,7 @@
 <lb n="0170a10" ed="Y"/><lb n="0170a10" ed="Y" type="old"/>心，求解脫，證涅槃，是自了漢。如果發菩提心，修菩薩行，為人為眾生，這就
 <lb n="0170a11" ed="Y"/><lb n="0170a11" ed="Y" type="old"/>了不起了。菩薩所以發大悲心，是見到眾生太苦，佛法太衰，如此發心，如此修
 <lb n="0170a12" ed="Y"/><lb n="0170a12" ed="Y" type="old"/>行，是自力的，強有力的發心，是最值得讚歎不已的！</p>
-<lb n="0170a13" ed="Y"/><lb n="0170a13" ed="Y" type="old"/><p style="text-indent:2em">出家人學法與居士不同。斷三毒，修三無漏學，在家出家都是相同的。所不<pb n="0171a" ed="Y" xml:id="Y21.0021.0171a.old" type="old"/>
+<lb n="0170a13" ed="Y"/><lb n="0170a13" ed="Y" type="old"/><p xml:id="pY21p0170a1301" style="text-indent:2em">出家人學法與居士不同。斷三毒，修三無漏學，在家出家都是相同的。所不<pb n="0171a" ed="Y" xml:id="Y21.0021.0171a.old" type="old"/>
 <pb n="0171a" ed="Y" xml:id="Y21.0021.0171a"/>
 <lb n="0171a01" ed="Y"/><lb n="0171a01" ed="Y" type="old"/>同者，是出家人多了一番責任，即是住持佛法。因此，居士如學一法門，降伏煩
 <lb n="0171a02" ed="Y"/><lb n="0171a02" ed="Y" type="old"/>惱，也就行了。出家人為了利濟眾生，必須廣學無量法門。我覺得，真能負起出
@@ -154,7 +174,7 @@
 <lb n="0172a05" ed="Y"/><lb n="0172a05" ed="Y" type="old"/><quote source="T19n0945_p0131c04-05" type="寬鬆引文">「自未得度先度人，是菩薩發心」<note n="0172001" resp="謝淑歆" type="add">《大佛頂如來密因修證了義諸菩薩萬行首楞嚴經》卷6：「自未得度先度人者，菩薩發心」(CBETA, T19, no. 945, p. 131, c4-5)</note></quote>，這是應如此發心。在實踐上，如果未能自利
 <lb n="0172a06" ed="Y"/><lb n="0172a06" ed="Y" type="old"/>，焉能利人？凡是一件事，不從自己去實踐，是難得人家同情，不能實現弘揚正
 <lb n="0172a07" ed="Y"/><lb n="0172a07" ed="Y" type="old"/>法、利濟眾生的目的。</p>
-<lb n="0172a08" ed="Y"/><lb n="0172a08" ed="Y" type="old"/><p style="text-indent:2em">再說學佛之程序：修學佛法有其必然的次第，不能躐等。佛法中最緊要的是
+<lb n="0172a08" ed="Y"/><lb n="0172a08" ed="Y" type="old"/><p xml:id="pY21p0172a0801" style="text-indent:2em">再說學佛之程序：修學佛法有其必然的次第，不能躐等。佛法中最緊要的是
 <lb n="0172a09" ed="Y"/><lb n="0172a09" ed="Y" type="old"/>智慧，也可以說：修學佛法就是修學智慧。但這不是說不要其他的法門，其他如
 <lb n="0172a10" ed="Y"/><lb n="0172a10" ed="Y" type="old"/>施、戒、忍等也都是需要的，不過在一切法中最主要的，又是佛法特質的，而且
 <lb n="0172a11" ed="Y"/><lb n="0172a11" ed="Y" type="old"/>可以稱為佛法中最究竟的，就是智慧。世間的眾生，也還是想離苦得樂，然都是
@@ -180,11 +200,11 @@
 <lb n="0174a03" ed="Y"/>惱<lb n="0174a03" ed="Y" type="old"/>而解脫生死，必須真實的「無漏般若」（聞思修慧，是加行的般若）現前，現
 <lb n="0174a04" ed="Y"/>證<lb n="0174a04" ed="Y" type="old"/>的般若，才是真智慧，也即是無漏慧。從聞所成慧到無漏慧，這是修學智慧的
 <lb n="0174a05" ed="Y"/>道<lb n="0174a05" ed="Y" type="old"/>路；這種次第，是小乘大乘所共的坦道。</p>
-<lb n="0174a06" ed="Y"/><lb n="0174a06" ed="Y" type="old"/><p style="text-indent:2em">平常說般若有三種：文字般若、觀照般若、實相般若。與上所說的修慧次第
+<lb n="0174a06" ed="Y"/><lb n="0174a06" ed="Y" type="old"/><p xml:id="pY21p0174a0601" style="text-indent:2em">平常說般若有三種：文字般若、觀照般若、實相般若。與上所說的修慧次第
 <lb n="0174a07" ed="Y"/><lb n="0174a07" ed="Y" type="old"/>配屬起來：聞所成慧是文字般若，進而修觀照般若即是思所成慧與修所成慧。實
 <lb n="0174a08" ed="Y"/><lb n="0174a08" ed="Y" type="old"/>相般若即無漏慧。從聞、思、修到現證慧，在修學過程中，雖可以展轉引生，就
 <lb n="0174a09" ed="Y"/><lb n="0174a09" ed="Y" type="old"/>大體說，這顯然有次第的前後。</p>
-<lb n="0174a10" ed="Y"/><lb n="0174a10" ed="Y" type="old"/><p style="text-indent:2em">佛法常說的修學次第，是：親近善士，聽聞正法，如理思惟，法隨法行。此
+<lb n="0174a10" ed="Y"/><lb n="0174a10" ed="Y" type="old"/><p xml:id="pY21p0174a1001" style="text-indent:2em">佛法常說的修學次第，是：親近善士，聽聞正法，如理思惟，法隨法行。此
 <lb n="0174a11" ed="Y"/><lb n="0174a11" ed="Y" type="old"/>四法名預流支。預流是小乘的初果，大乘即是初地。凡夫而想要參預到聖類中，
 <lb n="0174a12" ed="Y"/><lb n="0174a12" ed="Y" type="old"/>或悟入法性流中，必要具有這四種修學過程，無論是小乘或大乘。「親近善士」
 <lb n="0174a13" ed="Y"/><lb n="0174a13" ed="Y" type="old"/>，因為向來的佛法，都是用口講的，所以要聽聞正法，必須先親近師長才行。同<pb n="0175a" ed="Y" xml:id="Y21.0021.0175a.old" type="old"/>
@@ -197,11 +217,11 @@
 <lb n="0175a06" ed="Y"/><lb n="0175a06" ed="Y" type="old"/>過程。但這不是說單修智慧就夠了的，在修學智慧的過程中，同時要修習其他的
 <lb n="0175a07" ed="Y"/><lb n="0175a07" ed="Y" type="old"/>法門。因為單修福或是單修慧，都是不能圓滿的。智慧與福德，有如鳥之兩翼，
 <lb n="0175a08" ed="Y"/><lb n="0175a08" ed="Y" type="old"/>車之兩輪，相輔相成，才能高飛遠行。依智慧淺深的次第去修學時，同時即：</p>
-<lb n="0175a09" ed="Y"/><lb n="0175a09" ed="Y" type="old"/><list rend="no-marker"><item><p style="margin-left:1em">聞所成慧——成信</p></item>
-<lb n="0175a10" ed="Y"/><lb n="0175a10" ed="Y" type="old"/><item><p style="margin-left:1em">思所成慧——住戒</p></item>
-<lb n="0175a11" ed="Y"/><lb n="0175a11" ed="Y" type="old"/><item><p style="margin-left:1em">修所成慧——修定</p></item>
-<lb n="0175a12" ed="Y"/><lb n="0175a12" ed="Y" type="old"/><item><p style="margin-left:1em">無漏慧———發慧</p></item></list>
-<lb n="0175a13" ed="Y"/><lb n="0175a13" ed="Y" type="old"/><p style="text-indent:2em">由親近善士，聽聞正法，而得聞所成慧，即能於三寶、四諦、緣起、聖道等<pb n="0176a" ed="Y" xml:id="Y21.0021.0176a.old" type="old"/>
+<lb n="0175a09" ed="Y"/><lb n="0175a09" ed="Y" type="old"/><list rend="no-marker"><item xml:id="itemY21p0175a0901"><p xml:id="pY21p0175a0901" style="margin-left:1em">聞所成慧——成信</p></item>
+<lb n="0175a10" ed="Y"/><lb n="0175a10" ed="Y" type="old"/><item xml:id="itemY21p0175a1001"><p xml:id="pY21p0175a1001" style="margin-left:1em">思所成慧——住戒</p></item>
+<lb n="0175a11" ed="Y"/><lb n="0175a11" ed="Y" type="old"/><item xml:id="itemY21p0175a1101"><p xml:id="pY21p0175a1101" style="margin-left:1em">修所成慧——修定</p></item>
+<lb n="0175a12" ed="Y"/><lb n="0175a12" ed="Y" type="old"/><item xml:id="itemY21p0175a1201"><p xml:id="pY21p0175a1201" style="margin-left:1em">無漏慧———發慧</p></item></list>
+<lb n="0175a13" ed="Y"/><lb n="0175a13" ed="Y" type="old"/><p xml:id="pY21p0175a1301" style="text-indent:2em">由親近善士，聽聞正法，而得聞所成慧，即能於三寶、四諦、緣起、聖道等<pb n="0176a" ed="Y" xml:id="Y21.0021.0176a.old" type="old"/>
 <pb n="0176a" ed="Y" xml:id="Y21.0021.0176a"/>
 <lb n="0176a01" ed="Y"/><lb n="0176a01" ed="Y" type="old"/>佛法，確信不疑，而引發趣向的欲求。這樣的從信解而起的信求，才是堅定不拔
 <lb n="0176a02" ed="Y"/><lb n="0176a02" ed="Y" type="old"/>的信，引發實行的信，應稱為信根。一般的信心，都是飄搖不定的，如輕毛一樣
@@ -226,18 +246,18 @@
 <lb n="0177a07" ed="Y"/><lb n="0177a07" ed="Y" type="old"/>。發真實信，從此持戒、修定，因而發生真般若慧，斷惑證真。此時，約小乘即
 <lb n="0177a08" ed="Y"/><lb n="0177a08" ed="Y" type="old"/>是初果；約大乘說，即是初地；也即是天台家所說的分證即。若欲圓滿證得，還
 <lb n="0177a09" ed="Y"/><lb n="0177a09" ed="Y" type="old"/>須地地進修，才能達到究竟佛位。</p>
-<lb n="0177a10" ed="Y"/><lb n="0177a10" ed="Y" type="old"/><p style="text-indent:2em">修學佛法就是修學智慧，這句話，一點也不會錯！智慧達到了最圓滿最高深
+<lb n="0177a10" ed="Y"/><lb n="0177a10" ed="Y" type="old"/><p xml:id="pY21p0177a1001" style="text-indent:2em">修學佛法就是修學智慧，這句話，一點也不會錯！智慧達到了最圓滿最高深
 <lb n="0177a11" ed="Y"/><lb n="0177a11" ed="Y" type="old"/>的境地，就是成佛。學佛的程序，無論小乘和大乘的位次，如天台宗的六即，唯
 <lb n="0177a12" ed="Y"/><lb n="0177a12" ed="Y" type="old"/>識的五位，都現出一致的程序。我們現在來聽聞佛法、學習佛法，還是一般的生
 <lb n="0177a13" ed="Y"/><lb n="0177a13" ed="Y" type="old"/>得慧，真正的聞所成慧還不能達到，何況其他！真正的聞所成慧，即是大乘發菩<pb n="0178a" ed="Y" xml:id="Y21.0021.0178a.old" type="old"/>
 <pb n="0178a" ed="Y" xml:id="Y21.0021.0178a"/>
 <lb n="0178a01" ed="Y"/><lb n="0178a01" ed="Y" type="old"/>提心，或者稱為大開圓解。這是修學佛法的初步，是任何修學佛法者所必經的。</p>
-<lb n="0178a02" ed="Y"/><lb n="0178a02" ed="Y" type="old"/><p style="text-indent:2em">我所以這樣的說，有三個意思：一、修學佛法即是修學智慧。二、修學智慧
+<lb n="0178a02" ed="Y"/><lb n="0178a02" ed="Y" type="old"/><p xml:id="pY21p0178a0201" style="text-indent:2em">我所以這樣的說，有三個意思：一、修學佛法即是修學智慧。二、修學智慧
 <lb n="0178a03" ed="Y"/><lb n="0178a03" ed="Y" type="old"/>，不能偏於智慧，禪定、持戒、忍辱等行門，也要附帶綜合的修學。三、說明我
 <lb n="0178a04" ed="Y"/><lb n="0178a04" ed="Y" type="old"/>們來研究佛法，這不是什麼高深的事，只是從生得慧到聞所成慧的起點而已。即
 <lb n="0178a05" ed="Y"/><lb n="0178a05" ed="Y" type="old"/>使是由聞法而對於佛法有點了解，還淺薄得很！佛法中的大智大慧，還都在後面
 <lb n="0178a06" ed="Y"/><lb n="0178a06" ed="Y" type="old"/>，要我們從進一步的學習中去實現。</p>
-<lb n="0178a07" ed="Y"/><lb n="0178a07" ed="Y" type="old"/><p style="text-indent:2em">現在縮小範圍來講。聽聞佛法，也要有個程序。有人問我：佛法應該怎樣研
+<lb n="0178a07" ed="Y"/><lb n="0178a07" ed="Y" type="old"/><p xml:id="pY21p0178a0701" style="text-indent:2em">現在縮小範圍來講。聽聞佛法，也要有個程序。有人問我：佛法應該怎樣研
 <lb n="0178a08" ed="Y"/><lb n="0178a08" ed="Y" type="old"/>究？這實在是不易答覆。但我覺得，學習佛法，無論是全體的或是專宗的，都應
 <lb n="0178a09" ed="Y"/><lb n="0178a09" ed="Y" type="old"/>有三個過程。依照這過程修學去，多少總能夠得些利益。三種是：一、得要，二
 <lb n="0178a10" ed="Y"/><lb n="0178a10" ed="Y" type="old"/>、深入，三、旁通。第一是得要：佛法廣大無邊，從何處學起？東鱗西爪的學習
@@ -269,18 +289,18 @@
 <lb n="0180a08" ed="Y"/><lb n="0180a08" ed="Y" type="old"/>其微，其實是鑽入牛角，深而不通！我們應從此下手去學，也應該教人如此，切
 <lb n="0180a09" ed="Y"/><lb n="0180a09" ed="Y" type="old"/>勿迎合好高騖遠的劣根性，專以艱深玄奧去誘惑人！</p></cb:div>
 <lb n="0180a10" ed="Y"/><lb n="0180a10" ed="Y" type="old"/><cb:div type="other"><cb:mulu level="2" type="其他">三　初學者從三門入</cb:mulu><head>三　初學者從三門入</head>
-<lb n="0180a11" ed="Y"/><lb n="0180a11" ed="Y" type="old"/><p style="text-indent:2em">初學佛法的人，可分作三種類型。因為眾生的根性不同，由於什麼而學佛的
+<lb n="0180a11" ed="Y"/><lb n="0180a11" ed="Y" type="old"/><p xml:id="pY21p0180a1101" style="text-indent:2em">初學佛法的人，可分作三種類型。因為眾生的根性不同，由於什麼而學佛的
 <lb n="0180a12" ed="Y"/><lb n="0180a12" ed="Y" type="old"/>動機不同，所入的方便門，即約有三種。聲聞乘說有二種行；大乘也說有二種行<pb n="0181a" ed="Y" xml:id="Y21.0021.0181a.old" type="old"/>
 <pb n="0181a" ed="Y" xml:id="Y21.0021.0181a"/>
 <lb n="0181a01" ed="Y"/><lb n="0181a01" ed="Y" type="old"/>，如<title level="m">《智度論》</title>的合起來說，即有三種行人，從三門入不同：</p>
-<lb n="0181a02" ed="Y"/><lb n="0181a02" ed="Y" type="old"/><p cb:type="pre">　　　　　　　　　　　┌─隨信行───從信（精進）門入
+<lb n="0181a02" ed="Y"/><lb n="0181a02" ed="Y" type="old"/><p cb:type="pre" xml:id="pY21p0181a0201">　　　　　　　　　　　┌─隨信行───從信（精進）門入
 <lb n="0181a03" ed="Y"/>　　　聲聞乘二種行人─┤
 <lb n="0181a04" ed="Y"/>　　　　　　　　　　　└─隨法行─┐
 <lb n="0181a05" ed="Y"/>　　　　　　　　　　　　　　　　　├─從智門入
 <lb n="0181a06" ed="Y"/>　　　　　　　　　　　┌─智增上─┘
 <lb n="0181a07" ed="Y"/>　　　大乘二種行人──┤
 <lb n="0181a08" ed="Y"/>　　　　　　　　　　　└─悲增上───從慈悲門入</p>
-<lb n="0181a09" ed="Y"/><lb n="0181a06" ed="Y" type="old"/><p style="text-indent:2em">法行人，就是智增上的。有一種人，重在信心，不能自己去深究、決定，只
+<lb n="0181a09" ed="Y"/><lb n="0181a06" ed="Y" type="old"/><p xml:id="pY21p0181a0901" style="text-indent:2em">法行人，就是智增上的。有一種人，重在信心，不能自己去深究、決定，只
 <lb n="0181a10" ed="Y"/><lb n="0181a07" ed="Y" type="old"/>要有人向他說了，就可以照著行去，毫無懷疑。這樣的人，碰到了明師就好，否
 <lb n="0181a11" ed="Y"/><lb n="0181a08" ed="Y" type="old"/>則可就糟了！重智慧的即不然，什麼都要經自己的研究觀察，不願意人云亦云的
 <lb n="0181a12" ed="Y"/><lb n="0181a09" ed="Y" type="old"/>隨著做去。這無論是聽講或自己閱讀，都要問個為什麼，非經過熟思審慮，認為
@@ -311,7 +331,7 @@
 <lb n="0183a06" ed="Y"/><lb n="0183a06" ed="Y" type="old"/>的情況說，重信的人多，不肯多作利人事。超神的佛教、慈悲的佛教，在中國的
 <lb n="0183a07" ed="Y"/><lb n="0183a07" ed="Y" type="old"/>迷信中，變質得近於多神教，甚至巫教了！其實，信仰三寶，佛菩薩只是指導我
 <lb n="0183a08" ed="Y"/><lb n="0183a08" ed="Y" type="old"/>們的善知識而已。了生死，證解脫；積福德，證菩提；一切非自己努力不可。</p>
-<lb n="0183a09" ed="Y"/><lb n="0183a09" ed="Y" type="old"/><p style="text-indent:2em">現在，我們來研究佛法，這是從智門而入的路徑。但也要培養信心和悲心。
+<lb n="0183a09" ed="Y"/><lb n="0183a09" ed="Y" type="old"/><p xml:id="pY21p0183a0901" style="text-indent:2em">現在，我們來研究佛法，這是從智門而入的路徑。但也要培養信心和悲心。
 <lb n="0183a10" ed="Y"/><lb n="0183a10" ed="Y" type="old"/>時刻的記住：三寶的功德難思議，眾生多苦，要發心荷擔正法，救度眾生，並非
 <lb n="0183a11" ed="Y"/><lb n="0183a11" ed="Y" type="old"/>單是知識邊事。</p></cb:div></cb:div><pb n="0184a" ed="Y" xml:id="Y21.0021.0184a.old" type="old"/>
 </body></text></TEI>
