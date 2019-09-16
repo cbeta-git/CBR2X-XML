@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X27n0582">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 582 法華統略</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 582 法華統略</title>
@@ -11,96 +11,123 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.10 $<date>$Date: 2012/12/11 07:03:43 $</date></edition>
-	</editionStmt>
-	<extent>3卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2012/12/11 07:03:43 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 27, No. 582</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB00193">
-	<charName>CBETA CHARACTER CB00193</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[火*(而/而)]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>暖</value>
-	</charProp>
-	<mapping type="unicode">U+243D9</mapping>
-	<mapping cb:dec="983233" type="PUA">U+F00C1</mapping>
-</char>
-<char xml:id="CB00657">
-	<charName>CBETA CHARACTER CB00657</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[彖/虫]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>蠡</value>
-	</charProp>
-	<mapping type="unicode">U+45CD</mapping>
-	<mapping cb:dec="983697" type="PUA">U+F0291</mapping>
-</char>
-<char xml:id="CB00832">
-	<charName>CBETA CHARACTER CB00832</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[雨/復]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>覆</value>
-	</charProp>
-	<mapping type="unicode">U+4A31</mapping>
-	<mapping cb:dec="983872" type="PUA">U+F0340</mapping>
-</char>
-<char xml:id="CB04452">
-	<charName>CBETA CHARACTER CB04452</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[穴/俱]</value>
-	</charProp>
-	<mapping cb:dec="987492" type="PUA">U+F1164</mapping>
-</char>
-<char xml:id="CB18834">
-	<charName>CBETA CHARACTER CB18834</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[○@編]</value>
-	</charProp>
-	<mapping cb:dec="1001874" type="PUA">U+F4992</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>3卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">27</idno>.<idno type="no">582</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:16:48 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">法華統略</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00193">
+				<charName>CBETA CHARACTER CB00193</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[火*(而/而)]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>暖</value>
+				</charProp>
+				<mapping type="unicode">U+243D9</mapping>
+				<mapping cb:dec="983233" type="PUA">U+F00C1</mapping>
+			</char>
+			<char xml:id="CB00657">
+				<charName>CBETA CHARACTER CB00657</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[彖/虫]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>蠡</value>
+				</charProp>
+				<mapping type="unicode">U+45CD</mapping>
+				<mapping cb:dec="983697" type="PUA">U+F0291</mapping>
+			</char>
+			<char xml:id="CB00832">
+				<charName>CBETA CHARACTER CB00832</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[雨/復]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>覆</value>
+				</charProp>
+				<mapping type="unicode">U+4A31</mapping>
+				<mapping cb:dec="983872" type="PUA">U+F0340</mapping>
+			</char>
+			<char xml:id="CB04452">
+				<charName>CBETA CHARACTER CB04452</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[穴/俱]</value>
+				</charProp>
+				<mapping cb:dec="987492" type="PUA">U+F1164</mapping>
+			</char>
+			<char xml:id="CB18834">
+				<charName>CBETA CHARACTER CB18834</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[○@編]</value>
+				</charProp>
+				<mapping cb:dec="1001874" type="PUA">U+F4992</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2006-08-28T08:39:02">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-
-</revisionDesc>
+		<change when="2006-08-28T08:39:02">
+			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu type="其他" level="1">釋信解品第四</cb:mulu>
@@ -427,7 +454,7 @@
 <lb ed="X" n="0507a07"/><lb ed="R043" n="0137a16"/>此經辨佛無生滅。壽無始終。故有全身。既無生滅。亦
 <lb ed="X" n="0507a08"/><lb ed="R043" n="0137a17"/>非斷常。豈是常見以衣<g ref="#CB00832"/>。既行妙理。與理相應。則為
 <lb ed="X" n="0507a09"/><lb ed="R043" n="0137a18"/>理攝名<g ref="#CB00832"/>。與理相應。與佛相應。為佛護念。同栖一理。
-<lb ed="X" n="0507a10"/><lb ed="R043" n="0137b01"/>是實<note n="0507002" resp="Xuzangjing" place="foot text" type="orig">知一作智次同</note>知宿。同入生死。是權<anchor xml:id="fxX27p0507a01"/>知宿。既同佛權實。是佛真
+<lb ed="X" n="0507a10"/><lb ed="R043" n="0137b01"/>是實<note n="0507002" resp="Xuzangjing" place="foot text" type="orig">知一作智次同</note>知宿。同入生死。是權<note type="star" corresp="#0507002"></note>知宿。既同佛權實。是佛真
 <lb ed="X" n="0507a11"/><lb ed="R043" n="0137b02"/>子。為佛摩頂也。</p>
 <lb ed="X" n="0507a12"/><lb ed="R043" n="0137b03"/><p xml:id="pX27p0507a1201">釋未善行菩薩道。破三乘中菩薩聲聞。般若等大乘。
 <lb ed="X" n="0507a13"/><lb ed="R043" n="0137b04"/>復言有二乘。作小大二解。則未識道。道豈二哉。以未
@@ -463,7 +490,7 @@
 <lb ed="X" n="0507b18"/><lb ed="R043" n="0138a15"/>天魔是毒虫。外道為惡鬼。二乘在門外。三乘中大乘
 <lb ed="X" n="0507b19"/><lb ed="R043" n="0138a16"/>菩薩。執大小異。並不能到也。又如上方便品。九人不
 <lb ed="X" n="0507b20"/><lb ed="R043" n="0138a17"/>到。唯佛能到也。菩薩驚疑怖畏者。若明低頭舉手之
-<lb ed="X" n="0507b21"/><lb ed="R043" n="0138a18"/>善。皆成佛者。何所驚疑。<anchor xml:id="fxX27p0507b02"/>令明此經窮深極大。如向不
+<lb ed="X" n="0507b21"/><lb ed="R043" n="0138a18"/>善。皆成佛者。何所驚疑。<note type="star" corresp="#0507004"></note>令明此經窮深極大。如向不
 <lb ed="X" n="0507b22"/><lb ed="R043" n="0138b01"/>一不三。乃至五句。其心依倚無有處所。故驚疑耳。二
 <lb ed="X" n="0507b23"/><lb ed="R043" n="0138b02"/>乘亦爾。若定有一破三。破三歸一。有一可歸者。二乘
 <lb ed="X" n="0507b24"/><lb ed="R043" n="0138b03"/>亦不拒逆。良由退捨二乘。進不著一。蹤迹不可尋求。
@@ -479,8 +506,8 @@
 <lb ed="X" n="0507c09"/><lb ed="R043" n="0138b12"/>謂能乘人。及所乘之法。具能乘所乘。乘義乃備。乘權
 <lb ed="X" n="0507c10"/><lb ed="R043" n="0138b13"/>乘實。明所乘之法。身權身實。辨能乘之人。然正道未
 <lb ed="X" n="0507c11"/><lb ed="R043" n="0138b14"/>曾人法。無名<note n="0507005" resp="Xuzangjing" place="foot text" type="orig">於疑相次同</note>於中為眾生故。假名相說。故作人法之
-<lb ed="X" n="0507c12"/><lb ed="R043" n="0138b15"/>名。欲令眾生因此名相悟無名<anchor xml:id="fxX27p0507c03"/>於。前章<note n="0507c1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0507c1201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>明所乘之
-<lb ed="X" n="0507c13"/><lb ed="R043" n="0138b16"/>法竟。<anchor xml:id="fxX27p0507c04"/>令次辨能乘之人。問曰。何故先明所乘法。後辨
+<lb ed="X" n="0507c12"/><lb ed="R043" n="0138b15"/>名。欲令眾生因此名相悟無名<note type="star" corresp="#0507005"></note>於。前章<note n="0507c1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0507c1201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>明所乘之
+<lb ed="X" n="0507c13"/><lb ed="R043" n="0138b16"/>法竟。<note type="star" corresp="#0507004"></note>令次辨能乘之人。問曰。何故先明所乘法。後辨
 <lb ed="X" n="0507c14"/><lb ed="R043" n="0138b17"/>能乘人。答曰。所乘之法。即是教。能乘人。謂化主。但教
 <lb ed="X" n="0507c15"/><lb ed="R043" n="0138b18"/>正被緣。緣稟三乘之教。遂生對執。故破於三病。明三
 <lb ed="X" n="0507c16"/><lb ed="R043" n="0139a01"/>是方便法。一乘是真實法。辨教既竟。次論教主。故明
@@ -768,7 +795,7 @@
 <lb ed="X" n="0511b23"/><lb ed="R043" n="0146b02"/>開壽量大法。故名大音。又因此說於遠壽。有十二種
 <lb ed="X" n="0511b24"/><lb ed="R043" n="0146b03"/>大益。八不思議瑞相。故名大音。欲以法華付囑有在
 <pb ed="X" xml:id="X27.0582.0511c" n="0511c"/>
-<lb ed="X" n="0511c01"/><lb ed="R043" n="0146b04"/>者。寄八<anchor xml:id="fxX27p0511c01"/>方大士護法。為法身因。唯因果二事。故云有
+<lb ed="X" n="0511c01"/><lb ed="R043" n="0146b04"/>者。寄八<note type="star" corresp="#0511001"></note>方大士護法。為法身因。唯因果二事。故云有
 <lb ed="X" n="0511c02"/><lb ed="R043" n="0146b05"/>在。又寄在涌出菩薩。得開果壽成於法身。故言有在。</p>
 <lb ed="X" n="0511c03"/><lb ed="R043" n="0146b06"/><p xml:id="pX27p0511c0301">偈為二。初頌二佛集意。次命持經人。所以開此二
 <lb ed="X" n="0511c04"/><lb ed="R043" n="0146b07"/>者。凡有兩義。頌二佛集以明果。勸護法以脩因。二以
@@ -1449,7 +1476,7 @@
 <lb ed="X" n="0520c10"/><lb ed="R043" n="0164b05"/>壁中有柱。乃優樓迦義。今明四絕於緣成三界。雖<note n="0520012" resp="Xuzangjing" place="foot text" type="orig">覆一作藏</note>覆
 <lb ed="X" n="0520c11"/><lb ed="R043" n="0164b06"/>實無所<note n="0520013" resp="Xuzangjing" place="foot text" type="orig">藏下一有也字</note>藏。佛則知三界宛然常絕四句。雖復四絕。於
 <lb ed="X" n="0520c12"/><lb ed="R043" n="0164b07"/>緣宛然三界。故凡<note n="0520014" resp="Xuzangjing" place="foot text" type="orig">一無二夫字</note>夫見聖不見。不見聖所見。聖見凡
-<lb ed="X" n="0520c13"/><lb ed="R043" n="0164b08"/>不見。復見凡所見。問曰。聖見凡不見。聖可得異凡<anchor xml:id="fxX27p0520c01"/>夫。
+<lb ed="X" n="0520c13"/><lb ed="R043" n="0164b08"/>不見。復見凡所見。問曰。聖見凡不見。聖可得異凡<note type="star" corresp="#0520014"></note>夫。
 <lb ed="X" n="0520c14"/><lb ed="R043" n="0164b09"/>聖見凡所見。聖與凡何異。答曰。聖雖見凡迷。不如迷
 <lb ed="X" n="0520c15"/><lb ed="R043" n="0164b10"/>所見。以凡見三界。名為三故三。聖見三界者。此是不
 <lb ed="X" n="0520c16"/><lb ed="R043" n="0164b11"/>三三。中論云。語言雖同。其心則異。華嚴云。隨順眾生
@@ -1510,7 +1537,7 @@
 <lb ed="X" n="0521c02"/><lb ed="R043" n="0166a09"/>家時。六無有虗妄<note n="0521009" resp="Xuzangjing" place="foot text" type="orig">時下一有也字次同</note>時。次攝六為三。即三世益物。一從
 <lb ed="X" n="0521c03"/><lb ed="R043" n="0166a10"/>本成道。<note n="0521010" resp="Xuzangjing" place="foot text" type="orig">至一作竟</note>至釋迦未出世。謂過去未出時。從是時其父
 <lb ed="X" n="0521c04"/><lb ed="R043" n="0166a11"/>還來歸家。第二釋迦現在益物時。是時其父還來歸
-<lb ed="X" n="0521c05"/><lb ed="R043" n="0166a12"/>家咸使見之。第三未來益物<anchor xml:id="fxX27p0521c01"/>時。次攝三為二。雖有三
+<lb ed="X" n="0521c05"/><lb ed="R043" n="0166a12"/>家咸使見之。第三未來益物<note type="star" corresp="#0521009"></note>時。次攝三為二。雖有三
 <lb ed="X" n="0521c06"/><lb ed="R043" n="0166a13"/>世。不出無生滅<note n="0521011" resp="Xuzangjing" place="foot text" type="orig">示上一有方便二字</note>示生滅。二種化物。如父醫去雖復去
 <lb ed="X" n="0521c07"/><lb ed="R043" n="0166a14"/>留。不出留存亡利<note n="0521012" resp="Xuzangjing" place="foot text" type="orig">子一作反</note>子。次攝二歸一。令悟生滅無生滅
 <lb ed="X" n="0521c08"/><lb ed="R043" n="0166a15"/>一法身。故攝二歸一也。次一句歸無句者。若有生滅
@@ -1954,11 +1981,11 @@
 <lb ed="X" n="0527c02"/><lb ed="R043" n="0178a03"/>欲報恩。二受佛付囑。</p>
 <lb ed="X" n="0527c03"/><lb ed="R043" n="0178a04"/><p xml:id="pX27p0527c0301">次偈。第二為<anchor xml:id="fxX27p0527c01"/>文說燒身意。初偈明感佛恩。次明報恩。
 <lb ed="X" n="0527c04"/><lb ed="R043" n="0178a05"/>所以為文說此事者。明文但能生一身。由佛得現一
-<lb ed="X" n="0527c05"/><lb ed="R043" n="0178a06"/>切身。<note n="0527001" resp="Xuzangjing" place="foot text" type="orig">文疑父次同</note>文但能生肉身。佛能生法身。故報恩供養。釋<anchor xml:id="fxX27p0527c02"/>文
+<lb ed="X" n="0527c05"/><lb ed="R043" n="0178a06"/>切身。<note n="0527001" resp="Xuzangjing" place="foot text" type="orig">文疑父次同</note>文但能生肉身。佛能生法身。故報恩供養。釋<note type="star" corresp="#0527001"></note>文
 <lb ed="X" n="0527c06"/><lb ed="R043" n="0178a07"/>疑也。</p>
 <lb ed="X" n="0527c07"/><lb ed="R043" n="0178a08"/><p xml:id="pX27p0527c0701">第三明燒身果者。前聞經得現諸身三昧果。能示一
 <lb ed="X" n="0527c08"/><lb ed="R043" n="0178a09"/>切色身。今燒身能解一切聲果。重敘聞經果者。欲往
-<lb ed="X" n="0527c09"/><lb ed="R043" n="0178a10"/>佛所。恐<anchor xml:id="fxX27p0527c03"/>文王留礙。故明於佛邊。多獲利益。更往佛所。</p>
+<lb ed="X" n="0527c09"/><lb ed="R043" n="0178a10"/>佛所。恐<note type="star" corresp="#0527001"></note>文王留礙。故明於佛邊。多獲利益。更往佛所。</p>
 <lb ed="X" n="0527c10"/><lb ed="R043" n="0178a11"/><p xml:id="pX27p0527c1001">爾時一切眾生喜見菩薩下。第二佛滅後供養。亦四。
 <lb ed="X" n="0527c11"/><lb ed="R043" n="0178a12"/>一問涅槃。二答涅槃。三外財供養。四內身供養。文易
 <lb ed="X" n="0527c12"/><lb ed="R043" n="0178a13"/>知。問曰。上云無四惡道。即無脩羅。今何故天人阿修

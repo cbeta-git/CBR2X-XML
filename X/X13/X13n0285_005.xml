@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X13n0285">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 285 楞嚴經文句</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 285 楞嚴經文句</title>
@@ -11,67 +11,94 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.12 $<date>$Date: 2011/08/30 06:57:55 $</date></edition>
-	</editionStmt>
-	<extent>10卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2011/08/30 06:57:55 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 13, No. 285</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB02494">
-	<charName>CBETA CHARACTER CB02494</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[跳-兆+(乏-之+友)]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>跋</value>
-	</charProp>
-	<mapping type="unicode">U+47E6</mapping>
-	<mapping cb:dec="985534" type="PUA">U+F09BE</mapping>
-</char>
-<char xml:id="CB08504">
-	<charName>CBETA CHARACTER CB08504</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[舀*炎]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>燄</value>
-	</charProp>
-	<mapping type="unicode">U+269A8</mapping>
-	<mapping cb:dec="991544" type="PUA">U+F2138</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>10卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">13</idno>.<idno type="no">285</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:16:48 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">楞嚴經文句</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB02494">
+				<charName>CBETA CHARACTER CB02494</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[跳-兆+(乏-之+友)]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>跋</value>
+				</charProp>
+				<mapping type="unicode">U+47E6</mapping>
+				<mapping cb:dec="985534" type="PUA">U+F09BE</mapping>
+			</char>
+			<char xml:id="CB08504">
+				<charName>CBETA CHARACTER CB08504</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[舀*炎]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>燄</value>
+				</charProp>
+				<mapping type="unicode">U+269A8</mapping>
+				<mapping cb:dec="991544" type="PUA">U+F2138</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2006-03-30T08:51:00">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-
-</revisionDesc>
+		<change when="2006-03-30T08:51:00">
+			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu type="其他" level="1">二正宗分</cb:mulu><cb:div type="other">
@@ -395,7 +422,7 @@
 <lb ed="X" n="0301b16"/><lb ed="R020" n="0599b04"/>也此中諦理非橫非豎約修證邊雙照橫豎言豎
 <lb ed="X" n="0301b17"/><lb ed="R020" n="0599b05"/>義者人空是真諦現前法空是俗諦現前俱空不
 <lb ed="X" n="0301b18"/><lb ed="R020" n="0599b06"/>生是中諦現前言橫義者知徧計我執即空假中
-<lb ed="X" n="0301b19"/><lb ed="R020" n="0599b07"/>是名人空<note n="0301002" resp="Xuzangjing" place="foot text" type="orig">知依等九字無</note>知<anchor xml:id="fxX13p0301b01"/>依<anchor xml:id="fxX13p0301b02"/>他<anchor xml:id="fxX13p0301b03"/>法<anchor xml:id="fxX13p0301b04"/>執<anchor xml:id="fxX13p0301b05"/>即<anchor xml:id="fxX13p0301b06"/>空<anchor xml:id="fxX13p0301b07"/>假<anchor xml:id="fxX13p0301b08"/>中是名人空知依
+<lb ed="X" n="0301b19"/><lb ed="R020" n="0599b07"/>是名人空<note n="0301002" resp="Xuzangjing" place="foot text" type="orig">知依等九字無</note>知依他法執即空假中是名人空知依
 <lb ed="X" n="0301b20"/><lb ed="R020" n="0599b08"/>他法執即空假中是名法空知圓成空理即空假
 <lb ed="X" n="0301b21"/><lb ed="R020" n="0599b09"/>中是名俱空不生也總示因心竟。</p><p xml:id="pX13p0301b2114" style="margin-left:1em" cb:place="inline">二別顯修證
 <lb ed="X" n="0301b22"/><lb ed="R020" n="0599b10"/>五初阿難請問圓根二如來垂詢聖眾三眾聖各
@@ -1005,7 +1032,7 @@
 <lb ed="X" n="0309c01"/><lb ed="R020" n="0615b13"/>惟須一重能所所謂以六根為所觀以妙觀察智
 <lb ed="X" n="0309c02"/><lb ed="R020" n="0615b14"/>相應心品為能觀如央掘經云所謂彼眼根於諸
 <lb ed="X" n="0309c03"/><lb ed="R020" n="0615b15"/>如來常具足無<note n="0309001" resp="Xuzangjing" place="foot text" type="orig">滅作減次同</note>滅修了了分明見乃至彼意根於
-<lb ed="X" n="0309c04"/><lb ed="R020" n="0615b16"/>諸如來常具足無<anchor xml:id="fxX13p0309c01"/>滅修了了分明知等此則該攝
+<lb ed="X" n="0309c04"/><lb ed="R020" n="0615b16"/>諸如來常具足無<note type="star" corresp="#0309001"></note>滅修了了分明知等此則該攝
 <lb ed="X" n="0309c05"/><lb ed="R020" n="0615b17"/>一切諸教一切禪宗直指法門罄無不盡也若惟
 <lb ed="X" n="0309c06"/><lb ed="R020" n="0615b18"/>念他佛則與二十四種圓通有別須知兩重能所
 <lb ed="X" n="0309c07"/><lb ed="R020" n="0616a01"/>所謂妙觀察智為能觀六根為所觀六根為能念

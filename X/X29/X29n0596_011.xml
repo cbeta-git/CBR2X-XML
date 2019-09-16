@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X29n0596">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 596 妙經文句私志記</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 596 妙經文句私志記</title>
@@ -11,59 +11,86 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.16 $<date>$Date: 2010/03/19 02:21:10 $</date></edition>
-	</editionStmt>
-	<extent>14卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2010/03/19 02:21:10 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 29, No. 596</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB00211">
-	<charName>CBETA CHARACTER CB00211</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[牛*句]</value>
-	</charProp>
-	<mapping type="unicode">U+2463D</mapping>
-	<mapping cb:dec="983251" type="PUA">U+F00D3</mapping>
-</char>
-<char xml:id="CB01002">
-	<charName>CBETA CHARACTER CB01002</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[得-彳]</value>
-	</charProp>
-	<mapping type="unicode">U+3775</mapping>
-	<mapping cb:dec="984042" type="PUA">U+F03EA</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>14卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">29</idno>.<idno type="no">596</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:16:48 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">妙經文句私志記</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00211">
+				<charName>CBETA CHARACTER CB00211</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[牛*句]</value>
+				</charProp>
+				<mapping type="unicode">U+2463D</mapping>
+				<mapping cb:dec="983251" type="PUA">U+F00D3</mapping>
+			</char>
+			<char xml:id="CB01002">
+				<charName>CBETA CHARACTER CB01002</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[得-彳]</value>
+				</charProp>
+				<mapping type="unicode">U+3775</mapping>
+				<mapping cb:dec="984042" type="PUA">U+F03EA</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2006-09-14T16:21:12">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-
-</revisionDesc>
+		<change when="2006-09-14T16:21:12">
+			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu type="其他" level="1">方便品第二盡釋題</cb:mulu>
@@ -1468,7 +1495,7 @@
 <lb ed="X" n="0417a09"/><lb ed="R046" n="0242a07"/>類而皆合也然正竟在相成顯也明前所釋是此文
 <lb ed="X" n="0417a10"/><lb ed="R046" n="0242a08"/>義此文之義是前之所釋也故先互相成顯也於中
 <lb ed="X" n="0417a11"/><lb ed="R046" n="0242a09"/>初總標示次別屬對初者正示前之四義依此文起
-<lb ed="X" n="0417a12"/><lb ed="R046" n="0242a10"/>即顯是此文之義也此即如意<note n="0417001" resp="Xuzangjing" place="foot text" type="orig">殊疑珠次同</note>殊也<anchor xml:id="fxX29p0417a01"/>殊形甚微能雨
+<lb ed="X" n="0417a12"/><lb ed="R046" n="0242a10"/>即顯是此文之義也此即如意<note n="0417001" resp="Xuzangjing" place="foot text" type="orig">殊疑珠次同</note>殊也<note type="star" corresp="#0417001"></note>殊形甚微能雨
 <lb ed="X" n="0417a13"/><lb ed="R046" n="0242a11"/>天寶此文至少而具如前四種大義又是不思議也
 <lb ed="X" n="0417a14"/><lb ed="R046" n="0242a12"/>初中二字而為三本此三并是修德圓遍故也無漏
 <lb ed="X" n="0417a15"/><lb ed="R046" n="0242a13"/>者明一切法皆是妙境妙智外無法也今約十界以

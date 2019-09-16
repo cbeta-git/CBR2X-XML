@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X53n0836">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 836 俱舍論疏</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 836 俱舍論疏</title>
@@ -11,66 +11,93 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.7 $<date>$Date: 2010/10/25 08:44:06 $</date></edition>
-	</editionStmt>
-	<extent>7卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2010/10/25 08:44:06 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 53, No. 836</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB00562">
-	<charName>CBETA CHARACTER CB00562</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[跳-兆+(梳-木)]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>疏</value>
-	</charProp>
-	<mapping type="unicode">U+47FD</mapping>
-	<mapping cb:dec="983602" type="PUA">U+F0232</mapping>
-</char>
-<char xml:id="CB03340">
-	<charName>CBETA CHARACTER CB03340</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[啣-止+山]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>銜</value>
-	</charProp>
-	<mapping cb:dec="986380" type="PUA">U+F0D0C</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>7卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">53</idno>.<idno type="no">836</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:16:48 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">俱舍論疏</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00562">
+				<charName>CBETA CHARACTER CB00562</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[跳-兆+(梳-木)]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>疏</value>
+				</charProp>
+				<mapping type="unicode">U+47FD</mapping>
+				<mapping cb:dec="983602" type="PUA">U+F0232</mapping>
+			</char>
+			<char xml:id="CB03340">
+				<charName>CBETA CHARACTER CB03340</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[啣-止+山]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>銜</value>
+				</charProp>
+				<mapping cb:dec="986380" type="PUA">U+F0D0C</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2006-11-28T08:15:52">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-
-</revisionDesc>
+		<change when="2006-11-28T08:15:52">
+			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu type="其他" level="1">分別根品第二之三</cb:mulu>
@@ -168,10 +195,10 @@
 <lb ed="X" n="0068b15"/><lb ed="R083" n="0688a16"/>因大與所造無如是事故大於彼非俱有因舊婆沙
 <lb ed="X" n="0068b16"/><lb ed="R083" n="0688a17"/>云諸作是說四大勢無<note n="0068004" resp="Xuzangjing" place="foot text" type="orig">漏一作偏下同</note>漏者地大水大風大共生因
 <lb ed="X" n="0068b17"/><lb ed="R083" n="0688a18"/>中因三大於地大共生因中因諸作是說四大勢有
-<lb ed="X" n="0068b18"/><lb ed="R083" n="0688b01"/><anchor xml:id="fxX53p0068b01"/>漏者地大於三大共生因中因三大於地大共生因
+<lb ed="X" n="0068b18"/><lb ed="R083" n="0688b01"/><note type="star" corresp="#0068004"></note>漏者地大於三大共生因中因三大於地大共生因
 <lb ed="X" n="0068b19"/><lb ed="R083" n="0688b02"/>中因所以者何地大則有多體一體與多體是共生
 <lb ed="X" n="0068b20"/><lb ed="R083" n="0688b03"/>因多體於一體是共生因乃至風大亦如是評曰如
-<lb ed="X" n="0068b21"/><lb ed="R083" n="0688b04"/>是說者好四大若有<anchor xml:id="fxX53p0068b02"/>漏勢若無<anchor xml:id="fxX53p0068b03"/>漏勢地大於三大三
+<lb ed="X" n="0068b21"/><lb ed="R083" n="0688b04"/>是說者好四大若有<note type="star" corresp="#0068004"></note>漏勢若無<note type="star" corresp="#0068004"></note>漏勢地大於三大三
 <lb ed="X" n="0068b22"/><lb ed="R083" n="0688b05"/>大於地大作共生因所以者何地大不因地大生於
 <lb ed="X" n="0068b23"/><lb ed="R083" n="0688b06"/>造色正理論云如四大種更互相望為俱有因雖有
 <lb ed="X" n="0068b24"/><lb ed="R083" n="0688b07"/>體增體不增者而皆三一更互為因自體不應待自
@@ -342,7 +369,7 @@
 <lb ed="X" n="0070c14"/><lb ed="R083" n="0693a03"/>隨心轉法隨相於心四此諸隨相展轉相<note n="0070008" resp="Xuzangjing" place="foot text" type="orig">對下一有五一切俱生有對造色展轉相對十三字</note>對六少分
 <lb ed="X" n="0070c15"/><lb ed="R083" n="0693a04"/>散心所發俱生無對造色展轉<note n="0070009" resp="Xuzangjing" place="foot text" type="orig">七支二字疑剩</note>七支相對七一切俱
 <lb ed="X" n="0070c16"/><lb ed="R083" n="0693a05"/>生造色與大種展轉相<note n="0070010" resp="Xuzangjing" place="foot text" type="orig">望一作對次同</note>望八一切俱生得與所得展
-<lb ed="X" n="0070c17"/><lb ed="R083" n="0693a06"/>轉相<anchor xml:id="fxX53p0070c01"/>望如是等八對諸法雖名俱有而非由俱有因
+<lb ed="X" n="0070c17"/><lb ed="R083" n="0693a06"/>轉相<note type="star" corresp="#0070010"></note>望如是等八對諸法雖名俱有而非由俱有因
 <lb ed="X" n="0070c18"/><lb ed="R083" n="0693a07"/>故成因以非一果一異熟及一等流故得與所得非
 <lb ed="X" n="0070c19"/><lb ed="R083" n="0693a08"/>定俱行或前或後<note n="0070011A" resp="Xuzangjing" place="foot text" type="orig">論無雖及疎字</note><note n="0070011A" resp="CBETA" type="mod">論無雖字</note>雖或俱生<note n="0070011B" resp="Xuzangjing" place="foot text" type="orig">論無雖及疎字</note><note n="0070011B" resp="CBETA" type="mod">論無疎字</note>疎故非俱有因一經部
 <lb ed="X" n="0070c20"/><lb ed="R083" n="0693a09"/>問如是上來一切因果道理縱汝理且可然而諸世
@@ -881,7 +908,7 @@
 <lb ed="X" n="0078a03"/><lb ed="R083" n="0707a16"/>中明俱有因法同得一果一等流一異熟此中明異
 <lb ed="X" n="0078a04"/><lb ed="R083" n="0707a17"/>熟因故辨俱有因作異熟因得異熟果必定不別故
 <lb ed="X" n="0078a05"/><lb ed="R083" n="0707a18"/>言共感一果也婆沙云問諸得為<note n="0078001" resp="Xuzangjing" place="foot text" type="orig">交一作受</note>交何答曰得亦不
-<lb ed="X" n="0078a06"/><lb ed="R083" n="0707b01"/>造<note n="0078002" resp="Xuzangjing" place="foot text" type="orig">交疑受下同</note>交身處若造<anchor xml:id="fxX53p0078a01"/>交身處業<anchor xml:id="fxX53p0078a02"/>交彼報亦<anchor xml:id="fxX53p0078a03"/>交彼報色心心
+<lb ed="X" n="0078a06"/><lb ed="R083" n="0707b01"/>造<note n="0078002" resp="Xuzangjing" place="foot text" type="orig">交疑受下同</note>交身處若造<note type="star" corresp="#0078002"></note>交身處業<note type="star" corresp="#0078002"></note>交彼報亦<note type="star" corresp="#0078002"></note>交彼報色心心
 <lb ed="X" n="0078a07"/><lb ed="R083" n="0707b02"/>數法心不相應行色者四入四入者色香味觸心心
 <lb ed="X" n="0078a08"/><lb ed="R083" n="0707b03"/>數法者苦受樂受不苦不樂受及相應法心不相應
 <lb ed="X" n="0078a09"/><lb ed="R083" n="0707b04"/>行者得生<note n="0078003" resp="Xuzangjing" place="foot text" type="orig">無疑老</note>無住無常論云有時二蘊為異熟因共感
@@ -913,14 +940,14 @@
 <lb ed="X" n="0078b10"/><lb ed="R083" n="0708a11"/><p xml:id="pX53p0078b1001">自下第五感處多少有業唯感一法處即命根等等
 <lb ed="X" n="0078b11"/><lb ed="R083" n="0708a12"/>者等取四相婆沙云有業得一入根謂法入中命根
 <lb ed="X" n="0078b12"/><lb ed="R083" n="0708a13"/>雜心亦言有業一入果報生謂命根皆不言<note n="0078008" resp="Xuzangjing" place="foot text" type="orig">交一作受同下</note>交身處
-<lb ed="X" n="0078b13"/><lb ed="R083" n="0708a14"/>者<anchor xml:id="fxX53p0078b04"/>交身處是諸入所依若得<anchor xml:id="fxX53p0078b05"/>交身處即得十一入如
+<lb ed="X" n="0078b13"/><lb ed="R083" n="0708a14"/>者<note type="star" corresp="#0078008"></note>交身處是諸入所依若得<note type="star" corresp="#0078008"></note>交身處即得十一入如
 <lb ed="X" n="0078b14"/><lb ed="R083" n="0708a15"/>身入是五入所依若得身入得六入也若感意處定
 <lb ed="X" n="0078b15"/><lb ed="R083" n="0708a16"/>感二處謂意與法。</p>
 <lb ed="X" n="0078b16"/><lb ed="R083" n="0708a17"/><p xml:id="pX53p0078b1601">上來是正義自下明婆沙中初師不正義五塵相離
 <lb ed="X" n="0078b17"/><lb ed="R083" n="0708a18"/>諸作<note n="0078009" resp="Xuzangjing" place="foot text" type="orig">果一作是</note>果說一切四大不能生色聲一切欲界色不必
 <lb ed="X" n="0078b18"/><lb ed="R083" n="0708b01"/>有香味故自有業感<note n="0078010" resp="Xuzangjing" place="foot text" type="orig">忽疑澀下同</note>忽滑等七所造觸能造大同觸
 <lb ed="X" n="0078b19"/><lb ed="R083" n="0708b02"/>處攝餘四塵不必有雖不離身根如人趣中身根善
-<lb ed="X" n="0078b20"/><lb ed="R083" n="0708b03"/>業感<anchor xml:id="fxX53p0078b06"/>忽觸等惡業<note n="0078011" resp="Xuzangjing" place="foot text" type="orig">眼一作昭更勘下同</note>眼觸處但與四相同感故言若感
+<lb ed="X" n="0078b20"/><lb ed="R083" n="0708b03"/>業感<note type="star" corresp="#0078010"></note>忽觸等惡業<note n="0078011" resp="Xuzangjing" place="foot text" type="orig">眼一作昭更勘下同</note>眼觸處但與四相同感故言若感
 <lb ed="X" n="0078b21"/><lb ed="R083" n="0708b04"/>觸處應知亦爾准感二處也感餘多少可解皆是初
 <lb ed="X" n="0078b22"/><lb ed="R083" n="0708b05"/>師不正義有業能感或五<note n="0078b2201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0078b2201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>下是婆沙中第二師正
 <lb ed="X" n="0078b23"/><lb ed="R083" n="0708b06"/>義故婆沙第十五卷云諸依是說一切四大能生色
@@ -931,7 +958,7 @@
 <lb ed="X" n="0078c03"/><lb ed="R083" n="0708b10"/>香味觸法如色入香味觸入亦如是有業報得八入
 <lb ed="X" n="0078c04"/><lb ed="R083" n="0708b11"/>九入十入十一入爾文中言有業能感或五者若得
 <lb ed="X" n="0078c05"/><lb ed="R083" n="0708b12"/>色入得五入如色入香味觸入亦如是俱舍前云如
-<lb ed="X" n="0078c06"/><lb ed="R083" n="0708b13"/>人中二形根體善業感根處色香味觸惡業<anchor xml:id="fxX53p0078c07"/>眼故感
+<lb ed="X" n="0078c06"/><lb ed="R083" n="0708b13"/>人中二形根體善業感根處色香味觸惡業<note type="star" corresp="#0078011"></note>眼故感
 <lb ed="X" n="0078c07"/><lb ed="R083" n="0708b14"/>色等時不感身入也言或六者若得身入得六入也
 <lb ed="X" n="0078c08"/><lb ed="R083" n="0708b15"/>言或七者若得眼入得七入也。</p>
 <lb ed="X" n="0078c09"/><lb ed="R083" n="0708b16"/><p xml:id="pX53p0078c0901">上來隨其業力所感諸處定不相離說自下八九十
@@ -1110,7 +1137,7 @@
 <lb ed="X" n="0081a07"/><lb ed="R083" n="0713b02"/>無為是解脫果何得言非五果耶三問何緣不許諸
 <lb ed="X" n="0081a08"/><lb ed="R083" n="0713b03"/>無間道與離繫果為能作因四答於生不障立能作
 <lb ed="X" n="0081a09"/><lb ed="R083" n="0713b04"/>因無為無生道何所作名能耶五<note n="0081001" resp="Xuzangjing" place="foot text" type="orig">覆一作雙次同</note>覆問若爾誰果果
-<lb ed="X" n="0081a10"/><lb ed="R083" n="0713b05"/>義云何六<anchor xml:id="fxX53p0081a01"/>覆答謂是道果答誰果道力得故答果義
+<lb ed="X" n="0081a10"/><lb ed="R083" n="0713b05"/>義云何六<note type="star" corresp="#0081001"></note>覆答謂是道果答誰果道力得故答果義
 <lb ed="X" n="0081a11"/><lb ed="R083" n="0713b06"/>酬通力得故是果義七問若爾道果應唯是得於得
 <lb ed="X" n="0081a12"/><lb ed="R083" n="0713b07"/>生功能非於擇滅故八答不爾於得於擇滅中道之
 <lb ed="X" n="0081a13"/><lb ed="R083" n="0713b08"/>功能有差別故十問云何於得道有功能十一答謂
@@ -1429,7 +1456,7 @@
 <lb ed="X" n="0085b01"/><lb ed="R083" n="0722a02"/>釋如次除異熟餘五因生<note n="0085001" resp="Xuzangjing" place="foot text" type="orig">生字疑剩</note>生釋第四句餘生三云所
 <lb ed="X" n="0085b02"/><lb ed="R083" n="0722a03"/>餘法釋第二句餘<note n="0085002" resp="Xuzangjing" place="foot text" type="orig">覆一作雙次同</note>覆除異熟遍行二因釋如次除二
 <lb ed="X" n="0085b03"/><lb ed="R083" n="0722a04"/>餘四因生釋第四句餘生四初無漏法釋第二句初
-<lb ed="X" n="0085b04"/><lb ed="R083" n="0722a05"/>聖<anchor xml:id="fxX53p0085b01"/>覆除前二及同類因餘三因生釋第四句餘生五
+<lb ed="X" n="0085b04"/><lb ed="R083" n="0722a05"/>聖<note type="star" corresp="#0085002"></note>覆除前二及同類因餘三因生釋第四句餘生五
 <lb ed="X" n="0085b05"/><lb ed="R083" n="0722a06"/>問如是四法為說何善六舉第五句答謂心心所法
 <lb ed="X" n="0085b06"/><lb ed="R083" n="0722a07"/>也七問不相應行及色四法復幾因生八舉第六句
 <lb ed="X" n="0085b07"/><lb ed="R083" n="0722a08"/>答如心心所所除因外及除相應應知餘法從四三

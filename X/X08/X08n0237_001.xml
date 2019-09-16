@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X08n0237">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 237 華嚴經文義要決問答</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 237 華嚴經文義要決問答</title>
@@ -11,49 +11,76 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.7 $<date>$Date: 2012/03/02 09:40:46 $</date></edition>
-	</editionStmt>
-	<extent>4卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2012/03/02 09:40:46 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 8, No. 237</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB17493">
-	<charName>CBETA CHARACTER CB17493</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[糸*園]</value>
-	</charProp>
-	<mapping cb:dec="1000533" type="PUA">U+F4455</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>4卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">8</idno>.<idno type="no">237</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:16:48 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">華嚴經文義要決問答</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB17493">
+				<charName>CBETA CHARACTER CB17493</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[糸*園]</value>
+				</charProp>
+				<mapping cb:dec="1000533" type="PUA">U+F4455</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2005-11-11T16:30:45">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-
-</revisionDesc>
+		<change when="2005-11-11T16:30:45">
+			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
@@ -180,7 +207,7 @@
 <lb ed="X" n="0415b20"/><lb ed="R012" n="0652a05"/>或依在正。謂剎居佛內。又剎即佛身故。或俱或非。<note place="inline">並准
 <lb ed="X" n="0415b21"/><lb ed="R012" n="0652a06"/>思之</note>。</p></sp></cb:dialog><cb:dialog type="qa"><sp cb:type="question"><p xml:id="pX08p0415b2103" cb:place="inline">問若如上說。則七處九會皆悉雜亂。如忉利天說
 <lb ed="X" n="0415b22"/><lb ed="R012" n="0652a07"/>十住時。既遍虗空。周側毛道。未知夜摩等處亦說住
-<lb ed="X" n="0415b23"/><lb ed="R012" n="0652a08"/>不。<anchor xml:id="fxX08p0415b01"/>若設爾何失。問二俱有過。謂若彼不說。則說處不
+<lb ed="X" n="0415b23"/><lb ed="R012" n="0652a08"/>不。<note type="star" corresp="#0415001"></note>若設爾何失。問二俱有過。謂若彼不說。則說處不
 <lb ed="X" n="0415b24"/><lb ed="R012" n="0652a09"/>遍。若彼亦說。何故經中唯云忉利說十住法夜摩等
 <pb ed="X" xml:id="X08.0237.0415c" n="0415c"/>
 <lb ed="X" n="0415c01"/><lb ed="R012" n="0652a10"/>處說十行等。</p></sp><sp cb:type="answer"><p xml:id="pX08p0415c0106" cb:place="inline">答此說十住。忉利天處既遍十方一切

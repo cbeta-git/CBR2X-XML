@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X03n0218">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 218 華嚴經入法界品十八問答</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 218 華嚴經入法界品十八問答</title>
@@ -11,54 +11,81 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.3 $<date>$Date: 2009/04/22 08:48:44 $</date></edition>
-	</editionStmt>
-	<extent>1卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/04/22 08:48:44 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 3, No. 218</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB01576">
-	<charName>CBETA CHARACTER CB01576</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[泳-永+不]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>流</value>
-	</charProp>
-	<mapping type="unicode">U+3CC5</mapping>
-	<mapping cb:dec="984616" type="PUA">U+F0628</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>1卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">3</idno>.<idno type="no">218</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:16:48 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">華嚴經入法界品十八問答</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB01576">
+				<charName>CBETA CHARACTER CB01576</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[泳-永+不]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>流</value>
+				</charProp>
+				<mapping type="unicode">U+3CC5</mapping>
+				<mapping cb:dec="984616" type="PUA">U+F0628</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2005-10-11T10:33:10">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-
-</revisionDesc>
+		<change when="2005-10-11T10:33:10">
+			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
@@ -68,7 +95,7 @@
 <lb ed="X" n="0554b03"/><lb ed="R004" n="0906b01"/><cb:juan fun="open" n="1"><cb:mulu type="卷" n="1"></cb:mulu><cb:jhead>入法界品十八問答</cb:jhead></cb:juan>
 <lb ed="X" n="0554b04"/>
 <lb ed="X" n="0554b05"/><lb ed="R004" n="0906b02"/><byline cb:type="author">清涼國師述</byline>
-<lb ed="X" n="0554b06"/><lb ed="R004" n="0906b03"/><cb:div><cb:dialog type="qa"><sp cb:type="question"><p xml:id="pX03p0554b0601">問佛說此經要入師子嚬<note n="0554002" resp="Xuzangjing" place="foot text" type="orig">申異作伸次下同</note>申三昧者何。</p></sp><sp cb:type="answer"><p xml:id="pX03p0554b0616" cb:place="inline">答嚬<anchor xml:id="fxX03p0554b01"/>申者
+<lb ed="X" n="0554b06"/><lb ed="R004" n="0906b03"/><cb:div><cb:dialog type="qa"><sp cb:type="question"><p xml:id="pX03p0554b0601">問佛說此經要入師子嚬<note n="0554002" resp="Xuzangjing" place="foot text" type="orig">申異作伸次下同</note>申三昧者何。</p></sp><sp cb:type="answer"><p xml:id="pX03p0554b0616" cb:place="inline">答嚬<note type="star" corresp="#0554002"></note>申者
 <lb ed="X" n="0554b07"/><lb ed="R004" n="0906b04"/>即舒展通暢之狀亦是震動縱任自在無畏之相顯
 <lb ed="X" n="0554b08"/><lb ed="R004" n="0906b05"/>如來定即用之體寂而造極則差別萬殊無非法界
 <lb ed="X" n="0554b09"/><lb ed="R004" n="0906b06"/>即體之用不為而周故大小相參緣起無盡是曰自

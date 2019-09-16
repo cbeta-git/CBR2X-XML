@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X29n0598">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 598 法華經文句格言</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 598 法華經文句格言</title>
@@ -11,92 +11,119 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.4 $<date>$Date: 2009/04/22 08:54:48 $</date></edition>
-	</editionStmt>
-	<extent>3卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/04/22 08:54:48 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 29, No. 598</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB00081">
-	<charName>CBETA CHARACTER CB00081</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[口*銜]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>銜</value>
-	</charProp>
-	<mapping type="unicode">U+3605</mapping>
-	<mapping cb:dec="983121" type="PUA">U+F0051</mapping>
-</char>
-<char xml:id="CB03449">
-	<charName>CBETA CHARACTER CB03449</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[賸-月+貝]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>賸</value>
-	</charProp>
-	<mapping type="unicode">U+4789</mapping>
-	<mapping cb:dec="986489" type="PUA">U+F0D79</mapping>
-</char>
-<char xml:id="CB04590">
-	<charName>CBETA CHARACTER CB04590</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[(ㄇ@(企-止))/弟]</value>
-	</charProp>
-	<mapping type="normal_unicode">U+7F64</mapping>
-	<mapping cb:dec="987630" type="PUA">U+F11EE</mapping>
-</char>
-<char xml:id="CB17945">
-	<charName>CBETA CHARACTER CB17945</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[泳-永+賾]</value>
-	</charProp>
-	<mapping cb:dec="1000985" type="PUA">U+F4619</mapping>
-</char>
-<char xml:id="CB18871">
-	<charName>CBETA CHARACTER CB18871</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[□*□]</value>
-	</charProp>
-	<mapping cb:dec="1001911" type="PUA">U+F49B7</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>3卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">29</idno>.<idno type="no">598</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:16:48 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">法華經文句格言</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00081">
+				<charName>CBETA CHARACTER CB00081</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[口*銜]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>銜</value>
+				</charProp>
+				<mapping type="unicode">U+3605</mapping>
+				<mapping cb:dec="983121" type="PUA">U+F0051</mapping>
+			</char>
+			<char xml:id="CB03449">
+				<charName>CBETA CHARACTER CB03449</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[賸-月+貝]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>賸</value>
+				</charProp>
+				<mapping type="unicode">U+4789</mapping>
+				<mapping cb:dec="986489" type="PUA">U+F0D79</mapping>
+			</char>
+			<char xml:id="CB04590">
+				<charName>CBETA CHARACTER CB04590</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[(ㄇ@(企-止))/弟]</value>
+				</charProp>
+				<mapping type="normal_unicode">U+7F64</mapping>
+				<mapping cb:dec="987630" type="PUA">U+F11EE</mapping>
+			</char>
+			<char xml:id="CB17945">
+				<charName>CBETA CHARACTER CB17945</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[泳-永+賾]</value>
+				</charProp>
+				<mapping cb:dec="1000985" type="PUA">U+F4619</mapping>
+			</char>
+			<char xml:id="CB18871">
+				<charName>CBETA CHARACTER CB18871</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[□*□]</value>
+				</charProp>
+				<mapping cb:dec="1001911" type="PUA">U+F49B7</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2006-09-14T16:21:22">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-
-</revisionDesc>
+		<change when="2006-09-14T16:21:22">
+			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
@@ -663,7 +690,7 @@
 <lb ed="X" n="0584b10"/><lb ed="R046" n="0575b13"/><p xml:id="pX29p0584b1001">心數可以因之成觀而不可以入道若欲入道必須
 <lb ed="X" n="0584b11"/><lb ed="R046" n="0575b14"/>化轉至於畢盡而後道可入也故引普賢觀文為證
 <lb ed="X" n="0584b12"/><lb ed="R046" n="0575b15"/>有曰心數塵勞若不盡者觀則不等故知若要入道
-<lb ed="X" n="0584b13"/><lb ed="R046" n="0575b16"/>證理必須能所心盡<anchor xml:id="fxX29p0584b01"/>益能所者起妄之始此心未亡
+<lb ed="X" n="0584b13"/><lb ed="R046" n="0575b16"/>證理必須能所心盡<note type="star" corresp="#0584001"></note>益能所者起妄之始此心未亡
 <lb ed="X" n="0584b14"/><lb ed="R046" n="0575b17"/>則妄源未盡雖欲入理得乎故四明曰於境觀雙絕
 <lb ed="X" n="0584b15"/><lb ed="R046" n="0575b18"/>之處融妙三千一時顯現者即其理也凡今舉心動
 <lb ed="X" n="0584b16"/><lb ed="R046" n="0576a01"/>念趣便落在能所情想中縱曰唯心絕待觀境亦只
@@ -707,7 +734,7 @@
 <lb ed="X" n="0585a04"/><lb ed="R046" n="0577a01"/>一必有四四不定四只是一理識此一理妙在其中
 <lb ed="X" n="0585a05"/><lb ed="R046" n="0577a02"/>苟為不然法居心外觀心之要政在於斯照者方知
 <lb ed="X" n="0585a06"/><lb ed="R046" n="0577a03"/>非說可了文出為義則文<note n="0585001" resp="Xuzangjing" place="foot text" type="orig">光疑<g ref="#CB18871"/></note>光而義後義出為文則義
-<lb ed="X" n="0585a07"/><lb ed="R046" n="0577a04"/>先而文後既互為先後而二者何先必曰義先<anchor xml:id="fxX29p0585a01"/>益義
+<lb ed="X" n="0585a07"/><lb ed="R046" n="0577a04"/>先而文後既互為先後而二者何先必曰義先<note type="star" corresp="#0584001"></note>益義
 <lb ed="X" n="0585a08"/><lb ed="R046" n="0577a05"/>者實也文者虗也若本無實文何所施苟知此意則
 <lb ed="X" n="0585a09"/><lb ed="R046" n="0577a06"/>今四句思過半矣彼以有義無文為不可依者使無
 <lb ed="X" n="0585a10"/><lb ed="R046" n="0577a07"/>義則<note n="0585a1001" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0585a1001"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>苟為有義雖無文可也又安知有義而無文
@@ -787,7 +814,7 @@
 <lb ed="X" n="0586a09"/><lb ed="R046" n="0579a06"/><p xml:id="pX29p0586a0901">經有偈頌譬之有散華貫華也勝論凡約十義申之
 <lb ed="X" n="0586a10"/><lb ed="R046" n="0579a07"/>令見其五從要引也西竺龍樹以下諸聖師深達法
 <lb ed="X" n="0586a11"/><lb ed="R046" n="0579a08"/>相<note n="0586002" resp="Xuzangjing" place="foot text" type="orig">知智通用</note>知辨無窮故凡釋經論動輙數十義非徒誇名相
-<lb ed="X" n="0586a12"/><lb ed="R046" n="0579a09"/>而<note n="0586a1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0586a1201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app><anchor xml:id="fxX29p0586a01"/>益法爾而然殆不可加抬其不可及也如此爰
+<lb ed="X" n="0586a12"/><lb ed="R046" n="0579a09"/>而<note n="0586a1201" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0586a1201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app><note type="star" corresp="#0584001"></note>益法爾而然殆不可加抬其不可及也如此爰
 <lb ed="X" n="0586a13"/><lb ed="R046" n="0579a10"/>至此土通經莫若天台其凡所申義卛多承用以其
 <lb ed="X" n="0586a14"/><lb ed="R046" n="0579a11"/>宗途有在故也。</p></cb:div>
 <lb ed="X" n="0586a15"/><lb ed="R046" n="0579a12"/><cb:div type="other"><cb:mulu type="其他" level="1">文句第三</cb:mulu><head>文句第三帙</head>

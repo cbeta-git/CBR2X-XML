@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X26n0525">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 525 般若心經幽贊崆峒記</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 525 般若心經幽贊崆峒記</title>
@@ -11,50 +11,77 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.3 $<date>$Date: 2009/04/22 08:54:11 $</date></edition>
-	</editionStmt>
-	<extent>3卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/04/22 08:54:11 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 26, No. 525</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB09895">
-	<charName>CBETA CHARACTER CB09895</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[牙-(必-心)+?]</value>
-	</charProp>
-	<mapping type="unicode">U+3E26</mapping>
-	<mapping cb:dec="992935" type="PUA">U+F26A7</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>3卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">26</idno>.<idno type="no">525</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:16:48 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">般若心經幽贊崆峒記</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB09895">
+				<charName>CBETA CHARACTER CB09895</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[牙-(必-心)+?]</value>
+				</charProp>
+				<mapping type="unicode">U+3E26</mapping>
+				<mapping cb:dec="992935" type="PUA">U+F26A7</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2006-08-01T10:23:04">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-
-</revisionDesc>
+		<change when="2006-08-01T10:23:04">
+			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="3"/>
@@ -326,11 +353,11 @@
 <lb ed="X" n="0705a24"/><lb ed="R041" n="0600b01"/><cb:div type="commentary"><p xml:id="pX26p0705a2401" style="margin-left:1em">注言色即迷。云空即悟。既無別性。故云義彰。</p></cb:div>
 <pb ed="X" xml:id="X26.0525.0705b" n="0705b"/>
 <lb ed="X" n="0705b01"/><lb ed="R041" n="0600b02"/><cb:div type="orig"><p xml:id="pX26p0705b0101">疏如何色<note n="0705002" resp="Xuzangjing" place="foot text" type="orig">伏一作滅下同</note>伏方乃見空。</p></cb:div>
-<lb ed="X" n="0705b02"/><lb ed="R041" n="0600b03"/><cb:div type="commentary"><p xml:id="pX26p0705b0201" style="margin-left:1em">注<anchor xml:id="fxX26p0705b01"/>伏者<note n="0705003" resp="Xuzangjing" place="foot text" type="orig">讚疑潛</note>讚也。責依世間。</p></cb:div>
+<lb ed="X" n="0705b02"/><lb ed="R041" n="0600b03"/><cb:div type="commentary"><p xml:id="pX26p0705b0201" style="margin-left:1em">注<note type="star" corresp="#0705002"></note>伏者<note n="0705003" resp="Xuzangjing" place="foot text" type="orig">讚疑潛</note>讚也。責依世間。</p></cb:div>
 <lb ed="X" n="0705b03"/><lb ed="R041" n="0600b04"/><cb:div type="orig"><p xml:id="pX26p0705b0301">疏如醫見華<note place="inline">至</note>究竟涅槃。</p></cb:div>
 <lb ed="X" n="0705b04"/><lb ed="R041" n="0600b05"/><cb:div type="commentary"><p xml:id="pX26p0705b0401" style="margin-left:1em">注此舉喻成。<note n="0705004" resp="Xuzangjing" place="foot text" type="orig">執一作種子</note>執似兩位。論性本然。<note n="0705005" resp="Xuzangjing" place="foot text" type="orig">勸作觀</note>勸除此見。方證
 <lb ed="X" n="0705b05"/><lb ed="R041" n="0600b06"/>涅槃。此非問答。連上為破。</p></cb:div>
-<lb ed="X" n="0705b06"/><lb ed="R041" n="0600b07"/><cb:div type="orig"><p xml:id="pX26p0705b0601">疏由此二句<note place="inline">至</note>非色<anchor xml:id="fxX26p0705b02"/>伏空。</p></cb:div>
+<lb ed="X" n="0705b06"/><lb ed="R041" n="0600b07"/><cb:div type="orig"><p xml:id="pX26p0705b0601">疏由此二句<note place="inline">至</note>非色<note type="star" corresp="#0705002"></note>伏空。</p></cb:div>
 <lb ed="X" n="0705b07"/><lb ed="R041" n="0600b08"/><cb:div type="commentary"><p xml:id="pX26p0705b0701" style="margin-left:1em">注由此經句。有<note n="0705006" resp="Xuzangjing" place="foot text" type="orig">彼一作破</note>彼經句。似成彼經。然其證意。由有
 <lb ed="X" n="0705b08"/><lb ed="R041" n="0600b09"/>此理。彼經爾說。故為此證。</p></cb:div>
 <lb ed="X" n="0705b09"/><lb ed="R041" n="0600b10"/><cb:div type="orig"><p xml:id="pX26p0705b0901">疏如應者言<note place="inline">至</note>色體空也。</p></cb:div>
@@ -412,7 +439,7 @@
 <lb ed="X" n="0706b10"/><lb ed="R041" n="0602b11"/><cb:div type="orig"><p xml:id="pX26p0706b1001">疏此經意說<note place="inline">至</note>名無性等。</p></cb:div>
 <lb ed="X" n="0706b11"/><lb ed="R041" n="0602b12"/><cb:div type="commentary"><p xml:id="pX26p0706b1101" style="margin-left:1em">注下是疏語。附前論文。却對勝空。會本經也。先將
 <lb ed="X" n="0706b12"/><lb ed="R041" n="0602b13"/>所執。皈前四門。無性等字。具等四門。後遮非執。亦
-<lb ed="X" n="0706b13"/><lb ed="R041" n="0602b14"/>如於彼。<anchor xml:id="fxX26p0706b01"/>先遣後存。如文可知。</p></cb:div>
+<lb ed="X" n="0706b13"/><lb ed="R041" n="0602b14"/>如於彼。<note type="star" corresp="#0706003"></note>先遣後存。如文可知。</p></cb:div>
 <lb ed="X" n="0706b14"/><lb ed="R041" n="0602b15"/><cb:div type="orig"><p xml:id="pX26p0706b1401">疏達所執無<note place="inline">至</note>有知為有。</p></cb:div>
 <lb ed="X" n="0706b15"/><lb ed="R041" n="0602b16"/><cb:div type="commentary"><p xml:id="pX26p0706b1501" style="margin-left:1em">注下辨其了知。仍指結文。<note n="0706004" resp="Xuzangjing" place="foot text" type="orig">一無以字</note>以為成證。或為釋彼。略
 <lb ed="X" n="0706b16"/><lb ed="R041" n="0602b17"/>言一門。餘二准知。准此前說。在言約執。智字傳差。
@@ -895,7 +922,7 @@
 <lb ed="X" n="0712c18"/><lb ed="R041" n="0615b07"/><cb:div type="commentary"><p xml:id="pX26p0712c1801" style="margin-left:1em">注於此文中。先說斷惑。後明業苦。初中有二。初總
 <lb ed="X" n="0712c19"/><lb ed="R041" n="0615b08"/>明斷惑。<note n="0712006" resp="Xuzangjing" place="foot text" type="orig">受一作愛次同</note>受中攝取。後別證解脫。諸無明下。是第二
 <lb ed="X" n="0712c20"/><lb ed="R041" n="0615b09"/>段。於中有二。初斷無明。證慧解脫。欲字宜為斷字。
-<lb ed="X" n="0712c21"/><lb ed="R041" n="0615b10"/>後斷<anchor xml:id="fxX26p0712c01"/>受取。證心解脫。章云。無明滅故慧解脫。諸惑
+<lb ed="X" n="0712c21"/><lb ed="R041" n="0615b10"/>後斷<note type="star" corresp="#0712006"></note>受取。證心解脫。章云。無明滅故慧解脫。諸惑
 <lb ed="X" n="0712c22"/><lb ed="R041" n="0615b11"/>滅故心解脫。次無明滅故下。是斷業苦。章云。無明
 <lb ed="X" n="0712c23"/><lb ed="R041" n="0615b12"/>滅故無發行。諸惑滅故無現生。惑業無故。後果不
 <lb ed="X" n="0712c24"/><lb ed="R041" n="0615b13"/>續。得無學果。得無學<note n="0712c2401" resp="CBETA" type="add">已【CB】，巳【卍續】</note><app n="0712c2401"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【卍續】">巳</rdg></app>。逆觀所滅。<note place="inline">云云</note>今文不足。

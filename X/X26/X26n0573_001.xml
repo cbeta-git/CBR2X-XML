@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X26n0573">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 573 般若心經註解</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 573 般若心經註解</title>
@@ -11,62 +11,89 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.4 $<date>$Date: 2009/10/08 07:21:24 $</date></edition>
-	</editionStmt>
-	<extent>1卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/10/08 07:21:24 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 26, No. 573</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB15106">
-	<charName>CBETA CHARACTER CB15106</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[鬱-山+止]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>鬱</value>
-	</charProp>
-	<mapping type="normal_unicode">U+9B31</mapping>
-	<mapping cb:dec="998146" type="PUA">U+F3B02</mapping>
-</char>
-<char xml:id="CB17821">
-	<charName>CBETA CHARACTER CB17821</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[拶-(打-丁)+(叔-又)]</value>
-	</charProp>
-	<mapping cb:dec="1000861" type="PUA">U+F459D</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>1卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">26</idno>.<idno type="no">573</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:16:48 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">般若心經註解</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB15106">
+				<charName>CBETA CHARACTER CB15106</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[鬱-山+止]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>鬱</value>
+				</charProp>
+				<mapping type="normal_unicode">U+9B31</mapping>
+				<mapping cb:dec="998146" type="PUA">U+F3B02</mapping>
+			</char>
+			<char xml:id="CB17821">
+				<charName>CBETA CHARACTER CB17821</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[拶-(打-丁)+(叔-又)]</value>
+				</charProp>
+				<mapping cb:dec="1000861" type="PUA">U+F459D</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2006-08-01T10:23:10">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-
-</revisionDesc>
+		<change when="2006-08-01T10:23:10">
+			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
@@ -97,7 +124,7 @@
 <lb ed="X" n="0949a24"/><lb ed="R042" n="0068a03"/>一真人。常在赤肉團上。出出入入。這裡親見此菩薩。
 <pb ed="X" xml:id="X26.0573.0949b" n="0949b"/>
 <lb ed="X" n="0949b01"/><lb ed="R042" n="0068a04"/>優游自在行脩行也。欲行千里。一步為初。看這一步。
-<lb ed="X" n="0949b02"/><lb ed="R042" n="0068a05"/>從何而<note n="0949002" resp="Xuzangjing" place="foot text" type="orig">超疑起次同</note>超。若知<anchor xml:id="fxX26p0949b01"/>超處。便知生死之根源。深者徹骨處
+<lb ed="X" n="0949b02"/><lb ed="R042" n="0068a05"/>從何而<note n="0949002" resp="Xuzangjing" place="foot text" type="orig">超疑起次同</note>超。若知<note type="star" corresp="#0949002"></note>超處。便知生死之根源。深者徹骨處
 <lb ed="X" n="0949b03"/><lb ed="R042" n="0068a06"/>也。五蘊頓徹。絲毫不掛。如父母未生相似。般若云。智
 <lb ed="X" n="0949b04"/><lb ed="R042" n="0068a07"/>慧大智之人。知有生。便知有死。當自坐觀。生從何來。
 <lb ed="X" n="0949b05"/><lb ed="R042" n="0068a08"/>死從何往。若有人發此一念。便能親近知識。決擇生

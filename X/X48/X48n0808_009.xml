@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X48n0808">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 808 成唯識論別抄</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 808 成唯識論別抄</title>
@@ -11,61 +11,88 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.6 $<date>$Date: 2009/04/22 08:59:18 $</date></edition>
-	</editionStmt>
-	<extent>4卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2009/04/22 08:59:18 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 48, No. 808</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB15166">
-	<charName>CBETA CHARACTER CB15166</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[蒙-卄+((並-(前-刖))-一)]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>蒙</value>
-	</charProp>
-	<mapping cb:dec="998206" type="PUA">U+F3B3E</mapping>
-</char>
-<char xml:id="CB18713">
-	<charName>CBETA CHARACTER CB18713</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[木*(└@庚)]</value>
-	</charProp>
-	<mapping cb:dec="1001753" type="PUA">U+F4919</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>4卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">48</idno>.<idno type="no">808</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:16:48 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">成唯識論別抄</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB15166">
+				<charName>CBETA CHARACTER CB15166</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[蒙-卄+((並-(前-刖))-一)]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>蒙</value>
+				</charProp>
+				<mapping cb:dec="998206" type="PUA">U+F3B3E</mapping>
+			</char>
+			<char xml:id="CB18713">
+				<charName>CBETA CHARACTER CB18713</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[木*(└@庚)]</value>
+				</charProp>
+				<mapping cb:dec="1001753" type="PUA">U+F4919</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2006-11-13T09:07:13">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-
-</revisionDesc>
+		<change when="2006-11-13T09:07:13">
+			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:div>
@@ -180,7 +207,7 @@
 <pb ed="X" xml:id="X48.0808.0840a" n="0840a"/>
 <lb ed="X" n="0840a01"/><lb ed="R077" n="0912b02"/>先斷煩惱。不斷所知。如二乘者九品所斷。自<note n="0840001" resp="Xuzangjing" place="foot text" type="orig">在疑有下同</note>在先斷
 <lb ed="X" n="0840a02"/><lb ed="R077" n="0912b03"/>所知。不斷煩惱。如大乘頓悟。脩道位中。自有二俱斷。
-<lb ed="X" n="0840a03"/><lb ed="R077" n="0912b04"/>如菩薩見道及金剛心。自<anchor xml:id="fxX48p0840a01"/>在俱不斷。如異生位。此唯
+<lb ed="X" n="0840a03"/><lb ed="R077" n="0912b04"/>如菩薩見道及金剛心。自<note type="star" corresp="#0840001"></note>在俱不斷。如異生位。此唯
 <lb ed="X" n="0840a04"/><lb ed="R077" n="0912b05"/>約種。不說伏現。問。若所知障見疑等俱。如何<note n="0840a0401" resp="CBETA" type="add">但【CB】，伹【卍續】</note><app n="0840a0401"><lem wit="【CB】" resp="CBETA.maha">但</lem><rdg wit="【卍續】">伹</rdg></app>說無
 <lb ed="X" n="0840a05"/><lb ed="R077" n="0912b06"/>明增故。解云。一者體增。雖餘煩惱有俱不俱。無明定
 <lb ed="X" n="0840a06"/><lb ed="R077" n="0912b07"/>有。為此障故。如二乘無覺。不必有餘。煩惱俱故。二者
@@ -261,7 +288,7 @@
 <lb ed="X" n="0841a06"/><lb ed="R077" n="0914b07"/>理實二通第三四分。有解。相者所緣皆名為相。非唯
 <lb ed="X" n="0841a07"/><lb ed="R077" n="0914b08"/>相分。由此二通三四分也。然此縛名自有多義。一四
 <lb ed="X" n="0841a08"/><lb ed="R077" n="0914b09"/>分相繫屬。故之為縛。此通有漏無漏。後得智中有四
-<lb ed="X" n="0841a09"/><lb ed="R077" n="0914b10"/>分故。經云。所取能取纏等也。二所緣相縛。<anchor xml:id="fxX48p0841a01"/>物能緣見
+<lb ed="X" n="0841a09"/><lb ed="R077" n="0914b10"/>分故。經云。所取能取纏等也。二所緣相縛。<note type="star" corresp="#0841001"></note>物能緣見
 <lb ed="X" n="0841a10"/><lb ed="R077" n="0914b11"/>分。不自在了。此唯有漏。三性心中皆悉通有。於此三
 <lb ed="X" n="0841a11"/><lb ed="R077" n="0914b12"/>性有漏心中。有二種縛義。一四分外內相屬。故名纏
 <lb ed="X" n="0841a12"/><lb ed="R077" n="0914b13"/>縛。二為所緣相拘名纏。三若染污心中。具有二義。如
@@ -334,7 +361,7 @@
 <lb ed="X" n="0842a04"/><lb ed="R077" n="0916b05"/>問何等名上品善根。答謂出世間所有善根。或能對
 <lb ed="X" n="0842a05"/><lb ed="R077" n="0916b06"/>治下品煩惱。又諸善法。或由加行力。或由串習力。或
 <lb ed="X" n="0842a06"/><lb ed="R077" n="0916b07"/>由自性力。或由清淨力。當知或上品。問。煩惱<note n="0842001" resp="Xuzangjing" place="foot text" type="orig">之疑云下同</note>之何為
-<lb ed="X" n="0842a07"/><lb ed="R077" n="0916b08"/>上中下品。答<anchor xml:id="fxX48p0842a01"/>之五十五云。云何煩惱建立耎中上品。
+<lb ed="X" n="0842a07"/><lb ed="R077" n="0916b08"/>上中下品。答<note type="star" corresp="#0842001"></note>之五十五云。云何煩惱建立耎中上品。
 <lb ed="X" n="0842a08"/><lb ed="R077" n="0916b09"/>答最後所斷名耎品。中間所斷名中品。最初所斷名
 <lb ed="X" n="0842a09"/><lb ed="R077" n="0916b10"/>上品。後由六因。諸煩惱成上品。一婬欲所生煩惱。性
 <lb ed="X" n="0842a10"/><lb ed="R077" n="0916b11"/>多中上品。二串習所生煩惱。性多上品。三安足處煩
@@ -434,7 +461,7 @@
 <lb ed="X" n="0843b04"/><lb ed="R077" n="0919a11"/>佛正法。令無斷絕。三者願於當來。從都史多天來。成
 <lb ed="X" n="0843b05"/><lb ed="R077" n="0919a12"/>道乃至入涅槃。四者願於當來。具行一切菩提正行。
 <lb ed="X" n="0843b06"/><lb ed="R077" n="0919a13"/>五者願於當來。普<note n="0843009" resp="Xuzangjing" place="foot text" type="orig">眼字更勘次同</note>眼成熟一切有情。六者願於當來。
-<lb ed="X" n="0843b07"/><lb ed="R077" n="0919a14"/>一切世界。皆能示現。七者願於當來。普<anchor xml:id="fxX48p0843b01"/>眼淨修一切
+<lb ed="X" n="0843b07"/><lb ed="R077" n="0919a14"/>一切世界。皆能示現。七者願於當來。普<note type="star" corresp="#0843009"></note>眼淨修一切
 <lb ed="X" n="0843b08"/><lb ed="R077" n="0919a15"/>佛<note n="0843010" resp="Xuzangjing" place="foot text" type="orig">之疑法</note>之。八者願於當來。一切菩薩同一意樂。趣入大乘。
 <lb ed="X" n="0843b09"/><lb ed="R077" n="0919a16"/>九者願於當來。所有加行。皆不唐捐。十者願於當來。
 <lb ed="X" n="0843b10"/><lb ed="R077" n="0919a17"/>速證無上正等菩提。解云。此中初一是求菩提願。後

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="X13n0283">
 <teiHeader>
-<fileDesc>
+	<fileDesc>
 		<titleStmt>
 			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 283 楞嚴經秘錄</title>
 			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 283 楞嚴經秘錄</title>
@@ -11,49 +11,76 @@
 				<name>CBETA</name>
 			</respStmt>
 		</titleStmt>
-	<editionStmt>
-		<edition>$Revision: 1.6 $<date>$Date: 2010/03/12 08:40:45 $</date></edition>
-	</editionStmt>
-	<extent>10卷</extent>
-	<publicationStmt>
-		<distributor>
-			<name>中華電子佛典協會 (CBETA)</name>
-			<address>
-				<addrLine>service@cbeta.org</addrLine>
-			</address>
-		</distributor>
-		<availability>
-			<p>Available for non-commercial use when distributed with this header intact.</p>
-		</availability>
-		<date>$Date: 2010/03/12 08:40:45 $</date>
-	</publicationStmt>
-	<sourceDesc>
-		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 13, No. 283</bibl>
-	</sourceDesc>
-</fileDesc>
-<encodingDesc>
-	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
-	</projectDesc>
-<charDecl>
-<char xml:id="CB18834">
-	<charName>CBETA CHARACTER CB18834</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[○@編]</value>
-	</charProp>
-	<mapping cb:dec="1001874" type="PUA">U+F4992</mapping>
-</char>
-</charDecl>
-</encodingDesc>
-<revisionDesc>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>10卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">X</idno>.<idno type="vol">13</idno>.<idno type="no">283</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2019-09-12 02:16:48 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Manji Shinsan Dainihon Zokuzōkyō</title>
+				<title level="s" xml:lang="zh-Hant">卍新纂大日本續藏經</title>
+				<title level="m" xml:lang="zh-Hant">楞嚴經秘錄</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA 掃瞄辨識</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【卍續】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB18834">
+				<charName>CBETA CHARACTER CB18834</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[○@編]</value>
+				</charProp>
+				<mapping cb:dec="1001874" type="PUA">U+F4992</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
 		<change when="2013-05-20">
 			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
 		</change>
-	<change when="2006-03-30T08:50:57">Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT</change>
-
-</revisionDesc>
+		<change when="2006-03-30T08:50:57">
+			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+		</change>
+	</revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu type="其他" level="1">經文</cb:mulu><cb:mulu type="其他" level="2">正宗分</cb:mulu><cb:div type="other"><cb:div type="other">
@@ -617,7 +644,7 @@
 <lb ed="X" n="0155b06"/><lb ed="R020" n="0308a12"/>而生。故云性妄見生。如前性覺必明妄為明覺也。圓
 <lb ed="X" n="0155b07"/><lb ed="R020" n="0308a13"/>明心性之中。真尚不有。那得有妄。今妄見一生。則畢
 <lb ed="X" n="0155b08"/><lb ed="R020" n="0308a14"/>竟無中而成究竟有。故云從畢等也。如前無同異中
-<lb ed="X" n="0155b09"/><lb ed="R020" n="0308a15"/>熾然成異也。此有等者。上有字<note n="0155005" resp="Xuzangjing" place="foot text" type="orig">字下疑指上</note>□<anchor xml:id="fxX13p0155b01"/>□究竟有之有。以
+<lb ed="X" n="0155b09"/><lb ed="R020" n="0308a15"/>熾然成異也。此有等者。上有字<note n="0155005" resp="Xuzangjing" place="foot text" type="orig">字下疑指上</note>□□究竟有之有。以
 <lb ed="X" n="0155b10"/><lb ed="R020" n="0308a16"/>無明為體者也。下有字。指根身及乎器界也。既從無
 <lb ed="X" n="0155b11"/><lb ed="R020" n="0308a17"/>明而有。乃虗妄之因以為其因。則非其因。故云此有
 <lb ed="X" n="0155b12"/><lb ed="R020" n="0308a18"/>等也。能生之因既是無明。全體虗妄。而為非因。則其
