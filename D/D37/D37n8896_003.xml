@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="D37n8896">
 <teiHeader>
 	<fileDesc>
@@ -28,7 +29,7 @@
 			<availability>
 				<p>Available for non-commercial use when distributed with this header intact.</p>
 			</availability>
-			<date>2022-03-22 01:13:53 +0800</date>
+			<date>2022-10-15 17:14:39 +0800</date>
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>
@@ -440,6 +441,18 @@
 					<value>魚</value>
 				</charProp>
 				<mapping cb:dec="1008640" type="PUA">U+F6400</mapping>
+			</char>
+			<char xml:id="CB27104">
+				<charName>CBETA CHARACTER CB27104</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[糸*(十/田/寸)]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>縛</value>
+				</charProp>
+				<mapping cb:dec="1010144" type="PUA">U+F69E0</mapping>
 			</char>
 			<char xml:id="CB29766">
 				<charName>CBETA CHARACTER CB29766</charName>
@@ -1448,8 +1461,8 @@
 <lb ed="D" n="0142a04"/>漏界攝<note place="inline">云云</note>是釈第一句文也<g ref="#CB00562"/>云下出躰无漏界攝
 <lb ed="D" n="0142a05"/>即菩提<g ref="#CB29810"/>槃二轉依果是究竟位<note place="inline">云云</note><note place="inline">此者出躰門无漏者義也即无
 <lb ed="D" n="0142a06"/>漏門也</note>論云諸漏永<g ref="#CB32208"/>非漏隨增性淨圓明故名無漏
-<lb ed="D" n="0142a07"/><note place="inline">云云</note>此別釋无漏義諸漏永盡者離相應縳義非漏隨
-<lb ed="D" n="0142a08"/>增者離所緣縳義性淨者蕳二乗无學善有漏等薀
+<lb ed="D" n="0142a07"/><note place="inline">云云</note>此別釋无漏義諸漏永盡者離相應縛義非漏隨
+<lb ed="D" n="0142a08"/>增者離所緣<g ref="#CB27104"/>義性淨者蕳二乗无學善有漏等薀
 <lb ed="D" n="0142a09"/>也圓者蕳一切有學无漏也明者蕳二乗无學無漏
 <lb ed="D" n="0142a10"/>也論云界是藏義此中含容无邊希有大功德故或
 <pb ed="D" xml:id="D37.8896.0142b" n="0142b"/>
@@ -1481,8 +1494,8 @@
 <lb ed="D" n="0143b04"/>樂四智心品永離惱害故名安樂此二自性皆无逼
 <lb ed="D" n="0143b05"/>惱及能安樂一切有情故二轉依俱名安樂此釋頌
 <lb ed="D" n="0143b06"/>中安樂字也<note place="inline">第六義門</note>論云二乗所得二轉依果唯永遠
-<lb ed="D" n="0143b07"/>離煩惱障縳无殊勝法故<note n="0143b0701" resp="CBETA" type="add">但【CB】，伹【國圖】</note><app n="0143b0701"><lem wit="【CB】" resp="CBETA.maha">但</lem><rdg wit="【國圖】">伹</rdg></app>名解脫身<note place="inline">云云</note>此釋頌中
-<lb ed="D" n="0143b08"/>解脫身字也唯解脫生死及縳法故以彼轉依无十
+<lb ed="D" n="0143b07"/>離煩惱障<note n="0143b0701" resp="CBETA" type="add" note_key="D37.0143b07.05">縛【CB】，<g ref="#CB27104"/>【國圖】</note><app n="0143b0701"><lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">縛<note type="cf1">T31n1585_p0057c14</note></lem><rdg wit="【國圖】"><g ref="#CB27104"/></rdg></app>无殊勝法故<note n="0143b0702" resp="CBETA" type="add">但【CB】，伹【國圖】</note><app n="0143b0702"><lem wit="【CB】" resp="CBETA.maha">但</lem><rdg wit="【國圖】">伹</rdg></app>名解脫身<note place="inline">云云</note>此釋頌中
+<lb ed="D" n="0143b08"/>解脫身字也唯解脫生死及<note n="0143b0801" resp="CBETA" type="add" note_key="D37.0143b08.12">縛【CB】，<g ref="#CB27104"/>【國圖】</note><app n="0143b0801"><lem wit="【CB】" resp="CBETA.shin" cb:provider="來函：赵文平 (2020-05-26)">縛<note type="cf1">T43n1830_p0603a27</note></lem><rdg wit="【國圖】"><g ref="#CB27104"/></rdg></app>法故以彼轉依无十
 <lb ed="D" n="0143b09"/>力等殊勝法所莊嚴故不名法身<note place="inline">第七義門</note>論云大覺世
 <lb ed="D" n="0143b10"/>尊成就无上<g ref="#CB32202"/>默法故名大牟尼此牟尼尊所得二
 <pb ed="D" xml:id="D37.8896.0144a" n="0144a"/>
@@ -1650,7 +1663,7 @@
 <lb ed="D" n="0152a02"/>俗事識表之中此二决定顯无二取<note place="inline">云云</note>。</p><p xml:id="pD37p0152a0217" cb:place="inline">問此文意
 <lb ed="D" n="0152a03"/>何。</p><p xml:id="pD37p0152a0302" cb:place="inline"><g ref="#CB31293"/>是舉唯言第二義并引證成也唯識<g ref="#CB00562"/>云唯
 <lb ed="D" n="0152a04"/>與空有別者梵音言都都者不唯是唯亦是定義於
-<lb ed="D" n="0152a05"/>此都字之上加阿縳<g ref="#CB00501"/>剌那即是楷空義故今應言
+<lb ed="D" n="0152a05"/>此都字之上加阿<g ref="#CB27104"/><g ref="#CB00501"/>剌那即是楷空義故今應言
 <lb ed="D" n="0152a06"/>唯是空義以依他中决定唯有空故<note place="inline">云云</note>。</p><p xml:id="pD37p0152a0617" cb:place="inline">問何故不
 <lb ed="D" n="0152a07"/>引新論文耶。</p><p xml:id="pD37p0152a0706" cb:place="inline"><g ref="#CB31293"/>新論云此中唯有空<note place="inline">云云</note>唯言既有
 <lb ed="D" n="0152a08"/>三義故是摠言也舊論云定有空者唯言三義中取

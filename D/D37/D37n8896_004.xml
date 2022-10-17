@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="D37n8896">
 <teiHeader>
 	<fileDesc>
@@ -28,7 +29,7 @@
 			<availability>
 				<p>Available for non-commercial use when distributed with this header intact.</p>
 			</availability>
-			<date>2022-03-22 01:13:53 +0800</date>
+			<date>2022-10-15 17:14:39 +0800</date>
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>
@@ -511,6 +512,18 @@
 				<mapping type="unicode">U+2E5DA</mapping>
 				<mapping cb:dec="1009802" type="PUA">U+F688A</mapping>
 			</char>
+			<char xml:id="CB27104">
+				<charName>CBETA CHARACTER CB27104</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[糸*(十/田/寸)]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>縛</value>
+				</charProp>
+				<mapping cb:dec="1010144" type="PUA">U+F69E0</mapping>
+			</char>
 			<char xml:id="CB28230">
 				<charName>CBETA CHARACTER CB28230</charName>
 				<charProp>
@@ -950,7 +963,7 @@
 <lb ed="D" n="0179a06"/>煩惱也不空如來藏者在纏真如今此章說在纏真
 <lb ed="D" n="0179a07"/>如名如來藏故云爾也。</p><p xml:id="pD37p0179a0710" cb:place="inline">問何以知煩惱名空如來
 <lb ed="D" n="0179a08"/>藏在纏真如名不空如來藏耶。</p><p xml:id="pD37p0179a0813" cb:place="inline"><g ref="#CB31293"/>玄賛第三曰勝
-<lb ed="D" n="0179a09"/>鬘經曰有二種如來藏空智謂若離若<note n="0179a0901" resp="CBETA" type="add">脫【CB】，<g ref="#CB00163"/>【國圖】</note><app n="0179a0901"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">脫<note type="cf1">T34n1723_p0710b25</note></lem><rdg wit="【國圖】"><g ref="#CB00163"/></rdg></app>若斷若異
+<lb ed="D" n="0179a09"/>鬘經曰有二種如來藏空智謂若離若<note n="0179a0901" resp="CBETA" type="add" note_key="D37.0179a09.16">脫【CB】，<g ref="#CB00163"/>【國圖】</note><app n="0179a0901"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">脫<note type="cf1">T34n1723_p0710b25</note></lem><rdg wit="【國圖】"><g ref="#CB00163"/></rdg></app>若斷若異
 <lb ed="D" n="0179a10"/>一切煩惱藏<note place="inline">空如來藏也</note>不離不脫不斷不異不思議如
 <pb ed="D" xml:id="D37.8896.0179b" n="0179b"/>
 <lb ed="D" n="0179b01"/>來藏<note place="inline">不空如來藏也</note>煩惱有漏<g ref="#CB28933"/>妄不實能覆真如名空如
@@ -1319,7 +1332,7 @@
 <lb ed="D" n="0196a01"/>能觀何名三性觀。</p><p xml:id="pD37p0196a0108" cb:place="inline"><g ref="#CB31293"/>觀三性故名三性觀如青瘀
 <lb ed="D" n="0196a02"/>觀也。</p><p xml:id="pD37p0196a0203" cb:place="inline">章曰瑜伽等中明離繫之方便亦名三解
 <lb ed="D" n="0196a03"/>脫門<note place="inline">云云</note>。</p><p xml:id="pD37p0196a0305" cb:place="inline">問此文意何。</p><p xml:id="pD37p0196a0310" cb:place="inline"><g ref="#CB31293"/>是標名三解脫門之名
-<lb ed="D" n="0196a04"/>也清索曰能觀之智離繫縳故名解脫門謂此三智
+<lb ed="D" n="0196a04"/>也清索曰能觀之智離繫<g ref="#CB27104"/>故名解脫門謂此三智
 <lb ed="D" n="0196a05"/>是入淨土之所由處故名為門<note place="inline">云云</note>。</p><p xml:id="pD37p0196a0515" cb:place="inline">問其三解脫門
 <lb ed="D" n="0196a06"/>者何。</p><p xml:id="pD37p0196a0603" cb:place="inline"><g ref="#CB31293"/>二十八曰一空解脫門二無願解脫門三
 <lb ed="D" n="0196a07"/>無相解脫門<note place="inline">云云</note>。</p><p xml:id="pD37p0196a0708" cb:place="inline">問何故名空解脫門等。</p><p xml:id="pD37p0196a0717" cb:place="inline"><g ref="#CB31293"/>空者
@@ -1361,7 +1374,7 @@
 <lb ed="D" n="0197b10"/>生忍之二名唯是能觀智亦唯根本後得智通真諦
 <pb ed="D" xml:id="D37.8896.0198a" n="0198a"/>
 <lb ed="D" n="0198a01"/>俗諦也。</p><p xml:id="pD37p0198a0104" cb:place="inline">問三解脫門是離繫之方便何非加行智。</p>
-<lb ed="D" n="0198a02"/><p xml:id="pD37p0198a0201"><g ref="#CB31293"/>濵曰離繫縳之方便而唯取無漏故除加行<note place="inline">云云</note>。</p>
+<lb ed="D" n="0198a02"/><p xml:id="pD37p0198a0201"><g ref="#CB31293"/>濵曰離繫<g ref="#CB27104"/>之方便而唯取無漏故除加行<note place="inline">云云</note>。</p>
 <lb ed="D" n="0198a03"/><p xml:id="pD37p0198a0301">章曰四名有四菩薩地中眀義<g ref="#CB07883"/>集名四鄔<g ref="#CB11059"/>南諸
 <lb ed="D" n="0198a04"/>行無常有漏皆苦諸法無我<g ref="#CB29810"/>槃家靜<note place="inline">云云</note>。</p><p xml:id="pD37p0198a0418" cb:place="inline">問此文
 <lb ed="D" n="0198a05"/>意何。</p><p xml:id="pD37p0198a0503" cb:place="inline"><g ref="#CB31293"/>是四名有四之中先標名四鄔<g ref="#CB11059"/>南之名

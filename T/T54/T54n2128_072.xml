@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T54n2128">
 <teiHeader>
 	<fileDesc>
@@ -28,7 +29,7 @@
 			<availability>
 				<p>Available for non-commercial use when distributed with this header intact.</p>
 			</availability>
-			<date>2022-07-06 04:55:26 +0800</date>
+			<date>2022-10-16 20:04:54 +0800</date>
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>
@@ -152,6 +153,15 @@
 				</charProp>
 				<mapping type="unicode">U+39D7</mapping>
 				<mapping cb:dec="983838" type="PUA">U+F031E</mapping>
+			</char>
+			<char xml:id="CB01043">
+				<charName>CBETA CHARACTER CB01043</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[虫*旦]</value>
+				</charProp>
+				<mapping type="unicode">U+45A7</mapping>
+				<mapping cb:dec="984083" type="PUA">U+F0413</mapping>
 			</char>
 			<char xml:id="CB01083">
 				<charName>CBETA CHARACTER CB01083</charName>
@@ -1511,7 +1521,7 @@
 <lb n="0775c03" ed="T"/><p xml:id="pT54p0775c0301">面皺<note place="inline">下鄒救反考聲云皺皮聚也文字典說云皮寬也從皮芻聲芻音測俱反</note>。</p></cb:div>
 <lb n="0775c04" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">22 第二十二卷</cb:mulu><head>第二十二卷</head>
 <lb n="0775c05" ed="T"/><p xml:id="pT54p0775c0501">蛇蠍<note place="inline">上射遮反考聲云蛇毒蟲也又音他古人巢居穴處之時相問日夜來無蛇乎文字典說從虫它音陀聲論文
-<lb n="0775c06" ed="T"/>作虵今之俗字亦通也下軒謁反賈逵注國語云蠍毒也廣雅云蠍蛆螫也博雅云螫蟲施毒也文字典說云蠆蠍異名
+<lb n="0775c06" ed="T"/>作虵今之俗字亦通也下軒謁反賈逵注國語云蠍毒也廣雅云蠍<note n="0775c0601" resp="CBETA" type="add" note_key="T54.0775c06.27"><g ref="#CB01043"/>【CB】，蛆【大】</note><app n="0775c0601"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)"><g ref="#CB01043"/></lem><rdg wit="【大】">蛆</rdg></app>螫也博雅云螫蟲施毒也文字典說云蠆蠍異名
 <lb n="0775c07" ed="T"/>也從虫歇聲歇音同上蠆音<g ref="#CB07574"/>界反蛆音七余反螫音式亦反</note>。</p>
 <lb n="0775c08" ed="T"/><p xml:id="pT54p0775c0801"><g ref="#CB00395"/>戾<note place="inline">上聾董反下黎<note n="0775005" resp="Taisho" place="foot text" type="orig">帝＝啼【甲】</note><note n="0775005" resp="CBETA" type="mod">帝【大】，啼【甲】</note><app n="0775005"><lem wit="【大】">帝</lem><rdg resp="Taisho" wit="【甲】">啼</rdg></app>反論文意剛強之貌也</note>。</p></cb:div>
 <lb n="0775c09" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">23 第二十三卷</cb:mulu><head>第二十三卷</head>
@@ -1651,7 +1661,7 @@
 <lb n="0777b18" ed="T"/><p xml:id="pT54p0777b1801">瘜肉<note place="inline">方言作<g ref="#CB08196"/>同思力反說文瘜奇肉也三蒼惡肉論文作息非體也</note>。</p>
 <lb n="0777b19" ed="T"/><p xml:id="pT54p0777b1901">作模<note place="inline">又作摹同莫奴反規模也模法也謂掩取象也</note>。</p></cb:div>
 <lb n="0777b20" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">4 第四卷</cb:mulu><head>第四卷</head>
-<lb n="0777b21" ed="T"/><p xml:id="pT54p0777b2101">言<g ref="#CB00798"/><note place="inline">側氏子禮二反說文<g ref="#CB00798"/>撠也撠音居逆反謂撠撮取也通俗文掣挽曰<note n="0777b2101" resp="CBETA" type="add"><g ref="#CB00798"/>【CB】，泚【大】【麗-CB】</note><app n="0777b2101"><lem wit="【CB】" resp="CBETA.liyi"><g ref="#CB00798"/><note type="cf1">T54n2128_p0357a17</note><note type="cf2">C057n1163_p0031b18</note></lem><rdg wit="【大】">泚</rdg><rdg wit="【麗-CB】" resp="CBETA.liyi">泚<note type="cf1">K43n1498_p0480b10</note></rdg></app></note>。</p>
+<lb n="0777b21" ed="T"/><p xml:id="pT54p0777b2101">言<g ref="#CB00798"/><note place="inline">側氏子禮二反說文<g ref="#CB00798"/>撠也撠音居逆反謂撠撮取也通俗文掣挽曰<note n="0777b2101" resp="CBETA" type="add" note_key="T54.0777b21.30"><g ref="#CB00798"/>【CB】，泚【大】【麗-CB】</note><app n="0777b2101"><lem wit="【CB】" resp="CBETA.liyi"><g ref="#CB00798"/><note type="cf1">T54n2128_p0357a17</note><note type="cf2">C057n1163_p0031b18</note></lem><rdg wit="【大】">泚</rdg><rdg wit="【麗-CB】" resp="CBETA.liyi">泚<note type="cf1">K43n1498_p0480b10</note></rdg></app></note>。</p>
 <lb n="0777b22" ed="T"/><p xml:id="pT54p0777b2201">乳嬰<note place="inline">而主反說文人及鳥生子曰乳三蒼乳子也子養也嬰音於盈反三蒼女曰嬰男曰兒釋名云人始生曰嬰兒
 <lb n="0777b23" ed="T"/>胸前曰嬰投之嬰前而乳養之故謂嬰兒也</note>。</p>
 <lb n="0777b24" ed="T"/><p xml:id="pT54p0777b2401">有<g ref="#CB07977"/><note place="inline">又作<g ref="#CB12711"/>同焉革反所以<g ref="#CB07977"/>牛領者也<g ref="#CB07977"/>亦槅也</note>。</p>

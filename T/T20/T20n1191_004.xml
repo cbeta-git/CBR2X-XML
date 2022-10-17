@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T20n1191">
 <teiHeader>
 	<fileDesc>
@@ -28,7 +29,7 @@
 			<availability>
 				<p>Available for non-commercial use when distributed with this header intact.</p>
 			</availability>
-			<date>2020-07-12 07:11:10 +0800</date>
+			<date>2022-10-15 17:14:39 +0800</date>
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>
@@ -40,11 +41,11 @@
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+			<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Jasmine</p>
+			<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，Jasmine 提供新式標點</p>
 		</projectDesc>
 		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
 		</editorialDecl>
 		<tagsDecl>
 			<namespace name="http://www.tei-c.org/ns/1.0">
@@ -134,7 +135,7 @@
 	</revisionDesc>
 </teiHeader>
 <text><body>
-<cb:mulu level="1" n="1" type="品">1 序品</cb:mulu><cb:mulu level="2">3</cb:mulu>
+<cb:mulu n="1" level="1" type="品">1 序品</cb:mulu><cb:mulu level="2">3</cb:mulu>
 <milestone n="4" unit="juan"/>
 <lb n="0848c07" ed="T"/>
 <lb n="0848c08" ed="T"/>
@@ -143,345 +144,345 @@
 <lb n="0848c11" ed="T"/>
 <lb n="0848c12" ed="T"/><byline cb:type="Translator"><anchor xml:id="fxT20p0848c02"/>西天<anchor xml:id="fxT20p0848c03"/>譯經三藏朝散大夫試鴻臚少卿
 <lb n="0848c13" ed="T"/>明教大師<anchor xml:id="fxT20p0848c04"/>臣天息災奉　詔譯</byline>
-<lb n="0848c14" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="2" type="品">2 菩薩變化儀軌品</cb:mulu><cb:mulu level="2">1</cb:mulu><head>菩薩變化儀軌品第二<note n="0848005" resp="Taisho" place="foot text" type="orig">〔之一〕－【宋】【元】</note><note n="0848005" resp="CBETA" type="mod">之一【大】，〔－〕【宋】【元】</note><app n="0848005"><lem wit="【大】">之一</lem><rdg resp="Taisho" wit="【宋】 【元】"><space quantity="0"/></rdg></app></head>
-<lb n="0848c15" ed="T"/><p xml:id="pT20p0848c1501">爾時妙吉祥童子。觀察會中一切大眾。於是
-<lb n="0848c16" ed="T"/>妙吉祥童子。入<note n="0848006" resp="Taisho" place="foot text" type="orig">觀照三摩地 Avalokinī samādhi.</note><cb:tt n="0848006" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">觀照三摩地</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Avalokinī samādhi.</cb:t></cb:tt>。入此定已。從
-<lb n="0848c17" ed="T"/>其<note n="0848007" resp="Taisho" place="foot text" type="orig">臍輪 Nābhi-maṇḍala.</note><cb:tt n="0848007" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">臍輪</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Nābhi-maṇḍala.</cb:t></cb:tt>出大光明。復有無數百千那由他俱
-<lb n="0848c18" ed="T"/>胝光明以為眷屬。普遍照耀一切眾生界及
+<lb n="0848c14" ed="T"/><cb:div type="pin"><cb:mulu n="2" level="1" type="品">2 菩薩變化儀軌品</cb:mulu><cb:mulu level="2">1</cb:mulu><head>菩薩變化儀軌品第二<note n="0848005" resp="Taisho" type="orig" place="foot text">〔之一〕－【宋】【元】</note><note n="0848005" resp="CBETA" type="mod">之一【大】，〔－〕【宋】【元】</note><app n="0848005"><lem wit="【大】">之一</lem><rdg resp="Taisho" wit="【宋】 【元】"><space quantity="0"/></rdg></app></head>
+<lb n="0848c15" ed="T"/><p xml:id="pT20p0848c1501">爾時，妙吉祥童子觀察會中一切大眾，於是
+<lb n="0848c16" ed="T"/>妙吉祥童子入<note n="0848006" resp="Taisho" type="orig" place="foot text">觀照三摩地 Avalokinī samādhi.</note><cb:tt n="0848006" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">觀照三摩地</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Avalokinī samādhi.</cb:t></cb:tt>。入此定已，從
+<lb n="0848c17" ed="T"/>其<note n="0848007" resp="Taisho" type="orig" place="foot text">臍輪 Nābhi-maṇḍala.</note><cb:tt n="0848007" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">臍輪</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Nābhi-maṇḍala.</cb:t></cb:tt>出大光明，復有無數百千那由他俱
+<lb n="0848c18" ed="T"/>胝光明以為眷屬，普遍照耀一切眾生界及
 <lb n="0848c19" ed="T"/>淨光天。</p>
-<lb n="0848c20" ed="T"/><p xml:id="pT20p0848c2001">爾時金剛手菩薩摩訶薩。告妙吉祥童子言。
-<lb n="0848c21" ed="T"/>汝今宣說曼拏羅法品儀軌。令諸菩薩及一
-<lb n="0848c22" ed="T"/>切眾生得入三昧。復令一切眾生平等悟解
-<lb n="0848c23" ed="T"/>真言句。所有世間出世間一切真言行皆得
-<lb n="0848c24" ed="T"/>成就。金剛手祕密主如是說已。</p>
-<lb n="0848c25" ed="T"/><p xml:id="pT20p0848c2501">爾時妙吉祥童子。欲說最上祕密曼拏羅儀
-<lb n="0848c26" ed="T"/>軌。明照一切以神變力。於其右手指端之上。
-<lb n="0848c27" ed="T"/>悉皆現起一切大眾。復出無數百千那由他
-<lb n="0848c28" ed="T"/>俱胝光明。照彼淨光天上一切眾會。</p>
-<lb n="0848c29" ed="T"/><p xml:id="pT20p0848c2901">爾時妙吉祥童子。略說焰曼德迦忿怒明王
-<pb n="0849a" xml:id="T20.1191.0849a" ed="T"/>
-<lb n="0849a01" ed="T"/>心真言具大無畏。一切所作請召發遣。息除
-<lb n="0849a02" ed="T"/>災害增長吉祥。降伏諸魔隱沒身形。行坐虛
-<lb n="0849a03" ed="T"/>空。或行地上足不履地。令他愛敬等皆得成
-<lb n="0849a04" ed="T"/>就。破一切暗如廣大明燈。此大無畏三字真
-<lb n="0849a05" ed="T"/>言。儀行法力最為第一。所求所作一切真言
-<lb n="0849a06" ed="T"/>義悉得成就。即說大忿怒明王心真言。</p>
-<lb n="0849a07" ed="T"/><p cb:type="dharani" xml:id="pT20p0849a0701"><note n="0849001" resp="Taisho" place="foot text" type="orig">唵惡吽 Oṁ āḥ hūṁ.</note><note n="0849001" resp="CBETA" type="mod">唵<note place="inline">引</note>惡吽<note place="inline">引</note> Oṁ āḥ hūṁ.</note><cb:tt n="0849001" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">唵<note place="inline">引</note>惡吽<note place="inline">引</note></cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Oṁ āḥ hūṁ.</cb:t></cb:tt></p>
-<lb n="0849a08" ed="T"/><p xml:id="pT20p0849a0801">此大忿怒明王心真言。大菩薩妙吉祥善說
-<lb n="0849a09" ed="T"/>曼拏羅真言行。能作一切事破一切障礙。</p>
-<lb n="0849a10" ed="T"/><p xml:id="pT20p0849a1001">爾時妙吉祥童子。舉其右手摩忿怒明王頭。
-<lb n="0849a11" ed="T"/>稱如是言<note n="0849002" resp="Taisho" place="foot text" type="orig">曩摩一切佛 Namaste sarva Buddhānām.</note><cb:tt n="0849002" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">曩摩一切佛</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Namaste sarva Buddhānām.</cb:t></cb:tt>。如是說已。所有十方
-<lb n="0849a12" ed="T"/>世界諸佛世尊無量菩薩。具大福德三昧來
-<lb n="0849a13" ed="T"/>住會中。是時忿怒明王復現大忿怒相。即往
-<lb n="0849a14" ed="T"/>一切世界剎土之中。所有惡心大力眾生。尋
-<lb n="0849a15" ed="T"/>遣來集淨光天上大眾之中。依位安住。</p>
-<lb n="0849a16" ed="T"/><p xml:id="pT20p0849a1601">又此眾生頂上各出熾盛光焰。</p>
-<lb n="0849a17" ed="T"/><p xml:id="pT20p0849a1701">爾時妙吉祥童子。觀彼大眾心淨。瞻仰而復
-<lb n="0849a18" ed="T"/>告言。此諸大眾汝當諦聽。我此三昧若不依
-<lb n="0849a19" ed="T"/>行如有違犯。令此忿怒明王現大威力而自
-<lb n="0849a20" ed="T"/>調伏。何為不得違犯。緣此祕密三昧真言行
-<lb n="0849a21" ed="T"/>義諸佛世尊菩薩大德平等法門。汝今諦聽
-<lb n="0849a22" ed="T"/>善思念之。當為汝說。</p>
-<lb n="0849a23" ed="T"/><p cb:type="dharani" xml:id="pT20p0849a2301"><note n="0849003" resp="Taisho" place="foot text" type="orig">曩謨…賀 Namaḥ samanta buddhānām, Oṁ ra ra smara apratihata-śāsana kumāra rūpa dhāriṇa hūṁ hūṁ phat svāhā.</note><cb:tt word-count="51" n="0849003" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>唵<note place="inline">引</note>囉囉三麼<note place="inline">二合</note>
-<lb n="0849a24" ed="T"/>囉阿鉢囉<note place="inline">二合</note>底賀多舍<note place="inline">引</note>娑曩俱摩囉嚕波
-<lb n="0849a25" ed="T"/>馱哩抳吽吽<g ref="#CB00760"/>吒<g ref="#CB00760"/>吒薩嚩<note place="inline">二合引</note>賀</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Namaḥ samanta buddhānām, Oṁ ra ra smara apratihata-śāsana kumāra rūpa dhāriṇa hūṁ hūṁ phat svāhā.</cb:t></cb:tt></p>
-<lb n="0849a26" ed="T"/><p xml:id="pT20p0849a2601">聖者此是我<note n="0849004" resp="Taisho" place="foot text" type="orig">根本真言 Mūla-mantra.</note><cb:tt n="0849004" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">根本真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mūla-mantra.</cb:t></cb:tt>聖妙吉祥印。名為五
-<lb n="0849a27" ed="T"/>髻大印。若用此印持誦根本真言。一切所求
+<lb n="0848c20" ed="T"/><p xml:id="pT20p0848c2001">爾時，金剛手菩薩摩訶薩告妙吉祥童子言：
+<lb n="0848c21" ed="T"/>「汝今宣說曼拏羅法品儀軌，令諸菩薩及一
+<lb n="0848c22" ed="T"/>切眾生得入三昧，復令一切眾生平等悟解
+<lb n="0848c23" ed="T"/>真言句，所有世間出世間一切真言行皆得
+<lb n="0848c24" ed="T"/>成就。」金剛手祕密主如是說已。</p>
+<lb n="0848c25" ed="T"/><p xml:id="pT20p0848c2501">爾時，妙吉祥童子欲說最上祕密曼拏羅儀
+<lb n="0848c26" ed="T"/>軌明照一切，以神變力，於其右手指端之上
+<lb n="0848c27" ed="T"/>悉皆現起一切大眾，復出無數百千那由他
+<lb n="0848c28" ed="T"/>俱胝光明，照彼淨光天上一切眾會。</p>
+<lb n="0848c29" ed="T"/><p xml:id="pT20p0848c2901">爾時，妙吉祥童子略說焰曼德迦忿怒明王
+<pb n="0849a" ed="T" xml:id="T20.1191.0849a"/>
+<lb n="0849a01" ed="T"/>心真言，具大無畏，一切所作請召發遣，息除
+<lb n="0849a02" ed="T"/>災害增長吉祥，降伏諸魔隱沒身形，行坐虛
+<lb n="0849a03" ed="T"/>空，或行地上足不履地，令他愛敬等皆得成
+<lb n="0849a04" ed="T"/>就，破一切暗如廣大明燈。此大無畏三字真
+<lb n="0849a05" ed="T"/>言，儀行法力最為第一，所求所作一切真言
+<lb n="0849a06" ed="T"/>義悉得成就。即說大忿怒明王心真言：</p>
+<lb n="0849a07" ed="T"/><p cb:type="dharani" xml:id="pT20p0849a0701">「<note n="0849001" resp="Taisho" type="orig" place="foot text">唵惡吽 Oṁ āḥ hūṁ.</note><note n="0849001" resp="CBETA" type="mod">唵<note place="inline">引</note>惡吽<note place="inline">引</note> Oṁ āḥ hūṁ.</note><cb:tt n="0849001" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">唵<note place="inline">引</note>　惡吽<note place="inline">引</note>」</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Oṁ āḥ hūṁ.</cb:t></cb:tt></p>
+<lb n="0849a08" ed="T"/><p xml:id="pT20p0849a0801">「此大忿怒明王心真言，大菩薩妙吉祥善說
+<lb n="0849a09" ed="T"/>曼拏羅真言行，能作一切事、破一切障礙。」</p>
+<lb n="0849a10" ed="T"/><p xml:id="pT20p0849a1001">爾時，妙吉祥童子舉其右手摩忿怒明王頭，
+<lb n="0849a11" ed="T"/>稱如是言：「<note n="0849002" resp="Taisho" type="orig" place="foot text">曩摩一切佛 Namaste sarva Buddhānām.</note><cb:tt n="0849002" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">曩摩一切佛</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Namaste sarva Buddhānām.</cb:t></cb:tt>。」如是說已，所有十方
+<lb n="0849a12" ed="T"/>世界諸佛世尊、無量菩薩，具大福德三昧來
+<lb n="0849a13" ed="T"/>住會中。</p><p xml:id="pT20p0849a1304" cb:place="inline">是時，忿怒明王復現大忿怒相，即往
+<lb n="0849a14" ed="T"/>一切世界剎土之中，所有惡心大力眾生，尋
+<lb n="0849a15" ed="T"/>遣來集淨光天上，大眾之中依位安住。
+<lb n="0849a16" ed="T"/>又此眾生頂上，各出熾盛光焰。</p>
+<lb n="0849a17" ed="T"/><p xml:id="pT20p0849a1701">爾時，妙吉祥童子觀彼大眾心淨瞻仰，而復
+<lb n="0849a18" ed="T"/>告言：「此諸大眾！汝當諦聽，我此三昧若不依
+<lb n="0849a19" ed="T"/>行如有違犯，令此忿怒明王現大威力而自
+<lb n="0849a20" ed="T"/>調伏。何為不得違犯？緣此祕密三昧真言行
+<lb n="0849a21" ed="T"/>義，諸佛世尊、菩薩大德平等法門，汝今諦聽
+<lb n="0849a22" ed="T"/>善思念之，當為汝說。</p>
+<lb n="0849a23" ed="T"/><p cb:type="dharani" xml:id="pT20p0849a2301">「<note n="0849003" resp="Taisho" type="orig" place="foot text">曩謨…賀 Namaḥ samanta buddhānām, Oṁ ra ra smara apratihata-śāsana kumāra rūpa dhāriṇa hūṁ hūṁ phat svāhā.</note><cb:tt n="0849003" type="app" word-count="51"><cb:t resp="Taisho" xml:lang="zh-Hant">曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　唵<note place="inline">引</note>　囉囉三麼<note place="inline">二合</note>
+<lb n="0849a24" ed="T"/>囉阿鉢囉<note place="inline">二合</note>　底賀多舍<note place="inline">引</note>　娑曩俱摩囉嚕波
+<lb n="0849a25" ed="T"/>馱哩抳吽吽<g ref="#CB00760"/>吒<g ref="#CB00760"/>吒薩嚩<note place="inline">二合引</note>　賀」</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Namaḥ samanta buddhānām, Oṁ ra ra smara apratihata-śāsana kumāra rūpa dhāriṇa hūṁ hūṁ phat svāhā.</cb:t></cb:tt></p>
+<lb n="0849a26" ed="T"/><p xml:id="pT20p0849a2601">「聖者！此是我<note n="0849004" resp="Taisho" type="orig" place="foot text">根本真言 Mūla-mantra.</note><cb:tt n="0849004" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">根本真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mūla-mantra.</cb:t></cb:tt>聖妙吉祥印，名為五
+<lb n="0849a27" ed="T"/>髻大印。若用此印持誦根本真言，一切所求
 <lb n="0849a28" ed="T"/>皆得成就。</p>
-<lb n="0849a29" ed="T"/><p xml:id="pT20p0849a2901">復說<note n="0849005" resp="Taisho" place="foot text" type="orig">心真言 Hṛdaya.</note><cb:tt n="0849005" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">心真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Hṛdaya.</cb:t></cb:tt>。作一切善事令心寂靜。</p>
-<pb n="0849b" xml:id="T20.1191.0849b" ed="T"/>
-<lb n="0849b01" ed="T"/><p cb:type="dharani" xml:id="pT20p0849b0101"><note n="0849006" resp="Taisho" place="foot text" type="orig">Oṁ dhanyada namaḥ.</note><anchor xml:id="nkr_note_foreign_0849006" n="0849006"/>唵嚩枳也<note place="inline">二合</note>捺曩莫<note place="inline"><note n="0849007" resp="Taisho" place="foot text" type="orig">入＋（聲）【明】＊</note><note n="0849007" resp="CBETA" type="mod">入【大】＊，入聲【明】＊</note><app n="0849007"><lem wit="【大】">入</lem><rdg resp="Taisho" wit="【明】">入聲</rdg></app></note></p>
-<lb n="0849b02" ed="T"/><p xml:id="pT20p0849b0201">說此印法名為<note n="0849008" resp="Taisho" place="foot text" type="orig">三髻 Tri-śikha.</note><cb:tt n="0849008" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">三髻</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Tri-śikha.</cb:t></cb:tt>。增長一切福德。</p>
-<lb n="0849b03" ed="T"/><p xml:id="pT20p0849b0301">復說<note n="0849009" resp="Taisho" place="foot text" type="orig">外心真言 Upahṛdaya.</note><cb:tt n="0849009" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">外心真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Upahṛdaya.</cb:t></cb:tt>。</p>
-<lb n="0849b04" ed="T"/><p cb:type="dharani" xml:id="pT20p0849b0401"><note n="0849010" resp="Taisho" place="foot text" type="orig">Bāhye hūṁ.</note><anchor xml:id="nkr_note_foreign_0849010" n="0849010"/>嚩枳也<note place="inline">二合</note>吽</p>
-<lb n="0849b05" ed="T"/><p xml:id="pT20p0849b0501">說此印法亦<note n="0849011" resp="Taisho" place="foot text" type="orig">名＝為【明】</note><note n="0849011" resp="CBETA" type="mod">名【大】，為【明】</note><app n="0849011"><lem wit="【大】">名</lem><rdg resp="Taisho" wit="【明】">為</rdg></app>三髻。能降伏一切眾生。</p>
-<lb n="0849b06" ed="T"/><p xml:id="pT20p0849b0601">復說<note n="0849012" resp="Taisho" place="foot text" type="orig">內心微妙真言 Parama hṛdaya.</note><cb:tt n="0849012" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">內心微妙真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Parama hṛdaya.</cb:t></cb:tt>。</p>
-<lb n="0849b07" ed="T"/><p cb:type="dharani" xml:id="pT20p0849b0701">曩謨三滿哆沒馱喃<note n="0849013" resp="Taisho" place="foot text" type="orig">Muṁ.</note><anchor xml:id="nkr_note_foreign_0849013" n="0849013"/>曼</p>
-<lb n="0849b08" ed="T"/><p xml:id="pT20p0849b0801">說此印法名<note n="0849014" resp="Taisho" place="foot text" type="orig">孔雀座 Mayūāsana.</note><cb:tt n="0849014" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">孔雀座</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mayūāsana.</cb:t></cb:tt>。敬愛一切眾生。</p>
-<lb n="0849b09" ed="T"/><p xml:id="pT20p0849b0901">復有一切佛心大無畏八字真言。名最上增
-<lb n="0849b10" ed="T"/>益大吉祥。斷三界生死。消除一切惡趣。能滅
-<lb n="0849b11" ed="T"/>一切災害。作一切事皆得安樂。寂靜如現在
-<lb n="0849b12" ed="T"/>見佛。此妙吉祥菩薩。宣布最上祕密真言相。
-<lb n="0849b13" ed="T"/>為一切眾生。若有憶念一切所願皆得圓滿。
-<lb n="0849b14" ed="T"/>若有持誦之者。所有五逆重罪皆得清淨。即
-<lb n="0849b15" ed="T"/>說真言曰。</p>
-<lb n="0849b16" ed="T"/><p cb:type="dharani" xml:id="pT20p0849b1601"><note n="0849015" resp="Taisho" place="foot text" type="orig">Oṁ āḥ dhīra hūṁ khacaraḥ.</note><anchor xml:id="nkr_note_foreign_0849015" n="0849015"/>唵阿尾囉吽佉左洛</p>
-<lb n="0849b17" ed="T"/><p xml:id="pT20p0849b1701">聖者有此八字大無畏最上祕密心真言。與
-<lb n="0849b18" ed="T"/>佛住世而無有異。能作一切吉祥之事。此大
-<lb n="0849b19" ed="T"/>功德我今為汝略而宣說。若欲廣陳。經無數
-<lb n="0849b20" ed="T"/>百千那由他俱胝劫。校量功德說不能盡。若
-<lb n="0849b21" ed="T"/>說此印法。名為大精進能圓滿一切願。</p>
-<lb n="0849b22" ed="T"/><p xml:id="pT20p0849b2201">復說<note n="0849016" resp="Taisho" place="foot text" type="orig">召請眾聖真言 Ahvānana-mantra.</note><cb:tt n="0849016" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">召請眾聖真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Ahvānana-mantra.</cb:t></cb:tt>。</p>
-<lb n="0849b23" ed="T"/><p cb:type="dharani" xml:id="pT20p0849b2301"><note n="0849017" resp="Taisho" place="foot text" type="orig">Oṁ he he kumāra rūpi svarūpiṇe sarva bālabhāṣita prabodhane āyāhi bhagavaṁ thāyahi, kumāra-krīḍotpala-dhāriṇe maṇḍala-madhye tiṣṭha tiṣṭha, samaya manuamara aprati hata-śāsana hūṁ, mā vilamba, ru ru phaṭ svāhā.</note><anchor xml:id="nkr_note_foreign_0849017" n="0849017"/>唵<note place="inline">引</note>呬<note place="inline">引</note>呬<note place="inline">引</note>俱摩囉尾濕嚩<note place="inline">二合</note>嚕閉尼薩
-<lb n="0849b24" ed="T"/>哩嚩<note place="inline">二合</note>嚩<note place="inline">引</note>羅婆史哆鉢囉<note place="inline">二合</note>冒馱儞<note place="inline">引</note>阿
-<lb n="0849b25" ed="T"/>野<note place="inline">引</note>呬婆誐挽曩<note place="inline">引</note>野呬俱摩囉吉哩<note place="inline">二合</note><note n="0849018" resp="Taisho" place="foot text" type="orig">拏＝摩【明】</note><note n="0849018" resp="CBETA" type="mod">拏【大】，摩【明】</note><app n="0849018"><lem wit="【大】">拏</lem><rdg resp="Taisho" wit="【明】">摩</rdg></app>
-<lb n="0849b26" ed="T"/>怛婆<note place="inline">二合</note>羅馱哩尼曼拏羅末地野<note place="inline">二合</note>底瑟姹
-<lb n="0849b27" ed="T"/><note place="inline">二合</note>底瑟姹<note place="inline">二合</note>三摩野摩拏娑摩<note place="inline">二合</note>囉阿鉢
-<lb n="0849b28" ed="T"/>囉<note place="inline">二合</note>底賀哆舍娑曩吽摩<note place="inline">引</note>尾羅嚩嚕嚕頗
-<lb n="0849b29" ed="T"/>吒娑嚩<note place="inline">二合</note>賀</p>
-<pb n="0849c" xml:id="T20.1191.0849c" ed="T"/>
-<lb n="0849c01" ed="T"/><p xml:id="pT20p0849c0101">此真言是妙吉祥菩薩。召請一切諸佛一切
-<lb n="0849c02" ed="T"/>菩薩。一切辟支佛聲聞。天龍夜叉乾闥婆阿
-<lb n="0849c03" ed="T"/>修羅誐嚕拏緊那羅摩睺羅伽。毘舍左羅剎
-<lb n="0849c04" ed="T"/>娑一切部多等。夫欲召請。先以香水加持七
-<lb n="0849c05" ed="T"/>遍。灑淨一切廣闊四維上下。一切諸佛菩薩
-<lb n="0849c06" ed="T"/>妙吉祥。并及眷屬一切世間出世間真言一
-<lb n="0849c07" ed="T"/>切部多眾。一切眾生皆赴道場。</p>
-<lb n="0849c08" ed="T"/><p cb:type="dharani" xml:id="pT20p0849c0801"><note n="0849019" resp="Taisho" place="foot text" type="orig">Namaḥ sarva-buddhānām apratihata śasanānāṁ, Oṁ dhu dhura dhura dhūpavāsini dhūpārciṣi hūṁ tiṣṭha samaya manusmara svāhā.</note><anchor xml:id="nkr_note_foreign_0849019" n="0849019"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>阿鉢囉<note place="inline">二合</note>底賀哆
-<lb n="0849c09" ed="T"/>舍<note place="inline">引</note>娑曩喃<note place="inline">引</note>唵度度囉度囉度波嚩<note place="inline">引</note>悉儞
-<lb n="0849c10" ed="T"/>度波<note place="inline">引</note>哩唧<note place="inline">二合</note><note n="0849020" resp="Taisho" place="foot text" type="orig">史＝波【明】</note><note n="0849020" resp="CBETA" type="mod">史【大】，波【明】</note><app n="0849020"><lem wit="【大】">史</lem><rdg resp="Taisho" wit="【明】">波</rdg></app>吽底瑟姹<note place="inline">二合</note>三摩野摩
-<lb n="0849c11" ed="T"/>努娑摩<note place="inline">二合</note>囉娑嚩<note place="inline">二合引</note>賀</p>
-<lb n="0849c12" ed="T"/><p xml:id="pT20p0849c1201">此是獻香真言。若以<note n="0849021" resp="Taisho" place="foot text" type="orig">白栴檀 Candana.</note><cb:tt n="0849021" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">白<note n="0849022" resp="Taisho" place="foot text" type="orig">栴＝旃【宋】【元】</note><note n="0849022" resp="CBETA" type="mod">栴【大】，旃【宋】【元】</note><app n="0849022"><lem wit="【大】">栴</lem><rdg resp="Taisho" wit="【宋】 【元】">旃</rdg></app>檀</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Candana.</cb:t></cb:tt><note n="0849023" resp="Taisho" place="foot text" type="orig">龍腦 Karpūra.</note><cb:tt n="0849023" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">龍腦</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Karpūra.</cb:t></cb:tt><note n="0849024" resp="Taisho" place="foot text" type="orig">Kuṅkuma.</note><anchor xml:id="nkr_note_foreign_0849024" n="0849024"/>供俱
-<lb n="0849c13" ed="T"/>摩香和合等。燒此香時誦此真言。一切如來
-<lb n="0849c14" ed="T"/>及諸菩薩。一切聖眾皆受供養。</p>
-<lb n="0849c15" ed="T"/><p xml:id="pT20p0849c1501">前召請印名最上<note n="0849025" resp="Taisho" place="foot text" type="orig">蓮華鬘 Padma-mālā.</note><cb:tt n="0849025" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">蓮華鬘</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Padma-mālā.</cb:t></cb:tt>。能與一切眾生作
+<lb n="0849a29" ed="T"/><p xml:id="pT20p0849a2901">「復說<note n="0849005" resp="Taisho" type="orig" place="foot text">心真言 Hṛdaya.</note><cb:tt n="0849005" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">心真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Hṛdaya.</cb:t></cb:tt>，作一切善事令心寂靜。</p>
+<pb n="0849b" ed="T" xml:id="T20.1191.0849b"/>
+<lb n="0849b01" ed="T"/><p cb:type="dharani" xml:id="pT20p0849b0101">「<note n="0849006" resp="Taisho" type="orig" place="foot text">Oṁ dhanyada namaḥ.</note><anchor xml:id="nkr_note_foreign_0849006" n="0849006"/>唵嚩枳也<note place="inline">二合</note>　捺曩莫<note place="inline"><note n="0849007" resp="Taisho" type="orig" place="foot text">入＋（聲）【明】＊</note><note n="0849007" resp="CBETA" type="mod">入【大】＊，入聲【明】＊</note><app n="0849007"><lem wit="【大】">入</lem><rdg resp="Taisho" wit="【明】">入聲</rdg></app></note>」</p>
+<lb n="0849b02" ed="T"/><p xml:id="pT20p0849b0201">「說此印法名為<note n="0849008" resp="Taisho" type="orig" place="foot text">三髻 Tri-śikha.</note><cb:tt n="0849008" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">三髻</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Tri-śikha.</cb:t></cb:tt>，增長一切福德。</p>
+<lb n="0849b03" ed="T"/><p xml:id="pT20p0849b0301">「復說<note n="0849009" resp="Taisho" type="orig" place="foot text">外心真言 Upahṛdaya.</note><cb:tt n="0849009" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">外心真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Upahṛdaya.</cb:t></cb:tt>：</p>
+<lb n="0849b04" ed="T"/><p cb:type="dharani" xml:id="pT20p0849b0401">「<note n="0849010" resp="Taisho" type="orig" place="foot text">Bāhye hūṁ.</note><anchor xml:id="nkr_note_foreign_0849010" n="0849010"/>嚩枳也<note place="inline">二合</note>　吽」</p>
+<lb n="0849b05" ed="T"/><p xml:id="pT20p0849b0501">「說此印法亦<note n="0849011" resp="Taisho" type="orig" place="foot text">名＝為【明】</note><note n="0849011" resp="CBETA" type="mod">名【大】，為【明】</note><app n="0849011"><lem wit="【大】">名</lem><rdg resp="Taisho" wit="【明】">為</rdg></app>三髻，能降伏一切眾生。</p>
+<lb n="0849b06" ed="T"/><p xml:id="pT20p0849b0601">「復說<note n="0849012" resp="Taisho" type="orig" place="foot text">內心微妙真言 Parama hṛdaya.</note><cb:tt n="0849012" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">內心微妙真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Parama hṛdaya.</cb:t></cb:tt>：</p>
+<lb n="0849b07" ed="T"/><p cb:type="dharani" xml:id="pT20p0849b0701">「曩謨三滿哆沒馱喃<note n="0849013" resp="Taisho" type="orig" place="foot text">Muṁ.</note><anchor xml:id="nkr_note_foreign_0849013" n="0849013"/>曼」</p>
+<lb n="0849b08" ed="T"/><p xml:id="pT20p0849b0801">「說此印法名<note n="0849014" resp="Taisho" type="orig" place="foot text">孔雀座 Mayūāsana.</note><cb:tt n="0849014" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">孔雀座</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mayūāsana.</cb:t></cb:tt>，敬愛一切眾生。</p>
+<lb n="0849b09" ed="T"/><p xml:id="pT20p0849b0901">「復有一切佛心大無畏八字真言，名最上增
+<lb n="0849b10" ed="T"/>益大吉祥，斷三界生死，消除一切惡趣，能滅
+<lb n="0849b11" ed="T"/>一切災害，作一切事皆得安樂寂靜如現在
+<lb n="0849b12" ed="T"/>見佛。此妙吉祥菩薩宣布最上祕密真言相，
+<lb n="0849b13" ed="T"/>為一切眾生。若有憶念，一切所願皆得圓滿。
+<lb n="0849b14" ed="T"/>若有持誦之者，所有五逆重罪皆得清淨。」即
+<lb n="0849b15" ed="T"/>說真言曰：</p>
+<lb n="0849b16" ed="T"/><p cb:type="dharani" xml:id="pT20p0849b1601">「<note n="0849015" resp="Taisho" type="orig" place="foot text">Oṁ āḥ dhīra hūṁ khacaraḥ.</note><anchor xml:id="nkr_note_foreign_0849015" n="0849015"/>唵阿尾囉吽佉左洛」</p>
+<lb n="0849b17" ed="T"/><p xml:id="pT20p0849b1701">「聖者！有此八字大無畏最上祕密心真言，與
+<lb n="0849b18" ed="T"/>佛住世而無有異，能作一切吉祥之事。此大
+<lb n="0849b19" ed="T"/>功德我今為汝略而宣說，若欲廣陳，經無數
+<lb n="0849b20" ed="T"/>百千那由他俱胝劫校量功德說不能盡。若
+<lb n="0849b21" ed="T"/>說此印法，名為大精進能圓滿一切願。」</p>
+<lb n="0849b22" ed="T"/><p xml:id="pT20p0849b2201">「復說<note n="0849016" resp="Taisho" type="orig" place="foot text">召請眾聖真言 Ahvānana-mantra.</note><cb:tt n="0849016" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">召請眾聖真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Ahvānana-mantra.</cb:t></cb:tt>：</p>
+<lb n="0849b23" ed="T"/><p cb:type="dharani" xml:id="pT20p0849b2301">「<note n="0849017" resp="Taisho" type="orig" place="foot text">Oṁ he he kumāra rūpi svarūpiṇe sarva bālabhāṣita prabodhane āyāhi bhagavaṁ thāyahi, kumāra-krīḍotpala-dhāriṇe maṇḍala-madhye tiṣṭha tiṣṭha, samaya manuamara aprati hata-śāsana hūṁ, mā vilamba, ru ru phaṭ svāhā.</note><anchor xml:id="nkr_note_foreign_0849017" n="0849017"/>唵<note place="inline">引</note>　呬<note place="inline">引</note>　呬<note place="inline">引</note>　俱摩囉尾濕嚩<note place="inline">二合</note>　嚕閉尼薩
+<lb n="0849b24" ed="T"/>哩嚩<note place="inline">二合</note>　嚩<note place="inline">引</note>　羅婆史哆鉢囉<note place="inline">二合</note>　冒馱儞<note place="inline">引</note>　阿
+<lb n="0849b25" ed="T"/>野<note place="inline">引</note>　呬婆誐挽曩<note place="inline">引</note>　野呬俱摩囉吉哩<note place="inline">二合</note>　<note n="0849018" resp="Taisho" type="orig" place="foot text">拏＝摩【明】</note><note n="0849018" resp="CBETA" type="mod">拏【大】，摩【明】</note><app n="0849018"><lem wit="【大】">拏</lem><rdg resp="Taisho" wit="【明】">摩</rdg></app>
+<lb n="0849b26" ed="T"/>怛婆<note place="inline">二合</note>　羅馱哩尼曼拏羅末地野<note place="inline">二合</note>　底瑟姹
+<lb n="0849b27" ed="T"/><note place="inline">二合</note>　底瑟姹<note place="inline">二合</note>　三摩野摩拏娑摩<note place="inline">二合</note>　囉阿鉢
+<lb n="0849b28" ed="T"/>囉<note place="inline">二合</note>　底賀哆舍娑曩吽摩<note place="inline">引</note>　尾羅嚩嚕嚕頗
+<lb n="0849b29" ed="T"/>吒娑嚩<note place="inline">二合</note>　賀」</p>
+<pb n="0849c" ed="T" xml:id="T20.1191.0849c"/>
+<lb n="0849c01" ed="T"/><p xml:id="pT20p0849c0101">「此真言是妙吉祥菩薩召請一切諸佛、一切
+<lb n="0849c02" ed="T"/>菩薩、一切辟支佛、聲聞、天龍、夜叉、乾闥婆、阿
+<lb n="0849c03" ed="T"/>修羅、誐嚕拏、緊那羅、摩睺羅伽、毘舍左、羅剎
+<lb n="0849c04" ed="T"/>娑、一切部多等。夫欲召請，先以香水加持七
+<lb n="0849c05" ed="T"/>遍，灑淨一切廣闊四維上下，一切諸佛菩薩，
+<lb n="0849c06" ed="T"/>妙吉祥并及眷屬，一切世間、出世間真言，一
+<lb n="0849c07" ed="T"/>切部多眾，一切眾生皆赴道場。</p>
+<lb n="0849c08" ed="T"/><p cb:type="dharani" xml:id="pT20p0849c0801">「<note n="0849019" resp="Taisho" type="orig" place="foot text">Namaḥ sarva-buddhānām apratihata śasanānāṁ, Oṁ dhu dhura dhura dhūpavāsini dhūpārciṣi hūṁ tiṣṭha samaya manusmara svāhā.</note><anchor xml:id="nkr_note_foreign_0849019" n="0849019"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　阿鉢囉<note place="inline">二合</note>　底賀哆
+<lb n="0849c09" ed="T"/>舍<note place="inline">引</note>　娑曩喃<note place="inline">引</note>　唵度度囉度囉度波嚩<note place="inline">引</note>　悉儞
+<lb n="0849c10" ed="T"/>度波<note place="inline">引</note>　哩唧<note place="inline">二合</note>　<note n="0849020" resp="Taisho" type="orig" place="foot text">史＝波【明】</note><note n="0849020" resp="CBETA" type="mod">史【大】，波【明】</note><app n="0849020"><lem wit="【大】">史</lem><rdg resp="Taisho" wit="【明】">波</rdg></app>吽底瑟姹<note place="inline">二合</note>　三摩野摩
+<lb n="0849c11" ed="T"/>努娑摩<note place="inline">二合</note>　囉娑嚩<note place="inline">二合引</note>　賀」</p>
+<lb n="0849c12" ed="T"/><p xml:id="pT20p0849c1201">「此是獻香真言，若以<note n="0849021" resp="Taisho" type="orig" place="foot text">白栴檀 Candana.</note><cb:tt n="0849021" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">白<note n="0849022" resp="Taisho" type="orig" place="foot text">栴＝旃【宋】【元】</note><note n="0849022" resp="CBETA" type="mod">栴【大】，旃【宋】【元】</note><app n="0849022"><lem wit="【大】">栴</lem><rdg resp="Taisho" wit="【宋】 【元】">旃</rdg></app>檀、</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Candana.</cb:t></cb:tt><note n="0849023" resp="Taisho" type="orig" place="foot text">龍腦 Karpūra.</note><cb:tt n="0849023" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">龍腦、</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Karpūra.</cb:t></cb:tt><note n="0849024" resp="Taisho" type="orig" place="foot text">Kuṅkuma.</note><anchor xml:id="nkr_note_foreign_0849024" n="0849024"/>供俱
+<lb n="0849c13" ed="T"/>摩香和合等，燒此香時誦此真言，一切如來
+<lb n="0849c14" ed="T"/>及諸菩薩，一切聖眾皆受供養。</p>
+<lb n="0849c15" ed="T"/><p xml:id="pT20p0849c1501">「前召請印名最上<note n="0849025" resp="Taisho" type="orig" place="foot text">蓮華鬘 Padma-mālā.</note><cb:tt n="0849025" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">蓮華鬘</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Padma-mālā.</cb:t></cb:tt>，能與一切眾生作
 <lb n="0849c16" ed="T"/>大吉祥之事。</p>
-<lb n="0849c17" ed="T"/><p xml:id="pT20p0849c1701">若於諸佛如來一切菩薩及聖眾等。獻閼伽
-<lb n="0849c18" ed="T"/>水。所用龍腦白檀供俱摩等香。復用<note n="0849026" resp="Taisho" place="foot text" type="orig">Jātī.</note><anchor xml:id="nkr_note_foreign_0849026" n="0849026"/>惹帝華
-<lb n="0849c19" ed="T"/>適意華<note n="0849027" resp="Taisho" place="foot text" type="orig">Malika.</note><anchor xml:id="nkr_note_foreign_0849027" n="0849027"/>摩梨迦華。<note n="0849028" resp="Taisho" place="foot text" type="orig">Vārṣika.</note><anchor xml:id="nkr_note_foreign_0849028" n="0849028"/>末哩師迦華龍華。<note n="0849029" resp="Taisho" place="foot text" type="orig">Vakula.</note><anchor xml:id="nkr_note_foreign_0849029" n="0849029"/>末俱
-<lb n="0849c20" ed="T"/>羅華。<note n="0849030" resp="Taisho" place="foot text" type="orig">寶尼哆誐囉 Pinḍitagara(?)</note><cb:tt n="0849030" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">寶尼哆誐囉</cb:t><cb:t cert="unknown" resp="Taisho" xml:lang="sa" place="foot">Pinḍitagara</cb:t></cb:tt>華。如是等香華用淹水
-<lb n="0849c21" ed="T"/>內。此名獻閼伽水。獻水真言。</p>
-<pb n="0850a" xml:id="T20.1191.0850a" ed="T"/>
-<lb n="0850a01" ed="T"/><p cb:type="dharani" xml:id="pT20p0850a0101"><note n="0850001" resp="Taisho" place="foot text" type="orig">Namaḥ sarva-buddhānām apratihata śāsanānāṁ tadyathā he he mahākārunika, viśva rūpadhāriṇi, ardhyaṁ pratīccha pratīcchāya samaya manusmara tiśṭha tiśṭha maṇḍala-madhye praveśaya praviśa sarva-bhūtanukampaka, gṛhṇa gṛhṇa hūṁ ambaravicāriṇe svāhā.</note><anchor xml:id="nkr_note_foreign_0850001" n="0850001"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀哆
-<lb n="0850a02" ed="T"/>舍<note place="inline">引</note>娑曩<note place="inline">引</note>喃<note place="inline">引</note>怛儞也<note place="inline">二合</note>他<note place="inline">引</note>呬<note place="inline">引</note>呬<note place="inline">引</note>摩賀
-<lb n="0850a03" ed="T"/><note place="inline">引</note>迦<note place="inline">引</note>嚕尼迦尾濕嚩<note place="inline">二合</note>嚕波馱哩尼<note place="inline">引</note>阿哩
-<lb n="0850a04" ed="T"/>凝伽<note place="inline">二合</note>鉢囉<note place="inline">二合</note>底蹉鉢囉<note place="inline">二合</note>底蹉波野三
-<lb n="0850a05" ed="T"/>摩野摩<note n="0850002" resp="Taisho" place="foot text" type="orig">努＝拏【三】</note><note n="0850002" resp="CBETA" type="mod">努【大】，拏【宋】【元】【明】</note><app n="0850002"><lem wit="【大】">努</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">拏</rdg></app>娑摩<note place="inline">二合</note>囉底瑟姹<note place="inline">二合</note>底瑟姹<note place="inline">二合</note>
-<lb n="0850a06" ed="T"/>曼拏羅末地也<note place="inline">二合</note>鉢囉<note place="inline">二合</note>吠舍野薩哩嚩<note place="inline">二
-<lb n="0850a07" ed="T"/>合</note>部哆<note place="inline">引</note>努波迦仡哩<note place="inline">二合</note>恨拏<note place="inline">二合</note>吽阿蘇囉
-<lb n="0850a08" ed="T"/>尾左<note place="inline">引</note>哩尼娑嚩<note place="inline">二合</note>賀<note place="inline">引</note></p>
-<lb n="0850a09" ed="T"/><p xml:id="pT20p0850a0901">此印名圓滿印。能為一切眾生作圓滿事。</p>
-<lb n="0850a10" ed="T"/><p xml:id="pT20p0850a1001">復說<note n="0850003" resp="Taisho" place="foot text" type="orig">焚香真言 Gandha-mantra.</note><cb:tt n="0850003" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">焚香真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Gandha-mantra.</cb:t></cb:tt>。若彼獻香如前真言。</p>
-<lb n="0850a11" ed="T"/><p cb:type="dharani" xml:id="pT20p0850a1101"><note n="0850004" resp="Taisho" place="foot text" type="orig">Namaḥ sarva buddhānāṁ namaḥ samanta-gandhāvabhāsaśriyāya tathāgataya, tadyathā gandhe gandhe gandhāḍye gandhamanorame pratīccha pratīccheyaṁ gandhaṁ samatānusāriṇe svāhā.</note><anchor xml:id="nkr_note_foreign_0850004" n="0850004"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>曩謨三滿哆巘馱<note place="inline">引</note>
-<lb n="0850a12" ed="T"/>嚩娑<note place="inline">引</note>娑室哩<note place="inline">二合</note>夜<note place="inline">引</note>野怛他<note place="inline">引</note>誐哆<note place="inline">引</note>野怛
-<lb n="0850a13" ed="T"/>儞也<note place="inline">二合</note>巘第巘第<note place="inline">引</note>巘第<note place="inline">引</note>巘馱<note place="inline">引</note>巘馱摩拏
-<lb n="0850a14" ed="T"/>囉弭<note place="inline">引</note>鉢囉<note place="inline">二合</note>底蹉鉢囉<note place="inline">二合</note>底砌<note place="inline">引</note>難巘淡
-<lb n="0850a15" ed="T"/>三滿哆<note place="inline">引</note>努左<note place="inline">引</note>哩尼<note place="inline">引</note>娑嚩<note place="inline">二合</note>賀<note place="inline">引</note></p>
-<lb n="0850a16" ed="T"/><p xml:id="pT20p0850a1601">此印名<note n="0850005" resp="Taisho" place="foot text" type="orig">Pallavā.</note><anchor xml:id="nkr_note_foreign_0850005" n="0850005"/>波羅嚩。圓滿一切願。</p>
-<lb n="0850a17" ed="T"/><p xml:id="pT20p0850a1701">復說<note n="0850006" resp="Taisho" place="foot text" type="orig">獻華真言 Puśpa-mantra.</note><cb:tt n="0850006" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">獻華真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Puśpa-mantra.</cb:t></cb:tt>。</p>
-<lb n="0850a18" ed="T"/><p cb:type="dharani" xml:id="pT20p0850a1801"><note n="0850007" resp="Taisho" place="foot text" type="orig">Namaḥ sarva-buddhānām aprai hataśāsanānām, namaḥ saṅkusmita-rājsaya tathāgatasya, tadyathā kusume kusme kusmāḍye kusuma-puravāsini kusmāvati svāhā.</note><anchor xml:id="nkr_note_foreign_0850007" n="0850007"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀哆
-<lb n="0850a19" ed="T"/>舍<note place="inline">引</note>娑曩喃<note place="inline">引</note>曩謨三俱蘇弭哆囉<note place="inline">引</note>惹寫怛
-<lb n="0850a20" ed="T"/>他<note place="inline">引</note>誐哆寫怛儞也<note place="inline">二合</note>他<note place="inline">引</note>俱蘇弭<note place="inline">引</note>俱蘇摩
-<lb n="0850a21" ed="T"/><note place="inline">引</note>儞曳<note place="inline">二合</note>俱蘇摩布囉嚩<note place="inline">引</note>悉儞俱蘇摩<note place="inline">引</note>嚩
-<lb n="0850a22" ed="T"/>底娑嚩<note place="inline">二合</note>賀<note place="inline">引</note></p>
-<lb n="0850a23" ed="T"/><p xml:id="pT20p0850a2301">夫欲獻食。先頂禮一切諸佛賢聖。生不思議
-<lb n="0850a24" ed="T"/>未曾有想。今此真言正覺正說。前後所有供
-<lb n="0850a25" ed="T"/>獻。皆依此儀念此真言。</p>
-<lb n="0850a26" ed="T"/><p cb:type="dharani" xml:id="pT20p0850a2601"><note n="0850008" resp="Taisho" place="foot text" type="orig">Namaḥ sarva-buddha-bodhisattvānām apratihataśāsanānāṁ, tadyathā he bhagavaṁ, mahāsattva, buddhāvalokita. mā vilamba. idaṁ baliṁ gṛhṇāpaya gṛhṇa hūṁ hūṁ sarva-viśva ra ra ṭa ṭa phaṭ svāhā.</note><anchor xml:id="nkr_note_foreign_0850008" n="0850008"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀哆
-<lb n="0850a27" ed="T"/>舍娑曩<note place="inline">引</note>喃<note place="inline">引</note>怛儞也<note place="inline">二合</note>他<note place="inline">引</note>呬<note place="inline">引</note>呬<note place="inline">引</note>婆誐
-<lb n="0850a28" ed="T"/>嚩摩賀薩哩嚩<note place="inline">二合</note>沒馱<note place="inline">引</note>嚩路<note place="inline">引</note>吉哆摩<note place="inline">引</note>尾
-<lb n="0850a29" ed="T"/>楞嚩伊難嚩隷誐哩<note place="inline">二合</note>恨拏<note place="inline">二合引</note>播野誐哩<note place="inline">二
-<pb n="0850b" xml:id="T20.1191.0850b" ed="T"/>
-<lb n="0850b01" ed="T"/>合</note>恨拏<note place="inline">二合</note>誐哩<note place="inline">二合</note>吽薩哩嚩<note place="inline">二合</note>尾濕嚩<note place="inline">二合</note>
-<lb n="0850b02" ed="T"/>囉囉吒吒薩頗<note place="inline">二合</note>吒娑嚩<note place="inline">二合引</note>賀<note place="inline">引</note></p>
-<lb n="0850b03" ed="T"/><p xml:id="pT20p0850b0301">今此真言印名為<note n="0850009" resp="Taisho" place="foot text" type="orig">大力 Śakti.</note><cb:tt n="0850009" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大力</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śakti.</cb:t></cb:tt>。消除一切諸惡。</p>
-<lb n="0850b04" ed="T"/><p xml:id="pT20p0850b0401">燃燈真言</p>
-<lb n="0850b05" ed="T"/><p cb:type="dharani" xml:id="pT20p0850b0501"><note n="0850010" resp="Taisho" place="foot text" type="orig">Namaḥ sarva-buddhānām aprati hataśāsanānaṁ, sarva-tamondhakāra vidhvaṁsināṁnamaḥ samanta-jyoti-gandhāvabhāsa śriyāya tathāgatāya, tadyathā he he bhagavaṁ. jyoti-raśmi-śatasahasra-pratimaṇḍita-śarīra, vikurva vikurva mahā bodhisattva-samanta jvāiodyotitamūrti khurda khurda avalokaya sarva sattvānāṁ svāhā.</note><anchor xml:id="nkr_note_foreign_0850010" n="0850010"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀哆
-<lb n="0850b06" ed="T"/>舍<note place="inline">引</note>娑曩<note place="inline">引</note>喃<note place="inline">引</note>薩哩嚩<note place="inline">二合</note>怛夢<note place="inline">引</note>馱迦<note place="inline">引</note>囉
-<lb n="0850b07" ed="T"/>尾<note n="0850011" resp="Taisho" place="foot text" type="orig">特＝持【明】</note><note n="0850011" resp="CBETA" type="mod">特【大】，持【明】</note><app n="0850011"><lem wit="【大】">特</lem><rdg resp="Taisho" wit="【明】">持</rdg></app>鑁<note place="inline">二合</note>悉喃<note place="inline">引</note>曩謨三滿哆祖底巘馱<note place="inline">引</note>
-<lb n="0850b08" ed="T"/>嚩婆<note place="inline">引</note>娑室哩<note place="inline">二合</note>夜<note place="inline">引</note>野怛他<note place="inline">引</note>誐哆<note place="inline">引</note>野怛
-<lb n="0850b09" ed="T"/>儞也<note place="inline">二合</note>他<note place="inline">引</note>呬<note place="inline">引</note>呬<note place="inline">引</note>婆誐鑁祖底囉舍弭<note place="inline">二
-<lb n="0850b10" ed="T"/>合</note>設哆娑賀娑囉<note place="inline">二合</note>鉢囉<note place="inline">二合</note>底曼尼哆舍哩
-<lb n="0850b11" ed="T"/>囉尾俱哩嚩<note place="inline">二合</note>摩賀<note place="inline">引</note>冒地薩怛嚩<note place="inline">二合</note>三滿
-<lb n="0850b12" ed="T"/>哆入嚩<note place="inline">二合</note>囉<note place="inline">引</note>儞喻<note place="inline">二合</note>底哆沒哩底<note place="inline">二合</note>具
-<lb n="0850b13" ed="T"/>哩那<note place="inline">二合</note>具哩那<note place="inline">二合</note>阿嚩路<note place="inline">引</note>迦野阿嚩路迦
-<lb n="0850b14" ed="T"/>野曼拏羅薩哩嚩<note place="inline">二合</note>薩怛嚩<note place="inline">二合</note>難左</p>
-<lb n="0850b15" ed="T"/><p xml:id="pT20p0850b1501">此是<note n="0850012" resp="Taisho" place="foot text" type="orig">燃燈真言 Pradīpa-mantra.</note><cb:tt n="0850012" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">燃燈真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Pradīpa-mantra.</cb:t></cb:tt>印名曰<note n="0850013" resp="Taisho" place="foot text" type="orig">廣開 Vikāsinī.</note><cb:tt n="0850013" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">廣開</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vikāsinī.</cb:t></cb:tt>。觀照一切眾
+<lb n="0849c17" ed="T"/><p xml:id="pT20p0849c1701">「若於諸佛如來、一切菩薩及聖眾等，獻閼伽
+<lb n="0849c18" ed="T"/>水，所用龍腦、白檀、供俱摩等香，復用<note n="0849026" resp="Taisho" type="orig" place="foot text">Jātī.</note><anchor xml:id="nkr_note_foreign_0849026" n="0849026"/>惹帝華、
+<lb n="0849c19" ed="T"/>適意華、<note n="0849027" resp="Taisho" type="orig" place="foot text">Malika.</note><anchor xml:id="nkr_note_foreign_0849027" n="0849027"/>摩梨迦華、<note n="0849028" resp="Taisho" type="orig" place="foot text">Vārṣika.</note><anchor xml:id="nkr_note_foreign_0849028" n="0849028"/>末哩師迦華龍華、<note n="0849029" resp="Taisho" type="orig" place="foot text">Vakula.</note><anchor xml:id="nkr_note_foreign_0849029" n="0849029"/>末俱
+<lb n="0849c20" ed="T"/>羅華、<note n="0849030" resp="Taisho" type="orig" place="foot text">寶尼哆誐囉 Pinḍitagara(?)</note><cb:tt n="0849030" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">寶尼哆誐囉</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot" cert="unknown">Pinḍitagara</cb:t></cb:tt>華，如是等香華用淹水
+<lb n="0849c21" ed="T"/>內，此名獻閼伽水。獻水真言：</p>
+<pb n="0850a" ed="T" xml:id="T20.1191.0850a"/>
+<lb n="0850a01" ed="T"/><p cb:type="dharani" xml:id="pT20p0850a0101">「<note n="0850001" resp="Taisho" type="orig" place="foot text">Namaḥ sarva-buddhānām apratihata śāsanānāṁ tadyathā he he mahākārunika, viśva rūpadhāriṇi, ardhyaṁ pratīccha pratīcchāya samaya manusmara tiśṭha tiśṭha maṇḍala-madhye praveśaya praviśa sarva-bhūtanukampaka, gṛhṇa gṛhṇa hūṁ ambaravicāriṇe svāhā.</note><anchor xml:id="nkr_note_foreign_0850001" n="0850001"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀哆
+<lb n="0850a02" ed="T"/>舍<note place="inline">引</note>　娑曩<note place="inline">引</note>　喃<note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他<note place="inline">引</note>　呬<note place="inline">引</note>　呬<note place="inline">引</note>　摩賀
+<lb n="0850a03" ed="T"/><note place="inline">引</note>　迦<note place="inline">引</note>　嚕尼迦尾濕嚩<note place="inline">二合</note>　嚕波馱哩尼<note place="inline">引</note>　阿哩
+<lb n="0850a04" ed="T"/>凝伽<note place="inline">二合</note>　鉢囉<note place="inline">二合</note>　底蹉鉢囉<note place="inline">二合</note>　底蹉波野三
+<lb n="0850a05" ed="T"/>摩野摩<note n="0850002" resp="Taisho" type="orig" place="foot text">努＝拏【三】</note><note n="0850002" resp="CBETA" type="mod">努【大】，拏【宋】【元】【明】</note><app n="0850002"><lem wit="【大】">努</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">拏</rdg></app>娑摩<note place="inline">二合</note>　囉底瑟姹<note place="inline">二合</note>　底瑟姹<note place="inline">二合</note>
+<lb n="0850a06" ed="T"/>曼拏羅末地也<note place="inline">二合</note>　鉢囉<note place="inline">二合</note>　吠舍野薩哩嚩<note place="inline">二
+<lb n="0850a07" ed="T"/>合</note>　部哆<note place="inline">引</note>　努波迦仡哩<note place="inline">二合</note>　恨拏<note place="inline">二合</note>　吽阿蘇囉
+<lb n="0850a08" ed="T"/>尾左<note place="inline">引</note>　哩尼娑嚩<note place="inline">二合</note>　賀<note place="inline">引</note>」</p>
+<lb n="0850a09" ed="T"/><p xml:id="pT20p0850a0901">「此印名圓滿印，能為一切眾生作圓滿事。</p>
+<lb n="0850a10" ed="T"/><p xml:id="pT20p0850a1001">「復說<note n="0850003" resp="Taisho" type="orig" place="foot text">焚香真言 Gandha-mantra.</note><cb:tt n="0850003" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">焚香真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Gandha-mantra.</cb:t></cb:tt>。若彼獻香，如前真言：</p>
+<lb n="0850a11" ed="T"/><p cb:type="dharani" xml:id="pT20p0850a1101">「<note n="0850004" resp="Taisho" type="orig" place="foot text">Namaḥ sarva buddhānāṁ namaḥ samanta-gandhāvabhāsaśriyāya tathāgataya, tadyathā gandhe gandhe gandhāḍye gandhamanorame pratīccha pratīccheyaṁ gandhaṁ samatānusāriṇe svāhā.</note><anchor xml:id="nkr_note_foreign_0850004" n="0850004"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　曩謨三滿哆巘馱<note place="inline">引</note>
+<lb n="0850a12" ed="T"/>嚩娑<note place="inline">引</note>　娑室哩<note place="inline">二合</note>　夜<note place="inline">引</note>　野怛他<note place="inline">引</note>　誐哆<note place="inline">引</note>　野怛
+<lb n="0850a13" ed="T"/>儞也<note place="inline">二合</note>　巘第巘第<note place="inline">引</note>　巘第<note place="inline">引</note>　巘馱<note place="inline">引</note>　巘馱摩拏
+<lb n="0850a14" ed="T"/>囉弭<note place="inline">引</note>　鉢囉<note place="inline">二合</note>　底蹉鉢囉<note place="inline">二合</note>　底砌<note place="inline">引</note>　難巘淡
+<lb n="0850a15" ed="T"/>三滿哆<note place="inline">引</note>　努左<note place="inline">引</note>　哩尼<note place="inline">引</note>　娑嚩<note place="inline">二合</note>　賀<note place="inline">引</note>」</p>
+<lb n="0850a16" ed="T"/><p xml:id="pT20p0850a1601">「此印名<note n="0850005" resp="Taisho" type="orig" place="foot text">Pallavā.</note><anchor xml:id="nkr_note_foreign_0850005" n="0850005"/>波羅嚩，圓滿一切願。</p>
+<lb n="0850a17" ed="T"/><p xml:id="pT20p0850a1701">「復說<note n="0850006" resp="Taisho" type="orig" place="foot text">獻華真言 Puśpa-mantra.</note><cb:tt n="0850006" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">獻華真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Puśpa-mantra.</cb:t></cb:tt>：</p>
+<lb n="0850a18" ed="T"/><p cb:type="dharani" xml:id="pT20p0850a1801">「<note n="0850007" resp="Taisho" type="orig" place="foot text">Namaḥ sarva-buddhānām aprai hataśāsanānām, namaḥ saṅkusmita-rājsaya tathāgatasya, tadyathā kusume kusme kusmāḍye kusuma-puravāsini kusmāvati svāhā.</note><anchor xml:id="nkr_note_foreign_0850007" n="0850007"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀哆
+<lb n="0850a19" ed="T"/>舍<note place="inline">引</note>　娑曩喃<note place="inline">引</note>　曩謨三俱蘇弭哆囉<note place="inline">引</note>　惹寫怛
+<lb n="0850a20" ed="T"/>他<note place="inline">引</note>　誐哆寫怛儞也<note place="inline">二合</note>　他<note place="inline">引</note>　俱蘇弭<note place="inline">引</note>　俱蘇摩
+<lb n="0850a21" ed="T"/><note place="inline">引</note>　儞曳<note place="inline">二合</note>　俱蘇摩布囉嚩<note place="inline">引</note>　悉儞俱蘇摩<note place="inline">引</note>　嚩
+<lb n="0850a22" ed="T"/>底娑嚩<note place="inline">二合</note>　賀<note place="inline">引</note>」</p>
+<lb n="0850a23" ed="T"/><p xml:id="pT20p0850a2301">「夫欲獻食，先頂禮一切諸佛賢聖，生不思議
+<lb n="0850a24" ed="T"/>未曾有想，今此真言正覺正說，前後所有供
+<lb n="0850a25" ed="T"/>獻皆依此儀念此真言：</p>
+<lb n="0850a26" ed="T"/><p cb:type="dharani" xml:id="pT20p0850a2601">「<note n="0850008" resp="Taisho" type="orig" place="foot text">Namaḥ sarva-buddha-bodhisattvānām apratihataśāsanānāṁ, tadyathā he bhagavaṁ, mahāsattva, buddhāvalokita. mā vilamba. idaṁ baliṁ gṛhṇāpaya gṛhṇa hūṁ hūṁ sarva-viśva ra ra ṭa ṭa phaṭ svāhā.</note><anchor xml:id="nkr_note_foreign_0850008" n="0850008"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀哆
+<lb n="0850a27" ed="T"/>舍娑曩<note place="inline">引</note>　喃<note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他<note place="inline">引</note>　呬<note place="inline">引</note>　呬<note place="inline">引</note>　婆誐
+<lb n="0850a28" ed="T"/>嚩摩賀薩哩嚩<note place="inline">二合</note>　沒馱<note place="inline">引</note>　嚩路<note place="inline">引</note>　吉哆摩<note place="inline">引</note>　尾
+<lb n="0850a29" ed="T"/>楞嚩伊難嚩隷誐哩<note place="inline">二合</note>　恨拏<note place="inline">二合引</note>　播野誐哩<note place="inline">二
+<pb n="0850b" ed="T" xml:id="T20.1191.0850b"/>
+<lb n="0850b01" ed="T"/>合</note>　恨拏<note place="inline">二合</note>　誐哩<note place="inline">二合</note>　吽薩哩嚩<note place="inline">二合</note>　尾濕嚩<note place="inline">二合</note>
+<lb n="0850b02" ed="T"/>囉囉吒吒薩頗<note place="inline">二合</note>　吒娑嚩<note place="inline">二合引</note>　賀<note place="inline">引</note>」</p>
+<lb n="0850b03" ed="T"/><p xml:id="pT20p0850b0301">「今此真言印名為<note n="0850009" resp="Taisho" type="orig" place="foot text">大力 Śakti.</note><cb:tt n="0850009" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大力</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śakti.</cb:t></cb:tt>，消除一切諸惡。</p>
+<lb n="0850b04" ed="T"/><p xml:id="pT20p0850b0401">「燃燈真言：</p>
+<lb n="0850b05" ed="T"/><p cb:type="dharani" xml:id="pT20p0850b0501">「<note n="0850010" resp="Taisho" type="orig" place="foot text">Namaḥ sarva-buddhānām aprati hataśāsanānaṁ, sarva-tamondhakāra vidhvaṁsināṁnamaḥ samanta-jyoti-gandhāvabhāsa śriyāya tathāgatāya, tadyathā he he bhagavaṁ. jyoti-raśmi-śatasahasra-pratimaṇḍita-śarīra, vikurva vikurva mahā bodhisattva-samanta jvāiodyotitamūrti khurda khurda avalokaya sarva sattvānāṁ svāhā.</note><anchor xml:id="nkr_note_foreign_0850010" n="0850010"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀哆
+<lb n="0850b06" ed="T"/>舍<note place="inline">引</note>　娑曩<note place="inline">引</note>　喃<note place="inline">引</note>　薩哩嚩<note place="inline">二合</note>　怛夢<note place="inline">引</note>　馱迦<note place="inline">引</note>　囉
+<lb n="0850b07" ed="T"/>尾<note n="0850011" resp="Taisho" type="orig" place="foot text">特＝持【明】</note><note n="0850011" resp="CBETA" type="mod">特【大】，持【明】</note><app n="0850011"><lem wit="【大】">特</lem><rdg resp="Taisho" wit="【明】">持</rdg></app>鑁<note place="inline">二合</note>　悉喃<note place="inline">引</note>　曩謨三滿哆祖底巘馱<note place="inline">引</note>
+<lb n="0850b08" ed="T"/>嚩婆<note place="inline">引</note>　娑室哩<note place="inline">二合</note>　夜<note place="inline">引</note>　野怛他<note place="inline">引</note>　誐哆<note place="inline">引</note>　野怛
+<lb n="0850b09" ed="T"/>儞也<note place="inline">二合</note>　他<note place="inline">引</note>　呬<note place="inline">引</note>　呬<note place="inline">引</note>　婆誐鑁祖底囉舍弭<note place="inline">二
+<lb n="0850b10" ed="T"/>合</note>　設哆娑賀娑囉<note place="inline">二合</note>　鉢囉<note place="inline">二合</note>　底曼尼哆舍哩
+<lb n="0850b11" ed="T"/>囉尾俱哩嚩<note place="inline">二合</note>　摩賀<note place="inline">引</note>　冒地薩怛嚩<note place="inline">二合</note>　三滿
+<lb n="0850b12" ed="T"/>哆入嚩<note place="inline">二合</note>　囉<note place="inline">引</note>　儞喻<note place="inline">二合</note>　底哆沒哩底<note place="inline">二合</note>　具
+<lb n="0850b13" ed="T"/>哩那<note place="inline">二合</note>　具哩那<note place="inline">二合</note>　阿嚩路<note place="inline">引</note>　迦野阿嚩路迦
+<lb n="0850b14" ed="T"/>野曼拏羅薩哩嚩<note place="inline">二合</note>　薩怛嚩<note place="inline">二合</note>　難左」</p>
+<lb n="0850b15" ed="T"/><p xml:id="pT20p0850b1501">「此是<note n="0850012" resp="Taisho" type="orig" place="foot text">燃燈真言 Pradīpa-mantra.</note><cb:tt n="0850012" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">燃燈真言，</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Pradīpa-mantra.</cb:t></cb:tt>印名曰<note n="0850013" resp="Taisho" type="orig" place="foot text">廣開 Vikāsinī.</note><cb:tt n="0850013" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">廣開</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Vikāsinī.</cb:t></cb:tt>，觀照一切眾
 <lb n="0850b16" ed="T"/>生。</p>
-<lb n="0850b17" ed="T"/><p cb:type="dharani" xml:id="pT20p0850b1701"><note n="0850014" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānām apratihataśāsanānām, tadyathā jvala jvala jvālaya, hūṁ vibodhaka hari-kṛśṇa-piṁgala svāhā.</note><anchor xml:id="nkr_note_foreign_0850014" n="0850014"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀哆
-<lb n="0850b18" ed="T"/>舍<note place="inline">引</note>娑曩<note place="inline">引</note>喃<note place="inline">引</note>怛儞也<note place="inline">二合</note>他<note place="inline">引</note>入嚩<note place="inline">二合</note>入嚩
-<lb n="0850b19" ed="T"/><note place="inline">二合</note>羅入嚩<note place="inline">二合</note>羅入嚩<note place="inline">二合</note>羅野入嚩<note place="inline">二合</note>羅野
-<lb n="0850b20" ed="T"/>吽尾冒馱迦賀哩訖哩<note place="inline">二合</note>瑟拏<note place="inline">二合</note>賓誐羅</p>
-<lb n="0850b21" ed="T"/><p xml:id="pT20p0850b2101">此是<note n="0850015" resp="Taisho" place="foot text" type="orig">燃火真言 Agnikārikā mantrā.</note><cb:tt n="0850015" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">燃火真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Agnikārikā mantrā.</cb:t></cb:tt>印。名合掌光照一切眾生過
-<lb n="0850b22" ed="T"/>去諸佛菩薩所說。</p>
-<lb n="0850b23" ed="T"/><p xml:id="pT20p0850b2301">爾時妙吉祥童子。告祕密主金剛手菩薩言。
-<lb n="0850b24" ed="T"/>此微妙祕密真言。汝等明王族部。外現忿怒
-<lb n="0850b25" ed="T"/>內含慈忍。所有智者求一切真言皆得成就。
-<lb n="0850b26" ed="T"/>若彼金剛蓮華族等障礙之時。即說此明令
-<lb n="0850b27" ed="T"/>彼降伏。</p>
-<lb n="0850b28" ed="T"/><p cb:type="dharani" xml:id="pT20p0850b2801"><note n="0850016" resp="Taisho" place="foot text" type="orig">Namaḥ sarvalodhisattvānām apratihataśāsanānām, uṁ kara kuru kuru mama karyam, bhañja bhañja sarva-vighnāṁ, daha daha sarva-vajra-vināyakam, mūrdhaṭakajīvitāntakara mahā-vikṛta-rūpiṇe paca paca sarva-duṣṭāṁ mahāgaṇapatijīvitāntakara bandha bandha sarva-grahāṁ, ṣaṇmukha, ṣaḍbhuja, saṭcaraṇa rudramānaya, viṣṇumānaya, brahmādyāṁ devānānaya, mā vilamba mā vilamba, ḍmal ḍmal maṇḍala madhye praveśaya, samaya-manusmara, hūṁ hūṁ hūṁ hūṁ hūṁ hūṁ phaṭ phaṭ svāhā.</note><anchor xml:id="nkr_note_foreign_0850016" n="0850016"/>曩謨薩哩嚩<note place="inline">二合</note>沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀
-<lb n="0850b29" ed="T"/>哆舍<note place="inline">引</note>娑曩<note place="inline">引</note>喃<note place="inline">引</note>怛儞也<note place="inline">二合</note>他<note place="inline">引</note>唵迦囉迦
-<pb n="0850c" xml:id="T20.1191.0850c" ed="T"/>
-<lb n="0850c01" ed="T"/>囉俱嚕俱嚕摩摩<note place="inline">引</note>迦<note place="inline">引</note>哩焰<note place="inline">二合</note>伴惹伴惹薩
-<lb n="0850c02" ed="T"/>哩嚩<note place="inline">二合</note>尾近難<note place="inline">二合引</note>那賀那賀薩哩嚩<note place="inline">二合</note>嚩
-<lb n="0850c03" ed="T"/>日羅<note place="inline">二合</note>尾那野劍<note place="inline">引</note>布哩嚩<note place="inline">二合</note>吒迦<g ref="#CB00768"/>尾旦
-<lb n="0850c04" ed="T"/>哆迦囉摩賀<note place="inline">引</note>尾訖哩<note place="inline">二合</note>哆嚕波馱哩尼鉢
-<lb n="0850c05" ed="T"/>左鉢左薩哩嚩<note place="inline">二合</note>努瑟吒<note place="inline">二合</note>摩賀<note place="inline">引</note>誐拏鉢
-<lb n="0850c06" ed="T"/>底<g ref="#CB00768"/>尾旦哆迦囉滿馱滿馱薩哩嚩<note place="inline">二合</note>誐囉
-<lb n="0850c07" ed="T"/><note place="inline">二合</note>賀沙目佉沙部惹沙左囉拏嚕捺囉<note place="inline">二合</note>摩
-<lb n="0850c08" ed="T"/><note place="inline">引</note>曩野尾瑟拏<note place="inline">二合</note>摩<note place="inline">引</note>曩野沒囉<note place="inline">二合</note>憾摩<note place="inline">二合</note>
-<lb n="0850c09" ed="T"/>儞也<note place="inline">二合</note>禰嚩<note place="inline">引</note>曩曩野摩<note place="inline">引</note>尾楞嚩尾楞嚩羅
-<lb n="0850c10" ed="T"/>護羅護曼拏羅末他也<note place="inline">二合</note>鉢囉<note place="inline">二合</note>吠舍野三摩
-<pb n="0851a" xml:id="T20.1191.0851a" ed="T"/>
-<lb n="0851a01" ed="T"/>野摩努娑摩<note place="inline">二合</note>囉吽吽吽吽吽吽頗吒頗吒</p>
-<lb n="0851a02" ed="T"/><p xml:id="pT20p0851a0201">說此真言已告祕密主言。此是大精進最上
-<lb n="0851a03" ed="T"/>祕密。名<note n="0851001" resp="Taisho" place="foot text" type="orig">六面大忿怒明王 Saṇmukha-mahārāja.</note><cb:tt n="0851001" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">六面大忿怒明王</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Saṇmukha-mahārāja.</cb:t></cb:tt>。能破障礙。若持
-<lb n="0851a04" ed="T"/>誦此明得自在。十地菩薩猶可降伏。何況諸
-<lb n="0851a05" ed="T"/>惡障礙。若有持誦供養大作擁護。說此印法
-<lb n="0851a06" ed="T"/>名為<note n="0851002" resp="Taisho" place="foot text" type="orig">大叉 Mahā-śūla.</note><cb:tt n="0851002" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大叉</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahā-śūla.</cb:t></cb:tt>。破滅一切障礙。</p>
-<lb n="0851a07" ed="T"/><p xml:id="pT20p0851a0701">復說忿怒明王心真言。</p>
-<lb n="0851a08" ed="T"/><p cb:type="dharani" xml:id="pT20p0851a0801"><note n="0851003" resp="Taisho" place="foot text" type="orig">Oṁ hvīḥ（梵字不明）vikṛtānana hum, sarva-śatruṁ nāśaya stambhaya phaṭ phaṭ svāhā.</note>唵<note place="inline">引</note>仡哩<note place="inline">二合</note>瑟致哩<note place="inline">二合</note>哆<note place="inline">引</note>曩曩吽薩哩嚩
-<lb n="0851a09" ed="T"/><note place="inline">二合</note>設怛嚕<note place="inline">二合</note>曩舍野薩旦<note place="inline">二合</note>婆野頗吒頗
-<lb n="0851a10" ed="T"/>吒</p>
-<lb n="0851a11" ed="T"/><p xml:id="pT20p0851a1101">若有一切冤家逼害惱亂之時。依法念此真
-<lb n="0851a12" ed="T"/>言。令彼冤家受隔四日瘧病得大苦惱。若人
-<lb n="0851a13" ed="T"/>恒常誦持。無慈悲心所求之事不得成就。若
-<lb n="0851a14" ed="T"/>人不信三寶。誦此呪法令彼生信定得成就。
-<lb n="0851a15" ed="T"/>印名大叉。與呪同用其驗剋成。</p>
-<lb n="0851a16" ed="T"/><p xml:id="pT20p0851a1601">復說外心真言。</p>
-<lb n="0851a17" ed="T"/><p cb:type="dharani" xml:id="pT20p0851a1701"><note n="0851004" resp="Taisho" place="foot text" type="orig">Oṁ hrīḥ kālarūpa huṁ khaṁ svāhā.</note><anchor xml:id="nkr_note_foreign_0851004" n="0851004"/>唵仡哩<note place="inline">二合</note>迦羅嚕波吽欠</p>
-<lb n="0851a18" ed="T"/><p xml:id="pT20p0851a1801">印名大叉若此明同用。能調伏一切惡者。</p>
-<lb n="0851a19" ed="T"/><p xml:id="pT20p0851a1901">復說內心真言名為一字。一切佛說。印名大
-<lb n="0851a20" ed="T"/>叉與明同用。能消除一切惡事。降伏一切部
-<lb n="0851a21" ed="T"/>多。於曼拏羅中呪法成就之時。定見忿怒明
+<lb n="0850b17" ed="T"/><p cb:type="dharani" xml:id="pT20p0850b1701">「<note n="0850014" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānām apratihataśāsanānām, tadyathā jvala jvala jvālaya, hūṁ vibodhaka hari-kṛśṇa-piṁgala svāhā.</note><anchor xml:id="nkr_note_foreign_0850014" n="0850014"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀哆
+<lb n="0850b18" ed="T"/>舍<note place="inline">引</note>　娑曩<note place="inline">引</note>　喃<note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他<note place="inline">引</note>　入嚩<note place="inline">二合</note>　入嚩
+<lb n="0850b19" ed="T"/><note place="inline">二合</note>　羅入嚩<note place="inline">二合</note>　羅入嚩<note place="inline">二合</note>　羅野入嚩<note place="inline">二合</note>　羅野
+<lb n="0850b20" ed="T"/>吽尾冒馱迦賀哩訖哩<note place="inline">二合</note>　瑟拏<note place="inline">二合</note>　賓誐羅」</p>
+<lb n="0850b21" ed="T"/><p xml:id="pT20p0850b2101">「此是<note n="0850015" resp="Taisho" type="orig" place="foot text">燃火真言 Agnikārikā mantrā.</note><cb:tt n="0850015" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">燃火真言，</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Agnikārikā mantrā.</cb:t></cb:tt>印名合掌，光照一切眾生，過
+<lb n="0850b22" ed="T"/>去諸佛菩薩所說。」</p>
+<lb n="0850b23" ed="T"/><p xml:id="pT20p0850b2301">爾時，妙吉祥童子告祕密主金剛手菩薩言：
+<lb n="0850b24" ed="T"/>「此微妙祕密真言，汝等明王族部，外現忿怒
+<lb n="0850b25" ed="T"/>內含慈忍，所有智者求一切真言皆得成就。
+<lb n="0850b26" ed="T"/>若彼金剛、蓮華族等障礙之時，即說此明令
+<lb n="0850b27" ed="T"/>彼降伏：</p>
+<lb n="0850b28" ed="T"/><p cb:type="dharani" xml:id="pT20p0850b2801">「<note n="0850016" resp="Taisho" type="orig" place="foot text">Namaḥ sarvalodhisattvānām apratihataśāsanānām, uṁ kara kuru kuru mama karyam, bhañja bhañja sarva-vighnāṁ, daha daha sarva-vajra-vināyakam, mūrdhaṭakajīvitāntakara mahā-vikṛta-rūpiṇe paca paca sarva-duṣṭāṁ mahāgaṇapatijīvitāntakara bandha bandha sarva-grahāṁ, ṣaṇmukha, ṣaḍbhuja, saṭcaraṇa rudramānaya, viṣṇumānaya, brahmādyāṁ devānānaya, mā vilamba mā vilamba, ḍmal ḍmal maṇḍala madhye praveśaya, samaya-manusmara, hūṁ hūṁ hūṁ hūṁ hūṁ hūṁ phaṭ phaṭ svāhā.</note><anchor xml:id="nkr_note_foreign_0850016" n="0850016"/>曩謨薩哩嚩<note place="inline">二合</note>　沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀
+<lb n="0850b29" ed="T"/>哆舍<note place="inline">引</note>　娑曩<note place="inline">引</note>　喃<note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他<note place="inline">引</note>　唵迦囉迦
+<pb n="0850c" ed="T" xml:id="T20.1191.0850c"/>
+<lb n="0850c01" ed="T"/>囉俱嚕俱嚕摩摩<note place="inline">引</note>　迦<note place="inline">引</note>　哩焰<note place="inline">二合</note>　伴惹伴惹薩
+<lb n="0850c02" ed="T"/>哩嚩<note place="inline">二合</note>　尾近難<note place="inline">二合引</note>　那賀那賀薩哩嚩<note place="inline">二合</note>　嚩
+<lb n="0850c03" ed="T"/>日羅<note place="inline">二合</note>　尾那野劍<note place="inline">引</note>　布哩嚩<note place="inline">二合</note>　吒迦<g ref="#CB00768"/>尾旦
+<lb n="0850c04" ed="T"/>哆迦囉摩賀<note place="inline">引</note>　尾訖哩<note place="inline">二合</note>　哆嚕波馱哩尼鉢
+<lb n="0850c05" ed="T"/>左鉢左薩哩嚩<note place="inline">二合</note>　努瑟吒<note place="inline">二合</note>　摩賀<note place="inline">引</note>　誐拏鉢
+<lb n="0850c06" ed="T"/>底<g ref="#CB00768"/>尾旦哆迦囉滿馱滿馱薩哩嚩<note place="inline">二合</note>　誐囉
+<lb n="0850c07" ed="T"/><note place="inline">二合</note>　賀沙目佉沙部惹沙左囉拏嚕捺囉<note place="inline">二合</note>　摩
+<lb n="0850c08" ed="T"/><note place="inline">引</note>　曩野尾瑟拏<note place="inline">二合</note>　摩<note place="inline">引</note>　曩野沒囉<note place="inline">二合</note>　憾摩<note place="inline">二合</note>
+<lb n="0850c09" ed="T"/>儞也<note place="inline">二合</note>　禰嚩<note place="inline">引</note>　曩曩野摩<note place="inline">引</note>　尾楞嚩尾楞嚩羅
+<lb n="0850c10" ed="T"/>護羅護曼拏羅末他也<note place="inline">二合</note>　鉢囉<note place="inline">二合</note>　吠舍野三摩
+<pb n="0851a" ed="T" xml:id="T20.1191.0851a"/>
+<lb n="0851a01" ed="T"/>野摩努娑摩<note place="inline">二合</note>　囉吽吽吽吽吽吽頗吒頗吒」</p>
+<lb n="0851a02" ed="T"/><p xml:id="pT20p0851a0201">說此真言已，告祕密主言：「此是大精進最上
+<lb n="0851a03" ed="T"/>祕密，名<note n="0851001" resp="Taisho" type="orig" place="foot text">六面大忿怒明王 Saṇmukha-mahārāja.</note><cb:tt n="0851001" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">六面大忿怒明王</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Saṇmukha-mahārāja.</cb:t></cb:tt>，能破障礙。若持
+<lb n="0851a04" ed="T"/>誦此明得自在，十地菩薩猶可降伏，何況諸
+<lb n="0851a05" ed="T"/>惡障礙！若有持誦供養大作擁護，說此印法
+<lb n="0851a06" ed="T"/>名為<note n="0851002" resp="Taisho" type="orig" place="foot text">大叉 Mahā-śūla.</note><cb:tt n="0851002" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大叉</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahā-śūla.</cb:t></cb:tt>，破滅一切障礙。</p>
+<lb n="0851a07" ed="T"/><p xml:id="pT20p0851a0701">「復說忿怒明王心真言：</p>
+<lb n="0851a08" ed="T"/><p cb:type="dharani" xml:id="pT20p0851a0801">「<note n="0851003" resp="Taisho" type="orig" place="foot text">Oṁ hvīḥ（梵字不明）vikṛtānana hum, sarva-śatruṁ nāśaya stambhaya phaṭ phaṭ svāhā.</note>唵<note place="inline">引</note>　仡哩<note place="inline">二合</note>　瑟致哩<note place="inline">二合</note>　哆<note place="inline">引</note>　曩曩吽薩哩嚩
+<lb n="0851a09" ed="T"/><note place="inline">二合</note>　設怛嚕<note place="inline">二合</note>　曩舍野薩旦<note place="inline">二合</note>　婆野頗吒頗
+<lb n="0851a10" ed="T"/>吒」</p>
+<lb n="0851a11" ed="T"/><p xml:id="pT20p0851a1101">「若有一切冤家逼害惱亂之時，依法念此真
+<lb n="0851a12" ed="T"/>言，令彼冤家受隔四日瘧病得大苦惱。若人
+<lb n="0851a13" ed="T"/>恒常誦持，無慈悲心所求之事不得成就。若
+<lb n="0851a14" ed="T"/>人不信三寶，誦此呪法令彼生信定得成就，
+<lb n="0851a15" ed="T"/>印名大叉，與呪同用其驗剋成。</p>
+<lb n="0851a16" ed="T"/><p xml:id="pT20p0851a1601">「復說外心真言：</p>
+<lb n="0851a17" ed="T"/><p cb:type="dharani" xml:id="pT20p0851a1701">「<note n="0851004" resp="Taisho" type="orig" place="foot text">Oṁ hrīḥ kālarūpa huṁ khaṁ svāhā.</note><anchor xml:id="nkr_note_foreign_0851004" n="0851004"/>唵仡哩<note place="inline">二合</note>　迦羅嚕波吽欠」</p>
+<lb n="0851a18" ed="T"/><p xml:id="pT20p0851a1801">「印名大叉，若此明同用，能調伏一切惡者。</p>
+<lb n="0851a19" ed="T"/><p xml:id="pT20p0851a1901">「復說內心真言名為一字，一切佛說，印名大
+<lb n="0851a20" ed="T"/>叉，與明同用，能消除一切惡事，降伏一切部
+<lb n="0851a21" ed="T"/>多，於曼拏羅中呪法成就之時，定見忿怒明
 <lb n="0851a22" ed="T"/>王靈驗。</p>
-<lb n="0851a23" ed="T"/><p xml:id="pT20p0851a2301">復說<note n="0851005" resp="Taisho" place="foot text" type="orig">發遣賢聖等真言 Visarjana-mantra.</note><cb:tt n="0851005" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">發遣賢聖等真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Visarjana-mantra.</cb:t></cb:tt>。</p>
-<lb n="0851a24" ed="T"/><p cb:type="dharani" xml:id="pT20p0851a2401"><note n="0851006" resp="Taisho" place="foot text" type="orig">Namaḥ sarvabuddhānām apratihataśāsanānām, tadyathā jayaṁ jaya sujaya mahā-karuṇika viśva-rūpiṇe gaccha svabhavanaṁ sarvbuddhāṁśca visarjaya, saparivārāṁ svabhavanaṅ cānuprabeśaya, samaya-manusmara, sarvārthāśca me siddhyantu mantrapadāḥ manorathaṁ ca me paripūraya svāhā.</note><anchor xml:id="nkr_note_foreign_0851006" n="0851006"/>曩謨薩哩嚩沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀哆
-<lb n="0851a25" ed="T"/>舍娑曩<note place="inline">引</note>喃<note place="inline">引</note>怛儞也<note place="inline">二合</note>他<note place="inline">引</note>惹焰惹野蘇惹
-<lb n="0851a26" ed="T"/>野摩賀迦<note place="inline">引</note>嚕尼迦尾室左<note place="inline">二合</note>嚕閉尼<note place="inline">引</note>誐蹉
-<lb n="0851a27" ed="T"/>誐蹉娑嚩<note place="inline">二合</note>婆嚩喃<note place="inline">引</note>薩哩嚩<note place="inline">二合</note>沒淡<note place="inline">引</note>室
-<lb n="0851a28" ed="T"/>左<note place="inline">二合</note>尾娑哩惹<note place="inline">二合</note>野薩波哩嚩<note place="inline">引</note>囉<note place="inline">引</note>娑嚩
-<lb n="0851a29" ed="T"/><note place="inline">二合</note>婆嚩喃左怛囉<note place="inline">二合</note>鉢囉<note place="inline">二合</note>吠<note place="inline">引</note>舍野滿
-<pb n="0851b" xml:id="T20.1191.0851b" ed="T"/>
-<lb n="0851b01" ed="T"/>怛囉<note place="inline">二合</note>娑摩<note place="inline">二合</note>囉薩哩嚩<note place="inline">二合</note>室左<note place="inline">二合</note>弭悉
-<lb n="0851b02" ed="T"/>殿覩滿怛囉<note place="inline">二合</note>播那<note place="inline">引</note>摩努囉淡左弭波哩
-<lb n="0851b03" ed="T"/>布囉野</p>
-<lb n="0851b04" ed="T"/><p xml:id="pT20p0851b0401">此發遣真言印。名寶座亦名獻座。若欲發遣
-<lb n="0851b05" ed="T"/>賢聖等。專心志意念一七遍依法加持。所有
-<lb n="0851b06" ed="T"/>一切世間出世間曼拏羅真言行。皆得三昧
-<lb n="0851b07" ed="T"/>成就。諸聖眾等歡喜而退。</p>
-<lb n="0851b08" ed="T"/><p xml:id="pT20p0851b0801">爾時妙吉祥童子。復觀淨光天內一切大眾。
-<lb n="0851b09" ed="T"/>說自己明王真言。</p>
-<lb n="0851b10" ed="T"/><p cb:type="dharani" xml:id="pT20p0851b1001"><note n="0851007" resp="Taisho" place="foot text" type="orig">Namaḥ sarvabuddhānām apratihataśāsanānām, Oṁ riṭi svāhā.</note><anchor xml:id="nkr_note_foreign_0851007" n="0851007"/>曩謨薩哩嚩<note place="inline">二合</note>沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀
-<lb n="0851b11" ed="T"/>哆誐底喃<note place="inline">引</note>唵儞哩致</p>
-<lb n="0851b12" ed="T"/><p xml:id="pT20p0851b1201">妙吉祥說此真言已。化為明王名<note n="0851008" resp="Taisho" place="foot text" type="orig">Keśinī.</note><anchor xml:id="nkr_note_foreign_0851008" n="0851008"/>枳世儞。能
-<lb n="0851b13" ed="T"/>作一切之事。印名大<note n="0851009" resp="Taisho" place="foot text" type="orig">五髻 Pañcaśikhā.</note><cb:tt n="0851009" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">五髻</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Pañcaśikhā.</cb:t></cb:tt>。若用此印法。一
+<lb n="0851a23" ed="T"/><p xml:id="pT20p0851a2301">「復說<note n="0851005" resp="Taisho" type="orig" place="foot text">發遣賢聖等真言 Visarjana-mantra.</note><cb:tt n="0851005" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">發遣賢聖等真言</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Visarjana-mantra.</cb:t></cb:tt>：</p>
+<lb n="0851a24" ed="T"/><p cb:type="dharani" xml:id="pT20p0851a2401">「<note n="0851006" resp="Taisho" type="orig" place="foot text">Namaḥ sarvabuddhānām apratihataśāsanānām, tadyathā jayaṁ jaya sujaya mahā-karuṇika viśva-rūpiṇe gaccha svabhavanaṁ sarvbuddhāṁśca visarjaya, saparivārāṁ svabhavanaṅ cānuprabeśaya, samaya-manusmara, sarvārthāśca me siddhyantu mantrapadāḥ manorathaṁ ca me paripūraya svāhā.</note><anchor xml:id="nkr_note_foreign_0851006" n="0851006"/>曩謨薩哩嚩沒馱<note place="inline">引</note>喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀哆
+<lb n="0851a25" ed="T"/>舍娑曩<note place="inline">引</note>　喃<note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他<note place="inline">引</note>　惹焰惹野蘇惹
+<lb n="0851a26" ed="T"/>野摩賀迦<note place="inline">引</note>　嚕尼迦尾室左<note place="inline">二合</note>　嚕閉尼<note place="inline">引</note>　誐蹉
+<lb n="0851a27" ed="T"/>誐蹉娑嚩<note place="inline">二合</note>　婆嚩喃<note place="inline">引</note>　薩哩嚩<note place="inline">二合</note>　沒淡<note place="inline">引</note>　室
+<lb n="0851a28" ed="T"/>左<note place="inline">二合</note>　尾娑哩惹<note place="inline">二合</note>　野薩波哩嚩<note place="inline">引</note>　囉<note place="inline">引</note>　娑嚩
+<lb n="0851a29" ed="T"/><note place="inline">二合</note>　婆嚩喃左怛囉<note place="inline">二合</note>　鉢囉<note place="inline">二合</note>　吠<note place="inline">引</note>　舍野滿
+<pb n="0851b" ed="T" xml:id="T20.1191.0851b"/>
+<lb n="0851b01" ed="T"/>怛囉<note place="inline">二合</note>　娑摩<note place="inline">二合</note>　囉薩哩嚩<note place="inline">二合</note>　室左<note place="inline">二合</note>　弭悉
+<lb n="0851b02" ed="T"/>殿覩滿怛囉<note place="inline">二合</note>　播那<note place="inline">引</note>　摩努囉淡左弭波哩
+<lb n="0851b03" ed="T"/>布囉野」</p>
+<lb n="0851b04" ed="T"/><p xml:id="pT20p0851b0401">「此發遣真言印，名寶座亦名獻座。若欲發遣
+<lb n="0851b05" ed="T"/>賢聖等，專心志意念一七遍依法加持，所有
+<lb n="0851b06" ed="T"/>一切世間出世間曼拏羅真言行皆得三昧
+<lb n="0851b07" ed="T"/>成就，諸聖眾等歡喜而退。」</p>
+<lb n="0851b08" ed="T"/><p xml:id="pT20p0851b0801">爾時，妙吉祥童子復觀淨光天內一切大眾，
+<lb n="0851b09" ed="T"/>說自己明王真言：</p>
+<lb n="0851b10" ed="T"/><p cb:type="dharani" xml:id="pT20p0851b1001">「<note n="0851007" resp="Taisho" type="orig" place="foot text">Namaḥ sarvabuddhānām apratihataśāsanānām, Oṁ riṭi svāhā.</note><anchor xml:id="nkr_note_foreign_0851007" n="0851007"/>曩謨薩哩嚩<note place="inline">二合</note>沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀
+<lb n="0851b11" ed="T"/>哆誐底喃<note place="inline">引</note>　唵儞哩致」</p>
+<lb n="0851b12" ed="T"/><p xml:id="pT20p0851b1201">妙吉祥說此真言已，化為明王名<note n="0851008" resp="Taisho" type="orig" place="foot text">Keśinī.</note><anchor xml:id="nkr_note_foreign_0851008" n="0851008"/>枳世儞，能
+<lb n="0851b13" ed="T"/>作一切之事，印名大<note n="0851009" resp="Taisho" type="orig" place="foot text">五髻 Pañcaśikhā.</note><cb:tt n="0851009" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">五髻</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Pañcaśikhā.</cb:t></cb:tt>。若用此印法，一
 <lb n="0851b14" ed="T"/>切難作之事皆得成就。</p>
-<lb n="0851b15" ed="T"/><p cb:type="dharani" xml:id="pT20p0851b1501"><note n="0851010" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānām apratihata śasanānām, Oṁ niṭi.</note><anchor xml:id="nkr_note_foreign_0851010" n="0851010"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀哆
-<lb n="0851b16" ed="T"/>舍娑曩<note place="inline">引</note><note n="0851011" resp="Taisho" place="foot text" type="orig">〔喃引〕－【明】</note><note n="0851011" resp="CBETA" type="mod">喃引【大】，〔－〕【明】</note><app n="0851011"><lem wit="【大】">喃<note place="inline">引</note></lem><rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg></app>唵<note place="inline">引</note>儞致</p>
-<lb n="0851b17" ed="T"/><p xml:id="pT20p0851b1701">此真言名<note n="0851012" resp="Taisho" place="foot text" type="orig">Upakeśinī.</note><anchor xml:id="nkr_note_foreign_0851012" n="0851012"/>塢波枳世儞。印名廣開。一切之事
-<lb n="0851b18" ed="T"/>所求皆成。若有一切凶惡宿耀自然退散。</p>
-<lb n="0851b19" ed="T"/><p cb:type="dharani" xml:id="pT20p0851b1901"><note n="0851013" resp="Taisho" place="foot text" type="orig">Namaḥ samantabuddhānām apratihatagatīnām, Oṁ niḥ.</note><anchor xml:id="nkr_note_foreign_0851013" n="0851013"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀哆
-<lb n="0851b20" ed="T"/>誐底喃<note place="inline">引</note>唵<note place="inline">引</note>儞<note place="inline"><app type="star" corresp="#0849007"><lem wit="【大】">入</lem><rdg resp="Taisho" wit="【明】">入聲</rdg></app></note></p>
-<lb n="0851b21" ed="T"/><p xml:id="pT20p0851b2101">此真言名<note n="0851014" resp="Taisho" place="foot text" type="orig">曩隷儞 Balinī.（梵）</note>曩隷儞。印名<note n="0851015" resp="Taisho" place="foot text" type="orig">寶座 Bhadrapīṭha.</note><cb:tt n="0851015" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">寶座</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Bhadrapīṭha.</cb:t></cb:tt>。能成一切之
-<lb n="0851b22" ed="T"/>事。所有夜叉之眾亦能遣來。</p>
-<lb n="0851b23" ed="T"/><p cb:type="dharani" xml:id="pT20p0851b2301"><note n="0851016" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhāṇāṁ acintyādbhuta-rūpiṇām.</note><anchor xml:id="nkr_note_foreign_0851016" n="0851016"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩進部哆嚕閉<g ref="#CB00718"/><note place="inline">引</note>
-<lb n="0851b24" ed="T"/>唵<note place="inline">引</note>稍罩嚕<note place="inline">二合</note></p>
-<lb n="0851b25" ed="T"/><p xml:id="pT20p0851b2501">此真言名<note n="0851017" resp="Taisho" place="foot text" type="orig">波隷儞 Kāpatalinī.</note><cb:tt n="0851017" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">波隷。儞</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kāpatalinī.</cb:t></cb:tt>印名大力。能調伏一切拏
-<lb n="0851b26" ed="T"/>枳儞鬼。妙吉祥所說一切諸佛同說。</p>
-<lb n="0851b27" ed="T"/><p cb:type="dharani" xml:id="pT20p0851b2701"><note n="0851018" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānām apratihata gatipracāriṇam, tadyathā Oṁ varade svāhā.</note><anchor xml:id="nkr_note_foreign_0851018" n="0851018"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀哆
-<lb n="0851b28" ed="T"/>誐底鉢囉<note place="inline">二合</note>左<note place="inline">引</note>哩<g ref="#CB00718"/><note place="inline">引</note>怛儞也<note place="inline">二合</note>他<note place="inline">引</note>唵<note place="inline">引</note>
-<lb n="0851b29" ed="T"/>嚩囉禰<note place="inline">引</note></p>
-<pb n="0851c" xml:id="T20.1191.0851c" ed="T"/>
-<lb n="0851c01" ed="T"/><p xml:id="pT20p0851c0101">此明名<note n="0851019" resp="Taisho" place="foot text" type="orig">增長化相 Śreyasātmaka.</note><cb:tt n="0851019" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">增長化相</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śreyasātmaka.</cb:t></cb:tt>。印名<note n="0851020" resp="Taisho" place="foot text" type="orig">三髻 Triśikhā.</note><cb:tt n="0851020" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">三髻</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Triśikhā.</cb:t></cb:tt>。持誦同用速
+<lb n="0851b15" ed="T"/><p cb:type="dharani" xml:id="pT20p0851b1501">「<note n="0851010" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānām apratihata śasanānām, Oṁ niṭi.</note><anchor xml:id="nkr_note_foreign_0851010" n="0851010"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀哆
+<lb n="0851b16" ed="T"/>舍娑曩<note place="inline">引</note>　<note n="0851011" resp="Taisho" type="orig" place="foot text">〔喃引〕－【明】</note><note n="0851011" resp="CBETA" type="mod">喃引【大】，〔－〕【明】</note><app n="0851011"><lem wit="【大】">喃<note place="inline">引</note></lem><rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg></app>　唵<note place="inline">引</note>　儞致」</p>
+<lb n="0851b17" ed="T"/><p xml:id="pT20p0851b1701">「此真言名<note n="0851012" resp="Taisho" type="orig" place="foot text">Upakeśinī.</note><anchor xml:id="nkr_note_foreign_0851012" n="0851012"/>塢波枳世儞，印名廣開，一切之事
+<lb n="0851b18" ed="T"/>所求皆成。若有一切凶惡宿耀，自然退散。</p>
+<lb n="0851b19" ed="T"/><p cb:type="dharani" xml:id="pT20p0851b1901">「<note n="0851013" resp="Taisho" type="orig" place="foot text">Namaḥ samantabuddhānām apratihatagatīnām, Oṁ niḥ.</note><anchor xml:id="nkr_note_foreign_0851013" n="0851013"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀哆
+<lb n="0851b20" ed="T"/>誐底喃<note place="inline">引</note>　唵<note place="inline">引</note>　儞<note place="inline"><app type="star" corresp="#0849007"><lem wit="【大】">入</lem><rdg resp="Taisho" wit="【明】">入聲</rdg></app></note>」</p>
+<lb n="0851b21" ed="T"/><p xml:id="pT20p0851b2101">「此真言名<note n="0851014" resp="Taisho" type="orig" place="foot text">曩隷儞 Balinī.（梵）</note>曩隷儞，印名<note n="0851015" resp="Taisho" type="orig" place="foot text">寶座 Bhadrapīṭha.</note><cb:tt n="0851015" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">寶座</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Bhadrapīṭha.</cb:t></cb:tt>，能成一切之
+<lb n="0851b22" ed="T"/>事，所有夜叉之眾亦能遣來。</p>
+<lb n="0851b23" ed="T"/><p cb:type="dharani" xml:id="pT20p0851b2301">「<note n="0851016" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhāṇāṁ acintyādbhuta-rūpiṇām.</note><anchor xml:id="nkr_note_foreign_0851016" n="0851016"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩進部哆嚕閉<g ref="#CB00718"/><note place="inline">引</note>
+<lb n="0851b24" ed="T"/>唵<note place="inline">引</note>　稍罩嚕<note place="inline">二合</note>」</p>
+<lb n="0851b25" ed="T"/><p xml:id="pT20p0851b2501">「此真言名<note n="0851017" resp="Taisho" type="orig" place="foot text">波隷儞 Kāpatalinī.</note><cb:tt n="0851017" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">波隷，儞</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Kāpatalinī.</cb:t></cb:tt>印名大力，能調伏一切拏
+<lb n="0851b26" ed="T"/>枳儞鬼。」</p><p xml:id="pT20p0851b2604" cb:place="inline">妙吉祥所說一切諸佛同說：</p>
+<lb n="0851b27" ed="T"/><p cb:type="dharani" xml:id="pT20p0851b2701">「<note n="0851018" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānām apratihata gatipracāriṇam, tadyathā Oṁ varade svāhā.</note><anchor xml:id="nkr_note_foreign_0851018" n="0851018"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀哆
+<lb n="0851b28" ed="T"/>誐底鉢囉<note place="inline">二合</note>　左<note place="inline">引</note>　哩<g ref="#CB00718"/><note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他<note place="inline">引</note>　唵<note place="inline">引</note>
+<lb n="0851b29" ed="T"/>嚩囉禰<note place="inline">引</note>」</p>
+<pb n="0851c" ed="T" xml:id="T20.1191.0851c"/>
+<lb n="0851c01" ed="T"/><p xml:id="pT20p0851c0101">「此明名<note n="0851019" resp="Taisho" type="orig" place="foot text">增長化相 Śreyasātmaka.</note><cb:tt n="0851019" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">增長化相</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śreyasātmaka.</cb:t></cb:tt>，印名<note n="0851020" resp="Taisho" type="orig" place="foot text">三髻 Triśikhā.</note><cb:tt n="0851020" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">三髻</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Triśikhā.</cb:t></cb:tt>，持誦同用速
 <lb n="0851c02" ed="T"/>得富貴。</p>
-<lb n="0851c03" ed="T"/><p cb:type="dharani" xml:id="pT20p0851c0301"><note n="0851021" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānāṁ acintyādbhuta-rūpiṇām, Oṁ bhuri svāhā.</note><anchor xml:id="nkr_note_foreign_0851021" n="0851021"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩進底也<note place="inline">二合引</note>部哆
-<lb n="0851c04" ed="T"/>嚕閉拏<note place="inline">引</note>唵<note place="inline">引</note>部哩</p>
-<lb n="0851c05" ed="T"/><p xml:id="pT20p0851c0501">印名<note n="0851022" resp="Taisho" place="foot text" type="orig">叉 Śūla.</note><cb:tt n="0851022" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">叉</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śūla.</cb:t></cb:tt>。同用消除一切瘧病。</p>
-<lb n="0851c06" ed="T"/><p cb:type="dharani" xml:id="pT20p0851c0601"><note n="0851023" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānām acintyādbhuta-rūpiṇām, Oṁ ne re svāhā.</note><anchor xml:id="nkr_note_foreign_0851023" n="0851023"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩進底也<note place="inline">二合引</note>部哆
-<lb n="0851c07" ed="T"/>嚕閉<g ref="#CB00718"/><note place="inline">引</note>唵<note place="inline"><note n="0851024" resp="Taisho" place="foot text" type="orig">引＋（唵引）【三】</note><note n="0851024" resp="CBETA" type="mod">引【大】，引唵引【宋】【元】【明】</note><app n="0851024"><lem wit="【大】">引</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">引唵引</rdg></app></note>怛囉<note place="inline">二合引</note>哩</p>
-<lb n="0851c08" ed="T"/><p xml:id="pT20p0851c0801">此明名<note n="0851025" resp="Taisho" place="foot text" type="orig">哆囉 Tārāvatī.</note><cb:tt n="0851025" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">哆囉</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Tārāvatī.</cb:t></cb:tt>。印名大力。能成一切事復能滅
+<lb n="0851c03" ed="T"/><p cb:type="dharani" xml:id="pT20p0851c0301">「<note n="0851021" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānāṁ acintyādbhuta-rūpiṇām, Oṁ bhuri svāhā.</note><anchor xml:id="nkr_note_foreign_0851021" n="0851021"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩進底也<note place="inline">二合引</note>　部哆
+<lb n="0851c04" ed="T"/>嚕閉拏<note place="inline">引</note>　唵<note place="inline">引</note>　部哩」</p>
+<lb n="0851c05" ed="T"/><p xml:id="pT20p0851c0501">「印名<note n="0851022" resp="Taisho" type="orig" place="foot text">叉 Śūla.</note><cb:tt n="0851022" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">叉</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Śūla.</cb:t></cb:tt>，同用消除一切瘧病。</p>
+<lb n="0851c06" ed="T"/><p cb:type="dharani" xml:id="pT20p0851c0601">「<note n="0851023" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānām acintyādbhuta-rūpiṇām, Oṁ ne re svāhā.</note><anchor xml:id="nkr_note_foreign_0851023" n="0851023"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩進底也<note place="inline">二合引</note>　部哆
+<lb n="0851c07" ed="T"/>嚕閉<g ref="#CB00718"/><note place="inline">引</note>　唵<note place="inline"><note n="0851024" resp="Taisho" type="orig" place="foot text">引＋（唵引）【三】</note><note n="0851024" resp="CBETA" type="mod">引【大】，引唵引【宋】【元】【明】</note><app n="0851024"><lem wit="【大】">引</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">引唵引</rdg></app></note>　怛囉<note place="inline">二合引</note>　哩」</p>
+<lb n="0851c08" ed="T"/><p xml:id="pT20p0851c0801">「此明名<note n="0851025" resp="Taisho" type="orig" place="foot text">哆囉 Tārāvatī.</note><cb:tt n="0851025" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">哆囉</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Tārāvatī.</cb:t></cb:tt>，印名大力，能成一切事復能滅
 <lb n="0851c09" ed="T"/>除障礙。</p>
-<lb n="0851c10" ed="T"/><p cb:type="dharani" xml:id="pT20p0851c1001"><note n="0851026" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānām acintyādbhuta-rūpiṇām, tadyathā Oṁ vilokini svāhā.</note><anchor xml:id="nkr_note_foreign_0851026" n="0851026"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩進底也<note place="inline">二合引</note>部哆
-<lb n="0851c11" ed="T"/>嚕閉<g ref="#CB00718"/><note place="inline">引</note>怛儞也<note place="inline">二合</note>他<note place="inline">引</note>唵尾<note n="0851027" resp="Taisho" place="foot text" type="orig">路＝咯【三】</note><note n="0851027" resp="CBETA" type="mod">路【大】，咯【宋】【元】【明】</note><app n="0851027"><lem wit="【大】">路</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">咯</rdg></app>枳儞</p>
-<lb n="0851c12" ed="T"/><p xml:id="pT20p0851c1201">此明名<note n="0851028" resp="Taisho" place="foot text" type="orig">大世 Lokavatī.</note><cb:tt n="0851028" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大世</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Lokavatī.</cb:t></cb:tt>。印名嚩訖怛囉。降伏一切世間
+<lb n="0851c10" ed="T"/><p cb:type="dharani" xml:id="pT20p0851c1001">「<note n="0851026" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānām acintyādbhuta-rūpiṇām, tadyathā Oṁ vilokini svāhā.</note><anchor xml:id="nkr_note_foreign_0851026" n="0851026"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩進底也<note place="inline">二合引</note>　部哆
+<lb n="0851c11" ed="T"/>嚕閉<g ref="#CB00718"/><note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他<note place="inline">引</note>　唵尾<note n="0851027" resp="Taisho" type="orig" place="foot text">路＝咯【三】</note><note n="0851027" resp="CBETA" type="mod">路【大】，咯【宋】【元】【明】</note><app n="0851027"><lem wit="【大】">路</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">咯</rdg></app>枳儞」</p>
+<lb n="0851c12" ed="T"/><p xml:id="pT20p0851c1201">「此明名<note n="0851028" resp="Taisho" type="orig" place="foot text">大世 Lokavatī.</note><cb:tt n="0851028" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大世</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Lokavatī.</cb:t></cb:tt>，印名嚩訖怛囉，降伏一切世間
 <lb n="0851c13" ed="T"/>皆得快樂。</p>
-<lb n="0851c14" ed="T"/><p cb:type="dharani" xml:id="pT20p0851c1401"><note n="0851029" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānām acintyāddhuta-rūpiṇām, tadyathā Oṁ viśve viśva sambhave viśva-rūpiṇi kaha kaha āviśāviśa, samaya manusmara ruru tiṣṭha svāhā.</note><anchor xml:id="nkr_note_foreign_0851029" n="0851029"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩進底也<note place="inline">二合</note>部哆
-<lb n="0851c15" ed="T"/>嚕閉<g ref="#CB00718"/><note place="inline">引</note>怛儞也<note place="inline">二合</note>他<note place="inline">引</note>唵尾濕吠<note place="inline">二合引</note>尾濕
-<pb n="0852a" xml:id="T20.1191.0852a" ed="T"/>
-<lb n="0852a01" ed="T"/>嚩<note place="inline">二合</note>三婆吠<note place="inline">引</note>尾濕嚩<note place="inline">二合</note>嚕閉尼迦賀迦賀
-<lb n="0852a02" ed="T"/>阿尾舍<note place="inline">引</note>尾舍三摩野摩努</p>
-<lb n="0852a03" ed="T"/><p xml:id="pT20p0852a0301">此明名<note n="0852001" resp="Taisho" place="foot text" type="orig">大精進 Mahā-vīryā.</note><cb:tt n="0852001" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大精進</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahā-vīryā.</cb:t></cb:tt>。印名<note n="0852002" resp="Taisho" place="foot text" type="orig">Daṁṣṭra.</note><anchor xml:id="nkr_note_foreign_0852002" n="0852002"/>能瑟吒囉。亦名變化。
-<lb n="0852a04" ed="T"/>能令一切眾生起大施願。惠施一切有情。</p>
-<lb n="0852a05" ed="T"/><p cb:type="dharani" xml:id="pT20p0852a0501"><note n="0852003" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānām acintyādbhuta-rūpiṇām, tadyathā Oṁ śvetaśrī vapuḥ svāhā.</note><anchor xml:id="nkr_note_foreign_0852003" n="0852003"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩進底也<note place="inline">二合引</note>部哆
-<lb n="0852a06" ed="T"/>嚕閉<g ref="#CB00718"/><note place="inline">引</note>怛儞也<note place="inline">二合</note>他<note place="inline">引</note>唵<note place="inline">引</note>濕吠<note place="inline">二合</note>諦<note place="inline">引</note>
-<lb n="0852a07" ed="T"/>室哩<note place="inline">二合</note>嚩布<note n="0852004" resp="Taisho" place="foot text" type="orig">〔入〕－【元】【明】</note><note n="0852004" resp="CBETA" type="mod">入【大】，〔－〕【元】【明】</note><app n="0852004"><lem wit="【大】"><note place="inline">入</note></lem><rdg resp="Taisho" wit="【元】 【明】"><space quantity="0"/></rdg></app></p>
-<lb n="0852a08" ed="T"/><p xml:id="pT20p0852a0801">此明名為大化。印名孔雀座。具不思議未曾
-<lb n="0852a09" ed="T"/>有相。作一切所欲之事無不成就。能降伏世
-<lb n="0852a10" ed="T"/>間。童男童女生愛敬心。</p>
-<lb n="0852a11" ed="T"/><p cb:type="dharani" xml:id="pT20p0852a1101"><note n="0852005" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānām acintyādbhuta-rūpiṇām, tadyathā khikhirikhiri bhaṅgari sarva-śatruṁ stambhaya jambhaya mohaya vaśamānaya svāhā.</note><anchor xml:id="nkr_note_foreign_0852005" n="0852005"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩進底也<note place="inline">二合引</note>部哆
-<lb n="0852a12" ed="T"/>嚕閉<g ref="#CB00718"/><note place="inline">引</note>怛儞也<note place="inline">二合</note>他唵<note place="inline">引</note>契契哩婆虞哩薩
-<lb n="0852a13" ed="T"/>哩嚩<note place="inline">二合</note>設怛嚕<note place="inline">二合</note>薩旦<note place="inline">二合</note>婆野咎婆野謨
-<lb n="0852a14" ed="T"/><note place="inline">引</note>賀野嚩舍摩<note place="inline">引</note>曩藥</p>
-<lb n="0852a15" ed="T"/><p xml:id="pT20p0852a1501">此明名<note n="0852006" resp="Taisho" place="foot text" type="orig">相應大明 Mahā-vidyā yoginī.</note><cb:tt n="0852006" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">相應大明</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahā-vidyā yoginī.</cb:t></cb:tt>。印名<note n="0852007" resp="Taisho" place="foot text" type="orig">Vaktra.</note><anchor xml:id="nkr_note_foreign_0852007" n="0852007"/>嚩訖怛囉。能<note n="0852008" resp="Taisho" place="foot text" type="orig">調＝謂【三】</note><note n="0852008" resp="CBETA" type="mod">調【大】，謂【宋】【元】【明】</note><app n="0852008"><lem wit="【大】">調</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">謂</rdg></app>伏
+<lb n="0851c14" ed="T"/><p cb:type="dharani" xml:id="pT20p0851c1401">「<note n="0851029" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānām acintyāddhuta-rūpiṇām, tadyathā Oṁ viśve viśva sambhave viśva-rūpiṇi kaha kaha āviśāviśa, samaya manusmara ruru tiṣṭha svāhā.</note><anchor xml:id="nkr_note_foreign_0851029" n="0851029"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩進底也<note place="inline">二合</note>　部哆
+<lb n="0851c15" ed="T"/>嚕閉<g ref="#CB00718"/><note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他<note place="inline">引</note>　唵尾濕吠<note place="inline">二合引</note>　尾濕
+<pb n="0852a" ed="T" xml:id="T20.1191.0852a"/>
+<lb n="0852a01" ed="T"/>嚩<note place="inline">二合</note>　三婆吠<note place="inline">引</note>　尾濕嚩<note place="inline">二合</note>　嚕閉尼迦賀迦賀
+<lb n="0852a02" ed="T"/>阿尾舍<note place="inline">引</note>　尾舍三摩野摩努」</p>
+<lb n="0852a03" ed="T"/><p xml:id="pT20p0852a0301">「此明名<note n="0852001" resp="Taisho" type="orig" place="foot text">大精進 Mahā-vīryā.</note><cb:tt n="0852001" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大精進</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahā-vīryā.</cb:t></cb:tt>，印名<note n="0852002" resp="Taisho" type="orig" place="foot text">Daṁṣṭra.</note><anchor xml:id="nkr_note_foreign_0852002" n="0852002"/>能瑟吒囉，亦名變化，
+<lb n="0852a04" ed="T"/>能令一切眾生起大施願，惠施一切有情。</p>
+<lb n="0852a05" ed="T"/><p cb:type="dharani" xml:id="pT20p0852a0501">「<note n="0852003" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānām acintyādbhuta-rūpiṇām, tadyathā Oṁ śvetaśrī vapuḥ svāhā.</note><anchor xml:id="nkr_note_foreign_0852003" n="0852003"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩進底也<note place="inline">二合引</note>　部哆
+<lb n="0852a06" ed="T"/>嚕閉<g ref="#CB00718"/><note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他<note place="inline">引</note>　唵<note place="inline">引</note>　濕吠<note place="inline">二合</note>　諦<note place="inline">引</note>
+<lb n="0852a07" ed="T"/>室哩<note place="inline">二合</note>　嚩布<note n="0852004" resp="Taisho" type="orig" place="foot text">〔入〕－【元】【明】</note><note n="0852004" resp="CBETA" type="mod">入【大】，〔－〕【元】【明】</note><app n="0852004"><lem wit="【大】"><note place="inline">入</note></lem><rdg resp="Taisho" wit="【元】 【明】"><space quantity="0"/></rdg></app>」</p>
+<lb n="0852a08" ed="T"/><p xml:id="pT20p0852a0801">「此明名為大化，印名孔雀座，具不思議未曾
+<lb n="0852a09" ed="T"/>有相，作一切所欲之事無不成就，能降伏世
+<lb n="0852a10" ed="T"/>間童男童女生愛敬心。</p>
+<lb n="0852a11" ed="T"/><p cb:type="dharani" xml:id="pT20p0852a1101">「<note n="0852005" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānām acintyādbhuta-rūpiṇām, tadyathā khikhirikhiri bhaṅgari sarva-śatruṁ stambhaya jambhaya mohaya vaśamānaya svāhā.</note><anchor xml:id="nkr_note_foreign_0852005" n="0852005"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩進底也<note place="inline">二合引</note>　部哆
+<lb n="0852a12" ed="T"/>嚕閉<g ref="#CB00718"/><note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他唵<note place="inline">引</note>　契契哩婆虞哩薩
+<lb n="0852a13" ed="T"/>哩嚩<note place="inline">二合</note>　設怛嚕<note place="inline">二合</note>　薩旦<note place="inline">二合</note>　婆野咎婆野謨
+<lb n="0852a14" ed="T"/><note place="inline">引</note>　賀野嚩舍摩<note place="inline">引</note>　曩藥」</p>
+<lb n="0852a15" ed="T"/><p xml:id="pT20p0852a1501">「此明名<note n="0852006" resp="Taisho" type="orig" place="foot text">相應大明 Mahā-vidyā yoginī.</note><cb:tt n="0852006" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">相應大明</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahā-vidyā yoginī.</cb:t></cb:tt>，印名<note n="0852007" resp="Taisho" type="orig" place="foot text">Vaktra.</note><anchor xml:id="nkr_note_foreign_0852007" n="0852007"/>嚩訖怛囉，能<note n="0852008" resp="Taisho" type="orig" place="foot text">調＝謂【三】</note><note n="0852008" resp="CBETA" type="mod">調【大】，謂【宋】【元】【明】</note><app n="0852008"><lem wit="【大】">調</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">謂</rdg></app>伏
 <lb n="0852a16" ed="T"/>造惡眾生。</p>
-<lb n="0852a17" ed="T"/><p cb:type="dharani" xml:id="pT20p0852a1701"><note n="0852009" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānāṁ apratihatagati pracāriṇām, tadyathā, Oṁ śrīḥ.</note><anchor xml:id="nkr_note_foreign_0852009" n="0852009"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢底<note place="inline">二合</note>賀哆誐
-<lb n="0852a18" ed="T"/>底鉢囉<note place="inline">二合</note>左<note place="inline">引</note>哩拏<note place="inline">引</note>怛儞也<note place="inline">二合</note>他<note place="inline">引</note>唵<note place="inline">引</note>室
-<lb n="0852a19" ed="T"/>哩<note place="inline"><note n="0852010" resp="Taisho" place="foot text" type="orig">二合入＝入聲二合【明】</note><note n="0852010" resp="CBETA" type="mod">二合入【大】，入聲二合【明】</note><app n="0852010"><lem wit="【大】">二合入</lem><rdg resp="Taisho" wit="【明】">入聲二合</rdg></app></note></p>
-<lb n="0852a20" ed="T"/><p xml:id="pT20p0852a2001">此明名<note n="0852011" resp="Taisho" place="foot text" type="orig">大福德 Mahā-lakṣmī.</note><cb:tt n="0852011" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大福德</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahā-lakṣmī.</cb:t></cb:tt>。印名<note n="0852012" resp="Taisho" place="foot text" type="orig">合掌 Sampuṭayā.</note><cb:tt n="0852012" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">合掌</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sampuṭayā.</cb:t></cb:tt>。佛自宣說。能令
+<lb n="0852a17" ed="T"/><p cb:type="dharani" xml:id="pT20p0852a1701">「<note n="0852009" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānāṁ apratihatagati pracāriṇām, tadyathā, Oṁ śrīḥ.</note><anchor xml:id="nkr_note_foreign_0852009" n="0852009"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢底<note place="inline">二合</note>　賀哆誐
+<lb n="0852a18" ed="T"/>底鉢囉<note place="inline">二合</note>　左<note place="inline">引</note>　哩拏<note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他<note place="inline">引</note>　唵<note place="inline">引</note>　室
+<lb n="0852a19" ed="T"/>哩<note place="inline"><note n="0852010" resp="Taisho" type="orig" place="foot text">二合入＝入聲二合【明】</note><note n="0852010" resp="CBETA" type="mod">二合入【大】，入聲二合【明】</note><app n="0852010"><lem wit="【大】">二合入</lem><rdg resp="Taisho" wit="【明】">入聲二合</rdg></app></note>」</p>
+<lb n="0852a20" ed="T"/><p xml:id="pT20p0852a2001">「此明名<note n="0852011" resp="Taisho" type="orig" place="foot text">大福德 Mahā-lakṣmī.</note><cb:tt n="0852011" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">大福德</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Mahā-lakṣmī.</cb:t></cb:tt>，印名<note n="0852012" resp="Taisho" type="orig" place="foot text">合掌 Sampuṭayā.</note><cb:tt n="0852012" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">合掌</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Sampuṭayā.</cb:t></cb:tt>。佛自宣說，能令
 <lb n="0852a21" ed="T"/>有情得國王位。</p>
-<lb n="0852a22" ed="T"/><p cb:type="dharani" xml:id="pT20p0852a2201"><note n="0852013" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhāṇāṁ sarva sattvābhaya-pradāyinām, tadyathā Oṁ, ajite, kumāra-rūpiṇi, ehi āgaccha mama kāryaṁ kuru svāhā.</note><anchor xml:id="nkr_note_foreign_0852013" n="0852013"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>薩哩嚩<note place="inline">二合</note>薩怛嚩
-<lb n="0852a23" ed="T"/><note place="inline">二合</note>婆野鉢囉<note place="inline">二合</note>捺<note place="inline">引</note>曳喃<note place="inline">引</note>怛儞也<note place="inline">二合</note>他唵
-<lb n="0852a24" ed="T"/><note place="inline">引</note>阿<g ref="#CB00768"/>諦俱摩<note place="inline">引</note>哩嚕閉尼<g ref="#CB00799"/>呬阿<note place="inline">引</note>誐蹉摩
-<lb n="0852a25" ed="T"/>摩迦<note place="inline">引</note>哩焰<note place="inline">二合</note>俱嚕<note place="inline"><app type="star" corresp="#0849007"><lem wit="【大】">入</lem><rdg resp="Taisho" wit="【明】">入聲</rdg></app></note></p>
-<lb n="0852a26" ed="T"/><p xml:id="pT20p0852a2601">此名<note n="0852014" resp="Taisho" place="foot text" type="orig">無能勝 Ajita.</note><cb:tt n="0852014" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無能勝</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Ajita.</cb:t></cb:tt>現童女身說甘露句。印名合掌。
-<lb n="0852a27" ed="T"/>與此真言同用。遠離一切冤家。</p>
-<lb n="0852a28" ed="T"/><p cb:type="dharani" xml:id="pT20p0852a2801"><note n="0852015" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānām acintyādbhuta-rūpiṇām, tadyathā Oṁ jaye svāhā, ajite, svāhā, aparājite svāhā.</note><anchor xml:id="nkr_note_foreign_0852015" n="0852015"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩進底也<note place="inline">二合引</note>部哆
-<lb n="0852a29" ed="T"/>嚕閉<g ref="#CB00718"/><note place="inline">引</note>怛儞也<note place="inline">二合</note>他<note place="inline">引</note>唵<note place="inline">引</note>惹曳<note place="inline">引</note>唵<note place="inline">引</note>尾
-<pb n="0852b" xml:id="T20.1191.0852b" ed="T"/>
-<lb n="0852b01" ed="T"/>惹曳<note place="inline">引</note>唵<note place="inline">引</note>阿<g ref="#CB00768"/>諦<note place="inline">引</note>唵<note place="inline">引</note>阿波囉<note place="inline">引</note><g ref="#CB00768"/>諦<note n="0852016" resp="Taisho" place="foot text" type="orig">〔引〕－【三】</note><note n="0852016" resp="CBETA" type="mod">引【大】，〔－〕【宋】【元】【明】</note><app n="0852016"><lem wit="【大】"><note place="inline">引</note></lem><rdg resp="Taisho" wit="【宋】 【元】 【明】"><space quantity="0"/></rdg></app></p>
-<lb n="0852b02" ed="T"/><p xml:id="pT20p0852b0201">此真言內有<note n="0852017" resp="Taisho" place="foot text" type="orig">四姉妹親近菩薩 Catur-bhaginya-bodhisattvā.</note><note n="0852017" resp="CBETA" type="mod">四姊妹親近菩薩 Catur-bhaginya-bodhisattvā.</note><cb:tt n="0852017" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">四姊妹親近菩薩</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Catur-bhaginya-bodhisattvā.</cb:t></cb:tt>。經行大地救
-<lb n="0852b03" ed="T"/>度眾生。令諸有情依行真言行。如度得<note n="0852018" resp="Taisho" place="foot text" type="orig">舡＝船【三】</note><note n="0852018" resp="CBETA" type="mod">舡【大】，船【宋】【元】【明】</note><app n="0852018"><lem wit="【大】">舡</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">船</rdg></app>所
-<lb n="0852b04" ed="T"/>作圓滿。印名祕密。</p>
-<lb n="0852b05" ed="T"/><p cb:type="dharani" xml:id="pT20p0852b0501"><note n="0852019" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhāṇāṁ tadyathā Oṁ, kumāra, mahā-kumāra, krīḍa krīḍa ṣaṇmukha-bodhisattvānujñāta, mayūrāsanasṅghodyatapāṇi raktāṅga, rakta-gandhānulepanapriya, kha kha khāhi khāhi khāhi, huṁ nṛtya nṛtya, raktāpuṣpārcita-mūrti samaya-manusmara, bhrama bhrama bhrāmaya bhrāmaya bhrāmaya, lahu lahu māvilamba sarvakaryāṇi me kuru kuru citra-rūpadhāriṇe tiṣṭha tiṣṭha huṁ huṁ sarva-buddhānujñāta svāhā.</note><anchor xml:id="nkr_note_foreign_0852019" n="0852019"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>路迦<note place="inline">引</note>誐囉<note place="inline">二合引</note>地
-<lb n="0852b06" ed="T"/>鉢底喃<note place="inline">引</note>怛儞也<note place="inline">二合</note>他唵<note place="inline">引</note>俱摩囉摩賀<note place="inline">引</note>俱
-<lb n="0852b07" ed="T"/>摩<note place="inline">引</note>囉吉哩<note place="inline">二合</note>拏釤摩佉<g ref="#CB00155"/>地薩怛嚩<note place="inline">二合引</note>覩
-<lb n="0852b08" ed="T"/>惹拏<note place="inline">二合</note>哆摩布囉<note place="inline">引</note>摩布囉<note place="inline">引</note>娑曩設吉曳<note place="inline">二合
-<lb n="0852b09" ed="T"/>引</note>覩<note place="inline">引</note>儞也<note place="inline">二合</note>哆波<note place="inline">引</note>尼囉訖旦<note place="inline">二合引</note>誐囉訖
-<lb n="0852b10" ed="T"/>哆<note place="inline">二合</note>巘馱<note place="inline">引</note>覩隷<note place="inline">引</note>鉢曩必哩<note place="inline">二合</note>野佉佉<note n="0852020" resp="Taisho" place="foot text" type="orig">佉＋（佉）【三】</note><note n="0852020" resp="CBETA" type="mod">佉【大】，佉佉【宋】【元】【明】</note><app n="0852020"><lem wit="【大】">佉</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">佉佉</rdg></app>
-<lb n="0852b11" ed="T"/>呬佉呬吽吽涅哩<note place="inline">二合</note>怛也<note place="inline">二合</note>涅哩<note place="inline">二合</note>怛也
-<lb n="0852b12" ed="T"/><note place="inline">二合</note>囉訖哆<note place="inline">二合</note>補瑟波<note place="inline">二合引</note>唧哆沒哩底<note place="inline">二合</note>娑
-<lb n="0852b13" ed="T"/>摩野摩拏娑摩<note place="inline">二合</note>囉部囉<note place="inline">二合</note>摩部囉<note place="inline">二合</note>摩
-<lb n="0852b14" ed="T"/>部囉<note place="inline">二合</note>摩野部囉<note place="inline">二合引</note>摩野羅護羅護摩<note place="inline">引</note>尾
-<lb n="0852b15" ed="T"/>覽摩薩哩嚩<note place="inline">二合</note>迦<note place="inline">引</note>哩野<note place="inline">二合引</note>尼弭俱嚕尾唧
-<lb n="0852b16" ed="T"/>怛囉<note place="inline">二合</note>嚕波馱<note place="inline">引</note>哩尼底瑟吒<note place="inline">二合</note>底瑟吒<note place="inline">二
-<lb n="0852b17" ed="T"/>合</note>吽吽薩哩嚩<note place="inline">二合引</note>沒馱<note place="inline">引</note>努惹拏<note place="inline">二合</note>諦<note place="inline">引</note>娑
-<lb n="0852b18" ed="T"/>嚩<note place="inline">二合</note>賀<note place="inline">引</note></p>
-<lb n="0852b19" ed="T"/><p xml:id="pT20p0852b1901">爾時妙吉祥菩薩。說此真言之時。大地六種
-<lb n="0852b20" ed="T"/><note n="0852021" resp="Taisho" place="foot text" type="orig">振＝震【三】</note><note n="0852021" resp="CBETA" type="mod">振【大】，震【宋】【元】【明】</note><app n="0852021"><lem wit="【大】">振</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">震</rdg></app>動。大自在天現極惡相。童子天具火曜幖
-<lb n="0852b21" ed="T"/>幟。俱來教化調伏一切惡業眾生。妙吉祥所
-<lb n="0852b22" ed="T"/>說大權菩薩。起慈愍心行菩薩行。利樂一切
-<lb n="0852b23" ed="T"/>愚癡眾生。印名大力。與真言同用。令得梵天
-<lb n="0852b24" ed="T"/>等大福德果。何況人身。</p>
-<lb n="0852b25" ed="T"/><p xml:id="pT20p0852b2501">爾時妙吉祥菩薩。復說真言名為三字。為悲
-<lb n="0852b26" ed="T"/>愍眾生。印名大力。與真言同用。令一切眾生
+<lb n="0852a22" ed="T"/><p cb:type="dharani" xml:id="pT20p0852a2201">「<note n="0852013" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhāṇāṁ sarva sattvābhaya-pradāyinām, tadyathā Oṁ, ajite, kumāra-rūpiṇi, ehi āgaccha mama kāryaṁ kuru svāhā.</note><anchor xml:id="nkr_note_foreign_0852013" n="0852013"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　薩哩嚩<note place="inline">二合</note>　薩怛嚩
+<lb n="0852a23" ed="T"/><note place="inline">二合</note>　婆野鉢囉<note place="inline">二合</note>　捺<note place="inline">引</note>　曳喃<note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他唵
+<lb n="0852a24" ed="T"/><note place="inline">引</note>　阿<g ref="#CB00768"/>諦俱摩<note place="inline">引</note>　哩嚕閉尼<g ref="#CB00799"/>呬阿<note place="inline">引</note>　誐蹉摩
+<lb n="0852a25" ed="T"/>摩迦<note place="inline">引</note>　哩焰<note place="inline">二合</note>　俱嚕<note place="inline"><app type="star" corresp="#0849007"><lem wit="【大】">入</lem><rdg resp="Taisho" wit="【明】">入聲</rdg></app></note>」</p>
+<lb n="0852a26" ed="T"/><p xml:id="pT20p0852a2601">「此名<note n="0852014" resp="Taisho" type="orig" place="foot text">無能勝 Ajita.</note><cb:tt n="0852014" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">無能勝</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Ajita.</cb:t></cb:tt>現童女身說甘露句，印名合掌，
+<lb n="0852a27" ed="T"/>與此真言同用，遠離一切冤家。</p>
+<lb n="0852a28" ed="T"/><p cb:type="dharani" xml:id="pT20p0852a2801">「<note n="0852015" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānām acintyādbhuta-rūpiṇām, tadyathā Oṁ jaye svāhā, ajite, svāhā, aparājite svāhā.</note><anchor xml:id="nkr_note_foreign_0852015" n="0852015"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩進底也<note place="inline">二合引</note>　部哆
+<lb n="0852a29" ed="T"/>嚕閉<g ref="#CB00718"/><note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他<note place="inline">引</note>　唵<note place="inline">引</note>　惹曳<note place="inline">引</note>　唵<note place="inline">引</note>　尾
+<pb n="0852b" ed="T" xml:id="T20.1191.0852b"/>
+<lb n="0852b01" ed="T"/>惹曳<note place="inline">引</note>　唵<note place="inline">引</note>　阿<g ref="#CB00768"/>諦<note place="inline">引</note>　唵<note place="inline">引</note>　阿波囉<note place="inline">引</note>　<g ref="#CB00768"/>諦<note n="0852016" resp="Taisho" type="orig" place="foot text">〔引〕－【三】</note><note n="0852016" resp="CBETA" type="mod">引【大】，〔－〕【宋】【元】【明】</note><app n="0852016"><lem wit="【大】"><note place="inline">引</note></lem><rdg resp="Taisho" wit="【宋】 【元】 【明】"><space quantity="0"/></rdg></app>」</p>
+<lb n="0852b02" ed="T"/><p xml:id="pT20p0852b0201">「此真言內有<note n="0852017" resp="Taisho" type="orig" place="foot text">四姉妹親近菩薩 Catur-bhaginya-bodhisattvā.</note><note n="0852017" resp="CBETA" type="mod">四姊妹親近菩薩 Catur-bhaginya-bodhisattvā.</note><cb:tt n="0852017" type="app"><cb:t resp="Taisho" xml:lang="zh-Hant">四姊妹親近菩薩</cb:t><cb:t resp="Taisho" xml:lang="sa" place="foot">Catur-bhaginya-bodhisattvā.</cb:t></cb:tt>，經行大地救
+<lb n="0852b03" ed="T"/>度眾生，令諸有情依行真言行，如度得<note n="0852018" resp="Taisho" type="orig" place="foot text">舡＝船【三】</note><note n="0852018" resp="CBETA" type="mod">舡【大】，船【宋】【元】【明】</note><app n="0852018"><lem wit="【大】">舡</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">船</rdg></app>所
+<lb n="0852b04" ed="T"/>作圓滿，印名祕密。</p>
+<lb n="0852b05" ed="T"/><p cb:type="dharani" xml:id="pT20p0852b0501">「<note n="0852019" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhāṇāṁ tadyathā Oṁ, kumāra, mahā-kumāra, krīḍa krīḍa ṣaṇmukha-bodhisattvānujñāta, mayūrāsanasṅghodyatapāṇi raktāṅga, rakta-gandhānulepanapriya, kha kha khāhi khāhi khāhi, huṁ nṛtya nṛtya, raktāpuṣpārcita-mūrti samaya-manusmara, bhrama bhrama bhrāmaya bhrāmaya bhrāmaya, lahu lahu māvilamba sarvakaryāṇi me kuru kuru citra-rūpadhāriṇe tiṣṭha tiṣṭha huṁ huṁ sarva-buddhānujñāta svāhā.</note><anchor xml:id="nkr_note_foreign_0852019" n="0852019"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　路迦<note place="inline">引</note>　誐囉<note place="inline">二合引</note>　地
+<lb n="0852b06" ed="T"/>鉢底喃<note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他唵<note place="inline">引</note>　俱摩囉摩賀<note place="inline">引</note>　俱
+<lb n="0852b07" ed="T"/>摩<note place="inline">引</note>　囉吉哩<note place="inline">二合</note>　拏釤摩佉<g ref="#CB00155"/>地薩怛嚩<note place="inline">二合引</note>　覩
+<lb n="0852b08" ed="T"/>惹拏<note place="inline">二合</note>　哆摩布囉<note place="inline">引</note>　摩布囉<note place="inline">引</note>　娑曩設吉曳<note place="inline">二合
+<lb n="0852b09" ed="T"/>引</note>　覩<note place="inline">引</note>　儞也<note place="inline">二合</note>　哆波<note place="inline">引</note>　尼囉訖旦<note place="inline">二合引</note>　誐囉訖
+<lb n="0852b10" ed="T"/>哆<note place="inline">二合</note>　巘馱<note place="inline">引</note>　覩隷<note place="inline">引</note>　鉢曩必哩<note place="inline">二合</note>　野佉佉<note n="0852020" resp="Taisho" type="orig" place="foot text">佉＋（佉）【三】</note><note n="0852020" resp="CBETA" type="mod">佉【大】，佉佉【宋】【元】【明】</note><app n="0852020"><lem wit="【大】">佉</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">佉佉</rdg></app>
+<lb n="0852b11" ed="T"/>呬佉呬吽吽涅哩<note place="inline">二合</note>　怛也<note place="inline">二合</note>　涅哩<note place="inline">二合</note>　怛也
+<lb n="0852b12" ed="T"/><note place="inline">二合</note>　囉訖哆<note place="inline">二合</note>　補瑟波<note place="inline">二合引</note>　唧哆沒哩底<note place="inline">二合</note>　娑
+<lb n="0852b13" ed="T"/>摩野摩拏娑摩<note place="inline">二合</note>　囉部囉<note place="inline">二合</note>　摩部囉<note place="inline">二合</note>　摩
+<lb n="0852b14" ed="T"/>部囉<note place="inline">二合</note>　摩野部囉<note place="inline">二合引</note>　摩野羅護羅護摩<note place="inline">引</note>　尾
+<lb n="0852b15" ed="T"/>覽摩薩哩嚩<note place="inline">二合</note>　迦<note place="inline">引</note>　哩野<note place="inline">二合引</note>　尼弭俱嚕尾唧
+<lb n="0852b16" ed="T"/>怛囉<note place="inline">二合</note>　嚕波馱<note place="inline">引</note>　哩尼底瑟吒<note place="inline">二合</note>　底瑟吒<note place="inline">二
+<lb n="0852b17" ed="T"/>合</note>　吽吽薩哩嚩<note place="inline">二合引</note>　沒馱<note place="inline">引</note>　努惹拏<note place="inline">二合</note>　諦<note place="inline">引</note>　娑
+<lb n="0852b18" ed="T"/>嚩<note place="inline">二合</note>　賀<note place="inline">引</note>」</p>
+<lb n="0852b19" ed="T"/><p xml:id="pT20p0852b1901">爾時，妙吉祥菩薩說此真言之時，大地六種
+<lb n="0852b20" ed="T"/><note n="0852021" resp="Taisho" type="orig" place="foot text">振＝震【三】</note><note n="0852021" resp="CBETA" type="mod">振【大】，震【宋】【元】【明】</note><app n="0852021"><lem wit="【大】">振</lem><rdg resp="Taisho" wit="【宋】 【元】 【明】">震</rdg></app>動，大自在天現極惡相，童子天具火曜幖
+<lb n="0852b21" ed="T"/>幟，俱來教化調伏一切惡業眾生。妙吉祥所
+<lb n="0852b22" ed="T"/>說大權菩薩，起慈愍心行菩薩行，利樂一切
+<lb n="0852b23" ed="T"/>愚癡眾生，印名大力，與真言同用，令得梵天
+<lb n="0852b24" ed="T"/>等大福德果，何況人身。</p>
+<lb n="0852b25" ed="T"/><p xml:id="pT20p0852b2501">爾時，妙吉祥菩薩，復說真言名為三字，為悲
+<lb n="0852b26" ed="T"/>愍眾生，印名大力，與真言同用，令一切眾生
 <lb n="0852b27" ed="T"/>得大福德。</p>
-<lb n="0852b28" ed="T"/><p cb:type="dharani" xml:id="pT20p0852b2801"><note n="0852022" resp="Taisho" place="foot text" type="orig">Oṁ hūṁ jaḥ.</note><anchor xml:id="nkr_note_foreign_0852022" n="0852022"/>唵<note place="inline">引</note>吽<g ref="#CB00763"/></p>
-<lb n="0852b29" ed="T"/><p xml:id="pT20p0852b2901">此是三字真言。依法持誦所求皆成。</p>
-<pb n="0852c" xml:id="T20.1191.0852c" ed="T"/>
-<lb n="0852c01" ed="T"/><p xml:id="pT20p0852c0101">復說外心真言。</p>
-<lb n="0852c02" ed="T"/><p cb:type="dharani" xml:id="pT20p0852c0201"><note n="0852023" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānām samantodyotitamūrtinām, Oṁ vikṛta-graha huṁ phaṭ svāhā.</note><anchor xml:id="nkr_note_foreign_0852023" n="0852023"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>三滿覩<note place="inline">引</note>儞喻<note place="inline">二合引</note>
-<lb n="0852c03" ed="T"/>底哆沒哩底喃<note place="inline">引</note>唵<note place="inline">引</note>尾訖哩<note place="inline">二合</note>哆誐囉<note place="inline">二合</note>
-<lb n="0852c04" ed="T"/>賀吽頗吒</p>
-<lb n="0852c05" ed="T"/><p xml:id="pT20p0852c0501">妙吉祥菩薩為親近者童子天。說此真言。能
-<lb n="0852c06" ed="T"/>降伏一切部哆摩多羅等。及一切諸惡星曜。
-<lb n="0852c07" ed="T"/>如有部多等所著所魅及惡曜照臨。依法持
-<lb n="0852c08" ed="T"/>誦彼等悉皆恐怖。而自退散即得解脫。乃至
-<lb n="0852c09" ed="T"/>求生天界一切皆得。印名大力與彼同用。</p>
-<lb n="0852c10" ed="T"/><p cb:type="dharani" xml:id="pT20p0852c1001"><note n="0852024" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānām apratihata-śāsanānām, tadyathā, Oṁ brahma subrahma brahma-varcase śāntiṁ kuru svāhā.</note><anchor xml:id="nkr_note_foreign_0852024" n="0852024"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀哆
-<lb n="0852c11" ed="T"/>舍<note place="inline">引</note>娑曩<note place="inline">引</note>喃<note place="inline">引</note>怛儞也<note place="inline">二合</note>他<note place="inline">引</note>唵<note place="inline">引</note>沒囉<note place="inline">二合</note>
-<lb n="0852c12" ed="T"/>憾摩<note place="inline">二合</note>蘇沒囉<note place="inline">二合</note>憾摩<note place="inline">二合</note>沒囉<note place="inline">二合</note>憾摩<note place="inline">二
-<lb n="0852c13" ed="T"/>合</note>嚩哩左<note place="inline">二合</note>細<note place="inline">引</note>扇<note place="inline">引</note>底俱嚕</p>
-<lb n="0852c14" ed="T"/><p xml:id="pT20p0852c1401">此真言大梵天菩薩所說。令息災害。若部多
-<lb n="0852c15" ed="T"/>惱亂之時。誦此真言剎那退散速得安樂。印
-<lb n="0852c16" ed="T"/>名五髻。若說大梵天調伏儀軌。如四圍陀
-<pb n="0853a" xml:id="T20.1191.0853a" ed="T"/>
+<lb n="0852b28" ed="T"/><p cb:type="dharani" xml:id="pT20p0852b2801">「<note n="0852022" resp="Taisho" type="orig" place="foot text">Oṁ hūṁ jaḥ.</note><anchor xml:id="nkr_note_foreign_0852022" n="0852022"/>唵<note place="inline">引</note>　吽<g ref="#CB00763"/>」</p>
+<lb n="0852b29" ed="T"/><p xml:id="pT20p0852b2901">「此是三字真言，依法持誦所求皆成。</p>
+<pb n="0852c" ed="T" xml:id="T20.1191.0852c"/>
+<lb n="0852c01" ed="T"/><p xml:id="pT20p0852c0101">「復說外心真言：</p>
+<lb n="0852c02" ed="T"/><p cb:type="dharani" xml:id="pT20p0852c0201">「<note n="0852023" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānām samantodyotitamūrtinām, Oṁ vikṛta-graha huṁ phaṭ svāhā.</note><anchor xml:id="nkr_note_foreign_0852023" n="0852023"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　三滿覩<note place="inline">引</note>　儞喻<note place="inline">二合引</note>
+<lb n="0852c03" ed="T"/>底哆沒哩底喃<note place="inline">引</note>　唵<note place="inline">引</note>　尾訖哩<note place="inline">二合</note>　哆誐囉<note place="inline">二合</note>
+<lb n="0852c04" ed="T"/>賀吽頗吒」</p>
+<lb n="0852c05" ed="T"/><p xml:id="pT20p0852c0501">「妙吉祥菩薩為親近者童子天說此真言，能
+<lb n="0852c06" ed="T"/>降伏一切部哆摩多羅等，及一切諸惡星曜。
+<lb n="0852c07" ed="T"/>如有部多等所著所魅及惡曜照臨，依法持
+<lb n="0852c08" ed="T"/>誦彼等悉皆恐怖，而自退散即得解脫，乃至
+<lb n="0852c09" ed="T"/>求生天界一切皆得，印名大力，與彼同用。</p>
+<lb n="0852c10" ed="T"/><p cb:type="dharani" xml:id="pT20p0852c1001">「<note n="0852024" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānām apratihata-śāsanānām, tadyathā, Oṁ brahma subrahma brahma-varcase śāntiṁ kuru svāhā.</note><anchor xml:id="nkr_note_foreign_0852024" n="0852024"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀哆
+<lb n="0852c11" ed="T"/>舍<note place="inline">引</note>　娑曩<note place="inline">引</note>　喃<note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他<note place="inline">引</note>　唵<note place="inline">引</note>　沒囉<note place="inline">二合</note>
+<lb n="0852c12" ed="T"/>憾摩<note place="inline">二合</note>　蘇沒囉<note place="inline">二合</note>　憾摩<note place="inline">二合</note>　沒囉<note place="inline">二合</note>　憾摩<note place="inline">二
+<lb n="0852c13" ed="T"/>合</note>　嚩哩左<note place="inline">二合</note>　細<note place="inline">引</note>　扇<note place="inline">引</note>　底俱嚕」</p>
+<lb n="0852c14" ed="T"/><p xml:id="pT20p0852c1401">「此真言大梵天菩薩所說，令息災害。若部多
+<lb n="0852c15" ed="T"/>惱亂之時，誦此真言剎那退散速得安樂，印
+<lb n="0852c16" ed="T"/>名五髻。若說大梵天調伏儀軌，如四圍陀
+<pb n="0853a" ed="T" xml:id="T20.1191.0853a"/>
 <lb n="0853a01" ed="T"/>論。</p>
-<lb n="0853a02" ed="T"/><p cb:type="dharani" xml:id="pT20p0853a0201"><note n="0853001" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānām apratihataśāsa nānām, tadyathā, Oṁ garuḍa-vāhana, cakrapāṇi catur-bhuja, huṁ huṁ samayamanusmara, bodhi-sattvo jñāpayati svāhā.</note><anchor xml:id="nkr_note_foreign_0853001" n="0853001"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀哆
-<lb n="0853a03" ed="T"/>舍<note place="inline">引</note>娑曩<note place="inline">引</note><note n="0853002" resp="Taisho" place="foot text" type="orig">喃＝南【宋】</note><note n="0853002" resp="CBETA" type="mod">喃【大】，南【宋】</note><app n="0853002"><lem wit="【大】">喃</lem><rdg resp="Taisho" wit="【宋】">南</rdg></app><note place="inline">引</note>怛儞也<note place="inline">二合</note>他唵<note place="inline">引</note>誐嚕拏嚩
-<lb n="0853a04" ed="T"/><note place="inline">引</note>賀曩作羯囉<note place="inline">二合</note>波<note place="inline">引</note>尼左覩哩部<note place="inline">二合</note>惹吽
-<lb n="0853a05" ed="T"/>吽三摩努娑摩<note place="inline">二合</note>囉<g ref="#CB00155"/>地薩怛嚩<note place="inline">二合</note>阿惹拏
-<lb n="0853a06" ed="T"/><note place="inline">二合</note>波野底</p>
-<lb n="0853a07" ed="T"/><p xml:id="pT20p0853a0701">妙吉祥說此真言。速能作於吉祥之事。印名
-<lb n="0853a08" ed="T"/>三髻。亦能破壞部哆及那羅延。此則皆是方
+<lb n="0853a02" ed="T"/><p cb:type="dharani" xml:id="pT20p0853a0201">「<note n="0853001" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānām apratihataśāsa nānām, tadyathā, Oṁ garuḍa-vāhana, cakrapāṇi catur-bhuja, huṁ huṁ samayamanusmara, bodhi-sattvo jñāpayati svāhā.</note><anchor xml:id="nkr_note_foreign_0853001" n="0853001"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀哆
+<lb n="0853a03" ed="T"/>舍<note place="inline">引</note>　娑曩<note place="inline">引</note>　<note n="0853002" resp="Taisho" type="orig" place="foot text">喃＝南【宋】</note><note n="0853002" resp="CBETA" type="mod">喃【大】，南【宋】</note><app n="0853002"><lem wit="【大】">喃</lem><rdg resp="Taisho" wit="【宋】">南</rdg></app><note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他唵<note place="inline">引</note>　誐嚕拏嚩
+<lb n="0853a04" ed="T"/><note place="inline">引</note>　賀曩作羯囉<note place="inline">二合</note>　波<note place="inline">引</note>　尼左覩哩部<note place="inline">二合</note>　惹吽
+<lb n="0853a05" ed="T"/>吽三摩努娑摩<note place="inline">二合</note>　囉<g ref="#CB00155"/>地薩怛嚩<note place="inline">二合</note>　阿惹拏
+<lb n="0853a06" ed="T"/><note place="inline">二合</note>　波野底」</p>
+<lb n="0853a07" ed="T"/><p xml:id="pT20p0853a0701">「妙吉祥說此真言，速能作於吉祥之事，印名
+<lb n="0853a08" ed="T"/>三髻，亦能破壞部哆及那羅延，此則皆是方
 <lb n="0853a09" ed="T"/>便攝化眾生。</p>
-<lb n="0853a10" ed="T"/><p cb:type="dharani" xml:id="pT20p0853a1001"><note n="0853003" resp="Taisho" place="foot text" type="orig">Namaḥ samanta-buddhānām aprati hataśāsanānām, tadyathā, Oṁ mahāmaheśvara, bhūtādhi-pativṛṣadhvaja, pralambajaṭāmakuṭa-dhāriṇe sitabhasmadhūsaritamūrti huṁ phaṭ phaṭ, bodhisattvo jñāpayati svāhā.</note><anchor xml:id="nkr_note_foreign_0853003" n="0853003"/>曩謨三滿哆沒馱<note place="inline">引</note>喃<note place="inline">引</note>摩鉢囉<note place="inline">二合</note>底賀哆
-<lb n="0853a11" ed="T"/>舍<note place="inline">引</note>娑曩<note place="inline">引</note>喃<note place="inline">引</note>怛儞也<note place="inline">二合</note>他唵<note place="inline">引</note>摩賀<note place="inline">引</note>摩
-<lb n="0853a12" ed="T"/>呬<note place="inline">引</note>室左<note place="inline">二合</note>囉部哆<note place="inline">引</note>地波底沒哩<note place="inline">二合</note>沙特
-<lb n="0853a13" ed="T"/>嚩<note place="inline">二合</note>惹鉢囉<note place="inline">二合</note>覽嚩惹吒摩俱吒馱<note place="inline">引</note>哩尼
-<lb n="0853a14" ed="T"/>悉哆婆娑摩<note place="inline">引</note>度娑哩哆沒哩底<note place="inline">二合</note>吽頗吒
-<lb n="0853a15" ed="T"/>頗吒<g ref="#CB00155"/>地薩怛<g ref="#CB00155"/><note place="inline">二合引</note>惹拏<note place="inline">二合</note>波野底<note place="inline"><app type="star" corresp="#0849007"><lem wit="【大】">入</lem><rdg resp="Taisho" wit="【明】">入聲</rdg></app></note></p>
-<lb n="0853a16" ed="T"/><p xml:id="pT20p0853a1601">此真言我自宣說。為慈愍眾生。印名大叉。與
-<lb n="0853a17" ed="T"/>明同用亦破部多之眾。</p>
+<lb n="0853a10" ed="T"/><p cb:type="dharani" xml:id="pT20p0853a1001">「<note n="0853003" resp="Taisho" type="orig" place="foot text">Namaḥ samanta-buddhānām aprati hataśāsanānām, tadyathā, Oṁ mahāmaheśvara, bhūtādhi-pativṛṣadhvaja, pralambajaṭāmakuṭa-dhāriṇe sitabhasmadhūsaritamūrti huṁ phaṭ phaṭ, bodhisattvo jñāpayati svāhā.</note><anchor xml:id="nkr_note_foreign_0853003" n="0853003"/>曩謨三滿哆沒馱<note place="inline">引</note>　喃<note place="inline">引</note>　摩鉢囉<note place="inline">二合</note>　底賀哆
+<lb n="0853a11" ed="T"/>舍<note place="inline">引</note>　娑曩<note place="inline">引</note>　喃<note place="inline">引</note>　怛儞也<note place="inline">二合</note>　他唵<note place="inline">引</note>　摩賀<note place="inline">引</note>　摩
+<lb n="0853a12" ed="T"/>呬<note place="inline">引</note>　室左<note place="inline">二合</note>　囉部哆<note place="inline">引</note>　地波底沒哩<note place="inline">二合</note>　沙特
+<lb n="0853a13" ed="T"/>嚩<note place="inline">二合</note>　惹鉢囉<note place="inline">二合</note>　覽嚩惹吒摩俱吒馱<note place="inline">引</note>　哩尼
+<lb n="0853a14" ed="T"/>悉哆婆娑摩<note place="inline">引</note>　度娑哩哆沒哩底<note place="inline">二合</note>　吽頗吒
+<lb n="0853a15" ed="T"/>頗吒<g ref="#CB00155"/>地薩怛<g ref="#CB00155"/><note place="inline">二合引</note>　惹拏<note place="inline">二合</note>　波野底<note place="inline"><app type="star" corresp="#0849007"><lem wit="【大】">入</lem><rdg resp="Taisho" wit="【明】">入聲</rdg></app></note>」</p>
+<lb n="0853a16" ed="T"/><p xml:id="pT20p0853a1601">「此真言我自宣說，為慈愍眾生，印名大叉，與
+<lb n="0853a17" ed="T"/>明同用亦破部多之眾。」</p>
 <lb n="0853a18" ed="T"/><cb:juan n="004" fun="close"><cb:jhead>大方廣菩薩藏文殊師利根本儀軌經卷第四</cb:jhead></cb:juan>
 </cb:div></body></text></TEI>

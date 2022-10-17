@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="J20nB097">
 <teiHeader>
 	<fileDesc>
@@ -28,7 +29,7 @@
 			<availability>
 				<p>Available for non-commercial use when distributed with this header intact.</p>
 			</availability>
-			<date>2022-03-24 01:30:06 +0800</date>
+			<date>2022-10-15 17:14:39 +0800</date>
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>
@@ -56,7 +57,31 @@
 				</tagUsage>
 			</namespace>
 		</tagsDecl>
-			</encodingDesc>
+		<charDecl>
+			<char xml:id="CB04474">
+				<charName>CBETA CHARACTER CB04474</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[泳-永+曶]</value>
+				</charProp>
+				<mapping type="unicode">U+3CF7</mapping>
+				<mapping cb:dec="987514" type="PUA">U+F117A</mapping>
+			</char>
+			<char xml:id="CB30037">
+				<charName>CBETA CHARACTER CB30037</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[邱-丘+去]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>卻</value>
+				</charProp>
+				<mapping type="unicode">U+286AB</mapping>
+				<mapping cb:dec="1013077" type="PUA">U+F7555</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
 	<profileDesc>
 		<langUsage>
 			<language ident="en">English</language>
@@ -95,7 +120,7 @@
 <lb n="0494a17" ed="J"/>利刀，於咽喉一刺即殺五祖之禪，手上著即手上殺、
 <lb n="0494a18" ed="J"/>足上著即足上殺，具如上手段方為大善知識，初不
 <lb n="0494a19" ed="J"/>聞其悟後而讀儒書、博今古也。黃檗接裴公、兜率降
-<lb n="0494a20" ed="J"/>無盡、東林出蘇子、鳥窠伏樂天，真率之於荊公、法雲
+<lb n="0494a20" ed="J"/>無盡、東林出蘇子、鳥窠伏樂天，<note n="0494a2001" resp="CBETA.ting" cb:provider="來函：海印智＆达那难陀 (2022-08-20)" type="add" note_key="J20.0494a20.13">CBETA 按：「真率」，僧人法名，疑作「真淨」。荊公（王安石）捨宅為寺，報請克文為住持，神宗並賜克文號「真淨禪師」。可參考《釋氏稽古略》（T49n2037_p0873a19-21）。</note>真率之於荊公、法雲
 <lb n="0494a21" ed="J"/>之於山谷，大慧門下士夫宰官盈百，此諸大老其文
 <lb n="0494a22" ed="J"/>學不知勝出於諸公否？諸公之信從悅服，不審服其
 <lb n="0494a23" ed="J"/>文字之博、學識之廣，抑耑為大法也？君歸，持此語謝
@@ -207,7 +232,7 @@
 <lb n="0495b17" ed="J"/>者也。能作是觀，則即此一切有為之法無體、無性，皆
 <lb n="0495b18" ed="J"/>是金剛般若波羅蜜經也。玄沙曰：「髑髏即金剛體。」長
 <lb n="0495b19" ed="J"/>沙曰：「欲識金剛體，但看髑髏前。」雪峰曰：「不識金剛體，
-<lb n="0495b20" ed="J"/>郤喚作緣生。」是故，無論有為、無為，一切萬法本是金
+<lb n="0495b20" ed="J"/><note n="0495b2001" resp="CBETA" type="add">卻【CB】，<g ref="#CB30037"/>【嘉興】</note><app n="0495b2001"><lem wit="【CB】" resp="CBETA.ting">卻<note type="cf1">J40nB494_p0615a21</note></lem><rdg wit="【嘉興】"><g ref="#CB30037"/></rdg></app>喚作緣生。」是故，無論有為、無為，一切萬法本是金
 <lb n="0495b21" ed="J"/>剛堅固之體，縱南嶽大師金剛無礙之智，亦從信解
 <lb n="0495b22" ed="J"/>諸法但一心作唯虛無實，方成金剛無礙智也。</p><p xml:id="pJ20p0495b2219" cb:place="inline">是知
 <lb n="0495b23" ed="J"/>前佛、後佛皆同一轍。若不爾者，欲解五千餘言文字
@@ -250,8 +275,8 @@
 <lb n="0496a04" ed="J"/>以隱而不現、麤而不妙。若空我執，以悲願熏之，則遍
 <lb n="0496a05" ed="J"/>界現身，隨緣赴感，不期然而然矣。在眾生分中雖麤
 <lb n="0496a06" ed="J"/>而隱，然未嘗不具，若肯返照，莫執前塵，則應時顯現，
-<lb n="0496a07" ed="J"/>即麤而妙矣。</p><p xml:id="pJ20p0496a0706" cb:place="inline">永明曰：「高低嶽瀆共轉根本法輪，大小
-<lb n="0496a08" ed="J"/>鱗毛普現色身三味。」故曰：「撲落非他物，縱橫不是塵，
+<lb n="0496a07" ed="J"/>即麤而妙矣。</p><p xml:id="pJ20p0496a0706" cb:place="inline">永明曰：「高低嶽瀆，共轉根本法輪。大小
+<lb n="0496a08" ed="J"/>鱗毛，普現色身三<note n="0496a0801" resp="CBETA" type="add" note_key="J20.0496a08.08">昧【CB】，味【嘉興】</note><app n="0496a0801"><lem wit="【CB】" resp="CBETA.ting" cb:provider="來函：海印智＆达那难陀 (2022-08-23)">昧<note type="cf1">T48n2016_p0601b04</note></lem><rdg wit="【嘉興】">味</rdg></app>。」故曰：「撲落非他物，縱橫不是塵，
 <lb n="0496a09" ed="J"/>山河及大地，全露法王身。」則根根塵塵悉是法身普
 <lb n="0496a10" ed="J"/>現，未嘗有毫髮隱覆。《法華經》中分身諸佛亦非分析
 <lb n="0496a11" ed="J"/>法身為多，亦非前後差別也。交集同時，而多寶古佛
@@ -276,7 +301,7 @@
 <lb n="0496b02" ed="J"/>分也。</p></cb:div>
 <lb n="0496b03" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">一念變化</cb:mulu><head>一念變化</head>
 <lb n="0496b04" ed="J"/><p xml:id="pJ20p0496b0401">秀州北門有李畫師，見水蛭於烈日中反覆曝之，其
-<lb n="0496b05" ed="J"/>腹裂開，見蜻蜒游颺而去。其人戲將一蛭反覆擾之，
+<lb n="0496b05" ed="J"/>腹裂開，見蜻蜓游颺而去。其人戲將一蛭反覆擾之，
 <lb n="0496b06" ed="J"/>頃之腹開，即出蜈蚣一條，蓋其一念嗔毒即化是類
 <lb n="0496b07" ed="J"/>矣。足徵藏識無體，從緣現相；業無定性，剎那變易。夫
 <lb n="0496b08" ed="J"/>水蛭之與蜻蜓異也，水蛭重濁遲鈍，忽<note n="0496b0801" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0496b0801"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>游颺太虛，
@@ -298,7 +323,7 @@
 <lb n="0496b24" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">效驗</cb:mulu><head>效驗</head>
 <lb n="0496b25" ed="J"/><p xml:id="pJ20p0496b2501">學道者效驗不在禪定、神通、天眼、宿命……等，但在除惡
 <lb n="0496b26" ed="J"/>習、廣心量，令本地風光巍巍蕩蕩，上契十方諸佛、下
-<lb n="0496b27" ed="J"/>合六道群生，沕然混合，一體銷鎔。唯同道者默默相
+<lb n="0496b27" ed="J"/>合六道群生，<note n="0496b2701" resp="CBETA" type="add" note_key="J20.0496b27.06"><g ref="#CB04474"/>【CB】，沕【嘉興】（CBETA 按：「<g ref="#CB04474"/>」字指「青黑色」時，同「淴」、「沕」。「沕」字本身無「合」義，「<g ref="#CB04474"/>」字則另有「合」義，如《大佛頂如來密因修證了義諸菩薩萬行首楞嚴經》卷9：「三摩地中心愛綿<g ref="#CB04474"/>」（T19n0945_p0149c14-15）、《北京五大部直音會韻》卷2：「<g ref="#CB04474"/>　(音閔合也際也)。」（J19nB048_p0232a12）。此處疑形近而誤，故依文義修訂作「<g ref="#CB04474"/>」。）</note><app n="0496b2701"><lem wit="【CB】" resp="CBETA.ting" cb:provider="來函：海印智＆达那难陀 (2022-08-23)"><g ref="#CB04474"/></lem><rdg wit="【嘉興】">沕</rdg></app>然混合，一體銷鎔。唯同道者默默相
 <pb n="0496c" ed="J" xml:id="J20.B097.0496c"/>
 <lb n="0496c01" ed="J"/>符，三乘權漸了不能測，此真效驗耳。舍此別有，均非
 <lb n="0496c02" ed="J"/>真正，是故心地透脫，赫奕光明，則各項習氣自然脫
@@ -410,9 +435,9 @@
 <lb n="0497c24" ed="J"/>而為能隱蓋，萬像即法身、法身即萬像。眾生迷昧，妄
 <lb n="0497c25" ed="J"/>見萬像，故法身隱而假名萬像。當萬像正顯現時，即
 <lb n="0497c26" ed="J"/>是法身熾然顯現時也。</p><p xml:id="pJ20p0497c2610" cb:place="inline">《法界觀》曰：「事既攬理則事虛
-<lb n="0497c27" ed="J"/>理實，全事中之理挺然露現，亦如求真金於瓶盤釵
+<lb n="0497c27" ed="J"/>理實，全事中之理挺然露現。」亦如求真金於瓶盤釵
 <pb n="0498a" ed="J" xml:id="J20.B097.0498a"/>
-<lb n="0498a01" ed="J"/>釧之中，左提右挈終不可得，而不知渾身是金也。」求
+<lb n="0498a01" ed="J"/>釧之中，左提右挈終不可得，而不知渾身是金也。求
 <lb n="0498a02" ed="J"/>法身於萬象者亦爾，若見萬象渾是法身，則應念透
 <lb n="0498a03" ed="J"/>出，萬象即隱、法身即顯，方知萬象本無、法身本有，萬
 <lb n="0498a04" ed="J"/>象本隱、法身本顯，生死結業悉成夢事，此所謂透脫
@@ -421,7 +446,7 @@
 <lb n="0498a07" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">融通</cb:mulu><head>融通</head>
 <lb n="0498a08" ed="J"/><p xml:id="pJ20p0498a0801">纔有絲毫，便成隔礙，乃為心境所縛、聲色所膠，如衣
 <lb n="0498a09" ed="J"/>敝絮行荊棘林，裹牛皮於烈日下，展轉不能自在，終
-<lb n="0498a10" ed="J"/>日能所、終日對待，縱有細密功夫，而不能融化奈何。</p>
+<lb n="0498a10" ed="J"/>日能所、終日對待，縱有細密功夫而不能融化。奈何？</p>
 <lb n="0498a11" ed="J"/><p xml:id="pJ20p0498a1101">永明大師曰：「物我遇智火之燄，融唯心之爐。」妙哉斯
 <lb n="0498a12" ed="J"/>旨，以盡法界、虛空界為一唯心之大爐，上至諸佛、下
 <lb n="0498a13" ed="J"/>及群生，并一切差別窒礙之物悉于中烹鍊，徹底銷
@@ -447,8 +472,8 @@
 <lb n="0498b05" ed="J"/>非喧而熾然常說；若必藉耳聽舌談，是生滅之本，虛
 <lb n="0498b06" ed="J"/>妄之法也。</p></cb:div>
 <lb n="0498b07" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">執默然無說</cb:mulu><head>執默然無說</head>
-<lb n="0498b08" ed="J"/><p xml:id="pJ20p0498b0801">人果得道則終日說而無所說，無所說而熾然說，故
-<lb n="0498b09" ed="J"/>曰：「說時默，默時說。」大施門開無壅塞，法爾如是也。</p><p xml:id="pJ20p0498b0920" cb:place="inline">今
+<lb n="0498b08" ed="J"/><p xml:id="pJ20p0498b0801">人果得道，則終日說而無所說，無所說而熾然說，故
+<lb n="0498b09" ed="J"/>曰：「說時默，默時說，大施門開無壅塞。」法爾如是也。</p><p xml:id="pJ20p0498b0920" cb:place="inline">今
 <lb n="0498b10" ed="J"/>有執默然無說為維摩入不二法門者，病彼言說是
 <lb n="0498b11" ed="J"/>大不然，竟不達維摩不說法音雷吼，至今大地普聞，
 <lb n="0498b12" ed="J"/>而乃謗為默耶？經曰：「雖復不依言語道，亦復不著無

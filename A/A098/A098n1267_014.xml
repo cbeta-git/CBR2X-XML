@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="A098n1267">
 <teiHeader>
 	<fileDesc>
@@ -28,7 +29,7 @@
 			<availability>
 				<p>Available for non-commercial use when distributed with this header intact.</p>
 			</availability>
-			<date>2022-05-04 10:13:30 +0800</date>
+			<date>2022-10-16 03:07:00 +0800</date>
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>
@@ -181,6 +182,18 @@
 				<mapping type="unicode">U+22606</mapping>
 				<mapping cb:dec="1005151" type="PUA">U+F565F</mapping>
 			</char>
+			<char xml:id="CB27104">
+				<charName>CBETA CHARACTER CB27104</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[糸*(十/田/寸)]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>縛</value>
+				</charProp>
+				<mapping cb:dec="1010144" type="PUA">U+F69E0</mapping>
+			</char>
 		</charDecl>
 	</encodingDesc>
 	<profileDesc>
@@ -275,7 +288,7 @@
 <lb ed="A" n="0240a09"/><item xml:id="itemA098p0240a0901">堅固女經一卷<note place="inline">一名牢固女經　蒲州六紙</note></item>
 <lb ed="A" n="0240a10"/><item xml:id="itemA098p0240a1001">德光太子經一卷<note place="inline">一名頼吒和羅所問光復太子經　蒲州十九紙</note></item>
 <lb ed="A" n="0240a11"/><item xml:id="itemA098p0240a1101">大意經一卷<note place="inline">蒲州五紙</note></item>
-<lb ed="A" n="0240a12"/><item xml:id="itemA098p0240a1201"><note n="0240a1201" resp="CBETA" type="add">商【CB】，啇【金藏】</note><app n="0240a1201"><lem wit="【CB】" resp="CBETA.maha">商</lem><rdg wit="【金藏】">啇</rdg></app>主天子所問經一卷<note place="inline">或無所問字　蒲州十七紙</note></item>
+<lb ed="A" n="0240a12"/><item xml:id="itemA098p0240a1201"><note n="0240a1201" resp="CBETA" type="add" note_key="A098.0240a12.01">商【CB】，啇【金藏】</note><app n="0240a1201"><lem wit="【CB】" resp="CBETA.maha">商</lem><rdg wit="【金藏】">啇</rdg></app>主天子所問經一卷<note place="inline">或無所問字　蒲州十七紙</note></item>
 <pb ed="A" xml:id="A098.1267.0240b" n="0240b"/>
 <lb ed="A" n="0240b01"/><item xml:id="itemA098p0240b0101">諸法<g ref="#CB08764"/>上經一卷<note place="inline">或加王字　蒲州二十二紙</note></item>
 <lb ed="A" n="0240b02"/><item xml:id="itemA098p0240b0201">師子莊嚴王菩薩請問經一卷
@@ -493,7 +506,7 @@
 <lb ed="A" n="0249a02"/>甲<g ref="#CB06902"/>智第二</item>
 <lb ed="A" n="0249a03"/><item xml:id="itemA098p0249a0301">此是金剛暴惡大菩薩三摩地一切
 <lb ed="A" n="0249a04"/>如來大方便智第三</item>
-<lb ed="A" n="0249a05"/><item xml:id="itemA098p0249a0501">金剛拳大菩薩三摩地縳一切如來
+<lb ed="A" n="0249a05"/><item xml:id="itemA098p0249a0501">金剛拳大菩薩三摩地<g ref="#CB27104"/>一切如來
 <lb ed="A" n="0249a06"/>身口意智第四</item>
 <lb ed="A" n="0249a07"/><item xml:id="itemA098p0249a0701">如來部中金剛波羅蜜一切如來金剛
 <lb ed="A" n="0249a08"/>三摩耶智第一</item>
@@ -528,7 +541,7 @@
 <lb ed="A" n="0250a12"/>引入一切如來智第二</item>
 <pb ed="A" xml:id="A098.1267.0250b" n="0250b"/>
 <lb ed="A" n="0250b01"/><item xml:id="itemA098p0250b0101">一切如來三摩耶鈎鏁摩訶菩提薩
-<lb ed="A" n="0250b02"/>埵三摩地一切如來三摩耶縳智第三</item>
+<lb ed="A" n="0250b02"/>埵三摩地一切如來三摩耶<g ref="#CB27104"/>智第三</item>
 <lb ed="A" n="0250b03"/><item xml:id="itemA098p0250b0301">一切如來攝入摩訶菩提薩埵三摩耶所
 <lb ed="A" n="0250b04"/>生金剛三摩地名如來金剛攝入智第四</item></list></item>
 <lb ed="A" n="0250b05"/><item xml:id="itemA098p0250b0501">金剛頂瑜伽中略出念誦經卷第三</item>
@@ -803,8 +816,8 @@
 <lb ed="A" n="0261a12"/>羅於楊都譯見費長房錄
 <pb ed="A" xml:id="A098.1267.0261b" n="0261b"/>
 <lb ed="A" n="0261b01"/><list><item xml:id="itemA098p0261b0101">上三經同卷</item></list></item></list></item></list></item>
-<lb ed="A" n="0261b02"/><item xml:id="itemA098p0261b0201"><note n="0261b0201" resp="CBETA" type="add">商【CB】，啇【金藏】</note><app n="0261b0201"><lem wit="【CB】" resp="CBETA.maha">商</lem><rdg wit="【金藏】">啇</rdg></app>主天子所問經一卷<note place="inline">或無所問字十九紙</note>
-<lb ed="A" n="0261b03"/><list><item xml:id="itemA098p0261b0301"><note n="0261b0301" resp="CBETA" type="add">商【CB】，啇【金藏】</note><app n="0261b0301"><lem wit="【CB】" resp="CBETA.maha">商</lem><rdg wit="【金藏】">啇</rdg></app>主天子所問經
+<lb ed="A" n="0261b02"/><item xml:id="itemA098p0261b0201"><note n="0261b0201" resp="CBETA" type="add" note_key="A098.0261b02.01">商【CB】，啇【金藏】</note><app n="0261b0201"><lem wit="【CB】" resp="CBETA.maha">商</lem><rdg wit="【金藏】">啇</rdg></app>主天子所問經一卷<note place="inline">或無所問字十九紙</note>
+<lb ed="A" n="0261b03"/><list><item xml:id="itemA098p0261b0301"><note n="0261b0301" resp="CBETA" type="add" note_key="A098.0261b03.01">商【CB】，啇【金藏】</note><app n="0261b0301"><lem wit="【CB】" resp="CBETA.maha">商</lem><rdg wit="【金藏】">啇</rdg></app>主天子所問經
 <lb ed="A" n="0261b04"/><list><item xml:id="itemA098p0261b0401">右隋開皇十五年八月闍那崛多
 <lb ed="A" n="0261b05"/>等於大興善寺譯九月訖見費長
 <lb ed="A" n="0261b06"/>房錄學士費長房等筆受</item></list></item></list></item>
