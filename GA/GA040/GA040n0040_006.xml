@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="GA040n0040">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Zhongguo Fosi Shizhi Huikan, Electronic version, No. 40 平山堂圖志</title>
+			<title xml:lang="zh-Hant">中國佛寺史志彙刊數位版, No. 40 平山堂圖志</title>
+			<author>清 趙之璧撰</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>10卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">GA</idno>.<idno type="vol">40</idno>.<idno type="no">40</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2024-10-24 21:57:07 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Zhongguo Fosi Shizhi Huikan</title>
+				<title level="s" xml:lang="zh-Hant">中國佛寺史志彙刊</title>
+				<title level="m" xml:lang="zh-Hant">平山堂圖志</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Digital Archive of Chinese Buddhist Temple Gazetteers Project which is funded by Chung-Hwa Institute of Buddhist Studies and executed by Dharma Drum Institute of Liberal Arts</p>
+			<p xml:lang="zh-Hant" cb:type="ly">法鼓文理學院、中華佛學研究所之「中國佛教寺廟志數位典藏」專案提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【志彙】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB01096">
+				<charName>CBETA CHARACTER CB01096</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[木*巳]</value>
+				</charProp>
+				<mapping type="unicode">U+233CC</mapping>
+				<mapping cb:dec="984136" type="PUA">U+F0448</mapping>
+			</char>
+			<char xml:id="CB05270">
+				<charName>CBETA CHARACTER CB05270</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[拚-ㄙ+ㄊ]</value>
+				</charProp>
+				<mapping type="unicode">U+22B35</mapping>
+				<mapping cb:dec="988310" type="PUA">U+F1496</mapping>
+			</char>
+			<char xml:id="CB17032">
+				<charName>CBETA CHARACTER CB17032</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[山*(厂@干)]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>岸</value>
+				</charProp>
+				<mapping type="unicode">U+21DA8</mapping>
+				<mapping cb:dec="1000072" type="PUA">U+F4288</mapping>
+			</char>
+			<char xml:id="CB34780">
+				<charName>CBETA CHARACTER CB34780</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[(毤-公+((並-(前-刖))-一))-儿+豕]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>蕤</value>
+				</charProp>
+				<mapping type="unicode">U+3F54</mapping>
+				<mapping cb:dec="1017820" type="PUA">U+F87DC</mapping>
+			</char>
+			<char xml:id="CB34781">
+				<charName>CBETA CHARACTER CB34781</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[(宋-木+儿)*辱]</value>
+				</charProp>
+				<mapping type="unicode">U+4887</mapping>
+				<mapping cb:dec="1017821" type="PUA">U+F87DD</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2024-10-22">
+			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu type="其他" level="1">藝文三</cb:mulu><cb:mulu type="其他" level="2">詩二</cb:mulu><cb:mulu type="其他" level="3">國朝</cb:mulu><cb:mulu type="其他" level="4">上巳平山堂修褉，分得急字</cb:mulu>
+<milestone unit="juan" n="6"/>
+<pb ed="GA" xml:id="GA040.0040.0353a" n="0353a"/>
+<lb ed="GA" n="0353a01"/><cb:mulu type="卷" n="6"></cb:mulu><cb:juan fun="open" n="6"><cb:jhead>平山堂圖志卷第六</cb:jhead></cb:juan>
+<lb ed="GA" n="0353a02"/><byline cb:type="author">寧夏趙之壁編纂</byline>
+<lb ed="GA" n="0353a03"/><cb:div type="other"><cb:mulu type="其他" level="1">藝文四</cb:mulu><head>藝文四</head>
+<lb ed="GA" n="0353a04"/><cb:div type="other"><cb:mulu type="其他" level="2">詩三</cb:mulu><head>詩三</head>
+<lb ed="GA" n="0353a05"/><cb:div type="other"><cb:mulu type="其他" level="3">國朝</cb:mulu><head>國朝</head>
+<lb ed="GA" n="0353a06"/><cb:div type="other"><cb:mulu type="其他" level="4">恭和御製平山堂原韻</cb:mulu><head>恭和
+<lb ed="GA" n="0353a07"/>御製平山堂原韻</head><byline cb:type="author">高士奇</byline>
+<lb ed="GA" n="0353a08"/><lg xml:id="lgGA040p0353a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">閒堂古徑蜀岡西　霈霈江雲入檻低</l><l style="text-indent:1em;">寒月磵花隨
+<lb ed="GA" n="0353a09"/>候落　冷烟山鳥盡情啼</l><l style="text-indent:1em;">纔因地迥
+<lb ed="GA" n="0353a10"/>龍鑣駐　却喜庭寬羽衛棲</l><l style="text-indent:1em;">傳說名臣遊賞處　今經
+<pb ed="GA" xml:id="GA040.0040.0354a" n="0354a"/>
+<lb ed="GA" n="0354a01"/>萬乘有新題</l></lg></cb:div>
+<lb ed="GA" n="0354a02"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂應制欽限七律體用八齊韻二首</cb:mulu><head>平山堂應
+<lb ed="GA" n="0354a03"/>制
+<lb ed="GA" n="0354a04"/>欽限七律體用八齊韻二首</head><byline cb:type="author">汪士鋐</byline>
+<lb ed="GA" n="0354a05"/><lg xml:id="lgGA040p0354a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">六一堂高俯碧溪　仙鑣玉輅擁臺西</l><l style="text-indent:1em;">長天日影輝
+<lb ed="GA" n="0354a06"/>龍轡　滿徑松陰散馬蹄</l><l style="text-indent:1em;">四野迥看青靄合　遙山高與白雲
+<lb ed="GA" n="0354a07"/>齊</l><l style="text-indent:1em;">蜀岡此日看留
+<lb ed="GA" n="0354a08"/>蹕　珍重
+<lb ed="GA" n="0354a09"/>宸章萬古題</l></lg>
+<lb ed="GA" n="0354a10"/><lg xml:id="lgGA040p0354a1001" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">聖主東廵駐竹西　觀風攬勝到招提</l><l style="text-indent:1em;">千官扈
+<pb ed="GA" xml:id="GA040.0040.0355a" n="0355a"/>
+<lb ed="GA" n="0355a01"/>蹕鳴珂入　萬騎從行簇仗齊</l><l style="text-indent:1em;">雲路霓旌松際出　江天塔影
+<lb ed="GA" n="0355a02"/>望中低</l>
+<lb ed="GA" n="0355a03"/><l style="text-indent:1em;">翠華臨幸傳
+<lb ed="GA" n="0355a04"/>奎藻　共仰怡情
+<lb ed="GA" n="0355a05"/>御墨題</l></lg></cb:div>
+<lb ed="GA" n="0355a06"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂</cb:mulu><head>平山堂</head><byline cb:type="author">崔崋</byline>
+<lb ed="GA" n="0355a07"/><lg xml:id="lgGA040p0355a0701" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">烟樹蕪城外　平山問古堂</l><l style="text-indent:1em;">風流懷異代　鞍馬駐斜
+<lb ed="GA" n="0355a08"/>陽</l><l style="text-indent:1em;">天闊江帆隱　雲橫嶺鴈長</l><l style="text-indent:1em;">廬陵名姓在　花外斷
+<lb ed="GA" n="0355a09"/>碑蒼</l></lg></cb:div>
+<lb ed="GA" n="0355a10"/><cb:div type="other"><cb:mulu type="其他" level="4">過平山堂，懷王阮亭</cb:mulu><head>過平山堂，懷王阮亭</head><byline cb:type="author">曹貞吉</byline>
+<pb ed="GA" xml:id="GA040.0040.0356a" n="0356a"/>
+<lb ed="GA" n="0356a01"/><lg xml:id="lgGA040p0356a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">蜀岡南下俯平沙　策杖登臨繫釣槎</l><l style="text-indent:1em;">自是山光能
+<lb ed="GA" n="0356a02"/>悅客　非關遊子不思家</l><l style="text-indent:1em;">天垂白練江流闊　門對丹
+<lb ed="GA" n="0356a03"/>楓驛路斜</l><l style="text-indent:1em;">太息法曹今已去　空餘灌木聚寒鴉</l></lg></cb:div>
+<lb ed="GA" n="0356a04"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂次東山先生韻</cb:mulu><head>平山堂次東山先生韻</head><byline cb:type="author">趙吉士</byline>
+<lb ed="GA" n="0356a05"/><lg xml:id="lgGA040p0356a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">地脉通岷峨　崇岡起天半</l><l style="text-indent:1em;">繚城抱如屏　瞰野峙若
+<lb ed="GA" n="0356a06"/>案</l><l style="text-indent:1em;">滄桑竟何有　陵谷變昏旦</l><l style="text-indent:1em;">獨有六一翁　歷久聲
+<lb ed="GA" n="0356a07"/>施爛</l><l style="text-indent:1em;">古堂廢復興　丹艧開榛蔓</l><l style="text-indent:1em;">至今觴咏地　風流
+<lb ed="GA" n="0356a08"/>永不斷</l><l style="text-indent:1em;">政事與文章　可知兩無畔</l><l style="text-indent:1em;">我來訪遺跡　長
+<lb ed="GA" n="0356a09"/>嘯冠屢岸</l><l style="text-indent:1em;">看山憑危欄　集客啟高閈</l><l style="text-indent:1em;">詎云學士優
+<lb ed="GA" n="0356a10"/>　寸陰分緡算</l><l style="text-indent:1em;">編摩念先澤　<reg>真</reg>湻風未散</l><l style="text-indent:1em;">追和平山
+<pb ed="GA" xml:id="GA040.0040.0357a" n="0357a"/>
+<lb ed="GA" n="0357a01"/>篇　散辭語璀璨</l><l style="text-indent:1em;">淵源今可師　物我希同患</l><l style="text-indent:1em;">劖入龍
+<lb ed="GA" n="0357a02"/>虵壁　古今賞奇玩</l></lg></cb:div>
+<lb ed="GA" n="0357a03"/><cb:div type="other"><cb:mulu type="其他" level="4">泛廣陵西鄙至平山堂</cb:mulu><head>泛廣陵西鄙至平山堂</head><byline cb:type="author">畢際有</byline>
+<lb ed="GA" n="0357a04"/><lg xml:id="lgGA040p0357a0401" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">柳色蕭疎暮靄浮　紅橋放櫂足夷猶</l><l style="text-indent:1em;">雙扉隱見花
+<lb ed="GA" n="0357a05"/>間徑　一水迴環竹裏樓</l><l style="text-indent:1em;">日落人歸停畫舫　荷枯天
+<lb ed="GA" n="0357a06"/>冷立沙鷗</l><l style="text-indent:1em;">歐陽遺蹟知何在　隊隊牛羊下隴頭</l></lg></cb:div>
+<lb ed="GA" n="0357a07"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂中秋讌集，奉酬金長真觀察二十四韻</cb:mulu><head>平山堂中秋讌集，奉酬金長<reg>真</reg>觀察二十四韻</head>
+<lb ed="GA" n="0357a08"/><byline cb:type="author">盛符升</byline>
+<lb ed="GA" n="0357a09"/><lg xml:id="lgGA040p0357a0901" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">蜀岡何逶迤　平臨江上山</l><l style="text-indent:1em;">山光落空翠　紛羅几席
+<lb ed="GA" n="0357a10"/>間</l><l style="text-indent:1em;">有堂自慶歷　六一相追攀</l><l style="text-indent:1em;">何期歷異代　舊觀去
+<pb ed="GA" xml:id="GA040.0040.0358a" n="0358a"/>
+<lb ed="GA" n="0358a01"/>復還</l><l style="text-indent:1em;">廢興感今昔　憑弔思前賢</l><l style="text-indent:1em;">踵事抑何美　層樓
+<lb ed="GA" n="0358a02"/>跨其<reg>巔</reg></l><l style="text-indent:1em;">東瞰九曲池　西掬第五泉</l><l style="text-indent:1em;">平山共<reg>真</reg>賞　合
+<lb ed="GA" n="0358a03"/>沓爭高鶱</l><l style="text-indent:1em;">落成復修禊　翰墨如雲烟</l><l style="text-indent:1em;">此會當秋半
+<lb ed="GA" n="0358a04"/>　明月滿江干</l><l style="text-indent:1em;">瞻慕依榱桷　瓣香肅敦盤</l><l style="text-indent:1em;">寥寥六百
+<lb ed="GA" n="0358a05"/>載　對越儼相看</l><l style="text-indent:1em;">合坐同仰止　次第披琅玕</l><l style="text-indent:1em;">西園逐
+<lb ed="GA" n="0358a06"/>飛蓋　相與勉歲寒</l><l style="text-indent:1em;">曾聞芍藥圃　賓主稱王韓</l><l style="text-indent:1em;">中秋
+<lb ed="GA" n="0358a07"/>撰樂語　淮海推詞翰</l><l style="text-indent:1em;">昔我從濟南　九日來盤桓</l><l style="text-indent:1em;">酬
+<lb ed="GA" n="0358a08"/>和傾豪俊　文酒留餘歡</l><l style="text-indent:1em;">勝事每遙集　詞人樂比肩</l>
+<lb ed="GA" n="0358a09"/><l style="text-indent:1em;">千秋此登賞　麗藻尤芊綿</l><l style="text-indent:1em;">地以高賢重　文緣嘉會
+<lb ed="GA" n="0358a10"/>傳</l><l style="text-indent:1em;">堂前憶楊柳　風流足後先</l><l style="text-indent:1em;">管弦方度曲　待月意
+<pb ed="GA" xml:id="GA040.0040.0359a" n="0359a"/>
+<lb ed="GA" n="0359a01"/>悠然</l><l style="text-indent:1em;">蒼茫恣俯仰　山川為布筵</l></lg></cb:div>
+<lb ed="GA" n="0359a02"/><cb:div type="other"><cb:mulu type="其他" level="4">和王阮亭先生九日登平山堂雜感</cb:mulu><head>和王阮亭先生九日登平山堂雜感</head>
+<lb ed="GA" n="0359a03"/><byline cb:type="author">盛符升</byline>
+<lb ed="GA" n="0359a04"/><lg xml:id="lgGA040p0359a0401" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">此日籃輿愜勝遊　平山高閣對清秋</l><l style="text-indent:1em;">春生坐上吟
+<lb ed="GA" n="0359a05"/>成卷　再把茱萸泛碧流</l></lg>
+<lb ed="GA" n="0359a06"/><lg xml:id="lgGA040p0359a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">六一遺蹤對晚霞　叢祠古樹集寒鴉</l><l style="text-indent:1em;">春風曾憶仙
+<lb ed="GA" n="0359a07"/>翁面　師友歐蘇得幾家</l></lg></cb:div>
+<lb ed="GA" n="0359a08"/><cb:div type="other"><cb:mulu type="其他" level="4">紅橋</cb:mulu><head>紅橋</head><byline cb:type="author">孫枝蔚</byline>
+<lb ed="GA" n="0359a09"/><lg xml:id="lgGA040p0359a0901" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">畫舫日將斜　紅橋對酒家</l><l style="text-indent:1em;">歌聲傳水調　女伴折荷
+<lb ed="GA" n="0359a10"/>花</l><l style="text-indent:1em;">明月臨城樹　涼風亂野蛙</l><l style="text-indent:1em;">竹西騎馬客　歸路不
+<pb ed="GA" xml:id="GA040.0040.0360a" n="0360a"/>
+<lb ed="GA" n="0360a01"/>言賒</l></lg></cb:div>
+<lb ed="GA" n="0360a02"/><cb:div type="other"><cb:mulu type="其他" level="4">蜀岡</cb:mulu><head>蜀岡</head><byline cb:type="author">范國祿</byline>
+<lb ed="GA" n="0360a03"/><lg xml:id="lgGA040p0360a0301" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">落日西風縱馬蹄　平陽岡上草萋萋</l><l style="text-indent:1em;">不知來往人
+<lb ed="GA" n="0360a04"/>多少　看盡水天雲樹低</l></lg></cb:div>
+<lb ed="GA" n="0360a05"/><cb:div type="other"><cb:mulu type="其他" level="4">避暑平山堂</cb:mulu><head>避暑平山堂</head><byline cb:type="author">陶季</byline>
+<lb ed="GA" n="0360a06"/><lg xml:id="lgGA040p0360a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">周遭<reg>鬣</reg><reg>鬣</reg>萬株松　穉竹千竿盡籜龍</l><l style="text-indent:1em;">隨意蹋歌行
+<lb ed="GA" n="0360a07"/>不倦　佛堂才打午時鐘</l></lg>
+<lb ed="GA" n="0360a08"/><lg xml:id="lgGA040p0360a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">薄雲無定望中銷　歷歷風帆信晚潮</l><l style="text-indent:1em;">山色隔江青
+<lb ed="GA" n="0360a09"/>一抹　不知何地是金焦</l></lg>
+<lb ed="GA" n="0360a10"/><lg xml:id="lgGA040p0360a1001" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">踈簾清簟兩相宜　卧誦坡公雪夜詩</l><l style="text-indent:1em;">才喜五泉烹
+<pb ed="GA" xml:id="GA040.0040.0361a" n="0361a"/>
+<lb ed="GA" n="0361a01"/>茗後　北堂聽雨又多時</l></lg></cb:div>
+<lb ed="GA" n="0361a02"/><cb:div type="other"><cb:mulu type="其他" level="4">記平山堂相別慧公畧無消息</cb:mulu><head>記平山堂相別慧公畧無消息</head><byline cb:type="author">陶季</byline>
+<lb ed="GA" n="0361a03"/><lg xml:id="lgGA040p0361a0301" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">觸熱曾過第五泉　芒鞵箬笠暮雲天</l><l style="text-indent:1em;">悤悤一飯輕
+<lb ed="GA" n="0361a04"/>舟去　不見湯休又七年</l></lg></cb:div>
+<lb ed="GA" n="0361a05"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂</cb:mulu><head>平山堂</head><byline cb:type="author">方象璜</byline>
+<lb ed="GA" n="0361a06"/><lg xml:id="lgGA040p0361a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">蜀岡何逶迤　巋然出林藪</l><l style="text-indent:1em;">雲霞時卷舒　松竹蔭左
+<lb ed="GA" n="0361a07"/>右</l><l style="text-indent:1em;">城郭杳靄中　登樓重搔首</l><l style="text-indent:1em;">緬惟慶歷年　廬陵嘗
+<lb ed="GA" n="0361a08"/>載酒</l><l style="text-indent:1em;">滄桑幾廢興　臨風延佇久</l></lg></cb:div>
+<lb ed="GA" n="0361a09"/><cb:div type="other"><cb:mulu type="其他" level="4">初冬同人集飲平山堂</cb:mulu><head>初冬李艾山宋射陵宗子發李季子王景州、歙州
+<lb ed="GA" n="0361a10"/>崑繩集飲平山堂分韻</head><byline cb:type="author">冷士嵋</byline>
+<pb ed="GA" xml:id="GA040.0040.0362a" n="0362a"/>
+<lb ed="GA" n="0362a01"/><lg xml:id="lgGA040p0362a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">孟冬美風日　登此平山堂</l><l style="text-indent:1em;">結賞列迥眺　俛視臨蜀
+<lb ed="GA" n="0362a02"/>岡</l><l style="text-indent:1em;">參差見遠岫　山色寒益蒼</l><l style="text-indent:1em;">木葉紛且盡　鴻鴈爭
+<lb ed="GA" n="0362a03"/>南翔</l><l style="text-indent:1em;">充懷托遠寄　歷覽何洸洋</l><l style="text-indent:1em;">引勝發遙咏　不覺
+<lb ed="GA" n="0362a04"/>頺夕陽</l><l style="text-indent:1em;">輿人促歸騎　落日遙相望</l><l style="text-indent:1em;">寒烟起隴戍　古
+<lb ed="GA" n="0362a05"/>道歸牛羊</l><l style="text-indent:1em;">揮手各分去　通懷安可忘</l></lg></cb:div>
+<lb ed="GA" n="0362a06"/><cb:div type="other"><cb:mulu type="其他" level="4">至日同梁藥亭暨同社諸子讌集登平山堂</cb:mulu><head>至日同梁藥亭暨同社諸子讌集登平山堂</head>
+<lb ed="GA" n="0362a07"/><byline cb:type="author">卓爾堪</byline>
+<lb ed="GA" n="0362a08"/><lg xml:id="lgGA040p0362a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">迢迢遺事說前人　陳迹登臨又一新</l><l style="text-indent:1em;">天地愛才餘
+<lb ed="GA" n="0362a09"/>數子　江山占勝歷千春</l><l style="text-indent:1em;">聚緣湖海關情遠　飲藉詩
+<lb ed="GA" n="0362a10"/>歌發興<reg>真</reg></l><l style="text-indent:1em;">至日喜無氷雪氣　泉邊冬草軟如茵</l></lg></cb:div>
+<pb ed="GA" xml:id="GA040.0040.0363a" n="0363a"/>
+<lb ed="GA" n="0363a01"/><cb:div type="other"><cb:mulu type="其他" level="4">遊平山堂</cb:mulu><head>遊平山堂</head><byline cb:type="author">孔尚任</byline>
+<lb ed="GA" n="0363a02"/><lg xml:id="lgGA040p0363a0201" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">慶歷遺堂見舊顏　晴空欄檻俯邗關</l><l style="text-indent:1em;">密疎堤上千
+<lb ed="GA" n="0363a03"/>絲柳　深淺江南一帶山</l><l style="text-indent:1em;">文酒猶傳居士意　烟花總
+<lb ed="GA" n="0363a04"/>待使君閒</l><l style="text-indent:1em;">行吟記取松林路　每度春風放艇還</l></lg></cb:div>
+<lb ed="GA" n="0363a05"/><cb:div type="other"><cb:mulu type="其他" level="4">早春泛舟至平山堂分韻</cb:mulu><head>早春泛舟至平山堂分韻</head><byline cb:type="author">曹寅</byline>
+<lb ed="GA" n="0363a06"/><lg xml:id="lgGA040p0363a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">倚天欄檻極空明　吳楚風烟畫不成</l><l style="text-indent:1em;">潄罷寒泉無
+<lb ed="GA" n="0363a07"/>一語　竹輿歸去有鐘聲</l></lg></cb:div>
+<lb ed="GA" n="0363a08"/><cb:div type="other"><cb:mulu type="其他" level="4">戊子暮春書平山堂壁呈麗杲和尚</cb:mulu><head>戊子暮春書平山堂壁呈麗杲和尚</head>
+<lb ed="GA" n="0363a09"/><byline cb:type="author">傅澤洪</byline>
+<lb ed="GA" n="0363a10"/><lg xml:id="lgGA040p0363a1001" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">幾折坡陀路漸平　到來翻喜亂鴉鳴</l><l style="text-indent:1em;">不須更問師
+<pb ed="GA" xml:id="GA040.0040.0364a" n="0364a"/>
+<lb ed="GA" n="0364a01"/>聞否　且看松光挂晚晴</l></lg></cb:div>
+<lb ed="GA" n="0364a02"/><cb:div type="other"><cb:mulu type="其他" level="4">春日登平山堂</cb:mulu><head>春日登平山堂</head><byline cb:type="author">繆肇甲</byline>
+<lb ed="GA" n="0364a03"/><lg xml:id="lgGA040p0364a0301" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">六一存高蹤　遺堂猶慶歷</l><l style="text-indent:1em;">政事有餘閒　曾此<reg>靜</reg>棲
+<lb ed="GA" n="0364a04"/>息</l><l style="text-indent:1em;">古人不可見　風流尚如昔</l><l style="text-indent:1em;">雙塔<reg>插</reg>霄漢　微磬響
+<lb ed="GA" n="0364a05"/>空寂</l><l style="text-indent:1em;">殘碑北宋留　古寺南朝得</l><l style="text-indent:1em;">春來山翠多　倚欄
+<lb ed="GA" n="0364a06"/>試吹笛</l></lg></cb:div>
+<lb ed="GA" n="0364a07"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂</cb:mulu><head>平山堂</head><byline cb:type="author">杜仁傑</byline>
+<lb ed="GA" n="0364a08"/><lg xml:id="lgGA040p0364a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">政事與文章　古來兼者寡</l><l style="text-indent:1em;">卓哉歐陽公　乃是名世
+<lb ed="GA" n="0364a09"/>者</l><l style="text-indent:1em;">折花卲伯湖　命妓傳杯斚</l><l style="text-indent:1em;">登臨何多暇　禾黍盈
+<lb ed="GA" n="0364a10"/>四野</l><l style="text-indent:1em;">太守既風流　賓客亦文雅</l><l style="text-indent:1em;">坐對江南山　翩翩
+<pb ed="GA" xml:id="GA040.0040.0365a" n="0365a"/>
+<lb ed="GA" n="0365a01"/>共揮灑</l><l style="text-indent:1em;">我來何所見　緇徒滿蓮社</l><l style="text-indent:1em;">山木鳥來還　山
+<lb ed="GA" n="0365a02"/>寺鐘已打</l></lg></cb:div>
+<lb ed="GA" n="0365a03"/><cb:div type="other"><cb:mulu type="其他" level="4">登平山堂分賦</cb:mulu><head>登平山堂分賦</head><byline cb:type="author">黃陽生</byline>
+<lb ed="GA" n="0365a04"/><lg xml:id="lgGA040p0365a0401" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">移舟未放酒杯空　尋壑經邱路幾重</l><l style="text-indent:1em;">黃葉半遮蕭
+<lb ed="GA" n="0365a05"/>寺院　虛堂平對遠山峯</l><l style="text-indent:1em;">郡中賢牧來廉叔　竹下浮
+<lb ed="GA" n="0365a06"/>生有仲容</l><l style="text-indent:1em;">誰信歡游<note n="0365a0601" resp="CBETA" type="add">卻【CB】，郤【志彙】</note><app n="0365a0601"><lem wit="【CB】" resp="CBETA.maha">卻</lem><rdg wit="【志彙】">郤</rdg></app>惆悵　鶴城秋盡又初冬</l></lg></cb:div>
+<lb ed="GA" n="0365a07"/><cb:div type="other"><cb:mulu type="其他" level="4">上已平山堂試第五泉</cb:mulu><head>上已平山堂試第五泉</head><byline cb:type="author">黃雲</byline>
+<lb ed="GA" n="0365a08"/><lg xml:id="lgGA040p0365a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">棲靈寺畔涓涓瀨　細路松間我舊諳</l><l style="text-indent:1em;">最是禊辰宜
+<lb ed="GA" n="0365a09"/>水潔　偏于鄉味覺泉甘</l><l style="text-indent:1em;">吟詩客愛親寒碧　洗鉢僧
+<lb ed="GA" n="0365a10"/>多就石潭</l><l style="text-indent:1em;">夕照馬嘶人去後　獨留清淺伴烟嵐</l></lg></cb:div>
+<pb ed="GA" xml:id="GA040.0040.0366a" n="0366a"/>
+<lb ed="GA" n="0366a01"/><cb:div type="other"><cb:mulu type="其他" level="4">上已登平山堂修禊</cb:mulu><head>上已登平山堂修禊</head><byline cb:type="author">何嘉延</byline>
+<lb ed="GA" n="0366a02"/><lg xml:id="lgGA040p0366a0201" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">我家會稽山　蘭亭在其右</l><l style="text-indent:1em;">陵谷世代殊　荒蕪既以
+<lb ed="GA" n="0366a03"/>久</l><l style="text-indent:1em;">萍梗汎天涯　歲月惜常負</l><l style="text-indent:1em;">祓禊多勝游　於吾亦
+<lb ed="GA" n="0366a04"/>何有</l><l style="text-indent:1em;">昨暮渡揚子　扁舟繫堤柳</l><l style="text-indent:1em;">清晨<reg>值</reg>上巳　招攜
+<lb ed="GA" n="0366a05"/>藉良友</l><l style="text-indent:1em;">水邊非不佳　所愛陟層阜</l><l style="text-indent:1em;">遙指平山堂　搆
+<lb ed="GA" n="0366a06"/>自六一叟</l><l style="text-indent:1em;">有宋慶歷間　賢喆踵郡守</l><l style="text-indent:1em;">公餘恣游讌
+<lb ed="GA" n="0366a07"/>　搜奇遍林藪</l><l style="text-indent:1em;">大雅渺雲烟　琳宮踞培塿</l><l style="text-indent:1em;">循牧與名
+<lb ed="GA" n="0366a08"/>彥　力任慨不苟</l><l style="text-indent:1em;">豁達闢軒楹　蒼茫納戶牖</l><l style="text-indent:1em;">岧嶤還
+<lb ed="GA" n="0366a09"/>鉅觀　一滌山靈垢</l><l style="text-indent:1em;">非供耳目觀　緬懷前徽偶</l><l style="text-indent:1em;">乃知
+<lb ed="GA" n="0366a10"/>宇宙大　締造在隻手</l><l style="text-indent:1em;">勳德不自立　將同草木朽</l><l style="text-indent:1em;">芳
+<pb ed="GA" xml:id="GA040.0040.0367a" n="0367a"/>
+<lb ed="GA" n="0367a01"/>菲賞及時　流連暢杯酒</l><l style="text-indent:1em;">褰荔終與期　贈藥漫相諉</l>
+<lb ed="GA" n="0367a02"/><l style="text-indent:1em;">鄙哉溱洧風　挽此澆俗厚</l></lg></cb:div>
+<lb ed="GA" n="0367a03"/><cb:div type="other"><cb:mulu type="其他" level="4">紅橋</cb:mulu><head>紅橋</head><byline cb:type="author">史申義</byline>
+<lb ed="GA" n="0367a04"/><lg xml:id="lgGA040p0367a0401" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">紅橋無幾曲　秋水城隅長</l><l style="text-indent:1em;">蓮葉已離披　芙蓉正堪
+<lb ed="GA" n="0367a05"/>賞</l><l style="text-indent:1em;">安得攜童穉　深深搖畫漿</l><l style="text-indent:1em;">非同洛濱戲　不比山
+<lb ed="GA" n="0367a06"/>陰訪</l><l style="text-indent:1em;">頗聞保障湖　蒲葦清流廣</l><l style="text-indent:1em;">水天自容與　人影
+<lb ed="GA" n="0367a07"/>久俯仰</l><l style="text-indent:1em;">雅游無俗情　勝地發遐想</l><l style="text-indent:1em;">鳧鸛各成羣　蛺
+<lb ed="GA" n="0367a08"/>蝶見三兩</l><l style="text-indent:1em;">秋蟬鳴古柳　吾舟或可榜</l><l style="text-indent:1em;">未知此生間
+<lb ed="GA" n="0367a09"/>　當著屐幾緉</l></lg></cb:div>
+<lb ed="GA" n="0367a10"/><cb:div type="other"><cb:mulu type="其他" level="4">暮登平山堂</cb:mulu><head>暮登平山堂</head><byline cb:type="author">程文正</byline>
+<pb ed="GA" xml:id="GA040.0040.0368a" n="0368a"/>
+<lb ed="GA" n="0368a01"/><lg xml:id="lgGA040p0368a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">檥舟尋舊跡　步屧到花龕</l><l style="text-indent:1em;">碧樹迎秋雨　蒼山帶夕
+<lb ed="GA" n="0368a02"/>嵐</l><l style="text-indent:1em;">僧閒疎磬遠　地古野泉甘</l><l style="text-indent:1em;">接翅昏鴉亂　遊人酒
+<lb ed="GA" n="0368a03"/>正酣</l></lg></cb:div>
+<lb ed="GA" n="0368a04"/><cb:div type="other"><cb:mulu type="其他" level="4">同賀天士出郭雨驟不得到平山</cb:mulu><head>同賀天士出郭雨驟不得到平山</head><byline cb:type="author">姚曼</byline>
+<lb ed="GA" n="0368a05"/><lg xml:id="lgGA040p0368a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">重過漫說古揚州　行李同君此暫留</l><l style="text-indent:1em;">十二樓臺千
+<lb ed="GA" n="0368a06"/>嶂夕　萬家烟雨一船秋</l><l style="text-indent:1em;">但經好酒還移棹　不到平
+<lb ed="GA" n="0368a07"/>山亦勝遊</l><l style="text-indent:1em;">才子況當逢賀監　何妨抵掌笑清流</l></lg></cb:div>
+<lb ed="GA" n="0368a08"/><cb:div type="other"><cb:mulu type="其他" level="4">揚州</cb:mulu><head>揚州</head><byline cb:type="author">徐昂發</byline>
+<lb ed="GA" n="0368a09"/><lg xml:id="lgGA040p0368a0901" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">欄檻層層俯薜蘿　文章太守昔經過</l><l style="text-indent:1em;">花爭幕下紅
+<lb ed="GA" n="0368a10"/>粧豔　山借江南翠黛多</l><l style="text-indent:1em;">酒拍玉船添畫燭　香籠繡
+<pb ed="GA" xml:id="GA040.0040.0369a" n="0369a"/>
+<lb ed="GA" n="0369a01"/>毯試蠻鞾</l><l style="text-indent:1em;">春風楊柳垂垂綠　腸斷蘇公一曲歌</l></lg></cb:div>
+<lb ed="GA" n="0369a02"/><cb:div type="other"><cb:mulu type="其他" level="4">上已過平山堂</cb:mulu><head>上已過平山堂</head><byline cb:type="author">查慎行</byline>
+<lb ed="GA" n="0369a03"/><lg xml:id="lgGA040p0369a0301" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">發軫維揚城　迢迢入塵陌</l><l style="text-indent:1em;">不逢湔裙女　但見騎驢
+<lb ed="GA" n="0369a04"/>客</l><l style="text-indent:1em;">平山平似<g ref="#CB17032"/>　夾路植松栢</l><l style="text-indent:1em;">堂空感良遊　事往念
+<lb ed="GA" n="0369a05"/>前哲</l><l style="text-indent:1em;">當時手種柳　搖落那禁折</l><l style="text-indent:1em;">暫此駐征鞍　一帘
+<lb ed="GA" n="0369a06"/>風向夕</l></lg></cb:div>
+<lb ed="GA" n="0369a07"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂</cb:mulu><head>平山堂</head><byline cb:type="author">蔣菁</byline>
+<lb ed="GA" n="0369a08"/><lg xml:id="lgGA040p0369a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">堂前楊柳手經栽　江上晴嵐望裏開</l><l style="text-indent:1em;">自是蘇公三
+<lb ed="GA" n="0369a09"/>過後　惟聞鐘磬鎖蒼苔</l></lg></cb:div>
+<lb ed="GA" n="0369a10"/><cb:div type="other"><cb:mulu type="其他" level="4">由紅橋至平山堂</cb:mulu><head>由紅橋至平山堂</head><byline cb:type="author">劉家珍</byline>
+<pb ed="GA" xml:id="GA040.0040.0370a" n="0370a"/>
+<lb ed="GA" n="0370a01"/><lg xml:id="lgGA040p0370a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">十里春沙襯馬蹄　垂楊兩岸野雲齊</l><l style="text-indent:1em;">今朝自分遊
+<lb ed="GA" n="0370a02"/>湖早　已有笙歌在竹西</l></lg></cb:div>
+<lb ed="GA" n="0370a03"/><cb:div type="other"><cb:mulu type="其他" level="4">遊平山堂</cb:mulu><head>遊平山堂</head><byline cb:type="author">劉師恕</byline>
+<lb ed="GA" n="0370a04"/><lg xml:id="lgGA040p0370a0401" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">一船載童冠　往眺平山春</l><l style="text-indent:1em;">棟宇存名蹟　風流見古
+<lb ed="GA" n="0370a05"/>人</l><l style="text-indent:1em;">虛牕收遠色　浮世藐微塵</l><l style="text-indent:1em;">更欲乘風去　東尋若
+<lb ed="GA" n="0370a06"/>木津</l></lg></cb:div>
+<lb ed="GA" n="0370a07"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂懷古二首</cb:mulu><head>平山堂懷古二首</head><byline cb:type="author">王式丹</byline>
+<lb ed="GA" n="0370a08"/><lg xml:id="lgGA040p0370a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">登樓一拜思無窮　闌檻依然拱萬峰</l><l style="text-indent:1em;">幾度春風別
+<lb ed="GA" n="0370a09"/>楊柳　于今夕照冷杉松</l><l style="text-indent:1em;">冠山梵閣題新額　伐石名
+<lb ed="GA" n="0370a10"/>泉寄舊蹤</l><l style="text-indent:1em;">異代風流勞悵望　也<g ref="#CB05270"/>一醉飲千鍾</l></lg>
+<pb ed="GA" xml:id="GA040.0040.0371a" n="0371a"/>
+<lb ed="GA" n="0371a01"/><lg xml:id="lgGA040p0371a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">廣陵佳處敞層雲　天地蒼茫自古今</l><l style="text-indent:1em;">烟霧乍披風
+<lb ed="GA" n="0371a02"/>疉疉　晚烟欲落樹陰陰</l><l style="text-indent:1em;">鐘聲坐接諸天近　磵道行
+<lb ed="GA" n="0371a03"/>穿一徑深</l><l style="text-indent:1em;">林下何人供茗器　清泠半勺洗煩襟</l></lg></cb:div>
+<lb ed="GA" n="0371a04"/><cb:div type="other"><cb:mulu type="其他" level="4">揚州懷古</cb:mulu><head>揚州懷古</head><byline cb:type="author">杜詔</byline>
+<lb ed="GA" n="0371a05"/><lg xml:id="lgGA040p0371a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">一上平山堂　再拜歐陽子</l><l style="text-indent:1em;">歌吹古揚州　風流名刺
+<lb ed="GA" n="0371a06"/>史</l><l style="text-indent:1em;">政暇縱游宴　看山輒來此</l><l style="text-indent:1em;">蜀岡綿亘外　京口蒼
+<lb ed="GA" n="0371a07"/>茫裏</l><l style="text-indent:1em;">時移采花舫　座列傳花妓</l><l style="text-indent:1em;">酒闌載月歸　荷香
+<lb ed="GA" n="0371a08"/>攜袖底</l><l style="text-indent:1em;">誰誇金帶圍　富貴良有以</l><l style="text-indent:1em;">花開豔葳<g ref="#CB34780"/>　花
+<lb ed="GA" n="0371a09"/>落傷榛<note n="0371a0901" resp="CBETA" type="add">杞【CB】，<g ref="#CB01096"/>【志彙】</note><app n="0371a0901"><lem wit="【CB】" resp="CBETA.maha">杞</lem><rdg wit="【志彙】"><g ref="#CB01096"/></rdg></app></l><l style="text-indent:1em;">惟有檻前山　歷歷江頭起</l></lg></cb:div>
+<lb ed="GA" n="0371a10"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂懷古</cb:mulu><head>平山堂懷古</head><byline cb:type="author">顧嗣立</byline>
+<pb ed="GA" xml:id="GA040.0040.0372a" n="0372a"/>
+<lb ed="GA" n="0372a01"/><lg xml:id="lgGA040p0372a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">霜銷雲氣收　日腳正亭午</l><l style="text-indent:1em;">江光動碧瓦　隔岸青可
+<lb ed="GA" n="0372a02"/>數</l><l style="text-indent:1em;">吳山隱密林　淮岫矗極浦</l><l style="text-indent:1em;">積陰挾寒濤　勢欲到
+<lb ed="GA" n="0372a03"/>堂廡</l><l style="text-indent:1em;">緬懷六一翁　流風邁千古</l><l style="text-indent:1em;">傍崖置棟梁　於焉
+<lb ed="GA" n="0372a04"/>運斤斧</l><l style="text-indent:1em;">堂成集羣僚　清詩日吟苦</l><l style="text-indent:1em;">渡水采芙蓉　皓
+<lb ed="GA" n="0372a05"/>腕牽纖縷</l><l style="text-indent:1em;">翠娥趁月歌　紅裙蹋筵舞</l><l style="text-indent:1em;">遂使狐兔場
+<lb ed="GA" n="0372a06"/>　翻作圖書府</l><l style="text-indent:1em;">茫茫五百年　勝事今誰覩</l><l style="text-indent:1em;">空餘三字
+<lb ed="GA" n="0372a07"/>顏　斗大映屋宇</l><l style="text-indent:1em;">想當下筆時　肘腋勞撑拄</l><l style="text-indent:1em;">著紙墨
+<lb ed="GA" n="0372a08"/>淋漓　力挽千鈞弩</l><l style="text-indent:1em;">形如鸞鳳翔　結搆各綴補</l><l style="text-indent:1em;">歲久
+<lb ed="GA" n="0372a09"/>墨花妍　疎宕更媚嫵</l><l style="text-indent:1em;">摩挲不忍去　但以指畫肚</l><l style="text-indent:1em;">夕
+<lb ed="GA" n="0372a10"/>陽亂平蕪　黃葉響山塢</l><l style="text-indent:1em;">蜀岡鳥上下　棲靈送鐘鼓</l>
+<pb ed="GA" xml:id="GA040.0040.0373a" n="0373a"/>
+<lb ed="GA" n="0373a01"/><l style="text-indent:1em;">何當春明來　松翠潤細雨</l><l style="text-indent:1em;">屐齒印庭綠　桃泉咽石
+<lb ed="GA" n="0373a02"/>乳</l><l style="text-indent:1em;">醉翁許為徒　千載作賓主</l></lg></cb:div>
+<lb ed="GA" n="0373a03"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂讌集用壁間坡公次王居卿祠部韻</cb:mulu><head>平山堂讌集用壁間坡公次王居卿祠部韻</head>
+<lb ed="GA" n="0373a04"/><byline cb:type="author">唐建中</byline>
+<lb ed="GA" n="0373a05"/><lg xml:id="lgGA040p0373a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">守土風流兩居士　一翁愛醉一翁醒</l><l style="text-indent:1em;">何妨歌舞環
+<lb ed="GA" n="0373a06"/>珠翠　不少功名照汗青</l><l style="text-indent:1em;">潮帶中泠長似練　雲橫北
+<lb ed="GA" n="0373a07"/>固宛如屏</l><l style="text-indent:1em;">吾曹未老江山在　看取高樓俎豆馨</l></lg></cb:div>
+<lb ed="GA" n="0373a08"/><cb:div type="other"><cb:mulu type="其他" level="4">議復保障湖舊蹟</cb:mulu><head>議復保障湖舊蹟</head><byline cb:type="author">徐陶璋</byline>
+<lb ed="GA" n="0373a09"/><lg xml:id="lgGA040p0373a0901" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">湖留保障名　舊入廣陵志</l><l style="text-indent:1em;">城北引迴瀾　魚鳥雜荷
+<lb ed="GA" n="0373a10"/>芰</l><l style="text-indent:1em;">來往畫鷁通　溉田長禾穗</l><l style="text-indent:1em;">歲久感滄桑　湮鬱失
+<pb ed="GA" xml:id="GA040.0040.0374a" n="0374a"/>
+<lb ed="GA" n="0374a01"/>水利</l><l style="text-indent:1em;">邑里有名賢　慷慨陳大吏</l><l style="text-indent:1em;">故道須鑿疏　唱和
+<lb ed="GA" n="0374a02"/>興復議</l><l style="text-indent:1em;">此議雖已寢　經國非細事</l><l style="text-indent:1em;">同儕寫短歌　留
+<lb ed="GA" n="0374a03"/>待采風使</l></lg></cb:div>
+<lb ed="GA" n="0374a04"/><cb:div type="other"><cb:mulu type="其他" level="4">汪木缾招同諸子花朝集平山堂</cb:mulu><head>汪木缾招同諸子花朝集平山堂</head><byline cb:type="author">徐陶璋</byline>
+<lb ed="GA" n="0374a05"/><lg xml:id="lgGA040p0374a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">平疇一望蕪城北　堂開高敞延清風</l><l style="text-indent:1em;">山浮遠勢看
+<lb ed="GA" n="0374a06"/>隱見　墖留雙影撑青空</l><l style="text-indent:1em;">君家詩老<reg>真</reg>好事　頹垣斷
+<lb ed="GA" n="0374a07"/>綆修人工</l><l style="text-indent:1em;">身後傍臺成馬鬣　神靈欲伴歐陽公</l><l style="text-indent:1em;">春
+<lb ed="GA" n="0374a08"/>光滿眼集裙屐　擘箋飛盞花香中</l><l style="text-indent:1em;">我來覯此良宴
+<lb ed="GA" n="0374a09"/>會　斜陽映樹穿玲瓏</l></lg></cb:div>
+<lb ed="GA" n="0374a10"/><cb:div type="other"><cb:mulu type="其他" level="4">汪木缾招同諸子花朝集平山堂</cb:mulu><head>汪木缾招同諸子花朝集平山堂</head><byline cb:type="author">唐繼祖</byline>
+<pb ed="GA" xml:id="GA040.0040.0375a" n="0375a"/>
+<lb ed="GA" n="0375a01"/><lg xml:id="lgGA040p0375a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">千林雨歇春昌昌　數株風柳搖虛堂</l><l style="text-indent:1em;">江螺點疉青
+<lb ed="GA" n="0375a02"/>墮酒　來與六一分山光</l><l style="text-indent:1em;">當時主客不可見　韓林片
+<lb ed="GA" n="0375a03"/>石惟貛郎<note place="inline">壁間宋碣惟荊公一人</note></l><l style="text-indent:1em;">二老吟蛻亦久化　雜花狼
+<lb ed="GA" n="0375a04"/>藉空原香<note place="inline">北阜覺堂兩先生修復山堂頗極文酒之盛今皆葬山側</note></l><l style="text-indent:1em;">大雅日遠
+<lb ed="GA" n="0375a05"/>才力薄　暫湔塵上清中腸</l><l style="text-indent:1em;">名泉一甌吹佛火　松寮
+<lb ed="GA" n="0375a06"/>落日聞笙簧</l></lg></cb:div>
+<lb ed="GA" n="0375a07"/><cb:div type="other"><cb:mulu type="其他" level="4">汪木缾招同諸子花朝集平山堂</cb:mulu><head>汪木缾招同諸子花朝集平山堂</head><byline cb:type="author">方肇夔</byline>
+<lb ed="GA" n="0375a08"/><lg xml:id="lgGA040p0375a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">南徐諸峯羅畫屏　虛堂直與諸峯平</l><l style="text-indent:1em;">堂上搖毫翦
+<lb ed="GA" n="0375a09"/>江水　頓令秀色江天橫</l><l style="text-indent:1em;">木缾弟昆今二陸　蠻榼招
+<lb ed="GA" n="0375a10"/>客凭風櫺</l><l style="text-indent:1em;">百花爭圍沈宋席　酒酣落紙春蠶聲</l><l style="text-indent:1em;">天
+<pb ed="GA" xml:id="GA040.0040.0376a" n="0376a"/>
+<lb ed="GA" n="0376a01"/>光雲影盪胸臆　步虛髣髴來湘靈</l><l style="text-indent:1em;">漫誇山青因吾
+<lb ed="GA" n="0376a02"/>曹　吾曹眼為青山青</l></lg></cb:div>
+<lb ed="GA" n="0376a03"/><cb:div type="other"><cb:mulu type="其他" level="4">議復保障湖舊蹟</cb:mulu><head>議復保障湖舊蹟</head><byline cb:type="author">汪天與</byline>
+<lb ed="GA" n="0376a04"/><lg xml:id="lgGA040p0376a0401" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">廣陵據天心　佳麗擅夙昔</l><l style="text-indent:1em;">寶帶河繞郭　蜀岡扆其
+<lb ed="GA" n="0376a05"/>北</l><l style="text-indent:1em;">中開十里湖　一望涵空碧</l><l style="text-indent:1em;">所以鍾靈區　財賦天
+<lb ed="GA" n="0376a06"/>下積</l><l style="text-indent:1em;">嘗聞抵平山　揚舲競挂席</l><l style="text-indent:1em;">如何長葑菲　日久
+<lb ed="GA" n="0376a07"/>漸壅塞</l><l style="text-indent:1em;">但許浴鳬鷖　扁舟不可剌</l><l style="text-indent:1em;">何當復舊觀　吾
+<lb ed="GA" n="0376a08"/>儕任其責</l></lg></cb:div>
+<lb ed="GA" n="0376a09"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂</cb:mulu><head>平山堂</head><byline cb:type="author">張大受</byline>
+<lb ed="GA" n="0376a10"/><lg xml:id="lgGA040p0376a1001" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">六一風流迥莫攀　常留佳蹟愛平山</l><l style="text-indent:1em;">四衢城郭喧
+<pb ed="GA" xml:id="GA040.0040.0377a" n="0377a"/>
+<lb ed="GA" n="0377a01"/>闐外　千載樓臺杳靄間</l><l style="text-indent:1em;">石磴吟聲松響入　夕陽杯
+<lb ed="GA" n="0377a02"/>影鳥飛還</l><l style="text-indent:1em;">登臨我輩空今昔　獨為高文憶醉顏</l></lg></cb:div>
+<lb ed="GA" n="0377a03"/><cb:div type="other"><cb:mulu type="其他" level="4">重九，前三日平山堂和友人韻</cb:mulu><head>重九，前三日平山堂和友人韻</head><byline cb:type="author">徐葆光</byline>
+<lb ed="GA" n="0377a04"/><lg xml:id="lgGA040p0377a0401" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">登臨到此轉茫然　高閣平山出遠天</l><l style="text-indent:1em;">前輩詞場吾
+<lb ed="GA" n="0377a05"/>輩共　三分弦月二分先</l><l style="text-indent:1em;">隔江山在無中有　異代人
+<lb ed="GA" n="0377a06"/>豪廢後傳</l><l style="text-indent:1em;">堂外芙蓉尚如舊　背人獨醉夕陽邊</l></lg></cb:div>
+<lb ed="GA" n="0377a07"/><cb:div type="other"><cb:mulu type="其他" level="4">八月十六夜平山堂待月</cb:mulu><head>八月十六夜平山堂待月</head><byline cb:type="author">方原博</byline>
+<lb ed="GA" n="0377a08"/><lg xml:id="lgGA040p0377a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">八月十六夜　待月平山堂</l><l style="text-indent:1em;">是時獨陰黑　好景疑虛
+<lb ed="GA" n="0377a09"/>將</l><l style="text-indent:1em;">飲以酒一石　趣以詩數行</l><l style="text-indent:1em;">高歌寫清韻　天聽從
+<lb ed="GA" n="0377a10"/>來長</l><l style="text-indent:1em;">初出狂雲裏　隱隱含金光</l><l style="text-indent:1em;">少時北風大　驅雲
+<pb ed="GA" xml:id="GA040.0040.0378a" n="0378a"/>
+<lb ed="GA" n="0378a01"/>如驅羊</l><l style="text-indent:1em;">忽然平樓白　竹樹浮元霜</l><l style="text-indent:1em;">不見轉東向　稍
+<lb ed="GA" n="0378a02"/>喜來深廊</l><l style="text-indent:1em;">望滿笑老眼　遠覺松煙黃</l><l style="text-indent:1em;">更有影在水
+<lb ed="GA" n="0378a03"/>　橋冷空庭凉</l><l style="text-indent:1em;">人<reg>靜</reg>散琴弈　石路斷秋香</l><l style="text-indent:1em;">城頭明鼓
+<lb ed="GA" n="0378a04"/>角　星露回朝陽</l><l style="text-indent:1em;">憶昔六一子　吟嘯遙相望</l><l style="text-indent:1em;">月自有
+<lb ed="GA" n="0378a05"/>隱見　遊賞無偏妨</l><l style="text-indent:1em;">今我得此夕　何事生清狂</l><l style="text-indent:1em;">玉成
+<lb ed="GA" n="0378a06"/>應知感　不語高蒼蒼</l></lg></cb:div>
+<lb ed="GA" n="0378a07"/><cb:div type="other"><cb:mulu type="其他" level="4">過平山堂</cb:mulu><head>過平山堂</head><byline cb:type="author">方貞觀</byline>
+<lb ed="GA" n="0378a08"/><lg xml:id="lgGA040p0378a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">五年重到路依稀　滿檻松篁正落暉</l><l style="text-indent:1em;">極目雲歸和
+<lb ed="GA" n="0378a09"/>鳥疾　隔江山遠見煙微</l><l style="text-indent:1em;">物情捐棄拋團扇　人事炎
+<lb ed="GA" n="0378a10"/>凉感祫衣</l><l style="text-indent:1em;">莫更繞廊尋舊跡　共題名輩半都非</l></lg></cb:div>
+<pb ed="GA" xml:id="GA040.0040.0379a" n="0379a"/>
+<lb ed="GA" n="0379a01"/><cb:div type="other"><cb:mulu type="其他" level="4">載酒遊平山堂，即目成韻</cb:mulu><head>載酒遊平山堂，即目成韻</head><byline cb:type="author">張鵬翀</byline>
+<lb ed="GA" n="0379a02"/><lg xml:id="lgGA040p0379a0201" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">幾度平山載酒遊　畫船雲羃敞清秋</l><l style="text-indent:1em;">微陰綠浪紅
+<lb ed="GA" n="0379a03"/>闌裏　不用笙歌列兩頭</l></lg></cb:div>
+<lb ed="GA" n="0379a04"/><cb:div type="other"><cb:mulu type="其他" level="4">游平山堂</cb:mulu><head>游平山堂</head><byline cb:type="author">張廷璐</byline>
+<lb ed="GA" n="0379a05"/><lg xml:id="lgGA040p0379a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">蜀岡留勝蹟　結構俯郊坰</l><l style="text-indent:1em;">雲樹平高閣　烟帆接遠
+<lb ed="GA" n="0379a06"/>汀</l><l style="text-indent:1em;">野延當檻綠　山撫隔江青</l><l style="text-indent:1em;">太守風流在　千秋未
+<lb ed="GA" n="0379a07"/>杳冥</l></lg></cb:div>
+<lb ed="GA" n="0379a08"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂燕集，用韓孟會合聯句韻</cb:mulu><head>平山堂燕集，用韓孟會合聯句韻</head><byline cb:type="author">程夢星</byline>
+<lb ed="GA" n="0379a09"/><lg xml:id="lgGA040p0379a0901" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">禮經索居愁　易爻盍簪重</l><l style="text-indent:1em;">倦遊朋方來　未見意先
+<lb ed="GA" n="0379a10"/>勇</l><l style="text-indent:1em;">孟夏草木稠　空郊羽毛聳</l><l style="text-indent:1em;">駕言神輿輕　寄咏心
+<pb ed="GA" xml:id="GA040.0040.0380a" n="0380a"/>
+<lb ed="GA" n="0380a01"/>源涌</l><l style="text-indent:1em;">懷抱塞以開　山川昔多壅</l><l style="text-indent:1em;">郵函易寫憂　把袂
+<lb ed="GA" n="0380a02"/>難接踵</l><l style="text-indent:1em;">舊雨憶東西　停雲望邱壟</l><l style="text-indent:1em;">既結良辰歡　轉
+<lb ed="GA" n="0380a03"/>生後時恐</l><l style="text-indent:1em;">薄俗趨利塲　吾輩讀書種</l><l style="text-indent:1em;">晤語斥煩囂
+<lb ed="GA" n="0380a04"/>　論文戒閑冗</l><l style="text-indent:1em;">塵外敞虛堂　松陰弔詩塚<note place="inline">先外祖汪蛟門先生
+<lb ed="GA" n="0380a05"/>墓在堂側</note></l><l style="text-indent:1em;">蹟勝往古遺　風和惟日寵</l><l style="text-indent:1em;">嵐影過平疇　江光
+<lb ed="GA" n="0380a06"/>挹雕栱</l><l style="text-indent:1em;">俯瞰志自怡　歷險魂無恟</l><l style="text-indent:1em;">柳枝初嬋娟　吟
+<lb ed="GA" n="0380a07"/>情爭供奉</l><l style="text-indent:1em;">諸君收駢羅　鄙材恥癭腫</l><l style="text-indent:1em;">緬懷北宋時
+<lb ed="GA" n="0380a08"/>　即此南榮擁</l><l style="text-indent:1em;">橫笛官奴吹　擘牋營妓捧</l><l style="text-indent:1em;">散步聽春
+<lb ed="GA" n="0380a09"/>鶊　閑謠荅秋蛬</l><l style="text-indent:1em;">走或張籍僵　立似孟郊尰</l><l style="text-indent:1em;">咄哉維
+<lb ed="GA" n="0380a10"/>歐蘇　惜乎欠轍鞏</l><l style="text-indent:1em;">當年少倡酬　同儕想雜<reg><g ref="#CB34781"/></reg></l><l style="text-indent:1em;">至今
+<pb ed="GA" xml:id="GA040.0040.0381a" n="0381a"/>
+<lb ed="GA" n="0381a01"/>共登臨　千載使惕悚</l><l style="text-indent:1em;">世遠蓬卷風　地靈芝茁茸</l><l style="text-indent:1em;">何
+<lb ed="GA" n="0381a02"/>期集楩楠　遂令燦珩珙</l><l style="text-indent:1em;">高會盟晉齊　兼才得蜀隴</l>
+<lb ed="GA" n="0381a03"/><l style="text-indent:1em;">酒痕衣淋漓　墨瀋案清溶</l><l style="text-indent:1em;">放狂謝羈韁　脫畧笑拘
+<lb ed="GA" n="0381a04"/>拲</l><l style="text-indent:1em;">逸韻有流傳　得法在嫡冡</l><l style="text-indent:1em;">公等抽繭絲　我獨困
+<lb ed="GA" n="0381a05"/>蠶蛹</l><l style="text-indent:1em;">九萬鵬應摶　一足夔亦踊</l><l style="text-indent:1em;">蝸舍老藏身　鳳巢
+<lb ed="GA" n="0381a06"/>看養氄</l><l style="text-indent:1em;">蕩蕩天門開　坦坦大道甬</l><l style="text-indent:1em;">漢上且題襟　人
+<lb ed="GA" n="0381a07"/>海行洶洶</l></lg></cb:div>
+<lb ed="GA" n="0381a08"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂</cb:mulu><head>平山堂</head><byline cb:type="author">程夢星</byline>
+<lb ed="GA" n="0381a09"/><lg xml:id="lgGA040p0381a0901" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">歐公到處為齋堂　揚州結搆依蜀岡</l><l style="text-indent:1em;">政清俗化有
+<lb ed="GA" n="0381a10"/>餘暇　簿書不亂防清狂</l><l style="text-indent:1em;">眼前突兀非舊屋　興頹舉
+<pb ed="GA" xml:id="GA040.0040.0382a" n="0382a"/>
+<lb ed="GA" n="0382a01"/>廢無時荒</l><l style="text-indent:1em;">詩詞下筆妙一世　和者傑手皆蘇王</l><l style="text-indent:1em;">至
+<lb ed="GA" n="0382a02"/>今文士勝遊集　春秋排日提壺觴</l><l style="text-indent:1em;">四方過客偶信
+<lb ed="GA" n="0382a03"/>宿　好名亦必停游韁</l><l style="text-indent:1em;">雄樓傑閣滿天地　斯堂不與
+<lb ed="GA" n="0382a04"/>衡低昂</l><l style="text-indent:1em;">山平水遠妙蘊藉　畧如歐老行文章</l><l style="text-indent:1em;">南徐
+<lb ed="GA" n="0382a05"/>北固隔鄉縣　慿君眼力收江光</l><l style="text-indent:1em;">夷陵畫舫更何所
+<lb ed="GA" n="0382a06"/>　倚闌懷古山風凉</l></lg></cb:div>
+<lb ed="GA" n="0382a07"/><cb:div type="other"><cb:mulu type="其他" level="4">議復保障湖舊蹟</cb:mulu><head>議復保障湖舊蹟</head><byline cb:type="author">程夢星</byline>
+<lb ed="GA" n="0382a08"/><lg xml:id="lgGA040p0382a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">誅茅近蜀岡　東枕長湖曲</l><l style="text-indent:1em;">每苦葑草繁　頗礙鷗鷺
+<lb ed="GA" n="0382a09"/>浴</l><l style="text-indent:1em;">昔聞北湖水　淪漣千頃足</l><l style="text-indent:1em;">豈惟利灌溉　荷芰供
+<lb ed="GA" n="0382a10"/>遊目</l><l style="text-indent:1em;">自種青泥芹　遂令沙嶼促</l><l style="text-indent:1em;">販夫競刀錐　勝蹟
+<pb ed="GA" xml:id="GA040.0040.0383a" n="0383a"/>
+<lb ed="GA" n="0383a01"/>未易復</l><l style="text-indent:1em;">憑誰挽清波　貯此呀然腹</l><l style="text-indent:1em;">小艇時一來　高
+<lb ed="GA" n="0383a02"/>吟倚修竹</l></lg></cb:div>
+<lb ed="GA" n="0383a03"/><cb:div type="other"><cb:mulu type="其他" level="4">蜀岡尋古蹟</cb:mulu><head>蜀岡尋古蹟</head><byline cb:type="author">程夢星</byline>
+<lb ed="GA" n="0383a04"/><lg xml:id="lgGA040p0383a0401" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">曉上崑岡日暮還　試披荊莽共躋攀</l><l style="text-indent:1em;">文章難問歐
+<lb ed="GA" n="0383a05"/>蘇外　政學猶追胡范間</l><l style="text-indent:1em;">剩有濁河東注水　誰知蒙
+<lb ed="GA" n="0383a06"/>谷舊傳山</l><l style="text-indent:1em;">叢祠古剎無人到　更剔殘碑積蘚斑</l></lg></cb:div>
+<lb ed="GA" n="0383a07"/><cb:div type="other"><cb:mulu type="其他" level="4">遊平山堂</cb:mulu><head>遊平山堂</head><byline cb:type="author">查祥</byline>
+<lb ed="GA" n="0383a08"/><lg xml:id="lgGA040p0383a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">耳熟堂名識面初　平生來往歎麤疎</l><l style="text-indent:1em;">山隨江遠皆
+<lb ed="GA" n="0383a09"/>如俯　地以人傳信不虛</l><l style="text-indent:1em;">有客尚能知載月　因公兼
+<lb ed="GA" n="0383a10"/>欲想環滁</l><l style="text-indent:1em;">名區往往多僧占　碑碣聞從洗剔餘</l></lg></cb:div>
+<pb ed="GA" xml:id="GA040.0040.0384a" n="0384a"/>
+<lb ed="GA" n="0384a01"/><cb:div type="other"><cb:mulu type="其他" level="4">寄題蓮性寺東園</cb:mulu><head>寄題蓮性寺東園</head><byline cb:type="author">蔣溥</byline>
+<lb ed="GA" n="0384a02"/><lg xml:id="lgGA040p0384a0201" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">遙聞賀監最風流　吟遍蕪城寺寺樓</l><l style="text-indent:1em;">楊柳陰濃忘
+<lb ed="GA" n="0384a03"/>溽暑　芙蓉豔發採清秋</l><l style="text-indent:1em;">百城豈獨圖書富　三徑還
+<lb ed="GA" n="0384a04"/>從求仲遊</l><l style="text-indent:1em;">我亦江南憑眺久　何當問訊到林邱</l></lg></cb:div>
+<lb ed="GA" n="0384a05"/><cb:div type="other"><cb:mulu type="其他" level="4">冬日登平山堂，和王阮亭先生韻</cb:mulu><head>冬日登平山堂，和王阮亭先生韻</head><byline cb:type="author">張湄</byline>
+<lb ed="GA" n="0384a06"/><lg xml:id="lgGA040p0384a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">紅橋柳老葉墜霜　巢烏啞啞啼朝陽</l><l style="text-indent:1em;">蜀岡西望竦
+<lb ed="GA" n="0384a07"/>層構　繚白縈青天一方</l><l style="text-indent:1em;">萬株松翠罨微逕　木魚響
+<lb ed="GA" n="0384a08"/>出林中堂</l><l style="text-indent:1em;">廬陵題字無恙在　蛟龍盤鬱雲烟蒼</l><l style="text-indent:1em;">我
+<lb ed="GA" n="0384a09"/>來雖逢黃落後　水石明秀堪相羊</l><l style="text-indent:1em;">第五泉亭坐瀹
+<lb ed="GA" n="0384a10"/>茗　閒呼野叟談柴桑</l><l style="text-indent:1em;">江南諸山紛到眼　長流天塹
+<pb ed="GA" xml:id="GA040.0040.0385a" n="0385a"/>
+<lb ed="GA" n="0385a01"/>鳴湯湯</l><l style="text-indent:1em;">歷刼猶新六朝寺　剎竿森立旗飄揚</l><l style="text-indent:1em;">更倚
+<lb ed="GA" n="0385a02"/>高樓眺直北　遠帆如鳥墮渺茫</l><l style="text-indent:1em;">眉山淮海久寂寞
+<lb ed="GA" n="0385a03"/>　但有陳蹟留篇章</l><l style="text-indent:1em;">白頭懷舊心菀結　安能復鬬詩
+<lb ed="GA" n="0385a04"/>力强</l><l style="text-indent:1em;">寒凝磵壑日色澹　古梅籬下枝低昂</l><l style="text-indent:1em;">絕憐蕪
+<lb ed="GA" n="0385a05"/>城顦顇客　歲晏不得停征裝</l></lg></cb:div>
+<lb ed="GA" n="0385a06"/><cb:div type="other"><cb:mulu type="其他" level="4">遊蓮性寺東園，贈賀吳村二首</cb:mulu><head>遊蓮性寺東園，贈賀吳村二首</head><byline cb:type="author">朱星渚</byline>
+<lb ed="GA" n="0385a07"/><lg xml:id="lgGA040p0385a0701" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">保障河上擁林巒　闌檻多憑次第安</l><l style="text-indent:1em;">已慣乘船似
+<lb ed="GA" n="0385a08"/>騎馬　雅能結宇待驂鸞<note place="inline">有祠有閣皆仙界也</note></l><l style="text-indent:1em;">屏風峙後容徐
+<lb ed="GA" n="0385a09"/>歷　鏡面當前許縱看</l><l style="text-indent:1em;">直把君家湖一曲　移來此地
+<lb ed="GA" n="0385a10"/>共盤桓</l></lg>
+<pb ed="GA" xml:id="GA040.0040.0386a" n="0386a"/>
+<lb ed="GA" n="0386a01"/><lg xml:id="lgGA040p0386a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">歌吹紛紛鎮日忙　更誰買地闢閒堂</l><l style="text-indent:1em;">幽偏好傍千
+<lb ed="GA" n="0386a02"/>花墖　曲折多廵百步廊</l><l style="text-indent:1em;">得氣蘢葱撑老樹　捎雲青
+<lb ed="GA" n="0386a03"/>翠挺新篁</l><l style="text-indent:1em;">遊船徑過長凝望　占取風流在上方</l></lg></cb:div>
+<lb ed="GA" n="0386a04"/><cb:div type="other"><cb:mulu type="其他" level="4">揚州東園</cb:mulu><head>揚州東園</head><byline cb:type="author">屈復</byline>
+<lb ed="GA" n="0386a05"/><lg xml:id="lgGA040p0386a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">東園聯舊約　遊理自無邊</l><l style="text-indent:1em;">寺隔琅玕曲　風清玉樹
+<lb ed="GA" n="0386a06"/>前</l><l style="text-indent:1em;">閒吟尋至味　烹茗汲新泉</l><l style="text-indent:1em;">忽聽西鄰磬　花間落
+<lb ed="GA" n="0386a07"/>晚烟</l></lg></cb:div>
+<lb ed="GA" n="0386a08"/><cb:div type="other"><cb:mulu type="其他" level="4">寒食前五日泛舟紅橋二首</cb:mulu><head>寒食前五日泛舟紅橋二首</head><byline cb:type="author">陳撰</byline>
+<lb ed="GA" n="0386a09"/><lg xml:id="lgGA040p0386a0901" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">嬉春原不厭纏綿　况是皴雲嫩日天</l><l style="text-indent:1em;">憶得故園春
+<lb ed="GA" n="0386a10"/>信早　淡紅香白過湖船</l></lg>
+<pb ed="GA" xml:id="GA040.0040.0387a" n="0387a"/>
+<lb ed="GA" n="0387a01"/><lg xml:id="lgGA040p0387a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">綠蕪烟冷畫橋空　一夜春聲入雨中</l><l style="text-indent:1em;">百六已臨寒
+<lb ed="GA" n="0387a02"/>食近　桃花吹轉杜鵑風</l></lg></cb:div>
+<lb ed="GA" n="0387a03"/><cb:div type="other"><cb:mulu type="其他" level="4">曉上平山堂</cb:mulu><head>曉上平山堂</head><byline cb:type="author">周師周</byline>
+<lb ed="GA" n="0387a04"/><lg xml:id="lgGA040p0387a0401" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">萬松亭畔古秋壇　石磴高低露未乾</l><l style="text-indent:1em;">一氣早分花
+<lb ed="GA" n="0387a05"/>界白　六時初下日車寒</l><l style="text-indent:1em;">岡連巴蜀傳疑久　人到歐
+<lb ed="GA" n="0387a06"/>蘇繼起難</l><l style="text-indent:1em;">指點隔江山色近　臨風懷古涕汍瀾</l></lg></cb:div>
+<lb ed="GA" n="0387a07"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂</cb:mulu><head>平山堂</head><byline cb:type="author">汪從晉</byline>
+<lb ed="GA" n="0387a08"/><lg xml:id="lgGA040p0387a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">載酒郊原作勝遊　蜀岡放眼恰逢秋</l><l style="text-indent:1em;">平湖荷蓋香
+<lb ed="GA" n="0387a09"/>浮岸　入耳松濤風滿樓</l><l style="text-indent:1em;">明月二分招舊雨　遙山一
+<lb ed="GA" n="0387a10"/>桁豁閒愁</l><l style="text-indent:1em;">古泉新闢桐陰下　多少茶廿舌本留</l></lg></cb:div>
+<pb ed="GA" xml:id="GA040.0040.0388a" n="0388a"/>
+<lb ed="GA" n="0388a01"/><cb:div type="other"><cb:mulu type="其他" level="4">同程友聲紅橋夜汎</cb:mulu><head>同程友聲紅橋夜汎</head><byline cb:type="author">厲鶚</byline>
+<lb ed="GA" n="0388a02"/><lg xml:id="lgGA040p0388a0201" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">月黑水深荷葉路　凉螢無數繞船飛</l><l style="text-indent:1em;">與君今夜紅
+<lb ed="GA" n="0388a03"/>橋酒　不負揚州白苎衣</l></lg></cb:div>
+<lb ed="GA" n="0388a04"/><cb:div type="other"><cb:mulu type="其他" level="4">四月十八日同人泛舟紅橋，登平山堂，送全紹衣入京</cb:mulu><head>四月十八日同人泛舟紅橋，登平山堂，送全紹衣
+<lb ed="GA" n="0388a05"/>入京</head><byline cb:type="author">厲鶚</byline>
+<lb ed="GA" n="0388a06"/><lg xml:id="lgGA040p0388a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">邗溝夏水漲　城陰積深翠</l><l style="text-indent:1em;">酒舫壓草痕　經年還一
+<lb ed="GA" n="0388a07"/>至</l><l style="text-indent:1em;">故人四明客　含香識名字</l><l style="text-indent:1em;">太學待何蕃　少年推
+<lb ed="GA" n="0388a08"/>賈誼</l><l style="text-indent:1em;">合并有同岑　縶維情莫比</l><l style="text-indent:1em;">來聽郭公啼　暫為
+<lb ed="GA" n="0388a09"/>鰣魚醉</l><l style="text-indent:1em;">人生赴功名　時乎偶然遂</l><l style="text-indent:1em;">壯觀留長吟　自
+<lb ed="GA" n="0388a10"/>足千古意</l><l style="text-indent:1em;">西上陟蜀岡　新亭亦佳致</l><l style="text-indent:1em;">歐公遺構在
+<pb ed="GA" xml:id="GA040.0040.0389a" n="0389a"/>
+<lb ed="GA" n="0389a01"/>　清氣激松吹</l><l style="text-indent:1em;">歷茅司徒廟　眺謝司空寺</l><l style="text-indent:1em;">凉雲遞疎
+<lb ed="GA" n="0389a02"/>鐘　平楚碧無次</l><l style="text-indent:1em;">離愁生其間　紛來不可避</l><l style="text-indent:1em;">惟願追
+<lb ed="GA" n="0389a03"/>前修　遠轡從此始</l></lg></cb:div>
+<lb ed="GA" n="0389a04"/><cb:div type="other"><cb:mulu type="其他" level="4">程洴江編修招集篠園水亭分韻</cb:mulu><head>程洴江編修招集篠園水亭分韻</head><byline cb:type="author">厲鶚</byline>
+<lb ed="GA" n="0389a05"/><lg xml:id="lgGA040p0389a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">虛亭俯烟渚　客到眼初明</l><l style="text-indent:1em;">沙柳侵天影　風蒲學水
+<lb ed="GA" n="0389a06"/>聲</l><l style="text-indent:1em;">醉宜搖櫂去　詩向倚闌成</l><l style="text-indent:1em;">地主饒幽興　流連待
+<lb ed="GA" n="0389a07"/>月生</l></lg></cb:div>
+<lb ed="GA" n="0389a08"/><cb:div type="other"><cb:mulu type="其他" level="4">茅司徒廟迎送神辭</cb:mulu><head>茅司徒廟迎送神辭<note place="inline">并序</note></head><byline cb:type="author">厲鶚</byline>
+<lb ed="GA" n="0389a09"/><p xml:id="pGA040p0389a0901" style="margin-left:0em;text-indent:2em;">廣陵蜀岡平山堂畔，有茅司徒廟。相傳神五人，
+<lb ed="GA" n="0389a10"/>茅、許、蔣、祝、吳，其姓也。茅名勝，異姓約為兄弟。過
+<pb ed="GA" xml:id="GA040.0040.0390a" n="0390a"/>
+<lb ed="GA" n="0390a01"/>谿旁，見一嫗，共母事之。嫗為虎食，五人奮力殺
+<lb ed="GA" n="0390a02"/>虎，地自是絕虎患。予案：《南史》梁王琳為陳將吳
+<lb ed="GA" n="0390a03"/>明徹所殺，故吏朱瑒等請於陳徐陵，還其首，葬
+<lb ed="GA" n="0390a04"/>八公山側，尋有揚州茅智勝等五人密送喪柩
+<lb ed="GA" n="0390a05"/>達于鄴。《通鑑》揚州作壽陽，是時以壽陽為揚州
+<lb ed="GA" n="0390a06"/>也。琳舉兵平侯景，遭時多故，閒關異國，欲以存
+<lb ed="GA" n="0390a07"/>梁而卒死于戰。五人非親故，能送其喪柩還齊，
+<lb ed="GA" n="0390a08"/>誠義士哉！當時江淮間思而祀之。隋封司徒，廣
+<lb ed="GA" n="0390a09"/>陵之廟最著者，以宋紹定中有陰殲李全功也。
+<lb ed="GA" n="0390a10"/>母嫗事近不經，驅虎之說或有之。韓江雅集同
+<pb ed="GA" xml:id="GA040.0040.0391a" n="0391a"/>
+<lb ed="GA" n="0391a01"/>人為迎送神辭，分得此題，因為辨證如左，使事
+<lb ed="GA" n="0391a02"/>神者有考焉。</p>
+<lb ed="GA" n="0391a03"/><lg xml:id="lgGA040p0391a0301" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">縆弦兮鼓籠銅　飛雨兮江岫東</l><l style="text-indent:1em;">戈彗野兮旗燄空
+<lb ed="GA" n="0391a04"/>　神之從兮建寧公</l><l style="text-indent:1em;">青林兮望篝火　於菟兮弭道左</l>
+<lb ed="GA" n="0391a05"/><l style="text-indent:1em;">八公山側兮三臺下　雲車未來兮我心苦</l></lg>
+<lb ed="GA" n="0391a06"/><lg xml:id="lgGA040p0391a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">斗野平兮烟羃羃　伫連蜷兮夜吹笛</l><l style="text-indent:1em;">殪新塘兮鈗
+<lb ed="GA" n="0391a07"/>頭兒　回風颯兮降毅姿</l><l style="text-indent:1em;">福我氓兮大有　曷報之兮
+<lb ed="GA" n="0391a08"/>昔酒</l><l style="text-indent:1em;">神醉止兮歸無方　淮月升兮明古柳</l></lg></cb:div>
+<lb ed="GA" n="0391a09"/><cb:div type="other"><cb:mulu type="其他" level="4">五烈祠</cb:mulu><head>五烈祠</head><byline cb:type="author">厲鶚</byline>
+<lb ed="GA" n="0391a10"/><lg xml:id="lgGA040p0391a1001" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">斜日陟崇岡　新搆麗丹雘</l><l style="text-indent:1em;">江光屋角明　松色簷際
+<pb ed="GA" xml:id="GA040.0040.0392a" n="0392a"/>
+<lb ed="GA" n="0392a01"/>落</l><l style="text-indent:1em;">緬彼五貞媛　下里質婉弱</l><l style="text-indent:1em;">既靡傅姆訓　尠習公
+<lb ed="GA" n="0392a02"/>宮約</l><l style="text-indent:1em;">松心生本直　大義肯偷薄</l><l style="text-indent:1em;">池女未結褵　良人
+<lb ed="GA" n="0392a03"/>事邊柝</l><l style="text-indent:1em;">鐵衣為國殤　聞耗正驚愕</l><l style="text-indent:1em;">高堂昧倫常　妄
+<lb ed="GA" n="0392a04"/>議動媒妁</l><l style="text-indent:1em;">雁影誓不移　雉經死非錯</l><l style="text-indent:1em;">皎皎氷雪姿
+<lb ed="GA" n="0392a05"/>　同心實維霍</l><l style="text-indent:1em;">知名甫及旬　已定終身託</l><l style="text-indent:1em;">比翼拆鴛
+<lb ed="GA" n="0392a06"/>鴦　秀頸付干鏌</l><l style="text-indent:1em;">曰裔事更奇　威姑汙帷箔</l><l style="text-indent:1em;">從以二
+<lb ed="GA" n="0392a07"/>女叔　倚市爭笑謔</l><l style="text-indent:1em;">素絲豈易緇　良玉寧受灼</l><l style="text-indent:1em;">縫紉
+<lb ed="GA" n="0392a08"/>到袿裾　畢命付冥漠</l><l style="text-indent:1em;">更有二女宗　秉心最端恪</l><l style="text-indent:1em;">柔
+<lb ed="GA" n="0392a09"/>順事賢夫　箕帚自操作</l><l style="text-indent:1em;">或招蠻溪魂　或化華表鶴</l>
+<lb ed="GA" n="0392a10"/><l style="text-indent:1em;">決然殉幽泉　相見面無怍</l><l style="text-indent:1em;">維風激義舉　買地費私
+<pb ed="GA" xml:id="GA040.0040.0393a" n="0393a"/>
+<lb ed="GA" n="0393a01"/>槖</l><l style="text-indent:1em;">築祠倚平山　下窆開翠壑</l><l style="text-indent:1em;">馬鬣勢籠從　烏頭儼
+<lb ed="GA" n="0393a02"/>飛躍</l><l style="text-indent:1em;">野媼薦蘋藻　頓巫喧鼓籥</l><l style="text-indent:1em;">巾幗有如此　鬚眉
+<lb ed="GA" n="0393a03"/>徒自襮</l><l style="text-indent:1em;">回風溪雨來　靈旗下紛若</l></lg></cb:div>
+<lb ed="GA" n="0393a04"/><cb:div type="other"><cb:mulu type="其他" level="4">同人泛舟紅橋至平山堂</cb:mulu><head>項越莊招同潘秋田、陳東麓、張南漪、家蘭谷泛舟</head>
+<lb ed="GA" n="0393a05"/><byline cb:type="author">施安</byline><p xml:id="pGA040p0393a0503" style="margin-left:0em;text-indent:2em;" cb:place="inline">紅橋至平山堂納涼晚歸</p><byline cb:type="author">施安</byline>
+<lb ed="GA" n="0393a06"/><lg xml:id="lgGA040p0393a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">出郭小艇如泛鳬　屈曲遠見紅闌紆</l><l style="text-indent:1em;">風輕亂颭水
+<lb ed="GA" n="0393a07"/>楊柳　橋轉忽刺青菰蒲</l><l style="text-indent:1em;">名山可許三宿戀　老僧猶
+<lb ed="GA" n="0393a08"/>話六朝無</l><l style="text-indent:1em;">松聲大可滌煩暑　坐看夕景明烟蕪</l></lg></cb:div>
+<lb ed="GA" n="0393a09"/><cb:div type="other"><cb:mulu type="其他" level="4">萬松亭</cb:mulu><head>萬松亭</head><byline cb:type="author">吳可馴</byline>
+<lb ed="GA" n="0393a10"/><lg xml:id="lgGA040p0393a1001" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">游塵不可浣　長嘯入青靄</l><l style="text-indent:1em;">穿林露滴衣　風引到深
+<pb ed="GA" xml:id="GA040.0040.0394a" n="0394a"/>
+<lb ed="GA" n="0394a01"/>隘</l><l style="text-indent:1em;">誰歟繕孤亭　側影儼張蓋</l><l style="text-indent:1em;">仰攀雲陰低　俯見江
+<lb ed="GA" n="0394a02"/>流大</l><l style="text-indent:1em;">殘鐘裊林杪　一鳥白霞外</l><l style="text-indent:1em;">曠懷得舒寫　似茶
+<lb ed="GA" n="0394a03"/>破昏昧</l><l style="text-indent:1em;">選勝未有定　坐領此為最</l><l style="text-indent:1em;">晚風作溪喧　但
+<lb ed="GA" n="0394a04"/>想潄寒瀬</l></lg></cb:div>
+<lb ed="GA" n="0394a05"/><cb:div type="other"><cb:mulu type="其他" level="4">夏日遊平山堂遇雨</cb:mulu><head>夏日遊平山堂遇雨</head><byline cb:type="author">陳章</byline>
+<lb ed="GA" n="0394a06"/><lg xml:id="lgGA040p0394a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">片雲隨竹輿　客到雨亦到</l><l style="text-indent:1em;">平疇失百里　虛堂淒四
+<lb ed="GA" n="0394a07"/>隩</l><l style="text-indent:1em;">風雷憐檢束　揮霍資嘯傲</l><l style="text-indent:1em;">點急濺成珠　溜猛併
+<lb ed="GA" n="0394a08"/>作瀑</l><l style="text-indent:1em;">同遊半吳儂　蠶麥計豐耗</l><l style="text-indent:1em;">符欲畫丙丁　術復
+<lb ed="GA" n="0394a09"/>占禆竈</l><l style="text-indent:1em;">篁繭憶嚴陵　烟波思陸瑁</l><l style="text-indent:1em;">變換不逾時　煩
+<lb ed="GA" n="0394a10"/>溽盡如掃</l><l style="text-indent:1em;">陶陶孟夏交　寂寂靈境造</l><l style="text-indent:1em;">移樽睇新樹
+<pb ed="GA" xml:id="GA040.0040.0395a" n="0395a"/>
+<lb ed="GA" n="0395a01"/>　綠色引前導</l><l style="text-indent:1em;">斜暉靄松門　殘滴濕藤帽</l><l style="text-indent:1em;">山出江氣
+<lb ed="GA" n="0395a02"/>低　池淨天容倒</l><l style="text-indent:1em;">林清獨鳥翔　塘白羣蛙噪</l><l style="text-indent:1em;">物理<reg>靜</reg>
+<lb ed="GA" n="0395a03"/>自悟　樂極防生懊</l><l style="text-indent:1em;">歸途積潦橫　相與慎所蹈</l></lg></cb:div>
+<lb ed="GA" n="0395a04"/><cb:div type="other"><cb:mulu type="其他" level="4">祝荔亭招同高西唐、厲樊榭泛舟紅橋登平山堂</cb:mulu><head>祝荔亭招同高西唐、厲樊榭泛舟紅橋登平山堂</head>
+<lb ed="GA" n="0395a05"/><byline cb:type="author">陳章</byline>
+<lb ed="GA" n="0395a06"/><lg xml:id="lgGA040p0395a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">祝君隱微官　胸中飽書味</l><l style="text-indent:1em;">瀟灑藍田丞　酸寒溧陽
+<lb ed="GA" n="0395a07"/>尉</l><l style="text-indent:1em;">春愁知我若連環　呼船載酒蕪城灣</l><l style="text-indent:1em;">羅袖飄香
+<lb ed="GA" n="0395a08"/>簾影動　墻花吹雪園扉關</l><l style="text-indent:1em;">總是羈人歸未得　但可
+<lb ed="GA" n="0395a09"/>登望江南山</l><l style="text-indent:1em;">江南山色時近遠　晴波浮動江波暖</l>
+<lb ed="GA" n="0395a10"/><l style="text-indent:1em;">嫣然如笑<reg>靜</reg>女容　影落尊前紅玉盌</l><l style="text-indent:1em;">回舟眺望青
+<pb ed="GA" xml:id="GA040.0040.0396a" n="0396a"/>
+<lb ed="GA" n="0396a01"/>松林　一抹餘霞半遮斷</l><l style="text-indent:1em;">星光高映柳條疎　水紋細
+<lb ed="GA" n="0396a02"/>織蘆芽短</l><l style="text-indent:1em;">寒食清明次第來　默默鄉心誰為管</l><l style="text-indent:1em;">木
+<lb ed="GA" n="0396a03"/>腸最有高隱君　已卧長瓶猶飲滿</l></lg></cb:div>
+<lb ed="GA" n="0396a04"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂秋望</cb:mulu><head>平山堂秋望</head><byline cb:type="author">陳章</byline>
+<lb ed="GA" n="0396a05"/><lg xml:id="lgGA040p0396a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">堂開集秋氣　舄下見平原</l><l style="text-indent:1em;">雲薄橫崑軸　山青淡海
+<lb ed="GA" n="0396a06"/>門</l><l style="text-indent:1em;">鐘鳴人自寂　木落鳥隨翻</l><l style="text-indent:1em;">欲慰蕭條目　翻成憶
+<lb ed="GA" n="0396a07"/>故園</l></lg></cb:div>
+<lb ed="GA" n="0396a08"/><cb:div type="other"><cb:mulu type="其他" level="4">初冬嶰谷招遊平山堂</cb:mulu><head>初冬嶰谷招遊平山堂</head><byline cb:type="author">陳章</byline>
+<lb ed="GA" n="0396a09"/><lg xml:id="lgGA040p0396a0901" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">拘檢易為樂　堂空眼界寬</l><l style="text-indent:1em;">平林生遠岫　高檻入初
+<lb ed="GA" n="0396a10"/>寒</l><l style="text-indent:1em;">鐘動塵襟寂　秋成野意歡</l><l style="text-indent:1em;">風吹池上影　白水憶
+<pb ed="GA" xml:id="GA040.0040.0397a" n="0397a"/>
+<lb ed="GA" n="0397a01"/>漁竿</l></lg></cb:div>
+<lb ed="GA" n="0397a02"/><cb:div type="other"><cb:mulu type="其他" level="4">獨游紅橋</cb:mulu><head>獨游紅橋</head><byline cb:type="author">陳章</byline>
+<lb ed="GA" n="0397a03"/><lg xml:id="lgGA040p0397a0301" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">荒涼北郭外　野步愛晴泥</l><l style="text-indent:1em;">買醉過橋去　吟詩到日
+<lb ed="GA" n="0397a04"/>西</l><l style="text-indent:1em;">晚鴉楊樹壠　寒蝶菊花畦</l><l style="text-indent:1em;">適意還忘我　浮名米
+<lb ed="GA" n="0397a05"/>一稊</l></lg></cb:div>
+<lb ed="GA" n="0397a06"/><cb:div type="other"><cb:mulu type="其他" level="4">上元日遊平山堂晚歸</cb:mulu><head>上元日遊平山堂晚歸</head><byline cb:type="author">陳章</byline>
+<lb ed="GA" n="0397a07"/><lg xml:id="lgGA040p0397a0701" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">別戶登臨出梵宮　看山雙眼盡於東</l><l style="text-indent:1em;">孤遊且負當
+<lb ed="GA" n="0397a08"/>杯手　小住偏多弄袖風</l><l style="text-indent:1em;">野鶴立依春水動　疎梅點
+<lb ed="GA" n="0397a09"/>向晚天空</l><l style="text-indent:1em;">歸途擬踏今宵月　不要星毬照路紅</l></lg></cb:div>
+<lb ed="GA" n="0397a10"/><cb:div type="other"><cb:mulu type="其他" level="4">重濬保障湖</cb:mulu><head>重濬保障湖</head><byline cb:type="author">陳章</byline>
+<pb ed="GA" xml:id="GA040.0040.0398a" n="0398a"/>
+<lb ed="GA" n="0398a01"/><lg xml:id="lgGA040p0398a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">舉臿如雲集水工　五塘分溜百泉通</l><l style="text-indent:1em;">莫言開濬無
+<lb ed="GA" n="0398a02"/>多地　也有星辰應鼈東</l></lg>
+<lb ed="GA" n="0398a03"/><lg xml:id="lgGA040p0398a0301" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">一條新展碧玻璃　萍葉初生荇始齊</l><l style="text-indent:1em;">簫鼓畫船都
+<lb ed="GA" n="0398a04"/>未放　最先拍拍是鳬鷖</l></lg></cb:div>
+<lb ed="GA" n="0398a05"/><cb:div type="other"><cb:mulu type="其他" level="4">上元後一夕南圻招遊平山堂看月四首</cb:mulu><head>上元後一夕南圻招遊平山堂看月四首</head>
+<lb ed="GA" n="0398a06"/><byline cb:type="author">符曾</byline>
+<lb ed="GA" n="0398a07"/><lg xml:id="lgGA040p0398a0701" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">平山堂下月中行　泉水梅花分外清</l><l style="text-indent:1em;">可惜遊人盡
+<lb ed="GA" n="0398a08"/>歸去　祗將絃管肄春城</l></lg>
+<lb ed="GA" n="0398a09"/><lg xml:id="lgGA040p0398a0901" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">一痕烟抹春山碧　半嶺聲廻晚寺鐘</l><l style="text-indent:1em;">此境自佳須
+<lb ed="GA" n="0398a10"/>會得　醒人寒吹有風松</l></lg>
+<pb ed="GA" xml:id="GA040.0040.0399a" n="0399a"/>
+<lb ed="GA" n="0399a01"/><lg xml:id="lgGA040p0399a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">見說山行不待呼　帽簷花壓笑胡盧</l><l style="text-indent:1em;">風情未許消
+<lb ed="GA" n="0399a02"/>磨盡　還有春愁到客無</l></lg>
+<lb ed="GA" n="0399a03"/><lg xml:id="lgGA040p0399a0301" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">清游最愛是煎茶　手汲春泉試露芽</l><l style="text-indent:1em;">舌本可能知
+<lb ed="GA" n="0399a04"/>水味　風爐記取玉川家</l></lg></cb:div>
+<lb ed="GA" n="0399a05"/><cb:div type="other"><cb:mulu type="其他" level="4">秋日放舟紅橋小飲</cb:mulu><head>秋日放舟紅橋小飲</head><byline cb:type="author">王藻</byline>
+<lb ed="GA" n="0399a06"/><lg xml:id="lgGA040p0399a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">明流曲折樹侵堤　小棹疎簾晝榼檇</l><l style="text-indent:1em;">紅略彴低船
+<lb ed="GA" n="0399a07"/>緩進　玉參差歇草長萋</l><l style="text-indent:1em;">池塘衰柳雌雄燕　籬落秋
+<lb ed="GA" n="0399a08"/>花子母雞</l><l style="text-indent:1em;">薄飲微曛歸路晚　一天涼露下蓮西</l></lg></cb:div>
+<lb ed="GA" n="0399a09"/><cb:div type="other"><cb:mulu type="其他" level="4">紅橋秋禊詞四首</cb:mulu><head>紅橋秋禊詞四首</head><byline cb:type="author">王藻</byline>
+<lb ed="GA" n="0399a10"/><lg xml:id="lgGA040p0399a1001" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">十三樓畔問扁舟　硯具隨身出郭遊</l><l style="text-indent:1em;">柳黛荷纕漸
+<pb ed="GA" xml:id="GA040.0040.0400a" n="0400a"/>
+<lb ed="GA" n="0400a01"/>蕭瑟　紅橋風物入新秋</l></lg>
+<lb ed="GA" n="0400a02"/><lg xml:id="lgGA040p0400a0201" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">風約蓮香度碧潯　木瓜酒釃過花斟</l><l style="text-indent:1em;">一聲隣舫飄
+<lb ed="GA" n="0400a03"/>歌版　喚起瞢騰十載心</l></lg>
+<lb ed="GA" n="0400a04"/><lg xml:id="lgGA040p0400a0401" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">兩岸人家夕鏡涵　水邊籬落見江南</l><l style="text-indent:1em;">女葵未斂牽
+<lb ed="GA" n="0400a05"/>牛放　一種微黃映淺藍</l></lg>
+<lb ed="GA" n="0400a06"/><lg xml:id="lgGA040p0400a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">日落岡巒翠漸微　水昬烟淡畫船歸</l><l style="text-indent:1em;">晚風乍起衣
+<lb ed="GA" n="0400a07"/>香散　便有涼螢幾箇飛</l></lg></cb:div>
+<lb ed="GA" n="0400a08"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂秋望</cb:mulu><head>平山堂秋望</head><byline cb:type="author">馬曰：琯</byline>
+<lb ed="GA" n="0400a09"/><lg xml:id="lgGA040p0400a0901" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">前賢遺躅地　風韻至今留</l><l style="text-indent:1em;">剩有寒泉冽　空餘梧葉
+<lb ed="GA" n="0400a10"/>秋</l><l style="text-indent:1em;">江澄三面繞　山遠一樓收</l><l style="text-indent:1em;">冉冉斜陽下　鐘魚起
+<pb ed="GA" xml:id="GA040.0040.0401a" n="0401a"/>
+<lb ed="GA" n="0401a01"/>客愁</l></lg></cb:div>
+<lb ed="GA" n="0401a02"/><cb:div type="other"><cb:mulu type="其他" level="4">夏日集篠園</cb:mulu><head>夏日集篠園</head><byline cb:type="author">馬曰琯</byline>
+<lb ed="GA" n="0401a03"/><lg xml:id="lgGA040p0401a0301" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">時候黃梅近　林亭宿雨晴</l><l style="text-indent:1em;">早荷爭水出　晚筍上階
+<lb ed="GA" n="0401a04"/>生</l><l style="text-indent:1em;">雲影過橋斷　茶聲隔院清</l><l style="text-indent:1em;">可憐城市客　無復此
+<lb ed="GA" n="0401a05"/>閑情</l></lg></cb:div>
+<lb ed="GA" n="0401a06"/><cb:div type="other"><cb:mulu type="其他" level="4">東園春雨堂</cb:mulu><head>東園春雨堂</head><byline cb:type="author">馬曰琯</byline>
+<lb ed="GA" n="0401a07"/><lg xml:id="lgGA040p0401a0701" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">紅橋橋畔足烟蘿　一代繁華付逝波</l><l style="text-indent:1em;">如此春光如
+<lb ed="GA" n="0401a08"/>此雨　竹西今日已無多</l></lg></cb:div>
+<lb ed="GA" n="0401a09"/><cb:div type="other"><cb:mulu type="其他" level="4">秋日篠園分韻</cb:mulu><head>秋日篠園分韻</head><byline cb:type="author">汪玉樞</byline>
+<lb ed="GA" n="0401a10"/><lg xml:id="lgGA040p0401a1001" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">爽氣豁林巒　連鑣出城郭</l><l style="text-indent:1em;">沿溪詣篠園　熟遊徑不
+<pb ed="GA" xml:id="GA040.0040.0402a" n="0402a"/>
+<lb ed="GA" n="0402a01"/>錯</l><l style="text-indent:1em;">隔墻樷桂花　迎人香漠漠</l><l style="text-indent:1em;">泠翠穿修林　濃陰繞
+<lb ed="GA" n="0402a02"/>山閣</l><l style="text-indent:1em;">肅景值晴暄　商飈轉蕭索</l><l style="text-indent:1em;">籬菊未敷榮　庭柯
+<lb ed="GA" n="0402a03"/>半搖落</l><l style="text-indent:1em;">華滋獨小山　清芬燦緐萼</l><l style="text-indent:1em;">且住即吾廬　一
+<lb ed="GA" n="0402a04"/>餉亦有託</l><l style="text-indent:1em;">昨非事趨迎　今乃解纏縛</l><l style="text-indent:1em;">薄醉躭清幽
+<lb ed="GA" n="0402a05"/>　聯吟破寂寞</l><l style="text-indent:1em;">少焉明月生　逍遙共斯樂</l></lg></cb:div>
+<lb ed="GA" n="0402a06"/><cb:div type="other"><cb:mulu type="其他" level="4">南園池上十二韻</cb:mulu><head>南園池上十二韻</head><byline cb:type="author">汪玉樞</byline>
+<lb ed="GA" n="0402a07"/><lg xml:id="lgGA040p0402a0701" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">背郭溪流<reg>靜</reg>　閒園傍佛幢</l><l style="text-indent:1em;">築堤因種柳　鑿沼為通
+<lb ed="GA" n="0402a08"/>江</l><l style="text-indent:1em;">雲影經秋薄　潮聲到曉淙</l><l style="text-indent:1em;">平橋低似凳　虛閣窄
+<lb ed="GA" n="0402a09"/>於艭</l><l style="text-indent:1em;">苔色常侵壁　山光遠入牕</l><l style="text-indent:1em;">徑非騎馬路　門有
+<lb ed="GA" n="0402a10"/>繫船樁</l><l style="text-indent:1em;">林杪棲幽鳥　籬根卧小厖</l><l style="text-indent:1em;">高歌多漫興　短
+<pb ed="GA" xml:id="GA040.0040.0403a" n="0403a"/>
+<lb ed="GA" n="0403a01"/>笛任無腔</l><l style="text-indent:1em;">就石安茶竈　看花倒酒缸</l><l style="text-indent:1em;">躭吟聊自適
+<lb ed="GA" n="0403a02"/>　鬥飲幾曾降</l><l style="text-indent:1em;">漁艇烟汀集　僧鐘野寺撞</l><l style="text-indent:1em;">落霞天欲
+<lb ed="GA" n="0403a03"/>暮　鷗鷺去來雙</l></lg></cb:div>
+<lb ed="GA" n="0403a04"/><cb:div type="other"><cb:mulu type="其他" level="4">上元後一夕南圻招遊平山堂看月二首</cb:mulu><head>上元後一夕南圻招遊平山堂看月二首</head>
+<lb ed="GA" n="0403a05"/><byline cb:type="author">汪玉樞</byline>
+<lb ed="GA" n="0403a06"/><lg xml:id="lgGA040p0403a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">遊人去後倚平闌　闌外金波萬頃寒</l><l style="text-indent:1em;">不是探梅乘
+<lb ed="GA" n="0403a07"/>夜至　滿枝香月讓誰看</l></lg>
+<lb ed="GA" n="0403a08"/><lg xml:id="lgGA040p0403a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">滿城燈火一年新　偏愛虛堂寂寞春</l><l style="text-indent:1em;">山月江風最
+<lb ed="GA" n="0403a09"/>無賴　故應清境屬閑人</l></lg></cb:div>
+<lb ed="GA" n="0403a10"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂秋望</cb:mulu><head>平山堂秋望</head><byline cb:type="author">吳家龍</byline>
+<pb ed="GA" xml:id="GA040.0040.0404a" n="0404a"/>
+<lb ed="GA" n="0404a01"/><lg xml:id="lgGA040p0404a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">憑高極目正秋空　江北江南一望通</l><l style="text-indent:1em;">香稻晚肥霜
+<lb ed="GA" n="0404a02"/>籪蠏　殘砧寒急暮天鴻</l><l style="text-indent:1em;">廣陵濤湧思枚叔　招隱山
+<lb ed="GA" n="0404a03"/>深憶戴公</l><l style="text-indent:1em;">此日登臨更懷古　幾行衰柳夕陽中</l></lg></cb:div>
+<lb ed="GA" n="0404a04"/><cb:div type="other"><cb:mulu type="其他" level="4">自浙西歸里登平山堂</cb:mulu><head>自浙西歸里登平山堂</head><byline cb:type="author">吳家龍</byline>
+<lb ed="GA" n="0404a05"/><lg xml:id="lgGA040p0404a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">越水吳山幾逗遛　歸來重眺蜀岡秋</l><l style="text-indent:1em;">青泉碧樹都
+<lb ed="GA" n="0404a06"/>如舊　只有遊人已白頭</l></lg>
+<lb ed="GA" n="0404a07"/><lg xml:id="lgGA040p0404a0701" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">賢名千載仰文忠　何幸蕪城得兩公</l><l style="text-indent:1em;">天末會稽還
+<lb ed="GA" n="0404a08"/>在望　自慚庸吏拜清風</l></lg></cb:div>
+<lb ed="GA" n="0404a09"/><cb:div type="other"><cb:mulu type="其他" level="4">上元後一夕南圻招遊平山堂看月二首</cb:mulu><head>上元後一夕南圻招遊平山堂看月二首</head>
+<lb ed="GA" n="0404a10"/><byline cb:type="author">洪振珂</byline>
+<pb ed="GA" xml:id="GA040.0040.0405a" n="0405a"/>
+<lb ed="GA" n="0405a01"/><lg xml:id="lgGA040p0405a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">乘興春宵結隊游　泉聲穿澗瀉清幽</l><l style="text-indent:1em;">引人最有娟
+<lb ed="GA" n="0405a02"/>娟月　吟上烟中古寺樓</l></lg>
+<lb ed="GA" n="0405a03"/><lg xml:id="lgGA040p0405a0301" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">月浸花光水浸臺　遍開池館步蒼苔</l><l style="text-indent:1em;">微風莫縐寒
+<lb ed="GA" n="0405a04"/>潭色　要看松篁倒影來</l></lg></cb:div>
+<lb ed="GA" n="0405a05"/><cb:div type="other"><cb:mulu type="其他" level="4">上元後一夕招同人遊平山堂看月二首</cb:mulu><head>上元後一夕招同人遊平山堂看月二首</head>
+<lb ed="GA" n="0405a06"/><byline cb:type="author">陸鍾輝</byline>
+<lb ed="GA" n="0405a07"/><lg xml:id="lgGA040p0405a0701" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">玲瓏松影畫圖間　清磬傳聲入耳閒</l><l style="text-indent:1em;">佛火龕明山
+<lb ed="GA" n="0405a08"/>院<reg>靜</reg>　破禪人至啟禪關</l></lg>
+<lb ed="GA" n="0405a09"/><lg xml:id="lgGA040p0405a0901" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">歷亂寒香散久曛　倚闌如雪遶闌雲</l><l style="text-indent:1em;">林中清唳不
+<lb ed="GA" n="0405a10"/>知處　鶴與梅花淡不分</l></lg></cb:div>
+<pb ed="GA" xml:id="GA040.0040.0406a" n="0406a"/>
+<lb ed="GA" n="0406a01"/><cb:div type="other"><cb:mulu type="其他" level="4">秋夜宴平山堂</cb:mulu><head>秋夜宴平山堂</head><byline cb:type="author">祝應端</byline>
+<lb ed="GA" n="0406a02"/><lg xml:id="lgGA040p0406a0201" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">愛客開嘉宴　風清氣爽天</l><l style="text-indent:1em;">桂苞初見坼　山月未全
+<lb ed="GA" n="0406a03"/>圓</l><l style="text-indent:1em;">紅燭夜宜醉　白頭秋可憐</l><l style="text-indent:1em;">名園絲竹歇　高詠獨
+<lb ed="GA" n="0406a04"/>翛然</l></lg></cb:div>
+<lb ed="GA" n="0406a05"/><cb:div type="other"><cb:mulu type="其他" level="4">平山堂</cb:mulu><head>平山堂</head><byline cb:type="author">許濱</byline>
+<lb ed="GA" n="0406a06"/><lg xml:id="lgGA040p0406a0601" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">足可登臨散客愁　不妨洗屐數來遊</l><l style="text-indent:1em;">泉香汲井澹
+<lb ed="GA" n="0406a07"/>如雪　山色隔江平到樓</l><l style="text-indent:1em;">已少龍蛇遺舊蹟　但餘楊
+<lb ed="GA" n="0406a08"/>柳尚禁秋</l><l style="text-indent:1em;">文章知己歐蘇後　試問人能繼此不</l></lg></cb:div>
+<lb ed="GA" n="0406a09"/><cb:div type="other"><cb:mulu type="其他" level="4">蓮性寺東園作</cb:mulu><head>蓮性寺東園作</head><byline cb:type="author">朱禾</byline>
+<lb ed="GA" n="0406a10"/><lg xml:id="lgGA040p0406a1001" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">上上平山堂　中途須小憩</l><l style="text-indent:1em;">清波一間之微覺　陂陀
+<pb ed="GA" xml:id="GA040.0040.0407a" n="0407a"/>
+<lb ed="GA" n="0407a01"/>異香車得得</l><l style="text-indent:1em;">畫船撐次第　經過水際亭</l><l style="text-indent:1em;">爛熳鶯花
+<lb ed="GA" n="0407a02"/>看不足　流連歌吹有時停</l><l style="text-indent:1em;">是間名勝堪遊覽　尋常
+<lb ed="GA" n="0407a03"/>不可無闌檻</l><l style="text-indent:1em;">賴有河汾風雅人　分林割地加烘染</l>
+<lb ed="GA" n="0407a04"/><l style="text-indent:1em;">飛軒窈窕修廊通　疑留佳月延清風</l><l style="text-indent:1em;">山石犖确高
+<lb ed="GA" n="0407a05"/>梧桐　繁花長蔓紛青紅</l><l style="text-indent:1em;">新篁橫發似碧玉　老樹拏
+<lb ed="GA" n="0407a06"/>攫如虬龍</l><l style="text-indent:1em;">遊人縱目開心胸　隔江一桁陳千峯</l><l style="text-indent:1em;">上
+<lb ed="GA" n="0407a07"/>方傑閣羣<reg>真</reg>宮　鳳鸞往往來長空</l><l style="text-indent:1em;">定然過訪六一
+<lb ed="GA" n="0407a08"/>翁　參同契旨合易論</l><l style="text-indent:1em;">仙宗大約同儒宗　淮南桂樹
+<lb ed="GA" n="0407a09"/>香叢叢</l><l style="text-indent:1em;">主人燕集多勝槩　我亦欣然淹客蹤</l></lg></cb:div>
+<lb ed="GA" n="0407a10"/><cb:div type="other"><cb:mulu type="其他" level="4">八月十六夜平山堂待月</cb:mulu><head>八月十六夜平山堂待月</head><byline cb:type="author"><note place="inline">釋</note>行吉</byline>
+<pb ed="GA" xml:id="GA040.0040.0408a" n="0408a"/>
+<lb ed="GA" n="0408a01"/><lg xml:id="lgGA040p0408a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">昨夜月上遲　初更猶未吐</l><l style="text-indent:1em;">今宵繼歡宴　澄懷瞻玉
+<lb ed="GA" n="0408a02"/>宇</l><l style="text-indent:1em;">汎汎雲無心　沈沈山欲雨</l><l style="text-indent:1em;">空此一樽傾　徘徊步
+<lb ed="GA" n="0408a03"/>深廡</l><l style="text-indent:1em;">孤螿泣野草　斷雁掠遠浦</l><l style="text-indent:1em;">軋軋莎雞鳴　點點
+<lb ed="GA" n="0408a04"/>殘螢舞</l><l style="text-indent:1em;">荒原照鬼火　孤村響戍鼓</l><l style="text-indent:1em;">秋聲獵疎栝　夜
+<lb ed="GA" n="0408a05"/>色暗林莽</l><l style="text-indent:1em;">張琴不復彈　逡巡出倚戶</l><l style="text-indent:1em;">非無驚人句
+<lb ed="GA" n="0408a06"/>　意敗那復取</l><l style="text-indent:1em;">造物吝奇賞　不與此快覩</l><l style="text-indent:1em;">莫益吟情
+<lb ed="GA" n="0408a07"/>豪　轉增俗目瞽</l><l style="text-indent:1em;">蕭蕭罷良晤　愴愴空懷古</l><l style="text-indent:1em;">豈待高
+<lb ed="GA" n="0408a08"/>興闌　翻來挂環堵</l></lg></cb:div></cb:div></cb:div></cb:div>
+<lb ed="GA" n="0408a09"/>
+<lb ed="GA" n="0408a10"/><cb:juan fun="close" n="6"><cb:jhead>平山堂圖志卷第六</cb:jhead></cb:juan>
+</body></text></TEI>

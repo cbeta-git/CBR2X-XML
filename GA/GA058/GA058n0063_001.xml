@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="GA058n0063">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Zhongguo Fosi Shizhi Huikan, Electronic version, No. 63 厦門南普陀寺志</title>
+			<title xml:lang="zh-Hant">中國佛寺史志彙刊數位版, No. 63 厦門南普陀寺志</title>
+			<author>民國 釋寄塵撰</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>7卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">GA</idno>.<idno type="vol">58</idno>.<idno type="no">63</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2024-10-24 21:57:07 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Zhongguo Fosi Shizhi Huikan</title>
+				<title level="s" xml:lang="zh-Hant">中國佛寺史志彙刊</title>
+				<title level="m" xml:lang="zh-Hant">厦門南普陀寺志</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Digital Archive of Chinese Buddhist Temple Gazetteers Project which is funded by Chung-Hwa Institute of Buddhist Studies and executed by Dharma Drum Institute of Liberal Arts</p>
+			<p xml:lang="zh-Hant" cb:type="ly">法鼓文理學院、中華佛學研究所之「中國佛教寺廟志數位典藏」專案提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【志彙】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB04395">
+				<charName>CBETA CHARACTER CB04395</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[土*已]</value>
+				</charProp>
+				<mapping type="unicode">U+2124F</mapping>
+				<mapping cb:dec="987435" type="PUA">U+F112B</mapping>
+			</char>
+			<char xml:id="CB33491">
+				<charName>CBETA CHARACTER CB33491</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[宋-木+(而/丁)]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>寧</value>
+				</charProp>
+				<mapping type="normal_unicode">U+5BD5</mapping>
+				<mapping cb:dec="1016531" type="PUA">U+F82D3</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2024-10-22">
+			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text><body>
+<milestone unit="juan" n="1"/>
+<pb ed="GA" xml:id="GA058.0063.b003a" n="b003a"/>
+<lb ed="GA" n="b003a01"/><cb:mulu type="卷" n="1"></cb:mulu><cb:div type="other"><cb:mulu type="其他" level="1">卷首</cb:mulu><cb:div type="other"><cb:mulu type="其他" level="2">序</cb:mulu><head>厦門南普陀寺志序</head>
+<lb ed="GA" n="b003a02"/><p xml:id="pGA058pb003a0201" style="margin-left:0em;text-indent:2em;">中國名山古剎，多有志書之作。考古家<reg>既</reg>得覘文化興替之事跡，遊覽者復遂探奇訪
+<lb ed="GA" n="b003a03"/>勝之樂，意至善也。南普陀寺為廈門最大古剎，亦為八景之一。雖與其他七景齊名，
+<lb ed="GA" n="b003a04"/>然山水之蓊鬱，巖壑之雄奇，盖遠過之。寺建五代前，其間興廢不一，詳寺考中
+<lb ed="GA" n="b003a05"/>自<reg>清</reg>施琅將軍重修，易名南普陀，香火漸盛，迨民國十三年，轉逢和尚更改為十方
+<lb ed="GA" n="b003a06"/>叢林，子孫傳統之痼疾，於焉而革。民十四之際，會泉法師主斯剎，因其右偏<note n="b003a0601" resp="CBETA" type="add">圮【CB】，<g ref="#CB04395"/>【志彙】</note><app n="b003a0601"><lem wit="【CB】" resp="CBETA.maha">圮</lem><rdg wit="【志彙】"><g ref="#CB04395"/></rdg></app>宇
+<lb ed="GA" n="b003a07"/>頹寮，擴為閩南佛學院，培植佛教人才，請常惺法師長其事。由是斯剎遂與南海普
+<lb ed="GA" n="b003a08"/>陀相輝映而名聞海內矣。後太虛大師繼任方丈，歷民十六至民二十二辛勤備至，佛
+<lb ed="GA" n="b003a09"/>法益以昌明，而退居轉逢和尚，監院覺斌芝峯大醒等，佐理其事；興教育，闢後山，
+<lb ed="GA" n="b003a10"/>築水池，置禪房，駸駸乎有一日千里之<reg>概</reg>焉。今春，予承虛大師命，任閩院論理
+<lb ed="GA" n="b003a11"/>學國文教授，課餘與寄塵上人合編斯寺寺志，歷二閱月斯志始成，全志都為七篇：
+<lb ed="GA" n="b003a12"/>曰寺考。曰法制。曰教育。曰列傳。曰法物。曰文藝。曰公牘。寺考究斯寺之源委，
+<pb ed="GA" xml:id="GA058.0063.b004a" n="b004a"/>
+<lb ed="GA" n="b004a01"/>法制記斯寺改為十方叢林之法規。教育志閩院創辦歷史及各科之學程。列傳彰斯
+<lb ed="GA" n="b004a02"/>寺德職僧及居士為法之勤勇。法物紀斯寺關於佛教美術上之貢獻。文藝錄寺內歷代
+<lb ed="GA" n="b004a03"/>名人之題詠。公牘彙各方往來之文件。凡此皆寺志組成之各因<reg>眾</reg>緣，而於文化上不
+<lb ed="GA" n="b004a04"/>無關係在焉。惜予與寄塵上人均以事牽，未能一一考訂完善，深引為憾。端供世之
+<lb ed="GA" n="b004a05"/>關懷名剎者補苴而匡正焉。茲編其嚆矢也。</p>
+<lb ed="GA" n="b004a06"/><byline cb:type="other">中華民國二十二年，五月勞働節，山陰虞愚德元識於廈門大學</byline></cb:div>
+<lb ed="GA" n="b004a07"/>
+<lb ed="GA" n="b004a08"/>
+<lb ed="GA" n="b004a09"/>
+<lb ed="GA" n="b004a10"/>
+<lb ed="GA" n="b004a11"/>
+<lb ed="GA" n="b004a12"/>
+<pb ed="GA" xml:id="GA058.0063.b005a" n="b005a"/>
+<lb ed="GA" n="b005a01"/><cb:div type="other"><cb:mulu type="其他" level="2">編者自序</cb:mulu><head>編者自序</head>
+<lb ed="GA" n="b005a02"/><p xml:id="pGA058pb005a0201" style="margin-left:0em;text-indent:2em;">本寺剏自五代，迄至今日，千餘年矣。而著名於世，成為有紀律，有組織，之一大
+<lb ed="GA" n="b005a03"/>新式叢林者，近十年間之事耳。余於客歲之秋，因友之邀，再渡來厦；以襪線之才，
+<lb ed="GA" n="b005a04"/>濫充<reg>教</reg>席，撫躬自問，愧汗多矣。今春適<reg>值</reg>山陰虞君德元任斯院論理，國文，常
+<lb ed="GA" n="b005a05"/>識等教授職，舊兩重逢，倍覺歡慰。蓋虞子乃余曩在武昌佛大時之同學也。本寺向
+<lb ed="GA" n="b005a06"/>無寺志，識者憾之。吾友芝峯大醒二法師，嘗發心編輯，未果，以宏法因緣他適。
+<lb ed="GA" n="b005a07"/>監院覺斌上人，慫恿余起草，繼醒師志，余謾應之，未命筆也，後又催促，不得已，
+<lb ed="GA" n="b005a08"/>商之虞子，虞子允任修飾及標點之責，余則負搜羅鑒別及督促抄錄焉，為時閱二
+<lb ed="GA" n="b005a09"/>月蕆事，今將殺<reg>青</reg>，故贅數語冠首，以誌其因緣耳。隆耀，果地，廣究，演法，笠
+<lb ed="GA" n="b005a10"/>峰諸師，均有抄錄之勞，茲特題名于斯，以表謝忱。</p>
+<lb ed="GA" n="b005a11"/><byline cb:type="other">中華民國二十有二年五月五日合肥沙門寄塵謹識於閩南佛學院</byline></cb:div>
+<lb ed="GA" n="b005a12"/>
+<pb ed="GA" xml:id="GA058.0063.b006a" n="b006a"/>
+<lb ed="GA" n="b006a01"/>
+<lb ed="GA" n="b006a02"/>
+<lb ed="GA" n="b006a03"/>
+<lb ed="GA" n="b006a04"/>
+<lb ed="GA" n="b006a05"/>
+<lb ed="GA" n="b006a06"/>
+<lb ed="GA" n="b006a07"/>
+<lb ed="GA" n="b006a08"/>
+<lb ed="GA" n="b006a09"/>
+<lb ed="GA" n="b006a10"/>
+<lb ed="GA" n="b006a11"/>
+<lb ed="GA" n="b006a12"/>
+<pb ed="GA" xml:id="GA058.0063.b007a" n="b007a"/>
+<lb ed="GA" n="b007a01"/><cb:div type="other"><cb:mulu type="其他" level="2">編輯大意</cb:mulu><head>編輯大意</head>
+<lb ed="GA" n="b007a02"/><list style="margin-left:1em;"><item xml:id="itemGA058pb007a0201"><note n="b007a0201" resp="CBETA" type="add">〔－〕【CB】，一、【志彙】</note><app n="b007a0201"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一、</rdg></app>本寺向無舊志，故參考書付之闕如；且斯志屬於初稿，未能廣為搜羅，詳細考
+<lb ed="GA" n="b007a03"/>核，難免取材浮泛，而欠精確耳。</item>
+<lb ed="GA" n="b007a04"/><item xml:id="itemGA058pb007a0401"><note n="b007a0401" resp="CBETA" type="add">〔－〕【CB】，一、【志彙】</note><app n="b007a0401"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一、</rdg></app>本志取材根據史實，而不涉及附會及遺傳等情，凡閃爍其辭，語焉不詳者，<g ref="#CB33491"/>
+<lb ed="GA" n="b007a05"/>割愛勿濫，以昭<reg>慎</reg>重。</item>
+<lb ed="GA" n="b007a06"/><item xml:id="itemGA058pb007a0601"><note n="b007a0601" resp="CBETA" type="add">〔－〕【CB】，一、【志彙】</note><app n="b007a0601"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一、</rdg></app>本志為<reg>慎</reg>重本寺歷史起見，特借有「省志」「府志」「縣志」等為參考書；惜咸無詳
+<lb ed="GA" n="b007a07"/>細紀載，殊屬憾事。然寺考中僅關于有紀載者，照錄無遺，蓋紀實也。</item>
+<lb ed="GA" n="b007a08"/><item xml:id="itemGA058pb007a0801"><note n="b007a0801" resp="CBETA" type="add">〔－〕【CB】，一、【志彙】</note><app n="b007a0801"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一、</rdg></app>本寺之肇興，近十年間之事耳，故志中取材，亦以近十年為多也，尚希先進耆
+<lb ed="GA" n="b007a09"/>德，同輩賢俊，後來英髦，幸有以教之，以補不足。</item>
+<lb ed="GA" n="b007a10"/><item xml:id="itemGA058pb007a1001"><note n="b007a1001" resp="CBETA" type="add">〔－〕【CB】，一、【志彙】</note><app n="b007a1001"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一、</rdg></app>本志怱怱付印，為時過促，掛一漏萬，勢所不免。如關於各編中之稿件，有歷
+<lb ed="GA" n="b007a11"/>史而有價<reg>值</reg>者，請繕寫<reg>清</reg>楚，郵寄本寺，以備再版採入，俾臻完美。</item>
+<lb ed="GA" n="b007a12"/><item xml:id="itemGA058pb007a1201"><note n="b007a1201" resp="CBETA" type="add">〔－〕【CB】，一、【志彙】</note><app n="b007a1201"><lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem><rdg wit="【志彙】">一、</rdg></app>本志如有未當之處，完全由編者負責；蓋斯志雖屬於南普陀寺志，編者自有編
+<pb ed="GA" xml:id="GA058.0063.b008a" n="b008a"/>
+<lb ed="GA" n="b008a01"/>輯權。但編者見聞有限，尚希讀者，原諒是幸！</item></list>
+<lb ed="GA" n="b008a02"/><byline cb:type="other">二二，五，五，寄塵謹識於閩南佛學院</byline></cb:div>
+<lb ed="GA" n="b008a03"/>
+<lb ed="GA" n="b008a04"/>
+<lb ed="GA" n="b008a05"/>
+<lb ed="GA" n="b008a06"/>
+<lb ed="GA" n="b008a07"/>
+<lb ed="GA" n="b008a08"/>
+<lb ed="GA" n="b008a09"/>
+<lb ed="GA" n="b008a10"/>
+<lb ed="GA" n="b008a11"/>
+<lb ed="GA" n="b008a12"/>
+<pb ed="GA" xml:id="GA058.0063.b009a" n="b009a"/>
+<lb ed="GA" n="b009a01"/><cb:div type="other"><cb:mulu type="其他" level="2">目錄</cb:mulu><head>廈門南普陀寺志目錄</head>
+<lb ed="GA" n="b009a02"/><p cb:type="pre" xml:id="pGA058pb009a0201">　　山圖
+<lb ed="GA" n="b009a03"/>　　寺考……………………………………………………一～七
+<lb ed="GA" n="b009a04"/>　　法制…………………………………………………九～二八
+<lb ed="GA" n="b009a05"/>　　教育………………………………………………二九～七〇
+<lb ed="GA" n="b009a06"/>　　列傳……………………………………………七一～一〇六
+<lb ed="GA" n="b009a07"/>　　法物…………………………………………一〇七～一一三
+<lb ed="GA" n="b009a08"/>　　文藝…………………………………………一一五～一四四
+<lb ed="GA" n="b009a09"/>　　公牘…………………………………………一四五～一五六</p></cb:div>
+<pb ed="GA" xml:id="GA058.0063.b010a" n="b010a"/>
+<lb ed="GA" n="b010a01"/><cb:div type="other"><cb:mulu type="其他" level="2">全圖</cb:mulu><head>南普陀寺全圖</head>
+<lb ed="GA" n="b010a02"/><p xml:id="pGA058pb010a0201" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb010_01.gif"></graphic></figure><note n="b010001" resp="DILA" place="foot text" type="orig">佛殿、天王殿、放生池、普同塔、大観路、華僑路、南普陀路</note></p>
+<lb ed="GA" n="b010a03"/>
+<lb ed="GA" n="b010a04"/>
+<lb ed="GA" n="b010a05"/>
+<lb ed="GA" n="b010a06"/>
+<lb ed="GA" n="b010a07"/><list rend="no-marker"><item xml:id="itemGA058pb010a0701">圖例：<list rend="no-marker"><item xml:id="itemGA058pb010a0703">房屋</item><item xml:id="itemGA058pb010a0705"><reg>墻</reg></item><item xml:id="itemGA058pb010a0706">溪流</item><item xml:id="itemGA058pb010a0708">石堦</item><item xml:id="itemGA058pb010a0710">石欄</item><item xml:id="itemGA058pb010a0712">山</item><item xml:id="itemGA058pb010a0713">錢<unclear></unclear></item><item xml:id="itemGA058pb010a0714">池塘</item><item xml:id="itemGA058pb010a0716">巖石</item><item xml:id="itemGA058pb010a0718">橋</item><item xml:id="itemGA058pb010a0719">墓地</item><item xml:id="itemGA058pb010a0721">亭臺</item><item xml:id="itemGA058pb010a0723">縮尺：九百六十分之一</item></list></item></list>
+<lb ed="GA" n="b010a08"/><list rend="no-marker"><item xml:id="itemGA058pb010a0801">說明：<list rend="no-marker"><item xml:id="itemGA058pb010a0803"><p xml:id="pGA058pb010a0803" style="margin-left:2em;text-indent:-2em;" cb:place="inline">一、面積，東西橫表一千一百二十呎；南北縱長一千九百一十呎，總計面積二萬六千四百七十二方丈七十六方呎。</p></item>
+<lb ed="GA" n="b010a09"/><item xml:id="itemGA058pb010a0901"><p xml:id="pGA058pb010a0901" style="margin-left:2em;text-indent:-2em;">二、界址，東由鍾山灣合水綫至大観路至華僑路止南普陀路；西由鼓山灣至白來水池界合水綫及馬路止南普陀路；南至南普陀路；北至五老峰頂。</p></item></list></item></list>
+<lb ed="GA" n="b010a10"/><byline cb:type="other">南普陀住持太虛都監轉達會彔監院覺斌芝峰謹識</byline><byline cb:type="other">時民國二十一年十二月二十四日</byline>
+<lb ed="GA" n="b010a11"/>
+<lb ed="GA" n="b010a12"/><byline cb:type="other">中國民國二十一年十二月測繪者　王景琨</byline></cb:div>
+<pb ed="GA" xml:id="GA058.0063.b011a" n="b011a"/>
+<lb ed="GA" n="b011a01"/><cb:div type="other"><cb:mulu type="其他" level="2">山圖</cb:mulu><head>山圖</head>
+<lb ed="GA" n="b011a02"/>
+<lb ed="GA" n="b011a03"/>
+<lb ed="GA" n="b011a04"/>
+<lb ed="GA" n="b011a05"/>
+<lb ed="GA" n="b011a06"/>
+<lb ed="GA" n="b011a07"/>
+<lb ed="GA" n="b011a08"/>
+<lb ed="GA" n="b011a09"/>
+<lb ed="GA" n="b011a10"/>
+<lb ed="GA" n="b011a11"/>
+<lb ed="GA" n="b011a12"/>
+<pb ed="GA" xml:id="GA058.0063.b012a" n="b012a"/>
+<lb ed="GA" n="b012a01"/>
+<lb ed="GA" n="b012a02"/>
+<lb ed="GA" n="b012a03"/>
+<lb ed="GA" n="b012a04"/>
+<lb ed="GA" n="b012a05"/>
+<lb ed="GA" n="b012a06"/>
+<lb ed="GA" n="b012a07"/>
+<lb ed="GA" n="b012a08"/>
+<lb ed="GA" n="b012a09"/>
+<lb ed="GA" n="b012a10"/>
+<lb ed="GA" n="b012a11"/>
+<lb ed="GA" n="b012a12"/>
+<pb ed="GA" xml:id="GA058.0063.b013a" n="b013a"/>
+<lb ed="GA" n="b013a01"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺全景</cb:mulu><head>本寺全景</head>
+<lb ed="GA" n="b013a02"/><p xml:id="pGA058pb013a0201" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb013_01.gif"></graphic></figure></p></cb:div>
+<lb ed="GA" n="b013a03"/>
+<lb ed="GA" n="b013a04"/>
+<lb ed="GA" n="b013a05"/>
+<lb ed="GA" n="b013a06"/>
+<lb ed="GA" n="b013a07"/>
+<lb ed="GA" n="b013a08"/>
+<lb ed="GA" n="b013a09"/>
+<lb ed="GA" n="b013a10"/>
+<lb ed="GA" n="b013a11"/>
+<lb ed="GA" n="b013a12"/>
+<pb ed="GA" xml:id="GA058.0063.b014a" n="b014a"/>
+<lb ed="GA" n="b014a01"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺山門外放生池之一瞥</cb:mulu><head>本寺山門外放生池之一瞥</head>
+<lb ed="GA" n="b014a02"/><p xml:id="pGA058pb014a0201" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb014_01.gif"></graphic></figure></p></cb:div>
+<lb ed="GA" n="b014a03"/>
+<lb ed="GA" n="b014a04"/>
+<lb ed="GA" n="b014a05"/>
+<lb ed="GA" n="b014a06"/>
+<lb ed="GA" n="b014a07"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺大山門之中門</cb:mulu><head>本寺大山門之中門</head>
+<lb ed="GA" n="b014a08"/><p xml:id="pGA058pb014a0801" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb014_01.gif"></graphic></figure></p></cb:div>
+<lb ed="GA" n="b014a09"/>
+<lb ed="GA" n="b014a10"/>
+<lb ed="GA" n="b014a11"/>
+<lb ed="GA" n="b014a12"/>
+<pb ed="GA" xml:id="GA058.0063.b015a" n="b015a"/>
+<lb ed="GA" n="b015a01"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺鼓樓</cb:mulu><head>本寺鼓樓</head>
+<lb ed="GA" n="b015a02"/><p xml:id="pGA058pb015a0201" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb015_01.gif"></graphic></figure></p></cb:div>
+<lb ed="GA" n="b015a03"/>
+<lb ed="GA" n="b015a04"/>
+<lb ed="GA" n="b015a05"/>
+<lb ed="GA" n="b015a06"/>
+<lb ed="GA" n="b015a07"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺鐘樓</cb:mulu><head>本寺鐘樓</head>
+<lb ed="GA" n="b015a08"/><p xml:id="pGA058pb015a0801" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb015_01.gif"></graphic></figure></p></cb:div>
+<lb ed="GA" n="b015a09"/>
+<lb ed="GA" n="b015a10"/>
+<lb ed="GA" n="b015a11"/>
+<lb ed="GA" n="b015a12"/>
+<pb ed="GA" xml:id="GA058.0063.b016a" n="b016a"/>
+<lb ed="GA" n="b016a01"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺大雄寶殿</cb:mulu><head>本寺大雄寶殿</head>
+<lb ed="GA" n="b016a02"/><p xml:id="pGA058pb016a0201" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb016_01.gif"></graphic></figure></p></cb:div>
+<lb ed="GA" n="b016a03"/>
+<lb ed="GA" n="b016a04"/>
+<lb ed="GA" n="b016a05"/>
+<lb ed="GA" n="b016a06"/>
+<lb ed="GA" n="b016a07"/>
+<lb ed="GA" n="b016a08"/>
+<lb ed="GA" n="b016a09"/>
+<lb ed="GA" n="b016a10"/>
+<lb ed="GA" n="b016a11"/>
+<lb ed="GA" n="b016a12"/>
+<pb ed="GA" xml:id="GA058.0063.b017a" n="b017a"/>
+<lb ed="GA" n="b017a01"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺佛殿之內容</cb:mulu><head>本寺佛殿之內容</head>
+<lb ed="GA" n="b017a02"/><p xml:id="pGA058pb017a0201" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb017_01.gif"></graphic></figure></p></cb:div>
+<lb ed="GA" n="b017a03"/>
+<lb ed="GA" n="b017a04"/>
+<lb ed="GA" n="b017a05"/>
+<lb ed="GA" n="b017a06"/>
+<lb ed="GA" n="b017a07"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺走廊之一</cb:mulu><head>本寺走廊之一</head>
+<lb ed="GA" n="b017a08"/><p xml:id="pGA058pb017a0801" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb017_01.gif"></graphic></figure></p></cb:div>
+<lb ed="GA" n="b017a09"/>
+<lb ed="GA" n="b017a10"/>
+<lb ed="GA" n="b017a11"/>
+<lb ed="GA" n="b017a12"/>
+<pb ed="GA" xml:id="GA058.0063.b018a" n="b018a"/>
+<lb ed="GA" n="b018a01"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺最近落成之大悲殿</cb:mulu><head>本寺最近落成之大悲殿</head>
+<lb ed="GA" n="b018a02"/><p xml:id="pGA058pb018a0201" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb018_01.gif"></graphic></figure></p>
+<lb ed="GA" n="b018a03"/>
+<lb ed="GA" n="b018a04"/>
+<lb ed="GA" n="b018a05"/>
+<lb ed="GA" n="b018a06"/>
+<lb ed="GA" n="b018a07"/>
+<lb ed="GA" n="b018a08"/>
+<lb ed="GA" n="b018a09"/>
+<lb ed="GA" n="b018a10"/>
+<lb ed="GA" n="b018a11"/>
+<lb ed="GA" n="b018a12"/><p xml:id="pGA058pb018a1201" style="margin-left:0em;text-indent:2em;">按此殿係舊殿燬于火，放大重建者。詳見本寺建築物沿革中。</p></cb:div>
+<pb ed="GA" xml:id="GA058.0063.b019a" n="b019a"/>
+<lb ed="GA" n="b019a01"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺官廳之一角——右邊即庫房——</cb:mulu><head>本寺官廳之一角——右邊即庫房——</head>
+<lb ed="GA" n="b019a02"/><p xml:id="pGA058pb019a0201" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb019_01.gif"></graphic></figure></p></cb:div>
+<lb ed="GA" n="b019a03"/>
+<lb ed="GA" n="b019a04"/>
+<lb ed="GA" n="b019a05"/>
+<lb ed="GA" n="b019a06"/>
+<lb ed="GA" n="b019a07"/>
+<lb ed="GA" n="b019a08"/>
+<lb ed="GA" n="b019a09"/>
+<lb ed="GA" n="b019a10"/>
+<lb ed="GA" n="b019a11"/>
+<lb ed="GA" n="b019a12"/>
+<pb ed="GA" xml:id="GA058.0063.b020a" n="b020a"/>
+<lb ed="GA" n="b020a01"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺功德樓及禪堂</cb:mulu><head>本寺功德樓及禪堂</head>
+<lb ed="GA" n="b020a02"/><p xml:id="pGA058pb020a0201" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb020_01.gif"></graphic></figure></p></cb:div>
+<lb ed="GA" n="b020a03"/>
+<lb ed="GA" n="b020a04"/>
+<lb ed="GA" n="b020a05"/>
+<lb ed="GA" n="b020a06"/>
+<lb ed="GA" n="b020a07"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺之小講堂外觀</cb:mulu><head>本寺之小講堂外觀</head>
+<lb ed="GA" n="b020a08"/><p xml:id="pGA058pb020a0801" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb020_01.gif"></graphic></figure></p></cb:div>
+<lb ed="GA" n="b020a09"/>
+<lb ed="GA" n="b020a10"/>
+<lb ed="GA" n="b020a11"/>
+<lb ed="GA" n="b020a12"/>
+<pb ed="GA" xml:id="GA058.0063.b021a" n="b021a"/>
+<lb ed="GA" n="b021a01"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺之千手千眼大悲觀世音菩薩像</cb:mulu><head>本寺之千手千眼大悲觀世音菩薩像</head>
+<lb ed="GA" n="b021a02"/><p xml:id="pGA058pb021a0201" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb021_01.gif"></graphic></figure></p></cb:div>
+<lb ed="GA" n="b021a03"/>
+<lb ed="GA" n="b021a04"/>
+<lb ed="GA" n="b021a05"/>
+<lb ed="GA" n="b021a06"/>
+<lb ed="GA" n="b021a07"/>
+<lb ed="GA" n="b021a08"/>
+<lb ed="GA" n="b021a09"/>
+<lb ed="GA" n="b021a10"/>
+<lb ed="GA" n="b021a11"/>
+<lb ed="GA" n="b021a12"/>
+<pb ed="GA" xml:id="GA058.0063.b022a" n="b022a"/>
+<lb ed="GA" n="b022a01"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺方丈室之外觀——即海印樓——</cb:mulu><head>本寺方丈室之外觀——<reg>即</reg>海印樓——</head>
+<lb ed="GA" n="b022a02"/><p xml:id="pGA058pb022a0201" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb022_01.gif"></graphic></figure></p></cb:div>
+<lb ed="GA" n="b022a03"/>
+<lb ed="GA" n="b022a04"/>
+<lb ed="GA" n="b022a05"/>
+<lb ed="GA" n="b022a06"/>
+<lb ed="GA" n="b022a07"/><cb:div type="other"><cb:mulu type="其他" level="3">本寺後山之小亭——亭三座今攝壹——</cb:mulu><head>本寺後山之小亭——亭三座今攝壹——</head>
+<lb ed="GA" n="b022a08"/><p xml:id="pGA058pb022a0801" style="margin-left:2em;"><figure><graphic url="../figures/GA/GA058pb022_01.gif"></graphic></figure></p></cb:div></cb:div></cb:div>
+<lb ed="GA" n="b022a09"/>
+<lb ed="GA" n="b022a10"/>
+<lb ed="GA" n="b022a11"/>
+<lb ed="GA" n="b022a12"/>
+<pb ed="GA" xml:id="GA058.0063.b023a" n="b023a"/>
+<lb ed="GA" n="b023a01"/>
+<lb ed="GA" n="b023a02"/>
+<lb ed="GA" n="b023a03"/>
+<lb ed="GA" n="b023a04"/>
+<lb ed="GA" n="b023a05"/>
+<lb ed="GA" n="b023a06"/><cb:div type="other"><cb:mulu type="其他" level="1">寺考</cb:mulu><head>寺考</head>
+<lb ed="GA" n="b023a07"/>
+<lb ed="GA" n="b023a08"/>
+<lb ed="GA" n="b023a09"/>
+<lb ed="GA" n="b023a10"/>
+<lb ed="GA" n="b023a11"/>
+<lb ed="GA" n="b023a12"/>
+<pb ed="GA" xml:id="GA058.0063.b024a" n="b024a"/>
+<lb ed="GA" n="b024a01"/>
+<lb ed="GA" n="b024a02"/>
+<lb ed="GA" n="b024a03"/>
+<lb ed="GA" n="b024a04"/>
+<lb ed="GA" n="b024a05"/>
+<lb ed="GA" n="b024a06"/>
+<lb ed="GA" n="b024a07"/>
+<lb ed="GA" n="b024a08"/>
+<lb ed="GA" n="b024a09"/>
+<lb ed="GA" n="b024a10"/>
+<lb ed="GA" n="b024a11"/>
+<lb ed="GA" n="b024a12"/>
+<pb ed="GA" xml:id="GA058.0063.b025a" n="b025a"/>
+<lb ed="GA" n="b025a01"/><cb:div type="other"><cb:mulu type="其他" level="2">一、本寺寺考</cb:mulu><head>一、本寺寺考</head><byline cb:type="author">虞愚</byline>
+<lb ed="GA" n="b025a02"/><p xml:id="pGA058pb025a0201" style="margin-left:0em;text-indent:2em;">五老山拱隔江太武而峙，為厦門八景之一，寺奉觀音為主，彌勒羅漢天王亦與焉。
+<lb ed="GA" n="b025a03"/>而獨觀音以禱靳輒應，故寺改稱普陀；冠南者，以對浙江定海縣普陀而言，若對印
+<lb ed="GA" n="b025a04"/>土之普陀，則斯寺又為北矣。方位之分，抑亦對待而言也。考縣志謂：五老山在城
+<lb ed="GA" n="b025a05"/>南六里，山如五老形，故名。方輿紀要祗述：五峯<reg>并</reg>列，無盡巖居其中，而不詳其
+<lb ed="GA" n="b025a06"/>朝代年月日。府志載：大石嵌空，其下虛敞，宋僧文翠建普照寺，又按：普陀寺僧
+<lb ed="GA" n="b025a07"/>譜陀乃五代僧<reg>清</reg>造所建，其初名泗洲，宋治平間始改名普照院，迨元至正間廢，明
+<lb ed="GA" n="b025a08"/>洪武有僧覺光重建之，崇奉觀音大士<reg>暨</reg>釋迦文佛，明季後燬於兵，徴諸志載，興廢
+<lb ed="GA" n="b025a09"/>不一，殆示世法之有無常者歟？洎<reg>清</reg>朝康熙間，靖海將軍施侯，（一名琅）平鄭姓凱
+<lb ed="GA" n="b025a10"/>旋，重建改名南普陀，是為取名之始。寺中供觀音大士，有鐘鼓二山，映帶左右，
+<lb ed="GA" n="b025a11"/>風景之佳，昔已盛稱。寺興時，當居大<reg>眾</reg>百餘人，嘉禾名勝記謂：寺中有洞名六月
+<pb ed="GA" xml:id="GA058.0063.b026a" n="b026a"/>
+<lb ed="GA" n="b026a01"/>寒，洞左有雲巢，又有石筧以引水，寺右乾龍間，復建龍王廟。采補稱：門列御製
+<lb ed="GA" n="b026a02"/>平臺紀功碑亭四，歷敍戰績，寺前有平原一片，為鄭延平郡王水師演武塲，壁有俞
+<lb ed="GA" n="b026a03"/>大猷終法海詩，俞詩今為苔沒不可復辨，皆紀實也。斯寺五老凌宵，為思明最大佛剎，
+<lb ed="GA" n="b026a04"/><reg>清</reg>季曾宴美艦於此。外有光復烈士碑。民國以還，香火日盛。民十四年秋會泉法
+<lb ed="GA" n="b026a05"/>師創閩南佛學院，培植佛教人才，常惺法師長斯院，闢觀音殿右旁屋宇若干間為講
+<lb ed="GA" n="b026a06"/>堂及學僧宿舍，迨民十六太虛大師主斯剎，于閩院益求完備，實世界佛學苑之華日
+<lb ed="GA" n="b026a07"/>文系學院。而寺中風景屋宇亦多樹建，寺後曲徑，因勢開闢，庚午秋築兜率陀院於
+<lb ed="GA" n="b026a08"/>其<reg>巔</reg>，此院乃退院轉逢和尚專為太虛大師退居而築者，復傍巖阿，中設慈宗壇，弘
+<lb ed="GA" n="b026a09"/>慈氏學。壇前有阿耨達池，池水演演<reg>瀸</reg>瀸，供全寺<reg>清</reg><reg>眾</reg>之用。復盡天然形勢，益廣
+<lb ed="GA" n="b026a10"/>其右地，以石洞為須摩提國洞內<reg>清</reg>涼靡常，有退居轉逢和尚在焉。通洞之右，又新
+<lb ed="GA" n="b026a11"/>建阿蘭若處，以為靜坐棲息之所。今而後，斯寺之設漸備，有樹可庥，有泉可瀹，
+<lb ed="GA" n="b026a12"/>有院可學，有禪房可棲而止焉。院左之絕頂有太虛臺，民二十年李基鴻居士所建。
+<pb ed="GA" xml:id="GA058.0063.b027a" n="b027a"/>
+<lb ed="GA" n="b027a01"/>山下遐矚，如聳虛空間，名寔相符也。軒扇亭之上旁，太虛大師山陰虞愚等俱有詩
+<lb ed="GA" n="b027a02"/>刻，詳志中文藝篇，茲不多錄。</p></cb:div>
+<lb ed="GA" n="b027a03"/><cb:div type="other"><cb:mulu type="其他" level="2">二、本寺建築物沿革</cb:mulu><head>二、本寺建築物沿革</head><byline cb:type="author">寄塵</byline>
+<lb ed="GA" n="b027a04"/><cb:div type="other"><cb:mulu type="其他" level="3">一　佛殿及走廊</cb:mulu><head>一　佛殿及走廊</head>
+<lb ed="GA" n="b027a05"/><cb:div type="other"><cb:mulu type="其他" level="4">天王殿</cb:mulu><head>天王殿</head><p xml:id="pGA058pb027a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">此殿五間，中三間供奉彌勒如來。其左右各一間，則供奉四天王相。高數
+<lb ed="GA" n="b027a06"/>丈兩層躥角式。係民國下五年間本寺住持會泉和尚募化重建者。</p></cb:div>
+<lb ed="GA" n="b027a07"/><cb:div type="other"><cb:mulu type="其他" level="4">大佛殿</cb:mulu><head>大佛殿</head><p xml:id="pGA058pb027a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">位天王殿後，共五間，中供奉釋迦如來及彌陀如來藥師如來，<reg>并</reg>塑阿難迦
+<lb ed="GA" n="b027a08"/>葉兩尊者，及天帝釋之立像，後修有海島，及西方三聖立像等，高數丈兩
+<lb ed="GA" n="b027a09"/>層躥角式。綠瓦石柱，備極莊嚴，係民國十年間，本寺住持轉逢和尚募化
+<lb ed="GA" n="b027a10"/>重建者。</p></cb:div>
+<lb ed="GA" n="b027a11"/><cb:div type="other"><cb:mulu type="其他" level="4">大悲殿</cb:mulu><head>大悲殿</head><p xml:id="pGA058pb027a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">此殿一間，八角三層飛簷躥角式，綠瓦石柱，亦如大殿。中供奉四十八臂
+<pb ed="GA" xml:id="GA058.0063.b028a" n="b028a"/>
+<lb ed="GA" n="b028a01"/>四面大士立像，雕刻精美，罕有有匹，係民國十七年秋，舊殿燬於火，本
+<lb ed="GA" n="b028a02"/>寺住持太虛法師與全寺執事，力謀重建，歷四年之久，廢五萬餘金，近斯
+<lb ed="GA" n="b028a03"/>殿始成矣。</p></cb:div>
+<lb ed="GA" n="b028a04"/><cb:div type="other"><cb:mulu type="其他" level="4">後殿</cb:mulu><head>後殿</head><p xml:id="pGA058pb028a0403" style="margin-left:0em;text-indent:2em;" cb:place="inline">此殿三間接連右邊，關帝殿三間，左邊地藏殿三間，內附客堂，蓋後殿為
+<lb ed="GA" n="b028a05"/>本寺古之大佛殿也。</p></cb:div>
+<lb ed="GA" n="b028a06"/><cb:div type="other"><cb:mulu type="其他" level="4">鐘鼓樓</cb:mulu><head>鐘鼓樓</head><p xml:id="pGA058pb028a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">此樓一間三層躥角式，係本寺前住持轉逢和尚建築。</p></cb:div>
+<lb ed="GA" n="b028a07"/><cb:div type="other"><cb:mulu type="其他" level="4">走廊</cb:mulu><head>走廊</head><p xml:id="pGA058pb028a0703" style="margin-left:0em;text-indent:2em;" cb:place="inline">本寺正序之走廊，大佛殿丹墀左右各三間，大佛殿兩旁左右各三間，供奉
+<lb ed="GA" n="b028a08"/>十八羅漢。</p></cb:div></cb:div>
+<lb ed="GA" n="b028a09"/><cb:div type="other"><cb:mulu type="其他" level="3">二　僧寮與客廳</cb:mulu><head>二　僧寮與客廳</head>
+<lb ed="GA" n="b028a10"/><cb:div type="other"><cb:mulu type="其他" level="4">流通處</cb:mulu><head>流通處</head><p xml:id="pGA058pb028a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">此樓新式上下兩大間，上有淨室一，明間供奉功德主牌位，下有淨室一，
+<lb ed="GA" n="b028a11"/>明間設有流通處，陳列佛教之各種佛經及佛書等，為本寺前住持會泉和尚
+<lb ed="GA" n="b028a12"/>所建築者。</p></cb:div>
+<pb ed="GA" xml:id="GA058.0063.b029a" n="b029a"/>
+<lb ed="GA" n="b029a01"/><cb:div type="other"><cb:mulu type="其他" level="4">念佛堂</cb:mulu><head>念佛堂</head><p xml:id="pGA058pb029a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">此樓新式三大間，上有客室四，下有淨室四，明間為念佛堂，右邊有<reg>清</reg><reg>眾</reg>
+<lb ed="GA" n="b029a02"/>寮三，私院一，自成院落，亦頗幽淨。</p></cb:div>
+<lb ed="GA" n="b029a03"/><cb:div type="other"><cb:mulu type="其他" level="4">祖堂</cb:mulu><head>祖堂</head><p xml:id="pGA058pb029a0303" style="margin-left:0em;text-indent:2em;" cb:place="inline">此堂五大間，中供奉本寺歷代祖師蓮位，兩頭分設廣單，本寺行單起住其
+<lb ed="GA" n="b029a04"/>中，有私院一，自成院落，對面有菓木園一，園外尚有工廠五間，在祖堂
+<lb ed="GA" n="b029a05"/>後面有大寮一，浴室一，大寮後面，則有工寮十，養性寮一，放生園一，
+<lb ed="GA" n="b029a06"/>碾房一。</p></cb:div>
+<lb ed="GA" n="b029a07"/><cb:div type="other"><cb:mulu type="其他" level="4">客廳</cb:mulu><head>客廳</head><p xml:id="pGA058pb029a0703" style="margin-left:0em;text-indent:2em;" cb:place="inline">此廳三大間，旁闢有小室三，本寺來往遊客，多在此間酬應，壁懸古今名
+<lb ed="GA" n="b029a08"/>人字畫甚多，尤覺悅目。</p></cb:div>
+<lb ed="GA" n="b029a09"/><cb:div type="other"><cb:mulu type="其他" level="4">庫房</cb:mulu><head>庫房</head><p xml:id="pGA058pb029a0903" style="margin-left:0em;text-indent:2em;" cb:place="inline">此房在大悲殿左邊，與客廳相接，三大間，建築<reg>既</reg>宏，光線又足，有私院
+<lb ed="GA" n="b029a10"/>一，自成院落，後面有披厦多間；為常住重要執事及小廚房工人宿舍。</p></cb:div>
+<lb ed="GA" n="b029a11"/><cb:div type="other"><cb:mulu type="其他" level="4">五觀堂</cb:mulu><head>五觀堂</head><p xml:id="pGA058pb029a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">此堂在大悲殿左邊與庫房相接，計三大間，可容二百餘僧，空氣流通；頗
+<lb ed="GA" n="b029a12"/>適合衞生，後面有兩間小樓一，上面巡照寮一，裁縫寮一，下面香燈寮一，
+<pb ed="GA" xml:id="GA058.0063.b030a" n="b030a"/>
+<lb ed="GA" n="b030a01"/>上客堂一，本寺左序之僧寮及客廳等共計四十餘間，先後建築故年代月
+<lb ed="GA" n="b030a02"/>日亦不一。</p></cb:div></cb:div>
+<lb ed="GA" n="b030a03"/><cb:div type="other"><cb:mulu type="其他" level="3">三　佛學院一瞥</cb:mulu><head>三　佛學院一瞥</head>
+<lb ed="GA" n="b030a04"/><p xml:id="pGA058pb030a0401" style="margin-left:0em;text-indent:2em;">本院為會泉法師所創辦，惟房屋仍因其舊，本院計有禮堂一，禪觀堂一，圖書室一，
+<lb ed="GA" n="b030a05"/>研究室一，講堂二，教務處一，事務處一，閱報室一，會客室一，儲藏室一，餐
+<lb ed="GA" n="b030a06"/>室十，教職員室十，學僧宿舍十三，洗濯處經行場各一，水爐一，廁室一，院中屋
+<lb ed="GA" n="b030a07"/>宇雖不敷支配，幸各室光線空氣皆佳，端合講學之用，院後有海印樓一，為本院院
+<lb ed="GA" n="b030a08"/>長起居之處，旁有關房二，共計四十餘間，今建築物也。</p></cb:div>
+<lb ed="GA" n="b030a09"/><cb:div type="other"><cb:mulu type="其他" level="3">四　後山之禪室</cb:mulu><head>四　後山之禪室</head>
+<lb ed="GA" n="b030a10"/><cb:div type="other"><cb:mulu type="其他" level="4">普照寺</cb:mulu><head>普照寺</head><p xml:id="pGA058pb030a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">此寺相傳最古，蓋先有普照而後有本寺也。（詳見本寺寺考。）寺在山後
+<lb ed="GA" n="b030a11"/>之右，人跡罕到，為靜修之地也。</p></cb:div>
+<lb ed="GA" n="b030a12"/><cb:div type="other"><cb:mulu type="其他" level="4">蓮花洞</cb:mulu><head>蓮花洞</head><p xml:id="pGA058pb030a1204" style="margin-left:0em;text-indent:2em;" cb:place="inline">此洞在後山之左，地勢幽靜，堪作修道之用，惜建築年月日已無可考。</p></cb:div>
+<pb ed="GA" xml:id="GA058.0063.b031a" n="b031a"/>
+<lb ed="GA" n="b031a01"/><cb:div type="other"><cb:mulu type="其他" level="4">水池區</cb:mulu><head>水池區</head><p xml:id="pGA058pb031a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">此水池區；為本寺之最近建築，有三靜修處兜率陀院，須摩提國，阿蘭若
+<lb ed="GA" n="b031a02"/>處是也，（詳見兜率陀院記及南普陀遊記。）</p></cb:div></cb:div></cb:div></cb:div>
+</body></text></TEI>

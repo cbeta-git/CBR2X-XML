@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="GA042n0042">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Zhongguo Fosi Shizhi Huikan, Electronic version, No. 42 鄧尉山聖恩寺志</title>
+			<title xml:lang="zh-Hant">中國佛寺史志彙刊數位版, No. 42 鄧尉山聖恩寺志</title>
+			<author>明 周永年撰</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>18卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">GA</idno>.<idno type="vol">42</idno>.<idno type="no">42</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2024-10-24 21:57:07 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Zhongguo Fosi Shizhi Huikan</title>
+				<title level="s" xml:lang="zh-Hant">中國佛寺史志彙刊</title>
+				<title level="m" xml:lang="zh-Hant">鄧尉山聖恩寺志</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Digital Archive of Chinese Buddhist Temple Gazetteers Project which is funded by Chung-Hwa Institute of Buddhist Studies and executed by Dharma Drum Institute of Liberal Arts</p>
+			<p xml:lang="zh-Hant" cb:type="ly">法鼓文理學院、中華佛學研究所之「中國佛教寺廟志數位典藏」專案提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【志彙】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB01403">
+				<charName>CBETA CHARACTER CB01403</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[囗@力]</value>
+				</charProp>
+				<mapping type="unicode">U+361E</mapping>
+				<mapping cb:dec="984443" type="PUA">U+F057B</mapping>
+			</char>
+			<char xml:id="CB04474">
+				<charName>CBETA CHARACTER CB04474</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[泳-永+曶]</value>
+				</charProp>
+				<mapping type="unicode">U+3CF7</mapping>
+				<mapping cb:dec="987514" type="PUA">U+F117A</mapping>
+			</char>
+			<char xml:id="CB07930">
+				<charName>CBETA CHARACTER CB07930</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[足-口+夭]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>走</value>
+				</charProp>
+				<mapping type="unicode">U+27E86</mapping>
+				<mapping cb:dec="990970" type="PUA">U+F1EFA</mapping>
+			</char>
+			<char xml:id="CB09736">
+				<charName>CBETA CHARACTER CB09736</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[(傘-(企-止)+卄)-┬+干]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>華</value>
+				</charProp>
+				<mapping cb:dec="992776" type="PUA">U+F2608</mapping>
+			</char>
+			<char xml:id="CB30273">
+				<charName>CBETA CHARACTER CB30273</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[伉-几+(句-口+方)]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>傍</value>
+				</charProp>
+				<mapping type="unicode">U+20293</mapping>
+				<mapping cb:dec="1013313" type="PUA">U+F7641</mapping>
+			</char>
+			<char xml:id="CB33898">
+				<charName>CBETA CHARACTER CB33898</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[剿-果+夕]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>列</value>
+				</charProp>
+				<mapping type="unicode">U+206F1</mapping>
+				<mapping cb:dec="1016938" type="PUA">U+F846A</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2024-10-22">
+			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu type="其他" level="1">祠墓</cb:mulu><cb:mulu type="其他" level="2">葉和甫墓</cb:mulu>
+<milestone unit="juan" n="14"/>
+<pb ed="GA" xml:id="GA042.0042.0481a" n="0481a"/>
+<lb ed="GA" n="0481a01"/><cb:mulu type="卷" n="14"></cb:mulu><cb:juan fun="open" n="14"><cb:jhead>鄧尉聖恩寺志卷之十四</cb:jhead></cb:juan>
+<lb ed="GA" n="0481a02"/><cb:div type="other"><cb:mulu type="其他" level="1">塔銘</cb:mulu><head>塔銘<note place="inline">祭文像贊附見</note></head>
+<lb ed="GA" n="0481a03"/><cb:div type="other"><cb:mulu type="其他" level="2">慈光寂炤圓明利濟萬峰大禪師塔銘</cb:mulu><head>慈光寂炤圓明利濟萬峰大禪師塔銘</head>
+<lb ed="GA" n="0481a04"/><byline cb:type="author">苕溪花城隱士海安同知沈貫撰文</byline>
+<lb ed="GA" n="0481a05"/><byline cb:type="other">太常寺卿程南雲篆書</byline>
+<lb ed="GA" n="0481a06"/><p xml:id="pGA042p0481a0601" style="margin-left:0em;text-indent:2em;">一<reg>真</reg>法界。萬象無跡。妙有不妙。<reg>真</reg>空不空。寂而常知。無
+<lb ed="GA" n="0481a07"/>機不僃。洞炤十方。含包天地。故名大覺。吾佛證斯。開方
+<lb ed="GA" n="0481a08"/>便門。示<reg>真</reg>實相。迦葉得斯。破顏微笑。越正法眼。少林得
+<lb ed="GA" n="0481a09"/>此面壁九年。與可安心。以三<reg>即</reg>一。以一<reg>即</reg>三。四七二三。
+<pb ed="GA" xml:id="GA042.0042.0482a" n="0482a"/>
+<lb ed="GA" n="0482a01"/>皆證此也。佛佛相印。祖祖相傳。衣鉢可藏。而法不容冺。
+<lb ed="GA" n="0482a02"/>曹溪付與南嶽。嶽授於馬祖。祖得百丈海海得黃檗運
+<lb ed="GA" n="0482a03"/>運得臨濟玄。一花五葉從此而分。臨濟<reg>溈</reg>仰雲門曹洞
+<lb ed="GA" n="0482a04"/>法眼。濟得黃檗親傳。古云。臨濟正宗一十八世。至高峰
+<lb ed="GA" n="0482a05"/>妙公公。得雪巖欽公心印。居天目山。獅子巖三十年。不
+<lb ed="GA" n="0482a06"/>出死關。四方從者。雷動海湧。鮮有昇其門者。唯中峰本
+<lb ed="GA" n="0482a07"/>公深造閫奥。以得其訣。通博無碍。以大辯才。息三教之
+<lb ed="GA" n="0482a08"/>有。破六宗之執。王臣慕仰。帝道施恩。入室弟子以數十
+<lb ed="GA" n="0482a09"/>計。惟千岩長公得其法爾。岩得其傳居義烏伏龍山。建
+<pb ed="GA" xml:id="GA042.0042.0483a" n="0483a"/>
+<lb ed="GA" n="0483a01"/>大伽藍。學徒恒數百人。攪動江山名傾宇宙。齊魯燕趙
+<lb ed="GA" n="0483a02"/>秦隴閩。蜀外而日本三韓。八番羅甸交趾琉球。莫不奔
+<lb ed="GA" n="0483a03"/><g ref="#CB07930"/>。膜拜咨決。惟萬峰禪師一人最為上首。師諱時蔚號
+<lb ed="GA" n="0483a04"/>萬峰。溫州樂清縣金氏子。母鄭氏。夜夢白氣亘天。因時
+<lb ed="GA" n="0483a05"/>懷姙癸卯八月二十九日午時生。母晚年生師雙子。師
+<lb ed="GA" n="0483a06"/>得第二。母欲棄之。有姊金氏鞠以為子。年始七歲。父母
+<lb ed="GA" n="0483a07"/>俱喪。忽一夜自覩。白光滿室。賢愚莫能知之。十三歲。依
+<lb ed="GA" n="0483a08"/>本縣演慶寺昇講主出家。十六歲為僧。因看法華經安
+<lb ed="GA" n="0483a09"/>樂行品云。在於閑處。修攝其心。師有省問。講主此語。如
+<pb ed="GA" xml:id="GA042.0042.0484a" n="0484a"/>
+<lb ed="GA" n="0484a01"/>何解說。講曰。世尊教你向山間林下結菴辦道。師聞其
+<lb ed="GA" n="0484a02"/>語。不勝欣喜。長時打坐。兀兀如癡。講曰。汝非吾宗人也。
+<lb ed="GA" n="0484a03"/>令師遊方問道。年十九歲。更衣學禪。受具足戒。遊于兩
+<lb ed="GA" n="0484a04"/>浙。至杭州。聞虎跑止岩和尚道譽。遂往禮拜請益。岩曰。
+<lb ed="GA" n="0484a05"/>因甚叅禪人。不悟<reg>真</reg>性。逐日區區打閧過了也。或三五
+<lb ed="GA" n="0484a06"/>成羣。說長老如何。或三五成羣。說叢林好惡。一向不在
+<lb ed="GA" n="0484a07"/>己躬下做工夫。若要了悟大乘。切要<reg>真</reg>叅實學。從頭開
+<lb ed="GA" n="0484a08"/>發一遍。就付三不是公案。岩云。便從這裏晝三夜三。心
+<lb ed="GA" n="0484a09"/>心無間。念念相續叅去。師得開示。夜不寢席。日不涉緣。
+<pb ed="GA" xml:id="GA042.0042.0485a" n="0485a"/>
+<lb ed="GA" n="0485a01"/>以經數月未得其決。復回明州達蓬佛跡山卓居辦道
+<lb ed="GA" n="0485a02"/>正在疑網中。忽聞寺中宗律師。舉百丈問<reg>溈</reg>山云。不可
+<lb ed="GA" n="0485a03"/>喚作淨瓶。喚作甚麼。山出踢倒便行。觸發疑情。不覺<g ref="#CB01403"/>
+<lb ed="GA" n="0485a04"/>地一聲。打破疑團。直得虛空粉碎。大地平沉。非一切世
+<lb ed="GA" n="0485a05"/>間境界可比不。是心不是佛不是物。咄這鈍漢。正好為
+<lb ed="GA" n="0485a06"/>渠。三十棒本來現成。何有許多周折。頌曰：</p><lg xml:id="lgGA042p0485a0617" cb:place="inline" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">如來臘八覩
+<lb ed="GA" n="0485a07"/>明星　也是將鰕作眼睛</l><l style="text-indent:1em;">為有遠孫明悟處　日輪當午豁
+<lb ed="GA" n="0485a08"/>然明</l></lg><p xml:id="pGA042p0485a0803" style="margin-left:0em;text-indent:2em;" cb:place="inline">自厥之後，徑往華頂峰，無見和尚處，求其決擇，見
+<lb ed="GA" n="0485a09"/>問：萬法歸一，一歸何處？師上前問訊，叉手而立，又問：如
+<pb ed="GA" xml:id="GA042.0042.0486a" n="0486a"/>
+<lb ed="GA" n="0486a01"/>何是道？師云：道無可道見。云：不道又不道箇甚麼？師云：
+<lb ed="GA" n="0486a02"/>正要和尚疑着見。云：疑着<reg>即</reg>錯。師云：不疑亦錯見。便喝，
+<lb ed="GA" n="0486a03"/>師亦喝；見又喝，師亦喝；拂袖而行，見云：侍者！侍者！你雖
+<lb ed="GA" n="0486a04"/>悟得箇<reg>真</reg>性，年紀小在，未可印證你來，汝且居山十年
+<lb ed="GA" n="0486a05"/>二十年，我自令人來取你也。其年二十六歲，復回達，蓬
+<lb ed="GA" n="0486a06"/>數載，自後竟無消息。師忽聞虎跑止岩和尚，圓寂久時，
+<lb ed="GA" n="0486a07"/>師遂往掃塔。偶宿靈隱旦過，忽聞方殿主舉千岩和尚
+<lb ed="GA" n="0486a08"/>一頌云：</p><lg xml:id="lgGA042p0486a0804" cb:place="inline" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">斷崖和尚春圓寂　無見知翁夏亦亡</l><l style="text-indent:1em;">畢竟有生
+<lb ed="GA" n="0486a09"/>還有死　千岩不久也無常</l><l style="text-indent:1em;">兩輪日月如梭過　一合乾坤
+<pb ed="GA" xml:id="GA042.0042.0487a" n="0487a"/>
+<lb ed="GA" n="0487a01"/>是磨忙</l><l style="text-indent:1em;">寄語諸方叅學者　莫教蹉過好時光</l></lg><p xml:id="pGA042p0487a0119" style="margin-left:0em;text-indent:2em;" cb:place="inline">一聞便知
+<lb ed="GA" n="0487a02"/>來意，一同本僧直造伏。龍相見和尚，纔入門，便問：不是
+<lb ed="GA" n="0487a03"/>心，不是佛，不是物，是箇甚麼？師將坐具，打一圓相，叉手
+<lb ed="GA" n="0487a04"/>而立，問答不錄偈。呈南泉不是惱人心，有要將心去捉
+<lb ed="GA" n="0487a05"/>心。不是我，心不是佛，性空寬廓有何尋？師允諾，就命堂
+<lb ed="GA" n="0487a06"/>中第一座，辭不獲已，黽勉秪領。忽一日，和尚陞堂，舉：無
+<lb ed="GA" n="0487a07"/>風荷葉，動必定有魚行。師出<reg>眾</reg>，震聲一喝，拂袖而行，和
+<lb ed="GA" n="0487a08"/>尚示偈云：</p><lg xml:id="lgGA042p0487a0805" cb:place="inline" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">鬱鬱黃花滿目秋　白雲端坐碧峰頭</l><l style="text-indent:1em;">無賓主
+<lb ed="GA" n="0487a09"/>句輕拈出　一喝千江水逆流</l></lg><p xml:id="pGA042p0487a0913" style="margin-left:0em;text-indent:2em;" cb:place="inline">師見偈，從此退職。遂往蘭
+<pb ed="GA" xml:id="GA042.0042.0488a" n="0488a"/>
+<lb ed="GA" n="0488a01"/>溪州嵩山結菴辦道，奈何十方雲水交叅，四海高賢咨
+<lb ed="GA" n="0488a02"/>決千岩令人持書相招。前日堂中大<reg>眾</reg>問：老僧首座如
+<lb ed="GA" n="0488a03"/>何不來走遭？以見<reg>眾</reg>人之心歡喜。老僧門下得人你如
+<lb ed="GA" n="0488a04"/>何執坐于此？以知斯意。師念愚魯，于宗無補，不敢妄為
+<lb ed="GA" n="0488a05"/>擔荷大法。後于壬辰三月二十四日和尚令源藏主送
+<lb ed="GA" n="0488a06"/>法衣頂相來，岩云：老僧袈裟一頂，送與嵩山蔚長老，畧
+<lb ed="GA" n="0488a07"/>表叢林之道，念非諸方兜法子者也。呵呵！師得法之後，
+<lb ed="GA" n="0488a08"/>因浙東田少山多不堪着<reg>眾</reg>，又遭三年亢旱，由是行錫
+<lb ed="GA" n="0488a09"/>蘇州遊翫山水，乃見光福鄧尉山，山水相拱，龍虎盤旋，
+<pb ed="GA" xml:id="GA042.0042.0489a" n="0489a"/>
+<lb ed="GA" n="0489a01"/>朱雀導而玄武從，陰陽合而子午。正剙建道場，鋪舒厥
+<lb ed="GA" n="0489a02"/>志，三十餘年，道風遍布，如谷應聲，往來雲水靡問，賢愚
+<lb ed="GA" n="0489a03"/>駢集，座下致無虛日。於洪武辛酉正月十五日，告<reg>眾</reg>曰：
+<lb ed="GA" n="0489a04"/>吾今時節至矣，大<reg>眾</reg>切莫遠去。門人駭然不散。後於當
+<lb ed="GA" n="0489a05"/>月付囑衣法與<reg>眾</reg>弟子門人。行宗問曰：和尚會中幾人
+<lb ed="GA" n="0489a06"/>得法弟子？師示偈曰：</p><lg xml:id="lgGA042p0489a0609" cb:place="inline" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">慈悲無念華　開果熟因地</l><l style="text-indent:1em;">分明慧
+<lb ed="GA" n="0489a07"/>寶致　囑清徹源源</l><l style="text-indent:1em;">一派流千古　萬古來相續</l></lg><p xml:id="pGA042p0489a0720" style="margin-left:0em;text-indent:2em;" cb:place="inline">付法已訖
+<lb ed="GA" n="0489a08"/>此日京都西天。師父令慶侍者來報，師欲以奏聞，請師
+<lb ed="GA" n="0489a09"/>相見，一一應答酬謝，以畢明日。二十九日乙卯午時，付
+<pb ed="GA" xml:id="GA042.0042.0490a" n="0490a"/>
+<lb ed="GA" n="0490a01"/>囑門人曰：如今已得，須向山間林下钁頭邊接引一個
+<lb ed="GA" n="0490a02"/>半個闡揚。吾道報佛恩德不可攀高接貴輕慢下流逐
+<lb ed="GA" n="0490a03"/>利追名迷<reg>真</reg>惑道如今末法將沉，汝等切須仔細道了，
+<lb ed="GA" n="0490a04"/>結跏趺坐，說偈曰：</p><lg xml:id="lgGA042p0490a0408" cb:place="inline" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">七十九年　一味杜田</l><l style="text-indent:1em;">懸崖撒手　杲日
+<lb ed="GA" n="0490a05"/>當天</l></lg><p xml:id="pGA042p0490a0503" style="margin-left:0em;text-indent:2em;" cb:place="inline">語畢而逝，春秋七十九，僧臘六十夏。停龕十三日，
+<lb ed="GA" n="0490a06"/>肢體溫如、形容儼若、門人普鑑等，取二月十三日巳時，
+<lb ed="GA" n="0490a07"/>奉全身瘞于院西涅槃山之永光塔。四<reg>眾</reg>弟子，哀聲動
+<lb ed="GA" n="0490a08"/>搖，山水師一生清苦莫能言之。衲衣蒲履，錙銖不蓄，數
+<lb ed="GA" n="0490a09"/>處開山，畧無顧盻。學徒皆稱菩薩，不呼名諱受化，僧俗，
+<pb ed="GA" xml:id="GA042.0042.0491a" n="0491a"/>
+<lb ed="GA" n="0491a01"/>莫知其數。室中舉古騐今，直截根源，並無剩語。所有示
+<lb ed="GA" n="0491a02"/><reg>眾</reg>語錄，送行法語，不肯流傳，但曰從上佛祖種種言說，
+<lb ed="GA" n="0491a03"/>句句朝宗，言言見諦，後學初機，畧不聽從，况吾區區，杜
+<lb ed="GA" n="0491a04"/>田話柄乎？悉付火燼。門人記錄，畧成文卷，仍行于世。門
+<lb ed="GA" n="0491a05"/>人普壽敬持行實，勉余請銘。余才輕德薄，不敢汙禪師
+<lb ed="GA" n="0491a06"/>之德，自念為師，嗣法弟子海舟和尚座下叅學久矣，况
+<lb ed="GA" n="0491a07"/>吾祖父亦受天目。中峰和尚戒諭往來不徹。余一日請
+<lb ed="GA" n="0491a08"/>問海舟曰：圓覺經云：修多羅教，如標月指。若復見月，了
+<lb ed="GA" n="0491a09"/>知所標。畢竟非月，此理如何？舟舉手云：經也，月也，指也。
+<pb ed="GA" xml:id="GA042.0042.0492a" n="0492a"/>
+<lb ed="GA" n="0492a01"/>余懵然舟拍，案一下云：月落寒潭。因而有省，乃知月指，
+<lb ed="GA" n="0492a02"/>不別為經。從此知師之道，非凡情之所測也。了知一月
+<lb ed="GA" n="0492a03"/>當天，本無標指無指，恐觀者不覩<reg>真</reg>月直指之言，智者
+<lb ed="GA" n="0492a04"/>觀之有進，故述其銘。銘曰：</p>
+<lb ed="GA" n="0492a05"/><lg xml:id="lgGA042p0492a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">天目穹窿　大道盤宗</l><l style="text-indent:1em;">至高至妙　本乎其宗</l>
+<lb ed="GA" n="0492a06"/><l style="text-indent:1em;">千岩一隕　卓然萬峰</l><l style="text-indent:1em;">夢感母妊　瑞應童蒙</l>
+<lb ed="GA" n="0492a07"/><l style="text-indent:1em;">爰自落髮　性智圓融</l><l style="text-indent:1em;">一聞妙義　聲入心通</l>
+<lb ed="GA" n="0492a08"/><l style="text-indent:1em;">虎跑回首　歸隱達蓬</l><l style="text-indent:1em;">機觸百丈　頓悟<reg>真</reg>空</l>
+<lb ed="GA" n="0492a09"/><l style="text-indent:1em;">靈隱逢方　道契伏龍</l><l style="text-indent:1em;">遍歷殊勝　罔克愜衷</l>
+<pb ed="GA" xml:id="GA042.0042.0493a" n="0493a"/>
+<lb ed="GA" n="0493a01"/><l style="text-indent:1em;">相彼平江　山水之邦</l><l style="text-indent:1em;">尉山秀拔　羣峰頡頏</l>
+<lb ed="GA" n="0493a02"/><l style="text-indent:1em;">登臨一覽　終焉允臧</l><l style="text-indent:1em;">坎離中正　龍虎超驤</l>
+<lb ed="GA" n="0493a03"/><l style="text-indent:1em;">大展厥志　洪肇道場</l><l style="text-indent:1em;">天人擁護　聖凡讚揚</l>
+<lb ed="GA" n="0493a04"/><l style="text-indent:1em;">徒<reg>眾</reg>雲集　躋躋蹌蹌</l><l style="text-indent:1em;">援溺扶蹶　道念遑遑</l>
+<lb ed="GA" n="0493a05"/><l style="text-indent:1em;">寒之裘裳　饑之膏梁</l><l style="text-indent:1em;">汲引將來　山海梯航</l>
+<lb ed="GA" n="0493a06"/><l style="text-indent:1em;">繼踵接跡　靡間遐方</l><l style="text-indent:1em;">卅有餘春　其道大昌</l>
+<lb ed="GA" n="0493a07"/><l style="text-indent:1em;">為人天師　宜壽無量</l><l style="text-indent:1em;">八旬相將　偈說無常</l>
+<lb ed="GA" n="0493a08"/><l style="text-indent:1em;">瘞院西<g ref="#CB30273"/>　涅槃之陽</l><l style="text-indent:1em;">位正玄堂　甃塔全藏</l>
+<lb ed="GA" n="0493a09"/><l style="text-indent:1em;">維石昂昂　松柏蒼蒼</l><l style="text-indent:1em;">石爛松枯　斯塔永光</l></lg>
+<pb ed="GA" xml:id="GA042.0042.0494a" n="0494a"/>
+<lb ed="GA" n="0494a01"/><byline cb:type="other">大明洪武十六年三月　日，弟子普壽、普福、善堅、普隱、
+<lb ed="GA" n="0494a02"/>西序、普持、普華、普榮、普慈等立石</byline></cb:div>
+<lb ed="GA" n="0494a03"/><cb:div type="other"><cb:mulu type="其他" level="2">天壽聖恩禪寺虛碧璿禪師塔銘</cb:mulu><head>天壽聖恩禪寺虛碧璿禪師塔銘</head>
+<lb ed="GA" n="0494a04"/><byline cb:type="author">文林郎江西南昌府南昌縣知縣郡人沈轔撰文</byline>
+<lb ed="GA" n="0494a05"/><byline cb:type="other">大中大夫江西等處承宣布政使司右叅政致仕陸
+<lb ed="GA" n="0494a06"/>友諒篆額</byline>
+<lb ed="GA" n="0494a07"/><byline cb:type="other">承直郎尚書工部屯田清吏司主事范陽鄒順書丹</byline>
+<lb ed="GA" n="0494a08"/><p xml:id="pGA042p0494a0801" style="margin-left:0em;text-indent:2em;">姑蘇去城七十里之許，有山曰玄墓，面太湖，枕光福，<reg>眾</reg>
+<lb ed="GA" n="0494a09"/>峰環抱，羣壑聯絡，聳然而高，鬱然而秀。元末己丑，有禪
+<pb ed="GA" xml:id="GA042.0042.0495a" n="0495a"/>
+<lb ed="GA" n="0495a01"/>師、萬峰蔚公，卓錫開山，成一大叢林。後至正統癸亥，
+<lb ed="GA" n="0495a02"/>聖朝請額曰天壽聖恩禪寺前有住持璿公禪師受業
+<lb ed="GA" n="0495a03"/>於本寺蘇之吳縣長山鄉人也。按狀，諱智璿，號為虛碧，
+<lb ed="GA" n="0495a04"/>姓顧氏之子。昔誕生時，異香滿室，經宿不散，生乃神清
+<lb ed="GA" n="0495a05"/>氣秀，非伍。常兒髫齓間，識方，名知舊跡，父母甚鍾愛。十
+<lb ed="GA" n="0495a06"/>有一歲，出就外傅，窮究儒書，慕修梵行，<reg>即</reg>脫白投禮萬
+<lb ed="GA" n="0495a07"/>峰和尚為師，受度祝髮，求<reg>真</reg>妙訣。一日，請師求出世，法
+<lb ed="GA" n="0495a08"/>師曰：無法可度，但明心地<reg>即</reg>是佛性。繇是退益，痛自磨
+<lb ed="GA" n="0495a09"/>礪，懋勉忘飡奮苦志修苦行，<reg>真</reg>積力久，將有所得。一日，
+<pb ed="GA" xml:id="GA042.0042.0496a" n="0496a"/>
+<lb ed="GA" n="0496a01"/>峰舉萬法歸一公案，豁然契悟，遂蒙印可。尋詣北山本
+<lb ed="GA" n="0496a02"/>空相禪師，會中充侍香，尋典藏鑰。久之於常州錫峰圓
+<lb ed="GA" n="0496a03"/>通寺說法，多人感化，速證身位。法<reg>眾</reg>請回本山，協心擁
+<lb ed="GA" n="0496a04"/>為住持。三十餘年，闡揚萬峰，直指之道，宏倡梵剎，開拓
+<lb ed="GA" n="0496a05"/>境界，種種嚴餙。佛有殿兮僧有堂，行有寮兮客有舍，爨
+<lb ed="GA" n="0496a06"/>有厨兮粟有倉，物積庫兮事事從心。經行坐臥，各得其
+<lb ed="GA" n="0496a07"/>所，湖山之地，煥然一新。四方禪流，聞風雲集，遠近士庶，
+<lb ed="GA" n="0496a08"/>慕德皈依，手度弟子一十餘人，師孫一十七人，法筵之
+<lb ed="GA" n="0496a09"/>盛，卓冠姑蘇。師知世緣將畢，擇期日限營築，退居塔院，
+<pb ed="GA" xml:id="GA042.0042.0497a" n="0497a"/>
+<lb ed="GA" n="0497a01"/>二所俱備。師乃一疾弗痊，瞑目長逝。茶毘之日，祥雲覆
+<lb ed="GA" n="0497a02"/>龕，瑞焰充虛，煙垂舍利，得者爭先。其師生於至正癸卯
+<lb ed="GA" n="0497a03"/>二十三年十一月初六日吉辰也。卒於正統。庚申五年
+<lb ed="GA" n="0497a04"/>八月初九日，西歸而去。世壽七十有八，僧臘五十九夏。
+<lb ed="GA" n="0497a05"/>龕煉已久，囑傳衣鉢，遺業有托，得其所付，代不乏人矣。
+<lb ed="GA" n="0497a06"/>主山徒弟道清，念師苦行，功過前人，恐滅其德，抱泣骸
+<lb ed="GA" n="0497a07"/>骨，瘞于祖塔之左，倚於本寺之右，是以謹具塔銘于上，
+<lb ed="GA" n="0497a08"/>復筆出處事跡持狀來求銘焉。嗚呼！生有奇異，戒律精
+<lb ed="GA" n="0497a09"/>嚴，闡揚宗風，光前振後。是宜靈塔，以傳後人云。</p>
+<pb ed="GA" xml:id="GA042.0042.0498a" n="0498a"/>
+<lb ed="GA" n="0498a01"/><lg xml:id="lgGA042p0498a0101" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;"><reg>真</reg>如奥妙　以心為師</l><l style="text-indent:1em;">了得一統　萬法咸歸</l>
+<lb ed="GA" n="0498a02"/><l style="text-indent:1em;">若不覺悟　色相相離</l><l style="text-indent:1em;">粵惟我公　生時鍾奇</l>
+<lb ed="GA" n="0498a03"/><l style="text-indent:1em;">幼有志操　早證菩提</l><l style="text-indent:1em;">嚴持梵行　恪守清規</l>
+<lb ed="GA" n="0498a04"/><l style="text-indent:1em;">恢弘祖道　種種適宜</l><l style="text-indent:1em;">靈歸西域　骸尚存斯</l>
+<lb ed="GA" n="0498a05"/><l style="text-indent:1em;">巍然建塔　倚寺之西</l><l style="text-indent:1em;">而今而後　瞻之仰之</l></lg>
+<lb ed="GA" n="0498a06"/><p xml:id="pGA042p0498a0601" style="margin-left:0em;text-indent:2em;">正統十年七月　日，住山徒弟比丘道清立石，同手勒
+<lb ed="GA" n="0498a07"/>弟子道夷、道弘、道澄、道榮、惠明、道新、道宣、道淵、
+<lb ed="GA" n="0498a08"/>道勒、道淨、道宗、惠海、道洪</p></cb:div>
+<lb ed="GA" n="0498a09"/><cb:div type="other"><cb:mulu type="其他" level="2">聖恩於密藏禪師塔銘</cb:mulu><head>聖恩於密藏禪師塔銘</head>
+<pb ed="GA" xml:id="GA042.0042.0499a" n="0499a"/>
+<lb ed="GA" n="0499a01"/><byline cb:type="author">賜進士出身．光祿大夫．太子太保．禮部尚書．兼翰林院
+<lb ed="GA" n="0499a02"/>學士．掌詹事府事．華亭董其昌撰并書</byline>
+<lb ed="GA" n="0499a03"/><byline cb:type="other">賜進士及第．禮部左侍郎．兼東閣大學士．郡人文震孟
+<lb ed="GA" n="0499a04"/>隸額</byline>
+<lb ed="GA" n="0499a05"/><p xml:id="pGA042p0499a0501" style="margin-left:0em;text-indent:2em;">學道須歸鐵漢，非將相所能利生必用金篦，非人我之
+<lb ed="GA" n="0499a06"/>逞山。有肉而無骨者，難居得骨之僧；人有英而不雄者，
+<lb ed="GA" n="0499a07"/>莫荷大雄之擔。若夫高朗其識，剛大其氣，沉潛其思，堅
+<lb ed="GA" n="0499a08"/>固其願。眉毛掛劒，血直濺於梵天；舌本含蓮，香徧薰於
+<lb ed="GA" n="0499a09"/>淨域。當吾世也，有其人焉。其三峰禪師乎，師名法藏，字
+<pb ed="GA" xml:id="GA042.0042.0500a" n="0500a"/>
+<lb ed="GA" n="0500a01"/>於密學人，稱為三峰和尚，梁溪蘇氏子也。父蘭母周氏，
+<lb ed="GA" n="0500a02"/>積慈善根，獲寧馨報。岐嶷厭於葷茹，齠齓不為童嬉，覩
+<lb ed="GA" n="0500a03"/>供養具，若識金環，誦般若經，如注瓶水。十五歲剃度五
+<lb ed="GA" n="0500a04"/>牧之德慶菴焉。雖初發心，尚修慧業，神者來告，若宿命
+<lb ed="GA" n="0500a05"/>通。有曰：四十悟道，六十歸空，其懸記也。二十九歲受戒
+<lb ed="GA" n="0500a06"/>於雲棲，又八年受具於靈谷。又十五年，嗣法於金粟。又
+<lb ed="GA" n="0500a07"/>六年開堂於鄧尉。其閱歷也。初從高峰語錄，悟半醒半
+<lb ed="GA" n="0500a08"/>睡之徵，故以高峰為印心。後讀覺範智證傳悟一賓一
+<lb ed="GA" n="0500a09"/>主之偈，故以覺範為印法其師承也。語錄三十卷，廣錄
+<pb ed="GA" xml:id="GA042.0042.0501a" n="0501a"/>
+<lb ed="GA" n="0501a01"/>五十卷，弘戒法儀十卷五宗原一卷，最後語錄一卷，其
+<lb ed="GA" n="0501a02"/>著述也。北禪著梵網，則佛像放光；開元禮石，佛則石佛
+<lb ed="GA" n="0501a03"/>顯瑞。其感應也，老趙州云：上等人來牀上接中等人來
+<lb ed="GA" n="0501a04"/>牀下接。師則不然，甘霖一雨，甘露一味，老宿與初機等
+<lb ed="GA" n="0501a05"/>觀，宰官與卑田同視，叩則必應，誨則忘疲，其接物也。厥
+<lb ed="GA" n="0501a06"/>初，寺名破山，隱同貧子，甘半菽如王膳，披百結如銖衣。
+<lb ed="GA" n="0501a07"/><reg>既</reg>而名聲普聞，財施坌集，有布金者，委土視之。藉其河
+<lb ed="GA" n="0501a08"/>潤，轉我食輪，礪齒有加，滌腸如故。其苦行也，至于背觸
+<lb ed="GA" n="0501a09"/>俱非之鑪鞴，佛魔皆掃之鉗錘，使髑髏吞丹七而返魂，
+<pb ed="GA" xml:id="GA042.0042.0502a" n="0502a"/>
+<lb ed="GA" n="0502a01"/>蚊子望鐵牛而退步，罵豈罵耶？古德之法施如此謗，則
+<lb ed="GA" n="0502a02"/>謗耳護持之花報歷然，其弘法也。上堂四十餘會，普說
+<lb ed="GA" n="0502a03"/>小叅，不記其數度徒百餘，受戒萬<reg>眾</reg>，得法者一默成問
+<lb ed="GA" n="0502a04"/>石乘在可證，頂目徹澹予垣，剖石璧于磐鴻具德禮繼
+<lb ed="GA" n="0502a05"/>起儲慧刃銛潭吉，忍碩機，聖先付法有梵伊，致已早歿。
+<lb ed="GA" n="0502a06"/>其傳受也，師所苦心，綱宗為最。五十年前紫佰老人嘗
+<lb ed="GA" n="0502a07"/>從事於斯矣。獅弦重奏，鶴和仍稀，將酬未了之因，豈取
+<lb ed="GA" n="0502a08"/>不還之果？嗟乎！鵞王擇乳，知雲門之有人；白馬馱經，誤
+<lb ed="GA" n="0502a09"/>生公之忍死。神州大乘氣象，忽爾黯然，江表白社，風流
+<pb ed="GA" xml:id="GA042.0042.0503a" n="0503a"/>
+<lb ed="GA" n="0503a01"/>于茲盡矣。其昌趨風日久傾葢，須臾漁父入桃源，謂前
+<lb ed="GA" n="0503a02"/>途之可識，慶喜見阿閦，嗟再覿之無期。輒應蒙求，續標
+<lb ed="GA" n="0503a03"/>僧寶，龍顙化城，山神必來禮足蟲齧半字石丈，將無點
+<lb ed="GA" n="0503a04"/>頭乎？銘曰：</p>
+<lb ed="GA" n="0503a05"/><lg xml:id="lgGA042p0503a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">空王弟子　惟烈丈夫</l><l style="text-indent:1em;">十號居一　五葉不無</l><l style="text-indent:1em;">臨濟行令
+<lb ed="GA" n="0503a06"/>　雪點洪罏</l><l style="text-indent:1em;">巍巍赫赫　嶽偃海枯</l><l style="text-indent:1em;">小根小器　巾幗為徒</l>
+<lb ed="GA" n="0503a07"/><l style="text-indent:1em;">不克負荷　絕學荒蕪</l><l style="text-indent:1em;">爰有三峰　崛起菰蘆</l><l style="text-indent:1em;"><reg>真</reg>風嚴冷
+<lb ed="GA" n="0503a08"/>　古貌貞孤</l><l style="text-indent:1em;">疑團先破　得大頭顱</l><l style="text-indent:1em;">悟無可悟　吾猶故吾</l>
+<lb ed="GA" n="0503a09"/><l style="text-indent:1em;">頻伽息響　野干竟呼</l><l style="text-indent:1em;">剖斗折衡　懸絲可虞</l><l style="text-indent:1em;">師曰危哉
+<pb ed="GA" xml:id="GA042.0042.0504a" n="0504a"/>
+<lb ed="GA" n="0504a01"/>　慧命我扶</l><l style="text-indent:1em;">顧此綱宗　因循久矣</l><l style="text-indent:1em;">師實間關　程杵自許</l>
+<lb ed="GA" n="0504a02"/><l style="text-indent:1em;">羣囂熾然　如石投水</l><l style="text-indent:1em;">或曰一花　五葉如父</l><l style="text-indent:1em;">有子父業
+<lb ed="GA" n="0504a03"/>　<reg>既</reg>同諸諍</l><l style="text-indent:1em;">可止或曰　明取綱宗</l><l style="text-indent:1em;">本無實法　若有流布</l>
+<lb ed="GA" n="0504a04"/><l style="text-indent:1em;">何成舍筏　若無流布</l><l style="text-indent:1em;">證據則乏　獨是之是</l><l style="text-indent:1em;">引而不發
+<lb ed="GA" n="0504a05"/>　或曰得坐</l><l style="text-indent:1em;">披衣辨魔　揀異葛藤</l><l style="text-indent:1em;"><reg>既</reg>翦符節　自己不食</l>
+<lb ed="GA" n="0504a06"/><l style="text-indent:1em;">馬肝亦為　知味嗟嗟</l><l style="text-indent:1em;">蟬翼為重　千鈞為輕</l><l style="text-indent:1em;">折枝為難
+<lb ed="GA" n="0504a07"/>　超海為易</l><l style="text-indent:1em;">師負九鼎　而輕者忌</l><l style="text-indent:1em;">師渡弱水　而易者議</l>
+<lb ed="GA" n="0504a08"/><l style="text-indent:1em;">是<reg>顛</reg>倒見　非差別智</l><l style="text-indent:1em;">吾所知者　天童三峰</l><l style="text-indent:1em;">一雲一龍
+<lb ed="GA" n="0504a09"/>　臨濟正脈　<reg>溈</reg>仰家風</l><l style="text-indent:1em;">鐘中無鼓　鼓中無鐘</l><l style="text-indent:1em;">葢消融于
+<pb ed="GA" xml:id="GA042.0042.0505a" n="0505a"/>
+<lb ed="GA" n="0505a01"/>大寂滅之海　而以竹篦契同者耶</l></lg>
+<lb ed="GA" n="0505a02"/><p xml:id="pGA042p0505a0201" style="margin-left:0em;text-indent:2em;">大明崇禎十二年歲次己卯四月十六日，本寺住持嗣
+<lb ed="GA" n="0505a03"/>法門人弘璧立石，同手勒弟子弘廣、濟願、濟貢、濟超、
+<lb ed="GA" n="0505a04"/>濟能、濟應、濟航、濟萃、濟拔、濟垂、濟教、濟叡</p></cb:div>
+<lb ed="GA" n="0505a05"/><cb:div type="other"><cb:mulu type="其他" level="2">祭文</cb:mulu><head>祭文</head>
+<lb ed="GA" n="0505a06"/><p xml:id="pGA042p0505a0601" style="margin-left:0em;text-indent:2em;">歲維乙亥七月甲申，吾師三峰藏和尚示寂于玄墓山
+<lb ed="GA" n="0505a07"/>天壽聖恩禪寺廿二日也。中夜更衣，誡<reg>眾</reg>勿喧。顧盻諸
+<lb ed="GA" n="0505a08"/>子，申最後言。曉月凄凄，素星如霑。頂後神光，彈指頓圓。
+<lb ed="GA" n="0505a09"/>嗚呼哀哉！師之生也，後五百歲。祖庭葑莽，穴魈潛魅。羣
+<pb ed="GA" xml:id="GA042.0042.0506a" n="0506a"/>
+<lb ed="GA" n="0506a01"/>狐夜嬉，虎豹其文。取英靈子，投解脫坑。惟師挺出，如大
+<lb ed="GA" n="0506a02"/>力士。折竹聲中，指歸臨濟。握金剛刀，宣奪命符。魔與魔
+<lb ed="GA" n="0506a03"/>民，一戰而刳。宇宙<reg>既</reg>清，不自尊雄。禮金粟堂，弘揖讓風。
+<lb ed="GA" n="0506a04"/>師資道合，與水乳同。再振滹沱，旁起四宗。烹<note n="0506a0401" resp="CBETA" type="add">煅【CB】，煆【志彙】</note><app n="0506a0401"><lem wit="【CB】" resp="DILA">煅</lem><rdg wit="【志彙】">煆</rdg></app>佛祖，延
+<lb ed="GA" n="0506a05"/>徙鯤鵬。補天立極，海內咸服。師于祖庭，實有勳德。嗚呼
+<lb ed="GA" n="0506a06"/>哀哉！功高者讒，震主者疑。尹父放子，莫有悔知。爾門外
+<lb ed="GA" n="0506a07"/>人，齒其唾餘。專事譖毀，隨盲者趨。譬彼鳳凰，生于雞族。
+<lb ed="GA" n="0506a08"/>子婦讙譁，驚入戒出。噫嗟我師，求德之鄰。觸諱發隱，希
+<lb ed="GA" n="0506a09"/>爾變更。爾<reg>既</reg>不納，翻以讐陵。種粟得麻，豈曰無因？方將
+<pb ed="GA" xml:id="GA042.0042.0507a" n="0507a"/>
+<lb ed="GA" n="0507a01"/>鳴鼓，正告天下。何光明幢，一旦摧。卸余<unclear></unclear>薄德，不堪蔭
+<lb ed="GA" n="0507a02"/>下。天人龍神，永悲長夜。嗚呼哀哉！憶我尋師，走八千里。
+<lb ed="GA" n="0507a03"/>水宿鼉宮，陸叅猱指。峽風長號，江濤鬱起。九死不沮，一
+<lb ed="GA" n="0507a04"/>見能許。始自壬申，終于此辰。良工大冶，朝<note n="0507a0401" resp="CBETA" type="add">煅【CB】，煆【志彙】</note><app n="0507a0401"><lem wit="【CB】" resp="DILA">煅</lem><rdg wit="【志彙】">煆</rdg></app>夕烹。以雨
+<lb ed="GA" n="0507a05"/>以霜，隆殺互成。或示孤峰，禁攀絕援。或示大海，波澄浪
+<lb ed="GA" n="0507a06"/>恬。龍魚驪犀，瓊貝珠璧。錯陳于前，命我標識。蒼蠅附驥，
+<lb ed="GA" n="0507a07"/>瞬目千里。不貴其能，貴得其所。嗚呼哀哉！昔嘗與師，議
+<lb ed="GA" n="0507a08"/>及古人。我愛龍山，履止幽深。老子曰嘻！法道陵遲。賴子
+<lb ed="GA" n="0507a09"/>振起，莫滯前規。我行其難，子行其易。謗怒譏訶，抑止我
+<pb ed="GA" xml:id="GA042.0042.0508a" n="0508a"/>
+<lb ed="GA" n="0508a01"/>世。顧余拙訥，佩此明誨。業業兢兢，謂恐失墜。師之愛我，
+<lb ed="GA" n="0508a02"/>出于至誠。一得之長，師為賞音。開智慧光，翦癡慢林，不
+<lb ed="GA" n="0508a03"/>以小悟，而覊後昆。嗚呼哀哉！父母生我，或未之訓。師以
+<lb ed="GA" n="0508a04"/>一機，撥邪反正，斷生死根，續如來命。此恩如海，我力如
+<lb ed="GA" n="0508a05"/>巵。窮精困思，百一其辭。嗚呼哀哉！</p>
+<lb ed="GA" n="0508a06"/><byline cb:type="other">嗣法西蜀門人弘忍稽首謹告</byline></cb:div>
+<lb ed="GA" n="0508a07"/><cb:div type="other"><cb:mulu type="其他" level="2">三峰和尚像入牛首祖堂讚</cb:mulu><head>三峰和尚像入牛首祖堂讚</head><byline cb:type="author">何如寵</byline>
+<lb ed="GA" n="0508a08"/><lg xml:id="lgGA042p0508a0801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">道力眉端懸尺鐵　師恩肋下報三拳</l><l style="text-indent:1em;">團團塔樣<reg>真</reg>無縫
+<lb ed="GA" n="0508a09"/>　不向丹華墨綵傳</l></lg></cb:div>
+<pb ed="GA" xml:id="GA042.0042.0509a" n="0509a"/>
+<lb ed="GA" n="0509a01"/><cb:div type="other"><cb:mulu type="其他" level="2">又</cb:mulu><head>又</head><byline cb:type="author">張瑋</byline>
+<lb ed="GA" n="0509a02"/><lg xml:id="lgGA042p0509a0201" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">三峰堂上摩金翅　鄧尉山尖奮毒拳</l><l style="text-indent:1em;">悲願慈容誰識取
+<lb ed="GA" n="0509a03"/>　牛頭百一卷中傳</l></lg></cb:div>
+<lb ed="GA" n="0509a04"/><cb:div type="other"><cb:mulu type="其他" level="2">三峰大師像贊</cb:mulu><head>三峰大師像贊</head><byline cb:type="author">劉道貞</byline>
+<lb ed="GA" n="0509a05"/><lg xml:id="lgGA042p0509a0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">臨濟綱宗　壁立萬仞</l><l style="text-indent:1em;">玄要主賓　大法寶鏡</l><l style="text-indent:1em;">杰出五家　超
+<lb ed="GA" n="0509a06"/>越羣聖</l><l style="text-indent:1em;">英靈代興　燈傳無盡</l><l style="text-indent:1em;">如汾陽昭　如石霜圓</l><l style="text-indent:1em;">雲詞
+<lb ed="GA" n="0509a07"/>電機　波瀾廓然</l><l style="text-indent:1em;">妙喜寂音　輝映後先</l><l style="text-indent:1em;">垂五百載　遇風而
+<lb ed="GA" n="0509a08"/>災</l><l style="text-indent:1em;">火薪失傳　孰噓其灰</l><l style="text-indent:1em;">嶽嶽三峰　慧炤重來</l><l style="text-indent:1em;">如據地獅
+<lb ed="GA" n="0509a09"/>　如戴角虎</l><l style="text-indent:1em;">奮迅嚬呻　莫敢與伍</l><l style="text-indent:1em;">生銕竹篦　握主中主</l><l style="text-indent:1em;">截
+<pb ed="GA" xml:id="GA042.0042.0510a" n="0510a"/>
+<lb ed="GA" n="0510a01"/>斷衲僧　<note n="0510a0101" resp="CBETA" type="add">鍛【CB】，鍜【志彙】</note><app n="0510a0101"><lem wit="【CB】" resp="CBETA.maha">鍛</lem><rdg wit="【志彙】">鍜</rdg></app>盡佛祖</l><l style="text-indent:1em;">彼滅宗旨　狐狼野干</l><l style="text-indent:1em;">施無畏辨　障其
+<lb ed="GA" n="0510a02"/>狂瀾</l><l style="text-indent:1em;">申胥哭秦　留侯為韓</l><l style="text-indent:1em;">稽首<reg>真</reg>師　厥力維艱</l><l style="text-indent:1em;">踞毘盧
+<lb ed="GA" n="0510a03"/>頂　用魔王印</l><l style="text-indent:1em;">提獎三毒　訶斥戒定</l><l style="text-indent:1em;">絕知見林　取食正命</l>
+<lb ed="GA" n="0510a04"/><l style="text-indent:1em;">欲識師<reg>真</reg>　如驢覷井</l></lg></cb:div>
+<lb ed="GA" n="0510a05"/>
+<lb ed="GA" n="0510a06"/>
+<lb ed="GA" n="0510a07"/>
+<lb ed="GA" n="0510a08"/>
+<lb ed="GA" n="0510a09"/>
+<pb ed="GA" xml:id="GA042.0042.0511a" n="0511a"/>
+<lb ed="GA" n="0511a01"/><cb:div type="other"><cb:mulu type="其他" level="2">傳臨濟正宗三十二代重興聖恩禪寺剖石璧禪師塔銘</cb:mulu><head>傳臨濟正宗三十二代重興聖恩禪寺剖石璧禪
+<lb ed="GA" n="0511a02"/>師塔銘</head>
+<lb ed="GA" n="0511a03"/><p xml:id="pGA042p0511a0301" style="margin-left:0em;text-indent:2em;">自少室燈傳，分張二五，臨濟之道，烜著羣宗萬峰蔚以
+<lb ed="GA" n="0511a04"/>後二百餘年，天童悟三峯藏繼世揚輝，滹沱重振。別傳
+<lb ed="GA" n="0511a05"/>直指之宗，徧滿天下，通都窮谷，並建法幢，可謂處處道
+<lb ed="GA" n="0511a06"/>塲，塵塵覺路。然而語解則微，徵行若遠求。其行解相應，
+<lb ed="GA" n="0511a07"/>不愧昔人之名祖者。吾於三峰藏禪師之嗣，聖恩剖石
+<lb ed="GA" n="0511a08"/>璧和尚為無間然矣。師諱弘璧，字剖石，梁溪鄭氏子。父
+<lb ed="GA" n="0511a09"/>邦賢，母邵氏。師幼<reg>即</reg>喜趺坐，父母異之，九齡失怙，服闋
+<pb ed="GA" xml:id="GA042.0042.0512a" n="0512a"/>
+<lb ed="GA" n="0512a01"/>求出家，母不能奪。年十二，禮邑普濟僧蒼碧為師，十七
+<lb ed="GA" n="0512a02"/>得度，樂誦<g ref="#CB09736"/>嚴，宛如宿習。二十二偕，同邑大樹證公謁
+<lb ed="GA" n="0512a03"/>藏和尚於三峰，叅竹篦話二載無入，聞首座舉萬法，歸
+<lb ed="GA" n="0512a04"/>一語，如毒中心頓忘身世。經三晝夜，偶揮扇，豁然契悟，
+<lb ed="GA" n="0512a05"/>矢口頌曰：</p><lg xml:id="lgGA042p0512a0505" cb:place="inline" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">青州布衫重七觔　齩人惡狗踞當門</l><l style="text-indent:1em;">喫飽飯
+<lb ed="GA" n="0512a06"/>團終日困　翻身踏碎破砂盆</l></lg><p xml:id="pGA042p0512a0613" style="margin-left:0em;text-indent:2em;" cb:place="inline">玉上座見之云可為我更
+<lb ed="GA" n="0512a07"/>頌秘魔杈。師隨聲頌出。玉深肯之，峰聞為之助喜，旹年
+<lb ed="GA" n="0512a08"/>二十四，是冬就壇圓具，母卒完葬，徧涉諸方，若博山、黃
+<lb ed="GA" n="0512a09"/>檗、匡廬兩淛，無不扣焉。所至，咸加器重，過金粟，叅禮悟
+<pb ed="GA" xml:id="GA042.0042.0513a" n="0513a"/>
+<lb ed="GA" n="0513a01"/>和尚，尋歸三峰峰、開法北禪安隱，皆侍左右，日臻玄奥。
+<lb ed="GA" n="0513a02"/>丁卯，峰主鄧尉命職堂規。戊辰元旦，與一老宿相拜，次
+<lb ed="GA" n="0513a03"/>洞明濟上主賓，峰大喜曰：專望汝到與麼地。次日，峰上
+<lb ed="GA" n="0513a04"/>堂，師酬唱無讓，峰云：<reg>真</reg>獅子兒！善獅子吼命。師為<reg>眾</reg>開
+<lb ed="GA" n="0513a05"/>導，一<reg>眾</reg>傾服。偶病，就醫京口，見五州翠巖古迹，喜而結
+<lb ed="GA" n="0513a06"/>茆。乙亥夏，峰示疾，手書招師，門頭安行者夢二神人掖
+<lb ed="GA" n="0513a07"/>師而入，峰以師悟處深穩，人品端莊，下手有力，求人不
+<lb ed="GA" n="0513a08"/>輕，付以從上源流，且證之偈，命繼席焉。師力辭，峰不許，
+<lb ed="GA" n="0513a09"/>乃受命。暨峰遷化。闔郡紳士請師開堂，室中嘗設三問
+<pb ed="GA" xml:id="GA042.0042.0514a" n="0514a"/>
+<lb ed="GA" n="0514a01"/>辨驗衲子。有時云：舉一為用，是討便宜，汝作麼舉？或云：
+<lb ed="GA" n="0514a02"/>說得做不得，做得說不得，皆秪得一邊。汝作麼生兼？或
+<lb ed="GA" n="0514a03"/>云：有頭無尾，有尾無頭。古人所病，如何得相稱去？學者
+<lb ed="GA" n="0514a04"/>多不契。師以機要<note n="0514a0401" resp="CBETA" type="add">鍛【CB】，鍜【志彙】</note><app n="0514a0401"><lem wit="【CB】" resp="CBETA.maha">鍛</lem><rdg wit="【志彙】">鍜</rdg></app>煉英靈，而誠心質行，遐邇薰感，檀
+<lb ed="GA" n="0514a05"/>施自臻，百廢具舉。首建藏和尚、天山塔院，次及叢席諸
+<lb ed="GA" n="0514a06"/>務經畫。<reg>既</reg>周，復請大藏創閣尊奉，造寶像數十軀，親為
+<lb ed="GA" n="0514a07"/>指授，梓<g ref="#CB09736"/>嚴方<reg>冊</reg>印送名山，流通聖恩一席，遂為三吳
+<lb ed="GA" n="0514a08"/>寶坊之冠。師常掩關寂坐，非問法者，不輕啟鑰。士大夫
+<lb ed="GA" n="0514a09"/>造室，不循世數，不及世諦，有識者重之，咸申弟子禮焉。
+<pb ed="GA" xml:id="GA042.0042.0515a" n="0515a"/>
+<lb ed="GA" n="0515a01"/>師久屏跡，且三十載，聞悟祖訃千里，奔赴法中，耆宿歎
+<lb ed="GA" n="0515a02"/>悟祖為有孫，過育王守塔僧前夢一善知識來禮塔預
+<lb ed="GA" n="0515a03"/>候，而師適至，隨詣天目，掃高峰、中峰、斷崖、三祖塔中峰
+<lb ed="GA" n="0515a04"/>塔燬於火，庀材復之。甲申乙酉間，城鄉騷動，山湖撼沸，
+<lb ed="GA" n="0515a05"/><reg>眾</reg>請師避，師堅臥弗去，卒獲寧宇，人皆服。師定力晚益
+<lb ed="GA" n="0515a06"/>栖心<g ref="#CB09736"/>嚴，常以法界義海示學者，令印心宗，見晉水法
+<lb ed="GA" n="0515a07"/>師著普賢行願懺，有未該備，手為補訂，務與貫華宗趣
+<lb ed="GA" n="0515a08"/><reg><g ref="#CB04474"/></reg>合擇地為<g ref="#CB09736"/>嚴壇，精選梵<reg>眾</reg>，六時修禮，感佛中夜放
+<lb ed="GA" n="0515a09"/>光。虞山錢宗伯入山咨决，聆之，讚歎曰：和尚<reg>真</reg><g ref="#CB09736"/>嚴會
+<pb ed="GA" xml:id="GA042.0042.0516a" n="0516a"/>
+<lb ed="GA" n="0516a01"/>上大士也。師疲於應接，欲請靈隱禮和尚主鄧山席遠
+<lb ed="GA" n="0516a02"/>近，扳畱而息。齋金太傅入山，以新北寺古塔請申懇再
+<lb ed="GA" n="0516a03"/>三師念北寺為郡城首，剎因勉應之。<reg>值</reg>師七袠，緇素供
+<lb ed="GA" n="0516a04"/>獻悉歸之塔，塔遂襄事舍利現于輪盤，白光經時不散，
+<lb ed="GA" n="0516a05"/>至今瞻禮者與長干而並重焉，是為己。酉之夏五，旋擬
+<lb ed="GA" n="0516a06"/>還山，四<reg>眾</reg>喧擁，弗釋。至十月，出衣鉢散<reg>眾</reg>。十一月，登堯
+<lb ed="GA" n="0516a07"/>峰，與靈巖儲和尚劇談，兩晝夜，且請主席聖恩，巖以書
+<lb ed="GA" n="0516a08"/>固辭，師謂<reg>眾</reg>曰：靈巖<reg>即</reg>不來，吾亦退矣。兩序以求戒者
+<lb ed="GA" n="0516a09"/>請師笑云：聊借作滿散道塲可耳。期竣入城，別諸道舊。
+<pb ed="GA" xml:id="GA042.0042.0517a" n="0517a"/>
+<lb ed="GA" n="0517a01"/>復上塔，禮佛誡軄，事毋怠。逸還山，貽書招回，門人妙濟
+<lb ed="GA" n="0517a02"/>石。二十七日，廵視<reg>眾</reg>寮集，兩序諄誨再三，遂率<reg>眾</reg>掃萬
+<lb ed="GA" n="0517a03"/>峰、天山二塔，受常住年齋。至晚，普薦徧禮，悉如往例。事
+<lb ed="GA" n="0517a04"/>畢，還方丈，且行，且語曰：汝輩各自努力。行者持燈至寢
+<lb ed="GA" n="0517a05"/>室。師云：從此不煩汝矣。就榻趺坐，若假寐然視之，已儼
+<lb ed="GA" n="0517a06"/>然逝矣。是日之亥時也。世壽七十二，僧臘五十六。說法
+<lb ed="GA" n="0517a07"/>三十五載，得法弟子二十五人。辛亥冬，門人奉師全身，
+<lb ed="GA" n="0517a08"/>塔于<g ref="#CB09736"/>嚴壇之後。先是<reg>眾</reg>請梓師語錄，師不許，曰：三藏
+<lb ed="GA" n="0517a09"/>尚為故紙，以吾言為禆販乎？後因黃龍朗堅請始刻八
+<pb ed="GA" xml:id="GA042.0042.0518a" n="0518a"/>
+<lb ed="GA" n="0518a01"/>卷，<g ref="#CB09736"/>頂震別集廣錄十二卷。本山後刻八卷，繼席吼公
+<lb ed="GA" n="0518a02"/>同石樹諸公以書請予銘師之塔。予念昂歲奉佛吳越
+<lb ed="GA" n="0518a03"/>諸大禪師，多曾禮覲其間踞獅子幢，作象王顧，雲興泉
+<lb ed="GA" n="0518a04"/>湧，妙用縱橫者，非子淺見所能測識。竊以為精醇<reg>真</reg>實，
+<lb ed="GA" n="0518a05"/>鉅細無議，更無踰於師者，悼賢劫之迷歸。憫化城之誰
+<lb ed="GA" n="0518a06"/>指，<reg>即</reg>微吼公之請予，安敢以拙陋辭而不一伸？愚悃乎
+<lb ed="GA" n="0518a07"/>爰理來狀而亂之以銘。銘曰：</p><lg xml:id="lgGA042p0518a0712" cb:place="inline" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">具區之濱　萬峰如繡</l><l style="text-indent:1em;">有大
+<lb ed="GA" n="0518a08"/>沙門　誅茅枕漱</l><l style="text-indent:1em;">宸翰炳霄　聖恩貽後</l><l style="text-indent:1em;">法席<reg>既</reg>秋　珠林
+<lb ed="GA" n="0518a09"/>草茂</l><l style="text-indent:1em;">届世十一　載起三峰</l><l style="text-indent:1em;">宗門香像　天際游龍</l><l style="text-indent:1em;">百層鐵
+<pb ed="GA" xml:id="GA042.0042.0519a" n="0519a"/>
+<lb ed="GA" n="0519a01"/>皷　千石金鐘</l><l style="text-indent:1em;">威音震響　啟盡羣聾</l><l style="text-indent:1em;">善繼藏聲　返於無聽</l>
+<lb ed="GA" n="0519a02"/><l style="text-indent:1em;">石剖玉呈　圓通密證</l><l style="text-indent:1em;">青州衫頌　語出靡賸</l><l style="text-indent:1em;">一拜洞然　神
+<lb ed="GA" n="0519a03"/>人皈命</l><l style="text-indent:1em;">以<reg>真</reg>以率　以微以精</l><l style="text-indent:1em;">內敦一實　外<note n="0519a0301" resp="CBETA" type="add">鍛【CB】，鍜【志彙】</note><app n="0519a0301"><lem wit="【CB】" resp="CBETA.maha">鍛</lem><rdg wit="【志彙】">鍜</rdg></app>諸英</l><l style="text-indent:1em;">曲細
+<lb ed="GA" n="0519a04"/>必謹　碩大難名</l><l style="text-indent:1em;">如珠之瑩　如月之晶</l><l style="text-indent:1em;">詣極絕言　淨除說
+<lb ed="GA" n="0519a05"/>辯</l><l style="text-indent:1em;">行以踐知　更無深淺</l><l style="text-indent:1em;">久韞山輝　百城重趼</l><l style="text-indent:1em;">乞法施金
+<lb ed="GA" n="0519a06"/>　南舟北輦</l><l style="text-indent:1em;">殿堂鳳翥　寮廡翬飛</l><l style="text-indent:1em;">閣窩壇塔　妙麗峩巍</l><l style="text-indent:1em;">檀
+<lb ed="GA" n="0519a07"/>塐壘<g ref="#CB33898"/>　寶冊雲齊</l><l style="text-indent:1em;">靈光再著　四<reg>眾</reg>傾晞</l><l style="text-indent:1em;">此以誠感　不期
+<lb ed="GA" n="0519a08"/>而至</l><l style="text-indent:1em;">胡彼罔覺　舍己他視</l><l style="text-indent:1em;">那伽在躬　蛟鱷亡忮</l><l style="text-indent:1em;">入無礙
+<lb ed="GA" n="0519a09"/>界　揭<g ref="#CB09736"/>嚴義</l><l style="text-indent:1em;">圓融行布　六相十玄</l><l style="text-indent:1em;">普賢行<g ref="#CB09736"/>　文殊智嚴</l>
+<pb ed="GA" xml:id="GA042.0042.0520a" n="0520a"/>
+<lb ed="GA" n="0520a01"/><l style="text-indent:1em;">證無可證　垂手于廛</l><l style="text-indent:1em;">有情均利　抱識咸沾</l><l style="text-indent:1em;">竪清凉幢　津
+<lb ed="GA" n="0520a02"/>熱惱海</l><l style="text-indent:1em;">鼎列隱巖　同質殊彩</l><l style="text-indent:1em;">緣盡膚脫　有去無怠</l><l style="text-indent:1em;"><g ref="#CB09736"/>藏
+<lb ed="GA" n="0520a03"/>歸根　青山不改</l><l style="text-indent:1em;">至願難盡　出世功終</l><l style="text-indent:1em;">慈光雖掩　傳火莫
+<lb ed="GA" n="0520a04"/>窮</l><l style="text-indent:1em;">年年梅發　師面重逢</l><l style="text-indent:1em;">我銘貞石　永照<g ref="#CB09736"/>宮</l></lg>
+<lb ed="GA" n="0520a05"/><p xml:id="pGA042p0520a0501" style="margin-left:0em;text-indent:2em;">嗣法門人：
+<lb ed="GA" n="0520a06"/>巨冶教、德為宗、吼崖石、月航函、佛幢<g ref="#CB09736"/>、一峰徹、幻
+<lb ed="GA" n="0520a07"/>菴時、文水恬、佛日覺、物外淨、石樹岳、道林至、克初
+<lb ed="GA" n="0520a08"/>岱、化雨震、魯石琦、仁山震、冰鑑朗、一源聞、梅屋益、
+<lb ed="GA" n="0520a09"/>石浪樞、肯堂學、朗<reg>真</reg>純、鶴山志、一月印、止菴勇，凡
+<pb ed="GA" xml:id="GA042.0042.0521a" n="0521a"/>
+<lb ed="GA" n="0521a01"/>二十有五人。</p>
+<lb ed="GA" n="0521a02"/><byline cb:type="other">前太常寺卿婁東法弟子八十六叟王時敏拜譔并
+<lb ed="GA" n="0521a03"/>書</byline>
+<lb ed="GA" n="0521a04"/><byline cb:type="other">康熙十年歲次辛亥十一月住持嗣法門人濟石等立</byline></cb:div></cb:div>
+</body></text></TEI>
