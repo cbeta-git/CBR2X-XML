@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="GA053n0057">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Zhongguo Fosi Shizhi Huikan, Electronic version, No. 57 江南梵剎志</title>
+			<title xml:lang="zh-Hant">中國佛寺史志彙刊數位版, No. 57 江南梵剎志</title>
+			<author>清 黃之雋等修</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>6卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">GA</idno>.<idno type="vol">53</idno>.<idno type="no">57</idno>
+			</idno>
+			<distributor>
+				<name>中華電子佛典協會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2024-10-26 10:00:32 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title level="s">Zhongguo Fosi Shizhi Huikan</title>
+				<title level="s" xml:lang="zh-Hant">中國佛寺史志彙刊</title>
+				<title level="m" xml:lang="zh-Hant">江南梵剎志</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Text as provided by Digital Archive of Chinese Buddhist Temple Gazetteers Project which is funded by Chung-Hwa Institute of Buddhist Studies and executed by Dharma Drum Institute of Liberal Arts</p>
+			<p xml:lang="zh-Hant" cb:type="ly">法鼓文理學院、中華佛學研究所之「中國佛教寺廟志數位典藏」專案提供</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>原書標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【志彙】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB02753">
+				<charName>CBETA CHARACTER CB02753</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[山*耆]</value>
+				</charProp>
+				<mapping type="unicode">U+21EB8</mapping>
+				<mapping cb:dec="985793" type="PUA">U+F0AC1</mapping>
+			</char>
+			<char xml:id="CB04395">
+				<charName>CBETA CHARACTER CB04395</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[土*已]</value>
+				</charProp>
+				<mapping type="unicode">U+2124F</mapping>
+				<mapping cb:dec="987435" type="PUA">U+F112B</mapping>
+			</char>
+			<char xml:id="CB21214">
+				<charName>CBETA CHARACTER CB21214</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[石*達]</value>
+				</charProp>
+				<mapping type="unicode">U+40EE</mapping>
+				<mapping cb:dec="1004254" type="PUA">U+F52DE</mapping>
+			</char>
+			<char xml:id="CB30184">
+				<charName>CBETA CHARACTER CB30184</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[王*扁]</value>
+				</charProp>
+				<mapping type="unicode">U+3EDE</mapping>
+				<mapping cb:dec="1013224" type="PUA">U+F75E8</mapping>
+			</char>
+			<char xml:id="CB34804">
+				<charName>CBETA CHARACTER CB34804</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[火/又]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>炎</value>
+				</charProp>
+				<mapping type="unicode">U+2418C</mapping>
+				<mapping cb:dec="1017844" type="PUA">U+F87F4</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2024-10-22">
+			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu type="其他" level="1">輿地志　寺觀二</cb:mulu><cb:mulu type="其他" level="2">蘇州府</cb:mulu><cb:mulu type="其他" level="3">真武閣</cb:mulu>
+<milestone unit="juan" n="3"/>
+<pb ed="GA" xml:id="GA053.0057.0113a" n="0113a"/>
+<lb ed="GA" n="0113a01"/><cb:mulu type="卷" n="3"></cb:mulu><cb:juan fun="open" n="3"><cb:jhead>江南通志卷四十五</cb:jhead></cb:juan>
+<lb ed="GA" n="0113a02"/><cb:div type="other"><cb:mulu type="其他" level="1">輿地志　寺觀三</cb:mulu><head>輿地志
+<lb ed="GA" n="0113a03"/>　寺觀<note place="inline">三</note><note place="inline">松、常、<reg>鎮</reg>三府</note></head>
+<lb ed="GA" n="0113a04"/><cb:div type="other"><cb:mulu type="其他" level="2">松江府</cb:mulu><head>松江府</head>
+<lb ed="GA" n="0113a05"/><cb:div type="other"><cb:mulu type="其他" level="3">普照寺</cb:mulu><head>普照寺</head><p xml:id="pGA053p0113a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府治西唐乾元中建宋大中祥符元年改今
+<lb ed="GA" n="0113a06"/>額。寺有陸將軍祠，世傳地本陸氏園亭，因以祠之。舊有
+<lb ed="GA" n="0113a07"/>石，刻載吳越王祭獻文，今為寺伽藍神寺為祝釐道塲。
+<lb ed="GA" n="0113a08"/>每歲正旦冬至郡縣，習儀於此內有海月堂景蘇閣。</p><p cb:type="head4" xml:id="pGA053p0113a0821" cb:place="inline"><note place="inline">附</note>
+<lb ed="GA" n="0113a09"/>〔元，牟瓛：記畧〕</p><p xml:id="pGA053p0113a0906" style="margin-left:0em;text-indent:2em;" cb:place="inline">普照寺陸士衡，別業也。自孫氏歸晉，兄弟入洛，以文人膺事任，震動當時倚伏相尋，
+<lb ed="GA" n="0113a10"/>曾未瞬息，已有華亭鶴唳之歎。而其臺榭化為像設，研席化為梵唄，乃至今存何歟？寺北坐九峯，層巒疊嶂，相
+<lb ed="GA" n="0113a11"/>為蔽虧。陰陽家謂風氣藏聚，可安千<reg>眾</reg>者也。唐乾元時，本號大明寺，僧良慧嘗刱釋迦如來殿。逮宋祥符間，改
+<pb ed="GA" xml:id="GA053.0057.0114a" n="0114a"/>
+<lb ed="GA" n="0114a01"/>賜今額，凡三度重建。淳祐戊申，厄於祝融里人淺武翼首議興造，其事未竟，子大信繼之。咸淳甲戌，僧慧思與
+<lb ed="GA" n="0114a02"/>武翼舊念，不可廢前人功，亟勸率賄，施以助殿。始完好，每歲州侯率其僚屬於此，建道塲，申祝讚，而禱水旱禳
+<lb ed="GA" n="0114a03"/>風災者，亦皆至焉。</p></cb:div>
+<lb ed="GA" n="0114a04"/><cb:div type="other"><cb:mulu type="其他" level="3">興聖寺</cb:mulu><head>興聖寺</head><p xml:id="pGA053p0114a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東南穀市橋西。五代漢乾祐二年，邑人張
+<lb ed="GA" n="0114a05"/>司空子仁捨宅建初名興國長壽，宋祥符中改今額地
+<lb ed="GA" n="0114a06"/>縱廣踰三十畝，東有水陸，池南有浮圖，四面九級，有鐘
+<lb ed="GA" n="0114a07"/>樓高及浮圖之半。明洪武三年，知府林慶以其地三之
+<lb ed="GA" n="0114a08"/>二，作城隍廟。</p></cb:div>
+<lb ed="GA" n="0114a09"/><cb:div type="other"><cb:mulu type="其他" level="3">南禪寺</cb:mulu><head>南禪寺</head><p xml:id="pGA053p0114a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府學東宋崇寧中，張頭陀卜築于此，鑿地得
+<lb ed="GA" n="0114a10"/>住世羅漢像。邑人異之，遂為施水菴，請額于朝。紹興二
+<lb ed="GA" n="0114a11"/>十九年，賜名演教禪院。後改今額，為在城諸禪之冠僧
+<pb ed="GA" xml:id="GA053.0057.0115a" n="0115a"/>
+<lb ed="GA" n="0115a01"/>綱司治焉。</p></cb:div>
+<lb ed="GA" n="0115a02"/><cb:div type="other"><cb:mulu type="其他" level="3">北禪寺</cb:mulu><head>北禪寺</head><p xml:id="pGA053p0115a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東北城內，宋紹興間，僧法寧建寧先住沂
+<lb ed="GA" n="0115a03"/>州馬<g ref="#CB02753"/>山淨居寺。航海至青龍，有章氏者迎止於此。發
+<lb ed="GA" n="0115a04"/>地得古碑云：大唐禪寺又得金銅天王像，因建寺焉。又
+<lb ed="GA" n="0115a05"/>名馬<g ref="#CB02753"/>寺。</p><p cb:type="head4" xml:id="pGA053p0115a0505" cb:place="inline"><note place="inline">附</note>〔明，陸樹聲：題北禪雙樹詩<reg>并</reg>序〕</p><p xml:id="pGA053p0115a0518" style="margin-left:0em;text-indent:2em;" cb:place="inline">馬<g ref="#CB02753"/>古剎，歲久漸<note n="0115a0501" resp="CBETA" type="add">圮【CB】，<g ref="#CB04395"/>【志彙】</note><app n="0115a0501"><lem wit="【CB】" resp="CBETA.maha">圮</lem><rdg wit="【志彙】"><g ref="#CB04395"/></rdg></app>，
+<lb ed="GA" n="0115a06"/>地為居民侵蝕者半，獨殿前雙樹屹立，度僧臘無算。兵後官司取材議及焉，余護存之。他日過寺，寺僧引余讀
+<lb ed="GA" n="0115a07"/>舊碑，出雙樹下，顧余曰：是木向微公，幾已化去？今清陰宛在，實仗公再來。緣願一言，貽山門。因題識廡壁，以戒
+<lb ed="GA" n="0115a08"/>芻牧：</p><lg xml:id="lgGA053p0115a0803" cb:place="inline" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">歲遠香臺半刼灰　斷碑遺蹟掩蒿萊</l><l style="text-indent:1em;">回看雙樹聞僧語　此日清陰是再來</l></lg></cb:div>
+<lb ed="GA" n="0115a09"/><cb:div type="other"><cb:mulu type="其他" level="3">延慶寺</cb:mulu><head>延慶寺</head><p xml:id="pGA053p0115a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府城守禦千戶所東，其地本施家瀁。宋隆興
+<lb ed="GA" n="0115a10"/>中，建乾道六年，賜額明嘉靖間廢，改為鹽運司公署，<reg>即</reg>
+<lb ed="GA" n="0115a11"/>今新察院佛像，遷南關外曰：延慶移山。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0116a" n="0116a"/>
+<lb ed="GA" n="0116a01"/><cb:div type="other"><cb:mulu type="其他" level="3">龍門寺</cb:mulu><head>龍門寺</head><p xml:id="pGA053p0116a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府城集仙門內橋東，宋僧如喜開山于黃土
+<lb ed="GA" n="0116a02"/>橋。淳祐元年，賜額元至正二十年遷于此中。有聽雪軒，
+<lb ed="GA" n="0116a03"/>左有龍淵，遇旱不竭，凡鄉貢舉，子必於此設祖而賓興
+<lb ed="GA" n="0116a04"/>之。</p></cb:div>
+<lb ed="GA" n="0116a05"/><cb:div type="other"><cb:mulu type="其他" level="3">雲峯寺</cb:mulu><head>雲峯寺</head><p xml:id="pGA053p0116a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府城妙明橋西北舊北道堂也。元至正末，趙
+<lb ed="GA" n="0116a06"/>道淵為僧，改名本一禪院。康熙四十四年
+<lb ed="GA" n="0116a07"/>賜雲峯寺。三字額。</p></cb:div>
+<lb ed="GA" n="0116a08"/><cb:div type="other"><cb:mulu type="其他" level="3">禪定寺</cb:mulu><head>禪定寺</head><p xml:id="pGA053p0116a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在雲峯寺東，俗呼小北菴。康熙四十二年
+<lb ed="GA" n="0116a09"/>賜今額。四十四年
+<lb ed="GA" n="0116a10"/>御書般若相三字扁額。</p></cb:div>
+<lb ed="GA" n="0116a11"/><cb:div type="other"><cb:mulu type="其他" level="3">積慶寺</cb:mulu><head>積慶寺</head><p xml:id="pGA053p0116a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東南，又名坐化菴。元至正辛巳，邑人陳源
+<pb ed="GA" xml:id="GA053.0057.0117a" n="0117a"/>
+<lb ed="GA" n="0117a01"/>為慶禪師，捨宅建慶，坐化肉身在焉。菴因以名。</p></cb:div>
+<lb ed="GA" n="0117a02"/><cb:div type="other"><cb:mulu type="其他" level="3">東禪寺</cb:mulu><head>東禪寺</head><p xml:id="pGA053p0117a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東門外。初桃花菴也，宋紹興初僧道，因開
+<lb ed="GA" n="0117a03"/>山六年賜額寶勝禪院。後為寺，以居府東，遂名東禪焉。
+<lb ed="GA" n="0117a04"/>明洪武中陞為叢林，每歲有司迎春於此駐節云。</p></cb:div>
+<lb ed="GA" n="0117a05"/><cb:div type="other"><cb:mulu type="其他" level="3">妙嚴寺</cb:mulu><head>妙嚴寺</head><p xml:id="pGA053p0117a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府城西東嶽行祠之東宋咸淳間，建本三乘
+<lb ed="GA" n="0117a06"/>菴元至正間，重建勅賜為寺。</p></cb:div>
+<lb ed="GA" n="0117a07"/><cb:div type="other"><cb:mulu type="其他" level="3">超果寺</cb:mulu><head>超果寺</head><p xml:id="pGA053p0117a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府西南瑁湖橋之右，本名長壽寺。唐咸通十
+<lb ed="GA" n="0117a08"/>五年建至宋治平元年，改今額。寺有鴛鴦殿，一覽樓雨
+<lb ed="GA" n="0117a09"/>花堂瑞光井石假山，見遠亭西來堂諸勝
+<lb ed="GA" n="0117a10"/>國朝。康熙四十四年，
+<lb ed="GA" n="0117a11"/>聖祖巡幸
+<pb ed="GA" xml:id="GA053.0057.0118a" n="0118a"/>
+<lb ed="GA" n="0118a01"/>御書虹光勝蹟四字懸大殿。</p></cb:div>
+<lb ed="GA" n="0118a02"/><cb:div type="other"><cb:mulu type="其他" level="3">西禪寺</cb:mulu><head>西禪寺</head><p xml:id="pGA053p0118a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府西白龍潭上。宋嘉定間，建端平間，賜額西
+<lb ed="GA" n="0118a03"/>禪興福寺，又名龍潭寺。萬歷間，重建藏經閣，關帝殿，生
+<lb ed="GA" n="0118a04"/>生閣
+<lb ed="GA" n="0118a05"/>國，朝順治十六年僧，心一修萬佛閣。</p></cb:div>
+<lb ed="GA" n="0118a06"/><cb:div type="other"><cb:mulu type="其他" level="3">西林寺</cb:mulu><head>西林寺</head><p xml:id="pGA053p0118a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府西慶、雲橋北宋咸淳間，建前有寶塔，明正
+<lb ed="GA" n="0118a07"/>統間，僧法<g ref="#CB30184"/>，徙建于後。復建毘盧閣，因請額云：西林。</p></cb:div>
+<lb ed="GA" n="0118a08"/><cb:div type="other"><cb:mulu type="其他" level="3">大慈寺</cb:mulu><head>大慈寺</head><p xml:id="pGA053p0118a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府西南十五里北錢市元建。</p></cb:div>
+<lb ed="GA" n="0118a09"/><cb:div type="other"><cb:mulu type="其他" level="3">報恩寺</cb:mulu><head>報恩寺</head><p xml:id="pGA053p0118a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府西南四十里元皇慶間僧道源建。</p></cb:div>
+<lb ed="GA" n="0118a10"/><cb:div type="other"><cb:mulu type="其他" level="3">普門寺</cb:mulu><head>普門寺</head><p xml:id="pGA053p0118a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東北盤龍塘，俗稱盤龍寺。唐大中十二年
+<lb ed="GA" n="0118a11"/>建宋祥符元年賜額寺。有石天王舊傳大水中漂至，人
+<pb ed="GA" xml:id="GA053.0057.0119a" n="0119a"/>
+<lb ed="GA" n="0119a01"/>多禱之。</p></cb:div>
+<lb ed="GA" n="0119a02"/><cb:div type="other"><cb:mulu type="其他" level="3">寶雲寺</cb:mulu><head>寶雲寺</head><p xml:id="pGA053p0119a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在華亭縣亭林<reg>鎮</reg>，初名法雲，在市西北。唐大中
+<lb ed="GA" n="0119a03"/>十三年建晉天福五年，湖水壞寺，始遷今所。其地<reg>即</reg>梁
+<lb ed="GA" n="0119a04"/>顧野王，故宅寺之初成，有野王顯夢事，因祠為伽藍神，
+<lb ed="GA" n="0119a05"/>有元牟瓛記，趙孟頫書今存。</p></cb:div>
+<lb ed="GA" n="0119a06"/><cb:div type="other"><cb:mulu type="其他" level="3">七寶寺</cb:mulu><head>七寶寺</head><p xml:id="pGA053p0119a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在七寶<reg>鎮</reg>初，在陸寶山本陸氏香火祠俗呼陸
+<lb ed="GA" n="0119a07"/>寶菴。<reg>既</reg>徙吳淞之曲，請于吳越，王賜以金字藏經曰：此
+<lb ed="GA" n="0119a08"/>亦一寶也。遂改今名。後因松江潮壞，三徙於茲。宋初，張
+<lb ed="GA" n="0119a09"/>澤捨宅為寺。</p></cb:div>
+<lb ed="GA" n="0119a10"/><cb:div type="other"><cb:mulu type="其他" level="3">太平寺</cb:mulu><head>太平寺</head><p xml:id="pGA053p0119a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在胥浦南，宋紹興二年，僧曇無竭建元燬至正
+<lb ed="GA" n="0119a11"/>甲申，僧潤玉隱，建浦北有松風閣。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0120a" n="0120a"/>
+<lb ed="GA" n="0120a01"/><cb:div type="other"><cb:mulu type="其他" level="3">明行寺</cb:mulu><head>明行寺</head><p xml:id="pGA053p0120a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在奉賢縣南橋鎮晉天福五年，里人蔣漢瑊捨
+<lb ed="GA" n="0120a02"/>宅建宋太平興國，八年賜額。</p><p cb:type="head4" xml:id="pGA053p0120a0212" cb:place="inline"><note place="inline">附</note>〔宋，釋北磵居簡：紀畧〕</p><p xml:id="pGA053p0120a0221" style="margin-left:0em;text-indent:2em;" cb:place="inline">《華亭
+<lb ed="GA" n="0120a03"/>圖牒》載：春秋時，夫差三女子墓田曰「王女岡」聲詩則播諸唐，令尹詢并荊公、王介甫、都官梅聖俞。邇岡之剎曰
+<lb ed="GA" n="0120a04"/>「安和」，石。晉天福五年，蔣漢瑊環堵，中芬陀利花，擢於陸。聚族而謀曰：「是八吉祥六殊勝處，盍施諸釋梵家。」遂基
+<lb ed="GA" n="0120a05"/>此剎。楨幹於是者曰「本立」。病，潮齧岸址，白漢瑊議徙於此，改曰「明行」，用淮海王錢中令歸朝。所請之額。堂宇樓
+<lb ed="GA" n="0120a06"/>殿，金碧煥粲，雲棲鴛瓴，月桁璇題，具如經說。凡所當行，罔不具。</p></cb:div>
+<lb ed="GA" n="0120a07"/><cb:div type="other"><cb:mulu type="其他" level="3">資福寺</cb:mulu><head>資福寺</head><p xml:id="pGA053p0120a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在梁店元，至元初建。</p></cb:div>
+<lb ed="GA" n="0120a08"/><cb:div type="other"><cb:mulu type="其他" level="3">福田寺</cb:mulu><head>福田寺</head><p xml:id="pGA053p0120a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在泖濱，宋淳祐十五年，修武郎錢仲圭建景定
+<lb ed="GA" n="0120a09"/>賜額。</p></cb:div>
+<lb ed="GA" n="0120a10"/><cb:div type="other"><cb:mulu type="其他" level="3">化成永壽寺</cb:mulu><head>化成永壽寺</head><p xml:id="pGA053p0120a1006" style="margin-left:0em;text-indent:2em;" cb:place="inline">其址古胥顧泖也，泖有六和神靈甚。宋端
+<lb ed="GA" n="0120a11"/>平間僧妙智，苦節清修，並泖架一室，奉神神顯靈于人。
+<pb ed="GA" xml:id="GA053.0057.0121a" n="0121a"/>
+<lb ed="GA" n="0121a01"/>凡禱祈者，以所驗重輕發土實泖。未幾，泖隆然，遂構精
+<lb ed="GA" n="0121a02"/>舍，曰化成菴。元泰定中賜今額。</p></cb:div>
+<lb ed="GA" n="0121a03"/><cb:div type="other"><cb:mulu type="其他" level="3">法忍寺</cb:mulu><head>法忍寺</head><p xml:id="pGA053p0121a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金山縣朱涇<reg>鎮</reg>唐，咸通十年，建<reg>即</reg>船子和尚
+<lb ed="GA" n="0121a04"/>覆舟處。寺有船子及夾山會禪師遺像。</p></cb:div>
+<lb ed="GA" n="0121a05"/><cb:div type="other"><cb:mulu type="其他" level="3">東林寺</cb:mulu><head>東林寺</head><p xml:id="pGA053p0121a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在法忍寺東元至大初建本觀音堂，皇慶初改
+<lb ed="GA" n="0121a06"/>額為寺。</p></cb:div>
+<lb ed="GA" n="0121a07"/><cb:div type="other"><cb:mulu type="其他" level="3">澄鑒寺</cb:mulu><head>澄鑒寺</head><p xml:id="pGA053p0121a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在泖橋，俗呼泖橋寺，唐天寶六年建。</p></cb:div>
+<lb ed="GA" n="0121a08"/><cb:div type="other"><cb:mulu type="其他" level="3">興塔寺</cb:mulu><head>興塔寺</head><p xml:id="pGA053p0121a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在泖橋西，紹興四年賜額。</p></cb:div>
+<lb ed="GA" n="0121a09"/><cb:div type="other"><cb:mulu type="其他" level="3">松隱寺</cb:mulu><head>松隱寺</head><p xml:id="pGA053p0121a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在松隱<reg>鎮</reg>元至正間，建趙孟頫書松隱二字，遂
+<lb ed="GA" n="0121a10"/>以為名寺有塔，與興聖西林禮塔相望。</p></cb:div>
+<lb ed="GA" n="0121a11"/><cb:div type="other"><cb:mulu type="其他" level="3">海慧寺</cb:mulu><head>海慧寺</head><p xml:id="pGA053p0121a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在風涇白牛市，宋建隆初里人。姚廷睿捨宅建
+<pb ed="GA" xml:id="GA053.0057.0122a" n="0122a"/>
+<lb ed="GA" n="0122a01"/>寺，有水波壁留春亭精進閣並廢。</p></cb:div>
+<lb ed="GA" n="0122a02"/><cb:div type="other"><cb:mulu type="其他" level="3">寶藏寺</cb:mulu><head>寶藏寺</head><p xml:id="pGA053p0122a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在海慧寺西宋熙寧初建紹興五年賜額。</p></cb:div>
+<lb ed="GA" n="0122a03"/><cb:div type="other"><cb:mulu type="其他" level="3">積善寺</cb:mulu><head>積善寺</head><p xml:id="pGA053p0122a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在上海縣治西北，宋紹興間，里人李阡夢金人
+<lb ed="GA" n="0122a04"/>乞坐地，遂捨地為精舍，度其孫，師立主之。元至大間，有
+<lb ed="GA" n="0122a05"/>番賈航、海南來拜，師立道上，自云：慕師高德，以貨寶一
+<lb ed="GA" n="0122a06"/>巨艘施之，不通姓名而去立。遂大拓舊規，請額為積善
+<lb ed="GA" n="0122a07"/>院，今寺為本縣。祝釐習儀之地，僧會司治焉。</p></cb:div>
+<lb ed="GA" n="0122a08"/><cb:div type="other"><cb:mulu type="其他" level="3">觀音寺</cb:mulu><head>觀音寺</head><p xml:id="pGA053p0122a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在上海縣西宋崇寧初建淳熙三年，賜額慈報
+<lb ed="GA" n="0122a09"/>禪院，從錢參政，良臣請也。元燬，明洪武十六年，僧性重
+<lb ed="GA" n="0122a10"/>建，改今額為縣之首剎。</p></cb:div>
+<lb ed="GA" n="0122a11"/><cb:div type="other"><cb:mulu type="其他" level="3">法華寺</cb:mulu><head>法華寺</head><p xml:id="pGA053p0122a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在觀音寺東宋開寶間，僧慧建。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0123a" n="0123a"/>
+<lb ed="GA" n="0123a01"/><cb:div type="other"><cb:mulu type="其他" level="3">靜安寺</cb:mulu><head>靜安寺</head><p xml:id="pGA053p0123a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在蘆浦初在滬瀆吳赤烏中，建號重圓寺。宋祥
+<lb ed="GA" n="0123a02"/>符初改今額寺有江中浮來石像、石鉢，又有吳越王瑜
+<lb ed="GA" n="0123a03"/>珈、道塲毘盧遮那像五臟，皆書。錢氏妃嬪氏名，有赤烏
+<lb ed="GA" n="0123a04"/>碑，陳朝檜講經臺鰕子潭湧泉綠雲洞與滬瀆壘蘆子
+<lb ed="GA" n="0123a05"/>渡為八景。</p></cb:div>
+<lb ed="GA" n="0123a06"/><cb:div type="other"><cb:mulu type="其他" level="3">龍華寺</cb:mulu><head>龍華寺</head><p xml:id="pGA053p0123a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在黃浦西龍華村相傳吳越忠懿王常夜泊浦
+<lb ed="GA" n="0123a07"/>上，風雨驟至草莽間祥光燭天鐘梵隱然詢其地，古龍
+<lb ed="GA" n="0123a08"/>華寺基也。遂重建其西北隅，舊有白蓮教院前有寶塔，
+<lb ed="GA" n="0123a09"/>時時放光，至今存焉。明萬歷間，詔頒佛藏於寺，又賜範
+<lb ed="GA" n="0123a10"/>金千葉寶蓮毘盧佛一鏤銅器，五勅賜大興國慈華禪
+<lb ed="GA" n="0123a11"/>寺。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0124a" n="0124a"/>
+<lb ed="GA" n="0124a01"/><cb:div type="other"><cb:mulu type="其他" level="3">大聖寺</cb:mulu><head>大聖寺</head><p xml:id="pGA053p0124a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在上海縣東南四十里宋紹興間建後廢明初
+<lb ed="GA" n="0124a02"/><reg>即</reg>普淨院榜今額。</p></cb:div>
+<lb ed="GA" n="0124a03"/><cb:div type="other"><cb:mulu type="其他" level="3">明心寺</cb:mulu><head>明心寺</head><p xml:id="pGA053p0124a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在上海縣西南六十里。梁開平初，都水使者錢
+<lb ed="GA" n="0124a04"/>綽建宋治平二年賜額。寺有古檜二本元豐時所植，至
+<lb ed="GA" n="0124a05"/>今存焉。</p></cb:div>
+<lb ed="GA" n="0124a06"/><cb:div type="other"><cb:mulu type="其他" level="3">崇慶寺</cb:mulu><head>崇慶寺</head><p xml:id="pGA053p0124a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在北蔡村，宋嘉定間建。</p></cb:div>
+<lb ed="GA" n="0124a07"/><cb:div type="other"><cb:mulu type="其他" level="3">南淨土寺</cb:mulu><head>南淨土寺</head><p xml:id="pGA053p0124a0705" style="margin-left:0em;text-indent:2em;" cb:place="inline">在吳會俗呼南王寺，宋淳祐中建初名九品
+<lb ed="GA" n="0124a08"/>觀堂，元大德中改今額。</p></cb:div>
+<lb ed="GA" n="0124a09"/><cb:div type="other"><cb:mulu type="其他" level="3">資壽寺</cb:mulu><head>資壽寺</head><p xml:id="pGA053p0124a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在吳會北元至元末，僧嚴肇建俗呼北王寺。</p></cb:div>
+<lb ed="GA" n="0124a10"/><cb:div type="other"><cb:mulu type="其他" level="3">寧國寺</cb:mulu><head>寧國寺</head><p xml:id="pGA053p0124a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在二十六保宋隆興中，建乾道二年清額殿前
+<lb ed="GA" n="0124a11"/>羅漢松四株，枝幹森矗，古色蒼然，葢三四百年物也。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0125a" n="0125a"/>
+<lb ed="GA" n="0125a01"/><cb:div type="other"><cb:mulu type="其他" level="3">福基寺</cb:mulu><head>福基寺</head><p xml:id="pGA053p0125a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在三十保元，至元間建。</p></cb:div>
+<lb ed="GA" n="0125a02"/><cb:div type="other"><cb:mulu type="其他" level="3">永定寺</cb:mulu><head>永定寺</head><p xml:id="pGA053p0125a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在南匯縣周浦<reg>鎮</reg>宋淳熙間，趙宮使建名永定
+<lb ed="GA" n="0125a03"/>禪院，明洪武中改額。</p></cb:div>
+<lb ed="GA" n="0125a04"/><cb:div type="other"><cb:mulu type="其他" level="3">慶寧寺</cb:mulu><head>慶寧寺</head><p xml:id="pGA053p0125a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在二十二保南蹌村宋建<g ref="#CB34804"/>間建。</p></cb:div>
+<lb ed="GA" n="0125a05"/><cb:div type="other"><cb:mulu type="其他" level="3">安國寺</cb:mulu><head>安國寺</head><p xml:id="pGA053p0125a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在二十二保宋咸淳間建。</p></cb:div>
+<lb ed="GA" n="0125a06"/><cb:div type="other"><cb:mulu type="其他" level="3">南廣福寺</cb:mulu><head>南廣福寺</head><p xml:id="pGA053p0125a0605" style="margin-left:0em;text-indent:2em;" cb:place="inline">在二十一保。宋嘉泰間，里人。鄒運幹，捨宅建
+<lb ed="GA" n="0125a07"/>俗，呼鄒家寺僧宗印請額。</p></cb:div>
+<lb ed="GA" n="0125a08"/><cb:div type="other"><cb:mulu type="其他" level="3">太平寺</cb:mulu><head>太平寺</head><p xml:id="pGA053p0125a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在二十三保因華亭太平寺在其西俗，呼此為
+<lb ed="GA" n="0125a09"/>東。太平、宋太平，興國間建。</p></cb:div>
+<lb ed="GA" n="0125a10"/><cb:div type="other"><cb:mulu type="其他" level="3">永寧寺</cb:mulu><head>永寧寺</head><p xml:id="pGA053p0125a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在新塲<reg>鎮</reg>元至元間，建名報恩懴院。明洪武中
+<lb ed="GA" n="0125a11"/>改額元方回，有記趙孟頫書。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0126a" n="0126a"/>
+<lb ed="GA" n="0126a01"/><cb:div type="other"><cb:mulu type="其他" level="3">南積善寺</cb:mulu><head>南積善寺</head><p xml:id="pGA053p0126a0105" style="margin-left:0em;text-indent:2em;" cb:place="inline">在十七保宋紹興間建。</p></cb:div>
+<lb ed="GA" n="0126a02"/><cb:div type="other"><cb:mulu type="其他" level="3">隆福寺</cb:mulu><head>隆福寺</head><p xml:id="pGA053p0126a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在青龍<reg>鎮</reg>唐天寶間，建至長慶中，始建寶塔，昇
+<lb ed="GA" n="0126a03"/>仙臺在其前。</p></cb:div>
+<lb ed="GA" n="0126a04"/><cb:div type="other"><cb:mulu type="其他" level="3">隆平寺</cb:mulu><head>隆平寺</head><p xml:id="pGA053p0126a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在隆福寺北，故俗稱南寺北寺。唐長慶元年建
+<lb ed="GA" n="0126a05"/>明嘉靖後改為新縣城隍廟，後移縣唐行鎮，欲遷不果，
+<lb ed="GA" n="0126a06"/>有寶塔亦廢寺有宋馮翊陳林記、襄陽米芾書。</p></cb:div>
+<lb ed="GA" n="0126a07"/><cb:div type="other"><cb:mulu type="其他" level="3">普光寺</cb:mulu><head>普光寺</head><p xml:id="pGA053p0126a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在青龍<reg>鎮</reg>宋，紹熙五年建。</p></cb:div>
+<lb ed="GA" n="0126a08"/><cb:div type="other"><cb:mulu type="其他" level="3">頤浩寺</cb:mulu><head>頤浩寺</head><p xml:id="pGA053p0126a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金澤<reg>鎮</reg>宋景定中，里人費輔之，始創經堂，僧
+<lb ed="GA" n="0126a09"/>道崇主之，其徒如信開拓，遂成大剎。元元貞中賜今額
+<lb ed="GA" n="0126a10"/>明萬歷。五年，徐階以賜袞留<reg>鎮</reg>山門，乃於殿西北作樓
+<lb ed="GA" n="0126a11"/>三楹，貯之莫如。忠題曰有袞樓。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0127a" n="0127a"/>
+<lb ed="GA" n="0127a01"/><cb:div type="other"><cb:mulu type="其他" level="3">慧日寺</cb:mulu><head>慧日寺</head><p xml:id="pGA053p0127a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">初名普寧慧日院在孔宅里，俗呼孔宅寺，寺有
+<lb ed="GA" n="0127a02"/>宣聖祠元景定中易今名。</p></cb:div>
+<lb ed="GA" n="0127a03"/><cb:div type="other"><cb:mulu type="其他" level="3">宣妙寺</cb:mulu><head>宣妙寺</head><p xml:id="pGA053p0127a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">本佘山西菴宋治平二年賜額。</p></cb:div>
+<lb ed="GA" n="0127a04"/><cb:div type="other"><cb:mulu type="其他" level="3">普照寺</cb:mulu><head>普照寺</head><p xml:id="pGA053p0127a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">本佘山東菴，宋太平興國三年，聰道人。開山治
+<lb ed="GA" n="0127a05"/>平二年，賜額普照教院。寺有道人，塔下有月，軒旁有虎，
+<lb ed="GA" n="0127a06"/>樹亭相傳。道人在山時，有二虎隨侍道人死，虎亦死瘞
+<lb ed="GA" n="0127a07"/>之，塔旁踰年，生銀、杏、樹二僧隱闢亭，其間以虎樹名。</p></cb:div>
+<lb ed="GA" n="0127a08"/><cb:div type="other"><cb:mulu type="其他" level="3">昭慶寺</cb:mulu><head>昭慶寺</head><p xml:id="pGA053p0127a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">本佘山靈峯菴。宋紹興二年建有塔。</p></cb:div>
+<lb ed="GA" n="0127a09"/><cb:div type="other"><cb:mulu type="其他" level="3">壽安寺</cb:mulu><head>壽安寺</head><p xml:id="pGA053p0127a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在鍾賈山下，元元貞中建。</p></cb:div>
+<lb ed="GA" n="0127a10"/><cb:div type="other"><cb:mulu type="其他" level="3">圓智寺</cb:mulu><head>圓智寺</head><p xml:id="pGA053p0127a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在于山，唐大中十三年，建于邑西南二里。晉天
+<lb ed="GA" n="0127a11"/>福中壞于水，始遷於于山。其地，晉陸士衡，草堂遺址也。
+<pb ed="GA" xml:id="GA053.0057.0128a" n="0128a"/>
+<lb ed="GA" n="0128a01"/>宋治平中，賜額有塔。在山之半明萬歷中，同卿林景暘
+<lb ed="GA" n="0128a02"/>重修法堂，左為二俊祠、祀二陸。</p></cb:div>
+<lb ed="GA" n="0128a03"/><cb:div type="other"><cb:mulu type="其他" level="3">布金寺</cb:mulu><head>布金寺</head><p xml:id="pGA053p0128a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在四十七，保大盈村，本法雲院，唐太和二年建。
+<lb ed="GA" n="0128a04"/>宋易今名。</p></cb:div>
+<lb ed="GA" n="0128a05"/><cb:div type="other"><cb:mulu type="其他" level="3">崇壽寺</cb:mulu><head>崇壽寺</head><p xml:id="pGA053p0128a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在吳淞北楊林，俗稱楊林寺，宋元祐間建。</p></cb:div>
+<lb ed="GA" n="0128a06"/><cb:div type="other"><cb:mulu type="其他" level="3">福善寺</cb:mulu><head>福善寺</head><p xml:id="pGA053p0128a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在內勳浦之陽。梁貞明六年僧智道建，時多虎
+<lb ed="GA" n="0128a07"/>患，道至，虎<reg>即</reg>遯去。宋大中祥符元年改今額。</p></cb:div>
+<lb ed="GA" n="0128a08"/><cb:div type="other"><cb:mulu type="其他" level="3">澱山寺</cb:mulu><head>澱山寺</head><p xml:id="pGA053p0128a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在薛澱湖中山頂，宋建<g ref="#CB34804"/>初建。紹興八年，賜額
+<lb ed="GA" n="0128a09"/>普光王寺，明改今額。</p></cb:div>
+<lb ed="GA" n="0128a10"/><cb:div type="other"><cb:mulu type="其他" level="3">仙鶴觀</cb:mulu><head>仙鶴觀</head><p xml:id="pGA053p0128a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府南朝<reg>真</reg>橋東，始創在橋西，年月無攷。宋紹
+<lb ed="GA" n="0128a11"/>興三十一年，道士葉太<reg>真</reg>復建請于朝，賜今名。明初，以
+<pb ed="GA" xml:id="GA053.0057.0129a" n="0129a"/>
+<lb ed="GA" n="0129a01"/>其地設太平，南倉道士陸允中，始遷今地為府境琳宮
+<lb ed="GA" n="0129a02"/>第一道紀司治焉。</p></cb:div>
+<lb ed="GA" n="0129a03"/><cb:div type="other"><cb:mulu type="其他" level="3">通圓觀</cb:mulu><head>通圓觀</head><p xml:id="pGA053p0129a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在青龍<reg>鎮</reg>，宋景祐元年建。</p></cb:div>
+<lb ed="GA" n="0129a04"/><cb:div type="other"><cb:mulu type="其他" level="3">示應菴</cb:mulu><head>示應菴</head><p xml:id="pGA053p0129a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在白龍潭東北，宋淳祐間建，明萬歷間僧明心
+<lb ed="GA" n="0129a05"/><reg>即</reg>故址重建。</p></cb:div>
+<lb ed="GA" n="0129a06"/><cb:div type="other"><cb:mulu type="其他" level="3">賜子定光菴</cb:mulu><head>賜子定光菴</head><p xml:id="pGA053p0129a0606" style="margin-left:0em;text-indent:2em;" cb:place="inline">在白龍潭西。</p></cb:div>
+<lb ed="GA" n="0129a07"/><cb:div type="other"><cb:mulu type="其他" level="3">喜見菴</cb:mulu><head>喜見菴</head><p xml:id="pGA053p0129a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東北七里，元至順間建。</p></cb:div>
+<lb ed="GA" n="0129a08"/><cb:div type="other"><cb:mulu type="其他" level="3">永福菴</cb:mulu><head>永福菴</head><p xml:id="pGA053p0129a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府南十八里，元建。</p></cb:div>
+<lb ed="GA" n="0129a09"/><cb:div type="other"><cb:mulu type="其他" level="3">清涼菴</cb:mulu><head>清涼菴</head><p xml:id="pGA053p0129a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府西二十七里，宋咸淳間建。</p></cb:div>
+<lb ed="GA" n="0129a10"/><cb:div type="other"><cb:mulu type="其他" level="3">施水菴</cb:mulu><head>施水菴</head><p xml:id="pGA053p0129a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在莘莊<reg>鎮</reg>，南宋咸淳間建，有趙孟頫金書法華
+<lb ed="GA" n="0129a11"/>經。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0130a" n="0130a"/>
+<lb ed="GA" n="0130a01"/><cb:div type="other"><cb:mulu type="其他" level="3">蘆花菴</cb:mulu><head>蘆花菴</head><p xml:id="pGA053p0130a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在泖口里中，曹氏建狀，其勝者有「百二十里碧
+<lb ed="GA" n="0130a02"/>琉璃，三十六陂紅菡萏」之句。</p></cb:div>
+<lb ed="GA" n="0130a03"/><cb:div type="other"><cb:mulu type="其他" level="3">樵隱菴</cb:mulu><head>樵隱菴</head><p xml:id="pGA053p0130a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金山縣三保，
+<lb ed="GA" n="0130a04"/>國朝康熙四十四年，
+<lb ed="GA" n="0130a05"/>聖祖南巡至松，
+<lb ed="GA" n="0130a06"/>召僧行瀾，
+<lb ed="GA" n="0130a07"/>賜禪林宗宿扁額對聯石刻經卷。四十八年，提督師懿德建
+<lb ed="GA" n="0130a08"/>御書樓。</p></cb:div>
+<lb ed="GA" n="0130a09"/><cb:div type="other"><cb:mulu type="其他" level="3">定光菴</cb:mulu><head>定光菴</head><p xml:id="pGA053p0130a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">宋景定間建，與海慧寺相並。</p></cb:div>
+<lb ed="GA" n="0130a10"/><cb:div type="other"><cb:mulu type="其他" level="3">潮音菴</cb:mulu><head>潮音菴</head><p xml:id="pGA053p0130a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在新塲，元至元間建。</p></cb:div>
+<lb ed="GA" n="0130a11"/><cb:div type="other"><cb:mulu type="其他" level="3">常寂菴</cb:mulu><head>常寂菴</head><p xml:id="pGA053p0130a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在新塲，元大德十年建，順治間易名南山禪院。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0131a" n="0131a"/>
+<lb ed="GA" n="0131a01"/><cb:div type="other"><cb:mulu type="其他" level="3">東林菴</cb:mulu><head>東林菴</head><p xml:id="pGA053p0131a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在十九，保元大德六年建。</p></cb:div>
+<lb ed="GA" n="0131a02"/><cb:div type="other"><cb:mulu type="其他" level="3">福田菴</cb:mulu><head>福田菴</head><p xml:id="pGA053p0131a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在三十，保元至正間建。</p></cb:div>
+<lb ed="GA" n="0131a03"/><cb:div type="other"><cb:mulu type="其他" level="3">東隱菴</cb:mulu><head>東隱菴</head><p xml:id="pGA053p0131a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在五十，保元至正二十二年建。</p></cb:div>
+<lb ed="GA" n="0131a04"/><cb:div type="other"><cb:mulu type="其他" level="3">西隱菴</cb:mulu><head>西隱菴</head><p xml:id="pGA053p0131a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在泰來橋西。宋乾道三年建，有趙孟頫碑記。</p></cb:div>
+<lb ed="GA" n="0131a05"/><cb:div type="other"><cb:mulu type="其他" level="3">雲隱菴</cb:mulu><head>雲隱菴</head><p xml:id="pGA053p0131a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在澱湖西王巷村，南接石神廟，宋咸淳間建。</p></cb:div>
+<lb ed="GA" n="0131a06"/><cb:div type="other"><cb:mulu type="其他" level="3">東濟菴</cb:mulu><head>東濟菴</head><p xml:id="pGA053p0131a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在四十六，保元至正間建。</p></cb:div>
+<lb ed="GA" n="0131a07"/><cb:div type="other"><cb:mulu type="其他" level="3">德濟菴</cb:mulu><head>德濟菴</head><p xml:id="pGA053p0131a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在簳山，元大德三年，邑人張謙建，僧穹開山，後
+<lb ed="GA" n="0131a08"/>有骨塔，有松上覆如偃葢然。</p></cb:div>
+<lb ed="GA" n="0131a09"/><cb:div type="other"><cb:mulu type="其他" level="3">錢明宮</cb:mulu><head>錢明宮</head><p xml:id="pGA053p0131a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東門外。</p></cb:div>
+<lb ed="GA" n="0131a10"/><cb:div type="other"><cb:mulu type="其他" level="3">碧霞行宮</cb:mulu><head>碧霞行宮</head><p xml:id="pGA053p0131a1005" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東門外，明嘉靖間建舊名紫霞宮。</p></cb:div>
+<lb ed="GA" n="0131a11"/><cb:div type="other"><cb:mulu type="其他" level="3">普門院</cb:mulu><head>普門院</head><p xml:id="pGA053p0131a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在古際留倉東，元至元間建。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0132a" n="0132a"/>
+<lb ed="GA" n="0132a01"/><cb:div type="other"><cb:mulu type="其他" level="3">廣化漏澤院</cb:mulu><head>廣化漏澤院</head><p xml:id="pGA053p0132a0106" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府超果寺西北，宋崇寧中建紹興三年
+<lb ed="GA" n="0132a02"/>賜額。</p></cb:div>
+<lb ed="GA" n="0132a03"/><cb:div type="other"><cb:mulu type="其他" level="3">純陽禪院</cb:mulu><head>純陽禪院</head><p xml:id="pGA053p0132a0305" style="margin-left:0em;text-indent:2em;" cb:place="inline">在陶宅<reg>鎮</reg>，明餘姚謝遷讀書于此。</p></cb:div>
+<lb ed="GA" n="0132a04"/><cb:div type="other"><cb:mulu type="其他" level="3">延壽院</cb:mulu><head>延壽院</head><p xml:id="pGA053p0132a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在婁縣李塔匯，宋嘉定中建，院臨驛道，府人祖
+<lb ed="GA" n="0132a05"/>餞以此為節云。
+<lb ed="GA" n="0132a06"/>國朝順治十六年，知府祖永勳捐俸重修本名禮塔。今云李
+<lb ed="GA" n="0132a07"/>塔疑，以曹王明故也。</p></cb:div>
+<lb ed="GA" n="0132a08"/><cb:div type="other"><cb:mulu type="其他" level="3">澄照禪院</cb:mulu><head>澄照禪院</head><p xml:id="pGA053p0132a0805" style="margin-left:0em;text-indent:2em;" cb:place="inline">在泖中居，乾符間，老僧如海作井亭，施湯茗，
+<lb ed="GA" n="0132a09"/>建塔五層，標燈為往來之望。明嘉靖間，僧智明建大雄
+<lb ed="GA" n="0132a10"/>殿，其徒自正。于隆慶六年，築石隄以為外護，建寶藏閣
+<lb ed="GA" n="0132a11"/>以奉大藏經。陸樹聲與弟樹德，置常住田，太倉王世貞
+<pb ed="GA" xml:id="GA053.0057.0133a" n="0133a"/>
+<lb ed="GA" n="0133a01"/>為之記。隆慶三年，丈田均糧。僉事鄭元韶、知府袁貞吉，
+<lb ed="GA" n="0133a02"/>以泖塔在湖中，渰沒不常，遂得免科。萬歷元年，復建青
+<lb ed="GA" n="0133a03"/>浦，泖以西俱屬焉。獨塔基，因不起科，仍隷華亭。今屬婁
+<lb ed="GA" n="0133a04"/>積善院，在二十五<unclear></unclear>，宋慶元間千戶徐名建。</p></cb:div>
+<lb ed="GA" n="0133a05"/><cb:div type="other"><cb:mulu type="其他" level="3">寶月禪院</cb:mulu><head>寶月禪院</head><p xml:id="pGA053p0133a0505" style="margin-left:0em;text-indent:2em;" cb:place="inline">在青浦城內生春橋西，元至正間建，佛像皆
+<lb ed="GA" n="0133a06"/>脫沙塑。</p></cb:div>
+<lb ed="GA" n="0133a07"/><cb:div type="other"><cb:mulu type="其他" level="3">慧日院</cb:mulu><head>慧日院</head><p xml:id="pGA053p0133a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">佘山中菴也，宋太平興國三年建，舊云沐堂。治
+<lb ed="GA" n="0133a08"/>平二年賜額，明宮保陸樹聲書「雲崖風壑」四大字勒石，
+<lb ed="GA" n="0133a09"/>以朝衣一襲留<reg>鎮</reg>山門。太師徐階奉世廟，賜蟒衣，付僧
+<lb ed="GA" n="0133a10"/>為供。</p></cb:div>
+<lb ed="GA" n="0133a11"/><cb:div type="other"><cb:mulu type="其他" level="3">崑山塔院</cb:mulu><head>崑山塔院</head><p xml:id="pGA053p0133a1105" style="margin-left:0em;text-indent:2em;" cb:place="inline"><reg>即</reg>今小崑山泗州塔院。宋乾道元年建，明時
+<pb ed="GA" xml:id="GA053.0057.0134a" n="0134a"/>
+<lb ed="GA" n="0134a01"/>又建觀音殿、<reg>真</reg>武殿、西方藏殿、三聖閣。萬歷中建藏經
+<lb ed="GA" n="0134a02"/>閣。
+<lb ed="GA" n="0134a03"/>國朝順治五年，僧溯本源以山勢宜北，殿獨南向，經閣反踞
+<lb ed="GA" n="0134a04"/>其前，形家疑之，遂鳩工移易，法像不動，一時偕旋。觀者
+<lb ed="GA" n="0134a05"/>謂有神助云。康熙四十四年，
+<lb ed="GA" n="0134a06"/>御書「奎光燭泖」四字匾額。</p></cb:div>
+<lb ed="GA" n="0134a07"/><cb:div type="other"><cb:mulu type="其他" level="3">蓬萊道院</cb:mulu><head>蓬萊道院</head><p xml:id="pGA053p0134a0705" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東門內，元至正中建，東廡有梓潼神舊
+<lb ed="GA" n="0134a08"/>祠于縣學祠。後有<unclear></unclear>林大比歲以筍迸室中，卜薦士之
+<lb ed="GA" n="0134a09"/>多寡近神，坐則占前名，其騐如響，明成化六年，提學陳
+<lb ed="GA" n="0134a10"/>選，以神道家者流，非學所當，祀道士李朝陽，因請移祠
+<lb ed="GA" n="0134a11"/>于此，仍塑呂<reg>真</reg>人配之。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0135a" n="0135a"/>
+<lb ed="GA" n="0135a01"/><cb:div type="other"><cb:mulu type="其他" level="3">盟素道院</cb:mulu><head>盟素道院</head><p xml:id="pGA053p0135a0105" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東南舊城隍廟側，元至正十二年建。</p></cb:div>
+<lb ed="GA" n="0135a02"/><cb:div type="other"><cb:mulu type="其他" level="3">西湖道院</cb:mulu><head>西湖道院</head><p xml:id="pGA053p0135a0205" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府城演武塲，北元至正元年建，其地舊西
+<lb ed="GA" n="0135a03"/>湖也，故名。今猶有小渠自太平橋西流折北而匯其前，
+<lb ed="GA" n="0135a04"/>為城中幽勝處。</p></cb:div>
+<lb ed="GA" n="0135a05"/><cb:div type="other"><cb:mulu type="其他" level="3">長春道院</cb:mulu><head>長春道院</head><p xml:id="pGA053p0135a0505" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府南門內橋，北元大德十年建，為境內全
+<lb ed="GA" n="0135a06"/><reg>真</reg>教祖。</p></cb:div>
+<lb ed="GA" n="0135a07"/><cb:div type="other"><cb:mulu type="其他" level="3">安于道院</cb:mulu><head>安于道院</head><p xml:id="pGA053p0135a0705" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府北門內。宋咸淳間，王蒲友捨宅建，舊傳
+<lb ed="GA" n="0135a08"/>安于二公讀書于此，相繼發跡，故名。</p></cb:div>
+<lb ed="GA" n="0135a09"/><cb:div type="other"><cb:mulu type="其他" level="3">谷水道院</cb:mulu><head>谷水道院</head><p xml:id="pGA053p0135a0905" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府城西谷水坊內，前志云：在琩湖北曰谷。
+<lb ed="GA" n="0135a10"/>水者，湖之故名也。宋寶慶二年，道士陸景徽建，今湖已
+<lb ed="GA" n="0135a11"/>湮，院南悉為民居，其外一水縈紆，不知為湖矣。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0136a" n="0136a"/>
+<lb ed="GA" n="0136a01"/><cb:div type="other"><cb:mulu type="其他" level="3">太素道院</cb:mulu><head>太素道院</head><p xml:id="pGA053p0136a0105" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府南郭外，元至正九年建，南瞰瓜涇，林木
+<lb ed="GA" n="0136a02"/>幽蔚，宛在人外。中有端坐全<reg>真</reg>之所，曰雲巢。</p></cb:div>
+<lb ed="GA" n="0136a03"/><cb:div type="other"><cb:mulu type="其他" level="3">太清道院</cb:mulu><head>太清道院</head><p xml:id="pGA053p0136a0305" style="margin-left:0em;text-indent:2em;" cb:place="inline">在俞塘，明洪武元年建。</p></cb:div>
+<lb ed="GA" n="0136a04"/><cb:div type="other"><cb:mulu type="其他" level="3">太興道院</cb:mulu><head>太興道院</head><p xml:id="pGA053p0136a0405" style="margin-left:0em;text-indent:2em;" cb:place="inline">在蕭塘<reg>鎮</reg>，元至正中建。</p></cb:div>
+<lb ed="GA" n="0136a05"/><cb:div type="other"><cb:mulu type="其他" level="3">昇真道院</cb:mulu><head>昇<reg>真</reg>道院</head><p xml:id="pGA053p0136a0505" style="margin-left:0em;text-indent:2em;" cb:place="inline">在法華橋，元至正間建。</p></cb:div>
+<lb ed="GA" n="0136a06"/><cb:div type="other"><cb:mulu type="其他" level="3">元真道院</cb:mulu><head>元<reg>真</reg>道院</head><p xml:id="pGA053p0136a0605" style="margin-left:0em;text-indent:2em;" cb:place="inline">在張涇堰，元至正二年建。</p></cb:div>
+<lb ed="GA" n="0136a07"/><cb:div type="other"><cb:mulu type="其他" level="3">朝元道院</cb:mulu><head>朝元道院</head><p xml:id="pGA053p0136a0705" style="margin-left:0em;text-indent:2em;" cb:place="inline">在泖口，元大德間建。</p></cb:div>
+<lb ed="GA" n="0136a08"/><cb:div type="other"><cb:mulu type="其他" level="3">正陽道院</cb:mulu><head>正陽道院</head><p xml:id="pGA053p0136a0805" style="margin-left:0em;text-indent:2em;" cb:place="inline">在上海<unclear></unclear>治東南，元至正十一年建。</p></cb:div>
+<lb ed="GA" n="0136a09"/><cb:div type="other"><cb:mulu type="其他" level="3">平山道院</cb:mulu><head>平山道院</head><p xml:id="pGA053p0136a0905" style="margin-left:0em;text-indent:2em;" cb:place="inline">在十八保，明洪武七年建，按晉袁崧犒軍長
+<lb ed="GA" n="0136a10"/>人<reg>鄉</reg>，酒罄聚瓶為山，後人尚有于此地得瓶者，字宜從
+<lb ed="GA" n="0136a11"/>瓶。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0137a" n="0137a"/>
+<lb ed="GA" n="0137a01"/><cb:div type="other"><cb:mulu type="其他" level="3">朝真道院</cb:mulu><head>朝<reg>真</reg>道院</head><p xml:id="pGA053p0137a0105" style="margin-left:0em;text-indent:2em;" cb:place="inline">在福泉縣，元至大二年建。</p></cb:div>
+<lb ed="GA" n="0137a02"/><cb:div type="other"><cb:mulu type="其他" level="3">崇真道院</cb:mulu><head>崇<reg>真</reg>道院</head><p xml:id="pGA053p0137a0205" style="margin-left:0em;text-indent:2em;" cb:place="inline">在細林山，元至正間建，為細林八景之一。</p></cb:div>
+<lb ed="GA" n="0137a03"/><cb:div type="other"><cb:mulu type="其他" level="3">朝真道院</cb:mulu><head>朝<reg>真</reg>道院</head><p xml:id="pGA053p0137a0305" style="margin-left:0em;text-indent:2em;" cb:place="inline">在于山，元至正三年，道士郭松溪建。</p></cb:div></cb:div>
+<lb ed="GA" n="0137a04"/><cb:div type="other"><cb:mulu type="其他" level="2">常州府</cb:mulu><head>常州府</head>
+<lb ed="GA" n="0137a05"/><cb:div type="other"><cb:mulu type="其他" level="3">國安寺</cb:mulu><head>國安寺</head><p xml:id="pGA053p0137a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府榮橋，唐初建。</p></cb:div>
+<lb ed="GA" n="0137a06"/><cb:div type="other"><cb:mulu type="其他" level="3">護國寺</cb:mulu><head>護國寺</head><p xml:id="pGA053p0137a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在斜橋南，元大德間建</p></cb:div>
+<lb ed="GA" n="0137a07"/><cb:div type="other"><cb:mulu type="其他" level="3">正覺寺</cb:mulu><head>正覺寺</head><p xml:id="pGA053p0137a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在季子廟西，唐開元中建，名開元，為李遵宅舊
+<lb ed="GA" n="0137a08"/>址，宋改今額，正德丁丑，知府王教以寺改忠義祠，遷寺
+<lb ed="GA" n="0137a09"/>于妙勝寺廢址。</p></cb:div>
+<lb ed="GA" n="0137a10"/><cb:div type="other"><cb:mulu type="其他" level="3">妙勝寺</cb:mulu><head>妙勝寺</head><p xml:id="pGA053p0137a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在雙桂坊，晉永和中，李大夫捨宅建，明嘉靖撤
+<lb ed="GA" n="0137a11"/>廢，<reg>即</reg>其址建正覺寺。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0138a" n="0138a"/>
+<lb ed="GA" n="0138a01"/><cb:div type="other"><cb:mulu type="其他" level="3">崇法寺</cb:mulu><head>崇法寺</head><p xml:id="pGA053p0138a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在忠義祠東，舊傳陳司徒後圃，南唐保大中，名
+<lb ed="GA" n="0138a02"/>大聖院。宋宣和七年，賜名崇法禪院。</p></cb:div>
+<lb ed="GA" n="0138a03"/><cb:div type="other"><cb:mulu type="其他" level="3">萬壽寺</cb:mulu><head>萬壽寺</head><p xml:id="pGA053p0138a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在新城，通吳門外。唐五祖法融尊者建，南唐保
+<lb ed="GA" n="0138a04"/>大中建浮屠七級龕僧伽所留國祥寺衲衣，號普照王
+<lb ed="GA" n="0138a05"/>塔。明宣德六年都綱淨以寺為祝釐之所請于朝，募建
+<lb ed="GA" n="0138a06"/>天王殿、金剛殿兩廡，合五十餘楹，危簷傑構，為郡中叢
+<lb ed="GA" n="0138a07"/>林第一。</p></cb:div>
+<lb ed="GA" n="0138a08"/><cb:div type="other"><cb:mulu type="其他" level="3">太平寺</cb:mulu><head>太平寺</head><p xml:id="pGA053p0138a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在季子廟西，齊高祖創建。
+<lb ed="GA" n="0138a09"/>國朝康熙四十四年，
+<lb ed="GA" n="0138a10"/>御書太平興國寺額，又
+<lb ed="GA" n="0138a11"/>賜現身民安四字匾額。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0139a" n="0139a"/>
+<lb ed="GA" n="0139a01"/><cb:div type="other"><cb:mulu type="其他" level="3">崇勝寺</cb:mulu><head>崇勝寺</head><p xml:id="pGA053p0139a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">舊在府治，陳司徒西第初名福業，宋太平興國
+<lb ed="GA" n="0139a02"/>中改賜今額，明嘉靖中移置廣化門橋東。</p></cb:div>
+<lb ed="GA" n="0139a03"/><cb:div type="other"><cb:mulu type="其他" level="3">端明寺</cb:mulu><head>端明寺</head><p xml:id="pGA053p0139a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在德安橋南，舊在武進縣東南三里。宋治平初，
+<lb ed="GA" n="0139a04"/>胡樞副宿請建，元<unclear></unclear>兵廢，明永樂元年移建今地，<reg>即</reg>舊
+<lb ed="GA" n="0139a05"/>清涼寺，基故俗亦稱清涼寺。</p></cb:div>
+<lb ed="GA" n="0139a06"/><cb:div type="other"><cb:mulu type="其他" level="3">永慶寺</cb:mulu><head>永慶寺</head><p xml:id="pGA053p0139a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府夾城舊傳，陳司徒果園，後唐長興初，建名
+<lb ed="GA" n="0139a07"/>正勤，宋宣和中詔為神霄玉清萬壽宮，後宮廢復為寺。
+<lb ed="GA" n="0139a08"/>明嘉靖末，應城李幼滋來知府事，聚徒講學。其中士子
+<lb ed="GA" n="0139a09"/>翕然師尊之，因<reg>即</reg>寺南故城構亭，其上名曰精微。
+<lb ed="GA" n="0139a10"/>國朝康熙四年，邑諸生趙申喬讀書，寺旁請於有司捐貲重
+<lb ed="GA" n="0139a11"/>葺。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0140a" n="0140a"/>
+<lb ed="GA" n="0140a01"/><cb:div type="other"><cb:mulu type="其他" level="3">文明寺</cb:mulu><head>文明寺</head><p xml:id="pGA053p0140a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府南三十里，三渦溪，俗名三渦寺。唐大中五
+<lb ed="GA" n="0140a02"/>年，建名緣果。太平興國中，改文明崇孝禪寺。寺有米芾
+<lb ed="GA" n="0140a03"/>留題云：陳文老劉巨濟米元章，戊辰暮春同游刻石尚
+<lb ed="GA" n="0140a04"/>存筆法遒勁可觀。</p></cb:div>
+<lb ed="GA" n="0140a05"/><cb:div type="other"><cb:mulu type="其他" level="3">景德寺</cb:mulu><head>景德寺</head><p xml:id="pGA053p0140a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在前黃俗名前黃寺。唐咸通初建名寶田。宋太
+<lb ed="GA" n="0140a06"/>平興國中改景德禪院。</p></cb:div>
+<lb ed="GA" n="0140a07"/><cb:div type="other"><cb:mulu type="其他" level="3">永寧寺</cb:mulu><head>永寧寺</head><p xml:id="pGA053p0140a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東南三十五里，咸通四年，建名道成，宋改
+<lb ed="GA" n="0140a08"/>今額。</p></cb:div>
+<lb ed="GA" n="0140a09"/><cb:div type="other"><cb:mulu type="其他" level="3">寶相寺</cb:mulu><head>寶相寺</head><p xml:id="pGA053p0140a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府南六十里，宋大中祥符二年改名瑞像，明
+<lb ed="GA" n="0140a10"/>洪武初重建復舊額。</p></cb:div>
+<lb ed="GA" n="0140a11"/><cb:div type="other"><cb:mulu type="其他" level="3">神駿寺</cb:mulu><head>神駿寺</head><p xml:id="pGA053p0140a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在寨前灣。唐貞觀初，嘗徙置津里山，隩名靈山，
+<pb ed="GA" xml:id="GA053.0057.0141a" n="0141a"/>
+<lb ed="GA" n="0141a01"/>里民杭惲，捨基建寺，居重湖叠嶂間，最為清絕。宋大中，
+<lb ed="GA" n="0141a02"/>祥符改祥符禪院。宣和四年陞為寺。
+<lb ed="GA" n="0141a03"/>國朝康熙三十八年
+<lb ed="GA" n="0141a04"/>御書賜名神駿寺額，又
+<lb ed="GA" n="0141a05"/>御書水月禪心四字匾額。</p></cb:div>
+<lb ed="GA" n="0141a06"/><cb:div type="other"><cb:mulu type="其他" level="3">興教寺</cb:mulu><head>興教寺</head><p xml:id="pGA053p0141a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東三十里胡橋。唐大中初建宋太平興國
+<lb ed="GA" n="0141a07"/>中賜額興教禪院，明洪武元年重建。二十四年改為寺
+<lb ed="GA" n="0141a08"/>保寧寺，在橫林<reg>鎮</reg>北宋太平興國間，建名接待院，慶元
+<lb ed="GA" n="0141a09"/>間改今額。</p></cb:div>
+<lb ed="GA" n="0141a10"/><cb:div type="other"><cb:mulu type="其他" level="3">寶雲寺</cb:mulu><head>寶雲寺</head><p xml:id="pGA053p0141a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東二十七里，隋名攝山，舊有斷刻，謂在橫
+<lb ed="GA" n="0141a11"/>山一夕，大雷電攝至斯地，故名蘇軾。詩云：誰知白首長
+<pb ed="GA" xml:id="GA053.0057.0142a" n="0142a"/>
+<lb ed="GA" n="0142a01"/>河路，還臥當時送客風。</p></cb:div>
+<lb ed="GA" n="0142a02"/><cb:div type="other"><cb:mulu type="其他" level="3">潛靈寺</cb:mulu><head>潛靈寺</head><p xml:id="pGA053p0142a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">俗名白龍菴，在橫山南麓，有龍井祀嘉山白龍
+<lb ed="GA" n="0142a03"/>之母。旱禱輙應宋紹興七年，州學正、呂喆等請封賜今
+<lb ed="GA" n="0142a04"/>額。</p></cb:div>
+<lb ed="GA" n="0142a05"/><cb:div type="other"><cb:mulu type="其他" level="3">開福寺</cb:mulu><head>開福寺</head><p xml:id="pGA053p0142a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府北三十五里。唐大歷中建，舊號豐城，以豐
+<lb ed="GA" n="0142a06"/>城鄉得名，俗名南城寺。宋太平興國中改開福禪院。明
+<lb ed="GA" n="0142a07"/>嘉靖初，因魏國莊田隣寺侵奪之僧，乃棄寺出遊。後過
+<lb ed="GA" n="0142a08"/>寺題詩云：</p><lg xml:id="lgGA053p0142a0805" cb:place="inline" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">殘山剩水一荒基　古寺磨礱白塔低</l><l style="text-indent:1em;">燕子不
+<lb ed="GA" n="0142a09"/>知身是客　秋風還戀舊巢泥</l></lg></cb:div>
+<lb ed="GA" n="0142a10"/><cb:div type="other"><cb:mulu type="其他" level="3">開法寺</cb:mulu><head>開法寺</head><p xml:id="pGA053p0142a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東北三十五里，隋開皇間，建名天光。宋太
+<lb ed="GA" n="0142a11"/>平興國五年，賜今額。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0143a" n="0143a"/>
+<lb ed="GA" n="0143a01"/><cb:div type="other"><cb:mulu type="其他" level="3">顯慶寺</cb:mulu><head>顯慶寺</head><p xml:id="pGA053p0143a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在周莊，唐顯慶中建。</p></cb:div>
+<lb ed="GA" n="0143a02"/><cb:div type="other"><cb:mulu type="其他" level="3">觀音寺</cb:mulu><head>觀音寺</head><p xml:id="pGA053p0143a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府北六十里，唐開元中建，名善業，宋改觀音
+<lb ed="GA" n="0143a03"/>禪寺。</p></cb:div>
+<lb ed="GA" n="0143a04"/><cb:div type="other"><cb:mulu type="其他" level="3">智寶寺</cb:mulu><head>智寶寺</head><p xml:id="pGA053p0143a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在阜通<reg>鎮</reg>，又名萬歲寺。梁武帝舊第天監七年，
+<lb ed="GA" n="0143a05"/>捨為院，名慧炬。宋太平興國中改智寶禪院。</p></cb:div>
+<lb ed="GA" n="0143a06"/><cb:div type="other"><cb:mulu type="其他" level="3">能仁寺</cb:mulu><head>能仁寺</head><p xml:id="pGA053p0143a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在奔牛<reg>鎮</reg>西，齊黃門侍郎蕭惠開捨宅建，名禪
+<lb ed="GA" n="0143a07"/>鄉，宋政和間改今額。</p></cb:div>
+<lb ed="GA" n="0143a08"/><cb:div type="other"><cb:mulu type="其他" level="3">寶林寺</cb:mulu><head>寶林寺</head><p xml:id="pGA053p0143a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">今名石莊花寺，在府南三十里。周閔帝捨宅建，
+<lb ed="GA" n="0143a09"/>名法華，宋改今額。</p></cb:div>
+<lb ed="GA" n="0143a10"/><cb:div type="other"><cb:mulu type="其他" level="3">圓明寺</cb:mulu><head>圓明寺</head><p xml:id="pGA053p0143a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府西南六十餘里。唐貞觀中，<reg>鎮</reg>威將軍薛恬、
+<lb ed="GA" n="0143a11"/>武陵王記室薛世緒、徐州西曹從事薛法興捨宅共建。
+<pb ed="GA" xml:id="GA053.0057.0144a" n="0144a"/>
+<lb ed="GA" n="0144a01"/>初名樂善，宋改圓明禪寺。</p></cb:div>
+<lb ed="GA" n="0144a02"/><cb:div type="other"><cb:mulu type="其他" level="3">修善寺</cb:mulu><head>修善寺</head><p xml:id="pGA053p0144a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府北三十里，隋建。</p></cb:div>
+<lb ed="GA" n="0144a03"/><cb:div type="other"><cb:mulu type="其他" level="3">崇安寺</cb:mulu><head>崇安寺</head><p xml:id="pGA053p0144a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣治東三百步，晉哀帝興寧二年建，宋
+<lb ed="GA" n="0144a04"/>太平興國初賜今額。</p></cb:div>
+<lb ed="GA" n="0144a05"/><cb:div type="other"><cb:mulu type="其他" level="3">北禪寺</cb:mulu><head>北禪寺</head><p xml:id="pGA053p0144a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣治南中市橋西巷，唐武德中建，後廢，
+<lb ed="GA" n="0144a06"/>宋寶元中復置，賜名壽聖禪院，俗稱北禪寺，正殿署書
+<lb ed="GA" n="0144a07"/>釋迦寶殿，宋米芾筆，世所傳賞。</p></cb:div>
+<lb ed="GA" n="0144a08"/><cb:div type="other"><cb:mulu type="其他" level="3">惠山寺</cb:mulu><head>惠山寺</head><p xml:id="pGA053p0144a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣西五里惠山第一峯之白石塢，宋司
+<lb ed="GA" n="0144a09"/>徒長史湛茂之別墅，名歷山草堂。景平初為僧寮，曰華
+<lb ed="GA" n="0144a10"/>山精舍。梁大同三年改建法雲禪院。康熙二十三年，恭
+<lb ed="GA" n="0144a11"/>遇
+<pb ed="GA" xml:id="GA053.0057.0145a" n="0145a"/>
+<lb ed="GA" n="0145a01"/>聖祖仁皇帝南巡臨幸惠山寺，酌泉於亭，遂禮佛於殿上。百姓
+<lb ed="GA" n="0145a02"/>瞻望踴躍，幸覩
+<lb ed="GA" n="0145a03"/>天顏，乃懸榜其上曰
+<lb ed="GA" n="0145a04"/>聖敬式臨，以志奇覯。寺門外有石幢二，左刻楞嚴諸咒。宋熙寧
+<lb ed="GA" n="0145a05"/>間立右刻尊勝諸咒。唐乾符初立，白鹿山人李端行書。</p></cb:div>
+<lb ed="GA" n="0145a06"/><cb:div type="other"><cb:mulu type="其他" level="3">華藏寺</cb:mulu><head>華藏寺</head><p xml:id="pGA053p0145a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣西三十五里華藏山，亦名青山寺。宋
+<lb ed="GA" n="0145a07"/>紹興間，太師張俊勅葬於此，因建寺墓左，以奉歲祀，賜
+<lb ed="GA" n="0145a08"/>名華藏。褒忠顯親禪寺，至今其地，因以華藏名。</p></cb:div>
+<lb ed="GA" n="0145a09"/><cb:div type="other"><cb:mulu type="其他" level="3">翠微寺</cb:mulu><head>翠微寺</head><p xml:id="pGA053p0145a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣西安陽山，梁中書舍人陸舉故宅，太
+<lb ed="GA" n="0145a10"/>清初為遠山寺，宋太平興國賜今額。</p></cb:div>
+<lb ed="GA" n="0145a11"/><cb:div type="other"><cb:mulu type="其他" level="3">誌公寺</cb:mulu><head>誌公寺</head><p xml:id="pGA053p0145a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣西北四十五里青城鄉誌公禪師，嘗
+<pb ed="GA" xml:id="GA053.0057.0146a" n="0146a"/>
+<lb ed="GA" n="0146a01"/>居其地故名。宋建<g ref="#CB34804"/>二年僧曇顯建。</p></cb:div>
+<lb ed="GA" n="0146a02"/><cb:div type="other"><cb:mulu type="其他" level="3">南禪寺</cb:mulu><head>南禪寺</head><p xml:id="pGA053p0146a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣，望湖門外，梁太清初建。</p></cb:div>
+<lb ed="GA" n="0146a03"/><cb:div type="other"><cb:mulu type="其他" level="3">保安寺</cb:mulu><head>保安寺</head><p xml:id="pGA053p0146a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣城北五里景雲鄉創建於梁大同初
+<lb ed="GA" n="0146a04"/>宋紹興中，重建乾道中賜額為保安禪院。</p></cb:div>
+<lb ed="GA" n="0146a05"/><cb:div type="other"><cb:mulu type="其他" level="3">成性寺</cb:mulu><head>成性寺</head><p xml:id="pGA053p0146a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣西南開化鄉軍帳山傍有龍湫，舊名
+<lb ed="GA" n="0146a06"/>龍祠菴，宋淳熙中建。</p></cb:div>
+<lb ed="GA" n="0146a07"/><cb:div type="other"><cb:mulu type="其他" level="3">長泰寺</cb:mulu><head>長泰寺</head><p xml:id="pGA053p0146a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣西南長泰山梁大同元年建。</p></cb:div>
+<lb ed="GA" n="0146a08"/><cb:div type="other"><cb:mulu type="其他" level="3">方湖寺</cb:mulu><head>方湖寺</head><p xml:id="pGA053p0146a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣開化鄉，宋紹興初建。</p></cb:div>
+<lb ed="GA" n="0146a09"/><cb:div type="other"><cb:mulu type="其他" level="3">祗陀寺</cb:mulu><head>祗陀寺</head><p xml:id="pGA053p0146a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在元錫縣東梅里鄉，梁大同二年，邑人王建施
+<lb ed="GA" n="0146a10"/>宅為寺。</p></cb:div>
+<lb ed="GA" n="0146a11"/><cb:div type="other"><cb:mulu type="其他" level="3">膠山寺</cb:mulu><head>膠山寺</head><p xml:id="pGA053p0146a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣東膠山之西，梁太清初，蕭侍郎施宅
+<pb ed="GA" xml:id="GA053.0057.0147a" n="0147a"/>
+<lb ed="GA" n="0147a01"/>建，宋建<g ref="#CB34804"/>間，李綱請奉先祀，改崇親報德禪院。</p></cb:div>
+<lb ed="GA" n="0147a02"/><cb:div type="other"><cb:mulu type="其他" level="3">靜教寺</cb:mulu><head>靜教寺</head><p xml:id="pGA053p0147a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣東上舍，亦名上舍寺。陳至德元年建，
+<lb ed="GA" n="0147a03"/>初名善寂，宋太平興國五年賜今額。</p></cb:div>
+<lb ed="GA" n="0147a04"/><cb:div type="other"><cb:mulu type="其他" level="3">香山寺</cb:mulu><head>香山寺</head><p xml:id="pGA053p0147a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣東六十五里香山，一名顧山，亦名顧
+<lb ed="GA" n="0147a05"/>山寺，梁大同中建。</p></cb:div>
+<lb ed="GA" n="0147a06"/><cb:div type="other"><cb:mulu type="其他" level="3">嵩山寺</cb:mulu><head>嵩山寺</head><p xml:id="pGA053p0147a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣東嵩山，元至正中建，明宣德八年賜
+<lb ed="GA" n="0147a07"/>今額。</p></cb:div>
+<lb ed="GA" n="0147a08"/><cb:div type="other"><cb:mulu type="其他" level="3">圓通寺</cb:mulu><head>圓通寺</head><p xml:id="pGA053p0147a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣延祥鄉。唐乾元初建，本名乾元，宋景
+<lb ed="GA" n="0147a09"/>祐賜今額。</p></cb:div>
+<lb ed="GA" n="0147a10"/><cb:div type="other"><cb:mulu type="其他" level="3">甘露寺</cb:mulu><head>甘露寺</head><p xml:id="pGA053p0147a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣東七十里甘露市，唐乾符中建。</p></cb:div>
+<lb ed="GA" n="0147a11"/><cb:div type="other"><cb:mulu type="其他" level="3">崇先寺</cb:mulu><head>崇先寺</head><p xml:id="pGA053p0147a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣東泰伯鄉，宋紹興五年建。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0148a" n="0148a"/>
+<lb ed="GA" n="0148a01"/><cb:div type="other"><cb:mulu type="其他" level="3">泗州寺</cb:mulu><head>泗州寺</head><p xml:id="pGA053p0148a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在泰伯鄉，宋嘉定中建。</p></cb:div>
+<lb ed="GA" n="0148a02"/><cb:div type="other"><cb:mulu type="其他" level="3">報福寺</cb:mulu><head>報福寺</head><p xml:id="pGA053p0148a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣垂慶鄉，胡堰宋建<g ref="#CB34804"/>中建。</p></cb:div>
+<lb ed="GA" n="0148a03"/><cb:div type="other"><cb:mulu type="其他" level="3">保寧寺</cb:mulu><head>保寧寺</head><p xml:id="pGA053p0148a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣北興寧鄉，梁大同中建。</p></cb:div>
+<lb ed="GA" n="0148a04"/><cb:div type="other"><cb:mulu type="其他" level="3">開利寺</cb:mulu><head>開利寺</head><p xml:id="pGA053p0148a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣北洛社<reg>鎮</reg>，梁太清初建，始名興福，宋
+<lb ed="GA" n="0148a05"/>景祐三年賜今額。</p></cb:div>
+<lb ed="GA" n="0148a06"/><cb:div type="other"><cb:mulu type="其他" level="3">乾明廣福寺</cb:mulu><head>乾明廣福寺</head><p xml:id="pGA053p0148a0606" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣，初本二院。一唐乾貞時邑人周
+<lb ed="GA" n="0148a07"/>奉思捨宅建，名崇聖宋，太平興國賜額乾明。一至和中
+<lb ed="GA" n="0148a08"/>邑人孫諫捨宅建，名華藏，治平中賜名壽聖。紹興中避
+<lb ed="GA" n="0148a09"/>高宗號改廣福。乾道九年，知軍嚴煥請於朝，始併為一
+<lb ed="GA" n="0148a10"/>寺。殿閣崇嚴，為諸山領袖。</p></cb:div>
+<lb ed="GA" n="0148a11"/><cb:div type="other"><cb:mulu type="其他" level="3">報恩光孝寺</cb:mulu><head>報恩光孝寺</head><p xml:id="pGA053p0148a1106" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣君山麓，唐天祐時，知縣張可琮
+<pb ed="GA" xml:id="GA053.0057.0149a" n="0149a"/>
+<lb ed="GA" n="0149a01"/>建名永壽宋紹興間，為高宗追福之地，賜今額。</p></cb:div>
+<lb ed="GA" n="0149a02"/><cb:div type="other"><cb:mulu type="其他" level="3">香山觀音寺</cb:mulu><head>香山觀音寺</head><p xml:id="pGA053p0149a0206" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣顧山麓，宋建<g ref="#CB34804"/>初建為顧山菴。
+<lb ed="GA" n="0149a03"/>元季廢明洪武三年重建。天順三年賜今額。</p></cb:div>
+<lb ed="GA" n="0149a04"/><cb:div type="other"><cb:mulu type="其他" level="3">迎福寺</cb:mulu><head>迎福寺</head><p xml:id="pGA053p0149a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣南街唐天祐中，邑人陶靜捨宅建。</p></cb:div>
+<lb ed="GA" n="0149a05"/><cb:div type="other"><cb:mulu type="其他" level="3">太平興國寺</cb:mulu><head>太平興國寺</head><p xml:id="pGA053p0149a0506" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣南街宋太平興國中建，遂名之。</p></cb:div>
+<lb ed="GA" n="0149a06"/><cb:div type="other"><cb:mulu type="其他" level="3">禪鄉寺</cb:mulu><head>禪鄉寺</head><p xml:id="pGA053p0149a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣利城宋黃門侍郎蕭惠開建。</p></cb:div>
+<lb ed="GA" n="0149a07"/><cb:div type="other"><cb:mulu type="其他" level="3">太清寺</cb:mulu><head>太清寺</head><p xml:id="pGA053p0149a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣砂山麓，唐天祐中建宋景德間，賜額
+<lb ed="GA" n="0149a08"/>景德院。元至正間，改太清寺。</p></cb:div>
+<lb ed="GA" n="0149a09"/><cb:div type="other"><cb:mulu type="其他" level="3">祥符寺</cb:mulu><head>祥符寺</head><p xml:id="pGA053p0149a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣，治東北隅，本古永安院晉庾冰宅也。
+<lb ed="GA" n="0149a10"/>宋祥符中改今名。</p></cb:div>
+<lb ed="GA" n="0149a11"/><cb:div type="other"><cb:mulu type="其他" level="3">悟空寺</cb:mulu><head>悟空寺</head><p xml:id="pGA053p0149a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣金鳳鄉，隋林王氏捨宅建。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0150a" n="0150a"/>
+<lb ed="GA" n="0150a01"/><cb:div type="other"><cb:mulu type="其他" level="3">報恩寺</cb:mulu><head>報恩寺</head><p xml:id="pGA053p0150a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣，後梅<reg>鎮</reg>宋，淳熙四年建有塔。</p></cb:div>
+<lb ed="GA" n="0150a02"/><cb:div type="other"><cb:mulu type="其他" level="3">永安寺</cb:mulu><head>永安寺</head><p xml:id="pGA053p0150a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣夏港市，西宋咸淳間，徐統制捨地建。</p></cb:div>
+<lb ed="GA" n="0150a03"/><cb:div type="other"><cb:mulu type="其他" level="3">永壽寺</cb:mulu><head>永壽寺</head><p xml:id="pGA053p0150a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣楊舍，宋靖康元年建。</p></cb:div>
+<lb ed="GA" n="0150a04"/><cb:div type="other"><cb:mulu type="其他" level="3">禮敬寺</cb:mulu><head>禮敬寺</head><p xml:id="pGA053p0150a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣寶池鄉宋乾道間建元季廢明洪武
+<lb ed="GA" n="0150a05"/>元年重建。</p></cb:div>
+<lb ed="GA" n="0150a06"/><cb:div type="other"><cb:mulu type="其他" level="3">法藏寺</cb:mulu><head>法藏寺</head><p xml:id="pGA053p0150a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西南隅，舊在縣西談村蕭齊時建名
+<lb ed="GA" n="0150a07"/>重居唐上元二年，移建於縣南二里，宋大中祥符間，賜
+<lb ed="GA" n="0150a08"/>今額。</p></cb:div>
+<lb ed="GA" n="0150a09"/><cb:div type="other"><cb:mulu type="其他" level="3">善權寺</cb:mulu><head>善權寺</head><p xml:id="pGA053p0150a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">宋名廣教禪院在宜興縣西南五十里永豐區。
+<lb ed="GA" n="0150a10"/>齊建元二年，以祝英臺故宅創建明，改為善權寺。寺有
+<lb ed="GA" n="0150a11"/>三生堂，乃唐司空李蠙、宋宰相、李綱學士李曾<unclear></unclear>祠北
+<pb ed="GA" xml:id="GA053.0057.0151a" n="0151a"/>
+<lb ed="GA" n="0151a01"/>聯云：一姓轉身三宰相，三生造寺、一因緣。</p></cb:div>
+<lb ed="GA" n="0151a02"/><cb:div type="other"><cb:mulu type="其他" level="3">大蘆寺</cb:mulu><head>大蘆寺</head><p xml:id="pGA053p0151a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西南橫山山亭區，唐咸通二年里人
+<lb ed="GA" n="0151a03"/>張氏，捨宅建舊在山麓，宋至和間徙今地。</p></cb:div>
+<lb ed="GA" n="0151a04"/><cb:div type="other"><cb:mulu type="其他" level="3">李山寺</cb:mulu><head>李山寺</head><p xml:id="pGA053p0151a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣東北三十五里洞山鄉，梁普通二年
+<lb ed="GA" n="0151a05"/>建。</p></cb:div>
+<lb ed="GA" n="0151a06"/><cb:div type="other"><cb:mulu type="其他" level="3">南嶽寺</cb:mulu><head>南嶽寺</head><p xml:id="pGA053p0151a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西南十里南嶽山齊永明二年建唐
+<lb ed="GA" n="0151a07"/>天寶中稠錫禪師道塲，有洗腸池。卓錫泉，天然井，有吳
+<lb ed="GA" n="0151a08"/>越金書法華經二帙藏於寺宋改勝果禪院，明洪武二
+<lb ed="GA" n="0151a09"/>十四年改今額。</p></cb:div>
+<lb ed="GA" n="0151a10"/><cb:div type="other"><cb:mulu type="其他" level="3">福聖寺</cb:mulu><head>福聖寺</head><p xml:id="pGA053p0151a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣東北二十五里開寶區，梁大同元年，
+<lb ed="GA" n="0151a11"/>交州刺史楊師利捨宅建陳，永定易名，安國明改今名。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0152a" n="0152a"/>
+<lb ed="GA" n="0152a01"/><cb:div type="other"><cb:mulu type="其他" level="3">利益寺</cb:mulu><head>利益寺</head><p xml:id="pGA053p0152a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">俗名鍾離寺，在宜興縣西五十里神安區，梁天
+<lb ed="GA" n="0152a02"/>監十年建。</p></cb:div>
+<lb ed="GA" n="0152a03"/><cb:div type="other"><cb:mulu type="其他" level="3">復隆寺</cb:mulu><head>復隆寺</head><p xml:id="pGA053p0152a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西南五十里永豐區齊永明二年建。</p></cb:div>
+<lb ed="GA" n="0152a04"/><cb:div type="other"><cb:mulu type="其他" level="3">慧光寺</cb:mulu><head>慧光寺</head><p xml:id="pGA053p0152a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西五十里，從善區本臨津縣濟明寺，
+<lb ed="GA" n="0152a05"/>唐武德八年縣廢寺亦燬上元元年移建今地天寶中
+<lb ed="GA" n="0152a06"/>更名圓照。明洪武二十四年改今名。</p></cb:div>
+<lb ed="GA" n="0152a07"/><cb:div type="other"><cb:mulu type="其他" level="3">金明寺</cb:mulu><head>金明寺</head><p xml:id="pGA053p0152a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣北三十里萬二區，隋開皇十年建名
+<lb ed="GA" n="0152a08"/>西域寺。宋大中祥符元年改今額。</p></cb:div>
+<lb ed="GA" n="0152a09"/><cb:div type="other"><cb:mulu type="其他" level="3">芙蓉寺</cb:mulu><head>芙蓉寺</head><p xml:id="pGA053p0152a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西南四十里山亭區芙蓉山唐乾元
+<lb ed="GA" n="0152a10"/>初建寺有三到亭，昔大毓禪師駐錫於此，與龎居士問
+<lb ed="GA" n="0152a11"/>答。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0153a" n="0153a"/>
+<lb ed="GA" n="0153a01"/><cb:div type="other"><cb:mulu type="其他" level="3">金沙寺</cb:mulu><head>金沙寺</head><p xml:id="pGA053p0153a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣東南四十里<unclear></unclear>山區<unclear></unclear>希聲讀書，山
+<lb ed="GA" n="0153a02"/>房<reg>即</reg>此。</p></cb:div>
+<lb ed="GA" n="0153a03"/><cb:div type="other"><cb:mulu type="其他" level="3">普門寺</cb:mulu><head>普門寺</head><p xml:id="pGA053p0153a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西百里清西區洮湖中大坯山上唐
+<lb ed="GA" n="0153a04"/>元和五年建。</p></cb:div>
+<lb ed="GA" n="0153a05"/><cb:div type="other"><cb:mulu type="其他" level="3">慧明寺</cb:mulu><head>慧明寺</head><p xml:id="pGA053p0153a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西北九十里清溪區，臨洮湖唐上元
+<lb ed="GA" n="0153a06"/>二年，建名淨土，宋改今額。</p></cb:div>
+<lb ed="GA" n="0153a07"/><cb:div type="other"><cb:mulu type="其他" level="3">保安寺</cb:mulu><head>保安寺</head><p xml:id="pGA053p0153a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣東北二十里開寶區，保安山南麓陳
+<lb ed="GA" n="0153a08"/>永定二年建。</p></cb:div>
+<lb ed="GA" n="0153a09"/><cb:div type="other"><cb:mulu type="其他" level="3">顯德寺</cb:mulu><head>顯德寺</head><p xml:id="pGA053p0153a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西南六十里，從三區唐上元二年建。</p></cb:div>
+<lb ed="GA" n="0153a10"/><cb:div type="other"><cb:mulu type="其他" level="3">崇慶寺</cb:mulu><head>崇慶寺</head><p xml:id="pGA053p0153a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣北五十里萬二區，梁普通二年建名
+<lb ed="GA" n="0153a11"/>養安，宋治平三年，改今額。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0154a" n="0154a"/>
+<lb ed="GA" n="0154a01"/><cb:div type="other"><cb:mulu type="其他" level="3">法性寺</cb:mulu><head>法性寺</head><p xml:id="pGA053p0154a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣北五十里萬一區，梁普通二年建。</p></cb:div>
+<lb ed="GA" n="0154a02"/><cb:div type="other"><cb:mulu type="其他" level="3">開勝寺</cb:mulu><head>開勝寺</head><p xml:id="pGA053p0154a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西南五十里，從二區胥堂村、唐上元
+<lb ed="GA" n="0154a03"/>二年建。</p></cb:div>
+<lb ed="GA" n="0154a04"/><cb:div type="other"><cb:mulu type="其他" level="3">大潮福源寺</cb:mulu><head>大潮福源寺</head><p xml:id="pGA053p0154a0406" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣東南五十里均山區明，永樂初
+<lb ed="GA" n="0154a05"/>修，撰吳成學，不肯歸附，逃至宜興。沈榮留匿於家。後削
+<lb ed="GA" n="0154a06"/>髮為僧，號雪菴。榮為築室於山，名大潮菴。正統十二年，
+<lb ed="GA" n="0154a07"/>僧道性重建，奏請以廢寺福源舊額，移入本菴為大潮
+<lb ed="GA" n="0154a08"/>福源禪寺胡濚作記。</p></cb:div>
+<lb ed="GA" n="0154a09"/><cb:div type="other"><cb:mulu type="其他" level="3">顯親追孝禪寺</cb:mulu><head>顯親追孝禪寺</head><p xml:id="pGA053p0154a0907" style="margin-left:0em;text-indent:2em;" cb:place="inline">舊在法藏寺東宋建中靖國元年，蔣樞
+<lb ed="GA" n="0154a10"/>密之奇，請為墳剎，賜今額明洪武初僧成大移建今地。</p></cb:div>
+<lb ed="GA" n="0154a11"/><cb:div type="other"><cb:mulu type="其他" level="3">靜樂寺</cb:mulu><head>靜樂寺</head><p xml:id="pGA053p0154a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西南三十里銅官山側，唐乾元初建。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0155a" n="0155a"/>
+<lb ed="GA" n="0155a01"/><cb:div type="other"><cb:mulu type="其他" level="3">碧雲寺</cb:mulu><head>碧雲寺</head><p xml:id="pGA053p0155a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西南六十里金泉區烟山，宋嘉泰十
+<lb ed="GA" n="0155a02"/>四年建。</p></cb:div>
+<lb ed="GA" n="0155a03"/><cb:div type="other"><cb:mulu type="其他" level="3">棲雲寺</cb:mulu><head>棲雲寺</head><p xml:id="pGA053p0155a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西南六十里永豐區，烟山宋紹興間，
+<lb ed="GA" n="0155a04"/>樞密王淵建。</p></cb:div>
+<lb ed="GA" n="0155a05"/><cb:div type="other"><cb:mulu type="其他" level="3">衍慶寺</cb:mulu><head>衍慶寺</head><p xml:id="pGA053p0155a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">舊名邵塢菴，在宜興縣西南三十里，從一區。宋
+<lb ed="GA" n="0155a06"/>乾道二年建明天順二年賜寺額。</p></cb:div>
+<lb ed="GA" n="0155a07"/><cb:div type="other"><cb:mulu type="其他" level="3">彰善寺</cb:mulu><head>彰善寺</head><p xml:id="pGA053p0155a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣東北三十里，周孝侯故居旁。宋樞密、
+<lb ed="GA" n="0155a08"/>郭三益，捨宅建。</p></cb:div>
+<lb ed="GA" n="0155a09"/><cb:div type="other"><cb:mulu type="其他" level="3">海會寺</cb:mulu><head>海會寺</head><p xml:id="pGA053p0155a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在荊溪縣均山區。
+<lb ed="GA" n="0155a10"/>國朝康熙十六年
+<lb ed="GA" n="0155a11"/>勅建天隱修祖塔。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0156a" n="0156a"/>
+<lb ed="GA" n="0156a01"/><cb:div type="other"><cb:mulu type="其他" level="3">龍山寺</cb:mulu><head>龍山寺</head><p xml:id="pGA053p0156a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在荊溪縣
+<lb ed="GA" n="0156a02"/>國朝康熙四十四年
+<lb ed="GA" n="0156a03"/>勅賜娛慧寺額。</p></cb:div>
+<lb ed="GA" n="0156a04"/><cb:div type="other"><cb:mulu type="其他" level="3">龍池寺</cb:mulu><head>龍池寺</head><p xml:id="pGA053p0156a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在荊溪縣。康熙四十六年，
+<lb ed="GA" n="0156a05"/>勅賜澄光寺額。康熙五十二年，
+<lb ed="GA" n="0156a06"/>御書法門領袖四字額。</p></cb:div>
+<lb ed="GA" n="0156a07"/><cb:div type="other"><cb:mulu type="其他" level="3">磬山寺</cb:mulu><head>磬山寺</head><p xml:id="pGA053p0156a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在荊溪縣均山區，雍正三年，
+<lb ed="GA" n="0156a08"/>勅賜弘闡法印四字額。</p></cb:div>
+<lb ed="GA" n="0156a09"/><cb:div type="other"><cb:mulu type="其他" level="3">崇聖寺</cb:mulu><head>崇聖寺</head><p xml:id="pGA053p0156a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">舊在靖江縣城西南十七里，宋淳熙二年建明
+<lb ed="GA" n="0156a10"/>成化八年建縣十年令張汝華，遂遷寺於縣城東門內，
+<lb ed="GA" n="0156a11"/>為習儀祝釐之所。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0157a" n="0157a"/>
+<lb ed="GA" n="0157a01"/><cb:div type="other"><cb:mulu type="其他" level="3">東塔寺</cb:mulu><head>東塔寺</head><p xml:id="pGA053p0157a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在靖江縣東門外明萬，歷二十三年知縣朱邦
+<lb ed="GA" n="0157a02"/>憲建。</p></cb:div>
+<lb ed="GA" n="0157a03"/><cb:div type="other"><cb:mulu type="其他" level="3">孤山寺</cb:mulu><head>孤山寺</head><p xml:id="pGA053p0157a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在靖江縣東北十里，靖未置縣，時已有寺，未詳
+<lb ed="GA" n="0157a04"/>其所始。</p></cb:div>
+<lb ed="GA" n="0157a05"/><cb:div type="other"><cb:mulu type="其他" level="3">玉隆觀</cb:mulu><head>玉隆觀</head><p xml:id="pGA053p0157a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在玉隆觀巷內，宋嘉熙間尚書錢相建。</p></cb:div>
+<lb ed="GA" n="0157a06"/><cb:div type="other"><cb:mulu type="其他" level="3">元妙觀</cb:mulu><head>元妙觀</head><p xml:id="pGA053p0157a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東南。晉永嘉初，毛中尉捨宅，建淮南順義
+<lb ed="GA" n="0157a07"/>中，築外子城，徙今地。</p></cb:div>
+<lb ed="GA" n="0157a08"/><cb:div type="other"><cb:mulu type="其他" level="3">含輝觀</cb:mulu><head>含輝觀</head><p xml:id="pGA053p0157a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府西北七十里唐建名景星觀，宋大中祥符
+<lb ed="GA" n="0157a09"/>二年改賜今額。</p></cb:div>
+<lb ed="GA" n="0157a10"/><cb:div type="other"><cb:mulu type="其他" level="3">太和觀</cb:mulu><head>太和觀</head><p xml:id="pGA053p0157a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在後餘梁朝始創按唐碑，又為漢張<reg>真</reg>人道塲。
+<lb ed="GA" n="0157a11"/>歲久廢，唐貞觀中於舊址北重建。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0158a" n="0158a"/>
+<lb ed="GA" n="0158a01"/><cb:div type="other"><cb:mulu type="其他" level="3">明陽觀</cb:mulu><head>明陽觀</head><p xml:id="pGA053p0158a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣西七里宋盧<reg>真</reg>人，至柔建，謂<reg>即</reg>古洞
+<lb ed="GA" n="0158a02"/>陽觀地也。大觀元年賜今額觀門之右，有泉名泂酌，深
+<lb ed="GA" n="0158a03"/>不盈丈，而味亞二泉。</p></cb:div>
+<lb ed="GA" n="0158a04"/><cb:div type="other"><cb:mulu type="其他" level="3">元妙觀</cb:mulu><head>元妙觀</head><p xml:id="pGA053p0158a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣治南天慶門內。宋祥符二年，詔建額
+<lb ed="GA" n="0158a05"/>曰：天慶，先是元年正月三日天書降詔，天下建天慶觀
+<lb ed="GA" n="0158a06"/>元元貞元年改元妙。</p></cb:div>
+<lb ed="GA" n="0158a07"/><cb:div type="other"><cb:mulu type="其他" level="3">天壽觀</cb:mulu><head>天壽觀</head><p xml:id="pGA053p0158a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣南街南宋末翰林陳錡故宅。</p></cb:div>
+<lb ed="GA" n="0158a08"/><cb:div type="other"><cb:mulu type="其他" level="3">通真觀</cb:mulu><head>通<reg>真</reg>觀</head><p xml:id="pGA053p0158a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣東南隅，陳太建二年建名宏道，宋大
+<lb ed="GA" n="0158a09"/>中祥符二年賜額。元通避國諱，改今名，有北極閣。南唐
+<lb ed="GA" n="0158a10"/>保大中建徐鍇為記兄鉉篆額。</p></cb:div>
+<lb ed="GA" n="0158a11"/><cb:div type="other"><cb:mulu type="其他" level="3">冲寂觀</cb:mulu><head>冲寂觀</head><p xml:id="pGA053p0158a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西五十里，神安區官村。唐弘道元年，
+<pb ed="GA" xml:id="GA053.0057.0159a" n="0159a"/>
+<lb ed="GA" n="0159a01"/>周選捨宅為觀，名凌霞。宋祥符元年改元寂八年，避國
+<lb ed="GA" n="0159a02"/>諱，改今名。初南唐時，有道士許堅來遊，題詩於壁浴滆
+<lb ed="GA" n="0159a03"/>湖，凌波而去。進士薛舉撰記俗傳，選因宅井，有白兔升
+<lb ed="GA" n="0159a04"/>大，遂捨宅為觀。</p></cb:div>
+<lb ed="GA" n="0159a05"/><cb:div type="other"><cb:mulu type="其他" level="3">洞靈觀</cb:mulu><head>洞靈觀</head><p xml:id="pGA053p0159a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">今名天申宮，在宜興縣南四十里均山區。張公
+<lb ed="GA" n="0159a06"/>洞前吳赤烏年間建初為佛寺。唐開元元年，復為觀元
+<lb ed="GA" n="0159a07"/>宗御賜題額許用晦丁卯集有詠洞靈觀冬青樹詩。</p></cb:div>
+<lb ed="GA" n="0159a08"/><cb:div type="other"><cb:mulu type="其他" level="3">元真觀</cb:mulu><head>元<reg>真</reg>觀</head><p xml:id="pGA053p0159a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline"><reg>即</reg>紫微宮。舊志云：赤烏元年建。</p></cb:div>
+<lb ed="GA" n="0159a09"/><cb:div type="other"><cb:mulu type="其他" level="3">蓼莪菴</cb:mulu><head>蓼莪菴</head><p xml:id="pGA053p0159a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在王婆嶺南相傳孝子王裒墓在焉。</p></cb:div>
+<lb ed="GA" n="0159a10"/><cb:div type="other"><cb:mulu type="其他" level="3">棲雲菴</cb:mulu><head>棲雲菴</head><p xml:id="pGA053p0159a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在檀溪灣，宋寶慶元年建。</p></cb:div>
+<lb ed="GA" n="0159a11"/><cb:div type="other"><cb:mulu type="其他" level="3">全真菴</cb:mulu><head>全<reg>真</reg>菴</head><p xml:id="pGA053p0159a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在新坊橋東南明洪武二年知縣舒裕建祀，張
+<pb ed="GA" xml:id="GA053.0057.0160a" n="0160a"/>
+<lb ed="GA" n="0160a01"/>平叔一名紫陽觀。</p></cb:div>
+<lb ed="GA" n="0160a02"/><cb:div type="other"><cb:mulu type="其他" level="3">東林菴</cb:mulu><head>東林菴</head><p xml:id="pGA053p0160a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣城東隅箬葉巷元至正十年建明。洪
+<lb ed="GA" n="0160a03"/>武初，邑人朱子華施地以廣之，成化萬歷，相繼重修。初
+<lb ed="GA" n="0160a04"/>宋楊時講學地，故名東林。邵寶嘗作書院於泰伯瀆之
+<lb ed="GA" n="0160a05"/>上，而或以此地為是。於是知縣鄭普遂作文靖木主祀
+<lb ed="GA" n="0160a06"/>之菴中後始遷之崇正書院，及顧憲成高，攀龍創復，東
+<lb ed="GA" n="0160a07"/>林乃為道南之祠以祀焉，今在菴之南。</p></cb:div>
+<lb ed="GA" n="0160a08"/><cb:div type="other"><cb:mulu type="其他" level="3">聽松菴</cb:mulu><head>聽松菴</head><p xml:id="pGA053p0160a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在惠山寺左桃花塢下，明洪武七年僧普<reg>真</reg>，<reg>即</reg>
+<lb ed="GA" n="0160a09"/>繡嶺亭，故地為菴而植萬松，其中因以為名。有秋濤軒
+<lb ed="GA" n="0160a10"/>王紱畫廬山，景於其壁，秋聲小閣，以貯竹茶爐，皆為時
+<lb ed="GA" n="0160a11"/>名蹟。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0161a" n="0161a"/>
+<lb ed="GA" n="0161a01"/><cb:div type="other"><cb:mulu type="其他" level="3">禪悅菴</cb:mulu><head>禪悅菴</head><p xml:id="pGA053p0161a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在惠山寺右錫山之南，宋咸淳中建。</p></cb:div>
+<lb ed="GA" n="0161a02"/><cb:div type="other"><cb:mulu type="其他" level="3">金鷲菴</cb:mulu><head>金鷲菴</head><p xml:id="pGA053p0161a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣靖海門外，梁大同中建相傳上梁時
+<lb ed="GA" n="0161a03"/>有金色烏來集，故名宋寶慶間。僧法昌掘地得泉，以施
+<lb ed="GA" n="0161a04"/>行人，亦名施水院。去城九里，今又稱九里菴。</p></cb:div>
+<lb ed="GA" n="0161a05"/><cb:div type="other"><cb:mulu type="其他" level="3">前湯菴</cb:mulu><head>前湯菴</head><p xml:id="pGA053p0161a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣北天授鄉前湯，其地名也，亦名普濟
+<lb ed="GA" n="0161a06"/>菴。宋德祐元年，元兵陷常州，邑人陳通判炤巷，戰死之，
+<lb ed="GA" n="0161a07"/>以宅構菴。</p></cb:div>
+<lb ed="GA" n="0161a08"/><cb:div type="other"><cb:mulu type="其他" level="3">崇慶菴</cb:mulu><head>崇慶菴</head><p xml:id="pGA053p0161a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣東北西高山吳赤烏二年建。</p></cb:div>
+<lb ed="GA" n="0161a09"/><cb:div type="other"><cb:mulu type="其他" level="3">飛錫菴</cb:mulu><head>飛錫菴</head><p xml:id="pGA053p0161a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣定山，唐貞觀中建法響禪師，駐錫處
+<lb ed="GA" n="0161a10"/>虎，跑泉在焉。</p></cb:div>
+<lb ed="GA" n="0161a11"/><cb:div type="other"><cb:mulu type="其他" level="3">福泉菴</cb:mulu><head>福泉菴</head><p xml:id="pGA053p0161a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西南八十里永豐區。鳳飛嶺，晉義興
+<pb ed="GA" xml:id="GA053.0057.0162a" n="0162a"/>
+<lb ed="GA" n="0162a01"/>守劉超建為墳剎。</p></cb:div>
+<lb ed="GA" n="0162a02"/><cb:div type="other"><cb:mulu type="其他" level="3">般若菴</cb:mulu><head>般若菴</head><p xml:id="pGA053p0162a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西二十里成任區亳村吳赤烏間建
+<lb ed="GA" n="0162a03"/>明時火燬，移建本村東南。</p></cb:div>
+<lb ed="GA" n="0162a04"/><cb:div type="other"><cb:mulu type="其他" level="3">公文菴</cb:mulu><head>公文菴</head><p xml:id="pGA053p0162a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西北十五里公文村湛瀆，官河之內。
+<lb ed="GA" n="0162a05"/>宋咸淳二年建明嘉靖間，重修武進。唐順之，與門人王
+<lb ed="GA" n="0162a06"/>升軰講學於此，因改公為工邑人萬士和記。</p></cb:div>
+<lb ed="GA" n="0162a07"/><cb:div type="other"><cb:mulu type="其他" level="3">香界寺</cb:mulu><head>香界寺</head><p xml:id="pGA053p0162a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在荊溪縣清泉區，舊名昌福菴。
+<lb ed="GA" n="0162a08"/>國朝康熙四十四年
+<lb ed="GA" n="0162a09"/>勅賜香界寺三字額。</p></cb:div>
+<lb ed="GA" n="0162a10"/><cb:div type="other"><cb:mulu type="其他" level="3">洞虛宮</cb:mulu><head>洞虛宮</head><p xml:id="pGA053p0162a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣，治崇安寺之左，舊在膠山，梁大同二
+<lb ed="GA" n="0162a11"/>年建，始名青元宮，後廢徙今地宋大中祥符間，改賜今
+<pb ed="GA" xml:id="GA053.0057.0163a" n="0163a"/>
+<lb ed="GA" n="0163a01"/>額。</p></cb:div>
+<lb ed="GA" n="0163a02"/><cb:div type="other"><cb:mulu type="其他" level="3">圓元萬壽宮</cb:mulu><head>圓元萬壽宮</head><p xml:id="pGA053p0163a0206" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣第六箭河元倪昭奎建昭奎高
+<lb ed="GA" n="0163a03"/>士瓚之兄有詩名，去為黃冠。初祀老子於此名圖文館。
+<lb ed="GA" n="0163a04"/>元祐間，賜今額趙承旨孟頫書其碑昭奎後賜名圓中，
+<lb ed="GA" n="0163a05"/>文節貞白<reg>真</reg>人。晚自號圓中子。又嘗創清微精舍於錫
+<lb ed="GA" n="0163a06"/>山之陰，遏澗為水簾，潺湲之聲，日夜不絕。</p></cb:div>
+<lb ed="GA" n="0163a07"/><cb:div type="other"><cb:mulu type="其他" level="3">真武殿</cb:mulu><head><reg>真</reg>武殿</head><p xml:id="pGA053p0163a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在西高山吳赤烏中建。</p></cb:div>
+<lb ed="GA" n="0163a08"/><cb:div type="other"><cb:mulu type="其他" level="3">張公殿</cb:mulu><head>張公殿</head><p xml:id="pGA053p0163a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在靖江縣，蘇家港，水神也。邑東坍甚丞孫京令
+<lb ed="GA" n="0163a09"/>民迎神於浙之蕭山縣歸祀之數月後民見有神燈數
+<lb ed="GA" n="0163a10"/>百，蔽江而來，布滿於祠前江口。自此漸漲年餘，得平沙
+<lb ed="GA" n="0163a11"/>十餘里。邑西之民謀曰：神之靈如是哉！因夜徃迎神像
+<pb ed="GA" xml:id="GA053.0057.0164a" n="0164a"/>
+<lb ed="GA" n="0164a01"/>而祀之於西未幾，西亦漸漲。於是南北江口皆有張公
+<lb ed="GA" n="0164a02"/>殿。</p></cb:div>
+<lb ed="GA" n="0164a03"/><cb:div type="other"><cb:mulu type="其他" level="3">總觀音殿</cb:mulu><head>總觀音殿</head><p xml:id="pGA053p0164a0305" style="margin-left:0em;text-indent:2em;" cb:place="inline">舊志云：赤烏年間建。</p></cb:div>
+<lb ed="GA" n="0164a04"/><cb:div type="other"><cb:mulu type="其他" level="3">白雲禪院</cb:mulu><head>白雲禪院</head><p xml:id="pGA053p0164a0405" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府治東南，白雲渡口。</p></cb:div>
+<lb ed="GA" n="0164a05"/><cb:div type="other"><cb:mulu type="其他" level="3">紅塔禪院</cb:mulu><head>紅塔禪院</head><p xml:id="pGA053p0164a0505" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府青山門外二里山門題梁云：大唐某年
+<lb ed="GA" n="0164a06"/>建，字多漫滅，舊有浮屠建<g ref="#CB34804"/>間，撤去得斷碑云。熙寧元
+<lb ed="GA" n="0164a07"/>年九月重建。</p></cb:div>
+<lb ed="GA" n="0164a08"/><cb:div type="other"><cb:mulu type="其他" level="3">薦福院</cb:mulu><head>薦福院</head><p xml:id="pGA053p0164a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東南，楊吳時建。</p></cb:div>
+<lb ed="GA" n="0164a09"/><cb:div type="other"><cb:mulu type="其他" level="3">廣福院</cb:mulu><head>廣福院</head><p xml:id="pGA053p0164a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東，南唐天復中齊雲長老維亢建，名齊雲，
+<lb ed="GA" n="0164a10"/>南唐保大中改今名。</p></cb:div>
+<lb ed="GA" n="0164a11"/><cb:div type="other"><cb:mulu type="其他" level="3">慈福院</cb:mulu><head>慈福院</head><p xml:id="pGA053p0164a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">今俗名大劉寺，在府東南三十里，唐咸通中建
+<pb ed="GA" xml:id="GA053.0057.0165a" n="0165a"/>
+<lb ed="GA" n="0165a01"/>名永安，宋時改今名。</p></cb:div>
+<lb ed="GA" n="0165a02"/><cb:div type="other"><cb:mulu type="其他" level="3">拱真道院</cb:mulu><head>拱<reg>真</reg>道院</head><p xml:id="pGA053p0165a0205" style="margin-left:0em;text-indent:2em;" cb:place="inline">今名北<reg>真</reg>武廟，在鼎新坊。左元至元戊寅，郡
+<lb ed="GA" n="0165a03"/>人朱文卿捨宅建。</p></cb:div>
+<lb ed="GA" n="0165a04"/><cb:div type="other"><cb:mulu type="其他" level="3">雲居道院</cb:mulu><head>雲居道院</head><p xml:id="pGA053p0165a0405" style="margin-left:0em;text-indent:2em;" cb:place="inline">今名仙人菴，在西村山中。舊傳葛洪丹室也。
+<lb ed="GA" n="0165a05"/>太湖志云：洞庭有葛洪宅，嘗來此煉丹，其丹井猶存。</p></cb:div>
+<lb ed="GA" n="0165a06"/><cb:div type="other"><cb:mulu type="其他" level="3">興教禪院</cb:mulu><head>興教禪院</head><p xml:id="pGA053p0165a0605" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣東四十里，梁大同年建名施陀宋
+<lb ed="GA" n="0165a07"/>紹興初賜今額。</p></cb:div>
+<lb ed="GA" n="0165a08"/><cb:div type="other"><cb:mulu type="其他" level="3">希夷道院</cb:mulu><head>希夷道院</head><p xml:id="pGA053p0165a0805" style="margin-left:0em;text-indent:2em;" cb:place="inline">在無錫縣城東南隅弓河上，相傳陳博，過此
+<lb ed="GA" n="0165a09"/>因名。</p></cb:div>
+<lb ed="GA" n="0165a10"/><cb:div type="other"><cb:mulu type="其他" level="3">兜率院</cb:mulu><head>兜率院</head><p xml:id="pGA053p0165a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">舊為白龍寺，在江陰縣白龍山上有龍洞。唐乾
+<lb ed="GA" n="0165a11"/>符四年建宋，祥符二年改今額。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0166a" n="0166a"/>
+<lb ed="GA" n="0166a01"/><cb:div type="other"><cb:mulu type="其他" level="3">光嚴院</cb:mulu><head>光嚴院</head><p xml:id="pGA053p0166a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在江陰縣長壽鄉陳天嘉二年，于光捨宅建。</p></cb:div>
+<lb ed="GA" n="0166a02"/><cb:div type="other"><cb:mulu type="其他" level="3">演教禪院</cb:mulu><head>演教禪院</head><p xml:id="pGA053p0166a0205" style="margin-left:0em;text-indent:2em;" cb:place="inline">唐名感化院，在江陰縣軍城新津門東北唐
+<lb ed="GA" n="0166a03"/>天祐十二年，<reg>鎮</reg>遏使秦誠建元季廢明江陰侯吳良改
+<lb ed="GA" n="0166a04"/>建城隍廟。</p></cb:div>
+<lb ed="GA" n="0166a05"/><cb:div type="other"><cb:mulu type="其他" level="3">能仁院</cb:mulu><head>能仁院</head><p xml:id="pGA053p0166a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">唐為重光院，在江陰縣杜橋。東唐天祐中，縣令
+<lb ed="GA" n="0166a06"/>張蘊捨宅建政和六年，改今額。</p></cb:div>
+<lb ed="GA" n="0166a07"/><cb:div type="other"><cb:mulu type="其他" level="3">聖感禪院</cb:mulu><head>聖感禪院</head><p xml:id="pGA053p0166a0705" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣西北七十里函亭區。蕭齊永明元
+<lb ed="GA" n="0166a08"/>年建名香勝。宋太平興國五年，改今額。</p></cb:div>
+<lb ed="GA" n="0166a09"/><cb:div type="other"><cb:mulu type="其他" level="3">崇真道院</cb:mulu><head>崇<reg>真</reg>道院</head><p xml:id="pGA053p0166a0905" style="margin-left:0em;text-indent:2em;" cb:place="inline">在宜興縣東北四十五里洞山區，唐開元二
+<lb ed="GA" n="0166a10"/>年建。</p></cb:div>
+<lb ed="GA" n="0166a11"/><cb:div type="other"><cb:mulu type="其他" level="3">禹門興化禪院</cb:mulu><head>禹門興化禪院</head><p xml:id="pGA053p0166a1107" style="margin-left:0em;text-indent:2em;" cb:place="inline">在荊溪縣永豐區，龍池山上，宋咸淳間，
+<pb ed="GA" xml:id="GA053.0057.0167a" n="0167a"/>
+<lb ed="GA" n="0167a01"/>建有龍湫雞冠石，捨身石白雲巖。
+<lb ed="GA" n="0167a02"/>國朝康熙三十五年
+<lb ed="GA" n="0167a03"/>御書萬派，朝宗四字額。</p></cb:div>
+<lb ed="GA" n="0167a04"/><cb:div type="other"><cb:mulu type="其他" level="3">放生池</cb:mulu><head>放生池</head><p xml:id="pGA053p0167a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金匱縣景上區一都康熙三十八年
+<lb ed="GA" n="0167a05"/>御書慈雲寺三字額，又
+<lb ed="GA" n="0167a06"/>賜蘭若二字額。</p></cb:div>
+<lb ed="GA" n="0167a07"/><cb:div type="other"><cb:mulu type="其他" level="3">放生池</cb:mulu><head>放生池</head><p xml:id="pGA053p0167a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在荊溪縣。康熙四十六年，
+<lb ed="GA" n="0167a08"/>勅賜涵碧堂三字額。</p></cb:div></cb:div>
+<lb ed="GA" n="0167a09"/><cb:div type="other"><head><reg>鎮</reg><cb:mulu type="其他" level="2">鎮江府</cb:mulu>江府</head>
+<lb ed="GA" n="0167a10"/><cb:div type="other"><cb:mulu type="其他" level="3">金山江天寺</cb:mulu><head>金山江天寺</head><p xml:id="pGA053p0167a1006" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金山晉時建名澤心，宋時屢易名。自元
+<lb ed="GA" n="0167a11"/>以來，通謂金山寺山後有塔，絕頂為妙高臺，臺下為楞
+<pb ed="GA" xml:id="GA053.0057.0168a" n="0168a"/>
+<lb ed="GA" n="0168a01"/>伽室。宋蘇軾，嘗書楞嚴經於此，凡樓閣亭軒及菴堂之
+<lb ed="GA" n="0168a02"/>屬四十有四。
+<lb ed="GA" n="0168a03"/>國朝康熙二十三年，
+<lb ed="GA" n="0168a04"/>聖祖仁皇帝南巡，
+<lb ed="GA" n="0168a05"/>御書匾額凡五，曰「勅建江天寺」，曰「江天一覽」，曰「動靜萬古」，曰「禪
+<lb ed="GA" n="0168a06"/>棲」，曰「祗樹」。
+<lb ed="GA" n="0168a07"/>御製金山江天寺碑<note place="inline">恭紀首卷</note>、
+<lb ed="GA" n="0168a08"/>御製詩<note place="inline">恭紀首卷</note>。</p></cb:div>
+<lb ed="GA" n="0168a09"/><cb:div type="other"><cb:mulu type="其他" level="3">焦山定慧禪寺</cb:mulu><head>焦山定慧禪寺</head><p xml:id="pGA053p0168a0907" style="margin-left:0em;text-indent:2em;" cb:place="inline">在焦山創自漢興平間，名普濟寺，宋名
+<lb ed="GA" n="0168a10"/>普濟菴，元名焦山寺殿、西塔二樓臺亭閣。堂菴三十有
+<lb ed="GA" n="0168a11"/>四。康熙二十三年。
+<pb ed="GA" xml:id="GA053.0057.0169a" n="0169a"/>
+<lb ed="GA" n="0169a01"/>聖祖御書寺額，三曰勅，賜定慧禪寺曰法雲。慧日曰香林
+<lb ed="GA" n="0169a02"/>御製詩<note place="inline">恭紀首卷</note>。</p></cb:div>
+<lb ed="GA" n="0169a03"/><cb:div type="other"><cb:mulu type="其他" level="3">甘露寺</cb:mulu><head>甘露寺</head><p xml:id="pGA053p0169a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在北固山，吳主皓所，建時改元甘露，因名寺舊
+<lb ed="GA" n="0169a04"/>在山下。唐李德裕施州宅後地增拓之。宋祥符間，移山
+<lb ed="GA" n="0169a05"/>上。康熙中，
+<lb ed="GA" n="0169a06"/>聖祖御書，勅賜超岸寺及甘露門匾額。</p></cb:div>
+<lb ed="GA" n="0169a07"/><cb:div type="other"><cb:mulu type="其他" level="3">鶴林寺</cb:mulu><head>鶴林寺</head><p xml:id="pGA053p0169a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府黃鶴山下。晉大興四年，創名竹林，宋高祖
+<lb ed="GA" n="0169a08"/>微時嘗遊焉。及<reg>即</reg>位，改今名。康熙二十三年
+<lb ed="GA" n="0169a09"/>御書鶴林寺額。</p></cb:div>
+<lb ed="GA" n="0169a10"/><cb:div type="other"><cb:mulu type="其他" level="3">招隱寺</cb:mulu><head>招隱寺</head><p xml:id="pGA053p0169a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府城南七里招隱山，宋景平元年，創<reg>即</reg>戴顒
+<lb ed="GA" n="0169a11"/>隱居之地，梁昭明太子嘗讀書於此。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0170a" n="0170a"/>
+<lb ed="GA" n="0170a01"/><cb:div type="other"><cb:mulu type="其他" level="3">竹林寺</cb:mulu><head>竹林寺</head><p xml:id="pGA053p0170a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府城南六里創，自晉久廢，明季重修。
+<lb ed="GA" n="0170a02"/>國朝康熙二十三年，
+<lb ed="GA" n="0170a03"/>聖祖南巡，
+<lb ed="GA" n="0170a04"/>御書竹林寺額，及「巨竹」二字額，
+<lb ed="GA" n="0170a05"/>御製詩一首<note place="inline">恭紀首卷</note>。</p></cb:div>
+<lb ed="GA" n="0170a06"/><cb:div type="other"><cb:mulu type="其他" level="3">因勝寺</cb:mulu><head>因勝寺</head><p xml:id="pGA053p0170a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府城西二十五里，五州山梁武帝嘗遊此輦，
+<lb ed="GA" n="0170a07"/>道尚存。宋熙寧中為顯慈寺，元祐中為因勝報親院，後
+<lb ed="GA" n="0170a08"/>廢明萬歷間復建。</p></cb:div>
+<lb ed="GA" n="0170a09"/><cb:div type="other"><cb:mulu type="其他" level="3">善禧寺</cb:mulu><head>善禧寺</head><p xml:id="pGA053p0170a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府朝陽門外，隋開皇間，建名南山報恩寺，明
+<lb ed="GA" n="0170a10"/>景泰三年賜今額。</p></cb:div>
+<lb ed="GA" n="0170a11"/><cb:div type="other"><cb:mulu type="其他" level="3">萬壽寺</cb:mulu><head>萬壽寺</head><p xml:id="pGA053p0170a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府汝山麓，宋趙安撫故宅。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0171a" n="0171a"/>
+<lb ed="GA" n="0171a01"/><cb:div type="other"><cb:mulu type="其他" level="3">勝果寺</cb:mulu><head>勝果寺</head><p xml:id="pGA053p0171a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府虎踞門外。宋乾道中建高宗成肅皇后功
+<lb ed="GA" n="0171a02"/>德寺也，后父母墓在焉。</p></cb:div>
+<lb ed="GA" n="0171a03"/><cb:div type="other"><cb:mulu type="其他" level="3">登雲寺</cb:mulu><head>登雲寺</head><p xml:id="pGA053p0171a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府城西登雲門外，亦名福因。智果院唐貞觀
+<lb ed="GA" n="0171a04"/>間建。</p></cb:div>
+<lb ed="GA" n="0171a05"/><cb:div type="other"><cb:mulu type="其他" level="3">能仁寺</cb:mulu><head>能仁寺</head><p xml:id="pGA053p0171a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府洪澤寺西明洪武年間，自城西牐，東遷於
+<lb ed="GA" n="0171a06"/>此。</p></cb:div>
+<lb ed="GA" n="0171a07"/><cb:div type="other"><cb:mulu type="其他" level="3">大覺寺</cb:mulu><head>大覺寺</head><p xml:id="pGA053p0171a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府城南鴻鶴橋北宋建<g ref="#CB34804"/>間創建。</p></cb:div>
+<lb ed="GA" n="0171a08"/><cb:div type="other"><cb:mulu type="其他" level="3">天王承慶寺</cb:mulu><head>天王承慶寺</head><p xml:id="pGA053p0171a0806" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府登雲門內陽彭山麓，初名感慈院，梁
+<lb ed="GA" n="0171a09"/>天監中建。</p></cb:div>
+<lb ed="GA" n="0171a10"/><cb:div type="other"><cb:mulu type="其他" level="3">海會寺</cb:mulu><head>海會寺</head><p xml:id="pGA053p0171a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹徒<reg>鎮</reg>宋，建<g ref="#CB34804"/>三年創舊名尊聖寺，後改今
+<lb ed="GA" n="0171a11"/>額。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0172a" n="0172a"/>
+<lb ed="GA" n="0172a01"/><cb:div type="other"><cb:mulu type="其他" level="3">永業寺</cb:mulu><head>永業寺</head><p xml:id="pGA053p0172a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在登雲門外原額鮮雲寺，又以祠吳季札稱先
+<lb ed="GA" n="0172a02"/>儒寺宋乾道間建。</p></cb:div>
+<lb ed="GA" n="0172a03"/><cb:div type="other"><cb:mulu type="其他" level="3">洪山寺</cb:mulu><head>洪山寺</head><p xml:id="pGA053p0172a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府東嶽廟西，又名永安寺。</p></cb:div>
+<lb ed="GA" n="0172a04"/><cb:div type="other"><cb:mulu type="其他" level="3">法雲寺</cb:mulu><head>法雲寺</head><p xml:id="pGA053p0172a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府平昌鄉，唐大中五年建初，名流水院，宋改
+<lb ed="GA" n="0172a05"/>今額。</p></cb:div>
+<lb ed="GA" n="0172a06"/><cb:div type="other"><cb:mulu type="其他" level="3">羅漢寺</cb:mulu><head>羅漢寺</head><p xml:id="pGA053p0172a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府唐頺山下，唐天復中建。</p></cb:div>
+<lb ed="GA" n="0172a07"/><cb:div type="other"><cb:mulu type="其他" level="3">玉山報恩寺</cb:mulu><head>玉山報恩寺</head><p xml:id="pGA053p0172a0706" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府西津渡口元至大三年，建<reg>即</reg>浮玉亭
+<lb ed="GA" n="0172a08"/>基。</p></cb:div>
+<lb ed="GA" n="0172a09"/><cb:div type="other"><cb:mulu type="其他" level="3">普照寺</cb:mulu><head>普照寺</head><p xml:id="pGA053p0172a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府壽邱山巔，宋武帝故宅也。陳刱寺名慈和，
+<lb ed="GA" n="0172a10"/>宋號延慶。先是泗州有僧伽塔紹興中建塔於此山之
+<lb ed="GA" n="0172a11"/>上方，以奉僧伽像。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0173a" n="0173a"/>
+<lb ed="GA" n="0173a01"/><cb:div type="other"><cb:mulu type="其他" level="3">昭慶報慈寺</cb:mulu><head>昭慶報慈寺</head><p xml:id="pGA053p0173a0106" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府城西吳順義三年置初名延壽，宋改
+<lb ed="GA" n="0173a02"/>普慈，政和間，賜今額。</p></cb:div>
+<lb ed="GA" n="0173a03"/><cb:div type="other"><cb:mulu type="其他" level="3">長樂寺</cb:mulu><head>長樂寺</head><p xml:id="pGA053p0173a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府澗壁，宋紹興中建。</p></cb:div>
+<lb ed="GA" n="0173a04"/><cb:div type="other"><cb:mulu type="其他" level="3">普寧寺</cb:mulu><head>普寧寺</head><p xml:id="pGA053p0173a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣治南一里，晉王珣捨宅為之本名顯
+<lb ed="GA" n="0173a05"/>陽唐，改名朝陽。咸通中建僧伽塔，宋祥符中賜今額。</p></cb:div>
+<lb ed="GA" n="0173a06"/><cb:div type="other"><cb:mulu type="其他" level="3">昌國寺</cb:mulu><head>昌國寺</head><p xml:id="pGA053p0173a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣南三十里延陵<reg>鎮</reg>西晉太康間建有
+<lb ed="GA" n="0173a07"/>開元時鐘。</p></cb:div>
+<lb ed="GA" n="0173a08"/><cb:div type="other"><cb:mulu type="其他" level="3">崇教寺</cb:mulu><head>崇教寺</head><p xml:id="pGA053p0173a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣經山下，晉咸康間建有雨，花臺金牛
+<lb ed="GA" n="0173a09"/>洞，晉時銀杏樹。</p></cb:div>
+<lb ed="GA" n="0173a10"/><cb:div type="other"><cb:mulu type="其他" level="3">大同寺</cb:mulu><head>大同寺</head><p xml:id="pGA053p0173a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣東北二十五里，舊名同林寺，一名大
+<lb ed="GA" n="0173a11"/>同菴。西晉時建元，改今額寺有古井三福安橋爪髮塔
+<pb ed="GA" xml:id="GA053.0057.0174a" n="0174a"/>
+<lb ed="GA" n="0174a01"/>放生池。</p></cb:div>
+<lb ed="GA" n="0174a02"/><cb:div type="other"><cb:mulu type="其他" level="3">祗林寺</cb:mulu><head>祗林寺</head><p xml:id="pGA053p0174a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣西北十五里唐建。</p></cb:div>
+<lb ed="GA" n="0174a03"/><cb:div type="other"><cb:mulu type="其他" level="3">梁寶寺</cb:mulu><head>梁寶寺</head><p xml:id="pGA053p0174a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣南五十里，丁橋西梁，大同間建。</p></cb:div>
+<lb ed="GA" n="0174a04"/><cb:div type="other"><cb:mulu type="其他" level="3">廣教寺</cb:mulu><head>廣教寺</head><p xml:id="pGA053p0174a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣東北四十里，<reg>即</reg>沈山院，唐神龍間建。</p></cb:div>
+<lb ed="GA" n="0174a05"/><cb:div type="other"><cb:mulu type="其他" level="3">祇園寺</cb:mulu><head>祇園寺</head><p xml:id="pGA053p0174a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣東南六十里，東泊唐乾寧六年建。</p></cb:div>
+<lb ed="GA" n="0174a06"/><cb:div type="other"><cb:mulu type="其他" level="3">香嚴寺</cb:mulu><head>香嚴寺</head><p xml:id="pGA053p0174a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣雲陽橋北唐天祐九年建。</p></cb:div>
+<lb ed="GA" n="0174a07"/><cb:div type="other"><cb:mulu type="其他" level="3">妙覺寺</cb:mulu><head>妙覺寺</head><p xml:id="pGA053p0174a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣東仁聖坊明洪武中，自經山寺東移
+<lb ed="GA" n="0174a08"/>建。</p></cb:div>
+<lb ed="GA" n="0174a09"/><cb:div type="other"><cb:mulu type="其他" level="3">定善寺</cb:mulu><head>定善寺</head><p xml:id="pGA053p0174a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在雲陽橋南，宋淳祐間，建明萬歷間，移建於尹
+<lb ed="GA" n="0174a10"/>公橋側，<reg>即</reg>海會菴。</p></cb:div>
+<lb ed="GA" n="0174a11"/><cb:div type="other"><cb:mulu type="其他" level="3">妙果寺</cb:mulu><head>妙果寺</head><p xml:id="pGA053p0174a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣東南七里竹村，宋咸淳間創元時，拓
+<pb ed="GA" xml:id="GA053.0057.0175a" n="0175a"/>
+<lb ed="GA" n="0175a01"/>為巨剎。</p></cb:div>
+<lb ed="GA" n="0175a02"/><cb:div type="other"><cb:mulu type="其他" level="3">嘉山寺</cb:mulu><head>嘉山寺</head><p xml:id="pGA053p0175a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣嘉山龍池東，宋紹聖間建。</p></cb:div>
+<lb ed="GA" n="0175a03"/><cb:div type="other"><cb:mulu type="其他" level="3">孝感寺</cb:mulu><head>孝感寺</head><p xml:id="pGA053p0175a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣東北耿岡，宋邵亢功德院也。</p></cb:div>
+<lb ed="GA" n="0175a04"/><cb:div type="other"><cb:mulu type="其他" level="3">慈雲寺</cb:mulu><head>慈雲寺</head><p xml:id="pGA053p0175a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣陵口<reg>鎮</reg>，宋淳祐間建。</p></cb:div>
+<lb ed="GA" n="0175a05"/><cb:div type="other"><cb:mulu type="其他" level="3">慈雲寺</cb:mulu><head>慈雲寺</head><p xml:id="pGA053p0175a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣東北百步，梁大同初建，宋改今額。</p></cb:div>
+<lb ed="GA" n="0175a06"/><cb:div type="other"><cb:mulu type="其他" level="3">西禪寺</cb:mulu><head>西禪寺</head><p xml:id="pGA053p0175a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣西一里三洞鄉，宋淳熙間建</p></cb:div>
+<lb ed="GA" n="0175a07"/><cb:div type="other"><cb:mulu type="其他" level="3">延慶寺</cb:mulu><head>延慶寺</head><p xml:id="pGA053p0175a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣西三十里諸禮村，宋紹興間建。</p></cb:div>
+<lb ed="GA" n="0175a08"/><cb:div type="other"><cb:mulu type="其他" level="3">靈建寺</cb:mulu><head>靈建寺</head><p xml:id="pGA053p0175a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣東十五里金山鄉，舊名靈塔院，後改
+<lb ed="GA" n="0175a09"/>今額。</p></cb:div>
+<lb ed="GA" n="0175a10"/><cb:div type="other"><cb:mulu type="其他" level="3">東禪寺</cb:mulu><head>東禪寺</head><p xml:id="pGA053p0175a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣東三里，唐光啓間為新興禪院，宋改
+<lb ed="GA" n="0175a11"/>東禪寺。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0176a" n="0176a"/>
+<lb ed="GA" n="0176a01"/><cb:div type="other"><cb:mulu type="其他" level="3">報恩寺</cb:mulu><head>報恩寺</head><p xml:id="pGA053p0176a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">舊在金壇縣西三洞鄉，梁大同初建，明天啓四
+<lb ed="GA" n="0176a02"/>年于玉理捨宅為寺，取舊額顏之，在縣治西南。</p></cb:div>
+<lb ed="GA" n="0176a03"/><cb:div type="other"><cb:mulu type="其他" level="3">布金寺</cb:mulu><head>布金寺</head><p xml:id="pGA053p0176a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣方山之麓，舊名龍泉，在華陽市。唐太
+<lb ed="GA" n="0176a04"/>和五年移建於此。</p></cb:div>
+<lb ed="GA" n="0176a05"/><cb:div type="other"><cb:mulu type="其他" level="3">普慈寺</cb:mulu><head>普慈寺</head><p xml:id="pGA053p0176a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣禮智鄉，梁大同中建。</p></cb:div>
+<lb ed="GA" n="0176a06"/><cb:div type="other"><cb:mulu type="其他" level="3">淨土寺</cb:mulu><head>淨土寺</head><p xml:id="pGA053p0176a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣南門外九里後岐村，
+<lb ed="GA" n="0176a07"/>國朝康熙三十四年建。</p></cb:div>
+<lb ed="GA" n="0176a08"/><cb:div type="other"><cb:mulu type="其他" level="3">法慧寺</cb:mulu><head>法慧寺</head><p xml:id="pGA053p0176a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在溧陽縣北六十里，吳丞相萬彧捨宅建，梁名
+<lb ed="GA" n="0176a09"/>安靜寺，宋賜今額，明洪武末歸併法興寺。</p></cb:div>
+<lb ed="GA" n="0176a10"/><cb:div type="other"><cb:mulu type="其他" level="3">法會寺</cb:mulu><head>法會寺</head><p xml:id="pGA053p0176a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在溧陽縣西南社渚，吳時建，唐名資善院，宋改
+<lb ed="GA" n="0176a11"/>今額。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0177a" n="0177a"/>
+<lb ed="GA" n="0177a01"/><cb:div type="other"><cb:mulu type="其他" level="3">勝因寺</cb:mulu><head>勝因寺</head><p xml:id="pGA053p0177a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在溧陽縣西北舊縣城側，晉義熙初建，唐名唐
+<lb ed="GA" n="0177a02"/>興寺。孟郊有寺中觀薔薇花詩，宋改今名。</p></cb:div>
+<lb ed="GA" n="0177a03"/><cb:div type="other"><cb:mulu type="其他" level="3">白龍寺</cb:mulu><head>白龍寺</head><p xml:id="pGA053p0177a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在溧陽縣西七十里，亦晉寺也。舊有三塔，一名
+<lb ed="GA" n="0177a04"/>三塔寺。</p></cb:div>
+<lb ed="GA" n="0177a05"/><cb:div type="other"><cb:mulu type="其他" level="3">雲泉寺</cb:mulu><head>雲泉寺</head><p xml:id="pGA053p0177a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在溧陽縣東南五十里，唐名雲泉院。許堅詩所
+<lb ed="GA" n="0177a06"/>云前朝恩賜雲泉額也。</p></cb:div>
+<lb ed="GA" n="0177a07"/><cb:div type="other"><cb:mulu type="其他" level="3">法興寺</cb:mulu><head>法興寺</head><p xml:id="pGA053p0177a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在溧陽縣東北三十七里，唐名法常寺，宋改今
+<lb ed="GA" n="0177a08"/>額。</p></cb:div>
+<lb ed="GA" n="0177a09"/><cb:div type="other"><cb:mulu type="其他" level="3">普門寺</cb:mulu><head>普門寺</head><p xml:id="pGA053p0177a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在溧陽縣洮湖中大坏山上，唐元和五年建。</p></cb:div>
+<lb ed="GA" n="0177a10"/><cb:div type="other"><cb:mulu type="其他" level="3">廣教寺</cb:mulu><head>廣教寺</head><p xml:id="pGA053p0177a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在溧陽縣東門外，唐金吾長史倪筠捨宅建，名
+<lb ed="GA" n="0177a11"/>資聖院，宋賜今名。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0178a" n="0178a"/>
+<lb ed="GA" n="0178a01"/><cb:div type="other"><cb:mulu type="其他" level="3">報恩寺</cb:mulu><head>報恩寺</head><p xml:id="pGA053p0178a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在溧陽縣東南一里，梁天監中建，宋宣和間為
+<lb ed="GA" n="0178a02"/>神霄宮。後改寺易今額。</p></cb:div>
+<lb ed="GA" n="0178a03"/><cb:div type="other"><cb:mulu type="其他" level="3">元妙觀</cb:mulu><head>元妙觀</head><p xml:id="pGA053p0178a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府石<g ref="#CB21214"/>橋西北，俗呼東觀，<reg>即</reg>唐紫極宮老子
+<lb ed="GA" n="0178a04"/>祠，宋祥符中改曰天慶，元元貞元年改今額，舊有宋徽
+<lb ed="GA" n="0178a05"/>宗所賜永<reg>鎮</reg>福地金牌，及趙孟頫度人經石刻。</p></cb:div>
+<lb ed="GA" n="0178a06"/><cb:div type="other"><cb:mulu type="其他" level="3">紫府觀</cb:mulu><head>紫府觀</head><p xml:id="pGA053p0178a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府大慈鄉馬跡山，宋永初二年建，舊名福業，
+<lb ed="GA" n="0178a07"/>治平元年賜今額，有抱樸子丹井、白馬老君石跡，天下
+<lb ed="GA" n="0178a08"/>第四十九福地也。</p></cb:div>
+<lb ed="GA" n="0178a09"/><cb:div type="other"><cb:mulu type="其他" level="3">明真觀</cb:mulu><head>明<reg>真</reg>觀</head><p xml:id="pGA053p0178a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府長樂鄉，舊名修懸，唐末僅存遺址。宋重建，
+<lb ed="GA" n="0178a10"/>元虞集題額。</p></cb:div>
+<lb ed="GA" n="0178a11"/><cb:div type="other"><cb:mulu type="其他" level="3">華陽觀</cb:mulu><head>華陽觀</head><p xml:id="pGA053p0178a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府十一都，唐貞觀中建，宋改今名。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0179a" n="0179a"/>
+<lb ed="GA" n="0179a01"/><cb:div type="other"><cb:mulu type="其他" level="3">崇福觀</cb:mulu><head>崇福觀</head><p xml:id="pGA053p0179a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府城大市西南，元建。</p></cb:div>
+<lb ed="GA" n="0179a02"/><cb:div type="other"><cb:mulu type="其他" level="3">報恩光孝觀</cb:mulu><head>報恩光孝觀</head><p xml:id="pGA053p0179a0206" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹徒縣治西南三里，舊名天寧萬壽，宋
+<lb ed="GA" n="0179a03"/>改今額。</p></cb:div>
+<lb ed="GA" n="0179a04"/><cb:div type="other"><cb:mulu type="其他" level="3">仙臺觀</cb:mulu><head>仙臺觀</head><p xml:id="pGA053p0179a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣西二里，舊謂黃堂道院，亦名雲陽觀。
+<lb ed="GA" n="0179a05"/>晉諶母於此修煉飛昇，宋改今名。觀有窖經墩、瘞劍函、
+<lb ed="GA" n="0179a06"/>煉丹井。</p></cb:div>
+<lb ed="GA" n="0179a07"/><cb:div type="other"><cb:mulu type="其他" level="3">延昌觀</cb:mulu><head>延昌觀</head><p xml:id="pGA053p0179a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣南，梁大同中建。</p></cb:div>
+<lb ed="GA" n="0179a08"/><cb:div type="other"><cb:mulu type="其他" level="3">凝禧觀</cb:mulu><head>凝禧觀</head><p xml:id="pGA053p0179a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣東北四十里，梁大同中建。</p></cb:div>
+<lb ed="GA" n="0179a09"/><cb:div type="other"><cb:mulu type="其他" level="3">大霄觀</cb:mulu><head>大霄觀</head><p xml:id="pGA053p0179a0904" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣丁橋<reg>鎮</reg>西，唐垂拱間建。</p></cb:div>
+<lb ed="GA" n="0179a10"/><cb:div type="other"><cb:mulu type="其他" level="3">歸真觀</cb:mulu><head>歸<reg>真</reg>觀</head><p xml:id="pGA053p0179a1004" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣東南七十里，舊名東疁觀，漢焦光修
+<lb ed="GA" n="0179a11"/>煉之所。唐開元間名清虛，宋祥符中改今名。舊有丹井、
+<pb ed="GA" xml:id="GA053.0057.0180a" n="0180a"/>
+<lb ed="GA" n="0180a01"/>丹池飛昇臺、迎仙橋、望仙墩。</p></cb:div>
+<lb ed="GA" n="0180a02"/><cb:div type="other"><cb:mulu type="其他" level="3">凝真觀</cb:mulu><head>凝<reg>真</reg>觀</head><p xml:id="pGA053p0180a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣土地橋東，宋時建。</p></cb:div>
+<lb ed="GA" n="0180a03"/><cb:div type="other"><cb:mulu type="其他" level="3">仁靖觀</cb:mulu><head>仁靖觀</head><p xml:id="pGA053p0180a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣九靈山，宋翟汝文功德院，乾道間建。</p></cb:div>
+<lb ed="GA" n="0180a04"/><cb:div type="other"><cb:mulu type="其他" level="3">清微觀</cb:mulu><head>清微觀</head><p xml:id="pGA053p0180a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣呂城鎮，元延祐間建，舊名崇壽院。</p></cb:div>
+<lb ed="GA" n="0180a05"/><cb:div type="other"><cb:mulu type="其他" level="3">太虛觀</cb:mulu><head>太虛觀</head><p xml:id="pGA053p0180a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣南壩之東，唐戴叔倫捨宅為之，舊名
+<lb ed="GA" n="0180a06"/>延<reg>真</reg>觀，宋改今名。</p></cb:div>
+<lb ed="GA" n="0180a07"/><cb:div type="other"><cb:mulu type="其他" level="3">元陽觀</cb:mulu><head>元陽觀</head><p xml:id="pGA053p0180a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣大茅峯南茅洞之上。唐置後廢，宋隆
+<lb ed="GA" n="0180a08"/>興初，吳興道人，沈善眉穴，居五十年。韓蘄王妻<reg>梁</reg>氏經
+<lb ed="GA" n="0180a09"/>此，見黑虎從道入，周旋起伏，因號為伏虎。<reg>真</reg>人助貲，建
+<lb ed="GA" n="0180a10"/>立殿宇。</p></cb:div>
+<lb ed="GA" n="0180a11"/><cb:div type="other"><cb:mulu type="其他" level="3">洞虛觀</cb:mulu><head>洞虛觀</head><p xml:id="pGA053p0180a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣西陶村，<reg>即</reg>陶隱居故廬，石記猶存。</p></cb:div>
+<pb ed="GA" xml:id="GA053.0057.0181a" n="0181a"/>
+<lb ed="GA" n="0181a01"/><cb:div type="other"><cb:mulu type="其他" level="3">藏真觀</cb:mulu><head>藏<reg>真</reg>觀</head><p xml:id="pGA053p0181a0104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣大茅叠玉峯下靜一劉宗師廬墓處。
+<lb ed="GA" n="0181a02"/>宋大觀初勅建。</p></cb:div>
+<lb ed="GA" n="0181a03"/><cb:div type="other"><cb:mulu type="其他" level="3">崇壽觀</cb:mulu><head>崇壽觀</head><p xml:id="pGA053p0181a0304" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣西七十里。</p></cb:div>
+<lb ed="GA" n="0181a04"/><cb:div type="other"><cb:mulu type="其他" level="3">集仙觀</cb:mulu><head>集仙觀</head><p xml:id="pGA053p0181a0404" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣東金山鄉，梁大同初建。</p></cb:div>
+<lb ed="GA" n="0181a05"/><cb:div type="other"><cb:mulu type="其他" level="3">玉虛觀</cb:mulu><head>玉虛觀</head><p xml:id="pGA053p0181a0504" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣西四十里，唐長慶中建，額曰靈寶。宋
+<lb ed="GA" n="0181a06"/>改今名。</p></cb:div>
+<lb ed="GA" n="0181a07"/><cb:div type="other"><cb:mulu type="其他" level="3">泰清觀</cb:mulu><head>泰清觀</head><p xml:id="pGA053p0181a0704" style="margin-left:0em;text-indent:2em;" cb:place="inline">在溧陽縣治東南，宋淳熙中移溧水，廢額建。</p></cb:div>
+<lb ed="GA" n="0181a08"/><cb:div type="other"><cb:mulu type="其他" level="3">泰虛觀</cb:mulu><head>泰虛觀</head><p xml:id="pGA053p0181a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在溧陽縣西南四十里，晉盤白<reg>真</reg>人道成之地，
+<lb ed="GA" n="0181a09"/>奉詔立觀，賜額曰招仙，宋改今額，賜銅天尊像一，<reg>真</reg>人
+<lb ed="GA" n="0181a10"/>像二。觀有九井，云是<reg>真</reg>人藏丹處。</p></cb:div>
+<lb ed="GA" n="0181a11"/><cb:div type="other"><cb:mulu type="其他" level="3">幽棲觀</cb:mulu><head>幽棲觀</head><p xml:id="pGA053p0181a1104" style="margin-left:0em;text-indent:2em;" cb:place="inline">在溧陽縣北三十五里，梁隱士幽棲伯昇舉於
+<pb ed="GA" xml:id="GA053.0057.0182a" n="0182a"/>
+<lb ed="GA" n="0182a01"/>此，觀<reg>即</reg>故宅也。有藏丹井、望仙橋、朝斗壇。</p></cb:div>
+<lb ed="GA" n="0182a02"/><cb:div type="other"><cb:mulu type="其他" level="3">黃山觀</cb:mulu><head>黃山觀</head><p xml:id="pGA053p0182a0204" style="margin-left:0em;text-indent:2em;" cb:place="inline">在溧陽縣西四十里，吳黃鶴<reg>真</reg>人飛昇地也。觀
+<lb ed="GA" n="0182a03"/>建於唐天寶間，宋周絳少為道士於此。</p></cb:div>
+<lb ed="GA" n="0182a04"/><cb:div type="other"><cb:mulu type="其他" level="3">乾元萬壽宮</cb:mulu><head>乾元萬壽宮</head><p xml:id="pGA053p0182a0406" style="margin-left:0em;text-indent:2em;" cb:place="inline">在府治西瓶塲巷，宋安撫使葉再遇故宅
+<lb ed="GA" n="0182a05"/>也。元大德五年改創。</p></cb:div>
+<lb ed="GA" n="0182a06"/><cb:div type="other"><cb:mulu type="其他" level="3">崇禧宮</cb:mulu><head>崇禧宮</head><p xml:id="pGA053p0182a0604" style="margin-left:0em;text-indent:2em;" cb:place="inline">在金壇縣茅山丁公山之陽，<reg>即</reg>陶隱居華陽下
+<lb ed="GA" n="0182a07"/>館。唐貞觀時建太平觀，宋為崇禧觀元賜名宮。</p></cb:div>
+<lb ed="GA" n="0182a08"/><cb:div type="other"><cb:mulu type="其他" level="3">廣福院</cb:mulu><head>廣福院</head><p xml:id="pGA053p0182a0804" style="margin-left:0em;text-indent:2em;" cb:place="inline">在丹陽縣東觀音山，晉太康中建。</p></cb:div></cb:div></cb:div>
+<lb ed="GA" n="0182a09"/>
+<lb ed="GA" n="0182a10"/>
+<lb ed="GA" n="0182a11"/><cb:juan fun="close" n="3"><cb:jhead>江南通志卷四十五終</cb:jhead></cb:juan>
+</body></text></TEI>
