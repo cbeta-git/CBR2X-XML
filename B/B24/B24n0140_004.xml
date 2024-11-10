@@ -29,7 +29,7 @@
 			<availability>
 				<p>Available for non-commercial use when distributed with this header intact.</p>
 			</availability>
-			<date>2024-02-25 09:56:44 +0800</date>
+			<date>2024-11-09 22:09:53 +0800</date>
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>
@@ -41,11 +41,11 @@
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version), Punctuated text as provided by Digital Archive of Chinese Buddhist Temple Gazetteers Project which is funded by Chung-Hwa Institute of Buddhist Studies and executed by Dharma Drum Institute of Liberal Arts</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二），法鼓文理學院、中華佛學研究所之「中國佛教寺廟志數位典藏」專案提供新式標點</p>
 		</projectDesc>
 		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
 		</editorialDecl>
 		<tagsDecl>
 			<namespace name="http://www.tei-c.org/ns/1.0">
@@ -89,6 +89,19 @@
 				<mapping type="unicode">U+2047D</mapping>
 				<mapping cb:dec="994742" type="PUA">U+F2DB6</mapping>
 			</char>
+			<char xml:id="CB15016">
+				<charName>CBETA CHARACTER CB15016</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[山*奧]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>嶴</value>
+				</charProp>
+				<mapping type="unicode">U+3817</mapping>
+				<mapping cb:dec="998056" type="PUA">U+F3AA8</mapping>
+			</char>
 			<char xml:id="CB15111">
 				<charName>CBETA CHARACTER CB15111</charName>
 				<charProp>
@@ -114,6 +127,14 @@
 				<mapping type="unicode">U+286AB</mapping>
 				<mapping cb:dec="1013077" type="PUA">U+F7555</mapping>
 			</char>
+			<char xml:id="CB33165">
+				<charName>CBETA CHARACTER CB33165</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[共/血]</value>
+				</charProp>
+				<mapping cb:dec="1016205" type="PUA">U+F818D</mapping>
+			</char>
 			<char xml:id="CB33209">
 				<charName>CBETA CHARACTER CB33209</charName>
 				<charProp>
@@ -132,228 +153,228 @@
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
-		<change when="2015-11-21">
+		<change when="2024-11-09">
 			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
 		</change>
 	</revisionDesc>
 </teiHeader>
 <text><body>
-<cb:mulu type="其他" level="1">紀禪宗</cb:mulu><cb:mulu type="其他" level="2">真覺大師年譜</cb:mulu>
+<cb:mulu type="其他" level="1">紀禪宗</cb:mulu><cb:mulu type="其他" level="2">紀禪宗論</cb:mulu>
 <milestone unit="juan" n="4"/>
 <lb ed="B" n="0593b10"/><cb:mulu type="卷" n="4"></cb:mulu><cb:juan fun="open" n="4"><cb:jhead>雪峰志卷之四</cb:jhead></cb:juan>
-<lb ed="B" n="0593b11"/><byline cb:type="author">郡人　徐<g ref="#CB04521"/>　纂輯</byline>
+<lb ed="B" n="0593b11"/><cb:div type="other"><p xml:id="pB24p0593b1101" style="margin-left:8em;">郡人</p><byline cb:type="editor">徐<g ref="#CB04521"/>　纂輯</byline>
 <lb ed="B" n="0593b12"/><byline cb:type="other">林弘衍　叅定</byline>
-<lb ed="B" n="0593b13"/><byline cb:type="other">鄭天綵　賴亨侯　吳興漢　重訂</byline>
+<lb ed="B" n="0593b13"/><byline cb:type="other">鄭天綵　賴亨侯　吳興漢　重訂</byline></cb:div>
 <lb ed="B" n="0593b14"/><cb:div type="other"><cb:mulu type="其他" level="1">紀法派</cb:mulu><head>紀法派</head>
-<lb ed="B" n="0593b15"/><p xml:id="pB24p0593b1501" style="margin-left:0em;text-indent:2em">宗風既普白業斯傳根稟慧鈍覺有後先支分派
-<lb ed="B" n="0593b16"/>衍果證金仙梵輪自轉智炬常燃紀法派第四</p>
+<lb ed="B" n="0593b15"/><cb:div type="other"><cb:mulu type="其他" level="2">紀法派序</cb:mulu><p xml:id="pB24p0593b1501" style="margin-left:2em;">宗風既普，白業斯傳；根稟慧鈍，覺有後先。支分派
+<lb ed="B" n="0593b16"/>衍，果證金仙、梵輪自轉，智炬常燃。紀〈法派〉第四。</p></cb:div>
 <lb ed="B" n="0593b17"/><cb:div type="other"><cb:mulu type="其他" level="2">雪峰法嗣</cb:mulu><head>雪峰法嗣</head>
-<lb ed="B" n="0593b18"/><cb:div type="other"><cb:mulu type="其他" level="3">雲門文偃禪師</cb:mulu><p xml:id="pB24p0593b1801" style="margin-left:0em;text-indent:2em">雲門文偃禪師嘉興張氏子初到雪峰莊見一僧乃
+<lb ed="B" n="0593b18"/><cb:div type="other"><cb:mulu type="其他" level="3">雲門文偃禪師</cb:mulu><head>雲門文偃禪師</head><p xml:id="pB24p0593b1807" style="margin-left:0em;text-indent:2em;" cb:place="inline">嘉興張氏子。初到雪峰莊，見一僧乃
 <pb ed="B" xml:id="B24.0140.0594a" n="0594a"/>
-<lb ed="B" n="0594a01"/>問上座今日上山去那僧曰是偃曰寄一則因緣
-<lb ed="B" n="0594a02"/>問堂頭和尚祇是不得道是別人語僧曰得偃曰
-<lb ed="B" n="0594a03"/>上座到山中見和尚上堂眾纔集便出握腕立地
-<lb ed="B" n="0594a04"/>曰這老漢項上帶枷何不脫<g ref="#CB30037"/>其僧一依偃教雪
-<lb ed="B" n="0594a05"/>峰見這僧與麼道便下座把住曰速道速道僧無
-<lb ed="B" n="0594a06"/>對峰拓開曰不是汝語僧曰是某甲語峰曰侍者
-<lb ed="B" n="0594a07"/>將繩棒來僧曰不是某語是莊上一浙中上座教
-<lb ed="B" n="0594a08"/>某甲來道峰曰大眾去莊上迎取五百人善知識
-<lb ed="B" n="0594a09"/>來偃次日上雪峰峰纔見便曰因甚麼得到與麼
-<lb ed="B" n="0594a10"/>地偃乃低頭從茲契合溫研積稔密以宗印授焉
-<lb ed="B" n="0594a11"/>宋乾德三年有旨詣雲門開塔真容如生髭髮皆
-<lb ed="B" n="0594a12"/>長真身迎入大內供養逾月送歸封塔</p></cb:div>
-<lb ed="B" n="0594a13"/><cb:div type="other"><cb:mulu type="其他" level="3">福州玄沙師</cb:mulu><p xml:id="pB24p0594a1301" style="margin-left:0em;text-indent:2em">福州玄沙師備宗一禪師閩之謝氏子生長漁家年
-<lb ed="B" n="0594a14"/>三十始出家與雪峰本法門昆季而親近若師資
-<lb ed="B" n="0594a15"/>峰以其苦行呼為頭陀一日峰問阿那箇是備頭
-<lb ed="B" n="0594a16"/>陀備曰終不敢誑于人異日峰召曰備頭陀何不
-<lb ed="B" n="0594a17"/>遍叅去師曰達磨不來東土二祖不往西天峰然
-<lb ed="B" n="0594a18"/>之備入室咨決罔替晨昏又閱楞嚴經發明心地
+<lb ed="B" n="0594a01"/>問：「上座今日上山去那？」僧曰：「是。」偃曰：「寄一則因緣
+<lb ed="B" n="0594a02"/>問堂頭和尚，祇是不得道是別人語。」僧曰：「得。」偃曰：
+<lb ed="B" n="0594a03"/>「上座到山中見和尚上堂，眾纔集便出，握腕立地
+<lb ed="B" n="0594a04"/>曰：『這老漢項上帶枷，何不脫<g ref="#CB30037"/>？』」其僧一依偃教。雪
+<lb ed="B" n="0594a05"/>峰見這僧與麼道，便下座，把住曰：「速道，速道！」僧無
+<lb ed="B" n="0594a06"/>對。峰拓開曰：「不是汝語。」僧曰：「是某甲語。」峰曰：「侍者
+<lb ed="B" n="0594a07"/>將繩棒來。」僧曰：「不是某語，是莊上一浙中上座教
+<lb ed="B" n="0594a08"/>某甲來道。」峰曰：「大眾去莊上，迎取五百人善知識
+<lb ed="B" n="0594a09"/>來。」偃次日上雪峰，峰纔見便曰：「因甚麼得到與麼
+<lb ed="B" n="0594a10"/>地？」偃乃低頭，從茲契合，溫研積稔，密以宗印授焉。
+<lb ed="B" n="0594a11"/>宋乾德三年，有旨詣雲門，開塔，真容如生，髭髮皆
+<lb ed="B" n="0594a12"/>長，真身迎入大內供養，逾月送歸封塔。</p></cb:div>
+<lb ed="B" n="0594a13"/><cb:div type="other"><cb:mulu type="其他" level="3">福州玄沙師備宗一禪師</cb:mulu><head>福州玄沙師備宗一禪師</head><p xml:id="pB24p0594a1311" style="margin-left:0em;text-indent:2em;" cb:place="inline">閩之謝氏子，生長漁家。年
+<lb ed="B" n="0594a14"/>三十始出家，與雪峰本法門昆季而親近若師資。
+<lb ed="B" n="0594a15"/>峰以其苦行，呼為頭陀。一日，峰問：「阿那箇是備頭
+<lb ed="B" n="0594a16"/>陀？」備曰：「終不敢誑于人。」異日，峰召曰：「備頭陀何不
+<lb ed="B" n="0594a17"/>遍叅去？」師曰：「達磨不來東土，二祖不往西天。」峰然
+<lb ed="B" n="0594a18"/>之。備入室咨決，罔替晨昏；又閱《楞嚴經》，發明心地，
 <pb ed="B" xml:id="B24.0140.0594b" n="0594b"/>
-<lb ed="B" n="0594b01"/>由是應機敏捷與修多羅冥契諸方玄學有所未
-<lb ed="B" n="0594b02"/>決必從之請益至與雪峰徵詰亦當仁不讓峰曰
-<lb ed="B" n="0594b03"/>備頭陀再來人也有語錄行于世</p></cb:div>
-<lb ed="B" n="0594b04"/><cb:div type="other"><cb:mulu type="其他" level="3">福州長慶慧稜禪師</cb:mulu><p xml:id="pB24p0594b0401" style="margin-left:0em;text-indent:2em">福州長慶慧稜禪師杭州鹽官孫氏子歷叅禪苑後
-<lb ed="B" n="0594b05"/>叅靈雲往來雪峰玄沙二十年間坐破七箇蒲團
-<lb ed="B" n="0594b06"/>不明此事一日捲簾忽然大悟乃有頌曰也大差
-<lb ed="B" n="0594b07"/>也大差捲起簾來見天下有人問我解何宗拈起
-<lb ed="B" n="0594b08"/>拂子劈口打峰舉謂玄沙曰此子徹去也沙曰未
-<lb ed="B" n="0594b09"/>可此是意識著述更須勘過始得至晚眾僧上來
-<lb ed="B" n="0594b10"/>問訊峰謂稜曰備頭陀未肻汝在汝實有正悟對
-<lb ed="B" n="0594b11"/>眾舉來稜文頌曰萬象之中獨露身惟人自肻乃
-<lb ed="B" n="0594b12"/>方親昔時謬向途中覔今日看來火裏氷峰乃顧
-<lb ed="B" n="0594b13"/>沙曰不可更是意識著述稜問峰曰從上諸聖傳
-<lb ed="B" n="0594b14"/>授一路請師垂示峰良久稜設禮而退峰乃微笑
-<lb ed="B" n="0594b15"/>稜入方丈叅峰曰是甚麼稜曰今日天晴好普請
-<lb ed="B" n="0594b16"/>自此酬問未嘗爽于玄旨</p></cb:div>
-<lb ed="B" n="0594b17"/><cb:div type="other"><cb:mulu type="其他" level="3">漳州保福從展禪師</cb:mulu><p xml:id="pB24p0594b1701" style="margin-left:0em;text-indent:2em">漳州保福從展禪師福州陳氏子年十五禮雪峰為
-<lb ed="B" n="0594b18"/>受業師遊吳楚間後歸執侍峰一日忽召曰還會
+<lb ed="B" n="0594b01"/>由是應機敏捷，與修多羅冥契。諸方玄學有所未
+<lb ed="B" n="0594b02"/>決，必從之請益，至與雪峰徵詰，亦當仁不讓。峰曰：
+<lb ed="B" n="0594b03"/>「備頭陀，再來人也。」有《語錄》行于世。</p></cb:div>
+<lb ed="B" n="0594b04"/><cb:div type="other"><cb:mulu type="其他" level="3">福州長慶慧稜禪師</cb:mulu><head>福州長慶慧稜禪師</head><p xml:id="pB24p0594b0409" style="margin-left:0em;text-indent:2em;" cb:place="inline">杭州鹽官孫氏子。歴叅禪苑，後
+<lb ed="B" n="0594b05"/>叅靈雲，往來雪峰、玄沙，二十年間坐破七箇蒲團，
+<lb ed="B" n="0594b06"/>不明此事。一日捲簾，忽然大悟，乃有頌曰：「也大差，
+<lb ed="B" n="0594b07"/>也大差，捲起簾來見天下。有人問我解何宗？拈起
+<lb ed="B" n="0594b08"/>拂子劈口打！」峰舉謂玄沙曰：「此子徹去也。」沙曰：「未
+<lb ed="B" n="0594b09"/>可，此是意識著述，更須勘過始得。」至晚，眾僧上來
+<lb ed="B" n="0594b10"/>問訊，峰謂稜曰：「備頭陀未肻汝在，汝實有正悟對
+<lb ed="B" n="0594b11"/>眾舉來。」稜<note n="0594b1101" resp="CBETA" type="add">又【CB】，文【補編】</note><app n="0594b1101"><lem wit="【CB】" resp="CBETA">又</lem><rdg wit="【補編】">文</rdg></app>頌曰：「萬象之中獨露身，惟人自肻乃
+<lb ed="B" n="0594b12"/>方親；昔時謬向途中覔，今日看來火裏氷。」峰乃顧
+<lb ed="B" n="0594b13"/>沙曰：「不可，更是意識著述。」稜問峰曰：「從上諸聖傳
+<lb ed="B" n="0594b14"/>授一路，請師垂示。」峰良久，稜設禮而退，峰乃微笑。
+<lb ed="B" n="0594b15"/>稜入方丈叅，峰曰：「是甚麼？」稜曰：「今日天晴好普請。」
+<lb ed="B" n="0594b16"/>自此酬問，未嘗爽于玄旨。</p></cb:div>
+<lb ed="B" n="0594b17"/><cb:div type="other"><cb:mulu type="其他" level="3">漳州保福從展禪師</cb:mulu><head>漳州保福從展禪師</head><p xml:id="pB24p0594b1709" style="margin-left:0em;text-indent:2em;" cb:place="inline">福州陳氏子。年十五，禮雪峰為
+<lb ed="B" n="0594b18"/>受業師。遊吳楚間，後歸執侍。峰一日忽召曰：「還會
 <pb ed="B" xml:id="B24.0140.0595a" n="0595a"/>
-<lb ed="B" n="0595a01"/>麼展欲近前峰以杖拄之展當下知歸</p></cb:div>
-<lb ed="B" n="0595a02"/><cb:div type="other"><cb:mulu type="其他" level="3">福州鼓山神晏興聖國師</cb:mulu><p xml:id="pB24p0595a0201" style="margin-left:0em;text-indent:2em">福州鼓山神晏興聖國師大梁李氏子幼惡葷腥樂
-<lb ed="B" n="0595a03"/>聞鐘梵一日叅雪峰峰知其緣熟忽起搊住曰是
-<lb ed="B" n="0595a04"/>甚麼晏釋然了悟亦忘其了心惟舉手搖曳而<note n="0595a0401" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0595a0401"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>
-<lb ed="B" n="0595a05"/>峰曰子作道理耶晏曰何道理之有峰審其懸解
-<lb ed="B" n="0595a06"/>撫而印之</p></cb:div>
-<lb ed="B" n="0595a07"/><cb:div type="other"><cb:mulu type="其他" level="3">杭州龍華靈照真覺禪師</cb:mulu><p xml:id="pB24p0595a0701" style="margin-left:0em;text-indent:2em">杭州龍華靈照真覺禪師高麗人也萍遊閩越昇雪
-<lb ed="B" n="0595a08"/>峰之堂冥符玄旨居惟一衲服勤眾務閩中謂之
-<lb ed="B" n="0595a09"/>照布衲</p></cb:div>
-<lb ed="B" n="0595a10"/><cb:div type="other"><cb:mulu type="其他" level="3">明州翠巖令叅永明禪師</cb:mulu><p xml:id="pB24p0595a1001" style="margin-left:0em;text-indent:2em">明州翠巖令叅永明禪師安吉州人嗣雪峰</p></cb:div>
-<lb ed="B" n="0595a11"/><cb:div type="other"><cb:mulu type="其他" level="3">越州鏡清道怤順德禪師</cb:mulu><p xml:id="pB24p0595a1101" style="margin-left:0em;text-indent:2em">越州鏡清道怤順德禪師永嘉陳氏子六歲不葷茹
-<lb ed="B" n="0595a12"/>遊方抵關謁雪峰一日怤問祇如古德豈不是以
-<lb ed="B" n="0595a13"/>心傳心峰曰兼不立文字語句怤曰祇如不立文
-<lb ed="B" n="0595a14"/>字語句師如何傳峰良久怤禮謝峰曰更問我一
-<lb ed="B" n="0595a15"/>轉豈不好怤曰就和尚請一轉問頭峰曰祇恁麼
-<lb ed="B" n="0595a16"/>為別商量怤曰和尚恁麼即得峰曰于汝作麼生
-<lb ed="B" n="0595a17"/>怤曰辜負殺人怤住越州鏡清唱雪峰之旨學者
-<lb ed="B" n="0595a18"/>奔湊副使皮光業日休之子詞學宏贍屢擊難之
+<lb ed="B" n="0595a01"/>麼？」展欲近前，峰以杖拄之，展當下知歸。</p></cb:div>
+<lb ed="B" n="0595a02"/><cb:div type="other"><cb:mulu type="其他" level="3">福州鼓山神晏興聖國師</cb:mulu><head>福州鼓山神晏興聖國師</head><p xml:id="pB24p0595a0211" style="margin-left:0em;text-indent:2em;" cb:place="inline">大梁李氏子。幼惡葷腥，樂
+<lb ed="B" n="0595a03"/>聞鐘梵。一日叅雪峰，峰知其緣熟，忽起搊住曰：「是
+<lb ed="B" n="0595a04"/>甚麼？」晏釋然了悟，亦忘其了心，惟舉手搖曳而<note n="0595a0401" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0595a0401"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>。
+<lb ed="B" n="0595a05"/>峰曰：「子作道理耶？」晏曰：「何道理之有？」峰審其懸解，
+<lb ed="B" n="0595a06"/>撫而印之。</p></cb:div>
+<lb ed="B" n="0595a07"/><cb:div type="other"><cb:mulu type="其他" level="3">杭州龍華靈照真覺禪師</cb:mulu><head>杭州龍華靈照真覺禪師</head><p xml:id="pB24p0595a0711" style="margin-left:0em;text-indent:2em;" cb:place="inline">高麗人也。萍遊閩越，昇雪
+<lb ed="B" n="0595a08"/>峰之堂，冥符玄旨。居惟一衲，服勤眾務，閩中謂之
+<lb ed="B" n="0595a09"/>「照布衲」。</p></cb:div>
+<lb ed="B" n="0595a10"/><cb:div type="other"><cb:mulu type="其他" level="3">明州翠巖令叅永明禪師</cb:mulu><head>明州翠巖令叅永明禪師</head><p xml:id="pB24p0595a1011" style="margin-left:0em;text-indent:2em;" cb:place="inline">安吉州人，嗣雪峰。</p></cb:div>
+<lb ed="B" n="0595a11"/><cb:div type="other"><cb:mulu type="其他" level="3">越州鏡清道怤順德禪師</cb:mulu><head>越州鏡清道怤順德禪師</head><p xml:id="pB24p0595a1111" style="margin-left:0em;text-indent:2em;" cb:place="inline">永嘉陳氏子。六歲不葷茹，
+<lb ed="B" n="0595a12"/>遊方抵關，謁雪峰。一日怤問：「祇如古德，豈不是以
+<lb ed="B" n="0595a13"/>心傳心？」峰曰：「兼不立文字語句。」怤曰：「祇如不立文
+<lb ed="B" n="0595a14"/>字語句，師如何傳？」峰良久，怤禮謝。峰曰：「更問我一
+<lb ed="B" n="0595a15"/>轉豈不好？」怤曰：「就和尚請一轉問頭。」峰曰：「祇恁麼
+<lb ed="B" n="0595a16"/>為別商量？」怤曰：「和尚恁麼即得。」峰曰：「于汝作麼生？」
+<lb ed="B" n="0595a17"/>怤曰：「辜負殺人。」怤住越州鏡清，唱雪峰之旨，學者
+<lb ed="B" n="0595a18"/>奔湊。副使皮光業（日休之子），詞學宏贍，屢擊難之，
 <pb ed="B" xml:id="B24.0140.0595b" n="0595b"/>
-<lb ed="B" n="0595b01"/>退謂人曰怤師之高論人莫窺其極</p></cb:div>
-<lb ed="B" n="0595b02"/><cb:div type="other"><cb:mulu type="其他" level="3">漳州報恩懷岳禪師</cb:mulu><p xml:id="pB24p0595b0201" style="margin-left:0em;text-indent:2em">漳州報恩懷岳禪師泉州人嗣雪峰</p></cb:div>
-<lb ed="B" n="0595b03"/><cb:div type="other"><cb:mulu type="其他" level="3">福州安國弘瑫明真禪師</cb:mulu><p xml:id="pB24p0595b0301" style="margin-left:0em;text-indent:2em">福州安國弘瑫明真禪師泉州陳氏子叅雪峰峰問
-<lb ed="B" n="0595b04"/>甚麼處來曰江西來峰曰甚麼處見達磨曰分明
-<lb ed="B" n="0595b05"/>向和尚道峰曰道甚麼曰甚麼處去來一日雪峰
-<lb ed="B" n="0595b06"/>見瑫搊住曰盡乾坤是箇解脫門把手拽伊不肻
-<lb ed="B" n="0595b07"/>入曰和尚恠弘瑫不得峰拓開曰雖然如此爭奈
-<lb ed="B" n="0595b08"/>背後許多師僧何後閩帥命居安國大闡玄風</p></cb:div>
-<lb ed="B" n="0595b09"/><cb:div type="other"><cb:mulu type="其他" level="3">泉州睡龍山道溥弘教禪師</cb:mulu><p xml:id="pB24p0595b0901" style="margin-left:0em;text-indent:2em">泉州睡龍山道溥弘教禪師福唐鄭氏子嗣雪峰</p></cb:div>
-<lb ed="B" n="0595b10"/><cb:div type="other"><cb:mulu type="其他" level="3">南岳金輪可觀禪師</cb:mulu><p xml:id="pB24p0595b1001" style="margin-left:0em;text-indent:2em">南岳金輪可觀禪師福唐薛氏子叅雪峰峰曰近前
-<lb ed="B" n="0595b11"/>來觀近前作禮峰與一蹋觀忽契悟師事十二載
-<lb ed="B" n="0595b12"/>復歷叢林住後上堂我在雪峰遭他一蹋直至如
-<lb ed="B" n="0595b13"/>今眼不開不知是何境界</p></cb:div>
-<lb ed="B" n="0595b14"/><cb:div type="other"><cb:mulu type="其他" level="3">福州大普山玄通禪師</cb:mulu><p xml:id="pB24p0595b1401" style="margin-left:0em;text-indent:2em">福州大普山玄通禪師本郡人嗣雪峰</p></cb:div>
-<lb ed="B" n="0595b15"/><cb:div type="other"><cb:mulu type="其他" level="3">福州長生山皎然禪師</cb:mulu><p xml:id="pB24p0595b1501" style="margin-left:0em;text-indent:2em">福州長生山皎然禪師本郡人久依雪峰一日與僧
-<lb ed="B" n="0595b16"/>斫樹次峰曰斫到心且住然曰斫<g ref="#CB30037"/>着峰曰古人
-<lb ed="B" n="0595b17"/>以心傳心汝為甚麼道斫<g ref="#CB30037"/>然擲下斧曰傳峰打
-<lb ed="B" n="0595b18"/>一拄杖而去</p></cb:div>
+<lb ed="B" n="0595b01"/>退謂人曰：「怤師之高論，人莫窺其極。」</p></cb:div>
+<lb ed="B" n="0595b02"/><cb:div type="other"><cb:mulu type="其他" level="3">漳州報恩懷岳禪師</cb:mulu><head>漳州報恩懷岳禪師</head><p xml:id="pB24p0595b0209" style="margin-left:0em;text-indent:2em;" cb:place="inline">泉州人，嗣雪峰。</p></cb:div>
+<lb ed="B" n="0595b03"/><cb:div type="other"><cb:mulu type="其他" level="3">福州安國弘瑫明真禪師</cb:mulu><head>福州安國弘瑫明真禪師</head><p xml:id="pB24p0595b0311" style="margin-left:0em;text-indent:2em;" cb:place="inline">泉州陳氏子。叅雪峰，峰問：
+<lb ed="B" n="0595b04"/>「甚麼處來？」曰：「江西來。」峰曰：「甚麼處見達磨？」曰：「分明
+<lb ed="B" n="0595b05"/>向和尚道。」峰曰：「道甚麼？」曰：「甚麼處去來。」一日，雪峰
+<lb ed="B" n="0595b06"/>見瑫，搊住曰：「盡乾坤是箇解脫門，把手拽伊不肻
+<lb ed="B" n="0595b07"/>入。」曰：「和尚恠弘瑫不得。」峰拓開曰：「雖然如此，爭奈
+<lb ed="B" n="0595b08"/>背後許多師僧何。」後閩帥命居安國，大闡玄風。</p></cb:div>
+<lb ed="B" n="0595b09"/><cb:div type="other"><cb:mulu type="其他" level="3">泉州睡龍山道溥弘教禪師</cb:mulu><head>泉州睡龍山道溥弘教禪師</head><p xml:id="pB24p0595b0912" style="margin-left:0em;text-indent:2em;" cb:place="inline">福唐鄭氏子，嗣雪峰。</p></cb:div>
+<lb ed="B" n="0595b10"/><cb:div type="other"><cb:mulu type="其他" level="3">南岳金輪可觀禪師</cb:mulu><head>南岳金輪可觀禪師</head><p xml:id="pB24p0595b1009" style="margin-left:0em;text-indent:2em;" cb:place="inline">福唐薛氏子。叅雪峰，峰曰：「近前
+<lb ed="B" n="0595b11"/>來。」觀近前作禮，峰與一蹋，觀忽契悟。師事十二載，
+<lb ed="B" n="0595b12"/>復歷叢林。住後上堂：「我在雪峰遭他一蹋，直至如
+<lb ed="B" n="0595b13"/>今眼不開，不知是何境界？」</p></cb:div>
+<lb ed="B" n="0595b14"/><cb:div type="other"><cb:mulu type="其他" level="3">福州大普山玄通禪師</cb:mulu><head>福州大普山玄通禪師</head><p xml:id="pB24p0595b1410" style="margin-left:0em;text-indent:2em;" cb:place="inline">本郡人，嗣雪峰。</p></cb:div>
+<lb ed="B" n="0595b15"/><cb:div type="other"><cb:mulu type="其他" level="3">福州長生山皎然禪師</cb:mulu><head>福州長生山皎然禪師</head><p xml:id="pB24p0595b1510" style="margin-left:0em;text-indent:2em;" cb:place="inline">本郡人，久依雪峰。一日，與僧
+<lb ed="B" n="0595b16"/>斫樹次，峰曰：「斫到心且住。」然曰：「斫<g ref="#CB30037"/>着。」峰曰：「古人
+<lb ed="B" n="0595b17"/>以心傳心，汝為甚麼道斫<g ref="#CB30037"/>？」然擲下斧曰：「傳！」峰打
+<lb ed="B" n="0595b18"/>一拄杖而去。</p></cb:div>
 <pb ed="B" xml:id="B24.0140.0596a" n="0596a"/>
-<lb ed="B" n="0596a01"/><cb:div type="other"><cb:mulu type="其他" level="3">信州鵝湖智孚禪師</cb:mulu><p xml:id="pB24p0596a0101" style="margin-left:0em;text-indent:2em">信州鵝湖智孚禪師福州人僧問雪峰拋下拄杖意
-<lb ed="B" n="0596a02"/>作麼生孚以香匙拋下地僧曰未審此意如何孚
-<lb ed="B" n="0596a03"/>曰不是好種出去</p></cb:div>
-<lb ed="B" n="0596a04"/><cb:div type="other"><cb:mulu type="其他" level="3">杭州西興化度院師郁悟真禪師</cb:mulu><p xml:id="pB24p0596a0401" style="margin-left:0em;text-indent:2em">杭州西興化度院師郁悟真禪師泉州人嗣雪峰</p></cb:div>
-<lb ed="B" n="0596a05"/><cb:div type="other"><cb:mulu type="其他" level="3">漳州隆壽紹卿興法禪師</cb:mulu><p xml:id="pB24p0596a0501" style="margin-left:0em;text-indent:2em">漳州隆壽紹卿興法禪師泉州陳氏子因侍雪峰山
-<lb ed="B" n="0596a06"/>行見芋葉動峰指葉示之卿曰紹卿甚生怕怖峰
-<lb ed="B" n="0596a07"/>曰是汝屋裏底怕怖甚麼卿于此有省</p></cb:div>
-<lb ed="B" n="0596a08"/><cb:div type="other"><cb:mulu type="其他" level="3">福州仙宗院行瑫仁慧禪師</cb:mulu><p xml:id="pB24p0596a0801" style="margin-left:0em;text-indent:2em">福州仙宗院行瑫仁慧禪師嗣雪峰</p></cb:div>
-<lb ed="B" n="0596a09"/><cb:div type="other"><cb:mulu type="其他" level="3">福州蓮華永福院從弇超證禪師</cb:mulu><p xml:id="pB24p0596a0901" style="margin-left:0em;text-indent:2em">福州蓮華永福院從弇超證禪師嗣雪峰</p></cb:div>
-<lb ed="B" n="0596a10"/><cb:div type="other"><cb:mulu type="其他" level="3">襄州雲葢雙泉院歸本禪師</cb:mulu><p xml:id="pB24p0596a1001" style="margin-left:0em;text-indent:2em">襄州雲葢雙泉院歸本禪師京兆府人初謁雪峰禮
-<lb ed="B" n="0596a11"/>拜次峰下禪牀跨背而坐本于此有省</p></cb:div>
-<lb ed="B" n="0596a12"/><cb:div type="other"><cb:mulu type="其他" level="3">韶州林泉和尚</cb:mulu><p xml:id="pB24p0596a1201" style="margin-left:0em;text-indent:2em">韶州林泉和尚嗣雪峰</p></cb:div>
-<lb ed="B" n="0596a13"/><cb:div type="other"><cb:mulu type="其他" level="3">洛京南院和尚</cb:mulu><p xml:id="pB24p0596a1301" style="margin-left:0em;text-indent:2em">洛京南院和尚嗣雪峰</p></cb:div>
-<lb ed="B" n="0596a14"/><cb:div type="other"><cb:mulu type="其他" level="3">越州洞巖可休禪師</cb:mulu><p xml:id="pB24p0596a1401" style="margin-left:0em;text-indent:2em">越州洞巖可休禪師嗣雪峰</p></cb:div>
-<lb ed="B" n="0596a15"/><cb:div type="other"><cb:mulu type="其他" level="3">定州法海院行周禪師</cb:mulu><p xml:id="pB24p0596a1501" style="margin-left:0em;text-indent:2em">定州法海院行周禪師嗣雪峰</p></cb:div>
-<lb ed="B" n="0596a16"/><cb:div type="other"><cb:mulu type="其他" level="3">杭州龍興宗靖禪師</cb:mulu><p xml:id="pB24p0596a1601" style="margin-left:0em;text-indent:2em">杭州龍興宗靖禪師台州人初叅雪峰誓<g ref="#CB11702"/>飯頭勞
-<lb ed="B" n="0596a17"/>逾十載嘗于眾堂中袒一膊釘簾峰覩而記曰汝
-<lb ed="B" n="0596a18"/>向後住持有千僧其中無一人衲子也靖悔過回
+<lb ed="B" n="0596a01"/><cb:div type="other"><cb:mulu type="其他" level="3">信州鵝湖智孚禪師</cb:mulu><head>信州鵝湖智孚禪師</head><p xml:id="pB24p0596a0109" style="margin-left:0em;text-indent:2em;" cb:place="inline">福州人。僧問：「雪峰拋下拄杖，意
+<lb ed="B" n="0596a02"/>作麼生？」孚以香匙拋下地，僧曰：「未審此意如何？」孚
+<lb ed="B" n="0596a03"/>曰：「不是好種，出去！」</p></cb:div>
+<lb ed="B" n="0596a04"/><cb:div type="other"><cb:mulu type="其他" level="3">杭州西興化度院師郁悟真禪師</cb:mulu><head>杭州西興化度院師郁悟真禪師</head><p xml:id="pB24p0596a0414" style="margin-left:0em;text-indent:2em;" cb:place="inline">泉州人，嗣雪峰。</p></cb:div>
+<lb ed="B" n="0596a05"/><cb:div type="other"><cb:mulu type="其他" level="3">漳州隆壽紹卿興法禪師</cb:mulu><head>漳州隆壽紹卿興法禪師</head><p xml:id="pB24p0596a0511" style="margin-left:0em;text-indent:2em;" cb:place="inline">泉州陳氏子。因侍雪峰山
+<lb ed="B" n="0596a06"/>行，見芋葉動，峰指葉示之，卿曰：「紹卿甚生怕怖。」峰
+<lb ed="B" n="0596a07"/>曰：「是汝屋裏底，怕怖甚麼？」卿于此有省。</p></cb:div>
+<lb ed="B" n="0596a08"/><cb:div type="other"><cb:mulu type="其他" level="3">福州仙宗院行瑫仁慧禪師</cb:mulu><head>福州仙宗院行瑫仁慧禪師</head><p xml:id="pB24p0596a0812" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0596a09"/><cb:div type="other"><cb:mulu type="其他" level="3">福州蓮華永福院從弇超證禪師</cb:mulu><head>福州蓮華永福院從弇超證禪師</head><p xml:id="pB24p0596a0914" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0596a10"/><cb:div type="other"><cb:mulu type="其他" level="3">襄州雲葢雙泉院歸本禪師</cb:mulu><head>襄州雲<note n="0596a1001" resp="CBETA" type="add">葢【CB】，<g ref="#CB33165"/>【補編】</note><app n="0596a1001"><lem wit="【CB】" resp="CBETA">葢</lem><rdg wit="【補編】"><g ref="#CB33165"/></rdg></app>雙泉院歸本禪師</head><p xml:id="pB24p0596a1019" style="margin-left:0em;text-indent:2em;" cb:place="inline">京兆府人。初謁雪峰，禮
+<lb ed="B" n="0596a11"/>拜次，峰下禪牀跨背而坐，本于此有省。</p></cb:div>
+<lb ed="B" n="0596a12"/><cb:div type="other"><cb:mulu type="其他" level="3">韶州林泉和尚</cb:mulu><head>韶州林泉和尚</head><p xml:id="pB24p0596a1207" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0596a13"/><cb:div type="other"><cb:mulu type="其他" level="3">洛京南院和尚</cb:mulu><head>洛京南院和尚</head><p xml:id="pB24p0596a1307" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0596a14"/><cb:div type="other"><cb:mulu type="其他" level="3">越州洞巖可休禪師</cb:mulu><head>越州洞巖可休禪師</head><p xml:id="pB24p0596a1409" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0596a15"/><cb:div type="other"><cb:mulu type="其他" level="3">定州法海院行周禪師</cb:mulu><head>定州法海院行周禪師</head><p xml:id="pB24p0596a1510" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0596a16"/><cb:div type="other"><cb:mulu type="其他" level="3">杭州龍興宗靖禪師</cb:mulu><head>杭州龍興宗靖禪師</head><p xml:id="pB24p0596a1609" style="margin-left:0em;text-indent:2em;" cb:place="inline">台州人。初叅雪峰，誓<g ref="#CB11702"/>飯頭，勞
+<lb ed="B" n="0596a17"/>逾十載。嘗于眾堂中袒一膊釘簾，峰覩而記曰：「汝
+<lb ed="B" n="0596a18"/>向後住持有千僧，其中無一人衲子也。」靖悔過。回
 <pb ed="B" xml:id="B24.0140.0596b" n="0596b"/>
-<lb ed="B" n="0596b01"/>浙住六通院錢王命居龍興寺有眾千餘惟三學
-<lb ed="B" n="0596b02"/>講誦之徒果如雪峰所記</p></cb:div>
-<lb ed="B" n="0596b03"/><cb:div type="other"><cb:mulu type="其他" level="3">福州越山師鼐監真禪師</cb:mulu><p xml:id="pB24p0596b0301" style="margin-left:0em;text-indent:2em">福州越山師鼐監真禪師初叅雪峰而染指後因閩
-<lb ed="B" n="0596b04"/>王請于清風樓齋坐久舉目忽覩日光豁然頓曉
-<lb ed="B" n="0596b05"/>而有偈曰清風樓上赴官齋此日平生眼豁開方
-<lb ed="B" n="0596b06"/>信普通年遠事不從葱嶺帶將來歸呈雪峰峰然
-<lb ed="B" n="0596b07"/>之臨終示偈曰眼光隨色盡耳識逐聲消還元無
-<lb ed="B" n="0596b08"/>別旨今日與明朝乃跏趺而逝</p></cb:div>
-<lb ed="B" n="0596b09"/><cb:div type="other"><cb:mulu type="其他" level="3">泉州福清院玄訥禪師</cb:mulu><p xml:id="pB24p0596b0901" style="margin-left:0em;text-indent:2em">泉州福清院玄訥禪師高麗人嗣雪峰</p></cb:div>
-<lb ed="B" n="0596b10"/><cb:div type="other"><cb:mulu type="其他" level="3">衢州南臺院仁禪師</cb:mulu><p xml:id="pB24p0596b1001" style="margin-left:0em;text-indent:2em">衢州南臺院仁禪師嗣雪峰</p></cb:div>
-<lb ed="B" n="0596b11"/><cb:div type="other"><cb:mulu type="其他" level="3">泉州東禪和尚</cb:mulu><p xml:id="pB24p0596b1101" style="margin-left:0em;text-indent:2em">泉州東禪和尚嗣雪峰</p></cb:div>
-<lb ed="B" n="0596b12"/><cb:div type="other"><cb:mulu type="其他" level="3">杭州大錢山從襲禪師</cb:mulu><p xml:id="pB24p0596b1201" style="margin-left:0em;text-indent:2em">杭州大錢山從襲禪師雪峰之上足也自雪峰印解
-<lb ed="B" n="0596b13"/>洞曉宗要常曰擊關南鼓唱雪峰歌後入浙中謁
-<lb ed="B" n="0596b14"/>錢王命居大錢山闡法</p></cb:div>
-<lb ed="B" n="0596b15"/><cb:div type="other"><cb:mulu type="其他" level="3">福州永泰和尚</cb:mulu><p xml:id="pB24p0596b1501" style="margin-left:0em;text-indent:2em">福州永泰和尚嗣雪峰</p></cb:div>
-<lb ed="B" n="0596b16"/><cb:div type="other"><cb:mulu type="其他" level="3">池州和龍壽昌院守訥妙空禪師</cb:mulu><p xml:id="pB24p0596b1601" style="margin-left:0em;text-indent:2em">池州和龍壽昌院守訥妙空禪師福州林氏子嗣雪
-<lb ed="B" n="0596b17"/>峰</p></cb:div>
-<lb ed="B" n="0596b18"/><cb:div type="other"><cb:mulu type="其他" level="3">建州夢筆和尚</cb:mulu><p xml:id="pB24p0596b1801" style="margin-left:0em;text-indent:2em">建州夢筆和尚嗣雪峰</p></cb:div>
+<lb ed="B" n="0596b01"/>浙住六通院，錢王命居龍興寺，有眾千餘，惟三學
+<lb ed="B" n="0596b02"/>講誦之徒，果如雪峰所記。</p></cb:div>
+<lb ed="B" n="0596b03"/><cb:div type="other"><cb:mulu type="其他" level="3">福州越山師鼐監真禪師</cb:mulu><head>福州越山師鼐監真禪師</head><p xml:id="pB24p0596b0311" style="margin-left:0em;text-indent:2em;" cb:place="inline">初叅雪峰而染指，後因閩
+<lb ed="B" n="0596b04"/>王請于清風樓齋，坐久舉目，忽覩日光，豁然頓曉，
+<lb ed="B" n="0596b05"/>而有偈曰：</p><lg xml:id="lgB24p0596b0505" cb:place="inline" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">清風樓上赴官齋　此日平生眼豁開</l><l style="text-indent:1em;">方
+<lb ed="B" n="0596b06"/>信普通年遠事　不從葱嶺帶將來</l></lg><p xml:id="pB24p0596b0615" style="margin-left:0em;text-indent:2em;" cb:place="inline">歸呈雪峰，峰然
+<lb ed="B" n="0596b07"/>之。臨終示偈曰：</p><lg xml:id="lgB24p0596b0707" cb:place="inline" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">眼光隨色盡　耳識逐聲消</l><l style="text-indent:1em;">還元無
+<lb ed="B" n="0596b08"/>別旨　今日與明朝</l></lg><p xml:id="pB24p0596b0809" style="margin-left:0em;text-indent:2em;" cb:place="inline">乃跏趺而逝。</p></cb:div>
+<lb ed="B" n="0596b09"/><cb:div type="other"><cb:mulu type="其他" level="3">泉州福清院玄訥禪師</cb:mulu><head>泉州福清院玄訥禪師</head><p xml:id="pB24p0596b0910" style="margin-left:0em;text-indent:2em;" cb:place="inline">高麗人，嗣雪峰。</p></cb:div>
+<lb ed="B" n="0596b10"/><cb:div type="other"><cb:mulu type="其他" level="3">衢州南臺院仁禪師</cb:mulu><head>衢州南臺院仁禪師</head><p xml:id="pB24p0596b1009" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0596b11"/><cb:div type="other"><cb:mulu type="其他" level="3">泉州東禪和尚</cb:mulu><head>泉州東禪和尚</head><p xml:id="pB24p0596b1107" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0596b12"/><cb:div type="other"><cb:mulu type="其他" level="3">杭州大錢山從襲禪師</cb:mulu><head>杭州大錢山從襲禪師</head><p xml:id="pB24p0596b1210" style="margin-left:0em;text-indent:2em;" cb:place="inline">雪峰之上足也。自雪峰印解，
+<lb ed="B" n="0596b13"/>洞曉宗要，常曰：「擊關南鼓，唱雪峰歌。」後入浙中，謁
+<lb ed="B" n="0596b14"/>錢王，命居大錢山闡法。</p></cb:div>
+<lb ed="B" n="0596b15"/><cb:div type="other"><cb:mulu type="其他" level="3">福州永泰和尚</cb:mulu><head>福州永泰和尚</head><p xml:id="pB24p0596b1507" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0596b16"/><cb:div type="other"><cb:mulu type="其他" level="3">池州和龍壽昌院守訥妙空禪師</cb:mulu><head>池州和龍壽昌院守訥妙空禪師</head><p xml:id="pB24p0596b1614" style="margin-left:0em;text-indent:2em;" cb:place="inline">福州林氏子，嗣雪
+<lb ed="B" n="0596b17"/>峰。</p></cb:div>
+<lb ed="B" n="0596b18"/><cb:div type="other"><cb:mulu type="其他" level="3">建州夢筆和尚</cb:mulu><head>建州夢筆和尚</head><p xml:id="pB24p0596b1807" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
 <pb ed="B" xml:id="B24.0140.0597a" n="0597a"/>
-<lb ed="B" n="0597a01"/><cb:div type="other"><cb:mulu type="其他" level="3">福州極樂元儼禪師</cb:mulu><p xml:id="pB24p0597a0101" style="margin-left:0em;text-indent:2em">福州極樂元儼禪師嗣雪峰</p></cb:div>
-<lb ed="B" n="0597a02"/><cb:div type="other"><cb:mulu type="其他" level="3">福州芙蓉山如體禪師</cb:mulu><p xml:id="pB24p0597a0201" style="margin-left:0em;text-indent:2em">福州芙蓉山如體禪師嗣雪峰</p></cb:div>
-<lb ed="B" n="0597a03"/><cb:div type="other"><cb:mulu type="其他" level="3">洛京憇鶴山和尚</cb:mulu><p xml:id="pB24p0597a0301" style="margin-left:0em;text-indent:2em">洛京憇鶴山和尚嗣雪峰</p></cb:div>
-<lb ed="B" n="0597a04"/><cb:div type="other"><cb:mulu type="其他" level="3">潭州大溈山棲禪師</cb:mulu><p xml:id="pB24p0597a0401" style="margin-left:0em;text-indent:2em">潭州大溈山棲禪師嗣雪峰</p></cb:div>
-<lb ed="B" n="0597a05"/><cb:div type="other"><cb:mulu type="其他" level="3">吉州潮山延宗禪師</cb:mulu><p xml:id="pB24p0597a0501" style="margin-left:0em;text-indent:2em">吉州潮山延宗禪師嗣雪峰</p></cb:div>
-<lb ed="B" n="0597a06"/><cb:div type="other"><cb:mulu type="其他" level="3">益州普通山普明禪師</cb:mulu><p xml:id="pB24p0597a0601" style="margin-left:0em;text-indent:2em">益州普通山普明禪師嗣雪峰</p></cb:div>
-<lb ed="B" n="0597a07"/><cb:div type="other"><cb:mulu type="其他" level="3">隨州雙泉山梁家菴永禪師</cb:mulu><p xml:id="pB24p0597a0701" style="margin-left:0em;text-indent:2em">隨州雙泉山梁家菴永禪師嗣雪峰</p></cb:div>
-<lb ed="B" n="0597a08"/><cb:div type="other"><cb:mulu type="其他" level="3">漳州保福院超悟禪師</cb:mulu><p xml:id="pB24p0597a0801" style="margin-left:0em;text-indent:2em">漳州保福院超悟禪師嗣雪峰</p></cb:div>
-<lb ed="B" n="0597a09"/><cb:div type="other"><cb:mulu type="其他" level="3">太原孚上座</cb:mulu><p xml:id="pB24p0597a0901" style="margin-left:0em;text-indent:2em">太原孚上座初至雪峰廨院憇錫因分柑子與僧長
-<lb ed="B" n="0597a10"/>慶問甚麼處將來孚曰嶺外將來曰遠涉不易擔
-<lb ed="B" n="0597a11"/>負孚曰柑子柑子次日上山雪峰聞乃集眾孚到
-<lb ed="B" n="0597a12"/>法堂上顧視雪峰便下看知事明日<g ref="#CB30037"/>上禮拜曰
-<lb ed="B" n="0597a13"/>某甲昨日觸忤和尚峰曰知是般事便休峰一日
-<lb ed="B" n="0597a14"/>見孚乃指日示之孚搖手而出峰曰汝不肻我那
-<lb ed="B" n="0597a15"/>孚曰和尚搖頭某甲擺尾甚麼處是不肻峰曰到
-<lb ed="B" n="0597a16"/>處也須諱<g ref="#CB30037"/>一日眾僧晚叅峰在中庭臥孚曰五
-<lb ed="B" n="0597a17"/>州管內祇有這老和尚較些子峰便起去峰嘗問
-<lb ed="B" n="0597a18"/>孚見臨濟說有三句是否孚曰是曰作麼生是第
+<lb ed="B" n="0597a01"/><cb:div type="other"><cb:mulu type="其他" level="3">福州極樂元儼禪師</cb:mulu><head>福州極樂元儼禪師</head><p xml:id="pB24p0597a0109" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0597a02"/><cb:div type="other"><cb:mulu type="其他" level="3">福州芙蓉山如體禪師</cb:mulu><head>福州芙蓉山如體禪師</head><p xml:id="pB24p0597a0210" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0597a03"/><cb:div type="other"><cb:mulu type="其他" level="3">洛京憇鶴山和尚</cb:mulu><head>洛京憇鶴山和尚</head><p xml:id="pB24p0597a0308" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0597a04"/><cb:div type="other"><cb:mulu type="其他" level="3">潭州大溈山棲禪師</cb:mulu><head>潭州大溈山棲禪師</head><p xml:id="pB24p0597a0409" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0597a05"/><cb:div type="other"><cb:mulu type="其他" level="3">吉州潮山延宗禪師</cb:mulu><head>吉州潮山延宗禪師</head><p xml:id="pB24p0597a0509" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0597a06"/><cb:div type="other"><cb:mulu type="其他" level="3">益州普通山普明禪師</cb:mulu><head>益州普通山普明禪師</head><p xml:id="pB24p0597a0610" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0597a07"/><cb:div type="other"><cb:mulu type="其他" level="3">隨州雙泉山梁家菴永禪師</cb:mulu><head>隨州雙泉山梁家菴永禪師</head><p xml:id="pB24p0597a0712" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0597a08"/><cb:div type="other"><cb:mulu type="其他" level="3">漳州保福院超悟禪師</cb:mulu><head>漳州保福院超悟禪師</head><p xml:id="pB24p0597a0810" style="margin-left:0em;text-indent:2em;" cb:place="inline">嗣雪峰。</p></cb:div>
+<lb ed="B" n="0597a09"/><cb:div type="other"><cb:mulu type="其他" level="3">太原孚上座</cb:mulu><head>太原孚上座</head><p xml:id="pB24p0597a0906" style="margin-left:0em;text-indent:2em;" cb:place="inline">初至雪峰廨院憇錫，因分柑子與僧，長
+<lb ed="B" n="0597a10"/>慶問：「甚麼處將來？」孚曰：「嶺外將來。」曰：「遠涉不易擔
+<lb ed="B" n="0597a11"/>負。」孚曰：「柑子，柑子。」次日上山，雪峰聞，乃集眾，孚到
+<lb ed="B" n="0597a12"/>法堂上顧視，雪峰便下看。知事明日<g ref="#CB30037"/>上禮拜曰：
+<lb ed="B" n="0597a13"/>「某甲昨日觸忤和尚。」峰曰：「知是般事便休。」峰一日
+<lb ed="B" n="0597a14"/>見孚，乃指日示之，孚搖手而出，峰曰：「汝不肻我那？」
+<lb ed="B" n="0597a15"/>孚曰：「和尚搖頭，某甲擺尾，甚麼處是不肻？」峰曰：「到
+<lb ed="B" n="0597a16"/>處也須諱<g ref="#CB30037"/>。」一日眾僧晚叅，峰在中庭臥，孚曰：「五
+<lb ed="B" n="0597a17"/>州管內，祇有這老和尚較些子。」峰便起去。峰嘗問
+<lb ed="B" n="0597a18"/>孚：「見臨濟說有三句是否？」孚曰：「是。」曰：「作麼生是第
 <pb ed="B" xml:id="B24.0140.0597b" n="0597b"/>
-<lb ed="B" n="0597b01"/>一句孚舉目視之峰曰此猶是第二句如何是第
-<lb ed="B" n="0597b02"/>一句孚<note n="0597b0201" resp="CBETA" type="add" cb:note_key="B24.0597b02.04">叉【CB】，乂【補編】</note><app n="0597b0201"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">叉<note type="cf1">T01n0001_p0008b27</note></lem><rdg wit="【補編】">乂</rdg></app>手而退自此雪峰深器之室中解印師
-<lb ed="B" n="0597b03"/>資道契更不他遊而掌浴焉</p></cb:div>
-<lb ed="B" n="0597b04"/><cb:div type="other"><cb:mulu type="其他" level="3">南岳般若惟勁寶聞禪師</cb:mulu><p xml:id="pB24p0597b0401" style="margin-left:0em;text-indent:2em">南岳般若惟勁寶聞禪師福州人師雪峰而友玄沙
-<lb ed="B" n="0597b05"/>深入玄奧嘗請寶林傳四卷紀貞元之後宗門繼
-<lb ed="B" n="0597b06"/>踵之源流者又別著南岳高僧傳行于世</p>
-<lb ed="B" n="0597b07"/><p xml:id="pB24p0597b0701" style="margin-left:0em;text-indent:2em">論曰真覺大師大闡宗風為八閩傳法之祖法席
-<lb ed="B" n="0597b08"/>之盛卓冠天下四方緇衲從者一千五百眾而傳
-<lb ed="B" n="0597b09"/>燈所載入室法嗣惟五十有五人亦各成佛作祖
-<lb ed="B" n="0597b10"/>與師問答<g ref="#CB33209"/>毬喝棒悟證之語咸錄弗遺至于他
-<lb ed="B" n="0597b11"/>山開堂別有機警不關雪峰話下者但列其名而
-<lb ed="B" n="0597b12"/><note n="0597b1201" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0597b1201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>若夫燈燈相續鉢鉢相承降是以還我則不暇</p></cb:div></cb:div>
+<lb ed="B" n="0597b01"/>一句？」孚舉目視之。峰曰：「此猶是第二句，如何是第
+<lb ed="B" n="0597b02"/>一句？」孚<note n="0597b0201" resp="CBETA" type="add" cb:note_key="B24.0597b02.04">叉【CB】，乂【補編】</note><app n="0597b0201"><lem wit="【CB】" resp="CBETA.poyung" cb:provider="趙文平 (2021-07-27)">叉<note type="cf1">T01n0001_p0008b27</note></lem><rdg wit="【補編】">乂</rdg></app>手而退。自此雪峰深器之，室中解印，師
+<lb ed="B" n="0597b03"/>資道契，更不他遊而掌浴焉。</p></cb:div>
+<lb ed="B" n="0597b04"/><cb:div type="other"><cb:mulu type="其他" level="3">南岳般若惟勁寶聞禪師</cb:mulu><head>南岳般若惟勁寶聞禪師</head><p xml:id="pB24p0597b0411" style="margin-left:0em;text-indent:2em;" cb:place="inline">福州人。師雪峰而友玄沙，
+<lb ed="B" n="0597b05"/>深入玄奧，嘗請《寶林傳》四卷，紀貞元之後宗門繼
+<lb ed="B" n="0597b06"/>踵之源流者，又別著《南岳高僧傳》行于世。</p></cb:div>
+<lb ed="B" n="0597b07"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰法嗣論</cb:mulu><p xml:id="pB24p0597b0701" style="margin-left:0em;text-indent:2em;">論曰：真覺大師大闡宗風，為八閩傳法之祖，法席
+<lb ed="B" n="0597b08"/>之盛，卓冠天下。四方緇衲從者一千五百眾，而《傳
+<lb ed="B" n="0597b09"/>燈》所載入室法嗣惟五十有五人，亦各成佛作祖。
+<lb ed="B" n="0597b10"/>與師問答、<g ref="#CB33209"/>毬、喝棒、悟證之語，咸錄弗遺，至于他
+<lb ed="B" n="0597b11"/>山開堂，別有機警，不關雪峰話下者，但列其名而
+<lb ed="B" n="0597b12"/><note n="0597b1201" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0597b1201"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>。若夫燈燈相續，鉢鉢相承，降是以還，我則不暇。</p></cb:div></cb:div>
 <lb ed="B" n="0597b13"/><cb:div type="other"><cb:mulu type="其他" level="2">雪峰別支</cb:mulu><head>雪峰別支</head>
-<lb ed="B" n="0597b14"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰欽山主</cb:mulu><p xml:id="pB24p0597b1401" style="margin-left:0em;text-indent:2em">雪峰欽山主上堂昨日一今日二不用思量快須瞥
-<lb ed="B" n="0597b15"/>地不瞥地蹉過半生沒巴鼻咄後嗣雲門妙勝臻
-<lb ed="B" n="0597b16"/>禪師</p></cb:div>
-<lb ed="B" n="0597b17"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰思慧禪師</cb:mulu><p xml:id="pB24p0597b1701" style="margin-left:0em;text-indent:2em">雪峰思慧禪師上堂大道祇在目前要且目前難覩
-<lb ed="B" n="0597b18"/>欲識大道真體今朝三月十五不勞久立文曰一
+<lb ed="B" n="0597b14"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰欽山主</cb:mulu><head>雪峰欽山主</head><p xml:id="pB24p0597b1406" style="margin-left:0em;text-indent:2em;" cb:place="inline">上堂：「昨日一，今日二。不用思量，快須瞥
+<lb ed="B" n="0597b15"/>地；不瞥地，蹉過半生沒巴鼻。咄！」後嗣雲門妙勝臻
+<lb ed="B" n="0597b16"/>禪師。</p></cb:div>
+<lb ed="B" n="0597b17"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰思慧禪師</cb:mulu><head>雪峰思慧禪師</head><p xml:id="pB24p0597b1707" style="margin-left:0em;text-indent:2em;" cb:place="inline">上堂：「大道祇在目前，要且目前難覩；
+<lb ed="B" n="0597b18"/>欲識大道真體，今朝三月十五，不勞久立。」<note n="0597b1801" resp="CBETA" type="add">又【CB】，文【補編】</note><app n="0597b1801"><lem wit="【CB】" resp="CBETA">又</lem><rdg wit="【補編】">文</rdg></app>曰：「一
 <pb ed="B" xml:id="B24.0140.0598a" n="0598a"/>
-<lb ed="B" n="0598a01"/>切法無差雲門胡餅趙州茶黃鶴樓中吹玉笛江
-<lb ed="B" n="0598a02"/>城五月落梅花慚愧太原孚上座五更聞鼓角天
-<lb ed="B" n="0598a03"/>曉弄琵琶喝一喝文曰南詢諸友踏破草鞋絕學
-<lb ed="B" n="0598a04"/>無為坐消日月凡情易脫聖解難忘但有纖毫皆
-<lb ed="B" n="0598a05"/>成<g ref="#CB09707"/>漏可中為道似地擎山應物現形如驢<g ref="#CB15111"/>井
-<lb ed="B" n="0598a06"/>總無計較途轍<note n="0598a0601" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0598a0601"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>成若論相應轉沒交涉勉諸仁
-<lb ed="B" n="0598a07"/>者莫錯用心各自歸堂更求何事後嗣雲門法堂
-<lb ed="B" n="0598a08"/>本禪師</p></cb:div>
-<lb ed="B" n="0598a09"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰演禪師</cb:mulu><p xml:id="pB24p0598a0901" style="margin-left:0em;text-indent:2em">雪峰演禪師上堂遣迷求悟不知迷是悟之鉗鎚愛
-<lb ed="B" n="0598a10"/>聖憎凡不知凡是聖之爐鞴祗如聖凡雙泯迷悟
-<lb ed="B" n="0598a11"/>俱忘一句作麼生道半夜彩霞籠玉象天明峰頂
-<lb ed="B" n="0598a12"/>五雲遮後嗣雲門元豐滿禪師</p></cb:div>
-<lb ed="B" n="0598a13"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰道圓禪師</cb:mulu><p xml:id="pB24p0598a1301" style="margin-left:0em;text-indent:2em">雪峰道圓禪師依積翠日宴坐下板時二僧論野狐
-<lb ed="B" n="0598a14"/>話一云不昧因果也未脫得野狐身一云不落因
-<lb ed="B" n="0598a15"/>果又何曾墮野狐來師聞之悚然因詣積翠菴渡
-<lb ed="B" n="0598a16"/>澗猛省述偈曰不落不昧僧俗本無忌諱丈夫氣
-<lb ed="B" n="0598a17"/>宇如王爭受囊藏被葢一條楖栗任縱橫野狐跳
-<lb ed="B" n="0598a18"/>入金毛隊翠見為助喜後嗣臨濟黃龍南禪師</p></cb:div>
+<lb ed="B" n="0598a01"/>切法無差，雲門胡餅趙州茶；黃鶴樓中吹玉笛，江
+<lb ed="B" n="0598a02"/>城五月落梅花。慚愧！太原孚上座，五更聞鼓角，天
+<lb ed="B" n="0598a03"/>曉弄琵琶。」喝一喝又曰：「南詢諸友，踏破草鞋，絕學
+<lb ed="B" n="0598a04"/>無為，坐消日月。凡情易脫，聖解難忘，但有纖毫，皆
+<lb ed="B" n="0598a05"/>成<g ref="#CB09707"/>漏。可中為道，似地擎山，應物現形，如驢<g ref="#CB15111"/>井。
+<lb ed="B" n="0598a06"/>總無計較，途轍<note n="0598a0601" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0598a0601"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>成，若論相應，轉沒交涉。勉諸仁
+<lb ed="B" n="0598a07"/>者，莫錯用心，各自歸堂，更求何事！」後嗣雲門法堂
+<lb ed="B" n="0598a08"/>本禪師。</p></cb:div>
+<lb ed="B" n="0598a09"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰演禪師</cb:mulu><head>雪峰演禪師</head><p xml:id="pB24p0598a0906" style="margin-left:0em;text-indent:2em;" cb:place="inline">上堂：「遣迷求悟，不知迷是悟之鉗鎚；愛
+<lb ed="B" n="0598a10"/>聖憎凡，不知凡是聖之爐鞴。祗如聖凡雙泯、迷悟
+<lb ed="B" n="0598a11"/>俱忘一句作麼生道？半夜彩霞籠玉象，天明峰頂
+<lb ed="B" n="0598a12"/>五雲遮。」後嗣雲門元豐滿禪師。</p></cb:div>
+<lb ed="B" n="0598a13"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰道圓禪師</cb:mulu><head>雪峰道圓禪師</head><p xml:id="pB24p0598a1307" style="margin-left:0em;text-indent:2em;" cb:place="inline">依積翠日，宴坐下板，時二僧論野狐
+<lb ed="B" n="0598a14"/>話。一云：「不昧因果，也未脫得野狐身。」一云：「不落因
+<lb ed="B" n="0598a15"/>果，又何曾墮野狐來。」師聞之悚然，因詣積翠菴，渡
+<lb ed="B" n="0598a16"/>澗猛省，述偈曰：</p><lg xml:id="lgB24p0598a1607" cb:place="inline" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">不落不昧　僧俗本無忌諱</l><l style="text-indent:1em;">丈夫氣
+<lb ed="B" n="0598a17"/>宇如王　爭受囊藏被<note n="0598a1701" resp="CBETA" type="add">葢【CB】，<g ref="#CB33165"/>【補編】</note><app n="0598a1701"><lem wit="【CB】" resp="CBETA">葢</lem><rdg wit="【補編】"><g ref="#CB33165"/></rdg></app></l><l style="text-indent:1em;">一條楖栗任縱橫　野狐跳
+<lb ed="B" n="0598a18"/>入金毛隊</l></lg><p xml:id="pB24p0598a1805" style="margin-left:0em;text-indent:2em;" cb:place="inline">翠見為助喜。後嗣臨濟黃龍南禪師。</p></cb:div>
 <pb ed="B" xml:id="B24.0140.0598b" n="0598b"/>
-<lb ed="B" n="0598b01"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰慧空禪師</cb:mulu><p xml:id="pB24p0598b0101" style="margin-left:0em;text-indent:2em">雪峰慧空禪師上堂俊快底點着便行癡鈍底推挽
-<lb ed="B" n="0598b02"/>不動便行則人人歡喜不動則箇箇生嫌山僧而
-<lb ed="B" n="0598b03"/>今轉此癡鈍為俊快去也彈指一下曰從前推挽
-<lb ed="B" n="0598b04"/>不出而今出從前有院不住而今住從前嫌佛不
-<lb ed="B" n="0598b05"/>做而今做從前嫌法不說而今說出不出住不住
-<lb ed="B" n="0598b06"/>即且置敢問諸人做底是甚麼佛空王佛耶然燈
-<lb ed="B" n="0598b07"/>佛耶釋迦佛耶彌勒佛耶說底又是甚麼法根本
-<lb ed="B" n="0598b08"/>法耶無生法耶世間法耶出世間法耶眾中莫有
-<lb ed="B" n="0598b09"/>道得底麼若道得山僧出世事畢如或未然逢人
-<lb ed="B" n="0598b10"/>不得錯舉喝一喝下座後嗣臨濟潭清禪師</p></cb:div>
-<lb ed="B" n="0598b11"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰忠禪師</cb:mulu><p xml:id="pB24p0598b1101" style="margin-left:0em;text-indent:2em">雪峰忠禪師上堂終日忙忙那事無妨作麼生是那
-<lb ed="B" n="0598b12"/>事良久曰心不負人面無慚色後嗣臨濟雪峰需
-<lb ed="B" n="0598b13"/>禪師</p></cb:div>
-<lb ed="B" n="0598b14"/><cb:div type="other"><cb:mulu type="其他" level="3">吉州禾山殷禪師</cb:mulu><p xml:id="pB24p0598b1401" style="margin-left:0em;text-indent:2em">吉州禾山殷禪師福州吳氏子也七齡雪峰存禪師
-<lb ed="B" n="0598b15"/>見而愛其純篤化其親令出家年二十乃剃落受
-<lb ed="B" n="0598b16"/>具辭游方至九峰虔公問汝遠來何所見當遊何
-<lb ed="B" n="0598b17"/>路出生死對曰重昏廓闢盲者自盲虔笑以手揮
-<lb ed="B" n="0598b18"/>之曰佛法不如是殷不懌請曰豈無方便曰汝問
+<lb ed="B" n="0598b01"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰慧空禪師</cb:mulu><head>雪峰慧空禪師</head><p xml:id="pB24p0598b0107" style="margin-left:0em;text-indent:2em;" cb:place="inline">上堂：「俊快底點着便行，癡鈍底推挽
+<lb ed="B" n="0598b02"/>不動；便行則人人歡喜，不動則箇箇生嫌。山僧而
+<lb ed="B" n="0598b03"/>今轉此癡鈍為俊快去也。」彈指一下曰：「從前推挽
+<lb ed="B" n="0598b04"/>不出而今出，從前有院不住而今住，從前嫌佛不
+<lb ed="B" n="0598b05"/>做而今做，從前嫌法不說而今說。出不出，住不住，
+<lb ed="B" n="0598b06"/>即且置，敢問諸人做底是甚麼佛？空王佛耶，然燈
+<lb ed="B" n="0598b07"/>佛耶，釋迦佛耶，彌勒佛耶？說底又是甚麼法？根本
+<lb ed="B" n="0598b08"/>法耶，無生法耶，世間法耶，出世間法耶？眾中莫有
+<lb ed="B" n="0598b09"/>道得底麼？若道得，山僧出世事畢；如或未然，逢人
+<lb ed="B" n="0598b10"/>不得錯舉。」喝一喝下座。後嗣臨濟潭清禪師。</p></cb:div>
+<lb ed="B" n="0598b11"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰忠禪師</cb:mulu><head>雪峰忠禪師</head><p xml:id="pB24p0598b1106" style="margin-left:0em;text-indent:2em;" cb:place="inline">上堂：「終日忙忙，那事無妨。作麼生是那
+<lb ed="B" n="0598b12"/>事？」良久曰：「心不負人，面無慚色。」後嗣臨濟雪峰需
+<lb ed="B" n="0598b13"/>禪師。</p></cb:div>
+<lb ed="B" n="0598b14"/><cb:div type="other"><cb:mulu type="其他" level="3">吉州禾山殷禪師</cb:mulu><head>吉州禾山殷禪師</head><p xml:id="pB24p0598b1408" style="margin-left:0em;text-indent:2em;" cb:place="inline">福州吳氏子也。七齡，雪峰存禪師
+<lb ed="B" n="0598b15"/>見而愛其純篤，化其親令出家。年二十，乃剃落。受
+<lb ed="B" n="0598b16"/>具，辭游方，至九峰，虔公問：「汝遠來何所見？當遊何
+<lb ed="B" n="0598b17"/>路出生死？」對曰：「重昏廓闢，盲者自盲。」虔笑以手揮
+<lb ed="B" n="0598b18"/>之，曰：「佛法不如是。」殷不懌，請曰：「豈無方便？」曰：「汝問
 <pb ed="B" xml:id="B24.0140.0599a" n="0599a"/>
-<lb ed="B" n="0599a01"/>我殷理前語問之曰奴見婢慇懃殷於是依止十
-<lb ed="B" n="0599a02"/>餘年虔移居石門亦從之及虔歿去游廬陵至永
-<lb ed="B" n="0599a03"/>新見東南山奇勝乃承水而往有故寺址葢文德
-<lb ed="B" n="0599a04"/>中異僧達奚道塲遂定居學者雲集唐後主聞其
-<lb ed="B" n="0599a05"/>名詔至金陵問佛法大意久之有旨延居揚州祥
-<lb ed="B" n="0599a06"/>光寺懇辭歸西山詔住翠巖又住上藍寺賜號澄
-<lb ed="B" n="0599a07"/>源禪師建隆元年庚申三月示疾三月三日令侍
-<lb ed="B" n="0599a08"/>者開方丈集大眾曰後來學者未識禾山即令識
-<lb ed="B" n="0599a09"/>取泊然而化閱世七十坐夏五十<note n="0599a0901" resp="CBETA" type="add">諡【CB】，謚【補編】</note><app n="0599a0901"><lem wit="【CB】" resp="CBETA.maha">諡</lem><rdg wit="【補編】">謚</rdg></app>法性禪師塔
-<lb ed="B" n="0599a10"/>日妙相</p>
-<lb ed="B" n="0599a11"/><p xml:id="pB24p0599a1101" style="margin-left:0em;text-indent:2em">論曰雪峰闡教開宗為六祖嫡派佛法大盛于東
-<lb ed="B" n="0599a12"/>南而當時叅學如雲一悟玄機瓢笠遠徙雖嗣法
-<lb ed="B" n="0599a13"/>別支夫非法門之龍象乎佛日長輝宗風不泯其
-<lb ed="B" n="0599a14"/>在斯矣</p></cb:div></cb:div>
+<lb ed="B" n="0599a01"/>我。」殷理前語問之，曰：「奴見婢慇懃。」殷於是依止十
+<lb ed="B" n="0599a02"/>餘年，虔移居石門，亦從之。及虔歿，去游廬陵，至永
+<lb ed="B" n="0599a03"/>新，見東南山奇勝，乃承水而往。有故寺址，<note n="0599a0301" resp="CBETA" type="add">葢【CB】，<g ref="#CB33165"/>【補編】</note><app n="0599a0301"><lem wit="【CB】" resp="CBETA">葢</lem><rdg wit="【補編】"><g ref="#CB33165"/></rdg></app>文德
+<lb ed="B" n="0599a04"/>中異僧達奚道塲。遂定居，學者雲集。唐後主聞其
+<lb ed="B" n="0599a05"/>名，詔至金陵，問佛法大意。久之，有旨延居揚州祥
+<lb ed="B" n="0599a06"/>光寺，懇辭歸西山。詔住翠巖，又住上藍寺，賜號「澄
+<lb ed="B" n="0599a07"/>源禪師」。建隆元年庚申三月示疾，三月三日，令侍
+<lb ed="B" n="0599a08"/>者開方丈，集大眾曰：「後來學者未識禾山，即令識
+<lb ed="B" n="0599a09"/>取。」泊然而化，閱世七十，坐夏五十，<note n="0599a0901" resp="CBETA" type="add">諡【CB】，謚【補編】</note><app n="0599a0901"><lem wit="【CB】" resp="CBETA">諡</lem><rdg wit="【補編】">謚</rdg></app>法性禪師，塔
+<lb ed="B" n="0599a10"/>曰妙相。</p></cb:div>
+<lb ed="B" n="0599a11"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰別支論</cb:mulu><p xml:id="pB24p0599a1101" style="margin-left:0em;text-indent:2em;">論曰：雪峰闡教開宗，為六祖嫡派，佛法大盛于東
+<lb ed="B" n="0599a12"/>南，而當時叅學如雲。一悟玄機，瓢笠遠徙，雖嗣法
+<lb ed="B" n="0599a13"/>別支，夫非法門之龍象乎？佛日長輝，宗風不泯，其
+<lb ed="B" n="0599a14"/>在斯矣。</p></cb:div></cb:div>
 <lb ed="B" n="0599a15"/>
 <lb ed="B" n="0599a16"/>
 <lb ed="B" n="0599a17"/>
@@ -369,326 +390,623 @@
 <lb ed="B" n="0599b08"/>
 <lb ed="B" n="0599b09"/>
 <lb ed="B" n="0599b10"/><cb:div type="other"><cb:mulu type="其他" level="2">東土祖師系圖譜</cb:mulu><head>東土祖師系圖譜</head>
-<lb ed="B" n="0599b11"/><p xml:id="pB24p0599b1101"><figure><graphic url="../figures/B/B24p0599_01.gif"></graphic></figure></p>
-<lb ed="B" n="0599b12"/>
-<lb ed="B" n="0599b13"/>
-<lb ed="B" n="0599b14"/>
-<lb ed="B" n="0599b15"/>
-<lb ed="B" n="0599b16"/>
-<lb ed="B" n="0599b17"/>
-<lb ed="B" n="0599b18"/>
+<lb ed="B" n="0599b11"/><list rend="no-marker"><item xml:id="itemB24p0599b1101">初祖達磨
+<lb ed="B" n="0599b12"/><list rend="no-marker"><item xml:id="itemB24p0599b1201">二祖慧可
+<lb ed="B" n="0599b13"/><list rend="no-marker"><item xml:id="itemB24p0599b1301">三祖僧璨
+<lb ed="B" n="0599b14"/><list rend="no-marker"><item xml:id="itemB24p0599b1401">四祖道信
+<lb ed="B" n="0599b15"/><list rend="no-marker"><item xml:id="itemB24p0599b1501">五祖弘忍
+<lb ed="B" n="0599b16"/><list rend="no-marker"><item xml:id="itemB24p0599b1601">六祖慧能
+<lb ed="B" n="0599b17"/><list rend="no-marker"><item xml:id="itemB24p0599b1701">青原行思
+<lb ed="B" n="0599b18"/><list rend="no-marker"><item xml:id="itemB24p0599b1801">石頭希遷
+<lb ed="B" n="0599b19"/><list rend="no-marker"><item xml:id="itemB24p0599b1901">天皇道悟
+<lb ed="B" n="0599b20"/><list rend="no-marker"><item xml:id="itemB24p0599b2001">龍潭崇信
+<lb ed="B" n="0599b21"/><list rend="no-marker"><item xml:id="itemB24p0599b2101">德山宣鑒
+<lb ed="B" n="0599b22"/><list rend="no-marker"><item xml:id="itemB24p0599b2201">雪峰義存
+<lb ed="B" n="0599b23"/><list rend="no-marker"><item xml:id="itemB24p0599b2301">雲門文偃（分派）</item>
+<lb ed="B" n="0599b24"/><item xml:id="itemB24p0599b2401">玄沙師備
+<lb ed="B" n="0599b25"/><list rend="no-marker"><item xml:id="itemB24p0599b2501">羅漢桂琛
+<lb ed="B" n="0599b26"/><list rend="no-marker"><item xml:id="itemB24p0599b2601">法眼文益（分派）</item>
 <pb ed="B" xml:id="B24.0140.0600a" n="0600a"/>
-<lb ed="B" n="0600a01"/><p xml:id="pB24p0600a0101"><figure><graphic url="../figures/B/B24p0600_01.gif"></graphic></figure></p>
-<lb ed="B" n="0600a02"/>
-<lb ed="B" n="0600a03"/>
-<lb ed="B" n="0600a04"/>
-<lb ed="B" n="0600a05"/>
-<lb ed="B" n="0600a06"/>
-<lb ed="B" n="0600a07"/>
-<lb ed="B" n="0600a08"/>
-<lb ed="B" n="0600a09"/>
-<lb ed="B" n="0600a10"/>
-<lb ed="B" n="0600a11"/>
-<lb ed="B" n="0600a12"/>
-<lb ed="B" n="0600a13"/>
-<lb ed="B" n="0600a14"/>
-<lb ed="B" n="0600a15"/>
-<lb ed="B" n="0600a16"/>
-<lb ed="B" n="0600a17"/>
-<lb ed="B" n="0600a18"/>
+<lb ed="B" n="0600a01"/><item xml:id="itemB24p0600a0101">清溪洪進
+<lb ed="B" n="0600a02"/><list rend="no-marker"><item xml:id="itemB24p0600a0201">天平從漪</item>
+<lb ed="B" n="0600a03"/><item xml:id="itemB24p0600a0301">圓通緣德</item></list></item>
+<lb ed="B" n="0600a04"/><item xml:id="itemB24p0600a0401">清涼休復
+<lb ed="B" n="0600a05"/><list rend="no-marker"><item xml:id="itemB24p0600a0501">奉先慧同</item>
+<lb ed="B" n="0600a06"/><item xml:id="itemB24p0600a0601">寶慶道昌</item></list></item>
+<lb ed="B" n="0600a07"/><item xml:id="itemB24p0600a0701">龍濟紹修
+<lb ed="B" n="0600a08"/><list rend="no-marker"><item xml:id="itemB24p0600a0801">河東廣原</item>
+<lb ed="B" n="0600a09"/><item xml:id="itemB24p0600a0901">南臺守安</item>
+<lb ed="B" n="0600a10"/><item xml:id="itemB24p0600a1001">鷲嶺善美</item></list></item>
+<lb ed="B" n="0600a11"/><item xml:id="itemB24p0600a1101">天龍秀</item>
+<lb ed="B" n="0600a12"/><item xml:id="itemB24p0600a1201">延慶傳殷</item></list></item>
+<lb ed="B" n="0600a13"/><item xml:id="itemB24p0600a1301">南臺誠</item>
+<lb ed="B" n="0600a14"/><item xml:id="itemB24p0600a1401">螺峰冲奧</item>
+<lb ed="B" n="0600a15"/><item xml:id="itemB24p0600a1501">睡龍和尚</item>
+<lb ed="B" n="0600a16"/><item xml:id="itemB24p0600a1601">雪峰光緒</item>
+<lb ed="B" n="0600a17"/><item xml:id="itemB24p0600a1701">大章契如</item>
+<lb ed="B" n="0600a18"/><item xml:id="itemB24p0600a1801">永興祿</item>
+<lb ed="B" n="0600a19"/><item xml:id="itemB24p0600a1901">安國慧球</item>
+<lb ed="B" n="0600a20"/><item xml:id="itemB24p0600a2001">仙宗契符
+<lb ed="B" n="0600a21"/><list rend="no-marker"><item xml:id="itemB24p0600a2101">仙宗洞明</item></list></item>
+<lb ed="B" n="0600a22"/><item xml:id="itemB24p0600a2201">國清師靜
+<lb ed="B" n="0600a23"/><list rend="no-marker"><item xml:id="itemB24p0600a2301">福清行欽</item></list></item>
+<lb ed="B" n="0600a24"/><item xml:id="itemB24p0600a2401">天龍重機
+<lb ed="B" n="0600a25"/><list rend="no-marker"><item xml:id="itemB24p0600a2501">高麗合光</item></list></item>
+<lb ed="B" n="0600a26"/><item xml:id="itemB24p0600a2601">國泰瑫
+<lb ed="B" n="0600a27"/><list rend="no-marker"><item xml:id="itemB24p0600a2701">齊雲寶勝</item></list></item>
+<lb ed="B" n="0600a28"/><item xml:id="itemB24p0600a2801">白龍道希
+<lb ed="B" n="0600a29"/><list rend="no-marker"><item xml:id="itemB24p0600a2901">廣平玄旨</item>
+<lb ed="B" n="0600a30"/><item xml:id="itemB24p0600a3001">白龍清慕</item>
 <pb ed="B" xml:id="B24.0140.0600b" n="0600b"/>
-<lb ed="B" n="0600b01"/><p xml:id="pB24p0600b0101"><figure><graphic url="../figures/B/B24p0600_02.gif"></graphic></figure></p>
-<lb ed="B" n="0600b02"/>
-<lb ed="B" n="0600b03"/>
-<lb ed="B" n="0600b04"/>
-<lb ed="B" n="0600b05"/>
-<lb ed="B" n="0600b06"/>
-<lb ed="B" n="0600b07"/>
-<lb ed="B" n="0600b08"/>
-<lb ed="B" n="0600b09"/>
-<lb ed="B" n="0600b10"/>
-<lb ed="B" n="0600b11"/>
-<lb ed="B" n="0600b12"/>
-<lb ed="B" n="0600b13"/>
-<lb ed="B" n="0600b14"/>
-<lb ed="B" n="0600b15"/>
-<lb ed="B" n="0600b16"/>
-<lb ed="B" n="0600b17"/>
-<lb ed="B" n="0600b18"/>
+<lb ed="B" n="0600b01"/><item xml:id="itemB24p0600b0101">靈峰志恩</item>
+<lb ed="B" n="0600b02"/><item xml:id="itemB24p0600b0201">東禪玄亮</item>
+<lb ed="B" n="0600b03"/><item xml:id="itemB24p0600b0301">報劬玄應
+<lb ed="B" n="0600b04"/><list rend="no-marker"><item xml:id="itemB24p0600b0401">報劬<note n="0600b0401" resp="CBETA" type="add">仁【CB】，玄【補編】</note><app n="0600b0401"><lem wit="【CB】" resp="CBETA">仁</lem><rdg wit="【補編】">玄</rdg></app>義</item></list></item></list></item></list></item>
+<lb ed="B" n="0600b05"/><item xml:id="itemB24p0600b0501">雲蓋歸本</item>
+<lb ed="B" n="0600b06"/><item xml:id="itemB24p0600b0601">林泉和尚</item>
+<lb ed="B" n="0600b07"/><item xml:id="itemB24p0600b0701">洞巖可休</item>
+<lb ed="B" n="0600b08"/><item xml:id="itemB24p0600b0801">法海行周</item>
+<lb ed="B" n="0600b09"/><item xml:id="itemB24p0600b0901">永泰和尚</item>
+<lb ed="B" n="0600b10"/><item xml:id="itemB24p0600b1001">安國弘瑫
+<lb ed="B" n="0600b11"/><list rend="no-marker"><item xml:id="itemB24p0600b1101">白鹿師貴</item>
+<lb ed="B" n="0600b12"/><item xml:id="itemB24p0600b1201">羅山義聰</item>
+<lb ed="B" n="0600b13"/><item xml:id="itemB24p0600b1301">安國從貴</item>
+<lb ed="B" n="0600b14"/><item xml:id="itemB24p0600b1401">怡山藏用</item>
+<lb ed="B" n="0600b15"/><item xml:id="itemB24p0600b1501">永隆彥端</item>
+<lb ed="B" n="0600b16"/><item xml:id="itemB24p0600b1601">林陽志端</item>
+<lb ed="B" n="0600b17"/><item xml:id="itemB24p0600b1701">興聖蒲</item>
+<lb ed="B" n="0600b18"/><item xml:id="itemB24p0600b1801">仙宗明</item>
+<lb ed="B" n="0600b19"/><item xml:id="itemB24p0600b1901">安國祥</item></list></item>
+<lb ed="B" n="0600b20"/><item xml:id="itemB24p0600b2001">和龍守訥</item>
+<lb ed="B" n="0600b21"/><item xml:id="itemB24p0600b2101">夢筆和尚</item>
+<lb ed="B" n="0600b22"/><item xml:id="itemB24p0600b2201">極樂元儼</item>
+<lb ed="B" n="0600b23"/><item xml:id="itemB24p0600b2301">芙蓉如體</item>
+<lb ed="B" n="0600b24"/><item xml:id="itemB24p0600b2401">保福從展
+<lb ed="B" n="0600b25"/><list rend="no-marker"><item xml:id="itemB24p0600b2501">保福可儔
+<lb ed="B" n="0600b26"/><list rend="no-marker"><item xml:id="itemB24p0600b2601">隆壽無逸</item>
+<lb ed="B" n="0600b27"/><item xml:id="itemB24p0600b2701">隆壽法騫</item></list></item>
+<lb ed="B" n="0600b28"/><item xml:id="itemB24p0600b2801">招慶省僜</item>
+<lb ed="B" n="0600b29"/><item xml:id="itemB24p0600b2901">白水如新</item>
+<lb ed="B" n="0600b30"/><item xml:id="itemB24p0600b3001">招慶法因
+<lb ed="B" n="0600b31"/><list rend="no-marker"><item xml:id="itemB24p0600b3101">報恩<note n="0600b3101" resp="CBETA" type="add">宗顯【CB】，顯宗【補編】</note><app n="0600b3101"><lem wit="【CB】" resp="CBETA">宗顯</lem><rdg wit="【補編】">顯宗</rdg></app></item>
+<lb ed="B" n="0600b32"/><item xml:id="itemB24p0600b3201">龍光澄忋</item>
+<lb ed="B" n="0600b33"/><item xml:id="itemB24p0600b3301">永興可休</item>
+<lb ed="B" n="0600b34"/><item xml:id="itemB24p0600b3401">太平清海</item>
+<lb ed="B" n="0600b35"/><item xml:id="itemB24p0600b3501">慈雲慧深</item>
+<lb ed="B" n="0600b36"/><item xml:id="itemB24p0600b3601">興陽道欽</item>
+<lb ed="B" n="0600b37"/><item xml:id="itemB24p0600b3701">保福清谿</item></list></item>
+<lb ed="B" n="0600b38"/><item xml:id="itemB24p0600b3801">報恩熙</item>
+<lb ed="B" n="0600b39"/><item xml:id="itemB24p0600b3901">萬安清運</item>
+<lb ed="B" n="0600b40"/><item xml:id="itemB24p0600b4001">報慈文欽</item>
+<lb ed="B" n="0600b41"/><item xml:id="itemB24p0600b4101">鳳凰從琛</item>
+<lb ed="B" n="0600b42"/><item xml:id="itemB24p0600b4201">永隆瀛</item>
+<lb ed="B" n="0600b43"/><item xml:id="itemB24p0600b4301">清泉守清</item>
+<lb ed="B" n="0600b44"/><item xml:id="itemB24p0600b4401">報恩行崇</item>
+<lb ed="B" n="0600b45"/><item xml:id="itemB24p0600b4501">嶽麓和尚</item>
+<lb ed="B" n="0600b46"/><item xml:id="itemB24p0600b4601">德山德海</item>
+<lb ed="B" n="0600b47"/><item xml:id="itemB24p0600b4701">章江慧亷</item>
+<lb ed="B" n="0600b48"/><item xml:id="itemB24p0600b4801">梁山簡</item>
+<lb ed="B" n="0600b49"/><item xml:id="itemB24p0600b4901">建山澄</item>
+<lb ed="B" n="0600b50"/><item xml:id="itemB24p0600b5001">康山契穩</item>
+<lb ed="B" n="0600b51"/><item xml:id="itemB24p0600b5101">延壽慧輪
+<lb ed="B" n="0600b52"/><list rend="no-marker"><item xml:id="itemB24p0600b5201">歸宗道詮</item>
+<lb ed="B" n="0600b53"/><item xml:id="itemB24p0600b5301">九華善詮</item></list></item>
+<lb ed="B" n="0600b54"/><item xml:id="itemB24p0600b5401">西明琛
+<lb ed="B" n="0600b55"/><list rend="no-marker"><item xml:id="itemB24p0600b5501">龍興裕</item></list></item>
+<lb ed="B" n="0600b56"/><item xml:id="itemB24p0600b5601">昇山柔</item>
+<lb ed="B" n="0600b57"/><item xml:id="itemB24p0600b5701">枕峰和尚</item>
+<lb ed="B" n="0600b58"/><item xml:id="itemB24p0600b5801">朗州法操</item>
+<lb ed="B" n="0600b59"/><item xml:id="itemB24p0600b5901">鷲嶺和尚</item>
+<lb ed="B" n="0600b60"/><item xml:id="itemB24p0600b6001">睦州敬連</item>
+<lb ed="B" n="0600b61"/><item xml:id="itemB24p0600b6101">谷山句</item></list></item>
+<lb ed="B" n="0600b62"/><item xml:id="itemB24p0600b6201">憇鶴和尚</item>
+<lb ed="B" n="0600b63"/><item xml:id="itemB24p0600b6301">溈山棲</item>
+<lb ed="B" n="0600b64"/><item xml:id="itemB24p0600b6401">潮山延宗</item>
+<lb ed="B" n="0600b65"/><item xml:id="itemB24p0600b6501">普通普明</item>
+<lb ed="B" n="0600b66"/><item xml:id="itemB24p0600b6601">孚上座</item>
 <pb ed="B" xml:id="B24.0140.0601a" n="0601a"/>
-<lb ed="B" n="0601a01"/><p xml:id="pB24p0601a0101"><figure><graphic url="../figures/B/B24p0601_01.gif"></graphic></figure></p>
-<lb ed="B" n="0601a02"/>
-<lb ed="B" n="0601a03"/>
-<lb ed="B" n="0601a04"/>
-<lb ed="B" n="0601a05"/>
-<lb ed="B" n="0601a06"/>
-<lb ed="B" n="0601a07"/>
-<lb ed="B" n="0601a08"/>
-<lb ed="B" n="0601a09"/>
-<lb ed="B" n="0601a10"/>
-<lb ed="B" n="0601a11"/>
-<lb ed="B" n="0601a12"/>
-<lb ed="B" n="0601a13"/>
-<lb ed="B" n="0601a14"/>
-<lb ed="B" n="0601a15"/>
-<lb ed="B" n="0601a16"/>
-<lb ed="B" n="0601a17"/>
-<lb ed="B" n="0601a18"/>
+<lb ed="B" n="0601a01"/><item xml:id="itemB24p0601a0101">保福超悟</item>
+<lb ed="B" n="0601a02"/><item xml:id="itemB24p0601a0201">南嶽惟勁</item>
+<lb ed="B" n="0601a03"/><item xml:id="itemB24p0601a0301">大普玄通</item>
+<lb ed="B" n="0601a04"/><item xml:id="itemB24p0601a0401">長生皎然</item>
+<lb ed="B" n="0601a05"/><item xml:id="itemB24p0601a0501">化度師郁</item>
+<lb ed="B" n="0601a06"/><item xml:id="itemB24p0601a0601">隆壽紹卿</item>
+<lb ed="B" n="0601a07"/><item xml:id="itemB24p0601a0701">仙宗行瑫</item>
+<lb ed="B" n="0601a08"/><item xml:id="itemB24p0601a0801">龍華靈照
+<lb ed="B" n="0601a09"/><list rend="no-marker"><item xml:id="itemB24p0601a0901">瑞巖師進</item>
+<lb ed="B" n="0601a10"/><item xml:id="itemB24p0601a1001">六通志球</item>
+<lb ed="B" n="0601a11"/><item xml:id="itemB24p0601a1101">雲龍歸</item>
 <pb ed="B" xml:id="B24.0140.0601b" n="0601b"/>
-<lb ed="B" n="0601b01"/><p xml:id="pB24p0601b0101"><figure><graphic url="../figures/B/B24p0601_02.gif"></graphic></figure></p>
-<lb ed="B" n="0601b02"/>
-<lb ed="B" n="0601b03"/>
-<lb ed="B" n="0601b04"/>
-<lb ed="B" n="0601b05"/>
-<lb ed="B" n="0601b06"/>
-<lb ed="B" n="0601b07"/>
-<lb ed="B" n="0601b08"/>
-<lb ed="B" n="0601b09"/>
-<lb ed="B" n="0601b10"/>
-<lb ed="B" n="0601b11"/>
-<lb ed="B" n="0601b12"/>
-<lb ed="B" n="0601b13"/>
-<lb ed="B" n="0601b14"/>
-<lb ed="B" n="0601b15"/>
-<lb ed="B" n="0601b16"/>
-<lb ed="B" n="0601b17"/>
-<lb ed="B" n="0601b18"/>
+<lb ed="B" n="0601b01"/><item xml:id="itemB24p0601b0101">功臣道閒</item>
+<lb ed="B" n="0601b02"/><item xml:id="itemB24p0601b0201">鎮境遇緣</item>
+<lb ed="B" n="0601b03"/><item xml:id="itemB24p0601b0301">報國照</item>
+<lb ed="B" n="0601b04"/><item xml:id="itemB24p0601b0401">白雲廼</item></list></item>
+<lb ed="B" n="0601b05"/><item xml:id="itemB24p0601b0501">蓮花從弇</item>
+<lb ed="B" n="0601b06"/><item xml:id="itemB24p0601b0601">十相審超</item>
+<lb ed="B" n="0601b07"/><item xml:id="itemB24p0601b0701">翠巖令叅
+<lb ed="B" n="0601b08"/><list rend="no-marker"><item xml:id="itemB24p0601b0801">龍冊子興</item>
+<lb ed="B" n="0601b09"/><item xml:id="itemB24p0601b0901">佛<g ref="#CB15016"/>知默</item></list></item>
+<lb ed="B" n="0601b10"/><item xml:id="itemB24p0601b1001">長慶慧稜
+<lb ed="B" n="0601b11"/><list rend="no-marker"><item xml:id="itemB24p0601b1101">招慶道匡</item>
+<lb ed="B" n="0601b12"/><item xml:id="itemB24p0601b1201">龍華彥球
+<lb ed="B" n="0601b13"/><list rend="no-marker"><item xml:id="itemB24p0601b1301">仁王俊</item></list></item>
+<lb ed="B" n="0601b14"/><item xml:id="itemB24p0601b1401">保安連</item>
+<lb ed="B" n="0601b15"/><item xml:id="itemB24p0601b1501">報慈光雲</item>
+<lb ed="B" n="0601b16"/><item xml:id="itemB24p0601b1601">開先紹宗</item>
+<lb ed="B" n="0601b17"/><item xml:id="itemB24p0601b1701">報恩寶資
+<lb ed="B" n="0601b18"/><list rend="no-marker"><item xml:id="itemB24p0601b1801">福林澄</item></list></item>
+<lb ed="B" n="0601b19"/><item xml:id="itemB24p0601b1901">傾心法瑫</item>
+<lb ed="B" n="0601b20"/><item xml:id="itemB24p0601b2001">水陸洪儼</item>
+<lb ed="B" n="0601b21"/><item xml:id="itemB24p0601b2101">廣嚴咸澤</item>
+<lb ed="B" n="0601b22"/><item xml:id="itemB24p0601b2201">報恩慧朗</item>
+<lb ed="B" n="0601b23"/><item xml:id="itemB24p0601b2301">長慶常慧</item>
+<lb ed="B" n="0601b24"/><item xml:id="itemB24p0601b2401">石佛靜</item>
 <pb ed="B" xml:id="B24.0140.0602a" n="0602a"/>
-<lb ed="B" n="0602a01"/><p xml:id="pB24p0602a0101"><figure><graphic url="../figures/B/B24p0602_01.gif"></graphic></figure></p>
-<lb ed="B" n="0602a02"/>
-<lb ed="B" n="0602a03"/>
-<lb ed="B" n="0602a04"/>
-<lb ed="B" n="0602a05"/>
-<lb ed="B" n="0602a06"/>
-<lb ed="B" n="0602a07"/>
-<lb ed="B" n="0602a08"/>
-<lb ed="B" n="0602a09"/>
-<lb ed="B" n="0602a10"/>
-<lb ed="B" n="0602a11"/>
-<lb ed="B" n="0602a12"/>
-<lb ed="B" n="0602a13"/>
-<lb ed="B" n="0602a14"/>
-<lb ed="B" n="0602a15"/>
-<lb ed="B" n="0602a16"/>
-<lb ed="B" n="0602a17"/>
-<lb ed="B" n="0602a18"/>
+<lb ed="B" n="0602a01"/><item xml:id="itemB24p0602a0101">翠峰從欣
+<lb ed="B" n="0602a02"/><list rend="no-marker"><item xml:id="itemB24p0602a0201">報恩守真</item></list></item>
+<lb ed="B" n="0602a03"/><item xml:id="itemB24p0602a0301">枕峰青換</item>
+<lb ed="B" n="0602a04"/><item xml:id="itemB24p0602a0401">東禪契訥</item>
+<lb ed="B" n="0602a05"/><item xml:id="itemB24p0602a0501">長慶弘辯</item>
+<lb ed="B" n="0602a06"/><item xml:id="itemB24p0602a0601">東禪可隆</item>
+<lb ed="B" n="0602a07"/><item xml:id="itemB24p0602a0701">仙宗守玭</item>
+<lb ed="B" n="0602a08"/><item xml:id="itemB24p0602a0801">永安懷烈</item>
+<lb ed="B" n="0602a09"/><item xml:id="itemB24p0602a0901">閩山室令含</item>
+<lb ed="B" n="0602a10"/><item xml:id="itemB24p0602a1001">新羅龜山</item>
+<lb ed="B" n="0602a11"/><item xml:id="itemB24p0602a1101">龍須道</item>
+<lb ed="B" n="0602a12"/><item xml:id="itemB24p0602a1201">祥光澄靜</item>
+<lb ed="B" n="0602a13"/><item xml:id="itemB24p0602a1301">鷲嶺明遠
+<lb ed="B" n="0602a14"/><list rend="no-marker"><item xml:id="itemB24p0602a1401">鷲嶺通</item></list></item>
+<lb ed="B" n="0602a15"/><item xml:id="itemB24p0602a1501">報慈從瓌</item>
+<lb ed="B" n="0602a16"/><item xml:id="itemB24p0602a1601">龍華契盈</item></list></item>
+<lb ed="B" n="0602a17"/><item xml:id="itemB24p0602a1701">廬山訥</item>
+<lb ed="B" n="0602a18"/><item xml:id="itemB24p0602a1801">新羅大無為</item>
+<lb ed="B" n="0602a19"/><item xml:id="itemB24p0602a1901">潞州玄暉</item>
+<lb ed="B" n="0602a20"/><item xml:id="itemB24p0602a2001">清淨和尚</item>
+<lb ed="B" n="0602a21"/><item xml:id="itemB24p0602a2101">永安雪峰</item>
+<lb ed="B" n="0602a22"/><item xml:id="itemB24p0602a2201">盧仙德明</item>
+<lb ed="B" n="0602a23"/><item xml:id="itemB24p0602a2301">明水懐忠</item>
+<lb ed="B" n="0602a24"/><item xml:id="itemB24p0602a2401">益州懐果</item>
+<lb ed="B" n="0602a25"/><item xml:id="itemB24p0602a2501">耳相行修</item>
+<lb ed="B" n="0602a26"/><item xml:id="itemB24p0602a2601">嵩山安德</item>
+<lb ed="B" n="0602a27"/><item xml:id="itemB24p0602a2701">龍井通</item>
+<lb ed="B" n="0602a28"/><item xml:id="itemB24p0602a2801">鼓山神晏
+<lb ed="B" n="0602a29"/><list rend="no-marker"><item xml:id="itemB24p0602a2901">天竺子儀</item>
+<lb ed="B" n="0602a30"/><item xml:id="itemB24p0602a3001">白雲智作</item>
+<lb ed="B" n="0602a31"/><item xml:id="itemB24p0602a3101">鼓山智嚴</item>
+<lb ed="B" n="0602a32"/><item xml:id="itemB24p0602a3201">龍山智嵩</item>
 <pb ed="B" xml:id="B24.0140.0602b" n="0602b"/>
-<lb ed="B" n="0602b01"/><p xml:id="pB24p0602b0101"><figure><graphic url="../figures/B/B24p0602_02.gif"></graphic></figure></p></cb:div>
-<lb ed="B" n="0602b02"/>
-<lb ed="B" n="0602b03"/>
-<lb ed="B" n="0602b04"/>
-<lb ed="B" n="0602b05"/>
-<lb ed="B" n="0602b06"/>
-<lb ed="B" n="0602b07"/>
-<lb ed="B" n="0602b08"/>
-<lb ed="B" n="0602b09"/>
-<lb ed="B" n="0602b10"/>
-<lb ed="B" n="0602b11"/>
-<lb ed="B" n="0602b12"/>
-<lb ed="B" n="0602b13"/>
-<lb ed="B" n="0602b14"/>
-<lb ed="B" n="0602b15"/>
-<lb ed="B" n="0602b16"/>
-<lb ed="B" n="0602b17"/>
-<lb ed="B" n="0602b18"/><cb:div type="other"><cb:mulu type="其他" level="2">雲門宗分派圖譜</cb:mulu><head>雲門宗分派圖譜</head>
+<lb ed="B" n="0602b01"/><item xml:id="itemB24p0602b0101">鳳凰强</item>
+<lb ed="B" n="0602b02"/><item xml:id="itemB24p0602b0201">龍山文義</item>
+<lb ed="B" n="0602b03"/><item xml:id="itemB24p0602b0301">鼓山智嶽</item>
+<lb ed="B" n="0602b04"/><item xml:id="itemB24p0602b0401">定慧和尚</item>
+<lb ed="B" n="0602b05"/><item xml:id="itemB24p0602b0501">鼓山清諤</item>
+<lb ed="B" n="0602b06"/><item xml:id="itemB24p0602b0601">淨德沖照</item>
+<lb ed="B" n="0602b07"/><item xml:id="itemB24p0602b0701">報恩清護</item></list></item>
+<lb ed="B" n="0602b08"/><item xml:id="itemB24p0602b0801">南禪契璠</item>
+<lb ed="B" n="0602b09"/><item xml:id="itemB24p0602b0901">越山師鼐</item>
+<lb ed="B" n="0602b10"/><item xml:id="itemB24p0602b1001">福清玄訥</item>
+<lb ed="B" n="0602b11"/><item xml:id="itemB24p0602b1101">南臺仁</item>
+<lb ed="B" n="0602b12"/><item xml:id="itemB24p0602b1201">龍冊道怤
+<lb ed="B" n="0602b13"/><list rend="no-marker"><item xml:id="itemB24p0602b1301">清化師訥</item>
+<lb ed="B" n="0602b14"/><item xml:id="itemB24p0602b1401">南禪遇緣</item>
+<lb ed="B" n="0602b15"/><item xml:id="itemB24p0602b1501">資福智遠</item>
+<lb ed="B" n="0602b16"/><item xml:id="itemB24p0602b1601">洞山龜<note n="0602b1601" resp="CBETA" type="add">端【CB】，瑞【補編】</note><app n="0602b1601"><lem wit="【CB】" resp="CBETA">端</lem><rdg wit="【補編】">瑞</rdg></app></item>
+<lb ed="B" n="0602b17"/><item xml:id="itemB24p0602b1701">溫州景豐</item></list></item>
+<lb ed="B" n="0602b18"/><item xml:id="itemB24p0602b1801">東禪和尚</item>
+<lb ed="B" n="0602b19"/><item xml:id="itemB24p0602b1901">大錢從襲</item>
+<lb ed="B" n="0602b20"/><item xml:id="itemB24p0602b2001">鵝湖智孚
+<lb ed="B" n="0602b21"/><list rend="no-marker"><item xml:id="itemB24p0602b2101">鵝湖法進</item></list></item>
+<lb ed="B" n="0602b22"/><item xml:id="itemB24p0602b2201">報恩懷嶽
+<lb ed="B" n="0602b23"/><list rend="no-marker"><item xml:id="itemB24p0602b2301">妙濟師浩</item></list></item>
+<lb ed="B" n="0602b24"/><item xml:id="itemB24p0602b2401">金輪可觀
+<lb ed="B" n="0602b25"/><list rend="no-marker"><item xml:id="itemB24p0602b2501">後金輪</item></list></item>
+<lb ed="B" n="0602b26"/><item xml:id="itemB24p0602b2601">睡龍道溥
+<lb ed="B" n="0602b27"/><list rend="no-marker"><item xml:id="itemB24p0602b2701">保福清豁</item></list></item>
+<lb ed="B" n="0602b28"/><item xml:id="itemB24p0602b2801">雙泉永
+<lb ed="B" n="0602b29"/><list rend="no-marker"><item xml:id="itemB24p0602b2901">廣州大通</item></list></item></list></item></list></item></list></item></list></item></list></item></list></item></list></item></list></item></list></item></list></item></list></item></list></item></list></cb:div>
+<lb ed="B" n="0602b30"/><cb:div type="other"><cb:mulu type="其他" level="2">雲門宗分派圖譜</cb:mulu><head>雲門宗分派圖譜</head>
 <pb ed="B" xml:id="B24.0140.0603a" n="0603a"/>
-<lb ed="B" n="0603a01"/><p xml:id="pB24p0603a0101"><figure><graphic url="../figures/B/B24p0603_01.gif"></graphic></figure></p>
-<lb ed="B" n="0603a02"/>
-<lb ed="B" n="0603a03"/>
-<lb ed="B" n="0603a04"/>
-<lb ed="B" n="0603a05"/>
-<lb ed="B" n="0603a06"/>
-<lb ed="B" n="0603a07"/>
-<lb ed="B" n="0603a08"/>
-<lb ed="B" n="0603a09"/>
-<lb ed="B" n="0603a10"/>
-<lb ed="B" n="0603a11"/>
-<lb ed="B" n="0603a12"/>
-<lb ed="B" n="0603a13"/>
-<lb ed="B" n="0603a14"/>
-<lb ed="B" n="0603a15"/>
-<lb ed="B" n="0603a16"/>
-<lb ed="B" n="0603a17"/>
-<lb ed="B" n="0603a18"/>
+<lb ed="B" n="0603a01"/><list rend="no-marker"><item xml:id="itemB24p0603a0101">雪峰義存
+<lb ed="B" n="0603a02"/><list rend="no-marker"><item xml:id="itemB24p0603a0201">雲門文偃
+<lb ed="B" n="0603a03"/><list rend="no-marker"><item xml:id="itemB24p0603a0301">白雲子祥
+<lb ed="B" n="0603a04"/><list rend="no-marker"><item xml:id="itemB24p0603a0401">白雲福</item>
+<lb ed="B" n="0603a05"/><item xml:id="itemB24p0603a0501">後白雲</item>
+<lb ed="B" n="0603a06"/><item xml:id="itemB24p0603a0601">樂淨含匡</item>
+<lb ed="B" n="0603a07"/><item xml:id="itemB24p0603a0701">月華月</item>
+<lb ed="B" n="0603a08"/><item xml:id="itemB24p0603a0801">大歷和尚</item>
+<lb ed="B" n="0603a09"/><item xml:id="itemB24p0603a0901">寶華和尚</item>
+<lb ed="B" n="0603a10"/><item xml:id="itemB24p0603a1001">地藏和尚</item></list></item></list></item>
+<lb ed="B" n="0603a11"/><item xml:id="itemB24p0603a1101">南臺道遵</item>
+<lb ed="B" n="0603a12"/><item xml:id="itemB24p0603a1201">雙峰竟欽</item>
+<lb ed="B" n="0603a13"/><item xml:id="itemB24p0603a1301">資福詮</item>
+<lb ed="B" n="0603a14"/><item xml:id="itemB24p0603a1401">黃雲元</item>
+<lb ed="B" n="0603a15"/><item xml:id="itemB24p0603a1501">龍境倫</item>
+<lb ed="B" n="0603a16"/><item xml:id="itemB24p0603a1601">雲門爽</item>
+<lb ed="B" n="0603a17"/><item xml:id="itemB24p0603a1701">德山緣密
+<lb ed="B" n="0603a18"/><list rend="no-marker"><item xml:id="itemB24p0603a1801">文殊應真
+<lb ed="B" n="0603a19"/><list rend="no-marker"><item xml:id="itemB24p0603a1901">洞山曉聰
+<lb ed="B" n="0603a20"/><list rend="no-marker"><item xml:id="itemB24p0603a2001">雲居曉舜</item>
+<lb ed="B" n="0603a21"/><item xml:id="itemB24p0603a2101">佛日契嵩</item>
+<lb ed="B" n="0603a22"/><item xml:id="itemB24p0603a2201">大溈懷宥</item></list></item></list></item>
+<lb ed="B" n="0603a23"/><item xml:id="itemB24p0603a2301">鹿苑文襲</item>
+<lb ed="B" n="0603a24"/><item xml:id="itemB24p0603a2401">東禪秀</item>
+<lb ed="B" n="0603a25"/><item xml:id="itemB24p0603a2501">南臺勤
+<lb ed="B" n="0603a26"/><list rend="no-marker"><item xml:id="itemB24p0603a2601">高陽法廣</item>
+<lb ed="B" n="0603a27"/><item xml:id="itemB24p0603a2701">石霜節誠</item></list></item>
+<lb ed="B" n="0603a28"/><item xml:id="itemB24p0603a2801">藥山可瓊</item>
+<lb ed="B" n="0603a29"/><item xml:id="itemB24p0603a2901">乾明普</item>
+<lb ed="B" n="0603a30"/><item xml:id="itemB24p0603a3001">德山紹晏
+<lb ed="B" n="0603a31"/><list rend="no-marker"><item xml:id="itemB24p0603a3101">德山志光</item></list></item>
+<lb ed="B" n="0603a32"/><item xml:id="itemB24p0603a3201">中梁山<note n="0603a3201" resp="CBETA" type="add">崇【CB】，宗【補編】</note><app n="0603a3201"><lem wit="【CB】" resp="CBETA">崇</lem><rdg wit="【補編】">宗</rdg></app></item>
+<lb ed="B" n="0603a33"/><item xml:id="itemB24p0603a3301">黑水承璟
+<lb ed="B" n="0603a34"/><list rend="no-marker"><item xml:id="itemB24p0603a3401">黑水義欽</item></list></item>
+<lb ed="B" n="0603a35"/><item xml:id="itemB24p0603a3501">黃龍志願</item>
 <pb ed="B" xml:id="B24.0140.0603b" n="0603b"/>
-<lb ed="B" n="0603b01"/><p xml:id="pB24p0603b0101"><figure><graphic url="../figures/B/B24p0603_02.gif"></graphic></figure></p>
-<lb ed="B" n="0603b02"/>
-<lb ed="B" n="0603b03"/>
-<lb ed="B" n="0603b04"/>
-<lb ed="B" n="0603b05"/>
-<lb ed="B" n="0603b06"/>
-<lb ed="B" n="0603b07"/>
-<lb ed="B" n="0603b08"/>
-<lb ed="B" n="0603b09"/>
-<lb ed="B" n="0603b10"/>
-<lb ed="B" n="0603b11"/>
-<lb ed="B" n="0603b12"/>
-<lb ed="B" n="0603b13"/>
-<lb ed="B" n="0603b14"/>
-<lb ed="B" n="0603b15"/>
-<lb ed="B" n="0603b16"/>
-<lb ed="B" n="0603b17"/>
-<lb ed="B" n="0603b18"/>
+<lb ed="B" n="0603b01"/><item xml:id="itemB24p0603b0101">普安道</item></list></item>
+<lb ed="B" n="0603b02"/><item xml:id="itemB24p0603b0201">白雲聞</item>
+<lb ed="B" n="0603b03"/><item xml:id="itemB24p0603b0301">淨法章</item>
+<lb ed="B" n="0603b04"/><item xml:id="itemB24p0603b0401">溫門滿</item>
+<lb ed="B" n="0603b05"/><item xml:id="itemB24p0603b0501">地藏慧慈</item>
+<lb ed="B" n="0603b06"/><item xml:id="itemB24p0603b0601">大容諲</item>
+<lb ed="B" n="0603b07"/><item xml:id="itemB24p0603b0701">羅山崇</item>
+<lb ed="B" n="0603b08"/><item xml:id="itemB24p0603b0801">雲門常寶</item>
+<lb ed="B" n="0603b09"/><item xml:id="itemB24p0603b0901">臨谿竟脫</item>
+<lb ed="B" n="0603b10"/><item xml:id="itemB24p0603b1001">華嚴慧</item>
+<lb ed="B" n="0603b11"/><item xml:id="itemB24p0603b1101">英州觀音</item>
+<lb ed="B" n="0603b12"/><item xml:id="itemB24p0603b1201">林泉和尚</item>
+<lb ed="B" n="0603b13"/><item xml:id="itemB24p0603b1301">雙泉師寬
+<lb ed="B" n="0603b14"/><list rend="no-marker"><item xml:id="itemB24p0603b1401">五祖師戒
+<lb ed="B" n="0603b15"/><list rend="no-marker"><item xml:id="itemB24p0603b1501">泐潭懷澄
+<lb ed="B" n="0603b16"/><list rend="no-marker"><item xml:id="itemB24p0603b1601">育王懷璉</item>
+<lb ed="B" n="0603b17"/><item xml:id="itemB24p0603b1701">靈隱雲知</item>
+<lb ed="B" n="0603b18"/><item xml:id="itemB24p0603b1801">承天惟蕳</item>
+<lb ed="B" n="0603b19"/><item xml:id="itemB24p0603b1901">西塔顯殊</item>
+<lb ed="B" n="0603b20"/><item xml:id="itemB24p0603b2001">九峰鑒韶</item>
+<lb ed="B" n="0603b21"/><item xml:id="itemB24p0603b2101">崇善用良</item>
+<lb ed="B" n="0603b22"/><item xml:id="itemB24p0603b2201">慧力有文</item>
+<lb ed="B" n="0603b23"/><item xml:id="itemB24p0603b2301">雪峰象東</item>
+<lb ed="B" n="0603b24"/><item xml:id="itemB24p0603b2401">雲居守億</item></list></item>
+<lb ed="B" n="0603b25"/><item xml:id="itemB24p0603b2501">洞山妙圓</item>
+<lb ed="B" n="0603b26"/><item xml:id="itemB24p0603b2601">義臺子祥</item>
+<lb ed="B" n="0603b27"/><item xml:id="itemB24p0603b2701">天童懷清</item>
+<lb ed="B" n="0603b28"/><item xml:id="itemB24p0603b2801">寶嚴叔芝
+<lb ed="B" n="0603b29"/><list rend="no-marker"><item xml:id="itemB24p0603b2901">洞山永孚</item>
+<lb ed="B" n="0603b30"/><item xml:id="itemB24p0603b3001">首座令瑫</item></list></item>
+<lb ed="B" n="0603b31"/><item xml:id="itemB24p0603b3101">五祖秀</item>
+<lb ed="B" n="0603b32"/><item xml:id="itemB24p0603b3201">白馬辯</item>
+<lb ed="B" n="0603b33"/><item xml:id="itemB24p0603b3301">水南智昱</item>
 <pb ed="B" xml:id="B24.0140.0604a" n="0604a"/>
-<lb ed="B" n="0604a01"/><p xml:id="pB24p0604a0101"><figure><graphic url="../figures/B/B24p0604_01.gif"></graphic></figure></p>
-<lb ed="B" n="0604a02"/>
-<lb ed="B" n="0604a03"/>
-<lb ed="B" n="0604a04"/>
-<lb ed="B" n="0604a05"/>
-<lb ed="B" n="0604a06"/>
-<lb ed="B" n="0604a07"/>
-<lb ed="B" n="0604a08"/>
-<lb ed="B" n="0604a09"/>
-<lb ed="B" n="0604a10"/>
-<lb ed="B" n="0604a11"/>
-<lb ed="B" n="0604a12"/>
-<lb ed="B" n="0604a13"/>
-<lb ed="B" n="0604a14"/>
-<lb ed="B" n="0604a15"/>
-<lb ed="B" n="0604a16"/>
-<lb ed="B" n="0604a17"/>
-<lb ed="B" n="0604a18"/>
+<lb ed="B" n="0604a01"/><item xml:id="itemB24p0604a0101">洞山自寶
+<lb ed="B" n="0604a02"/><list rend="no-marker"><item xml:id="itemB24p0604a0201">洞山清辯</item></list></item>
+<lb ed="B" n="0604a03"/><item xml:id="itemB24p0604a0301">復州廣思
+<lb ed="B" n="0604a04"/><list rend="no-marker"><item xml:id="itemB24p0604a0401">玉泉心皓</item></list></item>
+<lb ed="B" n="0604a05"/><item xml:id="itemB24p0604a0501">四祖端
+<lb ed="B" n="0604a06"/><list rend="no-marker"><item xml:id="itemB24p0604a0601">廣明常委</item></list></item>
+<lb ed="B" n="0604a07"/><item xml:id="itemB24p0604a0701">雲蓋智顒
+<lb ed="B" n="0604a08"/><list rend="no-marker"><item xml:id="itemB24p0604a0801">雲居文慶</item></list></item></list></item>
+<lb ed="B" n="0604a09"/><item xml:id="itemB24p0604a0901">四祖志諲</item>
+<lb ed="B" n="0604a10"/><item xml:id="itemB24p0604a1001">興化奉能</item>
+<lb ed="B" n="0604a11"/><item xml:id="itemB24p0604a1101">天睦慧滿</item>
+<lb ed="B" n="0604a12"/><item xml:id="itemB24p0604a1201">建福智同</item>
+<lb ed="B" n="0604a13"/><item xml:id="itemB24p0604a1301">延慶宗本</item>
+<lb ed="B" n="0604a14"/><item xml:id="itemB24p0604a1401">天龍炳賢</item>
+<lb ed="B" n="0604a15"/><item xml:id="itemB24p0604a1501">上座自嚴</item>
+<lb ed="B" n="0604a16"/><item xml:id="itemB24p0604a1601">乾明居信</item>
+<lb ed="B" n="0604a17"/><item xml:id="itemB24p0604a1701">藥山彛肅</item>
+<lb ed="B" n="0604a18"/><item xml:id="itemB24p0604a1801">福昌重善
+<lb ed="B" n="0604a19"/><list rend="no-marker"><item xml:id="itemB24p0604a1901">上方齊岳
+<lb ed="B" n="0604a20"/><list rend="no-marker"><item xml:id="itemB24p0604a2001">東山國慶</item></list></item>
+<lb ed="B" n="0604a21"/><item xml:id="itemB24p0604a2101">金山瑞新
+<lb ed="B" n="0604a22"/><list rend="no-marker"><item xml:id="itemB24p0604a2201">天聖守道</item></list></item>
+<lb ed="B" n="0604a23"/><item xml:id="itemB24p0604a2301">夾山惟俊
+<lb ed="B" n="0604a24"/><list rend="no-marker"><item xml:id="itemB24p0604a2401">夾山遵</item></list></item>
+<lb ed="B" n="0604a25"/><item xml:id="itemB24p0604a2501">育王常坦</item></list></item></list></item>
+<lb ed="B" n="0604a26"/><item xml:id="itemB24p0604a2601">雲門煦</item>
+<lb ed="B" n="0604a27"/><item xml:id="itemB24p0604a2701">黃蘗法濟</item>
+<lb ed="B" n="0604a28"/><item xml:id="itemB24p0604a2801">康國耀</item>
+<lb ed="B" n="0604a29"/><item xml:id="itemB24p0604a2901">谷山豐</item>
+<lb ed="B" n="0604a30"/><item xml:id="itemB24p0604a3001">羅漢匡果</item>
+<lb ed="B" n="0604a31"/><item xml:id="itemB24p0604a3101">滄溪璘</item>
+<lb ed="B" n="0604a32"/><item xml:id="itemB24p0604a3201">洞山清禀</item>
+<lb ed="B" n="0604a33"/><item xml:id="itemB24p0604a3301">北禪寂</item>
+<lb ed="B" n="0604a34"/><item xml:id="itemB24p0604a3401">南天王永平</item>
+<lb ed="B" n="0604a35"/><item xml:id="itemB24p0604a3501">永安朗</item>
+<lb ed="B" n="0604a36"/><item xml:id="itemB24p0604a3601">湘潭明照</item>
+<lb ed="B" n="0604a37"/><item xml:id="itemB24p0604a3701">青城乘</item>
+<lb ed="B" n="0604a38"/><item xml:id="itemB24p0604a3801">普通封</item>
+<lb ed="B" n="0604a39"/><item xml:id="itemB24p0604a3901">燈峰淨源</item>
+<lb ed="B" n="0604a40"/><item xml:id="itemB24p0604a4001">大梵圓</item>
+<lb ed="B" n="0604a41"/><item xml:id="itemB24p0604a4101">藥山圓光</item>
+<lb ed="B" n="0604a42"/><item xml:id="itemB24p0604a4201">鵝湖雲震</item>
+<lb ed="B" n="0604a43"/><item xml:id="itemB24p0604a4301">開先清耀</item>
+<lb ed="B" n="0604a44"/><item xml:id="itemB24p0604a4401">奉國清海</item>
+<lb ed="B" n="0604a45"/><item xml:id="itemB24p0604a4501">韶州慈光</item>
+<lb ed="B" n="0604a46"/><item xml:id="itemB24p0604a4601">保安師密</item>
+<lb ed="B" n="0604a47"/><item xml:id="itemB24p0604a4701">雲居融</item>
+<lb ed="B" n="0604a48"/><item xml:id="itemB24p0604a4801">大聖守賢</item>
+<lb ed="B" n="0604a49"/><item xml:id="itemB24p0604a4901">北天王輝</item>
+<lb ed="B" n="0604a50"/><item xml:id="itemB24p0604a5001">芭蕉弘義</item>
+<lb ed="B" n="0604a51"/><item xml:id="itemB24p0604a5101">香林澄遠
+<lb ed="B" n="0604a52"/><list rend="no-marker"><item xml:id="itemB24p0604a5201">智門光祚
+<lb ed="B" n="0604a53"/><list rend="no-marker"><item xml:id="itemB24p0604a5301">雪竇重顯
+<lb ed="B" n="0604a54"/><list rend="no-marker"><item xml:id="itemB24p0604a5401">天衣義懷</item>
+<lb ed="B" n="0604a55"/><item xml:id="itemB24p0604a5501">稱心省宗</item>
+<lb ed="B" n="0604a56"/><item xml:id="itemB24p0604a5601">承天傳宗</item>
+<lb ed="B" n="0604a57"/><item xml:id="itemB24p0604a5701">南明日慎</item>
+<lb ed="B" n="0604a58"/><item xml:id="itemB24p0604a5801">投子法宗</item>
+<lb ed="B" n="0604a59"/><item xml:id="itemB24p0604a5901">寶相蘊觀</item>
+<lb ed="B" n="0604a60"/><item xml:id="itemB24p0604a6001">君山顯昇</item>
+<lb ed="B" n="0604a61"/><item xml:id="itemB24p0604a6101">洞庭惠金</item>
 <pb ed="B" xml:id="B24.0140.0604b" n="0604b"/>
-<lb ed="B" n="0604b01"/><p xml:id="pB24p0604b0101"><figure><graphic url="../figures/B/B24p0604_02.gif"></graphic></figure></p>
-<lb ed="B" n="0604b02"/>
-<lb ed="B" n="0604b03"/>
-<lb ed="B" n="0604b04"/>
-<lb ed="B" n="0604b05"/>
-<lb ed="B" n="0604b06"/>
-<lb ed="B" n="0604b07"/>
-<lb ed="B" n="0604b08"/>
-<lb ed="B" n="0604b09"/>
-<lb ed="B" n="0604b10"/>
-<lb ed="B" n="0604b11"/>
-<lb ed="B" n="0604b12"/>
-<lb ed="B" n="0604b13"/>
-<lb ed="B" n="0604b14"/>
-<lb ed="B" n="0604b15"/>
-<lb ed="B" n="0604b16"/>
-<lb ed="B" n="0604b17"/>
-<lb ed="B" n="0604b18"/>
+<lb ed="B" n="0604b01"/><item xml:id="itemB24p0604b0101">萬壽助</item></list></item>
+<lb ed="B" n="0604b02"/><item xml:id="itemB24p0604b0201">護國壽</item>
+<lb ed="B" n="0604b03"/><item xml:id="itemB24p0604b0301">九峰勤</item>
+<lb ed="B" n="0604b04"/><item xml:id="itemB24p0604b0401">雪蓋繼鵬</item>
+<lb ed="B" n="0604b05"/><item xml:id="itemB24p0604b0501">黃龍海</item>
+<lb ed="B" n="0604b06"/><item xml:id="itemB24p0604b0601">彰法澄泗</item>
+<lb ed="B" n="0604b07"/><item xml:id="itemB24p0604b0701">延慶子榮
+<lb ed="B" n="0604b08"/><list rend="no-marker"><item xml:id="itemB24p0604b0801">圓通居訥</item></list></item>
+<lb ed="B" n="0604b09"/><item xml:id="itemB24p0604b0901">百丈智映
+<lb ed="B" n="0604b10"/><list rend="no-marker"><item xml:id="itemB24p0604b1001">慧因懷詳</item>
+<lb ed="B" n="0604b11"/><item xml:id="itemB24p0604b1101">慧因義寧</item></list></item>
+<lb ed="B" n="0604b12"/><item xml:id="itemB24p0604b1201">南華寶緣
+<lb ed="B" n="0604b13"/><list rend="no-marker"><item xml:id="itemB24p0604b1301">興化延慶</item>
+<lb ed="B" n="0604b14"/><item xml:id="itemB24p0604b1401">寶壽行德</item>
+<lb ed="B" n="0604b15"/><item xml:id="itemB24p0604b1501">白虎守昇</item></list></item>
+<lb ed="B" n="0604b16"/><item xml:id="itemB24p0604b1601"><note n="0604b1601" resp="CBETA" type="add">雲【CB】，雪【補編】</note><app n="0604b1601"><lem wit="【CB】" resp="CBETA">雲</lem><rdg wit="【補編】">雪</rdg></app>臺因</item></list></item>
+<lb ed="B" n="0604b17"/><item xml:id="itemB24p0604b1701">羅漢和尚</item>
+<lb ed="B" n="0604b18"/><item xml:id="itemB24p0604b1801">香林信</item></list></item>
+<lb ed="B" n="0604b19"/><item xml:id="itemB24p0604b1901">福化<note n="0604b1901" resp="CBETA" type="add">充【CB】，光【補編】</note><app n="0604b1901"><lem wit="【CB】" resp="CBETA">充</lem><rdg wit="【補編】">光</rdg></app></item>
+<lb ed="B" n="0604b20"/><item xml:id="itemB24p0604b2001">東天王廣慈</item>
+<lb ed="B" n="0604b21"/><item xml:id="itemB24p0604b2101">西禪欽</item>
+<lb ed="B" n="0604b22"/><item xml:id="itemB24p0604b2201">慶雲真</item>
+<lb ed="B" n="0604b23"/><item xml:id="itemB24p0604b2301">洞山凛</item>
+<lb ed="B" n="0604b24"/><item xml:id="itemB24p0604b2401">雙峰慧</item>
+<lb ed="B" n="0604b25"/><item xml:id="itemB24p0604b2501">韶州廣悟</item>
+<lb ed="B" n="0604b26"/><item xml:id="itemB24p0604b2601">雲門法球</item>
+<lb ed="B" n="0604b27"/><item xml:id="itemB24p0604b2701">新開顥鑒
+<lb ed="B" n="0604b28"/><list rend="no-marker"><item xml:id="itemB24p0604b2801">泐潭寬</item></list></item>
+<lb ed="B" n="0604b29"/><item xml:id="itemB24p0604b2901">佛陀山遠
+<lb ed="B" n="0604b30"/><list rend="no-marker"><item xml:id="itemB24p0604b3001">興化興順</item></list></item>
+<lb ed="B" n="0604b31"/><item xml:id="itemB24p0604b3101">泐潭道謙
+<lb ed="B" n="0604b32"/><list rend="no-marker"><item xml:id="itemB24p0604b3201">了山宗盛</item></list></item>
+<lb ed="B" n="0604b33"/><item xml:id="itemB24p0604b3301">奉先深
+<lb ed="B" n="0604b34"/><list rend="no-marker"><item xml:id="itemB24p0604b3401">蓮華峰祥</item></list></item>
+<lb ed="B" n="0604b35"/><item xml:id="itemB24p0604b3501">慈雲深
+<lb ed="B" n="0604b36"/><list rend="no-marker"><item xml:id="itemB24p0604b3601">崇信御</item></list></item>
+<lb ed="B" n="0604b37"/><item xml:id="itemB24p0604b3701">洞山守初
+<lb ed="B" n="0604b38"/><list rend="no-marker"><item xml:id="itemB24p0604b3801">福嚴良雅
+<lb ed="B" n="0604b39"/><list rend="no-marker"><item xml:id="itemB24p0604b3901">北禪智賢
+<lb ed="B" n="0604b40"/><list rend="no-marker"><item xml:id="itemB24p0604b4001">興化紹銑</item>
+<lb ed="B" n="0604b41"/><item xml:id="itemB24p0604b4101">法昌倚遇</item>
+<lb ed="B" n="0604b42"/><item xml:id="itemB24p0604b4201">廣因擇要</item></list></item>
+<lb ed="B" n="0604b43"/><item xml:id="itemB24p0604b4301">衡嶽振</item></list></item>
+<lb ed="B" n="0604b44"/><item xml:id="itemB24p0604b4401">乾明睦</item>
+<lb ed="B" n="0604b45"/><item xml:id="itemB24p0604b4501">開福德賢
+<lb ed="B" n="0604b46"/><list rend="no-marker"><item xml:id="itemB24p0604b4601">上座日芳</item></list></item>
+<lb ed="B" n="0604b47"/><item xml:id="itemB24p0604b4701">報慈道嵩
+<lb ed="B" n="0604b48"/><list rend="no-marker"><item xml:id="itemB24p0604b4801">興陽遜</item></list></item>
+<lb ed="B" n="0604b49"/><item xml:id="itemB24p0604b4901">廣濟同</item>
+<lb ed="B" n="0604b50"/><item xml:id="itemB24p0604b5001">東平洪教</item></list></item>
+<lb ed="B" n="0604b51"/><item xml:id="itemB24p0604b5101">化<note n="0604b5101" resp="CBETA" type="add">城【CB】，成【補編】</note><app n="0604b5101"><lem wit="【CB】" resp="CBETA">城</lem><rdg wit="【補編】">成</rdg></app>鑒</item>
+<lb ed="B" n="0604b52"/><item xml:id="itemB24p0604b5201">廬山護國</item>
+<lb ed="B" n="0604b53"/><item xml:id="itemB24p0604b5301">永福朗</item>
+<lb ed="B" n="0604b54"/><item xml:id="itemB24p0604b5401">趙橫山</item>
+<lb ed="B" n="0604b55"/><item xml:id="itemB24p0604b5501">南天王海</item>
+<lb ed="B" n="0604b56"/><item xml:id="itemB24p0604b5601">雙全郁
+<lb ed="B" n="0604b57"/><list rend="no-marker"><item xml:id="itemB24p0604b5701">德山慧遠
+<lb ed="B" n="0604b58"/><list rend="no-marker"><item xml:id="itemB24p0604b5801">開先善暹
+<lb ed="B" n="0604b59"/><list rend="no-marker"><item xml:id="itemB24p0604b5901">雲居了元</item>
+<lb ed="B" n="0604b60"/><item xml:id="itemB24p0604b6001">智海本逸</item>
+<lb ed="B" n="0604b61"/><item xml:id="itemB24p0604b6101">天章元楚</item>
+<lb ed="B" n="0604b62"/><item xml:id="itemB24p0604b6201">梁山應圓</item></list></item>
+<lb ed="B" n="0604b63"/><item xml:id="itemB24p0604b6301">禾山楚材</item>
+<lb ed="B" n="0604b64"/><item xml:id="itemB24p0604b6401">資聖盛勤</item>
+<lb ed="B" n="0604b65"/><item xml:id="itemB24p0604b6501">欽山悟勤</item>
+<lb ed="B" n="0604b66"/><item xml:id="itemB24p0604b6601">鹿苑珪</item></list></item>
+<lb ed="B" n="0604b67"/><item xml:id="itemB24p0604b6701">含珠山彬</item></list></item>
+<lb ed="B" n="0604b68"/><item xml:id="itemB24p0604b6801">覺華普照</item>
+<lb ed="B" n="0604b69"/><item xml:id="itemB24p0604b6901">鐵幢覺</item>
+<lb ed="B" n="0604b71"/><item xml:id="itemB24p0604b7101">延長和尚</item>
+<lb ed="B" n="0604b72"/><item xml:id="itemB24p0604b7201">福化克</item>
+<lb ed="B" n="0604b73"/><item xml:id="itemB24p0604b7301">黃龍贊</item>
 <pb ed="B" xml:id="B24.0140.0605a" n="0605a"/>
-<lb ed="B" n="0605a01"/><p xml:id="pB24p0605a0101"><figure><graphic url="../figures/B/B24p0605_01.gif"></graphic></figure></p></cb:div>
-<lb ed="B" n="0605a02"/>
-<lb ed="B" n="0605a03"/>
-<lb ed="B" n="0605a04"/>
-<lb ed="B" n="0605a05"/>
-<lb ed="B" n="0605a06"/>
-<lb ed="B" n="0605a07"/>
-<lb ed="B" n="0605a08"/>
-<lb ed="B" n="0605a09"/>
-<lb ed="B" n="0605a10"/>
+<lb ed="B" n="0605a01"/><item xml:id="itemB24p0605a0101">披雲智寂
+<lb ed="B" n="0605a02"/><list rend="no-marker"><item xml:id="itemB24p0605a0201">開先照</item>
+<lb ed="B" n="0605a03"/><item xml:id="itemB24p0605a0301">天寶和尚</item>
+<lb ed="B" n="0605a04"/><item xml:id="itemB24p0605a0401">桃源曦朗</item>
+<lb ed="B" n="0605a05"/><item xml:id="itemB24p0605a0501">法雲智善</item></list></item>
+<lb ed="B" n="0605a06"/><item xml:id="itemB24p0605a0601">天柱和尚</item>
+<lb ed="B" n="0605a07"/><item xml:id="itemB24p0605a0701"><note n="0605a0701" resp="CBETA" type="add">舜【CB】，舞【補編】</note><app n="0605a0701"><lem wit="【CB】" resp="CBETA">舜</lem><rdg wit="【補編】">舞</rdg></app>峰義韶</item>
+<lb ed="B" n="0605a08"/><item xml:id="itemB24p0605a0801">上座明</item>
+<lb ed="B" n="0605a09"/><item xml:id="itemB24p0605a0901">般若啟柔
+<lb ed="B" n="0605a10"/><list rend="no-marker"><item xml:id="itemB24p0605a1001">藍田真</item></list></item><item xml:id="itemB24p0605a1004">妙勝臻<list rend="no-marker"><item xml:id="itemB24p0605a1007">雪峰欽</item></list></item><item xml:id="itemB24p0605a1010">薦福承古<list rend="no-marker"><item xml:id="itemB24p0605a1014">淨戒守密</item></list></item><item xml:id="itemB24p0605a1018">清涼智明<list rend="no-marker"><item xml:id="itemB24p0605a1022">西峰雲豁<list rend="no-marker"><item xml:id="itemB24p0605a1026">西安自嚴</item></list></item></list></item><item xml:id="itemB24p0605a1030">纂子菴主</item><item xml:id="itemB24p0605a1034">慶雲和尚</item></list></item></list></cb:div>
 <lb ed="B" n="0605a11"/><cb:div type="other"><cb:mulu type="其他" level="2">法眼宗分派圖譜</cb:mulu><head>法眼宗分派圖譜</head>
-<lb ed="B" n="0605a12"/><p xml:id="pB24p0605a1201"><figure><graphic url="../figures/B/B24p0605_02.gif"></graphic></figure></p>
-<lb ed="B" n="0605a13"/>
-<lb ed="B" n="0605a14"/>
-<lb ed="B" n="0605a15"/>
-<lb ed="B" n="0605a16"/>
-<lb ed="B" n="0605a17"/>
-<lb ed="B" n="0605a18"/>
+<lb ed="B" n="0605a12"/><list rend="no-marker"><item xml:id="itemB24p0605a1201">雪峰義存
+<lb ed="B" n="0605a13"/><list rend="no-marker"><item xml:id="itemB24p0605a1301">玄沙師備
+<lb ed="B" n="0605a14"/><list rend="no-marker"><item xml:id="itemB24p0605a1401">羅漢桂琛
+<lb ed="B" n="0605a15"/><list rend="no-marker"><item xml:id="itemB24p0605a1501">法眼文益
+<lb ed="B" n="0605a16"/><list rend="no-marker"><item xml:id="itemB24p0605a1601">天台德韶
+<lb ed="B" n="0605a17"/><list rend="no-marker"><item xml:id="itemB24p0605a1701">永明延壽
+<lb ed="B" n="0605a18"/><list rend="no-marker"><item xml:id="itemB24p0605a1801">富陽子蒙</item>
+<lb ed="B" n="0605a19"/><item xml:id="itemB24p0605a1901">乾明津</item></list></item>
+<lb ed="B" n="0605a20"/><item xml:id="itemB24p0605a2001">長壽明彥
+<lb ed="B" n="0605a21"/><list rend="no-marker"><item xml:id="itemB24p0605a2101">長壽法齊</item></list></item>
+<lb ed="B" n="0605a22"/><item xml:id="itemB24p0605a2201">普門希辦
+<lb ed="B" n="0605a23"/><list rend="no-marker"><item xml:id="itemB24p0605a2301">高麗慧洪</item>
+<lb ed="B" n="0605a24"/><item xml:id="itemB24p0605a2401">上林胡智</item></list></item>
+<lb ed="B" n="0605a25"/><item xml:id="itemB24p0605a2501">大寧可弘</item>
 <pb ed="B" xml:id="B24.0140.0605b" n="0605b"/>
-<lb ed="B" n="0605b01"/><p xml:id="pB24p0605b0101"><figure><graphic url="../figures/B/B24p0605_03.gif"></graphic></figure></p>
-<lb ed="B" n="0605b02"/>
-<lb ed="B" n="0605b03"/>
-<lb ed="B" n="0605b04"/>
-<lb ed="B" n="0605b05"/>
-<lb ed="B" n="0605b06"/>
-<lb ed="B" n="0605b07"/>
-<lb ed="B" n="0605b08"/>
-<lb ed="B" n="0605b09"/>
-<lb ed="B" n="0605b10"/>
-<lb ed="B" n="0605b11"/>
-<lb ed="B" n="0605b12"/>
-<lb ed="B" n="0605b13"/>
-<lb ed="B" n="0605b14"/>
-<lb ed="B" n="0605b15"/>
-<lb ed="B" n="0605b16"/>
-<lb ed="B" n="0605b17"/>
-<lb ed="B" n="0605b18"/>
+<lb ed="B" n="0605b01"/><item xml:id="itemB24p0605b0101">永安道原</item>
+<lb ed="B" n="0605b02"/><item xml:id="itemB24p0605b0201">報恩法端</item>
+<lb ed="B" n="0605b03"/><item xml:id="itemB24p0605b0301">報恩紹</item>
+<lb ed="B" n="0605b04"/><item xml:id="itemB24p0605b0401">廣平守威</item>
+<lb ed="B" n="0605b05"/><item xml:id="itemB24p0605b0501">報恩永安</item>
+<lb ed="B" n="0605b06"/><item xml:id="itemB24p0605b0601">光聖師護</item>
+<lb ed="B" n="0605b07"/><item xml:id="itemB24p0605b0701">奉先清昱</item>
+<lb ed="B" n="0605b08"/><item xml:id="itemB24p0605b0801">普聞智勤</item>
+<lb ed="B" n="0605b09"/><item xml:id="itemB24p0605b0901">雁蕩願齊</item>
+<lb ed="B" n="0605b10"/><item xml:id="itemB24p0605b1001">光慶遇安</item>
+<lb ed="B" n="0605b11"/><item xml:id="itemB24p0605b1101">般若友蟾</item>
+<lb ed="B" n="0605b12"/><item xml:id="itemB24p0605b1201">智者全肻</item>
+<lb ed="B" n="0605b13"/><item xml:id="itemB24p0605b1301">玉全義隆</item>
+<lb ed="B" n="0605b14"/><item xml:id="itemB24p0605b1401">龍冊曉榮</item>
+<lb ed="B" n="0605b15"/><item xml:id="itemB24p0605b1501">功臣慶</item>
+<lb ed="B" n="0605b16"/><item xml:id="itemB24p0605b1601">稱心敬璡</item>
+<lb ed="B" n="0605b17"/><item xml:id="itemB24p0605b1701">嚴峰師朮</item>
+<lb ed="B" n="0605b18"/><item xml:id="itemB24p0605b1801">華嚴慧達</item>
 <pb ed="B" xml:id="B24.0140.0606a" n="0606a"/>
-<lb ed="B" n="0606a01"/><p xml:id="pB24p0606a0101"><figure><graphic url="../figures/B/B24p0606_01.gif"></graphic></figure></p>
-<lb ed="B" n="0606a02"/>
-<lb ed="B" n="0606a03"/>
-<lb ed="B" n="0606a04"/>
-<lb ed="B" n="0606a05"/>
-<lb ed="B" n="0606a06"/>
-<lb ed="B" n="0606a07"/>
-<lb ed="B" n="0606a08"/>
-<lb ed="B" n="0606a09"/>
-<lb ed="B" n="0606a10"/>
-<lb ed="B" n="0606a11"/>
-<lb ed="B" n="0606a12"/>
-<lb ed="B" n="0606a13"/>
-<lb ed="B" n="0606a14"/>
-<lb ed="B" n="0606a15"/>
-<lb ed="B" n="0606a16"/>
-<lb ed="B" n="0606a17"/>
-<lb ed="B" n="0606a18"/>
+<lb ed="B" n="0606a01"/><item xml:id="itemB24p0606a0101">清泰道圓</item>
+<lb ed="B" n="0606a02"/><item xml:id="itemB24p0606a0201">九曲慶祥</item>
+<lb ed="B" n="0606a03"/><item xml:id="itemB24p0606a0301">開化行明</item>
+<lb ed="B" n="0606a04"/><item xml:id="itemB24p0606a0401">開善義圓</item>
+<lb ed="B" n="0606a05"/><item xml:id="itemB24p0606a0501">瑞鹿遇安</item>
+<lb ed="B" n="0606a06"/><item xml:id="itemB24p0606a0601">龍華慧居</item>
+<lb ed="B" n="0606a07"/><item xml:id="itemB24p0606a0701">齊雲遇臻</item>
+<lb ed="B" n="0606a08"/><item xml:id="itemB24p0606a0801">瑞鹿本先</item>
+<lb ed="B" n="0606a09"/><item xml:id="itemB24p0606a0901">興教洪壽</item>
+<lb ed="B" n="0606a10"/><item xml:id="itemB24p0606a1001">報恩德謙</item>
+<lb ed="B" n="0606a11"/><item xml:id="itemB24p0606a1101">靈隱處先</item>
+<lb ed="B" n="0606a12"/><item xml:id="itemB24p0606a1201">善建省義</item>
+<lb ed="B" n="0606a13"/><item xml:id="itemB24p0606a1301">觀音安</item>
+<lb ed="B" n="0606a14"/><item xml:id="itemB24p0606a1401">雲門重曜</item>
+<lb ed="B" n="0606a15"/><item xml:id="itemB24p0606a1501">仁壽澤</item>
+<lb ed="B" n="0606a16"/><item xml:id="itemB24p0606a1601">大禹榮</item>
+<lb ed="B" n="0606a17"/><item xml:id="itemB24p0606a1701">地藏瓊</item>
+<lb ed="B" n="0606a18"/><item xml:id="itemB24p0606a1801">靈隱韶光</item>
 <pb ed="B" xml:id="B24.0140.0606b" n="0606b"/>
-<lb ed="B" n="0606b01"/><p xml:id="pB24p0606b0101"><figure><graphic url="../figures/B/B24p0606_02.gif"></graphic></figure></p>
-<lb ed="B" n="0606b02"/>
-<lb ed="B" n="0606b03"/>
-<lb ed="B" n="0606b04"/>
-<lb ed="B" n="0606b05"/>
-<lb ed="B" n="0606b06"/>
-<lb ed="B" n="0606b07"/>
-<lb ed="B" n="0606b08"/>
-<lb ed="B" n="0606b09"/>
-<lb ed="B" n="0606b10"/>
-<lb ed="B" n="0606b11"/>
-<lb ed="B" n="0606b12"/>
-<lb ed="B" n="0606b13"/>
-<lb ed="B" n="0606b14"/>
-<lb ed="B" n="0606b15"/>
-<lb ed="B" n="0606b16"/>
-<lb ed="B" n="0606b17"/>
-<lb ed="B" n="0606b18"/>
+<lb ed="B" n="0606b01"/><item xml:id="itemB24p0606b0101">龍華紹鑾</item>
+<lb ed="B" n="0606b02"/><item xml:id="itemB24p0606b0201">碧泉行新</item>
+<lb ed="B" n="0606b03"/><item xml:id="itemB24p0606b0301">象田默</item>
+<lb ed="B" n="0606b04"/><item xml:id="itemB24p0606b0401">登雲從竪</item>
+<lb ed="B" n="0606b05"/><item xml:id="itemB24p0606b0501">觀音朗</item>
+<lb ed="B" n="0606b06"/><item xml:id="itemB24p0606b0601">五峰和尚</item>
+<lb ed="B" n="0606b07"/><item xml:id="itemB24p0606b0701">何山道孜</item>
+<lb ed="B" n="0606b08"/><item xml:id="itemB24p0606b0801">大禹自廣</item>
+<lb ed="B" n="0606b09"/><item xml:id="itemB24p0606b0901">黃蘗師逸</item>
+<lb ed="B" n="0606b10"/><item xml:id="itemB24p0606b1001">瑞光清表</item></list></item>
+<lb ed="B" n="0606b11"/><item xml:id="itemB24p0606b1101">羅漢智依</item>
+<lb ed="B" n="0606b12"/><item xml:id="itemB24p0606b1201">章義道欽</item>
+<lb ed="B" n="0606b13"/><item xml:id="itemB24p0606b1301">報恩匡逸</item>
+<lb ed="B" n="0606b14"/><item xml:id="itemB24p0606b1401">黃山良匡</item>
+<lb ed="B" n="0606b15"/><item xml:id="itemB24p0606b1501">報恩玄則</item>
+<lb ed="B" n="0606b16"/><item xml:id="itemB24p0606b1601">淨德智筠</item>
+<lb ed="B" n="0606b17"/><item xml:id="itemB24p0606b1701">寶塔紹巖</item>
+<lb ed="B" n="0606b18"/><item xml:id="itemB24p0606b1801">般若欽遵</item>
+<lb ed="B" n="0606b19"/><item xml:id="itemB24p0606b1901">歸宗策真</item>
+<lb ed="B" n="0606b20"/><item xml:id="itemB24p0606b2001">棲玄慧圓</item>
+<lb ed="B" n="0606b21"/><item xml:id="itemB24p0606b2101">觀音從顯</item>
+<lb ed="B" n="0606b22"/><item xml:id="itemB24p0606b2201">正勤希奉</item>
+<lb ed="B" n="0606b23"/><item xml:id="itemB24p0606b2301">興善棲倫</item>
+<lb ed="B" n="0606b24"/><item xml:id="itemB24p0606b2401">新興齊</item>
+<lb ed="B" n="0606b25"/><item xml:id="itemB24p0606b2501">慈雲匡達</item>
+<lb ed="B" n="0606b26"/><item xml:id="itemB24p0606b2601">薦福紹明</item>
+<lb ed="B" n="0606b27"/><item xml:id="itemB24p0606b2701">古賢謹</item>
+<lb ed="B" n="0606b28"/><item xml:id="itemB24p0606b2801">興福可勲</item>
+<lb ed="B" n="0606b29"/><item xml:id="itemB24p0606b2901">上藍守訥</item>
+<lb ed="B" n="0606b30"/><item xml:id="itemB24p0606b3001">覆船山和尚</item>
+<lb ed="B" n="0606b31"/><item xml:id="itemB24p0606b3101">奉先法瓌</item>
+<lb ed="B" n="0606b32"/><item xml:id="itemB24p0606b3201">化城慧朗</item>
+<lb ed="B" n="0606b33"/><item xml:id="itemB24p0606b3301">永明道鴻</item>
+<lb ed="B" n="0606b34"/><item xml:id="itemB24p0606b3401">高麗靈鑒</item>
+<lb ed="B" n="0606b35"/><item xml:id="itemB24p0606b3501">上泉和尚</item>
+<lb ed="B" n="0606b36"/><item xml:id="itemB24p0606b3601">大林僧遁</item>
+<lb ed="B" n="0606b37"/><item xml:id="itemB24p0606b3701">仁王緣勝</item>
+<lb ed="B" n="0606b38"/><item xml:id="itemB24p0606b3801">上方慧英</item>
+<lb ed="B" n="0606b39"/><item xml:id="itemB24p0606b3901">護國邁</item>
+<lb ed="B" n="0606b40"/><item xml:id="itemB24p0606b4001">足嶺照</item>
+<lb ed="B" n="0606b41"/><item xml:id="itemB24p0606b4101">歸宗師慧</item>
+<lb ed="B" n="0606b42"/><item xml:id="itemB24p0606b4201">歸宗省一</item>
+<lb ed="B" n="0606b43"/><item xml:id="itemB24p0606b4301">延慶通性</item>
+<lb ed="B" n="0606b44"/><item xml:id="itemB24p0606b4401">歸宗夢欽</item>
+<lb ed="B" n="0606b45"/><item xml:id="itemB24p0606b4501">舍利玄闡</item>
+<lb ed="B" n="0606b46"/><item xml:id="itemB24p0606b4601">永安明</item>
+<lb ed="B" n="0606b47"/><item xml:id="itemB24p0606b4701">禪谿可莊</item>
+<lb ed="B" n="0606b48"/><item xml:id="itemB24p0606b4801">石霜爽</item>
+<lb ed="B" n="0606b49"/><item xml:id="itemB24p0606b4901">靈山和尚</item>
+<lb ed="B" n="0606b50"/><item xml:id="itemB24p0606b5001">佛手巖因</item>
+<lb ed="B" n="0606b51"/><item xml:id="itemB24p0606b5101">保安止</item>
+<lb ed="B" n="0606b52"/><item xml:id="itemB24p0606b5201">華嚴幽</item>
+<lb ed="B" n="0606b53"/><item xml:id="itemB24p0606b5301">本平道達</item>
+<lb ed="B" n="0606b54"/><item xml:id="itemB24p0606b5401">大寧道邁</item>
+<lb ed="B" n="0606b55"/><item xml:id="itemB24p0606b5501">龍興德賓</item>
+<lb ed="B" n="0606b56"/><item xml:id="itemB24p0606b5601">黃龍仁</item>
+<lb ed="B" n="0606b57"/><item xml:id="itemB24p0606b5701">西山道聳</item>
+<lb ed="B" n="0606b58"/><item xml:id="itemB24p0606b5801">清凉泰欽
+<lb ed="B" n="0606b59"/><list rend="no-marker"><item xml:id="itemB24p0606b5901">雲居道齊
+<lb ed="B" n="0606b60"/><list rend="no-marker"><item xml:id="itemB24p0606b6001">靈隱文勝
+<lb ed="B" n="0606b61"/><list rend="no-marker"><item xml:id="itemB24p0606b6101">靈隱延珊</item>
+<lb ed="B" n="0606b62"/><item xml:id="itemB24p0606b6201">薦福歸則</item></list></item>
+<lb ed="B" n="0606b63"/><item xml:id="itemB24p0606b6301">雲居契瓌</item>
+<lb ed="B" n="0606b64"/><item xml:id="itemB24p0606b6401">廣慧志全</item>
+<lb ed="B" n="0606b65"/><item xml:id="itemB24p0606b6501">保福居煦</item>
+<lb ed="B" n="0606b66"/><item xml:id="itemB24p0606b6601">瑞巖義海
+<lb ed="B" n="0606b67"/><list rend="no-marker"><item xml:id="itemB24p0606b6701">翠巖嗣光</item></list></item>
+<lb ed="B" n="0606b68"/><item xml:id="itemB24p0606b6801">南明惟宿</item>
+<lb ed="B" n="0606b69"/><item xml:id="itemB24p0606b6901">清谿清</item></list></item></list></item>
+<lb ed="B" n="0606b70"/><item xml:id="itemB24p0606b7001">報恩慧明
+<lb ed="B" n="0606b71"/><list rend="no-marker"><item xml:id="itemB24p0606b7101">保明道誠</item></list></item>
+<lb ed="B" n="0606b72"/><item xml:id="itemB24p0606b7201">報慈雲遂
+<lb ed="B" n="0606b73"/><list rend="no-marker"><item xml:id="itemB24p0606b7301">齊雲慧</item>
+<lb ed="B" n="0606b74"/><item xml:id="itemB24p0606b7401">雙嶺祥</item>
+<lb ed="B" n="0606b75"/><item xml:id="itemB24p0606b7501">觀音真</item>
+<lb ed="B" n="0606b76"/><item xml:id="itemB24p0606b7601">龍沙茂</item>
+<lb ed="B" n="0606b77"/><item xml:id="itemB24p0606b7701">大寧獎</item></list></item>
+<lb ed="B" n="0606b78"/><item xml:id="itemB24p0606b7801">永明道潜
+<lb ed="B" n="0606b79"/><list rend="no-marker"><item xml:id="itemB24p0606b7901">千光瓌省</item>
 <pb ed="B" xml:id="B24.0140.0607a" n="0607a"/>
-<lb ed="B" n="0607a01"/><p xml:id="pB24p0607a0101"><figure><graphic url="../figures/B/B24p0607_01.gif"></graphic></figure></p>
-<lb ed="B" n="0607a02"/>
-<lb ed="B" n="0607a03"/>
-<lb ed="B" n="0607a04"/>
-<lb ed="B" n="0607a05"/>
-<lb ed="B" n="0607a06"/>
-<lb ed="B" n="0607a07"/>
-<lb ed="B" n="0607a08"/>
-<lb ed="B" n="0607a09"/>
-<lb ed="B" n="0607a10"/>
-<lb ed="B" n="0607a11"/>
-<lb ed="B" n="0607a12"/>
-<lb ed="B" n="0607a13"/>
-<lb ed="B" n="0607a14"/>
-<lb ed="B" n="0607a15"/>
-<lb ed="B" n="0607a16"/>
-<lb ed="B" n="0607a17"/>
-<lb ed="B" n="0607a18"/>
+<lb ed="B" n="0607a01"/><item xml:id="itemB24p0607a0101">鎮境志澄</item>
+<lb ed="B" n="0607a02"/><item xml:id="itemB24p0607a0201">崇福慶祥</item></list></item>
+<lb ed="B" n="0607a03"/><item xml:id="itemB24p0607a0301">靈隱清聳
+<lb ed="B" n="0607a04"/><list rend="no-marker"><item xml:id="itemB24p0607a0401">功臣道慈</item>
+<lb ed="B" n="0607a05"/><item xml:id="itemB24p0607a0501">羅漢願昭</item>
+<lb ed="B" n="0607a06"/><item xml:id="itemB24p0607a0601">報恩師智</item>
+<lb ed="B" n="0607a07"/><item xml:id="itemB24p0607a0701">濲寧可先</item>
+<lb ed="B" n="0607a08"/><item xml:id="itemB24p0607a0801">光孝道端</item>
+<lb ed="B" n="0607a09"/><item xml:id="itemB24p0607a0901">保清遇寧</item>
+<lb ed="B" n="0607a10"/><item xml:id="itemB24p0607a1001">支提辦隆
+<lb ed="B" n="0607a11"/><list rend="no-marker"><item xml:id="itemB24p0607a1101">靈隱玄本</item></list></item>
+<lb ed="B" n="0607a12"/><item xml:id="itemB24p0607a1201">瑞龍希圓</item>
+<lb ed="B" n="0607a13"/><item xml:id="itemB24p0607a1301">國泰德文</item></list></item>
+<lb ed="B" n="0607a14"/><item xml:id="itemB24p0607a1401">報慈行言
+<lb ed="B" n="0607a15"/><list rend="no-marker"><item xml:id="itemB24p0607a1501">雲居義能</item>
+<lb ed="B" n="0607a16"/><item xml:id="itemB24p0607a1601">北禪清皎</item></list></item>
+<lb ed="B" n="0607a17"/><item xml:id="itemB24p0607a1701">報恩法安
+<lb ed="B" n="0607a18"/><list rend="no-marker"><item xml:id="itemB24p0607a1801">棲賢道堅</item>
+<lb ed="B" n="0607a19"/><item xml:id="itemB24p0607a1901">歸宗慧誠</item></list></item>
+<lb ed="B" n="0607a20"/><item xml:id="itemB24p0607a2001">長安院延規
+<lb ed="B" n="0607a21"/><list rend="no-marker"><item xml:id="itemB24p0607a2101">長安辯實</item>
+<lb ed="B" n="0607a22"/><item xml:id="itemB24p0607a2201">雲蓋用清</item></list></item>
+<lb ed="B" n="0607a23"/><item xml:id="itemB24p0607a2301">歸宗義柔
+<lb ed="B" n="0607a24"/><list rend="no-marker"><item xml:id="itemB24p0607a2401">羅漢行林
+<lb ed="B" n="0607a25"/><list rend="no-marker"><item xml:id="itemB24p0607a2501">慧力紹珍</item>
 <pb ed="B" xml:id="B24.0140.0607b" n="0607b"/>
-<lb ed="B" n="0607b01"/><p xml:id="pB24p0607b0101"><figure><graphic url="../figures/B/B24p0607_02.gif"></graphic></figure></p>
-<lb ed="B" n="0607b02"/>
-<lb ed="B" n="0607b03"/>
-<lb ed="B" n="0607b04"/>
-<lb ed="B" n="0607b05"/>
-<lb ed="B" n="0607b06"/>
-<lb ed="B" n="0607b07"/>
-<lb ed="B" n="0607b08"/>
-<lb ed="B" n="0607b09"/>
-<lb ed="B" n="0607b10"/>
-<lb ed="B" n="0607b11"/>
-<lb ed="B" n="0607b12"/><p xml:id="pB24p0607b1201" style="margin-left:0em;text-indent:2em">論曰自迦葉靈山一笑至達磨西來授衣東土六
-<lb ed="B" n="0607b13"/>傳至南能其教彌昌後分為南岳懷讓青原行思
-<lb ed="B" n="0607b14"/>思傳石頭希遷又數傳至洞山良价价傳曹山本
-<lb ed="B" n="0607b15"/>寂是為曹洞宗讓傳馬祖道一一傳百丈懷海海
-<lb ed="B" n="0607b16"/>傳黃蘗希運溈山靈祐祐傳仰山慧寂是為溈仰
-<lb ed="B" n="0607b17"/>宗運傳臨濟義玄其法最盛是為臨濟宗石頭之
-<lb ed="B" n="0607b18"/>嗣又有天皇道悟者傳龍潭崇信信傳德山宣鑒
+<lb ed="B" n="0607b01"/><item xml:id="itemB24p0607b0101">大寧慶璁</item></list></item>
+<lb ed="B" n="0607b02"/><item xml:id="itemB24p0607b0201">功臣覺軻
+<lb ed="B" n="0607b03"/><list rend="no-marker"><item xml:id="itemB24p0607b0301">堯峰顥暹</item>
+<lb ed="B" n="0607b04"/><item xml:id="itemB24p0607b0401">功臣守如</item></list></item></list></item>
+<lb ed="B" n="0607b05"/><item xml:id="itemB24p0607b0501">百丈道恒
+<lb ed="B" n="0607b06"/><list rend="no-marker"><item xml:id="itemB24p0607b0601">棲賢澄實
+<lb ed="B" n="0607b07"/><list rend="no-marker"><item xml:id="itemB24p0607b0701">興教惟一</item>
+<lb ed="B" n="0607b08"/><item xml:id="itemB24p0607b0801">西余體柔</item>
+<lb ed="B" n="0607b09"/><item xml:id="itemB24p0607b0901">定山惟素</item>
+<lb ed="B" n="0607b10"/><item xml:id="itemB24p0607b1001">壽聖志昇</item></list></item></list></item>
+<lb ed="B" n="0607b11"/><item xml:id="itemB24p0607b1101">雲居清錫<list rend="no-marker"><item xml:id="itemB24p0607b1105">般若從璡</item><item xml:id="itemB24p0607b1109">清化志超</item></list></item><item xml:id="itemB24p0607b1113">崇壽契稠<list rend="no-marker"><item xml:id="itemB24p0607b1117">淨土惟素<list rend="no-marker"><item xml:id="itemB24p0607b1121">淨土惟政</item><item xml:id="itemB24p0607b1125">黃牛政</item></list></item><item xml:id="itemB24p0607b1128">雲臺令岑</item></list></item></list></item></list></item></list></item></list></item></list></cb:div>
+<lb ed="B" n="0607b12"/><cb:div type="other"><cb:mulu type="其他" level="2">紀法派論</cb:mulu><p xml:id="pB24p0607b1201" style="margin-left:0em;text-indent:2em;">論曰：自迦葉靈山一笑，至達磨西來，授衣東土，六
+<lb ed="B" n="0607b13"/>傳至南能，其教彌昌；後分為南岳懷讓、青原行思，
+<lb ed="B" n="0607b14"/>思傳石頭希遷。又數傳至洞山良价，价傳曹山本
+<lb ed="B" n="0607b15"/>寂，是為曹洞宗。讓傳馬祖道一，一傳百丈懷海，海
+<lb ed="B" n="0607b16"/>傳黃蘗希運、溈山靈祐。祐傳仰山慧寂，是為溈仰
+<lb ed="B" n="0607b17"/>宗。運傳臨濟義玄，其法最盛，是為臨濟宗。石頭之
+<lb ed="B" n="0607b18"/>嗣又有天皇道悟者，傳龍潭崇信，信傳德山宣鑒，
 <pb ed="B" xml:id="B24.0140.0608a" n="0608a"/>
-<lb ed="B" n="0608a01"/>鑒傳雪峰義存存傳雲門文偃是為雲門宗又傳
-<lb ed="B" n="0608a02"/>玄沙師備備傳羅漢桂琛琛傳法眼文益是為法
-<lb ed="B" n="0608a03"/>眼宗總曰五宗而雪峰衍派居其二矣今五宗支
-<lb ed="B" n="0608a04"/>派日繁淵源莫考茲特紀雪峰一脉著為圖譜俾
-<lb ed="B" n="0608a05"/>後之人有所考云</p></cb:div></cb:div>
+<lb ed="B" n="0608a01"/>鑒傳雪峰義存。存傳雲門文偃，是為雲門宗。又傳
+<lb ed="B" n="0608a02"/>玄沙師備，備傳羅漢桂琛。琛傳法眼文益，是為法
+<lb ed="B" n="0608a03"/>眼宗。總曰五宗，而雪峰衍派居其二矣。今五宗支
+<lb ed="B" n="0608a04"/>派日繁，淵源莫考，茲特紀雪峰一脉著為圖譜，俾
+<lb ed="B" n="0608a05"/>後之人有所考云。</p></cb:div></cb:div>
 <lb ed="B" n="0608a06"/>
 <lb ed="B" n="0608a07"/>
 <lb ed="B" n="0608a08"/>
-<lb ed="B" n="0608a09"/><cb:juan fun="close" n="4"><cb:jhead>雪峰志卷之四終</cb:jhead></cb:juan>
+<lb ed="B" n="0608a09"/><cb:juan fun="close"><cb:jhead>雪峰志卷之四終</cb:jhead></cb:juan>
 </body></text></TEI>

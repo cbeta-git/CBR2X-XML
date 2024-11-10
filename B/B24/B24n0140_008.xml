@@ -29,7 +29,7 @@
 			<availability>
 				<p>Available for non-commercial use when distributed with this header intact.</p>
 			</availability>
-			<date>2024-02-25 09:56:44 +0800</date>
+			<date>2024-11-09 22:09:53 +0800</date>
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>
@@ -41,11 +41,11 @@
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version), Punctuated text as provided by Digital Archive of Chinese Buddhist Temple Gazetteers Project which is funded by Chung-Hwa Institute of Buddhist Studies and executed by Dharma Drum Institute of Liberal Arts</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二），法鼓文理學院、中華佛學研究所之「中國佛教寺廟志數位典藏」專案提供新式標點</p>
 		</projectDesc>
 		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
+			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
 		</editorialDecl>
 		<tagsDecl>
 			<namespace name="http://www.tei-c.org/ns/1.0">
@@ -157,6 +157,19 @@
 				<mapping type="normal_unicode">U+4B19</mapping>
 				<mapping cb:dec="992543" type="PUA">U+F251F</mapping>
 			</char>
+			<char xml:id="CB11462">
+				<charName>CBETA CHARACTER CB11462</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[按-女+(眉-目+貝)]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>擯</value>
+				</charProp>
+				<mapping type="unicode">U+22DE4</mapping>
+				<mapping cb:dec="994502" type="PUA">U+F2CC6</mapping>
+			</char>
 			<char xml:id="CB14502">
 				<charName>CBETA CHARACTER CB14502</charName>
 				<charProp>
@@ -226,6 +239,19 @@
 				<mapping type="normal_unicode">U+28470</mapping>
 				<mapping cb:dec="1004231" type="PUA">U+F52C7</mapping>
 			</char>
+			<char xml:id="CB22076">
+				<charName>CBETA CHARACTER CB22076</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[書-曰+(凵@(ㄇ@人))]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>畫</value>
+				</charProp>
+				<mapping type="unicode">U+2661A</mapping>
+				<mapping cb:dec="1005116" type="PUA">U+F563C</mapping>
+			</char>
 			<char xml:id="CB30037">
 				<charName>CBETA CHARACTER CB30037</charName>
 				<charProp>
@@ -273,6 +299,18 @@
 				</charProp>
 				<mapping type="unicode">U+23E38</mapping>
 				<mapping cb:dec="1014270" type="PUA">U+F79FE</mapping>
+			</char>
+			<char xml:id="CB32397">
+				<charName>CBETA CHARACTER CB32397</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[垂-工+┬]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>乖</value>
+				</charProp>
+				<mapping cb:dec="1015437" type="PUA">U+F7E8D</mapping>
 			</char>
 			<char xml:id="CB33165">
 				<charName>CBETA CHARACTER CB33165</charName>
@@ -326,305 +364,305 @@
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
-		<change when="2015-11-21">
+		<change when="2024-11-09">
 			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
 		</change>
 	</revisionDesc>
 </teiHeader>
 <text><body>
-<cb:mulu type="其他" level="1">紀生植</cb:mulu><cb:mulu type="其他" level="2">獸</cb:mulu>
+<cb:mulu type="其他" level="1">紀生植</cb:mulu><cb:mulu type="其他" level="2">紀生植論</cb:mulu>
 <milestone unit="juan" n="8"/>
 <lb ed="B" n="0619a10"/><cb:mulu type="卷" n="8"></cb:mulu><cb:juan fun="open" n="8"><cb:jhead>雪峰志卷之八</cb:jhead></cb:juan>
-<lb ed="B" n="0619a11"/><byline cb:type="author">郡人　徐<g ref="#CB04521"/>　纂輯</byline>
+<lb ed="B" n="0619a11"/><cb:div type="other"><p xml:id="pB24p0619a1101" style="margin-left:8em;">郡人</p><byline cb:type="editor">徐<g ref="#CB04521"/>　纂輯</byline>
 <lb ed="B" n="0619a12"/><byline cb:type="other">林弘衍　叅定</byline>
-<lb ed="B" n="0619a13"/><byline cb:type="other">鄭天綵　賴亨侯　吳興漢　重訂</byline>
+<lb ed="B" n="0619a13"/><byline cb:type="other">鄭天綵　賴亨侯　吳興漢　重訂</byline></cb:div>
 <lb ed="B" n="0619a14"/><cb:div type="other"><cb:mulu type="其他" level="1">紀藝文</cb:mulu><head>紀藝文</head>
-<lb ed="B" n="0619a15"/><p xml:id="pB24p0619a1501" style="margin-left:0em;text-indent:2em">神瀵濯龍孤峰聳鷲不有雄文遺蹤靡究千百斯
-<lb ed="B" n="0619a16"/>年山靈呵佑椽筆繼響有光雲岫紀藝文第八</p>
+<lb ed="B" n="0619a15"/><cb:div type="other"><cb:mulu type="其他" level="2">紀藝文序</cb:mulu><p xml:id="pB24p0619a1501" style="margin-left:2em;">神瀵濯龍，孤峰聳鷲；不有雄文，遺蹤靡究。千百斯
+<lb ed="B" n="0619a16"/>年，山靈呵佑；椽筆繼響，有光雲岫。紀〈藝文〉第八。</p></cb:div>
 <lb ed="B" n="0619a17"/><cb:div type="other"><cb:mulu type="其他" level="2">文類</cb:mulu><head>文類</head>
-<lb ed="B" n="0619a18"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰真覺大禪師碑銘</cb:mulu><head>雪峰真覺大禪師碑銘</head><byline cb:type="author">唐黃滔<note place="inline">字文江莆田人</note></byline>
+<lb ed="B" n="0619a18"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰真覺大禪師碑銘</cb:mulu><head>雪峰真覺大禪師碑銘</head><byline cb:type="author">唐．黃滔<note place="inline">字文江，莆田人</note></byline>
 <pb ed="B" xml:id="B24.0140.0619b" n="0619b"/>
-<lb ed="B" n="0619b01"/><p xml:id="pB24p0619b0101" style="margin-left:0em;text-indent:2em">大師法號義存長慶二年壬寅生於泉州南安縣曾
-<lb ed="B" n="0619b02"/>氏自王父而下皆友僧親佛清淨謹志大師生而鼻
-<lb ed="B" n="0619b03"/>逆薰血乳抱中或聞鐘磬或見僧佛其容必動以是
-<lb ed="B" n="0619b04"/>別鍾愛於膝下九歲請出家叶而未即十二從家君
-<lb ed="B" n="0619b05"/>遊莆田玉澗寺寺有律僧慶玄持行高潔遽拜之曰
-<lb ed="B" n="0619b06"/>我師也遂留為童子焉十七落髮淳朴貞古了與流
-<lb ed="B" n="0619b07"/>軰異暨武宗皇帝乙丑有旨沙汰僧徒乃束髮於儒
-<lb ed="B" n="0619b08"/>冠菜中而蓬跡來府之芙蓉山弘照大師見而器之
-<lb ed="B" n="0619b09"/>爰止其所至宣宗皇帝之復其道也涅而不緇其身
-<lb ed="B" n="0619b10"/>也褎然而出北遊吳楚梁宋燕秦受具足戒於幽州
-<lb ed="B" n="0619b11"/>寶剎寺訖巡名山扣諸禪宗突兀飃<g ref="#CB09503"/>雲翔鳥逝爰
-<lb ed="B" n="0619b12"/>及武陵一面德山止於珍重而出其徒數百咸莫之
-<lb ed="B" n="0619b13"/>測德山曰斯無偕也吾得之矣咸通九年師歸芙蓉
-<lb ed="B" n="0619b14"/>之故山其年大安禪師亦自溈山擁徒至坐於怡山
-<lb ed="B" n="0619b15"/>王真君上昇之地其徒熟熟師<note n="0619b1501" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0619b1501"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>嗣德山纍纍而<g ref="#CB16683"/>
-<lb ed="B" n="0619b16"/>關師拒而久之則有行實者始以師同而議之曰師
-<lb ed="B" n="0619b17"/>之道巍巍乎法門圍遶之所不可造次其地宜若鷲
-<lb ed="B" n="0619b18"/>嶺猴江之為卜府之西二百里有山焉環控四邑峭
+<lb ed="B" n="0619b01"/><p xml:id="pB24p0619b0101" style="margin-left:0em;text-indent:2em;">大師法號義存，長慶二年壬寅，生於泉州南安縣曾
+<lb ed="B" n="0619b02"/>氏。自王父而下，皆友僧親佛，清淨謹志。大師生而鼻
+<lb ed="B" n="0619b03"/>逆薰血，乳抱中，或聞鐘磬，或見僧佛，其容必動，以是
+<lb ed="B" n="0619b04"/>別鍾愛於膝下。九歲請出家，叶而未即。十二從家君
+<lb ed="B" n="0619b05"/>遊莆田玉澗寺，寺有律僧慶玄，持行高潔，遽拜之曰：
+<lb ed="B" n="0619b06"/>「我師也。」遂留為童子焉。十七落髮，淳朴貞古，了與流
+<lb ed="B" n="0619b07"/>軰異。暨武宗皇帝乙丑，有旨沙汰僧徒，乃束髮於儒
+<lb ed="B" n="0619b08"/>冠，菜中而蓬跡，來府之芙蓉山，弘照大師見而器之，
+<lb ed="B" n="0619b09"/>爰止其所。至宣宗皇帝之復其道也，涅而不緇，其身
+<lb ed="B" n="0619b10"/>也褎然而出，北遊吳、楚、梁、宋、燕、秦，受具足戒於幽州
+<lb ed="B" n="0619b11"/>寶剎寺訖，巡名山，扣諸禪宗，突兀飃<g ref="#CB09503"/>，雲翔鳥逝。爰
+<lb ed="B" n="0619b12"/>及武陵一面德山，止於珍重而出，其徒數百，咸莫之
+<lb ed="B" n="0619b13"/>測。德山曰：「斯無偕也，吾得之矣。」咸通九年，師歸芙蓉
+<lb ed="B" n="0619b14"/>之故山。其年大安禪師亦自溈山擁徒至，坐於怡山
+<lb ed="B" n="0619b15"/>王真君上昇之地。其徒熟（熟師<note n="0619b1501" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0619b1501"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>嗣德山）纍纍而<g ref="#CB16683"/>
+<lb ed="B" n="0619b16"/>關，師拒而久之。則有行實者，始以師同而議之曰：「師
+<lb ed="B" n="0619b17"/>之道巍巍乎，法門圍遶之所不可造次。其地宜若鷲
+<lb ed="B" n="0619b18"/>嶺猴江之為。」卜府之西二百里有山焉，環控四邑，峭
 <pb ed="B" xml:id="B24.0140.0620a" n="0620a"/>
-<lb ed="B" n="0620a01"/>拔萬仞崷崪以支圓碧培塿以覛羣青怪石古松棲
-<lb ed="B" n="0620a02"/>蟄龜鶴靈湫邃壑隱見龍雷山之半頂之上則先冬
-<lb ed="B" n="0620a03"/>而雪盛夏而寒其樹皆別埀藤蘿芋茸而以為之衣
-<lb ed="B" n="0620a04"/>交錯而不呈其形竒姿異景不可殫狀雖霍童武夷
-<lb ed="B" n="0620a05"/>無以加之實閩越之神秀而古仙之未攸居誠有待
-<lb ed="B" n="0620a06"/>於我師也祈以偕行<note place="inline">去聲</note>秋七月穿雲躡蘚陟險昇幽
-<lb ed="B" n="0620a07"/>將及之師曰真吾居也其夕山之神果效靈翌日巖
-<lb ed="B" n="0620a08"/>谷爽朗烟霞飛動雲菴既立由是抳法輪於無為樹
-<lb ed="B" n="0620a09"/>空門於有地行實乃請名其山雪峰以其冬雪夏寒
-<lb ed="B" n="0620a10"/>取鷲嶺猴江之義斯則庚寅逮於乙未師以山而道
-<lb ed="B" n="0620a11"/>侔山以師而名出天下之釋子不計華夏趨之如赴
-<lb ed="B" n="0620a12"/>召乾符觀察使京兆韋公岫中和中司空<g ref="#CB09175"/>川陳公
-<lb ed="B" n="0620a13"/>巖每渴醍醐而不克就飲交使馳懇師為之入府從
-<lb ed="B" n="0620a14"/>人願也其時內官有復命於京語其道其儕之拔俗
-<lb ed="B" n="0620a15"/>悟空者請蛻浮華而來剃僖宗皇帝聞之翰林學士
-<lb ed="B" n="0620a16"/>訪於閩人陳延郊得其實奏於是聖錫真覺大師之
-<lb ed="B" n="0620a17"/>號仍以紫袈裟俾延郊授焉大師受之如不受衣之
-<lb ed="B" n="0620a18"/>如不衣居累夏辛亥歲朔遽然杖履其徒啟而不答
+<lb ed="B" n="0620a01"/>拔萬仞。崷崪以支圓碧，培塿以覛羣青。怪石古松，棲
+<lb ed="B" n="0620a02"/>蟄龜鶴；靈湫邃壑，隱見龍雷。山之半，頂之上，則先冬
+<lb ed="B" n="0620a03"/>而雪，盛夏而寒。其樹皆別埀藤蘿，芋茸而以為之衣，
+<lb ed="B" n="0620a04"/>交錯而不呈其形，竒姿異景不可殫狀，雖霍童、武夷，
+<lb ed="B" n="0620a05"/>無以加之，實閩越之神秀，而古仙之未攸居，誠有待
+<lb ed="B" n="0620a06"/>於我師也，祈以偕行<note place="inline">去聲</note>。秋七月，穿雲躡蘚，陟險昇幽，
+<lb ed="B" n="0620a07"/>將及之，師曰：「真吾居也。」其夕，山之神果效靈。翌日，巖
+<lb ed="B" n="0620a08"/>谷爽朗，烟霞飛動，雲菴既立。由是抳法輪於無為，樹
+<lb ed="B" n="0620a09"/>空門於有地。行實乃請名其山雪峰，以其冬雪夏寒，
+<lb ed="B" n="0620a10"/>取鷲嶺、猴江之義，斯則庚寅。逮於乙未，師以山而道
+<lb ed="B" n="0620a11"/>侔，山以師而名出，天下之釋子，不計華夏，趨之如赴
+<lb ed="B" n="0620a12"/>召。乾符觀察使京兆韋公岫，中和中司空<g ref="#CB09175"/>川陳公
+<lb ed="B" n="0620a13"/>巖，每渴醍醐而不克就飲，交使馳懇，師為之入府，從
+<lb ed="B" n="0620a14"/>人願也。其時內官有復命於京，語其道，其儕之拔俗
+<lb ed="B" n="0620a15"/>悟空者，請蛻浮華而來剃。僖宗皇帝聞之，翰林學士
+<lb ed="B" n="0620a16"/>訪於閩人陳延郊，得其實奏，於是聖錫「真覺大師」之
+<lb ed="B" n="0620a17"/>號，仍以紫袈裟俾延郊授焉。大師受之如不受，衣之
+<lb ed="B" n="0620a18"/>如不衣。居累夏，辛亥歲朔，遽然杖履，其徒啟而不答，
 <pb ed="B" xml:id="B24.0140.0620b" n="0620b"/>
-<lb ed="B" n="0620b01"/>雲以隨之東浮於丹丘四明明年故府侍中之有無
-<lb ed="B" n="0620b02"/>諸<note place="inline">句</note>尅<note place="inline">句</note>洗兵於法雨致敬於禪林馥師之道常東
-<lb ed="B" n="0620b03"/>望頂手後二年自吳<g ref="#CB21191"/>閩大加禮異今閩王誓眾養
-<lb ed="B" n="0620b04"/>民之外雅隆其道凡齋僧構剎以之龜焉為之增宇
-<lb ed="B" n="0620b05"/>設像鑄鐘以嚴其山優施以充其眾時則迎而館之
-<lb ed="B" n="0620b06"/>於府之東西甲第每將儼油幢聆法輪未嘗不移時
-<lb ed="B" n="0620b07"/>餘乎一紀勤勤懇懇熊羆之士因之投跡檀<g ref="#CB01057"/>漁獵
-<lb ed="B" n="0620b08"/>之逸其或弭心鱗羽戊辰年春三月示疾吾王走毉毉
-<lb ed="B" n="0620b09"/>至粒藥以授師曰吾非疾也不可罔子之工卒不之
-<lb ed="B" n="0620b10"/>餌其後札偈以遺法子函翰以別王庭夏五月二日
-<lb ed="B" n="0620b11"/>鳥獸悲鳴雲木慘悴其夜十有八刻滅度俗壽八十
-<lb ed="B" n="0620b12"/>有七僧臘五十有九以其月十五日塔而存焉其塔
-<lb ed="B" n="0620b13"/>也其徒僉云以山之竒堂之峻<note place="inline">法堂也</note>大師之生也王
-<lb ed="B" n="0620b14"/><note place="inline">去聲</note>是其歿也不宜捨諸故坎其中焉若干尺之高若
-<lb ed="B" n="0620b15"/>干尺之周皆彫珉石錯火壤磷磷然嶪嶪然四隅則
-<lb ed="B" n="0620b16"/>環宇以庥玲瓏<g ref="#CB05384"/>窱雲霞時入風雨罔侵其日奔閩
-<lb ed="B" n="0620b17"/>之僧尼士庶僅五千人閩王涕之降子左金吾衛將
-<lb ed="B" n="0620b18"/>軍檢校刑部尚書延稟始陳祭設齋焉大矣哉大師
+<lb ed="B" n="0620b01"/>雲以隨之，東浮於丹丘、四明。明年，故府侍中之有無
+<lb ed="B" n="0620b02"/>諸<note place="inline">句</note>尅<note place="inline">句</note>洗兵於法雨，致敬於禪林，馥師之道，常東
+<lb ed="B" n="0620b03"/>望頂手。後二年，自吳<g ref="#CB21191"/>閩，大加禮異。今閩王誓眾養
+<lb ed="B" n="0620b04"/>民之外，雅隆其道，凡齋僧構剎，以之龜焉。為之增宇、
+<lb ed="B" n="0620b05"/>設像、鑄鐘，以嚴其山，優施以充其眾。時則迎而館之
+<lb ed="B" n="0620b06"/>於府之東西甲第，每將儼油幢，聆法輪，未嘗不移時。
+<lb ed="B" n="0620b07"/>餘乎一紀，勤勤懇懇。熊羆之士，因之投跡檀<g ref="#CB01057"/>；漁獵
+<lb ed="B" n="0620b08"/>之逸，其或弭心鱗羽。戊辰年春三月示疾，吾王走毉，毉
+<lb ed="B" n="0620b09"/>至，粒藥以授，師曰：「吾非疾也，不可罔子之工。」卒不之
+<lb ed="B" n="0620b10"/>餌。其後札偈以遺法子，函翰以別王庭。夏五月二日，
+<lb ed="B" n="0620b11"/>鳥獸悲鳴，雲木慘悴，其夜十有八刻滅度，俗壽八十
+<lb ed="B" n="0620b12"/>有七，僧臘五十有九，以其月十五日塔而存焉。其塔
+<lb ed="B" n="0620b13"/>也，其徒僉云：「以山之竒、堂之峻<note place="inline">法堂也</note>，大師之生也王
+<lb ed="B" n="0620b14"/><note place="inline">去聲</note>，是其歿也不宜捨諸。」故坎其中焉。若干尺之高，若
+<lb ed="B" n="0620b15"/>干尺之周，皆彫珉石、錯火壤，磷磷然，嶪嶪然，四隅則
+<lb ed="B" n="0620b16"/>環宇以庥，玲瓏<g ref="#CB05384"/>窱，雲霞時入，風雨罔侵。其日，奔閩
+<lb ed="B" n="0620b17"/>之僧尼、士庶僅五千人，閩王涕之，降子左金吾衛將
+<lb ed="B" n="0620b18"/>軍檢校、刑部尚書延禀，始陳祭設齋焉。大矣哉！大師
 <pb ed="B" xml:id="B24.0140.0621a" n="0621a"/>
-<lb ed="B" n="0621a01"/>之見世于是罔量其僧伽自始及茲凡四十年東西
-<lb ed="B" n="0621a02"/>南北之夏徃秋適者不可勝紀而常不減一千五百
-<lb ed="B" n="0621a03"/>徒之環足其趨也馳而愈離辦而愈惑常曰三世諸
-<lb ed="B" n="0621a04"/>佛十二分教到此乃徒勞耳其庶幾者若干人其一
-<lb ed="B" n="0621a05"/>號師備擁徒于玄沙其二號可休擁徒于越州洞巖
-<lb ed="B" n="0621a06"/>其三號智孚擁徒于信州鵝湖其四號慧稜擁徒于
-<lb ed="B" n="0621a07"/>泉州招慶其五號神晏今府之鼓山也分燈之道皆
-<lb ed="B" n="0621a08"/>膺聖獎錫紫袈裟而玄沙級宗一大師招慶玄晤大
-<lb ed="B" n="0621a09"/>師鼓山定慧大師之命焉其曹首日法雖無說名以
-<lb ed="B" n="0621a10"/>文埀自少林之逮曹溪無不刻碑而紀頌我師其默
-<lb ed="B" n="0621a11"/>乎一旦<g ref="#CB33226"/>其曹<note place="inline">句</note>首曰從智如堵而扣愚求文滔老
-<lb ed="B" n="0621a12"/>且病刊勒之加多<note n="0621a1201" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0621a1201"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>辭避欽師之道不覺聳然偉夫
-<lb ed="B" n="0621a13"/>恭聞釋波之東注流其象則不流其旨流其旨則不
-<lb ed="B" n="0621a14"/>象其形厥初大迦葉之埀二十八葉則至於達磨達
-<lb ed="B" n="0621a15"/>磨六葉止于曹溪分宗南北德山則南宗五葉大師
-<lb ed="B" n="0621a16"/>嗣<note place="inline">句</note>之今六葉焉雪峰之分玄沙洞巖鵝湖招慶鼓
-<lb ed="B" n="0621a17"/>山其道皆離貝葉以抵其七非滔之能言也但美數
-<lb ed="B" n="0621a18"/>公葳蕤其葉眾多殷勤之請遂為之銘而應其求其
+<lb ed="B" n="0621a01"/>之見世于是罔量，其僧伽自始及茲，凡四十年，東西
+<lb ed="B" n="0621a02"/>南北之夏徃秋適者，不可勝紀，而常不減一千五百
+<lb ed="B" n="0621a03"/>徒之環足。其趨也，馳而愈離，<note n="0621a0301" resp="CBETA" type="add">辯【CB】，辦【補編】</note><app n="0621a0301"><lem wit="【CB】" resp="CBETA">辯</lem><rdg wit="【補編】">辦</rdg></app>而愈惑，常曰：「三世諸
+<lb ed="B" n="0621a04"/>佛，十二分教，到此乃徒勞耳。」其庶幾者若干人：其一
+<lb ed="B" n="0621a05"/>號師備，擁徒于玄沙；其二號可休，擁徒于越州洞巖；
+<lb ed="B" n="0621a06"/>其三號智孚，擁徒于信州鵝湖；其四號慧稜擁徒于
+<lb ed="B" n="0621a07"/>泉州招慶；其五號神晏，今府之鼓山也。分燈之道，皆
+<lb ed="B" n="0621a08"/>膺聖獎，錫紫袈裟，而玄沙級「宗一大師」、招慶「玄晤大
+<lb ed="B" n="0621a09"/>師」、鼓山「定慧大師」之命焉。其曹首<note n="0621a0901" resp="CBETA" type="add">曰【CB】，日【補編】</note><app n="0621a0901"><lem wit="【CB】" resp="CBETA">曰</lem><rdg wit="【補編】">日</rdg></app>：「法雖無說，名以
+<lb ed="B" n="0621a10"/>文埀。自少林之逮曹溪，無不刻碑而紀頌，我師其默
+<lb ed="B" n="0621a11"/>乎？」一旦<g ref="#CB33226"/>其曹<note place="inline">句</note>首曰：「從智如堵，而扣愚求文，滔老
+<lb ed="B" n="0621a12"/>且病，刊勒之加，多<note n="0621a1201" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0621a1201"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>辭避。欽師之道，不覺聳然偉夫！
+<lb ed="B" n="0621a13"/>恭聞釋波之東注，流其象則不流其旨，流其旨則不
+<lb ed="B" n="0621a14"/>象其形。厥初，大迦葉之埀二十八葉則至於達磨，達
+<lb ed="B" n="0621a15"/>磨六葉止于曹溪，分宗南北，德山則南宗五葉，大師
+<lb ed="B" n="0621a16"/>嗣<note place="inline">句</note>之，今六葉焉。雪峰之分玄沙、洞巖、鵝湖、招慶、鼓
+<lb ed="B" n="0621a17"/>山，其道皆離貝葉以抵其七，非滔之能言也。但美數
+<lb ed="B" n="0621a18"/>公葳蕤其葉，眾多殷勤之請，遂為之銘而應其求。」其
 <pb ed="B" xml:id="B24.0140.0621b" n="0621b"/>
-<lb ed="B" n="0621b01"/>詞曰</p>
-<lb ed="B" n="0621b02"/><p xml:id="pB24p0621b0201" style="margin-left:0em;text-indent:2em">曹溪分派誰繼南宗一言冠絕六葉推雄無物之物
-<lb ed="B" n="0621b03"/>非空之空不瑩而明不增而隆縮靡秋毫舒彌鴻濛
-<lb ed="B" n="0621b04"/>不有靈景曷揚真風懿彼閩越巍乎一峰洞壑斯異
-<lb ed="B" n="0621b05"/>雪霜罕同天之有待師也云鍾名將道協跡與山崇
-<lb ed="B" n="0621b06"/>奔走厥徒百千其叢庶幾幾人莫不玄通分燈照耀
-<lb ed="B" n="0621b07"/>徹本玲瓏聖君寵疊賢王敬重不生不滅曷始曷終</p>
-<lb ed="B" n="0621b08"/><p xml:id="pB24p0621b0801" style="margin-left:0em;text-indent:2em">刻貞石於斯文旌厥德於梵宮</p>
-<lb ed="B" n="0621b09"/><p xml:id="pB24p0621b0901" style="margin-left:0em;text-indent:2em">開平二年歲在戊辰夏五月裏行御史充威武軍節
-<lb ed="B" n="0621b10"/>度推官前四門博士黃滔譔</p></cb:div>
-<lb ed="B" n="0621b11"/><cb:div type="other"><cb:mulu type="其他" level="3">難提塔銘</cb:mulu><head>難提塔銘<note place="inline">併序</note></head><byline cb:type="author">唐真覺大師</byline>
-<lb ed="B" n="0621b12"/><p xml:id="pB24p0621b1201" style="margin-left:0em;text-indent:2em">夫從緣有者始終而成壞非從緣得者歷刦而常堅
-<lb ed="B" n="0621b13"/>堅之則在壞之則捐雖然離散未至何妨預置者哉
-<lb ed="B" n="0621b14"/>所以疊石結室剪木合函般土積石為龕諸事已備
-<lb ed="B" n="0621b15"/>頭南脚北橫山而臥惟願至時同道者莫違我意知
-<lb ed="B" n="0621b16"/>心者不易我志深囑載囑幸勉勵焉縱饒他日邪造
-<lb ed="B" n="0621b17"/>顯揚豈如當今正眼密弘善思之審思之銘曰</p>
-<lb ed="B" n="0621b18"/><p xml:id="pB24p0621b1801" style="margin-left:0em;text-indent:2em">兄弟<g ref="#CB31230"/>十字同心著一儀土主曰松山卵塔號難提
+<lb ed="B" n="0621b01"/>詞曰：</p>
+<lb ed="B" n="0621b02"/><lg xml:id="lgB24p0621b0201" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">曹溪分派　誰繼南宗</l><l style="text-indent:1em;">一言冠絕　六葉推雄</l><l style="text-indent:1em;">無物之物
+<lb ed="B" n="0621b03"/>　非空之空</l><l style="text-indent:1em;">不瑩而明　不增而隆</l><l style="text-indent:1em;">縮靡秋毫　舒彌鴻濛</l>
+<lb ed="B" n="0621b04"/><l style="text-indent:1em;">不有靈景　曷揚真風</l><l style="text-indent:1em;">懿彼閩越　巍乎一峰</l><l style="text-indent:1em;">洞壑斯異
+<lb ed="B" n="0621b05"/>　雪霜罕同</l><l style="text-indent:1em;">天之有待　師也云鍾</l><l style="text-indent:1em;">名將道協　跡與山崇</l>
+<lb ed="B" n="0621b06"/><l style="text-indent:1em;">奔走厥徒　百千其叢</l><l style="text-indent:1em;">庶幾幾人　莫不玄通</l><l style="text-indent:1em;">分燈照耀
+<lb ed="B" n="0621b07"/>　徹本玲瓏</l><l style="text-indent:1em;">聖君寵疊　賢王敬重</l><l style="text-indent:1em;">不生不滅　曷始曷終</l>
+<lb ed="B" n="0621b08"/><l style="text-indent:1em;">刻貞石於斯文　旌厥德於梵宮</l></lg>
+<lb ed="B" n="0621b09"/><p xml:id="pB24p0621b0901" style="margin-left:2em;">開平二年歲在戊辰夏五月，裏行御史．充威武軍節
+<lb ed="B" n="0621b10"/>度推官．前四門博士黃滔譔</p></cb:div>
+<lb ed="B" n="0621b11"/><cb:div type="other"><cb:mulu type="其他" level="3">難提塔銘</cb:mulu><head>難提塔銘<note place="inline">併序</note></head><byline cb:type="author">唐．真覺大師</byline>
+<lb ed="B" n="0621b12"/><p xml:id="pB24p0621b1201" style="margin-left:0em;text-indent:2em;">夫從緣有者，始終而成壞；非從緣得者，歴刦而常堅。
+<lb ed="B" n="0621b13"/>堅之則在，壞之則捐，雖然離散未至，何妨預置者哉！
+<lb ed="B" n="0621b14"/>所以疊石結室，剪木合函，般土積石為龕，諸事已備。
+<lb ed="B" n="0621b15"/>頭南脚北，橫山而臥，惟願至時，同道者莫違我意，知
+<lb ed="B" n="0621b16"/>心者不易我志，深囑載囑，幸勉勵焉。縱饒他日邪造
+<lb ed="B" n="0621b17"/>顯揚，豈如當今正眼密弘。善思之，審思之。銘曰：</p>
+<lb ed="B" n="0621b18"/><lg xml:id="lgB24p0621b1801" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">兄弟<g ref="#CB31230"/>十字　同心著一儀</l><l style="text-indent:1em;">土主曰松山　卵塔號難提</l>
 <pb ed="B" xml:id="B24.0140.0622a" n="0622a"/>
-<lb ed="B" n="0622a01"/>更有胡家曲汝等切湏知我唱泥牛吼汝和木馬嘶
-<lb ed="B" n="0622a02"/>但看五六月氷片滿長街薪盡火滅後密室爛如泥
-<lb ed="B" n="0622a03"/>天復三年威武軍節度管內觀察處置兼三司發運
-<lb ed="B" n="0622a04"/>使光祿大夫檢校司空平章事開國公食邑三千戶
+<lb ed="B" n="0622a01"/><l style="text-indent:1em;">更有胡家曲　汝等切湏知</l><l style="text-indent:1em;">我唱泥牛吼　汝和木馬嘶</l>
+<lb ed="B" n="0622a02"/><l style="text-indent:1em;">但看五六月　氷片滿長街</l><l style="text-indent:1em;">薪盡火滅後　密室爛如泥</l></lg>
+<lb ed="B" n="0622a03"/><p xml:id="pB24p0622a0301" style="margin-left:2em;">天復三年，威武軍節度．管內觀察處置兼三司發運
+<lb ed="B" n="0622a04"/>使．光祿大夫．檢校司空．平章事．開國公．食邑三千戶
 <lb ed="B" n="0622a05"/>王審知刻石</p></cb:div>
 <lb ed="B" n="0622a06"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰清規</cb:mulu><head>雪峰清規</head>
-<lb ed="B" n="0622a07"/><p xml:id="pB24p0622a0701" style="margin-left:0em;text-indent:2em">夫出家者先效軌儀肅嚴其行行既精矣乃曰其人
-<lb ed="B" n="0622a08"/>方可參選明師決擇其理且正道寂寥盡古今而絕
-<lb ed="B" n="0622a09"/>逢包通十方萬類而從來莫二如此之事假世而言
-<lb ed="B" n="0622a10"/>之若以住持之門依像法而安處收物情而共居欲
-<lb ed="B" n="0622a11"/>令百川同歸一源眾流而臻大海古云家無二主國
-<lb ed="B" n="0622a12"/>無二王二主必諍二王則競况僧居無諍有諍非居
-<lb ed="B" n="0622a13"/>要令三世住持萬所心安人和不失其緒者矣</p>
-<lb ed="B" n="0622a14"/><p xml:id="pB24p0622a1401" style="margin-left:0em;text-indent:2em">一或有投歸僧坊而求變白披緇者盡令歸奉一主</p>
-<lb ed="B" n="0622a15"/><p xml:id="pB24p0622a1501" style="margin-left:0em;text-indent:2em">一主無二即免為諍但依芙蓉先師規制即知其義
-<lb ed="B" n="0622a16"/>也一藍田張際兩莊但逐年輪差了事僧勾當始終
-<lb ed="B" n="0622a17"/>共應塔院常住供養當院僧徒等切不得別議住持</p>
-<lb ed="B" n="0622a18"/><p xml:id="pB24p0622a1801" style="margin-left:0em;text-indent:2em">一眾中或有老者病者不任自取索即差了事童行
+<lb ed="B" n="0622a07"/><p xml:id="pB24p0622a0701" style="margin-left:0em;text-indent:2em;">夫出家者，先效軌儀，肅嚴其行。行既精矣，乃曰其人
+<lb ed="B" n="0622a08"/>方可參選明師，決擇其理。且正道寂寥，盡古今而絕
+<lb ed="B" n="0622a09"/>逢，包通十方萬類，而從來莫二。如此之事，假世而言
+<lb ed="B" n="0622a10"/>之。若以住持之門，依像法而安處，收物情而共居，欲
+<lb ed="B" n="0622a11"/>令百川同歸一源，眾流而臻大海。古云：「家無二主，國
+<lb ed="B" n="0622a12"/>無二王。」二主必諍，二王則競，况僧居無諍，有諍非居。
+<lb ed="B" n="0622a13"/>要令三世住持萬所，心安人和，不失其緒者矣。</p>
+<lb ed="B" n="0622a14"/><list style="margin-left:1em;"><item xml:id="itemB24p0622a1401"><note n="0622a1401" resp="CBETA" type="add">〔－〕【CB】，一【補編】</note><app n="0622a1401"><lem wit="【CB】" resp="CBETA"><space quantity="0"/></lem><rdg wit="【補編】">一</rdg></app>或有投歸僧坊，而求變白披緇者，盡令歸奉一主。</item>
+<lb ed="B" n="0622a15"/><item xml:id="itemB24p0622a1501"><note n="0622a1501" resp="CBETA" type="add">〔－〕【CB】，一【補編】</note><app n="0622a1501"><lem wit="【CB】" resp="CBETA"><space quantity="0"/></lem><rdg wit="【補編】">一</rdg></app>主無二，即免為諍。但依芙蓉先師規制，即知其義
+<lb ed="B" n="0622a16"/>也。</item><item xml:id="itemB24p0622a1602"><note n="0622a1601" resp="CBETA" type="add">〔－〕【CB】，一【補編】</note><app n="0622a1601"><lem wit="【CB】" resp="CBETA"><space quantity="0"/></lem><rdg wit="【補編】">一</rdg></app>藍田、張際兩莊，但逐年輪差了事僧勾當，始終
+<lb ed="B" n="0622a17"/>共應塔院常住、供養當院僧徒等，切不得別議住持。</item>
+<lb ed="B" n="0622a18"/><item xml:id="itemB24p0622a1801"><note n="0622a1801" resp="CBETA" type="add">〔－〕【CB】，一【補編】</note><app n="0622a1801"><lem wit="【CB】" resp="CBETA"><space quantity="0"/></lem><rdg wit="【補編】">一</rdg></app>眾中或有老者、病者，不任自取索，即差了事童行，
 <pb ed="B" xml:id="B24.0140.0622b" n="0622b"/>
-<lb ed="B" n="0622b01"/>終始看侍如無童行輪差沙彌如無沙彌輪差大僧
-<lb ed="B" n="0622b02"/>終始看侍無至違越</p>
-<lb ed="B" n="0622b03"/><p xml:id="pB24p0622b0301" style="margin-left:0em;text-indent:2em">一或有鄉村檀那精心禮請唱佛道塲必須眾議能
-<lb ed="B" n="0622b04"/>為法事者差免俗譏嫌</p>
-<lb ed="B" n="0622b05"/><p xml:id="pB24p0622b0501" style="margin-left:0em;text-indent:2em">一當院出家沙彌童行大僧等無事出院不辭知事
-<lb ed="B" n="0622b06"/>及大眾等如若<g ref="#CB30037"/>來便須出院若為小小因緣若無
-<lb ed="B" n="0622b07"/>重過<g ref="#CB30037"/>來即罰禮一百拜放住如若當時不遵指約
-<lb ed="B" n="0622b08"/>亦須出院</p>
-<lb ed="B" n="0622b09"/><p xml:id="pB24p0622b0901" style="margin-left:0em;text-indent:2em">一當院徒眾非知事輙行杖木令人不安晝時出院
-<lb ed="B" n="0622b10"/>右件條約住持之事仰綱維主首及僧徒等共相遵
-<lb ed="B" n="0622b11"/>守不得違越終而復始光化四年閏六月十日沙門
+<lb ed="B" n="0622b01"/>終始看侍。如無童行，輪差沙彌；如無沙彌，輪差大僧，
+<lb ed="B" n="0622b02"/>終始看侍，無至違越。</item>
+<lb ed="B" n="0622b03"/><item xml:id="itemB24p0622b0301"><note n="0622b0301" resp="CBETA" type="add">〔－〕【CB】，一【補編】</note><app n="0622b0301"><lem wit="【CB】" resp="CBETA"><space quantity="0"/></lem><rdg wit="【補編】">一</rdg></app>或有鄉村檀那，精心禮請唱佛道塲，必須眾議，能
+<lb ed="B" n="0622b04"/>為法事者差，免俗譏嫌。</item>
+<lb ed="B" n="0622b05"/><item xml:id="itemB24p0622b0501"><note n="0622b0501" resp="CBETA" type="add">〔－〕【CB】，一【補編】</note><app n="0622b0501"><lem wit="【CB】" resp="CBETA"><space quantity="0"/></lem><rdg wit="【補編】">一</rdg></app>當院出家沙彌、童行、大僧等，無事出院，不辭知事
+<lb ed="B" n="0622b06"/>及大眾等，如若<g ref="#CB30037"/>來，便須出院。若為小小因緣，若無
+<lb ed="B" n="0622b07"/>重過<g ref="#CB30037"/>來，即罰禮一百拜放住。如若當時不遵指約，
+<lb ed="B" n="0622b08"/>亦須出院。</item>
+<lb ed="B" n="0622b09"/><item xml:id="itemB24p0622b0901"><note n="0622b0901" resp="CBETA" type="add">〔－〕【CB】，一【補編】</note><app n="0622b0901"><lem wit="【CB】" resp="CBETA"><space quantity="0"/></lem><rdg wit="【補編】">一</rdg></app>當院徒眾非知事輙行杖木，令人不安，晝時出院。</item></list>
+<lb ed="B" n="0622b10"/><p xml:id="pB24p0622b1001" style="margin-left:0em;text-indent:2em;">右件條約、住持之事，仰綱維主首及僧徒等共相遵
+<lb ed="B" n="0622b11"/>守，不得違越，終而復始。</p><p xml:id="pB24p0622b1110" style="margin-left:2em;" cb:place="inline">光化四年閏六月十日，沙門
 <lb ed="B" n="0622b12"/>義存告示</p></cb:div>
 <lb ed="B" n="0622b13"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰遺戒</cb:mulu><head>雪峰遺戒</head>
-<lb ed="B" n="0622b14"/><p xml:id="pB24p0622b1401" style="margin-left:0em;text-indent:2em">報諸人等夫泡幻緣生去來不定吾僅四十年來未
-<lb ed="B" n="0622b15"/>嘗不苦口相勸近日佛法淡薄惟於世諦殷勤至於
-<lb ed="B" n="0622b16"/>信施檀那師僧和尚百年終歿無善報恩世禮既不
-<lb ed="B" n="0622b17"/>相應亦合有少分省察吾若四大離散日先<note n="0622b1701" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0622b1701"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>有木
-<lb ed="B" n="0622b18"/>函石龕並依舊志安排不得別造墳塔不得設靈筵
+<lb ed="B" n="0622b14"/><p xml:id="pB24p0622b1401" style="margin-left:0em;text-indent:2em;">報諸人等：夫泡幻緣生，去來不定，吾僅四十年來，未
+<lb ed="B" n="0622b15"/>嘗不苦口相勸。近日佛法淡薄，惟於世諦殷勤，至於
+<lb ed="B" n="0622b16"/>信施檀那、師僧和尚，百年終歿，無善報恩，世禮既不
+<lb ed="B" n="0622b17"/>相應，亦合有少分省察。吾若四大離散日，先<note n="0622b1701" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0622b1701"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>有木
+<lb ed="B" n="0622b18"/>函石龕，並依舊志安排，不得別造墳塔，不得設靈筵，
 <pb ed="B" xml:id="B24.0140.0623a" n="0623a"/>
-<lb ed="B" n="0623a01"/>不得持孝服或有帶一尺布下一滴淚此非沙門非
-<lb ed="B" n="0623a02"/>我眷屬况更哭蒼天但為俗態頗辱宗門或有不遵
-<lb ed="B" n="0623a03"/>依法擯逐當院年長有從智仰共相遵授不得妄有
-<lb ed="B" n="0623a04"/>乖張他後住持並依芙蓉先師規制况從前不曾親
-<lb ed="B" n="0623a05"/>度尼弟子吾脫去後切不得放入院門免世譏嫌為
-<lb ed="B" n="0623a06"/>恒式者</p>
-<lb ed="B" n="0623a07"/><p xml:id="pB24p0623a0701" style="margin-left:0em;text-indent:2em">兼上院<note n="0623a0701" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0623a0701"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>後切不得別議住持開平二年戊辰四月
-<lb ed="B" n="0623a08"/>二十八日沙門義存告示</p>
-<lb ed="B" n="0623a09"/><p xml:id="pB24p0623a0901" style="margin-left:0em;text-indent:2em">先師住持規制奉宣下降帖命准无條件施行不許
-<lb ed="B" n="0623a10"/>各度童行私置田業擅泥鍋仍別眾食寄附常住莊
-<lb ed="B" n="0623a11"/>舍典質營轉等事准此禁斷者</p>
-<lb ed="B" n="0623a12"/><p xml:id="pB24p0623a1201" style="margin-left:0em;text-indent:2em">時乾德三年歲次乙丑五月十二日天下兵馬大元
-<lb ed="B" n="0623a13"/>帥守尚書令吳越國王俶建</p></cb:div>
-<lb ed="B" n="0623a14"/><cb:div type="other"><cb:mulu type="其他" level="3">捨田宅為梵宇遺囑</cb:mulu><head>捨田宅為梵宇遺囑</head><byline cb:type="author">唐藍文卿</byline>
-<lb ed="B" n="0623a15"/><p xml:id="pB24p0623a1501" style="margin-left:0em;text-indent:2em">唐懿宗咸通十一年庚寅三月十一日真覺具狀報
-<lb ed="B" n="0623a16"/>相見文卿相見畢問何處僧真覺啟覆云其係泉州
-<lb ed="B" n="0623a17"/>人氏俗姓曾薙髮於莆田玉磵寺出家得度遇會昌
-<lb ed="B" n="0623a18"/>沙汰復到本州芙蓉山禮宏照訓禪師祝髮遂往幽
+<lb ed="B" n="0623a01"/>不得持孝服。或有帶一尺布、下一滴淚，此非沙門，非
+<lb ed="B" n="0623a02"/>我眷屬，况更哭蒼天，但為俗態，頗辱宗門。或有不遵，
+<lb ed="B" n="0623a03"/>依法<g ref="#CB11462"/>逐。當院年長有從智，仰共相遵授，不得妄有
+<lb ed="B" n="0623a04"/>乖張。他後住持，並依芙蓉先師規制。况從前不曾親
+<lb ed="B" n="0623a05"/>度尼弟子，吾脫去後，切不得放入院門，免世譏嫌。為
+<lb ed="B" n="0623a06"/>恒式者，
+<lb ed="B" n="0623a07"/>兼上院<note n="0623a0701" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0623a0701"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>後，切不得別議住持。</p><p xml:id="pB24p0623a0720" style="margin-left:2em;" cb:place="inline">開平二年戊辰四月
+<lb ed="B" n="0623a08"/>二十八日，沙門義存告示</p>
+<lb ed="B" n="0623a09"/><p xml:id="pB24p0623a0901" style="margin-left:0em;text-indent:2em;">先師住持規制，奉宣下降帖，命准无條件施行。不許
+<lb ed="B" n="0623a10"/>各度童行、私置田業，擅泥鍋、仍別眾食，寄附常住莊
+<lb ed="B" n="0623a11"/>舍、典質、營轉等事，准此禁斷者。</p>
+<lb ed="B" n="0623a12"/><p xml:id="pB24p0623a1201" style="margin-left:2em;">時乾德三年，歲次乙丑五月十二日，天下兵馬大元
+<lb ed="B" n="0623a13"/>帥．守尚書令．吳越國王俶建</p></cb:div>
+<lb ed="B" n="0623a14"/><cb:div type="other"><cb:mulu type="其他" level="3">捨田宅為梵宇遺囑</cb:mulu><head>捨田宅為梵宇遺囑</head><byline cb:type="author">唐．藍文卿</byline>
+<lb ed="B" n="0623a15"/><p xml:id="pB24p0623a1501" style="margin-left:0em;text-indent:2em;">唐懿宗咸通十一年庚寅三月十一日，真覺具狀報
+<lb ed="B" n="0623a16"/>相見。文卿相見畢，問：「何處僧？」真覺啟覆云：「某係泉州
+<lb ed="B" n="0623a17"/>人氏，俗姓曾，薙髮於莆田玉磵寺，出家得度。遇會昌
+<lb ed="B" n="0623a18"/>沙汰，復到本州芙蓉山，禮宏照訓禪師祝髮。遂往幽
 <pb ed="B" xml:id="B24.0140.0623b" n="0623b"/>
-<lb ed="B" n="0623b01"/>州受戒叅學授法於德山鑒禪師但某特來求一菴
-<lb ed="B" n="0623b02"/>基藍文卿遂指門首池畔有大株枯樹下卓菴與師
-<lb ed="B" n="0623b03"/>居之次年三月一日文卿與男應潮女婿陳伴同遊
-<lb ed="B" n="0623b04"/>檉洋莊望其林木秀茂遂與里人謝俲方訓等商議
-<lb ed="B" n="0623b05"/>此處宜建寶剎係圓峰涼映臺之北迎師居之由是
-<lb ed="B" n="0623b06"/>四方雲衲奔湊初有一十三人見其屋宇窄狹難安
-<lb ed="B" n="0623b07"/>廣眾文卿與妻楊大娘商議汝可領小男應辰往茆
-<lb ed="B" n="0623b08"/>洋井黃坪莊居住我與大男應潮將所居屋宇亭榻
-<lb ed="B" n="0623b09"/>三百餘間米倉十二間莊田二十所水牛三百六十
-<lb ed="B" n="0623b10"/>頭諸莊田地土林界各有契書分明其田總計二千
-<lb ed="B" n="0623b11"/>五百八十石五斗有零種收米一萬一百石有零又
-<lb ed="B" n="0623b12"/>稅錢二十四貫有零文卿與男應潮女壻陳伴僧男
-<lb ed="B" n="0623b13"/>守遠請忠懿王就此建大梵剎師伯行實明地理破
-<lb ed="B" n="0623b14"/>天荒立山門放水路原始要終其功不淺將古尼寺
-<lb ed="B" n="0623b15"/>移居雲峰男批歷為記向後子孫收受遺囑我去世
-<lb ed="B" n="0623b16"/>如見山門主首僧行宜相加敬不可干擾忌辰日不
-<lb ed="B" n="0623b17"/>請入院燒香但經我遺囑文赴官照撥入山林斫牛
-<lb ed="B" n="0623b18"/>草柴木不得干欄咸通十二年辛卯歲十月又遣男
+<lb ed="B" n="0623b01"/>州受戒叅學，授法於德山鑒禪師。但某特來求一菴
+<lb ed="B" n="0623b02"/>基。」藍文卿遂指門首池畔有大株枯樹下，卓菴與師
+<lb ed="B" n="0623b03"/>居之。次年三月一日，文卿與男應潮、女婿陳伴同遊
+<lb ed="B" n="0623b04"/>檉洋莊，望其林木秀茂，遂與里人謝俲、方訓等商議，
+<lb ed="B" n="0623b05"/>此處宜建寶剎——係圓峰涼映臺之北——迎師居之。由是
+<lb ed="B" n="0623b06"/>四方雲衲奔湊，初有一十三人。見其屋宇窄狹，難安
+<lb ed="B" n="0623b07"/>廣眾，文卿與妻楊大娘商議：「汝可領小男應辰往茆
+<lb ed="B" n="0623b08"/>洋井黃坪莊居住，我與大男應潮將所居屋宇亭榻
+<lb ed="B" n="0623b09"/>三百餘間、米倉十二間、莊田二十所、水牛三百六十
+<lb ed="B" n="0623b10"/>頭——諸莊田地、土、林界，各有契書分明，其田總計二千
+<lb ed="B" n="0623b11"/>五百八十石五斗有零，種收米一萬一百石有零，又
+<lb ed="B" n="0623b12"/>稅錢二十四貫有零——文卿與男應潮、女壻陳伴、僧男
+<lb ed="B" n="0623b13"/>守遠，請忠懿王就此建大梵剎。」師伯行實明地理，破
+<lb ed="B" n="0623b14"/>天荒立山門，放水路，原始要終，其功不淺，將古尼寺
+<lb ed="B" n="0623b15"/>移居雲峰。男批歴為記，向後子孫收受遺囑：「我去世，
+<lb ed="B" n="0623b16"/>如見山門主首僧行，宜相加敬，不可干擾；忌辰日不
+<lb ed="B" n="0623b17"/>請入院燒香。但經我遺囑文赴官照撥，入山林斫牛
+<lb ed="B" n="0623b18"/>草、柴木不得干欄。」咸通十二年辛卯歲十月，又遣男
 <pb ed="B" xml:id="B24.0140.0624a" n="0624a"/>
-<lb ed="B" n="0624a01"/>應潮再捨田莊經官判據開給福州侯官縣永靖鄉
-<lb ed="B" n="0624a02"/>加祥里藍應潮弟應辰共將本業淨盡入雪峰常住
-<lb ed="B" n="0624a03"/>咸通十三年壬辰歲斬草擇地為藍田境造莊屋開
-<lb ed="B" n="0624a04"/>耕為田受種二百六十石官米八十石親書此照</p>
-<lb ed="B" n="0624a05"/><p xml:id="pB24p0624a0501" style="margin-left:0em;text-indent:2em">乾符二年乙未歲三月十四日忠懿王具奏僖宗皇
-<lb ed="B" n="0624a06"/>帝<g ref="#CB30208"/>賜勅號真覺大師仍封檀越主藍文卿威武軍
-<lb ed="B" n="0624a07"/>節度使明護侯王男應潮通祐神君僧弟大悲賢聖
-<lb ed="B" n="0624a08"/>護佛正法當年六月初十日<g ref="#CB30208"/>院額乾符三年十一
-<lb ed="B" n="0624a09"/>月十一日藍大王薨合寺徒眾塑王像為土主安奉
-<lb ed="B" n="0624a10"/>供養揚大娘同年四月歸壽葬於太平莊後地名下
-<lb ed="B" n="0624a11"/>田莊前嘉隴</p></cb:div>
-<lb ed="B" n="0624a12"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰了禪師真贊</cb:mulu><head>雪峰了禪師真贊</head><byline cb:type="author">宋李綱<note place="inline">邵武人丞相</note></byline>
-<lb ed="B" n="0624a13"/><p xml:id="pB24p0624a1301" style="margin-left:0em;text-indent:2em">粹然而深如玉在山而珠在淵頎然而長如野鶴之
-<lb ed="B" n="0624a14"/>處雞羣謂是為了四大假合何者是真謂是非了五
-<lb ed="B" n="0624a15"/>峰秀出望之儼然道與之貌丹青所傳其有不得而
-<lb ed="B" n="0624a16"/>傳者耶皓月普分千水影清光常滿一輪中</p></cb:div>
-<lb ed="B" n="0624a17"/><cb:div type="other"><cb:mulu type="其他" level="3">樵隱塔銘</cb:mulu><head>樵隱塔銘</head><byline cb:type="author">元悟逸</byline>
-<lb ed="B" n="0624a18"/><p xml:id="pB24p0624a1801" style="margin-left:0em;text-indent:2em">浮屠之剏古有所制然幻泡匪堅古今一夢凡有生
+<lb ed="B" n="0624a01"/>應潮再捨田莊，經官判據開給福州侯官縣永靖鄉
+<lb ed="B" n="0624a02"/>加祥里藍應潮、弟應辰，共將本業淨盡入雪峰常住。
+<lb ed="B" n="0624a03"/>咸通十三年壬辰歲，斬草擇地為藍田境，造莊屋，開
+<lb ed="B" n="0624a04"/>耕為田，受種二百六十石，官米八十石，親書此照。</p>
+<lb ed="B" n="0624a05"/><p xml:id="pB24p0624a0501" style="margin-left:0em;text-indent:2em;">乾符二年乙未歲三月十四日，忠懿王具奏僖宗皇
+<lb ed="B" n="0624a06"/>帝，<g ref="#CB30208"/>賜勅號「真覺大師」，仍封檀越主藍文卿威武軍
+<lb ed="B" n="0624a07"/>節度使、明護侯王，男應潮通祐神君，僧弟大悲賢聖
+<lb ed="B" n="0624a08"/>護佛正法。當年六月初十日，<g ref="#CB30208"/>院額。乾符三年十一
+<lb ed="B" n="0624a09"/>月十一日，藍大王薨，合寺徒眾塑王像為土主，安奉
+<lb ed="B" n="0624a10"/>供養。揚大娘同年四月歸壽，葬於太平莊後，地名下
+<lb ed="B" n="0624a11"/>田莊前嘉隴。</p></cb:div>
+<lb ed="B" n="0624a12"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰了禪師真贊</cb:mulu><head>雪峰了禪師真贊</head><byline cb:type="author">宋．李綱<note place="inline">邵武人，丞相</note></byline>
+<lb ed="B" n="0624a13"/><p xml:id="pB24p0624a1301" style="margin-left:0em;text-indent:2em;">粹然而深，如玉在山而珠在淵；頎然而長，如野鶴之
+<lb ed="B" n="0624a14"/>處雞羣。謂是為了，四大假合，何者是真？謂是非了，五
+<lb ed="B" n="0624a15"/>峰秀出，望之儼然。道與之貌，丹青所傳，其有不得而
+<lb ed="B" n="0624a16"/>傳者耶？皓月普分千水影，清光常滿一輪中。</p></cb:div>
+<lb ed="B" n="0624a17"/><cb:div type="other"><cb:mulu type="其他" level="3">樵隱塔銘</cb:mulu><head>樵隱塔銘</head><byline cb:type="author">元．悟逸</byline>
+<lb ed="B" n="0624a18"/><p xml:id="pB24p0624a1801" style="margin-left:0em;text-indent:2em;">浮屠之剏，古有所制。然幻泡匪堅，古今一夢，凡有生
 <pb ed="B" xml:id="B24.0140.0624b" n="0624b"/>
-<lb ed="B" n="0624b01"/>者不能免焉興斯舉不得已勉從徒弟之請非吾本
-<lb ed="B" n="0624b02"/>志就於先師佛海窣堵之傍面巽背乾穴<unclear></unclear>甃石益
-<lb ed="B" n="0624b03"/>以<g ref="#CB33166"/>液融以青脂預為千秋安禪之室備矣成於延
-<lb ed="B" n="0624b04"/>祐四年歲次丁<note n="0624b0401" resp="CBETA" type="add">巳【CB】，已【補編】</note><app n="0624b0401"><lem wit="【CB】" resp="CBETA.maha">巳</lem><rdg wit="【補編】">已</rdg></app>良月十有八日故係以銘曰</p>
-<lb ed="B" n="0624b05"/><p xml:id="pB24p0624b0501" style="margin-left:0em;text-indent:2em">幻從緣偶緣從幻空非緣非幻何初何終難提預<note n="0624b0501" resp="CBETA" type="add">備【CB】，傋【補編】</note><app n="0624b0501"><lem wit="【CB】" resp="CBETA.maha">備</lem><rdg wit="【補編】">傋</rdg></app>
-<lb ed="B" n="0624b06"/>名不以崇壽山始造錢不較工佛以心印智以願隆
-<lb ed="B" n="0624b07"/>樵木曉霽枯木春融隱顯一致名邈無從花敷雪窟
-<lb ed="B" n="0624b08"/>燈聯夜宮天荒地老扶桑日東雪峰住持當山佛智
+<lb ed="B" n="0624b01"/>者，不能免焉。興斯舉不得已，勉從徒弟之請，非吾本
+<lb ed="B" n="0624b02"/>志。就於先師佛海窣堵之傍，面巽背乾，穴<note n="0624b0201" resp="CBETA" type="add">土【CB】，<unclear></unclear>【補編】</note><app n="0624b0201"><lem wit="【CB】" resp="CBETA">土</lem><rdg wit="【補編】"><unclear></unclear></rdg></app>甃石，益
+<lb ed="B" n="0624b03"/>以<g ref="#CB33166"/>液，融以青脂，預為千秋安禪之室備矣。成於延
+<lb ed="B" n="0624b04"/>祐四年歲次丁<note n="0624b0401" resp="CBETA" type="add">巳【CB】，已【補編】</note><app n="0624b0401"><lem wit="【CB】" resp="CBETA">巳</lem><rdg wit="【補編】">已</rdg></app>良月十有八日，故係以銘曰：</p>
+<lb ed="B" n="0624b05"/><lg xml:id="lgB24p0624b0501" style="margin-left:1em;text-indent:0em;"><l style="text-indent:1em;">幻從緣偶　緣從幻空</l><l style="text-indent:1em;">非緣非幻　何初何終</l><l style="text-indent:1em;">難提預<note n="0624b0501" resp="CBETA" type="add">構【CB】，傋【補編】</note><app n="0624b0501"><lem wit="【CB】" resp="CBETA">構</lem><rdg wit="【補編】">傋</rdg></app>
+<lb ed="B" n="0624b06"/>　名不以崇</l><l style="text-indent:1em;">壽山始造　錢不較工</l><l style="text-indent:1em;">佛以心印　智以願隆</l>
+<lb ed="B" n="0624b07"/><l style="text-indent:1em;">樵木曉霽　枯木春融</l><l style="text-indent:1em;">隱顯一致　名邈無從</l><l style="text-indent:1em;">花敷雪窟
+<lb ed="B" n="0624b08"/>　燈聯夜宮</l><l style="text-indent:1em;">天荒地老　扶桑日東</l></lg><p xml:id="pB24p0624b0815" style="margin-left:2em;" cb:place="inline">雪峰住持．當山佛智
 <lb ed="B" n="0624b09"/>樵隱悟逸述併書</p></cb:div>
-<lb ed="B" n="0624b10"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰崇聖禪寺碑文記</cb:mulu><head>雪峰崇聖禪寺碑文記</head><byline cb:type="author">明胡濙</byline>
-<lb ed="B" n="0624b11"/><p xml:id="pB24p0624b1101" style="margin-left:0em;text-indent:2em">永樂十七年冬予奉使閩粵登覽雪峰之勝適值住
-<lb ed="B" n="0624b12"/>持遠芷號秋崖開甃新徑轉偏隘為弘深由萬工池
-<lb ed="B" n="0624b13"/>以達山門浚池建橋撤舊更新規模壯觀經始之時
-<lb ed="B" n="0624b14"/>予適至寺眾僧歡躍以改作吉祥之應予亦喜其山
-<lb ed="B" n="0624b15"/>林清蔓因留信宿芷公乃從容謂曰茲山來自武夷
-<lb ed="B" n="0624b16"/>延袤聯絡歷數百里以至於此乃巍然高聳峭拔層
-<lb ed="B" n="0624b17"/>空蓋閩地多燠冬穻霜雪惟茲山勢接剛風氣候侔
-<lb ed="B" n="0624b18"/>於中土冬常積雪故名雪峰唐真覺祖師駐錫於此
+<lb ed="B" n="0624b10"/><cb:div type="other"><cb:mulu type="其他" level="3">雪峰崇聖禪寺碑文記</cb:mulu><head>雪峰崇聖禪寺碑文記</head><byline cb:type="author">明．胡濙</byline>
+<lb ed="B" n="0624b11"/><p xml:id="pB24p0624b1101" style="margin-left:0em;text-indent:2em;">永樂十七年冬，予奉使閩粵，登覽雪峰之勝，適值住
+<lb ed="B" n="0624b12"/>持遠芷（號秋崖）開甃新徑，轉偏隘為弘深，由萬工池
+<lb ed="B" n="0624b13"/>以達山門，浚池建橋，撤舊更新，規模壯觀。經始之時，
+<lb ed="B" n="0624b14"/>予適至寺，眾僧歡躍以改作吉祥之應，予亦喜其山
+<lb ed="B" n="0624b15"/>林清蔓，因留信宿。芷公乃從容謂曰：「茲山來自武夷，
+<lb ed="B" n="0624b16"/>延袤聯絡，歴數百里以至於此，乃巍然高聳，峭拔層
+<lb ed="B" n="0624b17"/>空。蓋閩地多燠，冬穻霜雪，惟茲山勢接剛風，氣候侔
+<lb ed="B" n="0624b18"/>於中土，冬常積雪，故名雪峰。唐真覺祖師駐錫於此，
 <pb ed="B" xml:id="B24.0140.0625a" n="0625a"/>
-<lb ed="B" n="0625a01"/>剏建梵宮歷年既久屢興屢廢今　聖天子興崇佛
-<lb ed="B" n="0625a02"/>教凡名山古跡皆葺而新之僧錄以雪峰名剎非戒
-<lb ed="B" n="0625a03"/>行老成者不足以當興復之任乃於永樂二年詢謀
+<lb ed="B" n="0625a01"/>剏建梵宮，歴年既久，屢興屢廢。今　聖天子興崇佛
+<lb ed="B" n="0625a02"/>教，凡名山古跡皆葺而新之。僧錄以雪峰名剎，非戒
+<lb ed="B" n="0625a03"/>行老成者不足以當興復之任，乃於永樂二年詢謀，
 <lb ed="B" n="0625a04"/>僉請以前　欽選住泉州大開元寺潔菴映禪師來
-<lb ed="B" n="0625a05"/>主斯席師姓洪氏名正映號潔菴世居江右之金谿
-<lb ed="B" n="0625a06"/>自幼托跡沙門不茹葷羶受具足戒於杭之昭慶寺
-<lb ed="B" n="0625a07"/>得法於靈谷巽中禪師遠芷亦江右臨川人因得隨
-<lb ed="B" n="0625a08"/>侍嗣法分葺玄沙而登山之日殿堂門廡俱為瓦礫
-<lb ed="B" n="0625a09"/>荊蓁師即慨然感嘆奮志興復誓不下山寒暑一衲
-<lb ed="B" n="0625a10"/>脇不沾席是故八閩崇敬四眾皈依積糧于廩伐木
-<lb ed="B" n="0625a11"/>于山陶瓦甓而儲器用越五年佛殿成又明年法堂
-<lb ed="B" n="0625a12"/>三門同日創建弘碩雄偉視舊有加肖像端嚴金碧
-<lb ed="B" n="0625a13"/>輝煥於以上祝　聖壽下祈民福功德之大不可思
-<lb ed="B" n="0625a14"/>議一旦師諭遠芷曰汝興復玄沙功業<note n="0625a1401" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0625a1401"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>竟茲山創
-<lb ed="B" n="0625a15"/>置大體固具然廊廡僧堂尚未周完予年已衰邁欲
-<lb ed="B" n="0625a16"/>歸老靈谷非汝不足以繼吾志遂移檄僧錄於永樂
-<lb ed="B" n="0625a17"/>十六年以遠芷升代師任夙夜惟謹猶不敢忘其付
-<lb ed="B" n="0625a18"/>囑凡所未備者悉為成之復按茲寺創始於真覺其
+<lb ed="B" n="0625a05"/>主斯席。師姓洪氏，名正映，號潔菴，世居江右之金谿，
+<lb ed="B" n="0625a06"/>自幼托跡沙門，不茹葷羶，受具足戒於杭之昭慶寺，
+<lb ed="B" n="0625a07"/>得法於靈谷巽中禪師。遠芷亦江右臨川人，因得隨
+<lb ed="B" n="0625a08"/>侍嗣法，分葺玄沙。而登山之日，殿堂門廡俱為瓦礫
+<lb ed="B" n="0625a09"/>荊蓁，師即慨然感嘆，奮志興復，誓不下山，寒暑一衲，
+<lb ed="B" n="0625a10"/>脇不沾席，是故八閩崇敬，四眾皈依。積糧于廩，伐木
+<lb ed="B" n="0625a11"/>于山，陶瓦甓而儲器用，越五年佛殿成。又明年，法堂、
+<lb ed="B" n="0625a12"/>三門同日創建，弘碩雄偉，視舊有加，肖像端嚴，金碧
+<lb ed="B" n="0625a13"/>輝煥，於以上祝　聖壽，下祈民福，功德之大，不可思
+<lb ed="B" n="0625a14"/>議。一旦，師諭遠芷曰：『汝興復玄沙功業<note n="0625a1401" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0625a1401"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>竟，茲山創
+<lb ed="B" n="0625a15"/>置大體固具，然廊廡、僧堂尚未周完。予年已衰邁，欲
+<lb ed="B" n="0625a16"/>歸老靈谷，非汝不足以繼吾志。』遂移檄僧錄，於永樂
+<lb ed="B" n="0625a17"/>十六年以遠芷升代師任。夙夜惟謹，猶不敢忘其付
+<lb ed="B" n="0625a18"/>囑，凡所未備者，悉為成之。復按茲寺創始於真覺，其
 <pb ed="B" xml:id="B24.0140.0625b" n="0625b"/>
-<lb ed="B" n="0625b01"/>示寂之際預留讖云石塔卵爆杉枝拂地奯竹筍生
-<lb ed="B" n="0625b02"/>五百年後吾當再來至潔菴登山適五百二年諸讖
-<lb ed="B" n="0625b03"/>俱驗如合符節况師顏貌又與真覺無異故人咸以
-<lb ed="B" n="0625b04"/>師為再來之真覺也此固不可以無記願賜一言勒
-<lb ed="B" n="0625b05"/>諸貞珉用垂不朽予惟佛氏之興肇蹟已遠其教以
-<lb ed="B" n="0625b06"/>持戒守律為初地以明心見性為實際學其學者勞
-<lb ed="B" n="0625b07"/>形苦志困悴山林宴坐默存求底於常樂常住不生
-<lb ed="B" n="0625b08"/>不滅之域又何與於寺之輪奐焉然像教之設大眾
-<lb ed="B" n="0625b09"/>瞻仰人心之感先乎目之所見觀殿宇之巍峩像設
-<lb ed="B" n="0625b10"/>之嚴肅則敬心悚焉而生敬心生則萬善由是而積
-<lb ed="B" n="0625b11"/>自漢以來教日益滋寺日益盛至於唐宋間有推沮
-<lb ed="B" n="0625b12"/>排抑欲廢其教者誠以盈虛消息皆係乎數有形則
-<lb ed="B" n="0625b13"/>有數惟法無形固不囿乎數佛與僧寺皆有形者豈
-<lb ed="B" n="0625b14"/>免於數乎姑以此寺言之自真覺至於正映纔五百
-<lb ed="B" n="0625b15"/>餘年興廢不知其幾至是果應讖而大興者豈非真
-<lb ed="B" n="0625b16"/>覺能知乎數而預為張本乎自小世界至三千大千
-<lb ed="B" n="0625b17"/>世界乃至無量無數微塵剎土皆始於成而終於空
-<lb ed="B" n="0625b18"/>終則復始展轉循環無有窮已一切有為之法亦復
+<lb ed="B" n="0625b01"/>示寂之際，預留讖云：『石塔卵爆，杉枝拂地，奯竹筍生，
+<lb ed="B" n="0625b02"/>五百年後，吾當再來。』至潔菴登山適五百二年，諸讖
+<lb ed="B" n="0625b03"/>俱驗，如合符節，况師顏貌又與真覺無異，故人咸以
+<lb ed="B" n="0625b04"/>師為再來之真覺也。此固不可以無記，願賜一言，勒
+<lb ed="B" n="0625b05"/>諸貞珉，用垂不朽。」予惟：「佛氏之興，肇蹟已遠，其教以
+<lb ed="B" n="0625b06"/>持戒守律為初地，以明心見性為實際。學其學者，勞
+<lb ed="B" n="0625b07"/>形苦志，困悴山林，宴坐默存，求底於常樂常住、不生
+<lb ed="B" n="0625b08"/>不滅之域，又何與於寺之輪奐焉？然像教之設，大眾
+<lb ed="B" n="0625b09"/>瞻仰，人心之感，先乎目之所見。觀殿宇之巍峩、像設
+<lb ed="B" n="0625b10"/>之嚴肅，則敬心悚焉而生，敬心生則萬善由是而積。
+<lb ed="B" n="0625b11"/>自漢以來，教日益滋，寺日益盛，至於唐宋間，有推沮
+<lb ed="B" n="0625b12"/>排抑欲廢其教者。誠以盈虛消息皆係乎數，有形則
+<lb ed="B" n="0625b13"/>有數，惟法無形，固不囿乎數。佛與僧寺皆有形者，豈
+<lb ed="B" n="0625b14"/>免於數乎？姑以此寺言之，自真覺至於正映，纔五百
+<lb ed="B" n="0625b15"/>餘年，興廢不知其幾，至是果應讖而大興者，豈非真
+<lb ed="B" n="0625b16"/>覺能知乎數，而預為張本乎？自小世界至三千大千
+<lb ed="B" n="0625b17"/>世界，乃至無量無數微塵剎土，皆始於成而終於空，
+<lb ed="B" n="0625b18"/>終則復始，展轉循環，無有窮已；一切有為之法，亦復
 <pb ed="B" xml:id="B24.0140.0626a" n="0626a"/>
-<lb ed="B" n="0626a01"/>如是而有無始成無住無壞無空者存試觀乎寺今
-<lb ed="B" n="0626a02"/>既成矣而汝又住其中矣其壞其空寧保於後日乎
-<lb ed="B" n="0626a03"/>雖然誠能盡汝今日成住之責必堅必確使無速朽
-<lb ed="B" n="0626a04"/>吾為汝記俾汝後之法嗣厥子若孫因吾之言思紹
-<lb ed="B" n="0626a05"/>汝志繼而葺之使不致于屢壞屢空是亦汝與汝師
-<lb ed="B" n="0626a06"/>常住乎中也芷曰唯唯遂書以為記</p>
-<lb ed="B" n="0626a07"/><p xml:id="pB24p0626a0701" style="margin-left:0em;text-indent:2em">資善大夫行在禮部尚書毘陵胡濙撰文</p>
-<lb ed="B" n="0626a08"/><p xml:id="pB24p0626a0801" style="margin-left:0em;text-indent:2em">奉政大夫翰林院學士兼左春坊大學士盧陵胡廣
+<lb ed="B" n="0626a01"/>如是，而有無始成、無住、無壞、無空者存。試觀乎寺，今
+<lb ed="B" n="0626a02"/>既成矣，而汝又住其中矣。其壞其空，寧保於後日乎？
+<lb ed="B" n="0626a03"/>雖然，誠能盡汝今日成住之責，必堅必確，使無速朽。
+<lb ed="B" n="0626a04"/>吾為汝記，俾汝後之法嗣，厥子若孫，因吾之言思紹
+<lb ed="B" n="0626a05"/>汝志，繼而葺之，使不致于屢壞屢空，是亦汝與汝師
+<lb ed="B" n="0626a06"/>常住乎中也。」芷曰：「唯唯。」遂書以為記。</p>
+<lb ed="B" n="0626a07"/><p xml:id="pB24p0626a0701" style="margin-left:2em;">資善大夫．行在禮部尚書．毘陵胡濙撰文</p>
+<lb ed="B" n="0626a08"/><p xml:id="pB24p0626a0801" style="margin-left:2em;">奉政大夫．翰林院學士兼左春坊大學士．盧陵胡廣
 <lb ed="B" n="0626a09"/>篆額</p>
-<lb ed="B" n="0626a10"/><p xml:id="pB24p0626a1001" style="margin-left:0em;text-indent:2em">賜進士徵仕郎行在刑科給事中三山姚銑書丹</p>
-<lb ed="B" n="0626a11"/><p xml:id="pB24p0626a1101" style="margin-left:0em;text-indent:2em">宣德八年歲在癸丑二月前住當山遠芷同當代住
+<lb ed="B" n="0626a10"/><p xml:id="pB24p0626a1001" style="margin-left:2em;">賜進士徵仕郎．行在刑科給事中．三山姚銑書丹</p>
+<lb ed="B" n="0626a11"/><p xml:id="pB24p0626a1101" style="margin-left:2em;">宣德八年歲在癸丑二月，前住當山遠芷同當代住
 <lb ed="B" n="0626a12"/>持良琛立石</p></cb:div>
-<lb ed="B" n="0626a13"/><cb:div type="other"><cb:mulu type="其他" level="3">送無念師住持雪峰序</cb:mulu><head>送無念師住持雪峰序</head><byline cb:type="author">明鄭亮<note place="inline">閩縣人戶部主事</note></byline>
-<lb ed="B" n="0626a14"/><p xml:id="pB24p0626a1401" style="margin-left:0em;text-indent:2em">佛以虛寂為宗然必有律定之而後以戒則嚴僧以
-<lb ed="B" n="0626a15"/>無礙為尚然必有師束之而後以念則齊是故佛去
-<lb ed="B" n="0626a16"/>中國二萬里如此其遠也道傳之千載如此其邈也
-<lb ed="B" n="0626a17"/>天下僧徒如此其眾也遠則傳微久則離真眾則莫
-<lb ed="B" n="0626a18"/>檢也不有賢師持典其教詎不至於訾傲隳弛者哉
+<lb ed="B" n="0626a13"/><cb:div type="other"><cb:mulu type="其他" level="3">送無念師住持雪峰序</cb:mulu><head>送無念師住持雪峰序</head><byline cb:type="author">明．鄭亮<note place="inline">閩縣人，戶部主事</note></byline>
+<lb ed="B" n="0626a14"/><p xml:id="pB24p0626a1401" style="margin-left:0em;text-indent:2em;">佛以虛寂為宗，然必有律定之，而後以戒則嚴；僧以
+<lb ed="B" n="0626a15"/>無礙為尚，然必有師束之，而後以念則齊。是故佛去
+<lb ed="B" n="0626a16"/>中國二萬里，如此其遠也；道傳之千載，如此其邈也；
+<lb ed="B" n="0626a17"/>天下僧徒，如此其眾也。遠則傳微，久則離真，眾則莫
+<lb ed="B" n="0626a18"/>檢也。不有賢師持典，其教詎不至於訾傲隳弛者哉？
 <pb ed="B" xml:id="B24.0140.0626b" n="0626b"/>
-<lb ed="B" n="0626b01"/>莆陽無念師者法行峻整儀範莊肅始事如溪如海
-<lb ed="B" n="0626b02"/>剪髦髮誦習內典以明大義繼事秋崖講求妙道沿
-<lb ed="B" n="0626b03"/>遡真原以達秘旨於是其同儕宗雲請蒞事雪峰有
-<lb ed="B" n="0626b04"/>僧志英者來徵言夫雪峰為天下名剎其始事造基
-<lb ed="B" n="0626b05"/>剏業垂於今豈一朝一夕之積哉披山伐木崇搆殿
-<lb ed="B" n="0626b06"/>宇而佛貌以尊闢土墾園儲蓄衣食而僧徒以集必
-<lb ed="B" n="0626b07"/>其道德高潔而受律者廣也必其闡教明白而受業
-<lb ed="B" n="0626b08"/>者眾也無念繼之將必席其光塵者耶然吾聞禪家
-<lb ed="B" n="0626b09"/>尚虛寂教道以軌度二者相戾正道遂隱吾將合焉
-<lb ed="B" n="0626b10"/>誦其書求其志黜異以蹈中合離而為同整齊而嚴
-<lb ed="B" n="0626b11"/>一則事無非實空洞而不礙則事無非空用律以自
-<lb ed="B" n="0626b12"/>守講道以會眾由是則通達昭融尚有光乎始師矣
-<lb ed="B" n="0626b13"/>豈不可嘉也哉若夫懸巖翠壁清風寒峭始慕貞名
-<lb ed="B" n="0626b14"/>而就焉終以寥寂而厭焉則非吾所知也予重志英
-<lb ed="B" n="0626b15"/>之請姑以是而復之宣德甲寅戶部主事三山鄭亮
+<lb ed="B" n="0626b01"/>莆陽無念師者，法行峻整，儀範莊肅，始事如溪、如海，
+<lb ed="B" n="0626b02"/>剪髦髮，誦習內典，以明大義。繼事秋崖講求妙道，沿
+<lb ed="B" n="0626b03"/>遡真原，以達秘旨。於是其同儕宗雲，請蒞事雪峰，有
+<lb ed="B" n="0626b04"/>僧志英者來徵言。夫雪峰為天下名剎，其始事造基
+<lb ed="B" n="0626b05"/>剏業垂於今，豈一朝一夕之積哉？披山伐木，崇搆殿
+<lb ed="B" n="0626b06"/>宇而佛貌以尊；闢土墾園，儲蓄衣食而僧徒以集。必
+<lb ed="B" n="0626b07"/>其道德高潔而受律者廣也，必其闡教明白而受業
+<lb ed="B" n="0626b08"/>者眾也。無念繼之，將必席其光塵者耶。然吾聞禪家
+<lb ed="B" n="0626b09"/>尚虛寂，教道以軌度，二者相戾，正道遂隱。吾將合焉，
+<lb ed="B" n="0626b10"/>誦其書，求其志，黜異以蹈中，合離而為同。整齊而嚴
+<lb ed="B" n="0626b11"/>一，則事無非實；空洞而不礙，則事無非空。用律以自
+<lb ed="B" n="0626b12"/>守，講道以會眾，由是則通達，昭融尚有。光乎始師矣，
+<lb ed="B" n="0626b13"/>豈不可嘉也哉？若夫懸巖翠壁，清風寒峭，始慕貞名
+<lb ed="B" n="0626b14"/>而就焉，終以寥寂而厭焉，則非吾所知也。予重志英
+<lb ed="B" n="0626b15"/>之請，姑以是而復之。</p><p xml:id="pB24p0626b1509" style="margin-left:2em;" cb:place="inline">宣德甲寅，戶部主事．三山鄭亮
 <lb ed="B" n="0626b16"/>譔</p></cb:div>
 <lb ed="B" n="0626b17"/>
 <lb ed="B" n="0626b18"/>
@@ -638,270 +676,270 @@
 <lb ed="B" n="0627a07"/>
 <lb ed="B" n="0627a08"/>
 <lb ed="B" n="0627a09"/>
-<lb ed="B" n="0627a10"/><cb:div type="other"><cb:mulu type="其他" level="3">贈鳳岡上人住持雪峰序</cb:mulu><head>贈鳳岡上人住持雪峰序</head><byline cb:type="author">謝杰<note place="inline">長樂人刑部尚書</note></byline>
-<lb ed="B" n="0627a11"/><p xml:id="pB24p0627a1101" style="margin-left:0em;text-indent:2em">雪峰住持鳳岡上人少希清淨屏塵氛身世業緣視
-<lb ed="B" n="0627a12"/>為苦海筏渡迷津能定能慧邑侯顯初周公雅知上
-<lb ed="B" n="0627a13"/>人戒律精嚴檄知寺事聿紹華峰綺公正傳儻取謂
-<lb ed="B" n="0627a14"/>一了百了領瞿曇大教以齊乎一切眾生非耶抑文
-<lb ed="B" n="0627a15"/>有進焉者禪家本來無物萬緣頓息若從此以還火
-<lb ed="B" n="0627a16"/>不燃相不着獨印獨證明心見性登極樂世界證無
-<lb ed="B" n="0627a17"/>上菩提即心即佛矣余與上人同里開稔知家世喬
-<lb ed="B" n="0627a18"/>木乞言于予義不可辭謹<note n="0627a1801" resp="CBETA" type="add">颺【CB】，<g ref="#CB00732"/>【補編】</note><app n="0627a1801"><lem wit="【CB】" resp="CBETA.maha">颺</lem><rdg wit="【補編】"><g ref="#CB00732"/></rdg></app>言以頌庶幾柳州嘉文
+<lb ed="B" n="0627a10"/><cb:div type="other"><cb:mulu type="其他" level="3">贈鳳岡上人住持雪峰序</cb:mulu><head>贈鳳岡上人住持雪峰序</head><byline cb:type="author">謝杰<note place="inline">長樂人，刑部尚書</note></byline>
+<lb ed="B" n="0627a11"/><p xml:id="pB24p0627a1101" style="margin-left:0em;text-indent:2em;">雪峰住持鳳岡上人，少希清淨，屏塵氛，身世業緣視
+<lb ed="B" n="0627a12"/>為苦海，筏渡迷津，能定能慧。邑侯顯初周公，雅知上
+<lb ed="B" n="0627a13"/>人戒律精嚴，檄知寺事，聿紹華峰綺公正傳，儻取，謂
+<lb ed="B" n="0627a14"/>一了百了，領瞿曇大教以齊乎一切眾生非耶！抑<note n="0627a1401" resp="CBETA" type="add">又【CB】，文【補編】</note><app n="0627a1401"><lem wit="【CB】" resp="CBETA">又</lem><rdg wit="【補編】">文</rdg></app>
+<lb ed="B" n="0627a15"/>有進焉者，禪家本來無物，萬緣頓息。若從此以還，火
+<lb ed="B" n="0627a16"/>不燃，相不着，獨印獨證，明心見性，登極樂世界，證無
+<lb ed="B" n="0627a17"/>上菩提，即心即佛矣。余與上人同里閈，稔知家世喬
+<lb ed="B" n="0627a18"/>木，乞言于予。義不可辭，謹<note n="0627a1801" resp="CBETA" type="add">颺【CB】，<g ref="#CB00732"/>【補編】</note><app n="0627a1801"><lem wit="【CB】" resp="CBETA">颺</lem><rdg wit="【補編】"><g ref="#CB00732"/></rdg></app>言以頌，庶幾柳州嘉文，
 <pb ed="B" xml:id="B24.0140.0627b" n="0627b"/>
-<lb ed="B" n="0627b01"/>暢昌黎進大顛之義萬歷癸巳仲冬穀旦書</p></cb:div>
-<lb ed="B" n="0627b02"/><cb:div type="other"><cb:mulu type="其他" level="3">重修雪峰寺疏</cb:mulu><head>重修雪峰寺疏</head><byline cb:type="author">葉向高<note place="inline">福清人太師</note></byline>
-<lb ed="B" n="0627b03"/><p xml:id="pB24p0627b0301" style="margin-left:0em;text-indent:2em">自達磨西來六傳而曹溪又自曹溪六傳而雪峰蓋
-<lb ed="B" n="0627b04"/>曹溪之正脉若吾儒之有朱徽國誦其書傾想其淨
-<lb ed="B" n="0627b05"/>業者孰忍墜其遺蹟而吾郡之古剎不知凡幾今且
-<lb ed="B" n="0627b06"/>什七頹廢住持緇流僧其首屠酤其口知有田耳烏
-<lb ed="B" n="0627b07"/>知有寺萬歷壬寅歲余探名勝至雪峰將及寺道傍
-<lb ed="B" n="0627b08"/>枯木外嵌內<g ref="#CB33223"/>讀唐宋題刻恍若真覺大師撒手歸
-<lb ed="B" n="0627b09"/>處入寺禮難提塔石卵無數爆猶未盡為之恍然何
-<lb ed="B" n="0627b10"/>處尋言逐句於是諸僧迎勞威儀整肅即未必能滾
-<lb ed="B" n="0627b11"/>木毬大闡宗風而誦經守戒亦無負真覺龍象余心
-<lb ed="B" n="0627b12"/>善之因留宿累日賦詩為贈迄今廿有五年舊僧賢
-<lb ed="B" n="0627b13"/>桐等來謁告以寺久漏<g ref="#CB14502"/>不修且朽求余片言慫慂
-<lb ed="B" n="0627b14"/>布施余謂莊嚴載金經有植福之思者亡庸余言庸
-<lb ed="B" n="0627b15"/>余言者則以世情不住相是以余強之也余何言哉
-<lb ed="B" n="0627b16"/>雖然莊嚴佛土佛有是言矣又謂布施七寶及於身
-<lb ed="B" n="0627b17"/>命不如誦偈四句非布施無與於福德也蓋以布施
-<lb ed="B" n="0627b18"/>者未必緣誦此偈誦此偈者未有不布施藍長者非
+<lb ed="B" n="0627b01"/>暢昌黎進大顛之義。</p><p xml:id="pB24p0627b0109" style="margin-left:2em;" cb:place="inline">萬歴癸巳仲冬穀旦書</p></cb:div>
+<lb ed="B" n="0627b02"/><cb:div type="other"><cb:mulu type="其他" level="3">重修雪峰寺疏</cb:mulu><head>重修雪峰寺疏</head><byline cb:type="author">葉向高<note place="inline">福清人，太師</note></byline>
+<lb ed="B" n="0627b03"/><p xml:id="pB24p0627b0301" style="margin-left:0em;text-indent:2em;">自達磨西來，六傳而曹溪，又自曹溪，六傳而雪峰。蓋
+<lb ed="B" n="0627b04"/>曹溪之正脉，若吾儒之有朱徽國。誦其書，傾想其淨
+<lb ed="B" n="0627b05"/>業者，孰忍墜其遺蹟？而吾郡之古剎不知凡幾，今且
+<lb ed="B" n="0627b06"/>什七頹廢，住持緇流僧其首，屠酤其口，知有田耳，烏
+<lb ed="B" n="0627b07"/>知有寺？萬歴壬寅歲，余探名勝至雪峰，將及寺，道傍
+<lb ed="B" n="0627b08"/>枯木外嵌內<g ref="#CB33223"/>。讀唐宋題刻，恍若真覺大師撒手歸
+<lb ed="B" n="0627b09"/>處。入寺禮難提塔，石卵無數，爆猶未盡，為之恍然，何
+<lb ed="B" n="0627b10"/>處尋言逐句？於是諸僧迎勞，威儀整肅，即未必能滾
+<lb ed="B" n="0627b11"/>木毬、大闡宗風，而誦經守戒，亦無負真覺龍象。余心
+<lb ed="B" n="0627b12"/>善之，因留宿，累日賦詩為贈。迄今廿有五年。舊僧賢
+<lb ed="B" n="0627b13"/>桐等來謁，告以寺久漏<g ref="#CB14502"/>不修且朽，求余片言，慫慂
+<lb ed="B" n="0627b14"/>布施。余謂莊嚴載《金經》有植福之思者，亡庸余言；庸
+<lb ed="B" n="0627b15"/>余言者，則以世情不住相，是以余强之也，余何言哉？
+<lb ed="B" n="0627b16"/>雖然，莊嚴佛土，佛有是言矣；又謂布施七寶及於身
+<lb ed="B" n="0627b17"/>命，不如誦偈四句。非布施無與於福德也，蓋以布施
+<lb ed="B" n="0627b18"/>者，未必緣誦此偈；誦此偈者，未有不布施。藍長者非
 <pb ed="B" xml:id="B24.0140.0628a" n="0628a"/>
-<lb ed="B" n="0628a01"/>知世界如夢幻泡影安肯盡施累鉅萬之田宅赤身
-<lb ed="B" n="0628a02"/>而去哉然而歷八百餘年子孫之聚族古田派衍於
-<lb ed="B" n="0628a03"/>繩繩纚纚與雪峰相終始其所得福德何如累鉅萬
-<lb ed="B" n="0628a04"/>之田宅哉余之言如斯而<note n="0628a0401" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0628a0401"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>諸上座其以余言臚傳
-<lb ed="B" n="0628a05"/>十方天啟丙寅春日中極殿大學士少師上柱國吏
-<lb ed="B" n="0628a06"/>部尚書予告福唐葉向高撰</p></cb:div>
-<lb ed="B" n="0628a07"/><cb:div type="other"><cb:mulu type="其他" level="3">重修雪峰寺募緣疏</cb:mulu><head>重修雪峰寺募緣疏</head><byline cb:type="author">曹學佺<note place="inline">侯官人四川按察使</note></byline>
-<lb ed="B" n="0628a08"/><p xml:id="pB24p0628a0801" style="margin-left:0em;text-indent:2em">余性故喜遊海內名山多所經歷獨有雪峰去余里
-<lb ed="B" n="0628a09"/>中數舍耳顧廼而遺之相國葉公曩戲謂余是可傲
-<lb ed="B" n="0628a10"/>之以其所不知者余里居十年數動遊興為期輙不
-<lb ed="B" n="0628a11"/>果即夢<g ref="#CB00895"/>中亦往往有披榛撥雲半途而廢之境不
-<lb ed="B" n="0628a12"/>解何故或者余宿因在真覺大師會下投叅不合羞
-<lb ed="B" n="0628a13"/>沮而退耶抑機緣有待不欲使其無事而浪遊耶頃
-<lb ed="B" n="0628a14"/>以量補粵西分當出門一出門即當抵山下而寺僧
-<lb ed="B" n="0628a15"/>五六軰自洪江尾而來者其敦請又甚勤也予於往
-<lb ed="B" n="0628a16"/>否之意本所未決適值霖雨載途不能上岸則此遊
-<lb ed="B" n="0628a17"/>更錯過不知又何時矣寺僧之亟余遊也謂余一遊
-<lb ed="B" n="0628a18"/>之後斯故者可新頺者可復而頗以為梵剎重也顧
+<lb ed="B" n="0628a01"/>知世界如夢幻泡影，安肯盡施累鉅萬之田宅赤身
+<lb ed="B" n="0628a02"/>而去哉？然而歴八百餘年，子孫之聚族古田，派衍於
+<lb ed="B" n="0628a03"/>繩繩纚纚，與雪峰相終始，其所得福德，何如累鉅萬
+<lb ed="B" n="0628a04"/>之田宅哉。余之言如斯而<note n="0628a0401" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0628a0401"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>，諸上座，其以余言臚傳
+<lb ed="B" n="0628a05"/>十方。</p><p xml:id="pB24p0628a0503" style="margin-left:2em;" cb:place="inline">天啟丙寅春日，中極殿大學士．少師．上柱國．吏
+<lb ed="B" n="0628a06"/>部尚書予告．福唐葉向高撰</p></cb:div>
+<lb ed="B" n="0628a07"/><cb:div type="other"><cb:mulu type="其他" level="3">重修雪峰寺募緣疏</cb:mulu><head>重修雪峰寺募緣疏</head><byline cb:type="author">曹學佺<note place="inline">侯官人，四川按察使</note></byline>
+<lb ed="B" n="0628a08"/><p xml:id="pB24p0628a0801" style="margin-left:0em;text-indent:2em;">余性故喜遊，海內名山多所經歴，獨有雪峰，去余里
+<lb ed="B" n="0628a09"/>中數舍耳，顧廼而遺之。相國葉公曩戲謂余，是可傲
+<lb ed="B" n="0628a10"/>之以其所不知者。余里居十年，數動遊興，為期輙不
+<lb ed="B" n="0628a11"/>果，即夢<g ref="#CB00895"/>中，亦往往有披榛撥雲、半途而廢之境，不
+<lb ed="B" n="0628a12"/>解何故。或者余宿因在真覺大師會下投叅不合，羞
+<lb ed="B" n="0628a13"/>沮而退耶？抑機緣有待，不欲使其無事而浪遊耶？頃
+<lb ed="B" n="0628a14"/>以量補粵西，分當出門，一出門即當抵山下，而寺僧
+<lb ed="B" n="0628a15"/>五六軰自洪江尾而來者，其敦請又甚勤也。予於往
+<lb ed="B" n="0628a16"/>否之意本所未決，適值霖雨載途，不能上岸，則此遊
+<lb ed="B" n="0628a17"/>更錯過不知又何時矣。寺僧之亟余遊也，謂余一遊
+<lb ed="B" n="0628a18"/>之後，斯故者可新，頺者可復，而頗以為梵剎重也。顧
 <pb ed="B" xml:id="B24.0140.0628b" n="0628b"/>
-<lb ed="B" n="0628b01"/>雪峰山曰名山剎曰名剎實非以余遊故重而予之
-<lb ed="B" n="0628b02"/>脉脉自審于胸中其為故也孰溫之廢也孰振之重
-<lb ed="B" n="0628b03"/>有負于性靈矣負性靈則負山靈不言而可知矣茲
-<lb ed="B" n="0628b04"/>豈無根器猛利一施鈐錘當下大悟者耶又豈無財
-<lb ed="B" n="0628b05"/>施法施兩得解脫為首度波羅密者乎聊書此而復
-<lb ed="B" n="0628b06"/>山僧以待夫宿根大力之承當于斯者余歸而續登
-<lb ed="B" n="0628b07"/>山之緣未晚也</p></cb:div>
-<lb ed="B" n="0628b08"/><cb:div type="other"><cb:mulu type="其他" level="3">繕修雪峰寺募緣疏</cb:mulu><head>繕修雪峰寺募緣疏</head><byline cb:type="author">陳一元<note place="inline">侯官人應天府丞</note></byline>
-<lb ed="B" n="0628b09"/><p xml:id="pB24p0628b0901" style="margin-left:0em;text-indent:2em">夫德山正脉代著雪峰彼<g ref="#CB17032"/>真修道由佛土古雪峰
-<lb ed="B" n="0628b10"/>今雪峰有何分別內佛土外佛土悉欲莊嚴覺大師
-<lb ed="B" n="0628b11"/>衍慧津於西域普注八閩藍長者開福界於東洋今
-<lb ed="B" n="0628b12"/>將千載木毬不滾此時之東堂西席象醉龍垂蓮漏
-<lb ed="B" n="0628b13"/><note n="0628b1301" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0628b1301"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>終昔日之下宇上甇雀穿鼠齧觚稜懸霤八平身
-<lb ed="B" n="0628b14"/>上<g ref="#CB02963"/><g ref="#CB33176"/>霖<g ref="#CB08392"/>瓦容光諸佛手中擎日月鼉鳴獅子座
-<lb ed="B" n="0628b15"/>塌在回眸蝎蝕雁形堂危如累卵於是山僧紹城預
-<lb ed="B" n="0628b16"/>知大廈騫崩徒然恐怖自信庸材樸遫何以支持存
-<lb ed="B" n="0628b17"/>公說法之筵空有恒饑野衲藍氏飯僧之產盡歸久
-<lb ed="B" n="0628b18"/>佃豪農僧舍蕭條欲一椽而莫措佛廬彫敝難獨力
+<lb ed="B" n="0628b01"/>雪峰山曰名山，剎曰名剎，實非以余遊故重，而予之
+<lb ed="B" n="0628b02"/>脉脉自審于胸中：其為故也孰溫之？廢也孰振之？重
+<lb ed="B" n="0628b03"/>有負于性靈矣。負性靈則負山靈，不言而可知矣。茲
+<lb ed="B" n="0628b04"/>豈無根器猛利、一施<note n="0628b0401" resp="CBETA" type="add">鉗【CB】，鈐【補編】</note><app n="0628b0401"><lem wit="【CB】" resp="CBETA">鉗</lem><rdg wit="【補編】">鈐</rdg></app>錘當下大悟者耶？又豈無財
+<lb ed="B" n="0628b05"/>施、法施兩得解脫為首度波羅密者乎？聊書此而復
+<lb ed="B" n="0628b06"/>山僧，以待夫宿根大力之承當于斯者。余歸而續登
+<lb ed="B" n="0628b07"/>山之緣，未晚也。</p></cb:div>
+<lb ed="B" n="0628b08"/><cb:div type="other"><cb:mulu type="其他" level="3">繕修雪峰寺募緣疏</cb:mulu><head>繕修雪峰寺募緣疏</head><byline cb:type="author">陳一元<note place="inline">侯官人，應天府丞</note></byline>
+<lb ed="B" n="0628b09"/><p xml:id="pB24p0628b0901" style="margin-left:0em;text-indent:2em;">夫德山正脉，代著雪峰；彼<g ref="#CB17032"/>真修，道由佛土。古雪峰、
+<lb ed="B" n="0628b10"/>今雪峰，有何分別？內佛土、外佛土，悉欲莊嚴。覺大師
+<lb ed="B" n="0628b11"/>衍慧津於西域，普注八閩；藍長者開福界於東洋，今
+<lb ed="B" n="0628b12"/>將千載。木毬不滾，此時之東堂西席，象醉龍<g ref="#CB32397"/>；蓮漏
+<lb ed="B" n="0628b13"/><note n="0628b1301" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0628b1301"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>終，昔日之下宇上甇，雀穿鼠齧。觚稜懸霤，八平身
+<lb ed="B" n="0628b14"/>上<g ref="#CB02963"/><g ref="#CB33176"/>霖；<g ref="#CB08392"/>瓦容光，諸佛手中擎日月。鼉鳴獅子座，
+<lb ed="B" n="0628b15"/>塌在回眸；蝎蝕雁形堂，危如累卵。於是山僧紹城，預
+<lb ed="B" n="0628b16"/>知大厦騫崩，徒然恐怖；自信庸材樸遫，何以支持？存
+<lb ed="B" n="0628b17"/>公說法之筵，空有恒饑野衲；藍氏飯僧之產，盡歸久
+<lb ed="B" n="0628b18"/>佃豪農。僧舍蕭條，欲一椽而莫措；佛廬彫敝，難獨力
 <pb ed="B" xml:id="B24.0140.0629a" n="0629a"/>
-<lb ed="B" n="0629a01"/>以輕謀余謂流轉法輪足渡四生於苦海恢張象教
-<lb ed="B" n="0629a02"/>可生一眾之信根<g ref="#CB18367"/>檀相辱在泥塗豈容坐視薝蔔
-<lb ed="B" n="0629a03"/>林經營土木必待他來佛說補理故坊是謂二梵之
-<lb ed="B" n="0629a04"/>福我聞致恭瓃畫不虛六度之因請看過去藍田永
-<lb ed="B" n="0629a05"/>受螽斯福報敢告再來須達共圖象骨良緣</p></cb:div>
+<lb ed="B" n="0629a01"/>以輕謀。余謂流轉法輪，足渡四生於苦海；恢張象教，
+<lb ed="B" n="0629a02"/>可生一眾之信根。<g ref="#CB18367"/>檀相辱在泥塗，豈容坐視？薝蔔
+<lb ed="B" n="0629a03"/>林經營土木，必待他來。佛說補理故坊，是謂二梵之
+<lb ed="B" n="0629a04"/>福；我聞致恭瓃畵，不虛六度之因。請看過去藍田，永
+<lb ed="B" n="0629a05"/>受螽斯福報；敢告再來須達，共圖象骨良緣。</p></cb:div>
 <lb ed="B" n="0629a06"/><cb:div type="other"><cb:mulu type="其他" level="3">重修海會塔記</cb:mulu><head>重修海會塔記</head><byline cb:type="author">賢桐</byline>
-<lb ed="B" n="0629a07"/><p xml:id="pB24p0629a0701" style="margin-left:0em;text-indent:2em">海會塔舊在雪峰寺之西真覺大師所剏時僧眾亡
-<lb ed="B" n="0629a08"/>過者三千餘人俱茶毘歸骨于塔累代因之至嘉靖
-<lb ed="B" n="0629a09"/>初始有別營墳域而海會斯廢石基崩壞蔓草叢生
-<lb ed="B" n="0629a10"/>百年於茲矣天啟七年宰官曹公隨喜至寺捐貲布
-<lb ed="B" n="0629a11"/>施百廢具舉因詰海會所在僧徒披蓁劈莽始履其
-<lb ed="B" n="0629a12"/>處曹公命工修復其壙皆石砌澗丈有二尺長丈有
-<lb ed="B" n="0629a13"/>五尺深丈有一尺隔而為三前壙葬住持中壙葬眾
-<lb ed="B" n="0629a14"/>僧後壙葬行者而舊骨可三百餘擔半蝕土壤乃發
-<lb ed="B" n="0629a15"/>出以火重煆之總歸于行者之壙焉虛其二以待後
-<lb ed="B" n="0629a16"/>人曹公斯舉誠千秋至計矣春秋祭掃屬之當年常
-<lb ed="B" n="0629a17"/>住不敢有廢是歲仲冬沙門賢桐謹譔</p></cb:div>
+<lb ed="B" n="0629a07"/><p xml:id="pB24p0629a0701" style="margin-left:0em;text-indent:2em;">海會塔，舊在雪峰寺之西，真覺大師所剏。時僧眾亡
+<lb ed="B" n="0629a08"/>過者三千餘人，俱茶毘歸骨于塔，累代因之。至嘉靖
+<lb ed="B" n="0629a09"/>初，始有別營墳域，而海會斯廢，石基崩壞，蔓草叢生，
+<lb ed="B" n="0629a10"/>百年於茲矣。天啟七年，宰官曹公隨喜，至寺捐貲布
+<lb ed="B" n="0629a11"/>施，百廢具舉。因詰海會所在，僧徒披蓁劈莽，始履其
+<lb ed="B" n="0629a12"/>處。曹公命工修復，其壙皆石砌，濶丈有二尺，長丈有
+<lb ed="B" n="0629a13"/>五尺，深丈有一尺。隔而為三，前壙葬住持，中壙葬眾
+<lb ed="B" n="0629a14"/>僧，後壙葬行者。而舊骨可三百餘擔，半蝕土壤，乃發
+<lb ed="B" n="0629a15"/>出以火重<note n="0629a1501" resp="CBETA" type="add">煅【CB】，煆【補編】</note><app n="0629a1501"><lem wit="【CB】" resp="CBETA">煅</lem><rdg wit="【補編】">煆</rdg></app>之，總歸于行者之壙焉；虛其二以待後
+<lb ed="B" n="0629a16"/>人。曹公斯舉，誠千秋至計矣。春秋祭掃，屬之當年常
+<lb ed="B" n="0629a17"/>住，不敢有廢。</p><p xml:id="pB24p0629a1706" style="margin-left:2em;" cb:place="inline">是歲仲冬，沙門賢桐謹譔</p></cb:div>
 <lb ed="B" n="0629a18"/><cb:div type="other"><cb:mulu type="其他" level="3">遊雪峰記</cb:mulu><head>遊雪峰記</head><byline cb:type="author">徐<g ref="#CB04521"/><note place="inline">閩縣人</note></byline>
 <pb ed="B" xml:id="B24.0140.0629b" n="0629b"/>
-<lb ed="B" n="0629b01"/><p xml:id="pB24p0629b0101" style="margin-left:0em;text-indent:2em">自大穆溪舍舟而沿溪行溪在左里許有鐵鎖橋疏
-<lb ed="B" n="0629b02"/>水六道渡橋溪在右人行山腰溪聲咽其下逶迤二
-<lb ed="B" n="0629b03"/>十里山漸峻溪勢漸高兩山夾磵瀑奔流如疋練如
-<lb ed="B" n="0629b04"/>轟雷一瀑匯一潭瀑白而潭碧如是者五名五疊泉
-<lb ed="B" n="0629b05"/>此入山之第一觀也過此則為丁山山形作丁字雞
-<lb ed="B" n="0629b06"/>犬籬落殊幽又十里曰大坪即古之太平庄蓋自溪
-<lb ed="B" n="0629b07"/>口來蜿蜒皆嶺至此始平曠故名曰向午過馬氏山
-<lb ed="B" n="0629b08"/>居少憇主人肅客甚殷止宿小樓晨起行二里許路
-<lb ed="B" n="0629b09"/>左危石崚嶒草木蒙葺其上曰羅漢巖又五里曰小
-<lb ed="B" n="0629b10"/>坪即古藍田莊初祖師建寺四方雲衲廣眾藍長者
-<lb ed="B" n="0629b11"/>文卿捨莊田二十所歲收米一萬餘石盡入常住至
-<lb ed="B" n="0629b12"/>今名存又五里曰雙溪自雙溪登山皆名雪峰眾山
-<lb ed="B" n="0629b13"/>環轉高入雲表溪聲寂然矣又十里抵枯木菴即義
-<lb ed="B" n="0629b14"/>存祖師始入山趺坐處輪囷糾結大可十圍而空其
-<lb ed="B" n="0629b15"/>中色如黃金木裏外刻唐天祐宋雍熙元祐紹興開
-<lb ed="B" n="0629b16"/>禧及元至正遊人姓名祖師塑像坐腹中宛有生氣
-<lb ed="B" n="0629b17"/>作菴覆之出菴夾道古杉數十株皆祖師手植名萬
-<lb ed="B" n="0629b18"/>松關關前為萬工池蔓草湮塞再折為寺閩王布金
+<lb ed="B" n="0629b01"/><p xml:id="pB24p0629b0101" style="margin-left:0em;text-indent:2em;">自大穆溪舍舟而沿溪行，溪在左，里許有鐵鎖橋，疏
+<lb ed="B" n="0629b02"/>水六道。渡橋，溪在右。人行山腰，溪聲咽其下。逶迤二
+<lb ed="B" n="0629b03"/>十里，山漸峻，溪勢漸高，兩山夾磵，瀑奔流如疋練、如
+<lb ed="B" n="0629b04"/>轟雷。一瀑滙一潭，瀑白而潭碧，如是者五，名五疊泉，
+<lb ed="B" n="0629b05"/>此入山之第一觀也。過此則為丁山，山形作丁字，雞
+<lb ed="B" n="0629b06"/>犬籬落，殊幽。又十里曰大坪，即古之太平庒。蓋自溪
+<lb ed="B" n="0629b07"/>口來，蜿蜒皆嶺，至此始平曠，故名。日向午，過馬氏山
+<lb ed="B" n="0629b08"/>居少憇，主人肅客甚殷，止宿小樓。晨起行二里許，路
+<lb ed="B" n="0629b09"/>左危石崚嶒，草木蒙葺，其上曰羅漢巖。又五里曰小
+<lb ed="B" n="0629b10"/>坪，即古藍田莊。初，祖師建寺，四方雲衲廣眾，藍長者
+<lb ed="B" n="0629b11"/>文卿捨莊田二十所、歲收米一萬餘石，盡入常住，至
+<lb ed="B" n="0629b12"/>今名存。又五里曰雙溪，自雙溪登山，皆名雪峰，眾山
+<lb ed="B" n="0629b13"/>環轉，高入雲表，溪聲寂然矣。又十里抵枯木菴，即義
+<lb ed="B" n="0629b14"/>存祖師始入山趺坐處，輪囷糾結，大可十圍，而空其
+<lb ed="B" n="0629b15"/>中，色如黃金，木裏外刻唐天祐，宋雍熙、元祐、紹興、開
+<lb ed="B" n="0629b16"/>禧及元至正遊人姓名，祖師塑像坐腹中，宛有生氣，
+<lb ed="B" n="0629b17"/>作菴覆之。出菴，夾道古杉數十株，皆祖師手植，名萬
+<lb ed="B" n="0629b18"/>松關。關前為萬工池，蔓草湮塞。再折為寺，閩王布金
 <pb ed="B" xml:id="B24.0140.0630a" n="0630a"/>
-<lb ed="B" n="0630a01"/>地<note n="0630a0101" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0630a0101"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>燬永樂中僧潔菴重興佛殿法堂故宏壯今頗
-<lb ed="B" n="0630a02"/>頹廢中堂祀閩王為檀越左祀藍氏父子為伽藍右
-<lb ed="B" n="0630a03"/>則祖師塔奠焉塔鏤石卵數百祖師讖云卵爆盡寺
-<lb ed="B" n="0630a04"/>當重興至潔菴時讖符咸謂祖師後身理或然也寺
-<lb ed="B" n="0630a05"/>樓藏木毬一傳是當代遺物殊未可知又有無字碑
-<lb ed="B" n="0630a06"/>及唐黃滔撰真覺大師碑銘皆不存寺前後有池曰
-<lb ed="B" n="0630a07"/>醮月石曰磨香嶺曰梯雲亭曰望州泉曰卓錫橋曰
-<lb ed="B" n="0630a08"/>金鼇臺曰文殊曰古鏡路曰雪嶠半委荊榛惟應潮
-<lb ed="B" n="0630a09"/>泉在象骨峰之巔水才數寸進退盈縮與潮候無差
-<lb ed="B" n="0630a10"/>實為海眼云相傳祖師建寺凡所需木石以錫杖扣
-<lb ed="B" n="0630a11"/>之即數百里皆從池中浮出又謂祖師自題水磨雀
-<lb ed="B" n="0630a12"/>作人言至今山中無鼠雀耗又山上有石竇能出米
-<lb ed="B" n="0630a13"/>人喜談之似未足信也由山脚至巔高可四十餘里
-<lb ed="B" n="0630a14"/>根蟠四邑未冬即雪余遊時值陽月十日天寒風<g ref="#CB30054"/>
-<lb ed="B" n="0630a15"/>微霰將集所攜衣袂著體不給是夜宿扆翠寮老僧
-<lb ed="B" n="0630a16"/>仁岧雅能詩曾識先君於三十年前予尚穉齒一見
-<lb ed="B" n="0630a17"/>懽然道故次日各題所為詩於壁別僧歸仍宿馬氏
-<lb ed="B" n="0630a18"/>樓遲明下山兒陸舟次白沙不能從歸問雪峰遊何
+<lb ed="B" n="0630a01"/>地<note n="0630a0101" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0630a0101"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>燬，永樂中，僧潔菴重興，佛殿、法堂故宏壯，今頗
+<lb ed="B" n="0630a02"/>頹廢。中堂祀閩王為檀越，左祀藍氏父子為伽藍，右
+<lb ed="B" n="0630a03"/>則祖師塔奠焉。塔鏤石卵數百，祖師讖云：卵爆盡，寺
+<lb ed="B" n="0630a04"/>當重興。至潔菴時讖符，咸謂祖師後身，理或然也。寺
+<lb ed="B" n="0630a05"/>樓藏木毬一，傳是當代遺物，殊未可知。又有無字碑
+<lb ed="B" n="0630a06"/>及唐黃滔撰〈真覺大師碑銘〉，皆不存。寺前後有池曰
+<lb ed="B" n="0630a07"/>蘸月，石曰磨香，嶺曰梯雲，亭曰望州，泉曰卓錫，橋曰
+<lb ed="B" n="0630a08"/>金鼇，臺曰文殊、曰古鏡，路曰雪嶠，半委荊榛。惟應潮
+<lb ed="B" n="0630a09"/>泉在象骨峰之巔，水才數寸，進退盈縮與潮候無差，
+<lb ed="B" n="0630a10"/>實為海眼云。相傳祖師建寺，凡所需木石，以錫杖扣
+<lb ed="B" n="0630a11"/>之，即數百里皆從池中浮出；又謂祖師自題水磨，雀
+<lb ed="B" n="0630a12"/>作人言，至今山中無鼠雀耗。又山上有石竇，能出米，
+<lb ed="B" n="0630a13"/>人喜談之，似未足信也。由山脚至巔，高可四十餘里，
+<lb ed="B" n="0630a14"/>根蟠四邑，未冬即雪。余遊時值陽月十日，天寒風<g ref="#CB30054"/>，
+<lb ed="B" n="0630a15"/>微霰將集，所攜衣袂著體不給。是夜，宿扆翠寮。老僧
+<lb ed="B" n="0630a16"/>仁岧雅能詩，曾識先君於三十年前，予尚穉齒，一見
+<lb ed="B" n="0630a17"/>懽然道故。次日，各題所為詩於壁，別僧歸，仍宿馬氏
+<lb ed="B" n="0630a18"/>樓，遲明下山。兒陸舟次白沙，不能從，歸問雪峰遊何
 <pb ed="B" xml:id="B24.0140.0630b" n="0630b"/>
-<lb ed="B" n="0630b01"/>狀遂口記以授之且質同遊謝在杭水部并吳元化
-<lb ed="B" n="0630b02"/>時萬歷辛亥歲也</p></cb:div>
-<lb ed="B" n="0630b03"/><cb:div type="other"><cb:mulu type="其他" level="3">遊雪峰記</cb:mulu><head>遊雪峰記</head><byline cb:type="author">謝肇淛<note place="inline">長樂人廣西布政使</note></byline>
-<lb ed="B" n="0630b04"/><p xml:id="pB24p0630b0401" style="margin-left:0em;text-indent:2em">十月七日余出洪江買舟有事於圓峰閣翌日禮成
-<lb ed="B" n="0630b05"/>廼歸舟放流二十里至大穆溪肩輿登山十里至化
-<lb ed="B" n="0630b06"/>城亭杉栝<note n="0630b0601" resp="CBETA" type="add">刺【CB】，剌【補編】</note><app n="0630b0601"><lem wit="【CB】" resp="CBETA.maha">刺</lem><rdg wit="【補編】">剌</rdg></app>天重岡合沓而溪流琮琤奔瀉徑逐溪
-<lb ed="B" n="0630b07"/>轉石梁木彴或東或西四望山田從椒及趾截如梯
-<lb ed="B" n="0630b08"/>級巨石礧砢錯落畛隰間恨不令夸娥氏移而擲之
-<lb ed="B" n="0630b09"/>天外也二十里過丁山地益高溪流彌駛遙見峰頭
-<lb ed="B" n="0630b10"/>瀑落如雪耳畔轟轟作雷霆聲就視之可百丈許最
-<lb ed="B" n="0630b11"/>上如懸絙如疋練稍下如半壁天又下四散如玉龍
-<lb ed="B" n="0630b12"/>數十道又下復合為一凡五疊各異勢而皆有潭承
-<lb ed="B" n="0630b13"/>之淜湃奔赴飛騰翻舞之奇不可名狀彼九鯉之雷
-<lb ed="B" n="0630b14"/>轟漈匡山之康王谷皆浪得名耳余指示諸客此是
-<lb ed="B" n="0630b15"/>雪峰道中第一奇絕惜其僻處幽谷輪蹄罕至故湮
-<lb ed="B" n="0630b16"/>沒而不稱良可嘆也又十里為太平莊僦食於馬氏
-<lb ed="B" n="0630b17"/>主人刲羊網鮮供張甚設盤桓久之夕陽<note n="0630b1701" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0630b1701"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>在山矣
-<lb ed="B" n="0630b18"/>遂宿客樓上客各賦詩贈焉旦起別去過獨木橋危
+<lb ed="B" n="0630b01"/>狀，遂口記以授之，且質同遊謝在杭水部并吳元化。
+<lb ed="B" n="0630b02"/>時萬歴辛亥歲也。</p></cb:div>
+<lb ed="B" n="0630b03"/><cb:div type="other"><cb:mulu type="其他" level="3">遊雪峰記</cb:mulu><head>遊雪峰記</head><byline cb:type="author">謝肇淛<note place="inline">長樂人，廣西布政使</note></byline>
+<lb ed="B" n="0630b04"/><p xml:id="pB24p0630b0401" style="margin-left:0em;text-indent:2em;">十月七日，余出洪江買舟，有事於圓峰閣。翌日，禮成
+<lb ed="B" n="0630b05"/>廼歸，舟放流二十里至大穆溪。肩輿登山，十里至化
+<lb ed="B" n="0630b06"/>城亭，杉栝<note n="0630b0601" resp="CBETA" type="add">刺【CB】，剌【補編】</note><app n="0630b0601"><lem wit="【CB】" resp="CBETA">刺</lem><rdg wit="【補編】">剌</rdg></app>天，重岡合沓，而溪流琮琤奔瀉，徑逐溪
+<lb ed="B" n="0630b07"/>轉，石梁木彴，或東或西，四望山田從椒及趾，截如梯
+<lb ed="B" n="0630b08"/>級，巨石礧砢，錯落畛隰間，恨不令夸娥氏移而擲之
+<lb ed="B" n="0630b09"/>天外也。二十里過丁山，地益高，溪流彌駛，遙見峰頭
+<lb ed="B" n="0630b10"/>瀑落如雪，耳畔轟轟作雷霆聲，就視之可百丈許，最
+<lb ed="B" n="0630b11"/>上如懸絙、如疋練，稍下如半壁天，又下，四散如玉龍
+<lb ed="B" n="0630b12"/>數十道，又下復合為一，凡五疊，各異勢，而皆有潭承
+<lb ed="B" n="0630b13"/>之，淜湃奔赴，飛騰翻舞之奇，不可名狀。彼九鯉之雷
+<lb ed="B" n="0630b14"/>轟漈、匡山之康王谷，皆浪得名耳。余指示諸客，此是
+<lb ed="B" n="0630b15"/>雪峰道中第一奇絕，惜其僻處幽谷，輪蹄罕至，故湮
+<lb ed="B" n="0630b16"/>沒而不稱，良可嘆也！又十里為太平莊，僦食於馬氏，
+<lb ed="B" n="0630b17"/>主人刲羊網鮮，供張甚設。盤桓久之，夕陽<note n="0630b1701" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0630b1701"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>在山矣，
+<lb ed="B" n="0630b18"/>遂宿客樓上，客各賦詩贈焉。旦起別去，過獨木橋，危
 <pb ed="B" xml:id="B24.0140.0631a" n="0631a"/>
-<lb ed="B" n="0631a01"/>甚眾皆褰裳涉自此道稍夷二里許過羅漢巖十里
-<lb ed="B" n="0631a02"/>至雙溪又再度嶺為藍田莊為寶所亭不復聞溪聲
-<lb ed="B" n="0631a03"/>矣山路既窮恍在雲際遠近羣峰皆羅立環侍遙望
-<lb ed="B" n="0631a04"/>叢林隱隱扆翠靄而俯平田<g ref="#CB33165"/>自郡城至此步步就
-<lb ed="B" n="0631a05"/>高不知其幾千萬仞也道傍小臺峨然為枯木菴木
-<lb ed="B" n="0631a06"/>紋膩而中空闢門焉根猶植地昔唐義存僧入定於
-<lb ed="B" n="0631a07"/>此經今七百年矣而質理如故非神物哉龕內有唐
-<lb ed="B" n="0631a08"/>天祐乙丑造菴題刻所謂廉主王大王者皆審知也
-<lb ed="B" n="0631a09"/>雍熙四年知郡事何允昭刻而題稱太宗廟號當為
-<lb ed="B" n="0631a10"/>後人補書無疑龕外則有元祐韋子鑒紹興任士安
-<lb ed="B" n="0631a11"/>開禧陳景俊及鄭昂諸題名出菴為萬松關松旁積
-<lb ed="B" n="0631a12"/>水荒陂茨菰葉爛則放生池也不百武至寺寶殿法
-<lb ed="B" n="0631a13"/>堂亦極弘敞而頗頹落斷鐘覆地井幕凝苔僧眾亦
-<lb ed="B" n="0631a14"/>寥寥不復振獨東廡小寮差為明淨客解衣小憇遂
-<lb ed="B" n="0631a15"/>至後殿拜伽藍像云即藍文卿長者也長者當時所
-<lb ed="B" n="0631a16"/>施田宅莊牛以億萬計遂闢此勝地迄今寺受檀越
-<lb ed="B" n="0631a17"/>之賜而長者亦享香燈之奉使當時私為子孫有不
-<lb ed="B" n="0631a18"/>數傳而為他人物矣始知周顒許詢之軰以捨佛而
+<lb ed="B" n="0631a01"/>甚，眾皆褰裳涉。自此道稍夷，二里許過羅漢巖，十里
+<lb ed="B" n="0631a02"/>至雙溪，又再度嶺為藍田莊，為寶所亭，不復聞溪聲
+<lb ed="B" n="0631a03"/>矣。山路既窮，恍在雲際，遠近羣峰皆羅立環侍，遙望
+<lb ed="B" n="0631a04"/>叢林隱隱，扆翠靄而俯平田。<note n="0631a0401" resp="CBETA" type="add">葢【CB】，<g ref="#CB33165"/>【補編】</note><app n="0631a0401"><lem wit="【CB】" resp="CBETA">葢</lem><rdg wit="【補編】"><g ref="#CB33165"/></rdg></app>自郡城至此，步步就
+<lb ed="B" n="0631a05"/>高，不知其幾千萬仞也。道傍小臺峨然，為枯木菴，木
+<lb ed="B" n="0631a06"/>紋膩而中空，闢門焉，根猶植地。昔唐義存僧入定於
+<lb ed="B" n="0631a07"/>此，經今七百年矣，而質理如故，非神物哉？龕內有唐
+<lb ed="B" n="0631a08"/>天祐乙丑造菴題刻，所謂「亷主王大王」者，皆審知也。
+<lb ed="B" n="0631a09"/>雍熙四年，知郡事何允昭刻而題稱太宗廟號，當為
+<lb ed="B" n="0631a10"/>後人補書無疑。龕外則有元祐韋子鑒、紹興任士安、
+<lb ed="B" n="0631a11"/>開禧陳景俊及鄭昂諸題名。出菴為萬松關，松旁積
+<lb ed="B" n="0631a12"/>水荒陂，茨菰葉爛，則放生池也。不百武至寺，寶殿、法
+<lb ed="B" n="0631a13"/>堂亦極弘敞，而頗頹落，斷鐘覆地，井幕凝苔，僧眾亦
+<lb ed="B" n="0631a14"/>寥寥不復振。獨東廡小寮差為明淨，客解衣小憇，遂
+<lb ed="B" n="0631a15"/>至後殿拜伽藍像，云即藍文卿長者也。長者當時所
+<lb ed="B" n="0631a16"/>施田宅、莊牛以億萬計，遂闢此勝地，迄今寺受檀越
+<lb ed="B" n="0631a17"/>之賜，而長者亦享香燈之奉。使當時私為子孫，有不
+<lb ed="B" n="0631a18"/>數傳而為他人物矣。始知周顒、許詢之軰，以捨佛而
 <pb ed="B" xml:id="B24.0140.0631b" n="0631b"/>
-<lb ed="B" n="0631b01"/>得不朽之名非別具一大見解者不能也中有閩王
-<lb ed="B" n="0631b02"/>審知像殘經敗簏堆委壁間說法高臺朽折不可復
-<lb ed="B" n="0631b03"/>登矣又西為義存所葬石塔四周斵作卵形當師示
-<lb ed="B" n="0631b04"/>寂之時留讖謂石卵爆盡吾道復興今爆十之九矣
-<lb ed="B" n="0631b05"/>及詢所謂金鼇橋一洞山古鏡臺無字碑者皆不可
-<lb ed="B" n="0631b06"/>復識即木毬相傳亦非故物獨應潮泉在山絕頂一
-<lb ed="B" n="0631b07"/>壑泓澂隨潮溢涸蓋寺中靈跡惟枯木與是耳夜與
-<lb ed="B" n="0631b08"/>老僧桃燈談興廢往事僧言五十年前寺猶殷富無
-<lb ed="B" n="0631b09"/>恙近為當事者括寺田以充軍餉橐橐之資十僅得
-<lb ed="B" n="0631b10"/>二焉兵<note n="0631b1001" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0631b1001"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>撤矣而餉不聞減也種寺田者皆環山大
-<lb ed="B" n="0631b11"/>駔居污邪為奇貨歷歲逋負官課私租無所倚辦稍
-<lb ed="B" n="0631b12"/>誰何之輙羣嘯挺白棓相向縣官不知也按籍而箠
-<lb ed="B" n="0631b13"/>楚者僧耳嗟乎嗟乎寶地腴田相傳千載今既不能
-<lb ed="B" n="0631b14"/>捨而益之亦<note n="0631b1401" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0631b1401"><lem wit="【CB】" resp="CBETA.maha">已</lem><rdg wit="【補編】">巳</rdg></app>矣而無藝之征朘削於上不逞之豪
-<lb ed="B" n="0631b15"/>乾沒於下蠶食隱忍日復一日寺安得不寥落而僧
-<lb ed="B" n="0631b16"/>安得不鳥雀散也葉相國壁間題所謂辛苦催租吏
-<lb ed="B" n="0631b17"/>豪門半寺田不亦有激哉其言之乎夜分始各就枕
-<lb ed="B" n="0631b18"/>晨興僧眾競出箋麻索書遂題詩後壁上日近午廼
+<lb ed="B" n="0631b01"/>得不朽之名，非別具一大見解者不能也。中有閩王
+<lb ed="B" n="0631b02"/>審知像，殘經敗簏，堆委壁間，說法高臺，朽折不可復
+<lb ed="B" n="0631b03"/>登矣。又西為義存所葬石塔，四周斵作卵形，當師示
+<lb ed="B" n="0631b04"/>寂之時留讖，謂「石卵爆盡，吾道復興」，今爆十之九矣。
+<lb ed="B" n="0631b05"/>及詢所謂金鼇橋、一洞山、古鏡臺、無字碑者，皆不可
+<lb ed="B" n="0631b06"/>復識，即木毬相傳亦非故物，獨應潮泉在山絕頂，一
+<lb ed="B" n="0631b07"/>壑泓澂，隨潮溢涸，蓋寺中靈跡惟枯木與是耳。夜與
+<lb ed="B" n="0631b08"/>老僧挑燈談興廢往事，僧言五十年前寺猶殷富無
+<lb ed="B" n="0631b09"/>恙，近為當事者括寺田以充軍餉，橐橐之資十僅得
+<lb ed="B" n="0631b10"/>二焉。兵<note n="0631b1001" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0631b1001"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>撤矣，而餉不聞減也。種寺田者，皆環山大
+<lb ed="B" n="0631b11"/>駔，居污邪為奇貨，歴歲逋負官課，私租無所倚辦，稍
+<lb ed="B" n="0631b12"/>誰何之，輙羣嘯挺白棓相向，縣官不知也，按籍而箠
+<lb ed="B" n="0631b13"/>楚者僧耳。嗟乎！嗟乎！寶地腴田，相傳千載，今既不能
+<lb ed="B" n="0631b14"/>捨，而益之亦<note n="0631b1401" resp="CBETA" type="add">已【CB】，巳【補編】</note><app n="0631b1401"><lem wit="【CB】" resp="CBETA">已</lem><rdg wit="【補編】">巳</rdg></app>矣，而無藝之征，朘削於上，不逞之豪，
+<lb ed="B" n="0631b15"/>乾沒於下。蠶食隱忍，日復一日，寺安得不寥落而僧
+<lb ed="B" n="0631b16"/>安得不鳥雀散也？葉相國壁間題，所謂「辛苦催租吏，
+<lb ed="B" n="0631b17"/>豪門半寺田」，不亦有激哉其言之乎？夜分始，各就枕。
+<lb ed="B" n="0631b18"/>晨興，僧眾競出箋麻索書，遂題詩後壁上。日近午，廼
 <pb ed="B" xml:id="B24.0140.0632a" n="0632a"/>
-<lb ed="B" n="0632a01"/>別僧下山山氣霏微如欲雨松風瑟瑟吹人骨冷至
-<lb ed="B" n="0632a02"/>葦林中聞虎聲甚厲輿者股弁幾不能前晡復至馬
-<lb ed="B" n="0632a03"/>氏宿焉翊日至大穆溪登舟文翊日始入城是萬歷
-<lb ed="B" n="0632a04"/>辛亥之陽月十有三日也</p></cb:div>
+<lb ed="B" n="0632a01"/>別僧下山，山氣霏微如欲雨，松風瑟瑟，吹人骨冷。至
+<lb ed="B" n="0632a02"/>葦林中，聞虎聲甚厲，輿者股弁，幾不能前。晡，復至馬
+<lb ed="B" n="0632a03"/>氏宿焉。翊日，至大穆溪登舟，<note n="0632a0301" resp="CBETA" type="add">又【CB】，文【補編】</note><app n="0632a0301"><lem wit="【CB】" resp="CBETA">又</lem><rdg wit="【補編】">文</rdg></app>翊日，始入城。是萬歴
+<lb ed="B" n="0632a04"/>辛亥之陽月十有三日也。</p></cb:div>
 <lb ed="B" n="0632a05"/><cb:div type="other"><cb:mulu type="其他" level="3">遊雪峰記</cb:mulu><head>遊雪峰記</head><byline cb:type="author">鄭天綵</byline>
-<lb ed="B" n="0632a06"/><p xml:id="pB24p0632a0601" style="margin-left:0em;text-indent:2em">歲在甲戌仲秋之望文石賴孝卿過余山樓適風雨
-<lb ed="B" n="0632a07"/>驟至連牀夜話繼謂雪峰勝槩不違咫尺苟弗遊目
-<lb ed="B" n="0632a08"/>騁懷其山川如有待何晨興雨霽偕行十里許抵玉
-<lb ed="B" n="0632a09"/>漈主人吳武卿留宿于燕居亦欣然同往躋攀至檉
-<lb ed="B" n="0632a10"/>洋見一峰峭拔雄秀勢從北來相與延望久之俄有
-<lb ed="B" n="0632a11"/>杖叟遇諸途曰此所謂象骨峰也應潮泉在其巔獅
-<lb ed="B" n="0632a12"/>子巖在其南是為寺之屏扆復指岡上磐石云此凉
-<lb ed="B" n="0632a13"/>映臺也傍茲逶迤下層徑是為梯雲嶺余樂聞其言
-<lb ed="B" n="0632a14"/>又行里許飛鳥<g ref="#CB14609"/><g ref="#CB14609"/>在衣裾下視眾峰環抱一壑其
-<lb ed="B" n="0632a15"/>狀雅肖蓮花知寺在其間矣少焉既至梵宇巍然蒼
-<lb ed="B" n="0632a16"/>靄中雖草創重搆綽有可觀山僧肅客烟霞儼上眉
-<lb ed="B" n="0632a17"/>尖祗樹遺風猶有存焉維時桂香滿谷氣朗天高檻
-<lb ed="B" n="0632a18"/>外積水湛然碧無纖繄者萬工池也跨澗而行上有
+<lb ed="B" n="0632a06"/><p xml:id="pB24p0632a0601" style="margin-left:0em;text-indent:2em;">歲在甲戌仲秋之望，文石賴孝卿過余山樓，適風雨
+<lb ed="B" n="0632a07"/>驟至，連牀夜話，繼謂雪峰勝槩不違咫尺，苟弗遊目
+<lb ed="B" n="0632a08"/>騁懷，其山川如有待何？晨興雨霽，偕行十里許，抵玉
+<lb ed="B" n="0632a09"/>漈，主人吳武卿留宿于燕居，亦欣然同往。躋攀至檉
+<lb ed="B" n="0632a10"/>洋，見一峰峭拔雄秀，勢從北來，相與延望久之。俄有
+<lb ed="B" n="0632a11"/>杖叟遇諸途，曰：「此所謂象骨峰也，應潮泉在其巔，獅
+<lb ed="B" n="0632a12"/>子巖在其南，是為寺之屏扆。」復指岡上磐石云：「此凉
+<lb ed="B" n="0632a13"/>映臺也，傍茲逶迤下層徑，是為梯雲嶺。」余樂聞其言，
+<lb ed="B" n="0632a14"/>又行里許，飛鳥<g ref="#CB14609"/><g ref="#CB14609"/>在衣裾，下視眾峰環抱一壑，其
+<lb ed="B" n="0632a15"/>狀雅肖蓮花，知寺在其間矣。少焉既至，梵宇巍然蒼
+<lb ed="B" n="0632a16"/>靄中，雖草創重搆，綽有可觀。山僧肅客，烟霞儼上眉
+<lb ed="B" n="0632a17"/>尖，祗樹遺風猶有存焉。維時桂香滿谷，氣朗天高，檻
+<lb ed="B" n="0632a18"/>外積水湛然，碧無纖繄者，萬工池也。跨澗而行，上有
 <pb ed="B" xml:id="B24.0140.0632b" n="0632b"/>
-<lb ed="B" n="0632b01"/>繁隂蔽日下有鳴泉潄玉者金鼇橋也若枯木菴以
-<lb ed="B" n="0632b02"/>及亭臺諸勝或遐或邇或廢或存躬探其幽蹤熟間
-<lb ed="B" n="0632b03"/>其舊址爽氣山光清人耳目輙覺身遊太虛不復作
-<lb ed="B" n="0632b04"/>塵間想矣是夜僦宿雲房月色如晝仙梵既停挑燈
-<lb ed="B" n="0632b05"/>讀山志且云銅鐘不知何年罅裂從口直上約有六
-<lb ed="B" n="0632b06"/>尺許今復自合靡露痕迹鯨音振動林木鏜鎝如故
-<lb ed="B" n="0632b07"/>無少剨損余謂名山勝地隆替循環其再興之先兆
-<lb ed="B" n="0632b08"/>乎其山志宜為重訂翻梓以俟來者同人皆然諾余
-<lb ed="B" n="0632b09"/>亦協襄其事同人者誰孝卿武卿也詰朝言旋草草
-<lb ed="B" n="0632b10"/>筆此以記一時之逸興云</p></cb:div>
+<lb ed="B" n="0632b01"/>繁隂蔽日，下有鳴泉潄玉者，金鼇橋也。若枯木菴以
+<lb ed="B" n="0632b02"/>及亭臺諸勝，或遐或邇，或廢或存，躬探其幽蹤，熟間
+<lb ed="B" n="0632b03"/>其舊址，爽氣山光，清人耳目，輙覺身遊太虛，不復作
+<lb ed="B" n="0632b04"/>塵間想矣。是夜僦宿雲房，月色如晝，仙梵既停，挑燈
+<lb ed="B" n="0632b05"/>讀山志，且云銅鐘不知何年罅裂，從口直上約有六
+<lb ed="B" n="0632b06"/>尺許，今復自合，靡露痕迹，鯨音振動林木，鏜鎝如故，
+<lb ed="B" n="0632b07"/>無少剨損。余謂名山勝地，隆替循環，其再興之先兆
+<lb ed="B" n="0632b08"/>乎？其山志宜為重訂翻梓，以俟來者，同人皆然諾，余
+<lb ed="B" n="0632b09"/>亦協襄其事。同人者誰？孝卿、武卿也。詰朝言旋，草草
+<lb ed="B" n="0632b10"/>筆此，以記一時之逸興云。</p></cb:div>
 <lb ed="B" n="0632b11"/><cb:div type="other"><cb:mulu type="其他" level="3">遊雪峰序</cb:mulu><head>遊雪峰序</head><byline cb:type="author">賴亨侯</byline>
-<lb ed="B" n="0632b12"/><p xml:id="pB24p0632b1201" style="margin-left:0em;text-indent:2em">雪峰之遊招携也顧步雖同領略或異人各述其襟
-<lb ed="B" n="0632b13"/>懷言必歸于風雅珠聯七字詎殊秋雁排空筆揮五
-<lb ed="B" n="0632b14"/>彩奚遜朝虹吐氣美矣哉盤盤山勢喻如出水蓮花
-<lb ed="B" n="0632b15"/>鬱鬱檉枝亞彼凌霄祗樹片石窺色相當年何止千
-<lb ed="B" n="0632b16"/>僧皓月照禪心此日僅餘數衲花宮梵響任隨飄渺
-<lb ed="B" n="0632b17"/>松風丈室燈明好邀清虛鶴夢微矣夫知機處方寸
-<lb ed="B" n="0632b18"/>含百種之靈香解悟時半偈垂九天之甘雨所以地
+<lb ed="B" n="0632b12"/><p xml:id="pB24p0632b1201" style="margin-left:0em;text-indent:2em;">雪峰之遊，招携也。顧步雖同，領略或異，人各述其襟
+<lb ed="B" n="0632b13"/>懷，言必歸于風雅。珠聯七字，詎殊秋雁排空；筆揮五
+<lb ed="B" n="0632b14"/>彩，奚遜朝虹吐氣。美矣哉！盤盤山勢，喻如出水蓮花；
+<lb ed="B" n="0632b15"/>鬱鬱檉枝，亞彼凌霄祗樹。片石窺色相，當年何止千
+<lb ed="B" n="0632b16"/>僧？皓月照禪心，此日僅餘數衲。花宮梵響，任隨飄渺
+<lb ed="B" n="0632b17"/>松風；丈室燈明，好邀清虛鶴夢。微矣夫！知機處，方寸
+<lb ed="B" n="0632b18"/>含百種之靈香；解悟時，半偈垂九天之甘雨。所以地
 <pb ed="B" xml:id="B24.0140.0633a" n="0633a"/>
-<lb ed="B" n="0633a01"/>布黃金後先一揆人開青眼彼此三生玉帶旋留慕
-<lb ed="B" n="0633a02"/>東坡于夙昔浮圖繼造來玄度以何年分得半牀雲
-<lb ed="B" n="0633a03"/>豈可徒過竹院辭將五斗米輸他托意桃源今則高
-<lb ed="B" n="0633a04"/>尚臥雲每傾懷乎支遠從容入社敢追武于宗雷惟
-<lb ed="B" n="0633a05"/>是好古搜奇屢窮山海之經考德觀光恒問巖泉之
-<lb ed="B" n="0633a06"/>志秋容澹澹寓詩情于溪楓籬菊夕籟沉沉玩物性
-<lb ed="B" n="0633a07"/>於野鳥寒蟬神既怡矣毋庸來蓬瀛于枕上心既曠
-<lb ed="B" n="0633a08"/>矣奚啻縮天地于壺中故開士卜居胸間別有丘壑
-<lb ed="B" n="0633a09"/>而高賢得趣觸目皆是畵圖</p></cb:div>
+<lb ed="B" n="0633a01"/>布黃金，後先一揆；人開青眼，彼此三生。玉帶旋留，慕
+<lb ed="B" n="0633a02"/>東坡于夙昔；浮圖繼造，來玄度以何年？分得半牀雲，
+<lb ed="B" n="0633a03"/>豈可徒過竹院？辭將五斗米，輸他托意桃源。今則高
+<lb ed="B" n="0633a04"/>尚臥雲，每傾懷乎支遠；從容入社，敢追武于宗雷。惟
+<lb ed="B" n="0633a05"/>是好古搜奇，屢窮山海之經；考德觀光，恒問巖泉之
+<lb ed="B" n="0633a06"/>志。秋容澹澹，寓詩情于溪楓籬菊；夕籟沉沉，玩物性
+<lb ed="B" n="0633a07"/>於野鳥寒蟬。神既怡矣，毋庸來蓬瀛于枕上；心既曠
+<lb ed="B" n="0633a08"/>矣，奚啻縮天地于壺中。故開士卜居，胸間別有丘壑；
+<lb ed="B" n="0633a09"/>而高賢得趣，觸目皆是<g ref="#CB22076"/>圖。</p></cb:div>
 <lb ed="B" n="0633a10"/><cb:div type="other"><cb:mulu type="其他" level="3">遊雪峰說</cb:mulu><head>遊雪峰說</head><byline cb:type="author">吳興漢</byline>
-<lb ed="B" n="0633a11"/><p xml:id="pB24p0633a1101" style="margin-left:0em;text-indent:2em">嘗考周昭王二十六年甲寅覺皇氏誕于西乾竺國
-<lb ed="B" n="0633a12"/>漢明帝夢金人聲教始及東華六朝以後珠幢琳宇
-<lb ed="B" n="0633a13"/>彌徧寰中雪峰之興則肇於有唐維時禪風遠被龍
-<lb ed="B" n="0633a14"/>象之盛冠于海內論者皆謂地靈所鍾非偶然也然
-<lb ed="B" n="0633a15"/>道場法運一弛一張喻如四序循環雖宇宙之大亦
-<lb ed="B" n="0633a16"/>所不免苐有鎡基可以待時緣會則興未可量也今
-<lb ed="B" n="0633a17"/>者式微猶幸燈傳未冺蘭宮隱現雲生戶外之峰茶
-<lb ed="B" n="0633a18"/>井甘寒泉湧階前之地撫景興懷留連再四因思白
+<lb ed="B" n="0633a11"/><p xml:id="pB24p0633a1101" style="margin-left:0em;text-indent:2em;">嘗考周昭王二十六年甲寅，覺皇氏誕于西乾竺國；
+<lb ed="B" n="0633a12"/>漢明帝夢金人，聲教始及東華。六朝以後，珠幢琳宇，
+<lb ed="B" n="0633a13"/>彌徧寰中。雪峰之興，則肇於有唐，維時禪風遠被，龍
+<lb ed="B" n="0633a14"/>象之盛冠于海內。論者皆謂，地靈所鍾非偶然也。然
+<lb ed="B" n="0633a15"/>道塲法運，一弛一張，喻如四序循環，雖宇宙之大，亦
+<lb ed="B" n="0633a16"/>所不免。苐有鎡基，可以待時，緣會則興，未可量也。今
+<lb ed="B" n="0633a17"/>者式微，猶幸燈傳未冺。蘭宮隱現，雲生戶外之峰；茶
+<lb ed="B" n="0633a18"/>井甘寒，泉湧階前之地。撫景興懷，留連再四。因思白
 <pb ed="B" xml:id="B24.0140.0633b" n="0633b"/>
-<lb ed="B" n="0633b01"/>香山之繡佛持齋王荊公之捨宅為寺豈非儒者至
-<lb ed="B" n="0633b02"/>於歷朝名賢皈心為外護指不勝屈蓋能勘破世相
-<lb ed="B" n="0633b03"/>匪堅深知福田難遇如藍長者盡捨累鉅萬之田宅
-<lb ed="B" n="0633b04"/>其子孫衍泒于古田從不以檀德自矜而聲華彌著
-<lb ed="B" n="0633b05"/>源遠流長良有以也按史鑑昭王之世垂今二千七
-<lb ed="B" n="0633b06"/>百餘年天竺距東華計十萬餘程釋氏教法沿流弗
-<lb ed="B" n="0633b07"/>息其間必有不可滅者存豈膚淺之人能悉其旨哉
-<lb ed="B" n="0633b08"/>唐太宗嘗序其教為聖教梓潼隂隲文亦勸人廣行
-<lb ed="B" n="0633b09"/>三教聖神之言應不謬也茲者重梓山志其意尤兾
-<lb ed="B" n="0633b10"/>挽頺波復淳源長瞻慧日于象骨山頭謹書數言如
-<lb ed="B" n="0633b11"/>左</p>
-<lb ed="B" n="0633b12"/><p xml:id="pB24p0633b1201" style="margin-left:0em;text-indent:2em">論曰予以　神皇之三十九載偕同志為是山之
-<lb ed="B" n="0633b13"/>游探討不倦越廿年歲在庚午復履斯地而求其
-<lb ed="B" n="0633b14"/>先代遺文石碣寥寥殆不可覔太師塔銘乃錄諸
-<lb ed="B" n="0633b15"/>黃御史集中真若龜鬚兔角耳夷考淳熙三山志
-<lb ed="B" n="0633b16"/>留香堂舊有章郇公得象記而何大圭重修又記
-<lb ed="B" n="0633b17"/>之今皆弗存是知陵谷匪常文字隨之澌滅矣邇
-<lb ed="B" n="0633b18"/>者寺僧弘振修海會塔始披蓁莽得悟逸刊碑然
+<lb ed="B" n="0633b01"/>香山之繡佛持齋，王荊公之捨宅為寺，豈非儒者？至
+<lb ed="B" n="0633b02"/>於歷朝名賢，皈心為外護，指不勝屈。蓋能勘破世相
+<lb ed="B" n="0633b03"/>匪堅，深知福田難遇。如藍長者盡捨累鉅萬之田宅，
+<lb ed="B" n="0633b04"/>其子孫衍泒于古田，從不以檀德自矜，而聲華彌著，
+<lb ed="B" n="0633b05"/>源遠流長，良有以也。按史鑑，昭王之世垂今二千七
+<lb ed="B" n="0633b06"/>百餘年，天竺距東華計十萬餘程，釋氏教法沿流弗
+<lb ed="B" n="0633b07"/>息，其間必有不可滅者存，豈膚淺之人能悉其旨哉？
+<lb ed="B" n="0633b08"/>唐太宗嘗序其教為聖教，梓潼《隂隲文》亦勸人廣行
+<lb ed="B" n="0633b09"/>三教，聖神之言應不謬也。茲者重梓山志，其意尤兾
+<lb ed="B" n="0633b10"/>挽頺波，復淳源，長瞻慧日于象骨山頭。謹書數言如
+<lb ed="B" n="0633b11"/>左。</p></cb:div></cb:div>
+<lb ed="B" n="0633b12"/><cb:div type="other"><cb:mulu type="其他" level="2">紀藝文論</cb:mulu><p xml:id="pB24p0633b1201" style="margin-left:0em;text-indent:2em;">論曰：予以　神皇之三十九載，偕同志為是山之
+<lb ed="B" n="0633b13"/>游，探討不倦，越廿年歲在庚午，復履斯地，而求其
+<lb ed="B" n="0633b14"/>先代遺文石碣，寥寥殆不可覔。<note n="0633b1401" resp="CBETA" type="add">大【CB】，太【補編】</note><app n="0633b1401"><lem wit="【CB】" resp="CBETA">大</lem><rdg wit="【補編】">太</rdg></app>師《塔銘》乃錄諸
+<lb ed="B" n="0633b15"/>《黃御史集》中，真若龜鬚<note n="0633b1501" resp="CBETA" type="add">兔【CB】，免【補編】</note><app n="0633b1501"><lem wit="【CB】" resp="CBETA">兔</lem><rdg wit="【補編】">免</rdg></app>角耳。夷考《淳熙三山志》，
+<lb ed="B" n="0633b16"/>留香堂舊有章郇公〈得象記〉，而何大圭重修又記
+<lb ed="B" n="0633b17"/>之，今皆弗存。是知陵谷匪常，文字隨之澌滅矣。邇
+<lb ed="B" n="0633b18"/>者寺僧弘振修海會塔，始披蓁莽，得悟逸刊碑，然
 <pb ed="B" xml:id="B24.0140.0634a" n="0634a"/>
-<lb ed="B" n="0634a01"/>則所遺者不既多乎<g ref="#CB33165"/>南荒地軸形勢最雄開山
-<lb ed="B" n="0634a02"/>禪宗蹤跡頗遠惟是登陟之杖履百無一焉誰操
-<lb ed="B" n="0634a03"/>不律用答山靈哉好奇之士布襪青鞋請從此始</p></cb:div></cb:div></cb:div>
+<lb ed="B" n="0634a01"/>則所遺者不既多乎？<note n="0634a0101" resp="CBETA" type="add">葢【CB】，<g ref="#CB33165"/>【補編】</note><app n="0634a0101"><lem wit="【CB】" resp="CBETA">葢</lem><rdg wit="【補編】"><g ref="#CB33165"/></rdg></app>南荒地軸，形勢最雄，開山
+<lb ed="B" n="0634a02"/>禪宗，蹤跡頗遠，惟是登陟之杖履百無一焉。誰操
+<lb ed="B" n="0634a03"/>不律用答山靈哉？好奇之士，布襪青鞋，請從此始。</p></cb:div></cb:div>
 <lb ed="B" n="0634a04"/>
 <lb ed="B" n="0634a05"/>
 <lb ed="B" n="0634a06"/>
 <lb ed="B" n="0634a07"/>
 <lb ed="B" n="0634a08"/>
-<lb ed="B" n="0634a09"/><cb:juan fun="close" n="8"><cb:jhead>雪峰志卷之八終</cb:jhead></cb:juan>
+<lb ed="B" n="0634a09"/><cb:juan fun="close"><cb:jhead>雪峰志卷之八終</cb:jhead></cb:juan>
 </body></text></TEI>
