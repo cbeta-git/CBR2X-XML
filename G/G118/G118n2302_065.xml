@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="G118n2302">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title level="s">Fojiao Canon</title>
+			<title level="s" xml:lang="zh-Hant"></title>
+			<title level="m" xml:lang="zh-Hant">佛學名相彙解(第54卷-第68卷)</title>
+			<title>Fojiao Canon, Electronic version, No. 2302 佛學名相彙解(第54卷-第68卷)</title>
+			<title xml:lang="zh-Hant">數位版, No. 2302 佛學名相彙解(第54卷-第68卷)</title>
+			<author>明 沙門寂照編</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+		<editionStmt>
+			<edition>單卷版 XML TEI P5b</edition>
+		</editionStmt>
+		<extent>15卷</extent>
+		<publicationStmt>
+			<idno type="CBETA">
+				<idno type="canon">G</idno>.<idno type="vol">118</idno>.<idno type="no">2302</idno>
+			</idno>
+			<distributor>
+				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
+				<address>
+					<addrLine><email>service@cbeta.org</email></addrLine>
+				</address>
+			</distributor>
+			<availability>
+				<p>Available for non-commercial use when distributed with this header intact.</p>
+			</availability>
+			<date>2025-06-08 16:41:14 +0800</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl></bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+		</projectDesc>
+		<editorialDecl>
+			<punctuation resp="orig"><p>新式標點</p></punctuation>
+		</editorialDecl>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="rdg">
+					<listWit>
+						<witness xml:id="wit.orig">【佛教】</witness>
+						<witness xml:id="wit.cbeta">【CB】</witness>
+					</listWit>
+				</tagUsage>
+			</namespace>
+		</tagsDecl>
+		<charDecl>
+			<char xml:id="CB00166">
+				<charName>CBETA CHARACTER CB00166</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[月*庸]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>傭</value>
+				</charProp>
+				<mapping type="unicode">U+267DB</mapping>
+				<mapping cb:dec="983206" type="PUA">U+F00A6</mapping>
+			</char>
+			<char xml:id="CB00501">
+				<charName>CBETA CHARACTER CB00501</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[馬*犬]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>馱</value>
+				</charProp>
+				<mapping type="unicode">U+4B7E</mapping>
+				<mapping cb:dec="983541" type="PUA">U+F01F5</mapping>
+			</char>
+			<char xml:id="CB00849">
+				<charName>CBETA CHARACTER CB00849</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[跳-兆+(乏-之+(犮-、))]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>跋</value>
+				</charProp>
+				<mapping type="normal_unicode">U+47E6</mapping>
+				<mapping cb:dec="983889" type="PUA">U+F0351</mapping>
+			</char>
+			<char xml:id="CB02494">
+				<charName>CBETA CHARACTER CB02494</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[跳-兆+(乏-之+友)]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>跋</value>
+				</charProp>
+				<mapping type="unicode">U+47E6</mapping>
+				<mapping cb:dec="985534" type="PUA">U+F09BE</mapping>
+			</char>
+			<char xml:id="CB04993">
+				<charName>CBETA CHARACTER CB04993</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[狂-王+俞]</value>
+				</charProp>
+				<mapping type="unicode">U+3E84</mapping>
+				<mapping cb:dec="988033" type="PUA">U+F1381</mapping>
+			</char>
+			<char xml:id="CB29810">
+				<charName>CBETA CHARACTER CB29810</charName>
+				<charProp>
+					<localName>composition</localName>
+					<value>[涅-土+工]</value>
+				</charProp>
+				<charProp>
+					<localName>normalized form</localName>
+					<value>涅</value>
+				</charProp>
+				<mapping type="unicode">U+23D40</mapping>
+				<mapping cb:dec="1012850" type="PUA">U+F7472</mapping>
+			</char>
+		</charDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh-Hant">Chinese (Traditional)</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2025-06-08">
+			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu type="其他" level="1">二十四</cb:mulu><cb:mulu type="其他" level="2">二十四氣</cb:mulu>
+<milestone unit="juan" n="65"/>
+<pb ed="G" xml:id="G118.2302.0515a" n="0515a"/>
+<lb ed="G" n="0515a01"/><cb:mulu type="卷" n="65"></cb:mulu><cb:juan fun="open" n="65"><cb:jhead>佛學名相彙解　卷第六十五</cb:jhead></cb:juan><byline cb:type="editor">明．沙門寂照編</byline>
+<lb ed="G" n="0515a02"/><cb:div type="other"><cb:mulu type="其他" level="1">二十五</cb:mulu>
+<lb ed="G" n="0515a03"/><cb:div type="other"><cb:mulu type="其他" level="2">二十五圓通</cb:mulu><entry><form>二十五圓通<note place="inline">出楞嚴經</note></form>
+<lb ed="G" n="0515a04"/><cb:def><p xml:id="pG118p0515a0401" style="margin-left:0em;text-indent:2em;">性體周徧曰圓，妙用無礙曰通。乃是一切眾生，本有之心源，諸佛菩薩所證之聖境也。
+<lb ed="G" n="0515a05"/>而有二十五種者：謂諸菩薩及大羅漢，於六塵六根六識七大，各各悟入不同故也。此由阿
+<lb ed="G" n="0515a06"/>難，於楞嚴會上，雖聞根塵同源，縛脫無二之旨，而未達圓通本根，請佛開示，如來於是
+<lb ed="G" n="0515a07"/>問諸弟子，最初發心方便，令其各各自陳證悟之由，使阿難曉了圓通法門所入之處也。然
+<lb ed="G" n="0515a08"/>論圓通，本無優劣，如來令文殊選擇，而唯取觀音耳根者，蓋為此方之人，耳根聰利，聞
+<lb ed="G" n="0515a09"/>法易解，當以音聞而為教體，故特取觀音耳根，為入道之門也。然不取陳那音聲者，以聲
+<lb ed="G" n="0515a10"/>本屬塵，根有聞性，故揀陳那居初，觀音極後，以見取捨之明，亦根塵首尾相貫之意也。</p>
+<lb ed="G" n="0515a11"/><p xml:id="pG118p0515a1101" style="margin-left:0em;text-indent:2em;">一、音聲：音聲即聲塵也。謂憍陳那等在鹿苑中，聞佛說四諦之法，密悟圓理，了達
+<lb ed="G" n="0515a12"/>一切聲塵本然清淨，無動無靜，皆是常住圓妙之音。於是得入圓通，故云：「如我所證，
+<lb ed="G" n="0515a13"/>音聲為上。」<note place="inline">梵語憍陳那，華言已知。</note></p>
+<lb ed="G" n="0515a14"/><p xml:id="pG118p0515a1401" style="margin-left:0em;text-indent:2em;">二、色因：色因即色塵也。謂優波尼沙陀，因多貪欲，佛令作不淨觀。於是觀色身不
+<pb ed="G" xml:id="G118.2302.0516a" n="0516a"/>
+<lb ed="G" n="0516a01"/>淨之相，生大厭離，悟諸色性歸於虛空，空色兩忘，本然清淨。於是得入圓通，故云：
+<lb ed="G" n="0516a02"/>「如我所證色因為上。」<note place="inline">梵語優波尼沙陀，華言塵性。</note></p>
+<lb ed="G" n="0516a03"/><p xml:id="pG118p0516a0301" style="margin-left:0em;text-indent:2em;">三、香因：香因即香塵也。謂香嚴童子，聞如來教，於清淨室修習禪定，見諸比丘燒
+<lb ed="G" n="0516a04"/>沉水香，遂觀此香氣非木非空，非烟非火，即是本然清淨妙香。於是開悟得入圓通，故
+<lb ed="G" n="0516a05"/>云：「如我所證，香因為上。」</p>
+<lb ed="G" n="0516a06"/><p xml:id="pG118p0516a0601" style="margin-left:0em;text-indent:2em;">四、味因：味因即味塵也。謂藥王藥上二法王子等，於無始劫為世良醫，一切草木金
+<lb ed="G" n="0516a07"/>石之味，悉能徧知，承事如來，了知味性非空非有，非即身心，非離身心；皆是本然清淨
+<lb ed="G" n="0516a08"/>妙味。從是開悟，得入圓通，故云：「如我所證味因為上。」</p>
+<lb ed="G" n="0516a09"/><p xml:id="pG118p0516a0901" style="margin-left:0em;text-indent:2em;">五、觸因：觸因即觸塵也。謂<g ref="#CB00849"/>陀婆羅，先於威音王佛所，聞法出家。於浴僧時，隨
+<lb ed="G" n="0516a10"/>例入室，忽悟水因，既不洗塵，亦不洗體，中間安然，得無所有，妙觸清淨，本來無染。
+<lb ed="G" n="0516a11"/>於是得入圓通，故云：「如我所證，觸因為上。」<note place="inline">梵語<g ref="#CB02494"/>陀婆羅，華言賢守。</note></p>
+<lb ed="G" n="0516a12"/><p xml:id="pG118p0516a1201" style="margin-left:0em;text-indent:2em;">六、法因：法因即法塵也。謂摩訶迦葉等，因觀世間六塵變壞，悟法性空，遂修滅盡
+<lb ed="G" n="0516a13"/>定，以滅意根，受想不起，妙法開明，消滅諸漏，得無生滅，遂入圓通，故云：「如我所
+<lb ed="G" n="0516a14"/>證，法因為上。」<note place="inline">梵語摩訶迦葉，華言大飲光。從憍陳那，至迦葉，是於六塵悟入圓通。</note></p>
+<lb ed="G" n="0516a15"/><p xml:id="pG118p0516a1501" style="margin-left:0em;text-indent:2em;">七、見元：見元即眼根也。謂阿那律陀初出家時，常樂睡眠，被如來訶責，因是七日
+<lb ed="G" n="0516a16"/>不眠，失其雙目，世尊示以金剛三昧，遂得清淨天眼。是故不因眼根，能觀三千世界猶如
+<pb ed="G" xml:id="G118.2302.0517a" n="0517a"/>
+<lb ed="G" n="0517a01"/>掌果，於是悟入圓通，故云：「如我所證，旋見循元，斯為第一。」<note place="inline">旋見循元者：旋大千
+<lb ed="G" n="0517a02"/>之見，循真性之元也。</note></p>
+<lb ed="G" n="0517a03"/><p xml:id="pG118p0517a0301" style="margin-left:0em;text-indent:2em;">八、息空：息空即鼻根也。謂周利槃特迦於過去世為大法師，秘吝佛法，不肯教人，
+<lb ed="G" n="0517a04"/>後感愚鈍。亦以宿有善因，遇佛出家，以根鈍故，憶持如來一句伽陀，經一百日終不能
+<lb ed="G" n="0517a05"/>誦。佛令安居，數息攝心，因是觀息出入，刹那生滅之相，豁然無礙，得入圓通，故云：
+<lb ed="G" n="0517a06"/>「如我所證，反息循空，斯為第一」。<note place="inline">數息者：息即鼻中氣息。謂從一至十，漸漸而數也。反
+<lb ed="G" n="0517a07"/>息循空者：反背妄根，循依真空也。</note></p>
+<lb ed="G" n="0517a08"/><p xml:id="pG118p0517a0801" style="margin-left:0em;text-indent:2em;">九、味知：味知即舌根也。謂憍梵鉢提，於過去世輕弄沙門，有牛呞<note place="inline">音詩</note>病，佛為
+<lb ed="G" n="0517a09"/>遮謗，賜之數珠，令常念佛，清淨心地。又觀舌根，知味之性，非體非物，應念得超世間
+<lb ed="G" n="0517a10"/>諸漏，悟入圓通，故云：「還味旋知，斯為第一。」<note place="inline">梵語憍梵鉢提，華言牛呞。以其宿世曾
+<lb ed="G" n="0517a11"/>作牛王，餘習未除，故食後常虛噍也。還味旋知者：謂不著塵味，不隨妄知也。</note></p>
+<lb ed="G" n="0517a12"/><p xml:id="pG118p0517a1201" style="margin-left:0em;text-indent:2em;">十、身覺：身覺即身根也。謂畢陵伽婆蹉，聞佛說諸世間不可樂事，因行乞食，被刺
+<lb ed="G" n="0517a13"/>傷足，擧身疼痛，即反觀覺痛之心無有痛覺，本自清淨。如是思惟，攝念未久，身心忽空，
+<lb ed="G" n="0517a14"/>諸漏虛盡，得入圓通，故云：「如我所證，純覺遺身，斯為第一。」<note place="inline">梵語畢陵伽婆蹉，
+<lb ed="G" n="0517a15"/>華言餘習。純覺遺身者：謂覺心純淨，而遺失妄身也。</note></p>
+<lb ed="G" n="0517a16"/><p xml:id="pG118p0517a1601" style="margin-left:0em;text-indent:2em;">十一、法空：法空即意根也。謂須菩提於曠劫來，心得無礙，蒙佛開示，性覺真空，
+<pb ed="G" xml:id="G118.2302.0518a" n="0518a"/>
+<lb ed="G" n="0518a01"/>於是頓入如來寶明空海圓通境界，故云：「如我所證，諸相入非，非所非盡，旋法歸無，
+<lb ed="G" n="0518a02"/>斯為第一。」<note place="inline">梵語須菩提，華言空生。寶明空海者：即如來所證明妙之理，無礙深廣也。非所非
+<lb ed="G" n="0518a03"/>盡，旋法歸無者：謂能非之心，所非之相，悉盡無餘，而轉諸法塵，皆歸寂滅也。從阿那律至須菩提，
+<lb ed="G" n="0518a04"/>是於五根悟入圓通。</note></p>
+<lb ed="G" n="0518a05"/><p xml:id="pG118p0518a0501" style="margin-left:0em;text-indent:2em;">十二、心見：心見即眼識也。謂舍利弗，於曠劫來，心見清淨，後於路中逢迦葉波，
+<lb ed="G" n="0518a06"/>宣說因緣，從佛出家，於一切法，照了無礙，悟入圓通，故云：「如我所證，心見發光；
+<lb ed="G" n="0518a07"/>光極知見，斯為第一。」<note place="inline">心見發光光極知見者：由心見發明，而圓照萬法也。</note></p>
+<lb ed="G" n="0518a08"/><p xml:id="pG118p0518a0801" style="margin-left:0em;text-indent:2em;">十三、心聞：心聞即耳識也。謂菩薩已曾與恒沙如來為法王子，常用心聞，分別眾生
+<lb ed="G" n="0518a09"/>所有知見。若有眾生，修普賢行，分身百千，皆至其處，摩頂擁護，令其成就心聞，圓通
+<lb ed="G" n="0518a10"/>普賢境界，故云：「我說本因，心聞發明；分別自在，斯為第一。」</p>
+<lb ed="G" n="0518a11"/><p xml:id="pG118p0518a1101" style="margin-left:0em;text-indent:2em;">十四、鼻息：鼻息即鼻識也。謂孫陀羅難陀，從佛出家，雖具戒律，心多散動。世尊
+<lb ed="G" n="0518a12"/>教其觀鼻端白，遂觀鼻中之氣，出入如煙，身心內明，圓洞虛淨，煙相漸消，鼻息成白，
+<lb ed="G" n="0518a13"/>心開漏盡，諸出入息，化為光明，照十方界，即得圓通。故云：「我以消息，息久發明，
+<lb ed="G" n="0518a14"/>明圓滅漏，斯為第一。」<note place="inline">梵語孫陀羅難陀，華言好愛歡喜。明圓滅漏者：真性明了圓融，滅諸有
+<lb ed="G" n="0518a15"/>漏也。</note></p>
+<lb ed="G" n="0518a16"/><p xml:id="pG118p0518a1601" style="margin-left:0em;text-indent:2em;">十五、法音：法音即舌識也。謂富樓那彌多羅尼子，從曠劫來辯才無礙，世尊知其有
+<pb ed="G" xml:id="G118.2302.0519a" n="0519a"/>
+<lb ed="G" n="0519a01"/>大辯才，以音聲輪，教其發揚。於是助佛轉輪，成師子吼，悟入圓通，故云：「我以法音，
+<lb ed="G" n="0519a02"/>降伏魔怨；消滅諸漏，斯為第一。」<note place="inline">梵語富樓那彌多羅尼，華言滿慈。是其父母名，因以稱子。</note></p>
+<lb ed="G" n="0519a03"/><p xml:id="pG118p0519a0301" style="margin-left:0em;text-indent:2em;">十六、身戒：身戒即身識也。謂優波離，最初隨佛踰城出家，親觀如來六年勤苦，承
+<lb ed="G" n="0519a04"/>佛教戒，乃至三千威儀，八萬微細行業，悉皆清淨，身心寂滅，悟入圓通，故云：「我以
+<lb ed="G" n="0519a05"/>執身，身得自在；次第執心，心得通達；然後身心，一切通利，斯為第一。」<note place="inline">梵語優波
+<lb ed="G" n="0519a06"/>離，華言上首。</note></p>
+<lb ed="G" n="0519a07"/><p xml:id="pG118p0519a0701" style="margin-left:0em;text-indent:2em;">十七、心達：心達即意識也。謂目乾連，聞迦葉波宣說如來因緣深義，即頓發心，得
+<lb ed="G" n="0519a08"/>大通達，如來惠其袈裟著身，鬚髮自落，游於十方，無所罣礙。由是神通自在，圓明清
+<lb ed="G" n="0519a09"/>淨，故云：「我以旋湛，心光發宣；如澄濁流，久成清瑩，斯為第一。」<note place="inline">梵語目乾連，華
+<lb ed="G" n="0519a10"/>言綵菽氏。旋湛：謂旋復澄湛之性也。從舍利弗至目乾連，是於六識悟入圓通。</note></p>
+<lb ed="G" n="0519a11"/><p xml:id="pG118p0519a1101" style="margin-left:0em;text-indent:2em;">十八、火性：火性即火大也。謂烏芻瑟摩，久遠劫前，性多貪欲。有佛出世，名曰空
+<lb ed="G" n="0519a12"/>王，說多婬人，成猛火聚，教其徧觀百骸四支，諸冷煖氣。由是諦觀，神光內凝，化多婬
+<lb ed="G" n="0519a13"/>心，成智慧火。因此火光三昧力故，得入圓通，故云：「我以諦觀身心煖觸，無礙流通，
+<lb ed="G" n="0519a14"/>諸漏既消，生大寶焰，證無上覺，斯為第一。」<note place="inline">梵語烏芻瑟摩，華言火頭。</note></p>
+<lb ed="G" n="0519a15"/><p xml:id="pG118p0519a1501" style="margin-left:0em;text-indent:2em;">十九、地性：地性即地大也。謂持地菩薩於往昔時，普光如來出現於世，曾為比丘平
+<lb ed="G" n="0519a16"/>填道路，造作橋梁，行諸苦行；後世復值毗舍浮佛出現，國王延佛設齋。爾時平地待佛，
+<pb ed="G" xml:id="G118.2302.0520a" n="0520a"/>
+<lb ed="G" n="0520a01"/>毗舍浮如來摩頂告言：「當平心地，則世界一切皆平。」因是即得心開，見身微塵，及與
+<lb ed="G" n="0520a02"/>世界一切微塵，等無差別，即得悟入圓通，故云：「我以諦觀，身界二微，等無差別，本
+<lb ed="G" n="0520a03"/>如來藏；虛妄發塵，塵銷智圓，成無上道，斯為第一。」<note place="inline">梵語毗舍浮，華言徧一切自在。</note></p>
+<lb ed="G" n="0520a04"/><p xml:id="pG118p0520a0401" style="margin-left:0em;text-indent:2em;">二十、水性：水性即水大也。謂月光童子，往昔劫中，於水天佛所，修習水觀。觀於
+<lb ed="G" n="0520a05"/>身中涕涶津液、大小便利，與世界外諸香水海，水性一同。是時初成此觀，但見其水，未
+<lb ed="G" n="0520a06"/>得無身；經無量佛，方得無身，與諸香水海性合真空，無二無別，悟入圓通，故云：「我
+<lb ed="G" n="0520a07"/>以水性，一味流通，得無生忍，圓滿菩提，斯為第一」。</p>
+<lb ed="G" n="0520a08"/><p xml:id="pG118p0520a0801" style="margin-left:0em;text-indent:2em;">二十一、風性：風性即風大也。謂瑠璃光法王子，往昔劫中，於無量聲佛所，蒙佛開
+<lb ed="G" n="0520a09"/>示妙明心體，及說世界眾生皆是妄緣風力所轉。即於爾時，觀此世界，及與身心，各有所
+<lb ed="G" n="0520a10"/>動，遂即覺了，此羣動性，來無所從，去無所至，身心發光，洞徹無礙而入圓通，故云：
+<lb ed="G" n="0520a11"/>「我以觀察，風力無依，悟菩提心，入三摩地，斯為第一。」</p>
+<lb ed="G" n="0520a12"/><p xml:id="pG118p0520a1201" style="margin-left:0em;text-indent:2em;">二十二、空性：空性即空大也。謂虛空藏菩薩，於定光佛所，得無邊身。爾時手執四
+<lb ed="G" n="0520a13"/>大寶珠，照明十方微塵佛刹，化成虛空，身同虛空，不相妨礙，能善入微塵國土，廣行佛
+<lb ed="G" n="0520a14"/>事。由是諦觀四大無依，虛空佛國，同一虛妄，於同發明，得入圓通，故云：「我以觀
+<lb ed="G" n="0520a15"/>察，虛空無邊，入三摩地，斯為第一。」</p>
+<lb ed="G" n="0520a16"/><p xml:id="pG118p0520a1601" style="margin-left:0em;text-indent:2em;">二十三、識性：識性即識大也。謂彌勒菩薩，往昔劫中，於日月燈明佛所，而得出
+<pb ed="G" xml:id="G118.2302.0521a" n="0521a"/>
+<lb ed="G" n="0521a01"/>家，修習唯心識定，至然燈佛出世，方乃得成無上妙圓識心三昧，了一切如來國土，淨穢
+<lb ed="G" n="0521a02"/>有無，皆是我心變化所現，而悟入圓通，故云：「我以諦觀十方唯識，識心圓明，得無生
+<lb ed="G" n="0521a03"/>忍，斯為第一。」</p>
+<lb ed="G" n="0521a04"/><p xml:id="pG118p0521a0401" style="margin-left:0em;text-indent:2em;">二十四、淨念：淨念即根大也。謂大勢至菩薩等，往昔劫中，於超日月光佛所，修念
+<lb ed="G" n="0521a05"/>佛三昧，收攝六根，定心念佛。由是不假方便，自得心開，悟入圓通，故云：「我無選擇，
+<lb ed="G" n="0521a06"/>都攝六根，淨念相繼，得三摩地，斯為第一。」<note place="inline">從烏芻瑟摩至勢至，是於七大悟入圓通。</note></p>
+<lb ed="G" n="0521a07"/><p xml:id="pG118p0521a0701" style="margin-left:0em;text-indent:2em;">二十五、耳根：耳根者：謂觀世音菩薩，往昔劫中，於觀世音佛所，發菩提心，彼佛
+<lb ed="G" n="0521a08"/>教其從聞思修，入三摩提。於是菩薩即於聞中入流亡所，所入既寂，動靜二相了然，不生
+<lb ed="G" n="0521a09"/>一念，頓空聞性，而入圓通矣。經中所謂「生滅既滅，寂滅現前」者，即圓通之體也。上
+<lb ed="G" n="0521a10"/>合諸佛妙心，下同眾生悲仰。而現乎三十二應，施以十四無畏等者：乃圓通之用也。故
+<lb ed="G" n="0521a11"/>云：「我從耳聞，圓照三昧，緣心自在，成就菩提，斯為第一。」<note place="inline">梵語三摩提，即三摩地
+<lb ed="G" n="0521a12"/>也。入流亡所者：不隨聲塵，頓入法流而亡其所入也。</note></p></cb:def></entry></cb:div>
+<lb ed="G" n="0521a13"/>
+<lb ed="G" n="0521a14"/><cb:div type="other"><cb:mulu type="其他" level="2">二十五護戒神</cb:mulu><entry><form>二十五護戒神<note place="inline">出法苑珠林</note></form>
+<lb ed="G" n="0521a15"/><cb:def><p xml:id="pG118p0521a1501" style="margin-left:0em;text-indent:2em;">護戒神者：謂五戒之中，各有五神為作衛護也。灌頂經云：「若持五戒者，有二十五
+<lb ed="G" n="0521a16"/>善神衛護其身，在人左右，守於宮宅門戶之上，使萬事吉祥也。」</p>
+<pb ed="G" xml:id="G118.2302.0522a" n="0522a"/>
+<lb ed="G" n="0522a01"/><p xml:id="pG118p0522a0101" style="margin-left:0em;text-indent:2em;">一、護不殺戒五神：一、茶蒭毗愈陀尼：護持戒人身，辟除邪鬼。二、輸多利輸陀
+<lb ed="G" n="0522a02"/>尼：護持戒人六情，悉令完具。三、毗樓遮那世波：護持戒人腹內，使五藏平調。四、阿
+<lb ed="G" n="0522a03"/>陀龍摩坻：護持戒人血脈，悉令通暢。五、婆羅桓尼和婆：護持戒人爪指，無所毀傷。</p>
+<lb ed="G" n="0522a04"/><p xml:id="pG118p0522a0401" style="margin-left:0em;text-indent:2em;">二、護不盜戒五神：一、坻摩阿毗婆<g ref="#CB00501"/>：護持戒人出入往來，使得安寧。二、阿修輸
+<lb ed="G" n="0522a05"/>婆羅陀：護持戒人所噉飲食，悉使甘香。三、婆羅摩亶雄雌：護持戒人睡夢平安，覺寤歡
+<lb ed="G" n="0522a06"/>悅。四、婆羅門地鞞哆：護持戒人不為蠱毒所中。五、邪摩呼哆耶舍：護持戒人不為霧露
+<lb ed="G" n="0522a07"/>之毒所害。</p>
+<lb ed="G" n="0522a08"/><p xml:id="pG118p0522a0801" style="margin-left:0em;text-indent:2em;">三、護不邪婬戒五神：一、佛<g ref="#CB00501"/>仙陀樓哆：護持戒人口舌鬥諍不行。二、鞞闍耶藪多
+<lb ed="G" n="0522a09"/>婆：護持戒人不為瘟瘧鬼所持。三、<g ref="#CB29810"/>坭醯<g ref="#CB00501"/>多耶：護持戒人不為縣官所得。四、阿邏多
+<lb ed="G" n="0522a10"/>賴都耶：護持戒人舍宅四方，驅逐凶殃。五、波羅那佛曇：護持戒人平定舍宅。</p>
+<lb ed="G" n="0522a11"/><p xml:id="pG118p0522a1101" style="margin-left:0em;text-indent:2em;">四、護不妄語戒五神：一、阿提梵者珊耶：護持戒人不為塚墓鬼所嬈。二、因臺羅
+<lb ed="G" n="0522a12"/>因臺羅：護持戒人門戶，辟除邪惡。三、阿伽風施婆多：護持戒人不為外氣鬼神所害。
+<lb ed="G" n="0522a13"/>四、佛曇彌摩多哆：護持戒人不為災火所延。五、多賴叉三密陀：護持戒人不為偷盜所
+<lb ed="G" n="0522a14"/>侵。</p>
+<lb ed="G" n="0522a15"/><p xml:id="pG118p0522a1501" style="margin-left:0em;text-indent:2em;">五、護不飲酒戒五神：一、阿摩羅斯兜嘻：護持戒人若入山林，不為虎狼所害。二、
+<lb ed="G" n="0522a16"/>那羅門闍兜帝：護持戒人不為傷亡所嬈。三、鞞尼乾那波：護持戒人除惡鳥鳴狐鳴。四、
+<pb ed="G" xml:id="G118.2302.0523a" n="0523a"/>
+<lb ed="G" n="0523a01"/>茶鞞鬥毗舍羅：護持戒人除犬鼠變怪。五、伽摩毗那闍尼佉：護持戒人不為凶注所牽。
+<lb ed="G" n="0523a02"/><note place="inline">凶注者：謂陰司注寫凶惡之事也。</note></p></cb:def></entry></cb:div>
+<lb ed="G" n="0523a03"/>
+<lb ed="G" n="0523a04"/><cb:div type="other"><cb:mulu type="其他" level="2">二十五三昧破二十五有</cb:mulu><entry><form>二十五三昧破二十五有<note place="inline">出法華玄義</note></form>
+<lb ed="G" n="0523a05"/><cb:def><p xml:id="pG118p0523a0501" style="margin-left:0em;text-indent:2em;">梵語三昧，華言正定。二十五三昧破二十五有者，約理對治，隨義以立名也。蓋欲色
+<lb ed="G" n="0523a06"/>無色三界，雖苦樂不同，然實有生死執著，故以此無垢等三昧之法，一一破之，令諸眾生
+<lb ed="G" n="0523a07"/>出於諸有也。</p>
+<lb ed="G" n="0523a08"/><p xml:id="pG118p0523a0801" style="margin-left:0em;text-indent:2em;">一、無垢三昧破地獄有：謂菩薩由淨諸業惑，證於無垢三昧。愍彼眾生，受於地獄之
+<lb ed="G" n="0523a09"/>苦，故以此三昧，令其修行，出離重垢所報之處也。</p>
+<lb ed="G" n="0523a10"/><p xml:id="pG118p0523a1001" style="margin-left:0em;text-indent:2em;">二、不退三昧破畜生有：謂菩薩修於持戒禪定，破諸惡業，自獲不退，證於不退三
+<lb ed="G" n="0523a11"/>昧。愍彼眾生，受畜生苦，故以此三昧，令其遠捨諸惡，永不退失善道也。</p>
+<lb ed="G" n="0523a12"/><p xml:id="pG118p0523a1201" style="margin-left:0em;text-indent:2em;">三、心樂三昧破餓鬼有：謂菩薩修戒定慧，破諸惡業，證於心樂三昧。愍彼眾生，受
+<lb ed="G" n="0523a13"/>餓鬼苦，故以此三昧，令其遠離諸惡，而生喜樂也。</p>
+<lb ed="G" n="0523a14"/><p xml:id="pG118p0523a1401" style="margin-left:0em;text-indent:2em;">四、歡喜三昧破阿脩羅有：謂菩薩修戒定慧，破於惡業等怖，證於歡喜三昧。愍彼眾
+<lb ed="G" n="0523a15"/>生，受阿脩羅苦，故以此三昧，令其離諸猜疑怖畏也。</p>
+<lb ed="G" n="0523a16"/><p xml:id="pG118p0523a1601" style="margin-left:0em;text-indent:2em;">五、日光三昧破弗婆提有：謂菩薩修戒定慧，獲一切智光，破諸惡業無明等闇，證於
+<pb ed="G" xml:id="G118.2302.0524a" n="0524a"/>
+<lb ed="G" n="0524a01"/>日光三昧。愍彼東洲眾生，受諸生死，故以此三昧，令其破諸惡業等闇，而得出離也。</p>
+<lb ed="G" n="0524a02"/><p xml:id="pG118p0524a0201" style="margin-left:0em;text-indent:2em;">六、月光三昧破瞿耶尼有：謂菩薩修戒定慧，獲一切智光，破諸惡業無明等闇，證於
+<lb ed="G" n="0524a03"/>月光三昧。愍彼西洲眾生，受諸生死，故以此三昧，令其破諸惡業等闇也。</p>
+<lb ed="G" n="0524a04"/><p xml:id="pG118p0524a0401" style="margin-left:0em;text-indent:2em;">七、熱焰三昧破鬱單越有：謂菩薩修戒定慧，破諸我執，證於熱焰三昧。愍彼北洲眾
+<lb ed="G" n="0524a05"/>生，計著於我，永執難化，故以此三昧，令其遠離妄我，計執不生，而得出離也。</p>
+<lb ed="G" n="0524a06"/><p xml:id="pG118p0524a0601" style="margin-left:0em;text-indent:2em;">八、如幻三昧破閻浮提有：謂菩薩修戒定慧，破諸虛幻惑業，證於如幻三昧。愍此南
+<lb ed="G" n="0524a07"/>洲眾生，果報雜雜，壽命不定，猶如幻化，故以此三昧，令其破於諸幻，而得出離也。</p>
+<lb ed="G" n="0524a08"/><p xml:id="pG118p0524a0801" style="margin-left:0em;text-indent:2em;">九、不動三昧破四天王有：四天王者：東方持國天王、南方增長天王、西方廣目天
+<lb ed="G" n="0524a09"/>王、北方多聞天王也。謂菩薩修戒定慧，破諸煩惱散亂，證於不動三昧。以此天游行世
+<lb ed="G" n="0524a10"/>間，則有果報惑業等動，故以此三昧，令其悉破諸動惑業，亦得證此也。</p>
+<lb ed="G" n="0524a11"/><p xml:id="pG118p0524a1101" style="margin-left:0em;text-indent:2em;">十、難伏三昧破諸三十三天有：三十三天即忉利天也。謂菩薩修戒定慧，破一切惑
+<lb ed="G" n="0524a12"/>業，證於難伏三昧。以此天是地居之頂，果報惑業難以折伏，故以此三昧，令其破諸難
+<lb ed="G" n="0524a13"/>伏，亦得證此也。</p>
+<lb ed="G" n="0524a14"/><p xml:id="pG118p0524a1401" style="margin-left:0em;text-indent:2em;">十一、悅意三昧破焰摩天有：謂菩薩修戒定慧，破諸煩惱，證於悅意三昧。以此天處
+<lb ed="G" n="0524a15"/>空為悅，而未有上界不動等悅，故以此三昧，令其捨離空處之悅，而證不動等悅也。</p>
+<lb ed="G" n="0524a16"/><p xml:id="pG118p0524a1601" style="margin-left:0em;text-indent:2em;">十二、青色三昧破兜率陀天有：謂菩薩修戒定慧，破諸煩惱，證於青色三昧。以此天
+<pb ed="G" xml:id="G118.2302.0525a" n="0525a"/>
+<lb ed="G" n="0525a01"/>果報，宮殿服玩，一切皆青，故以此三昧，令其捨離一切煩惱，亦得證此也。</p>
+<lb ed="G" n="0525a02"/><p xml:id="pG118p0525a0201" style="margin-left:0em;text-indent:2em;">十三、黃色三昧破化樂天有：謂菩薩修戒定慧，破諸煩惱，證於黃色三昧。以此天果
+<lb ed="G" n="0525a03"/>報，宮殿服玩，一切皆黃，故以此三昧，令其捨離一切煩惱，亦得證此也。</p>
+<lb ed="G" n="0525a04"/><p xml:id="pG118p0525a0401" style="margin-left:0em;text-indent:2em;">十四、赤色三昧破他化自在天有：謂菩薩修戒定慧，破諸煩惱，證於赤色三昧。以此
+<lb ed="G" n="0525a05"/>天果報，宮殿服玩，一切皆赤，故以此三昧，令其捨離一切煩惱，亦得證此也。</p>
+<lb ed="G" n="0525a06"/><p xml:id="pG118p0525a0601" style="margin-left:0em;text-indent:2em;">十五、白色三昧破初禪有：謂菩薩修戒定慧，證於白色三昧。以此天果報，一切皆
+<lb ed="G" n="0525a07"/>白，故以此三昧，令其捨離一切煩惱，亦得證此也。</p>
+<lb ed="G" n="0525a08"/><p xml:id="pG118p0525a0801" style="margin-left:0em;text-indent:2em;">十六、種種三昧破梵王有：謂菩薩修戒定慧，證於種種三昧。以此天主領大千世界，
+<lb ed="G" n="0525a09"/>種類既多，果報不等，故以此三昧，令其捨離種種果報，亦得證此也。</p>
+<lb ed="G" n="0525a10"/><p xml:id="pG118p0525a1001" style="margin-left:0em;text-indent:2em;">十七、雙三昧破二禪有：謂菩薩修戒定慧，證雙三昧。以此天獨有內淨支喜支二種定
+<lb ed="G" n="0525a11"/>相，即果報雙，而未見雙空雙假雙中之理，故以此三昧，令其捨離淨喜，而證雙空等也。
+<lb ed="G" n="0525a12"/><note place="inline">雙空者：謂見思二惑俱空也。雙假者：謂見假思假，即見思惑，以此惑體，虛假不實故也。雙中者：
+<lb ed="G" n="0525a13"/>謂破見思惑，同入中道也。</note></p>
+<lb ed="G" n="0525a14"/><p xml:id="pG118p0525a1401" style="margin-left:0em;text-indent:2em;">十八、雷音三昧破三禪有：謂菩薩修戒定慧，證於雷音三昧。以此天禪樂最深，如冰
+<lb ed="G" n="0525a15"/>魚蟄蟲，著於果報之樂，故以此三昧而驚駭之，令其捨離諸樂，亦證於此也。</p>
+<lb ed="G" n="0525a16"/><p xml:id="pG118p0525a1601" style="margin-left:0em;text-indent:2em;">十九、注雨三昧破四禪有：謂菩薩修戒定慧，證於注雨三昧。以此天如大地，具諸種
+<pb ed="G" xml:id="G118.2302.0526a" n="0526a"/>
+<lb ed="G" n="0526a01"/>子，若不得雨，善芽不生，故以此三昧之雨，令其發生三諦之種，亦得證此也。</p>
+<lb ed="G" n="0526a02"/><p xml:id="pG118p0526a0201" style="margin-left:0em;text-indent:2em;">二十、如虛空三昧破無想天有：謂菩薩修戒定慧，證於如虛空三昧。以此天一期，心
+<lb ed="G" n="0526a03"/>想不行，妄計果報非空，而為<g ref="#CB29810"/>槃，故以此三昧，破彼非空，令其起修空淨之行，亦得證
+<lb ed="G" n="0526a04"/>此也。</p>
+<lb ed="G" n="0526a05"/><p xml:id="pG118p0526a0501" style="margin-left:0em;text-indent:2em;">二十一、照鏡三昧破阿那含天有：即第三果，生於色界之天也。謂菩薩修戒定慧，證
+<lb ed="G" n="0526a06"/>於照鏡三昧。以此天雖得無漏淨色，但是果報之淨，未獲究盡色空，故以此三昧，令其破
+<lb ed="G" n="0526a07"/>彼報淨之色，究竟真空之理，亦得證此也。</p>
+<lb ed="G" n="0526a08"/><p xml:id="pG118p0526a0801" style="margin-left:0em;text-indent:2em;">二十二、無礙三昧破空處有：謂菩薩修戒定慧，證於無礙三昧。以此天得出色籠，果
+<lb ed="G" n="0526a09"/>報無礙，未是空假中無礙，故以此三昧，令其捨離果報，亦得證此也。<note place="inline">色籠者：謂色界色
+<lb ed="G" n="0526a10"/>質籠罩也。</note></p>
+<lb ed="G" n="0526a11"/><p xml:id="pG118p0526a1101" style="margin-left:0em;text-indent:2em;">二十三、常三昧破識處有：謂菩薩修戒定慧，證常三昧。以此天以識相續不斷為常，
+<lb ed="G" n="0526a12"/>此乃定報，即非無為等常，故以此三昧，令其捨離定報之常，亦得證此也。</p>
+<lb ed="G" n="0526a13"/><p xml:id="pG118p0526a1301" style="margin-left:0em;text-indent:2em;">二十四、樂三昧破不用處有：不用處，又名無所有處。謂菩薩修戒定慧，證樂三昧。
+<lb ed="G" n="0526a14"/>以此天厭識處無邊，入無所有處，以此處如癡，癡故是苦，故以此三昧，令其捨離於癡，
+<lb ed="G" n="0526a15"/>亦得證此也。</p>
+<lb ed="G" n="0526a16"/><p xml:id="pG118p0526a1601" style="margin-left:0em;text-indent:2em;">二十五、我三昧破非想非非想處有：謂菩薩修戒定慧，證我三昧。以此天居無色界
+<pb ed="G" xml:id="G118.2302.0527a" n="0527a"/>
+<lb ed="G" n="0527a01"/>頂，謂是<g ref="#CB29810"/>槃果報，猶有細煩惱等惑而不自在，故以此三昧，令其捨離煩惱，亦得證此
+<lb ed="G" n="0527a02"/>也。</p></cb:def></entry></cb:div>
+<lb ed="G" n="0527a03"/>
+<lb ed="G" n="0527a04"/><cb:div type="other"><cb:mulu type="其他" level="2">二十五種外道冥諦</cb:mulu><entry><form>二十五種外道冥諦<note place="inline">出演義鈔</note></form>
+<lb ed="G" n="0527a05"/><cb:def><p xml:id="pG118p0527a0501" style="margin-left:0em;text-indent:2em;">二十五種冥諦者：乃是迦毗羅外道之所計也。蓋此外道，亦修禪定，有神通力，知八
+<lb ed="G" n="0527a06"/>萬劫中事；八萬劫前，冥然不知，謂之冥諦。從冥初自性，生智大，乃至神我，開成二十
+<lb ed="G" n="0527a07"/>五諦，合為九位也。<note place="inline">梵語迦毗羅，華言黃色。</note></p>
+<lb ed="G" n="0527a08"/><p xml:id="pG118p0527a0801" style="margin-left:0em;text-indent:2em;">一、冥初自性：謂此外道，以八萬劫前之事，冥然不知之處，昧為自性，故云冥初自
+<lb ed="G" n="0527a09"/>性。</p>
+<lb ed="G" n="0527a10"/><p xml:id="pG118p0527a1001" style="margin-left:0em;text-indent:2em;">二、智大：智大亦名覺大，即增長之義。謂冥初之際，覺知增長，故云從冥初生智
+<lb ed="G" n="0527a11"/>大。</p>
+<lb ed="G" n="0527a12"/><p xml:id="pG118p0527a1201" style="margin-left:0em;text-indent:2em;">三、我心：我心亦名我慢，即我執也。謂由覺知，生我慢心，故云從智大生我心。</p>
+<lb ed="G" n="0527a13"/><p xml:id="pG118p0527a1301" style="margin-left:0em;text-indent:2em;">四、五唯：唯即微也。五唯亦名五微，即色聲香味觸也。以色等五種，由我執之心方
+<lb ed="G" n="0527a14"/>現，故云從我心生五唯。</p>
+<lb ed="G" n="0527a15"/><p xml:id="pG118p0527a1501" style="margin-left:0em;text-indent:2em;">五、五大：五大即地水火風空也。此五種性，徧一切處，故名為大，由極微而生，故
+<lb ed="G" n="0527a16"/>云從五唯生五大。</p>
+<pb ed="G" xml:id="G118.2302.0528a" n="0528a"/>
+<lb ed="G" n="0528a01"/><p xml:id="pG118p0528a0101" style="margin-left:0em;text-indent:2em;">六、五知根：五根即眼耳鼻舌身。謂之知者，以此五種，皆有知覺故也。因五大而
+<lb ed="G" n="0528a02"/>成，故云從五大生五知根。</p>
+<lb ed="G" n="0528a03"/><p xml:id="pG118p0528a0301" style="margin-left:0em;text-indent:2em;">七、五作業根：五根即口與手足小便大便。謂之作業者，以此五種，能作業用故也。
+<lb ed="G" n="0528a04"/>亦因五大而成，故云從五大生五作業根。</p>
+<lb ed="G" n="0528a05"/><p xml:id="pG118p0528a0501" style="margin-left:0em;text-indent:2em;">八、心平等根：心乃肉團心，即意根也。謂之平等者，以此根能徧一切根境而生分別
+<lb ed="G" n="0528a06"/>也。此亦五大所成，故云從五大生平等根。並前五知、五作業，共為十一根也。</p>
+<lb ed="G" n="0528a07"/><p xml:id="pG118p0528a0701" style="margin-left:0em;text-indent:2em;">九、神我：神我即第八識也。外道執神我能生諸法，常住不壞，計為<g ref="#CB29810"/>槃，是二十五
+<lb ed="G" n="0528a08"/>諦之主也。</p></cb:def></entry></cb:div>
+<lb ed="G" n="0528a09"/>
+<lb ed="G" n="0528a10"/><cb:div type="other"><cb:mulu type="其他" level="2">二十五便法</cb:mulu><entry><form>二十五便法</form>
+<lb ed="G" n="0528a11"/><cb:def>
+<lb ed="G" n="0528a12"/><p cb:type="pre" xml:id="pG118p0528a1201">　　　　　　┌一、持戒清淨──在家出家，大小不同。
+<lb ed="G" n="0528a13"/>　　　　　　│二、衣食具足──蔽形即足，隨食資身。
+<lb ed="G" n="0528a14"/>　　一具五緣┤三、閒居靜處──不作眾事，名無憒鬧。
+<lb ed="G" n="0528a15"/>　　　　　　│四、息諸緣務──生活人事，工巧技術。
+<lb ed="G" n="0528a16"/>　　　　　　└五、近善知識──多護同行，教授三種。
+<pb ed="G" xml:id="G118.2302.0529a" n="0529a"/>
+<lb ed="G" n="0529a01"/>　　　　　　┌一、訶色──男女形貌，玄黃朱紫。
+<lb ed="G" n="0529a02"/>　　　　　　│二、訶聲──絲竹環珮，男女謌詠。
+<lb ed="G" n="0529a03"/>　　二訶五欲┤三、訶香──男女身香，飲食香等。
+<lb ed="G" n="0529a04"/>　　　　　　│四、訶味──飲食肴膳，種種美味。
+<lb ed="G" n="0529a05"/>　　　　　　└五、訶觸──男女身分，及諸好觸。
+<lb ed="G" n="0529a06"/>　　　　　　┌一、貪欲──追昔五欲，忘失正念。
+<lb ed="G" n="0529a07"/>　　　　　　│二、嗔恚──想他惱我，憤怒相續。
+<lb ed="G" n="0529a08"/>　　三棄五盖┤三、睡眠──心神昏昧，烏暗沉黑。
+<lb ed="G" n="0529a09"/>　　　　　　│四、掉悔──作無益事，心中憂悔。
+<lb ed="G" n="0529a10"/>　　　　　　└五、疑───非障理疑，乃障定疑。
+<lb ed="G" n="0529a11"/>　　　　　　┌一、調心不沉不浮──沉繫鼻端，浮安心下。
+<lb ed="G" n="0529a12"/>　　　　　　│二、調身不緩不急──挺動肢節，正頭直項。
+<lb ed="G" n="0529a13"/>　　四調五事┤三、調息不澁不滑──氣息若調，則易入定。
+<lb ed="G" n="0529a14"/>　　　　　　│四、調眠不節不恣──不可苦節，復不可恣。
+<lb ed="G" n="0529a15"/>　　　　　　└五、調食不饑不飽──安身愈疾，處中得宜。
+<pb ed="G" xml:id="G118.2302.0530a" n="0530a"/>
+<lb ed="G" n="0530a01"/>　　　　　　┌一、欲──欲離妄想顛倒，欲得禪定智慧。
+<lb ed="G" n="0530a02"/>　　　　　　│二、精進─持戒棄盖，初中後夜勤行精進。
+<lb ed="G" n="0530a03"/>　　五行五法┤三、念──念世欺誑可輕賤，禪定智慧可重貴。
+<lb ed="G" n="0530a04"/>　　　　　　│四、巧慧─籌量世間樂、禪定智慧樂得失輕重等。
+<lb ed="G" n="0530a05"/>　　　　　　└五、一心─念慧分明，見世間可患，定慧可貴。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="G" n="0530a06"/><cb:div type="other"><cb:mulu type="其他" level="1">二十七</cb:mulu>
+<lb ed="G" n="0530a07"/><cb:div type="other"><cb:mulu type="其他" level="2">二十七斷疑</cb:mulu><entry><form>二十七斷疑<note place="inline">金剛</note></form>
+<lb ed="G" n="0530a08"/><cb:def><list rend="no-marker"><item xml:id="itemG118p0530a0801"><p xml:id="pG118p0530a0801">一、斷求佛行施住目疑。</p></item>
+<lb ed="G" n="0530a09"/><item xml:id="itemG118p0530a0901"><p xml:id="pG118p0530a0901">二、斷因果俱深無信疑。</p></item>
+<lb ed="G" n="0530a10"/><item xml:id="itemG118p0530a1001"><p xml:id="pG118p0530a1001">三、斷無相云何得說疑。</p></item>
+<lb ed="G" n="0530a11"/><item xml:id="itemG118p0530a1101"><p xml:id="pG118p0530a1101">四、斷聲聞得果是取疑。</p></item>
+<lb ed="G" n="0530a12"/><item xml:id="itemG118p0530a1201"><p xml:id="pG118p0530a1201">五、斷釋迦然燈取說疑。</p></item>
+<lb ed="G" n="0530a13"/><item xml:id="itemG118p0530a1301"><p xml:id="pG118p0530a1301">六、斷嚴土違於不取疑。</p></item>
+<lb ed="G" n="0530a14"/><item xml:id="itemG118p0530a1401"><p xml:id="pG118p0530a1401">七、斷受得報身有取疑。</p></item>
+<lb ed="G" n="0530a15"/><item xml:id="itemG118p0530a1501"><p xml:id="pG118p0530a1501">八、斷持說未說苦果疑。</p></item>
+<lb ed="G" n="0530a16"/><item xml:id="itemG118p0530a1601"><p xml:id="pG118p0530a1601">九、斷能證無體非因疑。</p></item>
+<pb ed="G" xml:id="G118.2302.0531a" n="0531a"/>
+<lb ed="G" n="0531a01"/><item xml:id="itemG118p0531a0101"><p xml:id="pG118p0531a0101">十、斷如得有得無得疑。</p></item>
+<lb ed="G" n="0531a02"/><item xml:id="itemG118p0531a0201"><p xml:id="pG118p0531a0201">十一、斷安得降伏存我疑。</p></item>
+<lb ed="G" n="0531a03"/><item xml:id="itemG118p0531a0301"><p xml:id="pG118p0531a0301">十二、斷佛因是有菩薩疑。</p></item>
+<lb ed="G" n="0531a04"/><item xml:id="itemG118p0531a0401"><p xml:id="pG118p0531a0401">十三、斷無因則無菩薩疑。</p></item>
+<lb ed="G" n="0531a05"/><item xml:id="itemG118p0531a0501"><p xml:id="pG118p0531a0501">十四、斷無人度生嚴生疑。</p></item>
+<lb ed="G" n="0531a06"/><item xml:id="itemG118p0531a0601"><p xml:id="pG118p0531a0601">十五、斷諸佛不見諸法疑。</p></item>
+<lb ed="G" n="0531a07"/><item xml:id="itemG118p0531a0701"><p xml:id="pG118p0531a0701">十六、斷福德例心顛倒疑。</p></item>
+<lb ed="G" n="0531a08"/><item xml:id="itemG118p0531a0801"><p xml:id="pG118p0531a0801">十七、斷無為何有相好疑。</p></item>
+<lb ed="G" n="0531a09"/><item xml:id="itemG118p0531a0901"><p xml:id="pG118p0531a0901">十八、斷無身何以說法疑。</p></item>
+<lb ed="G" n="0531a10"/><item xml:id="itemG118p0531a1001"><p xml:id="pG118p0531a1001">十九、斷無法如何修證疑。</p></item>
+<lb ed="G" n="0531a11"/><item xml:id="itemG118p0531a1101"><p xml:id="pG118p0531a1101">二十、斷所說無記非因疑。</p></item>
+<lb ed="G" n="0531a12"/><item xml:id="itemG118p0531a1201"><p xml:id="pG118p0531a1201">二十一、斷平等云何度生疑。</p></item>
+<lb ed="G" n="0531a13"/><item xml:id="itemG118p0531a1301"><p xml:id="pG118p0531a1301">二十二、斷以相比知真佛疑。</p></item>
+<lb ed="G" n="0531a14"/><item xml:id="itemG118p0531a1401"><p xml:id="pG118p0531a1401">二十三、斷佛果非關福相疑。</p></item>
+<lb ed="G" n="0531a15"/><item xml:id="itemG118p0531a1501"><p xml:id="pG118p0531a1501">二十四、斷化身出現受福疑。</p></item>
+<lb ed="G" n="0531a16"/><item xml:id="itemG118p0531a1601"><p xml:id="pG118p0531a1601">二十五、斷法身化身一異疑。</p></item>
+<pb ed="G" xml:id="G118.2302.0532a" n="0532a"/>
+<lb ed="G" n="0532a01"/><item xml:id="itemG118p0532a0101"><p xml:id="pG118p0532a0101">二十六、斷化身說法無福疑。</p></item>
+<lb ed="G" n="0532a02"/><item xml:id="itemG118p0532a0201"><p xml:id="pG118p0532a0201">二十七、斷入寂如何說法疑。</p></item></list></cb:def></entry></cb:div>
+<lb ed="G" n="0532a03"/>
+<lb ed="G" n="0532a04"/><cb:div type="other"><cb:mulu type="其他" level="2">空門二十七賢聖位</cb:mulu><entry><form>空門二十七賢聖位<note place="inline">名廣義狹</note></form>
+<lb ed="G" n="0532a05"/><cb:def><p xml:id="pG118p0532a0501" style="margin-left:2em;"><figure><graphic url="../figures/G/G118p0532_01.gif"></graphic></figure></p></cb:def></entry></cb:div>
+<lb ed="G" n="0532a06"/>
+<lb ed="G" n="0532a07"/>
+<lb ed="G" n="0532a08"/>
+<lb ed="G" n="0532a09"/>
+<lb ed="G" n="0532a10"/>
+<lb ed="G" n="0532a11"/>
+<lb ed="G" n="0532a12"/>
+<lb ed="G" n="0532a13"/>
+<lb ed="G" n="0532a14"/>
+<lb ed="G" n="0532a15"/>
+<lb ed="G" n="0532a16"/>
+<lb ed="G" n="0532a17"/>
+<lb ed="G" n="0532a18"/>
+<lb ed="G" n="0532a19"/>
+<lb ed="G" n="0532a20"/>
+<lb ed="G" n="0532a21"/>
+<lb ed="G" n="0532a22"/>
+<lb ed="G" n="0532a23"/>
+<lb ed="G" n="0532a24"/>
+<pb ed="G" xml:id="G118.2302.0533a" n="0533a"/>
+<lb ed="G" n="0533a01"/><cb:div type="other"><cb:mulu type="其他" level="2">毗曇有門七賢七聖</cb:mulu><entry><form>毗曇有門七賢七聖<note place="inline">名狹義廣</note></form>
+<lb ed="G" n="0533a02"/><cb:def><p xml:id="pG118p0533a0201" style="margin-left:2em;"><figure><graphic url="../figures/G/G118p0533_01.gif"></graphic></figure></p></cb:def></entry></cb:div>
+<lb ed="G" n="0533a03"/>
+<lb ed="G" n="0533a04"/>
+<lb ed="G" n="0533a05"/>
+<lb ed="G" n="0533a06"/>
+<lb ed="G" n="0533a07"/>
+<lb ed="G" n="0533a08"/>
+<lb ed="G" n="0533a09"/>
+<lb ed="G" n="0533a10"/>
+<lb ed="G" n="0533a11"/>
+<lb ed="G" n="0533a12"/>
+<lb ed="G" n="0533a13"/>
+<lb ed="G" n="0533a14"/>
+<lb ed="G" n="0533a15"/>
+<lb ed="G" n="0533a16"/>
+<lb ed="G" n="0533a17"/>
+<lb ed="G" n="0533a18"/>
+<lb ed="G" n="0533a19"/>
+<lb ed="G" n="0533a20"/>
+<lb ed="G" n="0533a21"/>
+<lb ed="G" n="0533a22"/>
+<lb ed="G" n="0533a23"/>
+<lb ed="G" n="0533a24"/>
+<lb ed="G" n="0533a25"/>
+<lb ed="G" n="0533a26"/>
+<lb ed="G" n="0533a27"/>
+<lb ed="G" n="0533a28"/>
+<pb ed="G" xml:id="G118.2302.0534a" n="0534a"/>
+<lb ed="G" n="0534a01"/><cb:div type="other"><cb:mulu type="其他" level="2">二十七種善惡果報</cb:mulu><entry><form>二十七種善惡果報<note place="inline">懺法</note></form>
+<lb ed="G" n="0534a02"/><cb:def><p xml:id="pG118p0534a0201" style="margin-left:2em;"><figure><graphic url="../figures/G/G118p0534_01.gif"></graphic></figure></p></cb:def></entry></cb:div></cb:div>
+<lb ed="G" n="0534a03"/>
+<lb ed="G" n="0534a04"/>
+<lb ed="G" n="0534a05"/>
+<lb ed="G" n="0534a06"/>
+<lb ed="G" n="0534a07"/>
+<lb ed="G" n="0534a08"/>
+<lb ed="G" n="0534a09"/>
+<lb ed="G" n="0534a10"/>
+<lb ed="G" n="0534a11"/>
+<lb ed="G" n="0534a12"/>
+<lb ed="G" n="0534a13"/>
+<lb ed="G" n="0534a14"/>
+<lb ed="G" n="0534a15"/>
+<lb ed="G" n="0534a16"/>
+<lb ed="G" n="0534a17"/>
+<pb ed="G" xml:id="G118.2302.0535a" n="0535a"/>
+<lb ed="G" n="0535a01"/><cb:div type="other"><cb:mulu type="其他" level="1">二十八</cb:mulu><cb:div type="other"><cb:mulu type="其他" level="2">二十八天身衣壽量</cb:mulu><entry><form>二十八天身衣壽量</form>
+<lb ed="G" n="0535a02"/><cb:def>
+<lb ed="G" n="0535a03"/><p cb:type="pre" xml:id="pG118p0535a0301">　　有想無想壽八萬四千┐
+<lb ed="G" n="0535a04"/>　　不用處壽四萬二千　│
+<lb ed="G" n="0535a05"/>　　識處壽二萬一千　　│
+<lb ed="G" n="0535a06"/>　　空處壽一萬　　　　│
+<lb ed="G" n="0535a07"/>　　色究竟壽五千　　　│
+<lb ed="G" n="0535a08"/>　　大善壽四千　　　　│
+<lb ed="G" n="0535a09"/>　　善見壽三千　　　　├劫。
+<lb ed="G" n="0535a10"/>　　無爇壽二千　　　　│
+<lb ed="G" n="0535a11"/>　　無造壽一千　　　　│
+<lb ed="G" n="0535a12"/>　　無想壽五百　　　　│
+<lb ed="G" n="0535a13"/>　　果實三天壽四　　　│
+<lb ed="G" n="0535a14"/>　　徧淨三天壽三　　　│
+<lb ed="G" n="0535a15"/>　　光音三天壽二　　　│
+<lb ed="G" n="0535a16"/>　　梵迦夷三天壽一──┘</p>
+<pb ed="G" xml:id="G118.2302.0536a" n="0536a"/>
+<lb ed="G" n="0536a01"/><p xml:id="pG118p0536a0101" style="margin-left:0em;text-indent:2em;">以上諸天，身衣隨意，無男女婬欲，以禪定法喜為食。</p>
+<lb ed="G" n="0536a02"/><p xml:id="pG118p0536a0201" style="margin-left:0em;text-indent:2em;">魔身天，壽三萬二千歲，身衣不載。以下皆有嫁娶之法如人間，唯北洲無我我所，樹
+<lb ed="G" n="0536a03"/>枝若垂，男女便合，無婚姻之禮。</p>
+<lb ed="G" n="0536a04"/><p xml:id="pG118p0536a0401" style="margin-left:0em;text-indent:2em;">他化天，身長六十由旬，衣半銖，一萬六千歲，以人間一千六百歲為一日，暫視成陰
+<lb ed="G" n="0536a05"/>陽。</p>
+<lb ed="G" n="0536a06"/><p xml:id="pG118p0536a0601" style="margin-left:0em;text-indent:2em;">化樂天，身長八由旬，衣一銖，壽八千歲，以人間八百歲為一日，熟視為陰陽。</p>
+<lb ed="G" n="0536a07"/><p xml:id="pG118p0536a0701" style="margin-left:0em;text-indent:2em;">兜率天，身長四由旬，衣二銖，壽四千歲，以人間四百歲為一日，執手成陰陽。</p>
+<lb ed="G" n="0536a08"/><p xml:id="pG118p0536a0801" style="margin-left:0em;text-indent:2em;">熖摩天，身長二由旬，衣三銖，壽二千歲，以人間二百歲為一日，相近成陰陽。</p>
+<lb ed="G" n="0536a09"/><p xml:id="pG118p0536a0901" style="margin-left:0em;text-indent:2em;">忉利天，身長一由旬，衣六銖，壽一千歲，以人間百歲為一日，抱成陰陽。修羅，身
+<lb ed="G" n="0536a10"/>衣等同。</p>
+<lb ed="G" n="0536a11"/><p xml:id="pG118p0536a1101" style="margin-left:0em;text-indent:2em;">四王天，身長半由旬，衣半兩，壽五百歲，以人間五十年為一日，交成陰陽。以上出
+<lb ed="G" n="0536a12"/>阿含經。</p></cb:def></entry></cb:div>
+<lb ed="G" n="0536a13"/>
+<lb ed="G" n="0536a14"/>
+<lb ed="G" n="0536a15"/>
+<lb ed="G" n="0536a16"/>
+<pb ed="G" xml:id="G118.2302.0537a" n="0537a"/>
+<lb ed="G" n="0537a01"/><cb:div type="other"><cb:mulu type="其他" level="2">二十八部</cb:mulu><entry><form>二十八部</form>
+<lb ed="G" n="0537a02"/><cb:def>
+<lb ed="G" n="0537a03"/><p cb:type="pre" xml:id="pG118p0537a0301">　　一方有四部┐
+<lb ed="G" n="0537a04"/>　　六方二十四│
+<lb ed="G" n="0537a05"/>　　四維各一部├┐　巡遊世間賞善罰惡
+<lb ed="G" n="0537a06"/>　　合為二十八┘│
+<lb ed="G" n="0537a07"/>　　一方有五部┐├二說不出二十八部。
+<lb ed="G" n="0537a08"/>　　地水火風空││
+<lb ed="G" n="0537a09"/>　　四方則一十├┘　皆為散脂大將所管
+<lb ed="G" n="0537a10"/>　　四王所領八┘</p></cb:def></entry></cb:div>
+<lb ed="G" n="0537a11"/>
+<lb ed="G" n="0537a12"/><cb:div type="other"><cb:mulu type="其他" level="2">二十八宿</cb:mulu><entry><form>二十八宿<note place="inline">消災</note></form><cb:def>
+<lb ed="G" n="0537a13"/><p cb:type="pre" xml:id="pG118p0537a1301">　　東──角亢氐房心尾箕。　東──昴畢觜參井鬼柳。
+<lb ed="G" n="0537a14"/>
+<lb ed="G" n="0537a15"/>　　南──井鬼柳星張翼軫。　南──星張翼軫角亢氐。
+<lb ed="G" n="0537a16"/>　　　　　　　　　　　　　　　　　　　　　　　　　　　（孔雀）
+<lb ed="G" n="0537a17"/>　　西──斗牛女虛危室壁。　西──房心尾箕斗牛女。
+<lb ed="G" n="0537a18"/>
+<lb ed="G" n="0537a19"/>　　北──奎婁胃昴畢觜參。　北──虛危室壁奎婁胃。</p></cb:def></entry></cb:div>
+<pb ed="G" xml:id="G118.2302.0538a" n="0538a"/>
+<lb ed="G" n="0538a01"/><cb:div type="other"><cb:mulu type="其他" level="2">二十八宿</cb:mulu><entry><form>二十八宿</form>
+<lb ed="G" n="0538a02"/><cb:def><p xml:id="pG118p0538a0201" style="margin-left:0em;text-indent:2em;">周天三百六十五度四分度之一，列布二十八宿以定天體，宿音秀。</p>
+<lb ed="G" n="0538a03"/><p xml:id="pG118p0538a0301" style="margin-left:0em;text-indent:2em;">角木蛟　亢金龍　氐土貉　房日兔　心月狐　尾火虎　箕水豹　斗木獬　牛金羊　女土蝠
+<lb ed="G" n="0538a04"/>　虛日鼠　危月燕　室火猪　壁水<g ref="#CB04993"/>　奎木狼　婁金狗　胃土雉　昴日鷄　畢月鳥　觜火猴
+<lb ed="G" n="0538a05"/>　參水猿　井木豻　鬼金羊　柳土獐　星日馬　張月鹿　翼火蛇　軫水蚓</p>
+<lb ed="G" n="0538a06"/><list rend="no-marker"><item xml:id="itemG118p0538a0601"><p xml:id="pG118p0538a0601">自角至箕為東方蒼龍之體，凡七十五度。</p></item>
+<lb ed="G" n="0538a07"/><item xml:id="itemG118p0538a0701"><p xml:id="pG118p0538a0701">自斗至壁為北方玄武之體，凡九十八度四分度之一。</p></item>
+<lb ed="G" n="0538a08"/><item xml:id="itemG118p0538a0801"><p xml:id="pG118p0538a0801">自奎至參為西方白虎之體，凡八十度。</p></item>
+<lb ed="G" n="0538a09"/><item xml:id="itemG118p0538a0901"><p xml:id="pG118p0538a0901">自井至軫為南方朱鳥之體，凡一百一十二度。</p></item></list></cb:def></entry></cb:div>
+<lb ed="G" n="0538a10"/>
+<lb ed="G" n="0538a11"/><cb:div type="other"><cb:mulu type="其他" level="2">二十八宿</cb:mulu><entry><form>二十八宿<note place="inline">出法苑珠林</note></form>
+<lb ed="G" n="0538a12"/><cb:def><p xml:id="pG118p0538a1201" style="margin-left:0em;text-indent:2em;">大集經云：佛告娑婆世界主大梵天王等言：「過去天仙，云何布置諸宿曜辰，攝護國
+<lb ed="G" n="0538a13"/>土，養育眾生？」大梵天王等白佛言：「過去天仙，分布安置諸宿曜辰，於四方中各有所
+<lb ed="G" n="0538a14"/>主。如云角宿，主於眾鳥；亢宿，主於出家求聖道等。」爾時佛告梵王等言：「我亦使諸
+<lb ed="G" n="0538a15"/>曜星辰，攝護國土，養育眾生。汝等宣告，令彼得知，如我所分國土眾生，各各隨分攝護
+<pb ed="G" xml:id="G118.2302.0539a" n="0539a"/>
+<lb ed="G" n="0539a01"/>養育。」故說二十八宿所屬不同，各有威靈護衛也。</p>
+<lb ed="G" n="0539a02"/><p xml:id="pG118p0539a0201" style="margin-left:0em;text-indent:2em;">一、東方七宿：角宿主於眾鳥，亢宿主出家求聖道者，氐宿主水主眾生，房宿主行車
+<lb ed="G" n="0539a03"/>求利，心宿主於女人，尾宿主洲渚眾，箕宿主於陶師。</p>
+<lb ed="G" n="0539a04"/><p xml:id="pG118p0539a0401" style="margin-left:0em;text-indent:2em;">二、南方七宿：井宿主於金師，鬼宿主一切國王大臣，柳宿主雪山龍，星宿主巨富
+<lb ed="G" n="0539a05"/>者，張宿主於盜賊，翼宿主於貴人，軫宿主須羅吒國。</p>
+<lb ed="G" n="0539a06"/><p xml:id="pG118p0539a0601" style="margin-left:0em;text-indent:2em;">三、西方七宿：奎宿主行船人，婁宿主於商人，胃宿主婆樓迦羅國，昴宿主於水牛，
+<lb ed="G" n="0539a07"/>畢宿主一切眾生，觜宿主鞞提訶國，參宿主於刹利。</p>
+<lb ed="G" n="0539a08"/><p xml:id="pG118p0539a0801" style="margin-left:0em;text-indent:2em;">四、北方七宿：斗宿主澆部沙國，牛宿主於刹利及安多鉢竭那國，女宿主鴦伽摩伽陁
+<lb ed="G" n="0539a09"/>羅國，虛宿主那遮羅國，危宿主著華冠，室宿主乾陁羅國輸盧那國及諸龍蛇蝮行之類，壁
+<lb ed="G" n="0539a10"/>宿主乾闥婆善樂。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="G" n="0539a11"/><cb:div type="other"><cb:mulu type="其他" level="1">三十</cb:mulu>
+<lb ed="G" n="0539a12"/><cb:div type="other"><cb:mulu type="其他" level="2">商三十王</cb:mulu><entry><form>商三十王</form>
+<lb ed="G" n="0539a13"/><cb:def><p xml:id="pG118p0539a1301" style="margin-left:0em;text-indent:2em;">姓子氏，湯伐桀為天子，傳至紂，凡六百四十五年。</p>
+<lb ed="G" n="0539a14"/><list rend="no-marker"><item xml:id="itemG118p0539a1401"><p xml:id="pG118p0539a1401">一、湯：名太乙，一名履，在位十二年。</p></item>
+<lb ed="G" n="0539a15"/><item xml:id="itemG118p0539a1501"><p xml:id="pG118p0539a1501">二、外丙：湯次子，在位一十年。</p></item>
+<lb ed="G" n="0539a16"/><item xml:id="itemG118p0539a1601"><p xml:id="pG118p0539a1601">三、仲壬：外丙弟，在位四年。</p></item>
+<pb ed="G" xml:id="G118.2302.0540a" n="0540a"/>
+<lb ed="G" n="0540a01"/><item xml:id="itemG118p0540a0101"><p xml:id="pG118p0540a0101">四、太甲：湯孫，太丁子，立三十三年。</p></item>
+<lb ed="G" n="0540a02"/><item xml:id="itemG118p0540a0201"><p xml:id="pG118p0540a0201">五、沃丁：太甲子，在位二十九年。</p></item>
+<lb ed="G" n="0540a03"/><item xml:id="itemG118p0540a0301"><p xml:id="pG118p0540a0301">六、太庚：沃丁弟，在位三十五年。</p></item>
+<lb ed="G" n="0540a04"/><item xml:id="itemG118p0540a0401"><p xml:id="pG118p0540a0401">七、小甲：太庚子，在位十七年。</p></item>
+<lb ed="G" n="0540a05"/><item xml:id="itemG118p0540a0501"><p xml:id="pG118p0540a0501">八、雍<note n="0540a0501" resp="CBETA" type="add">己【CB】，巳【佛教】</note><app n="0540a0501"><lem wit="【CB】" resp="CBETA">己</lem><rdg wit="【佛教】">巳</rdg></app>：小甲弟，在位十二年。</p></item>
+<lb ed="G" n="0540a06"/><item xml:id="itemG118p0540a0601"><p xml:id="pG118p0540a0601">九、大戊：雍<note n="0540a0601" resp="CBETA" type="add">己【CB】，巳【佛教】</note><app n="0540a0601"><lem wit="【CB】" resp="CBETA">己</lem><rdg wit="【佛教】">巳</rdg></app>弟，在位七十五年。</p></item>
+<lb ed="G" n="0540a07"/><item xml:id="itemG118p0540a0701"><p xml:id="pG118p0540a0701">十、仲丁：大戊子，在位十三年。</p></item>
+<lb ed="G" n="0540a08"/><item xml:id="itemG118p0540a0801"><p xml:id="pG118p0540a0801">十一、外壬：仲丁弟，在位十五年。</p></item>
+<lb ed="G" n="0540a09"/><item xml:id="itemG118p0540a0901"><p xml:id="pG118p0540a0901">十二、河亶甲：外壬弟，在位七年。</p></item>
+<lb ed="G" n="0540a10"/><item xml:id="itemG118p0540a1001"><p xml:id="pG118p0540a1001">十三、祖乙：河亶甲子，在位十九年。</p></item>
+<lb ed="G" n="0540a11"/><item xml:id="itemG118p0540a1101"><p xml:id="pG118p0540a1101">十四、祖辛：祖乙子，在位十六年。</p></item>
+<lb ed="G" n="0540a12"/><item xml:id="itemG118p0540a1201"><p xml:id="pG118p0540a1201">十五、沃甲：祖辛弟，在位二十五年。</p></item>
+<lb ed="G" n="0540a13"/><item xml:id="itemG118p0540a1301"><p xml:id="pG118p0540a1301">十六、祖丁：沃甲子，在位三十二年。</p></item>
+<lb ed="G" n="0540a14"/><item xml:id="itemG118p0540a1401"><p xml:id="pG118p0540a1401">十七、南庚：祖丁弟，在位二十五年。</p></item>
+<lb ed="G" n="0540a15"/><item xml:id="itemG118p0540a1501"><p xml:id="pG118p0540a1501">十八、陽甲：祖丁子，在位七年。</p></item>
+<lb ed="G" n="0540a16"/><item xml:id="itemG118p0540a1601"><p xml:id="pG118p0540a1601">十九、盤庚：陽申弟，在位二十八年。</p></item>
+<pb ed="G" xml:id="G118.2302.0541a" n="0541a"/>
+<lb ed="G" n="0541a01"/><item xml:id="itemG118p0541a0101"><p xml:id="pG118p0541a0101">二十、小辛：盤庚弟，在位二十一年。</p></item>
+<lb ed="G" n="0541a02"/><item xml:id="itemG118p0541a0201"><p xml:id="pG118p0541a0201">二十一、小乙：小辛弟，在位二十八年。</p></item>
+<lb ed="G" n="0541a03"/><item xml:id="itemG118p0541a0301"><p xml:id="pG118p0541a0301">二十二、武丁：小乙弟，在位五十九年。</p></item>
+<lb ed="G" n="0541a04"/><item xml:id="itemG118p0541a0401"><p xml:id="pG118p0541a0401">二十三、祖庚：武丁子，在位七年。</p></item>
+<lb ed="G" n="0541a05"/><item xml:id="itemG118p0541a0501"><p xml:id="pG118p0541a0501">二十四、祖甲：祖庚弟，在位三十三年。</p></item>
+<lb ed="G" n="0541a06"/><item xml:id="itemG118p0541a0601"><p xml:id="pG118p0541a0601">二十五、廩辛：祖甲子，在位六年。</p></item>
+<lb ed="G" n="0541a07"/><item xml:id="itemG118p0541a0701"><p xml:id="pG118p0541a0701">二十六、庚丁：廩辛弟，在位二十一年。</p></item>
+<lb ed="G" n="0541a08"/><item xml:id="itemG118p0541a0801"><p xml:id="pG118p0541a0801">二十七、武乙：庚丁子，在位四年。</p></item>
+<lb ed="G" n="0541a09"/><item xml:id="itemG118p0541a0901"><p xml:id="pG118p0541a0901">二十八、太丁：武乙子，在位三年。</p></item>
+<lb ed="G" n="0541a10"/><item xml:id="itemG118p0541a1001"><p xml:id="pG118p0541a1001">二十九、帝乙：太丁子，在位三十七年。</p></item>
+<lb ed="G" n="0541a11"/><item xml:id="itemG118p0541a1101"><p xml:id="pG118p0541a1101">三十、帝辛：又名受，又曰紂。帝乙子，無道，立三十三年，為周武王所弒。</p></item></list>
+<lb ed="G" n="0541a12"/><p xml:id="pG118p0541a1201" style="margin-left:0em;text-indent:2em;">商世以太甲為太宗，太戊為中宗，武丁為高宗，謂之三宗。</p></cb:def></entry></cb:div>
+<lb ed="G" n="0541a13"/>
+<lb ed="G" n="0541a14"/><cb:div type="other"><cb:mulu type="其他" level="2">生淨土三十種益</cb:mulu><entry><form>生淨土三十種益<note place="inline">出淨土羣疑論</note></form>
+<lb ed="G" n="0541a15"/><cb:def><list rend="no-marker"><item xml:id="itemG118p0541a1501"><p xml:id="pG118p0541a1501">一、徃生佛土益。</p></item>
+<lb ed="G" n="0541a16"/><item xml:id="itemG118p0541a1601"><p xml:id="pG118p0541a1601">二、得大法樂益。</p></item>
+<pb ed="G" xml:id="G118.2302.0542a" n="0542a"/>
+<lb ed="G" n="0542a01"/><item xml:id="itemG118p0542a0101"><p xml:id="pG118p0542a0101">三、親近諸佛益。</p></item>
+<lb ed="G" n="0542a02"/><item xml:id="itemG118p0542a0201"><p xml:id="pG118p0542a0201">四、遊十方供佛益。</p></item>
+<lb ed="G" n="0542a03"/><item xml:id="itemG118p0542a0301"><p xml:id="pG118p0542a0301">五、親聞佛說益。</p></item>
+<lb ed="G" n="0542a04"/><item xml:id="itemG118p0542a0401"><p xml:id="pG118p0542a0401">六、福慧資糧速得圓滿益。</p></item>
+<lb ed="G" n="0542a05"/><item xml:id="itemG118p0542a0501"><p xml:id="pG118p0542a0501">七、速證菩提益。</p></item>
+<lb ed="G" n="0542a06"/><item xml:id="itemG118p0542a0601"><p xml:id="pG118p0542a0601">八、諸天人等同會一處益。</p></item>
+<lb ed="G" n="0542a07"/><item xml:id="itemG118p0542a0701"><p xml:id="pG118p0542a0701">九、無退轉益。</p></item>
+<lb ed="G" n="0542a08"/><item xml:id="itemG118p0542a0801"><p xml:id="pG118p0542a0801">十、無量行願增進益。</p></item>
+<lb ed="G" n="0542a09"/><item xml:id="itemG118p0542a0901"><p xml:id="pG118p0542a0901">十一、珍禽說法益。</p></item>
+<lb ed="G" n="0542a10"/><item xml:id="itemG118p0542a1001"><p xml:id="pG118p0542a1001">十二、風樹樂音益。</p></item>
+<lb ed="G" n="0542a11"/><item xml:id="itemG118p0542a1101"><p xml:id="pG118p0542a1101">十三、水演苦空益。</p></item>
+<lb ed="G" n="0542a12"/><item xml:id="itemG118p0542a1201"><p xml:id="pG118p0542a1201">十四、樂奏妙音益。</p></item>
+<lb ed="G" n="0542a13"/><item xml:id="itemG118p0542a1301"><p xml:id="pG118p0542a1301">十五、四十八願益。</p></item>
+<lb ed="G" n="0542a14"/><item xml:id="itemG118p0542a1401"><p xml:id="pG118p0542a1401">十六、真金色身益。</p></item>
+<lb ed="G" n="0542a15"/><item xml:id="itemG118p0542a1501"><p xml:id="pG118p0542a1501">十七、形無醜陋益。</p></item>
+<lb ed="G" n="0542a16"/><item xml:id="itemG118p0542a1601"><p xml:id="pG118p0542a1601">十八、具足六通益。</p></item>
+<pb ed="G" xml:id="G118.2302.0543a" n="0543a"/>
+<lb ed="G" n="0543a01"/><item xml:id="itemG118p0543a0101"><p xml:id="pG118p0543a0101">十九、常住定聚益。</p></item>
+<lb ed="G" n="0543a02"/><item xml:id="itemG118p0543a0201"><p xml:id="pG118p0543a0201">二十、無諸不善益。</p></item>
+<lb ed="G" n="0543a03"/><item xml:id="itemG118p0543a0301"><p xml:id="pG118p0543a0301">二十一、壽命長遠益。</p></item>
+<lb ed="G" n="0543a04"/><item xml:id="itemG118p0543a0401"><p xml:id="pG118p0543a0401">二十二、衣食自然益。</p></item>
+<lb ed="G" n="0543a05"/><item xml:id="itemG118p0543a0501"><p xml:id="pG118p0543a0501">二十三、唯受眾樂益。</p></item>
+<lb ed="G" n="0543a06"/><item xml:id="itemG118p0543a0601"><p xml:id="pG118p0543a0601">二十四、三十二相益。</p></item>
+<lb ed="G" n="0543a07"/><item xml:id="itemG118p0543a0701"><p xml:id="pG118p0543a0701">二十五、實無女人益。</p></item>
+<lb ed="G" n="0543a08"/><item xml:id="itemG118p0543a0801"><p xml:id="pG118p0543a0801">二十六、無有小乘益。</p></item>
+<lb ed="G" n="0543a09"/><item xml:id="itemG118p0543a0901"><p xml:id="pG118p0543a0901">二十七、離於八難益。</p></item>
+<lb ed="G" n="0543a10"/><item xml:id="itemG118p0543a1001"><p xml:id="pG118p0543a1001">二十八、得三法忍益。</p></item>
+<lb ed="G" n="0543a11"/><item xml:id="itemG118p0543a1101"><p xml:id="pG118p0543a1101">二十九、身常有光益。</p></item>
+<lb ed="G" n="0543a12"/><item xml:id="itemG118p0543a1201"><p xml:id="pG118p0543a1201">三十、得那羅延身方益。</p></item></list></cb:def></entry></cb:div>
+<lb ed="G" n="0543a13"/>
+<lb ed="G" n="0543a14"/><cb:div type="other"><cb:mulu type="其他" level="2">三十心</cb:mulu><entry><form>三十心<note place="inline">梵網</note></form>
+<lb ed="G" n="0543a15"/><cb:def>
+<lb ed="G" n="0543a16"/><p cb:type="pre" xml:id="pG118p0543a1601">　　十發趣┐　┌十住。
+<lb ed="G" n="0543a17"/>　　十長養├即┤十行。
+<lb ed="G" n="0543a18"/>　　十金剛┘　└十回向。</p></cb:def></entry></cb:div></cb:div>
+<pb ed="G" xml:id="G118.2302.0544a" n="0544a"/>
+<lb ed="G" n="0544a01"/><cb:div type="other"><cb:mulu type="其他" level="1">三十一</cb:mulu><cb:div type="other"><cb:mulu type="其他" level="2">三十一色法</cb:mulu><entry><form>三十一色法<note place="inline">出翻譯名義</note></form>
+<lb ed="G" n="0544a02"/><cb:def><p xml:id="pG118p0544a0201" style="margin-left:0em;text-indent:2em;">三十一色者：謂青黃赤白光影明闇煙雲塵霧空，此十三種各為顯色，以其顯現為色故
+<lb ed="G" n="0544a03"/>也。長短方圓麤細高下正與不正，此十種名為形色，以其形量為色故也。取捨屈伸行住坐
+<lb ed="G" n="0544a04"/>臥，此八種名為表色，以其表彰為色故也。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="G" n="0544a05"/><cb:div type="other"><cb:mulu type="其他" level="1">三十二</cb:mulu>
+<lb ed="G" n="0544a06"/><cb:div type="other"><cb:mulu type="其他" level="2">三十二應</cb:mulu><entry><form>三十二應<note place="inline">出楞嚴經</note></form>
+<lb ed="G" n="0544a07"/><cb:def><p xml:id="pG118p0544a0701" style="margin-left:0em;text-indent:2em;">謂觀世音菩薩，於往昔無數恒河沙劫，有佛名觀世音，蒙彼如來授以如幻聞熏聞修金
+<lb ed="G" n="0544a08"/>剛三昧，同佛慈悲，拔苦與樂，身成三十二應，入諸國土，化一切眾生也。<note place="inline">聲教熏習，故
+<lb ed="G" n="0544a09"/>曰聞熏：聞而復修，故曰聞修。金剛有堅利之能，以喻三昧之力也。</note></p>
+<lb ed="G" n="0544a10"/><p xml:id="pG118p0544a1001" style="margin-left:0em;text-indent:2em;">一、佛身應：謂若諸菩薩入三摩地，進修無漏勝解現圓，觀世音菩薩，即應現佛身而
+<lb ed="G" n="0544a11"/>為說法，令其解脫也。<note place="inline">梵語三摩地，華言等持。進修無漏勝解現圓：謂修無為之法，即趣入三摩
+<lb ed="G" n="0544a12"/>地，得無漏勝解，究竟圓成也。</note></p>
+<lb ed="G" n="0544a13"/><p xml:id="pG118p0544a1301" style="margin-left:0em;text-indent:2em;">二、獨覺應：出無佛世，無師自悟，故名獨覺。謂若諸有學，寂靜妙明，勝妙現圓，
+<lb ed="G" n="0544a14"/>菩薩即於彼前，應現獨覺身而為說法，令其解脫也。<note place="inline">有學者：有所學也。謂第三阿那含果以
+<lb ed="G" n="0544a15"/>前，俱屬有學。勝妙現圓者：能妙萬物以明自性，究竟圓成也。</note></p>
+<pb ed="G" xml:id="G118.2302.0545a" n="0545a"/>
+<lb ed="G" n="0545a01"/><p xml:id="pG118p0545a0101" style="margin-left:0em;text-indent:2em;">三、緣覺應：因觀十二因緣，覺真諦理，故名緣覺。謂若諸有學，斷十二因緣，緣斷
+<lb ed="G" n="0545a02"/>勝性，勝妙現圓，菩薩即於彼前，應現緣覺身而為說法，令其解脫也。<note place="inline">緣斷勝性者：謂觀
+<lb ed="G" n="0545a03"/>因緣，得斷煩惱，而證勝妙之性也。</note></p>
+<lb ed="G" n="0545a04"/><p xml:id="pG118p0545a0401" style="margin-left:0em;text-indent:2em;">四、聲聞應：聞佛聲教，故曰聲聞。謂若諸有學，得四諦空，修道入滅，勝性現圓，
+<lb ed="G" n="0545a05"/>菩薩即於彼前，應現聲聞身而為說法，令其解脫也。<note place="inline">修道入滅，勝性現圓者：謂從三果入滅，
+<lb ed="G" n="0545a06"/>將登第四無學果位，勝妙之性，現前圓成也。</note></p>
+<lb ed="G" n="0545a07"/><p xml:id="pG118p0545a0701" style="margin-left:0em;text-indent:2em;">五、梵王應：謂若諸眾生，欲心明悟，不犯欲塵，欲身清淨，菩薩即於彼前，應現梵
+<lb ed="G" n="0545a08"/>王身而為說法，令其解脫也。</p>
+<lb ed="G" n="0545a09"/><p xml:id="pG118p0545a0901" style="margin-left:0em;text-indent:2em;">六、帝釋應：謂若諸眾生，欲為天王統領諸天，菩薩即於彼前，應現帝釋身而為說
+<lb ed="G" n="0545a10"/>法，令其成就也。</p>
+<lb ed="G" n="0545a11"/><p xml:id="pG118p0545a1101" style="margin-left:0em;text-indent:2em;">七、自在天應：自在天者：即欲界第五天也。謂若諸眾生，欲身自在，遊行十方，菩
+<lb ed="G" n="0545a12"/>薩即於彼前，應現自在天身而為說法，令其成就也。</p>
+<lb ed="G" n="0545a13"/><p xml:id="pG118p0545a1301" style="margin-left:0em;text-indent:2em;">八、大自在天應：大自在天者：即欲界第六天主也。謂若諸眾生，欲身自在，飛行虛
+<lb ed="G" n="0545a14"/>空，菩薩即於彼前，應現大自在天身而為說法，令其成就也。</p>
+<lb ed="G" n="0545a15"/><p xml:id="pG118p0545a1501" style="margin-left:0em;text-indent:2em;">九、天大將軍應：天大將軍，即帝釋天主之大將軍也。謂若諸眾生，愛統鬼神，救護
+<lb ed="G" n="0545a16"/>國土，菩薩即於彼前，現天大將軍身而為說法，令其成就也。</p>
+<pb ed="G" xml:id="G118.2302.0546a" n="0546a"/>
+<lb ed="G" n="0546a01"/><p xml:id="pG118p0546a0101" style="margin-left:0em;text-indent:2em;">十、四天王應：謂若諸眾生，愛統世界，保護眾生，菩薩即於彼前，應現四天王身而
+<lb ed="G" n="0546a02"/>為說法，令其成就也。</p>
+<lb ed="G" n="0546a03"/><p xml:id="pG118p0546a0301" style="margin-left:0em;text-indent:2em;">十一、四天王太子應：謂若諸眾生，愛生天宮，驅使鬼神，菩薩即於彼前，應現四天
+<lb ed="G" n="0546a04"/>王太子身而為說法，令其成就也。</p>
+<lb ed="G" n="0546a05"/><p xml:id="pG118p0546a0501" style="margin-left:0em;text-indent:2em;">十二、人王應：謂若諸眾生，樂為人王，菩薩即於彼前，應現人王身而為說法，令其
+<lb ed="G" n="0546a06"/>成就也。</p>
+<lb ed="G" n="0546a07"/><p xml:id="pG118p0546a0701" style="margin-left:0em;text-indent:2em;">十三、長者應：謂若諸眾生，愛主族姓，世間推讓，菩薩即於彼前，應現長者身而為
+<lb ed="G" n="0546a08"/>說法，令其成就也。</p>
+<lb ed="G" n="0546a09"/><p xml:id="pG118p0546a0901" style="margin-left:0em;text-indent:2em;">十四、居士應：謂若諸眾生，愛談名言，清淨自居，菩薩即於彼前，應現居士身而為
+<lb ed="G" n="0546a10"/>說法，令其成就也。<note place="inline">名言者：名教典雅之言也。</note></p>
+<lb ed="G" n="0546a11"/><p xml:id="pG118p0546a1101" style="margin-left:0em;text-indent:2em;">十五、宰官應：謂若諸眾生，愛治國土，剖斷邦邑，菩薩即於彼前，應現宰官身而為
+<lb ed="G" n="0546a12"/>說法，令其成就也。</p>
+<lb ed="G" n="0546a13"/><p xml:id="pG118p0546a1301" style="margin-left:0em;text-indent:2em;">十六、婆羅門應：謂若諸眾生，愛諸數術，攝衛自居，菩薩即於彼前，應現婆羅門身
+<lb ed="G" n="0546a14"/>而為說法，令其成就也。<note place="inline">數術者：呪禁算藝、調養方法之類是也。攝衛者：收攝其心，衛護身口
+<lb ed="G" n="0546a15"/>也。</note></p>
+<lb ed="G" n="0546a16"/><p xml:id="pG118p0546a1601" style="margin-left:0em;text-indent:2em;">十七、比丘應：謂若有男子，好學出家，持諸戒律，菩薩即於彼前，應現比丘身而為
+<pb ed="G" xml:id="G118.2302.0547a" n="0547a"/>
+<lb ed="G" n="0547a01"/>說法，令其成就也。</p>
+<lb ed="G" n="0547a02"/><p xml:id="pG118p0547a0201" style="margin-left:0em;text-indent:2em;">十八、比丘尼應：梵語尼，華言女。謂若有女人，好學出家，持諸禁戒，菩薩即於彼
+<lb ed="G" n="0547a03"/>前，應現比丘尼身而為說法，令其成就也。</p>
+<lb ed="G" n="0547a04"/><p xml:id="pG118p0547a0401" style="margin-left:0em;text-indent:2em;">十九、優婆塞應：梵語優婆塞，華言清淨士。謂若有男子，樂持五戒，菩薩即於彼
+<lb ed="G" n="0547a05"/>前，應現優婆塞身而為說法，令其成就也。</p>
+<lb ed="G" n="0547a06"/><p xml:id="pG118p0547a0601" style="margin-left:0em;text-indent:2em;">二十、優婆夷應：梵語優婆夷，華言清淨女。謂若有女子，五戒自居，菩薩即於彼
+<lb ed="G" n="0547a07"/>前，應現優婆夷身而為說法，令其成就也。</p>
+<lb ed="G" n="0547a08"/><p xml:id="pG118p0547a0801" style="margin-left:0em;text-indent:2em;">二十一、女主應：女主，天子之后也。謂若有女人，內政立身以修家國，菩薩即於彼
+<lb ed="G" n="0547a09"/>前，應現女主身，及國夫人命婦大家而為說法，令其成就也。</p>
+<lb ed="G" n="0547a10"/><p xml:id="pG118p0547a1001" style="margin-left:0em;text-indent:2em;">二十二、童男應：謂若有眾生，不壞男根，菩薩即於彼前，應現童男身而說法，令其
+<lb ed="G" n="0547a11"/>成就也。</p>
+<lb ed="G" n="0547a12"/><p xml:id="pG118p0547a1201" style="margin-left:0em;text-indent:2em;">二十三、童女應：謂若有處女，愛樂處身，不求侵暴，菩薩即於彼前，應現童女身而
+<lb ed="G" n="0547a13"/>為說法，令其成就也。</p>
+<lb ed="G" n="0547a14"/><p xml:id="pG118p0547a1401" style="margin-left:0em;text-indent:2em;">二十四、天應：謂若有諸天，樂出天倫，菩薩即應現天身而為說法，令其成就也。
+<lb ed="G" n="0547a15"/><note place="inline">倫：類也。</note></p>
+<lb ed="G" n="0547a16"/><p xml:id="pG118p0547a1601" style="margin-left:0em;text-indent:2em;">二十五、龍應：謂若有諸龍，樂出龍倫，菩薩即應現龍身而為說法，令其成就也。</p>
+<pb ed="G" xml:id="G118.2302.0548a" n="0548a"/>
+<lb ed="G" n="0548a01"/><p xml:id="pG118p0548a0101" style="margin-left:0em;text-indent:2em;">二十六、藥叉應：謂若有藥叉，樂度本倫，菩薩即於彼前，應現藥叉身而為說法，令
+<lb ed="G" n="0548a02"/>其成就也。</p>
+<lb ed="G" n="0548a03"/><p xml:id="pG118p0548a0301" style="margin-left:0em;text-indent:2em;">二十七、乾闥婆應：謂若乾闥婆樂脫其倫，菩薩即於彼前，應現乾闥婆身而為說法，
+<lb ed="G" n="0548a04"/>令其成就也。</p>
+<lb ed="G" n="0548a05"/><p xml:id="pG118p0548a0501" style="margin-left:0em;text-indent:2em;">二十八、阿修羅應：謂若阿修羅，樂脫其倫，菩薩即於彼前，應現阿修羅身而為說
+<lb ed="G" n="0548a06"/>法，令其成就也。</p>
+<lb ed="G" n="0548a07"/><p xml:id="pG118p0548a0701" style="margin-left:0em;text-indent:2em;">二十九、緊那羅應：梵語緊那羅，華言疑神，又云人非人，以頭上有角似人而非人
+<lb ed="G" n="0548a08"/>也。謂若緊那羅樂脫其倫，菩薩即於彼前，應現緊那羅身而為說法，令其成就也。</p>
+<lb ed="G" n="0548a09"/><p xml:id="pG118p0548a0901" style="margin-left:0em;text-indent:2em;">三十、摩呼羅伽應：梵語摩呼羅伽，華言大蝮行，即大蟒蛇也。謂若摩呼羅伽樂脫其
+<lb ed="G" n="0548a10"/>倫，菩薩即於彼前，應現摩呼羅伽身而為說法，令其成就也。</p>
+<lb ed="G" n="0548a11"/><p xml:id="pG118p0548a1101" style="margin-left:0em;text-indent:2em;">三十一、人應：謂若諸眾生，樂人修人，菩薩即於彼前，應現人身而為說法，令其成
+<lb ed="G" n="0548a12"/>就也。</p>
+<lb ed="G" n="0548a13"/><p xml:id="pG118p0548a1301" style="margin-left:0em;text-indent:2em;">三十二、非人應：非人即魚畜之類也。謂若諸非人，有形無形，有想無想，樂度其
+<lb ed="G" n="0548a14"/>倫，菩薩即於彼前，皆現其身而為說法，令其成就也。</p></cb:def></entry></cb:div>
+<lb ed="G" n="0548a15"/>
+<lb ed="G" n="0548a16"/><cb:div type="other"><cb:mulu type="其他" level="2">三十二相</cb:mulu><entry><form>三十二相<note place="inline">出法界次第</note></form>
+<pb ed="G" xml:id="G118.2302.0549a" n="0549a"/>
+<lb ed="G" n="0549a01"/><cb:def><p xml:id="pG118p0549a0101" style="margin-left:0em;text-indent:2em;">謂如來應化之身，具此三十二相，以表法身眾德圓極，人天中尊，眾聖之王也。</p>
+<lb ed="G" n="0549a02"/><p xml:id="pG118p0549a0201" style="margin-left:0em;text-indent:2em;">一、足安平相：謂足下安立，皆悉平滿，猶如奩底也。<note place="inline">奩，力鹽切。奩底者：即盒底也。</note></p>
+<lb ed="G" n="0549a03"/><p xml:id="pG118p0549a0301" style="margin-left:0em;text-indent:2em;">二、千輻輪相：輻即車輪中之輻。謂足下轂網輪紋，眾相圓滿，有如千輻輪也。</p>
+<lb ed="G" n="0549a04"/><p xml:id="pG118p0549a0401" style="margin-left:0em;text-indent:2em;">三、手指纖長相：謂手指纖細圓長，端直<g ref="#CB00166"/>好，指節參差，光潤可愛，勝餘人也。</p>
+<lb ed="G" n="0549a05"/><p xml:id="pG118p0549a0501" style="margin-left:0em;text-indent:2em;">四、手足柔軟相：謂手指極妙柔軟，勝餘身分也。</p>
+<lb ed="G" n="0549a06"/><p xml:id="pG118p0549a0601" style="margin-left:0em;text-indent:2em;">五、手足縵網相：謂手指中間，縵網交合，文同綺畫，猶如鵞王之足也。</p>
+<lb ed="G" n="0549a07"/><p xml:id="pG118p0549a0701" style="margin-left:0em;text-indent:2em;">六、足跟滿足相：跟，足踵也。謂足之踵，圓滿具足也。</p>
+<lb ed="G" n="0549a08"/><p xml:id="pG118p0549a0801" style="margin-left:0em;text-indent:2em;">七、足趺高好相：謂足之趺高起，如真金之色，趺上之毛，青瑠璃色，種種莊飾，妙
+<lb ed="G" n="0549a09"/>好圓滿也。</p>
+<lb ed="G" n="0549a10"/><p xml:id="pG118p0549a1001" style="margin-left:0em;text-indent:2em;">八、腨如鹿王相：<note place="inline">腨，時兗切。</note>腨，股肉也。腨如鹿王相者：謂足腨漸次纖圓，如
+<lb ed="G" n="0549a11"/>彼鹿王之腨，纖好第一也。</p>
+<lb ed="G" n="0549a12"/><p xml:id="pG118p0549a1201" style="margin-left:0em;text-indent:2em;">九、手過膝相：謂雙臂脩直，不俯不仰，平立過膝也。</p>
+<lb ed="G" n="0549a13"/><p xml:id="pG118p0549a1301" style="margin-left:0em;text-indent:2em;">十、馬陰藏相：謂陰相藏密，猶如馬陰，不可見也。</p>
+<lb ed="G" n="0549a14"/><p xml:id="pG118p0549a1401" style="margin-left:0em;text-indent:2em;">十一、身縱廣相：謂身儀端正，竪縱橫廣，無不相稱也。</p>
+<lb ed="G" n="0549a15"/><p xml:id="pG118p0549a1501" style="margin-left:0em;text-indent:2em;">十二、毛孔生青色相：謂身諸毛孔，一孔一毛，生相不亂，右旋上向，青色柔軟也。</p>
+<lb ed="G" n="0549a16"/><p xml:id="pG118p0549a1601" style="margin-left:0em;text-indent:2em;">十三、身毛上靡相：謂身諸毫毛，皆右旋向上而偃伏也。</p>
+<pb ed="G" xml:id="G118.2302.0550a" n="0550a"/>
+<lb ed="G" n="0550a01"/><p xml:id="pG118p0550a0101" style="margin-left:0em;text-indent:2em;">十四、身金色相：謂身皆金色，光明晃曜，如紫金聚，眾相莊嚴，微妙第一也。</p>
+<lb ed="G" n="0550a02"/><p xml:id="pG118p0550a0201" style="margin-left:0em;text-indent:2em;">十五、身光面各一丈相：謂身放光明，四面各一丈也。</p>
+<lb ed="G" n="0550a03"/><p xml:id="pG118p0550a0301" style="margin-left:0em;text-indent:2em;">十六、皮膚細滑相：謂皮膚細膩滑澤，不受塵水，不停蚊蚋。</p>
+<lb ed="G" n="0550a04"/><p xml:id="pG118p0550a0401" style="margin-left:0em;text-indent:2em;">十七、七處平滿相：謂兩足下兩手兩肩項中，七處皆平滿端正也。</p>
+<lb ed="G" n="0550a05"/><p xml:id="pG118p0550a0501" style="margin-left:0em;text-indent:2em;">十八、兩腋滿相：謂左右兩腋，平滿而不窊也。<note place="inline">窊，烏瓜切，不滿貌。</note></p>
+<lb ed="G" n="0550a06"/><p xml:id="pG118p0550a0601" style="margin-left:0em;text-indent:2em;">十九、身如師子相：謂身體平正，威儀嚴肅，如師子王也。</p>
+<lb ed="G" n="0550a07"/><p xml:id="pG118p0550a0701" style="margin-left:0em;text-indent:2em;">二十、身端直相：謂身形端正，平直不傴曲也。<note place="inline">傴，委羽切，不伸也。</note></p>
+<lb ed="G" n="0550a08"/><p xml:id="pG118p0550a0801" style="margin-left:0em;text-indent:2em;">二十一、肩圓滿相：謂兩肩圓滿，而豐腴也。</p>
+<lb ed="G" n="0550a09"/><p xml:id="pG118p0550a0901" style="margin-left:0em;text-indent:2em;">二十二、四十齒相：謂常人但有三十六齒，唯佛具足四十齒也。</p>
+<lb ed="G" n="0550a10"/><p xml:id="pG118p0550a1001" style="margin-left:0em;text-indent:2em;">二十三、齒白齊密相：謂四十齒皆白淨齊密，根復深固也。</p>
+<lb ed="G" n="0550a11"/><p xml:id="pG118p0550a1101" style="margin-left:0em;text-indent:2em;">二十四、四牙白淨相：謂四牙最白而大，瑩潔鮮淨也。</p>
+<lb ed="G" n="0550a12"/><p xml:id="pG118p0550a1201" style="margin-left:0em;text-indent:2em;">二十五、頰車如師子相：謂兩頰車隆滿如師子王也。</p>
+<lb ed="G" n="0550a13"/><p xml:id="pG118p0550a1301" style="margin-left:0em;text-indent:2em;">二十六、咽中津液得上味相：謂咽喉中常有津液，上妙美味，如甘露流注也。</p>
+<lb ed="G" n="0550a14"/><p xml:id="pG118p0550a1401" style="margin-left:0em;text-indent:2em;">二十七、廣長舌相：謂舌廣而長，柔軟紅薄，能覆面而至于髮際也。</p>
+<lb ed="G" n="0550a15"/><p xml:id="pG118p0550a1501" style="margin-left:0em;text-indent:2em;">二十八、梵音深遠相：謂音聲和雅，近遠皆到，無處不聞也。</p>
+<lb ed="G" n="0550a16"/><p xml:id="pG118p0550a1601" style="margin-left:0em;text-indent:2em;">二十九、眼色如金精相：謂眼目清淨明瑩，如金色精也。</p>
+<pb ed="G" xml:id="G118.2302.0551a" n="0551a"/>
+<lb ed="G" n="0551a01"/><p xml:id="pG118p0551a0101" style="margin-left:0em;text-indent:2em;">三十、眼睫如牛王相：睫，目旁毛也。謂眼睫殊勝如牛王也。</p>
+<lb ed="G" n="0551a02"/><p xml:id="pG118p0551a0201" style="margin-left:0em;text-indent:2em;">三十一、眉間白毫相：謂兩眉之間，有白玉毫，清淨柔軟，如兜羅綿，右旋宛轉，常
+<lb ed="G" n="0551a03"/>放光明也。<note place="inline">梵語兜羅綿，華言細香。</note></p>
+<lb ed="G" n="0551a04"/><p xml:id="pG118p0551a0401" style="margin-left:0em;text-indent:2em;">三十二、頂肉髻成相：謂頂上有肉，高起如髻，亦名無見頂相。謂一切人天二乘菩
+<lb ed="G" n="0551a05"/>薩，皆不能見故也。</p></cb:def></entry></cb:div>
+<lb ed="G" n="0551a06"/>
+<lb ed="G" n="0551a07"/><cb:div type="other"><cb:mulu type="其他" level="2">宿因成就三十二相</cb:mulu><entry><form>宿因成就三十二相<note place="inline">寶女</note></form>
+<lb ed="G" n="0551a08"/><cb:def><list rend="no-marker"><item xml:id="itemG118p0551a0801"><p xml:id="pG118p0551a0801">一、持淨戒故得足下平滿。</p></item>
+<lb ed="G" n="0551a09"/><item xml:id="itemG118p0551a0901"><p xml:id="pG118p0551a0901">二、修施業故得千輻輪相。</p></item>
+<lb ed="G" n="0551a10"/><item xml:id="itemG118p0551a1001"><p xml:id="pG118p0551a1001">三、不欺眾生故得足跟<g ref="#CB00166"/>相。</p></item>
+<lb ed="G" n="0551a11"/><item xml:id="itemG118p0551a1101"><p xml:id="pG118p0551a1101">四、護正法故得指纖長相。</p></item>
+<lb ed="G" n="0551a12"/><item xml:id="itemG118p0551a1201"><p xml:id="pG118p0551a1201">五、不壞他眾故得網縵相。</p></item>
+<lb ed="G" n="0551a13"/><item xml:id="itemG118p0551a1301"><p xml:id="pG118p0551a1301">六、妙服奉施故得手足軟相。</p></item>
+<lb ed="G" n="0551a14"/><item xml:id="itemG118p0551a1401"><p xml:id="pG118p0551a1401">七、淨飲食施故得七處滿相。</p></item>
+<lb ed="G" n="0551a15"/><item xml:id="itemG118p0551a1501"><p xml:id="pG118p0551a1501">八、喜聞佛法故得鹿王腨相。</p></item>
+<lb ed="G" n="0551a16"/><item xml:id="itemG118p0551a1601"><p xml:id="pG118p0551a1601">九、覆載他過故得陰馬藏。</p></item>
+<pb ed="G" xml:id="G118.2302.0552a" n="0552a"/>
+<lb ed="G" n="0552a01"/><item xml:id="itemG118p0552a0101"><p xml:id="pG118p0552a0101">十、修善法故得身如師王。</p></item>
+<lb ed="G" n="0552a02"/><item xml:id="itemG118p0552a0201"><p xml:id="pG118p0552a0201">十一、善化眾生故得缺骨平相。</p></item>
+<lb ed="G" n="0552a03"/><item xml:id="itemG118p0552a0301"><p xml:id="pG118p0552a0301">十二、救護怖畏故得臂肘<g ref="#CB00166"/>。</p></item>
+<lb ed="G" n="0552a04"/><item xml:id="itemG118p0552a0401"><p xml:id="pG118p0552a0401">十三、見事樂助故得手摩膝。</p></item>
+<lb ed="G" n="0552a05"/><item xml:id="itemG118p0552a0501"><p xml:id="pG118p0552a0501">十四、常修十善故得清淨身。</p></item>
+<lb ed="G" n="0552a06"/><item xml:id="itemG118p0552a0601"><p xml:id="pG118p0552a0601">十五、常施病藥故得食至喉現。</p></item>
+<lb ed="G" n="0552a07"/><item xml:id="itemG118p0552a0701"><p xml:id="pG118p0552a0701">十六、莊嚴善法故得師子頰。</p></item>
+<lb ed="G" n="0552a08"/><item xml:id="itemG118p0552a0801"><p xml:id="pG118p0552a0801">十七、於生心等故得四十齒相。</p></item>
+<lb ed="G" n="0552a09"/><item xml:id="itemG118p0552a0901"><p xml:id="pG118p0552a0901">十八、和合諍訟故得齒密相。</p></item>
+<lb ed="G" n="0552a10"/><item xml:id="itemG118p0552a1001"><p xml:id="pG118p0552a1001">十九、珍寶施故得齒齊相。</p></item>
+<lb ed="G" n="0552a11"/><item xml:id="itemG118p0552a1101"><p xml:id="pG118p0552a1101">二十、三業淨故得四牙白相。</p></item>
+<lb ed="G" n="0552a12"/><item xml:id="itemG118p0552a1201"><p xml:id="pG118p0552a1201">二十一、護口過故得廣長舌。</p></item>
+<lb ed="G" n="0552a13"/><item xml:id="itemG118p0552a1301"><p xml:id="pG118p0552a1301">二十二、成就功德故得味中上味。</p></item>
+<lb ed="G" n="0552a14"/><item xml:id="itemG118p0552a1401"><p xml:id="pG118p0552a1401">二十三、常軟語故得梵音相。</p></item>
+<lb ed="G" n="0552a15"/><item xml:id="itemG118p0552a1501"><p xml:id="pG118p0552a1501">二十四、修慈心故得紺色目。</p></item>
+<lb ed="G" n="0552a16"/><item xml:id="itemG118p0552a1601"><p xml:id="pG118p0552a1601">二十五、至心求道故得牛王睫。</p></item>
+<pb ed="G" xml:id="G118.2302.0553a" n="0553a"/>
+<lb ed="G" n="0553a01"/><item xml:id="itemG118p0553a0101"><p xml:id="pG118p0553a0101">二十六、讚他功德故得白毫相。</p></item>
+<lb ed="G" n="0553a02"/><item xml:id="itemG118p0553a0201"><p xml:id="pG118p0553a0201">二十七、敬父母師故得頂肉髻。</p></item>
+<lb ed="G" n="0553a03"/><item xml:id="itemG118p0553a0301"><p xml:id="pG118p0553a0301">二十八、樂說法故得身軟柔。</p></item>
+<lb ed="G" n="0553a04"/><item xml:id="itemG118p0553a0401"><p xml:id="pG118p0553a0401">二十九、施敷具故得金光相。</p></item>
+<lb ed="G" n="0553a05"/><item xml:id="itemG118p0553a0501"><p xml:id="pG118p0553a0501">三十、離說世事故得孔毛生相。</p></item>
+<lb ed="G" n="0553a06"/><item xml:id="itemG118p0553a0601"><p xml:id="pG118p0553a0601">三十一、受友師教故得身毛上靡。</p></item>
+<lb ed="G" n="0553a07"/><item xml:id="itemG118p0553a0701"><p xml:id="pG118p0553a0701">三十二、不惡眾生故得髮色金精。</p></item></list>
+<lb ed="G" n="0553a08"/><p xml:id="pG118p0553a0801" style="margin-left:0em;text-indent:2em;">常修三昧，得身如尼拘陀相。作佛像，故得那羅延身。</p></cb:def></entry></cb:div>
+<lb ed="G" n="0553a09"/>
+<lb ed="G" n="0553a10"/><cb:div type="other"><cb:mulu type="其他" level="2">八諦三十二行</cb:mulu><entry><form>八諦三十二行</form><cb:def>
+<lb ed="G" n="0553a11"/><p cb:type="pre" xml:id="pG118p0553a1101">　　上二界（定地）：
+<lb ed="G" n="0553a12"/>
+<lb ed="G" n="0553a13"/>　　　　　　┌苦行二十八。
+<lb ed="G" n="0553a14"/>　　　　　七│空行二十七。
+<lb ed="G" n="0553a15"/>　　　　苦─┤無常二十六。
+<lb ed="G" n="0553a16"/>　　　　　　└無我二十五。
+<lb ed="G" n="0553a17"/>
+<pb ed="G" xml:id="G118.2302.0554a" n="0554a"/>
+<lb ed="G" n="0554a01"/>　　　　　　┌集行二十。
+<lb ed="G" n="0554a02"/>　　　　　五│因行十九。
+<lb ed="G" n="0554a03"/>　　　　集─┤緣行十八。
+<lb ed="G" n="0554a04"/>　　　　　　└生行十七。
+<lb ed="G" n="0554a05"/>
+<lb ed="G" n="0554a06"/>　　　　　　┌滅行十二。
+<lb ed="G" n="0554a07"/>　　　　　三│盡行十一。
+<lb ed="G" n="0554a08"/>　　　　滅─┤妙行十。
+<lb ed="G" n="0554a09"/>　　　　　　└離行九。
+<lb ed="G" n="0554a10"/>
+<lb ed="G" n="0554a11"/>　　　　　　┌道行四。
+<lb ed="G" n="0554a12"/>　　　　　一│正行三。
+<lb ed="G" n="0554a13"/>　　　　道─┤迹行二。
+<lb ed="G" n="0554a14"/>　　　　　　└乘行一。
+<lb ed="G" n="0554a15"/>
+<lb ed="G" n="0554a16"/>　　欲界（散地）：
+<lb ed="G" n="0554a17"/>
+<lb ed="G" n="0554a18"/>　　　　　　┌苦行三十二。
+<lb ed="G" n="0554a19"/>　　　　　八│空行三十一。
+<lb ed="G" n="0554a20"/>　　　　苦─┤無常三十。
+<lb ed="G" n="0554a21"/>　　　　　　└無我二十九。
+<lb ed="G" n="0554a22"/>
+<pb ed="G" xml:id="G118.2302.0555a" n="0555a"/>
+<lb ed="G" n="0555a01"/>　　　　　　┌集行二十四。
+<lb ed="G" n="0555a02"/>　　　　　六│因行二十三。
+<lb ed="G" n="0555a03"/>　　　　集─┤緣行二十二。
+<lb ed="G" n="0555a04"/>　　　　　　└生行二十一。
+<lb ed="G" n="0555a05"/>
+<lb ed="G" n="0555a06"/>　　　　　　┌滅行十六。
+<lb ed="G" n="0555a07"/>　　　　　四│盡行十五。
+<lb ed="G" n="0555a08"/>　　　　滅─┤妙行十四。
+<lb ed="G" n="0555a09"/>　　　　　　└離行十三。
+<lb ed="G" n="0555a10"/>
+<lb ed="G" n="0555a11"/>　　　　　　┌道行八。
+<lb ed="G" n="0555a12"/>　　　　　二│正行七。
+<lb ed="G" n="0555a13"/>　　　　道─┤迹行六。
+<lb ed="G" n="0555a14"/>　　　　　　└乘行五。</p></cb:def></entry></cb:div>
+<lb ed="G" n="0555a15"/>
+<lb ed="G" n="0555a16"/><cb:div type="other"><cb:mulu type="其他" level="2">三十二天</cb:mulu><entry><form>三十二天</form>
+<lb ed="G" n="0555a17"/><cb:def>
+<lb ed="G" n="0555a18"/><p cb:type="pre" xml:id="pG118p0555a1801">　　無色四天─┐
+<lb ed="G" n="0555a19"/>　　色界十八天├如前已列。
+<lb ed="G" n="0555a20"/>　　欲界六天─┘
+<pb ed="G" xml:id="G118.2302.0556a" n="0556a"/>
+<lb ed="G" n="0556a01"/>　　日月星宿天─空居（因本）。
+<lb ed="G" n="0556a02"/>　　常　憍　天┐
+<lb ed="G" n="0556a03"/>　　持　鬘　天├須彌山下三級如次居之。
+<lb ed="G" n="0556a04"/>　　堅　首　天┘</p></cb:def></entry></cb:div></cb:div>
+<lb ed="G" n="0556a05"/><cb:div type="other"><cb:mulu type="其他" level="1">三十三</cb:mulu>
+<lb ed="G" n="0556a06"/><cb:div type="other"><cb:mulu type="其他" level="2">三十三天</cb:mulu><entry><form>三十三天<note place="inline">出灌頂呪經</note></form>
+<lb ed="G" n="0556a07"/><cb:def><list rend="no-marker"><item xml:id="itemG118p0556a0701"><p xml:id="pG118p0556a0701">一、近際天。</p></item>
+<lb ed="G" n="0556a08"/><item xml:id="itemG118p0556a0801"><p xml:id="pG118p0556a0801">二、普觀天。</p></item>
+<lb ed="G" n="0556a09"/><item xml:id="itemG118p0556a0901"><p xml:id="pG118p0556a0901">三、快見天。</p></item>
+<lb ed="G" n="0556a10"/><item xml:id="itemG118p0556a1001"><p xml:id="pG118p0556a1001">四、無結愛天。</p></item>
+<lb ed="G" n="0556a11"/><item xml:id="itemG118p0556a1101"><p xml:id="pG118p0556a1101">五、色究竟天。</p></item>
+<lb ed="G" n="0556a12"/><item xml:id="itemG118p0556a1201"><p xml:id="pG118p0556a1201">六、淨光天。</p></item>
+<lb ed="G" n="0556a13"/><item xml:id="itemG118p0556a1301"><p xml:id="pG118p0556a1301">七、普等天。</p></item>
+<lb ed="G" n="0556a14"/><item xml:id="itemG118p0556a1401"><p xml:id="pG118p0556a1401">八、愛勝天。</p></item>
+<lb ed="G" n="0556a15"/><item xml:id="itemG118p0556a1501"><p xml:id="pG118p0556a1501">九、福愛天。</p></item>
+<lb ed="G" n="0556a16"/><item xml:id="itemG118p0556a1601"><p xml:id="pG118p0556a1601">十、極妙天。</p></item>
+<pb ed="G" xml:id="G118.2302.0557a" n="0557a"/>
+<lb ed="G" n="0557a01"/><item xml:id="itemG118p0557a0101"><p xml:id="pG118p0557a0101">十一、廣妙天。</p></item>
+<lb ed="G" n="0557a02"/><item xml:id="itemG118p0557a0201"><p xml:id="pG118p0557a0201">十二、微妙天。</p></item>
+<lb ed="G" n="0557a03"/><item xml:id="itemG118p0557a0301"><p xml:id="pG118p0557a0301">十三、守妙天。</p></item>
+<lb ed="G" n="0557a04"/><item xml:id="itemG118p0557a0401"><p xml:id="pG118p0557a0401">十四、淨明天。</p></item>
+<lb ed="G" n="0557a05"/><item xml:id="itemG118p0557a0501"><p xml:id="pG118p0557a0501">十五、徧淨天。</p></item>
+<lb ed="G" n="0557a06"/><item xml:id="itemG118p0557a0601"><p xml:id="pG118p0557a0601">十六、約淨天。</p></item>
+<lb ed="G" n="0557a07"/><item xml:id="itemG118p0557a0701"><p xml:id="pG118p0557a0701">十七、水應梵天。</p></item>
+<lb ed="G" n="0557a08"/><item xml:id="itemG118p0557a0801"><p xml:id="pG118p0557a0801">十八、水無量梵天。</p></item>
+<lb ed="G" n="0557a09"/><item xml:id="itemG118p0557a0901"><p xml:id="pG118p0557a0901">十九、水微梵天。</p></item>
+<lb ed="G" n="0557a10"/><item xml:id="itemG118p0557a1001"><p xml:id="pG118p0557a1001">二十、水行梵天。</p></item>
+<lb ed="G" n="0557a11"/><item xml:id="itemG118p0557a1101"><p xml:id="pG118p0557a1101">二十一、摩訶梵天。</p></item>
+<lb ed="G" n="0557a12"/><item xml:id="itemG118p0557a1201"><p xml:id="pG118p0557a1201">二十二、梵輔祿天。</p></item>
+<lb ed="G" n="0557a13"/><item xml:id="itemG118p0557a1301"><p xml:id="pG118p0557a1301">二十三、梵眾妙天。</p></item>
+<lb ed="G" n="0557a14"/><item xml:id="itemG118p0557a1401"><p xml:id="pG118p0557a1401">二十四、化自在天。</p></item>
+<lb ed="G" n="0557a15"/><item xml:id="itemG118p0557a1501"><p xml:id="pG118p0557a1501">二十五、化應聲天。</p></item>
+<lb ed="G" n="0557a16"/><item xml:id="itemG118p0557a1601"><p xml:id="pG118p0557a1601">二十六、不憍樂天。</p></item>
+<pb ed="G" xml:id="G118.2302.0558a" n="0558a"/>
+<lb ed="G" n="0558a01"/><item xml:id="itemG118p0558a0101"><p xml:id="pG118p0558a0101">二十七、兜率陀天。</p></item>
+<lb ed="G" n="0558a02"/><item xml:id="itemG118p0558a0201"><p xml:id="pG118p0558a0201">二十八、鹽摩羅天。</p></item>
+<lb ed="G" n="0558a03"/><item xml:id="itemG118p0558a0301"><p xml:id="pG118p0558a0301">二十九、忉利天。</p></item>
+<lb ed="G" n="0558a04"/><item xml:id="itemG118p0558a0401"><p xml:id="pG118p0558a0401">三十、毗沙門天。</p></item>
+<lb ed="G" n="0558a05"/><item xml:id="itemG118p0558a0501"><p xml:id="pG118p0558a0501">三十一、惟睒聞天。</p></item>
+<lb ed="G" n="0558a06"/><item xml:id="itemG118p0558a0601"><p xml:id="pG118p0558a0601">三十二、毗婁勒天。</p></item>
+<lb ed="G" n="0558a07"/><item xml:id="itemG118p0558a0701"><p xml:id="pG118p0558a0701">三十三、提頭賴叉天。</p></item></list></cb:def></entry>
+<lb ed="G" n="0558a08"/>
+<lb ed="G" n="0558a09"/>
+<lb ed="G" n="0558a10"/>
+<lb ed="G" n="0558a11"/>
+<lb ed="G" n="0558a12"/>
+<lb ed="G" n="0558a13"/>
+<lb ed="G" n="0558a14"/>
+<lb ed="G" n="0558a15"/>
+<lb ed="G" n="0558a16"/><cb:juan fun="close"><cb:jhead>佛學名相彙解　卷第六十五（終）</cb:jhead></cb:juan>
+</cb:div></cb:div></body></text></TEI>
