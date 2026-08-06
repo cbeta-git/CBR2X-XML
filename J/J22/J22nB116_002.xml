@@ -2,137 +2,120 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="J22nB116">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Jiaxing Canon (Shinwenfeng Edition)</title>
-			<title level="s" xml:lang="zh-Hant">嘉興大藏經（新文豐版）</title>
-			<title level="m" xml:lang="zh-Hant">憨山老人夢遊全集</title>
-			<title>Jiaxing Canon (Shinwenfeng Edition), Electronic version, No. B116 憨山老人夢遊全集</title>
-			<title xml:lang="zh-Hant">嘉興大藏經（新文豐版）數位版, No. B116 憨山老人夢遊全集</title>
-			<author>明 德清撰　福善日錄</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>單卷版 XML TEI P5b</edition>
-		</editionStmt>
-		<extent>5卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">J</idno>.<idno type="vol">22</idno>.<idno type="no">B116</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-			<date>2025-02-03 09:13:42 +0800</date>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>嘉興大藏經（新文豐版）</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version), Punctuated text as provided by Ms. Huang Jin-Ai</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二），黃金愛大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【嘉興】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-		<charDecl>
-			<char xml:id="CB00324">
-				<charName>CBETA CHARACTER CB00324</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[宋-木+巢]</value>
-				</charProp>
-				<mapping type="unicode">U+2D510</mapping>
-				<mapping cb:dec="983364" type="PUA">U+F0144</mapping>
-			</char>
-			<char xml:id="CB00576">
-				<charName>CBETA CHARACTER CB00576</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[寧*頁]</value>
-				</charProp>
-				<mapping type="unicode">U+29573</mapping>
-				<mapping cb:dec="983616" type="PUA">U+F0240</mapping>
-			</char>
-			<char xml:id="CB03020">
-				<charName>CBETA CHARACTER CB03020</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[泳-永+(瑤-王)]</value>
-				</charProp>
-				<mapping cb:dec="986060" type="PUA">U+F0BCC</mapping>
-			</char>
-			<char xml:id="CB07311">
-				<charName>CBETA CHARACTER CB07311</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[脈-月]</value>
-				</charProp>
-				<mapping type="unicode">U+200A2</mapping>
-				<mapping cb:dec="990351" type="PUA">U+F1C8F</mapping>
-			</char>
-			<char xml:id="CB13092">
-				<charName>CBETA CHARACTER CB13092</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[母-(、/、)+〡]</value>
-				</charProp>
-				<mapping cb:dec="996132" type="PUA">U+F3324</mapping>
-			</char>
-			<char xml:id="CB15993">
-				<charName>CBETA CHARACTER CB15993</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[跳-兆+爰]</value>
-				</charProp>
-				<mapping type="unicode">U+2B3D6</mapping>
-				<mapping cb:dec="999033" type="PUA">U+F3E79</mapping>
-			</char>
-			<char xml:id="CB21707">
-				<charName>CBETA CHARACTER CB21707</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[口*聒]</value>
-				</charProp>
-				<mapping cb:dec="1004747" type="PUA">U+F54CB</mapping>
-			</char>
-		</charDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2009-03-10T17:07:48">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Jiaxing Canon (Shinwenfeng Edition)</title>
+      <title level="s" xml:lang="zh-Hant">嘉興大藏經（新文豐版）</title>
+      <title level="m" xml:lang="zh-Hant">憨山老人夢遊全集</title>
+      <title>Jiaxing Canon (Shinwenfeng Edition), Electronic version, No. B116 憨山老人夢遊全集</title>
+      <title xml:lang="zh-Hant">嘉興大藏經（新文豐版）數位版, No. B116 憨山老人夢遊全集</title>
+      <author>明 德清撰　福善日錄</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>單卷版 XML TEI P5b</edition>
+    </editionStmt>
+    <extent>5卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">J</idno>.<idno type="vol">22</idno>.<idno type="no">B116</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+      <date>2026-08-05 09:43:32 +0800</date>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>嘉興大藏經（新文豐版）</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version), Punctuated text as provided by Ms. Huang Jin-Ai</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二），黃金愛大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【嘉興】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+    <charDecl>
+      <char xml:id="CB00324">
+        <charName>CBETA CHARACTER CB00324</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[宋-木+巢]</value>
+        </charProp>
+        <mapping type="unicode">U+2D510</mapping>
+        <mapping cb:dec="983364" type="PUA">U+F0144</mapping>
+      </char>
+      <char xml:id="CB00576">
+        <charName>CBETA CHARACTER CB00576</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[寧*頁]</value>
+        </charProp>
+        <mapping type="unicode">U+29573</mapping>
+        <mapping cb:dec="983616" type="PUA">U+F0240</mapping>
+      </char>
+      <char xml:id="CB07311">
+        <charName>CBETA CHARACTER CB07311</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[脈-月]</value>
+        </charProp>
+        <mapping type="unicode">U+200A2</mapping>
+        <mapping cb:dec="990351" type="PUA">U+F1C8F</mapping>
+      </char>
+      <char xml:id="CB13092">
+        <charName>CBETA CHARACTER CB13092</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[母-(、/、)+〡]</value>
+        </charProp>
+        <mapping cb:dec="996132" type="PUA">U+F3324</mapping>
+      </char>
+      <char xml:id="CB21707">
+        <charName>CBETA CHARACTER CB21707</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[口*聒]</value>
+        </charProp>
+        <mapping cb:dec="1004747" type="PUA">U+F54CB</mapping>
+      </char>
+    </charDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2009-03-10T17:07:48">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">法語一</cb:mulu><cb:mulu level="2" type="其他">示小師大義</cb:mulu>
@@ -193,7 +176,7 @@
 <lb n="0742c22" ed="J"/>曰涅槃；此在諸佛圓證，故稱為大覺，又曰菩提。諸佛
 <lb n="0742c23" ed="J"/>用之故為神通妙用；菩薩修之名為妙行；二乘得之
 <lb n="0742c24" ed="J"/>名為解脫；凡夫迷之則為妄想業識。發而用之則為
-<lb n="0742c25" ed="J"/>貪嗔、痴愛、驕諂、欺詐；造之為業則為<g ref="#CB03020"/>為殺、為盜為
+<lb n="0742c25" ed="J"/>貪嗔、痴愛、驕諂、欺詐；造之為業則為淫為殺、為盜為
 <lb n="0742c26" ed="J"/>妄；所取之果則為刀為鋸、為鐵為磨，乃至鑊湯爐炭，
 <lb n="0742c27" ed="J"/>種種苦具皆從此心之所變現。正若醒人無事，種種
 <lb n="0742c28" ed="J"/>樂境俱在目前；而少時昏睡沉著，忽然夢在地獄，種
@@ -211,7 +194,7 @@
 <lb n="0743a09" ed="J"/>異耳！略而言之，若堯用之而為仁；舜用之而為智；三
 <lb n="0743a10" ed="J"/>代用之而為勇；桀紂用而為暴；周公用之而為孝；孔
 <lb n="0743a11" ed="J"/>用之而為權；孟用之而為辯；老用之而為嗇；莊用之
-<lb n="0743a12" ed="J"/>而為肆；蘇、張用之而為詐；啇、斯用之而為刻；乃至亂
+<lb n="0743a12" ed="J"/>而為肆；蘇、張用之而為詐；<note n="0743a1201" resp="CBETA" type="add" cb:note_key="J22.0743a12.11">商【CB】，啇【嘉興】</note><app n="0743a1201"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">商</lem><rdg wit="【嘉興】">啇</rdg></app>、斯用之而為刻；乃至亂
 <lb n="0743a13" ed="J"/>臣賊子用之而為篡為弒、為姦為盜、為術為數、為愚
 <lb n="0743a14" ed="J"/>為智；百姓日用而為飲食男女，起居動靜為善為惡、
 <lb n="0743a15" ed="J"/>為夢為覺。大而觀之，聖人用之而不盡，賢人小知而
@@ -225,14 +208,14 @@
 <lb n="0743a23" ed="J"/>體本來廣大包容，清淨光明之若此。而目前交錯雜
 <lb n="0743a24" ed="J"/>沓陳列於四圍者，種種境界色相又皆吾心所現之
 <lb n="0743a25" ed="J"/>若彼，吾人有此而不知，固可哀矣！且而誤取自心以
-<lb n="0743a26" ed="J"/>為貪愛之樂地，目悅之於美色、耳悅之於<g ref="#CB03020"/>聲、鼻悅
+<lb n="0743a26" ed="J"/>為貪愛之樂地，目悅之於美色、耳悅之於淫聲、鼻悅
 <lb n="0743a27" ed="J"/>之香、舌悅之味、身悅之觸、心悅之法，又皆自心所出，
-<lb n="0743a28" ed="J"/>又取之而為懽為樂、為貪嗔痴、為<g ref="#CB03020"/>殺盜妄而造作
+<lb n="0743a28" ed="J"/>又取之而為懽為樂、為貪嗔痴、為淫殺盜妄而造作
 <lb n="0743a29" ed="J"/>種種幻業，又招未來三途之劇苦，如人夢遊而不覺，
 <lb n="0743a30" ed="J"/>可不大哀歟？以其此心與諸佛同體而無二，歷代祖
 <pb n="0743b" ed="J" xml:id="J22.B116.0743b"/>
 <lb n="0743b01" ed="J"/>師悟明而不異者，獨吾人具足而不知。如幼子逃逝
-<lb n="0743b02" ed="J"/>而忘歸，父母思而援討之。所以釋迦出世，達麼西來，
+<lb n="0743b02" ed="J"/>而忘歸，父母思而援討之。所以釋迦出世，達<note n="0743b0201" resp="CBETA" type="add" cb:note_key="J22.0743b02.18">磨【CB】，麼【嘉興】</note><app n="0743b0201"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">磨<note type="cf1">J22nB116_p0733a14</note></lem><rdg wit="【嘉興】">麼</rdg></app>西來，
 <lb n="0743b03" ed="J"/>老盧舂米於黃梅、張網於獵隊皆為一事，乃至曹溪
 <lb n="0743b04" ed="J"/>所說三十餘年，諸方流衍千七百則，皆指示於人者。
 <lb n="0743b05" ed="J"/>盡此事也，豈獨老盧？即老人今日為司直所說者亦
@@ -298,14 +281,14 @@
 <lb n="0744a03" ed="J"/>儀而中蛇虎者不易知也。語云：「疾風知勁艸，板蕩識
 <lb n="0744a04" ed="J"/>忠臣。」若人人皆可稱忠孝，則世之忠臣孝子蓋多多
 <lb n="0744a05" ed="J"/>不足奇矣！以其希故見其難，以其難故為忠臣孝子
-<lb n="0744a06" ed="J"/>者不易也。余嘗謂宣盂稱得士，而冒死立孤者獨程
+<lb n="0744a06" ed="J"/>者不易也。余嘗謂宣<note n="0744a0601" resp="CBETA" type="add" cb:note_key="J22.0744a06.09">孟【CB】，盂【嘉興】</note><app n="0744a0601"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">孟<note type="cf1">X73n1456_p0820c08</note></lem><rdg wit="【嘉興】">盂</rdg></app>稱得士，而冒死立孤者獨程
 <lb n="0744a07" ed="J"/>嬰、杵臼二人耳；楚國號多材，而捐軀復楚者獨一申
 <lb n="0744a08" ed="J"/>包胥耳！嗟乎！吾徒之為沙門釋子者，骨肉肝腸皆佛
 <lb n="0744a09" ed="J"/>祖之所化也，生死升沉亦佛祖之所賴以轉也，求其
 <lb n="0744a10" ed="J"/>一心如古豪傑之所為者希，以其自愛業身，而造苦
 <lb n="0744a11" ed="J"/>具不惜橫身捨命而甘心焉？故求其一念知非，能體
 <lb n="0744a12" ed="J"/>祖師之家業者，難得其人矣！是知家無賊子家不破、
-<lb n="0744a13" ed="J"/>國無賊臣國不忘、人無惡行身不殞、士無苦行名不
+<lb n="0744a13" ed="J"/>國無賊臣國不<note n="0744a1301" resp="CBETA" type="add" cb:note_key="J22.0744a13.07">亡【CB】，忘【嘉興】</note><app n="0744a1301"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">亡<note type="cf1">X73n1456_p0820c15</note></lem><rdg wit="【嘉興】">忘</rdg></app>、人無惡行身不殞、士無苦行名不
 <lb n="0744a14" ed="J"/>揚、善無橫逆道不高、心無堅忍道不大。是知善惡雖
 <lb n="0744a15" ed="J"/>殊，倘不負堅忍不拔之志，不能成其善惡之實，苟無
 <lb n="0744a16" ed="J"/>善惡之實，而其報應不舛者不足憑也。語曰：「積善成
@@ -335,7 +318,7 @@
 <lb n="0744b09" ed="J"/>攝受不能至曹溪、曹溪非余來不能有今日，即非公
 <lb n="0744b10" ed="J"/>等之孝敬無以繫余心，而叢林中興之功德非純誠
 <lb n="0744b11" ed="J"/>難以取究竟全始終，摠是一大事因緣實非偶然。且
-<lb n="0744b12" ed="J"/>幸修建祖庭工程苟完，余於丙午八月二十日即夢
+<lb n="0744b12" ed="J"/>幸修建祖庭工程苟完，余於丙午八月二十日即<note n="0744b1201" resp="CBETA" type="add" cb:note_key="J22.0744b12.20">蒙【CB】，<unclear></unclear>【嘉興】</note><app n="0744b1201"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">蒙<note type="cf1">《嘉興藏》（如是佛典徑山藏第156冊《憨山老人夢遊全集》第2卷第10頁左欄第2行）</note></lem><rdg wit="【嘉興】"><unclear></unclear></rdg></app>
 <lb n="0744b13" ed="J"/>恩詔許為僧，以此始末之徵，足見余非無因而來，公
 <lb n="0744b14" ed="J"/>等亦非無因而生斯世遇斯事也。想昔日當祖道大
 <lb n="0744b15" ed="J"/>盛之時，悟道弟子三十餘人，公等為灑掃執侍人耳！
@@ -442,7 +425,7 @@
 <lb n="0745b23" ed="J"/>用轉處著眼，試定當看。</p></cb:div>
 <lb n="0745b24" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">示舒伯損</cb:mulu><head>示舒伯損</head>
 <lb n="0745b25" ed="J"/><p xml:id="pJ22p0745b2501">舒生伯損有志於道，請益，因示之曰：「老氏有言：『為學
-<lb n="0745b26" ed="J"/>日益，為道日損，損之又損，以至於無損。』蓋為學者增
+<lb n="0745b26" ed="J"/>日益，為道日損，損之又損，以至於無<note n="0745b2601" resp="CBETA" type="add" cb:note_key="J22.0745b26.15">為【CB】，損【嘉興】</note><app n="0745b2601"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">為<note type="cf1">X73n1456_p0486c01</note><note type="cf2">J36nB351_p0520b13</note><note type="cf3">《禦定道德經註》（欽定四庫全書本下篇第8a頁）</note></lem><rdg wit="【嘉興】">損</rdg></app>。』蓋為學者增
 <lb n="0745b27" ed="J"/>長知見以當進益，殊不知知見增則我見勝，我見勝
 <lb n="0745b28" ed="J"/>則氣益驕，氣益驕則情愈蕩，情蕩則慾熾而性昏矣，
 <lb n="0745b29" ed="J"/>性昏而道轉遠，是故為道者以損為益也。吾人性本
@@ -506,7 +489,7 @@
 <lb n="0746a25" ed="J"/>之士先須辦長遠不退之志，下一分篤實苦切工夫，
 <lb n="0746a26" ed="J"/>如登萬仞高山，不至極頂而不<note n="0746a2601" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0746a2601"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>。步步努力、心心不
 <lb n="0746a27" ed="J"/>退，不為毀譽之所傾動、不為是非之所搖奪、不為困
-<lb n="0746a28" ed="J"/>橫之所抑措。如一人與萬人敵，小有退怯前功盡棄，
+<lb n="0746a28" ed="J"/>橫之所抑<note n="0746a2801" resp="CBETA" type="add" cb:note_key="J22.0746a28.05">挫【CB】，措【嘉興】</note><app n="0746a2801"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">挫<note type="cf1">X73n1456_p0487b16</note></lem><rdg wit="【嘉興】">措</rdg></app>。如一人與萬人敵，小有退怯前功盡棄，
 <lb n="0746a29" ed="J"/>又豈可以不堅固心而至不退安樂之境界耶？</p></cb:div>
 <lb n="0746a30" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">示歐嘉可</cb:mulu><head>示歐嘉可</head>
 <pb n="0746b" ed="J" xml:id="J22.B116.0746b"/>
@@ -584,7 +567,7 @@
 <lb n="0747a10" ed="J"/>發明徹悟而後<note n="0747a1001" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0747a1001"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>。今出家者空負行腳之名，今年五
 <lb n="0747a11" ed="J"/>臺、峨嵋，明年普陀、伏牛，但只口口為朝名山，隨喜道
 <lb n="0747a12" ed="J"/>場而<note n="0747a1201" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0747a1201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>，其實不知名山為何物？道場為何事？且不知
-<lb n="0747a13" ed="J"/>何人為善知識？秪記山水之高深，叢林粥飯之<unclear></unclear>麤
+<lb n="0747a13" ed="J"/>何人為善知識？秪記山水之高深，叢林粥飯之<note n="0747a1301" resp="CBETA" type="add" cb:note_key="J22.0747a13.19">精【CB】，<unclear></unclear>【嘉興】</note><app n="0747a1301"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">精<note type="cf1">X73n1456_p0488b01</note></lem><rdg wit="【嘉興】"><unclear></unclear></rdg></app>麤
 <lb n="0747a14" ed="J"/>而<note n="0747a1401" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0747a1401"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>，豈知此外更有事哉？走遍天下更無一語歸家
 <lb n="0747a15" ed="J"/>山，可不悲哉！禪人今將禮普陀，是求大士之攝受也。
 <lb n="0747a16" ed="J"/>且大士法身普遍十方，即不出門一步而求之，未嘗
@@ -754,7 +737,7 @@
 <lb n="0748c25" ed="J"/>弟子不秉佛戒，將何以為修行之地？賴何以出生死
 <lb n="0748c26" ed="J"/>之苦海乎？老人臨行特為汝等說梵網戒，不知汝等
 <lb n="0748c27" ed="J"/>一一能堅持否？佛制比丘半月半月誦此《戒經》，如從
-<lb n="0748c28" ed="J"/>佛親聞，作法竭麼母令毀犯，令三業六根念念檢點
+<lb n="0748c28" ed="J"/>佛親聞，作法<note n="0748c2801" resp="CBETA" type="add" cb:note_key="J22.0748c28.06">羯磨【CB】，竭麼【嘉興】</note><app n="0748c2801"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">羯磨<note type="cf1">X73n1456_p0822a05</note></lem><rdg wit="【嘉興】">竭麼</rdg></app>，<note n="0748c2802" resp="CBETA" type="add" cb:note_key="J22.0748c28.08">毋【CB】，母【嘉興】</note><app n="0748c2802"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">毋<note type="cf1">X73n1456_p0822a05</note></lem><rdg wit="【嘉興】">母</rdg></app>令毀犯，令三業六根念念檢點
 <lb n="0748c29" ed="J"/>觀察，不許闇生罪過，不得毀犯戒根，即此便是真實
 <lb n="0748c30" ed="J"/>修行，坐進此道，不必遠訪明師徒增辛苦也。若汝等
 <pb n="0749a" ed="J" xml:id="J22.B116.0749a"/>
@@ -930,10 +913,10 @@
 <lb n="0750c15" ed="J"/>甲寅除日，同存赤劉子遠來相慰，於寂寞之中伴予
 <lb n="0750c16" ed="J"/>度歲。一日坐間偶以所志未了事請益，而將遠求其
 <lb n="0750c17" ed="J"/>大欲，老人噫嚱而歎曰：「子所志，是知將涉海渡河而
-<lb n="0750c18" ed="J"/>求飲甘泉，泉未必得而渴愈熾，且苦<g ref="#CB15993"/>涉之勞也。向
+<lb n="0750c18" ed="J"/>求飲甘泉，泉未必得而渴愈熾，且苦跋涉之勞也。向
 <lb n="0750c19" ed="J"/>以因果報應之理喻子，豈忘之耶？夫善惡感應捷如
 <lb n="0750c20" ed="J"/>影響，聲和響順、形直影端。故聖人不言因果，但言『為
-<lb n="0750c21" ed="J"/>普降之百祥，為不善降之百殃。』是以安命定志為誡，
+<lb n="0750c21" ed="J"/><note n="0750c2101" resp="CBETA" type="add" cb:note_key="J22.0750c21.01">善【CB】，<unclear></unclear>【嘉興】</note><app n="0750c2101"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">善<note type="cf1">《嘉興藏》（如是佛典徑山藏第156冊《憨山老人夢遊全集》第2卷第39頁左欄第1行）</note></lem><rdg wit="【嘉興】"><unclear></unclear></rdg></app>降之百祥，為不善降之百殃。』是以安命定志為誡，
 <lb n="0750c22" ed="J"/>故曰：『不知命，無以為君子。』在名教為安命，在吾佛則
 <lb n="0750c23" ed="J"/>為因果。故東坡云：『要知前世因，今生受者是，要知未
 <lb n="0750c24" ed="J"/>來果，今生作者是。』然世之亦有作善而致惡報者，此
@@ -1041,7 +1024,7 @@
 <lb n="0752a02" ed="J"/>不更可悲哉？雖然，用心差別既<note n="0752a0201" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0752a0201"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>知之，其山中目前
 <lb n="0752a03" ed="J"/>變幻境緣，即水流風動、猿吟鳥噪、雲騰霧擁，樅然在
 <lb n="0752a04" ed="J"/>前更為喧雜，永嘉『見道忘山』之語切須看破。老人初
-<lb n="0752a05" ed="J"/>住五臺龍門時，萬丈寒巖之下，水雪堆裏如埋死人，
+<lb n="0752a05" ed="J"/>住五臺龍門時，萬丈寒巖之下，<note n="0752a0501" resp="CBETA" type="add" cb:note_key="J22.0752a05.13">冰【CB】，水【嘉興】</note><app n="0752a0501"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">冰<note type="cf1">X73n1456_p0492b21</note></lem><rdg wit="【嘉興】">水</rdg></app>雪堆裏如埋死人，
 <lb n="0752a06" ed="J"/>徹骨嚴寒五內俱透，唯有微微一息視從冰中出入，
 <lb n="0752a07" ed="J"/>至此返觀覓自心一念起處了不可得，此境正是助
 <lb n="0752a08" ed="J"/>道之緣。又大風時作，萬竅怒號日夜不休，及雪消澗
@@ -1190,7 +1173,7 @@
 <lb n="0753b27" ed="J"/>故從凡至聖設有五十五位之階差，非是世尊好作
 <lb n="0753b28" ed="J"/>恁般去就費婆心也，以眾生心病無量故，設對症之
 <lb n="0753b29" ed="J"/>方亦無量耳！及至究竟實際，直到知見盡泯一法不
-<lb n="0753b30" ed="J"/>立，始是到家田地。若有纖毫知見不忘，猶在門休止
+<lb n="0753b30" ed="J"/>立，始是到家田地。若有纖毫知見不忘，猶在門<note n="0753b3001" resp="CBETA" type="add" cb:note_key="J22.0753b30.19">外【CB】，休【嘉興】</note><app n="0753b3001"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">外<note type="cf1">《嘉興藏》（如是佛典徑山藏第156冊《憨山老人夢遊全集》第2卷第51頁左欄第10行）</note></lem><rdg wit="【嘉興】">休</rdg></app>止
 <pb n="0753c" ed="J" xml:id="J22.B116.0753c"/>
 <lb n="0753c01" ed="J"/>宿艸庵。遣之又遣，遣至無可遣，縱然如是，猶是法身
 <lb n="0753c02" ed="J"/>邊事，未是法身向上事。止是教家極則處，未是宗門

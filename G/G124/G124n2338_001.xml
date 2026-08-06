@@ -2,135 +2,143 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="G124n2338">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Fojiao Canon</title>
-			<title level="s" xml:lang="zh-Hant">佛教大藏經</title>
-			<title level="m" xml:lang="zh-Hant">無量義經箋註</title>
-			<title>Fojiao Canon, Electronic version, No. 2338 無量義經箋註</title>
-			<title xml:lang="zh-Hant">佛教大藏經數位版, No. 2338 無量義經箋註</title>
-			<author>民國 丁福保註</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>單卷版 XML TEI P5b</edition>
-		</editionStmt>
-		<extent>4卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">G</idno>.<idno type="vol">124</idno>.<idno type="no">2338</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-			<date>2026-05-11 17:55:54 +0800</date>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>佛教大藏經</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA OCR</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="orig"><p>原書標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【佛教】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-		<charDecl>
-			<char xml:id="CB00584">
-				<charName>CBETA CHARACTER CB00584</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[颱-台+犮]</value>
-				</charProp>
-				<mapping type="normal_unicode">U+98B0</mapping>
-				<mapping cb:dec="983624" type="PUA">U+F0248</mapping>
-			</char>
-			<char xml:id="CB00589">
-				<charName>CBETA CHARACTER CB00589</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[澗-日+月]</value>
-				</charProp>
-				<charProp>
-					<localName>normalized form</localName>
-					<value>澗</value>
-				</charProp>
-				<mapping type="unicode">U+3D4E</mapping>
-				<mapping cb:dec="983629" type="PUA">U+F024D</mapping>
-			</char>
-			<char xml:id="CB05418">
-				<charName>CBETA CHARACTER CB05418</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[虔-文+ㄆ]</value>
-				</charProp>
-				<charProp>
-					<localName>normalized form</localName>
-					<value>虔</value>
-				</charProp>
-				<mapping type="unicode">U+458D</mapping>
-				<mapping cb:dec="988458" type="PUA">U+F152A</mapping>
-			</char>
-			<char xml:id="CB16653">
-				<charName>CBETA CHARACTER CB16653</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[夾/貝]</value>
-				</charProp>
-				<charProp>
-					<localName>normalized form</localName>
-					<value>賚</value>
-				</charProp>
-				<mapping type="unicode">U+27D98</mapping>
-				<mapping cb:dec="999693" type="PUA">U+F410D</mapping>
-			</char>
-			<char xml:id="CB35009">
-				<charName>CBETA CHARACTER CB35009</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[（十一）]</value>
-				</charProp>
-				<mapping cb:dec="1018049" type="PUA">U+F88C1</mapping>
-			</char>
-		</charDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2026-05-10">
-			<name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Fojiao Canon</title>
+      <title level="s" xml:lang="zh-Hant">佛教大藏經</title>
+      <title level="m" xml:lang="zh-Hant">無量義經箋註</title>
+      <title>Fojiao Canon, Electronic version, No. 2338 無量義經箋註</title>
+      <title xml:lang="zh-Hant">佛教大藏經數位版, No. 2338 無量義經箋註</title>
+      <author>民國 丁福保註</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>單卷版 XML TEI P5b</edition>
+    </editionStmt>
+    <extent>4卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">G</idno>.<idno type="vol">124</idno>.<idno type="no">2338</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+      <date>2026-08-05 09:43:32 +0800</date>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>佛教大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA, OCR by CBETA</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，CBETA OCR</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>原書標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【佛教】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+    <charDecl>
+      <char xml:id="CB00584">
+        <charName>CBETA CHARACTER CB00584</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[颱-台+犮]</value>
+        </charProp>
+        <mapping type="normal_unicode">U+98B0</mapping>
+        <mapping cb:dec="983624" type="PUA">U+F0248</mapping>
+      </char>
+      <char xml:id="CB00589">
+        <charName>CBETA CHARACTER CB00589</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[澗-日+月]</value>
+        </charProp>
+        <charProp>
+          <localName>normalized form</localName>
+          <value>澗</value>
+        </charProp>
+        <mapping type="unicode">U+3D4E</mapping>
+        <mapping cb:dec="983629" type="PUA">U+F024D</mapping>
+      </char>
+      <char xml:id="CB05418">
+        <charName>CBETA CHARACTER CB05418</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[虔-文+ㄆ]</value>
+        </charProp>
+        <charProp>
+          <localName>normalized form</localName>
+          <value>虔</value>
+        </charProp>
+        <mapping type="unicode">U+458D</mapping>
+        <mapping cb:dec="988458" type="PUA">U+F152A</mapping>
+      </char>
+      <char xml:id="CB16653">
+        <charName>CBETA CHARACTER CB16653</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[夾/貝]</value>
+        </charProp>
+        <charProp>
+          <localName>normalized form</localName>
+          <value>賚</value>
+        </charProp>
+        <mapping type="unicode">U+27D98</mapping>
+        <mapping cb:dec="999693" type="PUA">U+F410D</mapping>
+      </char>
+      <char xml:id="CB35009">
+        <charName>CBETA CHARACTER CB35009</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[（十一）]</value>
+        </charProp>
+        <mapping cb:dec="1018049" type="PUA">U+F88C1</mapping>
+      </char>
+      <char xml:id="CB35023">
+        <charName>CBETA CHARACTER CB35023</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[口*護]</value>
+        </charProp>
+        <mapping cb:dec="1018063" type="PUA">U+F88CF</mapping>
+      </char>
+    </charDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2026-05-10">
+      <name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <milestone unit="juan" n="1"/>
 <pb ed="G" xml:id="G124.2338.0345a" n="0345a"/>
-<lb ed="G" n="0345a01"/><cb:mulu type="卷" n="1"></cb:mulu><cb:div type="other"><cb:mulu type="其他" level="1">箋註序</cb:mulu><cb:div type="orig"><p xml:id="pG124p0345a0101">無量義經箋註序</p><byline cb:type="author">天台沙門釋諦閑撰</byline>
+<lb ed="G" n="0345a01"/><cb:div type="other"><cb:mulu type="其他" level="1">箋註序</cb:mulu><cb:div type="orig"><p xml:id="pG124p0345a0101">無量義經箋註序</p><byline cb:type="author">天台沙門釋諦閑撰</byline>
 <lb ed="G" n="0345a02"/><byline cb:type="author">無錫孫祖烈箋註</byline>
 <lb ed="G" n="0345a03"/><p xml:id="pG124p0345a0301">昔佛成道已。</p></cb:div>
 <lb ed="G" n="0345a04"/><cb:div type="commentary"><p xml:id="pG124p0345a0401" style="margin-left:1em;">魏書釋老志：所謂佛者，本號釋迦文者。譯言能仁，謂德充道備，堪濟萬物也
@@ -377,7 +385,7 @@
 <lb ed="G" n="0360a14"/><cb:div type="commentary"><p xml:id="pG124p0360a1401" style="margin-left:1em;">詩大序：嗟歎之不足故詠歌之，詠歌之不足故不知手之舞之足之蹈之也。</p></cb:div>
 <lb ed="G" n="0360a15"/><cb:div type="orig"><p xml:id="pG124p0360a1501">輒<g ref="#CB05418"/>訪宿解。</p></cb:div>
 <pb ed="G" xml:id="G124.2338.0361a" n="0361a"/>
-<lb ed="G" n="0361a01"/><cb:div type="commentary"><p xml:id="pG124p0361a0101" style="margin-left:1em;">宿，素也。史記信陵傳，晉鄙咤宿將。案宿解指素解經旨者言。</p></cb:div>
+<lb ed="G" n="0361a01"/><cb:div type="commentary"><p xml:id="pG124p0361a0101" style="margin-left:1em;">宿，素也。史記信陵傳，晉鄙<g ref="#CB35023"/>咤宿將。案宿解指素解經旨者言。</p></cb:div>
 <lb ed="G" n="0361a02"/><cb:div type="orig"><p xml:id="pG124p0361a0201">抽刷庸思，謹立序注云。</p></cb:div>
 <lb ed="G" n="0361a03"/><cb:div type="commentary"><p xml:id="pG124p0361a0301" style="margin-left:1em;">以上述作序之由來。</p></cb:div>
 <lb ed="G" n="0361a04"/><cb:div type="orig"><p xml:id="pG124p0361a0401">自極教應世，與俗而差。神道</p></cb:div>

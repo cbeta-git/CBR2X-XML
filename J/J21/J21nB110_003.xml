@@ -2,140 +2,140 @@
 <?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="J21nB110">
 <teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title level="s">Jiaxing Canon (Shinwenfeng Edition)</title>
-			<title level="s" xml:lang="zh-Hant">嘉興大藏經（新文豐版）</title>
-			<title level="m" xml:lang="zh-Hant">護法錄</title>
-			<title>Jiaxing Canon (Shinwenfeng Edition), Electronic version, No. B110 護法錄</title>
-			<title xml:lang="zh-Hant">嘉興大藏經（新文豐版）數位版, No. B110 護法錄</title>
-			<author>明 宋濂著　袾宏輯　錢謙益訂</author>
-			<respStmt>
-				<resp>Electronic Version by</resp>
-				<name>CBETA</name>
-			</respStmt>
-		</titleStmt>
-		<editionStmt>
-			<edition>單卷版 XML TEI P5b</edition>
-		</editionStmt>
-		<extent>10卷</extent>
-		<publicationStmt>
-			<idno type="CBETA">
-				<idno type="canon">J</idno>.<idno type="vol">21</idno>.<idno type="no">B110</idno>
-			</idno>
-			<distributor>
-				<name>財團法人佛教電子佛典基金會 (CBETA)</name>
-				<address>
-					<addrLine><email>service@cbeta.org</email></addrLine>
-				</address>
-			</distributor>
-			<availability>
-				<p>Available for non-commercial use when distributed with this header intact.</p>
-			</availability>
-			<date>2026-03-11 21:33:40 +0800</date>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>嘉興大藏經（新文豐版）</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version), Punctuated text as provided by Mao Pei-Jun and Liao Yu-An and Liao Yu-Ci</p>
-			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二），毛佩君、廖予安、廖予慈大德提供新式標點</p>
-		</projectDesc>
-		<editorialDecl>
-			<punctuation resp="CBETA"><p>新式標點</p></punctuation>
-		</editorialDecl>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="rdg">
-					<listWit>
-						<witness xml:id="wit.orig">【嘉興】</witness>
-						<witness xml:id="wit.cbeta">【CB】</witness>
-					</listWit>
-				</tagUsage>
-			</namespace>
-		</tagsDecl>
-		<charDecl>
-			<char xml:id="CB00215">
-				<charName>CBETA CHARACTER CB00215</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[王*巳]</value>
-				</charProp>
-				<mapping type="normal_unicode">U+7398</mapping>
-				<mapping cb:dec="983255" type="PUA">U+F00D7</mapping>
-			</char>
-			<char xml:id="CB02189">
-				<charName>CBETA CHARACTER CB02189</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[療-(日/小)+土]</value>
-				</charProp>
-				<mapping cb:dec="985229" type="PUA">U+F088D</mapping>
-			</char>
-			<char xml:id="CB02443">
-				<charName>CBETA CHARACTER CB02443</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[宋-木+卒]</value>
-				</charProp>
-				<charProp>
-					<localName>normalized form</localName>
-					<value>宰</value>
-				</charProp>
-				<mapping type="unicode">U+21A27</mapping>
-				<mapping cb:dec="985483" type="PUA">U+F098B</mapping>
-			</char>
-			<char xml:id="CB14232">
-				<charName>CBETA CHARACTER CB14232</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[尒/口]</value>
-				</charProp>
-				<mapping cb:dec="997272" type="PUA">U+F3798</mapping>
-			</char>
-			<char xml:id="CB15298">
-				<charName>CBETA CHARACTER CB15298</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[王*童]</value>
-				</charProp>
-				<mapping type="unicode">U+24A54</mapping>
-				<mapping cb:dec="998338" type="PUA">U+F3BC2</mapping>
-			</char>
-			<char xml:id="CB21753">
-				<charName>CBETA CHARACTER CB21753</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[牛*殺]</value>
-				</charProp>
-				<mapping cb:dec="1004793" type="PUA">U+F54F9</mapping>
-			</char>
-			<char xml:id="CB21759">
-				<charName>CBETA CHARACTER CB21759</charName>
-				<charProp>
-					<localName>composition</localName>
-					<value>[春-三+?]</value>
-				</charProp>
-				<mapping cb:dec="1004799" type="PUA">U+F54FF</mapping>
-			</char>
-		</charDecl>
-	</encodingDesc>
-	<profileDesc>
-		<langUsage>
-			<language ident="en">English</language>
-			<language ident="zh-Hant">Chinese (Traditional)</language>
-		</langUsage>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2013-05-20">
-			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
-		</change>
-		<change when="2009-07-30T13:02:27">
-			Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
-		</change>
-	</revisionDesc>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Jiaxing Canon (Shinwenfeng Edition)</title>
+      <title level="s" xml:lang="zh-Hant">嘉興大藏經（新文豐版）</title>
+      <title level="m" xml:lang="zh-Hant">護法錄</title>
+      <title>Jiaxing Canon (Shinwenfeng Edition), Electronic version, No. B110 護法錄</title>
+      <title xml:lang="zh-Hant">嘉興大藏經（新文豐版）數位版, No. B110 護法錄</title>
+      <author>明 宋濂著　袾宏輯　錢謙益訂</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>單卷版 XML TEI P5b</edition>
+    </editionStmt>
+    <extent>10卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">J</idno>.<idno type="vol">21</idno>.<idno type="no">B110</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+      <date>2026-08-05 09:43:32 +0800</date>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>嘉興大藏經（新文豐版）</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version), Punctuated text as provided by Mao Pei-Jun and Liao Yu-An and Liao Yu-Ci</p>
+      <p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二），毛佩君、廖予安、廖予慈大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="CBETA"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【嘉興】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+    <charDecl>
+      <char xml:id="CB00215">
+        <charName>CBETA CHARACTER CB00215</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[王*巳]</value>
+        </charProp>
+        <mapping type="normal_unicode">U+7398</mapping>
+        <mapping cb:dec="983255" type="PUA">U+F00D7</mapping>
+      </char>
+      <char xml:id="CB02189">
+        <charName>CBETA CHARACTER CB02189</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[療-(日/小)+土]</value>
+        </charProp>
+        <mapping cb:dec="985229" type="PUA">U+F088D</mapping>
+      </char>
+      <char xml:id="CB02443">
+        <charName>CBETA CHARACTER CB02443</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[宋-木+卒]</value>
+        </charProp>
+        <charProp>
+          <localName>normalized form</localName>
+          <value>宰</value>
+        </charProp>
+        <mapping type="unicode">U+21A27</mapping>
+        <mapping cb:dec="985483" type="PUA">U+F098B</mapping>
+      </char>
+      <char xml:id="CB14232">
+        <charName>CBETA CHARACTER CB14232</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[尒/口]</value>
+        </charProp>
+        <mapping cb:dec="997272" type="PUA">U+F3798</mapping>
+      </char>
+      <char xml:id="CB15298">
+        <charName>CBETA CHARACTER CB15298</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[王*童]</value>
+        </charProp>
+        <mapping type="unicode">U+24A54</mapping>
+        <mapping cb:dec="998338" type="PUA">U+F3BC2</mapping>
+      </char>
+      <char xml:id="CB21753">
+        <charName>CBETA CHARACTER CB21753</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[牛*殺]</value>
+        </charProp>
+        <mapping cb:dec="1004793" type="PUA">U+F54F9</mapping>
+      </char>
+      <char xml:id="CB21759">
+        <charName>CBETA CHARACTER CB21759</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[春-三+?]</value>
+        </charProp>
+        <mapping cb:dec="1004799" type="PUA">U+F54FF</mapping>
+      </char>
+    </charDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2009-07-30T13:02:27">
+      Zhou Bang-Xin (ed.) Created initial TEI XML version with BASICX.BAT
+    </change>
+  </revisionDesc>
 </teiHeader>
 <text><body>
 <cb:mulu level="1" type="其他">國初大浮屠塔銘</cb:mulu><cb:mulu level="2" type="其他">日本建長禪寺古先原禪師道行碑銘</cb:mulu>
@@ -201,7 +201,7 @@
 <lb n="0631b27" ed="J"/>常虛<note n="0631b2701" resp="CBETA" type="add">己【CB】，巳【嘉興】</note><app n="0631b2701"><lem resp="CBETA.maha" wit="【CB】">己</lem><rdg wit="【嘉興】">巳</rdg></app>求道，時<note n="0631b2702" resp="CBETA" type="add">已【CB】，巳【嘉興】</note><app n="0631b2702"><lem resp="CBETA.maha" wit="【CB】">已</lem><rdg wit="【嘉興】">巳</rdg></app>行役僧之令，師堅欲引去，劉公屬
 <lb n="0631b28" ed="J"/>縣大夫，特免科繇以款之。未幾，返南巢故隱，而嚮慕
 <lb n="0631b29" ed="J"/>者愈眾。宗藩宣讓王累遣使者致師，師以老病固辭。
-<lb n="0631b30" ed="J"/>淮西廉訪使斡公王倫徒、監察御史常公道夫，尢極
+<lb n="0631b30" ed="J"/>淮西廉訪使斡公王倫徒、監察御史常公道夫，<note n="0631b3001" resp="CBETA" type="add" cb:note_key="J21.0631b30.19">尤【CB】，尢【嘉興】</note><app n="0631b3001"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">尤<note type="cf1">X77n1524_p0457a12</note></lem><rdg wit="【嘉興】">尢</rdg></app>極
 <pb n="0631c" ed="J" xml:id="J21.B110.0631c"/>
 <lb n="0631c01" ed="J"/>趍仰，時移書牘，以辨鍊玄乘。鄉先正集賢學士傅公
 <lb n="0631c02" ed="J"/>立、月灣先生吳公存與師為世外交，甚篤。月灣至有
@@ -213,7 +213,7 @@
 <lb n="0631c08" ed="J"/>五峰之頂，復合於塔中，彌三夕乃止。巢之居民凡數
 <lb n="0631c09" ed="J"/>十里，聚觀駭異之。弟子德弘、慧月、慧觀，以是月二十
 <lb n="0631c10" ed="J"/>六日奉全身<note n="0631c1001" resp="CBETA" type="add">瘞【CB】，<g ref="#CB02189"/>【嘉興】</note><app n="0631c1001"><lem resp="CBETA.maha" wit="【CB】">瘞</lem><rdg wit="【嘉興】"><g ref="#CB02189"/></rdg></app>焉。世壽七十有三，僧臘五十有三。聞
-<lb n="0631c11" ed="J"/>師之歿，緇素無不哀慟，而兩淮之人尢切，不啻喪其
+<lb n="0631c11" ed="J"/>師之歿，緇素無不哀慟，而兩淮之人<note n="0631c1101" resp="CBETA" type="add" cb:note_key="J21.0631c11.15">尤【CB】，尢【嘉興】</note><app n="0631c1101"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">尤</lem><rdg wit="【嘉興】">尢</rdg></app>切，不啻喪其
 <lb n="0631c12" ed="J"/>父母。師之道浹洽於人者，蓋可知矣。師常囑學徒云：
 <lb n="0631c13" ed="J"/>「凡剃髮染衣，當洞明諸佛心宗，行解相應，以正悟之
 <lb n="0631c14" ed="J"/>境靈靈自照，歲久月深，具大無畏，如透水月華，萬浪
@@ -223,7 +223,7 @@
 <lb n="0631c18" ed="J"/>廣信祝蕃遠嘗云：「番陽竺源，吳中斷崖，其人類孤峰
 <lb n="0631c19" ed="J"/>懸巖，可仰望而不可攀躋。」人稱之為實錄。嗚呼！大鑒
 <lb n="0631c20" ed="J"/>之道分為五家，而臨濟之宗為最盛。臨濟之傳，雖曰
-<lb n="0631c21" ed="J"/>豐熾光大，覃及東南，至五祖演為尢盛。今以其世次
+<lb n="0631c21" ed="J"/>豐熾光大，覃及東南，至五祖演為<note n="0631c2101" resp="CBETA" type="add" cb:note_key="J21.0631c21.14">尤【CB】，尢【嘉興】</note><app n="0631c2101"><lem wit="【CB】" resp="CBETA.shin">尤</lem><rdg wit="【嘉興】">尢</rdg></app>盛。今以其世次
 <lb n="0631c22" ed="J"/>觀之，則自開福寧、月庵果、老衲證、月林觀、竹巖印、真
 <lb n="0631c23" ed="J"/>翁圓、無能教，至師始八葉耳。宜其傳授分明，印悟真
 <lb n="0631c24" ed="J"/>切，有非耳剽目掇者之可同哉！余也不敏，似杞致慧
@@ -529,7 +529,7 @@
 <lb n="0635a14" ed="J"/>為吳越所宗。又六傳至於湛堂，貫遮性雙單制，聽正
 <lb n="0635a15" ed="J"/>作之學，而以止觀為歸宿之域，學子翕然嚮之。其入
 <lb n="0635a16" ed="J"/>室弟子為世法幢，星分棋布於江南，若無慈光圓照
-<lb n="0635a17" ed="J"/>法師，則尢號金春而玉應者也。法師諱允若，字季蘅，
+<lb n="0635a17" ed="J"/>法師，則<note n="0635a1701" resp="CBETA" type="add" cb:note_key="J21.0635a17.04">無【CB】，尢【嘉興】</note><app n="0635a1701"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">無</lem><rdg wit="【嘉興】">尢</rdg></app>號金春而玉應者也。法師諱允若，字季蘅，
 <lb n="0635a18" ed="J"/>族相里氏越人也。代為簪纓家，在唐有名造者，嘗為
 <lb n="0635a19" ed="J"/>禮部郎中。時內侍監魚朝恩怙貴誕肆，宰相元載亦
 <lb n="0635a20" ed="J"/><note n="0635a2001" resp="CBETA" type="add">斂【CB】，歛【嘉興】</note><app n="0635a2001"><lem resp="CBETA.maha" wit="【CB】">斂</lem><rdg wit="【嘉興】">歛</rdg></app>容避去，造與殿中侍御史李衎抗言折之，世稱直
@@ -759,7 +759,7 @@
 <lb n="0637b27" ed="J"/>琉璃園。鳥鳴籟動宣秘言，金臺來迎欻孤騫，青蓮為
 <lb n="0637b28" ed="J"/>屋翡翠軒，左右旋繞千幢幡。法門明驗此無諼，心境
 <lb n="0637b29" ed="J"/>叵得染淨泯，不礙緣生想相勻。人人負此希世珍，慎
-<lb n="0637b30" ed="J"/>母遺棄淪荊榛，弗信來徵圓照墳。</l></lg></cb:div>
+<lb n="0637b30" ed="J"/><note n="0637b3001" resp="CBETA" type="add" cb:note_key="J21.0637b30.01">毋【CB】，母【嘉興】</note><app n="0637b3001"><lem wit="【CB】" resp="CBETA.shin" cb:provider="CBETA 新式標點專案 (2024-01-09)">毋</lem><rdg wit="【嘉興】">母</rdg></app>遺棄淪荊榛，弗信來徵圓照墳。</l></lg></cb:div>
 <pb n="0637c" ed="J" xml:id="J21.B110.0637c"/>
 <lb n="0637c01" ed="J"/><cb:div type="other"><cb:mulu level="2" type="其他">天龍禪師無用貴公塔銘</cb:mulu><head>天龍禪師無用貴公塔銘</head>
 <lb n="0637c02" ed="J"/><p xml:id="pJ21p0637c0201" style="margin-left:3em"><note place="inline">至正二十一年化</note></p>
