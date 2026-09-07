@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/schema/cbeta-p5a.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="YP31n0032">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">The Complete Works of Venerable Yen Pei</title>
+      <title level="s" xml:lang="zh-Hant">演培法師全集</title>
+      <title level="m" xml:lang="zh-Hant">天臺性具思想論</title>
+      <title>The Complete Works of Venerable Yen Pei, Electronic version, No. 32 天臺性具思想論</title>
+      <title xml:lang="zh-Hant">演培法師全集數位版, No. 32 天臺性具思想論</title>
+      <author>民國 釋演培著</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>單卷版 XML TEI P5b</edition>
+    </editionStmt>
+    <extent>5卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">YP</idno>.<idno type="vol">31</idno>.<idno type="no">32</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+      <date>2026-09-01 14:22:19 +0800</date>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>演培法師全集</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">ABBYY FineReader 16 OCR, ABBYY FineReader 11 OCR, Google Document AI</p>
+      <p xml:lang="zh-Hant" cb:type="ly">ABBYY FineReader 16 OCR，ABBYY FineReader 11 OCR，Google Document AI</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="orig"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.orig">【演培】</witness>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2026-09-01">
+      <name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu type="其他" level="1">結論——性具思想的開展與批判</cb:mulu><cb:mulu type="其他" level="2">七</cb:mulu>
+<milestone unit="juan" n="3"/>
+<pb ed="YP" xml:id="YP31.0032.0311a" n="0311a"/>
+<lb ed="YP" n="0311a01"/>
+<lb ed="YP" n="0311a02"/><cb:div type="other"><cb:mulu type="其他" level="1">瑜伽師地論解題</cb:mulu><head>瑜伽師地論解題</head>
+<lb ed="YP" n="0311a03"/>
+<lb ed="YP" n="0311a04"/><p xml:id="pYP31p0311a0401" style="margin-left:0em;text-indent:2em;"><hi rend="bold">概觀</hi>　印度佛教，自來劃分為三大時期，第一是小乘教發達時期，約佛滅後一
+<lb ed="YP" n="0311a05"/>百年至四百年（從西元前二世紀至後二世紀）之間。第二是大乘教勃興時期，約佛滅
+<lb ed="YP" n="0311a06"/>後六七百年（西元三四世紀）之間。為此時代之權威代表者，是初唱大乘佛教之龍樹
+<lb ed="YP" n="0311a07"/>、提婆。第三是大乘教大成時期，約佛滅後八九百年（西元五六世紀）之間。為此時
+<lb ed="YP" n="0311a08"/>代之代表者，則是無著、世親二大論師。</p>
+<lb ed="YP" n="0311a09"/><p xml:id="pYP31p0311a0901" style="margin-left:0em;text-indent:2em;">《瑜伽論記》第一之上，根據最勝子之《瑜伽師地論釋》，及慈恩大師之《瑜伽
+<lb ed="YP" n="0311a10"/>論略纂》所說，敘有如上三大時期之時代思潮之演變：</p>
+<lb ed="YP" n="0311a11"/><p xml:id="pYP31p0311a1101" style="margin-left:0em;text-indent:2em;">「按釋論等云：佛涅槃後，魔事紛起，部執競興，多著有見。龍猛菩薩證極喜地
+<lb ed="YP" n="0311a12"/>，採集大乘無相空教，造《中論》等，究暢真要，除彼有見；聖提婆等諸大論師，造
+<lb ed="YP" n="0311a13"/>《百論》等，弘闡大義，由是眾生復著空見。九百年時，有出家士，名阿僧佉，唐云
+<lb ed="YP" n="0311a14"/>無著，應中印度阿瑜陀國（本生處者北印度犍馱羅國是也），其國王城西五百里，營
+<pb ed="YP" xml:id="YP31.0032.0312a" n="0312a"/>
+<lb ed="YP" n="0312a01"/>立禪省，領數百人，授以禪法。無著為人，位登初地，證法光定，得大神通，事大慈
+<lb ed="YP" n="0312a02"/>尊，請說此論等。慈氏菩薩，隨無著機，恆於夜分，從知足天，降於禪省，為說五論
+<lb ed="YP" n="0312a03"/>之頌：一、瑜伽論；二、分別觀行名分別瑜伽論；三、大莊嚴論；四、辨中邊；五、
+<lb ed="YP" n="0312a04"/>金剛般若」。</p>
+<lb ed="YP" n="0312a05"/><p xml:id="pYP31p0312a0501" style="margin-left:0em;text-indent:2em;">於上三期之第一時期中，小乘初有根本（上座、大眾）二部之對立，繼有二十部
+<lb ed="YP" n="0312a06"/>派之競起，各執一端，互異所說。就中上座部之薩婆多部——說一切有部，為最有勢
+<lb ed="YP" n="0312a07"/>力，不但學者輩出，且為二十部中之霸者，而恆保持其特殊之地位。其中心思想，以
+<lb ed="YP" n="0312a08"/>三世實有，法體恆有為主，是一主張諸法實有之學派。小乘時代之四百年間，彼之思
+<lb ed="YP" n="0312a09"/>想，足可為時代之代表。蓋佛滅後四百年，迦膩色迦王，曾依有部之中心思想，結集
+<lb ed="YP" n="0312a10"/>《大毘婆沙論》二百卷。於此論中，將其他各部之教理，予以統一組織，形成該時代
+<lb ed="YP" n="0312a11"/>佛法思想之大觀，而為佛滅後四百年間之代表論典也。如斯實有之思想，隨時代之變
+<lb ed="YP" n="0312a12"/>遷而終於不克適應時代之思潮，乃有龍樹提婆之出現，此二大士，一方面將向來盛行
+<lb ed="YP" n="0312a13"/>之小乘實有主義之教理，予以一大革興，同時高唱大乘性空主義之哲理，於是印度佛
+<lb ed="YP" n="0312a14"/>教乃進入第二時期。龍樹之《中論》、《十二門論》、《大智度論》；提婆之《百論
+<pb ed="YP" xml:id="YP31.0032.0313a" n="0313a"/>
+<lb ed="YP" n="0313a01"/>》：是實相論空主義之代表論典。降而至第三期——佛滅後九百年，由於無著、世親
+<lb ed="YP" n="0313a02"/>之出世，乃復產生大乘非空非有之唯識中道教。於此期中，因於前二期之因襲，有墮
+<lb ed="YP" n="0313a03"/>有見者，有著空見者，為救此時代之弊，故無著、世親乃起而統一有空之兩大思潮，
+<lb ed="YP" n="0313a04"/>主張非有非空之唯識中道教。《瑜伽論》、《攝大乘論》、《唯識論》，實為此一時
+<lb ed="YP" n="0313a05"/>代思想之代表論典。</p>
+<lb ed="YP" n="0313a06"/><p xml:id="pYP31p0313a0601" style="margin-left:0em;text-indent:2em;">上來所說三大時期之代表論典，其部帙之最龐大者，如第一期之《大毘婆沙論》
+<lb ed="YP" n="0313a07"/>，有二百卷；第二期之《大智度論》，有一百卷；第三期之《瑜伽師地論》，有一百
+<lb ed="YP" n="0313a08"/>卷。是等論典，各以本宗之中心思想為主，而統一該攝彼時代所有之思想，並予以批
+<lb ed="YP" n="0313a09"/>判之。因此，《瑜伽論》實與其他二大論典，相為伯仲，不但是第三期佛教之一大寶
+<lb ed="YP" n="0313a10"/>藏，且與彼前期之空思想、實相論、一乘教根本論典之《大智度論》遙相對峙，成為
+<lb ed="YP" n="0313a11"/>唯識中道思想、緣起論、三乘教之根本論典。</p>
+<lb ed="YP" n="0313a12"/><p xml:id="pYP31p0313a1201" style="margin-left:0em;text-indent:2em;"><hi rend="bold">成立</hi>　《西域記》第五，據《婆藪槃豆法師傳》等說：無著，梵名阿僧伽，是
+<lb ed="YP" n="0313a13"/>北印度犍陀羅國富婁沙富羅城（現今之 peshawar）之國師婆羅門憍尸迦之子，亦即
+<lb ed="YP" n="0313a14"/>世親論師之親兄。彼初雖於小乘化地部（《婆藪槃豆傳》中，雖說薩婆多部，今依《
+<pb ed="YP" xml:id="YP31.0032.0314a" n="0314a"/>
+<lb ed="YP" n="0314a01"/>西域記》說）出家，但其天性素不滿於實有主義之教理，故常思惟空義，不能悟入，
+<lb ed="YP" n="0314a02"/>乃欲自殺。時有賓頭盧阿羅漢，觀見此事，乃為說小乘空觀；雖然如此，而彼心意猶
+<lb ed="YP" n="0314a03"/>未能安。由此遂捨小乘，乘其所得之神通力，登兜率天，於其內院，值遇彌勒菩薩，
+<lb ed="YP" n="0314a04"/>有所諮問。彌勒菩薩，循其所問，為說大乘空觀，無著聞之，即能通達其深理，悟入
+<lb ed="YP" n="0314a05"/>空性。爾後屢昇兜率天，諮問彌勒菩薩大乘深妙之理而有所悟證。次請彌勒菩薩下降
+<lb ed="YP" n="0314a06"/>，彌勒應其所請，下於中天竺阿瑜陀國之大講堂，於四月間夜分，為無著說《瑜伽論
+<lb ed="YP" n="0314a07"/>》等之五部大論。有緣大眾雖同會一堂，但據傳說：有聽彌勒說法而不能見者；有唯
+<lb ed="YP" n="0314a08"/>見光明而不覩相好者；有雖見相好而不聞教法者。</p>
+<lb ed="YP" n="0314a09"/><p xml:id="pYP31p0314a0901" style="margin-left:0em;text-indent:2em;">關於無著菩薩出世之年代，自來傳說非一：如《西域記》第五，說是『佛去世後
+<lb ed="YP" n="0314a10"/>一千年中』。《婆藪槃豆傳》中，則不記年數。《中邊疏》、《唯識述記》一、《唯
+<lb ed="YP" n="0314a11"/>識了義燈》一、《俱舍光記》八、《俱舍寶疏》八、《俱舍頌疏》二十九等，並主九
+<lb ed="YP" n="0314a12"/>百年出世說，此殆為古來諸家一致之說。故佛滅後九百年（西元第五世紀），可視為
+<lb ed="YP" n="0314a13"/>無著出世之年；而彌勒下降說《瑜伽論》，則可假定為佛滅後九百五十年頃（依於西
+<lb ed="YP" n="0314a14"/>元第五世中葉，佛教大事年表，則為西元四五九），較妥當也。</p>
+<pb ed="YP" xml:id="YP31.0032.0315a" n="0315a"/>
+<lb ed="YP" n="0315a01"/><p xml:id="pYP31p0315a0101" style="margin-left:0em;text-indent:2em;">轉觀《瑜伽》於中國之翻傳史：自西元四百十一年至四百二十年之間，曇無讖來
+<lb ed="YP" n="0315a02"/>中國，已為《瑜伽論》之分譯。如彼譯有《菩薩地持經》十卷、《菩薩戒本》一卷。
+<lb ed="YP" n="0315a03"/>又宋求那跋摩，於西元四百三十一年，譯有《菩薩善戒經》九卷。是等諸譯，皆是《
+<lb ed="YP" n="0315a04"/>瑜伽論．本地分》之分譯。以是而觀，則《瑜伽論》之〈本地分〉，豈非早於無著以
+<lb ed="YP" n="0315a05"/>前而流行於印度乎？至於彌勒下降，或兜率上昇說，豈非說明無著菩薩，捨北天竺之
+<lb ed="YP" n="0315a06"/>小乘佛教，來中天竺阿瑜陀國，依於彌勒信仰，開拓大乘佛教新生命而迴小向大之史
+<lb ed="YP" n="0315a07"/>實歟？抑彌勒信仰於當時大乘佛教徒之間已經盛行，而彼無著乃依於此之信仰，因得
+<lb ed="YP" n="0315a08"/>流行之《瑜伽．本地分》，而釋之以成《瑜伽論》百卷乎？是耶？非耶？更有俟於後
+<lb ed="YP" n="0315a09"/>賢研究之。</p>
+<lb ed="YP" n="0315a10"/><p xml:id="pYP31p0315a1001" style="margin-left:0em;text-indent:2em;">如斯成立之《瑜伽論》百卷，其梵本今日已不存在。據《瑜伽論記》所載：「此
+<lb ed="YP" n="0315a11"/>論梵本有四萬頌，頌有三十二言，譯為一百卷」；學者於此應可知矣。</p>
+<lb ed="YP" n="0315a12"/><p xml:id="pYP31p0315a1201" style="margin-left:0em;text-indent:2em;"><hi rend="bold">傳來</hi>　慈恩大師之上足惠沼，於所著《成唯識論了義燈》卷一述曰：「明支分
+<lb ed="YP" n="0315a13"/>者，謂諸菩薩所造論意，非但為弘佛經，亦為廣顯瑜伽中義。詮教不同，略有十支。
+<lb ed="YP" n="0315a14"/>支謂支分，並是瑜伽所有支分」。</p>
+<pb ed="YP" xml:id="YP31.0032.0316a" n="0316a"/>
+<lb ed="YP" n="0316a01"/><p xml:id="pYP31p0316a0101" style="margin-left:3em;">列舉瑜伽十支論之名目，以與當時成立之諸論配合如左：</p>
+<lb ed="YP" n="0316a02"/><p xml:id="pYP31p0316a0201" style="margin-left:3em;">一、略陳名數論　　　　　　　　　百法明門論　　世親造</p>
+<lb ed="YP" n="0316a03"/><p xml:id="pYP31p0316a0301" style="margin-left:3em;">二、粗釋體義論一名依名釋義論　　五蘊論　　　　世親造</p>
+<lb ed="YP" n="0316a04"/><p xml:id="pYP31p0316a0401" style="margin-left:3em;">三、總包眾義論　　　　　　　　　顯揚論　　　　無著造</p>
+<lb ed="YP" n="0316a05"/><p xml:id="pYP31p0316a0501" style="margin-left:3em;">四、廣包大義論　　　　　　　　　攝大乘論　　　無著造</p>
+<lb ed="YP" n="0316a06"/><p xml:id="pYP31p0316a0601" style="margin-left:3em;">五、分別名數論一名廣陳體義論　　雜集論　　　　無著造</p>
+<lb ed="YP" n="0316a07"/><p xml:id="pYP31p0316a0701" style="margin-left:3em;">六、離僻彰中論　　　　　　　　　辨中邊論　　　本頌彌勒造　釋論世親造</p>
+<lb ed="YP" n="0316a08"/><p xml:id="pYP31p0316a0801" style="margin-left:3em;">七、摧破邪山論　　　　　　　　　二十唯識論　　世親造</p>
+<lb ed="YP" n="0316a09"/><p xml:id="pYP31p0316a0901" style="margin-left:3em;">八、高建法幢論　　　　　　　　　三十唯識論　　世親造</p>
+<lb ed="YP" n="0316a10"/><p xml:id="pYP31p0316a1001" style="margin-left:3em;">九、莊嚴體義論　　　　　　　　　大莊嚴論　　　本頌彌勒造　釋論世親造</p>
+<lb ed="YP" n="0316a11"/><p xml:id="pYP31p0316a1101" style="margin-left:3em;">十、攝散歸觀論　　　　　　　　　分別瑜伽論　　彌勒造</p>
+<lb ed="YP" n="0316a12"/><p xml:id="pYP31p0316a1201" style="margin-left:0em;text-indent:2em;">此中，《攝大乘論》是別釋《阿毘達磨經》者，所以有說彼非《瑜伽論》支分之
+<lb ed="YP" n="0316a13"/>義，而以陳那之《正理門論》代之。如上十支諸論，應知均為繼承《瑜伽論》之思想
+<lb ed="YP" n="0316a14"/>而創作者。設以諸論與《瑜伽論》比較研究，則其間之關係，愈為明白也。特別是《
+<pb ed="YP" xml:id="YP31.0032.0317a" n="0317a"/>
+<lb ed="YP" n="0317a01"/>百法明門論》所說之百法，全是繼承《瑜伽論》第三卷之六百六十法，歸納統攝整理
+<lb ed="YP" n="0317a02"/>而成者。又《三十唯識論》，是世親研究《瑜伽論》所造之精華。無著、世親兄弟之
+<lb ed="YP" n="0317a03"/>弘傳《瑜伽》，於其傳記也，於其著作也，於其思想也，均有明顯事實之可見。世親
+<lb ed="YP" n="0317a04"/>《三十唯識論》之出世，印度之龍象競為之註釋，其數至二十八家。就中有名者，是
+<lb ed="YP" n="0317a05"/>親勝、火辯、德慧、安慧、難陀、淨月、護法、勝友、最勝子、智月之十大論師。是
+<lb ed="YP" n="0317a06"/>等論師，均於佛滅一千年後輩出，以瑜伽意，作《三十唯識釋》。蓋《三十唯識論》
+<lb ed="YP" n="0317a07"/>，乃從《瑜伽》流出之結晶，故依《瑜伽》而《釋三十唯識》也。特別是最勝子，曾
+<lb ed="YP" n="0317a08"/>造《瑜伽師地論釋》，以弘揚《瑜伽論》。故此十大論師，均為傳持《瑜伽論》，繼
+<lb ed="YP" n="0317a09"/>承其思想，而發揮唯識要義者也。</p>
+<lb ed="YP" n="0317a10"/><p xml:id="pYP31p0317a1001" style="margin-left:0em;text-indent:2em;">陳那，是佛滅後一千年出世，為新因明之始祖。依《西域記》第十卷所傳，彼作
+<lb ed="YP" n="0317a11"/>《因明正理門論》，即為宣揚《瑜伽論》中因明之部，蓋彼所造之《正理門論》，實
+<lb ed="YP" n="0317a12"/>為繼承《瑜伽論》第十五卷之七因明改革而成者，故稱其為新因明之唱導者也。雖其
+<lb ed="YP" n="0317a13"/>他史傳不明，而當時之學者，無不研究弘揚《瑜伽》，於此亦可想像矣。再觀佛滅後
+<lb ed="YP" n="0317a14"/>千一百年，中印度那爛陀寺佛教之隆盛，主要亦不外於瑜伽與唯識之研究宣傳乎。唐
+<pb ed="YP" xml:id="YP31.0032.0318a" n="0318a"/>
+<lb ed="YP" n="0318a01"/>玄奘西遊天竺，到達那爛陀寺，就戒賢論師受瑜伽、唯識之深旨，故將斯論百卷傳來
+<lb ed="YP" n="0318a02"/>中國，而於唐太宗貞觀二十二年（西元六四八）譯成。玄奘於貞觀二十三年（西元六
+<lb ed="YP" n="0318a03"/>四九），復譯出《瑜伽論》之一部分，成《菩薩戒本》一卷、《菩薩戒羯磨》一卷、
+<lb ed="YP" n="0318a04"/>《王法正理論》一卷。</p>
+<lb ed="YP" n="0318a05"/><p xml:id="pYP31p0318a0501" style="margin-left:0em;text-indent:2em;">玄奘以前，中國部分傳譯《瑜伽論》者亦復不少：北涼曇無讖，於西元四一四年
+<lb ed="YP" n="0318a06"/>至四二一年之間，譯出《菩薩地持經》十卷，《菩薩戒本》一卷；宋求那跋摩，於西
+<lb ed="YP" n="0318a07"/>元四三一年，譯有《菩薩善戒經》九卷；梁真諦，於西元五五七年至五六九年之間，
+<lb ed="YP" n="0318a08"/>譯有《決定藏論》三卷。依於是等多種傳譯觀之，可以想見斯論於當時之印度、中國
+<lb ed="YP" n="0318a09"/>，傳播之廣，研究之盛矣。</p>
+<lb ed="YP" n="0318a10"/><p xml:id="pYP31p0318a1001" style="margin-left:0em;text-indent:2em;">《瑜伽師地論》一百卷之翻譯，其參預譯場而為助譯之大德，計有二十五名，彼
+<lb ed="YP" n="0318a11"/>等並精通斯論，為瑜伽之有名學者。玄奘之上足慈恩大師窺基，雖未分負翻譯工作，
+<lb ed="YP" n="0318a12"/>但從玄奘特受斯論之別講，作《瑜伽論略纂》十六卷，註釋斯論。而《成唯識論》之
+<lb ed="YP" n="0318a13"/>疏——《成唯識論樞要》四卷，《成唯識論述記》二十卷中，處處引用《瑜伽師地論
+<lb ed="YP" n="0318a14"/>》，以證《唯識論》之所說，以顯《唯識論》之深旨。此外，令因、圓測、玄範、元
+<pb ed="YP" xml:id="YP31.0032.0319a" n="0319a"/>
+<lb ed="YP" n="0319a01"/>曉、璟興，並作有《解深密經疏》。其中僅圓測所撰之《解深密經疏》十卷現存，其
+<lb ed="YP" n="0319a02"/>他已佚失不傳矣。《解深密經》，是從《瑜伽師地論》第七十五卷至第七十八卷所節
+<lb ed="YP" n="0319a03"/>出，故凡是《解深密經》之註釋家，亦可視為《瑜伽論》之傳持者、研究者。遁倫撰
+<lb ed="YP" n="0319a04"/>《瑜伽論記》四十八卷，涉及《瑜伽論》百卷全文而逐一解釋，不特其功績之不可沒
+<lb ed="YP" n="0319a05"/>，尤應為於《瑜伽論》傳燈史上值得大書特書之一大盛事也！</p>
+<lb ed="YP" n="0319a06"/><p xml:id="pYP31p0319a0601" style="margin-left:0em;text-indent:2em;">慈恩大師於《唯識述記》卷一，舉六經十一論，為《成唯識論》所依之經論。就
+<lb ed="YP" n="0319a07"/>中，以《解深密經》為六經之第一，以《瑜伽論》為十一論中之最大權威。故其後法
+<lb ed="YP" n="0319a08"/>相一家之諸學匠，於《唯識論》之註疏，無不以《深密》、《瑜伽》，作為解決唯識
+<lb ed="YP" n="0319a09"/>問題之定判，作為唯識要義之典據，故《深密》、《瑜伽》，實可謂為唯識法相家之
+<lb ed="YP" n="0319a10"/>泉源也。</p>
+<lb ed="YP" n="0319a11"/><p xml:id="pYP31p0319a1101" style="margin-left:0em;text-indent:2em;"><hi rend="bold">漢譯</hi>（略）</p>
+<lb ed="YP" n="0319a12"/><p xml:id="pYP31p0319a1201" style="margin-left:0em;text-indent:2em;"><hi rend="bold">異譯</hi>（略）</p>
+<lb ed="YP" n="0319a13"/><p xml:id="pYP31p0319a1301" style="margin-left:0em;text-indent:2em;"><hi rend="bold">組織及其內容</hi>　本論全部百卷之中，唯有正宗分，缺序分及流通分。其正宗分百
+<lb ed="YP" n="0319a14"/>卷之組織分科，總由大段五分而成。今據《瑜伽論釋》、《略纂》及《記》，圖示如
+<pb ed="YP" xml:id="YP31.0032.0320a" n="0320a"/>
+<lb ed="YP" n="0320a01"/>左：
+<lb ed="YP" n="0320a02"/>　　　　　五分綱要　　　　　　　　　　　　　　　　　卷數</p>
+<lb ed="YP" n="0320a03"/><p xml:id="pYP31p0320a0301" style="margin-left:2em;">一、本地分———略廣分別三乘根本十七地義——自一卷至五十卷—————五十卷</p>
+<lb ed="YP" n="0320a04"/><p xml:id="pYP31p0320a0401" style="margin-left:2em;">二、攝抉擇分——略攝抉擇本地分深隱之要義——自五十一卷至八十卷———三十卷</p>
+<lb ed="YP" n="0320a05"/><p xml:id="pYP31p0320a0501" style="margin-left:2em;">三、攝釋分———略攝解釋諸經之儀則—————自八十一卷至八十二卷——二卷</p>
+<lb ed="YP" n="0320a06"/><p xml:id="pYP31p0320a0601" style="margin-left:2em;">四、攝異門分——略攝經中諸法之名義差別———自八十三卷至八十四卷——二卷</p>
+<lb ed="YP" n="0320a07"/><p xml:id="pYP31p0320a0701" style="margin-left:2em;">五、攝事分———略攝三藏中重要之事義————自八十五卷至一百卷———十六卷</p>
+<lb ed="YP" n="0320a08"/><p xml:id="pYP31p0320a0801" style="margin-left:0em;text-indent:2em;">於〈本地分〉五十卷，分別十七地之義。……為使讀者易於把握大綱起見，特據
+<lb ed="YP" n="0320a09"/>如上科之分，更為概括而圖示之：
+<lb ed="YP" n="0320a10"/>　　　五識身相應地論─身論┬正報論（有情論）─┐
+<lb ed="YP" n="0320a11"/>　　　意　　　　　地─心論┘　　　　　　　　　├境─宇宙論─俗諦門
+<lb ed="YP" n="0320a12"/>　　　從有尋有伺地至─┬──依報論（世界論）─┘
+<lb ed="YP" n="0320a13"/>　　　無尋無伺地───┘
+<lb ed="YP" n="0320a14"/>
+<pb ed="YP" xml:id="YP31.0032.0321a" n="0321a"/>
+<lb ed="YP" n="0321a01"/>　　　從三摩呬多地至┬三學論（所學教法）┐
+<lb ed="YP" n="0321a02"/>　　　修　所　成　地┘　　　　　　　　　├行─修養論─┐
+<lb ed="YP" n="0321a03"/>　　　從聲聞地至──┬三乘論（能學根機）┘　　　　　　├真諦門
+<lb ed="YP" n="0321a04"/>　　　菩　薩　地──┘　　　　　　　　　　　　　　　　│
+<lb ed="YP" n="0321a05"/>　　　有餘依地─┬────────────果─理想論─┘
+<lb ed="YP" n="0321a06"/>　　　無餘依地─┘</p>
+<lb ed="YP" n="0321a07"/><p xml:id="pYP31p0321a0701" style="margin-left:0em;text-indent:2em;">於大體上，可得分成境行果之三段；或從理論與實踐方面，分成二大部門；或從
+<lb ed="YP" n="0321a08"/>世間俗諦與出世間真諦方面，分成二大部門：由此可見彼能攝盡一切事理者也。</p>
+<lb ed="YP" n="0321a09"/><p xml:id="pYP31p0321a0901" style="margin-left:0em;text-indent:2em;">其次，一觀《瑜伽》五分之組織及其關係。如上所述，於第一〈本地分〉中，雖
+<lb ed="YP" n="0321a10"/>主要在於解釋了義之十七地，然尚有不了義處，未曾談到，故於第二〈抉擇分〉中分
+<lb ed="YP" n="0321a11"/>別之。於斯前二分，雖已解釋其了義，但彼所說之內容，是使人明諸法之事理，而未
+<lb ed="YP" n="0321a12"/>具辨能說之方式以及諸經之儀則。能辨此者，是第三〈攝釋分〉。於前三分所說之內
+<lb ed="YP" n="0321a13"/>容——義理及其所說之方法——儀則，是僅依於一般之通說，而未於中會通多方之異
+<lb ed="YP" n="0321a14"/>說。故於第四分中，明有各種不同之文義，以會通之。上來四分既已明白解釋所詮之
+<pb ed="YP" xml:id="YP31.0032.0322a" n="0322a"/>
+<lb ed="YP" n="0322a01"/>教法，故於最後之第五分，特明能詮之三藏，且更說明教法與三藏，有其能依所依之
+<lb ed="YP" n="0322a02"/>關係。斯則本論一部百卷所說者，不外是：釋了義不了義，論內容與形式，辨一般與
+<lb ed="YP" n="0322a03"/>多方，明所詮與能詮：可謂無有餘蘊矣。今當圖示《瑜伽》五分之組織及其關係如左
+<lb ed="YP" n="0322a04"/>：
+<lb ed="YP" n="0322a05"/>　　　本　地分───十七地論──釋　了義┬─所說之內容─┐
+<lb ed="YP" n="0322a06"/>　　　攝抉擇分───十七地論──決不了義┘　　　　　　　├通說─┐
+<lb ed="YP" n="0322a07"/>　　　攝　釋分───諸經儀則論───────能說之形式─┘　　　├所詮之三藏
+<lb ed="YP" n="0322a08"/>　　　攝異門分───諸法名義論──────────────異說─┘
+<lb ed="YP" n="0322a09"/>　　　攝　事分───三藏要義論──────────────────能詮之教法</p>
+<lb ed="YP" n="0322a10"/><p xml:id="pYP31p0322a1001" style="margin-left:0em;text-indent:2em;">《瑜伽》一部百卷之文，雖所說甚為廣泛，但是決不雜亂。非特此也，而且首尾
+<lb ed="YP" n="0322a11"/>一貫，組織井然，如更能檢點其微細之處，則無有不驚歎者也。</p>
+<lb ed="YP" n="0322a12"/><p xml:id="pYP31p0322a1201" style="margin-left:0em;text-indent:2em;">依於前表圖示之組織分判，可以想像其內容之廣博，可以推知其所說之如何矣。
+<lb ed="YP" n="0322a13"/>若夫諸品大要，本文自明之。若總明一論之內容，實以佛教瑜伽中道之理為中心，廣
+<lb ed="YP" n="0322a14"/>論印度古來之四吠陀、五明論、外道諸學派，並佛教諸部之教理，加以統一組織而成
+<pb ed="YP" xml:id="YP31.0032.0323a" n="0323a"/>
+<lb ed="YP" n="0323a01"/>之論典。如斯偉大之論典，不可謂非當時之一大百科全書也。論其內容：有天文、有
+<lb ed="YP" n="0323a02"/>地理、有曆數、有醫學、藥學、生理、衛生、有工學、有美學、有心理、倫理、科學
+<lb ed="YP" n="0323a03"/>、哲學。因此，最勝子等於《瑜伽釋論讚》云：「理無不窮，事無不盡，文無不釋，
+<lb ed="YP" n="0323a04"/>義無不詮，疑無不遣，執無不破，行無不修，果無不證」，此可謂中要矣。</p>
+<lb ed="YP" n="0323a05"/><p xml:id="pYP31p0323a0501" style="margin-left:0em;text-indent:2em;">（此下，目的、所屬、名義，註疏，關於日譯，並略）。</p></cb:div>
+<lb ed="YP" n="0323a06"/>
+<lb ed="YP" n="0323a07"/>
+<lb ed="YP" n="0323a08"/>
+<lb ed="YP" n="0323a09"/>
+<lb ed="YP" n="0323a10"/>
+<lb ed="YP" n="0323a11"/>
+<lb ed="YP" n="0323a12"/>
+<lb ed="YP" n="0323a13"/>
+<lb ed="YP" n="0323a14"/>
+<pb ed="YP" xml:id="YP31.0032.0324a" n="0324a"/>
+<lb ed="YP" n="0324a01"/>
+<lb ed="YP" n="0324a02"/>
+<lb ed="YP" n="0324a03"/>
+<lb ed="YP" n="0324a04"/>
+<lb ed="YP" n="0324a05"/>
+<lb ed="YP" n="0324a06"/>
+<lb ed="YP" n="0324a07"/>
+<lb ed="YP" n="0324a08"/>
+<lb ed="YP" n="0324a09"/>
+<lb ed="YP" n="0324a10"/>
+<lb ed="YP" n="0324a11"/>
+<lb ed="YP" n="0324a12"/>
+<lb ed="YP" n="0324a13"/>
+<lb ed="YP" n="0324a14"/>
+<pb ed="YP" xml:id="YP31.0032.0325a" n="0325a"/>
+<lb ed="YP" n="0325a01"/>
+<lb ed="YP" n="0325a02"/><cb:div type="other"><cb:mulu type="其他" level="1">攝大乘論解題</cb:mulu><head>攝大乘論解題</head>
+<lb ed="YP" n="0325a03"/>
+<lb ed="YP" n="0325a04"/><p xml:id="pYP31p0325a0401" style="margin-left:0em;text-indent:2em;"><hi rend="bold">成立</hi>　本論成立於印度佛教史上第三期（佛滅後八九百年，西曆五六世紀）大
+<lb ed="YP" n="0325a05"/>乘教大成的時代，是非有非空唯識中道教的代表論典，這在國譯《大藏經》論部第六
+<lb ed="YP" n="0325a06"/>卷，或第六帙《瑜伽師地論解題》的概觀條下已詳細的說過了。本論是無著（阿僧伽
+<lb ed="YP" n="0325a07"/>）菩薩所造，雖已沒有疑惑的餘地，但現在不妨再試為檢證。如論本卷下末後有說：
+<lb ed="YP" n="0325a08"/>「阿毘達磨大乘經中攝大乘品，我阿僧伽略釋究竟」。玄奘譯的世親《攝論》同無性
+<lb ed="YP" n="0325a09"/>《攝論》，笈多譯的世親《攝論》所傳，其軌誰都是一樣的。又玄奘所譯世親《攝論
+<lb ed="YP" n="0325a10"/>》的世親〈釋教序〉中，有這樣的幾句話：「我師於此……於樂常無染著心……無著
+<lb ed="YP" n="0325a11"/>名稱普皆聞」等。雖笈多譯的世親《攝論》中，沒有標舉釋教序，而在真諦譯中，卻
+<lb ed="YP" n="0325a12"/>舉有這個序的，然因與玄奘譯的梵本稍有不同，所以沒有無著的名稱。但真諦所譯世
+<lb ed="YP" n="0325a13"/>親《攝論》的道基序、慧愷序中，都說這是無著菩薩所造的，所以左證是很顯然的了
+<lb ed="YP" n="0325a14"/>。至於造論者的傳記，在《瑜伽論解題》「成立」的一條下，可以概見。</p>
+<pb ed="YP" xml:id="YP31.0032.0326a" n="0326a"/>
+<lb ed="YP" n="0326a01"/><p xml:id="pYP31p0326a0101" style="margin-left:0em;text-indent:2em;"><hi rend="bold">思想的由來</hi>　本論的首尾，都說此論是解釋《阿毘達磨大乘經》中的〈攝大乘品
+<lb ed="YP" n="0326a02"/>〉的。《法華玄義私記》一末有說：「玄贊要集云：西方攝大乘經，有七百卷，此方
+<lb ed="YP" n="0326a03"/>不來。有一品名攝大乘品，造攝大乘論解之」。</p>
+<lb ed="YP" n="0326a04"/><p xml:id="pYP31p0326a0401" style="margin-left:0em;text-indent:2em;">《阿毘達磨大乘經》與《攝大乘經》，是完全相同呢？抑或是其他怎樣呢？雖因
+<lb ed="YP" n="0326a05"/>該經古來未渡未翻，其經現不存在，無由完全了知，但說《阿毘達磨經》有十萬頌，
+<lb ed="YP" n="0326a06"/>可說是一部很大的廣本了。其一部分是解釋〈攝大乘品〉者，所以叫做《攝大乘論》
+<lb ed="YP" n="0326a07"/>。由此不難察知該品是其中心思想的代表。他的內容雖不能見到，但本論〈總標綱要
+<lb ed="YP" n="0326a08"/>分〉中所標舉的十種殊勝相，以及〈所知依分〉第二以下的十章所解釋的，完全是繼
+<lb ed="YP" n="0326a09"/>承〈攝大乘品〉的組織及其內容以明的。從本論推測，更可想像〈攝大乘品〉是屬於
+<lb ed="YP" n="0326a10"/>《阿毘達磨大乘經》的了。尤其是本論中處處引用《阿毘達磨大乘經》的經文，雖則
+<lb ed="YP" n="0326a11"/>是片斷的；但其內容亦可得而把握。例如：</p>
+<lb ed="YP" n="0326a12"/><p xml:id="pYP31p0326a1201" style="margin-left:0em;text-indent:2em;">一、於〈所知依分〉第二中，以經中的「無始時來界」等的一頌，作為阿賴耶識
+<lb ed="YP" n="0326a13"/>存在的教證。</p>
+<lb ed="YP" n="0326a14"/><p xml:id="pYP31p0326a1401" style="margin-left:0em;text-indent:2em;">二、同上，以經中的「諸法於識藏，識於法亦爾」等的一頌，說明第八阿賴耶識
+<pb ed="YP" xml:id="YP31.0032.0327a" n="0327a"/>
+<lb ed="YP" n="0327a01"/>與七轉識的諸法更互為因果的所謂賴耶緣起的過程。</p>
+<lb ed="YP" n="0327a02"/><p xml:id="pYP31p0327a0201" style="margin-left:0em;text-indent:2em;">三、於〈所知相分〉第三中，說㈠雜染分、㈡清淨分、㈢彼二分的三種法，配合
+<lb ed="YP" n="0327a03"/>於徧計、依他、圓成的三自性。</p>
+<lb ed="YP" n="0327a04"/><p xml:id="pYP31p0327a0401" style="margin-left:0em;text-indent:2em;">如是，賴耶緣起論，唯識三性中道教等的重要問題，都必須於《阿毘達磨經》中
+<lb ed="YP" n="0327a05"/>求根據。</p>
+<lb ed="YP" n="0327a06"/><p xml:id="pYP31p0327a0601" style="margin-left:0em;text-indent:2em;">這樣，本論的前身，雖主要的在於《阿毘達磨大乘經》的〈攝大乘品〉，引用他
+<lb ed="YP" n="0327a07"/>的經文，繼承他的思想；但亦傍依其他的諸經論，承受其他思想的地方，也不算少。
+<lb ed="YP" n="0327a08"/>今且概觀他的思想傍系：</p>
+<lb ed="YP" n="0327a09"/><p xml:id="pYP31p0327a0901" style="margin-left:0em;text-indent:2em;">一、在卷上〈所知依分〉第二中，從《解深密經》第一卷〈心意識相品〉第三裡
+<lb ed="YP" n="0327a10"/>，引用阿陀那識存在的教證。</p>
+<lb ed="YP" n="0327a11"/><p xml:id="pYP31p0327a1101" style="margin-left:0em;text-indent:2em;">二、在同上，引《增一阿笈摩（阿含）經》的愛、樂、欣、喜的四阿賴耶，證明
+<lb ed="YP" n="0327a12"/>聲聞乘（小乘）中，亦說阿賴耶。但此經不是東流現在的《增一阿含經》。</p>
+<lb ed="YP" n="0327a13"/><p xml:id="pYP31p0327a1301" style="margin-left:0em;text-indent:2em;">三、在同上，引《如來出現四德經》，證明小乘亦說阿賴耶識。</p>
+<lb ed="YP" n="0327a14"/><p xml:id="pYP31p0327a1401" style="margin-left:0em;text-indent:2em;">四、在同上，引大眾部阿笈摩（佛陀扇多所謂大僧祇的《增一阿含經》）的根本
+<pb ed="YP" xml:id="YP31.0032.0328a" n="0328a"/>
+<lb ed="YP" n="0328a01"/>識，而為阿賴耶識的教證。但這《阿含經》，在《法華玄贊》卷一裏，雖就以現存東
+<lb ed="YP" n="0328a02"/>流的四《阿含》而為大眾部的《阿含》，但若依於《唯識二十論述記權衡鈔》卷一說
+<lb ed="YP" n="0328a03"/>，則也不一定是這樣的。</p>
+<lb ed="YP" n="0328a04"/><p xml:id="pYP31p0328a0401" style="margin-left:0em;text-indent:2em;">五、於同上，從彌勒菩薩說《辨中邊論頌》（論本中是《中邊分別論》）裡，引
+<lb ed="YP" n="0328a05"/>伽陀說明阿賴耶識與七轉識的諸法，更互為因果的關係。</p>
+<lb ed="YP" n="0328a06"/><p xml:id="pYP31p0328a0601" style="margin-left:0em;text-indent:2em;">六、於卷中〈所知相分〉第三中，從《十地經》（《華嚴經．十地品》的別譯）
+<lb ed="YP" n="0328a07"/>裡，引三界唯心之文。</p>
+<lb ed="YP" n="0328a08"/><p xml:id="pYP31p0328a0801" style="margin-left:0em;text-indent:2em;">七、於同上，從《解深密經》第三卷〈分別瑜伽品〉第六裡，引唯識的教證及其
+<lb ed="YP" n="0328a09"/>理證之文。</p>
+<lb ed="YP" n="0328a10"/><p xml:id="pYP31p0328a1001" style="margin-left:0em;text-indent:2em;">八、於卷中〈入所知相分〉第四中，從《分別瑜伽論》（是彌勒菩薩說而未譯）
+<lb ed="YP" n="0328a11"/>裡，引悟入修行必要的教授二頌。</p>
+<lb ed="YP" n="0328a12"/><p xml:id="pYP31p0328a1201" style="margin-left:0em;text-indent:2em;">九、於同上，從《大乘經莊嚴論》中，引悟入修行必要的五種現觀的伽陀。</p>
+<lb ed="YP" n="0328a13"/><p xml:id="pYP31p0328a1301" style="margin-left:0em;text-indent:2em;">十、於卷下〈彼果智分〉第十一中，從《菩薩藏百千契經．序品》裡，引十八圓
+<lb ed="YP" n="0328a14"/>滿的淨土莊嚴之相。其文完全同於《解深密經．序品》之文。</p>
+<pb ed="YP" xml:id="YP31.0032.0329a" n="0329a"/>
+<lb ed="YP" n="0329a01"/><p xml:id="pYP31p0329a0101" style="margin-left:0em;text-indent:2em;">本論繼承《阿毘達磨經．攝大乘品》的組織及其內容；同時於其各分，亦引用其
+<lb ed="YP" n="0329a02"/>他的諸經論。其思想的由來，圖示如下：</p>
+<lb ed="YP" n="0329a03"/><p xml:id="pYP31p0329a0301" style="margin-left:3em;"><figure><graphic url="../figures/YP/YP31p0329_01.gif"></graphic></figure></p>
+<lb ed="YP" n="0329a04"/>
+<lb ed="YP" n="0329a05"/>
+<lb ed="YP" n="0329a06"/>
+<lb ed="YP" n="0329a07"/>
+<lb ed="YP" n="0329a08"/>
+<lb ed="YP" n="0329a09"/>
+<lb ed="YP" n="0329a10"/>
+<lb ed="YP" n="0329a11"/>
+<lb ed="YP" n="0329a12"/>
+<lb ed="YP" n="0329a13"/>
+<lb ed="YP" n="0329a14"/><p xml:id="pYP31p0329a1401" style="margin-left:0em;text-indent:2em;">又此論，古來名為《廣苞大義論》，是《瑜伽》的支分〔參照國譯《瑜伽師地論
+<pb ed="YP" xml:id="YP31.0032.0330a" n="0330a"/>
+<lb ed="YP" n="0330a01"/>解題》（傳來）之條〕。因而他是繼承《瑜伽論》而來，也可明白了。</p>
+<lb ed="YP" n="0330a02"/><p xml:id="pYP31p0330a0201" style="margin-left:0em;text-indent:2em;">由這由來而觀《攝大乘論》：在法的方面，可說他是從《阿含》、阿毘達磨、《
+<lb ed="YP" n="0330a03"/>華嚴》、《深密》、《瑜伽》等的諸經而來；在人的方面，可說他是從彌勒菩薩而來
+<lb ed="YP" n="0330a04"/>。無著菩薩因為信仰彌勒，所以打開唯識。這如國譯《瑜伽師地論解題》中已述說過
+<lb ed="YP" n="0330a05"/>了。《攝大乘論》的這些人法由來，雖是其中心問題，但唯識思想，在無著以前，不
+<lb ed="YP" n="0330a06"/>過祇是片斷的散見而已。無著繼承這一思想，樹立組織的唯識哲學，大成賴耶緣起論
+<lb ed="YP" n="0330a07"/>者，是這部《攝大乘論》；尤其是對於阿賴耶識的精密研究，三性三無性之中道觀的
+<lb ed="YP" n="0330a08"/>說明，可稱前代未聞，所以實可說他是佛教認識論組織大成的賢哲。</p>
+<lb ed="YP" n="0330a09"/><p xml:id="pYP31p0330a0901" style="margin-left:0em;text-indent:2em;"><hi rend="bold">傳來</hi>　本論是法相唯識宗所依的根本聖典，特別被屬於法相唯識宗所依的六經
+<lb ed="YP" n="0330a10"/>十一論之中，又因為是瑜伽十支論之一，唯識傳燈的人師，無論那一個，從來都是傳
+<lb ed="YP" n="0330a11"/>持弘宣此論的。特別效績顯著的，是釋家、譯家、註家、宗祖及其宗師，這到以下的
+<lb ed="YP" n="0330a12"/>另條項目下，再為重新著筆大書。因「釋家及其釋論」以下乃至於「攝論的宗派」數
+<lb ed="YP" n="0330a13"/>項，此項的分科可知。</p>
+<lb ed="YP" n="0330a14"/><p xml:id="pYP31p0330a1401" style="margin-left:0em;text-indent:2em;"><hi rend="bold">釋家及其釋論</hi>　無著的親弟世親及世親同時之後輩的無性二大菩薩，各釋無著的
+<pb ed="YP" xml:id="YP31.0032.0331a" n="0331a"/>
+<lb ed="YP" n="0331a01"/>「論本」。前者有三譯，後者有一譯，如左：</p>
+<lb ed="YP" n="0331a02"/><p xml:id="pYP31p0331a0201" style="margin-left:3em;">攝大乘論釋　　　一五卷　　世親菩薩造　　陳真諦譯</p>
+<lb ed="YP" n="0331a03"/><p xml:id="pYP31p0331a0301" style="margin-left:3em;">攝大乘論釋　　　一〇卷　　世親菩薩造　　隋笈多共行矩等譯</p>
+<lb ed="YP" n="0331a04"/><p xml:id="pYP31p0331a0401" style="margin-left:3em;">攝大乘論釋論　　一〇卷　　世親菩薩造　　唐玄奘譯</p>
+<lb ed="YP" n="0331a05"/><p xml:id="pYP31p0331a0501" style="margin-left:3em;">攝大乘論釋　　　一〇卷　　無性菩薩造　　唐玄奘譯</p>
+<lb ed="YP" n="0331a06"/><p xml:id="pYP31p0331a0601" style="margin-left:1em;">世親的釋論，略稱世親《攝論》；無性的《釋論》，略稱無性《攝論》。兩者都是很
+<lb ed="YP" n="0331a07"/>精細的逐字解釋。玄奘譯的世親《攝論》中，在其卷首有七言四句十六頌的〈歸敬序
+<lb ed="YP" n="0331a08"/>〉，讚嘆無著菩薩的人法，俱是廣大無邊；無性《攝論》的卷首中，以七言四句一頌
+<lb ed="YP" n="0331a09"/>，歸依三寶，要使自他俱利，正法久住，表出釋論本的意義。對比兩種釋論，關於無
+<lb ed="YP" n="0331a10"/>性的，大體是採用世親《攝論》的釋詞，而世親所未著筆的地方，則有廣說細釋的意
+<lb ed="YP" n="0331a11"/>趣。兩者的所說，對於那細小之點，雖不無有些差別，但大體是相同的。無性是世親
+<lb ed="YP" n="0331a12"/>的後輩，研究世親《攝論》，對於其短，不無小補。因此，合考兩大釋論，周備訓釋
+<lb ed="YP" n="0331a13"/>，實是解說論本的兩翼。</p>
+<lb ed="YP" n="0331a14"/><p xml:id="pYP31p0331a1401" style="margin-left:0em;text-indent:2em;"><hi rend="bold">漢譯</hi>　《攝大乘論本》三卷，是唐三藏法師玄奘奉詔譯，收於高麗版《藏經》
+<pb ed="YP" xml:id="YP31.0032.0332a" n="0332a"/>
+<lb ed="YP" n="0332a01"/>中者，雖其卷首附有唐太宗文皇帝製〈大唐三藏聖教序〉，而於明版《藏經》中，則
+<lb ed="YP" n="0332a02"/>不載之。此序與《大般若波羅蜜多經》卷首所載，完全是相同的，所以《卍字藏經》
+<lb ed="YP" n="0332a03"/>裡，略而不載。關於本論翻譯的年代，根據《開元釋教目錄》卷八所傳，則是唐太宗
+<lb ed="YP" n="0332a04"/>貞觀二十三年（西元後六四九年）六月，世親《攝論》十卷與無性《攝論》十卷，都
+<lb ed="YP" n="0332a05"/>已譯出；若根據南條博士《三藏目錄》所記，則是貞觀二十二年（西元後六四八年）
+<lb ed="YP" n="0332a06"/>譯，無性《攝論》是六四七至六四九年間譯，世親《攝論》是六五一至六五四年譯。
+<lb ed="YP" n="0332a07"/>關於「論本」的譯出年代，《開元錄》與《三藏目錄》，僅有一年的相差，關於《釋
+<lb ed="YP" n="0332a08"/>論》的譯出年代，《開元錄》是與論本同時，而《三藏目錄》，不但是與「論本」異
+<lb ed="YP" n="0332a09"/>時，就是世親無性的二論，亦是異時譯出的。二錄的所傳雖異，但一論本兩釋論的內
+<lb ed="YP" n="0332a10"/>容，大半是同一文章。所以如《開元錄》所見，一論兩釋同時譯出，固然很好，但其
+<lb ed="YP" n="0332a11"/>完成之時，自認為有其前後，所以如《三藏目錄》所記，是異時譯出，亦應該是可以
+<lb ed="YP" n="0332a12"/>的。概觀《攝論》譯出的事業，從西元後六四八至六五四的前後約五年之間，微細的
+<lb ed="YP" n="0332a13"/>年月穿鑿，那是無關宏旨的。尤其是現在所根據的論本譯出年代，二錄記載僅是一年
+<lb ed="YP" n="0332a14"/>之差，可見無論那種說法，都是近於正鵠的。然而從玄奘譯經的史傳觀，則是貞觀二
+<pb ed="YP" xml:id="YP31.0032.0333a" n="0333a"/>
+<lb ed="YP" n="0333a01"/>十二年（西元六四八年），因為《瑜伽師地論》百卷譯出完成（參照國譯《瑜伽師地
+<lb ed="YP" n="0333a02"/>論解題》），從此年或翌年（西元六四九）中，就開始翻譯《攝論》，先譯彌勒說的
+<lb ed="YP" n="0333a03"/>《瑜伽論》，次譯無著的造論，可算畢竟是從於傳燈相承的順序的，從這個見地來了
+<lb ed="YP" n="0333a04"/>解，則前所述的《攝論》翻譯年代，是妥當的。</p>
+<lb ed="YP" n="0333a05"/><p xml:id="pYP31p0333a0501" style="margin-left:0em;text-indent:2em;"><hi rend="bold">異譯</hi>　本論，釋論共有七譯。於中，論本有三譯，世親《攝論》有三譯，無性
+<lb ed="YP" n="0333a06"/>《攝論》有一譯。順於諸譯的年代，列記如左：</p>
+<lb ed="YP" n="0333a07"/><p xml:id="pYP31p0333a0701" style="margin-left:0em;text-indent:2em;">一、《攝大乘論》，二卷，後魏佛陀扇多於洛陽譯。這是北魏普泰元年（西元五
+<lb ed="YP" n="0333a08"/>三一年）譯出的，為《攝論》的最古翻譯。分上下二卷而不分章。上卷收入玄奘所譯
+<lb ed="YP" n="0333a09"/>論本的〈所知相分〉第三為止，下卷收於其〈入所知相分〉第四以下。</p>
+<lb ed="YP" n="0333a10"/><p xml:id="pYP31p0333a1001" style="margin-left:0em;text-indent:2em;">二、《攝大乘論》，三卷，真諦三藏譯。這是後於佛陀扇多三十三年所譯的，是
+<lb ed="YP" n="0333a11"/>陳天嘉四年（西元五六三年）與《攝大乘論釋》十五卷，同時於廣州制旨寺所譯出，
+<lb ed="YP" n="0333a12"/>而為慧愷之所筆受的。《貞元錄》等稱為梁《攝論》的，就是這個。雖在陳的時代翻
+<lb ed="YP" n="0333a13"/>譯，但真諦三藏來華，原來是在梁代，是梁時的一代人師，所以標為梁之《攝論》。
+<lb ed="YP" n="0333a14"/>卷首冠以〈慧愷序〉，記真諦三藏的小傳而讚其德，並說明這論翻譯的事迹。所謂攝
+<pb ed="YP" xml:id="YP31.0032.0334a" n="0334a"/>
+<lb ed="YP" n="0334a01"/>論宗，多依用這個真諦譯本，全卷分為十品，這個分科與玄奘譯的「論本」，少有不
+<lb ed="YP" n="0334a02"/>同。</p>
+<lb ed="YP" n="0334a03"/><p xml:id="pYP31p0334a0301" style="margin-left:0em;text-indent:2em;">三、《攝大乘論釋》，十五卷，陳天竺三藏真諦譯。這與前者同時同處譯的，卷
+<lb ed="YP" n="0334a04"/>首有道基並慧愷之序，全卷如前分為十品，更於各品別為數章，詳細可參看（組織）
+<lb ed="YP" n="0334a05"/>的條下。其於〈釋依止勝相眾名品〉第一中，附譯世親的〈歸仰序〉，與玄奘譯的世
+<lb ed="YP" n="0334a06"/>親《攝論》同。</p>
+<lb ed="YP" n="0334a07"/><p xml:id="pYP31p0334a0701" style="margin-left:0em;text-indent:2em;">四、《攝大乘論釋論》，十卷，隋天竺三藏笈多共行矩等譯。這是隋大業五年（
+<lb ed="YP" n="0334a08"/>西元六〇九）或西元五九〇至六一六年之間，由達磨笈多與行矩等在東都上定林寺所
+<lb ed="YP" n="0334a09"/>共譯的，全卷分十品，於各品又別為數章，殆與真諦譯《攝論》同，唯卷首中，沒有
+<lb ed="YP" n="0334a10"/>世親的〈歸仰序〉。</p>
+<lb ed="YP" n="0334a11"/><p xml:id="pYP31p0334a1101" style="margin-left:0em;text-indent:2em;">五、《攝大乘論本》，三卷，三藏法師玄奘奉詔譯。既於前項所述，現在可不重
+<lb ed="YP" n="0334a12"/>說了。</p>
+<lb ed="YP" n="0334a13"/><p xml:id="pYP31p0334a1301" style="margin-left:0em;text-indent:2em;">六、《攝大乘論釋》，十卷、同上譯。</p>
+<lb ed="YP" n="0334a14"/><p xml:id="pYP31p0334a1401" style="margin-left:0em;text-indent:2em;">七、《攝大乘論釋》，十卷、同上譯。</p>
+<pb ed="YP" xml:id="YP31.0032.0335a" n="0335a"/>
+<lb ed="YP" n="0335a01"/><p xml:id="pYP31p0335a0101" style="margin-left:0em;text-indent:2em;">前者是無性《攝論》，後者是世親《攝論》。詳細已於前項所辨。玄奘譯的一論
+<lb ed="YP" n="0335a02"/>本兩釋論，從來是被法相宗所依用的。</p>
+<lb ed="YP" n="0335a03"/><p xml:id="pYP31p0335a0301" style="margin-left:0em;text-indent:2em;">右列之中，前四是舊譯，後三是新譯，於中檢校這些異譯的內容及其組織，使我
+<lb ed="YP" n="0335a04"/>深深的感覺到，真諦譯與玄奘譯，其所依的原來梵本，或者是有所不同的。佛陀扇多
+<lb ed="YP" n="0335a05"/>及達磨笈多所譯，近似於真諦所譯。又他們的組織分科，根據諸譯，也是有、無、具
+<lb ed="YP" n="0335a06"/>、略不一樣的。這是出於譯家的情意，那是不得已的。假使在原本，已分科分品的話
+<lb ed="YP" n="0335a07"/>，則原梵本被傳持著的有兩三種的異本存在，是不難推定的。其詳細觀於組織的條項
+<lb ed="YP" n="0335a08"/>，則可思過半矣。以上的異譯，為使便於對照起見，列表如次：</p>
+<lb ed="YP" n="0335a09"/><table cols="5" style="margin-left:3em;"><row><cell>名稱</cell><cell>卷數</cell><cell>造論者</cell><cell>譯者</cell><cell>譯出年代</cell></row><row><cell>
+<lb ed="YP" n="0335a10"/>攝大乘論</cell><cell>二</cell><cell>無著</cell><cell>佛陀扇多</cell><cell>西元五三一年</cell></row><row><cell>
+<lb ed="YP" n="0335a11"/>攝大乘論</cell><cell>三</cell><cell>同</cell><cell>真諦</cell><cell>西元五六三年</cell></row><row><cell>
+<lb ed="YP" n="0335a12"/>攝大乘論釋</cell><cell>一五</cell><cell>無著世親</cell><cell>同</cell><cell>同</cell></row><row><cell>
+<lb ed="YP" n="0335a13"/>攝大乘論釋論</cell><cell>一〇</cell><cell>同</cell><cell>笈多等</cell><cell>西元六〇九年</cell></row></table>
+<lb ed="YP" n="0335a14"/>
+<pb ed="YP" xml:id="YP31.0032.0336a" n="0336a"/>
+<lb ed="YP" n="0336a01"/><table cols="5" style="margin-left:3em;"><row><cell>攝大乘論本</cell><cell>三</cell><cell>無著</cell><cell>玄奘</cell><cell>西元六四八年</cell></row><row><cell>
+<lb ed="YP" n="0336a02"/>攝大乘論釋</cell><cell>一〇</cell><cell>無著無性</cell><cell>同</cell><cell>西元四六七—四六九年</cell></row><row><cell>
+<lb ed="YP" n="0336a03"/>攝大乘論釋</cell><cell>一〇</cell><cell>無著世親</cell><cell>同</cell><cell>西元六五一—六五四年</cell></row></table>
+<lb ed="YP" n="0336a04"/>
+<lb ed="YP" n="0336a05"/><p xml:id="pYP31p0336a0501" style="margin-left:3em;">專門的學者，必應對究諸譯。</p>
+<lb ed="YP" n="0336a06"/><p xml:id="pYP31p0336a0601" style="margin-left:3em;"><hi rend="bold">註疏</hi>　《攝論》的註疏，雖有左列的數部，但現在都不弘傳於世。</p>
+<lb ed="YP" n="0336a07"/><p xml:id="pYP31p0336a0701" style="margin-left:3em;">一、疏　　　　二十五卷　　慧愷述</p>
+<lb ed="YP" n="0336a08"/><p xml:id="pYP31p0336a0801" style="margin-left:3em;"><note n="0336a0801" resp="CBETA" type="add">二【CB】，一【演培】</note><app n="0336a0801"><lem wit="【CB】" resp="CBETA">二</lem><rdg wit="【演培】">一</rdg></app>、疏　　　　十六卷　　　法常述</p>
+<lb ed="YP" n="0336a09"/><p xml:id="pYP31p0336a0901" style="margin-left:3em;">三、疏　　　　四卷　　　　智儼述</p>
+<lb ed="YP" n="0336a10"/><p xml:id="pYP31p0336a1001" style="margin-left:3em;">四、疏　　　　十卷　　　　窺基述</p>
+<lb ed="YP" n="0336a11"/><p xml:id="pYP31p0336a1101" style="margin-left:3em;">五、疏　　　　十一卷　　　廓法師述</p>
+<lb ed="YP" n="0336a12"/><p xml:id="pYP31p0336a1201" style="margin-left:3em;">六、疏　　　　十卷　　　　神泰述</p>
+<lb ed="YP" n="0336a13"/><p xml:id="pYP31p0336a1301" style="margin-left:3em;">七、疏　　　　十卷　　　　毘跋羅述</p>
+<lb ed="YP" n="0336a14"/><p xml:id="pYP31p0336a1401" style="margin-left:3em;">八、疏　　　　七卷　　　　玄範述</p>
+<pb ed="YP" xml:id="YP31.0032.0337a" n="0337a"/>
+<lb ed="YP" n="0337a01"/><p xml:id="pYP31p0337a0101" style="margin-left:3em;">九、章　　　　十五卷　　　道基述</p>
+<lb ed="YP" n="0337a02"/><p xml:id="pYP31p0337a0201" style="margin-left:3em;">一〇、義決　　七卷　　　亡名</p>
+<lb ed="YP" n="0337a03"/><p xml:id="pYP31p0337a0301" style="margin-left:3em;">一一、略疏　　五卷　　　　普寂</p>
+<lb ed="YP" n="0337a04"/><p xml:id="pYP31p0337a0401" style="margin-left:0em;text-indent:2em;">此中慧愷、法常、智嚴、道基、普寂的註疏，是註釋真諦的《攝論》的，屬於攝
+<lb ed="YP" n="0337a05"/>論宗；窺基、神泰、玄範等的註疏，是註釋玄奘的《攝論》的，屬於法相宗；其他的
+<lb ed="YP" n="0337a06"/>幾種，在今日雖已無由了知，或可屬於前者，也說不定。</p>
+<lb ed="YP" n="0337a07"/><p xml:id="pYP31p0337a0701" style="margin-left:0em;text-indent:2em;"><hi rend="bold">攝論的宗派</hi>　如在異譯的條項一看，就可知道：依於真諦譯的《攝論》所建立的
+<lb ed="YP" n="0337a08"/>是攝論宗；依於玄奘譯的《攝論》及《瑜伽師地論》、《成唯識論》等所建立的，是
+<lb ed="YP" n="0337a09"/>法相宗。這是無著、世親的大乘佛教的唯識的異派二大潮流。無著、世親系的大乘佛
+<lb ed="YP" n="0337a10"/>教傳於中國的時代是：
+<lb ed="YP" n="0337a11"/>　　　　　　　　┌勒那摩提┐
+<lb ed="YP" n="0337a12"/>　　　第一期北魏├菩提流支├時代
+<lb ed="YP" n="0337a13"/>　　　　　　　　└佛陀扇多┘
+<lb ed="YP" n="0337a14"/>　　　第二期梁陳—真　　諦—時代
+<pb ed="YP" xml:id="YP31.0032.0338a" n="0338a"/>
+<lb ed="YP" n="0338a01"/>　　　第三期盛唐—玄　　奘—時代</p>
+<lb ed="YP" n="0338a02"/><p xml:id="pYP31p0338a0201" style="margin-left:0em;text-indent:2em;">於此三期中，前之攝論宗雖成立於第二期，但自後之法相宗於第三期被弘傳開宗
+<lb ed="YP" n="0338a03"/>，玄奘新譯之《攝論》被弘傳，護法之唯識被流行，攝論宗的宗脈，終於廢滅而永絕
+<lb ed="YP" n="0338a04"/>跡於中國，獨法相宗而漸漸的隆盛起來。此宗自從傳來我朝（日本），即成為奈良朝
+<lb ed="YP" n="0338a05"/>的佛教的總府，而永掌握著教界的霸權。</p>
+<lb ed="YP" n="0338a06"/><p xml:id="pYP31p0338a0601" style="margin-left:0em;text-indent:2em;">攝論宗的始祖真諦三藏，以其所譯的《攝論》與當時北方的地論宗並列，樹立起
+<lb ed="YP" n="0338a07"/>南方的攝論宗。真諦的門下不少，就中如慧愷，常隨於彼，助其翻譯，又光闡其教義
+<lb ed="YP" n="0338a08"/>，真諦亦大信賴慧愷，傳說：真諦與慧愷，共撰《攝論疏》五卷，可惜的慧愷先於真
+<lb ed="YP" n="0338a09"/>諦而歿。而真諦示寂後，稟其遺囑，敷演《攝論》，弘布其宗義者，有僧宗、法准、
+<lb ed="YP" n="0338a10"/>僧忍、法泰、慧曠等弟子。從此，亙於陳隋唐間，有法常、智儼、靖嵩、道岳、慧休
+<lb ed="YP" n="0338a11"/>、僧辨、靈潤、神泰、海順等法將輩出，無論那一個，都宣揚《攝論》的教義。於中
+<lb ed="YP" n="0338a12"/>，傳有法常造《攝論疏》十六卷，智儼造《攝論疏》四卷。此一時之大盛，而終於衰
+<lb ed="YP" n="0338a13"/>滅，如前所辨。</p>
+<lb ed="YP" n="0338a14"/><p xml:id="pYP31p0338a1401" style="margin-left:0em;text-indent:2em;">法相宗開始於玄奘三藏及其弟子慈恩大師。玄奘三藏到天竺去，帶回了很多的梵
+<pb ed="YP" xml:id="YP31.0032.0339a" n="0339a"/>
+<lb ed="YP" n="0339a01"/>本，在中國一切重新翻譯，對於過去舊譯的佛教，開拓一新的生面，主要的是弘傳《
+<lb ed="YP" n="0339a02"/>解深密經》、《瑜伽論》、《攝大乘論》及《唯識論》的教義。下筆一瀉萬言的高足
+<lb ed="YP" n="0339a03"/>慈恩大師能受其旨，協助玄奘三藏的翻譯，多作註疏，主張以護法正義為無著、世親
+<lb ed="YP" n="0339a04"/>的唯識中道教，別開法相一宗。其註疏之主要者，例如：《瑜伽論略纂》、《成唯識
+<lb ed="YP" n="0339a05"/>論述記》、《法苑義林章》、《成唯識掌中樞要》等，各書多引用憑於《攝論》，特
+<lb ed="YP" n="0339a06"/>別是傳說作有《攝論鈔》十卷。又同門神泰作《攝論疏》十卷，玄範作同疏七卷云。
+<lb ed="YP" n="0339a07"/>慈恩的弟子淄州慧沼在《唯識了義燈》，其弟子樸楊智周，在《唯識論演秘》，釋《
+<lb ed="YP" n="0339a08"/>唯識論》，無論那個，都求典據於《瑜伽》、《攝論》等。其他的法相宗師，都依用
+<lb ed="YP" n="0339a09"/>《攝論》來研究。此論畢竟是繼承《深密》、《瑜伽》等的教典而誘起《唯識論》的
+<lb ed="YP" n="0339a10"/>，所以是法相唯識宗的根本論典。</p>
+<lb ed="YP" n="0339a11"/><p xml:id="pYP31p0339a1101" style="margin-left:0em;text-indent:2em;">現在略述兩宗的教理不同，而其中心思想，在於萬法唯識三界唯心之論。攝論宗
+<lb ed="YP" n="0339a12"/>說：諸法的根本，是建立真妄和合的阿梨耶識，如觀《起信論》的隨緣真如，隨於妄
+<lb ed="YP" n="0339a13"/>的一面之緣而起妄動，則生起萬象，開展了迷界；破妄以增進真的一面，顯現第九的
+<lb ed="YP" n="0339a14"/>菴摩羅識，就開展了悟界。反之，法相宗主張：建立唯妄非真的阿賴耶識，從這裏面
+<pb ed="YP" xml:id="YP31.0032.0340a" n="0340a"/>
+<lb ed="YP" n="0340a01"/>所包藏的種子而開發萬法。從有漏的種子而開顯迷界，從無漏的種子而開顯悟界，次
+<lb ed="YP" n="0340a02"/>第淨化於阿賴耶識，終而轉成大圓鏡智，這樣做時，就可獲得成佛的妙果。以妄識的
+<lb ed="YP" n="0340a03"/>阿賴耶，作諸法的根源，反對真如隨緣說，因為真如凝然，是不作諸法的。兩宗的不
+<lb ed="YP" n="0340a04"/>同，畢竟是對於阿賴耶識作形而上學的與形而下學的，宇宙論本體論的與人性論認識
+<lb ed="YP" n="0340a05"/>論的觀察不同。真諦把阿賴耶識譯為無沒，不關係於生死而為永久的存在；玄奘把阿
+<lb ed="YP" n="0340a06"/>賴耶識譯為藏，含藏萬法的種子之義。因此，把攝論宗叫做法性宗，相反的，把玄奘
+<lb ed="YP" n="0340a07"/>窺基的唯識，叫做法相宗。蓋是新舊兩《攝論》同本異譯，非學派之異；亦非因為相
+<lb ed="YP" n="0340a08"/>傳梵本有異。</p>
+<lb ed="YP" n="0340a09"/><p xml:id="pYP31p0340a0901" style="margin-left:2em;"><hi rend="bold">組織</hi>　就於《攝論》一部的分科是：</p>
+<lb ed="YP" n="0340a10"/><p xml:id="pYP31p0340a1001" style="margin-left:3em;">佛陀扇多譯　　攝大乘論——————不分品章</p>
+<lb ed="YP" n="0340a11"/><p xml:id="pYP31p0340a1101" style="margin-left:3em;">真諦譯　　　　攝大乘論——————分十品</p>
+<lb ed="YP" n="0340a12"/><p xml:id="pYP31p0340a1201" style="margin-left:3em;">同　　　　　　攝大乘論釋—————分十品數十章</p>
+<lb ed="YP" n="0340a13"/><p xml:id="pYP31p0340a1301" style="margin-left:3em;">達摩笈多等譯　攝大乘論釋本————同上</p>
+<lb ed="YP" n="0340a14"/><p xml:id="pYP31p0340a1401" style="margin-left:3em;">玄奘譯　　　　攝大乘論本—————分十一分</p>
+<pb ed="YP" xml:id="YP31.0032.0341a" n="0341a"/>
+<lb ed="YP" n="0341a01"/><p xml:id="pYP31p0341a0101" style="margin-left:3em;">同　　　　　　攝大乘論釋———同上</p>
+<lb ed="YP" n="0341a02"/><p xml:id="pYP31p0341a0201" style="margin-left:3em;">同　　　　　　攝大乘論釋（無性）—同上</p>
+<lb ed="YP" n="0341a03"/><p xml:id="pYP31p0341a0301" style="margin-left:1em;">由是可以概觀本論的組織了。本論一部，大段可分為三，所謂：
+<lb ed="YP" n="0341a04"/>　　　┌總標綱要分第一───────序　分─序論┐
+<lb ed="YP" n="0341a05"/>　　　│┌所知依分第二─┬────┐　　　　　　│
+<lb ed="YP" n="0341a06"/>　　　├┴乃至果斷第十─┘　　　　├正宗分─本論┤
+<lb ed="YP" n="0341a07"/>　　　│　　　　　　　┌前多分──┘　　　　　　│
+<lb ed="YP" n="0341a08"/>　　　└彼果智分第十一┴最後的一句─流通分─結論┘</p>
+<lb ed="YP" n="0341a09"/><p xml:id="pYP31p0341a0901" style="margin-left:0em;text-indent:2em;">真諦譯及笈多譯的分科與玄奘譯的分品有異，他們於分中更分數十章，觀其科判
+<lb ed="YP" n="0341a10"/>的同一，則兩者的所譯與玄奘的所譯，在梵本是有所不同的。如數十章的小科，或可
+<lb ed="YP" n="0341a11"/>是世親無性以後的人師所增加的，大科十品或十一品，非無著菩薩依於《阿毘達磨大
+<lb ed="YP" n="0341a12"/>乘經》的十種殊勝相造論時而親自創定的科判嗎？主要的是因譯者於卷尾所附《攝大
+<lb ed="YP" n="0341a13"/>乘論本》的條目，是依世親《攝論》及無性《攝論》，參考笈多譯、真諦譯的分科而
+<lb ed="YP" n="0341a14"/>私自製作，而使易見本論一部的組織及其內容。</p>
+<pb ed="YP" xml:id="YP31.0032.0342a" n="0342a"/>
+<lb ed="YP" n="0342a01"/><p xml:id="pYP31p0342a0101" style="margin-left:2em;"><hi rend="bold">內容</hi>　先述各品的大要：</p>
+<lb ed="YP" n="0342a02"/><p xml:id="pYP31p0342a0201" style="margin-left:0em;text-indent:2em;">〈總標綱要分〉第一：此章是總標一論的大綱要領，而舉出大乘教的十種殊勝相
+<lb ed="YP" n="0342a03"/>，以論說他遠勝過小乘教的所以，並說明無著的信仰及立足點。這個就是本論的序分
+<lb ed="YP" n="0342a04"/>或是總論，而次章以下，一一次第的論述十種的殊勝相，為正宗分或是別論。</p>
+<lb ed="YP" n="0342a05"/><p xml:id="pYP31p0342a0501" style="margin-left:0em;text-indent:2em;">〈所知依分〉第二：以下十分，是次第的各別論說十種的殊勝相。所知，就是應
+<lb ed="YP" n="0342a06"/>可了知的法門，所謂雜染清淨的一切諸法，即是三自性。依是因義，所謂所知依，就
+<lb ed="YP" n="0342a07"/>是三自性的諸法之因。茲即於一切諸法的根本原因，建立含藏種子的阿賴耶識，證其
+<lb ed="YP" n="0342a08"/>存在，明其價值，說其相狀，論那從萬法展開的過程，概觀賴耶思想的發達史。這是
+<lb ed="YP" n="0342a09"/>本論廣談大乘佛教的認識論，而就於此章中，論說認識論的主觀價值。</p>
+<lb ed="YP" n="0342a10"/><p xml:id="pYP31p0342a1001" style="margin-left:0em;text-indent:2em;">〈所知相分〉第三：所知如前所說。所知即是相，名所知相。所謂所知相，就是
+<lb ed="YP" n="0342a11"/>三自性。即把客觀的諸法，分為徧計所執相、依他起相、圓成實相的三自性。這些客
+<lb ed="YP" n="0342a12"/>觀的諸法價值，畢竟因於主觀的認識而有，所以從主觀的價值，可以論定客觀的價值
+<lb ed="YP" n="0342a13"/>，了知此三自性的價值之處，說其能悟入於唯識三性中道之理，是謂所認識論中的客
+<lb ed="YP" n="0342a14"/>觀價值論。</p>
+<pb ed="YP" xml:id="YP31.0032.0343a" n="0343a"/>
+<lb ed="YP" n="0343a01"/><p xml:id="pYP31p0343a0101" style="margin-left:0em;text-indent:2em;">〈入所知相分〉第四：入是悟入。此章是敘說正能悟入所知相的唯識三自性的中
+<lb ed="YP" n="0343a02"/>道之理，約其悟入前面的賴耶緣起的法門唯識中道教說，可名為「悟道論」。內容敘
+<lb ed="YP" n="0343a03"/>述悟入的根機、時、處、位，悟入的原因及其目的，乃至修行的要領。</p>
+<lb ed="YP" n="0343a04"/><p xml:id="pYP31p0343a0401" style="margin-left:0em;text-indent:2em;">〈彼入因果分〉第五：彼是唯識性。悟入唯識性的因行，是加行時所行的六波羅
+<lb ed="YP" n="0343a05"/>密行，屬於世間的社會道德；悟入唯識性的果德，是通達時所行的六波羅密行，屬於
+<lb ed="YP" n="0343a06"/>出世間的宗教道德。於此提倡關於六波羅密行的所有問題。根據這個社會道德的實踐
+<lb ed="YP" n="0343a07"/>，救濟事業的實修，不外是努力於唯識無境道中實相的真理體驗。</p>
+<lb ed="YP" n="0343a08"/><p xml:id="pYP31p0343a0801" style="margin-left:0em;text-indent:2em;">〈彼修差別分〉第六：修是修習或修行。悟入那唯識之理，應使修的六波羅密行
+<lb ed="YP" n="0343a09"/>，次第殊勝，所以修行是有前後差別的，這叫做彼修差別。即於此章，說六度修行的
+<lb ed="YP" n="0343a10"/>階位，明修行的相狀及時間等。</p>
+<lb ed="YP" n="0343a11"/><p xml:id="pYP31p0343a1101" style="margin-left:0em;text-indent:2em;">〈增上戒學分〉第七：於以下的三分，次第說於三學。增上是依義，所謂增上戒
+<lb ed="YP" n="0343a12"/>學者，就是依於戒律而學。若前六波羅密多主於利他行，則此三學即是主於自利行。
+<lb ed="YP" n="0343a13"/>此章依於四門分別而說戒學。</p>
+<lb ed="YP" n="0343a14"/><p xml:id="pYP31p0343a1401" style="margin-left:0em;text-indent:2em;">〈增上心學分〉第八：心是內心，即禪定。此章依於六門分別而說定學。</p>
+<pb ed="YP" xml:id="YP31.0032.0344a" n="0344a"/>
+<lb ed="YP" n="0344a01"/><p xml:id="pYP31p0344a0101" style="margin-left:0em;text-indent:2em;">〈增上慧學分〉第九：慧是智慧，這是禪戒二學的結果。於此章中，亦以六門分
+<lb ed="YP" n="0344a02"/>別而說慧學。</p>
+<lb ed="YP" n="0344a03"/><p xml:id="pYP31p0344a0301" style="margin-left:0em;text-indent:2em;">〈彼果斷分〉第十：果是對於凡夫的因位而說的佛果位。在佛果位棄捨煩惱所知
+<lb ed="YP" n="0344a04"/>的二障，叫做斷。斷，即是滅，是涅槃。於此章中，是說轉依成佛之相。</p>
+<lb ed="YP" n="0344a05"/><p xml:id="pYP31p0344a0501" style="margin-left:0em;text-indent:2em;">〈彼果智〉分第十一：彼果智者，果是果位，智是佛的三身。於此章中，是說大
+<lb ed="YP" n="0344a06"/>乘信仰的理想，圓滿佛身及其理想境界的淨土微妙莊嚴。這是本論的理想論。於佛陀
+<lb ed="YP" n="0344a07"/>示現佛的三身，於淨土示現十八圓滿的華藏世界。</p>
+<lb ed="YP" n="0344a08"/><p xml:id="pYP31p0344a0801" style="margin-left:0em;text-indent:2em;">上來構成本論的組織及其內容，圖示如下：
+<lb ed="YP" n="0344a09"/>
+<lb ed="YP" n="0344a10"/>
+<lb ed="YP" n="0344a11"/>
+<lb ed="YP" n="0344a12"/>
+<lb ed="YP" n="0344a13"/>
+<lb ed="YP" n="0344a14"/>
+<pb ed="YP" xml:id="YP31.0032.0345a" n="0345a"/>
+<lb ed="YP" n="0345a01"/>　　　　　　　　┌總標綱要分第一—大綱要領————————————————————————序論
+<lb ed="YP" n="0345a02"/>　　　　　　　　│所知依分第　二—賴耶緣起論———主觀價值論┐
+<lb ed="YP" n="0345a03"/>　　　　　　　　│所知相分第　三—唯識三性中道說—客觀價值論┴——————————認識論┐
+<lb ed="YP" n="0345a04"/>　　　　　　　　│入所知相分第四—唯識悟入說───────────────總論┐　　　　│
+<lb ed="YP" n="0345a05"/>　　　　　　　　│彼入因果分第五—六度說─────社會道德—利他行┐　　　　　├—修養論┤
+<lb ed="YP" n="0345a06"/>　　　攝大乘論本┤彼修差別分第六—十地說─────────────┼階位┐　　│　　　　│
+<lb ed="YP" n="0345a07"/>　　　　　　　　│增上戒學分第七─戒律制身┐　　　　　　　　　　　│　　├各論┘　　　　├本論
+<lb ed="YP" n="0345a08"/>　　　　　　　　│增上心學分第八─禪定整心┴因┐　　　　　　　　　│　　│　　　　　　　│
+<lb ed="YP" n="0345a09"/>　　　　　　　　│增上慧學分第九─智慧───果┴三學說─自利行──┴方法┘　　　　　　　│
+<lb ed="YP" n="0345a10"/>　　　　　　　　│彼果斷分第　十─涅槃論─成佛論┐　　　　　　　　　　　　　　　　　　　│
+<lb ed="YP" n="0345a11"/>　　　　　　　　└彼果智分第十一┬三身說┐　　　├────────────────理想論┴結論
+<lb ed="YP" n="0345a12"/>　　　　　　　　　　　　　　　　└淨土說┴佛陀論┘</p>
+<lb ed="YP" n="0345a13"/><p xml:id="pYP31p0345a1301" style="margin-left:0em;text-indent:2em;">本論實在組織井然，內容充實，不失於略，不失於廣，首尾一貫的能夠說盡賴耶
+<lb ed="YP" n="0345a14"/>緣起論唯識中道的妙諦，可謂了無餘蘊。</p>
+<pb ed="YP" xml:id="YP31.0032.0346a" n="0346a"/>
+<lb ed="YP" n="0346a01"/><p xml:id="pYP31p0346a0101" style="margin-left:0em;text-indent:2em;"><hi rend="bold">造論的目的</hi>　造論者無著菩薩，自捨小乘化地部而迴心向大（見《瑜伽師地論解
+<lb ed="YP" n="0346a02"/>題》成立項下），就悟入大乘空義，體得唯識中道的深妙之理，以專力弘傳之。造這
+<lb ed="YP" n="0346a03"/>論的目的，亦不外於開顯宣傳大乘唯識中道的妙理。本論卷首說《阿毘達磨大乘經》
+<lb ed="YP" n="0346a04"/>中的十種殊勝相，其目的可說就是「為顯大乘體大故說」。無著造論的旨趣，亦於此
+<lb ed="YP" n="0346a05"/>言可以想見了。即他自己所樹立的宣傳，亦是為顯大乘唯識教的甚深高廣無上而遠越
+<lb ed="YP" n="0346a06"/>於小乘的。然而繼承《阿毘達磨經》的十種殊勝相，本論的全編是不外於解說論述這
+<lb ed="YP" n="0346a07"/>個的。所以不得不說他是大乘教大成的運動者。從世親《攝論》所說「為欲開曉無知
+<lb ed="YP" n="0346a08"/>者故」；無性《攝論》所說「欲以十義總攝大乘所有要義」；「開示他所未了」；由
+<lb ed="YP" n="0346a09"/>這可見無著創造本論的目的之所在了！</p>
+<lb ed="YP" n="0346a10"/><p xml:id="pYP31p0346a1001" style="margin-left:0em;text-indent:2em;"><hi rend="bold">名義及其所屬</hi>　本論卷首舉所釋的經說：「阿毘達磨大乘經中，薄伽梵前已能善
+<lb ed="YP" n="0346a11"/>入大乘菩薩……」；卷末結說：「阿毘達磨大乘經中攝大乘品，我阿僧伽略釋究竟」
+<lb ed="YP" n="0346a12"/>。本論初中後，都是解釋《阿毘達磨大乘經》十萬頌中的〈攝大乘品〉，是論述大乘
+<lb ed="YP" n="0346a13"/>佛教的殊勝相，則論釋〈攝大乘品〉的意義，即以所釋的經文〈攝大乘品〉之名，為
+<lb ed="YP" n="0346a14"/>能釋的論的題目，所云《攝大乘論》，略稱《攝論》。攝論宗的宗名，是從這個所依
+<pb ed="YP" xml:id="YP31.0032.0347a" n="0347a"/>
+<lb ed="YP" n="0347a01"/>的論典而來的，依於《攝論》而立宗旨之義。而攝大乘是攝盡大乘甚深的教義之意。
+<lb ed="YP" n="0347a02"/>無性《攝論》，首先釋曰：「大乘經言，簡別餘處。若略釋者，亦乘亦大故名大乘，
+<lb ed="YP" n="0347a03"/>或乘大性故名大乘，因果大故，業具運故，果謂十地。若廣釋者，七種大性共相應故
+<lb ed="YP" n="0347a04"/>，謂菩提分（六）波羅密多」。</p>
+<lb ed="YP" n="0347a05"/><p xml:id="pYP31p0347a0501" style="margin-left:0em;text-indent:2em;">真諦譯世親《攝論》卷首道基序曰：「言攝大乘者：攝謂能攝、蘊積、苞含、攝
+<lb ed="YP" n="0347a06"/>藏名攝。言大乘者，理必絕待，假大稱之，名曰大乘。其義郭周，體性該博，謂為大
+<lb ed="YP" n="0347a07"/>也；所行功德，能至能證。名之為乘。論者，無著菩薩之所製造，窮源盡理，清微朗
+<lb ed="YP" n="0347a08"/>暢，謂為論也」。題目的解釋，無論那一種，是都可得的。</p>
+<lb ed="YP" n="0347a09"/><p xml:id="pYP31p0347a0901" style="margin-left:0em;text-indent:2em;">本論，在經律論的三藏中，屬於論藏所攝；在聲聞菩薩的二藏中，屬菩薩藏所攝
+<lb ed="YP" n="0347a10"/>；在大小二乘中，屬大乘所攝。尚有詳細分別，略同於《瑜伽論》所屬，可見《瑜伽
+<lb ed="YP" n="0347a11"/>師地論解題》所屬的條下。</p></cb:div>
+<lb ed="YP" n="0347a12"/>
+<lb ed="YP" n="0347a13"/>
+<lb ed="YP" n="0347a14"/>
+<pb ed="YP" xml:id="YP31.0032.0348a" n="0348a"/>
+<lb ed="YP" n="0348a01"/>
+<lb ed="YP" n="0348a02"/>
+<lb ed="YP" n="0348a03"/>
+<lb ed="YP" n="0348a04"/>
+<lb ed="YP" n="0348a05"/>
+<lb ed="YP" n="0348a06"/>
+<lb ed="YP" n="0348a07"/>
+<lb ed="YP" n="0348a08"/>
+<lb ed="YP" n="0348a09"/>
+<lb ed="YP" n="0348a10"/>
+<lb ed="YP" n="0348a11"/>
+<lb ed="YP" n="0348a12"/>
+<lb ed="YP" n="0348a13"/>
+<lb ed="YP" n="0348a14"/>
+</body></text></TEI>
